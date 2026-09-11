@@ -1,6 +1,6 @@
 schema_version: 1
-last_updated_chapter: 6
-current_time: "Day 2 01:31"
+last_updated_chapter: 7
+current_time: "Day 2 01:45"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-001
@@ -37,12 +37,16 @@ locations:
       - 有本月抄表通知及跨年份物业公告
       - 楼内存在普通住户并互相认识
       - 七楼704真实有人居住
-      - 七楼顶板上方可听见拖动/撞击声
+      - 七楼当前外立面看不出完整第八层高度
+      - 703住户认知中建筑为七层，但对过去屋面铁门/入口存在不确定记忆
+      - 704断开户内总电后头顶拖动/撞击声仍持续
+      - 703住户同期未听见704头顶拖动声
+      - 01:45左右头顶出现两组三次规律性轻敲
     official_record_status: normal_qingwuyuan_systems_do_not_recognize
   qingwuyuan_704:
     occupant: 刘桂兰
     status: occupied
-    complaint: 午夜后楼上反复拖动家具/重物
+    complaint: 午夜后楼上反复拖动家具/重物，现新增规律性三下轻敲
     resident_belief_upstairs: "804"
 organizations:
   night_service_center:
@@ -63,7 +67,12 @@ resources:
     content:
       - 异常道路与13栋现场照片
       - 刘桂兰近期噪音录音至少两段
+      - 704现场实时噪音录音
   liu_guilan_phone_evidence:
     holder: 刘桂兰
     content:
       - 近期楼上噪音录音至少三段，其中一段尚未成功转出13栋现场
+  qingwuyuan_old_key_check:
+    status: 王启明正在按梁策要求核查旧钥匙柜
+    requested_target: 标注13栋屋面或仅有异常编号的钥匙
+    handling_rule: 只查看并拍照发送中心，不携钥匙进入现场
