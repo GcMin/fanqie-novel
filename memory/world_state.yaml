@@ -1,9 +1,25 @@
 schema_version: 1
-last_updated_chapter: 0
-current_time: null
-world: {}
-locations: {}
-organizations: {}
-resources: {}
-
-# 这里只记录会影响后续剧情的“当前状态”，不重复世界观百科。
+last_updated_chapter: 1
+current_time: "Day 2 00:18"
+world:
+  anomaly_public_awareness: none
+  current_arc: ARC-001
+locations:
+  night_service_center:
+    name: 临江市夜间综合服务中心
+    status: 正常夜班运行
+    present_characters:
+      - 夏宁
+  qingwuyuan:
+    name: 青梧苑
+    official_building_count: 12
+    anomaly_order_address: "13栋704"
+    on_site_verified: false
+organizations:
+  night_service_center:
+    public_role: 夜间城市服务联动与部分现场处置
+    anomaly_role_public: false
+resources:
+  chapter_1_paper_order:
+    holder: 梁策
+    content: 青梧苑13栋704工单纸质副本
