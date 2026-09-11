@@ -1,16 +1,39 @@
 schema_version: 1
-last_updated_chapter: 0
-characters: {}
-
-# 这是防止“角色突然拥有作者视角”的关键文件。
-# 示例：
-# characters:
-#   lin_mo:
-#     knows:
-#       - 地下室存在
-#     suspects:
-#       - 李青可能参与失踪案
-#     believes_false:
-#       - 王叔死于意外
-#     does_not_know:
-#       - 李青其实是卧底
+last_updated_chapter: 1
+characters:
+  zhou_heng:
+    knows:
+      - 青梧苑常规资料显示只有12栋住宅楼
+      - 夜班工单系统存在一张青梧苑13栋704的有效生活噪音工单
+      - 该工单无法按普通生活噪音流程转派，只显示接单操作
+      - 梁策要求不要修改地址并保留纸质工单
+    suspects:
+      - 工单地址或系统数据存在无法用普通录入错误解释的问题
+      - 梁策可能遇到过类似情况
+    believes_false: []
+    does_not_know:
+      - 失址现象及其术语
+      - 青梧苑13栋是否真的能够在现场出现
+      - 永安里与本次工单的联系
+      - 异常工单系统来源
+  liang_ce:
+    knows:
+      - 青梧苑13栋704工单需要保留原始地址并打印纸质副本
+      - 此类地址矛盾不能简单按录入错误处理
+      - 周衡是第一次参与此类现场处置
+    suspects: []
+    believes_false: []
+    does_not_know:
+      - 本次13栋事件最终会如何变化
+  xia_ning:
+    knows:
+      - 青梧苑一期6栋二期6栋，常规认知中共12栋
+      - 系统确实生成了13栋704工单且周衡未修改地址
+      - 梁策要求保留原地址并接单
+    suspects:
+      - 该工单不是普通地址录入错误
+    believes_false: []
+    does_not_know:
+      - 失址完整机制
+      - 梁策掌握的全部异常处置经验
+      - 永安里与本次工单的联系
