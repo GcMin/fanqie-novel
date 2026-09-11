@@ -1,5 +1,5 @@
 chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars,qa_status,publish_status,notes
-1,夜班,completed,ARC-001,建立周衡与夜班职业流程并让他接下首张异常工单,正常工单系统出现不存在的青梧苑13栋704地址,周衡从旁观新人变为异常工单现场处置人员,F001|F002,3000,pass,ready,Reader Review完成且MINOR-001已修复；Memory已更新
+1,夜班,completed,ARC-001,建立周衡与夜班职业流程并让他接下首张异常工单,正常工单系统出现不存在的青梧苑13栋704地址,周衡从旁观新人变为异常工单现场处置人员,F001|F002,3000,pass,published,Reader Review完成且MINOR-001已修复；Memory已更新
 2,第一张工单,planned,ARC-001,核对工单来源并准备出发,所有常规资料都否认13栋存在但工单无法正常转派,周衡开始把它视为需要亲自验证的问题,F001|F002,3000,pending,blocked,
 3,青梧苑没有十三栋,planned,ARC-001,抵达青梧苑并向物业/保安核实楼栋,现场人员与平面资料都确认只有12栋,外部证词进一步否定工单地址,F001,3000,pending,blocked,
 4,多出来的路,planned,ARC-001,在小区内寻找工单定位,停车区附近出现原本不存在的人行路径,异常从数据问题升级为可见空间变化,F001,3000,pending,blocked,
