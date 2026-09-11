@@ -1,22 +1,22 @@
 schema_version: 1
 
-current_chapter: 6
-current_source_sha: "649dc7a411bdc6f07e37b0393e4d75d54d5b467b"
-current_review_path: "reader_reviews/0006_649dc7a4.md"
-stage: passed_to_qa
+current_chapter: null
+current_source_sha: null
+current_review_path: null
+stage: idle
 safe_mode: false
 retry_cycles: 0
 next_retry_after: null
 
 rounds:
-  local_revision: 1
+  local_revision: 0
   full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 2
+  reviews_this_cycle: 0
 
-last_action: local_revision
-last_action_at: "2026-09-11T17:09:00Z"
-last_result_sha: "649dc7a411bdc6f07e37b0393e4d75d54d5b467b"
+last_action: chapter_6_passed_to_ready
+last_action_at: "2026-09-11T17:15:00Z"
+last_result_sha: "bdde02b48ed736af6f1f1f21a26831640b318f63"
 last_failure_reason: null
 
 # stage 可取：
