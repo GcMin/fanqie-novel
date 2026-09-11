@@ -1,2 +1,11 @@
 chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars,qa_status,publish_status,notes
-1,,planned,ARC-001,,,,,3000,pending,blocked,
+1,夜班,planned,ARC-001,建立周衡与夜班职业流程并让他接下首张异常工单,正常工单系统出现不存在的青梧苑13栋704地址,周衡从旁观新人变为异常工单现场处置人员,F001|F002,3000,pending,blocked,详细章纲见 plans/chapter_0001_plan.md
+2,第一张工单,planned,ARC-001,核对工单来源并准备出发,所有常规资料都否认13栋存在但工单无法正常转派,周衡开始把它视为需要亲自验证的问题,F001|F002,3000,pending,blocked,
+3,青梧苑没有十三栋,planned,ARC-001,抵达青梧苑并向物业/保安核实楼栋,现场人员与平面资料都确认只有12栋,外部证词进一步否定工单地址,F001,3000,pending,blocked,
+4,多出来的路,planned,ARC-001,在小区内寻找工单定位,停车区附近出现原本不存在的人行路径,异常从数据问题升级为可见空间变化,F001,3000,pending,blocked,
+5,十三栋,planned,ARC-001,确认13栋实体并决定是否进入,建筑真实可见但与小区现有布局冲突,周衡第一次亲眼确认不存在地址可以出现,F001|F002,3000,pending,blocked,
+6,704,planned,ARC-001,接触投诉人并明确诉求,704住户把一切当成普通楼上噪音问题,处置目标从找楼转为处理楼上噪音,F001,3000,pending,blocked,
+7,楼上的声音,planned,ARC-001,按建筑故障逻辑检查噪音来源,704已接近建筑顶层但天花板上方持续有拖动声,确认声音不能用普通相邻住户解释,F001,3000,pending,blocked,
+8,顶楼,planned,ARC-001,核实楼层结构和住户信息,官方/现场结构与住户认知出现差异,周衡开始记录互相冲突的建筑事实,F001|F002,3000,pending,blocked,
+9,夜里一点,planned,ARC-001,等待并复现异常发生时间窗口,楼梯/空间在特定时间出现变化,确认异常具有时间条件,F001|F004,3000,pending,blocked,
+10,多出来的台阶,planned,ARC-001,决定是否沿新增楼梯继续上行,常规建筑结构上方出现可通行空间,周衡与梁策进入更深层异常并接近804,F004,3000,pending,blocked,
