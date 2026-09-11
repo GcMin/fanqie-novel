@@ -1,6 +1,6 @@
 schema_version: 1
-last_updated_chapter: 7
-current_time: "Day 2 01:45"
+last_updated_chapter: 8
+current_time: "Day 2 01:56"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-001
@@ -41,7 +41,9 @@ locations:
       - 703住户认知中建筑为七层，但对过去屋面铁门/入口存在不确定记忆
       - 704断开户内总电后头顶拖动/撞击声仍持续
       - 703住户同期未听见704头顶拖动声
-      - 01:45左右头顶出现两组三次规律性轻敲
+      - 七楼西端检修门为顶部封死的弱电井，不通屋面
+      - 七楼楼梯扶手收口与顶板没有明显近期封堵继续向上楼梯的痕迹
+      - 01:45后头顶多次出现三下规律性轻敲
     official_record_status: normal_qingwuyuan_systems_do_not_recognize
   qingwuyuan_704:
     occupant: 刘桂兰
@@ -62,17 +64,24 @@ resources:
       - 热线原录音本地副本
       - 工单/坐标截图
       - 停车区监控侧记录/截图
+      - “13屋面”旧钥匙、旧钥匙柜与现行钥匙登记表照片
   zhou_heng_phone_evidence:
     holder: 周衡
     content:
       - 异常道路与13栋现场照片
       - 刘桂兰近期噪音录音至少两段
       - 704现场实时噪音录音
+      - 夏宁转发的“13屋面”钥匙与登记表照片
   liu_guilan_phone_evidence:
     holder: 刘桂兰
     content:
       - 近期楼上噪音录音至少三段，其中一段尚未成功转出13栋现场
   qingwuyuan_old_key_check:
-    status: 王启明正在按梁策要求核查旧钥匙柜
-    requested_target: 标注13栋屋面或仅有异常编号的钥匙
-    handling_rule: 只查看并拍照发送中心，不携钥匙进入现场
+    status: 已找到一把标签写着“13屋面”的旧钥匙并原位保留
+    location: 正常青梧苑门岗旧钥匙柜底部/12栋屋面钥匙附近
+    evidence:
+      - 钥匙标签为发黄白塑料牌，黑色油笔写“13屋面”
+      - 现行钥匙登记表只到12栋
+      - 已查两本旧纸质钥匙登记册目录均没有13栋
+    handling_rule: 只拍照保存，不携钥匙进入异常现场
+    verified_function: false
