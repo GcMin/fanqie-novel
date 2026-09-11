@@ -1,18 +1,40 @@
 schema_version: 1
-last_updated_chapter: 0
-characters: {}
-
-# 示例：
-# characters:
-#   lin_mo:
-#     name: 林默
-#     location: 城南出租屋
-#     physical_condition:
-#       injury: 左臂擦伤
-#       fatigue: medium
-#     emotional_state: 戒备
-#     current_goal: 找到失踪者
-#     inventory:
-#       - 黑色钥匙
-#     commitments:
-#       - 明早与李青见面
+last_updated_chapter: 1
+characters:
+  zhou_heng:
+    name: 周衡
+    location: 临江市夜间综合服务中心门口，准备随梁策前往青梧苑
+    physical_condition:
+      injury: none
+      fatigue: low
+    emotional_state: 警惕但仍以职业排查思路为主
+    current_goal: 完成第一张异常地址工单，不犯低级错误
+    inventory:
+      - 中心强光手电
+      - 反光背心
+      - 随身记录本
+    commitments:
+      - 随梁策前往青梧苑核实13栋704工单
+  liang_ce:
+    name: 梁策
+    location: 临江市夜间综合服务中心门口，准备前往青梧苑
+    physical_condition:
+      injury: none
+      fatigue: low
+    emotional_state: 克制，进入外勤处置状态
+    current_goal: 完成青梧苑13栋704现场处置并控制新人风险
+    inventory:
+      - 青梧苑13栋704纸质工单
+      - 外勤装备
+    commitments:
+      - 带周衡前往青梧苑
+  xia_ning:
+    name: 夏宁
+    location: 临江市夜间综合服务中心调度席
+    physical_condition:
+      injury: none
+      fatigue: low
+    emotional_state: 对异常地址产生疑惑
+    current_goal: 继续值守并提供地址/工单资料支持
+    inventory: []
+    commitments: []
