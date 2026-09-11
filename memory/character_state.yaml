@@ -1,14 +1,14 @@
 schema_version: 1
-last_updated_chapter: 9
+last_updated_chapter: 10
 characters:
   zhou_heng:
     name: 周衡
-    location: 青梧苑13栋六楼半，面向七楼上方正在形成的额外楼梯
+    location: 青梧苑13栋新增八楼804门外
     physical_condition:
       injury: none
       fatigue: moderate
-    emotional_state: 高度警惕；已亲眼确认顶层结构发生可记录变化，但仍坚持先验证稳定性再进入
-    current_goal: 等新增楼梯停止变化，确认结构与退路后决定是否上行
+    emotional_state: 高度警惕；已进入此前不存在的八楼，仍以确认住户、退路和记录为优先
+    current_goal: 处理804门内三下轻敲并确认屋内人员/声源，再决定是否进入
     inventory:
       - 中心强光手电
       - 反光背心
@@ -19,27 +19,28 @@ characters:
       - 704现场实时噪音录音
       - 夏宁转发的“13屋面”旧钥匙及钥匙柜/登记表照片
       - 01:56七楼顶层结构基线照片与持续录像
-      - 02:00后新增黑缝/踏步/扶手结构照片与录像
+      - 02:00后新增楼梯形成过程照片与录像
+      - 02:12新增八楼平台、803/804门牌与退路照片
     commitments:
-      - 继续完成704噪音工单并确认楼上声源
+      - 继续完成704噪音工单并确认804内声源
       - 不把普通居民安全当作试验，不贸然改变未知现场
-      - 不主动以三下敲击试图和未知声源交流
-      - 等额外结构稳定并确认退路后再决定是否进入
+      - 保持与梁策同行并保留可撤退路线
+      - 未确认屋内状态前不直接闯入804
   liang_ce:
     name: 梁策
-    location: 青梧苑13栋六楼半，与周衡共同观察新增楼梯
+    location: 青梧苑13栋新增八楼804门外，与周衡同行
     physical_condition:
       injury: none
       fatigue: moderate
-    emotional_state: 克制警惕；结构变化后主动后撤并继续限制现场变量
-    current_goal: 确认新增结构稳定性和撤退条件，避免周衡或刘桂兰贸然上行
+    emotional_state: 克制警惕；已完成新增楼梯有限承重确认并继续控制进入风险
+    current_goal: 确认804门外接触安全、保持退路，并限制周衡贸然进入
     inventory:
       - 外勤工具包
       - 中心外勤装备
     commitments:
       - 与周衡保持同行
       - 不让门岗人员携“13屋面”未知钥匙进入异常现场
-      - 新增结构未稳定前不进入
+      - 不在未知房间状态未确认前强行进入
       - 暂不一次性交代其既往异常处置经验
   xia_ning:
     name: 夏宁
@@ -47,28 +48,29 @@ characters:
     physical_condition:
       injury: none
       fatigue: moderate
-    emotional_state: 持续关注外勤文字记录与定位冲突，保持调度状态
-    current_goal: 保持与外勤联系并保存顶层结构变化的时间与文字侧证据
+    emotional_state: 持续关注外勤文字记录与定位冲突，已知二人进入新增八楼
+    current_goal: 保持与外勤联系并保存八楼出现、上行与804定位的时间侧证据
     inventory:
       - 本地保存的热线录音与工单截图
       - 停车区监控相关截图/记录
       - 王启明发送的旧钥匙柜、“13屋面”钥匙和现行登记表照片
-      - 周衡02:00后关于顶层结构变化的文字报告
+      - 周衡关于02:00后顶层结构变化及02:12抵达803/804平台的文字报告
     commitments:
       - 不随意刷新或删改异常工单原始记录
       - 继续承担整晚正常调度职责
       - 保留钥匙/登记记录与外勤结构变化记录
+      - 外勤每到关键平台继续确认收报
   liu_guilan:
     name: 刘桂兰
     location: 青梧苑13栋704
     physical_condition:
       injury: none
       mobility: 右膝不便
-    emotional_state: 紧张但更坚信自己关于楼上空间的记忆，已被要求留在704远离楼梯下方
-    current_goal: 等工作人员确认新增楼梯并处理楼上噪音
+    emotional_state: 紧张但更坚信自己关于804的记忆；知道工作人员已经上楼但未跟随
+    current_goal: 等周衡与梁策确认804并处理楼上噪音
     inventory:
       - 本人手机
       - 至少三段近期楼上噪音录音（其中第三段仍主要保留在本人手机）
     commitments:
       - 暂留704等待外勤继续确认声源
-      - 不靠近正在变化的楼梯结构
+      - 不跟随进入新增楼梯和八楼空间
