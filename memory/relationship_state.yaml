@@ -1,0 +1,13 @@
+schema_version: 1
+last_updated_chapter: 0
+relationships: []
+
+# 示例：
+# - a: lin_mo
+#   b: li_qing
+#   public_relation: 朋友
+#   actual_relation: 互相怀疑
+#   trust_a_to_b: 35
+#   trust_b_to_a: 50
+#   unresolved_conflicts:
+#     - 林默怀疑李青隐瞒身份

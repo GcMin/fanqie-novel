@@ -1,0 +1,16 @@
+schema_version: 1
+last_updated_chapter: 0
+characters: {}
+
+# 这是防止“角色突然拥有作者视角”的关键文件。
+# 示例：
+# characters:
+#   lin_mo:
+#     knows:
+#       - 地下室存在
+#     suspects:
+#       - 李青可能参与失踪案
+#     believes_false:
+#       - 王叔死于意外
+#     does_not_know:
+#       - 李青其实是卧底

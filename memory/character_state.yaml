@@ -1,0 +1,18 @@
+schema_version: 1
+last_updated_chapter: 0
+characters: {}
+
+# 示例：
+# characters:
+#   lin_mo:
+#     name: 林默
+#     location: 城南出租屋
+#     physical_condition:
+#       injury: 左臂擦伤
+#       fatigue: medium
+#     emotional_state: 戒备
+#     current_goal: 找到失踪者
+#     inventory:
+#       - 黑色钥匙
+#     commitments:
+#       - 明早与李青见面

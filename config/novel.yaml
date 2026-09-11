@@ -1,0 +1,50 @@
+schema_version: 1
+language: zh-CN
+platform: fanqie
+
+chapter:
+  target_chars: 3000
+  preferred_min_chars: 2600
+  preferred_max_chars: 3400
+  hard_min_chars: 2300
+  hard_max_chars: 3800
+  count_method: chinese_effective_chars
+  exact_length_required: false
+
+reading_window:
+  recent_full_chapters: 5
+  recent_summary_chapters: 10
+  load_all_historical_fulltext: false
+  retrieve_older_history_on_demand: true
+
+planning:
+  future_rough_chapters: 10
+  detailed_plan_chapters: 1
+  arc_typical_min_chapters: 10
+  arc_typical_max_chapters: 30
+
+memory:
+  update_after_every_chapter: true
+  global_summary_refresh_every_chapters: 10
+  track_character_knowledge: true
+  track_relationships: true
+  track_foreshadowing: true
+  track_timeline: true
+
+qa:
+  continuity_required: true
+  style_required: true
+  min_meaningful_state_changes: 1
+  block_publish_on_failure: true
+
+publishing:
+  source_directory: chapters/ready
+  draft_directory: chapters/draft
+  published_directory: chapters/published
+  publish_only_ready: true
+  strip_frontmatter: true
+  strip_internal_comments: true
+  publish_title: true
+  publish_body: true
+  publish_internal_metadata: false
+  verify_after_publish: true
