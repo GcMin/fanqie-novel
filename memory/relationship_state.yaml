@@ -1,13 +1,25 @@
 schema_version: 1
-last_updated_chapter: 0
-relationships: []
-
-# 示例：
-# - a: lin_mo
-#   b: li_qing
-#   public_relation: 朋友
-#   actual_relation: 互相怀疑
-#   trust_a_to_b: 35
-#   trust_b_to_a: 50
-#   unresolved_conflicts:
-#     - 林默怀疑李青隐瞒身份
+last_updated_chapter: 1
+relationships:
+  - a: zhou_heng
+    b: liang_ce
+    public_relation: 新人外勤与资深带教
+    actual_relation: 初步职业信任，梁策仍明显保留信息
+    trust_a_to_b: 35
+    trust_b_to_a: 30
+    unresolved_conflicts:
+      - 周衡不知道梁策为何对不存在地址反应如此平静
+  - a: zhou_heng
+    b: xia_ning
+    public_relation: 新入职同事与夜间调度
+    actual_relation: 普通同事，已建立基础工作配合
+    trust_a_to_b: 30
+    trust_b_to_a: 25
+    unresolved_conflicts: []
+  - a: liang_ce
+    b: xia_ning
+    public_relation: 长期夜班同事
+    actual_relation: 具备工作默契，但双方异常信息掌握程度并不相同
+    trust_a_to_b: 60
+    trust_b_to_a: 55
+    unresolved_conflicts: []
