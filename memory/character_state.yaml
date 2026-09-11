@@ -1,14 +1,14 @@
 schema_version: 1
-last_updated_chapter: 6
+last_updated_chapter: 7
 characters:
   zhou_heng:
     name: 周衡
-    location: 青梧苑13栋七楼704门口附近
+    location: 青梧苑13栋七楼704门口/室内附近
     physical_condition:
       injury: none
-      fatigue: low_to_moderate
-    emotional_state: 高度警惕，但仍坚持按建筑与投诉流程逐项验证
-    current_goal: 确认804是否存在，并先排查屋面/楼层结构与噪音来源
+      fatigue: moderate
+    emotional_state: 高度警惕，已承认普通结构解释正在不断缩小，但仍坚持逐项验证
+    current_goal: 等待屋面钥匙记录并核查顶层结构、屋面设备与704头顶声源
     inventory:
       - 中心强光手电
       - 反光背心
@@ -16,30 +16,33 @@ characters:
       - 青梧苑13栋704纸质工单
       - 手机内的异常道路/13栋现场照片
       - 通过工作号收到的刘桂兰近期噪音录音两段
+      - 本章现场实时噪音录音
     commitments:
       - 继续完成704噪音工单并确认楼上声源
       - 不把普通居民安全当作试验，不贸然改变未知现场
+      - 在确认屋面条件前不把804当作已证实实体
   liang_ce:
     name: 梁策
     location: 青梧苑13栋七楼704门口附近
     physical_condition:
       injury: none
-      fatigue: low_to_moderate
-    emotional_state: 克制，明显进入异常现场风险控制状态
-    current_goal: 带周衡完成13栋处置并控制探索风险
+      fatigue: moderate
+    emotional_state: 克制，持续限制现场变量并观察周衡的判断方式
+    current_goal: 带周衡完成13栋处置，先核查屋面/钥匙记录并控制探索风险
     inventory:
       - 外勤工具包
       - 中心外勤装备
     commitments:
       - 与周衡保持同行并继续核查屋面/楼层
+      - 不让门岗人员携未知钥匙贸然进入异常现场
       - 暂不一次性交代其既往异常处置经验
   xia_ning:
     name: 夏宁
     location: 临江市夜间综合服务中心调度席
     physical_condition:
       injury: none
-      fatigue: low_to_moderate
-    emotional_state: 对监控/定位与现场报告冲突感到不安，仍保持调度工作状态
+      fatigue: moderate
+    emotional_state: 持续关注现场与正常系统记录冲突，仍保持调度工作状态
     current_goal: 保持与外勤联系并保存工单、截图和监控侧证据
     inventory:
       - 本地保存的热线录音与工单截图
@@ -49,12 +52,12 @@ characters:
       - 继续承担整晚正常调度职责
   liu_guilan:
     name: 刘桂兰
-    location: 青梧苑13栋704及七楼门口
+    location: 青梧苑13栋704
     physical_condition:
       injury: none
       mobility: 右膝不便
-    emotional_state: 从单纯烦躁转为对“楼梯不见了”明显困惑和不安
-    current_goal: 让工作人员解决楼上持续拖动噪音
+    emotional_state: 对七层结构仍困惑，因新出现的三下轻敲明显不安
+    current_goal: 让工作人员尽快解决头顶持续噪音并找到她认知中的804
     inventory:
       - 本人手机
       - 至少三段近期楼上噪音录音（其中第三段仍主要保留在本人手机）
