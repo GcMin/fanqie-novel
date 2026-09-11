@@ -4,6 +4,9 @@ current_chapter: null
 current_source_sha: null
 current_review_path: null
 stage: idle
+safe_mode: false
+retry_cycles: 0
+next_retry_after: null
 
 rounds:
   local_revision: 0
@@ -19,4 +22,4 @@ last_failure_reason: null
 # stage 可取：
 # idle | local_revision | full_rewrite | replan_rewrite | retry_later | passed_to_qa
 #
-# Reader Review 不写入长期小说事实。本文件仅用于自动修订去重与阶段控制。
+# Reader Review 不写入长期小说事实。本文件仅用于自动修订去重、冷却与阶段控制。
