@@ -1,2 +1,6 @@
 id,first_chapter,last_touched_chapter,content,known_by,reader_knows,target_range,status,resolution,notes
-F001,,,,,,,planned,,
+F001,1,1,青梧苑官方只有12栋但系统存在13栋704有效工单,"周衡|夏宁|梁策",yes,1-24,active,,第一卷核心入口
+F002,1,1,梁策要求不要修改异常地址并打印纸质工单,"梁策|周衡|夏宁",yes,1-18,active,,暗示梁策拥有既往处置经验并重视记录媒介
+F003,,,周衡对永安里的童年记忆与现实记录冲突,周衡,no,10-70,planned,,第1章不得触及
+F004,,,13栋上层/804与永安里存在视觉证据联系,,no,9-14,planned,,不得提前泄露
+F005,,,实体记录与电子记录对失址对象的保存差异,,no,15-18,planned,,规则需通过事件展示
