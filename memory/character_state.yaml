@@ -1,14 +1,14 @@
 schema_version: 1
-last_updated_chapter: 8
+last_updated_chapter: 9
 characters:
   zhou_heng:
     name: 周衡
-    location: 青梧苑13栋七楼704门口/楼梯平台附近
+    location: 青梧苑13栋六楼半，面向七楼上方正在形成的额外楼梯
     physical_condition:
       injury: none
       fatigue: moderate
-    emotional_state: 高度警惕，已确认静态结构证据彼此矛盾，但仍拒绝把规律性声音直接解释成交流
-    current_goal: 短时等待并同步观察704声源与七楼顶层结构是否发生变化
+    emotional_state: 高度警惕；已亲眼确认顶层结构发生可记录变化，但仍坚持先验证稳定性再进入
+    current_goal: 等新增楼梯停止变化，确认结构与退路后决定是否上行
     inventory:
       - 中心强光手电
       - 反光背心
@@ -18,25 +18,28 @@ characters:
       - 通过工作号收到的刘桂兰近期噪音录音两段
       - 704现场实时噪音录音
       - 夏宁转发的“13屋面”旧钥匙及钥匙柜/登记表照片
+      - 01:56七楼顶层结构基线照片与持续录像
+      - 02:00后新增黑缝/踏步/扶手结构照片与录像
     commitments:
       - 继续完成704噪音工单并确认楼上声源
       - 不把普通居民安全当作试验，不贸然改变未知现场
       - 不主动以三下敲击试图和未知声源交流
-      - 额外结构若出现，先记录并确认稳定性再行动
+      - 等额外结构稳定并确认退路后再决定是否进入
   liang_ce:
     name: 梁策
-    location: 青梧苑13栋七楼704门口/楼梯平台附近
+    location: 青梧苑13栋六楼半，与周衡共同观察新增楼梯
     physical_condition:
       injury: none
       fatigue: moderate
-    emotional_state: 克制，继续限制现场变量；认可周衡当前的保守判断方式
-    current_goal: 带周衡完成13栋处置，等待并确认顶层结构是否变化，同时控制进入未知空间的风险
+    emotional_state: 克制警惕；结构变化后主动后撤并继续限制现场变量
+    current_goal: 确认新增结构稳定性和撤退条件，避免周衡或刘桂兰贸然上行
     inventory:
       - 外勤工具包
       - 中心外勤装备
     commitments:
       - 与周衡保持同行
       - 不让门岗人员携“13屋面”未知钥匙进入异常现场
+      - 新增结构未稳定前不进入
       - 暂不一次性交代其既往异常处置经验
   xia_ning:
     name: 夏宁
@@ -44,26 +47,28 @@ characters:
     physical_condition:
       injury: none
       fatigue: moderate
-    emotional_state: 对实体钥匙与所有登记记录不一致的情况明显关注，但仍保持调度工作状态
-    current_goal: 保持与外勤联系并保存工单、监控、旧钥匙与登记表侧证据
+    emotional_state: 持续关注外勤文字记录与定位冲突，保持调度状态
+    current_goal: 保持与外勤联系并保存顶层结构变化的时间与文字侧证据
     inventory:
       - 本地保存的热线录音与工单截图
       - 停车区监控相关截图/记录
       - 王启明发送的旧钥匙柜、“13屋面”钥匙和现行登记表照片
+      - 周衡02:00后关于顶层结构变化的文字报告
     commitments:
       - 不随意刷新或删改异常工单原始记录
       - 继续承担整晚正常调度职责
-      - 保留钥匙/登记记录照片作为当前事件证据
+      - 保留钥匙/登记记录与外勤结构变化记录
   liu_guilan:
     name: 刘桂兰
     location: 青梧苑13栋704
     physical_condition:
       injury: none
       mobility: 右膝不便
-    emotional_state: 因“13屋面”钥匙和重复三下轻敲更加不安，同时更坚信楼上确实存在可处理对象
-    current_goal: 等工作人员找到通往楼上的方式并制止头顶噪音
+    emotional_state: 紧张但更坚信自己关于楼上空间的记忆，已被要求留在704远离楼梯下方
+    current_goal: 等工作人员确认新增楼梯并处理楼上噪音
     inventory:
       - 本人手机
       - 至少三段近期楼上噪音录音（其中第三段仍主要保留在本人手机）
     commitments:
       - 暂留704等待外勤继续确认声源
+      - 不靠近正在变化的楼梯结构
