@@ -1,6 +1,6 @@
 schema_version: 1
-last_updated_chapter: 10
-current_time: "Day 2 02:12"
+last_updated_chapter: 11
+current_time: "Day 2 02:18"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-001
@@ -28,29 +28,20 @@ locations:
     rule_status: observed_only_not_hard_rule
   qingwuyuan_building_13:
     name: 青梧苑13栋
-    status: 周衡与梁策已进入新增八楼；七楼至八楼楼梯当前稳定可通行
+    status: 周衡与梁策已进入新增八楼并短暂进入804；七楼至八楼楼梯当前稳定可通行
     visible_floors: 8
     structure: 一梯两户，无电梯；01:56时楼梯在七楼完整结束，02:00后出现额外结构，02:06后停止变化
     observed_features:
-      - 门禁与快递柜正常使用
-      - 电表存在实时读数
-      - 有本月抄表通知及跨年份物业公告
-      - 楼内存在普通住户并互相认识
-      - 七楼704真实有人居住
-      - 七楼当前外立面在额外结构出现前看不出完整第八层高度
-      - 703住户认知中建筑为七层，但对过去屋面铁门/入口存在不确定记忆
-      - 704断开户内总电后头顶拖动/撞击声仍持续
-      - 703住户同期未听见704头顶拖动声
-      - 七楼西端检修门为顶部封死的弱电井，不通屋面
-      - 七楼楼梯扶手收口与顶板没有明显近期封堵继续向上楼梯的痕迹
-      - 01:45后头顶多次出现三下规律性轻敲
-      - 01:56留下七楼顶板/扶手尺寸、胶带、照片和录像基线
-      - 02:00后顶板出现可记录黑缝、昏黄光、踏步前沿和新增扶手构件
-      - 02:06后新增楼梯停止变化，后续有限承重确认无可见异常
-      - 新增楼梯墙面、踢脚线和旧广告存在长期使用痕迹
-      - 02:12确认新增八楼平台及803/804门牌
-      - 704长期投诉的拖动声在八楼可明确定位到804室内
-      - 周衡未敲804门前，804门内先出现三下轻敲
+      - 门禁、电表、物业公告、信报箱与普通住户均呈现长期生活痕迹
+      - 七楼704真实有人居住且为当前工单投诉人刘桂兰
+      - 704断电后头顶噪音仍持续，703同期未听见
+      - 七楼弱电井不通屋面，原楼梯收口与外立面在额外结构出现前均容不下完整八层
+      - 正常物业旧钥匙柜存在无登记记录的“13屋面”旧钥匙
+      - 01:56留下七楼顶板/扶手尺寸、照片和录像基线
+      - 02:00后顶板出现可记录的黑缝、楼道光、踏步与新增扶手
+      - 02:06后新增楼梯停止变化并通过有限承重确认
+      - 02:12确认新增八楼803/804，704长期投诉的拖动声来自804
+      - 804门内在周衡实际敲门前先出现三下轻敲
     emerging_upper_structure:
       status: stable_and_entered
       first_visible_chapter: 9
@@ -66,24 +57,45 @@ locations:
       retreat_route_visible: true
       time_rule_status: single_event_not_confirmed
     upper_floor_8:
-      status: newly_accessible
+      status: accessible_and_804_entered
       first_entered_chapter: 10
       first_entered_time: "Day 2 02:12"
       layout: 短走廊左右各一户，803与804
       observed_features:
         - 墙面偏黄且有旧使用痕迹
-        - 803门口有旧塑料拖鞋
+        - 803门口有旧塑料拖鞋但尚未确认住户
         - 803/804使用旧式蓝底白字搪瓷门牌
         - 804为深褐色有划痕防盗门
-        - 拖动声来自804室内
-        - 804门内出现三下轻敲
-      entered_units: []
+        - 804是当前拖动声源所在房间
+      entered_units:
+        - 804
     official_record_status: normal_qingwuyuan_systems_do_not_recognize
   qingwuyuan_704:
     occupant: 刘桂兰
     status: occupied
     complaint: 午夜后楼上反复拖动家具/重物；声源现已定位到新增八楼804室内
     resident_belief_upstairs: "804"
+  qingwuyuan_804:
+    status: entered_limited_area_no_visible_occupant
+    access_time: "Day 2 02:17"
+    access_basis:
+      - 门内男性声音先重复“门没锁”
+      - 在周衡明确询问进入许可后两次说“进来吧”
+      - 防盗门实际未上锁
+      - 梁策使用橡胶门挡保持门开启和撤退路线
+    checked_area: 玄关与客厅入口约三步范围
+    observed_features:
+      - 玄关浅黄色小方砖、旧鞋柜、钥匙/硬币和蒙灰挂衣镜
+      - 鞋柜内男式皮鞋与深色棉拖落灰
+      - 防盗门内侧贴有褪色福字，外侧只剩红纸胶痕
+      - 客厅有旧木餐桌和四把木椅
+      - 一把木椅位于客厅中央，地面有从餐桌旁延伸过去的新擦痕
+      - 餐桌上有旧台历但年份尚未查看
+      - 可见范围没有发现人员
+      - 深处一扇房门自行开出一条缝，门后墙面露出相框/发黄照片纸边角，内容未确认
+      - 二人退出到门口时木椅再次发出轻微摩擦声
+    male_voice_status: heard_identity_unknown
+    photo_clue_status: edge_only_not_examined
 organizations:
   night_service_center:
     public_role: 夜间城市服务联动与部分现场处置
@@ -99,18 +111,19 @@ resources:
       - 工单/坐标截图
       - 停车区监控侧记录/截图
       - “13屋面”旧钥匙、旧钥匙柜与现行钥匙登记表照片
-      - 外勤关于02:00后顶层结构变化的文字报告
-      - 外勤关于02:09准备上行及02:12确认803/804的文字报告
+      - 外勤关于02:00后顶层结构变化、02:12抵达803/804的文字报告
+      - 外勤关于02:17获得804口头许可并进入入口范围的文字报告
   zhou_heng_phone_evidence:
     holder: 周衡
     content:
       - 异常道路与13栋现场照片
       - 刘桂兰近期噪音录音至少两段
       - 704现场实时噪音录音
-      - 夏宁转发的“13屋面”钥匙与登记表照片
+      - “13屋面”钥匙与登记表照片
       - 01:56七楼顶层结构基线照片/录像
       - 02:00后新增结构形成照片/录像
       - 02:12新增八楼平台、803/804门牌与退路照片
+      - 804门外男性声音、进入许可与入口检查过程录音
   liu_guilan_phone_evidence:
     holder: 刘桂兰
     content:
