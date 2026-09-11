@@ -12,11 +12,11 @@ rounds:
   local_revision: 0
   full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 0
+  reviews_this_cycle: 1
 
-last_action: chapter_8_passed_to_ready
-last_action_at: "2026-09-11T18:52:00Z"
-last_result_sha: "ded24386220b39c65350c5a55dcfcf6d780e56a0"
+last_action: chapter_11_passed_to_ready
+last_action_at: "2026-09-11T21:50:00Z"
+last_result_sha: "8cf77fb561fca088c56ccf885c999a4d166684fd"
 last_failure_reason: null
 
 # stage 可取：
