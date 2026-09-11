@@ -1,6 +1,6 @@
 schema_version: 1
-last_updated_chapter: 12
-current_time: "Day 2 02:29"
+last_updated_chapter: 13
+current_time: "Day 2 02:36"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-001
@@ -28,7 +28,7 @@ locations:
     rule_status: observed_only_not_hard_rule
   qingwuyuan_building_13:
     name: 青梧苑13栋
-    status: 周衡与梁策已进入新增八楼并完成804公共区域有限检查；七楼至八楼楼梯当前稳定可通行
+    status: 周衡与梁策已进入新增八楼并完成804公共区域及深处房间门口的有限检查；七楼至八楼楼梯当前稳定可通行
     visible_floors: 8
     structure: 一梯两户，无电梯；01:56时楼梯在七楼完整结束，02:00后出现额外结构，02:06后停止变化
     observed_features:
@@ -57,7 +57,7 @@ locations:
       retreat_route_visible: true
       time_rule_status: single_event_not_confirmed
     upper_floor_8:
-      status: accessible_and_804_common_area_checked
+      status: accessible_and_804_checked_to_deep_room_threshold
       first_entered_chapter: 10
       first_entered_time: "Day 2 02:12"
       layout: 短走廊左右各一户，803与804
@@ -76,15 +76,16 @@ locations:
     complaint: 午夜后楼上反复拖动家具/重物；声源现已定位到新增八楼804室内
     resident_belief_upstairs: "804"
   qingwuyuan_804:
-    status: common_area_checked_no_visible_occupant_or_recent_normal_living
+    status: checked_to_deep_room_threshold_no_visible_occupant
     access_time: "Day 2 02:17"
-    latest_check_time: "Day 2 02:29"
+    latest_check_time: "Day 2 02:36"
     access_basis:
       - 门内男性声音先重复“门没锁”
       - 在周衡明确询问进入许可后两次说“进来吧”
       - 防盗门实际未上锁
       - 梁策使用橡胶门挡保持门开启和撤退路线
-    checked_area: 玄关、客厅、厨房入口、小阳台可见范围、卫生间门口；未进入卧室
+      - 第13章男性再次两次明确同意二人到深处房间门口检查其所称故障灯和人员位置
+    checked_area: 玄关、客厅、厨房入口、小阳台可见范围、卫生间门口，以及深处房间门口/门缝可见范围；未进入卧室内部
     observed_features:
       - 玄关浅黄色小方砖、旧鞋柜、钥匙/硬币和蒙灰挂衣镜
       - 鞋柜内男式皮鞋与深色棉拖落灰
@@ -97,10 +98,19 @@ locations:
       - 厨房入口旁墙面贴有旧物业维修联系卡，工程维修联系人为陈德福
       - 餐桌上有旧台历但年份尚未查看
       - 可见范围没有发现人员
-      - 深处一扇房门保持约十厘米开缝，门后墙面露出相框/发黄照片纸边角，内容未确认
-    male_voice_status: heard_identity_unknown_asks_for_chen_defu
-    male_voice_latest: "老陈呢？"
-    photo_clue_status: edge_only_not_examined
+      - 深处房间有木质书桌、老式台灯及多张墙面旧照片
+      - 一张旧照片背景为老式住宅6栋入口，具有缺瓷砖半圆花池、绿色信报箱、歪树和二楼墙面修补痕等可识别细节
+      - 周衡确认上述照片细节与本人童年居住记忆高度一致，但没有将地点写成已确认
+      - 相框下沿存在模糊透字，只能辨认日期前两位像“20”及疑似“里”字部分，不能确认完整地名
+      - 深处房间老式台灯在无人触碰时短暂亮起约两秒，随后自行熄灭
+    male_voice_status: heard_identity_unknown_claims_chen_defu_just_left_for_key
+    male_voice_latest:
+      - 确认“老陈”为陈德福
+      - 称陈德福来修里面的灯并“刚才”去拿钥匙
+      - 否认本人受伤
+      - 两次许可外勤到深处房间门口检查
+      - 台灯短暂亮起后说“灯不是亮了吗”
+    photo_clue_status: specific_visual_match_to_zhou_heng_childhood_memory_not_location_confirmed
 organizations:
   night_service_center:
     public_role: 夜间城市服务联动与部分现场处置
@@ -119,6 +129,7 @@ resources:
       - 外勤关于02:00后顶层结构变化、02:12抵达803/804的文字报告
       - 外勤关于804口头许可、公共区域长期积灰和木椅位置变化的文字报告
       - 804厨房入口旁陈德福旧物业维修联系卡照片
+      - 外勤关于02:31未知男性称陈德福刚才去拿钥匙并许可检查深处房门的文字记录
   zhou_heng_phone_evidence:
     holder: 周衡
     content:
@@ -132,6 +143,8 @@ resources:
       - 804门外男性声音、进入许可与入口检查过程录音
       - 804公共区域积灰/鞋印/木椅擦痕与02:27位置变化照片
       - 陈德福旧物业维修联系卡照片
+      - 804男性关于陈德福“刚才”去拿钥匙及深处房门许可的录音
+      - 804墙面旧照片影像，其中一张6栋入口照片与本人童年居住记忆高度一致
   liu_guilan_phone_evidence:
     holder: 刘桂兰
     content:
