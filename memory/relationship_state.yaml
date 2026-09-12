@@ -1,33 +1,33 @@
 schema_version: 1
-last_updated_chapter: 24
+last_updated_chapter: 25
 relationships:
   - a: zhou_heng
     b: liang_ce
     public_relation: 新人外勤与资深带教
-    actual_relation: 第24章同一异常工单把投诉人改为周衡、地址改为永安里6栋201后，梁策没有把周衡隔离出调查，而是继续让他参与留证，并在周衡不愿持有新旧版本文件袋时直接代为保管；梁策还明确承认过去见过字段不一致但没见过这种情况，信息控制比开篇有所松动
-    trust_a_to_b: 52
-    trust_b_to_a: 49
+    actual_relation: 第25章梁策继续让周衡参与更深审计与后续纸档调查，同时明确阻止其通宵后直接继续外勤；当白班询问异常单是否继续由夜班跟进时，梁策没有替周衡决定，而让周衡自己选择继续参与。双方关系从单向安全带教进一步转为在边界内共同调查，但梁策仍保留既往异常经历
+    trust_a_to_b: 53
+    trust_b_to_a: 50
     unresolved_conflicts:
       - 周衡仍不知道梁策过去处理过哪些类似异常工单
-      - 梁策仍认为部分历史经验不应一次性交代，但已开始承认哪些情况超出其既往经验
+      - 梁策仍认为部分历史经验不应一次性交代，但开始允许周衡自主决定是否继续承担知情与调查风险
   - a: zhou_heng
     b: xia_ning
     public_relation: 新入职同事与夜间调度
-    actual_relation: 已形成可靠的现场/调度与证据协作；第24章夏宁首次得知周衡完整私人记忆住址“永安里6栋201”，并在该地址同时出现在工单字段时仍替他维持证据边界与隐私边界，没有把私人记忆当作已证实历史
-    trust_a_to_b: 48
-    trust_b_to_a: 46
+    actual_relation: 已形成可靠的现场/调度与证据协作；第25章夏宁把周衡私人地址相关工单以“来源冲突”而非个人信息八卦方式正式交班，并持续把当前字段、私人记忆和独立证据分开记录
+    trust_a_to_b: 49
+    trust_b_to_a: 47
     unresolved_conflicts: []
   - a: liang_ce
     b: xia_ning
     public_relation: 长期夜班同事
-    actual_relation: 工作默契稳定；第24章继续由梁策控制变量和安全边界、夏宁负责保存前后版本与系统来源，两人对不重复刺激真实工单的判断一致
+    actual_relation: 工作默契稳定；第25章继续由梁策控制疲劳和操作边界、夏宁负责审计留存与白班可执行交接，两人一致反对在来源不明时修数据或继续拿真实工单试验
     trust_a_to_b: 65
     trust_b_to_a: 62
     unresolved_conflicts: []
   - a: zhou_heng
     b: liu_guilan
     public_relation: 现场处置人员与原始投诉人
-    actual_relation: 基础职业信任仍在；刘桂兰不知道后台当前已经把工单投诉人改成周衡，三人决定在无新安全问题时不再为了验证界面重复打扰她
+    actual_relation: 基础职业信任仍在；刘桂兰不知道后台当前已经把工单投诉人改成周衡，夜班与白班都没有为了验证字段再次打扰她
     trust_a_to_b: 38
     trust_b_to_a: 38
     unresolved_conflicts:
