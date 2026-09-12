@@ -16,7 +16,7 @@ rounds:
 
 last_action: chapter_14_passed_to_ready
 last_action_at: "2026-09-12T01:10:00Z"
-last_result_sha: "091031896cfb5a12ae5e93ad76d3ee9feaff2d3a"
+last_result_sha: "918d280aeb634a85f90b92af4b75a4712d6b9dd4"
 last_failure_reason: null
 
 # stage 可取：
