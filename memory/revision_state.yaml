@@ -1,23 +1,23 @@
 schema_version: 1
 
 current_chapter: 24
-current_source_sha: "79ddba73e7218cbaf26c5073d2246b9d34704f88"
-current_review_path: "reader_reviews/0024_79ddba73.md"
-stage: local_revision
+current_source_sha: "dbc82ea9a413f2c53f7866dd94daa4cb7f03b6e6"
+current_review_path: "reader_reviews/0024_dbc82ea9.md"
+stage: passed_to_qa
 safe_mode: false
 retry_cycles: 0
 next_retry_after: null
 
 rounds:
-  local_revision: 0
+  local_revision: 1
   full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 1
+  reviews_this_cycle: 2
 
-last_action: reader_review_requested_local_revision
-last_action_at: "2026-09-12T10:43:00Z"
-last_result_sha: "79ddba73e7218cbaf26c5073d2246b9d34704f88"
-last_failure_reason: "Reader Review发现章尾使用‘二十三章’描述故事内记录本，形成元叙事。"
+last_action: reader_gate_passed
+last_action_at: "2026-09-12T10:48:00Z"
+last_result_sha: "dbc82ea9a413f2c53f7866dd94daa4cb7f03b6e6"
+last_failure_reason: null
 
 # stage 可取：
 # idle | local_revision | full_rewrite | replan_rewrite | retry_later | passed_to_qa
