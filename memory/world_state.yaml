@@ -1,16 +1,14 @@
 schema_version: 1
-last_updated_chapter: 20
-current_time: "Day 2 05:38"
+last_updated_chapter: 21
+current_time: "Day 2 06:12"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-001
 locations:
   night_service_center:
     name: 临江市夜间综合服务中心
-    status: 正常夜班运行；青梧苑0041电子源/纸面差异与王启明单一记忆冲突仍在留存，第二张“槐荫路终点站”工单已通过历史站务资料确认对应旧站状态并准备转入现场核对
+    status: 正常夜班运行；夏宁留守调度席并保持第二张工单电话/运营方联络，青梧苑704工单已开始出现超时回访提醒
     present_characters:
-      - 周衡
-      - 梁策
       - 夏宁
     evidence_protocol:
       - 保留完整页面/原始上下文
@@ -41,7 +39,13 @@ locations:
         - 01:49本人聊天照片和04:44新照片均显示13屋面
         - 王启明称不记得01:49拍照行为
       interpretation: 夜班疲劳等普通原因未排除，不得推广为所有知情者都会遗忘
-      current_memory_baseline: 周衡、梁策、夏宁04:48分别写下三项一致记忆并分开保存；截至第20章三人仍正常记得
+      current_memory_baseline: 周衡、梁策、夏宁04:48分别写下三项一致记忆并分开保存；截至第21章三人仍正常记得
+    first_order:
+      address: 青梧苑13栋704
+      category: 生活噪音
+      complaint: 午夜后楼上反复拖动家具/重物
+      current_disposition: 已现场确认声源来自新增八楼804，但尚未形成可关闭的正常处置结果
+      system_state: 06:11开始出现超时回访提醒，尚未尝试正式关闭
     second_order:
       accepted_at: "Day 2 05:10"
       source: 市民热线转接
@@ -49,23 +53,17 @@ locations:
       display_address: 临江地铁2号线槐荫路终点站
       claimant: 钱先生，62岁
       request: 黑色帆布包遗留列车内，包中有常用降压药和证件
-      claimant_status: 05:34仍自述位于槐荫路站台长椅附近，当前无明显身体不适
+      claimant_status: 06:10前后仍自述位于旧式槐荫路站台长椅附近，无明显身体不适，手机约一半电量
       safety_instruction:
         - 留在有照明处
         - 不进入轨行区
         - 不翻越闸机
-        - 不自行追车寻找
+        - 不自行寻找B口或追车
         - 如出现头晕、胸闷等不适及时告知中心并按正常急救流程处置
-      live_timing:
-        hotline_received: "约05:08"
-        order_created: "约05:10"
-        direct_callback: "05:19"
-        current_station_first_train: "05:32"
-        claimant_recheck: "05:34"
       current_system_search: 现行轨道联络界面无“槐荫路”站名
       automatic_responsibility_unit: 临江轨道交通运营二分公司
       automatic_station_code_result: 临江南站
-      interpretation: 旧站名退出现行界面后，工单仍能自动映射当前责任站点；原因未知
+      interpretation: 旧站名退出现行界面后工单仍能自动映射当前责任站点；原因未知
   qingwuyuan:
     name: 青梧苑
     official_building_count: 12
@@ -119,8 +117,9 @@ locations:
     male_voice_status: heard_identity_unknown_claims_chen_defu_just_left_for_key
   yonganli:
     name: 永安里
-    public_record_status: 当前常规地址搜索仍无结果，当前临江南站现行站务库也无该地名
-    evidence_status: 804旧照片有可由周衡/梁策/夏宁复核的“永安里居民区”文字及6栋视觉证据；轨道运营2011版槐荫路站周边导向图当前扫描也出现B口附近地标“永安里”，原纸档待核
+    public_record_status: 当前常规地址搜索无结果，当前临江南站现行站务库也无该地名
+    evidence_status: 804旧照片有可复核的“永安里居民区”及6栋视觉证据；2011槐荫路旧站务导向图扫描B口附近出现“永安里”；第21章钱先生在无提示条件下当前口述B口导向含“永安里”
+    paper_archive_status: 轨道2011旧图原纸档可追溯但尚未借阅核验
     zhou_heng_memory: 永安里6栋201；201当前仍只有其个人记忆支持
   metro_line_2:
     name: 临江地铁2号线
@@ -129,11 +128,21 @@ locations:
       is_terminal: false
       stations_after_toward_southeast: 6
       exits_current: 4
-      initial_search_for_qian: 多次站台/站厅核查和监控暂未发现钱先生或黑色帆布包
+      public_search_for_qian: 站台/站厅/卫生间及监控多次核查未发现钱先生或黑色帆布包
       first_train_check:
         time: "Day 2 05:32"
-        result: 首班车正常进出临江南站，站务未发现钱先生
-      monitoring: 运营方继续倒查监控并安排现场人员配合周衡/梁策公共区域核查
+        result: 首班车正常进出临江南站，钱先生05:34称其所在站台无列车经过
+      live_field_check:
+        started: "Day 2 05:54"
+        operator_contact: 郭铭
+        scope: 仅公共站厅/站台，周衡梁策未进入轨行区/设备房/封闭通道
+        mapped_old_b_exit: 旧B口已在2016前后改造，现公共站厅只可对应到墙面/非公共区域边界
+        mapped_old_pillar: 旧“三站台七柱”可由运营旧结构图大致映射到现行公共站台南侧
+        train_check:
+          time: "Day 2 06:04"
+          current_result: 现行列车在周衡、梁策、郭铭面前正常进出
+          claimant_result: 钱先生称其所在站台没有列车经过
+        current_handoff: 非公共区域由轨道运营方有权限人员继续核查，中心保持电话
     historical_name:
       name: 槐荫路站
       confirmed_by_operator: true
@@ -151,29 +160,36 @@ locations:
         - A
         - B
       yonganli_marker: B口附近历史地标当前扫描可见“永安里”
-      old_pillar_format: 运营方称2011旧站务资料可对应“三站台七柱”式编号；当前临江南已不用该格式
+      market_marker: B口附近历史地标包括槐荫路菜市场
+      old_pillar_format: 旧站务资料可对应“三站台七柱”式分区编号，当前临江南已不用
+      old_glass_booth: 改造前站台南端有玻璃站务亭，2016年已拆除
+      old_terminal_end_wall: 2011照片可见旧尽端墙，2012年延伸改造后不再保持该乘客可见布局
     anomaly_order_claim:
       display_name: 槐荫路终点站
-      claimant_visible_sign: 钱先生自述可直接看到“槐荫路”站名并认作二号线终点
-      claimant_train_statement: 称先前列车刚开走并等待下一趟返回；05:34称05:32附近没有列车进站
-      current_time_conflict: 现行临江南05:32首班车已正常进出而钱先生称其所在站台没有车经过；普通定位/认知解释尚未完全排除
+      claimant_visible_sign: 钱先生自述可见B口导向，含“永安里”“槐荫路菜市场”
+      claimant_old_features:
+        - 三站台七柱式旧编号
+        - 已拆玻璃站务亭
+        - 2012年前旧尽端墙
+      claimant_current_visibility: 在旧编号对应范围看不到现场的周衡/梁策，也未感知05:32与06:04现行列车
+      current_interpretation: 可现场验证的钱先生感知环境与2012年前后旧站布局高度吻合，但实际位置和机制仍未知
 organizations:
   night_service_center:
     public_role: 夜间城市服务联动与部分现场处置
     anomaly_role_public: false
   linjiang_rail_transit:
     public_role: 城市轨道交通运营
-    current_action: 已提供槐荫路旧站历史资料并持续核查钱先生/黑色帆布包；安排现场人员陪同周衡梁策核对临江南站公共区域
+    current_action: 已陪同完成现行临江南公共区域旧布局核对；继续按权限核查非公共区域、昨夜失物登记及车辆清检记录
 resources:
   zhou_heng_notebook:
     holder: 周衡
     content:
       - 青梧苑0041与两版打印对照
       - 04:48个人记忆基线
-      - 第二张工单钱先生、槐荫路旧站名、当前线网与责任代码对照
-      - 槐荫路站2008/2012-09/2016-01历史节点
+      - 第二张工单及槐荫路历史节点
       - 2011旧站务图“永安里”来源与纸档目录号
-      - 05:32当前列车与05:34钱先生口述实时对照
+      - 05:32/05:34与06:04现场列车对照
+      - 第21章旧B口、旧柱号、玻璃站务亭、尽端墙现场核对
   liang_ce_metro_file:
     holder: 梁策
     content:
@@ -184,12 +200,13 @@ resources:
     content:
       - 青梧苑热线/照片/0041两版打印及13屋面新旧照片
       - 第二张工单完整截图和钱先生多次联系记录
-      - 当前线网、临江南站责任信息与旧站名自动责任代码映射结果
-      - 2011旧站务导向图扫描、2012线路调整资料、2016改名记录、邮件来源与纸档目录号
-      - 05:32/05:34实时运行对照
+      - 2011旧站务导向图扫描、线路调整/改名记录、邮件来源与纸档目录号
+      - 05:32/05:34及06:04实时运行对照
+      - 第21章运营方现场对照结果与钱先生无提示口述记录
 unresolved_rules:
   - 不同媒介对异常地址证据的稳定性是否有可重复规律
   - 人员记忆冲突的触发条件和影响范围
   - 工单系统为何能接收并映射已退出现行记录的地址/站名
   - 青梧苑13栋、永安里和槐荫路旧站是否属于同一现象层级或存在怎样的具体历史联系
-  - 钱先生为何能持续报告与2012年9月以前槐荫路终点站吻合的环境信息
+  - 钱先生为何能持续报告2012年前旧站布局且与现行同位置互不可见
+  - 第一张704工单为何在现场处置后仍不能自然结束
