@@ -1,23 +1,23 @@
 schema_version: 1
 
 current_chapter: 30
-current_source_sha: "6b351ef4f66eeae32889fc8155a1dddca05a147e"
-current_review_path: "reader_reviews/0030_6b351ef4.md"
-stage: local_revision
+current_source_sha: "685640fb5f27a8fd064363b7bbb9ca17dc3d81dc"
+current_review_path: "reader_reviews/0030_685640fb.md"
+stage: passed_to_qa
 safe_mode: false
 retry_cycles: 0
 next_retry_after: null
 
 rounds:
-  local_revision: 0
+  local_revision: 1
   full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 1
+  reviews_this_cycle: 2
 
-last_action: chapter_30_reader_requested_local_revision
-last_action_at: "2026-09-12T16:34:00Z"
-last_result_sha: "6b351ef4f66eeae32889fc8155a1dddca05a147e"
-last_failure_reason: "1 MAJOR: Chen Defu says '上午问我的' although first call was at 17:31 same day"
+last_action: chapter_30_local_revision_passed_reader_gate
+last_action_at: "2026-09-12T16:39:00Z"
+last_result_sha: "685640fb5f27a8fd064363b7bbb9ca17dc3d81dc"
+last_failure_reason: null
 
 # stage 可取：
 # idle | local_revision | full_rewrite | replan_rewrite | retry_later | passed_to_qa
