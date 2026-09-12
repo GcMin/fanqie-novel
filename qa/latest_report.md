@@ -2,15 +2,15 @@
 
 ## Chapter
 
-32《夜班旧册》
+33《旧地址表》
 
 ## Baseline Check
 
 PASS
 
-- 本轮开始时重新核对第1–6章：第1–2章仍为 `completed / pass / published`，第3–6章仍为 `completed / pass / ready`；`plans/chapter_plan.csv` 与目录状态一致。
+- 本轮开始时重新核对第1–6章：第1–2章仍为 `completed / pass / published`，第3–6章仍为 `completed / pass / ready`；`plans/chapter_plan.csv` 与章节目录状态一致。
 - `chapters/draft/` 开始时仅有模板与README，没有第1–6章遗留草稿。
-- `reader_reviews/` 保留第1–5章既有Review；第6章修订前Review为1项MAJOR，Stage A后最终Review为0 BLOCKER / 0 MAJOR / 1 MINOR；`chapters/ready/0006.md` Front Matter仍为 `status: ready / qa: pass`。
+- 第1–5章既有Reader Review保留；第6章修订前Review为1项MAJOR，Stage A后最终Review为0 BLOCKER / 0 MAJOR / 1 MINOR；`chapters/ready/0006.md` Front Matter仍为 `status: ready / qa: pass`。
 - `memory/chapter_summaries/0001.yaml` 至 `0006.yaml` 均存在；未发现第1–6章Reader Review / QA / Memory / publish状态冲突。
 - `chapters/published/` 仍只有第1、2章和README；本轮未修改任何已发布正文。
 
@@ -19,83 +19,94 @@ PASS
 PASS
 
 - 已重新读取AGENTS、AI阅读协议、novel配置、Premise、主大纲、World、Style、周衡/夏宁/梁策人物卡、第二卷、ARC-002、chapter_plan、当前Memory、伏笔、时间线、最近10章摘要与最近5章正文。
-- 已创建 `plans/chapter_0032_plan.md`；Continuity Precheck发现初稿计划一度把B册误写成可能对应9月下半月，与9月7日0041冲突，已在Writer前修正为“A/B/C是同月实体分册顺序，不代表上下半月”。
-- 本轮只推进第32章；第33章仅建立软规划行，正文未开始。
-- 开场Day 2 20:41承接第31章20:38旧附件取得原册索引，时间地点连续。
-- 钱先生最近状态从20:31续联自然推进到21:15，未捏造新的精确手机电量。
+- 已创建 `plans/chapter_0033_plan.md`，只推进第33章正文；第34章仅建立软规划行。
+- 计划先用普通新路名/新交付小区建立地址库正常补录样本，再查0041对应的地址维护反馈，避免把“地址未检”本身直接写成异常标记。
+- 开场Day 2 21:34承接第32章21:29归还旧册，时间、地点和调查入口连续。
+- 钱先生最近状态从21:15自然推进到22:12；本章没有继承07:41的37%为当前精确电量。
+- 明确禁止按“夜联二席”追具体人员、把13栋未入表写成人为删除、提前完成M003或解释系统来源/失址机制。
 
 ## Reader Gate
 
-PASS
+PASS（经Stage A一次局部修订）
 
-- Reader source：`chapters/draft/0032.md`。
-- source SHA：`66a832adda65e3b8e412e823aad6e31b5c83df33`。
-- Review：`reader_reviews/0032_66a832ad.md`。
-- 结果：0 BLOCKER / 0 MAJOR / 2 MINOR，`recommendation: keep`，`required_action: none`。
-- 两项MINOR分别为原册来源核验动作较密，以及后半段再次逐项排除“永安里 / 201 / 804”略有系列化证据边界复述；均不影响逻辑、连续性、人物行为或核心理解，按协议不触发Revision。
-- 本章无需Stage A/B/C修订；`memory/revision_state.yaml` 已记录无修订直接通过Reader Gate并最终进入ready。
+### 首轮
+- Reader source：`chapters/draft/0033.md`。
+- source SHA：`49cd89329cc87d81e84d45ea9347010688027b18`。
+- Review：`reader_reviews/0033_49cd8932.md`。
+- 结果：0 BLOCKER / 1 MAJOR / 1 MINOR，`recommendation: revise`，`required_action: local_revision`。
+- MAJOR：正文出现“第32章前后页”这一作品章节编号，属于人物不可感知的元叙事。
+
+### Stage A
+- 只把“他先把第32章前后页里那两条普通地址拿出来”局部修订为“他先把刚才旧册第87页前后那两条普通地址拿出来”。
+- 未改动剧情、证据、时序、角色结论或其他段落。
+
+### 复审
+- final source SHA：`9cf401886be807b88beb455b9c30bdc0e869f23d`。
+- Review：`reader_reviews/0033_9cf40188.md`。
+- 结果：0 BLOCKER / 0 MAJOR / 1 MINOR，`recommendation: keep`，`required_action: none`。
+- 唯一MINOR为中段对“未入表 ≠ 人为阻止/删除”的证据边界略有重复，但分别承担梁策即时纠偏和周衡最终记录功能，不触发继续Revision。
+- `memory/reader_state.yaml` 已指向最终复审；`memory/revision_state.yaml` 最终回到idle并记录1次local revision / 2次review。
 
 ## Continuity
 
 PASS
 
-- 第31章留下原册索引 `夜联-2015-09-B`，本章先查2016补扫移交清单和现行保管权限，再取实体原册，调查入口连续且没有凭空出现文件。
-- A/B/C被明确核为同月分册顺序，因此B册包含9月7日记录不存在日期矛盾。
-- 原册第87页00:46 `LJ-150907-0041`、00:52 `WX-150907-041`、01:12反馈修复，可与既有中心/物业/HF/旧回访附件时间链衔接。
-- 纸质备注“地址索引未检13栋 / 按原述转物业核址”只证明2015值班人员当时已人工看到地址检索冲突，没有被升级成异常机制或秘密制度。
-- 前后页普通地址库滞后案例提供现实对照，避免把“地址待核”误写成只属于异常事项的标记。
-- 页脚“夜联二席”只作为席位章保存，没有追认具体人员或提前完成M003。
-- 21:13轨道方无新定位结果、21:15钱先生可正常应答且无新不适，与此前状态连续；未解决本人/黑包，也没有发明新电量。
+- 第32章结尾明确下一步查2015地址索引版本/更新交接；第33章没有横扫其他异常事项，而是先查当时正常地址维护制度。
+- 第32章旧册前后页的普通新路名/新交付小区被用于正常样本；第33章反查到正式来源、临时增补和后续主表闭环，逻辑连续。
+- `DZFK-150907-06` 通过完整流水 `LJ-150907-0041` 取得，不是凭空出现的新异常档案。
+- 2015-09-07 08:14反馈与此前凌晨0041处置时间无冲突；2015-09-08 10:37维护结果作为后续白班/维护流程成立。
+- 现可查2015年7—9月主表/更新登记仅被用于“未见入库/未见删除”这一窄结论，没有反写成13栋物理不存在。
+- 22:12钱先生仍可正常应答、无新不适、自述仍在原长椅附近；本人和黑包仍未定位，第二张工单未被历史调查吞掉。
 
 ## Knowledge Boundary
 
 PASS
 
-- 周衡、梁策、夏宁只使用第31章已获得的原册索引和其在本章通过正常目录/权限取得的纸质资料。
-- 孙经理、陈德福、刘桂兰没有被自动赋予第32章中心旧册信息。
-- 刘桂兰没有被再次夜间回拨，也没有替她建立2015个人记忆。
-- “夜联二席”没有被角色越权推断成具体历史经办人。
-- 永安里6栋201仍没有新的独立历史纸档证明；本章旧册未出现永安里、201或804。
-- 工单系统来源、失址机制、周衡保留记忆原因、主动删除主体均未揭示。
+- 周衡、梁策、夏宁只使用此前已经同步的E-07、安泰维修/回访、刘桂兰旧回访附件、夜联旧册及本章通过正常旧系统归档取得的地址维护资料。
+- 孙经理、陈德福、刘桂兰没有自动获得第31–33章中心内部旧档信息。
+- 刘桂兰没有被夜间再次回拨，也没有替她建立2015个人记忆。
+- “夜联二席”没有被追认成具体经办人员。
+- `DZFK-150907-06` 只被视为普通疑难地址维护反馈，不被命名为异常系统来源或秘密规则。
+- 永安里6栋201仍没有新的独立历史纸档证明；M003未提前发生。
+- 工单系统来源、失址完整机制、周衡保留记忆原因、主动删除主体均未揭示。
 
 ## Style
 
 PASS
 
-- 本章从目录检索、权限确认、实体取册、页码定位到普通样本对照，由具体动作推动，没有大段复述第26–31章。
-- 查档细节虽多，但关键用途清楚：证明原册来源、页序、纸质备注和电子附件的实体链。
-- 人物声音可区分：夏宁偏检索和索引、梁策偏权限/边界短句、周衡偏来源核验与谨慎结论。
-- “档案员怎么穿越日历”“今天先别捞鱼”等少量轻口语缓解资料场景密度，没有破坏都市悬疑基调。
-- 没有元叙事、章节编号提示、万能环境描写或机械“真相更近一步”结尾。
-- Reader记录的2项MINOR不构成自动修订条件。
+- 本章开头直接声明“不进资料间”，用旧系统操作说明/版本登记替代连续几章的实体翻档动作，降低查档场景重复度。
+- 普通样本 → 0041反馈 → 维护结果 → 版本历史 → 下一来源清单，信息由动作和对照推进，没有大段回顾第26–32章。
+- 人物声音可区分：夏宁偏版本/来源，梁策偏结论边界短句，周衡偏记录与主动改窄措辞。
+- 首轮Reader发现的章节编号元叙事已完全移除。
+- 没有“真相更近一步”式模板结尾；章尾落在“排除一种省事说法”和下一份具体同步清单。
+- 最终Reader仅1项MINOR，不构成自动修订条件。
 
 ## Length
 
 PASS
 
-- 第32章：2859个有效中文正文字符，位于优选区间2600–3400。
+- 第33章：2786个有效正文字符，位于优选区间2600–3400。
 
 ## Meaningful State Changes
 
 PASS
 
-- `夜联-2015-09-B` 从扫描附件中的旧索引升级为可追溯的实体原册，有2016补扫移交链和后续在库盘点。
-- 中心2015纸质夜联原记录第一次明确证明：当时值班人员已经人工意识到“青梧苑13栋”不在地址索引中，仍按原述转安泰物业核址并完成正常处置。
-- 通过普通地址未同步案例建立对照，确认“地址未检/待核”不是异常专用分类，调查方法得到更精确边界。
-- 原册第87页、内部回执索引条、2016补扫清单与 `ATT-20150907-041-2` 形成实体来源链，调查从物业工程历史正式进入中心自身纸质职业史。
-- 钱先生安全链继续维持，第二张工单没有被主线查档吞掉。
+- 2015夜联“地址索引未检13栋”从单一纸质备注推进为正式疑难地址反馈 `DZFK-150907-06` 与次日维护结果，证明中心当年确实走过普通地址维护流程。
+- 正常新路名/新交付小区能够在取得正式来源后进入增补/后续主表，而13栋因没有可用于标准库增补的正式新增/变更来源未入主表。
+- 当前证据从“可能后来被删”收窄为“现可查2015年7—9月标准地址链未见13栋入库，也未见删除记录”；同一时期标准地址链与物业工程/维修/回访/住户链的历史分叉正式建立。
+- `DZFK-150907-06` 留下“2015年9月第一批标准地址同步清单”及来源批次号，形成下一章正常可执行入口。
+- 钱先生安全链继续维持，本人仍可联系但位置/黑包未解决。
 
 ## Memory / Planning
 
 PASS
 
-- 已创建 `memory/chapter_summaries/0032.yaml`。
-- `memory/current_arc.md`、`memory/character_state.yaml`、`memory/knowledge_state.yaml`、`memory/world_state.yaml`、`memory/timeline.csv` 已推进至第32章结束状态。
-- `memory/foreshadowing.csv` 已将F003推进至第32章；F007仍停第31章、F008仍停第30章且只有王启明一个明确样本。
-- 本章没有产生主要人物关系变化，因此未修改 `memory/relationship_state.yaml`。
-- 第30章刚完成十章节点压缩，本章不重复改写 `memory/global_summary.md`。
-- `plans/chapter_plan.csv` 已将第32章标记为 `completed / pass / ready`；第33章《旧地址表》为 `planned / pending / blocked`，入口收束为2015地址索引版本与更新/交接记录，不按夜联二席追人。
-- `memory/reader_state.yaml` 已指向第32章Review；`memory/revision_state.yaml` 已记录本章无修订直接通过并进入ready。
+- 已创建 `memory/chapter_summaries/0033.yaml`。
+- `memory/current_arc.md`、`memory/character_state.yaml`、`memory/knowledge_state.yaml`、`memory/world_state.yaml`、`memory/timeline.csv` 已推进至第33章结束状态。
+- `memory/foreshadowing.csv` 已将F003推进至第33章；F007仍停第31章，F008仍以王启明为唯一明确人员具体事件记忆冲突样本。
+- 本章没有主要人物关系改变，因此未修改 `memory/relationship_state.yaml`。
+- 第30章已完成十章节点压缩，本章不重复改写 `memory/global_summary.md`。
+- `plans/chapter_plan.csv` 已将第33章标记为 `completed / pass / ready`；第34章《同步清单》为 `planned / pending / blocked`，只允许核DZFK直接引用的标准地址同步清单及交接来源并收束ARC-002，不得提前完成M003。
 
 ## Result
 
@@ -103,4 +114,4 @@ PASS
 
 ## Publish Gate
 
-第32章满足Reader Gate、Continuity QA、Knowledge Boundary、Style QA、长度、有效状态变化和Memory更新要求，已进入 `chapters/ready/0032.md`，Front Matter为 `status: ready`、`qa: pass`。对应 `chapters/draft/0032.md` 已删除。本轮未执行番茄发布，未修改或覆盖 `chapters/published/`。
+第33章满足最终Reader Gate、Continuity QA、Knowledge Boundary、Style QA、长度、有效状态变化和Memory更新要求，已进入 `chapters/ready/0033.md`，Front Matter为 `status: ready`、`qa: pass`。对应 `chapters/draft/0033.md` 已删除。本轮未执行番茄发布，未修改或覆盖 `chapters/published/`。
