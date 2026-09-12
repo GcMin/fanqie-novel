@@ -1,129 +1,94 @@
 schema_version: 1
-last_updated_chapter: 23
-current_time: "Day 2 06:59"
+last_updated_chapter: 24
+current_time: "Day 2 07:16"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-001
 locations:
   night_service_center:
     name: 临江市夜间综合服务中心
-    status: 正常夜班运行；周衡、梁策、夏宁均在调度区；青梧苑704原工单在无对应新市民入线情况下持续刷新“最近诉求时间”并保持待处理，第二张槐荫路工单继续电话/轨道运营方核查
+    status: 正常交接前时段运行；周衡、梁策、夏宁均在调度区；第一张异常工单当前投诉人/地址已变为周衡/永安里6栋201，第二张槐荫路工单继续电话与轨道运营核查
     present_characters:
       - 周衡
       - 梁策
       - 夏宁
     evidence_protocol:
-      - 保留完整页面/原始上下文
+      - 保留完整页面和原始上下文
       - 标明来源与时间
       - 使用可用的多媒介副本
       - 后续查询与原始留存分开
       - 不把任何单一介质视为绝对安全
     legacy_archive:
-      status: accessible_content_changed_once
       record_serial: LJ-150907-0041
       before_reopen_address: 青梧苑13栋
       after_reopen_address: 青梧苑12栋
-      first_print:
-        printed_at: "Day 2 04:23"
-        address: 青梧苑13栋
-        storage: 夏宁调度席带锁抽屉
-      second_print:
-        printed_at: "Day 2 04:30"
-        address: 青梧苑12栋
-        storage: 当前来源对照
+      first_print: "Day 2 04:23，青梧苑13栋"
+      second_print: "Day 2 04:30，青梧苑12栋"
       migrated_database: 0041无匹配而0040/0042存在，原因未知
     cognition_check:
       status: single_witness_memory_conflict_observed
       witness: 王启明
       facts:
         - 04:38主动称此前旧钥匙为12屋面
-        - 04:41在未获提示时现场读出实体标签13屋面
+        - 04:41无提示现场读出13屋面
         - 01:49本人聊天照片和04:44新照片均显示13屋面
-        - 王启明称不记得01:49拍照行为
-      interpretation: 夜班疲劳等普通原因未排除，不得推广为所有知情者都会遗忘
-      current_memory_baseline: 周衡、梁策、夏宁04:48分别写下三项一致记忆并分开保存；截至第23章无新正文证据显示该基线变化
+        - 王启明不记得01:49拍照行为
+      interpretation: 普通夜班疲劳仍未排除，不得推广为所有知情者都会遗忘
     first_order:
-      address: 青梧苑13栋704
-      category: 生活噪音
-      complaint: 午夜后楼上反复拖动家具/重物
-      claimant: 刘桂兰
-      field_result: 已现场确认声源来自新增八楼804方向；住户身份未核实
-      callbacks:
-        - time: "Day 2 06:34"
-          claimant_current_noise: none
-          claimant_safety_issue: none_reported
-          claimant_accepts_field_check: true
-          claimant_requests_followup_identity_source: true
-        - time: "Day 2 06:53"
-          direction: center_outbound
-          claimant_current_noise: none
-          claimant_recalled_hotline_since_06_34: false
-          claimant_requested_reopen: false
-          claimant_requests_followup_identity_source: true
-      address_validation:
-        current_responsibility_dictionary_has_804: false
-        first_validation_result: 现场材料中的804曾触发普通地址关联校验
-        compliant_handling: 不删除现场事实、不虚构责任户；以具体责任户未明确提交，804记录保留在现场核查材料
-      closure_attempts:
-        - submitted_at: "Day 2 06:36"
-          initial_result: 已办结/提交成功
-          after_reopen_refresh: 处理中
-          closure_time_after_refresh: null
-        - submitted_at: "Day 2 06:41"
-          workstation: 另一调度工位重新登录
-          initial_result: 已办结/提交成功
-          after_reopen_refresh: 处理中
-          closure_time_after_refresh: null
-      retained_after_reopen:
-        - 原工单编号
-        - 06:34与06:53回访记录
-        - 两次办结操作日志
-        - 原投诉人刘桂兰
-        - 原地址青梧苑13栋704
-      absent_explanations:
-        - 无退单人
-        - 无审核意见
-        - 无关联新工单
-        - 未发现权限/会话/必填字段/责任单位普通错误
-      source_chain:
-        original_inbound: "Day 2 00:17 市民主动入线"
-        center_outbound:
-          - "Day 2 06:31"
-          - "Day 2 06:53"
-        additional_citizen_inbound_after_00_17: false
-        new_related_order: false
-        manual_expedite: false
-        transfer_return: false
-      current_complaint_time_changes:
-        baseline_at_06_45: "00:17"
-        first_refresh: "06:49"
-        second_refresh: "06:57"
-        interpretation: 未发现与06:49或06:57对应的新市民入线；两张普通噪音工单对照显示中心外呼回访通常不修改该字段，因此只能确认同一原投诉仍被列为当前待处置事项，原因未知
-      current_disposition: 七点前回访已完成；同一工单仍在待处理列表，不再重复办结或做无必要按钮实验；下一步关注投诉人/地址/来源关系的实际变化
+      original_identity:
+        address: 青梧苑13栋704
+        category: 生活噪音
+        claimant: 刘桂兰
+        source: "Day 2 00:17 市民热线主动入线"
+        original_complaint: 午夜后楼上反复拖动家具/重物
+      field_result: 已现场确认13栋存在并进入新增八楼804；噪音当前停止，804住户身份未核实
+      closure_history:
+        - "06:36提交办结成功后刷新恢复处理中"
+        - "06:41换工位再次提交成功后刷新恢复处理中"
+      complaint_time_history:
+        - "06:45基线最近诉求时间00:17"
+        - "06:49无新市民入线时刷新为06:49"
+        - "06:57无新市民入线时刷新为06:57"
+      chapter_24_baseline:
+        captured_at: "Day 2 07:01"
+        claimant: 刘桂兰
+        address: 青梧苑13栋704
+        latest_complaint_time: "06:57"
+        source: "00:17市民热线"
+      chapter_24_change:
+        observed_at: "Day 2 07:08"
+        current_claimant: 周衡
+        current_address: 永安里6栋201
+        current_latest_complaint_time: "07:08"
+        current_status: 处理中
+        retained_fields:
+          - 原工单号
+          - 00:17受理时间
+          - 市民热线来源
+          - 刘桂兰原始热线录音
+          - 刘桂兰联系电话
+        visible_audit: 未发现投诉人/地址人工修改条目，最近可见人工操作仍为06:55回访保存
+        zhou_hotline_check: 当天热线接入无周衡号码对应入线，07:08前后其手机无热线通话
+        cross_workstation_check: "07:12另一工位只读查询同样显示周衡/永安里6栋201，来源仍为刘桂兰00:17热线"
+        interpretation: 只能确认同一原工单当前投诉人/地址关系发生变化且周衡未发现主动提交记录；不得据此解释系统意图或完整机制
+      current_disposition: 停止无必要提交/刷新实验；保留07:01与07:10前后打印版本，等待正常权限核查更深审计并继续历史纸档调查
     second_order:
       accepted_at: "Day 2 05:10"
-      source: 市民热线转接
       category: 轨道交通/乘客遗留
       display_address: 临江地铁2号线槐荫路终点站
       claimant: 钱先生，62岁
       request: 黑色帆布包遗留列车内，包中有常用降压药和证件
-      claimant_status: 约06:47仍自述位于旧式槐荫路站台长椅附近，无头晕胸闷，手机剩四成多；仍未由现行运营体系定位
+      claimant_status: 最近确认仍可电话联系、无头晕胸闷，实际位置未由现行运营体系确认
+      current_handoff: 临江南站公共区域与指定非公共区域已按权限核查仍未发现本人；失物登记与车辆清检继续，中心保持电话链
       safety_instruction:
         - 留在有照明处
         - 不进入轨行区
         - 不翻越闸机
         - 不自行寻找B口或追车
-        - 如出现头晕、胸闷等不适及时告知中心并按正常急救流程处置
-      current_system_search: 现行轨道联络界面无“槐荫路”站名
-      automatic_responsibility_unit: 临江轨道交通运营二分公司
-      automatic_station_code_result: 临江南站
-      current_handoff: 临江南站公共区域核查已结束；授权人员已核查老B口后设备通道等指定非公共区域仍未发现钱先生；昨夜失物登记及车辆清检继续核查，中心保持电话链
-      interpretation: 旧站名退出现行界面后工单仍能自动映射当前责任站点；原因未知
+        - 出现不适立即告知中心并按正常急救流程处理
   qingwuyuan:
     name: 青梧苑
     official_building_count: 12
-    anomaly_order_address: "13栋704"
-    normal_layout_note: 正常门岗/物业/长期住户/固定监控及2016物业交接目录均不承认13栋
     old_property:
       name: 临江安泰物业服务有限公司
       service_end: "2016-01前"
@@ -133,15 +98,11 @@ locations:
         description: 2015年度维修单与回访记录
         quantity: 六箱
         location: 青梧苑地下资料间
-        access_status: 未调取；白班工程主管约07:30到岗后按正常手续开启
-  qingwuyuan_anomaly_path:
-    name: 12栋后停车区西侧异常道路
-    status: 周衡与梁策离开13栋时仍可见并可通行
-    observed_only_not_hard_rule: true
+        access_status: 白班工程主管已到岗；约07:30后可按正常手续登记开启，尚未调取
   qingwuyuan_building_13:
     name: 青梧苑13栋
-    status: 已进入并安全退出；最后观察时新增八楼与下行楼梯稳定可见
-    normal_structure_baseline: 七层一梯两户；01:56时楼梯在七楼完整结束
+    status: 已进入并安全退出；最后现场观察时新增八楼与下行楼梯稳定可见
+    normal_structure_baseline: 七层一梯两户，01:56楼梯在七楼完整结束
     anomaly_structure:
       first_clear_time: "Day 2 02:00"
       stable_time: "Day 2 02:06"
@@ -159,116 +120,45 @@ locations:
   qingwuyuan_704:
     occupant: 刘桂兰
     status: occupied_currently_quiet
-    complaint: 午夜后楼上反复拖动家具/重物；声源已定位到新增八楼804方向
-    latest_callback: "06:53确认仍无持续噪音，06:34后未再次拨打投诉电话、未要求重开噪音投诉，但仍要求住户身份/声源继续跟进"
-    current_instruction: 留在704；不进入新增楼梯；若再次出现噪音通过原热线反馈
+    latest_callback: "06:53确认无持续噪音，未重新投诉、未要求重开，仍希望核实804住户身份/声源"
   qingwuyuan_804:
     status: exited_door_closed_not_deadbolted
     observed_features:
-      - 公共区域普遍积灰并缺少近期正常起居痕迹
-      - 木椅存在可对照的新擦痕和02:27位移，但周边无对应近期人类脚印
+      - 公共区域普遍积灰且缺少近期正常起居痕迹
+      - 木椅曾在无人可见情况下发生可对照位移
       - 旧维修联系卡联系人陈德福，手机号与正常旧物业通讯录一致
       - 墙面旧照片出现6栋入口和“永安里居民区”文字
       - 相关照片冲印日期为2015.08与2015.09
     male_voice_status: heard_identity_unknown_claims_chen_defu_just_left_for_key
   yonganli:
     name: 永安里
-    public_record_status: 当前常规地址搜索无结果，当前临江南站现行站务库也无该地名
-    evidence_status: 804旧照片有可复核的“永安里居民区”及6栋视觉证据；2011槐荫路旧站务导向图扫描B口附近出现“永安里”；第21章钱先生在无提示条件下当前口述B口导向含“永安里”
-    paper_archive_status: 轨道2011旧图原纸档可追溯但尚未借阅核验
-    zhou_heng_memory: 永安里6栋201；201当前仍只有其个人记忆支持
+    public_record_status: 当前常规地址搜索无结果，现行临江南站站务库也无该地名
+    historical_evidence:
+      - 804旧照片可复核“永安里居民区”和6栋入口
+      - 2011槐荫路站旧导向图扫描B口附近出现“永安里”，原纸档可追溯但未核验
+      - 钱先生在无提示条件下当前口述B口导向含“永安里”
+    zhou_heng_memory: 永安里6栋201
+    unit_201_evidence_boundary: 第24章前仅周衡私人记忆支持；第24章同一异常工单当前地址显示“永安里6栋201”，这是新的当前系统证据，但仍不是独立历史纸档证明
   metro_line_2:
-    name: 临江地铁2号线
     current_station_of_interest: 临江南站
     current_station_status:
       is_terminal: false
       stations_after_toward_southeast: 6
       exits_current: 4
-      public_search_for_qian: 站台/站厅/卫生间及监控多次核查未发现钱先生或黑色帆布包；第23章授权人员核查老B口后设备通道等指定非公共区域仍未发现本人
-      first_train_check:
-        time: "Day 2 05:32"
-        result: 首班车正常进出临江南站，钱先生05:34称其所在站台无列车经过
-      live_field_check:
-        started: "Day 2 05:54"
-        ended_or_handed_off: "Day 2约06:12后"
-        operator_contact: 郭铭
-        scope: 仅公共站厅/站台，周衡梁策未进入轨行区/设备房/封闭通道
-        mapped_old_b_exit: 旧B口已在2016前后改造，现公共站厅只可对应到墙面/非公共区域边界
-        mapped_old_pillar: 旧“三站台七柱”可由运营旧结构图大致映射到现行公共站台南侧
-        train_check:
-          time: "Day 2 06:04"
-          current_result: 现行列车在周衡、梁策、郭铭面前正常进出
-          claimant_result: 钱先生称其所在站台没有列车经过
-        current_handoff: 非公共区域/失物登记/车辆清检由轨道运营方有权限人员继续核查，中心保持电话
+      qian_search: 公共区、监控和指定非公共区域均暂未找到钱先生，车辆清检/失物登记继续
     historical_name:
       name: 槐荫路站
-      confirmed_by_operator: true
       opened: "2008"
       terminal_until: "2012-09延伸段开通前"
       became_non_terminal: "2012-09"
       renamed_to_current: "2016-01"
-      interpretation: 钱先生所述“槐荫路 + 二号线终点”与2012年9月以前历史状态吻合，但不能据此确认其处于过去
     historical_archive:
-      guide: "槐荫路站周边导向图（2011版）"
-      source: 轨道运营历史站务目录扫描
+      guide: 槐荫路站周边导向图（2011版）
       paper_catalog_traceable: true
       paper_original_checked: false
-      old_exits:
-        - A
-        - B
       yonganli_marker: B口附近历史地标当前扫描可见“永安里”
-      market_marker: B口附近历史地标包括槐荫路菜市场
-      old_pillar_format: 旧站务资料可对应“三站台七柱”式分区编号，当前临江南已不用
-      old_glass_booth: 改造前站台南端有玻璃站务亭，2016年已拆除
-      old_terminal_end_wall: 2011照片可见旧尽端墙，2012年延伸改造后不再保持该乘客可见布局
-    anomaly_order_claim:
-      display_name: 槐荫路终点站
-      claimant_visible_sign: 钱先生自述可见B口导向，含“永安里”“槐荫路菜市场”
-      claimant_old_features:
-        - 三站台七柱式旧编号
-        - 已拆玻璃站务亭
-        - 2012年前旧尽端墙
-      claimant_current_visibility: 在旧编号对应范围看不到现场的周衡/梁策，也未感知05:32与06:04现行列车
-      current_interpretation: 可现场验证的钱先生感知环境与2012年前旧站布局高度吻合，但实际位置和机制仍未知
-organizations:
-  night_service_center:
-    public_role: 夜间城市服务联动与部分现场处置
-    anomaly_role_public: false
-  linjiang_rail_transit:
-    public_role: 城市轨道交通运营
-    current_action: 已完成现行临江南公共区域旧布局核对；授权人员已核查部分指定非公共区域仍未找到钱先生，继续核对昨夜失物登记及车辆清检记录
-resources:
-  zhou_heng_notebook:
-    holder: 周衡
-    content:
-      - 青梧苑0041与两版打印对照
-      - 04:48个人记忆基线
-      - 第二张工单及槐荫路历史节点
-      - 2011旧站务图“永安里”来源与纸档目录号
-      - 05:32/05:34与06:04现场列车对照
-      - 第21章旧B口、旧柱号、玻璃站务亭、尽端墙现场核对
-      - 第22章06:34回访与06:36/06:41两次办结回弹记录
-      - 第23章06:49/06:57“最近诉求时间”刷新、06:53刘桂兰未重新投诉确认及热线无对应新入线记录
-  liang_ce_metro_file:
-    holder: 梁策
-    content:
-      - 2011版槐荫路站周边导向图打印件
-      - 来源/打印时间说明
-      - 第23章704来源链对照打印件可访问
-  xia_ning_evidence:
-    holder: 夏宁
-    content:
-      - 青梧苑热线/照片/0041两版打印及13屋面新旧照片
-      - 第二张工单完整截图和钱先生多次联系记录
-      - 2011版槐荫路站周边导向图扫描、线路调整/改名记录、邮件来源与纸档目录号
-      - 05:32/05:34及06:04实时运行对照
-      - 第21章运营方现场对照结果与钱先生无提示口述记录
-      - 704原工单06:34回访、06:36/06:41办结日志及回弹页面
-      - 第23章06:45/06:56/06:57完整页面、热线接入查询、06:53回访记录与普通噪音工单字段对照
-unresolved_rules:
-  - 不同媒介对异常地址证据的稳定性是否有可重复规律
-  - 人员记忆冲突的触发条件和影响范围
-  - 工单系统为何能接收并映射已退出现行记录的地址/站名
-  - 已显示办结的异常地址工单为何会恢复处理中，以及在没有新市民输入时为何继续刷新“最近诉求时间”并保持当前待处置
-  - 青梧苑13栋、永安里和槐荫路旧站是否属于同一现象层级或存在怎样的具体历史联系
-  - 钱先生为何能持续报告2012年前旧站布局且与现行同位置互不可见
+      old_features_confirmed:
+        - 旧A/B出口
+        - 旧三站台七柱分区
+        - 2016已拆玻璃站务亭
+        - 2012延伸前尽端墙
