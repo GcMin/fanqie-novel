@@ -14,9 +14,9 @@ rounds:
   replan_rewrite: 0
   reviews_this_cycle: 1
 
-last_action: chapter_20_passed_to_ready
-last_action_at: "2026-09-12T07:06:00Z"
-last_result_sha: "cf028705e2493a5c28d29c25ff2667ec9bea436b"
+last_action: chapter_21_passed_to_ready
+last_action_at: "2026-09-12T08:06:00Z"
+last_result_sha: "de7eeaba7baf3c16b5913600c5b21f1bd9479938"
 last_failure_reason: null
 
 # stage 可取：
