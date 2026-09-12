@@ -2,86 +2,107 @@
 
 ## Chapter
 
-29《老陈》
+30《记忆里的楼》
 
 ## Baseline Check
 
 PASS
 
-- 第1–2章仍为 `published / pass`，第3–6章仍为 `ready / pass`；第6章历史MAJOR已有Stage A局部修订与复审0 BLOCKER / 0 MAJOR记录。
-- `memory/chapter_summaries/0001–0006`、`reader_reviews/`、章节Front Matter与 `plans/chapter_plan.csv` 对第1–6章状态一致，本轮未发现需要优先修复的发布门冲突。
-- 第29章开始写作前 `chapters/draft/` 仅有模板与README，没有第1–6章或其他章节遗留草稿。
-- 未修改任何 `chapters/published/` 内容或既有已发布Canon。
+- 本轮开始时重新核对第1–6章：第1–2章Front Matter仍为 `published / pass`，第3–6章仍为 `ready / pass`；`plans/chapter_plan.csv` 对应状态一致。
+- 第6章历史MAJOR仍有Stage A局部修订与最终Reader Review 0 BLOCKER / 0 MAJOR记录；未发现第1–6章需要优先修复的新冲突。
+- 上轮 `qa/latest_report.md` 已确认 `memory/chapter_summaries/0001–0006`、Reader Review、Front Matter与chapter_plan一致；本轮没有改动第1–6章相关Canon/Memory。
+- 第30章开始写作前 `chapters/draft/` 没有第1–6章遗留草稿；未修改任何 `chapters/published/` 内容。
 
 ## Planner / Continuity Precheck
 
 PASS
 
 - 已重新读取AGENTS、AI阅读协议、novel配置、当前Canon、第二卷、ARC-002、chapter_plan、当前Memory、伏笔、时间线、最近10章摘要与最近5章正文。
-- 已创建 `plans/chapter_0029_plan.md`，本轮只推进第29章。
-- 开场Day 2 17:18直接承接第28章17:11孙经理开始查询旧图借阅/移交记录。
-- 明确限制：先查正常借阅/归档链后再联系陈德福；不预设其记得或忘记13栋；不把工程主管身份写成041经办证据；不强造F008第二样本。
-- 梁策、夏宁仍处休息时段，正文没有让二人提前知道第26–29章下午结果；钱先生继续由白班/轨道方负责。
+- 已创建 `plans/chapter_0030_plan.md`，本轮只推进第30章。
+- 开场Day 2 18:04直接承接第29章17:55等待现任工程主管返岗的状态。
+- 先按权限查看“二期室外电气/室外照明总平”纸本实际状态，再设计非诱导式陈德福访谈；不预设其记得或忘记13栋，不把专业读图判断写成恢复个人记忆。
+- 梁策、夏宁仍处休息时段，正文没有让二人提前知道第26–30章下午调查结果；钱先生继续由白班/轨道方负责。
 
 ## Reader Gate
 
-PASS
+PASS AFTER STAGE A
 
-- Reader source：`chapters/draft/0029.md`。
-- source SHA：`ed0da0d813c578673d027e1aed33831516d33534`。
-- Review：`reader_reviews/0029_ed0da0d8.md`。
+### Review #1
+- Reader source：`chapters/draft/0030.md`。
+- source SHA：`6b351ef4f66eeae32889fc8155a1dddca05a147e`。
+- Review：`reader_reviews/0030_6b351ef4.md`。
+- 结果：0 BLOCKER / 1 MAJOR / 2 MINOR，`recommendation: revise`，`required_action: local_revision`。
+- MAJOR：19:17陈德福说“你们上午问我的那个维修点位”，但首次现实联系发生在同日17:31左右，属于明确时间连续性错误。
+
+### Stage A Revision
+- 仅把“上午问我的”改为“刚才问我的”，没有修改本章核心事件、证据结论或MINOR观察项。
+- 修订后draft source SHA：`685640fb5f27a8fd064363b7bbb9ca17dc3d81dc`。
+
+### Review #2
+- Review：`reader_reviews/0030_685640fb.md`。
 - 结果：0 BLOCKER / 0 MAJOR / 2 MINOR，`recommendation: keep`，`required_action: none`。
-- MINOR为工程资料名称前半章略密、章末证据边界有轻微重复，均不影响逻辑/连续性/理解，按协议不触发Revision。
-- Editor/Revision：无 `fix_required`，正文未修改；`memory/revision_state.yaml` 已记录本章无Revision通过。
+- 两项MINOR分别为`13#`前“字母和数字”措辞不够精确、章末“2015年的工程图”年份口径略比本章当场图签展示更具体；均不影响逻辑、连续性或核心理解，按协议不触发第二轮修订。
 
 ## Continuity
 
 PASS
 
-- 第28章17:11结束在青梧苑物业办公区域开始查借阅记录，第29章17:18取得登记册，时间与地点连续。
-- 2017借阅记录只建立“原二期公照图曾被正常借出并登记归工程图柜”，没有越界证明当前纸本仍在或发生异常删除。
-- 2016旧目录新增“二期室外电气/含原照明总平”作为正常归档名称入口，与第28章纸本去向待核状态兼容。
-- 陈德福通过2016项目联系人表由现物业负责人联系，号码与804旧维修联系卡一致；其现实身份仍为退休两年的旧工程主管。
-- 陈德福对WX-150907-041具体单号无可靠记忆，且明确不能凭主管身份认定其亲自维修；维修签字姓马事实未被覆盖。
-- 旧安泰#号仍保持楼号/设备号双重可能；陈德福只说“结合东梯和楼层像建筑点位”，没有确认13#=13栋。
-- F008仍只有王启明一个明确记忆冲突样本；第29章没有用普通的十一年前单号记忆缺失强造第二样本。
-- 钱先生17:48仍可联系且无新不适，本人和黑包仍未定位；没有捏造新的精确手机电量。
+- 第29章结束约17:55仍在青梧苑等待现工程主管，第30章18:04开柜，时间地点连续。
+- “二期室外电气竣工图”图袋具有2016接管标签与2017整改借阅痕迹，能够接上第28–29章的移交/借阅链，没有凭空出现神秘新文件。
+- E-07把13#明确画成独立建筑轮廓并带楼梯间等建筑符号，因此可解除旧维修单“13#是否设备号”的歧义；该证据只证明历史工程建筑点位，不解释第一夜异常空间机制。
+- E-07旧照明支路由东侧公照箱③方向引向13#东梯，与WX-150907-041“二期13#东梯 / 取电：二期东侧公照箱③”形成独立空间交叉验证。
+- 2016接管楼栋表仍只列7至12，与E-07历史13#并存；正文没有擅自补出拆除、删除或异常机制原因。
+- 陈德福自然回忆为二期7至12；看图后只是以工程专业判断确认13#为楼号，仍不能可靠回忆自己是否进入过该楼或使用过具体13屋面钥匙。
+- F008只标记“触及”，不建立第二明确样本；王启明仍是唯一具体事件记忆与本人记录直接冲突样本。
+- 陈德福仍未被追认为WX-150907-041维修人员，姓马签字与工程部章既有事实未被覆盖。
+- 钱先生18:42仍可联系、无新不适，本人和黑包未定位；没有捏造新的精确手机电量。
+
+## Knowledge Boundary
+
+PASS
+
+- 周衡只使用自己第26–29章已经取得的纸档、设施、借阅链和陈德福联系事实。
+- 现任工程主管只对图面专业含义作普通工程判断；孙经理仍按现物业权限处理档案与工作联络。
+- 陈德福不知道804/永安里等异常结论，只接触不涉及住户隐私的工程图与钥匙标签资料。
+- 梁策、夏宁未在本章出现，也没有自动获得下午调查结果。
+- 永安里6栋201仍未获得新的独立历史纸档证明。
 
 ## Style
 
 PASS
 
-- 章节通过借阅登记、总目录搜索、项目联系人表和电话问答推进，没有靠作者直接宣布结论。
-- 陈德福表现为普通退休工程人员：会回拨、记不得十一年前单号、要求看完整资料语境，避免成为线索百科NPC。
-- 周衡与孙经理继续用职业动作和证据边界表达判断，人物声音连续。
-- 无大段复述上一章、无元叙事、无万能环境描写、无为了凑字重复核心事实。
-- 章尾以“先把纸放在桌上再问”形成下一步行动，不使用机械悬念句。
+- 工程图发现通过开柜、核图袋、对目录/图号、展开E-07的连续动作完成，没有由作者直接宣布“找到十三栋”。
+- 图纸发现与陈德福访谈分为两层：先确定纸面事实，再核自然记忆/专业判断，避免对话成为设定说明书。
+- 人物声音保持区分：周衡偏证据边界，孙经理务实，陈德福谨慎且主动拒绝被“补记忆”。
+- 无大段复述、无元叙事、无万能环境描写、无机械章尾悬念。
+- 首轮Reader记录的2项MINOR不构成文风硬错误，按协议保留而不继续打磨。
 
 ## Length
 
 PASS
 
-- 第29章：3378个有效字符，位于优选区间2600–3400。
+- 第30章：3024个有效中文字符，位于优选区间2600–3400。
 
 ## Meaningful State Changes
 
 PASS
 
-- 原二期公照图获得2017借出/归还的正常借阅链，并新增“二期室外电气/室外照明总平”可执行检索入口。
-- 陈德福从纸面姓名/旧联系卡推进为现实可正常联系的退休工程主管，其当前可确认与不能确认的信息边界第一次建立。
-- 调查由“图纸去向未知”推进为“先查室外电气图柜，再在完整资料语境下核对陈德福旧楼栋/编号记忆”。
-- F007推进，F008刻意保持单一样本边界。
+- “二期13#东梯”从有歧义的维修点位升级为正常历史工程图中明确的建筑点位。
+- 旧东侧公照箱③支路终点第一次在独立纸图中落到13#东梯，与041维修链形成空间交叉验证。
+- 陈德福当前自然记忆、专业读图判断和不能确认事项被分开记录；F008边界得到检验但未被强行升级。
+- 调查下一步由“13#是不是楼”转向“为什么2016接管表没有这栋、是否有旧回访/钥匙/移交变更继续证明”。
 
 ## Memory / Planning
 
 PASS
 
-- 已创建 `memory/chapter_summaries/0029.yaml`。
-- `memory/current_arc.md`、`memory/character_state.yaml`、`memory/knowledge_state.yaml`、`memory/world_state.yaml`、`memory/timeline.csv` 已推进至第29章结束状态。
-- `memory/foreshadowing.csv` 已将F007推进到第29章；F003保持第28章、F008保持第18章，不为凑进度伪造触发。
-- 本章无有意义人物关系变化，因此未修改 `memory/relationship_state.yaml`。
-- `plans/chapter_plan.csv` 已将第29章标记为 completed / pass / ready，并把第30章入口细化为先核对“二期室外电气/室外照明总平”纸本实际状态，再采用非诱导式问法核对陈德福楼栋记忆。
-- `memory/reader_state.yaml` 已指向第29章Review；`memory/revision_state.yaml` 已记录第29章无Revision。
+- 已创建 `memory/chapter_summaries/0030.yaml`。
+- `memory/current_arc.md`、`memory/character_state.yaml`、`memory/knowledge_state.yaml`、`memory/world_state.yaml`、`memory/timeline.csv` 已推进至第30章结束状态。
+- `memory/foreshadowing.csv` 已将F007推进到第30章；F008标记为第30章触及但仍只有王启明一个明确样本；F003继续保持永安里6栋201独立证据边界。
+- 第30章没有产生需要量化的主要人物关系变化，因此未修改 `memory/relationship_state.yaml`。
+- 第30章触发十章节点，已重新压缩更新 `memory/global_summary.md` 至“第30章后”。
+- `plans/chapter_plan.csv` 已将第30章标记为 `completed / pass / ready`，第31章仍为 `planned / pending / blocked` 并收束到历史13#确认后的独立回访/钥匙资料交叉核验。
+- `memory/reader_state.yaml` 已指向第30章最终Review；`memory/revision_state.yaml` 已记录Stage A一次局部修订及最终Reader Gate通过。
 
 ## Result
 
@@ -89,4 +110,4 @@ PASS
 
 ## Publish Gate
 
-第29章满足Reader Gate、Continuity QA、Style QA、长度、有效状态变化和Memory更新要求，已进入 `chapters/ready/0029.md`，Front Matter为 `status: ready`、`qa: pass`。对应 `chapters/draft/0029.md` 已删除。本轮未执行番茄发布，未修改或覆盖 `chapters/published/`。
+第30章满足Reader Gate、Continuity QA、Knowledge Boundary、Style QA、长度、有效状态变化和Memory更新要求，已进入 `chapters/ready/0030.md`，Front Matter为 `status: ready`、`qa: pass`。对应 `chapters/draft/0030.md` 已删除。本轮未执行番茄发布，未修改或覆盖 `chapters/published/`。
