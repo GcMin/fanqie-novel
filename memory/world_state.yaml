@@ -1,25 +1,25 @@
 schema_version: 1
-last_updated_chapter: 16
-current_time: "Day 2 04:17"
+last_updated_chapter: 17
+current_time: "Day 2 04:34"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-001
 locations:
   night_service_center:
     name: 临江市夜间综合服务中心
-    status: 正常夜班运行；2014—2016历史联动扫描归档持续开启，已找到第一条明确写有青梧苑13栋的旧记录
+    status: 正常夜班运行；2014—2016历史联动扫描仍可访问，但LJ-150907-0041所在页的电子内容已与04:23打印版本发生差异
     present_characters:
       - 周衡
       - 梁策
       - 夏宁
     legacy_archive:
-      status: accessible
+      status: accessible_content_changed_once
       storage_label: "历史联动归档 2014—2016"
       format: 纸质夜间联动登记的扫描备份
       indexing_limit: 部分正文未做全文文字识别，当前地址搜索框不能覆盖全部旧内容
       current_filter: 安泰物业旧单位编码 + 2015年8月至9月
-      current_progress: 04:17已核到2015年9月7日并发现LJ-150907-0041；含该记录的窗口暂时最小化，等待完成整页核验后打印
-      confirmed_record:
+      current_progress: 04:23已从仍显示13栋的0041整页生成第一版打印；随后关闭并从原路径重开时地址栏变为12栋，另一工位同样显示12栋；04:30第二版打印也显示12栋
+      confirmed_record_before_change:
         date: "2015-09-07"
         time: "00:46"
         serial: "LJ-150907-0041"
@@ -34,12 +34,43 @@ locations:
         scan_batch_year: 2017
         scan_source: 2015年9月上旬夜间联动纸质登记册
         continuity_check: 前后页日期、页序与扫描批次目录连续，当前未见孤立补页迹象
+      current_record_after_reopen:
+        serial: "LJ-150907-0041"
+        address: 青梧苑12栋
+        unchanged_checked_fields:
+          - 受理时间00:46
+          - 楼道公共照明反复熄灭/夜间影响通行
+          - 转临江安泰物业工程值班
+          - 01:12回访恢复照明
+          - 文件名、页码、总页数及前后页顺序
+        verification:
+          - 原工位从原路径重新打开显示12栋
+          - 另一工位从同一路径打开显示12栋
+          - 04:30重新打印当前页面显示12栋
+        interpretation: 只能确认该电子来源在本次核对中发生前后内容差异；变化机制未知，不得推广为所有电子记录都会改变
       migrated_database_comparison:
         serial_0041: no_match
         serial_0040: present
         serial_0042: present
-        interpretation: 原因未确认；普通历史迁移漏项仍是成立解释，不得直接定义为异常删除
-      print_status: pending_full_page_after_verification
+        interpretation: 迁移缺失真实原因仍未确认，也未证明与本次旧扫描地址变化属于同一机制
+      print_status: two_versions_preserved
+      printed_versions:
+        - printed_at: "Day 2 04:23"
+          address: 青梧苑13栋
+          scope: 完整第7页，保留页眉/日期/流水号/地址/事项/处置与上下文
+          storage: 夏宁调度席带锁抽屉
+          stability: 截至04:34仍保持13栋内容
+        - printed_at: "Day 2 04:30"
+          address: 青梧苑12栋
+          scope: 当前电子源第7页完整打印
+          storage: 作为当前来源对照单独保存
+          stability: current_reference_only
+      temporary_evidence_protocol:
+        - 原页全景
+        - 来源和时间
+        - 可用纸质副本
+        - 再做后续查询
+        - 不把任何单一介质视为绝对安全
   qingwuyuan:
     name: 青梧苑
     official_building_count: 12
@@ -87,8 +118,8 @@ locations:
       - 正常物业旧钥匙柜存在无登记记录的“13屋面”旧钥匙
       - 02:12确认新增八楼803/804，704拖动声来自804
       - 804墙面旧照片出现可外部复核的“永安里居民区”文字与2015年冲印日期
-      - 2015年9月7日中心旧联动扫描曾把青梧苑13栋作为正常地址受理楼道照明报修
-    official_record_status: 当前正常青梧苑系统及2016物业交接目录均不承认13栋；中心2015旧扫描当前保留一条13栋正式联动记录
+      - 2015年9月7日中心旧联动扫描曾把青梧苑13栋作为正常地址受理楼道照明报修；04:23实体打印仍保留该版本
+    official_record_status: 当前正常青梧苑系统及2016物业交接目录均不承认13栋；中心2015旧扫描曾显示13栋但04:23后重新打开时已变为12栋，第一版纸质打印仍保留13栋
   qingwuyuan_704:
     occupant: 刘桂兰
     status: occupied
@@ -119,7 +150,7 @@ locations:
     photo_clue_status: yonganli_location_text_externally_confirmed_2015_dates_observed
   yonganli:
     name: 永安里
-    public_record_status: 当前中心系统地址搜索不到；2015旧扫描已证明同一时期中心正式记录过青梧苑13栋，但尚未找到永安里正式地址记录
+    public_record_status: 当前中心系统地址搜索不到；804照片提供外部文字证据，但尚未找到永安里正式地址记录
     evidence_status: 804旧照片存在可由周衡/梁策/夏宁复核的“永安里居民区”文字；另有6栋入口照片
     zhou_heng_memory: 周衡长期记得童年住址为永安里6栋201，但201当前仍只有其私人记忆支持
     photo_dates:
@@ -145,7 +176,9 @@ resources:
       - “永安里居民区”804旧照片原图/全景副本
       - 2015.08与2015.09旧照片原图副本
       - 2014—2016历史联动扫描备份及2015年8至9月安泰物业筛选结果
-      - 已核实当前显示“青梧苑13栋”的LJ-150907-0041旧扫描位置、页序/扫描批次信息及迁移数据库对照结果；尚无纸质打印副本
+      - LJ-150907-0041旧扫描前后显示差异的路径/页序/时间记录
+      - 04:23显示青梧苑13栋的整页纸质打印件及来源时间说明
+      - 04:30显示青梧苑12栋的第二版整页纸质打印件
   zhou_heng_phone_evidence:
     holder: 周衡
     content:
@@ -157,14 +190,18 @@ resources:
       - 2015.08与2015.09冲印日期照片
       - 2016物业交接目录中原物业/接管日期局部照片
       - 旧通讯录中陈德福工程主管及手机号局部照片
-      - 随身本记录的LJ-150907-0041、旧扫描文件/页码和当前迁移库缺失结果；未拍旧扫描裁剪图
+      - 04:23第一版13栋整页打印件全景照片
+      - 随身本记录的LJ-150907-0041、旧扫描文件/页码、迁移库缺失，以及04:23纸面13栋/04:31当前电子源12栋对照
   legacy_archive_record_0041:
-    holder: 临江市夜间综合服务中心旧扫描归档
-    content: 2015年9月7日青梧苑13栋楼道照明报修整页扫描
-    current_media: digital_scan_only
-    physical_print_status: not_yet_printed
+    holder: 临江市夜间综合服务中心旧扫描归档 + 夏宁调度席实体留存
+    content: 2015年9月7日LJ-150907-0041楼道照明报修整页
+    current_electronic_address: 青梧苑12栋
+    previously_confirmed_electronic_address: 青梧苑13栋
+    physical_print_versions:
+      - "04:23：青梧苑13栋"
+      - "04:30：青梧苑12栋"
     migrated_database_match: false
-    handling_rule: 完成原页核验后打印整页，不只保存地址局部；当前不得把数据库缺失解释成稳定异常规则
+    handling_rule: 记录具体时点/来源并保留完整上下文；不得把本次差异推广成介质永久稳定规则
   qingwuyuan_old_key_check:
     status: 已找到一把标签写着“13屋面”的旧钥匙并原位保留
     location: 正常青梧苑门岗旧钥匙柜底部/12栋屋面钥匙附近
