@@ -1,23 +1,23 @@
 schema_version: 1
-last_updated_chapter: 24
-current_time: "Day 2 07:16"
+last_updated_chapter: 25
+current_time: "Day 2 08:06"
 world:
   anomaly_public_awareness: none
-  current_arc: ARC-001
+  current_arc: ARC-002
 locations:
   night_service_center:
     name: 临江市夜间综合服务中心
-    status: 正常交接前时段运行；周衡、梁策、夏宁均在调度区；第一张异常工单当前投诉人/地址已变为周衡/永安里6栋201，第二张槐荫路工单继续电话与轨道运营核查
+    status: 白班已完成接班并正常运行；周衡、梁策、夏宁夜班结束。第一张异常工单当前仍显示周衡/永安里6栋201且来源保留刘桂兰00:17热线，第二张槐荫路工单继续由白班与轨道运营核查
     present_characters:
-      - 周衡
-      - 梁策
-      - 夏宁
+      - 白班调度人员
+      - 杜工
     evidence_protocol:
       - 保留完整页面和原始上下文
       - 标明来源与时间
       - 使用可用的多媒介副本
       - 后续查询与原始留存分开
       - 不把任何单一介质视为绝对安全
+      - 当前字段与原始来源冲突时禁止直接覆盖原始记录
     legacy_archive:
       record_serial: LJ-150907-0041
       before_reopen_address: 青梧苑13栋
@@ -71,15 +71,38 @@ locations:
         zhou_hotline_check: 当天热线接入无周衡号码对应入线，07:08前后其手机无热线通话
         cross_workstation_check: "07:12另一工位只读查询同样显示周衡/永安里6栋201，来源仍为刘桂兰00:17热线"
         interpretation: 只能确认同一原工单当前投诉人/地址关系发生变化且周衡未发现主动提交记录；不得据此解释系统意图或完整机制
-      current_disposition: 停止无必要提交/刷新实验；保留07:01与07:10前后打印版本，等待正常权限核查更深审计并继续历史纸档调查
+      chapter_25_backend_audit:
+        checked_at: "Day 2 07:26-07:33"
+        administrator: 杜工
+        service_account: svc_addr_route
+        task_time: "07:08:11"
+        task_name: 未映射地址复核 / 责任路由重算
+        trigger: 当前地址无法在现行地址树建立有效映射
+        prior_runs:
+          - "01:03：未建立映射，沿用原始展示地址"
+          - "02:18：未建立映射，沿用原始展示地址"
+          - "06:37：未建立映射，沿用原始展示地址"
+        current_run_result: 复核完成，路由缓存已更新
+        address_source_id: null
+        current_address_master_yonganli_match: none
+        designed_write_fields:
+          - 地址索引
+          - 责任区划
+          - 地图定位键
+          - 责任单位路由
+        claimant_field_in_write_scope: false
+        deeper_human_audit: 06:55后未发现人工修改投诉人/地址记录
+        preserved_as: 只读审计导出与打印件
+        interpretation: 07:08存在可定位后台技术触点，但目前没有证据证明该任务直接生成永安里6栋201或修改投诉人为周衡
+      current_disposition: 原始记录与前后版本保持不覆盖；白班先保留现状并参考审计附件，后续操作前核对证据链
     second_order:
       accepted_at: "Day 2 05:10"
       category: 轨道交通/乘客遗留
       display_address: 临江地铁2号线槐荫路终点站
       claimant: 钱先生，62岁
       request: 黑色帆布包遗留列车内，包中有常用降压药和证件
-      claimant_status: 最近确认仍可电话联系、无头晕胸闷，实际位置未由现行运营体系确认
-      current_handoff: 临江南站公共区域与指定非公共区域已按权限核查仍未发现本人；失物登记与车辆清检继续，中心保持电话链
+      claimant_status: "Day 2约07:41仍可电话联系、无头晕胸闷等新不适，手机约37%，实际位置未由现行运营体系确认"
+      current_handoff: 白班调度已完整接手本人联系、药物风险与轨道运营核查；临江南站公共区域和指定非公共区域仍未找到本人，失物登记/车辆清检继续
       safety_instruction:
         - 留在有照明处
         - 不进入轨行区
@@ -98,7 +121,7 @@ locations:
         description: 2015年度维修单与回访记录
         quantity: 六箱
         location: 青梧苑地下资料间
-        access_status: 白班工程主管已到岗；约07:30后可按正常手续登记开启，尚未调取
+        access_status: "Day 2 07:36已由白班工程主管按手续开启资料间并确认六箱箱号与交接目录一致；箱内具体内容尚未查阅；已预约15:00由物业负责人登记后查看"
   qingwuyuan_building_13:
     name: 青梧苑13栋
     status: 已进入并安全退出；最后现场观察时新增八楼与下行楼梯稳定可见
@@ -132,13 +155,13 @@ locations:
     male_voice_status: heard_identity_unknown_claims_chen_defu_just_left_for_key
   yonganli:
     name: 永安里
-    public_record_status: 当前常规地址搜索无结果，现行临江南站站务库也无该地名
+    public_record_status: 当前常规地址搜索、现行临江南站站务库和07:08后台地址主数据查询均无匹配
     historical_evidence:
       - 804旧照片可复核“永安里居民区”和6栋入口
       - 2011槐荫路站旧导向图扫描B口附近出现“永安里”，原纸档可追溯但未核验
       - 钱先生在无提示条件下当前口述B口导向含“永安里”
     zhou_heng_memory: 永安里6栋201
-    unit_201_evidence_boundary: 第24章前仅周衡私人记忆支持；第24章同一异常工单当前地址显示“永安里6栋201”，这是新的当前系统证据，但仍不是独立历史纸档证明
+    unit_201_evidence_boundary: 第24章前仅周衡私人记忆支持；第24章同一异常工单当前地址显示“永安里6栋201”，第25章更深审计仍没有找到该地址的现行主数据来源；当前系统字段不是独立历史纸档证明
   metro_line_2:
     current_station_of_interest: 临江南站
     current_station_status:
