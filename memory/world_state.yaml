@@ -1,123 +1,103 @@
 schema_version: 1
-last_updated_chapter: 14
-current_time: "Day 2 02:44"
+last_updated_chapter: 15
+current_time: "Day 2 03:31"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-001
 locations:
   night_service_center:
     name: 临江市夜间综合服务中心
-    status: 正常夜班运行
+    status: 正常夜班运行；已打开2014—2016历史联动扫描归档
     present_characters:
+      - 周衡
+      - 梁策
       - 夏宁
+    legacy_archive:
+      status: accessible
+      storage_label: "历史联动归档 2014—2016"
+      format: 纸质夜间联动登记的扫描备份
+      indexing_limit: 部分正文未做全文文字识别，当前地址搜索框不能覆盖全部旧内容
+      current_filter: 安泰物业旧单位编码 + 2015年8月至9月
+      current_progress: 03:31已打开2015年8月3日第一张扫描登记表，尚未确认13栋或永安里
   qingwuyuan:
     name: 青梧苑
     official_building_count: 12
     anomaly_order_address: "13栋704"
-    on_site_verified_normal_layout: true
     normal_layout_note: 正常门岗/物业/长期住户/固定监控均不承认13栋
+    old_property:
+      name: 临江安泰物业服务有限公司
+      verified_service_end: "2016-01前"
+      current_property_takeover: "2016-01"
+      chen_defu_role: 工程主管
+      chen_defu_old_phone_matches_804_card: true
+      handover_directory_buildings: "1-12栋"
+      handover_directory_omits_building_13: true
+      paper_archive_2015:
+        description: 2015年度维修单与回访记录
+        quantity: 六箱
+        location: 青梧苑地下资料间
+        access_status: 未调取；需白班主管按正常手续开启
   qingwuyuan_anomaly_path:
     name: 12栋后停车区西侧异常道路
-    status: 对周衡与梁策现场可见并可进入
+    status: 周衡与梁策离开13栋时仍可见并可通行
     first_observed_chapter: 4
     observations:
       - 约01:03在草坪灯数次熄灭后由冬青/围墙位置出现
       - 周衡手机相机可拍摄
       - 停车区固定监控同一时刻看不到该道路
-      - 道路内手机定位失真，文字通讯可用，图片传输至少本次出现困难
+      - 道路内手机定位失真，文字通讯可用，图片传输曾出现困难
     rule_status: observed_only_not_hard_rule
   qingwuyuan_building_13:
     name: 青梧苑13栋
-    status: 周衡与梁策已完成804有限检查并退出至新增八楼走廊；七楼至八楼楼梯当前稳定可通行
-    visible_floors: 8
-    structure: 一梯两户，无电梯；01:56时楼梯在七楼完整结束，02:00后出现额外结构，02:06后停止变化
-    observed_features:
-      - 门禁、电表、物业公告、信报箱与普通住户均呈现长期生活痕迹
-      - 七楼704真实有人居住且为当前工单投诉人刘桂兰
-      - 704断电后头顶噪音仍持续，703同期未听见
-      - 七楼弱电井不通屋面，原楼梯收口与外立面在额外结构出现前均容不下完整八层
-      - 正常物业旧钥匙柜存在无登记记录的“13屋面”旧钥匙
-      - 01:56留下七楼顶板/扶手尺寸、照片和录像基线
-      - 02:00后顶板出现可记录的黑缝、楼道光、踏步与新增扶手
-      - 02:06后新增楼梯停止变化并通过有限承重确认
-      - 02:12确认新增八楼803/804，704长期投诉的拖动声来自804
-      - 804门内在周衡实际敲门前先出现三下轻敲
-      - 804墙面旧照片出现可外部复核的“永安里居民区”文字与2015年冲印日期
-    emerging_upper_structure:
-      status: stable_and_entered
-      first_visible_chapter: 9
+    status: 周衡与梁策已于第15章安全退出；新增八楼与下行楼梯在最后观察时仍稳定可见
+    last_observed_visible_floors: 8
+    normal_structure_baseline: 七层一梯两户，无电梯；01:56时楼梯在七楼完整结束
+    anomaly_structure:
       first_clear_time: "Day 2 02:00"
       stable_time: "Day 2 02:06"
-      baseline_time: "Day 2 01:56"
-      touched_by_characters: true
+      status_at_exit: stable_and_accessible
       entered_by_characters: true
-      observed_light: 新增八楼老式圆形吸顶灯发出昏黄光
-      observed_steps: 完整两跑楼梯与休息平台，踏步材质和原13栋楼梯相近
-      observed_railing: 与原楼梯相近的黑色铁扶手
-      observed_footsteps: true
-      retreat_route_visible: true
-      time_rule_status: single_event_not_confirmed
-    upper_floor_8:
-      status: accessible_804_exited_after_limited_check
-      first_entered_chapter: 10
-      first_entered_time: "Day 2 02:12"
-      layout: 短走廊左右各一户，803与804
-      observed_features:
-        - 墙面偏黄且有旧使用痕迹
-        - 803门口有旧塑料拖鞋但尚未确认住户
-        - 803/804使用旧式蓝底白字搪瓷门牌
-        - 804为深褐色有划痕防盗门
-        - 804是当前拖动声源所在房间
-      entered_units:
-        - 804
-    official_record_status: normal_qingwuyuan_systems_do_not_recognize
+      retreat_route_visible_at_exit: true
+    observed_features:
+      - 门禁、电表、物业公告、信报箱与普通住户呈现长期生活痕迹
+      - 七楼704真实有人居住且为投诉人刘桂兰
+      - 704断电后头顶噪音仍持续，703同期未听见
+      - 七楼原结构与外立面在额外结构出现前容不下完整八层
+      - 正常物业旧钥匙柜存在无登记记录的“13屋面”旧钥匙
+      - 02:12确认新增八楼803/804，704拖动声来自804
+      - 804墙面旧照片出现可外部复核的“永安里居民区”文字与2015年冲印日期
+    official_record_status: 当前正常青梧苑系统及2016物业交接目录均不承认13栋
   qingwuyuan_704:
     occupant: 刘桂兰
     status: occupied
-    complaint: 午夜后楼上反复拖动家具/重物；声源现已定位到新增八楼804室内，但工单尚未关闭
+    complaint: 午夜后楼上反复拖动家具/重物；声源已定位到新增八楼804，但工单尚未关闭
     resident_belief_upstairs: "804"
+    current_instruction: 今晚留在704，不进入新增楼梯，不再敲击天花板
   qingwuyuan_804:
     status: exited_door_closed_not_deadbolted
     access_time: "Day 2 02:17"
     latest_check_time: "Day 2 02:44"
-    access_basis:
-      - 门内男性声音先重复“门没锁”
-      - 在周衡明确询问进入许可后两次说“进来吧”
-      - 防盗门实际未上锁
-      - 梁策使用橡胶门挡保持门开启和撤退路线
-      - 第13章男性再次两次明确同意二人到深处房间门口检查灯和人员位置
-      - 第14章男性明确说“看吧”，允许二人从房间门口继续查看墙面照片但未授权移动物品
     checked_area: 玄关、客厅、厨房入口、小阳台可见范围、卫生间门口，以及深处房间门口/门缝可见范围；未进入卧室内部
     observed_features:
-      - 玄关浅黄色小方砖、旧鞋柜、钥匙/硬币和蒙灰挂衣镜
-      - 鞋柜内男式皮鞋与深色棉拖落灰
-      - 防盗门内侧贴有褪色福字，外侧只剩红纸胶痕
-      - 公共区域普遍积灰，厨具、水槽、衣物和洗漱用品均缺少近期正常使用痕迹
+      - 公共区域普遍积灰，厨具、水槽、衣物和洗漱用品缺少近期正常使用痕迹
       - 周衡与梁策的新鞋印可在灰层中清晰保留
-      - 客厅有旧木餐桌和四把木椅，一把木椅位于客厅中央
-      - 木椅从餐桌旁到中央存在较新连续擦痕，擦痕周边没有对应近期人类脚印
-      - 02:27木椅发出摩擦声后与此前照片相比向玄关方向移动约二十厘米，新擦痕延伸；无人目视移动过程
-      - 厨房入口旁墙面贴有旧物业维修联系卡，工程维修联系人为陈德福
-      - 餐桌上有旧台历但年份尚未查看
-      - 可见范围没有发现人员
-      - 深处房间有木质书桌、老式台灯及多张墙面旧照片
-      - 一张旧照片背景为老式住宅6栋入口，具有缺瓷砖半圆花池、绿色信报箱、歪树和二楼墙面修补痕等可识别细节
-      - 另一张旧集体照中的白色搪瓷牌可清楚读出“永安里居民区”；梁策现场可见，夏宁通过外勤发送的原图独立读出相同文字
-      - 周衡明确记得本人童年住址为“永安里6栋201”，但当前照片只独立确认永安里地名与6栋视觉线索，未直接证明201
-      - 两张旧照片冲印日期分别为2015.08、2015.09，维修照中仍有一名疑似年轻陈德福的人
-      - 深处房间老式台灯在无人触碰时短暂亮起约两秒，随后自行熄灭
+      - 客厅木椅存在较新连续擦痕；02:27位置向玄关方向移动约二十厘米，周边仍无对应近期人类脚印
+      - 厨房入口旁旧物业维修联系卡标注工程维修联系人陈德福，手机号与正常物业旧通讯录完全一致
+      - 深处房间有老式台灯及多张旧照片；台灯曾无人触碰短暂亮起
+      - 一张旧照片背景为老式住宅6栋入口，与周衡童年记忆细节高度一致
+      - 另一张旧集体照可清楚读出“永安里居民区”，梁策与夏宁均可独立复核
+      - 相关照片冲印日期为2015.08与2015.09，维修照中有疑似年轻陈德福的人
     male_voice_status: heard_identity_unknown_claims_chen_defu_just_left_for_key
     male_voice_latest:
       - 确认“老陈”为陈德福
       - 称陈德福来修里面的灯并“刚才”去拿钥匙
       - 否认本人受伤
-      - 两次许可外勤到深处房间门口检查
-      - 台灯短暂亮起后说“灯不是亮了吗”
-      - 第14章同意二人查看墙面照片，退出前说“老陈回来让他进来”
+      - 许可外勤检查深处房门和墙面照片
+      - 退出前要求“老陈回来让他进来”
     photo_clue_status: yonganli_location_text_externally_confirmed_2015_dates_observed
   yonganli:
     name: 永安里
-    public_record_status: 当前中心系统搜索不到，尚未完成历史档案核查
+    public_record_status: 当前中心系统地址搜索不到；历史旧扫描尚在逐份核查
     evidence_status: 804旧照片存在可由周衡/梁策/夏宁复核的“永安里居民区”文字；另有6栋入口照片
     zhou_heng_memory: 周衡长期记得童年住址为永安里6栋201，但201当前仍只有其私人记忆支持
     photo_dates:
@@ -137,34 +117,23 @@ resources:
       - 热线原录音本地副本
       - 工单/坐标截图
       - 停车区监控侧记录/截图
-      - “13屋面”旧钥匙、旧钥匙柜与现行钥匙登记表照片
-      - 外勤关于02:00后顶层结构变化、02:12抵达803/804的文字报告
-      - 外勤关于804口头许可、公共区域长期积灰和木椅位置变化的文字报告
-      - 804厨房入口旁陈德福旧物业维修联系卡照片
-      - 外勤关于02:31未知男性称陈德福刚才去拿钥匙并许可检查深处房门的文字记录
-      - 可清楚读出“永安里居民区”的804旧照片原图/全景副本
-      - 带有2015.08与2015.09冲印日期的804旧照片原图副本
+      - “13屋面”旧钥匙、旧钥匙柜与现行登记表照片
+      - 外勤关于新增楼梯、八楼、804许可/积灰/木椅变化的报告
+      - 804陈德福旧物业维修联系卡照片
+      - “永安里居民区”804旧照片原图/全景副本
+      - 2015.08与2015.09旧照片原图副本
+      - 2014—2016历史联动扫描备份及2015年8至9月安泰物业筛选结果
   zhou_heng_phone_evidence:
     holder: 周衡
     content:
       - 异常道路与13栋现场照片
-      - 刘桂兰近期噪音录音至少两段
-      - 704现场实时噪音录音
-      - “13屋面”钥匙与登记表照片
-      - 01:56七楼顶层结构基线照片/录像
-      - 02:00后新增结构形成照片/录像
-      - 02:12新增八楼平台、803/804门牌与退路照片
-      - 804门外男性声音、进入许可与入口检查过程录音
-      - 804公共区域积灰/鞋印/木椅擦痕与02:27位置变化照片
+      - 704噪音录音与新增结构形成照片/录像
+      - 803/804门牌、退路及804调查录音/照片
       - 陈德福旧物业维修联系卡照片
-      - 804男性关于陈德福“刚才”去拿钥匙及深处房门许可的录音
-      - 804墙面6栋入口旧照片影像
-      - 可清楚读出“永安里居民区”的804旧照片原图/全景
-      - 带有2015.08与2015.09冲印日期的804旧照片原图
-  liu_guilan_phone_evidence:
-    holder: 刘桂兰
-    content:
-      - 近期楼上噪音录音至少三段，其中一段尚未成功转出13栋现场
+      - “永安里居民区”及6栋入口旧照片原图
+      - 2015.08与2015.09冲印日期照片
+      - 2016物业交接目录中原物业/接管日期局部照片
+      - 旧通讯录中陈德福工程主管及手机号局部照片
   qingwuyuan_old_key_check:
     status: 已找到一把标签写着“13屋面”的旧钥匙并原位保留
     location: 正常青梧苑门岗旧钥匙柜底部/12栋屋面钥匙附近
@@ -172,5 +141,11 @@ resources:
       - 钥匙标签为发黄白塑料牌，黑色油笔写“13屋面”
       - 现行钥匙登记表只到12栋
       - 已查两本旧纸质钥匙登记册目录均没有13栋
+      - 2016物业交接目录屋面钥匙资料仍只列1至12栋
     handling_rule: 只拍照保存，不携钥匙进入异常现场
     verified_function: false
+  qingwuyuan_property_paper_archive:
+    status: identified_not_opened
+    content: 2015年度维修单与回访记录六箱
+    location: 青梧苑地下资料间
+    access_rule: 等待白班主管按正常手续调取
