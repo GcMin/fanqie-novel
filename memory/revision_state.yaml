@@ -1,22 +1,22 @@
 schema_version: 1
 
-current_chapter: 24
-current_source_sha: "dbc82ea9a413f2c53f7866dd94daa4cb7f03b6e6"
-current_review_path: "reader_reviews/0024_dbc82ea9.md"
-stage: passed_to_qa
+current_chapter: null
+current_source_sha: null
+current_review_path: null
+stage: idle
 safe_mode: false
 retry_cycles: 0
 next_retry_after: null
 
 rounds:
-  local_revision: 1
+  local_revision: 0
   full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 2
+  reviews_this_cycle: 1
 
-last_action: reader_gate_passed
-last_action_at: "2026-09-12T10:48:00Z"
-last_result_sha: "dbc82ea9a413f2c53f7866dd94daa4cb7f03b6e6"
+last_action: chapter_24_passed_to_ready
+last_action_at: "2026-09-12T10:59:00Z"
+last_result_sha: "5234c6b11ae5995907e6de97c92efe26ebd0f6d6"
 last_failure_reason: null
 
 # stage 可取：
