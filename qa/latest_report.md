@@ -101,4 +101,4 @@ PASS
 
 ## Publish Gate
 
-第31章满足Reader Gate、Continuity QA、Knowledge Boundary、Style QA、长度、有效状态变化和Memory更新要求，可进入 `chapters/ready/0031.md`，Front Matter应为 `status: ready`、`qa: pass`。对应草稿应从 `chapters/draft/` 删除。本轮不得执行番茄发布，不得修改或覆盖 `chapters/published/`。
+第31章满足Reader Gate、Continuity QA、Knowledge Boundary、Style QA、长度、有效状态变化和Memory更新要求，已进入 `chapters/ready/0031.md`，Front Matter为 `status: ready`、`qa: pass`。对应 `chapters/draft/0031.md` 已删除。本轮未执行番茄发布，未修改或覆盖 `chapters/published/`。
