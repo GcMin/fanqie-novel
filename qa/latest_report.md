@@ -2,7 +2,7 @@
 
 ## Chapter
 
-27《维修记录》
+28《白天的青梧苑》
 
 ## Baseline Check
 
@@ -10,74 +10,77 @@ PASS
 
 - 第1–2章仍位于 `chapters/published/`，`plans/chapter_plan.csv` 对应状态为 completed / pass / published。
 - 第3–6章仍位于 `chapters/ready/`，对应状态为 completed / pass / ready；第6章历史MAJOR已有Stage A局部修订与复审通过记录。
-- `chapters/draft/` 在第27章Publish Gate后仅保留模板与README，没有第1–6章残留草稿。
 - `memory/chapter_summaries/`、`reader_reviews/` 与 `chapter_plan.csv` 对第1–6章状态一致，未发现需要优先修复的发布门冲突。
+- 本轮开始时发现 `qa/latest_report.md` 仍停在第26章，而第27章已经是 ready / pass 且Reader/Memory/plan均已推进至27；先依据既有第27章Reader Review与Memory状态把QA报告同步至第27章，再开始第28章，未修改第27章正文或Canon。
+- 第28章开始写作前 `chapters/draft/` 仅有模板与README，没有第1–6章残留草稿。
 
 ## Planner / Continuity Precheck
 
 PASS
 
-- 第27章承接第26章15:58的明确入口 `WX-150907-041`，只核原维修单，没有跳去预设陈德福、13栋或永安里答案。
-- 原维修单必须与HF-03及中心旧联动0041分开判断；只有完整外部流水匹配后才允许确认同一处置链。
-- “二期13#东梯”仍保留旧安泰`#`号既可表示楼号也可表示设备编号的普通歧义。
-- 钱先生继续由白班维持安全/药物/轨道搜索链，休班中的周衡不越权接管。
+- 已创建 `plans/chapter_0028_plan.md`，本轮只推进第28章正文。
+- 开场Day 2 16:43直接承接第27章16:40资料间上锁、孙经理带周衡前往12栋东侧停车区。
+- 本章只使用第27章已经获得的“二期东侧公照箱③”入口、现行资产表和昨夜正常区域固定参照物；不让梁策/夏宁提前知道下午纸档结果。
+- 明确禁止开配电箱、断电/闪灯等主动触发实验、白天强行出现13栋，以及把现存设施反推为2015旧线路证明。
+- 钱先生继续由白班/轨道方负责，周衡只读取状态更新，不越权接管。
 
 ## Reader Gate
 
 PASS
 
-- Reader source：`chapters/draft/0027.md`。
-- source SHA：`8d5ae2471a9eb0bec51611c2e74357063581f174`。
-- Review：`reader_reviews/0027_8d5ae247.md`。
+- Reader source：`chapters/draft/0028.md`。
+- source SHA：`4fd01ce07c4c5fe3f4f2b3dbc7b8b7522edf8046`。
+- Review：`reader_reviews/0028_4fd01ce0.md`。
 - 结果：0 BLOCKER / 0 MAJOR / 2 MINOR，`recommendation: keep`，`required_action: none`。
-- 两项MINOR分别是开场“箱盖转了半圈”动作略生硬、正文数次重申“13#不等于已确认13栋”略有重复；均不影响逻辑、连续性和阅读理解，按协议不触发Revision。
-- 本章正文没有因MINOR发生Revision，不需要二次Reader Review。
+- 两项MINOR分别为工程用语“旧支路一回”对非工程读者略生硬、后半证据边界提醒略有重复；均不影响逻辑、连续性或理解，按协议不触发Revision。
+- Editor/Revision阶段判定：无 `fix_required`，不修改正文；`memory/revision_state.yaml` 记录本章无Revision通过Publish Gate。
 
 ## Continuity
 
 PASS
 
-- 时间从第26章15:58直接承接至16:00换箱登记，地点和查阅手续连续。
-- `WX-150907-041`明确记录“市联动转报”及完整外部流水`LJ-150907-0041`，因此可确认中心0041、物业WX原单与HF回访属于同一历史处置链。
-- 原单服务点位仅写“二期13#东梯”，正文未越界写成已确认的13栋；相邻旧单同时证明`#`号存在楼号和设备编号两种用法。
-- 维修签字只能辨出姓“马”，审核栏只有工程部章，没有把陈德福工程主管身份追认为041经办人。
-- 备注“取电：二期东侧公照箱③”只提供现行可核对入口；2017改造后的当前设施不能反推2015旧线路。
-- 钱先生16:24仍可联系、无新不适，本人和黑色帆布包仍未定位，第二张工单未被遗忘。
+- 第27章16:40结束在资料间外准备去12栋东侧停车区，第28章16:43到现场，时间/移动距离合理。
+- 现行东侧公照箱3继续符合第27章资产表位置“12栋东侧停车区靠围墙”；第28章新增2017原位换箱/旧支路资料来自正常物业工程档案，不倒改既有Canon。
+- 周衡通过十二栋雨水管、停车区路灯杆、墙角排水口等正常参照物核对昨夜位置；白天围墙/冬青完整，异常道路未主动出现。正文没有由此建立“白天绝不会出现”的新硬规则。
+- 2017资料仅确认一回原东侧旧支路停用、端部封存且走向需看原二期公照竣工图；施工前照片和当前地面修补只能说明改造痕迹，未越界确认旧支路终点或13#=13栋。
+- 陈德福只作为可能知道旧图纸去向/旧编号习惯的退休工程主管进入下一步；仍未被追认为WX-150907-041维修人员或异常知情者。
+- 钱先生17:03仍可联系、无新不适，本人及黑色帆布包未定位；没有捏造新的手机电量数字。
 
 ## Style
 
 PASS
 
-- 档案信息通过找单、核页序、看字段、交叉编号和询问物业人员的动作自然释放，没有把大纲答案直接塞进文件。
-- 孙经理始终保持普通物业负责人知识边界，只解释旧表写法、资产沿革和权限。
-- 周衡继续使用工程/核验式判断，干冷对白有限且符合人物语言指纹。
-- 没有大段复述、模板化心理说明、万能环境描写、元叙事或机械悬念句。
+- 本章通过现场拍摄、固定参照物、工程验收资料、施工前照片和移交目录推进，不依靠作者宣告“这意味着什么”。
+- 孙经理始终保持普通物业负责人知识边界，能限制权限和措辞，但不解释异常世界观。
+- 周衡继续使用工程核验式行为与干冷对白，人物声音连续；没有把白天未出现异常写成情绪独白或抽象哲理。
+- 无大段复述上一章、无万能环境描写、无机械悬念句、无元叙事、无明显凑字式重复。
+- 章尾以《二期公照竣工图（原）》和“陈德福只是可能知道资料去向的旧工程主管”这一可执行入口结束，没有提前把联系人写成答案。
 
 ## Length
 
 PASS
 
-- 第27章：2689个有效中文字符，位于优选区间2600–3400。
+- 第28章：2932个有效字符，位于优选区间2600–3400。
 
 ## Meaningful State Changes
 
 PASS
 
-- HF-03“13#东梯公灯”从疑似对应中心0041推进为：物业原维修单通过完整外部流水直接确认三份记录属于同一历史处置链。
-- 历史点位细化到“二期13#东梯”且有2F/4F/6F实际维修记录，但证据边界仍保留。
-- 维修单备注提供现行仍可核对的“东侧公照箱3”现场入口，使调查从档案桌转向正常白天现场对照。
-- F003/F007均获得推进，但永安里6栋201历史真实性、陈德福经办关系和失址机制均未提前回收。
+- 纸档里的“二期东侧公照箱③”正式落到现行白天实体设施，和昨夜异常道路位置形成可复核空间对照。
+- 2017工程资料确认箱体原位更新，并首次提供“一回旧支路已停用封存、走向见原二期公照竣工图”的正常资料路径。
+- 2016工程资料清单确认旧竣工图纸本曾作为项目资料移交，但当前实际去向/完整性未知；调查从文字歧义推进为可查旧线路图。
+- 陈德福获得正常职业联系理由，但没有被提升成041经办人、异常证人或机制解释者。
 
 ## Memory / Planning
 
 PASS
 
-- 已创建 `memory/chapter_summaries/0027.yaml`。
-- `memory/current_arc.md`、`memory/character_state.yaml`、`memory/knowledge_state.yaml`、`memory/world_state.yaml`、`memory/timeline.csv` 已推进到第27章结束状态。
-- `memory/foreshadowing.csv` 已将F003/F007更新至第27章；F008仍保持单一样本边界。
-- 本章无有意义人际关系变化，因此 `memory/relationship_state.yaml` 保持第25章状态，不为凑更新而改写。
-- `plans/chapter_plan.csv` 已将第27章标记为 completed / pass / ready；第28章仍为 planned / pending / blocked。
-- `memory/reader_state.yaml` 已指向第27章Review；`memory/revision_state.yaml` 已记录第27章无Revision并通过Publish Gate。
+- 已创建 `memory/chapter_summaries/0028.yaml`。
+- `memory/current_arc.md`、`memory/character_state.yaml`、`memory/knowledge_state.yaml`、`memory/world_state.yaml`、`memory/timeline.csv` 已推进至第28章结束状态。
+- `memory/foreshadowing.csv` 已更新F003/F007至第28章；F008保持第18章单一样本边界，没有为下一章强造第二样本。
+- 本章无有意义人际关系变化，因此未为凑更新修改 `memory/relationship_state.yaml`。
+- `plans/chapter_plan.csv` 已将第28章标记为 completed / pass / ready，并把第29章入口细化为“先确认旧图纸去向，再正常联系陈德福询问图纸/旧编号/当年工程管理事实”。第29章仍为 planned / pending / blocked。
+- `memory/reader_state.yaml` 已指向第28章Review；`memory/revision_state.yaml` 已记录第28章无Revision并通过Publish Gate。
 
 ## Result
 
@@ -85,4 +88,4 @@ PASS
 
 ## Publish Gate
 
-第27章满足Reader Gate、Continuity QA、Style QA、长度、有效状态变化与Memory更新要求，已进入 `chapters/ready/0027.md`，Front Matter为 `status: ready`、`qa: pass`。对应草稿已删除。本轮同步QA报告时未执行番茄发布，也未修改或覆盖 `chapters/published/`。
+第28章满足Reader Gate、Continuity QA、Style QA、长度、有效状态变化和Memory更新要求，已进入 `chapters/ready/0028.md`，Front Matter为 `status: ready`、`qa: pass`。对应 `chapters/draft/0028.md` 已删除。本轮未执行番茄发布，未修改或覆盖 `chapters/published/`。
