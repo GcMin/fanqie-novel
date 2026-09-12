@@ -14,8 +14,8 @@ rounds:
   replan_rewrite: 0
   reviews_this_cycle: 1
 
-last_action: chapter_32_passed_to_qa_without_revision
-last_action_at: "2026-09-12T18:57:00Z"
+last_action: chapter_32_passed_to_ready_without_revision
+last_action_at: "2026-09-12T19:09:00Z"
 last_result_sha: "66a832adda65e3b8e412e823aad6e31b5c83df33"
 last_failure_reason: null
 
