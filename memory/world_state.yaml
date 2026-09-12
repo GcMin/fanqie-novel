@@ -1,13 +1,13 @@
 schema_version: 1
-last_updated_chapter: 27
-current_time: "Day 2 16:40"
+last_updated_chapter: 28
+current_time: "Day 2 17:11"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-002
 locations:
   night_service_center:
     name: 临江市夜间综合服务中心
-    status: 白班正常运行；周衡正在青梧苑按手续完成纸档调查并准备做白天现行设施核对，梁策与夏宁处于夜班后的休息时段。第一张异常工单当前仍保留周衡/永安里6栋201与刘桂兰00:17原始热线来源冲突，第二张槐荫路工单继续由白班与轨道运营核查
+    status: 白班正常运行；周衡已在青梧苑完成第26–28章下午纸档与白天设施核对，2017公照改造资料已由孙经理按工作联络发至中心公共邮箱，梁策与夏宁仍处于夜班后的休息时段。第一张异常工单当前仍保留周衡/永安里6栋201与刘桂兰00:17原始热线来源冲突，第二张槐荫路工单继续由白班与轨道运营核查
     present_characters:
       - 白班调度人员
       - 杜工
@@ -101,7 +101,7 @@ locations:
       display_address: 临江地铁2号线槐荫路终点站
       claimant: 钱先生，62岁
       request: 黑色帆布包遗留列车内，包中有常用降压药和证件
-      claimant_status: "Day 2 16:24白班更新仍可电话联系、未报告新头晕胸闷等不适；实际位置未由现行运营体系确认；最近明确电量数值仍为07:41约37%，16:24未重新记录精确电量"
+      claimant_status: "Day 2 17:03白班更新仍可电话联系、未报告新头晕胸闷等不适；实际位置未由现行运营体系确认；最近明确电量数值仍为07:41约37%，17:03未重新记录精确电量"
       current_handoff: 白班调度继续负责本人联系、药物风险与轨道运营核查；临江南站公共区域和指定非公共区域此前均未找到本人，失物登记/车辆清检继续
       safety_instruction:
         - 留在有照明处
@@ -113,7 +113,7 @@ locations:
     name: 青梧苑
     official_building_count: 12
     daylight_state_ch26: "Day 2 14:52周衡按现行小区观察仍只见12栋，昨夜通往13栋的异常道路未主动出现；第26–27章均未进行额外触发测试"
-    current_daylight_investigation: "Day 2 16:40周衡已完成两只纸档箱目标核查，正随孙经理准备前往12栋东侧停车区核对现存东侧公照箱3与周边设施位置；尚未开始第28章现场对照"
+    current_daylight_investigation: "Day 2 16:43-17:11周衡在孙经理陪同下完成12栋东侧停车区/围墙/东侧公照箱3白天现场核对；围墙与冬青保持完整，异常道路和13栋未主动出现，二人未断电、闪灯或进行其他触发实验。调查已转向原二期公照竣工图纸质移交件与旧工程资料去向"
     old_property:
       name: 临江安泰物业服务有限公司
       service_end: "2016-01前"
@@ -169,11 +169,26 @@ locations:
           old_note: 二期东侧公照箱③
           current_asset_name: 东侧公照箱3
           current_location: 12栋东侧停车区靠围墙
-          modification: 2017年改过箱体/线路标识，具体旧线路需另查
-          proof_boundary: 只能确认现行设施仍在及位置沿革可查，不能反推2015旧线路必然连接历史13#
+          modification: 2017年原位更换箱体并重做回路标识
+          daylight_spatial_check: "Day 2 16:43后用十二栋雨水管、停车区路灯杆、墙角排水口等正常参照物重新定位；现行箱体距昨夜异常道路出现墙段不到十米，但白天墙体完整且无异常道路"
+          proof_boundary: 只能确认现行设施位置、原位更新及与异常道路的空间邻近，不能反推2015旧线路必然连接历史13#
+        chapter_28_retrofit_record:
+          document: 青梧苑二期公共照明线路整改验收单
+          date: "2017-06"
+          current_box_work: 东侧公照箱3原位更换箱体并重做回路标识
+          current_circuits:
+            - 12栋东侧公共照明
+            - 停车区路灯
+            - 绿化带照明
+          old_branch_note: 原东侧旧支路一回停用，端部封存，原走向见二期公照竣工图
+          construction_photo: 改造前照片可见一条从旧箱体向东开沟但画面止于绿化带前；与当前地面部分修补位置大致相符，终点不可见
+          original_drawing_catalog: "《二期公照竣工图（原）》纸质移交件，电子附件为空"
+          handover_2016: "项目接管工程资料清单列‘二期公照竣工图一套’，旧物业工程资料、纸本、缺页情况待复核；移交方仅有安泰物业工程部章"
+          current_status: 孙经理已将2017验收资料按工作联络发至中心公共邮箱，并开始查纸本借阅/移交记录
+          proof_boundary: 只证明旧支路与原竣工图资料入口存在，不证明旧支路终点、13#含义或13栋存在
   qingwuyuan_building_13:
     name: 青梧苑13栋
-    status: 已进入并安全退出；最后夜间现场观察时新增八楼与下行楼梯稳定可见；Day 2白天异常道路未主动出现且未做触发测试
+    status: 已进入并安全退出；最后夜间现场观察时新增八楼与下行楼梯稳定可见；Day 2白天16:43-17:11在异常道路出现区域复核时仍未主动出现，且未做触发测试
     normal_structure_baseline: 七层一梯两户，01:56楼梯在七楼完整结束
     anomaly_structure:
       first_clear_time: "Day 2 02:00"
@@ -197,7 +212,7 @@ locations:
         linked_work_order: WX-150907-041
         external_serial: LJ-150907-0041
         proof_level: 同一历史处置链已确认
-        proof_boundary: 物业纸档仍未直接写出“13栋”三字；13#是否就是13栋需继续由独立平面/资产/现场证据确认
+        proof_boundary: 物业纸档仍未直接写出“13栋”三字；13#是否就是13栋需继续由原竣工图/独立平面或其他正常证据确认
   qingwuyuan_704:
     occupant: 刘桂兰
     status: occupied_currently_quiet
@@ -219,14 +234,14 @@ locations:
       - 2011槐荫路站旧导向图扫描B口附近出现“永安里”，原纸档可追溯但未核验
       - 钱先生在无提示条件下当前口述B口导向含“永安里”
     zhou_heng_memory: 永安里6栋201
-    unit_201_evidence_boundary: 第24章前仅周衡私人记忆支持；第24章同一异常工单当前地址显示“永安里6栋201”，第25章更深审计仍没有找到该地址的现行主数据来源；第26–27章青梧苑HF/WX纸档均没有出现永安里或201，因此当前系统字段仍不是独立历史纸档证明
+    unit_201_evidence_boundary: 第24章前仅周衡私人记忆支持；第24章同一异常工单当前地址显示“永安里6栋201”，第25章更深审计仍没有找到该地址的现行主数据来源；第26–28章青梧苑纸档与工程资料均没有出现永安里或201，因此当前系统字段仍不是独立历史纸档证明
   metro_line_2:
     current_station_of_interest: 临江南站
     current_station_status:
       is_terminal: false
       stations_after_toward_southeast: 6
       exits_current: 4
-      qian_search: 公共区、监控和指定非公共区域均暂未找到钱先生，车辆清检/失物登记继续；Day 2 16:24白班更新仍无定位突破
+      qian_search: 公共区、监控和指定非公共区域均暂未找到钱先生，车辆清检/失物登记继续；Day 2 17:03白班更新仍无定位突破
     historical_name:
       name: 槐荫路站
       opened: "2008"
