@@ -1,28 +1,28 @@
 schema_version: 1
-last_updated_chapter: 25
+last_updated_chapter: 37
 relationships:
   - a: zhou_heng
     b: liang_ce
     public_relation: 新人外勤与资深带教
-    actual_relation: 第25章梁策继续让周衡参与更深审计与后续纸档调查，同时明确阻止其通宵后直接继续外勤；当白班询问异常单是否继续由夜班跟进时，梁策没有替周衡决定，而让周衡自己选择继续参与。双方关系从单向安全带教进一步转为在边界内共同调查，但梁策仍保留既往异常经历
-    trust_a_to_b: 53
-    trust_b_to_a: 50
+    actual_relation: 第25章后双方已从单向安全带教转为在边界内共同调查；第37章普通漏水外勤中，梁策主动让周衡先给处置顺序、到场后先问先判断，并在收尾时直接让周衡独立写回单，只校正了未经核验的“持证”措辞。梁策仍掌握最终安全边界，但开始把普通工单的判断与收尾完整交给周衡，工作关系进一步接近可独立协作的同事
+    trust_a_to_b: 55
+    trust_b_to_a: 52
     unresolved_conflicts:
       - 周衡仍不知道梁策过去处理过哪些类似异常工单
-      - 梁策仍认为部分历史经验不应一次性交代，但开始允许周衡自主决定是否继续承担知情与调查风险
+      - 梁策仍认为部分历史经验不应一次性交代，但已更多允许周衡自主承担具体处置与调查判断
   - a: zhou_heng
     b: xia_ning
     public_relation: 新入职同事与夜间调度
-    actual_relation: 已形成可靠的现场/调度与证据协作；第25章夏宁把周衡私人地址相关工单以“来源冲突”而非个人信息八卦方式正式交班，并持续把当前字段、私人记忆和独立证据分开记录
-    trust_a_to_b: 49
-    trust_b_to_a: 47
+    actual_relation: 已形成可靠的现场/调度与证据协作；第37章周衡/梁策外出处理普通漏水单时，夏宁留守独立维持钱先生固定联络与P17证据留存，三人可以在不丢失异常安全链的前提下分工处理正常夜班职责
+    trust_a_to_b: 50
+    trust_b_to_a: 49
     unresolved_conflicts: []
   - a: liang_ce
     b: xia_ning
     public_relation: 长期夜班同事
-    actual_relation: 工作默契稳定；第25章继续由梁策控制疲劳和操作边界、夏宁负责审计留存与白班可执行交接，两人一致反对在来源不明时修数据或继续拿真实工单试验
-    trust_a_to_b: 65
-    trust_b_to_a: 62
+    actual_relation: 工作默契稳定；第37章由梁策带周衡处理普通外勤、夏宁留守钱先生固定联络，双方不需要重复确认即可按既定升级条件分工，仍一致反对拿真实人员做异常验证
+    trust_a_to_b: 66
+    trust_b_to_a: 63
     unresolved_conflicts: []
   - a: zhou_heng
     b: liu_guilan
