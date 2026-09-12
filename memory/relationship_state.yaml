@@ -1,34 +1,35 @@
 schema_version: 1
-last_updated_chapter: 14
+last_updated_chapter: 24
 relationships:
   - a: zhou_heng
     b: liang_ce
     public_relation: 新人外勤与资深带教
-    actual_relation: 共同进入13栋后的职业信任继续增加；第14章周衡首次向梁策完整披露永安里6栋201的私人童年住址记忆，梁策没有否定其记忆，而是帮助把私人记忆与可复核照片证据分开保存，但仍刻意保留既往异常经验
-    trust_a_to_b: 48
-    trust_b_to_a: 45
+    actual_relation: 第24章同一异常工单把投诉人改为周衡、地址改为永安里6栋201后，梁策没有把周衡隔离出调查，而是继续让他参与留证，并在周衡不愿持有新旧版本文件袋时直接代为保管；梁策还明确承认过去见过字段不一致但没见过这种情况，信息控制比开篇有所松动
+    trust_a_to_b: 52
+    trust_b_to_a: 49
     unresolved_conflicts:
-      - 周衡仍不知道梁策过去处理过什么类似地址事件
-      - 梁策认为少解释更安全，周衡开始认为信息不足本身可能带来风险
+      - 周衡仍不知道梁策过去处理过哪些类似异常工单
+      - 梁策仍认为部分历史经验不应一次性交代，但已开始承认哪些情况超出其既往经验
   - a: zhou_heng
     b: xia_ning
     public_relation: 新入职同事与夜间调度
-    actual_relation: 已形成可靠的现场/调度配合；第14章周衡把永安里照片原图交给夏宁做不带提示的独立识读，夏宁成功复核并立即本地保存，双方对证据处理的信任进一步增加
-    trust_a_to_b: 44
-    trust_b_to_a: 42
+    actual_relation: 已形成可靠的现场/调度与证据协作；第24章夏宁首次得知周衡完整私人记忆住址“永安里6栋201”，并在该地址同时出现在工单字段时仍替他维持证据边界与隐私边界，没有把私人记忆当作已证实历史
+    trust_a_to_b: 48
+    trust_b_to_a: 46
     unresolved_conflicts: []
   - a: liang_ce
     b: xia_ning
     public_relation: 长期夜班同事
-    actual_relation: 具备较强工作默契；梁策控制现场边界，夏宁负责调度侧留存与历史查询，双方异常信息掌握程度仍不同
+    actual_relation: 工作默契稳定；第24章继续由梁策控制变量和安全边界、夏宁负责保存前后版本与系统来源，两人对不重复刺激真实工单的判断一致
     trust_a_to_b: 65
-    trust_b_to_a: 60
+    trust_b_to_a: 62
     unresolved_conflicts: []
   - a: zhou_heng
     b: liu_guilan
-    public_relation: 现场处置人员与投诉人
-    actual_relation: 基础职业信任；刘桂兰嫌周衡问得过细，但愿意提供录音和住户信息；周衡已实际确认其长期认知中的804存在，但工单噪音处置尚未完成关闭
+    public_relation: 现场处置人员与原始投诉人
+    actual_relation: 基础职业信任仍在；刘桂兰不知道后台当前已经把工单投诉人改成周衡，三人决定在无新安全问题时不再为了验证界面重复打扰她
     trust_a_to_b: 38
     trust_b_to_a: 38
     unresolved_conflicts:
-      - 刘桂兰对804住户、老陈近期活动的记忆仍与当前可验证时间状态冲突
+      - 刘桂兰仍希望中心核实804住户身份与声源
+      - 当前后台投诉人变化不得被错误追认成刘桂兰主动撤回或转交投诉
