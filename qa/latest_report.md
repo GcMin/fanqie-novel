@@ -2,96 +2,194 @@
 
 ## Chapter
 
-49《掉下来的门牌》
-
-## Baseline Check
-
-PASS
-
-- 本轮开始前重新核对第1–6章：`plans/chapter_plan.csv`中第1–4章为`completed / pass / published`，第5–6章为`completed / pass / ready`。
-- `chapters/ready/0005.md`、`0006.md`既有Front Matter与QA/Reader/Memory状态保持一致；第6章最终Reader Gate仍为0 BLOCKER / 0 MAJOR。
-- 本轮开始时`chapters/draft/`无第1–6章遗留草稿；没有发现需要优先返修的状态冲突，因此允许只推进一个后续章节。
-- 本轮没有修改第1–6章正文，也没有改动任何`chapters/published/`内容。
-
-## Planner / Continuity Precheck
-
-PASS
-
-- 已重新读取`AGENTS.md`、`docs/ai_reading_protocol.md`、`config/novel.yaml`、Premise、主大纲、World、Style、周衡/梁策/夏宁人物卡、第二卷与当前ARC、`chapter_plan.csv`、当前Memory、伏笔、时间线、第39—48章摘要及第44—48章正文，并复核Reader/Revision、Continuity/Style QA协议。
-- 第48章要求下一章前先规划下一卷/下一短弧。本轮先创建第三卷《门牌背后的人》，再把当前剧情弧切换为ARC-005《旧号新号》，并补充第49—58章粗纲，没有直接从第二卷资料线跳写正文。
-- 已创建`plans/chapter_0049_plan.md`并完成Continuity Precheck。本轮只推进第49章，没有写第50章。
-- 第48章结束于Day 3约23:27，本章从同一分钟“下一张工单正在加载”继续，随后自然跨到Day 4 00:10；仍处于第三夜班。
-- 第49章的正常门牌工单只用于建立正式地址正常变更的控制样本，不能证明永安里经历同样流程；M003继续锁定约第60—70章。
-
-## Reader Gate
-
-PASS
-
-- Draft V1 source SHA：`d1eb0f051d21e1078e6199a826182250743e7e7b`。
-- Reader Review：`reader_reviews/0049_d1eb0f05.md`，结果0 BLOCKER / 0 MAJOR / 2 MINOR，`recommendation: keep`、`required_action: none`。
-- MINOR 1：后半段再次完整列出正常沿革字段，略有方法论总结感；已有现场行动支撑，不影响阅读，后续第50章避免重复解释即可。
-- MINOR 2：章尾“沿革索引目录”作为下一步入口略显顺手，但夜间账号被限制为仅看目录说明、不能打开历史底册，权限成本仍成立。
-- 按Revision协议，MINOR不触发自动修订。本章未执行Stage A/B/C，`memory/revision_state.yaml`记录为直接通过Reader Gate进入QA。
-
-## Continuity / Knowledge Boundary
-
-PASS
-
-- 时间从Day 3 23:27推进至Day 4约00:10，午夜跨日明确，仍在第三夜班，无跨班或不合理移动。
-- Day 3 23:08商业街井盖普通工单仍保持“已转道路养护值守、最终现场结果未记录”，本章没有倒写成已闭环。
-- `BK-JBS-160114-03 / S2-07`实物核验继续保持待正常盘点，没有为了第三卷开场强行得到结果。
-- “花枝巷17号→槐北路112号附1”被明确写成新的正常城市地址变更案例，与永安里主线分开；居民沿用旧称不构成F008记忆冲突。
-- 2018地址变更有效性与来源文书由现行标准地址服务和属地责任单位确认，中心没有自行宣布专业结论。
-- F003只推进正式地址调查方法和合法业务入口；F008仍只有王启明一个明确具体事件记忆冲突样本；M003、完整失址机制、系统来源和周衡保留记忆原因均未提前解释。
-
-## Institution / Safety Boundary
-
-PASS
-
-- 工单开场先核门牌高度、下方通行和绕行条件，并要求来电人不要自行架梯拆牌；现实坠落风险优先于主线调查。
-- 夏宁保留来电人口述“花枝巷17号”，另列现行标准地址候选，没有为了派单直接覆盖原始来话。
-- 现场由门楼牌维护人员确认现行蓝牌牢固、旧搪瓷牌松动，再执行隔离、拆除旧牌和墙面封护；中心没有远程指导非专业居民操作。
-- 旧实体门牌物理残留、居民口头旧称、现行有效门牌和正式地址沿革被分别保存，不允许互相替代。
-- 沿革索引只取得目录级入口，夜间联动账号不绕权限查看历史底册；下一步检索规则限定为行政区片、变更批次和来源文书。
-
-## Style / Length
-
-PASS
-
-- 正文没有复述第二卷资料链，只用“正式地址需要独立来源”这一已知缺口引出新的普通工单控制样本。
-- 信息主要通过来电、地址核验、责任单位回报、现场处置和回访出现，没有把整章写成地址制度说明书。人类行政系统已经够擅长生产说明书，小说不需要帮忙。
-- 周衡、夏宁、梁策对白保持既有人物分工：周衡先处置风险并拆事实层，夏宁保存原述/来源，梁策用短句压住过度归纳。
-- 章尾没有突然搜索永安里或获得答案，只取得“沿革索引目录”的有限入口，承接第50章合理。
-- Front Matter记录2646个非空白有效字符，位于配置优选区间2600–3400内。
-
-## Meaningful State Changes
-
-PASS
-
-- 第三卷与ARC-005正式启动，同时没有牺牲普通夜班职业线。
-- 周衡第一次获得一份完整的“正常正式地址变更”现实控制样本：花枝巷17号于2018-06-18因旧城支巷并址整编调整为槐北路112号附1，沿革卡保存旧号、新号、生效时间、变更原因、来源文书和当前有效状态。
-- 现场进一步证明停用旧号仍可能以实体旧牌和居民习惯称呼长期残留，但这些事实不改变现行正式地址状态。
-- 调查方法从“正式地址需要独立来源”推进为“先按正常样本理解沿革字段、索引和来源文书，再进入历史正式地址业务源”。
-- 获得历史门楼牌沿革索引目录这一下一步合法入口，但未查询永安里、未补出6栋201、未提前完成M003。
-
-## Memory / Planning
-
-PASS
-
-- 已创建`outlines/volume_03.md`、更新`outlines/arcs/arc_current.md`为ARC-005，并在`plans/chapter_plan.csv`补充第49—58章粗纲。
-- 已创建`memory/chapter_summaries/0049.yaml`。
-- `memory/current_arc.md`、`memory/character_state.yaml`、`memory/knowledge_state.yaml`、`memory/world_state.yaml`与`memory/timeline.csv`均推进到第49章。
-- `memory/foreshadowing.csv`已将F003推进到第49章；F008仍保持单一样本边界。
-- `memory/relationship_state.yaml`第49章无关系状态变化，因此不做无意义改写；`memory/global_summary.md`按约十章压缩节奏留待第50章附近更新。
-- `memory/reader_state.yaml`已指向第49章Draft V1 SHA和Review路径；`memory/revision_state.yaml`回到`idle`并记录本章无修订直接通过Reader Gate。
-- `plans/chapter_plan.csv`已将第49章标记为`completed / pass / ready`；第50章《旧号新号》保持`planned / pending / blocked`，本轮没有编写第50章。
+50《旧号新号》
 
 ## Result
 
-PASS
+**PASS**
+
+## Baseline Check：第1–6章
+
+**PASS**
+
+- 本轮开始前重新核对第1–6章发布门：`plans/chapter_plan.csv`中第1–4章保持`completed / pass / published`，第5–6章保持`completed / pass / ready`。
+- `chapters/ready/0005.md`、`chapters/ready/0006.md`均保持`status: ready / qa: pass`；第6章最终Reader Gate仍为0 BLOCKER / 0 MAJOR，既有Stage A修订、Reader、QA与Memory状态一致。
+- `chapters/draft/`在开始本章前无第1–6章遗留草稿；未发现需要优先返修的状态冲突。
+- 因基线一致，本轮没有修改任何已发布Canon，也没有回写第1–6章正文。
+
+## Required Reading / Protocol
+
+**PASS**
+
+本轮在规划第50章前重新读取并以其为约束：
+
+- `AGENTS.md`
+- `docs/ai_reading_protocol.md`
+- `config/novel.yaml`
+- `bible/premise.md`
+- `bible/main_outline.md`
+- `bible/world.md`
+- `bible/style.md`
+- 周衡、夏宁、梁策角色Canon
+- `outlines/volume_03.md`
+- `outlines/arcs/arc_current.md`
+- `plans/chapter_plan.csv`
+- 当前`memory/current_arc.md`、人物/关系/知识/世界状态、伏笔、时间线、Reader/Revision State
+- 最近十章摘要0040—0049
+- 最近正文0045—0049
+- Reader / Revision / Continuity / Style协议
+
+## Planner
+
+**PASS**
+
+已建立`plans/chapter_0050_plan.md`。
+
+本章目标不是再次解释第49章六项沿革字段，而是把正常正式地址变更从“知道字段”推进到“知道如何合法定位来源”：
+
+1. 仅沿第49章已知来源文书“东桥片区门楼牌调整通知2018年第27批”进入历史门楼牌沿革索引。
+2. 用花枝巷17号→槐北路112号附1回查目录结构。
+3. 从同批次随机选择另一条普通记录“纸坊巷8号→槐北路108号”，再由现行地址卡独立反核，避免拿一个已知答案自证。
+4. 明确同一批次可以包含不同门牌处置类型，不能以“同批次”替具体条目补变更原因。
+5. 取得“未知来源文书时，以行政区片+历史图幅/旧道路范围+大致年代先申请候选索引”的正常入口。
+6. 章尾只把旧B口行政区片与历史图幅号填进未提交草稿，不输入“永安里”或“6栋201”，不提前查看第51章结果。
+
+## Continuity Precheck
+
+**PASS**
+
+- 时间从第49章Day 4约00:10自然续到00:12—00:35，仍是第三夜班。
+- 花枝巷只作为正常控制样本；新增纸坊巷记录同样只是普通地址沿革交叉样本，不构成异常事实。
+- `BK-JBS-160114-03 / S2-07`继续保持待正常实物盘点，没有半夜强行获得结果。
+- Day 3 23:08商业街井盖工单最终现场结果仍未记录，本章没有倒写为已闭环。
+- F008仍只有王启明一个明确具体事件记忆冲突样本。
+- M003、永安里6栋201正式历史链、历史处置人员、完整失址机制、工单系统来源与周衡保留记忆原因均未提前揭示。
+- 夜间账号只读取目录和现行基础沿革，不绕权限打开历史底册影像。
+
+## Writer
+
+**PASS**
+
+- 最终有效字符：**2764**。
+- 位于`config/novel.yaml`优选区间2600—3400内，也满足2300—3800硬范围。
+- 本章围绕单一动作链推进：来源文书进入目录 → 花枝巷回查 → 第二普通样本交叉 → 阅读历史资料定位说明 → 建立旧B口未提交申请草稿。
+- 没有通过重复上一章六项字段或反复总结同一结论凑字。
+- 有明确Meaningful State Change：正式地址调查从一个正常控制样本推进为两条普通记录可重复验证的索引方法；未知来源资料获得合法的图幅/年代入口。
+
+## Reader Review Round 1
+
+Source SHA：`3d2b230430f69d3854cce49c0ca364024adbae4d`
+
+- BLOCKER：0
+- MAJOR：1
+- MINOR：1
+- recommendation：`revise`
+- required_action：`local_revision`
+
+### MAJOR
+
+章尾申请页先写“行政区片和时间范围”为必填项，随后时间范围为空却写“提交”按钮已经亮起，界面规则自相矛盾。
+
+### MINOR
+
+中段对正式地址索引、实体旧牌与口头称呼的边界有少量再次解释，但第二普通样本承担实际交叉验证功能，不要求自动修订。
+
+## Editor / Revision
+
+**PASS**
+
+按Stage A只修Reader指定的MAJOR，没有扩大改稿范围：
+
+- 保留“年代尚未确定、申请未提交”的剧情不变。
+- 将章尾按钮状态改为：时间范围未填写时“提交”按钮仍为灰色且不可用。
+- 未因唯一MINOR重写其他段落。
+
+修订后Source SHA：`2d8008c0dcc5b391d6a0ac610feb816405e84a34`。
+
+## Reader Review Round 2
+
+**PASS**
+
+- BLOCKER：0
+- MAJOR：0
+- MINOR：1
+- recommendation：`keep`
+- required_action：`none`
+
+唯一MINOR仍是中段证据分层有轻微重复强调，不影响阅读、因果或角色可信度，按协议不继续修订。`memory/revision_state.yaml`已恢复`idle`，记录本章1次local revision、2次Review。
+
+## Continuity / Knowledge / Institution QA
+
+**PASS**
+
+### 时间
+
+- Day 4 00:12—00:35连续成立。
+- 没有把目录阅读、跨年档案核验压缩到不合理的几分钟内完成；本章只处理目录级信息和现行地址卡。
+
+### 人物知识边界
+
+- 周衡只根据第49章已知来源文书和本章实际看到的目录说明形成方法总结。
+- 夏宁负责来源、目录、权限和申请条件，不凭空给出历史答案。
+- 梁策继续只守推论尺度，阻止“同批次=同原因”“图幅=地址证明”。
+- 纸坊巷案例没有被任何角色写成永安里机制类比证据。
+
+### 制度 / 权限
+
+- 历史底册影像按钮保持不可访问；夜间账号仅看目录/现行基础沿革并可准备目录范围申请。
+- 未知来源资料按行政区片、历史图幅/旧道路范围和大致年代缩小候选范围，符合本章建立的普通档案流程。
+- 时间范围作为必填条件未填写，因此旧B口申请只保存草稿，未提交。
+
+### 证据边界
+
+- “纸坊巷8号→槐北路108号”只证明索引路径可以重复，不证明与花枝巷具有同一具体变更原因。
+- 正式地址沿革索引不负责证明居民口头称呼或旧实体门牌是否仍存在。
+- 旧B口历史图幅只是定位条件，不是正式地址证明。
+- 未输入或查询“永安里6栋201”，F003只推进调查方法；正式地址层仍为“未取得独立来源”。
+
+## Style QA
+
+**PASS**
+
+- 无章节编号、作者说明、Reader/QA等元叙事泄漏进正文。
+- 对话具有角色区分度，资料场景由实际点选、核对、反问承载，没有整章写成档案说明书。
+- 没有把普通行政流程神秘化，也没有用抽象悬疑句替代具体动作。
+- 未发现需要Reader Gate之外继续自动修订的模板化重复。
+
+## Memory Updater
+
+**PASS**
+
+已更新：
+
+- `memory/chapter_summaries/0050.yaml`
+- `memory/current_arc.md`
+- `memory/character_state.yaml`
+- `memory/knowledge_state.yaml`
+- `memory/world_state.yaml`
+- `memory/foreshadowing.csv`（F003推进至50；F008明确仍仅王启明）
+- `memory/timeline.csv`（新增T053）
+- `memory/reader_state.yaml`
+- `memory/revision_state.yaml`
+- `plans/chapter_plan.csv`
+- `memory/global_summary.md`已在第50章节点重新压缩为“第50章后”版本。
+
+`memory/relationship_state.yaml`本章没有出现关系状态变化，因此按协议不做空更新。
 
 ## Publish Gate
 
-PASS
+**PASS**
 
-第49章已进入`chapters/ready/0049.md`，Front Matter为`status: ready`、`qa: pass`、`publish_mode: ready`；对应`chapters/draft/0049.md`已删除，当前`chapters/draft/`重新只剩模板与README。`chapters/published/`仍只有第1–4章和README，本轮没有修改或覆盖任何已发布Canon，也没有执行番茄发布。
+- 最终Reader Gate：0 BLOCKER / 0 MAJOR。
+- QA：pass。
+- Memory：已推进至第50章。
+- `plans/chapter_plan.csv`：第50章已为`completed / pass / ready`。
+- 最终正文已进入`chapters/ready/0050.md`，Front Matter为`status: ready / qa: pass / publish_mode: ready`。
+- `chapters/draft/0050.md`已在Ready副本创建后删除，不保留双份草稿。
+- 第51章《图幅索引》仍保持`planned / pending / blocked`，本轮没有编写下一章。
+- 未自动发布到番茄。
+- 未修改或覆盖`chapters/published/`中的任何正文。
+
+## Next Allowed Entry
+
+第51章只能沿第50章已经形成的“行政区片 + 历史图幅 + 年代”入口，先确定合理时间范围并提交目标区片的历史门楼牌目录范围申请。不得用“永安里6栋201”做无来源全文搜索；若目录返回空白、不完整或只覆盖部分年代，只能记录对应范围的阴性/缺口，不能直接写成历史不存在，也不能提前进入M003人员确认。
