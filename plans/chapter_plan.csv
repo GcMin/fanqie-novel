@@ -1,7 +1,7 @@
 chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars,qa_status,publish_status,notes
 1,夜班,completed,ARC-001,建立周衡与夜班职业流程并让他接下首张异常工单,正常工单系统出现不存在的青梧苑13栋704地址,周衡从旁观新人变为异常工单现场处置人员,F001|F002,3000,pass,published,Reader Review完成且MINOR-001已修复；Memory已更新
 2,第一张工单,completed,ARC-001,核对工单来源并准备出发,常规资料都否认13栋但热线原录音确认投诉地址,周衡从怀疑录入错误转为必须亲自验证,F001|F002|F007,3000,pass,published,Reader Gate通过；Memory已更新
-3,青梧苑没有十三栋,completed,ARC-001,抵达青梧苑并用现场证据核实楼栋,现场人员/平面/坐标/围墙/监控均确认只有12栋但现实出现同步拖动声,外部证词与现场证据进一步否定工单地址并把异常升级为现实声响,F001|F002|F007,3000,pass,ready,Reader Gate通过；Memory已更新
+3,青梧苑没有十三栋,completed,ARC-001,抵达青梧苑并用现场证据核实楼栋,现场人员/平面/坐标/围墙/监控均确认只有12栋但现实出现同步拖动声,外部证词与现场证据进一步否定工单地址并把异常升级为现实声响,F001|F002|F007,3000,pass,published,Reader Gate通过；Memory已更新
 4,多出来的路,completed,ARC-001,寻找投诉人描述的路径并验证空间变化,停车区原本只有围墙但灯光变化后出现监控看不见的道路,周衡第一次亲眼确认正常布局无法容纳的异常空间与13栋实体,F001|F002,3000,pass,ready,Reader Gate通过；Memory已更新
 5,十三栋,completed,ARC-001,确认13栋实体与704是否真实存在,建筑拥有长期生活痕迹和住户关系但完全不在正常系统/监控中,周衡必须把13栋当作真实有人居住的建筑处理且确认其当前只有七层,F001|F002,3000,pass,ready,Reader Gate通过；Memory已更新
 6,704,completed,ARC-001,接触投诉人并明确楼上噪音与804认知,刘桂兰的生活/录音都正常但坚信七层楼上存在804,处置目标从寻找13栋转为确认804是否存在,F001|F006|F007,3000,pass,ready,Reader首次发现1项MAJOR并完成Stage A局部修订；复审0 BLOCKER/0 MAJOR；Memory已更新
