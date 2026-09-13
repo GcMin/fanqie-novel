@@ -94,4 +94,4 @@ PASS
 
 PASS
 
-第49章满足0 BLOCKER / 0 MAJOR、Continuity QA、Style QA、Memory Updater和有效状态变化要求，可进入`chapters/ready/0049.md`，Front Matter应为`status: ready`、`qa: pass`、`publish_mode: ready`；对应Draft在迁移后删除。`chapters/published/`不得修改或覆盖。本轮不执行番茄发布，也不修改任何已发布Canon。
+第49章已进入`chapters/ready/0049.md`，Front Matter为`status: ready`、`qa: pass`、`publish_mode: ready`；对应`chapters/draft/0049.md`已删除，当前`chapters/draft/`重新只剩模板与README。`chapters/published/`仍只有第1–4章和README，本轮没有修改或覆盖任何已发布Canon，也没有执行番茄发布。
