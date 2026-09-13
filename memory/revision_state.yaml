@@ -1,25 +1,17 @@
 schema_version: 1
-
-current_chapter: null
-current_source_sha: null
-current_review_path: null
-stage: idle
+current_chapter: 53
+current_source_sha: "b4f437494271c0c774759acf7ff342b7655ef6ae"
+current_review_path: "reader_reviews/0053_b4f43749.md"
+stage: passed_to_qa
 safe_mode: false
 retry_cycles: 0
 next_retry_after: null
-
 rounds:
   local_revision: 0
   full_rewrite: 0
   replan_rewrite: 0
   reviews_this_cycle: 1
-
 last_action: chapter_53_passed_to_qa_without_revision
-last_action_at: "2026-09-13T15:53:00Z"
+last_action_at: "2026-09-13T15:54:09Z"
 last_result_sha: "b4f437494271c0c774759acf7ff342b7655ef6ae"
 last_failure_reason: null
-
-# stage 可取：
-# idle | local_revision | full_rewrite | replan_rewrite | retry_later | passed_to_qa
-#
-# Reader Review 不写入长期小说事实。本文件仅用于自动修订去重、冷却与阶段控制。
