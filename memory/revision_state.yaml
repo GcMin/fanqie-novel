@@ -1,22 +1,22 @@
 schema_version: 1
 
-current_chapter: null
-current_source_sha: null
-current_review_path: null
-stage: idle
+current_chapter: 50
+current_source_sha: "3d2b230430f69d3854cce49c0ca364024adbae4d"
+current_review_path: "reader_reviews/0050_3d2b2304.md"
+stage: local_revision
 safe_mode: false
 retry_cycles: 0
 next_retry_after: null
 
 rounds:
-  local_revision: 0
+  local_revision: 1
   full_rewrite: 0
   replan_rewrite: 0
   reviews_this_cycle: 1
 
-last_action: chapter_49_passed_to_qa_without_revision
-last_action_at: "2026-09-13T11:53:00Z"
-last_result_sha: "d1eb0f051d21e1078e6199a826182250743e7e7b"
+last_action: chapter_50_local_revision_started
+last_action_at: "2026-09-13T12:51:00Z"
+last_result_sha: null
 last_failure_reason: null
 
 # stage 可取：
