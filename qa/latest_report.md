@@ -2,96 +2,101 @@
 
 ## Chapter
 
-38《接应点》
+41《人找到了》
 
 ## Baseline Check
 
 PASS
 
-- 本轮开始时重新核对第1–6章：第1–2章仍为 `completed / pass / published`，第3–6章仍为 `completed / pass / ready`；`plans/chapter_plan.csv` 与章节目录状态一致。
-- `chapters/draft/` 开始时只有模板与README，没有第1–6章遗留草稿。
-- 第3–6章Front Matter均为 `status: ready / qa: pass`；第6章最终Reader Review为0 BLOCKER / 0 MAJOR，对应Memory摘要存在，未发现Reader / QA / Memory / publish状态冲突。
-- `chapters/published/` 仍仅有第1、2章和README；本轮未修改任何已发布正文。
+- 本轮开始时重新核对第1–6章：`plans/chapter_plan.csv` 中第1–2章仍为 `completed / pass / published`，第3–6章仍为 `completed / pass / ready`。
+- `chapters/draft/` 开始时只有模板与README，没有第1–6章遗留草稿；第3–6章既有ready正文状态未发现冲突。
+- 第6章Front Matter仍为 `status: ready / qa: pass`，历史Reader Gate已在Stage A后复审为0 BLOCKER / 0 MAJOR，对应Memory状态持续一致。
+- `chapters/published/` 本轮前后均仅有第1、2章和README；未修改任何已发布正文。
+- 因第1–6章Reader Review / QA / Memory / chapter_plan / 目录状态一致，本轮无需回头返修，允许只推进一个后续章节。
 
 ## Planner / Continuity Precheck
 
 PASS
 
-- 已重新读取AGENTS、AI阅读协议、novel配置、Premise、主大纲、World、Style、周衡/梁策/夏宁人物卡、当前卷/ARC-003、chapter_plan、当前Memory、伏笔、时间线、最近10章摘要与最近正文，并读取Reader/Revision协议及QA规则。
-- 第38章详细章纲与Continuity Precheck保存在 `plans/chapter_0038_plan.md`；本轮只推进第38章正文。
-- 开场Day 3约00:34直接承接第37章00:31三人回中心后的状态；钱先生下一次固定联络保持00:46。
-- 接应设计要求钱先生保持坐姿、不靠近站台边缘/轨行区，不向其预先泄露P17/D-17编号；轨道侧仅在现行公共区做正常结构核验和一次不挡通行的临时标记。
-- 再次前往P17不是恢复无目的重复搜索，而是使用新获得的D-17候选锚点执行明确接应任务；一次观察结束后必须停止重复测试。
-- 永安里6栋201仍无独立历史证明；F008不因现场感知差异升级；M003未提前发生。
+- 已重新读取 `AGENTS.md`、`docs/ai_reading_protocol.md`、`config/novel.yaml`、Premise、主大纲、World、Style、周衡/梁策/夏宁人物卡、第二卷与ARC-003、`chapter_plan.csv`、当前Memory、伏笔、时间线、第31–40章摘要及最近正文，并重新读取Reader/Revision和Continuity/Style QA协议。
+- 新建 `plans/chapter_0041_plan.md`，本轮严格只推进第41章《人找到了》；第42章仍保持未来计划状态。
+- 开场Day 3约01:58直接承接第40章01:54：钱先生01:46无头晕、胸闷、心慌，腰酸未加重且未移动；黑包、身份证和常用降压药已由现行轨道失物体系确认保管；01:53只冻结了对应前一运营日末班具体车辆二号车厢的最小必要视频，结果尚未查看。
+- 本章调查入口限定为正常失联人员协查：先看已冻结车载视频，再按具体车门冻结下车前后最小站台片段；不得恢复P17/D-17、黄牌、旧广播等空间验证，不让钱先生危险移动。
+- 第41章必须得到明确的人身安全阶段结果，但不得把“找到人”解释成穿越结束、双空间重合或失址机制完成。
+- 永安里6栋201仍无独立历史证明；M003不得提前完成；F008仍按严格标准处理。
 
 ## Reader Gate
 
 PASS
 
-- Draft V1 source SHA：`b698b082ee14a66c303c4e0c5c185058bcd3102f`。
-- 首轮Review：`reader_reviews/0038_b698b082.md`。
-- 首轮结果：0 BLOCKER / 2 MAJOR / 1 MINOR，`recommendation: revise`，`required_action: local_revision`。
-- MAJOR 1：正文出现“第36章用过的旧B2分区图”元叙事，人物越出故事层级。
-- MAJOR 2：00:39写“下一次电话六分钟后”，与既定00:46联络相差七分钟，精确时间线算术错误。
-- Stage A只把元叙事改为“刚才核过的旧B2分区图”，并把“六分钟”改为“七分钟”，未扩大修改。
-- 修订后 source SHA：`aeeef2727455ac998cfa6963abb7a2f6eb49aafa`。
-- 复审：`reader_reviews/0038_aeeef272.md`，结果0 BLOCKER / 0 MAJOR / 1 MINOR，`recommendation: keep`，`required_action: none`。
-- 唯一MINOR为章尾“不同的地面/不同的候车区”略带总结感，不触发继续Revision。
+- Draft V1 source SHA：`16e649b6565b97aabd600280bb1a499126e13fa9`。
+- 首轮Review：`reader_reviews/0041_16e649b6.md`。
+- 首轮结果：0 BLOCKER / 1 MAJOR / 1 MINOR，`recommendation: revise`，`required_action: local_revision`。
+- 唯一MAJOR：此前轨道已多轮巡查现行公共区，但V1从“02:13到东段”直接跳到02:16找到钱先生，缺少新的现实定位触发；摄像盲角只能解释视频覆盖，不能独立承担真人本轮为何终于找到人的因果。
+- Stage A只补足该因果：明确广告灯箱与包柱形成视觉折角，前几轮主通行线巡查没有单独绕入最里侧座位；02:16既定固定联络的手机铃声被正在最后可见区域搜索的值班员听见，促使其绕入灯箱里侧完成接触。未恢复异常实验，也未顺手处理MINOR。
+- 修订后 source SHA：`4313a10af71538ea8a6301eabcd14960d8181c04`。
+- 复审：`reader_reviews/0041_4313a10a.md`，结果0 BLOCKER / 0 MAJOR / 1 MINOR，`recommendation: keep`，`required_action: none`。
+- 唯一MINOR为找到人后对05:08旧站、23:17旧广播和排水篦子差异的短段总结略有作者归纳感；按协议不触发继续Revision。
 
 ## Continuity
 
 PASS
 
-- Day 3 00:34承接第37章00:31回中心；00:39到00:46倒计时已修正为七分钟，00:46、00:50、00:55、00:57、00:59、01:04顺序连续。
-- 钱先生00:46先完成健康确认，仍无头晕、胸闷、心慌，腰酸未加重且未移动；黑包/药物仍未找回，当前精确手机电量仍未知。
-- D-17作为第二锚点来自此前P17旧B2/现行结构资料的有限延伸：2016改造位置保留，现行仍在公共候车区；不要求进入设备房、轨行区或封闭通道。
-- 现行黄色折叠警示牌只放置一次并于00:57撤回；梁策明确拒绝重复测试，轨道人员01:04恢复正常值守。
-- 下一次固定联络仍设在01:16，与既有30分钟短联络方案一致。
+- 第40章01:54结束后，第41章01:58查看已保全视频，时间连续；02:16固定联络准确承接01:46后的30分钟方案。
+- 前一运营日23:58车载视频显示钱先生在现行临江南下车、黑包留在二号车厢；Day 2 00:28回库清车发现黑包、00:36交接的既有记录可以正常接续。
+- 05:08热线“车刚开走”与23:58/00:28正常轨道记录之间的数小时差异继续作为来源分离的未解释对照，不被修成方便剧情的统一时间线。
+- 对应站台最小视频只追到钱先生进入东段广告灯箱/包柱折角，明确是普通摄像遮挡边界，不写成异常入口或凭空消失。
+- 此前轨道广义公共区巡查/P17核查无结果仍保留；本章新获得“具体车辆—具体车门—最后可见方向”后，搜索粒度才缩到最里侧候车椅，并由02:16正常电话铃声提供现实定位触发，修订后前后因果成立。
+- 找到人后先保持坐姿核症状，再由两名站务人员陪同安全站立并转入站务值守区；不让钱先生自行找出口、失物点或危险区域。
+- 黑包、身份证、常用降压药仍在运营失物体系内等待正规交还；正文没有提供具体药物补服建议。
 
 ## Knowledge Boundary
 
 PASS
 
-- 钱先生不知道P17/D-17编号和第37章23:53现场具体结果；00:46由他在无编号提示下自然描述方柱/长方排水篦子及相对距离。
-- 轨道侧现行D-17结构、警示牌摆放/撤回与现场照片和钱先生侧通话口述/录音分来源保存，没有拼成“同一空间”的先验结论。
-- 周衡明确不写“互相看不见”，并指出当前只能确认位置关系相近、钱先生侧缺独立画面。
-- F008仍只有王启明一个明确具体事件记忆冲突样本；本章观察差异属于现场感知/位置问题。
-- 永安里6栋201仍无独立历史证明；M003、工单系统来源、周衡保留记忆原因均未提前解释。
+- 钱先生未被告知轨道方23:58车载视频、站台最后可见点、00:28/00:36完整失物链或P17/D-17调查结论；02:16只接受正常固定安全联络。
+- 中心通话线先独立记录钱先生“有人来了”，轨道协作线独立报告现场发现人员，再通过姓名、手机号后四位、年龄/衣着和轨道内部身份证照片确认本人，没有用一条来源反向诱导另一条来源补口供。
+- 周衡只记录“建立面对面接触”，没有写“突然出现”“从过去回来”或“空间重合”。
+- 找到人只证明现实安全处置完成，不能反证23:17旧广播、P17/D-17观察差异、黑包时间链只是普通疏漏，也不能证明异常机制。
+- 永安里6栋201仍无独立历史证明；M003、系统来源、周衡记忆原因均未提前解释。
+- F008继续只有王启明一个明确具体事件记忆冲突样本；钱先生的实时环境/时间记录差异没有被错误升级。
 
 ## Style
 
 PASS
 
-- 开场只用必要篇幅确认D-17，不重复第35—37章旧广播/P17整套证据。
-- 核心场景通过00:55放牌、00:57撤牌和双线路同步观察推进，不靠大段机制解释制造悬疑。
-- 人物声音稳定：梁策短句并及时停止重复试验；夏宁控制非诱导问法与双线路证据；周衡提出可执行锚点但主动保留结论；钱先生以普通乘客视角配合并提出现实疑问。
-- Reader记录的1项MINOR不触发Revision；后续继续减少章尾替读者概括证据意义的句子。
+- 开头直接读取第40章已保全的视频，没有重新朗诵第35–40章全部证据。
+- 主链由车载画面、最小站台视频、正常失联搜索、02:16固定电话铃声和现场接管推进，关键变化主要通过动作和对话呈现。
+- 人物语言和职责稳定：梁策持续压安全/权限边界，夏宁先问症状并分来源记录，周衡克制用词，郭铭只在轨道权限内提供结果，钱先生保持普通老人的疲惫与现实反应。
+- 无章节编号元叙事、无万能系统解释、无为了凑字重复普通工单或旧档内容。
+- 最终Reader保留1项MINOR：找到人后的旧证据短总结略有作者归纳感；不足以构成Style QA失败，后续第42章应避免再次逐条复述旧广播/P17-D17/黑包时间差。
 
 ## Length
 
 PASS
 
-- 第38章Front Matter记录2827个有效字符，位于优选区间2600–3400。
+- 最终Front Matter记录约3068个有效字符，位于配置优选区间2600–3400内，也低于3800硬上限。
 
 ## Meaningful State Changes
 
 PASS
 
-- P17从“现行直接搜索无人”推进为P17—D-17候选共同结构锚点：钱先生在不知编号的情况下描述出与现行结构关系接近的固定物组合。
-- 第一次安全同步接应实际执行：现行侧00:55—00:57放置/撤回黄色折叠警示牌并有照片，钱先生侧同期报告无人员/新增物/撤物变化。
-- 处置方法从继续找更醒目的位置转为先复核两侧已留下的记录，停止重复现场测试，为第39章提供具体事件基础。
-- 钱先生人身安全状态未恶化，异常调查没有牺牲安全边界。
+- 钱先生从持续一天多的“电话可达但现实未定位”推进为Day 3 02:16由现行临江南站务人员面对面找到、02:18确认身份、02:21进入站务值守区，ARC-003最重要的人身安全阶段目标达成。
+- 前一运营日具体末班车视频首次证明钱先生23:58确实从现行临江南下车，而黑包留在车内并进入00:28回库清车链，人员与失物轨迹获得可追溯分离证据。
+- 30分钟固定联络不再只是安全维持机制：02:16电话铃声成为正常失联搜索的现实定位线索，安全机制本身产生剧情功能，而不是新增高风险实验。
+- 工单没有为了章尾整齐而直接办结；黑包/药物交还、获救后证词和ARC-003阶段收束留给第42章。
 
 ## Memory / Planning
 
 PASS
 
-- 已创建 `memory/chapter_summaries/0038.yaml`。
-- `memory/current_arc.md`、`memory/character_state.yaml`、`memory/knowledge_state.yaml`、`memory/world_state.yaml`、`memory/timeline.csv` 已推进至第38章结束状态；本章关系状态无新的可信变化，因此 `memory/relationship_state.yaml` 不做为了更新时间戳而更新的空改动。
-- `memory/foreshadowing.csv` 已将F003推进至第38章；F008仍只有王启明一个明确具体事件记忆冲突样本。
-- `memory/reader_state.yaml` 已指向第38章最终Review；`memory/revision_state.yaml` 记录1次Stage A、2次Review后通过并在进入ready后回到idle。
-- 本章不是十章节点，因此不更新 `memory/global_summary.md`。
-- `plans/chapter_plan.csv` 已将第38章标记为 `completed / pass / ready`；第39章《看不见的人》仍为 `planned / pending / blocked`。
+- 已创建 `memory/chapter_summaries/0041.yaml`。
+- `memory/current_arc.md`、`memory/character_state.yaml`、`memory/knowledge_state.yaml`、`memory/world_state.yaml`、`memory/timeline.csv` 已推进到第41章结束状态。
+- 本章没有形成新的稳定人物关系变化，因此 `memory/relationship_state.yaml` 按协议不做空更新时间戳。
+- `memory/foreshadowing.csv` 已将F003推进到第41章；F008的last-touched也同步到第41章，但状态和结论仍明确只有王启明一个样本，没有把钱先生升级成第二样本。
+- `memory/reader_state.yaml` 指向第41章最终Review；`memory/revision_state.yaml` 记录Stage A后通过，并在进入ready后重置为idle。
+- `memory/global_summary.md` 已在第40章完成十章节点压缩，第41章不重复重写。
+- `plans/chapter_plan.csv` 已将第41章标记为 `completed / pass / ready`；第42章《回来以后》仍为 `planned / pending / blocked`。
 
 ## Result
 
@@ -99,4 +104,6 @@ PASS
 
 ## Publish Gate
 
-第38章满足最终Reader Gate、Continuity QA、Knowledge Boundary、Style QA、长度、有效状态变化和Memory更新要求，已进入 `chapters/ready/0038.md`，Front Matter为 `status: ready`、`qa: pass`。对应 `chapters/draft/0038.md` 已删除。本轮未执行番茄发布，未修改或覆盖 `chapters/published/`。
+PASS
+
+第41章满足最终Reader Gate、Continuity QA、Knowledge Boundary、Style QA、长度、有效状态变化和Memory更新要求，已进入 `chapters/ready/0041.md`，Front Matter为 `status: ready`、`qa: pass`。对应 `chapters/draft/0041.md` 已删除，当前 `chapters/draft/` 重新只剩模板与README。`chapters/published/` 仍然只有第1、2章和README。本轮未执行番茄发布，未修改或覆盖任何已发布Canon。
