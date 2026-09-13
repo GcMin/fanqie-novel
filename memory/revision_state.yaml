@@ -9,14 +9,14 @@ retry_cycles: 0
 next_retry_after: null
 
 rounds:
-  local_revision: 1
+  local_revision: 0
   full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 2
+  reviews_this_cycle: 1
 
-last_action: chapter_45_passed_to_ready_after_local_revision
-last_action_at: "2026-09-13T08:08:00Z"
-last_result_sha: "508bae3584d938ac1629f92bd9e679670dad5d3e"
+last_action: chapter_46_passed_to_qa_without_revision
+last_action_at: "2026-09-13T08:55:00Z"
+last_result_sha: "9914e6ae4e05f3273b2c7d4e48edd0e056caacef"
 last_failure_reason: null
 
 # stage 可取：
