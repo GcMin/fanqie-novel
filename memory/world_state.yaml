@@ -1,13 +1,13 @@
 schema_version: 1
-last_updated_chapter: 51
-current_time: "Day 4 01:04"
+last_updated_chapter: 52
+current_time: "Day 4 01:29"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-005
 locations:
   night_service_center:
     name: 临江市夜间综合服务中心
-    status: 第三夜班由周衡、梁策、夏宁值守；704异常字段、青梧苑历史分叉、旧站多媒介证据、永安里公共导向链继续保留；S2-07仍待正常盘点。第49—50章建立正常门楼牌沿革控制样本/索引方法，第51章已按旧B口图幅+2008—2012取得具体候选目录并锁定2010年第4批129页数字化未挂接问题
+    status: 第三夜班由周衡、梁策、夏宁值守；704异常字段、青梧苑历史分叉、旧站多媒介证据、永安里公共导向链继续保留；S2-07仍待正常盘点。ARC-005已把正常门楼牌沿革方法推进到旧B口历史卷册，2010年第4批129页又从“数字化未挂接原因未知”推进为2014普通质检退件/随册退还记录，当前原卷去向仍待白班人工核验
     evidence_protocol:
       - 保留完整页面、原始上下文、来源与时间
       - 多媒介副本与后续查询分开；当前字段与原始来源冲突时禁止直接覆盖
@@ -38,8 +38,8 @@ locations:
       - 第51章2008—2012只代表既有旧站/公共导向/轨道资料形成期的首轮申请范围，不得写成永安里正式地址存在期
       - 第51章历史图幅只作为位置范围条件；图幅覆盖关系可用于筛候选批次，但不证明批次内必有永安里或6栋201
       - 目录若不开放完整门牌字段，“未见永安里”连有效阴性结果都不能形成；只有实际可见字段覆盖完整时才允许按范围记录阴性
-      - 2010年第4批129页当前只能写“纸档页号存在、数字化影像未挂接、保管状态待核”；不得写成纸页缺失、被删、人为处理或异常
-      - 第52章先核129页普通保管/数字化原因，再决定是否申请内容；未数字化、移交、重装订、损毁、目录错误等普通解释均需保留
+      - 第52章规则：2014数字化作业中的“纸页在场 / 初扫质检不合格 / 随册退还”只证明当年作业状态，不替代Day 4当前纸页/原卷实物核验，也不证明129页正文非空或含目标地址
+      - 历史数字化作业台账未见后续补扫/挂接，只能作为该系统职责范围内的空白；不能推出其他机构后来没有补扫、移交、重装订或损毁
       - 普通设施工单中中心只做责任范围/风险边界/联动与结果核验；责任单位或专业维保的专业检测结论必须注明来源，不得写成中心自行检测
     first_order:
       category: 青梧苑13栋704/历史地址链
@@ -105,7 +105,7 @@ locations:
         transfer_order: BZ-YJ-160114-02
         warehouse_classification: BK-JBS-160114-03
         sample_transfer: "2019转运营资料样本间S2-07，历史标识留样/培训参考"
-        current_physical_check: "Day 3 21:12提交最小范围实物核验；Day 4 01:04仍待实物确认"
+        current_physical_check: "Day 3 21:12提交最小范围实物核验；Day 4 01:29仍待实物确认"
         interpretation: "影像—拆除—项目移交—库方实收—分类—2019留样链成立；不证明Day 4实物仍在或永安里6栋201正式地址"
       public_guidance_chain:
         rail_map: "2011槐荫路旧B口导向图出现‘永安里’"
@@ -154,7 +154,7 @@ locations:
         unknown_source: "行政区片+历史图幅/旧道路范围+大致年代→候选索引→候选卷册/批次/来源文书"
         access: "夜间账号可看目录/现行基础沿革并提交范围申请，不开放历史底册影像"
     fifth_order:
-      category: 旧B口历史门楼牌目录候选/129页保管状态
+      category: 旧B口历史门楼牌目录候选/129页数字化与原卷保管链
       request_scope:
         district: 旧B口所在行政区片
         historical_map: 2010公共导向底图已保存旧B口图幅号
@@ -177,20 +177,28 @@ locations:
         paper_pages: "117-146"
         digital_images: "117-128,130-146"
         page: 129
-        catalog_status: "纸档页号存在；数字化影像未挂接；保管状态待核"
-        interpretation: 只能确认数字化缺项；不能证明纸页丢失、删除、损毁或异常
-        check_submitted_at: "Day 4 00:58"
-        check_scope: "纸页是否存在 / 是否未数字化 / 是否有移交或重装订记录 / 当前保管位置"
-        current_state: pending_storage_check
+        catalog_status_at_ch51: "纸档页号存在；数字化影像未挂接；保管状态待核"
+        digitization_trace:
+          year: 2014
+          job: 旧城门楼牌底册集中数字化
+          handover_count: "117—146页共30页"
+          page_129_qc: "初扫完成；装订过紧、内侧栏遮挡、影像不合格"
+          image_disposition: "作废，不入正式影像库"
+          paper_disposition: "不拆订强扫；原卷未拆订、页序复核无误、随册退还；待补扫"
+          interpretation: "只证明2014数字化作业时129页实际在场且未挂接有普通质检原因；不证明Day 4纸页/原卷仍在或页面正文"
+        digital_system_followup: "当次作业台账当前未见补扫完成/重新挂接/重新送件；仅限该系统职责范围，不能推出后来无其他处置"
+        storage_request_submitted_at: "Day 4 01:22"
+        storage_request_scope: "原卷当前保管机构及馆藏/移交状态；后续重装订/整册移交/补充数字化；正常调阅入口与权限条件"
+        current_state: pending_daytime_custodian_reply
 ordinary_work:
   ruijingyuan_4:
     state: completed
     time: "Day 3 21:16-22:09"
     result: "高区二次供水保护停机；据物业维保反馈压力传感器信号端子松动；专业处置后12/16/18楼住户确认恢复供水，周衡独立提交来源边界清楚的回单"
   commercial_street_manhole:
-    state: transferred_to_road_maintenance_pending_result
-    time: "Day 3 23:08"
-    result: "夏宁核地点和来电描述后转道路养护值守，并提出夜间警示与现场核验要求；第51章仍未记录最终现场处置结果"
+    state: stage_completed_day_shift_followup
+    time: "Day 3 23:08-Day 4 01:10"
+    result: "道路养护现场确认井盖本体未断裂、井座无明显下沉，一侧固定件磨损；夜间完成临时锁固并复核不再晃动，警示保留，磨损固定件由白班继续更换。中心01:10只按当前风险临时控制完成阶段回单"
   huazhi_lane_doorplate:
     state: completed
     time: "Day 3 23:27-Day 4 00:05"
@@ -198,9 +206,13 @@ ordinary_work:
   night_waste_collection_delay:
     state: responsibility_unit_callback_pending
     time: "Day 4约00:44-00:51"
-    result: "商户反映夜间垃圾收运延后；夏宁核实不是车辆撞坏设施，仅记录位置/延误并转责任单位，正文未记录最终回电结果"
+    result: "商户反映夜间垃圾收运延后；夏宁核实不是车辆撞坏设施，仅记录位置/延误并转责任单位，正文尚未记录最终回电结果"
+  fire_lane_vehicle_obstruction:
+    state: newly_received
+    time: "Day 4 01:29"
+    result: "来电人称楼下消防通道有车辆堵住半边出口；夏宁正在核车牌、属地和值守，尚无处置结果"
 shift:
   current:
     start: "Day 3约19:47"
     staff: "周衡|梁策|夏宁"
-    state: 第三夜班进行中；Day 4约01:04，ARC-005已取得旧B口门楼牌具体候选目录，2010年第4批129页保管状态核验与S2-07实物核验均在等待，普通夜班继续
+    state: 第三夜班进行中；Day 4约01:29，ARC-005已确认129页2014数字化质检退件原因并提交原卷白班保管去向/正常调阅条件核验；S2-07仍待盘点，普通夜班继续
