@@ -79,11 +79,11 @@ PASS
 PASS
 
 - 已创建`memory/chapter_summaries/0047.yaml`。
-- `memory/current_arc.md`、`memory/character_state.yaml`、`memory/knowledge_state.yaml`、`memory/relationship_state.yaml`、`memory/world_state.yaml`与`memory/timeline.csv`已推进到第47章。
+- `memory/current_arc.md`、`memory/character_state.yaml`、`memory/knowledge_state.yaml`、`memory/relationship_state.yaml`、`memory/world_state.yaml`与`memory/timeline.csv`均推进到第47章。
 - `memory/foreshadowing.csv`已把F003推进到第47章；F008仍保持第42章最后触及且只有王启明一个明确样本。
 - `memory/global_summary.md`上次十章压缩在第40章，本章不重复重写；下一次约第50章处理。
-- `plans/chapter_plan.csv`应将第47章标记为`completed / pass / ready`；第48章《留在纸上的地址》继续保持`planned / pending / blocked`。
-- `memory/reader_state.yaml`已指向第47章当前正文SHA；`memory/revision_state.yaml`保持idle，本轮0次局部修订、1次Review。
+- `plans/chapter_plan.csv`已将第47章标记为`completed / pass / ready`；第48章《留在纸上的地址》仍为`planned / pending / blocked`。
+- `memory/reader_state.yaml`已指向第47章当前正文SHA；`memory/revision_state.yaml`为idle，本轮0次局部修订、1次Review，最终记录为`chapter_47_passed_to_ready_without_revision`。
 
 ## Result
 
@@ -91,6 +91,6 @@ PASS
 
 ## Publish Gate
 
-PASS（待完成ready落盘与draft清理）
+PASS
 
-Reader Gate、Continuity、Knowledge Boundary、Institution、Style、Length、Meaningful State Change均已通过。第47章可以进入`chapters/ready/0047.md`；落盘后删除对应draft。`chapters/published/`不得修改。本轮不执行番茄发布。
+第47章已进入`chapters/ready/0047.md`，Front Matter为`status: ready`、`qa: pass`、`publish_mode: ready`；对应`chapters/draft/0047.md`已删除。`chapters/published/`未在本轮修改或覆盖。本轮未执行番茄发布，也未修改任何已发布Canon。
