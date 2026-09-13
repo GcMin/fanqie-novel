@@ -3,20 +3,20 @@ schema_version: 1
 current_chapter: null
 current_source_sha: null
 current_review_path: null
-stage: idle
+stage: passed_to_qa
 safe_mode: false
 retry_cycles: 0
 next_retry_after: null
 
 rounds:
-  local_revision: 0
+  local_revision: 1
   full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 1
+  reviews_this_cycle: 2
 
-last_action: chapter_37_passed_to_ready_without_revision
-last_action_at: "2026-09-12T23:58:00Z"
-last_result_sha: "fba8e96b93fb91b96272dbdd0c9c9025b7f69c8d"
+last_action: chapter_38_stage_a_passed_reader_gate
+last_action_at: "2026-09-13T00:54:00Z"
+last_result_sha: "aeeef2727455ac998cfa6963abb7a2f6eb49aafa"
 last_failure_reason: null
 
 # stage 可取：
