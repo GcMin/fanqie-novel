@@ -11,7 +11,7 @@ rounds:
   full_rewrite: 0
   replan_rewrite: 0
   reviews_this_cycle: 1
-last_action: chapter_56_reader_gate_pass_without_revision
-last_action_at: "2026-09-13T18:49:00Z"
+last_action: chapter_56_ready_without_revision
+last_action_at: "2026-09-13T18:56:00Z"
 last_result_sha: "bf77c2789d923ee659285c3ae69039f81491c4b0"
 last_failure_reason: null
