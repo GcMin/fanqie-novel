@@ -1,13 +1,13 @@
 schema_version: 1
-last_updated_chapter: 52
-current_time: "Day 4 01:29"
+last_updated_chapter: 53
+current_time: "Day 4 08:00"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-005
 locations:
   night_service_center:
     name: 临江市夜间综合服务中心
-    status: 第三夜班由周衡、梁策、夏宁值守；704异常字段、青梧苑历史分叉、旧站多媒介证据、永安里公共导向链继续保留；S2-07仍待正常盘点。ARC-005已把正常门楼牌沿革方法推进到旧B口历史卷册，2010年第4批129页又从“数字化未挂接原因未知”推进为2014普通质检退件/随册退还记录，当前原卷去向仍待白班人工核验
+    status: 第三夜班于Day 4 08:00完成交班；704异常字段、青梧苑历史分叉、旧站多媒介证据、永安里公共导向链继续保留；S2-07仍待正常盘点。ARC-005已把2010年第4批原卷从2014数字化质检退件继续推进到2017整册正常移交与东桥区旧城历史建设资料室的跨部门调阅入口，当前等待接收机构核馆藏/页序/可调范围
     evidence_protocol:
       - 保留完整页面、原始上下文、来源与时间
       - 多媒介副本与后续查询分开；当前字段与原始来源冲突时禁止直接覆盖
@@ -40,6 +40,8 @@ locations:
       - 目录若不开放完整门牌字段，“未见永安里”连有效阴性结果都不能形成；只有实际可见字段覆盖完整时才允许按范围记录阴性
       - 第52章规则：2014数字化作业中的“纸页在场 / 初扫质检不合格 / 随册退还”只证明当年作业状态，不替代Day 4当前纸页/原卷实物核验，也不证明129页正文非空或含目标地址
       - 历史数字化作业台账未见后续补扫/挂接，只能作为该系统职责范围内的空白；不能推出其他机构后来没有补扫、移交、重装订或损毁
+      - 第53章规则：2017整册移交只证明原卷从原业务档案转入东桥区旧城历史建设资料保管体系；发送方无接收后库位/页序/单页利用权限，因此不得用整册移交替代Day 4单页在册、补扫或正文证明
+      - 跨部门历史资料调阅先按原卷号+移交清册项+历史片区/图幅+业务用途做卷级馆藏/可开放范围核验，再决定是否可调指定页；不得直接按129页或目标地址绕过卷级确认
       - 普通设施工单中中心只做责任范围/风险边界/联动与结果核验；责任单位或专业维保的专业检测结论必须注明来源，不得写成中心自行检测
     first_order:
       category: 青梧苑13栋704/历史地址链
@@ -105,7 +107,7 @@ locations:
         transfer_order: BZ-YJ-160114-02
         warehouse_classification: BK-JBS-160114-03
         sample_transfer: "2019转运营资料样本间S2-07，历史标识留样/培训参考"
-        current_physical_check: "Day 3 21:12提交最小范围实物核验；Day 4 01:29仍待实物确认"
+        current_physical_check: "Day 3 21:12提交最小范围实物核验；Day 4 08:00仍待实物确认"
         interpretation: "影像—拆除—项目移交—库方实收—分类—2019留样链成立；不证明Day 4实物仍在或永安里6栋201正式地址"
       public_guidance_chain:
         rail_map: "2011槐荫路旧B口导向图出现‘永安里’"
@@ -188,8 +190,12 @@ locations:
           interpretation: "只证明2014数字化作业时129页实际在场且未挂接有普通质检原因；不证明Day 4纸页/原卷仍在或页面正文"
         digital_system_followup: "当次作业台账当前未见补扫完成/重新挂接/重新送件；仅限该系统职责范围，不能推出后来无其他处置"
         storage_request_submitted_at: "Day 4 01:22"
-        storage_request_scope: "原卷当前保管机构及馆藏/移交状态；后续重装订/整册移交/补充数字化；正常调阅入口与权限条件"
-        current_state: pending_daytime_custodian_reply
+        storage_reply_at: "Day 4 07:34"
+        storage_reply: "原卷2017年旧城历史资料集中整理时按整册移交清册转交东桥区旧城历史建设资料室；原保管岗只保留移交清册、原卷索引和接收单位信息，不掌握接收后的现行库位/页序/补充数字化/单页利用状态"
+        interpretation: "2017整册移交链与接收机构已证；不得据此证明Day 4 129页仍在册或正文内容"
+        cross_department_request_submitted_at: "Day 4 07:48"
+        cross_department_request_scope: "原卷号+2017移交清册项+既有历史图幅+历史服务记录地址归属核验用途；不含永安里/6栋201/129页正文"
+        current_state: pending_dongqiao_archive_holdings_and_access_scope
 ordinary_work:
   ruijingyuan_4:
     state: completed
@@ -208,11 +214,12 @@ ordinary_work:
     time: "Day 4约00:44-00:51"
     result: "商户反映夜间垃圾收运延后；夏宁核实不是车辆撞坏设施，仅记录位置/延误并转责任单位，正文尚未记录最终回电结果"
   fire_lane_vehicle_obstruction:
-    state: newly_received
-    time: "Day 4 01:29"
-    result: "来电人称楼下消防通道有车辆堵住半边出口；夏宁正在核车牌、属地和值守，尚无处置结果"
+    state: completed
+    time: "Day 4 01:29-01:58"
+    result: "来电人原述白色厢式车斜停并堵住半边消防通道；中心未夸大成完全封堵，也未越权查个人信息/执法。物业通过自身登记联系司机，01:53车辆驶离并由现场值守复核通道恢复，01:58回访后完成"
 shift:
   current:
     start: "Day 3约19:47"
+    end: "Day 4 08:00"
     staff: "周衡|梁策|夏宁"
-    state: 第三夜班进行中；Day 4约01:29，ARC-005已确认129页2014数字化质检退件原因并提交原卷白班保管去向/正常调阅条件核验；S2-07仍待盘点，普通夜班继续
+    state: 第三夜班已完成交班；2010年第4批原卷2017整册移交链与东桥区接收机构已证，07:48跨部门卷级只读调阅待接收机构确认馆藏/页序/可调范围；S2-07仍待盘点
