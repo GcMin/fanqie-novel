@@ -1,21 +1,21 @@
 schema_version: 1
 
-current_chapter: 48
-current_source_sha: "2c1d6793ddee2422fecea4daf41b7623e95f9c6b"
-current_review_path: "reader_reviews/0048_2c1d6793.md"
-stage: passed_to_qa
+current_chapter: null
+current_source_sha: null
+current_review_path: null
+stage: idle
 safe_mode: false
 retry_cycles: 0
 next_retry_after: null
 
 rounds:
-  local_revision: 0
+  local_revision: 1
   full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 1
+  reviews_this_cycle: 2
 
-last_action: chapter_48_passed_reader_gate
-last_action_at: "2026-09-13T10:50:00Z"
+last_action: chapter_48_passed_to_ready_after_local_revision
+last_action_at: "2026-09-13T11:00:00Z"
 last_result_sha: "2c1d6793ddee2422fecea4daf41b7623e95f9c6b"
 last_failure_reason: null
 
