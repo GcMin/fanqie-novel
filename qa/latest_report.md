@@ -83,7 +83,7 @@ PASS
 - 本章不触及、新增或回收伏笔，因此`memory/foreshadowing.csv`保持第45章状态，F003/F008无虚假“空推进”。
 - `memory/global_summary.md`上次十章压缩在第40章，本章不重复重写，下一次约第50章处理。
 - `plans/chapter_plan.csv`已将第46章标记为`completed / pass / ready`；第47章《指向哪里》仍为`planned / pending / blocked`。
-- `memory/reader_state.yaml`已指向第46章当前正文SHA；`memory/revision_state.yaml`已回到idle，本轮0次局部修订、1次Review。
+- `memory/reader_state.yaml`已指向第46章当前正文SHA；`memory/revision_state.yaml`保持idle，本轮0次局部修订、1次Review。
 
 ## Result
 
@@ -91,6 +91,6 @@ PASS
 
 ## Publish Gate
 
-PASS（待文件移动完成）
+PASS
 
-第46章满足最新Reader Review 0 BLOCKER / 0 MAJOR、Continuity QA、Knowledge Boundary、Professional Boundary、Style/Length与Meaningful State Change要求，且Memory已推进到章节结束状态。允许将相同正文从`chapters/draft/0046.md`移动到`chapters/ready/0046.md`并设置Front Matter为`status: ready / qa: pass / publish_mode: ready`。不得修改`chapters/published/`，不得执行番茄自动发布。
+第46章已进入`chapters/ready/0046.md`，Front Matter为`status: ready`、`qa: pass`、`publish_mode: ready`；对应`chapters/draft/0046.md`已删除。`chapters/published/`未在本轮修改或覆盖。本轮未执行番茄发布，也未修改任何已发布Canon。
