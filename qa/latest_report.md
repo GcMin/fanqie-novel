@@ -1,238 +1,120 @@
 # Latest QA Report
 
 ## Chapter
+- chapter: 59
+- title: 《席位名册上的名字》
+- arc: ARC-006《当班的人》
+- final_source_sha: `d92e4ffb02030318c0a0e86e0aa52242cc526c6a`
+- ready_blob_sha: `bb892210f4e47122462230c739032e95cb2f5a5f`
+- effective_char_count: 2763
 
-58《是谁写下这张表》
-
-## Result
-
+## Baseline Gate：第1—6章
 **PASS**
 
-## Baseline Check：第1–6章
+- `chapters/published/`仍只有第1—6章与README；本轮未修改任何published正文。
+- `plans/chapter_plan.csv`第1—6章仍为`completed / pass / published`。
+- `memory/chapter_summaries/0001.yaml`至`0006.yaml`此前已核对存在且标题/章节一致；第6章标题保持《704室的投诉》。
+- `chapters/draft/`最终只剩`CHAPTER_TEMPLATE.md`与`README.md`，不存在第1—6章或第59章遗留草稿。
+- 本轮没有发现需要优先修复的第1—6章Reader / QA / Memory / 目录状态冲突。
 
+## Planner / Continuity Precheck
 **PASS**
 
-- 本轮开始时重新核对`chapters/draft/`、`chapters/ready/`、`chapters/published/`、`plans/chapter_plan.csv`与Memory状态。
-- 第1–6章当前均位于`chapters/published/`；`chapter_plan.csv`第1–6章均为`completed / pass / published`。
-- `chapters/ready/`从第7章开始，不存在第1–6章Ready重复；`chapters/draft/`没有第1–6章遗留正文。
-- 第6章Memory摘要标题已是《704室的投诉》，与published正文和计划表一致；本轮未发现新的第1–6章Reader/QA/Memory/目录冲突。
-- 因此没有返修稳定Canon，也没有改动任何`chapters/published/`文件。
+- 已重新读取`AGENTS.md`、`docs/ai_reading_protocol.md`、`config/novel.yaml`、Premise/Main Outline/World/Style、周衡/夏宁/梁策角色卡、第三卷、当前Arc、chapter_plan、Memory、伏笔、时间线、最近10章摘要与最近正文。
+- ARC-005在第58章已完成，因此本轮先新建ARC-006《当班的人》，并粗排第59—68章；第59章另建详细章纲。
+- M003仍锁定第60—70章证据充分时完成；第59章只允许把C-3映射到姓名，不得把姓名直接升级成实际核址人或最后相关夜间处置者。
 
-## Required Reading / Protocol
+## Reader Gate
+**PASS after Stage A**
 
+### First Review
+- review: `reader_reviews/0059_1cce7544.md`
+- BLOCKER: 0
+- MAJOR: 1
+- MINOR: 1
+- issue: 章末独立排班申请写成确认整班实际排班人员，与此前坚持的最小必要人员范围不完全一致。
+
+### Revision
+- stage: A / local_revision
+- change: 仅收窄综合行政排班申请范围，改为核验席位名册所列C-3对应人员是否列入2010-10-18乙班排班，并只返回该人员相关出勤/班次字段和一致性结论；检索仍按日期/班次/名册引用关系进入，不用梁策姓名泛搜。
+- 未因MINOR进行装饰性改写。
+
+### Final Review
+- review: `reader_reviews/0059_d92e4ffb.md`
+- BLOCKER: 0
+- MAJOR: 0
+- MINOR: 1
+- recommendation: `keep`
+- required_action: `none`
+
+## Continuity QA
 **PASS**
 
-本轮推进第58章前重新读取并遵循：
+- 时间：第58章结束Day 6 07:31；第59章07:34申请、08:00下班，20:03进入第六次夜班，连续成立。
+- 地点：均在临江市夜间综合服务中心及其内部历史档案/综合行政协作流程，无空间跳跃问题。
+- 人物：周衡、夏宁、梁策行为延续既有职业逻辑；梁策“知道C-3是自己但不先自报”的选择有明确证据方法动机，同时产生合理关系张力。
+- 梁策年龄：当前38岁，2010年约22岁，旧夜联任职不存在年龄硬冲突。
 
-- `AGENTS.md`
-- `docs/ai_reading_protocol.md`
-- `docs/reader_agent_protocol.md`
-- `docs/revision_agent_protocol.md`
-- `config/novel.yaml`
-- `bible/premise.md`
-- `bible/main_outline.md`
-- `bible/world.md`
-- `bible/style.md`
-- 周衡 / 夏宁 / 梁策角色Canon
-- `outlines/volume_03.md`
-- `outlines/arcs/arc_current.md`
-- `plans/chapter_plan.csv`
+## Knowledge / Evidence Boundary QA
+**PASS**
+
+- 本章新增事实仅为：2010-10-18乙班席位名册把C-3映射为梁策，C-3席位类别为记录联络；梁策本人确认旧夜联任职/C-3席位。
+- 正文明确没有把梁策当前资深外勤身份反推为2010年现场核址职责。
+- 独立行政排班尚未返回，因此梁策2010-10-18实际出勤仍待第二来源确认。
+- 22:51核址反馈来源、实际核址者、最后一次相关夜间处置者均未知，M003未完成。
+- 永安里6栋建筑层已由第57章独立来源确认；201/单元/住户仍未取得。
+- `S2-07`实物盘点继续等待。
+- 梁策“早已认出C-3但此前没说”属于信息披露选择，不构成F008记忆异常；F008仍只有王启明明确样本。
+
+## Institution / Permission QA
+**PASS**
+
+- 席位名册只开放页头、日期/班次、C-3行和席位说明；其他人员姓名/个人信息遮蔽。
+- Stage A后综合行政排班核验只请求C-3对应人员相关的出勤/班次字段与一致性结论，不取得整班无关人员名单。
+- 检索入口继续使用日期、班次、旧机构档案类别和名册引用关系，不用梁策姓名反向捕鱼。
+
+## Style / Length QA
+**PASS**
+
+- 有效字符2763，处于2600—3400优选区间，亦满足2300—3800硬范围。
+- 新进入Ready标题《席位名册上的名字》满足最小标题长度；Front Matter、正文目标与`chapter_plan.csv`标题一致。
+- 主信息只推进一层，没有同时塞入201、S2-07或M003答案。
+- 对话保持人物区分；无长篇系统设定说明，无明显复述凑字。
+- Reader唯一MINOR为“席位映射≠具体处置”的边界在后半段重复数次；按协议不触发继续修订，并已要求第60章直接承接而非完整复讲。
+
+## Meaningful State Change
+**PASS**
+
+- 人员链从抽象席位号推进到当前主要角色：`C-3 → 梁策`。
+- 周衡与梁策之间“你到底知道多少过去”的隐性矛盾转为明确关系张力。
+- 综合行政独立排班核验已于20:24提交，为第60章建立第二来源入口。
+
+## Memory Updater
+**PASS**
+
+已同步：
+- `memory/chapter_summaries/0059.yaml`
 - `memory/current_arc.md`
 - `memory/character_state.yaml`
 - `memory/relationship_state.yaml`
 - `memory/knowledge_state.yaml`
 - `memory/world_state.yaml`
-- `memory/foreshadowing.csv`
-- `memory/timeline.csv`
-- `memory/reader_state.yaml`
-- `memory/revision_state.yaml`
-- 最近十章摘要48—57
-- 最近正文53—57
-- Continuity / Style QA规则
-
-## Planner
-
-**PASS**
-
-详细章纲：`plans/chapter_0058_plan.md`。
-
-原粗纲标题《谁写的》不足Ready标题最小长度，因此在不改变剧情目标的情况下调整为《是谁写下这张表》。本章规划只做以下事情：
-
-1. 先闭环第57章末燃气异味普通安全工单；
-2. 等正常白班工作时段读取`夜联-2010-10-C`实际核定页和业务字段；
-3. 把“谁写的”拆成记录席位、当班复核、反馈补录、转报/签收等职责；
-4. 不在本章申请或读取姓名；
-5. 建立“席位名册 + 独立行政排班 + 具体反馈/转报记录”的后续人员交叉路径；
-6. 收束ARC-005但不提前完成M003；
-7. `S2-07`继续等待正常盘点，不在弧尾强行出结果。
-
-## Continuity Precheck
-
-**PASS**
-
-- 第57章结束于Day 5约20:42，燃气异味工单仅完成撤离提示/专业联动，现场专业结果待返回；第58章从20:42直接续接。
-- `夜联-2010-10-C`第57章20:31只申请页码/时间/地址核查转报字段/正文开放范围，明确不申请人员字段，因此本章只开放正文/业务字段/席位及班次、不开放姓名，与既有请求一致。
-- 第57章已确认永安里6栋建筑层，但201/单元/住户仍未知；本章不得从旧夜联原册补出201。
-- M003硬节点约在第60—70章，本章最多建立人员结构与独立交叉入口，不锁定“最后一次相关夜间处置人员”。
-- `S2-07`继续待实物确认；F008仍只有王启明一个明确具体事件记忆冲突样本。
-
-## Writer
-
-**PASS**
-
-- 最终有效字符：**3057**。
-- 位于优选区间2600—3400内，并满足2300—3800硬范围。
-- 标题《是谁写下这张表》满足Ready标题长度规则。
-- 开场先完成普通燃气安全工单的专业闭环，再进入历史原册，职业线与调查线比例正常。
-- 主线没有重新复述第55—57章档案路径，而是直接读取新的授权结果。
-
-### Meaningful State Change
-
-1. 第57章未闭环的燃气异味工单获得属地燃气专业结论：六楼公共表箱一处表前支路接头密封失效、轻微泄漏；完成密封件更换、检漏/保压复检、恢复供气与中心回访，21:19闭环。
-2. `夜联-2010-10-C`从“目录存在/原册待核定”推进到实际42—43页：2010-10-18 22:31—22:54乙班地址核查转报，事项为“永安里第17组部分建筑地址核对”。
-3. 原册明确拆出`记录席位=C-3`、`当班复核=乙班值守负责人`、反馈记录、转报/签收等职责，证明“写这张表的人”不是天然单一角色。
-4. 附属目录给出乙班席位名册，综合行政另有独立值班排班归档；下一阶段人员确认形成可执行的双来源交叉入口，同时实际核址职责仍需反馈/后附转报记录证明。
-5. ARC-005完成目标：正式地址线已连接到可追人员结构，但201和M003目标人员仍未取得。
-
-## Reader Review
-
-Source SHA：`740b98819e2a12e0eb7097d7685424f2e71c86ba`
-
-Review：`reader_reviews/0058_740b9881.md`
-
-- BLOCKER：0
-- MAJOR：0
-- MINOR：2
-- recommendation：`keep`
-- required_action：`none`
-
-### MINOR
-
-1. “记录席位一栏只有两个字符。C-3。”字面略不精确；不影响席位号含义或任何Canon结论，按协议不触发自动修订。
-2. 章尾再次拆分“谁接/谁复核/谁回/谁转出去”承担本章认知收束；下一短弧应直接使用该结论，不再完整重讲职责结构，避免方法论重复。
-
-## Editor / Revision
-
-**PASS**
-
-Reader Gate为0 BLOCKER / 0 MAJOR，因此依据Revision协议**不启动Stage A/B/C修订**。
-
-- 本周期Review：1次
-- 局部修订：0次
-- 整章重写：0次
-- 重新规划重写：0次
-- `memory/revision_state.yaml`已更新为`chapter_58_ready_without_revision`
-
-MINOR不触发装饰性改稿。
-
-## Continuity / Knowledge / Institution QA
-
-**PASS**
-
-### 普通燃气工单
-
-- 中心先保持人员撤离并联动属地燃气抢修，没有自行判断“已泄漏”。
-- 20:49专业人员到场后先只确认可燃气体浓度异常；20:57再由专业人员确认表前支路接头密封失效、轻微泄漏。
-- 维修、检漏、保压、恢复供气都明确来自燃气责任单位；中心只做安全提醒、联动、回访和结果记录。
-- 来电人21:08仍闻到一点残余气味时没有被写成“异味消失”；21:16物业第二次确认公共区域已无明显异味后才完成结果链。
-
-### 旧夜联原册
-
-本次开放事实：
-
-- 原册：`夜联-2010-10-C`
-- 页码：42—43
-- 时间：2010-10-18 22:31—22:54
-- 班次：乙班
-- 类型：地址核查转报
-- 事项：永安里第17组部分建筑地址核对
-- 记录席位：C-3
-- 当班复核：乙班值守负责人
-- 转报/签收：东桥旧城门楼牌整理组
-- 反馈：22:39“已收核查范围，待回电”；22:51“按当班核址反馈转报，具体对象以地址整理组后续底册为准”
-- 姓名/个人联系方式：本次未开放
-
-因此当前只能写“人员职责结构可追”，不能写：
-
-- C-3具体姓名已经取得；
-- C-3就是乙班负责人；
-- C-3就是22:51核址反馈实际提供者；
-- 某个签收/复核主体就是M003目标处置者。
-
-### 人员交叉入口
-
-- 原册附属目录存在“2010年10月夜联乙班席位名册”，未来可用于席位号→姓名映射。
-- 综合行政单独归档2010年10月值班排班，可作为独立来源核实实际当班事实。
-- 即使两者一致，也只能先确认“某人当班并承担某席位”，实际核址/最后相关处置职责仍需22:51反馈来源或后附转报记录。
-
-### 地址层级
-
-- 永安里6栋：第57章已获独立建筑层来源。
-- 201：仍未取得。
-- 住户姓名：仍未取得。
-- 第58章旧夜联事项只写“永安里第17组部分建筑地址核对”，没有补出6栋201。
-- 704当前字段仍不能反向证明201。
-
-### 长期Canon边界
-
-- `S2-07`仍待实物确认。
-- M003目标人员未锁定。
-- 完整失址机制、工单系统来源、主动维持/删除主体、周衡为何保留记忆均未解释。
-- F008无新增样本。
-- 2010“临江市夜间城市联动值班室”与现中心只存在资料保管沿革，不写成同一岗位/同一人员体系。
-
-## Style QA
-
-**PASS**
-
-- 无作者说明、Reader/QA或流程元叙事进入正文。
-- 开场燃气工单有明确现实问题和专业动作，不是为了“插一张普通单”而凑职业感。
-- 档案信息由“谁写的？”→“哪一栏？”形成场景冲突，避免整段制度讲义。
-- 周衡、夏宁、梁策对白保持区分；干冷玩笑数量受控。
-- 中段字段密度较高但都直接改变人物能下的结论，没有无用编号堆砌。
-- 章尾不掉出姓名，用“已经知道该去哪里找，也知道找到名字不能急着当答案”形成下一短弧拉力。
-
-## Memory Updater
-
-**PASS**
-
-已更新：
-
-- `memory/chapter_summaries/0058.yaml`
-- `memory/current_arc.md`
-- `memory/character_state.yaml`
-- `memory/knowledge_state.yaml`
-- `memory/world_state.yaml`
-- `memory/timeline.csv`（新增T061）
-- `memory/foreshadowing.csv`（F003推进至第58章；F008仍无新样本）
+- `memory/timeline.csv`（T062）
+- `memory/foreshadowing.csv`（F003推进到59；F008不新增）
 - `memory/reader_state.yaml`
 - `memory/revision_state.yaml`
 - `plans/chapter_plan.csv`
-- `outlines/arcs/arc_current.md`（ARC-005标记completed，并更新第58章真实结果与后续边界）
 
-本章没有形成新的角色关系变化，因此`memory/relationship_state.yaml`不做空更新；`memory/global_summary.md`已在第50章执行十章节点压缩，第58章无需提前刷新。
+第59章不是十章节点，因此不更新`memory/global_summary.md`。
 
 ## Publish Gate
-
 **PASS**
 
-- 最终Reader Gate：0 BLOCKER / 0 MAJOR。
-- Continuity / Institution / Knowledge / Style QA：pass。
-- Memory：已推进至第58章。
-- `plans/chapter_plan.csv`：第58章为`completed / pass / ready`，标题同步为《是谁写下这张表》。
-- 最终正文已进入`chapters/ready/0058.md`，Front Matter为`status: ready / qa: pass / publish_mode: ready`。
-- `chapters/draft/0058.md`已在Ready副本创建成功后删除。
-- `chapters/published/`仍只含原有第1–6章和README，本轮未修改或覆盖任何published正文。
+- `chapters/ready/0059.md`: `status: ready / qa: pass / publish_mode: ready`
+- `chapters/draft/0059.md`已在Ready写入成功后删除；draft目录只剩模板与README。
+- `chapters/published/`仍只有第1—6章与README，本轮未写入、替换或删除任何published文件。
 - 未自动发布到番茄。
-- 本轮没有编写第59章。
+- 第60章《独立排班表》保持`planned / pending / blocked`，本轮没有编写。
 
-## Next Allowed Entry
-
-第58章已经完成ARC-005，因此第59章**不能直接沿旧弧开写**。下一次必须先：
-
-1. 基于第三卷Canon和当前Memory规划新的短弧，并补充未来约5—10章粗纲；
-2. 新弧如果继续人员线，只能从指定2010-10-18乙班席位名册、综合行政独立排班、22:51反馈/后附转报记录中选择最小入口；
-3. 席位名册与排班一致最多先确认“当班人员/席位职责”，还需要具体反馈职责证据才能向M003推进；
-4. 不重复完整讲解第58章字段职责；
-5. 不补出201，不消费S2-07未返回的实物盘点，不解释完整机制；
-6. M003继续保留在约第60—70章硬节点范围内。
+## Final Result
+**PASS — Chapter 59 is Ready.**
