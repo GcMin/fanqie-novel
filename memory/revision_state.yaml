@@ -1,23 +1,23 @@
 schema_version: 1
 
-current_chapter: null
-current_source_sha: null
-current_review_path: null
-stage: idle
+current_chapter: 42
+current_source_sha: "94a47eb940ad82115af9206d1a3406eb45fb0a23"
+current_review_path: "reader_reviews/0042_94a47eb9.md"
+stage: local_revision
 safe_mode: false
 retry_cycles: 0
 next_retry_after: null
 
 rounds:
-  local_revision: 0
+  local_revision: 1
   full_rewrite: 0
   replan_rewrite: 0
   reviews_this_cycle: 1
 
-last_action: chapter_41_passed_to_ready_after_stage_a_local_revision
-last_action_at: "2026-09-13T04:06:00Z"
-last_result_sha: "4313a10af71538ea8a6301eabcd14960d8181c04"
-last_failure_reason: null
+last_action: chapter_42_reader_requested_local_revision
+last_action_at: "2026-09-13T04:45:00Z"
+last_result_sha: "94a47eb940ad82115af9206d1a3406eb45fb0a23"
+last_failure_reason: "MAJOR: 钱先生称每次电话都接了，与23:16首次未接记录冲突"
 
 # stage 可取：
 # idle | local_revision | full_rewrite | replan_rewrite | retry_later | passed_to_qa
