@@ -1,17 +1,17 @@
 schema_version: 1
-current_chapter: 80
-current_source_sha: 562bb9fe73f8f1f0977be5ccf24829e3f83350a7
-current_review_path: reader_reviews/0080_562bb9fe.md
-stage: passed_to_qa
+current_chapter: 81
+current_source_sha: 2636f48e45d82c0b49109c24ca018617c2bfdd21
+current_review_path: reader_reviews/0081_2636f48e.md
+stage: needs_local_revision
 safe_mode: false
 retry_cycles: 0
 rounds:
-  local_revision: 1
-  full_rewrite: 1
+  local_revision: 0
+  full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 3
-last_action: passed_to_qa
-last_action_at: 2026-09-14T19:02:00Z
-last_result_sha: 562bb9fe73f8f1f0977be5ccf24829e3f83350a7
-last_failure_reason: null
+  reviews_this_cycle: 1
+last_action: reader_review_failed_gate
+last_action_at: 2026-09-14T19:48:00Z
+last_result_sha: 2636f48e45d82c0b49109c24ca018617c2bfdd21
+last_failure_reason: "Reader #1: 0 BLOCKER / 1 MAJOR；现场在积水处置中重新压住已疏通雨水口用于验证流向，不符合安全优先。"
 next_retry_after: null
