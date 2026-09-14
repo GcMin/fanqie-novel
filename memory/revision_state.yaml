@@ -1,17 +1,17 @@
 schema_version: 1
-current_chapter: 65
-current_source_sha: "bf526a33d242224503de780198fa4302bbbd8c42"
-current_review_path: "reader_reviews/0065_bf526a33.md"
-stage: passed_to_qa
+current_chapter: 66
+current_source_sha: "93df732275a19c77f5c2b9ce35712f1bdd673551"
+current_review_path: "reader_reviews/0066_93df7322.md"
+stage: local_revision
 safe_mode: false
 retry_cycles: 0
 next_retry_after: null
 rounds:
-  local_revision: 0
+  local_revision: 1
   full_rewrite: 0
   replan_rewrite: 0
   reviews_this_cycle: 1
-last_action: passed_to_qa
-last_action_at: "2026-09-14T03:52:00Z"
-last_result_sha: "bf526a33d242224503de780198fa4302bbbd8c42"
-last_failure_reason: null
+last_action: local_revision
+last_action_at: "2026-09-14T04:54:00Z"
+last_result_sha: null
+last_failure_reason: "Reader #1: 1 BLOCKER（同日时间称谓误写为‘昨天’）+ 1 MAJOR（正文泄露章节号‘第58章’）"
