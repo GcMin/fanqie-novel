@@ -1,111 +1,128 @@
 # Latest QA Report
 
 ## Chapter
-- chapter: 65
-- title: 《最后一笔记录》
+- chapter: 66
+- title: 《他为什么没说》
 - arc: ARC-006《当班的人》
-- final_source_sha: `bf526a33d242224503de780198fa4302bbbd8c42`
-- ready_blob_sha: `0586f2146a680a657a13110530c89969f98a45aa`
-- effective_char_count: 3223
+- final_source_sha: `a2464f5c4df8a966927daa7ba1e746799f75cfb5`
+- ready_blob_sha: `ff81b850cc02cf589d8e301bb16ef0ab207ff6be`
+- effective_char_count: 2919
 
 ## Baseline Gate：第1—6章
 **PASS**
 
-- 本轮开始前重新核对`chapters/published/`、`chapters/draft/`、`chapters/ready/`、`plans/chapter_plan.csv`和既有Reader/Memory状态：第1—6章仍全部为`completed / pass / published`，只存在于`chapters/published/`，没有Draft/Ready重复。
-- `memory/chapter_summaries/0001.yaml`至`0006.yaml`继续存在；第5章最终Reader Gate为0 BLOCKER / 0 MAJOR，第6章既有首轮MAJOR已由Stage A修订并以最终0 BLOCKER / 0 MAJOR通过。
+- 本轮开始前重新核对`chapters/published/`、`chapters/draft/`、`chapters/ready/`、`plans/chapter_plan.csv`以及Reader/Memory状态：第1—6章仍全部为`completed / pass / published`，只存在于`chapters/published/`，没有Draft/Ready重复。
+- `memory/chapter_summaries/0001.yaml`至`0006.yaml`继续存在；第5章最终Reader Gate为0 BLOCKER / 0 MAJOR，第6章既有首轮MAJOR已经Stage A修订并以最终0 BLOCKER / 0 MAJOR通过。
 - 第6章Published/Plan/Memory标题仍一致为《704室的投诉》；未发现新的状态冲突。
-- 本轮没有修改、替换或删除任何Published Canon；最终复核`chapters/published/`仍只有第1—6章与README。
+- 本轮没有修改、替换或删除任何Published Canon；最终仓库树仍显示`chapters/published/`只有第1—6章与README。
 
 ## Planner / Continuity Precheck
 **PASS**
 
-- 已重新读取`AGENTS.md`、`docs/ai_reading_protocol.md`、`config/novel.yaml`、Premise/Main Outline/World/Style、周衡/梁策/夏宁角色卡、第三卷、ARC-006、chapter_plan、Memory、伏笔、时间线、最近10章摘要与最近5章正文。
-- 已建立`plans/chapter_0065_plan.md`。原粗纲标题《最后一笔》不足Ready标题最少5个非空白字符要求，因此只扩充为《最后一笔记录》，不改变本章目标。
-- 唯一入口为第64章Day 8 20:35已经提交的`DQ-XL-20101018-Y2-17`同一任务最小利用申请；本章没有泛查C-5姓名、整班名单或201。
-- Precheck锁定：第63章已把中心侧22:54后时间边界收窄；第64章东桥DQ-YH已形成22:18—22:49上游正文和中心附43-2跨保管内容交叉。第65章只有在DQ-XL实际开放的原始人员/职责字段能独立落到个人时才允许完成M003。
-- `201`、`S2-07`、完整失址机制、工单系统来源和周衡为何保留永安里记忆继续保持未知。
+- 已重新读取`AGENTS.md`、`docs/ai_reading_protocol.md`、`config/novel.yaml`、Premise/Main Outline/World/Style、周衡/梁策/夏宁角色卡、第三卷、ARC-006、chapter_plan、Memory、伏笔、时间线、最近10章摘要和最近5章正文。
+- 已建立`plans/chapter_0066_plan.md`。本章不再重复证明M003，而处理第65章人员节点成立后的关系后果：梁策为什么此前不主动说明，以及之后如何处理“调查直接涉及本组人员本人”的信息披露。
+- Precheck锁定：梁策22:53转报和M003已经是既有事实；本章不得扩写梁策为现场核址人、C-5接电人或完整机制知情者。
+- `201`、`S2-07`、核址原因、完整失址机制、工单系统来源、周衡为何保留永安里记忆继续未知。
+- 梁策如提供旧事，只能明确拆成“独立来源已证 / 本人可靠记得 / 本人不确定”，口述不替代历史记录。
 
 ## Reader Gate
-**PASS**
+**PASS AFTER STAGE A**
 
-- review: `reader_reviews/0065_bf526a33.md`
-- source_sha: `bf526a33d242224503de780198fa4302bbbd8c42`
+### Reader #1
+- review: `reader_reviews/0066_93df7322.md`
+- source_sha: `93df732275a19c77f5c2b9ce35712f1bdd673551`
+- BLOCKER: 1
+- MAJOR: 1
+- MINOR: 1
+- recommendation: `revise`
+- required_action: `local_revision`
+
+Reader #1发现：
+1. **BLOCKER**：本章07:49—08:01与第65章07:46属于同一个早晨，正文却写“昨天你说，按那张写”，形成明确时间连续性错误。
+2. **MAJOR**：正文出现“如果第58章早上……”，泄露创作侧章节编号，破坏沉浸。
+3. **MINOR**：“本人关联”三栏规则在本章已经完整解释，后续只需实际使用，不要再整段复述。
+
+### Stage A Local Revision
+严格只修两处硬问题：
+- “昨天你说，按那张写”→“刚才你说，按那张写”；
+- “如果第58章早上梁策直接说……”→“如果那天早上梁策直接说……”。
+
+没有改事件顺序、证据边界、关系状态或其他正文。
+
+### Reader #2
+- review: `reader_reviews/0066_a2464f5c.md`
+- source_sha: `a2464f5c4df8a966927daa7ba1e746799f75cfb5`
 - BLOCKER: 0
 - MAJOR: 0
-- MINOR: 2
+- MINOR: 1
 - recommendation: `keep`
 - required_action: `none`
 
-Reader MINOR仅记录：
-1. DQ-XL新增高志林、孙毅、程莉三个一次性历史姓名，后续无必要不要扩展成新支线。
-2. 开场电梯工单只闭环人员解困，设备仍停用待检；正文边界正确，后续无需为了形式完整强补设备故障原因。
-
-按Revision协议，0 BLOCKER / 0 MAJOR后不启动任何装饰性修订。本章无Stage A/B/C。
+Reader Gate最终通过。
 
 ## Continuity QA
 **PASS**
 
-- 时间连续：第64章Day 8 20:35提交DQ-XL申请；第65章申请整夜等待，Day 9 07:14工作时段核定、07:17后读取，没有把跨部门历史档案写成夜间即时返回。
-- 第65章仍沿第64章同一任务号`DQ-XL-20101018-Y2-17`，与`DQ-YH-20101018-17-04`和`夜联-2010-10-C/43`引用关系一致。
-- 既有时间链未被改写：22:45东桥核址记录形成→22:47业务复核→22:49固定电话回旧夜联→22:50转C-3→22:51形成摘要→22:53送出→22:54东桥门楼牌整理组签收→23:06中心班次收尾。
-- 开场普通工单完成两名乘客安全解困，但二号梯保持停用待检；没有把中心权限外的设备故障原因或维修完成状态虚构出来。
+- 时间连续：第65章结束约Day 9 07:46；第66章07:49从白班交接开始，08:01白班接管，08:19离岗前谈话结束，没有跨日。
+- 东景花园电梯普通工单保持“人员解困完成 / 二号梯停用待检”，没有把设备故障原因或修复状态虚构出来。
+- 梁策22:53旧夜联C-3对外转报仍然是纸档已证事实；本章不重复查人员链，也不把梁策扩成东桥现场核址人员或C-5接电人员。
+- 周衡/梁策既有关系裂缝延续合理：周衡已经确认梁策没有给自己证据特权，因此冲突集中在“为什么不先披露本人关联”，不是突然怀疑梁策造假。
+- 08:01后谈话发生在夜班结束、白班接管之后，没有占用正式值守职责。
 
 ## Knowledge / Evidence Boundary QA
 **PASS**
 
-本章新增硬事实限定为：
-- `DQ-XL-20101018-Y2-17`三页同一任务登记实际开放；其他任务和无关人员字段遮蔽。
-- 填写规则明确：任务签领/完成反馈记录实际人员；值守联络记录当班对外联络人员；“对端转报人员”按当次通话自报或转报件原标注登记，不允许依据月度席位名册事后补填。
-- 目标三页属于2010-10-18当夜连续登记，当前利用副本未标记后补页或后期人员补录说明。
-- 22:19夜间核址二组由高志林签领；22:45高志林完成反馈；22:47基层夜间协同值守孙毅复核；22:49夜间联络岗程莉固定电话回报旧夜联，首次接收仍只记C-5。
-- 22:53中心转报栏直接记录对端席位C-3、对端转报人员梁策、关联流水`夜联-2010-10-C/43`；22:54只记签收状态，没有新核址内容。
-- 结合中心C-3席位名册、综合行政独立排班/出勤和附43-2，可以确认**梁策本人完成22:53该笔对外转报**，不再只是由“C-3=梁策”单项映射推断个人动作。
-- 结合第63章中心22:54后有限阴性结果、第64章DQ-YH后续转工作时段，可将22:53核定为当前已核验中心+东桥记录范围内最后一项传递核址结果并改变业务状态的相关夜间实质处置；22:54仅为接收确认，23:06仅为收尾。
-- 因此M003人员节点完成：梁策被锁定为该晚最后相关夜间实质处置人员。
+本章新增内容严格分层：
+- 梁策承认：看到C-3时已认出这是自己的旧席位，但当时不能确认22:51—22:53具体动作一定由本人完成；他担心自报姓名会把调查提前带向熟人姓名反查，同时承认“什么都不先说明”是自己处理错误。
+- 梁策可靠确认的个人工作习惯：旧夜联时期遇到无法映射但来话位置描述稳定的地址时，他长期采用“保留原地址/原表述，核址与后续结果另记”的方式。
+- **该工作习惯只是梁策亲历口述，不等于已经证明旧夜联存在成文制度。**
+- 梁策记得记录席旁曾有一类地址待核/未映射性质的补充登记，但准确名称、是否每班使用、2010-10-18永安里是否在册、具体通话内容均不确定；当前只作为口述待交叉入口。
+- 三人形成“本人关联”规则：调查材料直接出现当前组成员本人、旧席位、签字或明确经办关系时，被涉及者先披露本人关联，并区分独立来源已证 / 本人可靠记得 / 本人不确定；口述不替代证明，也不自动进入检索条件。
 
 继续禁止：
-- 把梁策写成夜间核址二组现场人员、C-5接电人员、东桥基层复核人员或夜间联络岗人员；
-- 由M003完成反推梁策掌握完整失址机制；
-- 补出201、单元、住户；
+- 由梁策口述补出201、单元、住户；
+- 将“保留原地址、核址另记”写成已证正式制度；
+- 将“地址待核/未映射补充登记”直接写成已存在且包含永安里的档案事实；
 - 消费S2-07盘点结果；
-- 把梁策此前不主动说明或十六年前普通记忆模糊升级为F008新样本。
+- 用M003完成解释完整失址机制、系统来源或周衡记忆原因；
+- 把梁策十六年前册名/具体通话记不清升级为F008异常记忆冲突。
 
 ## Institution / Permission QA
 **PASS**
 
-- 第64章20:35申请范围就是永安里第17组同一任务的签领、完成反馈、值守联络及与DQ-YH直接关联职责字段；第65章只读取核定后开放的直接职责/人员行，没有扩展其他任务或无关人员。
-- 对端人员字段能否作为独立个人动作来源先由填写规则与当夜连续登记状态核验，再进入结论，没有因为姓名熟悉就绕过来源审查。
-- C-5仍未被追姓名；201/居民层未发起越权检索。
+- 本章没有新增越权档案检索，也没有按“梁策”姓名反向捕鱼。
+- 下一步仅允许按2010年10月、旧夜联、地址待核/未映射业务类别做目录或保管说明的最小交叉；只有实际资料存在时才继续读对应最小字段。
+- 口述线索单独记录来源和不确定状态，不被自动当作检索答案。
 
 ## Style / Length QA
 **PASS**
 
-- 有效字符3223，位于2600—3400优选区间并满足2300—3800硬范围。
-- 标题《最后一笔记录》满足标题长度规则，章纲、chapter_plan与Ready Front Matter一致。
-- 开场普通电梯工单短而完整，主线进入后不再插入无功能支线；不存在大段复述上一章或为了凑字重复“席位不等于个人”的旧课。
-- 周衡、夏宁、梁策语言继续可区分；梁策关键反应“能 / 按这张写”保持克制，没有在M003刚成立时立刻倾倒世界观答案。
-- 章尾从“查下一个编号”切换为“纸面已经证明梁策本人，关系问题现在有了事实基础”，自然建立第66章拉力。
+- 有效字符2919，位于2600—3400优选区间，满足2300—3800硬范围。
+- 标题《他为什么没说》满足Ready标题长度规则。
+- 章节以交班后的关系对话为主体，但每段承担不同功能：C-3沉默动机→第一夜行为来源→梁策承认缺陷→三人建立规则→产生有限下一入口，没有大段复述旧档案链或流程填充。
+- 周衡追问、梁策短句和夏宁把争论落成规则的语言区分稳定。
+- Stage A后正文不存在创作侧章节编号或其他内部元数据泄露。
+- Reader唯一MINOR仅要求后续不要再次完整复述三栏规则，不影响本章Ready。
 
 ## Meaningful State Change
 **PASS**
 
-- DQ-XL从索引/利用条件推进为实际开放的原始同一任务签领/反馈/联络登记。
-- 人员链从“C-3=梁策且梁策当晚在班”推进为“东桥当夜登记直接记录22:53对端转报人员梁策/C-3”，完成个人分钟级动作交叉。
-- 当前两侧已核验记录中的最后相关夜间实质处置被锁定到22:53梁策转报，M003人员节点完成。
-- 周衡/梁策关系矛盾从猜测层转为有证据支撑的具体问题：梁策为何一直没有主动说明自己就在这条旧记录里。
+- 周衡与梁策的关系从“证据已经证明你本人，但你仍决定什么时候告诉我”推进到双方明确承认信息披露问题，并形成可执行的新合作边界。
+- 梁策首次承认“少说就是保护”的旧带教方式会制造新的风险，并同意以后本人关联先披露，同时保持口述不替代证据。
+- 调查取得一个合法但尚未证明的新入口：旧夜联疑似存在地址待核/未映射类补充登记；第67章可按业务类别有限交叉，而不是继续逼梁策凭记忆补答案。
 
 ## Memory Updater
 **PASS**
 
 已同步：
-- `memory/chapter_summaries/0065.yaml`
+- `memory/chapter_summaries/0066.yaml`
 - `memory/current_arc.md`
 - `memory/character_state.yaml`
 - `memory/relationship_state.yaml`
 - `memory/knowledge_state.yaml`
 - `memory/world_state.yaml`
-- `memory/timeline.csv`（T068）
-- `memory/foreshadowing.csv`（F003推进到65并记录M003完成；F008不新增）
+- `memory/timeline.csv`（T069）
+- `memory/foreshadowing.csv`（F003推进到66；F008明确不新增样本）
 - `memory/reader_state.yaml`
 - `memory/revision_state.yaml`
 - `plans/chapter_plan.csv`
@@ -116,12 +133,12 @@ Reader MINOR仅记录：
 ## Publish Gate
 **PASS**
 
-- `chapters/ready/0065.md`: `status: ready / qa: pass / publish_mode: ready`
-- Ready blob: `0586f2146a680a657a13110530c89969f98a45aa`
-- Ready写入成功后已删除`chapters/draft/0065.md`；最终复核Draft目录只保留`CHAPTER_TEMPLATE.md`与`README.md`。
-- 最终复核`chapters/published/`仍只有第1—6章与README，没有新增、替换或删除任何Published正文。
+- `chapters/ready/0066.md`: `status: ready / qa: pass / publish_mode: ready`
+- Ready blob: `ff81b850cc02cf589d8e301bb16ef0ab207ff6be`
+- Ready写入成功后已删除`chapters/draft/0066.md`；最终仓库树显示Draft目录只保留`CHAPTER_TEMPLATE.md`与`README.md`。
+- 最终仓库树显示`chapters/published/`仍只有第1—6章与README，没有新增、替换或删除任何Published正文。
 - 未自动发布到番茄。
-- 第66章《他为什么没说》保持`planned / pending / blocked`，本轮未编写第66章；下一轮入口改为M003成立后的关系后果与梁策有限可证亲历，不再重复证明梁策身份。
+- 第67章《旧事只到这里》保持`planned / pending / blocked`，本轮未编写第67章；下一轮只允许按旧夜联地址待核/未映射业务类别做有限目录/记录交叉，不按梁策姓名捕鱼。
 
 ## Final Result
-**PASS — Chapter 65 is Ready.**
+**PASS — Chapter 66 is Ready.**
