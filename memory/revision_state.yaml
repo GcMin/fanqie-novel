@@ -1,7 +1,7 @@
 schema_version: 1
-current_chapter: 78
-current_source_sha: "d30549aca721b54d6ea0cc42939fc614f7ef402c"
-current_review_path: "reader_reviews/0078_d30549ac.md"
+current_chapter: 79
+current_source_sha: "4689b540e22389fa10423c07d7be3ef83c417635"
+current_review_path: "reader_reviews/0079_4689b540.md"
 stage: passed_to_qa
 safe_mode: false
 retry_cycles: 0
@@ -12,6 +12,6 @@ rounds:
   replan_rewrite: 0
   reviews_this_cycle: 1
 last_action: passed_to_qa
-last_action_at: "2026-09-14T16:45:00Z"
-last_result_sha: "d30549aca721b54d6ea0cc42939fc614f7ef402c"
+last_action_at: "2026-09-14T17:51:00Z"
+last_result_sha: "4689b540e22389fa10423c07d7be3ef83c417635"
 last_failure_reason: null
