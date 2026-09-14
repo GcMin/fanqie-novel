@@ -1,12 +1,12 @@
 # Latest QA Report
 
 ## Chapter
-- chapter: 75
-- title: 《地址和住户之间》
+- chapter: 76
+- title: 《能开的字段》
 - arc: ARC-007《在架与在册》
-- final_source_sha: `04455c03cc5053ea1bf3bf34b74513399667b342`
-- ready_blob_sha: `9c5b55186ee37252656b8303b579df8f1aa4bb6e`
-- effective_char_count: 2618
+- final_source_sha: `4476d7e71d31ccd1796c22a58aeb0ce972b41384`
+- ready_blob_sha: `b96a4c3994db44490d3b0f58ae02a8d0251b9388`
+- effective_char_count: 2832
 
 ## Baseline Gate：第1—6章
 **PASS**
@@ -19,98 +19,110 @@
 ## Planner / Continuity Precheck
 **PASS**
 
-- 已重新读取`AGENTS.md`、`docs/ai_reading_protocol.md`、`config/novel.yaml`、Premise/Main Outline/World/Style、周衡/梁策/夏宁角色卡、第三卷、ARC-007、chapter_plan、Current Arc、Character/Relationship/Knowledge/World State、伏笔、时间线、最近10章摘要和最近5章完整正文。
-- 已建立`plans/chapter_0075_plan.md`。
-- Precheck锁定：第74章只证明2010年6月永安里6栋分户总表中房号201状态“在用”，居民身份字段仍遮蔽；第75章不能把房号存在偷换成具体居民，更不能用周衡/父母姓名或704当前字段反向检索历史居民答案。
-- 第75章允许使用201作为目录关联条件的唯一依据，是它已经由六栋自身独立历史分户原卷成立，而不是周衡记忆或704当前字段。
+- 已重新读取`AGENTS.md`、`docs/ai_reading_protocol.md`、`config/novel.yaml`、Premise/Main Outline/World/Style、周衡/梁策/夏宁角色卡、当前卷、ARC-007、chapter_plan、Current Arc、Character/Relationship/Knowledge/World State、伏笔、时间线、最近10章摘要和最近5章完整正文。
+- 已建立`plans/chapter_0076_plan.md`。
+- Precheck锁定：第75章21:17只提交了居民生活史目录/权限申请；201可作为查询条件的唯一合法基础是第74章六栋自身2010年6月分户总表，而不是704当前字段或周衡私人记忆。
+- 第76章只允许确认资料存在性、保管、关联索引和可开放字段，并提交下一步最小利用；不得提前写具体关系状态、居民身份、实际居住或周衡家庭关系。
 
 ## Reader Gate
 **PASS**
 
-- review: `reader_reviews/0075_04455c03.md`
-- source_sha: `04455c03cc5053ea1bf3bf34b74513399667b342`
+### 首轮
+- review: `reader_reviews/0076_867ff5fc.md`
+- source_sha: `867ff5fc34a89eaaec7924ee8359986c59947f8f`
+- BLOCKER: 0
+- MAJOR: 1
+- MINOR: 1
+- recommendation: `revise`
+- required_action: `local_revision`
+
+首轮唯一MAJOR：正文出现“第74章那行‘住户：未取得’还在”，把创作侧章节编号泄露进人物视角。
+
+### Stage A
+- 仅将该句改为故事内自然定位“前两页那行‘住户：未取得’还在”。
+- 没有顺手修改Reader记录的MINOR，也没有改变目录回执、索引、权限、事件顺序或证据结论。
+
+### 复审
+- review: `reader_reviews/0076_4476d7e7.md`
+- source_sha: `4476d7e71d31ccd1796c22a58aeb0ce972b41384`
 - BLOCKER: 0
 - MAJOR: 0
-- MINOR: 2
+- MINOR: 1
 - recommendation: `keep`
 - required_action: `none`
 
-Reader仅记录两项MINOR：
-1. 中段连续出现住房使用/入住变更/房屋管理/公共服务/人口登记等资料类别，信息密度略高；第76章不应再完整复述同一分类体系。
-2. 章尾“有地址”和“有谁”的概括与前半层级判断略重复，后续应减少连续“不等于”式方法论句型。
-
-无BLOCKER/MAJOR，因此按协议不启动Revision；`memory/revision_state.yaml`记录本轮0次局部修订、0次整章重写、0次重规划重写并通过Reader Gate进入QA。
+剩余MINOR：后半仍有少量“住房使用关系不等于姓名/实际居住”的边界重复；第77章应优先用真实字段值承担区分，不再完整复述三层规则。按协议不触发继续修订。
 
 ## Continuity QA
 **PASS**
 
-- 第74章约20:25结束，第75章20:27继续Day 13第十三次夜班，位置与人员状态连续。
-- 第74章2010年6月总表“201/在用”保留原证明范围，2010年8月/10月补记和2011年3月变更页缺项没有被扩大为跨时期持续状态。
-- 梁策人员线和S2-11旧牌物资线继续保持收口，没有重新追C-5、补核簿具体落笔人、22:54签收人或牌面文字。
-- 东桥路消火栓普通工单按夜间职责闭环：支路关阀、漏水/现场风险控制，受损栓体保持停用，永久更换和恢复测试转白班；没有把风险控制写成永久维修完成。
+- 第75章结束于Day 13约21:18；其余夜班没有强行等待目录结果并于08:00正常交班。Day 14工作时段16:23完成核定，第十四次夜班20:06读取，时间链连续。
+- 人物地点、夜班状态和资料协作方式与前文一致；没有让非夜间资料机构在夜里便利化即时返回。
+- 梁策人员线和S2-11旧牌物资线继续保持收口，没有重新追C-5、旧牌牌面或十六年前模糊记忆。
 
 ## Knowledge / Evidence Boundary QA
 **PASS**
 
-- 本章正式拆开三层：201地址存在已证；某时期住房/居民关系未知；具体居民身份未知。
-- 历史住房使用/入住变更/房屋管理、公共服务关系、人口/户籍资料只按各自业务说明理解；公共服务账户不等于实际居住，人口/户籍身份层不因地址已证自动开放。
-- 周衡虽然知道父母姓名，但没有把姓名、家庭关系或当前身份证明写进历史检索条件。
-- 201可以作为新目录关联条件，是因为第74章独立纸质分户原卷已经证明该历史子地址对象；704当前“周衡/永安里6栋201”仍没有被反向用作历史来源。
-- 本章没有取得任何具体住户姓名、家庭关系、人口登记、实际居住结论，也没有解释周衡记忆原因、完整失址机制或系统来源。
+- 新增事实只到：六栋201存在一组“历史住房使用登记及变更材料”目录项；现保管机构为东桥区房屋管理历史资料室；目录著录时段约2010—2011年；关联索引为`DQ-ZY-2010-17-B06-201`。
+- 该索引由已证历史地址对象与原住房管理卷册建立，本次目录入口没有使用居民姓名。
+- “目录数量一组”没有被解释为页数、记录条数或住户人数。
+- 本章没有读取具体住房使用关系状态值，也没有取得实际居住、具体居民身份、家庭关系或周衡家庭史。
+- F008没有新增样本；完整失址机制、系统来源、主动维持/删除主体、核4/6/7栋原因和周衡记忆原因均未提前揭示。
 
 ## Institution / Permission QA
 **PASS**
 
-- 本章只读取正常资料利用目录和机构职责说明，没有打开任何居民身份记录。
-- 人口/户籍路线因高敏感度和当前必要性不足而暂不申请；公共服务资料只作为未来可能旁证。
-- Day 13 21:17最小申请只请求与已证六栋201地址对象关联的历史住房使用/入住变更/房屋管理类资料存在性、形成时间范围、现保管机构、索引方式及可先开放的非身份字段。
-- 申请没有勾选姓名、证件、家庭关系，也没有以周衡、其父母或704当前字段作为答案式检索条件。
-- 章末状态只到“待保管及权限核定”，没有便利化为夜间即时返回住户材料。
+- 回执明确首轮可申请字段：历史地址对象、记录类别、业务/形成日期、住房使用关系状态、变更类型、业务登记号、原卷页码和直接来源文号。
+- 居民姓名、证件、电话、共同居住人/家庭关系、签名等身份字段继续遮蔽或需要另行必要性审核。
+- 周衡即使知道父母姓名，也没有将其加入申请；人口/户籍和公共服务资料也没有被顺手扩大进本次利用。
+- Day 14 20:31只针对`DQ-ZY-2010-17-B06-201`提交获批非身份字段最小原卷利用申请，并要求混载身份信息时提供遮蔽副本。
+- 章末状态只到“待原卷定位及脱敏利用核定”，没有便利化返回第77章内容。
 
 ## Style / Length QA
 **PASS**
 
-- 有效字符2618，位于2600—3400优选区间并满足2300—3800硬范围。
-- 标题《地址和住户之间》非空白字符长度满足Ready门槛，与Plan/Memory/chapter_plan一致。
-- 开场直接承接第74章结果，没有再次使用近期重复的“普通工单开场→白班档案回执”结构；普通消火栓工单放在中段打断目录讨论。
-- 正文没有TODO、创作侧章节编号、QA提示、模型自述或历史Reader意见；角色对白仍有区分。
-- Reader指出中段资料分类偏密与“不等于”句式潜在模板感，但均为MINOR，不按协议触发装饰性修订。
+- 有效字符2832，位于2600—3400优选区间并满足2300—3800硬范围。
+- 标题《能开的字段》长度满足Ready门槛，与Plan/Memory/chapter_plan一致。
+- 开场直接进入Day 14回执，没有连续复制近期“完整普通工单开场→白班回执”结构；普通值班内容以短队列穿插，不喧宾夺主。
+- 修订后正文没有TODO、创作侧章节号、QA提示、模型自述或Reader意见。
+- Reader剩余的轻度边界句式重复为MINOR，不触发装饰性修订。
 
 ## Meaningful State Change
 **PASS**
 
-- 居民调查从“201地址层已证但居民层没有合法入口”推进为“已找到历史住房使用/入住变更/房屋管理资料的正常目录入口，并提交最小权限核验”。
-- 201第一次合法地作为由独立历史原卷成立的子地址对象用于下一层目录关联，而不是作为周衡记忆里的待证明答案。
-- 周衡主动不使用父母姓名反向检索，前期形成的证据纪律继续转化为实际行为。
+- 居民生活史从“目录申请待回、资料是否存在未知”推进为“六栋201确有住房使用登记及变更材料目录项，现保管机构、关联索引和首轮开放边界明确”。
+- 第一次获得独立居民生活史资料链的具体索引`DQ-ZY-2010-17-B06-201`。
+- 周衡在更接近私人家庭史的位置仍主动不使用父母姓名，并只申请非身份关系字段，前期证据纪律继续体现为行为。
+- 20:31最小原卷利用申请已提交，为第77章建立明确且受限的下一状态入口。
 
 ## Memory Updater
 **PASS**
 
 已同步：
-- `memory/chapter_summaries/0075.yaml`
+- `memory/chapter_summaries/0076.yaml`
 - `memory/current_arc.md`
 - `memory/character_state.yaml`
 - `memory/knowledge_state.yaml`
 - `memory/world_state.yaml`
-- `memory/timeline.csv`（T078）
-- `memory/foreshadowing.csv`（F003推进到75；F008本章不触及）
+- `memory/timeline.csv`（T079）
+- `memory/foreshadowing.csv`（F003推进到76；F008本章不触及）
 - `memory/reader_state.yaml`
 - `memory/revision_state.yaml`
 - `plans/chapter_plan.csv`
 - `outlines/arcs/arc_current.md`
 
-`memory/relationship_state.yaml`本章没有新的关系状态变化，因此保留第68章建立并已稳定执行的合作边界，不做空更新时间；`memory/global_summary.md`仅在十章节点压缩，第70章已更新，本章不做无必要重压缩。
+`memory/relationship_state.yaml`本章没有新的关系状态变化，因此继续保留第68章建立并稳定执行的合作边界，不做空更新时间；`memory/global_summary.md`按约十章压缩，第70章已更新，本章不重复压缩。
 
 ## Publish Gate
 **PASS**
 
-- `chapters/ready/0075.md`: `status: ready / qa: pass / publish_mode: ready`
-- Ready blob: `9c5b55186ee37252656b8303b579df8f1aa4bb6e`
-- Ready写入成功后已删除`chapters/draft/0075.md`。
-- `plans/chapter_plan.csv`已将第75章更新为`completed / pass / ready`；第76章《能开的字段》保持`planned / pending / blocked`。
+- `chapters/ready/0076.md`: `status: ready / qa: pass / publish_mode: ready`
+- Ready blob: `b96a4c3994db44490d3b0f58ae02a8d0251b9388`
+- Ready写入成功后已删除`chapters/draft/0076.md`。
+- `plans/chapter_plan.csv`已将第76章更新为`completed / pass / ready`；第77章《六栋的居民层》保持`planned / pending / blocked`。
 - 本轮未新增、替换或删除任何`chapters/published/`正文。
 - 未自动发布到番茄。
-- 本轮只完成第75章，没有编写第76章正文。
+- 本轮只完成第76章，没有编写第77章正文。
 
 ## Final Result
-**PASS — Chapter 75 is Ready.**
+**PASS — Chapter 76 is Ready.**
