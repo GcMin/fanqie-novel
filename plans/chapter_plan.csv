@@ -5,7 +5,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 4,多出来的路,completed,ARC-001,寻找投诉人描述路径并验证空间变化,围墙处出现监控看不到的道路,周衡首次亲眼确认异常道路与13栋实体,F001|F002,3000,pass,published,Reader Gate与Memory均已完成
 5,十三栋,completed,ARC-001,确认13栋与704是否真实存在,建筑长期生活痕迹与正常系统记录冲突,周衡确认13栋是有人长期生活的七层住宅,F001|F002,3000,pass,published,Reader Gate 0 BLOCKER/0 MAJOR；Memory已更新
 6,704室的投诉,completed,ARC-001,接触投诉人并明确804认知,刘桂兰坚信七层楼上存在804,处置目标转为确认804是否存在,F001|F006|F007,3000,pass,published,首轮1 MAJOR经Stage A修订后复审0 BLOCKER/0 MAJOR；Memory已更新
-7,楼上的声音,completed,ARC-001,按建筑故障逻辑缩小704头顶噪音来源,断电邻户外立面对比仍无法解释声源,目标收束为屋面钥匙与顶层结构,F001|F006|F007,3000,pass,ready,Reader Gate通过；Memory已更新
+7,楼上的声音,completed,ARC-001,按建筑故障逻辑缩小704头顶噪音来源,断电邻户外立面对比仍无法解释声源,目标收束为屋面钥匙与顶层结构,F001|F006|F007,3000,pass,published,Reader Gate通过；Memory已更新
 8,顶楼,completed,ARC-001,核实屋面入口钥匙与顶层结构,发现无登记13屋面钥匙但无现实入口,静态结构排查达到极限,F001|F002|F006|F007,3000,pass,ready,Reader Gate通过；Memory已更新
 9,夜里一点,completed,ARC-001,观察更深层结构异常的时间变化,02:00后原封顶位置逐步出现额外楼梯,确认此前不可见结构可形成,F004|F006,3000,pass,ready,Reader Gate通过；Memory已更新
 10,多出来的台阶,completed,ARC-001,确认新增楼梯稳定并有限上行,异常楼梯形成后表现为可承重实体,周衡与梁策抵达新增八楼803/804,F004|F006,3000,pass,ready,Reader Gate通过；Memory已更新
