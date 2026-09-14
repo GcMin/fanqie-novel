@@ -1,89 +1,89 @@
 chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars,qa_status,publish_status,notes
-1,夜班,completed,ARC-001,建立周衡与夜班职业流程并接下首张异常工单,系统出现不存在的青梧苑13栋704,周衡从新人变为现场处置人员,F001|F002,3000,pass,published,Reader Review与Memory均已完成
-2,第一张工单,completed,ARC-001,核对工单来源并准备出发,常规资料否认13栋但热线原录音确认地址,周衡排除简单录入错误并亲自验证,F001|F002|F007,3000,pass,published,Reader Gate与Memory均已完成
-3,青梧苑没有十三栋,completed,ARC-001,用现场证据核实楼栋,现场资料否认13栋但现实出现同步拖动声,异常由数据冲突升级为现实声响,F001|F002|F007,3000,pass,published,Reader Gate与Memory均已完成
-4,多出来的路,completed,ARC-001,寻找投诉人描述路径并验证空间变化,围墙处出现监控看不到的道路,周衡首次亲眼确认异常道路与13栋实体,F001|F002,3000,pass,published,Reader Gate与Memory均已完成
-5,十三栋,completed,ARC-001,确认13栋与704是否真实存在,建筑长期生活痕迹与正常系统记录冲突,周衡确认13栋是有人长期生活的七层住宅,F001|F002,3000,pass,published,Reader Gate 0 BLOCKER/0 MAJOR；Memory已更新
-6,704室的投诉,completed,ARC-001,接触投诉人并明确804认知,刘桂兰坚信七层楼上存在804,处置目标转为确认804是否存在,F001|F006|F007,3000,pass,published,首轮1 MAJOR经Stage A修订后复审0 BLOCKER/0 MAJOR；Memory已更新
-7,楼上的声音,completed,ARC-001,按建筑故障逻辑缩小704头顶噪音来源,断电邻户外立面对比仍无法解释声源,目标收束为屋面钥匙与顶层结构,F001|F006|F007,3000,pass,published,Reader Gate通过；Memory已更新
-8,顶楼,completed,ARC-001,核实屋面入口钥匙与顶层结构,发现无登记13屋面钥匙但无现实入口,静态结构排查达到极限,F001|F002|F006|F007,3000,pass,ready,Reader Gate通过；Memory已更新
-9,夜里一点,completed,ARC-001,观察更深层结构异常的时间变化,02:00后原封顶位置逐步出现额外楼梯,确认此前不可见结构可形成,F004|F006,3000,pass,ready,Reader Gate通过；Memory已更新
-10,多出来的台阶,completed,ARC-001,确认新增楼梯稳定并有限上行,异常楼梯形成后表现为可承重实体,周衡与梁策抵达新增八楼803/804,F004|F006,3000,pass,ready,Reader Gate通过；Memory已更新
-11,804,completed,ARC-001,按住户接触流程确认804室内状态,门内声音与空房现场不一致,获允许后进入804并发现住户身份/生活时间缺口,F004|F007,3000,pass,ready,Reader Gate通过；Memory已更新
-12,没有人住的房间,completed,ARC-001,核查804近期居住痕迹与声源,积灰环境与木椅新位移冲突,发现陈德福旧维修卡且未知男性询问老陈,F004|F007,3000,pass,ready,Reader Gate通过；Memory已更新
-13,墙上的照片,completed,ARC-001,寻找与周衡私人记忆冲突的外部视觉证据,804旧照片细节与童年记忆高度一致,永安里私人记忆首次与可拍摄外部物证相接,F003|F004|F007,3000,pass,ready,Reader Gate通过；F003激活
-14,永安里,completed,ARC-001,确认照片是否明确指向永安里,私人记忆与现实长期否认正面冲突,照片明确出现永安里且周衡披露6栋201记忆,F003|F004|F007,3000,pass,ready,Reader Gate通过；Memory已更新
-15,十一年前,completed,ARC-001,追2015旧物业与历史联动入口,旧物业事实可交叉但现行目录仍否认13栋,调查转入历史纸档与中心旧扫描,F003|F005|F007,3000,pass,ready,Reader Gate通过；Memory已更新
-16,消失的档案,completed,ARC-001,寻找历史官方体系曾受理13栋的证据,迁移库缺项与旧扫描冲突,LJ-150907-0041短暂证明2015正式记录13栋,F001|F002|F005,3000,pass,ready,Reader Gate通过；Memory已更新
-17,打印出来的纸,completed,ARC-001,在电子记录变化前保留可对照实体副本,同一电子源由13栋变12栋,04:23纸面保住13栋并形成多媒介留证策略,F002|F005,3000,pass,ready,Reader Gate通过；Memory已更新
-18,他们正在忘记,completed,ARC-001,有限验证风险是否扩展到人的具体事件记忆,王启明记忆与本人照片/钥匙冲突,形成F008首个明确具体事件记忆冲突样本,F002|F005|F008,3000,pass,ready,Reader Gate通过；F008激活
-19,第二张工单,completed,ARC-001,接入旧地铁终点站失物工单,旧站名与现行站点核查冲突,异常模式从单栋建筑扩展到城市轨道,F003,3000,pass,ready,Reader Gate通过；Memory已更新
-20,已经改名的车站,completed,ARC-001,核旧站历史与钱先生当前口述,旧终点资料与实时列车观察错位,2011旧导向图首次出现永安里,F003,3000,pass,ready,Reader Gate通过；Memory已更新
-21,旧站台,completed,ARC-001,在轨道陪同下核现行布局,钱先生旧布局口述与现行现场无法重合,无提示报出B口永安里与旧设施,F003,3000,pass,ready,Reader Gate通过；Memory已更新
-22,关不掉的工单,completed,ARC-001,重新尝试办结704原工单,两次正常办结后均恢复处理中,确认工单办结状态无法维持,F001,3000,pass,ready,Reader Gate通过；Memory已更新
-23,投诉还在,completed,ARC-001,追704为何持续待处置,无新热线入线仍刷新最近诉求时间,焦点转向投诉来源/投诉人/地址关系,F001,3000,pass,ready,Reader Gate通过；Memory已更新
-24,投诉人：周衡,completed,ARC-001,完成第一卷核心反转,无周衡主动提交却改为周衡/永安里6栋201,完成M002并绑定职业线与私人过去,F001|F003,3000,pass,ready,Reader Gate通过；Memory已更新
-25,后台日志,completed,ARC-002,核07:08后台触点并启动第二卷调查,技术任务无法解释投诉人和地址字段变化,获得技术触点与纸档查阅入口但不建立因果,F003|F007,3000,pass,ready,Reader Gate通过；Memory已更新
-26,六箱纸档,completed,ARC-002,查2015维修/回访纸档,旧#号存在点位歧义,HF-03取得13#东梯公灯与WX-150907-041入口,F003|F007,3000,pass,ready,Reader Gate通过；Memory已更新
-27,维修记录,completed,ARC-002,核WX原维修单完整来源和点位,13#含义与经办签字仍需交叉,建立中心/物业/回访同一历史处置链,F003|F007,3000,pass,ready,Reader Gate通过；Memory已更新
-28,白天的青梧苑,completed,ARC-002,对白天现存设施与纸档做空间基线,现行设施无法反推旧支路终点,取得二期公照竣工图入口,F003|F007,3000,pass,ready,Reader Gate通过；Memory已更新
-29,老陈,completed,ARC-002,按正常联系链接触陈德福,其对十一年前具体维修无可靠记忆,陈德福成为现实可访谈人物并建立知识边界,F007,3000,pass,ready,Reader Gate通过；Memory已更新
-30,记忆里的楼,completed,ARC-002,核E-07并拆分自然记忆与专业读图,陈德福记忆只到7至12但旧图明确13#建筑,历史13#获得独立工程图证明,F007|F008,3000,pass,ready,Reader Gate通过；F008未新增样本
-31,旧回访单,completed,ARC-002,沿13#建筑核独立回访与住户字段,附件迁移索引需按流水/号码交叉,刘桂兰/二期13#704与当前电话接入2015正常链,F003|F007,3000,pass,ready,Reader Gate通过；Memory已更新
-32,夜班旧册,completed,ARC-002,从中心自身纸质值班记录找地址冲突处置痕迹,地址待核可能是普通地址库问题,原册证明2015已人工记录13栋索引未检并正常转办,F003,3000,pass,ready,Reader Gate通过；Memory已更新
-33,旧地址表,completed,ARC-002,核2015地址索引与疑难反馈流程,不能把未入表直接写成人为删除,DZFK证明正式反馈过13栋缺失但因无标准来源未入主表,F003,3000,pass,ready,Reader Gate通过；Memory已更新
-34,同步清单,completed,ARC-002,核上游标准地址同步来源并收束历史分叉,同步清单缺项不能当物理不存在,2015-08-31上游快照本身只列1—12,F003,3000,pass,ready,Reader Gate通过；ARC-002收束
-35,三十分钟,completed,ARC-003,执行钱先生固定安全联络,首次未接先按人身安全预案响应,中心录音保存旧槐荫路广播并与现行日志对照,F003,3000,pass,ready,Reader Gate通过；Memory已更新
-36,旧广播,completed,ARC-003,沿历史广播资料取得安全结构锚点,相似广播不能证明旧系统重启或异常时空,HY-QK-02与录音对应且旧B2-04落到现行P17,F003,3000,pass,ready,Reader Gate通过；Memory已更新
-37,普通夜班,completed,ARC-003,穿插普通工单并维持钱先生安全链,异常调查不能吞掉中心本职,嘉和苑漏水闭环且周衡独立完成回单,F003,3000,pass,ready,Reader Gate通过；Memory已更新
-38,接应点,completed,ARC-003,设计不要求钱先生危险移动的公共区接应,候选结构未证同一实际空间,现行黄牌与钱先生同期观察形成差异后停止测试,F003,3000,pass,ready,Reader Gate通过；Memory已更新
-39,看不见的人,completed,ARC-003,复核接应结果并保存既有视频/录音,候选点位和视线未证同一不能下机制结论,视频确认普通乘客经过而原录音同期称无人并停止空间测试,F003|F008,3000,pass,ready,Reader Gate通过；F008仍仅王启明
-40,失物登记,completed,ARC-003,重新处理黑包与药物现实风险,不同失物业务入口导致此前未找到记录,确认00:28末班回库车辆已清出黑包并形成与05:08口述时间差,F003|F008,3000,pass,ready,Reader Gate通过；Memory已更新
-41,人找到了,completed,ARC-003,沿具体车辆/站台视频完成现实人员安全接管,此前电话定位长期与现行现场错位,02:16固定联络铃声帮助现场人员找到钱先生并由站务接管,F003,3000,pass,ready,Reader Gate通过；Memory已更新
-42,回来以后,completed,ARC-003,处理获救后证词与失物后续并收束ARC-003,主观证词不能一次性解释机制,钱先生由家属陪同离开并取得2016改造影像目录入口,F003|F008,3000,pass,ready,Reader Gate通过；ARC-003收束
-43,改名前照片,completed,ARC-004,按正常权限调2016改造影像,不能带答案反向挑图,第09张独立工程影像确认B口永安里导向牌并取得DX-B-06,F003,3000,pass,ready,Reader Gate通过；Memory已更新
-44,拆牌清单,completed,ARC-004,沿DX-B-06核同项目拆除与移交,项目侧移交不能证明库方实收或当前现存,取得2016拆除记录与BZ-YJ-160114-02北库移交入口,F003,3000,pass,ready,Reader Gate通过；正文2337有效字符；Memory已更新
-45,库房编号,completed,ARC-004,沿BZ-YJ-160114-02核北库实收/分类/后续移转,账面未见出库不能证明当前在架,取得BK-JBS-160114-03及2019 S2-07留样链并申请当前盘点,F003,3000,pass,ready,Reader Gate通过；Memory已更新
-46,夜间报修,completed,ARC-004,完整处理普通夜间高区停水工单,连续档案调查不能吞掉职业线,周衡独立完成责任判断/专业联动/恢复确认/回访/回单,,3000,pass,ready,Reader Gate通过；Memory已更新
-47,指向哪里,completed,ARC-004,核旧导向资料的市级公共导向依据,公共导向与正式地址不能跨层替代,取得GGDX-2010-11/YD-073并确认轨道审核引用,F003,3000,pass,ready,Reader Gate通过；Memory已更新
-48,留在纸上的地址,completed,ARC-004,收束第二卷历史导向/物资/地址证据,多业务层同名痕迹不能互相替代,形成“公共导向已证/正式地址未证/6栋201需独立来源”的阶段结论,F003,3000,pass,ready,Reader Gate通过；ARC-004与第二卷收束
-49,掉下来的门牌,completed,ARC-005,用普通门牌风险工单建立正常正式地址变更控制样本,口头旧地址/旧实体牌/现行门牌/正式沿革需分层,确认花枝巷17号→槐北路112号附1的2018正式沿革并闭环现场风险,F003,3000,pass,ready,Reader Gate通过；第三卷/ARC-005启动；Memory已更新
-50,旧号新号,completed,ARC-005,沿正常样本理解沿革索引和来源文书路径,不能把正常样本直接套到永安里,花枝巷与纸坊巷验证索引可重复并建立未知来源的图幅+年代候选入口,F003,3000,pass,ready,Reader Gate通过；Memory与第50章压缩摘要已更新
-51,图幅索引,completed,ARC-005,按旧B口图幅与既有历史节点申请目录范围,数字化缺项不能扩大成人为删除或历史不存在,取得候选批次并发现2010年第4批129页数字化未挂接,F003,3000,pass,ready,Reader Gate通过；Memory已更新
-52,缺的一页,completed,ARC-005,确认129页数字化未挂接的普通历史作业原因,2014质检退件不能证明Day 4纸页现存或正文,确认129页初扫质检失败/影像不入库/随册退还并提交原卷保管核验,F003,3000,pass,ready,Reader Gate通过；Memory已更新
-53,白班回函,completed,ARC-005,取得原卷后续保管与合法调阅入口,发送方只能证明自身整册交接链不能回答接收后单页状态,确认2017整册转东桥区资料室并于07:48提交卷级只读申请,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文2855；Memory已更新
-54,大家都这么叫,completed,ARC-005,用老城区普通路灯工单验证社区俗称与正式地址可以正常分离,居民长期叫法和维护现场别名容易被误当成正式地址证据,石桥口被居民和市政照明巡检共同使用但正式定位仍为槐北路支巷+L-1782；周衡固定“能定位不等于能当地址”的边界,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文2717；无修订；Memory已更新；东桥区申请仅馆藏核验中；S2-07仍待盘点
-55,沿革底册里的名字,completed,ARC-005,按已取得卷宗/批次入口查看目标区片正式地址沿革资料并建立周边正常连续样本,即使出现永安里字样也必须按实际字段推进且不能补不存在的门牌层级,东桥区确认原卷当前在馆且129页“历史登记片区”出现永安里并指向DQLP-2010-04-B3迁出对象清册；6栋201仍未取得,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文2940；无修订；Memory已更新
-56,迁出批次里的对象,completed,ARC-005,读取B3真实字段并确认“迁出”业务含义/对象层级,迁出标题/组号/对象数量容易被误读为居民搬迁或具体门牌栋号,永安里进入B3-17建筑门楼牌登记对象组并承接DQ-DZHD-2010-17；建立建筑地址/来源附件/后续居住登记的合法入口,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；有效正文2670；无修订；Memory已更新；6栋201与M003仍未取得
-57,旧中心抄件,completed,ARC-005,让历史地址处置资料自然出现与当年夜间联动相关的抄件/转报编号,地址业务资料与中心旧记录连接时必须先确认编号和来源链而不是追熟悉姓名,建筑表实际确认永安里1—8栋并使6栋获得独立建筑层来源；附核-04把正式地址核验连接到夜联-2010-10-C旧夜联记录家族,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；有效正文2848；无修订；Memory已更新；201/住户/M003人员仍未取得；燃气异味普通工单待专业现场闭环
-58,是谁写下这张表,completed,ARC-005,核当年抄件的值班字段/席位/签批方式并确认后续人员核查需要哪些独立来源,单份签字或席位不能直接锁定具体历史处置者,夜联-2010-10-C原册确认C-3记录席位/乙班复核/反馈/签收职责可拆分并建立席位名册+独立行政排班+具体反馈记录的人员交叉入口,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；有效正文3057；无修订；Memory已更新；燃气异味工单已专业闭环；ARC-005收束；201和M003具体人员仍未取得
-59,席位名册上的名字,completed,ARC-006,用指定日期乙班席位名册把C-3映射到姓名并启动人员交叉链,熟悉姓名极易被误当实际核址人或M003答案,席位名册将C-3映射为梁策并产生明确关系张力；独立行政排班核验已提交,F003,3000,pass,ready,首轮Reader 0 BLOCKER/1 MAJOR/1 MINOR；Stage A收窄独立排班申请范围后复审0 BLOCKER/0 MAJOR/1 MINOR；有效正文2763；Memory已更新；M003仍未完成
-60,独立排班表,completed,ARC-006,用综合行政独立排班交叉2010-10-18乙班实际出勤,排班一致也只能证明当班不能证明具体核址动作,独立行政记录确认梁策实际到岗并与C-3席位名册形成双来源交叉；22:51反馈来源最小核验已提交,F003,3000,pass,ready,首轮Reader 0 BLOCKER/1 MAJOR/1 MINOR；Stage A仅修正06:51/06:56时间先后后复审0 BLOCKER/0 MAJOR/1 MINOR；有效正文2767；Memory已更新；M003仍未完成
-61,五十一分的回电,completed,ARC-006,追22:51核址反馈的最小来源索引和接收方式,反馈补录可能由不同当班席位完成且来源未必是现场人员,确认22:49固定电话回电由C-5首次接收、22:51由C-3责任席位补录/转报并取得附43-2后附核址回电转报单索引,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；有效正文2803；无修订；Memory已更新；C-3只推进到具体责任席位，不证明梁策亲手接电/书写/核址；M003仍未完成
-62,后附转报单,completed,ARC-006,沿第61章真实索引核后附转报链和具体职责字段,接收记录与实际核址动作可能分离,附43-2补全22:49—22:54接收/转交/摘要/送出/签收链并确认夜间只抽核4/6/7栋外部栋牌；取得上游DQ-YH-20101018-17-04外部核址记录索引并转入22:54后连续记录时间边界核验,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；有效正文2723；无修订；Memory已更新；外部正文未读；201/实际核址人/最后处置者/M003仍未完成
-63,那晚的交接,completed,ARC-006,核22:54之后同一事项是否续办或换班以建立最后处置时间边界,先找到的人不一定对应最后一笔相关处置,中心连续记录确认22:54后至乙班结束无新同事项实质动作；23:06乙班交接页仅为“转报完成/下一班承接否/外部后续”收尾，中心侧时间边界收窄并提交DQ-YH外部正文最小利用申请,F003,3000,pass,ready,首轮Reader 0 BLOCKER/1 MAJOR/2 MINOR；Stage A仅清除正文“第62章/M003”内部标记后复审0 BLOCKER/0 MAJOR/2 MINOR；有效正文2882；Memory已更新；外部正文未读；201/实际核址人/最后相关夜间处置者/M003仍未完成
-64,另一边的记录,completed,ARC-006,从东桥独立记录交叉关键时间/对象/来源/反馈职责,单一中心内部记录不足以锁定实际职责且外部记录仍只到组岗层,东桥DQ-YH正文补全22:18—22:49上游核址链并与中心附43-2形成跨保管内容交叉；取得DQ-XL任务签领与反馈登记索引并提交最小利用申请,F003,3000,pass,ready,首轮Reader 0 BLOCKER/1 MAJOR/1 MINOR；Stage A将22:47复核职责从门楼牌整理组夜间值守修正为基层夜间协同值守并同步章纲，复审0 BLOCKER/0 MAJOR/1 MINOR；有效正文3200；Memory已更新；201/S2-07/具体实际承担者/M003仍未完成
-65,最后一笔记录,completed,ARC-006,在时间边界和独立来源成立后核定当晚最后相关夜间处置承担者,必须证明姓名来自当时任务联络原始字段而非既有席位映射重复推断,DQ-XL直接记录22:53对端转报人员梁策/C-3并与席位名册、独立出勤、附43-2交叉；22:53锁定为当前已核验链条最后相关夜间实质处置，M003人员节点完成,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；有效正文3223；无修订；Memory已更新；201/S2-07/完整机制继续未知
-66,他为什么没说,completed,ARC-006,处理M003成立后的关系后果并取得梁策有限亲历,当事人口述不能替代纸档且信息披露动机必须具体不能只靠神秘感,梁策承认此前过度信息控制；三人建立本人关联先披露/已证-可靠记得-不确定分层规则，并取得地址待核/未映射类补充登记这一口述待交叉入口,F003|F008,3000,pass,ready,首轮Reader 1 BLOCKER/1 MAJOR/1 MINOR；Stage A仅修正同日误写“昨天”与正文泄露“第58章”内部章节号；复审0 BLOCKER/0 MAJOR/1 MINOR；有效正文2919；Memory已更新；201/S2-07/完整机制继续未知
-67,旧事只到这里,completed,ARC-006,按梁策口述的地址待核/未映射业务类别做有限目录与记录交叉,口述不能替代纸档且十六年前自然记忆模糊不能升级为异常,独立确认《来话地址补核登记簿》与原地址照录/核址结果另栏规则；同日永安里条目进入转补核流程且梁策主动执行本人关联披露规则,F003|F008,3000,pass,ready,首轮Reader 1 BLOCKER/0 MAJOR/1 MINOR；Stage A仅把5处同日“昨天”时间指代修正为“早上”，复审0 BLOCKER/0 MAJOR/1 MINOR；有效正文2792；Memory已更新；201/S2-07/核址原因/完整机制继续未知
-68,还在值夜的人,completed,ARC-006,收束人员链并把下一入口从梁策旧记忆转回独立证据,人员节点完成不能解释201/S2-07实物或完整机制,停止无必要历史人员扩搜；S2-07联合盘点取得次日14:00—16:00实际排期并成为下一优先入口,F003|F008,3000,pass,ready,首轮Reader 0 BLOCKER/1 MAJOR/1 MINOR；Stage A仅移动“已证/全部知道”指代句后复审0 BLOCKER/0 MAJOR/1 MINOR；有效正文2898；Memory已更新；ARC-006完成；S2-07结果/201/完整机制仍未知
-69,盘点回执上的空位,completed,ARC-007,读取S2-07联合盘点真实返回并判断是否需要最小后续核对,不能预设实物仍在或把空架写成被拿走,S2-07原架位未见目标且2022正常库内架位调整记录指向S2-11；提交S2-11最小现物核验,F003,3000,pass,ready,首轮Reader 0 BLOCKER/1 MAJOR/1 MINOR；Stage A仅清除正文“第45章/第43章”内部章节号后复审0 BLOCKER/0 MAJOR/1 MINOR；有效正文2706；Memory已更新；S2-11/201/完整机制仍未知
-70,旧牌还在不在,completed,ARC-007,沿第69章实际结果完成S2-11非破坏性现物核验并判断是否继续追牌面,找到对应实体也不能把公共导向物证写成正式住址证明,S2-11确认BK-JBS-160114-03现物数量1且外部分类号/来源对象DX-B-06/架位与既有链一致；牌面未核，物资线阶段收口并转向6栋分户/子地址目录,F003,3000,pass,ready,首轮Reader 0 BLOCKER/1 MAJOR/1 MINOR；Stage A仅将正文“为了标题申请拆包装”改为故事内理由后复审0 BLOCKER/0 MAJOR/1 MINOR；有效正文2919；Memory与第70章压缩摘要已更新；201/住户/完整机制仍未知
-71,物证不是住址,completed,ARC-007,收束S2-07物证业务用途并从已证6栋建筑对象建立分户/子地址目录入口,物资实物与正式住址属于不同业务层,调查从公共导向物证合法转入分户地址层,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；有效正文2803；无修订；Memory已更新；21:07已提交六栋父级建筑对象历史分户/子地址最小目录核验；201/具体房号/住户/完整机制仍未知
-72,六栋的目录,completed,ARC-007,核6栋历史分户/子地址资料存在性/保管/开放字段,资料未逐页数字化和身份遮蔽不能解释成异常删除,确认六栋存在建筑级关联目录项DQ-FH-2010-17-B06、纸质原卷在册及非身份字段利用边界；下一步先做普通建筑控制样本,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；有效正文2652；无修订；Memory已更新；201/具体房号/住户/完整机制仍未知
-73,普通的一栋楼,completed,ARC-007,用同批次普通建筑建立分户资料控制样本,不能拿永安里结果反向定义正常记录结构,确认总表/补页/变更页与业务字段/身份字段边界并于21:16提交六栋最小页项申请,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；有效正文2729；无修订；Memory已更新；控制样本只作方法参照；201/六栋具体房号/住户/完整机制仍未知
-74,六栋的房号,completed,ARC-007,读取永安里6栋获批建筑/分户层字段,即使出现201也只能推进到子地址存在不能补住户,2010年6月六栋建筑分户总表原卷第38页独立记录房号201且状态在用；201地址层首次取得独立历史支持，住户仍未知,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；有效正文2766；无修订；Memory已更新；后续补记/变更页缺项只作页级有限结论；下一步先建立居民层正常目录/权限入口
-75,地址和住户之间,completed,ARC-007,拆开房号存在与谁住过两个问题并寻找合法居民生活史入口,隐私字段和家庭关系不能无必要申请,将地址存在/住房居民关系/具体身份拆层；确认不同居民生活史资料体系及权限边界，并于21:17只以已证六栋201地址对象提交住房使用/入住变更/房屋管理资料最小目录核验,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；有效正文2618；无修订；Memory已更新；居民姓名/家庭关系仍未取得；第76章只读真实目录与权限返回
-76,能开的字段,completed,ARC-007,读取住户层资料目录/保管/开放规则并最小化申请,姓名证件家庭关系可能受限且不能用推断补齐,确认六栋201存在历史住房使用登记及变更材料目录项/东桥区房屋管理历史资料室/关联索引DQ-ZY-2010-17-B06-201及非身份开放字段；20:31提交最小原卷利用申请,F003,3000,pass,ready,首轮Reader 0 BLOCKER/1 MAJOR/1 MINOR；Stage A仅清除正文“第74章”创作侧章节号后复审0 BLOCKER/0 MAJOR/1 MINOR；有效正文2832；Memory已更新；具体关系状态/住户/实际居住/周衡家庭史仍未知
-77,六栋的居民层,completed,ARC-007,按第76章实际开放结果推进住户层证据,住房使用关系不能直接替代实际居住或居民身份,2010-06-29房管原卷确认六栋201一项住房使用登记/关系状态登记使用/变更类型初始登记；身份与终止时间仍未取得,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；有效正文2802；无修订；Memory已更新；F008未新增；本章未升级身份权限或提交新申请；第78章只做ARC-007证据层收束
-78,留在记录里的位置,completed,ARC-007,收束S2-07物证/6栋建筑/201分户/住房使用关系/居民身份各层能证明与不能证明的内容,不同业务层容易再次被混成单一存在证明,ARC-007完成且居民身份层改为当前无必要申请；南仓路连续照明故障成为下一弧现实入口,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文2735；无修订；Memory已更新；ARC-007完成；未新增身份申请；南仓路317号杆本体无故障且整段原因待核
-79,一排不亮的灯,completed,ARC-008,读取南仓路照明现场真实回报并完成第一轮专业处置,连续熄灭与编号跳号容易被过早焊成同一个异常解释,325号杆底部接线端子受潮绝缘受损的普通故障已修复且12根实体灯杆全部复亮；另独立确认现场标签317—321/323—329未见322号独立灯杆,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文2731；无修订；Memory已更新；照明现实任务闭环；322只进入普通资产历史核验且与本次电气故障暂无因果证据
-80,逐杆核对编号,completed,ARC-008,以南仓路现有实体杆为基准核当前资产与历史变更并判断322是否只是普通编号断口,编号跳号容易被强行接到已经修复的325电气故障或继续制造回路疑点,12根实体杆/标签与12张在用资产卡逐一对应；322历史资产确认于2023-04-18公交港湾改造中拆除退役且321/323迁移保号；编号断口普通闭环并取消无必要回路核验,,3000,pass,ready,首轮Reader 0 BLOCKER/2 MAJOR/1 MINOR；Stage A修正同夜时间与创作元信息后仍1 MAJOR；按协议Stage B整章重写，终审0 BLOCKER/0 MAJOR/1 MINOR；有效正文2698；Memory与第80章压缩摘要已更新；不建立异常候选
-81,下穿通道的积水,completed,ARC-008,处理槐河路下穿通道积水并只在现实处置完成后保存真实排水记录差异,入口堵塞主因与管线连接差异容易被错误合并为同一异常原因,4/6雨水口箅面堵塞清理后积水消退且泵组正常并于00:03恢复通行；另确认YS-HH-2047/2048顺序清障时北向检查口流量分别增加而现行管线图不显示该连接，所有设施均在场并建立2021改造资料正常核验入口,,3000,pass,ready,首轮Reader 0 BLOCKER/1 MAJOR/1 MINOR；Stage A仅修正为不重新堵塞雨水口的安全流向观察方式后复审0 BLOCKER/0 MAJOR/1 MINOR；有效正文2717；Memory/T084/ARC-008已更新；不建立异常候选
-82,水往哪边走,planned,ARC-008,沿第81章真实留下的2047/2048连接差异核2021排水改造竣工图改造前后关系与图层更新记录,现场地面流向观察不是完整地下拓扑且改造回填接管调整图层同步滞后都可能造成表面差异,判断普通工程或资料版本原因能否解释2047/2048与北向检查口连接关系；普通原因足够即收口,,3000,pending,blocked,不得安排无必要夜间下井/示踪；若普通资料完整解释则后续粗纲改为新的真实当前服务事件
-83,谁管这一段管线,planned,ARC-008,只有设施/记录层仍存在真实待解释段落时核维护责任道路分段和合同边界,责任空档可能来自合同切换移交窗口临时托管或施工期间代维,将维护责任从物理设施和管线记录层独立出来并确认是否真有空档,,3000,pending,blocked,普通责任移交原因优先；没有真实空档则正常收口并改纲
-84,交接清单上的米数,planned,ARC-008,若责任边界仍有缺口则沿真实移交索引核设施段起止里程范围及接收状态,移交范围与人员职责容易再次被混淆,确认目标段是否在正常移交链中并只在业务必要时读取人员字段,,3000,pending,blocked,不重演ARC-006无必要人员追踪；姓名不是本弧目标
-85,白天开井复核,planned,ARC-008,仅在纸面记录与当前物理设施仍有真实不能对应的位置时安排工作时段专业现场复核,夜班人员可能为了验证剧情而越过专业安全边界,用专业白班现场结果确认物理段落并保持普通安全流程优先,,3000,pending,blocked,若无需现场复核则承担新的普通服务闭环，不造测试场景
-86,两套维护边界,planned,ARC-008,仅在单一排水系统普通原因查够仍有可审计差异后选择独立当前城市服务系统有限交叉,单系统缺项不足以支持更大尺度结论,判断同一地段是否存在跨系统服务边界差异候选,,3000,pending,blocked,只有独立来源成立才推进；不得直接推出共同删除机制
-87,网格编号不同,planned,ARC-008,若跨系统差异真实成立则核服务网格道路段编号来源与当前责任范围,网格编号居民俗称正式地址设施编号属于不同对象层,把候选缺口推进到可审计的当前服务对象层而不触碰居民身份,,3000,pending,blocked,不新增F008除非出现具体本人事件记忆冲突；不追居民名单
-88,走到线路之外,planned,ARC-008,收束物理设施资产或管线记录维护责任服务网格各层已证与未证,多层差异可能诱导提前解释主动删除或完整机制,ARC-008形成当前城市服务边界阶段结论；普通原因足以解释就按普通结果收束，只有多独立系统仍有真实缺口才给下一弧异常候选入口,,3000,pending,blocked,不得提前揭示M004/M005或完整失址机制
+1,夜班,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F002,3000,pass,published,Reader/QA/Memory已完成
+2,第一张工单,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F002|F007,3000,pass,published,Reader/QA/Memory已完成
+3,青梧苑没有十三栋,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F002|F007,3000,pass,published,Reader/QA/Memory已完成
+4,多出来的路,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F002,3000,pass,published,Reader/QA/Memory已完成
+5,十三栋,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F002,3000,pass,published,Reader/QA/Memory已完成
+6,704室的投诉,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F006|F007,3000,pass,published,Reader/QA/Memory已完成
+7,楼上的声音,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F006|F007,3000,pass,published,Reader/QA/Memory已完成
+8,顶楼,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F002|F006|F007,3000,pass,ready,Reader/QA/Memory已完成
+9,夜里一点,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F004|F006,3000,pass,ready,Reader/QA/Memory已完成
+10,多出来的台阶,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F004|F006,3000,pass,ready,Reader/QA/Memory已完成
+11,804,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F004|F007,3000,pass,ready,Reader/QA/Memory已完成
+12,没有人住的房间,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F004|F007,3000,pass,ready,Reader/QA/Memory已完成
+13,墙上的照片,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F004|F007,3000,pass,ready,Reader/QA/Memory已完成
+14,永安里,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F004|F007,3000,pass,ready,Reader/QA/Memory已完成
+15,十一年前,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F005|F007,3000,pass,ready,Reader/QA/Memory已完成
+16,消失的档案,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F002|F005,3000,pass,ready,Reader/QA/Memory已完成
+17,打印出来的纸,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F002|F005,3000,pass,ready,Reader/QA/Memory已完成
+18,他们正在忘记,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F002|F005|F008,3000,pass,ready,Reader/QA/Memory已完成
+19,第二张工单,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+20,已经改名的车站,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+21,旧站台,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+22,关不掉的工单,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001,3000,pass,ready,Reader/QA/Memory已完成
+23,投诉还在,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001,3000,pass,ready,Reader/QA/Memory已完成
+24,投诉人：周衡,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F003,3000,pass,ready,Reader/QA/Memory已完成
+25,后台日志,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F007,3000,pass,ready,Reader/QA/Memory已完成
+26,六箱纸档,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F007,3000,pass,ready,Reader/QA/Memory已完成
+27,维修记录,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F007,3000,pass,ready,Reader/QA/Memory已完成
+28,白天的青梧苑,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F007,3000,pass,ready,Reader/QA/Memory已完成
+29,老陈,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F007,3000,pass,ready,Reader/QA/Memory已完成
+30,记忆里的楼,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F007|F008,3000,pass,ready,Reader/QA/Memory已完成
+31,旧回访单,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F007,3000,pass,ready,Reader/QA/Memory已完成
+32,夜班旧册,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+33,旧地址表,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+34,同步清单,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+35,三十分钟,completed,ARC-003,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+36,旧广播,completed,ARC-003,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+37,普通夜班,completed,ARC-003,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+38,接应点,completed,ARC-003,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+39,看不见的人,completed,ARC-003,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F008,3000,pass,ready,Reader/QA/Memory已完成
+40,失物登记,completed,ARC-003,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F008,3000,pass,ready,Reader/QA/Memory已完成
+41,人找到了,completed,ARC-003,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+42,回来以后,completed,ARC-003,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F008,3000,pass,ready,Reader/QA/Memory已完成
+43,改名前照片,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+44,拆牌清单,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+45,库房编号,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+46,夜间报修,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,,3000,pass,ready,Reader/QA/Memory已完成
+47,指向哪里,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+48,留在纸上的地址,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+49,掉下来的门牌,completed,ARC-005,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+50,旧号新号,completed,ARC-005,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+51,图幅索引,completed,ARC-005,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+52,缺的一页,completed,ARC-005,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+53,白班回函,completed,ARC-005,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+54,大家都这么叫,completed,ARC-005,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,,3000,pass,ready,Reader/QA/Memory已完成
+55,沿革底册里的名字,completed,ARC-005,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+56,迁出批次里的对象,completed,ARC-005,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+57,旧中心抄件,completed,ARC-005,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+58,是谁写下这张表,completed,ARC-005,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+59,席位名册上的名字,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+60,独立排班表,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+61,五十一分的回电,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+62,后附转报单,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+63,那晚的交接,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+64,另一边的记录,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+65,最后一笔记录,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+66,他为什么没说,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F008,3000,pass,ready,Reader/QA/Memory已完成
+67,旧事只到这里,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F008,3000,pass,ready,Reader/QA/Memory已完成
+68,还在值夜的人,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F008,3000,pass,ready,Reader/QA/Memory已完成
+69,盘点回执上的空位,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+70,旧牌还在不在,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+71,物证不是住址,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+72,六栋的目录,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+73,普通的一栋楼,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+74,六栋的房号,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+75,地址和住户之间,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+76,能开的字段,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+77,六栋的居民层,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+78,留在记录里的位置,completed,ARC-007,收束永安里证据分层并停止无必要身份层升级,不同业务层容易被混成单一存在证明,ARC-007完成且居民身份层改为当前无必要申请；南仓路照明进入下一弧,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；Memory已更新
+79,一排不亮的灯,completed,ARC-008,完成南仓路连续熄灭现实处置并保存独立编号观察,连续熄灭与编号跳号容易被过早焊成同一原因,325号杆受潮端子普通故障修复且12根实体灯杆全部复亮；另记录现场未见322独立灯杆,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；无修订；Memory已更新
+80,逐杆核对编号,completed,ARC-008,按实体杆核当前资产与历史变更判断322是否普通编号断口,编号跳号容易被强行接到已经修复的电气故障,322确认于2023-04-18公交港湾改造中拆除退役且321/323迁移保号；普通闭环并取消回路核验,,3000,pass,ready,Stage B终审0 BLOCKER/0 MAJOR/1 MINOR；Memory已更新
+81,下穿通道的积水,completed,ARC-008,完成槐河路积水现实处置并保存2047/2048连接差异,入口堵塞主因与管线记录差异容易被错误合并,4/6雨水口堵塞清理后积水消退且泵组正常；2047/2048现场北向流向与现行图层连接不一致成为窄核验入口,,3000,pass,ready,Stage A后复审0 BLOCKER/0 MAJOR/1 MINOR；Memory已更新
+82,水往哪边走,completed,ARC-008,核2021排水改造与2022图层更新解释2047/2048连接差异,现场流向观察不是完整拓扑且普通工程版本原因必须优先,2021批准变更与竣工资料确认两口改接北向重力支线；2022因变更线位矢量未回填保留旧南向拓扑；普通闭环并转入玉泉巷清运工单,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；有效正文2651；无修订；Memory/T085/ARC-008已更新；不建立异常候选
+83,玉泉巷的三只桶,planned,ARC-008,先处理玉泉巷三只满溢垃圾桶再核实际清运调度路线与收集点清单,来电人看见主路车辆经过不能证明该车负责玉泉巷,确认连续两天漏收是否可由漏班车辆道路路线调整或清单同步等普通原因解释,,3000,pending,blocked,现实卫生处置优先；普通原因足够即收口并继续改纲
+84,清运路线到哪里,planned,ARC-008,仅在第83章仍有真实路线或收集点记录差异时核班次路线清单近期调整与必要车辆调度,车辆经过主路计划路线包含玉泉巷实际完成清运属于不同层,判断路线调整或数据同步是否足以解释；普通原因成立即收口,,3000,pending,blocked,若第83章已普通闭环则改为新的真实当前服务事件
+85,谁负责这条巷子,planned,ARC-008,仅在路线与收集点层仍有可审计空档时核属地环卫承包清运临时代维或合同切换责任,责任空档可能来自正常合同移交窗口且无需追一线人员姓名,确认是否存在真实责任空档；普通合同或移交原因足够即收口,,3000,pending,blocked,不得为找答案扩大人员字段
+86,两张服务范围图,planned,ARC-008,仅在单一环卫系统普通原因查够仍有真实服务范围缺口后做独立当前系统有限交叉,单系统缺项不足以支持更大尺度结论,判断是否存在第二个独立当前服务边界差异候选,,3000,pending,blocked,没有第二独立缺口时改为普通服务闭环
+87,边界上的编号,planned,ARC-008,若跨系统差异真实成立则核服务网格道路段设施或收集点编号来源与当前责任范围,网格编号居民俗称正式地址设施编号属于不同对象层,把候选缺口推进到可审计当前服务对象层而不触碰居民身份,,3000,pending,blocked,不新增F008除非出现具体本人事件记忆冲突
+88,走到线路之外,planned,ARC-008,收束设施收集点资产工程记录运行清运结果路线责任服务网格各层已证未证,多层差异可能诱导提前解释主动删除或完整机制,普通原因足够则以无新异常候选完成本弧；只有多独立系统仍有同向真实缺口才给下一弧窄候选,,3000,pending,blocked,不得提前揭示M004/M005或完整失址机制
