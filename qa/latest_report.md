@@ -1,116 +1,158 @@
 # Latest QA Report
 
 ## Chapter
-- chapter: 77
-- title: 《六栋的居民层》
-- arc: ARC-007《在架与在册》
-- final_source_sha: `13900406176622f04b50dfdfa4f1d9b884e87124`
-- ready_blob_sha: `d2001eab615ff0715afedef4a833ac7ad73cd2f5`
-- effective_char_count: 2802
+- chapter: 82
+- title: 《水往哪边走》
+- arc: ARC-008《线路之外》
+- final_source_sha: `2e347153a83e4296605f95283d720c00d3d667f5`
+- ready_blob_sha: `2c25d0efcfca14170e5c4125dc3c10288851e918`
+- effective_char_count: 2651
 
 ## Baseline Gate：第1—6章
 **PASS**
 
 - 本轮开始前重新核对`chapters/published/`、`chapters/draft/`、`chapters/ready/`、`plans/chapter_plan.csv`、Reader Review与Memory：第1—6章继续全部为`completed / pass / published`，没有Draft/Ready重复。
-- `chapters/published/`仍只有第1—6章与README；第1—6章Memory摘要均存在，计划状态与已发布状态一致。
-- Reader目录仍保留第1—5章最终Review以及第6章修订前后Review；第6章最终Reader为0 BLOCKER / 0 MAJOR。
-- 本轮没有修改、替换或删除任何Published Canon。
+- `chapters/published/`当前包含第1—7章与README；第7章的published状态是本轮开始前仓库已经存在的状态，本轮没有创建、替换、删除或修改任何`chapters/published/`正文。
+- 第1—6章Memory摘要和Reader状态继续存在，发布门一致；因此没有回头修改Published Canon。
+
+## Protocol / Required Reads
+**PASS**
+
+本轮重新读取：
+- `AGENTS.md`
+- `docs/ai_reading_protocol.md`
+- `config/novel.yaml`
+- Premise / Main Outline / World / Style
+- 周衡、梁策、夏宁角色卡
+- 第四卷大纲与当前ARC-008
+- `plans/chapter_plan.csv`
+- Current Arc / Character / Relationship / Knowledge / World State
+- `memory/foreshadowing.csv`
+- `memory/timeline.csv`
+- 最近10章摘要（72—81）
+- 最近5章完整正文（77—81）
+
+Writer完成后再读取Reader协议/模板；Reader完成后读取Revision协议；QA阶段读取Continuity/Style规则，避免历史Reader结论污染新正文生成。
 
 ## Planner / Continuity Precheck
 **PASS**
 
-- 已重新读取`AGENTS.md`、`docs/ai_reading_protocol.md`、`config/novel.yaml`、Premise/Main Outline/World/Style、周衡/梁策/夏宁角色卡、当前卷、ARC-007、chapter_plan、Current Arc、Character/Relationship/Knowledge/World State、伏笔、时间线、最近10章摘要和最近5章完整正文。
-- 已建立`plans/chapter_0077_plan.md`。
-- Precheck锁定：第76章20:31只提交了`DQ-ZY-2010-17-B06-201`获批非身份字段最小原卷利用申请；本章只能读取真实开放结果。
-- 六栋201的合法资料入口来自第74章六栋自身2010年6月分户总表原卷第38页，不来自704当前字段，也不来自周衡私人记忆或父母姓名。
-- 本章不得提前补具体居民身份、实际居住、家庭关系、完整失址机制、M004主动维持/删除因素、系统来源或周衡记忆原因。
+- 已写入`plans/chapter_0082_plan.md`，记录本轮实际使用的Planner与Precheck边界。
+- 第81章固定事实：槐河路主要积水已经由4/6雨水口箅面堵塞解释并于Day 16 00:03恢复通行；泵组正常。
+- 2047/2048顺序清开导致北向检查口可见流量分别增加只是地面观察；现场未下井、未示踪，不足以证明完整地下拓扑。
+- 本章只允许先核2021排水改造原施工图/设计变更/竣工验收与2022图层更新；普通工程/版本/资料同步原因优先。
+- 堵塞物细泥来源与连接差异分开；不得把后者反写成积水主因。
+- 若普通资料完整解释，必须取消维护责任继续下钻并重排后续粗纲。
+- 不回头打开永安里居民身份层，不新增F008，不提前触碰M004/M005或完整机制。
+
+## Writer
+**PASS**
+
+- 初稿：`chapters/draft/0082.md`
+- source_sha: `2e347153a83e4296605f95283d720c00d3d667f5`
+- 有效字符：2651，位于2600—3400优选区间。
+- 正文没有在Reader后发生任何内容修改；Ready仅改变Front Matter发布状态，因此Reader结论仍对应正文内容。
 
 ## Reader Gate
 **PASS**
 
-- review: `reader_reviews/0077_13900406.md`
-- source_sha: `13900406176622f04b50dfdfa4f1d9b884e87124`
+- review: `reader_reviews/0082_2e347153.md`
+- source_sha: `2e347153a83e4296605f95283d720c00d3d667f5`
 - BLOCKER: 0
 - MAJOR: 0
 - MINOR: 2
 - recommendation: `keep`
 - required_action: `none`
 
-Reader的两个MINOR只涉及：开头再次逐项确认身份字段未扩大略有重复；一句“从多数人的记录和记忆里退掉”带较强总体机制语感。两者均不构成逻辑、连续性或权限错误，按协议不触发Revision。
+两个MINOR：
+1. 中段施工图/设计变更/竣工验收/CAD/矢量线/图层迁移等工程资料术语密度略高。
+2. 近期章节已有少量“没有X/不能写X”式证据边界表达，本章章尾也有轻微总结感。
+
+两项均不构成逻辑、连续性、权限或自然度硬错误，按Reader协议不触发Revision。
 
 ## Editor / Revision
 **PASS — no revision required**
 
-- 本轮正文未出现BLOCKER或MAJOR，`memory/revision_state.yaml`记录`local_revision: 0 / full_rewrite: 0 / replan_rewrite: 0 / reviews_this_cycle: 1`。
-- Writer正文在Reader后没有做装饰性改写，避免因MINOR进入无意义修订循环。
+- `memory/revision_state.yaml`已记录第82章`local_revision: 0 / full_rewrite: 0 / replan_rewrite: 0 / reviews_this_cycle: 1`。
+- Reader无BLOCKER/MAJOR，因此没有为了MINOR做装饰性重写，避免把自然正文修成模板文本。
 
 ## Continuity QA
 **PASS**
 
-- 第76章结束于Day 14约20:31；本章写Day 14余下夜班申请未回、08:00正常交班，Day 15工作时段16:48完成原卷定位/脱敏核定，第十五次夜班20:05读取，时间连续。
-- 人物均在既定夜班岗位，无伤势或位置跳跃；梁策继续外勤值守，不被重新写成旧事答案机器。
-- 读取过程中插入施工围挡倾斜普通工单：夜间只完成风险控制、临时通行引导和松动板件拆除，永久加固/整段复查留白班，机构反应符合既有现实尺度。
+- 第81章结束于Day 16 00:03恢复通行；本章00:17提交工作时段只读调阅，00:24进入队列，Day 16 20:08第十六次夜班读取白班回执，时间连续。
+- 人物均在既定夜班岗位，无伤势、位置或班次跳跃。
+- 白班施工现场回报只确认“存在泥沙进入边沟条件”，没有做来源鉴定；正文没有把它升级成全部堵塞物唯一来源。
+- 新的玉泉巷环卫工单在槐河路普通收口后进入，符合当前ARC从真实夜班业务继续推进的规则。
 
 ## Knowledge / Evidence Boundary QA
 **PASS**
 
-- 新增核心事实严格限定为：2010-06-29永安里6栋201存在一项“住房使用登记”；住房使用关系状态“登记使用”；变更类型“初始登记”；业务登记号`ZY-201006-17-B06-201-01`；原卷页码62；直接来源《永安里第17组住房使用登记册》2010年6月卷。
-- “登记使用”依据字段说明只证明房屋管理业务在该时点建立有效住房使用关系，该笔记录本身不是终止/注销；正文没有写成实际居住、人口/户籍、产权、家庭成员或具体居民身份。
-- 居民身份栏继续遮蔽；周衡没有用本人或父母姓名追加检索，也没有把704当前字段反向当作历史证明。
-- 当前开放页没有足以界定关系终止时间的记录；正文没有把目录“2010—2011”粗略时段或“未见终止”扩大为关系持续期。
-- F008没有新增样本；完整失址机制、系统来源、主动维持/删除主体、4/6/7栋核址原因和周衡记忆原因均未提前揭示。
+- 2021年5月原施工图只证明原设计把2047/2048接向南侧泵井支管。
+- 2021年9月设计变更给出具体普通原因：现场既有地下综合管束位置与前期资料偏差，原南向接管净距不足，经重新核算后批准改接北向既有重力雨水支线。
+- 11月竣工图/验收采用变更后关系，能够与第81章现场北向流向观察对应。
+- 2022年图层迁移记录说明：设施点位按竣工清单更新，但变更竣工图仅有签章PDF、缺可直接导入的矢量线文件；日志留下“西侧变更支管线位待竣工图复核补录”且未见完成，因此旧南向拓扑保留。
+- 上述资料已经完整解释“现场水往北走、现行图仍画南向”的差异；正文没有写成“管线资料被删除”或“水突然改道”。
+- 槐河路主要积水原因继续保持为雨水口表面堵塞，没有被连接差异偷换。
+- 玉泉巷来电人“主路清运车每天经过但不进巷”只保存为口述观察；没有提前写成路线排除、责任空档或异常服务边界。
+- F008无新增；永安里居民身份/实际居住未重开；M004/M005/完整机制未提前揭示。
 
 ## Institution / Permission QA
 **PASS**
 
-- 本次利用范围与第76章获批字段一致，没有扩大到姓名、证件、电话、共同居住人/家庭关系或签名。
-- 原页身份字段以脱敏形式保留边界，正文没有通过遮蔽位置、长度或字段排列猜身份。
-- 第77章结尾没有为了弧末完整感再新建身份申请；当前阶段明确停在住房使用关系层。
+- 工程资料通过项目目录和工作时段只读调阅取得，没有夜间越权即时打开全套档案。
+- 现场没有为调查追加开井、下井、示踪或人为堵塞等无必要/危险验证。
+- 竣工资料足够后取消维护责任核验，符合最小必要原则。
+- 图层问题通过普通数据修正单转排水数据维护单位工作时段复核，不由中心人员直接修改底图。
+- 玉泉巷先联动更近的属地保洁处理满溢，再核清运调度/路线/责任，现实卫生处置优先。
 
 ## Style / Length QA
 **PASS**
 
-- 有效字符2802，位于2600—3400优选区间并满足2300—3800硬范围。
-- 标题《六栋的居民层》满足Ready标题长度门槛，并与Plan、Memory、chapter_plan一致。
-- 本章没有再使用近期常见的“完整普通工单开场→档案回执”结构；历史资料先进入正文，普通围挡工单在中段真实打断调查。
-- 正文无TODO、模型自述、创作侧章节号、QA/Reader提示或未来大纲泄露。
-- 主要对话保持语言指纹：夏宁压边界，梁策短判断，周衡从下意识扩大结论转为自行收窄。
+- 有效字符2651，位于优选区间。
+- 开章承接只保留2047/2048待核项，没有复述第81章全过程。
+- 工程资料通过版本切换、操作与对话逐步释放，虽然术语密度有Reader MINOR，但没有形成不可读说明墙。
+- 主要角色语言保持区分：周衡核证并主动停止扩搜；夏宁压版本/数据边界；梁策用短问题确认结论范围。
+- 无TODO、模型自述、QA/Reader提示、创作侧章节号或未来剧情答案泄露。
+- 章尾由具体的三只满溢垃圾桶进入下一事件，不靠抽象“大秘密”悬念。
 
 ## Meaningful State Change
 **PASS**
 
-- 六栋201从“存在住房使用/变更资料目录项、具体关系状态未知”推进为“2010-06-29房管原卷明确存在一项住房使用登记，关系状态登记使用”。
-- 居民生活史第一次取得具体业务关系原卷、登记号、页码和直接来源，而不是只停在目录层。
-- 同时明确保持“具体身份/实际居住/关系终止时间未证”，并决定ARC-007本弧不继续升级姓名层。
+- 2047/2048从“现场可见流向与现行连接记录不一致、原因未知”推进为“实际北向连接来自2021批准工程变更；现行旧南向拓扑来自2022数据回填不完整”。
+- 槐河路连接差异因此按普通工程/资料原因完整闭环，不建立异常候选。
+- 原计划继续查询“谁管这一段管线”被取消，证明团队确实执行“普通原因足够就停止”的规则，而不是只口头宣称。
+- ARC-008下一入口切换到松桥路玉泉巷连续两天未清运的新现实服务工单。
 
 ## Memory Updater
 **PASS**
 
 已同步：
-- `memory/chapter_summaries/0077.yaml`
+- `memory/chapter_summaries/0082.yaml`
 - `memory/current_arc.md`
 - `memory/character_state.yaml`
 - `memory/knowledge_state.yaml`
 - `memory/world_state.yaml`
-- `memory/timeline.csv`（T080）
-- `memory/foreshadowing.csv`（F003推进到77；F008不新增）
+- `memory/timeline.csv`（新增T085）
 - `memory/reader_state.yaml`
 - `memory/revision_state.yaml`
 - `plans/chapter_plan.csv`
+- `plans/chapter_0082_plan.md`
 - `outlines/arcs/arc_current.md`
+- `outlines/volume_04.md`
 
-`memory/relationship_state.yaml`本章没有产生新的关系状态变化，因此不做空更新时间；`memory/global_summary.md`上次在第70章压缩，本章尚未到下一个约十章节奏点，不重复压缩。
+本章没有人物关系状态变化，因此`memory/relationship_state.yaml`不做空更新时间；没有触及新的伏笔状态，因此`memory/foreshadowing.csv`不做伪更新；未到必须再次压缩`memory/global_summary.md`的节点。
+
+`plans/chapter_plan.csv`同时把第82章设为`completed / pass / ready`并将第83—88章从已失去前提的“继续追排水维护责任”粗纲调整为玉泉巷环卫清运/服务范围路线。历史已完成行保留章节号、标题、Arc、Foreshadowing、QA与发布状态，冗长审计细节统一指向对应正文/Memory，未改任何已发布Canon。
 
 ## Publish Gate
 **PASS**
 
-- `chapters/ready/0077.md`: `status: ready / qa: pass / publish_mode: ready`
-- Ready blob: `d2001eab615ff0715afedef4a833ac7ad73cd2f5`
-- Ready写入成功后已删除`chapters/draft/0077.md`。
-- `plans/chapter_plan.csv`已将第77章更新为`completed / pass / ready`；第78章《留在记录里的位置》继续保持`planned / pending / blocked`。
-- 本轮未新增、替换或删除任何`chapters/published/`正文。
+- `chapters/ready/0082.md`: `status: ready / qa: pass / publish_mode: ready`
+- Ready blob: `2c25d0efcfca14170e5c4125dc3c10288851e918`
+- Ready写入成功后已删除`chapters/draft/0082.md`；`chapters/draft/`最终只剩模板与README。
+- `plans/chapter_plan.csv`已将第82章更新为`completed / pass / ready`；第83章《玉泉巷的三只桶》保持`planned / pending / blocked`，本轮没有提前编写正文。
+- `chapters/published/`仍保持本轮开始时的第1—7章与README，本轮未新增、替换或删除任何Published正文。
 - 未自动发布到番茄。
-- 本轮只完成第77章，没有编写第78章正文。
 
 ## Final Result
-**PASS — Chapter 77 is Ready.**
+**PASS — Chapter 82 is Ready.**
