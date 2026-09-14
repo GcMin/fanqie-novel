@@ -1,8 +1,8 @@
 schema_version: 1
-current_chapter: 68
-current_source_sha: "64a1977bb788892ab5bd425c0768f4664aa2a368"
-current_review_path: "reader_reviews/0068_64a1977b.md"
-stage: passed_to_qa
+current_chapter: 69
+current_source_sha: "e5993914ee0ebf4cfab6f8e892d8015a18da3fc6"
+current_review_path: "reader_reviews/0069_e5993914.md"
+stage: local_revision
 safe_mode: false
 retry_cycles: 0
 next_retry_after: null
@@ -10,8 +10,8 @@ rounds:
   local_revision: 1
   full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 2
-last_action: passed_to_qa
-last_action_at: "2026-09-14T06:59:00Z"
-last_result_sha: "64a1977bb788892ab5bd425c0768f4664aa2a368"
-last_failure_reason: null
+  reviews_this_cycle: 1
+last_action: reader_requested_local_revision
+last_action_at: "2026-09-14T07:52:00Z"
+last_result_sha: "e5993914ee0ebf4cfab6f8e892d8015a18da3fc6"
+last_failure_reason: "正文泄露创作侧章节编号：第45章 / 第43章"
