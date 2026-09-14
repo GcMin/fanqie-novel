@@ -139,8 +139,8 @@ F008不新增样本。
 
 - `chapters/ready/0063.md`: `status: ready / qa: pass / publish_mode: ready`
 - Ready blob: `5384614aaf89b2fa897ac8149a3db641c8a960fb`
-- Ready写入成功后已删除`chapters/draft/0063.md`；最终Draft目录应只保留`CHAPTER_TEMPLATE.md`与`README.md`。
-- `chapters/published/`必须保持只有第1—6章与README，没有新增、替换或删除任何Published正文。
+- Ready写入成功后已删除`chapters/draft/0063.md`；最终复核确认Draft目录只保留`CHAPTER_TEMPLATE.md`与`README.md`。
+- 最终复核确认`chapters/published/`仍只有第1—6章与README，没有新增、替换或删除任何Published正文。
 - 未自动发布到番茄。
 - 第64章《另一边的记录》保持`planned / pending / blocked`，本轮未编写第64章。
 
