@@ -8,7 +8,7 @@
 - arc: ARC-025
 - target_chars: 3000
 - preferred_range: 2600—3400
-- status: planned
+- status: completed / ready
 
 ## Planner 目标
 承接第110章21:47提交的白班普通资料协查。本章只在白班项目材料真实返回后核2018旧厂片区改造的对象边界、验收范围和保留建筑，不查居民身份，不重新抬高HWX-17历史位置文本。
@@ -53,5 +53,24 @@
 - 不把保留使用直接等同当前合法门牌有效。
 - 不预造第112章最终结论。
 
-## 目标结尾
-Day 21约20:30，第二十次夜班刚开始。团队关闭“2018拆除完成是否意味着当前两排旧楼本应被拆”的核验项；F009仍active但只剩“当年保留使用建筑/当前实体”与“现行标准地址缺位”的关系待核。第112章仅建立当前门牌/建筑地址层计划入口。
+## 执行结果
+- Writer V1有效正文2718字符，位于2600—3400优选区间；标题含8个非空白字符。
+- Reader Review #1：`0 BLOCKER / 0 MAJOR / 1 MINOR`，`recommendation=keep`，`required_action=none`，Reader Gate直接PASS，无需Revision。
+- 唯一MINOR是20:14—20:18连续处理现行地址、旧图叠加、居民自述等资料层，信息密度略高；逻辑成立，不触发自动修订。
+- Continuity QA通过：第110章Day 20 21:50后人物正常完成班次并休息，本章明确跨至Day 21第二十次夜班；无伤势/位置/知识越权冲突。
+- Evidence/Institution QA通过：白班协查严格限于项目对象/验收边界/保留建筑；未带入居民、产权、户籍或安置名单；不加急、不越权。
+- Style QA通过：没有大段复述前章、没有作者式异常计数、没有章末总结主题；普通路灯来电只承担夜班现实感，不扩支线。
+- Meaningful State Change通过：2018项目物理冲突关闭，F009进一步收窄到当年保留建筑与当前标准地址缺位之间。
+- Memory已同步：`memory/chapter_summaries/0111.yaml`、Current Arc、Character/Knowledge/World State、Timeline T114、F009、第五卷和当前剧情弧均更新；Relationship State因无关系阶段变化不做空更新。
+- `plans/chapter_plan.csv`已将第111章设为`completed / pass / ready`，并只建立第112章《门牌后来去了哪里》的`planned / pending / blocked`入口，不预造后续答案。
+
+## Publish Gate
+PASS。
+
+- 最终Reader source SHA：`7542122b86d17a1da2b521ab4ad2a9fb4f0330b8`。
+- 标题含8个非空白字符，满足Ready硬规则。
+- 最终有效正文2718字符，位于优选区间。
+- 最新Reader Review为0 BLOCKER / 0 MAJOR。
+- QA、Memory、卷/弧与计划状态均已同步。
+- 最终正文已进入`chapters/ready/0111.md`，对应Draft已删除。
+- 不自动发布到番茄；不新增、覆盖或删除`chapters/published/`；不修改已发布Canon。
