@@ -1,152 +1,126 @@
 # Latest QA Report
 
 ## Chapter
-- chapter: 98
-- title: 《这棵树算谁的》
-- arc: ARC-014《夜班还没有结束》
-- reader_source_sha: `7caf75d4d4e1c514445ca7d09e9f1ddd6df09b36`
-- effective_char_count: 2584
+- chapter: 99
+- title: 《下一通电话响起》
+- arc: ARC-015《下一通电话响起》
+- reader_source_sha: `cbe3862cad7a4bdf182c0591ec7b0ad7fc678b7d`
+- effective_char_count: 2783
 
 ## Baseline Gate：第1—6章
 **PASS**
 
-- 本轮开始前重新核对`plans/chapter_plan.csv`，第1—6章继续全部为`completed / pass / published`。
-- `chapters/published/0001.md`—`0006.md`存在；`reader_reviews/`中第1—6章Review存在；对应`memory/chapter_summaries/0001.yaml`—`0006.yaml`存在。
-- 本轮开始时`chapters/draft/`只有模板与README，没有第1—6章重复副本；`chapters/ready/`从第9章起，不含第1—6章重复副本。
+- 本轮重新核对`plans/chapter_plan.csv`，第1—6章继续全部为`completed / pass / published`。
+- `chapters/published/0001.md`—`0006.md`存在；`reader_reviews/`中第1—6章Review存在；`memory/chapter_summaries/0001.yaml`—`0006.yaml`存在。
+- 本轮开始时`chapters/draft/`只有模板与README；`chapters/ready/`从第9章起，不含第1—6章重复副本。
 - `chapters/published/`仍为第1—8章与README；本轮没有对Published执行新增、覆盖、删除或修改。
 
 ## Protocol / Required Reads
 **PASS**
 
-Planner/Writer前重新读取：
-- `AGENTS.md`
-- `docs/ai_reading_protocol.md`
-- `config/novel.yaml`
-- `bible/premise.md`
-- `bible/main_outline.md`
-- `bible/world.md`
-- `bible/style.md`
-- 周衡、夏宁、梁策人物卡
-- `outlines/volume_04.md`
-- `outlines/arcs/arc_current.md`
-- `plans/chapter_plan.csv`
-- `memory/current_arc.md`
-- `memory/character_state.yaml`
-- `memory/relationship_state.yaml`
-- `memory/knowledge_state.yaml`
-- `memory/world_state.yaml`
-- `memory/foreshadowing.csv`
-- `memory/timeline.csv`
-- 最近章节摘要0088—0097与最近正文0094—0097
+Planner/Writer前重新读取：`AGENTS.md`、`docs/ai_reading_protocol.md`、`config/novel.yaml`、Premise/Main Outline/World/Style、周衡/梁策/夏宁人物卡、第四卷大纲、当前Arc、chapter_plan、Current Arc/Character/Relationship/Knowledge/World Memory、伏笔、最近时间线、0089—0098摘要与0094—0098最近正文。
 
-Reader/Revision/QA阶段另外读取：
-- `docs/reader_agent_protocol.md`
-- `docs/revision_agent_protocol.md`
-- `reader_reviews/REVIEW_TEMPLATE.md`
-- `qa/continuity_rules.md`
-- `qa/style_rules.md`
-- `memory/reader_state.yaml`
-- `memory/revision_state.yaml`
+Reader/Revision/QA另读取：`docs/reader_agent_protocol.md`、`docs/revision_agent_protocol.md`、`reader_reviews/REVIEW_TEMPLATE.md`、`qa/continuity_rules.md`、`qa/style_rules.md`、`memory/reader_state.yaml`、`memory/revision_state.yaml`。
 
 ## Planner / Continuity Precheck
 **PASS**
 
-`plans/chapter_0098_plan.md`在正文前固定：
-- 本章只回答`SQ-042`最近一次管养调整后的长期责任链，不重开已经排除的现实险情。
-- 只允许三项最小材料：上一期道路绿化合同、最近一次杉桥路/河堤绿带管养边界移交附件、当前巡检路线及路线自身责任/执行字段。
-- 旧编号当前不可直接检索不能写成资产消失或主动删除；应急处置责任不能替代长期管养、资产或赔偿责任。
-- 次日专业树体复检尚未发生，正文不得把“旧修剪口周边状态需复检”越级写成已确认腐朽。
-- 不扩查041/043或整排树木，不重开永安里身份层，不新增F008，不触碰M004/M005。
-- 标题《这棵树算谁的》含6个非空白字符，满足至少5个非空白字符的标题硬规则。
+`plans/chapter_0099_plan.md`在正文前固定：
+- 本章必须从真实新来电建立事实，不继承近期已闭合案件。
+- 新事件为晴岚公寓B座“疑似燃气气味”，但“燃气泄漏”不得在专业检测前写成事实。
+- 人员安全优先：来电人已在室外，行动不便父亲仍在五楼；居民/物业不得自行返回查味、试阀或操作设施。
+- 消防/燃气专业排险必须先于普通异味来源调查。
+- 普通原因足够时在本章收口，不新增F008，不重开永安里身份层，不触碰M004/M005。
+- 标题《下一通电话响起》含7个非空白字符，满足标题发布硬规则。
 
 ## Writer / Revision Result
 **PASS**
 
-初稿从23:14现实险情已经排除后的责任核验进入。首轮Reader发现一处范围MAJOR：正文在三项最小材料之外又独立查询“当前河堤绿带维保合同”，会削弱已经建立的最小必要性边界。按状态机执行一次Stage A局部修订，删除第四份资料查询，改为只使用当前巡检路线自身的责任/执行字段；没有处理纯措辞MINOR，也没有扩大改稿范围。
+初稿从23:47新来电直接进入，不复述杉桥路或前几章案件。现实处置完成以下变化：
+1. 消防协助行动不便老人从五楼安全撤至室外。
+2. 燃气专业检测未发现可燃气体异常或供气压力异常，疑似燃气风险被专业排除。
+3. 异味定位至地下一层污水提升设备间；当日下午维护记录“检查盖板复位”签认为空。
+4. 排水维保现场确认检查盖板一侧未完全压入密封槽、密封条局部翻边，设备本身运行正常且无污水外溢。
+5. 00:14盖板/密封条复位并恢复机械排风；持续复核后00:22公共区域允许分批返回，老人由物业陪同乘电梯回家。
+6. 00:26按普通维护收尾遗漏闭环；最初“疑似燃气”来电、专业检测、下午空签认与夜间修正分别留痕。
 
-最终正文完成以下有效变化：
-1. 上一期道路绿化合同确认`SQ-042`是边界调整前道路侧旧单株识别码。
-2. 最近一次边界调整移交附件确认河堤东街以北、临江河防汛护栏以内的转角绿地116平方米及其中六株悬铃木整体并入东岸河堤绿带；旧道路单株识别码不再作为接收后日常巡检索引。
-3. 当前东岸二线巡检路线首节点实际覆盖“杉桥路口西北转角乔木及树池”，并由路线自身字段列出东岸河堤绿地管理处及现行园林维保执行班组。
-4. 23:31次日专业复检任务建立，仍保持“旧修剪口周边状态需复检”，没有预填腐朽。
-5. 车辆损失进入正常责任认定；长期管养单位明确不自动等于赔偿责任成立。
-6. 23:40长期管养归属从待核改为已核，ARC-014按普通合同换期、正式边界移交和巡检颗粒度变化完整闭环，不建立异常候选。
+首轮Reader发现1个MAJOR：00:22老人返回句“没有再走电梯以外的临时安排”语义矛盾，导致返回方式与风险解除后的设施状态不清。按状态机执行一次Stage A局部修订，仅明确现场确认公共区域/电梯可正常使用、老人由物业陪同乘电梯返回；不处理MINOR，不扩大改稿范围。
 
 ## Reader Review / Reader Gate
 **PASS**
 
-- 首轮：`reader_reviews/0098_1c03af95.md`
+- 首轮：`reader_reviews/0099_c8f2b95f.md`
   - BLOCKER: 0
   - MAJOR: 1
   - MINOR: 1
   - recommendation: `revise`
   - required_action: `local_revision`
-- Stage A局部修订后复审：`reader_reviews/0098_7caf75d4.md`
-  - source_sha: `7caf75d4d4e1c514445ca7d09e9f1ddd6df09b36`
+- Stage A后复审：`reader_reviews/0099_cbe3862c.md`
+  - source_sha: `cbe3862cad7a4bdf182c0591ec7b0ad7fc678b7d`
   - BLOCKER: 0
   - MAJOR: 0
   - MINOR: 2
   - recommendation: `keep`
   - required_action: `none`
 - Reader Gate最终PASS。
-- 两个MINOR仅为责任链汇总段稍工整、章末工作笔记与本卷方法有轻微主题复现，不触发继续修订。
+- 两个MINOR为“四件事”汇总略偏报告体、章尾电话再次响起与近期承接方式存在轻微重复风险，不触发继续修订。
 - Revision状态：`local_revision: 1 / full_rewrite: 0 / replan_rewrite: 0 / reviews_this_cycle: 2`。
 
 ## Continuity / Evidence QA
 **PASS**
 
-- 时间从第97章Day 18约23:14自然继续至23:40；三人仍在第十八次夜班，位置、伤势与职责连续。
-- 第97章已完成现实排险，本章没有重新制造现场危险，也没有要求骑手回现场补证。
-- 三项材料严格分层：旧合同只证明历史道路侧责任，边界移交证明责任转移，当前巡检路线证明现行实际覆盖与责任/执行字段。
-- Reader修订后没有第四份独立资料查询，符合最小必要性范围。
-- 次日专业树体复检仍未发生，“腐朽”没有被提前写成事实。
+- 时间从Day 18约23:40自然接到23:47，并跨至Day 19 00:29；仍属于第十八次20:00—08:00夜班。
+- 三人仍在夜间综合服务中心，无新增伤势；角色职责和知识连续。
+- 系统中无计划停气/无当晚燃气检修没有被写成“现场一定安全”；专业检测优先。
+- 下午排水维护空签认只提示收尾需核，最终原因由夜间现场检查盖板当前状态支持，没有用空签认直接定责。
+- 原始“疑似燃气”描述没有因最终普通原因被改写成“误报”。
 - 永安里居民身份/实际居住/关系终止时间未重开；F008未新增；M004/M005未提前触碰。
-- 不建立异常候选，不扩查041/043或整排树木。
 
 ## Institution / Safety QA
 **PASS**
 
-- 夜间应急队此前先排险与当前长期巡检责任保持分层；谁先处理不能自动替代谁长期管养。
-- 当前责任单位由正式移交和现行巡检路线支持，电话联系人明确要求书面移交表优先于其口头说明，制度边界合理。
-- 次日专业树体复检交回绿化正常维护流程；中心只记录和联动，不远程诊断树体。
-- 车辆损失进入正常责任认定，没有由“长期管养”直接推出赔付主体或比例。
+- 中心没有远程指导居民/物业开关燃气阀、电气设备、井盖或进行专业检测。
+- 消防负责人员安全与现场风险处置，燃气应急负责燃气专业检测，物业/排水维保只在风险排除和现场同意后处理普通排水设备，权限分工合理。
+- 行动不便老人不被要求自行穿过未知风险楼道；返回也在现场确认公共区域和电梯可正常使用后进行。
+- 普通维护原因确认后没有扩大调查、追人或制造二级疑点。
 
 ## Style / Length / Title QA
 **PASS**
 
-- 有效字符约2584，位于2300—3800硬范围内；比2600优选下沿少16个字符。剧情与因果已经完整，因此不为凑优选区间追加空洞句子。
-- 无“第98章”“ARC-014”“Reader/QA”等创作侧元数据泄漏进正文。
-- 开场直接进入责任核验，没有大段复述第97章断枝处置过程。
-- 文件信息虽密，但每份材料回答一个不同问题；人物对白和动作穿插，未退化为纯制度说明书。
-- 标题《这棵树算谁的》含6个非空白字符；Frontmatter、详细章纲与`plans/chapter_plan.csv`一致。
+- 有效字符2783，位于2600—3400优选区间。
+- 开场直接进入新来电，无上一章总结式开头。
+- 与近期“记录缺项/旧编号搜索”案件相比，本章以现场人员安全和专业检测推进，结构有变化。
+- 人物对白保持区分：梁策短句卡安全边界，夏宁压缩信息并保留审计边界，周衡负责证据层判断。
+- 无章节号、ARC说明、Reader/QA等创作侧元数据泄漏正文。
+- 标题《下一通电话响起》含7个非空白字符；Frontmatter、计划和`plans/chapter_plan.csv`一致。
 
 ## Meaningful State Change
 **PASS**
 
-本章至少完成四项不可删除变化：
-1. `SQ-042`从长期管养待核推进为边界调整前道路绿化旧单株识别码。
-2. 对应树木现行长期责任确认已随转角绿地整体转入东岸河堤绿带，当前巡检路线实际覆盖现场。
-3. 次日树体复检与车辆损失分别回到正常维护/责任认定渠道，不再占用异常调查线。
-4. ARC-014完成，不建立异常候选。
+1. 行动不便老人从仍在楼内推进为安全撤离并正常返回。
+2. 疑似燃气风险由未知推进为专业检测排除。
+3. 真实异味来源定位为污水提升井维护后的盖板密封复位缺项并完成修正/通风。
+4. ARC-015完成，不建立异常候选。
 
 ## Memory Updater
 **PASS**
 
 已同步：
-- `memory/chapter_summaries/0098.yaml`
+- `memory/chapter_summaries/0099.yaml`
 - `memory/current_arc.md`
 - `memory/character_state.yaml`
 - `memory/knowledge_state.yaml`
 - `memory/world_state.yaml`
-- `memory/timeline.csv`（新增T101）
+- `memory/timeline.csv`（新增T102）
 - `memory/reader_state.yaml`
 - `memory/revision_state.yaml`
 - `outlines/arcs/arc_current.md`
+- `outlines/volume_04.md`
 - `plans/chapter_plan.csv`
 
-本章没有人物关系阶段变化，因此`memory/relationship_state.yaml`不做伪更新时间；没有F003/F007/F008状态变化，因此`memory/foreshadowing.csv`不做空更新；第90章已经完成十章Global Summary压缩节点，第98章不重复重压`memory/global_summary.md`。
+本章没有人物关系阶段变化，因此`memory/relationship_state.yaml`不做伪更新时间；没有F003/F007/F008状态变化，因此`memory/foreshadowing.csv`不做空更新；Global Summary上次在第90章压缩，第100章再进入下一个十章压缩节点，本章不重复更新。
 
-`plans/chapter_plan.csv`已将第98章《这棵树算谁的》设为`completed / pass / ready`。第99章暂定《下一通电话响起》，为`planned / pending / blocked`，只作为新的真实城市服务事件入口，不预造地点、事故或异常答案。
+`plans/chapter_plan.csv`已将第99章设为`completed / pass / ready`，并新增第100章《零点后的新来电》为`planned / pending / blocked`。第100章标题含7个非空白字符，具体事件事实仍未知。
 
 ## Publish Gate
 **PASS**
@@ -154,12 +128,12 @@ Reader/Revision/QA阶段另外读取：
 - Reader Gate：PASS。
 - Continuity / Evidence / Institution / Style / Meaningful State Change QA：PASS。
 - Memory Updater：PASS。
-- 第98章标题6个非空白字符，满足标题硬规则。
-- `chapters/ready/0098.md`应为`status: ready / qa: pass / publish_mode: ready`。
-- 进入ready后清除`chapters/draft/0098.md`。
-- 发布门只推进第98章；第99章保持计划状态，没有正文。
+- 第99章标题7个非空白字符，满足标题硬规则。
+- `chapters/ready/0099.md`已创建为`status: ready / qa: pass / publish_mode: ready`。
+- Publish Gate只推进第99章；第100章没有正文。
+- 进入ready后清除`chapters/draft/0099.md`。
 - 本轮没有新增、覆盖、删除或修改`chapters/published/`正文。
 - 未自动发布到番茄。
 
 ## Final Result
-**PASS — Chapter 98 closes ARC-014 through an ordinary documented maintenance-boundary handover: SQ-042 is an old identifier, not a vanished tree or broken responsibility chain.**
+**PASS — Chapter 99 uses a real suspected-gas safety event to vary the arc structure, clears the actual risk before investigating ordinary maintenance, and closes ARC-015 without manufacturing an anomaly.**
