@@ -1,17 +1,17 @@
 schema_version: 1
 current_chapter: 88
-current_source_sha: 196b2a76ff8f919d6bad38d795be3bdba9a7ef92
-current_review_path: reader_reviews/0088_196b2a76.md
-stage: local_revision
+current_source_sha: 232b22a88acbb0a282ad59e08f7015537a72dcba
+current_review_path: reader_reviews/0088_232b22a8.md
+stage: passed_to_qa
 safe_mode: false
 retry_cycles: 0
 rounds:
-  local_revision: 0
+  local_revision: 1
   full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 1
-last_action: reader_requested_local_revision
-last_action_at: 2026-09-15T03:02:00Z
-last_result_sha: 196b2a76ff8f919d6bad38d795be3bdba9a7ef92
-last_failure_reason: "正文出现‘这九章’创作侧章节计数，属于元叙事泄漏"
+  reviews_this_cycle: 2
+last_action: reader_gate_passed
+last_action_at: 2026-09-15T03:06:00Z
+last_result_sha: 232b22a88acbb0a282ad59e08f7015537a72dcba
+last_failure_reason: null
 next_retry_after: null
