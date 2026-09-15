@@ -1,19 +1,19 @@
 # Latest QA Report
 
 ## Chapter
-- chapter: 95
-- title: 《桥下那张送药单》
-- arc: ARC-012《桥下那张送药单》
-- reader_source_sha: `f0254fdf67f828ba6bd117441a20e3f73ded25dc`
-- ready_blob_sha: `a067ff931105ab937798d16e243ec5a6e519bdcb`
-- effective_char_count: 2727
+- chapter: 96
+- title: 《先别拉下那把闸》
+- arc: ARC-013《夜班里的新来电》
+- reader_source_sha: `fdd284d9ab152479429a1b1389685e5ffc98658c`
+- ready_blob_sha: `897fb40e5b42ec858827327b69f3cc857cfd1c95`
+- effective_char_count: 2941
 
 ## Baseline Gate：第1—6章
 **PASS**
 
 - 本轮开始前重新核对`plans/chapter_plan.csv`，第1—6章继续全部为`completed / pass / published`。
-- `chapters/published/0001.md`—`0006.md`存在；`reader_reviews/`中第1—6章Review存在；对应章节摘要Memory存在。
-- 本轮开始时`chapters/draft/`只有模板与README，没有第1—6章重复副本；`chapters/ready/`也没有第1—6章重复副本。
+- `chapters/published/0001.md`—`0006.md`存在；`reader_reviews/`中第1—6章Review存在；对应`memory/chapter_summaries/0001.yaml`—`0006.yaml`存在。
+- 本轮开始时`chapters/draft/`只有模板与README，没有第1—6章重复副本；`chapters/ready/`从第9章起，不含第1—6章重复副本。
 - `chapters/published/`本轮开始时已有第1—8章与README；本轮没有对Published执行新增、覆盖、删除或修改。
 
 ## Protocol / Required Reads
@@ -38,7 +38,7 @@ Planner/Writer前重新读取：
 - `memory/world_state.yaml`
 - `memory/foreshadowing.csv`
 - `memory/timeline.csv`
-- 最近章节摘要0085—0094与最近正文0090—0094
+- 最近章节摘要0086—0095与最近正文0091—0095
 
 Reader/Revision/QA阶段另外读取：
 - `docs/reader_agent_protocol.md`
@@ -52,110 +52,97 @@ Reader/Revision/QA阶段另外读取：
 ## Planner / Continuity Precheck
 **PASS**
 
-`plans/chapter_0095_plan.md`在正文前固定：
-- 只从新的夜间必要药品配送事件建立ARC-012，不继承柳湾广播等已闭合事项作为异常前提。
-- 现实用药必须先解决；不让行动不便收件人或骑手进入桥下车流、匝道或翻越隔离栏验证旧地址。
-- 配送业务自由文本、现行正式地址、历史内部点位、现场实体分别证明不同对象层。
-- 普通原因足够即收口；不扩查其他桥下编号，不重开永安里身份层，不新增F008，不触碰M004/M005。
-- 标题《桥下那张送药单》含7个非空白字符，满足至少5个非空白字符的标题硬规则。
+`plans/chapter_0096_plan.md`在正文前固定：
+- 只从Day 18 21:37后新的道路设施维护联动建立事实，不继承桥下17号、柳湾广播、学校目录或安置点等已闭合事项作为异常前提。
+- 事件形态刻意避开近期“系统缺项→翻旧记录”的同构：这次冲突是“尚未执行的现实操作，其执行条件当前不成立”。
+- 工单真实有效、发热端子确需维护，但主供隔离前必须先确认排水泵备用自动切换当前可用。
+- 中心只做暂停协调、信息核验和结果记录；电气恢复、切换验证、隔离与维修全部由有权限专业人员按既有规程实施。
+- 普通测试收尾遗漏足够解释即收口；不重开永安里身份层，不新增F008，不触碰M004/M005。
+- 标题《先别拉下那把闸》含7个非空白字符，满足至少5个非空白字符的标题硬规则。
 
 ## Writer / Revision Result
 **PASS**
 
-首版先完成安全交付与地址分层，但Reader指出两个明确MAJOR：
-1. 停车场工作人员代取药品前缺少收件人明确授权；
-2. 正文两次把“槐西高架桥下17号”错误称为“八个字”。
-
-按状态机执行Stage A局部修订，仅修这两项：
-- 增加收件人明确同意停车场当班人员代取密封药袋，并限定骑手只按订单尾号与收件电话核对；
-- 删除错误字符计数，改为“很短的一行文字/那行旧地址”。
-
-没有为了Reader MINOR改写无关段落。
+正文直接从21:37道路设施夜间值守联动进入，没有预设异常结论。Reader首轮即无BLOCKER/MAJOR，因此按照协议没有启动Revision，不为MINOR做装饰性重写。
 
 最终正文完成以下有效变化：
-1. 20:56夜间药房配送协助进入，骑手因“槐西高架桥下17号”无法导航到收件点且面临桥下交通风险。
-2. 收件人行动不便但可正常联系，并明确授权停车场当班人员代取密封药袋。
-3. 骑手按中心指引绕行至现行东入口“槐西路206号附1号”，停车场机动岗核订单尾号与收件电话后代取并转送；21:14收件人确认药品完整收到。
-4. 当前经营备案、场地图和公共地址库均使用现行正式地址/西区值守亭，没有现行“桥下17号”正式门牌。
-5. 2023年桥下空间安全整治前的运营交接附件证明该位置原为内部“17号值守点”，整治后继续存在但改称西区值守亭、旧数字牌取消。
-6. 药房确认订单地址来自客户多年前保存的历史配送自由文本，不是公共地址库实时生成；熟悉片区的旧配送经验使旧称长期仍能工作。
-7. 21:24本人确认更新未来默认配送地址；原订单旧文本与修改记录分别保留。
-8. 21:31按“历史内部点位号 + 现行正式地址 + 配送系统历史自由文本”普通闭环，ARC-012完成，不建立异常候选。
+1. 22:00计划维护主配电柜发热端子的工单真实有效，但执行前发现排水泵双电源切换箱仍处手动模式，作业票依赖的备用自动切换条件当前不成立。
+2. 主供尚未隔离、通道无积水、两台泵待命，中心先保持现状，避免作业窗口压力主动制造服务中断风险。
+3. 下午月度双电源测试单最后“恢复自动运行模式”签认空缺，设备事件记录也没有自动模式恢复状态；普通测试收尾遗漏足够解释当前差异。
+4. 道路设施责任人确认权限后，由现场持证电工恢复自动状态并完成受控切换验证；中心没有远程指导危险电气操作。
+5. 21:59重新完成执行前确认后，原主柜维护才继续；22:14主供恢复，22:21温升复测正常，22:24续办完成，全程排水泵控制、应急照明和交通服务可用。
+6. 下午原空签认不补写，今晚恢复/验证另留记录；设施方新增执行前当前保障条件独立签认。
+7. 周衡的方法从“解释已经发生的差异”扩展到“对会主动改变现实状态的操作，批准记录不能替代当前保障与回退条件确认”。
 
 ## Reader Review / Reader Gate
 **PASS**
 
-- 首轮：`reader_reviews/0095_6a5027c1.md`
-  - BLOCKER: 0
-  - MAJOR: 2
-  - MINOR: 1
-  - recommendation: `revise`
-  - required_action: `local_revision`
-- Stage A后复审：`reader_reviews/0095_f0254fdf.md`
-  - source_sha: `f0254fdf67f828ba6bd117441a20e3f73ded25dc`
+- `reader_reviews/0096_fdd284d9.md`
+  - source_sha: `fdd284d9ab152479429a1b1389685e5ffc98658c`
   - BLOCKER: 0
   - MAJOR: 0
   - MINOR: 2
   - recommendation: `keep`
   - required_action: `none`
 - Reader Gate最终PASS。
-- 两个MINOR只记录职业材料密度与近期短弧整体节奏风险，不触发继续修订。
+- 两个MINOR只记录中段专业流程信息密度和章末同一方法意义略有重复，不触发Revision。
+- 本章Revision状态为`local_revision: 0 / full_rewrite: 0 / replan_rewrite: 0 / reviews_this_cycle: 1`。
 
 ## Continuity / Evidence QA
 **PASS**
 
-- 时间从第94章Day 18 20:49自然继续至20:56—21:31；三人位置、伤势、职责连续。
-- 先完成现实药品交付，再调查旧地址；没有让普通人承担桥下交通/围栏验证风险。
-- 收件人明确授权第三人代取，密封药袋交接、订单核对和最终本人确认因果完整。
-- 现行正式地址、历史内部点位、药房业务自由文本和实际停车场实体分别由不同来源支持，正文没有跨层替代。
-- 永安里居民身份/实际居住/关系终止时间没有被重开；F008没有新增；M004/M005没有提前触碰。
+- 时间从第95章Day 18约21:31自然继续至21:37—22:24；三人仍在第十八次夜班，位置、伤势、职责连续。
+- 维护工单有效、现场当前设备状态、执行条件、专业验证和最终服务结果被分层处理，没有拿“工单已批准”替代“此刻可以执行”。
+- 下午空签认与缺失状态记录共同支持普通收尾遗漏；正文没有把“忘记复位”越权升级为F008记忆异常。
+- 永安里居民身份/实际居住/关系终止时间没有重开；F008没有新增；M004/M005没有提前触碰。
+- ARC-013在普通原因和真实维护结果均完整后停止，没有制造第二层设备谜题。
 
 ## Institution / Safety QA
 **PASS**
 
-- 中心只联动、记录、核路线和结果，不越权操作药物或替代药房医疗建议。
-- 收件人对停车场人员代取有明确授权；停车场工作人员只转交密封药袋，不代拆。
-- 骑手被明确禁止进入匝道、桥下车流或翻越隔离栏，改走现行公共入口。
-- 药房未来默认配送地址只在本人确认后修改；原订单不覆盖，修改另留记录。
+- 主供未切断时先保持现状，不因计划窗口赶工。
+- 中心没有告诉现场人员具体旋钮、接线或带电操作步骤；所有技术动作均由道路设施责任方和持证电工按既有规程处理。
+- 道路巡查只按既有交通方案管理作业区、车速与水位观察，不进入专业电气操作。
+- 原维护并未因调查被无限取消；真实发热隐患在保障条件验证后得到处理。
 
 ## Style / Length / Title QA
 **PASS**
 
-- 有效字符2727，位于2600—3400优选区间。
-- 无“第95章”“ARC-012”“Reader/QA”等创作侧元数据泄漏进正文。
-- 开场直接进入新事件，没有大段复述第94章广播线。
-- 前半段以电话、绕行、交付为动作；后半段才进入记录核验，没有退化为纯后台报告。
-- 周衡负责对象分层/停止条件，夏宁负责调度与留痕，梁策负责安全边界，对白职责稳定。
-- 标题《桥下那张送药单》含7个非空白字符；Frontmatter与`plans/chapter_plan.csv`一致，满足标题规则。
+- 有效字符2941，位于2600—3400优选区间。
+- 无“第96章”“ARC-013”“Reader/QA”等创作侧元数据泄漏进正文。
+- 开场直接进入动作冲突，没有复述第95章送药事件。
+- 本章结构是“先停动作→核当前条件→专业恢复验证→安全完成维护”，明显区别于近期“系统搜索缺项→翻旧材料”的短弧结构。
+- 周衡负责条件分层与停止标准，夏宁负责调度和原始/修正留痕，梁策负责安全与权限边界，对白职责稳定。
+- 标题《先别拉下那把闸》含7个非空白字符；Frontmatter、详细章纲与`plans/chapter_plan.csv`一致。
 
 ## Meaningful State Change
 **PASS**
 
 本章至少完成四项不可删除变化：
-1. 药品从“骑手已到附近但无法送达”推进为21:14安全送达本人。
-2. “桥下17号”从未知地址推进为已证历史内部值守点旧称，现行地址/现称明确。
-3. 药房旧配送文本的持续有效原因被普通业务机制解释，未来默认地址已完成纠正且原订单保留。
-4. ARC-012完成，不建立异常候选，并明确无需扩查其他旧编号。
+1. 一项可能由维护动作主动制造服务风险的断电操作，在执行前被暂停并核清条件，最终未造成真实故障。
+2. 下午双电源测试后的自动模式复位遗漏获得记录支持，普通原因闭环。
+3. 原计划发热端子维护仍被安全完成，真实电气隐患得到处理。
+4. 周衡和团队新增“批准/计划层不能替代当前执行条件层”的工作方法，设施方也新增执行前独立签认。
 
 ## Memory Updater
 **PASS**
 
 已同步：
-- `memory/chapter_summaries/0095.yaml`
+- `memory/chapter_summaries/0096.yaml`
 - `memory/current_arc.md`
 - `memory/character_state.yaml`
 - `memory/knowledge_state.yaml`
 - `memory/world_state.yaml`
-- `memory/timeline.csv`（新增T098）
+- `memory/timeline.csv`（新增T099）
 - `memory/reader_state.yaml`
 - `memory/revision_state.yaml`
 - `outlines/arcs/arc_current.md`
 - `outlines/volume_04.md`
 - `plans/chapter_plan.csv`
 
-本章没有人物关系阶段变化，因此`memory/relationship_state.yaml`不做伪更新时间；没有F003/F007/F008状态变化，因此`memory/foreshadowing.csv`不做空更新；第90章已完成十章Global Summary压缩节点，第95章不重复重压`memory/global_summary.md`。
+本章没有人物关系阶段变化，因此`memory/relationship_state.yaml`不做伪更新时间；没有F003/F007/F008状态变化，因此`memory/foreshadowing.csv`不做空更新；第90章已完成十章Global Summary压缩节点，第96章不重复重压`memory/global_summary.md`。
 
-`plans/chapter_plan.csv`已将第95章设为`completed / pass / ready`。第96章《夜班里的新来电》为`planned / pending / blocked`，标题含7个非空白字符；其具体事件尚未成为Canon。
+`plans/chapter_plan.csv`已将第96章《先别拉下那把闸》设为`completed / pass / ready`。第97章暂定《夜班还没有结束》，为`planned / pending / blocked`；具体事件尚未成为Canon。
 
 ## Publish Gate
 **PASS**
@@ -163,12 +150,12 @@ Reader/Revision/QA阶段另外读取：
 - Reader Gate：PASS。
 - Continuity / Evidence / Institution / Style / Meaningful State Change QA：PASS。
 - Memory Updater：PASS。
-- `chapters/ready/0095.md`: `status: ready / qa: pass / publish_mode: ready`
-- ready_blob_sha: `a067ff931105ab937798d16e243ec5a6e519bdcb`
-- `chapters/draft/0095.md`已在进入ready后清除。
-- 发布门只推进第95章；第96章仍为计划状态，没有正文。
+- `chapters/ready/0096.md`: `status: ready / qa: pass / publish_mode: ready`
+- ready_blob_sha: `897fb40e5b42ec858827327b69f3cc857cfd1c95`
+- `chapters/draft/0096.md`已在进入ready后清除。
+- 发布门只推进第96章；第97章仍为计划状态，没有正文。
 - 本轮没有新增、覆盖、删除或修改`chapters/published/`正文。
 - 未自动发布到番茄。
 
 ## Final Result
-**PASS — Chapter 95 is Ready; ARC-012 closes on a safe medicine handoff plus ordinary historical internal numbering and stale delivery free-text, with no anomaly candidate created.**
+**PASS — Chapter 96 is Ready; ARC-013 closes on a valid maintenance operation paused before it could create a service failure, with ordinary post-test mode-restoration omission documented and a new pre-execution safety/evidence rule established.**
