@@ -1,17 +1,17 @@
 schema_version: 1
 current_chapter: 91
 current_source_sha: 9ae5e23a0f2dd880b20e0abbc87e17aaad623761
-current_review_path: reader_reviews/0091_c21d5213.md
-stage: awaiting_reader
+current_review_path: reader_reviews/0091_9ae5e23a.md
+stage: full_rewrite
 safe_mode: false
 retry_cycles: 0
 rounds:
   local_revision: 1
   full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 1
-last_action: local_revision_written
-last_action_at: 2026-09-15T05:51:00Z
+  reviews_this_cycle: 2
+last_action: reader_gate_failed_after_local_revision
+last_action_at: 2026-09-15T05:54:00Z
 last_result_sha: 9ae5e23a0f2dd880b20e0abbc87e17aaad623761
-last_failure_reason: null
+last_failure_reason: "1 BLOCKER: ‘空了两天’与Day 17当前调查时间线冲突；局部修订次数已用尽，按状态机升级整章重写"
 next_retry_after: null
