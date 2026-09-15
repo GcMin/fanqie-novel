@@ -83,3 +83,14 @@
 - Continuity / Evidence / Institution / Style / Meaningful State Change QA必须PASS。
 - Memory更新到第105章结束状态后才允许进入`chapters/ready/0105.md`。
 - 不自动发布到番茄，不修改`chapters/published/`。
+
+## 实际执行结果
+- Writer V1有效正文2664字符，位于2600—3400优选区间。
+- Reader Review #1：0 BLOCKER / 2 MAJOR / 1 MINOR，recommendation=`revise`，required_action=`local_revision`。
+- Stage A局部修订只处理两项MAJOR：删除“交警用巡逻车驶过最重污染路段作为验证”的不合理机构动作，改为道路保洁完成自身复核后交交通侧逐步恢复；删除05:21后的近期案件清单与作者式主题总结，改为周衡关闭未继续拉长的配送路线地图页面。
+- 修订后有效正文2649字符，仍位于2600—3400优选区间。
+- Reader Review #2：0 BLOCKER / 0 MAJOR / 2 MINOR，recommendation=`keep`，required_action=`none`；Reader Gate PASS。两项MINOR只涉及一处安全边界句略带判断口吻和末句编号回指略有设计感，按协议不触发继续修订。
+- Continuity / Evidence / Institution / Style / Meaningful State Change QA：PASS。
+- Memory同步`memory/chapter_summaries/0105.yaml`、Current Arc、Character/Knowledge/World State、Timeline T108、Reader State、Revision State；当前Arc与第四卷大纲同步推进至ARC-022计划入口；`plans/chapter_plan.csv`将第105章设为`completed / pass / ready`并新增第106章《天亮前还有一单》为`planned / pending / blocked`。
+- `memory/relationship_state.yaml`无关系阶段变化，不做伪更新时间；`memory/foreshadowing.csv`无伏笔新增/触及/回收，不做空更新；`memory/global_summary.md`已在第100章十章压缩节点更新，第105章不重复压缩。
+- Publish Gate：PASS。正文可进入`chapters/ready/0105.md`，对应Draft删除；不得自动发布到番茄，也不得修改`chapters/published/`。
