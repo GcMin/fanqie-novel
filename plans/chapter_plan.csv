@@ -6,7 +6,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 5,十三栋,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F002,3000,pass,published,Reader/QA/Memory已完成
 6,704室的投诉,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F006|F007,3000,pass,published,Reader/QA/Memory已完成
 7,楼上的声音,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F006|F007,3000,pass,published,Reader/QA/Memory已完成
-8,顶楼,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F002|F006|F007,3000,pass,ready,Reader/QA/Memory已完成
+8,通往顶楼的钥匙,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F002|F006|F007,3000,pass,ready,Reader/QA/Memory已完成
 9,夜里一点,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F004|F006,3000,pass,ready,Reader/QA/Memory已完成
 10,多出来的台阶,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F004|F006,3000,pass,ready,Reader/QA/Memory已完成
 11,804,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F004|F007,3000,pass,ready,Reader/QA/Memory已完成
