@@ -1,18 +1,18 @@
 schema_version: 1
-current_chapter: 98
-current_source_sha: 7caf75d4d4e1c514445ca7d09e9f1ddd6df09b36
-current_review_path: reader_reviews/0098_7caf75d4.md
-stage: complete
+current_chapter: 99
+current_source_sha: c8f2b95f2ed54b31fe01dcc8df6598dbfe18ca92
+current_review_path: reader_reviews/0099_c8f2b95f.md
+stage: local_revision
 safe_mode: false
 retry_cycles: 0
 rounds:
-  local_revision: 1
+  local_revision: 0
   full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 2
-last_action: publish_gate_passed
-last_action_at: 2026-09-15T10:52:00Z
-last_result_sha: 7caf75d4d4e1c514445ca7d09e9f1ddd6df09b36
-last_failure_reason: null
+  reviews_this_cycle: 1
+last_action: reader_review_requires_local_revision
+last_action_at: 2026-09-15T12:04:00Z
+last_result_sha: c8f2b95f2ed54b31fe01dcc8df6598dbfe18ca92
+last_failure_reason: "00:22住户返回方式语义不清，需局部修订"
 next_retry_after: null
-publish_gate_passed: true
+publish_gate_passed: false
