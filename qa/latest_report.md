@@ -81,6 +81,7 @@ Reader/Revision/QA阶段另外读取：
 - required_action: `none`
 - 未触发Revision；按仓库硬规则，MINOR默认不得触发自动修订。
 - 两条MINOR仅记录：中后段设备移交/退网/本地配置信息略密；下一章避免退化为连续后台查表。
+- `memory/revision_state.yaml`已同步为第93章`stage: complete / last_action: publish_gate_passed`，本周期0次局部修订、0次整章重写、0次重规划，Reader Review共1次。
 
 ## Continuity / Evidence QA
 **PASS**
@@ -129,6 +130,7 @@ Reader/Revision/QA阶段另外读取：
 - `memory/world_state.yaml`
 - `memory/timeline.csv`（新增T096）
 - `memory/reader_state.yaml`
+- `memory/revision_state.yaml`
 - `outlines/arcs/arc_current.md`
 - `outlines/volume_04.md`
 - `plans/chapter_plan.csv`
@@ -145,6 +147,7 @@ Reader/Revision/QA阶段另外读取：
 - Memory Updater：PASS。
 - `chapters/ready/0093.md`: `status: ready / qa: pass / publish_mode: ready`
 - ready_blob_sha: `1772c37ccb9a93525ed60985cfb6cbd79cc01054`
+- `chapters/draft/0093.md`已在Ready创建成功后删除，Draft目录恢复为仅模板和README。
 - 发布门只推进第93章；第94章仍为计划状态，没有正文。
 - 本轮没有新增、覆盖、删除或修改`chapters/published/`正文。
 - 未自动发布到番茄。
