@@ -8,7 +8,7 @@
 - arc: ARC-023
 - target_chars: 3000
 - preferred_range: 2600—3400
-- status: planned
+- status: completed_plan
 
 ## Planner 目标
 承接第106章Day 19约06:12的第十八次夜班，但不继承晨湖体育公园AED急救或ARC-008—022任何已闭合事项。本章改换到“施工交接中的临时无障碍通行”这一服务领域：06:18左右，一名视障市民在梧桐路与青禾街西南角发现常走的盲道被正常施工围挡截断，却找不到原计划保留的临时通道入口。中心先让来电人停在安全位置，不要求其靠车道试路；随后联动道路维护夜间值守并由周衡、梁策到场。现场确认原人行道确因坡道和导向砖维修继续封闭，替代通道本身仍在，但夜班工人在早班尚未正式接手、硬围挡尚未解除时，提前收走了入口引导、部分低位隔离与临时引导带。责任方恢复临时通道并完成实际交接，来电人安全通过。普通交接时序错误足够解释后立即闭环，不建立异常候选。
@@ -83,3 +83,15 @@
 - Continuity / Evidence / Institution / Style / Meaningful State Change QA必须PASS。
 - Memory更新到第107章结束状态后才允许进入`chapters/ready/0107.md`。
 - 不自动发布到番茄，不修改`chapters/published/`。
+
+## 实际执行结果
+- Writer V1有效正文2891字符，位于2600—3400优选区间。
+- Reader Review #1：1 BLOCKER / 0 MAJOR / 1 MINOR，`recommendation=revise`，`required_action=local_revision`。
+- BLOCKER：初稿06:24写周衡、梁策下楼，随后“八分钟后”到场会落在约06:32，但后文在其完成现场观察/问话后又写06:31夜间负责人到场，形成明确分钟数倒序。
+- Stage A局部修订只调整外勤抵达耗时：把“八分钟后”改为“五分钟后”，使06:29到场→06:31责任人到场的顺序成立；未为了MINOR扩大修改范围。
+- 修订后有效正文仍为2891字符。
+- Reader Review #2：0 BLOCKER / 0 MAJOR / 1 MINOR，`recommendation=keep`，`required_action=none`。唯一MINOR为06:44后一处“真正的问题是……”略带作者归纳感，按协议不触发继续修订。
+- Continuity / Evidence / Institution / Style / Meaningful State Change QA：PASS。
+- Memory同步`memory/chapter_summaries/0107.yaml`、Current Arc、Character/Knowledge/World State、Timeline T110、Reader State、Revision State；当前Arc与第四卷大纲同步推进至ARC-024计划入口。
+- `memory/relationship_state.yaml`无关系阶段变化，不做伪更新时间；`memory/foreshadowing.csv`无伏笔新增/触及/回收，不做空更新；`memory/global_summary.md`在第100章完成十章压缩，第107章不重复压缩。
+- Publish Gate：PASS。正文可进入`chapters/ready/0107.md`，对应Draft删除；不得自动发布到番茄，也不得修改`chapters/published/`。
