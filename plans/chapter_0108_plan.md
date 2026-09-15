@@ -8,7 +8,7 @@
 - arc: ARC-024
 - target_chars: 3000
 - preferred_range: 2600—3400
-- status: planned
+- status: completed_plan
 
 ## Planner 目标
 承接第107章Day 19约06:52的返程状态，但不继承梧桐路施工交接或ARC-008—023任何已闭合事项。本章改换到“道路名称公共导向设施发生物理转位”这一服务领域：周衡与梁策回到中心后，早班配送司机来电称榆安路与石桥街路口的路名牌方向明显不对，导航与沿街门牌均显示自己仍在榆安路，但路口两块路名牌的朝向像互换了。中心先解决来电人的现实辨路需求，并联动道路名称标志维护值守。现场专业人员确认道路、地址和牌面文字均无变化，真正故障是路名牌上部安装抱箍松动后整组发生转位；恢复正确朝向并重新固定后闭环。卷末不强造异常，不把“牌指错方向”拔高成道路或地址消失。
@@ -82,3 +82,16 @@
 - Continuity / Evidence / Institution / Style / Meaningful State Change QA必须PASS。
 - Memory更新到第108章结束状态后才允许进入`chapters/ready/0108.md`。
 - 不自动发布到番茄，不修改`chapters/published/`。
+
+## 实际执行结果
+- Writer V1有效正文约2681字符，位于2600—3400优选区间。
+- Reader Review #1：0 BLOCKER / 1 MAJOR / 1 MINOR，`recommendation=revise`，`required_action=local_revision`。
+- MAJOR：章尾“没有新的地址申请。没有需要追的旧编号。”像内部Memory/主线状态清单外溢到正文，削弱真实交班和生活化卷末收束。
+- Stage A局部修订只删除上述两句，没有修改事件因果、人物位置、机构边界或08:00交班动作。
+- 修订后最终有效正文2664字符。
+- Reader Review #2：0 BLOCKER / 0 MAJOR / 1 MINOR，`recommendation=keep`，`required_action=none`。唯一MINOR为维修前后两张照片的对称句式略带设计感，按协议不触发继续修订。
+- Continuity / Evidence / Institution / Style / Meaningful State Change QA：PASS。
+- Memory同步`memory/chapter_summaries/0108.yaml`、Current Arc、Character/Knowledge/World State、Timeline T111、Reader State、Revision State；当前Arc与第四卷大纲同步为ARC-024/Volume 4完成。
+- `memory/relationship_state.yaml`无关系阶段变化，不做伪更新时间；`memory/foreshadowing.csv`无伏笔新增/触及/回收，不做空更新；`memory/global_summary.md`第100章已完成十章压缩，第108章不重复压缩。
+- `plans/chapter_plan.csv`第108章更新为`completed / pass / ready`；第109章未预造具体事件，下一轮先建立第五卷/下一剧情弧。
+- Publish Gate：PASS。最终正文版本`501f5571cbed782cfc3bff1fc12e16bf3c7a3ad0`进入`chapters/ready/0108.md`，对应Draft删除；不得自动发布到番茄，也不得修改`chapters/published/`。
