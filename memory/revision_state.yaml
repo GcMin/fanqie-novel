@@ -1,17 +1,17 @@
 schema_version: 1
-current_chapter: 86
-current_source_sha: f6c87aacfa6018b10840436b101d4b974fc6cd86
-current_review_path: reader_reviews/0086_f6c87aac.md
+current_chapter: 87
+current_source_sha: 00392ec31110e4d8843ec3450839c15cf634c9b1
+current_review_path: reader_reviews/0087_00392ec3.md
 stage: complete
 safe_mode: false
 retry_cycles: 0
 rounds:
-  local_revision: 0
+  local_revision: 1
   full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 1
-last_action: publish_gate_passed
-last_action_at: 2026-09-15T01:03:00Z
-last_result_sha: f6c87aacfa6018b10840436b101d4b974fc6cd86
+  reviews_this_cycle: 2
+last_action: publish_gate_pending
+last_action_at: 2026-09-15T01:59:00Z
+last_result_sha: 00392ec31110e4d8843ec3450839c15cf634c9b1
 last_failure_reason: null
 next_retry_after: null
