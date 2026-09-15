@@ -1,27 +1,25 @@
 # Latest QA Report
 
 ## Chapter
-- chapter: 89
-- title: 《下一张工单》
+- chapter: 90
+- title: 《北校区挂在哪里》
 - arc: ARC-009《名单里的学校》
-- initial_source_sha: `6006b9508c4097d696855cd26ded2dd100009b58`
-- final_source_sha: `4f14db2aaeef52769caeb798c81b3551ba4d31ef`
-- ready_blob_sha: `9d5371a08403ffc8f945522b1f9eacd9c1ac2e51`
-- effective_char_count: 2810
+- source_sha: `d9400aedf039cefc648dd5cc60190c86de422f7a`
+- ready_blob_sha: `f0ca45608a6c4af09fa668756542352e7076f791`
+- effective_char_count: 2724
 
 ## Baseline Gate：第1—6章
 **PASS**
 
 - 本轮开始前重新核对：`plans/chapter_plan.csv`中第1—6章继续全部为`completed / pass / published`。
-- `chapters/published/0001.md`—`0006.md`均存在；`chapters/draft/`没有第1—6章副本；`chapters/ready/`没有第1—6章重复副本。
-- `reader_reviews/`中第1—6章Reader Review均存在；`memory/chapter_summaries/0001.yaml`—`0006.yaml`均存在。
-- 第6章保留首轮/修订后Review链，没有发现需要优先修复的发布门冲突。
-- 因此本轮允许只推进一个后续章节。未修改任何Published Canon。
+- `chapters/published/0001.md`—`0006.md`均存在；`reader_reviews/`中第1—6章Reader Review均存在；对应章节Memory此前已完整建立。
+- 本轮开始时`chapters/draft/`无第1—6章副本，现最终仍只剩`CHAPTER_TEMPLATE.md`与README；没有发现第1—6章Draft/Ready/Plan/Memory发布门冲突。
+- 因此允许只推进一个后续章节。未修改任何Published Canon。
 
 ## Protocol / Required Reads
 **PASS**
 
-本轮重新读取并用于Planner/Writer/Continuity：
+本轮在Planner/Writer前重新读取：
 - `AGENTS.md`
 - `docs/ai_reading_protocol.md`
 - `config/novel.yaml`
@@ -40,8 +38,8 @@
 - `memory/world_state.yaml`
 - `memory/foreshadowing.csv`
 - `memory/timeline.csv`
-- 最近10章摘要（79—88）
-- 最近5章完整正文（84—88）
+- 最近10章摘要（80—89）
+- 最近5章完整正文（85—89）
 
 Reader/Revision/QA阶段另外读取：
 - `docs/reader_agent_protocol.md`
@@ -56,126 +54,105 @@ Reader/Revision/QA阶段另外读取：
 ## Planner / Continuity Precheck
 **PASS**
 
-`plans/chapter_0089_plan.md`在正文完成前明确：
-- 第89章必须从第88章23:50刚接起的真实来电建立地址、诉求和现实影响，不继承ARC-008已闭合事项作为异常前提。
-- 实际来电确定为市九中北校区3号宿舍整栋停水；先处理七十多名寄宿生的厕所/饮水基本需求，再区分市政外网与校内设施原因。
-- 学生/宿管不得进入水表井、泵房或自行转阀，专业/有权限人员负责检查。
-- 下午水表更换属于优先普通原因；生活水箱可解释故障延迟暴露。
-- 停水普通原因与后续发现的教育基础目录差异必须拆开，不能强行建立因果。
-- 教育目录未单列北校区只能先核并校/校区沿革、教学点/附属地址编码、目录字段口径和更新时间；不得写成学校被删除或失址。
-- 不重开永安里居民身份层；不新增F008；不触碰M004/M005。
+`plans/chapter_0090_plan.md`在正文前固定以下边界：
+- 只回答柳桥路142号当前在教育基础信息体系中“挂在哪里”，优先普通组织/办学地点口径。
+- 第89章停水已经普通闭环，不得因发现教育目录差异重新打开供水原因或施工责任。
+- “没有独立北校区单位条目”与“地址搜索能否命中办学地点”是不同问题。
+- 不查询学生个人名单/身份，不重开永安里居民身份层。
+- 源交换、接收暂存、对象归一、服务地点表、搜索索引必须分层；不得把前层成功写成后层成功。
+- 普通映射、状态过滤、父子关系、去重、ETL/索引等必须优先于异常解释。
+- 不新增F008，不触碰M004/M005或完整失址机制。
 
 ## Writer Result
 **PASS**
 
 最终正文完成以下有效变化：
-1. 23:50新工单落到“临江市第九中学北校区3号宿舍停水”，此前未知的地点和诉求均由来电建立。
-2. 学校先开放1号、2号宿舍一层卫生间并发放现有密封饮用水，七十多名寄宿生的现实需求先于原因深查得到保障。
-3. 市政外网正常；下午支管水表更换后隔离阀最终保持关闭，生活水箱存水使停水延迟至深夜。学校设施人员检查后缓慢恢复，00:21各层供水稳定，故障普通闭环。
-4. 施工交接/质保复盘回归学校与施工单位正常流程，不继续追个人责任。
-5. 关单挂教育责任单位时独立发现：中心教育基础服务目录只匹配市九中主校区，没有单列北校区；本学期区教育夜间值守表、供水机构当前客户与当日下午施工工单均使用“市九中北校区/柳桥路142号”。
-6. 团队只建立“北校区现行目录归属核验”，不查学生个人名单，不建立异常候选。
+1. 00:31先读取中心教育基础服务目录说明，确认数据对象同时包含教育单位与办学地点；柳桥路142号当前地址搜索确实无法命中。
+2. 白班回函确认三年前组织调整后北校区不再作为独立教育单位编码；柳桥路142号没有撤点，而是临江市第九中学名下状态“在用”的附属办学地点`LJ09-S02`，主校区为`LJ09-S01`。
+3. 因此“中心没有第二个北校区独立学校单位条目”由普通制度口径完整解释；夜间值守表和供水客户使用“北校区”只属于实际地点/业务标签。
+4. 最近教育交换源包明确包含S01和S02，中心接收暂存于02:13:44记录S02写入成功。
+5. 字段说明确认“写入成功”仅代表接收暂存成功；当前服务地点表只返回S01，在线对象归一日志有S01完成但无S02结果。
+6. 调查由“学校/校区是否存在”收窄为“S02从接收暂存到对象归一/服务地点表之间发生了什么”；20:34只提交同批次`site`对照、S02字段命中和处理轨迹核验，当前不建立异常候选。
 
-## Reader Review #1
-**FAIL → Stage A local revision**
-
-- review: `reader_reviews/0089_6006b950.md`
-- source_sha: `6006b9508c4097d696855cd26ded2dd100009b58`
-- BLOCKER: 2
-- MAJOR: 0
-- MINOR: 1
-- recommendation: `revise`
-- required_action: `local_revision`
-
-必须修复项：
-1. 正文写“零点刚过，Day 17。”，把内部时间轴Day编号泄漏到小说正文。
-2. 正文写“第88章留下的那句‘未证不是待办’”，人物以章节号引用自身经历，属于元叙事泄漏。
-
-## Editor / Revision
-**PASS — Stage A only**
-
-只处理Reader要求的两个BLOCKER：
-- “零点刚过，Day 17。”改为“零点刚过。”
-- “第88章留下的那句……”改为世界内成立的“刚才收束时写下的那句……”
-- 没有因MINOR顺手删除施工时间点或改写其他段落，没有改变停水原因、校园目录事实或下一章入口。
-
-## Reader Review #2 / Reader Gate
+## Reader Review #1 / Reader Gate
 **PASS**
 
-- review: `reader_reviews/0089_4f14db2a.md`
-- source_sha: `4f14db2aaeef52769caeb798c81b3551ba4d31ef`
+- review: `reader_reviews/0090_d9400aed.md`
+- source_sha: `d9400aedf039cefc648dd5cc60190c86de422f7a`
 - BLOCKER: 0
 - MAJOR: 0
-- MINOR: 1
+- MINOR: 2
 - recommendation: `keep`
 - required_action: `none`
 
-唯一MINOR仅记录：下午施工交接连续列出五个精确时间点，略有业务日志感；因其参与“施工确已发生/记录写恢复/现场最终阀位关闭/故障延迟暴露”的因果判断，本章保留，不触发装饰性Revision。
+两个MINOR只记录：
+1. 中后段`unit/site/接收暂存/服务地点表/搜索索引/对象归一`术语较集中，后续不宜连续多章纯后台术语推进。
+2. “源包/暂存/地点表/索引”四行审计式归纳本章清楚有效，但后续不宜机械复用同样排版。
+
+Reader Gate没有BLOCKER/MAJOR，因此按协议**不触发Editor/Revision**。Revision State记录本周期`local_revision: 0 / full_rewrite: 0 / replan_rewrite: 0 / reviews_this_cycle: 1`。
 
 ## Continuity QA
 **PASS**
 
-- 时间从第88章Day 16 23:50按下接听直接承接，并自然跨零点进入下一日；正文不再出现内部Day编号。
-- 周衡、梁策、夏宁均仍在夜间综合服务中心，无位置、伤势或值班状态跳跃。
-- 新地点、新诉求和风险均由来电后建立，没有角色提前知道市九中北校区。
-- 第88章形成的“未证不是待办”只以世界内近期工作判断被应用，不引用章节号。
+- 开章00:31自然承接第89章00:26结束状态；随后明确跳到Day 17 20:12下一次夜班，没有时间/位置跳跃冲突。
+- 周衡、梁策、夏宁均无伤，工作位置与目标连续。
+- 第89章供水故障没有被重新打开；学校地点数据核验独立推进。
+- 北校区“不是独立单位”与“仍是当前在用办学地点”可以同时成立，未与现有夜间值守、寄宿生和供水记录冲突。
 - 永安里居民身份/实际居住/终止时间继续未证且不重开；F008无新增；M004/M005未提前触碰。
 
 ## Knowledge / Evidence Boundary QA
 **PASS**
 
-- 1/2号宿舍有水+柳桥路外网压力正常，只支持把停水收窄到3号楼校内支管，不替代现场检查。
-- 下午水表施工记录、生活水箱见底、支管阀现场关闭、恢复后流量/楼层用水稳定共同支持普通故障闭环；正文没有越权断定具体施工人员在何时再次关阀。
-- 本学期教育夜间值守表、供水当前客户/施工工单与现实值守共同支持北校区当前使用；这些证据不能自动证明中心教育基础目录必须以独立校区形式单列。
-- 中心教育基础目录未单列北校区，也不能反向证明学校不存在、停办、被删除或已失址。
-- 停水普通原因与教育目录差异保持独立，没有虚假因果。
+- 当前实体校园、夜间值守表和供水业务只支持北校区当前实际使用；第90章白班沿革/编码回函才支持其现行组织层级。
+- `LJ09-S02`作为市九中名下在用附属办学地点，足以解释“为何没有第二个独立学校单位条目”，但不能解释“为何地址搜索完全无结果”。
+- 源交换包含S02与接收暂存写入成功只证明记录到达接收层；正文没有把它越权写成服务地点表/索引生成成功。
+- 当前服务地点表无S02、在线归一日志无S02结果，只支持建立暂存后数据处理链核验；不能推出人为删除、失址或主动机制。
 
 ## Institution / Safety QA
 **PASS**
 
-- 寄宿生现实厕所/饮水需求先处置，不让学生或宿管自行进入水表井、泵房或操作支管阀。
-- 有权限学校设施人员在检查新表/接头/可见管段后缓慢开阀并观察流量、漏水和各层恢复；中心没有隔空替专业人员操作。
-- 市政供水与校内设施责任分层；施工单位/学校后续交接复盘留正常质保流程。
-- 不为验证教育目录差异查询学生姓名/个人身份。
+- 本章没有为了证明学校存在去查询学生姓名、学籍或个人身份。
+- 中心只读取协查回函与自身可访问的数据链，不直接修改教育基础信息或正式服务目录。
+- 只提交最小数据值守核验，不安排不必要现场验证。
 
 ## Style / Length QA
 **PASS**
 
-- 有效字符2810，位于2600—3400优选区间。
-- 开章直接进入新电话，没有复述ARC-008结论。
-- 现实供水问题通过来电、监测、施工记录、现场阀位和逐层恢复推进；后半段目录差异由关单挂责任单位自然触发。
-- 周衡、夏宁、梁策对白区分稳定。
-- Stage A后正文无Day编号、章节号、ARC编号、Reader/QA、TODO或其他创作侧元数据泄漏。
-- 章尾只保留“北校区现行目录归属核验”，没有机械宣称异常。
+- 有效字符2724，位于2600—3400优选区间。
+- 开章不复述第89章停水全过程，只以“供水工单已处理”建立当前状态。
+- 制度/数据细节通过人物操作、提问和页面结果逐层出现，没有直接堆设定说明。
+- 周衡、夏宁、梁策对白保持区分。
+- 正文无Day编号、章节号、ARC编号、Reader/QA、TODO等创作侧元数据泄漏。
+- 章尾“送进来的那条地点记录，后来去了哪里”是具体业务问题，不是机械万能悬念。
 
 ## Meaningful State Change
 **PASS**
 
-本章至少完成四项有效变化：
-1. ARC-009从一张真正新来的公共工单启动。
-2. 七十多名寄宿生的现实基本服务得到保障，3号宿舍供水恢复，停水普通闭环。
-3. 首次取得“当前在用校园/当前教育值守与供水业务存在，但中心教育基础服务目录未单列北校区”的窄记录差异。
-4. 第88章形成的停止规则第一次用于新工单：普通故障到普通原因即停止，只对独立的新记录差异建立最小核验项。
+本章至少完成三项不可删除的状态变化：
+1. 北校区现行组织归属得到明确：不是独立教育单位，而是市九中名下在用办学地点`LJ09-S02`；原“未单列独立单位”疑点普通闭环。
+2. 当前目录链首次被拆成源交换→接收暂存→对象归一→服务地点表/搜索索引，S02被确认到达暂存但没有进入当前服务地点表。
+3. ARC-009下一步从模糊“学校目录差异”收窄到具体S02数据生成链，同时仍未达到异常候选门槛。
 
 ## Memory Updater
 **PASS**
 
 已同步：
-- `memory/chapter_summaries/0089.yaml`
+- `memory/chapter_summaries/0090.yaml`
 - `memory/current_arc.md`
 - `memory/character_state.yaml`
 - `memory/knowledge_state.yaml`
 - `memory/world_state.yaml`
-- `memory/timeline.csv`（新增T092）
+- `memory/timeline.csv`（新增T093）
 - `memory/reader_state.yaml`
 - `memory/revision_state.yaml`
-- `outlines/arcs/arc_current.md`（ARC-009《名单里的学校》启动）
+- `memory/global_summary.md`（第90章十章节点重新压缩）
+- `outlines/arcs/arc_current.md`
 - `outlines/volume_04.md`
 - `plans/chapter_plan.csv`
 
-本章没有人物关系数值/关系阶段变化，因此`memory/relationship_state.yaml`不做伪更新时间；没有新增或改变F003/F007/F008状态，因此`memory/foreshadowing.csv`不做空更新；第89章不是十章Global Summary节点。
+本章没有人物关系数值/阶段变化，因此`memory/relationship_state.yaml`不做伪更新时间；没有新增或改变F003/F007/F008状态，因此`memory/foreshadowing.csv`不做空更新。
 
-`plans/chapter_plan.csv`现将第89章设为`completed / pass / ready`。第90章《北校区挂在哪里》保持`planned / pending / blocked`，只能先核校区沿革、组织/办学点/附属地址编码和教育目录口径。
+`plans/chapter_plan.csv`现将第90章设为`completed / pass / ready`。第91章《送进来的那一条》为`planned / pending / blocked`，只能先核S02从接收暂存到对象归一/服务地点表的普通数据规则和处理轨迹。
 
 ## Publish Gate
 **PASS**
@@ -183,12 +160,12 @@ Reader/Revision/QA阶段另外读取：
 - Reader Gate：PASS。
 - Continuity / Evidence / Institution / Style / Meaningful State Change QA：PASS。
 - Memory Updater：PASS。
-- `chapters/ready/0089.md`: `status: ready / qa: pass / publish_mode: ready`
-- ready_blob_sha: `9d5371a08403ffc8f945522b1f9eacd9c1ac2e51`
-- `chapters/draft/0089.md`已在Ready创建成功后删除，不保留同章双份状态。
-- `plans/chapter_plan.csv`：第89章`completed / pass / ready`；第90章`planned / pending / blocked`。
+- `chapters/ready/0090.md`: `status: ready / qa: pass / publish_mode: ready`
+- ready_blob_sha: `f0ca45608a6c4af09fa668756542352e7076f791`
+- `chapters/draft/0090.md`已在Ready创建成功后删除；`chapters/draft/`最终只剩模板与README，不保留同章双份状态。
+- `plans/chapter_plan.csv`：第90章`completed / pass / ready`；第91章`planned / pending / blocked`。
+- `chapters/published/`仍为第1—7章与README，本轮没有新增、覆盖、删除或修改任何Published正文。
 - 未自动发布到番茄。
-- 未新增、覆盖、删除或修改任何`chapters/published/`正文。
 
 ## Final Result
-**PASS — Chapter 89 is Ready; ARC-009 has started.**
+**PASS — Chapter 90 is Ready; ARC-009 continues only through the narrowed S02 data-generation chain.**
