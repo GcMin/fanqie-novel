@@ -2,7 +2,7 @@ schema_version: 1
 current_chapter: 91
 current_source_sha: ebc3ae48abf4b630aa5dcf94145b8932c944fec7
 current_review_path: reader_reviews/0091_ebc3ae48.md
-stage: passed_to_qa
+stage: complete
 safe_mode: false
 retry_cycles: 0
 rounds:
@@ -10,8 +10,8 @@ rounds:
   full_rewrite: 1
   replan_rewrite: 0
   reviews_this_cycle: 3
-last_action: reader_gate_passed
-last_action_at: 2026-09-15T05:59:00Z
+last_action: publish_gate_passed
+last_action_at: 2026-09-15T06:14:00Z
 last_result_sha: ebc3ae48abf4b630aa5dcf94145b8932c944fec7
 last_failure_reason: null
 next_retry_after: null
