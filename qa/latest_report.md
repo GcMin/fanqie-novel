@@ -1,12 +1,12 @@
 # Latest QA Report
 
 ## Chapter
-- chapter: 96
-- title: 《先别拉下那把闸》
-- arc: ARC-013《夜班里的新来电》
-- reader_source_sha: `fdd284d9ab152479429a1b1389685e5ffc98658c`
-- ready_blob_sha: `897fb40e5b42ec858827327b69f3cc857cfd1c95`
-- effective_char_count: 2941
+- chapter: 97
+- title: 《夜班还没有结束》
+- arc: ARC-014《夜班还没有结束》
+- reader_source_sha: `295f1f1cdb67025c6c50df375c4a329e2f7ab1f5`
+- ready_blob_sha: `44970d9af3d42d724f62e1d4cbdb81bbade7a7f5`
+- effective_char_count: 2730
 
 ## Baseline Gate：第1—6章
 **PASS**
@@ -38,7 +38,7 @@ Planner/Writer前重新读取：
 - `memory/world_state.yaml`
 - `memory/foreshadowing.csv`
 - `memory/timeline.csv`
-- 最近章节摘要0086—0095与最近正文0091—0095
+- 最近章节摘要0087—0096与最近正文0092—0096
 
 Reader/Revision/QA阶段另外读取：
 - `docs/reader_agent_protocol.md`
@@ -52,97 +52,105 @@ Reader/Revision/QA阶段另外读取：
 ## Planner / Continuity Precheck
 **PASS**
 
-`plans/chapter_0096_plan.md`在正文前固定：
-- 只从Day 18 21:37后新的道路设施维护联动建立事实，不继承桥下17号、柳湾广播、学校目录或安置点等已闭合事项作为异常前提。
-- 事件形态刻意避开近期“系统缺项→翻旧记录”的同构：这次冲突是“尚未执行的现实操作，其执行条件当前不成立”。
-- 工单真实有效、发热端子确需维护，但主供隔离前必须先确认排水泵备用自动切换当前可用。
-- 中心只做暂停协调、信息核验和结果记录；电气恢复、切换验证、隔离与维修全部由有权限专业人员按既有规程实施。
-- 普通测试收尾遗漏足够解释即收口；不重开永安里身份层，不新增F008，不触碰M004/M005。
-- 标题《先别拉下那把闸》含7个非空白字符，满足至少5个非空白字符的标题硬规则。
+`plans/chapter_0097_plan.md`在正文前固定：
+- 只从Day 18 22:31后新的杉桥路掉枝公共安全来电建立事实，不继承第96章东桐路已闭合事项作为异常前提。
+- 结构改为“现场公共危险→先排险→再核长期责任”，避免继续复制近期纯数据缺项短弧。
+- 来电骑手、围观者不得为车辆、树牌或编号进入树冠危险区；专业断枝由绿化应急人员现场处理，中心不远程指导修剪技术动作。
+- 应急处置责任、长期管养、资产登记、历史单株编号与车辆理赔分层，不拿任何一层替代另一层。
+- 旧巡检照片只证明两年前`SQ-042`曾被正常记录，不证明当前责任单位或主动删除。
+- 不重开永安里身份层，不新增F008，不触碰M004/M005。
+- 标题《夜班还没有结束》含7个非空白字符，满足至少5个非空白字符的标题硬规则。
 
 ## Writer / Revision Result
 **PASS**
 
-正文直接从21:37道路设施夜间值守联动进入，没有预设异常结论。Reader首轮即无BLOCKER/MAJOR，因此按照协议没有启动Revision，不为MINOR做装饰性重写。
+正文从22:31配送骑手真实来电直接进入。首轮Reader发现一处证据强度越级：前文明确夜间不足以确认旧修剪口是否腐朽，后文却写成“旧腐朽”。按状态机执行一次Stage A局部修订，只把该处恢复为“旧修剪口周边状态需复检”，未扩大改稿范围。
 
 最终正文完成以下有效变化：
-1. 22:00计划维护主配电柜发热端子的工单真实有效，但执行前发现排水泵双电源切换箱仍处手动模式，作业票依赖的备用自动切换条件当前不成立。
-2. 主供尚未隔离、通道无积水、两台泵待命，中心先保持现状，避免作业窗口压力主动制造服务中断风险。
-3. 下午月度双电源测试单最后“恢复自动运行模式”签认空缺，设备事件记录也没有自动模式恢复状态；普通测试收尾遗漏足够解释当前差异。
-4. 道路设施责任人确认权限后，由现场持证电工恢复自动状态并完成受控切换验证；中心没有远程指导危险电气操作。
-5. 21:59重新完成执行前确认后，原主柜维护才继续；22:14主供恢复，22:21温升复测正常，22:24续办完成，全程排水泵控制、应急照明和交通服务可用。
-6. 下午原空签认不补写，今晚恢复/验证另留记录；设施方新增执行前当前保障条件独立签认。
-7. 周衡的方法从“解释已经发生的差异”扩展到“对会主动改变现实状态的操作，批准记录不能替代当前保障与回退条件确认”。
+1. 杉桥路与河堤东街路口老悬铃木大枝劈裂，骑手本人无伤但电动车被压，另有悬挂断枝，非机动车道与部分人行道受阻。
+2. 道路巡查先设警戒与绕行，绿化夜间应急在长期管养归属未即时明确时按公共险情先行处置；来电人未为车辆或补证返回危险区。
+3. 22:51悬枝受控处理，22:56主断枝分段卸下，23:04非机动车道恢复通行；车辆损失留证后移至安全处，赔偿主体未提前承诺。
+4. 排险后才核长期责任：当前道路绿化清单在路口前结束，河堤绿带图层只按片区登记，两套现行记录都不能直接返回该树长期管养责任。
+5. 两年前道路绿化巡检照片明确显示旧单株编号`SQ-042`，并记录分叉口旧修剪伤、愈合一般、建议后续复查；当前不可检索只支持最小责任链核验，不支持“资产消失”。
+6. 23:14后续范围压到上一期道路绿化合同、最近一次道路/河堤管养边界移交附件、当前双方巡检路线三项；不扩查041/043或整排树木。
+7. 团队明确“眼前公共险情的临时应急处置责任”与“长期管养/资产/赔偿责任”属于不同层，前者可以先履行，后者另行核定。
 
 ## Reader Review / Reader Gate
 **PASS**
 
-- `reader_reviews/0096_fdd284d9.md`
-  - source_sha: `fdd284d9ab152479429a1b1389685e5ffc98658c`
+- 首轮：`reader_reviews/0097_21a3c31c.md`
+  - BLOCKER: 0
+  - MAJOR: 1
+  - MINOR: 1
+  - recommendation: `revise`
+  - required_action: `local_revision`
+- Stage A局部修订后复审：`reader_reviews/0097_295f1f1c.md`
+  - source_sha: `295f1f1cdb67025c6c50df375c4a329e2f7ab1f5`
   - BLOCKER: 0
   - MAJOR: 0
   - MINOR: 2
   - recommendation: `keep`
   - required_action: `none`
 - Reader Gate最终PASS。
-- 两个MINOR只记录中段专业流程信息密度和章末同一方法意义略有重复，不触发Revision。
-- 本章Revision状态为`local_revision: 0 / full_rewrite: 0 / replan_rewrite: 0 / reviews_this_cycle: 1`。
+- 两个MINOR只涉及后半段制度信息稍密、章末一句对“当晚已识别险情排除”的措辞略宽；不触发继续修订。
+- Revision状态：`local_revision: 1 / full_rewrite: 0 / replan_rewrite: 0 / reviews_this_cycle: 2`。
 
 ## Continuity / Evidence QA
 **PASS**
 
-- 时间从第95章Day 18约21:31自然继续至21:37—22:24；三人仍在第十八次夜班，位置、伤势、职责连续。
-- 维护工单有效、现场当前设备状态、执行条件、专业验证和最终服务结果被分层处理，没有拿“工单已批准”替代“此刻可以执行”。
-- 下午空签认与缺失状态记录共同支持普通收尾遗漏；正文没有把“忘记复位”越权升级为F008记忆异常。
-- 永安里居民身份/实际居住/关系终止时间没有重开；F008没有新增；M004/M005没有提前触碰。
-- ARC-013在普通原因和真实维护结果均完整后停止，没有制造第二层设备谜题。
+- 时间从第96章Day 18约22:24自然继续至22:31—23:14；三人仍在第十八次夜班，位置、伤势与职责连续。
+- 公共险情、应急处置、长期管养、资产记录、历史单株编号、车辆损失与理赔被分层处理，没有拿“谁先处理”替代“谁长期负责”。
+- 两年前`SQ-042`历史巡检只证明当时该树被正常纳入道路绿化巡检，不证明今天必须出现在同一资产表，也不证明主动删除。
+- Reader修订后，夜间树体状态始终只到“新鲜撕裂 + 旧修剪口周边状态需复检”，没有越级确认腐朽。
+- 永安里居民身份/实际居住/关系终止时间未重开；F008未新增；M004/M005未提前触碰。
+- 当前不建立异常候选，普通合同/边界/台账原因继续优先。
 
 ## Institution / Safety QA
 **PASS**
 
-- 主供未切断时先保持现状，不因计划窗口赶工。
-- 中心没有告诉现场人员具体旋钮、接线或带电操作步骤；所有技术动作均由道路设施责任方和持证电工按既有规程处理。
-- 道路巡查只按既有交通方案管理作业区、车速与水位观察，不进入专业电气操作。
-- 原维护并未因调查被无限取消；真实发热隐患在保障条件验证后得到处理。
+- 骑手与围观人员均被留在树冠危险范围外，未为车辆、树牌或证据返回未排险区域。
+- 道路巡查负责警戒与绕行；绿化专业人员负责悬枝和主断枝处理；中心只联动、记录与核结果，没有远程提供锯切操作步骤。
+- 长期责任未明没有阻塞现场排险；应急先处置也没有被写成长期管养或赔偿责任认定。
+- 次日主干/骨架枝详细复检继续作为正常维护事项，未被包装成异常调查。
 
 ## Style / Length / Title QA
 **PASS**
 
-- 有效字符2941，位于2600—3400优选区间。
-- 无“第96章”“ARC-013”“Reader/QA”等创作侧元数据泄漏进正文。
-- 开场直接进入动作冲突，没有复述第95章送药事件。
-- 本章结构是“先停动作→核当前条件→专业恢复验证→安全完成维护”，明显区别于近期“系统搜索缺项→翻旧材料”的短弧结构。
-- 周衡负责条件分层与停止标准，夏宁负责调度和原始/修正留痕，梁策负责安全与权限边界，对白职责稳定。
-- 标题《先别拉下那把闸》含7个非空白字符；Frontmatter、详细章纲与`plans/chapter_plan.csv`一致。
+- 有效字符2730，位于2600—3400优选区间。
+- 无“第97章”“ARC-014”“Reader/QA”等创作侧元数据泄漏进正文。
+- 开场直接进入掉枝险情，没有复述第96章维护流程。
+- 前半以人物与现场动作推进，23:04后才进入资产/责任核验；没有把事故写成系统说明书。
+- 周衡负责控制查询范围与证明层，夏宁负责联动和留痕，梁策负责安全/专业边界，人物职责连续。
+- 标题《夜班还没有结束》含7个非空白字符；Frontmatter、详细章纲与`plans/chapter_plan.csv`一致。
 
 ## Meaningful State Change
 **PASS**
 
 本章至少完成四项不可删除变化：
-1. 一项可能由维护动作主动制造服务风险的断电操作，在执行前被暂停并核清条件，最终未造成真实故障。
-2. 下午双电源测试后的自动模式复位遗漏获得记录支持，普通原因闭环。
-3. 原计划发热端子维护仍被安全完成，真实电气隐患得到处理。
-4. 周衡和团队新增“批准/计划层不能替代当前执行条件层”的工作方法，设施方也新增执行前独立签认。
+1. 一项仍在威胁行人/骑行者的真实掉枝险情完成专业排险，23:04恢复通行且无人受伤。
+2. 骑手从急于取车继续送单转为先避险、留存车辆损失并暂停后续配送。
+3. 两年前`SQ-042`历史巡检被重新定位，但当前长期管养责任仍保持未证，问题收窄到三项必要材料。
+4. 团队新增“临时应急处置责任与长期管养/资产/赔偿责任分层”的工作方法。
 
 ## Memory Updater
 **PASS**
 
 已同步：
-- `memory/chapter_summaries/0096.yaml`
+- `memory/chapter_summaries/0097.yaml`
 - `memory/current_arc.md`
 - `memory/character_state.yaml`
 - `memory/knowledge_state.yaml`
 - `memory/world_state.yaml`
-- `memory/timeline.csv`（新增T099）
+- `memory/timeline.csv`（新增T100）
 - `memory/reader_state.yaml`
 - `memory/revision_state.yaml`
 - `outlines/arcs/arc_current.md`
 - `outlines/volume_04.md`
 - `plans/chapter_plan.csv`
 
-本章没有人物关系阶段变化，因此`memory/relationship_state.yaml`不做伪更新时间；没有F003/F007/F008状态变化，因此`memory/foreshadowing.csv`不做空更新；第90章已完成十章Global Summary压缩节点，第96章不重复重压`memory/global_summary.md`。
+本章没有人物关系阶段变化，因此`memory/relationship_state.yaml`不做伪更新时间；没有F003/F007/F008状态变化，因此`memory/foreshadowing.csv`不做空更新；第90章已完成十章Global Summary压缩节点，第97章不重复重压`memory/global_summary.md`。
 
-`plans/chapter_plan.csv`已将第96章《先别拉下那把闸》设为`completed / pass / ready`。第97章暂定《夜班还没有结束》，为`planned / pending / blocked`；具体事件尚未成为Canon。
+`plans/chapter_plan.csv`已将第97章《夜班还没有结束》设为`completed / pass / ready`。第98章暂定《这棵树算谁的》，为`planned / pending / blocked`，只允许继续核`SQ-042`长期管养责任链。
 
 ## Publish Gate
 **PASS**
@@ -150,12 +158,12 @@ Reader/Revision/QA阶段另外读取：
 - Reader Gate：PASS。
 - Continuity / Evidence / Institution / Style / Meaningful State Change QA：PASS。
 - Memory Updater：PASS。
-- `chapters/ready/0096.md`: `status: ready / qa: pass / publish_mode: ready`
-- ready_blob_sha: `897fb40e5b42ec858827327b69f3cc857cfd1c95`
-- `chapters/draft/0096.md`已在进入ready后清除。
-- 发布门只推进第96章；第97章仍为计划状态，没有正文。
+- `chapters/ready/0097.md`: `status: ready / qa: pass / publish_mode: ready`
+- ready_blob_sha: `44970d9af3d42d724f62e1d4cbdb81bbade7a7f5`
+- `chapters/draft/0097.md`已在进入ready后清除。
+- 发布门只推进第97章；第98章仍为计划状态，没有正文。
 - 本轮没有新增、覆盖、删除或修改`chapters/published/`正文。
 - 未自动发布到番茄。
 
 ## Final Result
-**PASS — Chapter 96 is Ready; ARC-013 closes on a valid maintenance operation paused before it could create a service failure, with ordinary post-test mode-restoration omission documented and a new pre-execution safety/evidence rule established.**
+**PASS — Chapter 97 is Ready; the immediate tree-fall hazard is resolved, while SQ-042 long-term maintenance responsibility is kept as a narrow ordinary responsibility-chain check rather than being inflated into an anomaly.**
