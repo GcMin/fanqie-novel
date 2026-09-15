@@ -2,7 +2,7 @@ schema_version: 1
 current_chapter: 110
 current_source_sha: 41cc85e52ee6f58a21ad37237c8139b5d3233d60
 current_review_path: reader_reviews/0110_41cc85e5.md
-stage: qa_pending
+stage: complete
 safe_mode: false
 retry_cycles: 0
 rounds:
@@ -10,9 +10,9 @@ rounds:
   full_rewrite: 0
   replan_rewrite: 0
   reviews_this_cycle: 2
-last_action: reader_gate_passed
-last_action_at: 2026-09-15T23:02:00Z
+last_action: publish_gate_passed
+last_action_at: 2026-09-15T23:18:00Z
 last_result_sha: 41cc85e52ee6f58a21ad37237c8139b5d3233d60
 last_failure_reason: null
 next_retry_after: null
-publish_gate_passed: false
+publish_gate_passed: true
