@@ -1,8 +1,8 @@
 schema_version: 1
-current_chapter: 90
-current_source_sha: d9400aedf039cefc648dd5cc60190c86de422f7a
-current_review_path: reader_reviews/0090_d9400aed.md
-stage: complete
+current_chapter: 91
+current_source_sha: c21d521309550b2252f0648a344e51192c858ba4
+current_review_path: reader_reviews/0091_c21d5213.md
+stage: local_revision
 safe_mode: false
 retry_cycles: 0
 rounds:
@@ -10,8 +10,8 @@ rounds:
   full_rewrite: 0
   replan_rewrite: 0
   reviews_this_cycle: 1
-last_action: publish_gate_passed
-last_action_at: 2026-09-15T05:04:00Z
-last_result_sha: d9400aedf039cefc648dd5cc60190c86de422f7a
-last_failure_reason: null
+last_action: reader_gate_failed
+last_action_at: 2026-09-15T05:50:00Z
+last_result_sha: c21d521309550b2252f0648a344e51192c858ba4
+last_failure_reason: "2 BLOCKER: 创作侧‘上一章’元叙事泄漏；‘前一天’与Day 17 20:34→20:46时间线冲突"
 next_retry_after: null
