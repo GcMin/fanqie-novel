@@ -10,7 +10,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 9,两点钟的楼梯,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F004|F006,3000,pass,published,Reader/QA/Memory已完成
 10,多出来的台阶,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F004|F006,3000,pass,published,Reader/QA/Memory已完成
 11,804门没锁,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F004|F007,3000,pass,published,Reader/QA/Memory已完成
-12,没有人住的房间,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F004|F007,3000,pass,ready,Reader/QA/Memory已完成
+12,没有人住的房间,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F004|F007,3000,pass,published,Reader/QA/Memory已完成
 13,墙上的照片,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F004|F007,3000,pass,ready,Reader/QA/Memory已完成
 14,照片里的永安里,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F004|F007,3000,pass,ready,Reader/QA/Memory已完成
 15,十一年前的照片,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F005|F007,3000,pass,ready,Reader/QA/Memory已完成
