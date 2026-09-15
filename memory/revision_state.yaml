@@ -2,16 +2,16 @@ schema_version: 1
 current_chapter: 95
 current_source_sha: f0254fdf67f828ba6bd117441a20e3f73ded25dc
 current_review_path: reader_reviews/0095_f0254fdf.md
-stage: passed_to_qa
+stage: complete
 safe_mode: false
 retry_cycles: 0
 rounds:
-  local_revision: 0
+  local_revision: 1
   full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 1
-last_action: reader_gate_passed
-last_action_at: 2026-09-15T08:18:00Z
+  reviews_this_cycle: 2
+last_action: publish_gate_passed
+last_action_at: 2026-09-15T08:27:00Z
 last_result_sha: f0254fdf67f828ba6bd117441a20e3f73ded25dc
 last_failure_reason: null
 next_retry_after: null
