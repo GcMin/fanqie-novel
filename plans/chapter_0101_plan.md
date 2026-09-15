@@ -8,7 +8,7 @@
 - arc: ARC-017
 - target_chars: 3000
 - preferred_range: 2600—3400
-- status: active_plan
+- status: completed_plan
 
 ## Planner 目标
 承接第100章Day 19约01:12的安静状态，从一件全新的真实城市服务事件建立事实。避免继续复制“系统报码→逐项检查”或“旧编号→翻档案”的结构，本章改为正在发生的道路险情，以人员安全、现场空间判断和多单位协同为主要推进方式。普通物理原因足够解释后立即闭环，不人为补异常。
@@ -84,3 +84,11 @@
 - Continuity / Evidence / Institution / Style / Meaningful State Change QA必须PASS。
 - Memory更新到第101章结束状态后才允许进入`chapters/ready/0101.md`。
 - 不自动发布到番茄，不修改`chapters/published/`。
+
+## 实际执行结果
+- Writer正文有效字符：2670，位于2600—3400优选区间。
+- Reader Review：0 BLOCKER / 0 MAJOR / 2 MINOR，recommendation=`keep`，required_action=`none`。
+- 无Revision；两个MINOR不触发自动改稿。
+- Continuity / Evidence / Institution / Style / Meaningful State Change QA：PASS。
+- Memory已同步章节摘要、Current Arc、Character/Knowledge/World State、Timeline T104、当前Arc与第四卷大纲；Relationship与Foreshadowing无状态变化，不做空更新。
+- Publish Gate：PASS；第101章可进入`chapters/ready/0101.md`，不得自动发布番茄。
