@@ -48,7 +48,7 @@ for chapter, (old_title, new_title) in TITLE_MAP.items():
 
     path = READY / f"{chapter:04d}.md"
     text = path.read_text(encoding="utf-8")
-    pattern = rf'(?m)^title:\s*["\']?{re.escape(old_title)}["\']?\s*$'
+    pattern = rf"(?m)^title:\s*[\"']?{re.escape(old_title)}[\"']?\s*$"
     replacement = f'title: "{new_title}"'
     patched, count = re.subn(pattern, replacement, text, count=1)
     if count != 1:
@@ -57,8 +57,8 @@ for chapter, (old_title, new_title) in TITLE_MAP.items():
 
 plan_text = PLAN.read_text(encoding="utf-8")
 for chapter, (old_title, new_title) in TITLE_MAP.items():
-    pattern = rf'(?m)^{chapter},{re.escape(old_title)},'
-    replacement = f'{chapter},{new_title},'
+    pattern = rf"(?m)^{chapter},{re.escape(old_title)},"
+    replacement = f"{chapter},{new_title},"
     plan_text, count = re.subn(pattern, replacement, plan_text, count=1)
     if count != 1:
         raise SystemExit(f"chapter_plan row {chapter}: expected title {old_title!r} not found exactly once")
@@ -67,12 +67,16 @@ PLAN.write_text(plan_text, encoding="utf-8", newline="\n")
 # Final gate: every publishable chapter title in ready/ must contain at least five non-whitespace chars.
 violations = []
 for path in sorted(READY.glob("[0-9][0-9][0-9][0-9].md")):
-    head = path.read_text(encoding="utf-8").split("---", 2)[1]
-    match = re.search(r'(?m)^title:\s*["\']?(.*?)["\']?\s*$', head)
+    parts = path.read_text(encoding="utf-8").split("---", 2)
+    if len(parts) < 3:
+        violations.append((path.name, "<missing frontmatter>"))
+        continue
+    head = parts[1]
+    match = re.search(r"(?m)^title:\s*[\"']?(.*?)[\"']?\s*$", head)
     if not match:
         violations.append((path.name, "<missing title>"))
         continue
-    title = match.group(1).strip().strip('"\'')
+    title = match.group(1).strip().strip("\"'")
     if nonblank_len(title) < 5:
         violations.append((path.name, title))
 
