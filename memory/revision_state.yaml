@@ -2,16 +2,17 @@ schema_version: 1
 current_chapter: 98
 current_source_sha: 7caf75d4d4e1c514445ca7d09e9f1ddd6df09b36
 current_review_path: reader_reviews/0098_7caf75d4.md
-stage: passed_to_qa
+stage: complete
 safe_mode: false
 retry_cycles: 0
 rounds:
-  local_revision: 0
+  local_revision: 1
   full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 1
-last_action: reader_gate_passed
-last_action_at: 2026-09-15T10:49:10Z
+  reviews_this_cycle: 2
+last_action: publish_gate_passed
+last_action_at: 2026-09-15T10:52:00Z
 last_result_sha: 7caf75d4d4e1c514445ca7d09e9f1ddd6df09b36
 last_failure_reason: null
 next_retry_after: null
+publish_gate_passed: true
