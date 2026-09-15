@@ -1,17 +1,17 @@
 schema_version: 1
-current_chapter: 88
-current_source_sha: 232b22a88acbb0a282ad59e08f7015537a72dcba
-current_review_path: reader_reviews/0088_232b22a8.md
-stage: complete
+current_chapter: 89
+current_source_sha: 6006b9508c4097d696855cd26ded2dd100009b58
+current_review_path: reader_reviews/0089_6006b950.md
+stage: local_revision
 safe_mode: false
 retry_cycles: 0
 rounds:
-  local_revision: 1
+  local_revision: 0
   full_rewrite: 0
   replan_rewrite: 0
-  reviews_this_cycle: 2
-last_action: publish_gate_passed
-last_action_at: 2026-09-15T03:18:00Z
-last_result_sha: 232b22a88acbb0a282ad59e08f7015537a72dcba
-last_failure_reason: null
+  reviews_this_cycle: 1
+last_action: reader_review_failed
+last_action_at: 2026-09-15T03:51:00Z
+last_result_sha: 6006b9508c4097d696855cd26ded2dd100009b58
+last_failure_reason: "2 BLOCKER: 正文泄漏Day编号与章节编号元叙事"
 next_retry_after: null
