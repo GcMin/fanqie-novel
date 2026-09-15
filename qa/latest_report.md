@@ -1,11 +1,11 @@
 # Latest QA Report
 
 ## Chapter
-- chapter: 99
-- title: 《下一通电话响起》
-- arc: ARC-015《下一通电话响起》
-- reader_source_sha: `cbe3862cad7a4bdf182c0591ec7b0ad7fc678b7d`
-- effective_char_count: 2783
+- chapter: 100
+- title: 《零点后的新来电》
+- arc: ARC-016《零点后的新来电》
+- reader_source_sha: `71680cc280b2a2e46da016fdb922132187c7353c`
+- effective_char_count: approximately 2925
 
 ## Baseline Gate：第1—6章
 **PASS**
@@ -18,109 +18,108 @@
 ## Protocol / Required Reads
 **PASS**
 
-Planner/Writer前重新读取：`AGENTS.md`、`docs/ai_reading_protocol.md`、`config/novel.yaml`、Premise/Main Outline/World/Style、周衡/梁策/夏宁人物卡、第四卷大纲、当前Arc、chapter_plan、Current Arc/Character/Relationship/Knowledge/World Memory、伏笔、最近时间线、0089—0098摘要与0094—0098最近正文。
+Planner/Writer前重新读取：`AGENTS.md`、`docs/ai_reading_protocol.md`、`config/novel.yaml`、Premise/Main Outline/World/Style、周衡人物卡及当前角色/知识状态、第四卷大纲、当前Arc、chapter_plan、Current Arc/Character/Relationship/Knowledge/World Memory、伏笔、最近时间线、0090—0099摘要与0095—0099最近正文。
 
-Reader/Revision/QA另读取：`docs/reader_agent_protocol.md`、`docs/revision_agent_protocol.md`、`reader_reviews/REVIEW_TEMPLATE.md`、`qa/continuity_rules.md`、`qa/style_rules.md`、`memory/reader_state.yaml`、`memory/revision_state.yaml`。
+Reader/QA另读取：`docs/reader_agent_protocol.md`、`docs/revision_agent_protocol.md`、`reader_reviews/REVIEW_TEMPLATE.md`、`qa/continuity_rules.md`、`qa/style_rules.md`、`memory/reader_state.yaml`、`memory/revision_state.yaml`。
 
 ## Planner / Continuity Precheck
 **PASS**
 
-`plans/chapter_0099_plan.md`在正文前固定：
-- 本章必须从真实新来电建立事实，不继承近期已闭合案件。
-- 新事件为晴岚公寓B座“疑似燃气气味”，但“燃气泄漏”不得在专业检测前写成事实。
-- 人员安全优先：来电人已在室外，行动不便父亲仍在五楼；居民/物业不得自行返回查味、试阀或操作设施。
-- 消防/燃气专业排险必须先于普通异味来源调查。
-- 普通原因足够时在本章收口，不新增F008，不重开永安里身份层，不触碰M004/M005。
-- 标题《下一通电话响起》含7个非空白字符，满足标题发布硬规则。
+`plans/chapter_0100_plan.md`记录本章Planner与Continuity Precheck：
+- 承接第99章末尾真实响铃，但不预设地点、来电人、原因或异常答案。
+- 新事件采用长汀路—明德街十字路口四向全红；先处理现实交通秩序，再核信号设施。
+- “保护运行：全红”和“输出反馈冲突”只能作为系统状态/报码，不得直接写成根因。
+- 中心不得远程强退保护；路面由交警人工控流，专业设备由交通信号维护人员检查和恢复。
+- 普通原因足够时本章收口；不重开永安里身份层，不新增F008，不触碰M004/M005。
+- 标题《零点后的新来电》含7个非空白字符，满足标题硬规则。
 
 ## Writer / Revision Result
 **PASS**
 
-初稿从23:47新来电直接进入，不复述杉桥路或前几章案件。现实处置完成以下变化：
-1. 消防协助行动不便老人从五楼安全撤至室外。
-2. 燃气专业检测未发现可燃气体异常或供气压力异常，疑似燃气风险被专业排除。
-3. 异味定位至地下一层污水提升设备间；当日下午维护记录“检查盖板复位”签认为空。
-4. 排水维保现场确认检查盖板一侧未完全压入密封槽、密封条局部翻边，设备本身运行正常且无污水外溢。
-5. 00:14盖板/密封条复位并恢复机械排风；持续复核后00:22公共区域允许分批返回，老人由物业陪同乘电梯回家。
-6. 00:26按普通维护收尾遗漏闭环；最初“疑似燃气”来电、专业检测、下午空签认与夜间修正分别留痕。
+正文从电话接起直接进入，没有复述晴岚公寓或前几章案件。现实推进完成以下变化：
+1. 四向全红且车辆开始抢行的路口先由交警人工控流，未发生事故。
+2. 中心没有因为平台存在“恢复时段控制”按钮就越权强退保护。
+3. 平台报码只被视为待核提示；专业维护确认控制器仍运行，故障集中到南进口左转灯组接线箱端子连接绝缘异常。
+4. 现场可见端子氧化、箱内凝露和密封胶条老化；灯具本身及主干线路正常。
+5. 维护人员更换受影响端子、清理干燥并恢复密封，线路复测通过后再逐组检查灯色输出与反馈。
+6. 00:59报码消失；交警清空路口，01:01退出全红保护，观察两个完整周期后01:05恢复常态通行。
+7. 工单最终把“故障原因 / 系统响应 / 现实处置”分层记录；ARC-016普通闭环。
 
-首轮Reader发现1个MAJOR：00:22老人返回句“没有再走电梯以外的临时安排”语义矛盾，导致返回方式与风险解除后的设施状态不清。按状态机执行一次Stage A局部修订，仅明确现场确认公共区域/电梯可正常使用、老人由物业陪同乘电梯返回；不处理MINOR，不扩大改稿范围。
+首轮Reader即无BLOCKER/MAJOR，因此根据仓库状态机没有启动Revision。两个MINOR不触发自动改稿。
 
 ## Reader Review / Reader Gate
 **PASS**
 
-- 首轮：`reader_reviews/0099_c8f2b95f.md`
-  - BLOCKER: 0
-  - MAJOR: 1
-  - MINOR: 1
-  - recommendation: `revise`
-  - required_action: `local_revision`
-- Stage A后复审：`reader_reviews/0099_cbe3862c.md`
-  - source_sha: `cbe3862cad7a4bdf182c0591ec7b0ad7fc678b7d`
+- Review：`reader_reviews/0100_71680cc2.md`
+  - source_sha: `71680cc280b2a2e46da016fdb922132187c7353c`
   - BLOCKER: 0
   - MAJOR: 0
   - MINOR: 2
   - recommendation: `keep`
   - required_action: `none`
 - Reader Gate最终PASS。
-- 两个MINOR为“四件事”汇总略偏报告体、章尾电话再次响起与近期承接方式存在轻微重复风险，不触发继续修订。
-- Revision状态：`local_revision: 1 / full_rewrite: 0 / replan_rewrite: 0 / reviews_this_cycle: 2`。
+- MINOR 1：后半段逐组设备测试步骤稍密，但均服务于恢复自动控制前的安全条件，不值得为此自动修订。
+- MINOR 2：安静章尾的连载钩子略弱，但避免近期反复使用“下一通电话又响”作为机械承接。
+- Revision状态：`local_revision: 0 / full_rewrite: 0 / replan_rewrite: 0 / reviews_this_cycle: 1`。
 
 ## Continuity / Evidence QA
 **PASS**
 
-- 时间从Day 18约23:40自然接到23:47，并跨至Day 19 00:29；仍属于第十八次20:00—08:00夜班。
-- 三人仍在夜间综合服务中心，无新增伤势；角色职责和知识连续。
-- 系统中无计划停气/无当晚燃气检修没有被写成“现场一定安全”；专业检测优先。
-- 下午排水维护空签认只提示收尾需核，最终原因由夜间现场检查盖板当前状态支持，没有用空签认直接定责。
-- 原始“疑似燃气”描述没有因最终普通原因被改写成“误报”。
+- 时间从Day 19约00:29自然推进至01:12，仍属于第十八次20:00—08:00夜班。
+- 周衡、梁策、夏宁仍位于夜间综合服务中心且无伤，职责和知识状态连续。
+- 来电人只能证明现场四向全红和车辆秩序变化；没有用其观察判断设备根因。
+- “全红保护”只证明系统进入安全保护，“输出反馈冲突”只证明设备报码；当前原因由专业现场绝缘测试、端子状态和修复后复测支持。
+- 没有把“密封老化/凝露”越级扩成长期故障史，也没有为了证明“为什么偏偏今晚发生”扩查附近路口。
 - 永安里居民身份/实际居住/关系终止时间未重开；F008未新增；M004/M005未提前触碰。
 
 ## Institution / Safety QA
 **PASS**
 
-- 中心没有远程指导居民/物业开关燃气阀、电气设备、井盖或进行专业检测。
-- 消防负责人员安全与现场风险处置，燃气应急负责燃气专业检测，物业/排水维保只在风险排除和现场同意后处理普通排水设备，权限分工合理。
-- 行动不便老人不被要求自行穿过未知风险楼道；返回也在现场确认公共区域和电梯可正常使用后进行。
-- 普通维护原因确认后没有扩大调查、追人或制造二级疑点。
+- 交警负责现实路面人工控流，中心没有自行承担现场交通指挥。
+- 交通信号专业维护人员负责柜体、接线箱、回路测试、端子处理和恢复验证。
+- 普通司机、商户和非专业人员没有被要求触碰信号柜或线路。
+- 故障报码未消失前没有强退保护；恢复自动控制前完成线路复测、逐组输出/反馈验证，并由交警确认路口清空。
+- 后续完整密封检查转白班正常设施维护，没有借普通故障扩大异常调查。
 
 ## Style / Length / Title QA
 **PASS**
 
-- 有效字符2783，位于2600—3400优选区间。
-- 开场直接进入新来电，无上一章总结式开头。
-- 与近期“记录缺项/旧编号搜索”案件相比，本章以现场人员安全和专业检测推进，结构有变化。
-- 人物对白保持区分：梁策短句卡安全边界，夏宁压缩信息并保留审计边界，周衡负责证据层判断。
-- 无章节号、ARC说明、Reader/QA等创作侧元数据泄漏正文。
-- 标题《下一通电话响起》含7个非空白字符；Frontmatter、计划和`plans/chapter_plan.csv`一致。
+- 有效正文约2925字符，位于2600—3400优选区间。
+- 开场直接进入电话，没有上一章总结式开头。
+- 与近期地址/旧编号/档案案件相比，本章以实时交通风险、交警控流和设备安全保护推进，结构有明显变化。
+- 技术细节主要围绕“为什么不能立刻恢复”和“何时允许恢复”展开，未演变为完整设备说明书。
+- 人物对白保持差异：夏宁负责提取和记录事实，梁策短句卡现实处置边界，周衡负责证据层拆分。
+- 无Reader/QA/Memory、章节规划等创作侧元数据泄漏正文。
+- 标题《零点后的新来电》含7个非空白字符；Frontmatter与`plans/chapter_plan.csv`一致。
 
 ## Meaningful State Change
 **PASS**
 
-1. 行动不便老人从仍在楼内推进为安全撤离并正常返回。
-2. 疑似燃气风险由未知推进为专业检测排除。
-3. 真实异味来源定位为污水提升井维护后的盖板密封复位缺项并完成修正/通风。
-4. ARC-015完成，不建立异常候选。
+1. 路口从四向全红且秩序开始恶化推进为交警人工控流、专业修复并恢复正常配时。
+2. 故障从平台状态/报码推进为现场可验证的端子连接绝缘异常。
+3. 周衡进一步形成“保护状态说明系统做了什么，故障证据说明为什么”的证据边界。
+4. ARC-016完成，不建立异常候选。
 
 ## Memory Updater
 **PASS**
 
 已同步：
-- `memory/chapter_summaries/0099.yaml`
+- `memory/chapter_summaries/0100.yaml`
 - `memory/current_arc.md`
 - `memory/character_state.yaml`
 - `memory/knowledge_state.yaml`
 - `memory/world_state.yaml`
-- `memory/timeline.csv`（新增T102）
+- `memory/timeline.csv`（新增T103）
 - `memory/reader_state.yaml`
 - `memory/revision_state.yaml`
+- `memory/global_summary.md`（第100章十章压缩节点）
 - `outlines/arcs/arc_current.md`
 - `outlines/volume_04.md`
 - `plans/chapter_plan.csv`
 
-本章没有人物关系阶段变化，因此`memory/relationship_state.yaml`不做伪更新时间；没有F003/F007/F008状态变化，因此`memory/foreshadowing.csv`不做空更新；Global Summary上次在第90章压缩，第100章再进入下一个十章压缩节点，本章不重复更新。
+本章没有人物关系阶段变化，因此`memory/relationship_state.yaml`不做伪更新时间；没有F003/F007/F008状态变化，因此`memory/foreshadowing.csv`不做空更新。
 
-`plans/chapter_plan.csv`已将第99章设为`completed / pass / ready`，并新增第100章《零点后的新来电》为`planned / pending / blocked`。第100章标题含7个非空白字符，具体事件事实仍未知。
+`plans/chapter_plan.csv`已将第100章设为`completed / pass / ready`，并新增第101章《凌晨一点以后》为`planned / pending / blocked`。第101章标题含6个非空白字符，具体事件事实仍未知。
 
 ## Publish Gate
 **PASS**
@@ -128,12 +127,12 @@ Reader/Revision/QA另读取：`docs/reader_agent_protocol.md`、`docs/revision_a
 - Reader Gate：PASS。
 - Continuity / Evidence / Institution / Style / Meaningful State Change QA：PASS。
 - Memory Updater：PASS。
-- 第99章标题7个非空白字符，满足标题硬规则。
-- `chapters/ready/0099.md`已创建为`status: ready / qa: pass / publish_mode: ready`。
-- Publish Gate只推进第99章；第100章没有正文。
-- 进入ready后清除`chapters/draft/0099.md`。
+- 第100章标题7个非空白字符，满足标题硬规则。
+- `chapters/ready/0100.md`已创建为`status: ready / qa: pass / publish_mode: ready`。
+- 进入ready后已清除`chapters/draft/0100.md`。
+- Publish Gate只推进第100章；第101章没有正文。
 - 本轮没有新增、覆盖、删除或修改`chapters/published/`正文。
 - 未自动发布到番茄。
 
 ## Final Result
-**PASS — Chapter 99 uses a real suspected-gas safety event to vary the arc structure, clears the actual risk before investigating ordinary maintenance, and closes ARC-015 without manufacturing an anomaly.**
+**PASS — Chapter 100 treats the all-red signal as a real traffic-safety event first, separates fail-safe response from root-cause evidence, closes on an ordinary junction-box fault, and advances no unsupported mainline anomaly.**
