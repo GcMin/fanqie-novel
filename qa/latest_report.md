@@ -1,12 +1,12 @@
 # Latest QA Report
 
 ## Chapter
-- chapter: 93
-- title: 《雨夜里的下一单》
+- chapter: 94
+- title: 《广播箱还通着电》
 - arc: ARC-011《雨夜里的下一单》
-- reader_source_sha: `de529ee9bbecaf1d6e2da1111b6b1c2ee643bb1c`
-- ready_blob_sha: `1772c37ccb9a93525ed60985cfb6cbd79cc01054`
-- effective_char_count: 3125
+- reader_source_sha: `9fde56977b56c7d7e3bbef4ae5cad9a5c7f70077`
+- ready_blob_sha: `0391913a749745f636dd23e0bd411c4ff20c44e8`
+- effective_char_count: 2636
 
 ## Baseline Gate：第1—6章
 **PASS**
@@ -39,10 +39,11 @@ Planner/Writer前重新读取：
 - `memory/world_state.yaml`
 - `memory/foreshadowing.csv`
 - `memory/timeline.csv`
-- 最近章节摘要与最近正文，覆盖第93章所需连续性窗口
+- 最近章节摘要0084—0093与最近正文0089—0093
 
 Reader/Revision/QA阶段另外读取：
 - `docs/reader_agent_protocol.md`
+- `docs/revision_agent_protocol.md`
 - `reader_reviews/REVIEW_TEMPLATE.md`
 - `qa/continuity_rules.md`
 - `qa/style_rules.md`
@@ -52,92 +53,94 @@ Reader/Revision/QA阶段另外读取：
 ## Planner / Continuity Precheck
 **PASS**
 
-`plans/chapter_0093_plan.md`在正文前固定：
-- 从Day 17 21:34真实来电建立地址、诉求和现实风险，不继承已闭合案件作为异常前提。
-- 先确认河岸广播是否对应真实防汛疏散，再处理设备，不让市民为了核实广播靠近河岸或拆设备。
-- 普通设备退网、本地配置、供电重启和资产移交等原因优先。
-- 不重开永安里居民身份层，不新增F008，不触碰M004/M005。
-- 标题《雨夜里的下一单》含7个非空白字符，满足至少5个非空白字符的标题硬规则。
+`plans/chapter_0094_plan.md`在正文前固定：
+- 只处理第93章留下且具有现实维护必要性的三项：两年前改造移交单、公园现行资产明细、`LW-FX-07`配置维护责任。
+- 不重新核水情、不制造第二次误播、不扩查其他广播箱，不把“远程终端表没有旧编号”重新写成设备失踪。
+- 永安里6栋201居民身份/实际居住/关系终止时间继续暂停；不新增F008，不触碰M004/M005。
+- 永久配置动作必须由现行责任方按权限执行，测试保持功放维护静音。
+- 标题《广播箱还通着电》含7个非空白字符，满足至少5个非空白字符的标题硬规则。
 
 ## Writer Result
 **PASS**
 
 最终正文完成以下有效变化：
-1. 21:34柳湾小游园附近来电人报告河岸广播循环播放人员转移提示；中心先核市防汛、柳湾段水位与属地街道，确认没有人员转移指令，水位低于警戒/转移阈值。
-2. 来电人与附近人员被要求留在安全区域、不要向河岸靠近；街道巡查21:43确认三只扬声器确实播音、控制箱`LW-FX-07`带电。
-3. 当前市级防汛远程终端列表没有`LW-FX-07`，但旧资产备注和原维保确认该设备两年前已退出远程平台、保留给公园作本地应急喊话。
-4. 公园弱电回路21:31短时电压波动；授权维保21:58开箱后确认控制器“上电启动→网络不可用→启动默认应急音频03”，03为三年前遗留的旧转移语音。
-5. 22:02授权维保切维护静音，错误广播停止；无远程或人工播放命令。22:11确认未再次启动、步道无积水、围观人员已散。
-6. 直接触发按“供电波动重启 + 退网控制器旧本地默认音频”普通解释；只因永久清理旧音频存在现实维护必要性，保留改造移交单、公园资产明细、配置维护责任三项正常核验，不建立异常候选。
+1. Day 17 22:13—22:18只留下三项正常续办，不留人守箱、不扩查其他设备。
+2. Day 18白班材料确认`LW-FX-07`两年前注销市级远程终端身份后，控制箱、功放与三只扬声器作为“柳湾小游园本地应急广播A组”完整移交公园，旧编号与现行资产组号存在明确映射。
+3. 公园现行总账按整组登记“应急广播一组/扬声器三只”，解释旧控制箱编号无法直接检索；没有资产失踪或责任空档。
+4. 当前弱电维保合同明确：配置维护由现维保执行，但播音逻辑、自动触发和预置内容永久变更必须由公园设施资产责任人发正式工单。
+5. 20:27后正式工单先备份配置和音频清单，再取消默认应急音频03与上电/网络不可用状态的自动播放关联；20:35功放维护静音下重启只进入本地待机，没有再次调用03。
+6. 20:41恢复本地正常待命，20:46维护工单回写，20:49中心续办完成；原误播、移交、临时静音和正式配置变更均保留原始审计轨迹。
+7. ARC-011按“远程退网后完整移交本地使用 + 现行台账整组登记 + 旧默认配置未同步清理”普通闭环，不建立异常候选。
 
 ## Reader Review / Reader Gate
 **PASS**
-- review: `reader_reviews/0093_de529ee9.md`
-- source_sha: `de529ee9bbecaf1d6e2da1111b6b1c2ee643bb1c`
+- review: `reader_reviews/0094_9fde5697.md`
+- source_sha: `9fde56977b56c7d7e3bbef4ae5cad9a5c7f70077`
 - BLOCKER: 0
 - MAJOR: 0
 - MINOR: 2
 - recommendation: `keep`
 - required_action: `none`
 - 未触发Revision；按仓库硬规则，MINOR默认不得触发自动修订。
-- 两条MINOR仅记录：中后段设备移交/退网/本地配置信息略密；下一章避免退化为连续后台查表。
-- `memory/revision_state.yaml`已同步为第93章`stage: complete / last_action: publish_gate_passed`，本周期0次局部修订、0次整章重写、0次重规划，Reader Review共1次。
+- MINOR仅记录：中段三类材料连续出现时职业信息略密；20:32配置修改动作呈现略省一步，但前后工单目标和重启验证足以形成因果。
+- `memory/revision_state.yaml`已同步为第94章`stage: complete / last_action: publish_gate_passed`，本周期0次局部修订、0次整章重写、0次重规划，Reader Review共1次。
 
 ## Continuity / Evidence QA
 **PASS**
 
-- 时间自第92章Day 17 21:34直接续接至22:11，三人均在中心且无伤，位置和职责连续。
-- 第92章只留下“新来电提示”，第93章的柳湾地址、广播内容、设备编号与原因全部在接听后逐步取得，没有预知未来信息。
-- “无真实人员转移指令”“现场确实播转移语音”“市级终端列表没有该编号”“物理控制箱存在且带电”“设备已退出远程平台但保留本地用途”分别属于不同证据层，可以同时成立，正文没有跨层替代。
-- 供电波动、控制器上电事件、网络不可用、默认音频03、旧设备退网记录形成可审计普通因果链。
+- 时间从第93章Day 17 22:11继续至22:18，再进入Day 18 20:12—20:49；三人位置、伤势和职责连续。
+- `LW-FX-07`延续第93章既有事实：退出的是市级远程平台身份，物理设备仍由公园供电并作本地广播使用；正文没有反向改写为设备曾消失。
+- 改造移交单、现行资产总账、维保合同分别证明历史移交、当前登记和配置权限，正文没有跨层替代。
+- “旧编号搜不到现行总账”由整组登记颗粒度解释；“市级远程终端表仍搜不到”与“本地设备正常在用”可同时成立。
 - 永安里身份/实际居住/关系终止时间没有被重开；F008没有新增；M004/M005没有提前触碰。
 
 ## Institution / Safety QA
 **PASS**
 
-- 来电人被要求留在室内，不靠近河岸录音或查设备；附近人员由巡查劝离河岸。
-- 无权限巡查员没有开控制箱；只有原维保体系中携钥匙和仪表的授权人员现场开箱和切维护静音。
-- 中心没有直接永久修改设备配置；当晚只做故障安全处置，永久清除旧音频等待现行资产/配置责任确认。
-- 防汛值守在确认无疏散任务后仍继续监看水位，没有因为判断设备误播而忽略真实雨情风险。
+- 中心只联动、记录和核结果，不直接修改广播设备配置。
+- 永久变更由公园设施资产责任人发正式工单、当前弱电维保执行，权限链成立。
+- 生产配置变更前先保留配置/音频备份与校验信息，不通过删除历史文件掩盖此前错误。
+- 重启验证期间功放保持维护静音，没有为了验证再次向公众播放错误疏散语音；恢复输出后只使用中性三秒“设备测试”确认扬声器可用。
+- 没有安排其他广播箱断电、重启或无必要现场验证。
 
 ## Style / Length / Title QA
 **PASS**
 
-- 有效字符按章节Frontmatter记录为3125，位于2600—3400优选区间。
-- 无“第93章”“ARC-011”“Reader/QA”等创作侧元数据泄漏进正文。
-- 开场直接进入来电与广播声，不复述第92章安置点案件。
-- 技术信息通过来电人、防汛值守、街道巡查、公园值守与维保人员逐层出现，不靠单段全知说明一次倒完。
-- 周衡负责证据层拆分，夏宁负责调度和记录，梁策负责现场安全/权限边界，对白职责可区分。
-- 标题《雨夜里的下一单》含7个非空白字符；Frontmatter与`plans/chapter_plan.csv`一致，满足新标题规则。
+- 有效字符按Ready Frontmatter记录为2636，位于2600—3400优选区间。
+- 无“第94章”“ARC-011”“Reader/QA”等创作侧元数据泄漏进正文。
+- 开场只用“还剩三行”承接前章，不复述第93章完整误播调查。
+- 材料信息通过三人的查阅、提问和现场维护逐步出现，后半段有具体配置、静音重启和回写动作，没有退化为纯后台报告。
+- 周衡负责判断证据是否足够和停止条件，夏宁负责调度/留痕，梁策负责权限与现场验证边界，对白职责稳定。
+- 标题《广播箱还通着电》含7个非空白字符；Frontmatter与`plans/chapter_plan.csv`一致，满足标题规则。
 
 ## Meaningful State Change
 **PASS**
 
 本章至少完成四项不可删除变化：
-1. 柳湾片区是否真实需要疏散，从未知推进为明确无当前人员转移指令，现实安全行动确定。
-2. 错误广播从持续播放推进为22:02停止，并在22:11确认未复发。
-3. “为什么突然播放”从未知推进为供电波动重启触发旧本地默认音频03的完整普通原因。
-4. 后续从泛化设备疑问收窄为仅三项有现实维护必要的资产/配置责任核验；当前不建立异常候选。
+1. `LW-FX-07`退网后的资产归属从待核推进为明确由公园本地应急广播A组接收。
+2. 旧编号无法检索从疑问推进为现行总账整组登记造成的普通颗粒度差异。
+3. 永久配置责任从待核推进为“公园设施资产责任人发工单 + 当前弱电维保执行”的可审计权限链。
+4. 旧默认应急音频03的自动播放路径从临时静音推进为正式取消并经静音重启验证，ARC-011完整结束。
 
 ## Memory Updater
 **PASS**
 
 已同步：
-- `memory/chapter_summaries/0093.yaml`
+- `memory/chapter_summaries/0094.yaml`
 - `memory/current_arc.md`
 - `memory/character_state.yaml`
 - `memory/knowledge_state.yaml`
 - `memory/world_state.yaml`
-- `memory/timeline.csv`（新增T096）
+- `memory/timeline.csv`（新增T097）
 - `memory/reader_state.yaml`
 - `memory/revision_state.yaml`
 - `outlines/arcs/arc_current.md`
 - `outlines/volume_04.md`
 - `plans/chapter_plan.csv`
 
-本章没有人物关系阶段变化，因此`memory/relationship_state.yaml`不做伪更新时间；没有F003/F007/F008状态变化，因此`memory/foreshadowing.csv`不做空更新；第90章已经完成十章Global Summary压缩节点，第93章不重复重压`memory/global_summary.md`。
+本章没有人物关系阶段变化，因此`memory/relationship_state.yaml`不做伪更新时间；没有F003/F007/F008状态变化，因此`memory/foreshadowing.csv`不做空更新；第90章已完成十章Global Summary压缩节点，第94章不重复重压`memory/global_summary.md`。
 
-`plans/chapter_plan.csv`已将第93章设为`completed / pass / ready`。第94章《广播箱还通着电》为`planned / pending / blocked`，标题含7个非空白字符。
+`plans/chapter_plan.csv`已将第94章设为`completed / pass / ready`。第95章《桥下那张送药单》为`planned / pending / blocked`，标题含7个非空白字符；该入口属于未来计划，尚未写入正文Canon。
 
 ## Publish Gate
 **PASS**
@@ -145,12 +148,11 @@ Reader/Revision/QA阶段另外读取：
 - Reader Gate：PASS。
 - Continuity / Evidence / Institution / Style / Meaningful State Change QA：PASS。
 - Memory Updater：PASS。
-- `chapters/ready/0093.md`: `status: ready / qa: pass / publish_mode: ready`
-- ready_blob_sha: `1772c37ccb9a93525ed60985cfb6cbd79cc01054`
-- `chapters/draft/0093.md`已在Ready创建成功后删除，Draft目录恢复为仅模板和README。
-- 发布门只推进第93章；第94章仍为计划状态，没有正文。
+- `chapters/ready/0094.md`: `status: ready / qa: pass / publish_mode: ready`
+- ready_blob_sha: `0391913a749745f636dd23e0bd411c4ff20c44e8`
+- 发布门只推进第94章；第95章仍为计划状态，没有正文。
 - 本轮没有新增、覆盖、删除或修改`chapters/published/`正文。
 - 未自动发布到番茄。
 
 ## Final Result
-**PASS — Chapter 93 is Ready; the false evacuation broadcast is explained by an ordinary reboot + stale local default audio, with only a narrow asset/config-responsibility follow-up left for chapter 94.**
+**PASS — Chapter 94 is Ready; ARC-011 closes on an ordinary transfer/ledger/configuration chain, and the stale evacuation audio can no longer auto-play after reboot.**
