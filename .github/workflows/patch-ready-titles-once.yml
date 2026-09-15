@@ -1,0 +1,37 @@
+name: Patch ready titles once
+
+on:
+  push:
+    branches:
+      - fix/ready-title-min-length
+    paths:
+      - scripts/patch_ready_titles_once.py
+      - .github/workflows/patch-ready-titles-once.yml
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Patch titles and validate
+        run: python scripts/patch_ready_titles_once.py
+      - name: Remove one-shot helper
+        run: |
+          rm scripts/patch_ready_titles_once.py
+          rm .github/workflows/patch-ready-titles-once.yml
+      - name: Commit patch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "fix: expand ready chapter titles"
+          git push
