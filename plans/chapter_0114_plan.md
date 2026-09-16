@@ -8,7 +8,7 @@
 - arc: ARC-026《值班表上没人》
 - target_chars: 3000
 - preferred_range: 2600—3400
-- status: planned
+- status: completed / ready
 
 ## Planner 目标
 承接第113章21:44已经完成的人员脱困与即时安全整改，只核夜保“北排9—20号停用、无人”巡查表的版本来源、下发/交接时间，以及它与市场当月过渡经营清单的关系。
@@ -58,3 +58,32 @@
 
 ## 目标结尾
 Day 21约22:22，错误巡查表的普通形成链已经完整：施工封闭分区表 → 外包交接遗漏过渡经营例外清单 → 夜保模板把“封闭区”压成“停用、无人” → 20:50按表锁门。市场已正式下发修正版与例外清单，夜保确认接收。ARC-026 complete，不建立异常候选；下一章从新的现实服务入口开始。
+
+## 执行结果
+- Writer V1有效正文2809字符，位于2600—3400优选区间。
+- Reader Review #1：`1 BLOCKER / 1 MAJOR / 1 MINOR`，`recommendation=revise`，`required_action=local_revision`。
+- BLOCKER：第113章与本章发生在Day 21同一夜，正文却两次将上一场事件写成“昨晚”，造成硬时间跳跃。
+- MAJOR：正文直接出现`ARC-026`和`F编号`等仓库剧情/Memory标签，属于内部制作层元数据泄漏，不应进入可发布小说正文。
+- Revision严格按状态机只执行一次Stage A：把同夜引用改为“刚才/以前”，移除正文中的ARC/F内部标签并改成角色可自然使用的“青石桥内部核验项”；同时把正文中的`Day 21 20:50`改为“今天20:50”。不改版本链、人物选择、整改结果或下一章边界。
+- 修订后有效正文2799字符，仍位于优选区间。
+- Reader Review #2：`0 BLOCKER / 0 MAJOR / 1 MINOR`，`recommendation=keep`，`required_action=none`，Reader Gate PASS。
+- 唯一MINOR为22:07四个日期/时点拆成五行记录，审计感略强，但两条9月3日记录分别承担交接映射与模板生成因果，不触发继续修订。
+- Continuity QA PASS：第113章21:44→本章21:48—22:24连续；三人位置、身体与知识边界一致；同夜误写已修复。
+- Institution / Privacy QA PASS：只核表单版本、交接附件、模板映射和接收归档；不查商户身份证、住址、产权、户籍，不追具体交接经办人的私人动机。
+- Evidence QA PASS：源分区表、V4例外清单、市场交接目录、模板规则、夜保接收归档、旧QSB-YB-0903和修正版接收确认分别留痕，不互相覆盖。
+- Style QA PASS：Stage A后无ARC/F内部元数据、无同夜时间错位、无大段复述或强行异常总结；有效正文2799字符。
+- Meaningful State Change PASS：错误表形成链查明；修正版+V4例外清单由夜保确认接收；ARC-026普通完成三项均成立。
+- Memory已同步至第114章结束：章节摘要、Current Arc、Character/Knowledge/World State、Timeline T117、第五卷和当前剧情弧已更新；Relationship State与Foreshadowing无阶段/条目变化，不做空更新。
+- `plans/chapter_plan.csv`应将第114章设为`completed / pass / ready`，并仅建立第115章《下一张夜间工单》的`planned / pending / blocked`入口；不预造下一事件。
+
+## Publish Gate
+PASS。
+
+- 最终Reader source SHA：`0260dd57eac7c4dbbeb9d18214b6479ec6ed8eee`。
+- 标题含7个非空白字符，满足Ready硬规则。
+- 最终有效正文2799字符，位于优选区间。
+- 最新Reader Review为0 BLOCKER / 0 MAJOR。
+- Continuity / Institution / Evidence / Style / Meaningful State Change QA均通过。
+- Memory、第五卷、当前Arc已同步；chapter_plan在本轮完成同步。
+- 最终正文进入`chapters/ready/0114.md`后删除对应Draft。
+- 不自动发布到番茄；不新增、覆盖或删除`chapters/published/`；不修改已发布Canon。
