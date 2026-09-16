@@ -8,7 +8,7 @@
 - arc: ARC-025
 - target_chars: 3000
 - preferred_range: 2600—3400
-- status: planned / writing
+- status: completed / ready
 
 ## Planner 目标
 承接第111章已经关闭的“2018项目拆除边界”问题。本章只核当年明确保留使用的31、33、35、37号在2018以后是否存在正常的标准地址停用、并号、改址或后续更新记录。
@@ -53,3 +53,27 @@
 - 不把院落级“河湾路178号院”推成陶女士个人住址证明。
 - 不把旧称继续使用写成记忆异常或F008。
 - 不预造第113章具体事件、地址或异常结论。
+
+## 执行结果
+- Writer V1有效正文2859字符，位于2600—3400优选区间。
+- Reader Review #1：`0 BLOCKER / 1 MAJOR / 1 MINOR`，`recommendation=revise`，`required_action=local_revision`。
+- 唯一MAJOR位于20:56—21:03收束段：先用“三个系统各写自己负责的一段”抽象总结，再以2018/2019/Day21/HWX-17四段事实重复总结，出现明显调查报告腔和AI式双重总结。
+- Revision按状态机只执行一次Stage A：删除重复抽象解释与第二轮事实清单，保留夏宁实际更新F009状态、2019批次/后继对象和HWX-17既有结论，不修改核心事件或证据。
+- 修订后有效正文2642字符，仍位于优选区间。
+- Reader Review #2：`0 BLOCKER / 0 MAJOR / 1 MINOR`，`recommendation=keep`，`required_action=none`，Reader Gate PASS。
+- 唯一MINOR为20:36—20:47地址字段和编号信息密度偏高，但均承担证明链功能，不触发继续修订。
+- Continuity / Evidence / Institution / Style / Meaningful State Change QA均通过。
+- Memory已同步至第112章结束状态：章节摘要、Current Arc、Character/Knowledge/World State、Timeline T115、F009均更新；Relationship State无关系阶段变化，不做空更新。
+- 第五卷和当前剧情弧已同步：ARC-025 complete，F009 resolved；第113章只能从21:06新公共线路来电重新建立下一弧。
+- `plans/chapter_plan.csv`已将第112章设为`completed / pass / ready`，并只建立第113章《下一通电话之后》的`planned / pending / blocked`入口，不预造具体事件答案。
+
+## Publish Gate
+PASS。
+
+- 最终Reader source SHA：`27df816fed4e54a5a7b743b23d24038a54d791a5`。
+- 标题含8个非空白字符，满足Ready硬规则。
+- 最终有效正文2642字符，位于优选区间。
+- 最新Reader Review为0 BLOCKER / 0 MAJOR。
+- QA、Memory、卷/弧与计划状态均已同步。
+- 最终正文已进入`chapters/ready/0112.md`，对应Draft已删除。
+- 不自动发布到番茄；不新增、覆盖或删除`chapters/published/`；不修改已发布Canon。
