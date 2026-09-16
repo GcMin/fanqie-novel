@@ -8,7 +8,7 @@
 - arc: ARC-026《值班表上没人》
 - target_chars: 3000
 - preferred_range: 2600—3400
-- status: planned
+- status: completed / ready
 
 ## Planner 目标
 承接第112章21:06已经接通、背景只有卷帘门声的新公共线路来电，从现实服务需求重新建立第五卷下一弧。不得从声音预造事件答案，也不得继承河湾巷/HWX-17/F009作为异常前提。
@@ -61,5 +61,30 @@
 ## 目标结尾
 Day 21约21:44，人员受困已经安全闭环，市场夜间安全措施已经即时纠正；ARC-026 active。周衡内部只保留三层事实：现场有人、当月经营清单有人、夜保巡查表写无人。下一章再核表单版本来源。
 
+## 执行结果
+- Writer V1有效正文2911字符，位于2600—3400优选区间。
+- Reader Review #1：`0 BLOCKER / 1 MAJOR / 1 MINOR`，`recommendation=revise`，`required_action=local_revision`。
+- 唯一MAJOR集中在21:20脱困后和21:31记录冲突后两处作者式意义总结：正文先替读者说明“现实处置只完成一半”，随后又说明“错误记录已经不只是屏幕问题”，重复解释场景已展示的因果，出现调查汇报/章纲式AI腔。
+- Revision严格按状态机只执行一次Stage A：删除第一处结构总结；第二处改为夏宁在巡查表截图旁直接补记“20:50，保安按该表将北排后通道锁闭”，以具体记录承载现实后果。不改救援、表单冲突、市场即时整改、章尾或下一章边界。
+- 修订后有效正文2850字符，仍位于优选区间。
+- Reader Review #2：`0 BLOCKER / 0 MAJOR / 1 MINOR`，`recommendation=keep`，`required_action=none`，Reader Gate PASS。
+- 唯一MINOR为21:31现场/过渡经营/白天搬运三类铺位编号较密，但这些数字承担三层证据交叉功能，不触发继续修订。
+- Continuity QA PASS：时间从第112章21:06同一通电话连续推进至21:44；三人位置/身体/知识边界一致；F009保持resolved；未新增F008；未确认M004/M005。
+- Institution / Safety QA PASS：受困人员不操作卷帘、不钻门缝、不自行拆电机；119负责专业脱困，市场负责门体与经营管理；即时安全整改与版本责任调查分开。
+- Evidence QA PASS：来电人陈述、消防现场、当前经营清单、夜保巡查表及20:50执行事实分别保存，不互相覆盖或跨层推断。
+- Style QA PASS：Stage A后无大段复述、作者式双重总结、万能环境描写或机械悬念句；章尾三行由已建立事实构成。
+- Meaningful State Change PASS：人员安全脱困、夜间锁闭流程即时修正、ARC-026建立三项均成立。
+- Memory已同步至第113章结束：章节摘要、Current Arc、Character/Knowledge/World State、Timeline T116、第五卷和当前剧情弧已更新；Relationship State与Foreshadowing无阶段/条目变化，不做空更新；Global Summary距离第110章刷新仅3章，本章不重复刷新。
+- `plans/chapter_plan.csv`已将第113章设为`completed / pass / ready`，并仅建立第114章《夜保拿到哪张表》的`planned / pending / blocked`入口，不预造版本核验答案。
+
 ## Publish Gate
-待Writer → Reader Review → 必要Revision → QA → Memory Updater完成后判定。
+PASS。
+
+- 最终Reader source SHA：`a8b82c839706d09b61b0829a5004d50aa626111f`。
+- 标题含7个非空白字符，满足Ready硬规则。
+- 最终有效正文2850字符，位于优选区间。
+- 最新Reader Review为0 BLOCKER / 0 MAJOR。
+- Continuity / Institution / Evidence / Style / Meaningful State Change QA均通过。
+- Memory、第五卷、当前Arc及chapter_plan状态已同步。
+- 最终正文已进入`chapters/ready/0113.md`，对应Draft已删除。
+- 不自动发布到番茄；不新增、覆盖或删除`chapters/published/`；不修改已发布Canon。
