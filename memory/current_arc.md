@@ -43,7 +43,7 @@ Day 22 23:16，第二十一次夜班进行中。周衡、梁策已从石榴巷26
 - 夏宁：无伤，在中心在岗；已分别保存受理时在用页、当前停用详情、状态更新时间/交换来源、燃气资产当前地址及现场门牌照片，并保留原始工单地址不被当前灰色状态覆盖。
 
 ## 当前章节门状态
-第122章《刚刚还在的地址》已完成 Planner → Continuity Precheck → Writer → Reader Review → QA。Reader 为0 BLOCKER / 0 MAJOR / 1 MINOR，按协议未触发Revision；Memory Updater正在完成，Publish Gate目标为 `chapters/ready/0122.md`。不得自动发布到番茄，不得写入或覆盖 `chapters/published/`。
+第122章《刚刚还在的地址》已完成 Planner → Continuity Precheck → Writer → Reader Review → QA → Memory Updater → Publish Gate。Reader 为0 BLOCKER / 0 MAJOR / 1 MINOR，按协议未触发Revision；QA pass，Memory pass，正文已进入 `chapters/ready/0122.md`，状态为 ready。不得自动发布到番茄，不得写入或覆盖 `chapters/published/`。
 
 ## 下一章入口
 第123章暂定《二十六号的变更单》，只能读取石榴巷26号22:52停用状态的源变更记录、该夜间交换批次来源及是否存在后继标准地址。优先排除门牌整编、拆分、并号、纠错、批次回放/同步规则等普通原因；普通链完整即关闭F010/ARC-032。不得以22:52时间巧合建立燃气故障与地址停用因果，不查店主身份、产权或沿街住户，不新增F008，不重开F009，不提前确认M004，不触碰M005。
