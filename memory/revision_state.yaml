@@ -1,18 +1,19 @@
-schema_version: 1
-current_chapter: 121
-current_source_sha: 57bab8fa36835a2642bc365d2f624df0750ad369
-current_review_path: reader_reviews/0121_57bab8fa.md
-stage: passed
+schema_version: 2
 safe_mode: false
-retry_cycles: 0
+current_chapter: 122
+current_stage: passed
+current_source_path: chapters/draft/0122.md
+current_source_sha: dea2be8397c251153da00f5833fd2ca292cd8178
+current_review_path: reader_reviews/0122_dea2be83.md
 rounds:
-  local_revision: 0
-  full_rewrite: 0
-  replan_rewrite: 0
   reviews_this_cycle: 1
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
 last_action: qa_and_publish_gate_passed
-last_action_at: '2026-09-17'
-last_result_sha: 57bab8fa36835a2642bc365d2f624df0750ad369
-last_failure_reason: null
-next_retry_after: null
+last_action_at: 2026-09-17T14:02:00Z
+last_error: null
+last_diff_summary: null
+repeated_issue_signatures: []
+qa_gate: pass
 publish_gate_passed: true
