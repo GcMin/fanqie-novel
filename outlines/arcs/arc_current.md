@@ -4,7 +4,7 @@
 - status: active
 - start_chapter: 122
 - end_chapter: null
-- current_chapter: 122（Reader Gate pass / QA pass / Memory updating）
+- current_chapter: 122（Reader Gate pass / QA pass / Memory pass / ready）
 - next_chapter: 123《二十六号的变更单》
 - volume: 5《没有搬走的人》
 - current_time: Day 22 23:16，第二十一次夜班进行中
