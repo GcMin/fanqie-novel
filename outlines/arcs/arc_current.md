@@ -4,7 +4,7 @@
 - status: complete
 - start_chapter: 121
 - end_chapter: 121
-- current_chapter: 121（Reader Gate pass / QA pass，待Publish Gate移动至ready）
+- current_chapter: 121（Reader Gate pass / QA pass / Memory pass / ready）
 - next_chapter: 122（仅新现实服务入口）
 - volume: 5《没有搬走的人》
 - current_time: Day 22 22:25，第二十一次夜班进行中
