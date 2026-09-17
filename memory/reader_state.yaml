@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 123
-last_reviewed_title: 二十六号的变更单
-last_source_path: chapters/draft/0123.md
-last_source_sha: be5ede5c90203e8d7c09b9936001573ac01608b9
-last_review_path: reader_reviews/0123_be5ede5c.md
-last_reviewed_at: 2026-09-17T14:50:00Z
+last_reviewed_chapter: 124
+last_reviewed_title: 续租以后进不了门
+last_source_path: chapters/draft/0124.md
+last_source_sha: ccd8762612937bbdff51f9e5f7753e5e1b5c7003
+last_review_path: reader_reviews/0124_ccd87626.md
+last_reviewed_at: 2026-09-17T15:44:00Z
 recommendation: keep
 required_action: none
 blocker_count: 0
