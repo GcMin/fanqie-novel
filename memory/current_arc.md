@@ -42,7 +42,7 @@ Day 23 21:42，第二十二次夜班进行中。周衡、梁策、夏宁均在�
 - 夏宁：无伤，在中心；已分别保存原始来电、交警监控复现、B7摘要、LOCAL/F-2状态、恢复通车检查单、F-5测试恢复与白班复核任务状态。
 
 ## 当前章节门状态
-第125章《两边都是绿灯》已完成 Planner → Continuity Precheck → Writer → Reader Review。Reader 为0 BLOCKER / 0 MAJOR / 2 MINOR，`keep / none`，按协议不触发Revision；Continuity/Style QA均通过，Memory更新后可通过Publish Gate进入 `chapters/ready/0125.md`。不得自动发布到番茄，不得写入或覆盖 `chapters/published/`。
+第125章《两边都是绿灯》已完整执行 Planner → Continuity Precheck → Writer → Reader Review → Editor/Revision判定 → QA → Memory Updater → Publish Gate。Reader 为0 BLOCKER / 0 MAJOR / 2 MINOR，`keep / none`，按协议未触发Revision；Continuity/Style QA均通过，Memory已更新，正文已进入 `chapters/ready/0125.md`，草稿已移除。不得自动发布到番茄，不得写入或覆盖 `chapters/published/`。
 
 ## 下一章入口
 第126章暂定《下一通夜间电话》。只能从Day23 21:42之后新的现实服务需求建立地点、来电人、风险和责任链；当前不预造事件答案。不得把槐滨路信号冲突、B7/F-2/F-5或ARC-034继承为异常前提。先处理现实安全/基本服务，普通原因充分即收口；不新增F008，不重开F009/F010，不提前确认M004，不触碰M005。
