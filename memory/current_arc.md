@@ -37,7 +37,7 @@ Day 22 20:31，第二十一次夜班开始不久。周衡、梁策、夏宁位�
 - 夏宁：无伤，在岗；已保存原页面、源变更单、迁移说明、设备处置表及说明优化受理状态，不用后续解释覆盖原始记录。
 
 ## 当前章节门状态
-第118章《去年十一月的变更单》已完成 Writer 与 Reader Gate，Reader 为0 BLOCKER / 0 MAJOR / 1 MINOR；Continuity/Style QA通过，Memory Updater正在完成。完成全部Memory同步后才进入 `chapters/ready/0118.md`；不得发布到番茄，不得修改 `chapters/published/`。
+第118章《去年十一月的变更单》已完成 Writer、Reader Gate、Continuity/Style QA、Memory Updater 与 Publish Gate；Reader 为0 BLOCKER / 0 MAJOR / 1 MINOR。正文已进入 `chapters/ready/0118.md`，Draft副本已删除。不得自动发布到番茄，不得修改 `chapters/published/`。
 
 ## 下一章入口
 第119章只能从Day 22 20:31已经响起的新公共线路来电重新建立现实服务需求。不得继承ARC-028、韩素珍、QY-OUT或JH-07-102-44作为新异常前提；先核人员安全、现实服务与责任单位，再决定是否有最小数据核验必要。普通原因足够即正常闭环，不新增F008，不重开F009，不提前确认M004，不触碰M005。
