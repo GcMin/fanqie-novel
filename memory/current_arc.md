@@ -40,7 +40,7 @@ Day 23 20:56，第二十二次夜班进行中。周衡、梁策、夏宁均在�
 - 夏宁：无伤，在中心；已分别保存原始来电、合同状态、门禁终止、同步跳过、临时通行和后续问题单状态，继续区分已提交与已修复。
 
 ## 当前章节门状态
-第124章《续租以后进不了门》已完成 Planner → Continuity Precheck → Writer → Reader Review → QA → Memory Updater。Reader 为0 BLOCKER / 0 MAJOR / 2 MINOR，`keep / none`，按协议未触发Revision；QA pass。待完成本轮Publish Gate后正文进入 `chapters/ready/0124.md`。不得自动发布到番茄，不得写入或覆盖 `chapters/published/`。
+第124章《续租以后进不了门》已完成 Planner → Continuity Precheck → Writer → Reader Review → QA → Memory Updater → Publish Gate。Reader 为0 BLOCKER / 0 MAJOR / 2 MINOR，`keep / none`，按协议未触发Revision；QA pass，Memory pass，Publish Gate pass。正文已进入 `chapters/ready/0124.md`，Draft副本已删除。不得自动发布到番茄，不得写入或覆盖 `chapters/published/`。
 
 ## 下一章入口
 第125章暂定《下一通公共线路》。只能从Day23 20:56之后新的现实服务需求建立地点、来电人、风险和责任链；当前不预造事件答案。不得把清宁苑、许婷、续租门禁时序或ARC-033继承为异常前提。先处理现实安全/基本服务，普通原因充分即收口；不新增F008，不重开F009/F010，不提前确认M004，不触碰M005。
