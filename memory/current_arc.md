@@ -38,7 +38,7 @@ Day 22 20:57，第二十一次夜班进行中。周衡、梁策、夏宁位于�
 - 夏宁：无伤，在岗；已分别保存公众页面、现场通知/电子屏、运营主/补充单、实际停靠和待维护状态，保持“已安排/待处理/已完成”分层。
 
 ## 当前章节门状态
-第119章《取消的站还在等车》已完成 Writer、Reader Gate、Continuity/Style QA 与 Memory Updater；Reader 为0 BLOCKER / 0 MAJOR / 1 MINOR。待完成 Publish Gate 后正文进入 `chapters/ready/0119.md`，Draft副本删除。不得自动发布到番茄，不得修改 `chapters/published/`。
+第119章《取消的站还在等车》已完成 Writer、Reader Gate、Continuity/Style QA、Memory Updater 与 Publish Gate；Reader 为0 BLOCKER / 0 MAJOR / 1 MINOR。正文已进入 `chapters/ready/0119.md`，Draft副本已删除。不得自动发布到番茄，不得修改 `chapters/published/`。
 
 ## 下一章入口
 第120章只能从Day 22 20:57之后新的现实服务需求重新建立事件。不得继承市三院南门、312夜班、ARC-029、ARC-028或其他已闭环普通问题作为新异常前提；先核人员安全、现实服务与责任单位，再决定是否有最小数据核验必要。普通原因足够即正常闭环，不新增F008，不重开F009，不提前确认M004，不触碰M005。
