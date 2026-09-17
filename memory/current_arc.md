@@ -42,7 +42,7 @@ Day 22 22:25，第二十一次夜班进行中。周衡、梁策已从汇景东�
 - 夏宁：无伤，在中心在岗；已分别保存旧商业停车场停用对象、当前CPT-206设施、当前入场记录、东出口故障、设施移交、现场旧标识与公开页待审核状态。
 
 ## 当前章节门状态
-第121章《地下二层出不去》已完成 Planner、Continuity Precheck、Writer、Reader Review 与常规 QA。Reader 为0 BLOCKER / 0 MAJOR / 2 MINOR，按协议不触发Revision；Memory Updater完成后允许通过Publish Gate进入 `chapters/ready/0121.md`。不得发布到番茄，不得写入 `chapters/published/`。
+第121章《地下二层出不去》已完成 Planner → Continuity Precheck → Writer → Reader Review → QA → Memory Updater → Publish Gate。Reader 为0 BLOCKER / 0 MAJOR / 2 MINOR，按协议未触发Revision；正文已进入 `chapters/ready/0121.md`，Draft已清理。不得自动发布到番茄，不得写入或覆盖 `chapters/published/`。
 
 ## 下一章入口
 第122章只能从Day 22 22:25之后新的现实服务需求重新建立事件。不得继承汇景广场旧商业停车场、CPT-206、旧客服牌、公开页历史别名待审核、ARC-031或其他已闭环普通问题作为新异常前提；先核人员安全、现实服务与责任单位，再决定是否有最小数据核验必要。普通原因足够即正常闭环，不新增F008，不重开F009，不提前确认M004，不触碰M005。
