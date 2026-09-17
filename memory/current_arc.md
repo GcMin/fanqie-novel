@@ -40,7 +40,7 @@ Day 23 20:24，第二十二次夜班进行中。周衡、梁策、夏宁均在�
 - 夏宁：无伤，在中心；已分别保存A731昨夜原状态、B184保留关系、源变更记录及夜间交换批次，并接起下一通公共线路。
 
 ## 当前章节门状态
-第123章《二十六号的变更单》已完成 Planner → Continuity Precheck → Writer → Reader Review。Reader 为0 BLOCKER / 0 MAJOR / 2 MINOR，`keep / none`，按协议不触发Revision。Continuity、Style、Meaningful State Change与Memory检查均通过；待本轮Publish Gate完成后进入 `chapters/ready/0123.md`。不得自动发布到番茄，不得写入或覆盖 `chapters/published/`。
+第123章《二十六号的变更单》已完成 Planner → Continuity Precheck → Writer → Reader Review → QA → Memory Updater → Publish Gate。Reader 为0 BLOCKER / 0 MAJOR / 2 MINOR，`keep / none`，按协议未触发Revision；QA pass，Memory pass，正文已进入 `chapters/ready/0123.md`，状态为ready。不得自动发布到番茄，不得写入或覆盖 `chapters/published/`。
 
 ## 下一章入口
 第124章暂定《下一通夜间电话》。只能从Day23 20:24后刚接通的新公共线路建立现实服务需求、地点、来电人和责任链；当前不得预造风险、原因或异常答案。先处理人员安全/基本服务，再判断是否有最小核验必要。普通原因充分即收口；不新增F008，不重开F009/F010，不提前确认M004，不触碰M005。
