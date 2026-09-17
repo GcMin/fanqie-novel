@@ -2,7 +2,7 @@ schema_version: 1
 current_chapter: 117
 current_source_sha: 1c34704ad1dd7177dfc3bee4be5144caf5086271
 current_review_path: reader_reviews/0117_1c34704a.md
-stage: passed_to_qa
+stage: passed
 safe_mode: false
 retry_cycles: 0
 rounds:
@@ -10,9 +10,9 @@ rounds:
   full_rewrite: 0
   replan_rewrite: 0
   reviews_this_cycle: 1
-last_action: reader_gate_passed
+last_action: qa_and_publish_gate_passed
 last_action_at: '2026-09-17'
 last_result_sha: 1c34704ad1dd7177dfc3bee4be5144caf5086271
 last_failure_reason: null
 next_retry_after: null
-publish_gate_passed: false
+publish_gate_passed: true
