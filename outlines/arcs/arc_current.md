@@ -4,7 +4,7 @@
 - status: complete
 - start_chapter: 122
 - end_chapter: 123
-- current_chapter: 123（Reader Gate pass / QA pass / Memory pass / ready pending publish gate）
+- current_chapter: 123（Reader Gate pass / QA pass / Memory pass / ready）
 - next_chapter: 124《下一通夜间电话》
 - volume: 5《没有搬走的人》
 - current_time: Day 23 20:24，第二十二次夜班进行中
