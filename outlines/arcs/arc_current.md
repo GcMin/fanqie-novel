@@ -4,7 +4,7 @@
 - status: complete
 - start_chapter: 124
 - end_chapter: 124
-- current_chapter: 124（Reader Gate pass / QA pass / Memory pass / ready pending Publish Gate）
+- current_chapter: 124（Reader Gate pass / QA pass / Memory pass / Publish Gate pass / ready）
 - next_chapter: 125《下一通公共线路》
 - volume: 5《没有搬走的人》
 - current_time: Day 23 20:56，第二十二次夜班进行中
