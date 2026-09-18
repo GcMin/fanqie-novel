@@ -36,7 +36,7 @@ Day 24 20:26，第二十三次夜班进行中。周衡、梁策、夏宁均在�
 - 夏宁：无伤，在中心；已分别保存错误关联原状态、停用状态、源任务/处理日志和当前临时正确引导，不把复核任务建立写成全批修复完成。
 
 ## 当前章节门状态
-第127章《八号楼以前叫什么》已执行 Planner → Continuity Precheck → Writer → Reader Review → Editor/Revision判定 → QA → Memory Updater。Reader 为0 BLOCKER / 0 MAJOR / 2 MINOR，`keep / none`，按协议未触发Revision；Continuity/Style QA通过。待完成Publish Gate文件移动后进入 `chapters/ready/0127.md`。不得自动发布到番茄，不得写入或覆盖 `chapters/published/`。
+第127章《八号楼以前叫什么》已执行 Planner → Continuity Precheck → Writer → Reader Review → Editor/Revision判定 → QA → Memory Updater → Publish Gate。Reader 为0 BLOCKER / 0 MAJOR / 2 MINOR，`keep / none`，按协议未触发Revision；Continuity/Style QA通过，Memory已同步，Publish Gate已通过，正文已进入 `chapters/ready/0127.md`。不得自动发布到番茄，不得写入或覆盖 `chapters/published/`。
 
 ## 下一章入口
 第128章暂定《下一通夜间电话》。只能从Day24 20:26后刚响起的新公共线路重新建立现实服务需求；不得继承南桐巷144号院、错误历史别名、ARC-035或同批复核任务作为异常前提。先处理人员安全/基本服务，再判断是否存在最小核验必要。普通原因充分即收口；不新增F008，不重开F009/F010，不提前确认M004，不触碰M005。
