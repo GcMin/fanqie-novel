@@ -1,17 +1,17 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 127
+current_chapter: 128
 current_stage: passed
-current_source_path: chapters/draft/0127.md
-current_source_sha: c4a5a70095f3378e5096589f1bcedca8791d82de
-current_review_path: reader_reviews/0127_c4a5a700.md
+current_source_path: chapters/draft/0128.md
+current_source_sha: 7359c19962417aba4cc4dd25d0205e8d01c80bde
+current_review_path: reader_reviews/0128_7359c199.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 last_action: qa_and_publish_gate_passed
-last_action_at: 2026-09-18T09:10:00Z
+last_action_at: 2026-09-21T04:55:00Z
 last_error: null
 last_diff_summary: null
 repeated_issue_signatures: []
