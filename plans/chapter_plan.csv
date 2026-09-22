@@ -22,7 +22,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 21,旧站台还在那里,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
 22,关不掉的工单,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001,3000,pass,ready,Reader/QA/Memory已完成
 23,那张投诉还在,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001,3000,pass,published,Reader/QA/Memory已完成
-24,投诉人：周衡,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F003,3000,pass,ready,Reader/QA/Memory已完成
+24,投诉人：周衡,completed,ARC-001,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F001|F003,3000,pass,published,Reader/QA/Memory已完成
 25,后台留下的日志,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F007,3000,pass,ready,Reader/QA/Memory已完成
 26,库房里的六箱纸档,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F007,3000,pass,ready,Reader/QA/Memory已完成
 27,十一年前的维修记录,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F007,3000,pass,ready,Reader/QA/Memory已完成
