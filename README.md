@@ -50,3 +50,11 @@ QA 通过后移动到 chapters/ready/
 ```
 
 详细规则见 `docs/ai_reading_protocol.md` 与 `docs/publishing_protocol.md`。
+
+## Ubuntu 无头自动发布
+
+已加入 Python + Playwright 发布器与 Docker Compose 配置。支持 Cookie 导入和手机号加短信验证码登录，复用会话，从 GitHub 同步 `chapters/ready/`，核验已发布后归档并回写仓库。服务器已使用 Cookie 登录，每 5 分钟检查登录态并保存更新后的 Cookie。
+
+`.env` 默认 `PUBLISH_INTERVAL_SECONDS=7200`，每两小时按 ready 章节文件与发布记录增量推送，不按 commit 判断；`HEARTBEAT_INTERVAL_SECONDS=300` 独立控制登录心跳。
+
+部署、输入格式和中断处理见 [无头发布器部署文档](docs/headless_publisher.md)。示例配置默认关闭公开发布；服务器首章《夜班》已实际发布、核验完整正文并归档回写 GitHub。后续使用已验证的正文输入和发布弹窗流程。

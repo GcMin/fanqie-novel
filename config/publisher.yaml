@@ -1,0 +1,26 @@
+# 编辑器选择器来自 2026-09-12 真实页面观察。
+# 发布弹窗和列表已通过第 1 章实际提交验证；站点改版时失败关闭。
+ui:
+  number: 'input.serial-input:not([placeholder])'
+  title: 'input[placeholder="请输入标题"]'
+  body: '.syl-editor-container > .syl-editor > .ProseMirror[contenteditable="true"]'
+  rows: 'tbody tr'
+  next_page: '.arco-pagination-item-next, .byte-pagination-next'
+  empty_text: '暂无章节内容'
+  # 每一步必须唯一可见；有额外弹窗即停止，保留截图。
+  publish_steps:
+    - {selector: 'button[data-apm-action="core_chain_long_story_next_confirm"]'}
+    - {role: button, name: 提交, optional: true}
+    - {role: button, name: 仅基础检测, optional: true}
+    # 内容风险检测确认弹窗（部分账号/章节会出现）。
+    - {role: button, name: 确定, optional: true}
+    # 本仓库为 AI 辅助创作，按实际情况声明。
+    - {text: 是}
+    - {role: button, name: 确认发布}
+  published_statuses: [已发布]
+  pending_statuses: [审核中, 待审核, 发布中]
+  rejected_statuses: [审核不通过, 审核未通过, 已驳回]
+  # 登录入口可能随站点调整；只点击匹配且可见的入口。
+  login_labels: [登录, 扫码登录]
+login_timeout_seconds: 300
+verification_timeout_seconds: 90

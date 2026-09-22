@@ -1,0 +1,9 @@
+.git
+.env
+secrets
+runtime
+.venv
+__pycache__
+chapters
+memory
+bible

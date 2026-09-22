@@ -1,0 +1,37 @@
+services:
+  publisher:
+    build: .
+    init: true
+    restart: unless-stopped
+    shm_size: 1gb
+    env_file: .env
+    environment:
+      DATA_DIR: /data
+      TZ: Asia/Shanghai
+      CONFIG_PATH: /app/config/publisher.yaml
+      GITHUB_TOKEN_FILE: /run/secrets/github_token
+    volumes:
+      - publisher-data:/data
+      - ./config/publisher.yaml:/app/config/publisher.yaml:ro
+    secrets:
+      - github_token
+    security_opt:
+      - no-new-privileges:true
+    cap_drop: [ALL]
+    healthcheck:
+      test: [CMD, python, -m, publisher.health]
+      interval: 60s
+      timeout: 5s
+      start_period: 60s
+      retries: 2
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+    command: [watch]
+secrets:
+  github_token:
+    file: ./secrets/github_token
+volumes:
+  publisher-data:
