@@ -26,7 +26,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 25,后台留下的日志,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F007,3000,pass,published,Reader/QA/Memory已完成
 26,库房里的六箱纸档,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F007,3000,pass,published,Reader/QA/Memory已完成
 27,十一年前的维修记录,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F007,3000,pass,published,Reader/QA/Memory已完成
-28,白天的青梧苑,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F007,3000,pass,ready,Reader/QA/Memory已完成
+28,白天的青梧苑,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F007,3000,pass,published,Reader/QA/Memory已完成
 29,老陈记得那栋楼,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F007,3000,pass,ready,Reader/QA/Memory已完成
 30,记忆里的楼,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F007|F008,3000,pass,ready,Reader/QA/Memory已完成
 31,旧回访单上的地址,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F007,3000,pass,ready,Reader/QA/Memory已完成
