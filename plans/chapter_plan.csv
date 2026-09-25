@@ -30,7 +30,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 29,老陈记得那栋楼,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F007,3000,pass,published,Reader/QA/Memory已完成
 30,记忆里的楼,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F007|F008,3000,pass,published,Reader/QA/Memory已完成
 31,旧回访单上的地址,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F007,3000,pass,published,Reader/QA/Memory已完成
-32,夜班旧册里的记录,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+32,夜班旧册里的记录,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
 33,旧地址表里的永安里,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
 34,同步清单缺了一项,completed,ARC-002,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
 35,消失的三十分钟,completed,ARC-003,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
