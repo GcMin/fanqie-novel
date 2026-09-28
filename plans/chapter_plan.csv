@@ -41,7 +41,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 40,失物登记里的名字,completed,ARC-003,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F008,3000,pass,published,Reader/QA/Memory已完成
 41,人找到了以后,completed,ARC-003,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
 42,回来以后少了什么,completed,ARC-003,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F008,3000,pass,published,Reader/QA/Memory已完成
-43,改名前照片,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+43,改名前照片,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
 44,拆牌清单上的地址,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
 45,库房编号对不上,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
 46,夜间报修留下的地址,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,,3000,pass,ready,Reader/QA/Memory已完成
