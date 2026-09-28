@@ -44,7 +44,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 43,改名前照片,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
 44,拆牌清单上的地址,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
 45,库房编号对不上,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
-46,夜间报修留下的地址,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,,3000,pass,ready,Reader/QA/Memory已完成
+46,夜间报修留下的地址,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,,3000,pass,published,Reader/QA/Memory已完成
 47,旧记录究竟指向哪里,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
 48,留在纸上的地址,completed,ARC-004,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
 49,掉下来的门牌,completed,ARC-005,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
