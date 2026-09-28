@@ -1,0 +1,23 @@
+schema_version: 1
+chapter: 130
+title: 停业以后还在卸货
+volume: 5
+arc: ARC-038
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 530e7765f75d6c46dbde7df0f96b8ab4788dc469
+effective_chars: 3244
+timeframe: "Day 24 22:17—23:02"
+summary: >-
+  惠民市场两辆冷链车卸货后被东门拦住。主交易厅20:00起确实暂停营业，但HM-GZ-B2保留东侧冷链区22:00至次日05:00按名单运行。22:00门禁任务只读取场所级暂停状态，未读取改造执行库和安保附件，因此批量禁用常规车辆权限。中心先安全放出受困车辆，再只对名单车辆和东服务门建立临时白名单并验证；第三辆名单车辆随后进入。长期结构化映射和边界变化复核仅建立任务。ARC-038普通闭环，不建立异常候选。
+meaningful_state_changes:
+  - 受困车辆安全离场，名单车辆恢复受控通行。
+  - 场所营业状态与局部保障范围完成分层。
+  - 门禁缺口获得普通系统边界解释。
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: >-
+  Day 24 23:02，主交易厅仍暂停营业，东侧冷链区受控运行。Reader Gate、QA、Memory与Publish Gate均通过。
+next_entry: >-
+  第131章只能从Day 24 23:02之后的新现实服务重新建立事件，不继承惠民市场或本章整改任务。

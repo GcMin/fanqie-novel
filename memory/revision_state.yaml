@@ -1,21 +1,19 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 130
-current_stage: passed_to_qa
+current_stage: passed
 current_source_path: chapters/draft/0130.md
-current_source_sha: a0568f05841b1c27765ed5a48f25371e9e74da44
-current_review_path: reader_reviews/0130_a0568f05.md
+current_source_sha: 530e7765f75d6c46dbde7df0f96b8ab4788dc469
+current_review_path: reader_reviews/0130_530e7765.md
 rounds:
-  reviews_this_cycle: 1
+  reviews_this_cycle: 2
   local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
-retry_cycles: 0
-next_retry_after: null
-last_action: reader_gate_passed
-last_action_at: 2026-09-28T17:18:01Z
+last_action: qa_and_publish_gate_passed
+last_action_at: 2026-09-28T17:03:21Z
 last_error: null
-last_diff_summary: "Reader Gate 通过；正文未修改，仅推进 Revision 状态至 passed_to_qa。"
+last_diff_summary: "正文措辞做最小收紧；剧情、因果与时间线不变。Reader Gate复核为0 BLOCKER/0 MAJOR/1 MINOR。"
 repeated_issue_signatures: []
-qa_gate: pending
-publish_gate_passed: false
+qa_gate: pass
+publish_gate_passed: true
