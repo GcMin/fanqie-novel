@@ -1,9 +1,9 @@
 schema_version: 1
-last_updated_chapter: 128
-current_time: Day 24 21:03
+last_updated_chapter: 129
+current_time: Day 24 22:08
 world:
   anomaly_public_awareness: none
-  current_arc: ARC-036_complete
+  current_arc: ARC-037_complete
 locations:
   night_service_center:
     name: 临江市夜间综合服务中心
@@ -59,3 +59,14 @@ locations:
         Day24 21:03 ARC-036已普通闭环，公共线路暂时安静，下一现实服务尚未建立。
       disposition: >-
         下一章从新的现实服务重新建立责任链。不得继承PL-17、无障碍天桥或本章白班整改项作为异常前提；普通原因优先，不新增F008，不重开F009/F010，不提前确认M004/M005。
+
+# Chapter 129 update
+chapter_129_update:
+  arc: ARC-037_complete
+  location: 望河巷7号楼旧纺织二厂宿舍
+  service_result: 四户恢复供水；今晚旧支管拆除任务撤回待重新确认
+  ordinary_cause: 15:40已下发施工包未被17:18临时留住延期自动失效/重生成，且开工前缺少当日住户状态二次确认
+  boundaries:
+    - 供水恢复不等于腾退取消或永久居住确认
+    - 整改项已建立不等于流程已修复
+    - 不新增F008，不重开F009/F010，不提前确认M004/M005
