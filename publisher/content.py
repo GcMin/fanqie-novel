@@ -101,8 +101,6 @@ def scan(repo: Path) -> list[Chapter]:
     numbers = [c.number for c in chapters]
     if len(set(numbers)) != len(numbers):
         raise Blocked("ready 中存在重复章节号")
-    for chapter in chapters:
-        check_plan(repo, chapter)
     return sorted(chapters, key=lambda c: c.number)
 
 

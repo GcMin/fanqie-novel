@@ -16,7 +16,7 @@ import yaml
 from filelock import FileLock
 
 from .browser import Fanqie
-from .content import Blocked, DailyQuota, archive, scan, validate_title
+from .content import Blocked, DailyQuota, archive, check_plan, scan, validate_title
 from .repository import Repository
 from .session import heartbeat, heartbeat_status, parse_cookies
 from .schedule import Schedule
@@ -58,6 +58,8 @@ async def cycle(args, data, repo, journal, browser_factory):
     repo.sync()
     chapters = scan(repo.root)
     if args.command == "check":
+        for chapter in chapters:
+            check_plan(repo.root, chapter)
         LOG.info("本地校验通过：%s 个 ready 章节；未打开编辑器", len(chapters))
         for chapter in chapters:
             LOG.info("第 %s 章，正文 %s 字符", chapter.number, len(chapter.body))
@@ -81,6 +83,9 @@ async def cycle(args, data, repo, journal, browser_factory):
         await site.login()
         count = 0
         for chapter in chapters:
+            # Check each chapter in sequence. A bad later ready entry must not
+            # prevent earlier, QA-passed chapters from being verified/published.
+            check_plan(repo.root, chapter)
             record = journal.get(chapter.number)
             if record and record["digest"] != chapter.digest:
                 raise Blocked(f"第 {chapter.number} 章发布事务正文发生变化，禁止继续")
@@ -133,6 +138,10 @@ async def cycle(args, data, repo, journal, browser_factory):
                 raise Blocked("缺少远端章节 URL，请人工核对")
             state = await site.verify(chapter, url)
             if state == "pending":
+                # A deferred submission can already exist remotely (for example,
+                # after the quota dialog). Record that verified state so future
+                # cycles only check review status and never try to resubmit.
+                journal.put(chapter, "submitted", url)
                 LOG.info("第 %s 章审核中，保留 ready；下轮只核验，不重发", chapter.number)
                 return
             journal.put(chapter, "archiving", url)
