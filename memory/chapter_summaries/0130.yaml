@@ -1,4 +1,32 @@
 schema_version: 1
 chapter: 130
 title: 停业以后还在卸货
-status: draft
+volume: 5
+arc: ARC-038
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: a0568f05841b1c27765ed5a48f25371e9e74da44
+effective_chars: 3259
+timeframe: "Day 24 22:17—23:02"
+summary: "惠民市场夜间冷链车辆通行问题完成现实处置，并由普通运营状态同步差异解释。"
+meaningful_state_changes:
+  - "受阻车辆恢复正常离场，后续名单车辆恢复受控通行。"
+  - "ARC-038按普通原因闭环，不建立异常候选。"
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "Day 24 23:02，第二十三次夜班继续。"
+next_entry: "第131章从23:02后的独立现实服务重新建立。"
+reader_review:
+  source_sha: a0568f05841b1c27765ed5a48f25371e9e74da44
+  path: reader_reviews/0130_a0568f05.md
+  blocker_count: 0
+  major_count: 0
+  minor_count: 1
+  recommendation: keep
+  required_action: none
+qa_notes:
+  continuity: pass
+  style: pass
+  meaningful_state_change: pass
+char_count: 3259
