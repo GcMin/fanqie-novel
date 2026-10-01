@@ -1,15 +1,13 @@
 schema_version: 1
-last_updated_chapter: 131
-current_time: Day 25 00:01
+last_updated_chapter: 132
+current_time: Day 25 00:46
 world:
   anomaly_public_awareness: none
-  current_arc: ARC-039_complete
+  current_arc: ARC-040_complete
   current_service_case: none
-  next_entry: 第132章从00:01后的独立现实服务开始，主动避开近期“整体状态+局部例外”同构冲突，优先人物或现场执行链。
+  next_entry: 第133章从00:46后的独立现实服务开始，不继承梧柳巷或换车交接整改为异常前提。
 case_state:
-  chapter_129: 施工包生成早于留住延期，四户供水已恢复，施工撤回；普通时序闭环。
-  chapter_130: 门禁任务未读取局部冷链保障范围，车辆恢复受控通行；普通执行边界闭环。
-  chapter_131: 冷凝机减振垫跑位导致低频噪声；主仓封存与冷藏附房保障使用边界有源材料支持；普通闭环。
+  chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
 invariants:
   F008: no_new_sample
   F009: resolved
