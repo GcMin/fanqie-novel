@@ -1,11 +1,11 @@
 schema_version: 1
-last_updated_chapter: 133
-current_time: Day 25 01:38
+last_updated_chapter: 134
+current_time: Day 25 02:52
 world:
   anomaly_public_awareness: none
-  current_arc: ARC-041_complete
+  current_arc: ARC-042_complete
   current_service_case: none
-  next_entry: 第134章从01:38后的独立现实服务开始，不继承澄湖公园或离场确认事项为异常前提。
+  next_entry: 第135章从02:52后的独立现实服务开始，不继承锦西里串水或维修商后续核验为异常前提。
 case_state:
   chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
 invariants:
@@ -16,3 +16,5 @@ invariants:
   M005: untouched
 
   chapter_133: 澄湖公园外包保洁罗姐被锁园内；01:07安全离园。班长“东岸作业结束”被巡逻员理解为人员已离场，且缺少人员级确认；当晚已改为关工作人员通道前明确确认各班组离场/留场人数，正式模板待白班评估。
+
+  chapter_134: 锦西里二期3号楼1单元十一至十三楼冷水异常升温；1101不匹配恒温淋浴阀芯导致热水倒灌冷水支管。隔离1101冷热水后高区冲洗恢复，三层冷水温度正常，无人员烫伤；正确配件及同维修商其他施工点复核待白班。
