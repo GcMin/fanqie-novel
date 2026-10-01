@@ -2,6 +2,10 @@ schema_version: 1
 chapter: 6
 title: 704室的投诉
 arc: ARC-001
+status: published
+qa: pass
+reader_gate: pass
+source_sha: 85fc35bec66fb183bd48bcd62a0719fcdd8ea45f
 summary: >-
   周衡按普通噪音投诉流程在704询问刘桂兰。她称自己在此住约12年，近一个月楼上多在午夜后拖动家具，并保留三段近期录音；其中两段成功转给周衡，第三段在13栋内持续发送失败。她还坚持现实中已退休两年的“老陈”前两天仍在楼下一楼看水表。进一步询问后，刘桂兰理所当然地说楼上门牌是804，并称过去见过楼上住户。周衡指出楼梯目前在七楼结束后，她第一次直接看到自己记忆与现实结构冲突，无法解释楼梯何时被“封掉”。头顶随即再次传来拖动声。周衡将下一步处置目标明确为“确认804是否存在”。
 meaningful_changes:
@@ -22,3 +26,18 @@ foreshadowing_touched:
   - F001
   - F006
   - F007
+
+reader_review:
+  source_sha: 85fc35bec66fb183bd48bcd62a0719fcdd8ea45f
+  path: reader_reviews/0006_85fc35be.md
+  blocker_count: 0
+  major_count: 0
+  minor_count: 0
+  recommendation: keep
+  required_action: none
+qa_notes:
+  continuity: pass
+  style: pass
+  meaningful_state_change: pass
+  historical_consistency_audit: pass
+char_count: 2605
