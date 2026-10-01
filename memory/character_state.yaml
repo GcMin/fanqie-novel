@@ -1,14 +1,14 @@
 schema_version: 1
-last_updated_chapter: 133
+last_updated_chapter: 134
 characters:
   zhou_heng:
-    location: Day 25 01:38，中心在岗；ARC-041 complete
+    location: Day 25 02:52，中心在岗；ARC-042 complete
     state: 无伤，正常夜班疲劳；确认本次漏收是临时换车交接语义歧义，不建立异常候选。
   liang_ce:
-    location: Day 25 01:38，中心在岗；ARC-041 complete
+    location: Day 25 02:52，中心在岗；ARC-042 complete
     state: 无伤；坚持先补现实服务，普通原因充分即收口，不把单次漏收扩成全城打卡工程。
   xia_ning:
-    location: Day 25 01:38，中心在岗；ARC-041 complete
+    location: Day 25 02:52，中心在岗；ARC-042 complete
     state: 无伤；已分别记录原车故障、交接原话、备用车执行、补收结果和临时交接要求。
 invariants: F008无新增；F009/F010 resolved；M004/M005不提前确认
 
@@ -16,3 +16,8 @@ chapter_133_notes:
   zhou_heng: 把“作业结束”与“人员离场”拆成不同状态，确认本次是口头交接语义歧义和人员级确认缺失。
   liang_ce: 坚持先开门确保人员安全，再复盘清园；不因巡逻实际走过东岸就认定人员已离场。
   xia_ning: 分别保留班长原话、巡逻时间、罗姐在保洁房处理工具的时间和当晚人员级确认结果；正式模板仍待白班评估。
+
+chapter_134_notes:
+  zhou_heng: 通过物业工程经验参与判断串水方向，但不越权拆检；确认不匹配恒温阀芯足以普通解释。
+  liang_ce: 坚持先隔离风险、逐步缩小范围，不从“白天修过哪户”直接猜故障点。
+  xia_ning: 分别记录住户风险、阀门隔离、末端温度恢复与白班维修商复核状态，不把责任调查延伸为夜间主线。
