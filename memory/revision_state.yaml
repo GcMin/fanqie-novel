@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 134
-current_stage: passed
-current_source_path: chapters/draft/0134.md
-current_source_sha: 31abcc31a1d06c349563da578529076978c84e60
-current_review_path: reader_reviews/0134_31abcc31.md
+current_chapter: 132
+current_stage: passed_to_qa
+current_source_path: chapters/draft/0132.md
+current_source_sha: 385f7dda56d0fdc188f653ec2209a62957dd8b83
+current_review_path: reader_reviews/0132_385f7dda.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: qa_and_publish_gate_passed
-last_action_at: 2026-10-01T09:48:00Z
+last_action: reader_gate_passed
+last_action_at: 2026-10-01T17:08:41Z
 last_error: null
-last_diff_summary: "Reader Gate无BLOCKER/MAJOR；Continuity/Style/Meaningful State Change通过，不触发Revision。"
+last_diff_summary: "Reader Gate无BLOCKER/MAJOR；MINOR 1仅记录，不触发Revision。正文未修改，转入常规QA。"
 repeated_issue_signatures: []
-qa_gate: pass
-publish_gate_passed: true
+qa_gate: pending
+publish_gate_passed: false
