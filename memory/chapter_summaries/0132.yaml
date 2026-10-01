@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 132
+title: 少走的一条巷子
+volume: 5
+arc: ARC-040
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 385f7dda56d0fdc188f653ec2209a62957dd8b83
+effective_chars: 2668
+timeframe: "Day 25 00:08—00:46"
+summary: >-
+  梧柳巷四个垃圾桶漏收。中心先安排小型收运车补收并清理雨水口周边，再核当晚三号线临时换车。原车23:36故障，23:42在石桥口交接；“石桥口后续”被原司机理解为作业顺序、备用司机理解为沿主路向北，导致桥口后的回头段梧柳巷被跳过。00:35现场补收完成。环卫当晚把换车交接改为同时记录最后完成点和下一未完成点，回头段/支巷单列；正式模板待白班评估。ARC-040普通闭环。
+meaningful_state_changes:
+  - 梧柳巷漏收与雨水口周边垃圾已清理。
+  - 夜间换车交接从模糊地点描述推进为明确前后作业点。
+foreshadowing_updates: []
+ending_state: "Day 25 00:46，ARC-040 complete；F008无新增，F009/F010 resolved，M004/M005未触碰。"
+reader_review:
+  path: reader_reviews/0132_385f7dda.md
+  blocker_count: 0
+  major_count: 0
+  minor_count: 1
+  recommendation: keep
