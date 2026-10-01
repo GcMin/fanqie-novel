@@ -1,9 +1,9 @@
 schema_version: 1
-last_updated_chapter: 129
-current_time: Day 24 22:08
+last_updated_chapter: 130
+current_time: Day 24 23:02
 world:
   anomaly_public_awareness: none
-  current_arc: ARC-037_complete
+  current_arc: ARC-038_complete
 locations:
   night_service_center:
     name: 临江市夜间综合服务中心
@@ -69,4 +69,14 @@ chapter_129_update:
   boundaries:
     - 供水恢复不等于腾退取消或永久居住确认
     - 整改项已建立不等于流程已修复
+    - 不新增F008，不重开F009/F010，不提前确认M004/M005
+
+chapter_130_update:
+  arc: ARC-038_complete
+  location: 东沅路惠民农贸市场东门及后场冷链区
+  service_result: 两辆受阻冷链车安全离场；后续名单车辆按临时白名单恢复东服务门受控通行
+  ordinary_cause: 场所级暂停营业状态被门禁夜间任务用于批量禁用，改造项目HM-GZ-B2的局部保留区域/时段及安保附件未结构化映射到门禁权限任务
+  boundaries:
+    - 公众暂停营业仍然正确，不因后场限定运行改成营业中
+    - 临时白名单已验证不等于长期接口已修改
     - 不新增F008，不重开F009/F010，不提前确认M004/M005
