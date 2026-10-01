@@ -2,6 +2,10 @@ schema_version: 1
 chapter: 2
 title: 第一张工单
 arc: ARC-001
+status: published
+qa: pass
+reader_gate: pass
+source_sha: 6e372903ca5c775d0d1e90f683e304627afc7036
 summary: >-
   周衡与夏宁在出发前继续核查“青梧苑13栋704”工单。旧总平面、历史影像和当前地址库均只有12栋，但热线原录音确认投诉人刘桂兰本人自报13栋704，且零点十七分时热线系统曾能选择该标准地址。录音中可听见拖动声，刘桂兰还说“上次也这么说”，但历史工单为空。她二次回拨时提到“老陈今晚没来”。梁策要求把录音和截图保存在本地，并让周衡保管纸质工单。两人随后驱车抵达青梧苑门岗。
 meaningful_changes:
@@ -21,3 +25,19 @@ ending_state: Day 2约00:41，周衡与梁策抵达青梧苑门岗；夏宁留�
 foreshadowing_touched:
   - F001
   - F002
+  - F007
+
+reader_review:
+  source_sha: 6e372903ca5c775d0d1e90f683e304627afc7036
+  path: reader_reviews/0002_6e372903.md
+  blocker_count: 0
+  major_count: 0
+  minor_count: 0
+  recommendation: keep
+  required_action: none
+qa_notes:
+  continuity: pass
+  style: pass
+  meaningful_state_change: pass
+  historical_consistency_audit: pass
+char_count: 3287
