@@ -130,4 +130,5 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 129,名单上已经搬空,completed,ARC-037,恢复望河巷7号楼四户基本供水并核清已腾空施工包与临时留住延期冲突,15:40已下发施工包未被17:18留住延期自动失效且开工前缺少二次确认,四户供水恢复且今晚施工撤回待重新确认,,3000,pass,ready,Reader/QA/Memory已完成；普通版本时序闭环
 
 130,停业以后还在卸货,completed,ARC-038,先解决惠民市场东门冷链车辆受阻并分层核公众停业/后场过渡保障/门禁权限,场所级暂停营业不能替代限定后场运营且临时白名单不能写成长期接口已修复,两辆受阻车安全离场并恢复名单车辆受控通行；22:00门禁批量禁用由未读取HM-GZ-B2局部例外解释,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文3259；Memory/T133已更新；ARC-038普通闭环
-131,下一通夜间电话,planned,ARC-039,从Day24 23:02后的新现实服务重新建立事件,不得继承ARC-038或其整改项为异常前提,待正文推进,,3000,pending,blocked,一次只推进一章
+131,封存仓库里的冷机,completed,ARC-039,先处理南浦路旧粮站持续低频噪声并核主仓封存与冷藏附房保障使用边界,设备无报警不能替代机械检查且整体资产封存不能替代附件中明确排除的附房状态,备用机接替后二号冷机停运观察且居民侧噪声消失；封存附件与设施卡解释附房继续运行,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文2546；低于preferred但高于hard_min；Memory/T134已更新；ARC-039普通闭环
+132,下一通夜间电话,planned,ARC-040,从Day25 00:01后的新现实服务重新建立事件并主动换冲突骨架,不得继承ARC-039或继续使用整体状态加局部例外的同构冲突,待正文推进,,3000,pending,blocked,一次只推进一章
