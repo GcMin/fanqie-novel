@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 131
-current_stage: passed_to_qa
+current_stage: passed
 current_source_path: chapters/draft/0131.md
 current_source_sha: c445e60991261d839d955258624d2736afd78e7b
 current_review_path: reader_reviews/0131_c445e609.md
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: reader_gate_passed
-last_action_at: 2026-10-01T02:39:00Z
+last_action: qa_and_publish_gate_passed
+last_action_at: 2026-10-01T02:44:00Z
 last_error: null
-last_diff_summary: "第131章Reader Gate通过：BLOCKER 0 / MAJOR 0；正文未修改，仅推进Revision状态至passed_to_qa。"
+last_diff_summary: "Reader Gate无BLOCKER/MAJOR，不触发Revision；Continuity/Style/Meaningful State Change通过。"
 repeated_issue_signatures: []
-qa_gate: pending
-publish_gate_passed: false
+qa_gate: pass
+publish_gate_passed: true
