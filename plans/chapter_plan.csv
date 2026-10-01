@@ -62,7 +62,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 61,五十一分的回电,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
 62,后附转报单,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
 63,那晚的交接,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
-64,另一边的记录,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+64,另一边的记录,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
 65,最后一笔记录,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
 66,他为什么没说,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F008,3000,pass,ready,Reader/QA/Memory已完成
 67,旧事只到这里,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F008,3000,pass,ready,Reader/QA/Memory已完成
@@ -128,7 +128,6 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 127,八号楼以前叫什么,completed,ARC-035,只核144号院6/8/10号楼正式编号沿革、老8号楼与现行中楼关系及两年前历史名称兼容映射源任务,普通楼号整理/同名碰撞/批量映射/资料维护原因必须优先且不得扩大到患者身份房产家庭或整院住户,源材料确认6/8/10未正式改号且中楼只是内部资产名；历史别名因旧8号楼缺独立标准对象、候选排序/人工误选及抽样漏检错误关联南桐家园8栋；错误关系20:17停用并临时回指144号院；ARC-035普通闭环,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；有效正文2785；Memory/T130已更新；ARC-035 complete；同批复核任务仅已建立；不建立异常候选；不新增F008；不重开F009/F010；不提前确认M004/M005
 128,轮椅到不了天桥,completed,ARC-036,先解决方女士与坐轮椅母亲的现实无障碍过街并分层核PL-17设备安全停运/公开服务状态/双入口现场提示,设备因联锁故障正确锁闭不能被公开终端“可用”替代且人员通行需求不能越过专业安全条件强开设备,两人20:57经巡查确认的北口地面路线安全到达西侧；东侧终端20:49纠正为故障停运+绕行且双侧提示补齐；PL-17仍待配件复检；ARC-036普通闭环,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；有效正文3221；Memory/T131已更新；ARC-036 complete；整改项仅已建立；不建立异常候选；不新增F008；不重开F009/F010；不提前确认M004/M005
 129,名单上已经搬空,completed,ARC-037,恢复望河巷7号楼四户基本供水并核清已腾空施工包与临时留住延期冲突,15:40已下发施工包未被17:18留住延期自动失效且开工前缺少二次确认,四户供水恢复且今晚施工撤回待重新确认,,3000,pass,ready,Reader/QA/Memory已完成；普通版本时序闭环
-
 130,停业以后还在卸货,completed,ARC-038,先解决惠民市场东门冷链车辆受阻并分层核公众停业/后场过渡保障/门禁权限,场所级暂停营业不能替代限定后场运营且临时白名单不能写成长期接口已修复,两辆受阻车安全离场并恢复名单车辆受控通行；22:00门禁批量禁用由未读取HM-GZ-B2局部例外解释,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文3259；Memory/T133已更新；ARC-038普通闭环
 131,封存仓库里的冷机,completed,ARC-039,先处理南浦路旧粮站持续低频噪声并核主仓封存与冷藏附房保障使用边界,设备无报警不能替代机械检查且整体资产封存不能替代附件中明确排除的附房状态,备用机接替后二号冷机停运观察且居民侧噪声消失；封存附件与设施卡解释附房继续运行,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文2546；低于preferred但高于hard_min；Memory/T134已更新；ARC-039普通闭环
 132,下一通夜间电话,planned,ARC-040,从Day25 00:01后的新现实服务重新建立事件并主动换冲突骨架,不得继承ARC-039或继续使用整体状态加局部例外的同构冲突,待正文推进,,3000,pending,blocked,一次只推进一章
