@@ -2,6 +2,10 @@ schema_version: 1
 chapter: 3
 title: 青梧苑没有十三栋
 arc: ARC-001
+status: published
+qa: pass
+reader_gate: pass
+source_sha: 022ea8224eb169e3ca737f1161ef9bb5a9d6e86e
 summary: >-
   青梧苑门岗王启明确认小区只有12栋，系统也查不到刘桂兰住户记录。他提到工程主管陈德福“老陈”已退休两年，与刘桂兰“老陈今晚没来”的说法冲突。周衡又从12栋长期住户、工单坐标、实体围墙和停车区监控等方面继续核验，所有正常证据都否认13栋。夏宁却发现工单坐标短暂偏移到围墙方向。回拨时，刘桂兰描述12栋西侧存在树间小路、坏路灯和晾衣架；电话里的拖动声随后也在停车区围墙方向现实响起。
 meaningful_changes:
@@ -21,3 +25,18 @@ foreshadowing_touched:
   - F001
   - F002
   - F007
+
+reader_review:
+  source_sha: 022ea8224eb169e3ca737f1161ef9bb5a9d6e86e
+  path: reader_reviews/0003_022ea822.md
+  blocker_count: 0
+  major_count: 0
+  minor_count: 0
+  recommendation: keep
+  required_action: none
+qa_notes:
+  continuity: pass
+  style: pass
+  meaningful_state_change: pass
+  historical_consistency_audit: pass
+char_count: 2893
