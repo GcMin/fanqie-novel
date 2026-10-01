@@ -1,9 +1,9 @@
 schema_version: 1
-last_updated_chapter: 130
+last_updated_chapter: 131
 characters:
   zhou_heng:
     name: 周衡
-    location: Day 24 23:02，临江市夜间综合服务中心，第二十三次夜班在岗；ARC-038 complete
+    location: Day 25 00:01，临江市夜间综合服务中心，第二十三次夜班在岗；ARC-039 complete
     physical_condition:
       injury: none
       fatigue: normal_shift
@@ -28,7 +28,7 @@ characters:
     - M004主动维持/删除因素与M005工单系统来源不得提前确认
   liang_ce:
     name: 梁策
-    location: Day 24 23:02，临江市夜间综合服务中心，第二十三次夜班在岗
+    location: Day 25 00:01，临江市夜间综合服务中心，第二十三次夜班在岗
     physical_condition:
       injury: none
       fatigue: normal_shift
@@ -50,7 +50,7 @@ characters:
     - 不把普通设施故障、提示执行遗漏或服务状态同步问题升级成M004结论
   xia_ning:
     name: 夏宁
-    location: Day 24 23:02，临江市夜间综合服务中心，第二十三次夜班在岗；ARC-038 complete
+    location: Day 25 00:01，临江市夜间综合服务中心，第二十三次夜班在岗；ARC-039 complete
     physical_condition:
       injury: none
       fatigue: normal_shift
@@ -118,3 +118,8 @@ chapter_130_notes:
   zhou_heng: 确认惠民市场公众停业、后场过渡保障单、安保附件与门禁权限任务属于不同状态；普通状态映射缺口足以解释。
   liang_ce: 坚持先恢复车辆安全通行，不因后台状态调查扣留冷链车辆；专业权限由市场责任方执行。
   xia_ning: 分别保留22:00前后车辆权限、HM-GZ-B2、临时白名单和长期整改任务状态，不把临时恢复写成接口已修复。
+
+chapter_131_notes:
+  zhou_heng: 将“封存”拆回具体封存对象边界，确认主仓封存与附房保障使用可普通并存；不追加作者式结论。
+  liang_ce: 坚持设备无报警不等于无机械故障，先由维保处理冷机且不得为降噪直接破坏冷库保障条件。
+  xia_ning: 分别记录噪声处置、二号机停运观察、附房既有使用依据和标识评估状态，不泄露应急物资具体内容。
