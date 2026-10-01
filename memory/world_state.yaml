@@ -1,11 +1,11 @@
 schema_version: 1
-last_updated_chapter: 132
-current_time: Day 25 00:46
+last_updated_chapter: 133
+current_time: Day 25 01:38
 world:
   anomaly_public_awareness: none
-  current_arc: ARC-040_complete
+  current_arc: ARC-041_complete
   current_service_case: none
-  next_entry: 第133章从00:46后的独立现实服务开始，不继承梧柳巷或换车交接整改为异常前提。
+  next_entry: 第134章从01:38后的独立现实服务开始，不继承澄湖公园或离场确认事项为异常前提。
 case_state:
   chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
 invariants:
@@ -14,3 +14,5 @@ invariants:
   F010: resolved
   M004: not_confirmed
   M005: untouched
+
+  chapter_133: 澄湖公园外包保洁罗姐被锁园内；01:07安全离园。班长“东岸作业结束”被巡逻员理解为人员已离场，且缺少人员级确认；当晚已改为关工作人员通道前明确确认各班组离场/留场人数，正式模板待白班评估。
