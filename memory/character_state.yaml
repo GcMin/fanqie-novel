@@ -1,13 +1,13 @@
 schema_version: 1
-last_updated_chapter: 131
+last_updated_chapter: 132
 characters:
   zhou_heng:
-    location: Day 25 00:01，中心在岗；ARC-039 complete
-    state: 无伤，正常夜班疲劳；下一公共线路从独立现实服务开始。
+    location: Day 25 00:46，中心在岗；ARC-040 complete
+    state: 无伤，正常夜班疲劳；确认本次漏收是临时换车交接语义歧义，不建立异常候选。
   liang_ce:
-    location: Day 25 00:01，中心在岗；ARC-039 complete
-    state: 无伤；安全与基本服务优先。
+    location: Day 25 00:46，中心在岗；ARC-040 complete
+    state: 无伤；坚持先补现实服务，普通原因充分即收口，不把单次漏收扩成全城打卡工程。
   xia_ning:
-    location: Day 25 00:01，中心在岗；ARC-039 complete
-    state: 无伤；区分原始状态、纠正、整改与真正修复。
+    location: Day 25 00:46，中心在岗；ARC-040 complete
+    state: 无伤；已分别记录原车故障、交接原话、备用车执行、补收结果和临时交接要求。
 invariants: F008无新增；F009/F010 resolved；M004/M005不提前确认
