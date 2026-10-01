@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 132
+last_updated_chapter: 133
 characters:
   zhou_heng:
     knows:
@@ -17,3 +17,8 @@ shared_invariants:
   - F009/F010 resolved
   - M004未确认
   - M005未触碰
+
+chapter_133_shared_update:
+  - 周衡、梁策、夏宁知道澄湖公园第133章被锁园内事件由“作业结束”被误作“人员已离场”解释，罗姐当时在保洁房处理手推车。
+  - 知道巡逻员实际完成东岸巡查仍不能替代班组人员级离场确认。
+  - 知道当晚临时确认规则已执行，正式模板尚未确认修改；本案不构成F008或M004证据。
