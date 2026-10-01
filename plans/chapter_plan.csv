@@ -9,3 +9,6 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 130,停业以后还在卸货,completed,ARC-038,恢复冷链车辆通行,门禁未读取局部保障范围,车辆恢复受控通行,,3000,pass,ready,普通闭环
 131,封存仓库里的冷机,completed,ARC-039,解决低频噪声,冷机机械故障与封存范围需分层,噪声消失且设备停运观察,,3000,pass,ready,普通闭环
 132,少走的一条巷子,completed,ARC-040,先补收梧柳巷再核换车交接,石桥口后续口头语义歧义导致回头段漏收,四桶及雨水口补收；当晚交接明确最后完成点和下一未完成点,,3000,pass,ready,Reader Gate通过；有效正文2668；Memory/T135已更新；不建立异常候选
+
+133,关门以后还有一个人,completed,ARC-041,先安全放出闭园后被锁在澄湖公园东岸的保洁员再核清园交接,班长说作业结束但巡逻员理解为人员离场且罗姐当时在保洁房处理工具,罗姐01:07安全离园；当晚工作人员通道关闭前改为逐班组明确确认离场或留场人数,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文2563；Memory/T136已更新；ARC-041普通闭环
+134,下一通夜间电话,planned,ARC-042,从Day25 01:38后的新现实服务重新建立事件,不得继承ARC-041或澄湖公园离场确认事项为异常前提,待正文推进,,3000,pending,blocked,一次只推进一章
