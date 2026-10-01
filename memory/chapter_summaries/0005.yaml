@@ -2,6 +2,10 @@ schema_version: 1
 chapter: 5
 title: 十三栋
 arc: ARC-001
+status: published
+qa: pass
+reader_gate: pass
+source_sha: 897dc5f7d63263be1d251cde868f835896ba999c
 summary: >-
   周衡与梁策抵达13栋后，从门禁、电表、抄表通知、物业公告、信报箱和楼内住户等多个细节确认这不是一栋空壳：它有持续使用的水电设施、跨越多年的生活痕迹和互相认识的住户。夏宁则确认固定监控里二人在冬青处消失，定位仍停在停车场。四楼住户自然认识704“刘阿姨”，并称自己已在楼内住六七年。二人登上七楼，确认楼梯和外观都只到七层；在704门口却听见头顶传来撞击与拖动声。刘桂兰随后正常开门，确认自己就是投诉人。
 meaningful_changes:
@@ -20,3 +24,18 @@ ending_state: 周衡与梁策已进入13栋七楼并见到704投诉人刘桂兰�
 foreshadowing_touched:
   - F001
   - F002
+
+reader_review:
+  source_sha: 897dc5f7d63263be1d251cde868f835896ba999c
+  path: reader_reviews/0005_897dc5f7.md
+  blocker_count: 0
+  major_count: 0
+  minor_count: 0
+  recommendation: keep
+  required_action: none
+qa_notes:
+  continuity: pass
+  style: pass
+  meaningful_state_change: pass
+  historical_consistency_audit: pass
+char_count: 2612
