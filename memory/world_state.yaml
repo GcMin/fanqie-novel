@@ -1,9 +1,9 @@
 schema_version: 1
-last_updated_chapter: 130
-current_time: Day 24 23:02
+last_updated_chapter: 131
+current_time: Day 25 00:01
 world:
   anomaly_public_awareness: none
-  current_arc: ARC-038_complete
+  current_arc: ARC-039_complete
 locations:
   night_service_center:
     name: 临江市夜间综合服务中心
@@ -79,4 +79,14 @@ chapter_130_update:
   boundaries:
     - 公众暂停营业仍然正确，不因后场限定运行改成营业中
     - 临时白名单已验证不等于长期接口已修改
+    - 不新增F008，不重开F009/F010，不提前确认M004/M005
+
+chapter_131_update:
+  arc: ARC-039_complete
+  location: 南浦路旧粮站主仓及后侧冷藏附房
+  service_result: 居民侧低频噪声消失；一号备用冷机临时主用，二号机停运观察
+  ordinary_cause: 二号冷凝机减振垫跑位造成机械振动传播；主仓封存与冷藏附房保障使用由既有消防整改移交范围明确分开
+  boundaries:
+    - 主仓仍封存，不因附房运行改成整体在用
+    - 标识范围说明仅待白班评估，不写成已完成
     - 不新增F008，不重开F009/F010，不提前确认M004/M005
