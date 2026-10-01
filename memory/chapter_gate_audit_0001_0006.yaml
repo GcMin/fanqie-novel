@@ -1,0 +1,44 @@
+schema_version: 1
+audit_scope: chapters_0001_0006
+status: reconciled
+chapters:
+  - chapter: 1
+    canonical_state: published
+    qa: pass
+    reader_gate: pass
+    reader_review: reader_reviews/0001_6ee17f7f.md
+  - chapter: 2
+    canonical_state: published
+    qa: pass
+    reader_gate: pass
+    reader_review: reader_reviews/0002_6e372903.md
+    memory_correction:
+      foreshadowing_touched:
+        - F007
+      note: chapter_plan and foreshadowing registry are authoritative for this omitted touch marker
+  - chapter: 3
+    canonical_state: published
+    qa: pass
+    reader_gate: pass
+    reader_review: reader_reviews/0003_022ea822.md
+  - chapter: 4
+    canonical_state: published
+    qa: pass
+    reader_gate: pass
+    reader_review: reader_reviews/0004_55735e81.md
+  - chapter: 5
+    canonical_state: published
+    qa: pass
+    reader_gate: pass
+    reader_review: reader_reviews/0005_897dc5f7.md
+  - chapter: 6
+    canonical_state: published
+    qa: pass
+    reader_gate: pass
+    reader_review: reader_reviews/0006_85fc35be.md
+invariants:
+  draft_copies_present: false
+  ready_copies_present: false
+  published_copies_present: true
+  published_canon_modified: false
+  advance_next_chapter_in_this_run: false
