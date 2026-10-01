@@ -2,6 +2,10 @@ schema_version: 1
 chapter: 4
 title: 多出来的路
 arc: ARC-001
+status: published
+qa: pass
+reader_gate: pass
+source_sha: 55735e81ad0745a8e2d6e218df122f755a677cee
 summary: >-
   周衡与梁策先检查围墙北侧消防门及墙外道路，物业赵全再次否认13栋存在。回到原坐标后，停车区草坪灯数次熄灭，每次亮起时冬青和围墙之间的空间都发生变化，最终出现一条此前不存在的窄路。夏宁从固定监控中只能看到二人站在冬青前，无法看见道路；周衡现场肉眼和手机相机却都能记录它。二人进入后发现定位失真、图片难以发送，并先后见到投诉人描述的坏路灯、梧桐和老式晾衣架。道路尽头出现一栋七层住宅楼，侧牌显示13。
 meaningful_changes:
@@ -19,3 +23,18 @@ ending_state: Day 2约01:07，周衡与梁策站在异常道路尽头，确认�
 foreshadowing_touched:
   - F001
   - F002
+
+reader_review:
+  source_sha: 55735e81ad0745a8e2d6e218df122f755a677cee
+  path: reader_reviews/0004_55735e81.md
+  blocker_count: 0
+  major_count: 0
+  minor_count: 0
+  recommendation: keep
+  required_action: none
+qa_notes:
+  continuity: pass
+  style: pass
+  meaningful_state_change: pass
+  historical_consistency_audit: pass
+char_count: 3047
