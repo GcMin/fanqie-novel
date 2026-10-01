@@ -1,0 +1,44 @@
+schema_version: 1
+chapter: 133
+title: 关门以后还有一个人
+volume: 5
+arc: ARC-041
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 6e7eefba1f644317ec695a140e11a0399cb9bc59
+effective_chars: 2563
+timeframe: "Day 25 00:54—01:38"
+summary: >-
+  Day 25 00:54，澄湖公园外包保洁罗姐来电称自己在闭园后被锁在东岸。中心先确认人身安全、禁止翻门或沿湖边黑路寻找出口，并要求公园夜间值守先派巡逻员返回东服务门。01:05巡逻员到场，01:07使用机械钥匙开门，罗姐安全离园。现实处置完成后再复盘清园：23:28保洁班长在群里发送“东岸落叶及垃圾清完，东岸作业结束”，本意只指工作内容完成；巡逻员将其理解为人员已撤离。23:31罗姐因手推车左轮缠塑料绳返回保洁房处理工具，23:34巡逻员经过东岸主路时她仍在屋内，23:38东服务门关闭。公园值班手册要求外包班组自行确认人员离场，但当晚没有独立的“人员已离场”确认。01:20起公园夜间值守当晚改用人员级确认：关工作人员通道前，各班组必须明确回复人员是否全离场或仍留场人数；白班再评估是否修改正式模板。01:28班长确认罗姐已回宿舍。ARC-041按普通口头交接歧义与人员级确认缺失完整闭环。
+meaningful_state_changes:
+  - 罗姐从闭园后被锁在园内推进为01:07经东服务门安全离园，无伤、无需破门或翻越。
+  - “东岸作业结束”从模糊工作状态推进为明确识别出的语义歧义：班长指工作内容，巡逻员理解为人员状态。
+  - 当晚关工作人员通道前由模糊作业状态改为逐班组明确确认人员离场/留场人数；正式模板仅待白班评估。
+  - ARC-041当章complete；不新增F008，不重开F009/F010，不提前确认M004，不触碰M005。
+knowledge_updates:
+  - 工作内容结束与人员离场属于不同状态，夜间清园不能用“作业结束”替代人员级确认。
+  - 巡逻员实际走过东岸并不等于已确认所有工作人员离场；罗姐当时在保洁房内处理工具解释了现场未见人。
+  - 临时交接规则当晚已执行不等于正式制度已修改。
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: >-
+  Day 25 01:38，第二十三次夜班继续。罗姐已安全离园并返回宿舍；澄湖公园东服务门重新锁闭，当晚工作人员通道关闭前已改用人员级离场确认。ARC-041 complete，不建立异常候选。
+next_entry: >-
+  第134章从Day 25 01:38后的新独立现实服务重新建立事件，不继承澄湖公园或本章清园确认事项为异常前提。继续优先人物/现场执行类因果，不新增F008，不重开F009/F010，不提前确认M004，不触碰M005。
+reader_review:
+  source_sha: 6e7eefba1f644317ec695a140e11a0399cb9bc59
+  path: reader_reviews/0133_6e7eefba.md
+  blocker_count: 0
+  major_count: 0
+  minor_count: 1
+  recommendation: keep
+  required_action: none
+qa_notes:
+  continuity: pass
+  style: pass
+  meaningful_state_change: pass
+  length: pass_within_hard_range
+  length_note: "2563略低于preferred_min_chars=2600但高于hard_min_chars=2300；事件已完整闭环，不为补字扩写。"
+  revision: not_triggered
+char_count: 2563
