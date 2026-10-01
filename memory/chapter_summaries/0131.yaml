@@ -1,0 +1,44 @@
+schema_version: 1
+chapter: 131
+title: 封存仓库里的冷机
+volume: 5
+arc: ARC-039
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: c445e60991261d839d955258624d2736afd78e7b
+effective_chars: 2546
+timeframe: "Day 24 23:11—Day 25 00:01"
+summary: >-
+  Day 24 23:11，南浦路旧粮站附近居民投诉持续低频震动，并质疑已经“封存”的旧粮站为何仍有机器运行。中心先按现实噪声/设备安全处理，不让居民翻墙查看。街道与物资保障值守确认主仓因消防整改封存，但后侧冷藏附房作为应急食品周转库仍按既有安排运行。23:31冷库维保到场，确认二号冷凝机组右后减振垫跑位，机架周期性碰到固定护栏并通过外墙传播低频震动；23:35先启动一号备用机，确认库温稳定后停二号机处理，居民侧噪声随即消失。23:40减振垫复位，二号机继续停运观察，一号机临时主用，食品周转不受影响。现实问题完成后再核场所状态：上月消防整改移交单明确封存对象为一号高库、二号高库和原装卸大厅，后侧冷藏附房因独立门禁/配电被明确排除并维持保障使用；公众资产页和主入口大牌只表达整处资产主状态，没有展示附房例外。夜间只安排后侧附房入口补充“保障物资工作区域，非公众开放”说明，主入口封存范围说明转白班评估。ARC-039按普通机械故障与既有封存范围差异完整闭环。
+meaningful_state_changes:
+  - 持续低频噪声从来源不明推进为二号冷凝机减振垫跑位造成的机械振动传播；备用机接替后二号机停运观察，居民侧噪声消失。
+  - “旧粮站封存却有冷机运行”的表面冲突推进为主仓封存、冷藏附房保障使用的既有分区状态，源移交附件和内部设施卡相互支持。
+  - 后侧附房入口将补充工作区域说明，主入口范围说明仅转白班评估；不把标识处理写成资产状态变化或长期流程已完成。
+  - ARC-039当章complete；不新增F008，不重开F009/F010，不提前确认M004，不触碰M005。
+knowledge_updates:
+  - 主体资产“封存”状态与附属设施按明确排除范围继续保障使用可以同时成立，必须查看封存对象边界而不是只看主状态。
+  - 冷机无高温报警不能替代机械现场检查；设备维修需先保证冷库温度和备用机切换条件。
+  - 公众需要知道安全处置与区域边界，不需要获取应急物资具体内容。
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: >-
+  Day 25 00:01，第二十三次夜班继续。南浦路旧粮站主仓仍封存，冷藏附房由一号机临时主用，二号机停运观察；居民侧低频噪声已消失。ARC-039 complete，不建立异常候选。
+next_entry: >-
+  第132章从Day 25 00:01后的新独立现实服务重新建立事件。避免继续沿用“整体状态+局部例外”的同构冲突，优先切换人物/现场执行或另一类因果结构；不新增F008，不重开F009/F010，不提前确认M004，不触碰M005。
+reader_review:
+  source_sha: c445e60991261d839d955258624d2736afd78e7b
+  path: reader_reviews/0131_c445e609.md
+  blocker_count: 0
+  major_count: 0
+  minor_count: 1
+  recommendation: keep
+  required_action: none
+qa_notes:
+  continuity: pass
+  style: pass
+  meaningful_state_change: pass
+  length: pass_within_hard_range
+  length_note: "2546略低于preferred_min_chars=2600但高于hard_min_chars=2300；事件已自然闭环，不为补足优先区间追加无功能文字。"
+  revision: not_triggered
+char_count: 2546
