@@ -2,6 +2,10 @@ schema_version: 1
 chapter: 1
 title: 夜班
 arc: ARC-001
+status: published
+qa: pass
+reader_gate: pass
+source_sha: 6ee17f7f6f4f8aa83d26af80280dab402a06b990
 summary: >-
   周衡在失去原物业工程工作后，以外包身份进入临江市夜间综合服务中心上第一晚夜班。
   他认识调度员夏宁和资深外勤梁策，并通过工具检查与普通井盖工单建立了基本带教关系。
@@ -23,3 +27,17 @@ ending_state: 周衡与梁策准备离开夜班中心前往青梧苑；夏宁留
 foreshadowing_touched:
   - F001
   - F002
+reader_review:
+  source_sha: 6ee17f7f6f4f8aa83d26af80280dab402a06b990
+  path: reader_reviews/0001_6ee17f7f.md
+  blocker_count: 0
+  major_count: 0
+  minor_count: 0
+  recommendation: keep
+  required_action: none
+qa_notes:
+  continuity: pass
+  style: pass
+  meaningful_state_change: pass
+  historical_consistency_audit: pass
+char_count: 2660
