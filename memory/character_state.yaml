@@ -1,9 +1,9 @@
 schema_version: 1
-last_updated_chapter: 129
+last_updated_chapter: 130
 characters:
   zhou_heng:
     name: 周衡
-    location: Day 24 22:08，临江市夜间综合服务中心，第二十三次夜班在岗；ARC-037 complete
+    location: Day 24 23:02，临江市夜间综合服务中心，第二十三次夜班在岗；ARC-038 complete
     physical_condition:
       injury: none
       fatigue: normal_shift
@@ -28,7 +28,7 @@ characters:
     - M004主动维持/删除因素与M005工单系统来源不得提前确认
   liang_ce:
     name: 梁策
-    location: Day 24 22:08，临江市夜间综合服务中心，第二十三次夜班在岗
+    location: Day 24 23:02，临江市夜间综合服务中心，第二十三次夜班在岗
     physical_condition:
       injury: none
       fatigue: normal_shift
@@ -50,7 +50,7 @@ characters:
     - 不把普通设施故障、提示执行遗漏或服务状态同步问题升级成M004结论
   xia_ning:
     name: 夏宁
-    location: Day 24 22:08，临江市夜间综合服务中心，第二十三次夜班在岗；ARC-037 complete
+    location: Day 24 23:02，临江市夜间综合服务中心，第二十三次夜班在岗；ARC-038 complete
     physical_condition:
       injury: none
       fatigue: normal_shift
@@ -113,3 +113,8 @@ chapter_129_notes:
   zhou_heng: 记录15:40施工包生成与17:18延期审批，确认版本时序普通闭环。
   liang_ce: 坚持现场有人即暂停影响居住条件的施工，字段不替代现实确认。
   xia_ning: 分别保存旧执行包、延期审批、交换范围、供水恢复、任务撤回与整改项状态。
+
+chapter_130_notes:
+  zhou_heng: 确认惠民市场公众停业、后场过渡保障单、安保附件与门禁权限任务属于不同状态；普通状态映射缺口足以解释。
+  liang_ce: 坚持先恢复车辆安全通行，不因后台状态调查扣留冷链车辆；专业权限由市场责任方执行。
+  xia_ning: 分别保留22:00前后车辆权限、HM-GZ-B2、临时白名单和长期整改任务状态，不把临时恢复写成接口已修复。
