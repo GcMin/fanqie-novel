@@ -1,0 +1,43 @@
+schema_version: 1
+chapter: 134
+title: 冷水龙头冒热气
+volume: 5
+arc: ARC-042
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 31abcc31a1d06c349563da578529076978c84e60
+effective_chars: 2656
+timeframe: "Day 25 01:46—02:52"
+summary: >-
+  Day 25 01:46，锦西里二期3号楼1单元居民报告十一至十三楼多户冷水明显升温，存在烫伤风险。中心先要求住户停止反复试水并避免儿童接触，物业工程使用温度工具核验。通过临时关闭高区热水供水，确认热水向冷水侧串入；随后逐层逐户隔离，02:15锁定1101室为串水点。该户白天更换恒温淋浴阀芯，维修人员临时使用了规格接近但长度不足的替代阀芯，导致冷热隔断未压紧。夜间热水循环压力较高时，热水经阀体倒灌到冷水支管并影响十一至十三楼。02:28继续隔离1101冷热水后恢复高区热水总阀，并对三层冷水末端冲洗测温；02:36连续测量恢复正常冷水范围，无人员烫伤。1101淋浴继续停用，正确型号阀芯更换及同维修商当日其他施工点复核转白班；夜间不扩展消费纠纷。ARC-042按普通安装件规格错误和水力串流完整闭环。
+meaningful_state_changes:
+  - 十一至十三楼从冷水异常升温、存在烫伤风险推进为串水点隔离、管网冲洗后恢复正常冷水使用。
+  - 故障范围从整段高区未知推进为1101室恒温淋浴阀体，直接原因锁定为不匹配阀芯造成冷热隔断失效。
+  - 1101错误阀芯保留现场并维持冷热水隔离；正确配件更换与同维修商其他施工点核验仅转白班，不提前写成完成。
+  - ARC-042当章complete；不新增F008，不重开F009/F010，不提前确认M004，不触碰M005。
+knowledge_updates:
+  - 冷水升温不能凭住户感受直接归因供水公司，需通过阀门隔离与温度变化判断串水方向。
+  - 集中热水与生活冷水可能通过住户端损坏/不匹配混水组件形成反向串流并影响同一支区。
+  - 维修商责任与同批施工复核属于白班正常后续，不是夜间继续调查的理由。
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: >-
+  Day 25 02:52，第二十三次夜班继续。锦西里3号楼1单元十一至十三楼冷水温度恢复稳定，无人员烫伤；1101淋浴冷热水仍隔离待正确配件更换。ARC-042 complete，不建立异常候选。
+next_entry: >-
+  第135章从Day 25 02:52后的新独立现实服务重新建立事件，不继承锦西里串水或维修商后续核验为异常前提。普通原因充分即收口；不新增F008，不重开F009/F010，不提前确认M004，不触碰M005。
+reader_review:
+  source_sha: 31abcc31a1d06c349563da578529076978c84e60
+  path: reader_reviews/0134_31abcc31.md
+  blocker_count: 0
+  major_count: 0
+  minor_count: 1
+  recommendation: keep
+  required_action: none
+qa_notes:
+  continuity: pass
+  style: pass
+  meaningful_state_change: pass
+  length: pass
+  revision: not_triggered
+char_count: 2656
