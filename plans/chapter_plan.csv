@@ -11,4 +11,5 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 132,少走的一条巷子,completed,ARC-040,先补收梧柳巷再核换车交接,石桥口后续口头语义歧义导致回头段漏收,四桶及雨水口补收；当晚交接明确最后完成点和下一未完成点,,3000,pass,ready,Reader Gate通过；有效正文2668；Memory/T135已更新；不建立异常候选
 
 133,关门以后还有一个人,completed,ARC-041,先安全放出闭园后被锁在澄湖公园东岸的保洁员再核清园交接,班长说作业结束但巡逻员理解为人员离场且罗姐当时在保洁房处理工具,罗姐01:07安全离园；当晚工作人员通道关闭前改为逐班组明确确认离场或留场人数,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文2563；Memory/T136已更新；ARC-041普通闭环
-134,下一通夜间电话,planned,ARC-042,从Day25 01:38后的新现实服务重新建立事件,不得继承ARC-041或澄湖公园离场确认事项为异常前提,待正文推进,,3000,pending,blocked,一次只推进一章
+134,冷水龙头冒热气,completed,ARC-042,先控制锦西里高区冷水异常升温烫伤风险并逐步定位串水点,住户感觉不能替代阀门隔离与温度验证且不能因白天维修记录直接猜故障户,1101不匹配恒温阀芯被隔离；十一至十三楼冷水恢复正常，无人员烫伤,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文2656；Memory/T137已更新；ARC-042普通闭环
+135,下一通夜间电话,planned,ARC-043,从Day25 02:52后的新现实服务重新建立事件,不得继承ARC-042或锦西里维修商复核事项为异常前提,待正文推进,,3000,pending,blocked,一次只推进一章
