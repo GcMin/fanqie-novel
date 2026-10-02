@@ -1,17 +1,18 @@
 schema_version: 1
-last_updated_chapter: 135
-current_time: Day 25 04:00
+last_updated_chapter: 136
+current_time: Day 25 07:56
 world:
   anomaly_public_awareness: none
-  current_arc: ARC-043_active
+  current_arc: ARC-043_complete
   current_service_case: none
-  next_entry: 第136章只核BL-2024-08状态传播、16:32清单生成规则/上游字段及同批同类记录；普通链完整即关闭F011/ARC-043。
+  next_entry: 第137章从Day26下一次夜班建立独立现实服务；F011保持resolved，M004未确认。
 case_state:
   chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
 invariants:
   F008: no_new_sample
   F009: resolved
   F010: resolved
+  F011: resolved
   M004: not_confirmed
   M005: untouched
 
@@ -20,3 +21,5 @@ invariants:
   chapter_134: 锦西里二期3号楼1单元十一至十三楼冷水异常升温；1101不匹配恒温淋浴阀芯导致热水倒灌冷水支管。隔离1101冷热水后高区冲洗恢复，三层冷水温度正常，无人员烫伤；正确配件及同维修商其他施工点复核待白班。
 
   chapter_135: 白鹭巷27/29/31号门牌被有效夜间待拆任务实际执行；27号原牌已复装、29号重新紧固、31号未动，三处任务暂停复核。当前标准地址在用且街道去年项目调整明确保留，但当日16:32新生成清单仍标建筑已拆除；源生成链待白班核验，F011 active。
+
+  chapter_136: BL-2024-08项目调整未联动门牌资产子表；归档阻塞解除后定时清理读取旧状态并误映射为建筑已拆除。三条资产已改保留在用，三项误拆任务终止；规则整改仅已提交；F011普通闭环。
