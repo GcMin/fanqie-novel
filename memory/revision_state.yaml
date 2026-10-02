@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 136
-current_stage: passed_to_qa
+current_stage: qa_passed_memory_blocked
 current_source_path: chapters/draft/0136.md
 current_source_sha: cfaad6d1ea7201f5143c60b91e5ac7c1e4f2b491
 current_review_path: reader_reviews/0136_cfaad6d1.md
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: reader_gate_passed
+last_action: qa_passed_memory_sync_pending
 last_action_at: 2026-10-02T14:52:00Z
 last_error: null
-last_diff_summary: "局部修订后Reader Gate通过，进入常规QA。"
+last_diff_summary: "Reader Gate与常规QA已通过；foreshadowing/timeline长期Memory写入仍受临时安全检查拦截，Publish Gate保持blocked。"
 repeated_issue_signatures: []
-qa_gate: pending
+qa_gate: pass
 publish_gate_passed: false
