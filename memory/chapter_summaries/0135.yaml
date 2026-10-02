@@ -1,0 +1,50 @@
+schema_version: 1
+chapter: 135
+title: 有人半夜拆门牌
+volume: 5
+arc: ARC-043
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: b74742306c7582f2de89c2a7e85f11305e773b83
+effective_chars: 3314
+timeframe: "Day 25 03:01—04:00"
+summary: >-
+  Day 25 03:01，白鹭巷29号居民来电称市政外包人员正在半夜拆除27、29、31号门牌，施工工单将三处标成“建筑已拆除”。中心先要求居民不要抢工具，联动街道和门牌设施值班冻结三个点位。当前标准地址库显示27/29/31均在用；街道随后找到去年三月项目调整摘要，确认这三处从前年BL-2024-08原“拟腾退整合”方案中改为保留现状、门牌不调整。03:28周衡与梁策到场，确认27号原牌已拆但完整，29号仅松两颗螺丝，31号未动；街道确认当前没有新的腾退或门牌变更决定。03:35责任单位将三块门牌待拆任务转“暂停复核”，允许27号原牌原位复装、29号重新紧固、31号保持原状，03:42完成现实恢复。随后最小追查确认：门牌设施平台17:50导入一份“历史停用门牌资产清理清单”，18:26生成DZ-MP-251002-17现场任务；27/29/31在源清单中均写“建筑已拆除”，来源备注BL-2024-08。该源清单却是当日16:32新生成，而街道项目早已在去年三月正式调整。夜间权限无法查看生成规则与上游字段，因此建立F011窄样本，只核原项目状态为何未被调整单覆盖、16:32清单如何把三处判成已拆除，以及同批次是否还有相同“项目已调整但仍进入待拆”的记录。普通下游漏同步仍是当前优先解释，ARC-043保持active，不确认M004。
+meaningful_state_changes:
+  - 27号已拆门牌原位复装，29号停止拆卸并重新紧固，31号未动；三块门牌的现场待拆任务均转暂停复核。
+  - “居民阻拦施工”的现场冲突推进为责任单位确认当前无新腾退/门牌变更决定，现实标识恢复。
+  - 确认一个前年原项目状态在当日16:32新生成的清理清单中重新表现为“建筑已拆除”，但上游生成规则夜间不可见，形成F011窄待核样本。
+  - ARC-043保持active；普通漏同步优先，不提前确认M004，不触碰M005。
+knowledge_updates:
+  - 当前标准地址在用、街道项目调整单、现场建筑/门牌与门牌设施待拆任务属于不同证据层。
+  - 有效工单被实际执行不等于其源状态正确；现场错误动作恢复后仍需保留原任务链，不得反向覆盖。
+  - F011目前只证明“旧项目状态进入当日新清理清单并触发现实拆牌”，尚不能证明主动删除/维持因素。
+foreshadowing_updates:
+  - F011: active。白鹭巷27/29/31当前标准地址在用、去年项目调整明确保留，但当日16:32新生成的历史停用门牌清单仍将三处标为建筑已拆除并触发夜间拆牌；源生成规则/上游字段待白班最小核验。
+relationship_updates: []
+ending_state: >-
+  Day 25 04:00，第二十三次夜班继续。白鹭巷27/29/31三块门牌均仍在墙上，待拆任务暂停复核。ARC-043 active，F011 active；当前优先假设仍是普通下游状态漏同步。
+next_entry: >-
+  第136章只核BL-2024-08项目调整状态为何没有覆盖门牌设施台账、当日16:32历史停用门牌清单的生成规则/上游字段，以及同批是否有同类型记录。普通链完整即关闭F011/ARC-043；若普通解释不足，也只能保留证据边界，不提前确认M004。不得查居民身份产权，不触碰M005。
+reader_review:
+  first_source_sha: a4c2f8c05df511326d447ee2080ed27d06712efc
+  first_review_path: reader_reviews/0135_a4c2f8c0.md
+  first_blocker_count: 0
+  first_major_count: 1
+  first_minor_count: 1
+  first_required_action: local_revision
+  source_sha: b74742306c7582f2de89c2a7e85f11305e773b83
+  path: reader_reviews/0135_b7474230.md
+  blocker_count: 0
+  major_count: 0
+  minor_count: 1
+  recommendation: keep
+  required_action: none
+qa_notes:
+  continuity: pass
+  style: pass
+  meaningful_state_change: pass
+  length: pass
+  revision: local_revision_completed
+char_count: 3314
