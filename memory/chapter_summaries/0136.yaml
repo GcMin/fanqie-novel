@@ -2,10 +2,10 @@ schema_version: 1
 chapter: 136
 title: 那张清理单从哪来
 arc: ARC-043
-status: ready
+status: draft
 qa: pass
 reader_gate: pass
 source_sha: cfaad6d1ea7201f5143c60b91e5ac7c1e4f2b491
 reader_review: reader_reviews/0136_cfaad6d1.md
-memory_sync: complete
-publish_gate: passed
+memory_sync: pending
+publish_gate: blocked
