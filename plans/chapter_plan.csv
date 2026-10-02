@@ -9,7 +9,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 66,他为什么没说,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F008,3000,pass,published,Reader/QA/Memory已完成
 67,旧事只到这里,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F008,3000,pass,published,Reader/QA/Memory已完成
 68,还在值夜的人,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F008,3000,pass,published,Reader/QA/Memory已完成
-69,盘点回执上的空位,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+69,盘点回执上的空位,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
 129,名单上已经搬空,completed,ARC-037,恢复供水并核旧施工包时序,旧包未随留住延期失效,供水恢复且施工撤回,,3000,pass,ready,普通闭环
 130,停业以后还在卸货,completed,ARC-038,恢复冷链车辆通行,门禁未读取局部保障范围,车辆恢复受控通行,,3000,pass,ready,普通闭环
 131,封存仓库里的冷机,completed,ARC-039,解决低频噪声,冷机机械故障与封存范围需分层,噪声消失且设备停运观察,,3000,pass,ready,普通闭环
