@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 135
-current_stage: passed
-current_source_path: chapters/draft/0135.md
-current_source_sha: b74742306c7582f2de89c2a7e85f11305e773b83
-current_review_path: reader_reviews/0135_b7474230.md
+current_chapter: 136
+current_stage: passed_to_qa
+current_source_path: chapters/draft/0136.md
+current_source_sha: cfaad6d1ea7201f5143c60b91e5ac7c1e4f2b491
+current_review_path: reader_reviews/0136_cfaad6d1.md
 rounds:
-  reviews_this_cycle: 2
+  reviews_this_cycle: 1
   local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: qa_and_publish_gate_passed
-last_action_at: 2026-10-02T14:24:00Z
+last_action: reader_gate_passed
+last_action_at: 2026-10-02T14:52:00Z
 last_error: null
-last_diff_summary: "首轮Reader发现正文泄漏内部F011编号；Stage A局部修订删除内部编号，二次Reader 0 BLOCKER/0 MAJOR/1 MINOR，通过QA与Publish Gate。"
+last_diff_summary: "局部修订后Reader Gate通过，进入常规QA。"
 repeated_issue_signatures: []
-qa_gate: pass
-publish_gate_passed: true
+qa_gate: pending
+publish_gate_passed: false
