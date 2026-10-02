@@ -9,3 +9,11 @@ source_sha: cfaad6d1ea7201f5143c60b91e5ac7c1e4f2b491
 reader_review: reader_reviews/0136_cfaad6d1.md
 memory_sync: pending
 publish_gate: blocked
+memory_completed:
+  character_state: true
+  knowledge_state: true
+  world_state: true
+memory_pending:
+  foreshadowing: true
+  timeline: true
+note: 第136章Reader与QA均通过，但长期Memory尚未完全同步，不能进入ready。
