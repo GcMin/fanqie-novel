@@ -24,7 +24,7 @@ F011已按普通数据链resolved。F008无新增，F009/F010保持resolved；M0
 - 不查询27/29/31居民身份、产权或整条白鹭巷历史。
 
 ## 章节门
-最终Reader Gate为0 BLOCKER / 0 MAJOR / 1 MINOR，recommendation=keep，required_action=none。Continuity QA、Style QA、Meaningful State Change均通过，正文长度在优先区间。
+最终Reader Gate为0 BLOCKER / 0 MAJOR / 1 MINOR，recommendation=keep，required_action=none。Continuity QA、Style QA、Meaningful State Change均通过。部分长期Memory写入本轮暂时受阻，因此Publish Gate未放行，第136章仍保留在draft。
 
 ## 下一章入口
-第137章从Day 26下一次夜班重新建立独立现实服务，不继承白鹭巷门牌、BL-2024-08或本章整改事项作为异常前提。普通原因充分即收口；F008无新增，F009/F010/F011保持resolved，M004仍不得提前确认，M005不得触碰。
+下一轮先完成第136章的Memory同步与Publish Gate，不得直接开始第137章。待第136章进入ready后，第137章再从Day 26下一次夜班重新建立独立现实服务。
