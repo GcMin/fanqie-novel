@@ -10,7 +10,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 67,旧事只到这里,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F008,3000,pass,published,Reader/QA/Memory已完成
 68,还在值夜的人,completed,ARC-006,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003|F008,3000,pass,published,Reader/QA/Memory已完成
 69,盘点回执上的空位,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
-70,旧牌还在不在,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+70,旧牌还在不在,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
 71,物证不是住址,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
 72,六栋的目录,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
 73,普通的一栋楼,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
@@ -76,6 +76,5 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 133,关门以后还有一个人,completed,ARC-041,先安全放出闭园后被锁在澄湖公园东岸的保洁员再核清园交接,班长说作业结束但巡逻员理解为人员离场且罗姐当时在保洁房处理工具,罗姐01:07安全离园；当晚工作人员通道关闭前改为逐班组明确确认离场或留场人数,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文2563；Memory/T136已更新；ARC-041普通闭环
 134,冷水龙头冒热气,completed,ARC-042,先控制锦西里高区冷水异常升温烫伤风险并逐步定位串水点,住户感觉不能替代阀门隔离与温度验证且不能因白天维修记录直接猜故障户,1101不匹配恒温阀芯被隔离；十一至十三楼冷水恢复正常，无人员烫伤,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文2656；Memory/T137已更新；ARC-042普通闭环
 135,有人半夜拆门牌,completed,ARC-043,先冻结白鹭巷27/29/31号夜间拆牌并恢复现实门牌再最小核任务来源,当前标准地址在用和去年项目调整保留与当日新清理清单“建筑已拆除”冲突；普通下游状态漏同步仍需优先核验,27号原牌复装、29号重新紧固、31号未动；F011建立且ARC-043保持active,F011,3000,pass,ready,首轮0 BLOCKER/1 MAJOR/1 MINOR后Stage A删除正文内部F011编号；复审0 BLOCKER/0 MAJOR/1 MINOR；有效正文3314；Memory/T138已更新
-
 136,那张清理单从哪来,completed,ARC-043,只核BL-2024-08调整状态传播与16:32清单生成规则/上游字段并检查同批同类记录,项目主表已调整但门牌资产子表漏取消；归档阻塞解除后定时清理把旧状态映射为建筑已拆除,三条资产改为保留在用且三项误拆任务正式终止；F011普通闭环,F011,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；正文经局部删除内部ARC编号后通过；有效正文约2884；Memory/T139更新
 137,下一次夜班,planned,ARC-044,从Day26下一次夜班建立独立现实服务,不得继承白鹭巷门牌或BL-2024-08整改事项为异常前提,待正文推进,,3000,pending,blocked,一次只推进一章
