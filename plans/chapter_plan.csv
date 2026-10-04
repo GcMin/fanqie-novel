@@ -17,7 +17,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 74,六栋的房号,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
 75,地址和住户之间,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
 76,能开的字段,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
-77,六栋的居民层,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,ready,Reader/QA/Memory已完成
+77,六栋的居民层,completed,ARC-007,历史完成，详见对应章节摘要,历史冲突已记录于Memory,历史状态变化已记录于Memory,F003,3000,pass,published,Reader/QA/Memory已完成
 78,留在记录里的位置,completed,ARC-007,收束永安里证据分层并停止无必要身份层升级,不同业务层容易被混成单一存在证明,ARC-007完成且居民身份层改为当前无必要申请；南仓路照明进入下一弧,F003,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；Memory已更新
 79,一排不亮的灯,completed,ARC-008,完成南仓路连续熄灭现实处置并保存独立编号观察,连续熄灭与编号跳号容易被过早焊成同一原因,325号杆受潮端子普通故障修复且12根实体灯杆全部复亮；另记录现场未见322独立灯杆,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；Memory已更新
 80,逐杆核对编号,completed,ARC-008,按实体杆核当前资产与历史变更判断322是否普通编号断口,编号跳号容易被强行接到已经修复的电气故障,322确认于2023-04-18公交港湾改造中拆除退役且321/323迁移保号；普通闭环并取消回路核验,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；Memory已更新
