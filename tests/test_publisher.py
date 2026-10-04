@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from publisher.content import Blocked, DailyQuota, archive, parse, scan, validate_title
+from publisher.content import Blocked, DailyQuota, archive, check_plan, parse, scan, validate_title
 from publisher.__main__ import Journal, cycle
 
 
@@ -65,6 +65,17 @@ class ContentTests(unittest.TestCase):
         with self.assertRaises(Blocked):
             scan(self.root)
 
+    def test_missing_and_duplicate_plan_records_block_with_specific_reason(self):
+        plan = self.root / 'plans/chapter_plan.csv'
+        header = 'chapter,title,status,qa_status,publish_status\n'
+        plan.write_text(header, encoding='utf-8')
+        with self.assertRaisesRegex(Blocked, '缺少计划记录'):
+            check_plan(self.root, parse(self.path, self.root))
+        row = '1,门后的脚步,completed,pass,ready\n'
+        plan.write_text(header + row + row, encoding='utf-8')
+        with self.assertRaisesRegex(Blocked, '计划记录重复'):
+            check_plan(self.root, parse(self.path, self.root))
+
     def test_other_directory_block(self):
         draft = self.root / 'chapters/draft'
         draft.mkdir()
@@ -77,7 +88,7 @@ class ContentTests(unittest.TestCase):
         (self.root / 'plans/chapter_plan.csv').write_text(
             'chapter,title,status,qa_status,publish_status\n1,门后的脚步,planned,pending,blocked\n', encoding='utf-8')
         with self.assertRaises(Blocked):
-            scan(self.root)
+            check_plan(self.root, parse(self.path, self.root))
 
     def test_archive(self):
         chapter = scan(self.root)[0]

@@ -70,6 +70,9 @@
 
 任何 Agent 看到 `status: draft` 都不得发布。
 
+- 更新或精简 `plans/chapter_plan.csv` 时，必须保留所有 `chapters/ready/` 章节对应的唯一计划行、原有标题和 QA 结果，直到发布核验完成；不得只保留最近创作章节而删除待发布记录。
+- 计划表修改后必须运行 `python -m publisher check` 校验全部 ready 章节；不得伪造 QA 通过记录来修复校验失败。
+
 ## 7. 章节标题发布规则
 
 - 新进入 `chapters/ready/` 的章节标题至少包含 5 个非空白字符，不含“第 N 章”，避免数字短标题被番茄拦截。

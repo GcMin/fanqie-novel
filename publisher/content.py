@@ -87,8 +87,12 @@ def plan_rows(repo: Path):
 def check_plan(repo: Path, chapter: Chapter):
     _, _, rows = plan_rows(repo)
     matches = [r for r in rows if r["chapter"] == str(chapter.number)]
-    if len(matches) != 1 or matches[0]["status"] not in {"completed", "ready"} or matches[0]["qa_status"] != "pass":
-        raise Blocked(f"第 {chapter.number} 章计划未完成/QA 未通过或重复")
+    if not matches:
+        raise Blocked(f"第 {chapter.number} 章缺少计划记录；ready 章节的计划行不得清理，请恢复原有 QA 通过记录")
+    if len(matches) != 1:
+        raise Blocked(f"第 {chapter.number} 章计划记录重复（{len(matches)} 行）")
+    if matches[0]["status"] not in {"completed", "ready"} or matches[0]["qa_status"] != "pass":
+        raise Blocked(f"第 {chapter.number} 章计划状态={matches[0]['status']}，QA={matches[0]['qa_status']}；未通过发布门槛")
     if matches[0].get("title") != chapter.title:
         raise Blocked("计划标题不一致")
 

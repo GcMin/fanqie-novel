@@ -52,6 +52,8 @@
 - 正文中不存在 TODO、内部说明、模型自述、提示词残留
 - Frontmatter 标记：`status: ready`、`qa: pass`
 
+`plans/chapter_plan.csv` 必须保留每个 ready 章节的唯一记录（标题一致、完成状态、QA pass），不能随创作进度滚动删除尚未发布的行。精简 Memory 或计划表时仍须保留这些发布凭据，并运行 `python -m publisher check` 检查全部 ready 章节。记录误删时只能恢复 Git 历史中真实的 QA 通过记录，不得根据 ready 文件自行生成 QA 结论。
+
 ## 5. 发布后
 
 发布器应核对番茄后台：
