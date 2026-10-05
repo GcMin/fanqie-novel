@@ -21,7 +21,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 78,留在记录里的位置,completed,ARC-007,收束永安里证据分层并停止无必要身份层升级,不同业务层容易被混成单一存在证明,ARC-007完成且居民身份层改为当前无必要申请；南仓路照明进入下一弧,F003,3000,pass,published,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；Memory已更新
 79,一排不亮的灯,completed,ARC-008,完成南仓路连续熄灭现实处置并保存独立编号观察,连续熄灭与编号跳号容易被过早焊成同一原因,325号杆受潮端子普通故障修复且12根实体灯杆全部复亮；另记录现场未见322独立灯杆,,3000,pass,published,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；Memory已更新
 80,逐杆核对编号,completed,ARC-008,按实体杆核当前资产与历史变更判断322是否普通编号断口,编号跳号容易被强行接到已经修复的电气故障,322确认于2023-04-18公交港湾改造中拆除退役且321/323迁移保号；普通闭环并取消回路核验,,3000,pass,published,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；Memory已更新
-81,下穿通道的积水,completed,ARC-008,完成槐河路积水现实处置并保存2047/2048连接差异,入口堵塞主因与管线记录差异容易被错误合并,4/6雨水口堵塞清理后积水消退且泵组正常；2047/2048现场北向流向与现行图层连接不一致成为窄核验入口,,3000,pass,ready,Stage A后复审0 BLOCKER/0 MAJOR/1 MINOR；Memory已更新
+81,下穿通道的积水,completed,ARC-008,完成槐河路积水现实处置并保存2047/2048连接差异,入口堵塞主因与管线记录差异容易被错误合并,4/6雨水口堵塞清理后积水消退且泵组正常；2047/2048现场北向流向与现行图层连接不一致成为窄核验入口,,3000,pass,published,Stage A后复审0 BLOCKER/0 MAJOR/1 MINOR；Memory已更新
 82,水往哪边走,completed,ARC-008,核2021排水改造与2022图层更新解释2047/2048连接差异,现场流向观察不是完整拓扑且普通工程版本原因必须优先,2021批准变更与竣工资料确认两口改接北向重力支线；2022因变更线位矢量未回填保留旧南向拓扑；普通闭环并转入玉泉巷清运工单,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；有效正文2651；Memory已更新；不建立异常候选
 83,玉泉巷的三只桶,completed,ARC-008,完成玉泉巷满溢现实处置并核连续两天漏收的直接业务层原因,来电人主路车辆观察与实际支线责任需分开且不能把任务单缺项直接命名异常,三只桶及散落垃圾完成清理；HW-YQ-031仍在用且归支线B但新路线版本连续两晚未下发该点，原因转入版本/同步核验,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/2 MINOR；Memory已更新；不建立异常候选
 84,清运路线到哪里,completed,ARC-008,核支线B新旧路线版本原始变更清单与点位台账到任务单生成同步记录解释031未下发,当前只证明任务未下发不能直接推出责任空档且普通版本配置同步原因必须优先,施工结束恢复误用不含031的施工前基础版导致固定点12→11；任务生成/终端同步正常；下一班次补充任务与含031纠错预览已建立，普通闭环,,3000,pass,ready,Stage A后复审0 BLOCKER/0 MAJOR/2 MINOR；Memory已更新；不建立异常候选
