@@ -16,7 +16,7 @@ import yaml
 from filelock import FileLock
 
 from .browser import Fanqie
-from .content import Blocked, DailyQuota, archive, check_plan, scan, validate_title
+from .content import Blocked, DailyQuota, archive, check_plan, scan, validate_title, normalized
 from .repository import Repository
 from .session import heartbeat, heartbeat_status, parse_cookies
 from .schedule import Schedule
@@ -36,6 +36,21 @@ class Journal:
         if not existing:
             self.db.execute("INSERT INTO scope VALUES (?)", (scope,))
         self.db.execute("CREATE TABLE IF NOT EXISTS chapters (number INTEGER PRIMARY KEY, digest TEXT NOT NULL, phase TEXT NOT NULL, url TEXT, updated REAL NOT NULL)")
+        self.db.execute("CREATE TABLE IF NOT EXISTS uploads (number INTEGER PRIMARY KEY, day TEXT NOT NULL, chars INTEGER NOT NULL)")
+        self.db.commit()
+
+    def daily_chars(self):
+        day = datetime.now(ZoneInfo('Asia/Hong_Kong')).date().isoformat()
+        return self.db.execute('SELECT COALESCE(SUM(chars),0) FROM uploads WHERE day=?', (day,)).fetchone()[0]
+
+    def reserve_upload(self, chapter):
+        day = datetime.now(ZoneInfo('Asia/Hong_Kong')).date().isoformat()
+        self.db.execute('INSERT OR IGNORE INTO uploads VALUES (?,?,?)',
+                        (chapter.number, day, len(normalized(chapter.body))))
+        self.db.commit()
+
+    def reject_upload(self, chapter):
+        self.db.execute('DELETE FROM uploads WHERE number=?', (chapter.number,))
         self.db.commit()
 
     def get(self, number):
@@ -79,6 +94,9 @@ async def cycle(args, data, repo, journal, browser_factory):
         return
     if args.command == "run" and os.getenv("PUBLISH_ENABLED", "false").lower() != "true":
         raise Blocked("请在 .env 设置 PUBLISH_ENABLED=true 才能发布")
+    daily_limit = int(os.getenv('DAILY_UPLOAD_CHAR_LIMIT', '7000'))
+    if daily_limit < 1:
+        raise Blocked('DAILY_UPLOAD_CHAR_LIMIT 必须为正整数')
     async with browser_factory() as site:
         await site.login()
         count = 0
@@ -101,6 +119,9 @@ async def cycle(args, data, repo, journal, browser_factory):
             if record and record["phase"] == "published":
                 LOG.info("第 %s 章内容与成功发布记录一致，跳过", chapter.number)
                 continue
+            if (not record or record['phase'] in {'preparing', 'editing', 'quota_deferred'}) and journal.daily_chars() > daily_limit:
+                LOG.info('今日已上传/预留 %s 字，超过 %s 字；等待次日再提交新章节', journal.daily_chars(), daily_limit)
+                return
             deferred = record and record['phase'] == 'quota_deferred' and args.command != 'reconcile'
             if deferred:
                 zone = ZoneInfo('Asia/Shanghai')
@@ -126,18 +147,22 @@ async def cycle(args, data, repo, journal, browser_factory):
                 await site.fill(chapter)
                 # Persist BEFORE the first potentially consequential click.
                 journal.put(chapter, "submitted", url)
+                journal.reserve_upload(chapter)
                 try:
                     await site.submit()
                 except DailyQuota:
+                    journal.reject_upload(chapter)
                     journal.put(chapter, 'quota_deferred', url)
                     raise
             else:
                 url = record["url"]
                 if deferred and await site.resume_deferred(chapter, url):
                     journal.put(chapter, 'submitted', url)
+                    journal.reserve_upload(chapter)
                     try:
                         await site.submit()
                     except DailyQuota:
+                        journal.reject_upload(chapter)
                         journal.put(chapter, 'quota_deferred', url)
                         raise
             if not url:

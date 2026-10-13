@@ -258,6 +258,55 @@ class ContentTests(unittest.TestCase):
         self.assertIsNone(journal.get(3))
         self.assertEqual(site.creates, 2)
 
+    def test_daily_limit_survives_restart_and_resets_next_day(self):
+        for n in (1, 2, 3):
+            text = SOURCE.replace('chapter: 1', f'chapter: {n}')
+            text = text[:text.index('门外传来脚步声。')] + '字' * 3501
+            (self.path.parent / f'{n:03}.md').write_text(text, encoding='utf-8')
+        with (self.root / 'plans/chapter_plan.csv').open('a', encoding='utf-8') as plan:
+            plan.write('2,门后的脚步,completed,pass,ready\n3,门后的脚步,completed,pass,ready\n')
+        journal = Journal(self.root / 'journal.db', 'a')
+        self.addCleanup(journal.db.close)
+        class Site:
+            creates = 0
+            async def __aenter__(inner): return inner
+            async def __aexit__(inner, *args): pass
+            async def login(inner): pass
+            async def duplicate_check(inner, chapter): pass
+            async def create(inner):
+                inner.creates += 1
+                return f'url-{inner.creates}'
+            async def fill(inner, chapter): pass
+            async def submit(inner): pass
+            async def verify(inner, chapter, url): return 'pending'
+        site = Site()
+        with patch.dict(os.environ, {'DAILY_UPLOAD_CHAR_LIMIT': '7000'}):
+            self.run_cycle(site, journal, until_quota=True)
+            self.assertEqual(site.creates, 2)
+            self.assertEqual(journal.daily_chars(), 7002)
+            self.assertIsNone(journal.get(3))
+            reopened = Journal(self.root / 'journal.db', 'a')
+            self.addCleanup(reopened.db.close)
+            self.run_cycle(site, reopened, until_quota=True)
+            self.assertEqual(site.creates, 2)
+            reopened.db.execute("UPDATE uploads SET day='2000-01-01'")
+            reopened.db.commit()
+            self.run_cycle(site, reopened, until_quota=True)
+            self.assertEqual(site.creates, 3)
+            self.assertEqual(reopened.daily_chars(), 3501)
+
+    def test_upload_reservation_counts_once_and_rejection_releases_it(self):
+        journal = Journal(self.root / 'journal.db', 'a')
+        self.addCleanup(journal.db.close)
+        chapter = scan(self.root)[0]
+        journal.reserve_upload(chapter)
+        count = journal.daily_chars()
+        journal.reserve_upload(chapter)
+        self.assertEqual(journal.daily_chars(), count)
+        self.assertGreater(count, 0)
+        journal.reject_upload(chapter)
+        self.assertEqual(journal.daily_chars(), 0)
+
 
 if __name__ == '__main__':
     unittest.main()
