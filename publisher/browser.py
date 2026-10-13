@@ -7,7 +7,7 @@ import time
 from pathlib import Path
 from urllib.parse import urlparse
 
-from playwright.async_api import async_playwright
+from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeout
 
 from .content import Blocked, Chapter, DailyQuota, normalized
 
@@ -43,6 +43,14 @@ class Fanqie:
         await self.context.close()
         await self.browser.close()
         await self.pw.stop()
+
+    async def settle(self):
+        # The site may keep analytics/heartbeat requests open indefinitely.
+        # DOM locators below prove readiness; network idle is only a short hint.
+        try:
+            await self.page.wait_for_load_state('networkidle', timeout=3000)
+        except PlaywrightTimeout:
+            pass
 
     async def save_session(self):
         temporary = self.state.with_suffix(".tmp")
@@ -164,14 +172,25 @@ class Fanqie:
             raise Blocked("页面作品 ID 或域名不匹配")
 
     async def listing(self, draft=False):
+        for attempt in range(3):
+            try:
+                return await self._listing(draft)
+            except PlaywrightTimeout:
+                if attempt == 2:
+                    raise
+                # No chapter mutation has occurred in listing, so reload the
+                # authenticated home and repeat this read-only operation.
+                await self.login()
+
+    async def _listing(self, draft=False):
         await self.page.goto(self.manage_url, wait_until="domcontentloaded")
-        await self.page.wait_for_load_state('networkidle')
+        await self.settle()
         if urlparse(self.page.url).path in {"/main/writer", "/main/writer/"}:
             # Listing is read-only: restore a transient login redirect before
             # attempting any chapter creation or submission.
             await self.login()
             await self.page.goto(self.manage_url, wait_until="domcontentloaded")
-            await self.page.wait_for_load_state('networkidle')
+            await self.settle()
         await self.page.get_by_text(self.title, exact=False).wait_for(state="visible")
         notice = self.page.get_by_role('button', name='我知道了', exact=True)
         if await notice.count() == 1 and await notice.is_visible():
@@ -179,7 +198,7 @@ class Fanqie:
         if draft:
             await self.page.get_by_role("tab", name="草稿箱", exact=True).click()
             await self.page.get_by_role('link', name='新建草稿', exact=True).wait_for(state='visible')
-            await self.page.wait_for_load_state('networkidle')
+            await self.settle()
         self.panel = self.page.locator('[role="tabpanel"]:not([aria-hidden="true"])')
         await self.panel.wait_for(state='visible')
         empty = (self.panel.get_by_text(re.compile(r'^共\s*0\s*篇草稿$')) if draft else
@@ -259,7 +278,7 @@ class Fanqie:
             raise Blocked(f"第 {chapter.number} 章创建曾中断且后台仍有草稿；需核对远端 ID 后恢复")
 
     async def fill(self, chapter: Chapter):
-        await self.page.wait_for_load_state('networkidle')
+        await self.settle()
         await self.page.locator(self.ui["number"]).fill(str(chapter.number))
         await self.page.locator(self.ui["title"]).fill(chapter.title)
         body = self.page.locator(self.ui["body"])
@@ -320,7 +339,7 @@ class Fanqie:
             if number == chapter.number or title == chapter.title:
                 return False  # May have been published manually: verify instead.
         await self.page.goto(url, wait_until='domcontentloaded')
-        await self.page.wait_for_load_state('networkidle')
+        await self.settle()
         await self.check_editor(chapter)
         return True
 
@@ -342,7 +361,7 @@ class Fanqie:
                     raise Blocked("番茄审核未通过，请人工处理")
                 if any(s in text for s in self.ui["published_statuses"]):
                     await self.page.goto(url, wait_until="domcontentloaded")
-                    await self.page.wait_for_load_state('networkidle')
+                    await self.settle()
                     await self.page.locator(self.ui["body"]).wait_for(state="visible")
                     await self.check_editor(chapter)
                     return "published"
