@@ -196,6 +196,10 @@ docker compose run --rm publisher reconcile --chapter 1 --url 'https://fanqienov
 
 ## 开发验证
 
+手动连续提交到每日上限：停止 watch 服务后执行 `docker compose run --rm publisher run --until-quota`，完成后执行 `docker compose up -d`。此模式在核验“审核中”后继续下一章，忽略单轮章节数量限制；只有核验已发布才归档。平台明确拒绝每日字数上限时保留原章节 ID 和草稿，次日恢复。
+
+创建中断且事务没有远端 ID 时，超过 5 分钟后发布器会重新核对全部已发布/审核列表及草稿箱。只有无同号/同名章节且草稿箱为空才恢复创建；存在草稿或已有 ID 时仍需核对后恢复，禁止重复建章。
+
 ```bash
 python -m venv .venv
 . .venv/bin/activate

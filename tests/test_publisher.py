@@ -108,14 +108,14 @@ class ContentTests(unittest.TestCase):
         with self.assertRaises(Blocked):
             Journal(self.root / 'journal.db', 'b')
 
-    def run_cycle(self, site, journal):
+    def run_cycle(self, site, journal, until_quota=False):
         class Repo:
             root = self.root
             def sync(inner):
                 pass
             def commit_archive(inner, *args):
                 pass
-        args = argparse.Namespace(command='run', chapter=None, url=None)
+        args = argparse.Namespace(command='run', chapter=None, url=None, until_quota=until_quota)
         with patch.dict(os.environ, {'PUBLISH_ENABLED': 'true'}):
             asyncio.run(cycle(args, self.root, Repo(), journal, lambda: site))
 
@@ -197,6 +197,63 @@ class ContentTests(unittest.TestCase):
             async def create(inner): raise AssertionError('Must not create again')
         self.run_cycle(Site(), journal)
         self.assertEqual(journal.get(1)['phase'], 'published')
+
+    def test_stale_unallocated_creation_recovers_only_after_remote_audit(self):
+        journal = Journal(self.root / 'journal.db', 'a')
+        self.addCleanup(journal.db.close)
+        journal.put(scan(self.root)[0], 'preparing')
+        class Site:
+            allow = False
+            creates = 0
+            async def __aenter__(inner): return inner
+            async def __aexit__(inner, *args): pass
+            async def login(inner): pass
+            async def confirm_unallocated(inner, chapter):
+                if not inner.allow: raise Blocked('草稿仍存在')
+            async def duplicate_check(inner, chapter): pass
+            async def create(inner):
+                inner.creates += 1
+                return 'recovered-url'
+            async def fill(inner, chapter): pass
+            async def submit(inner): pass
+            async def verify(inner, chapter, url): return 'pending'
+        site = Site()
+        with self.assertRaises(Blocked): self.run_cycle(site, journal)
+        journal.db.execute('UPDATE chapters SET updated=updated-600')
+        journal.db.commit()
+        with self.assertRaises(Blocked): self.run_cycle(site, journal)
+        self.assertEqual(site.creates, 0)
+        site.allow = True
+        self.run_cycle(site, journal)
+        self.assertEqual(site.creates, 1)
+        self.assertEqual(journal.get(1)['phase'], 'submitted')
+
+    def test_batch_continues_pending_then_stops_at_explicit_daily_quota(self):
+        for n in (2, 3):
+            (self.path.parent / f'{n:03}.md').write_text(SOURCE.replace('chapter: 1', f'chapter: {n}'), encoding='utf-8')
+        with (self.root / 'plans/chapter_plan.csv').open('a', encoding='utf-8') as plan:
+            plan.write('2,门后的脚步,completed,pass,ready\n3,门后的脚步,completed,pass,ready\n')
+        journal = Journal(self.root / 'journal.db', 'a')
+        self.addCleanup(journal.db.close)
+        class Site:
+            creates = 0
+            async def __aenter__(inner): return inner
+            async def __aexit__(inner, *args): pass
+            async def login(inner): pass
+            async def duplicate_check(inner, chapter): pass
+            async def create(inner):
+                inner.creates += 1
+                return f'url-{inner.creates}'
+            async def fill(inner, chapter): pass
+            async def submit(inner):
+                if inner.creates == 2: raise DailyQuota('quota')
+            async def verify(inner, chapter, url): return 'pending'
+        site = Site()
+        with self.assertRaises(DailyQuota): self.run_cycle(site, journal, until_quota=True)
+        self.assertEqual(journal.get(1)['phase'], 'submitted')
+        self.assertEqual(journal.get(2)['phase'], 'quota_deferred')
+        self.assertIsNone(journal.get(3))
+        self.assertEqual(site.creates, 2)
 
 
 if __name__ == '__main__':

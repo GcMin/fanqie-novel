@@ -245,6 +245,13 @@ class Fanqie:
             raise Blocked("新章节未分配远端 ID")
         return self.page.url
 
+    async def confirm_unallocated(self, chapter: Chapter):
+        """A failed create can allocate an unnamed draft; require an empty draft box."""
+        await self.duplicate_check(chapter)
+        await self.listing(draft=True)
+        async for _ in self.rows():
+            raise Blocked(f"第 {chapter.number} 章创建曾中断且后台仍有草稿；需核对远端 ID 后恢复")
+
     async def fill(self, chapter: Chapter):
         await self.page.wait_for_load_state('networkidle')
         await self.page.locator(self.ui["number"]).fill(str(chapter.number))

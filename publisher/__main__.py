@@ -108,7 +108,13 @@ async def cycle(args, data, repo, journal, browser_factory):
                     LOG.info('第 %s 章达到每日字数上限，次日再恢复原章节', chapter.number)
                     return
             if record and record["phase"] in {"preparing", "editing"}:
-                raise Blocked(f"第 {chapter.number} 章创建/填写曾中断；核对后台后使用 reconcile --chapter N --url URL；不会自动重试提交")
+                if (record["phase"] == "preparing" and not record["url"]
+                        and time.time() - record["updated"] >= 300 and args.command != "reconcile"):
+                    await site.confirm_unallocated(chapter)
+                    LOG.info("第 %s 章创建未分配 ID；核验无同号/同名章节且草稿箱为空，恢复创建", chapter.number)
+                    record = None
+                else:
+                    raise Blocked(f"第 {chapter.number} 章创建/填写曾中断；核对后台后使用 reconcile --chapter N --url URL；不会自动重试提交")
             if not record:
                 if args.command == "reconcile":
                     raise Blocked("reconcile 不能创建章节")
@@ -143,6 +149,8 @@ async def cycle(args, data, repo, journal, browser_factory):
                 # cycles only check review status and never try to resubmit.
                 journal.put(chapter, "submitted", url)
                 LOG.info("第 %s 章审核中，保留 ready；下轮只核验，不重发", chapter.number)
+                if getattr(args, "until_quota", False) and args.command == "run":
+                    continue
                 return
             journal.put(chapter, "archiving", url)
             archive(repo.root, chapter)
@@ -151,7 +159,7 @@ async def cycle(args, data, repo, journal, browser_factory):
             LOG.info("第 %s 章已发布、核验并回写 GitHub", chapter.number)
             count += 1
             limit = int(os.getenv("MAX_CHAPTERS_PER_RUN", "0"))
-            if args.command == "reconcile" or (limit > 0 and count >= limit):
+            if args.command == "reconcile" or (not getattr(args, "until_quota", False) and limit > 0 and count >= limit):
                 return
         if args.command == "reconcile":
             raise Blocked("未找到指定 ready 章节")
@@ -163,7 +171,10 @@ def main():
     parser.add_argument("command", choices=["login", "login-sms", "import-cookies", "heartbeat", "check", "run", "watch", "status", "reconcile"])
     parser.add_argument("--chapter", type=int)
     parser.add_argument("--url")
+    parser.add_argument("--until-quota", action="store_true", help="run 按顺序连续提交，审核中继续下一章，直到平台每日上限或队列结束")
     args = parser.parse_args()
+    if args.until_quota and args.command != "run":
+        parser.error("--until-quota 仅支持 run")
     if args.command == "reconcile" and not args.chapter:
         parser.error("reconcile 必须指定 --chapter")
     os.umask(0o077)
