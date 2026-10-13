@@ -263,13 +263,9 @@ class Fanqie:
         await self.page.locator(self.ui["number"]).fill(str(chapter.number))
         await self.page.locator(self.ui["title"]).fill(chapter.title)
         body = self.page.locator(self.ui["body"])
-        await body.click()
-        await body.press('ControlOrMeta+A')
-        await body.press('Backspace')
-        for index, paragraph in enumerate(re.split(r'\n\s*\n', chapter.body)):
-            if index:
-                await self.page.keyboard.press('Enter')
-            await self.page.keyboard.insert_text(paragraph)
+        # One input operation avoids losing the caret to reactive editor
+        # updates/autosave between hundreds of paragraph-level key events.
+        await body.fill(chapter.body)
         await self.check_editor(chapter)
 
     async def check_editor(self, chapter: Chapter):
