@@ -143,6 +143,7 @@ async def cycle(args, data, repo, journal, browser_factory):
             if not url:
                 raise Blocked("缺少远端章节 URL，请人工核对")
             state = await site.verify(chapter, url)
+            await site.save_session()
             if state == "pending":
                 # A deferred submission can already exist remotely (for example,
                 # after the quota dialog). Record that verified state so future

@@ -166,6 +166,12 @@ class Fanqie:
     async def listing(self, draft=False):
         await self.page.goto(self.manage_url, wait_until="domcontentloaded")
         await self.page.wait_for_load_state('networkidle')
+        if urlparse(self.page.url).path in {"/main/writer", "/main/writer/"}:
+            # Listing is read-only: restore a transient login redirect before
+            # attempting any chapter creation or submission.
+            await self.login()
+            await self.page.goto(self.manage_url, wait_until="domcontentloaded")
+            await self.page.wait_for_load_state('networkidle')
         await self.page.get_by_text(self.title, exact=False).wait_for(state="visible")
         notice = self.page.get_by_role('button', name='我知道了', exact=True)
         if await notice.count() == 1 and await notice.is_visible():

@@ -116,6 +116,9 @@ class ContentTests(unittest.TestCase):
             def commit_archive(inner, *args):
                 pass
         args = argparse.Namespace(command='run', chapter=None, url=None, until_quota=until_quota)
+        if not hasattr(site, 'save_session'):
+            async def save_session(): pass
+            site.save_session = save_session
         with patch.dict(os.environ, {'PUBLISH_ENABLED': 'true'}):
             asyncio.run(cycle(args, self.root, Repo(), journal, lambda: site))
 
