@@ -1,0 +1,24 @@
+# 各小说的数据位于 /data/novels/<id>/；id 应保持不变。
+novels:
+  - id: zero-orders
+    repository: GcMin/fanqie-novel
+    branch: main
+    book_id: "7684310849036504126"
+    book_title: 零点异常工单
+    enabled: true
+    publish_enabled: true
+    daily_upload_char_limit: 7000
+    publish_interval_seconds: 7200
+    heartbeat_interval_seconds: 300
+    migrate_legacy: true
+
+  # 新增作品时复制以下字段，使用真实仓库与番茄作品信息。
+  # - id: second-novel
+  #   repository: owner/another-novel
+  #   branch: main
+  #   book_id: "另一部作品的数字ID"
+  #   book_title: 另一部作品名称
+  #   enabled: true
+  #   publish_enabled: false  # 首次先校验/登录，确认后改为 true
+  #   daily_upload_char_limit: 7000
+  #   reuse_login: true  # 与旧账号相同，可初次复制旧登录态；不同账号设 false

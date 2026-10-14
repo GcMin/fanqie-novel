@@ -13,6 +13,7 @@ services:
     volumes:
       - publisher-data:/data
       - ./config/publisher.yaml:/app/config/publisher.yaml:ro
+      - ./config/novels.yaml:/app/config/novels.yaml:ro
     secrets:
       - github_token
     security_opt:

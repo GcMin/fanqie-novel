@@ -196,6 +196,28 @@ docker compose run --rm publisher reconcile --chapter 1 --url 'https://fanqienov
 
 ## 开发验证
 
+## 多小说配置
+
+设置 `.env` 的 `NOVELS_CONFIG_PATH=/app/config/novels.yaml`，在 `config/novels.yaml` 的 `novels` 列表中添加每部作品的 `id`、`repository`、`branch`、带引号的 `book_id` 和 `book_title`。每部作品默认每日阈值为 7000；`publish_enabled` 控制是否提交，`enabled` 控制是否运行。新仓库仍需满足 ready/QA/计划表门槛，GitHub token 必须有该仓库的读写权限。
+
+每部作品在 `/data/novels/<id>/` 独立保存仓库、发布数据库和每日计数、扫描时间、Cookie、心跳与错误截图。id 应保持不变；更换绑定仓库/分支/作品会触发数据库保护，必须新建 id。各 worker 独立运行，失败仅影响对应作品；健康检查检查全部启用作品。平台可能另有账号级每日上限，本地每部 7000 字不会消除平台限制。
+
+原作品首次使用 `migrate_legacy: true` 将旧数据复制到新目录并保留旧数据备份；再次启动不会覆盖进度。新作品默认不复制登录态；同账号可设置 `reuse_login: true` 初次复制旧 Cookie，也可以针对该作品重新登录。
+
+```bash
+# 查看全部作品或指定作品
+docker compose run --rm publisher status
+docker compose run --rm publisher status --novel zero-orders
+# 停止后台后校验、新作品登录或手动运行，完成后恢复后台
+docker compose stop publisher
+docker compose run --rm publisher check --novel zero-orders
+docker compose run --rm publisher login-sms --novel second-novel
+docker compose run --rm publisher run --novel zero-orders --until-quota
+docker compose up -d
+```
+
+修改作品列表后执行 `docker compose up -d --force-recreate`。登录、Cookie 导入和 reconcile 有多个作品时必须带 `--novel ID`；省略它的 run/check/status 按列表依次处理所有作品。未配置 `NOVELS_CONFIG_PATH` 时原单小说环境变量和数据路径保持兼容。
+
 `.env` 中 `DAILY_UPLOAD_CHAR_LIMIT=7000` 控制每日累计提交字数（正文去空白字符，含标点，不使用 Frontmatter 的估算字数）。累计首次超过 7000 后停止创建/提交后续章节，按香港时间午夜重新计数，下一次定时扫描恢复。完整章节不会拆分；恰好 7000 字仍可提交下一章。计数持久化在 SQLite 中，重启不会清零；审核核验与归档不会重复计数。提交前先预留字数，提交结果不明时保守保留计数；平台明确拒绝每日上限时取消该章预留。`run --until-quota` 同样受本地每日阈值约束。已提交章节仍允许核验与归档。
 
 手动连续提交到每日上限：停止 watch 服务后执行 `docker compose run --rm publisher run --until-quota`，完成后执行 `docker compose up -d`。此模式在核验“审核中”后继续下一章，忽略单轮章节数量限制；只有核验已发布才归档。平台明确拒绝每日字数上限时保留原章节 ID 和草稿，次日恢复。

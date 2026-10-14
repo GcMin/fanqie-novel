@@ -192,7 +192,15 @@ async def cycle(args, data, repo, journal, browser_factory):
 
 
 def main():
-    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+    label = os.getenv('NOVEL_ID', 'legacy')
+    logging.basicConfig(level=logging.INFO, format=f"%(asctime)s %(levelname)s [{label}] %(message)s")
+    if os.getenv('NOVELS_CONFIG_PATH') and os.getenv('NOVEL_WORKER') != '1':
+        from .novels import run_manager
+        try:
+            raise SystemExit(run_manager())
+        except Blocked as error:
+            LOG.error('%s', error)
+            raise SystemExit(1) from None
     parser = argparse.ArgumentParser(description="番茄无头发布器")
     parser.add_argument("command", choices=["login", "login-sms", "import-cookies", "heartbeat", "check", "run", "watch", "status", "reconcile"])
     parser.add_argument("--chapter", type=int)
