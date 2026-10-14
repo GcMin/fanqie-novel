@@ -1,0 +1,63 @@
+schema_version: 1
+chapter: 137
+title: 下一次夜班
+volume: 5
+arc: ARC-044
+status: ready
+qa: pass
+reader_gate: pass
+source_path: chapters/draft/0137.md
+source_sha: ab9bb4c4d725521bbd81d47ab5c13be54a35f082
+reader_review: reader_reviews/0137_ab9bb4c4.md
+reviewer_mode: orchestrator_self_review
+effective_chars: 3142
+timeframe: "Day 26 20:11—21:14"
+summary: >-
+  第二十四次夜班Day26 20:11周衡到岗，20:19接鹿湾路铁路涵洞积水警情，一位老太太与外孙暂留小平台。夜间综合服务中心联动交警、消防、市排水防涝，交警封控东西两端，20:32消防队员将两人安全带离、无人受伤。排水班20:37布置移动泵并清出长栅格篷布和杂物，20:49水位下降，20:56露出低处路面，但因持续来水和现场复查不足仍保持双端封控及留守。现场铁路院墙下标LW-X17的圆形出水口仍向涵洞出水，现行值班简图和在用资产清单无这一对象，三年前历史目录却写“旧支线封堵、停用”。照片/编号并不能独立证明现口与历史整管完全相同，夜间不具备开井追上游安全条件；竣工图、验收及封堵范围交白班最小核。21:14家属接走老太太及孩子，现实人身险情解除而道路继续封闭，ARC-044 active；不作为M004异常证据。
+meaningful_state_changes:
+  - 两名涉险者由暂留积水平台转为20:32由消防安全带离，21:14家属接走。
+  - 低洼人行辅道由无人管控积水变为交警封控、抽排清堵及排水留守观察，未擅自宣布重新开放。
+  - 发现LW-X17现场出水口与历史停用目录表面差异，建立明确且限定范围的工程资料核验问题；真实性质尚未确认。
+knowledge_updates:
+  - 周衡、夏宁、梁策知道现场口有LW-X17编号但现行简图和在用清单缺此设施，三年前历史目录记旧支线封堵。
+  - 编号相同无法自动推出同一全管段，施工实际封堵节点及后续改接尚未得到材料。
+  - M004/M005信息边界保持，F008无新明确样本，F009/F010/F011 resolved。
+relationship_updates: []
+foreshadowing_updates: []
+ending_state: >-
+  Day26 21:14，第二十四次夜班进行中，人员已脱险，雨势减弱、抽排和道路封控观察持续；工程源链和现场地下连接尚未核实。ARC-044 active。
+next_entry: >-
+  第138章优先查LW-X17三年前竣工图和验收记录、实际封堵范围及后续改接/保留段；只有专业现场复查合格才能恢复通行。第138章目前为单独Writer草稿，仍待独立Reader/QA；其所依赖的第137章SHA为ab9bb4c4d725521bbd81d47ab5c13be54a35f082。
+reader_review_detail:
+  first_source_sha: 52f3e357ea12977b867c73a250336992b2b8585e
+  first_path: reader_reviews/0137_52f3e357.md
+  first_major_count: 1
+  final_source_sha: ab9bb4c4d725521bbd81d47ab5c13be54a35f082
+  final_path: reader_reviews/0137_ab9bb4c4.md
+  final_blocker_count: 0
+  final_major_count: 0
+  final_minor_count: 1
+  final_recommendation: keep
+  final_required_action: none
+  reviewer_mode: orchestrator_self_review
+qa_notes:
+  continuity: pass
+  style: pass
+  meaningful_state_change: pass
+  length: pass
+  structural: pending_pr_validation
+memory_sync: complete
+memory_completed:
+  current_arc: true
+  character_state: true
+  knowledge_state: true
+  world_state: true
+  timeline: true
+  volume_outline: true
+  arc_outline: true
+  chapter_plan: true
+memory_no_change:
+  relationship_state: true
+  foreshadowing: true
+publish_gate: pending_structural_validation
+platform_published: false

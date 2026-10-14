@@ -1,12 +1,13 @@
 schema_version: 1
-last_updated_chapter: 136
-current_time: Day 25 07:56
+last_updated_chapter: 137
+current_time: Day 26 21:14
 world:
   anomaly_public_awareness: none
-  current_arc: ARC-043_complete
-  current_service_case: none
-  next_entry: 第137章从Day26下一次夜班建立独立现实服务；F011保持resolved，M004未确认。
+  current_arc: ARC-044_active
+  current_service_case: 鹿湾路铁路涵洞雨夜积水已抽排降低；人员脱险，通行封控留守；旧出水口LW-X17管段依据待核
+  next_entry: 第138章接续核LW-X17三年前封堵范围、后续工程及实际出水段；涵洞开放须专业现场确认。
 case_state:
+  chapter_137: 鹿湾路涵洞Day26 20:19积水，20:32龚阿姨和外孙被消防救出；20:37抽排并清栅格，20:56水位下降但继续封控留守。LW-X17现场口出水与历史停用目录表面差异尚待竣工图/验收/同物核验，不确认为异常。
   chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
 invariants:
   F008: no_new_sample
