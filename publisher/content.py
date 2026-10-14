@@ -57,15 +57,19 @@ def parse(path: Path, repo: Path) -> Chapter:
         if heading != title:
             raise Blocked("正文标题与 Frontmatter 不一致")
         body = "\n".join(lines).strip()
+    validate_body(body, path.name)
+    digest = hashlib.sha256(raw.encode("utf-8")).hexdigest()
+    return Chapter(path, number, title, body, raw, digest)
+
+
+def validate_body(body: str, name: str):
     # Unstructured internal notes cannot be safely distinguished from prose: reject.
     if not body or re.search(
         r"TODO|FIXME|<!--|-->|```|(?im:^\s*(?:#{1,6}\s|---\s*$|(?:status|qa|chapter):))"
         r"|(?im:^\s*(?:字数统计|字数|章节摘要|摘要|大纲|内部说明|Agent备注|QA备注|提示词)\s*[:：])"
         r"|作为(?:一个)?(?:AI|人工智能)|(?:memory|bible|qa|plans)/|\[[^\]]*\]\([^)]*\)", body
     ):
-        raise Blocked(f"正文存在内部资料或非纯文本标记: {path.name}")
-    digest = hashlib.sha256(raw.encode("utf-8")).hexdigest()
-    return Chapter(path, number, title, body, raw, digest)
+        raise Blocked(f"正文存在内部资料或非纯文本标记: {name}")
 
 
 def validate_title(chapter: Chapter):

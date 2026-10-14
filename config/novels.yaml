@@ -12,6 +12,18 @@ novels:
     heartbeat_interval_seconds: 300
     migrate_legacy: true
 
+  - id: death-game
+    repository: GcMin/novel-death-game
+    branch: main
+    source_format: accepted_reviews
+    enabled: false
+    publish_enabled: false
+    # book_id 和 book_title 等待提供番茄后台准确信息；保持禁用。
+    reuse_login: true
+    daily_upload_char_limit: 7000
+    publish_interval_seconds: 7200
+    heartbeat_interval_seconds: 300
+
   # 新增作品时复制以下字段，使用真实仓库与番茄作品信息。
   # - id: second-novel
   #   repository: owner/another-novel

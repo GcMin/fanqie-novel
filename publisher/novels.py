@@ -33,15 +33,19 @@ def load_profiles(path: Path):
         if not isinstance(item, dict):
             raise Blocked('小说配置必须是对象')
         profile = dict(item)
-        for field in ('id', 'repository', 'book_id', 'book_title'):
+        enabled = profile.get('enabled', True)
+        for field in ('id', 'repository') + (('book_id', 'book_title') if enabled else ()):
             if not isinstance(profile.get(field), str) or not profile[field].strip():
                 raise Blocked(f'小说配置缺少字符串字段 {field}（book_id 必须加引号）')
         if not re.fullmatch(r'[a-z][a-z0-9-]{0,63}', profile['id']):
             raise Blocked('小说 id 只允许小写字母开头的字母、数字、连字符')
         if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', profile['repository']):
             raise Blocked('repository 必须为 owner/repo')
-        if not re.fullmatch(r'\d+', profile['book_id']):
+        if profile.get('book_id') is not None and (not isinstance(profile['book_id'], str) or not re.fullmatch(r'\d+', profile['book_id'])):
             raise Blocked('book_id 必须为数字字符串')
+        profile.setdefault('source_format', 'ready')
+        if profile['source_format'] not in {'ready', 'accepted_reviews'}:
+            raise Blocked('source_format 必须为 ready 或 accepted_reviews')
         profile.setdefault('branch', 'main')
         if not isinstance(profile['branch'], str) or not re.fullmatch(r'[A-Za-z0-9_][A-Za-z0-9_./-]*', profile['branch']) or '..' in profile['branch']:
             raise Blocked('非法 Git 分支')
@@ -53,9 +57,10 @@ def load_profiles(path: Path):
             profile.setdefault(field, default)
             if type(profile[field]) is not bool:
                 raise Blocked(f'{field} 必须为布尔值')
-        if profile['id'] in ids or profile['book_id'] in books:
+        if profile['id'] in ids or (profile.get('book_id') and profile['book_id'] in books):
             raise Blocked('小说 id 或番茄作品 ID 重复')
-        ids.add(profile['id']); books.add(profile['book_id'])
+        ids.add(profile['id'])
+        if profile.get('book_id'): books.add(profile['book_id'])
         if profile['enabled']:
             key = (profile['repository'], profile['branch'])
             if key in repos:
@@ -109,6 +114,7 @@ def worker_env(profile, root):
             'DATA_DIR': str(root / 'novels' / profile['id']),
             'GITHUB_REPOSITORY': profile['repository'], 'GITHUB_BRANCH': profile['branch'],
             'FANQIE_BOOK_ID': profile['book_id'], 'FANQIE_BOOK_TITLE': profile['book_title'],
+            'SOURCE_FORMAT': profile['source_format'],
             'PUBLISH_ENABLED': str(profile['publish_enabled']).lower(),
             'DAILY_UPLOAD_CHAR_LIMIT': str(profile['daily_upload_char_limit']),
             'PUBLISH_INTERVAL_SECONDS': str(profile['publish_interval_seconds']),

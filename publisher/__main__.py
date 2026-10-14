@@ -70,12 +70,14 @@ class Journal:
 
 
 async def cycle(args, data, repo, journal, browser_factory):
+    from .adapters import get_adapter
+    adapter = get_adapter(os.getenv('SOURCE_FORMAT', 'ready'), os.getenv('FANQIE_BOOK_ID', ''))
     repo.sync()
-    chapters = scan(repo.root)
+    chapters = adapter.scan(repo.root)
     if args.command == "check":
         for chapter in chapters:
-            check_plan(repo.root, chapter)
-        LOG.info("本地校验通过：%s 个 ready 章节；未打开编辑器", len(chapters))
+            adapter.check(repo.root, chapter)
+        LOG.info("本地校验通过：%s 个待发布章节（%s）；未打开编辑器", len(chapters), os.getenv('SOURCE_FORMAT', 'ready'))
         for chapter in chapters:
             LOG.info("第 %s 章，正文 %s 字符", chapter.number, len(chapter.body))
         return
@@ -103,7 +105,7 @@ async def cycle(args, data, repo, journal, browser_factory):
         for chapter in chapters:
             # Check each chapter in sequence. A bad later ready entry must not
             # prevent earlier, QA-passed chapters from being verified/published.
-            check_plan(repo.root, chapter)
+            adapter.check(repo.root, chapter)
             record = journal.get(chapter.number)
             if record and record["digest"] != chapter.digest:
                 raise Blocked(f"第 {chapter.number} 章发布事务正文发生变化，禁止继续")
@@ -145,6 +147,7 @@ async def cycle(args, data, repo, journal, browser_factory):
                 url = await site.create()
                 journal.put(chapter, "editing", url)
                 await site.fill(chapter)
+                adapter.check(repo.root, chapter)
                 # Persist BEFORE the first potentially consequential click.
                 journal.put(chapter, "submitted", url)
                 journal.reserve_upload(chapter)
@@ -157,6 +160,7 @@ async def cycle(args, data, repo, journal, browser_factory):
             else:
                 url = record["url"]
                 if deferred and await site.resume_deferred(chapter, url):
+                    adapter.check(repo.root, chapter)
                     journal.put(chapter, 'submitted', url)
                     journal.reserve_upload(chapter)
                     try:
@@ -179,8 +183,8 @@ async def cycle(args, data, repo, journal, browser_factory):
                     continue
                 return
             journal.put(chapter, "archiving", url)
-            archive(repo.root, chapter)
-            repo.commit_archive(chapter.path.name, chapter.number)
+            adapter.archive(repo.root, chapter, url)
+            adapter.commit(repo, chapter)
             journal.put(chapter, "published", url)
             LOG.info("第 %s 章已发布、核验并回写 GitHub", chapter.number)
             count += 1

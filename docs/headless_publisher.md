@@ -198,6 +198,22 @@ docker compose run --rm publisher reconcile --chapter 1 --url 'https://fanqienov
 
 ## 多小说配置
 
+### 第二种仓库格式：接纳正文与双审记录
+
+在作品配置中设置 `source_format: accepted_reviews`（默认 `ready`）。此格式读取 `chapters/000001.md`，仅选择 `reviews/000001/acceptance.json` 状态为 `COMMITTED` 的章节；没有接纳记录或仍在审核的正文不会进入发布队列。
+
+发布前校验正文 Git blob SHA-1 与接纳记录中的 `accepted_draft_hash`、`prose.sha`、路径、章号及幂等键；读取 continuity、reader_editor 两份审核文件，校验各自文件哈希、PASS、正文哈希、章号、run_id、revision、contract_hash 和阻塞问题；总编裁决必须接纳同一正文并引用这两份审核哈希。填写完成、点击提交之前再次校验，归档前亦复核。它只验证已有证据，不创建或伪造审核结果。
+
+正文第一行须为 `# 第一章 标题` 或 `# 第1章 标题`，章号须与文件名一致，标题至少五个非空白字符。标题不进入正文；正文去掉 HTML 注释及 `**加粗**` 的标记后输出纯文本，未支持的结构或内部资料会阻止发布。证据哈希始终按原始字节计算，不用转换后的文本冒充已审核版本。
+
+平台核验成功后，仅新增 `publication/fanqie/000001.json`，记录作品 ID、远端 URL、正文/接纳证据指纹、纯文本哈希与核验时间，并将该状态文件提交回仓库。原正文、reviews、memory 均不移动、不改写；不会创建 `chapters/ready`、`chapters/published` 或计划表。审核中只记录独立数据目录内 SQLite 事务；发布成功记录匹配时跳过，记录冲突则停止，禁止重复发送。
+
+第二部 `death-game` 已预留真实仓库，但 `enabled: false`、`publish_enabled: false`，暂不要求 `book_id`/`book_title`，不会启动 worker、登录或发布。提供准确信息后填写并显式启用。可在不提供作品信息时检查仓库快照（不联网、不登录、不写发布记录）：
+
+```bash
+python -m publisher.adapters --repo /path/to/novel-death-game --source-format accepted_reviews
+```
+
 设置 `.env` 的 `NOVELS_CONFIG_PATH=/app/config/novels.yaml`，在 `config/novels.yaml` 的 `novels` 列表中添加每部作品的 `id`、`repository`、`branch`、带引号的 `book_id` 和 `book_title`。每部作品默认每日阈值为 7000；`publish_enabled` 控制是否提交，`enabled` 控制是否运行。新仓库仍需满足 ready/QA/计划表门槛，GitHub token 必须有该仓库的读写权限。
 
 每部作品在 `/data/novels/<id>/` 独立保存仓库、发布数据库和每日计数、扫描时间、Cookie、心跳与错误截图。id 应保持不变；更换绑定仓库/分支/作品会触发数据库保护，必须新建 id。各 worker 独立运行，失败仅影响对应作品；健康检查检查全部启用作品。平台可能另有账号级每日上限，本地每部 7000 字不会消除平台限制。

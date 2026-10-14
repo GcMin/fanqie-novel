@@ -94,3 +94,18 @@ class NovelsTests(unittest.TestCase):
             with self.assertRaises(Blocked): run_manager(['login-sms'])
             self.assertEqual(run_manager(['status', '--novel', 'second']), 0)
             self.assertEqual(run.call_args.kwargs['env']['NOVEL_ID'], 'second')
+
+    def test_disabled_second_format_needs_no_platform_identity(self):
+        self.items[1].update(enabled=False, publish_enabled=False, source_format='accepted_reviews')
+        del self.items[1]['book_id']; del self.items[1]['book_title']
+        profiles = self.profiles()
+        self.assertEqual([p['id'] for p in profiles], ['first'])
+        self.items[1]['enabled'] = True
+        with self.assertRaises(Blocked): self.profiles()
+
+    def test_source_format_is_validated_and_forwarded(self):
+        self.items[1]['source_format'] = 'accepted_reviews'
+        profiles = self.profiles()
+        self.assertEqual(worker_env(profiles[1], self.root)['SOURCE_FORMAT'], 'accepted_reviews')
+        self.items[1]['source_format'] = 'unchecked-chapters'
+        with self.assertRaises(Blocked): self.profiles()
