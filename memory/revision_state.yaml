@@ -1,9 +1,9 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 139
+current_chapter: 142
 current_stage: awaiting_reader
-current_source_path: chapters/draft/0139.md
-current_source_sha: a57e3ee991cd1fe1f981e07d0fbcf7febca328ef
+current_source_path: chapters/draft/0142.md
+current_source_sha: 1aa41c0abff0438e819822566586c6215e9273d1
 current_review_path: null
 rounds:
   reviews_this_cycle: 1
@@ -13,9 +13,9 @@ rounds:
 retry_cycles: 0
 next_retry_after: null
 last_action: local_revision
-last_action_date: 2026-10-14
+last_action_date: 2026-10-15
 last_error: null
-last_diff_summary: "第139章针对当前Reader MAJOR补足户内供电接报待核、独立转办与白班回访，电梯保持停用、专业维保检查后方可复运；仅楼梯公区照明结案，原救援与受控测试结果未改变。第140章仍依赖第139章旧SHA 90207528，须由Reader/QA核验新版关键事实兼容性，不能直接视为已核准Canon。第138章依赖第137章SHA ab9bb4c4d725521bbd81d47ab5c13be54a35f082未改。"
+last_diff_summary: "第142章针对唯一MAJOR补足六名烟气接触者的120院前分诊、继续观察及异常转诊要求；补全22:59预询、无障碍车辆与随车护理、23:36四人及23:53末两人实际接收签收证据。未处理MINOR、未改Canon/QA/ready。第143章仍声明依赖第142章旧SHA c98c2d744636933c645de3677ee9c4b8a2e94a92，Reader/QA须核其过夜人数、送医、机构接收时间与本版兼容性；第140章上游第139章旧SHA差异仍待QA，第138章引用第137章 ab9bb4c4d725521bbd81d47ab5c13be54a35f082 未改变。"
 repeated_issue_signatures: []
 qa_gate: pending
 publish_gate_passed: false
