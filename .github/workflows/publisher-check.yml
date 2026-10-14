@@ -8,7 +8,15 @@ on:
       - "chapters/ready/**"
       - "plans/chapter_plan.csv"
       - "publisher/**"
+      - "tests/test_check_local.py"
       - "requirements.txt"
+  pull_request:
+    paths:
+      - ".github/workflows/publisher-check.yml"
+      - "chapters/ready/**"
+      - "plans/chapter_plan.csv"
+      - "publisher/**"
+      - "tests/test_check_local.py"
   workflow_dispatch:
 
 permissions:
@@ -19,14 +27,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install publisher dependencies
-        run: python -m pip install -r requirements.txt
-      - name: Validate all ready chapters without publishing
+      - name: Install validation dependency only
+        run: python -m pip install PyYAML==6.0.2
+      - name: Test offline snapshot validation
+        run: python -m unittest discover -s tests -p test_check_local.py -v
+      - name: Validate this checkout without Git sync or publishing
         env:
-          GITHUB_REPOSITORY: GcMin/fanqie-novel
-          GITHUB_BRANCH: main
           PUBLISH_ENABLED: "false"
-        run: python -m publisher check
+        run: |
+          echo "Checked commit: $(git rev-parse HEAD)"
+          python -m publisher.check_local --repo .

@@ -1,0 +1,14 @@
+schema_version: 1
+mode: orchestrated
+observed_main: c87bd16ecbc6d7610bd3fa563fa33cf7db36c577
+last_completed_chapter: 136
+current_chapter: 137
+current_stage: awaiting_reader
+current_source_path: chapters/draft/0137.md
+current_source_sha: 52f3e357ea12977b867c73a250336992b2b8585e
+creative_gate: pending
+publish_gate: blocked
+blocker_type: quality_stage_not_yet_executed
+next_action: perform_reader_review_now_in_orchestrator
+next_new_chapter_after_creative_pass: 138
+note: "缓存只描述本次核查快照；后续运行必须从目录和版本证据重新推导，不可把此文件当作锁或沿用旧状态。"
