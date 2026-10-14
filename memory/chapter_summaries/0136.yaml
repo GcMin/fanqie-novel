@@ -2,13 +2,13 @@ schema_version: 1
 chapter: 136
 title: 那张清理单从哪来
 arc: ARC-043
-status: draft
+status: ready
 qa: pass
 reader_gate: pass
-source_sha: cfaad6d1ea7201f5143c60b91e5ac7c1e4f2b491
+source_sha: a9d19e174af1ca693cb238897d23784da549b590
 reader_review: reader_reviews/0136_cfaad6d1.md
 memory_sync: complete
-publish_gate: blocked
+publish_gate: pass
 memory_completed:
   character_state: true
   knowledge_state: true
@@ -16,4 +16,5 @@ memory_completed:
 memory_pending:
   foreshadowing: false
   timeline: false
-note: 第136章Reader与QA均通过，长期Memory已同步；仍需执行Publish Gate和publisher check校验后才可进入ready。
+note: 第136章Reader与QA均通过且长期Memory已同步；Github Actions已实际执行publisher check成功；进入ready且保留审查所依据的原草稿SHA与Review。
+publisher_check_run: https://github.com/GcMin/fanqie-novel/actions/runs/38487649723

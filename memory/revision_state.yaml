@@ -1,9 +1,9 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 136
-current_stage: qa_passed_memory_complete_publish_gate_pending
-current_source_path: chapters/draft/0136.md
-current_source_sha: cfaad6d1ea7201f5143c60b91e5ac7c1e4f2b491
+current_stage: ready
+current_source_path: chapters/ready/0136.md
+current_source_sha: a9d19e174af1ca693cb238897d23784da549b590
 current_review_path: reader_reviews/0136_cfaad6d1.md
 rounds:
   reviews_this_cycle: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: memory_synchronized_await_publisher_check
-last_action_at: 2026-10-02T14:52:00Z
+last_action: moved_to_ready_after_publisher_check
+last_action_at: 2026-10-14T00:02:04Z
 last_error: null
-last_diff_summary: "Reader Gate与常规QA通过；foreshadowing/timeline已成功同步，尚需实际运行python -m publisher check核验全部ready章节；未执行前Publish Gate保持blocked。"
+last_diff_summary: "第136章Reader Gate及QA已通过，Memory同步；GitHub Actions实际执行publisher check成功，正文不变，仅更新Front Matter并进入ready。"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: false
+publish_gate_passed: true
