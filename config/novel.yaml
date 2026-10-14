@@ -68,17 +68,16 @@ publishing:
   verify_after_publish: true
 
 automation:
-  mode: orchestrated
-  protocol: docs/writing_orchestrator.md
+  mode: split_roles
+  protocol: docs/writing_roles.md
   max_new_chapters_per_run: 1
-  finish_existing_then_write_same_run: true
-  wait_for_independent_reader: false
-  wait_for_next_tick_after_revision: false
-  allow_orchestrator_self_review: true
-  independent_workers_write_enabled: false
+  writer_scope: plan_and_draft_only
+  writer_can_reference_pending_predecessor: true
+  writer_store_predecessor_blob_sha: true
+  independent_reader_write_enabled: true
+  independent_revision_write_enabled: true
+  independent_quality_gate_write_enabled: true
   state_files_are_caches: true
-  separate_creative_and_delivery_gates: true
-  max_approved_unready: 2
   structural_check_command: python -m publisher.check_local --repo .
   quality_gate_bypass: false
   publish_to_platform: false

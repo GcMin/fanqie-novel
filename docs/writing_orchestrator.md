@@ -1,5 +1,7 @@
 # 每小时写作编排协议
 
+> **模式提示（2026-10-14）：**当前 `config/novel.yaml` 使用 `split_roles`，各会话实际分工以 `docs/writing_roles.md` 为准。本文保留供历史 `orchestrated` 模式参考，不要求 Writer 自行审稿或修改 Memory。
+
 生效：2026-10-14。用户授权检查并修改阻塞规则。模式由 `config/novel.yaml -> automation.mode` 决定。
 
 ## 1. 单一负责人，角色串行，不按小时拆阶段

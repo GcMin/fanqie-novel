@@ -12,21 +12,18 @@
 - 每章都有实际变化，不靠复述和空洞心理活动注水；
 - 文本自然、人物有语言区分度，避免模板化 AI 腔。
 
-## 2. 单章生产流水线
+## 2. 单章生产流水线与角色分工
 
-每轮先读 `config/novel.yaml` 与 `docs/writing_orchestrator.md`。当前采用单一 Orchestrator 串行完成各角色阶段：
+每轮先读 `config/novel.yaml`；当前 `automation.mode: split_roles`，细则见 `docs/writing_roles.md`。用户明确指定 Writer 会话只负责“新章详细章纲 + 新章正文首稿”，不得替其他会话执行修订或审核。
 
-1. Planner：读取 `docs/ai_reading_protocol.md` 指定上下文，生成下一章详细章纲。
-2. Continuity Precheck：确认章纲与 Canon、时间线、人物知识、伏笔不冲突。
-3. Writer：写正文到 `chapters/draft/`。
-4. Editor：只编辑已有正文，删除模板句、复述、解释性废话和凑字内容。
-5. Reader Review：执行普通读者与连续性两遍审查；必要时按有限次数修订并重新审查。
-6. QA：按 `qa/continuity_rules.md` 与 `qa/style_rules.md` 检查。
-7. Memory Updater：只依据通过审查的正文更新 `memory/`、`plans/chapter_plan.csv` 和章节摘要。
-8. Publish Gate：Reader、QA、Memory 及结构校验均通过后进入 `chapters/ready/`。
-9. Publisher：只读取 `chapters/ready/`，成功发布并核验后移动到 `chapters/published/`。写作任务不执行平台发布。
+章节仍遵循顺序：
+1. Writer 会话：读取 `docs/ai_reading_protocol.md` 规定上下文，完成 Planner 和 Continuity Precheck，创建 `plans/chapter_NNNN_plan.md` 与 `chapters/draft/NNNN.md`。
+2. 独立 Reader 会话：两遍阅读，产出与正文版本绑定的 Reader Review；不修改正文。
+3. 独立 Revision 会话：依据 Review 的 BLOCKER/MAJOR 修订或重写已有草稿，正文变更后重新送 Reader，不擅自写新章。
+4. 独立 QA/Memory/Publish Gate 会话：在 Review 通过后执行 Continuity QA、Style QA、必要 Memory 更新和结构校验，合格才将对应草稿移入 ready。
+5. Publisher：只读取 ready，并在番茄平台实际发布核验成功后归档 published；Writer 不执行平台发布。
 
-每轮最多新写一个章节，不是每轮只能做一个阶段。已有章节的审核、修订、QA、Memory 与交付收尾不占新章名额；处理完后可在同一轮新写下一章。不存在质量阻塞时，不得为了等待另一个小时任务而主动结束。
+Writer 每轮最多创建一个以前不存在的章节。上一章还在待审时可先以其**特定版本**作临时连续性参考写下一章，但必须保存依赖章号与 Git blob SHA；后续 Reader/QA 必须核对前章最终版是否改变关键事实。未经确认的前章不能被写成既成 Canon。若前章修订导致冲突，应由独立修订/QA 会话处理后章衔接，Writer 不回头自行修改旧稿。
 
 ## 3. 硬规则
 
@@ -79,12 +76,12 @@
 - Frontmatter、正文标题（若存在）与计划表标题必须一致。
 - 标题被平台拒绝时，修改须经用户确认，保留原远端章节 ID 和正文，核对后恢复，不重复建章。
 
-## 8. 定时编排与旧协议兼容
+## 8. 每小时任务分工（2026-10-14 最新用户要求）
 
-2026-10-14 用户授权解除续写阻塞后，`docs/writing_orchestrator.md` 是调度行为的唯一细则。当前 `automation.mode: orchestrated` 下：
+目前选择 `split_roles`：本会话只负责新章 Writer。完整详细要求见 `docs/writing_roles.md`；旧 `docs/writing_orchestrator.md` 只适用于先前 `orchestrated` 模式，不作为当前角色的执行约束。
 
-- Reader/Revision 的角色职责与质量标准继续有效；“必须独立定时任务”“一次仅一个修订动作后立刻结束”“完成 ready 后必须下轮才写”不再适用。
-- 同一会话可以顺序承担不同角色，但必须标明 `reviewer_mode: orchestrator_self_review`，不得声称进行了独立模型、独立会话或人工审查。
-- 旧独立 Reader/Revision 定时任务先读 automation.mode；集中模式下不修改仓库、不争抢当前章。
-- 状态文件是索引，不是锁。以实际章节与对应版本的 Review/QA/摘要为准，可将已完成上一章的游标前移到当前未完成章，禁止回退或复用上一章的通过记录。
-- 质量失败仍阻止依赖该章的新写作；纯执行环境/CI/平台发布等待与创作门分离，按新协议有限暂存，不强制停掉整个写作任务。
+- Writer：只创建新章详细章纲与首稿，不读取历史 Reader Review、不审核、不修订现有稿、不改长期 Memory、不设置 QA/ready/published、不发布番茄。
+- Reader：独立审查草稿；Revision：独立负责当前章修订；QA/Memory/Publish Gate：由独立收尾会话操作，各阶段必须保留可验证来源。
+- 原有 Reader/Revision 定时任务应在 `split_roles` 模式真实工作，不得沿用集中模式“只检查配置然后退出”的指令。
+- Writer 允许在上一章尚未审定时启动下一新章，但新稿必须标注所依赖上章的具体 blob SHA，供其他会话在前章发生修订时核对；这只是预先创作许可，**不是**提前通过 QA 或进入 ready 的许可。
+- 禁止复用其他章的 Reader/QA 结果，禁止为了按时新写而修改前章 Canon。所有 GitHub 写入须保护最新 main，遇并发冲突重新读取后再提交，不强推。
