@@ -1,0 +1,21 @@
+schema_version: 1
+chapter: 139
+title: "六楼转角没有灯"
+volume: 5
+arc: ARC-045
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: a57e3ee991cd1fe1f981e07d0fbcf7febca328ef
+reader_review: reader_reviews/0139_a57e3ee9.md
+timeframe: "Day27 20:28—21时后"
+summary: >-
+  松潭路楼梯公区应急照明故障，陶阿姨与外孙女由专业人员安全引导下楼，公区照明恢复；住户室内供电及电梯停用仍须核查。
+meaningful_state_changes:
+  - "人员安全、公区照明恢复；住户供电与电梯维保待核。"
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "人员安全、公区照明恢复；住户供电与电梯维保待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_checked}
+char_count: 3582

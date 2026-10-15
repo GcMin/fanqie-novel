@@ -1,10 +1,10 @@
 schema_version: 1
-last_updated_chapter: 137
-current_time: Day 26 21:14
+last_updated_chapter: 140
+current_time: Day27 22时后
 world:
   anomaly_public_awareness: none
-  current_arc: ARC-044_active
-  current_service_case: 鹿湾路铁路涵洞排水设施与LW-X17
+  current_arc: ARC-046_active
+  current_service_case: 石沐路北口临时公交停靠
   next_entry: 第138章核LW-X17封堵/验收与开放通行条件；所有前章临时事实以第137章ready版本为准，不提前确认M004。
 case_state:
   chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
@@ -25,3 +25,9 @@ invariants:
   chapter_136: BL-2024-08项目调整未联动门牌资产子表；归档阻塞解除后定时清理读取旧状态并误映射为建筑已拆除。三条资产已改保留在用，三项误拆任务终止；规则整改仅已提交；F011普通闭环。
 
   chapter_137: Day26 20:19鹿湾路铁路涵洞积水；龚阿姨与外孙20:32安全救出、21:14接走；雨减弱、抽排清障后仍封控。LW-X17现场出水与历史目录停用有待核对的同物/施工范围差异，不能提前确认异常。
+
+chapter_138_verified: "涵洞恢复通行；LW-X17普通原因闭环。"
+
+chapter_139_verified: "人员安全、公区照明恢复；住户供电与电梯维保待核。"
+
+chapter_140_verified: "四人安全接驳，司机站序待核。"

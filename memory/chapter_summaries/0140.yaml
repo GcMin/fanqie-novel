@@ -1,0 +1,21 @@
+schema_version: 1
+chapter: 140
+title: "站牌上还有最后一班"
+volume: 5
+arc: ARC-046
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 3facc99d78095e3a2b3acfadcedecf137561ddb5
+reader_review: reader_reviews/0140_3facc99d.md
+timeframe: "Day27 22:07—当晚"
+summary: >-
+  石沐路临时公交站审批有效但车载站序漏站，四名乘客被安全接驳。第139章修订新增的住户供电、电梯专业维保与本独立公交案件无直接事实冲突。
+meaningful_state_changes:
+  - "四人安全接驳，司机站序待核。"
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "四人安全接驳，司机站序待核。"
+reader_counts: {blocker: 0, major: 0, minor: 3}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_checked}
+char_count: 3277

@@ -1,0 +1,21 @@
+schema_version: 1
+chapter: 138
+title: "封堵单上那道虚线"
+volume: 5
+arc: ARC-044
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: ee373c6592deff1035b9bb4bda64be82386a41d9
+reader_review: reader_reviews/0138_ee373c65.md
+timeframe: "Day27 06:18—07:58"
+summary: >-
+  涵洞退水但尚需安全复核；旧支线封堵与保留出水段正常复用可以并存，专业核验后恢复通行，资产编码更正只申请未生效。
+meaningful_state_changes:
+  - "涵洞恢复通行；LW-X17普通原因闭环。"
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "涵洞恢复通行；LW-X17普通原因闭环。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_checked}
+char_count: 3364
