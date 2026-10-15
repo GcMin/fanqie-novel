@@ -69,7 +69,12 @@ publishing:
 
 automation:
   mode: split_roles
-  protocol: docs/writing_roles.md
+  protocol: docs/combined_audit_protocol.md
+  scheduled_tasks_for_this_repository: 2
+  audit_role: reader_revision_qa_memory_ready
+  audit_max_actions_per_run: 1
+  never_auto_disable_tasks_on_failure: true
+  retry_github_failure_on_next_run: true
   max_new_chapters_per_run: 1
   writer_scope: plan_and_draft_only
   writer_can_reference_pending_predecessor: true
