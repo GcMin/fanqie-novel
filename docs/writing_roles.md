@@ -1,3 +1,5 @@
+> **2026-10-15 更新：当前只使用 Writer 与唯一 Audit 两个定时任务。下文多会话 Reader/Revision/QA 均归并为 Audit 内部不同轮次的阶段；具体执行优先遵守 `docs/combined_audit_protocol.md`。GitHub 写入受阻不可自动暂停任务。**
+
 # 每小时小说写作：分会话协作协议
 
 生效：2026-10-14；依据用户最新要求，`config/novel.yaml -> automation.mode: split_roles`。本协议只改变执行分工，不修改 Canon、主线硬节点、质量门槛或平台发布流程。
