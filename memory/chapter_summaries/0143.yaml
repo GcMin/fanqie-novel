@@ -1,0 +1,22 @@
+schema_version: 1
+chapter: 143
+title: "清点表少的不是床"
+volume: 5
+arc: ARC-047
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: a4f65e79d5aee4bd9c3400df632c147cfc72d156
+reader_review: reader_reviews/0143_a4f65e79.md
+timeframe: "Day29 06:12—07:56"
+summary: >-
+  家属追问消防初始六人名单，调查确认六张备案床位与西屋易阿婆连续十二晚临时留宿并存，自动清单仅取固定床位且门房‘其他在场人员’为空。第142章新增的分诊/两次签收与此后续核查兼容。
+meaningful_state_changes:
+  - "漏登原因明确，执行临时人员级清点，正式制度变更仍待审批。"
+knowledge_updates: []
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "漏登原因明确，执行临时人员级清点，正式制度变更仍待审批。"
+reader_counts: {blocker: 0, major: 0, minor: 4}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_checked}
+char_count: 3376

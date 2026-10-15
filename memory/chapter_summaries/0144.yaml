@@ -1,0 +1,22 @@
+schema_version: 1
+chapter: 144
+title: "已经砍掉的那棵树"
+volume: 5
+arc: ARC-048
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 8e014c29ff6fb699fb308d807db2b0ebd730a300
+reader_review: reader_reviews/0144_8e014c29.md
+timeframe: "Day29 20:34—22:26"
+summary: >-
+  锦岭街大樟树危险枝威胁路人、摊位燃气与附近线路，责任单位封控处置危险枝，老孙的历史照片未拍清树牌，JL-041历史整株清除与现场挂041牌树体需按树位实物核对。
+meaningful_state_changes:
+  - "危险枝处理、路段仍封控，树号身份及剩余树体风险待核。"
+knowledge_updates: []
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "危险枝处理、路段仍封控，树号身份及剩余树体风险待核。"
+reader_counts: {blocker: 0, major: 0, minor: 4}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_checked}
+char_count: 3708

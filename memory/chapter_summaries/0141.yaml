@@ -1,0 +1,22 @@
+schema_version: 1
+chapter: 141
+title: "司机手里的那张纸"
+volume: 5
+arc: ARC-046
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 23a454da133d92aac501b07028a3e6802d671f73
+reader_review: reader_reviews/0141_23a454da.md
+timeframe: "Day28 20:06—22时后"
+summary: >-
+  公交公司补发夜班司机执行指令，N8车实际靠站接上马琴等候车人。此前‘公众不展示’字段被错误用于车载停靠名单筛选，生产规则修复仍待测试审核。
+meaningful_state_changes:
+  - "当晚乘客实际乘车；数据规则修复尚未上线。"
+knowledge_updates: []
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "当晚乘客实际乘车；数据规则修复尚未上线。"
+reader_counts: {blocker: 0, major: 0, minor: 3}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_checked}
+char_count: 3510

@@ -1,0 +1,22 @@
+schema_version: 1
+chapter: 142
+title: "第七张床还热着"
+volume: 5
+arc: ARC-047
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 1aa41c0abff0438e819822566586c6215e9273d1
+reader_review: reader_reviews/0142_1aa41c0a.md
+timeframe: "Day28 22:47—23:53"
+summary: >-
+  短托照护点火警，东屋六人已撤离，西屋易阿婆仍在内。消防救出第七人，120完成烟气接触分诊，六名撤离者含两名轮椅住客分别在23:36和23:53由机构签收，易阿婆送医。住宿暂停，名册人数差异待查。
+meaningful_state_changes:
+  - "七人脱险或安全转送，易阿婆送医，最初名单仅六人的原因待核。"
+knowledge_updates: []
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "七人脱险或安全转送，易阿婆送医，最初名单仅六人的原因待核。"
+reader_counts: {blocker: 0, major: 0, minor: 4}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_checked}
+char_count: 3488
