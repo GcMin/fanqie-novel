@@ -1,0 +1,22 @@
+schema_version: 1
+chapter: 145
+title: "树牌钉在留下的树上"
+volume: 5
+arc: ARC-048
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: ce14df1ff520578fb83d74f279a8c27092080c03
+reader_review: reader_reviews/0145_ce14df1f.md
+timeframe: "Day30 20:12—22:22"
+summary: >-
+  历史照片与资产材料确认三年前移除的是JL-041，现存树为JL-042，旧041牌误挂；风险复检仍待。街道安排唐姐在东口便民区临时经营，她卖出第一份饼。
+meaningful_state_changes:
+  - "树号对象得以解释且唐姐恢复临时经营，树体风险仍待复检。"
+knowledge_updates: []
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "树号对象得以解释且唐姐恢复临时经营，树体风险仍待复检。"
+reader_counts: {blocker: 0, major: 0, minor: 3}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_checked}
+char_count: 3613

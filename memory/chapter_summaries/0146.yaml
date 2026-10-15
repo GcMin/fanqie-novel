@@ -1,0 +1,22 @@
+schema_version: 1
+chapter: 146
+title: "还活着也不代表安全"
+volume: 5
+arc: ARC-048
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 2670daa114abd79d5da39dae307c36541a8da1bf
+reader_review: reader_reviews/0146_2670daa1.md
+timeframe: "Day31 20:11—23:02"
+summary: >-
+  园林完成现场专业风险评估与应急决定，按交警供电安全条件移除JL-042危险树体，原树牌留存。老孙的个人记忆不妨碍安全处置，前版无来源照片归还动作已移除；残桩道路恢复与资产状态仍待核。
+meaningful_state_changes:
+  - "危险树体移除，仍未恢复通行，资产变更仅受理。"
+knowledge_updates: []
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "危险树体移除，仍未恢复通行，资产变更仅受理。"
+reader_counts: {blocker: 0, major: 0, minor: 3}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_checked}
+char_count: 3103

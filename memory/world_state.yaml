@@ -1,10 +1,10 @@
 schema_version: 1
-last_updated_chapter: 144
-current_time: Day29 22:26
+last_updated_chapter: 148
+current_time: Day32 22:03
 world:
   anomaly_public_awareness: none
-  current_arc: ARC-048_active
-  current_service_case: 锦岭街危树及树牌对象待核
+  current_arc: ARC-049_complete
+  current_service_case: 沅江南岸广播离线配置已修复且西栅门闭锁待核
   next_entry: 第138章核LW-X17封堵/验收与开放通行条件；所有前章临时事实以第137章ready版本为准，不提前确认M004。
 case_state:
   chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
@@ -39,3 +39,11 @@ chapter_142_verified: "七人脱险或安全转送，易阿婆送医，最初名
 chapter_143_verified: "漏登原因明确，执行临时人员级清点，正式制度变更仍待审批。"
 
 chapter_144_verified: "危险枝处理、路段仍封控，树号身份及剩余树体风险待核。"
+
+chapter_145_verified: "树号对象得以解释且唐姐恢复临时经营，树体风险仍待复检。"
+
+chapter_146_verified: "危险树体移除，仍未恢复通行，资产变更仅受理。"
+
+chapter_147_verified: "三人脱险，错误音频停播，西栅门异常闭锁与广播原因待查。"
+
+chapter_148_verified: "广播离线在线提示均验证，推车安全领取，旧事件闭锁调查继续，通道仍封闭。"

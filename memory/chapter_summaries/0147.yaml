@@ -1,0 +1,22 @@
+schema_version: 1
+chapter: 147
+title: "广播让他们往锁着的门走"
+volume: 5
+arc: ARC-049
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 9463ce997aa0d527b48d66b7d50473c8ed4d8211
+reader_review: reader_reviews/0147_9463ce99.md
+timeframe: "Day31 23:14—Day32 00:17"
+summary: >-
+  洪青郭叔袁师傅被过时离线广播引至封锁东阶梯；洪青从虚掩西栅门进入，回返时西门也锁，闭锁时间、清场和钥匙交接另留待核。水务专业巡查带三人安全离开，人工停播，放水后河岸低平台仍封闭。
+meaningful_state_changes:
+  - "三人脱险，错误音频停播，西栅门异常闭锁与广播原因待查。"
+knowledge_updates: []
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "三人脱险，错误音频停播，西栅门异常闭锁与广播原因待查。"
+reader_counts: {blocker: 0, major: 0, minor: 3}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_checked}
+char_count: 3552
