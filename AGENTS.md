@@ -1,3 +1,5 @@
+> **2026-10-15 最新执行规则：本仓库只保留两个 ChatGPT 定时任务（Writer 与唯一 Audit）。Audit 分轮完成 Reader、Revision、Continuity/Style QA、Memory 与 ready；旧文中“独立 Reader/Revision/QA 会话”仅指审核阶段，不再要求单独定时任务。GitHub 写入失败不得自动暂停、禁用或删除任一任务，下轮自动重试。详情优先遵守 `docs/combined_audit_protocol.md`。**
+
 # AGENTS.md
 
 本文件是本仓库所有 AI/Agent 的最高优先级创作约束。除非用户明确修改规则，否则不得自行绕过。
