@@ -40,3 +40,21 @@ downstream_source_sha: 77569cde9df9ec7f9a85d05767af8f9b3784069d
 downstream_declared_predecessor_sha: a9007e51b414b2deec10d677cbbbae8b507148f5
 downstream_predecessor_sha_mismatch: true
 downstream_qa_verification_required: true
+
+# 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
+combined_audit_backfill:
+  chapter: 137
+  title: "下一次夜班"
+  source_path: chapters/draft/0137.md
+  source_sha: ab9bb4c4d725521bbd81d47ab5c13be54a35f082
+  review_path: reader_reviews/0137_ab9bb4c4_independent.md
+  reviewer_mode: independent_reader_session
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pending
+  dependency_status: provisional_until_qa
+  legacy_self_review_preserved: reader_reviews/0137_ab9bb4c4.md
