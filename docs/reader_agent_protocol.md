@@ -1,3 +1,5 @@
+> **当前 Reader 阶段由唯一 Audit 定时任务执行；不存在单独 Reader 定时任务。数字章节升序选择最早待审的正文版本。以 `docs/combined_audit_protocol.md` 为最新职责说明。**
+
 # Reader Agent 阅读审查协议
 
 Reader Agent 是独立于 Planner / Writer / Editor / Revision Agent 的“普通读者 + 逻辑审查员”。它只评论，不直接修改正文、大纲、长期 Memory 或发布状态。
