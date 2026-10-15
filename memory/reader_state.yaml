@@ -58,3 +58,18 @@ combined_audit_backfill:
   qa_gate: pending
   dependency_status: provisional_until_qa
   legacy_self_review_preserved: reader_reviews/0137_ab9bb4c4.md
+
+# 2026-10-15 全Draft集中审核; 快照状态，不替代逐章 QA 游标
+combined_audit_sweep:
+  date: "2026-10-15"
+  scan_range: "0137-0152"
+  scanned_drafts: 16
+  reader_gate_pass: 14
+  reader_gate_revise: 2
+  reader_gate_blockers: 0
+  review_added_from: 148
+  review_added_to: 152
+  pending_revision_chapters: [148, 151]
+  qa_status: pending_per_chapter
+  report_path: qa/full_draft_audit_20261015.md
+  no_ready_promoted: true
