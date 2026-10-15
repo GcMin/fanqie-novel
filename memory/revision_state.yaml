@@ -19,3 +19,16 @@ last_diff_summary: "第147章Stage A仅修复Reader所列MAJOR：明确洪青从
 repeated_issue_signatures: []
 qa_gate: pending
 publish_gate_passed: false
+
+# 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
+combined_audit_revisions:
+  chapter_148:
+    source_before: 77569cde9df9ec7f9a85d05767af8f9b3784069d
+    stage: local_revision
+    fixes: [pickup_timeline, west_gate_unresolved_closure]
+    awaiting_reader: true
+  chapter_151:
+    source_before: 29d93440a3065ac1ef63182b25e6f2faecf12123
+    stage: local_revision
+    fixes: [remove_metatext_from_dialogue]
+    awaiting_reader: true
