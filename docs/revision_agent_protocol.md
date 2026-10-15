@@ -1,3 +1,5 @@
+> **当前 Revision 阶段由唯一 Audit 定时任务执行；不存在单独 Revision 定时任务。GitHub 写入失败不得暂停定时任务，下一轮重试。以 `docs/combined_audit_protocol.md` 为最新职责说明。**
+
 # Revision Agent 全自动修订协议
 
 本协议用于在**没有人工 Review**的情况下处理 Reader Agent 发现的问题。
