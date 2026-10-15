@@ -1,0 +1,25 @@
+schema_version: 1
+chapter: 137
+title: 下一次夜班
+volume: 5
+arc: ARC-044
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: ab9bb4c4d725521bbd81d47ab5c13be54a35f082
+reader_review: reader_reviews/0137_ab9bb4c4_independent.md
+timeframe: Day 26 20:11—21:14
+summary: >-
+  第二十四次夜班刚开始，鹿湾路铁路涵洞人行辅道积水，龚阿姨与外孙被迫停在平台。中心联动交警、消防和市排水，20:32两人被消防安全带离；排水班使用移动泵并清走长栅格篷布，水位下降但仍维持封控，21:14家属接走。现场口沿标记LW-X17有出水，现行在用目录不含该编号，历史目录将旧支线记为三年前停用封堵。现场编号相同不能证明同一实体，待竣工、封堵范围和可能改接材料核验；尚无证据确认M004。
+meaningful_state_changes:
+  - 两名涉险人员安全脱险并由家属接走。
+  - 涵洞从积水无人管理推进为专业抽排和持续封控留守。
+  - LW-X17口沿与历史停用资产的差异得到分层记录，未确认同物或异常。
+knowledge_updates:
+  - 周衡、梁策、夏宁知道救援完成不等于现场开放，现场编号相同不等于整条支管同物。
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: Day26 21:14，ARC-044 active，涵洞封控，LW-X17身份待核。
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_with_ready_0136}
+char_count: 3142
