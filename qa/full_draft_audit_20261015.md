@@ -35,3 +35,8 @@
 2. 第148章、第151章必须完成有 SHA 对应的局部修订及新版本 Reader Review，不可借用旧报告通过。
 3. 不得因为这次批量 Reader PASS 就把第149、150、152章跳过此前章的 QA/事实兼容性核验。
 4. GitHub 写入失败时保留 Writer/Audit 两个定时任务启用，不强推，下一轮重读。
+
+
+## 2026-10-15 最终执行回执
+
+前文为集中初审时刻的历史快照。随后按最早草稿的章节数字顺序执行完两处局部修订（148、151）、各自新 SHA 复审、全部16章 Continuity/Style QA、章节摘要与状态/计划同步，并将0137至0152全部原子迁入 chapters/ready/。原章节稿均从 draft 目录移走。全部批次的 publisher-check GitHub Actions 已对准确提交版本执行且成功；最后一次 run: https://github.com/GcMin/fanqie-novel/actions/runs/38697563049 。最终 Reader 16 PASS / 0待修，QA 16 PASS，ready 16新增，draft 当前为空。没有执行番茄发布。

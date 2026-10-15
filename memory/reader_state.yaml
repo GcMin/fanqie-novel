@@ -1,16 +1,16 @@
 schema_version: 1
-last_reviewed_chapter: 147
-last_reviewed_title: 广播让他们往锁着的门走
-last_source_path: chapters/draft/0147.md
-last_source_sha: 9463ce997aa0d527b48d66b7d50473c8ed4d8211
-last_review_path: reader_reviews/0147_9463ce99.md
-last_reviewed_at: "2026-10-15T12:04:52+08:00"
+last_reviewed_chapter: 152
+last_reviewed_title: 别把那三下删掉
+last_source_path: chapters/draft/0152.md
+last_source_sha: a59b195df605c150a07ce66bc3d7ef4750431715
+last_review_path: reader_reviews/0152_a59b195d.md
+last_reviewed_at: "2026-10-15"
 reviewer_mode: independent_reader_session
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
-minor_count: 3
+minor_count: 2
 reader_gate: pass
 depends_on_chapter: 146
 depends_on_source_sha: dd061d0c7ab9a4b349896a568fbcfffe714e598f
@@ -78,3 +78,14 @@ combined_audit_rereview_20261015:
   chapter_148: 5064c205cf30d69b290504d4169addac7b702945
   chapter_151: 4ab3848ca09073fb453a9277f3ef13fb02e9b8a9
   status: reader_pass_awaiting_continuity_style_qa
+
+combined_audit_final_20261015:
+  chapters: "0137-0152"
+  revised_and_rereviewed: [148, 151]
+  reader_gate_pass: 16
+  continuity_style_qa_pass: 16
+  ready_delivered: 16
+  draft_backlog_remaining: 0
+  validation_run: "https://github.com/GcMin/fanqie-novel/actions/runs/38697563049"
+  validation_status: success
+  all_sources_verified: true
