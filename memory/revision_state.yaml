@@ -1,9 +1,9 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 142
+current_chapter: 146
 current_stage: awaiting_reader
-current_source_path: chapters/draft/0142.md
-current_source_sha: 1aa41c0abff0438e819822566586c6215e9273d1
+current_source_path: chapters/draft/0146.md
+current_source_sha: 2670daa114abd79d5da39dae307c36541a8da1bf
 current_review_path: null
 rounds:
   reviews_this_cycle: 1
@@ -15,7 +15,7 @@ next_retry_after: null
 last_action: local_revision
 last_action_date: 2026-10-15
 last_error: null
-last_diff_summary: "第142章针对唯一MAJOR补足六名烟气接触者的120院前分诊、继续观察及异常转诊要求；补全22:59预询、无障碍车辆与随车护理、23:36四人及23:53末两人实际接收签收证据。未处理MINOR、未改Canon/QA/ready。第143章仍声明依赖第142章旧SHA c98c2d744636933c645de3677ee9c4b8a2e94a92，Reader/QA须核其过夜人数、送医、机构接收时间与本版兼容性；第140章上游第139章旧SHA差异仍待QA，第138章引用第137章 ab9bb4c4d725521bbd81d47ab5c13be54a35f082 未改变。"
+last_diff_summary: "第146章Stage A仅删除章末无来源的父亲刷石灰旧照片归还句；保留老孙口述、历史双树照片、JL-041/JL-042身份、危树主体移除、残桩和道路待清场、资产更新待回执；3项MINOR不改。新正文等待独立Reader按新SHA复核；第147章仍依赖第146章旧SHA dd061d0c7ab9a4b349896a568fbcfffe714e598f，后续QA需核衔接。第138章依赖第137章临时SHA ab9bb4c4d725521bbd81d47ab5c13be54a35f082，非Canon；139→140、142→143依赖旧版的差异仍待QA。"
 repeated_issue_signatures: []
 qa_gate: pending
 publish_gate_passed: false
