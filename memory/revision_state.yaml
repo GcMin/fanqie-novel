@@ -1,9 +1,9 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 146
+current_chapter: 147
 current_stage: awaiting_reader
-current_source_path: chapters/draft/0146.md
-current_source_sha: 2670daa114abd79d5da39dae307c36541a8da1bf
+current_source_path: chapters/draft/0147.md
+current_source_sha: 9463ce997aa0d527b48d66b7d50473c8ed4d8211
 current_review_path: null
 rounds:
   reviews_this_cycle: 1
@@ -15,7 +15,7 @@ next_retry_after: null
 last_action: local_revision
 last_action_date: 2026-10-15
 last_error: null
-last_diff_summary: "第146章Stage A仅删除章末无来源的父亲刷石灰旧照片归还句；保留老孙口述、历史双树照片、JL-041/JL-042身份、危树主体移除、残桩和道路待清场、资产更新待回执；3项MINOR不改。新正文等待独立Reader按新SHA复核；第147章仍依赖第146章旧SHA dd061d0c7ab9a4b349896a568fbcfffe714e598f，后续QA需核衔接。第138章依赖第137章临时SHA ab9bb4c4d725521bbd81d47ab5c13be54a35f082，非Canon；139→140、142→143依赖旧版的差异仍待QA。"
+last_diff_summary: "第147章Stage A仅修复Reader所列MAJOR：明确洪青从西坡未锁栅门进入、广播误导其往东阶梯、准备原路折回时获知西栅门已锁；西栅门首次闭锁时间、预案清场及钥匙交接按待核登记，不虚构经办人或责任结论；三人撤离及音频技术问题待核不变。3项MINOR不改。新正文等待独立Reader按新SHA复查。第148章仍依赖第147章旧SHA a9007e51b414b2deec10d677cbbbae8b507148f5，须独立QA核实新旧关键事实兼容性；第147章依赖第146章旧SHA dd061d0c7ab9a4b349896a568fbcfffe714e598f，现版第146章为2670daa114abd79d5da39dae307c36541a8da1bf。第138章依赖第137章临时SHA ab9bb4c4d725521bbd81d47ab5c13be54a35f082，非Canon；139→140、142→143上游差异仍待QA。"
 repeated_issue_signatures: []
 qa_gate: pending
 publish_gate_passed: false
