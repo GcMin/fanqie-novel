@@ -1,10 +1,10 @@
 schema_version: 1
-last_updated_chapter: 148
-current_time: Day32 22:03
+last_updated_chapter: 152
+current_time: Day33 23:58
 world:
   anomaly_public_awareness: none
-  current_arc: ARC-049_complete
-  current_service_case: 沅江南岸广播离线配置已修复且西栅门闭锁待核
+  current_arc: ARC-050_active
+  current_service_case: 龙栎路旧文化宫后巷LH-09事故调查未结
   next_entry: 第138章核LW-X17封堵/验收与开放通行条件；所有前章临时事实以第137章ready版本为准，不提前确认M004。
 case_state:
   chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
@@ -47,3 +47,11 @@ chapter_146_verified: "危险树体移除，仍未恢复通行，资产变更仅
 chapter_147_verified: "三人脱险，错误音频停播，西栅门异常闭锁与广播原因待查。"
 
 chapter_148_verified: "广播离线在线提示均验证，推车安全领取，旧事件闭锁调查继续，通道仍封闭。"
+
+chapter_149_verified: "卢程获救送医、LH-09持续禁入，入井经过待查。"
+
+chapter_150_verified: "不当定性撤回、证据正式移交，坠落原因未证。"
+
+chapter_151_verified: "影像正式保存、公众绕行清晰，事故责任与井盖状态仍未明。"
+
+chapter_152_verified: "原群消息被保留、报险安全指引已当晚执行；LH-09仍封闭，呼名与坠落原因待查。"

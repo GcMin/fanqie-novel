@@ -1,0 +1,22 @@
+schema_version: 1
+chapter: 151
+title: "录像先拍到了缺口"
+volume: 5
+arc: ARC-050
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 4ab3848ca09073fb453a9277f3ef13fb02e9b8a9
+reader_review: reader_reviews/0151_4ab3848c.md
+timeframe: "Day33 20:16—22:11"
+summary: >-
+  调查单位依法保全贺姨商铺视频，校时后约21:52外围黄色挡板偏向通行侧；井口不在摄像范围，不能认定盖板移位或责任人。责任方增设岔口提前绕行牌并复查临时围挡，前版角色元叙事‘这章’已删除。
+meaningful_state_changes:
+  - "影像正式保存、公众绕行清晰，事故责任与井盖状态仍未明。"
+knowledge_updates: []
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "影像正式保存、公众绕行清晰，事故责任与井盖状态仍未明。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_checked}
+char_count: 3137

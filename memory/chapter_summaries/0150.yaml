@@ -1,0 +1,22 @@
+schema_version: 1
+chapter: 150
+title: "离开工位，不等于擅自下井"
+volume: 5
+arc: ARC-050
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 3f43afe9f0269fb381f5478effe86dc373c044a7
+reader_review: reader_reviews/0150_3f43afe9.md
+timeframe: "Day33 06:07—07:56"
+summary: >-
+  卢雯反对检测公司将卢程写成‘擅自入井’；21:47原群消息和补光灯回收照片证明去后场有工作理由，尚不能说明坠井过程；公司修正内部简报保留原版，设施围挡缺陷维修回执尚无。
+meaningful_state_changes:
+  - "不当定性撤回、证据正式移交，坠落原因未证。"
+knowledge_updates: []
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "不当定性撤回、证据正式移交，坠落原因未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_checked}
+char_count: 3371

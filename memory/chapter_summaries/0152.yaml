@@ -1,0 +1,22 @@
+schema_version: 1
+chapter: 152
+title: "别把那三下删掉"
+volume: 5
+arc: ARC-050
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: a59b195df605c150a07ce66bc3d7ef4750431715
+reader_review: reader_reviews/0152_a59b195d.md
+timeframe: "Day33 22:23—23:58"
+summary: >-
+  崔姨被要求撤回22:09原群消息，中心坚持保全原始记录并与22:16报警区分；卢程恢复期陈述确曾敲三下求救且向崔姨道谢，但口述不等于事故鉴定。受理单位签收材料，保洁班组执行疑险先报警及绕行交接。
+meaningful_state_changes:
+  - "原群消息被保留、报险安全指引已当晚执行；LH-09仍封闭，呼名与坠落原因待查。"
+knowledge_updates: []
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "原群消息被保留、报险安全指引已当晚执行；LH-09仍封闭，呼名与坠落原因待查。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_checked}
+char_count: 2909

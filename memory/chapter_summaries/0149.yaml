@@ -1,0 +1,22 @@
+schema_version: 1
+chapter: 149
+title: "井盖下面的第三声"
+volume: 5
+arc: ARC-050
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 26a5a9f5c1da861d7d63b771016166c686abaac4
+reader_review: reader_reviews/0149_26a5a9f5.md
+timeframe: "Day32 22:16—23:39"
+summary: >-
+  崔姨在龙栎路旧文化宫后巷听到井内三次敲击并报险，消防专业救出卢程并送120；现场实际井位LH-09与工作派工LH-06不同。围挡隔离保持，卢程提到‘有人喊名字’仅为未核实的个人听觉陈述。
+meaningful_state_changes:
+  - "卢程获救送医、LH-09持续禁入，入井经过待查。"
+knowledge_updates: []
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "卢程获救送医、LH-09持续禁入，入井经过待查。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_checked}
+char_count: 3332
