@@ -73,3 +73,8 @@ combined_audit_sweep:
   qa_status: pending_per_chapter
   report_path: qa/full_draft_audit_20261015.md
   no_ready_promoted: true
+
+combined_audit_rereview_20261015:
+  chapter_148: 5064c205cf30d69b290504d4169addac7b702945
+  chapter_151: 4ab3848ca09073fb453a9277f3ef13fb02e9b8a9
+  status: reader_pass_awaiting_continuity_style_qa

@@ -72,7 +72,10 @@ automation:
   protocol: docs/combined_audit_protocol.md
   scheduled_tasks_for_this_repository: 2
   audit_role: reader_revision_qa_memory_ready
-  audit_max_actions_per_run: 1
+  audit_max_actions_per_run: null
+  audit_batch_backlog: true
+  audit_process_until_blocked: true
+  audit_require_new_sha_rereview: true
   never_auto_disable_tasks_on_failure: true
   retry_github_failure_on_next_run: true
   max_new_chapters_per_run: 1
