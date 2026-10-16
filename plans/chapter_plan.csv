@@ -74,7 +74,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 131,封存仓库里的冷机,completed,ARC-039,解决低频噪声,冷机机械故障与封存范围需分层,噪声消失且设备停运观察,,3000,pass,published,普通闭环
 132,少走的一条巷子,completed,ARC-040,先补收梧柳巷再核换车交接,石桥口后续口头语义歧义导致回头段漏收,四桶及雨水口补收；当晚交接明确最后完成点和下一未完成点,,3000,pass,published,Reader Gate通过；有效正文2668；Memory/T135已更新；不建立异常候选
 133,关门以后还有一个人,completed,ARC-041,先安全放出闭园后被锁在澄湖公园东岸的保洁员再核清园交接,班长说作业结束但巡逻员理解为人员离场且罗姐当时在保洁房处理工具,罗姐01:07安全离园；当晚工作人员通道关闭前改为逐班组明确确认离场或留场人数,,3000,pass,published,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文2563；Memory/T136已更新；ARC-041普通闭环
-134,冷水龙头冒热气,completed,ARC-042,先控制锦西里高区冷水异常升温烫伤风险并逐步定位串水点,住户感觉不能替代阀门隔离与温度验证且不能因白天维修记录直接猜故障户,1101不匹配恒温阀芯被隔离；十一至十三楼冷水恢复正常，无人员烫伤,,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文2656；Memory/T137已更新；ARC-042普通闭环
+134,冷水龙头冒热气,completed,ARC-042,先控制锦西里高区冷水异常升温烫伤风险并逐步定位串水点,住户感觉不能替代阀门隔离与温度验证且不能因白天维修记录直接猜故障户,1101不匹配恒温阀芯被隔离；十一至十三楼冷水恢复正常，无人员烫伤,,3000,pass,published,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；有效正文2656；Memory/T137已更新；ARC-042普通闭环
 135,有人半夜拆门牌,completed,ARC-043,先冻结白鹭巷27/29/31号夜间拆牌并恢复现实门牌再最小核任务来源,当前标准地址在用和去年项目调整保留与当日新清理清单“建筑已拆除”冲突；普通下游状态漏同步仍需优先核验,27号原牌复装、29号重新紧固、31号未动；F011建立且ARC-043保持active,F011,3000,pass,ready,首轮0 BLOCKER/1 MAJOR/1 MINOR后Stage A删除正文内部F011编号；复审0 BLOCKER/0 MAJOR/1 MINOR；有效正文3314；Memory/T138已更新
 136,那张清理单从哪来,completed,ARC-043,只核BL-2024-08调整状态传播与16:32清单生成规则/上游字段并检查同批同类记录,项目主表已调整但门牌资产子表漏取消；归档阻塞解除后定时清理把旧状态映射为建筑已拆除,三条资产改为保留在用且三项误拆任务正式终止；F011普通闭环,F011,3000,pass,ready,Reader Gate 0 BLOCKER/0 MAJOR/1 MINOR；正文经局部删除内部ARC编号后通过；有效正文约2884；Memory/T139更新
 137,下一次夜班,completed,ARC-044,先救援鹿湾路涵洞积水涉险者并控制通行再核旧支管现场与资产差异,雨天现场排险优先；历史停用记录和现场同编号口不能直接等同同一管线,涉险两人脱险且涵洞封控抽排；LW-X17现场口出水与旧目录停用差异待白班窄核,,3000,pass,ready,独立Reader 0 BLOCKER/0 MAJOR/2 MINOR；Continuity/Style QA通过；F008无新增、M004未确认；Memory与时间线同步
