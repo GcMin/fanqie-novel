@@ -80,7 +80,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 137,下一次夜班,completed,ARC-044,先救援鹿湾路涵洞积水涉险者并控制通行再核旧支管现场与资产差异,雨天现场排险优先；历史停用记录和现场同编号口不能直接等同同一管线,涉险两人脱险且涵洞封控抽排；LW-X17现场口出水与旧目录停用差异待白班窄核,,3000,pass,published,独立Reader 0 BLOCKER/0 MAJOR/2 MINOR；Continuity/Style QA通过；F008无新增、M004未确认；Memory与时间线同步
 138,封堵单上那道虚线,completed,ARC-044,现实救助及来源核验,严格区分已执行与待核事项,涵洞恢复通行；LW-X17普通原因闭环。,,3000,pass,published,Reader0BLOCKER0MAJOR2MINOR；QA与Memory已同步；原稿SHAee373c65
 139,六楼转角没有灯,completed,ARC-045,现实救助及来源核验,严格区分已执行与待核事项,人员安全、公区照明恢复；住户供电与电梯维保待核。,,3000,pass,published,Reader0BLOCKER0MAJOR2MINOR；QA与Memory已同步；原稿SHAa57e3ee9
-140,站牌上还有最后一班,completed,ARC-046,现实救助及来源核验,严格区分已执行与待核事项,四人安全接驳，司机站序待核。,,3000,pass,ready,Reader0BLOCKER0MAJOR3MINOR；QA与Memory已同步；原稿SHA3facc99d
+140,站牌上还有最后一班,completed,ARC-046,现实救助及来源核验,严格区分已执行与待核事项,四人安全接驳，司机站序待核。,,3000,pass,published,Reader0BLOCKER0MAJOR3MINOR；QA与Memory已同步；原稿SHA3facc99d
 141,司机手里的那张纸,completed,ARC-046,安全处置与源记录核验,待核与已执行责任边界,当晚乘客实际乘车；数据规则修复尚未上线。,,3000,pass,ready,源稿SHA23a454da；独立Reader0BLOCKER0MAJOR3MINOR；QA与Memory已核
 142,第七张床还热着,completed,ARC-047,安全处置与源记录核验,待核与已执行责任边界,七人脱险或安全转送，易阿婆送医，最初名单仅六人的原因待核。,,3000,pass,ready,源稿SHA1aa41c0a；独立Reader0BLOCKER0MAJOR4MINOR；QA与Memory已核
 143,清点表少的不是床,completed,ARC-047,安全处置与源记录核验,待核与已执行责任边界,漏登原因明确，执行临时人员级清点，正式制度变更仍待审批。,,3000,pass,ready,源稿SHAa4f65e79；独立Reader0BLOCKER0MAJOR4MINOR；QA与Memory已核
