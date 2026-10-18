@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 152
-last_reviewed_title: 别把那三下删掉
-last_source_path: chapters/draft/0152.md
-last_source_sha: a59b195df605c150a07ce66bc3d7ef4750431715
-last_review_path: reader_reviews/0152_a59b195d.md
-last_reviewed_at: "2026-10-15"
+last_reviewed_chapter: 156
+last_reviewed_title: 那条没填理由的隐藏记录
+last_source_path: chapters/draft/0156.md
+last_source_sha: efbca08f410d4e1eba6094ed36482dac4840a3df
+last_review_path: reader_reviews/0156_efbca08f.md
+last_reviewed_at: "2026-10-18"
 reviewer_mode: independent_reader_session
 recommendation: keep
 required_action: none
@@ -89,3 +89,11 @@ combined_audit_final_20261015:
   validation_run: "https://github.com/GcMin/fanqie-novel/actions/runs/38697563049"
   validation_status: success
   all_sources_verified: true
+
+combined_audit_review_20261018:
+  chapters: [153, 154, 155, 156]
+  source_sha8: [c0dcce02, 953157a8, 51c36c4f, efbca08f]
+  reader_blockers: 0
+  reader_majors: 0
+  reader_gate: pass
+  structural_gate: pending
