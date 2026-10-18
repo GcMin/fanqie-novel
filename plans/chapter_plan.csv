@@ -93,3 +93,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 150,离开工位，不等于擅自下井,completed,ARC-050,人物安全与原始证据核验,伤者主观陈述与专业调查边界,不当定性撤回、证据正式移交，坠落原因未证。,,3000,pass,ready,独立Reader0BLOCKER0MAJOR2MINOR；原稿SHA3f43afe9；QA与Memory已同步
 151,录像先拍到了缺口,completed,ARC-050,人物安全与原始证据核验,伤者主观陈述与专业调查边界,影像正式保存、公众绕行清晰，事故责任与井盖状态仍未明。,,3000,pass,ready,独立Reader0BLOCKER0MAJOR2MINOR；原稿SHA4ab3848c；QA与Memory已同步
 152,别把那三下删掉,completed,ARC-050,人物安全与原始证据核验,伤者主观陈述与专业调查边界,原群消息被保留、报险安全指引已当晚执行；LH-09仍封闭，呼名与坠落原因待查。,,3000,pass,ready,独立Reader0BLOCKER0MAJOR2MINOR；原稿SHAa59b195d；QA与Memory已同步
+153,人没回来，表先签完了,completed,ARC-050,现实处置及源证据核验,安全与专业权限边界,错误的全员返车声明更正已提交；人员临时清点落地；坠井事故未结,,3000,pass,ready,源SHAc0dcce02 Reader0BLOCKER0MAJOR3MINOR 内容QA已核 结构校验由目标提交CI作为交付门禁
+154,围挡外的最后九桶,completed,ARC-050,现实处置及源证据核验,安全与专业权限边界,九桶全部清运、门前通行恢复，原井口封控不变,,3000,pass,ready,源SHA953157a8 Reader0BLOCKER0MAJOR1MINOR 内容QA已核 结构校验由目标提交CI作为交付门禁
+155,二十二号不在地图上,completed,ARC-051,现实处置及源证据核验,安全与专业权限边界,电气风险隔离与临时后院通路已执行；22号标准地址尚待查,F012,3000,pass,ready,源SHA51c36c4f Reader0BLOCKER0MAJOR2MINOR 内容QA已核 结构校验由目标提交CI作为交付门禁
+156,那条没填理由的隐藏记录,completed,ARC-051,现实处置及源证据核验,安全与专业权限边界,22号源地址在用、照护实际到户、管理端限制展示来源得到可核查线索，M004未证,F012,3000,pass,ready,源SHAefbca08f Reader0BLOCKER0MAJOR2MINOR 内容QA已核 结构校验由目标提交CI作为交付门禁

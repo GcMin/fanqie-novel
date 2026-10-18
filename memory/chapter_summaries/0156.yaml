@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 156
+title: "那条没填理由的隐藏记录"
+volume: 5
+arc: ARC-051
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: efbca08f410d4e1eba6094ed36482dac4840a3df
+reader_review: reader_reviews/0156_efbca08f.md
+timeframe: "Day35 20:09—22:58"
+summary: >-
+  街道核实岚槐巷22号标准地址在用；社区照护员经许可实际到户。公众层因管理端处理链的一条暂缓展示标记而查不到22号，核查摘要任务编号为空，审批依据具体操作者和意图仍待核；路灯未复电。
+meaningful_state_changes:
+  - "22号源地址在用、照护实际到户、管理端限制展示来源得到可核查线索，M004未证"
+knowledge_updates:
+  - "仅采用已确认的本章事实；推测及受理事项不得冒充完成。"
+foreshadowing_updates:
+  - "F008未新增；F009/F010/F011 resolved；M004未确认且M005未触及。"
+relationship_updates: []
+ending_state: "22号源地址在用、照护实际到户、管理端限制展示来源得到可核查线索，M004未证"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_checked}
+char_count: 3392

@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 154
+title: "围挡外的最后九桶"
+volume: 5
+arc: ARC-050
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 953157a858fe324e0fbcd51d5cd86939d1a64c92
+reader_review: reader_reviews/0154_953157a8.md
+timeframe: "Day34 20:18—22:23"
+summary: >-
+  贺姨店门口起初七桶、菜摊后来两桶合计九桶；环卫调度经核准正面与南侧公用路线，小型转运车分两趟清走六桶和三桶，原封控不改，后三晚改线排班尚未执行。
+meaningful_state_changes:
+  - "九桶全部清运、门前通行恢复，原井口封控不变"
+knowledge_updates:
+  - "仅采用已确认的本章事实；推测及受理事项不得冒充完成。"
+foreshadowing_updates:
+  - "F008未新增；F009/F010/F011 resolved；M004未确认且M005未触及。"
+relationship_updates: []
+ending_state: "九桶全部清运、门前通行恢复，原井口封控不变"
+reader_counts: {blocker: 0, major: 0, minor: 1}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: pass_checked}
+char_count: 2961

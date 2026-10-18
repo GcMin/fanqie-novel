@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 155
+title: "二十二号不在地图上"
+volume: 5
+arc: ARC-051
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 51c36c4fdec62a7a10d66ef53f4f65d50e34bd8b
+reader_review: reader_reviews/0155_51c36c4f.md
+timeframe: "Day34 23:17—Day35 00:33"
+summary: >-
+  岚槐巷22号LM-214疑似电气险由专业人员隔离但未复电，正门警戒延续。经老胡允许开共用后院临时出入口；街道受理源地址与公众地图缺项核查，不能从实体门牌直接推定标准地址。
+meaningful_state_changes:
+  - "电气风险隔离与临时后院通路已执行；22号标准地址尚待查"
+knowledge_updates:
+  - "仅采用已确认的本章事实；推测及受理事项不得冒充完成。"
+foreshadowing_updates:
+  - "F008未新增；F009/F010/F011 resolved；M004未确认且M005未触及。"
+relationship_updates: []
+ending_state: "电气风险隔离与临时后院通路已执行；22号标准地址尚待查"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: fact_compared_compatible}
+char_count: 3288
