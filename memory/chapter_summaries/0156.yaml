@@ -1,0 +1,22 @@
+schema_version: 1
+chapter: 156
+title: "那条没填理由的隐藏记录"
+volume: 5
+arc: ARC-051
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: efbca08f410d4e1eba6094ed36482dac4840a3df
+reader_review: reader_reviews/0156_efbca08f.md
+timeframe: "Day35 20:09—22:58"
+summary: "街道确认岚槐巷20、22、24号在用、窄查范围内无注销并号；社区照护员凭住户授权经后院实际到户。公众平台的22号检索层存在管理端‘暂缓展示’标记及空白任务编号，审批依据、具体操作者、动机待核；LM-214仍未复电。"
+meaningful_state_changes:
+  - "22号仍登记在用且照护完成，公众展示限制的源任务未核；灯杆未复电，不能据此确认M004。"
+knowledge_updates:
+  - "22号仍登记在用且照护完成，公众展示限制的源任务未核；灯杆未复电，不能据此确认M004。"
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "22号仍登记在用且照护完成，公众展示限制的源任务未核；灯杆未复电，不能据此确认M004。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: checked}
+char_count: 3392

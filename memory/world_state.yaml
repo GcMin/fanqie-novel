@@ -1,11 +1,11 @@
 schema_version: 1
-last_updated_chapter: 152
-current_time: Day33 23:58
+last_updated_chapter: 156
+current_time: Day35 22:58
 world:
   anomaly_public_awareness: none
-  current_arc: ARC-050_active
-  current_service_case: 龙栎路旧文化宫后巷LH-09事故调查未结
-  next_entry: 第138章核LW-X17封堵/验收与开放通行条件；所有前章临时事实以第137章ready版本为准，不提前确认M004。
+  current_arc: ARC-051_active
+  current_service_case: 岚槐巷22号限制展示来源待核、LM-214仍隔离
+  next_entry: 第157章继续追源任务与审批；M004尚未确认。
 case_state:
   chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
 invariants:
@@ -55,3 +55,8 @@ chapter_150_verified: "不当定性撤回、证据正式移交，坠落原因未
 chapter_151_verified: "影像正式保存、公众绕行清晰，事故责任与井盖状态仍未明。"
 
 chapter_152_verified: "原群消息被保留、报险安全指引已当晚执行；LH-09仍封闭，呼名与坠落原因待查。"
+
+chapter_153_verified: "电子返车记录已正式更正但卢程事故未结。"
+chapter_154_verified: "九桶垃圾全部清运完成而井口仍封控。"
+chapter_155_verified: "LM-214专业隔离未复电且后院临时通道已开启。"
+chapter_156_verified: "岚槐巷22号在用、照护实际到户、暂缓展示管理端来源已核但审批操作者未明。"

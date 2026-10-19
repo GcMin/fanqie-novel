@@ -1,0 +1,22 @@
+schema_version: 1
+chapter: 155
+title: "二十二号不在地图上"
+volume: 5
+arc: ARC-051
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 51c36c4fdec62a7a10d66ef53f4f65d50e34bd8b
+reader_review: reader_reviews/0155_51c36c4f.md
+timeframe: "Day34 23:17—Day35 00:33"
+summary: "岚槐巷22号门前路灯出现疑似电弧，公众地址检索却没有22号。专业维护人员依LM-214杆号隔离险情并确认未复电；经24号老胡同意和街道核验，住户获得后院临时安全通道，正门警戒未撤，源地址核查受理。"
+meaningful_state_changes:
+  - "LM-214专业隔离未复电；后院临时出入安全，22号标准登记与公众检索不一致尚待核。"
+knowledge_updates:
+  - "LM-214专业隔离未复电；后院临时出入安全，22号标准登记与公众检索不一致尚待核。"
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "LM-214专业隔离未复电；后院临时出入安全，22号标准登记与公众检索不一致尚待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: compared_old_154_new_154_compatible}
+char_count: 3288
