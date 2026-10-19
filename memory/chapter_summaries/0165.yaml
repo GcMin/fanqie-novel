@@ -1,0 +1,25 @@
+schema_version: 1
+chapter: 165
+title: "没有送到的第二行"
+volume: 6
+arc: ARC-052
+status: draft
+qa: content_pass_release_pending
+reader_gate: pass
+source_sha: ceead8b82b269b640b1558c8713512548a580a2a
+reader_review: reader_reviews/0165_ceead8b8.md
+timeframe: "Day38 20:16—22:38"
+summary: "温秀兰自述最初向门房递交两行安全提醒，有限录像与附件收取记录支持早期递交，但不证明具体平板操作者；05:06:54补录把第二行放入状态备注，05:08:39备用转办接口没有映射发送“尚未围护”，不能推断有人故意删除。 当班东坡与北门岗位实地再次核验，东坡钢盖仍禁入；危险转办人工核问已作为临时措施执行，接口正式修复仅立项。"
+meaningful_state_changes:
+  - "当班东坡与北门岗位实地再次核验，东坡钢盖仍禁入；危险转办人工核问已作为临时措施执行，接口正式修复仅立项。"
+knowledge_updates:
+  - "温秀兰自述最初向门房递交两行安全提醒，有限录像与附件收取记录支持早期递交，但不证明具体平板操作者；05:06:54补录把第二行放入状态备注，05:08:39备用转办接口没有映射发送“尚未围护”，不能推断有人故意删除。"
+  - "温秀兰提供纸条与门房转送时间可交叉核对，上传人、实际现场责任人仍须按原始证据查；原件拍摄时间不可用接收时间替代。"
+foreshadowing_updates:
+  - "F013早到警告证据链逐步明晰，不由普通接口错误推导M004或M005；F008无新增已证实的本人记忆冲突，F009/F010/F011仍为resolved。"
+relationship_updates:
+  - "周衡、夏宁、梁策保持信息核查、专业安全与执行权限边界，来电人提供的本人陈述不自动升级为官方结论。"
+ending_state: "当班东坡与北门岗位实地再次核验，东坡钢盖仍禁入；危险转办人工核问已作为临时措施执行，接口正式修复仅立项。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_original_source, structural: pending}
+char_count: 3246
