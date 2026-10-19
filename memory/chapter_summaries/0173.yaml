@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 173
+title: "借阅单上的另一枚章"
+volume: 6
+arc: ARC-053
+status: draft
+qa: content_pass_release_pending
+reader_gate: pass
+source_sha: 0b78671a7f170134be03b475471f88fac7c1da35
+reader_review: reader_reviews/0173_0b78671a.md
+timeframe: "Day41 02:23—07:40"
+summary: "172修订后目录级受理、本人关联披露和旧借还凭证待核与173事实相容。周衡回避有个人关联的原件调阅，经负责人改由罗谨按业务必要性申请；只得到去身份的馆内借还用途摘要。蓝色章表示库区级关联，不是第七箱归属证明。七箱持续受控，六箱外运停办且D架电气待验。"
+meaningful_state_changes:
+  - "馆方提供合法去身份借还用途且错误的第七箱关联推断被排除。"
+knowledge_updates:
+  - "历史目录与馆藏来源必须按来源层级核对，不能从旧目录封面和库区关联推出档案箱身份、具体居民或M005工单。"
+foreshadowing_updates:
+  - "F003可作为后续合法档案线索，F008无新明确记忆冲突；F009/F010/F011 resolved，M004/M005未确认。"
+relationship_updates:
+  - "周衡、夏宁、梁策遵守证据及保密界限，馆方对封箱和档案申请有最终权限。"
+ending_state: "馆方提供合法去身份借还用途且错误的第七箱关联推断被排除。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending}
+char_count: 3152

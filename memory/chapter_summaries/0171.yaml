@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 171
+title: "多出来的第七只箱子"
+volume: 6
+arc: ARC-053
+status: draft
+qa: content_pass_release_pending
+reader_gate: pass
+source_sha: 0c754ec0794ba5967ba28b171c7a05f5e970f158
+reader_review: reader_reviews/0171_0c754ec0.md
+timeframe: "Day40 20:14—22:37"
+summary: "桥西档案库漏水，先封湿区及隔离电路，20:44获批移动封存箱。原清单六箱但实际七箱，两箱外壁受潮未拆封，六箱外运暂停，D架未通过电气复检。新增第七箱旧号及2010旧城区目录封面词组只是目录线索，不证明箱内资料或具体永安里借阅。周衡只拟窄查草表并未提交。"
+meaningful_state_changes:
+  - "七箱受控保全、六箱外运暂停并获得目录级合法核查入口。"
+knowledge_updates:
+  - "历史目录与馆藏来源必须按来源层级核对，不能从旧目录封面和库区关联推出档案箱身份、具体居民或M005工单。"
+foreshadowing_updates:
+  - "F003可作为后续合法档案线索，F008无新明确记忆冲突；F009/F010/F011 resolved，M004/M005未确认。"
+relationship_updates:
+  - "周衡、夏宁、梁策遵守证据及保密界限，馆方对封箱和档案申请有最终权限。"
+ending_state: "七箱受控保全、六箱外运暂停并获得目录级合法核查入口。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending}
+char_count: 3024
