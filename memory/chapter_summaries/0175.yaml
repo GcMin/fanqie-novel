@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 175
+title: "签出的纸没出那道门"
+volume: 6
+arc: ARC-053
+status: draft
+qa: content_pass_release_pending
+reader_gate: pass
+source_sha: a232f13f41c9932a42f41e4fd68156d875fc3daf
+reader_review: reader_reviews/0175_a232f13f.md
+timeframe: "Day41 23:49—Day42 07:36"
+summary: "罗谨依新审批程序取得馆内旧收发簿限定摘录：‘差异摘记一页’仅曾拟转并交馆内收发岗，因为收件单位未明确次日退回整理岗；原簿无对外寄件号及收件签认，不证摘记绝未外阅，也不知道原件现在哪里。馆藏‘退件待补’整理册是下一窄查入口。两只受潮箱继续在恒湿新柜，除霜引起短时监测波动，未出现外观异常，损害评估未完成；第七箱来源不明、六箱外运暂停、D架持续封控。"
+meaningful_state_changes:
+  - "旧目录另送疑点从未证去向缩窄为馆内收发后退回的记录链。"
+knowledge_updates:
+  - "电子索引绿色已办不等于外单位签收；只有合法核过的纸簿业务栏支持馆内交收发岗及退回。"
+foreshadowing_updates:
+  - "F003形成新窄查入口，F008无新样本，F009/F010/F011 resolved；M004/M005未确认。"
+relationship_updates:
+  - "周衡继续退出与个人记忆相关的原件查阅，罗谨依权限申请；馆方仍主管档案实物和保管系列。"
+ending_state: "拟转纸件有馆内退回登记，原件存放与内容未核；受潮箱安全暂存而未修复。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending}
+char_count: 3158
