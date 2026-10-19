@@ -1,0 +1,25 @@
+schema_version: 1
+chapter: 158
+title: "批准单上只封了一条路"
+volume: 5
+arc: ARC-051
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 84cb29bd376bcaf0aa836b12db7497f5373ed7c5
+reader_review: reader_reviews/0158_84cb29bd.md
+timeframe: "Day36 20:17—22:51"
+summary: "五年前批准只停荐北排水沟危险便道，不支持整址停显；历史迁移及当前限制依据待核；22:28 LM-214专业复检完工，22:37解除门前警戒并恢复正门通行；公众地址仍未恢复"
+meaningful_state_changes:
+  - "22:28 LM-214专业复检完工，22:37解除门前警戒并恢复正门通行；公众地址仍未恢复"
+knowledge_updates:
+  - "五年前批准只停荐北排水沟危险便道，不支持整址停显；历史迁移及当前限制依据待核"
+  - "个案不能证明M004全市机制，M005未触，F008无新样本。"
+foreshadowing_updates:
+  - "F012持续记录22号相关审批链与未核责任；不把未知恶意写成已证。"
+relationship_updates:
+  - "三名主角合作未变化，阮家通行服务逐步恢复，既有信任值不调整。"
+ending_state: "22:28 LM-214专业复检完工，22:37解除门前警戒并恢复正门通行；公众地址仍未恢复"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: source_sha_fact_compatible}
+char_count: 3204

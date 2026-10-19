@@ -1,0 +1,25 @@
+schema_version: 1
+chapter: 157
+title: "没有到期日的那张名单"
+volume: 5
+arc: ARC-051
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 72253cfa313d0b52ee6bac27ed2dc7e171c49944
+reader_review: reader_reviews/0157_72253cfa.md
+timeframe: "Day36 06:14—07:56"
+summary: "05:47公众生成因人工保留名单排除在用22号，18:42复核保留但未记录解除日期；人工名单持续排除公众输出，正式地址和安全到达指引已送达；LM-214仍隔离"
+meaningful_state_changes:
+  - "人工名单持续排除公众输出，正式地址和安全到达指引已送达；LM-214仍隔离"
+knowledge_updates:
+  - "05:47公众生成因人工保留名单排除在用22号，18:42复核保留但未记录解除日期"
+  - "个案不能证明M004全市机制，M005未触，F008无新样本。"
+foreshadowing_updates:
+  - "F012持续记录22号相关审批链与未核责任；不把未知恶意写成已证。"
+relationship_updates:
+  - "三名主角合作未变化，阮家通行服务逐步恢复，既有信任值不调整。"
+ending_state: "人工名单持续排除公众输出，正式地址和安全到达指引已送达；LM-214仍隔离"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: source_sha_fact_compatible}
+char_count: 3391

@@ -54,4 +54,16 @@ combined_audit_chapter_154:
   major_count: 0
   stage_A_rounds: 1
   status: reader_and_content_qa_pass
-  main_ready_confirmed: pending_candidate_ci
+  main_ready_confirmed: 2026-10-19
+
+combined_audit_batch_20261019_0157_0160:
+  chapters: [157, 158, 159, 160]
+  body_revisions: 0
+  original_source_shas:
+    chapter_157: 72253cfa313d0b52ee6bac27ed2dc7e171c49944
+    chapter_158: 84cb29bd376bcaf0aa836b12db7497f5373ed7c5
+    chapter_159: 2359139cff63973c0e3f395f74898a5e56e7a246
+    chapter_160: 03085203f9759b71df5ac04b5f1417a910e2ebe3
+  reader_gate: blocker_and_major_zero
+  content_qa: pass
+  structural_ci: pending_precise_commit_verification

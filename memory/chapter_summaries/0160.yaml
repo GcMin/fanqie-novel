@@ -1,0 +1,25 @@
+schema_version: 1
+chapter: 160
+title: "把二十二号还给地图"
+volume: 5
+arc: ARC-051
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 03085203f9759b71df5ac04b5f1417a910e2ebe3
+reader_review: reader_reviews/0160_03085203.md
+timeframe: "Day37 01:26—约05:00"
+summary: "2023会签显示范围未核时人工维持整址例外；前后两次保留不能推断同人或故意；02:19正式批准，03:19生产发布，03:27两个普通终端查到22号，04:03收到回执；商业地图与经办责任待核"
+meaningful_state_changes:
+  - "02:19正式批准，03:19生产发布，03:27两个普通终端查到22号，04:03收到回执；商业地图与经办责任待核"
+knowledge_updates:
+  - "2023会签显示范围未核时人工维持整址例外；前后两次保留不能推断同人或故意"
+  - "个案不能证明M004全市机制，M005未触，F008无新样本。"
+foreshadowing_updates:
+  - "F012持续记录22号相关审批链与未核责任；不把未知恶意写成已证。"
+relationship_updates:
+  - "三名主角合作未变化，阮家通行服务逐步恢复，既有信任值不调整。"
+ending_state: "02:19正式批准，03:19生产发布，03:27两个普通终端查到22号，04:03收到回执；商业地图与经办责任待核"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: source_sha_fact_compatible}
+char_count: 3217

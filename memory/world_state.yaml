@@ -1,11 +1,11 @@
 schema_version: 1
-last_updated_chapter: 156
-current_time: Day35 22:58
+last_updated_chapter: 160
+current_time: Day37 约05:00
 world:
   anomaly_public_awareness: none
   current_arc: ARC-051_active
-  current_service_case: 岚槐巷22号限制展示来源待核、LM-214仍隔离
-  next_entry: 第157章继续追源任务与审批；M004尚未确认。
+  current_service_case: 岚槐巷22号市级公众查询已恢复、LM-214复电，危险北排水沟便道仍停荐
+  next_entry: 第161章依最新事实推进，商业地图、人员责任和其他名单对象待核；M004城市级机制未完整确认，M005未触。
 case_state:
   chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
 invariants:
@@ -60,3 +60,7 @@ chapter_153_verified: "电子返车记录已正式更正但卢程事故未结。
 chapter_154_verified: "九桶垃圾全部清运完成而井口仍封控。"
 chapter_155_verified: "LM-214专业隔离未复电且后院临时通道已开启。"
 chapter_156_verified: "岚槐巷22号在用、照护实际到户、暂缓展示管理端来源已核但审批操作者未明。"
+chapter_157_verified: "人工名单持续排除公众输出，正式地址和安全到达指引已送达；LM-214仍隔离"
+chapter_158_verified: "22:28 LM-214专业复检完工，22:37解除门前警戒并恢复正门通行；公众地址仍未恢复"
+chapter_159_verified: "00:46主管单位发出书面范围纠正意见，仍需正式审批发布；生产公众检索未恢复"
+chapter_160_verified: "02:19正式批准，03:19生产发布，03:27两个普通终端查到22号，04:03收到回执；商业地图与经办责任待核"

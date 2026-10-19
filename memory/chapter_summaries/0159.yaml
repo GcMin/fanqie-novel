@@ -1,0 +1,25 @@
+schema_version: 1
+chapter: 159
+title: "核实后再调整"
+volume: 5
+arc: ARC-051
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 2359139cff63973c0e3f395f74898a5e56e7a246
+reader_review: reader_reviews/0159_2359139c.md
+timeframe: "Day36 23:08—Day37 01:11"
+summary: "2023迁移候选被暂保留；00:21受控测试证实可分离整址停显和危险便道停荐；00:46主管单位发出书面范围纠正意见，仍需正式审批发布；生产公众检索未恢复"
+meaningful_state_changes:
+  - "00:46主管单位发出书面范围纠正意见，仍需正式审批发布；生产公众检索未恢复"
+knowledge_updates:
+  - "2023迁移候选被暂保留；00:21受控测试证实可分离整址停显和危险便道停荐"
+  - "个案不能证明M004全市机制，M005未触，F008无新样本。"
+foreshadowing_updates:
+  - "F012持续记录22号相关审批链与未核责任；不把未知恶意写成已证。"
+relationship_updates:
+  - "三名主角合作未变化，阮家通行服务逐步恢复，既有信任值不调整。"
+ending_state: "00:46主管单位发出书面范围纠正意见，仍需正式审批发布；生产公众检索未恢复"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: source_sha_fact_compatible}
+char_count: 3317
