@@ -105,3 +105,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 162,第四席没有响过铃,completed,ARC-052,厘清第四席与上游发送号,旧接口标签不能证明真实电话或报险人,受控复现第四席标签及取到发件流水号,F013,3000,pass,ready,SHA5e5fa5a1 Reader0/0/2；Continuity/Style通过；依赖与长期Memory已逐章核对
 163,补进来的那句警告,completed,ARC-052,核源事件和补录版本,账号与照片引用不足以认定实际来源,源单与补录时间可核，原照片保全申请被受理,F013,3000,pass,ready,SHAafa2ba61 Reader0/0/2；Continuity/Style通过；依赖与长期Memory已逐章核对
 164,照片边上的两行小字,completed,ARC-052,核照片手写字与专业安全现状,早有警告不等于早有围护，钢盖承托边仍危险,原照片含两行字，专业扩大封控并持续分流,F013,3000,pass,ready,SHA40fe5384 Reader0/0/2；Continuity/Style通过；依赖与长期Memory已逐章核对
+165,没有送到的第二行,completed,ARC-052,核查未转送的原始警告,系统转办完成不等于现场围护,两行警告源头进一步核清且当班隔离实核,F013,3000,pending,draft,Reader0BLOCKER0MAJOR2MINOR；内容QA通过；SHAceead8b8；结构与ready待后续顺序验证
+166,回执亮绿时还没人来,completed,ARC-052,核查网关收件与实际派工差异,技术绿点不等于真人接单,23:57专业到场且00:07断电临时防护完成,,3000,pending,draft,Reader0BLOCKER0MAJOR2MINOR；内容QA通过；SHAf8c6c0c9；结构与ready待后续顺序验证
+167,电话打不通的下一格,completed,ARC-052,真实恢复照明箱外人行隔离,旧班次电话失效且隔离锥被干扰,韩师傅02:01实际到场恢复隔离并明确升级路径,,3000,pending,draft,Reader0BLOCKER0MAJOR2MINOR；内容QA通过；SHA2934f450；结构与ready待后续顺序验证
+168,救护车停在十四号门前,completed,ARC-052,使120救护车实际安全进园,卷闸开启反馈不等于施工车道可通,救护车由12号门真正完成救援且14号门持续禁入,,3000,pending,draft,Reader0BLOCKER0MAJOR2MINOR；内容QA通过；SHAc576d5be；结构与ready待后续顺序验证
