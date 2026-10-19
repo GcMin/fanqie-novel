@@ -179,17 +179,13 @@ safe_mode: true
 - 只有修订完成并通过审查后的正文事实与状态变化才能更新 Memory；
 - 历史 Review 只用于审计，不作为长期创作指令。
 
-## 10. 每次定时 Revision Agent 只做一个动作
+## 10. 唯一 Audit 同轮多阶段执行（新规则）
 
-为了避免 Reader 与 Revision 并发互相踩文件，每次 Revision Agent 运行最多做以下一种操作：
+本仓库仅保留 Writer 与唯一 Audit 两个 ChatGPT 定时任务。旧规则“每次只执行一个阶段”和“修改正文后必须等待下一小时”不再适用。
 
-1. 局部修订；或
-2. 整章重写；或
-3. 重新规划 + 整章重写；或
-4. 标记 `retry_later` / 设置冷却；或
-5. 冷却结束后启动新一轮保守/普通重写。
+Audit 每轮按数字顺序尽可能连续处理多章：SHA 绑定的独立两遍 Reader → 仅针对 BLOCKER / MAJOR 的限次修订 → 每次正文改动后基于新 Git blob SHA 重新双遍 Reader → 独立 Continuity/Style QA → 前章新旧 SHA 事实差异检查 → 长期 Memory、计划同步 → 精确版本结构校验 → 顺序迁入 ready。
 
-正文发生变化后立即结束本次运行，等待 Reader Agent 为新 SHA 生成新的 Review，再决定下一步。
+旧 Review 对新正文无效。保留 Stage A/B/C 的次数上限、retry_later 冷却、禁止 MINOR 强制修订、禁止 force pass、不可跳过未验证前章的限制。GitHub/CI 失败下轮重试，不暂停或删除既有定时任务。用户最新指令和 docs/combined_audit_protocol.md 优先。
 
 ## 11. 发布门槛
 
