@@ -1,0 +1,25 @@
+schema_version: 1
+chapter: 167
+title: "电话打不通的下一格"
+volume: 6
+arc: ARC-052
+status: draft
+qa: content_pass_release_pending
+reader_gate: pass
+source_sha: 2934f450e390fed58c23bf7a0110e0eee48d084d
+reader_review: reader_reviews/0167_2934f450.md
+timeframe: "Day39 01:12—07:46"
+summary: "前夜槐树坪照明箱已专业断电并采取临时隔离，本章出现倒锥与送货车阻塞行人通道的新危险。上一班私人工作电话失效，中心转用当前岗位值守台、实时片区调度与主管协调路径。韩师傅02:01到场、02:13留影恢复行人隔离、06:11复核仍有效；电箱锁扣维修和复电未完成。"
+meaningful_state_changes:
+  - "新危险经实际巡查恢复行人隔离；本案夜间升级联络路径获得可核依据。"
+knowledge_updates:
+  - "换班后旧电话无人接听不否认前夜确曾隔离，当前巡查照片只证明当时有效而非永久有人在场。"
+  - "现行值守规程的说明不等于接口、通讯录或新制度正式上线。"
+foreshadowing_updates:
+  - "普通换班失联未证明M004/M005，F008无新样本，F009/F010/F011保持resolved。"
+relationship_updates:
+  - "宋女士只负报险责任不被要求守危险箱体，专业电工与城运巡查职责继续分开。"
+ending_state: "02:01现场巡查恢复安全引导；箱体仍断电防护且锁扣和复电待维修验收。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_original_source, structural: pending}
+char_count: 3175
