@@ -1,0 +1,22 @@
+schema_version: 1
+chapter: 154
+title: "围挡外的最后九桶"
+volume: 5
+arc: ARC-050
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 953157a858fe324e0fbcd51d5cd86939d1a64c92
+reader_review: reader_reviews/0154_953157a8.md
+timeframe: "Day34 20:18—约23:00"
+summary: "旧文化宫后巷封闭后，大车旧线路无法清运，店前先七桶、菜摊后两桶共九桶。环卫调度与街面管理核准公开通道的小车转运，21:31清走六桶、21:54再清三桶；门前恢复清洁，后续三夜仅重排班。"
+meaningful_state_changes:
+  - "九桶当晚清走且营业通行恢复；后续三夜仅排班、事故封控调查继续。"
+knowledge_updates:
+  - "九桶当晚清走且营业通行恢复；后续三夜仅排班、事故封控调查继续。"
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "九桶当晚清走且营业通行恢复；后续三夜仅排班、事故封控调查继续。"
+reader_counts: {blocker: 0, major: 0, minor: 1}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: checked}
+char_count: 2961

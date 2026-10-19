@@ -43,3 +43,15 @@ combined_audit_final_20261015:
 
 # source_sha of the final Reader Review refers to original draft; ready differs by metadata fields only.
 current_review_source_sha: a59b195df605c150a07ce66bc3d7ef4750431715
+ 
+combined_audit_chapter_154:
+  stage: local_revision
+  source_before: f53fe798cc07a554473f6fbf1b2ebe0a64af708a
+  source_after: 953157a858fe324e0fbcd51d5cd86939d1a64c92
+  reason: correct_initial_bucket_count
+  re_review: reader_reviews/0154_953157a8.md
+  blocker_count: 0
+  major_count: 0
+  stage_A_rounds: 1
+  status: reader_and_content_qa_pass
+  main_ready_confirmed: pending_candidate_ci

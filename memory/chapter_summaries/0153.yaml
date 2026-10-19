@@ -1,0 +1,22 @@
+schema_version: 1
+chapter: 153
+title: "人没回来，表先签完了"
+volume: 5
+arc: ARC-050
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: c0dcce0277ae8f0575d058f6d30d470c2b6c1c15
+reader_review: reader_reviews/0153_c0dcce02.md
+timeframe: "Day34 06:12—07:56"
+summary: "21:56返车表由胡骏设备提交时联动结单并复用先前签名图样，并非卢程实际返车证明。公司保留原表及操作日志，向事故受理单位提交独立更正；当晨执行逐人点名，软件整改仍待，LH-09事故未结。"
+meaningful_state_changes:
+  - "返车字段失去人员实到证明力；临时清点已执行，软件整改待办，卢程仍在医院观察，LH-09封控未解除。"
+knowledge_updates:
+  - "返车字段失去人员实到证明力；临时清点已执行，软件整改待办，卢程仍在医院观察，LH-09封控未解除。"
+foreshadowing_updates: []
+relationship_updates: []
+ending_state: "返车字段失去人员实到证明力；临时清点已执行，软件整改待办，卢程仍在医院观察，LH-09封控未解除。"
+reader_counts: {blocker: 0, major: 0, minor: 3}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: checked}
+char_count: 2667
