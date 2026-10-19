@@ -1,0 +1,1 @@
+Audit checkpoint 2026-10-19: chapters 165-168 SHA Reader gate 0 BLOCKER/0 MAJOR, content QA PASS; structural CI pending, main unchanged. 165: ceead8b8; 166: f8c6c0c9; 167: 2934f450; 168: c576d5be. PR creation and file writes blocked by safety. Candidate must not be released without exact-commit structural validation.
