@@ -179,17 +179,8 @@ safe_mode: true
 - 只有修订完成并通过审查后的正文事实与状态变化才能更新 Memory；
 - 历史 Review 只用于审计，不作为长期创作指令。
 
-## 10. 每次定时 Revision Agent 只做一个动作
-
-为了避免 Reader 与 Revision 并发互相踩文件，每次 Revision Agent 运行最多做以下一种操作：
-
-1. 局部修订；或
-2. 整章重写；或
-3. 重新规划 + 整章重写；或
-4. 标记 `retry_later` / 设置冷却；或
-5. 冷却结束后启动新一轮保守/普通重写。
-
-正文发生变化后立即结束本次运行，等待 Reader Agent 为新 SHA 生成新的 Review，再决定下一步。
+## 10. 唯一 Audit 单轮可连续推进多个阶段（2026-10-19）
+当前 Revision 是唯一 Audit 定时任务内的内部修订阶段，不存在独立 Revision 定时任务。以 `docs/combined_audit_protocol.md` 为先，按章节数字顺序处理积压，同轮允许完成 Reader → Stage A/B/C 修订 → 绑定新 Git blob SHA 的独立双遍 Reader 复审 → Continuity/Style QA → Memory/计划 → 精确版本结构验证与候选 ready 迁移。正文每次改变后旧版 Review 立即失效；同轮必须重新核对新 SHA，不能跳过新审。仅修改 `fix_required` 中的 BLOCKER/可执行 MAJOR，不因 MINOR 改正文。修订次数上限与 retry_later 冷却保持不变。遇 GitHub 安全拦截或 CI 阻塞时保留 draft，不自动停用 Writer/Audit 定时任务。
 
 ## 11. 发布门槛
 
