@@ -1,0 +1,26 @@
+schema_version: 1
+chapter: 174
+title: "另送那页没有签收"
+volume: 6
+arc: ARC-053
+status: draft
+qa: content_pass_release_pending
+reader_gate: pass
+source_sha: ba4c210b3765e7bfc3df5c609432433e668611e2
+reader_review: reader_reviews/0174_ba4c210b.md
+timeframe: "Day41 20:19—23:37"
+summary: "两只受潮封箱因夜间移存预约误列一箱而暂停交接，馆方核实范围后实际转恒湿柜并完成双向签收；第七箱封签和旧尾码未动，原D架持续停用。罗谨依权限取得原始借还凭证的脱敏业务摘录，目录件已归还，另有‘差异摘记一页，另行转送’文字及转送号，但凭证无该页收件签认，不证实际送达、具体收件人或与永安里关联。"
+meaningful_state_changes:
+  - "两只受潮封箱经核实实际转入恒湿暂存并完成两端签收。"
+  - "合法摘录新增另件转送附注及登记号，但接收事实仍待独立核查。"
+knowledge_updates:
+  - "馆藏目录件完成归还不意味着另送摘记已送达，编号类别不能指向收件单位。"
+  - "馆藏移存与旧址目录业务协查两线各有授权和证据边界。"
+foreshadowing_updates:
+  - "F003形成新的合法核查入口；F008无新增本人记忆冲突，M004/M005仍未证实。"
+relationship_updates:
+  - "周衡因个人关联继续回避原件查阅，由罗谨在授权范围经办；档案馆员保留实物管理权。"
+ending_state: "两只受潮箱在恒湿新柜受控，第七箱身份未明，D架仍封；差异摘记转送登记号已知但未见签收。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_source, structural: pending}
+char_count: 3076
