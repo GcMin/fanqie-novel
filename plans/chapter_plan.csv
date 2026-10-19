@@ -83,7 +83,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 140,站牌上还有最后一班,completed,ARC-046,现实救助及来源核验,严格区分已执行与待核事项,四人安全接驳，司机站序待核。,,3000,pass,published,Reader0BLOCKER0MAJOR3MINOR；QA与Memory已同步；原稿SHA3facc99d
 141,司机手里的那张纸,completed,ARC-046,安全处置与源记录核验,待核与已执行责任边界,当晚乘客实际乘车；数据规则修复尚未上线。,,3000,pass,published,源稿SHA23a454da；独立Reader0BLOCKER0MAJOR3MINOR；QA与Memory已核
 142,第七张床还热着,completed,ARC-047,安全处置与源记录核验,待核与已执行责任边界,七人脱险或安全转送，易阿婆送医，最初名单仅六人的原因待核。,,3000,pass,published,源稿SHA1aa41c0a；独立Reader0BLOCKER0MAJOR4MINOR；QA与Memory已核
-143,清点表少的不是床,completed,ARC-047,安全处置与源记录核验,待核与已执行责任边界,漏登原因明确，执行临时人员级清点，正式制度变更仍待审批。,,3000,pass,ready,源稿SHAa4f65e79；独立Reader0BLOCKER0MAJOR4MINOR；QA与Memory已核
+143,清点表少的不是床,completed,ARC-047,安全处置与源记录核验,待核与已执行责任边界,漏登原因明确，执行临时人员级清点，正式制度变更仍待审批。,,3000,pass,published,源稿SHAa4f65e79；独立Reader0BLOCKER0MAJOR4MINOR；QA与Memory已核
 144,已经砍掉的那棵树,completed,ARC-048,安全处置与源记录核验,待核与已执行责任边界,危险枝处理、路段仍封控，树号身份及剩余树体风险待核。,,3000,pass,ready,源稿SHA8e014c29；独立Reader0BLOCKER0MAJOR4MINOR；QA与Memory已核
 145,树牌钉在留下的树上,completed,ARC-048,现实危险处置与档案核实,专业权限及待核事实边界,树号对象得以解释且唐姐恢复临时经营，树体风险仍待复检。,,3000,pass,ready,独立Reader0BLOCKER0MAJOR3MINOR；原稿SHAce14df1f；Memory与QA已同步
 146,还活着也不代表安全,completed,ARC-048,现实危险处置与档案核实,专业权限及待核事实边界,危险树体移除，仍未恢复通行，资产变更仅受理。,,3000,pass,ready,独立Reader0BLOCKER0MAJOR3MINOR；原稿SHA2670daa1；Memory与QA已同步
