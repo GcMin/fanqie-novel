@@ -1,0 +1,25 @@
+schema_version: 1
+chapter: 179
+title: "封口拆到第一道折痕"
+volume: 6
+arc: ARC-053
+status: draft
+qa: content_pass_release_pending
+reader_gate: pass
+source_sha: e06596ce477e0e858808461b9cce9ee2a60aa5e7
+reader_review: reader_reviews/0179_e06596ce.md
+timeframe: "Day44 20:27—Day45 07:20"
+summary: "急诊后门护栏按旧图摆错、妨碍急救车辆转弯，医院先让医护安全接管患者，再由施工与交警调整并用空载车辆复测，二次发现锥桶干涉需再改，戏剧张力来自‘第一次能过不等于安全’而不是抽象讲道理。另一线批准有限启封，纸张保护人员发现折纸粘连及时停手，首面题名确认为《东桥区街巷名称差异摘记》；读者得到更实在但有限的线索。职责对话自然，推进足够。 第178章只证旧袋外标索引带永安里，未启封；179获独立受控授权后由两名馆员和修复人员06:19有限开启，06:43仅读得首面业务题名与‘现行导向图与旧片区名称索引不一致，待实地复核再定替换范围’的可公开说明。折痕粘连停止不暴露内部文本，不能证与2010拟转单页完全同一，更不能确认M004主动删除或M005工单机制历史。第178章Day44清晨结束，此章Day44 20:27开始下一夜，时间成立。医院医护负责患者，22:48车辆通道真实复测恢复，施工正式导流图仍待修订。"
+meaningful_state_changes:
+  - "医院急诊车辆通道经专业人员移栏、空载复测，22:48确认临时恢复，正式导流图待白班修订"
+  - "旧纸件袋受控有限启封，实物折纸首面题名及业务说明有据；发现粘连后停手"
+knowledge_updates:
+  - "袋内见到同类差异摘记首面不等于整页原件相同或完整；M005来源与M004主体依然未证。"
+foreshadowing_updates:
+  - "F003合法线索推进，F008无新样本；F009/F010/F011 resolved，M004/M005未从普通档案资料推导确证。"
+relationship_updates:
+  - "周衡、梁策、夏宁按权限核实，罗谨负责有合法申请的旧档案核验，馆方掌握保管与启封权限；没有依据调整主角关系数值。"
+ending_state: "Day45 07:20医院通路已暂时恢复，原复测材料保全；旧折纸背侧待修复评估和另一次内容权限审批。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_provisional_source, structural: pending}
+char_count: 3329
