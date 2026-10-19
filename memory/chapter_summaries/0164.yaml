@@ -1,0 +1,25 @@
+schema_version: 1
+chapter: 164
+title: "照片边上的两行小字"
+volume: 6
+arc: ARC-052
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 40fe5384328785055c1963a9b54955a03382fd48
+reader_review: reader_reviews/0164_40fe5384.md
+timeframe: "Day38 01:07—07:56"
+summary: "源照片校验显示‘东坡先封，别抬铁板’与‘尚未围护，请交班接手’两行；05:02:26为附件接收而非已证明的拍摄时间，共用终端、纸条作者及实际早期围护时间均未确认。 06:19专业发现承托边另有变形需追加工序；06:53硬质警戒扩大且东坡暂不开放，北门分流继续执行；07:27原照片和补录版本保全链获回执。"
+meaningful_state_changes:
+  - "06:19专业发现承托边另有变形需追加工序；06:53硬质警戒扩大且东坡暂不开放，北门分流继续执行；07:27原照片和补录版本保全链获回执。"
+knowledge_updates:
+  - "源照片校验显示‘东坡先封，别抬铁板’与‘尚未围护，请交班接手’两行；05:02:26为附件接收而非已证明的拍摄时间，共用终端、纸条作者及实际早期围护时间均未确认。"
+  - "早期文本源头与实际围护的证据必须分开；M005未证，F008无新样本。"
+foreshadowing_updates:
+  - "F013早到警告的原始提供者、文字形成时点与现场围护待核；不能凭当前普通信息转办确认M005。"
+relationship_updates:
+  - "三名夜班人员保持信息追溯与专业安全权限边界；许巧云关心真实货运与行人风险，角色信任未确认发生变化。"
+ending_state: "06:19专业发现承托边另有变形需追加工序；06:53硬质警戒扩大且东坡暂不开放，北门分流继续执行；07:27原照片和补录版本保全链获回执。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_original_source}
+char_count: 3351

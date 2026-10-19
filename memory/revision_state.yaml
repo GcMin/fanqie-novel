@@ -67,3 +67,15 @@ combined_audit_batch_20261019_0157_0160:
   reader_gate: blocker_and_major_zero
   content_qa: pass
   structural_ci: pending_precise_commit_verification
+
+combined_audit_batch_20261019_0161_0164:
+  chapters: [161, 162, 163, 164]
+  body_revisions: 0
+  original_source_shas:
+    chapter_161: 7a5c35eba277a47e249c0eb60f29873eb3fb47f6
+    chapter_162: 5e5fa5a1378394456b94d16d2b231316c385a9ea
+    chapter_163: afa2ba6193864d34768eee16fd2a3ec7b4344dae
+    chapter_164: 40fe5384328785055c1963a9b54955a03382fd48
+  reader_gate: blocker_and_major_zero
+  content_qa: pass
+  release_candidate: requires_precise_commit_structural_success_before_main_update
