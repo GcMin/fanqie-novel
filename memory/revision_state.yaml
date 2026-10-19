@@ -55,3 +55,17 @@ combined_audit_chapter_154:
   stage_A_rounds: 1
   status: reader_and_content_qa_pass
   main_ready_confirmed: pending_candidate_ci
+
+combined_audit_chapter_172:
+  stage: local_revision
+  source_before: bd5371f01ce690842646123be75a4e0158542b5a
+  source_after: 667c38056fee4c87d665b5d04453d1241c666224
+  reason: preserve_chapter_171_narrow_request_continuity
+  fix_required_severity: MAJOR
+  local_revision_rounds: 1
+  original_review: reader_reviews/0172_bd5371f0.md
+  rereview: reader_reviews/0172_667c3805.md
+  rereview_blocker_count: 0
+  rereview_major_count: 0
+  content_qa: qa/0172_report.md
+  pending: [memory, plan, exact_commit_structure_validation, sequential_ready]
