@@ -3,8 +3,8 @@ chapter: 167
 title: "电话打不通的下一格"
 volume: 6
 arc: ARC-052
-status: draft
-qa: content_pass_release_pending
+status: ready
+qa: pass
 reader_gate: pass
 source_sha: 2934f450e390fed58c23bf7a0110e0eee48d084d
 reader_review: reader_reviews/0167_2934f450.md
@@ -21,5 +21,5 @@ relationship_updates:
   - "宋女士只负报险责任不被要求守危险箱体，专业电工与城运巡查职责继续分开。"
 ending_state: "02:01现场巡查恢复安全引导；箱体仍断电防护且锁扣和复电待维修验收。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_original_source, structural: pending}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_original_source, structural: pass}
 char_count: 3175

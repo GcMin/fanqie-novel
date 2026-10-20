@@ -1,11 +1,11 @@
 schema_version: 1
-last_updated_chapter: 164
-current_time: Day38 07:56
+last_updated_chapter: 168
+current_time: Day39 22:04
 world:
   anomaly_public_awareness: none
   current_arc: ARC-052_active
-  current_service_case: 临江菜市东坡钢盖连接失效及承托边变形仍封闭，北门分流执行；早到报险文本已有源单与照片保全但提供者未查明
-  next_entry: 第165章从Day38早间专业警戒和受控证据链继续；05:02照片接收不能当拍摄时间，M005仍待硬证据。
+  current_service_case: 临江菜市东坡持续封闭且危险警告状态备注漏传已查明；槐树坪照明箱专业断电但锁扣与复电待验；北岸仓储园14号门施工封控，12号门实际完成120救援通行
+  next_entry: 第169章从Day39第三十七次夜班继续；14号门不得因卷闸绿色回执开放，F008无新样本，M004/M005均未证。
 case_state:
   chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
 invariants:
@@ -71,8 +71,8 @@ chapter_163_verified: "23:26北门车辆等待与行人线实际调整、00:27�
 chapter_164_verified: "06:19专业发现承托边另有变形需追加工序；06:53硬质警戒扩大且东坡暂不开放，北门分流继续执行；07:27原照片和补录版本保全链获回执。"
 
 # 原 world.current_time / current_service_case 保持正式放行口径；以下仅供下一章审核核查。
-chapter_165_to_168_candidates:
-  release_state: draft_content_qa_pass_structural_pending
+chapter_165_to_168_confirmed:
+  release_state: ready_qa_pass
   chapter_165: "东坡钢盖继续禁入、北门分流由当班岗位现场确认，接口少传状态备注的普通原因明确；正式字段修复未上线。"
   chapter_166: "槐树坪照明箱绿色回执仅表示网关收件；00:07专业断电防护，箱门锁扣和复电尚待维修与验收。"
   chapter_167: "换班间隙隔离线被车辆与倒锥破坏，02:13巡查恢复引导；06:11当时仍有效，但不保证永久，也不等于电箱恢复供电。"

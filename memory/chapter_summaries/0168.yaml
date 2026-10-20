@@ -3,8 +3,8 @@ chapter: 168
 title: "救护车停在十四号门前"
 volume: 6
 arc: ARC-052
-status: draft
-qa: content_pass_release_pending
+status: ready
+qa: pass
 reader_gate: pass
 source_sha: c576d5be0d03cb8292a3fabb5973542ade2d895d
 reader_review: reader_reviews/0168_c576d5be.md
@@ -16,5 +16,5 @@ foreshadowing_updates: ["普通回执错位未确认M004/M005；F008无新样本
 relationship_updates: ["园区与中心仅协调通行，医疗由120负责。"]
 ending_state: "14号门施工封控，正式系统联动待审批。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_original_source, structural: pending}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_original_source, structural: pass}
 char_count: 3330

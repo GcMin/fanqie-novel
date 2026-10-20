@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 164
+last_updated_chapter: 168
 characters:
   zhou_heng:
     knows:
@@ -148,8 +148,8 @@ chapter_164_shared_update:
   - "M005未证，不能指认纸条作者或把早单等于围护；F008无新样本，F009/F010/F011 resolved。"
 
 # 165—168均为源正文已完成内容 QA 的 draft 候选；正式 ready 前不视为新 Canon。
-chapter_165_to_168_candidates:
-  release_state: draft_content_qa_pass_structural_pending
+chapter_165_to_168_confirmed:
+  release_state: ready_qa_pass
   chapter_165:
     - "温秀兰本人陈述写下两行警告，04:56—04:59门房录像与05:02:26附件接收可以交叉验证递交链，录像不能识别具体平板提交人。"
     - "05:06:54补录把第二行放状态备注，05:08:39备用接口仅转建议字段；遗漏不等于有人故意删除。05:11实际催围护、05:15独立来电、05:18水马到位依次分开。"

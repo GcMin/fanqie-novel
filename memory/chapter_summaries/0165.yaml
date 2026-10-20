@@ -3,8 +3,8 @@ chapter: 165
 title: "没有送到的第二行"
 volume: 6
 arc: ARC-052
-status: draft
-qa: content_pass_release_pending
+status: ready
+qa: pass
 reader_gate: pass
 source_sha: ceead8b82b269b640b1558c8713512548a580a2a
 reader_review: reader_reviews/0165_ceead8b8.md
@@ -21,5 +21,5 @@ relationship_updates:
   - "周衡、夏宁、梁策保持信息核查、专业安全与执行权限边界，来电人提供的本人陈述不自动升级为官方结论。"
 ending_state: "当班东坡与北门岗位实地再次核验，东坡钢盖仍禁入；危险转办人工核问已作为临时措施执行，接口正式修复仅立项。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_original_source, structural: pending}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_original_source, structural: pass}
 char_count: 3246

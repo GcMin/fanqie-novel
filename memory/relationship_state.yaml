@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 164
+last_updated_chapter: 168
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -52,8 +52,8 @@ chapter_161_to_164_notes:
   - "马工仅按权限提供源流水号、测试结果及照片脱敏节选；上游共用账号不是自然人身份。"
   - "周衡、夏宁、梁策与管理处合作维持分流，专业养护单位决定何时能开放，未发生可量化信任变化。"
 
-chapter_165_to_168_candidates:
-  release_state: draft_content_qa_pass_structural_pending
+chapter_165_to_168_confirmed:
+  release_state: ready_qa_pass
   notes:
     - "165：温秀兰作为纸条提供者配合源链核查；杜师傅口述先报修，实际警戒与上报主体不混同，不对任何人无依据定责。许巧云持续询问货运北门排序。"
     - "166：吴桂香只负责如实报险，不承担近身触电风险；养护调度承认漏派并真实补派，夜班中心不要求倒填。"
