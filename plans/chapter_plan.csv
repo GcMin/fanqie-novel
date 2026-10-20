@@ -86,7 +86,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 143,清点表少的不是床,completed,ARC-047,安全处置与源记录核验,待核与已执行责任边界,漏登原因明确，执行临时人员级清点，正式制度变更仍待审批。,,3000,pass,published,源稿SHAa4f65e79；独立Reader0BLOCKER0MAJOR4MINOR；QA与Memory已核
 144,已经砍掉的那棵树,completed,ARC-048,安全处置与源记录核验,待核与已执行责任边界,危险枝处理、路段仍封控，树号身份及剩余树体风险待核。,,3000,pass,published,源稿SHA8e014c29；独立Reader0BLOCKER0MAJOR4MINOR；QA与Memory已核
 145,树牌钉在留下的树上,completed,ARC-048,现实危险处置与档案核实,专业权限及待核事实边界,树号对象得以解释且唐姐恢复临时经营，树体风险仍待复检。,,3000,pass,published,独立Reader0BLOCKER0MAJOR3MINOR；原稿SHAce14df1f；Memory与QA已同步
-146,还活着也不代表安全,completed,ARC-048,现实危险处置与档案核实,专业权限及待核事实边界,危险树体移除，仍未恢复通行，资产变更仅受理。,,3000,pass,ready,独立Reader0BLOCKER0MAJOR3MINOR；原稿SHA2670daa1；Memory与QA已同步
+146,还活着也不代表安全,completed,ARC-048,现实危险处置与档案核实,专业权限及待核事实边界,危险树体移除，仍未恢复通行，资产变更仅受理。,,3000,pass,published,独立Reader0BLOCKER0MAJOR3MINOR；原稿SHA2670daa1；Memory与QA已同步
 147,广播让他们往锁着的门走,completed,ARC-049,现实危险处置与档案核实,专业权限及待核事实边界,三人脱险，错误音频停播，西栅门异常闭锁与广播原因待查。,,3000,pass,ready,独立Reader0BLOCKER0MAJOR3MINOR；原稿SHA9463ce99；Memory与QA已同步
 148,那条路不该让人自己找,completed,ARC-049,现实危险处置与档案核实,专业权限及待核事实边界,广播离线在线提示均验证，推车安全领取，旧事件闭锁调查继续，通道仍封闭。,,3000,pass,ready,独立Reader0BLOCKER0MAJOR3MINOR；原稿SHA5064c205；Memory与QA已同步
 149,井盖下面的第三声,completed,ARC-050,人物安全与原始证据核验,伤者主观陈述与专业调查边界,卢程获救送医、LH-09持续禁入，入井经过待查。,,3000,pass,ready,独立Reader0BLOCKER0MAJOR2MINOR；原稿SHA26a5a9f5；QA与Memory已同步
