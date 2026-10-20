@@ -2,11 +2,15 @@ name: Validate Fanqie ready chapters
 
 on:
   push:
-    branches: [main, audit/ready-0169-0179-20261020-1500, audit/ready-0180-0185-20261020-2303]
+    branches:
+      - main
+      - "audit/ready-*"
     paths:
       - ".github/workflows/publisher-check.yml"
       - "chapters/ready/**"
       - "plans/chapter_plan.csv"
+      - "memory/**"
+      - "qa/**"
       - "publisher/**"
       - "tests/test_check_local.py"
       - "requirements.txt"
@@ -15,6 +19,8 @@ on:
       - ".github/workflows/publisher-check.yml"
       - "chapters/ready/**"
       - "plans/chapter_plan.csv"
+      - "memory/**"
+      - "qa/**"
       - "publisher/**"
       - "tests/test_check_local.py"
   workflow_dispatch:
