@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 172
+title: "两张清单之间的空格"
+volume: 6
+arc: ARC-053
+status: draft
+qa: content_pass_release_pending
+reader_gate: pass
+source_sha: 667c38056fee4c87d665b5d04453d1241c666224
+reader_review: reader_reviews/0172_667c3805.md
+timeframe: "Day40 22:48—Day41 02:09"
+summary: "已完成Stage A修订，删除凭空出现的泛化申请动作，只在前章窄查草表上补来源、索引、范围与本人关联披露。六箱预约货车虽到但未装车，馆方正式暂停外运，七箱继续双人保全；馆藏目录件存在且封面涉永安里，但正文条目、具体旧来电及第七箱归属未证。目录级申请已受理但原件调阅未获批准。"
+meaningful_state_changes:
+  - "窄范围历史目录申请正式受理且六箱运输真正停止。"
+knowledge_updates:
+  - "历史目录与馆藏来源必须按来源层级核对，不能从旧目录封面和库区关联推出档案箱身份、具体居民或M005工单。"
+foreshadowing_updates:
+  - "F003可作为后续合法档案线索，F008无新明确记忆冲突；F009/F010/F011 resolved，M004/M005未确认。"
+relationship_updates:
+  - "周衡、夏宁、梁策遵守证据及保密界限，馆方对封箱和档案申请有最终权限。"
+ending_state: "窄范围历史目录申请正式受理且六箱运输真正停止。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending}
+char_count: 2984

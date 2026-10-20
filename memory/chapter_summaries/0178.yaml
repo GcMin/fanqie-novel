@@ -1,0 +1,25 @@
+schema_version: 1
+chapter: 178
+title: "纸袋背面的旧地址"
+volume: 6
+arc: ARC-053
+status: draft
+qa: content_pass_release_pending
+reader_gate: pass
+source_sha: a252335c69f3688d0d3657176cfa889c2ac0a926
+reader_review: reader_reviews/0178_a252335c.md
+timeframe: "Day43 20:16—Day44 06:26"
+summary: "谭阿姨已预约无障碍车却被故障升降平台困在门诊，家属拒绝随意抱上普通车，冲突具体并有真正的人身影响；21:24检查合格的备用无障碍车接走后，原车错误完成单到次晨才改回，也让故事不止于司机一句保证。档案线通过两只外观相似旧袋与双签移架材料锁定正确外袋，合法外标首次出现永安里片区，既给线索又保留袋内未知。人物对话区分较清楚。 第177章只确认旧整理册和封存袋保管索引，本章授权外部检验，因邻袋外观接近先纠正取错目标，再核带圈登记后缀、保护外套重装记录及业务索引；00:04确认外标‘东桥区街巷名称差异核对／永安里片区’，没有打开旧内袋，也不推定2010拟转摘记原物或具体经办人。第177章早晨交班到本章Day43晚班顺接。原车到站不等于轮椅乘客已登车，21:24实际乘坐备用车，06:26运营纠正承运事实但设备检修未完。F003推进而M004/M005仍不确证。"
+meaningful_state_changes:
+  - "谭阿姨获得满足全程坐轮椅四点固定条件的实际接驳，原车故障另行检修"
+  - "馆方依法核对正确封存纸件袋，外部业务索引出现永安里片区，内件未启封"
+knowledge_updates:
+  - "外护套八年后重装记录不能代替原内袋启封证明；外标地名不能证明旧差异摘记内文，也不与D架箱体混同。"
+foreshadowing_updates:
+  - "F003合法线索推进，F008无新样本；F009/F010/F011 resolved，M004/M005未从普通档案资料推导确证。"
+relationship_updates:
+  - "周衡、梁策、夏宁按权限核实，罗谨负责有合法申请的旧档案核验，馆方掌握保管与启封权限；没有依据调整主角关系数值。"
+ending_state: "原车记录已更正而设备维修待办；纸件袋外标永安里片区有据，袋内及旧摘记同一性未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_provisional_source, structural: pending}
+char_count: 3239

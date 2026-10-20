@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 166
+title: "回执亮绿时还没人来"
+volume: 6
+arc: ARC-052
+status: draft
+qa: content_pass_release_pending
+reader_gate: pass
+source_sha: f8c6c0c9d7fac9d74e425d70c45f2aaf0f012778
+reader_review: reader_reviews/0166_f8c6c0c9.md
+timeframe: "Day38 22:52—Day39 00:36"
+summary: "槐树坪照明箱的网关绿色已接收回执不等于养护班组真人接手；待分配队列未刷新导致漏派，与前一章市场字段漏传属于不同普通原因。23:27现场秩序引导，23:36实际人工派工，23:57专业到场，00:07专业断电及临时防护完成，锁扣更换、复电验收及系统整改未完成。"
+meaningful_state_changes:
+  - "专业完成断电与临时防护；真实派工延迟记录被保留，界面和派工整改各自受理。"
+knowledge_updates:
+  - "吴桂香只观察到箱门打开与潮湿地面，没有能力自行确认漏电；绿色代表网关而非真人接手。"
+foreshadowing_updates:
+  - "不由本例普通技术故障确认M004/M005，F008无新样本，F009/F010/F011维持resolved。"
+relationship_updates:
+  - "周衡、夏宁、梁策坚持岗位职责分工、当班实地核验及保全原始记录。"
+ending_state: "箱体专业断电防护已完成，设施维修复电待专业验收；界面说明与漏派技术整改待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_original_source, structural: pending}
+char_count: 3316

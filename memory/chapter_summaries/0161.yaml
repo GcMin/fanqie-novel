@@ -1,0 +1,25 @@
+schema_version: 1
+chapter: 161
+title: "比铃声早到的那张工单"
+volume: 6
+arc: ARC-052
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 7a5c35eba277a47e249c0eb60f29873eb3fb47f6
+reader_review: reader_reviews/0161_7a5c35eb.md
+timeframe: "Day37 05:11—07:56"
+summary: "05:08:41前置队列早单与05:15许巧云完整电话互为不同来源、后来仅因地点被关联；07:38证实上游适配层写入但最初源事件未核。 专业确认东坡钢盖两处固定连接失效且继续封闭；06:21北门首车签收，其余车辆待临时排班；早单与完整来电分开保全。"
+meaningful_state_changes:
+  - "专业确认东坡钢盖两处固定连接失效且继续封闭；06:21北门首车签收，其余车辆待临时排班；早单与完整来电分开保全。"
+knowledge_updates:
+  - "05:08:41前置队列早单与05:15许巧云完整电话互为不同来源、后来仅因地点被关联；07:38证实上游适配层写入但最初源事件未核。"
+  - "早期文本源头与实际围护的证据必须分开；M005未证，F008无新样本。"
+foreshadowing_updates:
+  - "F013早到警告的原始提供者、文字形成时点与现场围护待核；不能凭当前普通信息转办确认M005。"
+relationship_updates:
+  - "三名夜班人员保持信息追溯与专业安全权限边界；许巧云关心真实货运与行人风险，角色信任未确认发生变化。"
+ending_state: "专业确认东坡钢盖两处固定连接失效且继续封闭；06:21北门首车签收，其余车辆待临时排班；早单与完整来电分开保全。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_original_source}
+char_count: 2926

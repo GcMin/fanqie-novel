@@ -1,0 +1,25 @@
+schema_version: 1
+chapter: 163
+title: "补进来的那句警告"
+volume: 6
+arc: ARC-052
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: afa2ba6193864d34768eee16fd2a3ec7b4344dae
+reader_review: reader_reviews/0163_afa2ba61.md
+timeframe: "Day37 22:51—Day38 00:41"
+summary: "上游05:03:12建源单、05:06:54值守补录二号提交含具体安全警告的摘要；账号不能等同个人，原照片仅有引用号、暂未交付，05:15来电单独保留。 23:26北门车辆等待与行人线实际调整、00:27继续执行；00:41上游同意保全照片和补录版本，但照片与报修人未交付/未核。"
+meaningful_state_changes:
+  - "23:26北门车辆等待与行人线实际调整、00:27继续执行；00:41上游同意保全照片和补录版本，但照片与报修人未交付/未核。"
+knowledge_updates:
+  - "上游05:03:12建源单、05:06:54值守补录二号提交含具体安全警告的摘要；账号不能等同个人，原照片仅有引用号、暂未交付，05:15来电单独保留。"
+  - "早期文本源头与实际围护的证据必须分开；M005未证，F008无新样本。"
+foreshadowing_updates:
+  - "F013早到警告的原始提供者、文字形成时点与现场围护待核；不能凭当前普通信息转办确认M005。"
+relationship_updates:
+  - "三名夜班人员保持信息追溯与专业安全权限边界；许巧云关心真实货运与行人风险，角色信任未确认发生变化。"
+ending_state: "23:26北门车辆等待与行人线实际调整、00:27继续执行；00:41上游同意保全照片和补录版本，但照片与报修人未交付/未核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_original_source}
+char_count: 3023

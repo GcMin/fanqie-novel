@@ -1,0 +1,26 @@
+schema_version: 1
+chapter: 176
+title: "第七只箱子的另一张单"
+volume: 6
+arc: ARC-053
+status: draft
+qa: content_pass_release_pending
+reader_gate: pass
+source_sha: 1ff60335558f4a3b2ce9b35d97dec41f7441ff70
+reader_review: reader_reviews/0176_1ff60335.md
+timeframe: "Day42 20:11—Day43 00:02"
+summary: "桥西两只受潮封箱继续恒湿保护，馆方先实测主机供电与告警回路并建立便携监测后由专业电工修复告警接头，完成复测，不表示档案受潮已修好。原D架仍封控、六箱外运暂停。通过旧架位卡、双人调位交接、维修照片和前一历史工程图纸备查批次的移位材料，第七箱被核为与六箱年度外运不同的独立来源批次，但箱内内容及旧封套尾码未核；旧目录关联猜测不成立。罗谨依授权仅定位‘退件待补’整理册目录，不得推定摘记实物在位。"
+meaningful_state_changes:
+  - "外部监测告警线路专业修复并复测，受潮两箱继续稳定保护。"
+  - "第七箱外部来源批次收窄且与六箱外运和旧目录错误关联分离；退件册可合法定位到目录层级。"
+knowledge_updates:
+  - "调位批次证据仅证明外部交接，不证明箱内内容或资料最初生成单位。"
+  - "目录条目和实物在位、原件查阅许可必须分开。"
+foreshadowing_updates:
+  - "F003仍为合法窄核证据线；F008没有新增，M004/M005未证，F009/F010/F011保持resolved。"
+relationship_updates:
+  - "莫悦和杜禾坚持原物保全与专业权限；周衡承认个人旧址动机仍回避原件，罗谨承担获批查询。"
+ending_state: "两受潮箱仍待保护评估，D架停用、六箱外运暂停；第七箱独立来源批次有据但实物内容未证，退件册仅目录定位。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending}
+char_count: 3056

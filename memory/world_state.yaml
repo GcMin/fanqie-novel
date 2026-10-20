@@ -1,11 +1,11 @@
 schema_version: 1
-last_updated_chapter: 160
-current_time: Day37 约05:00
+last_updated_chapter: 164
+current_time: Day38 07:56
 world:
   anomaly_public_awareness: none
-  current_arc: ARC-051_active
-  current_service_case: 岚槐巷22号市级公众查询已恢复、LM-214复电，危险北排水沟便道仍停荐
-  next_entry: 第161章依最新事实推进，商业地图、人员责任和其他名单对象待核；M004城市级机制未完整确认，M005未触。
+  current_arc: ARC-052_active
+  current_service_case: 临江菜市东坡钢盖连接失效及承托边变形仍封闭，北门分流执行；早到报险文本已有源单与照片保全但提供者未查明
+  next_entry: 第165章从Day38早间专业警戒和受控证据链继续；05:02照片接收不能当拍摄时间，M005仍待硬证据。
 case_state:
   chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
 invariants:
@@ -64,3 +64,17 @@ chapter_157_verified: "人工名单持续排除公众输出，正式地址和安
 chapter_158_verified: "22:28 LM-214专业复检完工，22:37解除门前警戒并恢复正门通行；公众地址仍未恢复"
 chapter_159_verified: "00:46主管单位发出书面范围纠正意见，仍需正式审批发布；生产公众检索未恢复"
 chapter_160_verified: "02:19正式批准，03:19生产发布，03:27两个普通终端查到22号，04:03收到回执；商业地图与经办责任待核"
+
+chapter_161_verified: "专业确认东坡钢盖两处固定连接失效且继续封闭；06:21北门首车签收，其余车辆待临时排班；早单与完整来电分开保全。"
+chapter_162_verified: "21:21北门人车分流和东坡值守有执行记录；取得上游发件流水号，钢盖专业拆换仍未实施，东坡持续封闭。"
+chapter_163_verified: "23:26北门车辆等待与行人线实际调整、00:27继续执行；00:41上游同意保全照片和补录版本，但照片与报修人未交付/未核。"
+chapter_164_verified: "06:19专业发现承托边另有变形需追加工序；06:53硬质警戒扩大且东坡暂不开放，北门分流继续执行；07:27原照片和补录版本保全链获回执。"
+
+# 原 world.current_time / current_service_case 保持正式放行口径；以下仅供下一章审核核查。
+chapter_165_to_168_candidates:
+  release_state: draft_content_qa_pass_structural_pending
+  chapter_165: "东坡钢盖继续禁入、北门分流由当班岗位现场确认，接口少传状态备注的普通原因明确；正式字段修复未上线。"
+  chapter_166: "槐树坪照明箱绿色回执仅表示网关收件；00:07专业断电防护，箱门锁扣和复电尚待维修与验收。"
+  chapter_167: "换班间隙隔离线被车辆与倒锥破坏，02:13巡查恢复引导；06:11当时仍有效，但不保证永久，也不等于电箱恢复供电。"
+  chapter_168: "12号门真实安全通行后完成120接入转运，14号门虽开闸但施工封控仍有效，门禁/施工状态联动未正式上线。"
+  no_confirmed_new_anomaly: true

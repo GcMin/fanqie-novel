@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 169
+title: "来电人是那部对讲机"
+volume: 6
+arc: ARC-052
+status: draft
+qa: content_pass_release_pending
+reader_gate: pass
+source_sha: c6f2d0d52a009dbe3b49c09cb7e044585298686c
+reader_review: reader_reviews/0169_c6f2d0d5.md
+timeframe: "Day39 22:46—Day40 00:13"
+summary: "求助点L2-07来电栏显示安全值守室但实际求助者为轮椅乘客陆映；22:38和22:41按钮事件不证明有人接听，22:46中心真实接通。22:22巡查只记当时未发现人员，陆映实际进入时间及是否漏巡待核。22:57站方核位，23:06在授权下经安全通道自主离开，23:56适配车接走，费用未核；00:13仅复验本地按钮，端到端线路尚未修复。"
+meaningful_state_changes:
+  - "陆映在专业授权通道安全离站并乘适配车离开；对讲转接链路待专项核查。"
+knowledge_updates:
+  - "绝不能将22:22未查见推断为乘客必然在巡查后进入；本地按钮回执不等于接通。"
+foreshadowing_updates:
+  - "普通站区联络故障不证M004或M005；F008无新增本人记忆样本。"
+relationship_updates:
+  - "陆映自主决定移动，中心不越权开锁、动检修梯或承诺费用。"
+ending_state: "陆映已安全离站，西梯继续封停，设备链路与正式路牌方案待维修审批。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, dependency: checked, structural: pending}
+char_count: 3179
