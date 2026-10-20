@@ -1,11 +1,11 @@
 schema_version: 1
-last_updated_chapter: 179
-current_time: Day45 07:20
+last_updated_chapter: 185
+current_time: Day51 07:13
 world:
   anomaly_public_awareness: none
   current_arc: ARC-053_active
-  current_service_case: 第179章急诊车辆通路已临时复测恢复；馆藏旧折纸首面有限核见，折痕粘连停止，内文与旧单据同一性未证。
-  next_entry: 第180章以第179章真实正文为依赖，保持旧纸件原件保全、审批权限及M004/M005未知边界。
+  current_service_case: 第185章童野沿专业许可路线取车，云集街正门仍封控；DQ-JB-06复查未见原因待核。
+  next_entry: 核验点位关系核对单，保持F008和M004/M005硬边界。
 case_state:
   chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
 invariants:
@@ -116,3 +116,11 @@ chapter_169_to_179_verified_case_state:
     chapter_179:
       timeframe: "Day44 20:27—Day45 07:20"
       verified_event: "急诊车辆通道经实际复测恢复；受控有限启封首次证实《东桥区街巷名称差异摘记》首面，折痕粘连停止，后续内文及与旧记录同一性未证。"
+
+chapter_180_to_185_verified:
+  chapter_180: "冷柜批次隔离转运，原柜待验、质量未判；依法核得永安里北口、旧站B口及DQ-17乙，折纸未再展开"
+  chapter_181: "花市倒灌排除、专业复验完成，经济损失未判；DQ-17乙为并列核图范围，城建和轨道各仅提供目录与文字参考"
+  chapter_182: "司机安全离站、一号桩停用待验、费用未判；乙范围回送表仅收件勾选且办理未完成，不作更换依据，附录待核"
+  chapter_183: "何叔安全过街，提示器经专业复测恢复；历史路线丈量186米，照片小三角与辅助测点同一性未证"
+  chapter_184: "危险遮雨板卸除，余下支架及正门封控，童野车未取；目录确认DQ-JB-06为旧站台阶辅助基准，不是导向牌"
+  chapter_185: "撤误导贴纸、童野依批准路线取车，正门继续封闭；DQ-JB-06原簿复查称现场标志未见、位置关系待补核，原因和物理同点未证"
