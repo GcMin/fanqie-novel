@@ -2,7 +2,7 @@ name: Validate Fanqie ready chapters
 
 on:
   push:
-    branches: [main]
+    branches: [main, audit/ready-0169-0179-20261020-1500]
     paths:
       - ".github/workflows/publisher-check.yml"
       - "chapters/ready/**"
