@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 191
+title: "报停了的地下室还有鼓声"
+volume: 6
+arc: ARC-053
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: e081262052faf7e86e72f1bfaac7c17ac95dcf15
+reader_review: reader_reviews/0191_e0812620.md
+timeframe: "Day56 20:28—Day57 06:55"
+summary: "旧印刷厂地下排练室三人由消防确认入口安全救出；陈卓咽喉不适观察，房间电路仍隔离，原因责任待核；旧站无新来源停止扩大阅核"
+meaningful_state_changes:
+  - "旧印刷厂地下排练室三人由消防确认入口安全救出；陈卓咽喉不适观察，房间电路仍隔离，原因责任待核；旧站无新来源停止扩大阅核"
+knowledge_updates:
+  - "旧印刷厂地下排练室三人由消防确认入口安全救出；陈卓咽喉不适观察，房间电路仍隔离，原因责任待核；旧站无新来源停止扩大阅核"
+foreshadowing_updates:
+  - "F003保持合法来源边界，M004/M005未证，F008无新样本"
+relationship_updates:
+  - "角色保持专业职权边界，未解决的服务和赔偿事项保留，信任分值未变"
+ending_state: "旧印刷厂地下排练室三人由消防确认入口安全救出；陈卓咽喉不适观察，房间电路仍隔离，原因责任待核；旧站无新来源停止扩大阅核"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: requires_exact_commit_CI_before_main_release}
+char_count: 3573
