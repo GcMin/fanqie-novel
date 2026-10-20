@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 180
+title: 折页上的两个方向
+volume: 6
+arc: ARC-053
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 9073128f34bb9332ec110b47fd16b414af4b8dc4
+reader_review: reader_reviews/0180_9073128f.md
+timeframe: Day45 20:13—Day46 07:23
+summary: 香樟卫生服务点冷柜远程通讯在线但门封不严造成超温，报警维护静默未恢复。专业人员将受影响批次隔离转运待质量判定，告警试报恢复但原柜等待专业复验。桥西馆藏旧折纸获双重批准后局部分离遇纤维牵动即停，仅在天然外露边缘核得永安里北口、旧站B口、DQ-17乙及待现场核图。图幅引用不能证明更换实施、审批或经办人。
+meaningful_state_changes:
+- 冷链物品隔离转运，故障设备仍待复验，质量结论未出。
+- 从获批折纸窄边取得DQ-17乙图幅索引，可依此查独立目录。
+knowledge_updates:
+- 通信在线、温度合格、报警启用是三个独立事实。
+- DQ-17乙是核图索引，折纸其余内页与签字结论未核。
+foreshadowing_updates:
+- F003证据链循审批推进；F008无新样本，F009/F010/F011继续resolved；M004/M005不作结论。
+relationship_updates:
+- 罗谨只接收依法脱敏摘录，馆方掌握原件保管及保护边界；周衡不以本人记忆代替证据。
+ending_state: Day46早班交接：冷柜批次隔离待评、原柜待复验；DQ-17乙已核，折纸内折仍不得碰。
+reader_counts:
+  blocker: 0
+  major: 0
+  minor: 2
+qa_notes:
+  continuity: pass
+  style: pass
+  meaningful_state_change: pass
+  structural: requires_matching_commit_CI_success_before_main_release
+char_count: 2828

@@ -1,0 +1,26 @@
+schema_version: 1
+chapter: 183
+title: "照片上走得通的那段路"
+volume: 6
+arc: ARC-053
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 7223b0e3e377272066a898fb08065fc5a0fc8729
+reader_review: reader_reviews/0183_7223b0e3.md
+timeframe: "Day48 20:18—Day49 07:12"
+summary: "何叔因人行过街提示器相位错配遭险，郑女士施援，交警安全导行，养护部门修正并复测提示器，不能推断机动车信号也错。获准历史现场附录提供旧站B口到永安里北口步行丈量186米及两张历史照片，其中旧界牌基准点小三角待核；照片导向标识与小三角非同一证据，需独立查界址目录。"
+meaningful_state_changes:
+- "过街提示器风险经专业处置排除，何叔安全回家。"
+- "核实历史186米步行路线和照片，另有待核界址辅助点索引。"
+knowledge_updates:
+- "历史路线不能代替当前通行或标牌现状。"
+- "旧界牌基准点符号不能直接等同路牌、界碑或在位实体。"
+foreshadowing_updates:
+- "F003合法证据链推进；F008无新增明确样本，F009/F010/F011仍resolved，M004/M005未知。"
+relationship_updates:
+- "郑女士与何叔各提供险情及需求，中心不让盲人自行试灯，罗谨按授权查询旧档。"
+ending_state: "Day49早班：提示器复测通过；旧路线有据，小三角与辅助基准点同一性待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: requires_matching_commit_CI_success_before_main_release}
+char_count: 3516

@@ -1,0 +1,25 @@
+schema_version: 1
+chapter: 182
+title: "回送表上的半个勾"
+volume: 6
+arc: ARC-053
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 875575e8d48c7601a0eef0a02f39d4af5ec7a7b1
+reader_review: reader_reviews/0182_875575e8.md
+timeframe: "Day47 20:26—Day48 07:21"
+summary: "顾师傅出租车充电枪锁止，运营方与厂家核实断电安全、释放并处理车端锁止，22:05安全驶离；一号桩仍停用待复测，超时费争议未判。获批城建DQ-17乙回送表为两页相连原件，收件栏勾选而办理结果栏未完成；备注仅载当时北口名称指引现场可见且差异待复核，本回件不作更换依据。现场附录待独立核实。"
+meaningful_state_changes:
+- "司机及乘客安全处置完成，充电桩待专业复验，费用另议。"
+- "核得DQ-17乙原表已收件但未办结，另有现场附录可依法核查。"
+knowledge_updates:
+- "收件、审批与实施是不同环节；旧B口当时可见标识不等于今天或全部路段的现状。"
+foreshadowing_updates:
+- "F003合法证据链推进；F008无新增明确样本，F009/F010/F011仍resolved，M004/M005未知。"
+relationship_updates:
+- "顾师傅有费用与家庭承诺压力，中心只核验安全不替运营方判费用。"
+ending_state: "Day48早班：司机安全离场，一号桩未恢复；乙范围已收件、未办结，现场附录待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: requires_matching_commit_CI_success_before_main_release}
+char_count: 3576

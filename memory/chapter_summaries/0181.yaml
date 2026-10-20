@@ -1,0 +1,26 @@
+schema_version: 1
+chapter: 181
+title: "乙字后面还有一栏"
+volume: 6
+arc: ARC-053
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: b1ddb22876ee469938148d85a8504f9fb060d476
+reader_review: reader_reviews/0181_b1ddb228.md
+timeframe: "Day46 20:11—Day47 07:16"
+summary: "南桥花市积水威胁电气和冷藏货物；专业人员隔离用电、清除止回翻板卡物，排水、供电及冷藏设备复验完成，财产损失未判。城建目录确认DQ-17乙是与甲并列的外业核图范围而非替代甲版；轨道旧站拆移附件仅将其列为文字核对参考，非安装依据。城建回送登记有独立档号，尚需核验实体和内容。"
+meaningful_state_changes:
+- "花市排水和用电、冷藏设施经专业复验恢复；财产损失另行认定。"
+- "DQ-17乙从含混“乙版”明确为并列核图范围，新增回送登记查询线索。"
+knowledge_updates:
+- "外业核图底稿、物资文字比对参考与正式更换批准不能等同。"
+- "周衡个人童年路线记忆不能充作业务档案证据。"
+foreshadowing_updates:
+- "F003合法证据链推进；F008无新增明确样本，F009/F010/F011仍resolved，M004/M005未知。"
+relationship_updates:
+- "纪姐有经营损失诉求，中心保全事实不认定赔付；罗谨坚持最小范围合法申请。"
+ending_state: "Day47早班：花市恢复使用，损失未判；DQ-17乙在两套目录有业务引用，回送登记待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: requires_matching_commit_CI_success_before_main_release}
+char_count: 3536
