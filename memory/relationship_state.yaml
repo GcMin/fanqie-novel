@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 168
+last_updated_chapter: 179
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -59,3 +59,11 @@ chapter_165_to_168_confirmed:
     - "166：吴桂香只负责如实报险，不承担近身触电风险；养护调度承认漏派并真实补派，夜班中心不要求倒填。"
     - "167：宋女士只报行人通行风险；韩师傅等专业巡查按实际到场复核，双方没有形成超出职责的私人授权。"
     - "168：余青、范立和老冯各依所见沟通，园区对通路负责，医疗与车组路径决策归120；主角间没有足以调整旧信任分值的新事件。"
+
+
+chapter_169_to_179_relationships:
+  release_state: ready_after_matching_commit_structure_validation
+  main_cast: "周衡、梁策、夏宁维持职业协作和证据分层，没有可量化的信任分值变化。"
+  station: "陆映依本人意愿自主撤离；童班长负责现场授权，中心不越权使用检修电梯和作承运费用承诺。"
+  archive: "罗谨按授权代为申请历史档案窄查，周衡披露本人关联并回避原件调阅；杜禾、莫悦负责实体保全，未认定经办人责任。"
+  service: "医院医护及专业施工处理急救通道，中心只核验安全通行；档案馆启封权与旧档关联仍由馆方掌握。"

@@ -79,3 +79,14 @@ combined_audit_batch_20261019_0161_0164:
   reader_gate: blocker_and_major_zero
   content_qa: pass
   release_candidate: requires_precise_commit_structural_success_before_main_update
+
+
+combined_audit_batch_20261020_0169_0179:
+  chapters: [169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179]
+  body_revisions_this_run: 0
+  prior_stage_a_revisions:
+    chapter_169: {source_before: b619c1743536888dac1eb15991342058c460de5d, source_after: c6f2d0d52a009dbe3b49c09cb7e044585298686c, review: reader_reviews/0169_c6f2d0d5.md}
+    chapter_172: {source_before: bd5371f01ce690842646123be75a4e0158542b5a, source_after: 667c38056fee4c87d665b5d04453d1241c666224, review: reader_reviews/0172_667c3805.md}
+  reader_gate: blockers_and_majors_zero_each_current_source_SHA
+  content_qa: continuity_and_style_pass_each_chapter
+  structural_gate: requires_success_at_precise_candidate_commit_before_main_ref_update

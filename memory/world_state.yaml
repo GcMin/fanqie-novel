@@ -1,11 +1,11 @@
 schema_version: 1
-last_updated_chapter: 168
-current_time: Day39 22:04
+last_updated_chapter: 179
+current_time: Day45 07:20
 world:
   anomaly_public_awareness: none
-  current_arc: ARC-052_active
-  current_service_case: 临江菜市东坡持续封闭且危险警告状态备注漏传已查明；槐树坪照明箱专业断电但锁扣与复电待验；北岸仓储园14号门施工封控，12号门实际完成120救援通行
-  next_entry: 第169章从Day39第三十七次夜班继续；14号门不得因卷闸绿色回执开放，F008无新样本，M004/M005均未证。
+  current_arc: ARC-053_active
+  current_service_case: 第179章急诊车辆通路已临时复测恢复；馆藏旧折纸首面有限核见，折痕粘连停止，内文与旧单据同一性未证。
+  next_entry: 第180章以第179章真实正文为依赖，保持旧纸件原件保全、审批权限及M004/M005未知边界。
 case_state:
   chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
 invariants:
@@ -78,3 +78,41 @@ chapter_165_to_168_confirmed:
   chapter_167: "换班间隙隔离线被车辆与倒锥破坏，02:13巡查恢复引导；06:11当时仍有效，但不保证永久，也不等于电箱恢复供电。"
   chapter_168: "12号门真实安全通行后完成120接入转运，14号门虽开闸但施工封控仍有效，门禁/施工状态联动未正式上线。"
   no_confirmed_new_anomaly: true
+
+
+chapter_169_to_179_verified_case_state:
+  release_state: ready_after_matching_commit_structure_validation
+  chapters:
+    chapter_169:
+      timeframe: "Day39 22:46—Day40 00:13"
+      verified_event: "北岸换乘中心L2-07求助点：陆映获安全协助离站，前两次按钮无人声接通尚待追查；西梯及完整通话链路未修复。"
+    chapter_170:
+      timeframe: "Day40 00:37—07:36"
+      verified_event: "证实前两次求助进入无人登录的应答组并超时；临时电话通路可用，固定L2-07端到端故障仍待批准修复。"
+    chapter_171:
+      timeframe: "Day40 20:14—22:37"
+      verified_event: "桥西档案库漏水安全处置，七箱实存而旧清单六箱；六箱外运暂停，第七箱来源、旧目录内文均未证。"
+    chapter_172:
+      timeframe: "Day40 22:48—Day41 02:09"
+      verified_event: "旧目录窄查补范围及关联披露并获受理；馆方实际止运，七箱双人保全；未获得原件调阅许可。"
+    chapter_173:
+      timeframe: "Day41 02:23—07:40"
+      verified_event: "罗谨依法接手原始档案窄查，获去身份借还用途摘要；蓝章是库区级关联，不证明第七箱归属。"
+    chapter_174:
+      timeframe: "Day41 20:19—23:37"
+      verified_event: "受潮两箱实际双签移至恒湿柜，D架仍封；另送差异摘记只见转送附注、无收件签认。"
+    chapter_175:
+      timeframe: "Day41 23:49—Day42 07:36"
+      verified_event: "旧收发簿证摘记仅拟转交馆内收发岗、退回整理岗，外部签收未证；原件目前所在仍待查。"
+    chapter_176:
+      timeframe: "Day42 20:11—Day43 00:02"
+      verified_event: "专业修复恒湿监测告警线路并复测；第七箱有与六箱不同的来源批次，内件与旧袋目录关联未证。"
+    chapter_177:
+      timeframe: "Day43 00:18—07:05"
+      verified_event: "获批核实旧退件册及独立纸袋保管索引但未拆袋；南新路临时危险围挡专业加固并交班。"
+    chapter_178:
+      timeframe: "Day43 20:16—Day44 06:26"
+      verified_event: "备用无障碍车实际接走乘客并纠正原车误报；纸袋外部业务索引出现永安里片区，袋内未启封。"
+    chapter_179:
+      timeframe: "Day44 20:27—Day45 07:20"
+      verified_event: "急诊车辆通道经实际复测恢复；受控有限启封首次证实《东桥区街巷名称差异摘记》首面，折痕粘连停止，后续内文及与旧记录同一性未证。"
