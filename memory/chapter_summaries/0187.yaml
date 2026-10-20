@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 187
+title: "签到处不在台阶旁"
+volume: 6
+arc: ARC-053
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 763826e3a2c74bbc93a40a5d9a75a5005a676f99
+reader_review: reader_reviews/0187_763826e3.md
+timeframe: "Day52 20:19—Day53 07:08"
+summary: "排水队21:04才实际接触报修人；返水停止而复业许可与损失待核；旧派查只签到施工联络点且未获准进入基准点。"
+meaningful_state_changes:
+  - "排水队21:04才实际接触报修人"
+knowledge_updates:
+  - "排水队21:04才实际接触报修人；返水停止而复业许可与损失待核；旧派查只签到施工联络点且未获准进入基准点。"
+foreshadowing_updates:
+  - "F003依授权递进；F008无新样本、F009/F010/F011 resolved；M004/M005未获证。"
+relationship_updates:
+  - "主角职业协作、授权与责任边界保持，无可量化信任分数变动。"
+ending_state: "排水队21:04才实际接触报修人；返水停止而复业许可与损失待核；旧派查只签到施工联络点且未获准进入基准点。"
+reader_counts: {blocker: 0, major: 0, minor: 3}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: requires_exact_commit_CI_before_main_release}
+char_count: 3390
