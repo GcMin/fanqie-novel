@@ -3,8 +3,8 @@ chapter: 172
 title: "两张清单之间的空格"
 volume: 6
 arc: ARC-053
-status: draft
-qa: content_pass_release_pending
+status: ready
+qa: pass
 reader_gate: pass
 source_sha: 667c38056fee4c87d665b5d04453d1241c666224
 reader_review: reader_reviews/0172_667c3805.md
@@ -20,5 +20,5 @@ relationship_updates:
   - "周衡、夏宁、梁策遵守证据及保密界限，馆方对封箱和档案申请有最终权限。"
 ending_state: "窄范围历史目录申请正式受理且六箱运输真正停止。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: requires_matching_commit_CI_success_before_main_release}
 char_count: 2984

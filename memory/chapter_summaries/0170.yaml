@@ -3,8 +3,8 @@ chapter: 170
 title: "铃响完了，岗位还没登录"
 volume: 6
 arc: ARC-052
-status: draft
-qa: content_pass_release_pending
+status: ready
+qa: pass
 reader_gate: pass
 source_sha: e2ece8b6566738a699090998b4999e968fc316f1
 reader_review: reader_reviews/0170_e2ece8b6.md
@@ -20,5 +20,5 @@ relationship_updates:
   - "周衡、夏宁、梁策按岗位和馆方/站方权限处置，不越权将假设写成结论。"
 ending_state: "站方确认应答组未登录是普通漏接原因，临时电话可用而固定按钮仍未修复。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: requires_matching_commit_CI_success_before_main_release}
 char_count: 3348

@@ -3,8 +3,8 @@ chapter: 174
 title: "另送那页没有签收"
 volume: 6
 arc: ARC-053
-status: draft
-qa: content_pass_release_pending
+status: ready
+qa: pass
 reader_gate: pass
 source_sha: ba4c210b3765e7bfc3df5c609432433e668611e2
 reader_review: reader_reviews/0174_ba4c210b.md
@@ -22,5 +22,5 @@ relationship_updates:
   - "周衡因个人关联继续回避原件查阅，由罗谨在授权范围经办；档案馆员保留实物管理权。"
 ending_state: "两只受潮箱在恒湿新柜受控，第七箱身份未明，D架仍封；差异摘记转送登记号已知但未见签收。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_source, structural: pending}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_source, structural: requires_matching_commit_CI_success_before_main_release}
 char_count: 3076

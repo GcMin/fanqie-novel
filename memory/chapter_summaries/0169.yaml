@@ -3,8 +3,8 @@ chapter: 169
 title: "来电人是那部对讲机"
 volume: 6
 arc: ARC-052
-status: draft
-qa: content_pass_release_pending
+status: ready
+qa: pass
 reader_gate: pass
 source_sha: c6f2d0d52a009dbe3b49c09cb7e044585298686c
 reader_review: reader_reviews/0169_c6f2d0d5.md
@@ -20,5 +20,5 @@ relationship_updates:
   - "陆映自主决定移动，中心不越权开锁、动检修梯或承诺费用。"
 ending_state: "陆映已安全离站，西梯继续封停，设备链路与正式路牌方案待维修审批。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
-qa_notes: {continuity: pass, style: pass, dependency: checked, structural: pending}
+qa_notes: {continuity: pass, style: pass, dependency: checked, structural: requires_matching_commit_CI_success_before_main_release}
 char_count: 3179

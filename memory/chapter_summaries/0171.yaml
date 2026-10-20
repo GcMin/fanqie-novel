@@ -3,8 +3,8 @@ chapter: 171
 title: "多出来的第七只箱子"
 volume: 6
 arc: ARC-053
-status: draft
-qa: content_pass_release_pending
+status: ready
+qa: pass
 reader_gate: pass
 source_sha: 0c754ec0794ba5967ba28b171c7a05f5e970f158
 reader_review: reader_reviews/0171_0c754ec0.md
@@ -20,5 +20,5 @@ relationship_updates:
   - "周衡、夏宁、梁策遵守证据及保密界限，馆方对封箱和档案申请有最终权限。"
 ending_state: "七箱受控保全、六箱外运暂停并获得目录级合法核查入口。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: requires_matching_commit_CI_success_before_main_release}
 char_count: 3024

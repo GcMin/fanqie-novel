@@ -3,8 +3,8 @@ chapter: 178
 title: "纸袋背面的旧地址"
 volume: 6
 arc: ARC-053
-status: draft
-qa: content_pass_release_pending
+status: ready
+qa: pass
 reader_gate: pass
 source_sha: a252335c69f3688d0d3657176cfa889c2ac0a926
 reader_review: reader_reviews/0178_a252335c.md
@@ -21,5 +21,5 @@ relationship_updates:
   - "周衡、梁策、夏宁按权限核实，罗谨负责有合法申请的旧档案核验，馆方掌握保管与启封权限；没有依据调整主角关系数值。"
 ending_state: "原车记录已更正而设备维修待办；纸件袋外标永安里片区有据，袋内及旧摘记同一性未证。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_provisional_source, structural: pending}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_provisional_source, structural: requires_matching_commit_CI_success_before_main_release}
 char_count: 3239

@@ -3,8 +3,8 @@ chapter: 179
 title: "封口拆到第一道折痕"
 volume: 6
 arc: ARC-053
-status: draft
-qa: content_pass_release_pending
+status: ready
+qa: pass
 reader_gate: pass
 source_sha: e06596ce477e0e858808461b9cce9ee2a60aa5e7
 reader_review: reader_reviews/0179_e06596ce.md
@@ -21,5 +21,5 @@ relationship_updates:
   - "周衡、梁策、夏宁按权限核实，罗谨负责有合法申请的旧档案核验，馆方掌握保管与启封权限；没有依据调整主角关系数值。"
 ending_state: "Day45 07:20医院通路已暂时恢复，原复测材料保全；旧折纸背侧待修复评估和另一次内容权限审批。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_provisional_source, structural: pending}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, dependency: exact_provisional_source, structural: requires_matching_commit_CI_success_before_main_release}
 char_count: 3329

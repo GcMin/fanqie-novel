@@ -3,8 +3,8 @@ chapter: 176
 title: "第七只箱子的另一张单"
 volume: 6
 arc: ARC-053
-status: draft
-qa: content_pass_release_pending
+status: ready
+qa: pass
 reader_gate: pass
 source_sha: 1ff60335558f4a3b2ce9b35d97dec41f7441ff70
 reader_review: reader_reviews/0176_1ff60335.md
@@ -22,5 +22,5 @@ relationship_updates:
   - "莫悦和杜禾坚持原物保全与专业权限；周衡承认个人旧址动机仍回避原件，罗谨承担获批查询。"
 ending_state: "两受潮箱仍待保护评估，D架停用、六箱外运暂停；第七箱独立来源批次有据但实物内容未证，退件册仅目录定位。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: requires_matching_commit_CI_success_before_main_release}
 char_count: 3056

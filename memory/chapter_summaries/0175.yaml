@@ -3,8 +3,8 @@ chapter: 175
 title: "签出的纸没出那道门"
 volume: 6
 arc: ARC-053
-status: draft
-qa: content_pass_release_pending
+status: ready
+qa: pass
 reader_gate: pass
 source_sha: a232f13f41c9932a42f41e4fd68156d875fc3daf
 reader_review: reader_reviews/0175_a232f13f.md
@@ -20,5 +20,5 @@ relationship_updates:
   - "周衡继续退出与个人记忆相关的原件查阅，罗谨依权限申请；馆方仍主管档案实物和保管系列。"
 ending_state: "拟转纸件有馆内退回登记，原件存放与内容未核；受潮箱安全暂存而未修复。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: requires_matching_commit_CI_success_before_main_release}
 char_count: 3158
