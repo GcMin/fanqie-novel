@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 195
+title: "名单空着，人在门口"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: bf66ac81f2a02cbc6010ac5bba93d32482d4d37d
+reader_review: reader_reviews/0195_bf66ac81.md
+timeframe: "Day60晚—Day61早班"
+summary: "QJ-147林书禾以本人非语音方式确认本次出行，唐晓蓉经有权专席核实仅本趟陪同权限；定位围栏到站不等于东门接客，21:23实际登车22:05安全送达。四组隔离测试合格但生产上线未完成。"
+meaningful_state_changes:
+  - "林书禾真实到家，单次授权保留可追溯凭据；界面可及性改进和正式全链路发布仍待审批。"
+knowledge_updates:
+  - "实际确认/授权范围/车辆到场/真正接送与系统字段须分开，普通业务数据错配不能被误当乘客本人决定。"
+foreshadowing_updates:
+  - "F003按合法证据推进；F008无新样本，F009/F010/F011 resolved；M004/M005未证。"
+relationship_updates:
+  - "乘客实际意愿有来源留痕，主角职业关系维持，无新的可量化信任分数变化。"
+ending_state: "林书禾真实到家，单次授权保留可追溯凭据；界面可及性改进和正式全链路发布仍待审批。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3066
