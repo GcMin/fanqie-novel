@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 193
+last_updated_chapter: 197
 characters:
   zhou_heng:
     location: Day55 07:09，临江市夜间综合服务中心，第五十二次夜班交接时
@@ -152,3 +152,10 @@ chapter_190_to_193_verified:
   xia_ning: "将业务平台完成状态与事实分栏，保留原始误标及纠正证据，不把人工临时补位写为软件修复。"
   no_new_main_cast_injuries: true
   location_at_end: "Day59清晨，临江市夜间综合服务中心早班交接。"
+
+chapter_194_to_197_confirmed_after_reader_qa:
+  chapter_194: "QJ-136岗亭无授权接听误被写成乘客确认；顾一帆实际送达，旧分支离线失败。"
+  chapter_195: "QJ-147乘客本人文字确认和单次授权均已核实；林书禾安全送达，四例隔离测试通过，未生产发布。"
+  chapter_196: "QJ-158旧预约取消误贴当次；段弈安全送达、误标更正，仍待生产修复。"
+  chapter_197: "QJ-162真实送达；运营撤回错称测试为上线的通知、恢复两人工席，11笔未证全部送达。"
+  main_cast: "三名主要角色无新增伤势，坚持来源与权限边界，未确认F008、M004、M005。"
