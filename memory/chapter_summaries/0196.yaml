@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 196
+title: "上一次说不去，不算这一次"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: 64615481f6c7c7167bd66c04cc342e01472d6fbf
+reader_review: reader_reviews/0196_64615481.md
+timeframe: "Day61晚—Day62早班"
+summary: "QJ-158段弈未拒绝本次接车，历史QJ-118取消经旧关联键错贴新单。运营恢复履约，21:25上车22:07送达，04:22有权更正误标；新增跨预约隔离测试通过，生产修复仍未上线。"
+meaningful_state_changes:
+  - "QJ-158实际送达与错误标签更正已证，跨预约风险有范围内隔离测试但影响总量及正式生产发布待核。"
+knowledge_updates:
+  - "实际确认/授权范围/车辆到场/真正接送与系统字段须分开，普通业务数据错配不能被误当乘客本人决定。"
+foreshadowing_updates:
+  - "F003按合法证据推进；F008无新样本，F009/F010/F011 resolved；M004/M005未证。"
+relationship_updates:
+  - "乘客实际意愿有来源留痕，主角职业关系维持，无新的可量化信任分数变化。"
+ending_state: "QJ-158实际送达与错误标签更正已证，跨预约风险有范围内隔离测试但影响总量及正式生产发布待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3307
