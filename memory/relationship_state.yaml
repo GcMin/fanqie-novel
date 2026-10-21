@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 193
+last_updated_chapter: 197
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -90,3 +90,12 @@ chapter_190_to_193_verified:
   chapter_193: "QJ-099候客超时被误写成丁绍全本人取消，失约限制已正式撤销但费用未决；QJ-121在人工核实后真实送达；核查的12单仅2单有明确目标角色错配证据，其他10单影响不明，正式修复未上线。"
   main_cast_trust_scores_unchanged: true
   outside_parties: "樊小雨安全绕行，三名排练者获救，宋嘉母女安全送达；丁绍全失约标签纠正但费用未定。责任、满意度与事实回执不混同，主角间无足够依据调整既有信任评分。"
+
+chapter_194_to_197_verified:
+  release_state: reader_qa_pass_pending_exact_candidate_structure_check
+  chapter_194: "林广义只接了岗亭电话并明确未替顾一帆确认；顾一帆安全送达，未声明满意或放弃追责。"
+  chapter_195: "林书禾本人文字同意本趟；唐晓蓉经有权专席核实仅本次陪同授权，并非永久代理。"
+  chapter_196: "段弈的上周取消不代表本次拒绝；QJ-158当次确认与实际上车、送达独立保留。"
+  chapter_197: "卢萍负责室内安全候车，何静为经核实的本次家属接收人；姚值班员按正式通知恢复人工值守。"
+  main_cast_trust_scores_unchanged: true
+  caution: "未确认的满意度、平台责任、生产上线和同批影响不写成既成事实。"
