@@ -92,7 +92,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 149,井盖下面的第三声,completed,ARC-050,人物安全与原始证据核验,伤者主观陈述与专业调查边界,卢程获救送医、LH-09持续禁入，入井经过待查。,,3000,pass,published,独立Reader0BLOCKER0MAJOR2MINOR；原稿SHA26a5a9f5；QA与Memory已同步
 150,离开工位，不等于擅自下井,completed,ARC-050,人物安全与原始证据核验,伤者主观陈述与专业调查边界,不当定性撤回、证据正式移交，坠落原因未证。,,3000,pass,published,独立Reader0BLOCKER0MAJOR2MINOR；原稿SHA3f43afe9；QA与Memory已同步
 151,录像先拍到了缺口,completed,ARC-050,人物安全与原始证据核验,伤者主观陈述与专业调查边界,影像正式保存、公众绕行清晰，事故责任与井盖状态仍未明。,,3000,pass,published,独立Reader0BLOCKER0MAJOR2MINOR；原稿SHA4ab3848c；QA与Memory已同步
-152,别把那三下删掉,completed,ARC-050,人物安全与原始证据核验,伤者主观陈述与专业调查边界,原群消息被保留、报险安全指引已当晚执行；LH-09仍封闭，呼名与坠落原因待查。,,3000,pass,ready,独立Reader0BLOCKER0MAJOR2MINOR；原稿SHAa59b195d；QA与Memory已同步
+152,别把那三下删掉,completed,ARC-050,人物安全与原始证据核验,伤者主观陈述与专业调查边界,原群消息被保留、报险安全指引已当晚执行；LH-09仍封闭，呼名与坠落原因待查。,,3000,pass,published,独立Reader0BLOCKER0MAJOR2MINOR；原稿SHAa59b195d；QA与Memory已同步
 153,人没回来，表先签完了,completed,ARC-050,核实人员返车表,设备结单不能证明人到场,原表与更正移交并逐人清点,,3000,pass,ready,Reader0BLOCKER0MAJOR3MINOR；QA及Memory同步；SHAc0dcce02
 154,围挡外的最后九桶,completed,ARC-050,安全恢复清运,旧大车路线无法穿越封控,九桶分六桶与三桶清走,,3000,pass,ready,一次StageA修订后SHA953157a8；Reader0BLOCKER0MAJOR1MINOR；QA通过
 155,二十二号不在地图上,completed,ARC-051,处理电气危险与地址缺项,实体门牌不等于公开服务登记,LM-214隔离未复电且后院可通行,,3000,pass,ready,154新旧桶数差异已核相容；Reader0BLOCKER0MAJOR2MINOR；QA通过
