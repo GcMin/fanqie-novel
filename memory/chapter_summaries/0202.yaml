@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 202
+title: "没人接她，她也到了"
+volume: 6
+arc: ARC-054
+status: ready_candidate
+qa: pass
+reader_gate: pass
+source_sha: d234b50814199c415b3402eadef4829445ecbf5b
+reader_review: reader_reviews/0202_d234b508.md
+timeframe: "Day67晚—Day68早班"
+summary: "QJ-218庄雪禾依原预约可独立下车，旧站点别名却误要求机构接收；夜间专席核合同条件后解除误门槛。21:37临时软管和水马妨碍安全坡道，司机等现场处置；21:52清障核验、22:01庄雪禾实际自主离车。QJ-221另需真实机构接收，不得按218豁免；隔离复测仅限定样例通过，生产未更新。"
+meaningful_state_changes:
+  - "QJ-218安全自主离车且业务门槛澄清，QJ-221独立待证，避免统一强制或一概豁免签收。"
+knowledge_updates:
+  - "姚理解机构签收只由当次有效服务约定决定，系统站点别名与技术隔离样例不能凌驾本人权利和实际交接。"
+foreshadowing_updates:
+  - "F008无新增本人具体记忆矛盾，F003合法核查边界不变，F009/F010/F011仍resolved；M004/M005未证。"
+relationship_updates:
+  - "本次乘客意愿及运营责任按源凭据记录，无确证可调整主要角色信任评分，不推定满意或长久授权。"
+ending_state: "QJ-221另需真实机构接收，不得按218豁免；隔离复测仅限定样例通过，生产未更新。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3047
