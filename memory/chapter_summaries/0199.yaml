@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 199
+title: "车还没来，她说不坐了"
+volume: 6
+arc: ARC-054
+status: ready_candidate
+qa: pass
+reader_gate: pass
+source_sha: bd912c160d9ecf3234b51ea0fadf9c485343568b
+reader_review: reader_reviews/0199_bd912c16.md
+timeframe: "Day64晚—Day65早班"
+summary: "QJ-183沈茵19:04本人确认，但20:49通过有权本人渠道撤回当次预约，20:57司机确认未启程并完成停派；22:38沈茵乘另约车辆离开工坊，并非QJ-183平台送达。QJ-186魏巧然经独立承运核验21:49登车、22:23送达。隔离回放发现旧同意仍会触发发车，限定撤回样例前三类通过，已接车情形待定。"
+meaningful_state_changes:
+  - "本人有来源的撤回与先前确认同时保留，QJ-183真实停派；QJ-186独立送达，人工变更指引当夜有效。"
+knowledge_updates:
+  - "周衡、夏宁、梁策、姚区分本次预约的先前有效确认、后来有效撤回、司机实际是否启程与其他预约的独立核实；不能将取消无限外推。"
+foreshadowing_updates:
+  - "普通业务状态错配不构成F008记忆矛盾；F003合法证据边界不变，F009/F010/F011 resolved，M004/M005未证。"
+relationship_updates:
+  - "沈茵行程变更属于本人独立意愿，运营方有权停派，主角职业信任分数无确证变动。"
+ending_state: "两人工席继续在岗；QJ-183撤回停派与QJ-186送达有据，生产发布、回退验收和已接车后变更规则仍待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3369

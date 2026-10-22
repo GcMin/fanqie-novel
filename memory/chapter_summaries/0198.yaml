@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 198
+title: "回滚表上少了一个人"
+volume: 6
+arc: ARC-054
+status: ready_candidate
+qa: pass
+reader_gate: pass
+source_sha: 08b1666e315a642f5a031884e84971bab8579f14
+reader_review: reader_reviews/0198_08b1666e.md
+timeframe: "Day63 20:14—Day64早班"
+summary: "QJ-171郑玉梅22:01实际上车、22:46安全送达；QJ-T09是隔离回滚演练，不是客运真实事故。旧回滚使已接车的模拟任务重复联系，限缩后四状态样例通过；姚值班员拒签未经生产验证的回退就绪，两名临时人工席获得续岗回执。"
+meaningful_state_changes:
+  - "真实QJ-171送达；回退错误在隔离环境暴露并完成限定修正，运营夜班人工席续岗已签收。"
+knowledge_updates:
+  - "周衡、夏宁、梁策、姚知道生产回退必须按本次预约号及实际履约状态核验，不可凭旧界面终结或重联。"
+foreshadowing_updates:
+  - "F003仅凭合法可核证据推进；F008无新增样本，F009/F010/F011 resolved；M004/M005未证。"
+relationship_updates:
+  - "姚拒绝替未经核实的生产回退背书，运营排班由主管负责；不推断乘客满意或主角间信任分值变化。"
+ending_state: "两个人工席续岗；旧回滚限定隔离复测通过，但生产迁移、真实回滚演练、权限复核及审批签收仍待完成。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3390
