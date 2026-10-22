@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 197
+title: "绿灯亮在测试那一侧"
+volume: 6
+arc: ARC-054
+status: pending_memory_gate
+qa: pass
+reader_gate: pass
+source_sha: 8fa090ac3dfe8f215add4f746a736f6f624698a2
+reader_review: reader_reviews/0197_8fa090ac.md
+timeframe: "Day62 20:06—Day63早班"
+summary: "五类隔离测试成功截图经运营排班群模板误转为生产恢复通知，误撤两个人工席；QJ-162何树根确认来源纠错，21:15实际上车、21:52送达；运营正式撤回误通知并恢复两席，十一笔逐项复核或责任交接，生产仍为旧版。"
+meaningful_state_changes:
+  - "QJ-162安全送达，误减员被正式纠正，两个人工席有在岗回执；此前误转发已留下可追溯链条。"
+knowledge_updates:
+  - "周衡、夏宁、梁策、姚与技术方区分隔离测试通过、转发模板、正式生产审批及真实部署回执。"
+foreshadowing_updates:
+  - "未新增F008亲历记忆冲突；F003仅限获准来源，F009/F010/F011维持resolved，M004/M005未证。"
+relationship_updates:
+  - "何树根意愿须本次有权确认；运营主管签字恢复席位，不能代称乘客满意；主角信任分值无确证变化。"
+ending_state: "十一笔全部复核或有责任交接不等于全部送达；正式技术生产修复及影响总范围未决。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3254
