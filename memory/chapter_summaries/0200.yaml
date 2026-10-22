@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 200
+title: "车开到一半，她不去正门了"
+volume: 6
+arc: ARC-054
+status: ready_candidate
+qa: pass
+reader_gate: pass
+source_sha: d2d4a99dabed82ccf7bac1338a677932f3f762e3
+reader_review: reader_reviews/0200_d2d4a99d.md
+timeframe: "Day65晚—Day66早班"
+summary: "QJ-191丁芷兰已经上车，原南门升降平台停用；司机未擅自解约或变更，物业核西侧无障碍通道、运营另核停车和路线。21:42有权调度批准改派，21:56停车，22:08西侧真实交接，南门未送达。人工车上改道规则启用，隔离旧版技术测试仍未完整通过。"
+meaningful_state_changes:
+  - "乘客车上改变目的地仍获得安全有据交接；新人工规则生效但技术生产整改未完成。"
+knowledge_updates:
+  - "周衡、梁策、夏宁知道已登车不等于可直接套用未启程停派流程，司机与运营分别保留安全与调度权限。"
+foreshadowing_updates:
+  - "F008无新增本人具体记忆矛盾，F003合法核查边界不变，F009/F010/F011仍resolved；M004/M005未证。"
+relationship_updates:
+  - "本次乘客意愿及运营责任按源凭据记录，无确证可调整主要角色信任评分，不推定满意或长久授权。"
+ending_state: "人工车上改道规则启用，隔离旧版技术测试仍未完整通过。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3312

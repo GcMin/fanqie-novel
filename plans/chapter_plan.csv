@@ -90,7 +90,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 147,广播让他们往锁着的门走,completed,ARC-049,现实危险处置与档案核实,专业权限及待核事实边界,三人脱险，错误音频停播，西栅门异常闭锁与广播原因待查。,,3000,pass,published,独立Reader0BLOCKER0MAJOR3MINOR；原稿SHA9463ce99；Memory与QA已同步
 148,那条路不该让人自己找,completed,ARC-049,现实危险处置与档案核实,专业权限及待核事实边界,广播离线在线提示均验证，推车安全领取，旧事件闭锁调查继续，通道仍封闭。,,3000,pass,published,独立Reader0BLOCKER0MAJOR3MINOR；原稿SHA5064c205；Memory与QA已同步
 149,井盖下面的第三声,completed,ARC-050,人物安全与原始证据核验,伤者主观陈述与专业调查边界,卢程获救送医、LH-09持续禁入，入井经过待查。,,3000,pass,published,独立Reader0BLOCKER0MAJOR2MINOR；原稿SHA26a5a9f5；QA与Memory已同步
-150,离开工位，不等于擅自下井,completed,ARC-050,人物安全与原始证据核验,伤者主观陈述与专业调查边界,不当定性撤回、证据正式移交，坠落原因未证。,,3000,pass,published,独立Reader0BLOCKER0MAJOR2MINOR；原稿SHA3f43afe9；QA与Memory已同步
+150,离开工位，不等于擅自下井,completed,ARC-050,人物安全与原始证据核验,伤者主观陈述与专业调查边界,不当定性撤回、证据正式移交，坠落原因未证。,,3000,pass,ready,独立Reader0BLOCKER0MAJOR2MINOR；原稿SHA3f43afe9；QA与Memory已同步
 151,录像先拍到了缺口,completed,ARC-050,人物安全与原始证据核验,伤者主观陈述与专业调查边界,影像正式保存、公众绕行清晰，事故责任与井盖状态仍未明。,,3000,pass,ready,独立Reader0BLOCKER0MAJOR2MINOR；原稿SHA4ab3848c；QA与Memory已同步
 152,别把那三下删掉,completed,ARC-050,人物安全与原始证据核验,伤者主观陈述与专业调查边界,原群消息被保留、报险安全指引已当晚执行；LH-09仍封闭，呼名与坠落原因待查。,,3000,pass,ready,独立Reader0BLOCKER0MAJOR2MINOR；原稿SHAa59b195d；QA与Memory已同步
 153,人没回来，表先签完了,completed,ARC-050,核实人员返车表,设备结单不能证明人到场,原表与更正移交并逐人清点,,3000,pass,ready,Reader0BLOCKER0MAJOR3MINOR；QA及Memory同步；SHAc0dcce02
@@ -137,3 +137,9 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 194,有人接了，没人答应,completed,ARC-054,核QJ-136人工接听与授权确认，确保乘客安全到家,真人接听未获得代答授权却关闭乘客确认待办,顾一帆21:35上车22:02送达，确证人工接通误映射，离线旧分支仍失败,,3166,pass,ready,source_sha:78918883ad053ec675538c168b6250fcf8c19779;Reader_0_0_2;Continuity_Style_PASS;exact_candidate_CI_required
 195,名单空着，人在门口,completed,ARC-054,核实QJ-147单次授权、本次意愿、真实接送,后台名单缺漏与地理围栏到站造成错误判断,林书禾21:23实际接车22:05到家，四组隔离测试不等于上线,,3066,pass,ready,source_sha:bf66ac81f2a02cbc6010ac5bba93d32482d4d37d;Reader_0_0_2;Continuity_Style_PASS;exact_candidate_CI_required
 196,上一次说不去，不算这一次,completed,ARC-054,核跨预约旧结果重放并保障QJ-158正常履约,QJ-118历史取消被错误关联到QJ-158当次预约,段弈21:25上车22:07到家，04:22改正错误标签且保留原记录,,3307,pass,ready,source_sha:64615481f6c7c7167bd66c04cc342e01472d6fbf;Reader_0_0_2;Continuity_Style_PASS;exact_candidate_CI_required
+197,绿灯亮在测试那一侧,reviewed,ARC-054,保障有权真实接驳和来源分层核实,自动状态或旧模板与本人当次意愿及现场事实冲突,QJ-162真实送达且运营撤回误通知恢复两席,F003|F008,3254,pass,draft,source_sha:8fa090ac3dfe8f215add4f746a736f6f624698a2;Reader_0_0_2;Continuity_Style_PASS;ready_candidate_pending_exact_CI
+198,回滚表上少了一个人,reviewed,ARC-054,保障有权真实接驳和来源分层核实,自动状态或旧模板与本人当次意愿及现场事实冲突,QJ-171送达、隔离回滚错误边界补测并续岗,F003|F008,3390,pass,draft,source_sha:08b1666e315a642f5a031884e84971bab8579f14;Reader_0_0_2;Continuity_Style_PASS;ready_candidate_pending_exact_CI
+199,车还没来，她说不坐了,reviewed,ARC-054,保障有权真实接驳和来源分层核实,自动状态或旧模板与本人当次意愿及现场事实冲突,QJ-183本人撤回停派，QJ-186单独送达,F003|F008,3369,pass,draft,source_sha:bd912c160d9ecf3234b51ea0fadf9c485343568b;Reader_0_0_2;Continuity_Style_PASS;ready_candidate_pending_exact_CI
+200,车开到一半，她不去正门了,reviewed,ARC-054,保障有权真实接驳和来源分层核实,自动状态或旧模板与本人当次意愿及现场事实冲突,QJ-191西侧安全交接且车上变更规则生效,F003|F008,3312,pass,draft,source_sha:d2d4a99dabed82ccf7bac1338a677932f3f762e3;Reader_0_0_2;Continuity_Style_PASS;ready_candidate_pending_exact_CI
+201,大门签了字，人还在车上,reviewed,ARC-054,保障有权真实接驳和来源分层核实,自动状态或旧模板与本人当次意愿及现场事实冲突,QJ-204真实照护交接和旧错误更正,F003|F008,3286,pass,draft,source_sha:c5f1dee9f693fb580b0f1393032e104c70555322;Reader_0_0_2;Continuity_Style_PASS;ready_candidate_pending_exact_CI
+202,没人接她，她也到了,reviewed,ARC-054,保障有权真实接驳和来源分层核实,自动状态或旧模板与本人当次意愿及现场事实冲突,QJ-218自主安全下车且QJ-221继续待核,F003|F008,3047,pass,draft,source_sha:d234b50814199c415b3402eadef4829445ecbf5b;Reader_0_0_2;Continuity_Style_PASS;ready_candidate_pending_exact_CI
