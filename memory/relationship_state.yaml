@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 193
+last_updated_chapter: 196
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -90,3 +90,10 @@ chapter_190_to_193_verified:
   chapter_193: "QJ-099候客超时被误写成丁绍全本人取消，失约限制已正式撤销但费用未决；QJ-121在人工核实后真实送达；核查的12单仅2单有明确目标角色错配证据，其他10单影响不明，正式修复未上线。"
   main_cast_trust_scores_unchanged: true
   outside_parties: "樊小雨安全绕行，三名排练者获救，宋嘉母女安全送达；丁绍全失约标签纠正但费用未定。责任、满意度与事实回执不混同，主角间无足够依据调整既有信任评分。"
+
+chapter_194_to_196_verified:
+  chapter_194: "顾一帆坚持车到和安全通行条件确认后才从馆内候车处移动；林广义真实接听但没有代表乘客表态的授权。艺术馆与运营方各按职责提供候车和接驳。"
+  chapter_195: "林书禾本人通过有效非语音方式确认当次出行；唐晓蓉的陪同权限仅针对该趟，不自动扩展为长期代理。"
+  chapter_196: "段弈不接受用上周QJ-118的取消决定代替本次QJ-158的出行意愿，也不应被迫重排队；运营方修正历史误标。"
+  main_cast_trust_scores_unchanged: true
+  no_unverified_consents_or_satisfaction: true
