@@ -97,3 +97,15 @@ chapter_194_to_196_verified:
   chapter_196: "段弈不接受用上周QJ-118的取消决定代替本次QJ-158的出行意愿，也不应被迫重排队；运营方修正历史误标。"
   main_cast_trust_scores_unchanged: true
   no_unverified_consents_or_satisfaction: true
+
+
+chapter_197_to_202_audit_candidate:
+  release_state: pending_ready_tree_and_exact_ci
+  chapter_197: "何树根反对未经确认的转移，运营方纠正误减员并恢复两人工席；QJ-162按本人及授权家属确认安全送达。"
+  chapter_198: "郑玉梅QJ-171真实送达；姚值班员拒签未经真实生产演练的回退就绪，临时人工席续岗留回执。"
+  chapter_199: "沈茵按本人意愿撤回QJ-183且运营正式停派，另行出行不是平台履约；魏巧然QJ-186单独核实并送达。"
+  chapter_200: "丁芷兰车上改道需本人意愿、运营改派、现场西侧安全通行各自确认，22:08真实交接，未让姐姐代替决定。"
+  chapter_201: "阮镜秋拒把门岗放行当本人接收，照护员许玟21:34实际接手；门卫老姜、司机彭屹守住各自权责。"
+  chapter_202: "庄雪禾依预约独立离车无需机构代签；QJ-221须按其实际机构约定另核，不可批量豁免。"
+  main_cast_trust_scores_unchanged: true
+  boundary: "不代乘客作持续授权、满意判断，不改既有关系信任数值；正式生产发布和未知订单影响范围继续待核。"
