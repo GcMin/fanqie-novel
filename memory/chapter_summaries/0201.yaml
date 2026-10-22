@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 201
+title: "大门签了字，人还在车上"
+volume: 6
+arc: ARC-054
+status: ready_candidate
+qa: pass
+reader_gate: pass
+source_sha: c5f1dee9f693fb580b0f1393032e104c70555322
+reader_review: reader_reviews/0201_c5f1dee9.md
+timeframe: "Day66晚—Day67早班"
+summary: "QJ-204阮镜秋乘车到公寓，20:56门岗扫码仅证车辆准入，不是照护签收；照护员许玟21:21到场、21:34真实交接，04:05运营授权更正错误完成记录。旧接口误提前结束并释放车辆，限定隔离规则按订单条件复测，不能宣布生产全链路上线。"
+meaningful_state_changes:
+  - "真实照护交接完成并正式更正误记，门岗准入与履约交接分层的技术规则获得限定离线证据。"
+knowledge_updates:
+  - "老姜只负责开门，司机不能凭扫码自行结单；周衡等区分需要机构签收与无需机构签收的不同订单约定。"
+foreshadowing_updates:
+  - "F008无新增本人具体记忆矛盾，F003合法核查边界不变，F009/F010/F011仍resolved；M004/M005未证。"
+relationship_updates:
+  - "本次乘客意愿及运营责任按源凭据记录，无确证可调整主要角色信任评分，不推定满意或长久授权。"
+ending_state: "旧接口误提前结束并释放车辆，限定隔离规则按订单条件复测，不能宣布生产全链路上线。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3286
