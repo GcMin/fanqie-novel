@@ -3,7 +3,7 @@ chapter: 217
 title: "三号门后那部旧电话"
 volume: 6
 arc: ARC-054
-status: audit_candidate
+status: ready
 qa: pass
 reader_gate: pass
 source_sha: "fa0b38903766589549ab89340137a08d315b7e2f"
