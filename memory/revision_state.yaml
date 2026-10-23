@@ -90,3 +90,14 @@ combined_audit_batch_20261020_0169_0179:
   reader_gate: blockers_and_majors_zero_each_current_source_SHA
   content_qa: continuity_and_style_pass_each_chapter
   structural_gate: requires_success_at_precise_candidate_commit_before_main_ref_update
+
+combined_audit_chapter_239_20261024:
+  chapter: 239
+  source_sha: "19deae51f543ed5144d47ef25f48ce4c7c4aa810"
+  review: reader_reviews/0239_19deae51.md
+  body_revisions_this_run: 0
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  status: reader_and_content_qa_pass
+  structural_gate: exact_commit_CI_required
