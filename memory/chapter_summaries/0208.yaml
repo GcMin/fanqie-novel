@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 208
+title: "回拨打给了关门的值班室"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "25c5ecd366a71367169f3a68c195ab11afd8f788"
+reader_review: "reader_reviews/0208_25c5ecd3.md"
+timeframe: "Day73 20:08—Day74 07:03"
+summary: "MS-418鸣沙路旧书城西口20:08原缺盖检修口险情，20:41巡查临时锥，21:31专业硬质护栏锁固、21:46东侧绕路实际复查；西口仍封闭，永久盖板未换。22:12合法限定听录音证九秒回拨接到四个月前停用保安室号码的营业自动语音，非真人联系，00:26纠正单笔业务误标且保留原通话和实到证据；07:03早班实地签收，真人对祝平回拨。"
+meaningful_state_changes:
+  - "西口坑口由危险敞口成为专业硬围挡保护、实地绕路和具名早班交接的待修现场；MS-418假真人回拨状态已纠正。"
+knowledge_updates:
+  - "旧书城四个月前撤保安室后原号码转自动营业音，市政专用路由旧号码未同步现任韩姐岗位；九秒通话建立并非真人核实。"
+foreshadowing_updates:
+  - "F003获准来源边界不变；F008无新亲历记忆冲突；F009/F010/F011 resolved；M004/M005未获证。"
+relationship_updates:
+  - "祝平期待真实回应、韩姐负责当班安全引导、运营与市政养护各自负责；主角信任值不变。"
+ending_state: "MS-418鸣沙路旧书城西口20:08原缺盖检修口险情，20:41巡查临时锥，21:31专业硬质护栏锁固、21:46东侧绕路实际复查；西口仍封闭，永久盖板未换。22:12合法限定听录音证九秒回拨接到四个月前停用保安室号码的营业自动语音，非真人联系，00:26纠正单笔业务误标且保留原通话和实到证据；07:03早班实地签收，真人对祝平回拨。 二轮隔离通话分层测试仅有限样例通过；市政旧路由其他历史及地区影响、生产发布、检修盖板固定座更换与正式复通许可均未确认。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3327
