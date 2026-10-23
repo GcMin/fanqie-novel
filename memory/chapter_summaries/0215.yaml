@@ -3,7 +3,7 @@ chapter: 215
 title: "项圈扫过了，狗还在笼里"
 volume: 6
 arc: ARC-054
-status: audit_candidate
+status: ready
 qa: pass
 reader_gate: pass
 source_sha: "e9127240948fce1e03b94dca14d5f1b4a70d9cfd"
