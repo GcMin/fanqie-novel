@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 218
+last_updated_chapter: 219
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -219,3 +219,9 @@ chapter_218_verified:
   facts: "纪红不因吴俊前夜误锁就让他假装道歉已解决，也不以拒测当借口放弃职责；吴俊主动按当班逐个清点而不再以预填19:57名单代真实离区，双方仍有需实干弥合的信任裂痕。"
   main_cast_trust_scores_unchanged: true
   responsibility_boundary: "刘工及获批巡检负责测量替代和高台现场判断，维保主管负责锁扣整改；夏宁、周衡、梁策只核实际人身安全与跨岗情况，不代专业决策。"
+
+chapter_219_verified:
+  source_sha: "d7dd05cae23dc16230e80117143ae152ec2cba0c"
+  facts: "纪红坚持要求向外部已接收单位更正自己的错署名却不抹除原版，吴俊仍学习自己确认人和来源而不先给他人安上手签造假的指控；小丁明确提醒何自强保持低路禁入，何自强本人主动停在警戒外并和客户改约。"
+  main_cast_trust_scores_unchanged: true
+  responsibility_boundary: "泵站刘工及其技术岗位负责隔离验证与合法原始报告纠正；绿道主管批准实体开放或继续封控；夜间中心只做跨岗联络、保全和事实核实。"

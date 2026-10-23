@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 218
+last_updated_chapter: 219
 characters:
   zhou_heng:
     location: Day79清晨，临江市夜间综合服务中心，第七十六次夜班交接
@@ -307,3 +307,10 @@ chapter_218_verified:
   actual_state: "纪红因旧三号门外锁未改，拒绝进入封闭的P3上游人工尺路线；刘工许可独立下游水位辅助参考与专业高处受限观察，保留原尺未测。旧通路22:04有权挂牌停用，本夜本人上岗、位置、离区按合法流程逐次记录，纪红22:13亲签；主管01:26书面受理逃生与清点制度整改，05:52专业复核后早班接未测原表。"
   main_cast_injuries: none_new
   final_location: "Day84清晨泵站新北门换班完毕；纪红安全离开当班现场、吴俊真实点全三人，P3仍封停未改，周衡等完成Day83第81次夜班协作。"
+
+chapter_219_verified:
+  source_sha: "d7dd05cae23dc16230e80117143ae152ec2cba0c"
+  timeframe: "Day84 20:08—Day85清晨"
+  actual_state: "纪红在Day84收到把下游自动水位2.31米和她本人在岗签名错误合并成P3人工测报的汇总。她保存自己亲记的未测原表、22:13本人签到与日志，要求保留错版和更正而非涂改。刘工组织授权隔离复现，夜间中心与绿道值守保持现场封闭，养护班未拆挡。"
+  main_cast_injuries: none_new
+  final_location: "Day85清晨纪红在泵站交班后离岗，旧三号门和低步道仍封闭，养护车改走高路；何自强仅证将两桶水转交合规接驳司机，未证客户收货。"
