@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 238
+last_updated_chapter: 239
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -338,3 +338,9 @@ chapter_238_verified:
   facts: "闻慧坚持昨日拨号事实不可被当成没说明险情；黄师傅以热豆浆车真实通行安全提出异议并在有权验证后自主北行。韩叶听劝纠正卸货道错误绕行提示，唐工拒木条冒险临修；周衡夏宁梁策分别守工况和受理证据。三人互信量化不臆改。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "共享值班室座机记录只能证明来源号码，未经本人确认不能归因给闻慧或任何其它摊主；23:06本人同意回访，旧档私人内文仍禁止擅自查询。"
+
+chapter_239_verified:
+  source_sha: "19deae51f543ed5144d47ef25f48ce4c7c4aa810"
+  facts: "老颜即使担心两名巡检工也选择安全窗口报原址、不给别人危险区通行权限；纪同与小伍坚持分别具名实际离险，不接受19:53拟退出当完工。冉定、消防水务与夜间中心分权联动，夏宁保护被截掉的原报地点语义，周衡梁策不越权救援。核心同事未发生可实证的互信分值变化。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "旧馆藏只获开放目录范围的字段，不倒推被遮盖来电者身份或私人内页；老颜仓房开放范围、受困人员诊断与本人回访要各自有权许可，不从群里已完成反推已获人员确认。"
