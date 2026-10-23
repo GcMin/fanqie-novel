@@ -232,3 +232,23 @@ combined_audit_chapter_235_20261024:
   predecessor_ready_blob_sha: "9f9a1b0f6aae12376a16945f91df0d1013642b1a"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_commit_ci_required
+
+combined_audit_chapter_236_20261024:
+  chapter: 236
+  title: "十八把椅子走了，琴还在"
+  source_path: "chapters/draft/0236.md"
+  source_sha: "4f5916a501e8bd09840e3dceaa6eb77882d7dbd8"
+  review_path: "reader_reviews/0236_4f5916a5.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  content_qa: pass
+  depends_on_chapter: 235
+  declared_predecessor_sha: "d2c744297eccb88752f3d8e770914e916d72efeb"
+  predecessor_ready_blob_sha: "e3b178f951160330a932665b625360f812c1456c"
+  dependency_status: verified_predecessor_body_identical_metadata_only
+  structural_gate: exact_commit_ci_required
