@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 220
+last_updated_chapter: 221
 current_time: Day79 第七十六次夜班早班交接
 world:
   anomaly_public_awareness: none
@@ -332,3 +332,12 @@ chapter_220_verified:
   unresolved: "旧亭返呼能力、原电话年代与卷宗内文未经核证；硬件逃生缺陷与P3测尺/河岸低步道封控未获复用许可；仅一时段现场测试不保证全天每岗真人通联。"
   safety_boundary: "网关活着不代表人在接、回拨成功不代表旧亭可进，站方拒签泛化整体验收；历史目录索引不是旧工单内容和M005早于互联网的证明。"
   canon_boundary: "M004/M005及F008无新确证，F003仍有法律许可边界。"
+
+chapter_221_verified:
+  source_sha: "3892251d1248148d27e5b460cdd09487e56c45ba"
+  timeframe: "Day86 20:06—Day87清晨"
+  service_case: "北汊河岸高路保洁临时增员顾实，路线绿色到段回执先于真正事故，人员未归与医护转送必须逐项有据。"
+  verified: "顾实先实名核岗位后合法在高路作业，20:52踩临时翘起检修盖板受伤而未越过低道禁入，21:38专业人员找到，22:08实际转医；22:44危险处有权围隔、设绕行。获批目录窄查QB-SF只得夜间值守收发岗的未核原页索引。"
+  unresolved: "桥北盖板正式更换及开放许可、实际受伤原因归责和顾实医疗诊断不明，低道仍封。旧目录QB-SF的年代、用途、接听与原件对应仍待另批核页，M005不证。"
+  safety_boundary: "安全救援按有权人员实际现场走合法高路，系统到段不等于人安全；入院不等于返岗，获批小范围目录索引不等于任意调阅历史卷宗。"
+  canon_boundary: "普通排班和设备缺陷不提供M004/M005/F008新异常证据。"

@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 221
+title: "人头去向齐了，人还没回来"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "3892251d1248148d27e5b460cdd09487e56c45ba"
+reader_review: "reader_reviews/0221_3892251d.md"
+timeframe: "Day86 20:06—Day87清晨"
+summary: "Day86第84次夜班保洁班新临时顶班顾实20:06到北汊绿道岗，前夜三人已核电话不覆盖新增第四人，他20:23才亲自核现行联系。20:52他在获准高路桥北折角踩到翘起检修盖板扭伤右脚，手机裂屏下部失灵，人留护栏内侧不进封闭低路。21:14班组发现他未返，21:21夜间中心保全最后目视而非路线20:49绿色到段回执，21:38专业人员听到他敲杯碰栏并现场确认、22:08转医交接，伤势诊断和返岗均未知。22:44高路翘板位置专业围隔与改绕行，盖板更换和责任未了。凌晨经过正式限定批准，中心只读旧《夜间联络点移交目录》与回拨接收点相关几行，QB-SF仅为夜间值守收发岗的待核岗位别名、注待与原页核，没有当年具体接听或早于互联网工单历史证据。"
+meaningful_state_changes:
+  - "第四临时保洁员真实纳入联系名单后安全获救并医疗转送，人员去向与实际返回分开记录；高路危及通行的翘起盖板有临时实体隔离，QB-SF旧岗位别名合法获批受限查询。"
+knowledge_updates:
+  - "路线自动到段回执20:49早于顾实20:52扭伤，不证本人安全；医护真实接收不等于伤者返岗。QB-SF只在旧目录索引为夜间值守收发岗位、尚待原页校对，不能证明电话机所在、具体历史工单或年代。"
+foreshadowing_updates:
+  - "F003仅可从授权范围内核历史纸面，F008无新本人记忆矛盾，F009/F010/F011 resolved，M004/M005仍未证；本章新增的QB-SF来源作为待核，不调整foreshadowing.csv既有证明等级。"
+relationship_updates:
+  - "严素娟对新同事顾实主动逐个核人和求助不指责失联；小陈如实承认未看到顾实离区，梁策拒借救人名义扩张旧档，主角之间信任无量化变化。"
+ending_state: "Day87清晨顾实已22:08专业转往医疗机构，未证明回岗或骨折程度，班组三人亲自签退且他一人单列转医；桥北高路危险处临时隔离，旧低步道持续停用；QB-SF仅得获批目录有限岗位别名与待原页核注，M005历史机制未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 2851

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 220
+last_updated_chapter: 221
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -231,3 +231,9 @@ chapter_220_verified:
   facts: "吴俊不再受维保催促而给绿色网关单子作整链签认，明确承认前夜类比的实际人缺位；纪红仍监督他真正核人并未替其完成歉意。严素娟自证一次拨返呼但拒以个人能力替全班签名，次晨同班另两人自己逐个核准。"
   main_cast_trust_scores_unchanged: true
   authority_boundary: "通信主管批准夜间备用路由更改，刘工及有权人员签限范围测试；夜间中心只完成实际呼入返呼并分层记录，不批准旧亭可用或工程验收。"
+
+chapter_221_verified:
+  source_sha: "3892251d1248148d27e5b460cdd09487e56c45ba"
+  facts: "严素娟不以表上三人代新第四人、报险后也不因电话无人接听责怪顾实；小陈承担最后目视时间说明，没有替伤者签退。梁策制止用救援工作扩大历史档案检索，中心人员继续按岗位合作。"
+  main_cast_trust_scores_unchanged: true
+  no_inferred_outcomes: "顾实送医不等于已返岗、痊愈或查明事故责任，原电话可接通不代表顾实在手机损坏后能报告。"

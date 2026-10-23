@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 220
+last_updated_chapter: 221
 characters:
   zhou_heng:
     location: Day79清晨，临江市夜间综合服务中心，第七十六次夜班交接
@@ -321,3 +321,10 @@ chapter_220_verified:
   actual_state: "旧三号门危险封闭未解除，吴俊收到笼统网关绿勾不再提前签字；有权通讯与站方从新北门核现行线路并在22:02发现返呼转白班语音，22:31获准修正后真人接听。绿道严素娟一人21:23实际确认，另两人经领班次晨各自核验。"
   main_cast_injuries: none_new
   final_location: "Day86清晨纪红吴俊在新北门合法值守交班，河岸低步道/旧门仍封闭，旧亭电话未恢复返呼、旧册仅有索引；周衡等结束第83次夜班联动。"
+
+chapter_221_verified:
+  source_sha: "3892251d1248148d27e5b460cdd09487e56c45ba"
+  timeframe: "Day86 20:06—Day87清晨"
+  actual_state: "绿道保洁严素娟发现班组临时多一人顾实，20:23令其具名核新电话才放行合法高路作业。顾实20:52高路翘板处扭伤右脚、裂屏手机不能重拨，21:38有权专业人员找见仍在护栏内的本人，22:08医疗转送；班组清点另分三人实签退、一人转医不当已返岗。"
+  main_cast_injuries: none_new
+  final_location: "Day87清晨顾实在专业医疗机构后续待诊、不能推定返班；严素娟和其余三名保洁员安全交接，桥北高路盖板有临时围隔、低步道继续关闭。"
