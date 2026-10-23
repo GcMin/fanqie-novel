@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 213
+last_updated_chapter: 218
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -213,3 +213,9 @@ chapter_217_verified:
   facts: "吴俊承认误以纪红已从另一出口离开，扣上旧三号门外锁而未实际点人；纪红要求保留19:57错填并核实21:03真实离区，晨间没有代吴俊说完道歉，只要求下班先数人。"
   main_cast_trust_scores_unchanged: true
   responsibility_boundary: "现场开锁与安全路线属于泵站刘工及具备权限班组，中心仅核录音、接通真实岗位；不让纪红沿低处涉险自救。"
+
+chapter_218_verified:
+  source_sha: "3801f0701f725ca650047197dd5bac8d7f198f1b"
+  facts: "纪红不因吴俊前夜误锁就让他假装道歉已解决，也不以拒测当借口放弃职责；吴俊主动按当班逐个清点而不再以预填19:57名单代真实离区，双方仍有需实干弥合的信任裂痕。"
+  main_cast_trust_scores_unchanged: true
+  responsibility_boundary: "刘工及获批巡检负责测量替代和高台现场判断，维保主管负责锁扣整改；夏宁、周衡、梁策只核实际人身安全与跨岗情况，不代专业决策。"

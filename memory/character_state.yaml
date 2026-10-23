@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 213
+last_updated_chapter: 218
 characters:
   zhou_heng:
     location: Day79清晨，临江市夜间综合服务中心，第七十六次夜班交接
@@ -300,3 +300,10 @@ chapter_217_verified:
   actual_state: "泵站巡查员纪红被班长吴俊误按预填19:57已离区名单从外锁在旧三号维护门内，手机触控失效但通过旧亭应急电话外呼求助。第80次夜班中心联络有权泵站岗位走高处通路20:51现场确认本人，21:03真正安全开锁、实际离区获具名清点。错误预填表和21:03实际离区分别留档，吴俊上报门锁内部应急开启和清点制度缺陷。"
   main_cast_injuries: none_new
   final_location: "Day83早晨纪红安全乘公交离开，旧三号门无人困内但低处禁入继续有效；周衡等完成协查，不是技术或专业开锁责任人。"
+
+chapter_218_verified:
+  source_sha: "3801f0701f725ca650047197dd5bac8d7f198f1b"
+  timeframe: "Day83 20:12—Day84清晨"
+  actual_state: "纪红因旧三号门外锁未改，拒绝进入封闭的P3上游人工尺路线；刘工许可独立下游水位辅助参考与专业高处受限观察，保留原尺未测。旧通路22:04有权挂牌停用，本夜本人上岗、位置、离区按合法流程逐次记录，纪红22:13亲签；主管01:26书面受理逃生与清点制度整改，05:52专业复核后早班接未测原表。"
+  main_cast_injuries: none_new
+  final_location: "Day84清晨泵站新北门换班完毕；纪红安全离开当班现场、吴俊真实点全三人，P3仍封停未改，周衡等完成Day83第81次夜班协作。"
