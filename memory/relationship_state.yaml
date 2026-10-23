@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 211
+last_updated_chapter: 212
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -177,3 +177,9 @@ chapter_211_verified:
   interactions: "顾兰承担现场领班具体清点责任，罗工以独立书面签到谨慎核问；潘姨知晓下层有人后改为配合告知正门路线，并非获得赔付或实际安全复通承诺。"
   main_cast_trust_scores_unchanged: true
   authority_and_consent: "河道有权部门核现场、批准启闸和限源录音；夜间中心不代替调度责任岗位。"
+
+chapter_212_verified:
+  source_sha: "1e9b4d8f333a48d8cc3b1a52a1350dfe1565f7c0"
+  actual_contacts: "程箐与母亲程月桂保留本人行动与居住意愿，母女在周转站确实同房入住；杨海的堂兄本人电话同意留宿，但杨海到达未有证据。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "杨海自选去向不改作已到，程月桂未被强推楼梯或代签满意；入住双床需实有本人确认。"
