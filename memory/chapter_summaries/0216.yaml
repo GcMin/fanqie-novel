@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 216
+title: "那三十六袋还在坡上"
+volume: 6
+arc: ARC-054
+status: audit_candidate
+qa: pass
+reader_gate: pass
+source_sha: "cd597f2984185d6d5a2ea1aeee9f8dfd0fb6ed60"
+reader_review: "reader_reviews/0216_cd597f29.md"
+timeframe: "Day81 20:14—Day82清晨"
+summary: "南汀巷低洼点居民Day81 20:14收到防汛物资已布设短信，实际上36袋仅于19:56运到北端应急集结点并由仓储具名签收，距巷底近200米，窄弯遭配送车占道。陈禾米糕铺与老魏五金店受积水影响，社区林若先清点与疏散3间铺面和2户居民，来访的张伯两名外孙也已安全在活动室；有权专业人员隔离受威胁电气，按安全通路搬运砂袋。21:36运第一批18袋至坡中、21:48累计36袋全部转出，两处入口各18袋现场布设；22:11排水队清障抽排、22:39水位下降但低处仍封控。23:16核清系统将仓储接收误映射为现场布设完成，原始签收及真实双点交接均保全，停本批自动误告并由有权岗更正。Day82清晨陈禾后院仍湿、电气未验而暂停营业，经济损失未核。"
+meaningful_state_changes:
+  - "人员安全撤离到活动室，36袋从坡顶真实布设到两个受控入口、排水启动且水位下降；系统原误通知纠正但低处电气和营业不获自动放行，陈禾真实损失仍未核定。"
+knowledge_updates:
+  - "19:56防汛砂袋到集结点签收为真，却不是现场布设；两批实物转运及双点具名接收才是履约。平台字段将仓储收件错误映射居民已完成，正式生产修复仍需审批与回归。"
+foreshadowing_updates:
+  - "F003/F007按合法证据限定，F008没有本人记忆冲突，F009/F010/F011 resolved，M004/M005未确证；foreshadowing.csv不发生新状态变化。"
+relationship_updates:
+  - "陈禾在实际损失与涉水危险之间优先撤离，林若不代她许诺赔偿与返业；赵启要求保留真实仓储签收与现场交接，居民不被命令冒险搬袋。周衡、夏宁、梁策仍守联动岗位，主角关系信任无须虚构量化调整。"
+ending_state: "Day82清晨南汀巷两个入口各18只砂袋已在位，专业排水仍进行；陈禾后院积水且不能恢复卖米糕、老魏受潮电气未专业放行。原系统错误告知保全并已更正，正式技术发布和赔偿责任待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required, preferred_length_exception: "3569有效字较优选上限3400多169，涉及人员疏散与两个真实物资交接、排水及持续营业后果；在硬限内可保留。"}
+char_count: 3569
