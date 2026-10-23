@@ -189,3 +189,9 @@ chapter_213_verified:
   facts: "杨海Day77 22:07抵堂兄家，经本人新叙事确认，Day78 22:52依法返家；程月桂亲笔同意继续住周转站，程箐尊重母亲对安全与数独末格的自决，不把延住自动代签。"
   main_cast_trust_scores_unchanged: true
   no_forced_consents: "两户不同审批与条件分别处理，返家时间与退安置方式不倒填。"
+
+chapter_214_verified:
+  source_sha: "d2d4748ed9dd3f6d558223fc4db2726fb651d6ab"
+  facts: "程箐查明自己误勾家属协助并尊重程月桂亲自选择是否登车及允许的协助程度；母女完成复诊往返后继续合法同住周转站。首车司机高林虽担忧空驶结算，仍如实记未载客并提醒杜师傅避开积水位置。"
+  main_cast_trust_scores_unchanged: true
+  no_forced_consents: "不把陪同当作代同意、不把医院预约与迟到登记当作保证就诊、不替程月桂打满意度。"
