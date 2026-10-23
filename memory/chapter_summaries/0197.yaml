@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 197
+title: "绿灯亮在测试那一侧"
+volume: 6
+arc: ARC-054
+status: audit_candidate
+qa: pass
+reader_gate: pass
+source_sha: 8fa090ac3dfe8f215add4f746a736f6f624698a2
+reader_review: reader_reviews/0197_8fa090ac.md
+timeframe: "Day62 20:06—Day63早班"
+summary: "QJ-162旧生产联系映射误把站点自动提示当有效确认；何树根经有权人工核实21:15实际登车、21:52安全到家。隔离测试截图误传为生产恢复令而导致撤减人工，运营有权主管正式撤回、更正并恢复两席；生产正式修复未上线。"
+meaningful_state_changes:
+  - "QJ-162实际安全送达、错误通知被正式撤销、两人工席恢复并留在岗回执。"
+knowledge_updates:
+  - "隔离环境测试通过不是生产上线；11笔分类核验与所有乘客实际送达不同。"
+foreshadowing_updates:
+  - "F008无新增记忆矛盾样本，F009/F010/F011仍resolved；M004/M005未证。"
+relationship_updates:
+  - "卢萍只负责现场安全，何静仅就QJ-162按有效登记渠道确认，不自动取得长期代理权。"
+ending_state: "运营恢复人工流程，原误通知留档；11笔按来源核查或责任交接，发布审批、完整回归、影响范围及责任待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_commit}
+char_count: 3254
