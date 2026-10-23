@@ -1,0 +1,20 @@
+schema_version: 1
+chapter: 197
+title: "绿灯亮在测试那一侧"
+status: ready
+qa: pass
+source_sha: 8fa090ac3dfe8f215add4f746a736f6f624698a2
+timeframe: "Day62晚至Day63早班"
+summary: "何树根按有权确认乘坐QJ-162并安全抵达；误用隔离测试截图的通知撤回，人工席恢复，生产旧映射仍待正式修复。"
+ending_state: "QJ-162送达和当夜运营措施已证，完整生产上线与影响范围未证。"
+reader_review: reader_reviews/0197_8fa090ac.md
+reader_counts: {blocker: 0, major: 0, minor: 2}
+meaningful_state_changes:
+  - "QJ-162实际履约，错误通知撤销并恢复两个人工席。"
+knowledge_updates:
+  - "隔离测试通过与生产部署不等价。"
+foreshadowing_updates:
+  - "F008无新样本，M004/M005无新确证。"
+relationship_updates:
+  - "授权范围严格限于本次出行。"
+char_count: 3254
