@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 221
+last_updated_chapter: 222
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -237,3 +237,9 @@ chapter_221_verified:
   facts: "严素娟不以表上三人代新第四人、报险后也不因电话无人接听责怪顾实；小陈承担最后目视时间说明，没有替伤者签退。梁策制止用救援工作扩大历史档案检索，中心人员继续按岗位合作。"
   main_cast_trust_scores_unchanged: true
   no_inferred_outcomes: "顾实送医不等于已返岗、痊愈或查明事故责任，原电话可接通不代表顾实在手机损坏后能报告。"
+
+chapter_222_verified:
+  source_sha: "e58b6b80b4b7e9b565cf3e872f8005e2006c20d6"
+  facts: "陈素梅为丈夫争取被正确登记为实际送医而非擅自缺勤，顾实自己提供受伤经过但不假装知道准确时间；严素娟守住分别记录，韩国庆承认漏事故编号并纠正不利预览，主角夜间中心只协助证据转交。"
+  main_cast_trust_scores_unchanged: true
+  no_inferred_outcomes: "HR改待核不等于已结工资或工伤认定，医院检查不等于已定骨折，QB-SF职责文字不等于任何具体历史业务发生证据。"

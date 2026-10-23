@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 221
+last_updated_chapter: 222
 characters:
   zhou_heng:
     location: Day79清晨，临江市夜间综合服务中心，第七十六次夜班交接
@@ -328,3 +328,10 @@ chapter_221_verified:
   actual_state: "绿道保洁严素娟发现班组临时多一人顾实，20:23令其具名核新电话才放行合法高路作业。顾实20:52高路翘板处扭伤右脚、裂屏手机不能重拨，21:38有权专业人员找见仍在护栏内的本人，22:08医疗转送；班组清点另分三人实签退、一人转医不当已返岗。"
   main_cast_injuries: none_new
   final_location: "Day87清晨顾实在专业医疗机构后续待诊、不能推定返班；严素娟和其余三名保洁员安全交接，桥北高路盖板有临时围隔、低步道继续关闭。"
+
+chapter_222_verified:
+  source_sha: "e58b6b80b4b7e9b565cf3e872f8005e2006c20d6"
+  timeframe: "Day87 20:17—Day88凌晨"
+  actual_state: "顾实因Day86救护实际转医院，Day87仍住院无法本人签退，其保洁临时班在工时预览中被标待核缺勤；家属陈素梅求有据纠正。现场与派工、专业救护交接证据经具名核对，22:09公司有权人事把他改为事故转送考勤待核并保留原误单，工资及医事待各自办理。"
+  main_cast_injuries: none_new
+  final_location: "Day88凌晨顾实仍在医院专业观察，未返岗；严素娟等继续合法高路保洁及交班，检修板危险处围隔未解除；罗谨获批原页核得旧岗位转送职责但不知实际过去受理。"
