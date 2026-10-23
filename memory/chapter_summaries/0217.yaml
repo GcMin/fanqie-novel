@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 217
+title: "三号门后那部旧电话"
+volume: 6
+arc: ARC-054
+status: audit_candidate
+qa: pass
+reader_gate: pass
+source_sha: "fa0b38903766589549ab89340137a08d315b7e2f"
+reader_review: "reader_reviews/0217_fa0b3890.md"
+timeframe: "Day82 20:06—Day83早晨"
+summary: "纪红在北汊泵站上层旧值守亭取被风吹走的巡查表，班长吴俊预填19:57全员离区并误锁旧三号维护门，手机拨号坏了，仅能以亭内应急固定电话向中心外呼求助。Day82第80次夜班20:19中心保存她无伤、身在干燥高处及低处水涨原音；公共市政中继号回拨只到总机。泵站刘工核旧三号门与现行P3附近图示、吴俊实际持锁钥并依法走高处通路，20:51窗口目视双向确认本人，21:03现场安全解锁并具名清点，低处仍封控。21:27另建真实离区更正并保留预填旧表。普通语音网关证实外呼共用总机回拨限制；授权摘录旧设备目录有“应急来话：转夜间联动”及无日期、作者的铅笔“回拨接收点”，未查原册，不能证系统历史年代。"
+meaningful_state_changes:
+  - "纪红21:03实际从锁闭维护区安全离开、交班错误由具名实离区确认另记；旧门内部应急开启与班末清点成为有权主管整改待办，公共中继回拨不能直达原亭原因已有现行网关依据。"
+knowledge_updates:
+  - "旧三号门与现行三区P3附近设施名称不同，内部图仅辅助定位必须现场确认。19:57预填签退不是实际离区。旧设备目录只得一页授权摘录，年份、原册、作者皆未证，不能据此证明M005。"
+foreshadowing_updates:
+  - "F003严格有权核旧档，F008无新增本人记忆冲突，F009/F010/F011 resolved；有限的旧应急电话目录仅保留待核来源与日期，不确认M004/M005，foreshadowing.csv核心既有状态无需升格。"
+relationship_updates:
+  - "吴俊承认锁门与预填交班过错，纪红坚持具名核人和真正离场时间，暂不代他完成歉意。刘工保留现场专业核验权，中心不命令人涉险翻越护栏。"
+ending_state: "Day83早晨纪红搭乘公交带沾灰鞋安全离开，旧三号门仍锁但无人困内，低处封控不解除；门锁逃生缺陷、点人规则待有权主管整改，原话机初装年代及铅笔目录作者未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 2894
