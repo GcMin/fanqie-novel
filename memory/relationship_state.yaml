@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 209
+last_updated_chapter: 210
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -165,3 +165,9 @@ chapter_209_verified:
   local_relationships: "何阿姨主动同意孟棠帮联系女儿并改前门雨棚实际接走；陶师傅对十二位工友逐一承担告知责任，但只有十一位真正确认。柳芽坚持核实，不臆断演出组织者的责任。"
   main_cast_trust_scores_unchanged: true
   consent_boundaries: "何阿姨女儿号码未公开登记；中心没有直接承担场馆赔付/恢复营业权限。"
+
+chapter_210_verified:
+  source_sha: "294315196f7a86a2f09e026123d90eb7ae868ea5"
+  interactions: "冯珂不替七人做统一接续选择，贾叔在和姐姐沟通后自主留岸；邵青向领班告知并得到现场代为点检的回复；何栩的队友愿意延候但不保证乐队长期安排。"
+  main_cast_trust_scores_unchanged: true
+  privacy_and_consent: "四位接续者单独核意愿与自身联系方式，没有用邵青作为四人代理；后到妇女单独处置。"
