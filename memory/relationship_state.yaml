@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 234
+last_updated_chapter: 237
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -326,3 +326,9 @@ chapter_236_verified:
   facts: "乔苓在安全线外报险、保护夜市公众并协助合法导流；米禾想向钢琴告别但服从作业区限制，任阿姨在丈夫捐赠琴的情感与实际公共权属之间要求真实保管计划，吕茵按权限说明未报废并给予后续查询渠道。周衡梁策夏宁依真实移交链行动，核心同事信任分值未凭普通协作推定增加。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "未成年人米禾不进入搬运警戒区或留私人电话在琴外，照片避开他人面孔；任阿姨的回忆不成为琴内实际写字的现场验证或产权授权。"
+ 
+chapter_237_verified:
+  source_sha: "9557fd89a5073fa9ba6bc0d3a39d75c0925963a0"
+  facts: "齐栀劝清洁员安全绕行并寻找真人接报，周衡不碰带电舱门、梁策守公交与临时路径安全、夏宁保全两次漏接与真实受理的不同时间，专业人员各在权限内处理。主要同事信任分值无依据改变。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "齐栀自愿提供拨号记录只限合法相关技术查证，其他来电者没有合法号码时不得擅自识别或虚构回访。"
