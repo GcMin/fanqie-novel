@@ -89,3 +89,23 @@ combined_audit_final_20261015:
   validation_run: "https://github.com/GcMin/fanqie-novel/actions/runs/38697563049"
   validation_status: success
   all_sources_verified: true
+
+combined_audit_chapter_229_20261023:
+  chapter: 229
+  title: "楼道里的味道不会签字"
+  source_path: chapters/draft/0229.md
+  source_sha: "2c9de2327d44f4ced040c43a9863a245d6f6e201"
+  review_path: reader_reviews/0229_2c9de232.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  content_qa: pass
+  depends_on_chapter: 228
+  declared_predecessor_sha: "2b7adcca8f1b3cbdb01f3217cc9c14dbd03f2b19"
+  predecessor_ready_blob_sha: "3248d4c39d4e699e1d740a9253aad7bab8abec0d"
+  dependency_status: verified_predecessor_body_unchanged
+  structural_gate: exact_commit_ci_required
