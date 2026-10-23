@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 233
+last_updated_chapter: 234
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -308,3 +308,9 @@ chapter_233_verified:
   facts: "魏遥为保护简简与住址隐私坚持本人领回，袁璐拒绝替她倒签19:47旧记录，夏宁守住真签时刻与真实回家反馈，周衡关心等候区安全，梁策坚持由有权管理岗查柜。胡应林在权限内提供拾物时间事实，不擅自取得私密资料。三位主角合作，没有新增可信的互信评分变动。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "魏遥不在公众面前报门牌号或逐把试钥匙，孩子画鱼只是辅助证据不能单独确认归属；1996脱敏历史来话信息不猜测不复原，人员实际取物与管理回执必须独立核实。"
+
+chapter_234_verified:
+  source_sha: "b20ef4dd41f62ced09e4792f6c1631a7e38668a2"
+  facts: "赵茉依据有家长签名的受托课册坚持保护12盆网纹草且保留私密编号，沈佑青先查权属再依职责批准保全，何工拒危险短接，梁策支持合法转运而非堆电暖器；基地具名分别接收40和32盆，夏宁不把在途数据当安全结果。主角互信评分无独立事件要求改变。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "亲子课监护人联系方式和儿童姓名保存在社区受控登记，箱外只匿名临时盆号；未联系到的监护人不能虚报已授权，临时移栽不转移盆栽权属。"

@@ -27,3 +27,5 @@
 - ending: Day100凌晨01:15备用丙室72盆再次在库、温度处于养护规定范围，2株叶尖卷曲原因待观察；原温室封闭与责任调查、家长实际后续选择均未办完，志愿者保留合法匿名编号供返还。
 - target_chars: 2600-3400 chinese_effective_chars, hard 2300-3800
 - actual_body_effective_chars: 3353
+
+- audit_dependency_reconciliation: 2026-10-24 第233章已通过Reader/QA后按原始1e880569依赖版本与ready 0233(d3ee177c)逐字比较，差异仅21:03封套外标证据等级修正；第234章引用的C12真签收、本人回家和旧史料收讫范围没有改变，依赖事实验证兼容，原provisional SHA保留作来源。

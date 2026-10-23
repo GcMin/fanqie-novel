@@ -192,3 +192,23 @@ combined_audit_chapter_233_20261024:
   predecessor_ready_blob_sha: "20be3477677522b1bf22393e1535051f89152443"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_commit_ci_required
+
+combined_audit_chapter_234_20261024:
+  chapter: 234
+  title: "暖风指令到了，温室还是冷的"
+  source_path: "chapters/draft/0234.md"
+  source_sha: "b20ef4dd41f62ced09e4792f6c1631a7e38668a2"
+  review_path: "reader_reviews/0234_b20ef4dd.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  content_qa: pass
+  depends_on_chapter: 233
+  declared_predecessor_sha: "1e880569b20fa1df278ef40e54031aba8317529f"
+  predecessor_ready_blob_sha: "d3ee177ce1a5940e8d3ad3ba6ad50138e996f1ab"
+  dependency_status: verified_predecessor_body_one_paragraph_revision_facts_compatible
+  structural_gate: exact_commit_ci_required
