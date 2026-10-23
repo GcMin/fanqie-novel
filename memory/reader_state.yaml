@@ -166,6 +166,6 @@ combined_audit_chapter_232_20261023:
   content_qa: pass
   depends_on_chapter: 231
   declared_predecessor_sha: "7f2044696ccf49f345884ef3e0028a4a76653426"
-  predecessor_ready_blob_sha: "ready_0231_frontmatter_only_change"
+  predecessor_ready_blob_sha: "d99af7732fff7d794694501cdec964db688a1e79"
   dependency_status: verified_predecessor_body_unchanged
   structural_gate: exact_commit_ci_required
