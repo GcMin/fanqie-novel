@@ -3,7 +3,7 @@ chapter: 216
 title: "那三十六袋还在坡上"
 volume: 6
 arc: ARC-054
-status: audit_candidate
+status: ready
 qa: pass
 reader_gate: pass
 source_sha: "cd597f2984185d6d5a2ea1aeee9f8dfd0fb6ed60"
