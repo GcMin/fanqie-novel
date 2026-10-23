@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 224
+last_updated_chapter: 225
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -255,3 +255,9 @@ chapter_224_verified:
   facts: "罗阿婆对唐卫东要求避免后来者误把夜间纸件投递当紧急处置；祝先生保护女儿不承担无依据破坏责任，唐卫东在权限内逐项围隔、保存纸条、改公众告示；周衡、夏宁、梁策协同而主角互信数值无依据变化。"
   main_cast_trust_scores_unchanged: true
   no_inferred_outcomes: "短信绿标不等于实时阅读，孩子发现栏杆松动不等于造成损坏，1994—1997目录编目并非旧异常工单真实受理年份。"
+
+chapter_225_verified:
+  source_sha: "efe6a1ee0e3f5721b0e1ff50bafd017b3817d4df"
+  facts: "任朝阳报警救援时没有返回涉水区，受困陈屿理解饭不能再送并接受医疗移交；值班中心三人既不代专业救援也不替平台判订单责任，周衡和梁策对旧档只接受正式受理不冒充审批。"
+  main_cast_trust_scores_unchanged: true
+  no_inferred_outcomes: "陈屿21:06脱困并不等于无伤痊愈、订单结清；桥底水位降不等于道路复通；旧档受理回执不等于原始业务内容获核。"

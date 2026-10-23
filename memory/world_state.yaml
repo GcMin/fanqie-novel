@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 224
+last_updated_chapter: 225
 current_time: Day79 第七十六次夜班早班交接
 world:
   anomaly_public_awareness: none
@@ -368,3 +368,12 @@ chapter_224_verified:
   unresolved: "损坏原因、责任、正式维修开放、夜间收文制度改造未结；旧档《夜间值守收发登记》1994—1997仅目录编目范围，原始历史来话未核。"
   safety_boundary: "夜间纸箱感应绿色不代表险情被看到；围隔持续且不凭孩子触栏判责任；主路绕行须实地核而不虚称全面无障碍验收。"
   canon_boundary: "F003仅限合法查档，F008无新认知矛盾；M004/M005未确证。"
+
+chapter_225_verified:
+  source_sha: "efe6a1ee0e3f5721b0e1ff50bafd017b3817d4df"
+  timeframe: "Day90 19:46—Day91早班"
+  service_case: "南湾路下穿东口骤雨积水、配送员陈屿被倒车压脚受困；公示屏U1单点绿标漏掉E3排口局部积水与交通封控。"
+  verified: "20:13任朝阳从安全上口报险，20:21交警双端封闭、21:06专业救陈屿转医护；21:19专业见E3拦污栅塑料布枝叶阻塞并清理、21:46核绿牌来自U1单点，22:02真正换封闭公告、22:38路面仍未具备联合验收，早班继续封闭。"
+  unresolved: "陈屿最终伤情、交通和订单责任、护边维修、路面检测与恢复交通、软件规则生产改造未完成；旧QB-SF栏目级询证01:17正式受理但未获开阅许可。"
+  safety_boundary: "U1正常只代表该测点，不代表E3和下穿全路安全；排水变好不免专业道路复核，也不能据绿牌倒填事发前通行安全。"
+  canon_boundary: "F003合法受限历史核查待批、F008无新样本、M004/M005未证。"

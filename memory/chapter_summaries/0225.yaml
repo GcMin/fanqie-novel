@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 225
+title: "绿牌亮着，桥底还在涨水"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "efe6a1ee0e3f5721b0e1ff50bafd017b3817d4df"
+reader_review: "reader_reviews/0225_efe6a1ee.md"
+timeframe: "Day90 19:46—Day91早班"
+summary: "Day90第88次夜班南湾路下穿东口骤雨，牌面绿正常仅来自U1单点而E3排口附近积水上涨，送餐骑手陈屿被滑倒电动车压脚困在湿维护平台；任朝阳安全退上坡20:13报警、交警20:21双端封闭，专业救援21:06把陈屿脱险交医护、伤情待诊。21:19专业从安全许可位置确认E3拦污栅格塑料布枝叶阻塞并清理、水位下降；21:46有权技术确认公示绿牌只取U1数据，未反映E3与真人封控。22:02道路管理方真实切换东口封路公告、保存绿牌原始证据，22:38因护边松与路面未联合查验维持封闭至早班，软件多源规则仅申请。01:17有权中心正式递交旧《夜间值守收发登记》QB-SF指定栏目和空白格式的最小询问，仅得保管单位受理/范围审查回执，尚未批准阅档或提供真实历史来话。"
+meaningful_state_changes:
+  - "被困骑手真实脱险转医护、东口道路维持实体封闭且误导绿色公示真正撤下；旧档栏目询问从未提交草稿进入受理审查阶段。"
+knowledge_updates:
+  - "U1单点正常不证明E3与下穿桥通行安全；路面积水退也不等于护边和路面有权联合验收。1994—1997仅目录编目跨度，旧册查档申请受理不等于批准或查到真实历史电话。"
+foreshadowing_updates:
+  - "F003在最小受理程序内推进旧登记册格式询证，F008无新实际本人记忆差异，M004/M005仍未确证，F009/F010/F011 resolved。"
+relationship_updates:
+  - "任朝阳坚持安全位置报险，陈屿不把泡水餐食硬送，梁策/周衡/夏宁坚持权限内专业分工，互信数值不作无依据变化。"
+ending_state: "Day91早班南湾下穿东口仍交通封闭、电子告示已改封路，陈屿医护转送后诊断未证；栅格已清但路面护边、安全复核及公示规则生产修复未完。QB-SF限定档案栏目查询仅受理待审批，无旧来话新证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3122

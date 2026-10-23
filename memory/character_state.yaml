@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 224
+last_updated_chapter: 225
 characters:
   zhou_heng:
     location: Day79清晨，临江市夜间综合服务中心，第七十六次夜班交接
@@ -349,3 +349,10 @@ chapter_224_verified:
   actual_state: "夏宁Day89第87次夜班据祝先生20:12独立电话转现场，唐卫东组织柳汀广场第三段栏杆危险临水平台隔离；周衡现场纠正无证儿童致损推断，梁策遵守现场安全边界。罗阿婆19:37投递的报险纸21:36才被有权岗位开箱看见。"
   main_cast_injuries: none_new
   final_location: "Day90清晨柳汀广场危险平台继续隔离，罗阿婆与老伴只走安全内圈，祝先生女儿无受伤报告；周衡仅留QB-SF旧档最小申请草稿，未实际提交。"
+
+chapter_225_verified:
+  source_sha: "efe6a1ee0e3f5721b0e1ff50bafd017b3817d4df"
+  timeframe: "Day90 19:46—Day91早班"
+  actual_state: "周衡Day90第88次夜班按南湾路下穿桥东口现场图区分上游U1监测与东侧排口E3，梁策坚持受困救援优先和未验不通车，夏宁将20:13真实报险、21:06救援交接、公示绿牌来源与22:02换告示分开留证。任朝阳在安全坡上报险并配合位置确认，陈屿从受困湿平台被专业人员转医护。"
+  main_cast_injuries: none_new
+  final_location: "Day91早班南湾下穿东口继续封闭，陈屿由医护接续、伤情未定；周衡仅获旧QB-SF限定申请已受理未批准，其他服务旧案无新已证结论。"
