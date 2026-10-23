@@ -94,7 +94,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 151,录像先拍到了缺口,completed,ARC-050,人物安全与原始证据核验,伤者主观陈述与专业调查边界,影像正式保存、公众绕行清晰，事故责任与井盖状态仍未明。,,3000,pass,published,独立Reader0BLOCKER0MAJOR2MINOR；原稿SHA4ab3848c；QA与Memory已同步
 152,别把那三下删掉,completed,ARC-050,人物安全与原始证据核验,伤者主观陈述与专业调查边界,原群消息被保留、报险安全指引已当晚执行；LH-09仍封闭，呼名与坠落原因待查。,,3000,pass,published,独立Reader0BLOCKER0MAJOR2MINOR；原稿SHAa59b195d；QA与Memory已同步
 153,人没回来，表先签完了,completed,ARC-050,核实人员返车表,设备结单不能证明人到场,原表与更正移交并逐人清点,,3000,pass,published,Reader0BLOCKER0MAJOR3MINOR；QA及Memory同步；SHAc0dcce02
-154,围挡外的最后九桶,completed,ARC-050,安全恢复清运,旧大车路线无法穿越封控,九桶分六桶与三桶清走,,3000,pass,ready,一次StageA修订后SHA953157a8；Reader0BLOCKER0MAJOR1MINOR；QA通过
+154,围挡外的最后九桶,completed,ARC-050,安全恢复清运,旧大车路线无法穿越封控,九桶分六桶与三桶清走,,3000,pass,published,一次StageA修订后SHA953157a8；Reader0BLOCKER0MAJOR1MINOR；QA通过
 155,二十二号不在地图上,completed,ARC-051,处理电气危险与地址缺项,实体门牌不等于公开服务登记,LM-214隔离未复电且后院可通行,,3000,pass,ready,154新旧桶数差异已核相容；Reader0BLOCKER0MAJOR2MINOR；QA通过
 156,那条没填理由的隐藏记录,completed,ARC-051,协助照护到户并追查公众限制,正式在用地址被管理端暂缓展示且依据未明,照护到户且源任务待查,,3000,pass,ready,Reader0BLOCKER0MAJOR2MINOR；QA与Memory同步；SHAefbca08f
 157,没有到期日的那张名单,completed,ARC-051,核源并恢复22号公众服务,测试及人工留痕不等于正式发布或人员恶意,人工名单持续排除公众输出，正式地址和安全到达指引已送达；LM-214仍隔离,F012,3000,pass,ready,源稿SHA72253cfa；Reader0BLOCKER0MAJOR2MINOR；Continuity/Style QA通过；前章依赖源核对
