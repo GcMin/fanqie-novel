@@ -207,3 +207,9 @@ chapter_216_verified:
   facts: "陈禾为安全舍弃待蒸米糕但保留能合法携带的小份酵浆，不要求工人冒险拿桶米；社区林若先确保居民及来访儿童安全再由有权人员组织防汛，赵启不愿仓储收货单被倒改。老魏不违章返回湿电铺面。"
   main_cast_trust_scores_unchanged: true
   no_forced_consents: "不让居民涉水代专业搬运，不代陈禾确认经济赔付，不把排水下降自动作返业许可。"
+
+chapter_217_verified:
+  source_sha: "fa0b38903766589549ab89340137a08d315b7e2f"
+  facts: "吴俊承认误以纪红已从另一出口离开，扣上旧三号门外锁而未实际点人；纪红要求保留19:57错填并核实21:03真实离区，晨间没有代吴俊说完道歉，只要求下班先数人。"
+  main_cast_trust_scores_unchanged: true
+  responsibility_boundary: "现场开锁与安全路线属于泵站刘工及具备权限班组，中心仅核录音、接通真实岗位；不让纪红沿低处涉险自救。"
