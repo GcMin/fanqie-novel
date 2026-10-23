@@ -1,0 +1,26 @@
+schema_version: 1
+chapter: 227
+title: "有人接了电话，电梯里的人还在"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "bf64b91f85dbe647e45d5df4ef6a0963ff8ee0c1"
+reader_review: "reader_reviews/0227_bf64b91f.md"
+previous_source_sha: "a307fdc25357fe3305a33aa6bb1aaed187998015"
+revision_rounds: {local: 1, chapter_rewrite: 0, replan_rewrite: 0}
+timeframe: "Day92 20:16—Day93清晨"
+summary: "Day92第90次夜班白桦里一号院苏可20:16听到实际困于一号梯六七楼之间的袁师傅敲门，外屏误显一楼；陈燕拨旧物业号只收到九秒‘已转送’自动录音，没有具名真人受理。20:23中心实际联动，专业维保20:42到场、21:07真救出袁师傅并按需要评估医事，他女儿从外地问父亲是否已送医，袁师傅亲自澄清并将旧台灯带出，未获最终诊断。21:24一号梯继续停用、实体防误入；22:01物业停荐旧外包失效号码并合法张贴新临时号，受控真人回拨只证本次联络，正式旧路由回收及复梯未完。00:47罗谨仅在公开馆藏目录见《临江市便民联络手册》标1996年修订版，版权及内页尚未依法获核，QB-SF和历史真实业务未知。"
+meaningful_state_changes:
+  - "老人经维保真脱困、一号梯具名持续停用、旧误导应急号当夜停止推荐，现行电话真实当次试通；公开历史便民手册出现有限合法目录入口。"
+knowledge_updates:
+  - "电梯显示一楼非真实停层、旧外包九秒自动‘已转送’无真人救援接受证据，今夜真正维保另由中心联动。1996只见公开目录修订标记，尚无实物版权页或内页。"
+foreshadowing_updates:
+  - "F003合法公开目录查证，F008未出现新本人记忆冲突，M004/M005仍未确证。"
+relationship_updates:
+  - "苏可积极求助而未撬门，陈燕守住真人联络、袁师傅安慰孩子并同女儿澄清父亲安危，中心按权限合作、互信量化不变。"
+ending_state: "Day93清晨袁师傅实际脱困、伤情后续未知，电梯停用并有临时真联络提示，故障诊断与旧号回收待办；公开旧手册仅定位目录尚未读内页。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 2964

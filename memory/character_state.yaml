@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 226
+last_updated_chapter: 227
 characters:
   zhou_heng:
     location: Day79清晨，临江市夜间综合服务中心，第七十六次夜班交接
@@ -363,3 +363,10 @@ chapter_226_verified:
   actual_state: "秦桂芳21:18在南湾路东口旧N6公交站误等封路后改道车辆，安全从便利店21:24来话；夏宁与公交高师傅辨通知仅送行车终端非实物站牌。站务何姐和运营查两人真实滞留，22:24由经批准机动小巴在青禾街社区服务站合法实际补接，22:43另一年轻乘客真换乘、23:05秦桂芳抵竹岭小区核准站点。"
   main_cast_injuries: none_new
   final_location: "Day92清晨下穿东口持续封路，秦桂芳实际到竹岭小区外站点，是否进家未独立查证；另一乘客成功转N6，旧站临时停用提示具名张贴、正式换牌未完。"
+
+chapter_227_verified:
+  source_sha: "bf64b91f85dbe647e45d5df4ef6a0963ff8ee0c1"
+  timeframe: "Day92 20:16—Day93清晨"
+  actual_state: "白桦里一号院十三岁苏可20:16听到一号电梯停六七楼之间的敲门声，母亲陈燕旧物业号九秒自动‘转送’未真人应答，20:23夏宁真实接报，周衡与梁策不越权撬门或凭显示屏为已到一层；专业维保20:42到，21:07有权安全救出七十岁袁师傅并安排必要医护评估，家属电话问父亲情况，伤情未定。"
+  main_cast_injuries: none_new
+  final_location: "Day93清晨袁师傅已脱困休息，旧台灯随救出，未知是否入院；一号梯停用并持续实体防误入，物业真实更正紧急联络提示，新旧路由整改仍待。"

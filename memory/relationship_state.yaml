@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 226
+last_updated_chapter: 227
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -267,3 +267,9 @@ chapter_226_verified:
   facts: "秦桂芳拒按未验证封闭辅道追车，何姐带站务核真通路、主动帮助两名旅客，年轻人实际帮提一袋面包而不替年长者决定；中心与公交有权分工明确，主角信任数值不作推定。"
   main_cast_trust_scores_unchanged: true
   no_inferred_outcomes: "公交行车终端蓝勾不代表站台人获通知，真实补接到小区外站点不等于秦桂芳实际入家；历史空表格分栏不代表确有旧实际来话。"
+
+chapter_227_verified:
+  source_sha: "bf64b91f85dbe647e45d5df4ef6a0963ff8ee0c1"
+  facts: "苏可听到敲击并告知母亲，陈燕在专业救出前坚持真实可联系人、袁师傅获救后亲自向远方女儿澄清对父亲伤情的误传，杜正与物业分清旧机器录音及新真人联系。主角团队分工不改变既有信任数值。"
+  main_cast_trust_scores_unchanged: true
+  no_inferred_outcomes: "‘已转送’录音非真人救援受理，专业救出不等于停梯原因已修或医事定论；1996公开目录不证历史实际来话。"
