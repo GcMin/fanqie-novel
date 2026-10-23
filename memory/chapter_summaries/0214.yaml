@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 214
+title: "车来了，她还没答应上去"
+volume: 6
+arc: ARC-054
+status: audit_candidate
+qa: pass
+reader_gate: pass
+source_sha: "d2d4748ed9dd3f6d558223fc4db2726fb651d6ab"
+reader_review: "reader_reviews/0214_d2d4748e.md"
+timeframe: "Day79 07:04—20:11"
+summary: "程月桂与程箐已获街道许可继续住河东社区周转站，三层受潮电气回路仍隔离。Day79复诊首辆所谓适配车08:36实际到站，但高踏步不符合程月桂登车需要；本人拒绝冒险登车，司机记录到站未载客。程箐核申请副本发现误勾家属协助，按本人意愿更正；日班调合规低位接续车09:29到站，经承运岗位现场核设备及本人同意09:41真实驶离，10:22到院，门诊按实际规则办理迟到候诊并由医护专业问诊。母女当日实际回周转站，20:11新夜班核实返回、两车不同履约状态及三层仍未放行。"
+meaningful_state_changes:
+  - "程月桂拒绝不适用车并同意合规车，按规则完成门诊复诊及返回；程箐更正误勾信息；日班将到站未载客与合规接车分别登记，临时增加登车条件人工复核。"
+knowledge_updates:
+  - "首车无障碍服务类别只保证折叠助行器储放，不代表本人可以安全登车。第二辆车实际载客但首车费用核定和车型字段正式改造仍待有权决定；门诊诊断细节未给社区，三层受潮回路仍未复核放行。"
+foreshadowing_updates:
+  - "F003合法核证、F008无新本人记忆冲突，F009/F010/F011 resolved，M004/M005均未证；现有foreshadowing.csv事实状态无需修改。"
+relationship_updates:
+  - "程箐意识到代勾选项不等于母亲同意并允许她自己作决定，母亲接受在合规范围内协助；高林从空驶担忧转为提醒第二辆车避开积水点，不代表费用已决。"
+ending_state: "母女完成复诊后实际回到经批准使用的周转站；程月桂自己填完数独最后一格；海棠街三层仍需专业电气安全复核和物业许可后方可返家，运营正式规则、空驶费用仍待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3365
