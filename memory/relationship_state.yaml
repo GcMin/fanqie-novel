@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 239
+last_updated_chapter: 240
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -344,3 +344,9 @@ chapter_239_verified:
   facts: "老颜即使担心两名巡检工也选择安全窗口报原址、不给别人危险区通行权限；纪同与小伍坚持分别具名实际离险，不接受19:53拟退出当完工。冉定、消防水务与夜间中心分权联动，夏宁保护被截掉的原报地点语义，周衡梁策不越权救援。核心同事未发生可实证的互信分值变化。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "旧馆藏只获开放目录范围的字段，不倒推被遮盖来电者身份或私人内页；老颜仓房开放范围、受困人员诊断与本人回访要各自有权许可，不从群里已完成反推已获人员确认。"
+
+chapter_240_verified:
+  source_sha: "45b98faf722c3bf8cc5d3301f5da2ea8467278da"
+  facts: "顾棠主动带阿崔撤离、放下记录夹，老颜在短期货损与员工风险之间起初摇摆；女儿颜絮质问父亲为何没有告知受潮电气并协助联系合规冷链、接受经济代价，父女真正建立沟通。何路拒虚假的货物实收签字。周衡、梁策、夏宁负责协调分层证据，没有新事实要求修改三主角互信评分。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "顾棠阿崔医护诊断不向顾客擅自公开或臆测，老板留不催回复的私人消息；冻货归属和合规处理由权属方及有资质冷链岗位办理，不让司机签未实际验收的单。"
