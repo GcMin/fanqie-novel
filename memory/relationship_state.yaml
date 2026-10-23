@@ -195,3 +195,9 @@ chapter_214_verified:
   facts: "程箐查明自己误勾家属协助并尊重程月桂亲自选择是否登车及允许的协助程度；母女完成复诊往返后继续合法同住周转站。首车司机高林虽担忧空驶结算，仍如实记未载客并提醒杜师傅避开积水位置。"
   main_cast_trust_scores_unchanged: true
   no_forced_consents: "不把陪同当作代同意、不把医院预约与迟到登记当作保证就诊、不替程月桂打满意度。"
+
+chapter_215_verified:
+  source_sha: "e9127240948fce1e03b94dca14d5f1b4a70d9cfd"
+  facts: "许岚关心豆皮伤势而拒签虚假已领回证明，罗佩先安排合法观察与身份复核、继而如实补正交接；邻居陈叔同意在合法停车位接人，家中真正到达由次晨本人经历确认。"
+  main_cast_trust_scores_unchanged: true
+  no_forced_consents: "不把扫描或犬只转头当唯一身份凭证，不假设许岚已签收、不让中心转述为兽医担保；旧错误纸单仍留存。"
