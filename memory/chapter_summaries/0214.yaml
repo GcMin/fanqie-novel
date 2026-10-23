@@ -3,7 +3,7 @@ chapter: 214
 title: "车来了，她还没答应上去"
 volume: 6
 arc: ARC-054
-status: audit_candidate
+status: ready
 qa: pass
 reader_gate: pass
 source_sha: "d2d4748ed9dd3f6d558223fc4db2726fb651d6ab"
