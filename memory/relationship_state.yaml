@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 219
+last_updated_chapter: 220
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -225,3 +225,9 @@ chapter_219_verified:
   facts: "纪红坚持要求向外部已接收单位更正自己的错署名却不抹除原版，吴俊仍学习自己确认人和来源而不先给他人安上手签造假的指控；小丁明确提醒何自强保持低路禁入，何自强本人主动停在警戒外并和客户改约。"
   main_cast_trust_scores_unchanged: true
   responsibility_boundary: "泵站刘工及其技术岗位负责隔离验证与合法原始报告纠正；绿道主管批准实体开放或继续封控；夜间中心只做跨岗联络、保全和事实核实。"
+
+chapter_220_verified:
+  source_sha: "a0623ce2e77087bfaae9110506a32e714d20d702"
+  facts: "吴俊不再受维保催促而给绿色网关单子作整链签认，明确承认前夜类比的实际人缺位；纪红仍监督他真正核人并未替其完成歉意。严素娟自证一次拨返呼但拒以个人能力替全班签名，次晨同班另两人自己逐个核准。"
+  main_cast_trust_scores_unchanged: true
+  authority_boundary: "通信主管批准夜间备用路由更改，刘工及有权人员签限范围测试；夜间中心只完成实际呼入返呼并分层记录，不批准旧亭可用或工程验收。"

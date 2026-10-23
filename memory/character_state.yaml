@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 219
+last_updated_chapter: 220
 characters:
   zhou_heng:
     location: Day79清晨，临江市夜间综合服务中心，第七十六次夜班交接
@@ -314,3 +314,10 @@ chapter_219_verified:
   actual_state: "纪红在Day84收到把下游自动水位2.31米和她本人在岗签名错误合并成P3人工测报的汇总。她保存自己亲记的未测原表、22:13本人签到与日志，要求保留错版和更正而非涂改。刘工组织授权隔离复现，夜间中心与绿道值守保持现场封闭，养护班未拆挡。"
   main_cast_injuries: none_new
   final_location: "Day85清晨纪红在泵站交班后离岗，旧三号门和低步道仍封闭，养护车改走高路；何自强仅证将两桶水转交合规接驳司机，未证客户收货。"
+
+chapter_220_verified:
+  source_sha: "a0623ce2e77087bfaae9110506a32e714d20d702"
+  timeframe: "Day85 20:14—Day86清晨"
+  actual_state: "旧三号门危险封闭未解除，吴俊收到笼统网关绿勾不再提前签字；有权通讯与站方从新北门核现行线路并在22:02发现返呼转白班语音，22:31获准修正后真人接听。绿道严素娟一人21:23实际确认，另两人经领班次晨各自核验。"
+  main_cast_injuries: none_new
+  final_location: "Day86清晨纪红吴俊在新北门合法值守交班，河岸低步道/旧门仍封闭，旧亭电话未恢复返呼、旧册仅有索引；周衡等结束第83次夜班联动。"
