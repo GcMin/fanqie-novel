@@ -1,0 +1,25 @@
+schema_version: 1
+chapter: 197
+title: "绿灯亮在测试那一侧"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "8fa090ac3dfe8f215add4f746a736f6f624698a2"
+source_path: "chapters/draft/0197.md"
+reader_review: "reader_reviews/0197_8fa090ac.md"
+timeframe: "Day62 20:06—Day63早班，第六十次夜班"
+summary: "五类隔离测试通过截图被运营二次转发误作正式生产自动流转通知，撤掉两人工席。QJ-162旧座机自动语音非乘客确认，何静经有权渠道确认本次意愿；何树根21:15实际上车、21:52家属接收。运营正式更正通知、恢复两人工席，原十一笔分来源核验或有责交接，生产仍为旧版本，正式上线与全量影响未证。"
+meaningful_state_changes:
+  - "QJ-162安全送达与原19:59错误联系绿色分开保全；误通知撤回并恢复两人工席。"
+knowledge_updates:
+  - "隔离环境测试通过≠生产上线；端点自动提示≠本人或授权人对本次预约确认；来源核查≠全部乘客已送达。"
+foreshadowing_updates:
+  - "F003合法证据边界未改变；F008无新增样本；F009/F010/F011已resolved；M004未确认且M005未触碰。"
+relationship_updates:
+  - "何树根与女儿何静的本趟意愿有授权留痕；主角工作信任分值无可量化变化。"
+ending_state: "运营恢复两临时人工席，11笔来源复核或交接有责；生产仍旧版，审批与回滚验证未完成。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3254

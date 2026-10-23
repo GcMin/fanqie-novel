@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 196
+last_updated_chapter: 197
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -97,3 +97,9 @@ chapter_194_to_196_verified:
   chapter_196: "段弈不接受用上周QJ-118的取消决定代替本次QJ-158的出行意愿，也不应被迫重排队；运营方修正历史误标。"
   main_cast_trust_scores_unchanged: true
   no_unverified_consents_or_satisfaction: true
+
+chapter_197_verified:
+  source_sha: "8fa090ac3dfe8f215add4f746a736f6f624698a2"
+  main_cast: "周衡、梁策、夏宁坚持证据层级与安全优先，主角彼此的信任分值不改。"
+  customer_and_service: "何树根坚持在车实际到场前安全室内候车并明确本次意愿，女儿何静只按已登记授权确认本趟；卢萍不越权替老人或家属确认，运营主管签字恢复人工席。"
+  do_not_infer: "实际送达不等于自动确认正确、乘客满意或运营免责；误通知纠正不等于技术根因最终认定。"
