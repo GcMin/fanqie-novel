@@ -20,11 +20,11 @@ Reader Review 的职责是**发现问题并生成机器可执行的修订输入*
 
 ## 审查对象
 
-只审查 `chapters/draft/` 中章节号最大的有效 Markdown 章节。
+按章号数字升序审查 `chapters/draft/` 中尚未存在于 `chapters/ready/`、`chapters/published/` 的最早有效 Markdown 章节，逐章处理积压。不得仅审查最大章号，也不得跳过尚未核验的前章。
 
 - 不审查 `CHAPTER_TEMPLATE.md`、README 等模板文件；
-- 如果最新草稿的 Git blob SHA 已经有对应 Reader Review，则不重复评论；
-- 草稿正文发生实质修改后允许重新审查；
+- 如果该草稿当前 Git blob SHA 已有符合双遍要求的有效 Reader Review，则不重复评论，转入同轮后续必要 Revision/QA/Memory/ready 阶段；
+- 草稿正文发生任何修改后，必须基于修改后的新 Git blob SHA 独立重新执行 Pass A 与 Pass B，旧 Review 失效；可在同次 Audit 执行中立即进行；
 - `ready/` 与 `published/` 默认不作为定时 Reader 的目标；
 - `status: retry_later` 的草稿在正文 SHA 未变化时不重复审查。
 

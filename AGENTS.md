@@ -1,4 +1,4 @@
-> **2026-10-15 最新执行规则：本仓库只保留两个 ChatGPT 定时任务（Writer 与唯一 Audit）。Audit 分轮完成 Reader、Revision、Continuity/Style QA、Memory 与 ready；旧文中“独立 Reader/Revision/QA 会话”仅指审核阶段，不再要求单独定时任务。GitHub 写入失败不得自动暂停、禁用或删除任一任务，下轮自动重试。详情优先遵守 `docs/combined_audit_protocol.md`。**
+> **2026-10-15 最新执行规则：本仓库只保留两个 ChatGPT 定时任务（Writer 与唯一 Audit）。Audit 可以在同次执行中连续完成多章的 Reader、Revision、新 SHA 复审、Continuity/Style QA、Memory 与 ready；旧文中“独立 Reader/Revision/QA 会话”仅指审核阶段，不再要求单独定时任务。GitHub 写入失败不得自动暂停、禁用或删除任一任务，下轮自动重试。详情优先遵守 `docs/combined_audit_protocol.md`。**
 
 # AGENTS.md
 
@@ -84,6 +84,6 @@ Writer 每轮最多创建一个以前不存在的章节。上一章还在待审�
 
 - Writer：只创建新章详细章纲与首稿，不读取历史 Reader Review、不审核、不修订现有稿、不改长期 Memory、不设置 QA/ready/published、不发布番茄。
 - Reader：独立审查草稿；Revision：独立负责当前章修订；QA/Memory/Publish Gate：由独立收尾会话操作，各阶段必须保留可验证来源。
-- 原有 Reader/Revision 定时任务应在 `split_roles` 模式真实工作，不得沿用集中模式“只检查配置然后退出”的指令。
+- Reader、Revision、QA/Memory/Publish Gate 均为唯一 Audit 定时任务内部的独立审核阶段，不创建额外定时任务。Audit 每次按章号升序清理可安全处理的积压，正文修订后可在同轮按新 Git blob SHA 重新双遍 Reader 审查，不因阶段切换等待下一小时。
 - Writer 允许在上一章尚未审定时启动下一新章，但新稿必须标注所依赖上章的具体 blob SHA，供其他会话在前章发生修订时核对；这只是预先创作许可，**不是**提前通过 QA 或进入 ready 的许可。
 - 禁止复用其他章的 Reader/QA 结果，禁止为了按时新写而修改前章 Canon。所有 GitHub 写入须保护最新 main，遇并发冲突重新读取后再提交，不强推。

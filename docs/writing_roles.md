@@ -1,4 +1,4 @@
-> **2026-10-15 更新：当前只使用 Writer 与唯一 Audit 两个定时任务。下文多会话 Reader/Revision/QA 均归并为 Audit 内部不同轮次的阶段；具体执行优先遵守 `docs/combined_audit_protocol.md`。GitHub 写入受阻不可自动暂停任务。**
+> **2026-10-15 更新：当前只使用 Writer 与唯一 Audit 两个定时任务。下文多会话 Reader/Revision/QA 均归并为 Audit 内部可在同一次执行连续完成的独立阶段；具体执行优先遵守 `docs/combined_audit_protocol.md`。GitHub 写入受阻不可自动暂停任务。**
 
 # 每小时小说写作：分会话协作协议
 
@@ -10,7 +10,7 @@
 | --- | --- | --- |
 | Writer（每小时） | 按协议读设定与近期正文，完成详细章纲、连续性预检，首次编写**一个新的**章节正文 | `plans/chapter_NNNN_plan.md`、`chapters/draft/NNNN.md`（新建时） |
 | Reader（独立） | 对最新待审原稿或修订稿进行普通读者 Pass A / Canon Pass B，留可操作意见 | `reader_reviews/NNNN_<sha8>.md`、`memory/reader_state.yaml` |
-| Revision（独立） | 仅修改 Review 指明需要修订的既有草稿；正文一变等待新 Review | 当前已存在 draft、`memory/revision_state.yaml` |
+| Revision（独立） | 仅修改 Review 指明需要修订的既有草稿；正文一变按新 Git blob SHA 立即双遍 Reader 复审，可在同一轮 Audit 完成 | 当前已存在 draft、`memory/revision_state.yaml` |
 | QA + Memory + Publish Gate（独立） | Reader BLOCKER/MAJOR 为 0 后执行 Continuity / Style QA；同步长期记忆、计划、摘要；校验并移入 ready | QA、memory、plan、arc/volume、相应 ready/draft |
 | Publisher（服务器） | 只使用 ready，平台发布核验成功才归档 published | 发布器日志与已发布快照 |
 
@@ -38,4 +38,4 @@ Reader 依 `docs/reader_agent_protocol.md`；Revision 依 `docs/revision_agent_p
 
 ## 5. 自动化编排与异常
 
-写作、Reader、Revision、QA/Memory/Publish Gate 可是不同小时任务。并发提交拒绝后重新获取远端版本；任何 Agent 不得 force push 或重置他人审查游标。每个会话只汇报自己**实际完成**的工作，其他阶段必须明确“待独立会话”。单个小时若发现下一章已经存在，则不重建，不修改现有正文，不冒充新章已生成。
+当前仅有 Writer 与唯一 Audit 两个 ChatGPT 定时任务；Reader、Revision、QA/Memory/Publish Gate 是 Audit 内部独立阶段，不另设小时任务。Audit 每轮按章号数字升序尽可能连续处理积压，正文修改后立即按新 SHA 独立双遍复审，阶段切换无需等待下一小时。并发提交拒绝后重新获取远端版本；任何 Agent 不得 force push 或重置他人审查游标。每个会话只汇报自己**实际完成**的工作，其他阶段必须明确“待独立会话”。单个小时若发现下一章已经存在，则不重建，不修改现有正文，不冒充新章已生成。
