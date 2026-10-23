@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 212
+last_updated_chapter: 213
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -183,3 +183,9 @@ chapter_212_verified:
   actual_contacts: "程箐与母亲程月桂保留本人行动与居住意愿，母女在周转站确实同房入住；杨海的堂兄本人电话同意留宿，但杨海到达未有证据。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "杨海自选去向不改作已到，程月桂未被强推楼梯或代签满意；入住双床需实有本人确认。"
+
+chapter_213_verified:
+  source_sha: "9780658ab091369b5bb903e45c07b25dd2aacad7"
+  facts: "杨海Day77 22:07抵堂兄家，经本人新叙事确认，Day78 22:52依法返家；程月桂亲笔同意继续住周转站，程箐尊重母亲对安全与数独末格的自决，不把延住自动代签。"
+  main_cast_trust_scores_unchanged: true
+  no_forced_consents: "两户不同审批与条件分别处理，返家时间与退安置方式不倒填。"
