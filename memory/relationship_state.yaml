@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 228
+last_updated_chapter: 232
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -291,3 +291,15 @@ chapter_230_verified:
   facts: "陆音因上月业主名册被错列空置而主张临时安置，不愿在物业群公开个人租约并自主接受街道核准的当夜接待房；唐雪蕙记得她借胶带、搬画板但不代房东提供法律最终证言，并提醒另三处过时空置可能漏人。费嵘保留原错表而按应急工作程序补正，曹绫尊重独立租客的隐私和住宿意愿。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "租约、房东电话、姓名及房间号码只用于获授权应急核验，不向公众群散发；他人无障碍住房需求独立评估，不以陆音已获准而假定其他三户无人。"
+
+chapter_231_verified:
+  source_sha: "7f2044696ccf49f345884ef3e0028a4a76653426"
+  facts: "彭梅坚持不能冒险湿电抢货，林叔合法拒绝陌生人进入自己住宅不等于拒救邻居，周衡夏宁梁策遵守专业职责；核心人物信任量化状态无根据改动。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "林叔私人住所不作漏水出险地点，彭梅作坊商业损失与私人身份不向物业群公布；同一街巷不同门牌须分清。"
+chapter_232_verified:
+  source_sha: "02bba93f7aa6738183fabbe6e37e423239abcd68"
+  facts: "谢颂放弃当晚摊点收入、池棠自选安全西门与父亲会合；馆方林绮不拿活动退场签单代现场安全，梁策及周衡坚持专业高处作业和有限史料授权；核心信任量化未变。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "池棠与父亲保持自主安全疏散，1996馆藏的私人身份经遮盖不得复原或扩散，谢颂经营损失保留个人凭据。"
+

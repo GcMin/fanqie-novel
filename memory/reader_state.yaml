@@ -129,3 +129,43 @@ combined_audit_chapter_230_20261023:
   predecessor_ready_blob_sha: "59789a258d12195fc0a8ab94fda5c39045b6e783"
   dependency_status: verified_predecessor_body_unchanged
   structural_gate: exact_commit_ci_required
+
+combined_audit_chapter_231_20261023:
+  chapter: 231
+  title: "十二号甲院不在十二号里"
+  source_path: chapters/draft/231.md
+  source_sha: "7f2044696ccf49f345884ef3e0028a4a76653426"
+  review_path: reader_reviews/0231_7f204469.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  content_qa: pass
+  depends_on_chapter: 230
+  declared_predecessor_sha: "fcf02ad15487da5d102ded551c83269450e339de"
+  predecessor_ready_blob_sha: "fcf02ad15487da5d102ded551c83269450e339de"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_commit_ci_required
+
+combined_audit_chapter_232_20261023:
+  chapter: 232
+  title: "散场以后，招牌还没落地"
+  source_path: chapters/draft/232.md
+  source_sha: "02bba93f7aa6738183fabbe6e37e423239abcd68"
+  review_path: reader_reviews/0232_02bba93f.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  content_qa: pass
+  depends_on_chapter: 231
+  declared_predecessor_sha: "7f2044696ccf49f345884ef3e0028a4a76653426"
+  predecessor_ready_blob_sha: "ready_0231_frontmatter_only_change"
+  dependency_status: verified_predecessor_body_unchanged
+  structural_gate: exact_commit_ci_required
