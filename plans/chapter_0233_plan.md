@@ -26,4 +26,6 @@
 - forbidden_leaks: 不把柜开门等于失主领走，不认定盗窃或保管员故意作假；不要求公开个人地址、不让中心越权查柜、不开锁试门、不倒签交接；不利用已遮盖1996老簿识别来话人、不宣布纸面栏目与现代平台有传承关系，不冒称北门已修复。
 - ending: Day99清晨三把钥匙已真正回到魏遥身边、母女本人确认到家；C12原事件仍存，内部缺双签和跨柜规则排查未结。1996普通登记只能证明合法见到的有限文字事实，不能跳证M005。
 - target_chars: 2600–3400 chinese_effective_chars, hard 2300–3800
-- actual_body_effective_chars: 3056
+- actual_body_effective_chars: 3100
+
+- audit_local_revision: 2026-10-24 Stage A，仅更正21:03封套外标签与实际清点证据层级，正文源 Git blob 747faa124f2ac7d943ed9955f1be15bcf083db90；新 SHA Reader 0 BLOCKER/0 MAJOR/2 MINOR。

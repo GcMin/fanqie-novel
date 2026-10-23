@@ -169,3 +169,26 @@ combined_audit_chapter_232_20261023:
   predecessor_ready_blob_sha: "d99af7732fff7d794694501cdec964db688a1e79"
   dependency_status: verified_predecessor_body_unchanged
   structural_gate: exact_commit_ci_required
+
+combined_audit_chapter_233_20261024:
+  chapter: 233
+  title: "那串钥匙被领走了两次"
+  initial_source_sha: "1e880569b20fa1df278ef40e54031aba8317529f"
+  initial_review_path: "reader_reviews/0233_1e880569.md"
+  local_revision_rounds: 1
+  source_path: "chapters/draft/0233.md"
+  source_sha: "747faa124f2ac7d943ed9955f1be15bcf083db90"
+  review_path: "reader_reviews/0233_747faa12.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b_post_revision
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  content_qa: pass
+  depends_on_chapter: 232
+  declared_predecessor_sha: "20be3477677522b1bf22393e1535051f89152443"
+  predecessor_ready_blob_sha: "20be3477677522b1bf22393e1535051f89152443"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_commit_ci_required

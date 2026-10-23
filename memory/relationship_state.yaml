@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 232
+last_updated_chapter: 233
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -303,3 +303,8 @@ chapter_232_verified:
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "池棠与父亲保持自主安全疏散，1996馆藏的私人身份经遮盖不得复原或扩散，谢颂经营损失保留个人凭据。"
 
+chapter_233_verified:
+  source_sha: "747faa124f2ac7d943ed9955f1be15bcf083db90"
+  facts: "魏遥为保护简简与住址隐私坚持本人领回，袁璐拒绝替她倒签19:47旧记录，夏宁守住真签时刻与真实回家反馈，周衡关心等候区安全，梁策坚持由有权管理岗查柜。胡应林在权限内提供拾物时间事实，不擅自取得私密资料。三位主角合作，没有新增可信的互信评分变动。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "魏遥不在公众面前报门牌号或逐把试钥匙，孩子画鱼只是辅助证据不能单独确认归属；1996脱敏历史来话信息不猜测不复原，人员实际取物与管理回执必须独立核实。"
