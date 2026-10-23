@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 209
+title: "灯亮着的那扇门打不开"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "16faeff110cd6c5ea417b93191136897fdcf4744"
+reader_review: "reader_reviews/0209_16faeff1.md"
+timeframe: "Day74 20:17—23:00"
+summary: "WG-612：Day74 20:17柳芽在西堤工人文化馆南厅发现亮着安全出口灯的侧门推不开；物业虽显示电子解锁成功，实际外层施工旧锁链阻挡。馆方20:42停演并疏散；21:49拆链后又发现固定支架干涉，22:13维护单位处理并由馆方完成本轮现场复核，但本场演出保持取消。22:26何阿姨由本人确认随女儿离场；陶师傅十二名工友中十一人已有效告知，一人须再确认。"
+meaningful_state_changes:
+  - "文化馆人员完成真实疏导，链锁和支架经授权专业处理；本场演出明确取消，留候老人获实际接送。"
+knowledge_updates:
+  - "旧施工链锁及支架责任尚未定案；组织方退票和未来活动安排未确认；不能把电控绿回执、门推开一次或事后复核倒填成当时适宜入场；第208章MS-418盖板仍缺且西口持续封闭，路由生产整改未上线。"
+foreshadowing_updates:
+  - "F003合法查证不变；F008无新增本人记忆冲突；F009/F010/F011 resolved；M004/M005均未证；无需要修改现有foreshadowing条目状态的新证据。"
+relationship_updates:
+  - "柳芽坚持实测；孟棠在观众安全与活动代价之间作有责任记录，何阿姨授权更改接人地点；周衡、梁策、夏宁分工不变，主角数值关系未变化。"
+ending_state: "WG-612：Day74 20:17柳芽在西堤工人文化馆南厅发现亮着安全出口灯的侧门推不开；物业虽显示电子解锁成功，实际外层施工旧锁链阻挡。馆方20:42停演并疏散；21:49拆链后又发现固定支架干涉，22:13维护单位处理并由馆方完成本轮现场复核，但本场演出保持取消。22:26何阿姨由本人确认随女儿离场；陶师傅十二名工友中十一人已有效告知，一人须再确认。 旧施工链锁及支架责任尚未定案；组织方退票和未来活动安排未确认；不能把电控绿回执、门推开一次或事后复核倒填成当时适宜入场；第208章MS-418盖板仍缺且西口持续封闭，路由生产整改未上线。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3085

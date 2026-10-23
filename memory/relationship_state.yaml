@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 208
+last_updated_chapter: 209
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -159,3 +159,9 @@ chapter_208_verified:
   outside_parties: "祝平确认为报险人而非工程签收人；韩姐协调书城行人和货运，不替承包商承诺修复；程闻及白班林值守提供实有岗位的联系回应。"
   main_cast_trust_scores_unchanged: true
   no_inferred_liability_or_consent: true
+
+chapter_209_verified:
+  source_sha: "16faeff110cd6c5ea417b93191136897fdcf4744"
+  local_relationships: "何阿姨主动同意孟棠帮联系女儿并改前门雨棚实际接走；陶师傅对十二位工友逐一承担告知责任，但只有十一位真正确认。柳芽坚持核实，不臆断演出组织者的责任。"
+  main_cast_trust_scores_unchanged: true
+  consent_boundaries: "何阿姨女儿号码未公开登记；中心没有直接承担场馆赔付/恢复营业权限。"
