@@ -113,3 +113,15 @@ combined_audit_chapter_240_20261024:
   status: reader_and_content_qa_pass
   predecessor_body: verified_identical_old_draft_vs_latest_ready
   structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_241_20261024:
+  chapter: 241
+  source_sha: "6c2f4e921b01300e21ed1c97f8d629b6a02afd26"
+  review: reader_reviews/0241_6c2f4e92.md
+  body_revisions_this_run: 0
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  status: reader_and_content_qa_pass
+  predecessor_body: exact_match_final_ready_blob
+  structural_gate: exact_commit_CI_required

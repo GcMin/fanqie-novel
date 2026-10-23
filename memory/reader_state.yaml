@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 240
-last_reviewed_title: 冷库没升温，人却站不稳
-last_source_path: chapters/draft/0240.md
-last_source_sha: 45b98faf722c3bf8cc5d3301f5da2ea8467278da
-last_review_path: reader_reviews/0240_45b98faf.md
+last_reviewed_chapter: 241
+last_reviewed_title: 签名栏空着，排班表却满了
+last_source_path: chapters/draft/0241.md
+last_source_sha: 6c2f4e921b01300e21ed1c97f8d629b6a02afd26
+last_review_path: reader_reviews/0241_6c2f4e92.md
 last_reviewed_at: "2026-10-24"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,12 +12,12 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 212
-depends_on_source_sha: 1e9b4d8f333a48d8cc3b1a52a1350dfe1565f7c0
-dependency_status: verified_previous_source_body_unchanged
-predecessor_current_source_sha: 5ae5e87e4d21585c9db753ac6e840350177f718b
-predecessor_sha_mismatch: true
-predecessor_qa_verification_required: true
+depends_on_chapter: 240
+depends_on_source_sha: 6c2aae5ef5866ac61901154ab3101a30427a8f01
+dependency_status: exact_match_with_final_ready_blob
+predecessor_current_source_sha: 6c2aae5ef5866ac61901154ab3101a30427a8f01
+predecessor_sha_mismatch: false
+predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
 upstream_declared_predecessor_sha: c98c2d744636933c645de3677ee9c4b8a2e94a92
 upstream_predecessor_current_source_sha: 1aa41c0abff0438e819822566586c6215e9273d1
@@ -331,5 +331,26 @@ combined_audit_chapter_240_20261024:
   depends_on_source_sha: "19deae51f543ed5144d47ef25f48ce4c7c4aa810"
   predecessor_current_ready_blob_sha: "65627a3ec6ecfd0a1ab501cfedb9d7c16c0bf5fe"
   dependency_status: verified_previous_source_body_unchanged
+  body_revisions: 0
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_241_20261024:
+  chapter: 241
+  title: "签名栏空着，排班表却满了"
+  source_path: chapters/draft/0241.md
+  source_sha: "6c2f4e921b01300e21ed1c97f8d629b6a02afd26"
+  review_path: reader_reviews/0241_6c2f4e92.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 240
+  depends_on_source_sha: "6c2aae5ef5866ac61901154ab3101a30427a8f01"
+  predecessor_current_ready_blob_sha: "6c2aae5ef5866ac61901154ab3101a30427a8f01"
+  dependency_status: exact_match_with_final_ready_blob
   body_revisions: 0
   structural_gate: exact_commit_CI_required

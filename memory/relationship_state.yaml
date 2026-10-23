@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 240
+last_updated_chapter: 241
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -350,3 +350,9 @@ chapter_240_verified:
   facts: "顾棠主动带阿崔撤离、放下记录夹，老颜在短期货损与员工风险之间起初摇摆；女儿颜絮质问父亲为何没有告知受潮电气并协助联系合规冷链、接受经济代价，父女真正建立沟通。何路拒虚假的货物实收签字。周衡、梁策、夏宁负责协调分层证据，没有新事实要求修改三主角互信评分。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "顾棠阿崔医护诊断不向顾客擅自公开或臆测，老板留不催回复的私人消息；冻货归属和合规处理由权属方及有资质冷链岗位办理，不让司机签未实际验收的单。"
+
+chapter_241_verified:
+  source_sha: "6c2f4e921b01300e21ed1c97f8d629b6a02afd26"
+  facts: "颜絮坚持不把父亲冷库两名受医护接续工人当班表占位，老颜从预设歇一晚返岗改为亲笔签实际到岗零。顾棠本人只回应劳动沟通与阿崔遗物，不公开诊断、不使他人闯禁区。司机江棋要求合法撤派和真实等候记录，双方不倒签收筐；三位主角专业协作无新的量化信任改变。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "顾棠短信仅允许用于排班沟通，不向车队客户公开医学检查；阿崔本人未签、家属不代证病情或返岗；老颜人事缺勤分类需专岗核实。"
