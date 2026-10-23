@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 223
+last_updated_chapter: 224
 characters:
   zhou_heng:
     location: Day79清晨，临江市夜间综合服务中心，第七十六次夜班交接
@@ -342,3 +342,10 @@ chapter_223_verified:
   actual_state: "严素娟发现桥北为顾实事故扩大围隔后高路真正不能通轮椅，陆芸本人拒抬椅或桥头楼梯方案；有权岗位为本次在维护院侧门暂停部分车辆、隔离危险沟栅并逐段核无障碍路线，22:35实际接驳下客，22:51陆芸与儿子到小区南门。"
   main_cast_injuries: none_new
   final_location: "Day89清晨严素娟等继续按禁入提示交班，桥北旧高路仍局部断开，低路仍封；陆芸于前夜22:51抵小区南门，是否实际入户未证。顾实继续先前住院/考勤待核，无新返岗证据。"
+
+chapter_224_verified:
+  source_sha: "f5dbad13712499d373e71a483232e8f39947b615"
+  timeframe: "Day89 19:37—Day90清晨"
+  actual_state: "夏宁Day89第87次夜班据祝先生20:12独立电话转现场，唐卫东组织柳汀广场第三段栏杆危险临水平台隔离；周衡现场纠正无证儿童致损推断，梁策遵守现场安全边界。罗阿婆19:37投递的报险纸21:36才被有权岗位开箱看见。"
+  main_cast_injuries: none_new
+  final_location: "Day90清晨柳汀广场危险平台继续隔离，罗阿婆与老伴只走安全内圈，祝先生女儿无受伤报告；周衡仅留QB-SF旧档最小申请草稿，未实际提交。"

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 223
+last_updated_chapter: 224
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -249,3 +249,9 @@ chapter_223_verified:
   facts: "陆芸强调自己看路和自行推行的决定权，孟晓东尊重并放松椅背扶手；严素娟要求考虑未来同类乘客，韩国庆不能以完工围隔代替通行规划，宋工守住专业隔离不以方便撤警戒。"
   main_cast_trust_scores_unchanged: true
   no_inferred_outcomes: "当次真实到小区南门不等于已进家或永久无障碍设施验收，QB-SF职责说明并非历史工单内容证明。"
+
+chapter_224_verified:
+  source_sha: "f5dbad13712499d373e71a483232e8f39947b615"
+  facts: "罗阿婆对唐卫东要求避免后来者误把夜间纸件投递当紧急处置；祝先生保护女儿不承担无依据破坏责任，唐卫东在权限内逐项围隔、保存纸条、改公众告示；周衡、夏宁、梁策协同而主角互信数值无依据变化。"
+  main_cast_trust_scores_unchanged: true
+  no_inferred_outcomes: "短信绿标不等于实时阅读，孩子发现栏杆松动不等于造成损坏，1994—1997目录编目并非旧异常工单真实受理年份。"
