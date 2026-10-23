@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 225
+last_updated_chapter: 226
 characters:
   zhou_heng:
     location: Day79清晨，临江市夜间综合服务中心，第七十六次夜班交接
@@ -356,3 +356,10 @@ chapter_225_verified:
   actual_state: "周衡Day90第88次夜班按南湾路下穿桥东口现场图区分上游U1监测与东侧排口E3，梁策坚持受困救援优先和未验不通车，夏宁将20:13真实报险、21:06救援交接、公示绿牌来源与22:02换告示分开留证。任朝阳在安全坡上报险并配合位置确认，陈屿从受困湿平台被专业人员转医护。"
   main_cast_injuries: none_new
   final_location: "Day91早班南湾下穿东口继续封闭，陈屿由医护接续、伤情未定；周衡仅获旧QB-SF限定申请已受理未批准，其他服务旧案无新已证结论。"
+
+chapter_226_verified:
+  source_sha: "a41e7029f38ecd092859a3160ca365ca0551c327"
+  timeframe: "Day91 21:18—Day92清晨"
+  actual_state: "秦桂芳21:18在南湾路东口旧N6公交站误等封路后改道车辆，安全从便利店21:24来话；夏宁与公交高师傅辨通知仅送行车终端非实物站牌。站务何姐和运营查两人真实滞留，22:24由经批准机动小巴在青禾街社区服务站合法实际补接，22:43另一年轻乘客真换乘、23:05秦桂芳抵竹岭小区核准站点。"
+  main_cast_injuries: none_new
+  final_location: "Day92清晨下穿东口持续封路，秦桂芳实际到竹岭小区外站点，是否进家未独立查证；另一乘客成功转N6，旧站临时停用提示具名张贴、正式换牌未完。"

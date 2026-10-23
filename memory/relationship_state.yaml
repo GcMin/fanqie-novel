@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 225
+last_updated_chapter: 226
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -261,3 +261,9 @@ chapter_225_verified:
   facts: "任朝阳报警救援时没有返回涉水区，受困陈屿理解饭不能再送并接受医疗移交；值班中心三人既不代专业救援也不替平台判订单责任，周衡和梁策对旧档只接受正式受理不冒充审批。"
   main_cast_trust_scores_unchanged: true
   no_inferred_outcomes: "陈屿21:06脱困并不等于无伤痊愈、订单结清；桥底水位降不等于道路复通；旧档受理回执不等于原始业务内容获核。"
+
+chapter_226_verified:
+  source_sha: "a41e7029f38ecd092859a3160ca365ca0551c327"
+  facts: "秦桂芳拒按未验证封闭辅道追车，何姐带站务核真通路、主动帮助两名旅客，年轻人实际帮提一袋面包而不替年长者决定；中心与公交有权分工明确，主角信任数值不作推定。"
+  main_cast_trust_scores_unchanged: true
+  no_inferred_outcomes: "公交行车终端蓝勾不代表站台人获通知，真实补接到小区外站点不等于秦桂芳实际入家；历史空表格分栏不代表确有旧实际来话。"
