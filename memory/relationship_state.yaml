@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 222
+last_updated_chapter: 223
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -243,3 +243,9 @@ chapter_222_verified:
   facts: "陈素梅为丈夫争取被正确登记为实际送医而非擅自缺勤，顾实自己提供受伤经过但不假装知道准确时间；严素娟守住分别记录，韩国庆承认漏事故编号并纠正不利预览，主角夜间中心只协助证据转交。"
   main_cast_trust_scores_unchanged: true
   no_inferred_outcomes: "HR改待核不等于已结工资或工伤认定，医院检查不等于已定骨折，QB-SF职责文字不等于任何具体历史业务发生证据。"
+
+chapter_223_verified:
+  source_sha: "5b45c1c1cd38bf58c9b08cff6c59f3b4d336c95f"
+  facts: "陆芸强调自己看路和自行推行的决定权，孟晓东尊重并放松椅背扶手；严素娟要求考虑未来同类乘客，韩国庆不能以完工围隔代替通行规划，宋工守住专业隔离不以方便撤警戒。"
+  main_cast_trust_scores_unchanged: true
+  no_inferred_outcomes: "当次真实到小区南门不等于已进家或永久无障碍设施验收，QB-SF职责说明并非历史工单内容证明。"

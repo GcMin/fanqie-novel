@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 223
+title: "围栏外还有一段回家的路"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "5b45c1c1cd38bf58c9b08cff6c59f3b4d336c95f"
+reader_review: "reader_reviews/0223_5b45c1c1.md"
+timeframe: "Day88 20:18—Day89清晨"
+summary: "Day88第86次夜班20:18严素娟发现桥北高路为保护顾实事发翘板而扩大硬隔离，实际截断轮椅通路，但老指路牌仍称可走，低步道也仍封闭。20:34中心接绿道协查并由有权运营联系无障碍接驳乘客陆芸与同行儿子孟晓东，陆芸本人拒未验证楼梯替代或被人抬轮椅。维护院后勤侧门候选路线涉及作业车、松动沟栅和广场锁桩，22:03先停有关车流并隔离不安全沟栅，22:21获管理方授权准有限双端值守、空轮椅实测后的单次通路。22:35车到有权改变的合法停靠点，22:51陆芸和儿子实际从广场出口到小区南门，未证入户；人员清空后院门禁恢复。00:14管理方撤旧误导高路牌、公告桥北局部断路及低步道继续禁入，运营方暂停未经单独核验的旧无障碍下客点。盖板、顾实费用和永久替代通路仍待后续。"
+meaningful_state_changes:
+  - "陆芸本人同意的有权单次无障碍接驳真实到达小区南门，维护院短窗路线关闭恢复；误导公众指路牌与运营下客提示经权限实际更正，危险高路围隔不解除。"
+knowledge_updates:
+  - "必要的事故围隔造成新的无障碍高路断点，广场侧门、车流及防滑沟栅均需连通实核而非纸面图；一次临时接送成功不保证公共或永久复通。QB-SF旧转送岗位咨询无具体历史来话编号。"
+foreshadowing_updates:
+  - "F003合法历史核证边界不变，F008无新本人记忆冲突，F009/F010/F011 resolved；QB-SF只证收发岗及转送职责，M004/M005仍不确定，无foreshadowing.csv状态提升。"
+relationship_updates:
+  - "陆芸对通行方案有独立同意权、孟晓东没有强行代决定；严素娟在顾实事故后坚持下一位无障碍者的真实安全，宋工不越权撤危险围隔，核心主角信任量化状态不变。"
+ending_state: "Day89清晨桥北危险盖板仍被硬质隔离，原高路局部中断、河岸低步道持续禁入；旧误导提示牌撤换，运营旧桥北下客点暂停未经核验直接使用。陆芸22:51实达小区南门，是否已进住宅未独立证；维护院恢复非公众通道管理，永久替代路线与盖板修复待办。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3186
