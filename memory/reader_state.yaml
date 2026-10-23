@@ -109,3 +109,23 @@ combined_audit_chapter_229_20261023:
   predecessor_ready_blob_sha: "3248d4c39d4e699e1d740a9253aad7bab8abec0d"
   dependency_status: verified_predecessor_body_unchanged
   structural_gate: exact_commit_ci_required
+
+combined_audit_chapter_230_20261023:
+  chapter: 230
+  title: "空置的五零二有人住"
+  source_path: chapters/draft/0230.md
+  source_sha: "f6845b7b9c13f77b223b3aae6674e21f2ab6ca2e"
+  review_path: reader_reviews/0230_f6845b7b.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  content_qa: pass
+  depends_on_chapter: 229
+  declared_predecessor_sha: "2c9de2327d44f4ced040c43a9863a245d6f6e201"
+  predecessor_ready_blob_sha: "59789a258d12195fc0a8ab94fda5c39045b6e783"
+  dependency_status: verified_predecessor_body_unchanged
+  structural_gate: exact_commit_ci_required
