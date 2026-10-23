@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 215
+title: "项圈扫过了，狗还在笼里"
+volume: 6
+arc: ARC-054
+status: audit_candidate
+qa: pass
+reader_gate: pass
+source_sha: "e9127240948fce1e03b94dca14d5f1b4a70d9cfd"
+reader_review: "reader_reviews/0215_e9127240.md"
+timeframe: "Day80 19:27—Day81清晨"
+summary: "许岚的老犬豆皮在西槐桥附近挣断牵引绳走失，虽然Day80 19:27仍在寻找，却收到19:06已由本人领回的误发短信。救助队18:54找到犬、19:01送至协作站，罗佩19:06扫码真实记录站内收容，却被旧电子状态映射成主人实际领回并自动结束本案回拨。20:16第七十八次夜班接XH-218协查，犬仍在C6观察栏；许岚21:09隔窗辨认，身份由登记码照片复核；21:37兽医按权检查左前爪表浅擦伤并给护理单。22:08许岚拒签预填19:06的领回单，站方保留错误版另开真实交接，22:21开栏、22:29实际交到本人并签认。邻居合法接其离站，次晨本人证狗已在家。"
+meaningful_state_changes:
+  - "豆皮从站内临时收容到22:29具名移交真实领回，主人不再被错误短信阻断寻犬；错关回拨恢复后凭本人确认结单，次晨犬安全在家。"
+knowledge_updates:
+  - "犬只入站扫码本次仅证救助队转交协作站，不是饲养人领回；错误原短信、纸单和设备日志保留。犬左前爪浅表擦伤由兽医护理，不由中心代诊。站方当晚人工复核领回，系统正式修复及费用仍待核验，不推断其他犬只案件。"
+foreshadowing_updates:
+  - "F003合法核查边界不变、F008无新具体本人记忆冲突、F009/F010/F011 resolved，M004/M005均未证，foreshadowing.csv现有状态无需更新。"
+relationship_updates:
+  - "许岚拒绝用虚构旧时间签名，信任真正站内核验后取回豆皮；罗佩尊重实际交付程序，兽医独立负责专业检查；周衡和夏宁不越权介入诊疗，核心主角信任不作虚构量化变化。"
+ending_state: "Day81清晨豆皮已在许岚家中喝水休息，左前爪需依护理单观察、旧牵引绳扣损坏待买新绳。错误及更正短信均保留；首车/其他住户等上一章案件的许可状态没有变化，犬只系统正式生产改造未上线。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3359
