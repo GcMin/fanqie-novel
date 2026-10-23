@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 237
-last_reviewed_title: 转接成功的那十四秒
-last_source_path: chapters/draft/0237.md
-last_source_sha: 9557fd89a5073fa9ba6bc0d3a39d75c0925963a0
-last_review_path: reader_reviews/0237_9557fd89.md
+last_reviewed_chapter: 238
+last_reviewed_title: 回拨先找到了接班人
+last_source_path: chapters/draft/0238.md
+last_source_sha: 26e9e7aad8aae7953ffa74c3036f7c87fe5e1297
+last_review_path: reader_reviews/0238_26e9e7aa.md
 last_reviewed_at: "2026-10-24"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -271,4 +271,24 @@ combined_audit_chapter_237_20261024:
   declared_predecessor_sha: "0ee32e813b3aa7d1c598251bd1b05ec5fa8c2241"
   predecessor_ready_blob_sha: "0ee32e813b3aa7d1c598251bd1b05ec5fa8c2241"
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_commit_ci_required
+ 
+combined_audit_chapter_238_20261024:
+  chapter: 238
+  title: "回拨先找到了接班人"
+  source_path: "chapters/draft/0238.md"
+  source_sha: "26e9e7aad8aae7953ffa74c3036f7c87fe5e1297"
+  review_path: "reader_reviews/0238_26e9e7aa.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  content_qa: pass
+  depends_on_chapter: 237
+  declared_predecessor_sha: "9557fd89a5073fa9ba6bc0d3a39d75c0925963a0"
+  predecessor_ready_blob_sha: "affd26f0c0281ae68152c468234373b6dd1b36b6"
+  dependency_status: verified_predecessor_body_unchanged_metadata_only
   structural_gate: exact_commit_ci_required

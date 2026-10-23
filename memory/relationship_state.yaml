@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 237
+last_updated_chapter: 238
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -332,3 +332,9 @@ chapter_237_verified:
   facts: "齐栀劝清洁员安全绕行并寻找真人接报，周衡不碰带电舱门、梁策守公交与临时路径安全、夏宁保全两次漏接与真实受理的不同时间，专业人员各在权限内处理。主要同事信任分值无依据改变。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "齐栀自愿提供拨号记录只限合法相关技术查证，其他来电者没有合法号码时不得擅自识别或虚构回访。"
+ 
+chapter_238_verified:
+  source_sha: "26e9e7aad8aae7953ffa74c3036f7c87fe5e1297"
+  facts: "闻慧坚持昨日拨号事实不可被当成没说明险情；黄师傅以热豆浆车真实通行安全提出异议并在有权验证后自主北行。韩叶听劝纠正卸货道错误绕行提示，唐工拒木条冒险临修；周衡夏宁梁策分别守工况和受理证据。三人互信量化不臆改。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "共享值班室座机记录只能证明来源号码，未经本人确认不能归因给闻慧或任何其它摊主；23:06本人同意回访，旧档私人内文仍禁止擅自查询。"
