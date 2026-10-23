@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 226
+last_updated_chapter: 228
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -267,3 +267,15 @@ chapter_226_verified:
   facts: "秦桂芳拒按未验证封闭辅道追车，何姐带站务核真通路、主动帮助两名旅客，年轻人实际帮提一袋面包而不替年长者决定；中心与公交有权分工明确，主角信任数值不作推定。"
   main_cast_trust_scores_unchanged: true
   no_inferred_outcomes: "公交行车终端蓝勾不代表站台人获通知，真实补接到小区外站点不等于秦桂芳实际入家；历史空表格分栏不代表确有旧实际来话。"
+
+chapter_227_verified:
+  source_sha: "0406ca19bc286b62beec0fe9a71c5a40426e875f"
+  facts: "苏可先观察到袁师傅的敲门并通知陈燕，陈燕选择安全报险与可接真人的联系验证；袁师傅真实脱困后本人向女儿纠正被传成摔伤的误会。中心三人按岗位协作不冒充维保，罗谨守旧档权限。"
+  main_cast_trust_scores_unchanged: true
+  no_inferred_outcomes: "女儿未证明父亲已住院；本夜真人联系一次不担保全时段可达；故障梯仍禁用，QB-SF历史职责未从1996书目进一步确证。"
+
+chapter_228_verified:
+  source_sha: "2b7adcca8f1b3cbdb01f3217cc9c14dbd03f2b19"
+  facts: "许淑芬既保护自家豆腐手推车又为放学孩子报围栏危害，赵诚魏启明用合法备件修护栏而不迁就铁丝；唐卫东等无新关系事实。罗谨严格只复制获准的公开旧手册页，梁策总先核实际危险已控制；主要人物互信不凭一般配合改变数值。"
+  main_cast_trust_scores_unchanged: true
+  no_inferred_outcomes: "许淑芬无伤不等于所有损失已获赔；现代通讯录单项停荐不等于全网改好；公共老册相似字段不证明特殊异常投诉的真实历史来源。"
