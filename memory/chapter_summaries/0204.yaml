@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 204
+title: "没打通的电话，算她爽约"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "932815e969325d55a3e12802326ffbe302a01c17"
+reader_review: "reader_reviews/0204_932815e9.md"
+timeframe: "Day69 20:03—Day70早班"
+summary: "杜苒前夜QJ-238无人有效拨通、无真实派车到场凭据，却被错误记为本人未赴约，影响次单QJ-246；前夜23:06留言也不是事前取消。有权复核撤销旧单失约限制，费用另查。QJ-246在本人确认与安全核车后21:46实际登车、22:27独立安全离车，双席当夜20:00实到。"
+meaningful_state_changes:
+  - "杜苒前夜QJ-238无人有效拨通、无真实派车到场凭据，却被错误记为本人未赴约，影响次单QJ-246；前夜23:06留言也不是事前取消。有权复核撤销旧单失约限制，费用另查。QJ-246在本人确认与安全核车后21:46实际登车、22:27独立安全离车，双席当夜20:00实到。"
+knowledge_updates:
+  - "QJ-238费用仍待账务核实，隔离状态拆分不等于生产新版部署；不得假设杜苒未候车。"
+foreshadowing_updates:
+  - "F003合法证据窄查边界不变；F008无新本人记忆冲突样本；F009/F010/F011 resolved；M004/M005未证。"
+relationship_updates:
+  - "主角协作仍按职权分层，信任分值无可量化变化；不凭系统绿字推定乘客满意。"
+ending_state: "杜苒前夜QJ-238无人有效拨通、无真实派车到场凭据，却被错误记为本人未赴约，影响次单QJ-246；前夜23:06留言也不是事前取消。有权复核撤销旧单失约限制，费用另查。QJ-246在本人确认与安全核车后21:46实际登车、22:27独立安全离车，双席当夜20:00实到。 QJ-238费用仍待账务核实，隔离状态拆分不等于生产新版部署；不得假设杜苒未候车。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3312

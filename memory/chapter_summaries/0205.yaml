@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 205
+title: "退款成功，钱却从没扣过"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "ddbf4966b4f2c9b8e79a5c6ab4d5c4cff0e1483c"
+reader_review: "reader_reviews/0205_ddbf4966.md"
+timeframe: "Day70 20:11—Day71早班"
+summary: "杜苒收到QJ-238退款成功18元通知，实际仅有18元待清算候选费及内部冲正，银行外部收款和退款均0。另一旧权益批处理未读到争议解除，误占一次优惠乘次；22:18经有权复核撤占，22:26业务与本人终端证实一次乘次恢复。QJ-246此前真实服务不改，周末预约此时仍未提交。"
+meaningful_state_changes:
+  - "杜苒收到QJ-238退款成功18元通知，实际仅有18元待清算候选费及内部冲正，银行外部收款和退款均0。另一旧权益批处理未读到争议解除，误占一次优惠乘次；22:18经有权复核撤占，22:26业务与本人终端证实一次乘次恢复。QJ-246此前真实服务不改，周末预约此时仍未提交。"
+knowledge_updates:
+  - "未发生真实退款；通知模板、跨月历史回归及生产发布未修复，未来周末接送未获承诺。"
+foreshadowing_updates:
+  - "F003合法证据窄查边界不变；F008无新本人记忆冲突样本；F009/F010/F011 resolved；M004/M005未证。"
+relationship_updates:
+  - "主角协作仍按职权分层，信任分值无可量化变化；不凭系统绿字推定乘客满意。"
+ending_state: "杜苒收到QJ-238退款成功18元通知，实际仅有18元待清算候选费及内部冲正，银行外部收款和退款均0。另一旧权益批处理未读到争议解除，误占一次优惠乘次；22:18经有权复核撤占，22:26业务与本人终端证实一次乘次恢复。QJ-246此前真实服务不改，周末预约此时仍未提交。 未发生真实退款；通知模板、跨月历史回归及生产发布未修复，未来周末接送未获承诺。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 2955

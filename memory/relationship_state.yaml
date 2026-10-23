@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 202
+last_updated_chapter: 207
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -127,4 +127,29 @@ chapter_201_verified:
 chapter_202_verified:
   source_sha: "d234b50814199c415b3402eadef4829445ecbf5b"
   parties: "当事人本次本人意愿、授权、司机与有权机构的交接分别留凭，不能凭界面推断满意。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_203_verified:
+  source_sha: "132549f9e214340675d7103453f1fd8f1816bf2a"
+  boundaries: "鲁桐正常休息不算失职，杜苒真实意愿与旧联系人魏岚、司机石应明及有权岗位分别有据；不推断未确认代授权或满意。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_204_verified:
+  source_sha: "932815e969325d55a3e12802326ffbe302a01c17"
+  boundaries: "鲁桐正常休息不算失职，杜苒真实意愿与旧联系人魏岚、司机石应明及有权岗位分别有据；不推断未确认代授权或满意。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_205_verified:
+  source_sha: "ddbf4966b4f2c9b8e79a5c6ab4d5c4cff0e1483c"
+  boundaries: "鲁桐正常休息不算失职，杜苒真实意愿与旧联系人魏岚、司机石应明及有权岗位分别有据；不推断未确认代授权或满意。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_206_verified:
+  source_sha: "1dcc4182c35987bb78432406214623c86b52c6a2"
+  boundaries: "鲁桐正常休息不算失职，杜苒真实意愿与旧联系人魏岚、司机石应明及有权岗位分别有据；不推断未确认代授权或满意。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_207_verified:
+  source_sha: "65eaa3fa2d62477789c8e0b1b2fc29b97e9dc15c"
+  boundaries: "鲁桐正常休息不算失职，杜苒真实意愿与旧联系人魏岚、司机石应明及有权岗位分别有据；不推断未确认代授权或满意。"
   main_cast_trust_scores_unchanged: true

@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 207
+title: "卡扣没锁住，谁也不能发车"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "65eaa3fa2d62477789c8e0b1b2fc29b97e9dc15c"
+reader_review: "reader_reviews/0207_65eaa3fa.md"
+timeframe: "Day72 20:04—Day73早班"
+summary: "QJ-259原无障碍车真实到场，但石应明空载检查发现右后固定锁扣不能稳定咬合，原车正式停止载客。杜苒拒绝未经核定绑带或不合适私车替代，选择等合规车并压缩课程；有权调度核准备用车21:06到场、21:13登车、21:36少年宫西侧落客、21:43到课。原车仍停运待专业检修。"
+meaningful_state_changes:
+  - "QJ-259原无障碍车真实到场，但石应明空载检查发现右后固定锁扣不能稳定咬合，原车正式停止载客。杜苒拒绝未经核定绑带或不合适私车替代，选择等合规车并压缩课程；有权调度核准备用车21:06到场、21:13登车、21:36少年宫西侧落客、21:43到课。原车仍停运待专业检修。"
+knowledge_updates:
+  - "原车真实到场不是乘客实际接车；隐私旧短信已发不能追回，不能凭本单后续未外发推定全平台联系人修复。"
+foreshadowing_updates:
+  - "F003合法证据窄查边界不变；F008无新本人记忆冲突样本；F009/F010/F011 resolved；M004/M005未证。"
+relationship_updates:
+  - "主角协作仍按职权分层，信任分值无可量化变化；不凭系统绿字推定乘客满意。"
+ending_state: "QJ-259原无障碍车真实到场，但石应明空载检查发现右后固定锁扣不能稳定咬合，原车正式停止载客。杜苒拒绝未经核定绑带或不合适私车替代，选择等合规车并压缩课程；有权调度核准备用车21:06到场、21:13登车、21:36少年宫西侧落客、21:43到课。原车仍停运待专业检修。 原车真实到场不是乘客实际接车；隐私旧短信已发不能追回，不能凭本单后续未外发推定全平台联系人修复。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3286

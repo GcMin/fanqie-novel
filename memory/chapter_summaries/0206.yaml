@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 206
+title: "短信发给了已经删掉的人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "1dcc4182c35987bb78432406214623c86b52c6a2"
+reader_review: "reader_reviews/0206_1dcc4182.md"
+timeframe: "Day71 20:16—Day72早班"
+summary: "杜苒在Day71白天新建周末QJ-259预约，目前待派车；旧同事魏岚的通知授权九个月前已撤销，独立历史常用路线模板却保留旧联系人，误外送本次一条提醒，无法追回。另一条待发提醒22:02得到有权停止且网关回执核实，杜苒保留原预约；隔离修正按模板与本次有效授权分层。"
+meaningful_state_changes:
+  - "杜苒在Day71白天新建周末QJ-259预约，目前待派车；旧同事魏岚的通知授权九个月前已撤销，独立历史常用路线模板却保留旧联系人，误外送本次一条提醒，无法追回。另一条待发提醒22:02得到有权停止且网关回执核实，杜苒保留原预约；隔离修正按模板与本次有效授权分层。"
+knowledge_updates:
+  - "已发隐私泄漏未消除，整体旧模板影响与生产更新未查完；本章QJ-259没有接车送达，许老师也不获得私人代理权限。"
+foreshadowing_updates:
+  - "F003合法证据窄查边界不变；F008无新本人记忆冲突样本；F009/F010/F011 resolved；M004/M005未证。"
+relationship_updates:
+  - "主角协作仍按职权分层，信任分值无可量化变化；不凭系统绿字推定乘客满意。"
+ending_state: "杜苒在Day71白天新建周末QJ-259预约，目前待派车；旧同事魏岚的通知授权九个月前已撤销，独立历史常用路线模板却保留旧联系人，误外送本次一条提醒，无法追回。另一条待发提醒22:02得到有权停止且网关回执核实，杜苒保留原预约；隔离修正按模板与本次有效授权分层。 已发隐私泄漏未消除，整体旧模板影响与生产更新未查完；本章QJ-259没有接车送达，许老师也不获得私人代理权限。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3200

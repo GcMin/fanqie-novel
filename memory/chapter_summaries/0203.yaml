@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 203
+title: "第二个值班席，今晚没人坐"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "132549f9e214340675d7103453f1fd8f1816bf2a"
+reader_review: "reader_reviews/0203_132549f9.md"
+timeframe: "Day68 20:19—Day69早班"
+summary: "运营排班模板误用了尚未批准的候选减席配置，第二席鲁桐依正常休息通知未到岗，在线账户不等于有人在席。21:22运营主管有权临时接管，陈朔22:47真正到第二席；QJ-231谭絮由合规备用车21:58登车22:33实际离车，原车设备故障仍停运。QJ-233仅核了车牌不算新接车。"
+meaningful_state_changes:
+  - "运营排班模板误用了尚未批准的候选减席配置，第二席鲁桐依正常休息通知未到岗，在线账户不等于有人在席。21:22运营主管有权临时接管，陈朔22:47真正到第二席；QJ-231谭絮由合规备用车21:58登车22:33实际离车，原车设备故障仍停运。QJ-233仅核了车牌不算新接车。"
+knowledge_updates:
+  - "双席三班续岗签发，但候选上线、减席审批未完成，不能据错误模板追责鲁桐或虚报所有队列履约。"
+foreshadowing_updates:
+  - "F003合法证据窄查边界不变；F008无新本人记忆冲突样本；F009/F010/F011 resolved；M004/M005未证。"
+relationship_updates:
+  - "主角协作仍按职权分层，信任分值无可量化变化；不凭系统绿字推定乘客满意。"
+ending_state: "运营排班模板误用了尚未批准的候选减席配置，第二席鲁桐依正常休息通知未到岗，在线账户不等于有人在席。21:22运营主管有权临时接管，陈朔22:47真正到第二席；QJ-231谭絮由合规备用车21:58登车22:33实际离车，原车设备故障仍停运。QJ-233仅核了车牌不算新接车。 双席三班续岗签发，但候选上线、减席审批未完成，不能据错误模板追责鲁桐或虚报所有队列履约。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3170
