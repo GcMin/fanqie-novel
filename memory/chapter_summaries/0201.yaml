@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 201
+title: "大门签了字，人还在车上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "c5f1dee9f693fb580b0f1393032e104c70555322"
+reader_review: "reader_reviews/0201_c5f1dee9.md"
+timeframe: "Day66 20:56—Day67早班"
+summary: "QJ-204阮镜秋所在车辆20:56门岗扫码放行被错误算机构接收，实际人尚在车上；许玟21:21到场、21:34完成照护交接，04:05运营正式更正旧误标。其他候客依独立新派单续接，隔离两类样例验证按预约要求区分是否需要机构签收。"
+meaningful_state_changes:
+  - "QJ-204阮镜秋所在车辆20:56门岗扫码放行被错误算机构接收，实际人尚在车上；许玟21:21到场、21:34完成照护交接，04:05运营正式更正旧误标。其他候客依独立新派单续接，隔离两类样例验证按预约要求区分是否需要机构签收。"
+knowledge_updates:
+  - "门岗开门不等于乘客送达，不能对所有独立出行者强制机构签收；生产版本未部署。"
+foreshadowing_updates:
+  - "F003合法证据窄查边界不变；F008无新样本；F009/F010/F011 resolved；M004/M005未获确证。"
+relationship_updates:
+  - "主角按职权协作，未产生足以改变信任分值的新事实；乘客本次意愿独立留痕。"
+ending_state: "QJ-204阮镜秋所在车辆20:56门岗扫码放行被错误算机构接收，实际人尚在车上；许玟21:21到场、21:34完成照护交接，04:05运营正式更正旧误标。其他候客依独立新派单续接，隔离两类样例验证按预约要求区分是否需要机构签收。 门岗开门不等于乘客送达，不能对所有独立出行者强制机构签收；生产版本未部署。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3286

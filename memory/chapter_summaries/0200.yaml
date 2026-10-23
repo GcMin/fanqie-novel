@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 200
+title: "车开到一半，她不去正门了"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "d2d4a99dabed82ccf7bac1338a677932f3f762e3"
+reader_review: "reader_reviews/0200_d2d4a99d.md"
+timeframe: "Day65 20时后—Day66早班"
+summary: "丁芷兰QJ-191在车上，南门升降平台故障，物业和运营分开核验西侧无障碍通行与合法停靠；21:42获正式改派、21:56车辆停妥、22:08实际西侧安全交接。"
+meaningful_state_changes:
+  - "丁芷兰QJ-191在车上，南门升降平台故障，物业和运营分开核验西侧无障碍通行与合法停靠；21:42获正式改派、21:56车辆停妥、22:08实际西侧安全交接。"
+knowledge_updates:
+  - "本单在途改变不得套用前夜未启程撤回；旧版隔离测试仍存在失败，生产未上线。"
+foreshadowing_updates:
+  - "F003合法证据窄查边界不变；F008无新样本；F009/F010/F011 resolved；M004/M005未获确证。"
+relationship_updates:
+  - "主角按职权协作，未产生足以改变信任分值的新事实；乘客本次意愿独立留痕。"
+ending_state: "丁芷兰QJ-191在车上，南门升降平台故障，物业和运营分开核验西侧无障碍通行与合法停靠；21:42获正式改派、21:56车辆停妥、22:08实际西侧安全交接。 本单在途改变不得套用前夜未启程撤回；旧版隔离测试仍存在失败，生产未上线。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3312

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 197
+last_updated_chapter: 202
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -103,3 +103,28 @@ chapter_197_verified:
   main_cast: "周衡、梁策、夏宁坚持证据层级与安全优先，主角彼此的信任分值不改。"
   customer_and_service: "何树根坚持在车实际到场前安全室内候车并明确本次意愿，女儿何静只按已登记授权确认本趟；卢萍不越权替老人或家属确认，运营主管签字恢复人工席。"
   do_not_infer: "实际送达不等于自动确认正确、乘客满意或运营免责；误通知纠正不等于技术根因最终认定。"
+
+chapter_198_verified:
+  source_sha: "08b1666e315a642f5a031884e84971bab8579f14"
+  parties: "当事人本次本人意愿、授权、司机与有权机构的交接分别留凭，不能凭界面推断满意。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_199_verified:
+  source_sha: "bd912c160d9ecf3234b51ea0fadf9c485343568b"
+  parties: "当事人本次本人意愿、授权、司机与有权机构的交接分别留凭，不能凭界面推断满意。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_200_verified:
+  source_sha: "d2d4a99dabed82ccf7bac1338a677932f3f762e3"
+  parties: "当事人本次本人意愿、授权、司机与有权机构的交接分别留凭，不能凭界面推断满意。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_201_verified:
+  source_sha: "c5f1dee9f693fb580b0f1393032e104c70555322"
+  parties: "当事人本次本人意愿、授权、司机与有权机构的交接分别留凭，不能凭界面推断满意。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_202_verified:
+  source_sha: "d234b50814199c415b3402eadef4829445ecbf5b"
+  parties: "当事人本次本人意愿、授权、司机与有权机构的交接分别留凭，不能凭界面推断满意。"
+  main_cast_trust_scores_unchanged: true

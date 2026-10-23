@@ -1,0 +1,24 @@
+schema_version: 1
+chapter: 198
+title: "回滚表上少了一个人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "08b1666e315a642f5a031884e84971bab8579f14"
+reader_review: "reader_reviews/0198_08b1666e.md"
+timeframe: "Day63 20:14—Day64早班"
+summary: "QJ-T09模拟回退已接车误显待联系，产生重复模拟联系；调整基于预约号和履约状态的限定四状态复测通过。真实郑玉梅QJ-171于22:01接车22:46到家，姚拒签未验证的回滚表，两临时人工席续岗有据。"
+meaningful_state_changes:
+  - "QJ-T09模拟回退已接车误显待联系，产生重复模拟联系；调整基于预约号和履约状态的限定四状态复测通过。真实郑玉梅QJ-171于22:01接车22:46到家，姚拒签未验证的回滚表，两临时人工席续岗有据。"
+knowledge_updates:
+  - "真实生产迁移、回退、权限复核及上线审批未完成，不能把模拟结果当真人受影响。"
+foreshadowing_updates:
+  - "F003合法证据窄查边界不变；F008无新样本；F009/F010/F011 resolved；M004/M005未获确证。"
+relationship_updates:
+  - "主角按职权协作，未产生足以改变信任分值的新事实；乘客本次意愿独立留痕。"
+ending_state: "QJ-T09模拟回退已接车误显待联系，产生重复模拟联系；调整基于预约号和履约状态的限定四状态复测通过。真实郑玉梅QJ-171于22:01接车22:46到家，姚拒签未验证的回滚表，两临时人工席续岗有据。 真实生产迁移、回退、权限复核及上线审批未完成，不能把模拟结果当真人受影响。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3390
