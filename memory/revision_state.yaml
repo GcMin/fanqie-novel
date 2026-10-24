@@ -1,13 +1,13 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 245
+current_chapter: 246
 current_stage: ready
-current_source_path: chapters/ready/0245.md
-current_source_sha: c2c6e27004dd69dffd7a7ddfeb3885ff8359e5e4
-current_review_path: reader_reviews/0245_c2c6e270.md
+current_source_path: chapters/ready/0246.md
+current_source_sha: 6819feaf3ac586032680240f8d5849a20689e101
+current_review_path: reader_reviews/0246_6819feaf.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
@@ -15,7 +15,7 @@ next_retry_after: null
 last_action: audit_qa_memory_ready_complete
 last_action_date: 2026-10-24
 last_error: null
-last_diff_summary: "第245章初稿02bb14a5a8b29a6946e3336fedfc93b90f1bbafb双遍Reader 0 BLOCKER/1 MAJOR/2 MINOR；已局部修补原上门合同未履行问题，增加梁桂香先返家、22:05配送员真到家门及22:09本人门口签收，并将前章依赖改为已审244最终ready SHA0de88d3365a6c852078293af840630a7500434ee。新稿c2c6e27004dd69dffd7a7ddfeb3885ff8359e5e4独立再双遍Reader 0/0/2，Continuity/Style独立QA PASS，本轮局部修订1轮、未改Canon/published，结构须精确候选CI成功。"
+last_diff_summary: "第246章原稿6819feaf3ac586032680240f8d5849a20689e101独立双遍Reader为0 BLOCKER/0 MAJOR/2 MINOR；不修改正文，独立Continuity/Style/Meaningful Change PASS，前章245最终ready blob 5b54a3f3b6c183cefe7896b1e56c10ae8664594c精确匹配。老人21:06专业脱困、Day112 00:44医护家属具名接续，19:22答录机绿回执22:18限单纠正；其他回访、梯段复开仍待核。精确候选CI SUCCESS前不得放行main。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -179,4 +179,17 @@ combined_audit_chapter_245_20261024:
   final_minor_count: 2
   final_stage: reader_and_independent_content_qa_pass
   dependency_verified: "244原稿与最终ready正文逐字一致，245新稿直接绑定244最终ready SHA"
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_246_20261024:
+  chapter: 246
+  source_sha: "6819feaf3ac586032680240f8d5849a20689e101"
+  review: "reader_reviews/0246_6819feaf.md"
+  body_revisions_this_run: 0
+  local_revision_rounds: 0
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  status: reader_and_independent_content_qa_pass
+  predecessor_body: exact_match_final_ready_blob
   structural_gate: exact_commit_CI_required
