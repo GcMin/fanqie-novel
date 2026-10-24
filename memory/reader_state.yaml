@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 243
-last_reviewed_title: 屏幕亮了，授权书还没签
-last_source_path: chapters/draft/0243.md
-last_source_sha: f333870276ba65ff7d4b9ed81c7e2c0075bc54f2
-last_review_path: reader_reviews/0243_f3338702.md
+last_reviewed_chapter: 244
+last_reviewed_title: 照片删了，群里还有一张
+last_source_path: chapters/draft/0244.md
+last_source_sha: 111e7b549eced9ed7b2f0aa42b4597ff8b10d0db
+last_review_path: reader_reviews/0244_111e7b54.md
 last_reviewed_at: "2026-10-24"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,11 +12,11 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 242
-depends_on_source_sha: 2deeb8011bc3c8b5c58de81fc14b9d221755a73a
-dependency_status: verified_previous_source_body_unchanged
-predecessor_current_source_sha: 316709876141c32020811e569ac2d623f8fdb10a
-predecessor_sha_mismatch: true
+depends_on_chapter: 243
+depends_on_source_sha: f961c6e5ecfe95fc2b36ce8f0b52880179cb3625
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: f961c6e5ecfe95fc2b36ce8f0b52880179cb3625
+predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
 upstream_declared_predecessor_sha: c98c2d744636933c645de3677ee9c4b8a2e94a92
@@ -396,5 +396,26 @@ combined_audit_chapter_243_20261024:
   dependency_status: verified_previous_source_body_unchanged
   predecessor_sha_mismatch: true
   predecessor_sha_mismatch_reason: "frontmatter_only; source body identical to final ready body"
+  body_revisions: 0
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_244_20261024:
+  chapter: 244
+  title: "照片删了，群里还有一张"
+  source_path: chapters/draft/0244.md
+  source_sha: "111e7b549eced9ed7b2f0aa42b4597ff8b10d0db"
+  review_path: reader_reviews/0244_111e7b54.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 243
+  depends_on_source_sha: "f961c6e5ecfe95fc2b36ce8f0b52880179cb3625"
+  predecessor_current_ready_blob_sha: "f961c6e5ecfe95fc2b36ce8f0b52880179cb3625"
+  dependency_status: verified_exact_ready_blob
   body_revisions: 0
   structural_gate: exact_commit_CI_required
