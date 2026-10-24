@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 260
+last_updated_chapter: 261
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -477,3 +477,10 @@ chapter_260_relationships:
   facts: "江禾由阻止老人签不可靠旧证明到主动认下这一份图的文字编辑，郭苓支持她承担实际责任但不把全群朋友或未知访客一并定罪；邱只认自己当夜签过的拒访意见，不再替韩证明旧岗缺席；韩与女儿达成不打扰邱而按本人权限查自己资料的具体行动。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "灰衣老人无需留下身份电话，群消息和活动室公告限项纠正，邱本人只收约定页面回告；不公开韩私人簿内页、邱住址及群友名册。"
+
+chapter_261_relationships:
+  chapter: 261
+  source_sha: "6b1e2ae9b6cac73c47be4ce23add1a7c1e763789"
+  facts: "顾珊尊重父亲的安全自主与本夜回家需求，顾永山拒绝让施工者为赶工冒险；屈工面对当夜清移、值守工时与未知费用主动留下责任记录，不虚称以后都有路。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "顾永山仅需当次安全到达核验，无需向施工现场公开病历和完整住址；历史图纸原版本受控保存不对外误导。"

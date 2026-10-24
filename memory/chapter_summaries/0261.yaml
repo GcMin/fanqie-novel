@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 261
+title: "封路通知没画那道门"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "6b1e2ae9b6cac73c47be4ce23add1a7c1e763789"
+reader_review: "reader_reviews/0261_6b1e2ae9.md"
+depends_on_chapter: 260
+depends_on_source_sha: "6a1316ad1c6584839772362f297efd1de784ae3b"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day125 19:52—Day126 01:10，第123次夜班"
+summary: >-
+  Day125 19:52白榆路南侧旧站北口施工封路，顾珊推轮椅父亲顾永山停在安全便利店门廊，西侧公示绕行其实有四级台阶且占道底座；20:06中心受理，20:23街道和施工责任方接续，确认图上可绕行并无真人轮椅实测。20:41东侧平接门受材料和临电边界影响，须施工安全负责人批准并重设隔离。21:02专业核准在不进入开挖面的公共侧移材设置有看守临时通路；21:16初测警示牌擦轮椅扶手即停，重调重新量测及空椅试走后21:32复试、21:37顾家父女真正到有照明沿街人行道。本许可仅当晚至换班，次日是否续开、费用与继续值守待有权答复。22点后街道按权改自身公众错误指向，外部导航平台是否同步仍未证；图纸中出现“旧站北口历史检索，永安里方向”未定位备注，23:08有权方决定现行导向不能自动引用而原始历史版本依档案规则暂留，不得把该词条认成永安里六栋201现址或同源机制。Day126 01:10第123夜班交班，次日真人能否行走仍待核。1996普通照明纸证与韩私人旧簿不互证，F003增加有界检索备注，M004/M005未证。
+meaningful_state_changes:
+  - "顾家父女当夜经专业许可且经实际轮椅复测的新东侧临时通路真正安全到达；工地危险区未开放。"
+  - "西侧错误公众绕行说明被负责管理岗位改正，历史模糊备注退出现行导向但源记录受控保全。"
+  - "次日续行、安全责任、外部平台同步与追加值守费用由具体责任人留待答复。"
+knowledge_updates:
+  - "公众图纸的线条及‘历史检索’备注不能直接证明当前轮椅可通行、历史精确坐标或异常来源。"
+  - "周衡只知道童年路线的一般印象，无可核的旧站与永安里相同物理点位。"
+foreshadowing_updates:
+  - "F003仅新增现时施工纸图有‘永安里方向’待核旧检索文字，不证失址、M004/M005；F008无新独立可靠记忆反证，F009/010/011维持resolved。"
+relationship_updates:
+  - "顾珊争取父亲自主与安全，顾永山明确不愿人为赶工冒险；屈工为修改导行承担当夜工时、次日成本由有权岗位认定。"
+ending_state: "Day126 01:10：父女已安全到达；东侧临时通路只在当夜许可时段内看守开放，西侧台阶和施工危险面不得通行；次日续行、费用与导航同步未结。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 2981
