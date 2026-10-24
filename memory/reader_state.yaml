@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 258
-last_reviewed_title: 多出来的那句批准
-last_source_path: chapters/draft/0258.md
-last_source_sha: f2707537093ca788b11ad97663b0fe036497673b
-last_review_path: reader_reviews/0258_f2707537.md
+last_reviewed_chapter: 259
+last_reviewed_title: 那张图在敲门前出现
+last_source_path: chapters/draft/0259.md
+last_source_sha: b2a14a7b8f95140a08209900134ccc321fae16d4
+last_review_path: reader_reviews/0259_b2a14a7b.md
 last_reviewed_at: "2026-10-25"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 257
-depends_on_source_sha: 48d31f58c7a085f2e6b4040149df8a6d0546aa35
-dependency_status: verified_predecessor_factual_delta_compatible
-predecessor_current_source_sha: 48d31f58c7a085f2e6b4040149df8a6d0546aa35
+depends_on_chapter: 258
+depends_on_source_sha: 0ee4d71e0932d8a1bf981777fd3f0f6cf30917d0
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 0ee4d71e0932d8a1bf981777fd3f0f6cf30917d0
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -652,5 +652,20 @@ combined_audit_chapter_258_20261025:
   predecessor_old_sha: "e9b8219b76713dc18a936d6f68ca12ffb045a375"
   predecessor_ready_sha: "48d31f58c7a085f2e6b4040149df8a6d0546aa35"
   predecessor_delta: "仅九六年口述占位成稿及交付Front Matter改动，核心事实不变"
+  content_qa: pass
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_259_20261025:
+  chapter: 259
+  original_sha: "952ce78137f7e6e3b24829ed372d865a4fe8ba93"
+  original_review: reader_reviews/0259_952ce781.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_local_revision: 1
+  fix: "仅改原标题早两天/章纲至少两天的不精确时长，实际Day120 18:36至Day122 00:58为30小时22分，正文不变"
+  revised_sha: "b2a14a7b8f95140a08209900134ccc321fae16d4"
+  fresh_review: reader_reviews/0259_b2a14a7b.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  predecessor_ready_sha: "0ee4d71e0932d8a1bf981777fd3f0f6cf30917d0"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_commit_CI_required

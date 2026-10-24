@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 258
+last_updated_chapter: 259
 characters:
   zhou_heng:
     knows:
@@ -642,3 +642,10 @@ chapter_258_knowledge:
   authority: "韩只允核自身原发回执，邱本人只提交当日拒访，不能代查他人私簿或发住宅通行许可。"
   predecessor: "257旧草稿的九六年占位被定点修正，00:58拒放行、02:08取消、02:35邱同日签字、03:46中心说明完全未变。"
   canon_boundary: "不能借现代照片两版本不一认定旧道路照明是真实异常来话、历史和现代工单同源或M004/M005已确认。"
+
+chapter_259_knowledge:
+  confirmed: "郭苓本人手机目前显示Day120 18:36收含补签句群图，Day122 22:47在场限定留证；Day123 10:37公交合法核Day117韩予禾指定客服留存附件没有该句。"
+  unresolved: "图像制作者、群平台首次发送时间、Day120群接图到Day122陌生访客之间传播路径、其它设备副本、陌生人是否同一均未核。"
+  authority: "郭本人拒开放群友全员信息，管理员只限一个可管群消息，公交只按本人已授权的指定附件核来源。"
+  predecessor: "前章第258章ready Blob 0ee4d71e0932d8a1bf981777fd3f0f6cf30917d0与第259章依赖完全一致。"
+  canon_boundary: "韩1996年实际签到和旧接话人未知，私人补写22:41不证普通照明两岗位旧纸证同案，F003有限推进，F008无新可靠样本，M004/M005未证。"

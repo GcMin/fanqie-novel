@@ -1,11 +1,11 @@
 schema_version: 1
-last_updated_chapter: 258
-current_time: "Day122晚21:38后，第120次夜班进行中"
+last_updated_chapter: 259
+current_time: "Day123晚20:28后，第121次夜班进行中"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-054_active
-  current_service_case: "陌生人持中心受理回执照片试索旧同事签认未得入院；物业所存图像多了一句不属于中心原发的批准补签文字。"
-  next_entry: "图像制作传播链继续依合法权限查，物业正式访客UI需改；旧夜岗实际出勤和异常机制尚无新确证。"
+  current_service_case: "Day120郭苓本人手机较早收到含补签句群图；Day117韩予禾特定公交客服附件未含该句，Day122访客出示图传播中段不明。"
+  next_entry: "按权限核图像传播与制作来源，不将群昵称认真名或单份公交旧附件认全网原版；物业正式UI纠错和专业危险设施复开仍待办。"
 case_state:
   chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
 invariants:
@@ -665,3 +665,12 @@ chapter_258_world:
   unresolved: "谁增字、图片传播范围、其它私人手机副本、访客系统正式UI纠错未知。"
   public_safety: "原申请从未成为住宅合法通行许可；专业封控险段继续待复检。"
   canon_boundary: "F003只增现代风险已核范围，F008无新样本，M004/M005未证。"
+
+chapter_259_world:
+  chapter: 259
+  place: "北栎路四号院门岗/18路公交站/夜间服务中心/韩家"
+  verified: "Day122 22:47郭本人设备显示Day120 18:36群图已含增字受限记录；Day123 10:37公交按权限核Day117本人的特定客服附件无增字；群里仅一条可控消息受限。"
+  unresolved: "图像原始编辑与上传、群用户/访客身份、各中间转发节点及外部手机副本未知；物业正式材料分类UI仍待修。"
+  material_custody: "私人簿继续由韩本人持有，不向群里传播内页；公交本次核的是合法保留旧附件而非整批私人聊天。"
+  public_safety: "未获准门岗访客从未入院，邱本人拒访有效；南栖西坡、东衡近水栏无正式专业复开。"
+  canon_boundary: "当代回执文字版本差异不证1996旧异常与现行制度同源，F003有界推进、F008无新样本，M004/M005未确认。"

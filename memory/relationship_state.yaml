@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 258
+last_updated_chapter: 259
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -463,3 +463,10 @@ chapter_258_relationships:
   facts: "高勤保护值守员误选证据，邱坚持不接受替她写‘伪造’定性而要有限告知；韩只授权核自己原回执。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "邱Day122凌晨本人签拒访，晚间复看是同日，家人不代其签旧案证言或公开住址。"
+
+chapter_259_relationships:
+  chapter: 259
+  source_sha: "b2a14a7b8f95140a08209900134ccc321fae16d4"
+  facts: "郭苓帮助阻止索签但坚持保护旧街群无辜成员，只提供自己的限项手机消息；韩予禾承认给正规公交客服发过特定附件却不替后来不明图像负责；韩文舟不以旧簿逼邱素英作记忆不可靠的1996缺席证明。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "郭只同意遮挡第三人头像和群成员信息的限定记录，公交仅出具本人指定附件核对，邱Day122凌晨本人拒访继续有效。"

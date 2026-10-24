@@ -1,0 +1,42 @@
+schema_version: 1
+chapter: 259
+title: "那张图在敲门前出现"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "b2a14a7b8f95140a08209900134ccc321fae16d4"
+original_draft_source_sha: "952ce78137f7e6e3b24829ed372d865a4fe8ba93"
+reader_review: "reader_reviews/0259_b2a14a7b.md"
+prior_review: "reader_reviews/0259_952ce781.md"
+depends_on_chapter: 258
+depends_on_source_sha: "0ee4d71e0932d8a1bf981777fd3f0f6cf30917d0"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day122 22:12—Day123 20:28，第121次夜班初段"
+summary: >-
+  Day122 22:12北栎路四号院郭苓向高勤自愿展示旧街资料群图，本人手机当前显示Day120 18:36已收到含有“凭中心受理编号可联系原岗位见证人补办缺席签认”句子的图，早于Day122 00:58未经批准来访者索签约30小时22分，并非已证群内首发或制作时间。22:47本人在场有限核验，保护群成员身份。她不转发原图而在群里发合规则提醒，管理员只按权暂限一条消息，并不声称外部副本全删。Day123 10:37公交方按韩予禾本人许可核其Day117向18路失物客服上传的那份中心受理附件没有上述新增文字；这只证明指定留存版本，不证后来图像制作者或从公交向访客的传播路径。韩文舟不以私人旧簿和无日期永安里页在群里招募旧同事证明1996缺席；邱Day122凌晨自主拒访有效。Day123 20:28第121次夜班周衡夏宁分列Day117无字公交版本、Day120郭设备有字接收显示、Day122门岗访客图片，不虚构中间传播实线；物业正式访客UI整改及图片编辑者仍待核，南栖西坡与东衡近水段无专业复开。F003仅当代受控记录有界推进、F008无新可靠记忆反证、M004/M005未证，1996官方普通照明旧22:41/次日08:07与韩私人事后补写22:41并非已证同案。
+meaningful_state_changes:
+  - "新增郭本人手机Day120 18:36接收含增字群图的限定记录，早于Day122到门约30小时22分。"
+  - "Day117韩予禾公交特定旧失物客服附件依法核实不含补签语句，不推作任何人编辑或转发源。"
+  - "郭自行发无图群提醒，管理员仅限制单条消息而非全网删除。"
+knowledge_updates:
+  - "本人手机显示接收时间不等于服务器原始首次发送时间，不可将郭写成制作者或必然转发者。"
+  - "特定公交无增字附件仅证明一个合法保管版本，不证明全部后续手机及图像编辑者。"
+foreshadowing_updates:
+  - "F003添当代有限传播节点；F008无具体亲历记忆矛盾新样本，M004/M005未确证。"
+relationship_updates:
+  - "郭苓兼顾保护老街群与维护居民不被索签的自主权；韩父女各认自己已证行动，不迫邱签旧历史，主角信任分数无据不改。"
+ending_state: "Day123第121次夜班：三源节点仍无直接传播链，邱本人拒访、两处险段封闭、物业UI修复及1996史料缺口未变。"
+revision_trace:
+  original_source_sha: "952ce78137f7e6e3b24829ed372d865a4fe8ba93"
+  initial_reader: "reader_reviews/0259_952ce781.md"
+  initial_majors: 1
+  final_source_sha: "b2a14a7b8f95140a08209900134ccc321fae16d4"
+  final_reader: "reader_reviews/0259_b2a14a7b.md"
+  final_majors: 0
+  local_revision_rounds: 1
+  fix: "只更正标题与章纲时间表达，正文不变"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3394
