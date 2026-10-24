@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 253
+title: "先到的人没带委托书"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "6cf2eb7085a52b38e24447cdacba9e1359890086"
+reader_review: "reader_reviews/0253_6cf2eb70.md"
+depends_on_chapter: 252
+depends_on_source_sha: "29784d55e995085f9b341e2e005ab317499f99b0"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day118 08:22—Day119 01:06，第116次夜班"
+summary: >-
+  Day118早晨18路终点站，一名自称旧街资料志愿者者拿中心有限受理回执照片要求代管韩文舟的旧簿，却无本人书面授权；08:22韩文舟与女儿韩予禾到场，公交岗位依合法身份和封袋外观核对，08:56老人本人真正领回零六号簿，女儿没有代签，陌生者未取得实物，照片传播的来源与其它副本仍未知。面馆中韩本人认出私簿22:41时间是多年后由自己补写，所据散纸与年月不详，自行在昨夜回执背面留下限定更正，没涂改旧簿。19:43公交正式说明领回和冒领风险两种不同事项；20:09韩本人经有权渠道追加有限自述，中心保留原版、明确不是笔迹年代鉴定，21:27馆方只回复合法咨询路径。Day119 01:06第116次夜班交班：旧簿归韩本人，私人22:41书写时间证据力下降；1996普通照明原官方岗位22:41/次日08:07收讫两纸证不受影响，永安里无日期词条仍未确认，M004/M005未证。
+meaningful_state_changes:
+  - "旧簿从公交站务合法保管到Day118 08:56本人实际领取；无授权代管没有成功。"
+  - "韩本人亲自确认旧簿22:41系后补，书面限定更正与旧版并存，家庭由催促转向支持其自行纠错。"
+knowledge_updates:
+  - "陌生志愿者仅持中心回执图，无合法代领权；传播渠道和动机不得无据归罪客服。"
+  - "韩私人手记22:41为后补但原纸来源、补写年不明；1996普通照明旧官方岗位证据不变。"
+foreshadowing_updates:
+  - "F003增加新可核本人自述且降低私人时间条目独立证明力；F008无新样本、M004/M005未确证。"
+relationship_updates:
+  - "韩予禾陪同不代签且停止随意拍内页，韩文舟主动改正自己笔记，父女信任形成真实行动。"
+ending_state: "Day119 01:06第116次夜班交接：旧簿已归本人，补记说明受控留证，照片流向、补写所据散纸和私页永安里来源待核；西坡继续封禁。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3048

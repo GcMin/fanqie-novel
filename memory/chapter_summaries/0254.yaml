@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 254
+title: "那晚的值班表上写着轮休"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "42511e9e6e2d76477c927a2629ba39650e27fc0f"
+original_source_sha: "cc3fa8be2389441f9aeece24fd569208ffb27a8c"
+reader_review: "reader_reviews/0254_42511e9e.md"
+initial_reader_review: "reader_reviews/0254_cc3fa8be.md"
+revision_stage: "local_revision_1_then_new_sha_pass_a_and_pass_b"
+depends_on_chapter: 253
+depends_on_source_sha: "1424822256cdf55b056814c824d87b83c9e19d05"
+dependency_status: verified_exact_ready_blob_with_previous_draft_body_unchanged
+timeframe: "Day119 09:37—Day120 01:14，第117次夜班"
+summary: >-
+  Day119韩文舟和韩予禾在档案馆按权申请本人旧岗位用工与有限预排班事项，09:37合法登记，10:04得有可定位来源的1995秋至1997春旧夜间联络岗位本人用工记录；1996-06-17预排班标韩轮休、未排当晚接话席，但预排本身不记载实际签到，亦不排除临时顶班。11:28仅领取遮挡其他职员隐私的本人摘录，目录虽有实际交接/补班类别，特定日资料存否及许可仍未证。午饭时韩在此前22:41事后补记说明上新增“预排轮休、实际是否在岗未知”并保原始私人笔迹，夜间19:52自愿按受控渠道递交，夏宁20:36将公档来源与其本人陈述分列和保全旧版。Day120 01:14第117次夜班交班，老人有独立合法的旧岗位工作证明，却不再把1996-06-17直接说成自己亲历；后续仅可申请本人可公开的实际签到来源。陌生人回执照传播仍待核，南栖西坡未复开，历史异常来话、旧机制与M004/M005均未确证。
+meaningful_state_changes:
+  - "1995秋—1997春韩文舟旧岗工作经历获得有权独立来源证实；1996-06-17预排轮休的证据等级明确。"
+  - "韩与女儿共同接受单日亲历未证，并将下一步查询收窄到本人实际到岗、临时替班。"
+knowledge_updates:
+  - "预排轮休并不意味着没有当日实际签到；没有该日实际签到的获批原记录或全部调班事实。"
+  - "1996普通道路照明旧22:41/次日08:07纸证独立有效，不证明韩本人参与、失址异常或旧现代制度同源。"
+foreshadowing_updates:
+  - "F003加入独立个人用工与预排轮休有限来源，不能从私人补记加证旧异常；F008无新本人事件反证，M004/M005未证。"
+relationship_updates:
+  - "韩予禾不将一晚证据空缺否认父亲两年工作，韩文舟主动请求更窄查证；周衡夏宁保持证据来源、权限界限。"
+ending_state: "Day120 01:14第117次夜班交班；韩持旧簿与合法脱敏排班摘录、真实某日交接人未知；照片来源、西坡修复和旧案同笔均待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3140

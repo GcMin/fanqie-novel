@@ -28,4 +28,6 @@
 - forbidden_leaks: 不公开旧排班表其他人身份/病休原因，不把韩预排轮休写成绝无临时上岗，不以本人签名证明他亲自接22:41普通照明，不视陌生代领者为获授权或认定其泄漏渠道，不让档案窗口越权开放整册。
 - ending: Day120 01:14夜班交班，韩本人新排班来源真正受控补充且与私人原始自述并存；实际顶班及当年电话来话仍未知，下一步仅能依法申请具体本人字段。
 - target_body_effective_chars: 2600–3400（硬限2300–3800）
-- actual_body_effective_chars: 3125
+- original_draft_body_effective_chars: 3125
+- actual_body_effective_chars: 3140
+- audit_revision: 10:04预排表没有夜班签到的证据来源越级已Stage A局部纠正为预排轮休且实际签到未载；原draft SHA cc3fa8be；修后draft SHA 42511e9e；新SHA独立Reader 0/0/2，最终依赖253 ready SHA 14248222 精确匹配。

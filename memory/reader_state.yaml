@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 252
-last_reviewed_title: 终点站保管着半本旧簿
-last_source_path: chapters/draft/0252.md
-last_source_sha: 249c7bbb2056e796e4de3bae4d6a49ff6720fdb0
-last_review_path: reader_reviews/0252_249c7bbb.md
+last_reviewed_chapter: 254
+last_reviewed_title: 那晚的值班表上写着轮休
+last_source_path: chapters/draft/0254.md
+last_source_sha: 42511e9e6e2d76477c927a2629ba39650e27fc0f
+last_review_path: reader_reviews/0254_42511e9e.md
 last_reviewed_at: "2026-10-24"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 251
-depends_on_source_sha: 1bb8d45aef5eeb0b67a04e6f1f6596c7d0269910
+depends_on_chapter: 253
+depends_on_source_sha: 1424822256cdf55b056814c824d87b83c9e19d05
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 1bb8d45aef5eeb0b67a04e6f1f6596c7d0269910
+predecessor_current_source_sha: 1424822256cdf55b056814c824d87b83c9e19d05
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -577,5 +577,28 @@ combined_audit_chapter_252_20261024:
   body_revisions: 0
   predecessor_ready_sha: "1bb8d45aef5eeb0b67a04e6f1f6596c7d0269910"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_253_20261024:
+  chapter: 253
+  source_sha: "6cf2eb7085a52b38e24447cdacba9e1359890086"
+  review: reader_reviews/0253_6cf2eb70.md
+  reader: {blocker: 0, major: 0, minor: 2}
+  predecessor_ready_sha: "29784d55e995085f9b341e2e005ab317499f99b0"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_commit_CI_required
+combined_audit_chapter_254_20261024:
+  chapter: 254
+  original_sha: "cc3fa8be2389441f9aeece24fd569208ffb27a8c"
+  initial_review: reader_reviews/0254_cc3fa8be.md
+  initial_reader: {blocker: 0, major: 1, minor: 2}
+  stage_a_local_revision: 1
+  source_sha: "42511e9e6e2d76477c927a2629ba39650e27fc0f"
+  new_sha_review: reader_reviews/0254_42511e9e.md
+  reader: {blocker: 0, major: 0, minor: 2}
+  predecessor_ready_sha: "1424822256cdf55b056814c824d87b83c9e19d05"
+  predecessor_factual_delta: "253旧draft和ready正文完全相同，只是Front Matter放行字段变化"
   content_qa: pass
   structural_gate: exact_commit_CI_required

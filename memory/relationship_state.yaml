@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 252
+last_updated_chapter: 254
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -425,3 +425,16 @@ chapter_252_relationships:
   facts: "韩予禾误转陈述回执图给公交客服，承认并促使依法控图；韩文舟决定次日亲自合法领簿，她只陪同不代签，父女在隐私与自主权上达成具体配合。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "公交只传最小可能匹配通知，旧簿内页/电话号码不用于大群识别，未知手机副本不宣称已收回。"
+
+chapter_253_relationships:
+  chapter: 253
+  source_sha: "6cf2eb7085a52b38e24447cdacba9e1359890086"
+  facts: "韩予禾只陪同父亲亲自领簿不代签，不再随意拍私人页；韩文舟主动承认私人22:41后补并亲笔更正，父女信任改善。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "回执图外流来源未核，不公开私人簿内页或第三方旧电话号码。"
+chapter_254_relationships:
+  chapter: 254
+  source_sha: "42511e9e6e2d76477c927a2629ba39650e27fc0f"
+  facts: "韩予禾与父亲共同接受旧岗工作真实而特定晚实际签到未证；父亲不再用记忆补结论，改为自主收窄下一次申请。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "只查本人合法字段并取得脱敏副本，不向公众展示他人职工和旧电话号码。"

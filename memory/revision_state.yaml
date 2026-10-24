@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 252
+current_chapter: 254
 current_stage: ready
-current_source_path: chapters/ready/0252.md
-current_source_sha: 249c7bbb2056e796e4de3bae4d6a49ff6720fdb0
-current_review_path: reader_reviews/0252_249c7bbb.md
+current_source_path: chapters/ready/0254.md
+current_source_sha: 42511e9e6e2d76477c927a2629ba39650e27fc0f
+current_review_path: reader_reviews/0254_42511e9e.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_qa_memory_ready_complete
+last_action: audit_revision_new_sha_review_qa_memory_ready_complete
 last_action_date: 2026-10-24
 last_error: null
-last_diff_summary: "252原稿无BLOCKER/MAJOR，新SHA 249c7bbb 独立双遍Reader 0/0/2，无修订；前章251 ready SHA完全匹配，公交旧簿22:08才真实内部签收、本人尚未领取；结构须精确候选CI。"
+last_diff_summary: "253 Reader0/0/2无修；254原稿cc3fa8be 0/1/2，StageA仅纠预排/签到混同，新SHA42511e9e Reader0/0/2；253正文未变，仅放行元数据改变；内容QA通过，结构须精确commit CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -276,4 +276,26 @@ combined_audit_chapter_252_20261024:
   qa_gate: pass
   predecessor_ready_sha: "1bb8d45aef5eeb0b67a04e6f1f6596c7d0269910"
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_253_20261024:
+  chapter: 253
+  source_sha: "6cf2eb7085a52b38e24447cdacba9e1359890086"
+  review: reader_reviews/0253_6cf2eb70.md
+  reader: {blocker: 0, major: 0, minor: 2}
+  body_revisions: 0
+  content_qa: pass
+  predecessor_ready_sha: "29784d55e995085f9b341e2e005ab317499f99b0"
+  structural_gate: exact_commit_CI_required
+combined_audit_chapter_254_20261024:
+  chapter: 254
+  original_sha: "cc3fa8be2389441f9aeece24fd569208ffb27a8c"
+  initial_review: reader_reviews/0254_cc3fa8be.md
+  initial_reader: {blocker: 0, major: 1, minor: 2}
+  local_revision_used: 1
+  source_sha: "42511e9e6e2d76477c927a2629ba39650e27fc0f"
+  final_review: reader_reviews/0254_42511e9e.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  predecessor_ready_sha: "1424822256cdf55b056814c824d87b83c9e19d05"
+  content_qa: pass
   structural_gate: exact_commit_CI_required
