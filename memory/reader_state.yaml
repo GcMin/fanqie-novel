@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 256
-last_reviewed_title: 那页签名只管钥匙
-last_source_path: chapters/draft/0256.md
-last_source_sha: 0bfdbe3e2940be11468d0e13a467fbc1afadca30
-last_review_path: reader_reviews/0256_0bfdbe3e.md
-last_reviewed_at: "2026-10-24"
+last_reviewed_chapter: 258
+last_reviewed_title: 多出来的那句批准
+last_source_path: chapters/draft/0258.md
+last_source_sha: f2707537093ca788b11ad97663b0fe036497673b
+last_review_path: reader_reviews/0258_f2707537.md
+last_reviewed_at: "2026-10-25"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 255
-depends_on_source_sha: f0f8c303aaac02c041a6ba2994231a387abf5728
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: f0f8c303aaac02c041a6ba2994231a387abf5728
+depends_on_chapter: 257
+depends_on_source_sha: 48d31f58c7a085f2e6b4040149df8a6d0546aa35
+dependency_status: verified_predecessor_factual_delta_compatible
+predecessor_current_source_sha: 48d31f58c7a085f2e6b4040149df8a6d0546aa35
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -623,5 +623,34 @@ combined_audit_chapter_256_20261024:
   predecessor_original_draft_sha: "46e5b2c26ce14ad4643bb619e51f828a516f9043"
   predecessor_ready_sha: "f0f8c303aaac02c041a6ba2994231a387abf5728"
   predecessor_factual_delta: body_identical_only_frontmatter
+  content_qa: pass
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_257_20261025:
+  chapter: 257
+  first_sha: "e9b8219b76713dc18a936d6f68ca12ffb045a375"
+  first_review: reader_reviews/0257_e9b8219b.md
+  first_reader: {blocker: 0, major: 1, minor: 2}
+  stage_a_local_revision: 1
+  fix: "一九xx年残余年份占位改为九六年"
+  final_sha: "05e9c1a7d4077cc4eae8e979d791427c900dbbd3"
+  new_sha_reader: reader_reviews/0257_05e9c1a7.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  predecessor_ready_sha: "47c3188c53f6587382a20f4eb1d6890ff1f0d80f"
+  content_qa: pass
+  structural_gate: exact_commit_CI_required
+combined_audit_chapter_258_20261025:
+  chapter: 258
+  first_sha: "088022ca7da30a4824bb8bddc0fd67d5d9c62e98"
+  first_review: reader_reviews/0258_088022ca.md
+  first_reader: {blocker: 0, major: 1, minor: 2}
+  stage_a_local_revision: 1
+  fix: "Day122晚误说昨天签名两处改本日凌晨并重绑257最终ready SHA"
+  final_sha: "f2707537093ca788b11ad97663b0fe036497673b"
+  new_sha_reader: reader_reviews/0258_f2707537.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  predecessor_old_sha: "e9b8219b76713dc18a936d6f68ca12ffb045a375"
+  predecessor_ready_sha: "48d31f58c7a085f2e6b4040149df8a6d0546aa35"
+  predecessor_delta: "仅九六年口述占位成稿及交付Front Matter改动，核心事实不变"
   content_qa: pass
   structural_gate: exact_commit_CI_required

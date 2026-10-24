@@ -1,15 +1,15 @@
 schema_version: 1
-last_updated_chapter: 256
+last_updated_chapter: 258
 characters:
   zhou_heng:
-    location: "Day122凌晨，夜间中心第119次夜班交班"
-    state: "无新伤势；256合法有限证据为1996-06-17钥匙/实物交接签认栏未见韩署名，整夜真实在岗及旧来话仍未证。"
+    location: "Day122晚，第120次夜班进行中"
+    state: "无新伤势；Day122中心原发回执不包含物业图像补签文字已正式核清，未知图像制作来源；韩1996出勤及旧来话未知。"
   liang_ce:
-    location: "Day122凌晨，夜间中心第119次夜班交班"
-    state: "无新伤势；坚持不迫使旧同事为未记得的日期作证，南栖西坡及东衡近水危险限行仍需有权复检。"
+    location: "Day122晚，第120次夜班进行中"
+    state: "无新伤势；没有遭入户侵害报告，不把陌生访客写作破门险情，邱自行决定投诉与否；专业限行仍在。"
   xia_ning:
-    location: "Day122凌晨，夜间中心第119次夜班交班"
-    state: "无新伤势；分列韩本人预排轮休、旧卷目录、钥匙实物签认栏、邱个人模糊回忆和韩自述更正，原版本均受控留存。"
+    location: "Day122晚，第120次夜班进行中"
+    state: "无新伤势；区分中心原发回执、物业新增文字图片、门岗未放行、邱本日凌晨拒访和韩有限核对授权，历史版本保留。"
 invariants: F008无新增；F009/F010/F011 resolved；M004未确认；M005不触碰
 
 chapter_133_notes:
@@ -571,3 +571,21 @@ chapter_256_verified:
   actual_state: "馆方获准核钥匙/实物交接签认栏未见韩署名，不能推韩未到岗；老人主动更正旧陈述，夏宁和周衡受控保留两版。"
   main_cast_injuries: none_new
   final_location: "Day122 01:18第119次具名交班，南栖西坡和东衡近水险段待专业复开，F003只有限推进，M004/M005未证。"
+
+chapter_257_verified:
+  source_sha: "05e9c1a7d4077cc4eae8e979d791427c900dbbd3"
+  timeframe: "Day122 00:58—07:26"
+  zhou_heng: "01:22询问邱本人安全，核实东门未放行且生成仅待确认申请，不把签字负向证据当缺勤。"
+  xia_ning: "按权保留02:08物业取消原申请、03:12双门岗回签和03:46中心用途说明，阻止隐私扩大传播。"
+  liang_ce: "反对把无冲突未放行写成破门险情，不代居民签历史证。"
+  family: "邱02:35本人留有限拒访声明，韩06:05表示未委托索签。"
+  main_cast_injuries: none_new
+
+chapter_258_verified:
+  source_sha: "f2707537093ca788b11ad97663b0fe036497673b"
+  timeframe: "Day122 09:07—21:38后"
+  zhou_heng: "不把物业图中“回问原受理席”直接视为1996秘密旧案或电话同源证据。"
+  xia_ning: "分别存中心原发和物业图像版，明确来源、传播人未知，不能承诺全部副本已删。"
+  liang_ce: "重申邱只同意本夜拒访，不能让其补签三十年前的出勤证。"
+  family: "韩本人11:43有限授权核自己原回执；邱在本日夜间复看同日凌晨本人签字材料。"
+  main_cast_injuries: none_new

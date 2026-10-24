@@ -1,0 +1,42 @@
+schema_version: 1
+chapter: 258
+title: "多出来的那句批准"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "f2707537093ca788b11ad97663b0fe036497673b"
+original_draft_source_sha: "088022ca7da30a4824bb8bddc0fd67d5d9c62e98"
+reader_review: "reader_reviews/0258_f2707537.md"
+prior_review: "reader_reviews/0258_088022ca.md"
+depends_on_chapter: 257
+original_depends_on_source_sha: "e9b8219b76713dc18a936d6f68ca12ffb045a375"
+depends_on_source_sha: "48d31f58c7a085f2e6b4040149df8a6d0546aa35"
+dependency_status: verified_predecessor_factual_delta_compatible
+timeframe: "Day122 09:07—21:38后，第120次夜班初段"
+summary: >-
+  Day122 09:07物业高勤发现昨夜未经准入的东门访客待核附件图中含“凭中心受理编号，可联系原岗位见证人补办缺席签认”；夜班此前只误选“有工作凭据”，没放人。10:15物业经正式渠道请求仅核该字样，保护邱素英居住隐私；邱本人不愿被迫签“伪造”定性或旧夜岗缺席证明，只要求有限书面告知。11:43韩文舟本人同意中心受控核原回执，未授权公开私人旧簿。13:27有权岗核中心当初发出的原版回执根本没有补签文字，物业附件却多了该句及“回问原受理席”半行，能确认版本不一致但不证制作人、手段和传播渠道。17:46物业把错误材料类型纠为“来源待核图像”并保留旧记录，正式访客界面修正仍未完成。20:06第120夜班承接白班结果，21:38门岗进一步限定核查无原申请获准开门记录，不宣称全网删除或从未存在别的版本。邱在本日夜间取出同日凌晨本人签的拒访声明和有限告知，不签他人历史负向证明。F003限于当代图片伪授权风险，1996普通照明及M004/M005同源仍不证。
+meaningful_state_changes:
+  - "中心原发回执与物业所持照片文字不一致被有权限独立对照，所谓补签批准不属于中心原发内容。"
+  - "物业按权改错材料分类并保存历史数据，住户获有界知情，不冒认已经查获改图人或删净外部图。"
+knowledge_updates:
+  - "红章和受理号不能授予住宅通行或第三人旧岗证言征集许可；不同版本不等于已完成电子图像鉴定。"
+  - "邱Day122凌晨已本人签拒访，258同日晚复看不应说昨天；韩自己的回执许可不能覆盖私人簿或邱。"
+foreshadowing_updates:
+  - "F003增添旧受理回执当代版本差异，仍无历史旧工单异常机制确证或回问人认定；F008无新增具体亲历反证、M004/M005未确证。"
+relationship_updates:
+  - "邱坚守自主同意范围、女儿支持提供早餐不代申诉；韩只开放本人原回执，周衡夏宁梁策保持职责范围，三主角信任分值不无据更动。"
+ending_state: "Day122晚第120夜班：原回执不含索签许可获正式核准，物业错误分类改为来源待核但UI待修、真实制作人和副本流转未知；邱本人拒访继续有效。"
+revision_trace:
+  original_source_sha: "088022ca7da30a4824bb8bddc0fd67d5d9c62e98"
+  initial_reader: "reader_reviews/0258_088022ca.md"
+  initial_majors: 1
+  final_source_sha: "f2707537093ca788b11ad97663b0fe036497673b"
+  final_reader: "reader_reviews/0258_f2707537.md"
+  final_majors: 0
+  local_revision_rounds: 1
+  fix: "纠正同日凌晨签名被误写昨天两处，依赖元数据重绑257最终ready blob"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3406

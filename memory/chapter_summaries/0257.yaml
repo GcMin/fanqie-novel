@@ -1,0 +1,41 @@
+schema_version: 1
+chapter: 257
+title: "她只签今天的名字"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "05e9c1a7d4077cc4eae8e979d791427c900dbbd3"
+original_draft_source_sha: "e9b8219b76713dc18a936d6f68ca12ffb045a375"
+reader_review: "reader_reviews/0257_05e9c1a7.md"
+prior_review: "reader_reviews/0257_e9b8219b.md"
+depends_on_chapter: 256
+depends_on_source_sha: "47c3188c53f6587382a20f4eb1d6890ff1f0d80f"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day122 00:58—07:26，第119次夜班末段"
+summary: >-
+  Day122凌晨00:58陌生人持韩文舟中心有限受理回执的局部照片，向北栎路四号院东门请求进院索邱素英签1996缺席证明。门岗未放行，却误勾“有工作凭据”，生成仅待住户核的访客申请流水，不是开门许可。01:22邱本人报中心，周衡夏宁通过物业公开值班渠道核；01:38高勤确认东门事实，02:08管理岗位取消该申请并留旧源，西门单独无同类待核记录不证明更广范围无人来访。02:35邱本人经物业官方渠道提交当夜拒访与限联声明、另于私人备忘本记时签名，不承认1996当晚韩是否缺席。03:12两门回签，03:46中心有权出具不含个人隐私的受理回执用途说明，不能当住宅准入授权；正式UI“材料齐全”误导仍待改。05:16邱获限定回告，陌生人身份、照片流转与先前骚扰电话人是否同一均未知，06:05韩自愿声明未委托他人索签。07:26交白班，南栖西坡与东衡近水险段继续禁用。M004/M005未证。
+meaningful_state_changes:
+  - "陌生人申请被真实取消且双门岗限项告知，申请号未授出居住通行权限。"
+  - "邱由被动遭索签转为本人正式留本夜拒访意见并获阶段回告，不签1996历史负向证明。"
+knowledge_updates:
+  - "受理回执仅证明中心收有限个人陈述，不产生第三人旧簿提取、索签和入宅授权。"
+  - "东门核未放行不等于全院绝无来访，照片流传来源与来访者身份待查。"
+foreshadowing_updates:
+  - "F003限项记当代受理回执照片误用风险，旧1996普通照明22:41/次日08:07纸证与私人22:41后补不互证，M004/M005未确证；F008无新样本。"
+relationship_updates:
+  - "邱与韩各自保持陈述与申诉权限，韩不替她报案或让她证明缺席；三主角原信任量化无据更改。"
+ending_state: "Day122 07:26：东门申请已取消、邱当夜拒访有来源、两门岗回签、中心说明送达；来人真名和照片流通待核，专业危险处仍待验。"
+revision_trace:
+  original_source_sha: "e9b8219b76713dc18a936d6f68ca12ffb045a375"
+  initial_reader: "reader_reviews/0257_e9b8219b.md"
+  initial_majors: 1
+  final_source_sha: "05e9c1a7d4077cc4eae8e979d791427c900dbbd3"
+  final_reader: "reader_reviews/0257_05e9c1a7.md"
+  final_majors: 0
+  local_revision_rounds: 1
+  fix: "旧年份占位一九xx年改为九六年，事实未变"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3264

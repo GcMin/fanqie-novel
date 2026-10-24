@@ -6,9 +6,9 @@
 - role: Writer / Planner + Continuity Precheck + First Draft only
 - observed_main_sha: 6d62222a02c3b9fcb019f109f394a7a154f0a885
 - depends_on_chapter: 257
-- depends_on_source_sha: "e9b8219b76713dc18a936d6f68ca12ffb045a375"
-- dependency_status: provisional
-- dependency_boundary: 第257章为尚未审核的 main 草稿（Git Blob e9b8219b76713dc18a936d6f68ca12ffb045a375），本章暂时承接邱素英Day122 01:22报未经授权上门、00:58北栎路四号院东门拒放行、02:08访客申请取消、02:35本人有限拒访、两门回签和03:46中心受理回执无通行效力的限定说明；这些仅是依指定版本的临时创作事实，绝不作为正式Canon。前章若修订须由Audit逐项核对兼容性。
+- depends_on_source_sha: "48d31f58c7a085f2e6b4040149df8a6d0546aa35"
+- dependency_status: verified_predecessor_factual_delta_compatible
+- dependency_boundary: Writer临时依赖第257章draft e9b8219b76713dc18a936d6f68ca12ffb045a375；Audit已对比其与最终ready Blob 48d31f58c7a085f2e6b4040149df8a6d0546aa35，差异仅为邱“九六年”口述占位的成稿化及交付Front Matter，不改凌晨00:58拒访、02:08取消、02:35本人签名、03:46说明、07:26交班等核心事实。第258章晚间“昨天签名”误指已修正为同日凌晨。
 - continuity_precheck: 重新读取 main 的AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md，bible/premise、main_outline、world、style及周衡、夏宁、梁策人物卡；已读outlines/volume_05.md和outlines/arcs/arc_current.md（均为旧阶段文件，服从第六卷已审核正文、memory/current_arc与第257章临时事实）；memory/character_state、relationship_state、knowledge_state、world_state、foreshadowing、timeline、plans/chapter_plan.csv；第247—256章最新十章摘要及第253—257章最近五章正文；未读取历史reader_reviews。已在published确认第153章存在、三目录最新章号为257且0258尚不存在。
 - goal: 在不扩大居民隐私或历史证据效力的前提下，查清物业所存访客申请图像中的一条所谓批准补签语句并非中心原发回执内容，让该图不再被当作住宅授权。
 - pov: 贴近高勤、邱素英与韩文舟的有限第三人称，夜班后以周衡和夏宁的工作视角收束。
@@ -29,3 +29,6 @@
 - ending: Day122第120夜班继续进行，物业当次拒访办理已完成且有授权范围内的原件对照结论，图像制作来源和其它副本仍待查；不把原收件、受控核对和历史签名混为同一种“批准”。
 - target_body_effective_chars: 2600-3400 (hard 2300-3800)
 - actual_body_effective_chars: 3406
+
+## Audit补充（2026-10-25）
+原始稿088022ca7da30a4824bb8bddc0fd67d5d9c62e98 Reader初审0/1/2；局部修订当日凌晨时间指代两处及前章ready SHA重绑后新稿f2707537093ca788b11ad97663b0fe036497673b，独立新SHA Pass A+B 0/0/2，Continuity/Style QA PASS。须精确候选commit CI结构PASS后才进入main ready。

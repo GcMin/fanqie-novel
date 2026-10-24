@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 256
+last_updated_chapter: 258
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -451,3 +451,15 @@ chapter_256_relationships:
   facts: "韩与女儿共同接受特定签名栏未见不能等于全夜不在，韩自主停止当天继续追所有人员；邱保留自行选择申诉和拒签的权利。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "馆方仅本人合法字段，不公开同事签名和第三方私人资料，中心只接当事人受控转交范围。"
+
+chapter_257_relationships:
+  source_sha: "05e9c1a7d4077cc4eae8e979d791427c900dbbd3"
+  facts: "邱由被动遭电话索签转为本人向夜间中心及物业正式有限拒访，韩拒让她为旧记忆作负向证明；女儿支持但不代母行使意愿。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "中心不能把邱住址发保安大群，门岗登记不能代本人批准，韩不能替邱报案。"
+
+chapter_258_relationships:
+  source_sha: "f2707537093ca788b11ad97663b0fe036497673b"
+  facts: "高勤保护值守员误选证据，邱坚持不接受替她写‘伪造’定性而要有限告知；韩只授权核自己原回执。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "邱Day122凌晨本人签拒访，晚间复看是同日，家人不代其签旧案证言或公开住址。"

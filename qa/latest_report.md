@@ -1,3 +1,10 @@
+# 第257、258章候选审核摘要（2026-10-25；结构CI尚需精确提交验证）
+- 第257章原稿e9b8219b76713dc18a936d6f68ca12ffb045a375，独立初审0/1/2，定点修正文稿“一九xx年”占位后新draft 05e9c1a7d4077cc4eae8e979d791427c900dbbd3，针对新SHA双遍Reader0/0/2、独立Continuity/Style/Meaningful Change QA PASS。
+- 第258章原稿088022ca7da30a4824bb8bddc0fd67d5d9c62e98，独立初审0/1/2，纠正Day122同日晚错误指称“昨天”两处、并将前章依赖改为第257章ready SHA 48d31f58c7a085f2e6b4040149df8a6d0546aa35，新draft f2707537093ca788b11ad97663b0fe036497673b独立双遍Reader0/0/2、独立QA PASS。
+- 第257章精确匹配256最终ready SHA 47c3188c...，第258章旧临时前章依赖与正式ready仅一个年份占位成稿化及Front Matter不同，不产生前后事实冲突。
+- 1996普通照明仅岗位纸证和韩本人签认栏有限负向结果，不据现代受理照片确认M004/M005、制作人或散播责任。
+- 详情 qa/0257_report.md、qa/0258_report.md；当前候选不代表main已正式ready，必须待精确GitHub CI结构校验成功。
+
 # 第256章《那页签名只管钥匙》独立内容QA（2026-10-24）
 
 - Writer原稿Blob `e763b593eb4c39b687699c334d2ee61740904daf`；仅因上一章ready生成而修改Front Matter依赖字段后新draft Blob `0bfdbe3e2940be11468d0e13a467fbc1afadca30`，正文零更改。针对新SHA独立Pass A/Pass B Review reader_reviews/0256_0bfdbe3e.md，0 BLOCKER/0 MAJOR/2 MINOR。

@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 256
+current_chapter: 258
 current_stage: ready
-current_source_path: chapters/ready/0256.md
-current_source_sha: 0bfdbe3e2940be11468d0e13a467fbc1afadca30
-current_review_path: reader_reviews/0256_0bfdbe3e.md
+current_source_path: chapters/ready/0258.md
+current_source_sha: f2707537093ca788b11ad97663b0fe036497673b
+current_review_path: reader_reviews/0258_f2707537.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
 last_action: audit_reader_qa_memory_ready_candidate
-last_action_date: 2026-10-24
+last_action_date: 2026-10-25
 last_error: null
-last_diff_summary: "255原稿无修Reader0/0/2；256仅依赖元数据绑定255最终ready SHA，正文不变，针对新稿0bfdbe3e2940be11468d0e13a467fbc1afadca30重新Reader0/0/2。两章内容QA通过，需精确候选CI结构验证。"
+last_diff_summary: "257定点修正文稿占位，258修正Day122当天凌晨/昨天指代并重绑前章ready SHA；两章修改后分别以真实新Git blob独立双遍Reader0/0/2及QA PASS，精确candidate CI结构校验仍为放行前提。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -42,7 +42,7 @@ combined_audit_final_20261015:
   note: "前版Reader意见只绑定前版SHA；修订后新的Reader报告已存在并通过。"
 
 # source_sha of the final Reader Review refers to original draft; ready differs by metadata fields only.
-current_review_source_sha: 1b8a84adf2d4667eeede7c5fc6b7b9f69374f608
+current_review_source_sha: f2707537093ca788b11ad97663b0fe036497673b
  
 combined_audit_chapter_154:
   stage: local_revision
@@ -318,3 +318,27 @@ combined_audit_chapter_256_20261024:
   predecessor_ready_sha: "f0f8c303aaac02c041a6ba2994231a387abf5728"
   qa_gate: pass
   structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_257_20261025:
+  chapter: 257
+  stage_a_used: 1
+  first_blob: "e9b8219b76713dc18a936d6f68ca12ffb045a375"
+  first_reader: reader_reviews/0257_e9b8219b.md
+  first_majors: 1
+  final_blob: "05e9c1a7d4077cc4eae8e979d791427c900dbbd3"
+  fresh_reader: reader_reviews/0257_05e9c1a7.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  ci_gate: exact_commit_required
+combined_audit_chapter_258_20261025:
+  chapter: 258
+  stage_a_used: 1
+  first_blob: "088022ca7da30a4824bb8bddc0fd67d5d9c62e98"
+  first_reader: reader_reviews/0258_088022ca.md
+  first_majors: 1
+  final_blob: "f2707537093ca788b11ad97663b0fe036497673b"
+  fresh_reader: reader_reviews/0258_f2707537.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  predecessor_ready_blob: "48d31f58c7a085f2e6b4040149df8a6d0546aa35"
+  ci_gate: exact_commit_required
