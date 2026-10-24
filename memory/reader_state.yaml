@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 251
-last_reviewed_title: 那本旧簿没有写收话人
-last_source_path: chapters/draft/0251.md
-last_source_sha: 1f10a5a74a171da2ab1d0f160b2486d0235eda5a
-last_review_path: reader_reviews/0251_1f10a5a7.md
+last_reviewed_chapter: 252
+last_reviewed_title: 终点站保管着半本旧簿
+last_source_path: chapters/draft/0252.md
+last_source_sha: 249c7bbb2056e796e4de3bae4d6a49ff6720fdb0
+last_review_path: reader_reviews/0252_249c7bbb.md
 last_reviewed_at: "2026-10-24"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 250
-depends_on_source_sha: 573475d12c2345f83be2f0cda7303e2f705beec7
+depends_on_chapter: 251
+depends_on_source_sha: 1bb8d45aef5eeb0b67a04e6f1f6596c7d0269910
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 573475d12c2345f83be2f0cda7303e2f705beec7
+predecessor_current_source_sha: 1bb8d45aef5eeb0b67a04e6f1f6596c7d0269910
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -563,6 +563,19 @@ combined_audit_chapter_251_20261024:
   independent_passes: [A_readability_then_B_canon]
   body_revisions: 0
   predecessor_ready_sha: "573475d12c2345f83be2f0cda7303e2f705beec7"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_252_20261024:
+  chapter: 252
+  title: "终点站保管着半本旧簿"
+  source_sha: "249c7bbb2056e796e4de3bae4d6a49ff6720fdb0"
+  review: "reader_reviews/0252_249c7bbb.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  reader: {blocker: 0, major: 0, minor: 2}
+  body_revisions: 0
+  predecessor_ready_sha: "1bb8d45aef5eeb0b67a04e6f1f6596c7d0269910"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_commit_CI_required

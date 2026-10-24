@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 251
+last_updated_chapter: 252
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -419,3 +419,9 @@ chapter_251_relationships:
   facts: "韩文舟与女儿仍就旧夜岗记忆能否核证存在分歧，但双方认可不传播未核他人旧电话；周衡梁策夏宁尊重其有限同意，帮助找到合法受理和咨询路径而不替他确定记忆真假。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "本人自持原簿、不授权整本复制、第三方电话号码必须遮挡；旧纸原样与当年收话人事实均不可擅自公开。"
+chapter_252_relationships:
+  chapter: 252
+  source_sha: "249c7bbb2056e796e4de3bae4d6a49ff6720fdb0"
+  facts: "韩予禾误转陈述回执图给公交客服，承认并促使依法控图；韩文舟决定次日亲自合法领簿，她只陪同不代签，父女在隐私与自主权上达成具体配合。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "公交只传最小可能匹配通知，旧簿内页/电话号码不用于大群识别，未知手机副本不宣称已收回。"
