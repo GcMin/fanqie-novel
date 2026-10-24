@@ -1,0 +1,42 @@
+schema_version: 1
+chapter: 264
+title: "那半米也算一条路"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "6d09ee2c01f121fcb5c129e7288efee380f4cab0"
+original_draft_source_sha: "81b4c1542459c0a1e186921f35208de801b33c46"
+reader_review: "reader_reviews/0264_6d09ee2c.md"
+prior_review: "reader_reviews/0264_81b4c154.md"
+depends_on_chapter: 263
+original_depends_on_source_sha: "f77c68628d92352f48b5ec44aed722a21a9c87b4"
+depends_on_source_sha: "e91e9fa4dd4ae9839b4cfd0bf1d7a0ada54b8251"
+dependency_status: verified_predecessor_body_identical_only_frontmatter
+timeframe: "Day128 08:32—Day129 00:24，第126次夜班"
+summary: >-
+  Day128 08:32顾永山持修理收音机取件单隔街等待东侧公众步道验收，前日六摞料已真实移走但仍封路。09:17施工、街道和专业岗位核实移料实绩；09:46发现新行进线经过纵向开孔的线性排水沟盖、转角小轮可能卡住，10:20需整改复验，拒用未经固定和荷载核验的散钢板或沿用另一条旧限时通行记录。13:28专业审定合规防滑过渡件及增加半米硬隔离转角，车辆短驳和回填再次延误但均实记；14:47专业施工，15:31复测发现公示牌又占宽，调整重核。16:42街道与施工安全岗位仅准当日17:10—19:40条件开放，两端17:06真签到，17:10实际安全撤栏并同步本处屏。顾永山与顾珊真去店里取回修好收音机、18:21沿同一路安全返程；19:40两端真实封门签回，未来排程仅计划不预支许可。20:12第126夜班分列整改、审批、真开关、后日拟排；23:55旧站历史“步行路径补充走访”只有受理回复，原走访页与终点落点仍未获；Day129 00:24交班维持实体门与本处屏一致关闭。F003有界、M004/M005不证。
+meaningful_state_changes:
+  - "沟盖专业过渡件与半米转角硬隔离真实整改并复验，载料车错峰和追加工程延误记入真实记录。"
+  - "17:10—19:40一次限定公众开放真实实施且按时关闭，顾家双向通行并取回修好收音机，未来仍待当日责任岗位审核。"
+knowledge_updates:
+  - "昨日移料的工程检查不能替代新增行进线的轮椅沟盖与转弯复测；当日限时放行与未来拟排是不同状态。"
+  - "旧走访页仅获限定取用受理，没取得原件及终点坐标，未证旧址同点。"
+foreshadowing_updates:
+  - "F003保留有界旧目录待核、F008无独立新样本；1996旧纸证与私人22:41后补不互证，M004/M005未确认。"
+relationship_updates:
+  - "顾永山自主往返修理店，顾珊支持公众平等可走路权；屈工如实签工程延时而非催人走危险路。"
+ending_state: "Day129 00:24实体栏杆与本处公众屏均为关闭，父女已安全将收音机带回，后续拟排尚未获得未来开放许可。"
+revision_trace:
+  original_source_sha: "81b4c1542459c0a1e186921f35208de801b33c46"
+  initial_reader: "reader_reviews/0264_81b4c154.md"
+  initial_majors: 1
+  stage_a: "仅修264对263旧provisional草稿SHA的依赖到263最终ready Blob e91e9fa4dd4ae9839b4cfd0bf1d7a0ada54b8251，263前后正文逐字相同、264正文亦零修改；详细章纲同步。"
+  revised_source_sha: "6d09ee2c01f121fcb5c129e7288efee380f4cab0"
+  final_reader: "reader_reviews/0264_6d09ee2c.md"
+  final_majors: 0
+  local_revision_rounds: 1
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_factual_delta: body_identical_only_frontmatter, structural: exact_candidate_commit_CI_required}
+char_count: 3599

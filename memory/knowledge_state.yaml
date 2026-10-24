@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 263
+last_updated_chapter: 264
 characters:
   zhou_heng:
     knows:
@@ -676,3 +676,10 @@ chapter_263_knowledge:
   authority: "中心不代专业批路，固定电箱不得擅动，顾家不交病历也不进危险工区。"
   predecessor: "第262章最终ready Blob 630317b871cb90921f1c74f057a172ceb0881922与263依赖精确一致；Day126 20点已关门。"
   canon_boundary: "旧永安里方向为未定位目录，不证M004/M005；1996普通照明旧纸本与韩私簿不互证，F008无新可靠矛盾样本。"
+
+chapter_264_knowledge:
+  confirmed: "Day128经专业审查排水沟防滑过渡件和半米转角、移走占道公示板，街道及安全岗16:42限定批17:10—19:40，双端17:06具名到岗、17:10真开、18:21顾家返、19:40真关。"
+  unresolved: "未来哪天再开、车流与隔离当日再验、延迟工时结算、外部导航同步、旧走访原页和空间终点仍未证。"
+  authority: "公用步道不是顾家专用；安全与街道权责分离，夜班只记录不越权批准，顾家未交医疗资料。"
+  predecessor: "263旧draft f77c68628d92352f48b5ec44aed722a21a9c87b4与最终ready e91e9fa4dd4ae9839b4cfd0bf1d7a0ada54b8251剧情正文逐字相同、仅交付FM变；264现精确绑定最终ready。"
+  canon_boundary: "F003历史方向目录仍终点未核、无原页或永安里实际坐标；F008无新样本，M004/M005未确证。"

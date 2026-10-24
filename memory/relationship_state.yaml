@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 263
+last_updated_chapter: 264
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -498,3 +498,10 @@ chapter_263_relationships:
   facts: "顾永山要普通可预期通行并体谅施工者真实代价，顾珊以公共路线代替病历换私人陪送，屈工承认延期成本。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "无权索顾永山病历或其他公众身份，旧走访档案仍受控。"
+
+chapter_264_relationships:
+  chapter: 264
+  source_sha: "6d09ee2c01f121fcb5c129e7288efee380f4cab0"
+  facts: "顾永山选择自己出门取修好的收音机并按时往返，顾珊尊重日常自主而非索个人专用路线；屈工承担审批后的真实整改/短驳延工成本，三主角没有预支明天通行承诺。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "未要求病历或住址公开，顾珊回告仅今天真实往返；旧访查原页仍受控。"
