@@ -28,4 +28,5 @@
 - forbidden_leaks: 不将亲属电话要求当强制入户许可；不把拒接等于危机或本人同意；不公开林桐英具体联络信息或推测病情，不让周衡/梁策代专业电气验收，亦不把临时限定通道写成整栋楼恢复。1996纸面受理岗收讫不证明原报修人收到回复、灯已修或旧失址实际来话。
 - ending: Day113 01:14夜间中心具名交班，林桐英本人当夜真实核见，自动回访偏好待正式调整，湿区与管线继续专业处置，其他同版绿色名单继续真实核人。
 - target_body_effective_chars: 2600—3400（硬限2300—3800）
-- actual_body_effective_chars: 3183
+- actual_body_effective_chars: 3209
+- audit_local_revision_trace: original_sha=8725cd236baf0d2650393d84c94c51d6050098b4;final_draft_sha=1b8a84adf2d4667eeede7c5fc6b7b9f69374f608;initial_MAJORS=1;StageA=1;final_MAJORS=0;qa=pass

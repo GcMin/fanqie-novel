@@ -1,13 +1,13 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 246
+current_chapter: 247
 current_stage: ready
-current_source_path: chapters/ready/0246.md
-current_source_sha: 6819feaf3ac586032680240f8d5849a20689e101
-current_review_path: reader_reviews/0246_6819feaf.md
+current_source_path: chapters/ready/0247.md
+current_source_sha: 1b8a84adf2d4667eeede7c5fc6b7b9f69374f608
+current_review_path: reader_reviews/0247_1b8a84ad.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
@@ -15,7 +15,7 @@ next_retry_after: null
 last_action: audit_qa_memory_ready_complete
 last_action_date: 2026-10-24
 last_error: null
-last_diff_summary: "第246章原稿6819feaf3ac586032680240f8d5849a20689e101独立双遍Reader为0 BLOCKER/0 MAJOR/2 MINOR；不修改正文，独立Continuity/Style/Meaningful Change PASS，前章245最终ready blob 5b54a3f3b6c183cefe7896b1e56c10ae8664594c精确匹配。老人21:06专业脱困、Day112 00:44医护家属具名接续，19:22答录机绿回执22:18限单纠正；其他回访、梯段复开仍待核。精确候选CI SUCCESS前不得放行main。"
+last_diff_summary: "247原始SHA8725cd23初次Reader 0/1/2，Stage A只调整十一条回访‘核来源’误记‘已核本人’1处；新版1b8a84adf2d4667eeede7c5fc6b7b9f69374f608双遍Reader 0/0/2，独立Continuity/Style/Meaningful PASS，前章246最终ready 3b122bb32febf69922b8a21b74f05bfd1969e128精确匹配；仅候选精确提交CI SUCCESS才放行main。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -42,7 +42,7 @@ combined_audit_final_20261015:
   note: "前版Reader意见只绑定前版SHA；修订后新的Reader报告已存在并通过。"
 
 # source_sha of the final Reader Review refers to original draft; ready differs by metadata fields only.
-current_review_source_sha: c2c6e27004dd69dffd7a7ddfeb3885ff8359e5e4
+current_review_source_sha: 1b8a84adf2d4667eeede7c5fc6b7b9f69374f608
  
 combined_audit_chapter_154:
   stage: local_revision
@@ -192,4 +192,22 @@ combined_audit_chapter_246_20261024:
   minor_count: 2
   status: reader_and_independent_content_qa_pass
   predecessor_body: exact_match_final_ready_blob
+  structural_gate: exact_commit_CI_required
+combined_audit_chapter_247_20261024:
+  chapter: 247
+  source_before: "8725cd236baf0d2650393d84c94c51d6050098b4"
+  initial_review: "reader_reviews/0247_8725cd23.md"
+  initial_blocker_count: 0
+  initial_major_count: 1
+  initial_minor_count: 2
+  stage: local_revision
+  stage_A_rounds: 1
+  fix: "来源已核不等于本人已核，未核真实人身状态的十一条记录必须保持待核。"
+  source_after: "1b8a84adf2d4667eeede7c5fc6b7b9f69374f608"
+  new_source_bound_review: "reader_reviews/0247_1b8a84ad.md"
+  final_blocker_count: 0
+  final_major_count: 0
+  final_minor_count: 2
+  final_stage: reader_and_independent_content_qa_pass
+  dependency_verified: "246最终ready blob 3b122bb32febf69922b8a21b74f05bfd1969e128直接匹配"
   structural_gate: exact_commit_CI_required

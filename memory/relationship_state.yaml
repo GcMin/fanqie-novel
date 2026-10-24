@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 246
+last_updated_chapter: 247
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -386,3 +386,9 @@ chapter_246_verified:
   facts: "韩素没有因物业所谓“已报平安”放弃亲耳听到的求助，也未越过危险格栅；许雅琴独立表达不愿被机器代言、本人同意通知女儿并在医护核后具名交接。物业孙嵩由最初依赖绿标转为同意按真实通道及真人联系纠错，施工班的三工人退出不能替居民核查。周衡梁策夏宁守职权协调，无事实证明主角三人量化互信变化。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "许雅琴的女儿获其本人许可并经正式渠道取得必要情况；公开住户名单、病况和家庭地址没有授权，答录机不能代人确认本人平安。"
+
+chapter_247_verified:
+  source_sha: "1b8a84adf2d4667eeede7c5fc6b7b9f69374f608"
+  facts: "林桐英明确拒自动语音回访但不拒绝向儿子适度告知行踪；林放起初凭绿截图、备用钥匙要求开门，见楼梯电气险后转为问安全通道，不再逼迫非法入户。冯澄告知未实施的系统偏好仍待有权岗位，现场只记其本人真实决定，三主角互信分数没有足够事由调整。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "林桐英姓名住址电话不向邻里群公开；儿子远程着急不是强制入户或代签回访意愿授权；本人明确拒自动来电仍保留依法请求帮助的权利，不能擅写病情。"

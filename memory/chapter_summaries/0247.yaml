@@ -1,0 +1,42 @@
+schema_version: 1
+chapter: 247
+title: "回访名单里有个拒接的人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "1b8a84adf2d4667eeede7c5fc6b7b9f69374f608"
+original_draft_source_sha: "8725cd236baf0d2650393d84c94c51d6050098b4"
+reader_review: "reader_reviews/0247_1b8a84ad.md"
+prior_review: "reader_reviews/0247_8725cd23.md"
+depends_on_chapter: 246
+depends_on_source_sha: "3b122bb32febf69922b8a21b74f05bfd1969e128"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day112 20:06—Day113 01:14，第110次夜班"
+summary: >-
+  第246章Day111答录机27秒线路接通误作真人平安后，Day112街道主管抽同版十一条有权限复核的来源记录，包括四条仅线路时长、三条人工备注、四条代接号码，不能推十一人遇险或全员安全。林桐英七十三岁，因频繁陌生电话拒接，林放在外地误信旧绿回执并要求物业拿备用钥匙开门，梁策提醒无已核紧迫险情不能据亲属急迫强行入户。20:34冯澄查出她两个月前要求暂停自动语音回访的书面意见只收件未真正进入拨号排除设置。20:52经授权关怀人员合法上门未接触本人，外勤公共区域看到雨水立管滴水沿墙临近楼梯照明开关盒。21:03物业隔离潮湿平台、专业电气管道维修介入，21:28到场限项检查，南侧安全通道经核可临时通行。21:41林桐英提帮邻居孙女改裙的红布回院，本人真实见到且无当晚主动求救。22:07她明确不愿自动语音平安回访，正式偏好配置仍由有权岗待办，不预设永久其他服务同意。23:26电气限项安全措施已执行，雨水管接口待正式维修及原平台专业复检，整栋楼不宣布恢复。夏宁按本人有效接触或合法替代确认划“本人已核”，仅查到来源而没有核见者仍待核，未给其他十条虚报全员安全。1996普通照明旧纸本仍只证夜岗22:41留底和次日08:07原受理席结果收讫，未新增阅准或本人实收/灯修事实，F003与M004/M005不升级。Day113 01:14具名交班。
+meaningful_state_changes:
+  - "林桐英由拒接且下落未明转为21:41合法真人核见；本人22:07明确拒绝自动回访并由有权岗待处理配置，其他未核人的来源不能算本人已核。"
+  - "物业对共用楼梯渗滴/电气受潮采取专业限项安全措施且核可替代路线，但管道正式维修、原平台复检和解除限行待办。"
+knowledge_updates:
+  - "同版十一条受控复核中的通信记录来源类型与本人实际接触是两类证据；仅通话时长、人工备注、代接号不能证明本人平安。"
+  - "老人的明确拒绝自动回访既不代表失联，也不授权未经合法条件开门；此前收件未改配置，重确认意见也不等于当夜已设置生效。"
+foreshadowing_updates:
+  - "F003仍只有1996普通照明22:41夜岗纸本留底/次日08:07原受理席结果收讫，未确认报修人收到回复或现代异常制度同源；F008无新本人记忆错位，F009/F010/F011 resolved，M004/M005未证。"
+relationship_updates:
+  - "林桐英自主拒自动电话而愿意适度告知儿子，林放从要求直接开门转向问实际安全路线；冯澄公开承认系统偏好尚未改好，主角三人互信分数无据更改。"
+ending_state: "Day113 01:14第110次夜班交班：林桐英已合法核见、当晚无主动救助需求，偏好正式调整待有权办理；雨水立管正式修复、电气原平台复检仍待办，安全替代路线限定使用；十一条名单中来源已核不等于真人已核，其他人不得虚称安全；旧1996普通证据和M004/M005保持边界。"
+revision_trace:
+  original_source_sha: "8725cd236baf0d2650393d84c94c51d6050098b4"
+  initial_reader: "reader_reviews/0247_8725cd23.md"
+  initial_blockers: 0
+  initial_majors: 1
+  final_source_sha: "1b8a84adf2d4667eeede7c5fc6b7b9f69374f608"
+  final_reader: "reader_reviews/0247_1b8a84ad.md"
+  final_blockers: 0
+  final_majors: 0
+  local_revision_rounds: 1
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3209

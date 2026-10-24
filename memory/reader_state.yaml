@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 246
-last_reviewed_title: 报平安的电话接给了答录机
-last_source_path: chapters/draft/0246.md
-last_source_sha: 6819feaf3ac586032680240f8d5849a20689e101
-last_review_path: reader_reviews/0246_6819feaf.md
+last_reviewed_chapter: 247
+last_reviewed_title: 回访名单里有个拒接的人
+last_source_path: chapters/draft/0247.md
+last_source_sha: 1b8a84adf2d4667eeede7c5fc6b7b9f69374f608
+last_review_path: reader_reviews/0247_1b8a84ad.md
 last_reviewed_at: "2026-10-24"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 245
-depends_on_source_sha: 5b54a3f3b6c183cefe7896b1e56c10ae8664594c
+depends_on_chapter: 246
+depends_on_source_sha: 3b122bb32febf69922b8a21b74f05bfd1969e128
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 5b54a3f3b6c183cefe7896b1e56c10ae8664594c
+predecessor_current_source_sha: 3b122bb32febf69922b8a21b74f05bfd1969e128
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -468,4 +468,25 @@ combined_audit_chapter_246_20261024:
   predecessor_current_ready_blob_sha: "5b54a3f3b6c183cefe7896b1e56c10ae8664594c"
   dependency_status: verified_exact_ready_blob
   body_revisions: 0
+  structural_gate: exact_commit_CI_required
+combined_audit_chapter_247_20261024:
+  chapter: 247
+  title: "回访名单里有个拒接的人"
+  source_before: "8725cd236baf0d2650393d84c94c51d6050098b4"
+  initial_review: "reader_reviews/0247_8725cd23.md"
+  initial_blockers: 0
+  initial_majors: 1
+  initial_minors: 2
+  local_revision_rounds: 1
+  fix: "将同版十一条中仅核得通信来源者保持本人待核，只有真人接触或依法有效替代确认才转本人已核，杜绝来源等于平安。"
+  source_after: "1b8a84adf2d4667eeede7c5fc6b7b9f69374f608"
+  new_source_bound_review: "reader_reviews/0247_1b8a84ad.md"
+  final_blockers: 0
+  final_majors: 0
+  final_minors: 2
+  qa_gate: pass
+  depends_on_chapter: 246
+  depends_on_source_sha: "3b122bb32febf69922b8a21b74f05bfd1969e128"
+  predecessor_current_ready_blob_sha: "3b122bb32febf69922b8a21b74f05bfd1969e128"
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_commit_CI_required
