@@ -6,9 +6,9 @@
 - role: Writer (Planner, Continuity Precheck, First Draft only)
 - observed_main_sha: 56b63180f2867c55253156fb880321be1cb9c1fc
 - depends_on_chapter: 263
-- depends_on_source_sha: "f77c68628d92352f48b5ec44aed722a21a9c87b4"
-- dependency_status: provisional
-- dependency_boundary: 第263章目前仅为 chapters/draft/0263.md；参考其精确版本所记Day127六摞预制件真实移走、施工组织调整获准执行，但公众步道仍被封闭、转角及隔离待专业验收。此稿所依赖的这些关键场景事实均为临时连续性参考，不能替代独立审定Canon；独立审核263如修改关键事实，264由后续Revision/QA核对衔接。
+- depends_on_source_sha: "e91e9fa4dd4ae9839b4cfd0bf1d7a0ada54b8251"
+- dependency_status: verified_predecessor_body_identical_only_frontmatter
+- dependency_boundary: 第263章现已正式位于chapters/ready/0263.md，最终ready Git blob SHA e91e9fa4dd4ae9839b4cfd0bf1d7a0ada54b8251；原依赖的263 draft blob f77c68628d92352f48b5ec44aed722a21a9c87b4与该ready版本经实际逐字比较正文完全相同，差异仅交付Front Matter。经核262→263的Day127六摞真实移料、施工组织调整获准、公众步道仍封闭待验、历史永安里方向口述路径未核终点四个关键事实均未改变；264仅重绑真实ready依赖，不改正文。
 - continuity_precheck: 读取GitHub main当前AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md，bible四份硬规则与三位人物卡、现存outlines/volume_05及outlines/arcs/arc_current（均滞后）、memory/current_arc与character/relationship/knowledge/world，active F003、F008及近期timeline，已审第253—262十章摘要，最近五章第259—262 ready和第263未审draft全文、263详细章纲。核实published含153，ready最新262，draft最新263，264章节及章纲此前均不存在；不读取历史reader_reviews。
 - goal: 将白榆路公共侧步道从“六摞料已挪走但仍封闭”推进至有条件、真实可用的一次规范放行，暴露移料后新路线沟盖与转角的专业问题，并支付真实工时和施工影响。
 - pov: 顾永山与屈工的有限第三人称，交替切到顾珊、周衡与夏宁的职业行动。
@@ -29,3 +29,5 @@
 - ending: Day129 00:24实体入口关闭且本处显示“当前关闭”，将后续时段留给次日实际合规核验；顾永山确实领回收音机。
 - target_body_effective_chars: 2600-3400 (hard limits 2300-3800)
 - actual_body_effective_chars: 3599
+
+- audit_dependency_rebind_20261025: 独立Audit基于263原draft f77c68628d92352f48b5ec44aed722a21a9c87b4和最终ready e91e9fa4dd4ae9839b4cfd0bf1d7a0ada54b8251真实逐字核对，剧情正文相同；本次只纠264 Front Matter和详细章纲的provisional依赖，不变更Writer既有剧情节拍。
