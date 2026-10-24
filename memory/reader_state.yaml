@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 259
-last_reviewed_title: 那张图在敲门前出现
-last_source_path: chapters/draft/0259.md
-last_source_sha: b2a14a7b8f95140a08209900134ccc321fae16d4
-last_review_path: reader_reviews/0259_b2a14a7b.md
+last_reviewed_chapter: 260
+last_reviewed_title: 她认那行字，不认那扇门
+last_source_path: chapters/draft/0260.md
+last_source_sha: 03821ffbce9ac4a595969c9779f22f7e98578372
+last_review_path: reader_reviews/0260_03821ffb.md
 last_reviewed_at: "2026-10-25"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 258
-depends_on_source_sha: 0ee4d71e0932d8a1bf981777fd3f0f6cf30917d0
+depends_on_chapter: 259
+depends_on_source_sha: 191ae9da7061732bca3f432473da06387893bb42
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 0ee4d71e0932d8a1bf981777fd3f0f6cf30917d0
+predecessor_current_source_sha: 191ae9da7061732bca3f432473da06387893bb42
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -667,5 +667,21 @@ combined_audit_chapter_259_20261025:
   final_counts: {blocker: 0, major: 0, minor: 2}
   predecessor_ready_sha: "0ee4d71e0932d8a1bf981777fd3f0f6cf30917d0"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_260_20261025:
+  chapter: 260
+  first_draft_sha: "95d12ea37fb8a0752ff42fc3b42829a47901c6af"
+  original_review: reader_reviews/0260_95d12ea3.md
+  initial_reader: {blocker: 0, major: 1, minor: 2}
+  stage_a_local_revision: 1
+  local_change: "只重绑原先provisional第259草稿引用为经CI验证的现行259 ready SHA，详细章纲依赖同步；正文3041字全同"
+  predecessor_old_draft_sha: "952ce78137f7e6e3b24829ed372d865a4fe8ba93"
+  predecessor_ready_sha: "191ae9da7061732bca3f432473da06387893bb42"
+  predecessor_factual_delta: body_identical_only_title_and_frontmatter
+  source_sha: "03821ffbce9ac4a595969c9779f22f7e98578372"
+  new_sha_review: reader_reviews/0260_03821ffb.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
   structural_gate: exact_commit_CI_required

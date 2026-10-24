@@ -6,9 +6,9 @@
 - role: Writer / Planner + Continuity Precheck + First Draft only
 - observed_main_sha: 04eb8f7faa7726e5654d0e58fe609c19b17764e3
 - depends_on_chapter: 259
-- depends_on_source_sha: "952ce78137f7e6e3b24829ed372d865a4fe8ba93"
-- dependency_status: provisional
-- dependency_boundary: 第259章仍在main的draft，本文仅临时依赖其具体Blob版本：Day122 22:12郭苓主动说明本人于Day120 18:36从旧街资料群收到含补签语句图片，22:47限定留存；群管理员当时表示愿意按规则处理可控消息，尚未证明已经完成全部撤回。Day123 10:37公交依法核韩予禾Day117所交特定原附件无新增补签文字；Day123 20:28第121次夜班接手并将版本时点分列。以上是可被后续审核纠正的临时前章事实，并非正式Canon。
+- depends_on_source_sha: "191ae9da7061732bca3f432473da06387893bb42"
+- dependency_status: verified_exact_ready_blob
+- dependency_boundary: 第259章已正式ready，现行Git blob 191ae9da7061732bca3f432473da06387893bb42。原259 Writer draft blob 952ce78137f7e6e3b24829ed372d865a4fe8ba93与最终ready正文完全一致，仅标题由《那张图比敲门早两天》更正为《那张图在敲门前出现》以及Front Matter放行字段。Day120 18:36本人手机接收显示比Day122 00:58访客早30小时22分，其余22:47郭苓限项留证、Day123 10:37公交特定附件无增字及20:28第121班的事实不变；第260章可精确依赖该ready版本。
 - continuity_precheck: 已按main核读AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、bible/premise.md、main_outline.md、world.md、style.md及周衡、夏宁、梁策人物卡；核对现存volume_05和旧arc_current描述，并以第六卷真实正文/ARC-054及memory/current_arc.md为近期事实优先；核读character_state、relationship_state、knowledge_state、world_state、foreshadowing、timeline、plans/chapter_plan.csv、第249至258章10篇摘要和第255至259章5篇正文；未读取历史reader_reviews。核实第153章已在published，三目录最高数字章号为259，0260尚不存在。对直接前章严格provisional依赖。
 - goal: 由Day120那一份图像的自愿编辑者承担可核的文字编辑责任，完成一处实体公告板和一个受控群消息的实际纠偏，同时明确“图片文字作者”不等于“敲门者”。
 - pov: 侧重江禾、郭苓和邱素英的受限第三人称，最后以周衡、夏宁、梁策交班收束。
@@ -28,3 +28,5 @@
 - ending: 第122次夜班当夜记录活动室撤纸和群内纠正真实可核，但复制传播与访客身份仍未证；韩文舟停止让邱背负旧日否定性证明，将旧史料问题留在有权调查范围。
 - target_body_effective_chars: 2600-3400 (hard 2300-3800)
 - actual_body_effective_chars: 3041
+
+- audit_dependency_reconciliation: 本条由第260章唯一Audit在第259章ready且精确结构CI通过后追加，旧observed_main_sha及continuity_precheck保留Writer写稿时的历史视图，不覆盖。原260正文3041有效字一字不改，只重绑前章ready blob后以新260 blob重审。

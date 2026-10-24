@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 259
+last_updated_chapter: 260
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -470,3 +470,10 @@ chapter_259_relationships:
   facts: "郭苓帮助阻止索签但坚持保护旧街群无辜成员，只提供自己的限项手机消息；韩予禾承认给正规公交客服发过特定附件却不替后来不明图像负责；韩文舟不以旧簿逼邱素英作记忆不可靠的1996缺席证明。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "郭只同意遮挡第三人头像和群成员信息的限定记录，公交仅出具本人指定附件核对，邱Day122凌晨本人拒访继续有效。"
+
+chapter_260_relationships:
+  chapter: 260
+  source_sha: "03821ffbce9ac4a595969c9779f22f7e98578372"
+  facts: "江禾由阻止老人签不可靠旧证明到主动认下这一份图的文字编辑，郭苓支持她承担实际责任但不把全群朋友或未知访客一并定罪；邱只认自己当夜签过的拒访意见，不再替韩证明旧岗缺席；韩与女儿达成不打扰邱而按本人权限查自己资料的具体行动。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "灰衣老人无需留下身份电话，群消息和活动室公告限项纠正，邱本人只收约定页面回告；不公开韩私人簿内页、邱住址及群友名册。"

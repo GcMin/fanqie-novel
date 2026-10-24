@@ -1,14 +1,14 @@
 schema_version: 1
-last_updated_chapter: 259
+last_updated_chapter: 260
 characters:
   zhou_heng:
-    location: "Day123晚，第121次夜班进行中"
-    state: "无新伤势；第121夜班把Day117公交无字附件、Day120郭设备有字接收与Day122门岗图分列，传播人仍未知；1996旧来话未证。"
+    location: "Day124晚，第122次夜班进行中"
+    state: "无新伤势；Day124第122夜班分列江禾限项承认具体图片文字编辑、已撤线下公告及本群单条更正；传播链与陌生访客仍待核，1996旧来话未证。"
   liang_ce:
-    location: "Day122晚，第120次夜班进行中"
+    location: "Day124晚，第122次夜班进行中"
     state: "无新伤势；不擅自寻找群昵称身份，郭自愿说明不等于制作者，邱自主拒访、专业道路限行仍有效。"
   xia_ning:
-    location: "Day122晚，第120次夜班进行中"
+    location: "Day124晚，第122次夜班进行中"
     state: "无新伤势；分别记录本人设备接图显示、公交有权客服附件和门岗出示图，不擅连传播中段或扩散他人私号。"
 invariants: F008无新增；F009/F010/F011 resolved；M004未确认；M005不触碰
 
@@ -597,4 +597,13 @@ chapter_259_verified:
   xia_ning: "限项处理郭苓群图显示和公交合法附件，不以局部手机显示定图像作者。"
   liang_ce: "强调依法查证，不能为查来源夜里无权找群成员。"
   family: "韩予禾只核本人曾提交客服的附件，韩文舟不让邱补签不确定历史，郭苓自行发合法提醒。"
+  main_cast_injuries: none_new
+
+chapter_260_verified:
+  source_sha: "03821ffbce9ac4a595969c9779f22f7e98578372"
+  timeframe: "Day124 09:13—20:21"
+  zhou_heng: "第122次夜班只记录江禾认文字编辑、活动室撤纸、群消息有限更正与未知访客分层，不将图像私改当旧异常线索。"
+  xia_ning: "准确区分原发回执、群图的自愿增字说明、可控活动室印纸和未核传播中段；正式权限不越界。"
+  liang_ce: "阻止把江禾有界自认编辑扩展成敲门者的身份认定，也不让邱再签旧缺席证言。"
+  family: "江禾主动承担本份文字编辑并撤告示，郭苓允许合法民间旧照整理，邱只收本人指定页面回告，韩向自身正式渠道明确不授权他人索证。"
   main_cast_injuries: none_new

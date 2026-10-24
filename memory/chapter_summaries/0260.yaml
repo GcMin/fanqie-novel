@@ -1,0 +1,43 @@
+schema_version: 1
+chapter: 260
+title: "她认那行字，不认那扇门"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "03821ffbce9ac4a595969c9779f22f7e98578372"
+original_draft_source_sha: "95d12ea37fb8a0752ff42fc3b42829a47901c6af"
+reader_review: "reader_reviews/0260_03821ffb.md"
+prior_review: "reader_reviews/0260_95d12ea3.md"
+depends_on_chapter: 259
+original_depends_on_source_sha: "952ce78137f7e6e3b24829ed372d865a4fe8ba93"
+depends_on_source_sha: "191ae9da7061732bca3f432473da06387893bb42"
+dependency_status: verified_predecessor_body_identical_only_title_and_frontmatter
+timeframe: "Day124 09:13—20:21，第122次夜班初段"
+summary: >-
+  Day124 09:13北栎街道活动室仍贴着引用韩文舟中心受理回执红章及「凭编号补办缺席签认」的征集A4纸，一名只记得昔年管收发却不记得1996年6月17日值岗详情的灰衫老人带笔准备签；志愿者江禾立即阻止，承认自行排版及贴纸，活动室在场合法留原样、遮第三人隐私后实撤公告，不要求老人以另一张纸撤回签字或交身份证。09:42郭苓从群管理员得知该可定位增字群图昨晚已限制展示；管理员有权限核与「小禾」账号对应的消息，江禾本人展示电脑文字层并自认增添补签句和半行「回问原受理席」，其解释来自对公开旧业务用语的误解，证明的是有限某份文字编辑来源而不是全部图像技术鉴定、原始受理章来源或Day122未知访客身份。10:26活动室只核自身一张撤下与两张未张贴印纸，管理员按权在群里发不含私人信息的准确更正，不宣称所有私人手机副本已删。12:00物业高勤合法接收有限索引，分列图片编辑者自认、中心原发版无补签及门岗未放行；邱素英仅在自选受控页面获告，原拒访继续有效。16:30韩文舟听女儿转述，主动撤给邱的询问草稿，经本人有权受理渠道留下不授权外人索取旧岗出勤证明的声明。20:21第122次夜班周衡、夏宁、梁策具名区分能撤的征集图和线下纸、未知群外传播和来访者。1996普通照明的旧岗位纸证和韩私人后补22:41仍不相互证明，M004/M005未证。
+meaningful_state_changes:
+  - "江禾自愿承认为对应群图特定版本新增补签文字，有群管理记录与本人编辑层有限相互印证；不能据此指认Day122访客。"
+  - "活动室实际撤去误导A4告示并留合法原样；本场三张印纸受限核对，群内一条消息限制并发布公开可用更正。"
+  - "邱在本人受控渠道收信息仍不被逼签，韩本人自愿作无代理征证授权的限定声明。"
+knowledge_updates:
+  - "本人编辑承认与简单文字层的互证不同于司法级图像鉴定或跨平台完整传播溯源。"
+  - "允许私人老照片合法整理，不代表允许用受理章催他人证明不可靠的旧出勤记忆；邱拒访仍生效。"
+foreshadowing_updates:
+  - "F003有界新增现代图片具体版式的自愿编辑来源，仍不证明1996异常来话/系统同源；F008无可靠本人记忆矛盾新样本，M004/M005未确认。"
+relationship_updates:
+  - "江禾从阻止老人签错证明到承担自身排字责任，郭苓保留老街资料整理群的正当空间，高勤严守物管权限；韩父女与邱继续尊重各自证言自主，中心主角信任量化不凭空更改。"
+ending_state: "Day124第122次夜班：一处实体错误公告已撤、可控群图已限流纠偏且有自愿承担特定编辑的江禾；群外传播与陌生访客仍待有权核，邱不再被要求签旧证。"
+revision_trace:
+  original_source_sha: "95d12ea37fb8a0752ff42fc3b42829a47901c6af"
+  initial_reader: "reader_reviews/0260_95d12ea3.md"
+  initial_majors: 1
+  final_source_sha: "03821ffbce9ac4a595969c9779f22f7e98578372"
+  final_reader: "reader_reviews/0260_03821ffb.md"
+  final_majors: 0
+  local_revision_rounds: 1
+  fix: "前章259原稿到ready标题及Front Matter变更后，仅重绑260元数据与详细章纲，正文无修改"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_factual_delta: body_identical_only_title_and_frontmatter, structural: exact_commit_CI_required}
+char_count: 3041
