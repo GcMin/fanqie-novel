@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 263
+title: "那条路占了两车材料的位置"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "f77c68628d92352f48b5ec44aed722a21a9c87b4"
+reader_review: "reader_reviews/0263_f77c6862.md"
+depends_on_chapter: 262
+depends_on_source_sha: "630317b871cb90921f1c74f057a172ceb0881922"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day127 08:11—Day128 00:36，第125次夜班"
+summary: >-
+  Day127 08:11顾永山想像其他居民一样买报、取修好的收音机和下棋，顾珊09:05向街道合法提出持续公共无障碍路权和替代告知而非私人陪送，不交病历也不复用昨日过期许可。屈工10:26发现东侧长期安全出行受六摞临时堆料、货车进出和临电隔离冲突影响；14:10有权核定北侧新堆场只容四摞，剩两摞直接卸入正式作业点，固定电箱不可擅动。16:35批准施工组织变更，不批准公众开门；17:58六摞确实移离公众侧，吊装遇电缆护盖风险短暂停工复核，延后回填、新看守和机械调配成本均按实记录。18:44顾家隔街见实体围挡仍封。20:08第125夜班确认公众转角与隔离待专业复验、仍无开放许可。Day128 00:36周衡仅对历史‘永安里方向’口述走访目录提出受控原页申请，终点未核、现今施工路不能补旧坐标。F003有界推进，M004/M005未确证。
+meaningful_state_changes:
+  - "已获施工组织变更批准且六摞真实移离公众侧，车流错峰和回填延期留下真实岗位与费用记录。"
+  - "公共通路治理从临时开门转为持续通行条件待验，但本日仍无开放许可。"
+knowledge_updates:
+  - "施工变更、已完成移料与公众独立放行是不同证据状态。"
+  - "历史口述路仅目录有界，原页/终点/旧址同点未证。"
+foreshadowing_updates:
+  - "F003有界、F008无新样本；1996纸本与韩私人后补不互证，M004/M005未证。"
+relationship_updates:
+  - "顾珊尊重顾永山自主并争取公众平等路权，屈工承担实有工时成本，三主角不越权。"
+ending_state: "Day128 00:36六摞已移走，转角隔离仍待专业签验、入口仍关闭，次日开路须重新真实批准。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3388

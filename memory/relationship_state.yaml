@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 262
+last_updated_chapter: 263
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -491,3 +491,10 @@ chapter_262_relationships:
   facts: "顾永山提出去社区棋局的日常愿望，拿自己的时间表确认往返，顾珊尊重其自主判断；屈工接受因公众通路改变实际施工排程和看守人时而非谎报零成本。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "不要求轮椅使用者交病历、不上传其在活动室照片；旧走访目录未授权开放受访者身份。"
+
+chapter_263_relationships:
+  chapter: 263
+  source_sha: "f77c68628d92352f48b5ec44aed722a21a9c87b4"
+  facts: "顾永山要普通可预期通行并体谅施工者真实代价，顾珊以公共路线代替病历换私人陪送，屈工承认延期成本。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "无权索顾永山病历或其他公众身份，旧走访档案仍受控。"

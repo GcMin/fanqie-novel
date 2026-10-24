@@ -1,15 +1,15 @@
 schema_version: 1
-last_updated_chapter: 262
+last_updated_chapter: 263
 characters:
   zhou_heng:
-    location: "Day127 00:47，第124次夜班阶段交班"
-    state: "无新伤势；第123班末段核Day126实关及误绿箭头并交白班，第124班20:10再接本日另批17—20点两次真正行走和旧历史索引，拒将旧站目录词补作永安里地理同点。"
+    location: "Day128 00:36，第125次夜班阶段交班"
+    state: "核Day127实际移料和场内变更，分清公众仍未验开；Day128旧走访只目录，不能当空间同点。"
   liang_ce:
     location: "Day124晚，第122次夜班进行中"
     state: "无新伤势；第123班强调昨夜许可不能延续，白班安全人员必须另批并避施工车辆；第124班只跟有权实走回签，不冒历史坐标。"
   xia_ning:
-    location: "Day124晚，第122次夜班进行中"
-    state: "无新伤势；Day126 07:52转交实际封门和旧绿箭头，20:10第124班分列白班屏幕真实纠错、本日新批准/双程、尚未取到原页的历史目录索引。"
+    location: "Day128 00:36，第125次夜班"
+    state: "施工变更、移料实绩、公众屏暂停、次日需专业复验分别留证，拒提前报路已开放。"
 invariants: F008无新增；F009/F010/F011 resolved；M004未确认；M005不触碰
 
 chapter_133_notes:
@@ -628,3 +628,13 @@ chapter_262_verified:
   family: "顾永山希望去社区活动室下棋，不愿被当作只有遇险才可有轮椅路径；顾珊只反馈真实通行时间。"
   main_cast_injuries: none_new
   final_location: "Day127 00:47第124班阶段交班；次日开放/额外费用/历史走访原页待办。"
+
+chapter_263_verified:
+  source_sha: "f77c68628d92352f48b5ec44aed722a21a9c87b4"
+  timeframe: "Day127 08:11—Day128 00:36，第125次夜班"
+  zhou_heng: "谨守施工组织变更与公众通行许可分界，旧口述目录尚无原页及终点。"
+  xia_ning: "分别记录六摞已搬与公众入口仍禁行；不提前承诺明日。"
+  liang_ce: "专业安全和街道管理方必须次日按实到岗签验。"
+  family: "顾珊支持父亲普通出行自主且不交病历，屈工真实记延工。"
+  main_cast_injuries: none_new
+  final_location: "Day128 00:36公众步道仍封闭待验。"

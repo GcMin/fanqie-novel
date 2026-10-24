@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 262
+last_updated_chapter: 263
 characters:
   zhou_heng:
     knows:
@@ -669,3 +669,10 @@ chapter_262_knowledge:
   authority: "施工安全负责人批准当天独立公众侧限时路，屏幕运营人按权真实纠错，历史目录只在档案受控渠道进一步申请，不向居民外泄旧走访者或保密资料。"
   predecessor: "261原draft 6b1e2ae9b6cac73c47be4ce23add1a7c1e763789 对最终ready 6c205e563b116228157731338787edb1ce656a4b仅Front Matter变化，正文相同，262更新精准依赖且剧情事实兼容。"
   canon_boundary: "不以旧路名定位永安里6栋201，1996普通照明岗位纸证不与韩私簿同笔，F008无新矛盾，M004/M005未证。"
+
+chapter_263_knowledge:
+  confirmed: "Day127场内组织变更获准，六摞实际移离公众侧、车辆排程调整和延期工时有记录；公众未准开放。"
+  unresolved: "Day128专业复验和路权、实际成本结算、外部导航同步、旧走访原页与终点仍未确证。"
+  authority: "中心不代专业批路，固定电箱不得擅动，顾家不交病历也不进危险工区。"
+  predecessor: "第262章最终ready Blob 630317b871cb90921f1c74f057a172ceb0881922与263依赖精确一致；Day126 20点已关门。"
+  canon_boundary: "旧永安里方向为未定位目录，不证M004/M005；1996普通照明旧纸本与韩私簿不互证，F008无新可靠矛盾样本。"
