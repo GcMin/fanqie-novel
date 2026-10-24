@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 244
-last_reviewed_title: 照片删了，群里还有一张
-last_source_path: chapters/draft/0244.md
-last_source_sha: 111e7b549eced9ed7b2f0aa42b4597ff8b10d0db
-last_review_path: reader_reviews/0244_111e7b54.md
+last_reviewed_chapter: 245
+last_reviewed_title: 签收的是柜子，不是人
+last_source_path: chapters/draft/0245.md
+last_source_sha: c2c6e27004dd69dffd7a7ddfeb3885ff8359e5e4
+last_review_path: reader_reviews/0245_c2c6e270.md
 last_reviewed_at: "2026-10-24"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 243
-depends_on_source_sha: f961c6e5ecfe95fc2b36ce8f0b52880179cb3625
+depends_on_chapter: 244
+depends_on_source_sha: 0de88d3365a6c852078293af840630a7500434ee
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: f961c6e5ecfe95fc2b36ce8f0b52880179cb3625
+predecessor_current_source_sha: 0de88d3365a6c852078293af840630a7500434ee
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -418,4 +418,33 @@ combined_audit_chapter_244_20261024:
   predecessor_current_ready_blob_sha: "f961c6e5ecfe95fc2b36ce8f0b52880179cb3625"
   dependency_status: verified_exact_ready_blob
   body_revisions: 0
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_245_20261024:
+  chapter: 245
+  title: "签收的是柜子，不是人"
+  original_source_sha: "02bb14a5a8b29a6946e3336fedfc93b90f1bbafb"
+  original_review_path: "reader_reviews/0245_02bb14a5.md"
+  original_review_blockers: 0
+  original_review_majors: 1
+  original_review_minors: 2
+  source_path: chapters/draft/0245.md
+  source_sha: "c2c6e27004dd69dffd7a7ddfeb3885ff8359e5e4"
+  review_path: reader_reviews/0245_c2c6e270.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_after_local_revision
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 244
+  writer_declared_previous_draft_sha: "111e7b549eced9ed7b2f0aa42b4597ff8b10d0db"
+  writer_draft_dependency_check: predecessor_body_unchanged_metadata_only
+  depends_on_source_sha: "0de88d3365a6c852078293af840630a7500434ee"
+  predecessor_current_ready_blob_sha: "0de88d3365a6c852078293af840630a7500434ee"
+  dependency_status: revised_draft_exact_ready_blob
+  body_revisions: 1
+  revision_fix: "梁桂香原约上门服务未履行，补自主返家、22:05合法配送真到家门、22:09本人门口实际签收；修订后依新SHA独立Pass A/B"
   structural_gate: exact_commit_CI_required

@@ -1,13 +1,13 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 244
+current_chapter: 245
 current_stage: ready
-current_source_path: chapters/ready/0244.md
-current_source_sha: 111e7b549eced9ed7b2f0aa42b4597ff8b10d0db
-current_review_path: reader_reviews/0244_111e7b54.md
+current_source_path: chapters/ready/0245.md
+current_source_sha: c2c6e27004dd69dffd7a7ddfeb3885ff8359e5e4
+current_review_path: reader_reviews/0245_c2c6e270.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
@@ -15,7 +15,7 @@ next_retry_after: null
 last_action: audit_qa_memory_ready_complete
 last_action_date: 2026-10-24
 last_error: null
-last_diff_summary: "第244章正文无修订，Reader独立双遍0 BLOCKER/0 MAJOR/2 MINOR；直接依赖第243章最终ready SHA精确一致，独立Continuity/Style/Meaningful Change PASS，Memory及计划同步，不改Canon/published；须候选精确commit CI成功。"
+last_diff_summary: "第245章初稿02bb14a5a8b29a6946e3336fedfc93b90f1bbafb双遍Reader 0 BLOCKER/1 MAJOR/2 MINOR；已局部修补原上门合同未履行问题，增加梁桂香先返家、22:05配送员真到家门及22:09本人门口签收，并将前章依赖改为已审244最终ready SHA0de88d3365a6c852078293af840630a7500434ee。新稿c2c6e27004dd69dffd7a7ddfeb3885ff8359e5e4独立再双遍Reader 0/0/2，Continuity/Style独立QA PASS，本轮局部修订1轮、未改Canon/published，结构须精确候选CI成功。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -42,7 +42,7 @@ combined_audit_final_20261015:
   note: "前版Reader意见只绑定前版SHA；修订后新的Reader报告已存在并通过。"
 
 # source_sha of the final Reader Review refers to original draft; ready differs by metadata fields only.
-current_review_source_sha: 111e7b549eced9ed7b2f0aa42b4597ff8b10d0db
+current_review_source_sha: c2c6e27004dd69dffd7a7ddfeb3885ff8359e5e4
  
 combined_audit_chapter_154:
   stage: local_revision
@@ -160,4 +160,23 @@ combined_audit_chapter_244_20261024:
   minor_count: 2
   status: reader_and_content_qa_pass
   predecessor_body: exact_match_final_ready_blob
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_245_20261024:
+  chapter: 245
+  source_before: "02bb14a5a8b29a6946e3336fedfc93b90f1bbafb"
+  initial_review: reader_reviews/0245_02bb14a5.md
+  initial_blocker_count: 0
+  initial_major_count: 1
+  initial_minor_count: 2
+  stage: local_revision
+  stage_A_rounds: 1
+  fix: "补正确按合同上门送餐：梁桂香先回家，22:05配送员真到家门、22:09本人门口签收，不以到柜前问询冒充自取同意"
+  source_after: "c2c6e27004dd69dffd7a7ddfeb3885ff8359e5e4"
+  new_source_bound_review: reader_reviews/0245_c2c6e270.md
+  final_blocker_count: 0
+  final_major_count: 0
+  final_minor_count: 2
+  final_stage: reader_and_independent_content_qa_pass
+  dependency_verified: "244原稿与最终ready正文逐字一致，245新稿直接绑定244最终ready SHA"
   structural_gate: exact_commit_CI_required
