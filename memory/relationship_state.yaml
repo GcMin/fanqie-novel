@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 241
+last_updated_chapter: 243
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -356,3 +356,15 @@ chapter_241_verified:
   facts: "颜絮坚持不把父亲冷库两名受医护接续工人当班表占位，老颜从预设歇一晚返岗改为亲笔签实际到岗零。顾棠本人只回应劳动沟通与阿崔遗物，不公开诊断、不使他人闯禁区。司机江棋要求合法撤派和真实等候记录，双方不倒签收筐；三位主角专业协作无新的量化信任改变。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "顾棠短信仅允许用于排班沟通，不向车队客户公开医学检查；阿崔本人未签、家属不代证病情或返岗；老颜人事缺勤分类需专岗核实。"
+
+chapter_242_verified:
+  source_sha: "2deeb8011bc3c8b5c58de81fc14b9d221755a73a"
+  facts: "馆员邢荞与门卫姚镇互相确认实物接收而不擅开箱，邢荞对居民捐存材料的私密性立场与保管责任一致；罗谨守合法狭窄许可，周衡梁策夏宁依职务分源记录，三位主角量化互信无充足新证据调整。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "旧签到本涉及街坊姓名与捐存人隐私，扫码或保管不等于允许展陈；罗谨只能引用获准脱敏字段，禁止扩查真实旧当事人和古旧电话号码。"
+
+chapter_243_verified:
+  source_sha: "f333870276ba65ff7d4b9ed81c7e2c0075bc54f2"
+  facts: "姜澄维护母亲不愿公开身份的决定，姜桂珍明确自己不能替多位旧参与者同意展示；邢荞不回避已发生错播，阮蕴选择保全原来缓存证据并停止可控错误内容，母女获具名回执但不被虚假承诺零扩散；主角三人信任分值没有量化依据变化。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "姜澄不代母签公开授权，姜桂珍本人反对姓名展出正式收件，馆方不得依保管/扫码状态越过多人捐存权属，不把看到有人举手机当成实际传播证据。"

@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 241
-last_reviewed_title: 签名栏空着，排班表却满了
-last_source_path: chapters/draft/0241.md
-last_source_sha: 6c2f4e921b01300e21ed1c97f8d629b6a02afd26
-last_review_path: reader_reviews/0241_6c2f4e92.md
+last_reviewed_chapter: 243
+last_reviewed_title: 屏幕亮了，授权书还没签
+last_source_path: chapters/draft/0243.md
+last_source_sha: f333870276ba65ff7d4b9ed81c7e2c0075bc54f2
+last_review_path: reader_reviews/0243_f3338702.md
 last_reviewed_at: "2026-10-24"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,11 +12,11 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 240
-depends_on_source_sha: 6c2aae5ef5866ac61901154ab3101a30427a8f01
-dependency_status: exact_match_with_final_ready_blob
-predecessor_current_source_sha: 6c2aae5ef5866ac61901154ab3101a30427a8f01
-predecessor_sha_mismatch: false
+depends_on_chapter: 242
+depends_on_source_sha: 2deeb8011bc3c8b5c58de81fc14b9d221755a73a
+dependency_status: verified_previous_source_body_unchanged
+predecessor_current_source_sha: 316709876141c32020811e569ac2d623f8fdb10a
+predecessor_sha_mismatch: true
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
 upstream_declared_predecessor_sha: c98c2d744636933c645de3677ee9c4b8a2e94a92
@@ -352,5 +352,49 @@ combined_audit_chapter_241_20261024:
   depends_on_source_sha: "6c2aae5ef5866ac61901154ab3101a30427a8f01"
   predecessor_current_ready_blob_sha: "6c2aae5ef5866ac61901154ab3101a30427a8f01"
   dependency_status: exact_match_with_final_ready_blob
+  body_revisions: 0
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_242_20261024:
+  chapter: 242
+  title: "两本旧册对上了一个号"
+  source_path: chapters/draft/0242.md
+  source_sha: "2deeb8011bc3c8b5c58de81fc14b9d221755a73a"
+  review_path: reader_reviews/0242_2deeb801.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 241
+  depends_on_source_sha: "be6f43a6a994cc94d9d49e1d336f4aa6da9f8072"
+  predecessor_current_ready_blob_sha: "be6f43a6a994cc94d9d49e1d336f4aa6da9f8072"
+  dependency_status: exact_match_with_final_ready_blob
+  body_revisions: 0
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_243_20261024:
+  chapter: 243
+  title: "屏幕亮了，授权书还没签"
+  source_path: chapters/draft/0243.md
+  source_sha: "f333870276ba65ff7d4b9ed81c7e2c0075bc54f2"
+  review_path: reader_reviews/0243_f3338702.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 242
+  depends_on_source_sha: "2deeb8011bc3c8b5c58de81fc14b9d221755a73a"
+  predecessor_current_ready_blob_sha: "316709876141c32020811e569ac2d623f8fdb10a"
+  dependency_status: verified_previous_source_body_unchanged
+  predecessor_sha_mismatch: true
+  predecessor_sha_mismatch_reason: "frontmatter_only; source body identical to final ready body"
   body_revisions: 0
   structural_gate: exact_commit_CI_required
