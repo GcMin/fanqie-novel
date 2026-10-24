@@ -1,4 +1,4 @@
-# 第250章详细章纲：《那条短信终于写明了出口》
+# 第250章详细章纲：《那条文字回告终于写明了出口》
 
 - chapter: 250
 - volume: 6
@@ -29,3 +29,5 @@
 - ending: Day116 01:12文字回告完成、东西端现场可验证，西口仍封闭且维护/审批待办；旧历史证据未扩权。
 - target_body_effective_chars: 2600—3400（硬限2300—3800）
 - actual_body_effective_chars: 2982
+
+- audit_title_revision: 2026-10-24；原稿标题承诺“短信”，正文实际只证受控平台文字回告，故按独立Reader的明确MAJOR修正标题，正文不变，QA/ready证据见对应报告。

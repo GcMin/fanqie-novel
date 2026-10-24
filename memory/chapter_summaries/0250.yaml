@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 250
+title: "那条文字回告终于写明了出口"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "ba9009785b7706069450d504a809aef916801433"
+original_draft_source_sha: "2f58e35a2e1188e72a2e4ba7eb459defabe51696"
+reader_review: "reader_reviews/0250_ba900978.md"
+prior_review: "reader_reviews/0250_2f58e35a.md"
+depends_on_chapter: 249
+original_depends_on_source_sha: "e711c2869087b7c2084c1fb317d09ad413ab2bfd"
+depends_on_source_sha: "98b9b76683578cc1082032d1364e74bdb9d8702f"
+predecessor_draft_revised_source_sha: "98994700f4095f7d6911da43e03b2870365b58e1"
+dependency_status: verified_predecessor_factual_revision_compatible
+timeframe: "Day115 19:47—Day116 01:12，第113次夜班"
+summary: >-
+  Day115听障市民沈伶19:47在南栖地下通道西口发现坡道检修盖板固定件松脱、前轮险陷，使用文字报险，要求按受控可读文字渠道告知推车可达路线。平台将保安接听默认语音回拨错当报险人本人已知晓，广播称坡道禁用而旧电子绿箭头仍指向危险区。20:09夏宁正式接转且下令先安全围控，周衡梁策外勤不越权试盖板；20:34专业检盖板缺固定件、槽内积水，20:51有权封西口坡道和相连检修段两端、撤误导绿箭头，维修复验仍待办。东侧地面候选近路有货车尾板挡，另一合法路线纸箱侵占，21:41清箱后重新核宽度/出入口、22:03管理方正式按当夜限定路线批准绕行经市民中心北侧，补文字简图及22:15真人核可视人行灯。沈伶22:32自主推车出发，22:59真实到东口由具名值守确认，她自愿以受控平台文字留下最小本人到达记录，拒绝公开姓名及完整聊天；另一推婴儿车父亲独立确认。23:40主管核“电话优先”模板把保安接电误作本人回告且语音/视觉显示不一致，本案依法纠错保留原旧日志，通用模板生产修复待测试。1996普通照明仍只旧夜岗22:41、次日原受理席08:07岗位纸证及未见本人签认的可开放副本范围，不证报修人真实获答或现代异常工单同源。Day116 01:12交班，西坡与检修段仍封且未复验，东侧合法地面路线限条件运行。新章标题由原无实据“短信”局部改为真实“文字回告”，正文无修改。
+meaningful_state_changes:
+  - "真实检修坡道盖板危险获两端实封、错误绿箭头撤换，东侧绕行从地图想象转为实走复核与当晚正式核准。"
+  - "沈伶通过选择的受控文字渠道获路线，22:59本人独立证实安全到东口，不把保安电话或广播当成其回执。"
+  - "本案通信映射纠错有原始证据保全，全局模板修改和坡道专业复验仍待办。"
+knowledge_updates:
+  - "接线员接通/广播播出/显示屏绿箭头均不能充作特定文字报险者实际理解和接收；残障本人有自主选择可访问回告与最小留证的权利。"
+  - "静态地图和旧路口印象不是当夜安全通行证据；清障复走、信号灯和有权限定发布需分别具名记录。"
+foreshadowing_updates:
+  - "F003沿用1996年普通照明跨岗纸本有限范围不升级旧异常机制，F008无新人具体记忆错位，F009/F010/F011 resolved，M004/M005继续未确认。"
+relationship_updates:
+  - "沈伶拒绝保安和系统替她确认、杜逢转用文字尊重本人意见，推车父亲另作独立同意；无根据不改中心人员信任数值。"
+ending_state: "Day116 01:12第113夜班交班：西口坡道持续封控待专业正式修复，东侧限项合法绕行运行，沈伶本人文字接收及实际东口抵达已核，通用默认电话模板还需整改。"
+revision_trace: {original_source_sha: "2f58e35a2e1188e72a2e4ba7eb459defabe51696", initial_review: "reader_reviews/0250_2f58e35a.md", initial_majors: 1, final_source_sha: "ba9009785b7706069450d504a809aef916801433", final_review: "reader_reviews/0250_ba900978.md", final_majors: 0, local_revision_rounds: 1, change: "title_only_no_body_change"}
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_factual_delta: verified, structural: exact_commit_CI_required}
+char_count: 2982

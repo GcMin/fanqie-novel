@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 248
+last_updated_chapter: 250
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -398,3 +398,17 @@ chapter_248_verified:
   facts: "顾青坚持不相信未经实证的开放牌，贺茵保障真实合法转场，小禾为钟伯问脚程，宋昆主动借雨衣但守板车入室限制；三主角共同守权限和访客权益，互信数值无新依据不调整。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "避雨点只做最小有权限的个人登记，顾青不在公开家长群公布同行老人姓名，非本人许可不扩散访客地址与情况。"
+
+chapter_249_relationships:
+  chapter: 249
+  source_sha: "98994700f4095f7d6911da43e03b2870365b58e1"
+  facts: "陈芩匿名报险且拒透露公用号码，虞方实际留纸面回告并就提前设置醒目告示作调整；父亲推车真实出北门。三位主角仍遵从各岗位，不自增信任分数。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "持原编号者只按已核内容受控领取回执，不公开报险人姓名、工号、个人电话或住址。"
+
+chapter_250_relationships:
+  chapter: 250
+  source_sha: "ba9009785b7706069450d504a809aef916801433"
+  facts: "沈伶坚持自己的沟通渠道并逐项核文字路线，杜逢从误以为口述即可到本人可读文字确认；推车父亲与沈伶各自自主行动和核签，不互代。三位主角信任分数无依据不修改。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "沈伶仅许可最小受控本人文字回告，不授权姓名、电话、完整聊天和他人肖像公开；拒语音不等于放弃服务。"

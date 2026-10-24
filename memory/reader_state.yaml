@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 248
-last_reviewed_title: 灯亮着，避雨点却锁着
-last_source_path: chapters/draft/0248.md
-last_source_sha: 308ec05b8aeb5664696afb2aa097f958568619f5
-last_review_path: reader_reviews/0248_308ec05b.md
+last_reviewed_chapter: 250
+last_reviewed_title: 那条文字回告终于写明了出口
+last_source_path: chapters/draft/0250.md
+last_source_sha: ba9009785b7706069450d504a809aef916801433
+last_review_path: reader_reviews/0250_ba900978.md
 last_reviewed_at: "2026-10-24"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,11 +12,11 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 247
-depends_on_source_sha: f28f3ab9987ffce5c10e1ec43911fd68b88faa08
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: f28f3ab9987ffce5c10e1ec43911fd68b88faa08
-predecessor_sha_mismatch: false
+depends_on_chapter: 249
+depends_on_source_sha: e711c2869087b7c2084c1fb317d09ad413ab2bfd
+dependency_status: verified_predecessor_factual_revision_compatible
+predecessor_current_source_sha: 98b9b76683578cc1082032d1364e74bdb9d8702f
+predecessor_sha_mismatch: true
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
 upstream_declared_predecessor_sha: c98c2d744636933c645de3677ee9c4b8a2e94a92
@@ -510,4 +510,46 @@ combined_audit_chapter_248_20261024:
   predecessor_current_ready_blob_sha: "f28f3ab9987ffce5c10e1ec43911fd68b88faa08"
   dependency_status: verified_exact_ready_blob
   body_revisions: 0
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_249_20261024:
+  chapter: 249
+  title: "回执打出来了，人还没收到"
+  original_source_sha: "e711c2869087b7c2084c1fb317d09ad413ab2bfd"
+  initial_reader: reader_reviews/0249_e711c286.md
+  initial_majors: 1
+  stage_A_fix: "Day114 22:48原报险人将早上改为晚上以匹配19:18"
+  source_sha: "98994700f4095f7d6911da43e03b2870365b58e1"
+  review_path: reader_reviews/0249_98994700.md
+  final_blocker_count: 0
+  final_major_count: 0
+  final_minor_count: 2
+  reader_gate: pass
+  content_qa: pass
+  predecessor_ready_sha: "457ff77632d91e5b6708029c917515d6cba5244d"
+  ready_blob_sha: "98b9b76683578cc1082032d1364e74bdb9d8702f"
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_250_20261024:
+  chapter: 250
+  title: "那条文字回告终于写明了出口"
+  original_source_sha: "2f58e35a2e1188e72a2e4ba7eb459defabe51696"
+  original_review: reader_reviews/0250_2f58e35a.md
+  original_blocker_count: 0
+  original_major_count: 1
+  original_minor_count: 2
+  stage_A_fix: "只改标题由短信到受控文字回告且章纲标题同步，正文逐字不变"
+  source_sha: "ba9009785b7706069450d504a809aef916801433"
+  review_path: reader_reviews/0250_ba900978.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_after_new_sha
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  content_qa: pass
+  initial_declared_predecessor_sha: "e711c2869087b7c2084c1fb317d09ad413ab2bfd"
+  predecessor_revised_draft_sha: "98994700f4095f7d6911da43e03b2870365b58e1"
+  predecessor_ready_sha: "98b9b76683578cc1082032d1364e74bdb9d8702f"
+  dependency_status: verified_only_249_early_late_speech_correction_no_fact_conflict
+  ready_blob_sha: "573475d12c2345f83be2f0cda7303e2f705beec7"
   structural_gate: exact_commit_CI_required

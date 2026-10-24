@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 249
+title: "回执打出来了，人还没收到"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "98994700f4095f7d6911da43e03b2870365b58e1"
+original_draft_source_sha: "e711c2869087b7c2084c1fb317d09ad413ab2bfd"
+reader_review: "reader_reviews/0249_98994700.md"
+prior_review: "reader_reviews/0249_e711c286.md"
+depends_on_chapter: 248
+depends_on_source_sha: "457ff77632d91e5b6708029c917515d6cba5244d"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day114 19:18—Day115 01:08，第112次夜班"
+summary: >-
+  Day114陈芩在东衡路滨河公园19:18匿名用自助机报近水护栏松动，19:19带纸质受理0716小票离开，19:24机具把结果页31秒“展示成功”误映射成“报险人已收到答复”，而本人未读。20:11虞方真正报现场风险并劝返，20:36周衡梁策到场见旧导向牌仍误导推婴儿车者。20:58柳峥专业检底座及邻段固定件，21:17管理方批准只封八米近水护栏段且两端具名守护，不以水桶临挡或拧螺母视作修好。21:42园方实走核北侧合法主园路、坡度照明出入口后授权绕行，22:03年轻父亲真正推车出北门。22:19公众按权公示险段及临时路线并提供持原编号者可领纸答复，不等于直接通知报险人。陈芩22:48持0716票当面逐行读到回告且不提交公用工作号或身份证，保全原19:24假回讯源；告示生效时刻字体按允许范围醒目重写。罗谨Day115零点后获准脱敏核1996年普通道路照明旧案“原受理席结果收讫”岗位交接层级，可开放副本未见报修人本人纸信/电话签认，不排除其它通知或证明灯修好，不能推旧失址异常及现代同源。Day115 01:08交班，八米护栏段仍封、专业修复复验与系统整体整改未完成，合法北侧绕行可用，陈芩真收到当夜答复。
+meaningful_state_changes:
+  - "危险近水护栏八米段真实专业限项封控，两端在岗；北侧合法主路实查通过，22:03推车父亲真实离园。"
+  - "原19:24机具展示误当个人已收被查出；持0716票的陈芩22:48真拿纸答复，最小受控记录并保护本人身份。"
+knowledge_updates:
+  - "公众公示与纸面可领取不等于原报险人实际获回，终端展示成功也不等于本人阅读。"
+  - "1996普通业务可开放副本未见个人签认只说明该副本的证据范围，不等于绝未通知或修复。"
+foreshadowing_updates:
+  - "F003仅普通历史纸本受限新增个人签认缺证的有限范围，F008无新具体记忆矛盾，F009/F010/F011 resolved，M004/M005仍未确证。"
+relationship_updates:
+  - "陈芩坚持匿名报公共安全而虞方真正给纸票回告，父亲帮助指出牌子应提前设置；三主角依岗位分工，无信任分数证据可改。"
+ending_state: "Day115 01:08第112次夜班交班，近水八米持续封控、北侧合法绕行可用，陈芩已本人获回告，设备误映射有原日志但全局未修复；1996纸档仅普通案例未见本人签认。"
+revision_trace: {original_source_sha: "e711c2869087b7c2084c1fb317d09ad413ab2bfd", initial_review: "reader_reviews/0249_e711c286.md", initial_majors: 1, final_source_sha: "98994700f4095f7d6911da43e03b2870365b58e1", final_review: "reader_reviews/0249_98994700.md", final_majors: 0, local_revision_rounds: 1}
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_commit_CI_required}
+char_count: 3205
