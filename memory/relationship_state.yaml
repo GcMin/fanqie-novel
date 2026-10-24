@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 250
+last_updated_chapter: 251
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -412,3 +412,10 @@ chapter_250_relationships:
   facts: "沈伶坚持自己的沟通渠道并逐项核文字路线，杜逢从误以为口述即可到本人可读文字确认；推车父亲与沈伶各自自主行动和核签，不互代。三位主角信任分数无依据不修改。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "沈伶仅许可最小受控本人文字回告，不授权姓名、电话、完整聊天和他人肖像公开；拒语音不等于放弃服务。"
+
+chapter_251_relationships:
+  chapter: 251
+  source_sha: "1f10a5a74a171da2ab1d0f160b2486d0235eda5a"
+  facts: "韩文舟与女儿仍就旧夜岗记忆能否核证存在分歧，但双方认可不传播未核他人旧电话；周衡梁策夏宁尊重其有限同意，帮助找到合法受理和咨询路径而不替他确定记忆真假。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "本人自持原簿、不授权整本复制、第三方电话号码必须遮挡；旧纸原样与当年收话人事实均不可擅自公开。"

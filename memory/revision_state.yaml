@@ -1,13 +1,13 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 250
+current_chapter: 251
 current_stage: ready
-current_source_path: chapters/ready/0250.md
-current_source_sha: ba9009785b7706069450d504a809aef916801433
-current_review_path: reader_reviews/0250_ba900978.md
+current_source_path: chapters/ready/0251.md
+current_source_sha: 1f10a5a74a171da2ab1d0f160b2486d0235eda5a
+current_review_path: reader_reviews/0251_1f10a5a7.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
@@ -15,7 +15,7 @@ next_retry_after: null
 last_action: audit_qa_memory_ready_complete
 last_action_date: 2026-10-24
 last_error: null
-last_diff_summary: "249前轮已按SHA989947独立新Reader0/0/2；本轮250旧标题短信与实际受控文字回告不符为MAJOR仅改标题，新SHAba900978独立双遍Reader0/0/2。前章249原稿e711变989仅Day114早上改晚上，核实250前情事实兼容；待精确候选CI通过。"
+last_diff_summary: "251原稿Reader新SHA 1f10a5a7 双遍0/0/2，未修订；前章250最终ready SHA精确一致，普通1996历史纸证与私人未核笔记分层，限额受理回执不构成鉴定；需候选commit CI精确通过。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -254,3 +254,13 @@ combined_audit_chapter_250_20261024:
   factual_difference: "249只更正Day114 22:48陈芩早上为晚上，250仅依其交班和历史普通纸证，无事实冲突。"
   candidate_ready_sha: "573475d12c2345f83be2f0cda7303e2f705beec7"
   structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_251_20261024:
+  chapter: 251
+  body_revisions: 0
+  source_sha: "1f10a5a74a171da2ab1d0f160b2486d0235eda5a"
+  review: "reader_reviews/0251_1f10a5a7.md"
+  blocker_count: 0
+  major_count: 0
+  qa_gate: pass
+  ci_gate: exact_commit_required_before_main
