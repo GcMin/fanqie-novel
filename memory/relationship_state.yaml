@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 243
+last_updated_chapter: 244
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -368,3 +368,9 @@ chapter_243_verified:
   facts: "姜澄维护母亲不愿公开身份的决定，姜桂珍明确自己不能替多位旧参与者同意展示；邢荞不回避已发生错播，阮蕴选择保全原来缓存证据并停止可控错误内容，母女获具名回执但不被虚假承诺零扩散；主角三人信任分值没有量化依据变化。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "姜澄不代母签公开授权，姜桂珍本人反对姓名展出正式收件，馆方不得依保管/扫码状态越过多人捐存权属，不把看到有人举手机当成实际传播证据。"
+
+chapter_244_verified:
+  source_sha: "111e7b549eced9ed7b2f0aa42b4597ff8b10d0db"
+  facts: "姜澄尊重姜桂珍不必跑遍所有群追照片的意见，接受限定两群处置阶段说明而不接受假‘全删净’；姜桂珍坚持既保个人公开授权也保社区旧册的存续。汪沅承担自己拍摄、原配文和首次发送的可证责任，钱颂承认改成没有依据的‘领补助’并协助纠错，不能以‘别人教我’猜第三名真实传播者；邢荞和阮蕴留源证、分权处理，两位群管理员只能处置可控帖子。三主角信任分值没有足够新事件依据调整。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不得把姜桂珍识别信息重复写公开工单或工作群，不通过威迫邻居索取整部手机聊天；本人不同意公开不等于代其他送存人签署全批许可，管理员删帖也不等于确认所有私人照片副本消失。"
