@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 261
+last_updated_chapter: 262
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -484,3 +484,10 @@ chapter_261_relationships:
   facts: "顾珊尊重父亲的安全自主与本夜回家需求，顾永山拒绝让施工者为赶工冒险；屈工面对当夜清移、值守工时与未知费用主动留下责任记录，不虚称以后都有路。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "顾永山仅需当次安全到达核验，无需向施工现场公开病历和完整住址；历史图纸原版本受控保存不对外误导。"
+
+chapter_262_relationships:
+  chapter: 262
+  source_sha: "c275555af1c614accf2148cbfcba89fac859de98"
+  facts: "顾永山提出去社区棋局的日常愿望，拿自己的时间表确认往返，顾珊尊重其自主判断；屈工接受因公众通路改变实际施工排程和看守人时而非谎报零成本。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不要求轮椅使用者交病历、不上传其在活动室照片；旧走访目录未授权开放受访者身份。"

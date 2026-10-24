@@ -6,9 +6,9 @@
 - role: Writer / Planner + Continuity Precheck + First Draft only
 - observed_main_sha: 40e86fd3267d5dfa77269820adc5f97213ab6ea6
 - depends_on_chapter: 261
-- depends_on_source_sha: "6b1e2ae9b6cac73c47be4ce23add1a7c1e763789"
-- dependency_status: provisional
-- dependency_boundary: 261仅为未审draft，所依赖具体来源为上述完整Git blob SHA；本章以其Day125夜临时平接路经专业许可真实走通、仅覆盖当夜、历史底图“永安里方向”待核为临时参考。若261经独立Audit修订改变通行时间、许可条件或历史备注，262必须交由独立审核/修订核实衔接，不能把261当正式Canon。
+- depends_on_source_sha: "6c205e563b116228157731338787edb1ce656a4b"
+- dependency_status: verified_predecessor_body_identical_only_frontmatter
+- dependency_boundary: 261已独立QA与结构CI放行ready，旧261 draft SHA 6b1e2ae9b6cac73c47be4ce23add1a7c1e763789 对最终ready SHA 6c205e563b116228157731338787edb1ce656a4b 正文逐字一致，仅Front Matter交付字段变化。本章Day126承接前夜安全走通、单夜许可及尚未定位的永安里方向历史备注，已核实不改变实质事实。
 - continuity_precheck: 已于本轮读取main规则AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md，bible四项硬约束与三位主角人物卡；核实旧outlines/volume_05.md和outlines/arcs/arc_current.md明显滞后，不据其替代近期事实；核读memory/current_arc、character_state、relationship_state、knowledge_state、world_state、foreshadowing、timeline，0251—0260十章摘要与0257—0261五章正文，查plans/chapter_plan.csv和261章详细计划。未读取历史reader_reviews。检查published/ready/draft三目录，第153章已在published、最高数字为261，无262原稿。不得动旧章。
 - goal: 把261的“明日能否真正通行”变为双班次与日间具体路权问题，以实际第二次往返、责任成本和历史索引来源打开总纲阶段四，同时不把未核路线词当永安里精确坐标。
 - pov: 贴近顾珊/周衡的有限第三人称；顾永山拥有自己的生活目标，屈工面对真实工序、看守与成本。
@@ -29,3 +29,5 @@
 - ending: 顾家今天真实往返，下一天仍未预支通行许可；旧走访索引提供可依法继续求证的细线索，而非历史真相。
 - target_body_effective_chars: 2600-3400（硬限2300-3800）
 - actual_body_effective_chars: 3703
+
+- audit_20261025: "Stage A只修依赖元数据与本章纲；正文3703有效字未改。原262 SHA 6ecd17d95b4ef1870b602d3008f8cd44d0e3a053，新Reader源SHA c275555af1c614accf2148cbfcba89fac859de98；独立Reader 0/0/2，QA及精确候选CI后方可放行。"

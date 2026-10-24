@@ -1,0 +1,42 @@
+schema_version: 1
+chapter: 262
+title: "第二班人不认昨夜的路"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "c275555af1c614accf2148cbfcba89fac859de98"
+original_draft_source_sha: "6ecd17d95b4ef1870b602d3008f8cd44d0e3a053"
+reader_review: "reader_reviews/0262_c275555a.md"
+prior_review: "reader_reviews/0262_6ecd17d9.md"
+depends_on_chapter: 261
+original_depends_on_source_sha: "6b1e2ae9b6cac73c47be4ce23add1a7c1e763789"
+depends_on_source_sha: "6c205e563b116228157731338787edb1ce656a4b"
+dependency_status: verified_predecessor_body_identical_only_frontmatter
+timeframe: "Day126 06:45—Day127 00:47，第123、124次夜班衔接"
+summary: >-
+  Day126早06:45白榆路旧站北口昨日东侧轮椅临时路按当夜许可结束关闭，但公共电子箭头仍绿；07:06顾珊推顾永山发现车口栏杆、旧绿箭头错导婴儿车，07:18本夜班末段周衡夏宁核当日尚未批准可走，07:52交白班按权核。10:40施工安全负责人实地否决摆临时坡板和旧站后街人车混行；11:58街道仅允许核限时路条件，12:11现场屏及街道可控页面实际改暂停，外部导航仍未确认同步。日班真实调整两车进料、压实机和看守人时，16:22复核边界后16:48有权另批东侧公共侧路17:00—20:00限时开放，车辆口闭、双端具名看守；17:03实际就岗并以空轮椅复测，发现警示牌座偏移即调整，17:16真实改为限时通行。17:29顾珊与父亲按本日许可出门，18:07父亲在社区活动室与老赵下棋，19:24在双端看守下安全返家，20:10第124班分别收实走、错指纠正和旧检索材料，Day127 00:47阶段交班。历史图纸“永安里方向”进一步找到一条旧“步行路径补充走访”目录索引，标口述路径、终点未实核，尚无原走访页和精确定位，不认1996旧异常工单或M004/M005。第二天通路与额外费用待批。
+meaningful_state_changes:
+  - "按夜岗到期合法关闭的通道与公众屏过期绿箭头脱节获确认，并12:11在本处真正停误导显示。"
+  - "新限时17至20点有权批准并经专业复测后实际开放，顾永山参加棋局且按时真实往返，不虚报永久通行。"
+  - "历史底图找到未定位‘永安里方向’旧走访目录摘要，仍无原档、原访客身份或空间同点证据。"
+knowledge_updates:
+  - "日班现场状态、旧夜班许可与公共电子箭头必须分别核，旧绿灯不能给轮椅取得路权。"
+  - "早期走访目录索引存在不等于原资料已取到、终点已核或周衡记忆获得物理定位。"
+foreshadowing_updates:
+  - "F003有限增加旧图口述走访的目录线索，F008未获新可靠本人记忆反证，M004/M005仍未证，历史普通照明和韩私簿不互证。"
+relationship_updates:
+  - "顾永山争取正常社区生活并记下返程时刻，顾珊不拿父亲就医隐私换通行；屈工承认实际换班组织成本。"
+ending_state: "Day127 00:47：顾家今天两趟实走，东侧当日限时许可已有20:00结束回签，次日仍须重批；外部导航、费用和历史走访原页待核。"
+revision_trace:
+  original_source_sha: "6ecd17d95b4ef1870b602d3008f8cd44d0e3a053"
+  initial_review: "reader_reviews/0262_6ecd17d9.md"
+  initial_majors: 1
+  stage_a: "仅将261旧provisional依赖重绑已校验261 ready blob 6c205e563b116228157731338787edb1ce656a4b，同步详细章纲，正文零变化"
+  revised_source_sha: "c275555af1c614accf2148cbfcba89fac859de98"
+  final_review: "reader_reviews/0262_c275555a.md"
+  final_majors: 0
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_factual_delta: body_identical_only_frontmatter, structural: exact_commit_CI_required}
+char_count: 3703
