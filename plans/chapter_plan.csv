@@ -97,7 +97,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 154,围挡外的最后九桶,completed,ARC-050,安全恢复清运,旧大车路线无法穿越封控,九桶分六桶与三桶清走,,3000,pass,published,一次StageA修订后SHA953157a8；Reader0BLOCKER0MAJOR1MINOR；QA通过
 155,二十二号不在地图上,completed,ARC-051,处理电气危险与地址缺项,实体门牌不等于公开服务登记,LM-214隔离未复电且后院可通行,,3000,pass,published,154新旧桶数差异已核相容；Reader0BLOCKER0MAJOR2MINOR；QA通过
 156,那条没填理由的隐藏记录,completed,ARC-051,协助照护到户并追查公众限制,正式在用地址被管理端暂缓展示且依据未明,照护到户且源任务待查,,3000,pass,published,Reader0BLOCKER0MAJOR2MINOR；QA与Memory同步；SHAefbca08f
-157,没有到期日的那张名单,completed,ARC-051,核源并恢复22号公众服务,测试及人工留痕不等于正式发布或人员恶意,人工名单持续排除公众输出，正式地址和安全到达指引已送达；LM-214仍隔离,F012,3000,pass,ready,源稿SHA72253cfa；Reader0BLOCKER0MAJOR2MINOR；Continuity/Style QA通过；前章依赖源核对
+157,没有到期日的那张名单,completed,ARC-051,核源并恢复22号公众服务,测试及人工留痕不等于正式发布或人员恶意,人工名单持续排除公众输出，正式地址和安全到达指引已送达；LM-214仍隔离,F012,3000,pass,published,源稿SHA72253cfa；Reader0BLOCKER0MAJOR2MINOR；Continuity/Style QA通过；前章依赖源核对
 158,批准单上只封了一条路,completed,ARC-051,核源并恢复22号公众服务,测试及人工留痕不等于正式发布或人员恶意,22:28 LM-214专业复检完工，22:37解除门前警戒并恢复正门通行；公众地址仍未恢复,F012,3000,pass,ready,源稿SHA84cb29bd；Reader0BLOCKER0MAJOR2MINOR；Continuity/Style QA通过；前章依赖源核对
 159,核实后再调整,completed,ARC-051,核源并恢复22号公众服务,测试及人工留痕不等于正式发布或人员恶意,00:46主管单位发出书面范围纠正意见，仍需正式审批发布；生产公众检索未恢复,F012,3000,pass,ready,源稿SHA2359139c；Reader0BLOCKER0MAJOR2MINOR；Continuity/Style QA通过；前章依赖源核对
 160,把二十二号还给地图,completed,ARC-051,核源并恢复22号公众服务,测试及人工留痕不等于正式发布或人员恶意,02:19正式批准，03:19生产发布，03:27两个普通终端查到22号，04:03收到回执；商业地图与经办责任待核,F012,3000,pass,ready,源稿SHA03085203；Reader0BLOCKER0MAJOR2MINOR；Continuity/Style QA通过；前章依赖源核对
