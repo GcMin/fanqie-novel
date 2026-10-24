@@ -1,13 +1,13 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 260
+current_chapter: 261
 current_stage: ready
-current_source_path: chapters/ready/0260.md
-current_source_sha: 03821ffbce9ac4a595969c9779f22f7e98578372
-current_review_path: reader_reviews/0260_03821ffb.md
+current_source_path: chapters/ready/0261.md
+current_source_sha: 6b1e2ae9b6cac73c47be4ce23add1a7c1e763789
+current_review_path: reader_reviews/0261_6b1e2ae9.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
@@ -15,7 +15,7 @@ next_retry_after: null
 last_action: audit_reader_qa_memory_ready_candidate
 last_action_date: 2026-10-25
 last_error: null
-last_diff_summary: "260初稿前章依赖仍为259旧draft、provisional；259最终ready标题与Front Matter变化但正文全同；仅重绑260元数据及详细章纲，正文3041字不变，新SHA独立Reader0/0/2及QA PASS，待精确Commit CI结构检查"
+last_diff_summary: "261正文未修订，依赖260实际ready blob精确，Reader双遍0/0/2与内容QA通过，待候选精确CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -42,7 +42,7 @@ combined_audit_final_20261015:
   note: "前版Reader意见只绑定前版SHA；修订后新的Reader报告已存在并通过。"
 
 # source_sha of the final Reader Review refers to original draft; ready differs by metadata fields only.
-current_review_source_sha: 03821ffbce9ac4a595969c9779f22f7e98578372
+current_review_source_sha: 6b1e2ae9b6cac73c47be4ce23add1a7c1e763789
  
 combined_audit_chapter_154:
   stage: local_revision
@@ -368,5 +368,15 @@ combined_audit_chapter_260_20261025:
   final_reader: {blocker: 0, major: 0, minor: 2}
   predecessor_ready_sha: "191ae9da7061732bca3f432473da06387893bb42"
   predecessor_factual_delta: only_title_and_frontmatter_not_body
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_261_20261025:
+  chapter: 261
+  source_sha: "6b1e2ae9b6cac73c47be4ce23add1a7c1e763789"
+  review: "reader_reviews/0261_6b1e2ae9.md"
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  predecessor_ready_blob: "6a1316ad1c6584839772362f297efd1de784ae3b"
   continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required

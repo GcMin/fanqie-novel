@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 260
-last_reviewed_title: 她认那行字，不认那扇门
-last_source_path: chapters/draft/0260.md
-last_source_sha: 03821ffbce9ac4a595969c9779f22f7e98578372
-last_review_path: reader_reviews/0260_03821ffb.md
+last_reviewed_chapter: 261
+last_reviewed_title: 封路通知没画那道门
+last_source_path: chapters/draft/0261.md
+last_source_sha: 6b1e2ae9b6cac73c47be4ce23add1a7c1e763789
+last_review_path: reader_reviews/0261_6b1e2ae9.md
 last_reviewed_at: "2026-10-25"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 259
-depends_on_source_sha: 191ae9da7061732bca3f432473da06387893bb42
+depends_on_chapter: 260
+depends_on_source_sha: 6a1316ad1c6584839772362f297efd1de784ae3b
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 191ae9da7061732bca3f432473da06387893bb42
+predecessor_current_source_sha: 6a1316ad1c6584839772362f297efd1de784ae3b
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -685,3 +685,14 @@ combined_audit_chapter_260_20261025:
   final_reader: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
   structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_261_20261025:
+  chapter: 261
+  original_source_sha: "6b1e2ae9b6cac73c47be4ce23add1a7c1e763789"
+  review: "reader_reviews/0261_6b1e2ae9.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  body_revisions: 0
+  predecessor_ready_blob: "6a1316ad1c6584839772362f297efd1de784ae3b"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
