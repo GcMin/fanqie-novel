@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 247
-last_reviewed_title: 回访名单里有个拒接的人
-last_source_path: chapters/draft/0247.md
-last_source_sha: 1b8a84adf2d4667eeede7c5fc6b7b9f69374f608
-last_review_path: reader_reviews/0247_1b8a84ad.md
+last_reviewed_chapter: 248
+last_reviewed_title: 灯亮着，避雨点却锁着
+last_source_path: chapters/draft/0248.md
+last_source_sha: 308ec05b8aeb5664696afb2aa097f958568619f5
+last_review_path: reader_reviews/0248_308ec05b.md
 last_reviewed_at: "2026-10-24"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 246
-depends_on_source_sha: 3b122bb32febf69922b8a21b74f05bfd1969e128
+depends_on_chapter: 247
+depends_on_source_sha: f28f3ab9987ffce5c10e1ec43911fd68b88faa08
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 3b122bb32febf69922b8a21b74f05bfd1969e128
+predecessor_current_source_sha: f28f3ab9987ffce5c10e1ec43911fd68b88faa08
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -489,4 +489,25 @@ combined_audit_chapter_247_20261024:
   depends_on_source_sha: "3b122bb32febf69922b8a21b74f05bfd1969e128"
   predecessor_current_ready_blob_sha: "3b122bb32febf69922b8a21b74f05bfd1969e128"
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_248_20261024:
+  chapter: 248
+  title: "灯亮着，避雨点却锁着"
+  source_path: "chapters/draft/0248.md"
+  source_sha: "308ec05b8aeb5664696afb2aa097f958568619f5"
+  review_path: reader_reviews/0248_308ec05b.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 247
+  depends_on_source_sha: "f28f3ab9987ffce5c10e1ec43911fd68b88faa08"
+  predecessor_current_ready_blob_sha: "f28f3ab9987ffce5c10e1ec43911fd68b88faa08"
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 0
   structural_gate: exact_commit_CI_required

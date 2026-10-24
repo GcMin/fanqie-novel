@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 247
+last_updated_chapter: 248
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -392,3 +392,9 @@ chapter_247_verified:
   facts: "林桐英明确拒自动语音回访但不拒绝向儿子适度告知行踪；林放起初凭绿截图、备用钥匙要求开门，见楼梯电气险后转为问安全通道，不再逼迫非法入户。冯澄告知未实施的系统偏好仍待有权岗位，现场只记其本人真实决定，三主角互信分数没有足够事由调整。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "林桐英姓名住址电话不向邻里群公开；儿子远程着急不是强制入户或代签回访意愿授权；本人明确拒自动来电仍保留依法请求帮助的权利，不能擅写病情。"
+
+chapter_248_verified:
+  source_sha: "308ec05b8aeb5664696afb2aa097f958568619f5"
+  facts: "顾青坚持不相信未经实证的开放牌，贺茵保障真实合法转场，小禾为钟伯问脚程，宋昆主动借雨衣但守板车入室限制；三主角共同守权限和访客权益，互信数值无新依据不调整。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "避雨点只做最小有权限的个人登记，顾青不在公开家长群公布同行老人姓名，非本人许可不扩散访客地址与情况。"
