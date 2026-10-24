@@ -1,11 +1,11 @@
 schema_version: 1
-last_updated_chapter: 254
-current_time: "Day120凌晨01:14，第117次夜班交接"
+last_updated_chapter: 256
+current_time: "Day122凌晨01:18，第119次夜班交接"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-054_active
-  current_service_case: "韩文舟已本人领回私簿，获1995秋—1997春旧岗合法用工及1996-06-17预排轮休证据，实际签到未知。"
-  next_entry: "未来仅依法申请本人当日实际到岗/临时顶班可开放来源，不能推预排为实签；照片传播、旧手记原纸仍待查，M004/M005无确证。"
+  current_service_case: "韩文舟合法查本人1996-06-17实际交接卷，获准钥匙和实物签认栏未见本人署名，但当晚实际到岗与接话者不明。"
+  next_entry: "是否继续依法查询具体接话或临时到岗字段由本人自主决定，不以未见签名反推出整晚缺席；陌生索签电话待邱自行合法处理。"
 case_state:
   chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
 invariants:
@@ -633,3 +633,20 @@ chapter_254_world:
   material_custody: "旧簿仍由韩本人保管，合法本人排班脱敏副本另存受控附件，未获任何私人簿鉴定结论。"
   public_safety: "南栖西坡及东衡近水险段仍封控待专业复验。"
   canon_boundary: "预排轮休不足证明当日绝无上岗；F003新有界独立来源但M004/M005均未证。"
+
+chapter_255_world:
+  chapter: 255
+  place: "合法档案窗口/韩文舟家/夜间中心"
+  verified: "有正式目录来源的1996年6月实际交接卷日期范围涵盖6月17日，但不证明指定当日记录完整或韩本人签认。"
+  unresolved: "授权是否覆盖特定日页、老同事的陌生索签者和回执照片流向、私簿日期出处。"
+  material_custody: "旧软皮簿仍由韩文舟私有保管，未正式鉴定或捐馆。"
+  public_safety: "南栖西坡与东衡近水险段均继续封控待专业复验。"
+  canon_boundary: "F003仅有界新增目录，M004/M005未证。"
+chapter_256_world:
+  chapter: 256
+  place: "档案受控查档窗口/韩文舟家/夜间中心"
+  verified: "合法有权针对6月17日钥匙及实物交接签认栏核查，未见韩本人署名；不包括接话、临时到岗或转送。"
+  unresolved: "韩当晚到底谁接听旧来话、是否临时值岗与陌生电话来源均未知；普通照明与异常同源未证。"
+  material_custody: "档案原页不对外开放；韩个人持有馆方本人字段有限答复及私人簿，中心保存受控更正。"
+  public_safety: "南栖西坡及东衡近水险段仍未完成专业修复复开。"
+  canon_boundary: "私簿后补22:41不能替代官方1996旧岗位收讫纸证；M004/M005未证。"

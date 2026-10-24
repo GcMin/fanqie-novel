@@ -1,15 +1,15 @@
 schema_version: 1
-last_updated_chapter: 254
+last_updated_chapter: 256
 characters:
   zhou_heng:
-    location: "Day120凌晨，夜间中心第117次夜班交班"
-    state: "无新伤势；韩文舟253本人已取回旧簿；254仅可证旧用工和1996预排轮休，实际到岗及旧异常未证。"
+    location: "Day122凌晨，夜间中心第119次夜班交班"
+    state: "无新伤势；256合法有限证据为1996-06-17钥匙/实物交接签认栏未见韩署名，整夜真实在岗及旧来话仍未证。"
   liang_ce:
-    location: "Day120凌晨，夜间中心第117次夜班交班"
-    state: "无新伤势；251在一楼尊重来访者有限出示和原件保管权，鼓励循正式馆方流程而不擅索整簿；250西坡专业限行仍继续。"
+    location: "Day122凌晨，夜间中心第119次夜班交班"
+    state: "无新伤势；坚持不迫使旧同事为未记得的日期作证，南栖西坡及东衡近水危险限行仍需有权复检。"
   xia_ning:
-    location: "Day120凌晨，夜间中心第117次夜班交班"
-    state: "无新伤势；251将已获准官方旧照明两岗位时刻、韩文舟私人笔迹及无日期旧址词条分栏，不把有限受理变正式鉴定或馆藏。"
+    location: "Day122凌晨，夜间中心第119次夜班交班"
+    state: "无新伤势；分列韩本人预排轮休、旧卷目录、钥匙实物签认栏、邱个人模糊回忆和韩自述更正，原版本均受控留存。"
 invariants: F008无新增；F009/F010/F011 resolved；M004未确认；M005不触碰
 
 chapter_133_notes:
@@ -558,3 +558,16 @@ chapter_254_notes:
   xia_ning: "19:52受控收合法本人用工/轮休资料，20:36保留来源、权限及旧版自述；未认定本人实际缺勤。"
   main_cast_injuries: none_new
   final_location: "Day120 01:14第117次夜班交班，韩文舟持旧簿及本人合法脱敏预排轮休摘录；真实顶班和旧案同笔未证。"
+
+chapter_255_verified:
+  source_sha: "46e5b2c26ce14ad4643bb619e51f828a516f9043"
+  timeframe: "Day120 09:12—Day121 01:07，第118次夜班"
+  actual_state: "韩本人合法申请旧实际交接卷目录，馆方只确认日期涵盖6月17日；邱仅回忆分岗，不记具体日且拒替韩签缺席证。"
+  main_cast_injuries: none_new
+  final_location: "Day121 01:07第118次具名交班，韩仍持私簿与受理号，具体日页签认待核。"
+chapter_256_verified:
+  source_sha: "0bfdbe3e2940be11468d0e13a467fbc1afadca30"
+  timeframe: "Day121 08:56—Day122 01:18，第119次夜班"
+  actual_state: "馆方获准核钥匙/实物交接签认栏未见韩署名，不能推韩未到岗；老人主动更正旧陈述，夏宁和周衡受控保留两版。"
+  main_cast_injuries: none_new
+  final_location: "Day122 01:18第119次具名交班，南栖西坡和东衡近水险段待专业复开，F003只有限推进，M004/M005未证。"

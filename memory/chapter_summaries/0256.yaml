@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 256
+title: "那页签名只管钥匙"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "0bfdbe3e2940be11468d0e13a467fbc1afadca30"
+original_draft_source_sha: "e763b593eb4c39b687699c334d2ee61740904daf"
+reader_review: "reader_reviews/0256_0bfdbe3e.md"
+depends_on_chapter: 255
+original_depends_on_source_sha: "46e5b2c26ce14ad4643bb619e51f828a516f9043"
+depends_on_source_sha: "f0f8c303aaac02c041a6ba2994231a387abf5728"
+dependency_status: verified_predecessor_draft_ready_body_identical
+timeframe: "Day121 08:56—Day122 01:18，第119次夜班"
+summary: >-
+  Day121韩文舟与女儿08:56到馆方，09:27将泛查所有交班人改为本人1996-06-17特定签认字段。10:48正式阶段确认六月十七日页段可定位、未见整页缺失，却不保任何签字完整。邱素英再遭陌生人电话诱签旧日缺席，自行保留记录并未授权韩替她申诉。14:13馆方完成有权限定核查，得现存可核钥匙及实物交接签认栏未发现韩本人署名的正式答复；不覆盖当晚临时上岗、非正式代取钥匙、接话和转送。韩取消当日无目的扩大查档，19:42自愿以受控渠道更正旧“我那晚交过班”为“记得交过班但日期及事项未证”，中心保存原话及新版本。Day122 01:18第119夜班交班，私人簿仍韩本人持有，1996普通照明官方两岗纸证不变且不证旧异常机制，南栖西坡和东衡近水段未复开。
+meaningful_state_changes:
+  - "有来源的特定钥匙/实物交接签认栏未见韩姓名，但不能推整夜不在。"
+  - "老人自愿更正不可靠亲历陈述并停止无限扩查。"
+  - "邱保有拒签、自行管理陌生来电资料和隐私选择权。"
+knowledge_updates:
+  - "合法局部未检出签名既不证韩当晚未上班，也不证具体接话人。"
+  - "六月十七日目录卷与本次限定签认栏均有独立来源但证据边界不同。"
+foreshadowing_updates:
+  - "F003限项新增签名栏负向结果，F008无新可靠本人记忆反证，M004/M005仍未证。"
+relationship_updates:
+  - "韩与女儿共同接受边界及合法核查必要性，邱不为模糊记忆承担缺席证明。"
+ending_state: "Day122 01:18第119夜班交班，钥匙实物栏未见韩本人署名；整夜出勤或谁接旧来话未知，未证明旧异常机制。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_factual_delta: body_identical_only_frontmatter, structural: exact_commit_CI_required}
+char_count: 2876

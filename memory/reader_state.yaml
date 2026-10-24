@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 254
-last_reviewed_title: 那晚的值班表上写着轮休
-last_source_path: chapters/draft/0254.md
-last_source_sha: 42511e9e6e2d76477c927a2629ba39650e27fc0f
-last_review_path: reader_reviews/0254_42511e9e.md
+last_reviewed_chapter: 256
+last_reviewed_title: 那页签名只管钥匙
+last_source_path: chapters/draft/0256.md
+last_source_sha: 0bfdbe3e2940be11468d0e13a467fbc1afadca30
+last_review_path: reader_reviews/0256_0bfdbe3e.md
 last_reviewed_at: "2026-10-24"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 253
-depends_on_source_sha: 1424822256cdf55b056814c824d87b83c9e19d05
+depends_on_chapter: 255
+depends_on_source_sha: f0f8c303aaac02c041a6ba2994231a387abf5728
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 1424822256cdf55b056814c824d87b83c9e19d05
+predecessor_current_source_sha: f0f8c303aaac02c041a6ba2994231a387abf5728
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -600,5 +600,28 @@ combined_audit_chapter_254_20261024:
   reader: {blocker: 0, major: 0, minor: 2}
   predecessor_ready_sha: "1424822256cdf55b056814c824d87b83c9e19d05"
   predecessor_factual_delta: "253旧draft和ready正文完全相同，只是Front Matter放行字段变化"
+  content_qa: pass
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_255_20261024:
+  chapter: 255
+  source_sha: "46e5b2c26ce14ad4643bb619e51f828a516f9043"
+  review: reader_reviews/0255_46e5b2c2.md
+  reader: {blocker: 0, major: 0, minor: 2}
+  body_revisions: 0
+  predecessor_ready_sha: "ba848865083e7d631664281152cc3e89abde99d8"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_commit_CI_required
+combined_audit_chapter_256_20261024:
+  chapter: 256
+  source_sha: "0bfdbe3e2940be11468d0e13a467fbc1afadca30"
+  original_draft_sha: "e763b593eb4c39b687699c334d2ee61740904daf"
+  review: reader_reviews/0256_0bfdbe3e.md
+  reader: {blocker: 0, major: 0, minor: 2}
+  body_revisions: 0
+  predecessor_original_draft_sha: "46e5b2c26ce14ad4643bb619e51f828a516f9043"
+  predecessor_ready_sha: "f0f8c303aaac02c041a6ba2994231a387abf5728"
+  predecessor_factual_delta: body_identical_only_frontmatter
   content_qa: pass
   structural_gate: exact_commit_CI_required
