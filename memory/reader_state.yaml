@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 280
-last_reviewed_title: 六米围栏后，还有一条路
-last_source_path: chapters/draft/0280.md
-last_source_sha: d0a0939e2d03412703ecfa5c8481ae8c368248c2
-last_review_path: reader_reviews/0280_d0a0939e.md
+last_reviewed_chapter: 281
+last_reviewed_title: 图已经更新，读屏还在原地
+last_source_path: chapters/draft/0281.md
+last_source_sha: e671e3d5e35f95271e191c07c79ce38ce467df29
+last_review_path: reader_reviews/0281_e671e3d5.md
 last_reviewed_at: "2026-10-25"
-reviewer_mode: combined_audit_independent_A_then_B_new_blob
+reviewer_mode: combined_audit_independent_A_then_B_on_rebound_SHA
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 279
-depends_on_source_sha: 054ed74dc2d9760d4fa16881eeda2a158a0e821f
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 054ed74dc2d9760d4fa16881eeda2a158a0e821f
+depends_on_chapter: 280
+depends_on_source_sha: a442377f3c148c4ff39cc5811cf1fce60c5d2cb2
+dependency_status: verified_predecessor_factual_delta_compatible_ready
+predecessor_current_source_sha: a442377f3c148c4ff39cc5811cf1fce60c5d2cb2
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -979,5 +979,21 @@ combined_audit_chapter_280_20261025:
   changed: "有效字数/两个时间回指/删除第279章内部编号"
   predecessor_ready_blob: "054ed74dc2d9760d4fa16881eeda2a158a0e821f"
   predecessor_factual_delta: exact_ready_SHA
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_281_20261025:
+  original_source_sha: "7e327b0224d26095d43419a64366fb4be634decc"
+  final_source_sha: "e671e3d5e35f95271e191c07c79ce38ce467df29"
+  initial_review: reader_reviews/0281_7e327b02.md
+  final_review: reader_reviews/0281_e671e3d5.md
+  counts_original: {blocker: 0, major: 2, minor: 2}
+  counts_final: {blocker: 0, major: 0, minor: 2}
+  stage_a_local_revision: 1
+  body_revisions: 0
+  predecessor_original_sha: "31b03edcb4c73a66bd18ee09f9525940a45e0c51"
+  predecessor_ready_sha: "a442377f3c148c4ff39cc5811cf1fce60c5d2cb2"
+  predecessor_factual_delta: three_bounded_phrasings_compatible
+  effective_chars: 3416
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 280
+current_chapter: 281
 current_stage: structural_gate_pending
-current_source_path: chapters/ready/0280.md
-current_source_sha: d0a0939e2d03412703ecfa5c8481ae8c368248c2
-current_review_path: reader_reviews/0280_d0a0939e.md
+current_source_path: chapters/ready/0281.md
+current_source_sha: e671e3d5e35f95271e191c07c79ce38ce467df29
+current_review_path: reader_reviews/0281_e671e3d5.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_280_reader_QA_memory_ready_candidate
+last_action: audit_281_reader_QA_memory_ready_candidate
 last_action_date: 2026-10-25
 last_error: null
-last_diff_summary: "280初稿错误char_count与前章日期/元叙述经StageA合并修订，最终d0a0939e2d03412703ecfa5c8481ae8c368248c2经新SHA Reader0/0/2和QA通过，需精确CI。"
+last_diff_summary: "281仅元数据修数3033→3416及前章280旧SHA→ready并实核三处正文差异事实兼容；新blobe671e3d5e35f95271e191c07c79ce38ce467df29独立Reader0/0/2和内容QA通过，需精确CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -654,5 +654,19 @@ combined_audit_chapter_280_20261025:
   reader_final: {blocker: 0, major: 0, minor: 2}
   rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
   predecessor_factual_delta: exact_ready_SHA
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_281_20261025:
+  original_sha: "7e327b0224d26095d43419a64366fb4be634decc"
+  revised_sha: "e671e3d5e35f95271e191c07c79ce38ce467df29"
+  final_review: reader_reviews/0281_e671e3d5.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  predecessor_old_sha: "31b03edcb4c73a66bd18ee09f9525940a45e0c51"
+  predecessor_ready_sha: "a442377f3c148c4ff39cc5811cf1fce60c5d2cb2"
+  predecessor_factual_delta: three_bounded_phrasings_compatible
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

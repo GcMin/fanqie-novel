@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 280
+last_updated_chapter: 281
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -650,3 +650,13 @@ chapter_280_relationships:
   center: "周衡夏宁梁策按照来源分栏，主角信任分数无无据变化。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "公众无需供药、行程照片作为道路验收，馆内旧个人索引填写行未获许可。"
+
+chapter_281_relationships:
+  chapter: 281
+  source_sha: "e671e3d5e35f95271e191c07c79ce38ce467df29"
+  citizen: "林闻拒提交私人视力证明、拍摄宣传照或被安排代道路验路，自己提出可读需求并真取修好的录音笔，个人反馈限于自身。"
+  street: "蔡敏不复制无效模板，按道路岗签源形成可读网页及实际本人回告；小唐核三处实际换纸版本与时间。"
+  center: "周衡夏宁梁策分当日发布、个人阅读、专业验路和其它缓存不同证据，不新增无据互信分数。"
+  archive: "罗谨与陶芹按A2非身份申请范围守界，收件不是准阅。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不要求林闻视力医学信息、私人照片或拿其到铺子代证别的用户知情。"

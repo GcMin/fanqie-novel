@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 281
+title: "图已经更新，读屏还在原地"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "e671e3d5e35f95271e191c07c79ce38ce467df29"
+original_draft_source_sha: "7e327b0224d26095d43419a64366fb4be634decc"
+reader_review: "reader_reviews/0281_e671e3d5.md"
+prior_review: "reader_reviews/0281_7e327b02.md"
+depends_on_chapter: 280
+depends_on_source_sha: "a442377f3c148c4ff39cc5811cf1fce60c5d2cb2"
+dependency_status: verified_predecessor_factual_delta_compatible_ready
+timeframe: "Day145 08:38—Day146 00:09，第143次夜班"
+summary: >-
+  Day145 08:38视力受限且自行使用读屏的林闻在白榆路面包店前试查道路网页，听到“图片，两张图片”，无法分辨Day144临时北侧绕行已在16:07撤牌而南侧六米路已复验恢复；拒交视力证明/住址，08:56网页自动“已送达”误作本人获答。街道蔡敏09:07核到08:32仅换“今日已更新”抬头但两张旧图被无明确失效说明并列，保留原源、撤单笔已答假状态转人工待办，09:26给出有限真短信告知。道路10:02按当日另巡，10:40核南侧路条件可用、东工门仍封；蔡敏拒让OCR生成通行许可，按有责签认作文字并在12:08再次核对、12:26网页可读正文正式发布，旧北绕图归历史并明确失效。林闻12:43真可听网页，13:06有责确认Day144临路仅历史，13:18本人真收文字回覆；14:21、14:46、15:05三处纸本点按责实撤旧换新并签，外部缓存未获确认。林闻15:32自己领到修好的录音笔且只自愿有限个人反馈，不代表所有读屏者或道路专业验收。15:48道路另巡，16:00完成应有第二次公示，东门仍关。罗谨Day145 15:17仅递交2018 A2“回告材料候选系列”栏目非身份编制说明窄申请，得收件回执不等于查阅批准，未阅原索引填值或旧受访者回告。20:00第143夜班起，Day146 00:09有新咨询外部缓存旧图，夏宁按来源单独待核而不宣布全网完成。F003有限，F008无新增可靠记忆矛盾，M004/M005不确证。
+meaningful_state_changes:
+  - "网页虚假“已更新”图片与自动假答复实纠正为有权道路时间可读正文，林闻本人真的收到当前可走及旧图已失效的回复。"
+  - "三处纸本真正实换并留源、早午两次实核更新落实；外部缓存仍单独待查，不伪称全网清零。"
+  - "A2馆内候选系列新申阅仅完成正式收件，尚无合法阅准或历史私人真回告。"
+knowledge_updates:
+  - "道路自动绿格发布不等于屏幕阅读器可读，个人受理号不等于个体已得到有意义答复，算法读图不能替专业道路岗签认。"
+  - "三处自管纸点实际纠改不证其它平台缓存同步；A2新申请仅收件不能升级历史旧个人信息证据。"
+foreshadowing_updates:
+  - "F003仅新增A2非身份候选系列说明申阅收件，没有证实原索引行、旧个人回拨及现代同源；F008无新可靠亲历矛盾、M004/M005未证。"
+relationship_updates:
+  - "林闻自主路况问询与修好录音笔领取并保隐私，蔡敏实际负责人工可读回复、小唐真实逐点改纸，不用个人出行替道路专业验收；罗谨遵档案权限。"
+ending_state: "Day146 00:09第143次夜班内收到另源旧缓存咨询；Day145南侧本时段专业核可用、旧站东门封，网页可读及三处纸本已真改但外部缓存未知，A2窄申请仅收件，1996私人回告仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {stage_a_local_revision: 1, original_sha: "7e327b0224d26095d43419a64366fb4be634decc", revised_sha: "e671e3d5e35f95271e191c07c79ce38ce467df29", metadata_count: "3033_to_3416", predecessor_old_draft_sha: "31b03edcb4c73a66bd18ee09f9525940a45e0c51", predecessor_ready_sha: "a442377f3c148c4ff39cc5811cf1fce60c5d2cb2", predecessor_factual_delta: "three_bounded_body_phrasings_compatible", body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3416
