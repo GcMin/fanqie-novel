@@ -28,5 +28,5 @@
 - forbidden_leaks: 不放开东侧旧站工地门、不让许慧或顾永山代验道路、不把修砖完工当复行许可；不以张贴、拨号尝试或群管理员读到证明每名居民知晓；不让罗谨读取无许可的A2具体填值、旧受访者身份或粘连册；不推断旧工单真实回告及机制来源，不读取历史reader_reviews。
 - ending: Day145 00:17阶段交班；临时绕行已按专业复核真撤，南侧既有公众路线恢复当前通行，东门继续封闭；老赵有具名责任答复回执，A2原索引及历史旧人回告仍不明。
 - target_body_effective_chars: 2600—3400（硬限2300—3800）
-- actual_body_effective_chars: 3483
+- actual_body_effective_chars: 3481
 - continuity_precheck: 已核第279章为main上ready的确切Git Blob 054ed74dc2d9760d4fa16881eeda2a158a0e821f、无需provisional；Day144承接Day143会后书面责任未完成与第141夜班Day144 00:12交班；第142次夜班于Day144 20:00自然接续。道路每一次开放均有合法专岗实核与时点，档案只沿既有许可转述，不将“接收”跨业务链解释。
