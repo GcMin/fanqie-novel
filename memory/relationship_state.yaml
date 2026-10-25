@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 287
+last_updated_chapter: 288
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -718,3 +718,12 @@ chapter_287_relationships:
   center: "夏宁周衡梁策守路况与来源分层，未因一例代拨宣称全市全天可及或无据改变主角互信。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "不强索薛兰/男子身份、住址/个人订单或私手机号，代拨由本人明确同意，不替专业人员验路。"
+
+chapter_288_relationships:
+  chapter: 288
+  source_sha: "0fbc5e13f1c2a19250cb12fca5fb406bf77fd004"
+  citizen: "陈茴坚决自己述说所见且同意用岗位电话，不把本人收布情况登记为服务完成；第二夜男子本人决定取卡与听新路况，不为他人验路。"
+  street: "吴保安认真履行不能免除的巡更并明确第一夜专属代拨权，何师傅先不越权代签，后按17:03签出的四小时授权真正代拨；蔡敏把短暂授权缺口写在真实服务纠错中。"
+  center: "周衡、夏宁、梁策按现场专业权限、本人反馈和卡数各自留证，主要角色互信分数没有无据变化。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不记录陈茴遮阳布订单/住址或男子真实目的地到达；不把街道保安合法打电话等同道路许可，不越权开放2018个人原件。"

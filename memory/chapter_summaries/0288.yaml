@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 288
+title: "卡盒还在，值班人走了"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "0fbc5e13f1c2a19250cb12fca5fb406bf77fd004"
+reader_review: reader_reviews/0288_0fbc5e13.md
+depends_on_chapter: 287
+depends_on_source_sha: "0a5ad975e351a8c2e5ab6e1f3ed7c1cbb04ef3f9"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day150 22:49—Day151 21:34，第148/149次夜班"
+summary: >-
+  Day150 22:49街道外门盒内查询卡余九，吴保安将履行不可省的地下车库安全巡检，何师傅在场但原授权仅限吴当夜代拨，不能冒名使用岗位电话。23:11手机断电的陈茴推布车发现货车占南侧无障碍坡口、本人真取一张查询卡，因吴巡更等七分钟；23:21征本人同意接通夜间中心，21:55旧道路回告不能替此后新增障碍放行。23:34道路岗到场、23:43实核货车占坡口并临限；Day151 00:09专业测查及00:15有责复行后才告知，00:23陈茴本人离开，不替她签领取遮阳布。盒余八。Day151 08:47蔡敏核见授权空档，09:32撤误导全天可代拨便签，保留只含查询办法、不含固定路向的八张卡。16:26物业提出实际轮值安全巡查交接、17:03街道物业各按权签认，仅批准Day151 20:00—Day152 00:00四小时吴与何均可经本人同意代拨，无新固定全天服务。Day151 20:00第149夜班开、21:07何获权独立代拨第三位真取卡男子，21:22道路专业重新到场、21:34核南侧坡口当次可走，东侧工地门始终封闭，卡盒余七；男子是否抵达未知，零点后缺口未解决。D144原批商户纸仍撤20交1余43未知，B07旧错印量未知；2018 A2实际行和1996旧人回告、M004/M005均未确证。
+meaningful_state_changes:
+  - "Day150新增施工车真实占坡口，23:43有责临限、Day151 00:15有责复查复行，陈茴七分钟电话空档形成真实岗位责任问题。"
+  - "Day151街道撤未限定时段代拨便签；四小时两人轮值有权签名且何本人21:07实拨，21:34取得新专业回话，十张查询卡三人实际领取后余七。"
+  - "零点后无手机咨询仍缺固定服务，旧站东施工门始终封；他人安全抵达和永久路权均不代证。"
+knowledge_updates:
+  - "吴保安知道原一夜专属代拨不能让同场何师傅冒签；何首夜只知道公开渠道及岗位权限，次夜在新签认后依法可接。"
+  - "夏宁梁策和蔡敏区分在岗人员、电话有权代拨、现场路况专业核与本人是否实到，旧21:55/00:15回报不能授权未来新路况。"
+foreshadowing_updates:
+  - "F003的2018 A2个人实际索引行及1996历史旧人回告无新证；F008无新的可靠本人特定记忆反证；M004/M005不确证；原D144商户余43和B07旧印量仍未知。"
+relationship_updates:
+  - "陈茴不愿旁人夸大实测危险或索私人订单，吴保安只征得同意提供岗位电话；何师傅由质疑审批转为依法承接并保留零点后授权空档。"
+ending_state: "Day151 21:34第149夜班，何有权完成第三次实取卡后的代拨与专业回讯；盒内余七，许可四小时零点截止，全天实体路况与夜间持续服务仍待审批。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0fbc5e13f1c2a19250cb12fca5fb406bf77fd004", final_draft_sha: "0fbc5e13f1c2a19250cb12fca5fb406bf77fd004", body_revisions: 0, metadata_revisions: 0, predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_exact_ready: true, structural: exact_candidate_commit_CI_required}
+char_count: 3077
