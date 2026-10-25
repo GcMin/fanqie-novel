@@ -1,3 +1,8 @@
+# 第283章独立审核与结构候选状态（2026-10-26）
+- 原稿`127105f10506b7cde41ce8779b593613cd1f829e` Reader0/1/2，Stage A一次只修前章282原provisional依赖与详细章纲；经全文逐字核对282旧draft c065ca71与最终ready cc0b4d27正文完全一致，本章正文零修改。
+- 新283 SHA `6ab854c5f5ffdeab4898fabec4221a9c213e84de` 独立Reader Pass A/B=0/0/2，Continuity/Style/Meaningful QA PASS，正文3295字；64张D144折页现存实撤20+本人另交1、余43未知，F003有界且M004/M005未证。
+- 仅在此精确候选Commit结构CI的单测与`python -m publisher.check_local --repo .`真实SUCCESS后才可expected_sha/force:false进入main，详情`qa/0283_report.md`。
+
 # 第282章独立审核及放行候选状态（2026-10-26）
 - draft源Git blob `c065ca715ca990ea3b78d7a127b52fceb44bc64c`，独立Pass A/B Reader=0 BLOCKER/0 MAJOR/2 MINOR；正文零修订、有意义变化成立，有效字数2902。
 - 前章281 ready blob `4336086a2b9d665e176d38248431873f44bd0f0d`与新稿依赖精确一致；Continuity/Style/Meaningful独立QA PASS。F003仅A2候选通用规则有界推进，M004/M005不证，外部离线旧图与D144纸折页待核。

@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 282
+current_chapter: 283
 current_stage: structural_gate_pending
-current_source_path: chapters/draft/0282.md
-current_source_sha: c065ca715ca990ea3b78d7a127b52fceb44bc64c
-current_review_path: reader_reviews/0282_c065ca71.md
+current_source_path: chapters/draft/0283.md
+current_source_sha: 6ab854c5f5ffdeab4898fabec4221a9c213e84de
+current_review_path: reader_reviews/0283_6ab854c5.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_282_reader_QA_memory_ready_candidate
+last_action: audit_283_dependency_rebind_newSHA_QA_memory_ready_candidate
 last_action_date: 2026-10-26
 last_error: null
-last_diff_summary: "282原稿c065ca71独立双遍Reader0/0/2、正文无修，依赖281最终ready精确匹配，内容QA PASS，结构候选精确CI待验证。"
+last_diff_summary: "283初版0/1/2只改与282最终ready SHA依赖和章纲，282原draft/ready正文逐字一致，283新SHA6ab854c5独立双遍Reader0/0/2，正文零修、QA PASS、结构须精确CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -42,7 +42,7 @@ combined_audit_final_20261015:
   note: "前版Reader意见只绑定前版SHA；修订后新的Reader报告已存在并通过。"
 
 # source_sha of the final Reader Review refers to original draft; ready differs by metadata fields only.
-current_review_source_sha: c065ca715ca990ea3b78d7a127b52fceb44bc64c
+current_review_source_sha: 6ab854c5f5ffdeab4898fabec4221a9c213e84de
  
 combined_audit_chapter_154:
   stage: local_revision
@@ -677,5 +677,20 @@ combined_audit_chapter_282_20261026:
   final_counts: {blocker: 0, major: 0, minor: 2}
   predecessor_ready_blob: "4336086a2b9d665e176d38248431873f44bd0f0d"
   predecessor_factual_delta: exact_ready_sha_match
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_283_20261026:
+  original_sha: "127105f10506b7cde41ce8779b593613cd1f829e"
+  final_source_sha: "6ab854c5f5ffdeab4898fabec4221a9c213e84de"
+  original_review: reader_reviews/0283_127105f1.md
+  final_review: reader_reviews/0283_6ab854c5.md
+  reader_initial: {blocker: 0, major: 1, minor: 2}
+  reader_final: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  predecessor_provisional_blob: "c065ca715ca990ea3b78d7a127b52fceb44bc64c"
+  predecessor_final_ready_blob: "cc0b4d27e62395b7f7bad85ab276604059c3ee5e"
+  predecessor_body_identical: true
+  body_revisions: 0
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

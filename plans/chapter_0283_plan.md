@@ -5,11 +5,11 @@
 - arc: ARC-054《回拨接收点》；第四阶段《被留下的城市》
 - role: Writer；仅 Planner、Continuity Precheck、Writer
 - observed_main_sha: 975a09ef8a0be0ee9c1893d1749f9958bb179a76
-- predecessor_path: chapters/draft/0282.md
+- predecessor_path: chapters/ready/0282.md
 - depends_on_chapter: 282
-- depends_on_source_sha: "c065ca715ca990ea3b78d7a127b52fceb44bc64c"
-- dependency_status: provisional
-- dependency_facts_provisional: 前章未审；仅以其指定Git blob暂作连贯参考。Day146 20:19夜班新来电指出北侧打印店免费折页没有日期但带D144版号，同上一章第三方离线导览旧图；Day146 00:54专业夜间复核、第三方11:08停止旧版在线推送和12:02新入口发布都不可证明旧纸已召回；2018 A2候选系列仅限项通用规则、不开放实际填值和1996个人答复。若前章后续修订有事实变化，须由独立Audit核本章依赖。
+- depends_on_source_sha: "cc0b4d27e62395b7f7bad85ab276604059c3ee5e"
+- dependency_status: verified_predecessor_body_identical_ready
+- dependency_facts_provisional: 前章已审且正式ready；实际逐字比较原draft blob c065ca715ca990ea3b78d7a127b52fceb44bc64c与ready blob cc0b4d27e62395b7f7bad85ab276604059c3ee5e正文完全一致，仅Front Matter交付元数据不同。Day146 20:19夜班新来电指出北侧打印店免费折页没有日期但带D144版号，同上一章第三方离线导览旧图；Day146 00:54专业夜间复核、第三方11:08停止旧版在线推送和12:02新入口发布都不可证明旧纸已召回；2018 A2候选系列仅限项通用规则、不开放实际填值和1996个人答复。原draft与最终ready不存在关键正文事实差异，现已按最终ready版本验证。
 - canon_boundary: 保留既有已审事实：Day144 16:07北侧临时绕行撤除与南侧六米专业复行；Day145 10:40、15:48南侧按实核当时可用；旧站东侧施工门持续没有公众开放许可；2018受保护A2原索引的实填行仍未被授权查读，1996旧来话者是否获实际答复未知。F003只能有限推进；F008无新增可靠本人记忆矛盾；F009/F010/F011 resolved；M004/M005未证。
 - chapter_goal: 把第三方过期路线由“手机离线副本无法远程撤回”扩展至实体免费折页的制造与分发链，用可核印量、实撤库存和有限的公众通知取代虚假的“全数召回”，为真实受影响居民提供当时有权来源。
 - POV: 第三人称有限；主要跟随夏宁、打印店老板罗蓓及公众蒋群，白班蔡敏、小唐和街道道路岗位辅助。
@@ -29,4 +29,6 @@
 - ending: Day147第145次夜班以“20张在三点实撤、蒋群本人交回1张、其余43张不知去向”的实数交班，未来仍按当次有责道路核验处理求助。
 - target_body_effective_chars: 2600—3400（硬限2300—3800）
 - actual_body_effective_chars: 3295
-- continuity_precheck: 本轮从published、ready、draft三个实际目录取最大章号282，main已有published/0153.md，0283此前不存在；精确读取unreviewed draft/0282.md完整blob c065ca715ca990ea3b78d7a127b52fceb44bc64c；Day146 20:19承接前章结尾，第144次夜班Day146 20:00开始，第145次夜班Day147 20:00开始；前章只作provisional而不视正式Canon；本轮只新增两个文件，不修改任何前章或Memory。
+- continuity_precheck: 本轮从published、ready、draft三个实际目录取最大章号282，main已有published/0153.md，0283此前不存在；原先读取unreviewed draft/0282.md完整blob c065ca715ca990ea3b78d7a127b52fceb44bc64c，现确认最终ready 0282.md blob cc0b4d27e62395b7f7bad85ab276604059c3ee5e正文逐字相同；Day146 20:19承接前章结尾，第144次夜班Day146 20:00开始，第145次夜班Day147 20:00开始；前章现为已审核ready且依赖重绑；本轮只新增两个文件，不修改任何前章或Memory。
+
+- audit_dependency_rebind: 本轮唯一Audit核282原draft正文与最终ready逐字一致，仅对283 Front Matter、此章纲重绑正式ready SHA；正文未改变；源SHA变更后仍须独立Reader双遍与QA。

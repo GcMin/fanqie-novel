@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 282
+last_updated_chapter: 283
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -670,3 +670,14 @@ chapter_282_relationships:
   center: "夏宁周衡梁策按有责现场/个人回话/第三方传播分层，主角互信数值无无据变化。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "拒远程删私人离线文件或强索用户设备号；2018原索引个人填写、1996旧人回告不开放。"
+
+chapter_283_relationships:
+  chapter: 283
+  source_sha: "6ab854c5f5ffdeab4898fabec4221a9c213e84de"
+  citizen: "蒋群拒将明日搬书变成行政验路任务，只按自愿交回一张D144旧折页和真实受理范围反馈；不代其他纸张领取者签收。"
+  street: "蔡敏按Day147道路有权实核给个人店铺有时点文字，小唐仅对已查的三处店铺逐点真撤记录，不冒充所有旧纸追回。"
+  private_stores: "罗蓓从不服被指错转为真查打印订单64和三处存货、纠掉无时效的“新路”便条；水果摊白班真解释未接电话并自愿撤5张，洗衣店夜间自撤3张。"
+  archive: "罗谨旧档案并无新增查阅，1996旧回告与2018原A2个人记录仍不证。"
+  center: "夏宁、周衡、梁策按量化真实撤架与未知去向的责任边界协作，主角互信分数无据不变。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不向客户索住址行程照片和私人复印清单，商户无权冒街道官方批准新的永久开放路线。"

@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 283
+title: "一张折页的去向"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "6ab854c5f5ffdeab4898fabec4221a9c213e84de"
+original_source_sha: "127105f10506b7cde41ce8779b593613cd1f829e"
+reader_review: reader_reviews/0283_6ab854c5.md
+prior_review: reader_reviews/0283_127105f1.md
+depends_on_chapter: 282
+depends_on_source_sha: "cc0b4d27e62395b7f7bad85ab276604059c3ee5e"
+dependency_status: verified_predecessor_body_identical_ready
+timeframe: "Day146 20:19—Day147 20:00，第144/145次夜班"
+summary: >-
+  Day146 20:19蒋群在北侧打印店拿无日期D144旧折页，不能凭其当日“最新线路”承诺为次日搬书准开路。夏宁先请21:07有责道路岗巡路，21:23真签南侧普通公众人行路当时可走，旧站东侧施工门仍封；不借00:54或Day145核验替次日签字。21:46打印店老板罗蓓查真印单：Day144 15:18当北侧临时绕行尚在合法使用期时，印64张无日期D144折页，28留店、20给南口水果摊、16送北侧自助洗衣店，后来Day144 16:07北绕结束但打印旧纸未自动更新。打印店实封存12张，22:16洗衣店撤3张，水果摊当夜未接通不能写已获通知。Day147 08:17罗蓓纠掉“按新路走”同样无时效的错话，标D144失效与有责问询；09:25道路管理岗另真核南侧当前可用、东门仍封，蔡敏才给新时点文字。09:52水果摊实撤5张，蒋群自愿把本人旧纸另交回1张，店方未要求住址行程。11:11小唐逐点核三处实撤12+5+3=20、本人交回1，剩余64-21=43张去向未知，原印单不删、另记纠错及来源。Day147 20:00第145夜班接报仍将43张保留未知，不能把修正公告写成全部公众知晓。罗谨没有新馆方取阅，2018 A2候选通用规则仍只准去身份；1996旧人回告未知。F003仅有限，F008无新可靠记忆反证，M004/M005不证。
+meaningful_state_changes:
+  - "D144纸张从不明来源变成可证Day144 15:18实印64份和28/20/16三处投放，且印刷历史记录保留。"
+  - "三处现存旧纸实撤20份、蒋群自愿交回1份，剩余43份去向不明，公开时效提醒由三商户按实改。"
+  - "当夜与翌日重新取得有权道路核验而未开施工东门，来日道路仍需另核。"
+knowledge_updates:
+  - "中心和罗蓓知道原图当时有时效并不保证后续继续有效，已印、已发、已撤、已知悉需独立记录；64份不能转成64个人签收。"
+  - "蒋群只知当前有责查路及次日公开核验，不替道路部门验收或其他领取者签字。"
+  - "2018 A2原索引具体业务行与1996旧人真收到回告仍未得到新的许可或证据。"
+foreshadowing_updates:
+  - "F003仅保持第282章有限A2规则，不推进旧业务机制；F008无可靠新样本；M004/M005不证；D144纸版43份去向仍待查。"
+relationship_updates:
+  - "罗蓓由撇清印刷责任转为自发负责保原单及按点撤旧、纠正误导公告，不冒街道名义。蒋群坚持自主搬书选择，街道不替私商户统签。"
+ending_state: "Day147 20:00第145夜班；D144旧纸已证印64、现存撤20、本人另交1，余43未知；南侧公众路需持续时效核验，旧站东工门仍闭，历史旧回拨未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "127105f10506b7cde41ce8779b593613cd1f829e", revised_sha: "6ab854c5f5ffdeab4898fabec4221a9c213e84de", stage_a_used: 1, body_revisions: 0, correction: "283依赖282原draft SHA重绑282最终ready SHA，前章正文逐字一致"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_body_identical: true, structural: exact_candidate_commit_CI_required}
+char_count: 3295

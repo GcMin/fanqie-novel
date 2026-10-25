@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 282
-last_reviewed_title: 撤回通知，到不了离线的人
-last_source_path: chapters/draft/0282.md
-last_source_sha: c065ca715ca990ea3b78d7a127b52fceb44bc64c
-last_review_path: reader_reviews/0282_c065ca71.md
+last_reviewed_chapter: 283
+last_reviewed_title: 一张折页的去向
+last_source_path: chapters/draft/0283.md
+last_source_sha: 6ab854c5f5ffdeab4898fabec4221a9c213e84de
+last_review_path: reader_reviews/0283_6ab854c5.md
 last_reviewed_at: "2026-10-26"
 reviewer_mode: combined_audit_independent_A_then_B_new_blob
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 281
-depends_on_source_sha: 4336086a2b9d665e176d38248431873f44bd0f0d
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 4336086a2b9d665e176d38248431873f44bd0f0d
+depends_on_chapter: 282
+depends_on_source_sha: cc0b4d27e62395b7f7bad85ab276604059c3ee5e
+dependency_status: verified_predecessor_body_identical_ready
+predecessor_current_source_sha: cc0b4d27e62395b7f7bad85ab276604059c3ee5e
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1007,5 +1007,21 @@ combined_audit_chapter_282_20261026:
   body_revisions: 0
   predecessor_ready_blob: "4336086a2b9d665e176d38248431873f44bd0f0d"
   predecessor_factual_delta: exact_ready_sha_match
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_283_20261026:
+  chapter: 283
+  original_source_sha: "127105f10506b7cde41ce8779b593613cd1f829e"
+  revised_source_sha: "6ab854c5f5ffdeab4898fabec4221a9c213e84de"
+  original_review: reader_reviews/0283_127105f1.md
+  revised_review: reader_reviews/0283_6ab854c5.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_original_sha: "c065ca715ca990ea3b78d7a127b52fceb44bc64c"
+  predecessor_ready_blob: "cc0b4d27e62395b7f7bad85ab276604059c3ee5e"
+  predecessor_body_identical: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
