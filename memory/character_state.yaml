@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 283
+last_updated_chapter: 286
 characters:
   zhou_heng:
     location: "Day147 20:00，第145次夜班开班"
@@ -894,3 +894,15 @@ chapter_285_verified:
   operator: "余松08:28完成B07本机实停并11:37有限核C12，保留旧模板/任务记录。"
   main_cast_injuries: none_new
   final_location: "Day148 23:21居民纸本能否删日期待权责回复，东工门仍封。"
+
+chapter_286_verified:
+  chapter: 286
+  source_sha: "bbaeef7cb5ea18dc11a000f52d6d4531a0f9f06f"
+  timeframe: "Day148 23:21—Day149 20:00，第146/147次夜班"
+  zhou_heng: "区分打印24与真实交付1，拒去核验日期变成永效路权。"
+  xia_ning: "23:21删日期建议只转询有责道路岗，20:00按新时点真核与市民领取分账，全天实体点未批准。"
+  liang_ce: "街道不能越权代道路专业签时效路线，旧东施工门继续封。"
+  citizen: "陈桂芳Day149 11:20在一楼领本日大字路况1和查询卡1，拒记录私人电话与取鞋行程。"
+  street: "丁禾撤阅读室误自取样张，蔡敏撤错二楼指路并交1/24张，其余23过时归历史。"
+  main_cast_injuries: none_new
+  final_location: "Day149 20:00第147夜班开，全天实体取纸点待批。"

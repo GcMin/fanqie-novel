@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 286
+title: "纸上有日期，窗口却关了"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "bbaeef7cb5ea18dc11a000f52d6d4531a0f9f06f"
+reader_review: reader_reviews/0286_bbaeef7c.md
+depends_on_chapter: 285
+depends_on_source_sha: "35ee4577dfc76080bd5c63b9f38235691c96eee0"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day148 23:21—Day149 20:00，第146/147次夜班"
+summary: >-
+  Day148 23:21街道窗口提出删除纸上道路实核日期以便次日继续使用，夏宁只于Day149 00:12转询。Day149 07:56陈桂芳在社区阅读室发现前一天的Day148大字样张被误标“自取”，丁禾撤销误导，不越权替街道签当天路线。08:37有责道路管理岗书面否决无核验时点的当次指路纸，只准永续查询办法卡（有责渠道/服务时段/夜间真人联系方式，不含固定路线）。09:41新专业实核南侧既有公众人行道本次可走，旧站东施工门继续封、Day144北侧临时绕行未重启。街道10:27按核验时点校好24张合规Day149纸，另2张试印废品单算。旧系统错挂二楼资料区领取牌，电梯暂停，但24张实在一楼后柜；主管11:06批准当次一楼无障碍窗口发纸并撤误牌。陈桂芳11:20本人真领一张有时点路况、一张永久联系卡，拒留私人电话/取鞋行程；24备1领余23仍在柜。16:10道路岗再有责实核，上午余23纸不再代表最新路况而归编号历史夹，新纸需重新校核。20:00第147次夜班开，全天实体取纸点仍没有获批。D144原64份仍撤20另交1余43未知，B07既往错印量不明；旧2018 A2/1996个人历史回告、M004/M005仍未证。
+meaningful_state_changes:
+  - "明确拒无日期永效路线与准长期联系卡，上午下午路况分别专业有责查。"
+  - "街道一楼真实领一张（24备、1交、23余），纠错二楼指引；午后余23按时效实封历史。"
+  - "夜间实体取纸点待正式审批，个人真领不代表全体获知。"
+knowledge_updates:
+  - "路况专业当次有效、纸本制备、窗口实际交付、本人知晓与长期路权是互不等同的证据层。"
+foreshadowing_updates:
+  - "F003旧2018 A2和1996历史受访者本人回拨无新证；F008无新可靠本人记忆反证，M004/M005未证。"
+relationship_updates:
+  - "陈桂芳拒用昨天样张当今日许可、要求一楼可及真领，但不交个人电话和修鞋行程；丁禾与蔡敏按各自授权纠误。"
+ending_state: "Day149 20:00第147夜班，上午真交一张有时点纸，剩23已封存，旧东施工门仍封，夜间实体点尚无获批。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "bbaeef7cb5ea18dc11a000f52d6d4531a0f9f06f", body_revisions: 0, predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3261

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 283
+last_updated_chapter: 286
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -700,3 +700,12 @@ chapter_285_relationships:
   center: "夜班对实核、个人反馈、设备日志与未明传播分别留证，主角互信无无据改变。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "不读私人设备打印文档，不因一位居民领取纸本冒认所有公众已知或获得跨日许可。"
+
+chapter_286_relationships:
+  chapter: 286
+  source_sha: "bbaeef7cb5ea18dc11a000f52d6d4531a0f9f06f"
+  citizen: "陈桂芳拒让过期样张和二楼错误取纸位置阻止办事，选择一楼真取并保留不交个人电话/行程的隐私。"
+  street: "丁禾先撤误导、蔡敏和主管按有责路况/窗口分工纠错，真交1张不把24张全记知晓。"
+  center: "夏宁周衡梁策依程序证据分层，主角互信分数无无据改变。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不把私人取鞋单和电话号码当验路必要信息；志愿者不能代道路岗签路权。"
