@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 278
+title: "箭头印反了，路没有变"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "9d251d7e69e7ea830e0c5688a868eb59a3ba62fb"
+reader_review: "reader_reviews/0278_9d251d7e.md"
+depends_on_chapter: 277
+depends_on_source_sha: "5e5df206786030fb417dfea51e9e2e640e766a7a"
+dependency_status: verified_exact_ready_blob
+summary: >-
+  Day142 08:16街道运来第一处永久指示牌，厂家出厂合格但09:07公众侧放样时小唐见箭头指向仍封闭的旧站东侧工门。原制图从围挡内向外观看，左右与公众视角相反。09:41有权岗位停止钻孔和安装、不复用旧险座，保留Day141 01:26已经安全实设的独立临时牌并按责复巡。11:00供货首稿只改箭头却未纠正工地侧短距离；11:23道路岗真实核两处过街口、公共路起点与当前路线后才确认第二版，返工费用另按合同。14:42更正牌到场、15:09真固定，15:24专业强度净宽反光及方向核验并有权签验，15:38安全撤旧临牌；南侧既有公共路在本次实核可走，不是永久免检，旧站东侧工地仍无开路许可。罗谨10:08所提2018通用编制说明适用性申请，12:56另获限项批准、14:18馆方双岗只核非身份版面批号，春季说明A1而2018原索引是A2，不是同一印制登记版面；四栏实见不被抹去，但A1字段解释不能自动套A2，更不表示1996私人旧回告真送达。15:03 A2变更记录再申请仅受理。Day142 20:00第140夜班开，Day143 00:09阶段交班。F003有界、F008无新样本、M004/M005未证。
+meaningful_state_changes:
+  - "第一处永久公众指路由险旧座/可用临时牌转为专业验收真实校正的新永久牌，并留源安全撤临牌。"
+  - "馆方合法确认2018通用说明A1与原索引A2不同版面，A2单独变更记录待批，旧个人回告仍未知。"
+knowledge_updates:
+  - "出厂合格和设计图不等于公众实际观察方向正确或现场安装验收；工地东门关闭与南侧普通公共路现时核可用必须分开。"
+  - "A1/A2版次不同只否定直接套用，不否定已见索引四个固定栏及整理表性质，未取任何个人填值。"
+foreshadowing_updates:
+  - "F003有限增加A1/A2非身份来源批次差异；F008无新可靠本人记忆矛盾；M004/M005不确证。"
+relationship_updates:
+  - "傅姨不需为街道试险路，仍保有自主办事；小唐拒把供货合格盖成现场合格，馆方与罗谨尊重保护限制。"
+ending_state: "Day143 00:09第140次夜班阶段交班；公众侧第一处永久路牌真验收、临牌真撤，东侧工地步道仍封；A2变更记录新窄申请仅收件。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {body_revisions: 0, metadata_revisions: 0, original_sha: "9d251d7e69e7ea830e0c5688a868eb59a3ba62fb", predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2817

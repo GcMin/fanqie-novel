@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 277
+last_updated_chapter: 278
 characters:
   zhou_heng:
     location: "Day140 00:13，第137次夜班阶段交班"
@@ -797,3 +797,14 @@ chapter_277_verified:
   custodian: "罗谨只申请2018通用说明与旧索引版次是否适用，不读旧行或推某一业务答复。"
   main_cast_injuries: none_new
   final_location: "Day142 00:14中心交班；南侧有责当前复核与夜间安全临牌有效、首处永久件待修，东侧封闭。"
+
+chapter_278_verified:
+  source_sha: "9d251d7e69e7ea830e0c5688a868eb59a3ba62fb"
+  timeframe: "Day142 08:16—Day143 00:09，第140次夜班"
+  zhou_heng: "按有权道路验收与馆方去身份版次核对分源交班，不拿出厂合格当公共路开放，不以A1/A2差异推历史旧人回告。"
+  xia_ning: "区分09:41暂停、14:42更正牌到、15:24真现场验收和15:38临牌回签，旧东门持续封闭。"
+  liang_ce: "要求交班按现可用南侧公众路与未开放施工东门分别记录，历史A2仍待合法另核。"
+  citizen: "傅姨自主取借阅证和买菜，不代部门在危险路口试牌，小唐按公众观察视角停钻纠错。"
+  custodian: "罗谨依法仅见A1与A2版面标记不同，陶芹保护索引不翻缺角也不提供填值行。"
+  main_cast_injuries: none_new
+  final_location: "Day143 00:09阶段交班；新永久牌真验收、临牌撤回、东门仍封、A2来源变更申请仅受理。"

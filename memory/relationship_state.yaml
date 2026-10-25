@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 277
+last_updated_chapter: 278
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -619,3 +619,12 @@ chapter_277_relationships:
   archive: "罗谨与馆方对通用说明和原索引真实适用关系严格只核来源时间，未获个人业务阅准。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "不把个人肖像/订单当验路必要条件，不读原索引填写行或旧受访人的私人资料。"
+
+chapter_278_relationships:
+  chapter: 278
+  source_sha: "9d251d7e69e7ea830e0c5688a868eb59a3ba62fb"
+  citizen: "傅姨只提出公众路牌要真按来路指向，不替道路岗试危险方向；小唐拒出厂合格掩盖正式安装方向错误，保留两次改稿与现场验收。"
+  archive: "罗谨接受陶芹仅能依法答A1/A2批号关系、不读取私人填写或提前解读A2字段。"
+  center: "周衡夏宁梁策在交班中继续分源记录公众路权与档案开放权限，没有无据新增信任变化。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "居民行程不被用于证明公共设施安全，2018原索引个人业务信息与1996旧来话仍不公开。"
