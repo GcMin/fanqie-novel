@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 266
+last_updated_chapter: 267
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -519,3 +519,9 @@ chapter_266_relationships:
   facts: "顾珊要求父亲稳定知晓每天实际公示而非被个人特殊照护；制作员许乔留真实PDF证据并止印，不能因此指控她有意伪造旧路；周衡听从梁策先核历史同笔编号的边界。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "顾永山不需交病历换过路权，罗谨不越权查旧登记受访者或通话内文。"
+chapter_267_relationships:
+  chapter: 267
+  source_sha: "7a4dd7405bd3736cff40b55056ea36c321f214a3"
+  facts: "顾永山获得可核的路况责任人及下次更新时间，顾珊支持父亲自主决定；罗谨不越权拆封，馆方保留错误录入及正式更正的责任链；周衡夏宁梁策各自守证据分层。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "没有取得旧登记来话人姓名和隐私、没有开封权限，也不能要求顾家以个人情况换公众路权。"

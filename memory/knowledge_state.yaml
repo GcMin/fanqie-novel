@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 266
+last_updated_chapter: 267
 characters:
   zhou_heng:
     knows:
@@ -697,3 +697,9 @@ chapter_266_knowledge:
   authority: "街道撤牌与制作商停印有实际回签，旧目录不允许索未经批准的个人来话资料。"
   predecessor: "265原draft SHA 31c2d05b018157c5545d2fcf7d684c2c3ab4d009与ready Blob 01c3eaebac4a877b98b24c8458e7883f5b289706正文逐字一致，仅状态元数据不同，266依赖已改绑后者。"
   canon_boundary: "普通‘回拨接收’不证早于互联网异常工单机制；F003仅有界推进，F008无新本人记忆矛盾，M004/M005未证。"
+chapter_267_knowledge:
+  confirmed: "Day131原档2006一册、2018同移交顺序号一件封套但页数未填；馆内保管岗及见证岗位仅按权限核外签和现库位；误写原册已核正式纠正留痕；公众路全天未获新开放，两次有责核实公告。"
+  unresolved: "封套中是否有登记册、原册有多少页、受访者身份、回拨有没有接通、原旧路终点与异常业务同源、外部已发折页和导航同步均未核。"
+  authority: "档案外包装限项核验不授权开封或查阅个人来话；核件评估申请仅受理未批准。道路须安全与管理岗当日另批才可通行。"
+  predecessor: "第266章已在ready的Blob 0baabcb67e40085453823862384314b032877a30与本章依赖和详细章纲完全一致，时间由Day131 00:11自然接Day131 08:17。"
+  canon_boundary: "F003有界推进，F008未添新人可靠记忆矛盾，M004/M005继续未确证，1996普通照明纸证与韩文舟后补私人笔记不互证。"

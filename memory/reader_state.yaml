@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 266
-last_reviewed_title: 那条线是后来补上的
-last_source_path: chapters/draft/0266.md
-last_source_sha: 165d810eed050c2aa566a7978994dbe020990da8
-last_review_path: reader_reviews/0266_165d810e.md
+last_reviewed_chapter: 267
+last_reviewed_title: 柜号对上了，页数没有
+last_source_path: chapters/draft/0267.md
+last_source_sha: 7a4dd7405bd3736cff40b55056ea36c321f214a3
+last_review_path: reader_reviews/0267_7a4dd740.md
 last_reviewed_at: "2026-10-25"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 265
-depends_on_source_sha: 01c3eaebac4a877b98b24c8458e7883f5b289706
+depends_on_chapter: 266
+depends_on_source_sha: 0baabcb67e40085453823862384314b032877a30
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 6c205e563b116228157731338787edb1ce656a4b
+predecessor_current_source_sha: 0baabcb67e40085453823862384314b032877a30
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -760,3 +760,18 @@ combined_audit_chapter_266_20261025:
   dependency_metadata_rebind_rounds: 1
   continuity_style_qa: pass
   structural_gate: exact_commit_CI_required
+combined_audit_chapter_267_20261025:
+  chapter: 267
+  title: "柜号对上了，页数没有"
+  source_path: chapters/draft/0267.md
+  source_sha: "7a4dd7405bd3736cff40b55056ea36c321f214a3"
+  review_path: reader_reviews/0267_7a4dd740.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  counts: {blocker: 0, major: 0, minor: 2}
+  body_revisions: 0
+  predecessor_ready_blob: "0baabcb67e40085453823862384314b032877a30"
+  dependency_status: verified_exact_ready_blob
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
