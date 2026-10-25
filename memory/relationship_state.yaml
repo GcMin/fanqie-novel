@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 275
+last_updated_chapter: 276
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -600,3 +600,12 @@ chapter_275_relationships:
   center: "周衡、夏宁、梁策分源记录道路实况与2018馆内索引结构，未出现主角间信任值变化。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "居民不得被要求交个人医疗/行程以证明路线使用；索引填写行和历史回拨人身份均未有利用授权。"
+
+chapter_276_relationships:
+  chapter: 276
+  source_sha: "d9a7d1d2ace3bb7a0b9207e48347efc52e7f881f"
+  citizen: "傅姨要求夜间可到真人的通报而不交私号；小唐面对排版误植不伪签三处已换，程柯在安全侧等专业岗位不交工作订单作路况证据。"
+  center: "周衡夏宁梁策按来源和职责联动，真人求助与职务回签分层保留，主角之间无新增可核信任变动。"
+  custodian: "罗谨与馆方遵守范围内的编制规则审批，不经个人记录推断1996旧受访者获答。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "居民位置/医疗/订单截图不作为公众路况验收；历史索引个人填值行没有获准。"

@@ -1,0 +1,26 @@
+schema_version: 1
+chapter: 276
+title: "那部全天电话，六点就下班"
+volume: 6
+arc: ARC-054
+status: ready
+source_draft_sha: "d9a7d1d2ace3bb7a0b9207e48347efc52e7f881f"
+depends_on_chapter: 275
+depends_on_source_sha: "c9dca8c0128af5d5909597e946ff58945cd3b473"
+summary: >-
+  Day140上午08:42傅姨指出路牌“全天受理”挤在只提供白班真人接线的窗口电话旁边，白天拨通不证夜间人工。街道11:37核明网页24小时可提交仅自动生号而窗口电话18:00后无真人保证，白天网页先更正，三处旧纸实际撤换尚未完成。10:18道路有责岗发现转角垫圈松动但当时净宽和固定状态未达立刻封控标准，只留待修单。罗谨依法重新申请2018馆内关联核验通用编制规则，13:06确认文书存在，15:24获限项摘录：候选系列仅列可能档案类别，关联核验完成仅整理人员比对层面，并不证明旧业务结束或受访者真实收到答复；原2018索引填值仍未阅。Day140 20:14程柯见告示底板下垂威胁人行，拨白班号仅自动录音、网页虽生编号但无人现场；20:23夜间中心真正接报，20:46道路值守专业到、21:08卸除危牌、21:36有权复核后解除局部临时限制。22:11仅一处错纸实际撤下，另两处依然挂旧版，永久固定件待次日专业更换；夜间真正有人接听的联动渠道已公开，东侧工地仍封。Day141 00:21第138次夜班阶段交班，F003有限、F008无新增、M004/M005未确证。
+meaningful_state_changes:
+  - "全天网页自动收件与白班真人电话误导正式纠错，市级夜间真人接报实际联动安全处理，一处旧错纸真撤、另两处仍未换。"
+  - "南侧公路底板坠落隐患专业隔离与卸除后有责现时复核通行；原索引通用分类原则依法获得但不证原具体行及历史答复。"
+knowledge_updates:
+  - "Day140夜间热线需真实人工值守渠道，白班电话的18时录音和网页收件编号均不等于实际现场处理。"
+  - "2018整理表的候选系列与关联核验仅是工作分类/比对，不能推出历史来话者收到答复。"
+foreshadowing_updates:
+  - "F003仅新增通用编制规则、非旧人送达证据；F008无新可靠本人记忆冲突；M004/M005仍未证。"
+relationship_updates:
+  - "傅姨拒提供私人电话，小唐承认真实信息误植；程柯自行避险不让其拿订单代现场验收；中心与馆方坚持岗位权限。"
+ending_state: "Day141 00:21交班；南侧局部危险已专业解除但永久固定件及两处纸告示待办，东侧施工门仍封；馆内2018通用规则已知但原索引实际适用和旧回告对象未核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "fe6a5a90201670340c2124d12c121eeea8db9079", revised_sha: "d9a7d1d2ace3bb7a0b9207e48347efc52e7f881f", stage_a_used: 1, body_revisions: 0, metadata_char_count: "3345_to_2971", predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2971

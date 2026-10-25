@@ -5,10 +5,10 @@
 - arc: ARC-054《回拨接收点》；第四阶段《被留下的城市》
 - role: Writer，仅 Planner、Continuity Precheck 与首稿，不做 Reader、Revision、QA、Memory、Publish。
 - observed_main_sha: 44a9ad9459a51f366635d2e37364f6c61c7c4ae7
-- predecessor_path: chapters/draft/0275.md
+- predecessor_path: chapters/ready/0275.md
 - depends_on_chapter: 275
-- depends_on_source_sha: "fb2a1385962f2fac9ba48537d7a5803de13f5008"
-- dependency_status: provisional
+- depends_on_source_sha: "c9dca8c0128af5d5909597e946ff58945cd3b473"
+- dependency_status: verified_predecessor_body_identical_ready
 - dependency_facts: 第275章Day139南侧已有公众路10:23具名复巡可用，11:07三处纸本同版公示换毕；傅姨本人独立办事并反馈标牌过低；东侧旧站施工门仍封。罗谨13:47新限项审批、15:16得到2018原索引四个非身份栏目“原登记参照”“接收记录线索”“回告材料候选系列”“关联核验状态”，其仅为2018馆内关联查找表且填值行从未获阅。第137夜班在Day140 00:13交班；此处只暂用275未审draft源事实，不升级Canon。
 - canon_boundary: Day140对应第138次夜班、该班20:00正式开始（20:23是接报时刻不是开班）；南侧公众道路与东侧施工门不同权责、东门没有跨日许可。2018原索引在独立保护夹，2022新袋存重制复制页，2006旧登记册因粘连仍未点页。1996普通照明两岗位22:41/次日08:07纸证不等于韩文舟后来补写的私人22:41；永安里6栋201原住房使用关系不证明居民身份、实际住人或现代系统来源；F008无新可靠本人记忆矛盾，M004/M005不证。
 - goal: 解决印刷“全天受理”不等于夜间电话真人可接的真实公众风险，并按真实安全处置补闭环；另依法取得2018索引栏目分类的通用规则，却不看旧业务填值行。
@@ -29,5 +29,5 @@
 - forbidden_leaks: 不拿网络自动受理冒人工到场或完成服务；不将白天维护计划/三处新稿交付写成实装完成；不把临时安全复核说成新永久许可；不得逼居民试路或提交订单和病历；不开放2018原索引填值行、私人姓名号码、旧粘连页，不推出旧来话者实际获答。
 - ending: Day141 00:21交班；危险底板已卸、当前路况再核，尚有两处旧版纸与永久件待更换；旧索引规则有界确认，旧回拨是否送达仍未知。
 - target_body_effective_chars: 2600—3400，硬限2300—3800
-- actual_body_effective_chars: 3345
-- continuity_precheck: 直接前章275仅是待独立Audit的未审稿，依赖SHA fb2a1385962f2fac9ba48537d7a5803de13f5008；Day139记录只作为临时连续性，273/274的ready事实独立受保护；不预先认证未来路权、历史个人结果或前章QA。
+- actual_body_effective_chars: 2971
+- continuity_precheck: 第275章实际ready已通过独立Audit且旧provisional正文与最终ready逐字相同；依赖当前ready SHA c9dca8c0128af5d5909597e946ff58945cd3b473；Day139记录只作为临时连续性，273/274的ready事实独立受保护；不预先认证未来路权、历史个人结果或前章QA。

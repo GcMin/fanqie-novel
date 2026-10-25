@@ -17,3 +17,7 @@
 - **结构校验尚未得到可证实的成功结果**：GitHub连接器的combined commit status仅返回空statuses，按commit获取的workflow_runs只涵盖pull_request触发，未能获取该push触发的精确GitHub Actions结果；本会话亦未执行真实 `python -m publisher.check_local --repo .`。不把自动触发/未报告视为SUCCESS，不放行main。
 - 本轮结束前Writer已在main新增第276章，main HEAD为 `9faeaba82d087902699985419b971292018fbeb5`，而候选分支起点是 `44a9ad9459a51f366635d2e37364f6c61c7c4ae7`。第276章草稿临时依赖第275章旧源SHA `fb2a1385962f2fac9ba48537d7a5803de13f5008`；第275章更正后的正文与旧源正文内容一致、只变有效字数元数据。后续仍须在275结构通过并合法ready后核实/重绑276，按新SHA独立审查。
 - **真实main状态**：第275章仍在 `chapters/draft/0275.md`，第276章仍在 `chapters/draft/0276.md`；main无 `ready/0275.md`，尚无本轮放行Commit。恢复时先读最新main，校验精确候选commit对应结构检查，安全整合Writer新增文件，不得force更新，不得绕过结构门槛。
+
+## 2026-10-25 19时后续恢复：实际CI与main放行证据
+- 旧候选`c906284e6ebb9954b64596724b3e9b66bdc8d855`现已检出GitHub Actions Run `40184615598` SUCCESS（单元测试及`python -m publisher.check_local --repo .`均通过）。
+- 保留Writer新增276、277并从当时main `1cea1e352cf13d98f03fe247a92054ce5d6ca7b5`安全构树，新候选Commit `2aa3bc66aa7bf7038cdae8d1c4816412c541e19e`对应精确Run `40187899732` SUCCESS，两个结构步骤均成功。以`expected_sha`、`force:false`实际将main更新到该Commit，第275章在main已正式ready；上文旧阻塞说明仅是历史状态，现已解除。

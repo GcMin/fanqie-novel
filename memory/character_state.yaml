@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 275
+last_updated_chapter: 276
 characters:
   zhou_heng:
     location: "Day140 00:13，第137次夜班阶段交班"
@@ -775,3 +775,14 @@ chapter_275_verified:
   public_road: "Day139 09:52局部复巡、10:23整条核可用、11:07三点同版具名换纸；东侧施工步道未获今日公众许可。"
   main_cast_injuries: none_new
   final_location: "Day140 00:13交班；南侧既有公众路按当日复巡可用且未来待核，东侧封闭，2018索引候选栏已核但实际旧回告仍未知。"
+
+chapter_276_verified:
+  source_sha: "d9a7d1d2ace3bb7a0b9207e48347efc52e7f881f"
+  timeframe: "Day140 08:42—Day141 00:21，第138次夜班"
+  zhou_heng: "核白班电话自动应答、网站收件与20:23市级真实人工接报、21:36专业复验不混同；旧历史索引不作已送达依据。"
+  xia_ning: "将20:23真人来电、夜间隔离/卸危险底板/有责现场复核与个人自愿回访分成实事记录；不把一处撤旧当三处已换。"
+  liang_ce: "提醒报险者从安全侧等授权人员，不用报险人推车或照片当专业检验。"
+  citizens: "傅姨自主追夜间真实渠道不交电话号码；程柯先避险、夜间反馈只提供有限自愿结果；小唐需继续完成剩余纸本纠错。"
+  custodian: "罗谨限项取得2018通用编制规则，未看原索引任何实际填值或旧来话私人身份。"
+  main_cast_injuries: none_new
+  final_location: "Day141 00:21交班；危牌真卸，两处旧告示仍挂、永久件待修，东侧工地仍封。"

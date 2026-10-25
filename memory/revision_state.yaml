@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 275
+current_chapter: 276
 current_stage: structural_gate_pending
-current_source_path: chapters/ready/0275.md
-current_source_sha: fb4f7cd9dff1acd661ad6623bdc5d6f4e6000acf
-current_review_path: reader_reviews/0275_fb4f7cd9.md
+current_source_path: chapters/ready/0276.md
+current_source_sha: d9a7d1d2ace3bb7a0b9207e48347efc52e7f881f
+current_review_path: reader_reviews/0276_d9a7d1d2.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,9 +12,9 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_precise_CI_unverifiable_main_unchanged
+last_action: audit_276_reader_QA_memory_ready_candidate
 last_action_date: 2026-10-25
-last_error: "chapter_275_candidate_CI_exact_commit_result_unavailable; latest_main_advanced_to_9faeaba82d087902699985419b971292018fbeb5; no_main_release"
+last_error: null
 last_diff_summary: "第275章原稿有效字数标记3292与真实正文2916不符，Stage A只更正Front Matter和章纲，不改正文；新SHA重新独立Reader0/0/2，内容QA PASS；仍需精确候选结构CI才能放行main。"
 repeated_issue_signatures: []
 qa_gate: pass
@@ -575,3 +575,27 @@ chapter_275_audit_blocked_20261025:
   next_chapter_276: draft_provisional_old_predecessor_sha
   blocked_reason: "无法取得候选精确commit的GitHub Actions检查结果，未执行本地完整check_local，Writer并发新章使分支旧于当前main。"
   next_action: "读取最新main并保留Writer文件，取得可信精确结构检查后方可用expected_sha和force_false原子放行275，再处理276。"
+
+chapter_275_audit_recovered_20261025:
+  original_blocked_candidate: c906284e6ebb9954b64596724b3e9b66bdc8d855
+  verified_original_ci_run: 40184615598
+  rebased_candidate: 2aa3bc66aa7bf7038cdae8d1c4816412c541e19e
+  verified_exact_ci_run: 40187899732
+  main_ready_confirmed: true
+  main_update: "expected_sha_and_force_false_success"
+
+combined_audit_chapter_276_20261025:
+  chapter: 276
+  original_sha: "fe6a5a90201670340c2124d12c121eeea8db9079"
+  final_reviewed_sha: "d9a7d1d2ace3bb7a0b9207e48347efc52e7f881f"
+  final_review: reader_reviews/0276_d9a7d1d2.md
+  stage: local_revision_metadata_only
+  local_revision_used: 1
+  body_revisions: 0
+  corrected_char_count: 2971
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  predecessor_body_identical: true
+  predecessor_ready_sha: "c9dca8c0128af5d5909597e946ff58945cd3b473"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required

@@ -1,6 +1,6 @@
 schema_version: 1
-last_updated_chapter: 275
-current_time: "Day140 00:13，第137次夜班阶段交班"
+last_updated_chapter: 276
+current_time: "Day141 00:21，第138次夜班阶段交班"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-054_active
@@ -817,3 +817,11 @@ chapter_275_world:
   material_custody: "2018原索引仍在2020年保护夹，2022工作复制页另袋；Day139只核可辨印刷表头/制作栏，不移交原纸、不阅私人行和旧粘连册。"
   public_safety: "已实际核可用的南侧普通公共路与东侧工地门继续区别；三点公示有时点但并非所有人已看到，更不代表未来永久免复核。"
   canon_boundary: "F003有限、F008无新可靠样本、F009/F010/F011 resolved、M004/M005不证。"
+
+chapter_276_world:
+  chapter: 276
+  place: "白榆路南侧既有公众道路/三处告示点/旧站东门封栏/档案馆利用室/夜间中心"
+  verified: "Day140 11:37确认网页全天自动收件与白班电话18时停止真人接线，20:23市级夜间中心真人受理、20:46有权值守到、21:08专业卸危牌、21:36复查净宽与路面可用；22:11仅一处纸告示实际撤旧。馆方另依法出具2018馆内分类编制通用规则。"
+  unresolved: "另外两处错误热线纸告示和第一处永久固定件待次日处理；2018通用规则是否与原索引逐笔对应不证，个人历史来话及旧答复仍未查。"
+  public_safety: "自动受理号不等于人工到场；本次风险已解除但后续仍按实复查，东侧工地始终未获公众放行。"
+  canon_boundary: "F003有限、F008无新可靠样本，M004/M005不确认。"
