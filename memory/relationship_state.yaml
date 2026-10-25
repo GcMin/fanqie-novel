@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 264
+last_updated_chapter: 266
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -505,3 +505,17 @@ chapter_264_relationships:
   facts: "顾永山选择自己出门取修好的收音机并按时往返，顾珊尊重日常自主而非索个人专用路线；屈工承担审批后的真实整改/短驳延工成本，三主角没有预支明天通行承诺。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "未要求病历或住址公开，顾珊回告仅今天真实往返；旧访查原页仍受控。"
+
+chapter_265_relationships:
+  chapter: 265
+  source_sha: "31c2d05b018157c5545d2fcf7d684c2c3ab4d009"
+  facts: "罗谨不越过历史受访者权限边界，梁策夏宁要求周衡先按来源而非童年记忆判断；顾珊尊重顾永山不为便民强行借旧通路。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "馆藏非身份开放不等于可查看第七页完整口述或旧受访人。"
+
+chapter_266_relationships:
+  chapter: 266
+  source_sha: "165d810eed050c2aa566a7978994dbe020990da8"
+  facts: "顾珊要求父亲稳定知晓每天实际公示而非被个人特殊照护；制作员许乔留真实PDF证据并止印，不能因此指控她有意伪造旧路；周衡听从梁策先核历史同笔编号的边界。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "顾永山不需交病历换过路权，罗谨不越权查旧登记受访者或通话内文。"

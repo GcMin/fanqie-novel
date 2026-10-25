@@ -1,11 +1,11 @@
 schema_version: 1
-last_updated_chapter: 264
-current_time: "Day129 00:24，第126次夜班阶段交班"
+last_updated_chapter: 266
+current_time: "Day131 00:11，第128次夜班阶段交班"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-054_active
-  current_service_case: "Day128白榆路旧站北口沟盖和转角半米经专业整改复验，本日17:10—19:40获准并真开真关；顾家实际往返取回收音机，后日仍须再核。"
-  next_entry: "Day129若继续开放需重新核当日安全隔离、车辆排程与具名看守，不凭未来拟排提前开门；旧口述路径原页取用仍待权限。"
+  current_service_case: "Day130白榆路旧站北口错误离线蓝牌两处按权实撤，库存停发，公众路今日无新批准开放；工程曾有端点吸附错接，旧登记题名仅经合法目录查得。"
+  next_entry: "Day131按权限窄查《旧站周边步行路径意见回拨接收登记》实际馆藏保管链，不索未开放身份与旧来话；公众路每日必须按当日现场新验签。"
 case_state:
   chapter_132: 梧柳巷漏收由原收运车故障后临时换车的口头交接歧义造成；四桶及雨水口周边已补收清理，当晚换车交接改为明确最后完成点和下一未完成点；正式模板待白班评估。
 invariants:
@@ -719,3 +719,21 @@ chapter_264_world:
   material_custody: "审批图、施工记录、双口真实开关回签分别留存，旧口述走访只获档案取用受理。"
   public_safety: "沟盖固定与排水、隔离宽度和车路错峰经专业核，19:40以后禁止通行，未来需再次现场安全检查。"
   canon_boundary: "现沟盖位置不能给永安里旧走访补落点；F003有限、F008无新矛盾、M004/M005未证。"
+
+chapter_265_world:
+  chapter: 265
+  place: "临江市档案利用室/旧站工程受控图层/夜间中心"
+  verified: "Day129经合法馆藏限项核第四页实绘和第七页独立口述，两页同框并排不证地图线路相连；21:46本项目错误历史叠加真实停用。"
+  unresolved: "旧路物理同点、续画人、旧受访人及外部导航未核。"
+  material_custody: "旧工程与馆藏原始版本保留，未扩大个人口述开放。"
+  public_safety: "Day128临时开放已19:40到期，Day129无新的安全开放许可。"
+  canon_boundary: "F003仅合法有界、F008无新样本、M004/M005未证。"
+
+chapter_266_world:
+  chapter: 266
+  place: "白榆路旧站北口/公交亭/市政图纸单位/档案利用室"
+  verified: "Day130两处错误离线实体蓝牌分别依权撤下并留回签，未安装库存暂隔离；端点吸附工程制作方式获限项技术核，14:18另册题名合法获见。"
+  unresolved: "全渠道既发PDF/折页、外部地图同步、原登记实际保管及回拨内容未知。"
+  material_custody: "错误PDF、工程叠图与史料依权封存保全，未开放受访者私密资料。"
+  public_safety: "Day130公众路仍无新放行；有沟盖和指路牌都不代替现场安全签认。"
+  canon_boundary: "F003有界推进、F008无新人本人记忆反证、M004/M005不证。"

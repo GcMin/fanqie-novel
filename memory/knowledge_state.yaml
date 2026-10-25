@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 264
+last_updated_chapter: 266
 characters:
   zhou_heng:
     knows:
@@ -683,3 +683,17 @@ chapter_264_knowledge:
   authority: "公用步道不是顾家专用；安全与街道权责分离，夜班只记录不越权批准，顾家未交医疗资料。"
   predecessor: "263旧draft f77c68628d92352f48b5ec44aed722a21a9c87b4与最终ready e91e9fa4dd4ae9839b4cfd0bf1d7a0ada54b8251剧情正文逐字相同、仅交付FM变；264现精确绑定最终ready。"
   canon_boundary: "F003历史方向目录仍终点未核、无原页或永安里实际坐标；F008无新样本，M004/M005未确证。"
+
+chapter_265_knowledge:
+  confirmed: "Day129合法核第四页实绘止于纸缘、第七页独立口述方位‘永安里方向，终点未实核’；同框预览不等于历史测绘连通；21:46本项目错引历史路线实际禁用。"
+  unresolved: "旧路真实同点/终点、工程续画者、完整口述原页、受访者、外部导航和关联另册具体内容未证。"
+  authority: "只用馆方限项批准的非身份图面，工程仅本项目受控禁错，原资料保留。"
+  predecessor: "第264章ready Blob f57b5e23dfdba6c66f44e73210695c7077696bbb精确匹配；Day128有限开放19:40真关闭。"
+  canon_boundary: "F003有界，F008无新人可靠本人记忆反证，M004/M005不确认。"
+
+chapter_266_knowledge:
+  confirmed: "Day130旧站两处离线实体错导按权实撤，库存停发；市政限项证工程绘图时开过端点吸附；罗谨依法取得另册《旧站周边步行路径意见回拨接收登记》脱敏目录题名。"
+  unresolved: "错图绘制者责任、已发外部副本、外部导航、另册原本保管、真实回拨与当事人身份均未核。"
+  authority: "街道撤牌与制作商停印有实际回签，旧目录不允许索未经批准的个人来话资料。"
+  predecessor: "265原draft SHA 31c2d05b018157c5545d2fcf7d684c2c3ab4d009与ready Blob 01c3eaebac4a877b98b24c8458e7883f5b289706正文逐字一致，仅状态元数据不同，266依赖已改绑后者。"
+  canon_boundary: "普通‘回拨接收’不证早于互联网异常工单机制；F003仅有界推进，F008无新本人记忆矛盾，M004/M005未证。"

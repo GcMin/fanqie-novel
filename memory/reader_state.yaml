@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 264
-last_reviewed_title: 那半米也算一条路
-last_source_path: chapters/draft/0264.md
-last_source_sha: 6d09ee2c01f121fcb5c129e7288efee380f4cab0
-last_review_path: reader_reviews/0264_6d09ee2c.md
+last_reviewed_chapter: 266
+last_reviewed_title: 那条线是后来补上的
+last_source_path: chapters/draft/0266.md
+last_source_sha: 165d810eed050c2aa566a7978994dbe020990da8
+last_review_path: reader_reviews/0266_165d810e.md
 last_reviewed_at: "2026-10-25"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,8 +12,8 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 261
-depends_on_source_sha: 6c205e563b116228157731338787edb1ce656a4b
+depends_on_chapter: 265
+depends_on_source_sha: 01c3eaebac4a877b98b24c8458e7883f5b289706
 dependency_status: verified_exact_ready_blob
 predecessor_current_source_sha: 6c205e563b116228157731338787edb1ce656a4b
 predecessor_sha_mismatch: false
@@ -737,3 +737,26 @@ combined_audit_chapter_264_20261025:
   predecessor_factual_delta: body_identical_only_frontmatter
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_265_20261025:
+  chapter: 265
+  source_sha: "31c2d05b018157c5545d2fcf7d684c2c3ab4d009"
+  review: reader_reviews/0265_31c2d05b.md
+  counts: {blocker: 0, major: 0, minor: 2}
+  body_revisions: 0
+  predecessor_ready_blob: f57b5e23dfdba6c66f44e73210695c7077696bbb
+  continuity_style_qa: pass
+  structural_gate: exact_commit_CI_required
+
+combined_audit_chapter_266_20261025:
+  chapter: 266
+  original_source_sha: "079f2f283196f7fc689a8b00daa92674c4e78c1a"
+  revised_source_sha: "165d810eed050c2aa566a7978994dbe020990da8"
+  review: reader_reviews/0266_165d810e.md
+  counts: {blocker: 0, major: 0, minor: 2}
+  predecessor_ready_blob: 01c3eaebac4a877b98b24c8458e7883f5b289706
+  predecessor_factual_delta: body_identical_only_frontmatter
+  body_revisions: 0
+  dependency_metadata_rebind_rounds: 1
+  continuity_style_qa: pass
+  structural_gate: exact_commit_CI_required

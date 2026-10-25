@@ -1,15 +1,15 @@
 schema_version: 1
-last_updated_chapter: 264
+last_updated_chapter: 266
 characters:
   zhou_heng:
-    location: "Day129 00:24，第126次夜班阶段交班"
-    state: "Day128 20:12严格区分沟盖整改、专业当日核准、17:10真开与19:40真关，后续拟排不等于路权；旧走访仅目录待审。"
+    location: "Day131 00:11，第128次夜班阶段交班"
+    state: "Day130第128夜班知道旧目录回拨接收只是题名、两处离线蓝牌已撤与历史绘图端点吸附的有限技术核验，不越级认同异常机制。"
   liang_ce:
-    location: "Day124晚，第122次夜班进行中"
+    location: "Day131 00:11，第128次夜班交班"
     state: "无新伤势；第123班强调昨夜许可不能延续，白班安全人员必须另批并避施工车辆；第124班只跟有权实走回签，不冒历史坐标。"
   xia_ning:
-    location: "Day129 00:24，第126次夜班"
-    state: "要求公众屏与实体开关一致，记录今日获批准的17:10—19:40与未来仅计划态；父女真返不替永久验收。"
+    location: "Day131 00:11，第128次夜班交班"
+    state: "Day130将当日公众路封闭、已撤实物错牌和仅限于本项目电子图层的整改分开记，不假称第三方全网已同步。"
 invariants: F008无新增；F009/F010/F011 resolved；M004未确认；M005不触碰
 
 chapter_133_notes:
@@ -649,3 +649,24 @@ chapter_264_verified:
   family: "顾永山自主领取修好收音机并安全往返；顾珊未提供病历，屈工记下新半米隔离导致的真实工程延误。"
   main_cast_injuries: none_new
   final_location: "Day129 00:24，父女在家，实体路口与公众端皆关闭。"
+
+chapter_265_verified:
+  source_sha: "31c2d05b018157c5545d2fcf7d684c2c3ab4d009"
+  timeframe: "Day129 10:13—Day130 00:27，第127次夜班"
+  zhou_heng: "面对馆藏两页分源、旧路终点未核，拒靠自己永安里墙与站牌记忆画现代坐标。"
+  xia_ning: "核本项目历史错引21:46确已受控禁用，外部地图同步尚未知。"
+  liang_ce: "提醒人物不要把两张靠近的纸合并成已测量的真路。"
+  family: "顾永山Day129在家用修好的收音机，顾珊不预支旧日公众道路许可。"
+  main_cast_injuries: none_new
+  final_location: "Day130 00:27交班，另册仅待核目录字段、公众路未新开。"
+
+chapter_266_verified:
+  source_sha: "165d810eed050c2aa566a7978994dbe020990da8"
+  original_source_sha: "079f2f283196f7fc689a8b00daa92674c4e78c1a"
+  timeframe: "Day130 07:43—Day131 00:11，第128次夜班"
+  zhou_heng: "合法旧‘回拨接收’仅得目录题名，不推1996实际异常来话或M005工单源流。"
+  xia_ning: "真实区分两处实体错蓝牌撤下、PDF库存停发、仅本项目电子导向停用和公众道路仍封闭。"
+  liang_ce: "无同笔历史编号，不把普通照明、青梧苑、旧站意见登记串成已证同一系统。"
+  family: "顾珊要求每日有权负责人员公示，许乔停印错图但人身责任未确认，顾永山不交病历。"
+  main_cast_injuries: none_new
+  final_location: "Day131 00:11交班，原登记与历史实际回拨人未查。"
