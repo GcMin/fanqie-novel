@@ -10,3 +10,10 @@
 - **Meaningful Change PASS**：公众从过期群截图转为带日期、明确权责的三点纸告示及本人能用的电话反馈；档案从只知原索引在库转为有权限取得四栏结构和后期用途，排除了“表头证明当年已送达”的误解。F003仅有界推进、F008无新的可靠本人记忆冲突、M004/M005不确证。
 - **Memory与计划**：同步 `memory/chapter_summaries/0275.yaml`、`memory/current_arc.md`、character/knowledge/relationship/world/timeline/foreshadowing、reader/revision状态及 `plans/chapter_plan.csv`；无既有ready行覆盖。
 - **结构 Gate**：以上是人工独立文本QA，不代表已通过结构检查。只有精确候选Git commit对应CI同时证实单元测试和 `python -m publisher.check_local --repo .` SUCCESS，且以 `expected_sha`、`force:false` 更新main成功后方可声明正式ready。失败须停留main draft。
+
+## 本轮真实结构与合并阻塞状态（2026-10-25）
+
+- 本轮先完成全部Reader双遍、Stage A元数据修正、独立内容QA和长期Memory，并在 `audit/ready-0275-20261025-1807` 分支制作 `ready/0275.md` 候选。首次完整候选Commit为 `6180d3218959024b32e9177ea062d7da0fc8b3c9`。
+- **结构校验尚未得到可证实的成功结果**：GitHub连接器的combined commit status仅返回空statuses，按commit获取的workflow_runs只涵盖pull_request触发，未能获取该push触发的精确GitHub Actions结果；本会话亦未执行真实 `python -m publisher.check_local --repo .`。不把自动触发/未报告视为SUCCESS，不放行main。
+- 本轮结束前Writer已在main新增第276章，main HEAD为 `9faeaba82d087902699985419b971292018fbeb5`，而候选分支起点是 `44a9ad9459a51f366635d2e37364f6c61c7c4ae7`。第276章草稿临时依赖第275章旧源SHA `fb2a1385962f2fac9ba48537d7a5803de13f5008`；第275章更正后的正文与旧源正文内容一致、只变有效字数元数据。后续仍须在275结构通过并合法ready后核实/重绑276，按新SHA独立审查。
+- **真实main状态**：第275章仍在 `chapters/draft/0275.md`，第276章仍在 `chapters/draft/0276.md`；main无 `ready/0275.md`，尚无本轮放行Commit。恢复时先读最新main，校验精确候选commit对应结构检查，安全整合Writer新增文件，不得force更新，不得绕过结构门槛。
