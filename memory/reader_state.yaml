@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 286
-last_reviewed_title: 纸上有日期，窗口却关了
-last_source_path: chapters/draft/0286.md
-last_source_sha: bbaeef7cb5ea18dc11a000f52d6d4531a0f9f06f
-last_review_path: reader_reviews/0286_bbaeef7c.md
+last_reviewed_chapter: 287
+last_reviewed_title: 夜间取纸点，只有一扇锁着的门
+last_source_path: chapters/draft/0287.md
+last_source_sha: a84f0dafbbfa8e5f0b76f35451e64a9fe15f023c
+last_review_path: reader_reviews/0287_a84f0daf.md
 last_reviewed_at: "2026-10-26"
 reviewer_mode: combined_audit_independent_A_then_B_new_blob
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 285
-depends_on_source_sha: 35ee4577dfc76080bd5c63b9f38235691c96eee0
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 35ee4577dfc76080bd5c63b9f38235691c96eee0
+depends_on_chapter: 286
+depends_on_source_sha: f1e115074bdf0b8d1bbb6d878aa737c9e65eea25
+dependency_status: verified_predecessor_body_identical_ready
+predecessor_current_source_sha: f1e115074bdf0b8d1bbb6d878aa737c9e65eea25
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1067,5 +1067,21 @@ combined_audit_chapter_286_20261026:
   body_revisions: 0
   predecessor_ready_blob: "35ee4577dfc76080bd5c63b9f38235691c96eee0"
   predecessor_exact_ready: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_287_20261026:
+  chapter: 287
+  original_source_sha: "54059a54261059a6a545ab3a87f5424a82141bdc"
+  original_review: reader_reviews/0287_54059a54.md
+  revised_source_sha: "a84f0dafbbfa8e5f0b76f35451e64a9fe15f023c"
+  revised_review: reader_reviews/0287_a84f0daf.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_original_sha: "bbaeef7cb5ea18dc11a000f52d6d4531a0f9f06f"
+  predecessor_final_ready_blob: "f1e115074bdf0b8d1bbb6d878aa737c9e65eea25"
+  predecessor_body_identical: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

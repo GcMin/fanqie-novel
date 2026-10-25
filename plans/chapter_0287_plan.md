@@ -5,10 +5,10 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer (Planner / Continuity Precheck / Writer)
 - observed_main_sha: 14ce36d6bc0bcbe9cbbf4518b9d24ed154440145
-- predecessor_path: chapters/draft/0286.md
+- predecessor_path: chapters/ready/0286.md
 - depends_on_chapter: 286
-- depends_on_source_sha: "bbaeef7cb5ea18dc11a000f52d6d4531a0f9f06f"
-- dependency_status: provisional
+- depends_on_source_sha: "f1e115074bdf0b8d1bbb6d878aa737c9e65eea25"
+- dependency_status: verified_predecessor_body_identical_ready
 - source_boundary: 第286章在本次main仍为未审草稿，依赖严格绑定其Git blob SHA bbaeef7cb5ea18dc11a000f52d6d4531a0f9f06f；新章只临时参考Day149 20:00第147夜班、Day149上午24张当次路况纸实发1余23于16:10改为历史留存、尚无获批全天实体纸本取用点、旧站东施工门仍封。Day144 D144商户64张中20撤+1交+43未知，B07历史打印量未知。昨章没有变成长期Canon，不以未审稿自证审核事实。
 - chapter_goal: 将上一章“白天确实能领纸、夜间窗口却已关闭”的未解服务缺口落实到一位没有可用手机的居民，区分当次专业路况口头回告、实体纸本取得、夜间受理与固定全天制度，形成一个合法、有限、可核的夜间代拨及查询卡试行。
 - POV: 第三人称有限；主线追随薛兰夜间实际求助及夏宁/周衡的当班处理，白班转蔡敏、小唐、吴保安的职责和真实发放。
@@ -29,3 +29,10 @@
 - target_body_effective_chars: 2600-3400; hard: 2300-3800
 - actual_body_effective_chars: 3187
 - continuity_precheck: 按main 14ce36d6bc0bcbe9cbbf4518b9d24ed154440145已读AGENTS.md/config/novel.yaml/docs/writing_roles.md/docs/ai_reading_protocol.md；核bible全书硬设定及周衡、夏宁、梁策人物卡，卷纲与当前弧线缓存、memory人物/知识/世界/关系、F003/F008及近期timeline，0276—0285十章摘要、0282—0286五章全文；published/ready/draft最大数字0286，且published已有0153。第286章仍在draft，其临时版本以本章依赖字段固定；下一章仅写287新章首稿与详细章纲，供Audit另审。
+
+## Audit 依赖事实核验及放行补记（2026-10-26）
+- Writer首稿时观测的 `observed_main_sha`、`source_boundary`与`continuity_precheck`作为**当时真实历史观察**保留；不是当前前章状态。
+- 第286章原draft Blob `bbaeef7cb5ea18dc11a000f52d6d4531a0f9f06f` 与最新ready Blob `f1e115074bdf0b8d1bbb6d878aa737c9e65eea25` **正文逐字相同**，差异仅Front Matter status/qa/approved_at/publish_mode；第287章只重绑依赖SHA与状态，正文没有改动，目标及实际有效3187字不变。
+- 第287章原draft `54059a54261059a6a545ab3a87f5424a82141bdc` 初审 Reader 0/1/2，局部修正依赖后的新draft `a84f0dafbbfa8e5f0b76f35451e64a9fe15f023c` 再独立Pass A/B为0/0/2；独立Continuity/Style/Meaningful QA通过，无强制正文修改。
+- Day149 20:00第147班→Day149 23:47夜间锁门，Day150 00:27独立专业核→Day150 10:04撤错公告→15:26限当夜职责确认→17:12实放卡10→20:00第148班→21:38实领卡1→21:55独立专业新核→22:20留原始试行范围；路况不跨日，东施工门一直封，全天现时路况纸本点未获准。
+- 放行先决条件仍为包含Ready/计划/Memory实际内容的**精确候选Git Commit CI结构验证SUCCESS**，否则不得更改main draft。

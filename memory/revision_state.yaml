@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 286
+current_chapter: 287
 current_stage: structural_gate_pending
-current_source_path: chapters/draft/0286.md
-current_source_sha: bbaeef7cb5ea18dc11a000f52d6d4531a0f9f06f
-current_review_path: reader_reviews/0286_bbaeef7c.md
+current_source_path: chapters/draft/0287.md
+current_source_sha: a84f0dafbbfa8e5f0b76f35451e64a9fe15f023c
+current_review_path: reader_reviews/0287_a84f0daf.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_286_reader_QA_memory_ready_candidate
+last_action: audit_287_dependency_rebind_new_sha_reader_QA_memory_ready_candidate
 last_action_date: 2026-10-26
 last_error: null
-last_diff_summary: "286原稿没有必须修订项，Reader独立双遍0/0/2、前章285精确ready SHA一致，内容QA通过；结构CI须实证。"
+last_diff_summary: "287原依赖286 provisional SHA经正文逐字相同核验重绑286最终ready SHA，正文0改，新blob Reader 0/0/2与Continuity/Style/Meaningful QA PASS；结构CI待核。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -729,5 +729,20 @@ combined_audit_chapter_286_20261026:
   rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
   body_revisions: 0
   predecessor_ready_blob: "35ee4577dfc76080bd5c63b9f38235691c96eee0"
+  qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_287_20261026:
+  original_sha: "54059a54261059a6a545ab3a87f5424a82141bdc"
+  final_source_sha: "a84f0dafbbfa8e5f0b76f35451e64a9fe15f023c"
+  original_review: reader_reviews/0287_54059a54.md
+  final_review: reader_reviews/0287_a84f0daf.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  predecessor_provisional_blob: "bbaeef7cb5ea18dc11a000f52d6d4531a0f9f06f"
+  predecessor_ready_blob: "f1e115074bdf0b8d1bbb6d878aa737c9e65eea25"
+  predecessor_body_identical: true
   qa: pass
   structural_gate: exact_candidate_commit_CI_required

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 286
+last_updated_chapter: 287
 characters:
   zhou_heng:
     location: "Day147 20:00，第145次夜班开班"
@@ -906,3 +906,15 @@ chapter_286_verified:
   street: "丁禾撤阅读室误自取样张，蔡敏撤错二楼指路并交1/24张，其余23过时归历史。"
   main_cast_injuries: none_new
   final_location: "Day149 20:00第147夜班开，全天实体取纸点待批。"
+
+chapter_287_verified:
+  chapter: 287
+  source_sha: "a84f0dafbbfa8e5f0b76f35451e64a9fe15f023c"
+  timeframe: "Day149 23:47—Day150 22:20，第147/148夜班"
+  zhou_heng: "不将前日白班路线或盒中卡当本人已经走路及专业当前许可，核一夜试行与实际取卡。"
+  xia_ning: "Day150 00:27及21:55分别得到现时专业路况才回话，不强迫无手机薛兰用扫码链接。"
+  liang_ce: "提醒值班保安不越职开办公柜和签路权，卡盒试行仅限本门当夜。"
+  citizen: "薛兰手机失效却不让个人身份登记阻止有责问路；男子当晚自取查询卡1份，同意代拨但去药店结果未知。"
+  street: "蔡敏和小唐10:04撤误导门外公告，吴保安15:26起获限当夜在岗代拨权，17:12十卡实入盒，21:38一张真取余九。"
+  main_cast_injuries: none_new
+  final_location: "Day150 22:20第148次夜班仍在，旧东门封闭，夜间全天实体路况纸点未获批准。"

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 286
+last_updated_chapter: 287
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -709,3 +709,12 @@ chapter_286_relationships:
   center: "夏宁周衡梁策依程序证据分层，主角互信分数无无据改变。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "不把私人取鞋单和电话号码当验路必要信息；志愿者不能代道路岗签路权。"
+
+chapter_287_relationships:
+  chapter: 287
+  source_sha: "a84f0dafbbfa8e5f0b76f35451e64a9fe15f023c"
+  citizen: "薛兰不接受手机损坏就无法夜间问路，拒以身份证和私人订单换咨询而接受保安征同意代拨；晚间男子自己读卡并决定是否等待有责答复。"
+  street: "吴保安只凭当夜在岗许可代拨，不开行政柜、不断言安全到达；蔡敏正视白天正确的公告可在夜间变成误导，纠错后取得有限试行授权。"
+  center: "夏宁周衡梁策守路况与来源分层，未因一例代拨宣称全市全天可及或无据改变主角互信。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不强索薛兰/男子身份、住址/个人订单或私手机号，代拨由本人明确同意，不替专业人员验路。"

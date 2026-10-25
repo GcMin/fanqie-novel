@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 287
+title: "夜间取纸点，只有一扇锁着的门"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "a84f0dafbbfa8e5f0b76f35451e64a9fe15f023c"
+original_source_sha: "54059a54261059a6a545ab3a87f5424a82141bdc"
+reader_review: reader_reviews/0287_a84f0daf.md
+prior_review: reader_reviews/0287_54059a54.md
+depends_on_chapter: 286
+depends_on_source_sha: "f1e115074bdf0b8d1bbb6d878aa737c9e65eea25"
+dependency_status: verified_predecessor_body_identical_ready
+timeframe: "Day149 23:47—Day150 22:20，第147/148次夜班过渡"
+summary: >-
+  Day149 23:47薛兰因手机泡水无法查询有时效的大字路况，站在街道办一楼上锁门外，门牌还写“一楼领取”而未写到18时截止；吴保安有岗位电话但无权开行政柜，征得本人同意代拨夜间真人。Day150 00:14道路值守仅在到场核查中，00:27另次有责现场核南侧正常公众路当下可用、旧站东施工门继续封、D144北绕未重启，夏宁才口头回话；薛兰自己记时点，自愿01:06说纸箱装好拟返回，未让其行程成为道路验收。白班Day150 08:52核夜间误导及第286章上午24纸真交1余23已封旧；10:04小唐实换外门告示写准工作时间与夜间真人渠道。无人获准把可过时路况纸无限期放门外或开行政办公门。15:26街道和物业实际批准仅当夜保安在岗、居民自愿时可代拨公开真人电话；街道准备只含联系办法的卡十张，后勤17:12核盒体雨棚固定且不挡疏散，真放十张，不推定十人接收。Day150 20:00第148班开、21:38男子亲取卡1张并同意由吴保安代拨，夏宁不复用00:27旧实核，21:55道路岗另轮有责核南侧当前可用东门封才实告，男子自行离开而未知其取保温袋结果；卡余九，22:20夜班留限定试行而非永久全街全天路线服务。Day144 D144原纸余43和B07旧错印量未知，2018 A2/1996个人旧回告、M004/M005仍无证。
+meaningful_state_changes:
+  - "Day150 10:04外门误导的无工作时段一楼自取提示被真正更换，午夜路况也经专业重新核实后回答薛兰。"
+  - "街道/物业15:26仅准一夜值班保安自愿代拨及查询联系卡，17:12真放十张；21:38男子自己拿1张，盒内余9张可核。"
+  - "男子21:55真实得到新核路况，当前路线纸全天窗口始终没有批准；本人实际送货与安全抵达仍未知。"
+knowledge_updates:
+  - "街道一楼白天可实领不等于锁门的夜间有实体窗口；值班电话代拨与路况批准由不同岗位负责，联系卡不能包含永效方向。"
+  - "一夜有限授权、十张放置、一人真取、一次专业新核与全街长期服务是不同证明层。"
+foreshadowing_updates:
+  - "F003沿用2018 A2非身份规则不新增1996旧人的个人回告；F008无新可靠本人记忆矛盾，M004/M005不证。"
+relationship_updates:
+  - "薛兰拒提交住址和私人订单，吴保安用岗位电话按同意代拨而守行政门与档案权限；蔡敏承认白天正确的告示在夜间可能误导。"
+ending_state: "Day150 22:20第148次夜班：一楼办公门仍上锁，门外查询卡10放1领9余，保安代拨及专业回话真实发生但只是一夜有限试行、全天路况纸点仍未开。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "54059a54261059a6a545ab3a87f5424a82141bdc", revised_sha: "a84f0dafbbfa8e5f0b76f35451e64a9fe15f023c", body_revisions: 0, metadata_dependency_rebind: true, predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_body_identical: true, structural: exact_candidate_commit_CI_required}
+char_count: 3187
