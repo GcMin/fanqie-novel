@@ -99,7 +99,7 @@ chapter,title,status,arc,goal,conflict,state_change,foreshadowing,expected_chars
 156,那条没填理由的隐藏记录,completed,ARC-051,协助照护到户并追查公众限制,正式在用地址被管理端暂缓展示且依据未明,照护到户且源任务待查,,3000,pass,published,Reader0BLOCKER0MAJOR2MINOR；QA与Memory同步；SHAefbca08f
 157,没有到期日的那张名单,completed,ARC-051,核源并恢复22号公众服务,测试及人工留痕不等于正式发布或人员恶意,人工名单持续排除公众输出，正式地址和安全到达指引已送达；LM-214仍隔离,F012,3000,pass,published,源稿SHA72253cfa；Reader0BLOCKER0MAJOR2MINOR；Continuity/Style QA通过；前章依赖源核对
 158,批准单上只封了一条路,completed,ARC-051,核源并恢复22号公众服务,测试及人工留痕不等于正式发布或人员恶意,22:28 LM-214专业复检完工，22:37解除门前警戒并恢复正门通行；公众地址仍未恢复,F012,3000,pass,published,源稿SHA84cb29bd；Reader0BLOCKER0MAJOR2MINOR；Continuity/Style QA通过；前章依赖源核对
-159,核实后再调整,completed,ARC-051,核源并恢复22号公众服务,测试及人工留痕不等于正式发布或人员恶意,00:46主管单位发出书面范围纠正意见，仍需正式审批发布；生产公众检索未恢复,F012,3000,pass,ready,源稿SHA2359139c；Reader0BLOCKER0MAJOR2MINOR；Continuity/Style QA通过；前章依赖源核对
+159,核实后再调整,completed,ARC-051,核源并恢复22号公众服务,测试及人工留痕不等于正式发布或人员恶意,00:46主管单位发出书面范围纠正意见，仍需正式审批发布；生产公众检索未恢复,F012,3000,pass,published,源稿SHA2359139c；Reader0BLOCKER0MAJOR2MINOR；Continuity/Style QA通过；前章依赖源核对
 160,把二十二号还给地图,completed,ARC-051,核源并恢复22号公众服务,测试及人工留痕不等于正式发布或人员恶意,02:19正式批准，03:19生产发布，03:27两个普通终端查到22号，04:03收到回执；商业地图与经办责任待核,F012,3000,pass,ready,源稿SHA03085203；Reader0BLOCKER0MAJOR2MINOR；Continuity/Style QA通过；前章依赖源核对
 161,比铃声早到的那张工单,completed,ARC-052,追查早到工单并封控坡道,早单来源不明且不可牺牲菜市运输,东坡封控、北门交付、前置早单与真实来电分离,F013,3000,pass,ready,SHA7a5c35eb Reader0/0/2；Continuity/Style通过；依赖与长期Memory已逐章核对
 162,第四席没有响过铃,completed,ARC-052,厘清第四席与上游发送号,旧接口标签不能证明真实电话或报险人,受控复现第四席标签及取到发件流水号,F013,3000,pass,ready,SHA5e5fa5a1 Reader0/0/2；Continuity/Style通过；依赖与长期Memory已逐章核对
