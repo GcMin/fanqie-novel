@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 269
+last_updated_chapter: 272
 characters:
   zhou_heng:
     knows:
@@ -731,3 +731,10 @@ chapter_271_knowledge:
   authority: "馆方13:08另批仅整理事项号、岗位、时间与状态非身份字段；17:02仅能修本馆UI说明，罗谨没获索引页内文；街道仅给今日封闭和次日有责核查节点，不能借昨日许可给公众放行。"
   predecessor: "270旧provisional Blob fa2f6a4d0faa53fb87843c9fdc7186be87c19f9e对ready Blob 594ad6863cd05535a333b4ce9b059f674a24ff78正文逐字一致仅交付元数据变；271已重绑最终ready SHA、详细章纲同步，事实兼容。"
   canon_boundary: "1996普通照明旧纸与韩私人后补不互证，F003有界F008无新可靠样本，M004/M005未证。"
+
+chapter_272_knowledge:
+  confirmed: "Day136公众11:20—13:20按本日有权单真开真关，老顾11:41自主出行12:55返；三日告知机制有责，但未来另须逐日核批。2018索引待办有2019未结事项正式交接、2022新袋外签及15:12现库一致。"
+  unresolved: "明日及后日能否获开放许可、施工增加的合同费用、2022袋内是否真有2018一份索引页及完整性、旧业务号/旧回拨对象和送达、M004/M005均未知。"
+  authority: "街道与施工安全只在11:06签Day136条件许可；罗谨仅按13:17限项批阅2019责任交接/2022外签，未打开现袋、不得从外签推袋内。"
+  predecessor: "第271章ready Blob 212c76e53f37de88f891389118962e55b4cda23f与272 Front Matter及详细章纲精确一致，无版本事实差异。"
+  canon_boundary: "1996普通照明22:41/08:07独立于韩私人补记；F003有界、F008无新可靠亲历矛盾、M004/M005未证。"

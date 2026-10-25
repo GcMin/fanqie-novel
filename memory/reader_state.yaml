@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 269
-last_reviewed_title: 五天的开放表，少了中午
-last_source_path: chapters/draft/0269.md
-last_source_sha: 04fbc0ee8eb8e23bca58100bd92a4e8d8355600d
-last_review_path: reader_reviews/0269_04fbc0ee.md
+last_reviewed_chapter: 272
+last_reviewed_title: 十一点二十分，今天的门开了
+last_source_path: chapters/draft/0272.md
+last_source_sha: d77c2feb582735bb8c35db463d1503ee625f779e
+last_review_path: reader_reviews/0272_d77c2feb.md
 last_reviewed_at: "2026-10-25"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 268
-depends_on_source_sha: 8b37191149581a8bf96923db962590e18044e95c
+depends_on_chapter: 271
+depends_on_source_sha: 212c76e53f37de88f891389118962e55b4cda23f
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 8b37191149581a8bf96923db962590e18044e95c
+predecessor_current_source_sha: 212c76e53f37de88f891389118962e55b4cda23f
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -839,5 +839,19 @@ combined_audit_chapter_271_20261025:
   original_predecessor_provisional_sha: "fa2f6a4d0faa53fb87843c9fdc7186be87c19f9e"
   predecessor_ready_blob: "594ad6863cd05535a333b4ce9b059f674a24ff78"
   predecessor_factual_delta: body_identical_frontmatter_only
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_272_20261025:
+  chapter: 272
+  source_sha: "d77c2feb582735bb8c35db463d1503ee625f779e"
+  review: reader_reviews/0272_d77c2feb.md
+  reader_pass_a: independently_completed
+  reader_pass_b: independently_completed_after_pass_a
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  required_action: none
+  body_revisions: 0
+  predecessor_ready_blob: "212c76e53f37de88f891389118962e55b4cda23f"
+  predecessor_factual_delta: exact_ready_blob
   continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required

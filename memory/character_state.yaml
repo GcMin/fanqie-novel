@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 269
+last_updated_chapter: 272
 characters:
   zhou_heng:
     location: "Day134 00:09，第131次夜班阶段交班"
@@ -725,3 +725,15 @@ chapter_271_verified:
   site: "屈工为三日联排送审真实校新施工围护/看守班次；昨日袁桥等候费用待合同核定。"
   main_cast_injuries: none_new
   final_location: "Day136 00:06夜班阶段交接，公众路Day135仍关，馆藏2018索引保管继承待核。"
+
+chapter_272_verified:
+  source_sha: "d77c2feb582735bb8c35db463d1503ee625f779e"
+  timeframe: "Day136 08:38—Day137 00:11，第134次夜班"
+  zhou_heng: "20:24按来源分栏记录当日真实开放与2018—2022索引保管链，只见外签未见内页，不将旧回拨当既成事实。"
+  xia_ning: "只看公开渠道居民自愿反馈并区别三日核验发布安排与未来真实开门，不收病历/肖像。"
+  liang_ce: "坚持2018签收一份、2019未结责任转交和2022一袋外签不构成旧受访人已得到回复。"
+  family: "顾永山11:41赴老赵社区棋局、12:55返，不借特殊待遇；顾珊尊重自主并保护隐私。"
+  site: "屈工对新增吊装车、看守替班与硬隔离分项专业核验，人员工时与运输费用待合同岗位核定。"
+  custodian: "罗谨只得限定2019责任交接/2022袋号外签和15:12现库核验，内页与旧回拨仍未知。"
+  main_cast_injuries: none_new
+  final_location: "Day137 00:11阶段交班；公众路Day136真开真关并闭合，Day137是否再批未知。"

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 269
+last_updated_chapter: 272
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -560,3 +560,13 @@ chapter_271_relationships:
   archive: "罗谨只查馆内合法移交和接收去身份字段，目录主管限定纠错保原始版本。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "旧受访人、个人电话、索引页私人资料仍不获开放；顾家不公开病历或身体影像。"
+
+chapter_272_relationships:
+  chapter: 272
+  source_sha: "d77c2feb582735bb8c35db463d1503ee625f779e"
+  family: "顾永山不求特殊接送而用具名合法开路自行去和老赵下棋，顾珊只传正式时段并尊重父亲自己判断。"
+  site: "屈工拒新车未经实测和换班未交接就预写放行，真实记录额外人时而不转嫁路人。"
+  center: "周衡、夏宁、梁策继续分源记录当日许可与馆藏索引保管链，无可靠依据调整互信分数。"
+  archive: "罗谨按另行窄授权只追2018一份索引事项的2019责任流转和2022袋外签，馆方未给内页阅权。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "顾永山的病历与轮椅肖像不公开，历史索引内文和受访者身份仍未获准查看。"

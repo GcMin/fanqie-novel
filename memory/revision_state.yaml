@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 269
+current_chapter: 272
 current_stage: ready
-current_source_path: chapters/ready/0269.md
-current_source_sha: 04fbc0ee8eb8e23bca58100bd92a4e8d8355600d
-current_review_path: reader_reviews/0269_04fbc0ee.md
+current_source_path: chapters/ready/0272.md
+current_source_sha: d77c2feb582735bb8c35db463d1503ee625f779e
+current_review_path: reader_reviews/0272_d77c2feb.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -15,7 +15,7 @@ next_retry_after: null
 last_action: audit_reader_qa_memory_ready_candidate
 last_action_date: 2026-10-25
 last_error: null
-last_diff_summary: "第269章独立Reader 0/0/2，正文零修订，Continuity/Style/Meaningful QA PASS，须精确候选结构CI成功方可上main。"
+last_diff_summary: "第272章独立Reader 0/0/2，正文未修订，Continuity/Style/Meaningful QA PASS；精确候选CI成功后才入main。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -502,6 +502,17 @@ combined_audit_chapter_271_20261025:
   final_review: reader_reviews/0271_17a590df.md
   final_counts: {blocker: 0, major: 0, minor: 2}
   local_revision_used: 0
+  body_revisions: 0
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_272_20261025:
+  chapter: 272
+  source_sha: "d77c2feb582735bb8c35db463d1503ee625f779e"
+  review: reader_reviews/0272_d77c2feb.md
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  fix_required: none
   body_revisions: 0
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

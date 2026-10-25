@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 272
+title: "十一点二十分，今天的门开了"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "d77c2feb582735bb8c35db463d1503ee625f779e"
+reader_review: "reader_reviews/0272_d77c2feb.md"
+depends_on_chapter: 271
+depends_on_source_sha: "212c76e53f37de88f891389118962e55b4cda23f"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day136 08:38—Day137 00:11，第134次夜班"
+summary: >-
+  Day136顾永山08:38为中午社区棋局预备棋谱，不借Day135过期的开放许可。街道09:02具名公告今日仍封，09:40通报新增吊装车与东端替班未核；施工安全真实演练看守应急封栏和两端回执，新吊装车空载实走时移托盘消盲区，10:47完成各岗位核验，11:06仅签当日11:20—13:20东侧公众步道有条件开放，11:20真实开门、13:20真实关门；顾永山11:41自主出门在社区活动室与老赵下棋，12:55真实返回，顾珊未请假或提供病历。三日仅确立具名早班核验/告知及当日分别签权，不保证连续两天。罗谨经另行受限授权，追2018年11月接收的一份待核索引之保管责任：2019同事项号未结任务有具名交接、2022归档转换指向新袋号，15:12现袋外签和库位经双人核对；2018索引页是否仍完整在袋、袋内页数、旧关联业务号、历史回拨是否送达均未获检视和证明。20:24第134夜班中心分源记录，Day137 00:11交班。F003有限推进，F008无新可靠记忆矛盾，M004/M005未证。
+meaningful_state_changes:
+  - "公众侧有三日具名核验和发布时点制度，Day136 11:20—13:20当日许可真开真关，顾永山普通中午独立完成社区棋局。"
+  - "2018待核索引工作流由接收签认延伸至2019未结责任交接和2022现袋外签的可追保管链，仍非旧回拨完成证明。"
+knowledge_updates:
+  - "2018一份索引材料、2019事项责任移交、2022外签一袋分别只证其来源层，不能据此确认原页齐全或原受访人获答。"
+  - "三日核验告知制度不是三日公众通行许可；今日开放只能按当日实核和有权签批。"
+foreshadowing_updates:
+  - "F003按授权有限追现袋外层保管链，F008无新可靠本人记忆反证，M004/M005不证。"
+relationship_updates:
+  - "顾永山以自身意愿与老赵下棋，顾珊尊重其自主并保隐私；屈工和罗谨分别遵守安全/阅档权限。"
+ending_state: "Day137 00:11公众步道Day136中午按许可真实开放并关闭，未来两日须逐日另批；2018旧索引追至2022现袋外签而内页和历史回告未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_factual_delta: exact_ready_blob, structural: exact_candidate_commit_CI_required}
+char_count: 2917
