@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 267
+current_chapter: 268
 current_stage: ready
-current_source_path: chapters/ready/0267.md
-current_source_sha: 7a4dd7405bd3736cff40b55056ea36c321f214a3
-current_review_path: reader_reviews/0267_7a4dd740.md
+current_source_path: chapters/ready/0268.md
+current_source_sha: b04d8078618ae6fb14c5ce2d71fccc957238fd14
+current_review_path: reader_reviews/0268_b04d8078.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_reader_qa_memory_ready_candidate
+last_action: audit_reader_revision_qa_memory_ready_candidate
 last_action_date: 2026-10-25
 last_error: null
-last_diff_summary: "第267章无BLOCKER/MAJOR，仅2项MINOR，不进行正文修订；前章266精确ready Blob匹配，Reader两遍与独立内容QA通过，待精确候选结构CI。"
+last_diff_summary: "第268章局部更正20:20开班时间错误：原Reader0/1/2，新SHA双遍0/0/2，独立QA通过；结构须精确候选CI验证。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -448,4 +448,18 @@ combined_audit_chapter_267_20261025:
   body_revisions: 0
   predecessor_ready_blob: "0baabcb67e40085453823862384314b032877a30"
   continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_268_20261025:
+  chapter: 268
+  original_sha: "a75c60ef22e518b1a951607756a9a7df254cb72e"
+  original_review: "reader_reviews/0268_a75c60ef.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  local_revision_used: 1
+  revised_sha: "b04d8078618ae6fb14c5ce2d71fccc957238fd14"
+  revised_review: "reader_reviews/0268_b04d8078.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  predecessor_ready_blob: "b659a80051b812685c8cf540665e50635ae3581c"
+  predecessor_factual_delta: exact_match
+  content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

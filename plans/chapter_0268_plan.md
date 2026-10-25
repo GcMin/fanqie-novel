@@ -29,4 +29,6 @@
 - forbidden_leaks: 不读取内册姓名号码/逐条回拨内容、不认定全部内页齐全、不以手写附纸认定回复已送达或已找到另一册、不将2018附纸与1996异常工单联源、不越权开公众路、不修改既有章节、不替 Audit 审核。
 - ending: Day133 00:17，馆内实存同题薄册与附纸已限项见证，因粘连未核页数；公众步道Day132未开，持续方案待专业提交。
 - target_body_effective_chars: 2600–3400（硬限2300–3800）
-- actual_body_effective_chars: 2982
+- actual_body_effective_chars: 2987
+
+- audit_revision: 原稿SHA a75c60ef22e518b1a951607756a9a7df254cb72e Reader0/1/2；仅修复Day132夜班20:20被称为开始的硬时间错误，现明确夜班已开始20分钟。新Git Blob b04d8078618ae6fb14c5ce2d71fccc957238fd14 独立双遍Reader0/0/2、独立QA PASS。其他正文与章纲事实不改。

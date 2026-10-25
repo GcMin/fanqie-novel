@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 267
+last_updated_chapter: 268
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -525,3 +525,10 @@ chapter_267_relationships:
   facts: "顾永山获得可核的路况责任人及下次更新时间，顾珊支持父亲自主决定；罗谨不越权拆封，馆方保留错误录入及正式更正的责任链；周衡夏宁梁策各自守证据分层。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "没有取得旧登记来话人姓名和隐私、没有开封权限，也不能要求顾家以个人情况换公众路权。"
+
+chapter_268_relationships:
+  chapter: 268
+  source_sha: "b04d8078618ae6fb14c5ce2d71fccc957238fd14"
+  facts: "顾永山坚持有责、稳定的公众通行时段而非特殊陪送，顾珊尊重安全现状；罗谨不越过陶芹保护操作权限，夜班同事坚持区分已点实物与未知回告。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "顾永山不交病历换路权；馆方不开放旧来话私人姓名电话及附纸不许拆阅的内折面。"

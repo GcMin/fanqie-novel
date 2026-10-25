@@ -1,15 +1,15 @@
 schema_version: 1
-last_updated_chapter: 267
+last_updated_chapter: 268
 characters:
   zhou_heng:
-    location: "Day132 00:04，第129次夜班阶段交班"
-    state: "Day131第129夜班仅确知馆方合法外签核得一件封套现位，内册是否在内、旧回拨对象与实际通话不知；公共路封闭但两次告知具名完成，不确认M004/M005。"
+    location: "Day133 00:17，第130次夜班交班"
+    state: "第130次夜班仅据有限正式转交知道同题薄册和附纸实存，未核回告受访者及异常机制，Day132公众通路仍封。"
   liang_ce:
-    location: "Day132 00:04，第129次夜班阶段交班"
-    state: "无新增伤势或权限变化；把馆藏实存外签与未核内册分开，不从1996普通业务目录推已回话；不复用过期道路开放许可。"
+    location: "Day133 00:17，第130次夜班交班"
+    state: "未有伤势与权限变化，坚持2018附纸铅笔待核、不把1996普通照明与私人旧簿互证，不将方案提交当批准。"
   xia_ning:
-    location: "Day132 00:04，第129次夜班阶段交班"
-    state: "Day131分别核街道早晚具名封闭公告与档案封套现位，拒绝把已收件替代实际答复或把下一步核件受理说成批准。"
+    location: "Day133 00:17，第130次夜班交班"
+    state: "区分档案馆限项点物与历史结果未核、街道约定施工方案递交与公众路真正可走，不虚报已回告或放行。"
 invariants: F008无新增；F009/F010/F011 resolved；M004未确认；M005不触碰
 
 chapter_133_notes:
@@ -679,3 +679,15 @@ chapter_267_verified:
   family: "顾珊与顾永山尊重安全封路，但取得下一次路况复核责任人与时间，父亲自己决定暂不出门。"
   main_cast_injuries: none_new
   final_location: "Day132 00:04第129次夜班交班；档案封套现库、内页未核，公众路仍封闭。"
+
+chapter_268_verified:
+  source_sha: "b04d8078618ae6fb14c5ce2d71fccc957238fd14"
+  original_source_sha: "a75c60ef22e518b1a951607756a9a7df254cb72e"
+  timeframe: "Day132 09:20—Day133 00:17，第130次夜班"
+  zhou_heng: "仅登记馆方依法可转交的同题薄册一、附纸一，不认定历史回告或M005旧异常来源。"
+  xia_ning: "20:20夜班已开班20分钟；Day132公告仍封闭，次日只有提交方案任务。"
+  liang_ce: "历史旧普通照明22:41与2018附纸提示没有同笔核验编号，不准串成已证同源。"
+  family: "顾永山只求稳定公共可走时段，顾珊支持安全封闭并等待有责方案，未交病历。"
+  custodian: "罗谨见证不接触纸本；陶芹遇粘连15:16停止点页以保护旧册。"
+  main_cast_injuries: none_new
+  final_location: "Day133 00:17交班，旧册保存待核，公众步道继续封闭。"
