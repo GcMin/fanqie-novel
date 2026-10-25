@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 281
-last_reviewed_title: 图已经更新，读屏还在原地
-last_source_path: chapters/draft/0281.md
-last_source_sha: 604e038b3bf8882d5e9e60a92dd9999b69ac3af3
-last_review_path: reader_reviews/0281_604e038b.md
-last_reviewed_at: "2026-10-25"
+last_reviewed_chapter: 282
+last_reviewed_title: 撤回通知，到不了离线的人
+last_source_path: chapters/draft/0282.md
+last_source_sha: c065ca715ca990ea3b78d7a127b52fceb44bc64c
+last_review_path: reader_reviews/0282_c065ca71.md
+last_reviewed_at: "2026-10-26"
 reviewer_mode: combined_audit_independent_A_then_B_new_blob
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 280
-depends_on_source_sha: a442377f3c148c4ff39cc5811cf1fce60c5d2cb2
-dependency_status: verified_predecessor_factual_delta_compatible
-predecessor_current_source_sha: a442377f3c148c4ff39cc5811cf1fce60c5d2cb2
+depends_on_chapter: 281
+depends_on_source_sha: 4336086a2b9d665e176d38248431873f44bd0f0d
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 4336086a2b9d665e176d38248431873f44bd0f0d
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -995,5 +995,17 @@ combined_audit_chapter_281_20261025:
   predecessor_provisional_blob: "31b03edcb4c73a66bd18ee09f9525940a45e0c51"
   predecessor_final_ready_blob: "a442377f3c148c4ff39cc5811cf1fce60c5d2cb2"
   predecessor_factual_deltas: "Day144箭头称昨天→前天；未接电话昨晚→昨天；第279章→前一日；281依赖事实兼容"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_282_20261026:
+  chapter: 282
+  source_sha: "c065ca715ca990ea3b78d7a127b52fceb44bc64c"
+  reader_review: reader_reviews/0282_c065ca71.md
+  reader_final: {blocker: 0, major: 0, minor: 2}
+  fix_required: none
+  body_revisions: 0
+  predecessor_ready_blob: "4336086a2b9d665e176d38248431873f44bd0f0d"
+  predecessor_factual_delta: exact_ready_sha_match
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

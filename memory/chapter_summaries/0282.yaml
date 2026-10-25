@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 282
+title: "撤回通知，到不了离线的人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "c065ca715ca990ea3b78d7a127b52fceb44bc64c"
+reader_review: reader_reviews/0282_c065ca71.md
+depends_on_chapter: 281
+depends_on_source_sha: "4336086a2b9d665e176d38248431873f44bd0f0d"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day146 00:09—20:19，第143/144次夜班过渡"
+summary: >-
+  Day146 00:09吴雁在白榆路南口公交亭向第143夜班报告第三方D144离线导览仍画Day144已结束的北侧绕行，本机日期却动态标Day146今日。夏宁不让本人试路，00:27通知夜间道路值守，00:54另获当夜具名现场核南侧原有人行道当前可用/两北过街口合法/旧东施工门继续封，按实核限项答复；吴雁01:22自愿回报到公共上车点，不替部门验路。蔡敏白班08:35双机复现网络更新与离线旧卡的本地“今日”标题错位，09:48实查第三方商户联合入口；维护方11:08停止对新用户推送旧D144包、12:02新入口上线，12:24联网双机真读核验时点，离线机仍旧图，不能远程清理全部已下载副本。街道仅在三个自管咨询点真实张贴离线资料时效与夜间真人联系提示，无法替第三方私域签字；吴雁自愿有限回访、拒提供设备号，旧下载仍在。罗谨承接前章15:17仅收件的A2候选系列新窄申请，Day146 14:40以后经馆方另批只获非身份通用编制说明：可先按公开目录列候选、同笔来源另需合法核证；原受保护索引填值及1996旧人回告未证。20:00第144夜班开、20:19发现北侧纸质无日期折页含相同D144号，新传播形态需调查。F003有限、F008无新人可靠记忆冲突、M004/M005未证。
+meaningful_state_changes:
+  - "夜间真按专业现场复核回复吴雁而她自愿安全到达，个人结果不代正式整路验收。"
+  - "第三方在线入口实停旧上线新，并实测离线机仍错；纸质D144无日期折页出现，风险范围有新增待核来源。"
+  - "A2候选系列通用规则经另批仅获有限非身份说明，旧1996个人受理和回告仍不证。"
+knowledge_updates:
+  - "夏宁周衡梁策知道本机打开时间与来源图有效时段必须分离，街道官网纠正并不能自动撤回第三方离线卡或纸本。"
+  - "蔡敏小唐知道商户入口只能约束联网更新，吴雁不负提供私人下载/设备记录义务。"
+  - "罗谨仅知A2候选可先按公开目录列出但无同笔证明，2018填值和旧人本人答复未知。"
+foreshadowing_updates:
+  - "F003仅有限A2候选形成规则；F008无新可靠记忆反证；M004/M005不证；旧D144纸折页另需查。"
+relationship_updates:
+  - "吴雁自行确认行程、拒设备号，蔡敏不将本人回访变成全体设备验收，罗谨遵守馆方许可，中心区分来源和责任。"
+ending_state: "Day146 20:19第144次夜班；旧站东侧施工门仍无公众开放许可，南侧通行必须以新实核为准；第三方在线入口真正改而离线缓存与无日期折页风险未清。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {source_sha: "c065ca715ca990ea3b78d7a127b52fceb44bc64c", stage_a_used: 0, body_revisions: 0, dependency: exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2902

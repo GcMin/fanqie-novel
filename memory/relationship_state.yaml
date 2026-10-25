@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 281
+last_updated_chapter: 282
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -660,3 +660,13 @@ chapter_281_relationships:
   center: "周衡夏宁梁策按证据分层，未因本人是否取件改变主要角色互信分数。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "个人病历肖像住址和行程不替代交通验收；1996受访人本人答复与2018实际馆内填值未开放。"
+
+chapter_282_relationships:
+  chapter: 282
+  source_sha: "c065ca715ca990ea3b78d7a127b52fceb44bc64c"
+  citizen: "吴雁自主等待夜间专业核路、自行赶车并拒绝供下载/设备记录；中心仅本人合法回访，不代表其他离线用户。"
+  street: "蔡敏与维护方按权限协作停止新推旧图并发布可核源时点，街道不替商户和外部平台签全网已修，小唐负责三个自管提示。"
+  archive: "罗谨与陶芹按新合法范围区分2018 A2候选编制说明与索引个人填值，未越权追旧来话人。"
+  center: "夏宁周衡梁策按有责现场/个人回话/第三方传播分层，主角互信数值无无据变化。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "拒远程删私人离线文件或强索用户设备号；2018原索引个人填写、1996旧人回告不开放。"
