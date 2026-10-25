@@ -5,10 +5,10 @@
 - arc: ARC-054《回拨接收点》；第四阶段《被留下的城市》
 - role: Writer（仅Planner、Continuity Precheck、First Draft）
 - observed_main_sha: 6cf5e0fd84db540013bdbacc00b4b096be5a8de1
-- predecessor_path: chapters/draft/0265.md
+- predecessor_path: chapters/ready/0265.md
 - depends_on_chapter: 265
-- depends_on_source_sha: "31c2d05b018157c5545d2fcf7d684c2c3ab4d009"
-- dependency_status: provisional
+- depends_on_source_sha: "01c3eaebac4a877b98b24c8458e7883f5b289706"
+- dependency_status: verified_predecessor_body_identical_only_frontmatter
 - dependency_facts: 第265章原稿Day129由罗谨依限项许可核旧站历史图第四页实绘短线、第七页口述边注“永安里方向，终点未实核”；馆藏预览与导出包两页并置，现代工程图层由此呈现错误连续导向；Day129 21:46本项目可控历史导向叠加确已停用，原件未毁；另册仅得一项待核目录栏；Day130 00:27公众步道没有今日可核的新开放记录。
 - provisional_boundary: 第265章若仍为draft，只以所绑定Git blob中的场景事实作为临时连续性来源，不认定为正式Canon；如独立Audit修订关键事实，本章由Audit检查衔接，不由Writer修改既有稿。
 - goal: 结束“旧图如何变成当代公众错误线路”的可验证一段制作、印刷、悬挂链，同时取得“关联原件另册”的受控目录身份，给第四阶段历史调查一个合法可执行的新入口。
@@ -30,3 +30,5 @@
 - ending: Day131 00:11，今日路权仍未开放，实物错误牌两处真撤且库存停发；另册目录题名是合法新线索，不是当年电话已经接通的证据。
 - target_body_effective_chars: 2600–3400（硬限2300–3800）
 - actual_body_effective_chars: 2932
+
+- audit_predecessor_delta: 第265章原draft 31c2d05b018157c5545d2fcf7d684c2c3ab4d009与最终ready 01c3eaebac4a877b98b24c8458e7883f5b289706仅交付Front Matter变化，正文逐字同一；266原稿 079f2f283196f7fc689a8b00daa92674c4e78c1a 只重绑依赖，新draft 165d810eed050c2aa566a7978994dbe020990da8，正文零修订；重新执行新SHA Reader 0/0/2。

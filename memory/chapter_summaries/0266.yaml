@@ -1,0 +1,39 @@
+schema_version: 1
+chapter: 266
+title: "那条线是后来补上的"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "165d810eed050c2aa566a7978994dbe020990da8"
+original_draft_source_sha: "079f2f283196f7fc689a8b00daa92674c4e78c1a"
+reader_review: reader_reviews/0266_165d810e.md
+depends_on_chapter: 265
+original_depends_on_source_sha: "31c2d05b018157c5545d2fcf7d684c2c3ab4d009"
+depends_on_source_sha: "01c3eaebac4a877b98b24c8458e7883f5b289706"
+dependency_status: verified_predecessor_body_identical_only_frontmatter
+timeframe: "Day130 07:43—Day131 00:11，第128次夜班"
+summary: >-
+  Day130 07:43旧站北口已有禁用电子错引，却有不联网的蓝色塑料箭头把送报骑手引到封闭车口，老丁安全劝返；08:09屈工按权留证撤下现场错误牌，09:06另一块公交候车亭牌也实撤并各有回签，未装两块及折页库存暂隔离，外部渠道和既发折页仍未知。许乔使用旧共享PDF、签的是排版核对并非现场通行批准。午前市政图纸核查历史第四页短线与第七页口述曾在软件端点吸附中描成工程连续线，但尚不能确定故意行为、责任人及老路历史测量。顾珊要求每天由有权岗位真实公开安全通行，Day130没有公众路新开放许可。14:18罗谨依法取得另册有限目录题名《旧站周边步行路径意见回拨接收登记》与上世纪九十年代移交信息，原登记保管及具体人物回拨未取得。20:03第128夜班严格区分已撤实体牌、技术报告和历史题名，21:37收回签，Day131 00:11交班；不以普通“回拨接收”证明旧异常工单、M004/M005。
+meaningful_state_changes:
+  - "两处有权核实错误实体导向确已撤下，并隔离未发库存，未声称全网副本清零。"
+  - "有限技术报告确认工程描线曾开启端点吸附，不能据此确认故意伪造。"
+  - "合法取得另册历史回拨接收登记的脱敏题名，后续只查实物保管链。"
+knowledge_updates:
+  - "禁用电子图层不会让既印PDF和实体错牌自动消失。"
+  - "档案目录上“回拨接收”不证电话接通、回拨对象或M005异常机制。"
+foreshadowing_updates:
+  - "F003合法深化，F008无新可靠本人事件记忆矛盾，M004/M005未确认。"
+relationship_updates:
+  - "顾珊争取日常公开责任答复，许乔提供自己所持文件而其行为不证恶意。"
+ending_state: "Day131 00:11第128班交班；两处实物错导已撤、Day130未复开，旧登记仅题名可见。"
+revision_trace:
+  original_source_sha: "079f2f283196f7fc689a8b00daa92674c4e78c1a"
+  rebound_source_sha: "165d810eed050c2aa566a7978994dbe020990da8"
+  final_reader: reader_reviews/0266_165d810e.md
+  dependency_only_change: "265原draft与最终ready正文逐字一致，仅重绑265最终ready SHA，266正文零修改"
+  local_revision_rounds: 1
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_factual_delta: body_identical_only_frontmatter, structural: exact_commit_CI_required}
+char_count: 2932
