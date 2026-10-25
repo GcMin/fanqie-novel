@@ -805,3 +805,20 @@ combined_audit_chapter_269_20261025:
   predecessor_factual_delta: exact_match
   continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_270_20261025:
+  chapter: 270
+  title: "北门过了车，南边才开门"
+  source_path: chapters/draft/0270.md
+  source_sha: "fa2f6a4d0faa53fb87843c9fdc7186be87c19f9e"
+  review_path: reader_reviews/0270_fa2f6a4d.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  counts: {blocker: 0, major: 0, minor: 2}
+  body_revisions: 0
+  predecessor_ready_blob: "b4930fa9905b4c5fa02c7020fbd79b2f968a047a"
+  dependency_status: verified_exact_ready_blob
+  predecessor_factual_delta: exact_match
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required

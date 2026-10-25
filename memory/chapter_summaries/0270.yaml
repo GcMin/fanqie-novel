@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 270
+title: "北门过了车，南边才开门"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "fa2f6a4d0faa53fb87843c9fdc7186be87c19f9e"
+reader_review: "reader_reviews/0270_fa2f6a4d.md"
+depends_on_chapter: 269
+depends_on_source_sha: "b4930fa9905b4c5fa02c7020fbd79b2f968a047a"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day134 08:12—Day135 00:14，第132次夜班"
+summary: >-
+  Day134顾永山不把10:30联核当开门。09:18北侧三件设备实挪，10:54同型空车首试因消防保护限制叫停，11:40袁桥真车合法待命；专业批准场内卸货线内收80厘米并保消防应急临电隔离，13:58实际整改复核，14:26载料车真进卸退而公众硬隔离未拆。公众15:42仍封，16:03有权只签本日16:20—18:30条件许可，16:20真开；顾永山17:09买报、17:28返；18:30真关签认，五日续开仍未批准。费用等待工时由有权岗位核结。罗谨13:11另获2018随袋整理工作单非身份摘录，同存放顺序号“接收登记本随袋”有记，“相关回告材料关联核验”标待办而无完成签认，既未选定两类目录之一也未查得旧回拨对象或送达。20:08第132夜班受控分源，Day135 00:14阶段交班。F003有界，F008无新可靠样本，M004/M005未证。
+meaningful_state_changes:
+  - "首次被专业拒验的北侧车辆路线经真实整改后安全承载真货车且不拆公众隔离。"
+  - "Day134东侧公众路16:20实际开放、18:30关闭，顾家普通公众真实往返；五日跨日方案仍未获准。"
+  - "2018档案工作单有源未完成回告关联待办，为合法窄核提供入口，不证旧人收回告。"
+knowledge_updates:
+  - "同日车路试验与真车执行、短时公众许可与五日方案各有不同证据与权责。"
+  - "2018待办没有签完不等于九十年代无人回复，更非异常机制确证。"
+foreshadowing_updates:
+  - "F003有界档案程序推进，F008无新可靠记忆差异，M004/M005未证。"
+relationship_updates:
+  - "顾永山自主买报，顾珊拒借其轮椅形象宣传；袁桥及屈工依法登记真实工作成本。"
+ending_state: "Day135 00:14公众路已依今日许可真开真关、北侧真车路实用，明日许可未知；2018整理待办有源、旧回拨对象仍不明。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_factual_delta: exact_ready_SHA, structural: exact_candidate_commit_CI_required}
+char_count: 3195
