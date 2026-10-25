@@ -5,10 +5,10 @@
 - arc: ARC-054《回拨接收点》；全书第四阶段《被留下的城市》
 - role: Writer（仅 Planner、Continuity Precheck、First Draft）
 - observed_main_sha: f4b802f952f8f3a91edd3f3fde3a0c16bf41d3d8
-- predecessor_path: chapters/draft/0273.md
+- predecessor_path: chapters/ready/0273.md
 - depends_on_chapter: 273
-- depends_on_source_sha: "59a81e73b29c5bd3b1a75ba4baa2fe5e9b071274"
-- dependency_status: provisional
+- depends_on_source_sha: "2e6b6686fd6ccb175203d4718edfb9356bcfa7e5"
+- dependency_status: verified_exact_ready_blob
 - dependency_facts: 第273章Day137发现昨日限时开放绿牌裁图及残留过期纸告，东门全天封闭；南侧普通公共绕行经清障及当日巡查核验后十五点零八分公布，顾永山十六点零六至十六点五十九分自主往返送还记分笔，雨棚地面窄水痕仅有临时警示和后续养护义务；档案馆Day137十四点二十六分获新袋限项点件批准，袋内确有二〇二二年封装交接表与同事项工作复制页并注明原始索引实物另核，不能据此断言原页遗失；Day138零点零八分第135夜班阶段交班。
 - canon_boundary: 白榆路工地东门跨日仍需独立有权许可，Day137没有开放；南侧既有公众路的Day137一次核验不可当所有天气保证。馆方过去仅核2018索引流转、2019未结责任、2022新袋复制件，不掌握原件位置；1996普通照明22:41和次日08:07官方纸证与韩文舟私人22:41后补不可合并，旧站第四页短实绘与第七页口述终点未知；F003仅合法有界，F008无新本人真实记忆冲突，F009/F010/F011已resolved，M004/M005未证。
 - goal: 把昨日普通绕行的雨后积水问题变成真正由有责部门现场处理、复核和公开回告的通行状态；从新袋复制件追出2018原索引单页当前物理存续与独立保管链，明确纸在不等于旧回告真实送达。
@@ -30,4 +30,4 @@
 - ending: Day139 00:19，南侧今天经复核可用，东侧仍封；2018索引原纸实存在保护夹而2022工作复制页另袋，回告对象和实际送达仍为空栏。
 - target_body_effective_chars: 2600–3400（硬限2300–3800）
 - actual_body_effective_chars: 3015
-- continuity_precheck: 基于实际第273章provisional Blob 59a81e73b29c5bd3b1a75ba4baa2fe5e9b071274；雨后停/修/复行按时序、权限、实体条件分开；2020保护交接与2026本次实物核验分开。仅 Writer 首稿与章纲，待独立 Audit 核定。
+- continuity_precheck: 基于实际第273章正式ready Blob 2e6b6686fd6ccb175203d4718edfb9356bcfa7e5；雨后停/修/复行按时序、权限、实体条件分开；2020保护交接与2026本次实物核验分开。仅 Writer 首稿与章纲，待独立 Audit 核定。
