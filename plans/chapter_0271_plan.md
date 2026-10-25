@@ -5,11 +5,11 @@
 - arc: ARC-054《回拨接收点》；主线第四阶段《被留下的城市》
 - role: Writer（仅 Planner、Continuity Precheck、First Draft）
 - observed_main_sha: 60f1c71e3d53c2f313271700156baa8df3f35d65
-- predecessor_path: chapters/draft/0270.md
+- predecessor_path: chapters/ready/0270.md
 - depends_on_chapter: 270
-- depends_on_source_sha: "fa2f6a4d0faa53fb87843c9fdc7186be87c19f9e"
-- dependency_status: provisional
-- dependency_facts: 第270章Day134北口货车经首次专业否决后整改并于14:26真正沿北侧独立线载料进出；东侧公众路16:20—18:30在本日批准和真看守下实际开放且实关；顾永山17:09买报17:28返程。五日连续通行仍未批、次日必须重核。罗谨合法得2018随袋整理工作单同存放顺序号，记“接收本随袋”及“相关回告材料关联核验”待办，未见完成签认、旧回拨对象或送达记录。第270章仍是未审draft，以上仅为所依赖的特定版本事实，不是正式Canon。
+- depends_on_source_sha: "594ad6863cd05535a333b4ce9b059f674a24ff78"
+- dependency_status: verified_predecessor_body_identical_ready
+- dependency_facts: 第270章Day134北口货车经首次专业否决后整改并于14:26真正沿北侧独立线载料进出；东侧公众路16:20—18:30在本日批准和真看守下实际开放且实关；顾永山17:09买报17:28返程。五日连续通行仍未批、次日必须重核。罗谨合法得2018随袋整理工作单同存放顺序号，记“接收本随袋”及“相关回告材料关联核验”待办，未见完成签认、旧回拨对象或送达记录。第270章已独立审定并正式进入ready；原draft与ready的正文逐字一致，仅Front Matter交付元数据改变，已核验本章所依赖的情节与时间事实保持一致。
 - canon_boundary: 永安里6栋201有历史地址及2010-06-29住房使用关系但居民身份和实际居住未证；旧站第四页实绘短线与第七页独立口述终点未实核，不能由当代工程路还原历史同点；1996普通照明22:41和次日08:07纸证不与韩文舟私人后补22:41互证；F003可限定推进，F008无新增可靠本人记忆错位，F009/F010/F011保持resolved，M004/M005不确认。
 - goal: 以可追溯工作流回签进一步追查2018“关联核验待办”的真实流向，并防止迁移后的完成状态误代替实际核验；现实侧将已完成的一日公众路通行与仍不可预支的跨日开放拆清，争取可持续的具名早班公告及联排送审。
 - POV: 第三人称有限贴近顾永山、顾珊、罗谨、屈工和夜班周衡。

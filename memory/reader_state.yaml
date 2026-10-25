@@ -822,3 +822,22 @@ combined_audit_chapter_270_20261025:
   predecessor_factual_delta: exact_match
   continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_271_20261025:
+  chapter: 271
+  title: "转交那一栏，有人真的签过字"
+  original_source_sha: "5e54904b860a8222202b7cfe481478982090cca1"
+  source_path: chapters/draft/0271.md
+  source_sha: "17a590df5874178792d990fd1ae49d3f4f9bb71b"
+  review_path: reader_reviews/0271_17a590df.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_rebound_sha
+  recommendation: keep
+  required_action: none
+  counts: {blocker: 0, major: 0, minor: 2}
+  body_revisions: 0
+  dependency_metadata_rebind: 1
+  original_predecessor_provisional_sha: "fa2f6a4d0faa53fb87843c9fdc7186be87c19f9e"
+  predecessor_ready_blob: "594ad6863cd05535a333b4ce9b059f674a24ff78"
+  predecessor_factual_delta: body_identical_frontmatter_only
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required

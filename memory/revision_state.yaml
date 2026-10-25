@@ -490,3 +490,18 @@ combined_audit_chapter_270_20261025:
   predecessor_factual_delta: exact_match
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_271_20261025:
+  chapter: 271
+  original_sha: "5e54904b860a8222202b7cfe481478982090cca1"
+  dependency_rebind_only: 1
+  original_predecessor_sha: "fa2f6a4d0faa53fb87843c9fdc7186be87c19f9e"
+  final_predecessor_ready_sha: "594ad6863cd05535a333b4ce9b059f674a24ff78"
+  original_predecessor_body_identical: true
+  final_source_sha: "17a590df5874178792d990fd1ae49d3f4f9bb71b"
+  final_review: reader_reviews/0271_17a590df.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 0
+  body_revisions: 0
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
