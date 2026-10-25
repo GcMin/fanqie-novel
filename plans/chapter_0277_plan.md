@@ -5,10 +5,10 @@
 - arc: ARC-054《回拨接收点》；第四阶段《被留下的城市》
 - role: Writer；仅 Planner、Continuity Precheck、首稿；不执行 Reader、Revision、QA、Memory 或发布
 - observed_main_sha: 9faeaba82d087902699985419b971292018fbeb5
-- predecessor_path: chapters/draft/0276.md
+- predecessor_path: chapters/ready/0276.md
 - depends_on_chapter: 276
-- depends_on_source_sha: "fe6a5a90201670340c2124d12c121eeea8db9079"
-- dependency_status: provisional
+- depends_on_source_sha: "d4c347fcc6ef0ca406f93ae12825d109ad8697fb"
+- dependency_status: verified_predecessor_body_identical_ready
 - dependency_facts: 第276章Day140夜班20:23市级中心真人接程柯路口险情，20:46夜间道路值守到、21:08专业卸下松动底板、21:36专业核后解局部限行；东侧施工门仍封。22:11仅第一处错纸有实际撤除回签，另两处挂旧版；三处新稿只交付未实装，第一处永久固定件待次日专业修。罗谨取得2018通用编制说明，候选系列、关联核验只属馆内工作分类，原索引填值行未阅。Day141 00:21第138夜班阶段交班，夏宁刚接新电话。以上事实仅暂引276未审draft源，不升级为正式Canon。
 - canon_boundary: Day140 20:00开始第138夜班，Day141 00:21仍在这一夜班；Day141 20:00才开始第139夜班。Day141凌晨南侧普通既有公众路先前局部风险已专业处置，但晚间安全仍须有责复巡；东侧工地步道未获跨日许可。2018原索引在保护夹、2022复制件另袋，2006粘连册未点页；通用规则不证明索引填值、1996旧异常来话或旧人真实获答。1996普通照明两岗位22:41/次日08:07纸证与韩文舟后来补记的私人22:41互不认证；永安里6栋201房屋使用关系不证居民身份。F008无新可靠记忆样本，M004/M005不证。
 - goal: 承接00:21夜间真实问路电话，令拆险牌后的普通公共路线得到专业夜查、临时可读信息及本人可选择的答复；让昨日交付的新稿在白天逐点实际撤旧换新，且清楚区分永久设施未修部分。档案分线仅依法确认通用说明版本与原索引适用性尚未证明。
@@ -28,6 +28,6 @@
 - foreshadowing: F003仅版本来源前置条件收窄；F008无新特定本人记忆矛盾；F009/F010/F011维持resolved；M004/M005不确证。
 - forbidden_leaks: 不由孟禾真人走过替代路政专业签字；不借凌晨现场核验宣称未来永久安全或东门开放；不将夜间临牌当永久设施修好，不把三点换纸当所有人读过；不泄露孟禾雇主/电话订单或旧来话个人行；不把通用说明时间先后写成已证原索引适用或历史真人收答。
 - ending: Day142 00:14第139夜班阶段交班；公众夜间接报与三处错纸纠正真实可核，第一处永久件仍待专业完成，2018表版来源和九十年代个人回告仍未核定。
-- target_body_effective_chars: 2600—3400；硬限2300—3800；按删除所有空白后的正文字符计
-- actual_body_effective_chars: 2849
-- continuity_precheck: 前章276尚为待独立Audit草稿，源SHA "fe6a5a90201670340c2124d12c121eeea8db9079"，仅作provisional衔接；前章00:21新电话在本章如实接续，无提前认定任何将来复核/告示安装或历史答案。第274章及更早ready独立保留其正式事实，2018原索引内容仍限项未开放。
+- target_body_effective_chars: 2600—3400；硬限2300—3800；按chinese_effective_chars汉字及英数字实际2521计；略低于优选2600但达硬限2300且正文完整不补空字
+- actual_body_effective_chars: 2521
+- continuity_precheck: 前章276已为经独立Audit、精确CI确认的ready，旧provisional与最终ready正文逐字一致，源SHA "d4c347fcc6ef0ca406f93ae12825d109ad8697fb"，仅作provisional衔接；前章00:21新电话在本章如实接续，无提前认定任何将来复核/告示安装或历史答案。第274章及更早ready独立保留其正式事实，2018原索引内容仍限项未开放。

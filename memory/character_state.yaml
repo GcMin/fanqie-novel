@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 276
+last_updated_chapter: 277
 characters:
   zhou_heng:
     location: "Day140 00:13，第137次夜班阶段交班"
@@ -786,3 +786,14 @@ chapter_276_verified:
   custodian: "罗谨限项取得2018通用编制规则，未看原索引任何实际填值或旧来话私人身份。"
   main_cast_injuries: none_new
   final_location: "Day141 00:21交班；危牌真卸，两处旧告示仍挂、永久件待修，东侧工地仍封。"
+
+chapter_277_verified:
+  source_sha: "44c9656957dd19b63e1273c6b1652c10519ec1a5"
+  timeframe: "Day141 00:21—Day142 00:14，第138/139次夜班过渡"
+  zhou_heng: "核Day140夜间旧危牌真拆和Day141凌晨另一次当前专业路巡与临牌安装；不以孟禾个人推车代岗位验路，馆方2018同年时序不能推旧回告已证。"
+  xia_ning: "00:21真实接孟禾新险与咨询、01:34按有权夜巡向其回告，保留02:01本人限项自愿回电与现场专业签认来源分开。"
+  liang_ce: "提醒夜间居民在安全区等回应，不让旧支架简易绑牌造成第二次危险。"
+  citizen: "孟禾自行选择路线和自愿回电不交订单；小唐纠正旧新稿混柜，实际逐点留证而非只说已换。"
+  custodian: "罗谨只申请2018通用说明与旧索引版次是否适用，不读旧行或推某一业务答复。"
+  main_cast_injuries: none_new
+  final_location: "Day142 00:14中心交班；南侧有责当前复核与夜间安全临牌有效、首处永久件待修，东侧封闭。"

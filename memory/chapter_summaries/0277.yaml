@@ -1,0 +1,26 @@
+schema_version: 1
+chapter: 277
+title: "牌子撤了，路不能靠猜"
+volume: 6
+arc: ARC-054
+status: ready
+source_draft_sha: "44c9656957dd19b63e1273c6b1652c10519ec1a5"
+depends_on_chapter: 276
+depends_on_source_sha: "d4c347fcc6ef0ca406f93ae12825d109ad8697fb"
+summary: >-
+  Day141 00:21孟禾打市级夜间中心真人热线，在南侧现有公众路因拆险牌及另处旧错误接线告示不知当前可走路线，安全退至豆浆店且不交肖像订单。00:58夜间有责人员按实到路灯、过街口、净宽、固定支架和被罩遮住的夜间电话字样查验，01:26安装不借旧危险支架的独立稳固临时指示，01:34核验公布当下南侧路可用、东侧旧站施工门仍封及真实夜间接报方式。孟禾02:01自愿回话已完成装订铺收货，不替有责岗位签路线。白班08:48分三点实撤旧换新版责任，09:57第二点竟误领混存旧版纸被小唐识别拒签，保留旧包证据、10:26真复贴，10:44第三点完成；11:05街道对外具名公布三点错误纸告示均处理，第一处永久固定件仍待专业维修，只可用有复巡人临时指示，不宣称永久结构全修。罗谨向馆方依法窄查2018通用编制说明与原索引实际版式关联，15:42仅得同年不同批次形成时间及保管来源，时间先后不证索引采用该规则，新的非身份应用证明申请仅收件，未批读实际填值或回告对象。Day141 20:00第139次夜班开，Day142 00:14阶段交班。F003有界、F008无新可靠本人记忆矛盾、M004/M005未证。
+meaningful_state_changes:
+  - "夜间及时有责复查并增设真正独立稳固的临时指路和真人电话，孟禾自行安全完成送货；三点旧错误告示真正处理，首次永久硬件待修如实保留。"
+  - "2018通用编制说明与原索引形成时间先后已合法知晓但未证实际适用，下一步窄申请仅收件，不升级历史旧受访者回告证据。"
+knowledge_updates:
+  - "夜间拆危险牌后仍需真实现场路况与指引核实，公告纸内容正确不等于永久固定件已修，居民自述与专业验收不能互替。"
+  - "2018同年度、前后两个整理批次不能证明原索引使用同一通用说明，旧行与回告对象仍不可读。"
+foreshadowing_updates:
+  - "F003合法收窄通用规则版式适用性新问题，M004/M005未证；F008无新增可靠本人记忆冲突。"
+relationship_updates:
+  - "孟禾保有自主选择并拒影像/私人订单，夏宁不让公众试路；小唐识别旧稿混柜留下真实过程，不以假签完成掩过。"
+ending_state: "Day142 00:14第139次夜班交班；三处错误电话纸本有真正改正记录而第一处永久支架仍未修，临时牌可按复检使用；东侧工地门仍封，历史实际回告未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "c595e457ec1dd62c79e1084f595dc98a44686990", revised_sha: "44c9656957dd19b63e1273c6b1652c10519ec1a5", stage_a_used: 1, body_revisions: 0, metadata_char_count: "2849_to_2521", predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, preferred_length_below_by: 79, structural: exact_candidate_commit_CI_required}
+char_count: 2521

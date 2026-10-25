@@ -9,3 +9,7 @@
 - **Meaningful Change PASS**：公众夜间危险得到专业到场/卸牌/专业现场复核，原先模糊“全天电话”被核实为网页收件与白班窗口不同且真实夜间人工渠道启用；馆内合法新证明确四栏适用的通用编制原则但不证个人实际答复。
 - **Memory/计划已纳入候选**：应同步第276章摘要、角色/知识/世界/关系/时间线/伏笔、reader/revision状态及只新增的计划表行，不能覆盖旧ready行。
 - **独立结构Gate**：本内容QA PASS不替代`python -m publisher.check_local --repo .`。只有精确候选Git commit的可信CI单元测试和结构检查同时SUCCESS，才准以expected_sha、force:false迁入main ready，不能凭候选草稿直接放行。
+
+## 正式结构与main放行结果（2026-10-25）
+- 精确Git候选Commit `bcf9e79d6c046b8f952eae884d48bbadd2e07836` 对应 GitHub Actions Run `40188480156` SUCCESS，明确成功运行 `Test offline snapshot validation` 与 `Validate this checkout without Git sync or publishing`（仓库`publisher.check_local`）。
+- 对当时main HEAD `2aa3bc66aa7bf7038cdae8d1c4816412c541e19e` 已以 `expected_sha`、`force:false` 实际更新main到上述候选commit，保留Writer第277章draft；第276章现正式ready。之前结构Gate待验文字为历史候选条件，已解除。

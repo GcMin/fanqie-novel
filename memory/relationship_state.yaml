@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 276
+last_updated_chapter: 277
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -609,3 +609,13 @@ chapter_276_relationships:
   custodian: "罗谨与馆方遵守范围内的编制规则审批，不经个人记录推断1996旧受访者获答。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "居民位置/医疗/订单截图不作为公众路况验收；历史索引个人填值行没有获准。"
+
+chapter_277_relationships:
+  chapter: 277
+  source_sha: "44c9656957dd19b63e1273c6b1652c10519ec1a5"
+  citizen: "孟禾在豆浆店安全侧等待而不拍照或代验路，02:01自行选择只确认安全送到，现场市政责任人自行核查。"
+  site: "小唐发现新旧印刷包混柜未隐瞒并拦第二点签回，专业人员对临牌与永久固定件分属不同核查，仍留待修工作。"
+  center: "周衡夏宁梁策坚持夜间来电/专业到场/本人反馈三类来源分开，人物互信无无据变化。"
+  archive: "罗谨与馆方对通用说明和原索引真实适用关系严格只核来源时间，未获个人业务阅准。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不把个人肖像/订单当验路必要条件，不读原索引填写行或旧受访人的私人资料。"

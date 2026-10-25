@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 276
-last_reviewed_title: 那部全天电话，六点就下班
-last_source_path: chapters/draft/0276.md
-last_source_sha: d9a7d1d2ace3bb7a0b9207e48347efc52e7f881f
-last_review_path: reader_reviews/0276_d9a7d1d2.md
+last_reviewed_chapter: 277
+last_reviewed_title: 牌子撤了，路不能靠猜
+last_source_path: chapters/draft/0277.md
+last_source_sha: 44c9656957dd19b63e1273c6b1652c10519ec1a5
+last_review_path: reader_reviews/0277_44c96569.md
 last_reviewed_at: "2026-10-25"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_recounted_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 275
-depends_on_source_sha: c9dca8c0128af5d5909597e946ff58945cd3b473
+depends_on_chapter: 276
+depends_on_source_sha: d4c347fcc6ef0ca406f93ae12825d109ad8697fb
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: c9dca8c0128af5d5909597e946ff58945cd3b473
+predecessor_current_source_sha: d4c347fcc6ef0ca406f93ae12825d109ad8697fb
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -919,6 +919,23 @@ combined_audit_chapter_276_20261025:
   metadata_correction: "3345_to_2971_and_predecessor_ready_sha"
   predecessor_original_sha: "fb2a1385962f2fac9ba48537d7a5803de13f5008"
   predecessor_ready_sha: "c9dca8c0128af5d5909597e946ff58945cd3b473"
+  predecessor_body_identical: true
+  continuity_style_meaningful_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_277_20261025:
+  chapter: 277
+  original_source_sha: "c595e457ec1dd62c79e1084f595dc98a44686990"
+  revised_source_sha: "44c9656957dd19b63e1273c6b1652c10519ec1a5"
+  original_review: reader_reviews/0277_c595e457.md
+  revised_review: reader_reviews/0277_44c96569.md
+  reader_initial: {blocker: 0, major: 1, minor: 2}
+  reader_final: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 0
+  metadata_correction: "2849_to_2521_and_predecessor_ready_sha"
+  predecessor_original_sha: "fe6a5a90201670340c2124d12c121eeea8db9079"
+  predecessor_ready_sha: "d4c347fcc6ef0ca406f93ae12825d109ad8697fb"
   predecessor_body_identical: true
   continuity_style_meaningful_qa: pass
   structural_gate: exact_candidate_commit_CI_required

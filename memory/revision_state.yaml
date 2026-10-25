@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 276
+current_chapter: 277
 current_stage: structural_gate_pending
-current_source_path: chapters/ready/0276.md
-current_source_sha: d9a7d1d2ace3bb7a0b9207e48347efc52e7f881f
-current_review_path: reader_reviews/0276_d9a7d1d2.md
+current_source_path: chapters/ready/0277.md
+current_source_sha: 44c9656957dd19b63e1273c6b1652c10519ec1a5
+current_review_path: reader_reviews/0277_44c96569.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,7 +12,7 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_276_reader_QA_memory_ready_candidate
+last_action: audit_277_reader_QA_memory_ready_candidate
 last_action_date: 2026-10-25
 last_error: null
 last_diff_summary: "第275章原稿有效字数标记3292与真实正文2916不符，Stage A只更正Front Matter和章纲，不改正文；新SHA重新独立Reader0/0/2，内容QA PASS；仍需精确候选结构CI才能放行main。"
@@ -597,5 +597,28 @@ combined_audit_chapter_276_20261025:
   final_counts: {blocker: 0, major: 0, minor: 2}
   predecessor_body_identical: true
   predecessor_ready_sha: "c9dca8c0128af5d5909597e946ff58945cd3b473"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_276_audit_released_20261025:
+  reviewed_sha: "d9a7d1d2ace3bb7a0b9207e48347efc52e7f881f"
+  ready_blob_sha: "d4c347fcc6ef0ca406f93ae12825d109ad8697fb"
+  main_commit: "bcf9e79d6c046b8f952eae884d48bbadd2e07836"
+  exact_ci_run: 40188480156
+  result: "CI_tests_and_check_local_success_main_expected_sha_force_false_success"
+
+combined_audit_chapter_277_20261025:
+  chapter: 277
+  original_sha: "c595e457ec1dd62c79e1084f595dc98a44686990"
+  final_reviewed_sha: "44c9656957dd19b63e1273c6b1652c10519ec1a5"
+  final_review: reader_reviews/0277_44c96569.md
+  stage: local_revision_metadata_only
+  local_revision_used: 1
+  body_revisions: 0
+  corrected_char_count: 2521
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  predecessor_body_identical: true
+  predecessor_ready_sha: "d4c347fcc6ef0ca406f93ae12825d109ad8697fb"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
