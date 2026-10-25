@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 280
+last_updated_chapter: 281
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -650,3 +650,13 @@ chapter_280_relationships:
   center: "周衡夏宁梁策按照来源分栏，主角信任分数无无据变化。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "公众无需供药、行程照片作为道路验收，馆内旧个人索引填写行未获许可。"
+
+chapter_281_relationships:
+  chapter: 281
+  source_sha: "604e038b3bf8882d5e9e60a92dd9999b69ac3af3"
+  citizen: "林闻自主查询路况与自领录音笔，拒被拍照宣传或视作其他读屏用户代表；面包店老板娘不把不明日期旧图作为安全路线告知。"
+  street: "蔡敏主动纠自动假回复、按道路有责文本调整读屏日期顺序而不是依OCR猜许可；小唐负责三纸本点逐个更新回签。"
+  archive: "罗谨守A2新窄申请仅收件的权限，不越界读索引实填行或无据知林闻个人出行。"
+  center: "周衡夏宁梁策按证据分层，未因本人是否取件改变主要角色互信分数。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "个人病历肖像住址和行程不替代交通验收；1996受访人本人答复与2018实际馆内填值未开放。"

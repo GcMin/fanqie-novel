@@ -1,3 +1,8 @@
+# 第281章独立审核及放行候选状态（2026-10-25）
+- 原稿blob `7e327b0224d26095d43419a64366fb4be634decc` 初审1 BLOCKER/2 MAJOR/2 MINOR，Stage A只修11:20读屏顺序、罗谨无来源先知林闻取件、元数据及280依赖；新SHA `604e038b3bf8882d5e9e60a92dd9999b69ac3af3` 独立双遍Reader=0/0/2。
+- 第280章原draft与最终ready三处实际正文差异已逐个核事实相容，281精确重绑 `a442377f3c148c4ff39cc5811cf1fce60c5d2cb2`；Continuity/Style/Meaningful独立QA PASS，有效字数3471。
+- 候选分支的ready仍不得解释成main放行，必须等精确Commit的GitHub Actions单测与 `python -m publisher.check_local --repo .` 实际SUCCESS，详见 `qa/0281_report.md`。
+
 # 第257、258章候选审核摘要（2026-10-25；结构CI尚需精确提交验证）
 - 第257章原稿e9b8219b76713dc18a936d6f68ca12ffb045a375，独立初审0/1/2，定点修正文稿“一九xx年”占位后新draft 05e9c1a7d4077cc4eae8e979d791427c900dbbd3，针对新SHA双遍Reader0/0/2、独立Continuity/Style/Meaningful Change QA PASS。
 - 第258章原稿088022ca7da30a4824bb8bddc0fd67d5d9c62e98，独立初审0/1/2，纠正Day122同日晚错误指称“昨天”两处、并将前章依赖改为第257章ready SHA 48d31f58c7a085f2e6b4040149df8a6d0546aa35，新draft f2707537093ca788b11ad97663b0fe036497673b独立双遍Reader0/0/2、独立QA PASS。

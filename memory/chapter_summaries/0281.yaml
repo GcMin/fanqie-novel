@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 281
+title: "图已经更新，读屏还在原地"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "604e038b3bf8882d5e9e60a92dd9999b69ac3af3"
+original_source_sha: "7e327b0224d26095d43419a64366fb4be634decc"
+reader_review: reader_reviews/0281_604e038b.md
+prior_review: reader_reviews/0281_7e327b02.md
+depends_on_chapter: 280
+depends_on_source_sha: "a442377f3c148c4ff39cc5811cf1fce60c5d2cb2"
+dependency_status: verified_predecessor_factual_delta_compatible
+timeframe: "Day145 08:38—Day146 00:09，第143次夜班"
+summary: >-
+  Day145 08:32街道平台仅把Day144南侧恢复及北侧临时绕行两图作为新公告发布，读屏无法获取当日签认日期、北路旧图没有明显失效字样；08:38林闻在面包店安全停留、08:56获得自动受理号却被系统错记已答复，09:07蔡敏退回人工待办、09:26限定短信要求等待道路岗位实核。10:02—10:40道路养护及管理岗真实复核六米南侧公众路可用、东侧旧站施工门持续封闭、北侧昨临时绕行仅历史；11:20首版试读竟先念路线后日期藏折叠处，重排再测为日期在先，12:08道路岗核文字、12:26官网可读文字正式发布；12:43林闻本人实际读出、13:18实收明确旧北路并非今日许可的答复，15:32自己领取修好的录音笔拒绝代全部读屏居民或部门验路。14:21/14:46/15:05三个街道自管纸本点逐点真撤旧换新留具名回签，外部网页/终端缓存仍待查；15:48有责复巡后16:00完成下午第二次公开更新。罗谨15:17申请A2“回告材料候选系列”非身份说明仅受理，不得读实际填值/1996个人历史回告。Day145 20:00第143次夜班开始，Day146 00:09新来电提出旧手机仍缓存昨日图，待进一步核来源。F003有限推进、F008无新可靠本人亲历矛盾、M004/M005仍未证。
+meaningful_state_changes:
+  - "网站从图片公告与自动假答复变为有责实核日期在先的可读文字，林闻真实得到答复和自主取件。"
+  - "三个自管纸本点真更新，下午有责路况再核再告；其它外部缓存同步未证。"
+  - "A2新范围申请仅新增真实收件回执，既无批准也无旧受访者收到回话证据。"
+knowledge_updates:
+  - "中心和街道必须区分页面发布、机器回执、技术读屏可读性、道路专业许可与本人真正收到；公民个人行程反馈不等于验路。"
+  - "罗谨不知林闻个人取件或2018索引实填行，非身份说明新申请只受理；1996旧人真送达未知。"
+foreshadowing_updates:
+  - "F003有限新增A2申请；F008无符合标准新记忆反证；F009/F010/F011 resolved，M004/M005未确证。"
+relationship_updates:
+  - "林闻拒被当宣传样本，蔡敏依法按权更可读通知并真实答复，罗谨守档案权限，中心不替居民签字。"
+ending_state: "Day146 00:09第143夜班持续：Day145当日官网、三个自管纸点真正可读且按两次实核更新、东门仍封；林闻亲领物真收答复，外部旧缓存待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {stage_a_local_revision: 1, original_sha: "7e327b0224d26095d43419a64366fb4be634decc", final_draft_sha: "604e038b3bf8882d5e9e60a92dd9999b69ac3af3", corrections: "读屏首测顺序、罗谨先知领物、前章SHA重绑、3033→3471"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_factual_delta: verified_compatible, structural: exact_commit_CI_required}
+char_count: 3471
