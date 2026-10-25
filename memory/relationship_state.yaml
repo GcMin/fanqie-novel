@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 279
+last_updated_chapter: 280
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -639,3 +639,14 @@ chapter_279_relationships:
   center: "周衡夏宁梁策按事实分源不改变三主角互信分数。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "不会要求顾永山病历/行程照片，历史索引业务填写行与旧来话本人信息不获阅准。"
+
+chapter_280_relationships:
+  chapter: 280
+  source_sha: "d0a0939e2d03412703ecfa5c8481ae8c368248c2"
+  citizen: "许慧报险而拒近距离拍照，自行选择出行；顾永山不替道路专业验证坡口，居民自主和隐私均保留。"
+  street: "小唐等具名人员按责实核封路、双过街口、真实清障、限时公告及撤临牌；姚芬把三处张贴和未接通人员独立记。"
+  local: "老赵Day144 16:24真领街道有责具名书面答复，只签本人领取不替其他参会者满意。"
+  archive: "罗谨不越A2历史整理资料限定摘录权限，不把馆内接收当旧私人送达。"
+  center: "周衡夏宁梁策按照来源分栏，主角信任分数无无据变化。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "公众无需供药、行程照片作为道路验收，馆内旧个人索引填写行未获许可。"

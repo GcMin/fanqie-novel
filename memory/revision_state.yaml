@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 279
+current_chapter: 280
 current_stage: structural_gate_pending
-current_source_path: chapters/ready/0279.md
-current_source_sha: f55fc6943302bab38c42c7e76aec2d4a938b6262
-current_review_path: reader_reviews/0279_f55fc694.md
+current_source_path: chapters/ready/0280.md
+current_source_sha: d0a0939e2d03412703ecfa5c8481ae8c368248c2
+current_review_path: reader_reviews/0280_d0a0939e.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_279_reader_QA_memory_ready_candidate
+last_action: audit_280_reader_QA_memory_ready_candidate
 last_action_date: 2026-10-25
 last_error: null
-last_diff_summary: "第279章Stage A仅修复278 provisional来源SHA为ready且正文逐字兼容；279正文无修改，修后Git Blob f55fc694独立Reader0/0/2、QA PASS；仍须精确候选结构CI才能放行main。"
+last_diff_summary: "280初稿错误char_count与前章日期/元叙述经StageA合并修订，最终d0a0939e2d03412703ecfa5c8481ae8c368248c2经新SHA Reader0/0/2和QA通过，需精确CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -643,5 +643,16 @@ combined_audit_chapter_279_20261025:
   body_revisions: 0
   rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
   final_counts: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_280_20261025:
+  original_sha: "31b03edcb4c73a66bd18ee09f9525940a45e0c51"
+  final_source_sha: "d0a0939e2d03412703ecfa5c8481ae8c368248c2"
+  final_review: reader_reviews/0280_d0a0939e.md
+  reader_initial: {blocker: 0, major: 2, minor: 2}
+  reader_final: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  predecessor_factual_delta: exact_ready_SHA
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
