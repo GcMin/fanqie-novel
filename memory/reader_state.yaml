@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 272
-last_reviewed_title: 十一点二十分，今天的门开了
-last_source_path: chapters/draft/0272.md
-last_source_sha: d77c2feb582735bb8c35db463d1503ee625f779e
-last_review_path: reader_reviews/0272_d77c2feb.md
+last_reviewed_chapter: 273
+last_reviewed_title: 昨天的绿牌，今天不能走
+last_source_path: chapters/draft/0273.md
+last_source_sha: 59a81e73b29c5bd3b1a75ba4baa2fe5e9b071274
+last_review_path: reader_reviews/0273_59a81e73.md
 last_reviewed_at: "2026-10-25"
-reviewer_mode: combined_audit_independent_pass_a_then_b
+reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 271
-depends_on_source_sha: 212c76e53f37de88f891389118962e55b4cda23f
+depends_on_chapter: 272
+depends_on_source_sha: f9357ef74a27561b63e3b569d35a0873c363c296
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 212c76e53f37de88f891389118962e55b4cda23f
+predecessor_current_source_sha: f9357ef74a27561b63e3b569d35a0873c363c296
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -852,6 +852,22 @@ combined_audit_chapter_272_20261025:
   required_action: none
   body_revisions: 0
   predecessor_ready_blob: "212c76e53f37de88f891389118962e55b4cda23f"
+  predecessor_factual_delta: exact_ready_blob
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_273_20261025:
+  chapter: 273
+  original_source_sha: "d34632e1152d0c46f0742af993bd63a73605be47"
+  original_review: reader_reviews/0273_d34632e1.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  local_revision: "Day136外签和双岗核库同日的时间回指纠正"
+  final_source_sha: "59a81e73b29c5bd3b1a75ba4baa2fe5e9b071274"
+  final_review: reader_reviews/0273_59a81e73.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  fix_required: none
+  body_revision_rounds: 1
+  predecessor_ready_blob: "f9357ef74a27561b63e3b569d35a0873c363c296"
   predecessor_factual_delta: exact_ready_blob
   continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required

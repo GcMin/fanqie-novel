@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 272
+last_updated_chapter: 273
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -570,3 +570,13 @@ chapter_272_relationships:
   archive: "罗谨按另行窄授权只追2018一份索引事项的2019责任流转和2022袋外签，馆方未给内页阅权。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "顾永山的病历与轮椅肖像不公开，历史索引内文和受访者身份仍未获准查看。"
+
+chapter_273_relationships:
+  chapter: 273
+  source_sha: "59a81e73b29c5bd3b1a75ba4baa2fe5e9b071274"
+  family: "顾永山主动揭示过期绿牌、选择绕远普通路送笔，顾珊尊重其自主，只向公开渠道反映积水而不以个人经历替机构验收。"
+  site: "屈工对昨日绿牌未撤承担交接责任，拒安全不达标就开放东门，不叫看守代签。"
+  center: "周衡夏宁梁策分源处理公路和馆藏证据，三主角互信分数不因本章改变。"
+  archive: "罗谨依新窄许可查2022复制件不窥2018原索引私人内容，陶芹双岗重封。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "顾永山的轮椅与路况自述不能被作为机构宣传；旧索引内文与历史受访者身份仍无阅准。"

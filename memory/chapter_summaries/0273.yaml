@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 273
+title: "昨天的绿牌，今天不能走"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "59a81e73b29c5bd3b1a75ba4baa2fe5e9b071274"
+original_draft_source_sha: "d34632e1152d0c46f0742af993bd63a73605be47"
+reader_review: "reader_reviews/0273_59a81e73.md"
+prior_review: "reader_reviews/0273_d34632e1.md"
+depends_on_chapter: 272
+depends_on_source_sha: "f9357ef74a27561b63e3b569d35a0873c363c296"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day137 08:51—Day138 00:08，第135次夜班"
+summary: >-
+  Day137 08:51居民群裁切Day136绿色临时开放照片误认今日许可，顾永山查昨日日期与实关记录提醒不能沿用。09:03街道公告吊装危险使东门仍封，09:17看守老丁发现便利店外昨日纸告示雨卷遮日期，屈工留证与店主配合撤旧并认交接遗漏；10:20转图者解释普通裁切，群管理保留原帖附更正。11:29支腿保护区与东侧行人净空相叠，11:30具名公告仍不放行；南侧既有普通人行路在13时后实核，14:14被配送车挡的坡口清出，积水警示与后续巡查责任落实，15:08有权发布当前可用的南侧长绕行，不冒称东门许可或永久无障碍工程。顾永山16:06自主出发、16:33到社区送老赵借笔、16:59安全返，顾珊不将一人经历当专业安全证明。馆方前章Day136当日取得2022袋外签且15:12双岗核库，Day137保护岗另给条件、罗谨11:12正式限项申请、14:26获批，双岗开2022袋见封装表及同2018事项号的2022重制工作复制页，原2018索引实物未确证，下一步需按权限查调转返还而非断言遗失、历史回拨已完成。20:18第135夜班中心分源登记，Day138 00:08交班。F003有界推进、F008无新可靠样本、M004/M005仍未证。
+meaningful_state_changes:
+  - "昨日绿牌误导查清现场撤旧责任、保原帖公开更正。"
+  - "南侧现有公众人行绕路经清障与积水警示专业实核可用且老顾自主往返；东门仍封。"
+  - "2022袋内确有2022重制工作复制页与交接表而非已证2018原索引；调转链另待合法查询。"
+knowledge_updates:
+  - "Day136限时东门许可和旧绿色纸均不能自动用作Day137放行凭据，个人出行不代专业复核。"
+  - "同事项号2022复制件不等于2018原索引，袋中未确证原件不能推出遗失或旧来话送达。"
+foreshadowing_updates:
+  - "F003仅获得新的合法工作复制件性质；F008无新增可信本人事件记忆冲突，M004/M005不确证。"
+relationship_updates:
+  - "顾永山自主出行，顾珊尊重隐私并反馈真实路况；屈工认现场撤旧责任，罗谨守阅档边界。"
+ending_state: "Day138 00:08第135夜班交班；东门Day137全天封、南侧已有普通公路可用待维护，2022工作复制页实见但2018原件与历史回拨仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {stage_a_local_revision: 1, original_sha: "d34632e1152d0c46f0742af993bd63a73605be47", final_reviewed_draft_sha: "59a81e73b29c5bd3b1a75ba4baa2fe5e9b071274", fix: "Day136查2022袋外签与双岗核库均属本章昨天"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_factual_delta: exact_ready_blob, structural: exact_candidate_commit_CI_required}
+char_count: 3139

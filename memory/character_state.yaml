@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 272
+last_updated_chapter: 273
 characters:
   zhou_heng:
     location: "Day134 00:09，第131次夜班阶段交班"
@@ -737,3 +737,15 @@ chapter_272_verified:
   custodian: "罗谨只得限定2019责任交接/2022袋号外签和15:12现库核验，内页与旧回拨仍未知。"
   main_cast_injuries: none_new
   final_location: "Day137 00:11阶段交班；公众路Day136真开真关并闭合，Day137是否再批未知。"
+
+chapter_273_verified:
+  source_sha: "59a81e73b29c5bd3b1a75ba4baa2fe5e9b071274"
+  timeframe: "Day137 08:51—Day138 00:08，第135夜班"
+  zhou_heng: "20:18按证据等级分列今日封东门、南侧普通公共绕路核可用和2022袋内复制页，绝不把2018原件/历史回拨写为确认。"
+  xia_ning: "强调2022工作复制件不是原索引；顾珊反馈只作公共路况而非宣传个体隐私。"
+  liang_ce: "只认可南侧现有公共路按现场核验可用，不将老顾个人一次走通替代复查；原件调转链仍待核。"
+  family: "顾永山16:06自主走长绕路还笔、16:59安全在家；顾珊不把其个人实走当官方安全证明。"
+  site: "屈工对昨日纸牌未撤留证认错，Day137吊装净空未达放行条件、工地东门全天封。"
+  custodian: "罗谨获另批才限项点袋见2022封装表和2022重制复制页；陶芹重封保历史原码，旧索引内文未开放。"
+  main_cast_injuries: none_new
+  final_location: "Day138 00:08中心交班；老顾家中、东门关闭、南侧绕路现可用待巡查。"
