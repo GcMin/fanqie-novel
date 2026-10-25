@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 284
+title: "新纸印出的是旧路"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "2732f603a1dff37feaef16fadf76cafd8ede30ee"
+original_source_sha: "05f737ae95489f0a355a2f2f6e14ae7cb530d1a2"
+reader_review: reader_reviews/0284_2732f603.md
+prior_review: reader_reviews/0284_05f737ae.md
+depends_on_chapter: 283
+depends_on_source_sha: "400b233a1f5df66a0bf9dd48eb3006fa8b1482b8"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day147 20:30—Day148 00:13，第145次夜班"
+summary: >-
+  Day147 20:30杜宜在北街自助亭实际新印带今日页眉的D144过期绕行路线，源缓存为Day144 15:42而打印机仅改页眉时钟。夏宁依法请当晚21:14道路管理岗复核南侧已有公众路当时可走且东侧工门继续封，Day144临时北绕不能延续；杜宜拒将自己次日送书当作实地验收。运营商余松21:48只停首页，22:03小唐现场找到最近使用仍能调旧图，22:21在运营权限内停全部三个已知打印入口并现场核验，普通印单功能保留；杜宜22:27真取设备清单并自愿交新印旧路纸作附件，旧书箱仍在家待次日送达。另两台同商户终端B07/C12只列待核，不能写成已修。原Day144商户折页64份已撤20、本人交1、余43去向未知，新机器纸另算；Day148 00:13真实交班，F003/F008未有异常新证、M004/M005未证。
+meaningful_state_changes:
+  - "新增可核Day147自动终端另印过期D144纸一张，找到了Day144缓存与今日页眉替换之间的技术来源。"
+  - "一台自助机三个已知路线入口由可触发变为22:21实际阻断复核，普通服务未中断，B07/C12待核。"
+  - "当夜另真核公共路况并保护居民自主、设备证据和原批43张未知数。"
+knowledge_updates:
+  - "夏宁周衡梁策知道设备今日出纸时间与路线合法时间不同，商户原批和自助新印不能合并统计。"
+  - "余松知道首页成功下架不代表本机快捷入口停用；小唐仅核这一台，不掌握另外两台真实状态。"
+foreshadowing_updates:
+  - "F003维持旧A2非身份候选通用规则，F008未新增可靠记忆矛盾，M004/M005未证；新增B07和C12待逐台查。"
+relationship_updates:
+  - "杜宜自己保管送书选择、不交私人打印详情，街道与运营商只分别对受权范围负责。"
+ending_state: "Day148 00:13第一台已核阻断、另两台未核，Day144原批43未知、杜宜新印旧图受控留存、东工门继续封。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "05f737ae95489f0a355a2f2f6e14ae7cb530d1a2", revised_sha: "2732f603a1dff37feaef16fadf76cafd8ede30ee", stage_a_used: 1, body_revisions: 1, correction: "杜宜旧书箱Day147夜未送达；char_count 3077改3086"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3086

@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 285
+title: "停掉旧图，谁来指路"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "6384d813f8ed34cb4fc01c30fc4fd4095d9c804b"
+original_source_sha: "c8bb46004d2a551aad5ecd369134931350f91ad4"
+reader_review: reader_reviews/0285_6384d813.md
+prior_review: reader_reviews/0285_c8bb4600.md
+depends_on_chapter: 284
+depends_on_source_sha: "6730cb42df121b60c2a9bfc9f9cedf0d176a00e9"
+dependency_status: verified_predecessor_factual_delta_compatible
+timeframe: "Day148 06:48—23:21，第145/146次夜班交接"
+summary: >-
+  Day148 06:48徐桂芳在北街市场外B07离线自助机仍看见过期D144路线，拒照旧图推送布书袋。余松查明后台06:02显示已发停用指令仅到服务器队列，B07离线未接，本机按权禁用旧模板并留源，08:28完成终端实际停用回签，小唐仅见证三个已知入口有效阻断。08:41道路管理岗另有责实核南侧既有公众人行路当时可用，东侧施工门仍封且Day144北侧暂绕不再适用。蔡敏按有权时点在街道窗口做无跨页的大字纸，10:05道路岗校对、10:18徐桂芳本人真领取一份，不能充当所有市民获知或明日永久通行许可。C12经11:37现场有限核验未发现旧D144入口，三台设备登记只证各自已核范围，既发纸和B07离线打印数仍未证。Day148中午杜宜按前章约定从家把旧书箱实际送达社区阅读室，与徐桂芳讨论警示展示不再复制错方向图。20:00第146夜班开，23:21有人提议纸本去掉日期，夏宁仅送道路管理岗待回复。原商户纸64=20+1+43仍成立；F003旧A2未知，F008无新样本，M004/M005未证。
+meaningful_state_changes:
+  - "B07脱网时后台指令无法落地的风险现场纠正，08:28完成本机终端实际阻断并留证。"
+  - "C12经过独立有限核验；设备三台各有独立证据范围，旧纸与离线打印历史数量仍列未知。"
+  - "徐桂芳本人获得Day148当日专业路况核验对应的大字纸一份，窗口长期责任和以后复印时点留待有权岗位处理。"
+knowledge_updates:
+  - "夏宁周衡梁策与余松不能将服务器绿勾解释为离线本机确实执行，不能将三个已知终端检查等同全渠道回收。"
+  - "徐桂芳能辨认当次纸本核验时刻且自主决定是否出行，不被要求交私证；蔡敏不得删纸本日期作永久指引。"
+foreshadowing_updates:
+  - "F003维持2018 A2有限合法材料；F008无新增可靠亲历样本；M004/M005未证，旧纸实际传播量与B07离线打印任务仍待核。"
+relationship_updates:
+  - "徐桂芳推动现实纸本可及性而不交私人行程，杜宜次日送达书箱并认同不让过期路线被当新指路牌。"
+ending_state: "Day148 23:21三台运营商登记终端各留不同范围核验，一份大字纸本人真领，跨日指路无许可，纸本日期不可随意删除。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "c8bb46004d2a551aad5ecd369134931350f91ad4", revised_sha: "6384d813f8ed34cb4fc01c30fc4fd4095d9c804b", stage_a_used: 1, body_revisions: 0, correction: "前章284旧draft到ready有真实书箱位置修订，本章事实兼容并重绑"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_factual_delta_checked: true, structural: exact_candidate_commit_CI_required}
+char_count: 3312

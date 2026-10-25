@@ -870,3 +870,27 @@ chapter_283_verified:
   custodian: "无新增2018 A2索引阅档；罗谨仅继承前章已合法取得的一项非身份通用候选规则，1996旧个人回告未知。"
   main_cast_injuries: none_new
   final_location: "Day147 20:00第145次夜班开班，东施工门封闭；64纸中21可证已撤/另交、其余43仍未核。"
+
+chapter_284_verified:
+  chapter: 284
+  source_sha: "2732f603a1dff37feaef16fadf76cafd8ede30ee"
+  timeframe: "Day147 20:30—Day148 00:13，第145夜班"
+  zhou_heng: "按来源将Day144原批64份中20撤、1交、43未知与Day147自助机新增一张区分，不以晚间新印旧图给明日路况签字。"
+  xia_ning: "21:14取得道路岗新时点核验才限时回应杜宜，不要求居民替单位试行明日路线。"
+  liang_ce: "仅确认第一台22:21已核停，另两台B07/C12未核。"
+  citizen: "杜宜当夜留书箱在家等Day148搬运，自愿仅交新增D144样张，不交私人打印清单与行程。"
+  operator: "余松保源停模板，小唐对第一台三入口独立复测且不替其它设备签名。"
+  main_cast_injuries: none_new
+  final_location: "Day148 00:13交班东工门继续封闭、其余机器与旧纸待核。"
+
+chapter_285_verified:
+  chapter: 285
+  source_sha: "6384d813f8ed34cb4fc01c30fc4fd4095d9c804b"
+  timeframe: "Day148 06:48—23:21，第145/146夜班衔接"
+  zhou_heng: "区分服务器队列06:02发送与B07本机08:28执行回签，旧打印任务数仍待依法核。"
+  xia_ning: "知道Day148 08:41道路新核、徐桂芳10:18本人领大字纸，夜班只转纸本长期责任待回。"
+  liang_ce: "反对把三台有限核验说成全部已发纸张和未核渠道召回。"
+  citizen: "徐桂芳自主查路并实领一张带时点纸，不交私证；杜宜Day148中午按计划送旧书箱。"
+  operator: "余松08:28完成B07本机实停并11:37有限核C12，保留旧模板/任务记录。"
+  main_cast_injuries: none_new
+  final_location: "Day148 23:21居民纸本能否删日期待权责回复，东工门仍封。"

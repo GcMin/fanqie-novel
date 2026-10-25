@@ -5,10 +5,10 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer (Planner / Continuity Precheck / Writer)
 - observed_main_sha: 063d2a8b9c4a7006e5992d3ea52e3cb87657ac3d
-- predecessor_path: chapters/draft/0284.md
+- predecessor_path: chapters/ready/0284.md
 - depends_on_chapter: 284
-- depends_on_source_sha: "05f737ae95489f0a355a2f2f6e14ae7cb530d1a2"
-- dependency_status: provisional
+- depends_on_source_sha: "6730cb42df121b60c2a9bfc9f9cedf0d176a00e9"
+- dependency_status: verified_predecessor_factual_delta_compatible
 - source_boundary: 前章0284仍为draft，依赖仅指向该Git blob，不视作正式Canon；Day147 20:30杜宜从北街第一台自助亭实际新印D144过期图，22:21该亭三个已知入口实际阻断，Day148 00:13交班；运营商另两台B07、C12只列待核。此前Day144纸折页原印64、实撤20、本人另交1、余43未知，新印纸不抵原批。旧站东工门无公众放行；2018 A2原索引具体填值与1996旧来话个人回告未证。
 - chapter_goal: 在其他设备验证错图风险，识别后台“已下发”不等于离线终端“已执行”，同时为不依赖智能手机的市民提供有来源、有时点的可用纸本方式。
 - POV: 第三人称有限，徐桂芳/夏宁/周衡为主要视角，余松、蔡敏和小唐仅于各自权责作有限核验。
@@ -30,3 +30,8 @@
 - target_body_effective_chars: 2600-3400, hard: 2300-3800
 - actual_body_effective_chars: 3312
 - continuity_precheck: 以本轮main 063d2a8b9c4a7006e5992d3ea52e3cb87657ac3d审读AGENTS、config、协议、Bible和三人物卡，当前卷/ARC-054、Memory当前状态/人物知识、伏笔与时序、最近10章摘要及最近5章280-284正文；查published/0153.md存在且三目录最高0284；0285两目标文件此前不存在；284未审首稿依赖SHA=05f737ae95489f0a355a2f2f6e14ae7cb530d1a2为provisional，所有从其引用的新纸、设备编号和时间均为临时衔接事实，独立审核后需核一致性。仅新建章纲与草稿，审核和长期Memory交由独立Audit。
+
+## Audit 已验证前章真实修订及Reader结果（2026-10-26）
+- Writer最初观察与临时预检描述保留为历史，Audit已将依赖调整至284最终ready Git blob `6730cb42df121b60c2a9bfc9f9cedf0d176a00e9`。
+- 前章284旧draft `05f737ae95489f0a355a2f2f6e14ae7cb530d1a2` 到ready确有正文差异：杜宜Day147晚的书箱从误写已在阅读室修订为仍在家明早送。285 Day148中午真实送达与其相容；原64=20+1+43、D144模板及B07/C12待核状态不变。不是“前章正文完全一致”。
+- 原285 draft `c8bb46004d2a551aad5ecd369134931350f91ad4` 初审Reader0/1/2，Stage A只重绑前章SHA、无正文变动；新draft `6384d813f8ed34cb4fc01c30fc4fd4095d9c804b`独立Reader0/0/2，Continuity/Style/Meaningful QA PASS、3312字。ready候选 `35ee4577dfc76080bd5c63b9f38235691c96eee0`须精确结构CI通过后才可合main。

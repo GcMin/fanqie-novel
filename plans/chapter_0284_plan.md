@@ -27,5 +27,11 @@
 - forbidden_leaks: 不把Day147 09:25道路核验当夜间或次日永久许可；不开放旧站施工东门；不从新印一张里抵扣原43未知，也不宣称该运营商所有打印亭已被检查；不让独立居民为有责道路验收试路；不先验宣告在线与本机缓存共源或有人故意误导；不读历史reader_reviews；不执行审核/修订/Memory/发布。
 - ending: Day148 00:13分三项交班：原批43张下落未知；自助亭确曾新印D144且22:21已阻断现有三个已知路线打印入口；另两台设备和其它衍生纸仍待核。公众自行明早查新时点道路许可。
 - target_body_effective_chars: 2600—3400，硬限2300—3800
-- actual_body_effective_chars: 3077
+- actual_body_effective_chars: 3086
 - continuity_precheck: 经GitHub main eddcf0ae354a4da8e598969a3de9b73669fc8e1e完整tree重新检查published、ready、draft，最大章节号283；published/0153.md已存在，0284正文与章纲此前均不存在；前章0283处于ready且源blob SHA精确绑定；比对Day147 20:00第145夜班和Day148 00:13时间顺序、旧批64=20+1+43算术，以及实际夜间有责新核；本轮只新建两文件、不得写别的路径或宣称独立审核已完成。
+
+## Audit 修订与独立审核追踪（2026-10-26）
+- 284原稿 SHA `05f737ae95489f0a355a2f2f6e14ae7cb530d1a2` Reader 0 BLOCKER/1 MAJOR/2 MINOR，MAJOR为杜宜Day147晚旧书箱明日才送却误写已送阅读室。
+- Stage A局部仅修此矛盾并更正有效字数3077→3086；修后draft SHA `2732f603a1dff37feaef16fadf76cafd8ede30ee`，独立Pass A/B Reader 0/0/2。
+- 对第283章ready SHA `400b233a1f5df66a0bf9dd48eb3006fa8b1482b8`精确匹配；Continuity/Style/Meaningful QA PASS，原折页64=20实撤+1交+43未知不变。
+- 284ready候选blob `6730cb42df121b60c2a9bfc9f9cedf0d176a00e9`，须对精确候选Commit通过结构CI才可合main。
