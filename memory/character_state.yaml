@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 278
+last_updated_chapter: 279
 characters:
   zhou_heng:
     location: "Day140 00:13，第137次夜班阶段交班"
@@ -808,3 +808,14 @@ chapter_278_verified:
   custodian: "罗谨依法仅见A1与A2版面标记不同，陶芹保护索引不翻缺角也不提供填值行。"
   main_cast_injuries: none_new
   final_location: "Day143 00:09阶段交班；新永久牌真验收、临牌撤回、东门仍封、A2来源变更申请仅受理。"
+
+chapter_279_verified:
+  source_sha: "f55fc6943302bab38c42c7e76aec2d4a938b6262"
+  timeframe: "Day143 07:53—Day144 00:12，第141次夜班"
+  zhou_heng: "分辨街道会议有人实到与全部报名人获通知、个人意见实收与街道具名书面答复待办，拒推旧受访者真实回告。"
+  xia_ning: "群管理员收件、窗口公告、本人领纸、本人真听告知及道路责任部门书面回应分栏记录，不写全员知晓。"
+  liang_ce: "遵守旧A2变更规则仅去身份部分可证、个人历史回告未证的边界。"
+  family: "顾永山不代老赵或其他无障碍道路使用者发言；老赵自行领纸参加并确认仅本人原话。"
+  custodian: "罗谨依法取得A2部分非身份版面调整来源，陶芹坚守不得看索引行与旧登记私人的范围。"
+  main_cast_injuries: none_new
+  final_location: "Day144 00:12交班；南侧公众路永久牌在岗、东侧工地仍封、社区意见待正式书面答复、A2部分规则有来源但旧来话未证。"

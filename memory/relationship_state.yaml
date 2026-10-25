@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 278
+last_updated_chapter: 279
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -628,3 +628,14 @@ chapter_278_relationships:
   center: "周衡夏宁梁策在交班中继续分源记录公众路权与档案开放权限，没有无据新增信任变化。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "居民行程不被用于证明公共设施安全，2018原索引个人业务信息与1996旧来话仍不公开。"
+
+chapter_279_relationships:
+  chapter: 279
+  source_sha: "f55fc6943302bab38c42c7e76aec2d4a938b6262"
+  family: "顾永山给老赵独立寻求路权说明的渠道，不代为发言、也不被作为个人无障碍宣传试验。"
+  citizen: "老赵拒被群管理员代签及群体满意代言，自行领纸、现场要求改记录，并只确认自己的发言和受理号。"
+  street: "姚芬承认群管理员签收造成错误并主动纠正实际联络流程，有责道路岗只接受书面安排答复待办而不预批东门。"
+  archive: "罗谨尊重陶芹限项保护，A2规则的馆内来源不被写成私人历史送达。"
+  center: "周衡夏宁梁策按事实分源不改变三主角互信分数。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不会要求顾永山病历/行程照片，历史索引业务填写行与旧来话本人信息不获阅准。"

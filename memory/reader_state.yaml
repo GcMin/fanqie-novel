@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 278
-last_reviewed_title: 箭头印反了，路没有变
-last_source_path: chapters/draft/0278.md
-last_source_sha: 9d251d7e69e7ea830e0c5688a868eb59a3ba62fb
-last_review_path: reader_reviews/0278_9d251d7e.md
+last_reviewed_chapter: 279
+last_reviewed_title: 签收簿里，没有听见的人
+last_source_path: chapters/draft/0279.md
+last_source_sha: f55fc6943302bab38c42c7e76aec2d4a938b6262
+last_review_path: reader_reviews/0279_f55fc694.md
 last_reviewed_at: "2026-10-25"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_recounted_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 277
-depends_on_source_sha: 5e5df206786030fb417dfea51e9e2e640e766a7a
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 5e5df206786030fb417dfea51e9e2e640e766a7a
+depends_on_chapter: 278
+depends_on_source_sha: 87f726a1bed9c2c2b5c056ab85aef8efc6617a16
+dependency_status: verified_predecessor_body_identical_ready
+predecessor_current_source_sha: 87f726a1bed9c2c2b5c056ab85aef8efc6617a16
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -950,5 +950,20 @@ combined_audit_chapter_278_20261025:
   body_revisions: 0
   predecessor_ready_blob: "5e5df206786030fb417dfea51e9e2e640e766a7a"
   predecessor_factual_delta: exact_source_sha_match
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+combined_audit_chapter_279_20261025:
+  chapter: 279
+  original_source_sha: "03cff8acb7c36d739693506ef7ffc0a0fe471d24"
+  revised_source_sha: "f55fc6943302bab38c42c7e76aec2d4a938b6262"
+  original_review: reader_reviews/0279_03cff8ac.md
+  revised_review: reader_reviews/0279_f55fc694.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_original_sha: "9d251d7e69e7ea830e0c5688a868eb59a3ba62fb"
+  predecessor_ready_blob: "87f726a1bed9c2c2b5c056ab85aef8efc6617a16"
+  predecessor_body_identical: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

@@ -5,12 +5,12 @@
 - arc: ARC-054《回拨接收点》；第四阶段《被留下的城市》
 - role: Writer；仅 Planner、Continuity Precheck、首稿，不承担 Reader/Revision/QA/Memory/Publish Gate
 - observed_main_sha: e5681ede6b39a82af59e68b8bf44a664dbe4146c
-- predecessor_path: chapters/draft/0278.md
+- predecessor_path: chapters/ready/0278.md
 - depends_on_chapter: 278
-- depends_on_source_sha: "9d251d7e69e7ea830e0c5688a868eb59a3ba62fb"
-- dependency_status: provisional
+- depends_on_source_sha: "87f726a1bed9c2c2b5c056ab85aef8efc6617a16"
+- dependency_status: verified_predecessor_body_identical_ready
 - dependency_facts: 第278章Day142 09:41专业停止公众视角错误箭头新牌安装，14:42更正版到，15:09真装、15:24现场验收、15:38独立临牌有回签撤除；南侧是既有公共人行路，旧站东侧工地门仍未获得公众跨日放行许可。馆方获2018通用说明A1与保护夹中原索引印制标记A2不同批次的合法证据，15:03仅提交A2非身份变更记录窄查申请，尚未获批、未见其内容。Day143 00:09第140次夜班交接。
-- dependency_boundary: 第278章仍为未经独立审核的draft，仅对其9d251d7e69e7ea830e0c5688a868eb59a3ba62fb这一特定版本作临时连贯参考，全部前章未审事实均不可提升为正式Canon；后续Audit须复核与第278章最终版的事实兼容性。
+- dependency_boundary: Audit已实际逐字对比278原provisional Blob 9d251d7e69e7ea830e0c5688a868eb59a3ba62fb 与最终ready Blob 87f726a1bed9c2c2b5c056ab85aef8efc6617a16，全章正文完全一致、仅Front Matter的交付状态变更。279原先引用旧provisional SHA已Stage A更正为278最终ready来源；没有新增依赖事实，正文未修。
 - canon_boundary: 二〇一八年原索引在2020保护夹，2022工作复制页另袋，2006绿封薄册仍粘连不能强翻；四个可辨印刷栏目及馆内工作表性质已证，A1通用说明与A2原索引版面不同；任何实际填值行、1996旧受访者姓名或答复送达、现代机制同源未证。1996普通照明22:41及次日08:07岗位纸证和韩文舟私人后补22:41不互证；永安里6栋201住房使用关系不证具体居民、实际居住；F008仍仅王启明可靠本人记忆样本；M004/M005不得确认，F009/F010/F011保持resolved。
 - chapter_goal: 以社区一次“群管理员收到即算全部报名人已通知”的真实错位，让老赵获得有权的变更通知与实际表达机会；并在馆方新限项批准下核实2018 A2版变更记录的部分通用性质，进一步缩紧历史回告接收链的证据边界，不抢先推断旧人接到回话。
 - POV: 第三人称有限，顾永山/老赵/姚芬的社区线与罗谨/陶芹的档案线并行；收束于周衡、夏宁、梁策的第141次夜班。
@@ -30,4 +30,5 @@
 - ending: Day144 00:12交班；东门继续封闭，南侧新牌依现场核验提供方向；老赵个人意见实收但街道书面答复待办；A2合法有限变更提示已核而历史实际回告仍未证。
 - target_body_effective_chars: 2600—3400（硬限2300—3800）
 - actual_body_effective_chars: 3277
-- continuity_precheck: 已重读前章chapters/draft/0278.md，Git Blob "9d251d7e69e7ea830e0c5688a868eb59a3ba62fb"；本章从Day143 07:53接Day143 00:09交班，Day143 20:00第141次夜班自然接续。该源仅为provisional；不得作为独立审核已通过的Canon。街道现行路权/馆藏A1-A2来源均不跨越许可或证明层次。
+- continuity_precheck: 已核278最终ready Blob 87f726a1bed9c2c2b5c056ab85aef8efc6617a16及原provisional 9d251d7e69e7ea830e0c5688a868eb59a3ba62fb正文逐字一致，本章Day143 07:53接Day143 00:09交班，Day143 20:00第141次夜班自然接续；依赖改为正式已审核ready，不挪用未来未证内容。街道现行路权/馆藏A1-A2来源均不跨越许可或证明层次。
+- audit_revision_20261025: Stage A仅重绑前章ready SHA 87f726a1bed9c2c2b5c056ab85aef8efc6617a16，第279章正文未改，修后draft SHA f55fc6943302bab38c42c7e76aec2d4a938b6262、独立Reader 0/0/2及Continuity/Style/Meaningful QA PASS；需精确结构CI放行。

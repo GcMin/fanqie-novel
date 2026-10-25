@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 279
+title: "签收簿里，没有听见的人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "f55fc6943302bab38c42c7e76aec2d4a938b6262"
+original_source_sha: "03cff8acb7c36d739693506ef7ffc0a0fe471d24"
+reader_review: reader_reviews/0279_f55fc694.md
+prior_review: reader_reviews/0279_03cff8ac.md
+depends_on_chapter: 278
+depends_on_source_sha: "87f726a1bed9c2c2b5c056ab85aef8efc6617a16"
+dependency_status: verified_predecessor_body_identical_ready
+timeframe: "Day143 07:53—Day144 00:12，第141次夜班"
+summary: >-
+  Day143 07:53老赵持原纸报名回执到社区活动室发现下午旧站周边意见会换地点，原凭证承诺按登记方式通知，但他只约好纸本窗口领取；群管理员昨日收到信息，被后台批量写为六个报名人均已通知。08:22街道姚芬按原始登记查明误签并留源更正，配电室下午专业检修真实使原活动室不能办会；09:48经实际无障碍坡道、疏散与容量核验，批准一楼大厅于16:30开会，未强求楼上空屋无障碍不可达。10:17按报名人已约定方式分别真人联系或窗口供纸，没接通不算已知，老赵10:26实领新纸。16:29一楼大厅真开讨论，顾永山不代别人发言，老赵亲自要求具名固定更新责任和公开时点而非未批准的东门即刻开路；现场纠掉拟记群众一致满意，个人意见真实得受理回执，街道书面答复仍待办，未确认知晓者的意见期限顺延。罗谨10:03得知馆方保存2018索引A2非身份变更审批目录，11:37管理岗另准有限摘录，13:42双岗得A2是后来独立版面调整，接收记录线索一项通用填写提示须按馆内岗位或批次记来源、不得只凭相似标题当旧业务回告；其它栏目规则和索引任何填值行不知，1996旧来话实收答复没有证据。Day143 20:00第141夜班开始、Day144 00:12交班；南侧公众永久牌按实核继续指路，东侧工地门仍封。F003有限、F008无新可靠样本、M004/M005未证。
+meaningful_state_changes:
+  - "社区群管理员签收冒充全员已知的状态真纠正，另核备选大厅实办会议、老赵个人意见实被接收，书面回应仍为待办。"
+  - "馆方取得A2不同于A1之外的合法变更单有限通用规则：接收记录线索要留馆内来源，不等于旧受访者收到回复。"
+knowledge_updates:
+  - "公告张贴、群管理员阅读和报名人本人真正接收互不等价；未接通真人也不应记知晓，顾永山不被作为所有无障碍使用者代表。"
+  - "A2变更单仅有经批准的部分通用填写提示，不能推具体旧索引行、老受访者身份与实际回告送达。"
+foreshadowing_updates:
+  - "F003限项推进A2版面来源规则，F008无新增本人可靠记忆矛盾，M004/M005不确证。"
+relationship_updates:
+  - "老赵不替顾永山也不替缺席者认可街道安排；姚芬接受本人按登记方式联络并改正虚假签收；罗谨坚持馆方限项边界。"
+ending_state: "Day144 00:12第141次夜班交班；南侧公路永久导向设施已专业修复、东侧工地门仍封，老赵个人意见实收但固定更新责任仍待书面答复，A2通用更正合法核实而旧人收到回复未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "03cff8acb7c36d739693506ef7ffc0a0fe471d24", revised_sha: "f55fc6943302bab38c42c7e76aec2d4a938b6262", stage_a_used: 1, body_revisions: 0, predecessor_original_sha: "9d251d7e69e7ea830e0c5688a868eb59a3ba62fb", predecessor_ready_sha: "87f726a1bed9c2c2b5c056ab85aef8efc6617a16", predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3277
