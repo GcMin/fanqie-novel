@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 273
+last_updated_chapter: 274
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -580,3 +580,13 @@ chapter_273_relationships:
   archive: "罗谨依新窄许可查2022复制件不窥2018原索引私人内容，陶芹双岗重封。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "顾永山的轮椅与路况自述不能被作为机构宣传；旧索引内文与历史受访者身份仍无阅准。"
+
+chapter_274_relationships:
+  chapter: 274
+  source_sha: "a6e99b7752c79913d70d01221c651676762381b1"
+  family: "顾永山不因专业路面修好必须亲自出去，顾珊维护具名信息渠道，父女延续自主与隐私边界。"
+  citizen: "陶婶自行发现风险、未受伤并回安全侧，修路恢复后独立完成送货，不由道路岗代签货物送达。"
+  custodian: "罗谨与陶芹遵从新批实体限项，保管员双签确认纸本现存却不揭开私人业务，其他人无特殊查询权限。"
+  center: "周衡夏宁梁策继续分源并重视下一次公众路况，互信分数无新的可核变化。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "索引页旧受访人及实际回拨资料需另批，不因纸张现存开放个人内容。"

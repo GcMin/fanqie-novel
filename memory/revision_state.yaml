@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 273
+current_chapter: 274
 current_stage: ready
-current_source_path: chapters/ready/0273.md
-current_source_sha: 59a81e73b29c5bd3b1a75ba4baa2fe5e9b071274
-current_review_path: reader_reviews/0273_59a81e73.md
+current_source_path: chapters/ready/0274.md
+current_source_sha: a6e99b7752c79913d70d01221c651676762381b1
+current_review_path: reader_reviews/0274_a6e99b77.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_stageA_new_sha_reader_qa_memory_ready_candidate
+last_action: audit_reader_qa_memory_ready_candidate
 last_action_date: 2026-10-25
 last_error: null
-last_diff_summary: "第273章初审0/1/2修一处前天日期回指，修后新SHA重审0/0/2及内容QA PASS；结构CI尚需精确候选Commit验证。"
+last_diff_summary: "第274章仅重绑前章正式ready SHA，原273与ready正文逐字相同，274正文无改；新draft SHA独立Reader0/0/2、内容QA PASS；精确候选结构CI前不放行。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -529,5 +529,21 @@ combined_audit_chapter_273_20261025:
   fix_required: none
   body_revisions: 1
   predecessor_ready_blob: "f9357ef74a27561b63e3b569d35a0873c363c296"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_274_20261025:
+  chapter: 274
+  original_sha: "af39c746a806cdfef5c0b17013b7642ab1a94434"
+  dependency_rebind_only: 1
+  predecessor_provisional_sha: "59a81e73b29c5bd3b1a75ba4baa2fe5e9b071274"
+  predecessor_ready_sha: "2e6b6686fd6ccb175203d4718edfb9356bcfa7e5"
+  predecessor_body_identical: true
+  final_source_sha: "a6e99b7752c79913d70d01221c651676762381b1"
+  final_review: reader_reviews/0274_a6e99b77.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  fix_required: none
+  local_revision_used: 0
+  body_revisions: 0
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
