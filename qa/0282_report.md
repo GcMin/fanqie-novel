@@ -9,3 +9,5 @@
 - **Meaningful Change PASS**：夜间有权实时回应和具体本人安全回话；第三方在线新访客不再收到旧包而不虚报已清全部离线端；纸版D144新来源范围需要下一章按权追查；A2只获非身份通用规则，未提前揭示历史机制。
 - **长期Memory和唯一计划**：逐章追加282摘要、人物、关系、知识、世界、时间线、F003及计划唯一282行；绝不覆盖既有ready行。
 - **结构Gate**：**本报告只确认独立内容QA PASS，不声称已经执行结构校验**。必须取得含ready状态、全部Memory与计划的**精确候选Commit**对应GitHub Actions单测+`python -m publisher.check_local --repo .` SUCCESS之后，方可用`expected_sha`、`force:false`迁入main；失败保持main draft。
+
+- **并发Writer保全及结构重验要求（2026-10-26）**：审核候选原基线 `975a09ef8a0be0ee9c1893d1749f9958bb179a76` 后，Writer已在main新建第283章正文与详细章纲（`ae441cc9eeddace3abc6d797c4c59c9134face43`）。候选合并版 `91fa569c44978f3e7d258de617512e07e6fc4a95` 保留这两份Writer文件；初次CI只验证旧候选 `e9745e06469f162b07f1751f9f20031b4bf44f0b`，不能用于新树。本报告变更触发新的精确候选CI，取得新Commit实际SUCCESS才可在main放行；绝不依赖旧CI替代。
