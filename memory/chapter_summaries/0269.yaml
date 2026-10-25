@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 269
+title: "五天的开放表，少了中午"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_sha: "04fbc0ee8eb8e23bca58100bd92a4e8d8355600d"
+reader_review: "reader_reviews/0269_04fbc0ee.md"
+depends_on_chapter: 268
+depends_on_source_sha: "8b37191149581a8bf96923db962590e18044e95c"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day133 08:18—Day134 00:09，第131次夜班"
+summary: >-
+  Day133公众步道始终关闭，顾永山只求稳定公开路权。08:42施工单位递交五日每日09:00—17:00拟开计划，09:37发现每天11:40真实送货车须穿过行人硬隔离，10:21专业岗位正式退回且未发绿色公众牌。14:14第二版仅提北侧卸货拟改道，仍须移设备、核车辆转弯与人车隔离并落实司机和接货班成本；15:26空轮椅受控试路至待核危险点停止，17:12街道只受理整改路径和排Day134 10:30待执行联合复核，不构成开门许可。罗谨11:54依法受理2018迁库目录“回告”窄查，16:08仅获两类不同形成单位和年份的回告目录确实存在，没有与前章随袋附纸的同笔业务号或史实关系，铅笔作者年代、历史回拨对象与送达均未核。21:11第131次夜班中心分列两份受控回告，Day134 00:09阶段交班。F003有界推进，F008无可靠新记忆矛盾，M004/M005未确证。
+meaningful_state_changes:
+  - "五日拟开放方案因11:40货车与行人路权冲突正式退回；北侧车辆改道、移设备及实核责任链形成。"
+  - "Day134 10:30联合现场实核为未来待执行事项，Day133公众道路全天持续封闭。"
+  - "两类合法档案回告目录确存，仍未证与2018附纸同笔或历史回拨完成。"
+knowledge_updates:
+  - "图纸拟开放/空轮椅部分测试不等于正式公众路权批准与道路真开。"
+  - "目录名相近和2018铅笔注记不能证明具体个人得到回告或早年异常工单机制。"
+foreshadowing_updates:
+  - "F003仅有限目录级推进，F008无可靠新亲历反证，M004/M005未证。"
+relationship_updates:
+  - "顾永山坚持普通公众自主出行，顾珊如实反馈；屈工承担施工安全责任，司机袁桥不私摊等待成本。"
+ending_state: "Day134 00:09公众步道仍封、北侧改道待实核，两类回告目录均未与附纸核同笔。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_factual_delta: exact_ready_SHA, structural: exact_candidate_commit_CI_required}
+char_count: 2737
