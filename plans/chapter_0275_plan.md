@@ -29,5 +29,5 @@
 - forbidden_leaks: 不把Day138恢复当作Day139无条件安全，不将东门施工路改写为长期开放或南侧公众路当作新设施；不让居民提供医疗信息或被动做专业安全试验；不让馆方申请直接开放受访人、号码、具体业务号、填值行及粘连旧册，不把2018工作表认作1996当年原业务回告或现代异常系统同源。
 - ending: Day140 00:13交班，南侧在本日专业复巡范围内可使用，东门未许可，2018索引去身份结构有权核验；旧历史回告未证。
 - target_body_effective_chars: 2600—3400，硬限2300—3800
-- actual_body_effective_chars: 3292
+- actual_body_effective_chars: 2916
 - continuity_precheck: 第274章ready Blob eebecf451943ae10e8ff2fc0cf1e18d66e602d08精确匹配；Day139早班巡查不提前成真，2018纸本存在和栏目阅准分开两次独立有权决定，普通公众路与工地东门、历史馆内索引与旧来话送达均分层。尚待独立 Audit Reader/QA，不执行任何审核。
