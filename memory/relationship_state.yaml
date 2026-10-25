@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 274
+last_updated_chapter: 275
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -590,3 +590,13 @@ chapter_274_relationships:
   center: "周衡夏宁梁策继续分源并重视下一次公众路况，互信分数无新的可核变化。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "索引页旧受访人及实际回拨资料需另批，不因纸张现存开放个人内容。"
+
+chapter_275_relationships:
+  chapter: 275
+  source_sha: "fb4f7cd9dff1acd661ad6623bdc5d6f4e6000acf"
+  family: "顾永山没有替傅姨问医疗或私生活，却把可用的公开渠道告诉她，顾珊亦尊重父亲及傅姨自行选择，不借路况反馈索要个人肖像。"
+  citizen: "傅姨独自咨询、取纸、办事、反馈标牌低，街道承认个人用得懂的纸和电话才有效，不要求本人重复走险路做验证。"
+  custodian: "罗谨与陶芹/馆方之间的工作信任维持在权限内：申请过宽便收窄，两岗只核2018原索引去身份印刷栏，尊重表内未批个人信息。"
+  center: "周衡、夏宁、梁策分源记录道路实况与2018馆内索引结构，未出现主角间信任值变化。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "居民不得被要求交个人医疗/行程以证明路线使用；索引填写行和历史回拨人身份均未有利用授权。"

@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 274
-last_reviewed_title: 原页还在，回告另查
-last_source_path: chapters/draft/0274.md
-last_source_sha: a6e99b7752c79913d70d01221c651676762381b1
-last_review_path: reader_reviews/0274_a6e99b77.md
+last_reviewed_chapter: 275
+last_reviewed_title: 索引不是答复本
+last_source_path: chapters/draft/0275.md
+last_source_sha: fb4f7cd9dff1acd661ad6623bdc5d6f4e6000acf
+last_review_path: reader_reviews/0275_fb4f7cd9.md
 last_reviewed_at: "2026-10-25"
-reviewer_mode: combined_audit_independent_pass_a_then_b_on_rebound_sha
+reviewer_mode: combined_audit_independent_pass_a_then_b_on_recounted_sha
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 273
-depends_on_source_sha: 2e6b6686fd6ccb175203d4718edfb9356bcfa7e5
-dependency_status: verified_predecessor_body_identical_ready
-predecessor_current_source_sha: 2e6b6686fd6ccb175203d4718edfb9356bcfa7e5
+depends_on_chapter: 274
+depends_on_source_sha: eebecf451943ae10e8ff2fc0cf1e18d66e602d08
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: eebecf451943ae10e8ff2fc0cf1e18d66e602d08
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -887,4 +887,21 @@ combined_audit_chapter_274_20261025:
   predecessor_ready_blob: "2e6b6686fd6ccb175203d4718edfb9356bcfa7e5"
   predecessor_factual_delta: body_identical_frontmatter_only
   continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_275_20261025:
+  chapter: 275
+  title: "索引不是答复本"
+  original_source_sha: "fb2a1385962f2fac9ba48537d7a5803de13f5008"
+  revised_source_sha: "fb4f7cd9dff1acd661ad6623bdc5d6f4e6000acf"
+  original_review: reader_reviews/0275_fb2a1385.md
+  revised_review: reader_reviews/0275_fb4f7cd9.md
+  reader_initial: {blocker: 0, major: 1, minor: 2}
+  reader_final: {blocker: 0, major: 0, minor: 2}
+  fix_required: none
+  stage_a_used: 1
+  revision: "只改Front Matter char_count 3292→2916和章纲对应字段，正文零修订"
+  predecessor_ready_blob: "eebecf451943ae10e8ff2fc0cf1e18d66e602d08"
+  predecessor_factual_delta: exact_source_sha_match
+  continuity_style_meaningful_qa: pass
   structural_gate: exact_candidate_commit_CI_required

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 274
+last_updated_chapter: 275
 characters:
   zhou_heng:
     knows:
@@ -752,3 +752,10 @@ chapter_274_knowledge:
   authority: "雨后限制/复行由街道与专业养护岗位签，公路不靠老人个人试路；原纸仅馆方保管员/纸本保护员限项实核，罗谨只在观察线外收去身份结果。"
   predecessor: "第273章旧provisional Blob 59a81e73b29c5bd3b1a75ba4baa2fe5e9b071274与最终ready Blob 2e6b6686fd6ccb175203d4718edfb9356bcfa7e5正文逐字一致仅Front Matter变；第274章旧draft af39c746a806cdfef5c0b17013b7642ab1a94434重绑前章SHA与章纲后新draft a6e99b7752c79913d70d01221c651676762381b1，本次完整双遍Reader和QA只对新稿有效。"
   canon_boundary: "2018原索引真实在库不证明任何当年回告已送达，1996普通照明与韩私人补记不互证，F003有界、F008无新可靠样本、M004/M005未证。"
+
+chapter_275_knowledge:
+  confirmed: "Day139 09:52湿险段复巡正常，10:23核整条南侧现有公众路本次可用，11:07三处有日期同版告知及纸本电话实际生效；2018原索引固定印刷栏经另批双岗限项核实为原登记参照、接收记录线索、回告材料候选系列、关联核验状态，制作栏属于2018馆内关联核验表。"
+  unresolved: "后续雨后公众路况、旧站东侧新许可；2018栏位实际填写、候选回告材料如何关联九十年代业务、旧受访者身份及真实送达均未知；M004/M005未确证。"
+  authority: "傅姨自愿公开电话询问，不交药袋或行踪；真实专业路况核验和公示由街道岗位负责。罗谨10:09原宽申请退回，13:47馆方另批后双岗只核表头和制作栏，不向申请人公开私人填值或旧粘连册。"
+  predecessor: "第274章最终ready blob eebecf451943ae10e8ff2fc0cf1e18d66e602d08与275原稿/修订版Front Matter依赖完全相同，非旧draft临时依赖，无前章事实变动。275只将错误char_count 3292改为2916，正文无变，重新按fb4f7cd9独立Reader A/B。"
+  canon_boundary: "1996普通照明纸证不与韩私人后补22:41互证，2018索引四栏不等于真实旧回告已送达，F003有限新增，F008无可靠新样本、M004/M005仍未证。"
