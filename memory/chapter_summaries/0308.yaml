@@ -8,7 +8,7 @@ qa: pass
 reader_gate: pass
 original_source_sha: "4f1f6e8a70581ee94d7372a71b0f43dfa3779944"
 source_draft_sha: "4f1f6e8a70581ee94d7372a71b0f43dfa3779944"
-reader_review: "reader_reviews/0308_4f1f6e8.md"
+reader_review: "reader_reviews/0308_4f1f6e8a.md"
 ready_predecessor_blob: "30014c1573383b89e62dbac8ebeeb601526562db"
 depends_on_chapter: 307
 depends_on_source_sha: "30014c1573383b89e62dbac8ebeeb601526562db"

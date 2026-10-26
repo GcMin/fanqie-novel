@@ -2,7 +2,7 @@
 
 ## Source、Reader 与章法
 - 实际草稿：`chapters/draft/0308.md`，Git Blob `4f1f6e8a70581ee94d7372a71b0f43dfa3779944`，未修改正文，Front Matter chapter 308 / volume 6 / ARC-054 / draft / pending，源字数3030。
-- 独立Reader：`reader_reviews/0308_4f1f6e8.md`，对该精确SHA先Pass A（305—307 ready正文、298—307摘要、文风）再Pass B（Canon/ARC-054/人物知识及世界、timeline、foreshadowing），**BLOCKER 0 / MAJOR 0 / MINOR 2**。MINOR不触发自动修订，新SHA复审需求为无（正文未变）。
+- 独立Reader：`reader_reviews/0308_4f1f6e8a.md`，对该精确SHA先Pass A（305—307 ready正文、298—307摘要、文风）再Pass B（Canon/ARC-054/人物知识及世界、timeline、foreshadowing），**BLOCKER 0 / MAJOR 0 / MINOR 2**。MINOR不触发自动修订，新SHA复审需求为无（正文未变）。
 - 章标题与`plans/chapter_0308_plan.md`及计划CSV一致，标题去“第 N 章”仍至少5个非空白字符；去Front Matter Unicode非空白字符数**3030**，位于2600—3400偏好与2300—3800硬限内。
 
 ## 独立 Continuity QA：PASS

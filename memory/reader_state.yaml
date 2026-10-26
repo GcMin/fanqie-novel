@@ -3,7 +3,7 @@ last_reviewed_chapter: 308
 last_reviewed_title: 第十五张纸，没有印刷记录
 last_source_path: chapters/draft/0308.md
 last_source_sha: 4f1f6e8a70581ee94d7372a71b0f43dfa3779944
-last_review_path: reader_reviews/0308_4f1f6e8.md
+last_review_path: reader_reviews/0308_4f1f6e8a.md
 last_reviewed_at: "2026-10-27"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -1406,7 +1406,7 @@ combined_audit_chapter_308_20261027:
   title: "第十五张纸，没有印刷记录"
   source_path: chapters/draft/0308.md
   source_sha: "4f1f6e8a70581ee94d7372a71b0f43dfa3779944"
-  review_path: "reader_reviews/0308_4f1f6e8.md"
+  review_path: "reader_reviews/0308_4f1f6e8a.md"
   reviewer_mode: combined_audit_independent_pass_a_then_b
   recommendation: keep
   required_action: none
