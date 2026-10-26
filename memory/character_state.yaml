@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 301
+last_updated_chapter: 302
 characters:
   zhou_heng:
     location: "Day147 20:00，第145次夜班开班"
@@ -1077,3 +1077,15 @@ chapter_301_verified:
   bus_operator: "于树21:11合法原站靠停，自动语音错喊新站，按21:02主管令停稳人工纠正；其车Day163 11:27静态实测新包正确，不证明其它车辆已经修好。"
   main_cast_injuries: none_new
   final_location: "Day163 20:00第161次夜班，槐石路公交旧站继续有效、新站坡板未专业验收且未获迁移生效令。"
+
+chapter_302_verified:
+  chapter: 302
+  source_sha: "1c3853c63a21573eb3c1e0b8aeaadf6cd386431e"
+  timeframe: "Day163 20:17—Day164 20:00"
+  zhou_heng: "维护源证边界：坡板、路口全段和迁站生效三件分证，于树一车语音修复不代全车队。"
+  xia_ning: "Day163第161夜班按权回答牛青当前旧站继续有效；Day164 08:00交白班、20:00第162夜班接三个不同验收时点，不越岗充当日间有权专业。"
+  liang_ce: "拒让术后老人或路人冒险试验供电箱边的危险公众通路，按责任交专业验收。"
+  new_passenger: "牛青限同意转达母亲术后使用带轮助行器而需要实际连续可走路，母女真实从旧站上车去医院，但就诊结果未知。"
+  contractor_and_operator: "郑师傅不得依Day161过期拆板单或新坡板合格自行迁站，Day164 16:36通路本次复验合格亦不等于运营新令。"
+  main_cast_injuries: none_new
+  final_location: "Day164 20:00第162夜班；公交旧站仍有效新站迁移待运营正式批准。"

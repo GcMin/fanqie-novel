@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 302
+title: "坡板过关，站点仍在原处"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "7e14ce6c85c918b6d5d34cfedc67da5418aa7dab"
+source_draft_sha: "1c3853c63a21573eb3c1e0b8aeaadf6cd386431e"
+prior_review: "reader_reviews/0302_7e14ce6c.md"
+reader_review: "reader_reviews/0302_1c3853c6.md"
+depends_on_chapter: 301
+depends_on_source_sha: "362a41b4deff5a94cb71ad23dffa0b5687ba95aa"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day163 20:17—Day164 20:00，第161/162次夜班"
+summary: >-
+  Day163 20:17第161次夜班，夏宁收到次日上午新公交站坡板施工整改完成、拟专业复验通知，非站点迁移令；21:09郑师傅想按Day161即两夜前的过期撤旧单拆旧站剩余设施，中心拒越权。牛青的母亲膝盖术后用带轮助行器，错误地图显示新站，牛青只限同意转达需要可达路线，不传病历。Day164 08:00交白班，09:48坡板独立专业分项复验合格，10:06公众路口连续通路因带电临供箱及护栏阻塞未通过，围挡仍封；11:19禁止让公众由装卸车道绕入。13:26按权协调有资质供电班与道路责任人合法调整，14:55箱体保护复核完成，16:08实测全段、16:36正式获得这段通路本次专业合格记录。牛青母女从合法原站实际乘车去医院，具体就诊结果未知。运营主管仍未发新站生效令，旧站继续依法停靠，Day161提前卸下的两块旧线路板继续封存，车辆语音与第三方地图待逐端核。Day164 20:00第162夜班夏宁真实接班，不能把两份合格单推出迁站完成。白榆路另案工门仍封、雨棚卡10取6余4、普通夜间代拨公话无准；F003历史旧人实听回话及2018 A2同笔、F008新增可靠记忆样本、M004/M005仍未确证。
+meaningful_state_changes:
+  - "09:48坡板本次独立专业分项合格，10:06公众通路实际不合格；经有权协调及真实修复后16:36整个连续通路本次专业复验合格。"
+  - "牛青及母亲获得有效旧站候车信息并真正上车，未让老人担当安全试验者。"
+  - "旧站合法继续停靠，运营迁站生效令与车辆/公众多渠道告知仍需另办。"
+knowledge_updates:
+  - "夏宁和白班分别知道施工报告、坡板分项、公众连续通路、运营站点迁移必须各有对应有权证明。"
+  - "第301章只于树一车语音停驶纠正，外部缓存与车队其他车未全部核对。"
+foreshadowing_updates:
+  - "F003仍只普通当代公交路况核验，不能证明旧1996报修人真听回话或2018两册同笔、M004/M005。"
+  - "F008没有可靠新增具体本人事件记忆冲突。"
+relationship_updates:
+  - "牛青同意匿名化需求转达而非公开母亲医疗资料；郑师傅守施工与运营授权界限。"
+  - "梁策拒把路人当验收工具，主角关系信任评分无依据改变。"
+ending_state: "Day164 20:00第162夜班，坡板分项09:48合格、通路曾10:06失败后16:36本次专业通过，旧站照旧合法运营，新站正式迁移生效令仍无。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7e14ce6c85c918b6d5d34cfedc67da5418aa7dab", revised_sha: "1c3853c63a21573eb3c1e0b8aeaadf6cd386431e", stage_a_used: 1, body_revisions: 3, corrected_chars: "3083 to 3086", predecessor_ready_blob: "362a41b4deff5a94cb71ad23dffa0b5687ba95aa", predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3086

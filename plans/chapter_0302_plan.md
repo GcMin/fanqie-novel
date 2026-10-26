@@ -40,6 +40,11 @@
 - 因运营新的站点生效令尚无，旧站继续有权正常停靠，工程单位不能自行拆站，乘客确知仍旧站合法上车。
 - ending: 第162次夜班开始，三份不同结论和时点均被准确记录；未来迁站须由运营方按权限确定新生效时刻，核查车辆语音、官方与第三方传播及各类实际公众告知范围。
 - target_effective_chars: 2600—3400，hard: 2300—3800
-- actual_body_effective_chars: 3083
+- actual_body_effective_chars: 3086
 - count_method: "剥离Front Matter后移除Unicode空白，按Unicode码点计数（含标点）"
 - writer_scope: "仅创建一份新章计划和一份新章draft，不执行Editor/Reader/Revision/QA/Memory/Publish Gate及番茄发布。"
+
+## 唯一Audit审核结果（2026-10-26）
+- Writer初稿Blob `7e14ce6c85c918b6d5d34cfedc67da5418aa7dab` Reader0/2/2；Stage A唯一一轮纠Day161晚拆旧却Day163说前夜两次、白班时段夏宁问话一处，共三处字句改动，字数3083→3086。
+- 修订实际新Git Blob `1c3853c63a21573eb3c1e0b8aeaadf6cd386431e` 独立Reader Pass A/B重新0/0/2，独立Continuity/Style/Meaningful QA PASS；MINOR不强制重写。
+- 301已ready Git Blob `362a41b4deff5a94cb71ad23dffa0b5687ba95aa`与302原依赖精确匹配，无old→ready正文变更；仅精确候选CI真实SUCCESS后可main放行。

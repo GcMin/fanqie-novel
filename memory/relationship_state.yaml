@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 301
+last_updated_chapter: 302
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -834,3 +834,12 @@ chapter_301_relationships:
   center_and_bureau: "梁策与公交站务分别守外勤沟通和公交合法候车位置，夜班夏宁只认Day162有权旧站运行和21:11单车错播/人工纠正，Day163白班维修/公众回访由当班人负责，20:00晚交夏宁。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "不公布顾临实际目的站，不以顾临个人自主登车替全部公众服务合格签章，不借司机/工程员的职权宣布新站开放。"
+
+chapter_302_relationships:
+  chapter: 302
+  source_sha: "1c3853c63a21573eb3c1e0b8aeaadf6cd386431e"
+  passenger_and_staff: "牛青依自己权限限同意向专业岗位转达母亲助行器需要连续路的无身份化诉求，不准公开医嘱与姓名、就诊时间，也不让母亲充当专业试验者。"
+  contractor_and_authority: "郑师傅因调车成本催拆，但接受旧站设施等有权运营令，不借工程分项证宣布公交新站实际启用。"
+  center_and_operator: "夏宁夜间真实值守，白班及专业人员Day164上午下午履职，夜间夏宁20:00回岗；周衡与梁策不取代专业签证。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "本人真乘旧站公交不等于医院按时挂号或全体乘客已获告知，不保留乘客病历。"

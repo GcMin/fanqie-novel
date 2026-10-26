@@ -1,3 +1,7 @@
+# 第302章审核与精确结构候选（2026-10-26）
+Writer源`7e14ce6c85c918b6d5d34cfedc67da5418aa7dab`原Reader0/2/2；Stage A一轮三处限定修Day161拆板相对时间和Day164白班问话，3083→3086；新实际源SHA`1c3853c63a21573eb3c1e0b8aeaadf6cd386431e`重新独立Reader Pass A/B0/0/2，独立Continuity/Style/Meaningful QA PASS。301依赖ready SHA `362a41b4deff5a94cb71ad23dffa0b5687ba95aa`精确相同；Day164坡板09:48单项合格，公众连续路10:06失败整改后16:36合格，新站运营迁移尚无生效令，旧站合法继续。详见qa/0302_report.md。
+**候选不是main放行**：仅在精确Git Commit的GitHub Actions单测、`python -m publisher.check_local --repo .`均真实SUCCESS后，才可`expected_sha`/非强制更新main。
+
 # 第295章审核候选（2026-10-26）
 Writer草稿Blob `4210c954bf37c4e15b04e68db8ded7ec5cf9d657`，正文2935有效字，前章294 ready `1fe056f8610ee99f13681c7b705b3ce053c25e0d`精确匹配。独立Reader Pass A/B：0 BLOCKER、0 MAJOR、2 MINOR，keep/none，正文零修；独立Continuity/Style/Meaningful QA PASS。两份有权书面答复仅明确2022待补合法可比对材料类别及2019馆内整理号不能当1996/2006共同原业务号；第三项只是专业评估、1996真人收讯与M004/M005仍未证。雨棚原10卡实取六余四，夜间普通代拨和公话未续批，东工门封。新295摘要、关系、人物、知识、世界、时间线和F003均已纳入候选，现仍须**候选精确Git Commit结构CI SUCCESS**才能合入main ready；详见qa/0295_report.md。
 
