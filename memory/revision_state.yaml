@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 297
+current_chapter: 299
 current_stage: structural_gate_pending
-current_source_path: chapters/draft/0297.md
-current_source_sha: 9eefff278145ed36ea44e37aea00369dad010c93
-current_review_path: reader_reviews/0297_9eefff27.md
+current_source_path: chapters/draft/0299.md
+current_source_sha: 2c64bc22855038b7a7545e4495caeef0d060f1c6
+current_review_path: reader_reviews/0299_2c64bc22.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_295_reader_A_B_QA_memory_ready_candidate
+last_action: audit_298_299_reader_revision_qa_memory_ready_candidate
 last_action_date: 2026-10-26
 last_error: null
-last_diff_summary: "295原稿Reader0/0/2无需修订；正文零变化、前章294依赖精确匹配；独立QA内容PASS，需候选精确Commit结构CI"
+last_diff_summary: "298 Reader0/0/2不修正文；299 Reader0/2/2经StageA仅修前章正式ready SHA和Day162清晨末句，3222字新SHA Reader0/0/2；两章内容QA PASS待精确候选CI"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -880,6 +880,34 @@ chapter_297_revision_20261026:
   metadata_revisions: 3
   correction: "明确同一范先生下午已领一件/灰外套退款/裙子他本人延期，绑定296最终ready真实SHA并检查Day157/Day158正文事实差异；3014→3040。"
   predecessor_ready_blob: "3d6dd72155889f1d665e82cd50b9f97996a5f5a5"
+  predecessor_factual_delta_checked: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_298_revision_20261026:
+  original_sha: "26ec2553f8a1082e758f1833251203fa5427060d"
+  final_sha: "26ec2553f8a1082e758f1833251203fa5427060d"
+  final_review: reader_reviews/0298_26ec2553.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "d778fb674ac1c7ac1f970570cfb349319164406f"
+  predecessor_exact_ready: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_299_revision_20261026:
+  original_source_sha: "75098f0e61839f772686bfaf4bd27b808fada282"
+  final_source_sha: "2c64bc22855038b7a7545e4495caeef0d060f1c6"
+  original_review: reader_reviews/0299_75098f0e.md
+  final_review: reader_reviews/0299_2c64bc22.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  metadata_revisions: 3
+  correction: "旧298 provisional SHA重绑最终ready（两版本正文完全相同）并纠Day162清晨已知首班旧站后原稿明早错指，校验字数3210→3222。"
+  predecessor_ready_blob: "54aac6e7922ab4980ce06cf4b3f3c80d28805eaa"
   predecessor_factual_delta_checked: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 297
-last_reviewed_title: 两件衣服还在封门里面
-last_source_path: chapters/draft/0297.md
-last_source_sha: 9eefff278145ed36ea44e37aea00369dad010c93
-last_review_path: reader_reviews/0297_9eefff27.md
+last_reviewed_chapter: 299
+last_reviewed_title: 末班车到站前，站牌先下班了
+last_source_path: chapters/draft/0299.md
+last_source_sha: 2c64bc22855038b7a7545e4495caeef0d060f1c6
+last_review_path: reader_reviews/0299_2c64bc22.md
 last_reviewed_at: "2026-10-26"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 296
-depends_on_source_sha: 3d6dd72155889f1d665e82cd50b9f97996a5f5a5
-dependency_status: verified_predecessor_factual_delta_compatible
-predecessor_current_source_sha: 3d6dd72155889f1d665e82cd50b9f97996a5f5a5
+depends_on_chapter: 298
+depends_on_source_sha: 54aac6e7922ab4980ce06cf4b3f3c80d28805eaa
+dependency_status: verified_predecessor_metadata_only_rebound
+predecessor_current_source_sha: 54aac6e7922ab4980ce06cf4b3f3c80d28805eaa
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1232,5 +1232,34 @@ combined_audit_chapter_297_20261026:
   predecessor_old_provisional: "3042fa0cb97618a6ab841368e984c0af2779af10"
   predecessor_ready_sha: "3d6dd72155889f1d665e82cd50b9f97996a5f5a5"
   predecessor_factual_delta: "Day157照明实际完成→Day158 20:03错误通行推送，一处真实正文变动对297后续事实兼容。"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_298_20261026:
+  chapter: 298
+  title: "取回外套那天，通道才算打开"
+  original_source_sha: "26ec2553f8a1082e758f1833251203fa5427060d"
+  final_source_sha: "26ec2553f8a1082e758f1833251203fa5427060d"
+  review_path: reader_reviews/0298_26ec2553.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  revision: "无正文修改，前章297最终ready Blob精确匹配。"
+  predecessor_ready_sha: "d778fb674ac1c7ac1f970570cfb349319164406f"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_299_20261026:
+  chapter: 299
+  title: "末班车到站前，站牌先下班了"
+  original_source_sha: "75098f0e61839f772686bfaf4bd27b808fada282"
+  original_review: reader_reviews/0299_75098f0e.md
+  original_counts: {blocker: 0, major: 2, minor: 2}
+  final_source_sha: "2c64bc22855038b7a7545e4495caeef0d060f1c6"
+  final_review: reader_reviews/0299_2c64bc22.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  revision: "Stage A只修298 ready依赖和Day162清晨已签首班旧站指令对应的末句；3210→3222字。"
+  predecessor_old_provisional: "26ec2553f8a1082e758f1833251203fa5427060d"
+  predecessor_ready_sha: "54aac6e7922ab4980ce06cf4b3f3c80d28805eaa"
+  predecessor_factual_delta: "正文逐字相同，仅前章298交付Front Matter改变。"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

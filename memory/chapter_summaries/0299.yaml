@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 299
+title: "末班车到站前，站牌先下班了"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "75098f0e61839f772686bfaf4bd27b808fada282"
+source_draft_sha: "2c64bc22855038b7a7545e4495caeef0d060f1c6"
+reader_review: "reader_reviews/0299_2c64bc22.md"
+prior_review: "reader_reviews/0299_75098f0e.md"
+depends_on_chapter: 298
+depends_on_source_sha: "54aac6e7922ab4980ce06cf4b3f3c80d28805eaa"
+dependency_status: verified_predecessor_metadata_only_rebound
+timeframe: "Day161 20:09—Day162 05:12，第159次夜班"
+summary: >-
+  Day161 20:09槐石路西口六十二路站牌提早拆除，施工郑师傅持一张21:00前撤旧作业单，电子屏已误切新站且蓝箭头指向正在施工的天桥，黎翠英、郭姨与一学生仍等待末班。夏宁周衡把工人话与运营批准分开，梁策先护住有限合法候车区和道路风险。20:21调度仅知计划，20:37运营主管查正式原计划是Day162 05:30附新站设施、安全路线、告知条件才迁移；公交司机宋钧纸质行车单仍有旧站、车载屏已误切新站。20:53主管真实发布本夜旧站末班合法停靠命令，司机复诵执行，现场有限挂牌告知，21:16末班真在旧站停、三名具体乘客全部真正登车，本人和司机分源确认而不夸所有乘客。22:02拆旧只中止、两块旧线路板随车封存，新蓝箭头经有责岗位确认撤误导，电子屏仅点核不推全域修复。Day162 05:12新站验收发现雨后坡板翘边，主管正式延后原拟05:30的附条件迁移并通知在途首班继续合法旧站；新站何时真正启用另待专业复核。Day161第159夜班至次晨仍在班，东南街第298章合法有限复开已完成不倒退，白榆路旧站工门仍封、雨棚卡十放六取余四、普通夜间代拨公话仍无新准。F003历史1996旧人真的听到回告和2018/2019/2022旧资料之间真实同笔关系无新证，F008、M004/M005均未确认。
+meaningful_state_changes:
+  - "运营纠正把拆旧工程工单当作新站即时生效的错误，依法末班原站停靠并确认三名实际登车。"
+  - "Day162 05:12实核坡板危险，附条件05:30新站迁移正式延期；首班继续旧站合法停靠，新站待复核。"
+knowledge_updates:
+  - "公交撤旧作业、对外站点生效、司机指令、乘客实际登车属于不同可核实来源。"
+  - "前章298原draft到ready正文未变，只重绑精确ready Blob；夜间第159次班未变。"
+foreshadowing_updates:
+  - "F003/F008/M004/M005无新可靠历史证据；公交站牌普通状态错位不是旧机制证据。"
+relationship_updates:
+  - "黎翠英明确只代表自己与所见同车乘客，司机宋钧遵从有权运营指令，梁策守公众安全，夏宁保不同来源而不索个人住址。"
+ending_state: "Day162 05:12后第159夜班尚在，Day161末班三人真上车、今晨首班依法仍停旧站，拟05:30新站迁移不生效、坡板维修与再验收待办。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "75098f0e61839f772686bfaf4bd27b808fada282", final_draft_sha: "2c64bc22855038b7a7545e4495caeef0d060f1c6", stage_a_used: 1, body_revisions: 1, metadata_revisions: 3, predecessor_body_change_verified: false, dependency_metadata_rebound: true, corrected_chars: "3210 to 3222"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3222

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 297
+last_updated_chapter: 299
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -802,3 +802,19 @@ chapter_297_relationships:
   center_and_property: "梁策拒以顾客同意代电气安全许可，夏宁周衡不拿未知损害替商户签证；费嵘按实际范围提供不可进入记录不判赔。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "不把商户收据金额/顾客电话地址送公共工单，不以退款证明灰外套已物理取回。"
+
+chapter_298_relationships:
+  chapter: 298
+  source_sha: "26ec2553f8a1082e758f1833251203fa5427060d"
+  merchant_customer: "林叶坚持原服务退款与实物归属分离；范先生在合法通道重新开放后亲签领取未完工灰外套，裙子由双方再约完成时间，不借物业公示代签商业交付。"
+  center_and_property: "费嵘只按物业有权范围记通行恢复的15:16实际时点，中心夏宁、周衡和梁策分专业电气、实地通路、民事经营三类证据。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不复制范先生个人交易本、电话、付款明细至公众通行记录，不替所有商户签已复业。"
+
+chapter_299_relationships:
+  chapter: 299
+  source_sha: "2c64bc22855038b7a7545e4495caeef0d060f1c6"
+  passenger_and_operator: "黎翠英不接受施工人员猜测新站已生效，司机宋钧索有权正式旧站停靠指令并真执行；郭姨与学生只代表自身当夜真实乘车。"
+  center_and_contractor: "梁策要求暂缓对候车区风险的拆除，夏宁追司机真实终端与公示误发，施工郑师傅并非有权决定站点运营的人。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "黎翠英本人电话有限确认上车，不索真实住址/身份证或将三人送达扩充为全体乘客。"

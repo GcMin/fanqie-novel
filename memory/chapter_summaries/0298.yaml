@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 298
+title: "取回外套那天，通道才算打开"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "26ec2553f8a1082e758f1833251203fa5427060d"
+source_draft_sha: "26ec2553f8a1082e758f1833251203fa5427060d"
+reader_review: "reader_reviews/0298_26ec2553.md"
+depends_on_chapter: 297
+depends_on_source_sha: "d778fb674ac1c7ac1f970570cfb349319164406f"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day160 20:18—Day161 20:00，第158/159次夜班"
+summary: >-
+  Day160 20:18东南街工作室林叶仍不得进入，21:26持证维修仅确认受潮连接件换完而线槽潮湿、白班需正式电气测试，费嵘未擅放人。Day161 08:14专业检修、09:57绝缘与接地/保护装置检查符合本次恢复条件并按程序复电，仍须独立查公众过道；10:43两辆推车/周转箱阻路，11:21施工班清完障碍、13:08专业固定翘起的电缆盖板，门禁管理双人授权解除旧禁入设置并按真实开闭逃生方向测试，15:16相关责任人按权限签明东普通通道有范围和起始时点地复开，网页和现场双重真核。林叶合法重回原工作室只目视检查两件衣物、不冒称全部无损。范先生本人取回已退款取消未完成服务的原灰外套、核口袋且签明返物时间，未完袖口不算裁衣完成；未装拉链的裙子经他本人同意重新约时继续完成，仍未实交。Day160做好的旧夹克曾被他用于妹妹合影，但具体合影时分不擅证。物业不把一处通道复开写所有商户营业恢复，也不复制私单金额；Day161 18:40中心分源收电气与公众复开、商户实际返物，20:00第159夜班，新来话另案。白榆路旧站施工东门仍封、雨棚十卡六取余四、普通夜间代拨公话无新准；2018 A2暂不对应、2019仅馆内流转、2022后续状态评估待批、1996旧报修人真人获答、F008与M004/M005无新证。
+meaningful_state_changes:
+  - "Day161 15:16东南街东过道经独立电气测试/现场清障/门禁有权核验后真实有范围复开。"
+  - "林叶实际合法重返工作间，范先生亲自取回原灰外套且旧服务退款取消仍有效；裙子自愿延期未交付。"
+knowledge_updates:
+  - "电气复电、公共过道可行、门禁放行和经营恢复各须自己的有权确认。"
+  - "私人退款与原物返还、服务是否完成分开记录，未对屋内物损作无证保证。"
+foreshadowing_updates:
+  - "F003仅沿用历史旧档未证边界；F008无新可靠矛盾，M004/M005仍无结论。"
+relationship_updates:
+  - "林叶和范先生在合法进入后真实返物而不倒填服务完工，物业费嵘遵守通行与商户经营分责。"
+ending_state: "Day161 20:00第159次夜班已开；东南街东过道自15:16有限获权复开、灰外套真返、裙子未交，白榆路旧站施工东门仍封；新普通电话待处理。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "26ec2553f8a1082e758f1833251203fa5427060d", final_draft_sha: "26ec2553f8a1082e758f1833251203fa5427060d", stage_a_used: 0, body_revisions: 0, predecessor_body_change_verified: false, dependency_metadata_rebound: false}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3183
