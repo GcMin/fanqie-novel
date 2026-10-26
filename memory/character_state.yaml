@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 292
+last_updated_chapter: 294
 characters:
   zhou_heng:
     location: "Day147 20:00，第145次夜班开班"
@@ -978,3 +978,24 @@ chapter_292_verified:
   street: "蔡敏按Day154原17:19公开流水查BY-LT-671208，禁止小唐因六位尾号打开受限事项；主管09:12仅批准本窗口新式凭据编号置中、原纸有效。"
   main_cast_injuries: none_new
   final_location: "Day155 20:00第153夜班，灯11:28白天手测19:14自动实核19:29有责局部撤警，旧东工门封，雨棚卡余4且夜间普通代拨/公话未获新准。"
+
+chapter_293_verified:
+  chapter: 293
+  source_sha: "7b5a647a61c741297cdb773f844a3b3cbb4e5d22"
+  timeframe: "Day155 20:12—Day156 20:00"
+  zhou_heng: "把旧人本人是否实收的问题换成合法2018 A2一行去身份状态，知道拟比对但暂不对应，不推旧人接电话。"
+  xia_ning: "挡馆方假设进入结果栏，按许可摘记更新2018有限整理结论。"
+  liang_ce: "保留「暂不对应」的暂字，后续只问目录有无状态变更。"
+  custodian: "罗谨限项阅2018 A2一行并当场纠摘记漏字，未取原号/身份。"
+  main_cast_injuries: none_new
+  final_location: "Day156 20:00第154夜班，中心得新有限合法实填状态。"
+chapter_294_verified:
+  chapter: 294
+  source_sha: "b907c28a4739b0af4a1ca57b3e1b19a5079916ea"
+  timeframe: "Day156 20:29—Day157 20:00"
+  zhou_heng: "区分2022工作复制件保管已接收和原历史业务是否已有后续核验。"
+  xia_ning: "分2018暂不对应、2022副本材料保管、Day157今天新申请受理三类。"
+  liang_ce: "查岗位与许可范围，不越权推旧报修人身份或已听答复。"
+  custodian: "罗谨获限项查2022复制件，13:46新岗位实收两项申请，一项待专业许可。"
+  main_cast_injuries: none_new
+  final_location: "Day157 20:00第155夜班，2018原件仍在保护夹、2022副本另袋。"

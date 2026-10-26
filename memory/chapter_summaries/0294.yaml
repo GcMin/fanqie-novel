@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 294
+title: "移交清单上的空椅子"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "e1531ae5a62192cbcd5fd78125cda2981a928d58"
+source_draft_sha: "b907c28a4739b0af4a1ca57b3e1b19a5079916ea"
+prior_review: reader_reviews/0294_e1531ae5.md
+reader_review: reader_reviews/0294_b907c28a.md
+depends_on_chapter: 293
+depends_on_source_sha: "920a7eec93447c024f1b350cb543e1a7e3d8c855"
+dependency_status: verified_predecessor_body_identical_ready
+timeframe: "Day156 20:29—Day157 20:00，第154/155次夜班"
+summary: >-
+  Day156 20:29周衡已依法知道293真阅的2018 A2「拟比对/暂不对应」，仅问2022另袋工作复制件是否合法可查后续。Day157 08:58罗谨申请；09:47馆方只做保护评估，11:03主管另批2022复制页部分去身份来源/用途/流转/岗位类别阅览，11:22罗谨实际阅「来源2018年11月A2」「复制用途未结事项流转核对」「保管移交已接收」，但可见「业务后续结果」未填、简记「待补合法可比对来源；交接后续另核」，个人、原号、附件及相邻行均遮挡，2018原纸继续在保护夹。旧站资料核对岗已调岗，13:46现行资料利用与保管衔接窗口只实收两项极窄查询，一项待专业评估，无业务核实结论。16:27中心按2018既有暂不对应、2022保管已收但结果空、Day157新申请仅收件分源。Day157 20:00第155夜班，四张余卡、普通夜间代拨及公共电话无新权、东侧施工门封。F003有界续查，F008/M004/M005无新证明。
+meaningful_state_changes:
+  - "合法限项实见2022工作复制件未结流转用途、保管已收及业务后续结果在可见栏空白。"
+  - "核清现行岗位并递交两项新窄申请，只证收件不冒充业务回复。"
+knowledge_updates:
+  - "中心和罗谨知道2022副本保管接收不等于2018结论更改，1996旧个人收讯和同一业务号仍未证。"
+foreshadowing_updates:
+  - "F003再取得2022限定来源证，不能证旧业务同笔、旧人真回告及M004/M005；F008无新可靠样本。"
+relationship_updates:
+  - "罗谨尊重新岗位与分级审批，周衡夏宁梁策守证据边界，主角互信分数不变。"
+ending_state: "Day157 20:00第155夜班，2022保管已收与业务核对未证分开，新申请仅收件等待。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "e1531ae5a62192cbcd5fd78125cda2981a928d58", revised_sha: "b907c28a4739b0af4a1ca57b3e1b19a5079916ea", stage_a_used: 1, body_revisions: 2, predecessor_ready_rebind: true, predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_body_identical: true, structural: exact_candidate_commit_CI_required}
+char_count: 3254

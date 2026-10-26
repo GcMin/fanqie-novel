@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 293
+title: "有人把待核写了两遍"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "7b5a647a61c741297cdb773f844a3b3cbb4e5d22"
+reader_review: reader_reviews/0293_7b5a647a.md
+depends_on_chapter: 292
+depends_on_source_sha: "7e7f141525bc6a2c092eed274937258945181033"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day155 20:12—Day156 20:00，第153/154次夜班"
+summary: >-
+  Day155 20:12周衡从1996普通照明旧纸岗位收讫而不是报修人本人收讯出发，放弃无权限旧人身份查询，拟申请2018年A2一条去身份「关联方向/状态/形成时点」。23时罗谨仅确认拟申请。Day156 09:46馆方只收件评估，11:43批准遮挡阅一行，14:07—14:34罗谨合法实见2018年11月「拟比对」「暂不对应」「缺共同原业务标识」，现场更正漏写「暂」，不开放原号个人及附件。16:20中心将1996普通照明岗位收文、2006旧站意见回拨接收册和2018整理索引分开，不能推两者同笔或旧报修人亲获答。20:00第154夜班，后续是否有状态变更只列另次查询。叶枝Day155 19:14照明专业自动复测/19:29局部撤警已完成，卡十放六取余四、东施工门封、普通夜间代拨及公话无新批。F003有限进展，F008无新本人可靠记忆冲突，M004/M005无证。
+meaningful_state_changes:
+  - "另获馆方批准亲见2018 A2原索引一条真实去身份比对状态，准确保留暂不对应而不是完成同源确认。"
+  - "把是否有后来状态变更目录限定为待合法新申请，不打开身份页。"
+knowledge_updates:
+  - "周衡夏宁梁策罗谨知道2018工作人员曾拟比对1996/2006两类，但当时缺共同原业务标识；不证1996旧人实收。"
+foreshadowing_updates:
+  - "F003只加2018实际限项整理状态，F008无新可靠本人事件记忆样本、M004/M005未确认。"
+relationship_updates:
+  - "夏宁挡假设进入结果，梁策维护暂字，罗谨遵守馆方权限，职业互信数值无新证改变。"
+ending_state: "Day156 20:00第154夜班，2018暂不对应有据可引，后续变更目录未获批查。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7b5a647a61c741297cdb773f844a3b3cbb4e5d22", final_draft_sha: "7b5a647a61c741297cdb773f844a3b3cbb4e5d22", body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_exact_ready: true, structural: exact_candidate_commit_CI_required}
+char_count: 3478

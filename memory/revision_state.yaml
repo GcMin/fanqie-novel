@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 292
+current_chapter: 294
 current_stage: structural_gate_pending
-current_source_path: chapters/draft/0292.md
-current_source_sha: 3ef155649dc57cba0b1a2f79f21ad68afc132ed9
-current_review_path: reader_reviews/0292_3ef15564.md
+current_source_path: chapters/draft/0294.md
+current_source_sha: b907c28a4739b0af4a1ca57b3e1b19a5079916ea
+current_review_path: reader_reviews/0294_b907c28a.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_292_review_revision_rereview_QA_memory_ready_candidate
+last_action: audit_293_294_review_revision_rereview_QA_memory_ready_candidate
 last_action_date: 2026-10-26
 last_error: null
-last_diff_summary: "292初审0/2/2，Stage A仅补叶枝同意拍残纸及跨岗位交接来源一处，原字数误标2736修后3143，并核291前稿到ready两处实际凌晨时间纠错而重绑最终SHA；新稿SHA独立Reader0/0/2、内容QA通过，待精确结构CI"
+last_diff_summary: "293原稿0/0/2无需修；294初审0/2/2、Stage A只纠去年与两天前两处时间、重绑293最终ready；新SHA独立Reader0/0/2、两章内容QA PASS、精确结构CI待验"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -815,5 +815,28 @@ chapter_292_revision:
   correction: "叶枝同意拍残纸号与断口不拍人脸并随当晚安全记录交白班和中心，按normalized纠真实修后3143，前章291两处正文纠时逐条核兼容重绑final ready"
   predecessor_ready_blob: "55edc9365717b94f7babbef93d3ecfdbd777133f"
   predecessor_factual_delta_checked: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_293_revision_20261026:
+  source_original: "7b5a647a61c741297cdb773f844a3b3cbb4e5d22"
+  source_final_draft: "7b5a647a61c741297cdb773f844a3b3cbb4e5d22"
+  final_review: reader_reviews/0293_7b5a647a.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_294_revision_20261026:
+  source_original: "e1531ae5a62192cbcd5fd78125cda2981a928d58"
+  source_final_draft: "b907c28a4739b0af4a1ca57b3e1b19a5079916ea"
+  initial_review: reader_reviews/0294_e1531ae5.md
+  final_review: reader_reviews/0294_b907c28a.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 2
+  predecessor_ready_blob: "920a7eec93447c024f1b350cb543e1a7e3d8c855"
+  predecessor_body_identical: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

@@ -1,3 +1,6 @@
+# 第293—294章候选审查（2026-10-26）
+293原稿7b5a647a61c741297cdb773f844a3b3cbb4e5d22 Reader0/0/2、无正文修订、独立Continuity/Style/Meaningful PASS，前章292最终ready 7e7f141525bc6a2c092eed274937258945181033精确匹配，3478有效字。294原稿e1531ae5a62192cbcd5fd78125cda2981a928d58 Reader0/2/2，Stage A只纠两处相对时间与前章293依赖，修订稿b907c28a4739b0af4a1ca57b3e1b19a5079916ea新独立Reader0/0/2、内容QA PASS，3254有效字。293 draft至ready正文逐字一致，新293 ready 920a7eec93447c024f1b350cb543e1a7e3d8c855与294新依赖绑定；2022保管收件不证旧业务完成。只有匹配准确候选Git commit的CI实际SUCCESS后，才可放行main，详见qa/0293_report.md及qa/0294_report.md。
+
 # 第283章独立审核与结构候选状态（2026-10-26）
 - 原稿`127105f10506b7cde41ce8779b593613cd1f829e` Reader0/1/2，Stage A一次只修前章282原provisional依赖与详细章纲；经全文逐字核对282旧draft c065ca71与最终ready cc0b4d27正文完全一致，本章正文零修改。
 - 新283 SHA `6ab854c5f5ffdeab4898fabec4221a9c213e84de` 独立Reader Pass A/B=0/0/2，Continuity/Style/Meaningful QA PASS，正文3295字；64张D144折页现存实撤20+本人另交1、余43未知，F003有界且M004/M005未证。
