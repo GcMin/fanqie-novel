@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 300
+last_updated_chapter: 301
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -826,3 +826,11 @@ chapter_300_relationships:
   center_and_operator: "夏宁仅负责当时05时夜班追问与20时新夜班交接；白班负责09:54后实际纠错结果和16:18本人回告，梁策不越道路专业职权。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "不要求孟岚提交工牌/个人雇主考勤，不把单人真实登车外推所有乘客已获知更正。"
+
+chapter_301_relationships:
+  chapter: 301
+  source_sha: "620d246decb3e1ed7d819affc043f3178ebe69ba"
+  passenger_and_operator: "顾临明确要求真实站位口述并自主决定乘车、拒陌生人未征同意扶助，车内自动错报新站后于树按主管许可在停稳时人工真告，他本人实际登车；日后顾临不愿中心把本人反馈扩写成所有视障市民获得无障碍服务。"
+  center_and_bureau: "梁策与公交站务分别守外勤沟通和公交合法候车位置，夜班夏宁只认Day162有权旧站运行和21:11单车错播/人工纠正，Day163白班维修/公众回访由当班人负责，20:00晚交夏宁。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不公布顾临实际目的站，不以顾临个人自主登车替全部公众服务合格签章，不借司机/工程员的职权宣布新站开放。"

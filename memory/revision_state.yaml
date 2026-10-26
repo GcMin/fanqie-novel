@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 300
+current_chapter: 301
 current_stage: structural_gate_pending
-current_source_path: chapters/draft/0300.md
-current_source_sha: 0db51073b9f333b4f95fa9b588ebd731bdb5be7b
-current_review_path: reader_reviews/0300_0db51073.md
+current_source_path: chapters/draft/0301.md
+current_source_sha: 620d246decb3e1ed7d819affc043f3178ebe69ba
+current_review_path: reader_reviews/0301_620d246d.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_300_reader_revision_qa_memory_ready_candidate
+last_action: audit_301_reader_revision_qa_memory_ready_candidate
 last_action_date: 2026-10-26
 last_error: null
-last_diff_summary: "第300章Reader0/1/2，StageA修白班值守归属2处，3122字新SHA Reader0/0/2；QA PASS待精确候选CI"
+last_diff_summary: "第301章Reader0/2/2，StageA两处Day163傍晚白班人员修正且重绑前章ready；3069字新SHA Reader0/0/2；QA PASS待精确候选CI"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -924,6 +924,23 @@ chapter_300_revision_20261026:
   metadata_revisions: 1
   correction: "08:00已交白班而09:54后和16:18错误仍由夏宁执行，改为在岗白班值守员，3139→3122。"
   predecessor_ready_blob: "b6bfa09596aa7f03d144baae118b3ccb9a08d1c8"
+  predecessor_factual_delta_checked: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_301_revision_20261026:
+  original_source_sha: "5d8d3b9fe959f7fd3c6355f12721d5b3c9294eb4"
+  final_source_sha: "620d246decb3e1ed7d819affc043f3178ebe69ba"
+  original_review: reader_reviews/0301_5d8d3b9f.md
+  final_review: reader_reviews/0301_620d246d.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 2
+  metadata_revisions: 3
+  correction: "重新精确绑定300最终ready SHA并证实原300到ready仅两处真实白班岗位正文差异、301依赖事实兼容；Day163傍晚两处夏宁越班改白班值守员，3063修3069。"
+  predecessor_original_sha: "b309b038f6e1f711b8df8c1f7ecdc1579920e729"
+  predecessor_ready_sha: "b5b69fc12517c7515a605c7a776be95fa958f6b3"
   predecessor_factual_delta_checked: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

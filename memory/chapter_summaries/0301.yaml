@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 301
+title: "报站声比车早到了一站"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "5d8d3b9fe959f7fd3c6355f12721d5b3c9294eb4"
+source_draft_sha: "620d246decb3e1ed7d819affc043f3178ebe69ba"
+prior_review: "reader_reviews/0301_5d8d3b9f.md"
+reader_review: "reader_reviews/0301_620d246d.md"
+depends_on_chapter: 300
+depends_on_source_sha: "b5b69fc12517c7515a605c7a776be95fa958f6b3"
+dependency_status: verified_predecessor_factual_delta_compatible
+timeframe: "Day162 20:24—Day163 20:00，第160/161次夜班"
+summary: >-
+  Day162 20:24弱视乘客顾临在槐石路西口合法旧站持手杖确认位置，手机仍朗读第三方旧缓存“新站已启用”，旧站两块线路板先前撤下而仅有其难读的纸公告；夏宁在第160夜班按Day162 05:12新站正式延期、09:54官方纠源/16:18第三方仍旧的真实交班确认原站合法。20:43梁策到场尊重顾临自主行走，20:51站务按权核有效候车位，旧站边角压条局部设限。21:02主管正式要求司机在合法原站停稳后如有自动语音错报须人工真告而非行驶中改设备；21:11于树六十二路实际在旧站开门却自动播报“新站到了”，停稳后人工纠正，顾临自主真上车、本人与司机站务分源记录。21:40当车日志核前日下午预置新站离线语音包而合法路线调度已更新；其它车错否未知。22:13旧站边角临措实核而非全无障碍验收。Day163 08:36日间运营区别前日官方源纠与本车离线语音，按权启动逐车核，10:42于树车回场留旧版并合法装新包，11:27本车停驶静态实测正确，12:56其余车仍有未回场者，15:17有权站务改非视觉告知渠道和实际服务时段。顾临傍晚亲向白班自述已抵目的站却拒以自己代全线验收；20:00第161次夜班开，夏宁真实接班。原槐石路旧站持续有效、新站坡板虽施工报完但无专业验收/新迁移令，第三方旧缓存及其他车辆版本待核。白榆路另案旧站工门封、查询卡十张已领取六张、余四张、夜间普通代拨与公话未获常态许可；F003旧本人真正回话、F008新样本、M004/M005未证。
+meaningful_state_changes:
+  - "一辆合法旧站停靠的六十二路实际自动误播新站，于树停稳后有权人工改告，顾临本人自行真正登车。"
+  - "本车离线旧包查明并在Day163 11:27停驶状态静态纠正；其余车逐车核，不把一车修好外推全部。"
+  - "旧站有范围补非视觉渠道与有时段咨询，原新站坡板仍未通过专业运营迁移验收。"
+knowledge_updates:
+  - "主管已下达停靠指令与车载离线语音实装不同；本车实声/日志/停驶实测/其它车辆待核不能互相代证。"
+  - "顾临实际登车及本人次日自述到站只证本人有限事实，不代全部视障乘客或公共无障碍设施完成验收。"
+foreshadowing_updates:
+  - "周衡只做1996岗位收讫与今人实听的证据类比，不能据现代公交语音错告确认旧历史本人听答、旧两册同笔或M004/M005。"
+relationship_updates:
+  - "顾临坚守自主决定是否上车/是否公开行程，梁策与站务照程序给位置信息，白班与夏宁分时履职而不强求体验证明。"
+ending_state: "Day163 20:00第161夜班，旧公交站仍合法有效，顾临真登车、本车语音已静态修正，其余车与第三方缓存待逐项核，新站未验收且未迁。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "5d8d3b9fe959f7fd3c6355f12721d5b3c9294eb4", revised_sha: "620d246decb3e1ed7d819affc043f3178ebe69ba", stage_a_used: 1, body_revisions: 2, metadata_revisions: 2, corrected_chars: "3063 to 3069", predecessor_original_sha: "b309b038f6e1f711b8df8c1f7ecdc1579920e729", predecessor_ready_sha: "b5b69fc12517c7515a605c7a776be95fa958f6b3", predecessor_factual_delta_checked: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3069
