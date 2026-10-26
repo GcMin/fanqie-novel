@@ -28,5 +28,7 @@
 - forbidden_leaks: "不把许禾前章03:24收到临时绕行写成11:13的修复回讯；不倒填她在Day153已知；不把已修复物件写成永久全路许可或东工门开放；不擅装电话、不代全天审批、不要求本人交隐私、不读取2018 A2受保护原索引实填/1996具体报修人的回告证据。"
 - ending: "Day154 20:00，第152夜班；报险与转报对象分离、本人实际获后续回讯为有源新增事实，夜间普通代拨和公共电话均未正式获批；四张查询卡仍在盒中。"
 - target_body_effective_chars: "2600—3400（hard:2300—3800）"
-- actual_body_effective_chars: 3299
+- actual_body_effective_chars: 3738
 - continuity_precheck: "基于main 534d62daf50ea55a3a0c47bb5ff3d9301545bd64，实读AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md，premise/main_outline/world/style、三人物卡、当前卷可得大纲与ARC文件，计划表、memory/current_arc/角色/知识/关系/世界/伏笔/时间线，最近十章0281—0290 QA正式摘要及五章0286—0290 ready全文。检查published中0153存在、draft无数字章、ready最大0290且291正文/章纲均未在主树出现。未读取reader_reviews，不执行Reader/Revision/QA/Memory/Publish Gate。"
+
+- audit_result_2026_10_26: "Stage A纠同日凌晨时间词2处并按normalized准确计3738字；原draft 8901e100e1f607b0f689d15098cedbf7001796b4；修订draft 980a5dc6d7add2993c4d2e2671ce8f9981011df6，独立Reader初审0/2/2→新SHA复审0/0/2、QA PASS，前章ready 46864cc9f302f2d88063c5f53e0f72ffc8ff3fa4精确依赖；结构CI按精确候选提交校验。"

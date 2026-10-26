@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 290
-last_reviewed_title: 两点以后，谁替电话签字
-last_source_path: chapters/draft/0290.md
-last_source_sha: b24f3d9f157bd72e42a873e3b1a13a429eb88708
-last_review_path: reader_reviews/0290_b24f3d9f.md
+last_reviewed_chapter: 291
+last_reviewed_title: 回话写在表上，人还没听见
+last_source_path: chapters/draft/0291.md
+last_source_sha: 980a5dc6d7add2993c4d2e2671ce8f9981011df6
+last_review_path: reader_reviews/0291_980a5dc6.md
 last_reviewed_at: "2026-10-26"
-reviewer_mode: combined_audit_independent_A_then_B_rebound_predecessor
+reviewer_mode: combined_audit_new_sha_independent_A_then_B
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 289
-depends_on_source_sha: 99f15a09228d4964c5fe258f8219b905815bd0f6
-dependency_status: verified_predecessor_body_identical_ready
-predecessor_current_source_sha: 99f15a09228d4964c5fe258f8219b905815bd0f6
+depends_on_chapter: 290
+depends_on_source_sha: 46864cc9f302f2d88063c5f53e0f72ffc8ff3fa4
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 46864cc9f302f2d88063c5f53e0f72ffc8ff3fa4
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1129,5 +1129,23 @@ combined_audit_chapter_290_20261026:
   predecessor_provisional_blob: "4f3630efcaed4ce29df03eb6f3f1751b12dac3a9"
   predecessor_final_ready_blob: "99f15a09228d4964c5fe258f8219b905815bd0f6"
   predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_291_20261026:
+  chapter: 291
+  title: "回话写在表上，人还没听见"
+  original_source_sha: "8901e100e1f607b0f689d15098cedbf7001796b4"
+  revised_source_sha: "980a5dc6d7add2993c4d2e2671ce8f9981011df6"
+  initial_review: reader_reviews/0291_8901e100.md
+  final_review: reader_reviews/0291_980a5dc6.md
+  reader_passes: independent_first_A_then_B_on_new_blob
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 2
+  metadata_corrected: "char_count 3299 to 3738 normalized"
+  predecessor_final_ready_blob: "46864cc9f302f2d88063c5f53e0f72ffc8ff3fa4"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 291
+title: "回话写在表上，人还没听见"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "8901e100e1f607b0f689d15098cedbf7001796b4"
+source_draft_sha: "980a5dc6d7add2993c4d2e2671ce8f9981011df6"
+prior_review: reader_reviews/0291_8901e100.md
+reader_review: reader_reviews/0291_980a5dc6.md
+depends_on_chapter: 290
+depends_on_source_sha: "46864cc9f302f2d88063c5f53e0f72ffc8ff3fa4"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day153 20:18—Day154 20:00，第151/152夜班"
+summary: >-
+  Day153 20:18夏宁发现02:16物业原安全报险电话被系统在道路岗11:13修复后标成“已向来话人回访”，实际只证中心/物业收到、未证原报险人许禾收到。21:21许禾带回自己此前领取的卡到雨棚询问修复后续，明确**今天凌晨**03:24只获临时绕行，未获11:13修复结果；门卫只告知有责过去核验来源，不越过期岗位代拨许可或保证当夜现时路况；许禾21:47离开。Day154 08:42街道将02:16机构转报、03:24本人绕行告知、11:13修复核验、21:21本人返回询问分源，09:37经办更正“公众已获回访”成“本人先前收讯未获证实”，09:55维护方在本笔撤错绿勾，旧系统原证保留、其它同类留待有权抽核。10:27许禾自愿到日间合法窗口，真正听到昨天一小段护板有时点的修复结果并本人注明今天收悉，不倒填昨晨或保证今晚永久路权，自愿有限报告空桶曾送回店而不交隐私或替道路验收。13:17设施勘察把结果返查对象、受理编号及非敏感进度纳入待核设计，未批准装电话/电信/全天运行；16:02主管仅准在原日间开放窗口凭编号按权核公开进度，夜间持续服务仍缺。Day154 20:00第152夜班开始，卡盒原10已领6余4；东侧施工门封闭，旧D144商户纸余43及B07脱网错印量未知；1996纸本“原受理席结果收讫”仅指岗位收到，不证旧报修人真实获回告，2018 A2原填写行、F008新样本与M004/M005均未证。
+meaningful_state_changes:
+  - "系统将机构座机受答误归真人回访的单笔旧状态被保留并有权更正；其它同类仍待核。"
+  - "许禾Day154 10:27亲自收到昨日护板修复的有限专业结果，不倒填此前已收讯或永久路况。"
+  - "公共电话可行性勘察正式纳入返查凭据和隐私边界，现有白天有权窗口可凭受理编号核公开进度，夜间接入仍缺且设备未获批准。"
+knowledge_updates:
+  - "夏宁周衡梁策区分实际报险人、机构转报电话、道路径时核验、历史自动绿标、本人真正听到和本次合法领取六种不可混证事实。"
+  - "蔡敏只更正本条且保留历史版；许禾不留电话号码仍可依现有开放日间窗口问公开进度，未被认定昨日已收修复回话。"
+foreshadowing_updates:
+  - "F003只有1996普通纸上岗位收讫的已准公开语义映照，不增加旧受访者本人送达或2018 A2实填证明；F008无新可靠本人特定记忆矛盾，M004/M005未确证。"
+  - "原D144商户纸43份与B07离线错印量仍未知。"
+relationship_updates:
+  - "许禾维护自身申述和隐私，不让物业保安替其签收；蔡敏坚持分源纠错且不归责到一次善意安全转报。"
+ending_state: "Day154 20:00，第152次夜班；本笔假绿勾已纠、许禾真正获得昨日限项修复回话、日间查询办法准予公示，夜间普通无手机接入/公话装置无新批准；卡余4，施工东门继续封。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "8901e100e1f607b0f689d15098cedbf7001796b4", revised_sha: "980a5dc6d7add2993c4d2e2671ce8f9981011df6", stage_a_used: 1, body_revisions: 2, metadata_revisions: 1, corrections: "Day153同日凌晨误写昨天两处；字数3299纠为真实normalized 3738"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_exact_ready: true, structural: exact_candidate_commit_CI_required}
+char_count: 3738

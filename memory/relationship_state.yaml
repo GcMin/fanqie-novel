@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 288
+last_updated_chapter: 291
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -745,3 +745,12 @@ chapter_290_relationships:
   center: "夜间中心分口述风险、专业查核与电话外呼来源，主角互信无无据变化。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "不诊断许禾手腕、不代其保证送达；私人求助未经同意不得当公共宣传成功样本。"
+
+chapter_291_relationships:
+  chapter: 291
+  source_sha: "980a5dc6d7add2993c4d2e2671ce8f9981011df6"
+  citizen: "许禾不用私手机号、住址或照片交换一次真正的公共处置回话，她明确不让好心保安替自己倒签前一日收讯，Day154本人记录本次领取，愿有限匿名意见。"
+  street: "何师傅/吴保安不把私人/安全职责电话冒充有授权普通代拨，蔡敏维护原历史版本、用本人实际返问纠统计而非把护板责任推给保安；小唐不以单位座机次数估公众收讯人数。"
+  center: "周衡夏宁梁策对单位回告与真人收到继续守不同证据栏位，主角之间信任分数没有事实足以调整。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "许禾不同意留联系方式、旧日回告倒签或公开个人案例；有权窗口仅开放时段办理公开事项编号进度、涉隐私仍按既有核验。"

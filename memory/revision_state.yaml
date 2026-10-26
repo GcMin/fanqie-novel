@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 290
+current_chapter: 291
 current_stage: structural_gate_pending
-current_source_path: chapters/draft/0290.md
-current_source_sha: b24f3d9f157bd72e42a873e3b1a13a429eb88708
-current_review_path: reader_reviews/0290_b24f3d9f.md
+current_source_path: chapters/draft/0291.md
+current_source_sha: 980a5dc6d7add2993c4d2e2671ce8f9981011df6
+current_review_path: reader_reviews/0291_980a5dc6.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_289_290_review_QA_memory_ready_candidate
+last_action: audit_291_review_revision_rereview_QA_memory_ready_candidate
 last_action_date: 2026-10-26
 last_error: null
-last_diff_summary: "289原稿未改Reader0/0/2；290仅依赖289ready SHA/状态重绑，289旧新正文逐字一致，新SHA重新Reader0/0/2且内容QA通过；精确候选结构CI待验证"
+last_diff_summary: "291初稿Reader0/2/2，Stage A只纠同日凌晨误称昨天两处与计数；新SHA独立双遍Reader0/0/2，内容QA通过、前章290ready SHA精确一致；待候选精确结构CI通过"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -783,5 +783,21 @@ combined_audit_chapter_290_20261026:
   predecessor_old_blob: "4f3630efcaed4ce29df03eb6f3f1751b12dac3a9"
   predecessor_ready_blob: "99f15a09228d4964c5fe258f8219b905815bd0f6"
   predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_291_20261026:
+  original_sha: "8901e100e1f607b0f689d15098cedbf7001796b4"
+  final_source_sha: "980a5dc6d7add2993c4d2e2671ce8f9981011df6"
+  initial_review: reader_reviews/0291_8901e100.md
+  final_review: reader_reviews/0291_980a5dc6.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 2
+  char_count_correction: "3299 to 3738"
+  time_correction: "Day153 21:21许禾的回忆必须是当天凌晨的03:24绕行而不是昨天"
+  predecessor_ready_blob: "46864cc9f302f2d88063c5f53e0f72ffc8ff3fa4"
+  predecessor_exact_ready: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
