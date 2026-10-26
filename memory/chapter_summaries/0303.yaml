@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 303
+title: "站牌搬过去，通知没有跟上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "e1e825870278451e898553139676c7c5c20c96ce"
+source_draft_sha: "e1e825870278451e898553139676c7c5c20c96ce"
+ready_blob_sha: "8b4de7426a03c3e7fe1bb7b1fda0cc4cc1c842b4"
+reader_review: "reader_reviews/0303_e1e82587.md"
+depends_on_chapter: 302
+depends_on_source_sha: "428cdf70cd95dc209681f1840efe7079c2f88a2d"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day164 20:26—Day165 20:00，第162/163次夜班交接"
+summary: >-
+  Day164夜拟迁新站但无签发，韩路纸单旧站/车端新站预览不一致，拟公告遭遮挡已撤内存；Day165 08:00交白班，10:32韩路未核收、11:21本人实收纸单和停驶试音，11:52主管合法签署13:20正式迁站令；12:57旧站仍合法停靠、13:20新站正式启用、13:27于树新站正确报音及三人真上车。13:35老陶凭两日前纸卡仍在旧站，发现撤站指引朝背面，站务按权改向并保留证据；13:58老陶自行抵新站、14:06真实登车，目的地结果未知。18:08第三方导航站点虽改新址仍错误推荐封闭施工天桥，现场留证并指当前合法信号灯路口，不声称第三方已修；Day165 20:00第163次夜班。旧两板施工方保管，白榆路另案东门封、10张查询卡领6余4，普通夜间代拨与公话无新许可。历史1996本人回话、2018同笔、F008/M004/M005没有新证。
+meaningful_state_changes:
+  - "11:52签13:20新公交站生效令，13:27及14:06有真实载客样本，旧站停靠正式结束。"
+  - "老陶发现旧站撤站引导朝背面，站务按权纠正，本人真实在新站登车。"
+  - "18:08第三方步行路线仍穿封闭施工天桥，形成独立有证待核问题。"
+knowledge_updates:
+  - "运营正式令/司机实际核收/车端停驶测试/乘客真见公告/第三方路径各有独立证明边界，不互代签。"
+foreshadowing_updates:
+  - "本次普通公交问题不证1996历史回告、F008个人记忆冲突、M004/M005。"
+relationship_updates:
+  - "老陶自主携竹席到新站，站务接受其视角改正背朝旧站的指引，不修改主角关系数值。"
+ending_state: "Day165 20:00第163次夜班，新站正式运营，第三方施工天桥错误步行引导待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "e1e825870278451e898553139676c7c5c20c96ce", final_draft_sha: "e1e825870278451e898553139676c7c5c20c96ce", stage_a_used: 0, body_revisions: 0, dependency_metadata_rebound: false}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_exact_ready: true, structural: exact_candidate_commit_CI_required}
+char_count: 3363

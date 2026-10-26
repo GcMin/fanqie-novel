@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 302
+last_updated_chapter: 303
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -843,3 +843,11 @@ chapter_302_relationships:
   center_and_operator: "夏宁夜间真实值守，白班及专业人员Day164上午下午履职，夜间夏宁20:00回岗；周衡与梁策不取代专业签证。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "本人真乘旧站公交不等于医院按时挂号或全体乘客已获告知，不保留乘客病历。"
+
+chapter_303_relationships:
+  chapter: 303
+  source_sha: "e1e825870278451e898553139676c7c5c20c96ce"
+  passenger_and_staff: "老陶仍持两日前纸卡从旧站求问，拒依未经专业许可的小径绕行；旧站站务在管理岗批准后把背朝旧棚的引导牌移到乘客可见侧，老陶自主于14:06在新站真上车。"
+  center_and_operator: "夏宁当夜不以未签计划代替有权令；Day165白班主管、调度、站务依法完成本车核收/迁站生效与告知改正，20:00才交回第163夜班。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "老陶自述及实际乘车只证明本人本次，不能据此推全部乘客已获通知、全部第三方已改、其本人到达市场。"

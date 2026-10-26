@@ -1,3 +1,6 @@
+# 最新审核：第303章（2026-10-26）
+源Blob `e1e825870278451e898553139676c7c5c20c96ce` Reader独立Pass A/B 0/0/2，正文未修改，Continuity/Style/Meaningful内容QA通过，前章302最终ready Blob `428cdf70cd95dc209681f1840efe7079c2f88a2d`精确匹配，3363有效字。仅精确候选commit通过Github Actions结构CI后可以更新main ready。详见 `qa/0303_report.md`、`reader_reviews/0303_e1e82587.md`。
+
 # 第302章审核与精确结构候选（2026-10-26）
 Writer源`7e14ce6c85c918b6d5d34cfedc67da5418aa7dab`原Reader0/2/2；Stage A一轮三处限定修Day161拆板相对时间和Day164白班问话，3083→3086；新实际源SHA`1c3853c63a21573eb3c1e0b8aeaadf6cd386431e`重新独立Reader Pass A/B0/0/2，独立Continuity/Style/Meaningful QA PASS。301依赖ready SHA `362a41b4deff5a94cb71ad23dffa0b5687ba95aa`精确相同；Day164坡板09:48单项合格，公众连续路10:06失败整改后16:36合格，新站运营迁移尚无生效令，旧站合法继续。详见qa/0302_report.md。
 **候选不是main放行**：仅在精确Git Commit的GitHub Actions单测、`python -m publisher.check_local --repo .`均真实SUCCESS后，才可`expected_sha`/非强制更新main。
