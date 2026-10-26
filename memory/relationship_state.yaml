@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 295
+last_updated_chapter: 296
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -786,3 +786,11 @@ chapter_295_relationships:
   custodian: "罗谨依法从现行岗位取得准公开的材料类别和整理号用途说明，季老师不给旧岗位越权代签结论。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "不列受限2019流转号具体值及1996/2006私人业务标识，不读取未授权后续系列，也不把副本保管接收充当旧人亲收回话。"
+
+chapter_296_relationships:
+  chapter: 296
+  source_sha: "e79156cfb89e9d8fd09a9753ec7022f4c80a590b"
+  center: "周衡、夏宁与梁策按真实专业隔离和独立权限保护商户，不把一盏灯亮推成东门开放，主角信任数值无凭据调整。"
+  merchant_and_property: "林叶要求公开纠错和本人真实有限交付记账；费嵘删无据的已安置说法、只记录商户自愿告知范围，顾客只签自己收的一件。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "物业不复制顾客电话、不替商户签收余2件、不追集全部受影响商户身份。"
