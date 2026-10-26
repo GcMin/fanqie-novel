@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 309
-last_reviewed_title: 纸上写着步行，车轮另找出口
-last_source_path: chapters/draft/0309.md
-last_source_sha: 9cd87d961861da47a0d48c5654a78aea9a60fd26
-last_review_path: reader_reviews/0309_9cd87d96.md
+last_reviewed_chapter: 310
+last_reviewed_title: 绿勾旁边，没有接电话的人
+last_source_path: chapters/draft/0310.md
+last_source_sha: e68248606ffff76c7b9081d6965535979e56d61b
+last_review_path: reader_reviews/0310_e6824860.md
 last_reviewed_at: "2026-10-27"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 308
-depends_on_source_sha: d9854e943724450a62c17f9fad4a426ddd758d3d
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: d9854e943724450a62c17f9fad4a426ddd758d3d
+depends_on_chapter: 309
+depends_on_source_sha: 95612b5039ab4a1663881be0383416b063079673
+dependency_status: verified_predecessor_factual_delta_compatible
+predecessor_current_source_sha: 95612b5039ab4a1663881be0383416b063079673
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1435,4 +1435,22 @@ chapter_309_reader_20261027:
   predecessor_ready_blob: "d9854e943724450a62c17f9fad4a426ddd758d3d"
   dependency_status: verified_exact_ready_blob
   stage_a_body_edits: 5
+  structural_gate: exact_candidate_commit_CI_required
+chapter_310_reader_20261027:
+  original_sha: "115b5b192ff47966c2886d946b4c7836312b233e"
+  initial_review: reader_reviews/0310_115b5b19.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "e68248606ffff76c7b9081d6965535979e56d61b"
+  final_review: reader_reviews/0310_e6824860.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  content_qa: pass
+  depends_on_chapter: 309
+  old_predecessor_draft_blob: "2cc2b26cb5e1ccfac99ff05c737f1db770668083"
+  predecessor_ready_blob: "95612b5039ab4a1663881be0383416b063079673"
+  dependency_status: verified_predecessor_factual_delta_compatible
+  predecessor_body_five_text_edits_checked: true
+  current_body_revisions: 0
   structural_gate: exact_candidate_commit_CI_required

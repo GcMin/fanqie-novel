@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 309
+current_chapter: 310
 current_stage: structural_gate_pending
-current_source_path: chapters/draft/0309.md
-current_source_sha: 9cd87d961861da47a0d48c5654a78aea9a60fd26
-current_review_path: reader_reviews/0309_9cd87d96.md
+current_source_path: chapters/draft/0310.md
+current_source_sha: e68248606ffff76c7b9081d6965535979e56d61b
+current_review_path: reader_reviews/0310_e6824860.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_309_stage_a_five_local_body_fixes_new_sha_reader_content_qa_ready_candidate
+last_action: audit_310_stage_a_metadata_only_dependency_rebind_factual_delta_reader_qa_ready_candidate
 last_action_date: 2026-10-27
 last_error: null
-last_diff_summary: "第309章初Reader 0/2/2，Stage A仅原位改1处作者章号元文本及4处跨日错位；3356→3352字，新SHA 9cd87d961861da47a0d48c5654a78aea9a60fd26独立Reader双遍0/0/2，独立Continuity/Style/Meaningful PASS；结构必须精确候选Git CI。"
+last_diff_summary: "第310章原draft Reader0/1/2，唯一MAJOR为前309临时SHA；原309至ready五处正文叙事/时间词修订逐一核与310兼容，仅重绑依赖到309ready Blob95612b50而310正文0修；新SHA e68248606ffff76c7b9081d6965535979e56d61b独立Reader双遍0/0/2及内容QA通过，精确结构CI待实际成功。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1056,5 +1056,20 @@ chapter_309_revision_20261027:
   body_revisions: 5
   predecessor_ready_blob: "d9854e943724450a62c17f9fad4a426ddd758d3d"
   predecessor_exact_ready: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_310_revision_20261027:
+  original_sha: "115b5b192ff47966c2886d946b4c7836312b233e"
+  initial_review: reader_reviews/0310_115b5b19.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "e68248606ffff76c7b9081d6965535979e56d61b"
+  final_review: reader_reviews/0310_e6824860.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  dependency_metadata_rebound: true
+  old_predecessor_draft_blob: "2cc2b26cb5e1ccfac99ff05c737f1db770668083"
+  predecessor_ready_blob: "95612b5039ab4a1663881be0383416b063079673"
+  predecessor_body_delta_five_edits_compatible: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

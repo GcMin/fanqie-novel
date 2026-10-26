@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 310
+title: "绿勾旁边，没有接电话的人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "115b5b192ff47966c2886d946b4c7836312b233e"
+source_draft_sha: "e68248606ffff76c7b9081d6965535979e56d61b"
+ready_blob_sha: "47858fb4994fc70d1acbdede120909a0300e52ee"
+prior_review: "reader_reviews/0310_115b5b19.md"
+reader_review: "reader_reviews/0310_e6824860.md"
+depends_on_chapter: 309
+original_depends_on_sha: "2cc2b26cb5e1ccfac99ff05c737f1db770668083"
+depends_on_source_sha: "95612b5039ab4a1663881be0383416b063079673"
+dependency_status: verified_predecessor_factual_delta_compatible
+timeframe: "Day171 20:24—Day172 20:00，第169/170次夜班交接"
+summary: >-
+  Day171 20:24西巷活动室前，许荟持Day166 19:15十四张红章错路线中的一张自来质疑自己Day166 19:41已按便民号报桥锁却听到自动“事项已处理完毕”，手机通话时长与纸背铅笔时点只证打过电话不证真人接听；她当晚所见一名老人未证身份与后续安全。陈津联系中心，梁策20:48安全侧核纸及当前时点、21:04道路夜值当次核施工天桥与卸货口仍禁公众、62路新站自Day165 13:20合法有效。21:19活动室管理人准有限收许荟原纸但仅登记待同批保管岗位核证，不擅先将14原印从7实控更为8。21:47夜值只有Day166同号一条自助结束记录，不能看全月私录或推人工听到，交Day172白班核。Day172 09:35号码管理岗依授权只查该留言录音/日志，证机器保留过“天桥门锁着路线错”语音，便民台错误把“自助流程结束”映射为“事项已答复”，真实员工从未人工接听；不能把Day167 21:36因林晟才查旧图倒写Day166早已处置。10:21刘玲及有权保管岗核旧纸版式裁痕和领取经过，正式确认许荟实返一份原印，由5架撤2先返累计升为8受控6未收，另两张照片新复印件Day170各受控不混原纸数量。11:06保留既有错误绿勾与纠错轨迹、12:48仅此笔附“留言已收人工处理未发生”，不宣称系统代码全面修复；14:13刘玲在本人允许的时段真拨许荟，承认早期报告无人听取、旧纸其后撤销另有时点，许荟真得到解释但不提供那个陌生老人身份。16:20活动室在自管公告位撤错“自动语音已办结”说明，实际测开放时段人工电话与非开放时段自动消息正确语义，全面映射修复仍待审批。Day172 20:00第170次夜班，旧原纸14印8控6未收，现代本次本人获回话与1996旧纸上“原受理席结果收讫”岗位收文不互证；F003/F008/M004/M005旧历史机制证据未新增。
+meaningful_state_changes:
+  - "证Day166 19:41许荟有一条实际留音，自助流程结束错误翻译成人工已答复，留下更正来源及限定范围。"
+  - "Day171受控待核一原纸、Day172保管人同批真认后原14纸受控由7升8、未收由7降6，两影印另控不变。"
+  - "Day172 14:13许荟首次获有责真人回告，16:20活动室按权限替换自动电话误导说明，不虚报全类系统修好。"
+knowledge_updates:
+  - "电话呼叫建立/机器收留音/人员读到/有责处理/当事人本人获回话分为不同事实与时点；绿色已答复可能仅源于错误接口映射。"
+  - "309原provisional到ready的5处正文局部时间和作者章号修正不改310所依赖事实，现绑定309正式ready 95612b50。"
+foreshadowing_updates:
+  - "当代自动留言错映射是独立普通系统错误，不能推1996原受理席收讫就是1996报修本人听见答复、2018两档同笔或M004/M005同源；F008不添新具体本人记忆矛盾。"
+relationship_updates:
+  - "许荟只同意一段回拨时间及有限证据，不愿留住址或陌生老人身份，刘玲明确承认无人听到五日前报告且真致歉；陈津承认纸章或绿勾均不够替他证明处理。"
+ending_state: "Day172 20:00第170次夜班，14原印8实控6未收、另2复制仍分别实控；许荟本人14:13获真实回话，自动流程错误映射仅单笔纠错及说明有限整改，全类修复和其余旧纸待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "115b5b192ff47966c2886d946b4c7836312b233e", final_draft_sha: "e68248606ffff76c7b9081d6965535979e56d61b", stage_a_used: 1, body_revisions: 0, dependency_metadata_rebound: true, predecessor_original_sha: "2cc2b26cb5e1ccfac99ff05c737f1db770668083", predecessor_ready_blob: "95612b5039ab4a1663881be0383416b063079673", predecessor_body_delta_five_edits_compatible: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3307

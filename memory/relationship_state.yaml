@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 309
+last_updated_chapter: 310
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -902,3 +902,12 @@ chapter_309_relationships:
   public_notice: "白班一位站务同事从骑车人车把视角指出新贴指引被遮住，管理者按权移框调向，初贴/复看两照真实留证，修复关系来自可见行动。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "不索小徐车牌、手机轨迹、雇主记录或未知旧纸持有人名单；本人错过Day169哪班车仍待外证，Day170有限上车不倒推个人到家或全员获更正。"
+
+chapter_310_relationships:
+  chapter: 310
+  source_sha: "e68248606ffff76c7b9081d6965535979e56d61b"
+  citizen_and_activity_room: "许荟有五天真实疑问、拒代未知老人解释、只在允许的回拨时段听刘玲承认没有人工听旧留言；刘玲不把事后撤纸冒填成Day166及时处理，并当面有责致歉。"
+  center_and_phone_team: "夏宁夜间只保全一笔有权最小日志，Day172白班号码管理岗核录音、技术岗位保旧绿勾错误和纠错轨迹，中心不非法索取所有来话或私人联系簿。"
+  chen_jin_and_colleagues: "陈津由实盖纸章及绿勾引起的错误信任受周衡提醒，暂收物证待保管人真核，不私改原14纸数量。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不公开许荟真实录音，不索陌生老人姓名、家庭住址或同事电话，不用未知行程倒推已救助总人数；仅同意一次回拨窗口及有限联系信息。"

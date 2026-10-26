@@ -43,3 +43,8 @@
 - 已确认第309章在本读取版本仍为未审草稿，依赖准确绑定40位Git Blob SHA 2cc2b26cb5e1ccfac99ff05c737f1db770668083，dependency_status:provisional；后续须由独立Audit核对其正式版事实差异。
 - 严格维护Day171/Day172工时：第169次夜班Day171 20:00至Day172 08:00，Day172 08:00—20:00由有权白班、活动室和维护方处理，20:00再开第170次夜班；收讫、真人回话、纸实控、桥实时许可相互不代证。
 - 仅创建本章详细章纲和新draft。未进行Reader、Revision、QA、Memory、Publish Gate或番茄发布；如果提交时main变化，须先重读并审视受影响文件，使用最新tree与expected_sha/force:false，不覆写既有章。
+
+## Audit dependency verification（2026-10-27；与Writer原始provisional计划并存）
+- Writer记录当时依赖309原稿 Blob `2cc2b26cb5e1ccfac99ff05c737f1db770668083`是有效起稿快照，但309随后独立审校有**五处真实正文局部修订**（一处作者章号元文本、四处Day171错误的“昨夜/昨天/今晚”时间指称）；正式ready Blob现为 `95612b5039ab4a1663881be0383416b063079673`。
+- 已逐项对照原稿和ready及第310章引用事实：Day170小徐21:52停车进站、22:06有限本人上车、Day171公众停车指引改正、Day171 20:00夜班接班、旧14张原印7受控7未收另2复制受控**均未变**，无本章情节事实冲突，不能只因SHA不同而阻断，也不能忽略实际五处改字。
+- Stage A仅将310草稿Front Matter的depends_on_source_sha重绑为309最终ready SHA `95612b5039ab4a1663881be0383416b063079673`，dependency_status=verified_predecessor_factual_delta_compatible，不修改正文；新310 Git Blob `e68248606ffff76c7b9081d6965535979e56d61b`已重新独立Reader Pass A/B，最终0/0/2；独立QA报告qa/0310_report.md。旧Writer书面起稿记录保留作为provisional沿革。
