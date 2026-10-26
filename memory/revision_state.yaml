@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 310
+current_chapter: 311
 current_stage: structural_gate_pending
-current_source_path: chapters/draft/0310.md
-current_source_sha: e68248606ffff76c7b9081d6965535979e56d61b
-current_review_path: reader_reviews/0310_e6824860.md
+current_source_path: chapters/draft/0311.md
+current_source_sha: d47d0d385416f6742708a45d5fe2d427675f3831
+current_review_path: reader_reviews/0311_d47d0d38.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_310_stage_a_metadata_only_dependency_rebind_factual_delta_reader_qa_ready_candidate
+last_action: audit_311_stage_a_six_date_local_fixes_new_sha_independent_reader_and_qa
 last_action_date: 2026-10-27
 last_error: null
-last_diff_summary: "第310章原draft Reader0/1/2，唯一MAJOR为前309临时SHA；原309至ready五处正文叙事/时间词修订逐一核与310兼容，仅重绑依赖到309ready Blob95612b50而310正文0修；新SHA e68248606ffff76c7b9081d6965535979e56d61b独立Reader双遍0/0/2及内容QA通过，精确结构CI待实际成功。"
+last_diff_summary: "原稿311 SHA6c6df9b7独立Reader0/2/2，Stage A一次仅6处跨Day172/173日期修订，新draft SHAd47d0d385416f6742708a45d5fe2d427675f3831有效3197字，重新独立Reader双遍0/0/2，Continuity/Style/Meaningful QA PASS，前章310 ready 47858fb4994fc70d1acbdede120909a0300e52ee精确匹配，结构候选CI仍须精确成功。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1071,5 +1071,22 @@ chapter_310_revision_20261027:
   old_predecessor_draft_blob: "2cc2b26cb5e1ccfac99ff05c737f1db770668083"
   predecessor_ready_blob: "95612b5039ab4a1663881be0383416b063079673"
   predecessor_body_delta_five_edits_compatible: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+ 
+chapter_311_revision_20261027:
+  chapter: 311
+  original_sha: "6c6df9b7ef5ba6d734d7e15ab0b6fdd5274dad22"
+  original_review: reader_reviews/0311_6c6df9b7.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_sha: "d47d0d385416f6742708a45d5fe2d427675f3831"
+  final_review: reader_reviews/0311_d47d0d38.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 6
+  correction: "Day172许荟的Day166留言与当日09:35有权核查实在今天上午而非五天前/昨天下午；Day173 08:00只能回说Day172昨夜21:07检扶手，Day170宋旧话至Day173已三天而非前天。"
+  corrected_chars: "3181 to 3197"
+  predecessor_ready_blob: "47858fb4994fc70d1acbdede120909a0300e52ee"
+  predecessor_exact_ready: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
