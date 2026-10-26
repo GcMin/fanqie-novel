@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 305
-last_reviewed_title: 新打印的路线，仍通向封桥
-last_source_path: chapters/draft/0305.md
-last_source_sha: 5bc7a26b4967044281db3a89cfea605ccfc75d08
-last_review_path: reader_reviews/0305_5bc7a26b.md
-last_reviewed_at: "2026-10-26"
+last_reviewed_chapter: 306
+last_reviewed_title: 旧路线纸上，没有撤销通知
+last_source_path: chapters/draft/0306.md
+last_source_sha: 08c3ff58c1a2ed83271d524592679ff45958d370
+last_review_path: reader_reviews/0306_08c3ff58.md
+last_reviewed_at: "2026-10-27"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 304
-depends_on_source_sha: 63b9a0d2003cb7431b756d840f55c45179606847
-dependency_status: verified_predecessor_body_unchanged
-predecessor_current_source_sha: 63b9a0d2003cb7431b756d840f55c45179606847
+depends_on_chapter: 305
+depends_on_source_sha: ecd47257021ba3d8fdde4993ca6782f60f224f69
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: ecd47257021ba3d8fdde4993ca6782f60f224f69
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1359,4 +1359,23 @@ combined_audit_chapter_305_20261026:
   predecessor_body_exact_identical: true
   metadata_rebind: true
   body_revisions: 0
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_306_20261027:
+  chapter: 306
+  original_source_sha: "c67e87d2df20569df3d019f00c791dec334d6fc2"
+  original_review: reader_reviews/0306_c67e87d2.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "08c3ff58c1a2ed83271d524592679ff45958d370"
+  final_review: reader_reviews/0306_08c3ff58.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: independent_new_sha_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  fix_required: none
+  reader_gate: pass
+  content_qa: pass
+  predecessor_ready_blob: "ecd47257021ba3d8fdde4993ca6782f60f224f69"
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 3
   structural_gate: exact_candidate_commit_CI_required

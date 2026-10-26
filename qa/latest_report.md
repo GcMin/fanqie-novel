@@ -1,3 +1,3 @@
-# 最近独立QA：第305章《新打印的路线，仍通向封桥》（2026-10-26）
+# 最近独立QA：第306章《旧路线纸上，没有撤销通知》（2026-10-27）
 
-原draft SHA `c6a900806fa7dacd30287d39e6ed4b286f13eeb0`，初Reader 0/1/2（唯一MAJOR为304临时SHA依赖），304原草稿与ready全文逐字一致仅metadata改变；StageA只重绑304最终ready SHA `63b9a0d2003cb7431b756d840f55c45179606847`，正文未改，新完整draft SHA `5bc7a26b4967044281db3a89cfea605ccfc75d08`。新SHA独立Reader Pass A/B 0/0/2；Continuity/Style/Meaningful内容QA PASS；有效3121字。详细Review `reader_reviews/0305_c6a90080.md`、`reader_reviews/0305_5bc7a26b.md`；QA `qa/0305_report.md`。仍需精确候选Git commit的 `publisher.check_local` 与单测CI SUCCESS，才能放行ready。
+原始draft SHA `c67e87d2df20569df3d019f00c791dec334d6fc2`初Reader 0/1/2，Stage A修改三处纸张已知持有线索与实际回收区别、有效字3112→3206；新SHA `08c3ff58c1a2ed83271d524592679ff45958d370`独立Reader Pass A/B 0/0/2。Continuity/Style/Meaningful内容QA PASS，305最终ready Blob `ecd47257021ba3d8fdde4993ca6782f60f224f69`精确匹配。本轮正文修订3处、无MINOR强制修改。报告 `qa/0306_report.md`，审查 `reader_reviews/0306_c67e87d2.md`及`reader_reviews/0306_08c3ff58.md`。**必须有精确Git候选版本CI结构SUCCESS才能在main正式ready**。

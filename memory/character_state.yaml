@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 305
+last_updated_chapter: 306
 characters:
   zhou_heng:
     location: "Day147 20:00，第145次夜班开班"
@@ -1126,3 +1126,15 @@ chapter_305_verified:
   technical: "本机Day160后同步任务仅已发未成功落盘；Day167 12:03真入新版仍有复打印旧缓存，14:48三起点首打与复打六样例过当次限项核验。"
   main_cast_injuries: none_new
   final_location: "Day167 20:00第165夜班，公交新站有效打印店本机路线功能限项恢复，其他同系列设备与过往纸仍待核。"
+
+chapter_306_verified:
+  chapter: 306
+  source_sha: "08c3ff58c1a2ed83271d524592679ff45958d370"
+  timeframe: "Day167 20:19—Day168 20:00"
+  zhou_heng: "夜班按来源分14份自管旧纸、林晟照片与路权专业证据；Day168 08:00真实交白班，20:00第166夜班接回5撤2返7未收、不把匿名返纸当另一个已通知人。"
+  xia_ning: "Day167 20:19先问林晟是否在安全侧，20:42道路有权实核后才提供当次合法路，21:18不以已候车代实际乘车；白日由白班和管理人有权处置，20:00接交班。"
+  liang_ce: "Day167 20:51按道路有权岗确认的路口告知林晟，不越权在旧纸上手画新的永久道路批准。"
+  citizens: "林晟有一张旧纸照片线索但未交原件，只自述21:18到站候车；崔蓉13:22主动返一份旧纸并听更正、拒个人家庭电话；匿名交纸不证明第二位真人获更正。"
+  community_and_shop: "陈津曾自盖章促信，获权撤架5；刘玲11:32真张贴有时点大字更正并站在行人侧校读；胡映12:06按本店范围贴限项告示，不替设备商作全终端结论。"
+  main_cast_injuries: none_new
+  final_location: "Day168 20:00第166夜班，槐石路62路新站合法，锁桥公众禁入，盖章旧纸7份实控另7份未收。"

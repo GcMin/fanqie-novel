@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 305
+last_updated_chapter: 306
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -867,3 +867,11 @@ chapter_305_relationships:
   center_and_professionals: "夏宁按夜班时间分别保存错纸/道路责任岗禁令/设备商单功能暂停/公交实际停车与乘客真上车，日间维修由白班及持权设备商而非夜班主角办理。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "未索全店顾客购买记录、唐蕙目的地/住址/手机轨迹，印纸任务数量不等于实际走过桥口人数。"
+
+chapter_306_relationships:
+  chapter: 306
+  source_sha: "08c3ff58c1a2ed83271d524592679ff45958d370"
+  citizen_and_center: "林晟仅限自愿提供旧版红章纸去身份照片，拒个人出行目的地，21:18只报告抵新站候车，是否真登车未证；崔蓉13:22真交旧纸一张且当面获更正，拒交家庭电话及额外行程。"
+  community_and_shop: "陈津承认自行加盖便民章使旧纸更可信、按管理授权撤下五份；刘玲发布含来源时点的可读更正且实核公示侧；胡映只在合法店铺位置限项更正，不替设备商证明所有终端正确。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "普通活动室来访登记不等于旧纸持有人名单，匿名回收纸一张不证明另一人已获更正，林晟纸照片不当社区已实收原件。"
