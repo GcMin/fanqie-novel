@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 292
+title: "少了前缀的受理号"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "49c95a9be1c264ef9c6d62409d2948c364bc0a58"
+source_draft_sha: "48c61eb7f573b601868b3d81421891d465208f51"
+prior_review: reader_reviews/0292_49c95a9b.md
+reader_review: reader_reviews/0292_48c61eb7.md
+depends_on_chapter: 291
+depends_on_source_sha: "55edc9365717b94f7babbef93d3ecfdbd777133f"
+dependency_status: verified_predecessor_factual_delta_compatible
+timeframe: "Day154 20:26—Day155 20:00，第152/153次夜班"
+summary: >-
+  Day154 17:19叶枝在真实日间开放窗口报白榆路阅读室西侧两灯中靠坡道一盏两夜失亮，原受理仅已转维修。20:26她带失去BY-LT前缀的纸回执六位尾号671208到雨棚、问灯仍黑；普通单位代拨无续期，何师傅仅依原有物业公共安全职责报告现场新险，不冒充办理普通受理号查询。夏宁和周衡不拿残缺尾号猜多模块来源；21:08照明到场、21:21现核两灯中一暗、两级台阶夜间有险，21:37专业立反光提示和临时引导、不说已修。Day155 08:45街道有权白班核昨日完整公众照明号BY-LT-671208；另模块同尾数仅提示受限，未读取详情。09:12主管仅批准本窗口将以后新印的完整编号与真实开放时段放于居中明显位置，旧凭据保留有效。10:03维护专业断电查接线盒密封圈挤偏/接头潮氧化并修复，11:28手动点灯通过但夜间自动控制仍待验。16:17叶枝在真正开放窗口自己获得公开当前阶段进度，未签昨日或今晚全项验收。18:43—19:06夜自动启亮真发生，19:14专业查亮度/接地/周边覆盖，19:29道路岗限定核临警可撤，19:36叶枝本人路过新亮步道只属个人选择，不代专业签验；20:00第153班开，东侧旧站施工门持续封。1996普通照明“原受理席回问结果收讫”只证岗位语义，不证旧报修人收讯、QB-SF同源或M005，2018 A2受保护行与M004仍不证；F008无新可靠本人记忆矛盾。D144原旧纸43份及B07历史脱网印错数量未知。
+meaningful_state_changes:
+  - "一处真实路灯失亮经21:21专业核、21:37暂警、Day155白天真修手测、19:14再实证夜间自动启亮与19:29有权限项撤临警。"
+  - "撕掉前缀的公共受理纸合法追溯到BY-LT-671208，叶枝本人16:17真正拿到阶段回告，未打开或披露同尾号的其它受限模块。"
+  - "本窗口未来打印回执将完整编号置中央、加真查询时段且不作历史业务重写，普通夜间代拨仍未获新许可。"
+knowledge_updates:
+  - "夏宁周衡梁策知道仅六位尾号不足以在不同业务模块识别具体受理对象，必须看原渠道、完整编号、公共事项范围和权限。"
+  - "蔡敏小唐仅依昨日真实照明来源找出BY-LT-671208，维护手测和夜自动复测分项，个人拿回执不代专业验路；旧纸继续有效。"
+foreshadowing_updates:
+  - "F003仅由普通公众受理凭据引发合法的1996岗位收讫进一步问题，不得推史料同源、旧人亲收或2018 A2原实填；F008无新记忆样本、M004/M005未证。"
+  - "D144旧纸43份与B07既往脱网错印量仍未知。"
+relationship_updates:
+  - "叶枝不愿被迫重报或因无手机/回执损坏而失去公共回询权，何师傅不冒充到期普通代拨，蔡敏守受限记录权限且保护原纸。"
+ending_state: "Day155 20:00，第153夜班；照明夜自动复测与一小段公共路限项解除有专业证据，叶枝白班实领检修阶段，窗口新版回执仅本级获准，东工门封、夜间无手机普通查询仍缺，历史1996原人回告不证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "49c95a9be1c264ef9c6d62409d2948c364bc0a58", revised_sha: "48c61eb7f573b601868b3d81421891d465208f51", stage_a_used: 1, body_revisions: 0, metadata_dependency_rebind: true, metadata_char_count: "2736 to 3067", predecessor_original_sha: "8901e100e1f607b0f689d15098cedbf7001796b4", predecessor_ready_sha: "55edc9365717b94f7babbef93d3ecfdbd777133f", predecessor_factual_delta: "two Day153 temporal phrases corrected; Day154 16:02/20:00 dependency unchanged"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_factual_delta: verified_compatible, structural: exact_candidate_commit_CI_required}
+char_count: 3067

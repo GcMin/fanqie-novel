@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 291
-last_reviewed_title: 回话写在表上，人还没听见
-last_source_path: chapters/draft/0291.md
-last_source_sha: 980a5dc6d7add2993c4d2e2671ce8f9981011df6
-last_review_path: reader_reviews/0291_980a5dc6.md
+last_reviewed_chapter: 292
+last_reviewed_title: 少了前缀的受理号
+last_source_path: chapters/draft/0292.md
+last_source_sha: 48c61eb7f573b601868b3d81421891d465208f51
+last_review_path: reader_reviews/0292_48c61eb7.md
 last_reviewed_at: "2026-10-26"
-reviewer_mode: combined_audit_new_sha_independent_A_then_B
+reviewer_mode: combined_audit_new_sha_independent_A_then_B_predecessor_factual_delta_checked
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 290
-depends_on_source_sha: 46864cc9f302f2d88063c5f53e0f72ffc8ff3fa4
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 46864cc9f302f2d88063c5f53e0f72ffc8ff3fa4
+depends_on_chapter: 291
+depends_on_source_sha: 55edc9365717b94f7babbef93d3ecfdbd777133f
+dependency_status: verified_predecessor_factual_delta_compatible
+predecessor_current_source_sha: 55edc9365717b94f7babbef93d3ecfdbd777133f
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1147,5 +1147,24 @@ combined_audit_chapter_291_20261026:
   metadata_corrected: "char_count 3299 to 3738 normalized"
   predecessor_final_ready_blob: "46864cc9f302f2d88063c5f53e0f72ffc8ff3fa4"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_292_20261026:
+  chapter: 292
+  title: "少了前缀的受理号"
+  original_source_sha: "49c95a9be1c264ef9c6d62409d2948c364bc0a58"
+  revised_source_sha: "48c61eb7f573b601868b3d81421891d465208f51"
+  initial_review: reader_reviews/0292_49c95a9b.md
+  final_review: reader_reviews/0292_48c61eb7.md
+  reader_passes: independent_A_then_B_after_metadata_fix
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 0
+  metadata_corrected: "dependency291 SHA and status; char_count 2736 to 3067 normalized"
+  predecessor_original_blob: "8901e100e1f607b0f689d15098cedbf7001796b4"
+  predecessor_final_ready_blob: "55edc9365717b94f7babbef93d3ecfdbd777133f"
+  predecessor_body_factual_delta: "two same-day word corrections in 291, 292 dependent Day154 16:02 and 20:00 facts unaffected"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

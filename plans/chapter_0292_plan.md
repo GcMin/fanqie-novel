@@ -5,11 +5,11 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer (Planner / Continuity Precheck / Writer)
 - observed_main_sha: 5da3c52ecec698802b8aadce3646a2c6265de1ac
-- predecessor_path: chapters/draft/0291.md
+- predecessor_path: chapters/ready/0291.md
 - depends_on_chapter: 291
-- depends_on_source_sha: "8901e100e1f607b0f689d15098cedbf7001796b4"
-- dependency_status: provisional
-- source_boundary: "前章291仍是main未审草稿，绑定原文blob 8901e100e1f607b0f689d15098cedbf7001796b4，临时仅参考Day154 16:02白班窗口获准在真实开放时段按完整受理编号查询可公开事项进度、20:00第152次夜班交接、雨棚无新的普通代拨许可、公用电话仅勘察、查询卡余4、旧站东施工门不对公众开放。不可视作正式Canon。许禾Day154本人仅实收此前护板处置回话，不代表旧1996报修人本人收到或旧机制已证。"
+- depends_on_source_sha: "55edc9365717b94f7babbef93d3ecfdbd777133f"
+- dependency_status: verified_predecessor_factual_delta_compatible
+- source_boundary: "审核基于第291章最终ready Blob 55edc9365717b94f7babbef93d3ecfdbd777133f。实对Writer原291 8901e100e1f607b0f689d15098cedbf7001796b4与当前ready的正文123行：仅Day153 21:21附近两处把误称昨天改为同日凌晨，Day154 16:02原有开放日间窗口可凭完整编号查公开进度及20:00第152夜班开班的直接依赖事实未改，292叙事兼容。其它边界仍为门外卡四张、夜间公众普通代拨未获再批、室外电话仅勘察、旧东施工门未开放；1996旧人回告及2018 A2实际填写/M004/M005均未确证。"
 - chapter_goal: "把能拿到六位尾号与能够合法准确查回公开事项区别开，真实处理一件当前路灯失亮的城市安全问题，以前缀丢失和跨模块尾号相同暴露领取环节风险，却不发生隐私越权。"
 - POV: "第三人称有限，夏宁/周衡夜间处置与蔡敏/小唐日间窗口，叶枝的实体纸回执与照明维修进度交叉。"
 - opening: "Day154 20:26叶枝持缺左缘前缀的回执到雨棚追问十七点十九分照明故障，盒内仍有4张原查询卡，原公众普通代拨未续期。"
@@ -28,5 +28,7 @@
 - forbidden_leaks: "不得因尾号检索泄露受限事项详情、不得假设修灯后全城道路通行、不得把白天手动点亮当晚间自动验收、不得从叶枝路过推她收专业最终确认、不得让保安用到期普通代拨权限接公众咨询、不得把前章291草稿升格Canon或替许禾倒填先前回访。"
 - ending: "Day155 20:00，西侧路灯专业完成两次层次不同的实测且普通公共事项当日进度有本人真领取，前缀丢失的检索风险得到本窗口限定改进，独立模块及旧1996个人回告仍无越权确证。"
 - target_body_effective_chars: "2600—3400（hard:2300—3800）"
-- actual_body_effective_chars: 2736
+- actual_body_effective_chars: 3067
 - continuity_precheck: "基于main 5da3c52ecec698802b8aadce3646a2c6265de1ac 实读AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md，四份Bible与三人物卡、可用第五卷及实际当前ARC-054文件、计划表、current_arc与各人物/知识/关系/世界/伏笔/时间线、最近十章0281—0290审定摘要、最近五章0287—0291正文；291是未审草稿且无独立摘要。三个章节目录published最大159（含153）、ready最大290、draft最大291；未读取历史Reader Review；不执行Revision/QA/Memory/Publish Gate。"
+
+- audit_result_2026_10_26: "Stage A只改Front Matter依赖与计数字段，本章正文未改；原draft 49c95a9be1c264ef9c6d62409d2948c364bc0a58首审Reader0/2/2，重绑291ready 55edc9365717b94f7babbef93d3ecfdbd777133f并核两处真实时间词差异事实兼容，修订draft 48c61eb7f573b601868b3d81421891d465208f51按独立PassA/B最终0/0/2；有效字数2736→3067，独立Continuity/Style/Meaningful PASS，精确结构CI待候选提交。"

@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 291
+current_chapter: 292
 current_stage: structural_gate_pending
-current_source_path: chapters/draft/0291.md
-current_source_sha: 980a5dc6d7add2993c4d2e2671ce8f9981011df6
-current_review_path: reader_reviews/0291_980a5dc6.md
+current_source_path: chapters/draft/0292.md
+current_source_sha: 48c61eb7f573b601868b3d81421891d465208f51
+current_review_path: reader_reviews/0292_48c61eb7.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_291_review_revision_rereview_QA_memory_ready_candidate
+last_action: audit_292_review_dependency_real_delta_QA_memory_ready_candidate
 last_action_date: 2026-10-26
 last_error: null
-last_diff_summary: "291初稿Reader0/2/2，Stage A只纠同日凌晨误称昨天两处与计数；新SHA独立双遍Reader0/0/2，内容QA通过、前章290ready SHA精确一致；待候选精确结构CI通过"
+last_diff_summary: "292首审Reader0/2/2，只重绑291ready SHA与实核291旧新两处同日时间差异对292依赖兼容；计数2736→3067，292正文未改，新SHA再次独立Reader0/0/2与内容QA PASS；待候选精确结构CI"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -799,5 +799,22 @@ combined_audit_chapter_291_20261026:
   time_correction: "Day153 21:21许禾的回忆必须是当天凌晨的03:24绕行而不是昨天"
   predecessor_ready_blob: "46864cc9f302f2d88063c5f53e0f72ffc8ff3fa4"
   predecessor_exact_ready: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_292_20261026:
+  original_sha: "49c95a9be1c264ef9c6d62409d2948c364bc0a58"
+  final_source_sha: "48c61eb7f573b601868b3d81421891d465208f51"
+  initial_review: reader_reviews/0292_49c95a9b.md
+  final_review: reader_reviews/0292_48c61eb7.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  metadata_dependency_rebind: true
+  char_count_correction: "2736 to 3067"
+  predecessor_old_blob: "8901e100e1f607b0f689d15098cedbf7001796b4"
+  predecessor_ready_blob: "55edc9365717b94f7babbef93d3ecfdbd777133f"
+  predecessor_factual_delta: "291两处Day153同日凌晨时间指称更正，292直接依赖Day154 16:02/20:00未改"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
