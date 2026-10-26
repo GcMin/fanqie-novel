@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 292
+title: "少了前缀的受理号"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "49c95a9be1c264ef9c6d62409d2948c364bc0a58"
+source_draft_sha: "3ef155649dc57cba0b1a2f79f21ad68afc132ed9"
+prior_review: reader_reviews/0292_49c95a9b.md
+reader_review: reader_reviews/0292_3ef15564.md
+depends_on_chapter: 291
+depends_on_source_sha: "55edc9365717b94f7babbef93d3ecfdbd777133f"
+dependency_status: verified_predecessor_factual_delta_compatible
+timeframe: "Day154 20:26—Day155 20:00，第152/153次夜班"
+summary: >-
+  Day154 20:26叶枝拿残存六位尾号671208的纸凭据到雨棚追问当日下午17:19已报阅读室西侧一盏路灯失亮；夜间普通岗位代拨已过期，何师傅仅依原物业险情职责向中心转报当前暗灯风险。21:21道路专业核验低台阶实暗、21:37按权立临时反光提示且没有谎称修好。叶枝同意只拍残纸号码和断口不拍人脸，何师傅随本件险情记录按限定用途交街道白班和夜间中心；本人不走暗路或封闭施工东门。Day155 08:45蔡敏小唐从前日17:19原窗口流水合法查得完整BY-LT-671208，受限模块仅见来源提示不读取内容；09:12主管只准本窗口新纸完整编号居中并注明工作时段，旧回执仍有效。10:03专业查到密封圈移位接头受潮氧化，11:28维修后白天手动点灯通过但夜间自动未测。16:17叶枝本人在开放窗口只签当日实际获知当前进度，不签过去或未来验收。19:14维护方夜间自动复测、19:29道路有权岗只撤此处临护，19:36叶枝亲见灯亮不代专业路况签字。Day155 20:00第153次夜班，周衡对照已合法公开1996普通照明原受理席回问结果收讫仅提出缺损旧凭据能否找回原受理席的问题。2018 A2原索引受保护填写、1996旧人实际收到以及M004/M005均未证；卡余四、旧东工门封、D144旧纸43与B07错印未知。
+meaningful_state_changes:
+  - "新照明实际风险从夜间局部临护变为修复受潮接头、白天手测、夜间自动复测和按权局部撤警。"
+  - "叶枝本人在Day155开放窗口真实获得公开进度，不被要求倒填昨日告知。"
+  - "本窗口完整编号新打印版式获实际限定审批，旧受理凭据仍然有效，不跨受限业务模块检索。"
+knowledge_updates:
+  - "六位尾号不是跨业务模块全局唯一；来源前缀、窗口经办权限、实际开放时段和原流水必须独立核对。"
+  - "临护、维修、白天手动、晚上自动、居民知晓及专业道路验收各有独立证据边界。"
+foreshadowing_updates:
+  - "F003旧1996岗位收讫仅合法公开字段，不能推旧人真实收讯或QB-SF同源；2018 A2原行未开放。"
+  - "F008无新可靠本人记忆矛盾，M004/M005不确认，D144纸43及B07历史旧印未知。"
+relationship_updates:
+  - "叶枝主动不走暗路、仅同意拍残纸不拍本人，蔡敏不准小唐因尾数打开受限模块。"
+  - "夏宁、周衡、梁策继续守证据边界，主角互信数值无无据更改。"
+ending_state: "Day155 20:00第153次夜班，维修灯专业完成自动复测且局部警示依法撤除；东施工门封，窗口编号版式有限更新而夜间公众普通代拨、公话设备均无新许可。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "49c95a9be1c264ef9c6d62409d2948c364bc0a58", revised_sha: "3ef155649dc57cba0b1a2f79f21ad68afc132ed9", stage_a_used: 1, body_revisions: 1, metadata_revisions: 2, correction: "残纸拍照经本人同意且仅限本件交接；291旧至ready有两处真实时间纠错已比对兼容并重绑；字数纠为3143"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_factual_delta_checked: true, structural: exact_candidate_commit_CI_required}
+char_count: 3143

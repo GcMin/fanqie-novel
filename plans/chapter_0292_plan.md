@@ -5,10 +5,10 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer (Planner / Continuity Precheck / Writer)
 - observed_main_sha: 5da3c52ecec698802b8aadce3646a2c6265de1ac
-- predecessor_path: chapters/draft/0291.md
+- predecessor_path: chapters/ready/0291.md
 - depends_on_chapter: 291
-- depends_on_source_sha: "8901e100e1f607b0f689d15098cedbf7001796b4"
-- dependency_status: provisional
+- depends_on_source_sha: "55edc9365717b94f7babbef93d3ecfdbd777133f"
+- dependency_status: verified_predecessor_factual_delta_compatible
 - source_boundary: "前章291仍是main未审草稿，绑定原文blob 8901e100e1f607b0f689d15098cedbf7001796b4，临时仅参考Day154 16:02白班窗口获准在真实开放时段按完整受理编号查询可公开事项进度、20:00第152次夜班交接、雨棚无新的普通代拨许可、公用电话仅勘察、查询卡余4、旧站东施工门不对公众开放。不可视作正式Canon。许禾Day154本人仅实收此前护板处置回话，不代表旧1996报修人本人收到或旧机制已证。"
 - chapter_goal: "把能拿到六位尾号与能够合法准确查回公开事项区别开，真实处理一件当前路灯失亮的城市安全问题，以前缀丢失和跨模块尾号相同暴露领取环节风险，却不发生隐私越权。"
 - POV: "第三人称有限，夏宁/周衡夜间处置与蔡敏/小唐日间窗口，叶枝的实体纸回执与照明维修进度交叉。"
@@ -28,5 +28,10 @@
 - forbidden_leaks: "不得因尾号检索泄露受限事项详情、不得假设修灯后全城道路通行、不得把白天手动点亮当晚间自动验收、不得从叶枝路过推她收专业最终确认、不得让保安用到期普通代拨权限接公众咨询、不得把前章291草稿升格Canon或替许禾倒填先前回访。"
 - ending: "Day155 20:00，西侧路灯专业完成两次层次不同的实测且普通公共事项当日进度有本人真领取，前缀丢失的检索风险得到本窗口限定改进，独立模块及旧1996个人回告仍无越权确证。"
 - target_body_effective_chars: "2600—3400（hard:2300—3800）"
-- actual_body_effective_chars: 2736
+- actual_body_effective_chars: 3143
 - continuity_precheck: "基于main 5da3c52ecec698802b8aadce3646a2c6265de1ac 实读AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md，四份Bible与三人物卡、可用第五卷及实际当前ARC-054文件、计划表、current_arc与各人物/知识/关系/世界/伏笔/时间线、最近十章0281—0290审定摘要、最近五章0287—0291正文；291是未审草稿且无独立摘要。三个章节目录published最大159（含153）、ready最大290、draft最大291；未读取历史Reader Review；不执行Revision/QA/Memory/Publish Gate。"
+
+## Audit Stage A与事实差异核对（2026-10-26）
+- 原稿SHA 49c95a9be1c264ef9c6d62409d2948c364bc0a58，原去空白有效字实3067、误记2736。补叶枝同意拍残纸号与断口且按本件安全记录交白班/中心一处后，修订正文实3143字，新SHA 3ef155649dc57cba0b1a2f79f21ad68afc132ed9。
+- 第291章provisional 8901e100e1f607b0f689d15098cedbf7001796b4与final ready 55edc9365717b94f7babbef93d3ecfdbd777133f有真实两行时间语义纠正：Day153夜「昨天」指03:24绕路错，改为「今天凌晨/凌晨」且区分11:13修复回话。292依赖Day154 16:02日间查询批准、卡余四、夜间代拨无权、东施工门封等事实兼容，非正文相同。
+- 初审0/2/2及修后新SHA独立Reader0/0/2已存reader_reviews/0292_49c95a9b.md与reader_reviews/0292_3ef15564.md；内容QA见qa/0292_report.md；仅候选精确结构CI成功方可放行。

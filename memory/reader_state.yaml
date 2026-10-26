@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 291
-last_reviewed_title: 回话写在表上，人还没听见
-last_source_path: chapters/draft/0291.md
-last_source_sha: 980a5dc6d7add2993c4d2e2671ce8f9981011df6
-last_review_path: reader_reviews/0291_980a5dc6.md
+last_reviewed_chapter: 292
+last_reviewed_title: 少了前缀的受理号
+last_source_path: chapters/draft/0292.md
+last_source_sha: 3ef155649dc57cba0b1a2f79f21ad68afc132ed9
+last_review_path: reader_reviews/0292_3ef15564.md
 last_reviewed_at: "2026-10-26"
 reviewer_mode: combined_audit_new_sha_independent_A_then_B
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 290
-depends_on_source_sha: 46864cc9f302f2d88063c5f53e0f72ffc8ff3fa4
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 46864cc9f302f2d88063c5f53e0f72ffc8ff3fa4
+depends_on_chapter: 291
+depends_on_source_sha: 55edc9365717b94f7babbef93d3ecfdbd777133f
+dependency_status: verified_predecessor_factual_delta_compatible
+predecessor_current_source_sha: 55edc9365717b94f7babbef93d3ecfdbd777133f
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1147,5 +1147,22 @@ combined_audit_chapter_291_20261026:
   metadata_corrected: "char_count 3299 to 3738 normalized"
   predecessor_final_ready_blob: "46864cc9f302f2d88063c5f53e0f72ffc8ff3fa4"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_292_audit:
+  source_original: "49c95a9be1c264ef9c6d62409d2948c364bc0a58"
+  initial_review: reader_reviews/0292_49c95a9b.md
+  source_final_draft: "3ef155649dc57cba0b1a2f79f21ad68afc132ed9"
+  final_review: reader_reviews/0292_3ef15564.md
+  reader_passes: independent_first_A_then_B_on_new_blob
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 1
+  metadata_corrected: "original 2736 wrongly marked but real 3067; new 3143"
+  predecessor_old_sha: "8901e100e1f607b0f689d15098cedbf7001796b4"
+  predecessor_final_ready_sha: "55edc9365717b94f7babbef93d3ecfdbd777133f"
+  dependency_status: verified_predecessor_factual_delta_compatible
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
