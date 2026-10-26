@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 297
+title: "两件衣服还在封门里面"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "8dfd769dc1742103b3db3c228f1beac42ee01a7f"
+source_draft_sha: "9eefff278145ed36ea44e37aea00369dad010c93"
+reader_review: "reader_reviews/0297_9eefff27.md"
+prior_review: "reader_reviews/0297_8dfd769d.md"
+depends_on_chapter: 296
+depends_on_source_sha: "3d6dd72155889f1d665e82cd50b9f97996a5f5a5"
+dependency_status: verified_predecessor_factual_delta_compatible
+timeframe: "Day159 20:27—Day160 20:00，第157/158次夜班"
+summary: >-
+  Day159 20:27林叶因为东南街东过道电气隔离仍未解除想取得工作室内两件衣物“损坏证明”，夏宁周衡分清本人实际上只能确认无法进入而不知衣物是否损坏。21:05范先生到门外，正是Day159下午从林叶手中实际领走一件已完成成衣并同意另两件延期的顾客；取衣条所列灰外套袖口未完和裙子拉链未装仍在封门里，他为Day160上午妹妹退休合影想取灰外套，梁策与物业拒非法绕西安全楼梯或由顾客自担风险代电气专业解封，22:16持证夜值仅证隔离未解。范提出带旧夹克到合法外部桌台另修，物业23:42确认确有工作室不可到达而不能直接判定损坏和赔偿。Day160 08:43物业与安全经办合法实核工作室受限范围，只出有日期的不可进入说明、按林叶要求纠正“整栋停业”，非损坏鉴定或开门许可；09:24专业开检。11:07林叶在借来的街口铺子真正改好范的旧夹克，双方按原收据取消未完工的灰外套旧单并退款，灰外套实物仍未取出；裙子由同一范先生同意延期，新夹克另列已实作收费新单，不得计作原已交付衣物。14:30专业换受潮部件但测试/验收/通行开放会签仍未批准。20:00第158夜班交接，东门封禁不变，原296实交一件＋新另交旧夹克＋原灰外套退款＋裙子延期来源明晰。F003历史2018暂不对应及2019号非原业务共同号、1996真人回告、F008可靠新矛盾和M004/M005仍未知；雨棚查询卡十放六领余四、公众夜间代拨公话未批准、白榆路旧工门未开。
+meaningful_state_changes:
+  - "物业出具特定时点/范围的工作室真实不可进入记录，并改正不实整栋楼停业；不宣称衣物损坏或赔付。"
+  - "同一范先生灰外套旧订单真退款但实物仍在楼上，新旧夹克改袖11:07另件真完成/另收款，裙子由本人同意延期。"
+  - "Day160专业施工只换受潮电气部件，未完成测试/验收/通行会签，依法禁入不取消。"
+knowledge_updates:
+  - "无法进入工作间不同于眼见衣物损坏；物业有限情况说明、专业拆件、绝缘测试、复电及允许公众进入各属不同证明。"
+  - "主角及商户明确同一位范先生Day159已领一件、其余灰外套和裙子待取；款项退款也不证明物理衣物返还。"
+foreshadowing_updates:
+  - "F003仅延续原2018/2019/2022历史权证界限，无1996本人真回话及两册同笔的新证；F008无新增可靠个人记忆差异，M004/M005继续未证。"
+relationship_updates:
+  - "林叶拒向顾客转嫁未知等待及不实损坏证明，与范先生亲自按票据退款/另做改袖/裙子延期，私人合同由双方自决；物业只记录合法通道真实限制。"
+ending_state: "Day160 20:00第158夜班；东南街东过道和工作室仍隔离不可进，原灰外套未取、交易退款而物品返还待合法恢复，裙子延期，新夹克另单实交；本章不改变1996本人历史回告未知的证据边界。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "8dfd769dc1742103b3db3c228f1beac42ee01a7f", final_draft_sha: "9eefff278145ed36ea44e37aea00369dad010c93", stage_a_used: 1, body_revisions: 2, predecessor_body_change_verified: true, dependency_metadata_rebound: true, corrected_chars: "3014 to 3040"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3040

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 296
+last_updated_chapter: 297
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -794,3 +794,11 @@ chapter_296_relationships:
   merchant_and_property: "林叶要求公开纠错和本人真实有限交付记账；费嵘删无据的已安置说法、只记录商户自愿告知范围，顾客只签自己收的一件。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "物业不复制顾客电话、不替商户签收余2件、不追集全部受影响商户身份。"
+
+chapter_297_relationships:
+  chapter: 297
+  source_sha: "9eefff278145ed36ea44e37aea00369dad010c93"
+  merchant_customer: "林叶坦言不知工作室何时复开，不再逼范先生等；双方按原单退款灰外套未完工款、另计临时改袖已完成新单，裙子同顾客自愿延期。"
+  center_and_property: "梁策拒以顾客同意代电气安全许可，夏宁周衡不拿未知损害替商户签证；费嵘按实际范围提供不可进入记录不判赔。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不把商户收据金额/顾客电话地址送公共工单，不以退款证明灰外套已物理取回。"

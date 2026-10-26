@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 296
+last_updated_chapter: 297
 characters:
   zhou_heng:
     location: "Day147 20:00，第145次夜班开班"
@@ -1021,3 +1021,14 @@ chapter_296_verified:
   new_merchant: "林叶只把车上已完成衣物一件亲交顾客并本人签单，另两件仍在封闭工作室，拒认整体已安置。"
   main_cast_injuries: none_new
   final_location: "Day159 20:00第157夜班，中心留现场与公众网页复核，东侧电气隔离未解除。"
+
+chapter_297_verified:
+  chapter: 297
+  source_sha: "9eefff278145ed36ea44e37aea00369dad010c93"
+  timeframe: "Day159 20:27—Day160 20:00"
+  zhou_heng: "不代林叶写屋内布料损坏证明，分清有据无法进入/未知原衣状态及专业电箱安全，记录人员合法取物请求与现场禁入。"
+  xia_ning: "Day159夜间纠物业无伤亡故无经营影响的过度推断，Day160只按职权分源记录真实限制、单据、退款、另件实作与裙子延期。"
+  liang_ce: "拒绝范先生自行担风险进入禁区，西楼梯原合法范围不经库间通往东过道，不改专业隔离。"
+  merchant_and_customer: "林叶经营受阻而不虚写实物损坏；范先生是第296章下午实际取一件的同一顾客，原灰外套旧单退款但实物未取，另做旧夹克改袖、未装拉链裙由他同意延期。"
+  main_cast_injuries: none_new
+  final_location: "Day160 20:00第158夜班；原东侧工作室未获公众开放许可。"
