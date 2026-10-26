@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 295
+title: "三张答复拼不成一通电话"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "4210c954bf37c4e15b04e68db8ded7ec5cf9d657"
+reader_review: reader_reviews/0295_4210c954.md
+depends_on_chapter: 294
+depends_on_source_sha: "1fe056f8610ee99f13681c7b705b3ce053c25e0d"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day157 20:21—Day158 20:00，第155/156次夜班"
+summary: >-
+  Day157 20:21中心按前一日两项仅受理的窄申请准备查2022合法来源类别和后续系列，周衡提出另问2019未结转交号能否作1996普通照明与2006旧站回拨册共同原业务号；罗谨先确认程序登记附问，不抄受限原号。维修点楼道临时灯虽已亮但配电箱仍隔离，专业处置至夜里11:12只准原安全楼梯不撤禁入。Day158 00:47馆方仅发程序通知，09:16罗谨到现行利用室。10:08正式书面解释2022工作复制页「待补合法可比对来源」类别仅指获准的共同原业务标识或依法核实不同单位记录对应关系的来源材料，不能据解释断言材料已存在。11:27主管另书面确认2019号只属馆内未结整理任务流转识别，不是1996/2006业务原号，具体内部号码仍受限；第三项后续状态系列只获得专业评估进度，未获阅览批准。12:30罗谨按两份真答复与一项评估向中心分源，14:55去身份公开文字转达，梁策暂停无独立来源的重复拼号。Day158 18:00门外十张查询卡实取六余四，夜间普通代拨和公共电话没有新批准，旧站东施工门持续封闭；南侧公众路仍须当次专业核。20:00第156夜班开始，2018暂不对应未改、2022限阅结果空栏只证所见，1996旧人本人真收讯、两类旧业务同笔及M004/M005均未证。
+meaningful_state_changes:
+  - "10:08取得2022待补合法可比对来源所需材料类别的正式有限书面解释，不证明来源实际存在或旧业务比对完成。"
+  - "11:27确认2019整理任务流转号非1996与2006的共同原业务标识，排除误关联并暂停无新证拼号。"
+  - "另一后续系列仍专业评估未准阅，夜间楼道安全也区分照明恢复和电箱未解除隔离。"
+knowledge_updates:
+  - "周衡夏宁梁策罗谨知道馆内整理流转号只追交接任务，不证明旧原业务同笔或原报修人本人听过回话。"
+  - "两项许可范围内书面答复与第三项评估进度必须分栏，2018暂不对应及2022限阅空栏的事实范围不被扩张。"
+foreshadowing_updates:
+  - "F003新增有界负向排误；F008无新可靠本人记忆矛盾，M004/M005未确认，旧报修人收讯仍无证明。"
+relationship_updates:
+  - "周衡愿停止凭号码求对应，夏宁坚持分答复来源，梁策拒无源多次查询，罗谨守现行窗口权限；互信无新数值变化。"
+ending_state: "Day158 20:00第156夜班，中心持两项有权书面答复与一项待评估进度，查询卡余四，旧电话真实人身回话仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "4210c954bf37c4e15b04e68db8ded7ec5cf9d657", final_draft_sha: "4210c954bf37c4e15b04e68db8ded7ec5cf9d657", body_revisions: 0, local_revision_used: 0, predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, predecessor_exact_ready: true, structural: exact_candidate_commit_CI_required}
+char_count: 2935

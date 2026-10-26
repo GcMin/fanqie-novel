@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 292
+last_updated_chapter: 295
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -778,3 +778,11 @@ chapter_294_relationships:
   custodian: "罗谨尊重新的资料利用岗位与保管审批，季老师不替旧人补签。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "2022人员原号、附件、相邻行未获准阅，不将副本入袋冒作真人答复。"
+
+chapter_295_relationships:
+  chapter: 295
+  source_sha: "4210c954bf37c4e15b04e68db8ded7ec5cf9d657"
+  center: "周衡提出查号并接受2019号不能拼接历史业务的正式答复；夏宁分清两份真答复与第三项未核，梁策不让未证内容改成结论；主角互信分数无无据调整。"
+  custodian: "罗谨依法从现行岗位取得准公开的材料类别和整理号用途说明，季老师不给旧岗位越权代签结论。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不列受限2019流转号具体值及1996/2006私人业务标识，不读取未授权后续系列，也不把副本保管接收充当旧人亲收回话。"

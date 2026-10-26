@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 294
+last_updated_chapter: 295
 characters:
   zhou_heng:
     location: "Day147 20:00，第145次夜班开班"
@@ -999,3 +999,14 @@ chapter_294_verified:
   custodian: "罗谨获限项查2022复制件，13:46新岗位实收两项申请，一项待专业许可。"
   main_cast_injuries: none_new
   final_location: "Day157 20:00第155夜班，2018原件仍在保护夹、2022副本另袋。"
+
+chapter_295_verified:
+  chapter: 295
+  source_sha: "4210c954bf37c4e15b04e68db8ded7ec5cf9d657"
+  timeframe: "Day157 20:21—Day158 20:00"
+  zhou_heng: "提出2019整理号是否能链接1996/2006旧业务原号，经11:27有权书面排除后停掉无独立来源拼号的申请。"
+  xia_ning: "区分10:08来源类别说明、11:27号用途书面答复与第三项仅专业评估进度，并将当代照明报告另案分栏。"
+  liang_ce: "临时照明复亮仍坚持电箱安全隔离与专业确认，阻止把馆内整理任务签收写成旧报修人实收。"
+  custodian: "罗谨走现行合法利用室和主管权限，取得两份可转去身份书面答复，尚待批的其它系列不阅。"
+  main_cast_injuries: none_new
+  final_location: "Day158 20:00第156夜班，中心收两份有限答复与一份待评估进度。"

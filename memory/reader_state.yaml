@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 294
-last_reviewed_title: 移交清单上的空椅子
-last_source_path: chapters/draft/0294.md
-last_source_sha: b907c28a4739b0af4a1ca57b3e1b19a5079916ea
-last_review_path: reader_reviews/0294_b907c28a.md
+last_reviewed_chapter: 295
+last_reviewed_title: 三张答复拼不成一通电话
+last_source_path: chapters/draft/0295.md
+last_source_sha: 4210c954bf37c4e15b04e68db8ded7ec5cf9d657
+last_review_path: reader_reviews/0295_4210c954.md
 last_reviewed_at: "2026-10-26"
-reviewer_mode: combined_audit_new_sha_independent_A_then_B
+reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 293
-depends_on_source_sha: 920a7eec93447c024f1b350cb543e1a7e3d8c855
-dependency_status: verified_predecessor_body_identical_ready
-predecessor_current_source_sha: 920a7eec93447c024f1b350cb543e1a7e3d8c855
+depends_on_chapter: 294
+depends_on_source_sha: 1fe056f8610ee99f13681c7b705b3ce053c25e0d
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 1fe056f8610ee99f13681c7b705b3ce053c25e0d
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1187,5 +1187,19 @@ chapter_294_audit_20261026:
   predecessor_original_sha: "7b5a647a61c741297cdb773f844a3b3cbb4e5d22"
   predecessor_ready_blob: "920a7eec93447c024f1b350cb543e1a7e3d8c855"
   predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_295_20261026:
+  chapter: 295
+  source_sha: "4210c954bf37c4e15b04e68db8ded7ec5cf9d657"
+  review: reader_reviews/0295_4210c954.md
+  reviewer_mode: independent_pass_a_then_b
+  counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  fix_required: none
+  predecessor_ready_sha: "1fe056f8610ee99f13681c7b705b3ce053c25e0d"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

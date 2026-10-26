@@ -1,3 +1,6 @@
+# 第295章审核候选（2026-10-26）
+Writer草稿Blob `4210c954bf37c4e15b04e68db8ded7ec5cf9d657`，正文2935有效字，前章294 ready `1fe056f8610ee99f13681c7b705b3ce053c25e0d`精确匹配。独立Reader Pass A/B：0 BLOCKER、0 MAJOR、2 MINOR，keep/none，正文零修；独立Continuity/Style/Meaningful QA PASS。两份有权书面答复仅明确2022待补合法可比对材料类别及2019馆内整理号不能当1996/2006共同原业务号；第三项只是专业评估、1996真人收讯与M004/M005仍未证。雨棚原10卡实取六余四，夜间普通代拨和公话未续批，东工门封。新295摘要、关系、人物、知识、世界、时间线和F003均已纳入候选，现仍须**候选精确Git Commit结构CI SUCCESS**才能合入main ready；详见qa/0295_report.md。
+
 # 第293—294章候选审查（2026-10-26）
 293原稿7b5a647a61c741297cdb773f844a3b3cbb4e5d22 Reader0/0/2、无正文修订、独立Continuity/Style/Meaningful PASS，前章292最终ready 7e7f141525bc6a2c092eed274937258945181033精确匹配，3478有效字。294原稿e1531ae5a62192cbcd5fd78125cda2981a928d58 Reader0/2/2，Stage A只纠两处相对时间与前章293依赖，修订稿b907c28a4739b0af4a1ca57b3e1b19a5079916ea新独立Reader0/0/2、内容QA PASS，3254有效字。293 draft至ready正文逐字一致，新293 ready 920a7eec93447c024f1b350cb543e1a7e3d8c855与294新依赖绑定；2022保管收件不证旧业务完成。只有匹配准确候选Git commit的CI实际SUCCESS后，才可放行main，详见qa/0293_report.md及qa/0294_report.md。
 
