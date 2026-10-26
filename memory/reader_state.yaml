@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 295
-last_reviewed_title: 三张答复拼不成一通电话
-last_source_path: chapters/draft/0295.md
-last_source_sha: 4210c954bf37c4e15b04e68db8ded7ec5cf9d657
-last_review_path: reader_reviews/0295_4210c954.md
+last_reviewed_chapter: 296
+last_reviewed_title: 亮着绿灯的那道封门
+last_source_path: chapters/draft/0296.md
+last_source_sha: e79156cfb89e9d8fd09a9753ec7022f4c80a590b
+last_review_path: reader_reviews/0296_e79156cf.md
 last_reviewed_at: "2026-10-26"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 294
-depends_on_source_sha: 1fe056f8610ee99f13681c7b705b3ce053c25e0d
+depends_on_chapter: 295
+depends_on_source_sha: aad023b7d75e75929483231f3e789aec1ea854c4
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 1fe056f8610ee99f13681c7b705b3ce053c25e0d
+predecessor_current_source_sha: aad023b7d75e75929483231f3e789aec1ea854c4
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1201,5 +1201,20 @@ combined_audit_chapter_295_20261026:
   fix_required: none
   predecessor_ready_sha: "1fe056f8610ee99f13681c7b705b3ce053c25e0d"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_296_20261026:
+  chapter: 296
+  title: "亮着绿灯的那道封门"
+  original_source_sha: "3042fa0cb97618a6ab841368e984c0af2779af10"
+  original_review_path: reader_reviews/0296_3042fa0c.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  corrected_source_sha: "e79156cfb89e9d8fd09a9753ec7022f4c80a590b"
+  review_path: reader_reviews/0296_e79156cf.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  revision: "StageA一处更正Day157完工到Day158误推的真实顺序，字数2945到2970。"
+  predecessor_ready_sha: "aad023b7d75e75929483231f3e789aec1ea854c4"
+  predecessor_exact_ready: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

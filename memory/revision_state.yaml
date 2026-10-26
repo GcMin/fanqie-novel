@@ -1,13 +1,13 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 295
+current_chapter: 296
 current_stage: structural_gate_pending
-current_source_path: chapters/draft/0295.md
-current_source_sha: 4210c954bf37c4e15b04e68db8ded7ec5cf9d657
-current_review_path: reader_reviews/0295_4210c954.md
+current_source_path: chapters/draft/0296.md
+current_source_sha: e79156cfb89e9d8fd09a9753ec7022f4c80a590b
+current_review_path: reader_reviews/0296_e79156cf.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
@@ -851,4 +851,19 @@ chapter_295_revision_20261026:
   predecessor_ready_blob: "1fe056f8610ee99f13681c7b705b3ce053c25e0d"
   predecessor_exact_ready: true
   content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_296_revision_20261026:
+  original_sha: "3042fa0cb97618a6ab841368e984c0af2779af10"
+  original_review: reader_reviews/0296_3042fa0c.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "e79156cfb89e9d8fd09a9753ec7022f4c80a590b"
+  final_review: reader_reviews/0296_e79156cf.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  correction: "Day159昨夜错误对应Day157完工，区分Day157灯状状态与Day158 20:03错误推送；字数2945→2970。"
+  predecessor_ready_blob: "aad023b7d75e75929483231f3e789aec1ea854c4"
+  predecessor_exact_ready: true
+  continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required

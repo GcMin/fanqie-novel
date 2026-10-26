@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 295
+last_updated_chapter: 296
 characters:
   zhou_heng:
     location: "Day147 20:00，第145次夜班开班"
@@ -1010,3 +1010,14 @@ chapter_295_verified:
   custodian: "罗谨走现行合法利用室和主管权限，取得两份可转去身份书面答复，尚待批的其它系列不阅。"
   main_cast_injuries: none_new
   final_location: "Day158 20:00第156夜班，中心收两份有限答复与一份待评估进度。"
+
+chapter_296_verified:
+  chapter: 296
+  source_sha: "e79156cfb89e9d8fd09a9753ec7022f4c80a590b"
+  timeframe: "Day158 20:32—Day159 20:00"
+  zhou_heng: "仅在警戒外比对独立临灯电源与读卡器、电锁的专业记录，不碰带隔离的电箱，Day159回到中心分清实告知与真开放。"
+  xia_ning: "把商户一次试刷未开、物业现场观察、持证夜值隔离证明、公开文案误推与后续更正按来源分栏，未冒认所有居民收到通知。"
+  liang_ce: "Day158阻止远程开门或用库间绕过隔离，守住东过道专业许可。"
+  new_merchant: "林叶只把车上已完成衣物一件亲交顾客并本人签单，另两件仍在封闭工作室，拒认整体已安置。"
+  main_cast_injuries: none_new
+  final_location: "Day159 20:00第157夜班，中心留现场与公众网页复核，东侧电气隔离未解除。"

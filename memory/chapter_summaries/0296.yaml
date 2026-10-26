@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 296
+title: "亮着绿灯的那道封门"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "3042fa0cb97618a6ab841368e984c0af2779af10"
+source_draft_sha: "e79156cfb89e9d8fd09a9753ec7022f4c80a590b"
+reader_review: "reader_reviews/0296_e79156cf.md"
+prior_review: "reader_reviews/0296_3042fa0c.md"
+depends_on_chapter: 295
+depends_on_source_sha: "aad023b7d75e75929483231f3e789aec1ea854c4"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day158 20:32—Day159 20:00，第156/157次夜班"
+summary: >-
+  Day157 23:12临时照明完成但配电箱仍隔离；Day158物业平台20:03把照明状态误推为通行条件恢复。20:32林叶从平台绿字和识别绿灯误以为东过道可进入，一次刷卡门仍锁、本人留在警戒外，20:51费嵘到场，21:28将被照明便笺遮挡的禁入牌重新显露，22:06持证夜值只确认隔离仍有效；夜间她自愿要求更正误导公开提示。Day159 09:16维护人员按日志区分Day157照明异常解除与Day158 20:03通行误推，读卡绿灯仅识别有效卡、未解锁；10:48物业主管批准两行分源公开更正并留旧记录。13:13林叶借桌真交付一件随身成衣，另外两件仍在东侧封闭工作室延期；14:34专业复核电箱受潮部件待拆检、绝缘与复电审批未完；费嵘按本人意见纠误“已安置”记录为自行有限调货；17:52现场牌与普通用户网页双重核见有效而禁入措施未撤。Day159 20:00第157夜班开。2018 A2暂不对应、2019只是馆内任务流转号、2022后续系列评估待批，1996真人历史回告、F008可靠新样本及M004/M005仍不证；雨棚十卡取六余四、夜间代拨公话无新批准、旧站施工东门封闭。
+meaningful_state_changes:
+  - "按权纠正被遮挡禁入牌和自动误导的通行绿色公开提示并留原历史版、用户视角实核，电箱不冒充已解隔离。"
+  - "林叶只真交付一件顾客已确认的衣服，另两件因东通道未开放而延期；物业删掉无据的已安置口径。"
+knowledge_updates:
+  - "Day157照明任务真实完成与Day158 20:03自动错误通行推送不同步；低压读卡绿灯只证识别、不等于门锁授权或电气专业解除。"
+  - "周衡夏宁梁策费嵘按证据来源区分误发平台文案、现场禁入、专业作业许可、商户实际有限交付和本人接收。"
+foreshadowing_updates:
+  - "F003当代错误状态仅作来源分层对照不创造1996/2006同笔或旧人真人接收证据；F008无新可靠样本，M004/M005未确认。"
+relationship_updates:
+  - "林叶拒让物业把借桌交一件说成已安置；费嵘按其真实范围改记录，顾客只签自己收到的一件，不扩大隐私记录。"
+ending_state: "Day159 20:00第157夜班，物业误导公开版与现场禁入告示纠正可复核，东侧电气隔离、专业拆检/复电许可和工作室进入仍待办；林叶1件已交2件待取，历史旧回告无新证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "3042fa0cb97618a6ab841368e984c0af2779af10", final_draft_sha: "e79156cfb89e9d8fd09a9753ec7022f4c80a590b", stage_a_used: 1, body_revisions: 1, corrected_chars: "2945 to 2970", predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2970
