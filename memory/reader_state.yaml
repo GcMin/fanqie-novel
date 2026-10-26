@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 308
-last_reviewed_title: 第十五张纸，没有印刷记录
-last_source_path: chapters/draft/0308.md
-last_source_sha: 4f1f6e8a70581ee94d7372a71b0f43dfa3779944
-last_review_path: reader_reviews/0308_4f1f6e8a.md
+last_reviewed_chapter: 309
+last_reviewed_title: 纸上写着步行，车轮另找出口
+last_source_path: chapters/draft/0309.md
+last_source_sha: 9cd87d961861da47a0d48c5654a78aea9a60fd26
+last_review_path: reader_reviews/0309_9cd87d96.md
 last_reviewed_at: "2026-10-27"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 307
-depends_on_source_sha: 30014c1573383b89e62dbac8ebeeb601526562db
+depends_on_chapter: 308
+depends_on_source_sha: d9854e943724450a62c17f9fad4a426ddd758d3d
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 30014c1573383b89e62dbac8ebeeb601526562db
+predecessor_current_source_sha: d9854e943724450a62c17f9fad4a426ddd758d3d
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1419,4 +1419,20 @@ combined_audit_chapter_308_20261027:
   predecessor_ready_blob: "30014c1573383b89e62dbac8ebeeb601526562db"
   dependency_status: verified_exact_ready_blob
   body_revisions: 0
+  structural_gate: exact_candidate_commit_CI_required
+chapter_309_reader_20261027:
+  original_sha: "2cc2b26cb5e1ccfac99ff05c737f1db770668083"
+  initial_review: reader_reviews/0309_2cc2b26c.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_source_sha: "9cd87d961861da47a0d48c5654a78aea9a60fd26"
+  final_review: reader_reviews/0309_9cd87d96.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  content_qa: pass
+  depends_on_chapter: 308
+  predecessor_ready_blob: "d9854e943724450a62c17f9fad4a426ddd758d3d"
+  dependency_status: verified_exact_ready_blob
+  stage_a_body_edits: 5
   structural_gate: exact_candidate_commit_CI_required

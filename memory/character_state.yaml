@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 308
+last_updated_chapter: 309
 characters:
   zhou_heng:
     location: "Day147 20:00，第145次夜班开班"
@@ -1162,3 +1162,15 @@ chapter_308_characters:
   activity_room: "刘玲Day170原提16份全纠统计被退回，改承认盖章导致误信；街道11:17仅许可自管服务窗口限时更正，13:05日间服务电话当面实际接通。"
   main_cast_injuries: none_new
   final_location: "Day170 20:00第168夜班；14旧原件7实控7未收、复制2件各实控，额外传播未知，路口与公交当次权限不变。"
+
+chapter_309_characters:
+  chapter: 309
+  source_sha: "9cd87d961861da47a0d48c5654a78aea9a60fd26"
+  timeframe: "Day170 20:18—Day171 20:00"
+  zhou_heng: "Day170夜将小徐口述错过公交和他没拿红章纸分别登记，保存原印14/7/7与复制2件Day170 15:26受控的分账；Day171 20:00第169夜班接收白班有界停车入口和可读公告照片。"
+  xia_ning: "20:26先问小徐安全停车位置与同意转话范围，不把Day169个人误班口述伪造外部班次证明；核21:52停架入站与22:06有限本人登车，在Day171晨08:00依法交白班。"
+  liang_ce: "21:06现场拒让骑手试闯施工东巷、装卸口或未经批准的候车栏杆停车处；21:31获得各岗位核路径后只提供三段明确路线，不拍全程位置轨迹。"
+  citizens: "谢婶承认Day169前夜口头指错封桥路并愿自管撤旧；小徐自述桥口倒车擦痕与误班、实获安全路线并真停车步行入站，拒透露完整行程。"
+  station_and_day_shift: "Day171白班分岗查西侧非机动车道、公共车架与最后步行路；11:47首次新公告被促销框遮挡，14:07公众车把视角修正并留前后照片，16:22当次限项复查。"
+  main_cast_injuries: none_new
+  final_location: "Day171 20:00第169次夜班；公交62路新站继续运行，施工天桥卸货道公众封闭，旧原纸7未收另两复制已受控。"

@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 309
+title: "纸上写着步行，车轮另找出口"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "2cc2b26cb5e1ccfac99ff05c737f1db770668083"
+source_draft_sha: "9cd87d961861da47a0d48c5654a78aea9a60fd26"
+ready_blob_sha: "95612b5039ab4a1663881be0383416b063079673"
+prior_review: "reader_reviews/0309_2cc2b26c.md"
+reader_review: "reader_reviews/0309_9cd87d96.md"
+depends_on_chapter: 308
+depends_on_source_sha: "d9854e943724450a62c17f9fad4a426ddd758d3d"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day170 20:18—Day171 20:00，第168/169次夜班交接"
+summary: >-
+  Day170 20:18谢婶前晚口头误指封闭施工天桥的骑车青年小徐自主到馄饨摊，自述Day169 19时许因误指在桥口倒车擦护栏且误过公交，缺外部班次和伤情核证，他未持有旧红章原纸。20:26夏宁接其同意的有限通话，周衡不将人证记为旧纸实物回收；20:43道路夜值有权再核施工天桥和装卸口禁公众及地面信号灯路当次准行人，不能推非机动车骑行许可。21:06梁策见东侧巷口施工围挡与装卸通道禁行，21:19交通值守分责核西侧既有非机动车通路，站务确认自管公共自行车架开放、栏杆不能停车；21:31交通/道路/站务分别核到架路径、停车及从架到新站步行净宽照明，排水盖板旁积水作可见提示仍待巡检。21:52小徐自报真把车锁在合法架位并步行进开放候车区，站务有范围核到；22:06公交依Day165迁站令停靠，小徐本人自报上车且站务核实际停靠和乘客，个人终点未知。22:34站务查停车指引被宣传框和错箭头遮挡，暂用当班口告、留证、不画未准道路箭头。Day171 08:00第168夜班交白班，09:42交通岗限项复查西侧路线、10:16车架管理者按程序移走挡消防通路的广告推车；11:08站务仅获自管牌面许可，11:47首贴被促销折页遮挡，14:07经公众车把视角改朝向移框并复看，16:22当次再限项复查且少量积水续巡；谢婶傍晚承认前晚误指并愿于自管菜单区撤旧，不冒认扩大其它经营点批准。Day171 20:00第169夜班，中心保留初贴受挡及复看两图，原活动室红章14张5撤2返=7实控/7未收，另两复印件Day170 15:26分别交接，小徐没有拿纸、未知其它复制及真人接告范围。62路新站持续合法、施工天桥及卸货口仍禁公众；白榆路工门封/十卡取六余四和普通夜间代拨权限不变，F003/F008/M004/M005没有新增历史机制证据。
+meaningful_state_changes:
+  - "前章未知骑车人小徐自主提供有界口头误指亲历，仍不把误班/碰擦个人口述认作外部已核事故。"
+  - "21:31分权核清合法非机动车到架、停车、站务步行段，21:52小徐实际入候车区、22:06有限实乘证据。"
+  - "Day171站务自行车停车指示经许可，从促销框遮挡更正为公众来向可见且留前后对照照片。"
+knowledge_updates:
+  - "西侧非机动车道通行、合法停车架可用和最后步行入口分别需有权时点，普通行人过街许可不能推骑车可走。"
+  - "第308章最新ready d9854e94与309依赖精确，原纸14/7/7和另2复制品各自受控不被小徐口头回话改变。"
+foreshadowing_updates:
+  - "现代口头误指及有限自行车通行核验不证F003历史1996个人获得回话/2018同笔、F008新本人记忆矛盾或M004/M005。"
+relationship_updates:
+  - "小徐不提供家庭车牌轨迹仍得到本人需要的路线答复，谢婶承认自己的误指并愿自管撤旧提示；夏宁周衡不将个人骑行结果外推全体公众。"
+ending_state: "Day171 20:00第169夜班，自行车西侧合法入架与入站步行路线曾当次真实核验，站务公众导向有界更正；原纸7未收与复制传播未知，施工桥未开放。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "2cc2b26cb5e1ccfac99ff05c737f1db770668083", final_draft_sha: "9cd87d961861da47a0d48c5654a78aea9a60fd26", stage_a_used: 1, body_revisions: 5, corrected_chars: "3356 to 3352", predecessor_ready_blob: "d9854e943724450a62c17f9fad4a426ddd758d3d", predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3352

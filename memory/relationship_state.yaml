@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 308
+last_updated_chapter: 309
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -893,3 +893,12 @@ chapter_308_relationships:
   center_and_road: "夏宁夜值重新核现时路况，梁策不代道路岗画永久路线，白班各岗位核街道窗口与店铺自管实物交接，不让市民冒险试桥。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "不得调田璟完整私人聊天、店铺顾客消费记录、彭穗配送去处或未知骑车人车牌；未知真误入/获告不补成已证事实。"
+
+chapter_309_relationships:
+  chapter: 309
+  source_sha: "9cd87d961861da47a0d48c5654a78aea9a60fd26"
+  citizen_and_center: "小徐担心骑车人不熟新站被责，却自愿公开有限时间和到站结果、不交车牌轨迹或完整目的地；梁策与交通/站务只给有权核过的三段路径，不把他的经历当全体骑手验收。"
+  shop_and_public: "谢婶承认自己Day169依据红章错纸口头误指路的责任，愿在自己菜单旁放撤旧提醒，不替街道或其它商户签道路开放。"
+  public_notice: "白班一位站务同事从骑车人车把视角指出新贴指引被遮住，管理者按权移框调向，初贴/复看两照真实留证，修复关系来自可见行动。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不索小徐车牌、手机轨迹、雇主记录或未知旧纸持有人名单；本人错过Day169哪班车仍待外证，Day170有限上车不倒推个人到家或全员获更正。"
