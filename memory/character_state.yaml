@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 299
+last_updated_chapter: 300
 characters:
   zhou_heng:
     location: "Day147 20:00，第145次夜班开班"
@@ -1054,3 +1054,14 @@ chapter_299_verified:
   passengers_and_operator: "黎翠英、郭姨与学生Day161 21:16真登六十二路末班，宋钧遵守运营主管20:53旧站合法停靠指令，其他乘客结果未证。"
   main_cast_injuries: none_new
   final_location: "Day162 05:12以后仍第159次夜班，新站坡板待修复/复核，原05:30迁移正式延期、首班合法续停旧站。"
+
+chapter_300_verified:
+  chapter: 300
+  source_sha: "0db51073b9f333b4f95fa9b588ebd731bdb5be7b"
+  timeframe: "Day162 05:19—20:00"
+  zhou_heng: "05:19—08:00把停迁令与公众仍误见新站分列；08:00真实交白班。20:00第160夜班接源端已纠但第三方缓存仍未全面实核的交接。"
+  xia_ning: "05:19追问内部停迁与公众查询差异，区分孟岚实际上车与首班旧站真实停靠；白班09:54及16:18事项由白班值守员负责，不再无据延时当班。"
+  liang_ce: "05:43到新站合法人行道，不替道路责任岗批准雨后捷径；06:12取得有权道路实核后仅复述可走路段。"
+  new_passenger: "孟岚05:35依错误手机位置在新站围挡外等车，05:58错过旧站合法首班，06:26本人确实在旧站上次班；16:18本人仍在第三方查询见过时绿点，雇主考勤未知。"
+  main_cast_injuries: none_new
+  final_location: "Day162 20:00第160次夜班，正式旧站续用，新站仍待专业验收和新迁站许可。"

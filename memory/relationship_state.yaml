@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 299
+last_updated_chapter: 300
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -818,3 +818,11 @@ chapter_299_relationships:
   center_and_contractor: "梁策要求暂缓对候车区风险的拆除，夏宁追司机真实终端与公示误发，施工郑师傅并非有权决定站点运营的人。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "黎翠英本人电话有限确认上车，不索真实住址/身份证或将三人送达扩充为全体乘客。"
+
+chapter_300_relationships:
+  chapter: 300
+  source_sha: "0db51073b9f333b4f95fa9b588ebd731bdb5be7b"
+  passenger_and_operator: "孟岚自愿遵循06:12道路实核合法路回到旧站、实际乘06:26次班；拒以运营中心记录代替食堂考勤。司机不得因为她误到施工新站改变原合法停靠点。"
+  center_and_operator: "夏宁仅负责当时05时夜班追问与20时新夜班交接；白班负责09:54后实际纠错结果和16:18本人回告，梁策不越道路专业职权。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不要求孟岚提交工牌/个人雇主考勤，不把单人真实登车外推所有乘客已获知更正。"

@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 300
+title: "去新站的人，等不到旧站的车"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "b309b038f6e1f711b8df8c1f7ecdc1579920e729"
+source_draft_sha: "0db51073b9f333b4f95fa9b588ebd731bdb5be7b"
+prior_review: "reader_reviews/0300_b309b038.md"
+reader_review: "reader_reviews/0300_0db51073.md"
+depends_on_chapter: 299
+depends_on_source_sha: "b6bfa09596aa7f03d144baae118b3ccb9a08d1c8"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day162 05:19—20:00，第159/160次夜班交接"
+summary: >-
+  Day162 05:19夏宁发现运营主管05:12因坡板未验收延期拟05:30迁新站，但04:46公众预置数据仍引人到新站。05:35孟岚依手机错至围挡外，05:58合法旧站首班真停而她漏乘；06:07—06:12道路责任岗实核合法行路，孟岚自行回原站并于06:26真乘次班，本人确认上车但到店与考勤不由中心代证。08:00夜班交白班，09:06信息岗找到停迁令入调度/官方公告而预置外发队列未撤错误迁站计划，09:54主管有权纠官方源并实核，10:20另终端仍旧缓存，更正通知不等于全体实见。11:41两端限项纸告实读；14:00坡板只有施工完成报告没有专业验收/新迁站生效令；16:18孟岚向白班回报本人第三方手机仍错，官方入口已改。Day162 20:00第160次夜班开，原站有效新站禁候车。白榆路独立旧站工门仍封、十张卡六领余四、普通代拨公话无常态批准；东南街原店复开灰外套已真返仍有效；F003旧1996本人历史收答、旧业务同笔未知，F008/M004/M005不增证。
+meaningful_state_changes:
+  - "孟岚依错误公众查询错过05:58首班，经有责道路岗当次核合法路后实际06:26登旧站次班。"
+  - "09:06核预置外发队列未撤停迁计划、09:54官方有权纠源，第三方缓存仍有实际未核传播。"
+  - "11:41两端公告实核，14:00坡板只有施工完工而新站验收和迁移许可未获。"
+knowledge_updates:
+  - "调度合法指令、官方公告、预置公开数据及各第三方缓存属于不同送达链，运营源端正确不证明所有市民真见。"
+  - "夜班20:00—08:00与白班真实岗位分开，中心只认孟岚确实上车不代证雇主考勤、所有乘客收到通知。"
+foreshadowing_updates:
+  - "F003历史真人收答和旧业务同笔未证；F008/M004/M005无新增异常机制证据。"
+relationship_updates:
+  - "孟岚自主拒险路并自行决定返旧站，也拒公交中心冒签雇主记录；梁策及夏宁严格分真实时点、权限与回告。"
+ending_state: "Day162 20:00第160次夜班，旧站有效，新站待专业复验，官方源纠正但外部缓存与实际公众收到更正的范围未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "b309b038f6e1f711b8df8c1f7ecdc1579920e729", revised_sha: "0db51073b9f333b4f95fa9b588ebd731bdb5be7b", stage_a_used: 1, body_revisions: 2, corrected_chars: "3139 to 3122", predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3122

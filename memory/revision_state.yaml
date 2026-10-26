@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 299
+current_chapter: 300
 current_stage: structural_gate_pending
-current_source_path: chapters/draft/0299.md
-current_source_sha: 2c64bc22855038b7a7545e4495caeef0d060f1c6
-current_review_path: reader_reviews/0299_2c64bc22.md
+current_source_path: chapters/draft/0300.md
+current_source_sha: 0db51073b9f333b4f95fa9b588ebd731bdb5be7b
+current_review_path: reader_reviews/0300_0db51073.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_298_299_reader_revision_qa_memory_ready_candidate
+last_action: audit_300_reader_revision_qa_memory_ready_candidate
 last_action_date: 2026-10-26
 last_error: null
-last_diff_summary: "298 Reader0/0/2不修正文；299 Reader0/2/2经StageA仅修前章正式ready SHA和Day162清晨末句，3222字新SHA Reader0/0/2；两章内容QA PASS待精确候选CI"
+last_diff_summary: "第300章Reader0/1/2，StageA修白班值守归属2处，3122字新SHA Reader0/0/2；QA PASS待精确候选CI"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -908,6 +908,22 @@ chapter_299_revision_20261026:
   metadata_revisions: 3
   correction: "旧298 provisional SHA重绑最终ready（两版本正文完全相同）并纠Day162清晨已知首班旧站后原稿明早错指，校验字数3210→3222。"
   predecessor_ready_blob: "54aac6e7922ab4980ce06cf4b3f3c80d28805eaa"
+  predecessor_factual_delta_checked: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_300_revision_20261026:
+  original_source_sha: "b309b038f6e1f711b8df8c1f7ecdc1579920e729"
+  final_source_sha: "0db51073b9f333b4f95fa9b588ebd731bdb5be7b"
+  original_review: reader_reviews/0300_b309b038.md
+  final_review: reader_reviews/0300_0db51073.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 2
+  metadata_revisions: 1
+  correction: "08:00已交白班而09:54后和16:18错误仍由夏宁执行，改为在岗白班值守员，3139→3122。"
+  predecessor_ready_blob: "b6bfa09596aa7f03d144baae118b3ccb9a08d1c8"
   predecessor_factual_delta_checked: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

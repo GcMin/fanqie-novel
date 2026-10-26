@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 299
-last_reviewed_title: 末班车到站前，站牌先下班了
-last_source_path: chapters/draft/0299.md
-last_source_sha: 2c64bc22855038b7a7545e4495caeef0d060f1c6
-last_review_path: reader_reviews/0299_2c64bc22.md
+last_reviewed_chapter: 300
+last_reviewed_title: 去新站的人，等不到旧站的车
+last_source_path: chapters/draft/0300.md
+last_source_sha: 0db51073b9f333b4f95fa9b588ebd731bdb5be7b
+last_review_path: reader_reviews/0300_0db51073.md
 last_reviewed_at: "2026-10-26"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 298
-depends_on_source_sha: 54aac6e7922ab4980ce06cf4b3f3c80d28805eaa
-dependency_status: verified_predecessor_metadata_only_rebound
-predecessor_current_source_sha: 54aac6e7922ab4980ce06cf4b3f3c80d28805eaa
+depends_on_chapter: 299
+depends_on_source_sha: b6bfa09596aa7f03d144baae118b3ccb9a08d1c8
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: b6bfa09596aa7f03d144baae118b3ccb9a08d1c8
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1261,5 +1261,20 @@ combined_audit_chapter_299_20261026:
   predecessor_old_provisional: "26ec2553f8a1082e758f1833251203fa5427060d"
   predecessor_ready_sha: "54aac6e7922ab4980ce06cf4b3f3c80d28805eaa"
   predecessor_factual_delta: "正文逐字相同，仅前章298交付Front Matter改变。"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_300_20261026:
+  chapter: 300
+  title: "去新站的人，等不到旧站的车"
+  original_source_sha: "b309b038f6e1f711b8df8c1f7ecdc1579920e729"
+  original_review: reader_reviews/0300_b309b038.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "0db51073b9f333b4f95fa9b588ebd731bdb5be7b"
+  final_review: reader_reviews/0300_0db51073.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  revision: "Stage A正文仅修两处08:00交白班后的当值人员归属；3139→3122；不改变核心事件。"
+  predecessor_ready_sha: "b6bfa09596aa7f03d144baae118b3ccb9a08d1c8"
+  predecessor_factual_delta: "Writer初稿与修订稿均精确依赖299当前ready Blob；无旧provisional或正文差异。"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
