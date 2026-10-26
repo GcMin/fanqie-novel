@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 311
+current_chapter: 312
 current_stage: structural_gate_pending
-current_source_path: chapters/draft/0311.md
-current_source_sha: d47d0d385416f6742708a45d5fe2d427675f3831
-current_review_path: reader_reviews/0311_d47d0d38.md
+current_source_path: chapters/draft/0312.md
+current_source_sha: cc8640ab4cb9f5cbffea6f40bd0ee3bcfda4929f
+current_review_path: reader_reviews/0312_cc8640ab.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_311_stage_a_six_date_local_fixes_new_sha_independent_reader_and_qa
+last_action: audit_312_no_body_revision_independent_reader_qa
 last_action_date: 2026-10-27
 last_error: null
-last_diff_summary: "原稿311 SHA6c6df9b7独立Reader0/2/2，Stage A一次仅6处跨Day172/173日期修订，新draft SHAd47d0d385416f6742708a45d5fe2d427675f3831有效3197字，重新独立Reader双遍0/0/2，Continuity/Style/Meaningful QA PASS，前章310 ready 47858fb4994fc70d1acbdede120909a0300e52ee精确匹配，结构候选CI仍须精确成功。"
+last_diff_summary: "第312章原稿cc8640ab字数3193；最新独立Reader两遍0 BLOCKER、0 MAJOR、2 MINOR不改正文；Continuity/Style/Meaningful QA PASS，311最终ready Git Blob精确匹配，结构放行待本轮候选精确CI核验。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1087,6 +1087,19 @@ chapter_311_revision_20261027:
   correction: "Day172许荟的Day166留言与当日09:35有权核查实在今天上午而非五天前/昨天下午；Day173 08:00只能回说Day172昨夜21:07检扶手，Day170宋旧话至Day173已三天而非前天。"
   corrected_chars: "3181 to 3197"
   predecessor_ready_blob: "47858fb4994fc70d1acbdede120909a0300e52ee"
+  predecessor_exact_ready: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_312_revision_20261027:
+  chapter: 312
+  original_sha: "cc8640ab4cb9f5cbffea6f40bd0ee3bcfda4929f"
+  final_sha: "cc8640ab4cb9f5cbffea6f40bd0ee3bcfda4929f"
+  final_review: reader_reviews/0312_cc8640ab.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "9ea74c069068c861be906d8b1cfef719638a7de2"
   predecessor_exact_ready: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

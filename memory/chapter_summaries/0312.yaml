@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 312
+title: "留言收下了，谁负责听见"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "cc8640ab4cb9f5cbffea6f40bd0ee3bcfda4929f"
+source_draft_sha: "cc8640ab4cb9f5cbffea6f40bd0ee3bcfda4929f"
+reader_review: reader_reviews/0312_cc8640ab.md
+depends_on_chapter: 311
+depends_on_source_sha: "9ea74c069068c861be906d8b1cfef719638a7de2"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day173 20:39—Day174 20:00，第171/172次夜班"
+summary: >-
+  Day173 20:39廖珊在西巷活动室外见便民水池渗漏、湿滑砖和未知老人险滑扶门而未证受伤，在活动室电话留机器语音，正确听“留言已收，尚待工作人员核对”；20:47另向实际夜间中心报险而非等机器人工处理，拒交住户门牌与工作单位。梁策21:04到现场，物业有责人员21:19关闭供水支路，积水未立即消退，依法设置警示围挡；21:43物业与道路各核另一侧公众安全通行。Day174 08:00交白班，09:08活动室刘玲与号码管理岗位依法限于此一笔查机器原音和处理队列，发现该笔20:39消息真实存音但无指定隔夜待核领取人；09:36刘玲经管理者实际指定领取并听原音，不能追写前一夜员工已听。10:41物业专业拆检发现连接垫圈移位、更换件而不能判谁造成；12:07受控通水但地面仍湿，13:28专业地面复核与13:42公众管理岗核实后才撤围挡恢复水池和入口。14:15活动室按权建立工作日开门首轮领取和替岗责任；15:34刘玲在廖珊同意时段真实回告，区分夜间中心真实出险处理与本号次日上午才听音；16:06自管告示拆明日间人工/非开放时间留言/实际夜间险情线路，不擅宣24小时人工。Day174 20:00第172夜班接真实交接，旧百分百办结表无人乱签，旧错误路线原纸14张8实控6未收及两张照片复制品另控不变，旧自助话务积压仍需依法限项查。62路新站Day165 13:20合法运营，封闭施工天桥和卸货口公众禁入；1996旧原受理席岗位收讫是否让报修人亲听及2018 A2同笔、F008新人记忆、M004/M005未获确认。
+meaningful_state_changes:
+  - "当夜真实停漏及合法围挡降低公众险滑风险，次日专业维修与地面分项复核后才复开。"
+  - "第一笔真实新自助来话虽机器已正确存音，直到次日09:36才有合法真人领取并听；14:15正式指定首轮领取岗位和替岗规则。"
+  - "15:34廖珊真实获回话、16:06有权改公众三入口说明，旧统计及历史来话不虚报已清。"
+knowledge_updates:
+  - "存下留言、人工读取、现场急险处置、专业维修、合法地面开放和本人获答复各有独立权限与时点。"
+  - "新语义已修正却未指定隔夜收件岗位不能由机器提示判已被接听，单笔真领不能推历史积压全领。"
+foreshadowing_updates:
+  - "1996岗位收讫不证旧本人真实获答、2018 A2同笔及F008/M004/M005无新增历史证据。"
+relationship_updates:
+  - "廖珊拒交雇主和邻居资料也拒被当守夜人，刘玲承认上午才真实接收并下午按本人时段回告。"
+ending_state: "Day174 20:00第172夜班，漏水/地面按权复开，日间首次隔夜留言领取与替岗流程生效，旧留言及旧百分百统计仍待核，原14旧纸8控6未收另2影印受控。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "cc8640ab4cb9f5cbffea6f40bd0ee3bcfda4929f", final_draft_sha: "cc8640ab4cb9f5cbffea6f40bd0ee3bcfda4929f", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "9ea74c069068c861be906d8b1cfef719638a7de2", predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3193
