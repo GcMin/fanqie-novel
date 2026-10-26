@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 304
+title: "导航把封桥画成了近路"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "1853f014b4eb1753d4ef69684288c11820b556e2"
+source_draft_sha: "1853f014b4eb1753d4ef69684288c11820b556e2"
+reader_review: "reader_reviews/0304_1853f014.md"
+depends_on_chapter: 303
+depends_on_source_sha: "8b4de7426a03c3e7fe1bb7b1fda0cc4cc1c842b4"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day165 20:17—Day166 20:00，第163/164次夜班交接"
+summary: >-
+  Day165第163夜班20:17印刷晚班叶乔被新公交站正确坐标下的第三方旧步行路带至实际锁闭天桥，拒发定位住址、仅同意无隐私错路截图；周衡与18:08先前错路图对照。梁策20:38核真封桥20:46有权道路岗核合法信号灯路，叶乔21:03本人真到新站候车但不证当时乘车；21:29公交站点坐标接口回执不证步行图更新；22:04道路责任人获准公众侧限项导向且不遮禁令，零点前3次测试2次仍上桥。Day166 08:00夜交白班，09:21平台授权技术岗证公交停靠点数据与步行路网包独立更新，封桥公示未被步行边计算使用；10:58道路岗出限项禁桥依据，首轮隔离重算错入未获公众许可的施工卸货口而拒绝上线。15:42第二轮3有限起点改走已确认信号灯过街路，17:17平台有权线上发布，白班新网页正确而同一手机旧离线仍错误。18:43叶乔自愿有限说明昨晚后来确实等到车、今天在线路线正确，拒给班次及家址；不能反推昨夜21:03已乘车或本人到家。Day166 20:00第164夜班夏宁接班，只承认在线有限样例纠正、离线缓存影响待核。槐石路新公交站维持合法运营、天桥与卸货道公众仍禁；白榆路另案东施工门仍封、十卡六领余四、普通夜间代拨公话无常态许可；1996旧人真正听到回话、2018 A2两册同笔、F008新可靠记忆冲突与M004/M005未确证。
+meaningful_state_changes:
+  - "叶乔当夜21:03确实安全抵新站候车，本人次日有限回告昨夜后续乘过车，班次未证。"
+  - "封桥公众侧22:04获有限合规指引，原禁入告示未遮盖。"
+  - "Day166明查双数据供应链，15:42二轮三处合规、17:17线上有权更正，离线旧图未全清。"
+knowledge_updates:
+  - "公交站点坐标接收回执不证第三方步行图桥边也更新，养护停用公告未自动进入计算可用边。"
+  - "路权属有权道路岗，平台上线及网页一个新请求不代表所有离线终端修好。"
+foreshadowing_updates:
+  - "当代路线数据问题普通源头有限确认，不据此提升F003、F008、M004、M005的历史机制证据级别。"
+relationship_updates:
+  - "叶乔同意截图但拒个人定位、家址、班次和到家记录，梁策及夜班尊重自主与安全，主角关系数值未依据单案改变。"
+ending_state: "Day166 20:00第164夜班；槐石路62路新站合法运行，封闭天桥及施工卸货口公众不可进，线上有限路网已纠而离线和旧缓存更新范围待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1853f014b4eb1753d4ef69684288c11820b556e2", final_draft_sha: "1853f014b4eb1753d4ef69684288c11820b556e2", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "8b4de7426a03c3e7fe1bb7b1fda0cc4cc1c842b4", predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3036

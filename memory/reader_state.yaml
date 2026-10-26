@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 303
-last_reviewed_title: 站牌搬过去，通知没有跟上
-last_source_path: chapters/draft/0303.md
-last_source_sha: e1e825870278451e898553139676c7c5c20c96ce
-last_review_path: reader_reviews/0303_e1e82587.md
+last_reviewed_chapter: 304
+last_reviewed_title: 导航把封桥画成了近路
+last_source_path: chapters/draft/0304.md
+last_source_sha: 1853f014b4eb1753d4ef69684288c11820b556e2
+last_review_path: reader_reviews/0304_1853f014.md
 last_reviewed_at: "2026-10-26"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 302
-depends_on_source_sha: 428cdf70cd95dc209681f1840efe7079c2f88a2d
+depends_on_chapter: 303
+depends_on_source_sha: 8b4de7426a03c3e7fe1bb7b1fda0cc4cc1c842b4
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 362a41b4deff5a94cb71ad23dffa0b5687ba95aa
+predecessor_current_source_sha: 8b4de7426a03c3e7fe1bb7b1fda0cc4cc1c842b4
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1320,4 +1320,24 @@ combined_audit_chapter_303_20261026:
   predecessor_ready_blob: "428cdf70cd95dc209681f1840efe7079c2f88a2d"
   predecessor_exact_ready: true
   content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_304_20261026:
+  chapter: 304
+  title: "导航把封桥画成了近路"
+  source_path: chapters/draft/0304.md
+  source_sha: "1853f014b4eb1753d4ef69684288c11820b556e2"
+  review_path: reader_reviews/0304_1853f014.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  content_qa: pass
+  depends_on_chapter: 303
+  predecessor_ready_blob: "8b4de7426a03c3e7fe1bb7b1fda0cc4cc1c842b4"
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 0
   structural_gate: exact_candidate_commit_CI_required

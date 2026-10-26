@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 303
+last_updated_chapter: 304
 characters:
   zhou_heng:
     location: "Day147 20:00，第145次夜班开班"
@@ -1101,3 +1101,15 @@ chapter_303_verified:
   passenger: "老陶依两天前纸卡13:35在旧站等，指出告示反向；13:58自主到新站14:06真的登车，到南城及进货结果未知。"
   main_cast_injuries: none_new
   final_location: "Day165 20:00第163次夜班，槐石路新站正式运营，第三方封闭天桥错误步行路线尚待核。"
+
+chapter_304_verified:
+  chapter: 304
+  source_sha: "1853f014b4eb1753d4ef69684288c11820b556e2"
+  timeframe: "Day165 20:17—Day166 20:00"
+  zhou_heng: "第163夜班对比Day165 18:08与20:14两起点错路截图，区分公交新站坐标确已生效及第三方步行禁桥边未更新，夜班不代平台推断根因。"
+  xia_ning: "Day165 20:17核当前新站合法启用与封闭天桥，21:03只登记叶乔真到新站候车不认当即乘车；Day166 08:00交白班，20:00第164夜班收有限线上改路结果与离线待核。"
+  liang_ce: "20:38现场见锁门20:46依据有权道路岗确认合法信号灯路，阻止本人探禁门、卸货道试险；22:04按有权范围补公众导向。"
+  new_citizen: "叶乔自愿有限给错路截图，拒定位家址；21:03真到新站候车，Day166 18:43只自述昨夜后来真等到车及新在线路线正确，所乘班次及到家未知。"
+  public_professionals: "Day166白班平台及道路岗位按权查双更新通道，10:58首轮误路卸货口未上线，15:42三有限起点专业合格后17:17有权在线发布，离线范围待核。"
+  main_cast_injuries: none_new
+  final_location: "Day166 20:00第164次夜班，公交新站合法运营、天桥与装卸口公众禁行，在线有限纠而离线缓存未全验。"

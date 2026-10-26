@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 303
+last_updated_chapter: 304
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -851,3 +851,11 @@ chapter_303_relationships:
   center_and_operator: "夏宁当夜不以未签计划代替有权令；Day165白班主管、调度、站务依法完成本车核收/迁站生效与告知改正，20:00才交回第163夜班。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "老陶自述及实际乘车只证明本人本次，不能据此推全部乘客已获通知、全部第三方已改、其本人到达市场。"
+
+chapter_304_relationships:
+  chapter: 304
+  source_sha: "1853f014b4eb1753d4ef69684288c11820b556e2"
+  passenger_and_staff: "叶乔拒交定位/住址/真实班次，夏宁梁策尊重，仅记录同意给出的无隐私截图、合法地面路及本人有限反馈；不让她代专业试桥或施工卸货口。"
+  road_and_platform: "道路专业岗确认禁行桥及公众许可路，公交回执只证站点数据接收，平台两轮隔离测试后有限上线；各自不代他岗为全终端签正常。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不请求本人回家地址、雇主证明、乘坐班次与到家时间，不以个人样例推所有用户安全，不扩散定位信息。"
