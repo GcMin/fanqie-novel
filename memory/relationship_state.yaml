@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 307
+last_updated_chapter: 308
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -884,3 +884,12 @@ chapter_307_relationships:
   colleague_cooperation: "周衡看到北侧违停车挤占盲道后停止错误记录，梁策坚持实际连续可达，经有权人员实核才对乘客提供临时路径。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "弱视乘客不是道路安全验收人，不登记其未提供的实际登车班次、行程终点或到家时刻；不让旧红章纸回收数字冒作已通知真人名单。"
+
+chapter_308_relationships:
+  chapter: 308
+  source_sha: "4f1f6e8a70581ee94d7372a71b0f43dfa3779944"
+  citizen_and_shop: "彭穗只提供安全侧错纸线索、拒私人送货路线；田璟从误信活动室红章到自行撤纸、保留破角实物与复印凭据；谢婶承认曾向未知骑车人误指路并主动停用、后真实交纸。"
+  activity_room_and_public: "刘玲承认活动室自盖章放大了错误可信度，接受白班退回16张全部纠正虚报，在街道仅获自管窗口授权下真正公开更正并试日间真人电话。"
+  center_and_road: "夏宁夜值重新核现时路况，梁策不代道路岗画永久路线，白班各岗位核街道窗口与店铺自管实物交接，不让市民冒险试桥。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不得调田璟完整私人聊天、店铺顾客消费记录、彭穗配送去处或未知骑车人车牌；未知真误入/获告不补成已证事实。"

@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 307
+current_chapter: 308
 current_stage: structural_gate_pending
-current_source_path: chapters/draft/0307.md
-current_source_sha: cce4203afa7d036614a274efd00b16ce8bc074e5
-current_review_path: reader_reviews/0307_cce4203a.md
+current_source_path: chapters/draft/0308.md
+current_source_sha: 4f1f6e8a70581ee94d7372a71b0f43dfa3779944
+current_review_path: reader_reviews/0308_4f1f6e8.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_307_stage_a_one_notice_posting_local_body_fix_new_sha_reader_content_qa_memory_ready_candidate
+last_action: audit_308_no_body_changes_reader_content_qa_memory_ready_candidate
 last_action_date: 2026-10-27
 last_error: null
-last_diff_summary: "初审0/1/2：Day169撤昨夜临时告示但Day168缺真贴；Stage A正文1处新增Day168 22:34陈津自管权限获准真张贴；3319→3387。新SHA cce4203afa7d036614a274efd00b16ce8bc074e5独立Reader0/0/2，Continuity/Style/Meaningful PASS，精确候选CI待验证。"
+last_diff_summary: "第308章原稿3030有效字、独立Reader双遍0/0/2，BLOCKER/MAJOR为0；无正文修订，前章307最终ready Blob精确匹配，Continuity/Style/Meaningful PASS；精确候选CI待核。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1030,6 +1030,18 @@ combined_audit_chapter_307_20261027:
   final_counts: {blocker: 0, major: 0, minor: 2}
   correction: "Day168 22:34陈津在活动室自管公告架获管理人同意真贴带来源时点的临时故障提醒，方可Day169按权撤换。"
   predecessor_ready_blob: "0577bdb1809aaf609b100588c03d7b6bf82fd02a"
+  predecessor_exact_ready: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_308_revision_20261027:
+  original_sha: "4f1f6e8a70581ee94d7372a71b0f43dfa3779944"
+  final_sha: "4f1f6e8a70581ee94d7372a71b0f43dfa3779944"
+  final_review: reader_reviews/0308_4f1f6e8.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "30014c1573383b89e62dbac8ebeeb601526562db"
   predecessor_exact_ready: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

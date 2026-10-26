@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 307
+last_updated_chapter: 308
 characters:
   zhou_heng:
     location: "Day147 20:00，第145次夜班开班"
@@ -1150,3 +1150,15 @@ chapter_307_characters:
   activity_room: "陈津Day168 22:34经管理者同意在自管架真贴含来源时点的有限临时故障提示且锁回红章，Day169 13:26刘玲按权将昨夜提示撤下换成当日有来源时点的说明。"
   main_cast_injuries: none_new
   final_location: "Day169 20:00第167次夜班，原路口11:48有责确认恢复、新站仍合法运行，7张盖章旧纸尚未实物回收。"
+
+chapter_308_characters:
+  chapter: 308
+  source_sha: "4f1f6e8a70581ee94d7372a71b0f43dfa3779944"
+  timeframe: "Day169 20:23—Day170 20:00"
+  zhou_heng: "从米店实纸内折痕阴影辨疑似照片复制，按原印14/7实控7未收与额外2复印分账；Day170 08:00真交白班，20:00第168夜班接收按源分开的单。"
+  xia_ning: "Day169 20:23先核彭穗公众安全位置及隐私，20:49经道路岗再次核当夜可用过街路，2张复印另列，不把白天修复作夜间永久通行批准。"
+  liang_ce: "按公众安全先核米店实纸及店主自管撤示，另赴馄饨摊核其纸未贴但曾口头告一骑车人；没有从未见真人推定实入封桥或全部告知。"
+  citizens: "彭穗不交配送地点行程，仅自述已知撤纸；田璟自愿提供两份复印证据且真撤错纸，谢婶真停用并自管暂存，未知骑车人去向。"
+  activity_room: "刘玲Day170原提16份全纠统计被退回，改承认盖章导致误信；街道11:17仅许可自管服务窗口限时更正，13:05日间服务电话当面实际接通。"
+  main_cast_injuries: none_new
+  final_location: "Day170 20:00第168夜班；14旧原件7实控7未收、复制2件各实控，额外传播未知，路口与公交当次权限不变。"
