@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 304
+last_updated_chapter: 305
 characters:
   zhou_heng:
     location: "Day147 20:00，第145次夜班开班"
@@ -1113,3 +1113,16 @@ chapter_304_verified:
   public_professionals: "Day166白班平台及道路岗位按权查双更新通道，10:58首轮误路卸货口未上线，15:42三有限起点专业合格后17:17有权在线发布，离线范围待核。"
   main_cast_injuries: none_new
   final_location: "Day166 20:00第164次夜班，公交新站合法运营、天桥与装卸口公众禁行，在线有限纠而离线缓存未全验。"
+
+chapter_305_verified:
+  chapter: 305
+  source_sha: "5bc7a26b4967044281db3a89cfea605ccfc75d08"
+  timeframe: "Day166 20:27—Day167 20:00"
+  zhou_heng: "第164夜班分新打印时间与本机旧路线数据版本，不因打印新纸认为旧桥已经获准开放；Day167夜班仅核白班本机实测结论与流出旧纸待核。"
+  xia_ning: "20:35依唐蕙有限来话分类记录路网旧纸与公交实停，20:49漏车/21:32真乘分栏；Day167 08:00交白班不越时检修，20:00接第165夜班保留旧纸范围未查。"
+  liang_ce: "Day166 20:46重核有权道路岗位公众信号灯路并向唐蕙转达，不让本人绕铁锁试走施工卸货口。"
+  new_citizen: "唐蕙不公布目的地或到家时间，Day166 20:49因错误纸漏车、21:32真乘下一班，只限授权必要打印纸样。"
+  shopkeeper: "胡映守合法局部服务范围，同意设备商经权21:26暂停本机步行路线打印，不停复印/快递面单；Day167 16:11本机实证双入口测试后恢复，自愿退错纸本单费用。"
+  technical: "本机Day160后同步任务仅已发未成功落盘；Day167 12:03真入新版仍有复打印旧缓存，14:48三起点首打与复打六样例过当次限项核验。"
+  main_cast_injuries: none_new
+  final_location: "Day167 20:00第165夜班，公交新站有效打印店本机路线功能限项恢复，其他同系列设备与过往纸仍待核。"

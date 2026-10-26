@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 304
-last_reviewed_title: 导航把封桥画成了近路
-last_source_path: chapters/draft/0304.md
-last_source_sha: 1853f014b4eb1753d4ef69684288c11820b556e2
-last_review_path: reader_reviews/0304_1853f014.md
+last_reviewed_chapter: 305
+last_reviewed_title: 新打印的路线，仍通向封桥
+last_source_path: chapters/draft/0305.md
+last_source_sha: 5bc7a26b4967044281db3a89cfea605ccfc75d08
+last_review_path: reader_reviews/0305_5bc7a26b.md
 last_reviewed_at: "2026-10-26"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 303
-depends_on_source_sha: 8b4de7426a03c3e7fe1bb7b1fda0cc4cc1c842b4
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 8b4de7426a03c3e7fe1bb7b1fda0cc4cc1c842b4
+depends_on_chapter: 304
+depends_on_source_sha: 63b9a0d2003cb7431b756d840f55c45179606847
+dependency_status: verified_predecessor_body_unchanged
+predecessor_current_source_sha: 63b9a0d2003cb7431b756d840f55c45179606847
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1339,5 +1339,24 @@ combined_audit_chapter_304_20261026:
   depends_on_chapter: 303
   predecessor_ready_blob: "8b4de7426a03c3e7fe1bb7b1fda0cc4cc1c842b4"
   dependency_status: verified_exact_ready_blob
+  body_revisions: 0
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_305_20261026:
+  chapter: 305
+  title: "新打印的路线，仍通向封桥"
+  original_source_sha: "c6a900806fa7dacd30287d39e6ed4b286f13eeb0"
+  final_source_sha: "5bc7a26b4967044281db3a89cfea605ccfc75d08"
+  initial_review: reader_reviews/0305_c6a90080.md
+  final_review: reader_reviews/0305_5bc7a26b.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reader_gate: pass
+  content_qa: pass
+  depends_on_chapter: 304
+  predecessor_old_provisional: "1853f014b4eb1753d4ef69684288c11820b556e2"
+  predecessor_ready_blob: "63b9a0d2003cb7431b756d840f55c45179606847"
+  predecessor_body_exact_identical: true
+  metadata_rebind: true
   body_revisions: 0
   structural_gate: exact_candidate_commit_CI_required

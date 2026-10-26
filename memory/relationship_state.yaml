@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 304
+last_updated_chapter: 305
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -859,3 +859,11 @@ chapter_304_relationships:
   road_and_platform: "道路专业岗确认禁行桥及公众许可路，公交回执只证站点数据接收，平台两轮隔离测试后有限上线；各自不代他岗为全终端签正常。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "不请求本人回家地址、雇主证明、乘坐班次与到家时间，不以个人样例推所有用户安全，不扩散定位信息。"
+
+chapter_305_relationships:
+  chapter: 305
+  source_sha: "5bc7a26b4967044281db3a89cfea605ccfc75d08"
+  citizen_and_shop: "唐蕙坚决不为测试再走一次禁桥，真漏车及后续真乘仅有限用于安全工单；胡映自愿停本机步行打印单项而不让复印面单业务全部停止，旧纸误导费用自愿退还而不请中心判合同纠纷。"
+  center_and_professionals: "夏宁按夜班时间分别保存错纸/道路责任岗禁令/设备商单功能暂停/公交实际停车与乘客真上车，日间维修由白班及持权设备商而非夜班主角办理。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "未索全店顾客购买记录、唐蕙目的地/住址/手机轨迹，印纸任务数量不等于实际走过桥口人数。"

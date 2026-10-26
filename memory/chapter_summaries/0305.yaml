@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 305
+title: "新打印的路线，仍通向封桥"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "c6a900806fa7dacd30287d39e6ed4b286f13eeb0"
+source_draft_sha: "5bc7a26b4967044281db3a89cfea605ccfc75d08"
+prior_review: "reader_reviews/0305_c6a90080.md"
+reader_review: "reader_reviews/0305_5bc7a26b.md"
+depends_on_chapter: 304
+depends_on_source_sha: "63b9a0d2003cb7431b756d840f55c45179606847"
+dependency_status: verified_predecessor_body_unchanged
+timeframe: "Day166 20:27—Day167 20:00，第164/165次夜班交接"
+summary: >-
+  Day166 20:27打印店顾客唐蕙取得新印纸，站点坐标已新、旧机内步行路仍错误引向锁闭天桥。20:35她在安全人行侧来话，自愿交无身份纸样拒告目的地；道路岗20:46依新当班实核仍禁桥及装卸口、信号灯公众路合法，梁策不让本人越封控。20:49公交合法实停新站但唐蕙因绕路真漏车，21:32她按自主合法路在新站实际登上次班，具体目的地/到家未知。21:07胡映向设备商查设备权属，21:26经授权只暂停本机步行路线打印、保留普通复印及面单营业，胡映自愿留收款证据。22:41夜值仅初核站点坐标联网、步行路由设备本机旧路网包算，根因待白班。Day167 08:00夜班交白班，09:36设备方日志核本机步行包最后成功更新Day160清晨、其余任务只有已发起未真正落盘；11:12有权维护通信链、12:03新路网包确实写入本机，但12:17首打绕桥后复打仍调用昨日旧路径缓存，停复开。白班有权分岗位核当天施工桥仍禁行；14:48设备商在隔离状态三起点分别首次打印及再次打印六样例均经信号灯路且避封桥装卸口，页脚留时间与版本；16:11店主凭经营和设备商有权测试准本机单功能恢复并自主退旧误印一单打印费，不判合同赔偿。17:20同系列他机及过去流出旧纸仍待核，旧纸不可远程纠正。Day167 20:00第165次夜班夏宁周衡接班，保留本机有效范围而不报全城修复。槐石路新站合法运营、天桥及装卸道仍禁公众，白榆路另一工门仍封、十卡领六余四、普通夜间代拨/公话未获新常态授权。1996旧原报修人真人获回话、2018 A2与旧册同笔、F008具体本人记忆反证、M004/M005均未确认。
+meaningful_state_changes:
+  - "唐蕙因旧打印路线20:49漏班，21:32本人真正登六十二路，目的地未知。"
+  - "21:26经经营者与设备方依法暂停本机步行打印单功能，复印及普通面单未暂停。"
+  - "Day167本机新包与复打印缓存两层问题逐次查明、14:48有限六样例正确、16:11本机单项恢复，但其他设备和已发旧纸待核。"
+knowledge_updates:
+  - "本机打印时间新、站点坐标联网新，并不能证明步行图包成功入机；已发起同步不等于落盘，首次打印正确不证明旧预览复打正确。"
+  - "Day167白班有权专岗查日志及修机，Day166夜班只做有限安全处置，不替代专业发布测试。"
+foreshadowing_updates:
+  - "本案普通离线缓存可证，非异常证据；F003旧1996人确实收到回话及2018两册同笔、F008新记忆反证、M004/M005无新增确证。"
+relationship_updates:
+  - "唐蕙坚持不留行程/住址仍可报告真实漏车与登车；胡映愿承担本机有限停机营业损失、退误印一单钱，不替别店或者公众鉴定所有问题。"
+ending_state: "Day167 20:00第165夜班，62路新站继续合法运营；打印店本机获有限复开，流出旧纸及其它终端旧包/缓存范围仍待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "c6a900806fa7dacd30287d39e6ed4b286f13eeb0", final_draft_sha: "5bc7a26b4967044281db3a89cfea605ccfc75d08", stage_a_used: 1, body_revisions: 0, dependency_metadata_rebound: true, predecessor_original_sha: "1853f014b4eb1753d4ef69684288c11820b556e2", predecessor_ready_blob: "63b9a0d2003cb7431b756d840f55c45179606847", predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3121
