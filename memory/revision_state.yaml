@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 288
+current_chapter: 290
 current_stage: structural_gate_pending
-current_source_path: chapters/draft/0288.md
-current_source_sha: 0fbc5e13f1c2a19250cb12fca5fb406bf77fd004
-current_review_path: reader_reviews/0288_0fbc5e13.md
+current_source_path: chapters/draft/0290.md
+current_source_sha: b24f3d9f157bd72e42a873e3b1a13a429eb88708
+current_review_path: reader_reviews/0290_b24f3d9f.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_288_review_QA_memory_ready_candidate_no_revision
+last_action: audit_289_290_review_QA_memory_ready_candidate
 last_action_date: 2026-10-26
 last_error: null
-last_diff_summary: "288前章287 ready Blob精确匹配，不改正文和元数据；独立Reader0/0/2及Continuity/Style/Meaningful QA通过；候选Commit精确结构CI待验证"
+last_diff_summary: "289原稿未改Reader0/0/2；290仅依赖289ready SHA/状态重绑，289旧新正文逐字一致，新SHA重新Reader0/0/2且内容QA通过；精确候选结构CI待验证"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -758,4 +758,30 @@ combined_audit_chapter_288_20261026:
   predecessor_ready_blob: "0a5ad975e351a8c2e5ab6e1f3ed7c1cbb04ef3f9"
   predecessor_exact_ready: true
   qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_289_20261026:
+  original_sha: "4f3630efcaed4ce29df03eb6f3f1751b12dac3a9"
+  final_source_sha: "4f3630efcaed4ce29df03eb6f3f1751b12dac3a9"
+  final_review: reader_reviews/0289_4f3630ef.md
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  predecessor_ready_blob: "666e609e71a282fd1f917e175376b4dedc91c55b"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_290_20261026:
+  original_sha: "a3ee4fca4f7bb6bd024729952f69e78a5d99921d"
+  final_source_sha: "b24f3d9f157bd72e42a873e3b1a13a429eb88708"
+  initial_review: reader_reviews/0290_a3ee4fca.md
+  final_review: reader_reviews/0290_b24f3d9f.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  metadata_dependency_rebind: true
+  predecessor_old_blob: "4f3630efcaed4ce29df03eb6f3f1751b12dac3a9"
+  predecessor_ready_blob: "99f15a09228d4964c5fe258f8219b905815bd0f6"
+  predecessor_body_identical: true
+  content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

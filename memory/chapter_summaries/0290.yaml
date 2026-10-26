@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 290
+title: "两点以后，谁替电话签字"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "a3ee4fca4f7bb6bd024729952f69e78a5d99921d"
+source_draft_sha: "b24f3d9f157bd72e42a873e3b1a13a429eb88708"
+prior_review: "reader_reviews/0290_a3ee4fca.md"
+reader_review: "reader_reviews/0290_b24f3d9f.md"
+depends_on_chapter: 289
+depends_on_source_sha: "99f15a09228d4964c5fe258f8219b905815bd0f6"
+dependency_status: verified_predecessor_body_identical_ready
+timeframe: "Day153 01:52—20:00，第150/151夜班"
+summary: >-
+  Day153 01:52街道门外查询卡盒余5、20:00—02:00一次性六小时公众普通代拨授权即将到期，02:00吴保安何师傅将准代拨磁牌翻成“试行结束”，岗位电话仍供既有物业安全工作而不是公众普通咨询。02:09手机不在身边的许禾发现南侧坡口护板上翘有夹车轮危险，自己取第6张查询卡余4，保安02:16按已有物业险情上报链向夜间中心转报，明确不是过期的普通代拨。道路专业02:41实地核板件翘起并有限围隔、03:06核围隔、03:24实走合法公众替代连接路并当面解释给许禾；旧东施工门依旧封，许禾没有证实已到早餐店也没有确认诊断手腕。白班08:21发现统计系统把02:16安全报警座机外呼误算“有效公众代拨”，09:47有权分类纠正保留原记录，不冒充全天合法服务；道路11:02撤局部隔离，11:13专业复核本次条件恢复，板件责任及移位原因仍待查。街道16:38只受理外部公共通话设施可行性勘察，设备/运营/常设服务未获批准。20:00第151夜班开始，盒余4，普通代拨本夜无新授权；F003历史2018 A2实际填值/1996旧人回告、F008和M004/M005无新证明，D144原旧纸43张与B07旧误印量仍未知。
+meaningful_state_changes:
+  - "第6次本人实际取卡余4，过期普通代拨停止但02:16安全险情职责真的转报并由专业限险绕行和11:13新核解除。"
+  - "物业外呼错被绿标记成普通试行延续的统计事实被保源纠正，不能写作全天服务。"
+  - "室外电话仅进入可行性勘察受理、远未获开通许可，02:00后无手机公众普通咨询缺口保留。"
+knowledge_updates:
+  - "中心和街道按权限分别知道现场口述/专业有责复核、物业安全事故转报和到期普通公众代拨是不同证据；自动电话统计不能替职责和时限签字。"
+foreshadowing_updates:
+  - "历史旧A2/1996旧人回复与F008没有新可靠证据，M004/M005不可因当代普通电话事故推定确证。"
+relationship_updates:
+  - "许禾自主描述风险且拒示范和私人住址，吴与何依法先保安全、再分帐；蔡敏保存错误原档并纠口径，不利用个人遭遇宣传虚假成果。"
+ending_state: "Day153 20:00第151夜班：南坡口经过专业修复及新核在本次条件内复通、东工门仍封；六人真取查询卡十放余四，公共电话仅勘察待批，岗位代拨本夜没有新的普通服务许可。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "a3ee4fca4f7bb6bd024729952f69e78a5d99921d", revised_sha: "b24f3d9f157bd72e42a873e3b1a13a429eb88708", local_revision_used: 1, body_revisions: 0, metadata_dependency_rebind: true, predecessor_original_sha: "4f3630efcaed4ce29df03eb6f3f1751b12dac3a9", predecessor_ready_sha: "99f15a09228d4964c5fe258f8219b905815bd0f6", predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3386

@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 288
-last_reviewed_title: 卡盒还在，值班人走了
-last_source_path: chapters/draft/0288.md
-last_source_sha: 0fbc5e13f1c2a19250cb12fca5fb406bf77fd004
-last_review_path: reader_reviews/0288_0fbc5e13.md
+last_reviewed_chapter: 290
+last_reviewed_title: 两点以后，谁替电话签字
+last_source_path: chapters/draft/0290.md
+last_source_sha: b24f3d9f157bd72e42a873e3b1a13a429eb88708
+last_review_path: reader_reviews/0290_b24f3d9f.md
 last_reviewed_at: "2026-10-26"
-reviewer_mode: combined_audit_independent_A_then_B_exact_ready_dependency
+reviewer_mode: combined_audit_independent_A_then_B_rebound_predecessor
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 287
-depends_on_source_sha: 0a5ad975e351a8c2e5ab6e1f3ed7c1cbb04ef3f9
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 0a5ad975e351a8c2e5ab6e1f3ed7c1cbb04ef3f9
+depends_on_chapter: 289
+depends_on_source_sha: 99f15a09228d4964c5fe258f8219b905815bd0f6
+dependency_status: verified_predecessor_body_identical_ready
+predecessor_current_source_sha: 99f15a09228d4964c5fe258f8219b905815bd0f6
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1100,5 +1100,34 @@ combined_audit_chapter_288_20261026:
   predecessor_ready_blob: "0a5ad975e351a8c2e5ab6e1f3ed7c1cbb04ef3f9"
   dependency_status: verified_exact_ready_blob
   predecessor_factual_delta: exact_sha_match
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_289_20261026:
+  chapter: 289
+  source_sha: "4f3630efcaed4ce29df03eb6f3f1751b12dac3a9"
+  reader_review: reader_reviews/0289_4f3630ef.md
+  reader_passes: independent_A_then_B
+  counts: {blocker: 0, major: 0, minor: 2}
+  body_revisions: 0
+  predecessor_ready_blob: "666e609e71a282fd1f917e175376b4dedc91c55b"
+  predecessor_factual_delta: exact_sha_match
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_290_20261026:
+  chapter: 290
+  original_source_sha: "a3ee4fca4f7bb6bd024729952f69e78a5d99921d"
+  revised_source_sha: "b24f3d9f157bd72e42a873e3b1a13a429eb88708"
+  initial_review: reader_reviews/0290_a3ee4fca.md
+  final_review: reader_reviews/0290_b24f3d9f.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 0
+  metadata_dependency_rebind: true
+  predecessor_provisional_blob: "4f3630efcaed4ce29df03eb6f3f1751b12dac3a9"
+  predecessor_final_ready_blob: "99f15a09228d4964c5fe258f8219b905815bd0f6"
+  predecessor_body_identical: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
