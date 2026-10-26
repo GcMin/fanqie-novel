@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 306
+last_updated_chapter: 307
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -875,3 +875,12 @@ chapter_306_relationships:
   community_and_shop: "陈津承认自行加盖便民章使旧纸更可信、按管理授权撤下五份；刘玲发布含来源时点的可读更正且实核公示侧；胡映只在合法店铺位置限项更正，不替设备商证明所有终端正确。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "普通活动室来访登记不等于旧纸持有人名单，匿名回收纸一张不证明另一人已获更正，林晟纸照片不当社区已实收原件。"
+
+chapter_307_relationships:
+  chapter: 307
+  source_sha: "cce4203afa7d036614a274efd00b16ce8bc074e5"
+  gu_lin_and_center: "顾临自主在信号故障的安全等候区报险、拒绝陌生人邀请跟车灯过街；梁策只转述当夜获权的北侧可行路线并征求协助方式，顾临拒被架臂但接受关键转角与信号提示；本人22:12到站候车、是否搭车到家未知。"
+  activity_room_and_center: "夏宁拒活动室自印永久北侧绕行图；陈津经本室管理人同意22:34在自管公告架真贴带来源时点的故障临告，不用红章批准交通；刘玲次日13:26按权撤换。"
+  colleague_cooperation: "周衡看到北侧违停车挤占盲道后停止错误记录，梁策坚持实际连续可达，经有权人员实核才对乘客提供临时路径。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "弱视乘客不是道路安全验收人，不登记其未提供的实际登车班次、行程终点或到家时刻；不让旧红章纸回收数字冒作已通知真人名单。"

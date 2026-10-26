@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 307
+title: "正确的路线，今夜走不通"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "63c8defea71b40179d53b7c630808d80c0961e80"
+source_draft_sha: "cce4203afa7d036614a274efd00b16ce8bc074e5"
+ready_blob_sha: "30014c1573383b89e62dbac8ebeeb601526562db"
+prior_review: "reader_reviews/0307_63c8defe.md"
+reader_review: "reader_reviews/0307_cce4203a.md"
+depends_on_chapter: 306
+depends_on_source_sha: "0577bdb1809aaf609b100588c03d7b6bf82fd02a"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day168 20:32—Day169 20:00，第166/167次夜班交接"
+summary: >-
+  Day168 20:32弱视乘客顾临自主在槐石路西口62路新站对面行人灯不亮的安全等候区报险，原Day168 10:17合规信号灯地面路此时不能作为现场通行证明；20:54梁策确认双行人灯不显示而机动车灯运行，21:07交通值守设置临时警示和有责交通组织，21:16养护初判行人信号供电支路有故障待检，不擅动箱。21:23建议北侧信号路，但实核有卸货面包车压盲道，周衡不将「信号正常」冒写成完整可达；21:37有权处置移车，21:49道路与交通各核当次连续可达和临时组织，梁策用可辨商铺/转角说明并尊重顾临不被架臂，22:12顾临本人真正抵达新站候车，未证登车或到家。22:26中心告知活动室仅能在自管位置转发获准故障信息，22:34陈津经管理人同意真贴带来源时点的临时故障提醒、不盖永久路线红章；23:40技术限定检证接线端防护失效，交通临措未提前撤。Day169 08:00夜班真交白班，11:05专业重复检查双向行人灯及声音提示，11:48交通岗位当次现场核准恢复常态、告知源分开；13:26刘玲在活动室自管架撤下昨夜临告换当日有来源时点的有限说明。20:00第167夜班夏宁接回。槐石路62路合法新站不移动，封闭天桥及卸货口公众仍不可进；旧红章纸14印5撤2返7未实收，其中林晟一纸仅照片线索本夜没新增返纸。白榆路另一工门封、十卡六领取余四、夜间代拨与公话无常态许可不变。F003历史1996旧报修人实际获回告与2018两册同笔、F008新可靠个人记忆反证、M004/M005仍未确证。
+meaningful_state_changes:
+  - "白日原可走信号灯路发生夜间故障，行人被真实保护，不能再照旧纸硬走。"
+  - "北侧临时替代路经清理盲道违停并双岗位21:49真核，顾临22:12本人真正抵新站候车，登车与到家未知。"
+  - "Day169 11:05技术独立检查、11:48交通有权恢复原路；活动室夜告真贴、次日按权撤换。"
+knowledge_updates:
+  - "今日上午有效图与下午纸张不保证晚上灯具仍正常；技术功能复验不能代交通岗位批准公众通行。"
+  - "顾临个人实到与是否实际登车分开记，不让弱视乘客代专业测试连续通路。"
+foreshadowing_updates:
+  - "普通道路故障不提升1996本人历史回告、2018 A2两档同笔、F008新可靠记忆样本或M004/M005历史机制证据等级。"
+relationship_updates:
+  - "顾临自主拒陌生人搀扶和被架臂，仅接受自愿的关键转角/信号提示，梁策与夏宁尊重行程隐私与当次交通许可。"
+ending_state: "Day169 20:00第167次夜班，原斑马线已按权11:48复通，临时北侧绕行只是昨夜当次批准；顾临昨夜22:12候车已证、乘车到家未证，活动室旧错纸仍14印7实控7未收。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "63c8defea71b40179d53b7c630808d80c0961e80", revised_sha: "cce4203afa7d036614a274efd00b16ce8bc074e5", stage_a_used: 1, body_revisions: 1, corrected_chars: "3319 to 3387", predecessor_ready_blob: "0577bdb1809aaf609b100588c03d7b6bf82fd02a", predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3387
