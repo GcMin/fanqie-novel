@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 325
+title: "北口没有车，问路窗口还亮着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "6fbf7069cc1aaf0d215a95e1acad00b3e53163f8"
+reader_review: "reader_reviews/0325_6fbf7069.md"
+depends_on_chapter: 324
+depends_on_source_sha: "d6c720f0246d7c7d01d40b357270795fc692cea0"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day186 20:26—Day187 20:00，第184/185次夜班"
+summary: >-
+  Day186 20:26沈若琴依据第324章两份合法公交公告，自愿只问2001旧北口临候停靠停止至2004另一北侧临时乘降启用期间的合法公众问路渠道，不提交父亲旧修理账或试走封闭工门。21:04陈津看到《白榆路站务服务资料汇编》公开条目，夏宁阻止把未读目录“北口便民服务”误记为旧站持续候车。Day187 09:32白班仅依法得2002年公开告知数字化查阅路径，10:47沈若琴与儿子本人真阅2002-04-03《白榆路旧站乘车问询服务调整告知》，确认旧北口停靠已经结束、运营方另在获准公众街面亭安排面向乘客的线路问询而不是旧站仍有车停；不能证历史特定自然人实际问过或已获答，低清示意不能给准确旧坐标、门牌、全部值守时段。母子删掉把私人旧图“修表摊旁边能转车”与公开问询亭直接对应的无证结论；11:21仅合法摘录开放段落，中午只领进一步查询公开服务地址与时段的指引而未交新申请。16:18经本人有限许可刘玲转告。Day187 20:00第185夜班只记公开问询告知已核、持有人尚未决定继续申请；旧站东侧铁门及维修便道公众禁入。旧红章路线原印14张10受控4未收、另两后制影印各自受控不变；1996原自然人获答、2018 A2两旧档同笔、旧私纸年代/作者/永安里6栋201、F008/M004/M005均无新证。
+meaningful_state_changes:
+  - "本人合法读到2002公开问询安排，证当期可公开问路但不等于旧站有车、过去有人真的问到答案。"
+  - "母子停止替私人路线推定旧坐标，沈保留原册与下一次申请决定。"
+knowledge_updates:
+  - "公开服务亭设立与实际接待、真人得到答复不同；旧门牌/时段和低清示意不能叠现行地图。"
+foreshadowing_updates:
+  - "F003有界新增2002有源公共问询证据，不证历史旧纸及永安里同一、2018 A2同笔、1996旧真人收答；F008/M004/M005未确认。"
+relationship_updates:
+  - "儿子由替母亲画路线转为遵守其许可和未知列表，中心不挪用私人旧账。"
+ending_state: "Day187 20:00第185夜班，2002公开问询公告已核，后续新申请未交、旧私人线索仍未证；红章14原印10控4未收另2影印各控。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6fbf7069cc1aaf0d215a95e1acad00b3e53163f8", final_draft_sha: "6fbf7069cc1aaf0d215a95e1acad00b3e53163f8", body_revisions: 0, predecessor_ready_blob: "d6c720f0246d7c7d01d40b357270795fc692cea0", predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3372

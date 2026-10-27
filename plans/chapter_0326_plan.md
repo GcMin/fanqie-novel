@@ -5,10 +5,10 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - source_main_sha: 341ac5d2a82bb24f7170d361e61f8f9d76e75244
-- predecessor_path: chapters/draft/0325.md
+- predecessor_path: chapters/ready/0325.md
 - depends_on_chapter: 325
-- depends_on_source_sha: "6fbf7069cc1aaf0d215a95e1acad00b3e53163f8"
-- dependency_status: provisional
+- depends_on_source_sha: "dfc34b662221c340841d97b8f486e4426bda0cf8"
+- dependency_status: verified_predecessor_metadata_only_rebind
 - target_effective_chars: 2600–3400
 - hard_range: 2300–3800
 - count_method: 正文 Unicode 非空白码点，含标点，不含 Front Matter
@@ -40,4 +40,4 @@
 - 本轮重新读取main最高规则AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、Bible四硬文档及周衡/夏宁/梁策人物卡、现有outlines/volume_05.md与outlines/arcs/arc_current.md、memory/current_arc.md与人物关系/知识/世界状态、活跃伏笔F003/F008及近期timeline、0315–0324最近十章摘要、0321–0325五章正文，查plans/chapter_plan.csv与325章纲；未读取历史reader_reviews。
 - 仓库尚无volume_06.md，arc_current.md停在旧弧；以已审321–324卷6的实际正文及ARC-054事实优先且不伪称它们存在。
 - 从published/ready/draft三目录枚举，153已在published，最大为325草稿；326计划与正文均原本不存在，此轮仅创建该两文件。
-- 第325章目前为未审草稿 chapters/draft/0325.md 完整Git Blob 6fbf7069cc1aaf0d215a95e1acad00b3e53163f8，因此本章仅以 provisional 的明确版本作有限连续性依赖，其2002-04-03公开告知及Day187 20:00时间顺序不自动晋升正式Canon。独立Audit后续须核此前章修订对本章是否影响；本轮不Reader/Revision/QA/Memory/Publish Gate。
+- 第325章已独立Reader/内容QA通过且作为待精确候选结构CI核验的ready文本，原草稿Git Blob dfc34b662221c340841d97b8f486e4426bda0cf8，现核第325章原草稿与拟ready正文逐字相同，仅交付Front Matter变化；本章已重绑明确ready blob作为连续性依赖，其2002-04-03公开告知及Day187 20:00时间顺序不自动晋升正式Canon。独立Audit后续须核此前章修订对本章是否影响；本轮不Reader/Revision/QA/Memory/Publish Gate。

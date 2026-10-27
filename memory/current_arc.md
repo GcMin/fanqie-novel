@@ -1,3 +1,9 @@
+# 第325—326章连续 Reader/Revision/QA 与 ARC-054 进度（2026-10-27）
+- 325原草稿 `6fbf7069cc1aaf0d215a95e1acad00b3e53163f8` Reader按独立Pass A（325和322—324 ready全文、十章摘要和文风）后Pass B（Canon、人物知识世界时间线F003/F008）得0 BLOCKER/0 MAJOR/2 MINOR，正文0修，内容Continuity/Style/Meaningful QA PASS。前324正式ready blob `d6c720f0246d7c7d01d40b357270795fc692cea0`与325直接依赖精确相同。Day187本人合法真阅2002-04-03公开问询安排，只能证曾有公众问路亭，不证旧候车停靠、自然人获得答复或私纸同址；领后续申请指引而不交。
+- 326旧草稿 `759b309c4006a3d03ee5413d993c3ca334ae0417` Reader 0/1/2，唯一MAJOR是仍指325 provisional draft SHA。Stage A对照325旧draft与拟ready `dfc34b662221c340841d97b8f486e4426bda0cf8`，正文逐字相同、仅交付Front Matter差异，故只重绑326依赖和详细章纲，正文0改。新Git draft `724cbfdf2d80d830e27f9860ebdd7bdd768d1330` 独立重读进行Pass A/Pass B得0/0/2，Continuity/Style/Meaningful PASS。Day188本人真阅2002-08-21完整公开报刊，8/23拟将问询亭移公众服务台，参照“原钟表修理铺对面”不证原私人纸“修表摊旁边”同一、迁址实际执行或旧答复；13:42公开设施时段窄申请真实收件待审批。
+- 旧错红章14原印10控4未收另两复制分控、白榆旧东工门/维修道禁公众及历史旧案2018 A2、1996个人获答、F008/M004/M005均保持未证；F009/F010/F011 resolved，137—148前章历史SHA事实差异不在此改写。
+- 内容QA不等于结构通过，候选commit精确运行单元测试与publisher.check_local均SUCCESS才可非强制更新main ready。
+
 # 第322章Reader双遍、Stage A依赖重绑、独立QA与ARC-054推进（2026-10-27）
 - Writer原322完整draft Git blob `cc398cda7f49e8442e1593a26bcf59fab3c9a8e0`，Reader Pass A先以322、319—321三章正式ready全文、近十摘要及文风审读，Pass B核Canon、人物知识和旧站历史目录及前章SHA，得0 BLOCKER/1 MAJOR/2 MINOR。唯一MAJOR为仍绑定321初始provisional draft SHA `5863cc8dae0cdf137f61161684aae3d102f85080`；321最终ready blob `ae7481d927dd54520a048a8ba7dd2745683d5147` 实际正文仅一处先获沈若琴同意再内部免提的文字修正，其余差别是交付Front Matter，与322内容相容。
 - Stage A只将322 Front Matter及详细章纲前章改为 `ae7481d927dd54520a048a8ba7dd2745683d5147` 并标明事实差异已核，**322正文0修订**，有效正文3364Unicode非空白码点。新完整draft Git blob `2473f649974ca0aeea8cd38588bbb6d3becd48db` 已独立重新读取，Pass A、B新评为0 BLOCKER/0 MAJOR/2 MINOR，旧Review无效；独立Continuity、Style、Meaningful QA内容门禁PASS，不因MINOR改正文。仍需精确候选提交真正结构CI及单测SUCCESS才可更新main ready。

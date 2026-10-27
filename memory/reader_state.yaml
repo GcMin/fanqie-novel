@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 324
-last_reviewed_title: "北口停用时，另一处还没开"
-last_source_path: chapters/draft/0324.md
-last_source_sha: a4e11d283e2e296bfa1d63041f5ec63f0b44d7b5
-last_review_path: reader_reviews/0324_a4e11d28.md
+last_reviewed_chapter: 326
+last_reviewed_title: "钟表铺对面，问路亭已经搬走"
+last_source_path: chapters/draft/0326.md
+last_source_sha: 724cbfdf2d80d830e27f9860ebdd7bdd768d1330
+last_review_path: reader_reviews/0326_724cbfdf.md
 last_reviewed_at: "2026-10-27"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 323
-depends_on_source_sha: 310ba30659ddcd31b73d4512baa1437b57db5c1f
+depends_on_chapter: 325
+depends_on_source_sha: dfc34b662221c340841d97b8f486e4426bda0cf8
 dependency_status: verified_predecessor_metadata_only_rebind
-predecessor_current_source_sha: 310ba30659ddcd31b73d4512baa1437b57db5c1f
+predecessor_current_source_sha: dfc34b662221c340841d97b8f486e4426bda0cf8
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1719,4 +1719,36 @@ chapter_324_reader_20261027:
   predecessor_current_ready_blob: "310ba30659ddcd31b73d4512baa1437b57db5c1f"
   predecessor_factual_delta: "323原draft到ready正文逐字相同仅Front Matter交付字段更正"
   dependency_status: verified_predecessor_metadata_only_rebind
+  structural_gate: exact_candidate_commit_CI_required
+chapter_325_reader_20261027:
+  chapter: 325
+  source_sha: "6fbf7069cc1aaf0d215a95e1acad00b3e53163f8"
+  review_path: reader_reviews/0325_6fbf7069.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft_blob
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  required_action: none
+  reader_gate: pass
+  content_qa: pass
+  effective_chars: 3372
+  body_revisions: 0
+  predecessor_ready_blob: "d6c720f0246d7c7d01d40b357270795fc692cea0"
+  predecessor_exact_ready: true
+  structural_gate: exact_candidate_commit_CI_required
+chapter_326_reader_20261027:
+  chapter: 326
+  original_sha: "759b309c4006a3d03ee5413d993c3ca334ae0417"
+  original_review: reader_reviews/0326_759b309c.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "724cbfdf2d80d830e27f9860ebdd7bdd768d1330"
+  review_path: reader_reviews/0326_724cbfdf.md
+  reviewer_mode: combined_audit_fresh_pass_a_then_b_after_predecessor_rebind
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  required_action: none
+  reader_gate: pass
+  content_qa: pass
+  effective_chars: 3352
+  body_revisions: 0
+  predecessor_original_draft_sha: "6fbf7069cc1aaf0d215a95e1acad00b3e53163f8"
+  predecessor_current_ready_blob: "dfc34b662221c340841d97b8f486e4426bda0cf8"
+  predecessor_metadata_only_delta: true
   structural_gate: exact_candidate_commit_CI_required
