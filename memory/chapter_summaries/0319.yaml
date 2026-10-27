@@ -1,0 +1,29 @@
+schema_version: 1
+chapter: 319
+title: "旧号有人接，水却没停下"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "b659bc6901d9e7c10e82ac113ccde202c182f70c"
+reader_review: "reader_reviews/0319_b659bc69.md"
+depends_on_chapter: 318
+depends_on_source_sha: "be8d5aa082555807aa8742ef4ba71cabc793c074"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day180 19:47告警—Day181 20:00第179夜班"
+summary: >-
+  Day180 19:47民安路八号楼地库高水位告警投递旧分组无人确认，居民高蓉19:55和20:12拨旧门牌只听自动留言；20:28发现门下渗水并报夜间中心。20:53物业领班到、21:07专业电工隔离、21:19维保发现备用泵未自启，21:36专业临时抽排、22:38门槛不再溢但泵房仍受限、22:56高蓉真人获当夜有限答复。Day181 01:00有责交班，11:19维保确认浮球导向卡滞并更换磨损件、12:06泵经受控启停、13:24分权复核才撤相应限制；14:47授权将旧自动总机从真人告警接收位移走，15:09具名机电岗接到身份明确的测试、15:42高蓉本人听到检修及岗位设置结果但评价不代填。20:00第179夜班。旧号机器接通、短信投递、真人到场、泵修复、本人获答绝不互代。
+meaningful_state_changes:
+  - "地库险情专业隔离临排后修复及复验；旧自动留言号从真人告警接收配置移出并获一次具名试呼；高蓉本人两阶段真实收答。"
+knowledge_updates:
+  - "老值班室半年前撤点后号码转物业总机自动入口；历史绿勾仅投递/接入无接班人证据，19:47告警旧分组没有真人回签。备用泵浮球导向卡滞是独立设备故障。"
+foreshadowing_updates:
+  - "独立当代普通机电及告警配置闭环，不新增F003/F008样本、不改F009/F010/F011 resolved、不确认M004/M005；1996历史真人获答与2018 A2同笔仍未知。"
+relationship_updates:
+  - "高蓉自愿实际收答，但不签满意、不替物业守险地；中心和物业各守权限，居民无须为系统绿勾承担现场风险。"
+ending_state: "Day181 20:00第179夜班；民安路该笔泵修复复验、真人告警接收配置限项更换并经试呼、本人真获答。旧红章原印14张10受控4未收及2复制品各控不变；企业考勤薪资未结。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "b659bc6901d9e7c10e82ac113ccde202c182f70c", final_draft_sha: "b659bc6901d9e7c10e82ac113ccde202c182f70c", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "be8d5aa082555807aa8742ef4ba71cabc793c074", predecessor_factual_compatible: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3068

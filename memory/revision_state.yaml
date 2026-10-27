@@ -1217,3 +1217,16 @@ audit_317_318_release_evidence_20261027:
   chapter_318_ready_blob: "be8d5aa082555807aa8742ef4ba71cabc793c074"
   blocked_chapters: []
   note: "番茄平台未发布，两个定时任务均未修改。"
+
+chapter_319_revision_20261027:
+  chapter: 319
+  original_sha: "b659bc6901d9e7c10e82ac113ccde202c182f70c"
+  final_sha: "b659bc6901d9e7c10e82ac113ccde202c182f70c"
+  final_review: reader_reviews/0319_b659bc69.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "be8d5aa082555807aa8742ef4ba71cabc793c074"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+  retry_cycles: 0

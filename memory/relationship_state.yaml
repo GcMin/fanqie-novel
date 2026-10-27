@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 318
+last_updated_chapter: 319
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -977,3 +977,11 @@ chapter_318_relationships:
   employee_and_employer: "班长及主管在各自权限撤错路置顶、保真实21:21到岗、将迟到原因交申诉程序，未伪造20:20或先判工资；企业群管理不推所有员工看见新告知。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "民众只提供本案裁切旧图及公开事实；公开道路核验与公司人事记录分开，不索同事私人身份。"
+
+chapter_319_relationships:
+  chapter: 319
+  source_sha: "b659bc6901d9e7c10e82ac113ccde202c182f70c"
+  citizen_and_center: "高蓉拒替物业开危险门和看守地库，只愿确认谁真正来了及当夜后续结果；夏宁与梁策允许其不提供满意签名，周衡留可追溯来源。"
+  property_and_public: "领班按权分流公众、专业岗位处电气/排水，Day180 22:56及Day181 15:42真实两次回告；后者签的是收悉不是满意。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "不扩大为本楼每户都已收到信息，旧告警历史无人回签不由新版具名试呼补齐。"

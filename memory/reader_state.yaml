@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 318
-last_reviewed_title: "迟到记录不能替她认路"
-last_source_path: chapters/draft/0318.md
-last_source_sha: 39e263636078cfc133f13e6160838bde0fd74cf0
-last_review_path: reader_reviews/0318_39e26363.md
+last_reviewed_chapter: 319
+last_reviewed_title: "旧号有人接，水却没停下"
+last_source_path: chapters/draft/0319.md
+last_source_sha: b659bc6901d9e7c10e82ac113ccde202c182f70c
+last_review_path: reader_reviews/0319_b659bc69.md
 last_reviewed_at: "2026-10-27"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 317
-depends_on_source_sha: 1966c52470fab6a351b99ae11209c5952e78fc99
-dependency_status: verified_predecessor_metadata_only_rebind
-predecessor_current_source_sha: 1966c52470fab6a351b99ae11209c5952e78fc99
+depends_on_chapter: 318
+depends_on_source_sha: be8d5aa082555807aa8742ef4ba71cabc793c074
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: be8d5aa082555807aa8742ef4ba71cabc793c074
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1610,3 +1610,17 @@ chapter_318_reader_20261027:
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
 undefined
+chapter_319_reader_20261027:
+  chapter: 319
+  source_path: chapters/draft/0319.md
+  source_sha: "b659bc6901d9e7c10e82ac113ccde202c182f70c"
+  review_path: reader_reviews/0319_b659bc69.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  required_action: none
+  predecessor_ready_blob: "be8d5aa082555807aa8742ef4ba71cabc793c074"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  effective_chars: 3068
+  body_revisions: 0
+  structural_gate: exact_candidate_commit_CI_required
