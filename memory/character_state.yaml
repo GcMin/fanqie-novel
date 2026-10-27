@@ -1,14 +1,14 @@
 schema_version: 1
-last_updated_chapter: 316
+last_updated_chapter: 318
 characters:
   zhou_heng:
-    location: "Day178 20:00，第176次夜班开班"
+    location: "Day180 20:00，第178次夜班开班"
     state: "Day176—178分别处理何杏虚假已领和孙微电话未听清两笔事实；Day178 20:00第176次夜班收有权装牌与本人真听回告两份不同来源结果"
   liang_ce:
-    location: "Day178 20:00，第176次夜班开班"
+    location: "Day180 20:00，第178次夜班开班"
     state: "Day176—177引导公众留在安全侧，不试施工天桥和卸货口；道路当夜合规核路不能代永久安全担保"
   xia_ning:
-    location: "Day178 20:00，第176次夜班开班"
+    location: "Day180 20:00，第178次夜班开班"
     state: "Day176限何杏本人事项证据，不擅断内部扫码根因；Day177 20:34按孙微本笔自愿材料请道路岗位实核封桥与地面安全路；Day178收回执"
 invariants: F008无新增；F009/F010/F011 resolved；M004未确认；M005不触碰
 
@@ -1258,3 +1258,27 @@ chapter_316_characters:
   activity_room: "公众禁桥新提示牌由道路有权实装，孙微本人16:08确实听到口头安全说明；未证她看见新牌或Day177四十九秒电话听清『不』字。"
   main_cast_injuries: none_new
   final_location: "Day178第176次夜班，历史机制未证"
+
+chapter_317_characters:
+  chapter: 317
+  source_sha: "a5dbe2caf019e81b156b2b481f40364b5f7db2f5"
+  timeframe: "Day178—Day179"
+  zhou_heng: "只登记任枝报刊亭旧图的现场事实，区分店主撤示和活动室真正实物回收，不提前改原纸数量。"
+  xia_ning: "Day178夜接任枝安全位置问路和本人有限到站回告，Day179早八点将去身份现场展示照片与待核原纸分立交白班。"
+  liang_ce: "Day178 20:41从公众侧看报刊亭，按当班道路/站务分权确认合法地面及推车连接路，不拆店主展示袋、不追顾客身份。"
+  citizen: "任枝拒报母亲住址和末班去向，仅本人报告21:27到新站候车；黄菱自愿撤旧展示、21:12锁柜暂存、Day179 10:36移交，拒给顾客身份和全店监控。"
+  activity_room: "Day179 10:36实际核收一张Day166原印，14张原印从9控5未收变为10控4未收，2份后制复印独立受控。"
+  main_cast_injuries: none_new
+  final_location: "Day179 20:00第177次夜班；剩余4原印来源未知，封桥/卸货口仍禁公众。"
+
+chapter_318_characters:
+  chapter: 318
+  source_sha: "39e263636078cfc133f13e6160838bde0fd74cf0"
+  timeframe: "Day179—Day180"
+  zhou_heng: "把沈芷转拍路线图的公众风险、门岗真实到岗记录及劳动考勤争议各自分账；Day180 20:00交接旧纸14印10控4未收事实不变。"
+  xia_ning: "只收沈芷自愿给的裁切截图，不导工作群成员和薪资表；22:37经企业公开联络确认旧群置顶真撤，不推每台手机缓存已清。"
+  liang_ce: "经道路有权者20:58/21:09分段核路、企业门岗确认合法入厂门，不凭旧红章图擅造现场路权，不代员工打卡。"
+  citizen: "沈芷21:21真正进入仓库并有真实登记；Day180 13:16本人领取带来源时点的有限道路事实，15:02企业将误判未到岗改实到已核、迟到原因待复核，工资尚未裁定。"
+  activity_room: "刘玲拒把Day179 20:58道路核验倒填成19:48本人下车时的情况，拒签官方免考勤、迟到原因和工资结论。"
+  main_cast_injuries: none_new
+  final_location: "Day180 20:00第178次夜班；原印仍10控4未收，企业工作群旧图撤置顶，但留存旧文件/个人缓存未证清空。"

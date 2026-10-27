@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 318
+title: "迟到记录不能替她认路"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "c2e128855b3364d2ca7870b2679b815a426fba98"
+source_draft_sha: "39e263636078cfc133f13e6160838bde0fd74cf0"
+reader_review: "reader_reviews/0318_39e26363.md"
+depends_on_chapter: 317
+depends_on_source_sha: "1966c52470fab6a351b99ae11209c5952e78fc99"
+dependency_status: verified_predecessor_metadata_only_rebind
+timeframe: "Day179 19:48—Day180 20:00"
+summary: >-
+  317正式ready仅交付Front Matter相对源草稿发生变动，正文Day179 10:36真实回收一原印、14印10控4未收且两张影印另控事实完全不变。318 Day179 20:26位于第177夜班，20:58道路核桥和卸货口禁行、21:09道路与企业门岗各核一段合法路、21:21本人工厂真正入门，22:37企业群自管撤旧置顶不等于所有缓存刷新或纸本回收。Day180 11:44道路只核昨20:58路况、13:16沈芷本人领有权事实摘录、15:02公司暂更正无证未到岗提示并留待程序核薪；20:00第178夜班。不能凭20:58核验倒填19:48路况或替企业裁定工资。
+meaningful_state_changes:
+  - "Day179 21:21真到岗、22:37企业旧指路置顶撤下；Day180 13:16真领道路事实、15:02考勤原因按企业程序待复核。"
+knowledge_updates:
+  - "图像转拍与原纸未收数量不同，路况限时核验不同于个人一路行程；企业工时及薪资结论未证。"
+foreshadowing_updates:
+  - "F003仍依法有界，F008无新可靠本人记忆反证，F009/F010/F011 resolved；现代本案不能证明1996旧本人真实收答、2018 A2同笔或M004/M005。"
+relationship_updates:
+  - "本人隐私与意见自愿边界受尊重，机构未越权代签他人通行、回收、到岗和满意。"
+ending_state: "Day180 20:00第178夜班；旧14原印10实控4未收另2影印分别受控；群置顶已撤薪资争议仍待企业处理。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "c2e128855b3364d2ca7870b2679b815a426fba98", final_draft_sha: "39e263636078cfc133f13e6160838bde0fd74cf0", stage_a_used: 1, body_revisions: 0, predecessor_ready_blob: "1966c52470fab6a351b99ae11209c5952e78fc99", predecessor_factual_compatible: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3243

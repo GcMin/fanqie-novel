@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 316
-last_reviewed_title: 电话里少了一个“不”字
-last_source_path: chapters/draft/0316.md
-last_source_sha: f2ad88467dc6008fd139cbeb32c20bdf909d9bf4
-last_review_path: reader_reviews/0316_f2ad8846.md
+last_reviewed_chapter: 318
+last_reviewed_title: "迟到记录不能替她认路"
+last_source_path: chapters/draft/0318.md
+last_source_sha: 39e263636078cfc133f13e6160838bde0fd74cf0
+last_review_path: reader_reviews/0318_39e26363.md
 last_reviewed_at: "2026-10-27"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 315
-depends_on_source_sha: 3fcc2f99344b554cd0ab563527539d4459253483
-dependency_status: verified_predecessor_factual_delta_compatible
-predecessor_current_source_sha: 48173d960542ee7b885550a898f6ea3621afff9c
+depends_on_chapter: 317
+depends_on_source_sha: 1966c52470fab6a351b99ae11209c5952e78fc99
+dependency_status: verified_predecessor_metadata_only_rebind
+predecessor_current_source_sha: 1966c52470fab6a351b99ae11209c5952e78fc99
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1580,3 +1580,33 @@ chapter_316_reader_20261027:
   content_qa: pass
   effective_chars: 3178
   structural_gate: exact_candidate_commit_CI_required
+
+chapter_317_reader_20261027:
+  chapter: 317
+  source_path: chapters/draft/0317.md
+  source_sha: "a5dbe2caf019e81b156b2b481f40364b5f7db2f5"
+  review_path: reader_reviews/0317_a5dbe2ca.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  required_action: none
+  predecessor_ready_blob: "31a4163989730c7ab40d57576b1feca9ee2d5810"
+  content_qa: pass
+  body_revisions: 0
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_318_reader_20261027:
+  chapter: 318
+  original_source_sha: "c2e128855b3364d2ca7870b2679b815a426fba98"
+  old_review_path: reader_reviews/0318_c2e12885.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "39e263636078cfc133f13e6160838bde0fd74cf0"
+  review_path: reader_reviews/0318_39e26363.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  required_action: none
+  stage_a_body_revisions: 0
+  predecessor_ready_blob: "1966c52470fab6a351b99ae11209c5952e78fc99"
+  predecessor_metadata_only_delta_compatible: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+undefined

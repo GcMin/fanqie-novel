@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 316
+last_updated_chapter: 318
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -961,3 +961,19 @@ chapter_316_relationships:
   institutional_accountability: "公众禁桥新提示牌由道路有权实装，孙微本人16:08确实听到口头安全说明；未证她看见新牌或Day177四十九秒电话听清『不』字。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "本人只同意本笔核证，不强制公开工作行程，不批量查他人号码，不代签满意。"
+
+chapter_317_relationships:
+  chapter: 317
+  source_sha: "a5dbe2caf019e81b156b2b481f40364b5f7db2f5"
+  citizen_and_center: "任枝要求安全实际道路和完整推车通路，不授权中心跟踪其母亲地址或任意推到家。夏宁只收本人自愿21:27到站回告并留正确时点。"
+  kiosk_and_activity_room: "黄菱认自己误把旧红章图夹真时刻表，同意21:12撤示、次日自愿交纸，不凭印象替送纸阿姨具名，不交整店监控；刘玲只在10:36真实核收后改14印10控4未收。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "只保留有限去身份的展示前后照片与实际实物收条，不代群众签评价，拒将旧原印四缺推成全部纠正。"
+
+chapter_318_relationships:
+  chapter: 318
+  source_sha: "39e263636078cfc133f13e6160838bde0fd74cf0"
+  citizen_and_center: "沈芷不交企业群成员/私人全部行程，不请中心替改打卡。中心提供可核时点道路事实摘录不裁定薪资，尊重她不被迫替群管理员提供工作联系人。"
+  employee_and_employer: "班长及主管在各自权限撤错路置顶、保真实21:21到岗、将迟到原因交申诉程序，未伪造20:20或先判工资；企业群管理不推所有员工看见新告知。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "民众只提供本案裁切旧图及公开事实；公开道路核验与公司人事记录分开，不索同事私人身份。"

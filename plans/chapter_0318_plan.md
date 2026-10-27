@@ -5,10 +5,10 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - source_main_sha: d33e5db07709512fb2340727615e826ad918ad04
-- predecessor_path: chapters/draft/0317.md
+- predecessor_path: chapters/ready/0317.md
 - depends_on_chapter: 317
-- depends_on_source_sha: "a5dbe2caf019e81b156b2b481f40364b5f7db2f5"
-- dependency_status: provisional
+- depends_on_source_sha: "1966c52470fab6a351b99ae11209c5952e78fc99"
+- dependency_status: verified_predecessor_metadata_only_rebind
 - target_effective_chars: 2600–3400
 - hard_range: 2300–3800
 - count_method: 正文Unicode非空白码点数，不含Front Matter
@@ -37,3 +37,6 @@
 - 现场禁行安全状态、企业进门实际时间、劳动考勤原因、工资最终处理、群管理员撤置顶及所有成员接收分别为不同权责证据；不得在夜间中心替企业裁决待遇或伪造申诉结果。
 - 1996旧夜间普通照明记录仅证明受理岗位纸面收讫，不证自然人获答、2018 A2与其它旧档同笔、F008新增可靠记忆冲突或M004/M005最终机制；F009/F010/F011已resolved。不得把今日普通错图与旧异常证据混同。
 - 本轮只新建详细计划和未审draft，不执行Editor/Reader/Revision/QA/Memory/Publish Gate，绝不修改现存章节、旧评论或上架发布。待独立Audit核查。
+
+## Audit 衔接核对（2026-10-27）
+第317章初稿 a5dbe2caf019e81b156b2b481f40364b5f7db2f5 到正式ready blob 1966c52470fab6a351b99ae11209c5952e78fc99 仅改 Front Matter 的status、qa、approved_at、publish_mode，正文和全部事件事实不变。318由临时draft依赖重绑317 ready，无正文修改。原318草稿c2e128855b3364d2ca7870b2679b815a426fba98 → 新draft 39e263636078cfc133f13e6160838bde0fd74cf0；旧Review不能替代新blob的独立双遍Review。Day179 10:36实回收原印一张使14印10控4未收、另两复印件独控，与318情节精确兼容。不得把企业撤群置顶当作找回旧纸，也不得用道路岗位时点替代考勤裁定。
