@@ -6,8 +6,8 @@
 - role: Writer / Planner / Continuity Precheck
 - predecessor_path: chapters/ready/0313.md
 - depends_on_chapter: 313
-- depends_on_source_sha: "05f6b8efdae795856f9d91ea6ff74724d193cf5d"
-- dependency_status: verified_exact_ready_blob
+- depends_on_source_sha: "48173d960542ee7b885550a898f6ea3621afff9c"
+- dependency_status: verified_predecessor_factual_delta_compatible
 - target_effective_chars: 2600–3400
 - hard_range: 2300–3800
 - count_method: 正文Unicode非空白码点（不含YAML Front Matter）
@@ -43,3 +43,8 @@
 - 直接前章位置：`chapters/ready/0313.md`，Git blob：`05f6b8efdae795856f9d91ea6ff74724d193cf5d`；状态：`verified_exact_ready_blob`。第313章故事到Day175 20:00第173夜班，故314从同一夜20:23起；共享号码日间报话是本章首次引入，不会冒作313章已确认事实。
 - 本轮按AGENTS、novel.yaml、writing_roles、ai_reading_protocol和四项Bible、三张主角人物卡及现有第六卷ARC-054事实范围写作。旧`outlines/volume_05.md`与`outlines/arcs/arc_current.md`滞留早期，近期正式ready与Canon/Memory证据优先。
 - 已读取当前状态和近期有界伏笔时间线、304—313十章摘要（含第313章最新ready摘要）、309—313五章正文以及前章章纲；未读取历史reader_reviews。仅新建第314章计划和初稿，不执行审核、修订、QA、Memory或发布。
+
+## Audit校验补记（2026-10-27）
+- Writer起稿时313 ready Blob为 `05f6b8efdae795856f9d91ea6ff74724d193cf5d`；313最终更正后的ready Blob为 `48173d960542ee7b885550a898f6ea3621afff9c`。
+- 实际逐段对照313旧/新正文，只有Day174 20:53陈津「昨天才把」改「今天下午才把」，与第312章Day174 14:15有权落实开门首轮领取岗位的时点一致；不影响314依赖的Day175 20:00夜班、旧快照暂停与14/8/6原纸事实。
+- 314只同步Front Matter与本章计划依赖，无正文修订；旧章已ready计划行一律不覆盖。旧313 SHA仍留作有据回溯。

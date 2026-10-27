@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 313
+current_chapter: 314
 current_stage: structural_gate_pending
-current_source_path: chapters/draft/0313.md
-current_source_sha: 3fd005a19988e26917cfa514a7a6f5c3021d25fa
-current_review_path: reader_reviews/0313_3fd005a1.md
+current_source_path: chapters/draft/0314.md
+current_source_sha: 3c34991e55c05870e422e3b0ddd6e6ddd16d0d54
+current_review_path: reader_reviews/0314_3c34991e.md
 rounds:
-  reviews_this_cycle: 1
+  reviews_this_cycle: 2
   local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_313_stage_a_relative_day_fix_new_sha_rereview
+last_action: audit_314_stage_a_predecessor_sha_rebind_new_sha_rereview
 last_action_date: 2026-10-27
 last_error: null
-last_diff_summary: "313初版Reader漏检Day174错称昨天建立领取岗位，Stage A仅改今天下午，修后Blob 3fd005a19988e26917cfa514a7a6f5c3021d25fa、3359字，新SHA独立Reader 0/0/2及QA PASS，精确候选结构CI必需。"
+last_diff_summary: "314旧草稿错绑313旧ready SHA，实核313唯一Day174相对日期昨天→今天下午修订不改314承接事实；Stage A仅重绑元数据，正文0改，修后新Blob 3c34991e55c05870e422e3b0ddd6e6ddd16d0d54、3567字，独立新SHA Reader 0/0/2与内容QA PASS，候选精确结构CI必需。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1120,3 +1120,22 @@ chapter_313_revision_20261027:
   predecessor_exact_ready: true
   content_qa: pass
   structural_gate: exact_corrected_commit_CI_required
+
+chapter_314_revision_20261027:
+  chapter: 314
+  original_sha: "fda44a1fbbc8fa85000233f134a63cbf0bf9289c"
+  initial_review: reader_reviews/0314_fda44a1f.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  changed_fields: [depends_on_source_sha, dependency_status]
+  body_revisions: 0
+  new_sha: "3c34991e55c05870e422e3b0ddd6e6ddd16d0d54"
+  new_review: reader_reviews/0314_3c34991e.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  old_predecessor_ready_blob: "05f6b8efdae795856f9d91ea6ff74724d193cf5d"
+  actual_predecessor_ready_blob: "48173d960542ee7b885550a898f6ea3621afff9c"
+  predecessor_body_delta: "313 Day174相对日期昨天更正今天下午，312 14:15已证；314继承的人物与物件状态无差异"
+  dependency_status: verified_predecessor_factual_delta_compatible
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+  retry_cycles: 0

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 313
+last_updated_chapter: 314
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -937,3 +937,11 @@ chapter_313_relationships:
   liu_ling_and_chen_jin: "陈津保留未签旧表和已发错误来源，不以烧表或统一翻红抹历史；刘玲承认旧统计产生额外伤害，只就许荟这一笔真人回告及获准书面说明，未替别的来话人认收。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "只核许荟本笔及关联任务源，不导全月其它号码，不给其真人回话补旧时点，不推已发短信全部到达或后续历史任务全部清理。"
+
+chapter_314_relationships:
+  chapter: 314
+  source_sha: "3c34991e55c05870e422e3b0ddd6e6ddd16d0d54"
+  citizen_and_center: "蔡蓓拒给私人手机号和送货单/店铺招牌，允许仅处理自家这笔公众险情；夏宁尊重其不当临时看守人、只让有权道路人员实修，Day176 15:16本人自愿签有限纸面收讫不等于满意或同意扩查。"
+  liu_ling_and_chen_jin: "陈津想将原接通改成未接，刘玲与夏宁要求原18:06真实接通表不可擦，仅在受话者与本报话人之间附注未证本人收答；管理人14:20只批本室共享号码/纸领分栏。"
+  staff_and_public_safety: "梁策站务车架道路各管权限，不逼蔡蓓复演险情、不为另一岗位签安全复开；活动室不从共享座机旁边追查他人私人谈话。"
+  other_relationship_scores: unchanged

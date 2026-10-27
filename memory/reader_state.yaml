@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 313
-last_reviewed_title: 那张旧绿勾，又发出一条短信
-last_source_path: chapters/draft/0313.md
-last_source_sha: 3fd005a19988e26917cfa514a7a6f5c3021d25fa
-last_review_path: reader_reviews/0313_3fd005a1.md
+last_reviewed_chapter: 314
+last_reviewed_title: 电话打进店里，回话留在门外
+last_source_path: chapters/draft/0314.md
+last_source_sha: 3c34991e55c05870e422e3b0ddd6e6ddd16d0d54
+last_review_path: reader_reviews/0314_3c34991e.md
 last_reviewed_at: "2026-10-27"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 312
-depends_on_source_sha: f79903f7db0cf08f8994ef42442683b83b2dc61e
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: f79903f7db0cf08f8994ef42442683b83b2dc61e
+depends_on_chapter: 313
+depends_on_source_sha: 48173d960542ee7b885550a898f6ea3621afff9c
+dependency_status: verified_predecessor_factual_delta_compatible
+predecessor_current_source_sha: 48173d960542ee7b885550a898f6ea3621afff9c
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1517,3 +1517,30 @@ combined_audit_chapter_313_20261027:
   predecessor_ready_blob_sha: "f79903f7db0cf08f8994ef42442683b83b2dc61e"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_corrected_commit_CI_required
+
+chapter_314_reader_20261027:
+  chapter: 314
+  title: "电话打进店里，回话留在门外"
+  source_path: chapters/draft/0314.md
+  original_source_sha: "fda44a1fbbc8fa85000233f134a63cbf0bf9289c"
+  initial_review: reader_reviews/0314_fda44a1f.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage: "Stage A metadata-only predecessor rebind"
+  final_source_sha: "3c34991e55c05870e422e3b0ddd6e6ddd16d0d54"
+  new_sha_review: reader_reviews/0314_3c34991e.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+  recommendation: keep
+  required_action: none
+  fix_required: none
+  reader_gate: pass
+  content_qa: pass
+  body_revisions: 0
+  effective_chars: 3567
+  depends_on_chapter: 313
+  old_predecessor_blob: "05f6b8efdae795856f9d91ea6ff74724d193cf5d"
+  predecessor_ready_blob: "48173d960542ee7b885550a898f6ea3621afff9c"
+  factual_delta: "313 Day174 20:53陈津把昨天才把更为今天下午才把，312已证明当日14:15才确立领取人；314剧情依赖均兼容"
+  dependency_status: verified_predecessor_factual_delta_compatible
+  historical_upstream_factual_diff_not_automatically_waived: true
+  structural_gate: exact_candidate_commit_CI_required

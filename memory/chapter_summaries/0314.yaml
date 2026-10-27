@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 314
+title: "电话打进店里，回话留在门外"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "fda44a1fbbc8fa85000233f134a63cbf0bf9289c"
+source_draft_sha: "3c34991e55c05870e422e3b0ddd6e6ddd16d0d54"
+prior_review: "reader_reviews/0314_fda44a1f.md"
+reader_review: "reader_reviews/0314_3c34991e.md"
+depends_on_chapter: 313
+old_depends_on_source_sha: "05f6b8efdae795856f9d91ea6ff74724d193cf5d"
+depends_on_source_sha: "48173d960542ee7b885550a898f6ea3621afff9c"
+dependency_status: verified_predecessor_factual_delta_compatible
+timeframe: "Day175 17:17—Day176 20:00，第173/174次夜班交接（本章现场始Day175 20:23）"
+summary: >-
+  Day175 17:17蔡蓓借水果店共享座机向西巷活动室报62路新站旁公共车架外沿排水盖板偶响，明说借店话机非私人电话并希望在活动室窗口纸面领取处置结果；18:06活动室回拨只由另一店员接听并说回头转告她，18:08系统把电话接通错误汇成「本人已知悉」，当时无蔡蓓实际收到证明。20:23蔡蓓下班推小车被新的松翘金属边卡轮，在安全侧报夜间中心，不交工作单私人电话、不代专业测试或守现场。20:36站务在自管区提示和引离，20:57梁策仅公众侧取证，21:11道路设施夜值和车架管理方各自核排水盖板松移的权属和真正风险，21:42道路/站务/车架各据职责实查另一侧合法人行余宽照明与部分可用停车位；封桥和卸货口不能公众通行。23:15有责围挡仍在，坏件未修不冒报风险消失。Day176 08:00夜交白班，09:24活动室刘玲与获权号码岗仅查蔡蓓这一笔，保留18:06回拨真实接通历史与受话人非本人的事实，附注明确「本人是否获答无证」，不查其它号码或伪签昨天已知。10:46专业更换松动卡件修正局部变形，12:09荷载和排水专业复测但尚未撤公众限，13:12道路/站务/车架再次分权核，13:31才撤受影响公众隔离。14:20管理者仅批准本站共享电话/纸质领取两项分别登记的岗位办法，不虚报全系统已升级。15:08蔡蓓亲到活动室，15:16本人实看并签收有限说明，拒通用满意评价和私人电话采集。Day176 20:00第174夜班收专业修复/公众撤限不同结果，Day167旧统计快照关联的满意度下批仍经权暂停，全面历史影响和生产修正仍待核。旧红章错误路线纸原印14张8实控6未回收，两张复制件分别实控，公交新站合法但施工天桥及卸货口仍不准公众。1996旧岗位收文不是旧报修人实际听答，2018 A2旧两档同笔、F008新可靠本人记忆冲突、M004/M005未获新确证。
+meaningful_state_changes:
+  - "排水盖板当夜真实专业核险及有责围挡、次日更换件与道路站务车架分权公众复核后13:31真正撤限。"
+  - "单笔共享座机18:06确实接通但受话者非蔡蓓，旧18:08本人已知悉归因为错误推断并附更正不抹通话证据。"
+  - "Day176 14:20管理者批准区分共享电话号码与本人书面收答方式，15:16蔡蓓真正领取且拒代填满意度。"
+knowledge_updates:
+  - "共享号码接通、由第三人答应转告、报话人本人实际阅读答复属于三层不同可核证据。"
+  - "专业修复12:09限项复测、13:31公众有责复核撤限以及15:16本人领取纸质答复各是独立事实；任何一个不能替另外两个签结论。"
+  - "前313原依赖到最终ready只有Day174 20:53陈津昨天更正为今天下午，312证Day174 14:15才批日间岗位；本章依赖事实兼容，现绑定正式ready blob。"
+foreshadowing_updates:
+  - "当代店铺共享电话造成本人获答错判不等于1996旧原受理席原报修人真获回话，也不证明2018 A2旧两册同笔、M004/M005的旧异常机制；F008无新可靠具体反证。"
+relationship_updates:
+  - "蔡蓓坚持自己决定接收渠道、拒老板和摊主代签满意，夏宁刘玲给予限定本人纸面说明；陈津从一键把接通归已知改为保留原记录另附待本人核状态。"
+ending_state: "Day176 20:00第174夜班，槐石路62路新站旁盖板专业已修、合法公众段13:31才复开，蔡蓓15:16本人真实取得限定书面说明；旧快照同源待发仍停止、历史生产修复待核、14印8控6未收另2复制仍受控。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "fda44a1fbbc8fa85000233f134a63cbf0bf9289c", final_draft_sha: "3c34991e55c05870e422e3b0ddd6e6ddd16d0d54", stage_a_used: 1, body_revisions: 0, change: predecessor_blob_metadata_rebind_after_actual_one_line_day174_delta, predecessor_ready_blob: "48173d960542ee7b885550a898f6ea3621afff9c", predecessor_factual_compatible: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3567
