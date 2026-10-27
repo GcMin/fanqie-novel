@@ -1,2 +1,2 @@
-# 最近独立QA：第334章（2026-10-28）
-334草稿SHA `6807347c4f9453605bd02809c55b603adf9d21c7` 按Reader Pass A→Pass B双遍审查为0 BLOCKER/0 MAJOR/2 MINOR，正文0处修订、3090有效字；前333正式ready `2c95d5807c3ca13b589d461ff041acdb22973b0a` 精确匹配。独立Continuity/Style/Meaningful内容QA PASS。Day195 21:14有责隔离、22:21拆见旧内衬“永安里方向”、22:38受控留图编号、23:10路侧复行；Day196 15:48仅允未来查旧料目录尚未申请，内衬来源年代、沈父私册同源及永安里6栋201路权无证明。F008/M004/M005不升证。详见 `qa/0334_report.md`。**结构门槛须精确候选Commit完成publisher.check_local与单测CI SUCCESS后，才可非强制更新main。**
+# 最近独立QA：第335章（2026-10-28）
+第335章原草稿Git blob `8e1c2f16cb79fbbf0d3964d0822da587ead25741` 经普通读者Pass A→Canon/连续性Pass B独立审核，BLOCKER=0、MAJOR=0、MINOR=2，正文零修、有效字3050；前334正式ready SHA `757fc9be3c6fd9fdc92a474a890e16926241666d` 精确匹配。独立Continuity/Style/Meaningful内容QA PASS。Day196 21:41有责具名限制旧内衬出库，原错结算标签保留；Day197有源2016-04-12维护影像三处特征双人核同，16:09有限去身份文字可转中心。只证2016当时在同一立柱，字迹制作年、原始路线、沈父私册同源、F008/M004/M005未知。详见 `qa/0335_report.md`。**结构门须精确候选Commit真正经过publisher.check_local及单测CI SUCCESS，才可非强制更新main。**

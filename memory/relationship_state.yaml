@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 334
+last_updated_chapter: 335
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1094,4 +1094,11 @@ chapter_334_relationships:
   citizen_and_center: "老祝只为现时安全报险、说自己十来年只见旧牌正面，不让梁策或中心将其口述冒充见过背面历史字。"
   staff_authority: "周衡一时催保字立刻纠正为先专业安全拆卸；夏宁维护设施管理方保管/拍摄/许可边界，梁策只从可通行公众路协助。"
   artifact_privacy: "方工没有擅发内衬照片，设施方按权限留照暂存，中心仅取去身份事实摘要；沈父旧册仍由家人自主保管。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_335_relationships:
+  chapter: 335
+  source_sha: "8e1c2f16cb79fbbf0d3964d0822da587ead25741"
+  artifact_custody: "马芸与林工先依职责查三件原交接并保留错误结算标签，司机不被迫签无授权载货；原物、内照受设施管理方控制，中心只收有限文字摘要。"
+  staff_boundary: "夏宁先问有无真实出库和签署权限，周衡与梁策不越权索取原影像或以自己记忆鉴定背面字。"
   main_cast_trust_scores_unchanged: true

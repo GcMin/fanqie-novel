@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 335
+title: "报废单打印好了，旧铁皮还在柜里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "8e1c2f16cb79fbbf0d3964d0822da587ead25741"
+reader_review: reader_reviews/0335_8e1c2f16.md
+depends_on_chapter: 334
+depends_on_source_sha: "757fc9be3c6fd9fdc92a474a890e16926241666d"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day196 21:07—Day197 20:00，第194/195次夜班"
+summary: >-
+  Day196 21:07道路设施所保管员马芸发现维修任务清退完成标签会错误覆盖白榆旧便民指引三件拆件的实际单独保管状态；窄铁皮袋外有昨晚22:38待核编号。21:23设施方联动中心核实公众危险解除不等于全部物料已报废、已出库；21:41林工核三件有源清单后具名授权旧窄铁皮继续单独受控保管，追加差异说明，不倒删结算原记录；回收车只载走其他已授权杂料，旧牌三件当夜未出库，继续保管不等于无期限。Day197 09:18资产岗逐一核物，10:06从已有合规资产影像索引找到2016-04-12该西侧立柱维护的有源三张照片，10:43在受控终端合法查照片。13:26有责双人依据原始影像和昨夜受控拆件图比对斜豁口、两旧孔、折痕及立柱位置，仅支持旧铁皮在2016-04-12当处作为后层垫片；照片未显示背面字，不能证明写字人、文字时间或此前原料流转。16:09有权限项许可向夜间中心转去身份文字说明，原照与实物仍属设施方；更早旧料调拨申请尚未提出。20:00第195次夜班分记系统结算/物料库存/2016有界影像，各无跨结论。沈父私人原册仍妹妹家，东工门维修道公众禁入，错误红章14原印10控4未收及两影印分控；1996原人真获答、2018 A2同笔、F008/M004/M005不获证。
+meaningful_state_changes:
+  - "Day196 21:41林工具名纠正错误整批清退范围并指示窄铁皮继续独立受控保管，三件旧牌拆件当夜未出库。"
+  - "Day197 13:26两人有源比对2016-04-12原始维护影像与现有拆件的三处独特特征，支持旧铁皮当时已在同一立柱上使用。"
+knowledge_updates:
+  - "维修任务结算完毕不等于旧料报废批准或实物出库；有源照片同一性也不证明背字制作时间、写作者和旧路径。"
+foreshadowing_updates:
+  - "F003新增2016实物所在时间下界但不确认制作、字迹、与私人旧纸同源或永安里6栋201路权，F008/M004/M005无新确证。"
+relationship_updates:
+  - "马芸不因夜间回收和单张标签越权签出库，林工守资产责任边界，中心仅得许可转发的有限文字，不替管理方扣实物。"
+ending_state: "Day197 20:00第195夜班，旧铁皮仍受控存设施所，2016同址安装获得有限支持，更早调拨未申请，公众西侧路已安全复行东工门禁入不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "8e1c2f16cb79fbbf0d3964d0822da587ead25741", final_draft_sha: "8e1c2f16cb79fbbf0d3964d0822da587ead25741", reviews_this_cycle: 1, local_revision_used: 0, body_revisions: 0, predecessor_ready_blob: "757fc9be3c6fd9fdc92a474a890e16926241666d", predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3050

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 334
+last_updated_chapter: 335
 characters:
   zhou_heng:
     location: "Day181 20:00，第179次夜班开班"
@@ -1472,3 +1472,15 @@ chapter_334_characters:
   material: "旧便民指引拆下；带“永安里方向”字样窄铁皮在道路设施待核物料柜，中心无原件/无限制影像权；沈父私册仍妹妹家，红章错误路图14原印10控4未收、两影印各控。"
   main_cast_injuries: none_new
   final_location: "Day196 20:00第194次夜班，旧东门/维修道公众禁行不变，西侧拆除旧危牌后公众线依法复行。"
+
+chapter_335_characters:
+  chapter: 335
+  source_sha: "8e1c2f16cb79fbbf0d3964d0822da587ead25741"
+  timeframe: "Day196 21:07—Day197 20:00"
+  zhou_heng: "Day196只从设施岗得不含内部照片的限定回告，Day197仅获有权许可的2016原照比对文字，不取原照实物、不把童年永安里记忆作同源证明，旧料调拨查询仍待申请。"
+  xia_ning: "把安全工单结算与材料保管/出库分离，提醒周衡不要替资产有权人签长期保管承诺；夜班按许可记录限定事实。"
+  liang_ce: "Day197外勤返回后提醒周衡更早旧料调拨需另按权限申请，不替设施方追溯来源。"
+  custodian: "马芸Day196发现错误清退标签并保存原件，督促林工具名指示；林工21:41授权旧内衬继续受控存放，Day197仅双人合规比2016旧影像，不擅公开背字。"
+  material: "窄铁皮仍在道路设施所单独受控格位；2016-04-12同立柱垫片现有有源影像支持，原字作者年代和更早来源未定；沈父旧册仍妹妹家、错误红章14原印10控4未收另两影印分控。"
+  main_cast_injuries: none_new
+  final_location: "Day197 20:00第195夜班；白榆东工门及维修便道继续禁公众，西侧路在Day195已专业复行。"
