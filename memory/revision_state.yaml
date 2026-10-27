@@ -1230,3 +1230,17 @@ chapter_319_revision_20261027:
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
   retry_cycles: 0
+ 
+chapter_320_revision_20261027:
+  chapter: 320
+  original_sha: "6fb9505d0100ea09a08d1cfafd9ae4f248f0c392"
+  final_sha: "6fb9505d0100ea09a08d1cfafd9ae4f248f0c392"
+  final_review: reader_reviews/0320_6fb9505d.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "4fd404dd9332d56d79ad97af94a524102d9c6fda"
+  predecessor_exact_ready: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+  retry_cycles: 0
