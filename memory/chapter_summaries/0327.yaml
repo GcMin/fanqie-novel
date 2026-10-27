@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 327
+title: "新柜台尚未开门，旧告知已经生效"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "f0fe106e38d96b78e589259964e7604099a3932b"
+source_draft_sha: "03c57b2b0a4207811db969052f61acc82902a429"
+initial_review: "reader_reviews/0327_f0fe106e.md"
+reader_review: "reader_reviews/0327_03c57b2b.md"
+depends_on_chapter: 326
+depends_on_source_sha: "b4becddc5cd8a30997779002c669aeb7690377cd"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day188 20:27—Day189 20:00，第186/187次夜班"
+summary: "Day188 20:27沈若琴向中心确认当日下午13:42提交公开设施启用/时段申请仍仅收件待审，发现儿子当天傍晚在家庭群将2002-08-23拟迁误写成已迁，先补正不能确保群里旧图均撤。Day189 09:16窗口有限部分批准两份已开放材料；11:08母子亲阅2002-08-23设施交接摘录（棚、柜面、照明已移交但电话接入待复验）和2002-08-25运营补充公告（新台计划8/27 09:00开放；8/23—26工作时段改总机咨询）。移交、拟启用、实际对外接待、具体真人获答四层未混；12:21领可公开清单但只询更窄后续申请渠道未提交。16:05再次在家庭群公开纠正并留源，不证所有人看到；16:32刘玲获限定回告。Day189 20:00第187次夜班。父亲私人图仍在妹妹家，图纸年代、历史问路者获答和现代工门准入仍未证；旧红章14原印10受控4未收另两影印分别受控。"
+meaningful_state_changes:
+  - "历史2002年设施交接与拟开业的两个独立公开来源真正合法核看、两个时间分别落地。"
+  - "家庭群将已迁错误恢复为有原文来源的限项说明，保留可能另被转发的未知。"
+knowledge_updates:
+  - "Day188窄申请仅收件，Day189 09:16部分获准11:08阅览；2002-08-23只证设施交接并有电话复验待办。"
+  - "8/25补充告知拟8/27 09:00公众开放，总机咨询为纸面安排，不证历史接线或开门实际执行。"
+foreshadowing_updates:
+  - "F003仅限已核公开史料与文字传播样本；不证原私人纸年代作者、永安里6栋201同址、2018 A2同笔或历史自然人真实获答。F008/M004/M005无新合格证据。"
+relationship_updates:
+  - "母子合作修正已发家庭群的错误结论，沈若琴继续控制私人旧册及是否公开申请。"
+ending_state: "Day189 20:00第187次夜班，公开两份新源核见而2002-08-27实际开台仍待有权公开记录核；私人原图未交存或鉴真，旧站东门和维修便道不开放；F008/M004/M005未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f0fe106e38d96b78e589259964e7604099a3932b", final_draft_sha: "03c57b2b0a4207811db969052f61acc82902a429", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revision_rounds: 1, fix: "Day188四处前一天昨天昨晚的时间指称修正", predecessor_ready_blob: "b4becddc5cd8a30997779002c669aeb7690377cd"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3606

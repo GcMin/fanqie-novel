@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 326
+last_updated_chapter: 328
 characters:
   zhou_heng:
     location: "Day181 20:00，第179次夜班开班"
@@ -1374,3 +1374,26 @@ chapter_326_characters:
   citizen: "沈若琴与儿子Day188真阅8月21日公开报刊，13:42本人正式提交有限公开设施时段申请待审。"
   main_cast_injuries: none_new
   final_location: "Day188 20:00第186夜班，红章14原印10控4未收，两复制分控。"
+
+chapter_327_characters:
+  chapter: 327
+  source_sha: "03c57b2b0a4207811db969052f61acc82902a429"
+  timeframe: "Day188 20:27—Day189 20:00"
+  zhou_heng: "按源区分2002历史设施交接与计划开台，不推真人获答。"
+  xia_ning: "Day188当天13:42申请收件待审，Day189 09:16获有限准阅11:08本人真阅两份公开材料。"
+  liang_ce: "仍守白榆旧东工门与维修便道禁公众，不为历史告知现场试走。"
+  citizen: "沈若琴儿子纠正家庭群8月23日已迁到的错误，补充真正原文及未证栏，不宣称旧群表被全部收回。"
+  material: "沈父旧私册仍在妹妹家归沈自主管理，旧红章14原印10控4未收另两后制影印各控。"
+  main_cast_injuries: none_new
+  final_location: "Day189 20:00，第187次夜班。"
+chapter_328_characters:
+  chapter: 328
+  source_sha: "606d7657140b9de2ed07a0268882bd62e6af6c50"
+  timeframe: "Day189 20:24—Day190 20:00"
+  zhou_heng: "不把相似旧纸字句视为中心或沈家庭外泄凭据，保留两路来源边界。"
+  xia_ning: "分别取得道路与公交实时核验，23:12危险图片纠错仅受理，不称线上已删。"
+  liang_ce: "21:02公众侧实见葛先生，核实安全通路不越东工门，Day190有权公众侧提示真安装。"
+  citizen: "葛21:31自报到站22:07报登车未证到岗；沈只同意看去身份文字，私册仍在妹妹家。"
+  material: "红章14原印10控4未收另两复印分控，父亲私人旧册未带往活动室。"
+  main_cast_injuries: none_new
+  final_location: "Day190 20:00，第188次夜班。"

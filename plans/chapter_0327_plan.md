@@ -12,7 +12,7 @@
 - target_effective_chars: 2600–3400
 - hard_range: 2300–3800
 - count_method: 正文 Unicode 非空白码点，含标点，不含 Front Matter
-- actual_effective_chars: 3602
+- actual_effective_chars: 3606
 
 ## 目标、POV、开场与人物诉求
 - 目标：厘清2002-08-21迁址公告与2002-08-23设施交接、2002-08-25补充告知和拟启用之间的差异；一次合法有限查阅让“刊载迁址”不再偷换成“实际对公众服务”，并保留真人是否获答的未知。
@@ -40,3 +40,8 @@
 - 已在本轮以实际main重新读取 AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md，Bible四文档和三主人物卡，现存volume_05.md、arcs/arc_current.md（两者旧进度落后，以实际321–326正文、现行长期记录和主线Canon为准），plans/chapter_plan.csv、memory/current_arc.md及人物/知识/关系/世界状态、active伏笔F003/F008、近期timeline、最近十章摘要317–326与五章完整ready正文322–326；没有读取历史reader_reviews。
 - 从published/ready/draft三个目录重新枚举最大已存在章节326，第153章早已在published；本章327此前不存在，计划此前不存在，本轮只原子新建计划和draft正文。
 - 第326章在main是ready，精确Git Blob SHA b4becddc5cd8a30997779002c669aeb7690377cd，正文与章纲均绑定这个已核来源；若后续Audit发现其他事实差异须独立处理，Writer不修改既有章节、不执行Reader/Revision/QA/Memory/Publish Gate。
+
+## Audit 2026-10-27
+- 原草稿 `f0fe106e38d96b78e589259964e7604099a3932b` 初审0/1/2，Stage A修Day188当日申请和家庭群的四处错日指称。
+- 新草稿 `03c57b2b0a4207811db969052f61acc82902a429` 独立新SHA Reader Pass A/B 0/0/2与Continuity/Style/Meaningful PASS，有效3606，精确绑定326 ready `b4becddc5cd8a30997779002c669aeb7690377cd`。
+- 拟ready Git blob `871cc69a80d6bbfffe5b75a6f5825054c8490a59`，只有精确候选CI结构通过后入main。

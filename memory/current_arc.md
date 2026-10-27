@@ -1,3 +1,9 @@
+# 第327—328章独立Reader/Stage A修订、新SHA复审与ARC-054进度（2026-10-27）
+- 327原稿 `f0fe106e38d96b78e589259964e7604099a3932b` Pass A/B 0 BLOCKER/1 MAJOR/2 MINOR，Day188夜误称当日下午申请为昨天及当日群发表为昨晚。Stage A局部四处时间措辞，修后新草稿 `03c57b2b0a4207811db969052f61acc82902a429` 重做独立双遍Reader 0/0/2，Continuity/Style/Meaningful PASS，有效3606。326正式ready `b4becddc5cd8a30997779002c669aeb7690377cd`依赖精确匹配。Day189 09:16部分准阅11:08真读2002-08-23设施交接（接入尚待复验）和8/25补充告知8/27 09:00拟启用，未确认真的历史营业；家属群日期表实际补正但不能保证旧表都删除。
+- 328原稿 `9155e946aa2feac924c3f60b94b76c46ee621d79` 0/2/2，Stage A仅修仍在妹妹家的私册误示成到活动室再带回及原provisional前章依赖；327原draft→修订正文差异仅Day188四处指称，Day189结尾事实不变，故328重新绑定327拟ready `871cc69a80d6bbfffe5b75a6f5825054c8490a59` 后相容。新328草稿 `606d7657140b9de2ed07a0268882bd62e6af6c50` 独立双遍Reader 0/0/2，Continuity/Style/Meaningful PASS，有效2922。Day189葛依危险二次截图误到禁门后本人报合法候车牌及登车，Day190 15:17有权真正增设公众侧禁行与正规查站提示；网络原帖仍无定位，截图同句不能反推沈私纸外泄。
+- 原红章14原印10控4未收另两后制复制分别控，旧东工门与维修便道禁公众；1996历史真人获答、2018 A2同笔、F008可靠记忆冲突和M004/M005都没因本章证实。137→138、139→140、142→143、146→147、147→148已验收的旧新事实差异不因此变更。
+- Reader/内容QA通过仍需精确候选commit真的结构CI/单测成功才允许非强制更新main。
+
 # 第325—326章连续 Reader/Revision/QA 与 ARC-054 进度（2026-10-27）
 - 325原草稿 `6fbf7069cc1aaf0d215a95e1acad00b3e53163f8` Reader按独立Pass A（325和322—324 ready全文、十章摘要和文风）后Pass B（Canon、人物知识世界时间线F003/F008）得0 BLOCKER/0 MAJOR/2 MINOR，正文0修，内容Continuity/Style/Meaningful QA PASS。前324正式ready blob `d6c720f0246d7c7d01d40b357270795fc692cea0`与325直接依赖精确相同。Day187本人合法真阅2002-04-03公开问询安排，只能证曾有公众问路亭，不证旧候车停靠、自然人获得答复或私纸同址；领后续申请指引而不交。
 - 326旧草稿 `759b309c4006a3d03ee5413d993c3ca334ae0417` Reader 0/1/2，唯一MAJOR是仍指325 provisional draft SHA。Stage A对照325旧draft与拟ready `dfc34b662221c340841d97b8f486e4426bda0cf8`，正文逐字相同、仅交付Front Matter差异，故只重绑326依赖和详细章纲，正文0改。新Git draft `724cbfdf2d80d830e27f9860ebdd7bdd768d1330` 独立重读进行Pass A/Pass B得0/0/2，Continuity/Style/Meaningful PASS。Day188本人真阅2002-08-21完整公开报刊，8/23拟将问询亭移公众服务台，参照“原钟表修理铺对面”不证原私人纸“修表摊旁边”同一、迁址实际执行或旧答复；13:42公开设施时段窄申请真实收件待审批。

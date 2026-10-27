@@ -1,6 +1,6 @@
 schema_version: 1
-last_updated_chapter: 324
-current_time: "Day186 20:00，第184次夜班"
+last_updated_chapter: 328
+current_time: "Day190 20:00，第188次夜班"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-054_active
@@ -1279,3 +1279,20 @@ chapter_326_world:
   material_custody: "私纸原册仍沈若琴持有，14张错原印10控4未收、另两影印受控不变。"
   public_safety: "当代白榆旧站东作业门及维修道禁公众，历史告知不授通行。"
   unresolved: "迁址实际执行、旧修表摊同址、父亲图年代作者、历史真获答/2018 A2/M004/M005仍未证。"
+
+chapter_327_world:
+  chapter: 327
+  source_sha: "03c57b2b0a4207811db969052f61acc82902a429"
+  timeframe: "Day188 20:27—Day189 20:00"
+  verified: "本人真实阅2002-08-23设施交接记录且接入待复验；8/25补充告知拟8/27 09:00开放和8/23—26总机咨询，无法由公告证实际接待。"
+  material_custody: "私纸留妹妹家未鉴真交存；14原印10控4未收另两复制受控。"
+  public_safety: "白榆旧东工门和维修便道仍公众禁入。"
+  unresolved: "2002实际开台与历史真获答、私人旧图年作者/同址、2018 A2/F008/M004/M005均未证。"
+chapter_328_world:
+  chapter: 328
+  source_sha: "606d7657140b9de2ed07a0268882bd62e6af6c50"
+  timeframe: "Day189 20:24—Day190 20:00"
+  verified: "二次转发危险指路图真实误导葛去禁行工门；本人报已到合法车牌并登车；Day190 15:17有权单位公众侧真实增设禁行及正规查站提示，原帖未定位。"
+  material_custody: "私册仍在妹妹家并未送活动室，仅限核匿名文字；旧原印14张10控4未收另两影印分别控。"
+  public_safety: "东工门/维修便道禁公众不变，新提示真装。"
+  unresolved: "二次截图源头、同句与原私纸是否同源、葛到岗、F008/M004/M005仍未知。"

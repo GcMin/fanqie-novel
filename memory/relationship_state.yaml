@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 324
+last_updated_chapter: 328
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1036,4 +1036,17 @@ chapter_326_relationships:
   source_sha: "724cbfdf2d80d830e27f9860ebdd7bdd768d1330"
   citizen_and_center: "刘玲及中心只记本人实读的公开报刊与申请收件，不以社交帖猜旧历史。"
   family_boundary: "母子拒查私人钟表店主与老员工，沈自主提交公共设施资料窄申请。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_327_relationships:
+  chapter: 327
+  source_sha: "03c57b2b0a4207811db969052f61acc82902a429"
+  citizen_and_center: "仅公开历史设施交接与补充告知获部分准阅，不越权让中心替档案窗口批准。"
+  family_boundary: "沈若琴与儿子纠正家庭群错误，继续保护私人原册，由本人决定另行申请。"
+  main_cast_trust_scores_unchanged: true
+chapter_328_relationships:
+  chapter: 328
+  source_sha: "606d7657140b9de2ed07a0268882bd62e6af6c50"
+  citizen_and_center: "葛的去身份二次截图仅用于道路风险纠错；沈只同意限字核查，不与葛交换双方身份或私人旧客户名册。"
+  family_boundary: "儿子只知道自己家庭群日期表未带手绘原页，不替亲属的其他转发保证。"
   main_cast_trust_scores_unchanged: true

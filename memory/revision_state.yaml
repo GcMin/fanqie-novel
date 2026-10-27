@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 326
+current_chapter: 328
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0326.md
-current_source_sha: 724cbfdf2d80d830e27f9860ebdd7bdd768d1330
-current_review_path: reader_reviews/0326_724cbfdf.md
+current_source_path: chapters/draft/0328.md
+current_source_sha: 606d7657140b9de2ed07a0268882bd62e6af6c50
+current_review_path: reader_reviews/0328_606d7657.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -1336,3 +1336,36 @@ chapter_326_revision_20261027:
   predecessor_metadata_only_delta: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+
+chapter_327_revision_20261027:
+  chapter: 327
+  original_sha: "f0fe106e38d96b78e589259964e7604099a3932b"
+  initial_review: reader_reviews/0327_f0fe106e.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "03c57b2b0a4207811db969052f61acc82902a429"
+  final_review: reader_reviews/0327_03c57b2b.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  corrected_fields: [Day188_four_temporal_references]
+  predecessor_ready_blob: "b4becddc5cd8a30997779002c669aeb7690377cd"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+  retry_cycles: 0
+chapter_328_revision_20261027:
+  chapter: 328
+  original_sha: "9155e946aa2feac924c3f60b94b76c46ee621d79"
+  initial_review: reader_reviews/0328_9155e946.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_sha: "606d7657140b9de2ed07a0268882bd62e6af6c50"
+  final_review: reader_reviews/0328_606d7657.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  corrected_fields: [predecessor_sha, predecessor_status, private_book_presence_two_clauses]
+  predecessor_original_draft_sha: "f0fe106e38d96b78e589259964e7604099a3932b"
+  predecessor_ready_blob: "871cc69a80d6bbfffe5b75a6f5825054c8490a59"
+  predecessor_factual_delta: "327只四处Day188时间指称修复，不更动Day189结尾事实"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+  retry_cycles: 0

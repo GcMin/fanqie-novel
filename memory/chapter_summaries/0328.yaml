@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 328
+title: "旧纸没出门，句子先到了路口"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "9155e946aa2feac924c3f60b94b76c46ee621d79"
+source_draft_sha: "606d7657140b9de2ed07a0268882bd62e6af6c50"
+initial_review: "reader_reviews/0328_9155e946.md"
+reader_review: "reader_reviews/0328_606d7657.md"
+depends_on_chapter: 327
+depends_on_source_sha: "871cc69a80d6bbfffe5b75a6f5825054c8490a59"
+dependency_status: verified_predecessor_time_reference_factual_compatible
+timeframe: "Day189 20:24—Day190 20:00，第187/188次夜班"
+summary: "Day189 20:24葛先生被一张二次转发的错误指路截图带到白榆旧站封闭东工门公众侧，图片写今夜可换乘并有“修表摊旁边能转车”近似私纸句；20:40道路与公交分别核现实禁行与实际候车点，21:02梁策在允许公众路侧实见葛并给合法路，21:31葛本人报到候车牌，22:07自愿回话真已登车，最终到岗未证。葛有限同意交去身份截图，但原帖发布人及截图来源不明；23:12道路纠错渠道受理且不等于网上已删除。Day190 10:58刘玲按授权联系沈若琴，11:26仅核匿名文字，沈确认旧页也有同句但不证唯一源、外传路径，私册仍保留妹妹家未外借。14:42有权核旧门现实风险，15:17公众侧实装禁入和正规站位查询提示，有正式安装记录，原帖仍定位不到；16:46沈有限收回告，不追加历史开台申请。Day190 20:00第188夜班，截图与原私纸仍分别记录。原印14张10控4未收，另两复制分别受控。"
+meaningful_state_changes:
+  - "葛先生本人回话已到合法车站并登车、原危险门未进入；不虚报到岗或司机安全送达。"
+  - "有权岗位15:17实装公众侧禁入与查询提示，而网络源帖只受理不等于已更正。"
+  - "来源不明的当代截图可显示与私人旧页相近文字，不能反推同一张照片被盗或来自中心。"
+knowledge_updates:
+  - "夏宁、周衡区分来电人二次去身份截图与沈合法授权照片，未越权追查群成员；母子只确认句子近似，不交换身份。"
+  - "前章衔接：第327章原稿到正式ready仅Day188四处时态参照纠正，Day189 20:00结尾事实与本章Day189 20:24开场完全相容。"
+foreshadowing_updates:
+  - "F003仅限已核公开史料与文字传播样本；不证原私人纸年代作者、永安里6栋201同址、2018 A2同笔或历史自然人真实获答。F008/M004/M005无新合格证据。"
+relationship_updates:
+  - "中心仅向沈若琴提供去标识摘录并取得限字核对许可，未交换葛先生身份或私人旧账。"
+ending_state: "Day190 20:00第188夜班，封闭旧门保持禁公众且新提示有正式实装记录；网络原帖及首次发布者未知，私人纸仍在妹妹家且未鉴真，葛真实登车但到岗未知；F008/M004/M005未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "9155e946aa2feac924c3f60b94b76c46ee621d79", final_draft_sha: "606d7657140b9de2ed07a0268882bd62e6af6c50", initial_counts: "0/2/2", final_counts: "0/0/2", stage_a_used: 1, body_revision_rounds: 1, fix: "前章依赖重绑及两处私人旧册在场误示改正", predecessor_original_draft_sha: "f0fe106e38d96b78e589259964e7604099a3932b", predecessor_ready_blob: "871cc69a80d6bbfffe5b75a6f5825054c8490a59", predecessor_body_delta: "四处Day188时间指称改正，其余事件未变"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2922

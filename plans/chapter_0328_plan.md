@@ -5,15 +5,15 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - source_main_sha: ea78f4ccf301bef6ef662d7a810bf3e8f275c7c3
-- predecessor_path: chapters/draft/0327.md
+- predecessor_path: chapters/ready/0327.md
 - depends_on_chapter: 327
-- depends_on_source_sha: "f0fe106e38d96b78e589259964e7604099a3932b"
-- dependency_status: provisional
+- depends_on_source_sha: "871cc69a80d6bbfffe5b75a6f5825054c8490a59"
+- dependency_status: verified_predecessor_time_reference_factual_compatible
 - dependency_facts_used: "前章暂稿Day189 09:16原2002年公开设施启用/时段窄申请获部分阅准，11:08沈若琴看2002-08-23设施交接、2002-08-25补充告知；8/27 09:00仅计划开台、真人接待未证；16:05更正家庭误报；20:00第187夜班。其具体细节仅暂引、未当Canon。"
 - target_effective_chars: 2600–3400
 - hard_range: 2300–3800
 - count_method: 正文Unicode非空白码点含标点，不含Front Matter
-- actual_effective_chars: 2917
+- actual_effective_chars: 2922
 
 ## 本章目标、POV与开场
 - 目标：让公开信息流转造成真实夜间误导与处理成本，阻止一人误入旧站禁区；出现私人旧纸文字在未明来源二次转发截图上的有界新线索，但不借字面相同断定同源。
@@ -49,4 +49,9 @@ Day190 20:00第188夜班。现时道路现场风险有限处理、葛本人报�
 ## Continuity Precheck
 - 已于本轮实际读取main绑定 `ea78f4ccf301bef6ef662d7a810bf3e8f275c7c3` 的AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md；bible/premise、main_outline、world、style、三主人物卡；当前现存旧版outlines/volume_05与arcs/arc_current，按后续正式章节和最新Memory优先处理过期Arc编号；plans/chapter_plan.csv、memory/current_arc/character/knowledge/relationship/world/foreshadowing/timeline、317–326十章摘要及323–327五章正文；未读取历史reader_reviews。
 - 从published、ready、draft枚举最大现存327，153在published，328正文与章纲均在本轮前不存在；不修改既有正文、计划表、长期Memory或审核记录。
-- 327仅有draft、未独立审核，正文Git blob `f0fe106e38d96b78e589259964e7604099a3932b`；本章依赖`depends_on_chapter: 327`、完整SHA、`dependency_status: provisional`，327任何后续修订均由独立Audit处理衔接，不将前章推为已验Canon。
+- 327仅有draft、未独立审核，正文Git blob `871cc69a80d6bbfffe5b75a6f5825054c8490a59`；本章依赖`depends_on_chapter: 327`、完整SHA、`dependency_status: provisional`，327任何后续修订均由独立Audit处理衔接，不将前章推为已验Canon。
+
+## Audit 2026-10-27
+- 初稿 `9155e946aa2feac924c3f60b94b76c46ee621d79` Reader 0 BLOCKER/2 MAJOR/2 MINOR，原前327 provisional依赖及Day190描写私册在活动室再被带回均需修。
+- Stage A仅改两处私人旧册存放描写与前章SHA，前327原稿→新稿只有Day188四处错日纠正，Day189 20:00交班事实未改变，本章Day189 20:24仍相容。新草稿 `606d7657140b9de2ed07a0268882bd62e6af6c50` 独立新SHA Reader 0/0/2，Continuity/Style/Meaningful PASS，有效2922。
+- 拟ready blob `6b778056ac70c9a53b8b2bd1d1c2e12e03ebe37f`，必须对应精确候选CI通过才放行。
