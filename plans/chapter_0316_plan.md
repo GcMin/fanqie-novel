@@ -4,10 +4,10 @@
 - volume: 6
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
-- predecessor_path: chapters/draft/0315.md
+- predecessor_path: chapters/ready/0315.md
 - depends_on_chapter: 315
-- depends_on_source_sha: "cb5094e24597e53278d0ce355ed2a3f99c73fe93"
-- dependency_status: provisional
+- depends_on_source_sha: "3fcc2f99344b554cd0ab563527539d4459253483"
+- dependency_status: verified_predecessor_factual_delta_compatible
 - target_effective_chars: 2600–3400
 - hard_range: 2300–3800
 - count_method: 正文Unicode非空白码点，不含YAML Front Matter
@@ -36,3 +36,6 @@
 - 旧红章14原印与两张影印须分源；本章没有任何新纸件实物回收，不据0315尚未审的9/5更新正式Memory。1996原受理席纸面结果收讫不证旧报修人真收到回话，2018 A2旧册同笔未证，F008没有新本人记忆可靠反证，M004/M005不确认，F009/F010/F011继续resolved。现代通话接收理解差异与历史工单机制不自动连通。
 - 章内不泄漏未来整体城市机制、周衡童年身份或者自动化作者注释；Day178白班行为不由已下班的夏宁越权执行。办案仅核本笔，不导他人录音、私人电话、目的地；夜间道路核实与日间标识实装是分权分时实证。
 - 正文有效字符数：3161，只有新章章纲＋未审draft，无Reader/Revision/QA/Memory/Publish Gate或平台发布。
+
+## Audit 事实差异及修订追踪（2026-10-27）
+初写时315为临时draft cb5094e24597e53278d0ce355ed2a3f99c73fe93，前文原Precheck仅反映当时Writer所见状态。审核后315有4段何杏对话作公开知识边界修正（其他结尾Day177 19:49原纸真实回收、14印9控5未收、19:52本人真领及20:00夜班事实不变），正式ready Git blob为3fcc2f99344b554cd0ab563527539d4459253483，本章依赖现已重绑并核事实差异兼容。316原稿Day178尾段误将16:08口头回告写为已获文字及口头，新SHA f2ad88467dc6008fd139cbeb32c20bdf909d9bf4只确认孙微真听口头，道路公牌只证15:15有权安装复看，不证孙微亲眼看见。独立新SHA Reader双遍及QA均须另验；结构以精确候选commit CI为门禁。

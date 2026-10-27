@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 314
+last_updated_chapter: 316
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -945,3 +945,19 @@ chapter_314_relationships:
   liu_ling_and_chen_jin: "陈津想将原接通改成未接，刘玲与夏宁要求原18:06真实接通表不可擦，仅在受话者与本报话人之间附注未证本人收答；管理人14:20只批本室共享号码/纸领分栏。"
   staff_and_public_safety: "梁策站务车架道路各管权限，不逼蔡蓓复演险情、不为另一岗位签安全复开；活动室不从共享座机旁边追查他人私人谈话。"
   other_relationship_scores: unchanged
+
+chapter_315_relationships:
+  chapter: 315
+  source_sha: "d0b214d90287103414a2cf88e80d25b4b69997bc"
+  citizen_and_center: "何杏拒透露雇主/配送行程与住址，夏宁刘玲仅核本人编号并按权批准19:35—19:55一次具人交接，拒代签满意。"
+  institutional_accountability: "14张旧原印从8实控6未收更新9实控5未收，另两复印各独立受控；10:42查询界面只改单笔，不能宣称全系统修复。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "本人只同意本笔核证，不强制公开工作行程，不批量查他人号码，不代签满意。"
+
+chapter_316_relationships:
+  chapter: 316
+  source_sha: "f2ad88467dc6008fd139cbeb32c20bdf909d9bf4"
+  citizen_and_center: "孙微拒报雇主/目的地，只给自愿通话时点和裁切路口照片；刘玲不强制复述，允许自愿确认安全短句，不代签满意。"
+  institutional_accountability: "公众禁桥新提示牌由道路有权实装，孙微本人16:08确实听到口头安全说明；未证她看见新牌或Day177四十九秒电话听清『不』字。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "本人只同意本笔核证，不强制公开工作行程，不批量查他人号码，不代签满意。"

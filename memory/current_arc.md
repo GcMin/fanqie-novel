@@ -1,3 +1,9 @@
+# 第315章独立Reader/Revision/QA与ARC-054有界事实（2026-10-27）
+原草稿完整Git blob cb5094e24597e53278d0ce355ed2a3f99c73fe93，先独立Pass A（本章、前三章、近十章摘要和文风），后Pass B（Canon、人物知识、世界/关系、时间线/伏笔），初审0 BLOCKER/1 MAJOR/2 MINOR。Stage A一轮：只改四段何杏在公共门告外无证知晓前蔡蓓私有政策及次日内部入柜根因的对话。修订后新draft blob d0b214d90287103414a2cf88e80d25b4b69997bc、有效3103字，针对新SHA另行独立Reader先A后B最终0 BLOCKER/0 MAJOR/2 MINOR，独立Continuity/Style/Meaningful QA PASS，只有精确候选提交CI SUCCESS后方可放行。Day176何杏个人查询被17:05内部入柜扫描误映本人已领；Day177 10:42只改单笔保原状态、19:49真回一张旧原印由14印8控6未收变9控5未收、19:52本人确收撤销说明，另2影印独立受控。。本章未确认1996旧本人真实获答、2018 A2同笔或F008/M004/M005，62路新站合法且封桥/卸货口公众仍禁。
+
+# 第316章独立Reader/Revision/QA与ARC-054有界事实（2026-10-27）
+原草稿完整Git blob 378925d729195b27ff514b6f4aa453a9434e2062，先独立Pass A（本章、前三章、近十章摘要和文风），后Pass B（Canon、人物知识、世界/关系、时间线/伏笔），初审0 BLOCKER/2 MAJOR/2 MINOR。Stage A一轮：重绑315最终ready blob并据四段实际对话差异核事实相容，另只改Day178尾段把无凭据『文字与口头均由本人收到』限定为电话口头本人确收与道路安装标牌分证。修订后新draft blob f2ad88467dc6008fd139cbeb32c20bdf909d9bf4、有效3178字，针对新SHA另行独立Reader先A后B最终0 BLOCKER/0 MAJOR/2 MINOR，独立Continuity/Style/Meaningful QA PASS，只有精确候选提交CI SUCCESS后方可放行。Day177孙微四十九秒通话真接但否定词有否听清无可复原录音，20:53道路核禁桥地面路可走、21:43本人真上62路。Day178 13:43道路准15:15装分叉禁桥提示、16:08刘玲本人电话真回告，不证孙微看过新牌。。本章未确认1996旧本人真实获答、2018 A2同笔或F008/M004/M005，62路新站合法且封桥/卸货口公众仍禁。
+
 # 第314章独立Reader/Revision/QA与ARC-054有界事实（2026-10-27）
 本章原草稿Git Blob fda44a1fbbc8fa85000233f134a63cbf0bf9289c、3567有效字；按A（314与311—313全文、近十摘要、文风）再B（Canon、世界/人物知识/关系、时间线、伏笔与ARC-054）初审0 BLOCKER/1 MAJOR/2 MINOR。唯一MAJOR为草稿及章纲仍声称绑定313旧ready `05f6b8efdae795856f9d91ea6ff74724d193cf5d` 精确同版，而最终313 ready是 `48173d960542ee7b885550a898f6ea3621afff9c`。实对比313原/现正文恰有Day174 20:53陈津「昨天才把隔夜留言的领取人定下来」→「今天下午才把」一处更正，312章证Day174 14:15才真实批准。此变更不影响314夜班/旧统计暂停/旧纸库存/禁桥依赖。Stage A只更314 Front Matter和本章详细计划的前章SHA与差异兼容标记，正文0修订；修后Git Blob 3c34991e55c05870e422e3b0ddd6e6ddd16d0d、仍3567字，新SHA重新独立Reader Pass A和B得0 BLOCKER/0 MAJOR/2 MINOR，Continuity/Style/Meaningful QA PASS，结构须候选commit精确CI实证才可放行；见qa/0314_report.md和reader_reviews/0314_3c34991e.md。
 

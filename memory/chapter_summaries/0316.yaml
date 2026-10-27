@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 316
+title: "电话里少了一个“不”字"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "378925d729195b27ff514b6f4aa453a9434e2062"
+source_draft_sha: "f2ad88467dc6008fd139cbeb32c20bdf909d9bf4"
+prior_review: "reader_reviews/0316_378925d7.md"
+reader_review: "reader_reviews/0316_f2ad8846.md"
+depends_on_chapter: 315
+depends_on_source_sha: "3fcc2f99344b554cd0ab563527539d4459253483"
+dependency_status: verified_predecessor_factual_delta_compatible
+timeframe: "Day177 16:41—Day178 20:00，第175/176夜班"
+summary: >-
+  第315章最终ready源与初写315临时draft的四段差异仅涉及何杏对前案公开知识边界，不影响315 Day177 20:00夜班、旧14原印9控5未收。Day177 16:41孙微问路、16:56活动室回话四十九秒却缺完整录音；20:34第175夜班报告，20:53道路核当时地面路可走且桥及卸货口禁入，21:43她本人真上62路但终点未知。Day178 09:16只限查本笔纸条和接通时长，11:27实察分叉、13:43批准、15:15真装并复看公众标牌、16:08刘玲电话真回告、20:00第176夜班。 四十九秒真实接通不证孙微当时听见否定词，便条也不是通话录音；新牌被道路实装不证明孙微自己看见；桥和卸货口继续禁公众。
+meaningful_state_changes:
+  - "Day177 20:53按权证施工桥仍禁、21:43孙微真的上车；Day178公众分叉处经13:43批准15:15增有限禁桥提示并复看；16:08当事人真正听到清楚口头回告。"
+  - "Stage A重绑315最终ready blob并在316章纲记明前章对话真实差异；只改Day178结尾一段，把『文字与口头都已由本人收到』改为16:08仅真人听到口头说明，新增标牌只由道路岗位安装复看。"
+knowledge_updates:
+  - "真实四十九秒电话、值守便条『桥不开放』与孙微实际听到否定词三项证据不同；公牌已真装并不证明她本人见到；Day178 16:08确听回告另有本人证。"
+foreshadowing_updates:
+  - "当代接口或听觉语义问题不证明1996旧自然人真获回告、2018 A2两档同笔、M004/M005；F008无新增可靠记忆样本。"
+relationship_updates:
+  - "孙微拒报目的地及全通讯信息，刘玲不强迫所有来话者复述，尊重只接受本人自愿确认的安全边界。"
+ending_state: "Day177 20:53按权证施工桥仍禁、21:43孙微真的上车；Day178公众分叉处经13:43批准15:15增有限禁桥提示并复看；16:08当事人真正听到清楚口头回告。 四十九秒真实接通不证孙微当时听见否定词，便条也不是通话录音；新牌被道路实装不证明孙微自己看见；桥和卸货口继续禁公众。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "378925d729195b27ff514b6f4aa453a9434e2062", final_draft_sha: "f2ad88467dc6008fd139cbeb32c20bdf909d9bf4", stage_a_used: 1, body_revisions: 1, predecessor_ready_blob: "3fcc2f99344b554cd0ab563527539d4459253483", predecessor_factual_compatible: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3178

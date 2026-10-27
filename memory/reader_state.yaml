@@ -1,19 +1,19 @@
 schema_version: 1
-last_reviewed_chapter: 314
-last_reviewed_title: 电话打进店里，回话留在门外
-last_source_path: chapters/draft/0314.md
-last_source_sha: 3c34991e55c05870e422e3b0ddd6e6ddd16d0d54
-last_review_path: reader_reviews/0314_3c34991e.md
+last_reviewed_chapter: 316
+last_reviewed_title: 电话里少了一个“不”字
+last_source_path: chapters/draft/0316.md
+last_source_sha: f2ad88467dc6008fd139cbeb32c20bdf909d9bf4
+last_review_path: reader_reviews/0316_f2ad8846.md
 last_reviewed_at: "2026-10-27"
-reviewer_mode: combined_audit_independent_pass_a_then_b
+reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 313
-depends_on_source_sha: 48173d960542ee7b885550a898f6ea3621afff9c
+depends_on_chapter: 315
+depends_on_source_sha: 3fcc2f99344b554cd0ab563527539d4459253483
 dependency_status: verified_predecessor_factual_delta_compatible
 predecessor_current_source_sha: 48173d960542ee7b885550a898f6ea3621afff9c
 predecessor_sha_mismatch: false
@@ -1543,4 +1543,40 @@ chapter_314_reader_20261027:
   factual_delta: "313 Day174 20:53陈津把昨天才把更为今天下午才把，312已证明当日14:15才确立领取人；314剧情依赖均兼容"
   dependency_status: verified_predecessor_factual_delta_compatible
   historical_upstream_factual_diff_not_automatically_waived: true
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_315_reader_20261027:
+  chapter: 315
+  title: "柜台上写着已领，柜台外还站着人"
+  original_source_sha: "cb5094e24597e53278d0ce355ed2a3f99c73fe93"
+  initial_review: reader_reviews/0315_cb5094e2.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "d0b214d90287103414a2cf88e80d25b4b69997bc"
+  new_sha_review: reader_reviews/0315_d0b214d9.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+  body_revisions: 4
+  local_revision_used: 1
+  predecessor_ready_blob: "5bed0a9e2218c2958366341b056c1faa4c9c0203"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  effective_chars: 3103
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_316_reader_20261027:
+  chapter: 316
+  title: "电话里少了一个“不”字"
+  original_source_sha: "378925d729195b27ff514b6f4aa453a9434e2062"
+  initial_review: reader_reviews/0316_378925d7.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_source_sha: "f2ad88467dc6008fd139cbeb32c20bdf909d9bf4"
+  new_sha_review: reader_reviews/0316_f2ad8846.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+  body_revisions: 1
+  local_revision_used: 1
+  predecessor_ready_blob: "3fcc2f99344b554cd0ab563527539d4459253483"
+  dependency_status: verified_predecessor_factual_delta_compatible
+  content_qa: pass
+  effective_chars: 3178
   structural_gate: exact_candidate_commit_CI_required

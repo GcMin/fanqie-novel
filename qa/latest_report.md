@@ -1,3 +1,2 @@
-# 最近独立QA：第306章《旧路线纸上，没有撤销通知》（2026-10-27）
-
-原始draft SHA `c67e87d2df20569df3d019f00c791dec334d6fc2`初Reader 0/1/2，Stage A修改三处纸张已知持有线索与实际回收区别、有效字3112→3206；新SHA `08c3ff58c1a2ed83271d524592679ff45958d370`独立Reader Pass A/B 0/0/2。Continuity/Style/Meaningful内容QA PASS，305最终ready Blob `ecd47257021ba3d8fdde4993ca6782f60f224f69`精确匹配。本轮正文修订3处、无MINOR强制修改。报告 `qa/0306_report.md`，审查 `reader_reviews/0306_c67e87d2.md`及`reader_reviews/0306_08c3ff58.md`。**必须有精确Git候选版本CI结构SUCCESS才能在main正式ready**。
+# 最近独立QA：第315—316章（2026-10-27）
+315初稿cb5094e24597e53278d0ce355ed2a3f99c73fe93 Reader 0/1/2，Stage A限4段对话，修后d0b214d90287103414a2cf88e80d25b4b69997bc独立Reader 0/0/2；316初稿378925d729195b27ff514b6f4aa453a9434e2062 Reader 0/2/2，修后f2ad88467dc6008fd139cbeb32c20bdf909d9bf4独立Reader 0/0/2（依赖重绑315最终ready 3fcc2f99344b554cd0ab563527539d4459253483且修正书面领答虚称）。两章Continuity/Style/Meaningful QA PASS，参见qa/0315_report.md、qa/0316_report.md。结构必须精确候选commit CI证成后才可在main迁ready。

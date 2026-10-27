@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 315
+title: "柜台上写着已领，柜台外还站着人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "cb5094e24597e53278d0ce355ed2a3f99c73fe93"
+source_draft_sha: "d0b214d90287103414a2cf88e80d25b4b69997bc"
+prior_review: "reader_reviews/0315_cb5094e2.md"
+reader_review: "reader_reviews/0315_d0b214d9.md"
+depends_on_chapter: 314
+depends_on_source_sha: "5bed0a9e2218c2958366341b056c1faa4c9c0203"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day176 16:32—Day177 20:00，第174/175夜班"
+summary: >-
+  Day176 16:32电话受理、16:58撤销说明打印、17:05内部入柜扫描误标领取；20:26第174次夜班报话、20:54道路岗当次核施工桥卸货口禁入与地面路可用。Day177 09:16限定查本笔、10:42保原错状态并单笔更正、11:27旧纸照片预核不计回收、19:49真收原印一张、19:52本人真正领说明、20:00第175夜班。原印14张由8控6未收变9控5未收，另2复制品独立控。 照片不是原纸实收、入柜扫描不是本人领取；其余5张持有人及其它事项错误范围未知；62路新站合法但施工桥与卸货口仍封闭。
+meaningful_state_changes:
+  - "17:05内部移交错标公众领件单笔纠正；Day177 19:49原纸实回收使14印9控5未收；19:52本人真取得撤销说明，未扩大常态晚间窗口。"
+  - "Stage A只改四段何杏/夏宁夜间对话，移除何杏无来源知晓蔡蓓内部单笔办法及提前认定入柜根因，保留本人事项与公开门告。"
+knowledge_updates:
+  - "公众何杏只能知门告与本人页面，不应预知蔡蓓内部共享号码分栏；内部入柜与本人真正领件、照片预核与旧纸实物真收各分开。"
+foreshadowing_updates:
+  - "当代接口或听觉语义问题不证明1996旧自然人真获回告、2018 A2两档同笔、M004/M005；F008无新增可靠记忆样本。"
+relationship_updates:
+  - "何杏拒留送货轨迹、个人住址与代签满意，夏宁和刘玲分别限定夜间安全与白班受理范围，批准一次19:35—19:55有人窗口。"
+ending_state: "17:05内部移交错标公众领件单笔纠正；Day177 19:49原纸实回收使14印9控5未收；19:52本人真取得撤销说明，未扩大常态晚间窗口。 照片不是原纸实收、入柜扫描不是本人领取；其余5张持有人及其它事项错误范围未知；62路新站合法但施工桥与卸货口仍封闭。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "cb5094e24597e53278d0ce355ed2a3f99c73fe93", final_draft_sha: "d0b214d90287103414a2cf88e80d25b4b69997bc", stage_a_used: 1, body_revisions: 4, predecessor_ready_blob: "5bed0a9e2218c2958366341b056c1faa4c9c0203", predecessor_factual_compatible: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3103
