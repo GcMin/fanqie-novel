@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 319
+last_updated_chapter: 320
 characters:
   zhou_heng:
     location: "Day181 20:00，第179次夜班开班"
@@ -1294,3 +1294,15 @@ chapter_319_characters:
   property: "Day181备用泵导向卡滞实修、分权复核恢复；旧总机从本楼真人告警接收位移走并具名试呼，不倒填历史告警。"
   main_cast_injuries: none_new
   final_location: "Day181 20:00第179夜班，旧红章纸14原印10控4未收另2影印各控。"
+ 
+chapter_320_characters:
+  chapter: 320
+  source_sha: "6fb9505d0100ea09a08d1cfafd9ae4f248f0c392"
+  timeframe: "Day181—Day182"
+  zhou_heng: "Day181 20:17报路灯险情、20:36区别控制柜在线与单灯不亮，22:28拒将临时照明绿卡记为固定灯具修复；Day182 20:00交接五种有来源的时间与状态，不替专业岗签照明验收。"
+  xia_ning: "先问魏荞是否有人受伤、道路高差、通行权限，按权联系道路和照明专业人员；区分次日单笔更正、模板评估、本人有限回话，不采工作单位作为强制回访信息。"
+  liang_ce: "Day181 20:58从公众侧核NW-06和相邻杆编号，仅观察灯不亮及路沿暗处，不擅触电缆或开配电柜；施工/道路安全由有权岗位设限、复验和撤限。"
+  citizen: "魏荞担忧菜市场西口暗段台阶影响推筐，拒当临时指路员、不交夜班单位作为常设地址；Day182 00:12只反馈本人第二趟看见临照、19:45只自愿证本人该趟路沿可见，不替公众总体满意签字。"
+  lighting_maintenance: "专业Day181 22:09设临时照明未修NW-06，23:04受控查驱动异常；Day182 13:07合法换件14:22日间试亮、19:13夜色专业复验，19:32道路岗才依法撤暗段警示。"
+  main_cast_injuries: none_new
+  final_location: "Day182 20:00第180次夜班；NW-06专业修复且夜间复核，单笔展示纠偏，模板整体规则评估未完成；旧路线纸14原印10控4未收，另外两影印各控。"

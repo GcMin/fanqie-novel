@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 319
+last_updated_chapter: 320
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -985,3 +985,11 @@ chapter_319_relationships:
   property_and_public: "领班按权分流公众、专业岗位处电气/排水，Day180 22:56及Day181 15:42真实两次回告；后者签的是收悉不是满意。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "不扩大为本楼每户都已收到信息，旧告警历史无人回签不由新版具名试呼补齐。"
+ 
+chapter_320_relationships:
+  chapter: 320
+  source_sha: "6fb9505d0100ea09a08d1cfafd9ae4f248f0c392"
+  citizen_and_center: "魏荞请求公众安全行路而非被要求负责替市政照明或提供夜班单位；夏宁尊重其自愿短讯回告，梁策只在许可公众区观察，周衡不代专业岗认定灯修。"
+  municipality_and_public: "专业维护及道路岗位分别在合法权限内设置临照、核安全路沿和撤警示；Day182 19:45魏荞只反馈本人一趟可见台阶，不能替全街市民签安全或满意。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "本笔只采报险联络许可信息，居民不必报工作单位或长期行程；旧绿卡留原证后附单笔更正，不追其他人的号码或代他们确认夜间实走。"
