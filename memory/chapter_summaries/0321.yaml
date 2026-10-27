@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 321
+title: "旧地图指向一道新铁门"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "5863cc8dae0cdf137f61161684aae3d102f85080"
+source_draft_sha: "8e6340ff65ccecd5b67a775c5f205bfbfc53b1ee"
+prior_review: "reader_reviews/0321_5863cc8d.md"
+reader_review: "reader_reviews/0321_8e6340ff.md"
+depends_on_chapter: 320
+depends_on_source_sha: "5896316162afc963a259932ce2c27455cbf2a196"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day182 20:41—Day183 20:00，第180/181次夜班"
+summary: >-
+  Day182 20:41六十一岁的沈若琴从白榆路旧站公众侧报告一张声称由父亲所留的私人旧手绘路线，把她带到上锁铁门；她首先要安全去妹妹家。21:02道路有权核旧站东侧围挡不向公众开放，北侧仅部分公众路段可用；周衡听她自说永安里却不诱导提示自己记得的6栋201。21:26梁策在公众侧见原纸，正面铅笔有“永安里方向”“修表摊旁边能转车”及不清年份，背面不同蓝笔“别从东门进，围挡换过”笔者时间均未核。夏宁先征得本人同意，才在值班台内免提给周衡听；梁策仅获许可拍去身份两张局部供咨询线索，不查原册旧账、不拿亲属照片、不公开或追父亲旧客户，原物始终由持有人保管。21:52道路和街区岗位分别核准当夜合法公众转角与禁行维修便道，22:09沈自行离开，22:33仅自主回电称已与妹妹楼下会面，不提供门牌及整程安全鉴定。Day183白班仅取得民间私人手稿公开咨询办法，10:47本人表达未来自带原册让有权岗位判断是否登记的意向，未正式提交、移交、鉴真或取得2018 A2查阅许可；20:00第181夜班只得到有限F003民间待核线索。旧错纸14原印10控4未收另两衍生影印各控不变；沈芷薪资未判。
+meaningful_state_changes:
+  - "本人依据当次合法公众路段安全离开，22:33自主有限回告与妹妹见面，封闭东门及维修便道未开放。"
+  - "私人持有人授权两张限用途照片并愿未来自行携旧册咨询，原本年代作者坐标及历史业务同一性仍未证。"
+  - "周衡克制透露6栋201，保护潜在民间线索口述独立性。"
+knowledge_updates:
+  - "仅持有人自述父亲所画，蓝笔作者和年号未经鉴真；两个历史资料中同一旧名不等于同一路。"
+  - "本人限定照片/册/亲属/旧客户的许可；中心仅有咨询意向，没有获得旧册占有、档案查阅许可或地址坐标。"
+foreshadowing_updates:
+  - "F003有界新增私人旧图线索，与2018 A2暂不对应及旧站终点未实核口述不视为同笔；F008/M004/M005没有新增可靠证明。"
+relationship_updates:
+  - "沈若琴要求自主保存、决定查询及亲属隐私，梁策、夏宁、周衡接受边界不诱导。"
+ending_state: "Day183 20:00第181夜班，白榆旧站东门关闭；沈私册未交，图纸年代作者与永安里6栋201关系仍未核，旧路线14原印10控4未收另两复制各控；F008/M004/M005不证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "5863cc8dae0cdf137f61161684aae3d102f85080", final_draft_sha: "8e6340ff65ccecd5b67a775c5f205bfbfc53b1ee", stage_a_used: 1, body_revisions: 1, fix: "prior_consent_before_private_speakerphone", predecessor_ready_blob: "5896316162afc963a259932ce2c27455cbf2a196", predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3398

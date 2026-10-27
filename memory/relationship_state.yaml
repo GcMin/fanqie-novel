@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 320
+last_updated_chapter: 321
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -993,3 +993,11 @@ chapter_320_relationships:
   municipality_and_public: "专业维护及道路岗位分别在合法权限内设置临照、核安全路沿和撤警示；Day182 19:45魏荞只反馈本人一趟可见台阶，不能替全街市民签安全或满意。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "本笔只采报险联络许可信息，居民不必报工作单位或长期行程；旧绿卡留原证后附单笔更正，不追其他人的号码或代他们确认夜间实走。"
+
+chapter_321_relationships:
+  chapter: 321
+  source_sha: "8e6340ff65ccecd5b67a775c5f205bfbfc53b1ee"
+  citizen_and_center: "沈若琴坚持身体安全和私人旧册自主处置、拒绝把旧图公开为导航或搜父亲客户；夏宁、梁策只采有权限且来源明确的两张照片和现行道路信息，周衡不利用私人记忆诱导问路者。"
+  zhou_and_colleagues: "夏宁Day183问周衡为何不追问6栋，周衡解释来源不得由他代填；团队协作和证据分层纪律继续执行，不作无来源信任分数改动。"
+  privacy_consent_boundary: "本人允许限定咨询线索局部图像，不允许未经法定流程公开、传播、寻人或拿走记账册；妹家门牌、旧客户、其他相册未采集。"
+  main_cast_trust_scores_unchanged: true

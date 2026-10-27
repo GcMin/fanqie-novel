@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 319
-last_reviewed_title: "旧号有人接，水却没停下"
-last_source_path: chapters/draft/0319.md
-last_source_sha: b659bc6901d9e7c10e82ac113ccde202c182f70c
-last_review_path: reader_reviews/0319_b659bc69.md
+last_reviewed_chapter: 321
+last_reviewed_title: "旧地图指向一道新铁门"
+last_source_path: chapters/draft/0321.md
+last_source_sha: 8e6340ff65ccecd5b67a775c5f205bfbfc53b1ee
+last_review_path: reader_reviews/0321_8e6340ff.md
 last_reviewed_at: "2026-10-27"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 318
-depends_on_source_sha: be8d5aa082555807aa8742ef4ba71cabc793c074
+depends_on_chapter: 320
+depends_on_source_sha: 5896316162afc963a259932ce2c27455cbf2a196
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: be8d5aa082555807aa8742ef4ba71cabc793c074
+predecessor_current_source_sha: 5896316162afc963a259932ce2c27455cbf2a196
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1640,5 +1640,25 @@ chapter_320_reader_20261027:
   body_revisions: 0
   depends_on_chapter: 319
   predecessor_ready_blob: "4fd404dd9332d56d79ad97af94a524102d9c6fda"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_321_reader_20261027:
+  chapter: 321
+  original_sha: "5863cc8dae0cdf137f61161684aae3d102f85080"
+  original_review: "reader_reviews/0321_5863cc8d.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  local_revision_used: 1
+  source_sha: "8e6340ff65ccecd5b67a775c5f205bfbfc53b1ee"
+  review_path: "reader_reviews/0321_8e6340ff.md"
+  reviewer_mode: combined_audit_fresh_independent_pass_a_then_b_on_revised_blob
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  required_action: none
+  reader_gate: pass
+  content_qa: pass
+  effective_chars: 3398
+  body_revisions: 1
+  depends_on_chapter: 320
+  predecessor_ready_blob: "5896316162afc963a259932ce2c27455cbf2a196"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_commit_CI_required

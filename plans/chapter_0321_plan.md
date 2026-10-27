@@ -12,7 +12,7 @@
 - target_effective_chars: 2600–3400
 - hard_range: 2300–3800
 - count_method: 正文Unicode非空白码点，不含Front Matter
-- actual_effective_chars: 3396
+- actual_effective_chars: 3398
 
 ## 目标与 POV
 - **目标**：把连续现实工单中的“表格写了不等于人真正获答”主题转回永安里长线：一名真实来访者持有含“永安里方向”的私人手绘路线，但来源年代、作者与空间对应均不可越级确证。夜班先确保现实安全，再为她建立自愿、合法、非诱导的档案咨询入口。
@@ -39,3 +39,9 @@
 - 已取main读取AGENTS/novel配置/写作角色和阅读协议、Bible及三主角人物卡、可用卷纲与arc_current（文件停留旧版本）、近十章311—320摘要、近五章316—320 ready全文、角色/关系/知识/世界状态、活跃伏笔与近期时间线、计划表；未读取 reader_reviews。
 - 直接前章320为ready，原文完整 Git Blob `5896316162afc963a259932ce2c27455cbf2a196`，320结尾Day182 20:00第180夜班，后接同晚20:41；依赖精确，不是 provisional。本文不替换或修改既有章节、长期Memory、QA及发布状态。
 - 陌生人对地址旧事的主张尚无独立证据，不允许主角将其当作已确认的过去；梁策/中心不代道路岗位批准过围挡，不代档案机构验真或收原件。
+
+## Audit修订与复审痕迹
+- 原稿SHA：`5863cc8dae0cdf137f61161684aae3d102f85080`，初Reader 0 BLOCKER / 1 MAJOR / 2 MINOR。
+- Stage A一轮仅修正先取得同意再切内部免提的一处损坏句，字符数3398；正文其余事件、权限及F003边界不改。
+- 新稿SHA：`8e6340ff65ccecd5b67a775c5f205bfbfc53b1ee`，重新独立Reader Pass A和B 0 BLOCKER / 0 MAJOR / 2 MINOR。旧SHA Review失效；独立Continuity/Style/Meaningful QA PASS。
+- 前章320 ready blob `5896316162afc963a259932ce2c27455cbf2a196` 精确匹配；只有候选commit精确结构CI实际通过才能正式ready。
