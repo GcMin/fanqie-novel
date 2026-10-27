@@ -1,2 +1,2 @@
-# 最近独立QA：第315—316章（2026-10-27）
-315初稿cb5094e24597e53278d0ce355ed2a3f99c73fe93 Reader 0/1/2，Stage A限4段对话，修后d0b214d90287103414a2cf88e80d25b4b69997bc独立Reader 0/0/2；316初稿378925d729195b27ff514b6f4aa453a9434e2062 Reader 0/2/2，修后f2ad88467dc6008fd139cbeb32c20bdf909d9bf4独立Reader 0/0/2（依赖重绑315最终ready 3fcc2f99344b554cd0ab563527539d4459253483且修正书面领答虚称）。两章Continuity/Style/Meaningful QA PASS，参见qa/0315_report.md、qa/0316_report.md。结构必须精确候选commit CI证成后才可在main迁ready。
+# 最近独立QA：第330章（2026-10-28）
+第330章草稿Git blob `3fda919017625e05c5a3afb569c76f91056ebeb6` 独立Reader Pass A→Pass B得0 BLOCKER/0 MAJOR/2 MINOR，正文0修；Continuity/Style/Meaningful QA内容PASS，有效3223字。前329正式ready `1fbc79d4b77025da7884c6d77100ba93eda40e5d` 精确匹配；公交真实本人登记而失物未找到，第三方本条两个入口更正有源核实但其它缓存未知。详见 `reader_reviews/0330_3fda9190.md`、`qa/0330_report.md`；不能在精确候选commit真实CI成功前把内容QA等同结构已通过。

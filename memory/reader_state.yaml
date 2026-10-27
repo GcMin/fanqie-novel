@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 329
-last_reviewed_title: "九点的告知，九点二十六分的门"
-last_source_path: chapters/draft/0329.md
-last_source_sha: ce5bf32bf7bba041cad3425cbda0338284bc4a1a
-last_review_path: reader_reviews/0329_ce5bf32b.md
-last_reviewed_at: "2026-10-27"
-reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+last_reviewed_chapter: 330
+last_reviewed_title: "柜台关了，网页还在营业"
+last_source_path: chapters/draft/0330.md
+last_source_sha: 3fda919017625e05c5a3afb569c76f91056ebeb6
+last_review_path: reader_reviews/0330_3fda9190.md
+last_reviewed_at: "2026-10-28"
+reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 325
-depends_on_source_sha: dfc34b662221c340841d97b8f486e4426bda0cf8
-dependency_status: verified_predecessor_metadata_only_rebind
-predecessor_current_source_sha: dfc34b662221c340841d97b8f486e4426bda0cf8
+depends_on_chapter: 329
+depends_on_source_sha: 1fbc79d4b77025da7884c6d77100ba93eda40e5d
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 1fbc79d4b77025da7884c6d77100ba93eda40e5d
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1806,4 +1806,21 @@ chapter_329_reader_20261027:
   predecessor_ready_blob: "6b778056ac70c9a53b8b2bd1d1c2e12e03ebe37f"
   dependency_status: verified_exact_ready_blob
   predecessor_factual_delta: "328原draft误将私册显示为曾带到活动室，正式稿修为留妹妹家且经逐正文比对；329从妹妹家取册相容"
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_330_reader_20261028:
+  chapter: 330
+  source_sha: "3fda919017625e05c5a3afb569c76f91056ebeb6"
+  review_path: reader_reviews/0330_3fda9190.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_draft_blob
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  content_qa: pass
+  effective_chars: 3223
+  body_revisions: 0
+  depends_on_chapter: 329
+  predecessor_ready_blob: "1fbc79d4b77025da7884c6d77100ba93eda40e5d"
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_commit_CI_required

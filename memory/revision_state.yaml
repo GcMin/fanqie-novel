@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 329
+current_chapter: 330
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0329.md
-current_source_sha: ce5bf32bf7bba041cad3425cbda0338284bc4a1a
-current_review_path: reader_reviews/0329_ce5bf32b.md
+current_source_path: chapters/draft/0330.md
+current_source_sha: 3fda919017625e05c5a3afb569c76f91056ebeb6
+current_review_path: reader_reviews/0330_3fda9190.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0329_stage_a_newsha_reader_qa_candidate
-last_action_date: 2026-10-27
+last_action: audit_0330_reader_qa_candidate
+last_action_date: 2026-10-28
 last_error: null
-last_diff_summary: "329初审0/1/2仅无源两年前系统操作断言；Stage A修一处夏宁台词及字数，修后独立新SHA双遍0/0/2且QA PASS；精确候选CI仍为放行前置；328当前ready依赖精确相符。"
+last_diff_summary: "330草稿SHA精确双遍Reader 0/0/2，未修正文；独立Continuity/Style/Meaningful QA通过，前329 ready精确依赖，候选结构CI待验证。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1383,6 +1383,20 @@ chapter_329_revision_20261027:
   body_revisions: 1
   corrected_fields: [remove_unsourced_two_year_system_history_claim, char_count_3400]
   predecessor_ready_blob: "6b778056ac70c9a53b8b2bd1d1c2e12e03ebe37f"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_330_revision_20261028:
+  chapter: 330
+  original_sha: "3fda919017625e05c5a3afb569c76f91056ebeb6"
+  final_sha: "3fda919017625e05c5a3afb569c76f91056ebeb6"
+  final_review: reader_reviews/0330_3fda9190.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  retry_cycles: 0
+  body_revisions: 0
+  predecessor_ready_blob: "1fbc79d4b77025da7884c6d77100ba93eda40e5d"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
