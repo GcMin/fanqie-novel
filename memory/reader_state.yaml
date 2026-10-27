@@ -1624,3 +1624,21 @@ chapter_319_reader_20261027:
   effective_chars: 3068
   body_revisions: 0
   structural_gate: exact_candidate_commit_CI_required
+ 
+chapter_320_reader_20261027:
+  chapter: 320
+  source_path: chapters/draft/0320.md
+  source_sha: "6fb9505d0100ea09a08d1cfafd9ae4f248f0c392"
+  review_path: reader_reviews/0320_6fb9505d.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  content_qa: pass
+  effective_chars: 2897
+  body_revisions: 0
+  depends_on_chapter: 319
+  predecessor_ready_blob: "4fd404dd9332d56d79ad97af94a524102d9c6fda"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_commit_CI_required
