@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 330
-last_reviewed_title: "柜台关了，网页还在营业"
-last_source_path: chapters/draft/0330.md
-last_source_sha: 3fda919017625e05c5a3afb569c76f91056ebeb6
-last_review_path: reader_reviews/0330_3fda9190.md
+last_reviewed_chapter: 331
+last_reviewed_title: "两只相似的包，只有一只属于她"
+last_source_path: chapters/draft/0331.md
+last_source_sha: 154965fd9096d137133041b82c7a159a5691ecf6
+last_review_path: reader_reviews/0331_154965fd.md
 last_reviewed_at: "2026-10-28"
 reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 329
-depends_on_source_sha: 1fbc79d4b77025da7884c6d77100ba93eda40e5d
+depends_on_chapter: 330
+depends_on_source_sha: dab68eb124699e65d4eff202ef5918c424629494
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 1fbc79d4b77025da7884c6d77100ba93eda40e5d
+predecessor_current_source_sha: dab68eb124699e65d4eff202ef5918c424629494
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1822,5 +1822,24 @@ chapter_330_reader_20261028:
   body_revisions: 0
   depends_on_chapter: 329
   predecessor_ready_blob: "1fbc79d4b77025da7884c6d77100ba93eda40e5d"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_331_reader_20261028:
+  chapter: 331
+  source_sha: "154965fd9096d137133041b82c7a159a5691ecf6"
+  review_path: "reader_reviews/0331_154965fd.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_draft_blob
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  content_qa: pass
+  effective_chars: 2915
+  body_revisions: 0
+  depends_on_chapter: 330
+  predecessor_ready_blob: "dab68eb124699e65d4eff202ef5918c424629494"
+  predecessor_original_draft_blob: "3fda919017625e05c5a3afb569c76f91056ebeb6"
+  predecessor_body_identical: true
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_commit_CI_required

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 330
+last_updated_chapter: 331
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1064,4 +1064,12 @@ chapter_330_relationships:
   citizen_and_center: "饶只交去身份查询卡和有限本人真实受理回告，运营信息及失物细节本人向运营坐席报告；中心不替她报已找回或保存私人联络数据。"
   staff_authority: "夏宁、周衡、梁策分别分清真人接答、历史来源时点、公众合法通行，平台维护方只就可核具体网页入口回应。"
   family_boundary: "沈若琴及私人原册在本章无新授权或移动，不能由第三方普通字段错配反推她家旧纸泄漏。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_331_relationships:
+  chapter: 331
+  source_sha: "154965fd9096d137133041b82c7a159a5691ecf6"
+  citizen_and_center: "饶只向中心限项通报候选未核及随后有凭据的本人签领、补件收件；中心不收母亲签字或替运营、房屋单位批准。"
+  family_boundary: "母亲可讨论重签，但饶先依法寻找原件与确认补正程序，原件未向家庭群公开。"
+  third_party_privacy: "另一位寻同色帆布袋女士需独立登记核验，左袋未向任何候选人直接交付或泄露内物。"
   main_cast_trust_scores_unchanged: true

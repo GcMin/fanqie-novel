@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 330
+last_updated_chapter: 331
 characters:
   zhou_heng:
     location: "Day181 20:00，第179次夜班开班"
@@ -1422,3 +1422,15 @@ chapter_330_characters:
   material: "沈父私人原册仍妹妹家；原错误红章图14张10控4未收、另两后制影印分别受控。"
   main_cast_injuries: none_new
   final_location: "Day192 20:00第190次夜班，白榆旧东工门/维修道仍公众禁入。"
+
+chapter_331_characters:
+  chapter: 331
+  source_sha: "154965fd9096d137133041b82c7a159a5691ecf6"
+  timeframe: "Day192 20:18—Day193 20:00"
+  zhou_heng: "第191夜班把饶本人公交失物真签领和房屋维修原件真补交但待核定分栏，不由2002历史公开巡核推旧人真收件。"
+  xia_ning: "20:46先记前夜候选未核；Day193收到本人限项回报后才将实物返还视为真签领，不收母亲原件签名或维修编号。"
+  liang_ce: "仅确认饶没有再到白榆旧东工门/维修道寻包，不介入运营验物与维修核定。"
+  citizen: "饶Day193 10:43在合法失物柜台真正签领右侧袋并取得母亲签字原件，13:12真补交房屋维修材料已收而审批未定；另一只相似袋仍独立保管未知归属。"
+  material: "沈父私人旧册仍在妹妹家；旧红章图14原印10控4未收、两后制影印各控；当代两指定错误服务查询入口已纠正但其它缓存未知。"
+  main_cast_injuries: none_new
+  final_location: "Day193 20:00第191次夜班交接。"
