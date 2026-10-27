@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 320
+last_updated_chapter: 321
 characters:
   zhou_heng:
     location: "Day181 20:00，第179次夜班开班"
@@ -1306,3 +1306,15 @@ chapter_320_characters:
   lighting_maintenance: "专业Day181 22:09设临时照明未修NW-06，23:04受控查驱动异常；Day182 13:07合法换件14:22日间试亮、19:13夜色专业复验，19:32道路岗才依法撤暗段警示。"
   main_cast_injuries: none_new
   final_location: "Day182 20:00第180次夜班；NW-06专业修复且夜间复核，单笔展示纠偏，模板整体规则评估未完成；旧路线纸14原印10控4未收，另外两影印各控。"
+
+chapter_321_characters:
+  chapter: 321
+  source_sha: "8e6340ff65ccecd5b67a775c5f205bfbfc53b1ee"
+  timeframe: "Day182 20:41—Day183 20:00"
+  zhou_heng: "Day182 20:41听沈若琴持父亲留下的私人永安里方向旧图在白榆旧站外报险，不用6栋201向陌生人诱导问答；Day183 20:00仅收一条有界待核证据而未宣布故地已现。"
+  xia_ning: "先问当事人是否安全及所在合法公众侧，先征得沈若琴同意再在台内切免提，未将电话直播大厅；白班只用公开档案咨询规则。"
+  liang_ce: "21:26在旧站外围公众区见沈若琴持册，仅限本人允许的两张去身份局部照片；依21:52道路与街区有权查实的当次公众转角指路，不开施工东门。"
+  citizen: "沈若琴61岁，自述已故父亲曾以铅笔画永安里方向路线，背面蓝笔提醒作者和日期未知；坚持自己管理册本与家属信息，Day182 22:33自述已与妹妹楼下见面；Day183 10:47同意将来亲自带册到合法窗口咨询，不准中心代交或鉴真。"
+  activity_room: "仅知合法公开咨询窗口、拟转交有限本人咨询意愿，不等于档案机构已核原件或准阅2018 A2原卷。"
+  main_cast_injuries: none_new
+  final_location: "Day183 20:00第181次夜班；封闭旧站东门不向公众开放，旧纸14原印10受控4未收及另2影印受控事实不变。"
