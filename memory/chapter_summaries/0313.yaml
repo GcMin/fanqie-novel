@@ -7,8 +7,9 @@ status: ready
 qa: pass
 reader_gate: pass
 original_source_sha: "b734e791f95f9fbe47edcc2c4250661751496792"
-source_draft_sha: "b734e791f95f9fbe47edcc2c4250661751496792"
-reader_review: "reader_reviews/0313_b734e791.md"
+source_draft_sha: "3fd005a19988e26917cfa514a7a6f5c3021d25fa"
+prior_review: "reader_reviews/0313_b734e791.md"
+reader_review: "reader_reviews/0313_3fd005a1.md"
 depends_on_chapter: 312
 depends_on_source_sha: "f79903f7db0cf08f8994ef42442683b83b2dc61e"
 dependency_status: verified_exact_ready_blob
@@ -28,6 +29,6 @@ relationship_updates:
   - "许荟限制采集其它私人信息，刘玲承认误发、实际送本人说明，陈津承认纸面未签无法停止后台外发；主角关系分数无新调整。"
 ending_state: "Day175 20:00第173次夜班，源自旧快照的待发任务暂停而历史总影响及生产修正未证；许荟真得书面说明，旧错路线纸8控6未收另2复制件各控。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
-revision_trace: {original_sha: "b734e791f95f9fbe47edcc2c4250661751496792", final_draft_sha: "b734e791f95f9fbe47edcc2c4250661751496792", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "f79903f7db0cf08f8994ef42442683b83b2dc61e", predecessor_exact_ready: true}
+revision_trace: {original_sha: "b734e791f95f9fbe47edcc2c4250661751496792", final_draft_sha: "3fd005a19988e26917cfa514a7a6f5c3021d25fa", stage_a_used: 1, body_revisions: 1, corrected_relative_date: "Day174昨天=>今天下午", predecessor_ready_blob: "f79903f7db0cf08f8994ef42442683b83b2dc61e", predecessor_exact_ready: true}
 qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
-char_count: 3357
+char_count: 3359

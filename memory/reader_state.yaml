@@ -2,8 +2,8 @@ schema_version: 1
 last_reviewed_chapter: 313
 last_reviewed_title: 那张旧绿勾，又发出一条短信
 last_source_path: chapters/draft/0313.md
-last_source_sha: b734e791f95f9fbe47edcc2c4250661751496792
-last_review_path: reader_reviews/0313_b734e791.md
+last_source_sha: 3fd005a19988e26917cfa514a7a6f5c3021d25fa
+last_review_path: reader_reviews/0313_3fd005a1.md
 last_reviewed_at: "2026-10-27"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -1498,17 +1498,22 @@ combined_audit_chapter_313_20261027:
   chapter: 313
   title: "那张旧绿勾，又发出一条短信"
   source_path: chapters/draft/0313.md
-  source_sha: "b734e791f95f9fbe47edcc2c4250661751496792"
-  review_path: "reader_reviews/0313_b734e791.md"
-  reviewer_mode: combined_audit_independent_pass_a_then_b
+  original_source_sha: "b734e791f95f9fbe47edcc2c4250661751496792"
+  source_sha: "3fd005a19988e26917cfa514a7a6f5c3021d25fa"
+  old_review_path: reader_reviews/0313_b734e791.md
+  review_path: "reader_reviews/0313_3fd005a1.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b_post_stage_a
   recommendation: keep
   required_action: none
   blocker_count: 0
   major_count: 0
   minor_count: 2
+  missed_major_later_found: "Day174夜错称昨天确立隔夜领取岗位，实际Day174 14:15"
   reader_gate: pass
   content_qa: pass
+  stage_a_used: 1
+  body_revisions: 1
   depends_on_chapter: 312
   predecessor_ready_blob_sha: "f79903f7db0cf08f8994ef42442683b83b2dc61e"
   dependency_status: verified_exact_ready_blob
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_corrected_commit_CI_required
