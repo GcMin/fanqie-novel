@@ -1,6 +1,6 @@
 schema_version: 1
-last_updated_chapter: 328
-current_time: "Day190 20:00，第188次夜班"
+last_updated_chapter: 329
+current_time: "Day191 20:00，第189次夜班"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-054_active
@@ -1296,3 +1296,13 @@ chapter_328_world:
   material_custody: "私册仍在妹妹家并未送活动室，仅限核匿名文字；旧原印14张10控4未收另两影印分别控。"
   public_safety: "东工门/维修便道禁公众不变，新提示真装。"
   unresolved: "二次截图源头、同句与原私纸是否同源、葛到岗、F008/M004/M005仍未知。"
+
+chapter_329_world:
+  chapter: 329
+  source_sha: "ce5bf32bf7bba041cad3425cbda0338284bc4a1a"
+  timeframe: "Day190 20:17—Day191 20:00"
+  verified: "Day191 11:22沈本人限项公开申请真实收件，14:10部分准阅合法去身份2002-08-27 09:26现场巡核记公众侧门已开和服务标识、公众可进入；另有同期公开范围记录含站位变更与乘车问询。"
+  material_custody: "私人旧册仍在妹妹家未交存或鉴真，修理客户名单未公布；原错路线14张原印10控4未收，另两影印分控。"
+  public_safety: "白榆旧东作业门与维修便道不向公众开放，Day190公众侧新禁入提示确已安装，危险网络原帖仍未定位。"
+  systems_and_authority: "2002-08-25公告仅拟8/27 09:00开，9:26现场巡核不能倒推九点恰开/首位来客/个人得到答复；夜间中心不代公开窗口审批或调个人簿。"
+  unresolved: "2002-08-27第一位客人/实际历史答复、私人图作者年份与钟表铺同址、当代错图源头、1996真获答、2018 A2同笔、F008/M004/M005仍未知。"

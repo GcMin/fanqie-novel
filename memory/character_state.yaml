@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 328
+last_updated_chapter: 329
 characters:
   zhou_heng:
     location: "Day181 20:00，第179次夜班开班"
@@ -1397,3 +1397,15 @@ chapter_328_characters:
   material: "红章14原印10控4未收另两复印分控，父亲私人旧册未带往活动室。"
   main_cast_injuries: none_new
   final_location: "Day190 20:00，第188次夜班。"
+
+chapter_329_characters:
+  chapter: 329
+  source_sha: "ce5bf32bf7bba041cad3425cbda0338284bc4a1a"
+  timeframe: "Day190 20:17—Day191 20:00"
+  zhou_heng: "第189夜班保留2002公开现场开放时点与真人个人历史获答的区别，不把私图认作官方导航。"
+  xia_ning: "拒将8/25拟开公告误读成真实开门；只采合法2002-08-27 09:26巡核与沈本人授权有限回告。"
+  liang_ce: "重申史料开台与当代旧站东作业门禁入互不授权，不安排历史旧路试走。"
+  citizen: "沈若琴拒儿子公开父亲旧客户账及原册；Day191 11:22本人提出限公开设施申请，14:10部分准阅两项去身份资料、17:06只发有源家庭文字、18:47限项回告；儿子撤回本次待发照片。"
+  material: "父亲原册仍在妹妹家，不交存或鉴真；错路线原印14张10控4未收另两后制影印受控不变。"
+  main_cast_injuries: none_new
+  final_location: "Day191 20:00第189次夜班，公众开台09:26有源现场可进入，具体来客与收到答复未证。"

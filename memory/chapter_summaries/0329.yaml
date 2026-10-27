@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 329
+title: "九点的告知，九点二十六分的门"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "812ce436baf770f44fb26df86cd9786a8445031b"
+source_draft_sha: "ce5bf32bf7bba041cad3425cbda0338284bc4a1a"
+initial_review: "reader_reviews/0329_812ce436.md"
+reader_review: "reader_reviews/0329_ce5bf32b.md"
+depends_on_chapter: 328
+depends_on_source_sha: "6b778056ac70c9a53b8b2bd1d1c2e12e03ebe37f"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day190 20:17—Day191 20:00，第188/189次夜班"
+summary: >-
+  Day190 20:17沈若琴在妹妹家拒儿子将私人旧册连修理客户资料拍照上网纠正来源不明危险错图；20:34本人向中心仅问2002-08-27公众服务台实际开放的合法公开记录渠道，中心未代批准、亦未追截图原始发布者。Day191 09:58母子在妹妹家整理仅限公开柜台开放与时段的申请，11:09到窗口、11:22正式收件不冒称已有结论。14:10有权窗口部分开放可分离公开设施巡查和业务范围：2002-08-27 09:26去身份巡核显示公众侧门开、有服务标识且可进入问询；同日公开业务范围涵盖站位变更、乘车咨询与失物联络。不得据此倒推8/27 09:00公告是否准时执行、首位来访时间、任何特定人实际获答，更不证父亲旧纸形成日或当代错误截图同源。Day191 17:06沈只在家庭群发有源文字，18:47限项回告刘玲，20:00第189次夜班将公众开门/历史个体获答分栏。原私册仍在妹妹家，自主保管不鉴真/外传，旧东工门公众禁入、Day190新提示已真装但网上原帖仍未知；14张红章原印10控4未收另2影印分控不变，1996真人获答、2018 A2同笔、F008/M004/M005仍未证。
+meaningful_state_changes:
+  - "从8/25只知8/27 09:00拟开推进为经本人合法核2002-08-27 09:26公众可进入的有源现场巡查事实；不等于09:00准时开锁。"
+  - "沈本人提交限项公开申请并实核有权准阅的两份公开记录，明确拒将私人账原图上传；儿子撤本次待发照片，家庭群仅发来源文字。"
+knowledge_updates:
+  - "09:26现场公众可进与实际咨询者获答是不同证据；8/27同日公开服务范围存在却没有个人接待流水。"
+foreshadowing_updates:
+  - "F003添2002公开服务台真实09:26开放时点，不证明修表摊同址、私人旧纸作者年、历史个人真获答或永安里6栋201。F008/M004/M005无新合格确认。"
+relationship_updates:
+  - "沈与儿子由上传原册争执转为儿子辅助限定公开申请；中心只接本人许可的公开字段，不诱发家庭资料扩散。"
+ending_state: "Day191 20:00第189夜班；2002-08-27 09:26公众可进入有源巡核，09:00恰时及自然人实际获答未证；私人原册和当代禁门状态不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "812ce436baf770f44fb26df86cd9786a8445031b", final_draft_sha: "ce5bf32bf7bba041cad3425cbda0338284bc4a1a", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, fix: "移除无源两年前旧系统操作断言；3401→3400", predecessor_ready_blob: "6b778056ac70c9a53b8b2bd1d1c2e12e03ebe37f", predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3400

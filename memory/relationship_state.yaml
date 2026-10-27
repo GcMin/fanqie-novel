@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 328
+last_updated_chapter: 329
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1049,4 +1049,11 @@ chapter_328_relationships:
   source_sha: "606d7657140b9de2ed07a0268882bd62e6af6c50"
   citizen_and_center: "葛的去身份二次截图仅用于道路风险纠错；沈只同意限字核查，不与葛交换双方身份或私人旧客户名册。"
   family_boundary: "儿子只知道自己家庭群日期表未带手绘原页，不替亲属的其他转发保证。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_329_relationships:
+  chapter: 329
+  source_sha: "ce5bf32bf7bba041cad3425cbda0338284bc4a1a"
+  citizen_and_center: "沈若琴自行决定公开设施查询范围；中心仅指导合法渠道与记录本人许可的公开信息，不索取私册和旧客户名册，不替审批岗位下结论。"
+  family_boundary: "儿子原想发父亲整册纠错图，沈以取消待发照片、本人限项申请与仅发公开来源文字明确隐私边界，儿子改为核读回执。"
   main_cast_trust_scores_unchanged: true

@@ -13,7 +13,7 @@
 - target_effective_chars: 2600–3400
 - hard_range: 2300–3800
 - count_method: 正文Unicode非空白码点含标点，不含Front Matter
-- actual_effective_chars: 3401
+- actual_effective_chars: 3400
 
 ## 本章目标、POV、开场、人物诉求
 - 目标：让沈若琴从对旧句网络扩散的被动忧虑转为主动掌控公开调查范围，以实际可公开的旧设施现场巡查取得2002年8月27日服务台公众开放的独立时点，但绝不将开台状态误作有人获得真实答复。
@@ -50,4 +50,9 @@ Day191 20:00第189次夜班：真正公众开放的有源现场时点已立，�
 - 基于2026-10-27实际main `deb1d9bb9845d4ebb1440495bcd2ed5e937812d4`，核读AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、四项Bible Canon、三主要人物卡，最新记忆人物/关系/知识/世界/时间线/伏笔、current_arc、写作状态与plan表；最近十章0319–0328摘要及最近五章0324–0328完整ready正文；未读取历史reader_reviews。
 - 现有outlines/volume_05.md和outlines/arcs/arc_current.md系旧阶段资料，对第六卷现行ARC-054以实际已ready剧情和现行Memory为准，不擅改旧Canon。
 - 从chapters/published、ready、draft三目录枚举最大现有第328章；第153章确已存在于published，不需恢复；新稿329和章纲原来均不存在。
-- 前章328在main为ready，实际Git blob `6b778056ac70c9a53b8b2bd1d1c2e12e03ebe37f`，`dependency_status: verified_exact_ready_blob`。本轮只新建这两个文件，不修改现有章节、长期Memory、审核、QA、ready或发布。 
+- 前章328在main为ready，实际Git blob `6b778056ac70c9a53b8b2bd1d1c2e12e03ebe37f`，`dependency_status: verified_exact_ready_blob`。本轮只新建这两个文件，不修改现有章节、长期Memory、审核、QA、ready或发布。
+
+## Audit独立复审附记（2026-10-27）
+- 初稿 `812ce436baf770f44fb26df86cd9786a8445031b`独立双遍Reader 0/1/2，唯一MAJOR为Day191夏宁台词凭空断言“两年前”系统实践。
+- Stage A仅改为“只看一眼公告，就容易把拟开放当作已开放”，正文3400有效字，改后新blob `ce5bf32bf7bba041cad3425cbda0338284bc4a1a`独立Pass A/Pass B复审0/0/2，Continuity/Style/Meaningful QA PASS，见对应Review与qa/0329_report.md。
+- 328正式ready `6b778056ac70c9a53b8b2bd1d1c2e12e03ebe37f`前章依赖精确匹配；2002-08-27 09:26现场开放只证当刻，不能证明09:00如期开门或真人获答。仍须精确候选CI后main放行。

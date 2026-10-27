@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 328
-last_reviewed_title: "旧纸没出门，句子先到了路口"
-last_source_path: chapters/draft/0328.md
-last_source_sha: 606d7657140b9de2ed07a0268882bd62e6af6c50
-last_review_path: reader_reviews/0328_606d7657.md
+last_reviewed_chapter: 329
+last_reviewed_title: "九点的告知，九点二十六分的门"
+last_source_path: chapters/draft/0329.md
+last_source_sha: ce5bf32bf7bba041cad3425cbda0338284bc4a1a
+last_review_path: reader_reviews/0329_ce5bf32b.md
 last_reviewed_at: "2026-10-27"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -1786,4 +1786,24 @@ chapter_328_reader_20261027:
   predecessor_original_draft_sha: "f0fe106e38d96b78e589259964e7604099a3932b"
   predecessor_ready_blob: "871cc69a80d6bbfffe5b75a6f5825054c8490a59"
   predecessor_factual_delta: "327原稿到最新仅Day188四处时态更正，Day189结尾事实不变"
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_329_reader_20261027:
+  chapter: 329
+  original_source_sha: "812ce436baf770f44fb26df86cd9786a8445031b"
+  initial_review: reader_reviews/0329_812ce436.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "ce5bf32bf7bba041cad3425cbda0338284bc4a1a"
+  review_path: reader_reviews/0329_ce5bf32b.md
+  reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  required_action: none
+  reader_gate: pass
+  content_qa: pass
+  effective_chars: 3400
+  local_revision_used: 1
+  body_revisions: 1
+  predecessor_ready_blob: "6b778056ac70c9a53b8b2bd1d1c2e12e03ebe37f"
+  dependency_status: verified_exact_ready_blob
+  predecessor_factual_delta: "328原draft误将私册显示为曾带到活动室，正式稿修为留妹妹家且经逐正文比对；329从妹妹家取册相容"
   structural_gate: exact_candidate_commit_CI_required
