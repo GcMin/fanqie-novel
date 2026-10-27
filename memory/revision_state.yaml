@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 335
+current_chapter: 337
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0335.md
-current_source_sha: 8e1c2f16cb79fbbf0d3964d0822da587ead25741
-current_review_path: reader_reviews/0335_8e1c2f16.md
+current_source_path: chapters/draft/0337.md
+current_source_sha: 0c609210e48c4c34ae0c5ec4d4c51163ee45e946
+current_review_path: reader_reviews/0337_0c609210.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0335_reader_qa_candidate
+last_action: audit_0336_0337_reader_qa_candidate
 last_action_date: 2026-10-28
 last_error: null
-last_diff_summary: "335双遍Reader 0/0/2正文零修订，前334 ready SHA精确匹配；Continuity/Style/Meaningful内容QA PASS，候选精确结构CI待实证。"
+last_diff_summary: "336仅纠Day197同日时间称谓，337仅重绑336正式ready并核原/新正文事实相容；最终分别Reader0/0/2，独立内容QA PASS，候选精确结构CI待实证。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1471,5 +1471,36 @@ chapter_335_revision_20261028:
   body_revisions: 0
   predecessor_ready_blob: "757fc9be3c6fd9fdc92a474a890e16926241666d"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_336_revision_20261028:
+  chapter: 336
+  original_sha: "8e2640b39e7912cca95cbf4418218972fbf29333"
+  initial_review: reader_reviews/0336_8e2640b3.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "a625505dcaffd88b90aea0ab4109cec006dee1b9"
+  final_review: reader_reviews/0336_a625505d.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  corrected: "Day197 20:27 yesterday afternoon to today afternoon for same-day 16:09 report"
+  predecessor_ready_blob: "02a4f6ee5452dd38c5fc35cfc561d6f566e88907"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_337_revision_20261028:
+  chapter: 337
+  original_sha: "879d1b0b2b3681a17a62991104873eeefa242c1d"
+  initial_review: reader_reviews/0337_879d1b0b.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "0c609210e48c4c34ae0c5ec4d4c51163ee45e946"
+  final_review: reader_reviews/0337_0c609210.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  corrected_fields: [depends_on_source_sha, dependency_status, chapter_0337_plan_predecessor]
+  predecessor_original_draft_blob: "8e2640b39e7912cca95cbf4418218972fbf29333"
+  predecessor_ready_blob: "525dfd6daace29cf8181e38f4dbf10c09be6fea7"
+  predecessor_factual_delta: "only one same-day temporal phrase corrected; all dependent events identical"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

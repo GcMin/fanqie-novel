@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 336
+title: "调拨单上有去向，没有领用人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "8e2640b39e7912cca95cbf4418218972fbf29333"
+source_draft_sha: "a625505dcaffd88b90aea0ab4109cec006dee1b9"
+initial_review: "reader_reviews/0336_8e2640b3.md"
+reader_review: "reader_reviews/0336_a625505d.md"
+depends_on_chapter: 335
+depends_on_source_sha: "02a4f6ee5452dd38c5fc35cfc561d6f566e88907"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day197 20:27—Day198 20:00，第195/196次夜班"
+summary: >-
+  Day197 20:27马芸发现有资产录入员错误将2016-04-12照片有限说明扩大为“来源已核”，同日16:09说明本不证明旧铁皮制作、出库或领用来源；21:04林工等有责岗位保留原操作记录并纠为“来源继续核查”。三件拆件继续设施方各自受控暂存。Day198 10:17合法资产目录检得2014年白榆旧站西侧便民指引立柱的旧标识金属辅料《调剂预排表》目录；11:42有职责资产岗提交限项申请，13:38部分准阅去身份业务摘录，显示拟从旧料周转库调出辅料供现场按孔位选配，但实领签认/日期在许可摘录中没有可核依据，附“调整后再报”，不能推实际运到或同眼前窄铁皮对应。15:02林工厘清两端的证据空白，16:19设施方准传限项文字，17:06周衡只登记2014有计划及2016有源照片两条独立线。Day198 20:00第196夜班，下一步实际领用凭证只待资产方评估、尚未提交；西侧公众通行安全，东工门维修道禁公众，窄铁皮在柜中、私人旧册在妹妹家、旧错图14原印10受控4未收另2影印独立保管。1996真人获答、2018 A2、F008/M004/M005仍未证。
+meaningful_state_changes:
+  - "Day197有责岗位更正错误来源已核并留原记录，不把2016安装照片当作2014出库来源。"
+  - "Day198实际限项取得2014旧辅料拟调预排摘录，却未取得实领日期与单件对应，后续查询仅考虑未申请。"
+knowledge_updates:
+  - "预排目的地/拟调类别不证明真实出库或领用；2016有源照片与2014旧计划之间缺可靠交接链。"
+relationship_updates:
+  - "马芸、林工负责实物/资产范围，夏宁和周衡只收合法限项文字，不替保管方改账或索私人签名。"
+foreshadowing_updates:
+  - "F003有界新证2014计划和2016安装独立，旧字作者、年代、沈父私册同源及M004/M005不证。"
+ending_state: "Day198 20:00第196夜班；2014旧料计划已核见而实领未知，柜中旧铁皮继续受控，历史来源未定。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "8e2640b39e7912cca95cbf4418218972fbf29333", final_draft_sha: "a625505dcaffd88b90aea0ab4109cec006dee1b9", body_revisions: 1, stage_a_used: 1, reviews_this_cycle: 2, predecessor_ready_blob: "02a4f6ee5452dd38c5fc35cfc561d6f566e88907"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3283

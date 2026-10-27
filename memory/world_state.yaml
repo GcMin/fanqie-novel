@@ -1,6 +1,6 @@
 schema_version: 1
-last_updated_chapter: 334
-current_time: "Day197 20:00，第195次夜班"
+last_updated_chapter: 337
+current_time: "Day199 20:00，第197次夜班"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-054_active
@@ -1367,3 +1367,9 @@ chapter_335_world:
   historical_limit: "2016-04-12有源图片可支持该后层垫片当时已装于西侧旧立柱，照片没有背字视角，未核旧料此前转运、制作年、字作者、旧字所指合法道路或沈私纸同源。"
   public_safety: "Day195西侧危牌已除且公众路复行，Day190东侧新禁入提示不变，旧东工门与维修道禁公众。"
   unresolved: "更早旧料调拨只可能通过另外合法窄申请，目前未提交；1996旧本人是否实收答、2018 A2同笔、F008可靠新样本及M004/M005未证。"
+
+chapter_336_world_notes:
+  - "Day198资产岗仅有2014预排表有限摘录，旧料实际领用/件号不证，旧铁皮设施方继续按现行资产规则受控。"
+chapter_337_world_notes:
+  - "Day199取得2014年同项12月调整页，原预排材料项停止按原方案转出；新盘点误映来源仅本条获纠正，其它项目未核。"
+  - "2016同址照片仍独立有效；旧西侧公众路按已授权范围通行，东工门和维修道对公众关闭，旧铁皮与私人本仍各在原保管处。"

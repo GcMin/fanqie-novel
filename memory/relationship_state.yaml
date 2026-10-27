@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 335
+last_updated_chapter: 337
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1102,3 +1102,8 @@ chapter_335_relationships:
   artifact_custody: "马芸与林工先依职责查三件原交接并保留错误结算标签，司机不被迫签无授权载货；原物、内照受设施管理方控制，中心只收有限文字摘要。"
   staff_boundary: "夏宁先问有无真实出库和签署权限，周衡与梁策不越权索取原影像或以自己记忆鉴定背面字。"
   main_cast_trust_scores_unchanged: true
+
+chapter_336_relationship_notes:
+  - "马芸坚持设施方保柜和有责更正；林工仅开放有限查询及去身份转述，周衡夏宁不代资产岗修改账。"
+chapter_337_relationship_notes:
+  - "资产主管与马芸、档案保管方在权限内分工核查旧预排撤回；中心仅听可公开的有限状态，不追私人经办者。"

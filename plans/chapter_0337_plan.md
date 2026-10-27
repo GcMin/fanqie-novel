@@ -5,10 +5,10 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - source_main_sha: 7917dd801dc1abb94c226a8c4f78a847a4a08c9c
-- predecessor_path: chapters/draft/0336.md
+- predecessor_path: chapters/ready/0336.md
 - depends_on_chapter: 336
-- depends_on_source_sha: "8e2640b39e7912cca95cbf4418218972fbf29333"
-- dependency_status: provisional
+- depends_on_source_sha: "525dfd6daace29cf8181e38f4dbf10c09be6fea7"
+- dependency_status: verified_predecessor_factual_delta_compatible
 - dependency_facts_used: "336未审草稿仅供临时连续性：Day197夜纠2016来源已核误填；Day198 13:38获准限阅2014旧料调剂预排，拟送白榆路西侧立柱、但无可核实领签认并标调整后再报；Day198 16:19仅许可文字回告，晚间20:00第196次夜班。336正文与章纲尚未独立审核，2014预排、2016照片不能无证拼为同件来源链。"
 - target_effective_chars: 2600–3400
 - hard_range: 2300–3800
@@ -46,3 +46,7 @@
 - 实读memory/chapter_summaries/0326—0335十份，最后五章0332—0335正式ready与0336未审draft完整正文；并核F003/F008、timeline近期、chapter_plan.csv尾。没有读取历史reader_reviews。
 - main三目录published最高0159且0153《人没回来，表先签完了》已存在、ready最高0335、draft最高0336；0337及其章纲此前均不存在。前章0336为未审draft SHA 8e2640b39e7912cca95cbf4418218972fbf29333，因此dependency_status仅为provisional，后续不得当Canon。
 - 此次只新建章纲和draft，不做Reader/Revision/QA/Memory/Publish Gate或番茄发布，不改旧章。以main HEAD 7917dd801dc1abb94c226a8c4f78a847a4a08c9c作parent、Git tree 3bdbcb53498810a52ed20e161019802fcf41aa01为基，原子创建两个文件并用expected_sha=7917dd801dc1abb94c226a8c4f78a847a4a08c9c、force:false更新main。
+
+## Audit核证备注（2026-10-28）
+- 第336章原草稿 `8e2640b39e7912cca95cbf4418218972fbf29333` 到修订版本 `a625505dcaffd88b90aea0ab4109cec006dee1b9` 仅纠正Day197 16:09说明的相对日期，同日事实、保管和2014预排均不变；正式ready Blob `525dfd6daace29cf8181e38f4dbf10c09be6fea7` 是修订正文加交付元数据。
+- 第337章依赖现已绑定 `525dfd6daace29cf8181e38f4dbf10c09be6fea7`；后续2014调整项状态及2016照片证据不受前章一处时间词修正影响。该章正文不修改，按新草稿SHA独立复审。
