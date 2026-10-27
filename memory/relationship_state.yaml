@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 322
+last_updated_chapter: 324
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1008,4 +1008,20 @@ chapter_322_relationships:
   citizen_and_center: "沈若琴不同意儿子将旧册及父亲客户账公开、要求对蓝笔可能本人后写的说法保留“可能”，并自主决定仅一项页项申请；周衡/夏宁/梁策与刘玲按来源和机构权限界定，不替她授权公开、捐赠或历史鉴定。"
   family_boundary: "沈若琴与妹妹有保管、路线解释的讨论，儿子希望网上公开，意见不一致；不能推亲属支持公开或家人愿当历史同笔证人。"
   center_archive_boundary: "Day184 14:17咨询真实完成不意味着纸本收归机构；15:54单项申请收件只是等待范围审查，工作人员不能代签准阅或鉴真。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_323_relationships:
+  chapter: 323
+  source_sha: "d3ab470701657f5831cf13ce192840e25e9ea733"
+  citizen_and_center: "沈若琴只授权自己合法核公开摘录、有限向中心转流程事实，拒绝儿子用它开旧东门或作导航；周衡不把自己童年私忆写进其报告。"
+  family_boundary: "儿子希望直接数字还原历史路线，沈明确只能传本人允许的公共范围，不授权展示旧册账页；妹妹不愿记豆浆摊谈话则不收集。"
+  center_archive_boundary: "档案窗口合法批准的是一份开放摘录的现场利用，不包含附图、个人资料或代为鉴定私人原纸。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_324_relationships:
+  chapter: 324
+  source_sha: "a4e11d283e2e296bfa1d63041f5ec63f0b44d7b5"
+  citizen_and_center: "中心先给现时禁行答复再给合法资料查询范围，刘玲只按沈本人许可转正式双公告字段，不拿儿子摘要当原文。"
+  family_boundary: "儿子承认错读搜索摘要，不再强迫展示旧册或绘当代导航，转做公开原文/未知双栏表；沈仍控制原物与继续查询权。"
+  center_archive_boundary: "公开运营公告的正文与发布日期已查，但授权没扩展到内部附图、私人摊位名册或2018 A2。"
   main_cast_trust_scores_unchanged: true

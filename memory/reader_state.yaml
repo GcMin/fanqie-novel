@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 322
-last_reviewed_title: "旧站有两个北口"
-last_source_path: chapters/draft/0322.md
-last_source_sha: 2473f649974ca0aeea8cd38588bbb6d3becd48db
-last_review_path: reader_reviews/0322_2473f649.md
+last_reviewed_chapter: 324
+last_reviewed_title: "北口停用时，另一处还没开"
+last_source_path: chapters/draft/0324.md
+last_source_sha: a4e11d283e2e296bfa1d63041f5ec63f0b44d7b5
+last_review_path: reader_reviews/0324_a4e11d28.md
 last_reviewed_at: "2026-10-27"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 321
-depends_on_source_sha: ae7481d927dd54520a048a8ba7dd2745683d5147
-dependency_status: verified_ready_blob_factual_delta_compatible
-predecessor_current_source_sha: ae7481d927dd54520a048a8ba7dd2745683d5147
+depends_on_chapter: 323
+depends_on_source_sha: 310ba30659ddcd31b73d4512baa1437b57db5c1f
+dependency_status: verified_predecessor_metadata_only_rebind
+predecessor_current_source_sha: 310ba30659ddcd31b73d4512baa1437b57db5c1f
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1682,4 +1682,41 @@ chapter_322_reader_20261027:
   predecessor_current_ready_blob: "ae7481d927dd54520a048a8ba7dd2745683d5147"
   predecessor_factual_delta: "321原draft仅将夏宁先征得同意再开内部免提一句修顺，除元数据外其余正文完全一致，322事态兼容"
   dependency_status: verified_ready_blob_factual_delta_compatible
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_323_reader_20261027:
+  chapter: 323
+  source_sha: "d3ab470701657f5831cf13ce192840e25e9ea733"
+  review_path: reader_reviews/0323_d3ab4707.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft_blob
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  required_action: none
+  reader_gate: pass
+  content_qa: pass
+  effective_chars: 3018
+  body_revisions: 0
+  predecessor_current_ready_blob: "7c1f1f6b53d77a3a4b877ed3621c5eb476b18014"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_324_reader_20261027:
+  chapter: 324
+  original_sha: "669064b141fb5e6d97960139a41a63347d1351dd"
+  original_review: reader_reviews/0324_669064b1.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_local_revision_used: 1
+  final_source_sha: "a4e11d283e2e296bfa1d63041f5ec63f0b44d7b5"
+  final_review: reader_reviews/0324_a4e11d28.md
+  reviewer_mode: combined_audit_fresh_independent_pass_a_then_b_after_predecessor_rebind
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  required_action: none
+  reader_gate: pass
+  content_qa: pass
+  effective_chars: 3071
+  body_revisions: 0
+  depends_on_chapter: 323
+  predecessor_original_draft_blob: "d3ab470701657f5831cf13ce192840e25e9ea733"
+  predecessor_current_ready_blob: "310ba30659ddcd31b73d4512baa1437b57db5c1f"
+  predecessor_factual_delta: "323原draft到ready正文逐字相同仅Front Matter交付字段更正"
+  dependency_status: verified_predecessor_metadata_only_rebind
   structural_gate: exact_candidate_commit_CI_required

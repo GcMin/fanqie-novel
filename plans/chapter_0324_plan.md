@@ -7,7 +7,7 @@
 - source_main_sha: 283824acf0046722b96db90d165b7db3ba66a72f
 - predecessor_path: chapters/draft/0323.md
 - depends_on_chapter: 323
-- depends_on_source_sha: "d3ab470701657f5831cf13ce192840e25e9ea733"
+- depends_on_source_sha: "310ba30659ddcd31b73d4512baa1437b57db5c1f"
 - dependency_status: provisional
 - target_effective_chars: 2600–3400
 - hard_range: 2300–3800
@@ -42,3 +42,8 @@
 - 前章0323仍处于draft，来源blob为d3ab470701657f5831cf13ce192840e25e9ea733；Day185 20:00第183次夜班、获得两阶段北口历史摘录但未获旧路坐标，故新章标provisional、只记录依赖的具体正文版本，不把其当正式Canon。
 - outines/volume_06.md在目前实际目录不存在，继续依据当前章节的volume:6、ARC-054和已核Canon限定场景，未虚称读过第六卷文件。
 - Writer只新建本章计划和草稿，Reader/Revision/QA/Memory/Publish Gate全部由独立Audit处理。
+
+## Audit修订附记（2026-10-27）
+- 初稿仍绑定323 provisional Git blob d3ab470701657f5831cf13ce192840e25e9ea733；独立Reader初审唯一MAJOR为前章SHA未核正式ready。
+- 实际比较323原草稿 d3ab470701657f5831cf13ce192840e25e9ea733 与最终ready交付blob 310ba30659ddcd31b73d4512baa1437b57db5c1f，小说正文完全一致，只有Front Matter状态变化，因此第324章依赖事实兼容。
+- Stage A只更正本计划页首前章位置/SHA和324 Front Matter，未修改324正文；新草稿完整Git blob a4e11d283e2e296bfa1d63041f5ec63f0b44d7b5 已重新独立Reader双遍复核0 BLOCKER/0 MAJOR/2 MINOR；独立内容QA PASS，精确候选CI SUCCESS前不得main放行。原Writer Continuity Precheck段描述的是写作时的provisional状态，保留作历史记录。

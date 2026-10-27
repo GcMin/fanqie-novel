@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 322
+last_updated_chapter: 324
 characters:
   zhou_heng:
     location: "Day181 20:00，第179次夜班开班"
@@ -1330,3 +1330,27 @@ chapter_322_characters:
   activity_room: "刘玲查得合法公开目录两类，并按本人许可18:02仅回传实际咨询与申请已收节点，陈津拟给历史资料已接收虚假凭条被及时纠正。"
   main_cast_injuries: none_new
   final_location: "Day184 20:00第182夜班，两目录可公开查询但未阅旧正文；原错路线14原印10控4未收另2影印各控，旧机制仍待核。"
+
+chapter_323_characters:
+  chapter: 323
+  source_sha: "d3ab470701657f5831cf13ce192840e25e9ea733"
+  timeframe: "Day184 20:26—Day185 20:00"
+  zhou_heng: "私本单记永安里六栋201的童年记忆并标未外证，未把沈若琴私人旧纸填为她独立报告过的门牌；Day185交班后只拟查合法公开同期客运告知。"
+  xia_ning: "明确历史摘录不能开放当代旧站铁门；对未经同意的家庭口述不写机构结论。"
+  liang_ce: "按夜间现时道路管理状态确认东侧作业口与维修道仍禁公众，不借历史资料批准试门。"
+  citizen: "沈若琴61岁，Day185获限定历史摘录部分现场许可并本人11:10真核两阶段北口类别，12:03获公开范围说明；私人旧册仍本人持有、不许家属代画路线。"
+  activity_room: "刘玲Day185 14:18经沈本人许可只转有限摘要，阻陈津未经历史附图就贴现行地图图钉。"
+  main_cast_injuries: none_new
+  final_location: "Day185 20:00第183夜班；历史摘录两类北口分别查得，现时东门禁入，14旧原印10控4未收另两复印分控。"
+
+chapter_324_characters:
+  chapter: 324
+  source_sha: "a4e11d283e2e296bfa1d63041f5ec63f0b44d7b5"
+  timeframe: "Day185 20:37—Day186 20:00"
+  zhou_heng: "Day185夜先指出搜索截图非官方原文，Day186读取经限项转达的两公告公开来源并提出下步仅由本人自愿查具体线路公开告知。"
+  xia_ning: "将历史公告与现时封门路权分开，Day186第184夜班记录已核2001停止与2004试行但不推全部线路停运。"
+  liang_ce: "Day185 21:06道路部门有权确认旧站东门与维修便道继续禁公众，未实测旧私人路图。"
+  citizen: "沈若琴与儿子Day186 12:07自主核两公开全文，儿子承认摘要误读并帮助分已知/未知两栏，不索要或公开旧册；私人纸日期仍未知。"
+  activity_room: "刘玲拒借查询顺便查私摊主，16:26仅按沈同意回告两个公告真实日期与服务类别。"
+  main_cast_injuries: none_new
+  final_location: "Day186 20:00第184夜班；2001北口候车点停、2004另一北侧临乘试行有源核对，现时东门禁入，旧红章14印10控4未收另两复制分控。"

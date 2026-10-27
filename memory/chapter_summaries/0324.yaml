@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 324
+title: "北口停用时，另一处还没开"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "669064b141fb5e6d97960139a41a63347d1351dd"
+source_draft_sha: "a4e11d283e2e296bfa1d63041f5ec63f0b44d7b5"
+prior_review: "reader_reviews/0324_669064b1.md"
+reader_review: "reader_reviews/0324_a4e11d28.md"
+depends_on_chapter: 323
+old_depends_on_source_sha: "d3ab470701657f5831cf13ce192840e25e9ea733"
+depends_on_source_sha: "310ba30659ddcd31b73d4512baa1437b57db5c1f"
+dependency_status: verified_predecessor_metadata_only_rebind
+timeframe: "Day185 20:37—Day186 20:00，第183/184次夜班交接"
+summary: >-
+  Day185 20:37沈若琴儿子找到两张无完整来源的搜索摘要，误以“恢复运营”和后一期试行能把历史北口接成连续旧路；同夜21:06道路岗确认白榆路旧站东侧作业口和维修便道仍公众禁入，历史资料不能开门。Day186 10:48刘玲确认本人约正规公开终端且拒顺便查摊点私人案；12:07沈若琴与儿子亲核2001-09-12发布的《白榆路旧站北口临时停靠调整告知》，9月20日停旧“北口候车点”的临时停靠，所谓恢复是道路秩序而非原站开通；又核2004-06-07另一来源《白榆路北侧临时乘降区试运行告知》，6月10日另一处沿公众辅道的限项临乘试行。12:49获两份公开材料的来源和使用范围。两文件不证2001—2004全网无车或两点同址；其间其它线路安排未知。儿子承认只误读搜索摘句，协助私人分“原文明说/仍未知”双栏表，无法保证自己亲身去过豆浆摊。16:26按沈许可刘玲向中心转两标题、发布/生效日期和类别，不公布私册或家庭对话。Day186 20:00第184夜班得到有源双公告事实，原私人旧图绘制时间、永安里联系未证。历史F003有界推进，不证F008/M004/M005、1996本人回告、2018 A2同笔；原红章14印10控4未收另2复制各控，现时旧门仍禁公众。
+meaningful_state_changes:
+  - "本人真实核阅2001与2004两个独立公开交通公告全文及发布日期/生效日，纠正搜索摘要把停止误读为恢复的错觉。"
+  - "家属改为列已证/未知两栏并停止试图用原私纸配当代电子导航；旧纸作者与年份继续保持未知。"
+knowledge_updates:
+  - "2001-09-20早期北口候车点临停停止，2004-06-10另一期北侧临时乘降区试行；期间其他公交线路是否停开不能由这两条公告推。"
+  - "沈若琴儿子承认小时候豆浆摊记忆可能来自母亲转述而非亲历，不能升级F008或当旧路证词。"
+foreshadowing_updates:
+  - "F003以公开公告排除持续同址的无依据推断，未核私纸年代/坐标/旧摊主、2018 A2与1996业务同笔、M004/M005。"
+relationship_updates:
+  - "沈若琴和儿子由互疑转为允许其协助核公开原文与登记日期，但私册及是否申请仍由沈自主决定；无额外公开授权。"
+ending_state: "Day186 20:00第184夜班，公开两公告有源核见、历史停靠与新临乘阶段分开，期间其它线路和原私纸年份未知；旧站铁门及维修便道禁公众、旧红章原印10控4未收另2影印各控。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "669064b141fb5e6d97960139a41a63347d1351dd", final_draft_sha: "a4e11d283e2e296bfa1d63041f5ec63f0b44d7b5", prior_review: "reader_reviews/0324_669064b1.md", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "d3ab470701657f5831cf13ce192840e25e9ea733", predecessor_final_ready_blob: "310ba30659ddcd31b73d4512baa1437b57db5c1f", predecessor_factual_compatible: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3071

@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 323
+title: "两处北口，不在同一张图上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "d3ab470701657f5831cf13ce192840e25e9ea733"
+reader_review: "reader_reviews/0323_d3ab4707.md"
+depends_on_chapter: 322
+depends_on_source_sha: "7c1f1f6b53d77a3a4b877ed3621c5eb476b18014"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day184 20:26—Day185 20:00，第182/183次夜班交接"
+summary: >-
+  Day184 20:26沈若琴再问历史北口若查到能否进当代封闭东门，夏宁与梁策明确不能且维修便道仍禁公众；周衡只在私人本注明童年对永安里六栋201的记忆、未给沈的咨询资料。Day185 09:42档案窗口依Day184 15:54那项受理的有限申请部分批准已开放《白榆路旧站北侧临时乘降点调整情况摘录》本人现场利用，受限附图、人事记录及摊点内文仍禁。11:10沈本人实核“北口候车点”（较早旧站房北侧出入口）与“北侧临时乘降区”（后来沿白榆路公众辅道）分属不同时期和类别，简称同为北口不证同一座站棚/坐标；12:03真领公开范围说明。14:18刘玲只经本人同意转报有限四点；本人不授权儿子把旧资料变导航，妹妹的豆浆摊家庭回忆因不愿登记不形成历史证。周衡拟合法查同期公开客运告知而非私摊主名册；Day185 20:00第183夜班接有来源的摘录证据，但私图作者年份、具体旧路、永安里和旧历史案件同一性仍未证。东侧铁门与维修道公众禁入；旧红章错误原印14张10受控4未收，另两后制影印各自受控。
+meaningful_state_changes:
+  - "窄申请由Day184已收件待审批推进为Day185 09:42部分利用批准、11:10本人真实核看摘录、12:03取得公开使用范围。"
+  - "史料确认同称北口的两个不同阶段乘降安排类别不同，但不提供现今坐标；下步转为同期公开运营公告。"
+knowledge_updates:
+  - "沈若琴本人知道两阶段临乘安排分别简称北口，却仍不知道父亲私人图的日期、绘图人、路口精确现址。"
+  - "周衡六栋201童年私忆与持有人供述彼此独立，不能把未经本人说过的门牌写进她的申报记录。"
+foreshadowing_updates:
+  - "F003有限获得分阶段北口史料排误，未连接2018 A2、1996旧真人收答、永安里空间同一性或M004/M005；F008没有新合格记忆矛盾。"
+relationship_updates:
+  - "沈若琴与家人对公开与导航有分歧，她拒绝儿子替其公布旧纸；刘玲与夏宁按本人有限许可回话；妹妹不愿登记豆浆摊记忆被尊重。"
+ending_state: "Day185 20:00第183夜班，公开摘录确认历史不同期两类北口称呼，但精确坐标和私人旧图同一性未证；旧纸14原印10控4未收加两复制受控，旧站门禁不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d3ab470701657f5831cf13ce192840e25e9ea733", final_draft_sha: "d3ab470701657f5831cf13ce192840e25e9ea733", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "7c1f1f6b53d77a3a4b877ed3621c5eb476b18014", predecessor_factual_compatible: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3018
