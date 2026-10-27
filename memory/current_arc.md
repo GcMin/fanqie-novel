@@ -1,3 +1,9 @@
+# 第334章独立Reader/Continuity-Style QA与ARC-054（2026-10-28）
+- 本轮对最新草稿Git blob 6807347c4f9453605bd02809c55b603adf9d21c7 先按Reader Pass A读本章、331—333正式ready、324—333摘要及文风，再按Pass B核Bible、当前ARC-054、人物知识世界/时间线与F003/F008；结果0 BLOCKER/0 MAJOR/2 MINOR，正文无修订、3090有效字，Reader reader_reviews/0334_6807347c.md；独立Continuity/Style/Meaningful内容QA通过。
+- 前333正式ready 2c95d5807c3ca13b589d461ff041acdb22973b0a 与334依赖精确匹配。Day195 20:32西侧旧便民牌摆动报险，Day190新东侧禁入提示未动；21:14有责临时隔离，22:21拆见旧内衬褐红“永安里方向”，22:38管理方独立编号受控暂存，23:10有责复核后公众路恢复；Day196 09:06有限交接、11:23仅外板维护登记无内衬原号、15:48只同意未来依目录查旧料公开记录但尚未提交申请，20:00第194次夜班。
+- F003仅有界新增拆卸时点、可见旧字和有责保管，不能证明写字人/年代/旧用途、沈父私册或历史图同源、永安里6栋201位置或现行路权。私册在妹妹家，旧红章14原印10受控4未收另两后制影印各控，旧东作业门与维修道禁公众。1996旧人真收回复、2018 A2同笔、F008新可靠记忆事件、M004/M005均未证。137→138、139→140、142→143、146→147、147→148既有SHA差异不被本章重判。
+- 内容QA通过不替代结构校验；候选Git commit必须完成publisher.check_local与单元测试CI SUCCESS后，才可非强制更新main进入ready。
+
 # 第332—333章独立Reader／新SHA复审／Continuity-Style QA与ARC-054（2026-10-28）
 - 332原稿 `000098f39120f15ab232301e17b919270111fe5c` 先Pass A只审本章、329—331正式ready正文、322—331摘要与文风，后Pass B核Bible、角色、知识/世界/关系、时间线、F003得0 BLOCKER/0 MAJOR/2 MINOR；正文0修订，内容QA三项PASS，3362字。前331正式ready `46786b52839694286080b236f83e5f691d7082ef`与依赖精确匹配，331原草稿和ready剥去Front Matter正文逐字相同。拟ready 332 blob `59323f7256998cbca157d3f862f940c4520d37e6`只变交付元数据。
 - 333原稿 `b3b392b4041483e6d6187d43d2f2ef21a9b60430` Reader 0/1/2：唯一可操作MAJOR是依赖未审332 provisional SHA。Stage A实际对比332原稿到最终拟ready仅元数据变化、正文相同，故本章只把前章依赖及章纲绑定正式ready `59323f7256998cbca157d3f862f940c4520d37e6`，小说正文零改；修后草稿 `f1df8406e099d573efbf86627cc9cc50a7d5e195`独立Pass A→Pass B得0/0/2，Continuity/Style/Meaningful PASS，3241字，旧SHA Review已不用于放行。

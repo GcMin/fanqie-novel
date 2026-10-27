@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 334
+title: "牌子拆下时，背面才有了方向"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "6807347c4f9453605bd02809c55b603adf9d21c7"
+reader_review: reader_reviews/0334_6807347c.md
+depends_on_chapter: 333
+depends_on_source_sha: "2c95d5807c3ca13b589d461ff041acdb22973b0a"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day195 20:32—Day196 20:00，第193/194次夜班"
+summary: >-
+  Day195 20:32白榆旧站便利店西侧旧“便民指引”铁牌松动摆向路人，老祝报警。20:40夏宁接报仅联系道路有责岗，21:02现场排险接报梁策只由可走公众路观察，21:14有责岗位隔离危险侧道路留安全西侧绕行；Day190东工门新禁入提示未动。22:03方工专业拆卸旧牌，22:21在外板后层窄铁皮反面发现褐红“永安里方向”字；周衡想保字但立刻纠正为先安全拆卸、由有责单位决定保图。22:38设施方分别将外板、旧支件、内衬编号留受控影像并保管在待核物料柜，中心仅获可流转的去身份事实摘要、不获得原件及无限影像权限；23:10道路复核落物与绕行后恢复合法公众侧通行。Day196 09:06白班合法取得拆件有限交接清单，证当次拆卸位置及接收，不证明文字制作年代；11:23维护台账只涵盖外板最近换装，旧内衬无独立来源号；15:48管理方仅同意未来依合规公开目录申请查旧料复用清退维修，尚未提出申请。20:00第194夜班分别登记实拆旧危牌与旧字来源待核；沈若琴父亲私册仍妹妹家、东工门维修道公众禁入，十四旧红章原印10受控4未收及两影印分控不变；1996历史个人实答、2018 A2同笔、F008新可靠记忆冲突及M004/M005仍不确证。
+meaningful_state_changes:
+  - "Day195 21:14有责隔离危险旧牌，22:38安全拆卸并管控部件、23:10复核后恢复现行公众路，东口新禁入牌未动。"
+  - "22:21首次发现旧内衬“永安里方向”字、22:38设施方独立留图编号和保管，来源与实际路线仍待核。"
+knowledge_updates:
+  - "拆件时点只证明本次发现位置，外板近次维护日期不等于旧内衬的制作、写字和原用途日期。"
+  - "相似历史方向字不能代替旧铁皮与沈家私册、口述目录、永安里6栋201之间独立同源证据。"
+foreshadowing_updates:
+  - "F003新增有源旧铁皮实体线索但无历史同源鉴定；F008无新可靠个人记忆样本，M004/M005不确认。"
+relationship_updates:
+  - "老祝仅证自己见旧正面及当夜危险，不冒称见过背字；夏宁和梁策遵守有责设施方保管/拍照/拆卸权限，主角团队信任分数不变。"
+ending_state: "Day196 20:00第194夜班，旧牌危险已真解除、合法公众侧复行，内衬旧字由设施方受控暂存，来源无定论、旧料查询尚未申请，中心仅有去身份事实摘要。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6807347c4f9453605bd02809c55b603adf9d21c7", final_draft_sha: "6807347c4f9453605bd02809c55b603adf9d21c7", reviews_this_cycle: 1, local_revision_used: 0, body_revisions: 0, predecessor_ready_blob: "2c95d5807c3ca13b589d461ff041acdb22973b0a"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3090

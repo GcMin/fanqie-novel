@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 333
+last_updated_chapter: 334
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1086,4 +1086,12 @@ chapter_333_relationships:
   citizen_and_center: "吴芩助听器失电并不失去决定权；蒋瑛协助以手机大字通信、临时收留，吴只自己确认与签收；中心不以门岗代收冒充住户知悉。"
   facility_boundary: "物业须保留原代收签名并更正错映、送本人可读告知，电水专业验证安全，吴本人不替专业处置签验收或满意。"
   privacy: "吴只同意本笔内部保存脱敏两回执对照，不公开楼群或新联系方式；本人相册内容不外传。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_334_relationships:
+  chapter: 334
+  source_sha: "6807347c4f9453605bd02809c55b603adf9d21c7"
+  citizen_and_center: "老祝只为现时安全报险、说自己十来年只见旧牌正面，不让梁策或中心将其口述冒充见过背面历史字。"
+  staff_authority: "周衡一时催保字立刻纠正为先专业安全拆卸；夏宁维护设施管理方保管/拍摄/许可边界，梁策只从可通行公众路协助。"
+  artifact_privacy: "方工没有擅发内衬照片，设施方按权限留照暂存，中心仅取去身份事实摘要；沈父旧册仍由家人自主保管。"
   main_cast_trust_scores_unchanged: true

@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 333
+current_chapter: 334
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0333.md
-current_source_sha: f1df8406e099d573efbf86627cc9cc50a7d5e195
-current_review_path: reader_reviews/0333_f1df8406.md
+current_source_path: chapters/draft/0334.md
+current_source_sha: 6807347c4f9453605bd02809c55b603adf9d21c7
+current_review_path: reader_reviews/0334_6807347c.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0333_reader_qa_candidate
+last_action: audit_0334_reader_qa_candidate
 last_action_date: 2026-10-28
 last_error: null
-last_diff_summary: "332原稿Reader0/0/2，333初审0/1/2，Stage A仅重绑332最终ready SHA且两章正文都未改；333新SHA复审0/0/2，独立QA均PASS；精确候选结构CI待验。"
+last_diff_summary: "334原稿双遍Reader 0/0/2，正文零修订，前333 ready SHA精确匹配；独立Continuity/Style/Meaningful内容QA PASS，候选精确结构CI待实证。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1444,5 +1444,18 @@ chapter_333_revision_20261028:
   predecessor_ready_blob: "59323f7256998cbca157d3f862f940c4520d37e6"
   predecessor_body_identical: true
   dependency_status: verified_predecessor_metadata_only_factual_compatible
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_334_revision_20261028:
+  chapter: 334
+  original_sha: "6807347c4f9453605bd02809c55b603adf9d21c7"
+  final_sha: "6807347c4f9453605bd02809c55b603adf9d21c7"
+  final_review: reader_reviews/0334_6807347c.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  retry_cycles: 0
+  body_revisions: 0
+  predecessor_ready_blob: "2c95d5807c3ca13b589d461ff041acdb22973b0a"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
