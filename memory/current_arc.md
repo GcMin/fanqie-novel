@@ -1,3 +1,9 @@
+# 第322章Reader双遍、Stage A依赖重绑、独立QA与ARC-054推进（2026-10-27）
+- Writer原322完整draft Git blob `cc398cda7f49e8442e1593a26bcf59fab3c9a8e0`，Reader Pass A先以322、319—321三章正式ready全文、近十摘要及文风审读，Pass B核Canon、人物知识和旧站历史目录及前章SHA，得0 BLOCKER/1 MAJOR/2 MINOR。唯一MAJOR为仍绑定321初始provisional draft SHA `5863cc8dae0cdf137f61161684aae3d102f85080`；321最终ready blob `ae7481d927dd54520a048a8ba7dd2745683d5147` 实际正文仅一处先获沈若琴同意再内部免提的文字修正，其余差别是交付Front Matter，与322内容相容。
+- Stage A只将322 Front Matter及详细章纲前章改为 `ae7481d927dd54520a048a8ba7dd2745683d5147` 并标明事实差异已核，**322正文0修订**，有效正文3364Unicode非空白码点。新完整draft Git blob `2473f649974ca0aeea8cd38588bbb6d3becd48db` 已独立重新读取，Pass A、B新评为0 BLOCKER/0 MAJOR/2 MINOR，旧Review无效；独立Continuity、Style、Meaningful QA内容门禁PASS，不因MINOR改正文。仍需精确候选提交真正结构CI及单测SUCCESS才可更新main ready。
+- 322从321最后Day183 20:00第181次夜班接续：20:31沈若琴担心子女公开私人修理旧账，告诉中心背面“别从东门进”蓝笔可能是她自己数年前所写，但原作者/年代未核；21:22梁策当次确认现行旧站东门及维修便道公众禁入。Day184 11:06合法公开目录出现两条独立题名《白榆路旧站北侧临时乘降点调整资料目录》与《旧站周边便民摊点登记与整治资料目录》，只能说明形成单位及编目范围，**不能**推“北侧/北口”即现在同一处。13:43本人到馆，只展示单页旧图，14:17完成限定咨询登记但原册未交、未鉴真，15:54本人单就站位及调整日期提出有限页项申请，窗口已收件、范围尚待审，摊点目录只备查，旧页正文没获准查；18:02刘玲仅按本人许可回告有源节点。Day184 20:00第182次夜班结束本章。
+- F003合理推进为两份公开题名及一个待审批窄申请，不证明2018 A2原索引同笔、旧站口述终点已实核、1996本人获答、图纸年代作者、周衡6栋201实地位置或F008/M004/M005。旧14红章原印10实控4未收及两影印各受控不变，沈芷企业薪资未决；历史137→138、139→140、142→143、146→147、147→148旧新事实边界不凭现代目录重判。
+
 # 第321章独立Reader/Revision/QA与ARC-054有界事实（2026-10-27）
 - 原草稿完整Git blob `5863cc8dae0cdf137f61161684aae3d102f85080`，先独立Pass A只读321原稿、318—320 ready正文及近期摘要和文风圣经，再做Pass B查Canon、人物知识世界关系/时间线/伏笔与主线，初审0 BLOCKER/1 MAJOR/2 MINOR，唯一MAJOR是内部免提授权句中“免提前先”损坏语序让读者无法确认是否先得本人同意。
 - Stage A仅改一处句子为“先征得沈若琴同意，才将通话切到值班台内的免提……”，新草稿完整Git blob `8e6340ff65ccecd5b67a775c5f205bfbfc53b1ee`，有效字数3398，正文其余情节未变；重新取新SHA全文并独立Reader Pass A/B结果0 BLOCKER/0 MAJOR/2 MINOR，旧评论失效，独立Continuity/Style/Meaningful内容QA PASS。结构正式放行必须等对应Git精确候选commit实际运行publisher.check_local和单测SUCCESS。

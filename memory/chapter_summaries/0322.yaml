@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 322
+title: "旧站有两个北口"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "cc398cda7f49e8442e1593a26bcf59fab3c9a8e0"
+source_draft_sha: "2473f649974ca0aeea8cd38588bbb6d3becd48db"
+prior_review: "reader_reviews/0322_cc398cda.md"
+reader_review: "reader_reviews/0322_2473f649.md"
+depends_on_chapter: 321
+depends_on_source_sha: "ae7481d927dd54520a048a8ba7dd2745683d5147"
+dependency_status: verified_ready_blob_factual_delta_compatible
+timeframe: "Day183 20:31—Day184 20:00，第181/182次夜班"
+summary: >-
+  Day183 20:31沈若琴担忧家属提议公开原册及父亲私人修理账，中心确认上章获允两张照片未作公众路图发布，但不保证任何外部平台行为。她补述背面蓝笔“别从东门进”可能是本人多年后所添，与旧搬家清单蓝字相近，具体作者、年代、笔迹均不获独立核实；正面“修表摊”只是一笔路标文字，不能由父亲修收音机的个人回忆猜已知摊主。21:22梁策确认旧站东侧作业口/维修便道仍不对公众开放，周衡将私人纸正反面未知来源两框分写。Day184 09:27西巷活动室刘玲向合法公开档案窗口查询规则，11:06仅查得《白榆路旧站北侧临时乘降点调整资料目录》《旧站周边便民摊点登记与整治资料目录》两项独立公开题名，资料全文及具体站位、摊主身份未核，不可单凭“北侧/北口”推同一地点。13:43沈若琴自愿至正式窗口，限本人同意只展示夹中手绘单页不交整个旧册，14:17窗口完成有限咨询记录，原本仍她持有而未鉴真；15:54本人只就旧站北侧临时乘降点公开站位和调整日期递交一份限定页项咨询申请，窗口已真实收件但范围尚待审批，没有实际阅页，另一摊点目录仅备查。18:02刘玲获本人批准向夜间中心只回报程序事实；Day184 20:00第182次夜班，夏宁未把“申请已收”点成“历史路线已查明”。旧红章错误路线纸14原印10实控4未收及2后制影印分别受控不变，沈芷薪资未决；1996本人是否真正获回告、2018 A2同笔及M004/M005均未获新证。
+meaningful_state_changes:
+  - "蓝笔可能由沈若琴本人后来添写，仅新自述，不补确定的历史作者或年份。"
+  - "公开资料出现两项独立题名，可成为合法窄查方向，尚无纸本正文、旧道路坐标或具体摊位档案内容。"
+  - "Day184 14:17本人在正式窗口仅现场展示一页并完成有限咨询，15:54单项历史站位页项申请收件待审，无原件交存/鉴真或批准查阅。"
+knowledge_updates:
+  - "北侧临时乘降点资料目录与便民摊点登记目录是两条独立源；名称相近不能自动连成私人旧图路线。"
+  - "蓝笔是否为本人所写及铅笔“表”字字形未证，图片中看似折痕的部分需在授权窗口谨慎评估。"
+foreshadowing_updates:
+  - "F003由民间旧纸的有限线索推进到公开目录和待审的一项窄查申请；不确认2018 A2、1996旧答复、F008具体可靠本人记忆反证或M004/M005。"
+relationship_updates:
+  - "沈若琴坚持对私人册/账、家庭信息及纸张占有的自主决定，中心与档案窗口不越权；她从抗拒“未证”变为主动圈写其含义。"
+ending_state: "Day184 20:00第182夜班，铁门仍锁、两公开目录独立、历史站位一项页项申请仅已收件待审批、原私纸持有人保有；旧错路线14原印10受控4未收另2影印分别受控；F008/M004/M005不证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "cc398cda7f49e8442e1593a26bcf59fab3c9a8e0", final_draft_sha: "2473f649974ca0aeea8cd38588bbb6d3becd48db", stage_a_used: 1, body_revisions: 0, fix: "predecessor_sha_binding_only", predecessor_ready_blob: "ae7481d927dd54520a048a8ba7dd2745683d5147", predecessor_factual_compatible: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3364

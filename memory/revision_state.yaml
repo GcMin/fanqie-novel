@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 321
+current_chapter: 322
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0321.md
-current_source_sha: 8e6340ff65ccecd5b67a775c5f205bfbfc53b1ee
-current_review_path: reader_reviews/0321_8e6340ff.md
+current_source_path: chapters/draft/0322.md
+current_source_sha: 2473f649974ca0aeea8cd38588bbb6d3becd48db
+current_review_path: reader_reviews/0322_2473f649.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0321_new_sha_reader_qa_candidate
+last_action: audit_0322_rebind_final_321_ready_reader_qa_candidate
 last_action_date: 2026-10-27
 last_error: null
-last_diff_summary: "321初审0/1/2，StageA只修一处先获本人许可再内部免提的损坏句；新SHA独立Pass A/B为0/0/2，内容QA PASS，结构CI精确成功后才更新main ready。"
+last_diff_summary: "322旧稿0/1/2只因绑定321 provisional SHA；核对321原稿到最终ready只有先征同意后内部免提一句正文调整与交付元数据，322内容兼容。Stage A零正文重绑321 ready SHA后新blob独立Reader0/0/2，内容QA PASS，结构精确CI后才可放行。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -42,7 +42,7 @@ combined_audit_final_20261015:
   note: "前版Reader意见只绑定前版SHA；修订后新的Reader报告已存在并通过。"
 
 # source_sha of the final Reader Review refers to original draft; ready differs by metadata fields only.
-current_review_source_sha: 8e6340ff65ccecd5b67a775c5f205bfbfc53b1ee
+current_review_source_sha: 2473f649974ca0aeea8cd38588bbb6d3becd48db
  
 combined_audit_chapter_154:
   stage: local_revision
@@ -1260,4 +1260,23 @@ chapter_321_revision_20261027:
   content_qa: pass
   predecessor_ready_blob: "5896316162afc963a259932ce2c27455cbf2a196"
   predecessor_exact_ready: true
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_322_revision_20261027:
+  chapter: 322
+  original_sha: "cc398cda7f49e8442e1593a26bcf59fab3c9a8e0"
+  initial_review: reader_reviews/0322_cc398cda.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage: local_revision_dependency_rebind_only
+  local_revision_used: 1
+  body_revisions: 0
+  predecessor_original_draft: "5863cc8dae0cdf137f61161684aae3d102f85080"
+  predecessor_final_ready_blob: "ae7481d927dd54520a048a8ba7dd2745683d5147"
+  predecessor_factual_delta: "321仅一处内部免提先征同意的文字修正，其余正文一致"
+  final_draft_sha: "2473f649974ca0aeea8cd38588bbb6d3becd48db"
+  final_review: reader_reviews/0322_2473f649.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  retry_cycles: 0
+  content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

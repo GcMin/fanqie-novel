@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 321
+last_updated_chapter: 322
 characters:
   zhou_heng:
     location: "Day181 20:00，第179次夜班开班"
@@ -1318,3 +1318,15 @@ chapter_321_characters:
   activity_room: "仅知合法公开咨询窗口、拟转交有限本人咨询意愿，不等于档案机构已核原件或准阅2018 A2原卷。"
   main_cast_injuries: none_new
   final_location: "Day183 20:00第181次夜班；封闭旧站东门不向公众开放，旧纸14原印10受控4未收及另2影印受控事实不变。"
+
+chapter_322_characters:
+  chapter: 322
+  source_sha: "2473f649974ca0aeea8cd38588bbb6d3becd48db"
+  timeframe: "Day183 20:31—Day184 20:00"
+  zhou_heng: "Day183 20:31听沈若琴补述背面蓝笔可能是本人后来写的，仅作为她的新陈述而非笔迹鉴定；Day184只收两项公开目录及一项站位申请已收件待审，不自行推断永安里6栋201现实坐标。"
+  xia_ning: "确认中心两张局部照片未授权公众发布，Day184 20:00第182次夜班不把历史页项申请收件误记实际查阅或路线确认。"
+  liang_ce: "Day183 21:22以道路交接证旧站东侧作业口和维修便道仍不开放公众，不把私人纸东门文字对上现行施工编号。"
+  citizen: "沈若琴拒儿子公开父亲修理旧账和完整册，补述背面蓝笔可能是自己写但年份不定；Day184 13:43携单页亲到咨询窗口14:17只做有限咨询登记15:54仅北侧站位与调整日期单项页项申请获收件回执仍待审，原册仍本人保存；由本人决定有限分享给妹妹，不给家庭群全本。"
+  activity_room: "刘玲查得合法公开目录两类，并按本人许可18:02仅回传实际咨询与申请已收节点，陈津拟给历史资料已接收虚假凭条被及时纠正。"
+  main_cast_injuries: none_new
+  final_location: "Day184 20:00第182夜班，两目录可公开查询但未阅旧正文；原错路线14原印10控4未收另2影印各控，旧机制仍待核。"

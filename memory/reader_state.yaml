@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 321
-last_reviewed_title: "旧地图指向一道新铁门"
-last_source_path: chapters/draft/0321.md
-last_source_sha: 8e6340ff65ccecd5b67a775c5f205bfbfc53b1ee
-last_review_path: reader_reviews/0321_8e6340ff.md
+last_reviewed_chapter: 322
+last_reviewed_title: "旧站有两个北口"
+last_source_path: chapters/draft/0322.md
+last_source_sha: 2473f649974ca0aeea8cd38588bbb6d3becd48db
+last_review_path: reader_reviews/0322_2473f649.md
 last_reviewed_at: "2026-10-27"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 320
-depends_on_source_sha: 5896316162afc963a259932ce2c27455cbf2a196
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 5896316162afc963a259932ce2c27455cbf2a196
+depends_on_chapter: 321
+depends_on_source_sha: ae7481d927dd54520a048a8ba7dd2745683d5147
+dependency_status: verified_ready_blob_factual_delta_compatible
+predecessor_current_source_sha: ae7481d927dd54520a048a8ba7dd2745683d5147
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1661,4 +1661,25 @@ chapter_321_reader_20261027:
   depends_on_chapter: 320
   predecessor_ready_blob: "5896316162afc963a259932ce2c27455cbf2a196"
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_322_reader_20261027:
+  chapter: 322
+  original_sha: "cc398cda7f49e8442e1593a26bcf59fab3c9a8e0"
+  original_review: "reader_reviews/0322_cc398cda.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_local_revision_used: 1
+  final_source_sha: "2473f649974ca0aeea8cd38588bbb6d3becd48db"
+  final_review: "reader_reviews/0322_2473f649.md"
+  reviewer_mode: combined_audit_fresh_independent_pass_a_then_b_after_predecessor_rebind
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  required_action: none
+  reader_gate: pass
+  content_qa: pass
+  effective_chars: 3364
+  body_revisions: 0
+  depends_on_chapter: 321
+  predecessor_current_ready_blob: "ae7481d927dd54520a048a8ba7dd2745683d5147"
+  predecessor_factual_delta: "321原draft仅将夏宁先征得同意再开内部免提一句修顺，除元数据外其余正文完全一致，322事态兼容"
+  dependency_status: verified_ready_blob_factual_delta_compatible
   structural_gate: exact_candidate_commit_CI_required

@@ -5,10 +5,10 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - source_main_sha: c7794b82a7485e5f866a653a8e4a6570f96c55d9
-- predecessor_path: chapters/draft/0321.md
+- predecessor_path: chapters/ready/0321.md
 - depends_on_chapter: 321
-- depends_on_source_sha: "5863cc8dae0cdf137f61161684aae3d102f85080"
-- dependency_status: provisional
+- depends_on_source_sha: "ae7481d927dd54520a048a8ba7dd2745683d5147"
+- dependency_status: verified_ready_blob_factual_delta_compatible
 - target_effective_chars: 2600–3400
 - hard_range: 2300–3800
 - count_method: 正文Unicode非空白码点，不含Front Matter
@@ -40,3 +40,9 @@
 - 实际 main HEAD 为 c7794b82a7485e5f866a653a8e4a6570f96c55d9；第153章存在于 published，第321章在 draft，最大章号321，尚无322；直接前章321 draft Git Blob完整SHA=5863cc8dae0cdf137f61161684aae3d102f85080，故必须记录 provisional 而不能视为已确认Canon。
 - 321结尾Day183 20:00第181次夜班、沈若琴只有有限照片及翌日本人可能出示旧纸的意愿，322据此顺推；蓝笔新说法只是她进一步的自述，正文没有将其证实为本人笔迹。
 - 保留第321章图纸作者、年份、原址与当代铁门空间同一性全未证；本章不修改已有章节、长期Memory、QA及发布状态。
+
+## Audit 依赖修订及结果
+- 第322章原稿完整Git blob `cc398cda7f49e8442e1593a26bcf59fab3c9a8e0` 初审Reader 0 BLOCKER / 1 MAJOR / 2 MINOR。唯一MAJOR为仍绑定321临时draft SHA。
+- 实际逐文比较：321原draft blob `5863cc8dae0cdf137f61161684aae3d102f85080` 到最终ready `ae7481d927dd54520a048a8ba7dd2745683d5147` 的正文仅改一处夏宁先征得沈若琴同意后内部免提授权时序，321其余正文事实未改，322叙述完全兼容。其余差异仅交付Front Matter。
+- Stage A 仅重绑前章321最终ready的完整SHA及本详细章纲，**322正文字数3364及所有正文文字未改**。修后完整draft Git blob `2473f649974ca0aeea8cd38588bbb6d3becd48db`，独立全新Reader Pass A/B 0/0/2，Continuity/Style/Meaningful QA PASS。
+- 历史同笔、纸张作者、受保护2018 A2和当前旧站道路权限均不随本次重绑而升级；仅结构精确候选Commit CI真实成功后才可迁入main ready。

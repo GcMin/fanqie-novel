@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 321
+last_updated_chapter: 322
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1000,4 +1000,12 @@ chapter_321_relationships:
   citizen_and_center: "沈若琴坚持身体安全和私人旧册自主处置、拒绝把旧图公开为导航或搜父亲客户；夏宁、梁策只采有权限且来源明确的两张照片和现行道路信息，周衡不利用私人记忆诱导问路者。"
   zhou_and_colleagues: "夏宁Day183问周衡为何不追问6栋，周衡解释来源不得由他代填；团队协作和证据分层纪律继续执行，不作无来源信任分数改动。"
   privacy_consent_boundary: "本人允许限定咨询线索局部图像，不允许未经法定流程公开、传播、寻人或拿走记账册；妹家门牌、旧客户、其他相册未采集。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_322_relationships:
+  chapter: 322
+  source_sha: "2473f649974ca0aeea8cd38588bbb6d3becd48db"
+  citizen_and_center: "沈若琴不同意儿子将旧册及父亲客户账公开、要求对蓝笔可能本人后写的说法保留“可能”，并自主决定仅一项页项申请；周衡/夏宁/梁策与刘玲按来源和机构权限界定，不替她授权公开、捐赠或历史鉴定。"
+  family_boundary: "沈若琴与妹妹有保管、路线解释的讨论，儿子希望网上公开，意见不一致；不能推亲属支持公开或家人愿当历史同笔证人。"
+  center_archive_boundary: "Day184 14:17咨询真实完成不意味着纸本收归机构；15:54单项申请收件只是等待范围审查，工作人员不能代签准阅或鉴真。"
   main_cast_trust_scores_unchanged: true
