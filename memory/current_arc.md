@@ -1,3 +1,6 @@
+# 第317—318章精确结构CI与main放行证据（2026-10-27）
+本轮双章内容QA后候选 Git commit `f19451a8309b586f03e2a7c6d3d667be40491d2e` 在 audit/ready-0317-0318-20261027 分支 GitHub Actions run 40449249254 精确检出该commit，单元测试和 `python -m publisher.check_local --repo .` 均 SUCCESS；仅在成功后以 expected_sha=f5615ed5af44a650653aaf4fa02ed17b20c97e9a、force:false 更新main。主分支同SHA CI run 40449287664 也 SUCCESS；实际ready blobs第317章`1966c52470fab6a351b99ae11209c5952e78fc99`、第318章`be8d5aa082555807aa8742ef4ba71cabc793c074`，旧draft317/318已移除。未发布番茄。审核所用草稿SHA和独立QA证据见下。
+
 # 第317—318章独立 Reader / Revision / QA 与 ARC-054 有界事实（2026-10-27）
 - 第317章草稿完整Git blob `a5dbe2caf019e81b156b2b481f40364b5f7db2f5`，对314—316章及近十章摘要先作独立Pass A，再对Canon/人物/知识/世界/时间线/伏笔做Pass B，Reader最终0 BLOCKER/0 MAJOR/2 MINOR、无正文修订；Continuity/Style/Meaningful独立QA PASS。前章316正式ready SHA `31a4163989730c7ab40d57576b1feca9ee2d5810`精确匹配。317拟ready blob `1966c52470fab6a351b99ae11209c5952e78fc99`仅交付Front Matter变化，正文事件不变。
 - 第318章原draft `c2e128855b3364d2ca7870b2679b815a426fba98` 初独立Reader 0/1/2，唯一MAJOR为仍绑定317临时draft SHA。经核新旧317正文没有差异，Stage A一轮仅重绑318 Front Matter与详细计划，正文不变；新draft blob `39e263636078cfc133f13e6160838bde0fd74cf0` 重新独立Reader Pass A/B为0/0/2，Continuity/Style/Meaningful QA PASS。预计ready blob `be8d5aa082555807aa8742ef4ba71cabc793c074`。两章均必须先经精确候选提交CI真实 `publisher.check_local` 和单测SUCCESS，才允许main以expected_sha、force:false更新。

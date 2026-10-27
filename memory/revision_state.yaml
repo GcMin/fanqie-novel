@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 318
-current_stage: structural_gate_pending
+current_stage: ready_released_ci_verified
 current_source_path: chapters/draft/0318.md
 current_source_sha: 39e263636078cfc133f13e6160838bde0fd74cf0
 current_review_path: reader_reviews/0318_39e26363.md
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_317_318_stage_a_dependency_rebind_reader_qa
+last_action: audit_317_318_ready_released_ci_verified
 last_action_date: 2026-10-27
 last_error: null
-last_diff_summary: "317正文无修改，Reader0/0/2；318原draft错绑317 provisional，经实核317只交付元数据变化Stage A只改前章依赖，无正文改，318新blob39e263636078cfc133f13e6160838bde0fd74cf0独立双遍Reader0/0/2；两章独立内容QA PASS，候选精确CI结构仍需确认。"
+last_diff_summary: "317正文零修订Reader0/0/2；318前章仅交付元数据变化，Stage A重绑依赖，正文0改，新SHA独立Reader0/0/2；两章内容QA PASS，候选commit f19451a8309b586f03e2a7c6d3d667be40491d2e CI run40449249254 SUCCESS后才以expected_sha、force:false实际更新main；main run40449287664亦SUCCESS。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1201,3 +1201,19 @@ chapter_318_revision_20261027:
   structural_gate: exact_candidate_commit_CI_required
   retry_cycles: 0
 undefined
+
+audit_317_318_release_evidence_20261027:
+  ready_chapters: [317, 318]
+  candidate_and_main_commit: "f19451a8309b586f03e2a7c6d3d667be40491d2e"
+  exact_candidate_ci_run: 40449249254
+  exact_main_ci_run: 40449287664
+  candidate_ci: success
+  main_ci: success
+  unit_tests: success
+  structure_check: "python -m publisher.check_local --repo ."
+  structure_status: success
+  branch_update: "expected_sha_nonforce_main_success"
+  chapter_317_ready_blob: "1966c52470fab6a351b99ae11209c5952e78fc99"
+  chapter_318_ready_blob: "be8d5aa082555807aa8742ef4ba71cabc793c074"
+  blocked_chapters: []
+  note: "番茄平台未发布，两个定时任务均未修改。"
