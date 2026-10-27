@@ -1,2 +1,2 @@
-# 最近独立QA：第330章（2026-10-28）
-第330章草稿Git blob `3fda919017625e05c5a3afb569c76f91056ebeb6` 独立Reader Pass A→Pass B得0 BLOCKER/0 MAJOR/2 MINOR，正文0修；Continuity/Style/Meaningful QA内容PASS，有效3223字。前329正式ready `1fbc79d4b77025da7884c6d77100ba93eda40e5d` 精确匹配；公交真实本人登记而失物未找到，第三方本条两个入口更正有源核实但其它缓存未知。详见 `reader_reviews/0330_3fda9190.md`、`qa/0330_report.md`；不能在精确候选commit真实CI成功前把内容QA等同结构已通过。
+# 最近独立QA：第332—333章（2026-10-28）
+332当前原稿 `000098f39120f15ab232301e17b919270111fe5c` Reader 0/0/2、正文0修、Continuity/Style/Meaningful PASS，3362字，拟ready `59323f7256998cbca157d3f862f940c4520d37e6`，前331正式依赖精确一致。333原稿`b3b392b4...`Reader 0/1/2，唯一MAJOR是前332 provisional依赖，Stage A仅重绑332拟ready SHA并同步计划，正文不改；新333草稿`f1df8406e099d573efbf86627cc9cc50a7d5e195`独立Reader复审0/0/2，内容QA三项PASS，3241字。332坡道真复开及第二台真打完整受理待核纸，首机仍待修；333吴芩真正阅大字告知且专业水电修复后返屋，门岗代收错映只改本笔，不证1996旧人真收讯。详见`qa/0332_report.md`、`qa/0333_report.md`；结构门槛必须由精确候选commit真实CI核实。

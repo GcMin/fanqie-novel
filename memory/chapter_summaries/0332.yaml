@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 332
+title: "开着的自助厅，轮椅进不去"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "000098f39120f15ab232301e17b919270111fe5c"
+reader_review: reader_reviews/0332_000098f3.md
+depends_on_chapter: 331
+depends_on_source_sha: "46786b52839694286080b236f83e5f691d7082ef"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day193 20:34—Day194 20:00，第191/192次夜班"
+summary: >-
+  Day193 20:34高珏电动轮椅无法经春桥路自助厅原坡道进入，四墩和防滑未收边真实隔离、正门三级台阶不可达，19:40系统施工完成不代表专业验收。20:41她安全在外求夜间中心核实际路线，拒抬抱和账号代操作；20:52物业核未验，21:03梁策合法公众侧查看。21:16郭主管有责查北侧设备侧门及侧廊，21:37仅批准有值守人员扶自闭门的临时协助通路，公开提示不冒称独立无障碍入口修好；21:52高珏首台打印机亮成功却实纸缺末行，22:07运营方实核导槽偏移并停用该机；22:16她在第二台真正打印两页完整线上受理待核清单，22:25在值守协助扶门下安全自行驶出。Day194 10:42坡道首次专业复验失败要返工，15:19重新专业检查，15:46有权设施岗才准撤四只隔离墩恢复坡道，16:12改现场引导；傍晚高珏本人自愿轮椅独立来回一次只是当次个人反馈。20:00第192次夜班，原坡道真实复开，首台机器仍停用待修，完整受理清单已取得但次日上午街道业务审批结果未证。白榆旧东工门和维修道公众禁入、沈父私人旧册妹妹家、旧错红章14原印10受控4未收另两影印分控不变；2002历史自然人获答、1996旧受理席本人收回复、2018 A2同笔、F008/M004/M005不因此确证。
+meaningful_state_changes:
+  - "高珏Day193 22:16本人取得两页完整清单，而街道申请仅受理待核，未取得审批结论。"
+  - "Day194 10:42原坡道初复验失败后返工，15:46有权机构解除隔离真正恢复独立通路。"
+  - "第一台显示打印成功却出纸缺末行，22:07真停机；第二台真可打印，第一台维修未知。"
+knowledge_updates:
+  - "施工完成绿标、临时有人扶门条件的可入、专业复验合格的独立无障碍通路是不同状态。"
+  - "设备自称打印成功、确实打印完整受理清单和业务审批通过也是不同状态。"
+foreshadowing_updates:
+  - "F003只有现代当事人真实可用事实对历史私人真获答的证据边界，不新增旧档或异常机制确证，F008/M004/M005不变。"
+relationship_updates:
+  - "高珏自行决定身体协助边界和账号隐私，郭主管和中心尊重自主通行，不让她签专业验收。"
+ending_state: "Day194 20:00第192夜班，高珏已取得完整待核清单、春桥路坡道专业确认复开、第一台机器仍停用，申请实际审批未知，白榆旧门禁行不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "000098f39120f15ab232301e17b919270111fe5c", final_draft_sha: "000098f39120f15ab232301e17b919270111fe5c", body_revisions: 0, reviews_this_cycle: 1, predecessor_ready_blob: "46786b52839694286080b236f83e5f691d7082ef", predecessor_original_draft_sha: "154965fd9096d137133041b82c7a159a5691ecf6", predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3362

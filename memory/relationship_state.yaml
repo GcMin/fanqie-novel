@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 331
+last_updated_chapter: 333
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1072,4 +1072,18 @@ chapter_331_relationships:
   citizen_and_center: "饶只向中心限项通报候选未核及随后有凭据的本人签领、补件收件；中心不收母亲签字或替运营、房屋单位批准。"
   family_boundary: "母亲可讨论重签，但饶先依法寻找原件与确认补正程序，原件未向家庭群公开。"
   third_party_privacy: "另一位寻同色帆布袋女士需独立登记核验，左袋未向任何候选人直接交付或泄露内物。"
+  main_cast_trust_scores_unchanged: true
+
+chapter_332_relationships:
+  chapter: 332
+  source_sha: "000098f39120f15ab232301e17b919270111fe5c"
+  citizen_and_center: "高珏要求能自主安全出入和取得自己纸件，拒绝被人抬抱、代碰轮椅方向杆或账号；夏宁与周衡只按授权沟通，不用个人隐私做工作流程展示。"
+  facility_boundary: "郭主管、保安、运营值守、专业坡道维护方分别只负责自有权限；临时扶门协助不能替专业独立通行合格，用户实走不得代专业验收。"
+  main_cast_trust_scores_unchanged: true
+chapter_333_relationships:
+  chapter: 333
+  source_sha: "f1df8406e099d573efbf86627cc9cc50a7d5e195"
+  citizen_and_center: "吴芩助听器失电并不失去决定权；蒋瑛协助以手机大字通信、临时收留，吴只自己确认与签收；中心不以门岗代收冒充住户知悉。"
+  facility_boundary: "物业须保留原代收签名并更正错映、送本人可读告知，电水专业验证安全，吴本人不替专业处置签验收或满意。"
+  privacy: "吴只同意本笔内部保存脱敏两回执对照，不公开楼群或新联系方式；本人相册内容不外传。"
   main_cast_trust_scores_unchanged: true

@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 333
+title: "值班室签了收，楼上的人还不知道"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "b3b392b4041483e6d6187d43d2f2ef21a9b60430"
+source_draft_sha: "f1df8406e099d573efbf86627cc9cc50a7d5e195"
+initial_review: reader_reviews/0333_b3b392b4.md
+reader_review: reader_reviews/0333_f1df8406.md
+depends_on_chapter: 332
+depends_on_source_sha: "59323f7256998cbca157d3f862f940c4520d37e6"
+dependency_status: verified_predecessor_metadata_only_factual_compatible
+timeframe: "Day194 20:29—Day195 20:00，第192/193次夜班"
+summary: >-
+  Day194 20:29莲塘街六号楼四楼吴芩家漏水已蔓至顶灯附近，助听器电池失效，邻居蒋瑛协助退到干燥楼道，20:37向夏宁报告；夏宁请蒋用手机大字询问吴本人、取得她同意联系物业但暂不许擅入房间。周衡查明Day194 17:56纸件仅经一楼门岗代收并置待取格，却被错记“住户已知悉”，未证明吴看到。21:05梁策只在公共楼道核险不越权，吴自主选择暂住邻居蒋瑛家；21:23电气与供水有责岗位分别隔离受潮回路和疑似漏水支路，不宣称已修好。22:06物业准备的“故障已处理”误词被改分已隔离、待查修和待住户知，22:28大字安全告知真实由吴本人读懂签收，不代签下午旧纸或满意。Day195 10:11有权人员核上层连接密封失效12:06修后分段试水不再漏，但电气回路继续停用；14:58检受潮电气15:22专业复核，15:46设施有权者才解除吴指定房间限制，16:18吴本人真回屋拿相册并自述当刻无新滴水。17:34物业只纠本笔“住户已知悉”错值、保留原门岗签和短信时间，记录22:28及当日新通知两次本人实收，不代表全楼知悉。Day195 20:00第193夜班，门岗代收与本人可读真收分证，水电修复与房屋使用限制各自有权复核。1996普通照明旧原受理席纸面“结果收讫”仍不证原报修人历史真实收答；沈父原册妹妹家、白榆旧东门禁公众，F008/M004/M005不证。
+meaningful_state_changes:
+  - "吴芩先受住户已知悉误报，Day194 22:28真正本人读大字安全告知，Day195再实阅专业解除限制纸件。"
+  - "Day194 21:23仅水电安全隔离，到Day195 12:06真修漏、15:22真复核电气、15:46正式解该户禁入，16:18本人真返屋取回相册。"
+  - "Day195 17:34有权物业保留原一楼代收签和源发送时间，只纠本笔错误的住户已知悉映射，未把旧通知倒签。"
+knowledge_updates:
+  - "一楼门岗代收与听力受限住户本人按可读文字确收不等价；邻居可协助传字不可代签或代决定。"
+  - "水路支路关闭、查出漏点并试水、受潮电气复核和物业正式解除该户限制各须独立证据。"
+foreshadowing_updates:
+  - "1996普通照明原受理席结果收讫只是旧岗位收文，不能由今案真人确认倒推当年报修人真收答、2018 A2同笔或历史异常机制；F003证据边界保留。"
+relationship_updates:
+  - "吴芩以可读大字表达自己的通行与回屋意愿，蒋瑛帮写不代答签，中心和物业按本人可理解的通知渠道处理。"
+ending_state: "Day195 20:00第193夜班，吴芩已实阅两项本次告知、专业水电和有权设施核明该户复用并本人真回房，门岗旧代收与本人真收分栏且本笔误映已改；1996旧人是否真听回复依然未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "b3b392b4041483e6d6187d43d2f2ef21a9b60430", final_draft_sha: "f1df8406e099d573efbf86627cc9cc50a7d5e195", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, fix: "predecessor_ready_sha_rebind_only", predecessor_original_draft_sha: "000098f39120f15ab232301e17b919270111fe5c", predecessor_ready_blob: "59323f7256998cbca157d3f862f940c4520d37e6", predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3241

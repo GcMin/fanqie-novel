@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 331
-last_reviewed_title: "两只相似的包，只有一只属于她"
-last_source_path: chapters/draft/0331.md
-last_source_sha: 154965fd9096d137133041b82c7a159a5691ecf6
-last_review_path: reader_reviews/0331_154965fd.md
+last_reviewed_chapter: 333
+last_reviewed_title: "值班室签了收，楼上的人还不知道"
+last_source_path: chapters/draft/0333.md
+last_source_sha: f1df8406e099d573efbf86627cc9cc50a7d5e195
+last_review_path: reader_reviews/0333_f1df8406.md
 last_reviewed_at: "2026-10-28"
 reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 330
-depends_on_source_sha: dab68eb124699e65d4eff202ef5918c424629494
+depends_on_chapter: 332
+depends_on_source_sha: 59323f7256998cbca157d3f862f940c4520d37e6
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: dab68eb124699e65d4eff202ef5918c424629494
+predecessor_current_source_sha: 59323f7256998cbca157d3f862f940c4520d37e6
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1842,4 +1842,46 @@ chapter_331_reader_20261028:
   predecessor_original_draft_blob: "3fda919017625e05c5a3afb569c76f91056ebeb6"
   predecessor_body_identical: true
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_332_reader_20261028:
+  chapter: 332
+  source_sha: "000098f39120f15ab232301e17b919270111fe5c"
+  review_path: reader_reviews/0332_000098f3.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_draft_blob
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  content_qa: pass
+  effective_chars: 3362
+  body_revisions: 0
+  depends_on_chapter: 331
+  predecessor_ready_blob: "46786b52839694286080b236f83e5f691d7082ef"
+  predecessor_original_draft_blob: "154965fd9096d137133041b82c7a159a5691ecf6"
+  predecessor_body_identical: true
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_commit_CI_required
+chapter_333_reader_20261028:
+  chapter: 333
+  original_sha: "b3b392b4041483e6d6187d43d2f2ef21a9b60430"
+  initial_review: reader_reviews/0333_b3b392b4.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "f1df8406e099d573efbf86627cc9cc50a7d5e195"
+  review_path: reader_reviews/0333_f1df8406.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_revised_draft_blob
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  content_qa: pass
+  effective_chars: 3241
+  stage_a_used: 1
+  body_revisions: 0
+  corrected_fields: [depends_on_source_sha, dependency_status, chapter_0333_plan_predecessor]
+  depends_on_chapter: 332
+  predecessor_original_draft_blob: "000098f39120f15ab232301e17b919270111fe5c"
+  predecessor_ready_blob: "59323f7256998cbca157d3f862f940c4520d37e6"
+  predecessor_body_identical: true
+  dependency_status: verified_predecessor_metadata_only_factual_compatible
   structural_gate: exact_candidate_commit_CI_required

@@ -5,10 +5,10 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - source_main_sha: d134db5eea4fd7d4c485ed881b41187480ec1a1e
-- predecessor_path: chapters/draft/0332.md
+- predecessor_path: chapters/ready/0332.md
 - depends_on_chapter: 332
-- depends_on_source_sha: "000098f39120f15ab232301e17b919270111fe5c"
-- dependency_status: provisional
+- depends_on_source_sha: "59323f7256998cbca157d3f862f940c4520d37e6"
+- dependency_status: verified_predecessor_metadata_only_factual_compatible
 - dependency_facts_used: "第332章尚未审核；临时借用其Day194 20:00第192次夜班接班时点，以及春桥路高珏已真实取得完整打印清单、坡道已由有权岗位修复复开但故障打印机仍停用的草稿状态；不可据此推成正式Canon。本章不引用该案的后续审批结果。"
 - target_effective_chars: 2600–3400
 - hard_range: 2300–3800
@@ -46,3 +46,7 @@
 - 已按AGENTS、novel.yaml、writing_roles、ai_reading_protocol、四Bible、三主角人物卡、当前可读volume_05与outlines/arcs/arc_current、现行ARC-054在memory/current_arc、四类人物/关系/知识/世界状态、F003/F008伏笔及时间线、最近322—331十章摘要、328—331 ready及332 draft五章正文取材；不读取历史reader_reviews。
 - 当前仓库卷/arc静态文件部分滞后于第六卷ARC-054，以已核近期ready、当前Memory、直接前章草稿来源标记为准；332 draft Blob 000098f39120f15ab232301e17b919270111fe5c，dependency_status为provisional。若332今后修订，本章须由独立Audit核对具体事实兼容性。
 - 只原子新增plans/chapter_0333_plan.md和chapters/draft/0333.md，绝不修改旧章、长期Memory、审核或发布；主分支更新必须expected_sha、force:false。
+
+## Audit Stage A 前章依赖事实核验（2026-10-28）
+- 前章332原草稿 blob `000098f39120f15ab232301e17b919270111fe5c` 已经独立 Reader 0 BLOCKER / 0 MAJOR 并在候选 ready 中只变更 status/qa/approved_at/publish_mode Front Matter，剥除 Front Matter 的小说正文逐字一致。
+- 332最终拟ready blob `59323f7256998cbca157d3f862f940c4520d37e6` 与本章修订后的前章依赖精确一致；332 Day194 20:00第192夜班及已取得完整清单/坡道真复开/首台机仍待修的结尾事实未变，本章Day194 20:29安全接续。第333章正文未做任何修订，仅修正前章来源SHA和dependency_status，并对新333 blob重新进行独立 Reader 两遍审查。
