@@ -1,7 +1,7 @@
 # 第320章独立 Continuity / Style / Meaningful QA（2026-10-27）
 
 ## 实际源与形式
-草稿 `chapters/draft/0320.md` Git blob `6fb9505d0100ea09a08d1cfafd9ae4f248f0c392`。Front Matter章320、标题《路灯在屏幕上亮着》（9个非空白汉字）、卷6、ARC-054均与`plans/chapter_0320_plan.md`一致。正文按非空白Unicode码点统计为**2897**，落在硬范围2300—3800和优选2600—3400内；没有混用章节序号标题；原稿不改正文、不改Front Matter源字段。先后独立Reader Pass A、B审查 `reader_reviews/0320_6fb9505d.md`，BLOCKER0 MAJOR0 MINOR2、fix_required none。
+草稿 `chapters/draft/0320.md` Git blob `6fb9505d0100ea09a08d1cfafd9ae4f248f0c392`。Front Matter章320、标题《路灯在屏幕上亮着》（8个非空白汉字）、卷6、ARC-054均与`plans/chapter_0320_plan.md`一致。正文按非空白Unicode码点统计为**2897**，落在硬范围2300—3800和优选2600—3400内；没有混用章节序号标题；原稿不改正文、不改Front Matter源字段。先后独立Reader Pass A、B审查 `reader_reviews/0320_6fb9505d.md`，BLOCKER0 MAJOR0 MINOR2、fix_required none。
 
 ## Continuity QA：PASS（仅内容门禁）
 - 319最后Day181 20:00第179夜班接路灯来话；320 Day181 20:17魏荞报南湾路西口NW-06灯下公众暗段，20:36控制柜回路在线不等于单灯发光，20:58梁策从公众区观察，21:24道路与专业人员按责设置有限警示。
