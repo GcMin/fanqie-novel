@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 310
+last_updated_chapter: 313
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -929,3 +929,11 @@ chapter_312_relationships:
   liu_ling_and_chen_jin: "刘玲取代匿名机器队列成为首笔真实已听的责任收件人，按权限落实日间首轮及替岗交接，陈津旧无人签百分百表原样保留不事后填真。"
   main_cast_trust_scores_unchanged: true
   privacy_consent_boundary: "不索廖珊雇主、其他住户身份或陌生险滑老人家址，不批量访问全月录音和私人通讯录，也不以本案推断历史留言已获答。"
+
+chapter_313_relationships:
+  chapter: 313
+  source_sha: "b734e791f95f9fbe47edcc2c4250661751496792"
+  citizen_and_center: "许荟拒绝让中心读取单位排班与其它私人消息、拒自行点击不明短链接及被代填评价，夏宁只收同意截图、按权联络确认一笔短信，不把匿名更多通知认成已查。" 
+  liu_ling_and_chen_jin: "陈津保留未签旧表和已发错误来源，不以烧表或统一翻红抹历史；刘玲承认旧统计产生额外伤害，只就许荟这一笔真人回告及获准书面说明，未替别的来话人认收。"
+  main_cast_trust_scores_unchanged: true
+  privacy_consent_boundary: "只核许荟本笔及关联任务源，不导全月其它号码，不给其真人回话补旧时点，不推已发短信全部到达或后续历史任务全部清理。"

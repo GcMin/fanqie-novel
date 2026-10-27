@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 312
+current_chapter: 313
 current_stage: structural_gate_pending
-current_source_path: chapters/draft/0312.md
-current_source_sha: cc8640ab4cb9f5cbffea6f40bd0ee3bcfda4929f
-current_review_path: reader_reviews/0312_cc8640ab.md
+current_source_path: chapters/draft/0313.md
+current_source_sha: b734e791f95f9fbe47edcc2c4250661751496792
+current_review_path: reader_reviews/0313_b734e791.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_312_no_body_revision_independent_reader_qa
+last_action: audit_313_no_body_revision_independent_reader_qa
 last_action_date: 2026-10-27
 last_error: null
-last_diff_summary: "第312章原稿cc8640ab字数3193；最新独立Reader两遍0 BLOCKER、0 MAJOR、2 MINOR不改正文；Continuity/Style/Meaningful QA PASS，311最终ready Git Blob精确匹配，结构放行待本轮候选精确CI核验。"
+last_diff_summary: "313原稿b734e791有效3357字，独立Reader双遍0/0/2，正文零修改，Continuity/Style/Meaningful PASS，312最终ready Blob精确匹配；结构放行需精确候选Git commit CI成功。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1100,6 +1100,19 @@ chapter_312_revision_20261027:
   rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
   body_revisions: 0
   predecessor_ready_blob: "9ea74c069068c861be906d8b1cfef719638a7de2"
+  predecessor_exact_ready: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_313_revision_20261027:
+  chapter: 313
+  original_sha: "b734e791f95f9fbe47edcc2c4250661751496792"
+  final_sha: "b734e791f95f9fbe47edcc2c4250661751496792"
+  final_review: "reader_reviews/0313_b734e791.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "f79903f7db0cf08f8994ef42442683b83b2dc61e"
   predecessor_exact_ready: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

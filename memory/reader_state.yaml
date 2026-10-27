@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 312
-last_reviewed_title: 留言收下了，谁负责听见
-last_source_path: chapters/draft/0312.md
-last_source_sha: cc8640ab4cb9f5cbffea6f40bd0ee3bcfda4929f
-last_review_path: reader_reviews/0312_cc8640ab.md
+last_reviewed_chapter: 313
+last_reviewed_title: 那张旧绿勾，又发出一条短信
+last_source_path: chapters/draft/0313.md
+last_source_sha: b734e791f95f9fbe47edcc2c4250661751496792
+last_review_path: reader_reviews/0313_b734e791.md
 last_reviewed_at: "2026-10-27"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 311
-depends_on_source_sha: 9ea74c069068c861be906d8b1cfef719638a7de2
+depends_on_chapter: 312
+depends_on_source_sha: f79903f7db0cf08f8994ef42442683b83b2dc61e
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 9ea74c069068c861be906d8b1cfef719638a7de2
+predecessor_current_source_sha: f79903f7db0cf08f8994ef42442683b83b2dc61e
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1492,4 +1492,23 @@ chapter_312_reader_20261027:
   predecessor_ready_blob: "9ea74c069068c861be906d8b1cfef719638a7de2"
   dependency_status: verified_exact_ready_blob
   body_revisions: 0
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_313_20261027:
+  chapter: 313
+  title: "那张旧绿勾，又发出一条短信"
+  source_path: chapters/draft/0313.md
+  source_sha: "b734e791f95f9fbe47edcc2c4250661751496792"
+  review_path: "reader_reviews/0313_b734e791.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  content_qa: pass
+  depends_on_chapter: 312
+  predecessor_ready_blob_sha: "f79903f7db0cf08f8994ef42442683b83b2dc61e"
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_commit_CI_required

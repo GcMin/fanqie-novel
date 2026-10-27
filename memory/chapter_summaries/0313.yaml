@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 313
+title: "那张旧绿勾，又发出一条短信"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "b734e791f95f9fbe47edcc2c4250661751496792"
+source_draft_sha: "b734e791f95f9fbe47edcc2c4250661751496792"
+reader_review: "reader_reviews/0313_b734e791.md"
+depends_on_chapter: 312
+depends_on_source_sha: "f79903f7db0cf08f8994ef42442683b83b2dc61e"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day174 20:31—Day175 20:00，第172/173次夜班交接"
+summary: >-
+  Day174 20:31许荟在商场后场收到以西巷活动室名义称其便民事项“已处理完毕”的满意度短信，本人有界截屏拒点短链接，真实早在Day166 19:41留过封桥错图警告、机器19:42错误绿勾、Day172 12:48才本笔纠正且14:13刘玲真回拨。20:53夏宁通过活动室公开渠道报陈津，21:17有权夜维仅限本短信确认官方通知模板及Day174 20:28提交、20:31网关投递，不推其他人的接收或点击。21:42有权管理人准暂停旧统计快照关联的下一批待发，不撤已发不停正常真人回拨。Day175 08:00夜班交白班，09:21号码岗获准只核许荟本人及外发任务源，确认Day167清晨冻结统计仍取Day166机器“自助流程结束”的错误办结值，后来Day172单笔更正未进入冻结任务名单；10:47有权仅确认这一条因果，11:34正式不得继续凭该快照自动邀评但不改历史绿勾。13:08隔离测试“无真人接听不发满意邀请、真人回告后才进入可评价条件”达预期而未获准生产上线。15:06刘玲按许荟许可真回话、记她拒评价邀请，16:28仅发本人一笔有限日期事实说明、16:41本人真收到。Day175 20:00第173夜班接，待发任务仍按权暂停、未知别的人是否曾收到及生产修复待验。旧错路线14张原印8受控6未收、另2复制件分别受控，62路Day165 13:20起新站合法，锁天桥与卸货口公众仍禁。1996旧岗位收讫不证旧报修人真人获回告，2018 A2旧档同笔、F008新记忆反证及M004/M005未确认。
+meaningful_state_changes:
+  - "确认Day174本笔误发短信源自Day167冻结的旧错误绿色统计经另一自动外发链触发，留网关与本人实见分证。"
+  - "Day174 21:42有权暂停关联旧快照下一批待发、Day175 11:34确认禁再据旧快照外发，隔离测试不是生产修复。"
+  - "Day175 16:41许荟本人真实收到只关于自己的一笔原留言、误标、真人回话及误发通知的有限事实书面说明，并拒再被发评价邀请。"
+knowledge_updates:
+  - "旧机器误标即便已经单笔纠错，历史冻结快照及下游通知仍会继续传播旧值；原统计表无人签字不等于后台任务未外发。"
+  - "已发/网关投递/本人阅读、冻结待发/隔离测试/生产部署、人工听原音/报话人真获答复分别证据化。"
+foreshadowing_updates:
+  - "当代下游误发只解释现代普通通知链，不证明1996旧人真人收到结果、2018两册同笔或M004/M005旧异常；F008无新可靠样本。"
+relationship_updates:
+  - "许荟限制采集其它私人信息，刘玲承认误发、实际送本人说明，陈津承认纸面未签无法停止后台外发；主角关系分数无新调整。"
+ending_state: "Day175 20:00第173次夜班，源自旧快照的待发任务暂停而历史总影响及生产修正未证；许荟真得书面说明，旧错路线纸8控6未收另2复制件各控。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "b734e791f95f9fbe47edcc2c4250661751496792", final_draft_sha: "b734e791f95f9fbe47edcc2c4250661751496792", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "f79903f7db0cf08f8994ef42442683b83b2dc61e", predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3357
