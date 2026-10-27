@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 320
+title: "路灯在屏幕上亮着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "6fb9505d0100ea09a08d1cfafd9ae4f248f0c392"
+reader_review: "reader_reviews/0320_6fb9505d.md"
+depends_on_chapter: 319
+depends_on_source_sha: "4fd404dd9332d56d79ad97af94a524102d9c6fda"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day181 20:17—Day182 20:00，第179/180次夜班"
+summary: >-
+  Day181 20:17魏荞报南湾路菜市场西口NW-06路灯下公众步道暗处高差风险。20:36控制柜回路在线不能证明单灯有光，20:58梁策只从安全公众侧核位置及实际不亮，21:24道路与照明专业岗分别合法警示、引导行人。22:09专业按安全条件架临时照明，NW-06固定灯未修；22:28单笔绿卡将临时保障完成误汇总为灯具已修，23:04专业初判驱动异常，需日间审料。Day182 00:12魏荞只反馈本人第二次经过临照与安全路，08:00夜交白班；09:16确认汇总页丢失措施类型，11:08授权保存旧证、单笔补示“临时保障中设备待修”，将整体模板改造正式提交评估而非宣称生产端已改好。13:07专业许可下换件，14:22仅日间功能试亮；19:13维护和道路岗位在真正夜色分别实核，19:32依法撤针对暗段的临时警示，19:45魏荞自愿证本人此次推筐能见路沿。20:00第180次夜班交接五类有源时点，维修端单笔纠错但全模板待批。旧14张红章原印10受控4未收、另2影印独立受控；企业薪资及1996/2018历史证据均未凭普通灯案改变。
+meaningful_state_changes:
+  - "Day181公众暗段有责警示和临时照明；Day182合法换件并经19:13实际夜间复验、19:32撤针对暗段限行，公众风险有限闭环。"
+  - "证明临时保障被汇总绿卡丢类型误读成固定灯已修，Day182 11:08对本笔保源纠偏，模板全局改造仅提交评估。"
+  - "魏荞仅自愿证明本人两次经过的有限事实，不被要求作专业照度测量、道路安全签认或代填满意。"
+knowledge_updates:
+  - "控制柜供电在线、临时照明保障、专业日间试亮、实际夜间环境复核、本人有限通过有不同来源及时间。"
+  - "NW-06专业诊断驱动组件异常，旧件被留作进一步检测，具体损坏根因未从本笔修复自动确定。"
+foreshadowing_updates:
+  - "本章只证当代普通路灯和显示汇总差错，F003历史1996岗位收讫不证旧本人实际获答，2018 A2同笔、F008可靠新记忆、M004/M005旧机制均未确认；F009/F010/F011继续resolved。"
+relationship_updates:
+  - "魏荞不留雇主单位做长期回访地址，不替市政指路或代签安全满意；中心和专业道路、照明人员各守职责和真实时间。"
+ending_state: "Day182 20:00第180夜班；NW-06已专业更换和夜色复验，有权撤公众暗段警示，本笔绿卡补真实措施而模板整体规则未生效；旧14原印10控4未收另2复制独立控，企业薪资待处理。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6fb9505d0100ea09a08d1cfafd9ae4f248f0c392", final_draft_sha: "6fb9505d0100ea09a08d1cfafd9ae4f248f0c392", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "4fd404dd9332d56d79ad97af94a524102d9c6fda", predecessor_factual_compatible: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2897
