@@ -5,10 +5,10 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - source_main_sha: a41d9a037d423aa8ee79964c58127360cbf80d0d
-- predecessor_path: chapters/draft/0346.md
+- predecessor_path: chapters/ready/0346.md
 - depends_on_chapter: 346
-- depends_on_source_sha: "dcd382d990b539c301bbb087f9fdb078b7a29cb0"
-- dependency_status: provisional
+- depends_on_source_sha: "bd2b18094550ce9ee7499703b3a14e73c2b9d47e"
+- dependency_status: verified_predecessor_factual_delta_compatible
 - dependency_facts_used: "第346章为未审草稿，仅临时引用Day208 20:00第206次夜班开班；新禾巷九号院南车库出口Day208 12:23由有责管理岗恢复使用，陶菲得真实时间说明而工资结果未知，院内夜间转派路由仅限该路径更正；白榆路旧站东工门及维修便道禁公众，设施方新柜窄铁片Day207有权单件续存至Day215 16:00，Day211中午前环境复查与Day214 15:00前后续建议均未实际发生；原印旧错路图14张10受控4未收两影印独立保管；2011照片形似不能证现存窄片独立同件、红字作者或沈家私册同源。"
 - target_effective_chars: 2600-3400
 - hard_range: 2300-3800
@@ -43,3 +43,7 @@
 - 本轮真实连接GitHub，读取main最新AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、bible四份硬Canon与三主角卡、静态volume_05和arc_current（均早于现实卷六剧情）、长期memory的角色/关系/知识/世界/伏笔/时间线、chapter_plan.csv、最近0336—0345十章摘要与0342—0346五章完整正文；未读取历史reader_reviews。
 - 从published、ready、draft三目录的真实Git tree核得第153章已存在，最大章号346，347章正文和章纲目标文件均不存在。第346章是未经独立审核的draft Git blob `dcd382d990b539c301bbb087f9fdb078b7a29cb0`，因此本章依赖标记provisional，不把它擢升为正式Canon。
 - 不代替独立Reader/Revision/QA/Memory/Publish Gate。本轮只新增这两份文件，不改现存任何章节/状态。提交须基于读取到的main SHA建立Git tree+单parent commit，以expected_sha和force:false更新main，并核对远端。
+
+## Audit 修订与核验（2026-10-28）
+- Writer最初临时依赖预检留在历史段落；前章346从原草稿`dcd382d990b539c301bbb087f9fdb078b7a29cb0`到独立审核草稿`2da21f87d8b1aa39b60e69012a740e87c79ca38c`再到正式ready`bd2b18094550ce9ee7499703b3a14e73c2b9d47e`，实际小说事实只变Day207首次接听时间和相对间隔；Day208 12:23南口复行、20:00接班未变，所以当前章所据事实兼容，重绑正式ready SHA。
+- 第347章初draft`f1ef03071b2c0d5ac2030eac843b7fa2e5fa137b`独立Reader 0/2/2，Stage A把Day208开篇“昨天的实测恢复”纠正为“今天的实测恢复”并重绑依赖，新draft`23b1b72ddd5e5ae13e50281ef2b1efd9ffde00a9`重新独立双遍Reader 0/0/2，内容QA PASS，3033字；须精确候选CI通过才可ready。

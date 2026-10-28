@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 347
+title: "借来的电话，不该替她接回话"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "f1ef03071b2c0d5ac2030eac843b7fa2e5fa137b"
+source_draft_sha: "23b1b72ddd5e5ae13e50281ef2b1efd9ffde00a9"
+initial_review: reader_reviews/0347_f1ef0307.md
+reader_review: reader_reviews/0347_23b1b72d.md
+depends_on_chapter: 346
+depends_on_source_sha: "bd2b18094550ce9ee7499703b3a14e73c2b9d47e"
+dependency_status: verified_predecessor_factual_delta_compatible
+timeframe: "Day208 20:07—Day209 20:00，第206/207次夜班"
+summary: >-
+  Day208 20:07鹭华巷二十四号排水篦子松动报险由贺葵借店内公用座机发起且明确不授权对该号码回拨，周衡夏宁按公共危险与本人联系权限分开转有责道路巡查。20:23闻师傅到现场核雨水管下第二块格栅固定座松螺母并在20:41设围护，张姐接到伪装为正常调度的错误回拨；有责道路岗核实自动把店内号带入回访位而不回拨备注被折叠，保留拨号/短信流水且移除错误目标。21:16养护发现受力框孔扩大，22:09只做安全临时盖护并保持围隔，未签永久换框。Day209 09:12复核临盖后按专业工序换受力框格栅，11:26有责巡查复核固定承托排水与公众步行才解除围护；13:00仅本笔回拨路径已更正，别的系统未核。18:34贺葵自愿来电确认本人报险和现场处置，不向中心留私人号码；中心不得透过张姐追其工作去向。20:00第207次夜班；白榆旧窄片仍原封至Day215 16:00且Day211/14待办未完成。
+meaningful_state_changes:
+  - "鹭华巷松脱格栅从即时公众危险，经围隔/临时安全处置到次日专业换框并有责验收恢复。"
+  - "借来的店号被自动错作回拨目标的本条转办错误已纠并留原流水，报险人明确自主选择不留私人号。"
+knowledge_updates:
+  - "中心/道路岗知道公用电话号码不是报险人同意的回拨联系授权；贺葵本人愿提供险情和后来自愿询问不等于接受追索身份。"
+foreshadowing_updates:
+  - "F003白榆物料保管期限及旧证据边界不变，F008/M004/M005无新增有源证明。"
+relationship_updates:
+  - "张姐不替贺葵作代理回话，夏宁和周衡认可本人不授权回拨；专业路巡负责实测，公共道路处置不取决于报险人身份。"
+ending_state: "Day209 20:00第207次夜班；鹭华巷格栅专业换修复核后通行，本笔自动回访号撤离留痕，贺葵仍不留私人回拨号；白榆物件证据与待办节点不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f1ef03071b2c0d5ac2030eac843b7fa2e5fa137b", final_draft_sha: "23b1b72ddd5e5ae13e50281ef2b1efd9ffde00a9", initial_counts: "0/2/2", final_counts: "0/0/2", local_revision_used: 1, body_revisions: 1, corrected_fields: [Day208_today_not_yesterday, predecessor_ready_blob, dependency_status, chapter_0347_plan], predecessor_original_draft_sha: "dcd382d990b539c301bbb087f9fdb078b7a29cb0", predecessor_ready_blob: "bd2b18094550ce9ee7499703b3a14e73c2b9d47e", predecessor_factual_delta: "first_call_1957_and_interval_only", predecessor_factual_compatible: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3033

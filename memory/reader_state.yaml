@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 345
-last_reviewed_title: "多出来的七天，不是一份来历"
-last_source_path: chapters/draft/0345.md
-last_source_sha: ea50a56bb29acd3b0e6bf5547c85ecdc0e450f0c
-last_review_path: reader_reviews/0345_ea50a56b.md
+last_reviewed_chapter: 347
+last_reviewed_title: "借来的电话，不该替她接回话"
+last_source_path: chapters/draft/0347.md
+last_source_sha: 23b1b72ddd5e5ae13e50281ef2b1efd9ffde00a9
+last_review_path: reader_reviews/0347_23b1b72d.md
 last_reviewed_at: "2026-10-28"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 344
-depends_on_source_sha: 19ae5312a2a1bcb13e86f1c8f888ac360b70fb33
-dependency_status: verified_predecessor_metadata_only_factual_compatible
-predecessor_current_source_sha: 19ae5312a2a1bcb13e86f1c8f888ac360b70fb33
+depends_on_chapter: 346
+depends_on_source_sha: bd2b18094550ce9ee7499703b3a14e73c2b9d47e
+dependency_status: verified_predecessor_factual_delta_compatible
+predecessor_current_source_sha: bd2b18094550ce9ee7499703b3a14e73c2b9d47e
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2084,5 +2084,38 @@ chapter_345_reader_20261028:
   predecessor_ready_blob: "19ae5312a2a1bcb13e86f1c8f888ac360b70fb33"
   predecessor_body_identical: true
   dependency_status: verified_predecessor_metadata_only_factual_compatible
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_346_reader_20261028:
+  chapter: 346
+  original_source_sha: "dcd382d990b539c301bbb087f9fdb078b7a29cb0"
+  initial_review: reader_reviews/0346_dcd382d9.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "2da21f87d8b1aa39b60e69012a740e87c79ca38c"
+  final_review: reader_reviews/0346_2da21f87.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 2
+  stage_a_local_revision_used: 1
+  body_revisions: 3
+  effective_chars: 3358
+  predecessor_ready_blob: "9a29c57ede73e6ff2ce5ba72b19e8aaec5d26642"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_347_reader_20261028:
+  chapter: 347
+  original_source_sha: "f1ef03071b2c0d5ac2030eac843b7fa2e5fa137b"
+  initial_review: reader_reviews/0347_f1ef0307.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_source_sha: "23b1b72ddd5e5ae13e50281ef2b1efd9ffde00a9"
+  final_review: reader_reviews/0347_23b1b72d.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 2
+  stage_a_local_revision_used: 1
+  body_revisions: 1
+  effective_chars: 3033
+  predecessor_original_draft_sha: "dcd382d990b539c301bbb087f9fdb078b7a29cb0"
+  predecessor_ready_blob: "bd2b18094550ce9ee7499703b3a14e73c2b9d47e"
+  predecessor_factual_delta: first_call_time_and_interval_only
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

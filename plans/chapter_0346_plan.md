@@ -12,7 +12,7 @@
 - dependency_facts_used: "第345章Day207 20:00第205次夜班开始；上一章结尾周衡为居民拨通物业电话，真实接听不等于维修已派或到场；白榆路三件旧牌拆件仍设施所新柜原封，窄铁片Day207 11:48获有权单件短存至Day215 16:00，Day211中午前保护环境复核及Day214 15:00前处置建议尚未发生；老旧路图14原印10控4未收及另两影印受控，沈父私人原册仍在妹妹家；白榆旧东工门与维修便道禁公众，2011照片同形不证窄片同一或旧字来历。"
 - target_effective_chars: 2600-3400
 - hard_range: 2300-3800
-- actual_effective_chars: 3357
+- actual_effective_chars: 3358
 - count_method: "正文剔除Front Matter后，Unicode非空白码点（含标点）"
 
 ## 目标、POV、开场与人物诉求
@@ -35,10 +35,14 @@
 - 不得将最早已接电话等同已维修；专业检修时点和公众恢复时点分开；陶菲当次驶出不证明所有车辆当时完成通行；真实故障说明不推劳动争议结案；不擅自认定其他院落所有路由已修。
 - F003窄铁片仍有权暂存至Day215 16:00，Day211/214待核；2011相符背衬不是物件必同一，字的作者年代、最初来源、沈家原册同源和永安里现时通行仍未证；F008不增可靠样本；1996原本人真获回告、2018 A2同笔及M004/M005仍未获确证。
 - 前章与结尾：承接Day207 20:00班次与未完成普通物业电话；结尾回到Day208 20:00第206次夜班，以真实领单人名字作下一张工单的第一核对项。
-- 本章标题有13个非空白字符，正文3357有效字符。
+- 本章标题有13个非空白字符，正文3358有效字符。
 
 ## Continuity Precheck（仅Writer）
 - 实际连接GitHub重读main规则：AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md；全书Premise/Main Outline/World/Style、周衡/夏宁/梁策人物卡、当前弧及其过时静态arc文件和静态volume_05（以当前卷6 ARC-054经ready与Memory核实事实为准），角色、关系、知识、世界、伏笔、时间线、章纲总表以及最近0336—0345共十章真实摘要与0341—0345五章完整ready正文，未读取历史reader_reviews。
 - 由main的published/ready/draft实际章节文件核得第153章在published/0153.md，最大现有章号345，正式ready source Git blob 9a29c57ede73e6ff2ce5ba72b19e8aaec5d26642。本章仅新增0346详细章纲与草稿，绝不改变前章ready或既有Canon、Memory、Reader/QA/Publish状态。
 - 前章为正式ready，依赖状态 verified_exact_ready_blob；未把任何本章新编情节当成已有Canon。本轮不做Reader、Revision、QA、Memory或发布。
 - 提交策略：先核最新main commit和Git tree及两个目标路径不存在，再以两新Git blobs建立同一新tree和单parent commit，通过expected_sha及force:false更新main；若分支并发改变则拒覆盖、重新读取并如实报告。
+
+## Audit 修订与核验（2026-10-28）
+- Writer原章纲与此前Precheck仅作历史记录。初稿`dcd382d990b539c301bbb087f9fdb078b7a29cb0`原首次物业真人电话20:09晚于345末20:00第205次夜班锚点，独立Reader 0/1/2；Stage A局部调整首次为Day207 19:57并使20:26再报的相对间隔相符，3处正文修复；新draft `2da21f87d8b1aa39b60e69012a740e87c79ca38c`独立新SHA Reader双遍0/0/2，内容QA PASS，有效3358字。
+- 前345正式ready `9a29c57ede73e6ff2ce5ba72b19e8aaec5d26642`精确匹配，Day208 12:23南口恢复与Day208 20:00开第206夜班不变；正式放行以精确候选版本结构CI成功为条件。

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 345
+last_updated_chapter: 347
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1148,3 +1148,12 @@ chapter_345_relationship_update:
   ma_yun_asset_supervisor_technical: "马芸依不同岗位权责当场见证外层保护，主管签有限有责新期限，技术员只签保护动作不签来源/档案接收。"
   lao_qi_ma_yun: "老齐提出历史文物和永久保留标签被拒，最终只在规定责任内读编号；未引入私人权属或新同源判断。"
   zhou_heng_xia_ning_liang_ce: "夏宁核真实签批才更新续存状态，周衡保留材料来源空白，梁策优先公众路权；人物关系没有无据跃迁。"
+
+chapter_346_relationship_update:
+  chapter: 346
+  zhou_heng_xia_ning_liang_ce: "分清接线证据、真人具名转派及安全责任，不代物业签维修或雇主工资结果。"
+  tao_fei_gu_supervisor_zhao_guard: "陶菲质询绿勾无具名，赵师傅确曾转派但旧组无人夜间负责，顾主管实到并按职责纠错。"
+chapter_347_relationship_update:
+  chapter: 347
+  zhou_heng_xia_ning_liang_ce: "既处理公共道路风险也遵守报险人的拒绝联系要求。"
+  he_kui_zhang_jie_road_office: "贺葵只借电话报险，张姐不代接并拒披露去向；道路岗修复并更正本条错误回访。"

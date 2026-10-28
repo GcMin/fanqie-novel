@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 345
+current_chapter: 347
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0345.md
-current_source_sha: ea50a56bb29acd3b0e6bf5547c85ecdc0e450f0c
-current_review_path: reader_reviews/0345_ea50a56b.md
+current_source_path: chapters/draft/0347.md
+current_source_sha: 23b1b72ddd5e5ae13e50281ef2b1efd9ffde00a9
+current_review_path: reader_reviews/0347_23b1b72d.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0344_0345_reader_revision_qa_candidate
+last_action: audit_0346_0347_reader_revision_qa_candidate
 last_action_date: 2026-10-28
 last_error: null
-last_diff_summary: "344直接Reader0/0/2与独立QA；345旧稿Reader0/1/2仅因依赖344provisional，核344正文与ready逐字相同后只改345前章SHA和章纲，正文零变，新SHA ea50a56b独立复审0/0/2与QA PASS；精确候选CI待验证。"
+last_diff_summary: "346初评0/1/2修Day207首电19:57与间隔后新SHA双遍0/0/2；347初评0/2/2修Day208今昨、绑定346ready后新SHA双遍0/0/2；独立QA通过，候选CI待验。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1620,5 +1620,36 @@ chapter_345_revision_20261028:
   predecessor_original_draft_sha: "89f526e35ba6b038c444ff34c79be60dcdc9c4de"
   predecessor_ready_blob: "19ae5312a2a1bcb13e86f1c8f888ac360b70fb33"
   predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_346_revision_20261028:
+  chapter: 346
+  original_sha: "dcd382d990b539c301bbb087f9fdb078b7a29cb0"
+  initial_review: reader_reviews/0346_dcd382d9.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "2da21f87d8b1aa39b60e69012a740e87c79ca38c"
+  final_review: reader_reviews/0346_2da21f87.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 3
+  corrected_fields: [first_call_time_1957, intercall_interval, chapter_0346_plan]
+  predecessor_ready_blob: "9a29c57ede73e6ff2ce5ba72b19e8aaec5d26642"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_347_revision_20261028:
+  chapter: 347
+  original_sha: "f1ef03071b2c0d5ac2030eac843b7fa2e5fa137b"
+  initial_review: reader_reviews/0347_f1ef0307.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_sha: "23b1b72ddd5e5ae13e50281ef2b1efd9ffde00a9"
+  final_review: reader_reviews/0347_23b1b72d.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  corrected_fields: [Day208_today_not_yesterday, predecessor_ready_blob, chapter_0347_plan]
+  predecessor_original_draft_sha: "dcd382d990b539c301bbb087f9fdb078b7a29cb0"
+  predecessor_ready_blob: "bd2b18094550ce9ee7499703b3a14e73c2b9d47e"
+  predecessor_factual_delta: first_call_time_and_interval_only
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
