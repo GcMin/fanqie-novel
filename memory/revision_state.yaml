@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 351
+current_chapter: 352
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0351.md
-current_source_sha: 3e4210520445d7e875819ab326be00447956a005
-current_review_path: reader_reviews/0351_3e421052.md
+current_source_path: chapters/draft/0352.md
+current_source_sha: c59eade9f6b8519928d4b99d4d5559aa69310e5b
+current_review_path: reader_reviews/0352_c59eade9.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0350_0351_reader_revision_qa_candidate
+last_action: audit_0352_reader_qa_candidate
 last_action_date: 2026-10-28
 last_error: null
-last_diff_summary: "350原稿Reader0/0/2正文零改；351原稿0/1/2仅前350临时SHA，StageA仅重绑350正式ready且对351正文零改，新351草稿3e4210520445d7e875819ab326be00447956a005双遍Reader0/0/2，两章内容QA通过，结构CI待验。"
+last_diff_summary: "352草稿原版Reader0/0/2，正文未修；前章351精确ready SHA已核；内容QA PASS，待精确候选CI校验成功后放行。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1707,5 +1707,17 @@ chapter_351_revision_20261028:
   predecessor_original_draft_sha: "c9a652bd9fb62ca0b6dbf6aab9e9d5574a494275"
   predecessor_ready_blob: "ffb13672b8713f9e47be89c30c1d06bff413fd11"
   predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_352_revision_20261028:
+  chapter: 352
+  original_sha: "c59eade9f6b8519928d4b99d4d5559aa69310e5b"
+  final_sha: "c59eade9f6b8519928d4b99d4d5559aa69310e5b"
+  final_review: reader_reviews/0352_c59eade9.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "06d5de8b1dded00100fe7fffb440292427897921"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

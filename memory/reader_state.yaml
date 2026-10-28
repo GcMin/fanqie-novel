@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 351
-last_reviewed_title: "建议交上去了，铁片还在柜里"
-last_source_path: chapters/draft/0351.md
-last_source_sha: 3e4210520445d7e875819ab326be00447956a005
-last_review_path: reader_reviews/0351_3e421052.md
+last_reviewed_chapter: 352
+last_reviewed_title: "到期前十八分钟，签字才算数"
+last_source_path: chapters/draft/0352.md
+last_source_sha: c59eade9f6b8519928d4b99d4d5559aa69310e5b
+last_review_path: reader_reviews/0352_c59eade9.md
 last_reviewed_at: "2026-10-28"
-reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 350
-depends_on_source_sha: ffb13672b8713f9e47be89c30c1d06bff413fd11
-dependency_status: verified_predecessor_metadata_only_factual_compatible
-predecessor_current_source_sha: ffb13672b8713f9e47be89c30c1d06bff413fd11
+depends_on_chapter: 351
+depends_on_source_sha: 06d5de8b1dded00100fe7fffb440292427897921
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 06d5de8b1dded00100fe7fffb440292427897921
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2186,5 +2186,19 @@ chapter_351_reader_20261028:
   predecessor_ready_blob: "ffb13672b8713f9e47be89c30c1d06bff413fd11"
   predecessor_body_identical: true
   dependency_status: verified_predecessor_metadata_only_factual_compatible
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_352_reader_20261028:
+  chapter: 352
+  source_sha: "c59eade9f6b8519928d4b99d4d5559aa69310e5b"
+  review_path: reader_reviews/0352_c59eade9.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
+  reviews_this_cycle: 1
+  stage_a_local_revision_used: 0
+  body_revisions: 0
+  effective_chars: 3325
+  predecessor_ready_blob: "06d5de8b1dded00100fe7fffb440292427897921"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

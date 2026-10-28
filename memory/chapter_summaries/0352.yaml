@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 352
+title: "到期前十八分钟，签字才算数"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "c59eade9f6b8519928d4b99d4d5559aa69310e5b"
+reader_review: reader_reviews/0352_c59eade9.md
+depends_on_chapter: 351
+depends_on_source_sha: "06d5de8b1dded00100fe7fffb440292427897921"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day214 23:17—Day215 20:00，第212/213次夜班"
+summary: >-
+  Day214 23:17保管室联络员报设施所“处置完成”假绿标但无签署人，来源为Day214 14:46建议收件号；夏宁仅催有权核实。Day215 08:27马芸查到跨模块把收件误映为批准，09:11主管限项纠本笔并留原绿标日志。10:05许工核现柜Day211近门历史监测仍不足且候选房有旧水印和无库房验收，11:38主管组织分物件有责决定。沈家妹妹在家分列姐姐转述父亲修表摊说法与自己地点、送修人不明的裂口旧钟记忆，姐姐同意注明旧册蓝笔后加，原册不移交。14:23技术报告仅支持附条件短期观察；15:42资产主管在原Day215 16:00到期前18分钟真实签署仅窄铁片原柜原封、定点每天两次有责记录、限项开柜、异常即时重评的两日过渡决定，有效至Day217 16:00；15:54真实登记，旧截止和假绿标留历史。外板与断支件另行处置，三件未出库，窄片不启封；不证明长期环境合格、物件来源、文物接收。17:31中心只收限项合法回告，Day215 20:00第213次夜班。旧图14原印10受控4未收两影印分保、东工门维修便道禁公众、沈家原册未交，2011同物、红字年代作者、旧册同源及F008/M004/M005皆未证。
+meaningful_state_changes:
+  - "Day214建议收件号跨模块误映审批完成，Day215 09:11有责单笔纠正留源。"
+  - "Day215 15:42有权真正签窄铁片单件至Day217 16:00短期附条件保管，15:54登记，其他旧件不搭期。"
+  - "沈家姐妹将来源不同且不完整的私人记忆分别落纸，避免无据合并历史证词。"
+knowledge_updates:
+  - "建议收件、绿标不等于签署决定；短期有条件保全不等于长期保管合格。"
+relationship_updates:
+  - "老齐不再信自动绿标或无授权开柜；沈家姐妹同意由各人保有不同来源记忆与私册自主权。"
+foreshadowing_updates:
+  - "F003仅保全两日有限进一步核证窗口；2011同一性、红字写时作者和沈家同源未知，F008/M004/M005未确认。"
+ending_state: "Day215 20:00第213夜班；窄铁片现行限期Day217 16:00并须附条件复评，旧Day215截止留历史，三件仍设施方新柜，原册妹妹家。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "c59eade9f6b8519928d4b99d4d5559aa69310e5b", final_draft_sha: "c59eade9f6b8519928d4b99d4d5559aa69310e5b", initial_counts: "0/0/2", final_counts: "0/0/2", local_revision_used: 0, body_revisions: 0, reviews_this_cycle: 1, predecessor_ready_blob: "06d5de8b1dded00100fe7fffb440292427897921"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3325
