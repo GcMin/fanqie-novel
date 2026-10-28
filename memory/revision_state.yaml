@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 340
+current_chapter: 341
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0340.md
-current_source_sha: c2c3ee542ae81ee9617e3a37b39e1ec4df450acb
-current_review_path: reader_reviews/0340_c2c3ee54.md
+current_source_path: chapters/draft/0341.md
+current_source_sha: 100263adf2cd36d09c2ba09aac0920c007ff261c
+current_review_path: reader_reviews/0341_100263ad.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0340_reader_revision_qa_candidate
+last_action: audit_0341_reader_revision_qa_candidate
 last_action_date: 2026-10-28
 last_error: null
-last_diff_summary: "340原稿Day201夜误写昨天下午拟申请；Stage A仅修成今天下午，正文一字，原稿Reader0/1/2到新Git Blob c2c3ee54独立Reader0/0/2及独立QA PASS；339正式ready依赖精确匹配，候选CI待证。"
+last_diff_summary: "341原稿标题错误声称两张图纸而实际只查到两份目录，且依赖前340临时SHA；Stage A只修标题和前章ready SHA及章纲、正文零改。340原稿到ready仅Day201一句日指称修复，事实兼容；新SHA Reader0/0/2与独立QA PASS，候选CI待证。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1545,5 +1545,22 @@ chapter_340_revision_20261028:
   corrected_fields: [Day201_evening_reference_today_instead_of_yesterday]
   predecessor_ready_blob: "e09b70d12f0b501294809caa4ffd567c6f96905f"
   predecessor_exact_ready: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_341_revision_20261028:
+  chapter: 341
+  original_sha: "6baf845c0100cf47975513ccaa72703822b2ff39"
+  initial_review: reader_reviews/0341_6baf845c.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_sha: "100263adf2cd36d09c2ba09aac0920c007ff261c"
+  final_review: reader_reviews/0341_100263ad.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  corrected_fields: [chapter_title, predecessor_ready_blob, dependency_status, chapter_0341_plan]
+  predecessor_original_draft_sha: "52662daf70cacb6df84eb742df8f477782826a1c"
+  predecessor_ready_blob: "6ada277b30e96d80e5203ebad2b5fa8f3a90ce30"
+  predecessor_factual_delta: "Day201_yesterday_to_today_only"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

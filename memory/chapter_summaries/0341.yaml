@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 341
+title: "两份旧目录，都叫西侧一号"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "6baf845c0100cf47975513ccaa72703822b2ff39"
+source_draft_sha: "100263adf2cd36d09c2ba09aac0920c007ff261c"
+initial_review: reader_reviews/0341_6baf845c.md
+reader_review: reader_reviews/0341_100263ad.md
+depends_on_chapter: 340
+depends_on_source_sha: "6ada277b30e96d80e5203ebad2b5fa8f3a90ce30"
+dependency_status: verified_predecessor_factual_delta_compatible
+timeframe: "Day202 20:26—Day203 20:00，第200/201次夜班"
+summary: >-
+  Day202 20:26白榆旧站卖红薯的老祝报告已拆旧牌附近公众路一块方形薄面板边缘翘起，老妇人绊脚险抓栏杆未跌倒，伤势仅本人自述脚腕能落地，不留名；20:44道路有责巡查员到场围起危险窄段并核旁边安全公众通道，21:09专业临护松脱面板而不夜间擅挖另一处方形补面。周衡只记两处可见方印、性质未证，不把方印当已证两根旧柱或“永安里方向”现路权。Day203 09:41道路人员拆检原盖板浅旧基础固定件松脱，不见可辨旧牌零件，10:16换件并整平，11:08有权专业复核通行面后撤临时围隔；第二方印仍只外观核、无授权掘查。资产主管合规找到2011《白榆路旧站西侧临时导向设施基础巡查》目录写“西侧一号”，另有2015《便民指引立柱维护点位汇总》目录也写“西侧一号”但注明路段点位编号曾重编；二者同名并不证同一柱，更不证2016现存旧内衬来自哪一旧物。13:22主管实际提交只查询目录版本及2015《点位编号换版对照》可阅范围的窄申请，窗口真实收件后仅确认2015编制说明在馆藏目录和换版对照封存附件列目，没有批准翻阅换版正文，不能认定两版对应。15:00收到路面专业有源反馈，17:17夏宁获准有限文字，Day203 20:00第201夜班交接，安全路面已按当时有责检查复行、旧东工门维修道仍禁公众。老祝转述老妇人其后回摊买两个红薯，自述仍可行走，中心没有冒称已真人回访或作医学无伤结论。三件旧牌拆件仍存设施方新柜原封袋未出库，旧柜潮；窄铁片Day208 16:00原短期限不延期。2014撤回的预排行、2016原照与工单旧字记录/现场既有件处理意见分别有源，均不能证明旧金属更早领料/字作者或与沈家私册同源；私人册仍妹妹家、14旧错图原印10控4未收另2影印分保，1996真人获答/2018 A2同笔/F008/M004/M005均未知。
+meaningful_state_changes:
+  - "Day203 11:08有权道路岗真正复核松动面板专业修复并恢复本段公众通行，第二方形补面无擅破拆。"
+  - "2011、2015两份不同年代西侧一号立柱目录及2015换版对照封存附件题名实际有源存在，13:22目录咨询已收件但无内页阅准，不证明跨版同柱。"
+knowledge_updates:
+  - "相同地点名和同名点位编号可能来自不同版本，目录不等于原图内页、跨版对应或实物来源凭据；现地两个方印也不等于两个有源立柱。"
+  - "路面安全专业检查、转述老妇人行走和正式个人回访不等价；Day208 16:00既有短期资产期限不能因历史查档延期。"
+relationship_updates:
+  - "周衡夏宁记录老祝和老妇人转述但不冒名签无伤/回访，资产主管和马芸守档案、资产和物证权限，不索个人资料或擅开封袋。"
+foreshadowing_updates:
+  - "F003新增2011与2015目录及缺准阅的点位换版对照入口；两版本是否同柱、2016以前旧铁片来路及沈家私册同源均待核，F008/M004/M005未升级。"
+ending_state: "Day203 20:00第201夜班；西侧翘面真实修复复核，两个方形补面和两历史同名目录不能直接证明同柱或旧铁片来源，现存窄铁片仍合法临存至Day208 16:00。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6baf845c0100cf47975513ccaa72703822b2ff39", final_draft_sha: "100263adf2cd36d09c2ba09aac0920c007ff261c", initial_counts: "0/2/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, corrected_fields: [chapter_title, depends_on_source_sha, dependency_status, chapter_0341_plan], reviews_this_cycle: 2, predecessor_original_draft_sha: "52662daf70cacb6df84eb742df8f477782826a1c", predecessor_ready_blob: "6ada277b30e96d80e5203ebad2b5fa8f3a90ce30", predecessor_delta: "Day201_yesterday_to_today_only", predecessor_factual_compatible: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2929

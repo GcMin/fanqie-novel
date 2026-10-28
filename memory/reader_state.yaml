@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 340
-last_reviewed_title: "建议书说要保留，领料栏却是空的"
-last_source_path: chapters/draft/0340.md
-last_source_sha: c2c3ee542ae81ee9617e3a37b39e1ec4df450acb
-last_review_path: reader_reviews/0340_c2c3ee54.md
+last_reviewed_chapter: 341
+last_reviewed_title: "两份旧目录，都叫西侧一号"
+last_source_path: chapters/draft/0341.md
+last_source_sha: 100263adf2cd36d09c2ba09aac0920c007ff261c
+last_review_path: reader_reviews/0341_100263ad.md
 last_reviewed_at: "2026-10-28"
 reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 339
-depends_on_source_sha: e09b70d12f0b501294809caa4ffd567c6f96905f
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: e09b70d12f0b501294809caa4ffd567c6f96905f
+depends_on_chapter: 340
+depends_on_source_sha: 6ada277b30e96d80e5203ebad2b5fa8f3a90ce30
+dependency_status: verified_predecessor_factual_delta_compatible
+predecessor_current_source_sha: 6ada277b30e96d80e5203ebad2b5fa8f3a90ce30
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1995,5 +1995,24 @@ chapter_340_reader_20261028:
   effective_chars: 3503
   predecessor_ready_blob: "e09b70d12f0b501294809caa4ffd567c6f96905f"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_341_reader_20261028:
+  chapter: 341
+  original_source_sha: "6baf845c0100cf47975513ccaa72703822b2ff39"
+  original_review: reader_reviews/0341_6baf845c.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  source_sha: "100263adf2cd36d09c2ba09aac0920c007ff261c"
+  review_path: reader_reviews/0341_100263ad.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+  stage_a_used: 1
+  body_revisions: 0
+  effective_chars: 2929
+  predecessor_original_draft_blob: "52662daf70cacb6df84eb742df8f477782826a1c"
+  predecessor_ready_blob: "6ada277b30e96d80e5203ebad2b5fa8f3a90ce30"
+  predecessor_factual_delta: "one Day201 relative day correction with facts unchanged"
+  dependency_status: verified_predecessor_factual_delta_compatible
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

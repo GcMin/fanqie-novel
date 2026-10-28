@@ -1,15 +1,15 @@
-# 第341章详细章纲：《两张图纸上，都写着西侧立柱》
+# 第341章详细章纲：《两份旧目录，都叫西侧一号》
 
 - chapter: 341
 - volume: 6
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - source_main_sha: f464e09213c45dbeca13d53f8aabbc45e8f6a816
-- predecessor_path: chapters/draft/0340.md
+- predecessor_path: chapters/ready/0340.md
 - depends_on_chapter: 340
-- depends_on_source_sha: "52662daf70cacb6df84eb742df8f477782826a1c"
-- dependency_status: provisional
-- dependency_facts_used: "第340章未审草稿Day202 16:07有权主管将封存窄铁皮在设施所新柜限时暂存至Day208 16:00，2016《旧件处理建议》在受限核阅中称它为当时现场既有件、当次另领栏未见凭据；Day202 20:00第200夜班，早期来源与点位无证。此为provisional而非正式Canon。"
+- depends_on_source_sha: "6ada277b30e96d80e5203ebad2b5fa8f3a90ce30"
+- dependency_status: verified_predecessor_factual_delta_compatible
+- dependency_facts_used: "第340章正式ready明确Day202 16:07有权主管将封存窄铁皮在设施所新柜限时暂存至Day208 16:00，2016《旧件处理建议》依法受限核阅证现场既有件、当次另领栏未见独立凭据；Day202 20:00第200夜班，早期来源与点位无证。340旧draft到最终ready仅修正Day201夜一句昨天下午为今天下午并改交付Front Matter，以上本章承接事实未改变。此为已核事实兼容。"
 - target_effective_chars: 2600–3400
 - hard_range: 2300–3800
 - actual_effective_chars: 2929
@@ -46,3 +46,8 @@
 - 静态outlines/volume_05与outlines/arcs/arc_current仍落在旧篇章，不将其视为第六卷ARC-054最新章节事实；依据最新ready、main草稿与记忆条目做限项续写。
 - 确认published中第153章《人没回来，表先签完了》存在；本轮三目录未发现341，340在draft、非Canon，以完整前章Git blob SHA保留provisional依赖，不把其未经审核情节冒充已审定事实。
 - 本次仅新增章纲与首稿，不更改旧章、Memory、计划总表、QA/Reader及发布状态；须原子create_tree/create_commit并以expected_sha、force:false安全更新main。
+
+## Audit Stage A（2026-10-28）
+- 原341草稿Blob `6baf845c0100cf47975513ccaa72703822b2ff39` Reader初审0/2/2，标题误称两张图纸，实际只见两份目录；另仍引用340未审原draft `52662daf70cacb6df84eb742df8f477782826a1c`。
+- 第340章原稿与正式ready `6ada277b30e96d80e5203ebad2b5fa8f3a90ce30`比较，小说正文只纠Day201夜“昨天下午”→“今天下午”，不改本章承接的Day202 16:07有效续存、17:13有限回告、20:00第200班及2016历史在场证据；本章事实兼容。341仅修Front Matter标题和前章依赖及本详细计划，小说正文不修。
+- 修后须以新Git blob独立Pass A/Pass B Reader、Continuity/Style QA及精确候选CI验证，禁止跳过审核门。
