@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 353
-last_reviewed_title: "纸收回来了，路还得有人带"
-last_source_path: chapters/draft/0353.md
-last_source_sha: 14de1ab010f66ca0cdc53be01c980abbbaa237c0
-last_review_path: reader_reviews/0353_14de1ab0.md
+last_reviewed_chapter: 354
+last_reviewed_title: "交接人签了字，旧字仍没来处"
+last_source_path: chapters/draft/0354.md
+last_source_sha: 8e2351b7aa8f82532d5ed6957c15e530bf1cb618
+last_review_path: reader_reviews/0354_8e2351b7.md
 last_reviewed_at: "2026-10-29"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 352
-depends_on_source_sha: 3335c424a08689195a36182eb2b7d7db9e202f4b
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 3335c424a08689195a36182eb2b7d7db9e202f4b
+depends_on_chapter: 353
+depends_on_source_sha: b0ce4aab55f501eeb4cf3b42c76876a3d1ba8fc8
+dependency_status: verified_predecessor_factual_delta_compatible
+predecessor_current_source_sha: b0ce4aab55f501eeb4cf3b42c76876a3d1ba8fc8
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2219,6 +2219,28 @@ chapter_353_reader_20261029:
   effective_chars: 3104
   predecessor_ready_blob: "3335c424a08689195a36182eb2b7d7db9e202f4b"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_354_reader_20261029:
+  chapter: 354
+  original_source_sha: "a0af270eb39dacdce8659b249f07070de8925b8e"
+  initial_review: reader_reviews/0354_a0af270e.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "8e2351b7aa8f82532d5ed6957c15e530bf1cb618"
+  final_review: reader_reviews/0354_8e2351b7.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+  reviews_this_cycle: 2
+  stage_a_local_revision_used: 1
+  body_revisions: 0
+  corrected_fields: [predecessor_ready_blob, dependency_status, chapter_0354_plan]
+  effective_chars: 3164
+  predecessor_original_draft_sha: "9a2082332a40fb3245c3963f6d969c3a48f243eb"
+  predecessor_ready_blob: "b0ce4aab55f501eeb4cf3b42c76876a3d1ba8fc8"
+  predecessor_factual_delta: privacy_phone_number_wording_only
+  predecessor_factual_compatible: true
+  dependency_status: verified_predecessor_factual_delta_compatible
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
 

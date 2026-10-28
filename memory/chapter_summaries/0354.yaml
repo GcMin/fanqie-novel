@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 354
+title: "交接人签了字，旧字仍没来处"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "a0af270eb39dacdce8659b249f07070de8925b8e"
+source_draft_sha: "8e2351b7aa8f82532d5ed6957c15e530bf1cb618"
+initial_review: reader_reviews/0354_a0af270e.md
+reader_review: reader_reviews/0354_8e2351b7.md
+depends_on_chapter: 353
+depends_on_source_sha: "b0ce4aab55f501eeb4cf3b42c76876a3d1ba8fc8"
+dependency_status: verified_predecessor_factual_delta_compatible
+timeframe: "Day216 21:07—Day217 20:00，第214/215次夜班"
+summary: >-
+  Day216 21:07白榆设施所老齐报上门近门测点当夜两次偏高且门外有潮痕；夏宁只记录实测范围不宣称袋内受潮，21:31许工核原两记录并用第二台仪器复测近门高、柜后低，依有权范围短开柜只看外套可见封口与托盘、内袋未拆，另记一次补测不冒充第三次例行日检。22:02值守主管决定紧急补测并在Day217 16:00原期限前处理。23:23养护发现外侧冷凝水软管夹松并止滴，没证该滴漏是近门测点升高全部原因，原高读数不删。Day217 08:42马芸及主管拒旧水印/未验收的原备选房，09:27另市政设施技术保管室真实核拟用独立柜位、监测和交接，10:45只同意单件限项短期受托至Day222 16:00并每日两次点位观测、异常即报。接收岗指出原拟2011旧一号件与2015新三号点位错当现物身份，马芸依合法换版及2016工单只写为相关历史点位资料，现存拆存封袋编号作为实物索引，原2011照片相似件是否现窄片唯一同一性未知。13:26资产主管真正签单件受控移交，14:14原柜核封袋外观与出位，15:06接收方限区现场核外封和数量，15:22双方实签收移交，窄铁片进入有责技术受托柜至Day222 16:00；原设施所仍管物权及历史来源核查，外板及支件没随车，旧柜环境风险数据未被清除，内袋仍未开启。17:14中心仅获准转述有限已实收结果，20:00第215次夜班。前章错路原印14张11控3未收和2照片复制各受控，沈家私册妹妹家，公众施工桥及东工门禁入，F008/M004/M005不证。
+meaningful_state_changes:
+  - "Day216近门环境异常真正触发补测/限操作与到期前有责评估，邻近冷凝水管滴漏止住但未冒认全柜修好。"
+  - "Day217 15:22前完成真实单件受控移交，窄片由设施所原柜转入新技术保管室至Day222 16:00，原单位仍承担资产和来源责任，其余两件不搭期。"
+  - "接收方修正将2011旧点位标识冒充现物2011原件的预拟字段，只用现存封袋链索引。"
+knowledge_updates:
+  - "靠门局部点位实测不能证明内袋实受潮；外侧软管滴漏不必然为该读数全部根因；短期新柜受托不是永久合格/馆藏接收。"
+  - "2011旧一号→2015新三号→2016工单只建立位置链，现带字窄片唯一同一来源仍未知。"
+foreshadowing_updates:
+  - "F003保住当代带字实物新的合法有限保全窗口但不确证旧作者/年代、沈册同源或F008/M004/M005。"
+relationship_updates:
+  - "老齐从近手保管转为只签本人真实见证的Day195拆存和Day217移交，马芸要求只写有证物权与来源边界，技术接方承担新的实物安全责任。"
+ending_state: "Day217 20:00第215夜班，窄铁片受控移入市政设施技术保管室至Day222 16:00，原设施所仍管历史来源与另两拆件，旧原柜环境异常记录留存；14错路原印11控3未收及两影印独立，沈家私人册不交，旧字作者与F008/M004/M005未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "a0af270eb39dacdce8659b249f07070de8925b8e", final_draft_sha: "8e2351b7aa8f82532d5ed6957c15e530bf1cb618", initial_counts: "0/1/2", final_counts: "0/0/2", local_revision_used: 1, body_revisions: 0, corrected_fields: [predecessor_ready_blob, dependency_status, chapter_0354_plan], predecessor_original_draft_sha: "9a2082332a40fb3245c3963f6d969c3a48f243eb", predecessor_ready_blob: "b0ce4aab55f501eeb4cf3b42c76876a3d1ba8fc8", predecessor_factual_delta: "private_phone_wording_only", predecessor_factual_compatible: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3164

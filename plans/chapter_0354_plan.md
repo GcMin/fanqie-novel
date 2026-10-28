@@ -5,11 +5,11 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - source_main_sha: fcbeea7822cfdc37a2f2c8fde1a0a0fd533842c8
-- predecessor_path: chapters/draft/0353.md
+- predecessor_path: chapters/ready/0353.md
 - depends_on_chapter: 353
-- depends_on_source_sha: "9a2082332a40fb3245c3963f6d969c3a48f243eb"
-- dependency_status: provisional
-- dependency_facts_used: "第353章未经独立审核：Day215 20:26简叔持槐石路旧红章图问路，Day216 11:21西巷活动室依法实际收回核实一份原印、14原印11控3未收，另两后制影印分记；Day216 20:00第214夜班，白榆窄铁片仍原封设施所新柜且有责单件至Day217 16:00。以上均仅以0353具体blob作为临时连续性参考，不当正式Canon。"
+- depends_on_source_sha: "b0ce4aab55f501eeb4cf3b42c76876a3d1ba8fc8"
+- dependency_status: verified_predecessor_factual_delta_compatible
+- dependency_facts_used: "第353章已独立Reader及QA后正式ready：Day216 11:21活动室实收一份旧红章原印、14原印11受控3未收，另两后制影印分保；Day216 20:00第214夜班，白榆窄片仍原封于设施所新柜并有责单件保管至Day217 16:00。353原稿至正式ready小说正文仅末句外孙女私人号码澄清，本354所依事实无变。"
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
 - actual_effective_chars: 3164
@@ -47,3 +47,7 @@
 - 前章353目前仍是draft，绑定完整Git Blob SHA 9a2082332a40fb3245c3963f6d969c3a48f243eb，dependency_status: provisional，不把其中简叔原印回收视作已审核Canon。后续Audit应核最终353与本章关键事实兼容。
 - 读取最新AGENTS、novel.yaml、writing_roles、ai_reading_protocol、premise/main_outline/world/style和三人物卡、现有卷/arc及current_arc、人物状态/关系/知识/世界、伏笔、时间线、0343—0352最近十摘要与0349—0353最近五正文；既有静态volume_05及arc_current落后于当前ARC-054，遵循已ready正文及可验证事实。未读取历史reader_reviews。
 - 本轮只新建本计划和首稿，不读历史审稿，不执行Editor、Reader、Revision、QA、Memory、Publish Gate或番茄发布，不修改任何既存文件。
+
+## Audit 记录（2026-10-29）
+- Writer 原先将第353章作为provisional依赖是当时真实基线；正式审核后353 ready Blob变为`b0ce4aab55f501eeb4cf3b42c76876a3d1ba8fc8`。逐行比较旧草稿与新ready小说正文只有末句外孙女电话号码未采集/未拨打的澄清，原印11/3及Day216 20:00交班等本章使用的事实全同。
+- 354原草稿 `a0af270eb39dacdce8659b249f07070de8925b8e` 首审Reader 0/1/2（唯一MAJOR是provisional前章SHA）；Stage A只修354 Front Matter及本章纲至353 ready，不改小说正文，修订新SHA `8e2351b7aa8f82532d5ed6957c15e530bf1cb618` 独立Pass A/B 0/0/2，独立Continuity/Style/Meaningful QA PASS、3164有效字。仍须精确候选CI成功才能ready。

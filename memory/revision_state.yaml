@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 353
+current_chapter: 354
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0353.md
-current_source_sha: 14de1ab010f66ca0cdc53be01c980abbbaa237c0
-current_review_path: reader_reviews/0353_14de1ab0.md
+current_source_path: chapters/draft/0354.md
+current_source_sha: 8e2351b7aa8f82532d5ed6957c15e530bf1cb618
+current_review_path: reader_reviews/0354_8e2351b7.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0353_new_sha_reader_qa_candidate
+last_action: audit_0354_new_sha_reader_qa_candidate
 last_action_date: 2026-10-29
 last_error: null
-last_diff_summary: "353原SHA Reader0/1/2仅因私号表述局部修一句，修订后草稿独立Reader0/0/2与内容QA PASS，待精确候选Git Commit结构CI。"
+last_diff_summary: "354原SHA Reader0/1/2仅因前353临时依赖；前353旧与正式ready正文仅电话隐私一句变化不影响本章所用事实，Stage A仅FM及详纲重绑不改正文，新SHA Reader0/0/2与独立QA PASS，待精确候选CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -42,7 +42,7 @@ combined_audit_final_20261015:
   note: "前版Reader意见只绑定前版SHA；修订后新的Reader报告已存在并通过。"
 
 # source_sha of the final Reader Review refers to original draft; ready differs by metadata fields only.
-current_review_source_sha: 14de1ab010f66ca0cdc53be01c980abbbaa237c0
+current_review_source_sha: 8e2351b7aa8f82532d5ed6957c15e530bf1cb618
  
 combined_audit_chapter_154:
   stage: local_revision
@@ -1735,6 +1735,23 @@ chapter_353_revision_20261029:
   corrected_fields: [privacy_phone_number_wording, char_count, updated_at]
   predecessor_ready_blob: "3335c424a08689195a36182eb2b7d7db9e202f4b"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_354_revision_20261029:
+  chapter: 354
+  original_sha: "a0af270eb39dacdce8659b249f07070de8925b8e"
+  initial_review: reader_reviews/0354_a0af270e.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "8e2351b7aa8f82532d5ed6957c15e530bf1cb618"
+  final_review: reader_reviews/0354_8e2351b7.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  corrected_fields: [predecessor_ready_blob, dependency_status, chapter_0354_plan]
+  predecessor_original_draft_sha: "9a2082332a40fb3245c3963f6d969c3a48f243eb"
+  predecessor_ready_blob: "b0ce4aab55f501eeb4cf3b42c76876a3d1ba8fc8"
+  predecessor_factual_delta: privacy_phone_number_wording_only
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
 
