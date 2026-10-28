@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 356
+title: "拆板前一晚，登记本上有一道红"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "0bd59c259a67108052b286763fb2500f1c78e7d3"
+source_draft_sha: "0bd59c259a67108052b286763fb2500f1c78e7d3"
+reader_review: reader_reviews/0356_0bd59c25.md
+depends_on_chapter: 355
+depends_on_source_sha: "2f9a7b9f348987ff52866c9a33df01496fdd5782"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day218 20:40—Day219 20:00，第216/217次夜班"
+summary: >-
+  Day218 20:40中心白板改写旧班组交接簿为保存目录待核，避免将Day218 16:08仅收件视为已发现旧簿。Day219 09:12原承包单位承继档案渠道确认2016年第二季度旧班组巡修交接簿实存并有白榆西侧目录索引；10:33马芸及见证人按授权核2016年4月11—13日有限页项，11:06有责取出原册并核页序，4月11日夜巡22:17栏目记录旧外板翘起、透板缝见暗红痕及夜间临护，4月12日白班记录外壳松动、现场旧衬可能沿用但无独立料号，4月13日只见归档交接号。13:21三方限定摘录并注明原记录形成时间和补记未鉴定，15:08资产主管有权核签内部查证，17:26中心只收去身份三项有限结论，20:00第217次夜班。新纸本资料支持此前一日夜巡栏记有暗红痕，不等于字、作者或原文在22:17形成，也不能证明Day195封存的窄铁片和2011旧衬为同物。杜师傅不参加阅档，也没被要求重新认字。窄片技术短托Day222 16:00、产权来源仍设施所、外板和支件未随车；旧错路原印14张11受控3未收及另2照片复制单记，沈家原册妹妹自持，白榆东工门维修道禁公众，F008/M004/M005未证。
+meaningful_state_changes:
+  - "旧巡修交接簿从仅有保管目录查询收件，变为Day219有责确认实存、取得限定页项原册实见与有源去身份摘录。"
+  - "2016年4月11日夜巡栏记有板缝暗红痕，日期早于4月12日维修条目，但具体形成时间及现物同一来源未证。"
+knowledge_updates:
+  - "马芸及中心分清夜巡栏记载时间、原记录实际落笔时间、现存窄片同一物料三层证据，不用独立文书把杜师傅旧口述升级为识字。"
+relationship_updates:
+  - "马芸与档案员各守批准范围、页序和身份隐私；老齐虽想认现窄片为旧物，接受尚无独立料号的限制。"
+foreshadowing_updates:
+  - "F003新增2016巡修原簿可核页项及4月11日暗红痕，但红字作者写时、2011同一物、私人旧册同源和F008/M004/M005均不确证。"
+ending_state: "Day219 20:00第217夜班，旧巡修簿有限摘录已真实核得；原字形成及现物唯一来源未证。窄片仍受托Day222 16:00，东工门封闭，旧错纸11受控3未收。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0bd59c259a67108052b286763fb2500f1c78e7d3", final_draft_sha: "0bd59c259a67108052b286763fb2500f1c78e7d3", initial_counts: "0/0/2", final_counts: "0/0/2", local_revision_used: 0, body_revisions: 0, predecessor_ready_blob: "2f9a7b9f348987ff52866c9a33df01496fdd5782", proposed_ready_blob: "f773c7c3adaa02f7fb4fc3f5cca36d40b6c453cd"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2906

@@ -5,14 +5,14 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - source_main_sha: dd4aa658c499d6645901c5d16302b9e4a78a5fa0
-- predecessor_path: chapters/draft/0356.md
+- predecessor_path: chapters/ready/0356.md
 - depends_on_chapter: 356
-- depends_on_source_sha: "0bd59c259a67108052b286763fb2500f1c78e7d3"
-- dependency_status: provisional
+- depends_on_source_sha: "f773c7c3adaa02f7fb4fc3f5cca36d40b6c453cd"
+- dependency_status: verified_predecessor_metadata_only_factual_compatible
 - dependency_facts_used: "356尚未经独立审核：Day219有权查2016年4月11—13日班组巡修原簿，4月11日22:17夜巡栏见暗红痕、4月12日旧衬可能沿用，旧字作者时间、物料唯一身份皆未证；Day219 20:00第217次夜班开始；窄片技术受托至Day222 16:00。引用只作为当前前稿临时场景，不能当正式Canon。"
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
-- actual_effective_chars: 3495
+- actual_effective_chars: 3541
 - count_method: "去Front Matter，对正文Unicode非空白码点计数（含标点）。"
 
 ## 目标 / POV / 开场
@@ -44,3 +44,8 @@ Day220 20:00第218次夜班；技术保管室受托窄片至Day222 16:00且限�
 - 同版本读取AGENTS、config、writing_roles、ai_reading_protocol、核心Bible和三主要人物卡、当前卷弧、长记忆及伏笔时间线、346—355十章摘要、352—356五章全文；不读取历史reader_reviews。卷大纲/arc_current早于真实故事进度，以已ready正文与state中的实情为准。
 - 前章0356是未审draft Blob 0bd59c259a67108052b286763fb2500f1c78e7d3，故依赖 provisional，若独立审核修订356，则由Audit核357具体衔接而非Writer擅改前稿。
 - 本章只新建章纲与draft，不进行Editor、Reader、Revision、QA、Memory、ready或Publish；正文状态draft、qa pending、approved_at null、publish_mode draft。
+
+## 独立Audit修订与新SHA复审（2026-10-29）
+- 356原草稿 `0bd59c259a67108052b286763fb2500f1c78e7d3` → ready Blob `f773c7c3adaa02f7fb4fc3f5cca36d40b6c453cd`：小说正文逐字相同，仅交付Front Matter变化；对本章Day219 20:23起的事件无事实影响。
+- 357原草稿 `abb2018e8f04b58e79c2e451bd38751dc277a4be` Reader 0/2/2，Stage A仅补充手机展示的是**别人转发的商圈便民屏示意图截图**，并重绑356正式ready SHA；只对本章正文做媒介说明，未改变彭芮到站、屏一处下架或2016旧记录结论。
+- 修后357草稿 `47cb30c02106e5fe9d59ea8a88342ca6b7872cd0` 有效字3541；新SHA独立Pass A/B Reader 0/0/2，另行Continuity/Style/Meaningful QA PASS；超优选3400字符141但仍在硬上限3800内，两条独立事件支持长度；候选精确CI结构验证成功后方进入ready。

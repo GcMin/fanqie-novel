@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 355
+last_updated_chapter: 357
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1203,3 +1203,15 @@ chapter_355_relationship_update:
   du_shifu_ma_yun: "马芸允许退休参与者只签可核岗位与本人回忆，尊重其拒公开录音和照片；杜师傅主动将当时见红字改为见红色痕迹，不被推作历史旧物鉴定人。"
   du_shifu_lao_qi: "老齐希望以本人旧衬回忆指向2011同件，被杜师傅明确纠正后主动道歉，双方只承认各自能见证的2016维修/Day195拆存和Day217移交。"
   zhou_heng_xia_ning_liang_ce: "周衡想追旧字来源但接受有限口述，夏宁和梁策坚持岗位核身/隐私/查询收件分层，机构没有获得私人电话或原始受限旧簿。"
+
+chapter_356_relationship_update:
+  chapter: 356
+  ma_yun_archive_staff: "档案员按合法范围核实原册页项、写明形成时间和补记未鉴定；马芸只登记可复核的匿名页项与旧衬可能沿用，拒将班组章推成落笔人。"
+  ma_yun_lao_qi: "老齐想把原册红痕和现场旧衬直接认作现代窄片，马芸坚持无独立料号不能签字确认。"
+  night_center: "夏宁制止周衡将查询仅收件预先当作旧簿存在，待有权阅档后才记实际有限回告。"
+
+chapter_357_relationship_update:
+  chapter: 357
+  peng_rui_night_center: "彭芮停留公众安全侧请求知道可走道路与误导来源，梁策不要求撤投诉，夏宁按道路岗当次核实转述；彭芮本人21:17已到站前广场，后续乘车不代写。"
+  ma_yun_lao_qi_archive_staff: "马芸提醒领用警戒带者不等于亲眼见红痕者，档案岗位仅授权去身份业务行，老齐接受分来源查证。"
+  zhou_heng_xia_ning_liang_ce: "周衡将旧图上两处真实信息错接与两册旧档缺少同一人联系区分，夏宁和梁策保留各自真实经手限度，不冒认全网图层修复。"

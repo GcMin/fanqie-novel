@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 355
-last_reviewed_title: "那个愿意作证的人，只记得一抹红"
-last_source_path: chapters/draft/0355.md
-last_source_sha: 218f790ee9f5e65eb8a44ab10e203675917f1199
-last_review_path: reader_reviews/0355_218f790e.md
+last_reviewed_chapter: 357
+last_reviewed_title: "绿线画到锁着的门前"
+last_source_path: chapters/draft/0357.md
+last_source_sha: 47cb30c02106e5fe9d59ea8a88342ca6b7872cd0
+last_review_path: reader_reviews/0357_47cb30c0.md
 last_reviewed_at: "2026-10-29"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 354
-depends_on_source_sha: f2740929f7a517731b4a9134debee5fc945e43c1
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: f2740929f7a517731b4a9134debee5fc945e43c1
+depends_on_chapter: 356
+depends_on_source_sha: f773c7c3adaa02f7fb4fc3f5cca36d40b6c453cd
+dependency_status: verified_predecessor_metadata_only_factual_compatible
+predecessor_current_source_sha: f773c7c3adaa02f7fb4fc3f5cca36d40b6c453cd
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2261,5 +2261,41 @@ chapter_355_reader_20261029:
   effective_chars: 3287
   predecessor_ready_blob: "f2740929f7a517731b4a9134debee5fc945e43c1"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_356_reader_20261029:
+  chapter: 356
+  original_source_sha: "0bd59c259a67108052b286763fb2500f1c78e7d3"
+  final_source_sha: "0bd59c259a67108052b286763fb2500f1c78e7d3"
+  final_review: reader_reviews/0356_0bd59c25.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
+  reviews_this_cycle: 1
+  local_revision_used: 0
+  body_revisions: 0
+  effective_chars: 2906
+  predecessor_ready_blob: "2f9a7b9f348987ff52866c9a33df01496fdd5782"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_357_reader_20261029:
+  chapter: 357
+  original_source_sha: "abb2018e8f04b58e79c2e451bd38751dc277a4be"
+  initial_review: reader_reviews/0357_abb2018e.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_source_sha: "47cb30c02106e5fe9d59ea8a88342ca6b7872cd0"
+  final_review: reader_reviews/0357_47cb30c0.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 1
+  corrected_fields: [mobile_forwarded_kiosk_screenshot, predecessor_ready_sha, dependency_status, char_count, chapter_0357_plan]
+  effective_chars: 3541
+  predecessor_original_draft_sha: "0bd59c259a67108052b286763fb2500f1c78e7d3"
+  predecessor_ready_blob: "f773c7c3adaa02f7fb4fc3f5cca36d40b6c453cd"
+  predecessor_body_identical: true
+  dependency_status: verified_predecessor_metadata_only_factual_compatible
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

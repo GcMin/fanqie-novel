@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 357
+title: "绿线画到锁着的门前"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "abb2018e8f04b58e79c2e451bd38751dc277a4be"
+source_draft_sha: "47cb30c02106e5fe9d59ea8a88342ca6b7872cd0"
+initial_review: reader_reviews/0357_abb2018e.md
+reader_review: reader_reviews/0357_47cb30c0.md
+depends_on_chapter: 356
+depends_on_source_sha: "f773c7c3adaa02f7fb4fc3f5cca36d40b6c453cd"
+dependency_status: verified_predecessor_metadata_only_factual_compatible
+timeframe: "Day219 20:23—Day220 20:00，第217/218次夜班"
+summary: >-
+  Day219 20:23彭芮在白榆旧站东侧便利店合法公众侧收到旧路引导困惑，手机看的是别人转发的商圈便民屏错误步行图截图而非实时导航：西侧真实公众路面恢复字样套在旧全站图，蓝线错误穿越仍锁着的东工门，彭芮未翻围栏且仅同意本次回话号码。20:38道路有责值守确认东工门和维修便道仍非公众通道；21:06现场巡查实核南侧合法信号人行路并清移占道围栏后核净宽，21:17彭芮本人到达站前广场，不证明搭车或回家。22:04商圈便民屏运营岗位查旧手工路线与新文字错套，真实下架一处错误蓝线、保留操作源；其他商圈屏、截图传播及外部地图未核，不能冒称全网纠正。Day220 09:42马芸在可检目录找到2016年4月夜巡临护用品周转册，11:28获限项阅准，12:07见原册4月11日22:34两卷警戒带领给巡查小组、次晨07:51返库一卷另卷现场耗用及白班接续号；13:19出具去身份摘录，15:02资产主管核两独立来源只可支持当晚确有临护，17:27中心限项知悉。该周转册不记红痕、执笔者或旧衬身份，不能证明4月11日22:17巡修栏当时即时写成，旧字作者年代、2011相似衬件与Day195现片唯一同一、沈家原册同源均未知。16:48受托技术保管方仅回当日监测未报需升级的外部异常，不是长期保管合格证明。20:00第218夜班；带字窄片依旧技术受托至Day222 16:00，外板支件不随，14旧错原印11受控3未收及2照片复制分管，沈家私册仍妹妹家，东工门维修道禁公众，F008/M004/M005不证。
+meaningful_state_changes:
+  - "彭芮不尝试越过锁门，由道路岗核实并清障后实际步行到合法站前广场；未确认搭车或回家。"
+  - "本商圈便民屏一处过期蓝线按源真实下架，但转发截图与其它地图副本是否修好仍待核。"
+  - "2016年4月11日夜间临护得到另一个有实物出入登记的独立业务来源，仅支持临护实事而不认红痕作者或原物同一。"
+knowledge_updates:
+  - "周衡夏宁梁策区分实时道路路权与旧图复用；公众个人手机截图、商圈屏原图及外部地图属于不同传播层，只纠本屏不等于覆盖转发。"
+  - "马芸及档案员承认夜巡栏22:17、材料领用22:34和次晨返还可交叉支持临护，但无法凭17分钟证明同一人笔迹或旧窄片身份。"
+relationship_updates:
+  - "彭芮在本次道路安全处置中获独立实测路线而不被要求撤诉或提供工作单位；梁策先确认她在合法公众侧。"
+  - "老齐经马芸提醒不再把用品领用人自动认作红痕目击者，中心与资产岗独立保留不同来源。"
+foreshadowing_updates:
+  - "F003补2016同夜临护用品实际领还记录，旧红痕何人何时形成、与2011旧衬和现存窄片是否同一仍未获证；F008/M004/M005无新样本或结论。"
+ending_state: "Day220 20:00第218次夜班，白榆东工门和维修道仍禁公众，本商圈屏旧蓝线已下架其他转载未核；2016夜巡临护有两独立业务来源但无原字作者；窄片受托至Day222 16:00，旧错原印11受控3未收。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "abb2018e8f04b58e79c2e451bd38751dc277a4be", final_draft_sha: "47cb30c02106e5fe9d59ea8a88342ca6b7872cd0", initial_counts: "0/2/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, body_delta_effective_chars: 46, corrected_fields: [forwarded_screenshot_source, predecessor_ready_sha, dependency_status, chapter_0357_plan, char_count], predecessor_original_draft_sha: "0bd59c259a67108052b286763fb2500f1c78e7d3", predecessor_ready_blob: "f773c7c3adaa02f7fb4fc3f5cca36d40b6c453cd", predecessor_body_identical: true, proposed_ready_blob: "a4a37eff4f3846600c704e728e0613a640d5375a"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3541
