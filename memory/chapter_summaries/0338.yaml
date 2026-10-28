@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 338
+title: "柜门外的水线，柜门里的旧字"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "b585d7ee039034f742a01c47c3f2e2f66ab3cdaa"
+reader_review: reader_reviews/0338_b585d7ee.md
+depends_on_chapter: 337
+depends_on_source_sha: "ed6e52ebda7fa6b5a118b56f636220980f17f62f"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day199 20:47—Day200 20:00，第197/198次夜班"
+summary: >-
+  Day199 20:47道路设施所原旧牌存柜外出现墙角渗水线，马芸20:56报告、21:19待电气专业隔离、21:32林工准许同单位内部移库；21:53清点外板旧支件封袋窄铁皮、22:09双人逐件实际签收新干燥柜，旧柜置空，实物未出库未清退、袋封完整。22:17原柜脚受潮，夜间中心收到“移交”模糊标题但经夏宁有源核明仅库内迁柜，原通知不删除。Day200 08:12新旧柜真交接，11:08专业修排水接口、17:07电气专业另复核解除隔离；原柜仍湿待仓储复核，资产主管只批准当前新柜有效位置。15:06资产有权人正式递交2016年4月12日白榆路西侧立柱装配工作单及附件目录窄查询，15:22仅收件且有后续许可程序，不证记录存在或准阅。20:00第198次夜班有限传达。2014预排撤回只排具体候选，2016照片只证当时在场不见背字，旧字作者年代、沈家私册同源、旧个体获答、F008/M004/M005仍未知；沈父私册仍妹妹家，东工门维修道公众禁入，旧错图14原印10控4未收两影印各受控。
+meaningful_state_changes:
+  - "Day199 22:09三旧件由原柜真实双人点对后库内迁新柜，封袋完整未出库。"
+  - "Day200 15:22窄范围2016装配资料目录申请已真实收件，存在性和准阅仍未知。"
+  - "屋面和电气分项专业处理完成，旧柜仓储干燥复用尚未核准。"
+knowledge_updates:
+  - "库内移柜不等于资产出库，修屋面不等于旧柜干燥。"
+  - "档案收件不等于已取得原始施工档与背字来源。"
+relationship_updates:
+  - "马芸、林工、资产岗、电气/房屋专业与中心各守权限，内部原照及私人资料未外传。"
+foreshadowing_updates:
+  - "F003新增保管真实位置和2016资料目录待审节点，F008/M004/M005不升级。"
+ending_state: "Day200 20:00第198次夜班；三件在设施方新柜双签受控，旧柜仍潮，2016装配资料只收件待查，旧字来源与私人册关系未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "b585d7ee039034f742a01c47c3f2e2f66ab3cdaa", final_draft_sha: "b585d7ee039034f742a01c47c3f2e2f66ab3cdaa", body_revisions: 0, reviews_this_cycle: 1, predecessor_ready_blob: "ed6e52ebda7fa6b5a118b56f636220980f17f62f", predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3124

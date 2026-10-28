@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 337
-last_reviewed_title: "那车旧料没出库，铁皮仍在原处"
-last_source_path: chapters/draft/0337.md
-last_source_sha: 0c609210e48c4c34ae0c5ec4d4c51163ee45e946
-last_review_path: reader_reviews/0337_0c609210.md
+last_reviewed_chapter: 338
+last_reviewed_title: "柜门外的水线，柜门里的旧字"
+last_source_path: chapters/draft/0338.md
+last_source_sha: b585d7ee039034f742a01c47c3f2e2f66ab3cdaa
+last_review_path: reader_reviews/0338_b585d7ee.md
 last_reviewed_at: "2026-10-28"
 reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 336
-depends_on_source_sha: 525dfd6daace29cf8181e38f4dbf10c09be6fea7
-dependency_status: verified_predecessor_factual_delta_compatible
-predecessor_current_source_sha: 525dfd6daace29cf8181e38f4dbf10c09be6fea7
+depends_on_chapter: 337
+depends_on_source_sha: ed6e52ebda7fa6b5a118b56f636220980f17f62f
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: ed6e52ebda7fa6b5a118b56f636220980f17f62f
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1949,5 +1949,17 @@ chapter_337_reader_20261028:
   predecessor_original_draft_blob: "8e2640b39e7912cca95cbf4418218972fbf29333"
   predecessor_ready_blob: "525dfd6daace29cf8181e38f4dbf10c09be6fea7"
   dependency_status: verified_predecessor_factual_delta_compatible
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_338_reader_20261028:
+  chapter: 338
+  source_sha: "b585d7ee039034f742a01c47c3f2e2f66ab3cdaa"
+  review_path: reader_reviews/0338_b585d7ee.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
+  body_revisions: 0
+  effective_chars: 3124
+  predecessor_ready_blob: "ed6e52ebda7fa6b5a118b56f636220980f17f62f"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
