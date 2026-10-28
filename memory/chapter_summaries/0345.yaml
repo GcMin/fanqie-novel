@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 345
+title: "多出来的七天，不是一份来历"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "0b094a553a5e88c19102dfb530bd20455632cd03"
+source_draft_sha: "ea50a56bb29acd3b0e6bf5547c85ecdc0e450f0c"
+initial_review: reader_reviews/0345_0b094a55.md
+reader_review: reader_reviews/0345_ea50a56b.md
+depends_on_chapter: 344
+depends_on_source_sha: "19ae5312a2a1bcb13e86f1c8f888ac360b70fb33"
+dependency_status: verified_predecessor_metadata_only_factual_compatible
+timeframe: "Day206 20:38—Day207 20:00，第204/205次夜班"
+summary: >-
+  Day206 20:38老齐欲以“历史文物”标签越权定性窄铁片，马芸拒无依据永久收藏或清退，三件仍新柜封袋未出库，原临存期限Day208 16:00。Day207 09:05设施所召开五人有权分类评估，主管拒签永久保存，档案业务联系人明确受控旧照查阅不是馆藏接收；10:26专业保管人员在有责见证下仅重新做外套日期标签独立索引与非黏附支撑托，内袋未拆。11:48资产主管签单件窄铁片继续设施所临时存至Day215 16:00的新有权决定，替代Day208原到期时点，附Day211中午前保管环境复查和Day214 15:00前下一阶段处置建议，不自动延期；外板和支件按自身资产程序独立处理。13:46新期限正式录入且保留旧期限文件，15:12档案方许可仅匿名三项结论转夜班，20:00第205夜班，公众通路按有责现时核验，东工门维修道禁公众，私册在妹妹家、错路14原印10控4未收另两影印分保。2011相似衬片与现存件同一性、早期物料来源、背字年代作者、沈家私册同源以及F008/M004/M005仍未证。
+meaningful_state_changes:
+  - "Day207 10:26有权限见证改外层标签与非黏附保护托盘，内袋封口及实物位置、出库状态均未变。"
+  - "Day207 11:48有责主管真实签窄铁片单件有限续存至Day215 16:00，13:46登记，Day211与Day214两节点列入工作。"
+knowledge_updates:
+  - "档案旧照可查不等于馆藏接收、临时续存不等于文物认定、永久收藏或同源证明。"
+foreshadowing_updates:
+  - "F003暂时保持有资格后续依法查的物件，不增历史同一性与F008/M004/M005推断。"
+relationship_updates:
+  - "马芸、主管、档案联系人与技术保管员分别按职责签字，老齐放弃无权限贴历史文物标签，中心只取得授权文字。"
+ending_state: "Day207 20:00第205夜班；窄铁片原封设施所新柜获有期单件续存至Day215 16:00，Day211环境核查及Day214处置建议待实际办理，其来源与作者仍未查明。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0b094a553a5e88c19102dfb530bd20455632cd03", final_draft_sha: "ea50a56bb29acd3b0e6bf5547c85ecdc0e450f0c", initial_counts: "0/1/2", final_counts: "0/0/2", local_revision_used: 1, body_revisions: 0, corrected_fields: [predecessor_ready_blob, dependency_status, chapter_0345_plan], predecessor_original_draft_sha: "89f526e35ba6b038c444ff34c79be60dcdc9c4de", predecessor_ready_blob: "19ae5312a2a1bcb13e86f1c8f888ac360b70fb33", predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3197

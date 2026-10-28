@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 343
+last_updated_chapter: 345
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1137,3 +1137,14 @@ chapter_343_relationship_update:
   lao_zhu_public: "老祝不替推车女子指旧东工门，主动请求有责道路岗确认真正可走路。"
   zhou_heng_xia_ning_liang_ce: "按真实路权与内用标识区分；不把女子只到菜店的反馈扩成到家或专业无障碍验收。"
   ma_yun_asset_supervisor: "受控核历史点位以限项回中心，马芸不因柱编号已核就为窄铁片补领料来源。"
+
+chapter_344_relationship_update:
+  chapter: 344
+  ma_yun_lao_qi: "老齐因旧照缺角推已经同件，马芸分清形貌、照片权限、唯一物料链；工作关系未实质改变。"
+  asset_supervisor_archivist: "主管依规申请有限原照，档案方只许去身份三项转录，未开放原照片传播。"
+  zhou_heng_xia_ning_liang_ce: "只按允许的限项文字更新旧衬片早期线索，公众实际路权仍以有责专业判断为准。"
+chapter_345_relationship_update:
+  chapter: 345
+  ma_yun_asset_supervisor_technical: "马芸依不同岗位权责当场见证外层保护，主管签有限有责新期限，技术员只签保护动作不签来源/档案接收。"
+  lao_qi_ma_yun: "老齐提出历史文物和永久保留标签被拒，最终只在规定责任内读编号；未引入私人权属或新同源判断。"
+  zhou_heng_xia_ning_liang_ce: "夏宁核真实签批才更新续存状态，周衡保留材料来源空白，梁策优先公众路权；人物关系没有无据跃迁。"

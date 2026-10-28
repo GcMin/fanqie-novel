@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 344
+title: "那张旧照片里，缺角还在原位"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "89f526e35ba6b038c444ff34c79be60dcdc9c4de"
+reader_review: reader_reviews/0344_89f526e3.md
+depends_on_chapter: 343
+depends_on_source_sha: "4a9e1747ca4e168f7e1fdffa7f62a22228896a9a"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day205 20:46—Day206 20:00，第203/204次夜班"
+summary: >-
+  Day205 20:46设施方资产主管要求马芸对三件旧牌拆件分项准备到期前处置依据，窄片仍仅准保至Day208 16:00。Day206 09:36真实申请2011旧西侧一号原巡查照片与部件备注，11:09部分合法准阅，11:47双人受控实际查两张原照片和“正面板更换，背衬现件留用”原业务备注，照片显示同点位有斜缺角旧孔的相似窄背衬，但看不见背面红字及独立料件号，无法百分之百证明是现存窄片同一件。14:32准予三个匿名业务结论外转，原图不外传。16:20主管实际登记Day207上午单件保管与处置评估，**评估尚未进行且未批准延存**。Day206 20:00第204夜班，三件新柜原封未出库、Day208原期限不变、东工门及维修道禁公众、沈父私册仍妹妹家、14旧红章原印10受控4未收另两影印分保，F008/M004/M005未证。
+meaningful_state_changes:
+  - "合法查2011同点位原照片和背衬留用备注，新增早于2016的同形衬件有界线索，现存铁片的唯一同一性仍未证。"
+  - "Day206 16:20主管真的登记Day207评估时间，但没有擅自续期或出库。"
+knowledge_updates:
+  - "旧柱编号和当年类似背衬照片不等于物料独立身份、作者/字年代、沈父私册同源。"
+foreshadowing_updates:
+  - "F003增加2011早期相符物件的实物线索，不提前证实F008/M004/M005。"
+relationship_updates:
+  - "马芸守法定保管，老齐的直觉同件判断被主管和照片边界纠正，夜班中心只接许可文字。"
+ending_state: "Day206 20:00第204夜班；Day207评估已约定未作，新柜三件原封、Day208 16:00期限未改，2011同点位有相似旧衬件但是否现存同件未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "89f526e35ba6b038c444ff34c79be60dcdc9c4de", final_draft_sha: "89f526e35ba6b038c444ff34c79be60dcdc9c4de", reviews_this_cycle: 1, local_revision_used: 0, body_revisions: 0, predecessor_ready_blob: "4a9e1747ca4e168f7e1fdffa7f62a22228896a9a", predecessor_body_identical_to_last_draft: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3313

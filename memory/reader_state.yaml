@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 343
-last_reviewed_title: "旧号找到了柱，铁皮还没有来处"
-last_source_path: chapters/draft/0343.md
-last_source_sha: 79ff3bba2f8947d4a771267170124905bd7ae262
-last_review_path: reader_reviews/0343_79ff3bba.md
+last_reviewed_chapter: 345
+last_reviewed_title: "多出来的七天，不是一份来历"
+last_source_path: chapters/draft/0345.md
+last_source_sha: ea50a56bb29acd3b0e6bf5547c85ecdc0e450f0c
+last_review_path: reader_reviews/0345_ea50a56b.md
 last_reviewed_at: "2026-10-28"
-reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
+reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 342
-depends_on_source_sha: f0960badf42e3b1991f3f637e0c07475f9cc316f
-dependency_status: verified_predecessor_factual_delta_compatible
-predecessor_current_source_sha: f0960badf42e3b1991f3f637e0c07475f9cc316f
+depends_on_chapter: 344
+depends_on_source_sha: 19ae5312a2a1bcb13e86f1c8f888ac360b70fb33
+dependency_status: verified_predecessor_metadata_only_factual_compatible
+predecessor_current_source_sha: 19ae5312a2a1bcb13e86f1c8f888ac360b70fb33
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2049,5 +2049,40 @@ chapter_343_reader_20261028:
   predecessor_factual_delta: "six relative-day phrase corrections only"
   predecessor_factual_compatible: true
   dependency_status: verified_predecessor_factual_delta_compatible
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_344_reader_20261028:
+  chapter: 344
+  source_sha: "89f526e35ba6b038c444ff34c79be60dcdc9c4de"
+  review_path: reader_reviews/0344_89f526e3.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
+  reviews_this_cycle: 1
+  local_revision_used: 0
+  body_revisions: 0
+  effective_chars: 3313
+  predecessor_ready_blob: "4a9e1747ca4e168f7e1fdffa7f62a22228896a9a"
+  predecessor_last_reviewed_draft_sha: "79ff3bba2f8947d4a771267170124905bd7ae262"
+  predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_345_reader_20261028:
+  chapter: 345
+  original_source_sha: "0b094a553a5e88c19102dfb530bd20455632cd03"
+  initial_review: reader_reviews/0345_0b094a55.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "ea50a56bb29acd3b0e6bf5547c85ecdc0e450f0c"
+  final_review: reader_reviews/0345_ea50a56b.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+  reviews_this_cycle: 2
+  stage_a_local_revision_used: 1
+  body_revisions: 0
+  effective_chars: 3197
+  predecessor_original_draft_sha: "89f526e35ba6b038c444ff34c79be60dcdc9c4de"
+  predecessor_ready_blob: "19ae5312a2a1bcb13e86f1c8f888ac360b70fb33"
+  predecessor_body_identical: true
+  dependency_status: verified_predecessor_metadata_only_factual_compatible
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

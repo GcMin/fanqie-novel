@@ -5,12 +5,12 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - source_main_sha: 02e86ca4fa42f841e9b1ba3352985b379d2e4886
-- predecessor_path: chapters/draft/0344.md
+- predecessor_path: chapters/ready/0344.md
 - depends_on_chapter: 344
-- depends_on_source_sha: "89f526e35ba6b038c444ff34c79be60dcdc9c4de"
-- dependency_status: provisional
-- dependency_facts_used: "第344章仍是未审draft；Day206 20:00第204次夜班开始。Day206 11:47获准核2011旧西侧一号原照片与部件备注，相符缺角旧孔及当时背衬现件留用仅支持早期同点位有相符衬片，未证明与现存窄铁片百分之百同件、作者、背字年代、料件来源；Day206 16:20实际登记Day207上午资产/档案/保管评估，尚无续存批准；设施所新柜三件原封、窄铁片保管截止Day208 16:00；白榆旧东工门维修道禁公众，沈家私人册在妹妹家。"
-- provisional_boundary: "前章344未经独立Reader/QA；不得将其比对结论或Day207预约作为正式Canon。若344日后修订影响时点、2011照片范围或保管事实，独立Audit需核本章与依赖版本的事实兼容性。"
+- depends_on_source_sha: "19ae5312a2a1bcb13e86f1c8f888ac360b70fb33"
+- dependency_status: verified_predecessor_metadata_only_factual_compatible
+- dependency_facts_used: "第344章已完成独立Reader/QA并ready；Day206 20:00第204次夜班开始。Day206 11:47获准核2011旧西侧一号原照片与部件备注，相符缺角旧孔及当时背衬现件留用仅支持早期同点位有相符衬片，未证明与现存窄铁片百分之百同件、作者、背字年代、料件来源；Day206 16:20实际登记Day207上午资产/档案/保管评估，尚无续存批准；设施所新柜三件原封、窄铁片保管截止Day208 16:00；白榆旧东工门维修道禁公众，沈家私人册在妹妹家。"
+- predecessor_verification: "344独立Reader 0/0/2、Continuity/Style QA PASS；原draft 89f526e35ba6b038c444ff34c79be60dcdc9c4de→ready 19ae5312a2a1bcb13e86f1c8f888ac360b70fb33小说正文逐字相同，仅交付Front Matter差异。345只重绑依赖SHA和状态不改正文，新草稿SHA ea50a56bb29acd3b0e6bf5547c85ecdc0e450f0c重新独立Pass A/B 0/0/2；Day206 2011照片边界、Day207评估登记和Day208原期限承接均事实相符。"
 - target_effective_chars: 2600-3400
 - hard_range: 2300-3800
 - actual_effective_chars: 3197
@@ -40,5 +40,5 @@
 
 ## Continuity Precheck（Writer only）
 - 从main 02e86ca4fa42f841e9b1ba3352985b379d2e4886读取AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md，bible四份主规则和三位主要人物卡；结合静态volume_05与outlines/arcs/arc_current（两者过期，以现行ready事实、Memory的ARC-054及实际草稿344优先），读取角色/关系/知识/世界、时间线、伏笔与当前弧，334—343十章摘要以及340—344五章正文及344章纲；未读取历史reader_reviews。
-- main上第153章存在于chapters/published/0153.md；三目录最高章号344，本章和计划0345不存在；前章344是未审草稿，完整Git blob 89f526e35ba6b038c444ff34c79be60dcdc9c4de，本章依赖状态固定为provisional，非正式Canon。没有改变已ready章节、旧Canon或前章正文。
+- main上第153章存在于chapters/published/0153.md；三目录最高章号344，本章和计划0345不存在；前章344正式ready blob 19ae5312a2a1bcb13e86f1c8f888ac360b70fb33，原draft 89f526e35ba6b038c444ff34c79be60dcdc9c4de与其正文完全一致，本章依赖状态固定为provisional，非正式Canon。没有改变已ready章节、旧Canon或前章正文。
 - 本轮仅Planner、Continuity Precheck、Writer新增计划和draft；不执行Reader/Editor/Revision/QA/Memory/Publish Gate，不发布番茄；以实际main最新HEAD作为base tree与parent，GitHub两个blob同一Tree+Commit且expected_sha、force:false更新，冲突则停止并重读。
