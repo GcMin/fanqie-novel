@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 359
+last_updated_chapter: 360
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1225,3 +1225,8 @@ chapter_359_relationship_update:
   song_qi_chen_staff_liang_ce: "宋齐不肯被平台要求冒领三件实物，陈值守按职责留下到场未交出记录，梁策只在公开停车区提供可核任务事实，不替劳动合同方下结算决定。"
   ma_yun_lao_qi: "马芸保留老齐核过的Day195真三件初拆记录，又拒让旧清单自动升级为今天三件取货许可；两人接受现时短托只涉及窄片。"
   night_center: "周衡夏宁按记录权限区别司机到场/物品出库和有责撤单/新托，不因人争执或系统自动绿勾直接归责恶意。"
+chapter_360_relationship_update:
+  chapter: 360
+  song_qi_liu_lan: "司机拒签没发生的交接和主动授权最小回执用于本人结算；刘岚在系统红字和真实证据间选择保留源错误、单笔更正且不夸口赔付错失班次。"
+  song_qi_night_center: "宋齐最初准备自认扣罚，周衡/夏宁只解释可核来源与业务授权界限，梁策提示保管方证零出库；其逐步独立争取自身事实，不被要求交账号或签不存在的提货。"
+  contract_and_dispatch: "合同经理核本单零货并撤不利结算，调度有权岗位只单次解禁，漏跑费用和类似司机纠错方案仍需有责另定。"

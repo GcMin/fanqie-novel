@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 359
-last_reviewed_title: "空车停在保管室门外"
-last_source_path: chapters/draft/0359.md
-last_source_sha: d8c46f2b0865cd4989484352a6c5a81d3801db70
-last_review_path: reader_reviews/0359_d8c46f2b.md
+last_reviewed_chapter: 360
+last_reviewed_title: "空车没有货，司机却收到了扣款单"
+last_source_path: chapters/draft/0360.md
+last_source_sha: c9da965dbfc044044870c91c17cbd9235e4efab3
+last_review_path: reader_reviews/0360_c9da965d.md
 last_reviewed_at: "2026-10-29"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 358
-depends_on_source_sha: 28baa88230cf7e6520c5b94731ed9fac04b831d0
-dependency_status: verified_predecessor_metadata_only_factual_compatible
-predecessor_current_source_sha: 28baa88230cf7e6520c5b94731ed9fac04b831d0
+depends_on_chapter: 359
+depends_on_source_sha: a419b81ac77a0d4160b088e3c1c83ff054f37788
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: a419b81ac77a0d4160b088e3c1c83ff054f37788
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2333,5 +2333,20 @@ chapter_359_reader_20261029:
   predecessor_ready_blob: "28baa88230cf7e6520c5b94731ed9fac04b831d0"
   predecessor_body_identical: true
   dependency_status: verified_predecessor_metadata_only_factual_compatible
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_360_reader_20261029:
+  chapter: 360
+  original_source_sha: "c9da965dbfc044044870c91c17cbd9235e4efab3"
+  final_source_sha: "c9da965dbfc044044870c91c17cbd9235e4efab3"
+  review: reader_reviews/0360_c9da965d.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 1
+  local_revision_used: 0
+  body_revisions: 0
+  effective_chars: 3190
+  predecessor_ready_blob: "a419b81ac77a0d4160b088e3c1c83ff054f37788"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

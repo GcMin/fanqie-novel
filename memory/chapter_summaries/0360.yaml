@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 360
+title: "空车没有货，司机却收到了扣款单"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "c9da965dbfc044044870c91c17cbd9235e4efab3"
+source_draft_sha: "c9da965dbfc044044870c91c17cbd9235e4efab3"
+reader_review: reader_reviews/0360_c9da965d.md
+depends_on_chapter: 359
+depends_on_source_sha: "a419b81ac77a0d4160b088e3c1c83ff054f37788"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day222 20:23—Day223 20:00，第220/221次夜班"
+summary: >-
+  Day222 20:23司机宋齐向中心报告车队结算子系统把前夜真实到岗未提取误映为司机原因拒提，拟扣168元出车补贴并预告货损核查，次日排班灰格。Day222 21:08有责岗位核Day222 10:27已正式撤错误三件提货预约、车队子系统尚未核对接收；22:14刘岚解释结算只见拒提/拒交粗分类并先挂扣款不冒充批准。Day223 08:46宋齐到车队交本人可提供的到岗未提取回执，车载定位只证在场而非零出库；10:17合同经理按撤单号和保管室实体零出库核，12:24对本笔撤司机原因拒提的不利结算效力并保留旧原始错误数据。13:06有权调度签本次单次人工恢复派班资格，不追补上午已错过班次；16:31本人查本趟168元补贴进入本人可核工资预结算账户，早间漏跑收入、平台全局映射与合同空跑费用仍待责任方处理。20:00第221夜班，中心只收获授权有限结果。白榆窄铁片仍原封由技术室仅单件受托至Day226 16:00，另外两旧拆件仍原设施所，无实体提货，F003早期物料与原字来历、F008/M004/M005无新增证据。
+meaningful_state_changes:
+  - "本次司机错误拒提扣款效力获有权撤销，168元补贴本人实际核到预结算入账；系统原错误来源仍保全。"
+  - "因异常灰格的本人排班被单次人工解禁，但已错过班次收入和全局分类规则仍待核。"
+knowledge_updates:
+  - "周衡夏宁宋齐刘岚按授权区分真实到岗、车载定位、零实体交接、合同撤单、下游扣款与劳动争议不同层级，未拿一个绿勾或红字替代实物与劳动证据。"
+relationship_updates:
+  - "宋齐从准备认扣转为主动留凭据拒签未发生提货，刘岚承认按职责留错误源记录并推动本笔核查，不作尚无权限的赔付承诺。"
+foreshadowing_updates:
+  - "F003普通三件派工误分类仅改变现实司机结算，本次无红字年代作者、2011旧衬/现物同一或沈家私册同源证据；F008/M004/M005维持未证。"
+ending_state: "Day223 20:00第221次夜班，本笔168元本人已核入预结算并单次解禁，漏排班赔偿和系统全局整改待办；技术保管室单件窄片短托Day226 16:00，外板支件原设施所。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "c9da965dbfc044044870c91c17cbd9235e4efab3", final_draft_sha: "c9da965dbfc044044870c91c17cbd9235e4efab3", body_revisions: 0, local_revision_used: 0, predecessor_ready_blob: "a419b81ac77a0d4160b088e3c1c83ff054f37788", predecessor_factual_delta: none_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3190

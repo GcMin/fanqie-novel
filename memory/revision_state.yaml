@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 359
+current_chapter: 360
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0359.md
-current_source_sha: d8c46f2b0865cd4989484352a6c5a81d3801db70
-current_review_path: reader_reviews/0359_d8c46f2b.md
+current_source_path: chapters/draft/0360.md
+current_source_sha: c9da965dbfc044044870c91c17cbd9235e4efab3
+current_review_path: reader_reviews/0360_c9da965d.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0358_0359_reader_qa_candidate
+last_action: audit_0360_reader_qa_candidate
 last_action_date: 2026-10-29
 last_error: null
-last_diff_summary: "358原稿Reader0/0/2无需修正文；359原稿Reader0/1/2，Stage A仅因358预审稿与拟ready正文完全一致而重绑358新ready SHA及详纲，修后新SHA Reader0/0/2；两章独立内容QA PASS，须精确候选CI。" 
+last_diff_summary: "360原草稿Reader0/0/2，无须修订正文，前章359正式ready精确SHA一致；独立Continuity/Style/Meaningful QA PASS，须对精确候选CI执行结构检查。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -42,7 +42,7 @@ combined_audit_final_20261015:
   note: "前版Reader意见只绑定前版SHA；修订后新的Reader报告已存在并通过。"
 
 # source_sha of the final Reader Review refers to original draft; ready differs by metadata fields only.
-current_review_source_sha: d8c46f2b0865cd4989484352a6c5a81d3801db70
+current_review_source_sha: c9da965dbfc044044870c91c17cbd9235e4efab3
  
 combined_audit_chapter_154:
   stage: local_revision
@@ -1826,4 +1826,14 @@ chapter_359_revision_20261029:
   predecessor_ready_blob: "28baa88230cf7e6520c5b94731ed9fac04b831d0"
   predecessor_body_identical: true
   content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+combined_audit_chapter_360_20261029:
+  chapter: 360
+  source_sha: "c9da965dbfc044044870c91c17cbd9235e4efab3"
+  review: reader_reviews/0360_c9da965d.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "a419b81ac77a0d4160b088e3c1c83ff054f37788"
+  continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required
