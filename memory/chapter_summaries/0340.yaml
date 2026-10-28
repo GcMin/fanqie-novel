@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 340
+title: "建议书说要保留，领料栏却是空的"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "52662daf70cacb6df84eb742df8f477782826a1c"
+source_draft_sha: "c2c3ee542ae81ee9617e3a37b39e1ec4df450acb"
+initial_review: reader_reviews/0340_52662daf.md
+reader_review: reader_reviews/0340_c2c3ee54.md
+depends_on_chapter: 339
+depends_on_source_sha: "e09b70d12f0b501294809caa4ffd567c6f96905f"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day201 20:34—Day202 20:00，第199/200次夜班"
+summary: >-
+  Day201 20:34白榆旧牌三拆件系统按整套维修结算发临存到期清理提示，马芸未把提示当实物报废或合法处置，21:11资产值守区分外板、断螺钉支件、带字窄铁皮三种状态，窄铁片续存须资产主管核签，当夜仅拟审核。夏宁指出Day201 17:48的《旧件处理建议》仅拟申请，并未真准阅。Day202 09:12主管查原临存起点不得以Day199内部新柜移存或Day201外套更新倒改时钟，09:46有责档案窗口真正收《旧件处理建议》限项申请，11:28只通过去身份业务字段预审。13:06档案部分许可，有责资产双人受控查2016-04-12同工单旧件建议：原拟如不能继续使用应另配合格衬片，当日实际复核判定立柱内现场已有旧孔缺角金属薄片，在独立安全核验下作为非承重辅助衬片继续留用，且该件本次另领栏没有数量或独立物料号；建议旧字面不可作当代导向。14:49档案只准三项去身份结论外传，不外发签名与原扫描。16:07资产主管真正签当前窄铁皮仍在设施新柜原封袋临时存放至Day208 16:00，到期另评估不自动延期，另外两件各走独立资产处置程序均未出库。17:13夏宁获限项文字与期限并记来源，周衡不把2016现场已有断言成更早领用来源或与沈父私册同源，梁策维护当今公众西路可走东工门维修道禁公众。Day202 20:00第200夜班交接，新柜三旧件真实在位原袋完整，旧柜潮湿待专业复核，下一步仅拟检2016以前的合法维修/拆件目录，申请未提出。沈父私册妹妹家，旧错路图原印14张10受控4未收另两影印分控，1996真人实获答/2018 A2同笔/F008新样本/M004/M005依旧未证。
+meaningful_state_changes:
+  - "2016旧件处理建议由仅目录转为获得部分合法准阅的同时期材料处置文字，新增当次施工现场已存在窄衬片且无本次独立新领料记录的有限证据。"
+  - "Day202 16:07窄铁皮现时临存期限经有权主管真实签批至Day208 16:00，区别自动到期提示与旧2016建议；三旧件仍未出库。"
+knowledge_updates:
+  - "2016施工现场既有且沿用，不代表2016以前铁皮来自何库、何时制字、谁写或原路线合法；空白另领栏不能推全部其它历史账均无流转。"
+  - "库内移柜与更换外套日期不重设保管原起点；历史施工建议不等于今日有权续存决定。"
+relationship_updates:
+  - "马芸与主管管理现时实物和档案合规用途，中心只能接允许的三项去身份文字，不索取柜号原件或个人签认。"
+foreshadowing_updates:
+  - "F003有限新增2016原处既有件和现时有期保管；2016以前维修或拆件目录仅为拟下一窄询，F008/M004/M005未升级。"
+ending_state: "Day202 20:00第200夜班；2016附件仅证同处旧件沿用、现时窄铁皮依法短期存放至Day208 16:00，旧料更早来路、写字人和私册同源仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "52662daf70cacb6df84eb742df8f477782826a1c", final_draft_sha: "c2c3ee542ae81ee9617e3a37b39e1ec4df450acb", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, correction: "Day201_today_afternoon_instead_of_yesterday", reviews_this_cycle: 2, predecessor_ready_blob: "e09b70d12f0b501294809caa4ffd567c6f96905f", predecessor_exact_ready: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3503
