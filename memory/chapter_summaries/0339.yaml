@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 339
+title: "那行朝里的字，十年前就有人看见"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "acbca77093572a246cdf2f4160372a539ee74f1b"
+source_draft_sha: "e49a055b487be75d275c02225d47ed2c73a2e73e"
+initial_review: reader_reviews/0339_acbca770.md
+reader_review: reader_reviews/0339_e49a055b.md
+depends_on_chapter: 338
+depends_on_source_sha: "e88460d1d63a59fbdab914dd06408c971267d20a"
+dependency_status: verified_predecessor_metadata_only_factual_compatible
+timeframe: "Day200 20:23—Day201 20:00，第198/199次夜班"
+summary: >-
+  Day200 20:23马芸在已双人移库的安全新柜核旧牌三件封袋在位，旧柜仍潮；一张未经外发的转办便笺擅加找2016原施工人员的建议，21:05资产主管查业务流转岗来源并退回留痕，未实拨任何施工人或取私联。Day201 09:27有责档案方才批准2016-04-12西侧立柱加固的原作业记录与附件目录其中两页去身份业务内容受控查阅，10:08资产岗合规双人看原工单，手绘旧孔缺角折痕与旧窄铁皮特征对应，同年4月13日归档原始扫描有接收序号且经保管方核关联；补记明写“背面残留‘永安里方向’字样，朝内，不作新指引”，证明至迟2016作业记录已描述该旧字，但不能给原字写作年份作者、来源、意图或沈家私册同源作证。11:36见另一“旧件处理建议”只列在附件目录里，不在获准两页，不擅点开。14:18档案岗批准四项去身份文字回告，16:24夏宁交周衡；17:48资产主管仅登记下一项可评估窄申请，未递交或准阅。Day201 20:00第199次夜班，三件旧牌仍在设施方新柜、旧柜湿待查，私册妹妹家、旧东工门维修道禁公众、旧错图原印14张10控4未收另2影印分控。2014预排行已撤，1996旧人回话、2018 A2同笔、F008/M004/M005仍不证。
+meaningful_state_changes:
+  - "2016-04-12原始工单补记经2016-04-13真实归档接收链核实，已记录当时旧窄铁皮背面残留永安里方向，字样至少2016年当时有源记录。"
+  - "已实际部分合法准阅和批准去身份四项回告，但旧件处理建议内页未开放，下一申请仅拟稿。"
+knowledge_updates:
+  - "作业记录曾写旧字不证明谁写、何时最初写及有意隐藏，也不证明当代合法路权或私册同源。"
+relationship_updates:
+  - "有责资产/档案岗位阻止越界追个人，中心只获授权文字，沈家私册及设施内照不外借。"
+foreshadowing_updates:
+  - "F003增加2016旧字有源同时代文本，但2014预排撤回及F008/M004/M005边界不变。"
+ending_state: "Day201 20:00第199夜班；设施方新柜三件完好，2016有源旧字记录合法获知、旧件处理建议仅目录可见未准阅、原作者与来源未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "acbca77093572a246cdf2f4160372a539ee74f1b", final_draft_sha: "e49a055b487be75d275c02225d47ed2c73a2e73e", initial_counts: "0/2/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, fix: "title_six_to_ten_years_and_predecessor_ready_sha_rebind", predecessor_original_draft_sha: "b585d7ee039034f742a01c47c3f2e2f66ab3cdaa", predecessor_ready_blob: "e88460d1d63a59fbdab914dd06408c971267d20a", predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2937

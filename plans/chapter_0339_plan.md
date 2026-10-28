@@ -1,15 +1,15 @@
-# 第339章详细章纲：《那行朝里的字，六年前就有人看见》
+# 第339章详细章纲：《那行朝里的字，十年前就有人看见》
 
 - chapter: 339
 - volume: 6
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - source_main_sha: 5bd35965fd0257124ea31304e91a90d5960b0b47
-- predecessor_path: chapters/draft/0338.md
+- predecessor_path: chapters/ready/0338.md
 - depends_on_chapter: 338
-- depends_on_source_sha: "b585d7ee039034f742a01c47c3f2e2f66ab3cdaa"
-- dependency_status: provisional
-- dependency_facts_used: "仅临时依赖第338章未审草稿：Day199 22:09由设施所有权人员合法双人点对，将三件拆件安全移至同单位干燥新柜，原袋未开；Day200 11:08屋面接口修复、17:07电气隔离经专业解除但原柜仍潮湿未恢复；Day200 15:06对2016-04-12装配工作单与附件目录提出窄范围核询、15:22仅收件而非准阅；Day200 20:00第198夜班。此为provisional，不能当正式Canon。"
+- depends_on_source_sha: "e88460d1d63a59fbdab914dd06408c971267d20a"
+- dependency_status: verified_predecessor_metadata_only_factual_compatible
+- dependency_facts_used: "仅临时依赖第338章未审草稿：Day199 22:09由设施所有权人员合法双人点对，将三件拆件安全移至同单位干燥新柜，原袋未开；Day200 11:08屋面接口修复、17:07电气隔离经专业解除但原柜仍潮湿未恢复；Day200 15:06对2016-04-12装配工作单与附件目录提出窄范围核询、15:22仅收件而非准阅；Day200 20:00第198夜班。经独立审核及对比338原草稿与ready版仅Front Matter变化，正文完全一致；按最终ready依赖重绑，无事实差异。"
 - target_effective_chars: 2600–3400
 - hard_range: 2300–3800
 - actual_effective_chars: 2937
@@ -43,5 +43,5 @@
 
 - 已读取当前main 5bd35965fd0257124ea31304e91a90d5960b0b47 的AGENTS、config、writing_roles、ai_reading_protocol、bible四基础文件及三角色卡，最后静态volume_05与arc_current均滞后，采用当前实际第六卷ARC-054、memory/current_arc及已审核正文对齐。
 - 实读近十章0328—0337摘要、近五章0334—0337正式ready全文加0338未审draft全文，并读取人物/关系/知识/世界/伏笔/时间线、chapter_plan后段。未读取任何历史reader_reviews。
-- 目录三阶段中第153章已实际在published；最新existing章338仅为draft，目标339正文和章纲尚不存在。第338章Git blob b585d7ee039034f742a01c47c3f2e2f66ab3cdaa，因其尚未独立审核本章依赖必须provisional，并且Writer不得把第338章写作正式Canon。
+- 目录三阶段中第153章已实际在published；最新existing章338仅为draft，目标339正文和章纲尚不存在。338原草稿 b585d7ee039034f742a01c47c3f2e2f66ab3cdaa 与经内容QA后候选ready e88460d1d63a59fbdab914dd06408c971267d20a正文逐字相同，仅Front Matter不同。唯一Audit按事实比较后将339绑定最终ready，前338仍以精确候选CI成功为正式放行前提。
 - 只新增本章计划与draft，不修改既有文件、QA/Memory或发布；使用latest main为parent创建原子commit，以expected_sha/force:false提交main。

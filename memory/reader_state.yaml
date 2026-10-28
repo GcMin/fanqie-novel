@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 338
-last_reviewed_title: "柜门外的水线，柜门里的旧字"
-last_source_path: chapters/draft/0338.md
-last_source_sha: b585d7ee039034f742a01c47c3f2e2f66ab3cdaa
-last_review_path: reader_reviews/0338_b585d7ee.md
+last_reviewed_chapter: 339
+last_reviewed_title: "那行朝里的字，十年前就有人看见"
+last_source_path: chapters/draft/0339.md
+last_source_sha: e49a055b487be75d275c02225d47ed2c73a2e73e
+last_review_path: reader_reviews/0339_e49a055b.md
 last_reviewed_at: "2026-10-28"
 reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 337
-depends_on_source_sha: ed6e52ebda7fa6b5a118b56f636220980f17f62f
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: ed6e52ebda7fa6b5a118b56f636220980f17f62f
+depends_on_chapter: 338
+depends_on_source_sha: e88460d1d63a59fbdab914dd06408c971267d20a
+dependency_status: verified_predecessor_metadata_only_factual_compatible
+predecessor_current_source_sha: e88460d1d63a59fbdab914dd06408c971267d20a
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1961,5 +1961,22 @@ chapter_338_reader_20261028:
   effective_chars: 3124
   predecessor_ready_blob: "ed6e52ebda7fa6b5a118b56f636220980f17f62f"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_339_reader_20261028:
+  chapter: 339
+  original_source_sha: acbca77093572a246cdf2f4160372a539ee74f1b
+  original_review: reader_reviews/0339_acbca770.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  source_sha: "e49a055b487be75d275c02225d47ed2c73a2e73e"
+  review_path: reader_reviews/0339_e49a055b.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+  stage_a_used: 1
+  body_revisions: 0
+  effective_chars: 2937
+  predecessor_original_draft_sha: b585d7ee039034f742a01c47c3f2e2f66ab3cdaa
+  predecessor_ready_blob: "e88460d1d63a59fbdab914dd06408c971267d20a"
+  predecessor_body_identical: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
