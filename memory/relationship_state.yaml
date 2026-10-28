@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 347
+last_updated_chapter: 349
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1157,3 +1157,13 @@ chapter_347_relationship_update:
   chapter: 347
   zhou_heng_xia_ning_liang_ce: "既处理公共道路风险也遵守报险人的拒绝联系要求。"
   he_kui_zhang_jie_road_office: "贺葵只借电话报险，张姐不代接并拒披露去向；道路岗修复并更正本条错误回访。"
+
+chapter_348_relationship_update:
+  chapter: 348
+  ma_yun_lao_qi_xu_gong: "老齐放弃凭记忆补七次检查，马芸只接受实际用途与有责清单，许工划清技术读数范围；各自签真实岗位责任。"
+  zhou_heng_xia_ning_liang_ce: "夜间中心不以绿勾替设施资产技术签保管合格，保留不同来源的证据层级。"
+chapter_349_relationship_update:
+  chapter: 349
+  shen_ruoqin_sister: "妹妹一度怀疑姐姐擅捐旧册，站内错映撤下后本人取得事实回执并自主决定不交原册、只问公开目录。"
+  sister_cultural_office: "文化站只担本站映射责任，留历史错误日志，依妹妹授权给有限回执而不强求私人旧册移交。"
+  ma_yun_lao_qi: "老齐担心又移旧物，马芸强调Day212只是合规条件勘查、批准和交接尚未发生。"

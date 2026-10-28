@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 348
+title: "柜门开过七次，表上只记了一次"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "1e292167d2ad8542cea1e98a52ffff4efb51c6e0"
+source_draft_sha: "1e292167d2ad8542cea1e98a52ffff4efb51c6e0"
+reader_review: reader_reviews/0348_1e292167.md
+depends_on_chapter: 347
+depends_on_source_sha: "cb4cee9c78ee760e0cec986b3cee611d51ba68e5"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day209 20:17—Day211 20:00，第207/208/209次夜班"
+summary: >-
+  Day209 20:17周衡夏宁核日检绿勾仅为日常状态非Day211技术复查。Day210上午马芸核前一天七次共柜开门与仅一项日检，开柜不等于开袋；因靠门及上层此前无连续点位环境数据，不补签。Day210 14:00主管仅准逐件迁走高频日用件，三件白榆旧牌拆件原封原格位未出库。Day211 09:08许工按权限查柜门/托盘/封袋可见部分与现场点位，靠门首次偏高经复测回落，柜顶趋势不等于上层靠门环境，旧数据未删；11:33提交有限复查报告，11:47主管登记真实完成，但环境仍须持续观察。Day214 15:00前资产建议应附实际开门和测量数据并可列替代保管条件，窄铁片仍在设施所新柜单件受控至Day215 16:00，到期不自动延。Day211 17:30中心只得到去身份有限回告，20:00第209夜班。旧铁片来源作者年及与沈家旧册同源未证。
+meaningful_state_changes:
+  - "有责迁走共柜频繁领用的小件，三旧拆件未移也未开内袋。"
+  - "Day211技术复查真实完成却仅有有限环境结论，Day214建议和Day215期限明确保持。"
+knowledge_updates:
+  - "日检绿勾和开门次数不证明上层环境长期合格；周衡夏宁只知去身份结果，不知内袋照片和柜号。"
+foreshadowing_updates:
+  - "F003保管条件和有期合法证据得到跟进，F008/M004/M005无新增确证。"
+relationship_updates:
+  - "马芸要求老齐对每次领用留源签名，许工不替未知连续测量补签；中心尊重设施保管权限。"
+ending_state: "Day211 20:00第209次夜班，环境需观察；Day214 15:00资产建议未完成，Day215 16:00保管到期不自动延。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1e292167d2ad8542cea1e98a52ffff4efb51c6e0", final_draft_sha: "1e292167d2ad8542cea1e98a52ffff4efb51c6e0", initial_counts: "0/0/2", final_counts: "0/0/2", local_revision_used: 0, body_revisions: 0, predecessor_ready_blob: "cb4cee9c78ee760e0cec986b3cee611d51ba68e5"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3124

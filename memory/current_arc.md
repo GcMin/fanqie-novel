@@ -1,3 +1,10 @@
+# 第348—349章独立Audit双遍Reader和内容QA（2026-10-28）
+- 第348章原草稿 `1e292167d2ad8542cea1e98a52ffff4efb51c6e0`独立Pass A/B Reader **0/0/2**、3124有效字，不改正文；依赖第347章正式ready `cb4cee9c78ee760e0cec986b3cee611d51ba68e5`精确匹配。Day210迁共柜高频日用件但三旧牌拆件原封未出库；Day211 11:47技术复查真执行却靠门局部长期数据仍不足，不能判长期稳定。正式ready Blob `da805a577a6d7b0957deaabdec2b594640d516ee` 与原稿正文逐字一致，仅交付元数据变动，Continuity/Style/Meaningful QA PASS。
+- 第349章原稿 `c7e8a283a6ce8aa1af01ef3801f2c3613aac346b`独立Pass A/B Reader **0/2/2**，一处Day212“昨天迁件”错（真实Day210下午迁出），另一处绑定未审348草稿而不是ready。Stage A一处正文“昨天→前天”且修正正式依赖后新draft `57bf44135ca2c07abad3060fbcfc82f41fd7ac35`再次独立Pass A/B **0/0/2**、3142有效字，Continuity/Style/Meaningful QA PASS。
+- 第349章Day211 20:23沈若琴姐妹询文化站“旧站资料已收”裁切图；Day212查知只是咨询表单被误映成本机构内部已收和展品候选，10:06有责撤候选、10:21查本站已纠且保留原误映日志，外部旧截图未知，父亲私人旧册未移交。妹妹本人11:12仅提出2002旧北口修表摊公开目录题名及可用范围查询，只有收件、不证任何历史同址；14:40设施所仅准备Day214资产建议所需的替代保管条件勘查，未批准搬动旧窄片。Day212 20:00第210次夜班；Day214 15:00建议仍待办，Day215 16:00有责暂存期限不变。
+- F003历史旧字的作者年份、2011同形旧物与当下现物的唯一同一性、沈家私册是否同源均未确证；东工门和维修道禁公众，旧错路图原印14张10控4未收另两影印分保，F008可靠新人记忆样本/1996旧报修人真实回话/2018 A2同笔和M004/M005均未证。
+- 内容QA通过后仍须精确候选Git commit真实CI结构校验成功，才可进入main ready；不拿Reader或内容报告代替CI。
+
 # 第346—347章新SHA独立Reader/Continuity-Style QA（2026-10-28）
 - 346原draft `dcd382d990b539c301bbb087f9fdb078b7a29cb0` Pass A/B 0/1/2，按345末Day207 20:00交班时间校正原20:09首次接听为19:57，和20:26二次来电间隔，三处局部正文修复；新draft `2da21f87d8b1aa39b60e69012a740e87c79ca38c` 独立Pass A/B 0/0/2、Continuity/Style/Meaningful QA PASS，3358字，依赖345 ready `9a29c57ede73e6ff2ce5ba72b19e8aaec5d26642`精确。
 - 347原draft `f1ef03071b2c0d5ac2030eac843b7fa2e5fa137b` Pass A/B 0/2/2，改Day208 20:07“昨天”的南口复行记录为“今天”，并将前章临时SHA改346 ready `bd2b18094550ce9ee7499703b3a14e73c2b9d47e`。逐字核346正文事实增量只有首电时间与间隔，Day208 12:23南口恢复、20:00交班皆不变；新draft `23b1b72ddd5e5ae13e50281ef2b1efd9ffde00a9`独立Pass A/B 0/0/2、QA PASS，3033字。两章精确候选CI未通过前不可ready。

@@ -7,8 +7,8 @@
 - source_main_sha: e9be0a24def3b1398ad017a289e135610ade7441
 - predecessor_path: chapters/draft/0348.md
 - depends_on_chapter: 348
-- depends_on_source_sha: "1e292167d2ad8542cea1e98a52ffff4efb51c6e0"
-- dependency_status: provisional
+- depends_on_source_sha: "da805a577a6d7b0957deaabdec2b594640d516ee"
+- dependency_status: verified_predecessor_metadata_only_factual_compatible
 - dependency_facts_used: "第348章原稿Day211 11:33技术保管员实交检查报告、11:47资产主管登记：封存窄铁片及支撑可见状态未见需立即开封状况，新柜顶端长期探头不可代上层靠门的连续点位，门边一次偏高经复测回落但环境仍需持续观察；Day210高频日用件迁出但三件白榆旧牌拆件仍设施所新柜原封；窄铁片Day215 16:00当前合法临存，Day214 15:00前下一步资产处置建议尚未履行；Day211 20:00第209次夜班开始。上述事实基于未审draft版本，仅作临时依赖，不视为正式Canon。"
 - target_effective_chars: 2600–3400
 - hard_range: 2300–3800
@@ -46,3 +46,8 @@
 - 真实连接GitHub，以本轮读取的最新main `e9be0a24def3b1398ad017a289e135610ade7441` 为只读基线核 `AGENTS.md`、`config/novel.yaml`、`docs/writing_roles.md`、`docs/ai_reading_protocol.md`、四项bible及周衡、夏宁、梁策人物卡，当前卷6/ARC-054和长期Memory/伏笔/时间线/人物知识；最近0338–0347十章摘要和0344–0348五章全文已读，历史 `reader_reviews` 未读。卷纲和静态arc纲落后，采最新已验证正文与依赖原稿的实际时间为准。
 - 从 `published`、`ready`、`draft` 三目录取数值最大章节348；第153章已在 `published/0153.md`，第349章和相应章纲原先不存在；上一章在 `draft/0348.md`，其Git blob SHA `1e292167d2ad8542cea1e98a52ffff4efb51c6e0`，明确临时依赖。
 - Writer只新建本章计划与draft，不执行独立Reader、Revision、QA、Memory/Publish Gate，不发布番茄、不修改既有文件；使用最新main的Git tree原子创建两个文件与一个单parent commit，更新ref需expected_sha且force:false。
+
+## 独立Audit收尾勘误（2026-10-28）
+- 本文件 Writer Precheck 的 `1e292167d2ad8542cea1e98a52ffff4efb51c6e0` 为Writer创作当时的第348章临时草稿SHA，属于历史读取证据；它被审为Reader 0/0/2，正文零改，最终ready Blob `da805a577a6d7b0957deaabdec2b594640d516ee` 仅Front Matter有交付差异，348的Day210日用品迁出与Day211 11:47有限技术复查事实未变。
+- 第349章原draft `c7e8a283a6ce8aa1af01ef3801f2c3613aac346b`初审0/2/2，Stage A仅改Day212相对日期“昨天”为“前天”（实际迁件Day210），并把depends_on_source_sha绑定第348章ready。新Git blob `57bf44135ca2c07abad3060fbcfc82f41fd7ac35`重新独立双遍Reader 0/0/2，旧评论不得作为新稿放行依据。
+- 2002年前后旧北口修表摊**公开目录题名与利用范围**咨询仅收件、未获内页准阅及旧址证实，私人父亲旧册未交；白榆窄铁片Day214 15:00资产建议待办和Day215 16:00原封单件期限不变。

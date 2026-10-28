@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 349
+title: "那张旧纸，没有任何人替她签收"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "c7e8a283a6ce8aa1af01ef3801f2c3613aac346b"
+source_draft_sha: "57bf44135ca2c07abad3060fbcfc82f41fd7ac35"
+initial_review: reader_reviews/0349_c7e8a283.md
+reader_review: reader_reviews/0349_57bf4413.md
+depends_on_chapter: 348
+depends_on_source_sha: "da805a577a6d7b0957deaabdec2b594640d516ee"
+dependency_status: verified_predecessor_metadata_only_factual_compatible
+timeframe: "Day211 20:23—Day212 20:00，第209/210次夜班"
+summary: >-
+  Day211 20:23沈若琴与妹妹因文化服务站“旧站资料已收”截屏致电，家庭仅递过咨询表，父亲原册仍在妹妹家；中心21:04通过公开渠道只确问表单可能已收，未能查该笔。Day212 09:18姐妹本人在有权窗口核咨询表被自动错映为本站内部“材料已收”及展品候选，无原册入库、实物签收或上传内页。10:06负责岗按权撤本笔内部候选、保留旧日志，10:21核本站改为“咨询已受理，实物未接收，展示未授权”，外部保存旧截图不可保证全删；妹妹本人获有限事实回执。11:12妹妹本人仅递公开目录题名和可利用范围询，关于2002年前后旧北口修表摊，只有咨询收件未准阅，不证实际同址；沈若琴承认旧册的蓝字是她后来添注，不能代父亲证词。Day212 14:40设施方据Day211有限监测准备Day214处置建议的原柜观察与另一同单位合规候选空间两方案，尚未批准移物，Day210日用件迁出如实记为前天。18:09文化站按妹妹授权回话，20:00第210夜班；窄铁片Day215 16:00有期不变。
+meaningful_state_changes:
+  - "文化站错将咨询表单映为本站内部材料已收/展品候选的错误由有责岗位撤回且留原记录，妹妹取得限定事实回执。"
+  - "妹妹本人提出公开目录题名和开放范围窄申请只获收件；设施所开始候选空间条件勘查而未实际移物。"
+knowledge_updates:
+  - "妹妹保有私人旧册的实物与展示自主权；中心只记录限项回告，沈若琴的后来蓝字不是父亲原始证言。"
+foreshadowing_updates:
+  - "F003出现修表摊公开目录的窄查询入口但未准阅，不支持旧铁片与旧册同源；F008/M004/M005未证。"
+relationship_updates:
+  - "姐妹由误以为擅捐转为本人共同核旧误映，妹妹亲自决定纸本留家和接回话。"
+ending_state: "Day212 20:00第210次夜班，文化站本站误映纠正，外部旧截图未知；私册未交，Day214建议待办及Day215 16:00窄片到期不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "c7e8a283a6ce8aa1af01ef3801f2c3613aac346b", final_draft_sha: "57bf44135ca2c07abad3060fbcfc82f41fd7ac35", initial_counts: "0/2/2", final_counts: "0/0/2", local_revision_used: 1, body_revisions: 1, corrected_fields: [Day212_yesterday_to_day_before_yesterday, predecessor_ready_blob, dependency_status, chapter_0349_plan], predecessor_original_draft_sha: "1e292167d2ad8542cea1e98a52ffff4efb51c6e0", predecessor_ready_blob: "da805a577a6d7b0957deaabdec2b594640d516ee", predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3142
