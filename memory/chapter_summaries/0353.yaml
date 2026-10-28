@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 353
+title: "纸收回来了，路还得有人带"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "9a2082332a40fb3245c3963f6d969c3a48f243eb"
+source_draft_sha: "14de1ab010f66ca0cdc53be01c980abbbaa237c0"
+initial_review: reader_reviews/0353_9a208233.md
+reader_review: reader_reviews/0353_14de1ab0.md
+depends_on_chapter: 352
+depends_on_source_sha: "3335c424a08689195a36182eb2b7d7db9e202f4b"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day215 20:26—Day216 20:00，第213/214次夜班"
+summary: >-
+  Day215 20:26简叔在槐石路西口持旧红章错误路纸拟走封闭施工天桥到62路新站接外孙女；周衡未收外孙女电话号码，夏宁请道路岗实查，当晚20:47专业巡查核准从公众地面信号路到合法新站、施工桥及卸货口仍禁公众。21:09简叔真正与外孙女在站相见并交饭盒，返家未知，旧纸仍自持。Day216 10:17简叔自愿赴西巷活动室，先用本人手机拍存女儿写在旧纸背面的带饭盒私人字条；活动室先将纸列候核不算原印回收。11:04有责保管岗比对裁边短蓝线、断墨及合法发放登记确认属于14原印之一，11:21签收并给本人限项回执；原印由10实控4未收更新至11实控3未收，另两照片复制独立受控，未知转拍及余3原印去向不证。14:36专业道路岗另实核当日地面信号路可用，20:00第214夜班；中心只留真实数量和回执，不采集/拨打外孙女私人号码。白榆窄铁片仍原封原柜按Day215主管真签的单件决定至Day217 16:00，其余旧拆件另按自身程序，沈家私人册仍妹妹家；旧字作者年代、2011相似衬件是否同件、与沈家同源以及F008/M004/M005仍无确证。
+meaningful_state_changes:
+  - "由旧红章误认施工桥可通行转为遵当次道路专业实核合法地面路线，21:09真人在新站相见。"
+  - "简叔先留女儿背面私字影像，再自愿交出一张旧错误原印；Day216 11:21有责签收使14原印10/4变11/3，另两影印不混算。"
+knowledge_updates:
+  - "历史红章纸不能替代现时路权；新站真人相见不等于已回家，持有人旧纸背私字不证明原印来源。"
+  - "中心没获授权外孙女电话及姓名，不采集不代拨；家庭笔记与真正有责原印鉴别不同。"
+foreshadowing_updates:
+  - "F003仅有当代错路原纸实际回收，不证白榆铁片年代作者或沈家旧册同源，F008/M004/M005无新证。"
+relationship_updates:
+  - "外孙女提议用照片留住母亲笔迹，简叔能自愿交还危险旧指引；刘玲尊重持有人私字与交还的分离。"
+ending_state: "Day216 20:00第214夜班；14旧错路原印11受控3未收另两照片复制各受控，施工天桥与卸货口禁公众，白榆窄片单件到期Day217 16:00，旧物来源与失址机制未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "9a2082332a40fb3245c3963f6d969c3a48f243eb", final_draft_sha: "14de1ab010f66ca0cdc53be01c980abbbaa237c0", initial_counts: "0/1/2", final_counts: "0/0/2", local_revision_used: 1, body_revisions: 1, corrected_fields: [private_phone_wording, char_count, updated_at], predecessor_ready_blob: "3335c424a08689195a36182eb2b7d7db9e202f4b"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3104

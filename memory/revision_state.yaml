@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 352
+current_chapter: 353
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0352.md
-current_source_sha: c59eade9f6b8519928d4b99d4d5559aa69310e5b
-current_review_path: reader_reviews/0352_c59eade9.md
+current_source_path: chapters/draft/0353.md
+current_source_sha: 14de1ab010f66ca0cdc53be01c980abbbaa237c0
+current_review_path: reader_reviews/0353_14de1ab0.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0352_reader_qa_candidate
-last_action_date: 2026-10-28
+last_action: audit_0353_new_sha_reader_qa_candidate
+last_action_date: 2026-10-29
 last_error: null
-last_diff_summary: "352草稿原版Reader0/0/2，正文未修；前章351精确ready SHA已核；内容QA PASS，待精确候选CI校验成功后放行。"
+last_diff_summary: "353原SHA Reader0/1/2仅因私号表述局部修一句，修订后草稿独立Reader0/0/2与内容QA PASS，待精确候选Git Commit结构CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -42,7 +42,7 @@ combined_audit_final_20261015:
   note: "前版Reader意见只绑定前版SHA；修订后新的Reader报告已存在并通过。"
 
 # source_sha of the final Reader Review refers to original draft; ready differs by metadata fields only.
-current_review_source_sha: 2473f649974ca0aeea8cd38588bbb6d3becd48db
+current_review_source_sha: 14de1ab010f66ca0cdc53be01c980abbbaa237c0
  
 combined_audit_chapter_154:
   stage: local_revision
@@ -1721,3 +1721,20 @@ chapter_352_revision_20261028:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+
+chapter_353_revision_20261029:
+  chapter: 353
+  original_sha: "9a2082332a40fb3245c3963f6d969c3a48f243eb"
+  initial_review: reader_reviews/0353_9a208233.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "14de1ab010f66ca0cdc53be01c980abbbaa237c0"
+  final_review: reader_reviews/0353_14de1ab0.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  corrected_fields: [privacy_phone_number_wording, char_count, updated_at]
+  predecessor_ready_blob: "3335c424a08689195a36182eb2b7d7db9e202f4b"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+

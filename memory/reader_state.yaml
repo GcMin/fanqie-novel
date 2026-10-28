@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 352
-last_reviewed_title: "到期前十八分钟，签字才算数"
-last_source_path: chapters/draft/0352.md
-last_source_sha: c59eade9f6b8519928d4b99d4d5559aa69310e5b
-last_review_path: reader_reviews/0352_c59eade9.md
-last_reviewed_at: "2026-10-28"
-reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
+last_reviewed_chapter: 353
+last_reviewed_title: "纸收回来了，路还得有人带"
+last_source_path: chapters/draft/0353.md
+last_source_sha: 14de1ab010f66ca0cdc53be01c980abbbaa237c0
+last_review_path: reader_reviews/0353_14de1ab0.md
+last_reviewed_at: "2026-10-29"
+reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 351
-depends_on_source_sha: 06d5de8b1dded00100fe7fffb440292427897921
+depends_on_chapter: 352
+depends_on_source_sha: 3335c424a08689195a36182eb2b7d7db9e202f4b
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 06d5de8b1dded00100fe7fffb440292427897921
+predecessor_current_source_sha: 3335c424a08689195a36182eb2b7d7db9e202f4b
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2202,3 +2202,23 @@ chapter_352_reader_20261028:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+
+chapter_353_reader_20261029:
+  chapter: 353
+  original_source_sha: "9a2082332a40fb3245c3963f6d969c3a48f243eb"
+  initial_review: reader_reviews/0353_9a208233.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "14de1ab010f66ca0cdc53be01c980abbbaa237c0"
+  final_review: reader_reviews/0353_14de1ab0.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+  reviews_this_cycle: 2
+  stage_a_local_revision_used: 1
+  body_revisions: 1
+  corrected_fields: [privacy_phone_number_wording, char_count, updated_at]
+  effective_chars: 3104
+  predecessor_ready_blob: "3335c424a08689195a36182eb2b7d7db9e202f4b"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+

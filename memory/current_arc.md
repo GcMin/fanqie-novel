@@ -1,3 +1,8 @@
+# 第353章独立Reader/Revision/Continuity-Style QA（2026-10-29）
+- 原353草稿SHA `9a2082332a40fb3245c3963f6d969c3a48f243eb` Pass A/B初审0 BLOCKER/1 MAJOR/2 MINOR；唯一MAJOR为结尾“记下外孙女电话”与未接私人号码冲突。Stage A只将末句改为明确未接收号码也未代拨，另同步3104有效字及更新日期，形成新草稿SHA `14de1ab010f66ca0cdc53be01c980abbbaa237c0`；对新SHA重新独立Pass A/B为0/0/2，Continuity/Style/Meaningful QA PASS，旧Review失效。
+- 353依前352正式ready Blob `3335c424a08689195a36182eb2b7d7db9e202f4b`精确一致，Day215 20:00第213夜班→20:26简叔持旧章纸询路，20:47道路岗实核合法地面路且封桥/卸货道禁公众，21:09真人在62路新站与外孙女相见而非返家已证；Day216 10:17活动室先候核，11:04核特有蓝边断墨及发放记录，11:21真实有责签收使14原印由**10受控4未收变11受控3未收**，另两照片复制纸分控，私人背字仅本人手机拍存不外展，中心不收外孙女号码；14:36道路岗再核当次地面路，Day216 20:00第214次夜班。
+- 白榆窄铁片仍仅有Day215真签单件原封原柜至Day217 16:00过渡保管，不改变另两拆件；沈家私册妹妹家，2011同形旧物与现片唯一同一性、旧字作者年代/同源、1996真人获答、2018 A2同笔、F008/M004/M005未证。仅精确候选CI测试+本地结构检查真实SUCCESS后方准main ready。
+
 # 第350—351章独立Reader/Revision/Continuity-Style QA（2026-10-28）
 - 350原草稿 `c9a652bd9fb62ca0b6dbf6aab9e9d5574a494275`，依前349正式ready SHA精确匹配；独立Reader Pass A/B **0/0/2**、有效字3117，小说正文零修改、独立Continuity/Style/Meaningful QA PASS，`reader_reviews/0350_c9a652bd.md`与`qa/0350_report.md`。
 - 351原稿 `28bff1578cafa64b4dc151aa6cea7f97c1ef8aab`双遍Reader **0/1/2**，唯一MAJOR是依赖未审350草稿；逐字核350原草稿→拟ready Blob `ffb13672b8713f9e47be89c30c1d06bff413fd11`的小说正文**完全相同**、只交付Front Matter改变。Stage A仅重绑351 Front Matter及详细计划至350 ready Blob，不改小说正文，形成新351草稿SHA `3e4210520445d7e875819ab326be00447956a005`；新SHA重新独立Pass A/B **0/0/2**，3222有效字，Continuity/Style/Meaningful QA PASS，`reader_reviews/0351_3e421052.md`及`qa/0351_report.md`。旧Review失效。
