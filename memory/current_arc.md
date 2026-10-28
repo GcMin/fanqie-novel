@@ -1,3 +1,9 @@
+# 第350—351章独立Reader/Revision/Continuity-Style QA（2026-10-28）
+- 350原草稿 `c9a652bd9fb62ca0b6dbf6aab9e9d5574a494275`，依前349正式ready SHA精确匹配；独立Reader Pass A/B **0/0/2**、有效字3117，小说正文零修改、独立Continuity/Style/Meaningful QA PASS，`reader_reviews/0350_c9a652bd.md`与`qa/0350_report.md`。
+- 351原稿 `28bff1578cafa64b4dc151aa6cea7f97c1ef8aab`双遍Reader **0/1/2**，唯一MAJOR是依赖未审350草稿；逐字核350原草稿→拟ready Blob `ffb13672b8713f9e47be89c30c1d06bff413fd11`的小说正文**完全相同**、只交付Front Matter改变。Stage A仅重绑351 Front Matter及详细计划至350 ready Blob，不改小说正文，形成新351草稿SHA `3e4210520445d7e875819ab326be00447956a005`；新SHA重新独立Pass A/B **0/0/2**，3222有效字，Continuity/Style/Meaningful QA PASS，`reader_reviews/0351_3e421052.md`及`qa/0351_report.md`。旧Review失效。
+- Day213沈妹妹真核两公开目录题名并递更窄公开范围询仅收件，设施候选房旧水印与长期测量缺口，没有准转库；Day214 10:17文化站回告两目录地域业务覆盖范围不同而不证同一修表摊地址，14:37主管真签资产下一阶段建议、14:46有责窗口确收，**Day214 15:00前建议节点实际完成**，但Day215 16:00窄铁片后续延存/移物决定未获有权批准。三旧件设施原封原柜、私册妹妹家、14原印10受控4未收另两影印分保、旧东工门维修道禁公众、F008/M004/M005不证、2011旧背衬与窄片唯一身份/作者/同源仍未知。
+- **必须先由精确候选Git Commit的真实CI运行单元测试与`python -m publisher.check_local --repo .`并成功，才可用expected_sha、force:false非强制更新main并顺序放行两章。**
+
 # 第348—349章独立Audit双遍Reader和内容QA（2026-10-28）
 - 第348章原草稿 `1e292167d2ad8542cea1e98a52ffff4efb51c6e0`独立Pass A/B Reader **0/0/2**、3124有效字，不改正文；依赖第347章正式ready `cb4cee9c78ee760e0cec986b3cee611d51ba68e5`精确匹配。Day210迁共柜高频日用件但三旧牌拆件原封未出库；Day211 11:47技术复查真执行却靠门局部长期数据仍不足，不能判长期稳定。正式ready Blob `da805a577a6d7b0957deaabdec2b594640d516ee` 与原稿正文逐字一致，仅交付元数据变动，Continuity/Style/Meaningful QA PASS。
 - 第349章原稿 `c7e8a283a6ce8aa1af01ef3801f2c3613aac346b`独立Pass A/B Reader **0/2/2**，一处Day212“昨天迁件”错（真实Day210下午迁出），另一处绑定未审348草稿而不是ready。Stage A一处正文“昨天→前天”且修正正式依赖后新draft `57bf44135ca2c07abad3060fbcfc82f41fd7ac35`再次独立Pass A/B **0/0/2**、3142有效字，Continuity/Style/Meaningful QA PASS。

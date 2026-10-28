@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 349
+last_updated_chapter: 351
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1167,3 +1167,14 @@ chapter_349_relationship_update:
   shen_ruoqin_sister: "妹妹一度怀疑姐姐擅捐旧册，站内错映撤下后本人取得事实回执并自主决定不交原册、只问公开目录。"
   sister_cultural_office: "文化站只担本站映射责任，留历史错误日志，依妹妹授权给有限回执而不强求私人旧册移交。"
   ma_yun_lao_qi: "老齐担心又移旧物，马芸强调Day212只是合规条件勘查、批准和交接尚未发生。"
+
+chapter_350_relationship_update:
+  chapter: 350
+  shen_ruoqin_sister: "姐姐承认后来补蓝笔，妹妹独立申请且拒用原册换受限目录，姐妹沟通趋稳。"
+  sister_cultural_office: "文化站依法仅提供两条公开元数据并收本人公开范围窄询，不要求私人旧册。"
+  ma_yun_xu_gong_lao_qi: "许工与马芸以水印和实测缺口否决老齐先搬物的快捷方案。"
+chapter_351_relationship_update:
+  chapter: 351
+  shen_ruoqin_sister: "妹妹承认旧闹钟记忆地点不明，姐姐接受旧纸保留与分阶段核查询。"
+  ma_yun_xu_gong_lao_qi_supervisor: "老齐不再写无条件无异常或擅点延期，主管实际签提交并由窗口收件但没签延期，分工清晰。"
+  zhou_heng_xia_ning_liang_ce: "中心不代资产岗决定，按真实来源把自动误勾、建议已收与决定待审区分。"

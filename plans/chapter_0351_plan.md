@@ -7,8 +7,8 @@
 - source_main_sha: 2c36ef7346edbf24e7ebc34da95e8e381d79be6c
 - predecessor_path: chapters/draft/0350.md
 - depends_on_chapter: 350
-- depends_on_source_sha: "c9a652bd9fb62ca0b6dbf6aab9e9d5574a494275"
-- dependency_status: provisional
+- depends_on_source_sha: "ffb13672b8713f9e47be89c30c1d06bff413fd11"
+- dependency_status: verified_predecessor_metadata_only_factual_compatible
 - dependency_facts_used: "第350章仍为未审draft，Day213 09:37文化站仅允许本人核两条公开目录题名与形成单位；11:16妹妹已提出更窄的索引可用字段范围咨询，未获内页批准；Day213同单位备选空间勘查见旧水印，现柜近门点位持续数据不足，Day214 15:00正式资产建议尚未交，窄片现有Day215 16:00临存决定有效。三旧牌拆件设施所原封未出库，沈家私册仍妹妹家，2011相似背衬和现存窄片唯一同一性、红字作者与沈家旧册同源均未证明；东工门维修道对公众禁行，旧错图14张原印10受控4未收另2影印分保，F008可靠新样本及M004/M005未证。"
 - target_effective_chars: 2600-3400
 - hard_range: 2300-3800
@@ -45,3 +45,8 @@ Day213 20:29中心收到设施所自动生成的“延长存放”待办；区�
 - 三目录实际数字最大章号350；第153章已经在published/0153.md；此轮创建351此前不存在，章纲亦此前不存在。前章draft Blob c9a652bd9fb62ca0b6dbf6aab9e9d5574a494275，依赖provisional。
 - 仅新增本章详细计划与首稿。Front Matter强制status:draft、qa:pending、approved_at:null、publish_mode:draft；不执行Reader/Editor/Revision/QA/Memory/Publish Gate，不修改已有章节，不发布番茄。
 - 使用GitHub同一main基线tree原子新增两个Blob，经一个parent commit及expected_sha非强制更新main，遇并发需重新读取不覆盖。
+
+## 2026-10-28 Audit Stage A 修订记录（仅依赖元数据，正文零修改）
+- 原Writer依赖350临时草稿Git blob `c9a652bd9fb62ca0b6dbf6aab9e9d5574a494275`；350经独立Reader0/0/2及内容QA通过，拟ready blob `ffb13672b8713f9e47be89c30c1d06bff413fd11`与该原草稿小说正文逐字一致，仅交付Front Matter不同。
+- 351所需Day213公开目录与水印实查、Day214建议仍待、Day215 16:00期限等事实无变，因此只重绑351 Front Matter的depends_on_source_sha及dependency_status、本细纲顶端依赖；不修改小说正文。
+- 351新稿Git blob `3e4210520445d7e875819ab326be00447956a005`独立重新Reader Pass A及Pass B获0 BLOCKER / 0 MAJOR / 2 MINOR，Continuity/Style/Meaningful QA已做。只有精确候选Git提交CI校验真实成功才可移ready。

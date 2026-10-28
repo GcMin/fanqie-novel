@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 349
-last_reviewed_title: "那张旧纸，没有任何人替她签收"
-last_source_path: chapters/draft/0349.md
-last_source_sha: 57bf44135ca2c07abad3060fbcfc82f41fd7ac35
-last_review_path: reader_reviews/0349_57bf4413.md
+last_reviewed_chapter: 351
+last_reviewed_title: "建议交上去了，铁片还在柜里"
+last_source_path: chapters/draft/0351.md
+last_source_sha: 3e4210520445d7e875819ab326be00447956a005
+last_review_path: reader_reviews/0351_3e421052.md
 last_reviewed_at: "2026-10-28"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 348
-depends_on_source_sha: da805a577a6d7b0957deaabdec2b594640d516ee
+depends_on_chapter: 350
+depends_on_source_sha: ffb13672b8713f9e47be89c30c1d06bff413fd11
 dependency_status: verified_predecessor_metadata_only_factual_compatible
-predecessor_current_source_sha: da805a577a6d7b0957deaabdec2b594640d516ee
+predecessor_current_source_sha: ffb13672b8713f9e47be89c30c1d06bff413fd11
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2149,6 +2149,41 @@ chapter_349_reader_20261028:
   effective_chars: 3142
   predecessor_original_draft_sha: "1e292167d2ad8542cea1e98a52ffff4efb51c6e0"
   predecessor_ready_blob: "da805a577a6d7b0957deaabdec2b594640d516ee"
+  predecessor_body_identical: true
+  dependency_status: verified_predecessor_metadata_only_factual_compatible
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_350_reader_20261028:
+  chapter: 350
+  original_source_sha: "c9a652bd9fb62ca0b6dbf6aab9e9d5574a494275"
+  final_source_sha: "c9a652bd9fb62ca0b6dbf6aab9e9d5574a494275"
+  final_review: reader_reviews/0350_c9a652bd.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  reviews_this_cycle: 1
+  stage_a_local_revision_used: 0
+  body_revisions: 0
+  effective_chars: 3117
+  predecessor_ready_blob: "adf2e1278cf3b25ff6b38b5f03d312774c12b250"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_351_reader_20261028:
+  chapter: 351
+  original_source_sha: "28bff1578cafa64b4dc151aa6cea7f97c1ef8aab"
+  initial_review: reader_reviews/0351_28bff157.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "3e4210520445d7e875819ab326be00447956a005"
+  final_review: reader_reviews/0351_3e421052.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+  reviews_this_cycle: 2
+  stage_a_local_revision_used: 1
+  body_revisions: 0
+  effective_chars: 3222
+  predecessor_original_draft_sha: "c9a652bd9fb62ca0b6dbf6aab9e9d5574a494275"
+  predecessor_ready_blob: "ffb13672b8713f9e47be89c30c1d06bff413fd11"
   predecessor_body_identical: true
   dependency_status: verified_predecessor_metadata_only_factual_compatible
   content_qa: pass
