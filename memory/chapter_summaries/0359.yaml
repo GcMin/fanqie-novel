@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 359
+title: "空车停在保管室门外"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "144c16c986c48ccdf96a6f45926ad78630f5238e"
+source_draft_sha: "d8c46f2b0865cd4989484352a6c5a81d3801db70"
+initial_review: reader_reviews/0359_144c16c9.md
+reader_review: reader_reviews/0359_d8c46f2b.md
+depends_on_chapter: 358
+depends_on_source_sha: "28baa88230cf7e6520c5b94731ed9fac04b831d0"
+dependency_status: verified_predecessor_metadata_only_factual_compatible
+timeframe: "Day221 20:32—Day222 20:00，第219/220次夜班"
+summary: >-
+  Day221 20:32市政设施技术保管室核一辆提货车在外部候车区，平台错误要求整套提走白榆旧站三件拆件，实际该室仅有Day217单件受托窄铁片至Day222 16:00，另两件仍设施所，无有权放行。司机宋齐按公司真实派工21:26在场却不愿点击假已提取，23:02获准空返并保留真实到场未提取、空跑工时和费用待有权方核。Day222 08:43马芸/主管核Day195旧三件原始拆牌清单、Day217仅窄片新存位和虚假自动预约，证明平台错误拼接历史批次及现址，不证明司机恶意；10:27有权撤本批提货效力保留源日志，11:56技术保管室只见外封未启及出入账无转走。13:38按有限保管条件复核，15:09双方在旧16:00期限前重新真签仅窄片受托至Day226 16:00，外板/旧支件原单位留置不搭期；15:36中心获授权限项结果，20:00第220夜班。F003旧字作者、2011相似物与现窄片唯一同一及沈家私册同源、F008/M004/M005均未证；上泗里覃阿姨实收两瓶及本人厨房有水不代表全楼完结；14旧错原印11控3未收/另2复制分别控，东工门维修道禁公众。
+meaningful_state_changes:
+  - "错误的整套三件预约真实被主管撤销提货效力，车只到候车区未发生实体装运，司机不背假提取签收。"
+  - "Day222 15:09有责双方仅续签窄片短期受托至Day226 16:00，旧期限不自动越过、其余两件不搭。"
+knowledge_updates:
+  - "旧三件拆存的真实清单与当前只有一件在技术室的现时保管链不能自动合成新放行许可；司机派工不等于资产授权。"
+relationship_updates:
+  - "宋齐向梁策/陈值守坚持不能签没做的提货，真实劳动空跑需有权合同双方后核；马芸和老齐不抹历史真三件清单。"
+foreshadowing_updates:
+  - "F003窄片短托合法延至Day226 16:00，物料早期历史、原字作者/年代与沈家同源仍未知；不从普通自动拼接错误推M004/M005。"
+ending_state: "Day222 20:00第220夜班，窄片新短托到Day226 16:00；错误批次撤效、车空返、工时待结，另两件设施所原位，公众禁行路段不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "144c16c986c48ccdf96a6f45926ad78630f5238e", final_draft_sha: "d8c46f2b0865cd4989484352a6c5a81d3801db70", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_draft_sha: "e3c9c842b802ec7960aef06e3ecb3849a2392a27", predecessor_ready_blob: "28baa88230cf7e6520c5b94731ed9fac04b831d0", predecessor_body_identical: true, proposed_ready_blob: "a419b81ac77a0d4160b088e3c1c83ff054f37788"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2815

@@ -5,11 +5,11 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - source_main_sha: 1d70b22a6df54014b63060b39fc413e46dc3cb67
-- predecessor_path: chapters/draft/0358.md
+- predecessor_path: chapters/ready/0358.md
 - depends_on_chapter: 358
-- depends_on_source_sha: "e3c9c842b802ec7960aef06e3ecb3849a2392a27"
-- dependency_status: provisional
-- dependency_facts_used: "第358章在main仅为draft，临时承接Day221 20:00第219次夜班，覃阿姨Day220 22:07本人获两瓶应急饮用水、Day221 18:04厨房本人实证出水，尚无全楼完成或系统通用映射修复事实；不得作为审定Canon。"
+- depends_on_source_sha: "28baa88230cf7e6520c5b94731ed9fac04b831d0"
+- dependency_status: verified_predecessor_metadata_only_factual_compatible
+- dependency_facts_used: "第358章已通过独立双遍Reader、Continuity/Style内容QA并形成拟ready Blob，原草稿与拟ready正文逐字一致；承接Day221 20:00第219次夜班，覃阿姨Day220 22:07本人获两瓶应急饮用水、Day221 18:04厨房本人实证出水，尚无全楼完成或系统通用映射修复事实；正式放行仍须精确候选CI成功。"
 - target_effective_chars: "2600–3400"
 - hard_effective_chars: "2300–3800"
 - actual_effective_chars: 2815
@@ -40,7 +40,11 @@
 - 白榆东工门和维修便道、槐石路施工天桥和卸货口均不对公众开放；槐石路错误路纸原印14张11受控3未收、两张照片复制单控。上泗里前章送水与复水仅为第358草稿的临时依赖事实，不替全楼做最终确认。
 
 ## Continuity Precheck（仅Writer，无审查）
-- 实读GitHub main 1d70b22a6df54014b63060b39fc413e46dc3cb67；published/ready/draft三个目录取最大数字章号0358（draft）；published含0153，目标draft/0359与plan/0359在该快照皆不存在。旧memory/writing_state与旧outlines/arcs/arc_current停在137/ARC-044，不能当当前章号/剧情弧。
+- 实读GitHub main 1d70b22a6df54014b63060b39fc413e46dc3cb67；published/ready/draft三个目录取最大数字章号0358（本章修订前为draft）；published含0153，目标draft/0359与plan/0359在该快照皆不存在。旧memory/writing_state与旧outlines/arcs/arc_current停在137/ARC-044，不能当当前章号/剧情弧。
 - 已读AGENTS、novel.yaml、writing_roles、ai_reading_protocol、bible premise/main_outline/world/style及周衡、夏宁、梁策人物卡；读取memory/current_arc及角色、关系、知识、世界、伏笔和时间线当前部分，recent summaries0348–0357和正文0354–0358、0358详细章纲；不读取历史reader_reviews。
-- 第358章前章尚为status draft/qa pending，Git Blob e3c9c842b802ec7960aef06e3ecb3849a2392a27，本文和章纲均绑定depends_on_chapter:358、完整来源SHA和provisional；独立Audit后续须对照第358章真正ready最终版本核本章事实兼容，不将358提前当正式Canon。
+- 第358章在**Writer当时Precheck快照**仅为status draft/qa pending，原Git Blob e3c9c842b802ec7960aef06e3ecb3849a2392a27；本章原始FM和详纲采用该临时provisional依赖，不能提前视为Canon。此段记录写作时点，不是当前仓库状态；后续Audit核验与正式重绑见下方Stage A。
 - 只创建本章详细章纲及draft；不执行Reader/Revision/QA/Memory/Publish Gate、不改任何旧章和状态、不发布番茄。
+## Audit Stage A 依赖核验（2026-10-29）
+- 第358章原draft Git Blob e3c9c842b802ec7960aef06e3ecb3849a2392a27 → 仅交付Front Matter改动的拟ready Blob 28baa88230cf7e6520c5b94731ed9fac04b831d0，已逐字比较，**小说正文完全一致**。本章引用的Day221 20:00夜班、六楼两瓶实收、本人18:04厨房出水和其余住户未核均未变。
+- 本章Front Matter与此详纲已重绑第358章拟ready SHA；小说正文未改，修订草稿新Git Blob d8c46f2b0865cd4989484352a6c5a81d3801db70须按新SHA重新独立Reader Pass A/B。
+- 第358章与359章只能在包含两章ready和长期Memory/计划的**精确候选Commit CI结构检查SUCCESS后**非强制进入main；未过CI不得把拟ready当成已放行事实。

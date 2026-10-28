@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 357
+last_updated_chapter: 359
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1215,3 +1215,13 @@ chapter_357_relationship_update:
   peng_rui_night_center: "彭芮停留公众安全侧请求知道可走道路与误导来源，梁策不要求撤投诉，夏宁按道路岗当次核实转述；彭芮本人21:17已到站前广场，后续乘车不代写。"
   ma_yun_lao_qi_archive_staff: "马芸提醒领用警戒带者不等于亲眼见红痕者，档案岗位仅授权去身份业务行，老齐接受分来源查证。"
   zhou_heng_xia_ning_liang_ce: "周衡将旧图上两处真实信息错接与两册旧档缺少同一人联系区分，夏宁和梁策保留各自真实经手限度，不冒认全网图层修复。"
+
+chapter_358_relationship_update:
+  chapter: 358
+  qin_aunt_property_night_center: "覃阿姨提出具体六楼无梯送水需求，只同意本次回访，明确只证本人两瓶/厨房有水，不替全楼居民作证；物业主管蒋茹改变单据优先做法并真安排职责范围内到户协助。"
+  zhou_heng_xia_ning_liang_ce: "周衡核实交接点真实数量，夏宁分层保留私人实际签收与系统源错误，梁策先保护门岗及漏水隔离，未将夜间中心变成专业维修或街道强制调度。"
+chapter_359_relationship_update:
+  chapter: 359
+  song_qi_chen_staff_liang_ce: "宋齐不肯被平台要求冒领三件实物，陈值守按职责留下到场未交出记录，梁策只在公开停车区提供可核任务事实，不替劳动合同方下结算决定。"
+  ma_yun_lao_qi: "马芸保留老齐核过的Day195真三件初拆记录，又拒让旧清单自动升级为今天三件取货许可；两人接受现时短托只涉及窄片。"
+  night_center: "周衡夏宁按记录权限区别司机到场/物品出库和有责撤单/新托，不因人争执或系统自动绿勾直接归责恶意。"

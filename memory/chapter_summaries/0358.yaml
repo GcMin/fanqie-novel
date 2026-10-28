@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 358
+title: "送水单签到了楼下，水还没上楼"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "e3c9c842b802ec7960aef06e3ecb3849a2392a27"
+source_draft_sha: "e3c9c842b802ec7960aef06e3ecb3849a2392a27"
+reader_review: reader_reviews/0358_e3c9c842.md
+depends_on_chapter: 357
+depends_on_source_sha: "a4a37eff4f3846600c704e728e0613a640d5375a"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day220 20:26—Day221 20:00，第218/219次夜班"
+summary: >-
+  Day220 20:26上泗里四号楼六层覃阿姨报停水及平台错误绿色应急送水完成标记，实际家中未得到水；水务确认17:58已专业隔离漏水入户支线，19:36送水车八箱96瓶仅由物业杜有国在南入口签收，21:04住户自领19瓶余77。门岗和漏点隔离不许擅撤，21:21街道按有权渠道派两现场协助；22:07覃阿姨本人于六楼门外实收2瓶密封水，同楼另两户按约收到、另一户未联系上，隐私及实收层级独立。Day221 11:03平台本笔公众展示从居民全部送达到水已交物业具体领取按实登记，留原绿勾源日志，通用映射整改与其他户实际送达待办；15:28完成部件维修、17:10获准冲洗检测、17:26有权启阀，18:04覃阿姨本人证自家厨房恢复出水，不代表全楼。20:00第219次夜班。白榆窄片技术受托仍只至Day222 16:00；旧站东工门/维修道禁公众，14张旧错误原印11控3未收+两复制分列、沈家私人册妹妹自持，F003原字来源/2011同一性、F008/M004/M005未证。
+meaningful_state_changes:
+  - "六楼行动不便住户本人22:07收到两瓶应急瓶装水，Day221 18:04本人实证厨房恢复供水；全楼不冒认。"
+  - "公开送水状态按本笔从物业签收误作居民全收改为明确交物业及逐户按实登记，旧日志保存。"
+knowledge_updates:
+  - "车到物业、物业到货、个人取得、专业启阀、个人龙头有水分属不同实证，不可因一个绿勾推所有已完成。"
+relationship_updates:
+  - "覃阿姨只同意本次回访，要求不替全楼签收；物业主管与街道协助人员各按职责承担实际到户保障，中心不公开隐私。"
+foreshadowing_updates:
+  - "F003窄片仍在Day222 16:00旧期限内，来源作者/同一性没有因普通送水案更新；F008/M004/M005无新证据。"
+ending_state: "Day221 20:00第219夜班，上泗里本户2瓶与本户恢复出水已真核、其余住户及平台通用映射仍待接续；白榆技术受托窄片Day222 16:00未续。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "e3c9c842b802ec7960aef06e3ecb3849a2392a27", final_draft_sha: "e3c9c842b802ec7960aef06e3ecb3849a2392a27", body_revisions: 0, local_revision_used: 0, predecessor_ready_blob: "a4a37eff4f3846600c704e728e0613a640d5375a", proposed_ready_blob: "28baa88230cf7e6520c5b94731ed9fac04b831d0"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3369
