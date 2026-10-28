@@ -1,4 +1,4 @@
-# 第355章详细章纲：《那个愿意作证的人，只记得半行字》
+# 第355章详细章纲：《那个愿意作证的人，只记得一抹红》
 
 - chapter: 355
 - volume: 6
@@ -52,3 +52,7 @@
 - 第354章已实际进入ready，精确绑定Git Blob f2740929f7a517731b4a9134debee5fc945e43c1，因此本章不是provisional，不擅自把历史口述写成既成Canon。
 - 已从同一main读取最新AGENTS/novel.yaml/writing_roles/ai_reading_protocol、Bible/三人物卡、现存卷弧文件、memory/current_arc及人物知识关系世界、foreshadowing/timeline、0345—0354十章摘要与0350—0354五章正文。静态volume_05/arc_current长期落后，采用最新已ready正文与有效状态。没有读取历史reader_reviews。
 - 只新增本章章纲与status:draft的首稿。不执行Reader、Revision、QA、Memory、Publish Gate或番茄发布。
+
+## 独立Audit处理（2026-10-29）
+- 原稿标题误称杜师傅能记住半行字，正文仅本人见过红色痕迹、甚至未见清是否成字。仅修标题，不改小说正文；旧SHA `74b5d95b891254e6218be7c3b66f66182d47cfd0` Reader 0/1/2，修订后新SHA `218f790ee9f5e65eb8a44ab10e203675917f1199` 独立两遍Reader 0/0/2，QA内容PASS。
+- 依赖第354章正式ready blob `f2740929f7a517731b4a9134debee5fc945e43c1`精确一致；2016班组交接簿仅获保存范围查询收件，并未找到原簿或证实原字作者。结构放行仍以精确候选CI为门。

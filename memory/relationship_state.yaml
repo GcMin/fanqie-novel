@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 354
+last_updated_chapter: 355
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1197,3 +1197,9 @@ chapter_354_relationship_update:
   facility_new_technical_custody: "原设施所主管13:26只签单件受托移交决定，收方15:22真签封袋实收并承诺短期保全安全监测至Day222 16:00；原单位保留产权/来源查证，新岗位负责受托实物安全。"
   zhou_heng_xia_ning_liang_ce: "中心坚持只获准17:14有限已收事实，不把新岗位权责当旧字历史确证；梁策继续分开简叔旧纸回收与白榆窄片。"
 
+
+chapter_355_relationship_update:
+  chapter: 355
+  du_shifu_ma_yun: "马芸允许退休参与者只签可核岗位与本人回忆，尊重其拒公开录音和照片；杜师傅主动将当时见红字改为见红色痕迹，不被推作历史旧物鉴定人。"
+  du_shifu_lao_qi: "老齐希望以本人旧衬回忆指向2011同件，被杜师傅明确纠正后主动道歉，双方只承认各自能见证的2016维修/Day195拆存和Day217移交。"
+  zhou_heng_xia_ning_liang_ce: "周衡想追旧字来源但接受有限口述，夏宁和梁策坚持岗位核身/隐私/查询收件分层，机构没有获得私人电话或原始受限旧簿。"

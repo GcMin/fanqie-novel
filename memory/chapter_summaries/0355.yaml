@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 355
+title: "那个愿意作证的人，只记得一抹红"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "74b5d95b891254e6218be7c3b66f66182d47cfd0"
+source_draft_sha: "218f790ee9f5e65eb8a44ab10e203675917f1199"
+initial_review: reader_reviews/0355_74b5d95b.md
+reader_review: reader_reviews/0355_218f790e.md
+depends_on_chapter: 354
+depends_on_source_sha: "f2740929f7a517731b4a9134debee5fc945e43c1"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day217 20:18—Day218 20:00，第215/216次夜班"
+summary: >-
+  Day217 20:18夜间中心接到白榆设施所有权限项回告：退休2016维修参与者杜师傅经原承包方转达自愿谈相关旧站西侧立柱工作，未表示见过现存窄片。Day218 09:14资产岗马芸通过合法班组签认页核实其2016岗位参与，09:58确认本人愿限项当面回忆、拒公开录音及照片。杜师傅只记得西侧旧牌维修、有人提到可核能否留用的旧衬、内侧曾见红色痕迹；明确否认识读“永安里方向”或知道2011旧件同一身份、初始写字者与归档补记作者，亲手将记录“见红字”中的“字”划掉。11:27其提示或曾有班组巡修硬皮交接簿，不能保证还在；14:41有责资产档案岗向原承包单位档案接管渠道限定查询2016-04-11至13白榆旧站西侧立柱巡修交接记录有无保存、谁管及可用范围，16:08只获收件而非原簿或核阅许可。17:17夜间中心仅收匿名化三项核实结果，20:00第216夜班。窄铁片仍由市政设施技术保管室短托至Day222 16:00，原设施所保留物权/来源责任，另两拆件不随车；旧错路14原印11受控3未收及2影印独立、沈家私人旧册不交、旧东工门与维修道禁公众。F003出现有限新业务查询路径，但2011相似旧衬现物唯一同一、红字作者年代、沈册同源、1996旧人真获回话、2018 A2同笔与F008/M004/M005均未证。
+meaningful_state_changes:
+  - "2016维修参与岗位经有责签认页核实且本人自愿限定作证，保留下当年仅见红痕而非辨读原字的明确证词。"
+  - "2016年4月11—13日班组巡修交接簿是否保存的窄查询真实提交并收件，新增可核目录渠道但未找到原簿。"
+knowledge_updates:
+  - "2016参与旧站维修与触碰现封袋窄片、辨认红字、确认2011同一旧件是不同层次；本人拒用回忆补齐未知文字。"
+  - "查询保存目录收件不等于旧簿存在、已批准阅档或旧物来源确证；中心只接合法限项匿名事实。"
+relationship_updates:
+  - "杜师傅对被追旧责的担心在马芸的有限核证安排下缓解，坚持亲自更正记录；老齐主动承认2011同件追问超越对方所知。"
+foreshadowing_updates:
+  - "F003新查2016可能的班组交接簿保管渠道，仍只有收件；F008/M004/M005及旧史同源不提升证据等级。"
+ending_state: "Day218 20:00第216夜班，窄片市政技术受托至Day222 16:00，原设施所负责来源调查；2016班组交接簿有无保存待核；旧红章纸14原印11受控3未收、另2复制分记，私人旧册妹妹家。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "74b5d95b891254e6218be7c3b66f66182d47cfd0", final_draft_sha: "218f790ee9f5e65eb8a44ab10e203675917f1199", initial_counts: "0/1/2", final_counts: "0/0/2", local_revision_used: 1, body_revisions: 0, corrected_fields: [chapter_title, chapter_0355_plan, chapter_plan], predecessor_ready_blob: "f2740929f7a517731b4a9134debee5fc945e43c1"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3287

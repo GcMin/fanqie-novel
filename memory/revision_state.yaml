@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 354
+current_chapter: 355
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0354.md
-current_source_sha: 8e2351b7aa8f82532d5ed6957c15e530bf1cb618
-current_review_path: reader_reviews/0354_8e2351b7.md
+current_source_path: chapters/draft/0355.md
+current_source_sha: 218f790ee9f5e65eb8a44ab10e203675917f1199
+current_review_path: reader_reviews/0355_218f790e.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0354_new_sha_reader_qa_candidate
+last_action: audit_0355_title_only_new_sha_reader_qa_candidate
 last_action_date: 2026-10-29
 last_error: null
-last_diff_summary: "354原SHA Reader0/1/2仅因前353临时依赖；前353旧与正式ready正文仅电话隐私一句变化不影响本章所用事实，Stage A仅FM及详纲重绑不改正文，新SHA Reader0/0/2与独立QA PASS，待精确候选CI。"
+last_diff_summary: "355原稿标题误称记得半行字而证人实际只见红痕；Stage A仅修改标题和详细计划，正文未改，新SHA Reader0/0/2及独立QA PASS，待精确候选CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1755,3 +1755,19 @@ chapter_354_revision_20261029:
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
 
+
+chapter_355_revision_20261029:
+  chapter: 355
+  original_sha: "74b5d95b891254e6218be7c3b66f66182d47cfd0"
+  initial_review: reader_reviews/0355_74b5d95b.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "218f790ee9f5e65eb8a44ab10e203675917f1199"
+  final_review: reader_reviews/0355_218f790e.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  corrected_fields: [chapter_title, chapter_0355_plan, chapter_plan]
+  predecessor_ready_blob: "f2740929f7a517731b4a9134debee5fc945e43c1"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
