@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 339
-last_reviewed_title: "那行朝里的字，十年前就有人看见"
-last_source_path: chapters/draft/0339.md
-last_source_sha: e49a055b487be75d275c02225d47ed2c73a2e73e
-last_review_path: reader_reviews/0339_e49a055b.md
+last_reviewed_chapter: 340
+last_reviewed_title: "建议书说要保留，领料栏却是空的"
+last_source_path: chapters/draft/0340.md
+last_source_sha: c2c3ee542ae81ee9617e3a37b39e1ec4df450acb
+last_review_path: reader_reviews/0340_c2c3ee54.md
 last_reviewed_at: "2026-10-28"
 reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 338
-depends_on_source_sha: e88460d1d63a59fbdab914dd06408c971267d20a
-dependency_status: verified_predecessor_metadata_only_factual_compatible
-predecessor_current_source_sha: e88460d1d63a59fbdab914dd06408c971267d20a
+depends_on_chapter: 339
+depends_on_source_sha: e09b70d12f0b501294809caa4ffd567c6f96905f
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: e09b70d12f0b501294809caa4ffd567c6f96905f
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -1978,5 +1978,22 @@ chapter_339_reader_20261028:
   predecessor_original_draft_sha: b585d7ee039034f742a01c47c3f2e2f66ab3cdaa
   predecessor_ready_blob: "e88460d1d63a59fbdab914dd06408c971267d20a"
   predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_340_reader_20261028:
+  chapter: 340
+  original_source_sha: 52662daf70cacb6df84eb742df8f477782826a1c
+  original_review: reader_reviews/0340_52662daf.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "c2c3ee542ae81ee9617e3a37b39e1ec4df450acb"
+  review_path: reader_reviews/0340_c2c3ee54.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+  stage_a_used: 1
+  body_revisions: 1
+  effective_chars: 3503
+  predecessor_ready_blob: "e09b70d12f0b501294809caa4ffd567c6f96905f"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

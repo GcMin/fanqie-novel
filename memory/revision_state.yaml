@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 339
+current_chapter: 340
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0339.md
-current_source_sha: e49a055b487be75d275c02225d47ed2c73a2e73e
-current_review_path: reader_reviews/0339_e49a055b.md
+current_source_path: chapters/draft/0340.md
+current_source_sha: c2c3ee542ae81ee9617e3a37b39e1ec4df450acb
+current_review_path: reader_reviews/0340_c2c3ee54.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0338_0339_reader_qa_candidate
+last_action: audit_0340_reader_revision_qa_candidate
 last_action_date: 2026-10-28
 last_error: null
-last_diff_summary: "338审后body未改且ready仅Front Matter变化；339 Stage A只将六年前错标题改十年前并重绑338拟ready SHA，正文零改；新SHA Reader0/0/2与独立QA PASS，候选CI待证。"
+last_diff_summary: "340原稿Day201夜误写昨天下午拟申请；Stage A仅修成今天下午，正文一字，原稿Reader0/1/2到新Git Blob c2c3ee54独立Reader0/0/2及独立QA PASS；339正式ready依赖精确匹配，候选CI待证。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1529,5 +1529,21 @@ chapter_339_revision_20261028:
   predecessor_original_draft_blob: b585d7ee039034f742a01c47c3f2e2f66ab3cdaa
   predecessor_ready_blob: "e88460d1d63a59fbdab914dd06408c971267d20a"
   predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_340_revision_20261028:
+  chapter: 340
+  original_sha: 52662daf70cacb6df84eb742df8f477782826a1c
+  initial_review: reader_reviews/0340_52662daf.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "c2c3ee542ae81ee9617e3a37b39e1ec4df450acb"
+  final_review: reader_reviews/0340_c2c3ee54.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  corrected_fields: [Day201_evening_reference_today_instead_of_yesterday]
+  predecessor_ready_blob: "e09b70d12f0b501294809caa4ffd567c6f96905f"
+  predecessor_exact_ready: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
