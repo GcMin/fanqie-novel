@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 341
+last_updated_chapter: 343
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1126,3 +1126,14 @@ chapter_341_relationship_notes:
   - "老祝善意报险并准确传达老妇人不愿提供姓名的意愿，周衡先引导有责道路岗并让老祝勿碰面板或冒名确认无伤，夏宁只将老祝后续转述记为间接来源而不捏造本人回访。"
   - "道路专业岗位独立围护、拆检、修复及复核，有权决定通行恢复；资产主管/马芸各守历史目录合法查询、封袋保管与短存到期职责，未擅挖第二处方形路面或索历史经办人个人信息。"
   - "周衡与梁策保持现实公众安全优先于永安里旧物推理的合作，夏宁提醒同名点位未必同物，主要角色信任分值无事实依据改变。"
+
+chapter_342_relationship_update:
+  chapter: 342
+  zhou_heng_xia_ning: "以报险实地位置和真实专业复核为先，旧地图点错位与历史同名编号分源记录。"
+  ma_yun_asset_supervisor: "合法限项双人核2015点位换版两行，坚守材料来源与登记身份的区别。"
+  cui_shifu_road_patrol: "崔师傅拒误拆已修盖板，巡查岗先围护栏险再专业复核，保留误派延误记录。"
+chapter_343_relationship_update:
+  chapter: 343
+  lao_zhu_public: "老祝不替推车女子指旧东工门，主动请求有责道路岗确认真正可走路。"
+  zhou_heng_xia_ning_liang_ce: "按真实路权与内用标识区分；不把女子只到菜店的反馈扩成到家或专业无障碍验收。"
+  ma_yun_asset_supervisor: "受控核历史点位以限项回中心，马芸不因柱编号已核就为窄铁片补领料来源。"

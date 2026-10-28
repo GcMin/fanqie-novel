@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 343
+title: "旧号找到了柱，铁皮还没有来处"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "ef8cf935ad5129d1b787dcb83e6298aec68f3c61"
+source_draft_sha: "79ff3bba2f8947d4a771267170124905bd7ae262"
+initial_review: reader_reviews/0343_ef8cf935.md
+reader_review: reader_reviews/0343_79ff3bba.md
+depends_on_chapter: 342
+depends_on_source_sha: "f0960badf42e3b1991f3f637e0c07475f9cc316f"
+dependency_status: verified_predecessor_factual_delta_compatible
+timeframe: "Day204 20:17—Day205 20:00，第202/203次夜班"
+summary: >-
+  Day204 20:17白榆旧站修好护栏边遗留西侧一号内部作业纸，一位推车女子误疑为公众指路而停步问老祝。20:23老祝向夏宁报实见，20:41有责道路巡查核是护栏班临时位置标记非公众导向，保留撤前照片与作业来源并撤板，现时东工门维修道仍禁公众，仅指当时合法西侧入口。21:04女子本人自述到菜店门外，不是中心确认其已到家或无障碍全线验收；道路岗只对本笔遗留纸板收尾纠错，其他维护点未核。Day205 09:46档案方对Day204 16:17申请给予2016-04-12原装配工单点位版次/位置字段部分合法准阅；10:28有责资产双人实核档案原件与2016-04-13归档关联，工单指定2015版西侧三号，11:09另岗复核字段；结合2015换版表2011旧西侧一号→2015新三号，形成旧柱登记点位链接到2016维修对象，但不证明现存窄铁片在2011年已装、其独立来源或今时两方印准确对应。15:07档案方只许可将去身份版次结论转中心，原附表/个人签认不外发；马芸核三旧牌拆件仍在设施新柜原封，窄铁片袋不加贴新标只在索引上增加版本事实。16:22主管确认Day208 16:00现时短期暂存期限不变且到期另评估，三件未出库。Day205 20:00第203次夜班，公众临时误导标记已撤，护栏端套牢，西侧合法路权按当日核验，旧东工门和维修道禁公众。沈家私册仍妹妹家、14旧错图原印10控4未收另2影印分保、F008/M004/M005仍未知。
+meaningful_state_changes:
+  - "Day204 20:41道路有责岗位实际移走内部点位误导纸板并留照片及来源，21:04女子只自述到菜店门外。"
+  - "Day205 10:28有权限项核2016原工单是2015版西侧三号，联立2011旧西侧一号→2015新三号→2016维修点位的登记链。"
+knowledge_updates:
+  - "历史立柱的编号链与2016作业对象可对应，但旧铁片独立来源、字迹年代作者、与沈家私人旧册同源仍未得到证明。"
+  - "临时维修内部纸不是公众导向；当前公众路以道路有权人员实核为准，女子说已到店不代表后续返家或专业无障碍验收。"
+relationship_updates:
+  - "老祝为问路人先求实核，梁策与夏宁在公众侧按授权处置；马芸拒把点位号改写为窄铁片物料来源。"
+foreshadowing_updates:
+  - "F003跨版登记链新增2016工单2015版三号有源字段，但旧铁片2011年是否在场或最初出入库仍是空白；F008/M004/M005不确认。"
+ending_state: "Day205 20:00第203夜班，公众误导内部纸板撤除，2016维修立柱登记链成立而旧铁片源头未知，Day208 16:00保管期限未延期。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ef8cf935ad5129d1b787dcb83e6298aec68f3c61", final_draft_sha: "79ff3bba2f8947d4a771267170124905bd7ae262", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, reviews_this_cycle: 2, predecessor_original_draft_sha: "f2a867db7a983774d06b82c31f658659fcfd0ff2", predecessor_ready_blob: "f0960badf42e3b1991f3f637e0c07475f9cc316f", predecessor_factual_delta: "six_relative_day_wording_corrections_only", predecessor_factual_compatible: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3079

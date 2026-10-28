@@ -7,8 +7,8 @@
 - source_main_sha: 4c063d90c30948ca12e94fb2ab15358c845e05ce
 - predecessor_path: chapters/draft/0342.md
 - depends_on_chapter: 342
-- depends_on_source_sha: "f2a867db7a983774d06b82c31f658659fcfd0ff2"
-- dependency_status: provisional
+- depends_on_source_sha: "f0960badf42e3b1991f3f637e0c07475f9cc316f"
+- dependency_status: verified_predecessor_factual_delta_compatible
 - dependency_facts_used: "第342章未审草稿提供Day204 20:00第202次夜班、护栏端头于Day203 22:37专业修复，2011旧西侧一号与2015新一号不是同一登记条目，2011旧一号→2015西侧三号；Day204 16:17已提交2016装配工单点位/版次窄查，只有收件尚未准阅；白榆旧站东工门及维修道仍禁止公众通行；设施方三旧件新柜原封，窄铁皮临存止Day208 16:00。这些前章未审事实仅作临时连续性参考，不视为Canon。"
 - target_effective_chars: 2600-3400
 - hard_range: 2300-3800
@@ -40,3 +40,8 @@
 - 本轮重新读取GitHub main 4c063d90c30948ca12e94fb2ab15358c845e05ce 的AGENTS、novel.yaml、writing_roles、ai_reading_protocol、四份Bible、三人物卡，静态volume_05与arc_current及当前长期Memory、F003/时间线，最近332—341十章摘要和338—342五章正文、0342章纲；不读取历史Reader Reviews。
 - 旧静态第五卷/ARC-044大纲滞后，以已ready 338—341及第342章未审草稿的具体受限版本为衔接依据。153章《人没回来，表先签完了》已存在于published/0153.md。新章343此前不存在。本章依赖342未审draft f2a867db7a983774d06b82c31f658659fcfd0ff2，故provisional，不把未审事实升级正式Canon。
 - 只创建本章计划与草稿，未进行Reader/Revision/QA/Memory/Publish Gate，未修改旧章节，未发布番茄。Git以main HEAD租约保护，非强制推进。
+
+## Audit第343章完成依据（2026-10-28）
+- 原343草稿Blob ef8cf935ad5129d1b787dcb83e6298aec68f3c61 Reader Pass A/B 0/1/2：前342尚为临时草稿，原依赖SHA=f2a867db7a983774d06b82c31f658659fcfd0ff2，不能直接进入ready。
+- 前342已修正6处跨日指称但未修改发生事实：Day203晚护栏真实修复与专业复行、Day204跨版2011旧一号→2015三号、Day204 16:17新2016工单申请仅收件均与343承接兼容；342正式ready Blob f0960badf42e3b1991f3f637e0c07475f9cc316f。Stage A仅重绑343 Front Matter依赖与本章纲，343小说正文逐字不改。
+- 重绑新343草稿Blob 79ff3bba2f8947d4a771267170124905bd7ae262，独立Reader Pass A/B 0/0/2，Continuity/Style/Meaningful QA PASS，有效字3079；旧Review失效，精确候选Commit结构CI成功后才迁main ready。

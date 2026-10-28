@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 341
+current_chapter: 343
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0341.md
-current_source_sha: 100263adf2cd36d09c2ba09aac0920c007ff261c
-current_review_path: reader_reviews/0341_100263ad.md
+current_source_path: chapters/draft/0343.md
+current_source_sha: 79ff3bba2f8947d4a771267170124905bd7ae262
+current_review_path: reader_reviews/0343_79ff3bba.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0341_reader_revision_qa_candidate
+last_action: audit_0342_0343_reader_revision_qa_candidate
 last_action_date: 2026-10-28
 last_error: null
-last_diff_summary: "341原稿标题错误声称两张图纸而实际只查到两份目录，且依赖前340临时SHA；Stage A只修标题和前章ready SHA及章纲、正文零改。340原稿到ready仅Day201一句日指称修复，事实兼容；新SHA Reader0/0/2与独立QA PASS，候选CI待证。"
+last_diff_summary: "342 Stage A仅纠6处日指称，新SHA双遍Reader0/0/2；343只比对前章事实差异兼容后重绑342正式ready SHA，正文不改，新SHA Reader0/0/2；双章独立QA通过，候选CI结构门待核。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1562,5 +1562,35 @@ chapter_341_revision_20261028:
   predecessor_original_draft_sha: "52662daf70cacb6df84eb742df8f477782826a1c"
   predecessor_ready_blob: "6ada277b30e96d80e5203ebad2b5fa8f3a90ce30"
   predecessor_factual_delta: "Day201_yesterday_to_today_only"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_342_revision_20261028:
+  chapter: 342
+  original_sha: "f2a867db7a983774d06b82c31f658659fcfd0ff2"
+  initial_review: reader_reviews/0342_f2a867db.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_sha: "0b550c159533d4f6ba1325ad727e050eb8ca67bc"
+  final_review: reader_reviews/0342_0b550c15.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 6
+  corrected_fields: [Day203_today_not_yesterday, Day204_last_night_not_tonight, chapter_0342_plan]
+  predecessor_ready_blob: "13edae832645cf2a3f887929c085d09515d09b30"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_343_revision_20261028:
+  chapter: 343
+  original_sha: "ef8cf935ad5129d1b787dcb83e6298aec68f3c61"
+  initial_review: reader_reviews/0343_ef8cf935.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "79ff3bba2f8947d4a771267170124905bd7ae262"
+  final_review: reader_reviews/0343_79ff3bba.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  corrected_fields: [depends_on_source_sha, dependency_status, chapter_0343_plan]
+  predecessor_original_draft_blob: "f2a867db7a983774d06b82c31f658659fcfd0ff2"
+  predecessor_ready_blob: "f0960badf42e3b1991f3f637e0c07475f9cc316f"
+  predecessor_factual_delta: "only six relative-day labels corrected; chapter facts unchanged"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

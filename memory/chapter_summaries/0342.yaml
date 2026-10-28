@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 342
+title: "两张一号单，叫错了同一条路"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "f2a867db7a983774d06b82c31f658659fcfd0ff2"
+source_draft_sha: "0b550c159533d4f6ba1325ad727e050eb8ca67bc"
+initial_review: reader_reviews/0342_f2a867db.md
+reader_review: reader_reviews/0342_0b550c15.md
+depends_on_chapter: 341
+depends_on_source_sha: "13edae832645cf2a3f887929c085d09515d09b30"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day203 20:34—Day204 20:00，第201/202次夜班"
+summary: >-
+  Day203 20:34白榆旧站修车铺报公众侧护栏端套裂、裸金属螺栓险勾裤腿；20:56有责巡查员按报险人实际位置到护栏围隔且留安全公众通道。21:18养护队因手机任务缺版次西侧一号并套用当日上午已修盖板旧坐标，误到盖板处但拒盲拆；转到护栏后22:23专业换护栏端套，22:37巡查岗真复核撤本处隔离，源错派与二十余分钟延误保留。Day204 09:10设施所三件旧牌拆件仍在新柜原封未出库，窄铁皮Day208 16:00暂存截止未变。10:27档案方准有责资产双人限定阅2015点位换版对照两条非个人登记，11:36真见2011旧西侧一号对应2015新三号，而2015新西侧一号属不同旧索引；不能凭此辨现地两方形补面、2016旧铁片2016以前来源。资产岗中午只撤本笔误派快捷定位，保留原任务字段和迟到时点，不宣告全量修复。15:02许可两项去身份结论转录，16:17按职责真提交2016装配工单适用点位版/工作位置附表最小查询，只有收件尚未准阅。17:25夏宁得有限信息，Day204 20:00第202夜班。公众西侧护栏复行、已修盖板未错拆，东工门维修道禁公众，三旧件封袋不动、沈家原册仍妹妹家，旧错图14原印10受控4未收另两影印分保；2014特定预排撤回、2016原档旧片和字存在不证明更早来源或作者，F008/M004/M005未证。
+meaningful_state_changes:
+  - "Day203 22:37有责复核护栏端套专业修复后真实恢复公众通行，旧盖板未误拆，派工错误留痕。"
+  - "Day204 11:36有权真见2015换版对照两行，确定2011旧一号→2015新三号而2015新一号另属不同索引。"
+  - "16:17正式提交2016点位版次最小申请并得收件，无查阅许可。"
+knowledge_updates:
+  - "旧同名目录经换版表可分登记身份，但登记编号不同不自动证明现地方印或窄铁片实物来源。"
+  - "原派工快捷定位误用已限本笔纠正，系统全面排查及2016新查询获批都未完成。"
+relationship_updates:
+  - "夏宁周衡按源区分实地报险与自动坐标；崔师傅拒拆错件，资产岗守档案与实物权限。"
+foreshadowing_updates:
+  - "F003新增2011/2015正式跨版登记关系，未证明2016旧衬片唯一归属、最初旧字写作或与私人旧册同源。"
+ending_state: "Day204 20:00第202夜班，护栏已真修可通，2015换版两行真核但2016点位字段只收件，旧片保管有效期Day208 16:00不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f2a867db7a983774d06b82c31f658659fcfd0ff2", final_draft_sha: "0b550c159533d4f6ba1325ad727e050eb8ca67bc", initial_counts: "0/2/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 6, reviews_this_cycle: 2, predecessor_ready_blob: "13edae832645cf2a3f887929c085d09515d09b30"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3255

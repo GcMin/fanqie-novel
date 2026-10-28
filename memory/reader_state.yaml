@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 341
-last_reviewed_title: "两份旧目录，都叫西侧一号"
-last_source_path: chapters/draft/0341.md
-last_source_sha: 100263adf2cd36d09c2ba09aac0920c007ff261c
-last_review_path: reader_reviews/0341_100263ad.md
+last_reviewed_chapter: 343
+last_reviewed_title: "旧号找到了柱，铁皮还没有来处"
+last_source_path: chapters/draft/0343.md
+last_source_sha: 79ff3bba2f8947d4a771267170124905bd7ae262
+last_review_path: reader_reviews/0343_79ff3bba.md
 last_reviewed_at: "2026-10-28"
 reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 340
-depends_on_source_sha: 6ada277b30e96d80e5203ebad2b5fa8f3a90ce30
+depends_on_chapter: 342
+depends_on_source_sha: f0960badf42e3b1991f3f637e0c07475f9cc316f
 dependency_status: verified_predecessor_factual_delta_compatible
-predecessor_current_source_sha: 6ada277b30e96d80e5203ebad2b5fa8f3a90ce30
+predecessor_current_source_sha: f0960badf42e3b1991f3f637e0c07475f9cc316f
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2013,6 +2013,41 @@ chapter_341_reader_20261028:
   predecessor_original_draft_blob: "52662daf70cacb6df84eb742df8f477782826a1c"
   predecessor_ready_blob: "6ada277b30e96d80e5203ebad2b5fa8f3a90ce30"
   predecessor_factual_delta: "one Day201 relative day correction with facts unchanged"
+  dependency_status: verified_predecessor_factual_delta_compatible
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_342_reader_20261028:
+  chapter: 342
+  original_source_sha: "f2a867db7a983774d06b82c31f658659fcfd0ff2"
+  original_review: reader_reviews/0342_f2a867db.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  source_sha: "0b550c159533d4f6ba1325ad727e050eb8ca67bc"
+  review_path: reader_reviews/0342_0b550c15.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+  stage_a_used: 1
+  body_revisions: 6
+  effective_chars: 3255
+  predecessor_ready_blob: "13edae832645cf2a3f887929c085d09515d09b30"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_343_reader_20261028:
+  chapter: 343
+  original_source_sha: "ef8cf935ad5129d1b787dcb83e6298aec68f3c61"
+  original_review: reader_reviews/0343_ef8cf935.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "79ff3bba2f8947d4a771267170124905bd7ae262"
+  review_path: reader_reviews/0343_79ff3bba.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+  stage_a_used: 1
+  body_revisions: 0
+  effective_chars: 3079
+  predecessor_original_draft_blob: "f2a867db7a983774d06b82c31f658659fcfd0ff2"
+  predecessor_ready_blob: "f0960badf42e3b1991f3f637e0c07475f9cc316f"
+  predecessor_factual_delta: "six relative-day phrase corrections only"
+  predecessor_factual_compatible: true
   dependency_status: verified_predecessor_factual_delta_compatible
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
