@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 361
-last_reviewed_title: "七个人都签了离场，第八个还在门里"
-last_source_path: chapters/draft/0361.md
-last_source_sha: 851576c86b69d9aceb8d969e99e850d5e1f1da67
-last_review_path: reader_reviews/0361_851576c8.md
+last_reviewed_chapter: 362
+last_reviewed_title: "修复单上只有两颗螺栓"
+last_source_path: chapters/draft/0362.md
+last_source_sha: 7e36d27dfa8a891aae013540a9c7ee8b92efdfc0
+last_review_path: reader_reviews/0362_7e36d27d.md
 last_reviewed_at: "2026-10-29"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 360
-depends_on_source_sha: 5fe514f2c9820bcca5097257b09d066c60569be9
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 5fe514f2c9820bcca5097257b09d066c60569be9
+depends_on_chapter: 361
+depends_on_source_sha: 97825e637649f7111c882eb3fcc0990c3288629b
+dependency_status: verified_predecessor_metadata_only_factual_compatible
+predecessor_current_source_sha: 97825e637649f7111c882eb3fcc0990c3288629b
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2363,6 +2363,26 @@ chapter_361_reader_20261029:
   effective_chars: 3441
   predecessor_ready_blob: "5fe514f2c9820bcca5097257b09d066c60569be9"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_362_reader_20261029:
+  chapter: 362
+  original_source_sha: "1dfe93b16217c4aa2b36ab7a8cab03063c8cc924"
+  initial_review: reader_reviews/0362_1dfe93b1.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "7e36d27dfa8a891aae013540a9c7ee8b92efdfc0"
+  final_review: reader_reviews/0362_7e36d27d.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 0
+  corrected_fields: [predecessor_ready_blob, dependency_status, chapter_0362_plan]
+  effective_chars: 3371
+  predecessor_original_draft_sha: "851576c86b69d9aceb8d969e99e850d5e1f1da67"
+  predecessor_ready_blob: "97825e637649f7111c882eb3fcc0990c3288629b"
+  predecessor_body_identical: true
+  dependency_status: verified_predecessor_metadata_only_factual_compatible
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
 
