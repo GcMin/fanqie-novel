@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 385
+title: "盖章的纸，还打不开那扇门"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "89b0960a93f17b2bedbff199f43788ef37cf1e4e"
+source_draft_sha: "a97cbc38d60d791b670bea00691eee485e3702f7"
+initial_review: reader_reviews/0385_89b0960a.md
+reader_review: reader_reviews/0385_a97cbc38.md
+depends_on_chapter: 384
+depends_on_source_sha: "c1afdbd506a682735973308368fa05956da5c7d5"
+dependency_status: verified_predecessor_body_delta_compatible
+timeframe: "Day246 20:37—Day247 20:06"
+summary: >-
+  Day246 20:37夜班得当日下午申请封套乙的预计Day248档案答复，晚于Day247 16:00旧字窄片当前托管期限，夏宁周衡分离目录审批与现物续托。Day247 08:52原设施所主管不愿无限短托但接受无长期条件不可凭原物名迁回旧普通仓；09:24新周转站只核单件原封柜外实际采集时段并无出库。10:18档案管理岗限项分审口头告可核编目来源仍不准封套内页，电话不能代正式批准。11:46新站给两日单件原封报价540元、12:27有权批准内部上限600元但付款未核。13:58马芸罗经办真正持正式权限查迁库编目变更，确认“里侧复核附页”是后补的现行目录显示题名，不能反推2016现场施工人员原始题名、封套原形成日或照片内容，封套未开未阅；15:45出限定目录回执。15:07原设施方、15:24新周转站方有权真签，15:31原柜原封单件登记续托到Day249 16:00，旧合同Day247 16:00前保管不断档，两件其他旧拆件仍原设施所。老齐Day245已签的个人2016目认限定未改，Day247拒因目录后见题名补造记忆；Day247 20:06夏宁周衡按白班有源交接分别更新续托与目录后补来源，保留前日原回执。2011/2020/Day195唯一同物、旧字作者年月、沈家私人票同源及F008/M004/M005仍未证。
+meaningful_state_changes:
+  - "Day247 15:31现存Day195窄片单件原柜原封真实两日续托到Day249 16:00，另两件原所不变。"
+  - "Day247 13:58合法确认里侧复核附页属于迁库后补录现行目录显示名，防止将其当2016原现场题名，内页仍未阅。"
+knowledge_updates:
+  - "预计回复、分审口头通知、正式编目来源限项查阅、封套内页开放是四种不同状态。"
+  - "短托报价540元、内部600元上限批准与付款应分开记录。"
+relationship_updates:
+  - "主管接受先有限短托而不强迫历史归类，马芸坚持实物环境有权签核，老齐警惕后见题名诱导亲历。"
+foreshadowing_updates:
+  - "F003新核现行题名由后续迁库补录而非历史原题名，旧字作者年与物件同一、F008/M004/M005未证。"
+ending_state: "Day247 20:06窄片新周转站单件原封续到Day249 16:00，其余两旧件原所；封套乙题名后补路径已核但内容未阅。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "89b0960a93f17b2bedbff199f43788ef37cf1e4e", final_draft_sha: "a97cbc38d60d791b670bea00691eee485e3702f7", initial_counts: "0/3/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 2, corrected_issue: "Day246申领时间及Day247目认签署日与前章临时SHA更正", predecessor_original_draft_sha: "82647f82ddeba8064af3d5c0e7cc5c2d8d72034c", predecessor_ready_blob: "c1afdbd506a682735973308368fa05956da5c7d5", predecessor_factual_delta: day245_approval_time_reference_changed_compatible, proposed_ready_blob: "397094e24a260475b2404f49e7dcbdead6315f2f"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3221

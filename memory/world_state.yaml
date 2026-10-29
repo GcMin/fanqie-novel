@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 384
+last_updated_chapter: 385
 current_time: "Day245 20:00，一件窄片新周转站原封至Day247 16:00，其余两件旧拆件留原设施所"
 world:
   anomaly_public_awareness: none
@@ -1671,3 +1671,10 @@ chapter_384_world_verified:
   application: "Day246 13:36新内页申请真受理未批，15:11目录回执标未阅，20:00白班转夜班。"
   custody: "Day195窄片新周转站单件原封至Day247 16:00，原设施所另外两件仍原位无人批准合运。"
   unresolved: "封套内容、历史红字作者年月、2011/2020/Day195唯一同一、沈家票同源及F008/M004/M005未知。"
+
+chapter_385_world_verified:
+  source_sha: "a97cbc38d60d791b670bea00691eee485e3702f7"
+  timeframe: "Day246 20:37—Day247 20:06"
+  archive_permission: "Day247 10:18允许限项核编目来源但尚须正式审批；13:58合法阅迁库后补现行目录题名记录，封套乙仍在原旧档案室且内页未审批未开阅；15:45取得限项目录回执。"
+  custody: "Day247 09:24新站封外有限检查无出库；11:46新两日原柜原封报价540元12:27内部600元上限批准未付款；15:07与15:24双方有权签15:31登记单件续托至Day249 16:00。另两旧拆件原设施所没有移动。"
+  unresolved: "后补题名不证原形成日与内容，更不证2011/2020/Day195唯一旧片或红字作者年、沈家私票同源、F008/M004/M005。"

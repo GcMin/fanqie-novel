@@ -6,18 +6,18 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "7800dccf6d243b7feb0de526f7462cede0fe8690"
 - depends_on_chapter: 384
-- depends_on_source_sha: "82647f82ddeba8064af3d5c0e7cc5c2d8d72034c"
-- dependency_status: provisional
+- depends_on_source_sha: "c1afdbd506a682735973308368fa05956da5c7d5"
+- dependency_status: verified_predecessor_body_delta_compatible
 - continuity_precheck: pass_for_drafting_only
 - timeframe: "Day246 20:37—Day247 20:06"
 - count_method: "正文非空白Unicode字符（含标点、不含Front Matter）"
 - target_effective_chars: 3000
-- actual_effective_chars: 3219
-- publish_gate: independent_audit_pending
+- actual_effective_chars: 3221
+- publish_gate: independent_reader_QA_pass_precise_CI_pending
 - pov: "周衡、夏宁夜班有限第三人称；马芸、罗经办、主管与老齐白班有限第三人称"
 
 ## 章节目标与开场
-第384章仅为未审草稿（Git Blob 82647f82ddeba8064af3d5c0e7cc5c2d8d72034c），其中Day246档案目录确有独立“封套乙”现行登记、内页未阅、范围审批待定；新周转站仅存Day195带旧红字窄片原封单件至Day247 16:00，另两件旧拆件仍原设施所。将馆藏内页审批与现实封存期限分开处理，不把下一步许可误当已经接触内文。
+第384章已核为正式ready（Git Blob c1afdbd506a682735973308368fa05956da5c7d5），其中Day246档案目录确有独立“封套乙”现行登记、内页未阅、范围审批待定；新周转站仅存Day195带旧红字窄片原封单件至Day247 16:00，另两件旧拆件仍原设施所。将馆藏内页审批与现实封存期限分开处理，不把下一步许可误当已经接触内文。
 
 ## 人物诉求与冲突
 - 周衡、夏宁：夜班依据真实白班签报区分保管合同与档案申请，不把自动状态变成审批。
@@ -37,9 +37,15 @@
 本章保管期限由Day247续至Day249 16:00，继续一件新周转站/两件原所，不捏造已付款；档案“里侧复核附页”的现行显示题名被明确为迁库后补录，阻止将标签当2016现场原话。这是明确的历史证据层级变化，不是历史实体身份鉴定。F003来源约束增加；F008无新本人具体亲历矛盾、F009/F010/F011仍resolved、M004/M005不借普通流程问题确证。
 
 ## 连续性边界与待独立验证
-- 384是未审稿，记录临时依赖 `depends_on_chapter: 384`、完整 `depends_on_source_sha: 82647f82ddeba8064af3d5c0e7cc5c2d8d72034c`、`dependency_status: provisional`；Audit如修订前章，须复核本章所有事实引用。
+- 384已正式ready，原草稿82647f82...至正式ready确有Day245当夜“昨天主管”改“今天上午主管”的正文事实指代更正；本章所依Day246封套乙目录、内页未阅和申请仅受理事实兼容，已绑定正式ready SHA。
 - 383 ready Blob `cfbc7f20c813bb19ac0e413c1fae844578d237c0`，383已经只允许目录、未许可受限内页；384提及的Day246申领内容暂按指定草稿参考，不当正式Canon。
 - 周衡、夏宁、梁策仅Day246/247 20:00后值班获取白班结果，不白天越班决定资产与档案事项。
 - 2016-04-12当次外板螺栓/垫圈作业与内衬未拆记录不变；2020-06-08内衬拆复亦无唯一物料身份；Day195窄片旧红字作者年月、2011/2020/Day195同件、沈家私人2002旧票同源及1996历史来话自然人获答均不证。
 - 黄绮工时和杜莲秀下一餐是否实际送达仍属未核；不为了本章补结局。旧东工门和维修道公众禁入。
 - Writer只新增本章章纲与草稿；不读历史Reader Review，不做Reader/QA/Revision/Memory/Publish Gate。
+
+
+## 独立Audit Stage A及复审（2026-10-30）
+
+- 初稿89b0960a Reader0/3/2。两处局部时间纠错：Day246 20:37“昨天申请”→“今天下午申请”；Day247老齐“昨天签”→“前天签”；384旧provisional SHA重绑正式ready c1afdbd506a682735973308368fa05956da5c7d5，经比对384确有一处日期指代正文修改但本章事实相容。
+- 新稿a97cbc38d60d791b670bea00691eee485e3702f7正文非空白3221字，独立先Pass A再Pass B Reader0/0/2，Continuity/Style/Meaningful QA PASS；精确候选Git CI仍为放行门。

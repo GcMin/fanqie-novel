@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 384
-last_reviewed_title: "目录上写着里侧"
-last_source_path: chapters/draft/0384.md
-last_source_sha: 067e6d91307f0003f548edd0a8ce418c6f21c5f7
-last_review_path: reader_reviews/0384_067e6d91.md
+last_reviewed_chapter: 385
+last_reviewed_title: "盖章的纸，还打不开那扇门"
+last_source_path: chapters/draft/0385.md
+last_source_sha: a97cbc38d60d791b670bea00691eee485e3702f7
+last_review_path: reader_reviews/0385_a97cbc38.md
 last_reviewed_at: "2026-10-30"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,14 +12,14 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 383
-depends_on_source_sha: cfbc7f20c813bb19ac0e413c1fae844578d237c0
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: cfbc7f20c813bb19ac0e413c1fae844578d237c0
+depends_on_chapter: 384
+depends_on_source_sha: c1afdbd506a682735973308368fa05956da5c7d5
+dependency_status: verified_predecessor_body_delta_compatible
+predecessor_current_source_sha: c1afdbd506a682735973308368fa05956da5c7d5
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-original_source_sha: 82647f82ddeba8064af3d5c0e7cc5c2d8d72034c
-initial_review_path: reader_reviews/0384_82647f82.md
+original_source_sha: 89b0960a93f17b2bedbff199f43788ef37cf1e4e
+initial_review_path: reader_reviews/0385_89b0960a.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
 combined_audit_backfill:
