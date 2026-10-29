@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 383
+current_chapter: 384
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0383.md
-current_source_sha: 3bc8c3794d60ab95bceb45f35dc9c365c5f4e98f
-current_review_path: reader_reviews/0383_3bc8c379.md
+current_source_path: chapters/draft/0384.md
+current_source_sha: 067e6d91307f0003f548edd0a8ce418c6f21c5f7
+current_review_path: reader_reviews/0384_067e6d91.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,13 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0382_0383_new_sha_reader_qa_candidate
+last_action: audit_0384_stage_a_new_sha_reader_qa_candidate
 last_action_date: 2026-10-30
 last_error: null
-last_diff_summary: "第382章两个MAJOR以Stage A正文局部修复，形成4e4bff1b新SHA Reader0/0/2；第383章只重绑存在正文事实微调的382拟ready SHA，形成3bc8c379新SHA Reader0/0/2；两章内容QA均PASS，需精确候选CI成功后才放行。"
+last_diff_summary: "Day245 20:19的昨天主管与当日11:17审批不符，StageA改今天上午主管，元数据字数3145，新SHA Reader0/0/2，独立内容QA通过。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
+current_review_source_sha: 067e6d91307f0003f548edd0a8ce418c6f21c5f7
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:

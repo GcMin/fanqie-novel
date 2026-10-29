@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 383
+last_updated_chapter: 384
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1379,3 +1379,10 @@ chapter_383_relationship_update:
   lao_qi_ma_yun: "老齐主动签今日有限目认补充，马芸尊重本人见闻也不拿其旧回忆代现物唯一料号，不抹历史旧档。"
   profession_custodian_archive: "专业机构只提交方法条件不足书面回函，档案岗仅可预约核原已开放目录，中心夜班只接授权限定结论而不代实施检测或裁决年代。"
   trust_scores_unchanged: true
+
+chapter_384_relations_verified:
+  chapter: 384
+  source_sha: "067e6d91307f0003f548edd0a8ce418c6f21c5f7"
+  asset_and_archive: "马芸明确目录权限而罗经办放弃直接核照片，主管接受按封套乙另作窄申请，档案岗独立审批。"
+  lao_qi: "Day246取本人Day245目认限定副本，不记得封套且不修改原证词。"
+  night_center: "中心夜班只接白班有源回告，不代机构批准受限内页或现物身份。"

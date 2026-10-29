@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 384
+title: "目录上写着里侧"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "82647f82ddeba8064af3d5c0e7cc5c2d8d72034c"
+source_draft_sha: "067e6d91307f0003f548edd0a8ce418c6f21c5f7"
+initial_review: reader_reviews/0384_82647f82.md
+reader_review: reader_reviews/0384_067e6d91.md
+depends_on_chapter: 383
+depends_on_source_sha: "cfbc7f20c813bb19ac0e413c1fae844578d237c0"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day245 20:19—Day246 20:14"
+summary: >-
+  Day245 20:19夏宁周衡核当日上午11:17主管仅批原拆存编号、2016开放维修物料和保管索引目录，预约“核照片”不在授权内。Day246 09:27马芸罗经办实际按权限查阅2016-04-12维修工项已开放附件目录，保留已知外立面照片两张索引，另发现“里侧复核附页，封套乙，登记一件”。10:42窗口库管合法核封套乙在原所档案室现行独立保管柜位及最近一次外封核对，但没有开封或查看受限内页，无法确认是否照片、内容形成时间或与现Day195窄片唯一同物。2016当次外板两螺栓两垫圈与内衬未拆原册仍有效，迁库目录时间不等于2016现场拍摄时间。13:36新限项内页与形成来源申请实际受理尚未获批；15:11取得标内页未阅的目录回执；老齐领回昨日本人目认限项副本且不记得封套乙，不补造当年事实；20:00夏宁周衡在夜班有源交接才获知。新周转站仍有Day195旧字窄片单件原封至Day247 16:00，另外两件旧拆件仍原设施所未搬；历史2011/2020/Day195唯一身份、旧红字作者年月、沈家私票同源、F008/M004/M005均未证。
+meaningful_state_changes:
+  - "原仅获预约许可的目录实际合法阅看，发现封套乙独立现行保管索引并取得15:11有源回执。"
+  - "受限内页及来源形成申请于13:36真实受理但审批未决。"
+knowledge_updates:
+  - "封套目录登记一件不等于内页一张或照片一张，封套保管与现存窄片身份并未对成同物。"
+relationship_updates:
+  - "马芸限制罗经办超权限核照片的愿望，老齐维护本人有限目认范围，夜班只登记白班有源事实。"
+foreshadowing_updates:
+  - "F003有限新增可依法查询封套乙的具体目录，内文与历史同物均未核，F008/M004/M005不证。"
+ending_state: "Day246 20:14封套乙目录在库已证内页未阅，新申请仅受理；Day195窄片单件原封到Day247 16:00另两旧件仍旧所。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "82647f82ddeba8064af3d5c0e7cc5c2d8d72034c", final_draft_sha: "067e6d91307f0003f548edd0a8ce418c6f21c5f7", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, corrected_issue: "Day245昨天主管改今天上午主管", predecessor_ready_blob: "cfbc7f20c813bb19ac0e413c1fae844578d237c0", predecessor_factual_delta: none_exact_ready_blob, proposed_ready_blob: "c1afdbd506a682735973308368fa05956da5c7d5"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3145

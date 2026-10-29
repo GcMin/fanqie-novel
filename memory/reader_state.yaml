@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 383
-last_reviewed_title: "封条外面的那道题"
-last_source_path: chapters/draft/0383.md
-last_source_sha: 3bc8c3794d60ab95bceb45f35dc9c365c5f4e98f
-last_review_path: reader_reviews/0383_3bc8c379.md
+last_reviewed_chapter: 384
+last_reviewed_title: "目录上写着里侧"
+last_source_path: chapters/draft/0384.md
+last_source_sha: 067e6d91307f0003f548edd0a8ce418c6f21c5f7
+last_review_path: reader_reviews/0384_067e6d91.md
 last_reviewed_at: "2026-10-30"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,34 +12,14 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 382
-depends_on_source_sha: 3d7d4b1d67ba32163d2456d15016ab573d9ca5ac
-dependency_status: verified_predecessor_body_delta_compatible
-predecessor_current_source_sha: 3d7d4b1d67ba32163d2456d15016ab573d9ca5ac
+depends_on_chapter: 383
+depends_on_source_sha: cfbc7f20c813bb19ac0e413c1fae844578d237c0
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: cfbc7f20c813bb19ac0e413c1fae844578d237c0
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-upstream_depends_on_chapter: 142
-upstream_declared_predecessor_sha: c98c2d744636933c645de3677ee9c4b8a2e94a92
-upstream_predecessor_current_source_sha: 1aa41c0abff0438e819822566586c6215e9273d1
-upstream_predecessor_sha_mismatch: true
-upstream_qa_verification_required: true
-further_upstream_depends_on_chapter: 139
-further_upstream_declared_predecessor_sha: 90207528e92d39f561a7b38baf2abb2c7c56efb3
-further_upstream_predecessor_current_source_sha: a57e3ee991cd1fe1f981e07d0fbcf7febca328ef
-further_upstream_predecessor_sha_mismatch: true
-further_upstream_qa_verification_required: true
-root_upstream_chapter: 137
-root_upstream_source_sha: ab9bb4c4d725521bbd81d47ab5c13be54a35f082
-root_upstream_reviewer_mode: orchestrator_self_review
-root_upstream_dependency_status: provisional
-chapter_138_depends_on_chapter: 137
-chapter_138_depends_on_source_sha: ab9bb4c4d725521bbd81d47ab5c13be54a35f082
-chapter_138_dependency_status: provisional
-downstream_chapter: 148
-downstream_source_sha: 77569cde9df9ec7f9a85d05767af8f9b3784069d
-downstream_declared_predecessor_sha: a9007e51b414b2deec10d677cbbbae8b507148f5
-downstream_predecessor_sha_mismatch: true
-downstream_qa_verification_required: true
+original_source_sha: 82647f82ddeba8064af3d5c0e7cc5c2d8d72034c
+initial_review_path: reader_reviews/0384_82647f82.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
 combined_audit_backfill:

@@ -12,9 +12,9 @@
 - timeframe: "Day245 20:19—Day246 20:14"
 - count_method: 正文非空白Unicode字符数（含标点，不含Front Matter）
 - target_effective_chars: 3000
-- actual_effective_chars: 3143
+- actual_effective_chars: 3145
 - pov: 周衡和夏宁夜班有限第三人称；马芸、罗经办白班档案窗
-- publish_gate: independent_audit_pending
+- publish_gate: independent_reader_QA_pass_precise_CI_pending
 
 ## 目标与开场
 
@@ -52,5 +52,10 @@
 ## 交付
 
 - 仅新增 `plans/chapter_0384_plan.md` 与 `chapters/draft/0384.md`。
-- 正文 3143 个非空白Unicode字符，标题至少五个非空白字；Front Matter维持draft/pending/null/draft。
+- 正文 3145 个非空白Unicode字符，标题至少五个非空白字；Front Matter维持draft/pending/null/draft。
 - 待独立Audit。
+
+## 独立Audit Stage A与复审（2026-10-30）
+
+- Day245当晚初稿“昨天主管”错指Day244，修为“今天上午主管”，与383正式前章Day245 11:17批准一致。正文仅改这一处，有效字数3143→3145。
+- 初稿Reader0/1/2；修订后最终draft 067e6d91307f0003f548edd0a8ce418c6f21c5f7独立先Pass A后Pass B为0/0/2。Continuity/Style/Meaningful QA PASS；精确Git候选CI仍待运行。
