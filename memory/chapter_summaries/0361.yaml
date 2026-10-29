@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 361
+title: "七个人都签了离场，第八个还在门里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "851576c86b69d9aceb8d969e99e850d5e1f1da67"
+source_draft_sha: "851576c86b69d9aceb8d969e99e850d5e1f1da67"
+reader_review: reader_reviews/0361_851576c8.md
+depends_on_chapter: 360
+depends_on_source_sha: "5fe514f2c9820bcca5097257b09d066c60569be9"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day223 20:41—Day224 20:00，第221/222次夜班"
+summary: >-
+  Day223 20:41小剧场旁汤铺唐素在安全店面侧听门后敲击回应后报险，剧场经理只核七名本馆员工真签退而外包保洁不在名单。夏宁协调有责消防与场馆，梁策20:58仅外围联络；消防21:06核电气和受控入口后发现歪轮布景箱堵住防火门外侧、另一维修道因漏水停用，21:27真实救出52岁外包保洁蔡桂兰。她手腕不适交专业检查，拒将获救倒填正常下班，亲自联系女儿；21:48消防初处置后场仍限制使用。Day224 09:20—10:47经理、外包、场馆安全岗核七人签退及外包19:12派工和独立侧门开门记录，实际应核至少八人，提出按本馆和外包全部实际在场者交叉闭场清点，不倒填旧表。布景箱压禁堆黄色线留存、后场当晚取消使用，整改责任、蔡桂兰医疗和未来回岗选择未结。Day224 20:00第222夜班。白榆窄片单件技术受托到Day226 16:00，另两件原设施所；错路14原印11控3未收与两照片复制独立，沈家私人册不交，F003作者年代/2011同件及F008/M004/M005不证。
+meaningful_state_changes:
+  - "蔡桂兰Day223 21:27由消防专业实际救出，拒把获救当正常签退。"
+  - "Day224三源有责核实七人真签退不包含外包第八人，场馆与外包有权岗位确立全部实际上场者交叉清点。"
+  - "后场危险通道维持受限，等待专业整改和复开核定。"
+knowledge_updates:
+  - "七名本馆人员签退不证明外包人员离场，派工、门禁与实际人员核对需分层。"
+  - "救出时间与正常下班时间、医疗评估、场地可用状态不能混同。"
+relationship_updates:
+  - "蔡桂兰坚持本人救出和隐私权；唐素从合法位置报险而获得直接信任，经理接受不能倒填旧表。"
+foreshadowing_updates:
+  - "本案仅现实闭场清点失误，F003旧字来源及2011同一性未知，F008/M004/M005无新证。"
+ending_state: "Day224 20:00第222夜班，蔡桂兰已救出但后续检查和工作未知；后场仍受限；窄片仅技术单件保管至Day226 16:00。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "851576c86b69d9aceb8d969e99e850d5e1f1da67", final_draft_sha: "851576c86b69d9aceb8d969e99e850d5e1f1da67", initial_counts: "0/0/2", final_counts: "0/0/2", local_revision_used: 0, body_revisions: 0, predecessor_ready_blob: "5fe514f2c9820bcca5097257b09d066c60569be9"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3441
