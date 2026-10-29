@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 381
-last_reviewed_title: "到期那天，先别给旧件起名字"
-last_source_path: chapters/draft/0381.md
-last_source_sha: 13753294d5e33ef20cb5aeb4faea5f1904c68b93
-last_review_path: reader_reviews/0381_13753294.md
+last_reviewed_chapter: 383
+last_reviewed_title: "封条外面的那道题"
+last_source_path: chapters/draft/0383.md
+last_source_sha: 3bc8c3794d60ab95bceb45f35dc9c365c5f4e98f
+last_review_path: reader_reviews/0383_3bc8c379.md
 last_reviewed_at: "2026-10-30"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 380
-depends_on_source_sha: 553ed797194c868d647a5be0fcb7c6f705fbaa2f
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 553ed797194c868d647a5be0fcb7c6f705fbaa2f
+depends_on_chapter: 382
+depends_on_source_sha: 3d7d4b1d67ba32163d2456d15016ab573d9ca5ac
+dependency_status: verified_predecessor_body_delta_compatible
+predecessor_current_source_sha: 3d7d4b1d67ba32163d2456d15016ab573d9ca5ac
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2669,5 +2669,40 @@ chapter_381_reader_20261030:
   predecessor_ready_blob: "553ed797194c868d647a5be0fcb7c6f705fbaa2f"
   predecessor_sha_mismatch: false
   predecessor_factual_delta: none_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_382_reader_20261030:
+  chapter: 382
+  original_sha: "cfb7644e05257cd7fa42a25d866acf391d17b013"
+  initial_review: reader_reviews/0382_cfb7644e.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_source_sha: "4e4bff1b10e55a31560280565ba9f107e9041c8a"
+  review: reader_reviews/0382_4e4bff1b.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1}
+  body_revisions: 2
+  corrected_issue: "Day244上午白班接报/20:00夜班承接与Day244当日下一餐待送日期"
+  predecessor_ready_blob: "f8fa85fbe269d5c97ab1621284998e38868c98ec"
+  predecessor_factual_delta: none_exact_ready_blob
+  proposed_ready_blob: "3d7d4b1d67ba32163d2456d15016ab573d9ca5ac"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_383_reader_20261030:
+  chapter: 383
+  original_sha: "c44283477a734ba699e08fc171d327bf11e748ed"
+  initial_review: reader_reviews/0383_c4428347.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "3bc8c3794d60ab95bceb45f35dc9c365c5f4e98f"
+  review: reader_reviews/0383_3bc8c379.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1}
+  body_revisions: 0
+  predecessor_draft_sha: "cfb7644e05257cd7fa42a25d866acf391d17b013"
+  predecessor_ready_blob: "3d7d4b1d67ba32163d2456d15016ab573d9ca5ac"
+  predecessor_body_identical: false
+  predecessor_factual_delta: "Day244上午白班/20:00夜班交接及当日待配送语义修正与383开场兼容"
+  proposed_ready_blob: "cfbc7f20c813bb19ac0e413c1fae844578d237c0"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

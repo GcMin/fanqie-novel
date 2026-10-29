@@ -9,10 +9,10 @@
 - depends_on_source_sha: "f8fa85fbe269d5c97ab1621284998e38868c98ec"
 - dependency_status: verified_exact_ready_blob
 - continuity_precheck: pass_for_drafting_only
-- timeframe: "Day243 20:34—Day244 10:05"
+- timeframe: "Day243 20:34—Day244 20:00"
 - count_method: 正文非空白Unicode字符数（含标点，不含Front Matter）
 - target_effective_chars: 3000
-- actual_effective_chars: 3390
+- actual_effective_chars: 3396
 - pov: 夏宁、周衡有限第三人称，杜莲秀现场视角
 
 ## 本章目标与开场状态
@@ -33,7 +33,7 @@
 2. 20:47街道正式核恢复资格，21:03周衡梁策现场尊重本人能做饭、却是在等已批准服务这一事实；邻居无无限陪护责任。
 3. 21:16核时点差暂不宣称已找到技术原因，21:27街道真正批准单次应急补餐，21:39厨房接受制作而非交付；核三楼门槛、铁门坏铃与本人有限授权。
 4. 22:12承办站配送员真的上门把热餐交到杜莲秀本人，她只签本次收餐，不签全周期恢复或满意。
-5. Day244 09:17核实预排表未在资格审批后重生成，也未人工补入；10:05站长有权核下餐待送并录入获本人同意的交付提醒；未来真实送达待实际发生。
+5. Day244 09:17核实预排表未在资格审批后重生成，也未人工补入；10:05站长有权核Day244当日下一餐待送并录入获本人同意的交付提醒；10:13白班接限项回告，20:00夜班夏宁周衡实际交接核三行事实，未来真实送达待发生。
 
 ## 本章新信息、变化与承接
 
@@ -49,4 +49,9 @@
 
 ## 交付边界
 
-本次仅原子创建新计划与草稿，正文3390个非空白Unicode字符；Front Matter status:draft、qa:pending、approved_at:null、publish_mode:draft。待独立Audit。
+本次仅原子创建新计划与草稿，正文3396个非空白Unicode字符；Front Matter status:draft、qa:pending、approved_at:null、publish_mode:draft。待独立Audit。
+
+## Audit Stage A 实际修订与QA（2026-10-30）
+
+- 原draft cfb7644e05257cd7fa42a25d866acf391d17b013 → 局部修正Day244上午白班回告、20:00夜班承接及Day244当日下一餐日期定义 → 新draft 4e4bff1b10e55a31560280565ba9f107e9041c8a。
+- 原Reader 0/2/2、新SHA独立双遍Reader 0/0/2；实际3396字，Continuity/Style/Meaningful QA PASS；ready只认结构CI真实通过后的版本。上一章381 ready blob f8fa85fbe269d5c97ab1621284998e38868c98ec 精确依赖。

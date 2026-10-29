@@ -6,8 +6,8 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "2804e33e2fc75510793ec31ff5b1d1197a511692"
 - depends_on_chapter: 382
-- depends_on_source_sha: "cfb7644e05257cd7fa42a25d866acf391d17b013"
-- dependency_status: provisional
+- depends_on_source_sha: "3d7d4b1d67ba32163d2456d15016ab573d9ca5ac"
+- dependency_status: verified_predecessor_body_delta_compatible
 - continuity_precheck: pass_for_drafting_only
 - timeframe: "Day244 20:26—Day245 20:00"
 - count_method: 正文非空白Unicode字符数（含标点，不含Front Matter）
@@ -17,7 +17,7 @@
 
 ## 本章目标与开场状态
 
-新站仅合法受托Day195带旧字窄片原封单件至Day247 16:00，另外两旧拆件始终在原设施所。Day243对非启封检视的专业方法咨询仅受理。本章推进对保管责任和历史来源的区分，阻止将三件未同权评估物品顺路合运，取得专业方法答复，并让老齐主动校正其目认边界。前章382尚是draft，本章只依赖其夜间中心有送餐工单、Day244已有后续记录这一临时工作环境，不把其未审情节当成Canon。
+新站仅合法受托Day195带旧字窄片原封单件至Day247 16:00，另外两旧拆件始终在原设施所。Day243对非启封检视的专业方法咨询仅受理。本章推进对保管责任和历史来源的区分，阻止将三件未同权评估物品顺路合运，取得专业方法答复，并让老齐主动校正其目认边界。前章382已按新SHA通过Reader及内容QA，待与本章在同一精确候选CI完整验证后进入ready；本章只依赖其Day243夜补餐确实本人签收、Day244上午下一餐待配送与20:00夜班正式承接，未将未核的未来送达写成Canon。
 
 ## 人物诉求、职责与冲突
 
@@ -46,7 +46,7 @@
 ## 连续性预检与不可泄露信息
 
 - 第381章ready源 `f8fa85fbe269d5c97ab1621284998e38868c98ec`：Day243 15:35完成单件原封续托至Day247 16:00，双签真实，另两件仍设施所；非启封方法只咨询。
-- 前章382唯一当前版本 `chapters/draft/0382.md` blob `cfb7644e05257cd7fa42a25d866acf391d17b013`；未通过独立审核，本章Front Matter与章纲必须保持 `dependency_status: provisional`。后续若前章被修订，交由独立Audit核此章开场的送餐工单细节。
+- 前章382拟正式ready Blob `3d7d4b1d67ba32163d2456d15016ab573d9ca5ac`，已在本次Audit完成新SHA独立Reader及内容QA；382原draft与最终ready的**小说正文存在Day244白班接报和当日待配送描述两项事实差异**，非完全相同。383开场Day244 20:26夏宁周衡已在正常夜班、手持送餐工单与差异兼容，故将本章Front Matter与章纲依赖重绑该ready Blob并标记`verified_predecessor_body_delta_compatible`；两章仍须精确候选CI通过方可放行。
 - 第380章黄绮仅撤擅离标记、工资待核；不写结案。
 - 2016旧件内衬的现有记录不证现存窄片身份；该章不直接查看私人沈家票原件，不得公开当事人身份信息或将旧站东工门当公众通道。
 - 本轮不读取历史reader_reviews，不执行Reader/Editor/Revision/QA/Memory/Publish Gate。
@@ -54,3 +54,8 @@
 ## 交付范围
 
 仅新增 `plans/chapter_0383_plan.md` 和 `chapters/draft/0383.md`。正文2791个非空白Unicode字符；Front Matter `status:draft`、`qa:pending`、`approved_at:null`、`publish_mode:draft`；待独立Audit。
+
+## Audit Stage A 前章事实差异核对（2026-10-30）
+
+- 382原草稿cfb7644e05257cd7fa42a25d866acf391d17b013至拟ready 3d7d4b1d67ba32163d2456d15016ab573d9ca5ac有正文两处修改：明确Day244 10:13白班接报/20:00夜班接续及Day244当日下一餐待配送，**不是**原文完全相同；383原开场Day244 20:26已在正常夜班且只查看送餐工单，事实无冲突。
+- 383只更新依赖Front Matter和本章纲，无小说正文修改：初稿c44283477a734ba699e08fc171d327bf11e748ed → 新草稿3bc8c3794d60ab95bceb45f35dc9c365c5f4e98f；新SHA独立双遍Reader 0/0/2，Continuity/Style/Meaningful QA PASS、2791有效字，仍需精确候选Git CI结构门。

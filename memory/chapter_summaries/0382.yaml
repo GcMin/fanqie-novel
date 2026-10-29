@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 382
+title: "送饭人找不到的那一户"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "cfb7644e05257cd7fa42a25d866acf391d17b013"
+source_draft_sha: "4e4bff1b10e55a31560280565ba9f107e9041c8a"
+initial_review: reader_reviews/0382_cfb7644e.md
+reader_review: reader_reviews/0382_4e4bff1b.md
+depends_on_chapter: 381
+depends_on_source_sha: "f8fa85fbe269d5c97ab1621284998e38868c98ec"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day243 20:34—Day244 20:00"
+summary: >-
+  Day243 20:34杜莲秀本人经赵颖电话报棠梨巷居家助餐当天未达，强调自己仍可做饭且拒“出不了门”的标签。恢复资格Day243 16:28经街道批准，但当晚配送预排表16:20已生成，18:02清单没有她；22:12前街道21:27真实批准单次临时补餐、21:39承办厨房真实开始制作并核本人仅授权三楼门槛和坏门铃给送餐员，赵颖不承担整夜陪护。22:12承办站人员真正把热餐上楼交到杜莲秀本人，她只签本次实收，不签整周服务恢复或满意。Day244 09:17站方核出预排表在资格批准后未重生成、亦未人工补入，不存在本人重申暂停；10:05有权核当日下一餐排为待配送、没有证明送到，10:13白班有源接回告，20:00夏宁周衡正式接班核三行事实与本人限定交付注意事项。单件旧窄铁片仍专业新周转站原封到Day247 16:00、其余两件原设施所，历史物证及F008/M004/M005未确证。
+meaningful_state_changes:
+  - "Day243 22:12本人真正收到临时热餐，自动资格恢复与当日配送缺单不再被混为一事。"
+  - "Day244 09:17查明清单导出时间差和遗漏人工补入，10:05下一餐排入待配送但仍未确认交付。"
+  - "老人获独立上门交付，赵颖可离场且病史和邻居私号没有转给配送。"
+knowledge_updates:
+  - "夏宁周衡只在Day244 20:00夜班交接后获白班10:13限项回告，知道本人昨晚真签与下一餐待配送两种状态。"
+  - "街道可批准临时补餐，站方实际制作配送，中心不能代签、保证明日已达或将资格恢复等同全程已履约。"
+relationship_updates:
+  - "杜莲秀要求只按实际服务改清单、按本人意愿上门交付，尊重赵颖不长期陪守和有限授权。"
+foreshadowing_updates:
+  - "F003未获新来源证据；旧窄片Day247 16:00限期和两件未搬状态保持，F008/M004/M005无新证。"
+ending_state: "Day244 20:00临时补餐已本人收到、Day244下一餐仍待实际配送验证；老人自主权和门铃门槛提醒有源，市政旧窄片到Day247 16:00。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "cfb7644e05257cd7fa42a25d866acf391d17b013", final_draft_sha: "4e4bff1b10e55a31560280565ba9f107e9041c8a", initial_counts: "0/2/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 2, predecessor_ready_blob: "f8fa85fbe269d5c97ab1621284998e38868c98ec", predecessor_factual_delta: none_exact_ready_blob, proposed_ready_blob: "3d7d4b1d67ba32163d2456d15016ab573d9ca5ac"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3396

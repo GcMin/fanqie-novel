@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 381
+last_updated_chapter: 383
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1364,4 +1364,18 @@ chapter_381_relationship_update:
   lao_qi_ma_yun: "老齐承认2016见过旧铁片的记忆不够确证当前窄片同物，马芸不借他个人回忆补历史物料名称。"
   luo_jingban_custody: "罗经办对预算、报价与未付款逐项分栏，新站按有权合同与柜位登记承担原封保管，不代机构鉴定历史。"
   center_custody: "15:35由真实白班值守接报，20:00夜班夏宁周衡梁策核源接班，中心不代签不越权删历史未知提醒。"
+  trust_scores_unchanged: true
+
+chapter_382_relationship_update:
+  chapter: 382
+  du_lianxiu_zhao_ying: "邻居代拨并陪等到21:51但不承担无限照护；杜莲秀明示自己能做饭，获得真实服务而不被变成需要被救济的标签对象。"
+  du_lianxiu_dispatch: "本人限定授权坏门铃、三楼门槛作为配送提醒，拒把住院病史与邻居号码传出；送餐员真上楼22:12本人签本次实收且拒虚假全周期满意。"
+  night_center_street_station: "夏宁周衡梁策协助分辨资格恢复、预排缺单、街道临时补餐批准、厨房实际制作与本人交付，Day244早班/夜班按时真实衔接，不越权代签。"
+  trust_scores_unchanged: true
+
+chapter_383_relationship_update:
+  chapter: 383
+  ma_yun_luo_supervisor: "马芸按资产权限阻止罗经办的三件合运未提交拟稿变实际动作，主管签明无额外批准不得移动两件旧物并区分短托资金与长期条件。"
+  lao_qi_ma_yun: "老齐主动签今日有限目认补充，马芸尊重本人见闻也不拿其旧回忆代现物唯一料号，不抹历史旧档。"
+  profession_custodian_archive: "专业机构只提交方法条件不足书面回函，档案岗仅可预约核原已开放目录，中心夜班只接授权限定结论而不代实施检测或裁决年代。"
   trust_scores_unchanged: true

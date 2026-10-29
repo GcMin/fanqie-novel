@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 383
+title: "封条外面的那道题"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "c44283477a734ba699e08fc171d327bf11e748ed"
+source_draft_sha: "3bc8c3794d60ab95bceb45f35dc9c365c5f4e98f"
+initial_review: reader_reviews/0383_c4428347.md
+reader_review: reader_reviews/0383_3bc8c379.md
+depends_on_chapter: 382
+depends_on_source_sha: "3d7d4b1d67ba32163d2456d15016ab573d9ca5ac"
+dependency_status: verified_predecessor_body_delta_compatible
+timeframe: "Day244 20:26—Day245 20:00"
+summary: >-
+  Day244 20:26马芸告知新周转站接待员提议顺车集中搬运原设施所另外两件旧拆件，罗经办曾拟三件集中调运单但未提交、旧所未签出库、新站未评两件接收条件。夏宁周衡分开新站单件封袋与另两件旧所现存并拒写“三件同仓”。Day245 09:00设施所会议核有限专业书面方法回函：资料只含封袋外说明、封号、柜位、限定外观测及获准历史照片；专业机构未到场、未见袋内、未试机，当前条件无法给出可实施非启封识别方案，更不等于永远无法鉴别。老齐主动签本人2016工作动作记忆限项补充，承认无法唯一指认现存窄片，不撤回旧档而限制误用。11:17主管真批准仅原拆存编号、已开放2016维修物料记录和保管流转索引的目录核查，受限内页与任何开封技术检测未获准；正式决定无新批准不得顺车移动两旧件。15:40罗经办留未提交拟稿，Day245 20:00夜班获白班限项结果。原封单件在新周转站至Day247 16:00，960元旧报价与内部1000元上限不等于付款，2011/2020/Day195唯一同物与红字作者年代/私票同源仍未证。
+meaningful_state_changes:
+  - "未提交的三件合运拟稿被停下并有权签决不得擅自移动两件旧所拆件，实际物理保管不变。"
+  - "非启封技术咨询有了书面条件不足的答复，但没有实施检查或作出历史鉴定。"
+  - "老齐签署有限目认补充，目录核查获得明确受限许可，尚未真阅受限内页。"
+knowledge_updates:
+  - "马芸罗经办主管和夜班中心均清楚新站一件/原设施所两件分属不同现行保管责任。"
+  - "技术回函是缺实施条件，不是不能以后做、更不是旧红字身份的结论；老齐记忆不能等同唯一料号。"
+relationship_updates:
+  - "罗经办从节省车次的拟稿退回权限与现物评估，主管认可禁顺路搬运；老齐自愿限定个人记忆而非被机构强行否定。"
+foreshadowing_updates:
+  - "F003增加有限目录核查和老齐目认边界，2011/2020/Day195同件、旧字作者年、沈家私票来源与F008/M004/M005仍未知。"
+ending_state: "Day245 20:00窄片新站单件原封至Day247 16:00、另两件原设施所无移动；专业方法回函无实施条件，限项目录待预约核实，老齐补记不证唯一物料身份。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "c44283477a734ba699e08fc171d327bf11e748ed", final_draft_sha: "3bc8c3794d60ab95bceb45f35dc9c365c5f4e98f", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_draft_sha: "cfb7644e05257cd7fa42a25d866acf391d17b013", predecessor_ready_blob: "3d7d4b1d67ba32163d2456d15016ab573d9ca5ac", predecessor_factual_delta: day244_white_shift_and_order_date_clarified_compatible}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2791
