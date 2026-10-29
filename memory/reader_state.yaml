@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 376
-last_reviewed_title: "票根上没有摊位两个字"
-last_source_path: chapters/draft/0376.md
-last_source_sha: 28b1bd6a3142b97d29e5c0dc35b0d87a013800fc
-last_review_path: reader_reviews/0376_28b1bd6a.md
+last_reviewed_chapter: 377
+last_reviewed_title: "拿回来的那一联"
+last_source_path: chapters/draft/0377.md
+last_source_sha: 851e5f23b156664b955d4a7e3a70822731e9dbb8
+last_review_path: reader_reviews/0377_851e5f23.md
 last_reviewed_at: "2026-10-29"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 375
-depends_on_source_sha: 0508dacf5121068cc487ccf587d7fdef2c0275e2
+depends_on_chapter: 376
+depends_on_source_sha: 215eaecca4a62463f23db18456f55da45955a48e
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 0508dacf5121068cc487ccf587d7fdef2c0275e2
+predecessor_current_source_sha: 215eaecca4a62463f23db18456f55da45955a48e
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2594,5 +2594,18 @@ chapter_376_reader_20261029:
   predecessor_ready_blob: "0508dacf5121068cc487ccf587d7fdef2c0275e2"
   predecessor_sha_mismatch: false
   predecessor_factual_delta: none_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_377_reader_20261029:
+  chapter: 377
+  source_sha: "851e5f23b156664b955d4a7e3a70822731e9dbb8"
+  review: reader_reviews/0377_851e5f23.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "215eaecca4a62463f23db18456f55da45955a48e"
+  predecessor_sha_mismatch: false
+  predecessor_factual_delta: none_exact_ready_blob
+  proposed_ready_blob: "adfd8c72bb3c7341bfd8afab98b9c31d9d31dbe2"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

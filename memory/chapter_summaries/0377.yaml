@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 377
+title: "拿回来的那一联"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "851e5f23b156664b955d4a7e3a70822731e9dbb8"
+source_draft_sha: "851e5f23b156664b955d4a7e3a70822731e9dbb8"
+reader_review: reader_reviews/0377_851e5f23.md
+depends_on_chapter: 376
+depends_on_source_sha: "215eaecca4a62463f23db18456f55da45955a48e"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day238 21:17—Day239 20:11"
+summary: >-
+  Day238 21:17沈家家族群误将姐妹事后推断的七号修表摊称为老沈亲自送钟的旧事，沈若琴本人向亲属限项更正：公开第七经营位置当期登记雨具修补，私人票面07或为独立票簿识别号，私票未鉴版次及来源；没有传妹妹的私票照。Day239姐妹到文化服务站另行限项申请2002年公开票据双联与边线使用说明，11:48获13:30阅览时间，13:33真阅经办端业务留底和交付人持联两种公开空白示意；持联不证业务完成、原持有人与经办点。妹妹本人持有2002-09-18私票，只自愿让可见细线与图样有限对照，发现布局与一款持联相似，未鉴纸张印制批次、版次或实际来源；15:09只许记录相似、未鉴定，不拍照、不翻票背、不查私人领票人。家族群今日街景说明改为白榆北口现街景；17:24马芸仅收到合法公开规则及允许的一句有限私票描述，20:11夏宁分源记录。沈若琴夜间修改本人补记承认未亲见父亲送钟，妹妹保留自身不同旧钟记忆，两份私人补记、原票原册都不交机构。市政新周转站原封窄片单件仍到Day243 16:00，另外两件旧拆件仍原设施所；旧字作者年、2011/2020/Day195唯一同物、私票同源及F008/M004/M005均未证。
+meaningful_state_changes:
+  - "家族群后加的七号修表摊与今天街景冒充2002旧址被当事人实际纠正。"
+  - "新阅2002年公开经办端/交付人双联规则，并在本人许可下只核私票可见边线与一款持联布局相似，仍未做同版来源鉴定。"
+  - "姐妹自主保留或修订独立补记，明确无人亲见父亲送修。"
+knowledge_updates:
+  - "沈家姐妹明确公开持联功能不等于钟真的修完或某人确曾到场，本人许可边界持续有效。"
+  - "马芸与夜间中心只知获准公开双联用途及私票外观相似未鉴，不得票照、票背或家族私记。"
+relationship_updates:
+  - "姐姐向家人撤回自己后加的七号修表摊既定推断，妹妹认可纠错但仍拒强行统一各自亲历。"
+foreshadowing_updates:
+  - "F003新添旧票可能为交付人持联的有限结构线索，不证真实经办点、私票来源、2011/2020/Day195窄片身份或旧字作者年代；F008/M004/M005均未证。"
+ending_state: "Day239 20:11私人票仍妹妹自持且仅与持联图样布局相似、未鉴印次来源；市政窄片新周转站原封至Day243 16:00，另两件旧拆件仍原设施所。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "851e5f23b156664b955d4a7e3a70822731e9dbb8", final_draft_sha: "851e5f23b156664b955d4a7e3a70822731e9dbb8", body_revisions: 0, local_revision_used: 0, predecessor_ready_blob: "215eaecca4a62463f23db18456f55da45955a48e", predecessor_factual_delta: none_exact_ready_blob, proposed_ready_blob: "adfd8c72bb3c7341bfd8afab98b9c31d9d31dbe2"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3506

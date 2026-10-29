@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 376
+last_updated_chapter: 377
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1329,4 +1329,10 @@ chapter_376_relationship_update:
   shen_sisters: "妹妹对姐姐指出七号摊位属后见推断；两人不强迫彼此统一对旧钟的记忆，分别写带补记日期的当下陈述而不追认父亲原话。"
   consent_archive: "档案员明确公开样张有限可阅与私人原票鉴真、未开放票簿领用者资料分离，妹妹不交票和私人补记；只授权公开规则用于同类问询。"
   ma_yun_center: "马芸仅收公开业务摘记并向中心传分源有限结论，夜间中心不把私人材料与市政窄铁片合为同源。"
+  trust_scores_unchanged: true
+chapter_377_relationship_update:
+  chapter: 377
+  shen_sisters_family: "沈若琴向家族群承认误把本人后见推断当父亲送钟事实，表弟按要求纠今日照片旧址说明；妹妹认可纠错仍保留私票与各自记忆不合并、不强迫修改。"
+  consent_archive: "文化服务站新批准2002公开联别附页，妹妹主动限定可见边线比对且票一直本人保有；仅记录布局相似及来源未鉴，未复制照片、票背或查领票人。"
+  ma_yun_center: "马芸和夜间中心只传合法公开双联用途及个人授权的一句有限结果，不将旧票、家庭亲历与市政封袋证据链混并。"
   trust_scores_unchanged: true
