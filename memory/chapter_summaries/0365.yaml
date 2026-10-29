@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 365
+title: "那片多出来的铁，归谁的工单"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "1d7701b024f53caa13fb175f1d1d69a1723ef27f"
+source_draft_sha: "d743e3f33731c9e6da95161acca844884982f730"
+reader_review: reader_reviews/0365_d743e3f3.md
+depends_on_chapter: 364
+depends_on_source_sha: "44ca94f8436cefd274a20802a49c8d5af7216aa8"
+dependency_status: verified_predecessor_metadata_only_factual_compatible
+timeframe: "Day227 21:06—Day228 20:00"
+summary: >-
+  Day227 21:06马芸和夜间中心只承认2020照片局部入镜不代表第二笔物料。Day228 08:47相邻项目目录真实查见2020-06-08西侧三号附近另有候车棚西端檐口滴水折边板检修，非同一形成单位或同一工项；09:21申请限定作业/物料/暂置最小页、10:36准阅原施工交接，确认滴水折边板曾在共享临时工作台靠外侧暂放且按邻项移交，但无桌号、精确照片拍摄时刻或唯一身份比对，故只提供右下入镜片状物的普通候选解释，不确认就是它或发生换片。马芸和主管阻止把原图纪要误写为2020疑似调换；16:02有责出具各自来源限定摘录。Day228 13:54技术保管室按Day226合同实际完成有权中途复核，外部观测与单件编号及出入台账连续、无须升级异常，内封未启、实物没动且到期仍Day230 16:00。18:27夏宁仅获合法有限回告，Day228 20:00第226夜班，邻项合理候选尚不能证明照片边角身份或2011/2020/Day195同一旧物。
+meaningful_state_changes:
+  - "新核得2020邻近候车棚另有折边板曾在共享工作台暂放，纠偏无证据的疑似调换描述且保留源图。"
+  - "Day228单件技术受托中途复核真实执行，未将Day230 16:00到期自动延长或冒认内袋鉴定。"
+knowledge_updates:
+  - "照片多出一角的数量与2020邻项折边滴水板有普通解释可能，但缺唯一物件和同时同桌对应，不能认身份。"
+relationship_updates:
+  - "老齐不以业内经验充当2020目击证据；马芸与档案岗以不同工单分源出摘录，中心只接有限结论。"
+foreshadowing_updates:
+  - "F003缩窄不实掉包猜测但不解中央装复内衬及现窄片唯一身份，原字年作者/私人册同源仍未知；F008/M004/M005不变。"
+ending_state: "Day228 20:00第226次夜班，单件短托Day230 16:00仍为待下一次有权决定期限，邻项折边片为合理候选非确证，另两件旧拆件原设施所。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1d7701b024f53caa13fb175f1d1d69a1723ef27f", final_draft_sha: "d743e3f33731c9e6da95161acca844884982f730", body_revisions: 0, local_revision_used: 1, change_only: dependency_front_matter, predecessor_original_draft_sha: "e5d974f9fbfaa0aee33245dda0fd1b78f99c1183", predecessor_ready_blob: "44ca94f8436cefd274a20802a49c8d5af7216aa8", predecessor_body_identical: true, proposed_ready_blob: "08bf772b7442a3eb33142a19f4e8fcc79c7216e2"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3259

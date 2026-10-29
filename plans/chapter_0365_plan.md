@@ -6,8 +6,8 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - depends_on_chapter: 364
-- depends_on_source_sha: "e5d974f9fbfaa0aee33245dda0fd1b78f99c1183"
-- dependency_status: provisional
+- depends_on_source_sha: "44ca94f8436cefd274a20802a49c8d5af7216aa8"
+- dependency_status: verified_predecessor_metadata_only_factual_compatible
 - dependency_facts_used: "第364章在main只有draft：Day226 15:51原设施有权签单件短托、15:56技术室签回、15:58登记，原封原位至Day230 16:00并在Day228约定复核；Day227合法阅2020-06-08台面照片见中央一片及右下角另一片状物局部，同日相邻工项目录仅在Day227 14:19收件。该版本仅作临时承接，不属于正式Canon。"
 - count_method: "Unicode非空白字符（含标点），不含Front Matter和内部元数据"
 - target_effective_chars: "2600–3400"
@@ -46,3 +46,9 @@
 - 读取最新AGENTS、config、writing_roles、ai_reading_protocol、Bible、角色卡、当前卷弧可用记录、Memory人物/知识/关系/世界和timeline/foreshadowing、最近十章0354—0363摘要及最近五章0360—0364全文；不读取历史reader_reviews。
 - 0364仍为未审draft blob e5d974f9fbfaa0aee33245dda0fd1b78f99c1183；本章计划与FM完整保存depends_on_chapter、depends_on_source_sha、dependency_status=provisional。仅临时沿用0364事实供独立Audit以后核对，不自行放行。
 - 本轮只首次新增本章plan和draft，未改旧章、旧plan、QA、长记忆、已发布内容或自动化任务；Git操作原子树提交，expected_sha/force:false保护main。
+
+## Audit 2026-10-29 依赖SHA更新（不修改正文）
+
+- 第364章原draft e5d974f9fbfaa0aee33245dda0fd1b78f99c1183 与当前计划ready 44ca94f8436cefd274a20802a49c8d5af7216aa8 的小说正文逐字相同，仅Front Matter交付字段改变；本章节实际承接事实未变化。
+- 当前365原draft 1d7701b024f53caa13fb175f1d1d69a1723ef27f 只重绑depends_on_source_sha及dependency_status，形成新Git blob d743e3f33731c9e6da95161acca844884982f730。对新SHA重新独立双遍Reader 0/0/2，Continuity/Style/Meaningful QA PASS；以候选Commit精确CI为结构门，不得引用旧草稿Review放行。
+- 上文Writer Precheck只记录当时历史快照（第364章还未审核时），本Audit当前依据ready SHA并已验证事实兼容。

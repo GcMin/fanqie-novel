@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 363
+last_updated_chapter: 365
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1248,3 +1248,15 @@ chapter_363_relationship_update:
   ma_yun_lao_qi: "老齐主动提出无年月传闻也自承并非亲见，马芸用2020原施工页证实拆装动作而拒把数量配对写成同一旧片。"
   ma_yun_archive_asset: "档案岗先收后准阅限项2020施工资料，资产主管批准两条最窄目录询问，双方不凭无料号交接推跨年身份。"
   night_center_custody: "周衡夏宁仅收获准有限结论，梁策要求保管期限由有责双方法定签署解决；技术室不因历史新证自动延托。"
+
+chapter_364_relationship_update:
+  chapter: 364
+  ma_yun_asset_custodian: "马芸坚持分开技术室与设施所受托职责；主管与陈值守均拒口头自动续托，分别Day226 15:51及15:56真签，原单位承担费用与物权。"
+  ma_yun_lao_qi: "老齐没有看到2020照片，提出共台普通可能但自认非目击人；马芸只按合法照片确定第二角真实入镜不认旧站物。"
+  night_center: "夏宁与周衡区分历史照片许可结果及当前保管新决定，不以业务绿标或收件申请代合法准阅及签收。"
+
+chapter_365_relationship_update:
+  chapter: 365
+  ma_yun_lao_qi: "老齐以候车棚折边板的行业经验提出合理候选，但接受不成物件身份；两人未搜寻2020班组个人联系方式。"
+  ma_yun_archive_asset: "2020原内衬与邻项滴水片分属不同档案来源，马芸申请限阅并分别保留正式有源摘录；主管撤销拟写疑似调换的无据内部便签表述。"
+  night_center_custodian: "Day228复核由有权资产/技术方核实，夏宁只接获准有限结果；梁策支持暂止没有新身份标记的个人追索，Day230下一次保管决策仍要有权完成。"

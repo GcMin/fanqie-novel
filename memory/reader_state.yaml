@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 363
-last_reviewed_title: "拆下的一片，装回的是哪一片"
-last_source_path: chapters/draft/0363.md
-last_source_sha: f3c4fc6305895f242e105b929dd20f51a31968cc
-last_review_path: reader_reviews/0363_f3c4fc63.md
+last_reviewed_chapter: 365
+last_reviewed_title: "那片多出来的铁，归谁的工单"
+last_source_path: chapters/draft/0365.md
+last_source_sha: d743e3f33731c9e6da95161acca844884982f730
+last_review_path: reader_reviews/0365_d743e3f3.md
 last_reviewed_at: "2026-10-29"
-reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
+reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 362
-depends_on_source_sha: 0c68a9ded34ea06b0780afa3d5367a8e18232841
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 0c68a9ded34ea06b0780afa3d5367a8e18232841
+depends_on_chapter: 364
+depends_on_source_sha: 44ca94f8436cefd274a20802a49c8d5af7216aa8
+dependency_status: verified_predecessor_metadata_only_factual_compatible
+predecessor_current_source_sha: 44ca94f8436cefd274a20802a49c8d5af7216aa8
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2400,5 +2400,39 @@ chapter_363_reader_20261029:
   effective_chars: 3122
   predecessor_ready_blob: "0c68a9ded34ea06b0780afa3d5367a8e18232841"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_364_reader_20261029:
+  chapter: 364
+  original_source_sha: "e5d974f9fbfaa0aee33245dda0fd1b78f99c1183"
+  final_source_sha: "e5d974f9fbfaa0aee33245dda0fd1b78f99c1183"
+  review: reader_reviews/0364_e5d974f9.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
+  reviews_this_cycle: 1
+  local_revision_used: 0
+  body_revisions: 0
+  effective_chars: 3278
+  predecessor_ready_blob: "469a7de73d93e45d5bcbe7438c66ebbddff164f4"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_365_reader_20261029:
+  chapter: 365
+  original_source_sha: "1d7701b024f53caa13fb175f1d1d69a1723ef27f"
+  final_source_sha: "d743e3f33731c9e6da95161acca844884982f730"
+  review: reader_reviews/0365_d743e3f3.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+  reviews_this_cycle: 1
+  local_revision_used: 1
+  body_revisions: 0
+  corrected_fields: [depends_on_source_sha, dependency_status, chapter_0365_plan]
+  effective_chars: 3259
+  predecessor_original_draft_sha: "e5d974f9fbfaa0aee33245dda0fd1b78f99c1183"
+  predecessor_ready_blob: "44ca94f8436cefd274a20802a49c8d5af7216aa8"
+  predecessor_body_identical: true
+  dependency_status: verified_predecessor_metadata_only_factual_compatible
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

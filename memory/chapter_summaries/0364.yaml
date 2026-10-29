@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 364
+title: "照片里多出一片，清点单只写一片"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "e5d974f9fbfaa0aee33245dda0fd1b78f99c1183"
+source_draft_sha: "e5d974f9fbfaa0aee33245dda0fd1b78f99c1183"
+reader_review: reader_reviews/0364_e5d974f9.md
+depends_on_chapter: 363
+depends_on_source_sha: "469a7de73d93e45d5bcbe7438c66ebbddff164f4"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day226 15:29—Day227 20:00"
+summary: >-
+  Day226 15:29受托一件白榆带字窄铁片距16:00到期半小时，主管、马芸、技术室和财务分别真实核费用/件数/外封原位及职责。15:51原设施有权签、15:56技术室负责人签、15:58陈值守真登记，新单件短期受托合法接续至Day230 16:00并约Day228有权中期复核和每日两次外部观测，原封原位无启封及出入库，旧期限留源，另两件仍原设施所。Day226 20:00第224次夜班中心获授权限项结果。Day227 09:24去年14:09仅收件的2020暂置照片查询获准限定看一张，10:08马芸在受控阅档屏核有中部一片金属及写待复装内衬一片的卡片、右下另有片状金属一角，画面没有第二物件的编号/完整身份/原位置。2020后首份巡检仅目录标题已开放，原件及照片未准阅。13:06主管仅准同日同工位邻项业务目录最小查询，14:19仅收件。17:12技术室常规外部观测暂无升级异常，封袋未开。Day227 20:00第225次夜班，F003新物件身份线未闭，2011同一性/字作者日期、F008/M004/M005仍无证。
+meaningful_state_changes:
+  - "Day226 15:56前新双方有权短托签署完成，Day230 16:00为新的当前期限且Day228中期复核待真执行。"
+  - "2020暂置照从仅目录收件转为合法见中央一片及另块局部入镜，下一步邻项查询14:19真实收件但未准阅。"
+knowledge_updates:
+  - "另一块片状物只在照片角落入镜，非同工项第二片内衬的身份证，也不证明换件；照片与施工单、暂置清点互不替代。"
+relationship_updates:
+  - "资产主管、陈值守分别承担签约费用与保管现实责任；马芸、老齐和夜间中心分开目击照片与从业推测，不强求开封。"
+foreshadowing_updates:
+  - "F003推进2020工作台照片合法有限核看和相邻工项窄查询；2011相似旧衬、2020中央片与Day195封存窄片仍未证唯一同一或字作者年代。"
+ending_state: "Day227 20:00第225次夜班，单件窄片技术室原封受托至Day230 16:00，Day228中期复核待做；第二片状物局部入镜不知来源，邻项最小查询仅收件。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "e5d974f9fbfaa0aee33245dda0fd1b78f99c1183", final_draft_sha: "e5d974f9fbfaa0aee33245dda0fd1b78f99c1183", body_revisions: 0, local_revision_used: 0, predecessor_ready_blob: "469a7de73d93e45d5bcbe7438c66ebbddff164f4", proposed_ready_blob: "44ca94f8436cefd274a20802a49c8d5af7216aa8"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3278
