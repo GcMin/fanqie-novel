@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 375
+last_updated_chapter: 376
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1322,4 +1322,11 @@ chapter_375_relationship_update:
   chapter: 375
   passengers_operators: "赵姨与王阿姨要求实际安全候车，同站站务员按专业岗位解决而不索要个人家庭住址。"
   professional_dispatchers: "夏宁分真实临时措施和有权夜验，方工核电气与座椅、道路岗核外侧净宽，梁策与周衡不把它并入窄片线。"
+  trust_scores_unchanged: true
+
+chapter_376_relationship_update:
+  chapter: 376
+  shen_sisters: "妹妹对姐姐指出七号摊位属后见推断；两人不强迫彼此统一对旧钟的记忆，分别写带补记日期的当下陈述而不追认父亲原话。"
+  consent_archive: "档案员明确公开样张有限可阅与私人原票鉴真、未开放票簿领用者资料分离，妹妹不交票和私人补记；只授权公开规则用于同类问询。"
+  ma_yun_center: "马芸仅收公开业务摘记并向中心传分源有限结论，夜间中心不把私人材料与市政窄铁片合为同源。"
   trust_scores_unchanged: true

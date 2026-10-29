@@ -11,7 +11,9 @@
 - continuity_precheck: pass_for_drafting_only
 - timeframe: "Day237 20:43—Day238 20:05"
 - target_effective_chars: 3000
-- actual_effective_chars: 3002
+- actual_effective_chars: 3436
+- nonpunctuation_chars_for_reference_only: 3002
+- count_method_for_delivery: "正文非空白Unicode字符数（publisher.check_local）"
 - pov: 沈家妹妹与沈若琴近距有限视角，马芸、夏宁、周衡、梁策少量职务视角
 
 ## 本章目标
@@ -39,6 +41,9 @@
 
 ## 结尾承接
 原票的来源仍由本人决定是否授权版次核查；“07”由单一摊位认定回到多个编号体系待辨，姐姐自觉划掉后加的旧路断言。窄铁片的保管期限和历史身份均不因本章改变。后续可沿合法票样印制源或旧站原物证按独立来源推进，不可预填查明。
+
+## 审核端字数核对
+最初Writer在详纲内用排标点3002字计数；独立审核实际核对非空白Unicode 3436字。此修订只校正元数据，不更改原计划情节或正文。
 
 ## 交付范围
 仅新建章节章纲与初稿，status:draft，qa:pending，approved_at:null，publish_mode:draft；未执行独立Reader、Revision、QA、Memory、ready 或 Publisher。

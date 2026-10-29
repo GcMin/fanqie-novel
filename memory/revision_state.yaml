@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 375
+current_chapter: 376
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0375.md
-current_source_sha: cd94920a44e2cda6c4422522d7afb44a170eefd7
-current_review_path: reader_reviews/0375_cd94920a.md
+current_source_path: chapters/draft/0376.md
+current_source_sha: 28b1bd6a3142b97d29e5c0dc35b0d87a013800fc
+current_review_path: reader_reviews/0376_28b1bd6a.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0374_0375_reader_qa_candidate
+last_action: audit_0376_reader_qa_candidate
 last_action_date: 2026-10-29
 last_error: null
-last_diff_summary: "374双遍Reader0/0/2不修正文；375初审0/1/2，前章374原稿与ready正文相同，仅更新依赖元数据及字数和详纲生成新SHA复审0/0/2；QA两章PASS，结构候选CI待执行。"
+last_diff_summary: "第376章最初Reader0/1/2，StageA只修字数元数据3002到3436无正文修改；新SHA双遍Reader0/0/2、独立QA PASS；等待精确候选CI结构验证。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -2040,5 +2040,21 @@ combined_audit_chapter_375_20261029:
   predecessor_ready_blob: "d32a3c7e4cb0537ae0ba2c9cdabed95e0f95ca87"
   predecessor_body_identical: true
   proposed_ready_blob: "0508dacf5121068cc487ccf587d7fdef2c0275e2"
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_376_20261029:
+  chapter: 376
+  original_sha: "c63b85026547ea229c0a0641dbef39dc0922aa77"
+  initial_review: reader_reviews/0376_c63b8502.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "28b1bd6a3142b97d29e5c0dc35b0d87a013800fc"
+  final_review: reader_reviews/0376_28b1bd6a.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  corrected_fields: [char_count, chapter_0376_plan]
+  predecessor_ready_blob: "0508dacf5121068cc487ccf587d7fdef2c0275e2"
+  predecessor_sha_mismatch: false
   continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required

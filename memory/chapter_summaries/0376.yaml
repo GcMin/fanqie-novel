@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 376
+title: "票根上没有摊位两个字"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "c63b85026547ea229c0a0641dbef39dc0922aa77"
+source_draft_sha: "28b1bd6a3142b97d29e5c0dc35b0d87a013800fc"
+initial_review: reader_reviews/0376_c63b8502.md
+reader_review: reader_reviews/0376_28b1bd6a.md
+depends_on_chapter: 375
+depends_on_source_sha: "0508dacf5121068cc487ccf587d7fdef2c0275e2"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day237 20:43—Day238 20:05"
+summary: >-
+  Day237 20:43沈家妹妹质疑私票铅字白榆北口07本身并没有摊位二字，沈若琴承认七号修表摊是姐妹后写的归因。Day238 09:31文化服务站接受查2002年公开空白票据格式咨询，11:06获限阅准许、13:52姐妹实阅有源公开使用说明与空白样张：当时确有随票簿领用册次分配的两位数票簿识别号，不自动等于具体经营位置摊号；此前九月16至30日第七摊位登记雨具修补仍有效。私人2002-09-18修表票未提供作版次和来源比对，不证属于此票簿或第七摊位，更不能认伪。姐妹各自限项写旧钟主观回忆签补记当天日期，私人原票/原册与补记不交机构；沈若琴新回想父亲手上的白墙灰只为未经核来处的主观记忆。16:18马芸仅获公开规则，18:27妹妹许可仅及同类公开咨询，20:05中心分栏记公开摊位位置、票簿编号和未比私票。旧窄片单件原封周转站至Day243 16:00，另两件原设施所，2011/2020/Day195同一及旧红字作者年、与沈家票同源、F008/M004/M005仍未证。
+meaningful_state_changes:
+  - "公开经营位置七号与公开票簿两位数识别号确系不同编号用途，推翻票面07当然指七号摊的无证逻辑跳跃。"
+  - "姐妹把自己的旧钟亲历回忆与后加推断分开留存，不交私人原票或纸本补记。"
+knowledge_updates:
+  - "夜间中心仅获有权限项公开规则，私人票是否采用样张版本及其来源仍必须独立核证。"
+  - "沈若琴关于父亲手上白墙灰仅有主观旧记忆，不可直接关联市政窄铁片。"
+relationship_updates:
+  - "妹妹要求姐姐撤回七号摊既定断言，姐妹分别签当下补记而不要求彼此说成一个旧故事；档案员及马芸尊重私人授权。"
+foreshadowing_updates:
+  - "F003旧站编号证据分源，保全期限仍Day243 16:00；旧字年代作者和跨年物料身份、私票同源未证，F008/M004/M005无新确证。"
+ending_state: "Day238 20:05已合法核公开票簿识别号与经营摊位号两套意义，私人票实物未鉴，姐妹各自旧钟补记仍自存；窄片周转站单件原封到Day243 16:00。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "c63b85026547ea229c0a0641dbef39dc0922aa77", final_draft_sha: "28b1bd6a3142b97d29e5c0dc35b0d87a013800fc", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, corrected_fields: [char_count, chapter_0376_plan], predecessor_ready_blob: "0508dacf5121068cc487ccf587d7fdef2c0275e2", predecessor_factual_delta: none_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3436

@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 375
-last_reviewed_title: "灯亮以前，先把候车的人看清"
-last_source_path: chapters/draft/0375.md
-last_source_sha: cd94920a44e2cda6c4422522d7afb44a170eefd7
-last_review_path: reader_reviews/0375_cd94920a.md
+last_reviewed_chapter: 376
+last_reviewed_title: "票根上没有摊位两个字"
+last_source_path: chapters/draft/0376.md
+last_source_sha: 28b1bd6a3142b97d29e5c0dc35b0d87a013800fc
+last_review_path: reader_reviews/0376_28b1bd6a.md
 last_reviewed_at: "2026-10-29"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 374
-depends_on_source_sha: d32a3c7e4cb0537ae0ba2c9cdabed95e0f95ca87
-dependency_status: verified_predecessor_metadata_only_factual_compatible
-predecessor_current_source_sha: d32a3c7e4cb0537ae0ba2c9cdabed95e0f95ca87
+depends_on_chapter: 375
+depends_on_source_sha: 0508dacf5121068cc487ccf587d7fdef2c0275e2
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 0508dacf5121068cc487ccf587d7fdef2c0275e2
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2577,5 +2577,22 @@ chapter_375_reader_20261029:
   body_revisions: 0
   predecessor_ready_blob: "d32a3c7e4cb0537ae0ba2c9cdabed95e0f95ca87"
   predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_376_reader_20261029:
+  chapter: 376
+  original_sha: "c63b85026547ea229c0a0641dbef39dc0922aa77"
+  initial_review: reader_reviews/0376_c63b8502.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "28b1bd6a3142b97d29e5c0dc35b0d87a013800fc"
+  review: reader_reviews/0376_28b1bd6a.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1}
+  corrected_fields: [char_count, chapter_0376_plan]
+  body_revisions: 0
+  predecessor_ready_blob: "0508dacf5121068cc487ccf587d7fdef2c0275e2"
+  predecessor_sha_mismatch: false
+  predecessor_factual_delta: none_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
