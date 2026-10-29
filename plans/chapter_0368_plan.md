@@ -6,15 +6,15 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - depends_on_chapter: 367
-- depends_on_source_sha: "ef99b748aba3810833f8724a6c1bf59139b5bfb6"
-- dependency_status: provisional
+- depends_on_source_sha: "7921c1f76d1f4ae8b43baa059201aeaced6ab0b3"
+- dependency_status: verified_exact_ready_blob
 - dependency_facts_used: "第367章尚为未审draft，其Day230 15:21/15:42两方短托真签、15:48登记，仅技术室原封窄片一件保至Day234 16:00；当夜官方专线19:16真实交接；Day230 17:23获准Day231在受控阅档室看2020年后首份巡检指定页，内容未阅。均仅作为特定草稿的临时衔接，不升为Canon。"
 - continuity_precheck: pass_for_drafting_only
 - target_effective_chars: 3000
 - actual_effective_chars: 3236
 - timeframe: "Day230 20:26—Day231 20:00，第228/229次夜班"
 - pov: "周衡/夏宁夜间中心有限视角、马芸档案阅档有限视角"
-- predecessor_not_canon: "第367章原始未审草稿只能暂作引用；若后续Audit修订，须独立核对本章依赖与最终ready，不反写已发布Canon。"
+- predecessor_not_canon: "367原稿与最终拟ready正文确有Day230 11:14白班接报岗位一行更正；368所使用的19:16晚班交接及新合同、次日阅档事实均兼容，已精确重绑367 ready Blob。"
 
 ## 本章目标
 让新官方专线经历第一笔真实需要复核的受托场所环境联络，并实际检验有责接报与响应，不将外部异常偷换为封袋内状况；Day231依法读取2020年首份巡检原件，限定其“合格”只能证明外侧检查，同时从被允许的页脚取得新的完工影像档案引用号并正式提出最小查询。
@@ -48,3 +48,8 @@
 
 ## 结尾与承接
 Day231 20:00第229次夜班，新附件目录查询尚待回告；下一章可在合法实际回函后继续推进2020物件身份核查，不抢先断言影像内容。正文目标2600—3400有效字，硬限2300—3800；本轮只写新章纲和草稿，待独立Audit审核。
+
+## 2026-10-29 审核后新SHA与实际事实差异
+- 367原draft `ef99b748aba3810833f8724a6c1bf59139b5bfb6` 与最终拟ready `7921c1f76d1f4ae8b43baa059201aeaced6ab0b3` 正文仅有Day230 11:14白班接报岗位实际更正，不得说小说正文完全相同；本章的夜班19:16交接、15:21/15:42双签及Day231合法阅档不受影响。
+- 368原draft `1c5748d14b0ac217021d7e3e1a27db1350001e8a` 依赖旧未审367 SHA且把Day230当天11:14测试误说“昨天”；Stage A仅重绑最终ready SHA并将对白改“白天试通，晚上才算”，新draft `5d9a9c90edcad79cf4d99751d1cc2a8c1ef254ae`、3236字。
+- 新SHA Reader独立Pass A与Pass B最终0 BLOCKER 0 MAJOR 2 MINOR；Continuity/Style/Meaningful QA内容PASS，2020首检里侧明确未检且BY-20-06-F2只是独立引用号和受理申请，精确候选CI通过前不得声称main ready。

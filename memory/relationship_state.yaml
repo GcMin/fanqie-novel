@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 366
+last_updated_chapter: 368
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1266,3 +1266,15 @@ chapter_366_relationship_update:
   ma_yun_luo_asset: "罗财务按公共资产归口而非私人失主收款，主管认可短期测算预留但要求期限和技术依据；马芸拒用预算替代物证身份。"
   ma_yun_custodian: "陈值守不让短时外部稳定冒充长期封袋安全，也没有批准新托，马芸不擅开启封袋或搬迁。"
   night_center: "周衡、夏宁、梁策按职权只核真实已签事项与待办，不替设施所和技术室签新合同，无可信新增信任分值变化。"
+
+chapter_367_relationship_update:
+  chapter: 367
+  night_center_asset: "罗经办纠自动误带夜间中心责任电话，周衡夏宁守住转报与原设施所有责接报的职权边界。"
+  asset_custodian: "陈值守拒认首次旧分机语音为测试合格，维护后白班资产岗11:14真接、晚班设施运行岗19:16交接，双方15:21/15:42真签有限短托。"
+  ma_yun_finance: "马芸与罗财务严格分开1200预算、1180报价、合同签署与付款。"
+
+chapter_368_relationship_update:
+  chapter: 368
+  night_center_custodian: "技术室21:07经原设施所官方专线真接报并23:19回告，中心不越权代实物处置；梁策强调外测回落不是袋内状态。"
+  ma_yun_archive_asset: "档案员只准马芸读2020首检指定页，BY-20-06-F2仅能先查目录存续；资产主管拒无证据写已找到复装影像。"
+  ma_yun_lao_qi: "老齐承认巡检未做就不该把空格补勾，不用外侧合格章当里侧及旧片身份凭证。"

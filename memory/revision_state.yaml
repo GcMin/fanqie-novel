@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 366
+current_chapter: 368
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0366.md
-current_source_sha: 189e450e35133a9c422c18ac49a0d27788977f8e
-current_review_path: reader_reviews/0366_189e450e.md
+current_source_path: chapters/draft/0368.md
+current_source_sha: 5d9a9c90edcad79cf4d99751d1cc2a8c1ef254ae
+current_review_path: reader_reviews/0368_5d9a9c90.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0366_reader_qa_candidate
+last_action: audit_0367_0368_stage_a_reader_qa_candidate
 last_action_date: 2026-10-29
 last_error: null
-last_diff_summary: "366原SHA独立Reader0/0/2，正文无需修改，前365ready SHA精确匹配，Continuity/Style/Meaningful内容QA PASS；精确候选结构CI未成功前不进入main ready。"
+last_diff_summary: "367初审0/1/2更正Day230白班接听岗位新SHA复审0/0/2；368初审0/2/2重绑367ready及纠同日晚昨天试通新SHA复审0/0/2；两章独立QA通过。367草稿到ready确有一行正文岗位变动且368所用前章事实兼容。精确候选CI成功前不放行。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1909,5 +1909,38 @@ combined_audit_chapter_366_20261029:
   rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
   body_revisions: 0
   predecessor_ready_blob: "08bf772b7442a3eb33142a19f4e8fcc79c7216e2"
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_367_20261029:
+  chapter: 367
+  original_sha: "ef99b748aba3810833f8724a6c1bf59139b5bfb6"
+  final_sha: "efc098ba70570b3ef12deefef816bcb465257d65"
+  initial_review: reader_reviews/0367_ef99b748.md
+  final_review: reader_reviews/0367_efc098ba.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  corrected_fields: [day230_1114_daytime_receiver, char_count]
+  predecessor_ready_blob: "95100b8c03253a5560acca374d0de14b9ef635b7"
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_368_20261029:
+  chapter: 368
+  original_sha: "1c5748d14b0ac217021d7e3e1a27db1350001e8a"
+  final_sha: "5d9a9c90edcad79cf4d99751d1cc2a8c1ef254ae"
+  initial_review: reader_reviews/0368_1c5748d1.md
+  final_review: reader_reviews/0368_5d9a9c90.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  corrected_fields: [depends_on_source_sha, dependency_status, day230_same_day_call_wording, chapter_0368_plan]
+  predecessor_original_draft_sha: "ef99b748aba3810833f8724a6c1bf59139b5bfb6"
+  predecessor_final_ready_blob: "7921c1f76d1f4ae8b43baa059201aeaced6ab0b3"
+  predecessor_body_diff_lines: 1
+  predecessor_factual_compatible: true
   continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required

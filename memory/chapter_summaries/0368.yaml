@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 368
+title: "巡检表上，里侧那格没有勾"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "1c5748d14b0ac217021d7e3e1a27db1350001e8a"
+source_draft_sha: "5d9a9c90edcad79cf4d99751d1cc2a8c1ef254ae"
+initial_review: reader_reviews/0368_1c5748d1.md
+reader_review: reader_reviews/0368_5d9a9c90.md
+depends_on_chapter: 367
+depends_on_source_sha: "7921c1f76d1f4ae8b43baa059201aeaced6ab0b3"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day230 20:26—Day231 20:00，第228/229次夜班"
+summary: >-
+  Day230 20:26技术室发现外走廊回风口测点升到复核线而未至合同异常处置线，业务告知中心不等于授权中心首接报。21:07正式官方专线由19:16已交接的原设施所运行值守真人接报并联系维护。21:49专业班组清理冷凝水软管外侧积水的堵排水口，23:12外测回观察范围、23:19向有责岗位回告；封袋未开未移动，外测不证明袋内及长期环境安全。Day231 09:38马芸在许可范围真阅2020-07-13首份后巡检指定页，外板外露螺栓等公众外侧项目勾选并盖总合格章，里侧衬件却写闭合状态下未检；合格不能证2020-06-08同一片内衬返装或其与Day195现物同一。页脚只见独立完工影像引用BY-20-06-F2，与旧工作台过程附件四不同，尚未核存件或照片内容。13:04限定档案目录存续/利用查询仅真实收件未准阅。17:48技术室回告专业维护后仍按本期持续监测环境，20:00第229次夜班。单件窄片技术室原封仍至Day234 16:00、另两旧拆件设施所，F003原字、2011/2020/Day195同一与F008/M004/M005均未确证。
+meaningful_state_changes:
+  - "官方正式专线21:07首次处理真实外部复核要求，21:49专业清理，23:12/23:19有限复核回告，未开启柜袋。"
+  - "2020-07-13首巡检指定原页真查，明确外部合格而里侧未检。"
+  - "从准阅页脚新见BY-20-06-F2引用号，13:04最小存续/可利用查询仅收件不代表影像已找到。"
+knowledge_updates:
+  - "周衡夏宁梁策知道外部测点回落不能推袋内安全，官方线须逐班接报。"
+  - "马芸、老齐和档案员区分巡检总合格章、里侧未检与新F2目录号，不补虚假身份链。"
+relationship_updates:
+  - "原设施所值守及专业维护真实接报与回告，马芸不强迫档案员越过许可并提醒老齐不能倒填未检栏。"
+foreshadowing_updates:
+  - "F003新增独立BY-20-06-F2档案引用和目录待核，旧字作者年、2011/2020/Day195金属同一仍未知；F008/M004/M005不证。"
+ending_state: "Day231 20:00第229次夜班，技术室单件短托至Day234 16:00；外部环境仍需连续监测，2020首检里侧未检且F2仅存续查询收件。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1c5748d14b0ac217021d7e3e1a27db1350001e8a", final_draft_sha: "5d9a9c90edcad79cf4d99751d1cc2a8c1ef254ae", initial_counts: "0/2/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, corrected_fields: [depends_on_source_sha, dependency_status, day230_same_day_wording], predecessor_original_sha: "ef99b748aba3810833f8724a6c1bf59139b5bfb6", predecessor_ready_blob: "7921c1f76d1f4ae8b43baa059201aeaced6ab0b3", predecessor_body_diff_lines: 1, predecessor_body_change_factual_compatible: true, proposed_ready_blob: "329798656e511e7a47633c325d0386f164e93d5b"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3236
