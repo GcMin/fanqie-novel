@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 378
+title: "那张票上写的是修表"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "d3c38e1b39c9124b2d90d56e08dc4b3fb00c5194"
+source_draft_sha: "d3c38e1b39c9124b2d90d56e08dc4b3fb00c5194"
+reader_review: reader_reviews/0378_d3c38e1b.md
+depends_on_chapter: 377
+depends_on_source_sha: "adfd8c72bb3c7341bfd8afab98b9c31d9d31dbe2"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day239 21:27—Day240 20:08"
+summary: >-
+  Day239 21:27沈若琴质疑2002-09-18私人旧票“修表，走时偏慢”是否指父亲的座钟，妹妹同意次日只看家中旧物。Day240 10:15妹妹在自家打开八年前重新包装的纸箱，发现玻璃裂纹木座钟，另取出父亲旧钢带腕表；两件现物只证今日存在，不证2002送修哪件或私票同一。12:40普通钟表店店主只解释“修表／走时偏慢”可用于钟或表，未见旧票和旧物且不提供鉴定。14:23姐妹分别分盒记录Day240现物状态与主观童年记忆，不拆修、上弦或外送；沈若琴亲自向家族群撤回把“修表”解读为父亲已送旧座钟的无据说法，不凭舅舅无日期口述补旧事实。18:00原票仍由妹妹自持且不授权传物件照片；20:08马芸只听获允许的限项家庭纠错，未合并为市政旧片来源。2002第七经营位置当期雨具修补登记有效且票簿号不同于摊号；私人旧票版次、开票人、维修对象及实际取回均未鉴定。市政Day195旧红字窄片新周转站单件原封至Day243 16:00，其余两件仍原设施所；2011/2020/Day195唯一同物、红字作者年、沈家旧票同源及F008/M004/M005均未确证。
+meaningful_state_changes:
+  - "Day240姐妹亲见当下两件不同的家中钟表，原票修表一词不能再被确定性指向座钟。"
+  - "姐姐亲自在家族群撤回父亲曾送座钟维修的无据因果说法，姐妹各自记录当下状态与旧时主观回忆。"
+knowledge_updates:
+  - "姐妹知道有座钟及腕表两件当下不同物件，而当代词义不能证旧票具体所指或2002历史事件。"
+  - "马芸仅知姐姐自愿提供的家庭纠错一句，没有家属两物照片、妹妹私票或鉴真权。"
+relationship_updates:
+  - "姐妹由争谁的旧记忆准确，改为分别签录而不编造父亲送修历史；家庭群收到姐姐主动更正，妹妹授权边界不变。"
+foreshadowing_updates:
+  - "F003新增家庭双钟表现物观察但不升级私人旧票与旧片来源证据，F008/M004/M005没有新可核确证。"
+ending_state: "Day240 20:08两件旧钟表分盒未修、原票仍妹妹自持、父亲送钟误传已被纠正；市政窄片仍周转站原封到Day243 16:00。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d3c38e1b39c9124b2d90d56e08dc4b3fb00c5194", final_draft_sha: "d3c38e1b39c9124b2d90d56e08dc4b3fb00c5194", body_revisions: 0, local_revision_used: 0, predecessor_ready_blob: "adfd8c72bb3c7341bfd8afab98b9c31d9d31dbe2", predecessor_factual_delta: none_exact_ready_blob, proposed_ready_blob: "91659f6ec8c0c2745e03ab99f82034d1c12fc0cb"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3091
