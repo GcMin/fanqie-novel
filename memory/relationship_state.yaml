@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 361
+last_updated_chapter: 362
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1235,4 +1235,10 @@ chapter_361_relationship_update:
   cai_guilan_feng_manager: "蔡桂兰坚持自己21:27是被救出而非正常下班，冯经理不能把本馆真七人签退升级全馆八人真离场；双方职责逐步划清。"
   cai_guilan_tang_su: "唐素在合法位置持续听声报警直到专业人员赶到，蔡桂兰认出她的呼喊，获得真实帮助但私人医疗情况不对外转述。"
   night_center_venue_fire: "梁策仅外联消防专业救援，夏宁分开本馆/外包来源、周衡记实际获救与限制开放；中心不越权进行危险现场拆板或替场馆判责。"
+chapter_362_relationship_update:
+  chapter: 362
+  ma_yun_lao_qi: "老齐急于将2011旧照和2016内衬未拆直接认同今天带字窄片，马芸用2016施工页与2016—Day195维护记录断链纠正他的愿望，双方仅接受各自经手的有权范围。"
+  archive_fang_ma_yun: "档案接管岗方师傅分清查询收件、准阅及不含其它工程人员信息的限定页项，马芸不逼其签‘绝无其它借料’，建立可信的专业合作。"
+  asset_and_platform: "资产主管允许有限后续目录查询，现平台有权维护岗只在本笔纠来源提示、保留错源，接管档案员不越权修平台。"
+  night_center: "周衡夏宁梁策只收授权有限施工与平台更正结果，不因旧字求证要求技术受托方开封或替小剧场批准复开。"
 
