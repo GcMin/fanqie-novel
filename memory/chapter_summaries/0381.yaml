@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 381
+title: "到期那天，先别给旧件起名字"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "43c17ecee70485f9050c7a80bb3f78e1f4f8dbdd"
+source_draft_sha: "13753294d5e33ef20cb5aeb4faea5f1904c68b93"
+initial_review: reader_reviews/0381_43c17ece.md
+reader_review: reader_reviews/0381_13753294.md
+depends_on_chapter: 380
+depends_on_source_sha: "553ed797194c868d647a5be0fcb7c6f705fbaa2f"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day242 20:22—Day243 20:00"
+summary: >-
+  Day242 20:22夏宁周衡核系统对旧窄片历史归类自动提醒非真实授权；Day243 08:40资产主管和马芸只允许以Day195现存带旧字窄片单件与封号办理短期保管，不给旧字强定2011历史身份。10:08在新周转站柜外核封号、两独立外测与真实断点，未开封；11:56新站四日单件报价960元只受理，13:17专业机构仅接非启封检视方式可行性询问，无技术实施或鉴定结论。14:09内部上限1000元获有权批准但付款未核，14:42站方核条件；15:04原设施所主管和15:27周转站负责人分别真签，15:35原柜单件原封登记续托至Day247 16:00，旧Day243 16:00截止与新受托无断档，另两件旧拆件仍原设施所。15:35中心白班值守真正接限项报告，20:00夏宁周衡按夜班交接分开已续托和来源未核字段。傍晚专业机构只回询问受理，未给可行性与历史鉴定结论。2011/2020/Day195唯一同一、旧红字作者年、沈家私票同源、F008/M004/M005没有新证明，黄绮工资和漏扫职责仍待核。
+meaningful_state_changes:
+  - "Day243 15:35真正续托单件封袋至Day247 16:00，原七日到期不失档，另两件旧拆件未转仓。"
+  - "报价960元、内部上限1000元批准、付款未核及咨询仅受理而未实施鉴定分开。"
+  - "中心Day243 15:35白班接报、20:00夜班核账，来源待查提醒不覆盖真实续托。"
+knowledge_updates:
+  - "资产与中心均知道当下可证明的单件保管责任并不能推2011/2020/Day195唯一历史物料或旧字年代。"
+  - "封外测点、空段及非启封咨询不能证明袋内状态、材质和旧票同源。"
+relationship_updates:
+  - "主管接受马芸先短托而后单独决定长期条件；老齐承认个人2016记忆不足代料号签认。"
+  - "夏宁周衡梁策仅在20:00夜班交接承接白班已签真实受托，不代有权岗位决定。"
+foreshadowing_updates:
+  - "F003追加Day243真实续托至Day247 16:00与非启封方法咨询受理；历史红字、跨年同物、沈家私票同源与F008/M004/M005均不证。"
+ending_state: "Day243 20:00旧窄片原柜单件原封到Day247 16:00，其余两旧件仍原设施所；旧物身份和技术方法结论未知，工资纠纷未结。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "43c17ecee70485f9050c7a80bb3f78e1f4f8dbdd", final_draft_sha: "13753294d5e33ef20cb5aeb4faea5f1904c68b93", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, corrected_issue: "15:35白班接报与20:00夜班上岗分开", predecessor_ready_blob: "553ed797194c868d647a5be0fcb7c6f705fbaa2f", predecessor_factual_delta: none_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2931

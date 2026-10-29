@@ -12,7 +12,7 @@
 - timeframe: "Day242 20:22—Day243近20:00"
 - count_method: 正文非空白Unicode字符数，含标点，不含Front Matter
 - target_effective_chars: 3000
-- actual_effective_chars: 2935
+- actual_effective_chars: 2931
 - pov: 周衡、夏宁有限第三人称；马芸、罗经办及资产与保管人员现场视角
 
 ## 本章目标及开场状态
@@ -34,7 +34,7 @@
 3. 10:08新周转站外实核唯一封袋、柜位、两独立外测与一个真实空段；任何人不得擅开柜、启封或把另两件并为三件受托。
 4. 11:56四日报价960仅收件，13:17非启封检视方式专业可行性咨询只有条件要求、不构成正式鉴定委托、批准或结论。
 5. 14:09预算上限1000获批，15:04与15:27双方真签，15:35核封号/单件/柜位并真登记连续短托至Day247 16:00，未搬件、未核付款。
-6. 当夜中心在不同字段并记“现物保管有效”与“来历待查”，专业受理回条不冒称鉴定结果，旧期限16:00真实结束但新托无空档。
+6. Day243 15:35由中心白班有责接报、20:00夏宁周衡按交接在不同字段并记“现物保管有效”与“来历待查”，专业受理回条不冒称鉴定结果，旧期限16:00真实结束但新托无空档。
 
 ## 本章新信息及状态变化
 
@@ -52,4 +52,14 @@
 
 ## 交付边界
 
-仅生成本章详细章纲和首稿；正文2935个非空白Unicode字符。Front Matter status:draft、qa:pending、approved_at:null、publish_mode:draft。待唯一独立Audit执行Reader/Revision/QA/Memory及ready；不修改历史文件、不做发布。
+仅生成本章详细章纲和首稿；正文2931个非空白Unicode字符。Front Matter status:draft、qa:pending、approved_at:null、publish_mode:draft。待唯一独立Audit执行Reader/Revision/QA/Memory及ready；不修改历史文件、不做发布。
+
+## Audit Stage A 修订与复审记录（2026-10-30）
+
+- original_draft_blob_sha: 43c17ecee70485f9050c7a80bb3f78e1f4f8dbdd
+- initial_reader: reader_reviews/0381_43c17ece.md（BLOCKER0 / MAJOR1 / MINOR2）
+- fix_required: Day243 15:35错误让20:00上岗的夜班夏宁周衡提前处理接报；Stage A 仅更改为白班接报、夜班20:00核账，未改变签约真实时点和保管期限。
+- final_draft_blob_sha: 13753294d5e33ef20cb5aeb4faea5f1904c68b93
+- final_reader: reader_reviews/0381_13753294.md（新Git blob独立Pass A→B，BLOCKER0 / MAJOR0 / MINOR2）
+-正文实际2931非空白Unicode字符；Day243 15:04/15:27真签及15:35续托不变。
+- Continuity/Style/Meaningful QA PASS；仍须候选精确结构CI成功后正式ready。

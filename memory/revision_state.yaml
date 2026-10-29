@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 380
+current_chapter: 381
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0380.md
-current_source_sha: 00673b37776b63d44337ca7d421e8453d6922658
-current_review_path: reader_reviews/0380_00673b37.md
+current_source_path: chapters/draft/0381.md
+current_source_sha: 13753294d5e33ef20cb5aeb4faea5f1904c68b93
+current_review_path: reader_reviews/0381_13753294.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0380_reader_qa_candidate
+last_action: audit_0381_new_sha_reader_qa_candidate
 last_action_date: 2026-10-30
 last_error: null
-last_diff_summary: "第380章独立双遍Reader0/0/2、正文零修订，前驱379 ready SHA精确匹配、内容QA PASS；必须精确候选CI后才移main。"
+last_diff_summary: "第381章原稿Reader0/1/2，StageA局部修15:35白班接报与20:00夜班核账，正文新SHA 13753294d5e33ef20cb5aeb4faea5f1904c68b93 Reader独立0/0/2，内容QA PASS，待精确CI成功才ready。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -2114,5 +2114,21 @@ combined_audit_chapter_380_20261030:
   predecessor_ready_blob: "3e6c9091947bdcb2d93f2d6a0421881c0d7b22c5"
   predecessor_factual_delta: none_exact_ready_blob
   proposed_ready_blob: "553ed797194c868d647a5be0fcb7c6f705fbaa2f"
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_381_20261030:
+  chapter: 381
+  original_sha: "43c17ecee70485f9050c7a80bb3f78e1f4f8dbdd"
+  initial_review: reader_reviews/0381_43c17ece.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "13753294d5e33ef20cb5aeb4faea5f1904c68b93"
+  final_review: reader_reviews/0381_13753294.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  corrected_issue: "15:35白班接报与20:00夜班出场"
+  predecessor_ready_blob: "553ed797194c868d647a5be0fcb7c6f705fbaa2f"
+  predecessor_factual_delta: none_exact_ready_blob
   continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required

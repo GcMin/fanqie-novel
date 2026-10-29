@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 380
-last_reviewed_title: "考勤表上空出来的两小时"
-last_source_path: chapters/draft/0380.md
-last_source_sha: 00673b37776b63d44337ca7d421e8453d6922658
-last_review_path: reader_reviews/0380_00673b37.md
+last_reviewed_chapter: 381
+last_reviewed_title: "到期那天，先别给旧件起名字"
+last_source_path: chapters/draft/0381.md
+last_source_sha: 13753294d5e33ef20cb5aeb4faea5f1904c68b93
+last_review_path: reader_reviews/0381_13753294.md
 last_reviewed_at: "2026-10-30"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 379
-depends_on_source_sha: 3e6c9091947bdcb2d93f2d6a0421881c0d7b22c5
+depends_on_chapter: 380
+depends_on_source_sha: 553ed797194c868d647a5be0fcb7c6f705fbaa2f
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 3e6c9091947bdcb2d93f2d6a0421881c0d7b22c5
+predecessor_current_source_sha: 553ed797194c868d647a5be0fcb7c6f705fbaa2f
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2652,5 +2652,22 @@ chapter_380_reader_20261030:
   predecessor_sha_mismatch: false
   predecessor_factual_delta: none_exact_ready_blob
   proposed_ready_blob: "553ed797194c868d647a5be0fcb7c6f705fbaa2f"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_381_reader_20261030:
+  chapter: 381
+  original_sha: "43c17ecee70485f9050c7a80bb3f78e1f4f8dbdd"
+  initial_review: reader_reviews/0381_43c17ece.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "13753294d5e33ef20cb5aeb4faea5f1904c68b93"
+  review: reader_reviews/0381_13753294.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1}
+  body_revisions: 1
+  corrected_issue: "15:35白班接报/20:00夜班更新"
+  predecessor_ready_blob: "553ed797194c868d647a5be0fcb7c6f705fbaa2f"
+  predecessor_sha_mismatch: false
+  predecessor_factual_delta: none_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

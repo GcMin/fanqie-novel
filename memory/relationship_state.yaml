@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 380
+last_updated_chapter: 381
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1356,4 +1356,12 @@ chapter_380_relationship_update:
   huang_qi_employer: "黄绮主动以获授权的公共时点说明解释考勤缺口，班长与考勤员撤涉嫌擅离标记但保留门禁与工资待核，不能虚写雇佣争议已全面解决。"
   huang_qi_dispatch: "夏宁周衡梁策尊重报险人的自行选择与借机骑手隐私，不冒写她为被派道路警戒员，不以有权说明代替雇主核薪。"
   market_staff: "市场值守负责人只证报险发生及专业岗位真实接管，不替黄绮签整个时段在岗；班长另安排补扫与库房报损。"
+  trust_scores_unchanged: true
+
+chapter_381_relationship_update:
+  chapter: 381
+  ma_yun_supervisor: "马芸以可证现物和封号拒主管把无历史来源的旧片先归2011原件，主管接受先合法续托、历史长期保管条件另办。"
+  lao_qi_ma_yun: "老齐承认2016见过旧铁片的记忆不够确证当前窄片同物，马芸不借他个人回忆补历史物料名称。"
+  luo_jingban_custody: "罗经办对预算、报价与未付款逐项分栏，新站按有权合同与柜位登记承担原封保管，不代机构鉴定历史。"
+  center_custody: "15:35由真实白班值守接报，20:00夜班夏宁周衡梁策核源接班，中心不代签不越权删历史未知提醒。"
   trust_scores_unchanged: true
