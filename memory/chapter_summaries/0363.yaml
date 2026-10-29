@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 363
+title: "拆下的一片，装回的是哪一片"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "f3c4fc6305895f242e105b929dd20f51a31968cc"
+source_draft_sha: "f3c4fc6305895f242e105b929dd20f51a31968cc"
+reader_review: reader_reviews/0363_f3c4fc63.md
+depends_on_chapter: 362
+depends_on_source_sha: "0c68a9ded34ea06b0780afa3d5367a8e18232841"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day225 20:42—Day226 15:27，第223次夜班后至Day226下午"
+summary: >-
+  Day225 20:42老齐仅转述后续可能拆旧站内衬的无年月传闻，夏宁不准当作目击；技术室21:17只回当日外部观测无升级异常，受托窄铁片单件至Day226 16:00不自动续期。Day226 08:52马芸得后续维护目录分源回函，2016—2019原承包接管、2020专项另一维修组交设施所、2021后点位重新编号；位置链不等于物料同一身份。09:26申请2020-06-08白榆西侧三号施工/交接限定页，10:07仅获收件，11:03准阅有源原件记内衬拆卸一片、装复一片，作业位置与数量有签认，却没有同件料号或独立返装标识。常规领料页仅外板紧固件与临时支撑借还，无新内衬常规入库项，12:14暂置清点页只记一片数量及交接、无身份编号照片。2020动作不与2016-04-12当次内衬未拆矛盾，不能证明原片返装、新件更换或现存Day195带字窄片等同2011旧件。13:20主管要求动作分证，14:09两项2020暂置现场照和2020后首巡检目录查询仅收件、未准阅。14:38技术室提醒Day226 16:00到期，双方法定续期尚无；15:02中心只得限项结论，15:27有权到期处置仍未真签，封袋未启、现物未移。其他两件仍原设施所、沈家私册妹妹自持、东工门维修道禁公众，14张旧错误原印11受控3未收两照片复制另管；F003旧字作者年代、2011同一物、沈家私册同源及F008/M004/M005继续未知。
+meaningful_state_changes:
+  - "2016当次内衬未拆不可外推为后续九年没拆；2020-06-08有源记录真实拆一片装复一片，物料身份仍缺。"
+  - "两项新的历史目录查询Day226 14:09实际收件而无阅准；Day226 16:00保管期限仍待有权新决定。"
+knowledge_updates:
+  - "施工动作数量、常规领料、暂置交接与物料跨年身份是不同证据层；一片拆卸一片装复不证明同片。"
+  - "点位索引连续并非2011旧衬、2020动作物料与Day195现窄片同一；字作者年代和沈家私册同源不证。"
+relationship_updates:
+  - "老齐主动提有限传闻且承认非亲见，马芸坚持有源实证；夏宁周衡与主管守住档案权限及到期保管责任。"
+foreshadowing_updates:
+  - "F003新增2020有源拆装节点，后续暂置照片和新编号首巡检目录仅收件，F008/M004/M005无确证。"
+ending_state: "Day226 15:27现行单件技术受托至16:00仍有效但新合同未签，2020拆装有源而唯一物件身份未知，另外两件仍设施所。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f3c4fc6305895f242e105b929dd20f51a31968cc", final_draft_sha: "f3c4fc6305895f242e105b929dd20f51a31968cc", reviews_this_cycle: 1, local_revision_used: 0, body_revisions: 0, predecessor_ready_blob: "0c68a9ded34ea06b0780afa3d5367a8e18232841"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3122

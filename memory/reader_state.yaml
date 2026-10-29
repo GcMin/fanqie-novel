@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 362
-last_reviewed_title: "修复单上只有两颗螺栓"
-last_source_path: chapters/draft/0362.md
-last_source_sha: 7e36d27dfa8a891aae013540a9c7ee8b92efdfc0
-last_review_path: reader_reviews/0362_7e36d27d.md
+last_reviewed_chapter: 363
+last_reviewed_title: "拆下的一片，装回的是哪一片"
+last_source_path: chapters/draft/0363.md
+last_source_sha: f3c4fc6305895f242e105b929dd20f51a31968cc
+last_review_path: reader_reviews/0363_f3c4fc63.md
 last_reviewed_at: "2026-10-29"
-reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 361
-depends_on_source_sha: 97825e637649f7111c882eb3fcc0990c3288629b
-dependency_status: verified_predecessor_metadata_only_factual_compatible
-predecessor_current_source_sha: 97825e637649f7111c882eb3fcc0990c3288629b
+depends_on_chapter: 362
+depends_on_source_sha: 0c68a9ded34ea06b0780afa3d5367a8e18232841
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 0c68a9ded34ea06b0780afa3d5367a8e18232841
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2386,3 +2386,19 @@ chapter_362_reader_20261029:
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
 
+
+chapter_363_reader_20261029:
+  chapter: 363
+  original_source_sha: "f3c4fc6305895f242e105b929dd20f51a31968cc"
+  final_source_sha: "f3c4fc6305895f242e105b929dd20f51a31968cc"
+  final_review: reader_reviews/0363_f3c4fc63.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
+  reviews_this_cycle: 1
+  local_revision_used: 0
+  body_revisions: 0
+  effective_chars: 3122
+  predecessor_ready_blob: "0c68a9ded34ea06b0780afa3d5367a8e18232841"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
