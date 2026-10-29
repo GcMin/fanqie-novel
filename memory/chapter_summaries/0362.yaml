@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 362
+title: "修复单上只有两颗螺栓"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "1dfe93b16217c4aa2b36ab7a8cab03063c8cc924"
+source_draft_sha: "7e36d27dfa8a891aae013540a9c7ee8b92efdfc0"
+initial_review: reader_reviews/0362_1dfe93b1.md
+reader_review: reader_reviews/0362_7e36d27d.md
+depends_on_chapter: 361
+depends_on_source_sha: "97825e637649f7111c882eb3fcc0990c3288629b"
+dependency_status: verified_predecessor_metadata_only_factual_compatible
+timeframe: "Day224 20:19—Day225 20:00，第222/223次夜班"
+summary: >-
+  Day224 20:19清河路小剧场冯经理来话，后场仍禁用，前厅出租未经专业评估不许场馆假定可开；蔡桂兰已Day223 21:27实际获救但手腕检查和工作去向未证。马芸告夜间中心现平台将2016白榆旧站维修索引错拼成整牌更换完成，只有疑问不见原施工纸。Day225 09:14申请2016-04-12白班施工单、材料与照片有限记录，09:21先收件、10:43核权准阅。原施工记外板旧螺栓两枚锈蚀换新、外板复位紧固、内衬不拆且内侧红痕不得自磨，11:19独立物料登记两螺栓两垫圈无常规新内衬领用，不能推当天不存在其它临时借料，更不证同一旧现窄片。11:42查现平台旧大类整牌检修与完成状态迁移映射为更换动作码，17:06本笔经有权维护岗追加原纸仅外板连接件维修非整牌更换证明的来源提示并留错源，其他条目未全量纠。13:07在获准范围核两张外立面施工前后照片仅拍外板螺孔与一条旧警戒带，不拍内侧红痕，也不能认定当年领用册哪一卷或现物唯一同件。14:26资产主管要求三层来源归档，按旧点位2011一号→2015三号→2016该工单可连地点，但不补2016至Day195九年唯一实物维护链；批准窄询后续资产维护目录尚无回执，不开封受托件、不索沈家私册。18:10中心仅收允许的三项有限回告，Day225 20:00第223夜班。窄片原封技术单件受托至Day226 16:00，其余两件设施所；旧图14原印11受控3未收与两照片复制各管、沈家私人册妹妹自持，东工门维修道仍禁公众，F008/M004/M005无新证。
+meaningful_state_changes:
+  - "Day225有源核2016-04-12白班实际更换两枚锈蚀外板螺栓、内衬未拆，单笔施工范围可查，旧红痕不被误认为本次形成。"
+  - "独立物料账和外部照片缩小证据：无常规新内衬领用且照片没拍内侧，不能绝对推全部其他行动。"
+  - "现平台错拼整牌更换完成的本笔来源提示Day225 17:06有责修正并保原错日志；其它记录未核，后续九年物料维护链申请未获回执。"
+knowledge_updates:
+  - "马芸和夜间中心知道旧业务大类与完成状态错拼成更换，并只承认原施工/领料/照片各自范围，不让检索摘要替原始记录。"
+  - "2011、2015、2016点位链与某块金属现物从2016延续到Day195封存的唯一身份链不同。"
+relationship_updates:
+  - "老齐想用内衬未拆证旧现为一件但接受马芸严守有源边界，接管档案岗与平台有权维护岗分别承担不同层职责。"
+foreshadowing_updates:
+  - "F003新增2016-04-12施工范围原纸与后续九年窄查询待办，仍未证红字作者时间、2011旧衬唯一同物或沈家私人册同源；F008/M004/M005不证。"
+ending_state: "Day225 20:00第223夜班，2016当次外板螺栓维修原记录已核，本笔误摘要已纠提示但九年维修链未获回执；白榆窄片技术室单件受托至Day226 16:00，清河剧场后场仍受限。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1dfe93b16217c4aa2b36ab7a8cab03063c8cc924", final_draft_sha: "7e36d27dfa8a891aae013540a9c7ee8b92efdfc0", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "851576c86b69d9aceb8d969e99e850d5e1f1da67", predecessor_ready_blob: "97825e637649f7111c882eb3fcc0990c3288629b", predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3371
