@@ -1,3 +1,10 @@
+# 第366章独立双遍Reader、Continuity/Style QA与ARC-054保管预算界限（2026-10-29）
+
+- 本章原draft Git blob 189e450e35133a9c422c18ac49a0d27788977f8e直接依赖365正式ready 08bf772b7442a3eb33142a19f4e8fcc79c7216e2精确一致。先Pass A独立阅读366、363—365正文、近十章摘要及文风，再Pass B核Canon、人物/知识/关系/世界/时间线与F003。Reader 0 BLOCKER/0 MAJOR/2 MINOR，正文0字修改；独立Continuity/Style/Meaningful QA PASS，3107有效字，详见reader_reviews/0366_189e450e.md及qa/0366_report.md。
+- Day229 11:24旧资料间查水印和监测缺口，不能直接接收原封窄铁片；14:37主管有权核签拟四日最高1200元内部预算预留，16:11技术室只收条件询问，没有新双方签署或付款；Day230 16:00现行受托截止不变。
+- F003 2020同日折边板仍只是照片边角合理候选，2011旧衬、2020装复片、Day195窄片唯一物件同一与红字作者年未知；F008/M004/M005不证。另两旧件设施所、沈家私册妹妹持、旧东工门维修道禁公众、错路14原印11控3未收另两复制分别管。历史137→138等SHA差异不被当作本章新证；前章365精确SHA无事实变化。
+- 本轮Memo与plan已随候选同步，已ready计划保留。精确候选commit真实结构CI SUCCESS之前不能报告main ready已放行，本笔内容QA不代结构门。
+
 # 第364—365章独立审核、SHA重绑与ARC-054新证据（2026-10-29）
 
 - 第364章原draft Git blob e5d974f9fbfaa0aee33245dda0fd1b78f99c1183，直接依赖第363章正式ready 469a7de73d93e45d5bcbe7438c66ebbddff164f4，严格精确匹配。独立Reader先普通视角读364、前361—363正文、近期10章摘要和文风后再读Canon、人物知识/关系/世界、时间线F003及卷弧，0 BLOCKER／0 MAJOR／2 MINOR，正文0修订；Continuity/Style/Meaningful QA内容PASS，详见reader_reviews/0364_e5d974f9.md及qa/0364_report.md。

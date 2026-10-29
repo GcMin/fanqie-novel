@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 366
+title: "预算表里没有“尚未认清的铁”"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "189e450e35133a9c422c18ac49a0d27788977f8e"
+source_draft_sha: "189e450e35133a9c422c18ac49a0d27788977f8e"
+reader_review: reader_reviews/0366_189e450e.md
+depends_on_chapter: 365
+depends_on_source_sha: "08bf772b7442a3eb33142a19f4e8fcc79c7216e2"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day228 20:39—Day229 20:00，第226/227次夜班"
+summary: >-
+  Day228 20:39白榆设施所罗财务询问公用拆存件还是群众失物，周衡和夏宁核Day195三件初拆与目前单件技术受托，拒将未知旧字当私人认领责任。Day229 09:08马芸与罗经办核原清单及现行Day226受托合同，10:46主管召集经费和场地会商；11:24现场查旧资料间水印、监测电池失效与过去环境资料缺口，决定暂不能直接接收，未移动封袋。13:20陈值守说明续托须另核费用、外部观测与责任，14:37财务对下一四日临时受托拟不高于1200元内部预算上限，主管仅有权核签预留公用经费，非支付或技术受托新合同；16:11技术室仅收限定条件询问。19:26夏宁获三项有限回告，Day229 20:00第227次夜班仍须在Day230 16:00前真签或合法另处置。原封窄片旧合同仍有效，2020照片边件、2011/2020/Day195同物与红字作者年代未知，F008/M004/M005未证。
+meaningful_state_changes:
+  - "Day229有责核签下一四日最高1200元内部预算预留，公共保管费用责任有出处但尚无新合同。"
+  - "旧资料间实勘有潮湿水印和监测缺口，不能凭锁门就让窄铁片移入。"
+knowledge_updates:
+  - "夜班中心只区分预算核签、旧屋实际技术条件和受托方新合同三个层级，Day230 16:00没有自动延期。"
+  - "马芸和罗经办承认历史照片边角身份与原字来源未知，预算不等于买到历史答案。"
+relationship_updates:
+  - "罗财务不把设施拆存件转嫁给假失主，主管愿为限期责任预留经费；马芸与陈值守各自坚持物证和受托权限，夏宁周衡不越权批复。"
+foreshadowing_updates:
+  - "F003新添保全责任的预算与场地约束，仍不确认2011/2020/Day195物件同一及红字作者；F008/M004/M005无新证。"
+ending_state: "Day229 20:00第227次夜班，公用内部最高1200元预算已预留，旧资料间不能直接接收，技术室只收询问；单件窄片原封受托至Day230 16:00，另两旧件原设施所。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "189e450e35133a9c422c18ac49a0d27788977f8e", final_draft_sha: "189e450e35133a9c422c18ac49a0d27788977f8e", body_revisions: 0, local_revision_used: 0, predecessor_ready_blob: "08bf772b7442a3eb33142a19f4e8fcc79c7216e2", predecessor_factual_delta: none_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3107

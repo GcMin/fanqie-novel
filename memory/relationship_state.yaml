@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 365
+last_updated_chapter: 366
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1260,3 +1260,9 @@ chapter_365_relationship_update:
   ma_yun_lao_qi: "老齐以候车棚折边板的行业经验提出合理候选，但接受不成物件身份；两人未搜寻2020班组个人联系方式。"
   ma_yun_archive_asset: "2020原内衬与邻项滴水片分属不同档案来源，马芸申请限阅并分别保留正式有源摘录；主管撤销拟写疑似调换的无据内部便签表述。"
   night_center_custodian: "Day228复核由有权资产/技术方核实，夏宁只接获准有限结果；梁策支持暂止没有新身份标记的个人追索，Day230下一次保管决策仍要有权完成。"
+
+chapter_366_relationship_update:
+  chapter: 366
+  ma_yun_luo_asset: "罗财务按公共资产归口而非私人失主收款，主管认可短期测算预留但要求期限和技术依据；马芸拒用预算替代物证身份。"
+  ma_yun_custodian: "陈值守不让短时外部稳定冒充长期封袋安全，也没有批准新托，马芸不擅开启封袋或搬迁。"
+  night_center: "周衡、夏宁、梁策按职权只核真实已签事项与待办，不替设施所和技术室签新合同，无可信新增信任分值变化。"
