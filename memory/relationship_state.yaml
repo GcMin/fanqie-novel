@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 371
+last_updated_chapter: 373
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1297,4 +1297,16 @@ chapter_371_relationship_update:
   shen_sisters: "妹妹与沈若琴私下各自承认旧钟记忆不一致、后写蓝笔不能冒父亲原话，不为维持线索而互相逼补记忆，私人票册均保留本人手。"
   ma_yun_archive: "档案只有限开放2002九月七号类别及有效时段、不开放租约与个资，马芸只传合法摘记，不披露家属私话。"
   ma_yun_lao_qi: "马芸拒让可能兼修表带的猜测给旧铁片补身份，老齐在无独立物料来源时停止越界。"
+  trust_scores_unchanged: true
+
+chapter_372_relationship_update:
+  chapter: 372
+  asset_custodian: "原设施所主管15:43和技术方15:52真签，陈值守留零出库、校准空段，罗经办拒假续托绿栏。"
+  night_center: "夏宁周衡梁策只收授权结果，不代原设施所或技术室签字鉴定。"
+  trust_scores_unchanged: true
+chapter_373_relationship_update:
+  chapter: 373
+  chen_rui_family: "陈芮虽然焦急仍尊重父亲拒被抬，父亲自主选择经实核平地路，私人互动不入机构业务记录。"
+  night_center_professionals: "中心安排专业维保真核门锁和道路班实核安全通路，分别确认父女抵西侧与设备管理方后日验收。"
+  individual_consent: "陈芮只授权本次回电及到西侧，不同意写入家庭私话或冒称已回家；本人不代专业设备验收。"
   trust_scores_unchanged: true

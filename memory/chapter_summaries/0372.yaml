@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 372
+title: "到期前四分钟，柜门没有开"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "874be7bc11be9bd48196743b69cda4cb2ab82178"
+source_draft_sha: "874be7bc11be9bd48196743b69cda4cb2ab82178"
+reader_review: reader_reviews/0372_874be7bc.md
+depends_on_chapter: 371
+depends_on_source_sha: "8666a522ccac5360b2eecc442c67d493a5cb9339"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day234 14:47—20:00，第232次夜班开始"
+summary: >-
+  Day234 14:47原设施所罗经办发现系统先于双方真签自动打印“已续托”绿单，15:39有责保留错源并纠本笔为待签；技术室旧原封窄铁片单件受托到当日16:00，旧资料室有水印与连续监测缺口不合接收条件。15:21新两日单件620元仅报价、650元新内部批准上限非已付，不能借用前次1180报价/1200预算。15:43原设施主管与15:52技术室负责人分别真签，15:56登记原封原柜持续短托至Day236 16:00、15:59出库零，旧合同16:00到期不造成失托。17:06回风口外测探头因预定校准退出自动采集，17:12有校验便携表只做一次点位观察且在范围内，17:27探头重启并核时钟编号，自动停测段明确留空；另一外测不得代填，未证袋内长期安全。18:03白班有责接报，19:21原设施所晚班设施运行值守真人接线并回拨，夜间中心获限项而不代签。Day234 20:00第232次夜班。另两旧拆件在原设施所，2002七号雨具登记与私人修表票未验同源，2011/2020/Day195实物唯一同一及旧红字作者年月不证，F008/M004/M005无新增确证。
+meaningful_state_changes:
+  - "Day234旧16:00受托到期前双签15:43/15:52、15:56真登记单件至Day236 16:00，原封原柜出库零。"
+  - "自动假“已续托”保留原错并有责纠待签，620报价、650批准上限与付款明确分层。"
+  - "17:06—17:27计划单点校准留真实空段，17:12一笔便携人工测量，19:21晚班正式专线真实交接。"
+knowledge_updates:
+  - "罗经办、技术室、马芸和夜间中心区分流转打印、双方签署、真实登记和外部环境技术读数，不从绿单或便携读数外推。"
+relationship_updates:
+  - "原设施所主管承担有权签约和预算责任，陈值守执行专业校准边界，夏宁周衡梁策只记获准事实不代专业/资产岗位。"
+foreshadowing_updates:
+  - "F003延长的是保管责任至Day236 16:00，不是2011/2020/Day195同件鉴定；沈家私票与七号雨具登记仍有来源差异，旧字作者年及F008/M004/M005无新证明。"
+ending_state: "Day234 20:00第232次夜班，新单件短托至Day236 16:00；17:06—17:27探头校准空段记录真实且晚班专线19:21真接；另两旧件未转移，历史物证来源仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "874be7bc11be9bd48196743b69cda4cb2ab82178", final_draft_sha: "874be7bc11be9bd48196743b69cda4cb2ab82178", body_revisions: 0, local_revision_used: 0, predecessor_ready_blob: "8666a522ccac5360b2eecc442c67d493a5cb9339", predecessor_factual_delta: none_exact_ready_blob, proposed_ready_blob: "8c3141353a0d418682fbf28cc16c2d8d56556aa1"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2954

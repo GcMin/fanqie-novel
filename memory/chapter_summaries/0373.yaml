@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 373
+title: "回访说接通了，人还在桥下"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "d4d2d164b516db25fe5ff4ec30154dbc72f3a0b2"
+source_draft_sha: "342a2025023599ecc2a98b37d9b637a617fb2873"
+initial_review: reader_reviews/0373_d4d2d164.md
+reader_review: reader_reviews/0373_342a2025.md
+depends_on_chapter: 372
+depends_on_source_sha: "8c3141353a0d418682fbf28cc16c2d8d56556aa1"
+dependency_status: verified_predecessor_metadata_only_factual_compatible
+timeframe: "Day234 20:23—Day235 17:16，第232次夜班与次日"
+summary: >-
+  Day234 20:23陈芮来话称轮椅父亲仍困永祥路天桥东侧，升降平台19:47系统自动完成、19:51所谓回访接通均是假业务结果；人没有真正收到恢复告知。20:49维保专业领单，21:07到场核控制器通讯恢复但下层门锁反馈异常，将设备真停用并挂提示；21:19道路岗到约南六百米地面信号路口核两端坡口、当晚信号灯及共享单车堵口并清开复核，父亲拒被抬由本人同意选地面路，21:33出发，21:56父女实到西侧连续人行道并陈芮亲自限项回拨，不能推已到家。22:08有责查回访“接通”只到公共语音提示端口自动应答而非本人，保留错源纠本笔；23:12升降平台仍停用待零件及专业载荷试验。Day235 09:34维保更换下层门锁反馈组件并实测，11:06管理方有权复核通过后才复开，17:16中心仅获有限结果，不存家属无关私话。普通回访自动映射不证1996历史个人获回话或M004/M005机制。白榆技术室窄片单件原封同柜至Day236 16:00，另两件设施所，旧字历史物料身份及沈家私人票来源未证，F008无新记忆样本。
+meaningful_state_changes:
+  - "父女21:56实际走到西侧连续人行道并真人回拨，不冒报到家；回访权限有限。"
+  - "专业确认门锁故障并23:12维持停用，Day235 11:06正式验收后才恢复开放。"
+  - "误把公共提示端口应答当居民已获告知的本笔数据纠正并留原日志，其他批次尚未核。"
+knowledge_updates:
+  - "夏宁与周衡区分控制器在线、门锁闭合、正式载人验收与居民真正获告；本人回拨只确认西侧路口。"
+relationship_updates:
+  - "中心尊重陈芮与父亲拒被强抬的决定、私人对话不入公用系统，专业设备与道路责任分别验真，梁策明确区分人员抵达与设备停用。"
+foreshadowing_updates:
+  - "F003白榆窄片只合法延托至Day236 16:00，旧红字作者年及2011/2020/Day195唯一身份仍未证；本笔当代回访错误不升级M004/M005，也不增加F008可靠样本。"
+ending_state: "Day235 17:16天桥设备有责验收后已恢复公众使用，本笔错误回访保留原版并更正；父女仅可核21:56到西侧人行道，归家未知；白榆窄片技术室续托至Day236 16:00。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d4d2d164b516db25fe5ff4ec30154dbc72f3a0b2", final_draft_sha: "342a2025023599ecc2a98b37d9b637a617fb2873", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_draft_sha: "874be7bc11be9bd48196743b69cda4cb2ab82178", predecessor_ready_blob: "8c3141353a0d418682fbf28cc16c2d8d56556aa1", predecessor_body_identical: true, proposed_ready_blob: "68ceb5d133c41153c22b064d967a82dd1c8209f5"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3380

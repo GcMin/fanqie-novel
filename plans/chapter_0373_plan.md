@@ -6,9 +6,9 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - depends_on_chapter: 372
-- depends_on_source_sha: "874be7bc11be9bd48196743b69cda4cb2ab82178"
-- dependency_status: provisional
-- predecessor_not_canon: "第372章当前仅为未审核draft，所有直接沿用的Day234事实仅是绑定此Git blob的临时剧情连续性依据；若Audit改动前章关键事实，由后续独立Audit核衔接。"
+- depends_on_source_sha: "8c3141353a0d418682fbf28cc16c2d8d56556aa1"
+- dependency_status: verified_predecessor_metadata_only_factual_compatible
+- predecessor_verified: "Audit核372原draft与ready小说正文逐字一样仅交付Front Matter变动；373只修FM及本章纲依赖而不动正文，并已对新SHA双遍Reader复审。"
 - dependency_facts_used: "Day234 15:43原设施有权签、15:52技术室负责人签、15:56登记窄铁片单件原封原柜接续受托到Day236 16:00，无开柜及出库；17:06—17:27回风口外测探头计划校准，17:12仅一次人工观测，停测时段明确留空，19:21正式晚班专线真人交接；另两旧拆件还在原设施所。"
 - continuity_precheck: pass_for_drafting_only
 - target_effective_chars: 3000
@@ -38,7 +38,7 @@ Day234 20:23，永祥路天桥升降平台远端绿标“完成”，现场门�
 - 普通工单中的自动复位不等于升降设备安全可用；回访“接通”不等于本人接听。旧错误流水留存、本笔真核后更正，其他同类批次尚待有责查，未作全系统结论。
 - 两人实到西侧且有人直接回拨，所证止于西侧人行道；桥下设备夜间停用后次日上午真实检修验收恢复，兼具服务结果与职业责任。
 - F003依旧只有前期2011/2020/Day195窄片来源断点，旧红字作者年月、沈家私册同源与2002私人票实际经营者不证；F008无新可靠本人记忆冲突，M004/M005未确证。此次自动回访错误是现代数据映射问题，不能倒证旧1996机制。
-- 372若尚未审核，则所有依赖的Day234新期限与校准、接线状态都是临时前章事实，不升级正式Canon。单件窄片原封至Day236 16:00，另两件设施所；旧东工门和维修道仍禁公众，旧错路图14原印11受控3未收另两复制单存，沈家私册和票根在妹妹家。新章不更改上述边界。
+- 372已由Audit独立Reader及内容QA核正文，旧draft `874be7bc11be9bd48196743b69cda4cb2ab82178`与ready `8c3141353a0d418682fbf28cc16c2d8d56556aa1`仅交付Front Matter有差、正文逐字相同；373依赖重绑并针对新draft `342a2025023599ecc2a98b37d9b637a617fb2873`重新独立双遍Reader审查。单件窄片原封至Day236 16:00，另两件设施所；旧东工门和维修道仍禁公众，旧错路图14原印11受控3未收另两复制单存，沈家私册和票根在妹妹家。
 - 周衡只以旧物业工程经验提出分层检查意见，不代维保工程师做专业结论；夏宁与梁策仅协助联动并使用当事人限定授权，机构不保存无关家人私话。
 
 ## 章尾与下一章承接

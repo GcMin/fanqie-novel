@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 371
-last_reviewed_title: "七号登记的是雨伞"
-last_source_path: chapters/draft/0371.md
-last_source_sha: 3c323a9392dcd20a741739620d79bb09544a1400
-last_review_path: reader_reviews/0371_3c323a93.md
+last_reviewed_chapter: 373
+last_reviewed_title: "回访说接通了，人还在桥下"
+last_source_path: chapters/draft/0373.md
+last_source_sha: 342a2025023599ecc2a98b37d9b637a617fb2873
+last_review_path: reader_reviews/0373_342a2025.md
 last_reviewed_at: "2026-10-29"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 370
-depends_on_source_sha: b0b56ae550fda394b0c2ab3b0b9ad7a1d59b9b21
+depends_on_chapter: 372
+depends_on_source_sha: 8c3141353a0d418682fbf28cc16c2d8d56556aa1
 dependency_status: verified_predecessor_metadata_only_factual_compatible
-predecessor_current_source_sha: b0b56ae550fda394b0c2ab3b0b9ad7a1d59b9b21
+predecessor_current_source_sha: 8c3141353a0d418682fbf28cc16c2d8d56556aa1
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2523,5 +2523,34 @@ chapter_371_reader_20261029:
   predecessor_ready_blob: "b0b56ae550fda394b0c2ab3b0b9ad7a1d59b9b21"
   predecessor_body_identical: true
   proposed_ready_blob: "8666a522ccac5360b2eecc442c67d493a5cb9339"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_372_reader_20261029:
+  chapter: 372
+  source_sha: "874be7bc11be9bd48196743b69cda4cb2ab82178"
+  review: reader_reviews/0372_874be7bc.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "8666a522ccac5360b2eecc442c67d493a5cb9339"
+  predecessor_sha_mismatch: false
+  proposed_ready_blob: "8c3141353a0d418682fbf28cc16c2d8d56556aa1"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_373_reader_20261029:
+  chapter: 373
+  original_source_sha: "d4d2d164b516db25fe5ff4ec30154dbc72f3a0b2"
+  initial_review: reader_reviews/0373_d4d2d164.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "342a2025023599ecc2a98b37d9b637a617fb2873"
+  review: reader_reviews/0373_342a2025.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1}
+  body_revisions: 0
+  predecessor_original_draft_sha: "874be7bc11be9bd48196743b69cda4cb2ab82178"
+  predecessor_ready_blob: "8c3141353a0d418682fbf28cc16c2d8d56556aa1"
+  predecessor_body_identical: true
+  proposed_ready_blob: "68ceb5d133c41153c22b064d967a82dd1c8209f5"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
