@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 377
+last_updated_chapter: 380
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1349,4 +1349,11 @@ chapter_379_relationship_update:
   huang_qi_dispatch: "黄绮自愿报险不等于应承担道路警戒职务；周衡梁策协助专业道路交管真正接管后，黄绮自行决定恢复保洁工作，拒留私人电话或排班表且仅确认当夜通知。"
   xia_ning_callback: "夏宁向外呼岗位核骑手实际接听并留原错映，区分短信/通话接通与本人真实收到处置；不替黄绮虚构次日满意评价。"
   traffic_operators: "道路应急班、交管及市场值班岗分别按许可隔离与疏导，专业维修自检后由管理与交管人员现场复核才复开。"
+  trust_scores_unchanged: true
+
+chapter_380_relationship_update:
+  chapter: 380
+  huang_qi_employer: "黄绮主动以获授权的公共时点说明解释考勤缺口，班长与考勤员撤涉嫌擅离标记但保留门禁与工资待核，不能虚写雇佣争议已全面解决。"
+  huang_qi_dispatch: "夏宁周衡梁策尊重报险人的自行选择与借机骑手隐私，不冒写她为被派道路警戒员，不以有权说明代替雇主核薪。"
+  market_staff: "市场值守负责人只证报险发生及专业岗位真实接管，不替黄绮签整个时段在岗；班长另安排补扫与库房报损。"
   trust_scores_unchanged: true

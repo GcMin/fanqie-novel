@@ -1,3 +1,9 @@
+# 第380章Reader/QA与ARC-054报险人劳动后果（2026-10-30）
+
+第380章原draft `00673b37776b63d44337ca7d421e8453d6922658`先按Pass A读本章、377—379全章、370—379摘要与文风，再Pass B核Canon、人物/知识/关系/世界、timeline及F003，0 BLOCKER/0 MAJOR/2 MINOR，正文未修改，独立Continuity/Style/Meaningful QA通过。前驱379正式ready `3e6c9091947bdcb2d93f2d6a0421881c0d7b22c5`精确匹配依赖，旧临时草稿与ready的正文一致且本章不凭旧SHA造事实。
+
+Day241 20:27黄绮携考勤询问单申请限定真实公共报险时点，Day242 10:31本人亲领有权限项说明，14:06雇主撤“涉嫌擅离”但保留原门禁空段、工资与漏扫巷子待核。夜间中心不泄露借机骑手资料、不代雇主判工时、不把她自发警戒写成公用派工或满意。窄片新周转站单件原封到Day243 16:00，另两旧件原设施所，旧字作者年、跨年唯一同物、F008/M004/M005未证。Review、QA与Memory/计划已生成，ready必须精确候选CI单测及publisher.check_local成功后才用main expected_sha/force:false放行。
+
 # 第377章Reader双遍、独立QA与ARC-054票据持联边界（2026-10-29）
 
 - 源draft `851e5f23b156664b955d4a7e3a70822731e9dbb8`经**先Pass A**（本章、374—376全章、近十章摘要、文风）、**后Pass B**（Canon、ARC-054、人物知识/关系/世界/时间线及F003）独立审查为**0 BLOCKER/0 MAJOR/2 MINOR**。正文无需修订；非空白Unicode 3506字，高于偏好3400但低于硬上限3800。0376正式ready Blob `215eaecca4a62463f23db18456f55da45955a48e`与本章Front Matter精确一致，前章内容与依赖SHA无事实差异；137→138等历史SHA边界未被本章偷用为新事实。Continuity/Style/Meaningful QA均按正文独立PASS，两个MINOR只作观察。

@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 380
+title: "考勤表上空出来的两小时"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "00673b37776b63d44337ca7d421e8453d6922658"
+source_draft_sha: "00673b37776b63d44337ca7d421e8453d6922658"
+reader_review: reader_reviews/0380_00673b37.md
+depends_on_chapter: 379
+depends_on_source_sha: "3e6c9091947bdcb2d93f2d6a0421881c0d7b22c5"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day241 20:27—Day242 20:00"
+summary: >-
+  Day241 20:27黄绮持公司17:46出具的考勤异常单申请限项时点说明，Day240 20:41至22:16原门禁缺口不自动等同擅离岗位。夜间中心只受理本人窄范围请求，不索骑手借机号码及公司排班，不代判工时。Day242 09:12公司暂缓不利定性且不擦门禁记录。10:31黄绮本人真正领取有权公共窗口有限时点说明，确认Day240 20:39险情报送、21:17道路班、21:26交管到场、21:43隔离及22:02本人只知当夜限行，Day241 12:18设施有权复开单独列出而不认本人已告。市场值守负责人核真实报险与专业警戒交接但不签整段在岗。Day242 14:06公司撤涉嫌擅自离岗不利标记，改公共险情报送期间工作时段待核；工资、合同岗位安排与少扫巷子处理仍待核，黄绮只签收新纸。中心傍晚仅收本人已领取公用时点说明的限定回告，不能写公司处理结果或满意。旧窄片仍周转站单件原封到Day243 16:00，另两旧拆件原设施所，旧字作者年、2011/2020/Day195唯一同物、沈家私票同源及F008/M004/M005未证。
+meaningful_state_changes:
+  - "Day242 10:31本人真正领到有权限定事实说明，申请受理与结果交付分开。"
+  - "Day242 14:06雇主真正撤销涉嫌擅离不利标记、保留门禁空段、工资工时待核。"
+knowledge_updates:
+  - "中心及企业分辨骑手接电话、黄绮当夜限项获告与Day241设施独立复开的不同证据。"
+  - "公共险情证据不证明整段有效工时，也不构成中心派黄绮执行警戒的事实。"
+relationship_updates:
+  - "黄绮主动与企业核事实并亲领材料，班长接受撤不利定性而继续核合同工时、少扫区域。"
+  - "夜间中心尊重当事人授权及骑手隐私，不代雇主核薪、不填报险者满意。"
+foreshadowing_updates:
+  - "F003窄片原封到Day243 16:00未变；普通当代劳动纠纷不证旧1996及红字年代同源；F008/M004/M005未证。"
+ending_state: "Day242 20:00黄绮已收到限项证明及公司考勤更正，工资仍待核；白榆窄片周转站原封至Day243 16:00。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "00673b37776b63d44337ca7d421e8453d6922658", final_draft_sha: "00673b37776b63d44337ca7d421e8453d6922658", body_revisions: 0, local_revision_used: 0, predecessor_ready_blob: "3e6c9091947bdcb2d93f2d6a0421881c0d7b22c5", predecessor_factual_delta: none_exact_ready_blob, proposed_ready_blob: "553ed797194c868d647a5be0fcb7c6f705fbaa2f"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3546
