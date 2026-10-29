@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 375
+title: "灯亮以前，先把候车的人看清"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "0561c742e571c280b22a53ed9f2ffc843242dddb"
+source_draft_sha: "cd94920a44e2cda6c4422522d7afb44a170eefd7"
+initial_review: reader_reviews/0375_0561c742.md
+reader_review: reader_reviews/0375_cd94920a.md
+depends_on_chapter: 374
+depends_on_source_sha: "d32a3c7e4cb0537ae0ba2c9cdabed95e0f95ca87"
+dependency_status: verified_predecessor_metadata_only_factual_compatible
+timeframe: "Day236 20:24—Day237 20:19"
+summary: >-
+  Day236 20:24白榆北口公众侧新公交站六灯未亮但电子屏在线，赵姨实际报险，候车男子自述包带被未扣平长椅压边挂住无明显伤。20:37后台仅控制盒在线不能证灯亮；21:02专业方工查压边风险封椅，21:26公交运营道路岗位真核合法同站外侧照明候车位与盲道车道边界，21:44临时移动灯生效，22:03只有本次车上下客有回告。
+  Day237 09:20专业隔电查灯具为此前检修隔离的磨损低压支路，控制盒与电子屏独立；10:57按规程修线及压边、13:15班组自检尚不足夜间真验；18:40管理方准夜验，19:51方工和站务实际核照明与通路，20:06运行负责人准撤隔离及临时灯，20:19中心得真回告。新周转站Day237首份封外监测已核时段正常不证袋内或历史身份，窄片至Day243 16:00，另两件原设施所。
+meaningful_state_changes:
+  - "当晚设备后台在线假正常被现场核实，椅位封停、同站外侧受控候车点与灯实启，未让乘客走旧禁区。"
+  - "Day237真核独立灯具支路磨损原因专业修理，19:51夜验后20:06正式恢复正常候车。"
+knowledge_updates:
+  - "控制盒在线不等于灯具受电，日间自检不等于夜间实际使用验收；专业处置和车辆到站证据有限时范围。"
+relationship_updates:
+  - "赵姨王阿姨坚持亲眼与真实候车需求，方工和站务按职责安全替代安排，不索私人地址。"
+foreshadowing_updates:
+  - "F003仅沿用374已验证转库与Day237封外摘记，未证2011/2020/Day195同物或私人票根同源；F008/M004/M005不证。"
+ending_state: "Day237 20:19新公交站照明与椅位夜验已恢复，旧东工门禁公众，窄片新周转站原封到Day243 16:00。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0561c742e571c280b22a53ed9f2ffc843242dddb", final_draft_sha: "cd94920a44e2cda6c4422522d7afb44a170eefd7", initial_counts: "0/1/2", final_counts: "0/0/2", body_revisions: 0, local_revision_used: 1, predecessor_original_draft_sha: "6a37276c7b8f3d573d05f1911f8813d63169953b", predecessor_ready_blob: "d32a3c7e4cb0537ae0ba2c9cdabed95e0f95ca87", predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3401

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 373
+last_updated_chapter: 375
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1309,4 +1309,17 @@ chapter_373_relationship_update:
   chen_rui_family: "陈芮虽然焦急仍尊重父亲拒被抬，父亲自主选择经实核平地路，私人互动不入机构业务记录。"
   night_center_professionals: "中心安排专业维保真核门锁和道路班实核安全通路，分别确认父女抵西侧与设备管理方后日验收。"
   individual_consent: "陈芮只授权本次回电及到西侧，不同意写入家庭私话或冒称已回家；本人不代专业设备验收。"
+  trust_scores_unchanged: true
+
+chapter_374_relationship_update:
+  chapter: 374
+  asset_supervisor_ma_yun: "资产主管希望写2011原片加快接收，马芸以可证旧件范围拒绝，主管在未做同物鉴定下采用实际物名。"
+  custodial_roles: "技术室出库后不再继续承担柜内责任，新站受托只管外封环境，原设施所仍有资产来源认定责任。"
+  lao_qi: "不把个人拆件回忆强行变成年代与唯一实物鉴定。"
+  trust_scores_unchanged: true
+
+chapter_375_relationship_update:
+  chapter: 375
+  passengers_operators: "赵姨与王阿姨要求实际安全候车，同站站务员按专业岗位解决而不索要个人家庭住址。"
+  professional_dispatchers: "夏宁分真实临时措施和有权夜验，方工核电气与座椅、道路岗核外侧净宽，梁策与周衡不把它并入窄片线。"
   trust_scores_unchanged: true

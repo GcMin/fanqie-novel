@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 374
+title: "移交单上的空白物名"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "6a37276c7b8f3d573d05f1911f8813d63169953b"
+source_draft_sha: "6a37276c7b8f3d573d05f1911f8813d63169953b"
+reader_review: reader_reviews/0374_6a37276c.md
+depends_on_chapter: 373
+depends_on_source_sha: "68ceb5d133c41153c22b064d967a82dd1c8209f5"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day235 20:31—Day236 15:58"
+summary: >-
+  Day235 20:31中心仅获原设施所向周转站询问转存条件且未获转移许可；Day236主管试图以2011原内衬认物名被马芸拒，现可证Day195带旧字窄片单件。
+  09:26原装卸口普通间湿度不合、二楼独立双外测和门禁路线评估符合条件；12:07新站7日条件受托报价1780元、13:44原设施所内部1900元上限真批、14:06双方有权签但未付款。
+  14:31技室核封号14:49真实单件原封出库15:02运输车离院，15:28周转站当时环境、封号、柜位核并实收，15:46三方对应核完新受托至Day243 16:00；15:58中心收到有责限项双源才改原到期提醒。
+  技术室原Day236 16:00终期未失托，另两件旧料仍原设施所；新仓保管不证旧字作者年月、2011/2020/Day195唯一同物或沈家旧票同源。
+meaningful_state_changes:
+  - "Day236 14:49技室窄片单件真出库至15:46新库三方实收核对，新保管到Day243 16:00。"
+  - "普通仓条件被实际排除，受控二楼有原始双点、门禁、封号核验，报价与预算和付款分层。"
+knowledge_updates:
+  - "中心与资产主管明确历史身份非新仓验收权，新保管条件不证袋内全时安全；通知要按真实动作。"
+relationship_updates:
+  - "马芸拒虚构2011物名，老齐不凭模糊记忆推认，原设施所负来源查证而新仓仅受托保管。"
+foreshadowing_updates:
+  - "F003保全链从技术室到新库并延到Day243 16:00，历史同一与字作者未证；F008/M004/M005不证。"
+ending_state: "Day236 15:58旧技室不再在托，新站单件原封到Day243 16:00，另两件原设施所。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6a37276c7b8f3d573d05f1911f8813d63169953b", final_draft_sha: "6a37276c7b8f3d573d05f1911f8813d63169953b", body_revisions: 0, local_revision_used: 0, predecessor_ready_blob: "68ceb5d133c41153c22b064d967a82dd1c8209f5"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3505
