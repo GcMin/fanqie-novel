@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 379
+title: "回话留在雨棚下"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "6c223b94f0a16dfc9c6010fe2f4515958b34b07b"
+source_draft_sha: "3610db4b627c493da9535d2d1e723f90f7e4e64c"
+initial_review: reader_reviews/0379_6c223b94.md
+reader_review: reader_reviews/0379_3610db4b.md
+depends_on_chapter: 378
+depends_on_source_sha: "91659f6ec8c0c2745e03ab99f82034d1c12fc0cb"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day240 20:39—Day241 20:04"
+summary: >-
+  Day240 20:39瓦桥路东口市场保洁黄绮借送货骑手手机报排水沟箅子翘角险情、本人手机进水不能接回电话，夏宁明确骑手号码不是本人可持续联系方式。20:55自动回拨只打通借手机骑手却误勾报险者已接收，夏宁留原错源并联系岗位更正，不伪称黄绮知晓。21:08周衡梁策实际到场但不擅自开盖，21:17道路应急班、21:26交管先后到场，21:43真设隔离后专业核一枚卡扣丢失、压条变形而暂不修复通车。22:02有权雨棚张贴无个人信息的有限封控和合法绕行说明，黄绮本人只自愿在现场确认已知当晚临时安排，不同意留号码、排班或代签未来修复满意。Day241 09:36专业班在围隔中换件并核另一侧松动，11:22班组自检；12:18道路管理/交管真核道路平整、车辆净空与步行衔接后有权恢复市场外原通行，夏宁不补黄绮不知的次日维修结果与满意绿勾。20:04周衡只核白榆旧红字窄片新周转站单件原封至Day243 16:00另两旧件设施所，私人沈家票与普通排水设施无同源证据，F008/M004/M005无新确证。
+meaningful_state_changes:
+  - "借用来电号码导致错误已告知，本笔原始记录保留且用本人雨棚下自愿限项收讯纠正，未强索私号和排班。"
+  - "排水箅子真实风险有权隔离、专业更换卡扣压条并经过有责管理和交管复核，Day241 12:18正式恢复原通行。"
+knowledge_updates:
+  - "夏宁、周衡、梁策与专业岗位区分骑手接听、报险者本人知道临时安排、次日专业有权验收三种不同事实。"
+  - "黄绮只知当晚隔离与公用过街通道，不保证已得次日完工通知，不代管理者验收。"
+relationship_updates:
+  - "黄绮获岗位接手后可以离开危险点而不承担自设警戒，周衡和梁策尊重本人拒绝留号码与公司排班私隐，后续与雇主管理关系由本人决定。"
+foreshadowing_updates:
+  - "F003旧市政窄片保管边界未变，本次普通排水与回拨假绿标不能证明1996或失址机制，F008/M004/M005没有新增可靠证据。"
+ending_state: "Day241 20:04瓦桥路排水风险已真修有权复开，黄绮本人仅确认当晚临时安排且后续行踪/满意未知；市政窄片原封受托至Day243 16:00。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6c223b94f0a16dfc9c6010fe2f4515958b34b07b", final_draft_sha: "3610db4b627c493da9535d2d1e723f90f7e4e64c", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_draft_sha: "d3c38e1b39c9124b2d90d56e08dc4b3fb00c5194", predecessor_ready_blob: "91659f6ec8c0c2745e03ab99f82034d1c12fc0cb", predecessor_body_identical: true, proposed_ready_blob: "3e6c9091947bdcb2d93f2d6a0421881c0d7b22c5"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3364

@@ -6,8 +6,8 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "644b20b7fe20cc11737bbe5e724781ec53c63bc0"
 - depends_on_chapter: 378
-- depends_on_source_sha: "d3c38e1b39c9124b2d90d56e08dc4b3fb00c5194"
-- dependency_status: provisional
+- depends_on_source_sha: "91659f6ec8c0c2745e03ab99f82034d1c12fc0cb"
+- dependency_status: verified_predecessor_body_identical
 - continuity_precheck: pass_for_drafting_only
 - timeframe: "Day240 20:39—Day241 20:04"
 - count_method: 正文非空白Unicode字符数（含标点，不含Front Matter）
@@ -38,11 +38,11 @@
 - 新增公共雨棚合法公告与真实咨询入口，能服务无手机的行人；未建立“未来所有报险均会被读到”的无限保证，也未替黄绮填满意评价。
 
 ## 连续性预检与不能提前透露的事
-- 前章0378当前仅为**未审核草稿**，Git blob SHA精确绑定d3c38e1b39c9124b2d90d56e08dc4b3fb00c5194。本章衔接Day240 20:08之后，不引用第378章“妹妹家发现座钟和腕表”作正式Canon；只把已ready前史的家属私票与当前普通市政案件分源。若前章审定后发生实质事实变化，Audit再核本章依赖兼容性。
+- 前章0378已正式ready（Git Blob 91659f6ec8c0c2745e03ab99f82034d1c12fc0cb），原草稿d3c38e1b39c9124b2d90d56e08dc4b3fb00c5194与ready去Front Matter逐字比较小说正文完全一致，仅交付元数据变更，故本章Day240 20:39衔接上章20:08事实兼容。此次Stage A只修第379章依赖元数据及详细章纲，不修改第379章任何小说正文；家属私人票/两种家中钟表与本章普通市政风险继续分源。
 - 0377正式ready只核到Day239公开双联说明与私人票布局相似，私票原物、旧册、家属回忆仍自持；2002年09月16日至30日七号经营位置登记雨具修补，票簿07不等于摊位号。不可推断父亲送修过座钟/腕表、票据已鉴定或来源同一。
 - Day195带红字窄铁片在新市政周转保管站**单件原封到Day243 16:00**，另两拆件仍原设施所；现行旧站东侧工门和维修便道仍不对公众开放。
 - 2011/2020/Day195物证唯一同一、红字作者年代、私人票与窄铁片同源未获证；F008无新可靠本人记忆反证，M004/M005均不借此件普通排水险情推定。F009/F010/F011继续resolved。
 - 不伪称道路班施工自检等同管理复开，不把借用号码的接听当黄绮本人确认；不通过黄绮获取雇主、工资或家属资料。
 
 ## 章尾与交付
-Day241 20:04真实风险已由责任部门复开，夜间中心保留借机误接的来源事实，不再拨借来的号码。第378章仍待独立审定；本轮只新建第379章章纲与draft，Reader、Revision、QA、Memory与Publish均留给独立Audit，不修改既有章节。
+Day241 20:04真实风险已由责任部门复开，夜间中心保留借机误接的来源事实，不再拨借来的号码。第378章已审定进入ready。第379章以新依赖元数据重新送Reader两遍复审，再执行独立QA/Memory/结构校验后才可放行；不发布平台。

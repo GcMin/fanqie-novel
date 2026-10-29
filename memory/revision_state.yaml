@@ -2085,3 +2085,21 @@ combined_audit_chapter_378_20261030:
   proposed_ready_blob: "91659f6ec8c0c2745e03ab99f82034d1c12fc0cb"
   continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_379_20261030:
+  chapter: 379
+  original_sha: "6c223b94f0a16dfc9c6010fe2f4515958b34b07b"
+  initial_review: reader_reviews/0379_6c223b94.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "3610db4b627c493da9535d2d1e723f90f7e4e64c"
+  final_review: reader_reviews/0379_3610db4b.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  corrected_fields: [depends_on_source_sha, dependency_status, chapter_0379_plan]
+  predecessor_draft_sha: "d3c38e1b39c9124b2d90d56e08dc4b3fb00c5194"
+  predecessor_ready_blob: "91659f6ec8c0c2745e03ab99f82034d1c12fc0cb"
+  predecessor_body_identical: true
+  proposed_ready_blob: "3e6c9091947bdcb2d93f2d6a0421881c0d7b22c5"
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
