@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 360
+current_chapter: 361
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0360.md
-current_source_sha: c9da965dbfc044044870c91c17cbd9235e4efab3
-current_review_path: reader_reviews/0360_c9da965d.md
+current_source_path: chapters/draft/0361.md
+current_source_sha: 851576c86b69d9aceb8d969e99e850d5e1f1da67
+current_review_path: reader_reviews/0361_851576c8.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0360_reader_qa_candidate
+last_action: audit_0361_reader_qa_candidate
 last_action_date: 2026-10-29
 last_error: null
-last_diff_summary: "360原草稿Reader0/0/2，无须修订正文，前章359正式ready精确SHA一致；独立Continuity/Style/Meaningful QA PASS，须对精确候选CI执行结构检查。"
+last_diff_summary: "361原草稿Reader0/0/2，无须修订正文，前章360正式ready精确SHA一致；独立Continuity/Style/Meaningful QA PASS，须对精确候选CI执行结构检查。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1837,3 +1837,14 @@ combined_audit_chapter_360_20261029:
   predecessor_ready_blob: "a419b81ac77a0d4160b088e3c1c83ff054f37788"
   continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+combined_audit_chapter_361_20261029:
+  chapter: 361
+  source_sha: "851576c86b69d9aceb8d969e99e850d5e1f1da67"
+  review: reader_reviews/0361_851576c8.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "5fe514f2c9820bcca5097257b09d066c60569be9"
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
