@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 369
+last_updated_chapter: 371
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1284,4 +1284,17 @@ chapter_369_relationship_update:
   night_center_custodian: "陈值守对技术室设备/报表拆项核实并21:00原始双点实比，原设施所夜班正式专线真人接报与23:26签收；夏宁周衡只记可信限定回告，不代批准安全。"
   ma_yun_archive_asset: "马芸遵守目录存件与内容准阅两次独立流程，档案岗只开放F2指定两帧、现场见证不许复制或相邻扩查；资产主管认可不把外部完工图作内部身份结论。"
   ma_yun_lao_qi: "老齐想从F2外观照读出2020内衬，马芸明确外板遮挡而不是缺页，老齐接受没有物料号就保持未知。"
+  trust_scores_unchanged: true
+
+chapter_370_relationship_update:
+  chapter: 370
+  shen_sister_station: "妹妹保留私人旧票和原册并自主决定只展示正面与限项申请，服务站尊重不拍背面和不索经营者私人信息。"
+  ma_yun_lao_qi: "马芸纠老齐私人修表经历不证2002北口经营者、也不证旧窄铁片同源。"
+  night_center: "夜间中心按授权区分技术报表与私人档案咨询，不让不同的白榆称呼合并为资产案。"
+  trust_scores_unchanged: true
+chapter_371_relationship_update:
+  chapter: 371
+  shen_sisters: "妹妹与沈若琴私下各自承认旧钟记忆不一致、后写蓝笔不能冒父亲原话，不为维持线索而互相逼补记忆，私人票册均保留本人手。"
+  ma_yun_archive: "档案只有限开放2002九月七号类别及有效时段、不开放租约与个资，马芸只传合法摘记，不披露家属私话。"
+  ma_yun_lao_qi: "马芸拒让可能兼修表带的猜测给旧铁片补身份，老齐在无独立物料来源时停止越界。"
   trust_scores_unchanged: true

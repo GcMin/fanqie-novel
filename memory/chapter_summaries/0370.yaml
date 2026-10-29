@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 370
+title: "票根上的七号摊位"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "186d4d9a59c8aa075ab5059b512124f4c684108b"
+source_draft_sha: "186d4d9a59c8aa075ab5059b512124f4c684108b"
+reader_review: reader_reviews/0370_186d4d9a.md
+depends_on_chapter: 369
+depends_on_source_sha: "e9aea7851e4f64cf5eb21623333b0bc0ef651435"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day232 20:17—Day233 20:00"
+summary: "Day232 20:17市政技术保管室修后新模板第一次自动出表，陈值守及接班技术员20:32按双独立原始点位核54%/57%，20:48原设施所官方专线真人获限项通知；旧错表留源，不推所有历史数据或袋内安全。Day233 10:12沈家妹妹自主只展示私人2002-09-18白榆北口07修表走慢票根正面、不交件/背字/父亲原册，10:46有权公开目录确有当期七号位置但不能证票出自该摊或经营类别；13:23本人只授权查2002九月七号类别，13:37正式收件尚未准阅原页，16:52原票带走，20:00第231夜班。窄铁片技术室单件原封至Day234 16:00，另外两件旧拆件设施所，2011/2020/Day195身份与旧字作者未知。"
+meaningful_state_changes:
+  - "修后首份新模板自动输出实核54/57两独立点位，不再停留在待验。"
+  - "本人私有旧票自主展示且公开目录证有七号位置，后续限项经营类别申请只收件。"
+knowledge_updates:
+  - "夜间中心只接经授权结果，本次自动新报表核对不等于历史数据或内袋长期安全。"
+relationship_updates:
+  - "沈家妹妹保持票根与旧册自主权，马芸不让老齐凭个人往事推断实物同一。"
+foreshadowing_updates:
+  - "F003仅新增私票与2002七号公开位置及未获准的限项收件，不证旧字作者同源；F008/M004/M005不证。"
+ending_state: "Day233 20:00第231夜班，新模板首次自动回归实核、七号类别申请仅收件，旧私人票仍本人保存，窄片技室原封至Day234 16:00。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "186d4d9a59c8aa075ab5059b512124f4c684108b", final_draft_sha: "186d4d9a59c8aa075ab5059b512124f4c684108b", local_revision_used: 0, body_revisions: 0, predecessor_ready_blob: "e9aea7851e4f64cf5eb21623333b0bc0ef651435", proposed_ready_blob: "b0b56ae550fda394b0c2ab3b0b9ad7a1d59b9b21"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3415

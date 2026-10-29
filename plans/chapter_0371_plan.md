@@ -6,9 +6,9 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - depends_on_chapter: 370
-- depends_on_source_sha: "186d4d9a59c8aa075ab5059b512124f4c684108b"
-- dependency_status: provisional
-- predecessor_not_canon: "第370章在本轮实际main仍为chapters/draft/0370.md，未经过独立Audit。此章引用的票根、沈家本人同意、七号当季索引和Day233 20:00交班均仅暂依该精确草稿，不作为正式Canon；若第370章修订，独立Audit必须核对第371章事实兼容。"
+- depends_on_source_sha: "b0b56ae550fda394b0c2ab3b0b9ad7a1d59b9b21"
+- dependency_status: verified_predecessor_metadata_only_factual_compatible
+- predecessor_not_canon: "第370章原草稿与最终ready版小说正文逐字相同，只有交付Front Matter改变，371已依正式ready Blob重新核对并绑定事实兼容。"
 - dependency_facts_used: "仅暂依第370章：沈家妹妹Day233自持2002-09-18票根，正面印白榆北口临时便民摊区及07，‘修表、走时偏慢’为后写内容；公开目录只证当季存在七号位置，不证私人票根来源、摊主与家族关系；Day233 13:37仅有一次由本人授权的七号当期经营类别查询收件；旧私人原册仍在妹妹家。另依第369章正式ready，技术窄片单件原封受托至Day234 16:00，旧F2图不证物料同一。"
 - continuity_precheck: pass_for_drafting_only
 - target_effective_chars: 3000
@@ -44,7 +44,7 @@ Day233 20:40中心分栏记录沈家个人咨询与设施所技术保管，不�
 - 2011旧衬、2016维修、2020拆装、Day195窄片的唯一物料身份仍未证；红字写者与年代、沈家私册同源未证，不得使用七号查询推断。
 - 沈家旧册和票根不被机构留存；不得散播家属私话、查私人经营者身份或越权查租约。
 - F008未新增可靠具体事件记忆冲突；F009/F010/F011保持resolved；M004/M005不得假定已确认。历史东工门及维修道不因七号索引可对公众通行。
-- 第370章仍是草稿；第371章依赖仅provisional，后续Audit应按第370章实际最终正文复核，不宣称其Canon。
+- 第370章已完成独立Reader/QA，正式ready正文与原草稿一致；第371章重绑正式ready并经新SHA复审，不据此推断私人票真实摊主或旧铁同源。
 
 ## 章尾与后续承接
 

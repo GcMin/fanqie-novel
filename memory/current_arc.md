@@ -1,3 +1,12 @@
+# 第370—371章真实双遍Reader、Stage A依赖修订与ARC-054后续事实（2026-10-29）
+
+- 第370章原draft Git blob `186d4d9a59c8aa075ab5059b512124f4c684108b` 与第369章正式ready Blob `e9aea7851e4f64cf5eb21623333b0bc0ef651435` 精确相符，独立先Pass A（本章/367—369正文/近十摘要/风格）后Pass B（Canon/卷弧/知识世界时间线/F003），最终0 BLOCKER/0 MAJOR/2 MINOR、正文零修订；内容Continuity/Style/Meaningful QA PASS，有效3415字高于偏好上限15字但低于硬上限。Reader `reader_reviews/0370_186d4d9a.md`、QA `qa/0370_report.md`。
+- Day232 20:32技术室首次自动新报表双外测点54/57实际核对，20:48正式有责岗位有限接报；不能证明旧报表历史全正常或封袋内长期安全。Day233 10:12妹妹自愿展示2002-09-18北口07修表私人半票只授权正面且原票、父亲私册不交，10:46合法公开目录确有七号位置但未证明同一经营者；13:23本人限定申请13:37正式收件、原始类别尚未准阅；20:00第231次夜班。
+- 第371章原draft `7fe077c9435ababc4f94db13e236b178bf3f8764` 初审0 BLOCKER/1 MAJOR/2 MINOR，唯一MAJOR为依赖前章临时SHA。实际逐字比较370原草稿与最终ready `b0b56ae550fda394b0c2ab3b0b9ad7a1d59b9b21`，**小说正文完全相同、只有四项交付Front Matter字段改变**。Stage A仅将371 Front Matter/详纲依赖绑370正式ready并标记事实兼容，不改正文，得到新draft Git blob `3c323a9392dcd20a741739620d79bb09544a1400`。已对新SHA重新独立Pass A与B，0 BLOCKER/0 MAJOR/2 MINOR；Continuity/Style/Meaningful QA PASS，3003字。初审、复审在`reader_reviews/0371_7fe077c9.md`/`reader_reviews/0371_3c323a93.md`，内容QA在`qa/0371_report.md`。
+- Day234 09:07限定公开类别及有效时段准阅、09:49妹妹本人实际核2002-09-16至09-30七号**雨具修补**登记，和9月18日私人票手写修表有源不一致；登记不证实际每小时业务、私票假或摊主真实身份。12:16姐妹亲自允许不同旧钟记忆，不以姐姐后加蓝笔冒父亲原笔；13:40马芸仅带公开合法字段回岗。14:18技术室单件窄片原封且有责方未递新生效文件，14:42中心分源回告；现受托仍仅到**Day234 16:00**，下一决定尚未执行。
+- 原设施另外两件旧拆件仍在本部，旧资料间有水印监测缺口不能直接接收；旧站东工门及维修道禁公众、错路旧原印14件11受控3未收另两复制独立。F003不证明旧铁片2011/2020/Day195唯一同一、红字作者年代、沈家私册同源；F008无新可靠本人记忆反证，M004/M005尚未确证，F009/F010/F011保持resolved。旧历史137→138等SHA需要据事实逐条核，本两章直接前章已实核，不能机械阻断或无据跳过。
+- 两章Reader和独立内容QA及Memory、章节计划据真实正文逐项更新；**结构门**仍须在精确候选Git Commit上真实运行`python -m publisher.check_local --repo .`和结构单元测试且CI成功，然后以`expected_sha`、`force:false`原子放行main，不用报告虚充CI。
+
 # 第369章独立双遍Reader与ARC-054实际证据（2026-10-29）
 
 - 最新有效草稿Git blob `70848c73239ecbe1f557a635cccd6b55ecf97588`，独立Reader Pass A后Pass B，0 BLOCKER/0 MAJOR/2 MINOR，无正文修订；详见`reader_reviews/0369_70848c73.md`和`qa/0369_report.md`。

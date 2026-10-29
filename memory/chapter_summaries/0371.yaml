@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 371
+title: "七号登记的是雨伞"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "7fe077c9435ababc4f94db13e236b178bf3f8764"
+source_draft_sha: "3c323a9392dcd20a741739620d79bb09544a1400"
+initial_review: reader_reviews/0371_7fe077c9.md
+reader_review: reader_reviews/0371_3c323a93.md
+depends_on_chapter: 370
+depends_on_source_sha: "b0b56ae550fda394b0c2ab3b0b9ad7a1d59b9b21"
+dependency_status: verified_predecessor_metadata_only_factual_compatible
+timeframe: "Day233 20:40—Day234 14:42"
+summary: "Day233 20:40夜间中心区分七号私人咨询与技室窄片期限。Day234 09:07合法批准七号当期分类与时段限项、09:49妹妹本人实阅2002-09-16至09-30七号公开登记雨具修补，涵盖9月18日，但私人票手写修表的实际来源、是否兼营、摊主姓名均未证，不能判票伪造。12:16姐妹电话承认各自对旧钟/父亲旧路记忆不一，不把姐姐蓝笔新写冒充父亲原话；13:40马芸仅带公开摘记回有权岗位，不外传私话。14:18技术室陈值守有限回告窄片仍原封且有责方未送下一批准决定，14:42夜间中心分源收件；Day234 16:00受托仍需真实续签或合规接收。"
+meaningful_state_changes:
+  - "2002-09-16至09-30七号法定登记雨具修补，与私票手写修表形成有限矛盾却不证假票。"
+  - "姐妹承认旧钟记忆差异，Day234 14:42窄片16:00仍没有下一有效受托决定。"
+knowledge_updates:
+  - "当期雨具修补是登记时段而非全部实际经营事实；妹妹不授予查姓名、租约或私人原票拍照权限。"
+relationship_updates:
+  - "沈家姐妹允许彼此旧钟记忆不一致，马芸、老齐不以雨具摊可能兼营替旧铁片补身份。"
+foreshadowing_updates:
+  - "F003新增公开当期雨具修补与私人票后写修表差异，旧字作者年与2011/2020/Day195同物及私册同源未证；F008/M004/M005不证。"
+ending_state: "Day234 14:42七号当期登记类别已核雨具修补且未鉴票，技术窄片单件原封到16:00并无新有权决定。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7fe077c9435ababc4f94db13e236b178bf3f8764", final_draft_sha: "3c323a9392dcd20a741739620d79bb09544a1400", local_revision_used: 1, body_revisions: 0, predecessor_ready_blob: "b0b56ae550fda394b0c2ab3b0b9ad7a1d59b9b21", proposed_ready_blob: "8666a522ccac5360b2eecc442c67d493a5cb9339", predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3003
