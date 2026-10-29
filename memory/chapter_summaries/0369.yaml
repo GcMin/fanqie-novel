@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 369
+title: "两个测点都合格，表格却只读了一个"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "70848c73239ecbe1f557a635cccd6b55ecf97588"
+source_draft_sha: "70848c73239ecbe1f557a635cccd6b55ecf97588"
+reader_review: reader_reviews/0369_70848c73.md
+depends_on_chapter: 368
+depends_on_source_sha: "329798656e511e7a47633c325d0386f164e93d5b"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day231 20:32—Day232 20:00，第229/230次夜班"
+summary: >-
+  Day231 20:32技术室发现外部回风口与专柜侧两只不同测点的自动汇总表20行数值完全相同，终端即时值各异，21:16由设备维护岗核独立点位和21:00原始读数52%/56%，错表为52%/52%。20:41官方专线实际通知原设施所有责岗，不让夜间中心代技术责任或开袋。22:04查出Day231 18:40模板复制旧取值引用造成汇总第二列指向第一点位；原始两条采集链在已核时段正常而错表受影响，未外推昨日所有数据无问题。22:47有权更正引用、存旧错误导出并复核原始记录，23:19双人核新表、23:26官方岗真人签收，下一次自动输出尚待实测。Day232 08:53马芸得BY-20-06-F2两帧2020完工影像确有存件且可读的正式回函，10:09另申限项、13:37获准、13:52合法真阅，第一帧只证白榆西侧三号外板闭合与外露连接件，第二帧只见外侧收口与模糊折边，均没有内衬、旧字或独立料号，且不同于旧工作台施工过程附件四。15:26/17:18有限结论回告，Day232 20:00第230次夜班。窄片技术室单件原封至Day234 16:00、其余两件设施所；2011/2020/Day195物料同一、旧字作者年代与沈家私册同源未证，F008/M004/M005无新增证据。
+meaningful_state_changes:
+  - "当代两点监测日报复制引用错误获得独立原始链定位、原版保存和新版本真实复核，下一次自动报表仍待实测。"
+  - "BY-20-06-F2从目录引用号升级为现存可读两帧且获得独立有限准阅，已核外部完工而不显示里侧衬件唯一身份。"
+knowledge_updates:
+  - "夜间中心与技术岗位明确导出映射故障不等于仪表故障、两只独立原始记录不等于报表两列独立。"
+  - "马芸及获授权告知的中心知道F2只是完工外观图，不具2020装复同片或跨年物料身份效力。"
+relationship_updates:
+  - "陈值守要求实际双人核对和有责签收，周衡梁策夏宁不越权盖章；马芸与档案员守住开放范围，老齐接受图未拍到里侧。"
+foreshadowing_updates:
+  - "F003新增F2两帧存件及实阅的外部图证边界，不足以证明2011/2020/Day195唯一同物、红字作者年或沈家私册同源；F008/M004/M005不证。"
+ending_state: "Day232 20:00第230夜班，技术室旧错误汇总留源且新表已复核、未来自动输出待验；F2两帧合法真阅仅见外侧；窄片仍技术室单件原封至Day234 16:00。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "70848c73239ecbe1f557a635cccd6b55ecf97588", final_draft_sha: "70848c73239ecbe1f557a635cccd6b55ecf97588", body_revisions: 0, local_revision_used: 0, predecessor_ready_blob: "329798656e511e7a47633c325d0386f164e93d5b", predecessor_factual_delta: none_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3378

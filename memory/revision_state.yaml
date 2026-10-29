@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 368
+current_chapter: 369
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0368.md
-current_source_sha: 5d9a9c90edcad79cf4d99751d1cc2a8c1ef254ae
-current_review_path: reader_reviews/0368_5d9a9c90.md
+current_source_path: chapters/draft/0369.md
+current_source_sha: 70848c73239ecbe1f557a635cccd6b55ecf97588
+current_review_path: reader_reviews/0369_70848c73.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0367_0368_stage_a_reader_qa_candidate
+last_action: audit_0369_reader_qa_candidate
 last_action_date: 2026-10-29
 last_error: null
-last_diff_summary: "367初审0/1/2更正Day230白班接听岗位新SHA复审0/0/2；368初审0/2/2重绑367ready及纠同日晚昨天试通新SHA复审0/0/2；两章独立QA通过。367草稿到ready确有一行正文岗位变动且368所用前章事实兼容。精确候选CI成功前不放行。"
+last_diff_summary: "369单一草稿SHA直接依赖368正式ready Blob精确匹配，Reader双遍0/0/2，正文无修订、独立内容QA通过；精确候选CI成功前不放行。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -1942,5 +1942,17 @@ combined_audit_chapter_368_20261029:
   predecessor_final_ready_blob: "7921c1f76d1f4ae8b43baa059201aeaced6ab0b3"
   predecessor_body_diff_lines: 1
   predecessor_factual_compatible: true
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_369_20261029:
+  chapter: 369
+  source_sha: "70848c73239ecbe1f557a635cccd6b55ecf97588"
+  review: reader_reviews/0369_70848c73.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "329798656e511e7a47633c325d0386f164e93d5b"
+  predecessor_factual_delta: none_exact_ready_blob
   continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required

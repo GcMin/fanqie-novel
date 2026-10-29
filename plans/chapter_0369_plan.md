@@ -57,3 +57,9 @@ Day232 20:00第230夜班，技术监测报表纠错与F2合法阅图各自闭合
 ## 字数与交付
 
 正文非空白有效字符 3378，偏好2600—3400，硬限2300—3800。本章仅Planner、Continuity Precheck与Writer，新建plan及draft；status:draft / qa:pending / approved_at:null / publish_mode:draft，待独立Audit审核。
+
+## 本章独立审核与放行记录（2026-10-29）
+- 审核草稿Git blob: `70848c73239ecbe1f557a635cccd6b55ecf97588`，Reader Pass A独立读者审查后Pass B连贯性审核；`reader_reviews/0369_70848c73.md`最终BLOCKER=0 MAJOR=0 MINOR=2，因只含MINOR故正文不修。
+- 直接依赖368正式ready Blob `329798656e511e7a47633c325d0386f164e93d5b` 精确一致；正文3378有效字符，标题及计划准确。
+- Continuity/Style/Meaningful QA独立检查PASS：Day231两外测点原数据52/56、导出误复用52/52，18:40新模板取值映射被有责纠正且留旧版；Day232 F2两帧依法真阅仅证外侧完工。
+- 单件窄片Day234 16:00前受托继续、未开袋、无跨年物件同一性确证；结构验证仅以候选commit真实CI为准。

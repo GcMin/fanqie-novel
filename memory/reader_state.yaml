@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 368
-last_reviewed_title: "巡检表上，里侧那格没有勾"
-last_source_path: chapters/draft/0368.md
-last_source_sha: 5d9a9c90edcad79cf4d99751d1cc2a8c1ef254ae
-last_review_path: reader_reviews/0368_5d9a9c90.md
+last_reviewed_chapter: 369
+last_reviewed_title: "两个测点都合格，表格却只读了一个"
+last_source_path: chapters/draft/0369.md
+last_source_sha: 70848c73239ecbe1f557a635cccd6b55ecf97588
+last_review_path: reader_reviews/0369_70848c73.md
 last_reviewed_at: "2026-10-29"
 reviewer_mode: combined_audit_independent_pass_a_then_b_exact_draft
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 367
-depends_on_source_sha: 7921c1f76d1f4ae8b43baa059201aeaced6ab0b3
+depends_on_chapter: 368
+depends_on_source_sha: 329798656e511e7a47633c325d0386f164e93d5b
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 7921c1f76d1f4ae8b43baa059201aeaced6ab0b3
+predecessor_current_source_sha: 329798656e511e7a47633c325d0386f164e93d5b
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 upstream_depends_on_chapter: 142
@@ -2482,5 +2482,18 @@ chapter_368_reader_20261029:
   predecessor_final_ready_blob: "7921c1f76d1f4ae8b43baa059201aeaced6ab0b3"
   predecessor_body_difference_lines: 1
   predecessor_body_diff_factual_compatible: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_369_reader_20261029:
+  chapter: 369
+  original_source_sha: "70848c73239ecbe1f557a635cccd6b55ecf97588"
+  final_source_sha: "70848c73239ecbe1f557a635cccd6b55ecf97588"
+  review: reader_reviews/0369_70848c73.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "329798656e511e7a47633c325d0386f164e93d5b"
+  predecessor_delta: none_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

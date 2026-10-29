@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 368
+last_updated_chapter: 369
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1278,3 +1278,10 @@ chapter_368_relationship_update:
   night_center_custodian: "技术室21:07经原设施所官方专线真接报并23:19回告，中心不越权代实物处置；梁策强调外测回落不是袋内状态。"
   ma_yun_archive_asset: "档案员只准马芸读2020首检指定页，BY-20-06-F2仅能先查目录存续；资产主管拒无证据写已找到复装影像。"
   ma_yun_lao_qi: "老齐承认巡检未做就不该把空格补勾，不用外侧合格章当里侧及旧片身份凭证。"
+
+chapter_369_relationship_update:
+  chapter: 369
+  night_center_custodian: "陈值守对技术室设备/报表拆项核实并21:00原始双点实比，原设施所夜班正式专线真人接报与23:26签收；夏宁周衡只记可信限定回告，不代批准安全。"
+  ma_yun_archive_asset: "马芸遵守目录存件与内容准阅两次独立流程，档案岗只开放F2指定两帧、现场见证不许复制或相邻扩查；资产主管认可不把外部完工图作内部身份结论。"
+  ma_yun_lao_qi: "老齐想从F2外观照读出2020内衬，马芸明确外板遮挡而不是缺页，老齐接受没有物料号就保持未知。"
+  trust_scores_unchanged: true
