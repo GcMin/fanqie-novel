@@ -6,9 +6,9 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer / Planner / Continuity Precheck
 - depends_on_chapter: 361
-- depends_on_source_sha: "851576c86b69d9aceb8d969e99e850d5e1f1da67"
-- dependency_status: provisional
-- dependency_facts_used: "前章361仍是未审draft：Day224 20:00第222次夜班，小剧场外包保洁蔡桂兰实获救；七名自有员工签退是真但不覆盖外包，后场受阻门暂禁用，健康与责任未知。本章仅临时承接，不能视作审定Canon。"
+- depends_on_source_sha: "97825e637649f7111c882eb3fcc0990c3288629b"
+- dependency_status: verified_predecessor_metadata_only_factual_compatible
+- dependency_facts_used: "前章361已通过独立Reader/QA且拟正式ready，小说正文与原草稿逐字相同，仅交付FM改变：Day224 20:00第222次夜班，小剧场外包保洁蔡桂兰实获救；七名自有员工签退是真但不覆盖外包，后场受阻门暂禁用，健康与责任未知。本章只承接其经核的真实救出与后场限制事实，不补充未经证实的医疗或责任结论。"
 - target_effective_chars: "2600–3400"
 - hard_effective_chars: "2300–3800"
 - actual_effective_chars: 3371
@@ -40,5 +40,5 @@
 - 基于GitHub main d3b8f450953713ea92056cbf431ed834914f0cf7核实published含0153，published/ready/draft最高章号为0361、0362计划正文均不存在。
 - 读AGENTS、novel.yaml、writing_roles、ai_reading_protocol、Bible核心设定及周衡梁策夏宁卡、现有卷弧大纲、当前Memory人物/知识/关系/世界/伏笔/时间线、0351—0360十章摘要、0357—0361最近五章完整正文；不读历史reader_reviews。
 - 现有volume_05与arc_current文件相对最新章节已过期，按最新ready/章纲及Memory选volume 6 ARC-054；Writer不修改该等旧文件。
-- 361仅未审draft，绑定完整Git Blob SHA 851576c86b69d9aceb8d969e99e850d5e1f1da67并标provisional；本章不将其事件当正式Canon。
+- Writer写作时前章361确为旧draft Blob 851576c86b69d9aceb8d969e99e850d5e1f1da67；Audit核对其原稿与拟ready Blob 97825e637649f7111c882eb3fcc0990c3288629b 的小说正文逐字相同，仅FM status/qa/approval/publish_mode不同，故本章在Stage A将依赖元数据与本详细章纲重绑正式ready SHA，不改362小说正文。
 - 只创建章纲和首稿，不做Editor/Reader/Revision/QA/Memory/Publish Gate，不改旧章、不发布。
