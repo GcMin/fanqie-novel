@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 395
+last_updated_chapter: 396
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1466,4 +1466,12 @@ chapter_395_relations_verified:
   source_sha: "1e59b18918e16a71778836661cd28b4174486b49"
   night_center_driver: "高岩主动限制证据只用于本人本笔，公司发单与结算岗位各自履责，中心守事实核验权限不代理工资裁决；高岩取得真实书面复核结果后停止不必要外传收入流水。"
   archive_and_asset: "罗经办自己改掉2016没打出去的无据定论，马芸与档案员按公开开放类别答复；现封物主管接受历史退回不构成物证鉴定或新的长托批准。"
+  trust_scores_unchanged: true
+
+
+chapter_396_relations_verified:
+  chapter: 396
+  source_sha: "a09d727ad1b40bba9f370834eb0948e9169f1462"
+  night_center_driver: "高岩拒让有责派车错误改写成司机自行绕行，只要求保留有源截图及真实有限配置结果；夏宁周衡梁策把本人未进禁路、公司运维限定操作和本笔工资不同状态分开。"
+  archive_and_asset: "罗经办由想把原台岗位签收写作回拨人获悉转向查跨日真实交接；马芸以亲身经历提醒两者责任不能混签，档案岗位限项开放不越界；主管仍不凭旧通讯件改现封物身份。"
   trust_scores_unchanged: true

@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 396
+title: "回条到了，答复还在路上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "2a2f000c4eac99b118f0592f281cc42ee711f2bb"
+source_draft_sha: "a09d727ad1b40bba9f370834eb0948e9169f1462"
+initial_review: reader_reviews/0396_2a2f000c.md
+reader_review: reader_reviews/0396_a09d727a.md
+depends_on_chapter: 395
+depends_on_source_sha: "e8b0fdc6a638972c59b3264a239b598466463556"
+dependency_status: verified_predecessor_body_delta_compatible
+timeframe: "Day257 20:53—Day258 20:19"
+summary: >-
+  Day257 20:53高岩司机端仍出现“旧东工门”常用到货点绿色历史任务推荐但不是新派单，司机在南岸合法位置停车保留原页面与生成时刻，未驶禁路。中心只核旧门仍禁公众及这条司机端推荐，不能代公司改模板；21:37公司企图把原因勾司机自主绕行被高岩拒绝；22:02有权运维只正式受理限定分包业务旧点推荐暂停申请，生产变更尚未实施。Day258 09:46历史旧台退回件只获公开收发字段范围答复、10:23真正有限许可生效、10:58依法见2016-05-11同笔22:44要求回拨收件22:51转22:56值守岗位签23:07以联系去向待补正退原临时联络台后于23:18原台岗位真收退回件、23:26列联系去向待核与跨日待交接索引；只证纸件到岗，原来话人、电话拨接及次日具体接办未证。13:41领限定摘录、14:27只向有权保管主体提交次日交接目录查询得受理未获许可。Day258 11:13派车运维核高岩截图证旧推荐来自分包旧站推荐表非司机自行收藏，仅限定南岸新派车业务；15:08有权主管签仅本类新任务暂停旧推荐的临时配置、15:36运维真受控测试同类新建任务只示南岸点、16:11高岩本人实获有限说明，但未证全平台/其他货种/旧离线缓存已修。Day258 20:19中心仅收两项有源结果。前Day257公司已真撤高岩一笔待结算虚假滞留扣减但工资未到账或赔偿；Day195旧红字窄片一件仍新站原柜原封至Day261 16:00两旧拆件原设施所，跨年同物/字迹作者/私人票同源/F008/M004/M005无新证。
+meaningful_state_changes:
+  - "Day258 15:08有权主管准限定分包南岸同类新任务不再推荐旧东工门，15:36实际测试通过，16:11司机实获范围说明；旧缓存和全系统并未修毕。"
+  - "2016-05-11同笔退回件23:18原台实收、23:26联系去向待核和跨日待交接索引首次依法得到证据，实际电话和次日交接仍待查。"
+knowledge_updates:
+  - "高岩及中心知道Day257旧站绿色推荐仅意味着历史模板仍曝光，非高岩新派单或自主绕路；Day258只有限制范围的真实生产配置及受控测试。"
+  - "罗经办马芸及Day258夜班明白退回发出23:07与原台23:18有源收讫不是当事人收话，23:26索引不等次日岗位真接或回拨完成。"
+relationship_updates:
+  - "高岩拒将错误原因改写为司机自行绕行，企业有责运维在限定范围签配并真实测试；中心仍守公共禁行和司机授权事实边界。"
+  - "罗经办自删“回拨人获悉”，马芸以曾经虚假“已联系”经历推动去查下一张岗位交接，尚不拿旧纸定个人责任。"
+foreshadowing_updates:
+  - "F003新增2016退回件原台23:18实际业务接收及23:26跨日待核公开索引；五月十二日交接是否真实、联系去向补正与电话效果、里侧复核未知。F008/M004/M005无新确证。"
+ending_state: "Day258 20:19公司仅在本分包南岸同类新建任务真实禁用旧东工门推荐并受控测试，高岩撤扣已获决但未支付；2016退回件23:18原台真收及23:26待核索引有证，但五月十二日交接只新申请待审、真实电话未知；旧红字窄片新站一件原封至Day261 16:00另外两件原所。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "2a2f000c4eac99b118f0592f281cc42ee711f2bb", final_draft_sha: "a09d727ad1b40bba9f370834eb0948e9169f1462", initial_counts: "0/2/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 6, corrected_issue: "重绑395正式ready并比较两处前章时钟事实改动；纠正Day257首车误派/人工改派相对日序及Day258历史事件时态", predecessor_original_draft_sha: "745a08ef59c0bd53761e8036ac0468d3ef9bd69a", predecessor_ready_blob: "e8b0fdc6a638972c59b3264a239b598466463556", predecessor_factual_delta: "Day256两处高岩Day254 22:34错称昨天修为前天，396改用正式时钟", proposed_ready_blob: "919dda040ad9dede6cc4e3701a2b0fb4b1e19eb0"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3463

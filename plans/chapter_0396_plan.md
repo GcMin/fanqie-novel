@@ -6,20 +6,20 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "d77292f3a751bea6d55425a7c0e72c1ac17d42c3"
 - depends_on_chapter: 395
-- depends_on_source_sha: "745a08ef59c0bd53761e8036ac0468d3ef9bd69a"
-- dependency_status: provisional
-- continuity_precheck: predecessor_unreviewed_specific_blob
+- depends_on_source_sha: "e8b0fdc6a638972c59b3264a239b598466463556"
+- dependency_status: verified_predecessor_body_delta_compatible
+- continuity_precheck: verified_predecessor_body_delta_compatible
 - timeframe: "Day257 20:53—Day258 20:19"
 - pov: "周衡、夏宁、梁策与高岩的当代有限第三人称；罗经办、马芸查档有限第三人称"
 - count_method: "Unicode非空白字符，含标点，正文不计Front Matter"
 - target_effective_chars: 3000
-- actual_effective_chars: 3450
-- qa: pending
+- actual_effective_chars: 3463
+- qa: pass
 - publish_mode: draft
 
 ## 本章目标与开场
 
-承接第395章Day257 20:16的临时连续性：高岩本笔原“私自滞留”待结算扣减由公司有权结算主管认定无依据，司机端16:14显示更正，但真实工资尚未到账、赔偿不确定；公司旧东工门派车模板仅就此前两趟人工纠错，未全局停用。2016年5月11日旧外侧台22:44收回拨要求、22:51转22:56岗位收讫、23:07因联系去向待补退回原台；原台是否真正接收及后续补正未知。历史事实若前章仅draft均属provisional，不升正式Canon。
+承接第395章Day257 20:16已经独立审核放行ready的正式连续性：高岩本笔原“私自滞留”待结算扣减由公司有权结算主管认定无依据，司机端16:14显示更正，但真实工资尚未到账、赔偿不确定；公司旧东工门派车模板仅就此前两趟人工纠错，未全局停用。2016年5月11日旧外侧台22:44收回拨要求、22:51转22:56岗位收讫、23:07因联系去向待补退回原台；原台是否真正接收及后续补正未知。第395章已完成独立Reader/QA及精确候选CI并正式入ready；第396章不得跳过自身独立审核。
 
 ## 角色诉求与冲突
 
@@ -45,7 +45,13 @@
 
 ## Continuity Precheck
 
-- 依据本轮GitHub实际published、ready、draft目录确认第153章已存在且最新章号395，395只能在绑定的特定Git Blob版本上临时衔接，禁止以未审稿推升正式Canon。
-- 前395章当前仅未审draft，明确记录provisional以及完整40位Blob SHA，交独立Audit核对后续修订。
+- 当前第395章已经按精确Git Blob `e8b0fdc6a638972c59b3264a239b598466463556` 正式ready；395旧Writer draft `745a08ef59c0bd53761e8036ac0468d3ef9bd69a` 与ready正文仅Day256两处“昨天”改“前天/前天高岩”，其余正文相同，本章依此有界事实差异而修正文内时态。
+- 第395章不再是provisional，实际完整40位ready Git blob已重绑，仍须本章独立Reader/QA及精确CI。
 - 395末高岩收到扣减撤回正式决定而非现金到账，旧站23:07仅有退回业务动作；本章新增接收证据不能跳到本人回话或历史物证同一结论。
-- 本轮只新建详纲和draft，Reader/Revision/QA/Memory/Publish Gate均留待独立处理。
+- Writer原轮次仅创建本章详纲和draft；本Audit已独立审核、局部修订及新SHA复审，精确候选Git CI成功后方可正式入ready。
+
+
+## 2026-10-30 Audit初审、前章有意义事实差异、Stage A与新SHA独立QA
+- 初稿 `2a2f000c4eac99b118f0592f281cc42ee711f2bb` Reader双遍 0/2/2：前章绑定395未审draft `745a08ef59c0bd53761e8036ac0468d3ef9bd69a`、Day257把Day254首车误派及Day255当批改派说昨天/昨晚，并把2016历史23:26写成昨夜。Stage A只纠六处相关正文表达并重新绑定395正式ready `e8b0fdc6a638972c59b3264a239b598466463556`；395原稿与ready对比仅两处Day256错将Day254高岩22:34说昨天的文字事实修正，已核新395事实上与本章修后兼容。
+- 修订后新Git blob `a09d727ad1b40bba9f370834eb0948e9169f1462`，独立重新Pass A/B Reader 0/0/2；Continuity/Style/Meaningful QA PASS，3463有效字，拟ready blob `919dda040ad9dede6cc4e3701a2b0fb4b1e19eb0`。MINOR不触发再改。
+- Day258公司限定本分包南岸同类新建任务真停旧推荐并15:36受控测试，其余未证；2016旧退回23:18原台岗位真收、23:26跨日待核索引，五月十二日真实交接与电话效果未证。现金薪资仍未到账，旧窄片仍一件封至Day261 16:00。精确候选Git commit结构CI必须SUCCESS才可迁main ready。

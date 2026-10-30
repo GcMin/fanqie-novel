@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 395
-last_reviewed_title: "改正的路线没走进结算表"
-last_source_path: chapters/draft/0395.md
-last_source_sha: 1e59b18918e16a71778836661cd28b4174486b49
-last_review_path: reader_reviews/0395_1e59b189.md
+last_reviewed_chapter: 396
+last_reviewed_title: "回条到了，答复还在路上"
+last_source_path: chapters/draft/0396.md
+last_source_sha: a09d727ad1b40bba9f370834eb0948e9169f1462
+last_review_path: reader_reviews/0396_a09d727a.md
 last_reviewed_at: "2026-10-30"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,14 +12,14 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 394
-depends_on_source_sha: adf69365cd3770552441720907bc1d790636b3d5
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: adf69365cd3770552441720907bc1d790636b3d5
+depends_on_chapter: 395
+depends_on_source_sha: e8b0fdc6a638972c59b3264a239b598466463556
+dependency_status: verified_predecessor_body_delta_compatible
+predecessor_current_source_sha: e8b0fdc6a638972c59b3264a239b598466463556
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-original_source_sha: 745a08ef59c0bd53761e8036ac0468d3ef9bd69a
-initial_review_path: reader_reviews/0395_745a08ef.md
+original_source_sha: 2a2f000c4eac99b118f0592f281cc42ee711f2bb
+initial_review_path: reader_reviews/0396_2a2f000c.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
 combined_audit_backfill:
@@ -2848,5 +2848,24 @@ chapter_395_reader_20261030:
   predecessor_ready_blob: "adf69365cd3770552441720907bc1d790636b3d5"
   predecessor_factual_delta: none_exact_ready_blob
   proposed_ready_blob: "e8b0fdc6a638972c59b3264a239b598466463556"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+
+chapter_396_reader_20261030:
+  chapter: 396
+  original_sha: "2a2f000c4eac99b118f0592f281cc42ee711f2bb"
+  initial_review: reader_reviews/0396_2a2f000c.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_source_sha: "a09d727ad1b40bba9f370834eb0948e9169f1462"
+  review: reader_reviews/0396_a09d727a.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1}
+  body_revisions: 6
+  corrected_issue: "Day257首车/次车相对日序及Day258旧历史时态，前395旧临时依赖经实际正文两处时钟差异对比后重绑正式ready"
+  predecessor_original_draft_sha: "745a08ef59c0bd53761e8036ac0468d3ef9bd69a"
+  predecessor_ready_blob: "e8b0fdc6a638972c59b3264a239b598466463556"
+  predecessor_factual_delta: "Day256将Day254高岩22:34从昨天改前天共两处，修后396兼容"
+  proposed_ready_blob: "919dda040ad9dede6cc4e3701a2b0fb4b1e19eb0"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
