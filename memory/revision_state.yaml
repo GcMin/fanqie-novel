@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 396
+current_chapter: 398
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0396.md
-current_source_sha: a09d727ad1b40bba9f370834eb0948e9169f1462
-current_review_path: reader_reviews/0396_a09d727a.md
+current_source_path: chapters/draft/0398.md
+current_source_sha: 39557f7382c85cd5d5fd45fdd5e7e80bdfa9d7cb
+current_review_path: reader_reviews/0398_39557f73.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0396_reader_stageA_newsha_rereview_qa
+last_action: audit_0397_0398_reader_stageA_newSHA_rereview_QA
 last_action_date: 2026-10-30
 last_error: null
-last_diff_summary: "396原稿Reader0/2/2，StageA局部纠六处Day257错日序及Day258 2016档案时态，前395旧稿与ready两处时钟正文差异已实比并重绑正式ready。新SHA重新Reader0/0/2、内容QA通过，结构仍须精确候选CI。"
+last_diff_summary: "397原稿Reader0/1/2，Day258夜不实晨间回告承诺局部改一处，新SHA Reader0/0/2；398原稿Reader0/1/2因前397临时依赖，核前章正文一处事实差异兼容后只重绑依赖新SHA Reader0/0/2，独立内容QA均PASS，结构待精确候选CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: a09d727ad1b40bba9f370834eb0948e9169f1462
+current_review_source_sha: 39557f7382c85cd5d5fd45fdd5e7e80bdfa9d7cb
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -2348,4 +2348,36 @@ combined_audit_chapter_396_20261030:
   dependency_status: verified_predecessor_body_delta_compatible
   proposed_ready_blob: "919dda040ad9dede6cc4e3701a2b0fb4b1e19eb0"
   continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_397_revision_20261030:
+  chapter: 397
+  original_sha: "9de83d08d999de535feb2f99d54110d93713fc6b"
+  final_source_sha: "d887677453390d23d83c632d5977b1e07e9ad002"
+  initial_review: reader_reviews/0397_9de83d08.md
+  final_review: reader_reviews/0397_d8876774.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  body_revisions: 1
+  predecessor_ready_blob: "919dda040ad9dede6cc4e3701a2b0fb4b1e19eb0"
+  content_qa: pass
+  proposed_ready_blob: "f2f7d93ca6a9c9baf8d91949ba294a027a2fde5c"
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_398_revision_20261030:
+  chapter: 398
+  original_sha: "7646331b85cdbe246d929c8758af1492fdd3d63c"
+  final_source_sha: "39557f7382c85cd5d5fd45fdd5e7e80bdfa9d7cb"
+  initial_review: reader_reviews/0398_7646331b.md
+  final_review: reader_reviews/0398_39557f73.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  body_revisions: 0
+  predecessor_original_draft_sha: "9de83d08d999de535feb2f99d54110d93713fc6b"
+  predecessor_ready_blob: "f2f7d93ca6a9c9baf8d91949ba294a027a2fde5c"
+  predecessor_factual_delta: "397一处晨间回告虚诺改为专业核验后真正回话；398叙事与397 17:28真实回告相容"
+  content_qa: pass
+  proposed_ready_blob: "56ad8e536620f927f263fdf86257f28847073fd4"
   structural_gate: exact_candidate_commit_CI_required
