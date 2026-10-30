@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 395
+title: "改正的路线没走进结算表"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "745a08ef59c0bd53761e8036ac0468d3ef9bd69a"
+source_draft_sha: "1e59b18918e16a71778836661cd28b4174486b49"
+initial_review: reader_reviews/0395_745a08ef.md
+reader_review: reader_reviews/0395_1e59b189.md
+depends_on_chapter: 394
+depends_on_source_sha: "adf69365cd3770552441720907bc1d790636b3d5"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day256 20:47—Day257 20:16"
+summary: >-
+  Day256 20:47高岩司机端待复核滞留扣减仍依Day254 20:42旧东工门错误定位假完结计时，Day254 22:34南岸真实交货签收虽在附件却未进入冻结结算快照。中心只按高岩同意的本笔资料核更正回执，未代公司裁工资。Day256 21:26派车当班调度承认旧坐标虽来自分包模板但本笔发单责任在其岗位，22:12仅将差异登记交值班主管，尚未签发财务。Day257 09:08高岩经公司入口仅提交本笔时间回执，结算窗口建立关联查询并解释材料齐全只意味可以审核。档案白班9:42仅获得2016同笔回拨事项公开办理状态分项答复、10:29真正获得有限许可、11:06合法阅2016-05-11 22:44外侧台收到回拨要求、22:51转送、22:56值守岗位签收后又于23:07以“联系去向字段待补正”退回原台、状态待补正；未见电话凭据、具体号码或退回接收后是否补正，不能断言没有电话/已经接通或里侧技术进场。12:20领取限定摘录，14:04仅递次日退回接收及公开办理状态申请待审。Day257 15:18派车主管正式签发本笔旧址派车差异，15:57结算主管有权确认本笔私自滞留扣减依据不成立并在待结算项取消该扣减，16:14高岩本人看到更新的待结算预览并获正式复核说明，支付未到账、赔偿未知、全系统旧模板尚未改完。20:16夜班仅接两个有源结果。Day195旧红字窄片一件新周转站原柜原封至Day261 16:00，其余两件旧拆件在原设施所，未获历史跨年同物/旧字作者或沈家私人票同源结论，F008/M004/M005仍未证。
+meaningful_state_changes:
+  - "Day257 15:57公司有权结算主管正式撤本笔待结算滞留扣减，16:14司机本人核知；实际到账及另行赔偿未知。"
+  - "2016同笔历史回拨要求由22:56岗位签收延伸到23:07依公开原因类别退回原台待补正，新窄申请仅收件未获准。"
+knowledge_updates:
+  - "高岩、中心与公司结算岗位明确真实签收、原调度收件、差异登记、结算审核、主管撤扣和工资到账是不同状态。"
+  - "罗经办马芸及Day257夜班仅知道历史23:07待补正退回，不知电话拨接、具体联系资料、原台之后是否补正及里侧技术检查。"
+relationship_updates:
+  - "高岩仅授权本笔结算证据，公司结算岗通过有责主管材料撤本笔虚假扣减；周衡夏宁梁策坚持核来源与责任而不代判劳资。"
+  - "罗经办自行划掉“没有打出去”的无证推断，马芸档案员维护限项权限；资产主管接受旧流转记录不能鉴定现封窄片。"
+foreshadowing_updates:
+  - "F003新增2016-05-11 23:07“联系去向待补正”有源退回节点，但实际回拨和技术进场未知；F008/M004/M005无新增证据。"
+ending_state: "Day257 20:16高岩本笔待结算虚假滞留扣减有权撤销而未证到账；2016回拨要求23:07按公开类别退回待补正，后续办理新申请仅收件；现封窄片一件原柜原封至Day261 16:00，两旧拆件原设施所，跨年同物和真正回话仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "745a08ef59c0bd53761e8036ac0468d3ef9bd69a", final_draft_sha: "1e59b18918e16a71778836661cd28b4174486b49", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 2, corrected_issue: "Day256两处高岩Day254首车被错称昨天，改前天并明确高岩，保留Day255第二车独立事实", predecessor_ready_blob: "adf69365cd3770552441720907bc1d790636b3d5", predecessor_factual_delta: none_exact_ready_blob, proposed_ready_blob: "e8b0fdc6a638972c59b3264a239b598466463556"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3536

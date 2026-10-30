@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 394
+current_chapter: 395
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0394.md
-current_source_sha: c28aaad025a42fc1a7700ca4e32d0fa2f2aa2574
-current_review_path: reader_reviews/0394_c28aaad0.md
+current_source_path: chapters/draft/0395.md
+current_source_sha: 1e59b18918e16a71778836661cd28b4174486b49
+current_review_path: reader_reviews/0395_1e59b189.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0393_0394_reader_stageA_rereview_qa
+last_action: audit_0395_reader_stageA_newsha_rereview_qa
 last_action_date: 2026-10-30
 last_error: null
-last_diff_summary: "393原稿Reader0/0/2正文未改；394初审0/3/2，StageA仅修标题越证、393依赖重绑及Day256今昨时态，变更后新SHA Reader0/0/2。两章独立内容QA通过，结构仍须精确CI。"
+last_diff_summary: "395原稿Reader0/1/2，StageA仅纠Day256将Day254首车签收错称昨天的两处，改前天并点高岩。新SHA独立Reader0/0/2，内容QA通过，结构仍须精确候选CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: c28aaad025a42fc1a7700ca4e32d0fa2f2aa2574
+current_review_source_sha: 1e59b18918e16a71778836661cd28b4174486b49
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -2309,5 +2309,23 @@ combined_audit_chapter_394_20261030:
   predecessor_ready_blob: "a8a696c1578ea9a3af7b349685c42107798aecc7"
   predecessor_body_identical: true
   proposed_ready_blob: "adf69365cd3770552441720907bc1d790636b3d5"
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+
+combined_audit_chapter_395_20261030:
+  chapter: 395
+  original_sha: "745a08ef59c0bd53761e8036ac0468d3ef9bd69a"
+  initial_review: reader_reviews/0395_745a08ef.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "1e59b18918e16a71778836661cd28b4174486b49"
+  final_review: reader_reviews/0395_1e59b189.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 2
+  corrected_issue: "Day256高岩Day254真实首车时刻错称昨天两次，仅改前天与明确高岩"
+  predecessor_ready_blob: "adf69365cd3770552441720907bc1d790636b3d5"
+  dependency_status: verified_exact_ready_blob
+  proposed_ready_blob: "e8b0fdc6a638972c59b3264a239b598466463556"
   continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required

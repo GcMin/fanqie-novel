@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 394
+last_updated_chapter: 395
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1458,4 +1458,12 @@ chapter_394_relations_verified:
   source_sha: "c28aaad025a42fc1a7700ca4e32d0fa2f2aa2574"
   night_center_drivers: "高岩仅授权本笔事实更正而拒露其他收入，中心不裁工资；赵安在合法位置等到本人收到有权重派才完成第二批交货，本批错误已止但其他旧配置仍待查。"
   archive_and_asset: "罗经办由索姓名改为仅核处理时点，马芸提醒岗位签收不是电话接通或工人进里侧，主管仍需依据现封号决策长期托管而非拿历史消息代鉴定。"
+  trust_scores_unchanged: true
+
+
+chapter_395_relations_verified:
+  chapter: 395
+  source_sha: "1e59b18918e16a71778836661cd28b4174486b49"
+  night_center_driver: "高岩主动限制证据只用于本人本笔，公司发单与结算岗位各自履责，中心守事实核验权限不代理工资裁决；高岩取得真实书面复核结果后停止不必要外传收入流水。"
+  archive_and_asset: "罗经办自己改掉2016没打出去的无据定论，马芸与档案员按公开开放类别答复；现封物主管接受历史退回不构成物证鉴定或新的长托批准。"
   trust_scores_unchanged: true

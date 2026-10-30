@@ -13,8 +13,8 @@
 - pov: "周衡、夏宁、梁策夜班有限第三人称；高岩当代场景及罗经办、马芸档案查阅有限第三人称"
 - count_method: "正文Unicode非空白字符（含标点），不含Front Matter"
 - target_effective_chars: 3000
-- actual_effective_chars: 3534
-- qa: pending
+- actual_effective_chars: 3536
+- qa: pass
 - publish_mode: draft
 
 ## 本章目标与开场
@@ -50,3 +50,9 @@
 - 第394章正式ready，绑定精确 Git blob `adf69365cd3770552441720907bc1d790636b3d5`，非临时草稿，无需provisional标识。
 - 394章Day255更正第二车路线属于当批两单，不能声称全系统修好；394章Day256 20:23人工复核无结论，395章Day257才由公司有权主管新决策。旧技术岗位晚于22:48/22:50的业务转送不是入场证据。
 - 不能以独立Audit后续结果为Writer自行写入长期Canon；本轮仅创建详细章纲与draft，Reader/Revision/QA/Memory/Publish Gate全部留待独立处理。
+
+
+## 2026-10-30 Audit独立Reader、局部Revision、新SHA复审与QA
+- 初稿Git blob `745a08ef59c0bd53761e8036ac0468d3ef9bd69a` 审核0/1/2：Day256引用Day254首车真实签收时两处“昨天”指日不正确；Stage A只改“前天”并明确高岩，两处正文变化，不修MINOR。
+- 修后Git blob `1e59b18918e16a71778836661cd28b4174486b49` 已独立新SHA Pass A/B复审0/0/2；独立Continuity/Style/Meaningful QA PASS，3536有效字，前394正式ready `adf69365cd3770552441720907bc1d790636b3d5` 精确匹配，拟ready blob `e8b0fdc6a638972c59b3264a239b598466463556`。
+- Day257有权公司仅撤高岩本笔待结算虚假滞留扣减，不代表工资到账或赔偿；历史2016-05-11 23:07同笔业务仅证联系去向字段待补而退回原台，不证电话拨接、内侧技术进场或现窄片身份。新限项申请只受理。结构精确候选Git CI须SUCCESS方能从draft迁ready。
