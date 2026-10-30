@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 390
+last_updated_chapter: 391
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1430,4 +1430,11 @@ chapter_390_relations_verified:
   road_and_public: "梁策不粗暴拉扯扶杖老人，先阻车道险处并让道路岗实核通往合法停靠点的净宽，女儿和父亲可自己走完并21:23真登车；道路与照明验收分责。"
   archive_and_asset: "马芸与有责档案员让罗经办先合法查现存单页再另批正文，罗经办主动删去过宽申请并留下批准/实施两空格；主管因成本想以旧纸给现物命名，但仍接受短托和长期责任分开。"
   night_center: "夏宁周衡梁策保留现代工单的系统错误来源，等道路与照明两条真实验收链才完成；不替旧历史拟申请作任何准许或施工签认。"
+  trust_scores_unchanged: true
+
+chapter_391_relations_verified:
+  chapter: 391
+  source_sha: "e423d565e02f54331536e92bcb68f2c53031e8b5"
+  archive_and_asset: "罗经办承认2016计划半小时与有责真实批十五分钟不同，马芸及档案员不提供受限技术/值守内页；主管不借旧许可能给现件添历史身份，接受新封外监测不能补历史缺口或自动延托。"
+  night_center_public: "夏宁尊重便利店店员不能代道路部门签回收引导牌，周衡梁策只在夜班交接白班有源结论并处理新公共风险。"
   trust_scores_unchanged: true
