@@ -6,17 +6,17 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "b2ab5a619a3b0ac6a67bb7653c0343508014b8ba"
 - depends_on_chapter: 405
-- depends_on_source_sha: "3621690287c6ef3cda760b3634d1bebef3455e43"
-- dependency_status: provisional
+- depends_on_source_sha: "d8787c08cecd5c64916c0c51b2c27a8b93eaea12"
+- dependency_status: verified_predecessor_body_identical
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: "Day267 20:31—Day268 20:12"
 - pov: "夜间中心周衡、夏宁、梁策有限第三人称；罗经办、马芸仅在获准档案窗口有限第三人称"
 - target_effective_chars: 3100
 - actual_effective_chars: 3388
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 
 ## 本章目标、开场与临时依赖
 
@@ -45,3 +45,9 @@
 本轮实际读取main最新AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、四份Bible和周衡夏宁梁策人物卡、原volume_05与已过时的arc_current.md（以正式已审第六卷ARC-054正文和Memory为准），memory/current_arc及character/relationship/knowledge/world、foreshadowing、timeline、plans/chapter_plan.csv、0395—0404十章摘要及0401—0405五章正文、0405详纲；未读取历史reader_reviews，未执行Reader/Revision/QA/Memory/Publish Gate。
 
 最新main HEAD `b2ab5a619a3b0ac6a67bb7653c0343508014b8ba` 的树含published/0153、published最高0159、ready最高0404、draft仅0405，0406的章纲和正文均不存在。前405仅为未审draft，绑定完整blob SHA `3621690287c6ef3cda760b3634d1bebef3455e43`，dependency_status=provisional，尚不算正式Canon。本轮仅新增0406章纲与draft，未修改已存在章节或长期记忆、未审核或发布。
+
+
+## Audit 独立审核与交付记录｜2026-10-31
+- Writer原始provisional依赖405草稿 `3621690287c6ef3cda760b3634d1bebef3455e43` 为创作时历史记录，不等于审核后最终依赖。正式审核时405故事正文与拟ready `d8787c08cecd5c64916c0c51b2c27a8b93eaea12` 逐字相同，仅Front Matter不同。Stage A仅重绑本章Front Matter和章纲前405正式ready SHA，正文0改。
+- 原406 `429c940e42ee34a19923b82e65528020f799a8b7` Reader0/1/2（唯一MAJOR为旧provisional依赖）；修订406 `138d887a8618fb65b719cb5ad4c081be83f4bd73` 重新独立Pass A/B 0/0/2，Continuity/Style/Meaningful QA PASS，有效字3388；最终 `depends_on_source_sha: d8787c08cecd5c64916c0c51b2c27a8b93eaea12`，`dependency_status: verified_predecessor_body_identical`。F003现行外封真实在柜但内纸及真人回告未证。
+- GitHub候选结构CI必须针对精确提交成功后才能将ready推进main，未以Writer预检冒充Reader/QA。

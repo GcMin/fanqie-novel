@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 406
+title: "复水单上没有四楼的水"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "429c940e42ee34a19923b82e65528020f799a8b7"
+source_draft_sha: "138d887a8618fb65b719cb5ad4c081be83f4bd73"
+initial_review: reader_reviews/0406_429c940e.md
+reader_review: reader_reviews/0406_138d887a.md
+depends_on_chapter: 405
+depends_on_source_sha: "d8787c08cecd5c64916c0c51b2c27a8b93eaea12"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day267 20:31—Day268 20:12"
+summary: >-
+  Day267 20:31魏桂琴发现老槐巷八号楼主管网复水后四楼仍无水，原群19:02依据机组显示运行和18:42作业结束误写整栋正常，供水公司仅确认18:50主管网复压；三层以上二次供水设备未逐层验水。物业供瓶装水但来话人不认替代为修复，不公开父亲健康详情。21:49有权维护班实核二次供水出口压力不合格且检修下游隔离阀未复位，22:16受控回阀22:29压力稳，22:51魏桂琴本人确认四楼厨房及卫生间实际出水；23:19部分三四五楼受访户有出水，其他户未回应，检修后冲洗/水质结论仍待专业验，瓶装水不撤。Day268 11:06物业有责主管纠正原“全楼已恢复”误公告并保留源，不能宣称全楼可饮。旧档线承405 Day267 14:12只受理新申请：Day268 09:56范围答复10:38正式许可、11:17保管员双人真实核到2019转管与2021护套对照的一件现行外封包在柜、外封未见当次明显破损，11:17外封回柜，内部原2016单页不证；13:38限定摘录、14:13新查公开子件目录只受理。Day268 20:12夜班仅分项交接真人龙头恢复与现柜外封实物，不给自然人历史答复及水质代签。
+meaningful_state_changes:
+  - "发现检修后下游隔离阀未复位导致高区无水，Day267 22:51本人真核两处出水，次日原全楼误告限项更正，水质与未联系户仍待办。"
+  - "2016封存事项从目录指向推进至Day268 11:17现行一件外封包确实在柜，但旧原纸是否在内及自然人获答未证。"
+knowledge_updates:
+  - "魏桂琴只证本人两处龙头出水和旧错通知，不替父亲饮用、其他住户或水质专业验收作结论。"
+  - "罗经办马芸只知获准阅见的2019转管、2021护套及现行外封有责实核，不知旧内纸或当事人获答，也不知现代魏桂琴家庭工单。"
+relationship_updates:
+  - "魏桂琴要求物业回访和维持安全供水，拒绝被两瓶水与满意快捷项代签；罗经办谨守外封可见与内部未知的分界。"
+foreshadowing_updates:
+  - "F003增加2019移交索引/2021护套/Day268实物一件外封在柜，内件与真人获答仍无证；Day195旧窄片独立原封另两件分离，F008/M004/M005不证。"
+ending_state: "Day268 20:12高区若干住户实有出水但水质复检及未联系住户待审，旧原错留存；档案现行外封一件真在柜、旧原纸与自然人收答未知，新目录查询待审。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "429c940e42ee34a19923b82e65528020f799a8b7", final_draft_sha: "138d887a8618fb65b719cb5ad4c081be83f4bd73", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "3621690287c6ef3cda760b3634d1bebef3455e43", predecessor_ready_blob: "d8787c08cecd5c64916c0c51b2c27a8b93eaea12", predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3388

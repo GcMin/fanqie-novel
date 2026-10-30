@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 404
+last_updated_chapter: 406
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1532,3 +1532,14 @@ chapter_404_relations_verified:
   lost_property: "陈荔拒绝被系统提前宣称领包，由有责站方配合本人限定验物并保留旧假状态；中心不代车站或本人签字。"
   archive: "罗经办依自身可知的旧纸核办记录追问下一保管去向，马芸再次界定本项办结并非自然人收答；未伪造她知道蓝包案的消息渠道。"
   trust_scores_unchanged: true
+
+chapter_405_relations_verified:
+  chapter: 405
+  source_sha: "3621690287c6ef3cda760b3634d1bebef3455e43"
+  traffic: "许葭仅同意交警本次安全通行，反对街口设备验收转嫁给自己；专业维护班限项回告，中心不代填满意。"
+  archive: "罗经办经马芸和档案员提醒分开原纸页数与封袋件数，申请实际保管去向。"
+chapter_406_relations_verified:
+  chapter: 406
+  source_sha: "138d887a8618fb65b719cb5ad4c081be83f4bd73"
+  water: "魏桂琴拒用两瓶水或群绿格代整栋真修，物业依专业和本人有源核实，保护父亲健康隐私。"
+  archive: "罗经办马芸接受现行外封有责真实在柜与2016旧内纸未知的界限，不跨案获现代住户详情。"

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 404
+last_updated_chapter: 406
 characters:
   zhou_heng:
     knows:
@@ -1875,3 +1875,20 @@ chapter_404_shared_update:
   must_not_infer:
     - "站方过去假已领状态表示本人已到、其他站点及旧推送已全修好；罗经办未有信息来源可以知道现代陈荔蓝包案。"
     - "2016内部核办完毕就表示原来话人已领回告或通知渠道真实到达，实际具体缺项、旧原纸去向、F008/M004/M005仍未知。"
+
+chapter_405_shared_update:
+  chapter: 405
+  source_sha: "3621690287c6ef3cda760b3634d1bebef3455e43"
+  shared_known:
+    - "中心依法获证许葭21:43本次真过街、Day267 15:32西南角有声专业恢复；不能推其他三角统一修好。"
+    - "罗经办马芸依法只见2016-05-13 15:21封存事项和15:44岗位收封袋一件及现行汇交目录，14:12实物查询只受理。"
+  must_not_infer:
+    - "许葭同意公开住址、代验收或本人满意；封袋即旧回告原纸或旧人收答。"
+chapter_406_shared_update:
+  chapter: 406
+  source_sha: "138d887a8618fb65b719cb5ad4c081be83f4bd73"
+  shared_known:
+    - "中心分开街区主管网复压、泵房下游阀复位、Day267 22:51魏桂琴四楼两处实际出水与未归结水质。"
+    - "罗经办马芸Day268 11:17仅获2019转管/2021护套对应现行外封在柜一件实证，未获内件许可。"
+  must_not_infer:
+    - "四楼出水等于整栋可饮、未回复住户获水；现行外封即2016原纸或当事人收到回告；罗经办知道魏桂琴当代案件。"

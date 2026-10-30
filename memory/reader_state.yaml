@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 404
-last_reviewed_title: "东侧窗口有人等那只蓝布包"
-last_source_path: chapters/draft/0404.md
-last_source_sha: 97e21fafbcc124eed572c843ff865033d74a07c1
-last_review_path: reader_reviews/0404_97e21faf.md
+last_reviewed_chapter: 406
+last_reviewed_title: "复水单上没有四楼的水"
+last_source_path: chapters/draft/0406.md
+last_source_sha: 138d887a8618fb65b719cb5ad4c081be83f4bd73
+last_review_path: reader_reviews/0406_138d887a.md
 last_reviewed_at: "2026-10-31"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,13 +12,13 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 403
-depends_on_source_sha: 829f89ff24d8b9b36eb04bb1ce8ffdff1dce9194
+depends_on_chapter: 405
+depends_on_source_sha: d8787c08cecd5c64916c0c51b2c27a8b93eaea12
 dependency_status: verified_predecessor_body_identical
-predecessor_current_source_sha: 829f89ff24d8b9b36eb04bb1ce8ffdff1dce9194
+predecessor_current_source_sha: d8787c08cecd5c64916c0c51b2c27a8b93eaea12
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-original_source_sha: 416ab6d7846ae85bc1715a80be5bdd165e70144b
+original_source_sha: 429c940e42ee34a19923b82e65528020f799a8b7
 initial_review_path: reader_reviews/0404_416ab6d7.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
@@ -3000,4 +3000,33 @@ chapter_404_reader_20261031:
   corrected_issue: "重绑403正式ready并改掉罗经办无证知道夜间蓝包案的对白。"
   content_qa: pass
   proposed_ready_blob: "b0b3241c0960e5bcb9c40c10992d4fb9f9f002e9"
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_405_reader_20261031:
+  chapter: 405
+  original_sha: "3621690287c6ef3cda760b3634d1bebef3455e43"
+  final_source_sha: "3621690287c6ef3cda760b3634d1bebef3455e43"
+  review: reader_reviews/0405_36216902.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "b0b3241c0960e5bcb9c40c10992d4fb9f9f002e9"
+  content_qa: pass
+  proposed_ready_blob: "d8787c08cecd5c64916c0c51b2c27a8b93eaea12"
+  structural_gate: exact_candidate_commit_CI_required
+chapter_406_reader_20261031:
+  chapter: 406
+  original_sha: "429c940e42ee34a19923b82e65528020f799a8b7"
+  initial_review: reader_reviews/0406_429c940e.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "138d887a8618fb65b719cb5ad4c081be83f4bd73"
+  final_review: reader_reviews/0406_138d887a.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1}
+  body_revisions: 0
+  predecessor_original_draft_sha: "3621690287c6ef3cda760b3634d1bebef3455e43"
+  predecessor_ready_blob: "d8787c08cecd5c64916c0c51b2c27a8b93eaea12"
+  predecessor_body_identical: true
+  content_qa: pass
+  proposed_ready_blob: "199ed97824b380c834882a75ca192c90d63b5058"
   structural_gate: exact_candidate_commit_CI_required

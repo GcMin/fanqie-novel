@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 404
+current_chapter: 406
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0404.md
-current_source_sha: 97e21fafbcc124eed572c843ff865033d74a07c1
-current_review_path: reader_reviews/0404_97e21faf.md
+current_source_path: chapters/draft/0406.md
+current_source_sha: 138d887a8618fb65b719cb5ad4c081be83f4bd73
+current_review_path: reader_reviews/0406_138d887a.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,7 +12,7 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0403_0404_reader_stageA_newSHA_rereview_QA
+last_action: audit_0405_0406_reader_revision_newSHA_QA
 last_action_date: "2026-10-31"
 last_error: null
 last_diff_summary: "399原稿0/0/2无正文修订；400原稿0/1/2因前399临时依赖，经实际对照前章原草稿与正式ready故事全文逐字相同，仅重绑前章正式ready及详细章纲，新400草稿SHA 1e25148a Reader0/0/2；独立内容QA PASS，结构待精确候选CI。"
@@ -2482,4 +2482,33 @@ chapter_404_revision_20261031:
   predecessor_ready_blob: "829f89ff24d8b9b36eb04bb1ce8ffdff1dce9194"
   content_qa: pass
   proposed_ready_blob: "b0b3241c0960e5bcb9c40c10992d4fb9f9f002e9"
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_405_revision_20261031:
+  chapter: 405
+  original_sha: "3621690287c6ef3cda760b3634d1bebef3455e43"
+  final_source_sha: "3621690287c6ef3cda760b3634d1bebef3455e43"
+  final_review: reader_reviews/0405_36216902.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "b0b3241c0960e5bcb9c40c10992d4fb9f9f002e9"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_406_revision_20261031:
+  chapter: 406
+  original_sha: "429c940e42ee34a19923b82e65528020f799a8b7"
+  final_source_sha: "138d887a8618fb65b719cb5ad4c081be83f4bd73"
+  initial_review: reader_reviews/0406_429c940e.md
+  final_review: reader_reviews/0406_138d887a.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  corrected_issue: "经405旧draft与拟ready正文事实逐字同文仅交付字段改变，重绑406临时前章SHA到405正式ready，修订新SHA双遍Reader。"
+  predecessor_original_draft_sha: "3621690287c6ef3cda760b3634d1bebef3455e43"
+  predecessor_ready_blob: "d8787c08cecd5c64916c0c51b2c27a8b93eaea12"
+  content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

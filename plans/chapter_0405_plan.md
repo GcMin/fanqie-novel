@@ -13,10 +13,10 @@
 - pov: "夜间中心周衡、夏宁、梁策及街口来话人许葭有限第三人称；白班罗经办、马芸限于本人获准的档案信息"
 - target_effective_chars: 3000
 - actual_effective_chars: 3245
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 
 ## 开场状态与目标
 
@@ -49,3 +49,9 @@
 ## Writer Continuity Precheck（非独立QA）
 
 本轮实际从GitHub读取main `ec57e96fc3aef2de0ae80cc5652c018e560256c2`，核查published最大159且含0153、ready最大404、draft无数字章节；0405计划及正文不存在。读取AGENTS、config/novel.yaml、writing_roles、ai_reading_protocol、Bible四份及周衡夏宁梁策人物卡、旧volume_05与落后的arc_current.md（后者非ARC-054准确进度）、最新memory/current_arc、character/relationship/knowledge/world状态、timeline、foreshadowing、plan.csv、0395—0404十章摘要及0400—0404五章正文、0404详细计划；未读取历史reader_reviews。前404为已审核ready精确Blob，不以provisional标记。预检坚持时间Day266夜开始、Day267白班核查、各方权限与角色知识分离。仅新建0405章纲和draft，保留独立Reader/Revision/QA/Memory/Publish Gate后续处理，不改旧章、Canon或发布状态。
+
+
+## Audit 独立审核与交付记录｜2026-10-31
+- 原稿SHA `3621690287c6ef3cda760b3634d1bebef3455e43`，依赖前404正式ready `b0b3241c0960e5bcb9c40c10992d4fb9f9f002e9` 精确匹配，Reader独立Pass A/B 0/0/2；无需修订，正文不变。Continuity/Style/Meaningful QA PASS，有效字3245。
+- F003封袋仅有来源目录与保管指向，旧原纸及自然人获答未证。
+- GitHub候选结构CI必须针对精确提交成功后才能将ready推进main，未以Writer预检冒充Reader/QA。

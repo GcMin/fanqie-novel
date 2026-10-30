@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 405
+title: "绿灯亮着，她还在等声音"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "3621690287c6ef3cda760b3634d1bebef3455e43"
+source_draft_sha: "3621690287c6ef3cda760b3634d1bebef3455e43"
+reader_review: reader_reviews/0405_36216902.md
+depends_on_chapter: 404
+depends_on_source_sha: "b0b3241c0960e5bcb9c40c10992d4fb9f9f002e9"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day266 20:37—Day267 20:09"
+summary: >-
+  Day266 20:37许葭报告常春街北环路口西南角行人灯亮但提示音无输出，17:48旧完成工单只检供电和灯组。21:43有责交警征本人同意真协助到对面公交站牌，未代表设备修好；22:08专业检查西南角有电无音，22:46隔离和限项临管。Day267 14:16合法获批更换，15:32仅西南角按信号相位由有权岗位实核声音恢复，其他角各自验证；许葭拒以个人冒险验收、交住址或被代填满意，保留原错误完工来源。档案线承404 Day266 14:07申请，Day267 09:58范围答复10:36正式许可10:59合法见2016-05-13 15:21待补告知事项封存一件、15:44保管岗位收封袋一件，现行公开目录指市政工程资料中心汇交系列；封袋不等旧原纸一页，也不证实体尚存或自然人获答。13:27摘录14:12新实物登记/最近盘点查询仅受理。Day267 20:09夜班有限交接；Day195旧窄片仍原设施所独立柜原封，另外两件旧拆件分离。
+meaningful_state_changes:
+  - "21:43许葭真被协助安全过街与Day267 15:32西南角专业复核声音恢复分别获证，旧误工单保留。"
+  - "2016封袋公开归档及现行汇交方向第一次有源可追，但实体/原纸未知。"
+knowledge_updates:
+  - "许葭只同意一次现场安全协助和客观回告，拒充当设备验收员；夜间中心仅有权分源登记。"
+  - "罗经办马芸只知本人依法阅见的2016旧档目录，不知现代许葭路口事项。"
+relationship_updates:
+  - "来话人与有权交警、维护人员限定协作，不接受旁人喊绿灯代交通安全决定。"
+foreshadowing_updates:
+  - "F003新增2016-05-13 15:21临时封存事项及15:44封袋岗位收存，现代目录线索仅待实物核证，F008/M004/M005不证。"
+ending_state: "Day267 20:09西南角有声提示专业按相位复核恢复，其他角分开；2016封袋现行目录指向已证但原纸及自然人获答未知，14:12新申请待审。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "3621690287c6ef3cda760b3634d1bebef3455e43", final_draft_sha: "3621690287c6ef3cda760b3634d1bebef3455e43", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "b0b3241c0960e5bcb9c40c10992d4fb9f9f002e9"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3245
