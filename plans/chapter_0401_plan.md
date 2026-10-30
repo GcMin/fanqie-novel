@@ -13,9 +13,9 @@
 - pov: "夜间中心周衡、夏宁、梁策有限第三人称；白班马芸、罗经办有限第三人称"
 - target_effective_chars: 3000
 - actual_effective_chars: 3131
-- status: draft
-- qa: pending
-- publish_mode: draft
+- status: ready
+- qa: pass
+- publish_mode: ready
 
 ## 本章目标与开场
 
@@ -42,3 +42,6 @@
 ## Continuity Precheck（非 Reader/QA）
 
 本轮根据 GitHub main 3155fc3a2872676b5d3ed26e245c06b06c2b1f82 实际重新遍历 published/ready/draft：最高分别159/400/无数字稿；第153章存在于 published；下一不存在新章号401，计划401亦不存在。前章400已进入ready，其Git blob ee37c93be6eb5b03fbb88484512483e18155e4d5，故不是provisional。已按协议读取最新AGENTS/config/roles/reading protocol、Bible、三张主要人物卡、当前可用卷弧资料、Memory相关角色/知识/关系/世界/伏笔时间线、391—400十章摘要、396—400五章正文和当前400详纲；旧outlines/arc_current.md停在137草稿，实际ARC-054以近期已ready正文及正式Memory为优先。未读取历史reader_reviews。只创建本章计划和draft，不执行Reader、Revision、QA、Memory或Publish Gate。
+
+## Audit 2026-10-31验收记录
+- 正式ready前400 SHA `ee37c93be6eb5b03fbb88484512483e18155e4d5` 精确一致；原草稿 `af69235063d874b0bcdd680926498175e8b4d023` Reader双遍0/0/2，Continuity/Style/Meaningful PASS，正文无修改，拟ready `f5dfd69dc7fbeb03836d81582acb1c6733b93331`；需精确候选CI通过。

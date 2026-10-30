@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 402
+title: "人到了，纸却回去了"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "1d993c513a8e8e5bdf51973a527bd14eef7b0639"
+source_draft_sha: "918f7be05f5bd4ac1df13c12afd3faef6b18e6f7"
+initial_review: reader_reviews/0402_1d993c51.md
+reader_review: reader_reviews/0402_918f7be0.md
+depends_on_chapter: 401
+depends_on_source_sha: "f5dfd69dc7fbeb03836d81582acb1c6733b93331"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day263 20:47—Day264 20:17"
+summary: >-
+  Day263 20:47林晓芸与林秀枝质疑Day262 06:46真实登车被通知模板写行程完成。运营21:12核司机上传确为已登车，短信映错；22:06有权签柳溪新预约人工核点，22:29下发22:41仅本范围真实测试，南门仍封且前次东侧许可不得延续。Day264运营查Day262 07:19车到康复中心落客区，凭林秀枝限项同意11:02由接待岗独立核Day262 07:24本人实到，11:46本笔短信更正并保留旧错。罗经办马芸承401章Day263 14:11查旧窗口领取退回申请，经Day264 10:26正式许可11:07看到2016-05-13 08:38旧一页仍在待取位、09:14撤柜09:29原受理席内部实收一件；不知撤柜理由、是否原话人曾受通知或答复。Day264 14:06另申请公开撤柜理由类别与后续状态仅受理；窄片仍原所独立柜未开封，另外两件旧拆件不归并。20:17夜班仅据两份限定回告分栏。
+meaningful_state_changes:
+  - "林秀枝Day262 07:24本人实到得到Day264独立核证，本笔误把登车当完成的通知被纠正。"
+  - "2016-05-13旧窗口留置一件被真实撤柜、内部原受理席实收一件，外部实际获答仍未知。"
+knowledge_updates:
+  - "中心获限项到站与旧纸内撤实证，不能推病历、自然人旧答或永久接送路线。"
+relationship_updates:
+  - "林秀枝控制本人到站核查授权，女儿保留错短信证据；罗经办严格依马芸指导限定历史问题。"
+foreshadowing_updates:
+  - "F003新增2016-05-13撤柜内部交回，M004/M005仍未确证，F008没有新可靠样本。"
+ending_state: "Day264 20:17当代本人到站有源核实且新预约待逐单核点；2016旧纸内部回岗原因及外部领答未知；原封窄片仍原所独立柜。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1d993c513a8e8e5bdf51973a527bd14eef7b0639", final_draft_sha: "918f7be05f5bd4ac1df13c12afd3faef6b18e6f7", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "af69235063d874b0bcdd680926498175e8b4d023", predecessor_ready_blob: "f5dfd69dc7fbeb03836d81582acb1c6733b93331", predecessor_body_identical: true, proposed_ready_blob: "49b471fcd590d27d2e8b32e04197762e4a91c4f1"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3400

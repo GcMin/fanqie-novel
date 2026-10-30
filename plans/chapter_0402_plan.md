@@ -6,17 +6,17 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "a7f4266f05888c95ec3360982b5ec2ff6decdfba"
 - depends_on_chapter: 401
-- depends_on_source_sha: "af69235063d874b0bcdd680926498175e8b4d023"
-- dependency_status: provisional
+- depends_on_source_sha: "f5dfd69dc7fbeb03836d81582acb1c6733b93331"
+- dependency_status: verified_predecessor_body_identical
 - continuity_precheck: writer_precheck_only_not_editor_qa
 - timeframe: "Day263 20:47—Day264 20:17"
 - pov: "周衡、夏宁、梁策夜班有限第三人称；罗经办马芸档案白班及接送运营白班有限第三人称"
 - target_effective_chars: 3000
 - actual_effective_chars: 3400
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 
 ## 本章目标与临时开场边界
 第401章《纸上有待取，柜里有现物》在本轮读取时只有`chapters/draft/0401.md`，Git blob `af69235063d874b0bcdd680926498175e8b4d023`，未经独立Reader/QA，**仅作为provisional临时依赖而不是正式Canon**。其中Day263 15:08一件带旧红字现窄片实际由原设施所独立柜接收，原新站短托在Day263 16:00到期前真实终止；另外两件拆存物仍在原所其他位置。Day263 20:12夜班收有源回告。2016-05-12旧业务原受理席11:57收书面回告一页、12:23暂缓对外发出、14:36改“窗口留置待取”、15:02留置登记生效；Day263 14:11只申请实际领取/退回记录，状态待审。第400章正式ready中林秀枝于Day262 06:46在柳溪社区东侧真正登车，实际活动中心送达仍待有权查证，东侧临时许可只限当次06:15—07:00，南门施工仍封。
@@ -41,3 +41,7 @@
 - 在main `a7f4266f05888c95ec3360982b5ec2ff6decdfba`重新核published/ready/draft，最新章号为401且402不存在；只创建402的计划和首次draft。前章401尚为draft，按`depends_on_chapter: 401`和40位blob `af69235063d874b0bcdd680926498175e8b4d023`精确绑定，`dependency_status: provisional`，不得把上述401临时事实说成正式Canon。若后续401被Audit改动，由独立Audit复核本章衔接。
 - 本轮已读最新main AGENTS/config、writing_roles/ai_reading_protocol、Bible与主角卡、现行近期ARC-054正式Memory/章节、相关人物知识关系世界/伏笔时间线、近十章摘要0391—0400及五章完整正文0396—0400，后补并发401新正文、详纲；无历史reader_reviews。旧outlines/arc_current.md停在第137章ARC-044，不能覆盖当前ARC-054正式事实。
 - 仅Planner、Continuity Precheck、Writer；本正文为未审草稿，不做Editor/Reader/Revision/QA/Memory/Publish Gate，亦不修改既有章。
+
+
+## Audit 2026-10-31修订及验收记录
+- 上方Writer记录的临时401依赖仅为创作时历史；401原draft `af69235063d874b0bcdd680926498175e8b4d023` 与正式ready `f5dfd69dc7fbeb03836d81582acb1c6733b93331` 正文逐字相同。402 Stage A仅重绑前章正式ready SHA与详纲，正文0字变；新草稿 `918f7be05f5bd4ac1df13c12afd3faef6b18e6f7` 新Reader两遍0/0/2和独立QA PASS，拟ready `49b471fcd590d27d2e8b32e04197762e4a91c4f1`；必须精确CI通过才更新main。

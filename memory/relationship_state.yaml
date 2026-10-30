@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 400
+last_updated_chapter: 402
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1503,4 +1503,18 @@ chapter_400_relations_verified:
   source_sha: "1e25148a2ec6d6eb3ee07a182ecdb58459da82e3"
   night_center_public: "林秀枝拒绝被安排抬过施工沟，自主试轮椅接缝后登车；林晓芸帮助联系而不替母亲放弃自主权，施工/道路/车队各用有权实核代替物业猜测。"
   archive: "罗经办主动收窄为公开后续业务状态，马芸档案员指出暂缓发出不是永远没有通知也不等个人实际接听。"
+  trust_scores_unchanged: true
+
+chapter_401_relations_verified:
+  chapter: 401
+  source_sha: "af69235063d874b0bcdd680926498175e8b4d023"
+  asset: "主管需先通过独立柜及实际原封交接条件，不得把三件旧物并为2016同批。"
+  archive: "罗经办接受马芸劝导把无人通知改为仅本次限项无匹配外发登记。"
+  trust_scores_unchanged: true
+
+chapter_402_relations_verified:
+  chapter: 402
+  source_sha: "918f7be05f5bd4ac1df13c12afd3faef6b18e6f7"
+  family_service: "林秀枝本人限定授权仅核本次到站，林晓芸保存原错短信促运营纠错而不索病历。"
+  archive: "马芸纠正罗经办把窗口内撤误推无人领答的猜测，守开放字段。"
   trust_scores_unchanged: true

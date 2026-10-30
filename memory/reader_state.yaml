@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 400
-last_reviewed_title: "接人的车停在另一边"
-last_source_path: chapters/draft/0400.md
-last_source_sha: 1e25148a2ec6d6eb3ee07a182ecdb58459da82e3
-last_review_path: reader_reviews/0400_1e25148a.md
-last_reviewed_at: "2026-10-30"
+last_reviewed_chapter: 402
+last_reviewed_title: "人到了，纸却回去了"
+last_source_path: chapters/draft/0402.md
+last_source_sha: 918f7be05f5bd4ac1df13c12afd3faef6b18e6f7
+last_review_path: reader_reviews/0402_918f7be0.md
+last_reviewed_at: "2026-10-31"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
 required_action: none
@@ -12,14 +12,14 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 399
-depends_on_source_sha: cc77e4699761287f12a3a7e2e2825c4b8b0996f2
+depends_on_chapter: 401
+depends_on_source_sha: f5dfd69dc7fbeb03836d81582acb1c6733b93331
 dependency_status: verified_predecessor_body_identical
-predecessor_current_source_sha: cc77e4699761287f12a3a7e2e2825c4b8b0996f2
+predecessor_current_source_sha: f5dfd69dc7fbeb03836d81582acb1c6733b93331
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-original_source_sha: fe10596ca45c5f3fcbb6a5ecc3ba39ab896266b6
-initial_review_path: reader_reviews/0400_fe10596c.md
+original_source_sha: 1d993c513a8e8e5bdf51973a527bd14eef7b0639
+initial_review_path: reader_reviews/0402_1d993c51.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
 combined_audit_backfill:
@@ -2936,4 +2936,33 @@ chapter_400_reader_20261030:
   predecessor_body_identical: true
   proposed_ready_blob: "ee37c93be6eb5b03fbb88484512483e18155e4d5"
   content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_401_reader_20261031:
+  chapter: 401
+  original_sha: "af69235063d874b0bcdd680926498175e8b4d023"
+  final_source_sha: "af69235063d874b0bcdd680926498175e8b4d023"
+  review: reader_reviews/0401_af692350.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0}
+  predecessor_ready_blob: "ee37c93be6eb5b03fbb88484512483e18155e4d5"
+  content_qa: pass
+  proposed_ready_blob: "f5dfd69dc7fbeb03836d81582acb1c6733b93331"
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_402_reader_20261031:
+  chapter: 402
+  original_sha: "1d993c513a8e8e5bdf51973a527bd14eef7b0639"
+  initial_review: reader_reviews/0402_1d993c51.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "918f7be05f5bd4ac1df13c12afd3faef6b18e6f7"
+  final_review: reader_reviews/0402_918f7be0.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1}
+  body_revisions: 0
+  predecessor_original_draft_sha: "af69235063d874b0bcdd680926498175e8b4d023"
+  predecessor_ready_blob: "f5dfd69dc7fbeb03836d81582acb1c6733b93331"
+  predecessor_body_identical: true
+  content_qa: pass
+  proposed_ready_blob: "49b471fcd590d27d2e8b32e04197762e4a91c4f1"
   structural_gate: exact_candidate_commit_CI_required

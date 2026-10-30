@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 401
+title: "纸上有待取，柜里有现物"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "af69235063d874b0bcdd680926498175e8b4d023"
+source_draft_sha: "af69235063d874b0bcdd680926498175e8b4d023"
+reader_review: reader_reviews/0401_af692350.md
+depends_on_chapter: 400
+depends_on_source_sha: "ee37c93be6eb5b03fbb88484512483e18155e4d5"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day262 20:49—Day263 20:12"
+summary: >-
+  Day262 20:49新周转站系统退库显示已完成，但Day195旧红字窄片一件仍封在原柜，短托期限Day263 16:00；夜间中心不代资产审批。Day263 09:47原设施所独立柜合格，10:09有权批准单件转运，14:17新站真出库14:52车辆到达15:08原所独立柜真签收15:31三段回执核齐，在限期前结束新站短托；另外两件旧拆件在原所各自保存，不开封、不定三件历史同一、费用已付。罗经办马芸Day263承Day262 14:07新申请经10:04许可查2016-05-12 14:36原受理席窗口留置待取办理方式及15:02登记生效，本次开放同业务号外发索引未见匹配，仅限当次开放范围，不证所有渠道通知或自然人领取；Day263 14:11新申请窗口领取退回仅受理待审。20:12夜班只获有源两线回告。
+meaningful_state_changes:
+  - "Day263 15:08一件封存窄片转至原设施所独立柜真实签收，旧两件未动。"
+  - "2016-05-12 14:36窗口留置待取、15:02登记生效得到有限公开证据。"
+knowledge_updates:
+  - "罗经办马芸与夜班只知道受限历史旧纸留置与当代封袋真移交，不得断言原来话人是否获答。"
+relationship_updates:
+  - "资产主管接受单件分柜和有责保管核验，罗经办主动收窄对旧外发未匹配的结论。"
+foreshadowing_updates:
+  - "F003增加留置登记、外发范围阴性；F008/M004/M005不证，跨年旧物身份未知。"
+ending_state: "Day263 20:12旧窄片原所独立柜真接收封存，两件原所旧拆件分开；2016纸留置待取获证但领答未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "af69235063d874b0bcdd680926498175e8b4d023", final_draft_sha: "af69235063d874b0bcdd680926498175e8b4d023", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "ee37c93be6eb5b03fbb88484512483e18155e4d5", proposed_ready_blob: "f5dfd69dc7fbeb03836d81582acb1c6733b93331"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3131
