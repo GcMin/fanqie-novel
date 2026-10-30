@@ -13,10 +13,10 @@
 - pov: "周衡、夏宁、梁策当代夜班有限第三人称；罗经办、马芸白天依法阅档有限第三人称"
 - count_method: "Unicode非空白字符，含标点及分场符，不含Front Matter"
 - target_effective_chars: 3000
-- actual_effective_chars: 3422
-- status: draft
-- qa: pending
-- publish_mode: draft
+- actual_effective_chars: 3441
+- status: ready
+- qa: pass
+- publish_mode: ready
 
 ## 本章目标与开场
 
@@ -55,3 +55,7 @@
 - 以第396章正式结果为来源：旧台23:18实收、23:26待核索引，**不因下一页签收而推已给当事人回话**；高岩前章工资未到账、部分派车模板修复的范围继续保持，不虚构新业务全面完成。
 - 周衡、夏宁、梁策不得越权阅2016受限个人资料，须通过马芸罗经办日间合法有源摘录获知。道路有责者确认现实复开，夜班只从日间交接获结论。
 - 本轮仅新建本章章纲及draft，`status:draft`、`qa:pending`、`approved_at:null`、`publish_mode:draft`；不生成Reader/Revision/QA/Memory、ready或publish结果。标题长度及有效字数已在Writer侧预检，仍待独立Audit。
+
+## Audit审定记录（2026-10-30）
+- 397原稿9de83d08d999de535feb2f99d54110d93713fc6b Reader初审0/1/2；Day258夜晨间虚诺与实际次日下午回告冲突，Stage A只修1句以保晨间通行安全和Day259专业复开后回告。
+- 新草稿d887677453390d23d83c632d5977b1e07e9ad002 独立Reader双遍0/0/2及独立Continuity/Style/Meaningful QA PASS，3441字，拟ready f2f7d93ca6a9c9baf8d91949ba294a027a2fde5c。具体结构CI成功前不得宣称正式放行。
