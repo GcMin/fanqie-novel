@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 398
+last_updated_chapter: 400
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1488,4 +1488,19 @@ chapter_398_relations_verified:
   source_sha: "39557f7382c85cd5d5fd45fdd5e7e80bdfa9d7cb"
   elevator: "中心与持证维保/急救/消防分工救两人，物业不擅撬门、不代配送或医学事实签认；电梯持续停用。"
   archives: "罗经办要求纠正错误号码题头并保留原预览编号，马芸支持有权范围内逐行核源类别和岗位去向。"
+  trust_scores_unchanged: true
+
+chapter_399_relations_verified:
+  chapter: 399
+  source_sha: "3a906b9e42c7d8277c54e5903c95e0fa9239be80"
+  night_center_resident: "梅素琴责问预约屏为何示封停二号梯可接单，物业尊重她本人自主走一号梯而不代签满意；维护方在有权指令后真改住户端并给出有限纠错说明。"
+  archive: "罗经办愿承认旧材料实到一岗，马芸档案员及时提醒岗位收讫不等自然人收答，未要求超权限开放个人内容。"
+  asset: "资产经办人与新站有权人核封号柜位后按当期预算实际续托，区别报价/批准额度与实物交接、付款。"
+  trust_scores_unchanged: true
+
+chapter_400_relations_verified:
+  chapter: 400
+  source_sha: "1e25148a2ec6d6eb3ee07a182ecdb58459da82e3"
+  night_center_public: "林秀枝拒绝被安排抬过施工沟，自主试轮椅接缝后登车；林晓芸帮助联系而不替母亲放弃自主权，施工/道路/车队各用有权实核代替物业猜测。"
+  archive: "罗经办主动收窄为公开后续业务状态，马芸档案员指出暂缓发出不是永远没有通知也不等个人实际接听。"
   trust_scores_unchanged: true

@@ -1,0 +1,43 @@
+schema_version: 1
+chapter: 399
+title: "回到窗口的只有一页纸"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "3a906b9e42c7d8277c54e5903c95e0fa9239be80"
+source_draft_sha: "3a906b9e42c7d8277c54e5903c95e0fa9239be80"
+reader_review: reader_reviews/0399_3a906b9e.md
+depends_on_chapter: 398
+depends_on_source_sha: "56ad8e536620f927f263fdf86257f28847073fd4"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day260 20:46—Day261 20:14"
+summary: >-
+  Day260 20:46霁河小区封停的二号梯依然由预约模块显示“等待接驾”，梅素琴在八楼厅外空等并非再次被困。物业先核一号梯当下可用，21:19本人和物品真实到达一楼。21:37维护方确认预约模块仍把供电恢复误当可接单，而维保封停没有同步；22:03物业经理有权限本栋二号梯暂停预约，22:26维护方实际下配置，22:41在住户本人同意下通过住户侧入口复测二号梯不可预约而一号梯仍可选，本人获有限回告，设备仍须专业完整复测与恢复许可。Day261罗经办马芸承Day260 14:28历史申请，09:52只得范围答复，10:22获新正式限项许可，11:06依法见2016-05-12 11:57原受理席岗位实际收讫一页“书面回告材料”，正文、对外传递、自然人收答及电话等均未开放，14:09就下一公开办理状态和有无对外传递仅递新申请待审。Day195带旧红字窄片一件在新周转站原柜原封原定Day261 16:00到期，Day261 14:27报价540元14:55批准600元上限不等实付，15:17和15:29双方有权人核封号柜位，15:38真续托两日到Day263 16:00；两件旧拆件仍原设施所，历史同物或旧字作者均未鉴。Day261 20:14夜间中心仅有源获限项回告，不把历史岗位接一页写为原来话人收到答复。
+meaningful_state_changes:
+  - "霁河二号梯错误预约入口经授权真实暂停并在住户侧验证，梅素琴经正常一号梯21:19实际下楼；二号梯设备继续封停。"
+  - "2016-05-12 11:57原受理席真实收讫一页书面回告材料获合法公开证据，不再只停留在原受理来源的岗位去向要求。"
+  - "Day261 15:38现封窄片在16:00到期前取得两有权主体真正续托至Day263 16:00，另两件不移交。"
+knowledge_updates:
+  - "罗经办马芸依新许可仅知历史岗位收一页及材料类别，未看到正文、自然人身份或对外发出凭证；夜班从有源白班限项摘要获知。"
+  - "梅素琴与物业知预约入口暂禁二号梯不等于设备可复用；资产经办知600元仅预算额度与真实有权托管分开。"
+relationship_updates:
+  - "梅素琴拒为错误预约给满意度并自主选择一号梯，物业承认错入口、保留原记录并向本人作准确回告。"
+  - "罗经办听马芸与档案岗的纠正将回告已到精确收束为原受理席岗位收一页，而不替原来话人签收。"
+foreshadowing_updates:
+  - "F003新增2016-05-12 11:57原受理席书面回告材料一页实际收讫；正文、对外投递、本人获答及里侧技术复核均不证，F008/M004/M005无新确证。"
+ending_state: "Day261 20:14霁河预约入口仅本栋二号梯停约且设备继续封停，2016旧原受理席收一页有证而后续发出登记新申请未获准，Day195窄片一件原封续托至Day263 16:00，两旧件原设施所。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace:
+  original_sha: "3a906b9e42c7d8277c54e5903c95e0fa9239be80"
+  final_draft_sha: "3a906b9e42c7d8277c54e5903c95e0fa9239be80"
+  initial_counts: "0/0/2"
+  final_counts: "0/0/2"
+  stage_a_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "56ad8e536620f927f263fdf86257f28847073fd4"
+  predecessor_factual_delta: none_exact_ready_blob
+  proposed_ready_blob: "cc77e4699761287f12a3a7e2e2825c4b8b0996f2"
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3664

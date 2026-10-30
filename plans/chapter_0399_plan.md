@@ -13,9 +13,9 @@
 - pov: "周衡、夏宁、梁策夜间有限第三人称；罗经办与马芸白班有限第三人称"
 - target_effective_chars: 3000
 - actual_effective_chars: 3664
-- status: draft
-- qa: pending
-- publish_mode: draft
+- status: ready
+- qa: pass
+- publish_mode: ready
 
 ## 本章目标、开场与角色欲望
 
@@ -43,3 +43,9 @@
 - 398为ready，依赖其完整Git Blob 56ad8e536620f927f263fdf86257f28847073fd4，dependency_status=verified_exact_ready_blob而非provisional；前章二号梯仍停用，Day260 14:28回告收件申请仅待审，Day261 16:00实物保管到期前需有责续托。
 - 2016历史文书时间和当代Day261现场时序分离；罗经办没有原来话人身份/电话、业务未开放内页、未知旧技术结论。
 - 仅创建章纲/新draft；不读取历史reader_reviews，不做独立Reader、Revision、QA、Memory或发布；本章待Audit审。
+
+## 2026-10-30 Audit正式交付记录
+- 本章原草稿 `3a906b9e42c7d8277c54e5903c95e0fa9239be80` 独立Reader Pass A后Pass B 0/0/2，未修正文；单独Continuity/Style/Meaningful QA PASS，见 `reader_reviews/0399_3a906b9e.md`、`qa/0399_report.md`。
+- 前章398已ready，精确依赖Blob `56ad8e536620f927f263fdf86257f28847073fd4`；拟交付ready Blob `cc77e4699761287f12a3a7e2e2825c4b8b0996f2` 仅Front Matter更动，正文逐字不变；3664有效字。
+- 2016-05-12 11:57一页书面回告材料仅原受理席岗位实收，Day261 15:38旧封窄片续托单件至Day263 16:00；不证原来话人答复或现物历史同一。
+- 真正ready以精确候选Commit结构CI SUCCESS且非强制fast-forward合入main为准；本附注不替代结构校验。

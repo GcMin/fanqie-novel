@@ -1,0 +1,45 @@
+schema_version: 1
+chapter: 400
+title: "接人的车停在另一边"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "fe10596ca45c5f3fcbb6a5ecc3ba39ab896266b6"
+source_draft_sha: "1e25148a2ec6d6eb3ee07a182ecdb58459da82e3"
+initial_review: reader_reviews/0400_fe10596c.md
+reader_review: reader_reviews/0400_1e25148a.md
+depends_on_chapter: 399
+depends_on_source_sha: "cc77e4699761287f12a3a7e2e2825c4b8b0996f2"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day261 20:33—Day262 20:17"
+summary: >-
+  Day261 20:33林晓芸为轮椅母亲林秀枝来电，次晨06:40合法预约接送车仍显示柳溪社区南门，但南门坡道出口被管沟围挡，司机转述的北口装卸斜坡不适合手推轮椅、工地便道不供公众。中心仅协调不替有责部门批准。21:38有责道路和施工值守现场核北口不可行，22:06道路管理岗测得东侧小广场限定本单06:15—07:00可作临时接送位并调整施工清运等待区；车队22:31另核车身升降板方向并实际改本单至东侧。Day262 05:56物业先查雨后现场，06:08有责道路岗复核通行净宽和围隔，林秀枝06:22自行检查接缝、06:37车到专业核升降板，06:46母女轮椅确实实上车，但到达活动中心未核、南门仍封且其他同类预约不自动修复。Day262罗经办马芸承第399章Day261 14:09申请，09:19得限项范围答复10:07新正式许可10:48依法见旧2016-05-12 11:57原受理席收书面回告一页后12:23本笔公开状态“对外回告方式待核；暂缓本笔对外发出登记”，仅证当时本笔业务不证全天其他路径、自然人后来是否获答或有无真实电话；13:16领摘录14:07新查后续公开发出登记仅受理待审。旧Day195窄片单件新周转站原封到Day263 16:00，另外两旧拆件仍原设施所。Day262 20:17夜班仅有限记录本人实际登车与历史本笔一时暂缓，不替人物、设备或旧纸签终局。
+meaningful_state_changes:
+  - "林秀枝在合法限定东侧临时接送位自愿通过无障碍通道并于Day262 06:46实际登车，避免南门围隔和北口不安全坡道；终点送达未知。"
+  - "2016原受理席11:57真收一页后12:23公开记本笔对外回告方式待核及暂缓发出登记，后续是否发出新申请仅受理待审。"
+knowledge_updates:
+  - "林晓芸林秀枝及运营方知道本单合法东侧临时位置，知道南门仍封、北口不合轮椅条件；上车不等到达或全局路线改正。"
+  - "罗经办马芸和夜班仅在有权摘录范围知道旧业务12:23暂缓，不知道材料正文、原来话人实际获答、其他渠道或后续结果。"
+relationship_updates:
+  - "林秀枝保有自主决定尝试道路与拒绝被人抬过沟的权利，物业道路岗与车队各守责任；林晓芸在真实改点后与母亲完成当次上车。"
+  - "罗经办从假定最后一定是电话改为要求查公开的对外办理时点，马芸提醒暂缓不等终局，未越权阅受限发送凭据。"
+foreshadowing_updates:
+  - "F003新增旧2016-05-12 12:23本笔对外方式待核、暂缓发出登记状态；无法证明未来一直不发或他人已经收话，F008/M004/M005未确证。"
+ending_state: "Day262 20:17林秀枝06:46已实登本次东侧临时改点无障碍车、是否到活动中心未证且南门围挡仍在；旧2016原受理席一页回告11:57收12:23本笔暂缓、后续发出登记申请待审；封存窄片到Day263 16:00。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace:
+  original_sha: "fe10596ca45c5f3fcbb6a5ecc3ba39ab896266b6"
+  final_draft_sha: "1e25148a2ec6d6eb3ee07a182ecdb58459da82e3"
+  initial_counts: "0/1/2"
+  final_counts: "0/0/2"
+  stage_a_used: 1
+  body_revisions: 0
+  corrected_issue: "前399临时稿依赖，经正文逐字比对兼容后只重绑399正式ready SHA与详细章纲；400正文不变，新SHA独立Pass A/B复审。"
+  predecessor_original_draft_sha: "3a906b9e42c7d8277c54e5903c95e0fa9239be80"
+  predecessor_ready_blob: "cc77e4699761287f12a3a7e2e2825c4b8b0996f2"
+  predecessor_body_identical: true
+  proposed_ready_blob: "ee37c93be6eb5b03fbb88484512483e18155e4d5"
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3697

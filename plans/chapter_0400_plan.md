@@ -6,16 +6,16 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "e7b164813b2da1caa02c4dcec19f2324c82cc40b"
 - depends_on_chapter: 399
-- depends_on_source_sha: "3a906b9e42c7d8277c54e5903c95e0fa9239be80"
-- dependency_status: provisional
+- depends_on_source_sha: "cc77e4699761287f12a3a7e2e2825c4b8b0996f2"
+- dependency_status: verified_predecessor_body_identical
 - continuity_precheck: passed_by_writer_precheck_not_QA
 - timeframe: "Day261 20:33—Day262 20:17"
 - pov: "周衡、夏宁、梁策夜班有限第三人称；罗经办与马芸白班有限第三人称"
 - target_effective_chars: 3000
 - actual_effective_chars: 3697
-- status: draft
-- qa: pending
-- publish_mode: draft
+- status: ready
+- qa: pass
+- publish_mode: ready
 
 ## 章节目标与开场
 
@@ -45,3 +45,10 @@
 - 读取本轮AGENTS、config、写作与读取协议、Bible、3名主角卡、现有卷弧材料、相关Memory人物/知识/关系/世界/伏笔时间线、最近10章概要、最近5章真实正文。没有读取历史reader_reviews。
 - 第399章是 `chapters/draft/0399.md`，其 Git Blob `3a906b9e42c7d8277c54e5903c95e0fa9239be80`；用其事实作**provisional**连续性参考，正文/章纲同步绑定SHA，不能把399的暂定日期和结果升级为Canon。若独立Audit后来改动399，后章由Audit检查与修订，不由本Writer更改旧章。
 - 夜班只能从白班有权限限项摘录了解历史资料；真实道路管理岗批准接送范围、车队决定车辆上客、家属和乘客决定是否接受，中心不越权放行道路或诊断。只新建章纲和draft，不做Reader、Revision、QA、Memory和Publisher。
+
+## 2026-10-30 Audit修订及重新审查记录（取代前述Writer创作时暂定依赖）
+- Writer创建本章时399尚为draft `3a906b9e42c7d8277c54e5903c95e0fa9239be80`，上方Writer原始precheck仅保留为历史审计，不是当前已审定状态。
+- 第399章经独立Reader/QA审定，原稿 `3a906b9e42c7d8277c54e5903c95e0fa9239be80` 与正式ready `cc77e4699761287f12a3a7e2e2825c4b8b0996f2` 的**小说正文完全相同**，只改变Front Matter交付字段；相关Day261 20:14事实无差异。
+- 第400章原稿 `fe10596ca45c5f3fcbb6a5ecc3ba39ab896266b6` 初始Reader Pass A/B为0/1/2，唯一MAJOR指向前章临时依赖。Stage A仅更新Front Matter依赖和本详纲字段为 `depends_on_source_sha: cc77e4699761287f12a3a7e2e2825c4b8b0996f2`、`dependency_status: verified_predecessor_body_identical`；本章故事正文零字改动。
+- 真实修订后draft Blob `1e25148a2ec6d6eb3ee07a182ecdb58459da82e3`，对**此SHA**独立重新Pass A、Pass B，0/0/2；Review `reader_reviews/0400_1e25148a.md`；Continuity/Style/Meaningful QA PASS，`qa/0400_report.md`，3697有效字。
+- 拟ready Blob `ee37c93be6eb5b03fbb88484512483e18155e4d5`。只有精确候选Commit CI结构校验成功且main非强制fast-forward才正式放行；不能把原始Writer审前记录当现行证据。
