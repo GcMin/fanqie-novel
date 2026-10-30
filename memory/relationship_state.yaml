@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 409
+last_updated_chapter: 410
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1561,4 +1561,11 @@ chapter_409_relations_verified:
   source_sha: "2bf3855c9909fa5f8439756553247849381df4d2"
   parking: "谢棠拒交工作排班和被代填满意，要求有权专业实际放车并保留原假离场及真实取车时点；中心物业运营各司其职。"
   archive: "罗经办遵马芸与档案员提醒，只把2018外封签收当岗位节点，继续申请下一公开记录，不越权猜旧人是否获答。"
+  trust_scores_unchanged: true
+
+chapter_410_relations_verified:
+  chapter: 410
+  source_sha: "835d5bce40168f2bae7d0729ac2ce4ad03519ccc"
+  childcare: "姜芮坚守实际看护并拒错误清场；刘姐与有责电气岗依法改票；吴芸由本人核验亲领，不授权舅舅代接，吴朵不为错误系统背负迟走责任。"
+  archive: "罗经办接受马芸约束：2018外识别条维护不是内件检查也不能替当年自然人签答复，按许可另查下一节点。"
   trust_scores_unchanged: true

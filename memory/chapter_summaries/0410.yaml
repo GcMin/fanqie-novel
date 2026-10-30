@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 410
+title: "孩子还在等，名单已经清零"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "ec0758903d6fcf1dee512285dd58362f56f095e4"
+source_draft_sha: "835d5bce40168f2bae7d0729ac2ce4ad03519ccc"
+initial_review: reader_reviews/0410_ec075890.md
+reader_review: reader_reviews/0410_835d5bce.md
+depends_on_chapter: 409
+depends_on_source_sha: "72cf6235092eed2ac2d50d1ae0ac005cdc3ef3ef"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day271 20:43—Day272 20:14"
+summary: >-
+  Day271 20:43姜芮报告青禾街少年夜读室平台20:30场次关闭被误映全部接离，但孩子吴朵仍在有责人员看护下待母亲接领，另十一人有实际签领。21:00原拟二楼配电切换，21:13有责电气/街道现场核仍有人并依法限项改工作票，二楼保持照明；21:06自称舅舅虽被孩子认得却无登记监护人代接授权，未放人。21:27母亲吴芸用真实联系渠道说明本人来接，21:46有权现场核验21:52本人真签领吴朵，系统原假时间留存且不公开儿童隐私。Day272 09:25发现预约闭场映接领完成，10:12本场停自动错映，10:48受控字段复测，不推全场馆全面修复。F003档案线承409章Day271 14:24新申请只受理，Day272 09:51范围答复10:37正式许可11:09依法核2018-12-03外封一件在位和外识别条脱胶重贴，仅外观维护；14:11新查之后到2019转管公开节点只收件。2016内纸是否在封和旧自然人获答仍未知。20:14中心有源交班。
+meaningful_state_changes:
+  - "平台错误全员接离而吴朵仍在场的风险通过有责改配电工作票与21:52母亲真人签领而有实际结果；本场错误映射限项停止。"
+  - "F003增2018-12-03外封一件巡柜与外识别条维护节点，不等内封已开、2016原纸在袋或原来话人已获答。"
+knowledge_updates:
+  - "夏宁周衡梁策仅按有责回告知21:13限项改电票和21:52真实母亲接孩子，不公开家庭照片/通勤路线或认为全场馆整改完毕。"
+  - "罗经办马芸只在正式许可内知道外封件数和外识别条维保，不知吴朵当代夜案、旧封内页或真人获答。"
+relationship_updates:
+  - "姜芮坚持照看未接走孩子、刘姐与电气岗按工作票安全办理，吴芸自主确认本人接领且不授权舅舅代签。"
+  - "罗经办依马芸与档案员指导，把外识别条维护与内封纸本/自然人受答分层。"
+foreshadowing_updates:
+  - "F003在2018-11-17外封接收后新增2018-12-03在柜一件及标识条维护；不推2016原回告原页、历史机制或真人收答。Day195窄片独立柜两旧拆件分开，F008/M004/M005不证。"
+ending_state: "Day272 20:14吴朵前夜21:52由母亲真正接走，二楼限项改票且本场假接离机制受限停用；历史2018外封外签维护有源，内页/原人回告未知，下一节点查询申请待审。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ec0758903d6fcf1dee512285dd58362f56f095e4", final_draft_sha: "835d5bce40168f2bae7d0729ac2ce4ad03519ccc", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "2bf3855c9909fa5f8439756553247849381df4d2", predecessor_ready_blob: "72cf6235092eed2ac2d50d1ae0ac005cdc3ef3ef", predecessor_body_identical: true, proposed_ready_blob: "95a12c9da13bf714fbf895292aa0cd753cf18fd1"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3800

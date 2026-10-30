@@ -6,17 +6,17 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "033c0c05478218d346afb4b61b043f6c0256faa1"
 - depends_on_chapter: 409
-- depends_on_source_sha: "2bf3855c9909fa5f8439756553247849381df4d2"
-- dependency_status: provisional
+- depends_on_source_sha: "72cf6235092eed2ac2d50d1ae0ac005cdc3ef3ef"
+- dependency_status: verified_predecessor_body_identical
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: "Day271 20:43—Day272 20:14"
 - pov: "周衡、夏宁、梁策有限视角；罗经办与马芸仅在正式许可内合法查历史外封档案"
 - target_effective_chars: 3200
 - actual_effective_chars: 3800
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 
 ## 目标与开场
 - Day271晚青禾街少年夜读室平台把预约场次结束误写成全员接离，吴朵本人却仍在有责人员照看下等待母亲。二楼21:00拟进行配电切换，错误空室结论可能导致不安全操作。以真实人员清点与授权交接消解这一现实风险。
@@ -38,10 +38,16 @@
 - 罗经办马芸只知合法档案字段，不知道吴朵个案；吴朵、吴芸及夜间中心均不知未经公布的档案内件与个人隐私。
 
 ## 连续性预检与依赖边界
-- 本轮按GitHub main实际树确定published 1—159、ready 160—408、draft 409，原第153章确在published。第409章仍为未审稿，依赖精确Git blob `2bf3855c9909fa5f8439756553247849381df4d2`，dependency_status为provisional；其2018-11-17 16:06接收节点和Day271 14:24新申请仅作临时参考，不能上升正式Canon。
+- 本轮按GitHub main实际树确定published 1—159、ready 160—408、draft 409，原第153章确在published。原Writer预检时第409章尚为临时稿；现409已经实际独立Reader及QA并通过精确候选CI进入ready。原409 draft与正式ready故事正文逐字相同，唯一变动为Front Matter；410经Audit的Stage A重绑409正式ready SHA，2018-11-17 16:06有源接收节点及Day271 14:24新申请已是409核证事实。
 - 已阅读当前AGENTS、novel配置、Writer及阅读协议，Bible与人物卡、卷/弧现有文件，Character/Relationship/Knowledge/World、F003与时序，399—408摘要、405—409完整正文。原卷/arc_current大纲较实章滞后，优先维护已ready硬事实并明确409临时依赖；未读取任何历史reader_reviews。
 - 第409章谢棠四号架22:13真取车、后续申诉只受理，与本章新场地无交叉；前章单件旧外封2018接收证据不等旧纸和当事人回话。
 - 本章不对过往草稿、Canon、长期Memory、QA或发布状态做任何写入。
 
 ## 收尾与审计状态
 结尾两线只记录21:52监护人实际接领及2018外签维护的有限事实。目标2600—3400非空白有效字符，实计3800；新正文status:draft、qa:pending、approved_at:null、publish_mode:draft，待独立审核。
+
+## Audit Stage A及最终QA｜2026-10-31
+
+- 410原draft `ec0758903d6fcf1dee512285dd58362f56f095e4` Reader 0/1/2，唯一MAJOR是依赖409临时草稿 `2bf3855c9909fa5f8439756553247849381df4d2`。实核409草稿与ready `72cf6235092eed2ac2d50d1ae0ac005cdc3ef3ef` 正文逐字相同，仅交付Front Matter不同。
+- Stage A只修正本章前章依赖及此章纲的状态，不修改410小说正文。新draft Git Blob `835d5bce40168f2bae7d0729ac2ce4ad03519ccc` 重新独立Pass A/B 0/0/2，旧Reader不得复用；有效Reader `reader_reviews/0410_835d5bce.md`。
+- Continuity/Style/Meaningful QA PASS，`qa/0410_report.md`，候选ready Blob `95a12c9da13bf714fbf895292aa0cd753cf18fd1`。结构必须在精确候选Commit CI真实SUCCESS后才可进main ready。

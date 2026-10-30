@@ -1,13 +1,13 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 409
+current_chapter: 410
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0409.md
-current_source_sha: 2bf3855c9909fa5f8439756553247849381df4d2
-current_review_path: reader_reviews/0409_2bf3855c.md
+current_source_path: chapters/draft/0410.md
+current_source_sha: 835d5bce40168f2bae7d0729ac2ce4ad03519ccc
+current_review_path: reader_reviews/0410_835d5bce.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
@@ -2550,5 +2550,24 @@ chapter_409_revision_final:
   replan_rewrite_used: 0
   body_revisions: 0
   predecessor_ready_blob: "9e839e42e7ea67fef1a7c9943d915245187cc744"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_410_revision_final:
+  chapter: 410
+  original_sha: "ec0758903d6fcf1dee512285dd58362f56f095e4"
+  final_sha: "835d5bce40168f2bae7d0729ac2ce4ad03519ccc"
+  initial_review: reader_reviews/0410_ec075890.md
+  final_review: reader_reviews/0410_835d5bce.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  corrected_issue: "409 provisional前章与正式ready正文逐字相同，仅重绑410 Front Matter和详纲，410小说正文未改，新SHA重新独立双遍Reader。"
+  predecessor_draft_sha: "2bf3855c9909fa5f8439756553247849381df4d2"
+  predecessor_ready_blob: "72cf6235092eed2ac2d50d1ae0ac005cdc3ef3ef"
+  predecessor_body_identical: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
