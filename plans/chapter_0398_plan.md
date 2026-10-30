@@ -6,21 +6,21 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "d03d3c9e9db6b0a8b03f51db2d4e60ae9e63fced"
 - depends_on_chapter: 397
-- depends_on_source_sha: "9de83d08d999de535feb2f99d54110d93713fc6b"
-- dependency_status: provisional
+- depends_on_source_sha: "f2f7d93ca6a9c9baf8d91949ba294a027a2fde5c"
+- dependency_status: verified_predecessor_body_delta_compatible
 - continuity_precheck: passed_by_writer_precheck_not_QA
 - timeframe: "Day259 20:51—Day260 20:12"
 - pov: "夜班周衡、夏宁、梁策；日间罗经办、马芸有限第三人称"
 - count_method: "Unicode非空白字符，含标点和分场符，不含Front Matter"
 - target_effective_chars: 3000
 - actual_effective_chars: 3624
-- status: draft
-- qa: pending
-- publish_mode: draft
+- status: ready
+- qa: pass
+- publish_mode: ready
 
 ## 目标与开场
 
-前章0397在 chapters/draft/0397.md，其完整Blob 9de83d08d999de535feb2f99d54110d93713fc6b。Day259 20:22上一章结束：桃岸路人行盖板按Day259 17:09实际验收复开并17:28真向田女士回告；2016-05-12 07:52岗位交出、08:06白班实际接收、09:17提出核原受理来源。Day259 14:06仅提交原受理来源核验系列限项申请，范围待审，不能预设核验已实施或电话真实回拨。Day195带红字窄片一件新周转站原封到Day261 16:00，其余两件旧拆件在原设施所。前章仍仅为draft时，以上前章内容是provisional，严禁把其临时草稿当正式Canon。
+前章0397经独立审核后拟归档为 chapters/ready/0397.md，其完整Blob f2f7d93ca6a9c9baf8d91949ba294a027a2fde5c。Day259 20:22上一章结束：桃岸路人行盖板按Day259 17:09实际验收复开并17:28真向田女士回告；2016-05-12 07:52岗位交出、08:06白班实际接收、09:17提出核原受理来源。Day259 14:06仅提交原受理来源核验系列限项申请，范围待审，不能预设核验已实施或电话真实回拨。Day195带红字窄片一件新周转站原封到Day261 16:00，其余两件旧拆件在原设施所。最初Writer引用的前章曾属provisional；Audit已对比397旧原稿和新审定稿，唯一正文差异是Day258夜错误晨间回告承诺被修正；Day259 17:09复开17:28真人回话不变，与398兼容。
 
 本章目标是让具体职业行动先解救真正被困者，并在依法限阅后首次查清2016那项“核原受理来源”是否有真实动作、查到的来源类别及回告去向；不把纸面去向等同电话接通。
 
@@ -48,7 +48,11 @@ F003由“岗位接纸后拟核来源”推进为2016-05-12 10:26确有核对动
 ## Continuity Precheck（仅Writer，不是QA）
 
 - 本轮已实时从 published、ready、draft 树列取最大数字397，第153章已存在，第398章两目标路径尚未存在，仅可新建398。
-- 第397章来源 chapters/draft/0397.md blob 9de83d08d999de535feb2f99d54110d93713fc6b；依赖状态provisional。前章未审，本文前章事实仅作临时叙事前提，待独立审核核对其最终改动。
+- 第397章审定来源 chapters/ready/0397.md blob f2f7d93ca6a9c9baf8d91949ba294a027a2fde5c；依赖状态verified_predecessor_body_delta_compatible。Day258夜错误晨间回告已修正，本章只依赖Day259 17:28真实回告，事实兼容。
 - 时间由Day259 20:22顺接Day259 20:51并跨Day260；区别救援22:38与Day260医疗/设施工作，历史2016资料获准查验时间及地点不与当代事件混写。
 - 不读取历史reader_reviews，不更改既有章节，不做Reader/Revision/QA/Memory/Publish Gate。
 - 目标正文status:draft、qa:pending、approved_at:null、publish_mode:draft，独立Audit尚待执行。
+
+## Audit审定记录（2026-10-30）
+- 原稿7646331b85cdbe246d929c8758af1492fdd3d63c Reader初审0/1/2，唯一MAJOR为397旧原稿provisional依赖。
+- Stage A仅更新依赖和本详纲，0398小说正文0字改动，新草稿39557f7382c85cd5d5fd45fdd5e7e80bdfa9d7cb。新SHA独立Reader双遍0/0/2、独立QA PASS，3624字；拟ready 56ad8e536620f927f263fdf86257f28847073fd4。精确候选CI仍须验证。
