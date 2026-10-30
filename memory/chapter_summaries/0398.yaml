@@ -1,0 +1,43 @@
+schema_version: 1
+chapter: 398
+title: "回告栏里留的是岗位"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "7646331b85cdbe246d929c8758af1492fdd3d63c"
+source_draft_sha: "39557f7382c85cd5d5fd45fdd5e7e80bdfa9d7cb"
+initial_review: reader_reviews/0398_7646331b.md
+reader_review: reader_reviews/0398_39557f73.md
+depends_on_chapter: 397
+depends_on_source_sha: "f2f7d93ca6a9c9baf8d91949ba294a027a2fde5c"
+dependency_status: verified_predecessor_body_delta_compatible
+timeframe: "Day259 20:51—Day260 20:12"
+summary: >-
+  Day259 20:49霁河小区二号梯机房供电恢复误标设备在线故障解除，20:51物业实报两名被困者蒲叔冯渡与老人呼吸不适；中心依法转持证维保、消防、急救，物业不撬门，21:47专业维保实际到场22:19有责受控施救，22:38冯渡及蒲叔由专业人员真脱困，急救接手评估，未授权人不签正常诊断。设备仍挂停用牌，Day260 16:34维保书面坚持门锁部件处理完整复测与有权许可才可重新运行，供电绿格绝不证已安全复开；冯渡配送凭本人和原平台实际证明、中心不代签按时。Day260罗经办马芸续Day259 14:06受理核原受理来源申请，09:58获范围答复10:32正式限阅批准11:07合法见2016-05-12独立原受理来源核验系列：10:26同笔来源索引确实开始核对，10:41核得对应西端临时联络台纸面转告来源类别，要求回告原受理席只为公开岗位去向，不是个人电话或证明已送达；13:46纠错“原始回拨号码已核”虚假预览标题并留源编号，14:28新申请查原受理席真实收件索引只受理待审。Day260 20:12夜班只收有源摘录与停梯实况；旧Day195窄片一件新周转站原封到Day261 16:00两旧件原设施所，历史跨年同物旧字作者沈家私人票与F008/M004/M005都未证。
+meaningful_state_changes:
+  - "霁河二号梯两名乘客真实安全脱困但设备仍由持证维保封停，纠正机房供电与设备安全的误映射。"
+  - "2016-05-12原受理来源核查真有10:26—10:41执行记录，来源类别纸面转告，公开去向仅原受理席岗位；新后续实际回告收件只受理待审。"
+knowledge_updates:
+  - "夜班分离专业救出/设备验收/急救个人隐私与普通自动绿格；罗经办马芸依法知道纸面转告仅来源类别及原受理席为岗位去向。"
+  - "真实给原受理席回话和自然人电话拨出接通仍不知，最新档案限制范围未被扩大。"
+relationship_updates:
+  - "蒲叔冯渡被专业救援按职责协助而不被物业代签身体或配送结果；罗经办拒将自动错误号码题头带走，马芸持续限定权证。"
+foreshadowing_updates:
+  - "F003新增2016-05-12核原受理来源真实操作及原受理席去向，尚不证明本人获答/里侧施工/旧字来历；F008/M004/M005未证。"
+ending_state: "Day260 20:12霁河二号梯人已救但设备继续封停；2016纸面转告来源和原受理席岗位去向已合法核验，真实回告收件未知；Day195窄片一件原封至Day261 16:00两旧件原设施所。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace:
+  original_sha: "7646331b85cdbe246d929c8758af1492fdd3d63c"
+  final_draft_sha: "39557f7382c85cd5d5fd45fdd5e7e80bdfa9d7cb"
+  initial_counts: "0/1/2"
+  final_counts: "0/0/2"
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_original_draft_sha: "9de83d08d999de535feb2f99d54110d93713fc6b"
+  predecessor_ready_blob: "f2f7d93ca6a9c9baf8d91949ba294a027a2fde5c"
+  predecessor_factual_delta: "前397 Day258夜删虚假晨间回告承诺改依专业复查后回告；Day259 17:28真实回话不变，本章事实兼容。"
+  proposed_ready_blob: "56ad8e536620f927f263fdf86257f28847073fd4"
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3624
