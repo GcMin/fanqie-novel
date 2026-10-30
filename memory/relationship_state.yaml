@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 387
+last_updated_chapter: 388
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1407,3 +1407,11 @@ chapter_387_relations_verified:
   asset_and_archive: "马芸和罗经办以原簿表头纠正CB催办号与回交号混淆，罗经办自行删除错误结论并完成绿格显示本笔释义更正受理；主管在成本压力下按现件保管责任签两日新托，不拿旧催办号当物料身份证。"
   night_center: "夏宁、周衡、梁策分别保留夜班原绿色截图、有源旧簿结果与Day249 15:48真实新托签核，不越权声称修复通用程序或历史补证已完成。"
   lao_qi: "无本人新的亲历回忆或身份鉴定；Day245限定见证范围持续有效，未邀其凭CB号补记。"
+
+chapter_388_relations_verified:
+  chapter: 388
+  source_sha: "dd693a9aa42e721aefa7832725871f37a61499a3"
+  lao_qi_ma_yun: "老齐因未采用样表恐被要求代证2016补证交回，马芸和罗经办保护其Day245限定亲历范围，撤去违规待签表并留原状态，不逼其新签口径。"
+  archive_and_asset: "罗经办不再让旧催办CB号与另一业务簿混同，马芸凭实际保管人和审批找到2019转管的一册目录证据；主管接受另给现物Day251 16:00真实有权处置选项而非借旧历史题名代签。"
+  night_center: "夏宁周衡梁策夜班只据老齐本人来电记录担忧，Day250仅接白班目录级摘录与新限项阅簿待审回告，不盗用个人证词或越档案/资产审批权限。"
+  trust_scores_unchanged: true

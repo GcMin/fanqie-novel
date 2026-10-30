@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 388
+title: "收下的是一本簿"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "dd693a9aa42e721aefa7832725871f37a61499a3"
+source_draft_sha: "dd693a9aa42e721aefa7832725871f37a61499a3"
+reader_review: reader_reviews/0388_dd693a9a.md
+depends_on_chapter: 387
+depends_on_source_sha: "7cd5c03546509da40668581d294b20d4a16c0b02"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day249 21:07—Day250 20:13"
+summary: >-
+  Day249 21:07老齐致电夜间中心担心原设施所拟让他在未经签批的历史协查样表中替2016旧补证回交作证；夏宁只留本人担忧及未新增证言，周衡劝其不替没亲眼见过的收件事实签字。Day250 09:22马芸与罗经办在原设施所核该样表未经有权批准、混淆个人工作见闻和业务收件，撤出待签事项并留底，老齐仅重申Day245本人有限见闻，无新历史签认。10:41原档案岗位正式指出Day249获准的综合收发簿只覆盖CB催办转送等本系列，不覆盖可能独立归档的技术复核收件。11:38正式获准查2019资料转管目录，13:06限项真查得到2016年四月至六月“维修复核补证接收登记”一册已于2019转归临江市市政工程资料中心，有真实转管编号与接收单位，只证明一册簿进库、不证明2016特定退件号当年有补证回交或里侧已复核，簿内具体页未阅。15:17资产主管要求Day251 16:00到期的Day195原封窄片有实际处置选项，白班仅安排次晨待办而未续签、搬运或确认支付。16:02马芸罗经办向新保管单位申请核特定业务号可能关联登记行的有限字段，实际收件但范围待审。Day250 20:13夜班夏宁周衡梁策只获有源目录摘录与待审收件号、未获历史补证结果；周衡仍接普通路灯故障工单。封套乙其余页未阅，現窄片新周转站单件原封到Day251 16:00，其余两旧拆件原设施所；历史跨年同物、旧字作者/年代、沈家私票同源、F008/M004/M005未知。
+meaningful_state_changes:
+  - "老齐避免以未经采纳的样表签认无法亲证的2016回交事实，错误待签事项撤回并留痕。"
+  - "首次真实确认一册独立历史技术复核接收登记簿于2019转管至市政工程资料中心，并对该实际保管主体提交有限合法查询；只找到簿未核里面的具体本案登记行。"
+knowledge_updates:
+  - "马芸罗经办知道旧综合簿的CB催办收讫与另一技术复核接收业务系列的可能记录分开，后者只有目录级存在与归属证据。"
+  - "夏宁周衡梁策Day250 20:13仅有限接收白班两项真实结果，不能声称新版补证收件已查到、转管目录等于实际补证完成。"
+relationship_updates:
+  - "老齐被尊重而未被逼补签历史猜想；马芸与罗经办从找个人回忆转换为找有权原始收件渠道；资产主管接纳有时限现物处置须另外签批。"
+foreshadowing_updates:
+  - "F003新增2019转管一册且有权保管者可查询线索，2016具体回交与里侧复核继续待证；F008/M004/M005无新可靠证据。"
+ending_state: "Day250 20:13原有2016综合簿CB催办收讫已证、补证回交未证；新技术复核接收簿2019转管一册属实，具体本案登记未阅且申请仅待审。Day195现窄片一件原封新站托至Day251 16:00，两旧件原所未搬；老齐没有代签旧证言。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "dd693a9aa42e721aefa7832725871f37a61499a3", final_draft_sha: "dd693a9aa42e721aefa7832725871f37a61499a3", initial_counts: "0/0/2", final_counts: "0/0/2", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "7cd5c03546509da40668581d294b20d4a16c0b02", predecessor_factual_delta: none_exact_ready_blob, proposed_ready_blob: "dc1d853b011ac830d4718e52fce0f2cdb97b9920"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3655
