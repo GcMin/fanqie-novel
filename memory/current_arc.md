@@ -1,3 +1,9 @@
+# 第391章独立Reader、QA与ARC-054运营已批十五分钟（2026-10-30）
+
+原391草稿Git Blob `e423d565e02f54331536e92bcb68f2c53031e8b5`，独立先Pass A只读391、前388—390正式ready全文、381—390摘要和文风，再Pass B核Canon、人物/知识/关系/世界、timeline/F003/ARC-054。Reader 0 BLOCKER/0 MAJOR/2 MINOR，未修正文，独立Continuity/Style/Meaningful QA PASS，3379非空白Unicode。前章390正式ready `b3a7575123b7b1ab7a3059e6ea0b61f772c33aeb` 与391依赖精确匹配，无当前前章临时SHA事实差异。精确候选Git CI未过不得当结构已通过。
+
+Day253 09:51运营资料正式获准真实读旧站2016-05-11公开许可目录：拟申请22:30—23:00共30分钟，批准22:35—22:50仅15分钟，状态已批；**批准不是当晚实际围隔、施工人员进里侧或完成复核**。11:47有限摘录，16:21另申请实际执行交接记录只收件待审。现Day195带旧红字窄片新站原柜原封单件仍至Day254 16:00，其余两件原所。Day253 15:17批准柜外新监测、15:44站方真装校16:03起有新的独立真实读数，旧仪器缺段不补，长期受托及付款未证。20:11夜班仅收白班限项结果并处理新的配电箱门险情。F003有界补运营许可证据；跨年唯一同物、旧字作者年、沈家私人票、F008/M004/M005无新增确证。
+
 # 第390章独立Reader、Stage A依赖重绑、QA与ARC-054半小时拟申请（2026-10-30）
 
 第390章原draft `5a74d06b1d901b5f55fcb3f28ed61f3981bee740`先按Pass A读本章与387—389正式ready全文、近十章摘要和文风，后Pass B核主线/世界Canon、人物状态知识关系世界、timeline/F003与ARC-054，初审0/1/2。唯一MAJOR为仍引用389旧临时草稿 `0391da7d50c84feec4c1331ffded4f50c63c69af`且标provisional。逐字对照389原draft和正式ready `8456859e52a118c1ef833fa75ecf5ca605e6f877`，**小说正文完全同一**，仅前驱Front Matter交付状态不同，390 Day251 20:42新场景与389 Day251 20:16最终交接事实兼容。Stage A只修改390 Front Matter和详细章纲的依赖SHA及状态，**不修改任何正文字符**，得到新draft `da97c6d6acb81e4bfece480cd90e38c065f2b2e9`；新SHA独立再Pass A→Pass B Reader为0/0/2，旧版本Review不能放行。独立Continuity/Style/Meaningful QA PASS，3504非空白Unicode字，低于3800硬限，不能因MINOR重写。旧137→138等历史SHA差异仅按既往已核事实，不当本章新证据。仍须精确候选Git commit的结构单测与`python -m publisher.check_local --repo .`真实CI SUCCESS才允许expected_sha/force:false迁入ready。

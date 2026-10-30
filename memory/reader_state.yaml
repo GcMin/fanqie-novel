@@ -1,25 +1,25 @@
 schema_version: 1
-last_reviewed_chapter: 390
-last_reviewed_title: "半小时写在申请栏里"
-last_source_path: chapters/draft/0390.md
-last_source_sha: da97c6d6acb81e4bfece480cd90e38c065f2b2e9
-last_review_path: reader_reviews/0390_da97c6d6.md
+last_reviewed_chapter: 391
+last_reviewed_title: "批下来的只有十五分钟"
+last_source_path: chapters/draft/0391.md
+last_source_sha: e423d565e02f54331536e92bcb68f2c53031e8b5
+last_review_path: reader_reviews/0391_e423d565.md
 last_reviewed_at: "2026-10-30"
-reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_blob
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 389
-depends_on_source_sha: 8456859e52a118c1ef833fa75ecf5ca605e6f877
-dependency_status: verified_predecessor_body_identical
-predecessor_current_source_sha: 8456859e52a118c1ef833fa75ecf5ca605e6f877
+depends_on_chapter: 390
+depends_on_source_sha: b3a7575123b7b1ab7a3059e6ea0b61f772c33aeb
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: b3a7575123b7b1ab7a3059e6ea0b61f772c33aeb
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-original_source_sha: 5a74d06b1d901b5f55fcb3f28ed61f3981bee740
-initial_review_path: reader_reviews/0390_5a74d06b.md
+original_source_sha: e423d565e02f54331536e92bcb68f2c53031e8b5
+initial_review_path: reader_reviews/0391_e423d565.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
 combined_audit_backfill:
@@ -2765,5 +2765,20 @@ chapter_390_reader_20261030:
   predecessor_ready_blob: "8456859e52a118c1ef833fa75ecf5ca605e6f877"
   predecessor_body_identical: true
   proposed_ready_blob: "b3a7575123b7b1ab7a3059e6ea0b61f772c33aeb"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_391_reader_20261030:
+  chapter: 391
+  original_sha: "e423d565e02f54331536e92bcb68f2c53031e8b5"
+  final_source_sha: "e423d565e02f54331536e92bcb68f2c53031e8b5"
+  review: reader_reviews/0391_e423d565.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "b3a7575123b7b1ab7a3059e6ea0b61f772c33aeb"
+  predecessor_sha_mismatch: false
+  predecessor_factual_delta: none_exact_ready_blob
+  proposed_ready_blob: "a1f96ca4024d718789fd59e63d4805105b5a5ba1"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
