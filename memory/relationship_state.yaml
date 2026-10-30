@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 391
+last_updated_chapter: 392
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1437,4 +1437,10 @@ chapter_391_relations_verified:
   source_sha: "e423d565e02f54331536e92bcb68f2c53031e8b5"
   archive_and_asset: "罗经办承认2016计划半小时与有责真实批十五分钟不同，马芸及档案员不提供受限技术/值守内页；主管不借旧许可能给现件添历史身份，接受新封外监测不能补历史缺口或自动延托。"
   night_center_public: "夏宁尊重便利店店员不能代道路部门签回收引导牌，周衡梁策只在夜班交接白班有源结论并处理新公共风险。"
+  trust_scores_unchanged: true
+
+chapter_392_relations_verified:
+  chapter: 392
+  night_center_resident: "周衡夏宁不要求冯女士离家摸配电箱，不把专业工作完成自动冒写成报险人本人满意；物业与供电专业分别按安全责任确认隔离撤销。"
+  archives_and_asset: "罗经办主动删去旧站全部闸门或技术人员入内的无源结论，马芸和档案员坚持运营围隔证据不替技术侧工作交接；主管因成本仍须现封号和真实有权双方签字而不借十二分钟鉴定旧窄片。"
   trust_scores_unchanged: true
