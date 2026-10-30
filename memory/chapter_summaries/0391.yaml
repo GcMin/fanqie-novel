@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 391
+title: "批下来的只有十五分钟"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "e423d565e02f54331536e92bcb68f2c53031e8b5"
+source_draft_sha: "e423d565e02f54331536e92bcb68f2c53031e8b5"
+reader_review: reader_reviews/0391_e423d565.md
+depends_on_chapter: 390
+depends_on_source_sha: "b3a7575123b7b1ab7a3059e6ea0b61f772c33aeb"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day252 20:47—Day253 20:11"
+summary: >-
+  Day252 20:47河渚路站台按前章道路17:48及照明19:27双验真正复开，但临时引导牌仍要有责道路班回收，便利店不代签。Day253 08:43运营资料岗仅分项范围答复，09:51正式许可后马芸罗经办依法看2016年5月11日旧站运营许可公开目录：原拟申请22:30—23:00三十分钟，实际批准22:35—22:50十五分钟、状态已批。11:47获有限摘录；批准不证2016当夜实际围隔、里侧技术人员进入或检查完成，16:21新增实执行交接查询仅收件待审。Day253原设施所15:17有权批准现封袋柜外新增独立监测，新站15:44真实装校、16:03首次真实读数，旧设备维护缺口不倒填。Day195窄片仍新站原封单件到Day254 16:00，另两旧拆件原设施所，长期合同和付款未确认。20:11夜班仅有源接白班两项回告并接新配电箱门险情。2011/2020/Day195跨年唯一同物、旧字作者年代、沈家私票同源和F008/M004/M005均未证。
+meaningful_state_changes:
+  - "2016许可申请半小时与有源批准十五分钟首次确证且分开，旧当夜执行仍待审。"
+  - "新周转站Day253 15:44装封外独立监测16:03首条读数，旧监测缺口不补、原短托不延。"
+knowledge_updates:
+  - "罗经办马芸知道正式许可15分钟但不知旧站当夜围隔与里侧技术进场。"
+  - "中心夜班20:11只从白班有源获准字段与现封外监测事实，未越权限。"
+relationship_updates:
+  - "罗经办接受马芸与档案员对可阅范围的约束，资产主管接受新观测不等于长期托管批准。"
+foreshadowing_updates:
+  - "F003新增真实运营已批窗口，实执行、现件历史同物与F008/M004/M005仍未证。"
+ending_state: "Day253 20:11旧运营批准已证但实际执行待审；Day195窄片新站一件原封到Day254 16:00，两旧件原所，新观测16:03才开始。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "e423d565e02f54331536e92bcb68f2c53031e8b5", final_draft_sha: "e423d565e02f54331536e92bcb68f2c53031e8b5", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "b3a7575123b7b1ab7a3059e6ea0b61f772c33aeb", predecessor_factual_delta: none_exact_ready_blob, proposed_ready_blob: "a1f96ca4024d718789fd59e63d4805105b5a5ba1"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3379

@@ -14,7 +14,7 @@
 - count_method: "正文非空白Unicode字符，含标点，不含Front Matter"
 - target_effective_chars: 3000
 - actual_effective_chars: 3379
-- publish_gate: pending_independent_audit
+- publish_gate: reader_QA_pass_exact_candidate_CI_required
 
 ## 目标与开场
 
@@ -53,3 +53,7 @@
 - 运营许可目录状态“已批”是可核审批元数据，仅能限推已经核准的运营时段；旧站实际停用、施工现场进入、里侧技术复核和唯一物件身份继续独立待查。
 - Day251 15:41现存窄片单件原封原柜真实续托到Day254 16:00，不得无理由提前失效或自动长期延期；其他两件旧拆件仍旧所未搬。
 - 本次只新建章纲和新draft，Front Matter状态draft/pending/null/draft，未执行Review、Revision、QA、Memory、ready或发布。
+
+
+## Audit 2026-10-30
+Reader Pass A/B 0/0/2，原稿 `e423d565e02f54331536e92bcb68f2c53031e8b5` 未改正文；独立Continuity/Style/Meaningful QA PASS；第390章ready SHA `b3a7575123b7b1ab7a3059e6ea0b61f772c33aeb`精确匹配。待精确候选CI后正式放行。
