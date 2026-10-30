@@ -6,15 +6,15 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "904c39f761f376a03aeb87ec4037770da0306cf7"
 - depends_on_chapter: 391
-- depends_on_source_sha: "e423d565e02f54331536e92bcb68f2c53031e8b5"
-- dependency_status: provisional
-- continuity_precheck: pass_for_provisional_drafting_only
+- depends_on_source_sha: "a1f96ca4024d718789fd59e63d4805105b5a5ba1"
+- dependency_status: verified_predecessor_body_identical
+- continuity_precheck: verified_predecessor_body_identical_by_audit
 - timeframe: "Day253 20:24—Day254 20:17"
 - pov: "周衡、夏宁、梁策夜班有限第三人称；罗经办、马芸及有权档案、资产岗位白班有限第三人称"
 - count_method: "正文Unicode非空白字符（含标点），不含Front Matter"
 - target_effective_chars: 3000
 - actual_effective_chars: 3424
-- publish_gate: pending_independent_audit
+- publish_gate: new_sha_reader_0_0_2_content_QA_PASS_exact_CI_required
 
 ## 本章目标与开场
 
@@ -51,3 +51,9 @@
 - 白班档案与资产工作由有权岗位执行，夜班中心20:00—08:00；先有批准再有阅览，申请只受理不冒充阅卷。
 - 西端运营临时围隔真实发生≠施工侧门已开放或技术人员实际进场；今天现物的受托不可借2016许可证补身份。
 - 本轮仅Writer首稿和详细章纲，Front Matter draft/pending/null/draft；未执行Editor、Reader、Revision、独立QA、Memory更新、ready或番茄发布。
+
+
+## Audit真实修订与独立复审｜2026-10-30
+- 原392 draft `8bfbafec907025f4531acfb5f620a392d7e96025` Reader先Pass A后Pass B初审0/1/2，唯一MAJOR为仍绑391 provisional 草稿 `e423d565e02f54331536e92bcb68f2c53031e8b5`。
+- 严格比391原稿与正式ready `a1f96ca4024d718789fd59e63d4805105b5a5ba1`，**正文完全相同仅Front Matter**；Stage A只改本章Front Matter和本详细计划依赖，392正文0字更动，新draft blob `79ac3cd043ab8d1cda1d6d7850cf6c116491faf0`。
+- 新SHA独立再Reader Pass A/B最终0/0/2，Continuity/Style/Meaningful QA PASS；直到精确候选CI通过方可放行。
