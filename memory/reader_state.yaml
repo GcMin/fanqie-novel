@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 396
-last_reviewed_title: "回条到了，答复还在路上"
-last_source_path: chapters/draft/0396.md
-last_source_sha: a09d727ad1b40bba9f370834eb0948e9169f1462
-last_review_path: reader_reviews/0396_a09d727a.md
+last_reviewed_chapter: 398
+last_reviewed_title: "回告栏里留的是岗位"
+last_source_path: chapters/draft/0398.md
+last_source_sha: 39557f7382c85cd5d5fd45fdd5e7e80bdfa9d7cb
+last_review_path: reader_reviews/0398_39557f73.md
 last_reviewed_at: "2026-10-30"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,14 +12,14 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 395
-depends_on_source_sha: e8b0fdc6a638972c59b3264a239b598466463556
+depends_on_chapter: 397
+depends_on_source_sha: f2f7d93ca6a9c9baf8d91949ba294a027a2fde5c
 dependency_status: verified_predecessor_body_delta_compatible
-predecessor_current_source_sha: e8b0fdc6a638972c59b3264a239b598466463556
+predecessor_current_source_sha: f2f7d93ca6a9c9baf8d91949ba294a027a2fde5c
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-original_source_sha: 2a2f000c4eac99b118f0592f281cc42ee711f2bb
-initial_review_path: reader_reviews/0396_2a2f000c.md
+original_source_sha: 7646331b85cdbe246d929c8758af1492fdd3d63c
+initial_review_path: reader_reviews/0398_7646331b.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
 combined_audit_backfill:
@@ -2867,5 +2867,40 @@ chapter_396_reader_20261030:
   predecessor_ready_blob: "e8b0fdc6a638972c59b3264a239b598466463556"
   predecessor_factual_delta: "Day256将Day254高岩22:34从昨天改前天共两处，修后396兼容"
   proposed_ready_blob: "919dda040ad9dede6cc4e3701a2b0fb4b1e19eb0"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_397_reader_20261030:
+  chapter: 397
+  original_sha: "9de83d08d999de535feb2f99d54110d93713fc6b"
+  initial_review: reader_reviews/0397_9de83d08.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "d887677453390d23d83c632d5977b1e07e9ad002"
+  review: reader_reviews/0397_d8876774.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1}
+  body_revisions: 1
+  corrected_issue: "Day258夜虚诺田女士次晨答复改为晨间避开围隔/按有责复查后约时回告"
+  predecessor_ready_blob: "919dda040ad9dede6cc4e3701a2b0fb4b1e19eb0"
+  predecessor_factual_delta: none_exact_ready_blob
+  proposed_ready_blob: "f2f7d93ca6a9c9baf8d91949ba294a027a2fde5c"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_398_reader_20261030:
+  chapter: 398
+  original_sha: "7646331b85cdbe246d929c8758af1492fdd3d63c"
+  initial_review: reader_reviews/0398_7646331b.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "39557f7382c85cd5d5fd45fdd5e7e80bdfa9d7cb"
+  review: reader_reviews/0398_39557f73.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1}
+  body_revisions: 0
+  corrected_issue: "重绑第397章审定ready且记录前章一处晨间承诺修改对本章Day259 17:28实际回告完全兼容"
+  predecessor_original_draft_sha: "9de83d08d999de535feb2f99d54110d93713fc6b"
+  predecessor_ready_blob: "f2f7d93ca6a9c9baf8d91949ba294a027a2fde5c"
+  predecessor_factual_delta: "397 Day258晨间虚假回告承诺已改专业核后回话；Day259 17:28真回告不变且398兼容"
+  proposed_ready_blob: "56ad8e536620f927f263fdf86257f28847073fd4"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
