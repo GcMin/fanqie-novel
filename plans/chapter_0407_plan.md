@@ -13,10 +13,10 @@
 - pov: "周衡、夏宁、梁策有限第三人称；档案线仅限罗经办、马芸获准查阅内容"
 - target_effective_chars: 3200
 - actual_effective_chars: 3543
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 
 ## 目标、开场与前章依赖
 
@@ -41,3 +41,9 @@
 - Day195带字窄片仍在原设施所独立柜原封、另外两旧拆件另存；不借现行档案外封推跨年同物。F008没有新增可靠本人记忆冲突；F009/F010/F011 resolved；M004/M005继续未证；不提前解释城市消失机制。
 - 罗经办与马芸不知松浦路夜案，夜班也只在有源白班限项回告后才获旧档案公开结果。叙事无虚构独立审查批准、不变更长期Memory。
 - Writer Precheck：已读取最新main AGENTS、config、writing_roles、ai_reading_protocol、Bible和三张相关主角卡、旧卷/弧（均明显过期，以近期已ready 402—406正文及405—406核证Memory为准）、现行四类人物世界知识关系Memory、F003/F008及timeline、0397—0406十章摘要、0402—0406五章全文及0406详细章纲；#153已在published，新增407路径原不存在。只作Writer连续性预检，独立Audit仍待执行。
+
+
+## Audit Gate（2026-10-31）
+- 原始draft Git Blob：`be7475b22f181dc4673c2fd7f91275c3bc55274f`；Reader双遍 `reader_reviews/0407_be7475b2.md`，0 BLOCKER / 0 MAJOR / 2 MINOR，无正文修改。
+- 前406正式ready `199ed97824b380c834882a75ca192c90d63b5058`，依赖SHA精确匹配；独立 Continuity/Style/Meaningful QA：`qa/0407_report.md` PASS。
+- 候选ready Blob：`c510945036a50b169b4075a883e93f7e0dd0396c`，进入main以匹配候选Git commit的实际结构CI SUCCESS为必要条件。

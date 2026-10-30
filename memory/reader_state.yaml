@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 406
-last_reviewed_title: "复水单上没有四楼的水"
-last_source_path: chapters/draft/0406.md
-last_source_sha: 138d887a8618fb65b719cb5ad4c081be83f4bd73
-last_review_path: reader_reviews/0406_138d887a.md
+last_reviewed_chapter: 408
+last_reviewed_title: "铃声进了表，没人走到门前"
+last_source_path: chapters/draft/0408.md
+last_source_sha: 57cdaa729a680de695f447ea31511937a66d8fad
+last_review_path: reader_reviews/0408_57cdaa72.md
 last_reviewed_at: "2026-10-31"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -3029,4 +3029,32 @@ chapter_406_reader_20261031:
   predecessor_body_identical: true
   content_qa: pass
   proposed_ready_blob: "199ed97824b380c834882a75ca192c90d63b5058"
+  structural_gate: exact_candidate_commit_CI_required
+chapter_407_audit_final:
+  chapter: 407
+  source_sha: "be7475b22f181dc4673c2fd7f91275c3bc55274f"
+  reader_review: reader_reviews/0407_be7475b2.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 1
+  body_revisions: 0
+  predecessor_ready_blob: "199ed97824b380c834882a75ca192c90d63b5058"
+  content_qa: pass
+  proposed_ready_blob: "c510945036a50b169b4075a883e93f7e0dd0396c"
+  structural_gate: exact_candidate_commit_CI_required
+chapter_408_audit_final:
+  chapter: 408
+  original_source_sha: "70579f772a9952cb4ec85fa3e962e498f22f76cc"
+  source_sha: "57cdaa729a680de695f447ea31511937a66d8fad"
+  initial_review: reader_reviews/0408_70579f77.md
+  final_review: reader_reviews/0408_57cdaa72.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 0
+  predecessor_draft_sha: "be7475b22f181dc4673c2fd7f91275c3bc55274f"
+  predecessor_ready_blob: "c510945036a50b169b4075a883e93f7e0dd0396c"
+  predecessor_body_identical: true
+  content_qa: pass
+  proposed_ready_blob: "9e839e42e7ea67fef1a7c9943d915245187cc744"
   structural_gate: exact_candidate_commit_CI_required

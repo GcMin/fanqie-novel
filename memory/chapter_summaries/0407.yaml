@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 407
+title: "最后一辆车出去了，她还在地下"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "be7475b22f181dc4673c2fd7f91275c3bc55274f"
+source_draft_sha: "be7475b22f181dc4673c2fd7f91275c3bc55274f"
+reader_review: reader_reviews/0407_be7475b2.md
+depends_on_chapter: 406
+depends_on_source_sha: "199ed97824b380c834882a75ca192c90d63b5058"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day268 21:17—Day269 20:18"
+summary: >-
+  Day268 21:17丁岚报松浦路停车场地下负一层受困，末车20:54已离且计费系统零辆，21:00东侧检修禁行却未真人清场；杜师傅21:27接通知，21:36有权方核北侧疏散路线与照明，21:48杜师傅找到丁岚，22:13她从北侧本人实际离场签认，旧人员清空假栏留原记录。Day269 09:52管理单位停止本场零车辆自动填零人员，13:09批准限定引导，15:26保安实核标牌且东侧仍封控；不推全部车场完成整改。Day269旧档09:41分项答复10:28许可11:09合法阅2019转管摘要仅证外封事项一件按原封转入、逐页子件目录未编列；未编列不等于内无2016原纸或三年未有中间移交，14:08新查2016—2019公开保管交接仅受理。20:18夏宁按有源回告分人身风险处置结项与后续标牌整改、旧档待办。
+meaningful_state_changes:
+  - "丁岚由误写人员清空到22:13本人实离，独立人员清场巡查签认规则在本停车场有权修正；东检修持续封闭。"
+  - "F003新增2019转管一件外封按原封转入且未编逐页目录，仍不能确认2016原页去向或本人收答。"
+knowledge_updates:
+  - "丁岚只授权有限回告，拒家庭住址和在零车清场单补签；中心不把车辆数作为人数。"
+  - "罗经办与马芸依法只知转管摘要及未编列目录，不知停车场当代丁岚案，也不知原袋内页。"
+relationship_updates:
+  - "丁岚对杜师傅要求真实引路和签本人实际离场，不替管理单位虚签人员清空；马芸维护核档权限。"
+foreshadowing_updates:
+  - "F003新增2019外封交接摘要的有限来源，不推2016原纸在内或原来话人已获答；F008/M004/M005不证；Day195窄片独立柜原封。"
+ending_state: "Day269 20:18丁岚已真实离场且限定整改待完成；2019外封一件摘要可证，2016—2019中间公开交接另申请待审，内页旧人获答均未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "be7475b22f181dc4673c2fd7f91275c3bc55274f", final_draft_sha: "be7475b22f181dc4673c2fd7f91275c3bc55274f", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "199ed97824b380c834882a75ca192c90d63b5058", proposed_ready_blob: "c510945036a50b169b4075a883e93f7e0dd0396c"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3543

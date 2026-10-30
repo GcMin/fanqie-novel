@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 406
+last_updated_chapter: 408
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1543,3 +1543,15 @@ chapter_406_relations_verified:
   source_sha: "138d887a8618fb65b719cb5ad4c081be83f4bd73"
   water: "魏桂琴拒用两瓶水或群绿格代整栋真修，物业依专业和本人有源核实，保护父亲健康隐私。"
   archive: "罗经办马芸接受现行外封有责真实在柜与2016旧内纸未知的界限，不跨案获现代住户详情。"
+chapter_407_relations_verified:
+  chapter: 407
+  source_sha: "be7475b22f181dc4673c2fd7f91275c3bc55274f"
+  parking: "丁岚要求有权值守真到场并核人员离场，拒在假零人栏补签；周衡梁策夏宁与值守杜师傅保持岗位权限和安全路径分工。"
+  archive: "罗经办听马芸与档案员只记录2019转管摘要，未知2016纸内件及真人获答；不跨案知丁岚。"
+  trust_scores_unchanged: true
+chapter_408_relations_verified:
+  chapter: 408
+  source_sha: "57cdaa729a680de695f447ea31511937a66d8fad"
+  emergency: "齐筠不承认绿色网关回执代替有人真正到门，配合专业救援与急救，拒提供父亲住院照片或被代填满意。"
+  archive: "马芸提示2017双签和2018移出只有分段节点；罗经办不将未见2018接收页视为外封物失踪。"
+  trust_scores_unchanged: true

@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 408
+title: "铃声进了表，没人走到门前"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "70579f772a9952cb4ec85fa3e962e498f22f76cc"
+source_draft_sha: "57cdaa729a680de695f447ea31511937a66d8fad"
+initial_review: reader_reviews/0408_70579f77.md
+reader_review: reader_reviews/0408_57cdaa72.md
+depends_on_chapter: 407
+depends_on_source_sha: "c510945036a50b169b4075a883e93f7e0dd0396c"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day269 20:43—Day270 20:16"
+summary: >-
+  Day269 20:43齐筠报东柳里七号楼父亲齐善福已按床边求助铃三次仍无人到六楼门前，20:41已拨急救，父亲无法自行起身且有内链无法正常进入。20:52查设备网关20:38收三次信号，家属端‘已受理’仅表示网关收件；夜岗搬到南侧台却未迁旧监控室分机，无值班人工接听和到场签认。21:07物业有权人员真到六楼、21:14专业救援及急救抵达，21:32老人清醒但不能起立，21:44急救车载走，后续诊断不由中心推断。Day270 09:18查迁岗与接线记录09:56本楼有限禁误宣称设备可靠人工应答，13:06仅一套测试按钮链路端到端人工试测通过，其余设备/整栋仍待复测；齐筠仅授权医生接诊事实，拒公开病历和被代填满意。历史线承407 Day269 14:08仅受理：Day270 09:37范围答复10:22许可11:04受控阅见2017-08-06外封事项移架双签一件、2018-11-17同事项柜架调整只有移出页，尚未见接收页并不证明丢失，14:21另申请接收页只受理。20:16夜班分别交接真人到场、部分链路试测与旧封存中间两节点，旧纸内容与原人获答仍未知。
+meaningful_state_changes:
+  - "齐善福由网关假受理无人接到真实21:07有权到门与21:44专业救护接送；设备仍只能确认单链路试测，未全楼验收。"
+  - "F003依法新增2017移架双签和2018单侧移出节点，2018接收页尚待许可，不推2016原纸内存或真人收答。"
+knowledge_updates:
+  - "齐筠只授权父亲已获接诊，不提供病历与住院照片；中心分开网关受信、人工接听、真人到门、医疗处置。"
+  - "罗经办马芸只知可公开外封流转节点，未确认2018接收或旧封内页，不知齐筠当代家庭工单。"
+relationship_updates:
+  - "齐筠向物业要求能真正听见求助的人，拒屏幕已受理或满意快捷框代人身服务；马芸约束证据不能补三年空档。"
+foreshadowing_updates:
+  - "F003新增2017双签和2018移出单侧留缺口，2019按原封转管也不消灭缺口；Day195旧窄片另柜及两旧拆件独立，F008/M004/M005不证。"
+ending_state: "Day270 20:16老人经专业救援获接诊但病况未证，设备仅单链路试测，其他住户须真人应答和逐项复核；2018接收页新申请待审、旧原纸和自然人获答仍未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "70579f772a9952cb4ec85fa3e962e498f22f76cc", final_draft_sha: "57cdaa729a680de695f447ea31511937a66d8fad", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "be7475b22f181dc4673c2fd7f91275c3bc55274f", predecessor_ready_blob: "c510945036a50b169b4075a883e93f7e0dd0396c", predecessor_body_identical: true, proposed_ready_blob: "9e839e42e7ea67fef1a7c9943d915245187cc744"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3415

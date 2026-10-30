@@ -6,20 +6,20 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "bc0e7a4cae6aa29541e41366a4c549a09eda6ae2"
 - depends_on_chapter: 407
-- depends_on_source_sha: "be7475b22f181dc4673c2fd7f91275c3bc55274f"
-- dependency_status: provisional
+- depends_on_source_sha: "c510945036a50b169b4075a883e93f7e0dd0396c"
+- dependency_status: verified_predecessor_body_identical
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: "Day269 20:43—Day270 20:16"
 - pov: "周衡、夏宁、梁策有限第三人称；罗经办和马芸仅在依法许可范围内限知"
 - target_effective_chars: 3200
 - actual_effective_chars: 3415
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 
 ## 目标与开场
-- 前407章仍位于 `chapters/draft/0407.md`，源 Blob `be7475b22f181dc4673c2fd7f91275c3bc55274f`，**未审**；本章只临时依赖其Day269 20:18交班、丁岚Day268 22:13本人离场和Day269 14:08旧2016—2019保管交接公开查询仅受理的事实，标记 `provisional`，不把第407章当正式Canon。
+- 407原draft `be7475b22f181dc4673c2fd7f91275c3bc55274f` 已经独立Reader双遍与QA审查；拟ready `c510945036a50b169b4075a883e93f7e0dd0396c` 故事正文与原draft逐字相同，仅Front Matter交付字段变化。本章正式依赖407已核证Day269 20:18交班、丁岚Day268 22:13本人离场和Day269 14:08旧2016—2019保管交接查询仅受理的事实；不得把未证事项当Canon。
 - Day269夜东柳里七号楼齐善福床边求助按钮三次到达网关，但夜间值守迁岗漏转分机，家属端显示“已受理”而无人到场。女儿齐筠已于20:41拨120，不能由中心代急救诊断或自行破门。
 - 目标是先由专业人员合法进入、急救接手，之后独立修复应答流程，而不是将网关回执当人身风险已经解除。
 - 角色诉求：齐筠要求有人真实听见并到门前；周衡关注通路与人的位置；夏宁分离设备接收、人工应答、现场到达与医护交接；梁策保证合法权限和及时调度；罗经办查2016至2019封袋外封交接节点、马芸守阅档边界。
@@ -37,7 +37,13 @@
 - F003：2017年移架一次外封事项双签、2018年移出单侧可合法查得，2018接收页与2016纸本文本及自然人实际回话均未知；2019转管“按原封转入、未编列逐页子件”仍仅证当次方法。
 - Day195带旧红字窄片在原设施所独立柜单件原封，另两旧拆件另存，不与2016旧纸/2019外封混同；F008无可靠新本人记忆冲突；M004/M005不因正常服务和档案程序而被确证；F009/F010/F011保持resolved。
 - 不写未有源医疗诊断、不将普通物业测试替代急救、不得令档案线人物无渠道知晓当代家属隐私。
-- Writer已读取 AGENTS、config、writing_roles、ai_reading_protocol、Bible 及三张主角人物卡、旧卷与过时arc_current（以已ready 403—406和实际407草稿/近期摘要Memory为当期上下文）、各人物/关系/知识/世界状态及F003/F008/timeline、0397—0406十章摘要和0403—0407五章正文。主线最高第407章；第153章在published。仅执行Planner/Writer预检，不执行独立Reader/QA/Memory或发布。
+- 本条为Writer时创建的预检记录；其时407暂未审核，后续本章已由唯一Audit按新 SHA 独立Reader/QA核证，不据此沿用Writer预检作为审核。
 
 ## 下一章承接
 - 可追踪本楼呼叫链路未验的其他住户和二〇一八年接收登记的许可结果；不能直接让“已受理”一词成万能谜案答案，不提前确认原来话人收到回告。
+
+
+## Audit Gate（2026-10-31）
+- 初稿 `70579f772a9952cb4ec85fa3e962e498f22f76cc` 独立Reader 0/1/2，仅前407临时SHA依赖为MAJOR；407原稿与拟ready版小说正文逐字一致，Stage A只重绑Front Matter/本详纲，正文0字改动。
+- 修订新draft Blob `57cdaa729a680de695f447ea31511937a66d8fad` 已重新独立Reader双遍 `reader_reviews/0408_57cdaa72.md`，0/0/2；旧Review `reader_reviews/0408_70579f77.md` 不作为放行依据。
+- 独立QA `qa/0408_report.md` PASS，候选ready Blob `9e839e42e7ea67fef1a7c9943d915245187cc744`；进入main以匹配候选Git commit结构CI真实SUCCESS为必要条件。
