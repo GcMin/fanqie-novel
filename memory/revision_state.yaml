@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 386
+current_chapter: 387
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0386.md
-current_source_sha: 201155bf79cba9d70014f372b24835d978233f67
-current_review_path: reader_reviews/0386_201155bf.md
+current_source_path: chapters/draft/0387.md
+current_source_sha: 528d664dc25a0a4f26e90e2abf2d002eb4bddd54
+current_review_path: reader_reviews/0387_528d664d.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0386_stage_a_new_sha_reader_qa_candidate
+last_action: audit_0387_stage_a_new_sha_reader_qa_candidate
 last_action_date: 2026-10-30
 last_error: null
-last_diff_summary: "386初审0/1/2只改Day248次日受托到期时限，3340变3349，新SHA Reader0/0/2，独立内容QA PASS。"
+last_diff_summary: "387初审0/2/2修Day248前日时间误写及重绑386正式ready SHA，新SHA Reader0/0/2，独立内容QA PASS。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 201155bf79cba9d70014f372b24835d978233f67
+current_review_source_sha: 528d664dc25a0a4f26e90e2abf2d002eb4bddd54
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -2181,5 +2181,23 @@ combined_audit_chapter_386_20261030:
   predecessor_ready_blob: "397094e24a260475b2404f49e7dcbdead6315f2f"
   predecessor_factual_delta: none_exact_ready_blob
   proposed_ready_blob: "c6c3c58d8a0c7d02f4e015af84e0a001b3a6f913"
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_387_20261030:
+  chapter: 387
+  original_sha: "7f19c611ec18697dc58bc74b1a960e2b8a2ca61e"
+  initial_review: reader_reviews/0387_7f19c611.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_sha: "528d664dc25a0a4f26e90e2abf2d002eb4bddd54"
+  final_review: reader_reviews/0387_528d664d.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  corrected_issue: "Day248当天午后阅档误称昨天、386旧SHA重绑"
+  predecessor_draft_sha: "6c679bb246cb0cd763d2fcc67b831f42ae20dcba"
+  predecessor_ready_blob: "c6c3c58d8a0c7d02f4e015af84e0a001b3a6f913"
+  predecessor_factual_delta: "386到期时间纠错兼容387续托"
+  proposed_ready_blob: "7cd5c03546509da40668581d294b20d4a16c0b02"
   continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required

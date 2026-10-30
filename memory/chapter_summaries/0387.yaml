@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 387
+title: "绿格里填的是催办号"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "7f19c611ec18697dc58bc74b1a960e2b8a2ca61e"
+source_draft_sha: "528d664dc25a0a4f26e90e2abf2d002eb4bddd54"
+initial_review: reader_reviews/0387_7f19c611.md
+reader_review: reader_reviews/0387_528d664d.md
+depends_on_chapter: 386
+depends_on_source_sha: "c6c3c58d8a0c7d02f4e015af84e0a001b3a6f913"
+dependency_status: verified_predecessor_body_delta_compatible
+timeframe: "Day248 20:31—Day249 20:17"
+summary: >-
+  Day248 20:31中心绿格业务流转完成仅有转送索引值回交附件空，夜班不当补证回交已签且提前交班Day249 16:00现物到期。Day249 09:13档案窗口限项分审口头答可查旧收发簿索引，10:36正式批准后马芸罗经办合法阅对应2016旧簿，11:27核“BY16-04-CB07”及当年收讫日期实际对应催办通知转送收讫而不是补证回交；本准阅簿内补证回交件号无可辨填写不证其它渠道/卷册没有后续回交。13:42获得限项摘录，查得当代查询系统以存在转送号自动显示“关联业务流转完成”，14:19本笔显示释义更正获有责岗位实际受理，通用程序规则修改仍需另批并未上线。现存Day195旧红字窄铁片受托Day249 16:00到期，白班核新站原封号柜位与两处封外实际观测，15:27资产方与15:41新站有权负责人真签，15:48现存一件原柜原封真实续托到Day251 16:00，无出库；其他两件旧拆件原设施所，报价预算及实付分开、长期托管未批。Day249 20:17夜班有源收到旧簿摘录、本笔绿格释义及现物新托三份结果，额外索引若要查须另有权批准。2011/2020/Day195唯一物件身份、旧字作者年、沈家私票同源、F008/M004/M005未确证。
+meaningful_state_changes:
+  - "历史旧收发簿证明催办通知已转送收讫但未证当年补证实际交回或里侧检查完成；系统绿格的误映含义本笔已获释义更正受理，通用规则未修改。"
+  - "Day249 15:48新周转站旧字窄片单件原柜原封真续托至Day251 16:00，另外两件旧所未搬，长期保管与付款仍未证。"
+knowledge_updates:
+  - "马芸罗经办和Day249夜班知道CB为催办而非补证回交，准阅簿回交编号空不等于各渠道都无记录。"
+  - "夜班只承接真实有责结果，不能拿自动绿格替历史补证签认或现实保管双方签署。"
+relationship_updates:
+  - "罗经办本人划去误写已交并推动仅本笔解释纠正，马芸坚持原簿表头与有责准阅范围，主管接受基于现封号而非2016催办号续托。"
+foreshadowing_updates:
+  - "F003催办实收而补证回交仍未知，现物受托至Day251 16:00；F008/M004/M005没有新证。"
+ending_state: "Day249 20:17现物新周转站原封单件到Day251 16:00、另两件原所；旧簿催办收讫已证但补证回交无可核编号，本笔绿格释义纠正受理，通用程序仍未变，历史同物作者年月未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7f19c611ec18697dc58bc74b1a960e2b8a2ca61e", final_draft_sha: "528d664dc25a0a4f26e90e2abf2d002eb4bddd54", initial_counts: "0/2/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, corrected_issue: "Day248夜开场错说昨天阅封套及绑定386旧临时SHA", predecessor_draft_sha: "6c679bb246cb0cd763d2fcc67b831f42ae20dcba", predecessor_ready_blob: "c6c3c58d8a0c7d02f4e015af84e0a001b3a6f913", predecessor_factual_delta: "Day248 noon expiry time corrected, compatible", proposed_ready_blob: "7cd5c03546509da40668581d294b20d4a16c0b02"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3332

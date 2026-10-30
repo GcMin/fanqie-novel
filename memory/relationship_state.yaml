@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 386
+last_updated_chapter: 387
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1400,3 +1400,10 @@ chapter_386_relations_verified:
   asset_and_archive: "马芸以合法单页限定答复主管，主管因Day249到期要求继续查原业务号而不将新退件纸当现物鉴定；罗经办从寻找照片转为有权限项查询回交册，档案岗位遮蔽个人字段而拒超页。"
   night_center: "夏宁周衡梁策Day248 20:16仅确认白班已合法阅首张及新查询待审，把保管期限与历史回交核对分开，不代资产或档案岗位签批。"
   lao_qi: "Day245本人限定目认与后见编目提示均保留，386章未要求老齐复认或凭新纸补造旧亲历。"
+
+chapter_387_relations_verified:
+  chapter: 387
+  source_sha: "528d664dc25a0a4f26e90e2abf2d002eb4bddd54"
+  asset_and_archive: "马芸和罗经办以原簿表头纠正CB催办号与回交号混淆，罗经办自行删除错误结论并完成绿格显示本笔释义更正受理；主管在成本压力下按现件保管责任签两日新托，不拿旧催办号当物料身份证。"
+  night_center: "夏宁、周衡、梁策分别保留夜班原绿色截图、有源旧簿结果与Day249 15:48真实新托签核，不越权声称修复通用程序或历史补证已完成。"
+  lao_qi: "无本人新的亲历回忆或身份鉴定；Day245限定见证范围持续有效，未邀其凭CB号补记。"

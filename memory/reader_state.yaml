@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 386
-last_reviewed_title: "退件栏里没有复核日期"
-last_source_path: chapters/draft/0386.md
-last_source_sha: 201155bf79cba9d70014f372b24835d978233f67
-last_review_path: reader_reviews/0386_201155bf.md
+last_reviewed_chapter: 387
+last_reviewed_title: "绿格里填的是催办号"
+last_source_path: chapters/draft/0387.md
+last_source_sha: 528d664dc25a0a4f26e90e2abf2d002eb4bddd54
+last_review_path: reader_reviews/0387_528d664d.md
 last_reviewed_at: "2026-10-30"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,14 +12,14 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 385
-depends_on_source_sha: 397094e24a260475b2404f49e7dcbdead6315f2f
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 397094e24a260475b2404f49e7dcbdead6315f2f
+depends_on_chapter: 386
+depends_on_source_sha: c6c3c58d8a0c7d02f4e015af84e0a001b3a6f913
+dependency_status: verified_predecessor_body_delta_compatible
+predecessor_current_source_sha: c6c3c58d8a0c7d02f4e015af84e0a001b3a6f913
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-original_source_sha: 6c679bb246cb0cd763d2fcc67b831f42ae20dcba
-initial_review_path: reader_reviews/0386_6c679bb2.md
+original_source_sha: 7f19c611ec18697dc58bc74b1a960e2b8a2ca61e
+initial_review_path: reader_reviews/0387_7f19c611.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
 combined_audit_backfill:
@@ -2702,5 +2702,24 @@ chapter_386_reader_20261030:
   predecessor_sha_mismatch: false
   predecessor_factual_delta: none_exact_ready_blob
   proposed_ready_blob: "c6c3c58d8a0c7d02f4e015af84e0a001b3a6f913"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_387_reader_20261030:
+  chapter: 387
+  original_sha: "7f19c611ec18697dc58bc74b1a960e2b8a2ca61e"
+  initial_review: reader_reviews/0387_7f19c611.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_source_sha: "528d664dc25a0a4f26e90e2abf2d002eb4bddd54"
+  review: reader_reviews/0387_528d664d.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1}
+  body_revisions: 1
+  corrected_issue: "Day248夜口述把当日封套乙实阅说成昨天，以及正式重绑386前章ready SHA"
+  predecessor_original_draft_sha: "6c679bb246cb0cd763d2fcc67b831f42ae20dcba"
+  predecessor_ready_blob: "c6c3c58d8a0c7d02f4e015af84e0a001b3a6f913"
+  predecessor_body_identical: false
+  predecessor_factual_delta: "386 Day248中午归期改成次日Day249 16:00，387照此实际续托兼容"
+  proposed_ready_blob: "7cd5c03546509da40668581d294b20d4a16c0b02"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

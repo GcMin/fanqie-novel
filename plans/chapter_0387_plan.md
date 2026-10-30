@@ -6,15 +6,15 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "cffb2d5207049b40c1a43a5c711863a47f978e6e"
 - depends_on_chapter: 386
-- depends_on_source_sha: "6c679bb246cb0cd763d2fcc67b831f42ae20dcba"
-- dependency_status: provisional
+- depends_on_source_sha: "c6c3c58d8a0c7d02f4e015af84e0a001b3a6f913"
+- dependency_status: verified_predecessor_body_delta_compatible
 - continuity_precheck: pass_for_drafting_only
 - timeframe: "Day248 20:31—Day249 20:17"
 - pov: "周衡、夏宁、梁策夜间中心有限第三人称；马芸、罗经办、资产主管、档案及周转站的日间有限第三人称"
 - count_method: "正文非空白Unicode字符（含标点、不含Front Matter）"
 - target_effective_chars: 3000
-- actual_effective_chars: 3330
-- publish_gate: pending_independent_reader_QA
+- actual_effective_chars: 3332
+- publish_gate: reader_QA_pass_exact_candidate_CI_required
 
 ## 本章目标与开场
 
@@ -54,3 +54,13 @@
 - 周衡、夏宁、梁策于20:00—次日08:00夜班工作，不得白天出现在资产、档案岗位的审批现场或代签；马芸罗经办与有责专业人员白天按各自权限分离查档、鉴物、签约。
 - F003只追加有来源的局部史料。F008没有新增可信的本人亲历记忆反证；F009/F010/F011已resolved；M004/M005仍不可由普通行政簿表推定。旧东工门、维修便道公众禁行不改变；杜莲秀后续餐是否真送、黄绮工资及漏扫巷子仍未核。
 - 本轮Writer只新增本详细章纲和第387章首稿，不读取历史Reader Review，不做Editor、Reader、Revision、QA、Memory、ready或平台发布；待独立Audit真正检验。
+
+## 唯一 Audit 后续审核与局部修订回执（2026-10-30）
+
+- initial_reader: reader_reviews/0387_7f19c611.md，0 BLOCKER / 2 MAJOR / 2 MINOR。
+- stage_a: Day248 20:31“昨天才第一次合法阅过”更正为“今天下午才第一次合法阅过”，全文只此一句叙事改变；Front Matter及详纲重绑386正式ready `c6c3c58d8a0c7d02f4e015af84e0a001b3a6f913`，依赖从provisional改为verified_predecessor_body_delta_compatible。
+- predecessor_factual_delta: 386原draft `6c679bb246cb0cd763d2fcc67b831f42ae20dcba`“两天后的费用”改为Day248“明天下午四点到期”，387于Day249实际续托兼容。
+- revised_draft_blob: 528d664dc25a0a4f26e90e2abf2d002eb4bddd54（3332正文非空白Unicode字）。
+- final_reader: reader_reviews/0387_528d664d.md，独立Pass A→B后0 BLOCKER / 0 MAJOR / 2 MINOR。
+- continuity_style_qa: pass；meaningful_change: pass；structural: requires exact candidate commit CI success before main ready。
+- proposed_ready_blob: 7cd5c03546509da40668581d294b20d4a16c0b02
