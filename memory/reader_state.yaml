@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 392
-last_reviewed_title: "封了十二分钟，没写谁进去"
-last_source_path: chapters/draft/0392.md
-last_source_sha: 79ac3cd043ab8d1cda1d6d7850cf6c116491faf0
-last_review_path: reader_reviews/0392_79ac3cd0.md
+last_reviewed_chapter: 394
+last_reviewed_title: "签收的是要求，不是通话"
+last_source_path: chapters/draft/0394.md
+last_source_sha: c28aaad025a42fc1a7700ca4e32d0fa2f2aa2574
+last_review_path: reader_reviews/0394_c28aaad0.md
 last_reviewed_at: "2026-10-30"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,14 +12,14 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 391
-depends_on_source_sha: a1f96ca4024d718789fd59e63d4805105b5a5ba1
+depends_on_chapter: 393
+depends_on_source_sha: a8a696c1578ea9a3af7b349685c42107798aecc7
 dependency_status: verified_predecessor_body_identical
-predecessor_current_source_sha: a1f96ca4024d718789fd59e63d4805105b5a5ba1
+predecessor_current_source_sha: a8a696c1578ea9a3af7b349685c42107798aecc7
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-original_source_sha: 8bfbafec907025f4531acfb5f620a392d7e96025
-initial_review_path: reader_reviews/0392_8bfbafec.md
+original_source_sha: 1080f0a434d0f4b88a0d76e259b7c58f9a23b146
+initial_review_path: reader_reviews/0394_1080f0a4.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
 combined_audit_backfill:
@@ -2798,5 +2798,37 @@ chapter_392_reader_20261030:
   predecessor_ready_blob: "a1f96ca4024d718789fd59e63d4805105b5a5ba1"
   predecessor_body_identical: true
   proposed_ready_blob: "a3ab608d0102e1c97c1b849fca7cbe7d625e91a6"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_393_reader_20261030:
+  chapter: 393
+  original_sha: "f76aabfff39ef916d0d85f3e213758d942a94dc8"
+  final_source_sha: "f76aabfff39ef916d0d85f3e213758d942a94dc8"
+  review: reader_reviews/0393_f76aabff.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "a3ab608d0102e1c97c1b849fca7cbe7d625e91a6"
+  predecessor_factual_delta: none_exact_ready_blob
+  proposed_ready_blob: "a8a696c1578ea9a3af7b349685c42107798aecc7"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_394_reader_20261030:
+  chapter: 394
+  original_sha: "1080f0a434d0f4b88a0d76e259b7c58f9a23b146"
+  initial_review: reader_reviews/0394_1080f0a4.md
+  initial_counts: {blocker: 0, major: 3, minor: 2}
+  final_source_sha: "c28aaad025a42fc1a7700ca4e32d0fa2f2aa2574"
+  review: reader_reviews/0394_c28aaad0.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1}
+  body_revisions: 1
+  corrected_issue: "原题越证、重绑第393章ready SHA、Day256夜的改派今昨时态"
+  predecessor_original_draft_sha: "f76aabfff39ef916d0d85f3e213758d942a94dc8"
+  predecessor_ready_blob: "a8a696c1578ea9a3af7b349685c42107798aecc7"
+  predecessor_body_identical: true
+  proposed_ready_blob: "adf69365cd3770552441720907bc1d790636b3d5"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

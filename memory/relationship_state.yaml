@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 392
+last_updated_chapter: 394
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1443,4 +1443,19 @@ chapter_392_relations_verified:
   chapter: 392
   night_center_resident: "周衡夏宁不要求冯女士离家摸配电箱，不把专业工作完成自动冒写成报险人本人满意；物业与供电专业分别按安全责任确认隔离撤销。"
   archives_and_asset: "罗经办主动删去旧站全部闸门或技术人员入内的无源结论，马芸和档案员坚持运营围隔证据不替技术侧工作交接；主管因成本仍须现封号和真实有权双方签字而不借十二分钟鉴定旧窄片。"
+  trust_scores_unchanged: true
+
+
+chapter_393_relations_verified:
+  chapter: 393
+  source_sha: "f76aabfff39ef916d0d85f3e213758d942a94dc8"
+  night_center_driver: "高岩要求实际交货可核与误派解释，夏宁周衡梁策帮助核合法南岸收货、不让司机危险地试禁门也不越权代判误工赔偿。"
+  archive_and_asset: "罗经办接受马芸与档案员分层许可，合法查到外侧临时联络台仅收要求而主动删去有人现场等电话的想象；主管不以该旧纸给现存窄片强定身份。"
+  trust_scores_unchanged: true
+
+chapter_394_relations_verified:
+  chapter: 394
+  source_sha: "c28aaad025a42fc1a7700ca4e32d0fa2f2aa2574"
+  night_center_drivers: "高岩仅授权本笔事实更正而拒露其他收入，中心不裁工资；赵安在合法位置等到本人收到有权重派才完成第二批交货，本批错误已止但其他旧配置仍待查。"
+  archive_and_asset: "罗经办由索姓名改为仅核处理时点，马芸提醒岗位签收不是电话接通或工人进里侧，主管仍需依据现封号决策长期托管而非拿历史消息代鉴定。"
   trust_scores_unchanged: true

@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 393
+title: "回拨登记写在围栏外"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "f76aabfff39ef916d0d85f3e213758d942a94dc8"
+source_draft_sha: "f76aabfff39ef916d0d85f3e213758d942a94dc8"
+reader_review: reader_reviews/0393_f76aabff.md
+depends_on_chapter: 392
+depends_on_source_sha: "a3ab608d0102e1c97c1b849fca7cbe7d625e91a6"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day254 20:42—Day255 20:14"
+summary: >-
+  Day254 20:42高岩货车依旧站东工门的旧坐标误到禁行围栏，定位系统误标交接完成，实际未开车厢；21:25有权资产岗确认真正收件点南岸设备周转棚，21:48确证有人收件，22:21到达22:34真实有权签七只旧反光底座及一块导向牌共八件，导向牌裂脚标待检不可复用，原错绿格保留更正且未由中心裁断司机误工工资。Day255 09:19罗经办马芸承接392的技术侧目录申请，10:02正式批准10:49查到2016-05-11西端维修联络交接资料一册并确认现行保管单位、整理题名非历史原名；13:06另申请最小业务行14:58正式获准15:24真实阅2016 22:44作业界线外临时联络台“要求回拨接收”，只证收到一项回拨要求不证有人到场、真实电话、进里侧或技术复核；15:52限定摘录16:08新办理回执查询仅受理待审，20:14夜班以有源摘录分栏。Day195带旧字窄片仍新站原封单件到Day261 16:00，另两旧拆件原设施所；历史2011/2020/Day195同物、红字作者年、私人票同源及F008/M004/M005未证。
+meaningful_state_changes:
+  - "普通八件旧交通辅助物从地理围栏误判完结转为南岸22:34真实签收，其中裂脚导向牌待检不可复用。"
+  - "2016外侧维修联络册经合法目录查到且限阅一行证22:44有回拨要求收件，办理回话仍未知。"
+knowledge_updates:
+  - "夜间中心知道司机到达与收货完全不同，历史收回拨要求不等于已回拨或施工人员进里侧。"
+  - "白班马芸罗经办只见获准现存目录及一行公开登记；请求人位置、通话和复核内页未阅。"
+relationship_updates:
+  - "高岩要求真实签收及误派有源证明，周衡夏宁梁策按职责和安全边界协助，未代判赔偿；罗经办接受马芸与档案岗分层权限。"
+foreshadowing_updates:
+  - "F003新增2016-05-11 22:44旧外侧台真正接收回拨要求、后续办理未证；F008/M004/M005无新确证。"
+ending_state: "Day255 20:14八件普通货物真签且假绿格来源保留，旧外侧台22:44收回拨要求有源但未证回话，16:08后续查询待审；现窄片一件原封至Day261 16:00两旧件原所。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f76aabfff39ef916d0d85f3e213758d942a94dc8", final_draft_sha: "f76aabfff39ef916d0d85f3e213758d942a94dc8", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "a3ab608d0102e1c97c1b849fca7cbe7d625e91a6", predecessor_factual_delta: none_exact_ready_blob, proposed_ready_blob: "a8a696c1578ea9a3af7b349685c42107798aecc7"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2981

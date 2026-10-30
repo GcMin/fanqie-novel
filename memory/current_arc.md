@@ -1,3 +1,9 @@
+# 第393—394章 Audit 双遍Reader/QA与 ARC-054 外侧联络要求转办（2026-10-30）
+
+- 第393章原draft `f76aabfff39ef916d0d85f3e213758d942a94dc8`独立Reader先Pass A后Pass B 0/0/2，正文无改动，独立Continuity/Style/Meaningful QA PASS，拟ready `a8a696c1578ea9a3af7b349685c42107798aecc7`；依赖392正式ready SHA精确匹配。Day254高岩货车到旧东工门触发定位假完成，22:34南岸八件真签（裂脚导向牌另待检）。Day255依法先核2016维修联络资料一册，再获最小许可读一行：22:44外侧临时联络台收回拨要求。16:08后续办理申请仅受理，不证已回拨或技术进里侧。
+- 第394章原稿 `1080f0a434d0f4b88a0d76e259b7c58f9a23b146` Reader 0/3/2：标题将通话未知错断为未接、上章393仍绑临时稿、Day256末段错称前一日赵安改派为“今晚”；Stage A只修三项并重算字数，正文一处局部修，生成新draft `c28aaad025a42fc1a7700ca4e32d0fa2f2aa2574`。重新独立Reader双遍0/0/2，独立QA PASS，拟ready `adf69365cd3770552441720907bc1d790636b3d5`。393原draft与正式ready小说正文完全相同仅FM改变，394已重绑 `a8a696c1578ea9a3af7b349685c42107798aecc7`。Day255 22:11赵安本人真收南岸改派22:36另批真交，旧东工门仍禁公众且仅本批人工纠错。Day256合法核2016同笔回拨要求22:51转维修夜间联络席22:56岗位真收，与公众22:48围隔解除/运营许可22:50截止不同业务，仍不能推电话是否拨接或技术队里侧进场。
+- 原Day195带旧字窄片一件原封新站到Day261 16:00，其余两旧件原设施所；2011/2020/Day195跨年同物、旧字作者、沈家私人票、F008/M004/M005均未证。过去137→138等特殊SHA依赖不因本次两章重绑而冒充重新审定。内容QA不代替精确候选结构CI，必须真正SUCCESS才从draft迁入main ready。
+
 # 第392章Reader Stage A新SHA双遍复审与ARC-054历史十二分钟真实运营围隔（2026-10-30）
 
 392原草稿 `8bfbafec907025f4531acfb5f620a392d7e96025` 首次Reader Pass A/B 0 BLOCKER/1 MAJOR/2 MINOR，唯一MAJOR为依391旧临时draft `e423d565e02f54331536e92bcb68f2c53031e8b5` provisional。真实核391原draft与正式ready `a1f96ca4024d718789fd59e63d4805105b5a5ba1` 的小说正文**逐字相同，只有交付Front Matter变化**。Stage A仅将392 Front Matter和详纲依赖改指391正式ready、改标verified_predecessor_body_identical，392**正文0字修改**，产生新draft Blob `79ac3cd043ab8d1cda1d6d7850cf6c116491faf0`；新SHA另独立先Pass A读392与389—391正式ready及近十章摘要文风，再Pass B核Canon/ARC-054/角色知识/世界/timeline/F003，Reader **0/0/2**。独立Continuity/Style/Meaningful QA PASS、3424有效字，MINOR不强制改正文。结构精确候选Git CI成功前不得声称ready已正式生效。

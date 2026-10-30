@@ -14,7 +14,7 @@
 - count_method: "正文Unicode非空白字符（含标点），不含Front Matter"
 - target_effective_chars: 3000
 - actual_effective_chars: 2981
-- publish_gate: pending_independent_audit
+- publish_gate: independent_reader_qa_pass_precise_candidate_ci_required
 
 ## 本章目标与开场
 
@@ -50,3 +50,8 @@
 - 直接前章为ready正式正文，绑定完整Git Blob SHA `a3ab608d0102e1c97c1b849fca7cbe7d625e91a6`；非临时草稿。时间从Day254 20:17后开始，白班资料阅查在Day255由有权档案与马芸罗经办合法完成，夜班20:00后据正式回执记录。
 - 公众围隔12分钟不推出技术人员进里侧，联络要求收到不等于回拨完成；签收货物和进入定位范围分开，现封物与普通回收物不混淆。
 - 草稿Front Matter仅draft/pending/null/draft，待独立Audit审核。
+
+
+## 2026-10-30 独立Audit复核
+- 本章草稿SHA `f76aabfff39ef916d0d85f3e213758d942a94dc8`，独立Reader Pass A/B = 0/0/2，无任何正文修订；独立Continuity/Style/Meaningful QA PASS，拟ready Blob `a8a696c1578ea9a3af7b349685c42107798aecc7`。
+- 依赖前章392正式ready `a3ab608d0102e1c97c1b849fca7cbe7d625e91a6` 完全一致；必须精确候选Commit的unittest及`publisher.check_local` CI成功后才能进入main ready。

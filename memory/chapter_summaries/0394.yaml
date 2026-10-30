@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 394
+title: "签收的是要求，不是通话"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "1080f0a434d0f4b88a0d76e259b7c58f9a23b146"
+source_draft_sha: "c28aaad025a42fc1a7700ca4e32d0fa2f2aa2574"
+initial_review: reader_reviews/0394_1080f0a4.md
+reader_review: reader_reviews/0394_c28aaad0.md
+depends_on_chapter: 393
+depends_on_source_sha: "a8a696c1578ea9a3af7b349685c42107798aecc7"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day255 20:37—Day256 20:23"
+summary: >-
+  Day255 20:37高岩收到公司误按前夜20:42旧东工门定位绿格计算滞留扣罚，夜间中心仅按其授权给出前夜22:34南岸真实签八件货物的本笔有源事实回执，不裁劳动结算；21:06发现第二辆司机赵安仍被派旧站东工门，21:58有权调度只对本批两单人工停用旧定位点自动完结并重发真实南岸路线且保留原错单，22:11赵安本人收到确认、22:36南岸另批两盏警示灯及一箱路锥配件真正签收，旧东工门未对公众开放，系统整体未修。Day256 09:18罗经办依据前日16:08办理回执申请得到分项范围答复，10:07正式限项许可生效10:52依法见同一2016-05-11 22:44外侧台“要求回拨接收”事项于22:51转交维修夜间联络值守席、22:56有权岗位签收；后续电话凭据不在开放范围，不能证真实电话拨接、技术队进里侧或复核结论，晚于当晚公众围隔22:48解除和许可22:50终止仅为消息流转。Day256 20:23公司扣罚仅进入人工复核，未撤销或付款，夏宁周衡梁策按白班有源结果分源接报。Day195旧字窄片一件新周转站原封至Day261 16:00，另外两旧拆件仍原设施所；跨年同物、旧字作者、沈家私票及F008/M004/M005仍未确证。
+meaningful_state_changes:
+  - "本批第二辆车发现错误导航后经有权调度真正改派且赵安22:11本人确认22:36真交，未泛化全局修复。"
+  - "2016回拨要求首次依法查到22:51转交、22:56下游值守岗位签收，而真实通话结果仍未知。"
+knowledge_updates:
+  - "高岩本笔事实更正被公司接收但扣罚只人工复核，人员真实签收与定位圈状态不同。"
+  - "罗经办马芸知旧业务要求转送和岗位接续时刻，不知道电话拨出、接通、请求人身份或里侧实际施工。"
+relationship_updates:
+  - "中心尊重司机仅授权本笔事实，不替雇主裁工资；马芸阻止罗经办从业务岗位签收推测施工人员一直在现场。"
+foreshadowing_updates:
+  - "F003新增2016回拨要求22:51真实转交和22:56岗位收讫证据，但不证电话与里侧检查；F008/M004/M005无新确证。"
+ending_state: "Day256 20:23当代第二辆车真交、旧地址当批人工更正且高岩扣罚待人工复核；2016外台回拨要求有源转交与岗位签收，实际回话未知；现窄片封至Day261 16:00另两旧件原所。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1080f0a434d0f4b88a0d76e259b7c58f9a23b146", final_draft_sha: "c28aaad025a42fc1a7700ca4e32d0fa2f2aa2574", initial_counts: "0/3/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, corrected_issue: "标题越过通话证据、393临时依赖重绑ready及Day256夜‘今晚’改‘昨晚’", predecessor_original_draft_sha: "f76aabfff39ef916d0d85f3e213758d942a94dc8", predecessor_ready_blob: "a8a696c1578ea9a3af7b349685c42107798aecc7", predecessor_body_identical: true, proposed_ready_blob: "adf69365cd3770552441720907bc1d790636b3d5"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3417

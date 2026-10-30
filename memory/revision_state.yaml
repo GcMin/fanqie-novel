@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 392
+current_chapter: 394
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0392.md
-current_source_sha: 79ac3cd043ab8d1cda1d6d7850cf6c116491faf0
-current_review_path: reader_reviews/0392_79ac3cd0.md
+current_source_path: chapters/draft/0394.md
+current_source_sha: c28aaad025a42fc1a7700ca4e32d0fa2f2aa2574
+current_review_path: reader_reviews/0394_c28aaad0.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0392_stageA_prev_ready_rebind_and_new_reader_qa
+last_action: audit_0393_0394_reader_stageA_rereview_qa
 last_action_date: 2026-10-30
 last_error: null
-last_diff_summary: "392初审0/1/2，Stage A仅将391旧draft依赖重绑正式ready并同步详纲；391/392正文相同，392新SHA独立Reader0/0/2与QA PASS，待精确候选CI。"
+last_diff_summary: "393原稿Reader0/0/2正文未改；394初审0/3/2，StageA仅修标题越证、393依赖重绑及Day256今昨时态，变更后新SHA Reader0/0/2。两章独立内容QA通过，结构仍须精确CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 79ac3cd043ab8d1cda1d6d7850cf6c116491faf0
+current_review_source_sha: c28aaad025a42fc1a7700ca4e32d0fa2f2aa2574
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -43,7 +43,7 @@ combined_audit_final_20261015:
   note: "前版Reader意见只绑定前版SHA；修订后新的Reader报告已存在并通过。"
 
 # source_sha of the final Reader Review refers to original draft; ready differs by metadata fields only.
-current_review_source_sha: 3bc8c3794d60ab95bceb45f35dc9c365c5f4e98f
+current_review_source_sha: c28aaad025a42fc1a7700ca4e32d0fa2f2aa2574
  
 combined_audit_chapter_154:
   stage: local_revision
@@ -2278,5 +2278,36 @@ combined_audit_chapter_392_20261030:
   predecessor_ready_blob: "a1f96ca4024d718789fd59e63d4805105b5a5ba1"
   predecessor_body_identical: true
   proposed_ready_blob: "a3ab608d0102e1c97c1b849fca7cbe7d625e91a6"
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_393_20261030:
+  chapter: 393
+  original_sha: "f76aabfff39ef916d0d85f3e213758d942a94dc8"
+  final_sha: "f76aabfff39ef916d0d85f3e213758d942a94dc8"
+  final_review: reader_reviews/0393_f76aabff.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "a3ab608d0102e1c97c1b849fca7cbe7d625e91a6"
+  proposed_ready_blob: "a8a696c1578ea9a3af7b349685c42107798aecc7"
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_394_20261030:
+  chapter: 394
+  original_sha: "1080f0a434d0f4b88a0d76e259b7c58f9a23b146"
+  initial_review: reader_reviews/0394_1080f0a4.md
+  initial_counts: {blocker: 0, major: 3, minor: 2}
+  final_sha: "c28aaad025a42fc1a7700ca4e32d0fa2f2aa2574"
+  final_review: reader_reviews/0394_c28aaad0.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  corrected_issue: "越证标题、前章正式ready依赖和Day256晚今昨时态"
+  predecessor_original_draft_sha: "f76aabfff39ef916d0d85f3e213758d942a94dc8"
+  predecessor_ready_blob: "a8a696c1578ea9a3af7b349685c42107798aecc7"
+  predecessor_body_identical: true
+  proposed_ready_blob: "adf69365cd3770552441720907bc1d790636b3d5"
   continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required

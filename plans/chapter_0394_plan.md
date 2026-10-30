@@ -1,4 +1,4 @@
-# 第394章详细章纲｜签收过的人，没接过电话
+# 第394章详细章纲｜签收的是要求，不是通话
 
 - chapter: 394
 - volume: 6
@@ -6,19 +6,19 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "486a15881def44ef782877a49d18be44c091abec"
 - depends_on_chapter: 393
-- depends_on_source_sha: "f76aabfff39ef916d0d85f3e213758d942a94dc8"
-- dependency_status: provisional
-- continuity_precheck: provisional_predecessor_draft_exact_blob
+- depends_on_source_sha: "a8a696c1578ea9a3af7b349685c42107798aecc7"
+- dependency_status: verified_predecessor_body_identical
+- continuity_precheck: verified_predecessor_body_identical
 - timeframe: "Day255 20:37—Day256 20:23"
 - pov: "周衡、夏宁与梁策夜班有限第三人称；罗经办、马芸白班有限第三人称"
 - count_method: "正文Unicode非空白字符（含标点），不含Front Matter"
 - target_effective_chars: 3000
-- actual_effective_chars: 3414
-- publish_gate: pending_independent_audit
+- actual_effective_chars: 3417
+- publish_gate: independent_reader_qa_pass_precise_candidate_ci_required
 
 ## 本章目标与开场
 
-承接第393章尚未审核的draft原始Git Blob `f76aabfff39ef916d0d85f3e213758d942a94dc8`，只将其作为provisional连续性来源，不视为正式Canon。Day255 20:14周衡夏宁刚获知：前夜货车高岩在旧站东工门被定位误判交接完毕，真正收件在南岸周转棚22:34；2016-05-11旧站西端联络台22:44真实收到一笔回拨要求，当时办理回执查询仅收件待审。新章以一次有现实利益损失的错报结算与第二辆货车危险重发推进当代案；白班合法确认旧回拨要求的下一实际接续岗位，不擅自推出通话或进场。
+承接第393章已通过独立Reader和QA的正式ready Git Blob `a8a696c1578ea9a3af7b349685c42107798aecc7`，已比较393原draft与ready小说正文逐字相同，差异仅Front Matter，不再沿用临时事实。Day255 20:14周衡夏宁刚获知：前夜货车高岩在旧站东工门被定位误判交接完毕，真正收件在南岸周转棚22:34；2016-05-11旧站西端联络台22:44真实收到一笔回拨要求，当时办理回执查询仅收件待审。新章以一次有现实利益损失的错报结算与第二辆货车危险重发推进当代案；白班合法确认旧回拨要求的下一实际接续岗位，不擅自推出通话或进场。
 
 ## 人物诉求与阻碍
 
@@ -48,6 +48,12 @@
 ## Continuity Precheck
 
 - 本轮从GitHub main的published、ready、draft三目录实际检得最新章节393，153已在published。拟新增394两个文件此前均不存在。
-- 直接前章393处于未审draft，依赖具体Blob `f76aabfff39ef916d0d85f3e213758d942a94dc8`，仅provisional；白班所有后续2016资料发现需通过Day256真实许可，不先写已批。
+- 直接前章393现已通过独立Audit，依赖正式ready Blob `a8a696c1578ea9a3af7b349685c42107798aecc7`，已逐字核实原draft/ready正文无事实变化；白班所有后续2016资料发现需通过Day256真实许可，不先写已批。
 - Day255夜班承接393的20:14后，Day256白班后20:00再回夜间中心；2016时间链三十分钟拟申请、十五分钟获批、十二分钟实际围隔和22:44外侧要求不混淆。
 - 货车旧东工门及施工便道仍禁公众，Day195封袋与两件旧拆件不移动；本章Front Matter仅draft/pending/null/draft，待独立审核。
+
+
+## 2026-10-30 独立Audit修订、QA和前章事实比较
+- Writer初稿 `1080f0a434d0f4b88a0d76e259b7c58f9a23b146` 依赖393临时草稿 `f76aabfff39ef916d0d85f3e213758d942a94dc8`，原Reader独立双遍0 BLOCKER/3 MAJOR/2 MINOR。三MAJOR：题名将未知电话误写成没接；上章SHA provisional；Day256夜错指Day255 22:11改派为今晚。
+- Stage A只局部修题名、依赖Front Matter、末段“昨晚的改派指令”和字数，正文仅1处局部改动；新草稿 `c28aaad025a42fc1a7700ca4e32d0fa2f2aa2574` 重新独立双遍Reader0/0/2、Continuity/Style/Meaningful QA PASS；3417有效字，拟ready `adf69365cd3770552441720907bc1d790636b3d5`。
+- 393原draft `f76aabfff39ef916d0d85f3e213758d942a94dc8` 与正式ready `a8a696c1578ea9a3af7b349685c42107798aecc7` 正文逐字相同仅交付Front Matter不同，已重绑依赖 verified_predecessor_body_identical。仍须精确候选Git commit结构CI通过后才可迁main ready。
