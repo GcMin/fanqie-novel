@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 385
+last_updated_chapter: 386
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1393,3 +1393,10 @@ chapter_385_relations_verified:
   asset_and_archive: "主管关注长期短托成本但按马芸建议仅批准有条件两日短托，不用档案题名给资产强定历史身份；档案与周转各有权批准且互不替代。"
   lao_qi: "自认反复看里侧题名可能污染Day245原本人目认，主动避免凭后见进行复认。"
   night_center: "夏宁周衡梁策按Day247正式回执分资产单件续托和目录后补来源，不代签、不把未阅封套做照片鉴定。"
+
+chapter_386_relations_verified:
+  chapter: 386
+  source_sha: "201155bf79cba9d70014f372b24835d978233f67"
+  asset_and_archive: "马芸以合法单页限定答复主管，主管因Day249到期要求继续查原业务号而不将新退件纸当现物鉴定；罗经办从寻找照片转为有权限项查询回交册，档案岗位遮蔽个人字段而拒超页。"
+  night_center: "夏宁周衡梁策Day248 20:16仅确认白班已合法阅首张及新查询待审，把保管期限与历史回交核对分开，不代资产或档案岗位签批。"
+  lao_qi: "Day245本人限定目认与后见编目提示均保留，386章未要求老齐复认或凭新纸补造旧亲历。"

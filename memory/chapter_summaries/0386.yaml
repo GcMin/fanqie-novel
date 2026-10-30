@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 386
+title: "退件栏里没有复核日期"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "6c679bb246cb0cd763d2fcc67b831f42ae20dcba"
+source_draft_sha: "201155bf79cba9d70014f372b24835d978233f67"
+initial_review: reader_reviews/0386_6c679bb2.md
+reader_review: reader_reviews/0386_201155bf.md
+depends_on_chapter: 385
+depends_on_source_sha: "397094e24a260475b2404f49e7dcbdead6315f2f"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day247 20:42—Day248 20:16"
+summary: >-
+  Day247 20:42夏宁周衡只见封套乙受理号“回复已生成”，无附件与实际许可，留待申请人次日核。Day248 09:56马芸罗经办到原设施所旧档案室，档案管理岗位正式分项答复只限封套乙指定首张行政流转页与公开字段，背面及其余粘附页未准；10:28真批、13:09受控启封并仅合法阅一面，原页并非照片，而是2016年4月《补证退回登记》：外侧固定件记录已附、里侧遮挡位置检查依据未随本批提交，要求补证；退件接收有岗位签收，而补证回交日期和复核结论在本页无可核值。此只证曾提出补证要求，不能证后续完全未回交或已复核，更不能推2011/2020/Day195现窄片唯一身份；2016原施工外板两螺栓两垫圈、内衬当次未拆仍有效。14:27受控归封套独立柜位，15:12领有限摘录，16:06据公开业务号另申请查旧回交册仅真实受理待审。20:16夜班有源接报分栏。新周转站Day195窄片单件原封原柜现托到Day249 16:00，另外两件旧拆件仍原设施所且未搬；540元原报价/600元预算批准不等于付款，下一次短托待有权决定。红字作者年月、沈家私票同源、跨年同物与F008/M004/M005均未证。
+meaningful_state_changes:
+  - "封套乙指定首张在档案岗位受控合法阅看，2016退件材料确有里侧检查依据待补的行政要求，非既成复核结论。"
+  - "获得限项摘录并据原公开业务号向旧收发簿提出更窄回交核查，申请真实受理但尚未获准阅查。"
+knowledge_updates:
+  - "马芸罗经办知原页是补证退回登记不是照片；受理退件和补证回交不是一事，空白栏不能推全史否定。"
+  - "夏宁周衡梁策在Day248 20:16仅据白班有源获指定首张结论及新查询待审，封套余页、旧物作者年代及唯一同一仍未知。"
+relationship_updates:
+  - "罗经办在马芸和档案员明确限制下由追求直接定年改为查明确可检的退件回交号；主管尊重档案权限但强调Day249续托成本责任。"
+foreshadowing_updates:
+  - "F003新添2016里侧补证退回有源原纸及后续回交待查，新页不等于历史物证同一；F008/M004/M005无新证。"
+ending_state: "Day248 20:16封套乙仅指定首张旧退件页已阅并留摘录、回交查询仅受理；现存窄片周转站单件原封至Day249 16:00，两件旧件未搬，历史同物未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6c679bb246cb0cd763d2fcc67b831f42ae20dcba", final_draft_sha: "201155bf79cba9d70014f372b24835d978233f67", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, corrected_issue: "Day248午称两天后到期改次日Day249 16:00", predecessor_ready_blob: "397094e24a260475b2404f49e7dcbdead6315f2f", predecessor_factual_delta: none_exact_ready_blob, proposed_ready_blob: "c6c3c58d8a0c7d02f4e015af84e0a001b3a6f913"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3349

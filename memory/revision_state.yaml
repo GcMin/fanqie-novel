@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 385
+current_chapter: 386
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0385.md
-current_source_sha: a97cbc38d60d791b670bea00691eee485e3702f7
-current_review_path: reader_reviews/0385_a97cbc38.md
+current_source_path: chapters/draft/0386.md
+current_source_sha: 201155bf79cba9d70014f372b24835d978233f67
+current_review_path: reader_reviews/0386_201155bf.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0385_stage_a_new_sha_reader_qa_candidate
+last_action: audit_0386_stage_a_new_sha_reader_qa_candidate
 last_action_date: 2026-10-30
 last_error: null
-last_diff_summary: "385初审0/3/2修正两个Day日期错误与384正文变化后的前章依赖，新SHA Reader0/0/2、独立内容QA PASS。"
+last_diff_summary: "386初审0/1/2只改Day248次日受托到期时限，3340变3349，新SHA Reader0/0/2，独立内容QA PASS。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: a97cbc38d60d791b670bea00691eee485e3702f7
+current_review_source_sha: 201155bf79cba9d70014f372b24835d978233f67
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -2164,5 +2164,22 @@ combined_audit_chapter_383_20261030:
   predecessor_ready_blob: "3d7d4b1d67ba32163d2456d15016ab573d9ca5ac"
   predecessor_body_identical: false
   predecessor_factual_delta: "382白班时点及当日待送描述有修改而383开场兼容"
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_386_20261030:
+  chapter: 386
+  original_sha: "6c679bb246cb0cd763d2fcc67b831f42ae20dcba"
+  initial_review: reader_reviews/0386_6c679bb2.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "201155bf79cba9d70014f372b24835d978233f67"
+  final_review: reader_reviews/0386_201155bf.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  corrected_issue: "Day248明天下午四点即到期"
+  predecessor_ready_blob: "397094e24a260475b2404f49e7dcbdead6315f2f"
+  predecessor_factual_delta: none_exact_ready_blob
+  proposed_ready_blob: "c6c3c58d8a0c7d02f4e015af84e0a001b3a6f913"
   continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required

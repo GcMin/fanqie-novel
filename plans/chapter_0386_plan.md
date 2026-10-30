@@ -12,8 +12,8 @@
 - timeframe: "Day247 20:42—Day248 20:16"
 - count_method: "正文非空白Unicode字符（含标点、不含Front Matter）"
 - target_effective_chars: 3000
-- actual_effective_chars: 3340
-- publish_gate: pending_independent_reader_QA
+- actual_effective_chars: 3349
+- publish_gate: reader_QA_pass_exact_candidate_CI_required
 - pov: "夜间中心周衡、夏宁、梁策有限第三人称；白班马芸、罗经办与档案管理岗位有限第三人称"
 
 ## 章节目标与开场
@@ -49,3 +49,13 @@
 - 周衡夏宁梁策只在Day247/248 20时后夜班核白班有源消息，不白天出现在原设施所审批与核档现场；各岗位权限独立。
 - F003只追加有界旧纸来源；F008无新的可靠亲历事件记忆矛盾，F009/F010/F011 resolved，M004/M005不据普通受理手续推定历史机制；沈家私票来源与红字作者年月未证、旧站东工门与维修道仍禁公众。
 - Writer只新增本章详细章纲与首稿，不读历史Reader Review，不执行Reader、Revision、QA、Memory、ready或平台发布。
+
+## 唯一 Audit 后续审核与局部修订回执（2026-10-30）
+
+- initial_reader: reader_reviews/0386_6c679bb2.md，0 BLOCKER / 1 MAJOR / 2 MINOR。
+- stage_a: 仅修改Day248中午“**两天后的费用**”→“**明天下午四点就到期了，续不续托得重新决定**”；正文外的字符数相应从3340更新至3349。
+- revised_draft_blob: 201155bf79cba9d70014f372b24835d978233f67
+- revised_reader: reader_reviews/0386_201155bf.md，独立Pass A→B后0 BLOCKER / 0 MAJOR / 2 MINOR。
+- predecessor: chapter385正式ready 397094e24a260475b2404f49e7dcbdead6315f2f，SHA与正文依赖精确匹配，无前章事实变化冲突。
+- continuity_style_qa: pass；meaningful_change: pass；structural: requires exact candidate commit CI success before main ready。
+- ready_blob_proposed: c6c3c58d8a0c7d02f4e015af84e0a001b3a6f913
