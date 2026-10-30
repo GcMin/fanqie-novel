@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 388
-last_reviewed_title: "收下的是一本簿"
-last_source_path: chapters/draft/0388.md
-last_source_sha: dd693a9aa42e721aefa7832725871f37a61499a3
-last_review_path: reader_reviews/0388_dd693a9a.md
+last_reviewed_chapter: 389
+last_reviewed_title: "交到窗口的只是一张说明"
+last_source_path: chapters/draft/0389.md
+last_source_sha: 0391da7d50c84feec4c1331ffded4f50c63c69af
+last_review_path: reader_reviews/0389_0391da7d.md
 last_reviewed_at: "2026-10-30"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,14 +12,14 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 387
-depends_on_source_sha: 7cd5c03546509da40668581d294b20d4a16c0b02
+depends_on_chapter: 388
+depends_on_source_sha: dc1d853b011ac830d4718e52fce0f2cdb97b9920
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 7cd5c03546509da40668581d294b20d4a16c0b02
+predecessor_current_source_sha: dc1d853b011ac830d4718e52fce0f2cdb97b9920
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-original_source_sha: dd693a9aa42e721aefa7832725871f37a61499a3
-initial_review_path: reader_reviews/0388_dd693a9a.md
+original_source_sha: 0391da7d50c84feec4c1331ffded4f50c63c69af
+initial_review_path: reader_reviews/0389_0391da7d.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
 combined_audit_backfill:
@@ -2734,5 +2734,18 @@ chapter_388_reader_20261030:
   predecessor_sha_mismatch: false
   predecessor_factual_delta: none_exact_ready_blob
   proposed_ready_blob: "dc1d853b011ac830d4718e52fce0f2cdb97b9920"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_389_reader_20261030:
+  chapter: 389
+  source_sha: "0391da7d50c84feec4c1331ffded4f50c63c69af"
+  review: reader_reviews/0389_0391da7d.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "dc1d853b011ac830d4718e52fce0f2cdb97b9920"
+  predecessor_sha_mismatch: false
+  predecessor_factual_delta: none_exact_ready_blob
+  proposed_ready_blob: "8456859e52a118c1ef833fa75ecf5ca605e6f877"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

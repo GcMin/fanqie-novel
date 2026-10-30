@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 388
+last_updated_chapter: 389
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1414,4 +1414,12 @@ chapter_388_relations_verified:
   lao_qi_ma_yun: "老齐因未采用样表恐被要求代证2016补证交回，马芸和罗经办保护其Day245限定亲历范围，撤去违规待签表并留原状态，不逼其新签口径。"
   archive_and_asset: "罗经办不再让旧催办CB号与另一业务簿混同，马芸凭实际保管人和审批找到2019转管的一册目录证据；主管接受另给现物Day251 16:00真实有权处置选项而非借旧历史题名代签。"
   night_center: "夏宁周衡梁策夜班只据老齐本人来电记录担忧，Day250仅接白班目录级摘录与新限项阅簿待审回告，不盗用个人证词或越档案/资产审批权限。"
+  trust_scores_unchanged: true
+
+chapter_389_relations_verified:
+  chapter: 389
+  source_sha: "0391da7d50c84feec4c1331ffded4f50c63c69af"
+  archive_and_asset: "罗经办最初想用补证已交的表头预断结论，马芸与有责档案员让她按权限只看原退件号的2016年5月9日一页说明收讫，并尊重未开放的正文/技术卷。资产主管拒虚构2011身份，在有责双方签署后仍承担三日真实保管费用压力。"
+  night_center: "周衡夏宁梁策Day250夜先管候车区域实际安全，Day251夜按白班授权事实分开技术收件、现物受托、实付款和道路隐患核验，不替其他单位签结论。"
+  source_boundary: "老齐旧个人亲历范围没有扩张；新2016收件簿业务戳不需由老齐代签或与其见闻合并认现窄片身份。"
   trust_scores_unchanged: true

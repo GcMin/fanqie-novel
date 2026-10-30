@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 389
+title: "交到窗口的只是一张说明"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "0391da7d50c84feec4c1331ffded4f50c63c69af"
+source_draft_sha: "0391da7d50c84feec4c1331ffded4f50c63c69af"
+reader_review: reader_reviews/0389_0391da7d.md
+depends_on_chapter: 388
+depends_on_source_sha: "dc1d853b011ac830d4718e52fce0f2cdb97b9920"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day250 20:31—Day251 20:16"
+summary: >-
+  Day250 20:31周衡夏宁梁策夜班受理河渚路三盏灯灭和松动导流板，系统派修完成仅指派单，21:09道路岗先隔开不安全候车带，照明与道路检查分权。Day251 08:46马芸罗经办依Day250 16:02对市政工程资料中心原退件号登记行待审申请补范围，09:26消除预览表头预断“补证已交”，10:18获得仅登记行日期、材料种类、开放状态的真正限定许可。11:26在受控终端依法见2016年5月9日原退件号对应“补充情况说明，一页”及当年业务岗实际收讫戳记，独立于2019整册入库和先前CB07催办通知收讫；但一页说明正文、附件、现存、技术审核卷与里侧复核结论均未获准查，不推已做技术复核或从未做过。13:17资产主管拒旧模板无依据的“2011原始里侧板”名称，未用历史纸鉴定现存窄片；13:42新站三日单件原柜原封报价780元、14:08内部预算上限850元获批不等于付款或长托；15:11原设施所与15:29新站两有权人真签，15:41实际登记Day195现存带旧字窄片单件原封续托至Day254 16:00，早于Day251 16:00到期，无出库开袋，其余两旧拆件仍旧所。Day251 20:16中心夜班仅接两份有源限项回告，照明专业换件不代道路岗对导流板最后验收；旧字作者年代、2011/2020/Day195唯一同件、沈家私票同源和F008/M004/M005均未确认。
+meaningful_state_changes:
+  - "第一次在真实获批范围内核到2016-05-09原退件业务行确收补充情况说明一页，和CB催办收讫、2019整册转管分开。"
+  - "Day251 15:41原封单件合法续托至Day254 16:00，现存物证保管责任无断档、其它两件未动。"
+  - "河渚路候车安全真实限行，后续照明与松动导流板分别待有权核验，未伪造全部完成。"
+knowledge_updates:
+  - "马芸罗经办合法看见一条2016材料种类和收讫业务戳，知道技术审定结论及单页内容/现存尚未知。"
+  - "夏宁周衡梁策仅Day251夜班有源获一页收件和续托真实登记，不越权拿说明推历史物件身份或付款。"
+relationship_updates:
+  - "罗经办从急于用一句收件概括补证，转为询问说明是否现存与保管索引；马芸制止越证推断。"
+  - "资产主管拒绝虚构2011身份模板，相关保管机构按实物封号和当日签署承担限定责任。"
+foreshadowing_updates:
+  - "F003新增合法2016一页说明真实收讫而不证里侧复核或现件同一；F008、M004、M005没有新确证。"
+ending_state: "Day251 20:16一页说明2016确有收件但正文及技术验收未知；Day195窄片原柜原封一件受托到Day254 16:00，两旧拆件留原设施所；公交灯已换但导流板复核待办。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0391da7d50c84feec4c1331ffded4f50c63c69af", final_draft_sha: "0391da7d50c84feec4c1331ffded4f50c63c69af", initial_counts: "0/0/2", final_counts: "0/0/2", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "dc1d853b011ac830d4718e52fce0f2cdb97b9920", predecessor_factual_delta: none_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3466
