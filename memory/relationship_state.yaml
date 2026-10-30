@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 396
+last_updated_chapter: 398
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1474,4 +1474,18 @@ chapter_396_relations_verified:
   source_sha: "a09d727ad1b40bba9f370834eb0948e9169f1462"
   night_center_driver: "高岩拒让有责派车错误改写成司机自行绕行，只要求保留有源截图及真实有限配置结果；夏宁周衡梁策把本人未进禁路、公司运维限定操作和本笔工资不同状态分开。"
   archive_and_asset: "罗经办由想把原台岗位签收写作回拨人获悉转向查跨日真实交接；马芸以亲身经历提醒两者责任不能混签，档案岗位限项开放不越界；主管仍不凭旧通讯件改现封物身份。"
+  trust_scores_unchanged: true
+
+chapter_397_relations_verified:
+  chapter: 397
+  source_sha: "d887677453390d23d83c632d5977b1e07e9ad002"
+  public_road: "周衡不许田女士为系统派工自行试路或绕车道；有责道路岗实际复开后白班17:28按约本人回告，不代任何邻居签满意。"
+  archives: "罗经办接纳马芸与档案员纠正只用公开交接字段，不把人员接收当真核源/本人获答。"
+  trust_scores_unchanged: true
+
+chapter_398_relations_verified:
+  chapter: 398
+  source_sha: "39557f7382c85cd5d5fd45fdd5e7e80bdfa9d7cb"
+  elevator: "中心与持证维保/急救/消防分工救两人，物业不擅撬门、不代配送或医学事实签认；电梯持续停用。"
+  archives: "罗经办要求纠正错误号码题头并保留原预览编号，马芸支持有权范围内逐行核源类别和岗位去向。"
   trust_scores_unchanged: true
