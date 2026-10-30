@@ -13,10 +13,10 @@
 - pov: "周衡、夏宁、梁策有限第三人称；罗经办与马芸只在正式限项许可范围内获知旧档"
 - target_effective_chars: 3200
 - actual_effective_chars: 3538
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 
 ## 本章目标和开场
 承第408章已正式ready的Day270 20:16夜班交接。本章围绕“缴费结束、系统取车状态与本人真实取走”分离，解决桂汀街停放棚谢棠车轮仍被锁的当夜事件，另依法调查2018旧封外封单侧移出是否有匹配接收页。谢棠希望在上夜班前取回自己车辆、保留耽误时间；周衡希望在不越权碰电气装置前提下取得实证；夏宁需保存错误历史；梁策先要安全通路和有权处置。罗经办只得在其档案许可内查本次外封交接，马芸保证不会把岗位收封当自然人获答。
@@ -43,3 +43,9 @@
 
 ## 结尾与承接
 新案保留四号架停新单、运营映射整改、结算申诉后续；历史新申请仅受理，旧纸内文及真人回告仍未证。目标3200字，实际按非空白字符计数为3538。待独立Reader、QA、Memory和Publish Gate。
+
+## Audit｜2026-10-31
+
+- 第409章原draft Blob `2bf3855c9909fa5f8439756553247849381df4d2`，依赖第408章正式ready `9e839e42e7ea67fef1a7c9943d915245187cc744` 精确一致；正文无修订。
+- 独立Reader先Pass A再Pass B：0 BLOCKER/0 MAJOR/2 MINOR，报告 `reader_reviews/0409_2bf3855c.md`；无需Revision。
+- Continuity/Style/Meaningful内容QA PASS：`qa/0409_report.md`；候选ready Blob `72cf6235092eed2ac2d50d1ae0ac005cdc3ef3ef`，只有精确候选Commit结构CI SUCCESS后才能放行main。

@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 409
+title: "缴费单结了，她的车还在棚里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "2bf3855c9909fa5f8439756553247849381df4d2"
+source_draft_sha: "2bf3855c9909fa5f8439756553247849381df4d2"
+reader_review: reader_reviews/0409_2bf3855c.md
+depends_on_chapter: 408
+depends_on_source_sha: "9e839e42e7ea67fef1a7c9943d915245187cc744"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day270 20:34—Day271 20:17"
+summary: >-
+  Day270 20:34谢棠报桂汀街四号电动车停放架充电计费已结束而平台误显已取车，机械锁仍扣轮；20:56物业真见车，21:08运营查20:12计费结束误映离场且锁反馈闭合；21:44有权维护与物业电气值守到场按程序检验，22:07真解锁，22:13谢棠本人试骑后签实际取车时间，车后续磨损与是否赶上班未知。Day271运营受控复现映射错误，11:36本点四号架暂不接新单，其余架待核；异常占用费用申诉只获受理不证退款。旧档线承408章Day270 14:21仅申请查2018外封移出后接收页：Day271 09:49范围答复10:26许可11:13依法查到2018-11-17 16:06同事项外封一件岗位签接，14:24另查下一公开核对节点仅收件；2016旧原纸是否在封或原来话人获答均未知。Day271 20:17中心分别记账面取车、本人真取车及历史岗位接外封。
+meaningful_state_changes:
+  - "谢棠Day270 22:13从误标已取车却被锁转为真正取走并签字，四号架暂停新单但申诉、其他架及隐患未了。"
+  - "F003新增2018-11-17 16:06外封一件岗位接收签认，补该次移架移出后接收节点；2016内页或原自然人获答未证。"
+knowledge_updates:
+  - "中心区分20:12计费结束、机械锁仍闭合、22:13本人实际取车及费用申诉仅受理，不推工作考勤或长期车况。"
+  - "罗经办马芸仅依合法许可核2018外封接收，不知谢棠私案、不知封内旧原纸或原人受答。"
+relationship_updates:
+  - "谢棠拒交排班、拒被代签已取车或满意，要求保留原错状态与本人签收时点；中心物业运营分责。"
+  - "罗经办接受岗位收外封与自然人收到回话是两回事，向马芸及档案员保持限项取证。"
+foreshadowing_updates:
+  - "F003补2018双侧外封节点，不能补全全段或证明2016原纸/旧人受答；Day195旧窄片原所独立柜另两旧拆件不并；F008/M004/M005均未证。"
+ending_state: "Day271 20:17谢棠22:13本人真实取车，四号限停新单，结算申请待办；2018外封本段移出接收可核，旧2016内纸、自然人获答及下一保管节点待证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "2bf3855c9909fa5f8439756553247849381df4d2", final_draft_sha: "2bf3855c9909fa5f8439756553247849381df4d2", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "9e839e42e7ea67fef1a7c9943d915245187cc744", proposed_ready_blob: "72cf6235092eed2ac2d50d1ae0ac005cdc3ef3ef"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3538

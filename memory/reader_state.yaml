@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 408
-last_reviewed_title: "铃声进了表，没人走到门前"
-last_source_path: chapters/draft/0408.md
-last_source_sha: 57cdaa729a680de695f447ea31511937a66d8fad
-last_review_path: reader_reviews/0408_57cdaa72.md
+last_reviewed_chapter: 409
+last_reviewed_title: "缴费单结了，她的车还在棚里"
+last_source_path: chapters/draft/0409.md
+last_source_sha: 2bf3855c9909fa5f8439756553247849381df4d2
+last_review_path: reader_reviews/0409_2bf3855c.md
 last_reviewed_at: "2026-10-31"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -3057,4 +3057,18 @@ chapter_408_audit_final:
   predecessor_body_identical: true
   content_qa: pass
   proposed_ready_blob: "9e839e42e7ea67fef1a7c9943d915245187cc744"
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_409_audit_final:
+  chapter: 409
+  original_source_sha: "2bf3855c9909fa5f8439756553247849381df4d2"
+  source_sha: "2bf3855c9909fa5f8439756553247849381df4d2"
+  reader_review: reader_reviews/0409_2bf3855c.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 1
+  body_revisions: 0
+  predecessor_ready_blob: "9e839e42e7ea67fef1a7c9943d915245187cc744"
+  predecessor_exact_ready_blob: true
+  content_qa: pass
+  proposed_ready_blob: "72cf6235092eed2ac2d50d1ae0ac005cdc3ef3ef"
   structural_gate: exact_candidate_commit_CI_required

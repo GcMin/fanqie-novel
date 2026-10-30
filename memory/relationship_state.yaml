@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 408
+last_updated_chapter: 409
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1554,4 +1554,11 @@ chapter_408_relations_verified:
   source_sha: "57cdaa729a680de695f447ea31511937a66d8fad"
   emergency: "齐筠不承认绿色网关回执代替有人真正到门，配合专业救援与急救，拒提供父亲住院照片或被代填满意。"
   archive: "马芸提示2017双签和2018移出只有分段节点；罗经办不将未见2018接收页视为外封物失踪。"
+  trust_scores_unchanged: true
+
+chapter_409_relations_verified:
+  chapter: 409
+  source_sha: "2bf3855c9909fa5f8439756553247849381df4d2"
+  parking: "谢棠拒交工作排班和被代填满意，要求有权专业实际放车并保留原假离场及真实取车时点；中心物业运营各司其职。"
+  archive: "罗经办遵马芸与档案员提醒，只把2018外封签收当岗位节点，继续申请下一公开记录，不越权猜旧人是否获答。"
   trust_scores_unchanged: true
