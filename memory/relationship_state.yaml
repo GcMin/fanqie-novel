@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 402
+last_updated_chapter: 404
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1517,4 +1517,18 @@ chapter_402_relations_verified:
   source_sha: "918f7be05f5bd4ac1df13c12afd3faef6b18e6f7"
   family_service: "林秀枝本人限定授权仅核本次到站，林晓芸保存原错短信促运营纠错而不索病历。"
   archive: "马芸纠正罗经办把窗口内撤误推无人领答的猜测，守开放字段。"
+  trust_scores_unchanged: true
+
+chapter_403_relations_verified:
+  chapter: 403
+  source_sha: "3d453bb23d9c97ecffe697b0d2132200e698aebb"
+  rain_shelter: "许芹明确不代邱阿姨孟崎确认各自授权和行程；周衡梁策夏宁与有权街道站方依现场核验保护三名避雨者，不让当事人自行走卸货口或被迫搬车。"
+  archive: "罗经办在马芸档案员指导下只记录公开撤柜类别和10:17内核任务接办，仍未将‘凭据未齐’写成来领者已被拒或已获答。"
+  trust_scores_unchanged: true
+
+chapter_404_relations_verified:
+  chapter: 404
+  source_sha: "97e21fafbcc124eed572c843ff865033d74a07c1"
+  lost_property: "陈荔拒绝被系统提前宣称领包，由有责站方配合本人限定验物并保留旧假状态；中心不代车站或本人签字。"
+  archive: "罗经办依自身可知的旧纸核办记录追问下一保管去向，马芸再次界定本项办结并非自然人收答；未伪造她知道蓝包案的消息渠道。"
   trust_scores_unchanged: true

@@ -1,0 +1,45 @@
+schema_version: 1
+chapter: 404
+title: "东侧窗口有人等那只蓝布包"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "416ab6d7846ae85bc1715a80be5bdd165e70144b"
+source_draft_sha: "97e21fafbcc124eed572c843ff865033d74a07c1"
+initial_review: reader_reviews/0404_416ab6d7.md
+reader_review: reader_reviews/0404_97e21faf.md
+depends_on_chapter: 403
+depends_on_source_sha: "829f89ff24d8b9b36eb04bb1ce8ffdff1dce9194"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day265 20:18—Day266 20:11"
+summary: >-
+  Day265 20:18陈荔在河西客运枢纽南厅外报丢蓝布包，线上误显乘客已领回，实际上19:54末班车入场后19:58司机真实交存触发状态误映。站方21:06有权核到柜内两只蓝包，陈荔本人自述背带黑补线、红绳、绿色眼镜盒及母亲缝有“荔”字的灰鞋垫，电话不公开柜内可供照抄的全部信息。21:34有权站方确认只可由东侧夜间服务窗口领，不能进入停车区；安保21:58沿公众步道实走，22:07管理岗授权移开两辆堵道清洁车，22:26站方真实把吻合蓝包从柜转东窗，陈荔本人同意验内物后22:42真签领。旧假“乘客已领回”保留原记录，站方仅批准本枢纽同类业务暂不把司机交存误推乘客已领，其他站点及历史缓存未证已修。Day266罗经办马芸承403章Day265 14:02旧核办后续公开结果申请，10:08分项范围答复10:46许可，11:11受控合法阅2016-05-13 10:17核办任务，11:42结果类别“现有受理关联不足以确认本笔窗口领取对应关系；对外告知方式仍待核定”；11:56内部任务为“本项办结，后续待补”，不得当成原来话人真的收到回告，也不知道缺失具体字段或旧纸保管去向；13:21领限定摘录14:07旧纸公开保管去向新申请仅受理待审。Day266 20:11夜班仅有源获本次本人真签与旧核办公开结论，罗经办没有独立得知蓝包案。Day195旧字窄片原所独立柜原封另两旧拆件不并；F008/M004/M005仍未确证。
+meaningful_state_changes:
+  - "蓝布包从司机实交存后被系统假标本人领回，转为经有权安全通路与本人验物后Day265 22:42真正交陈荔签收，保留原错误且仅本枢纽有限停误映。"
+  - "2016旧核办公开结果11:42取得关联不足、对外告知待核类别，11:56内部任务结束但后续待补；真实自然人外部领答未知。"
+knowledge_updates:
+  - "陈荔及有权站方知自己亲领与司机交存、线上状态各有独立来源；中心只在合法授权下协调，不知其他站点全面纠错。"
+  - "罗经办马芸只知旧档核办结果和任务状态，不能越场知道陈荔蓝包夜案，也不能把内部办结推外部告知。"
+relationship_updates:
+  - "陈荔坚持自己核包实签与留存早期假状态，站方尊重限定个人物件信息、不让她穿停车区。"
+  - "罗经办遵马芸提示从已阅旧纸记录提出下一合法去向申请，不凭现代普通误映推旧档必然同因。"
+foreshadowing_updates:
+  - "F003新增2016-05-13 11:42关联不足且告知待核与11:56本任务办结后续待补记录，纸本去向、自然人获答、旧字作者及机制仍未证；F008/M004/M005无新确证。"
+ending_state: "Day266 20:11陈荔蓝包22:42真实签领、本枢纽限定误映暂停；2016核办任务本项办结后续待补、原书面回告真正被谁保存及本人受答不证，Day266 14:07新申请待审；旧窄片原封原所独立柜。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace:
+  original_sha: "416ab6d7846ae85bc1715a80be5bdd165e70144b"
+  final_draft_sha: "97e21fafbcc124eed572c843ff865033d74a07c1"
+  initial_counts: "0/2/2"
+  final_counts: "0/0/2"
+  stage_a_used: 1
+  body_revisions: 1
+  corrected_issue: "前403旧临时SHA重绑实际ready，删除罗经办无渠道知道陈荔蓝包案的越权对白，保持历史旧纸独立知识边界。"
+  predecessor_original_draft_sha: "59e33b7747c9fdf837a8cf22fd64b449689dd72a"
+  predecessor_ready_blob: "829f89ff24d8b9b36eb04bb1ce8ffdff1dce9194"
+  predecessor_body_identical: true
+  proposed_ready_blob: "b0b3241c0960e5bcb9c40c10992d4fb9f9f002e9"
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3585

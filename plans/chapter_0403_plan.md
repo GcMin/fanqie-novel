@@ -6,17 +6,17 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "df3a6fddf775f8fd4b2fc3b04aa91ca7767bc35d"
 - depends_on_chapter: 402
-- depends_on_source_sha: "1d993c513a8e8e5bdf51973a527bd14eef7b0639"
-- dependency_status: provisional
+- depends_on_source_sha: "49b471fcd590d27d2e8b32e04197762e4a91c4f1"
+- dependency_status: verified_predecessor_body_identical
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: "Day264 20:23—Day265 20:16"
 - pov: "夜间中心周衡、夏宁、梁策有限第三人称；档案白班罗经办、马芸有限第三人称"
 - target_effective_chars: 3000
 - actual_effective_chars: 3386
-- status: draft
-- qa: pending
+- status: ready
+- qa: pass
 - approved_at: null
-- publish_mode: draft
+- publish_mode: ready
 
 ## 本章目标与依赖边界
 
@@ -51,3 +51,9 @@
 ## Writer Continuity Precheck（不替代 Reader / QA）
 
 本轮对 GitHub main df3a6fddf775f8fd4b2fc3b04aa91ca7767bc35d 真实读取 AGENTS.md、novel.yaml、writing_roles.md、ai_reading_protocol.md、Bible四项及周衡/夏宁/梁策人物卡、实际当前ARC-054近期正式章节及状态、角色/关系/知识/世界/时间线/伏笔、0391—0400十章摘要、0398—0402五章正文，并查看0401/0402新章详细计划；没有读取历史 reader_reviews。旧 `outlines/arcs/arc_current.md` 仍残留第137章ARC-044，因此按近期真实章节、正式Memory和现有402临时事实区分，不用旧文件覆盖当前剧情。核验published目录存在0153章、ready最新0400、draft最新0402且无0403，下一新章为0403；前0402仍为待审草稿，以上事实不视为正式Canon。只新建本章计划和草稿，不执行Editor、Reader、Revision、QA、Memory、Publish Gate，也不修改旧章。
+
+## 唯一 Audit 新SHA Reader / QA / 交付收口（2026-10-31）
+
+- Writer 原前章依赖402 provisional `1d993c513a8e8e5bdf51973a527bd14eef7b0639`；原始作者预检仍属历史记录。Audit确证402原稿与正式ready `49b471fcd590d27d2e8b32e04197762e4a91c4f1` **故事正文逐字相同**，未发生可影响403的事实变化；主依赖现已重绑正式ready。
+- 403初稿 `59e33b7747c9fdf837a8cf22fd64b449689dd72a` 原Reader 0/1/2，仅前章依赖需修。Stage A只改元数据和本详纲；403正文0字变动；新draft `3d453bb23d9c97ecffe697b0d2132200e698aebb` 新Reader双遍0/0/2，独立Continuity/Style/Meaningful QA PASS（`qa/0403_report.md`）。
+- 最终交付准备：ready blob `829f89ff24d8b9b36eb04bb1ce8ffdff1dce9194`；Day265雨夜三人22:11真入北侧活动室，旧2016任务10:17真接办、答复仍未知。结构校验须目标candidate Git CI SUCCESS；本计划文档不替代CI。

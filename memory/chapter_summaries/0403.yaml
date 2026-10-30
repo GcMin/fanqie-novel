@@ -1,0 +1,44 @@
+schema_version: 1
+chapter: 403
+title: "门牌指着西边，人在东边等"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "59e33b7747c9fdf837a8cf22fd64b449689dd72a"
+source_draft_sha: "3d453bb23d9c97ecffe697b0d2132200e698aebb"
+initial_review: reader_reviews/0403_59e33b77.md
+reader_review: reader_reviews/0403_3d453bb2.md
+depends_on_chapter: 402
+depends_on_source_sha: "49b471fcd590d27d2e8b32e04197762e4a91c4f1"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day264 20:23—Day265 20:16"
+summary: >-
+  Day264 20:23许芹等三人因北梧社区文化站西门真实贴错指向的避雨点告示而在雨中候门。街道有权值守确认当日18:40正式启用一楼活动室，正确入口北侧便民门，西仓储门始终不能通行。21:28北门值守员到场确认北侧通路受临时展示架阻挡，21:43管理岗批准并真移架；21:57有权工作人员实际以推车核通道与活动室接待，22:11许芹、邱阿姨、孟崎各自自愿进入有饮水座位厕所的活动室，个人登记范围不同，不能由许芹代签他人行程。西门错牌当晚取证撤下并设有权临时引导；Day265白班换正式指向北门新牌，15:34本街道公众页面有源核实，其他渠道/旧截图未证同步。Day265罗经办马芸承第402章Day264 14:06撤柜原因类别申请，09:47范围答复10:24正式许可11:06限项依法见2016-05-13 09:14撤柜公开类别“留置领取关联凭据未齐，转原受理席核办”；10:02有源建原领取关联来源与可用告知方式核查任务，10:17原受理席有权岗位真正接办。缺失哪项具体关联、自然人是否来领或获告知、旧纸当前何处、最终答复均未开放；14:02新查公开任务后续结果仅受理待审。Day265 20:16夜班只收有源事实。Day195带旧红字窄片一件仍在原设施所独立柜原封，两旧拆件不并；历史跨年同物/旧字作者/沈家私票、F008/M004/M005均未证。
+meaningful_state_changes:
+  - "三名雨中等候者从被错误指示堵在西仓储门外变为22:11由有权人员带领真正进入北侧避雨活动室；有责更正错牌并对本街道页面验证。"
+  - "2016-05-13撤柜原因从未知新增公开类别领取关联凭据未齐，10:17有权岗位确接任务；不能替原来话人签收答复。"
+knowledge_updates:
+  - "周衡夏宁梁策知被贴在门上的指示不代表入口真实可达，分开三人各自授权和到室登记；不把活动室当全时段开放。"
+  - "罗经办马芸知旧纸内部撤柜后的公开业务处理类别与任务岗位实接，但不知缺项内容、自然人是否领答或真实通知方式。"
+relationship_updates:
+  - "许芹明确不代邱阿姨孟崎签收、邱阿姨拒被搬车且自行入室；夜间中心与有权街道及文化站岗互守权限。"
+  - "罗经办继续接受马芸与档案员的有限字段证据边界，不把未齐认成本人到访或被拒绝。"
+foreshadowing_updates:
+  - "F003新增旧撤柜因领取关联凭据未齐及10:17内核办真接，后续结果只待审；F008/M004/M005无新确证。"
+ending_state: "Day265 20:16三人前夜真入避雨活动室且西门错牌本街道有责更正，三人离开后个人行程未证；2016内部核办任务有真接但人的答复仍不证；封存窄片原所独立柜原封两旧件仍分离。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace:
+  original_sha: "59e33b7747c9fdf837a8cf22fd64b449689dd72a"
+  final_draft_sha: "3d453bb23d9c97ecffe697b0d2132200e698aebb"
+  initial_counts: "0/1/2"
+  final_counts: "0/0/2"
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_original_draft_sha: "1d993c513a8e8e5bdf51973a527bd14eef7b0639"
+  predecessor_ready_blob: "49b471fcd590d27d2e8b32e04197762e4a91c4f1"
+  predecessor_body_identical: true
+  proposed_ready_blob: "829f89ff24d8b9b36eb04bb1ce8ffdff1dce9194"
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3386

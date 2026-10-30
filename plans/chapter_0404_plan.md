@@ -6,17 +6,17 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "34a1e02e67ba1d1750fbe2545a3eeccdcf53f70e"
 - depends_on_chapter: 403
-- depends_on_source_sha: "59e33b7747c9fdf837a8cf22fd64b449689dd72a"
-- dependency_status: provisional
+- depends_on_source_sha: "829f89ff24d8b9b36eb04bb1ce8ffdff1dce9194"
+- dependency_status: verified_predecessor_body_identical
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: "Day265 20:18—Day266 20:11"
 - pov: "夜间中心夏宁、周衡、梁策有限第三人称；罗经办和马芸在档案窗口有限第三人称"
 - target_effective_chars: 3000
 - actual_effective_chars: 3585
-- status: draft
-- qa: pending
+- status: ready
+- qa: pass
 - approved_at: null
-- publish_mode: draft
+- publish_mode: ready
 
 ## 目标、开场与前章临时依赖
 
@@ -44,3 +44,9 @@
 ## Writer Continuity Precheck（非审核）
 
 本轮实际读取main最新AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md；四份Bible、周衡/夏宁/梁策人物卡、旧volume_05及outlines/arcs/arc_current.md（两者已落后于第六卷ARC-054，按最新已审正文与Memory限定使用）、memory/current_arc.md、character/knowledge/relationship/world_state、foreshadowing、timeline、chapter_plan.csv、0393—0402最近十章摘要、0399—0403最近五章正文、0403详细章纲。没有读取历史reader_reviews；没有执行独立Reader、Revision、QA、Memory或发布。main的published/0153.md确实存在，published最大0159、ready最大0402、draft最大0403，0404正文与章纲均未存在；直接前403仍draft，已绑定其完整Git Blob SHA并标provisional。Writer只新增0404章纲及草稿，未把新事实写入Canon。
+
+## 唯一 Audit 新SHA Reader / Revision / QA / 交付收口（2026-10-31）
+
+- Writer最初引用403旧临时draft `59e33b7747c9fdf837a8cf22fd64b449689dd72a` 属作者当时历史前置条件。Audit实际逐字核对403原稿与最终ready `829f89ff24d8b9b36eb04bb1ce8ffdff1dce9194` 故事正文**完全相同**，仅403内部前章绑定与交付元数据变化。Day265 20:16接新电话无事实变更，404实际依赖改绑正式ready。
+- 404原稿 `416ab6d7846ae85bc1715a80be5bdd165e70144b` 原Reader 0/2/2：另一个MAJOR是罗经办未获转报却在Day266档案门口提及夜间蓝布包案，越权知道陈荔事件。Stage A仅局部换她一处对白为本人已亲见的旧纸撤柜和内核办记录；其他现代失物与旧档有源事实不变。新draft `97e21fafbcc124eed572c843ff865033d74a07c1` 新SHA独立Reader双遍0/0/2、独立QA PASS（`qa/0404_report.md`），有效字3585。
+- 正式候选ready Blob `b0b3241c0960e5bcb9c40c10992d4fb9f9f002e9`。Day265陈荔22:42本人真领蓝包，Day266旧2016核办内部办结后续待补仍不证自然人获答；结构须精确Git候选CI成功，不可用本记录冒充校验。

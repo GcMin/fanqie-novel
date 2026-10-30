@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 402
+current_chapter: 404
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0402.md
-current_source_sha: 918f7be05f5bd4ac1df13c12afd3faef6b18e6f7
-current_review_path: reader_reviews/0402_918f7be0.md
+current_source_path: chapters/draft/0404.md
+current_source_sha: 97e21fafbcc124eed572c843ff865033d74a07c1
+current_review_path: reader_reviews/0404_97e21faf.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,7 +12,7 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0401_0402_reader_stageA_newSHA_rereview_QA
+last_action: audit_0403_0404_reader_stageA_newSHA_rereview_QA
 last_action_date: "2026-10-31"
 last_error: null
 last_diff_summary: "399原稿0/0/2无正文修订；400原稿0/1/2因前399临时依赖，经实际对照前章原草稿与正式ready故事全文逐字相同，仅重绑前章正式ready及详细章纲，新400草稿SHA 1e25148a Reader0/0/2；独立内容QA PASS，结构待精确候选CI。"
@@ -2446,4 +2446,40 @@ chapter_402_revision_20261031:
   predecessor_body_identical: true
   content_qa: pass
   proposed_ready_blob: "49b471fcd590d27d2e8b32e04197762e4a91c4f1"
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_403_revision_20261031:
+  chapter: 403
+  original_sha: "59e33b7747c9fdf837a8cf22fd64b449689dd72a"
+  final_source_sha: "3d453bb23d9c97ecffe697b0d2132200e698aebb"
+  initial_review: reader_reviews/0403_59e33b77.md
+  final_review: reader_reviews/0403_3d453bb2.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  corrected_issue: "402 provisional依赖经旧draft与ready正文逐字核查相同后重绑正式ready。"
+  predecessor_ready_blob: "49b471fcd590d27d2e8b32e04197762e4a91c4f1"
+  content_qa: pass
+  proposed_ready_blob: "829f89ff24d8b9b36eb04bb1ce8ffdff1dce9194"
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_404_revision_20261031:
+  chapter: 404
+  original_sha: "416ab6d7846ae85bc1715a80be5bdd165e70144b"
+  final_source_sha: "97e21fafbcc124eed572c843ff865033d74a07c1"
+  initial_review: reader_reviews/0404_416ab6d7.md
+  final_review: reader_reviews/0404_97e21faf.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 1
+  corrected_issue: "403临时依赖经正文逐字比对重绑403正式ready；删除罗经办无渠道知道陈荔夜间新案的对白，改从其旧纸阅档已知信息询问。"
+  predecessor_ready_blob: "829f89ff24d8b9b36eb04bb1ce8ffdff1dce9194"
+  content_qa: pass
+  proposed_ready_blob: "b0b3241c0960e5bcb9c40c10992d4fb9f9f002e9"
   structural_gate: exact_candidate_commit_CI_required
