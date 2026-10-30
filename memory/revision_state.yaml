@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 389
+current_chapter: 390
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0389.md
-current_source_sha: 0391da7d50c84feec4c1331ffded4f50c63c69af
-current_review_path: reader_reviews/0389_0391da7d.md
+current_source_path: chapters/draft/0390.md
+current_source_sha: da97c6d6acb81e4bfece480cd90e38c065f2b2e9
+current_review_path: reader_reviews/0390_da97c6d6.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0389_independent_reader_qa_candidate
+last_action: audit_0390_stageA_rebind_and_new_reader_qa_candidate
 last_action_date: 2026-10-30
 last_error: null
-last_diff_summary: "389原draft独立Reader Pass A→B 0/0/2，未改正文，独立Continuity/Style/Meaningful QA通过；真实结构CI尚需精确候选提交验证。"
+last_diff_summary: "390初审0/1/2，StageA仅将前章389旧draft依赖重绑正式ready，逐字比对前章与本章正文均未更改；新SHA独立Reader0/0/2，Continuity/Style/Meaningful QA PASS，待精确候选CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 0391da7d50c84feec4c1331ffded4f50c63c69af
+current_review_source_sha: da97c6d6acb81e4bfece480cd90e38c065f2b2e9
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -2227,5 +2227,23 @@ combined_audit_chapter_389_20261030:
   predecessor_sha_mismatch: false
   predecessor_factual_delta: none_exact_ready_blob
   proposed_ready_blob: "8456859e52a118c1ef833fa75ecf5ca605e6f877"
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+combined_audit_chapter_390_20261030:
+  chapter: 390
+  original_sha: "5a74d06b1d901b5f55fcb3f28ed61f3981bee740"
+  initial_review: reader_reviews/0390_5a74d06b.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_sha: "da97c6d6acb81e4bfece480cd90e38c065f2b2e9"
+  final_review: reader_reviews/0390_da97c6d6.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  corrected_issue: "重绑389正式ready SHA与详细章纲，无正文更改"
+  predecessor_original_draft_sha: "0391da7d50c84feec4c1331ffded4f50c63c69af"
+  predecessor_ready_blob: "8456859e52a118c1ef833fa75ecf5ca605e6f877"
+  predecessor_body_identical: true
+  proposed_ready_blob: "b3a7575123b7b1ab7a3059e6ea0b61f772c33aeb"
   continuity_style_qa: pass
   structural_gate: exact_candidate_commit_CI_required

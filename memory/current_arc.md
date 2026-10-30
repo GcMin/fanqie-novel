@@ -1,3 +1,9 @@
+# 第390章独立Reader、Stage A依赖重绑、QA与ARC-054半小时拟申请（2026-10-30）
+
+第390章原draft `5a74d06b1d901b5f55fcb3f28ed61f3981bee740`先按Pass A读本章与387—389正式ready全文、近十章摘要和文风，后Pass B核主线/世界Canon、人物状态知识关系世界、timeline/F003与ARC-054，初审0/1/2。唯一MAJOR为仍引用389旧临时草稿 `0391da7d50c84feec4c1331ffded4f50c63c69af`且标provisional。逐字对照389原draft和正式ready `8456859e52a118c1ef833fa75ecf5ca605e6f877`，**小说正文完全同一**，仅前驱Front Matter交付状态不同，390 Day251 20:42新场景与389 Day251 20:16最终交接事实兼容。Stage A只修改390 Front Matter和详细章纲的依赖SHA及状态，**不修改任何正文字符**，得到新draft `da97c6d6acb81e4bfece480cd90e38c065f2b2e9`；新SHA独立再Pass A→Pass B Reader为0/0/2，旧版本Review不能放行。独立Continuity/Style/Meaningful QA PASS，3504非空白Unicode字，低于3800硬限，不能因MINOR重写。旧137→138等历史SHA差异仅按既往已核事实，不当本章新证据。仍须精确候选Git commit的结构单测与`python -m publisher.check_local --repo .`真实CI SUCCESS才允许expected_sha/force:false迁入ready。
+
+Day251 20:42系统把三盏灯具换件错误映为河渚路全站复开，梁策在道路岗21:07现场核合法临时行人线路后21:23才让扶杖老人及女儿安全实际登车，翘板仍围隔；Day252 17:48道路岗真验松动锚固修复与候车带，19:27照明专业另做三灯夜间实测，20:19中心真实按双有源回告结案并保留旧系统误映来源。Day252 10:34获2016年5月9日一页说明现存索引限查，11:08核一页真实现存独立卷夹；13:26另准正文限项，13:34实际阅到一页写拟申请**2016年5月11日22:30—23:00**运营临时停用检查窗口，个人信息遮蔽、蓝笔修订落笔者/时点未鉴。**拟申请不是运营许可，更不是工程人员实际进场或里侧复核完成**；16:09只能真实受理新运营许可目录窄申请且范围待审。主管担心持续保管成本也不得借旧说明给Day195现存单件强定2011身份，仍新站一件原封到Day254 16:00、其余两旧件原所；沈家私票同源、红字作者年月、跨年唯一同物、F008/M004/M005都未证。
+
 # 第389章独立Reader/Continuity/Style QA与ARC-054实际一页说明收件（2026-10-30）
 
 第389章唯一原草稿 `0391da7d50c84feec4c1331ffded4f50c63c69af`，已在首次普通读者Pass A阅读本章、386—388正式ready正文及近期摘要与文风，再独立Pass B核主线/世界Canon、人物知识关系世界、时间线、F003和当前ARC-054，Reader **BLOCKER=0/MAJOR=0/MINOR=2**，两项MINOR为重复强调收件与审定的边界及章末解释略直接，不触发Revision，正文零改。独立Continuity/Style/Meaningful QA均PASS；正文非空白Unicode 3466，未越硬限3800。388正式ready SHA `dc1d853b011ac830d4718e52fce0f2cdb97b9920`与389 Front Matter及详纲依赖精确一致，且无前章临时SHA事实差异。旧137→138等历史引用不充当新事实。只有候选精确commit实际跑完结构单测与 `python -m publisher.check_local --repo .` SUCCESS后，才以expected_sha/force:false顺序进入ready。

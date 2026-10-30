@@ -6,8 +6,8 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "d22e7bea07c276b8f06fc6de36e56184f9114cb5"
 - depends_on_chapter: 389
-- depends_on_source_sha: "0391da7d50c84feec4c1331ffded4f50c63c69af"
-- dependency_status: provisional
+- depends_on_source_sha: "8456859e52a118c1ef833fa75ecf5ca605e6f877"
+- dependency_status: verified_predecessor_body_identical
 - continuity_precheck: pass_for_drafting_only
 - timeframe: "Day251 20:42—Day252 20:19"
 - pov: "周衡、夏宁、梁策夜班有限第三人称；马芸、罗经办与有权档案、道路岗位白班有限第三人称"
@@ -18,7 +18,7 @@
 
 ## 目标与开场
 
-第389章目前仅为**未审草稿**，精确依赖Git Blob `0391da7d50c84feec4c1331ffded4f50c63c69af`，所拟剧情仍属 provisional 而非正式Canon：Day251合法从2016-05-09旧登记簿核到当年实际收过“补充情况说明，一页”，尚未证单页现存及内文；Day251 15:41原封Day195现存窄片一件续托至Day254 16:00，两旧拆件仍原设施所；河渚路夜间照明完成换件而松动导流板尚待道路部门正式核验。
+第389章已经为**正式ready**，精确依赖Git Blob `8456859e52a118c1ef833fa75ecf5ca605e6f877`，其对应正文已完成独立Reader与QA且正式进入ready：Day251合法从2016-05-09旧登记簿核到当年实际收过“补充情况说明，一页”，尚未证单页现存及内文；Day251 15:41原封Day195现存窄片一件续托至Day254 16:00，两旧拆件仍原设施所；河渚路夜间照明完成换件而松动导流板尚待道路部门正式核验。
 
 本章先通过现实交通服务险情明确“灯修好≠站台复开”，再在有权限定范围核实2016年单页的实物与文本：它只记**五月十一日22:30—23:00拟申请运营检查窗口**，并不证明许可实际批复、当晚里侧检查已执行或今日窄片的历史身份。
 
@@ -48,8 +48,8 @@
 
 ## Continuity Precheck（仅用于首稿，非审核）
 
-- 第389章main仅draft，临时引用 `depends_on_chapter: 389`、完整 `depends_on_source_sha: 0391da7d50c84feec4c1331ffded4f50c63c69af`、`dependency_status: provisional`，同步写在本章Front Matter；等待独立Audit先审389后核该依赖事实与新章兼容。
+- 第389章已正式ready，已验证依赖 `depends_on_chapter: 389`、完整 `depends_on_source_sha: 8456859e52a118c1ef833fa75ecf5ca605e6f877`、`dependency_status: provisional`，同步写在本章Front Matter；已独立比较389前后正文完全相同，仅ready交付Front Matter不同，390的后续事实兼容。
 - 2016-04-12外板只换两螺栓与两垫圈，内衬当次未拆；2016年4月封套乙仅退补里侧依据，CB07仅催办通知转送。May9收“情况说明”与2019整册转管是不同事实；May11拟半小时不是批准或真做。
 - Day195带字窄片新站原封单件到Day254 16:00，另两旧拆件原设施所，短托报价780元/内批850元与实付、长托分层；无人启封搬迁，无唯一料号。白榆旧东工门/维修道公众禁行，沈家私票旧册仍家属自持。
 - 周衡/夏宁/梁策仅在20:00—08:00夜班履责，白天申请与档案批准由有权人员实施，个人签领隐私被遮蔽；不越权把普通现行误映解释为M004/M005异常机制。
-- 本轮只新建计划和draft，绝不Reader、Revision、QA、Memory、Publish Gate或发布。
+- Writer首稿只新建章纲与draft；独立Audit将在本章新SHA完成Reader复审、QA、Memory与CI后另行放行，不自动发布。

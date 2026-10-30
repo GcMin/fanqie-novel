@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 390
+title: "半小时写在申请栏里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "5a74d06b1d901b5f55fcb3f28ed61f3981bee740"
+source_draft_sha: "da97c6d6acb81e4bfece480cd90e38c065f2b2e9"
+initial_review: reader_reviews/0390_5a74d06b.md
+reader_review: reader_reviews/0390_da97c6d6.md
+depends_on_chapter: 389
+depends_on_source_sha: "8456859e52a118c1ef833fa75ecf5ca605e6f877"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day251 20:42—Day252 20:19"
+summary: >-
+  Day251 20:42夜间中心发现河渚路三盏灯维修回告系统错误将完工映成全站台恢复，道路导流板松动尚未验收；梁策现场防拦扶杖老人和女儿进入危险路缘，21:07有责道路岗确核便利店前合法临时步行线，21:23两人实上车只证当次安全，翘板侧继续隔离。Day252 08:54罗经办与马芸持已核2016年5月9日补充情况说明一页收件摘录申请现物索引，10:34获限查许可、11:08实核单页现存独立卷夹，说明正文仍未阅；12:02另申请公开正文13:26限项获批，13:34真阅单页：文字载“拟申请二〇一六年五月十一日22:30—23:00运营临时停用检查窗口供里侧复核取证”，须另经运营方同意，文中没有停用许可或复核实施结果，蓝笔修订时间落笔人及形成时点不鉴定，个人签领栏遮蔽。14:15主管因旧字窄片长托成本试图借旧纸改现件身份，马芸拒；现物单件新站原封至Day254 16:00另两旧件原所。16:09按实际旧站工项仅申请查询五月十一日晚临时停用许可目录和公开号，受理待范围审查。Day252道路班维修锚固孔、17:48有权道路岗真验恢复候车带，19:27照明专业在夜间逐灯真核；20:19夏宁周衡梁策从两独立责任单位有源回告确认当代站台实际恢复，并把旧纸拟申请与已批/已实施分别留空。2011/2020/Day195同一物、旧字作者年代、沈家私票同源、F008/M004/M005均未确认。
+meaningful_state_changes:
+  - "2016年5月9日收件的一页说明今日仍现存独立卷夹且合法限项阅其工程正文，获知拟申请五月十一日22:30—23:00停用检查但是否真正获批实施未知。"
+  - "河渚路公交危险区域由临时合法行人绕行推进到Day252 17:48道路实际验收和19:27灯具实际夜测，20:19中心凭双源真实闭环。"
+  - "Day252 16:09仅申请旧站运营停用许可目录待审，未虚构已获得许可；现实窄片原封续托期限仍Day254 16:00。"
+knowledge_updates:
+  - "马芸罗经办能读获准单页公开正文，但知道拟申请非正式运营许可、许可非进场检查，蓝笔修订作者时间未鉴。"
+  - "夏宁周衡梁策依据道路与照明两有责岗位不同来源的实际验收处理公共风险，不拿系统绿格替代专业现场结果。"
+relationship_updates:
+  - "梁策尊重老人自主登车但给出实际安全路线，女儿和父亲不因绿格被推入危险站台。"
+  - "罗经办能自发删减过宽查询并保留两个待核空格，马芸与档案岗坚持公开资料范围；主管接受不能凭2016拟申请纸替现物认历史身份。"
+foreshadowing_updates:
+  - "F003添2016年5月11日22:30—23:00拟申请运营窗口的公开正文线索，真正许可及现场复核均未知；F008/M004/M005无新确证。"
+ending_state: "Day252 20:19河渚路站台经历道路/照明两路真实验收已复开，旧半小时拟申请许可目录只受理待审；窄铁片原封一件新站到Day254 16:00两旧件原所，旧字与历史同物未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "5a74d06b1d901b5f55fcb3f28ed61f3981bee740", final_draft_sha: "da97c6d6acb81e4bfece480cd90e38c065f2b2e9", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "0391da7d50c84feec4c1331ffded4f50c63c69af", predecessor_ready_blob: "8456859e52a118c1ef833fa75ecf5ca605e6f877", predecessor_body_identical: true}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3504
