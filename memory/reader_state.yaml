@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 416
-last_reviewed_title: "坡道送到了，轮椅还在门外"
-last_source_path: chapters/draft/0416.md
-last_source_sha: 9f21008e16026bc8f5a9e2f6b327fc0af13925aa
-last_review_path: reader_reviews/0416_9f21008e.md
+last_reviewed_chapter: 417
+last_reviewed_title: "还书机说收到了，书还在雨里"
+last_source_path: chapters/draft/0417.md
+last_source_sha: eb4b24acf91deae13e732c2186d32a2b5d3695b5
+last_review_path: reader_reviews/0417_eb4b24ac.md
 last_reviewed_at: "2026-10-31"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,14 +12,14 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 415
-depends_on_source_sha: c75f35ee26c8e8494f8c31cca704cfd3aee78830
+depends_on_chapter: 416
+depends_on_source_sha: 8874840d5d2bccbe6458fdcde60a2d7ccea5b02d
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: c75f35ee26c8e8494f8c31cca704cfd3aee78830
+predecessor_current_source_sha: 8874840d5d2bccbe6458fdcde60a2d7ccea5b02d
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-original_source_sha: 9f21008e16026bc8f5a9e2f6b327fc0af13925aa
-initial_review_path: reader_reviews/0416_9f21008e.md
+original_source_sha: 9b7885d57a6aa7e84e831bb3f22270d5cd9a2879
+initial_review_path: reader_reviews/0417_9b7885d5.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
 combined_audit_backfill:
@@ -3185,5 +3185,22 @@ chapter_416_audit_final:
   body_revisions: 0
   predecessor_ready_blob: "c75f35ee26c8e8494f8c31cca704cfd3aee78830"
   predecessor_factual_delta: "与正式ready SHA精确一致"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_417_audit_final:
+  chapter: 417
+  original_source_sha: "9b7885d57a6aa7e84e831bb3f22270d5cd9a2879"
+  source_sha: "eb4b24acf91deae13e732c2186d32a2b5d3695b5"
+  initial_review: reader_reviews/0417_9b7885d5.md
+  final_review: reader_reviews/0417_eb4b24ac.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 0
+  predecessor_old_draft_blob: "9f21008e16026bc8f5a9e2f6b327fc0af13925aa"
+  predecessor_ready_blob: "8874840d5d2bccbe6458fdcde60a2d7ccea5b02d"
+  predecessor_factual_delta: "原草稿与正式ready正文逐字一致，仅交付Front Matter"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

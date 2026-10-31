@@ -6,21 +6,21 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "1192c96c499baac8d06fa6753f3496fd2f9c5a3f"
 - depends_on_chapter: 416
-- depends_on_source_sha: "9f21008e16026bc8f5a9e2f6b327fc0af13925aa"
-- dependency_status: provisional
+- depends_on_source_sha: "8874840d5d2bccbe6458fdcde60a2d7ccea5b02d"
+- dependency_status: verified_exact_ready_blob
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: "Day278 20:44—Day279 20:09"
 - pov: "夜间中心周衡、夏宁、梁策；许素琴、梅老师；档案线罗经办、马芸"
 - target_effective_chars: 3000
 - actual_effective_chars: 3238
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 
 ## 本章目标、开场与角色诉求
 
-第416章仅是未审草稿：Day278 20:11交班时雨栖街服务站东门坡道仅送货未安装，方妙兰昨夜经有限批准的西侧通路22:03进休息室；此事实是根据前章特定草稿版本暂时衔接，不视作正式Canon。第417章在Day278夜以河堤分馆自助还书机“扫码成功但书仍卡在入口”开场。许素琴要及时真正归还馆藏书并取回夹在书中的私人便签；馆员要依法准确划分扫码、实收、损伤和回访责任；周衡、梁策、夏宁要协调实际可核的处置，不替专业设备岗拆机或替馆员裁定费用。
+第416章已正式审核、QA和结构校验，现为ready：Day278 20:11交班时雨栖街服务站东门坡道仅送货未安装，方妙兰昨夜经有限批准的西侧通路22:03进休息室；已比较原草稿与正式ready：故事正文逐字一致，仅Front Matter交付字段改变，现依正式ready承接。第417章在Day278夜以河堤分馆自助还书机“扫码成功但书仍卡在入口”开场。许素琴要及时真正归还馆藏书并取回夹在书中的私人便签；馆员要依法准确划分扫码、实收、损伤和回访责任；周衡、梁策、夏宁要协调实际可核的处置，不替专业设备岗拆机或替馆员裁定费用。
 
 ## 六个剧情节拍
 
@@ -41,3 +41,15 @@
 ## Continuity Precheck（Writer，非QA）
 
 从GitHub main 1192c96c499baac8d06fa6753f3496fd2f9c5a3f读取AGENTS、配置、Writer/读取协议、Premise/主线/世界/风格及周衡夏宁梁策人物卡；目录实核published/ready/draft章号：0153在published，最大0416位于draft，0417尚不存在。读取近期0406—0415十章摘要与0412—0416五章全文，当前卷/arc文件（滞后，以第415章ready以及第416章临时草稿场景为近端事实边界）、人物/关系/知识/世界状态和伏笔时间线；未读历史reader_reviews。前章416仅draft且Blob 9f21008e16026bc8f5a9e2f6b327fc0af13925aa，依赖状态provisional。仅新建此章详细章纲和首稿，未做独立Reader/Revision/QA/Memory/Publish Gate。
+
+## Audit复核与依赖修订（2026-10-31）
+- source_draft_original_sha: `9b7885d57a6aa7e84e831bb3f22270d5cd9a2879`
+- source_draft_rebound_sha: `eb4b24acf91deae13e732c2186d32a2b5d3695b5`
+- source_ready_sha: `46a9b6922431423360729abdf656f05a3b6fc215`
+- predecessor_ready_sha: `8874840d5d2bccbe6458fdcde60a2d7ccea5b02d`
+- predecessor_old_draft_vs_ready_body: identical; only delivery Front Matter changed
+- reader_initial: `reader_reviews/0417_9b7885d5.md` (0/1/2)
+- reader_final: `reader_reviews/0417_eb4b24ac.md` (0/0/2)
+- revision: Stage A仅依赖Front Matter及本详纲，正文0字修改
+- independent_QA: Continuity/Style/Meaningful PASS
+- structural_validation: exact_candidate_CI_required_before_main

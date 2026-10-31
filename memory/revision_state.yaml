@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 416
+current_chapter: 417
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0416.md
-current_source_sha: 9f21008e16026bc8f5a9e2f6b327fc0af13925aa
-current_review_path: reader_reviews/0416_9f21008e.md
+current_source_path: chapters/draft/0417.md
+current_source_sha: eb4b24acf91deae13e732c2186d32a2b5d3695b5
+current_review_path: reader_reviews/0417_eb4b24ac.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0416_reader_qa_no_revision_candidate
+last_action: audit_0417_rebind_prev_and_recheck_candidate
 last_action_date: "2026-10-31"
 last_error: null
-last_diff_summary: "第416章原稿Reader 0/0/2无须修订，独立Continuity/Style/Meaningful QA内容PASS，需精确候选CI验证后main放行。"
+last_diff_summary: "第417章原稿Reader 0/1/2因仍依赖416旧暂稿；比较前章正文无差异后Stage A仅重绑正式ready依赖和详纲，新SHA独立复审0/0/2、内容QA PASS，需候选CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 9f21008e16026bc8f5a9e2f6b327fc0af13925aa
+current_review_source_sha: eb4b24acf91deae13e732c2186d32a2b5d3695b5
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -2673,5 +2673,22 @@ chapter_416_revision_final:
   body_revisions: 0
   corrected_issue: "none; no fix_required"
   predecessor_ready_blob: "c75f35ee26c8e8494f8c31cca704cfd3aee78830"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_417_revision_final:
+  chapter: 417
+  original_sha: "9b7885d57a6aa7e84e831bb3f22270d5cd9a2879"
+  final_sha: "eb4b24acf91deae13e732c2186d32a2b5d3695b5"
+  initial_review: reader_reviews/0417_9b7885d5.md
+  final_review: reader_reviews/0417_eb4b24ac.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  corrected_issue: "绑定第416章旧draft SHA与provisional状态；前章小说正文无变，重绑416正式ready及详纲。"
+  predecessor_ready_blob: "8874840d5d2bccbe6458fdcde60a2d7ccea5b02d"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

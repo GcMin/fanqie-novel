@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 417
+title: "还书机说收到了，书还在雨里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "9b7885d57a6aa7e84e831bb3f22270d5cd9a2879"
+source_draft_sha: "eb4b24acf91deae13e732c2186d32a2b5d3695b5"
+initial_review: reader_reviews/0417_9b7885d5.md
+reader_review: reader_reviews/0417_eb4b24ac.md
+depends_on_chapter: 416
+depends_on_source_sha: "8874840d5d2bccbe6458fdcde60a2d7ccea5b02d"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day278 20:44—Day279 20:09"
+summary: >-
+  Day278 20:44许素琴发现河堤分馆自助口20:41扫码显示还书成功但书实物卡在雨中，夹有老伴私人便签。馆方梅老师21:18核无实物入箱件号，专业维护21:38断电后由馆内检修侧取出，21:51许素琴本人确认取回私件而未公开内容；22:07馆员真正收书、受潮修护和账户状态待核。Day279借还岗10:14纠本笔借还状态，10:27依本人指定十点后时段回拨本笔机器卡滞不算逾期；故障机仍停用待胶条更换和实书走行，夜间替代还书渠道未获批。F003承第416章Day278 14:21批次索引申请仅收件，Day279 10:31正式获限项许可，公开汇总发现05:27出运批次至少含市政资料外封和另一公用图纸整理外封两不同业务系列，且无逐件对应09:12新岗接收的开放字段；14:13逐件对应新查仅收件。未证2019同件全程运输、2016原书面回告是否在封或当年自然人真获答，Day195窄片和另外两拆件独立保存。
+meaningful_state_changes:
+  - "许素琴这本书馆方真正接住、个人便签本人拿回，账户本笔纠正但故障机仍停。"
+  - "F003旧批次混有不同业务系列外封且无逐件对应公开信息，阻止用批次号伪证同件连续交运。"
+knowledge_updates:
+  - "中心有限获知馆员实物签收及本笔借还更正，不知私件纸条文字或最终赔偿修护结果。"
+  - "档案组仅知道批次跨两业务外封和缺逐件索引，不能确认2016原纸与自然人受答，不知当代借阅私案。"
+relationship_updates:
+  - "许素琴维护个人纸件隐私和真实归还权益，梅老师保护物件、分清权限并按约定时段回拨。"
+foreshadowing_updates:
+  - "F003分拨批次不构成05:27出运到09:12实收逐件物流关联；F008/M004/M005未有新确证。"
+ending_state: "Day279 20:09书真正收讫、私纸本人取回、机仍停用；2019旧批次逐件对应索引待审批。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "9b7885d57a6aa7e84e831bb3f22270d5cd9a2879", final_draft_sha: "eb4b24acf91deae13e732c2186d32a2b5d3695b5", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3238
