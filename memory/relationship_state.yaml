@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 412
+last_updated_chapter: 413
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1582,4 +1582,12 @@ chapter_412_relations_verified:
   source_sha: "ae43f77b8fc573bda19e2308af7210a6d174c6a9"
   warm_food: "邵芹拿原预约小票核实本人身份，接受Day273一份新替代餐却不放弃Day272失约异议；叶冬青与小孟分别存新真签收、原错误完成映射及七位未履约者待办，有责运营岗承接后续回访。"
   archive: "罗经办和马芸依档案员许可取得2019外封出入库各一件岗位签收，但把中途保管、封内2016原页及当年自然人是否受答留为未知。"
+  trust_scores_unchanged: true
+
+chapter_413_relations_verified:
+  chapter: 413
+  source_sha: "ef001fbe026a298637703d262406cdd3c456b70b"
+  tenant_landlord: "何秋拒将联系资料交房东姚先生、拒给全修好签字；以真实共用立管局部修复与墙体仍待复查分项书面记录维护权益，双方费用归责没有结果。"
+  field_team: "夏宁、周衡、梁策只协调与保留有权分源证据，高师傅及水电专岗按责任范围现场核险；何秋本人同意必要范围入屋复核，不被替满意。"
+  archive: "罗经办与马芸坚持最小许可，只确认2019中转暂存岗外封一件签到，不代缺失出柜页或历史自然人签收。"
   trust_scores_unchanged: true

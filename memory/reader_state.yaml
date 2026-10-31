@@ -1,25 +1,25 @@
 schema_version: 1
-last_reviewed_chapter: 412
-last_reviewed_title: "电话没响的时候，饭还算数吗"
-last_source_path: chapters/draft/0412.md
-last_source_sha: ae43f77b8fc573bda19e2308af7210a6d174c6a9
-last_review_path: reader_reviews/0412_ae43f77b.md
+last_reviewed_chapter: 413
+last_reviewed_title: "她想撤回投诉，墙里的水还在响"
+last_source_path: chapters/draft/0413.md
+last_source_sha: ef001fbe026a298637703d262406cdd3c456b70b
+last_review_path: reader_reviews/0413_ef001fbe.md
 last_reviewed_at: "2026-10-31"
-reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
+reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 411
-depends_on_source_sha: 72a8cda9a247e226aea0ed8ebad878f197ce396f
-dependency_status: verified_predecessor_targeted_fire_safety_fix
-predecessor_current_source_sha: 72a8cda9a247e226aea0ed8ebad878f197ce396f
+depends_on_chapter: 412
+depends_on_source_sha: fae6dc3ad22379115ed36d66edf7a7b9155f99cd
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: fae6dc3ad22379115ed36d66edf7a7b9155f99cd
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-original_source_sha: 4b002d03ddbdaf20f1f3bedbd4a4af8d7fc865b5
-initial_review_path: reader_reviews/0412_4b002d03.md
+original_source_sha: ef001fbe026a298637703d262406cdd3c456b70b
+initial_review_path: reader_reviews/0413_ef001fbe.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
 combined_audit_backfill:
@@ -3125,4 +3125,17 @@ chapter_412_audit_final:
   predecessor_fact_diff_verified: "炉火明确已关；412依赖的预约分配与后厨停用未变"
   content_qa: pass
   proposed_ready_blob: "fae6dc3ad22379115ed36d66edf7a7b9155f99cd"
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_413_audit_final:
+  chapter: 413
+  source_sha: "ef001fbe026a298637703d262406cdd3c456b70b"
+  final_review: reader_reviews/0413_ef001fbe.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 1
+  local_revision_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "fae6dc3ad22379115ed36d66edf7a7b9155f99cd"
+  predecessor_factual_delta: "精确同Blob依赖；不需要旧draft事实差异比较"
+  content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

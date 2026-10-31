@@ -13,10 +13,10 @@
 - pov: "周衡、夏宁、梁策的中心与合法现场有限视角；罗经办、马芸在档案窗口独立限阅视角"
 - target_effective_chars: 3200
 - actual_effective_chars: 3209
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 
 ## 目标、开场及人物诉求
 
@@ -38,3 +38,9 @@ Day274夜，租户何秋反映西坪路17号三楼潮墙邻近插座，担忧房
 ## Continuity Precheck（Writer，不等于独立审核）
 
 本轮依据main最新 AGENTS、novel配置、writing_roles/ai_reading_protocol、四份Bible及人物卡、当前卷与已滞后的arc_current、实际核证current_arc、人物/知识/关系/世界Memory、F003/F008伏笔与近期时间线、403—412摘要、408—412正式ready全文及第412章详纲。不读取历史reader_reviews。当前第153章已存在published；三目录当前最高412，且412为独立审核后的ready精确blob fae6dc3ad22379115ed36d66edf7a7b9155f99cd，本章只依赖其核证事实：槐月路九份真交七份未履约（三获告四未确认）、后厨未复开、2019转管两端签认而中途未知。无跨案提前获知、无自动确认M004/M005，绝不修改旧章、Canon、Memory、Reader/QA/Publish状态。
+
+## 第413章唯一 Audit 独立审核收口（2026-10-31）
+- 实际原始draft Git Blob：`ef001fbe026a298637703d262406cdd3c456b70b`，正文0修改；前章412最终ready Git Blob `fae6dc3ad22379115ed36d66edf7a7b9155f99cd` 精确匹配。
+- SHA绑定独立Reader Pass A/B：`reader_reviews/0413_ef001fbe.md`，BLOCKER=0、MAJOR=0、MINOR=2，keep/none；不因MINOR进行正文修订。
+- 独立Continuity/Style/Meaningful QA：`qa/0413_report.md`，内容检查PASS；章号/标题与3209有效字数检查PASS。
+- 结构需针对精确候选提交在CI实际PASS后才允许进入正式main ready；不把内容QA视为结构校验。

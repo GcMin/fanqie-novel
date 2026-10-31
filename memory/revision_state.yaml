@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 412
+current_chapter: 413
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0412.md
-current_source_sha: ae43f77b8fc573bda19e2308af7210a6d174c6a9
-current_review_path: reader_reviews/0412_ae43f77b.md
+current_source_path: chapters/draft/0413.md
+current_source_sha: ef001fbe026a298637703d262406cdd3c456b70b
+current_review_path: reader_reviews/0413_ef001fbe.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0411_0412_reader_revision_newSHA_QA_candidate
+last_action: audit_0413_reader_qa_candidate
 last_action_date: "2026-10-31"
 last_error: null
-last_diff_summary: "411原稿0/1/2，StageA补郑叔已关炉火新SHA6a6d6466复审0/0/2；412原稿0/1/2因绑定411旧draft，经比较411实际一处安全事实更正不影响预约数字/后厨停用，412仅重绑411正式ready SHA新稿ae43f77b复审0/0/2；内容QA双PASS，精确结构CI待执行。"
+last_diff_summary: "第413章原始draft精确依赖412正式ready SHA；一次独立Pass A/B Reader 0/0/2，无BLOCKER/MAJOR无需修订；Continuity/Style/Meaningful内容QA PASS，正式ready待精确候选CI验证。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 1e25148a2ec6d6eb3ee07a182ecdb58459da82e3
+current_review_source_sha: ef001fbe026a298637703d262406cdd3c456b70b
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -2605,5 +2605,21 @@ chapter_412_revision_final:
   predecessor_draft_sha: "d6a3027563aa4ce2e9d018e272b0f5d2a415bd85"
   predecessor_ready_blob: "72a8cda9a247e226aea0ed8ebad878f197ce396f"
   predecessor_body_identical: false
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_413_revision_final:
+  chapter: 413
+  original_sha: "ef001fbe026a298637703d262406cdd3c456b70b"
+  final_sha: "ef001fbe026a298637703d262406cdd3c456b70b"
+  review: reader_reviews/0413_ef001fbe.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  corrected_issue: "无BLOCKER/MAJOR无需修订；严格保留正文"
+  predecessor_ready_blob: "fae6dc3ad22379115ed36d66edf7a7b9155f99cd"
+  predecessor_body_identical: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
