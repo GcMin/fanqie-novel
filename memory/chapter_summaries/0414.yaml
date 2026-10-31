@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 414
+title: "摊位挪开了，水才肯往下走"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "79f94ad0db2f9d8f823768ad9636277f15cd054b"
+source_draft_sha: "b208f183ab148b53e736ca59ba7f3f0bef8e9ca3"
+initial_review: reader_reviews/0414_79f94ad0.md
+reader_review: reader_reviews/0414_b208f183.md
+depends_on_chapter: 413
+depends_on_source_sha: "e61524c9ba2204960eeef63e08a4f53146c2787f"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day275 20:31—Day276 20:09"
+summary: >-
+  Day275 20:31岑桂香报丰堤街夜市东口积水与临时灯饰风险，21:02有责电气岗隔离两处灯饰回路；21:16排水养护发现箅子上防滑垫、薄膜与落叶堵排水口。21:48有责吴主任只准B07当夜暂存，22:05本人实点36筐移离危险区，22:11专业清障23:07只开半幅通道。Day276清晨五点有责管理方核36筐及通道净宽另签B07白班续存，原约周转车未提走；11:05坡面修补层起伏另立待批工单，15:42再次点36筐，16:03新获准临时售卖线摆26筐余10暂存，原摊与灯饰未复用，货损待审。F003的Day275 14:12出柜申请Day276正式获准，11:16依法核2019-03-07 01:18外封一件中转柜岗位签出；连同此前2019-03-06 16:18原岗出库、20:06暂存签到及03-07 09:12新岗接收合计四独立有源时点，交运仍有未知，14:06下一窄查仅收件，2016旧原纸及自然人获答均未证。
+meaningful_state_changes:
+  - "36筐合规避险并依法续存，26筐次日真正恢复有限售卖；原摊及损失仍未结。"
+  - "2019临时柜增加01:18真实签出节点，未获得全部交运闭合证据。"
+knowledge_updates:
+  - "中心按有责回告分源知雨水口局部清障、半幅通行、灯饰仍停及原摊未复；档案组仅知限项授权节点。"
+relationship_updates:
+  - "岑桂香与有责吴主任现场点交并按权限续存，不被代写自愿撤摊或放弃货损。"
+foreshadowing_updates:
+  - "F003新增2019-03-07 01:18中转签出，不证2016旧内页、自然人获答、F008/M004/M005。"
+ending_state: "Day276 20:09岑桂香获准另线售卖26筐、余10筐暂存，原东口凹槽及灯饰仍限用坡面工单待批；2019中转四节点但下一交运未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "79f94ad0db2f9d8f823768ad9636277f15cd054b", final_draft_sha: "b208f183ab148b53e736ca59ba7f3f0bef8e9ca3", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3779

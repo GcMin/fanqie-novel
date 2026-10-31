@@ -12,11 +12,11 @@
 - timeframe: "Day275 20:31—Day276 20:09"
 - pov: "周衡、夏宁、梁策的夜间服务有限视角；岑桂香在夜市现场；罗经办与马芸在档案受控窗口"
 - target_effective_chars: 3200
-- actual_effective_chars: 3735
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- actual_effective_chars: 3779
+- status: ready
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 
 ## 本章目标与人物诉求
 
@@ -41,3 +41,10 @@
 ## Continuity Precheck（Writer，不等于独立审核）
 
 本轮从main真实读取AGENTS.md、novel配置、writing_roles与ai_reading_protocol，Premise/主线/世界/文风圣经及三位人物卡；查现行ARC-054近期核证事实、current_arc、人物关系/知识/世界状态、F003和F008及时间线、403—412近十章摘要、409—413最近五章ready正文，未读取历史reader_reviews。第153章已存在published，三目录最大既有413，第413章ready精确Git Blob e61524c9ba2204960eeef63e08a4f53146c2787f。第413章Day275 20:07结束，何秋房内潮墙与插座未复用、档案14:12只收件是可核边界；第414章不继承其租赁争议为已结。未修改旧章/Canon/Memory/审核和发布字段。
+
+## 第414章唯一 Audit 独立审查收口（2026-10-31）
+- 原稿Git Blob `79f94ad0db2f9d8f823768ad9636277f15cd054b`，独立Reader两遍0 BLOCKER / 1 MAJOR / 2 MINOR，唯一MAJOR为B07当夜许可没有支撑次日下午使用。
+- Stage A仅新增Day276清晨有权人员核36筐与通道并签白班续存许可、五点原约周转车未取走本批货，实际新draft Blob `b208f183ab148b53e736ca59ba7f3f0bef8e9ca3`，有效字数3779。
+- 新SHA独立双遍Reader 0/0/2，见 `reader_reviews/0414_b208f183.md`，原始Review已失效；独立Continuity/Style/Meaningful内容QA见 `qa/0414_report.md`。
+- 第413章ready Blob `e61524c9ba2204960eeef63e08a4f53146c2787f` 精确匹配依赖。F003合法新增2019-03-07 01:18出柜，不证中途全时保管、2016旧原纸及自然人获答。
+- 结构门禁须精确候选提交CI PASS才允许正式ready，不将内容QA自动视为结构成功。
