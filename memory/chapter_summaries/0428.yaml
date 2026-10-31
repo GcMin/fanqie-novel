@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 428
+title: "停电通知签收了，她还在灯下改衣服"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "828da9e1d40a2de0ea67519352339e8f9013c624"
+source_draft_sha: "828da9e1d40a2de0ea67519352339e8f9013c624"
+reader_review: reader_reviews/0428_828da9e1.md
+depends_on_chapter: 427
+depends_on_source_sha: "fc5f7c33014bdea64f5af97231ce690b1ff2a38e"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day289 20:33—Day290 20:09"
+summary: >-
+  Day289 20:33榆安街市场运营群一次已阅被误映为十二户均获通知，但独立裁衣铺顾碧英实际未收到；林熙书面核实并查同分支冰柜，21:09电气负责人调整原21:40切换时点，21:27饺子铺主吴帆回电，21:43其到店本人核对三只托存食材箱并转往有电合作厨房，食品可售/赔付均未判。22:01顾只签本人知晓而不签完成，22:12专业断电，23:06按许可复电，23:19顾只验本铺台灯及允许插座。Day290 10:42仅本市场把发送、具体接收人确认、现场清场分字段，11:37非真实停电通知链测试不等于未来每次成功。F003承427 Day289 14:06仅收件，428 Day290 10:34获限项许可11:09依法见2019-03-07 09:10同号旧封交运岗一件真正签出，14:13最后两分钟双向登记新申请只收；09:10—09:12双向交接与封签状态、2016原书面回告是否在封、历史本人真获答仍未证，Day195窄片与另两旧拆件分存，F008/M004/M005无证。
+meaningful_state_changes:
+  - "顾碧英本人取得书面计划并在22:01限签；吴帆本人21:43清点三箱移交冷柜，22:12专业停电23:06复电，不代其它户验收。"
+  - "本市场原群一次绿格误映被限项纠成发送、接收人确认与现场清场分项。"
+  - "F003新增2019年09:10交运岗单向真实签出节点，最后双向配对仍缺。"
+knowledge_updates:
+  - "夏宁周衡梁策获知群已读不等每户真知晓，顾可书面自主沟通且只确认本人已知，未经电工许可不能决定停送电。"
+  - "罗经办马芸只在Day290获准后知道09:10单岗实出，不知道最后双向签认、封签状态、2016旧原纸和历史本人回告。"
+relationship_updates:
+  - "顾碧英坚守与吴帆托存三箱的实际交付边界，不替店主签食材质量；林熙不让运营账号一次代点充当本人签认。"
+  - "中心三人分工与信任数值不因普通服务个案跳变。"
+foreshadowing_updates:
+  - "F003分清09:08真收、09:10真出和09:12新岗实收各有源但最后双向交接缺；F008/M004/M005无新证。"
+ending_state: "Day290 20:09裁衣铺本铺复电、三箱有合法经营者真交接、本市场通知链有限纠错；旧封最后两分钟双向登记和2016旧纸/历史本人获答仍待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "828da9e1d40a2de0ea67519352339e8f9013c624", final_draft_sha: "828da9e1d40a2de0ea67519352339e8f9013c624", initial_counts: "0/0/2", final_counts: "0/0/2", stage_a_used: 0, body_revisions: 0, fm_char_count_corrected_by_writer: "3516->3498", previous_draft_sha: "a01c61bed5cc043de19346a27f41d5baa15e3e7c"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3498
