@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 434
+title: "警报复位了，车还锁在棚里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "f19171b6f53c5b307f096f28f8a13aff544d7e5e"
+source_draft_sha: "f19171b6f53c5b307f096f28f8a13aff544d7e5e"
+reader_review: reader_reviews/0434_f19171b6.md
+depends_on_chapter: 433
+depends_on_source_sha: "2367351d3c36c406ae06435b8c98f83c70f77901"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day295 20:38—Day296 20:07"
+summary: >-
+  Day295 20:38松篱路9号充电棚方锦莲闻焦味见雾并阻止罗柯入棚；19:54主控通讯复位与20:02平台绿色“正常”并非现场安全确认。20:47夏宁接异味险情转办且消防已报119，21:04姜原到场仍疑雨潮，消防专业隔离和核第三排异常温升原因未定，周衡梁策只确认3人在警戒外。罗柯拒签“用户自主延迟取车”假表，22:07运营有责负责人改记“设施限制、未交付取车”，超时费仅冻结核查。Day296 10:46公众棚继续停用，受热接插件不等全部根因已定，车转专业受控暂存不可骑走；15:23罗柯本人真实核到部分误计撤销，配送新班仍无承诺。20:07公开号真人确认停用，原19:54绿格日志不删。F003承433 Day295 14:12申请仅收，Day296 10:19有权限批仅查2019同号第37页附件类别及检索号，11:07依法见“交运接收核对附页”独立索引且与09:10出/09:11转/09:12到任务关联；未看填写状态、当面互签、封口，14:08进一步申请仅收件；2016旧回告是否封内及历史人真获答、Day195旧片两拆件与沈家票同源皆未证，F008/M004/M005不升级。
+meaningful_state_changes:
+  - "后台主控复位被拆分为实际消防风险与公众停用，方锦莲20:38真实异味留源而不倒填。"
+  - "罗柯拒假签后获有责设施限制和未交车凭据，本人核对误计部分撤销；车辆仍不可领、后续接单收入未知。"
+  - "F003新增依法可检索的2019同号交运接收核对附页独立保管编号，但填写与双方互签未知。"
+knowledge_updates:
+  - "夏宁/周衡/梁策仅知消防风险由专业岗位控制、现场三人安全及有责运营纠错；不宣告全棚电气安全或替配送站决定排班。"
+  - "罗经办/马芸获知附页目录检索存在但不知其填写状态、签名、封口，更不知2016旧封内物和历史报事人真获答。"
+relationship_updates:
+  - "罗柯拒绝被写作自愿拖延取车、姜原由后台绿格转为支持有责实情记录；方锦莲坚持本人观察时间，彼此形成有限可信交班。"
+foreshadowing_updates:
+  - "F003由第37页遮蔽时点进一步到可查的独立附页索引，不能把目录等同双方交运实证；F008/M004/M005仍未证。"
+ending_state: "Day296 20:07松篱路9号充电棚继续封停、罗柯车未交付，部分误计真正撤销而后续跑班未知；2019附页下步仅收申请，未阅互签封口，2016旧报事答复未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f19171b6f53c5b307f096f28f8a13aff544d7e5e", final_draft_sha: "f19171b6f53c5b307f096f28f8a13aff544d7e5e", initial_counts: "0/0/2", final_counts: "0/0/2", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "2367351d3c36c406ae06435b8c98f83c70f77901", dependency_status: "verified_exact_ready_blob", proposed_ready_blob: "29ebda7925bead80ab22f492ff3cdb64a1f5d06c"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3254

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 433
+last_updated_chapter: 434
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1744,3 +1744,12 @@ chapter_433_relationship_verified:
   lin_rong_and_mother: "林蓉为视力欠佳母亲确认六号救生圈状态，照顾但不取消母亲在安全公开步道自主数圈的选择。"
   fei_and_professional_duty: "费师傅因推汤桶绕路提出质疑，但接受有责部门核过的有限平路；没有越权要求未获安全许可就挂圈。"
   core_team: "夜间中心与堤岸、道路、养护专业分职协作，只确认相应有权节点，不改变已有固定信任数值。"
+
+chapter_434_relationship_verified:
+  chapter: 434
+  source_sha: "f19171b6f53c5b307f096f28f8a13aff544d7e5e"
+  rider_and_operator: "罗柯拒虚假的用户自主延期取车表，姜原由后台绿灯信赖转向实记运营限制，收费纠正和劳动损失不相互代签。"
+  keeper_and_rider: "方锦莲保护罗柯不入高风险棚，只为本人观察时间负责，不替专业人员承诺车辆安全。"
+  core_team: "夏宁/周衡/梁策履行调度和公共侧核人，不替消防电工、经营方、配送站代权决定。"
+  archive: "罗经办与马芸坚持目录附页存在不等实际填完/双方互签，亦不代当年人宣布获回告。"
+  trust_scores_unchanged: true

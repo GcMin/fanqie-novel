@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 433
+current_chapter: 434
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0433.md
-current_source_sha: be04273556f8c76307d2599593f9c010550e21c6
-current_review_path: reader_reviews/0433_be042735.md
+current_source_path: chapters/draft/0434.md
+current_source_sha: f19171b6f53c5b307f096f28f8a13aff544d7e5e
+current_review_path: reader_reviews/0434_f19171b6.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0432_0433_candidate
+last_action: audit_0434_candidate
 last_action_date: "2026-11-01"
 last_error: null
-last_diff_summary: "432正文首句七次→八次一字修订且新SHA双遍0/0/2；433对432前后事实实比后仅重绑SHA、正文零改并新SHA双遍0/0/2；独立QA皆PASS、精确候选CI待核。"
+last_diff_summary: "434无正文修订，依赖433正式ready精确SHA；独立Pass A/B=0/0/2、内容QA PASS；候选commit必须精确CI成功再放行"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: be04273556f8c76307d2599593f9c010550e21c6
+current_review_source_sha: f19171b6f53c5b307f096f28f8a13aff544d7e5e
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -2938,5 +2938,21 @@ chapter_433_revision_final:
   predecessor_old_draft_sha: "45b2b156e360dd898ae5f32a370326bbeef473d2"
   predecessor_ready_blob: "ce007261798181e702527da9efa615b5782e5fbf"
   factual_delta: "432前后仅吴锦荷来电次数第七→第八，433江鹭堤与档案事实不受影响"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_434_revision_final:
+  chapter: 434
+  original_sha: "f19171b6f53c5b307f096f28f8a13aff544d7e5e"
+  final_sha: "f19171b6f53c5b307f096f28f8a13aff544d7e5e"
+  final_review: reader_reviews/0434_f19171b6.md
+  initial_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "2367351d3c36c406ae06435b8c98f83c70f77901"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
