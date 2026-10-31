@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 414
+current_chapter: 415
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0414.md
-current_source_sha: b208f183ab148b53e736ca59ba7f3f0bef8e9ca3
-current_review_path: reader_reviews/0414_b208f183.md
+current_source_path: chapters/draft/0415.md
+current_source_sha: b389b1b06125fe61155fb016556e1aab9f4a2262
+current_review_path: reader_reviews/0415_b389b1b0.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0414_stage_a_rereview_qa_candidate
+last_action: audit_0415_stage_a_rereview_qa_candidate
 last_action_date: "2026-10-31"
 last_error: null
-last_diff_summary: "第414章原稿0/1/2，Stage A补B07清晨白班有责续存和周转车去向；新SHA再独立两遍0/0/2；内容QA PASS，结构必须精确候选CI检验。"
+last_diff_summary: "第415章原稿Reader 0/1/2，Stage A仅更正到站短信收信方为运营夜间值守号；新SHA独立两遍0/0/2，内容QA PASS，精确候选CI仍必需。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -2639,5 +2639,22 @@ chapter_414_revision_final:
   corrected_issue: "B07只有当夜许可，新文本另记Day276清晨五点有权管理方实核36筐与通道净宽、签署白班续存许可、周转车未提货。"
   predecessor_ready_blob: "e61524c9ba2204960eeef63e08a4f53146c2787f"
   predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_415_revision_final:
+  chapter: 415
+  original_sha: "ac31fba28962b78553c2ee3d13297ded2383b8a2"
+  final_sha: "b389b1b06125fe61155fb016556e1aab9f4a2262"
+  initial_review: reader_reviews/0415_ac31fba2.md
+  final_review: reader_reviews/0415_b389b1b0.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 1
+  corrected_issue: "22:42到站信息原句可能指发到本人留给运营方的回拨号码；仅明确向渡口运营方夜间值守号码发信息。"
+  predecessor_ready_blob: "84bb4b2173a68fdc6f1de546246dab62b305ae69"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 414
-last_reviewed_title: "摊位挪开了，水才肯往下走"
-last_source_path: chapters/draft/0414.md
-last_source_sha: b208f183ab148b53e736ca59ba7f3f0bef8e9ca3
-last_review_path: reader_reviews/0414_b208f183.md
+last_reviewed_chapter: 415
+last_reviewed_title: "船还没开，屏幕先说到了"
+last_source_path: chapters/draft/0415.md
+last_source_sha: b389b1b06125fe61155fb016556e1aab9f4a2262
+last_review_path: reader_reviews/0415_b389b1b0.md
 last_reviewed_at: "2026-10-31"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -3153,5 +3153,21 @@ chapter_414_audit_final:
   body_revisions: 1
   predecessor_ready_blob: "e61524c9ba2204960eeef63e08a4f53146c2787f"
   predecessor_factual_delta: "前章精确同正式ready Blob；无需猜测旧草稿差异"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_415_audit_final:
+  chapter: 415
+  original_source_sha: "ac31fba28962b78553c2ee3d13297ded2383b8a2"
+  source_sha: "b389b1b06125fe61155fb016556e1aab9f4a2262"
+  initial_review: reader_reviews/0415_ac31fba2.md
+  final_review: reader_reviews/0415_b389b1b0.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 1
+  predecessor_ready_blob: "84bb4b2173a68fdc6f1de546246dab62b305ae69"
+  predecessor_factual_delta: "前章SHA与正式ready Blob精确相同，无旧暂稿依赖差异"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

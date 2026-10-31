@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 415
+title: "船还没开，屏幕先说到了"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "ac31fba28962b78553c2ee3d13297ded2383b8a2"
+source_draft_sha: "b389b1b06125fe61155fb016556e1aab9f4a2262"
+initial_review: reader_reviews/0415_ac31fba2.md
+reader_review: reader_reviews/0415_b389b1b0.md
+depends_on_chapter: 414
+depends_on_source_sha: "84bb4b2173a68fdc6f1de546246dab62b305ae69"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day276 20:43—Day277 20:13"
+summary: >-
+  Day276 20:43唐予晴报南栖渡口西岸屏幕误示末班船20:30已靠岸却没有船；20:18专业航道巡查因漂浮木料停运，20:26通知只入运营消息队列，西岸断网终端却依计划时刻自动假标已到。21:08人工公告停航；现场三位候船者之一自行合法骑车离开，另两人21:23获得经营方一次性批准公路桥小巴接驳，21:53车真到22:07出发，22:42唐予晴向渡口运营方夜间值守号码真回告与老人到东岸公共汽车站，不推照护站考勤、老人到家或退票结果。Day277 10:40经营方仅在西岸本点停用离线自动已靠岸显示改待人工核，11:36现场验证与人工公告一致；航道风险和其他屏幕未获核。F003承Day276 14:06仅受理的窄查，Day277 10:33正式许可11:12合法核到2019-03-07 04:36外封一件同事项接续台岗位签入，01:18出柜与09:12新岗实收间运输未全有证；14:19后续出运页申请仅收件，2016原书面回告在封和历史自然人获答仍不证。Day195旧字窄片与另两件旧拆件分存，F008/M004/M005无证。
+meaningful_state_changes:
+  - "从假示渡船已到到两名乘客合法真实桥接驳到东岸，并在本渡口纠正离线假到岸规则。"
+  - "2019外封一件新增04:36接续台岗位真签入节点，运输其余区间和2016原纸/历史自然人获答仍待证。"
+knowledge_updates:
+  - "中心只依据有责运营回告知道两人抵东岸、屏幕本点限项整改，不知考勤、老人是否到家；档案组仅获合法公开外封签收节点，不知当代乘客私案。"
+relationship_updates:
+  - "唐予晴坚持真实接驳、误显事实说明和本人权益，不被强迫签满意；运营有责承担接驳，中心不替任何一方证明考勤或退款。"
+foreshadowing_updates:
+  - "F003新增2019-03-07 04:36交运接续台有源签到一件，旧2016内纸是否在封、历史报事人是否收到答复、各段运输仍未知；M004/M005未获确证。"
+ending_state: "Day277 20:13两位乘客东岸公共站点下车获本人回告，西岸本点断线显示已纠但专业航道和其他屏未知；下一外封出运页仍待批准。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ac31fba28962b78553c2ee3d13297ded2383b8a2", final_draft_sha: "b389b1b06125fe61155fb016556e1aab9f4a2262", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3399

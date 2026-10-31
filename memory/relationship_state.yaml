@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 414
+last_updated_chapter: 415
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1598,4 +1598,12 @@ chapter_414_relations_verified:
   market: "岑桂香坚持36筐本人监督点交、受潮纸箱留证、B07到期需经有权续存及另线销售许可；吴主任书面分列已清堵、未复摆、货损待处理，不以自愿撤摊代替实际经过。"
   field_team: "周衡、夏宁、梁策只做夜间联动与事实回告，田师傅、钱师傅、电气值守及市场运营各按职责作现场判断和处置。"
   archive: "罗经办马芸依法只核2019-03-07 01:18一件外封中转柜出柜岗位签认，不能替未知交运接收和2016旧来话者答复作证。"
+  trust_scores_unchanged: true
+
+chapter_415_relations_verified:
+  chapter: 415
+  source_sha: "b389b1b06125fe61155fb016556e1aab9f4a2262"
+  ferry: "唐予晴坚持船真实停航及能让人看懂的告示，等待经运营主管批准的小巴实际到场才登车；拎工具箱老人自主确认同乘并保留独立退票权，第三人骑车离开而未被代签接驳。"
+  field_team: "夏宁只收必要乘车意愿和本人回告，梁策核现场安全、周衡区分系统假到和真正的船/车位置；段师傅、运营主管及司机各行停航接驳权限，不由夜间中心取代。"
+  archive: "罗经办马芸依法只获一件外封在04:36接续台岗位签入事实，保留01:18后与09:12前其他运输空档，以及2016原纸与历史真人获答的不确定性。"
   trust_scores_unchanged: true

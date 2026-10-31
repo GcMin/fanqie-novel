@@ -12,11 +12,11 @@
 - timeframe: "Day276 20:43—Day277 20:13"
 - pov: "临江市夜间综合服务中心周衡、夏宁、梁策的有限工作视角；西岸唐予晴；罗经办和马芸在市政档案窗口"
 - target_effective_chars: 3000
-- actual_effective_chars: 3398
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- actual_effective_chars: 3399
+- status: ready
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 
 ## 目标与开场状态
 
@@ -46,3 +46,8 @@ Day276 20:09 第414章已在中心交班：丰堤街东口只半幅开放，原�
 ## Continuity Precheck（Writer；不是独立 Reader/QA）
 
 从GitHub main e4529b3add95c28e82ebf94a028cdd9f23df665b重新读取AGENTS.md、novel.yaml、writing_roles.md、ai_reading_protocol.md、Premise/全书主线/世界/文风、三位主要人物卡、现行Memory与ARC-054近期实证、最近405—414十章摘要和410—414五章ready正文、相关Foreshadowing与Timeline；不读取历史reader_reviews。第153章存在published；从published、ready、draft三目录确定当前最大第414章；第414章ready Blob `84bb4b2173a68fdc6f1de546246dab62b305ae69`，本章绑定精确正式来源。当前outlines/volume_05.md和outlines/arcs/arc_current.md滞后，依近期已ready章、summary与memory/current_arc的第六卷ARC-054验证事实继续，不将过期第137章草纲当当前剧情。只有计划与draft首稿创建；不修改Canon/Memory/现有章节，不执行审核、修改或发布。
+## Audit 双遍Reader／局部修订／独立QA记录（2026-10-31）
+
+- 原草稿Git Blob `ac31fba28962b78553c2ee3d13297ded2383b8a2`，Reader初审0 BLOCKER /1 MAJOR /2 MINOR；MAJOR为22:42回告号码语义指向当事人所留回拨号，无法证明信息发给运营方。
+- Stage A唯一修改：将回告句明确为“唐予晴向渡口运营方的夜间值守号码发了条信息”；有效3399字，修订后Git Blob `b389b1b06125fe61155fb016556e1aab9f4a2262`，独立重新Reader Pass A/B：0/0/2；MINOR仅记录不修订。
+- 第414章正式ready Blob `84bb4b2173a68fdc6f1de546246dab62b305ae69` 前章依赖精确匹配，无新旧版前章事实差异；独立Continuity/Style/Meaningful QA PASS。结构仍需精确候选Commit CI验证，不以旧校验结果代替。
