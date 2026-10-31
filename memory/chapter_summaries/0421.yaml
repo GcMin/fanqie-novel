@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 421
+title: "领回单打出来了，小满还在笼里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "4c8f1361e8fce879f241595e732ff404a89ec62c"
+source_draft_sha: "141b122e2fbcc63302f3e88e7af046a5d23fcd32"
+initial_review: reader_reviews/0421_4c8f1361.md
+reader_review: reader_reviews/0421_141b122e.md
+depends_on_chapter: 420
+depends_on_source_sha: "019980627ae05adb3e30ec8ef6b429f725cbfa10"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day282 20:34—Day283 20:13"
+summary: >-
+  Day282 20:34杜臻持自动领回成功单到清禾街保管点，小满仍在三号笼，实际签领为空；阿闻继续水食照看并留绿勾作为错误证据。21:21沈姐核16:48入站照片、旧犬证与现场登记标识对应，21:59有责主管限项许可22:08杜臻本人真签领小满；不把犬亲近当权属或健康判定。Day283运营确认材料初核被误映为领回成功，10:44仅本点停假提示11:27有限测试，杜臻自愿反馈狗已归家、住址不公开。F003承420 Day282 14:06仅收件，Day283 10:26许可后11:03依法查同号旧封2019-03-07 08:06外标待复核和08:29本项复核结束公开状态，14:17原因结论新申请仅收件，不证破损调包、内封2016纸或历史自然人获答。
+meaningful_state_changes:
+  - "自动假领回改为22:08杜臻本人真签领，本点次日纠错误提示。"
+  - "F003增加08:06与08:29外标复核状态，原因与具体经手仍未可证。"
+knowledge_updates:
+  - "中心按有责和本人记录真交接，不泄家庭地址或宣称犬全面健康。"
+  - "档案组只知公开状态，原因/实签/2016旧纸与历史人答复均未知。"
+relationship_updates:
+  - "杜臻与亡父及小满有旧胸背带和往日教狗坐下的生活记忆；保管人坚持真正交接。"
+foreshadowing_updates:
+  - "F003有公开待复核/结束状态而不证明换封，Day195窄片与两旧拆件独立，F008/M004/M005无证。"
+ending_state: "Day283 20:13小满真正由杜臻领走且本人自愿回告归家，本点纠假完成，旧封复核原因仍待新申请。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "4c8f1361e8fce879f241595e732ff404a89ec62c", final_draft_sha: "141b122e2fbcc63302f3e88e7af046a5d23fcd32", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "e37093704a46c13fada2ccb3e5274b63ef510fb0", predecessor_ready_blob: "019980627ae05adb3e30ec8ef6b429f725cbfa10", predecessor_body_identical: true, proposed_ready_blob: "6ca6180361ddb4eb78c39c9e67f9c040ff78399c"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3412

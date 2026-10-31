@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 419
+last_updated_chapter: 421
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1637,4 +1637,19 @@ chapter_419_relations_verified:
   user_and_operators: "郑蔓担心母亲但不要求客服擅开锁，小陈林工按授权核实物主和实际交付。"
   family: "郑蔓与母亲22:25在北环南厅真实见面，不冒写最终到家。"
   archive: "罗经办马芸在核到旧封两端同号后仍保持中途交接和2016封内旧纸的未知。"
+  trust_scores_unchanged: true
+
+chapter_420_relations_verified:
+  chapter: 420
+  source_sha: "e37093704a46c13fada2ccb3e5274b63ef510fb0"
+  family: "宁澜理解许陶珍惜旧鲸鱼被而不拿借被草率代替，许陶自主选择外婆薄被。"
+  operators: "小纪、唐师傅按专业权限处理故障，丁姐按物资有责条件批准借用，不让宁澜签原单满意。"
+  archive: "罗经办马芸只认为07:14外观单点有源，不推完整物流与旧纸。"
+  trust_scores_unchanged: true
+chapter_421_relations_verified:
+  chapter: 421
+  source_sha: "141b122e2fbcc63302f3e88e7af046a5d23fcd32"
+  owner_and_keeper: "杜臻凭旧犬证和登记标识领回旧犬；阿闻持续照看不信后台绿单，沈姐坚持有权核验实交。"
+  family: "杜臻亡父和小满的旧胸背带与口令细节呈现家庭关系，不用感情替代身份核验。"
+  archive: "罗经办马芸把08:06/08:29状态与原因及封签实况分开，另申请合法公开凭据。"
   trust_scores_unchanged: true

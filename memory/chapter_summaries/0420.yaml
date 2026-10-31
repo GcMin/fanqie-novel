@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 420
+title: "烘干灯亮了，被角还滴着水"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "e37093704a46c13fada2ccb3e5274b63ef510fb0"
+reader_review: reader_reviews/0420_e3709370.md
+depends_on_chapter: 419
+depends_on_source_sha: "3c4bd5e8f818454f84d1459b93660749bfffab01"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day281 20:27—Day282 20:11"
+summary: >-
+  Day281 20:27宁澜在临河街洗衣点收到三号机烘干完成短信，旧鲸鱼被仍湿且门锁不开；唐师傅核排风保护中断加热而计时程序假通知，21:36有责隔离后真取湿被。22:21宁澜自愿借社区备用被但不签原订单满意，原湿被按号暂存。Day282 09:28复查积绒排风，11:06本点三号机停售和停假完成提示，仍待专业试验。宁澜10:07本人按号取原湿被，另店11:32收件16:17她亲验已干旧被真领；借被未还、原费待核。F003承419 Day281 14:08仅收件，Day282 10:32正式许可后11:09查2019-03-07 07:14同号外封“封签在位、未记外观破损”单点，14:06后段新申请仅收件，不证整段保管、2016封内旧纸或历史本人获答。
+meaningful_state_changes:
+  - "旧鲸鱼被从短信假完成到16:17本人真验干取回，本机停错误完成短信及销售。"
+  - "F003增加旧封07:14一次外观核证点，后段仍待查。"
+knowledge_updates:
+  - "中心分别记录21:36湿被真取、22:21借用和16:17本人拿回干原物，不把借物当原订单履约。"
+  - "档案组只在限项许可内知单点外观，不知2016原纸或旧人答复。"
+relationship_updates:
+  - "宁澜尊重许陶对鲸鱼旧被的感情，孩子当夜自选外婆薄被；丁姐不强制借物冲抵旧订单。"
+foreshadowing_updates:
+  - "F003增加2019旧封07:14同号外观单点，14:06后段查询仅受理，Day195窄片两拆件独立。"
+ending_state: "Day282 20:11鲸鱼被真正干燥由宁澜本人领取，借用品未还、费用未定、本机未复用，F003后段物流未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "e37093704a46c13fada2ccb3e5274b63ef510fb0", final_draft_sha: "e37093704a46c13fada2ccb3e5274b63ef510fb0", reviews_this_cycle: 1, local_revision_used: 0, body_revisions: 0, proposed_ready_blob: "019980627ae05adb3e30ec8ef6b429f725cbfa10"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3718
