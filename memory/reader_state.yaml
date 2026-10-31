@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 428
-last_reviewed_title: "停电通知签收了，她还在灯下改衣服"
-last_source_path: chapters/draft/0428.md
-last_source_sha: 828da9e1d40a2de0ea67519352339e8f9013c624
-last_review_path: reader_reviews/0428_828da9e1.md
+last_reviewed_chapter: 429
+last_reviewed_title: "水位报零了，桥洞里还有一道水线"
+last_source_path: chapters/draft/0429.md
+last_source_sha: 7974b810cea1dcca9b0fcf6c47e97d957f80e1d3
+last_review_path: reader_reviews/0429_7974b810.md
 last_reviewed_at: "2026-11-01"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 427
-depends_on_source_sha: fc5f7c33014bdea64f5af97231ce690b1ff2a38e
+depends_on_chapter: 428
+depends_on_source_sha: 06bfc17f17bb3b2b4c4c1a55f5685225165b3411
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: fc5f7c33014bdea64f5af97231ce690b1ff2a38e
+predecessor_current_source_sha: 06bfc17f17bb3b2b4c4c1a55f5685225165b3411
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -3369,4 +3369,19 @@ chapter_428_audit_final:
   predecessor_ready_blob: "fc5f7c33014bdea64f5af97231ce690b1ff2a38e"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_429_audit_final:
+  chapter: 429
+  source_sha: "7974b810cea1dcca9b0fcf6c47e97d957f80e1d3"
+  final_review: reader_reviews/0429_7974b810.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  body_revisions: 0
+  predecessor_ready_blob: "06bfc17f17bb3b2b4c4c1a55f5685225165b3411"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  proposed_ready_blob: "8284a2094f370feb6767f4d50a7d913f2135693c"
   structural_gate: exact_candidate_commit_CI_required

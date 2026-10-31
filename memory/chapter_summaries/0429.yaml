@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 429
+title: "水位报零了，桥洞里还有一道水线"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "7974b810cea1dcca9b0fcf6c47e97d957f80e1d3"
+reader_review: reader_reviews/0429_7974b810.md
+depends_on_chapter: 428
+depends_on_source_sha: "06bfc17f17bb3b2b4c4c1a55f5685225165b3411"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day290 20:41—Day291 20:11"
+summary: >-
+  Day290 20:41白槐路人行下穿通道绿牌显示泵房排水已完而坡脚仍有积水，林书仪劝停郭朋手推花车，20:56夏宁分开泵站集水井达到设定值与公众路面可走。21:18道路值守到场21:37有责批准双端硬隔离；北侧便道施工占路无法推车，21:52另获准西侧真实核过的平路，22:06郭朋推车实际经过、22:22林书仪实际到照护站且同事代班，考勤迟到不倒填。专业22:17依许可清堵坡脚雨水口，22:48水下降不等通道复开；Day291 09:43仅本点停泵站完成误映正常通行，10:26各专业核坡面及电气11:48道路有责本通道真正获准恢复，邻施工便道仍受限。F003承428 Day290 14:13仅收申请，Day291 10:33依法限批11:14见2019-03-07 09:11同号调拨路由确认索引与09:10实出、09:12实收任务可对应，但非双方实物签认或封口检查；14:08下一新申请仅收件，不证2016原回告是否封内、历史自然人获答，Day195旧片与两旧拆件继续分存，F008/M004/M005未确证。
+meaningful_state_changes:
+  - "从假绿牌引导涉水变为21:37有责双端隔离、21:52获准实际可走西侧平路，林书仪22:22真到站且迟到据实记录。"
+  - "Day291 11:48专业分项实核后本通道限项复开，本点关闭把泵站任务达标自动映为路面正常的旧规则。"
+  - "F003增加2019旧封09:11同任务路由确认索引，但最后两分钟实际交接与封签仍未证明。"
+knowledge_updates:
+  - "夏宁等确认泵房低水位记录为真而路面安全未获确认，不能拿设备完成签公共开放；实际绕行与到站时刻分源记录。"
+  - "罗经办马芸仅在新获许可后知09:11任务路由索引，双向手交手与2016纸、旧人真获答仍未知。"
+relationship_updates:
+  - "林书仪与郭朋现场互相劝止冒险且自选合法通路；照护站同事接班，不能据系统记录抹掉她真实迟到。"
+  - "中心外勤与道路、排水、电气专业按实际授权合作，不因本案改变固定信任数值。"
+foreshadowing_updates:
+  - "F003从09:10交运岗实际出件、09:12新岗实收向09:11同任务路由确认增加有限旁证，仍无实物双向签认及封签检验；F008/M004/M005无新证。"
+ending_state: "Day291 20:11白槐路本下穿专业核验后合法复开，旧错映已在本点纠正；林书仪真到照护站考勤不抹，F003末两分钟双方实交和2016原回告未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7974b810cea1dcca9b0fcf6c47e97d957f80e1d3", final_draft_sha: "7974b810cea1dcca9b0fcf6c47e97d957f80e1d3", initial_counts: "0/0/2", final_counts: "0/0/2", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "06bfc17f17bb3b2b4c4c1a55f5685225165b3411"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3388

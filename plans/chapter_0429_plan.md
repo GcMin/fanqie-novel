@@ -9,10 +9,10 @@
 - depends_on_source_sha: "06bfc17f17bb3b2b4c4c1a55f5685225165b3411"
 - dependency_status: verified_exact_ready_blob
 - continuity_precheck: writer_precheck_only_not_qa
-- status: planned_and_drafted
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-11-01"
+- publish_mode: ready
 - timeframe: "Day290 20:41—Day291 20:11"
 - pov: "林书仪、郭朋、夏宁、周衡、梁策；罗经办、马芸"
 - target_effective_chars: 3000
@@ -43,3 +43,9 @@ Day290 20:41，夜班照护人员林书仪在白槐路下穿通道入口看到�
 
 ## 本章新增状态与结尾承接
 林书仪/郭朋不再被错误绿牌诱导涉水，取得获准且现实可走的地面替代路线；专业人员真实清堵，第二天通道经有权分项复核才开放。设备单与公众通行单分轨，误映只在本点停用。F003新获09:11同号任务路由的有限来源，但真实交接/封签和2016旧人答复继续缺证；后续由独立Audit对本稿执行审核。
+
+## Audit 2026-11-01
+- 独立Reader Pass A→Pass B：草稿Blob 7974b810cea1dcca9b0fcf6c47e97d957f80e1d3，BLOCKER=0/MAJOR=0/MINOR=2，KEEP/none，无需修订且正文零修改。
+- 前章428正式ready Blob 06bfc17f17bb3b2b4c4c1a55f5685225165b3411 精确匹配，无前章新旧SHA事实变化；429 Day290 20:41接428 20:09合理。
+- Continuity / Style / Meaningful QA 均PASS，实际有效3388字，详见 qa/0429_report.md；F003只新增09:11路由索引，不证实物双向签认及旧人获答。
+- 最终ready Blob 8284a2094f370feb6767f4d50a7d913f2135693c；精确候选结构CI成功是main交付前提，未通过不放行。
