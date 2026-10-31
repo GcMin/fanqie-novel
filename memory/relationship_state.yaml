@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 424
+last_updated_chapter: 425
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1673,4 +1673,13 @@ chapter_424_relations_verified:
   private_resident_and_visitors: "秦瑞芳没有开私宅却自愿借椅给顾蕊田雪兰；顾蕊确认曾来此但不应写成秦瑞芳拒绝履职，真实汛期帮人历史与现时私人边界都保留。"
   public_duty: "街道主管有限批准接引，谢阿姨现场确认两人并于22:02真接入有值守的公共等候室；22:24家属自行带离，不承诺到家。"
   archive: "罗经办马芸维持分派任务与实物交运区分，不替2016旧纸及历史自然人确认实答。"
+  trust_scores_unchanged: true
+
+chapter_425_relations_verified:
+  chapter: 425
+  original_source_sha: "2924ea44a1479df4d8a4a1e498e332677c4bf5c0"
+  source_sha: "5a72e369a1d19320f8ae6d626d854be10e993837"
+  cleaning_worker_and_passerby: "傅宛发现护栏松动后提醒冯世发退回，冯世发先不愿绕路后接受经实际核净宽的街面路，结尾本人自行推车离开未让他人签家。"
+  center_and_service_operators: "夏宁保护报险来源，不以旧号灰标拒绝派桥梁专业岗；梁策周衡不擅修栏杆，老姚和片区有责岗位按分责完成硬隔离。"
+  archive: "罗经办马芸查明08:58实际到件也没有越证认定2016纸与旧人受答，继续尊重公开字段限项。"
   trust_scores_unchanged: true

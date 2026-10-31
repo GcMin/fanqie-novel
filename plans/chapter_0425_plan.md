@@ -6,17 +6,17 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "61df6c6c5472a60530a562fd76a18af254f0b400"
 - depends_on_chapter: 424
-- depends_on_source_sha: "9fce6862efb8cb91a14ba07b2ef960d756e3712d"
-- dependency_status: provisional
+- depends_on_source_sha: "7c26a9c4df034b76b48fe53ede757b37c47aa693"
+- dependency_status: verified_predecessor_body_identical
 - continuity_precheck: writer_precheck_only_not_qa
-- status: draft
-- qa: pending
+- status: completed
+- qa: pass
 - approved_at: null
 - publish_mode: draft
 - timeframe: "Day286 20:26—Day287 20:19"
 - pov: "夏宁、傅宛、周衡、梁策、冯世发；罗经办、马芸"
 - target_effective_chars: 3000
-- actual_effective_chars: 3413
+- actual_effective_chars: 3431
 
 ## 本章目标与开场
 Day286 20:26，一通从“已拆除的映桥路旧问讯电话亭”号码显示发来的报险电话，指向现实中泊柳步行桥南口松动护栏。中心不以号源灰标签否定来话人，也不凭可回拨的系统配置认定真人收悉；先由有责养护岗隔离现场，再查迁址总机的普通号源错映。独立推进F003前章Day286 14:16仅收件的2019同号外封交运查询。
@@ -46,3 +46,8 @@ Day286 20:26，一通从“已拆除的映桥路旧问讯电话亭”号码显�
 
 ## 结尾承接
 桥南电话能通过新公开号码真正回拨，泊柳桥已有限封控且仍待专业修复；2019旧封从08:43任务分派推进至08:58同号中继台真实点收，但08:58—09:12逐岗接续和封口连续性仍有证据缺口，14:09的新申请仅受理。待独立Audit审查。
+
+## Audit 独立验收｜2026-10-31
+- 原草稿 `2924ea44a1479df4d8a4a1e498e332677c4bf5c0` 初审0 BLOCKER/1 MAJOR/2 MINOR，唯一MAJOR是424 provisional依赖未重绑。424旧draft `9fce6862efb8cb91a14ba07b2ef960d756e3712d` 与正式ready `7c26a9c4df034b76b48fe53ede757b37c47aa693` 小说正文逐字同文，仅交付元数据不同。
+- Stage A仅将425 Front Matter与本详细章纲重绑424正式ready，且复算正文有效字数原标3413误记应为3431；425小说正文0字修改。修订后Git Blob `5a72e369a1d19320f8ae6d626d854be10e993837` 再完整独立Pass A→B Reader最终0/0/2。初审 `reader_reviews/0425_2924ea44.md`、终审 `reader_reviews/0425_5a72e369.md`。
+- 独立Continuity/Style/Meaningful QA `qa/0425_report.md` 全PASS。正式拟ready Blob `e311e956320caa77b4e13aa3d018a3edb0ad13c3`；须精确候选CI实际运行 `python -m publisher.check_local --repo .` 与测试成功后才能非强制放行main。

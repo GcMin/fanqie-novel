@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 425
+title: "拆掉的电话亭今夜有人接线"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "2924ea44a1479df4d8a4a1e498e332677c4bf5c0"
+source_draft_sha: "5a72e369a1d19320f8ae6d626d854be10e993837"
+initial_review: reader_reviews/0425_2924ea44.md
+reader_review: reader_reviews/0425_5a72e369.md
+depends_on_chapter: 424
+depends_on_source_sha: "7c26a9c4df034b76b48fe53ede757b37c47aa693"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day286 20:26—Day287 20:19"
+summary: >-
+  Day286 20:26傅宛从桥南清扫组工具间报泊柳步行桥南口护栏松动，人无坠落，但来电显示已拆两年的映桥路旧问讯电话亭。夏宁先派有责桥梁岗位核险，原来显号回拨仅接撤用语音，傅本人未接到；后依已核市政值守通讯录确认桥南新工作号及真人接听。20:59周衡梁策实看护栏支座，冯世发推宽手推车想冒险过桥，团队实核净宽和安全街面绕行；21:14专业养护到场21:23片区有责批准硬隔离和指引21:35见冯本人已沿替代路推车一段，22:08隔离交班但桥未修复。Day287 09:27仍封闭，10:04查旧亭号系桥北工具间三月前迁桥南后外呼/回拨配置仍关联旧问讯点，11:38仅本单位新公开号真人短句回拨测试成功，旧号语音及其他外部缓存仍未知。F003承424 Day286 14:16仅收件，Day287 10:31正式许可11:06限阅见2019-03-07 08:58同号外封一件于交运中继台真实到件点数暂收，不是08:43任务分派，但08:58封签状态及至09:12新岗逐岗双向交接仍未获证；14:09下一窄申请仅收件。2016封内旧原纸是否存在与历史自然人获答未知，Day195窄片和两旧拆件分存，F008/M004/M005未确认。
+meaningful_state_changes:
+  - "真实泊柳桥护栏风险由清扫员临时拦行转为21:23有责硬隔离，Day287仍安全封闭待专业修复，未伪造复开。"
+  - "旧亭真实拆除与现时错误来显源链得到普通迁址配置解释，桥南工具间本单位新公开号在11:38真人回拨核通，不推全网修复。"
+  - "F003增加08:58同号旧封中继台实际到件点收节点，未补齐后段双向交运。"
+knowledge_updates:
+  - "中心确认傅宛所见现实桥险，旧号码第一次回拨不达本人，后续新号有责核人与本人接通分开记；老伯仅被见推车走局部道路未证到家。"
+  - "罗经办马芸只依法获一件外封08:58中继台实收，不知道当时封口状态、至09:12逐岗转交或2016纸件真在封与历史自然人获答。"
+relationship_updates:
+  - "傅宛不被要求独自以扫帚守桥，冯世发在实见可推宽度后自行择安全绕行，周衡梁策让专业单位负责隔离。"
+foreshadowing_updates:
+  - "F003区分08:43台位分派与08:58真点收、09:12新岗既有实收记录，彼此无证连续；F008/M004/M005均无新可靠证明。"
+ending_state: "Day287 20:19泊柳桥仍封控待修复复开，桥南工作电话新公开号本点核通，旧问讯号撤用语音未同步；F003 08:58单点实收有证但09:12前双向交接未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "2924ea44a1479df4d8a4a1e498e332677c4bf5c0", final_draft_sha: "5a72e369a1d19320f8ae6d626d854be10e993837", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "9fce6862efb8cb91a14ba07b2ef960d756e3712d", predecessor_ready_blob: "7c26a9c4df034b76b48fe53ede757b37c47aa693", predecessor_body_identical: true, corrected_char_count: "3413->3431", proposed_ready_blob: "e311e956320caa77b4e13aa3d018a3edb0ad13c3"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3431
