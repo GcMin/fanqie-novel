@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 431
+title: "门房抽屉里的第三封信"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "5a5c7d3742797d951470394d0ab60c26c94af2e8"
+source_draft_sha: "27e5d3931d67bfbc0af7a4a53eb8ba57636e13ec"
+initial_review: reader_reviews/0431_5a5c7d37.md
+reader_review: reader_reviews/0431_27e5d393.md
+depends_on_chapter: 430
+depends_on_source_sha: "9514a1c8816a542c633f87b83df868dd3d99002f"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day292 20:31—Day293 20:11"
+summary: >-
+  Day292 20:31姚素兰在桂棠路19号见挂号信系统19:46已“本人签收”但信仍在门房三封暂存中，门卫田沛只知道三件数量且无合法挂号代签授权。20:43夏宁分系统妥投与真人未领，21:22邮政夜班确认19:46只有投递岗位到物业暂存点三件交接，接口误映本人签收。21:56邮政林师傅带独立完整单号和合法凭据核身，22:08姚本人真签领外孙女来信，受潮折角留证、封内未看，她保留私下阅读；另两封继续待领。Day293 09:40后主管仅改本批暂存与本人签领的两字段，10:58停错映，其他批次待抽核；20:11交班不追私信内容。F003承430 Day292 14:21新载体类别申请，Day293 10:36限项许可只查2019第一季度《交运签收登记册》《封装异常核查单》系列，11:07确认有可定位系列但无本件获准识别号或原页；14:09下一本件完整号页项与权限窄申请只收件，不能推09:10—09:12真实双方实交、封签状态、2016旧纸封内或历史人获答。Day195窄片与另两旧拆件、沈家私人票继续分存，F008/M004/M005无证。
+meaningful_state_changes:
+  - "19:46物业暂存与22:08姚本人真正领取分别留证，私人原信到她手中且内部状态未知，另两封不冒签。"
+  - "Day293仅本批停暂存映本人妥投的旧规则，其他批次等待抽核。"
+  - "F003合法确认可定位两类纸本系列，但未定位本件的原始交接页，继续最小申请。"
+knowledge_updates:
+  - "夜间中心仅知一件本人真领、原信潮角且未查内部，不知外孙女写的文字；另两件待领取。"
+  - "档案组知道两种纸本系列存在，不知道同号外封有对应原页或2016旧纸及历史人获答。"
+relationship_updates:
+  - "姚素兰坚持亲自签领并决定信中隐私，田沛拒无授权开信代签；中心和邮政各守合法身份核验与实际交接。"
+foreshadowing_updates:
+  - "F003在电子目录限制后得知2019纸本系列类别，不将系列可定位等同同号件有可阅原页；F008/M004/M005无确证。"
+ending_state: "Day293 20:11姚素兰已收到外孙女亲笔信、仍未公开内文，另两封暂存待领；F003具体实交纸页与封签、旧真人获答继续待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "5a5c7d3742797d951470394d0ab60c26c94af2e8", final_draft_sha: "27e5d3931d67bfbc0af7a4a53eb8ba57636e13ec", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "a89734abe0e4d8963ce2df02930a342ae4c683ab", predecessor_ready_blob: "9514a1c8816a542c633f87b83df868dd3d99002f", predecessor_body_identical: true, proposed_ready_blob: "e12d637e33cacaa12863e53360d1caffcf60fe3a"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3131

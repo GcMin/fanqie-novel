@@ -3400,3 +3400,24 @@ chapter_430_audit_final:
   content_qa: pass
   proposed_ready_blob: "9514a1c8816a542c633f87b83df868dd3d99002f"
   structural_gate: exact_candidate_commit_CI_required
+
+chapter_431_audit_final:
+  chapter: 431
+  original_sha: "5a5c7d3742797d951470394d0ab60c26c94af2e8"
+  source_sha: "27e5d3931d67bfbc0af7a4a53eb8ba57636e13ec"
+  initial_review: reader_reviews/0431_5a5c7d37.md
+  final_review: reader_reviews/0431_27e5d393.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_original_draft_sha: "a89734abe0e4d8963ce2df02930a342ae4c683ab"
+  predecessor_ready_blob: "9514a1c8816a542c633f87b83df868dd3d99002f"
+  predecessor_body_identical: true
+  dependency_status: verified_predecessor_body_identical
+  content_qa: pass
+  proposed_ready_blob: "e12d637e33cacaa12863e53360d1caffcf60fe3a"
+  structural_gate: exact_candidate_commit_CI_required

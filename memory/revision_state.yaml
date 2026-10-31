@@ -2887,3 +2887,22 @@ chapter_430_revision_final:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+
+chapter_431_revision_final:
+  chapter: 431
+  original_sha: "5a5c7d3742797d951470394d0ab60c26c94af2e8"
+  final_sha: "27e5d3931d67bfbc0af7a4a53eb8ba57636e13ec"
+  initial_review: reader_reviews/0431_5a5c7d37.md
+  final_review: reader_reviews/0431_27e5d393.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  corrected_issue: "430 provisional SHA更换为正式ready且实比小说正文完全相同；431小说正文未改，新草稿SHA从头双遍Reader复审。"
+  predecessor_original_draft_sha: "a89734abe0e4d8963ce2df02930a342ae4c683ab"
+  predecessor_ready_blob: "9514a1c8816a542c633f87b83df868dd3d99002f"
+  predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
