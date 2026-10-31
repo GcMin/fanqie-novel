@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 415
-last_reviewed_title: "船还没开，屏幕先说到了"
-last_source_path: chapters/draft/0415.md
-last_source_sha: b389b1b06125fe61155fb016556e1aab9f4a2262
-last_review_path: reader_reviews/0415_b389b1b0.md
+last_reviewed_chapter: 416
+last_reviewed_title: "坡道送到了，轮椅还在门外"
+last_source_path: chapters/draft/0416.md
+last_source_sha: 9f21008e16026bc8f5a9e2f6b327fc0af13925aa
+last_review_path: reader_reviews/0416_9f21008e.md
 last_reviewed_at: "2026-10-31"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,14 +12,14 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 413
-depends_on_source_sha: e61524c9ba2204960eeef63e08a4f53146c2787f
+depends_on_chapter: 415
+depends_on_source_sha: c75f35ee26c8e8494f8c31cca704cfd3aee78830
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: e61524c9ba2204960eeef63e08a4f53146c2787f
+predecessor_current_source_sha: c75f35ee26c8e8494f8c31cca704cfd3aee78830
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-original_source_sha: 79f94ad0db2f9d8f823768ad9636277f15cd054b
-initial_review_path: reader_reviews/0414_79f94ad0.md
+original_source_sha: 9f21008e16026bc8f5a9e2f6b327fc0af13925aa
+initial_review_path: reader_reviews/0416_9f21008e.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
 combined_audit_backfill:
@@ -3169,5 +3169,21 @@ chapter_415_audit_final:
   body_revisions: 1
   predecessor_ready_blob: "84bb4b2173a68fdc6f1de546246dab62b305ae69"
   predecessor_factual_delta: "前章SHA与正式ready Blob精确相同，无旧暂稿依赖差异"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_416_audit_final:
+  chapter: 416
+  original_source_sha: "9f21008e16026bc8f5a9e2f6b327fc0af13925aa"
+  source_sha: "9f21008e16026bc8f5a9e2f6b327fc0af13925aa"
+  initial_review: reader_reviews/0416_9f21008e.md
+  final_review: reader_reviews/0416_9f21008e.md
+  initial_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 1
+  local_revision_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "c75f35ee26c8e8494f8c31cca704cfd3aee78830"
+  predecessor_factual_delta: "与正式ready SHA精确一致"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

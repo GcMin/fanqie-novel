@@ -13,10 +13,10 @@
 - pov: "夜间中心周衡、夏宁、梁策与来访者方妙兰；档案侧罗经办、马芸"
 - target_effective_chars: 3000
 - actual_effective_chars: 3273
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 
 ## 本章目标与开场
 
@@ -41,3 +41,13 @@
 ## Continuity Precheck（Writer，仅创作预检）
 
 从main a36fe1a436f8bd1488b9bf04761ed9316a99e779读取AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、Premise/全书主线/世界/文风、三位主角人物卡；从published/ready/draft实际文件清单确认第153章已在published、最大章号415且第416章不存在；读取当前卷及arc文件（均已落后，依现行第六卷与ARC-054已ready事实、memory同期记录修正参考）、最后十章0406—0415摘要、最后五章0411—0415完整ready正文、相关人物知识、关系、世界状态、伏笔及时间线。没有读取历史reader_reviews。前章415处于ready，正式Git Blob为 c75f35ee26c8e8494f8c31cca704cfd3aee78830，绑定精确ready版本，不作为provisional。未进行独立Reader、Revision、QA、Memory或发布。
+
+## 第416章独立审核放行证据（2026-10-31）
+- source_draft_blob: `9f21008e16026bc8f5a9e2f6b327fc0af13925aa`
+- ready_blob: `8874840d5d2bccbe6458fdcde60a2d7ccea5b02d`
+- reader_review: `reader_reviews/0416_9f21008e.md`
+- reader_counts: 0/0/2
+- body_revisions: 0
+- continuity_style_meaningful_qa: pass
+- predecessor_ready_blob: `c75f35ee26c8e8494f8c31cca704cfd3aee78830`
+- structural_gate: exact_candidate_commit_CI_required_before_main_ready

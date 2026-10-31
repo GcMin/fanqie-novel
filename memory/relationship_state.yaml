@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 415
+last_updated_chapter: 416
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1606,4 +1606,12 @@ chapter_415_relations_verified:
   ferry: "唐予晴坚持船真实停航及能让人看懂的告示，等待经运营主管批准的小巴实际到场才登车；拎工具箱老人自主确认同乘并保留独立退票权，第三人骑车离开而未被代签接驳。"
   field_team: "夏宁只收必要乘车意愿和本人回告，梁策核现场安全、周衡区分系统假到和真正的船/车位置；段师傅、运营主管及司机各行停航接驳权限，不由夜间中心取代。"
   archive: "罗经办马芸依法只获一件外封在04:36接续台岗位签入事实，保留01:18后与09:12前其他运输空档，以及2016原纸与历史真人获答的不确定性。"
+  trust_scores_unchanged: true
+
+chapter_416_relations_verified:
+  chapter: 416
+  source_sha: "9f21008e16026bc8f5a9e2f6b327fc0af13925aa"
+  accessibility: "方妙兰不接受抱轮椅上阶或代签东门满意，自己决定走经有责批准西侧路线并确认实际入室；小吴承认按系统送货绿格误判断。"
+  field_team: "夏宁分清送货与人通行，周衡梁策先核安全不擅审批，曹姐及有责管理岗只准本晚值守引导开放。"
+  archive: "罗经办马芸仅以正式限项许可核2019同一外封一件05:27岗位登记出运和批次号，保留连续运输及2016原来话人受答的未知。"
   trust_scores_unchanged: true

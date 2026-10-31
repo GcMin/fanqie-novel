@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 416
+title: "坡道送到了，轮椅还在门外"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "9f21008e16026bc8f5a9e2f6b327fc0af13925aa"
+reader_review: reader_reviews/0416_9f21008e.md
+depends_on_chapter: 415
+depends_on_source_sha: "c75f35ee26c8e8494f8c31cca704cfd3aee78830"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day277 20:37—Day278 20:11"
+summary: >-
+  Day277 20:37方妙兰乘轮椅到雨栖街社区服务站，东门误告无障碍已恢复而两级阶无法入内，17:42新坡道板只有交货并未安装验收。曹姐、场地电气岗、周衡梁策先查西侧原后勤通道清理推车折椅，21:46有责仅批准当晚值守引导至22:30有限公众开放，方妙兰22:03本人真从西侧进休息室，不签东门满意，是否最终到家未知。Day278 10:26更正东门假恢复公告，东板未装、西口未来开放需逐次再批。F003承前章Day277 14:19仅收件，Day278 10:35正式许可后11:13见2019-03-07 05:27同事项外封一件接续台岗位登记出运及批次号，不证明真正装车直达新保管岗；14:21下一批次公开收讫索引新申请仅收件，2016原书面回告在封及当年自然人实际获答未证，Day195旧片与两旧拆件分别保管。
+meaningful_state_changes:
+  - "从系统误告东门可用到有责西侧限时开放且本人真正入休息室；次日纠正虚假告示。"
+  - "F003新增2019接续台05:27外封一件岗位登记出运节点但运输和2016回告未闭合。"
+knowledge_updates:
+  - "中心只知方妙兰本人真进室、假公告纠正，不知最终到家或将来通路是否开放。"
+  - "档案组限项知05:27岗位出运与批次号，不知实装车、封内2016旧页或原人受答。"
+relationship_updates:
+  - "方妙兰拒被抬与签东门满意，曹姐依法仅本晚批准开放，中心不替技术岗位验收。"
+foreshadowing_updates:
+  - "F003新增05:27外封岗位登记出运但05:27至09:12接续与2016旧答复仍未知；F008/M004/M005不证。"
+ending_state: "Day278 20:11人实际进屋、东门纠误告但新坡道未装；2019批次公开接收索引待审。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "9f21008e16026bc8f5a9e2f6b327fc0af13925aa", final_draft_sha: "9f21008e16026bc8f5a9e2f6b327fc0af13925aa", initial_counts: "0/0/2", final_counts: "0/0/2", stage_a_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3273
