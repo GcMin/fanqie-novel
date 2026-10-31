@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 419
+title: "验证码发出去了，手机还在柜里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "43e7c73c3ad0c0052584640ee1b005b45c9cfa79"
+source_draft_sha: "56b7328e9f47bbfbdcf8c7f344fa98b87f4d329b"
+initial_review: reader_reviews/0419_43e7c73c.md
+reader_review: reader_reviews/0419_56b7328e.md
+depends_on_chapter: 418
+depends_on_source_sha: "4a37bf7302c1c937428fdb86c266fc4d29353784"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day280 20:42—Day281 20:09"
+summary: >-
+  Day280 20:42郑蔓在北环换乘中心十四号充电柜取不回唯一手机，20:46取件短信发入柜内手机号；小陈不越权开柜并核纸票客运信息。21:07运营确认仅短信已发非本人获得，21:35林工和维护现场核订单、原小票、合法投存影像及申领人，21:47主管限项批准21:51本人真收回并自己解锁，不补写20:46已取。22:19班车有责真入站，22:25郑蔓真正见到母亲，未确认最终到家。Day281 09:20本柜停止对柜中唯一手机的单短信自助取件路径，离线取件新方案待评审。旧档继418 Day280 14:12收件，于Day281 10:36正式限阅、11:14两端2019外封完整识别号同一且公用图纸外封另号，但途中封签与交运仍无证；14:08新窄申请只收件，2016原书面回告和历史自然人获得答复未证，20:09夜班分源记录。
+meaningful_state_changes:
+  - "郑蔓21:51实际拿回手机、22:25与母亲见面，本机危险自助流程被限停，改造未完成。"
+  - "F003合法比较2019-03-07 05:27市政外封出运与09:12新岗实收的两端完整识别号一致，排除同批另一业务封，但不填中途交运空缺。"
+knowledge_updates:
+  - "中心只记录短信发出、本人真实取件、班车到站和实际见母亲，未取得验证码、私人电话或最终到家证明。"
+  - "罗经办马芸只知获准的两端识别号比对，不知郑蔓个人取件和母亲车票。"
+relationship_updates:
+  - "郑蔓坚持本人领机的正确时刻并主动接母亲，小陈林工坚持本柜有责核验不代签短信已被看见。"
+foreshadowing_updates:
+  - "F003从拟送分类推进到市政外封两端同号核证，仍不证明中途连续封签或2016原纸在内与历史自然人获答；Day195旧片与两旧拆件仍分存。"
+ending_state: "Day281 20:09本人取机、母女见面，本柜错误自助路径被限停；同号外封两端确证但中途交接仍待14:08新查许可。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "43e7c73c3ad0c0052584640ee1b005b45c9cfa79", final_draft_sha: "56b7328e9f47bbfbdcf8c7f344fa98b87f4d329b", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "7f9f43aac226e2375d224c9b143afeefabaff808", predecessor_ready_blob: "4a37bf7302c1c937428fdb86c266fc4d29353784", predecessor_body_identical: true, proposed_ready_blob: "3c4bd5e8f818454f84d1459b93660749bfffab01"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3471

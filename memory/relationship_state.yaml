@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 417
+last_updated_chapter: 419
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1622,4 +1622,19 @@ chapter_417_relations_verified:
   librarian_and_reader: "许素琴坚持不因扫描绿格抹除实物受困和私物保护，并只在本人认可时段真实回拨；梅老师让维护专业取书，馆员真登记并尊重纸条内容不公开。"
   field_team: "梁策制止保安薄螺丝刀撬机，周衡只看外观状态不代维护拆机，夏宁只存必要账户信息和本人授权回访时段。"
   archive: "罗经办与马芸在合法范围核旧批次混有两种业务系列外封且无逐件同件对应字段，不让两处各记一件外封自动合并成同一件。"
+  trust_scores_unchanged: true
+
+chapter_418_relations_verified:
+  chapter: 418
+  source_sha: "7f9f43aac226e2375d224c9b143afeefabaff808"
+  rider_and_organizer: "冯桂兰拒钻有风险围板，曹原由相信撤场绿格转为补记真实候车通路清障。"
+  field_team: "夏宁分源取回告，周衡梁策不越权拆板且要求真正到站上客。"
+  archive: "罗经办马芸不把两类外封拟送台位写成实际逐件签收。"
+  trust_scores_unchanged: true
+chapter_419_relations_verified:
+  chapter: 419
+  source_sha: "56b7328e9f47bbfbdcf8c7f344fa98b87f4d329b"
+  user_and_operators: "郑蔓担心母亲但不要求客服擅开锁，小陈林工按授权核实物主和实际交付。"
+  family: "郑蔓与母亲22:25在北环南厅真实见面，不冒写最终到家。"
+  archive: "罗经办马芸在核到旧封两端同号后仍保持中途交接和2016封内旧纸的未知。"
   trust_scores_unchanged: true

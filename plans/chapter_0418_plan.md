@@ -13,10 +13,10 @@
 - pov: "周衡、夏宁、梁策/候车人冯桂兰；档案线罗经办、马芸"
 - target_effective_chars: 3000
 - actual_effective_chars: 3593
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: completed
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 
 ## 本章目标与开场
 
@@ -44,3 +44,7 @@
 ## Continuity Precheck（Writer，不是独立QA）
 
 从GitHub本轮最新main 7872fca1e4c6b68da2c77602eff3f12b27546361实读AGENTS、配置、writing_roles及ai_reading_protocol、Premise/主纲/世界/风格、周衡梁策夏宁角色卡、当前卷与滞后的arc文件，并以最新已核ready正文及memory/current_arc接续ARC-054。实读0408—0417十章摘要与0413—0417五章全文，检索人物/关系/知识/世界状态和伏笔时间线，未读取历史reader_reviews。published/ready/draft三目录实核0153已published、最新417已ready，418尚无任何章位和章纲。前章依赖正式ready blob 46a9b6922431423360729abdf656f05a3b6fc215，非provisional，不借未审前章推进Canon。新建仅本详纲和draft首稿，不修改已有章、长期Memory、Reader/Revision/QA或发布状态。
+
+## 独立Audit与放行依据（2026-10-31）
+- 418原草稿SHA `7f9f43aac226e2375d224c9b143afeefabaff808`，对417正式ready Blob `46a9b6922431423360729abdf656f05a3b6fc215` 精确依赖。独立Reader双遍0/0/2、Continuity/Style/Meaningful QA PASS，正文未改。
+- 拟交付ready Blob `4a37bf7302c1c937428fdb86c266fc4d29353784`；必须在精确候选Commit的真实结构CI成功后方可正式更新main。原Writer precheck仅是首稿时点记录。

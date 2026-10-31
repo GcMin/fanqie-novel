@@ -3204,3 +3204,33 @@ chapter_417_audit_final:
   predecessor_factual_delta: "原草稿与正式ready正文逐字一致，仅交付Front Matter"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+
+chapter_418_reader_20261031:
+  chapter: 418
+  original_sha: "7f9f43aac226e2375d224c9b143afeefabaff808"
+  final_source_sha: "7f9f43aac226e2375d224c9b143afeefabaff808"
+  review: reader_reviews/0418_7f9f43aa.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0}
+  body_revisions: 0
+  predecessor_ready_blob: "46a9b6922431423360729abdf656f05a3b6fc215"
+  content_qa: pass
+  proposed_ready_blob: "4a37bf7302c1c937428fdb86c266fc4d29353784"
+  structural_gate: exact_candidate_commit_CI_required
+chapter_419_reader_20261031:
+  chapter: 419
+  original_sha: "43e7c73c3ad0c0052584640ee1b005b45c9cfa79"
+  initial_review: reader_reviews/0419_43e7c73c.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "56b7328e9f47bbfbdcf8c7f344fa98b87f4d329b"
+  review: reader_reviews/0419_56b7328e.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1}
+  body_revisions: 0
+  corrected_issue: "418原draft与正式ready正文逐字一致，419只重绑前章ready元数据和详纲而非故事正文，新SHA双遍Reader独立复审"
+  predecessor_original_draft_sha: "7f9f43aac226e2375d224c9b143afeefabaff808"
+  predecessor_ready_blob: "4a37bf7302c1c937428fdb86c266fc4d29353784"
+  predecessor_body_identical: true
+  content_qa: pass
+  proposed_ready_blob: "3c4bd5e8f818454f84d1459b93660749bfffab01"
+  structural_gate: exact_candidate_commit_CI_required

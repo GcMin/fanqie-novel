@@ -6,17 +6,17 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "87092001f6f08110acc52f40240df86b47770040"
 - depends_on_chapter: 418
-- depends_on_source_sha: "7f9f43aac226e2375d224c9b143afeefabaff808"
-- dependency_status: provisional
+- depends_on_source_sha: "4a37bf7302c1c937428fdb86c266fc4d29353784"
+- dependency_status: verified_predecessor_body_identical
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: "Day280 20:42—Day281 20:09"
 - pov: "郑蔓、周衡、夏宁、梁策/北环客运站值守小陈；历史档案线罗经办、马芸"
 - target_effective_chars: 3000
 - actual_effective_chars: 3471
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: completed
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 
 ## 本章目标与开场
 
@@ -41,3 +41,8 @@
 ## 结尾与交付
 
 郑蔓本人手机领取、母女实际接站有据，本柜临时禁用错误自助路径；旧档同号外封端点进一步对上，但缺运输链与2016原纸内容。末尾由夏宁在夜班交接分别登记真实动作。正文有效3471字，符合2300—3800硬限；仅新建计划与draft首稿，不做Editor、Reader、Revision、QA、Memory、ready或发布。
+
+## 独立Audit与修订后交付依据（2026-10-31）
+- Writer阶段旧provisional SHA `7f9f43aac226e2375d224c9b143afeefabaff808` 只是当时真实引用；实核418原草稿与最终ready `4a37bf7302c1c937428fdb86c266fc4d29353784` 小说正文逐字同文，仅交付Front Matter变更，因此本章不改故事正文。
+- 原419草稿 `43e7c73c3ad0c0052584640ee1b005b45c9cfa79` 初审0/1/2，Stage A仅同步Front Matter和详纲对418正式ready的依赖；新419草稿Blob `56b7328e9f47bbfbdcf8c7f344fa98b87f4d329b` 独立重新Pass A与Pass B为0/0/2，内容QA PASS。
+- 交付ready Blob `3c4bd5e8f818454f84d1459b93660749bfffab01`；正式放行以前述精确候选Commit结构CI SUCCESS为条件。旧Writer Continuity Precheck属于当时未审事实快照，不应覆盖本节正式核证。

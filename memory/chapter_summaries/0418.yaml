@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 418
+title: "幕布没撤完，末班车还在找人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "7f9f43aac226e2375d224c9b143afeefabaff808"
+source_draft_sha: "7f9f43aac226e2375d224c9b143afeefabaff808"
+reader_review: reader_reviews/0418_7f9f43aa.md
+depends_on_chapter: 417
+depends_on_source_sha: "46a9b6922431423360729abdf656f05a3b6fc215"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day279 20:36—Day280 20:12"
+summary: "Day279 20:36冯桂兰发现枫溪路社区广场站活动蓝幕和带配重围板遮住站牌及人行通路；车道可行而本人不能安全候车，未冒险钻围板。活动撤场表19:18完结仅指舞台，21:17有责限批、21:25专业隔离灯带、21:43拆挡路布板，余桁架继续隔离；21:51街道/公交分别现场核通路与停靠，22:03三十八路末班真到，两人上车，未知到家。Day280 10:16更正本场撤场说明，11:03公交本点再核，余桁架待有责拆运。旧档承417 Day279 14:13申请，Day280 09:44范围答复10:27许可11:05依法阅同批两个不同业务外封的拟送台位目录，14:12再申请逐件实收凭据仅受理；计划路线不等于实际交接，2016旧纸或自然人获答均未证。Day280 20:12分源交班。"
+meaningful_state_changes:
+  - "有责专业拆除公交候车通路遮挡且两位乘客确实在原站上末班车；错误舞台撤场绿格本场纠正，内侧桁架未全撤。"
+  - "F003依法新增两个业务外封拟送台位安排，不能凭计划和批次号拼同件全程物流。"
+knowledge_updates:
+  - "夏宁周衡梁策只知现场分责核验和两名上车，不能知道最终到家，不代电工/公交批准。"
+  - "档案组仅获依法开放拟送目录，不能知道当代冯桂兰工单私情或2016封内页。"
+relationship_updates:
+  - "冯桂兰拒绝被迫穿带配重围板或到车道拦车，曹原从只看舞台完成表转为补记公众通路实际解除。"
+foreshadowing_updates:
+  - "F003新增2019-03-07批次拟送台位分类，不证05:27到09:12逐件实际同一或2016原纸/历史真人回话；F008/M004/M005未证。"
+ending_state: "Day280 20:12原公交站通路实恢复且乘客真上车；剩余桁架及实际到家未证，2019外封逐件实收识别凭据新申请仅受理。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7f9f43aac226e2375d224c9b143afeefabaff808", final_draft_sha: "7f9f43aac226e2375d224c9b143afeefabaff808", body_revisions: 0, predecessor_ready_blob: "46a9b6922431423360729abdf656f05a3b6fc215", proposed_ready_blob: "4a37bf7302c1c937428fdb86c266fc4d29353784", stage_a_used: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3593
