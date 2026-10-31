@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 428
+last_updated_chapter: 433
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1730,3 +1730,17 @@ chapter_431_relations_verified:
   field_team: "夏宁分系统暂存/真人签领，周衡梁策守隐私与合规接件权限，不查当事人家庭私信内文。"
   archive: "罗经办马芸把纸本系列类别存在与本件对应页是否有证分开；旧自然人答复继续未知。"
   trust_scores_unchanged: true
+
+chapter_432_relationship_verified:
+  chapter: 432
+  source_sha: "005ef857adcad094f3fa148e22334bd35d8cbc70"
+  wu_jinhe_and_street_duty: "吴锦荷拒绝从一次汛期志愿者变为今夜永久联络岗；本次街道公开联系由现时有责岗位重新承接，对她先前七通误接不得冒作履行公务。"
+  jiang_wei_and_neighbor: "邻居少年只协助借桶与看后轮，不能替她父亲确认用水；江苇本人合法领两桶。"
+  core_team: "三人按授权联动街道/道路/供水专业，不因本案擅改既有三人互信数值；中心与档案组各守本人可知边界。"
+
+chapter_433_relationship_verified:
+  chapter: 433
+  source_sha: "be04273556f8c76307d2599593f9c010550e21c6"
+  lin_rong_and_mother: "林蓉为视力欠佳母亲确认六号救生圈状态，照顾但不取消母亲在安全公开步道自主数圈的选择。"
+  fei_and_professional_duty: "费师傅因推汤桶绕路提出质疑，但接受有责部门核过的有限平路；没有越权要求未获安全许可就挂圈。"
+  core_team: "夜间中心与堤岸、道路、养护专业分职协作，只确认相应有权节点，不改变已有固定信任数值。"

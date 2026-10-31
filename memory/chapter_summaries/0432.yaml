@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 432
+title: "她接了七通电话，却不在值班表上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "45b2b156e360dd898ae5f32a370326bbeef473d2"
+source_draft_sha: "005ef857adcad094f3fa148e22334bd35d8cbc70"
+initial_review: reader_reviews/0432_45b2b156.md
+reader_review: reader_reviews/0432_005ef857.md
+depends_on_chapter: 431
+depends_on_source_sha: "e12d637e33cacaa12863e53360d1caffcf60fe3a"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day293 20:36—Day294 20:09"
+summary: >-
+  Day293 20:36吴锦荷已接七通关于瑶桥路旧红砖亭供水的陌生电话，第八通响起未接；去年一次性汛期联络号和旧点被复用到今天临时供水告示，今日街道18:24批准新点、20:20车水实到。夏宁分有车与公众指引错引，21:03周衡梁策在旧亭找到江苇和借桶少年，施工口禁止穿行；21:25道路现场核绕路21:32有责批准，21:48江苇到元槐街西雨棚、21:56本人合规真取两桶，家中复水和实际到家未证。22:11吴锦荷由现时夜岗获有源结果，22:39本次官方告示纠正旧私人号码和撤用旧点，但个人存图不能全收；Day294 10:21停旧模板直接再发布入口，19:58本点正式岗位仍有人，20:06居民真人打通现时公开电话。F003承431 Day293 14:09申请仅收件，Day294 10:41获批11:16同号外封合法定位2019年第一季度《交运签收登记册》第二册37页索引，未阅原页；14:16进一步申请只收件，不证2019双方真实手交/封签、2016旧纸在封或历史自然人获答；F008/M004/M005未证。
+meaningful_state_changes:
+  - "七通误找私人联系人、第八次未接转为正式岗位接回本次公众联络与纠错，私存旧图仍需继续核。"
+  - "江苇真走有责核准路在21:56合法领取两桶，楼内供水工程仍在进行。"
+  - "F003本件完整号取得纸本第37页合法索引位置，但未开放页内签认。"
+knowledge_updates:
+  - "夏宁周衡梁策知新点有车且两桶真领，却不能替江苇父亲收水或替其它居民申报已获知；吴锦荷无现时值守义务，也无私人来话号码共享授权。"
+  - "罗经办马芸只依法知同号本件37页索引，原页签认、封装异常单关联与封内旧纸未证。"
+relationship_updates:
+  - "吴锦荷拒无限期义务后获正式岗位承接；江苇与少年共同推桶经合法通路，中心不越权替街道供水部门批准。"
+foreshadowing_updates:
+  - "F003具体页项仅为可定位索引；Day195旧物和沈家私票分源，F008/M004/M005无新增。"
+ending_state: "Day294 20:09本次旧告示由有责单位纠正、公共岗真人核通，江苇两桶已取但到家与楼内复水未知；旧封原页和交运双方签认仍待新审批。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "45b2b156e360dd898ae5f32a370326bbeef473d2", final_draft_sha: "005ef857adcad094f3fa148e22334bd35d8cbc70", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, change: "第七次响起→第八次响起", predecessor_ready_blob: "e12d637e33cacaa12863e53360d1caffcf60fe3a", proposed_ready_blob: "ce007261798181e702527da9efa615b5782e5fbf"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3431
