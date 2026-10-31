@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 410
-last_reviewed_title: "孩子还在等，名单已经清零"
-last_source_path: chapters/draft/0410.md
-last_source_sha: 835d5bce40168f2bae7d0729ac2ce4ad03519ccc
-last_review_path: reader_reviews/0410_835d5bce.md
+last_reviewed_chapter: 412
+last_reviewed_title: "电话没响的时候，饭还算数吗"
+last_source_path: chapters/draft/0412.md
+last_source_sha: ae43f77b8fc573bda19e2308af7210a6d174c6a9
+last_review_path: reader_reviews/0412_ae43f77b.md
 last_reviewed_at: "2026-10-31"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_sha
 recommendation: keep
@@ -12,14 +12,14 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 405
-depends_on_source_sha: d8787c08cecd5c64916c0c51b2c27a8b93eaea12
-dependency_status: verified_predecessor_body_identical
-predecessor_current_source_sha: d8787c08cecd5c64916c0c51b2c27a8b93eaea12
+depends_on_chapter: 411
+depends_on_source_sha: 72a8cda9a247e226aea0ed8ebad878f197ce396f
+dependency_status: verified_predecessor_targeted_fire_safety_fix
+predecessor_current_source_sha: 72a8cda9a247e226aea0ed8ebad878f197ce396f
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-original_source_sha: 429c940e42ee34a19923b82e65528020f799a8b7
-initial_review_path: reader_reviews/0404_416ab6d7.md
+original_source_sha: 4b002d03ddbdaf20f1f3bedbd4a4af8d7fc865b5
+initial_review_path: reader_reviews/0412_4b002d03.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
 combined_audit_backfill:
@@ -3089,4 +3089,40 @@ chapter_410_audit_final:
   predecessor_body_identical: true
   content_qa: pass
   proposed_ready_blob: "95a12c9da13bf714fbf895292aa0cd753cf18fd1"
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_411_audit_final:
+  chapter: 411
+  original_source_sha: "d6a3027563aa4ce2e9d018e272b0f5d2a415bd85"
+  source_sha: "6a6d64665aa5b5b9181ad16ce03c687db05fc37f"
+  initial_review: reader_reviews/0411_d6a30275.md
+  final_review: reader_reviews/0411_6a6d6466.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 1
+  predecessor_ready_blob: "95a12c9da13bf714fbf895292aa0cd753cf18fd1"
+  predecessor_exact_ready_blob: true
+  content_qa: pass
+  proposed_ready_blob: "72a8cda9a247e226aea0ed8ebad878f197ce396f"
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_412_audit_final:
+  chapter: 412
+  original_source_sha: "4b002d03ddbdaf20f1f3bedbd4a4af8d7fc865b5"
+  source_sha: "ae43f77b8fc573bda19e2308af7210a6d174c6a9"
+  initial_review: reader_reviews/0412_4b002d03.md
+  final_review: reader_reviews/0412_ae43f77b.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 0
+  predecessor_draft_sha: "d6a3027563aa4ce2e9d018e272b0f5d2a415bd85"
+  predecessor_ready_blob: "72a8cda9a247e226aea0ed8ebad878f197ce396f"
+  predecessor_body_identical: false
+  predecessor_fact_diff_verified: "炉火明确已关；412依赖的预约分配与后厨停用未变"
+  content_qa: pass
+  proposed_ready_blob: "fae6dc3ad22379115ed36d66edf7a7b9155f99cd"
   structural_gate: exact_candidate_commit_CI_required

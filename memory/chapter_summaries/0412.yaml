@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 412
+title: "电话没响的时候，饭还算数吗"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "4b002d03ddbdaf20f1f3bedbd4a4af8d7fc865b5"
+source_draft_sha: "ae43f77b8fc573bda19e2308af7210a6d174c6a9"
+initial_review: reader_reviews/0412_4b002d03.md
+reader_review: reader_reviews/0412_ae43f77b.md
+depends_on_chapter: 411
+depends_on_source_sha: "72a8cda9a247e226aea0ed8ebad878f197ce396f"
+dependency_status: verified_predecessor_targeted_fire_safety_fix
+timeframe: "Day273 20:41—Day274 20:12"
+summary: >-
+  Day273 20:41邵芹晚班到槐月路暖食点，原工作电话锁柜未收到昨日延时供餐取消通知，值守录音却只说服务结束。20:57叶冬青凭本人小票与原册确认邵芹为昨日五名未取得回应者之一。21:16机构另向合作食堂申请一份合规包装餐，21:47有责场地岗只批准雨棚限项有值守交接，后厨仍停用。22:08配送到、22:16邵芹本人真实领取一份替代餐，同时保留昨夜违约异议；十六份预约已有九份真交，七份未履约（三位获通知、四位尚未确认联系），不自动代填满意。Day274 10:22机构有责限于本点更正“整场完成”映射为个人实领记录，热线录音未核上线、后厨燃气未获复开。F003承第411章Day273 14:18仅受理的新查，Day274 09:43范围答复10:26正式许可11:05依法核2019-03-06 16:18原岗外封一件出库及03-07 09:12新岗实接，两端同号同件数，中间运输保管仍未知；14:09中途目录申请仅收件，不证2016原纸封内或历史自然人收答。Day274 20:12中心交班保留四人待通知。
+meaningful_state_changes:
+  - "邵芹从五名未联系者之一转为22:16本人真实获替代餐但原违约依旧可追查；真领由8份变9份，剩7份未履约。"
+  - "本点有责批准纠正整场完成假映、留旧记录；F003新增2019转管两端签认时间但中途缺口仍在。"
+knowledge_updates:
+  - "中心只依据有责确认知道一份真交/九份累计交付及未履约七份，不泄露邵芹雇主和工作手机资料。"
+  - "罗经办马芸只在获准公开范围见2019转管出入两端，不能知道中途细节、袋内2016原纸或旧自然人获答，也不知当代暖食点工单。"
+relationship_updates:
+  - "邵芹接受一份替代餐不接受抹去前夜违约；叶冬青小孟按本人实领逐项保留原误映，运营方承担四人后续回访。"
+foreshadowing_updates:
+  - "F003补2019-03-06出库与03-07入库两个真实签认点，不填运输中间缺口，不证旧原纸或自然人实际收答；Day195窄片独立柜，两旧拆件各存，F008/M004/M005不证。"
+ending_state: "Day274 20:12槐月路9份真交7份未履约（三人已通知四人未确认联系），后厨停用、热线录音未上线；2019转管两端可证中途未知，14:09新查申请待答。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "4b002d03ddbdaf20f1f3bedbd4a4af8d7fc865b5", final_draft_sha: "ae43f77b8fc573bda19e2308af7210a6d174c6a9", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "d6a3027563aa4ce2e9d018e272b0f5d2a415bd85", predecessor_ready_blob: "72a8cda9a247e226aea0ed8ebad878f197ce396f", predecessor_body_identical: false, predecessor_fact_diff: "炉火由不明开火状态更正为已关；412依赖的预约及后厨停用事实不变", proposed_ready_blob: "fae6dc3ad22379115ed36d66edf7a7b9155f99cd"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3039

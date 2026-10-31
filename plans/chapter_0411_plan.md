@@ -12,11 +12,11 @@
 - timeframe: "Day272 20:36—Day273 20:18"
 - pov: "周衡、夏宁、梁策在中心与现场的有限视角；罗经办马芸只在合法档案限阅视角"
 - target_effective_chars: 3200
-- actual_effective_chars: 3707
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- actual_effective_chars: 3710
+- status: ready
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 
 ## 本章目标与开场
 
@@ -53,3 +53,9 @@
 ## 章尾承接与写作状态
 
 白班有责回复不掩盖五人尚未联络、厨房尚不可恢复，历史下一查仅收件；按3707有效字符（含标点、去空白、Front Matter不计），待独立审核。
+
+
+## 唯一 Audit QA 实核（2026-10-31）
+- 原draft d6a3027563aa4ce2e9d018e272b0f5d2a415bd85 Reader 0/1/2（炉火持续燃烧而撤离未交代停火）；Stage A只在报案时交代郑叔已关炉火，实际有效字数3710，新draft 6a6d64665aa5b5b9181ad16ce03c687db05fc37f。
+- 新SHA双遍 Reader 0/0/2，独立Continuity/Style/Meaningful内容QA PASS，候选ready Blob 72a8cda9a247e226aea0ed8ebad878f197ce396f；须通过精确候选CI再放行。
+- 依赖第410章正式ready Blob 95a12c9da13bf714fbf895292aa0cd753cf18fd1 精确匹配，无前章事实差异；16份中8份本人真领另8份待办、Day273三已告知五未联系，后厨停用；F003限定2019-02-08外封一件双岗清点。

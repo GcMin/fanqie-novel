@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 410
+current_chapter: 412
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0410.md
-current_source_sha: 835d5bce40168f2bae7d0729ac2ce4ad03519ccc
-current_review_path: reader_reviews/0410_835d5bce.md
+current_source_path: chapters/draft/0412.md
+current_source_sha: ae43f77b8fc573bda19e2308af7210a6d174c6a9
+current_review_path: reader_reviews/0412_ae43f77b.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0405_0406_reader_revision_newSHA_QA
+last_action: audit_0411_0412_reader_revision_newSHA_QA_candidate
 last_action_date: "2026-10-31"
 last_error: null
-last_diff_summary: "399原稿0/0/2无正文修订；400原稿0/1/2因前399临时依赖，经实际对照前章原草稿与正式ready故事全文逐字相同，仅重绑前章正式ready及详细章纲，新400草稿SHA 1e25148a Reader0/0/2；独立内容QA PASS，结构待精确候选CI。"
+last_diff_summary: "411原稿0/1/2，StageA补郑叔已关炉火新SHA6a6d6466复审0/0/2；412原稿0/1/2因绑定411旧draft，经比较411实际一处安全事实更正不影响预约数字/后厨停用，412仅重绑411正式ready SHA新稿ae43f77b复审0/0/2；内容QA双PASS，精确结构CI待执行。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -2569,5 +2569,41 @@ chapter_410_revision_final:
   predecessor_draft_sha: "2bf3855c9909fa5f8439756553247849381df4d2"
   predecessor_ready_blob: "72cf6235092eed2ac2d50d1ae0ac005cdc3ef3ef"
   predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_411_revision_final:
+  chapter: 411
+  original_sha: "d6a3027563aa4ce2e9d018e272b0f5d2a415bd85"
+  final_sha: "6a6d64665aa5b5b9181ad16ce03c687db05fc37f"
+  initial_review: reader_reviews/0411_d6a30275.md
+  final_review: reader_reviews/0411_6a6d6466.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 1
+  corrected_issue: "在初始通话中明确郑叔已关炉火，三人安全撤离且仍须专业停用审核"
+  predecessor_ready_blob: "95a12c9da13bf714fbf895292aa0cd753cf18fd1"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_412_revision_final:
+  chapter: 412
+  original_sha: "4b002d03ddbdaf20f1f3bedbd4a4af8d7fc865b5"
+  final_sha: "ae43f77b8fc573bda19e2308af7210a6d174c6a9"
+  initial_review: reader_reviews/0412_4b002d03.md
+  final_review: reader_reviews/0412_ae43f77b.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  corrected_issue: "比较411原草稿与正式ready仅炉火安全补明，412事实衔接不受影响；412仅重绑前章ready及详细章纲，正文不改"
+  predecessor_draft_sha: "d6a3027563aa4ce2e9d018e272b0f5d2a415bd85"
+  predecessor_ready_blob: "72a8cda9a247e226aea0ed8ebad878f197ce396f"
+  predecessor_body_identical: false
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

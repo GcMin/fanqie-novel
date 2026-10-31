@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 410
+last_updated_chapter: 412
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1568,4 +1568,18 @@ chapter_410_relations_verified:
   source_sha: "835d5bce40168f2bae7d0729ac2ce4ad03519ccc"
   childcare: "姜芮坚守实际看护并拒错误清场；刘姐与有责电气岗依法改票；吴芸由本人核验亲领，不授权舅舅代接，吴朵不为错误系统背负迟走责任。"
   archive: "罗经办接受马芸约束：2018外识别条维护不是内件检查也不能替当年自然人签答复，按许可另查下一节点。"
+  trust_scores_unchanged: true
+
+chapter_411_relations_verified:
+  chapter: 411
+  source_sha: "6a6d64665aa5b5b9181ad16ce03c687db05fc37f"
+  warm_food: "叶冬青阻止郑叔为南瓜粥再入停用后厨，依责任安排八份包装餐真人领走；郑叔先关火撤离，小孟拒把16份预约写成全部发放，五位未联系不等本人放弃。"
+  archive: "罗经办受马芸与档案员提醒只记录2019-02-08外封一件岗位双签与转管准备，不推2016原纸在内或历史本人获答。"
+  trust_scores_unchanged: true
+
+chapter_412_relations_verified:
+  chapter: 412
+  source_sha: "ae43f77b8fc573bda19e2308af7210a6d174c6a9"
+  warm_food: "邵芹拿原预约小票核实本人身份，接受Day273一份新替代餐却不放弃Day272失约异议；叶冬青与小孟分别存新真签收、原错误完成映射及七位未履约者待办，有责运营岗承接后续回访。"
+  archive: "罗经办和马芸依档案员许可取得2019外封出入库各一件岗位签收，但把中途保管、封内2016原页及当年自然人是否受答留为未知。"
   trust_scores_unchanged: true

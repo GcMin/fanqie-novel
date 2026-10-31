@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 411
+title: "锅还热着，排风先下班了"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "d6a3027563aa4ce2e9d018e272b0f5d2a415bd85"
+source_draft_sha: "6a6d64665aa5b5b9181ad16ce03c687db05fc37f"
+initial_review: reader_reviews/0411_d6a30275.md
+reader_review: reader_reviews/0411_6a6d6466.md
+depends_on_chapter: 410
+depends_on_source_sha: "95a12c9da13bf714fbf895292aa0cd753cf18fd1"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day272 20:36—Day273 20:18"
+summary: >-
+  Day272 20:36叶冬青报槐月路社区暖食点排风时控关闭时仍有人做饭，郑叔已关炉火但三人仍在后厨，夏宁要求停止作业并转有责处置，20:46三人出厨。21:02物业确认服务平台20:30结束时自动切排风，运营负责人批准延时到21:30却未送达物业设备维护岗；21:18专业人员到场，21:42燃气及厨房停用确认，原汤当晚不可发。22:06合作食堂另提供合法包装餐，22:23八人本人真实领取，另八人原预约待办未履约。Day273 09:16运营与物业核两张时刻表错位，10:40有限批准延时必须同步设备条件，13:28只完成排风控制回路限定测试，不等于后厨/燃气复开。八个未履约者三人已收到告知、五人仍未确认联系。F003旧档承Day272 14:11只受理申请，Day273 09:52范围答复10:31许可11:08合法核到2019-02-08外封一件双岗位转管前清点及纳入待办，14:18下一窄查仅收件，不能证明其间连续保管、2016原纸在封或自然人获答。Day273 20:18中心分源交班。
+meaningful_state_changes:
+  - "三人安全撤离且原厨房专业停用，原汤不发；八份真交、八份未履约明确记录。"
+  - "延时许可未送达设备维护岗获核，后厨继续停用；F003新增2019-02-08外封一件转管前双岗清点节点。"
+knowledge_updates:
+  - "夜间中心仅知有责三人安全、停用和真实餐食交付，不掌握或传送预约人私密信息。"
+  - "罗经办马芸在正式许可内只知外封件数和双岗清点，不知现代暖食点案，不知2016旧原纸或旧来话人获答。"
+relationship_updates:
+  - "叶冬青坚持人身安全和真实送餐责任，郑叔不愿浪费粥但服从停用，小孟不把十六份系统完成等同实际交付。"
+foreshadowing_updates:
+  - "F003补2019-02-08外封转管前清点，不承诺此前每日都在柜；Day195旧字窄片另柜，两旧拆件各存，F008/M004/M005均无新证。"
+ending_state: "Day273 20:18暖食点三人安全、原后厨仍停用、八份真领八份待履约（三人已告知五人未联系）；F003下一转管签认时段申请仅受理。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d6a3027563aa4ce2e9d018e272b0f5d2a415bd85", final_draft_sha: "6a6d64665aa5b5b9181ad16ce03c687db05fc37f", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, proposed_ready_blob: "72a8cda9a247e226aea0ed8ebad878f197ce396f"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3710

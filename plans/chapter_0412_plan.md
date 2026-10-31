@@ -6,17 +6,17 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "ef59ae708b8d4ba09da54f7509fe22183b9d0b64"
 - depends_on_chapter: 411
-- depends_on_source_sha: "d6a3027563aa4ce2e9d018e272b0f5d2a415bd85"
-- dependency_status: provisional
+- depends_on_source_sha: "72a8cda9a247e226aea0ed8ebad878f197ce396f"
+- dependency_status: verified_predecessor_targeted_fire_safety_fix
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: "Day273 20:41—Day274 20:12"
 - pov: "周衡、夏宁、梁策中心有限视角；叶冬青、小孟、邵芹现场；罗经办、马芸合法限阅档案"
 - target_effective_chars: 3200
 - actual_effective_chars: 3039
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 
 ## 开场目标与诉求
 Day273夜，原槐月路后厨仍停用，十六份暖食预约只八份真实替代交付，其他八份三人仅收到受阻通知、五人仍未联系。邵芹原用工作电话离开岗位后无法接听，来到暖食点要求履行原有约定，不希望被系统“整场完成”消失。周衡/夏宁/梁策只协调有权服务，不代食品安全、燃气、场地审批。
@@ -35,3 +35,9 @@ Day273夜，原槐月路后厨仍停用，十六份暖食预约只八份真实�
 ## Continuity Precheck
 重新从main读取最高规则与Novel配置、写作角色/阅读协议、四份Bible及相关人物、现有卷/arc文件、人物关系知识世界状态、伏笔时间线、401—410摘要及407—411五章完整正文与第411章详纲；未读取历史reader_reviews。volume与arc旧文滞后，优先正文和已经审核的最新Memory。
 章节目录三处核：第153章存在于published；最新第411章在draft，绑定完整blob d6a3027563aa4ce2e9d018e272b0f5d2a415bd85，dependency_status=provisional，不能当已审批Canon。第411章时间到Day273 20:18，历史申请Day273 14:18只是受理，随后新章Day273 20:41至Day274获正式许可才补节点。仅新建章纲与首稿，不改旧章/长期Memory，不做Reader/Revision/QA/Publish。
+
+
+## 唯一 Audit QA 实核（2026-10-31）
+- 原draft 4b002d03ddbdaf20f1f3bedbd4a4af8d7fc865b5 Reader 0/1/2（第411章旧临时依赖SHA）；实际比较第411章修改前后，唯一故事正文差异为初报炉火已关明示，预约16份、已交8份、三已通知五未联系、后厨停用与20:18交班均未改变，不影响412事实。
+- Stage A仅重绑第411章正式ready Blob 72a8cda9a247e226aea0ed8ebad878f197ce396f，正文不动；新draft ae43f77b8fc573bda19e2308af7210a6d174c6a9 Reader新SHA复审0/0/2，Continuity/Style/Meaningful内容QA PASS。
+- 候选ready Blob fae6dc3ad22379115ed36d66edf7a7b9155f99cd，须精确候选CI真实通过；邵芹Day273 22:16真实领餐后累计9份实交、7份未履约（三已通知四未联系），F003新核2019转管两端签认但中途未知。
