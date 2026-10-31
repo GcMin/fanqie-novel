@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 413
+current_chapter: 414
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0413.md
-current_source_sha: ef001fbe026a298637703d262406cdd3c456b70b
-current_review_path: reader_reviews/0413_ef001fbe.md
+current_source_path: chapters/draft/0414.md
+current_source_sha: b208f183ab148b53e736ca59ba7f3f0bef8e9ca3
+current_review_path: reader_reviews/0414_b208f183.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0413_reader_qa_candidate
+last_action: audit_0414_stage_a_rereview_qa_candidate
 last_action_date: "2026-10-31"
 last_error: null
-last_diff_summary: "第413章原始draft精确依赖412正式ready SHA；一次独立Pass A/B Reader 0/0/2，无BLOCKER/MAJOR无需修订；Continuity/Style/Meaningful内容QA PASS，正式ready待精确候选CI验证。"
+last_diff_summary: "第414章原稿0/1/2，Stage A补B07清晨白班有责续存和周转车去向；新SHA再独立两遍0/0/2；内容QA PASS，结构必须精确候选CI检验。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: ef001fbe026a298637703d262406cdd3c456b70b
+current_review_source_sha: b208f183ab148b53e736ca59ba7f3f0bef8e9ca3
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -2620,6 +2620,24 @@ chapter_413_revision_final:
   body_revisions: 0
   corrected_issue: "无BLOCKER/MAJOR无需修订；严格保留正文"
   predecessor_ready_blob: "fae6dc3ad22379115ed36d66edf7a7b9155f99cd"
+  predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_414_revision_final:
+  chapter: 414
+  original_sha: "79f94ad0db2f9d8f823768ad9636277f15cd054b"
+  final_sha: "b208f183ab148b53e736ca59ba7f3f0bef8e9ca3"
+  initial_review: reader_reviews/0414_79f94ad0.md
+  final_review: reader_reviews/0414_b208f183.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 1
+  corrected_issue: "B07只有当夜许可，新文本另记Day276清晨五点有权管理方实核36筐与通道净宽、签署白班续存许可、周转车未提货。"
+  predecessor_ready_blob: "e61524c9ba2204960eeef63e08a4f53146c2787f"
   predecessor_body_identical: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

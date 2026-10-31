@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 413
-last_reviewed_title: "她想撤回投诉，墙里的水还在响"
-last_source_path: chapters/draft/0413.md
-last_source_sha: ef001fbe026a298637703d262406cdd3c456b70b
-last_review_path: reader_reviews/0413_ef001fbe.md
+last_reviewed_chapter: 414
+last_reviewed_title: "摊位挪开了，水才肯往下走"
+last_source_path: chapters/draft/0414.md
+last_source_sha: b208f183ab148b53e736ca59ba7f3f0bef8e9ca3
+last_review_path: reader_reviews/0414_b208f183.md
 last_reviewed_at: "2026-10-31"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,14 +12,14 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 412
-depends_on_source_sha: fae6dc3ad22379115ed36d66edf7a7b9155f99cd
+depends_on_chapter: 413
+depends_on_source_sha: e61524c9ba2204960eeef63e08a4f53146c2787f
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: fae6dc3ad22379115ed36d66edf7a7b9155f99cd
+predecessor_current_source_sha: e61524c9ba2204960eeef63e08a4f53146c2787f
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-original_source_sha: ef001fbe026a298637703d262406cdd3c456b70b
-initial_review_path: reader_reviews/0413_ef001fbe.md
+original_source_sha: 79f94ad0db2f9d8f823768ad9636277f15cd054b
+initial_review_path: reader_reviews/0414_79f94ad0.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
 combined_audit_backfill:
@@ -3137,5 +3137,21 @@ chapter_413_audit_final:
   body_revisions: 0
   predecessor_ready_blob: "fae6dc3ad22379115ed36d66edf7a7b9155f99cd"
   predecessor_factual_delta: "精确同Blob依赖；不需要旧draft事实差异比较"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_414_audit_final:
+  chapter: 414
+  original_source_sha: "79f94ad0db2f9d8f823768ad9636277f15cd054b"
+  source_sha: "b208f183ab148b53e736ca59ba7f3f0bef8e9ca3"
+  initial_review: reader_reviews/0414_79f94ad0.md
+  final_review: reader_reviews/0414_b208f183.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 1
+  predecessor_ready_blob: "e61524c9ba2204960eeef63e08a4f53146c2787f"
+  predecessor_factual_delta: "前章精确同正式ready Blob；无需猜测旧草稿差异"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
