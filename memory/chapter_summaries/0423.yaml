@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 423
+title: "回单签了名，相册还在走廊"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "b9b587ab5a8d44d95847f3df0f80b5d9b9c5a328"
+source_draft_sha: "bb0f19e43721012b701d076b27a36812d33c3e80"
+initial_review: reader_reviews/0423_b9b587ab.md
+reader_review: reader_reviews/0423_bb0f19e4.md
+depends_on_chapter: 422
+depends_on_source_sha: "e7c9a862b903741d213ac04ec010d443afbfb111"
+dependency_status: verified_predecessor_factual_delta_checked
+timeframe: "Day284 20:42—Day285 20:11"
+summary: >-
+  Day284 20:42施闻枝在白溪街周转点见运输系统十二件已交接却无人把母亲旧相册原盒交给她。现场实际九筐两箱共十一居民转运件，自用折叠椅不在清单；车队16:08收12件20:01只签运输完成，夜岗22:06有权查返场车为空，受控走道影像示19:57有保管员将棕盒放入未登记的耗材间。22:39施闻枝本人只检内侧头两页，22:47真实签收原盒并保留外包装水痕及剩余内页状态未知；Day285 10:23本点停把运输完成误映为居民已交接，异常转存有责调查仍待。F003承422 Day284 14:12仅收件，Day285 10:34许可11:12见2019外标08:06受理08:29结案仅标签问题、其后另有交运目录但无本件公开逐岗签入时点，14:07申请下一目录仅收件；封内旧2016纸/历史人受答均无证。
+meaningful_state_changes:
+  - "假运输完成与实物交接拆开，原相册22:47真交本人且本点停错误展示。"
+  - "旧档证标签复核独立于后续交运目录，但无本件逐岗签收时点。"
+knowledge_updates:
+  - "中心获知十一件真入柜和原盒真取，不查看私人照片、父亲记忆或所有内页；档案组仅知获准外标与交运目录有别。"
+relationship_updates:
+  - "施闻枝坚持父亲来前取回母亲相册且自定检查深度；岑姐保留原回单，不倒签旧转存授权。"
+foreshadowing_updates:
+  - "F003新获独立交运目录存在性，不证明封口连续/2016纸在封/历史自然人收答；F008/M004/M005未证，Day195旧物仍分存。"
+ending_state: "Day285 20:11相册原盒归施闻枝、内页未全检，白溪本点自动假交接停用；历史实际下一岗签入时点仍待获准。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "b9b587ab5a8d44d95847f3df0f80b5d9b9c5a328", final_draft_sha: "bb0f19e43721012b701d076b27a36812d33c3e80", initial_counts: "0/2/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, predecessor_factual_delta: "422开场20:39→20:47；与423依赖事实兼容"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3569

@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 421
-last_reviewed_title: "领回单打出来了，小满还在笼里"
-last_source_path: chapters/draft/0421.md
-last_source_sha: 141b122e2fbcc63302f3e88e7af046a5d23fcd32
-last_review_path: reader_reviews/0421_141b122e.md
+last_reviewed_chapter: 423
+last_reviewed_title: "回单签了名，相册还在走廊"
+last_source_path: chapters/draft/0423.md
+last_source_sha: bb0f19e43721012b701d076b27a36812d33c3e80
+last_review_path: reader_reviews/0423_bb0f19e4.md
 last_reviewed_at: "2026-10-31"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 420
-depends_on_source_sha: 019980627ae05adb3e30ec8ef6b429f725cbfa10
-dependency_status: verified_predecessor_body_identical
-predecessor_current_source_sha: 019980627ae05adb3e30ec8ef6b429f725cbfa10
+depends_on_chapter: 422
+depends_on_source_sha: e7c9a862b903741d213ac04ec010d443afbfb111
+dependency_status: verified_predecessor_factual_delta_checked
+predecessor_current_source_sha: e7c9a862b903741d213ac04ec010d443afbfb111
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 original_source_sha: 9b7885d57a6aa7e84e831bb3f22270d5cd9a2879
@@ -3263,4 +3263,38 @@ chapter_421_audit_final:
   predecessor_body_identical: true
   content_qa: pass
   proposed_ready_blob: "6ca6180361ddb4eb78c39c9e67f9c040ff78399c"
+  structural_gate: exact_candidate_commit_CI_required
+chapter_422_audit_final:
+  chapter: 422
+  original_source_sha: "4f760e140835dccc883aecd0ef699f17ed5ec319"
+  source_sha: "6bab0ac282702dd4c7199e85bddf5d3c551fd6db"
+  initial_review: reader_reviews/0422_4f760e14.md
+  final_review: reader_reviews/0422_6bab0ac2.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 1
+  predecessor_ready_blob: "6ca6180361ddb4eb78c39c9e67f9c040ff78399c"
+  predecessor_factual_delta: "精确相同的正式ready版本，无差异"
+  content_qa: pass
+  proposed_ready_blob: "e7c9a862b903741d213ac04ec010d443afbfb111"
+  structural_gate: exact_candidate_commit_CI_required
+chapter_423_audit_final:
+  chapter: 423
+  original_source_sha: "b9b587ab5a8d44d95847f3df0f80b5d9b9c5a328"
+  source_sha: "bb0f19e43721012b701d076b27a36812d33c3e80"
+  initial_review: reader_reviews/0423_b9b587ab.md
+  final_review: reader_reviews/0423_bb0f19e4.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 1
+  corrected_issue: "自用折叠椅不算12居民转运件，9筐2箱11实物；422旧稿仅开场20:39→20:47，事实兼容后绑定新ready"
+  predecessor_old_draft_blob: "4f760e140835dccc883aecd0ef699f17ed5ec319"
+  predecessor_ready_blob: "e7c9a862b903741d213ac04ec010d443afbfb111"
+  predecessor_fact_delta: "只改Day283开场时间，其余依赖的Day284 14:12申请未获批及21:28真实字幕未变"
+  content_qa: pass
+  proposed_ready_blob: "9f4704888484963da41406888790f5a5b2287a5b"
   structural_gate: exact_candidate_commit_CI_required

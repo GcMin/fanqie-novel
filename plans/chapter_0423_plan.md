@@ -6,17 +6,17 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "32a3f06b335162379855ed67cc9b5dabd3a2b3e8"
 - depends_on_chapter: 422
-- depends_on_source_sha: "4f760e140835dccc883aecd0ef699f17ed5ec319"
-- dependency_status: provisional
+- depends_on_source_sha: "e7c9a862b903741d213ac04ec010d443afbfb111"
+- dependency_status: verified_predecessor_factual_delta_checked
 - continuity_precheck: writer_precheck_only_not_qa
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-10-31"
+- publish_mode: ready
 - timeframe: "Day284 20:42—Day285 20:11"
 - pov: "施闻枝、周衡、夏宁、梁策；罗经办与马芸"
 - target_effective_chars: 3000
-- actual_effective_chars: 3552
+- actual_effective_chars: 3569
 
 ## 目标与开场
 Day284 20:42，白溪街临时防潮周转点的系统显示十二件运输交接完成；居民施闻枝要领回母亲留下的相册，却发现单上只有司机名字，不见本人实际领取。前章赵荞Day283 21:28起现场才可读到字幕、旧半场仍待答；第422章是未审草稿时，所有来自它的推进只算临时参考。本章换独立当代公共服务事件，不替前章补签审定。
@@ -45,3 +45,8 @@ Day284 20:42，白溪街临时防潮周转点的系统显示十二件运输交�
 
 ## 结尾与承接
 施闻枝取回原相册但未确认所有内页完好，公私边界保留；本点假交接映射被有限止用，转存责任仍需查。2019外封多一项公开的不同业务流程目录，却未获得实际下一岗逐件接收时间。正文有效字符3552，受独立Audit审核。
+## Audit独立审查与Stage A 修订记录（2026-10-31）
+- 原始草稿 Git Blob：`b9b587ab5a8d44d95847f3df0f80b5d9b9c5a328`；初审Reader 0/2/2（九筐两箱一椅疑作十二件；前章旧provisional依赖）。
+- Stage A仅明确折叠椅属值守点自用、不在转运清单；九筐两箱十一件。仅重绑422正式ready，未修改其他剧情，实计增17有效字；新草稿 Git Blob `bb0f19e43721012b701d076b27a36812d33c3e80`。
+- 422前章旧draft→修订draft仅开场Day283 20:39→20:47；到21:28观众实读、Day284 14:12旧档仅收件均不变，事实差异已逐一对照；422修订draft与拟ready故事正文逐字相同仅交付元数据不同。
+- 423新SHA重新独立Reader Pass A/B 0/0/2；Continuity/Style/Meaningful QA PASS，拟ready Blob `9f4704888484963da41406888790f5a5b2287a5b`；需精确候选结构CI SUCCESS才可main放行。

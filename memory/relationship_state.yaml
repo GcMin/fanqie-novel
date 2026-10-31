@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 421
+last_updated_chapter: 423
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1652,4 +1652,17 @@ chapter_421_relations_verified:
   owner_and_keeper: "杜臻凭旧犬证和登记标识领回旧犬；阿闻持续照看不信后台绿单，沈姐坚持有权核验实交。"
   family: "杜臻亡父和小满的旧胸背带与口令细节呈现家庭关系，不用感情替代身份核验。"
   archive: "罗经办马芸把08:06/08:29状态与原因及封签实况分开，另申请合法公开凭据。"
+  trust_scores_unchanged: true
+chapter_422_relations_verified:
+  chapter: 422
+  source_sha: "6bab0ac282702dd4c7199e85bddf5d3c551fd6db"
+  service_and_citizen: "赵荞明确拒绝后台已开/回放等同本人读到，方漪从建议换座转为承认服务缺口与帮助本人当场发问；尊重分段事实记录。"
+  professional_roles: "周衡梁策只协调专业孟工与场地主管各自许可，夏宁不代签全程服务。"
+  archive: "罗经办马芸区分旧封标签可读性调整与封口交运实证，未知2016自然人是否获答。"
+  trust_scores_unchanged: true
+chapter_423_relations_verified:
+  chapter: 423
+  source_sha: "bb0f19e43721012b701d076b27a36812d33c3e80"
+  owner_and_keeper: "施闻枝坚持保存母亲相册与父亲来访前自主核验；小彭承认误认总回单，岑姐独立核原盒、保密内页并保留旧单。"
+  archive: "罗经办马芸认可2019外标签处理仅与其后交运另目录并列，未将目录当物主/下一岗真签。"
   trust_scores_unchanged: true

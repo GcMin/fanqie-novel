@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 422
+title: "屏幕亮着，她等的字没出现"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "4f760e140835dccc883aecd0ef699f17ed5ec319"
+source_draft_sha: "6bab0ac282702dd4c7199e85bddf5d3c551fd6db"
+initial_review: reader_reviews/0422_4f760e14.md
+reader_review: reader_reviews/0422_6bab0ac2.md
+depends_on_chapter: 421
+depends_on_source_sha: "6ca6180361ddb4eb78c39c9e67f9c040ff78399c"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day283 20:47—Day284 20:12"
+summary: >-
+  Day283 20:47赵荞在南桥街防汛说明会发现后台字幕在线但观众屏无可读字，报名承诺20:45开场字幕不能以回放替代；21:21本厅有限延时，专业恢复路由后赵荞21:28从观众席真读非预设测试并指出错字，21:47本人实问群外防汛联络渠道且公开号码岗位现场呼入可核；上半场缺失问答仍待书面答复，她不签全程满意。Day284本厅调整默认输出与观众席实读核项，其他厅不证。F003承421 Day283 14:17收件，Day284 10:37正式许可11:09见2019旧外封08:06跨折边条码读不全、08:29标签位置调整本项结束的公开原因；14:12后续逐岗索引申请只收件，不证封签连续/2016旧原纸在封/历史人获答。
+meaningful_state_changes:
+  - "字幕源在线变成观众席21:28本人可读并得以当场提问；前半场缺失未擦除。"
+  - "旧外标待复核获得限项公开事由说明但未发现中间实际交运凭据。"
+knowledge_updates:
+  - "中心只按场地公开记录知本厅21:28可读，不能代签整场满意；档案组只依范围得知标签识读摘要。"
+relationship_updates:
+  - "赵荞坚持本人提问及分段事实记录，方漪承认系统绿格不等实际交付。"
+foreshadowing_updates:
+  - "F003知08:06识读问题与08:29本项处理，封口/后续逐岗交接未知；F008/M004/M005未证，Day195物件仍分别保管。"
+ending_state: "Day284 20:12后半场可读字幕和答问真实完成，上半场问题仍待书面答复；历史外标只解释标签可读性，逐岗签认待许可。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "4f760e140835dccc883aecd0ef699f17ed5ec319", final_draft_sha: "6bab0ac282702dd4c7199e85bddf5d3c551fd6db", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3365

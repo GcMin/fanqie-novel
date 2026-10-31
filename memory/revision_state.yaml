@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 421
+current_chapter: 423
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0421.md
-current_source_sha: 141b122e2fbcc63302f3e88e7af046a5d23fcd32
-current_review_path: reader_reviews/0421_141b122e.md
+current_source_path: chapters/draft/0423.md
+current_source_sha: bb0f19e43721012b701d076b27a36812d33c3e80
+current_review_path: reader_reviews/0423_bb0f19e4.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0420_0421_candidate
+last_action: audit_0422_0423_candidate
 last_action_date: "2026-10-31"
 last_error: null
-last_diff_summary: "420独立Reader0/0/2无需修订；421原稿0/1/2因旧依赖，StageA仅重绑420正式ready，故事正文不变；新稿Reader0/0/2内容QA通过。精确候选CI未完成前不能放行main。"
+last_diff_summary: "422初审0/1/2开场时点StageA→新SHA0/0/2；423初审0/2/2物件计数和旧依赖StageA→新SHA0/0/2；两章内容QA通过，精确候选CI后才能main放行。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: eb4b24acf91deae13e732c2186d32a2b5d3695b5
+current_review_source_sha: bb0f19e43721012b701d076b27a36812d33c3e80
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -2747,5 +2747,36 @@ chapter_421_revision_final:
   body_revisions: 0
   corrected_issue: "绑定420旧provisional；两版前章正文一致，仅重绑元数据及详纲，新SHA重新Reader"
   predecessor_ready_blob: "019980627ae05adb3e30ec8ef6b429f725cbfa10"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_422_revision_final:
+  chapter: 422
+  original_sha: "4f760e140835dccc883aecd0ef699f17ed5ec319"
+  final_sha: "6bab0ac282702dd4c7199e85bddf5d3c551fd6db"
+  initial_review: reader_reviews/0422_4f760e14.md
+  final_review: reader_reviews/0422_6bab0ac2.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 1
+  corrected_issue: "Day283活动20:45才开始，开场从20:39更正为20:47"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_423_revision_final:
+  chapter: 423
+  original_sha: "b9b587ab5a8d44d95847f3df0f80b5d9b9c5a328"
+  final_sha: "bb0f19e43721012b701d076b27a36812d33c3e80"
+  initial_review: reader_reviews/0423_b9b587ab.md
+  final_review: reader_reviews/0423_bb0f19e4.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 1
+  corrected_issue: "九筐两箱十一居民件，自用折叠椅不计转运件；对照422旧新事实并绑定新ready SHA"
+  predecessor_ready_blob: "e7c9a862b903741d213ac04ec010d443afbfb111"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
