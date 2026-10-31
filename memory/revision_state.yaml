@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 425
+current_chapter: 427
 current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0425.md
-current_source_sha: 5a72e369a1d19320f8ae6d626d854be10e993837
-current_review_path: reader_reviews/0425_5a72e369.md
+current_source_path: chapters/draft/0427.md
+current_source_sha: 594b9e03f1be943faa78ef9814beee7d7b0dba03
+current_review_path: reader_reviews/0427_594b9e03.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0425_candidate
-last_action_date: "2026-10-31"
+last_action: audit_0427_candidate
+last_action_date: "2026-11-01"
 last_error: null
-last_diff_summary: "425原draft初审0/1/2仅MAJOR为424 provisional SHA；Stage A核前章原draft与ready故事正文完全相同，425重绑正式SHA并修错记字数3413→3431，小说正文不动；新SHA独立Reader0/0/2与内容QA PASS，精确候选CI后才可main放行。"
+last_diff_summary: "426直接Reader0/0/2无修改；427原draft0/1/2仅provisional前章SHA，Stage A核426原稿与ready正文逐字相同，只重绑427 FM/计划；新427 SHA独立Reader0/0/2和内容QA PASS；精确候选结构CI仍为main放行门槛。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 5a72e369a1d19320f8ae6d626d854be10e993837
+current_review_source_sha: 594b9e03f1be943faa78ef9814beee7d7b0dba03
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -2813,3 +2813,31 @@ chapter_425_revision_final:
   predecessor_body_identical: true
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+
+chapter_426_revision_final:
+  chapter: 426
+  original_sha: "6eda8d41a6061f392cac8507580b6eba683d113b"
+  final_sha: "6eda8d41a6061f392cac8507580b6eba683d113b"
+  final_review: reader_reviews/0426_6eda8d41.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 0
+  body_revisions: 0
+  content_qa: pass
+chapter_427_revision_final:
+  chapter: 427
+  original_sha: "c44d5d99e55a63edef044720b56fa69113dc405a"
+  final_sha: "594b9e03f1be943faa78ef9814beee7d7b0dba03"
+  initial_review: reader_reviews/0427_c44d5d99.md
+  final_review: reader_reviews/0427_594b9e03.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  corrected_issue: "426 provisional SHA compare exact body and rebind 427 formal ready SHA; new draft SHA independent two-pass rereview"
+  predecessor_ready_blob: "d8d8b52a7a89d7ecbf3539209cd2d0e5b60068cc"
+  predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+

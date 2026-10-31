@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 425
+last_updated_chapter: 427
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1682,4 +1682,19 @@ chapter_425_relations_verified:
   cleaning_worker_and_passerby: "傅宛发现护栏松动后提醒冯世发退回，冯世发先不愿绕路后接受经实际核净宽的街面路，结尾本人自行推车离开未让他人签家。"
   center_and_service_operators: "夏宁保护报险来源，不以旧号灰标拒绝派桥梁专业岗；梁策周衡不擅修栏杆，老姚和片区有责岗位按分责完成硬隔离。"
   archive: "罗经办马芸查明08:58实际到件也没有越证认定2016纸与旧人受答，继续尊重公开字段限项。"
+  trust_scores_unchanged: true
+
+chapter_426_relations_verified:
+  chapter: 426
+  source_sha: "6eda8d41a6061f392cac8507580b6eba683d113b"
+  civilians: "苗秋反对用错误图逼其关门且按专业指示带小卢安全离困，杜工接受实际门位后限项调整，公众有权取消被迫放凉的订面。"
+  field_team: "夏宁周衡梁策协调工程消防，不代签专业安全验收。"
+  archive: "罗经办马芸只承认合法开放的旧封09:05实出节点，未提升旧人已受答证据等级。"
+  trust_scores_unchanged: true
+chapter_427_relations_verified:
+  chapter: 427
+  source_sha: "594b9e03f1be943faa78ef9814beee7d7b0dba03"
+  civilians: "何简主动在门外真正听到罗秀萍后协助报警与安全等待，罗秀萍本人要求留原假接通日志并记录何简真人发现；不公开家属号码。"
+  field_team: "夏宁梁策周衡守专业解困和有限通话复验的责任边界。"
+  archive: "罗经办马芸承认09:08交运岗真接一件却不称双向全段保管证据齐全。"
   trust_scores_unchanged: true

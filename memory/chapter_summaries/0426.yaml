@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 426
+title: "围挡合上时，店里还有两个人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "6eda8d41a6061f392cac8507580b6eba683d113b"
+reader_review: reader_reviews/426_6eda8d41.md
+depends_on_chapter: 425
+depends_on_source_sha: "e311e956320caa77b4e13aa3d018a3edb0ad13c3"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day287 20:44—Day288 20:08"
+summary: >-
+  Day287 20:44苗秋小卢在岚枫巷九号面馆被旧施工底图误将现营业门画为库房墙并设围挡挡唯一出口，20:51夏宁按真人受困报险，21:32项目有责改围挡保留电缆沟隔离，21:41两人确实离开。Day288 10:22有责不准旧图恢复，11:26苗秋本人通行核验，正式施工图和其他商铺待查。F003承425 Day287 14:09仅收件，Day288 10:43正式许可11:14见2019-03-07 09:05中继台同号旧封一件真实签出，14:11另查仅收件，不证后段双向接交封签完整或2016旧纸及历史自然人获答；F008/M004/M005未证。
+meaningful_state_changes:
+  - "Day287 21:41两人真正从被围挡堵死的面馆安全离开，Day288 11:26当事人实走复核通路。"
+  - "F003新增2019旧封09:05中继台真实签出节点，不填补未证双向交运。"
+knowledge_updates:
+  - "中心仅依当事人和有责部门事实记录本人真安全离险及局部整改，不以系统绿格替代真人接收，也不越权作全部验收。"
+  - "罗经办马芸只依合法限项阅新旧封单点实际登记，不知道2016旧原纸是否封内及历史自然人是否真正受答。"
+relationship_updates:
+  - "当事人自主表达诉求并拒让自动完成记录代签；周衡梁策夏宁和专业单位守各自权限，既有信任数值不随普通事件自动改变。"
+foreshadowing_updates:
+  - "F003只增加2019单点接交证据，封签全程和旧真人受答未知；Day195旧窄片与两旧拆件分存，F008/M004/M005无新证。"
+ending_state: "Day288 20:08岚枫巷面馆本处通路已真人核通，但其它店铺和正式施工图待办；旧封09:05—09:12双向交运证据未获。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6eda8d41a6061f392cac8507580b6eba683d113b", final_draft_sha: "6eda8d41a6061f392cac8507580b6eba683d113b", initial_counts: "0/0/2", final_counts: "0/0/2", stage_a_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3390

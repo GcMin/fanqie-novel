@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 425
-last_reviewed_title: "拆掉的电话亭今夜有人接线"
-last_source_path: chapters/draft/0425.md
-last_source_sha: 5a72e369a1d19320f8ae6d626d854be10e993837
-last_review_path: reader_reviews/0425_5a72e369.md
-last_reviewed_at: "2026-10-31"
+last_reviewed_chapter: 427
+last_reviewed_title: "报警键亮了，电梯里没人听见回话"
+last_source_path: chapters/draft/0427.md
+last_source_sha: 594b9e03f1be943faa78ef9814beee7d7b0dba03
+last_review_path: reader_reviews/0427_594b9e03.md
+last_reviewed_at: "2026-11-01"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
 required_action: none
@@ -12,14 +12,14 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 424
-depends_on_source_sha: 7c26a9c4df034b76b48fe53ede757b37c47aa693
+depends_on_chapter: 426
+depends_on_source_sha: d8d8b52a7a89d7ecbf3539209cd2d0e5b60068cc
 dependency_status: verified_predecessor_body_identical
-predecessor_current_source_sha: 7c26a9c4df034b76b48fe53ede757b37c47aa693
+predecessor_current_source_sha: d8d8b52a7a89d7ecbf3539209cd2d0e5b60068cc
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-original_source_sha: 2924ea44a1479df4d8a4a1e498e332677c4bf5c0
-initial_review_path: reader_reviews/0425_2924ea44.md
+original_source_sha: c44d5d99e55a63edef044720b56fa69113dc405a
+initial_review_path: reader_reviews/0427_c44d5d99.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
 combined_audit_backfill:
@@ -3332,3 +3332,32 @@ chapter_425_audit_final:
   content_qa: pass
   proposed_ready_blob: "e311e956320caa77b4e13aa3d018a3edb0ad13c3"
   structural_gate: exact_candidate_commit_CI_required
+
+chapter_426_audit_final:
+  chapter: 426
+  source_sha: "6eda8d41a6061f392cac8507580b6eba683d113b"
+  final_review: reader_reviews/0426_6eda8d41.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 1
+  local_revision_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "e311e956320caa77b4e13aa3d018a3edb0ad13c3"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_427_audit_final:
+  chapter: 427
+  original_sha: "c44d5d99e55a63edef044720b56fa69113dc405a"
+  source_sha: "594b9e03f1be943faa78ef9814beee7d7b0dba03"
+  initial_review: reader_reviews/0427_c44d5d99.md
+  final_review: reader_reviews/0427_594b9e03.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 0
+  predecessor_old_draft_sha: "6eda8d41a6061f392cac8507580b6eba683d113b"
+  predecessor_ready_blob: "d8d8b52a7a89d7ecbf3539209cd2d0e5b60068cc"
+  predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+

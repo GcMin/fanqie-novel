@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 427
+title: "报警键亮了，电梯里没人听见回话"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "c44d5d99e55a63edef044720b56fa69113dc405a"
+initial_review: reader_reviews/0427_c44d5d99.md
+source_draft_sha: "594b9e03f1be943faa78ef9814beee7d7b0dba03"
+reader_review: reader_reviews/427_594b9e03.md
+depends_on_chapter: 426
+depends_on_source_sha: "d8d8b52a7a89d7ecbf3539209cd2d0e5b60068cc"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day288 20:37—Day289 20:06"
+summary: >-
+  Day288 20:37越岚路17号西梯困罗秀萍，自动紧急通话绿灯只到撤并旧一楼岗位而无人实际听见；何简20:46隔门有真人应答再走公开夜间中心报险，21:11维保到场21:28罗真实离厢并本人致电女儿，故障梯保持停用。Day289 10:18限定整改旧语音网关11:27本梯轿厢/新夜岗双向语句实测成功，但机械故障复验及载客许可待办。F003承426 Day288 14:11申请仅收件，Day289 10:41获限阅许可11:16见2019旧封09:08交运岗同号一件实际签收点数，14:06下一查仅收件，仍不证09:08至09:12全段双向交接、封签连续或2016旧原纸/历史人受答；F008/M004/M005未证。
+meaningful_state_changes:
+  - "Day288 21:28罗秀萍由有资质维保真正安全救离西梯，Day289 11:27本梯双向紧急通讯实测成功但整梯仍禁载客。"
+  - "F003新增09:08交运岗真实到件签入节点，后续09:12前双向交接仍未证。"
+knowledge_updates:
+  - "中心仅依当事人和有责部门事实记录本人真安全离险及局部整改，不以系统绿格替代真人接收，也不越权作全部验收。"
+  - "罗经办马芸只依合法限项阅新旧封单点实际登记，不知道2016旧原纸是否封内及历史自然人是否真正受答。"
+relationship_updates:
+  - "当事人自主表达诉求并拒让自动完成记录代签；周衡梁策夏宁和专业单位守各自权限，既有信任数值不随普通事件自动改变。"
+foreshadowing_updates:
+  - "F003只增加2019单点接交证据，封签全程和旧真人受答未知；Day195旧窄片与两旧拆件分存，F008/M004/M005无新证。"
+ending_state: "Day289 20:06罗秀萍已安全离厢，单梯应急语音真人双向试验成功但载客许可未恢复；F003 09:08—09:12接交待查。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "c44d5d99e55a63edef044720b56fa69113dc405a", final_draft_sha: "594b9e03f1be943faa78ef9814beee7d7b0dba03", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3482
