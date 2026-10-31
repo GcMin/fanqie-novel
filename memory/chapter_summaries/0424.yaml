@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 424
+title: "地图说这里有人值守，门后只有她一人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "9fce6862efb8cb91a14ba07b2ef960d756e3712d"
+source_draft_sha: "9fce6862efb8cb91a14ba07b2ef960d756e3712d"
+reader_review: reader_reviews/0424_9fce6862.md
+depends_on_chapter: 423
+depends_on_source_sha: "9f4704888484963da41406888790f5a5b2287a5b"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day285 20:38—Day286 20:12"
+summary: >-
+  Day285 20:38顾蕊带母田雪兰依第三方地图错误开放标注误到银檐巷12号秦瑞芳私宅，该处曾真实为汛期短时避雨点却已结项撤用；秦不恢复公共值守义务，仅自愿借折椅。夏宁把真实找安全等候地与纠正旧地图拆成两案，21:07周衡梁策核牌钉眼和桥下积水限行；21:21街道核河柳等候室当晚有值守及可用座位，21:34有责限批21:43谢阿姨到巷口22:02真正引两人入河柳街道一楼等候室，22:24弟弟到场接离而不证到家。Day286 10:46纠公开服务清单并保留旧点历史，11:32一个地图平台本点公众端已改为历史停用，其余平台/截图缓存未查，不公开秦私人电话室内。F003承423 Day285 14:07新申请仅收件，Day286 10:28正式批准11:11限阅见2019-03-07 08:43同号外封指向09:12新保管台位的分派完成记录，只证台位任务不证08:43实物到台或08:29—09:12连续交运；14:16下一实际接货登记号新申请仅收件。2016原书面回告是否封内及历史自然人真正获答未知，Day195窄片与两旧拆件分存，F008/M004/M005未证。
+meaningful_state_changes:
+  - "母女从错误地图指引与私宅檐下等待，变为22:02真正获得合法公共等候室接待；秦瑞芳不被误登记现时值班人员。"
+  - "街道保留旧汛期点真实历史却停止本点错误现时公开标注，纠错范围仅一个平台。"
+  - "F003获得08:43同号外封目的台位分派的有限公开字段，但不能补成实物接收。"
+knowledge_updates:
+  - "夜班中心只记秦自愿借椅与母女真入河柳，22:24家属带离而不推断到家；私人联系方式不得公开。"
+  - "档案组只在Day286主管限阅后知08:43台位分派，不知道实际逐岗签接、2016原纸在封或旧自然人获答。"
+relationship_updates:
+  - "秦瑞芳保护自宅边界仍向顾蕊母女借椅，顾蕊主动澄清不是拒绝现职接待；谢阿姨在街道有限职责下真接待。"
+foreshadowing_updates:
+  - "F003从独立交运目录推进到08:43目的台位任务分派，实际交运证据仍缺；Day195三件分存，F008/M004/M005无新证。"
+ending_state: "Day286 20:12母女已由家属从有效等候室接走但到家未证；旧汛期点本平台单点停用且历史留档，2019旧封实签接号另申请待准。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "9fce6862efb8cb91a14ba07b2ef960d756e3712d", final_draft_sha: "9fce6862efb8cb91a14ba07b2ef960d756e3712d", body_revisions: 0, stage_a_used: 0, predecessor_ready_blob: "9f4704888484963da41406888790f5a5b2287a5b", proposed_ready_blob: "7c26a9c4df034b76b48fe53ede757b37c47aa693"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3664

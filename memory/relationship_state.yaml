@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 423
+last_updated_chapter: 424
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1665,4 +1665,12 @@ chapter_423_relations_verified:
   source_sha: "bb0f19e43721012b701d076b27a36812d33c3e80"
   owner_and_keeper: "施闻枝坚持保存母亲相册与父亲来访前自主核验；小彭承认误认总回单，岑姐独立核原盒、保密内页并保留旧单。"
   archive: "罗经办马芸认可2019外标签处理仅与其后交运另目录并列，未将目录当物主/下一岗真签。"
+  trust_scores_unchanged: true
+
+chapter_424_relations_verified:
+  chapter: 424
+  source_sha: "9fce6862efb8cb91a14ba07b2ef960d756e3712d"
+  private_resident_and_visitors: "秦瑞芳没有开私宅却自愿借椅给顾蕊田雪兰；顾蕊确认曾来此但不应写成秦瑞芳拒绝履职，真实汛期帮人历史与现时私人边界都保留。"
+  public_duty: "街道主管有限批准接引，谢阿姨现场确认两人并于22:02真接入有值守的公共等候室；22:24家属自行带离，不承诺到家。"
+  archive: "罗经办马芸维持分派任务与实物交运区分，不替2016旧纸及历史自然人确认实答。"
   trust_scores_unchanged: true

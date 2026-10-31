@@ -9,8 +9,8 @@
 - depends_on_source_sha: "9f4704888484963da41406888790f5a5b2287a5b"
 - dependency_status: verified_exact_ready_blob
 - continuity_precheck: writer_precheck_only_not_qa
-- status: draft
-- qa: pending
+- status: completed
+- qa: pass
 - approved_at: null
 - publish_mode: draft
 - timeframe: "Day285 20:38—Day286 20:12"
@@ -46,3 +46,8 @@ Day285 20:38，银檐巷十二号已撤用多年的汛期临时便民点仍被�
 
 ## 章尾承接
 秦瑞芳过去的帮助被保留为真实历史，公众地图的本点错误可用标记得到有限纠正；顾蕊母女当晚真正进入公共等候室后与家属会合。历史档案仅从“存在后续交运目录”推进到“同号外封08:43分派到了目的台位”，实物逐岗签收仍有证据空白。待独立Audit审查。
+## Audit 独立验收｜2026-10-31
+- 原草稿/最终Reader源Blob: `9fce6862efb8cb91a14ba07b2ef960d756e3712d`；本章小说正文0字修改；独立Pass A→Pass B为0 BLOCKER、0 MAJOR、2 MINOR，报告 `reader_reviews/0424_9fce6862.md`。
+- 前章423正式ready Blob `9f4704888484963da41406888790f5a5b2287a5b`精确匹配，423旧稿到正式稿仅纠十二件中折叠椅属于自用，424没有使用被更正的旧计数；不把Day285 20:11之前的未证事实误写为Canon。
+- 独立Continuity/Style/Meaningful QA：`qa/0424_report.md`，均PASS；3664有效字，在3800硬上限内。分派任务不等旧档实际签交，私宅不等当晚服务点，F008/M004/M005无新增确证。
+- 拟ready Blob `7c26a9c4df034b76b48fe53ede757b37c47aa693`，**必须由精确候选Git Commit的真实结构CI SUCCESS后才能非强制更新main放行**。

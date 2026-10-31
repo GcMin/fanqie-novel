@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 423
-last_reviewed_title: "回单签了名，相册还在走廊"
-last_source_path: chapters/draft/0423.md
-last_source_sha: bb0f19e43721012b701d076b27a36812d33c3e80
-last_review_path: reader_reviews/0423_bb0f19e4.md
+last_reviewed_chapter: 424
+last_reviewed_title: "地图说这里有人值守，门后只有她一人"
+last_source_path: chapters/draft/0424.md
+last_source_sha: 9fce6862efb8cb91a14ba07b2ef960d756e3712d
+last_review_path: reader_reviews/0424_9fce6862.md
 last_reviewed_at: "2026-10-31"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,14 +12,14 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 422
-depends_on_source_sha: e7c9a862b903741d213ac04ec010d443afbfb111
-dependency_status: verified_predecessor_factual_delta_checked
-predecessor_current_source_sha: e7c9a862b903741d213ac04ec010d443afbfb111
+depends_on_chapter: 423
+depends_on_source_sha: 9f4704888484963da41406888790f5a5b2287a5b
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 9f4704888484963da41406888790f5a5b2287a5b
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
-original_source_sha: 9b7885d57a6aa7e84e831bb3f22270d5cd9a2879
-initial_review_path: reader_reviews/0417_9b7885d5.md
+original_source_sha: 9fce6862efb8cb91a14ba07b2ef960d756e3712d
+initial_review_path: reader_reviews/0424_9fce6862.md
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
 combined_audit_backfill:
@@ -3297,4 +3297,19 @@ chapter_423_audit_final:
   predecessor_fact_delta: "只改Day283开场时间，其余依赖的Day284 14:12申请未获批及21:28真实字幕未变"
   content_qa: pass
   proposed_ready_blob: "9f4704888484963da41406888790f5a5b2287a5b"
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_424_audit_final:
+  chapter: 424
+  original_source_sha: "9fce6862efb8cb91a14ba07b2ef960d756e3712d"
+  source_sha: "9fce6862efb8cb91a14ba07b2ef960d756e3712d"
+  final_review: reader_reviews/0424_9fce6862.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 1
+  local_revision_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "9f4704888484963da41406888790f5a5b2287a5b"
+  predecessor_factual_delta: "明确引用第423章正式ready Blob，无SHA变动；其旧稿到最终的折叠椅计数更正不影响424承接事实。"
+  content_qa: pass
+  proposed_ready_blob: pending_atomic_candidate
   structural_gate: exact_candidate_commit_CI_required
