@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 430
+title: "椅子摆了四张，地砖底下空了一块"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "a89734abe0e4d8963ce2df02930a342ae4c683ab"
+reader_review: reader_reviews/0430_a89734ab.md
+depends_on_chapter: 429
+depends_on_source_sha: "8284a2094f370feb6767f4d50a7d913f2135693c"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day291 20:36—Day292 20:03"
+summary: >-
+  Day291 20:36魏竞青因汪蕙四椅挡郁竹巷快递车投诉占道，汪蕙因17:22见地砖下陷报街道仅进白班队列，自用椅子暂作示警但无正式封路权。夏宁分占道与路险，21:17外勤及道路班见裂缝湿砂、沟盖移位，21:32有责道路管理岗批准硬隔离；21:57获准实核可推婴儿车的南侧公共平路绕行，导航雨棚三级台阶不可用，魏22:13只报快递车第一转角通过，十五件是否全送达未证。22:26养护班接管围栏巡查，汪蕙领四椅仅签领回。Day292 10:09专业见局部填砂流失与水冲但事故历史责任和相邻承载仍未知，11:23继续封控，20:03未复开；17:22旧报事回查确认没有夜间危险升级。F003承Day291 14:08申请仅收件，Day292 10:27正式范围答复开放电子目录只支持任务号、无双方实签及封签影像，11:06合法只核09:11路由，14:21向保管方另申原始载体类别与许可仅收件。目录空白不证明2019旧封最后双向交接有无、2016旧纸是否在封或旧自然人获答，Day195三件及沈家私票各存，F008/M004/M005无确证。
+meaningful_state_changes:
+  - "个人椅子示警转为21:32专业有责硬隔离及22:26正式夜巡，椅子领回但道路未复开。"
+  - "21:57实核通路照顾婴儿车并有有限许可，不把快递车走一段当十五件全投递。"
+  - "F003开放电子目录能力确定不足以证原始实交，14:21另向有责保管单位申原始载体许可。"
+knowledge_updates:
+  - "中心知17:22真实报险未获夜间正式隔离，21:32以后围栏才有权，风险地段仍封控。"
+  - "档案组只在允许范围内知09:11任务路由，不知道原始实交载体是否存在或2016旧原纸真在封、历史人获答。"
+relationship_updates:
+  - "汪蕙不承认自己有正式封路权也拒虚签安全；魏竞青虽保留占道投诉，实际协助识别真实险情；白霁自行决定婴儿车路线。"
+foreshadowing_updates:
+  - "F003从目录索引转而向现保管方询原始载体开放条件，仍不证09:10—09:12真实双向交接及封签。"
+ending_state: "Day292 20:03郁竹巷裂陷路段维持正式封控及绕行指引，四椅归主；旧封实物交接和历史回告仍未获证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "a89734abe0e4d8963ce2df02930a342ae4c683ab", final_draft_sha: "a89734abe0e4d8963ce2df02930a342ae4c683ab", reviews_this_cycle: 1, local_revision_used: 0, body_revisions: 0, predecessor_ready_blob: "8284a2094f370feb6767f4d50a7d913f2135693c", proposed_ready_blob: "9514a1c8816a542c633f87b83df868dd3d99002f"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3568

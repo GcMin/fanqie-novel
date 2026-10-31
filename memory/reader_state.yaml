@@ -3385,3 +3385,18 @@ chapter_429_audit_final:
   content_qa: pass
   proposed_ready_blob: "8284a2094f370feb6767f4d50a7d913f2135693c"
   structural_gate: exact_candidate_commit_CI_required
+
+chapter_430_audit_final:
+  chapter: 430
+  source_sha: "a89734abe0e4d8963ce2df02930a342ae4c683ab"
+  final_review: reader_reviews/0430_a89734ab.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  body_revisions: 0
+  predecessor_ready_blob: "8284a2094f370feb6767f4d50a7d913f2135693c"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  proposed_ready_blob: "9514a1c8816a542c633f87b83df868dd3d99002f"
+  structural_gate: exact_candidate_commit_CI_required

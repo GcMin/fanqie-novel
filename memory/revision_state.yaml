@@ -2871,3 +2871,19 @@ chapter_429_revision_final:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+
+chapter_430_revision_final:
+  chapter: 430
+  original_sha: "a89734abe0e4d8963ce2df02930a342ae4c683ab"
+  final_sha: "a89734abe0e4d8963ce2df02930a342ae4c683ab"
+  final_review: reader_reviews/0430_a89734ab.md
+  initial_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "8284a2094f370feb6767f4d50a7d913f2135693c"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
