@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 413
+last_updated_chapter: 414
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1590,4 +1590,12 @@ chapter_413_relations_verified:
   tenant_landlord: "何秋拒将联系资料交房东姚先生、拒给全修好签字；以真实共用立管局部修复与墙体仍待复查分项书面记录维护权益，双方费用归责没有结果。"
   field_team: "夏宁、周衡、梁策只协调与保留有权分源证据，高师傅及水电专岗按责任范围现场核险；何秋本人同意必要范围入屋复核，不被替满意。"
   archive: "罗经办与马芸坚持最小许可，只确认2019中转暂存岗外封一件签到，不代缺失出柜页或历史自然人签收。"
+  trust_scores_unchanged: true
+
+chapter_414_relations_verified:
+  chapter: 414
+  source_sha: "b208f183ab148b53e736ca59ba7f3f0bef8e9ca3"
+  market: "岑桂香坚持36筐本人监督点交、受潮纸箱留证、B07到期需经有权续存及另线销售许可；吴主任书面分列已清堵、未复摆、货损待处理，不以自愿撤摊代替实际经过。"
+  field_team: "周衡、夏宁、梁策只做夜间联动与事实回告，田师傅、钱师傅、电气值守及市场运营各按职责作现场判断和处置。"
+  archive: "罗经办马芸依法只核2019-03-07 01:18一件外封中转柜出柜岗位签认，不能替未知交运接收和2016旧来话者答复作证。"
   trust_scores_unchanged: true
