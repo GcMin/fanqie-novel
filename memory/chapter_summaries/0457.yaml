@@ -30,5 +30,5 @@ foreshadowing_updates:
 ending_state: "Day319 20:16东口依法通行、河边另段仍封，裴榆本人收到可读回复，两次无效语音留证，F003只增后期目录写入来源类别。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "13856ab6179c92410a42bd3d08f325bef8d46594", final_draft_sha: "9fa071565e340ba3a96e2ab06f7ead462c89300e", stage_a_used: 1, body_revisions: 0, predecessor_ready_blob: "de204dd4ec4cb0b4d620035f65358c247b0cc6cc", proposed_ready_blob: "780fad6ef5838cf9ad1b4e65839b6e44c1c18c5e"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
-char_count: 3411
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_success}
+char_count: 3411release_evidence: {candidate_commit: "c7d6404abffe1ed128c4b6acd3104c06a7567214", candidate_ci: 41356683130, main_ci: 41356740140, ready_blob: "780fad6ef5838cf9ad1b4e65839b6e44c1c18c5e", force: false}

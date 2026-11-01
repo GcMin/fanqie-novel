@@ -28,5 +28,5 @@ foreshadowing_updates:
 ending_state: "Day318 20:12回收柜仍封用、错误绿屏已熄、何沐本人旧电池合规交付，F003限查。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "8ebd5bee73490536021bab131711d1ed634ccdf6", final_draft_sha: "8ebd5bee73490536021bab131711d1ed634ccdf6", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "ae5f8d3ad10b10989534aa52d87eefdbab6958c3", proposed_ready_blob: "de204dd4ec4cb0b4d620035f65358c247b0cc6cc"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
-char_count: 3424
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_success}
+char_count: 3424release_evidence: {candidate_commit: "c7d6404abffe1ed128c4b6acd3104c06a7567214", candidate_ci: 41356683130, main_ci: 41356740140, ready_blob: "de204dd4ec4cb0b4d620035f65358c247b0cc6cc", force: false}

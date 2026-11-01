@@ -7,3 +7,8 @@
 - **Meaningful Change PASS**：东口实际获准恢复而河边未开、裴榆收到本人能懂的限项处置结果、平台明确偏好转派失配且仅本单纠正，F003后期写入时间与来源类别新进展。
 - **章序、标题、字数 PASS**：0457 / 电话打了两次，她的求助还没被读到，中文有效3411，publisher实际非空白计数3429，处于硬限。Front Matter、详细章纲及CSV的标题一致。
 - **候选正式ready Blob**：780fad6ef5838cf9ad1b4e65839b6e44c1c18c5e。结构尚待精确候选Commit GitHub Actions执行publisher.check_local和结构单测SUCCESS；本独立内容QA不能替代结构PASS。
+## 精确结构校验及正式main放行证据（已经核实）
+- 候选分支 audit/ready-0456-0457-20261102 精确提交 `c7d6404abffe1ed128c4b6acd3104c06a7567214`：GitHub Actions `41356683130` 为 SUCCESS；`Test offline snapshot validation` 和 `Validate this checkout without Git sync or publishing`（运行 `python -m publisher.check_local --repo .`）两步骤均 SUCCESS。
+- 候选成功后，main前HEAD b444e8dbb59a92fba9f4e046b8f21a4e2a7c2312 未变化，采用 `expected_sha`、`force:false` 推进main到同一提交，GitHub回报 success:true；main精确SHA Actions `41356740140` 亦 SUCCESS。
+- 0456/0457已在main真实存在于chapters/ready，正式Git Blob分别为 `de204dd4ec4cb0b4d620035f65358c247b0cc6cc` 和 `780fad6ef5838cf9ad1b4e65839b6e44c1c18c5e`；两份原draft已从main删去，后者绑定前者最终ready SHA；无需发布番茄。
+
