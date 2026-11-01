@@ -9,3 +9,7 @@
 - **Meaningful Change PASS**：馆方从虚假“全收”到真实限机确证并保留原错凭条；陆月桂从舍不得丢失的尾段到自行选择**新时点**另录两分钟，只同意保管并与阿禾约周末见面，旧友关系实际推进；F003从“字段存在”到“本目标非空关联值存在”且不越权限。
 - **章序/标题/字数 PASS**：章号455，标题`录音写着完整，最后一句却没人收到`与Front Matter/详纲一致；有效3348字，在2600—3400首选及2300—3800硬限内。
 - **结构门槛**：455拟ready Blob `ae5f8d3ad10b10989534aa52d87eefdbab6958c3`，仅在包含454正式前章、Memory与CSV更新的精确候选Commit上GitHub Actions结构检查和测试SUCCESS，且main非强制expected_sha更新成功后，才报告正式放行。此内容QA不替代真实结构证据。
+## 正式结构校验和main放行证据（已实际核实）
+- **精确候选Commit** `58e16dbf07b48adc3b8aabd288efb80c9eb6ab68` 先在 `audit/ready-0454-0455-20261102` 上获Actions `41346439172` `SUCCESS`，`Test offline snapshot validation`及运行`python -m publisher.check_local --repo .`的`Validate this checkout without Git sync or publishing`两步均为`SUCCESS`；候选同时包含454正式拟ready、455新SHA绑定Reader/QA/Memory及CSV完整计划。
+- 通过后使用`expected_sha: 21e5e746366215930ef3319bf8654ca36d9e140d`、`force:false`非强制推进main，GitHub返回`success:true`；新main同一SHA的Actions `41346484826`亦`SUCCESS`，结构与单测均成功。
+- 455正式ready Blob `ae5f8d3ad10b10989534aa52d87eefdbab6958c3`，`chapters/draft/0455.md`在main被删除；前454 ready Blob `2fced59f72add805f1dfd889a4debe3449789d5d`与本章新版本依赖精确一致。旧draft的Reader不能作为放行依据，最终独立新SHA Reader `d25719f4` 0/0/2 与本独立QA均已核验。

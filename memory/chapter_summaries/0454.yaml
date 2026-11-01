@@ -29,5 +29,6 @@ foreshadowing_updates:
 ending_state: "Day316 20:13许映容送《雨后山路》到父亲膝头，旧书馆方实际收下但封皮湿痕评估未终；旧还书箱继续停用，迟到考勤未结；F003目标关联值待权限回复。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "51ec0d29e440dcb1322832e49e6afe58a5101c24", final_draft_sha: "51ec0d29e440dcb1322832e49e6afe58a5101c24", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "03cc2f0be704fbf9aaadf2eb22e66bae858a85e1", proposed_ready_blob: "2fced59f72add805f1dfd889a4debe3449789d5d"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_success}
 char_count: 3292
+release_evidence: {candidate_commit: "58e16dbf07b48adc3b8aabd288efb80c9eb6ab68", candidate_ci: 41346439172, main_ci: 41346484826, ready_blob: "2fced59f72add805f1dfd889a4debe3449789d5d", force: false}

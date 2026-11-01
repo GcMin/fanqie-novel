@@ -9,3 +9,7 @@
 - **Meaningful Change PASS**：旧书实物从未收状态转21:51真正由馆方接管；本人从额度卡住到次日合法借得新大字书并真实交父亲阅读；机械原因仅限机确认且受潮书/考勤仍有后果；F003只得“字段存在”新层级信息。
 - **章序/标题/字数 PASS**：章号454，标题`还书箱吞了书，却没有真正收下它`与Front Matter及`plans/chapter_0454_plan.md`一致；按剔除Front Matter、空白和单独***场景分隔符的中文有效字数为3292，处2600—3400首选及2300—3800硬限内。
 - **结构门槛**：本报告是独立内容QA通过，并不等于结构检查。目标ready Blob `2fced59f72add805f1dfd889a4debe3449789d5d` 需要同记忆/CSV/后章依赖一起组成精确候选Commit，由真实GitHub Actions执行`python -m publisher.check_local --repo .`及单测SUCCESS且版本完全匹配后，才能使用`expected_sha,force:false`把draft→ready发布到main。未确认结构前此报告不可冒充放行证据。
+## 正式结构校验和main放行证据（已实际核实）
+- **精确候选Commit**：`58e16dbf07b48adc3b8aabd288efb80c9eb6ab68`，在 `audit/ready-0454-0455-20261102` 分支由 GitHub Actions `41346439172` 执行并最终`SUCCESS`；其`Test offline snapshot validation`单元测试和`Validate this checkout without Git sync or publishing`实际运行`python -m publisher.check_local --repo .`两步均 `SUCCESS`。这是包含454、455 ready、Memory、plans全量更新的**精确候选版本**。
+- 在候选成功且main仍为 `21e5e746366215930ef3319bf8654ca36d9e140d` 时使用`update_ref`，`expected_sha`为该旧main且`force:false`，GitHub返回`success:true`，将精确Commit正式推进main。
+- 正式main对**同一commit**运行的Actions `41346484826` 同为`SUCCESS`，两项结构/测试步骤均成功。454正式ready Git blob `2fced59f72add805f1dfd889a4debe3449789d5d`，main不再含`chapters/draft/0454.md`；内容Reader与独立QA仍以本报告原始证据为准，CI不替代文学审查。

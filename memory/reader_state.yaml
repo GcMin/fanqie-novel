@@ -3870,7 +3870,7 @@ chapter_454_review:
   predecessor_ready_blob: "03cc2f0be704fbf9aaadf2eb22e66bae858a85e1"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_commit_CI_success
 chapter_455_review:
   chapter: 455
   title: "录音写着完整，最后一句却没人收到"
@@ -3892,4 +3892,11 @@ chapter_455_review:
   predecessor_factual_delta: "454正文逐字一致仅交付FM变化"
   dependency_status: verified_predecessor_factual_delta_checked
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_commit_CI_success
+release_454_455:
+  verified_commit: "58e16dbf07b48adc3b8aabd288efb80c9eb6ab68"
+  exact_candidate_ci: 41346439172
+  exact_main_ci: 41346484826
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_update: expected_sha_force_false_success

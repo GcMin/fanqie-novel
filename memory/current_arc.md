@@ -1,3 +1,7 @@
+# 第454—455章正式ready结构校验与main放行实证｜2026-11-02
+- 精确候选Commit `58e16dbf07b48adc3b8aabd288efb80c9eb6ab68`，在`audit/ready-0454-0455-20261102`上GitHub Actions `41346439172` SUCCESS，结构单元测试和`python -m publisher.check_local --repo .`对这一**精确Commit**均SUCCESS；确认main前HEAD `21e5e746366215930ef3319bf8654ca36d9e140d`未变化，`expected_sha`且`force:false`推进main成功，同SHA的main Actions `41346484826`亦SUCCESS。
+- 454、455已正式`ready/qa:pass`，正式Blob分别为`2fced59f72add805f1dfd889a4debe3449789d5d`、`ae5f8d3ad10b10989534aa52d87eefdbab6958c3`，原draft从main删除；两章原正文零改。455初审MAJOR仅临时前章引用，Stage A更正依赖并对新SHA重新独立Reader双遍。正文和Canon/published未作不授权改写。
+
 # 第455章唯一Audit复审后ARC-054有界事实｜2026-11-02
 - 原稿Git Blob `1b4209e2c959f8ed84d448a7180e804087180233` 初审0/1/2，唯一MAJOR为仍绑454临时draft。454原稿 `51ec0d29e440dcb1322832e49e6afe58a5101c24` 到拟ready `2fced59f72add805f1dfd889a4debe3449789d5d` 小说正文逐字同，仅交付Front Matter改变；Stage A只重绑455前章SHA和详纲，无正文修改，新draft `d25719f4e6b87aca6b4469d06b33ea808619f93f` 重新独立Pass A/B 0/0/2，内容Continuity/Style/Meaningful QA PASS，3348有效字；精确候选结构CI成功后才可正式main ready。
 - Day316 20:46陆月桂口述史录音凭条称12分18秒全收，实际仅10分44秒媒体；21:03顾绫标待核，21:16夜间中心限权协调，旧错凭条保留，未向公众开放。Day317 09:43授权专业确认20:38外接存储切换写入中断，不可造出未存的后段；单机继续停，20:06另日在已准房间新录2分钟只同意暂存、非原声续段并主动约阿禾见面，私人语音未移交。

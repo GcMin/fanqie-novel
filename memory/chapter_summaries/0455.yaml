@@ -31,5 +31,6 @@ foreshadowing_updates:
 ending_state: "Day317 20:06陆月桂另日重录2分钟单独核听且只许可暂存，主动约见阿禾；原机仍停、昨日尾音不可恢复；F003后期关联值存在但2019/2016历史真相和图像身份仍不获知。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "1b4209e2c959f8ed84d448a7180e804087180233", final_draft_sha: "d25719f4e6b87aca6b4469d06b33ea808619f93f", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "51ec0d29e440dcb1322832e49e6afe58a5101c24", predecessor_ready_blob: "2fced59f72add805f1dfd889a4debe3449789d5d", predecessor_factual_delta: "454小说正文逐字未改仅交付FrontMatter变更", proposed_ready_blob: "ae5f8d3ad10b10989534aa52d87eefdbab6958c3"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_success}
 char_count: 3348
+release_evidence: {candidate_commit: "58e16dbf07b48adc3b8aabd288efb80c9eb6ab68", candidate_ci: 41346439172, main_ci: 41346484826, ready_blob: "ae5f8d3ad10b10989534aa52d87eefdbab6958c3", force: false}
