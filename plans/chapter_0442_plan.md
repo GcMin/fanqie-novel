@@ -9,14 +9,14 @@
 - depends_on_source_sha: "a04f99891cd93efe533a12269f29889625a5a67b"
 - dependency_status: verified_exact_ready_blob
 - continuity_precheck: writer_precheck_only_not_qa
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-11-01"
+- publish_mode: ready
 - timeframe: "Day303 20:31—Day304 20:06"
 - pov: "郭萤、夏宁、周衡、梁策；罗经办、马芸"
 - target_effective_chars: 3000
-- actual_effective_chars: 3314
+- actual_effective_chars: 3324
 
 ## 本章目标与状态变化
 
@@ -47,4 +47,10 @@ F003沿Day303 2019同号交运附页背面局部蓝痕保护评估登记，获�
 - 并发重读后正式ready至441，长期Memory与摘要亦更新至441；本章以440/441已放行的正式正文、现行ARC-054事实为准。现存卷纲实际止volume_05、arc_current为ARC-044的历史草稿，以最新已确认章节ARC-054、Canon和Memory优先，不虚构不存在的volume_06或arc_054文件。
 - F003前441仅获原纸保护评估登记，没有笔迹/形成年代鉴定；本章仅增加“当前可见蓝痕不能充当完整框勾”的限定保护观察，2019当面交运、2016原回告封内及当年本人受答仍不证。Day195带旧字窄片、两件旧拆物和沈家私人票各有独立来源。F008无新可靠本人记忆反证，F009/F010/F011 resolved，M004/M005没有确证。
 - 已从GitHub当前main重新读AGENTS/config/写作与阅读协议、全部必需Bible与三主角卡、现存卷/arc文档、长期人物/关系/知识/世界状态、伏笔时间线、最新十章摘要0432—0441（先读0430—0439，后补读0440—0441），5章全文0437—0441（最新两章均已进入ready，正文情节未变），以及0440/0441详纲；不读取历史reader_reviews。
-- 仅Planner/Continuity Precheck/Writer，正文3314有效字符（不含空白/Front Matter/场景分隔符）。不做Editor/Reader/Revision/QA/Memory/Publish Gate，不发布番茄。
+- 仅Planner/Continuity Precheck/Writer，正文3324有效字符（不含空白/Front Matter/场景分隔符）。不做Editor/Reader/Revision/QA/Memory/Publish Gate，不发布番茄。
+## 独立Audit修订、复审与放行证据（2026-11-01）
+
+- 原草稿SHA `33338b5f6eeccd9b67180a0dea4fab8ac278eff5`，独立Reader Pass A/B：BLOCKER=0、MAJOR=1、MINOR=2；唯一MAJOR为20:39“接班”与同夜21:47催“交班”、次日再“交班”的时间语义冲突。
+- Stage A只修两处交班描述并据实更新有效字数3324；新草稿Git Blob `de434870f23fe5c4855c7b3e46a9c0378675d706`，独立重新Reader Pass A/B：BLOCKER=0、MAJOR=0、MINOR=2，不使用旧版Review。
+- 前章441正式ready Blob `a04f99891cd93efe533a12269f29889625a5a67b`精确匹配；独立Continuity/Style/Meaningful Change QA PASS，F003只合法观察非身份蓝痕，不越级确证2019/2016历史事实。
+- 拟ready Blob `f04788d6294c1dfbe4e5eb2b2d9884c3e8fabfe2`，须在精确候选Git Commit结构CI SUCCESS后用expected_sha、force:false放行main，不以Reader或CI单独代替全部门槛。

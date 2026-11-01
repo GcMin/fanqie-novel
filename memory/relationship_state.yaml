@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 441
+last_updated_chapter: 442
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1806,4 +1806,12 @@ chapter_441_relationship_verified:
   customer_and_merchant: "闻沫与师傅协调经正式正门夜间接件，师傅真收七珠领饰但不预签明日演出验收；闻沫要求实退18元而非以受理冒充到账。"
   core_team: "夏宁周衡梁策与许简严分码头禁登、第三方停售、公交运行、真实退款和复航权限。"
   archive: "罗经办马芸只做蓝痕保护评估登记，不偷换成纸本历史真实交接证据。"
+  trust_scores_unchanged: true
+chapter_442_relationship_verified:
+  chapter: 442
+  source_sha: "de434870f23fe5c4855c7b3e46a9c0378675d706"
+  guo_ying_and_supervisor: "郭萤拒将保洁交班签字当灯索拆卸验收，班长同意依道路正式接管号补记其报险与真实清扫范围；不据此判定装饰设施责任与赔偿。"
+  guo_ying_and_student: "前晚学生书包背带被灯串刮破未有已知身体伤；次晚背带自行缝补且经已批准的正常站前通路上车，赔偿待本人意愿及有责程序。"
+  core_team_and_on_site: "夏宁周衡梁策把市政现场隔离、照明断电、专业物理拆卸与有责复开分清，不要求环卫工人替有责部门拆卸、签认或代担风险。"
+  archive: "马芸罗经办遵守保管方对无身份局部的观察许可，不让修护员意见替代签认鉴定。"
   trust_scores_unchanged: true

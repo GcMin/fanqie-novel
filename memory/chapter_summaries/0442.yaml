@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 442
+title: "那根线不是她系的"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "33338b5f6eeccd9b67180a0dea4fab8ac278eff5"
+source_draft_sha: "de434870f23fe5c4855c7b3e46a9c0378675d706"
+initial_review: "reader_reviews/0442_33338b5f.md"
+reader_review: "reader_reviews/0442_de434870.md"
+depends_on_chapter: 441
+depends_on_source_sha: "a04f99891cd93efe533a12269f29889625a5a67b"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day303 20:31—Day304 20:06"
+summary: >-
+  Day303 20:31南横街保洁郭萤发现公交站后旧装饰灯串垂落挂破学生书包，无已知身体伤；阻止旁人徒手拉索并向夏宁报险。周衡梁策20:57到公共侧核，21:08道路值守岗只隔离受影响人行带保留站前正常候车区；21:22照明专业到场21:34隔离装饰回路并验明无电，但灯串张力仍在。郭萤20:39表示需在21:40回中转点交班，21:47接到班长催告，21:54按真实接管号离现场返回；22:27受托拆卸班作受控拆卸22:51交本点清点和完工记录，23:08有责道路岗复核批准本段复开。Day304 11:16有责部门核旧撤场器材收拢签字与挂点逐处拆卸确认并非一事，仅本点书面纠正，其它点位待实查；郭萤次日上午仅补核前夜保洁和交班记载，20:06只按合法复开和自身观察给有限回访，学生缝补背带正常上车，赔偿及松脱原因未知。F003 Day304 11:49获保护评估许可的非身份局部斜光只见2019同号交运附页背面蓝痕近不明年代折边，偏离可见框勾选范围，不支持完整勾选/签认鉴定；2019双方实交封口、2016旧书面回告在封、历史人真正收到回复均未证，Day195窄片两旧拆件和沈家私人票分源，F008/M004/M005未证。
+meaningful_state_changes:
+  - "旧灯串经道路有限隔离、照明断电验电、专业安全拆卸及道路23:08有责复开，公交候车区仍可用。"
+  - "原活动撤场表只有器材收拢而非所有挂点核销，Day304只本点书面纠正并安排其他点位核查。"
+  - "F003合法无损观察限制蓝痕作为完整勾选的解释，但仍不确定成因年代及历史真正交接。"
+knowledge_updates:
+  - "郭萤知自己观察的伤包风险、现场接管时点与本段通行，不能代专业人员确认电气安全或赔偿；夏宁记录断电、拆除与复开独立事实。"
+  - "罗经办马芸只知可开放局部蓝痕靠折边且不支持完整勾选，不知被遮蔽内容、2019互签封口或2016旧人收到回告。"
+relationship_updates:
+  - "郭萤与班长明确保洁本人交班签字不能代签装饰拆除；她承担合理报险而有责岗位接管专业风险；学生仅获安全通行未获赔偿结论。"
+foreshadowing_updates:
+  - "F003原纸蓝痕受限斜光排除其被直接认作完整可见框勾选，但不能鉴定成因年代、2019实签封口或2016历史真人获答，F008/M004/M005无新证。"
+ending_state: "Day304 20:06南横街本点正常行人带经23:08专业拆除与有责复开而可走；其它装饰点位、书包赔偿及固定件根因未知；F003蓝痕性质仍未判。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "33338b5f6eeccd9b67180a0dea4fab8ac278eff5", final_draft_sha: "de434870f23fe5c4855c7b3e46a9c0378675d706", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, predecessor_ready_blob: "a04f99891cd93efe533a12269f29889625a5a67b", proposed_ready_blob: "f04788d6294c1dfbe4e5eb2b2d9884c3e8fabfe2"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3324
