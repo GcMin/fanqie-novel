@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 449
+title: "展厅里挂着名单，照片还在楼下"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "76e8b0d13b21f1f95a942d6a1edd6677dde9a0db"
+source_draft_sha: "d41fdf247e5dfe985fa95d21742c84e937b5b146"
+initial_review: "reader_reviews/0449_76e8b0d1.md"
+reader_review: "reader_reviews/0449_d41fdf24.md"
+depends_on_chapter: 448
+depends_on_source_sha: "2af1612cf50972cf570ad8aa25f9219cba61f1c1"
+dependency_status: verified_predecessor_factual_delta_checked
+predecessor_original_draft_sha: "8f67abfb1f799f999caa06d5580ed3319ac5c458"
+predecessor_factual_delta: "448改Day310留存照片前晚为昨晚并撤销无证员工按键归责，不改变晚20:06市场案结果、F003目录名及Day310 14:08申请，449事实兼容"
+timeframe: "Day310 20:29—Day311 20:03"
+summary: >-
+  Day310 20:29宋知弦在民槐社区展厅见第十二张《桥头补鞋的人》挂位空白，线上二维码与十二件到位绿字存在而实际实物未核。20:38负责人许桢确认Day310 19:52司机仅勾已到场、纸质逐件签收空白。21:06夜间中心受报、21:22物业在合法摄像下确认灰罩推车压到消防疏散门开启范围、后坡道棚接缝滴水；21:35获权人员把车安全移入干燥工作间并经物业实核本扇消防门全幅开启，不替整栋建筑验收。21:47馆内保管岗与作者见证两箱总共十二张实际存在，但最后一件外框玻璃裂、有细屑，相纸是否受潮及破损责任未定。22:27宋知弦只同意临时保管、不认可全部无损签收，次日按约只展十一件。Day311 09:08影像展真以十一件开放并如实公告一件暂缓；10:31物业与馆核司机到场被馆汇总映作逐件接收，旧记录保留，新实点验不倒填昨夜签收。修护人员预约并非鉴定、责任待查。20:03作者确认空墙真实说明，母亲照片仍有原底片在家而不冒充原展品可安全悬挂。F003 Day311仅限阅2022通用目录名可容同批多个拍摄子项、子项到原始封件号受限，14:02申请仅收件；不证2019互签封口、2016旧书面回告在封或历史自然人实获答。Day195三旧件/沈家票分源，F008/M004/M005无新证。
+meaningful_state_changes:
+  - "从电子十二件到位假状态，转为十二件实点存在、十一件真正展出、一件受损待专业评估，作者拒签全部完好。"
+  - "物业按授权排除推车占用消防门、只验本门开闭；电子到场与逐件收讫的错映在本馆有限查清，不倒填历史。"
+  - "F003从2022通用目录名进一步确认一对多子项层级，而同号旧原封身份对应仍未开放。"
+knowledge_updates:
+  - "宋知弦许桢奚让实知十二件在工作间，但最后一件相框裂相纸状态未知；司机到场并非逐件正式签收。"
+  - "物业仅知本门开闭复核和馆接口继承到场状态，尚不知相框损坏原因、运送责任；夏宁周衡梁策不越权认责。"
+  - "罗经办马芸仅知通用目录下可含多个拍摄子项，2019本件封号同一性和内容未知，新的关联申请只收件。"
+relationship_updates:
+  - "宋知弦拒绝让奚让替她讲母亲故事，但信任其守护空墙和对观众解释真实暂展；未约定修护完成时间。"
+foreshadowing_updates:
+  - "F003 Day311只见2022通用目录层级一对多，14:02具体同号索引申请仅收件；2019双签/封口与2016旧本人真获答未证，F008/M004/M005未新增。"
+ending_state: "Day311 20:03民槐影像展仅十一张安全公开，第十二件已找回但破损待有责修护，合法消防门现时可开，本馆电子交接错映已限项识别；F003封号与目录子项仍未合法关联。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "76e8b0d13b21f1f95a942d6a1edd6677dde9a0db", final_draft_sha: "d41fdf247e5dfe985fa95d21742c84e937b5b146", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "8f67abfb1f799f999caa06d5580ed3319ac5c458", predecessor_ready_blob: "2af1612cf50972cf570ad8aa25f9219cba61f1c1", final_ready_blob: "8da01a362e815a42f294201da0842be0dcce02a6"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3372

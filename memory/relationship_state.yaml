@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 448
+last_updated_chapter: 449
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1861,4 +1861,12 @@ chapter_448_relationship_verified:
   ye_li_and_he_yaqing: "由公开称量分歧与视频疑虑，转为本袋净重不足获承认补足、有限澄清误传；并无旧交易全面赔付或市场声誉完全恢复。"
   core_team: "夏宁周衡梁策保持有源联动及岗位边界，三人长期关系评分不变。"
   archive: "罗经办马芸合作区分编目通用名与具体封件，未提前证明2019历史互签。"
+  trust_scores_unchanged: true
+chapter_449_relationship_verified:
+  chapter: 449
+  source_sha: "d41fdf247e5dfe985fa95d21742c84e937b5b146"
+  song_zhixian_and_xi_rang: "宋知弦阻奚让直接摸受损相纸而非要求其认责，约定由奚让对观众保留真实空展板说明；尊重作者不代讲已故母亲的私人故事，形成有限合作。"
+  song_zhixian_and_exhibition: "作者仅同意找到的十二件在工作间有限保管，十一件公开实展而一件状态待查；不预签完整无损或放弃索赔处置。"
+  core_team: "夏宁周衡梁策有源联动不改变长期关系评分。"
+  archive: "罗经办马芸共同区分2022通用目录名称与受限的2019具体封件对应，不随意拼证。"
   trust_scores_unchanged: true

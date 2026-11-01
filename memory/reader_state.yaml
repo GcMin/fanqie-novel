@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 448
-last_reviewed_title: "秤盘没归零，先被称错的是人"
-last_source_path: chapters/draft/0448.md
-last_source_sha: 88e144b3466a2d339a3ec83b62d90c510e01099a
-last_review_path: reader_reviews/0448_88e144b3.md
+last_reviewed_chapter: 449
+last_reviewed_title: "展厅里挂着名单，照片还在楼下"
+last_source_path: chapters/draft/0449.md
+last_source_sha: d41fdf247e5dfe985fa95d21742c84e937b5b146
+last_review_path: reader_reviews/0449_d41fdf24.md
 last_reviewed_at: "2026-11-01"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 447
-depends_on_source_sha: 7a614d178ca3a86752a8055b6d561999c0d45ecf
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 7a614d178ca3a86752a8055b6d561999c0d45ecf
+depends_on_chapter: 448
+depends_on_source_sha: 2af1612cf50972cf570ad8aa25f9219cba61f1c1
+dependency_status: verified_predecessor_factual_delta_checked
+predecessor_current_source_sha: 2af1612cf50972cf570ad8aa25f9219cba61f1c1
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -3753,5 +3753,26 @@ chapter_448_review:
   body_revisions: 1
   predecessor_ready_blob: "7a614d178ca3a86752a8055b6d561999c0d45ecf"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_449_review:
+  chapter: 449
+  title: "展厅里挂着名单，照片还在楼下"
+  original_source_sha: "76e8b0d13b21f1f95a942d6a1edd6677dde9a0db"
+  source_sha: "d41fdf247e5dfe985fa95d21742c84e937b5b146"
+  initial_review_path: "reader_reviews/0449_76e8b0d1.md"
+  review_path: "reader_reviews/0449_d41fdf24.md"
+  reviewed_at: "2026-11-01"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 0
+  predecessor_original_draft_sha: "8f67abfb1f799f999caa06d5580ed3319ac5c458"
+  predecessor_ready_blob: "2af1612cf50972cf570ad8aa25f9219cba61f1c1"
+  dependency_status: verified_predecessor_factual_delta_checked
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
