@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 436
+title: "她等的是一句能看见的回话"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "82b9da2707acc7657faed7d1d28262c8499b9988"
+source_draft_sha: "89b05be1ed126d01373207268f9d3bd1be2aad1f"
+initial_review: reader_reviews/0436_82b9da27.md
+reader_review: reader_reviews/0436_89b05be1.md
+depends_on_chapter: 435
+depends_on_source_sha: "a49e9c6e0e7a69441541a6403ca012cf88bec031"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day297 20:27—Day298 20:07"
+summary: >-
+  Day297 20:27阮映以文字报陵石路公交站南口无障碍坡道被施工护栏压脚占，要求可读回话；20:29自动分派成功错误绿显“工作人员已回复”、20:35语音回拨失败不等本人拒服务。20:46便利店沈强经本人同意电话转报夏宁；21:08梁策周衡现场从安全侧见压脚、施工卸货车口且“材料送达”不等通路获签。21:21夏宁在有责授权人工栏真发文字，21:24阮映本人回“还在”并要能推菜车路；道路人员及站点管理岗21:49只核准西侧公共绕行，22:03赵姨实推菜车过首坡口，两人仅到西侧街角未确认到家，培训班21:30已关改约次日交接。Day298 09:12专业改围挡、10:57实际核通净宽11:26有责限项批准南口复开；11:48本入口把系统受理与人工发送/本人真实回复分开；阮映午后真取资料并晚间留言“路能走了”。F003承435 Day297 14:17申请，Day298 10:42更窄限批11:16仅见主表“接收确认有填写记录”、续页“复核意见待核”编目状态；14:05来源形成时间再申仅收件。目录不证谁签/封口及2019双方当面交接、2016旧回告在封或历史人实受答，Day195旧件沈家票各存，F008/M004/M005未证。
+meaningful_state_changes:
+  - "阮映由误导分派绿框转为真人可阅读文字并本人实际回复，保留自主通路选择。"
+  - "赵姨真走有责批准的西侧可推路，次日上午南口经专业核验限项复开，旧施工车口仍隔离。"
+  - "F003合法见附页两个目录状态，未上升为原签名内容或封签证明。"
+knowledge_updates:
+  - "夜间中心只能确认阮映本次文字真实收发、赵姨至街角，不代确认到家；今天南口复开需专业证据。"
+  - "档案组只得主表/续页受限目录状态，不知道真实填写人及原始签字，更不知2016旧纸和历史自然人回告。"
+relationship_updates:
+  - "阮映与赵姨通过两人共读屏幕、共同决定绕路互相照应；沈强经本人授权代转报不代签是否解决。"
+foreshadowing_updates:
+  - "F003新增有填写记录和待核两项编目状态，但本件原始实交/2016旧纸/历史真人受答仍待独立证据。"
+ending_state: "Day298 20:07南口有责复开且本入口分派假回复改正，阮映本人完成培训班资料交接；F003新限项申请只收件。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "82b9da2707acc7657faed7d1d28262c8499b9988", final_draft_sha: "89b05be1ed126d01373207268f9d3bd1be2aad1f", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "5ed67cb715718b04852a09da44a7cfbfced6c5d6", predecessor_ready_blob: "a49e9c6e0e7a69441541a6403ca012cf88bec031", predecessor_body_identical: true, proposed_ready_blob: "fc877f1a98af107f2de7723fd45eb674aa8d8bbf"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3361

@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 435
+title: "车还锁在棚里，红字先落在他名下"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "5ed67cb715718b04852a09da44a7cfbfced6c5d6"
+source_draft_sha: "5ed67cb715718b04852a09da44a7cfbfced6c5d6"
+reader_review: reader_reviews/0435_5ed67cb7.md
+depends_on_chapter: 434
+depends_on_source_sha: "29ebda7925bead80ab22f492ff3cdb64a1f5d06c"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day296 20:41—Day297 20:06"
+summary: >-
+  Day296 20:41罗柯到配送站发觉松篱路充电棚旧Day295 20:02自动绿格误使派班表注“个人延迟”，但Day295 22:07实际设施受限未交原车且Day296 15:23费用仅部分更正；一辆站内备车后刹有故障有责停用，丁野愿借私车也不绕过登记/保险。夏宁只核车位停用与未交付，不代判劳动责任。22:11姜原由经营方正式限项证明区分旧绿格与真实限制，22:34庞卓只暂停自动计责。Day297 05:38另一站内登记车归还，维修补反光件并复核后06:14罗柯真实签收、07:11实际只完成一单；10:37白班主管有责撤本笔“自愿延迟”错误归责，但配送收入差额和原车仍未结；20:06借车按真实时点归还且拒签“全部事项已处理”。F003承434 Day296 14:08申请，Day297 10:42合法限批11:16仅见同检索号一主表一续页，09:20是资料编目入录而非09:10—09:12现场交接；14:17询两页填写状态新申仅收件。原纸签字封口、2016旧书面回告在封及历史自然人实获答、F008/M004/M005均无确证，Day195旧件及沈家票不混源。
+meaningful_state_changes:
+  - "罗柯获合规限时借车真送一单并据实归还；有责撤本笔错误归责，工资差额及原车未解决。"
+  - "一辆危险备用车有责停用，不以紧刹线代真实修复。"
+  - "F003确认附页主表与续页两页的受控编目索引及09:20入录时间，未获实物交接签字。"
+knowledge_updates:
+  - "罗柯只知自己实际受限不能取原车且获得错误归责撤销，不知未来能否正常领车/补薪；夏宁不替配送企业判断责任。"
+  - "罗经办马芸只合法知主表续页页数与目录时间，仍不知实际互签与2016旧纸内容。"
+relationship_updates:
+  - "站长庞卓由旧绿格派班转向保留旧记录与有责核验，余可不擅自撤责；丁野借车善意被合规核验边界约束。"
+foreshadowing_updates:
+  - "F003从附页独立索引到同号主表续页两项编目，尚不证2019实交、封口或历史人真受答。"
+ending_state: "Day297 20:06罗柯真还合规借车，原车仍不能领、收入差额待核；F003新限项申请只收件。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "5ed67cb715718b04852a09da44a7cfbfced6c5d6", final_draft_sha: "5ed67cb715718b04852a09da44a7cfbfced6c5d6", reviews_this_cycle: 1, stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "29ebda7925bead80ab22f492ff3cdb64a1f5d06c", proposed_ready_blob: "a49e9c6e0e7a69441541a6403ca012cf88bec031"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2881

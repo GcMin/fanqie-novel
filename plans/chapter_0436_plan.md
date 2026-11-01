@@ -6,13 +6,13 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "9df93278c8a7eb62d762f072e32550fc749317f4"
 - depends_on_chapter: 435
-- depends_on_source_sha: "5ed67cb715718b04852a09da44a7cfbfced6c5d6"
-- dependency_status: provisional
+- depends_on_source_sha: "a49e9c6e0e7a69441541a6403ca012cf88bec031"
+- dependency_status: verified_predecessor_body_identical
 - continuity_precheck: writer_precheck_only_not_qa
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-11-01"
+- publish_mode: ready
 - timeframe: "Day297 20:27—Day298 20:07"
 - pov: "阮映、赵姨、夏宁、周衡、梁策；罗经办、马芸"
 - target_effective_chars: 3000
@@ -39,3 +39,7 @@
 - 实际published含0153，第435章为最高数码章且仅在draft，首次新建0436的章纲与草稿。前章原始Blob SHA 5ed67cb715718b04852a09da44a7cfbfced6c5d6，仅以 `provisional` 承接：确定的前章文本事实只作为特定未审版本的临时连续性参考，不当正式Canon；若独立Audit改435须校验436。
 - 本章独立新案不改变435的罗柯原车未交、工作收入待查等临时事实；不新增F008可靠本人记忆反证，不提前确证M004/M005，F009/F010/F011保持resolved。2019附页的目录标记不等于2019两人真实互签、原封未开或2016回告在封，更不等于历史自然人实收答。Day195带旧字窄片、另两拆件与沈家私人票仍分源。
 - 意义变化：阮映真正收到可读文字并亲自回答，赵姨取得合法可推路线，原坡道于次日有权复开；本次文字服务不再把自动分派称为人工回复。Writer只创首次新章及章纲，`draft/pending/null/draft`，不执行Reader/Revision/QA/Memory/Publish。
+
+## Audit Final
+- 原草稿 `82b9da2707acc7657faed7d1d28262c8499b9988` Reader 0/1/2，Stage A仅重绑第435章正式ready SHA，正文逐字不变。新草稿 `89b05be1ed126d01373207268f9d3bd1be2aad1f` 独立Pass A/B结果0/0/2，`reader_reviews/0436_89b05be1.md`。
+- 前章435原draft与ready正文逐字一致，仅交付元数据变化。独立QA `qa/0436_report.md` PASS，拟ready `fc877f1a98af107f2de7723fd45eb674aa8d8bbf`，结构须精确Commit CI。

@@ -2956,3 +2956,35 @@ chapter_434_revision_final:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+
+chapter_435_revision_final:
+  chapter: 435
+  original_sha: "5ed67cb715718b04852a09da44a7cfbfced6c5d6"
+  final_sha: "5ed67cb715718b04852a09da44a7cfbfced6c5d6"
+  final_review: reader_reviews/0435_5ed67cb7.md
+  initial_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "29ebda7925bead80ab22f492ff3cdb64a1f5d06c"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_436_revision_final:
+  chapter: 436
+  original_sha: "82b9da2707acc7657faed7d1d28262c8499b9988"
+  final_sha: "89b05be1ed126d01373207268f9d3bd1be2aad1f"
+  initial_review: reader_reviews/0436_82b9da27.md
+  final_review: reader_reviews/0436_89b05be1.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  predecessor_original_draft_sha: "5ed67cb715718b04852a09da44a7cfbfced6c5d6"
+  predecessor_ready_blob: "a49e9c6e0e7a69441541a6403ca012cf88bec031"
+  factual_delta: "435旧草稿与正式ready小说正文完全相同，只变更交付元数据"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
