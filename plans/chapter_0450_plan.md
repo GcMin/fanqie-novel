@@ -9,10 +9,10 @@
 - depends_on_source_sha: "8da01a362e815a42f294201da0842be0dcce02a6"
 - dependency_status: verified_exact_ready_blob
 - continuity_precheck: writer_precheck_only_not_qa
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-11-02"
+- publish_mode: ready
 - timeframe: "Day311 20:26—Day312 20:11"
 - pov: "方荞贴近第三人称，夏宁、周衡、梁策和街道救助协作点岗位；罗经办与马芸"
 - target_effective_chars: 3000
@@ -44,3 +44,10 @@
 - 发布/ready/draft三目录最大章号449，第153章已在published，450章正文与章纲先前均不存在。直接前章449为ready Blob 8da01a362e815a42f294201da0842be0dcce02a6，依赖为verified_exact_ready_blob，非provisional。
 - Day311第449章照片安全展出十一件、一件破框未修，终止于20:03；第450章从20:26的独立案切入，不擅自宣称展品修好、损坏责任已定。中心外包人员不越街道救助点及动物医疗职责；F003只有限索引权限，不推历史双签、封口、回告或M004/M005。
 - 小说正文有效字符3716（去空白与Front Matter，含标点，保留场景分隔符）。本轮只创建详细章纲及首稿，不作Reader、Editor、Revision、QA、Memory或Publish。
+
+## 唯一 Audit 复核与放行记录｜2026-11-02
+- 原始draft blob：`fbbb374da4fe0281b69815b2b6a95a5b7855e124`，Reader Pass A/B 初审0 BLOCKER / 1 MAJOR / 2 MINOR；唯一MAJOR为F003小说叙述中出现“第449章”的元叙事。
+- Stage A只把该句改成“前一日下午十四点零二分提交的申请”；剧情、人物、真实事件和F003权限无变化，新draft blob：`00ebd3edb8064812c676312929c80e06007dd211`。
+- 新 SHA Reader 重新独立Pass A/B：0 BLOCKER / 0 MAJOR / 2 MINOR；`reader_reviews/0450_00ebd3ed.md`。
+- 独立Continuity / Style / Meaningful QA：PASS；`qa/0450_report.md`；前449 ready blob `8da01a362e815a42f294201da0842be0dcce02a6`精确匹配，3716有效字，处于硬字数区间。
+- 预期ready blob：`49f7e1f46cef95a29a533b6e3c28abe75ed27929`。最终结构放行仅以针对精确候选提交的CI SUCCESS为证，不把本计划中的预检替代正式验证。

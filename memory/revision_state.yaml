@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 449
-current_stage: audit_0449_candidate_requires_exact_ci
-current_source_path: chapters/draft/0449.md
-current_source_sha: d41fdf247e5dfe985fa95d21742c84e937b5b146
-current_review_path: reader_reviews/0449_d41fdf24.md
+current_chapter: 450
+current_stage: audit_0450_candidate_requires_exact_ci
+current_source_path: chapters/draft/0450.md
+current_source_sha: 00ebd3edb8064812c676312929c80e06007dd211
+current_review_path: reader_reviews/0450_00ebd3ed.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0449_candidate_requires_exact_ci
-last_action_date: "2026-11-01"
+last_action: audit_0450_candidate_requires_exact_ci
+last_action_date: "2026-11-02"
 last_error: null
-last_diff_summary: "第449章初审0/1/2，Stage A对照448初稿与正式ready两处事实差异，只重绑前章正式SHA，小说正文未改；新SHA复审0/0/2，内容QA PASS；待精确候选CI"
+last_diff_summary: "第450章正文仅局部删除第449章元叙事字样；新SHA重新双遍Reader0/0/2，内容QA PASS，等待精确候选CI"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -3199,5 +3199,21 @@ chapter_449_revision:
   predecessor_original_draft_sha: "8f67abfb1f799f999caa06d5580ed3319ac5c458"
   predecessor_ready_blob: "2af1612cf50972cf570ad8aa25f9219cba61f1c1"
   dependency_status: verified_predecessor_factual_delta_checked
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_450_revision:
+  original_source_sha: "fbbb374da4fe0281b69815b2b6a95a5b7855e124"
+  first_review: "reader_reviews/0450_fbbb374d.md"
+  final_source_sha: "00ebd3edb8064812c676312929c80e06007dd211"
+  final_review: "reader_reviews/0450_00ebd3ed.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 1
+  correction: "删除小说F003档案段中第449章元叙事并改为前一日下午14:02实际申请；无其他剧情事实变化"
+  predecessor_ready_blob: "8da01a362e815a42f294201da0842be0dcce02a6"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
