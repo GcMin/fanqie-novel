@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 451
-current_stage: ready_0451_exact_ci_verified
-current_source_path: chapters/ready/0451.md
-current_source_sha: 17e12cc3557e4f75160ff43cf6b3854722f301e6
-current_review_path: reader_reviews/0451_17e12cc3.md
+current_chapter: 453
+current_stage: content_qa_pass_pending_structural_ci
+current_source_path: chapters/draft/0453.md
+current_source_sha: 5c7860d5a8f4e8fb5b8ee3bd638b08b92321da96
+current_review_path: reader_reviews/0453_5c7860d5.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: ready_0451_exact_ci_verified
+last_action: content_qa_pass_pending_structural_ci
 last_action_date: "2026-11-02"
 last_error: null
-last_diff_summary: "第451章唯一MAJOR为450旧provisional依赖；对照450旧稿与正式ready仅F003元叙事修正且无剧情事实变化，451 Stage A仅重绑FM和详纲，正文不改，新SHA Reader0/0/2，内容QA PASS，待精确CI"
+last_diff_summary: "第453章Reader双遍0/0/2、无须修正文；452正式ready依赖精确，QA更正章纲Day315 20:12系到场而非签离，正文无修改；候选精确CI待确认"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -3263,6 +3263,22 @@ chapter_452_revision:
   body_revisions: 0
   correction: "无需修订；仅记录Reader两项MINOR，不触发正文改写"
   predecessor_ready_blob: "3113a9421e4d3481354145986084f1ff285feb7f"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_453_revision:
+  original_source_sha: "5c7860d5a8f4e8fb5b8ee3bd638b08b92321da96"
+  first_review: "reader_reviews/0453_5c7860d5.md"
+  final_source_sha: "5c7860d5a8f4e8fb5b8ee3bd638b08b92321da96"
+  final_review: "reader_reviews/0453_5c7860d5.md"
+  initial_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  correction: "正文无改；QA仅纠正章纲20:12应为再入画室而不是当时离开"
+  predecessor_ready_blob: "954343875e5eab408fc80077c44501b40d337b20"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

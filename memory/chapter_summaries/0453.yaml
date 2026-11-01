@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 453
+title: "签退栏已经绿了，孩子还坐在教室里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "5c7860d5a8f4e8fb5b8ee3bd638b08b92321da96"
+reader_review: "reader_reviews/0453_5c7860d5.md"
+depends_on_chapter: 452
+depends_on_source_sha: "954343875e5eab408fc80077c44501b40d337b20"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day314 20:38—Day315 20:30后"
+summary: >-
+  Day314 20:38锦桃社区公益美术课结束，任知遥已实际核十人亲签，却见林小杏仍在画室而系统称十一名全部签退。20:41楼宇自动建议清场，吴岭联系有权夜岗批准合法限时留人、持续成人照看且安全出入口不锁；20:51夏宁受报后要求保留电子错推及纸本空栏，不将儿童信息入公开协作群。姨妈与母亲同事均无本次代领授权。21:07林曼从后厨回电，经核身份与孩子通话确认安全；21:26到一楼、21:32本人在原空栏签真实时间并领走孩子，21:47只证母女离开建筑而非到家。Day315 10:12有责主管/平台核出“老师课次结束”被近期汇总接口错映成“所有学生已被家长接领”，只本中心暂停自动错误接领推送、由真人核交接，别的班次和系统正式修复仍待查。Day315 20:12小杏再次来到画室，课后母亲再次亲签，小杏给原画补上门内守候的任老师。F003承Day314 14:16窄申请，Day315上午仅获形式受理，未开放2019目标封号与2022目录拍摄子项的非身份关联字段或图像，2019双方实签封口/2016旧信在封和历史本人真正受答未证；Day195旧片及两拆物和沈家私人票分源，F008/M004/M005未确认。
+meaningful_state_changes:
+  - "从20:38电子假全部接领且儿童实际留场，转为21:32本人真实签领；次日本中心限项停错误推送，原错误日志仍保留。"
+  - "孩子通过把任老师补进四人图表达昨夜真实被照看，次日课后母亲再按人签字。"
+  - "F003 Day315仅新增前日14:16最小申请形式受理，不得提升为看到档案关联值或旧年签封的事实。"
+knowledge_updates:
+  - "任知遥、吴岭、林曼只掌握本场现场人数/签领与本中心已停错通知，不知其他班次是否同样误映；林小杏只知任老师守候、妈妈21:32真实来到。"
+  - "夏宁周衡梁策有源核安全和授权，不代教师签领，不把楼宇“无人”自动状态当儿童已离开；档案组罗经办马芸未获得限制字段或2019/2016历史定论。"
+relationship_updates:
+  - "林曼从看到自相矛盾的自动通知到与女儿本人通话、亲签并要求保留旧错证据；任知遥的现场照看获得孩子画中具体呈现。"
+  - "夜间中心与活动中心只完成本案有责协调，无超出本中心单次业务的永久治理承诺。"
+foreshadowing_updates:
+  - "F003 Day315形式受理Day314 14:16新窄申，不得假定2019同号封件与2022照片子项相连；F008/M004/M005没有新证。"
+ending_state: "Day315晚20:12孩子回到画室并于课后由母亲再真签领走；本中心错误自动接领通知已有限停用，其他班次与正式修复待核；档案仍无2019签封及2016实际回告证据。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "5c7860d5a8f4e8fb5b8ee3bd638b08b92321da96", final_draft_sha: "5c7860d5a8f4e8fb5b8ee3bd638b08b92321da96", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "954343875e5eab408fc80077c44501b40d337b20"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2616
