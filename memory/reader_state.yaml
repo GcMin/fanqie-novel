@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 434
-last_reviewed_title: "警报复位了，车还锁在棚里"
-last_source_path: chapters/draft/0434.md
-last_source_sha: f19171b6f53c5b307f096f28f8a13aff544d7e5e
-last_review_path: reader_reviews/0434_f19171b6.md
+last_reviewed_chapter: 438
+last_reviewed_title: "窗外有人敲铁，路面上却没有人"
+last_source_path: chapters/draft/0438.md
+last_source_sha: 464e9da6740727130ae63e2c6fd3f5a9c4e2168c
+last_review_path: reader_reviews/0438_464e9da6.md
 last_reviewed_at: "2026-11-01"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 433
-depends_on_source_sha: 2367351d3c36c406ae06435b8c98f83c70f77901
+depends_on_chapter: 437
+depends_on_source_sha: fef4059aef61a406cacbb0146c864a2862777a94
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 2367351d3c36c406ae06435b8c98f83c70f77901
+predecessor_current_source_sha: fef4059aef61a406cacbb0146c864a2862777a94
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -3528,6 +3528,26 @@ chapter_437_audit_final:
   independent_pass_a_then_b: true
   reviews_this_cycle: 1
   predecessor_ready_blob: "fc877f1a98af107f2de7723fd45eb674aa8d8bbf"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_438_audit_final:
+  chapter: 438
+  title: "窗外有人敲铁，路面上却没有人"
+  original_sha: "7872ac0e6920b2889073aae434f1d38ec48592c0"
+  source_sha: "464e9da6740727130ae63e2c6fd3f5a9c4e2168c"
+  initial_review: "reader_reviews/0438_7872ac0e.md"
+  final_review: "reader_reviews/0438_464e9da6.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 1
+  factual_change: "Day299 21:42送货约定21:30已过，台词由不能保证准点修为确认迟到"
+  predecessor_ready_blob: "fef4059aef61a406cacbb0146c864a2862777a94"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

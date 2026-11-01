@@ -9,10 +9,10 @@
 - depends_on_source_sha: "fef4059aef61a406cacbb0146c864a2862777a94"
 - dependency_status: verified_exact_ready_blob
 - continuity_precheck: writer_precheck_only_not_qa
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-11-01"
+- publish_mode: ready
 - timeframe: "Day299 20:42—Day300 20:07"
 - pov: "康素云、孙女阿悦、周衡、梁策、夏宁；吴杉；罗经办、马芸"
 - target_effective_chars: 3000
@@ -41,3 +41,10 @@
 - F003 Day299 11:13只有数字化目录标签的后录性质，14:11申请未获准；Day300仅新增合法字段来源类别知识，不证2019当面实物互签、封签完整、2016原书面回告位于同封或当年自然人真的收到答复。Day195旧字窄片、另两拆件与沈家私人票各自分源；F008无可靠记忆反证，M004/M005尚未证实，F009/F010/F011已resolved。
 - 人物权限：中心只做联系、观察与记录，不擅封车道或维修；现场隔离和开放由道路有权岗位批准，专业维护只确认本井盖限定设备状态；向居民回访不能替代专业许可或个人满意。
 - Writer仅新增本章纲和首稿，暂存draft/pending/null/draft；Reader、Revision、QA、Memory、Publish Gate由唯一独立Audit处理。
+
+## 唯一 Audit 第438章真实审核与放行核证｜2026-11-01
+- 原始草稿 Git blob `7872ac0e6920b2889073aae434f1d38ec48592c0`，独立 Reader Pass A 后 Pass B 初审0 BLOCKER / 1 MAJOR / 2 MINOR；唯一 MAJOR 是Day299 21:42之后台词仍说“不能保证九点半前到”，尽管原约21:30已经过去。
+- Stage A仅将该句改为“说好的九点半已经过了”，保留老板安全等待、22:06合法分流和22:19真核收两箱、未倒填迟送。新草稿Blob `464e9da6740727130ae63e2c6fd3f5a9c4e2168c`，小说正文仅局部一处修订；对新SHA再独立进行完整 Reader Pass A/B，最终0/0/2，旧Review不得用于放行。
+- 独立 Continuity/Style/Meaningful QA PASS，有效3514字；FM依赖437正式ready `fef4059aef61a406cacbb0146c864a2862777a94` 精确一致、无provisional事实差异。Day299右侧井盖有责隔离与Day300专业维修、有责本段复开分层；F003只核后期数字化目录字段来源，不证旧纸互签封口及旧人真受答。
+- Reader：`reader_reviews/0438_7872ac0e.md`、`reader_reviews/0438_464e9da6.md`；QA：`qa/0438_report.md`；Memory与计划已依据当前正文同步。
+- status: ready（**仅在精确候选提交结构CI成功且以expected_sha、force:false成功更新main后才实际生效**）；qa: pass；无平台发布。

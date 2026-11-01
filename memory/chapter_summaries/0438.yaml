@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 438
+title: "窗外有人敲铁，路面上却没有人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "7872ac0e6920b2889073aae434f1d38ec48592c0"
+source_draft_sha: "464e9da6740727130ae63e2c6fd3f5a9c4e2168c"
+initial_review: "reader_reviews/0438_7872ac0e.md"
+reader_review: "reader_reviews/0438_464e9da6.md"
+depends_on_chapter: 437
+depends_on_source_sha: "fef4059aef61a406cacbb0146c864a2862777a94"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day299 20:42—Day300 20:07"
+summary: >-
+  Day299 20:42九禾路18号康素云听楼下车过敲铁声，物业先误分装修，20:54夏宁保留原话与录音并转道路险情；21:13周衡梁策从公共护栏内看到车辆使右侧井盖边缘抬动；21:42道路管理岗批准仅右侧受影响车道硬隔离；吴杉送两箱纸盒已错过21:30原时点，22:06依有责分流指引绕行，22:19面包房老板本人核收，迟送未倒填。Day300 09:24专业发现井框弹性垫损坏及承托异常，10:48限定修复11:36完成维修记录，12:08有权只批准本车道复开；14:15只本笔错分装修标签留源纠正，通类规则仍待核。康素云20:07只确认当日无响、阿悦补完桥字，不宣称长期安全。F003承437 Day299 14:11来源申请仅收，Day300窄批后11:08只见2019交运附页后期数字化字段说明：主表有填写记录是页项外观编目勾选、续页待核对应编目质量复核任务未完；14:03再申请原纸外观非身份可开放字段仅收，不证2019原字/双方实交/封口、2016旧回告是否在封或历史自然人真获答。Day195旧片两旧拆物及沈家私人票分源，F008/M004/M005未证。
+meaningful_state_changes:
+  - "居民随车异响被正确识别为道路实体风险，21:42正式隔离，Day300 12:08本段经修复和道路复核后才获准开放。"
+  - "吴杉接受真实迟送并按获准路线22:19本人真交货，本笔物业与自动装修误分类留源有限更正。"
+  - "F003从后录标签批次推进到合法获知外观勾选/质量任务字段来源，但未获2019原件签认。"
+knowledge_updates:
+  - "夏宁/周衡/梁策只知现场井盖随车抬动和之后专业限定修复与道路复开，不定事故起因/全部道路安全；康素云只凭自己当日观察反馈。"
+  - "罗经办马芸仅因新窄批知道编目字段产生机制，2019互签/封口、2016旧纸/原自然人获答仍未证。"
+relationship_updates:
+  - "康素云坚持居民声音不被装修误报抹掉并保护阿悦录音；吴杉与面包房老板接受真实延时且拒冒险穿施工缺口，未建立超出本案的长期关系。"
+foreshadowing_updates:
+  - "F003 Day300 11:08仅字段生成类别可见，14:03再申仅收；不推旧人答复或M004/M005；F008无新增。"
+ending_state: "Day300 20:07九禾路本段已由有责复开且当日无再响，别处安全、井盖长期状况和原因历史未证；F003下一笔窄查申请仅受理。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7872ac0e6920b2889073aae434f1d38ec48592c0", final_draft_sha: "464e9da6740727130ae63e2c6fd3f5a9c4e2168c", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, change: "21:42后已经错过21:30原送达时点，改成说好的九点半已经过了", predecessor_ready_blob: "fef4059aef61a406cacbb0146c864a2862777a94"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3514

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 434
+last_updated_chapter: 438
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1776,4 +1776,12 @@ chapter_437_relationship_verified:
   street_official_and_stallholder: "谢工承认原三号位纸面有效且管理底图欠实勘，留下本晚临时调整记录；次日书面更正不以摊主自主占压了结。"
   core_team: "夏宁周衡梁策守调度和公共侧核查边界，道路/街道/设施维保各自留可证签认，无跨岗授权。"
   archive: "罗经办和马芸对数字化目录标签达成证据边界，未将后录标签冒充2019签字/2016旧回告。"
+  trust_scores_unchanged: true
+chapter_438_relationship_verified:
+  chapter: 438
+  source_sha: "464e9da6740727130ae63e2c6fd3f5a9c4e2168c"
+  resident_and_services: "康素云因最初被误认装修噪声而坚持提供车辆通过的真实声响观察；夏宁保留原话和孩子录音使用边界，专业道路岗位以现场证据做有限处置，未把她写成长期满意。"
+  rider_and_employer: "吴杉明确21:30约定已逾时，面包房老板同意等正式引导、不要求冒险近路，22:19本人真收两箱，建立本次实际迟送与交付记录，不新增长期信任值。"
+  core_team: "周衡梁策夏宁仍是安全公共侧核查及联动，养护和道路管理各守限定专业确认与复开权限。"
+  archive: "罗经办马芸共同守后期编目字段与原始2019实交两层证据，未借目录标记扩展档案查阅权限。"
   trust_scores_unchanged: true
