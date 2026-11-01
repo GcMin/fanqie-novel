@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 445
-last_reviewed_title: "按了求助键，却没人真的接听"
-last_source_path: chapters/draft/0445.md
-last_source_sha: 2d4b9c27d0e51fc575ecafd4ccdb40d6c69a27a5
-last_review_path: reader_reviews/0445_2d4b9c27.md
+last_reviewed_chapter: 446
+last_reviewed_title: "泵房的灯亮着，台阶还在进水"
+last_source_path: chapters/draft/0446.md
+last_source_sha: d35a249f99bb958cc758c808f05b0f3578550720
+last_review_path: reader_reviews/0446_d35a249f.md
 last_reviewed_at: "2026-11-01"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 444
-depends_on_source_sha: 02981f2f0d7dcd38dfffc93a5bfee67a1b43d59b
-dependency_status: verified_predecessor_factual_delta_checked
-predecessor_current_source_sha: 02981f2f0d7dcd38dfffc93a5bfee67a1b43d59b
+depends_on_chapter: 445
+depends_on_source_sha: b4ccbb17dfb4941031cae1691e3794ef0cd5b16b
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: b4ccbb17dfb4941031cae1691e3794ef0cd5b16b
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -3695,5 +3695,24 @@ chapter_445_review:
   predecessor_ready_blob: "02981f2f0d7dcd38dfffc93a5bfee67a1b43d59b"
   predecessor_factual_delta: "444正式修复乔莉旧电话为二零二房东号码、现场和次日叙述一致，445公厕新案和2021母图旧证据不受影响"
   dependency_status: verified_predecessor_factual_delta_checked
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_446_review:
+  chapter: 446
+  title: "泵房的灯亮着，台阶还在进水"
+  original_source_sha: "d35a249f99bb958cc758c808f05b0f3578550720"
+  source_sha: "d35a249f99bb958cc758c808f05b0f3578550720"
+  review_path: "reader_reviews/0446_d35a249f.md"
+  reviewed_at: "2026-11-01"
+  initial_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  reviews_this_cycle: 1
+  local_revision_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "b4ccbb17dfb4941031cae1691e3794ef0cd5b16b"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

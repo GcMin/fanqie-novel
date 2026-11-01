@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 445
+last_updated_chapter: 446
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1838,4 +1838,12 @@ chapter_445_relationship_verified:
   zhu_hesheng_facility: "认可XY-04现在能接真人值班但故障门仍停用和其它设备待查，拒签虚假满意。"
   core_team: "夏宁周衡梁策维持现有安全侧核证与分源联动合作，不更改三人关系评分。"
   archive: "罗经办马芸依法最小查2021旧母图来源，不使母图可见蓝痕成为2019双方签封断言。"
+  trust_scores_unchanged: true
+chapter_446_relationship_verified:
+  chapter: 446
+  source_sha: "d35a249f99bb958cc758c808f05b0f3578550720"
+  pang_yin_and_xu_bai: "庞茵真实迟送、许柏同意稍等并22:04实收，双方不虚构21:30准点，也不预签顾客取件和维修费结算。"
+  pang_yin_and_student: "庞茵阻止孩子踩水并告知实际可走的地面绕路，孩子次日记住路线；短暂互助未形成超过本案的长期关系。"
+  core_team: "夏宁周衡梁策保持有源联动与安全侧核证合作，现有关系评分不变。"
+  archive: "罗经办马芸共同遵守2021母图范围说明，不因未覆盖外封正面便推断其历史封口状态。"
   trust_scores_unchanged: true

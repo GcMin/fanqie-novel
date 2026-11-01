@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 445
-current_stage: audit_0445_candidate_requires_exact_ci
-current_source_path: chapters/draft/0445.md
-current_source_sha: 2d4b9c27d0e51fc575ecafd4ccdb40d6c69a27a5
-current_review_path: reader_reviews/0445_2d4b9c27.md
+current_chapter: 446
+current_stage: audit_0446_candidate_requires_exact_ci
+current_source_path: chapters/draft/0446.md
+current_source_sha: d35a249f99bb958cc758c808f05b0f3578550720
+current_review_path: reader_reviews/0446_d35a249f.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0445_candidate_requires_exact_ci
+last_action: audit_0446_candidate_requires_exact_ci
 last_action_date: "2026-11-01"
 last_error: null
-last_diff_summary: "445仅FM及章纲重绑444正式ready并核实444房东旧联系人局部修订不影响445新案及F003，正文零改；按publisher字数修正3453；新SHA双遍Reader 0/0/2 QA内容PASS"
+last_diff_summary: "446依赖445正式ready SHA精确匹配，Reader独立Pass A/B 0/0/2无修订，正文零改且Continuity/Style/Meaningful内容QA PASS；结构CI待精确候选版本"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 2d4b9c27d0e51fc575ecafd4ccdb40d6c69a27a5
+current_review_source_sha: d35a249f99bb958cc758c808f05b0f3578550720
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -3134,5 +3134,21 @@ chapter_445_revision:
   predecessor_original_draft_sha: "d57ea381cff9a34e5b99da939f33d97fac32f019"
   predecessor_ready_blob: "02981f2f0d7dcd38dfffc93a5bfee67a1b43d59b"
   dependency_status: verified_predecessor_factual_delta_checked
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_446_revision:
+  original_source_sha: "d35a249f99bb958cc758c808f05b0f3578550720"
+  first_review: "reader_reviews/0446_d35a249f.md"
+  final_source_sha: "d35a249f99bb958cc758c808f05b0f3578550720"
+  final_review: "reader_reviews/0446_d35a249f.md"
+  initial_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  correction: "无强制修订；与第445章正式ready SHA依赖精确匹配"
+  predecessor_ready_blob: "b4ccbb17dfb4941031cae1691e3794ef0cd5b16b"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

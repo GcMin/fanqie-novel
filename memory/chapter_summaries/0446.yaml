@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 446
+title: "泵房的灯亮着，台阶还在进水"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "d35a249f99bb958cc758c808f05b0f3578550720"
+reader_review: "reader_reviews/0446_d35a249f.md"
+depends_on_chapter: 445
+depends_on_source_sha: "b4ccbb17dfb4941031cae1691e3794ef0cd5b16b"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day307 20:38—Day308 20:08"
+summary: >-
+  Day307 20:38庞茵在泾柳路人行地道见泵绿运行灯亮而黄线积水上涨，阻蓝校服孩子涉水；20:49夏宁收报、21:03道路有责两端硬封，21:11监控盲角交专业再核。21:18—21:31道路岗实际核北侧合法信控地面绕行，21:40孩子到公交二号站牌而未证母亲接走；21:48排水与电气专业安全核运行压力，22:17受控临时抽排，22:49水位有限回落但不解除隔离。庞茵放弃21:30约定，22:04绕到许柏店亲交两修伞，老板记真实迟送且不预签维修费/客户取件。Day308 09:27专业查一号泵出水止回阀卡纤维细砂，11:46限项维修、12:18两泵试验后电气道路分别实查，13:09主管只批准本地道恢复行人通行，上游管网淤积未结；20:08庞茵见正式公告，孩子记住地面路。F003 Day308合法仅查2021旧母图拍摄范围为交运附页背面非身份局部不包括外封正面，未证2019两方真实签封、2016旧回告在封及旧报事人真受答，Day195窄片另两拆物沈家私票分源，F008/M004/M005无新证。
+meaningful_state_changes:
+  - "Day307两端硬封积水地道，Day308有责限项维修试验与电气道路复核后13:09正式仅本地道复开。"
+  - "庞茵拦孩子改走合法地面路，22:04两把伞真正交杂货铺，迟交/未结算保留。"
+  - "F003新见2021照片范围仅背面非身份局部，正面封签及旧历史收答仍未证。"
+knowledge_updates:
+  - "中心仅据有责现场和专业分项记录知本地道处置，不把绿灯、降水位或监控盲角当全面安全证据。"
+  - "档案组仅合法核母图覆盖范围，不知外封正面是否另有拍摄，更不知2019签封和2016真人回告。"
+relationship_updates:
+  - "庞茵与许柏协商真实迟到，老板收伞不代顾客签收结算；庞茵帮助孩子选择安全路但不代确认家属接走。"
+foreshadowing_updates:
+  - "F003 Day308拍摄覆盖范围收窄，其他影像须另申请；2019互签封口及2016回告在封和真实答复仍未证。"
+ending_state: "Day308 20:08泾柳路地道获权复开，修伞真实迟交但收费与客人实领仍待；F003历史签封和回告未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d35a249f99bb958cc758c808f05b0f3578550720", final_draft_sha: "d35a249f99bb958cc758c808f05b0f3578550720", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "b4ccbb17dfb4941031cae1691e3794ef0cd5b16b"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3228
