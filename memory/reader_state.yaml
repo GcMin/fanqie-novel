@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 444
-last_reviewed_title: "七户都收到通知，二楼却没人知道"
-last_source_path: chapters/draft/0444.md
-last_source_sha: 67a1888572167dabba45ac662dc4802e8f3b5036
-last_review_path: reader_reviews/0444_67a18885.md
+last_reviewed_chapter: 445
+last_reviewed_title: "按了求助键，却没人真的接听"
+last_source_path: chapters/draft/0445.md
+last_source_sha: 2d4b9c27d0e51fc575ecafd4ccdb40d6c69a27a5
+last_review_path: reader_reviews/0445_2d4b9c27.md
 last_reviewed_at: "2026-11-01"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 443
-depends_on_source_sha: b96e4413cc427e3843f6a290808321025eeb37ae
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: b96e4413cc427e3843f6a290808321025eeb37ae
+depends_on_chapter: 444
+depends_on_source_sha: 02981f2f0d7dcd38dfffc93a5bfee67a1b43d59b
+dependency_status: verified_predecessor_factual_delta_checked
+predecessor_current_source_sha: 02981f2f0d7dcd38dfffc93a5bfee67a1b43d59b
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -3672,5 +3672,28 @@ chapter_444_review:
   correction: "乔莉四年前留下二零二房东手机号码的联系人来源与全章现场/次日解释同步"
   predecessor_ready_blob: "b96e4413cc427e3843f6a290808321025eeb37ae"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_445_review:
+  chapter: 445
+  title: "按了求助键，却没人真的接听"
+  original_source_sha: "78db8dc04a3655d1e65d854e878a6cc0be268d50"
+  original_review: "reader_reviews/0445_78db8dc0.md"
+  source_sha: "2d4b9c27d0e51fc575ecafd4ccdb40d6c69a27a5"
+  review_path: "reader_reviews/0445_2d4b9c27.md"
+  reviewed_at: "2026-11-01"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 0
+  correction: "445仅重绑444正式ready且核第444章房东旧联系人修订与445独立公厕案/F003无冲突；字数按publisher去空白计3453"
+  predecessor_original_draft_sha: "d57ea381cff9a34e5b99da939f33d97fac32f019"
+  predecessor_ready_blob: "02981f2f0d7dcd38dfffc93a5bfee67a1b43d59b"
+  predecessor_factual_delta: "444正式修复乔莉旧电话为二零二房东号码、现场和次日叙述一致，445公厕新案和2021母图旧证据不受影响"
+  dependency_status: verified_predecessor_factual_delta_checked
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

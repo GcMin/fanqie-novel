@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 444
+last_updated_chapter: 445
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1830,4 +1830,12 @@ chapter_444_relationship_verified:
   old_contact: "二零二房东过去手机号被乔莉四年前登记，房东接听不代表现住户丁穗授权或得知。"
   core_team: "夏宁周衡梁策维持现有调度与证据协作，不改变三人关系评分。"
   archive: "罗经办马芸遵守2021局部影像限阅权限，不代鉴历史签字时间。"
+  trust_scores_unchanged: true
+chapter_445_relationship_verified:
+  chapter: 445
+  source_sha: "2d4b9c27d0e51fc575ecafd4ccdb40d6c69a27a5"
+  zhu_hesheng_and_son: "祝和生被困时保持冷静未强撞门，儿子祝明远通过夜间中心找到有责维修员、21:53真见父亲出来，两人保留原录音，亲子互动信任不被平台假已回复代替。"
+  zhu_hesheng_facility: "认可XY-04现在能接真人值班但故障门仍停用和其它设备待查，拒签虚假满意。"
+  core_team: "夏宁周衡梁策维持现有安全侧核证与分源联动合作，不更改三人关系评分。"
+  archive: "罗经办马芸依法最小查2021旧母图来源，不使母图可见蓝痕成为2019双方签封断言。"
   trust_scores_unchanged: true

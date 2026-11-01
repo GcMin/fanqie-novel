@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 444
-current_stage: audit_0444_candidate_requires_exact_ci
-current_source_path: chapters/draft/0444.md
-current_source_sha: 67a1888572167dabba45ac662dc4802e8f3b5036
-current_review_path: reader_reviews/0444_67a18885.md
+current_chapter: 445
+current_stage: audit_0445_candidate_requires_exact_ci
+current_source_path: chapters/draft/0445.md
+current_source_sha: 2d4b9c27d0e51fc575ecafd4ccdb40d6c69a27a5
+current_review_path: reader_reviews/0445_2d4b9c27.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0444_candidate_requires_exact_ci
+last_action: audit_0445_candidate_requires_exact_ci
 last_action_date: "2026-11-01"
 last_error: null
-last_diff_summary: "444 Stage A仅统一四年前乔莉留二零二房东联系电话与当夜误拨及Day306回核；新SHA Reader 0/0/2和内容QA PASS"
+last_diff_summary: "445仅FM及章纲重绑444正式ready并核实444房东旧联系人局部修订不影响445新案及F003，正文零改；按publisher字数修正3453；新SHA双遍Reader 0/0/2 QA内容PASS"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 67a1888572167dabba45ac662dc4802e8f3b5036
+current_review_source_sha: 2d4b9c27d0e51fc575ecafd4ccdb40d6c69a27a5
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -3117,5 +3117,22 @@ chapter_444_revision:
   correction: "旧租客乔莉留二零二房东手机号而接听者原未交代身份，Stage A统一首次拨号/物业回话/Day306旧联系来源"
   predecessor_ready_blob: "b96e4413cc427e3843f6a290808321025eeb37ae"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_445_revision:
+  original_source_sha: "78db8dc04a3655d1e65d854e878a6cc0be268d50"
+  first_review: "reader_reviews/0445_78db8dc0.md"
+  final_source_sha: "2d4b9c27d0e51fc575ecafd4ccdb40d6c69a27a5"
+  final_review: "reader_reviews/0445_2d4b9c27.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  correction: "原稿依赖444临时旧SHA；对比444旧稿和ready确定只改旧租客乔莉登记房东电话号码源链、445不同案不受影响，故重绑444正式ready并校正统计3453"
+  predecessor_original_draft_sha: "d57ea381cff9a34e5b99da939f33d97fac32f019"
+  predecessor_ready_blob: "02981f2f0d7dcd38dfffc93a5bfee67a1b43d59b"
+  dependency_status: verified_predecessor_factual_delta_checked
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

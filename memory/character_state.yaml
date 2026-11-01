@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 444
+last_updated_chapter: 445
 characters:
   zhou_heng:
     location: "Day238 20:05夜间中心仅有限获悉公开票簿识别号与第七摊位位置需分源"
@@ -2667,3 +2667,11 @@ chapter_444_character_verified:
   core_team: "夏宁周衡梁策只联动公共侧核险，不越权操作阀门或代七户签满意。"
   archive_team: "罗经办马芸依法只见2021年10月旧影像中同号非身份局部蓝痕，不证明2019签封或2016旧人受答。"
   continuity_invariants: "Day195旧件沈家票分源，F008/M004/M005均未得确认。"
+chapter_445_character_verified:
+  chapter: 445
+  source_sha: "2d4b9c27d0e51fc575ecafd4ccdb40d6c69a27a5"
+  zhu_hesheng: "Day306 20:49被困西榆路XY-04误获自动语音已回复，21:53由获权维修员真实开门脱困，Day307仅认可按钮真通人工但机械故障门仍停用，保留录音不假签满意。"
+  zhu_mingyuan: "21:02到现场核父亲仍能说话、21:14另找夜间中心真人渠道，不因假绿标闯门或冒险撬锁；21:53见父亲真出门，22:06本人只反馈到车旁。"
+  core_team: "夏宁周衡梁策区分20:49自动播报、21:53真人获救及Day307人工通话限项测试，不越权触电开锁或宣称所有同节点设备安全。"
+  archive_team: "罗经办马芸Day307合法见2021原拍摄作业登记与非身份局部母图短蓝痕，只证当次实拍母图可见，不推2019双方真实签封或2016自然人获答。"
+  invariants: "444二零二旧联系已改且本章无新交叉；F008/M004/M005均未确认，Day195旧件与沈家票分源。"

@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 445
+title: "按了求助键，却没人真的接听"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "78db8dc04a3655d1e65d854e878a6cc0be268d50"
+source_draft_sha: "2d4b9c27d0e51fc575ecafd4ccdb40d6c69a27a5"
+initial_review: "reader_reviews/0445_78db8dc0.md"
+reader_review: "reader_reviews/0445_2d4b9c27.md"
+depends_on_chapter: 444
+depends_on_source_sha: "02981f2f0d7dcd38dfffc93a5bfee67a1b43d59b"
+dependency_status: verified_predecessor_factual_delta_checked
+timeframe: "Day306 20:41—Day307 20:10"
+summary: >-
+  Day306 20:41夜间修鞋摊主祝和生在西榆路西口XY-04无障碍厕间因门锁卡滞被困，20:49按求助键却只有自动语音播放和误报“工作人员已回复”，未有真人接听。儿子祝明远21:02到现场、21:14向夏宁夜间中心求助，父亲自述无已知伤病但门打不开。平台XY-04仍指向2023年拆除的东广场旧亭，21:28派修员跑空；21:33周衡梁策安全侧核人不越权拆门，21:46有责主管及专业维修员到真正西口，21:53获权开门后祝和生真人脱困。旧绿格20:49至真正救出21:53相隔64分钟，故障门继续停用；22:06父子在公共交通站附近本人反馈，不代签到家。Day307 09:38设施单位分别核2023迁建后旧坐标未更新、自动语音播报成功被错映成人工已回复且真人值班席未收到求助；11:17只本号位正式限项整改，13:22停用条件下真实人工双向呼叫测试通过，机械锁未修毕门仍封，其他旧节点设备待查。20:10主管只确认XY-04按钮转人工、门未复用；祝和生保留原错录音，不给假满意。F003承444 Day306合法见2021年10月受限局部旧影像，Day307另经批准核对应旧拍摄作业登记和非身份母图，证蓝短痕确在2021原件整理现场照片母图中而非显示软件临时画上；不能推2019原字/双方签交封口/2016旧回告在封及历史真人受答。Day195旧窄片两拆件沈家私人票分源，F008/M004/M005不证。
+meaningful_state_changes:
+  - "祝和生Day306 21:53本人真正脱困，不将20:49自动语音绿格补成真人获救。"
+  - "Day307 XY-04按钮合法接入真实值班席并通过测试，但机械故障厕门仍有责停用、其它旧设施待逐一核。"
+  - "F003 2021年10月原拍摄作业记录和母图核实既存蓝痕可见，仍没有2019签交/2016回告真相。"
+knowledge_updates:
+  - "父子只知本人真获救、按钮当前一处真人转接测试成功，未知其它同类按钮/机械门全面安全；夜间中心不代签到家或宣称全市处理完毕。"
+  - "夏宁周衡梁策分开机械救人、资产位置、人工应答及复用许可；只现场安全侧核与有源调度。"
+  - "罗经办马芸在合法限项核到2021非身份旧照片登记及母图蓝痕，不获得签字/原纸被遮内容。"
+relationship_updates:
+  - "祝和生与儿子祝明远当晚互相保持联络并安全团聚，不把儿子盲目撬门当作救人方法。"
+  - "祝和生对物业及平台保留有边界不信任，认可真实接人却不认机械门已修好。"
+foreshadowing_updates:
+  - "F003升级影像出处可靠性，不提升纸本历史亲签、2016信在封和本人受答的证明强度；F008/M004/M005仍未知。"
+ending_state: "Day307 20:10西榆路XY-04自动求助按钮有真人值班答复测试但机械门继续停用，祝和生本人已脱险；其余设施待核，F003历史关键签交/回告仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "78db8dc04a3655d1e65d854e878a6cc0be268d50", final_draft_sha: "2d4b9c27d0e51fc575ecafd4ccdb40d6c69a27a5", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "d57ea381cff9a34e5b99da939f33d97fac32f019", predecessor_ready_blob: "02981f2f0d7dcd38dfffc93a5bfee67a1b43d59b", predecessor_factual_delta: "444旧租客联系号改为乔莉四年前留二零二房东电话而且同步现场/Day306回查，本章独立公厕事件及2021母图限阅不受影响"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3453

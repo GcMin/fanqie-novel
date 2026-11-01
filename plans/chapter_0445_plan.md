@@ -6,17 +6,17 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "536e4a749a3f3a7d4010bc60f74a32feaa9613c4"
 - depends_on_chapter: 444
-- depends_on_source_sha: "d57ea381cff9a34e5b99da939f33d97fac32f019"
-- dependency_status: provisional
+- depends_on_source_sha: "02981f2f0d7dcd38dfffc93a5bfee67a1b43d59b"
+- dependency_status: verified_predecessor_factual_delta_checked
 - continuity_precheck: writer_precheck_only_not_qa
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-11-01"
+- publish_mode: ready
 - timeframe: "Day306 20:41—Day307 20:10"
 - pov: "祝和生及儿子祝明远（贴近视角）、夏宁、周衡、梁策；罗经办与马芸"
 - target_effective_chars: 3000
-- actual_effective_chars: 3435
+- actual_effective_chars: 3453
 
 ## 目标与开场
 
@@ -45,4 +45,10 @@
 - F003截至444仅合法见2021-10同号2019纸本背面非身份影像有局部蓝痕，2024影像及Day304原纸斜光均不能证2019实际双方互签封口/2016旧书面回告在封、历史真人获答；本章不得扩展身份及原件阅看权限。Day195旧窄片、另两旧拆件、沈家私人票独立来源；F008无新增可靠记忆冲突、F009/F010/F011 resolved、M004/M005未确认。
 - 现存`outlines/volume_05.md`和`outlines/arcs/arc_current.md`为较早的第五卷/ARC-044缓存，而近期ready章节、记忆和chapter plan明确第六卷ARC-054；不虚构不存在的卷六独立大纲。
 - 已读取最新AGENTS/config/Writer角色/阅读协议、Bible/三名人物卡、现存卷与arc、人物知识关系/世界状态/伏笔时间线、最近十章摘要及最近五章完整正文；不读历史reader_reviews。
-- 仅新增445详细章纲与draft；正文有效字含标点去空白/分隔符计3435，在2300—3800硬限内，优选上限3400略超；不进行Editor/Reader/Revision/QA/Memory/Publish Gate及番茄发布。待独立Audit处理。
+- 仅新增445详细章纲与draft；正文有效字含标点去空白按仓库publisher规则计3453，在2300—3800硬限内，优选上限3400略超；不进行Editor/Reader/Revision/QA/Memory/Publish Gate及番茄发布。待独立Audit处理。
+
+## 唯一Audit审核修订（2026-11-01）
+
+- 原draft Blob `78db8dc04a3655d1e65d854e878a6cc0be268d50` Reader独立双遍0/1/2，唯一MAJOR：绑定444未审的provisional草稿SHA。已实际比较444原稿 `d57ea381cff9a34e5b99da939f33d97fac32f019`与正式ready `02981f2f0d7dcd38dfffc93a5bfee67a1b43d59b` 的**事实差异**仅乔莉旧电话实际系二零二房东号码且当夜/Day306对应核实，445西榆路独立设备案与F003母图均不涉及此身份。
+- Stage A只修本章Front Matter及本详纲的前章正式依赖，同时校正统计：Writer旧3435少算六段`***`分隔符共18字符，按publisher.normalized实际3453；小说正文逐字不改。新draft SHA `2d4b9c27d0e51fc575ecafd4ccdb40d6c69a27a5`。
+- 新SHA已独立重新Reader Pass A/B 0/0/2，独立Continuity/Style/Meaningful内容QA PASS：`reader_reviews/0445_2d4b9c27.md`、`qa/0445_report.md`。正式ready仅在精确候选Commit真实结构CI SUCCESS后，经expected_sha、force:false快进main。
