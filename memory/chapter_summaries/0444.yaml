@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 444
+title: "七户都收到通知，二楼却没人知道"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "d57ea381cff9a34e5b99da939f33d97fac32f019"
+source_draft_sha: "67a1888572167dabba45ac662dc4802e8f3b5036"
+initial_review: "reader_reviews/0444_d57ea381.md"
+reader_review: "reader_reviews/0444_67a18885.md"
+depends_on_chapter: 443
+depends_on_source_sha: "b96e4413cc427e3843f6a290808321025eeb37ae"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day305 20:26—Day306 20:12"
+summary: >-
+  Day305 20:26青禾巷16号二零二丁穗发现楼道公用立管漏水和七户全绿的已通知表；小陈现场重拨时旧联系人响在二零二房东手机，原系旧租客乔莉四年前登记时留下的房东电话，20:05接通并非现住户丁穗获告。20:34夏宁接报区分危险与通知，20:58周衡梁策安全侧核，21:02物业/专业限湿区，21:11受权专业仅关闭本立管；21:24管珏真正当面向丁穗说明停水并由本人按现时签收，旧错联留原表。22:06专业找出密封件破损及局部螺纹松动，22:52更换、23:17受控复压、23:39管珏据专业核准本立管限项恢复，丁穗亲见自家通水。Day306 09:42物业核旧租客联系人与平台呼叫接通错映现住户获知，10:58主管只本楼本次纠错而未联系其它住户仍待核；20:12丁穗只确认自家供水和楼道干。F003承443 Day305合法见2024-08-12旧影像相符蓝痕，本章Day306获窄批看2021年10月2019同号纸本背面非身份局部旧整理影像已有短蓝痕，只把可见时间锚点推前至2021，仍不证明2019原笔迹时间、双方实际签交封口、2016旧书面回告在封或历史自然人真实受答；Day195旧字窄片、两拆件及沈家私票仍分源，F008/M004/M005未确认。
+meaningful_state_changes:
+  - "丁穗21:24才本人真正获告，旧20:05电话绿格另留源；本立管21:11专业停供23:39有责恢复。"
+  - "Day306只青禾巷本楼联系表误映获得有责主管有限纠正，未联系者与其他楼栋继续待查。"
+  - "F003蓝痕可见影像时间锚点从2024提前至有源2021-10照片，不证明旧年实际互签。"
+knowledge_updates:
+  - "丁穗只知本户真实告知和恢复，无法替七户签全楼获知；二零二房东接听旧租客留号也不代表新住户授权。"
+  - "夏宁周衡梁策只据来源记录有责修供/告知，不操作阀门或代专业水质和其它住户签字。"
+  - "罗经办马芸只合法见2021局部影像，不能得知2019原写者/签封或2016历史真人受答。"
+relationship_updates:
+  - "丁穗与物业配合现实抢修但拒绝历史假通知，物业小陈承认误拨且管珏留源更正；不扩展长期信任。"
+foreshadowing_updates:
+  - "F003局部蓝痕旧影像锚点推进但2019/2016历史关键边界未解，F008/M004/M005未获新证。"
+ending_state: "Day306 20:12丁穗自家水正常且楼道干燥，她只为本户作证；其他未联系户和旧纸签封/历史真人答复仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d57ea381cff9a34e5b99da939f33d97fac32f019", final_draft_sha: "67a1888572167dabba45ac662dc4802e8f3b5036", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, change: "四年前旧租客乔莉留二零二房东电话的归属/现场接听者/Day306回查全部一致", predecessor_ready_blob: "b96e4413cc427e3843f6a290808321025eeb37ae"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3698

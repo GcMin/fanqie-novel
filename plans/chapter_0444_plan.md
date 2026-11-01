@@ -9,14 +9,14 @@
 - depends_on_source_sha: "b96e4413cc427e3843f6a290808321025eeb37ae"
 - dependency_status: verified_exact_ready_blob
 - continuity_precheck: writer_precheck_only_not_qa
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-11-01"
+- publish_mode: ready
 - timeframe: "Day305 20:26—Day306 20:12"
 - pov: "丁穗、夏宁、周衡、梁策、物业管珏/小陈；罗经办、马芸"
 - target_effective_chars: 3000
-- actual_effective_chars: 3662
+- actual_effective_chars: 3698
 
 ## 目标、开场与人物诉求
 
@@ -24,7 +24,7 @@
 
 ## 六个剧情 Beat
 
-1. **Day305 20:26—20:34** 丁穗见二楼立管漏水和七户“已通知”绿表，现场实际拨号响在四年前搬离的旧租客电话上；她向夜间中心询问谁真正通知过她。
+1. **Day305 20:26—20:34** 丁穗见二楼立管漏水和七户“已通知”绿表，现场重拨响在二零二房东手机——旧租客乔莉四年前登记了房东号；她向夜间中心询问谁真正通知过她。
 2. **20:34—21:11** 夏宁分开拨号接通、具体住户本人知道和真实危险；周衡梁策到公共侧，物业有责人员与专业班限制湿区并依法关闭仅本立管供水，不为等签名让漏水扩大。
 3. **21:24—23:39** 管珏对丁穗本人真实告知并记时；专业查破损密封件、受控更换与缓慢复压核实，23:39才准本立管有限复供；有人未联系到的状态保持未联系，不做虚假七户满意。
 4. **Day306 09:42—10:58** 查旧租客号码未交接及呼叫接通错误映为本人获悉，纠只本楼这次通知和可核现时联系资料；原错表、漏接与人工接触留来源。
@@ -39,4 +39,10 @@
 - F003承443 Day305只见2024-08-12既存局部蓝线，14:06更早影像申请仅收件；本章另设Day306有权窄批，2021影像能够看见同部位蓝痕，仍不能证2019实际笔迹/互签/封口、2016回告在外封或当年历史报事人真获答。Day195旧字窄片、另外两旧拆件、沈家私人票各自独立来源；F008无新增可靠个人记忆矛盾，F009/F010/F011已闭环，M004/M005未确认。
 - 当前GitHub仅有volume_01至volume_05卷纲及名为arc_current的历史ARC-044文字，虽最新正式ready章节为第六卷ARC-054，按新正式章节和最新Memory为依据，不虚构卷六专页。
 - 本章依照AGENTS/config/角色和阅读协议、必需Bible/人物卡/现存卷与arc、现行人物关系知识世界/时间线伏笔、最近十章摘要与最近五章ready全文生成；不读历史reader_reviews。
-- 只进行Planner、Continuity Precheck、Writer，正文3662有效字符（含标点，去Front Matter、空白、场景分隔符），不执行Editor/Reader/Revision/QA/Memory/Publish Gate或平台发布；待独立Audit审核。
+- 只进行Planner、Continuity Precheck、Writer，正文3698有效字符（含标点，去Front Matter、空白、场景分隔符），不执行Editor/Reader/Revision/QA/Memory/Publish Gate或平台发布；待独立Audit审核。
+
+## 唯一Audit追加证据｜2026-11-01
+
+- 初稿Git Blob `d57ea381cff9a34e5b99da939f33d97fac32f019` 首次Reader Pass A/B 0 BLOCKER/1 MAJOR/2 MINOR，唯一MAJOR为旧租客登记号码与现场接听者身份因果不明。Stage A局部修成二零二房东手机即乔莉四年前所留电话，连贯修正首场、物业当夜回话、Day306调查，没有修改专业修水时序或F003。
+- 新draft Git Blob `67a1888572167dabba45ac662dc4802e8f3b5036`，独立重新Reader Pass A/B 0/0/2；Continuity/Style/Meaningful QA PASS，3698有效字。唯一有效Reader为 `reader_reviews/0444_67a18885.md`，独立QA报告 `qa/0444_report.md`。
+- 前章443正式ready Blob `b96e4413cc427e3843f6a290808321025eeb37ae` 精确匹配。符合结构候选Commit真实CI SUCCESS时才将原draft删除并原子迁入ready；不修改既有ready计划、Canon或published。

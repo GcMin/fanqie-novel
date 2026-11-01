@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 443
+last_updated_chapter: 444
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1822,4 +1822,12 @@ chapter_443_relationship_verified:
   li_ya_and_pharmacy: "黎芽拒承认无门磁打开的20:36自助成功与旧满意度，韩药师22:37真实交药并提供正式药师渠道；方照与维护员各自合法核柜与停7格。"
   core_team: "夏宁周衡梁策只在有责门店、药师与维护各岗位间留源，不越权开启柜子、看受限处方或判断用药；未改变既有三人互信分值。"
   archive: "马芸罗经办从2024既存影像确认蓝线至多已可见，不借旧目录标记证明2019历史双方交运事实。"
+  trust_scores_unchanged: true
+chapter_444_relationship_verified:
+  chapter: 444
+  source_sha: "67a1888572167dabba45ac662dc4802e8f3b5036"
+  ding_sui_property: "丁穗同意有责立即停险修漏但拒绝20:05旧房东电话接通充本人已告知；21:24管珏真正当面解释并留源。"
+  old_contact: "二零二房东过去手机号被乔莉四年前登记，房东接听不代表现住户丁穗授权或得知。"
+  core_team: "夏宁周衡梁策维持现有调度与证据协作，不改变三人关系评分。"
+  archive: "罗经办马芸遵守2021局部影像限阅权限，不代鉴历史签字时间。"
   trust_scores_unchanged: true

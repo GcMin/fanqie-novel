@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 443
+last_updated_chapter: 444
 characters:
   zhou_heng:
     location: "Day238 20:05夜间中心仅有限获悉公开票簿识别号与第七摊位位置需分源"
@@ -2659,3 +2659,11 @@ chapter_443_character_verified:
   core_team: "夏宁周衡梁策区分自动核码/门磁/实际交付，中心只联动、有源记录、不拿或公开处方、不越权开药柜或安排药物用法。"
   archive_team: "罗经办马芸Day305只合法见2024-08-12受限局部旧影像已含相符蓝线，未鉴定何人何时落笔，未查受限签字或封内。"
   continuity_invariants: "F008无新增本人可靠记忆矛盾，M004/M005不确认；2019签交封口、2016书面回告在封及历史真人获答未知。"
+chapter_444_character_verified:
+  chapter: 444
+  source_sha: "67a1888572167dabba45ac662dc4802e8f3b5036"
+  ding_sui: "Day305二零二本人20:05未获通知，21:24真实当面获知有责停水并签时，23:39自家真复供；Day306 20:12只确认自家水与楼道干。"
+  xiao_chen_and_guan_jue: "物业误拨旧租客乔莉留下的二零二房东号码；管珏21:11限本立管停供23:39复供，次日10:58本楼纠错保留旧原表。"
+  core_team: "夏宁周衡梁策只联动公共侧核险，不越权操作阀门或代七户签满意。"
+  archive_team: "罗经办马芸依法只见2021年10月旧影像中同号非身份局部蓝痕，不证明2019签封或2016旧人受答。"
+  continuity_invariants: "Day195旧件沈家票分源，F008/M004/M005均未得确认。"
