@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 442
+last_updated_chapter: 443
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1814,4 +1814,12 @@ chapter_442_relationship_verified:
   guo_ying_and_student: "前晚学生书包背带被灯串刮破未有已知身体伤；次晚背带自行缝补且经已批准的正常站前通路上车，赔偿待本人意愿及有责程序。"
   core_team_and_on_site: "夏宁周衡梁策把市政现场隔离、照明断电、专业物理拆卸与有责复开分清，不要求环卫工人替有责部门拆卸、签认或代担风险。"
   archive: "马芸罗经办遵守保管方对无身份局部的观察许可，不让修护员意见替代签认鉴定。"
+  trust_scores_unchanged: true
+chapter_443_relationship_verified:
+  chapter: 443
+  source_sha: "cc1558e799d8c6acff3f6545f4bea6b62c356dea"
+  li_ya_and_mother: "黎芽为田凤平安全领处方药，返家23:04母亲真的收纸袋；母女互相关照但没有母亲已服药或症状痊愈证据，不泄露母亲具体病名。"
+  li_ya_and_pharmacy: "黎芽拒承认无门磁打开的20:36自助成功与旧满意度，韩药师22:37真实交药并提供正式药师渠道；方照与维护员各自合法核柜与停7格。"
+  core_team: "夏宁周衡梁策只在有责门店、药师与维护各岗位间留源，不越权开启柜子、看受限处方或判断用药；未改变既有三人互信分值。"
+  archive: "马芸罗经办从2024既存影像确认蓝线至多已可见，不借旧目录标记证明2019历史双方交运事实。"
   trust_scores_unchanged: true

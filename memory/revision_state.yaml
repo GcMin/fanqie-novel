@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 442
-current_stage: audit_0442_candidate_requires_exact_ci
-current_source_path: chapters/draft/0442.md
-current_source_sha: de434870f23fe5c4855c7b3e46a9c0378675d706
-current_review_path: reader_reviews/0442_de434870.md
+current_chapter: 443
+current_stage: audit_0443_candidate_requires_exact_ci
+current_source_path: chapters/draft/0443.md
+current_source_sha: cc1558e799d8c6acff3f6545f4bea6b62c356dea
+current_review_path: reader_reviews/0443_cc1558e7.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0442_candidate_requires_exact_ci
+last_action: audit_0443_candidate_requires_exact_ci
 last_action_date: "2026-11-01"
 last_error: null
-last_diff_summary: "Stage A仅修正前夜21:40接班/交班矛盾及Day304次日上午补核前夜交班表两处，正文局部修改；新SHA独立Reader复审0/0/2，内容QA PASS，精确结构CI待验"
+last_diff_summary: "442新ready与旧草稿仅郭萤两处交班事实文本修正，不影响443独立药房/F003蓝痕档案；Stage A仅重绑443前章SHA，正文零改；新SHA Reader 0/0/2独立复审和内容QA PASS"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: de434870f23fe5c4855c7b3e46a9c0378675d706
+current_review_source_sha: cc1558e799d8c6acff3f6545f4bea6b62c356dea
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -3084,5 +3084,22 @@ chapter_442_revision:
   correction: "20:39接班统一为交班；Day304中转点签核明确为对前夜交班记录的次日上午复核"
   predecessor_ready_blob: "a04f99891cd93efe533a12269f29889625a5a67b"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_443_revision:
+  original_source_sha: "9144d41f3d3633b436357aa60b52ae356cfb97d6"
+  first_review: "reader_reviews/0443_9144d41f.md"
+  final_source_sha: "cc1558e799d8c6acff3f6545f4bea6b62c356dea"
+  final_review: "reader_reviews/0443_cc1558e7.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  correction: "442前章依赖由旧provisional SHA重绑正式ready并核两处交班修订无新案事实冲突"
+  predecessor_original_draft_sha: "33338b5f6eeccd9b67180a0dea4fab8ac278eff5"
+  predecessor_ready_blob: "f04788d6294c1dfbe4e5eb2b2d9884c3e8fabfe2"
+  dependency_status: verified_predecessor_factual_delta_checked
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

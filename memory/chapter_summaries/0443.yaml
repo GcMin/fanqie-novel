@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 443
+title: "取件码已经核销，柜门却没开"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "9144d41f3d3633b436357aa60b52ae356cfb97d6"
+source_draft_sha: "cc1558e799d8c6acff3f6545f4bea6b62c356dea"
+initial_review: "reader_reviews/0443_9144d41f.md"
+reader_review: "reader_reviews/0443_cc1558e7.md"
+depends_on_chapter: 442
+depends_on_source_sha: "f04788d6294c1dfbe4e5eb2b2d9884c3e8fabfe2"
+dependency_status: verified_predecessor_factual_delta_checked
+timeframe: "Day304 20:36—Day305 20:13"
+summary: >-
+  Day304 20:36黎芽在新蒲路夜间药房代母田凤平领药，七号智能柜核码显示已取但门未开；20:49电话无人实答，20:57联系中心，夏宁留源改自动消费咨询完结并让药房依授权接管。周衡梁策21:20在公共顾客侧见证，不接触处方与柜锁；21:37负责人方照核7格药袋与订单对应、门磁无开门回报，停该格新订单自动处理。22:02有责维护受理，22:21伍师傅按授权到场受控开柜，韩琳核药品识别、封装保存及代领授权，22:37黎芽真正领药，23:04母亲在家真实收到，不预判服药和疗效。Day305 09:36检机械锁舌卡滞及核码成功误映已领取；10:58仅7格停自动完成而公众复用待许可，两笔其它订单待真人核；11:22黎芽更正申请仅获受理，短信旧成功并未全面纠；20:13黎芽获现时人工渠道信息，本格仍停用。F003承442 Day304斜光仅证明局部蓝痕不构成完整勾选，Day305 11:09合法见2019同号纸本2024-08-12既存保存影像中相符蓝痕，证明2024时已可见而非2019时写就或2019双方互签封口；14:06更早影像申请只收件。2016旧书面回告是否在封、历史真人是否收到答复仍未证，Day195旧窄片两拆件沈家私人票分源，F008/M004/M005不证。
+meaningful_state_changes:
+  - "黎芽22:37取得真正经药师核的药、23:04母亲在家实际接收，但未虚称已经服药或药物治疗效果。"
+  - "七号格技术锁舌卡滞与后台核码成功误映射查明，自动办理仅本格停用；其它柜位及旧短信待核。"
+  - "F003从Day304开放蓝痕斜光局部推进到合法2024-08-12既存局部影像锚点，仍不能倒写2019双方交运。"
+knowledge_updates:
+  - "夏宁周衡梁策只见取件事件与药师、维护、业务各分项证据，不知道不受理的其它处方详情；药品安全和母亲临床用药结果不是中心权限。"
+  - "罗经办马芸只知2024拍摄的受控影像已显示部分蓝痕，既不知落笔年代、原签交者、封口也不知2016回告和历史真人答复。"
+relationship_updates:
+  - "黎芽与母亲约定晚归不擅自更改医嘱，22:37由韩琳履行真实交药、母亲23:04实收；拒用自动成功短信作本人满意度。"
+foreshadowing_updates:
+  - "F003增加2024-08-12保存影像中已见蓝线的时间上界，不证明2019蓝线落笔、双方互签、封口或2016历史真实答复；F008/M004/M005未获确证。"
+ending_state: "Day305 20:13黎芽有正式人工服务渠道、7格仍停用；其余订单、自动短信全量纠错和药房柜机全量安全待核；F003更早影像只收窄申。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "9144d41f3d3633b436357aa60b52ae356cfb97d6", final_draft_sha: "cc1558e799d8c6acff3f6545f4bea6b62c356dea", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "33338b5f6eeccd9b67180a0dea4fab8ac278eff5", predecessor_ready_blob: "f04788d6294c1dfbe4e5eb2b2d9884c3e8fabfe2", predecessor_factual_delta: "442仅交班措辞与次日补核两处文本修改，不影响443独立药房或F003受限观察", proposed_ready_blob: "b96e4413cc427e3843f6a290808321025eeb37ae"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3067

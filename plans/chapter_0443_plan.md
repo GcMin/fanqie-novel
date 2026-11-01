@@ -6,13 +6,13 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "60cb2bbd916bd2fa59bd3008ddafd3019c99a016"
 - depends_on_chapter: 442
-- depends_on_source_sha: "33338b5f6eeccd9b67180a0dea4fab8ac278eff5"
-- dependency_status: provisional
+- depends_on_source_sha: "f04788d6294c1dfbe4e5eb2b2d9884c3e8fabfe2"
+- dependency_status: verified_predecessor_factual_delta_checked
 - continuity_precheck: writer_precheck_only_not_qa
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-11-01"
+- publish_mode: ready
 - timeframe: "Day304 20:36—Day305 20:13"
 - pov: "黎芽、夏宁、周衡、梁策、韩琳、方照；罗经办、马芸"
 - target_effective_chars: 3000
@@ -39,3 +39,9 @@ Day304 20:36新蒲路夜间药房，黎芽代母亲领取经药师审核的处�
 - F003同号原纸短蓝痕的2024受控影像仅为新时间上界，2019互签封口、2016旧书面回告在封、历史自然人真正获答仍不证；Day195窄片、两旧拆物与沈家私人票分源，F008/M004/M005无证，F009/F010/F011已resolved。
 - 本轮按现存文件准确阅读AGENTS/config/角色与阅读协议、必需Bible、人物卡、卷纲及历史arc、长期人物/关系/知识/世界状态、伏笔时间线、最近十章摘要及最近五章全文；现存卷纲到volume_05，arc_current仍留ARC-044旧稿，以正式ready章节、最新Memory与442实际草稿为边界，不虚构volume_06。
 - 正文3067有效字符（含标点、不含空白/Front Matter/场景分隔符），仅执行Planner/Continuity Precheck/Writer；无Reader/Revision/QA/Memory/发布。本章待独立Audit审核。
+
+## 独立Audit事实差异、SHA复审及放行（2026-11-01）
+
+- 第442章原草稿 `33338b5f6eeccd9b67180a0dea4fab8ac278eff5` 与正式ready `f04788d6294c1dfbe4e5eb2b2d9884c3e8fabfe2` 对照后，仅有郭萤Day303交班与Day304补核前夜记录两处局部文本变化；本章Day304 20:36独立药房案及F003局部斜光证据不受影响。
+- 原443草稿 `9144d41f3d3633b436357aa60b52ae356cfb97d6` Reader 0/1/2，Stage A只重绑前章正式Blob和verified_predecessor_factual_delta_checked，**443小说正文零字修改**。新草稿 `cc1558e799d8c6acff3f6545f4bea6b62c356dea` 独立Pass A/B Reader复审0/0/2，旧Review失效。
+- Continuity/Style/Meaningful QA PASS，3067有效字，拟ready `b96e4413cc427e3843f6a290808321025eeb37ae`。必须精确候选CI结构PASS后方以expected_sha、force:false放行。

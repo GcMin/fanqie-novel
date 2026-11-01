@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 442
-last_reviewed_title: "那根线不是她系的"
-last_source_path: chapters/draft/0442.md
-last_source_sha: de434870f23fe5c4855c7b3e46a9c0378675d706
-last_review_path: reader_reviews/0442_de434870.md
+last_reviewed_chapter: 443
+last_reviewed_title: "取件码已经核销，柜门却没开"
+last_source_path: chapters/draft/0443.md
+last_source_sha: cc1558e799d8c6acff3f6545f4bea6b62c356dea
+last_review_path: reader_reviews/0443_cc1558e7.md
 last_reviewed_at: "2026-11-01"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 441
-depends_on_source_sha: a04f99891cd93efe533a12269f29889625a5a67b
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: a04f99891cd93efe533a12269f29889625a5a67b
+depends_on_chapter: 442
+depends_on_source_sha: f04788d6294c1dfbe4e5eb2b2d9884c3e8fabfe2
+dependency_status: verified_predecessor_factual_delta_checked
+predecessor_current_source_sha: f04788d6294c1dfbe4e5eb2b2d9884c3e8fabfe2
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -3629,5 +3629,27 @@ chapter_442_review:
   correction: "对齐21:40回中转点交班而非接班；Day304上午为补核前夜交班记录；只改两处必要叙述"
   predecessor_ready_blob: "a04f99891cd93efe533a12269f29889625a5a67b"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_443_review:
+  chapter: 443
+  title: "取件码已经核销，柜门却没开"
+  original_source_sha: "9144d41f3d3633b436357aa60b52ae356cfb97d6"
+  original_review: "reader_reviews/0443_9144d41f.md"
+  source_sha: "cc1558e799d8c6acff3f6545f4bea6b62c356dea"
+  review_path: "reader_reviews/0443_cc1558e7.md"
+  reviewed_at: "2026-11-01"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 0
+  predecessor_original_draft_sha: "33338b5f6eeccd9b67180a0dea4fab8ac278eff5"
+  predecessor_ready_blob: "f04788d6294c1dfbe4e5eb2b2d9884c3e8fabfe2"
+  predecessor_factual_delta: "442实际仅郭萤20:39交班与Day304上午补核前夜记录两处修订；443独立药房/F003后续兼容，正文不变"
+  dependency_status: verified_predecessor_factual_delta_checked
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
