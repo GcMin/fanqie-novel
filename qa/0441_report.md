@@ -7,3 +7,10 @@
 - **F003 PASS**：仅继承440 Day302合法可见的2019同号原纸局部短蓝痕，Day303保管方只受理保护评估、未扩看鉴定；2019原件双向实交签名/封口、2016旧书面回告是否封内与历史真人确实收到答复不证，F008/M004/M005不升级、Day195三件旧物与沈家私票分源。
 - **文风与有意义变化 PASS**：雨棚纸筒、七颗珠、付款与退款的实收区分、深夜门岗收件给出真实代价；MINOR两项为连章渡口状态回顾与F003程序描述略重，不为此修改。停航后的第三方售票问题实际有限改正，本人交件与18元到账真实完成，航线仍未复航。
 - **结构门槛**：以上是独立内容QA通过，只有精确候选Git Commit上的 `python -m publisher.check_local --repo .` 或可信CI SUCCESS后才能非强制更新main并视为ready放行。
+
+
+## 结构验证与最终 ready 放行（续记）
+- 第440章正式ready blob `4075b7cbc26c46d46ecf4b0c92389e69eae8da83` 已核对与原draft**正文完全相同**。第441章仅Stage A修正原临时依赖，修订版draft blob `61f92a650132212dfe66d7a21bad9189f4277e99` 的独立Reader双遍复审0/0/2，正文0字修改；原版本Review失效。
+- **候选精确Commit** `a32c4cf6d4d076b5e098ac17b4447d6df3ef34d5`；GitHub Actions run `41283822239` 结论 **SUCCESS**，含结构单元测试与 `python -m publisher.check_local --repo .`。
+- 在候选CI成功后以 `expected_sha:39a324d530d7b4b984e5884ab2e542d771aa90f3`、`force:false` 更新main成功；第441章迁入 `chapters/ready/0441.md` blob `a04f99891cd93efe533a12269f29889625a5a67b`，原draft已删除。
+- 按序核第440章后才放行第441章，长期Memory与原ready计划均真实同步，独立内容QA+结构门槛最终PASS；未发布番茄。

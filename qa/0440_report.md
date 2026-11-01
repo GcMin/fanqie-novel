@@ -8,3 +8,10 @@
 - **Style QA PASS**：蛋糕/生日蜡烛/雨中纸盒承载急切与实际到达；对话有身份差异。两项MINOR为近章“绿格≠现场”模式重复及档案段偏程序化，均不触发Revision。
 - **Meaningful QA PASS**：四人真实经获批替代交通到达北岸站、秦双亲自送蛋糕；本线靠泊误报原因与仅局部页面区分被确认；浮台仍封待修；F003由空栏目到实纸局部短痕。
 - **结构门槛**：以上为独立内容QA；必须由候选精确Git commit运行`python -m publisher.check_local --repo .`且SUCCESS后才可原子移动main到ready。
+
+
+## 结构验证与最终 ready 放行（续记）
+- 原已通过的独立Reader、内容QA仍绑定原草稿Git blob `3b308b6093cd5cbf9ba605885abea9afd3696aad`，本次正文0字修改。
+- **候选精确Commit** `a32c4cf6d4d076b5e098ac17b4447d6df3ef34d5`；GitHub Actions run `41283822239` 结论 **SUCCESS**，含结构单元测试与 `python -m publisher.check_local --repo .`。
+- 在候选CI成功后以 `expected_sha:39a324d530d7b4b984e5884ab2e542d771aa90f3`、`force:false` 更新main成功；本章真实ready路径 `chapters/ready/0440.md`、blob `4075b7cbc26c46d46ecf4b0c92389e69eae8da83`，原draft已删除。
+- 已逐章更新Memory与完整保留已有ready计划行，审查、字数/标题/序号、结构门槛最终PASS；未发布番茄。
