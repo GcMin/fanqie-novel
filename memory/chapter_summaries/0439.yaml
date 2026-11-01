@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 439
+title: "画里的灯还亮着，河边的灯却灭了"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "dd63fb732aa0fd4700808f7323e66b1b2e5ed240"
+source_draft_sha: "cd620a7a5270e8dd2f7b1a799ddf1e51fc39306b"
+initial_review: "reader_reviews/0439_dd63fb73.md"
+reader_review: "reader_reviews/0439_cd620a7a.md"
+depends_on_chapter: 438
+depends_on_source_sha: "d9fa7b4d8e127ac7767cbf9d5a1f2243bbc776e1"
+dependency_status: verified_predecessor_factual_delta_checked
+timeframe: "Day300 20:37—Day301 21:11"
+summary: >-
+  Day300 20:37水彩画家梅毓芳和带班纪盈于芦汀河东岸栈道按公开22:00开放公告画七盏灯，20:58南端服务门上链、21:00照明依旧冬季时段定时灭，二人被困三号观景平台；21:06夏宁接报核两人安全平台位置，周衡梁策21:22到公共侧，巡查20:54已完成不能证明人员清空；21:42现场主管依法授权保安开南门引导，21:53两人本人真实安全离园，梅拒签自愿滞留只签真实时点与物品。Day301 09:48有责部门核公示22:00、旧照明合同21:00、门禁卡21:00及巡查勾自动错映；11:27本东岸栈道临时限为20:00止新入20:45清场21:00仍熄灯，16:35双入口新牌真实可见，20:46现场签已清空后21:00照明正常熄，不能写夜游延长已恢复，纪盈取消未获准的22:00夜课承诺。F003承438 Day300 14:03限申，Day301 10:21窄批11:05仅见2019纸本交运登记格式背面续页有“外封交运核看”预留栏目，不见本件实际填写/原纸签字封签；14:18对同号非身份字段的申请仅收件，2019双方实交、2016旧回告是否封内与旧报事人真人获答、Day195三物及沈家票同源均不证，F008/M004/M005无新证。
+meaningful_state_changes:
+  - "梅毓芳纪盈21:53真正安全离开被提前锁门又熄灯的栈道，公示开放至22:00的真实证据与非自愿滞留权利保留。"
+  - "Day301只本段依法先缩公众开放、双入口贴新牌并20:46真清场，不假称旧照明/开门时段已完成延长整改。"
+  - "F003合法发现旧格式背面续页有外封交运核看栏，但不推定2019本件实际填值或封口状态。"
+knowledge_updates:
+  - "夏宁周衡梁策仅知公示22:00与旧照明/门禁21:00错位、人21:53真人离场、Day301有限清场制度生效；没有河岸所有路径延时安全结论。"
+  - "罗经办马芸Day301获窄批后只知旧纸本格式栏目名称和卷册索引，不知本件实际记载、签名、封签、2016封内或历史报事人获答。"
+relationship_updates:
+  - "梅毓芳拒签拒不离园虚责，纪盈带班保护老者及画作隐私并取消未获准夜课承诺；邱岭保留旧巡查表并登记实际离园，未建立超越本案长期关系。"
+foreshadowing_updates:
+  - "F003由后期数字化编目字段来源推进至旧表预留外封交运核看栏目之存在；Day301 14:18下一申请仅收，未证实际签收封口；F008/M004/M005均无新增。"
+ending_state: "Day301 21:11芦汀河东岸栈道按合法临时新时段真清场但22:00夜游仍待各岗协调；2019同号原件交运外封核看栏实填未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "dd63fb732aa0fd4700808f7323e66b1b2e5ed240", final_draft_sha: "cd620a7a5270e8dd2f7b1a799ddf1e51fc39306b", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_draft_sha: "7872ac0e6920b2889073aae434f1d38ec48592c0", predecessor_ready_blob: "d9fa7b4d8e127ac7767cbf9d5a1f2243bbc776e1", predecessor_factual_delta: "438 21:42台词由无法保证21:30准点改为已过21:30，439独立事件不受影响"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3354

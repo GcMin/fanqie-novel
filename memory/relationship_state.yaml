@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 438
+last_updated_chapter: 439
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1784,4 +1784,12 @@ chapter_438_relationship_verified:
   rider_and_employer: "吴杉明确21:30约定已逾时，面包房老板同意等正式引导、不要求冒险近路，22:19本人真收两箱，建立本次实际迟送与交付记录，不新增长期信任值。"
   core_team: "周衡梁策夏宁仍是安全公共侧核查及联动，养护和道路管理各守限定专业确认与复开权限。"
   archive: "罗经办马芸共同守后期编目字段与原始2019实交两层证据，未借目录标记扩展档案查阅权限。"
+  trust_scores_unchanged: true
+chapter_439_relationship_verified:
+  chapter: 439
+  source_sha: "cd620a7a5270e8dd2f7b1a799ddf1e51fc39306b"
+  painter_and_tutor: "梅毓芳与纪盈由共同等真实河面灯光，转为纪盈搀扶梅从授权通路安全离开；梅坚持本人公示依据与签真离园不认虚责，纪盈尊重画作隐私且取消未经批准的夜课时间承诺。"
+  riverside_duty_and_citizens: "邱岭保留旧巡查完成勾和两名实际21:53离园记录，不替巡查员假证人员清空；有责主管只核本栈道临时新时段，两人的抗议有源可查。"
+  core_team: "中心夜班和河岸保安/照明/运营分权协作，梁策周衡不代有责岗位开门和改灯时。"
+  archive: "罗经办与马芸严分旧格式栏位存在、后期数字化标签与2019原始实际签记，未借空格式冒充原封完整。"
   trust_scores_unchanged: true
