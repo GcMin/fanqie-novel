@@ -6,8 +6,8 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "aa75ddea9c47e9d5962f62b6f02916a31c6e068d"
 - depends_on_chapter: 454
-- depends_on_source_sha: "51ec0d29e440dcb1322832e49e6afe58a5101c24"
-- dependency_status: provisional
+- depends_on_source_sha: "2fced59f72add805f1dfd889a4debe3449789d5d"
+- dependency_status: verified_predecessor_factual_delta_checked
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: "Day316 20:46—Day317 20:06后"
 - pov: "陆月桂第三人称近景；唐寻、顾绫的有限馆方处置，夏宁周衡梁策有责协调，罗经办马芸按权限推进F003"
@@ -39,3 +39,9 @@
 
 ## 结尾承接
 Day317夜陆月桂保留两份不同时间的真实音频记录，仅授权暂存并约旧友见面；馆方原机仍停用、复用需有责核验。F003后期索引非空字段确有一条，但身份/内容/原纸历史关键事实均未知，下一窄申请只收件。
+
+## Audit Stage A与前章版本事实差异复核（2026-11-02）
+- 原454临时draft Blob `51ec0d29e440dcb1322832e49e6afe58a5101c24` 与454经内容审核准备放行的ready Blob `2fced59f72add805f1dfd889a4debe3449789d5d`，小说正文逐字相同，仅Front Matter的交付状态、QA、批准日期与publish_mode改变。
+- 454 Day316 14:06后期索引关联值是否实填的极窄申请确实仅收件；Day316 16:05许映容真正借得《雨后山路》，20:13父亲实际阅读；旧书已21:51真实接管，受潮和考勤未结。这些全未发生正文修改，455 Day316 20:46新录音案与Day317限权F003新回答均兼容。
+- Stage A只修本章Front Matter与详细计划的前章依赖SHA及verification状态；本章小说正文一字未动。原455草稿`1b4209e2c959f8ed84d448a7180e804087180233`变为新draft Blob`d25719f4e6b87aca6b4469d06b33ea808619f93f`，旧Review失效，已对新SHA独立Reader双遍`reader_reviews/0455_d25719f4.md` 0/0/2，随后独立内容QA通过。
+- 此处的454 ready Blob为拟提交精确候选版本；正式main放行仍以对应Commit真实结构CI成功及expected_sha/force:false非强制更新为必要门槛。

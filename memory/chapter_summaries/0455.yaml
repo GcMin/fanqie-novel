@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 455
+title: "录音写着完整，最后一句却没人收到"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "1b4209e2c959f8ed84d448a7180e804087180233"
+source_draft_sha: "d25719f4e6b87aca6b4469d06b33ea808619f93f"
+initial_review: "reader_reviews/0455_1b4209e.md"
+reader_review: "reader_reviews/0455_d25719f4.md"
+depends_on_chapter: "454"
+depends_on_source_sha: "2fced59f72add805f1dfd889a4debe3449789d5d"
+dependency_status: "verified_predecessor_factual_delta_checked"
+timeframe: "Day316 20:46—Day317 20:06后"
+summary: "Day316 20:46北澜社区文化馆口述志愿受访者陆月桂复听发现打印凭条称12分18秒完整接收，但仅10分44秒音频实际可读。她拒签核听完成；21:03管理员顾绫本机待核、保留凭条与原数据、不公开，21:16夜间中心夏宁周衡梁策只协调有权管理员而不索取私密语音或拆储存。陆月桂晚间与多年旧友阿禾私人通信，23:07获对方八秒语音释怀未送行的遗憾，私人语音未移交馆方。Day317 09:43有权技术查明20:38设备切换外接存储通道写入中断、实际媒体10分44秒，12分18秒只是界面预期时长打印，失录尾段不可补证，馆方仅本终端停用待修。Day317 11:27 F003合法获限项回答：2019目标同号封件对应2022后期影像子项关联字段存在一条非空填写记录，但字段内容、照片、真实性、同一性、签封人及封内均无权看，下午新的非身份拍摄方向窄申请只收未批。2019真双向签封、2016回告是否在封及历史真人是否获答仍未知，Day195窄片另两旧物及沈家私票分源，F008/M004/M005无证。20:06陆月桂在另个已许可房间独立录新两分钟，明确非昨日失录原音，核听同意仅暂存而非公开，主动约阿禾周末见面。"
+meaningful_state_changes:
+  - "从凭条假12分18秒完整到实证仅10分44秒保管音频，本机授权停用并保存原错凭条、断写日志，原声后段不假补。"
+  - "陆月桂新日期独立录制2分钟只许可暂存，同时主动联系阿禾见面，旧日关系从留憾转为行动。"
+  - "F003从仅知字段存在到目标封件后期目录关联字段确有一条非空记录，但不知其值与真实性、旧历史签封与回告。"
+knowledge_updates:
+  - "陆月桂知道自己后段真实讲过却未成功录入，了解馆方只保存10分44秒并留新时点授权记录；阿禾的私人语音不被公开。"
+  - "唐寻和顾绫知道本机误报与有责停用，技术岗知道20:38通道切换中断，不知道不可核的后段原话；夏宁周衡梁策不获取私密录音。"
+  - "罗经办马芸仅知后期目录目标项填有一条非空关联值，不知内容、照片、相应物件/原封真实性及个人身份。"
+relationship_updates:
+  - "陆月桂与旧友阿禾通过旧凳及棉袄记忆恢复直接联系，决定周末见面，未承诺过去事已全部补偿。"
+  - "顾绫与陆月桂从有争议的完整凭条转为保留原错和当日另录的新同意边界，馆方不代受访人授予展览权。"
+foreshadowing_updates:
+  - "F003 Day317 11:27仅确认2022拍摄子项后期目录有一条非空关联值，值与是否正确指向2019本件、图、原签均不准阅，下一拍摄方向申请仅收；2016书面回告与旧人真获答依然未证，F008/M004/M005不证。"
+ending_state: "Day317 20:06陆月桂另日重录2分钟单独核听且只许可暂存，主动约见阿禾；原机仍停、昨日尾音不可恢复；F003后期关联值存在但2019/2016历史真相和图像身份仍不获知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1b4209e2c959f8ed84d448a7180e804087180233", final_draft_sha: "d25719f4e6b87aca6b4469d06b33ea808619f93f", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "51ec0d29e440dcb1322832e49e6afe58a5101c24", predecessor_ready_blob: "2fced59f72add805f1dfd889a4debe3449789d5d", predecessor_factual_delta: "454小说正文逐字未改仅交付FrontMatter变更", proposed_ready_blob: "ae5f8d3ad10b10989534aa52d87eefdbab6958c3"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3348

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 451
+last_updated_chapter: 455
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1902,4 +1902,19 @@ chapter_453_relationship_verified:
   core_team: "夏宁周衡梁策保持有源联动和责任边界，不改变长期三人互信评分；本次对母女的协助不扩大成永久代理监护义务。"
   archive: "罗经办马芸仍合作依法限查，不把形式受理当2019目标件身份关联确认。"
   trust_scores_unchanged: true
-
+chapter_454_relationship_verified:
+  chapter: 454
+  source_sha: "51ec0d29e440dcb1322832e49e6afe58a5101c24"
+  xu_family: "许映容为了视力下降的父亲借大字书、迟到菜场，父亲为不让女儿奔忙仍坚持慢慢自己读；旧书尾页没读完后双方不再假称尽善尽美，新书真实到了父亲膝上。"
+  library_and_patron: "周岚向许映容提供操作/机器回报与实际接管双时点回执，不让其签无证物损责任；本人选择离场保留真实工单，馆方不造无损保证。"
+  core_team: "夏宁周衡梁策守夜联协调有权单位并不替公众馆方或雇主验收，不改变三人长期信任值。"
+  archive: "罗经办马芸坚持后期索引字段存在不等目标2019封件已填值，申请仅收不可擅查。"
+  trust_scores_unchanged: true
+chapter_455_relationship_verified:
+  chapter: 455
+  source_sha: "d25719f4e6b87aca6b4469d06b33ea808619f93f"
+  lu_and_ahe: "陆月桂从多年对未送走阿禾耿耿于怀，经历旧声失录后私信旧友、得到对方八秒理解答复，Day317主动计划周末见面；两人旧凳与缝棉袄记忆保持私人边界。"
+  lu_and_culture_center: "顾绫不替陆月桂重建无法恢复的原声，保留假完整凭条、真媒体和新录独立授权；陆月桂明确只允新音暂存而非立即公展。"
+  core_team: "夜间中心只提供有权协作和分源回执，不取私人语音或取得展览权限；三人既有相互信任评分不变。"
+  archive: "罗经办马芸只获后期目录关联值确有非空记录，不冒称同一原件已验证。"
+  trust_scores_unchanged: true

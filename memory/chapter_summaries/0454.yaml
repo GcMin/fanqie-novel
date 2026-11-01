@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 454
+title: "还书箱吞了书，却没有真正收下它"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "51ec0d29e440dcb1322832e49e6afe58a5101c24"
+reader_review: "reader_reviews/0454_51ec0d29.md"
+depends_on_chapter: "453"
+depends_on_source_sha: "03cc2f0be704fbf9aaadf2eb22e66bae858a85e1"
+dependency_status: "verified_exact_ready_blob"
+timeframe: "Day315 20:42—Day316 20:13后"
+summary: "Day315 20:42许映容夜间还父亲读过的大字书，屏幕报已归还却书脊卡在还书箱破损翻板上并被雨淋；20:53保安接报，21:01夏宁周衡梁策只有限协同馆方处理夹手与资产风险，不擅拆或替馆方签收。21:17周岚有责记录书外露与原绿屏；21:29维护人员按隔离规程开侧门，21:51将书真正取出入馆，封皮湿印待次日评估，原20:42机器成功记录保留。许映容22:09晚到菜场，考勤结论未知。Day316 10:18专业限机复现回位弹簧偏位与光电过早触发，11:42按真实21:51接管改本笔借阅状态不删除旧假报，设备仍封用，受潮与责任/同批设备待查。16:05本人在人工窗口真实借到《雨后山路》，20:13送父亲，父亲终于开始读大字书，承认旧书尾十页没有读完。F003 Day316只合法确定2022通用影像目录存在非身份关联索引字段，不能确认2019目标封件该字段是否填值；14:06后续最窄查询仅收件，2019实签封口、2016原回告在封、旧报事人收到答复无证，Day195三件旧物与沈家私票分源，F008/M004/M005未确认。"
+meaningful_state_changes:
+  - "机器20:42显示成功与21:51真实馆方接管分源，危险还书箱停用并保留错记录；湿印受损程度待判。"
+  - "许映容虽然晚到夜班，但次日真实借得新大字书并交父亲阅读；父亲说出旧书未读完，父女互动改变。"
+  - "F003新增2022目录存在关联字段的编目结构信息，尚未证目标件实际填值。"
+knowledge_updates:
+  - "许映容知道真正21:51书入馆、自己晚到班但后果未核；周岚只知封皮湿印及本箱限项卡阻，不知其余箱安全。"
+  - "夏宁周衡梁策只知道夜间馆方有责协调和设备状态与实际物件分离，不知道谁造成弹簧偏位或具体修护/全量复用许可。"
+  - "罗经办马芸只知2022通用编目非身份关联字段存在，2019目标值/图/签封身份均未开放。"
+relationship_updates:
+  - "父亲原以为许映容赶来还书无负担，女儿发现他旧书尾页没读；双方互相劝对方照顾自己并仍保有探望纽带。"
+  - "馆方对许映容提供操作与实际接管分项回执，不让求助者承担未经鉴定的损坏责任或假签无损。"
+foreshadowing_updates:
+  - "F003只前进到索引字段存在、Day316 14:06是否有目标件实际值的申请仅收；2019真签封口、2016回告在封与当年真人收答未证，F008/M004/M005不证。"
+ending_state: "Day316 20:13许映容送《雨后山路》到父亲膝头，旧书馆方实际收下但封皮湿痕评估未终；旧还书箱继续停用，迟到考勤未结；F003目标关联值待权限回复。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "51ec0d29e440dcb1322832e49e6afe58a5101c24", final_draft_sha: "51ec0d29e440dcb1322832e49e6afe58a5101c24", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "03cc2f0be704fbf9aaadf2eb22e66bae858a85e1", proposed_ready_blob: "2fced59f72add805f1dfd889a4debe3449789d5d"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3292

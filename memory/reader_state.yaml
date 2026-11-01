@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 453
-last_reviewed_title: "签退栏已经绿了，孩子还坐在教室里"
-last_source_path: chapters/draft/0453.md
-last_source_sha: 5c7860d5a8f4e8fb5b8ee3bd638b08b92321da96
-last_review_path: reader_reviews/0453_5c7860d5.md
+last_reviewed_chapter: 455
+last_reviewed_title: "录音写着完整，最后一句却没人收到"
+last_source_path: chapters/draft/0455.md
+last_source_sha: d25719f4e6b87aca6b4469d06b33ea808619f93f
+last_review_path: reader_reviews/0455_d25719f4.md
 last_reviewed_at: "2026-11-02"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 452
-depends_on_source_sha: 954343875e5eab408fc80077c44501b40d337b20
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 954343875e5eab408fc80077c44501b40d337b20
+depends_on_chapter: 454
+depends_on_source_sha: 2fced59f72add805f1dfd889a4debe3449789d5d
+dependency_status: verified_predecessor_factual_delta_checked
+predecessor_current_source_sha: 2fced59f72add805f1dfd889a4debe3449789d5d
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -3853,3 +3853,43 @@ chapter_453_review:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_success
+chapter_454_review:
+  chapter: 454
+  title: "还书箱吞了书，却没有真正收下它"
+  source_sha: "51ec0d29e440dcb1322832e49e6afe58a5101c24"
+  review_path: "reader_reviews/0454_51ec0d29.md"
+  reviewed_at: "2026-11-02"
+  initial_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  reviews_this_cycle: 1
+  local_revision_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "03cc2f0be704fbf9aaadf2eb22e66bae858a85e1"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_455_review:
+  chapter: 455
+  title: "录音写着完整，最后一句却没人收到"
+  source_sha: "d25719f4e6b87aca6b4469d06b33ea808619f93f"
+  review_path: "reader_reviews/0455_d25719f4.md"
+  reviewed_at: "2026-11-02"
+  initial_source_sha: "1b4209e2c959f8ed84d448a7180e804087180233"
+  initial_review: "reader_reviews/0455_1b4209e.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 0
+  predecessor_original_draft_blob: "51ec0d29e440dcb1322832e49e6afe58a5101c24"
+  predecessor_ready_blob: "2fced59f72add805f1dfd889a4debe3449789d5d"
+  predecessor_factual_delta: "454正文逐字一致仅交付FM变化"
+  dependency_status: verified_predecessor_factual_delta_checked
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
