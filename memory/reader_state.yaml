@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 449
-last_reviewed_title: "展厅里挂着名单，照片还在楼下"
-last_source_path: chapters/draft/0449.md
-last_source_sha: d41fdf247e5dfe985fa95d21742c84e937b5b146
-last_review_path: reader_reviews/0449_d41fdf24.md
-last_reviewed_at: "2026-11-01"
+last_reviewed_chapter: 452
+last_reviewed_title: "信写着旧地址，收件人一直没搬走"
+last_source_path: chapters/draft/0452.md
+last_source_sha: d5e014aa0ee53f18cee77501cd19b6ffb9a25025
+last_review_path: reader_reviews/0452_d5e014aa.md
+last_reviewed_at: "2026-11-02"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
 required_action: none
@@ -3815,5 +3815,23 @@ chapter_451_review:
   predecessor_original_draft_sha: "fbbb374da4fe0281b69815b2b6a95a5b7855e124"
   predecessor_ready_blob: "49f7e1f46cef95a29a533b6e3c28abe75ed27929"
   dependency_status: verified_predecessor_factual_delta_checked
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_452_review:
+  chapter: 452
+  title: "信写着旧地址，收件人一直没搬走"
+  source_sha: "d5e014aa0ee53f18cee77501cd19b6ffb9a25025"
+  review_path: "reader_reviews/0452_d5e014aa.md"
+  reviewed_at: "2026-11-02"
+  initial_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  reviews_this_cycle: 1
+  local_revision_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "3113a9421e4d3481354145986084f1ff285feb7f"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

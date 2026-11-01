@@ -3250,3 +3250,19 @@ chapter_450_451_release_verification:
   exact_sha_verified: true
   force_update: false
   latest_ready_chapter: 451
+chapter_452_revision:
+  original_source_sha: "d5e014aa0ee53f18cee77501cd19b6ffb9a25025"
+  first_review: "reader_reviews/0452_d5e014aa.md"
+  final_source_sha: "d5e014aa0ee53f18cee77501cd19b6ffb9a25025"
+  final_review: "reader_reviews/0452_d5e014aa.md"
+  initial_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  correction: "无需修订；仅记录Reader两项MINOR，不触发正文改写"
+  predecessor_ready_blob: "3113a9421e4d3481354145986084f1ff285feb7f"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required

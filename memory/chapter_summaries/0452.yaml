@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 452
+title: "信写着旧地址，收件人一直没搬走"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "d5e014aa0ee53f18cee77501cd19b6ffb9a25025"
+reader_review: "reader_reviews/0452_d5e014aa.md"
+depends_on_chapter: 451
+depends_on_source_sha: "3113a9421e4d3481354145986084f1ff285feb7f"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day313 20:42—Day314 20:09"
+summary: >-
+  Day313 20:42周桃芳在芳堤巷十七号实际裁衣铺等姐姐挂号信，系统短信“投递地址无效、拟退回”并非实物已退；20:57联系夏宁，邮政21:16有源复核17:26旧代码不能匹配、19:02仅建议退回、20:14实物仍在待核袋架未签退。周衡梁策21:28公共侧核旧门牌和新路牌，21:46街道核旧十七号合法对应云梅路一〇二号院东侧一层但不泄露私人住户身份；22:08邮政主管仅本追踪号准暂缓自动退回至次日营业、不等夜间领取。Day314 09:18有责核收件资格和旧新址路径，10:07邮件交合法投递岗，11:21周桃芳本人现址真实签收；13:44街道只本处补现时公共地址指引，其它旧牌/居民及全部邮路仍待核；20:09周桃芳自己拆信读到姐姐三页文字与旧巷照片，只向夜间中心回本人11:21签收，并给姐姐书写新通信地址。F003 Day314合法获“可进一步缩窄非身份关联字段申请”的审查意见，14:16另提交2019目标封号与2022通用照片子项的最小关联问题但尚未批准阅具体字段、图像或个人身份；不证明2019双方真签封口、2016旧回告在封或历史真人收到答复，Day195三旧拆件与沈家私人票分源，F008/M004/M005无新确证。
+meaningful_state_changes:
+  - "从系统建议退回与实物位置未知，到邮政主管本单22:08暂缓、翌日11:21本人真实签收，旧建议记录不被倒填。"
+  - "街道公开确认旧牌与现时新门牌的普通合法对应并只本处补公众指引，周桃芳写新收件地址但不否定旧生活。"
+  - "F003只获准再问更窄非身份关联字段并真实递交申请，未开放旧封件子项值或历史真相。"
+knowledge_updates:
+  - "周桃芳知本人Day314 11:21真的收到姐信并读到私人文字，夜间中心与邮政、街道不知信文，不会代办别处旧地址。"
+  - "夏宁周衡梁策只知邮政有源的实物/地址/签收状态，不能因照片或旧门牌替合法受件人签名或宣布全院故障修复。"
+  - "罗经办马芸仅知缩窄申请可再提交、14:16新单收件；不知2019封件与2022子项是否匹配或旧本人是否获回告。"
+relationship_updates:
+  - "周桃芳与姐姐保有私信联系，她通过真实签收告知姐姐并准备使用新地址通信；不产生超出本次的公共认定。"
+  - "中心与周桃芳职业协作以有限事实和正式签收为终点，不要求其公开家书内容或替全院签满意。"
+foreshadowing_updates:
+  - "F003 Day314新收最小非身份关联查询而未得字段值/照片/签封人，2019双方实签封口及2016旧信在封/历史真人真正获答继续未知；F008/M004/M005无确认。"
+ending_state: "Day314 20:09周桃芳真正拿到姐姐信及旧巷照片、给姐姐写现时新地址；本件正确投递且旧牌未摘、其它投递与F003旧年证据仍待有权核实。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d5e014aa0ee53f18cee77501cd19b6ffb9a25025", final_draft_sha: "d5e014aa0ee53f18cee77501cd19b6ffb9a25025", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "3113a9421e4d3481354145986084f1ff285feb7f"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3405
