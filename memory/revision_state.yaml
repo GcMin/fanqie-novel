@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 455
-current_stage: ready_released_exact_CI_success
-current_source_path: chapters/draft/0455.md
-current_source_sha: d25719f4e6b87aca6b4469d06b33ea808619f93f
-current_review_path: reader_reviews/0455_d25719f4.md
+current_chapter: 457
+current_stage: candidate_structural_CI_pending
+current_source_path: chapters/draft/0457.md
+current_source_sha: 9fa071565e340ba3a96e2ab06f7ead462c89300e
+current_review_path: reader_reviews/0457_9fa07156.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,13 +12,13 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: ready_released_exact_CI_success
+last_action: reader_and_content_QA_pass_candidate_structural_pending
 last_action_date: "2026-11-02"
 last_error: null
-last_diff_summary: "454源正文不修改 Reader0/0/2 QA通过；455初审0/1/2只绑454临时SHA，Stage A比较454正文无事实差异后仅重绑FM和详纲，455新SHA复审0/0/2，正文0改内容QA通过，结构CI待真实验证"
+last_diff_summary: "456 Reader0/0/2正文未改，457初审0/1/2仅依赖前章临时SHA，逐段确认456前后正文相同，StageA只重绑FM和详纲，457新SHA复审0/0/2正文0改；内容QA均PASS"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: true
+publish_gate_passed: false
 current_review_source_sha: d25719f4e6b87aca6b4469d06b33ea808619f93f
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
@@ -3323,3 +3323,26 @@ release_454_455:
   status: ready
   main_ref_update: expected_sha_force_false_success
   ready_chapters: [454, 455]
+chapter_456_revision:
+  chapter: 456
+  source_sha: "8ebd5bee73490536021bab131711d1ed634ccdf6"
+  stage: no_revision_needed
+  reader_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 0
+  body_revisions: 0
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_457_revision:
+  chapter: 457
+  original_sha: "13856ab6179c92410a42bd3d08f325bef8d46594"
+  updated_sha: "9fa071565e340ba3a96e2ab06f7ead462c89300e"
+  stage: local_revision_predecessor_sha_only
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  body_revisions: 0
+  previous_draft_blob: "8ebd5bee73490536021bab131711d1ed634ccdf6"
+  previous_ready_blob: "de204dd4ec4cb0b4d620035f65358c247b0cc6cc"
+  predecessor_body_delta: none
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required

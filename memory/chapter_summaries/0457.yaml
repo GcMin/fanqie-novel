@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 457
+title: "电话打了两次，她的求助还没被读到"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "9fa071565e340ba3a96e2ab06f7ead462c89300e"
+original_source_sha: "13856ab6179c92410a42bd3d08f325bef8d46594"
+initial_review: "reader_reviews/0457_13856ab6.md"
+reader_review: "reader_reviews/0457_9fa07156.md"
+depends_on_chapter: 456
+depends_on_source_sha: "de204dd4ec4cb0b4d620035f65358c247b0cc6cc"
+dependency_status: verified_predecessor_factual_delta_checked
+timeframe: "Day318 20:40—Day319 20:16"
+summary: >-
+  Day318 20:40听障裴榆在南澜路东口见围挡阻断盲道及人行坡口，按公众渠道提交文字联系偏好，但20:53两次语音外呼被误写为“未接待确认”，无人用文字回复。夏宁21:06查原始偏好丢失，21:11亲发可读文字并于21:17真收裴榆本人回应，周衡梁策留两个拨号与有效联系分源。21:28有责道路/施工岗位隔离危险路径并核南侧合法绕行，22:07恢复围挡位置，22:36只东口经专业复核获准通行，河边另一段仍封，22:48裴榆真正读到范围明确的文字回复。Day319 09:24技术确认转派的默认语音回拨模板漏读原文字偏好，11:12仅本工单限项更正、正式接口测试待办；20:16裴榆见婴儿车真实走通东口，不把其余河边路认作开放。F003 Day319 11:38经限批仅获2022后期目录“外封侧缘局部”元数据在2022-11-18 15:42首次有写入，来源标“整理批次表导入”，不是2019原拍摄时间；下一来源版本申请仅收。2019双方真实签封及2016旧回告封内、历史本人真正获答仍无证，Day195三拆物和沈家私票各自分源，F008/M004/M005不确证。
+meaningful_state_changes:
+  - "东口从违法移位围挡压盲道到依法隔离后限项专业复核恢复，附近河边封路仍维持。"
+  - "裴榆从两次无效语音外呼被误写失联到本人文字回复与真收有责处置，原错外呼记录不删。"
+  - "F003只增加2022年后期目录录入时间和来源类别，不推2019拍摄真相。"
+knowledge_updates:
+  - "裴榆知道自身文字偏好未转派、本人能读实际复行范围，赵姨知道有责路口开放不等河边封线全开。"
+  - "夏宁周衡梁策只掌握拨号与真人文字答复的不同证据，现场资格岗位单独许可恢复；罗经办马芸只获后期目录形成元信息。"
+relationship_updates:
+  - "裴榆坚持自主文字沟通，赵姨从想替她联络改为尊重原渠道，城市服务中心对本人有可核回话。"
+foreshadowing_updates:
+  - "F003 Day319仅获2022-11-18 15:42后期写入与批次表导入类别，非2019原图证据；新申只收件。2019真签封口、2016旧回告、历史本人真受答未证，F008/M004/M005不升。"
+ending_state: "Day319 20:16东口依法通行、河边另段仍封，裴榆本人收到可读回复，两次无效语音留证，F003只增后期目录写入来源类别。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "13856ab6179c92410a42bd3d08f325bef8d46594", final_draft_sha: "9fa071565e340ba3a96e2ab06f7ead462c89300e", stage_a_used: 1, body_revisions: 0, predecessor_ready_blob: "de204dd4ec4cb0b4d620035f65358c247b0cc6cc", proposed_ready_blob: "780fad6ef5838cf9ad1b4e65839b6e44c1c18c5e"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3411

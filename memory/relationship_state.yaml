@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 455
+last_updated_chapter: 457
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1918,3 +1918,16 @@ chapter_455_relationship_verified:
   core_team: "夜间中心只提供有权协作和分源回执，不取私人语音或取得展览权限；三人既有相互信任评分不变。"
   archive: "罗经办马芸只获后期目录关联值确有非空记录，不冒称同一原件已验证。"
   trust_scores_unchanged: true
+
+chapter_456_relationship_verified:
+  chapter: 456
+  source_sha: "8ebd5bee73490536021bab131711d1ed634ccdf6"
+  he_mu_luo_shu: "何沐对罗叔解释自己未投和现场风险，罗叔帮忙转正提示牌并仅凭见闻拒绝无证指责；两人在邻里安全事上形成可证互助。"
+  trust_scores_unchanged: true
+chapter_457_relationship_verified:
+  chapter: 457
+  source_sha: "9fa071565e340ba3a96e2ab06f7ead462c89300e"
+  pei_yu_zhao_yi: "赵姨从想替报事人打电话和摆箱指路改为接受裴榆本人文字沟通及合法指引，裴榆明确不需别人代答；沟通尊重得到具体行动。"
+  pei_yu_service: "本人获得真实可读文字的风险告知与限项复行结果，不替全段签满意。"
+  trust_scores_unchanged: true
+

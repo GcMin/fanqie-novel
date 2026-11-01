@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 456
+title: "回收柜显示正常，热气却从门缝里出来"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "8ebd5bee73490536021bab131711d1ed634ccdf6"
+reader_review: "reader_reviews/0456_8ebd5bee.md"
+depends_on_chapter: 455
+depends_on_source_sha: "ae5f8d3ad10b10989534aa52d87eefdbab6958c3"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day317 20:37—Day318 20:12"
+summary: >-
+  Day317 20:37何沐在青柏路回收柜见假安全巡检绿灯、焦味及疑似热气，自己鼓包旧充电宝一直未投；罗叔带公众及孩子绕路。20:47何沐真报夜间中心，21:09有责物业隔离不堵消防口，21:26专业确认局部分格发热且成因不明，22:26有资质人员按权将热源移到受控接收，柜仍封用、投放人未知。Day318 09:13技术核实19:58在线心跳在新平台被错误映成“实体安全巡检完成”，真实前日16:10日巡与未执行夜巡分源；10:06仅本柜撤错绿屏保日志，未批准复用其它柜。何沐在合法人工岗位真交自有旧电池获得收件单，20:12仍见柜停。F003 Day318 11:31仅获2022后期目录“外封侧缘局部”文字，尚未见照片、2019原封真实同一性及互签封口；录入时间/来源下一限项申请仅收。2019双方真实签封及2016旧回告封内、历史本人真正获答仍无证，Day195三拆物和沈家私票各自分源，F008/M004/M005不确证。
+meaningful_state_changes:
+  - "本柜专业限项封控并受控移出热源，仍停用；假绿色巡检显示为在线心跳误映，本柜真正撤下错误开放。"
+  - "何沐自有危险旧充电宝未投故障柜而真交合规收件岗，罗叔协助路人绕行不猜责任。"
+  - "F003只得到后期目录拍摄方向文字而未见原图。"
+knowledge_updates:
+  - "何沐只知本人未投、报警、合法收件，罗叔仅知公共侧人和提示牌；二人不知柜内真实投放人或全部柜安全。"
+  - "夏宁周衡梁策只知物业/专业操作分源和在线心跳错映，不擅开柜鉴定；罗经办马芸只知后期目录非身份文字。"
+relationship_updates:
+  - "何沐与罗叔从邻里提醒到共同引导公众安全通行，不基于微信群传言定罪。"
+foreshadowing_updates:
+  - "F003 Day318仅获外封侧缘局部后期目录文字，录入来源时间待许可。2019真签封口、2016旧回告、历史本人真受答未证，F008/M004/M005不升。"
+ending_state: "Day318 20:12回收柜仍封用、错误绿屏已熄、何沐本人旧电池合规交付，F003限查。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "8ebd5bee73490536021bab131711d1ed634ccdf6", final_draft_sha: "8ebd5bee73490536021bab131711d1ed634ccdf6", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "ae5f8d3ad10b10989534aa52d87eefdbab6958c3", proposed_ready_blob: "de204dd4ec4cb0b4d620035f65358c247b0cc6cc"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3424
