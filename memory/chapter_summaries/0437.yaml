@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 437
+title: "蓝框下面，还有一道旧红线"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "e739d2a94eab45c1bfb88133931a90d2a254ee0b"
+reader_review: "reader_reviews/0437_e739d2a9.md"
+depends_on_chapter: 436
+depends_on_source_sha: "fc877f1a98af107f2de7723fd45eb674aa8d8bbf"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day298 20:43—Day299 20:11"
+summary: >-
+  Day298 20:43俞春霞在槐岸南巷口获批三号蓝框内卖热汤，田会兰发现折叠棚斜撑遮挡现役室外消火栓操作侧，旧红线仍留地面；21:07周衡梁策公共侧查蓝框与现物，21:23街道夜岗谢工与设施值守依法核实，许可有效但并不代表消防净空。俞春霞安全停火分桶降温，街道和道路分别限项核东侧空位，22:14推车实至本晚新位置、设施值守确认原消火栓可达可操作但未进行全面功能测试；Day299 11:27有责主管确认旧底图沿用改造前设备示意、蓝框未现场逐项复核，书面撤旧蓝框并限定新位条件，未倒写摊主自主占压。Day299 20:11俞春霞本人真收本晚调整通知且按许可新位出摊，其他摊位并未一并验收。F003承Day298 14:05申请，Day299 11:13受控目录仅证明2019交运附页主表有填写记录/续页待核两项状态标记出自后来的纸档数字化批次，而非2019现场实记；14:11再查来源类型仅收件。原纸、笔迹、封口、2016旧书面回告在封及历史人真正受答均未证，Day195旧片/两旧拆件/沈家私人票分源，F008/M004/M005未证。
+meaningful_state_changes:
+  - "当夜先停火并安全挪热汤推车，实际排除消火栓操作侧障碍，摊主得本晚有编号临时经营记录。"
+  - "Day299正式更正错误蓝框边界，继续经营只在被核准的时段和位置有效，不把责任倒写给摊主。"
+  - "F003从目录有填写/待核升级为确认状态标签系后期数字化录入，不证明2019现场签字。"
+knowledge_updates:
+  - "夜间中心可据照片与有责岗确认障碍和限定挪位结果，但不能为街道/道路/消防设备全面安全代签。"
+  - "罗经办马芸知道编目标记后期入录，不知道原始页内实际填字、签名、封口或旧人回话。"
+relationship_updates:
+  - "俞春霞与田会兰由争执走向分工协助：保洁员报告真实净空风险并帮收桌脚，摊主本人处理热桶和自主挪车；未建立超出本事的长期关系承诺。"
+  - "谢工承认街道确认单有效但底图有误，并出具临时记录；中心不代主管证明长期许可。"
+foreshadowing_updates:
+  - "F003 Day299 11:13只确认二〇一九交运附页两个后录目录标记；14:11新来源类型申请仅收件，2016旧纸与历史自然人真人答复均未知。"
+ending_state: "Day299 20:11摊主按当晚限定新位实际营业并收到通知，消火栓原操作侧恢复净空；F003后录来源待查。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2832

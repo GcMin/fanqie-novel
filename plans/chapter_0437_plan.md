@@ -42,3 +42,9 @@
 - 角色知识：夜间中心无道路/消防设施维修许可，消防设施维保岗位不核经营权，街道不能用经营许可替专业设施全面验收；当夜调位只对本晚特定点与时段有效。
 - 有效变化：红柱恢复实际可取用净空；摊位临时地点被依法调整、旧蓝框进入纠正且摊主得可核书面回执；F003识别目录状态属后期录入，证据分层更清。
 - 本轮只新增章纲和首次草稿；不执行Editor/Reader/Revision/QA/Memory/Publish Gate，也不发布平台。
+
+## 唯一Audit第437章交付核证（2026-11-01）
+- 审查源草稿 Git blob：`e739d2a94eab45c1bfb88133931a90d2a254ee0b`；Reader Pass A 后 Pass B `0 BLOCKER / 0 MAJOR / 2 MINOR`，建议 keep/none，无正文修订。
+- 独立 Continuity/Style/Meaningful QA PASS，2832有效字；前章436正式ready依赖 `fc877f1a98af107f2de7723fd45eb674aa8d8bbf` 精确匹配。
+- 本章Day298夜消火栓操作净空真实排障、摊主安全移位；Day299书面更正旧蓝框并限定经营时段；F003仅查得目录标签出自后期数字化，不证明2019原始实签封口与2016旧人回告。
+- status: ready（候选Commit结构CI成功并非强制更新main后才生效）；qa: pass；Reader: reader_reviews/0437_e739d2a9.md；QA: qa/0437_report.md。

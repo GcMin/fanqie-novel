@@ -3515,3 +3515,19 @@ chapter_436_audit_final:
   content_qa: pass
   proposed_ready_blob: "fc877f1a98af107f2de7723fd45eb674aa8d8bbf"
   structural_gate: exact_candidate_commit_CI_required
+
+chapter_437_audit_final:
+  chapter: 437
+  title: "蓝框下面，还有一道旧红线"
+  source_path: "chapters/draft/0437.md"
+  source_sha: "e739d2a94eab45c1bfb88133931a90d2a254ee0b"
+  final_review: "reader_reviews/0437_e739d2a9.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  reviews_this_cycle: 1
+  predecessor_ready_blob: "fc877f1a98af107f2de7723fd45eb674aa8d8bbf"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required

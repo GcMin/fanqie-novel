@@ -2988,3 +2988,18 @@ chapter_436_revision_final:
   factual_delta: "435旧草稿与正式ready小说正文完全相同，只变更交付元数据"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+
+chapter_437_revision_final:
+  chapter: 437
+  original_sha: "e739d2a94eab45c1bfb88133931a90d2a254ee0b"
+  final_sha: "e739d2a94eab45c1bfb88133931a90d2a254ee0b"
+  final_review: "reader_reviews/0437_e739d2a9.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "fc877f1a98af107f2de7723fd45eb674aa8d8bbf"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
