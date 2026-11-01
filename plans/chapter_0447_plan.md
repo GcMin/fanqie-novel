@@ -9,10 +9,10 @@
 - depends_on_source_sha: "a57ab52115067387df8652a4e184baff46072c28"
 - dependency_status: verified_exact_ready_blob
 - continuity_precheck: writer_precheck_only_not_qa
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: completed
+- qa: pass
+- approved_at: "2026-11-01"
+- publish_mode: ready
 - timeframe: "Day308 20:36—Day309 20:05"
 - pov: "邵微与邵端贴近视角、夏宁和周衡梁策、市政资料中心罗经办与马芸"
 - target_effective_chars: 3000
@@ -54,3 +54,9 @@
 - 对照最近十章摘要和近五章已ready全文、最新人物与知识/关系/世界状态、F003/F008伏笔及时间线；Bible硬设定优先，旧volume_05及arc_current.md为过期阶段记录，以第446章正式ready与最新QA写入的长期有界事实为准。未读取历史reader_reviews。
 - 写作仅 Planner、Continuity Precheck、Writer；没执行Reader、Revision、QA、Memory、Publish Gate、发布或修改既有章节。
 - 按不含Front Matter与空白、保留标点及`***`场景分隔符统计正文 3499 有效字符；优选2600—3400，硬限2300—3800。本章为待独立Audit的新草稿。
+
+## 唯一Audit独立Reader/QA与放行条件（2026-11-01）
+- 新稿Blob `b15fb6aaa5003f7320cd67e3fe41e17bf8e8e64c`，前446正式ready `a57ab52115067387df8652a4e184baff46072c28`精确依赖，原稿小说正文0修改。
+- 独立Reader Pass A→Pass B：0 BLOCKER / 0 MAJOR / 2 MINOR，无fix_required；独立Continuity/Style/Meaningful内容QA PASS，长度3499字符在硬限内。
+- K18新站真停且旧屏错报、父女本次接送真至住宅区公共正门，老站正式告示真正可读但完整无障碍衔接未获道路修复许可；F003目录题名未匹配原件。
+- 结构需候选精确Git Commit CI内 `python -m publisher.check_local --repo .` SUCCESS才可放行main。

@@ -1,3 +1,3 @@
-# 最近审核｜第445章｜2026-11-01
+# 最近审核｜第447章｜2026-11-01
 
-原稿 `78db8dc04a3655d1e65d854e878a6cc0be268d50` Reader 0/1/2，前章444未审临时SHA依赖是唯一MAJOR。比对第444章实际ready事实变化只涉及乔莉旧登记房东电话，与本章独立公厕/档案线无矛盾；Stage A仅重绑444正式ready `02981f2f0d7dcd38dfffc93a5bfee67a1b43d59b`并校正字数为3453，正文零改。新draft `2d4b9c27d0e51fc575ecafd4ccdb40d6c69a27a5` 独立Reader双遍0/0/2，Continuity/Style/Meaningful QA PASS。**精确候选CI结构SUCCESS**后才正式ready，详情 `qa/0445_report.md`。
+原稿Git Blob `b15fb6aaa5003f7320cd67e3fe41e17bf8e8e64c`，前446正式ready `a57ab52115067387df8652a4e184baff46072c28`依赖精确一致。独立Reader先Pass A后Pass B为0 BLOCKER/0 MAJOR/2 MINOR；无需Revision，正文0修改；独立Continuity/Style/Meaningful QA内容PASS，3499有效字在硬限内。F003仅见未关联原封件的2021同批影像目录题名，不确证历史签交或回告。详细审查见`reader_reviews/0447_b15fb6aa.md`及`qa/0447_report.md`；最终main放行须精确候选CI结构SUCCESS。

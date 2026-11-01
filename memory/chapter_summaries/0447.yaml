@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 447
+title: "车到新站了，旧站的人还在等"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "b15fb6aaa5003f7320cd67e3fe41e17bf8e8e64c"
+reader_review: "reader_reviews/0447_b15fb6aa.md"
+depends_on_chapter: 446
+depends_on_source_sha: "a57ab52115067387df8652a4e184baff46072c28"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day308 20:36—Day309 20:05"
+summary: >-
+  Day308 20:36邵微陪使用助行杖的父亲邵端在银麦路北口旧站等K18末班，20:59旧屏误显已到但未见车门；21:03本人报夜间中心。运营21:28查证K18实于20:57停获批南侧新站开关门，旧站沿用编码错误显示新站到站；老站正面无可读迁站公告而被遮纸条为巡检提醒。周衡梁策公共侧查证，21:47道路核最短线穿封闭施工、旁路高路缘和材料占净宽，不以直线距离判断助行杖可达。22:01公交运营仅本事件批准适配车辆在合规社区服务站接人，22:09邵端亲核车辆登记与女儿真上车、22:32到住宅区公共正门，未证已入家。Day309 11:21本路线老屏错报停止、正面正式迁站公告可读并保留原错误日志，11:57只核一般公众步行路线，助行杖完整无障碍道路仍待专业整治；20:05邵微真见改正，父亲独立安排下周合唱。F003本章仅依法见2021照片同批目录“封套外观备查”题名，未核本件原封号/正反/图像内容，14:12源关系申请仅收件；不证2019双方真签封口、2016旧书面回告在封或历史人实获答。Day195旧字窄片另两件拆物与沈家票分源，F008/M004/M005无证。
+meaningful_state_changes:
+  - "22:09父女经授权一次性适配车辆真上车，22:32到小区公共正门，不代确认入家或其他错等乘客已安置。"
+  - "Day309旧站本线路虚假已到倒计时真正停止且正面公告可读；一般公众步行路线现时可用不等助行杖无障碍全路验收。"
+  - "邵微从替父亲决定接送与行程转向尊重邵端自己核车、表达站点诉求和准备下周排练；F003仅增未关联的目录题名。"
+knowledge_updates:
+  - "公交车载新站开门、旧屏订阅错路由、运营限定接送和道路现时核路各自有源，中心只联动不越权限；完整助行杖线路仍未知。"
+  - "罗经办马芸只知2021照片目录另有封套外观备查题名，不知它是否本封件、拍摄方向及内容、2019实签封口或2016历史真人答复。"
+relationship_updates:
+  - "邵端独立维护合法乘客知情和判断，女儿尊重其人而不把使用助行杖等同无判断力；无超出本案的长期信任承诺。"
+foreshadowing_updates:
+  - "F003 Day309受限目录题名未与实封件绑定，14:12新申请仅收件；2019双方签封、2016回告在封与旧人实获答未证，F008/M004/M005无新证。"
+ending_state: "Day309 20:05银麦路旧屏K18误导停止且公告可读、父女前夜仅真到住宅区公共正门；完整助行杖新站通路待专业整治，F003封套外观目录题名待依法匹配。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "b15fb6aaa5003f7320cd67e3fe41e17bf8e8e64c", final_draft_sha: "b15fb6aaa5003f7320cd67e3fe41e17bf8e8e64c", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "a57ab52115067387df8652a4e184baff46072c28"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3499

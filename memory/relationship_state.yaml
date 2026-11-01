@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 446
+last_updated_chapter: 447
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1846,4 +1846,12 @@ chapter_446_relationship_verified:
   pang_yin_and_student: "庞茵阻止孩子踩水并告知实际可走的地面绕路，孩子次日记住路线；短暂互助未形成超过本案的长期关系。"
   core_team: "夏宁周衡梁策保持有源联动与安全侧核证合作，现有关系评分不变。"
   archive: "罗经办马芸共同遵守2021母图范围说明，不因未覆盖外封正面便推断其历史封口状态。"
+  trust_scores_unchanged: true
+chapter_447_relationship_verified:
+  chapter: 447
+  source_sha: "b15fb6aaa5003f7320cd67e3fe41e17bf8e8e64c"
+  shao_duan_and_shao_wei: "父亲邵端拒把行动慢当缺少判断，要求现实能上车的站点；女儿邵微由想替他解决出行转为尊重本人明确诉求、亲核合法接送和下周自己安排谱本的意愿。"
+  shao_family_and_operators: "当晚适配车辆仅针对本次两名错等乘客，经公交主管具体许可，未对其它错等乘客或未来无障碍路线作无证承诺。"
+  core_team: "夏宁周衡梁策维持按来源联动和公共侧安全核证合作，三人关系评分不变。"
+  archive: "罗经办马芸不因旧批照片目录题名就把它写成本件外封正面存在并实见。"
   trust_scores_unchanged: true
