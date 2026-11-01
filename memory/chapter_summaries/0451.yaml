@@ -1,0 +1,38 @@
+schema_version: 1
+chapter: 451
+title: "钟没走到十二点，整条街先醒了"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "960679a19daa16c18abac34ad7166ba9ae9656d3"
+source_draft_sha: "17e12cc3557e4f75160ff43cf6b3854722f301e6"
+initial_review: "reader_reviews/0451_960679a1.md"
+reader_review: "reader_reviews/0451_17e12cc3.md"
+depends_on_chapter: 450
+depends_on_source_sha: "49f7e1f46cef95a29a533b6e3c28abe75ed27929"
+dependency_status: verified_predecessor_factual_delta_checked
+predecessor_original_draft_sha: "fbbb374da4fe0281b69815b2b6a95a5b7855e124"
+predecessor_factual_delta: "450原稿只删F003段的第449章元叙事章节编号并改前一日下午申请，Day312 14:11补件、20:11结束和猫实际归人未改变；451独立钟楼案与档案权限连续"
+timeframe: "Day312 20:47—Day313 20:05"
+summary: >-
+  Day312 20:47西林广场钟面仍指20:47，楼顶普通报时音源却误响午夜十二下，辛荔与女儿被惊扰；公示报修只放自动已受理语音，20:56夏宁真人听报并保存原录像。21:08物业保安余祁只见20:46照明短闪，不替专业下因果结论；21:16周衡梁策只公共侧核扬声器/检修通路，21:27有责报时岗确认普通外放与消防广播独立；21:32又有三声但与远程重试只时间相邻。21:48持证维护到场核，21:52有权主管签有限停播令、21:57实际上停，22:00钟面照走而报时未播。Day313 09:41持证维护查日志确认普通外放控制器20:47因20:46供电波动重启且备用时钟电池欠压，内部误认为00:00播十二声，21:32三声单独待核；11:16换备用电池并完成两次隔离受控测试无误触发，14:09主管只批准公告范围内一次有限公众试音，夜间常态恢复未获批准；20:05辛荔看到钟走而音源仍不播，保留原录像。F003承450 Day312 14:11补用途说明，Day313 11:27只登记补件并权限审核中，未开放目标2019封号与2022目录子项映射、照片及签封身份，2019实签封口/2016旧回告在封和历史本人受答未证，Day195旧片两拆物沈家票分源，F008/M004/M005不确证。
+meaningful_state_changes:
+  - "夜间普通钟声实际上经主管批准21:57停播，钟面独立照走；保留自动报修假已受理和居民原视频分源。"
+  - "Day313专业限项发现20:47控制器因备用电池欠压重启误认零点并换电池、受控两次内测过，但尚未批准夜间复用；21:32三声仍有限未定。"
+  - "F003用途补件只获登记/权限审查中，不得到目标旧封图与身份，历史真实性边界不变。"
+knowledge_updates:
+  - "辛荔仅知道自己录到十二声及三声、普通报时21:57真停并已获有限试音公告，不替钟楼后面或全楼消防作安全鉴定。"
+  - "余祁只保存照明日志，周衡梁策区分钟面与外放及现场安全，专业维护按有责日志认一次重启原因，不能武断将21:32的三声归到完全相同原因。"
+  - "罗经办马芸知道Day313 11:27用途补件登记/权限审核中，不知道2019封件与2022子项编号具体同一性或旧年真签、旧人获答。"
+relationship_updates:
+  - "辛荔与女儿从错听半夜报时、吵醒到辨清真实时点与报时停播，辛荔坚持有责岗位给出可核时段而非绿字承诺。"
+  - "辛荔与中心职业协作限于提交原视频和得到有责真实停播，不被要求替所有商户保证全夜无其它噪声。"
+foreshadowing_updates:
+  - "F003从Day312补用途说明进入Day313 11:27正式登记且继续权限审核中，没有历史封件对应的图像/身份/实签；F008/M004/M005不证。"
+ending_state: "Day313 20:05西林广场钟面连续正确走时，普通报时喇叭未获夜间复用许可；首个12声普通控制器错时原因已有限查明修理，第二次3声细序列待查；F003仍限权审核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "960679a19daa16c18abac34ad7166ba9ae9656d3", final_draft_sha: "17e12cc3557e4f75160ff43cf6b3854722f301e6", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "fbbb374da4fe0281b69815b2b6a95a5b7855e124", predecessor_ready_blob: "49f7e1f46cef95a29a533b6e3c28abe75ed27929", predecessor_factual_delta: "450旧稿经删除元叙事后没有真实剧情状态变化，451情节和F003资料状态兼容", proposed_ready_blob: "3113a9421e4d3481354145986084f1ff285feb7f"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3583

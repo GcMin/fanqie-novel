@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 450
+last_updated_chapter: 451
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1877,4 +1877,12 @@ chapter_450_relationship_verified:
   fang_qiao_and_lizi: "三天寻猫后Day311 22:29猫包实际回到方荞手里，猫触灰围巾提供有限情感线但不替代正式身份核认。"
   core_team: "夏宁周衡梁策维持来源分层及不越权合作，三人长期信任评分不变。"
   archive: "罗经办马芸遵守2022通用目录子项身份对应受限边界，不虚构2019目标照片与旧年互签。"
+  trust_scores_unchanged: true
+chapter_451_relationship_verified:
+  chapter: 451
+  source_sha: "17e12cc3557e4f75160ff43cf6b3854722f301e6"
+  xin_li_and_daughter: "女儿把20:47十二声误当半夜，辛荔照真实手机时间安抚、保护门边湿地砖并在专业停播后坚持有责说明，Day313面对女儿的后续钟声问题仍按深夜禁播规则回答。"
+  xin_li_and_service: "由自动报修已受理却无人真人答到中心真正记录声音、主管批准并21:57实停；辛荔信任的是具体时点和可核范围，不接受无人依据保证永远无噪声。"
+  core_team: "夏宁周衡梁策维持岗位内来源分层合作及安全优先，不修改长期信任评分。"
+  archive: "罗经办马芸合作维持目录子项审核边界，不因Day313受理而写成本件封号已核或历史人受答。"
   trust_scores_unchanged: true

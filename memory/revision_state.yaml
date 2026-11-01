@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 450
-current_stage: audit_0450_candidate_requires_exact_ci
-current_source_path: chapters/draft/0450.md
-current_source_sha: 00ebd3edb8064812c676312929c80e06007dd211
-current_review_path: reader_reviews/0450_00ebd3ed.md
+current_chapter: 451
+current_stage: audit_0451_candidate_requires_exact_ci
+current_source_path: chapters/draft/0451.md
+current_source_sha: 17e12cc3557e4f75160ff43cf6b3854722f301e6
+current_review_path: reader_reviews/0451_17e12cc3.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0450_candidate_requires_exact_ci
+last_action: audit_0451_candidate_requires_exact_ci
 last_action_date: "2026-11-02"
 last_error: null
-last_diff_summary: "第450章正文仅局部删除第449章元叙事字样；新SHA重新双遍Reader0/0/2，内容QA PASS，等待精确候选CI"
+last_diff_summary: "第451章唯一MAJOR为450旧provisional依赖；对照450旧稿与正式ready仅F003元叙事修正且无剧情事实变化，451 Stage A仅重绑FM和详纲，正文不改，新SHA Reader0/0/2，内容QA PASS，待精确CI"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -3215,5 +3215,22 @@ chapter_450_revision:
   correction: "删除小说F003档案段中第449章元叙事并改为前一日下午14:02实际申请；无其他剧情事实变化"
   predecessor_ready_blob: "8da01a362e815a42f294201da0842be0dcce02a6"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_451_revision:
+  original_source_sha: "960679a19daa16c18abac34ad7166ba9ae9656d3"
+  first_review: "reader_reviews/0451_960679a1.md"
+  final_source_sha: "17e12cc3557e4f75160ff43cf6b3854722f301e6"
+  final_review: "reader_reviews/0451_17e12cc3.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  correction: "第450章旧草稿SHA重绑正式ready并核F003元叙事修订不改Day312剧情与F003档案权限，451正文0改"
+  predecessor_original_draft_sha: "fbbb374da4fe0281b69815b2b6a95a5b7855e124"
+  predecessor_ready_blob: "49f7e1f46cef95a29a533b6e3c28abe75ed27929"
+  dependency_status: verified_predecessor_factual_delta_checked
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
