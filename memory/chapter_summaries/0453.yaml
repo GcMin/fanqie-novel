@@ -29,5 +29,5 @@ foreshadowing_updates:
 ending_state: "Day315晚20:12孩子回到画室并于课后由母亲再真签领走；本中心错误自动接领通知已有限停用，其他班次与正式修复待核；档案仍无2019签封及2016实际回告证据。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "5c7860d5a8f4e8fb5b8ee3bd638b08b92321da96", final_draft_sha: "5c7860d5a8f4e8fb5b8ee3bd638b08b92321da96", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "954343875e5eab408fc80077c44501b40d337b20"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_success}
 char_count: 2616

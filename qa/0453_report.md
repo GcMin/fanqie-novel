@@ -9,3 +9,8 @@
 - **Meaningful PASS**：孩子20:38被误判签退却在场，21:32生母真签，次日本中心停错通知且保留旧日志；孩子第二晚把老师画进四人图。不是仅重复“已完成”的判断。
 - **序号/标题/字数 PASS**：章号453，标题 `签退栏已经绿了，孩子还坐在教室里` 与Front Matter/详细章纲一致，effective_chars=2616（去Front Matter、空白和***），在首选2600—3400及硬限2300—3800内。
 - **结构门槛**：此报告为独立内容QA，不等于CI通过。须在包含Memory、CSV和拟ready迁移的**精确候选commit**上确认GitHub Actions运行 `python -m publisher.check_local --repo .` 和结构单元测试SUCCESS后，方可使用expected_sha、force:false更新main。
+
+## 结构校验与正式放行证据（已核实）
+- 0453候选Commit `42db09b092d3bc7432d82075c08b53052cfc4e60` 的GitHub Actions `41335712200` 为**SUCCESS**，其Check作业对精确SHA完成 `Test offline snapshot validation`（单元测试SUCCESS）及 `Validate this checkout without Git sync or publishing`（运行 `python -m publisher.check_local --repo .`，SUCCESS）。
+- 已在candidate SUCCESS之后、GitHub main仍指向前HEAD `87cbaaa3903b109b01bcca67695b096b5736412c` 时，用 `expected_sha` 且 `force:false` 将上述候选commit正式推进main，更新结果 `success:true`。
+- 新的main提交 `42db09b092d3bc7432d82075c08b53052cfc4e60` 上GitHub Actions `41335848643` 也为**SUCCESS**；正式ready文件 `chapters/ready/0453.md` 的Blob `03cc2f0be704fbf9aaadf2eb22e66bae858a85e1`，原草稿已从main删除。实际结构与发布前提均满足。此项不替代本报告的Reader与内容QA。

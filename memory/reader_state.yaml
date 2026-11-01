@@ -3852,4 +3852,4 @@ chapter_453_review:
   predecessor_ready_blob: "954343875e5eab408fc80077c44501b40d337b20"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_commit_CI_success
