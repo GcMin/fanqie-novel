@@ -9,3 +9,8 @@
 - **Meaningful state change PASS**：首个误报的普通技术原因由有责日志/离线测试锁定并换备用电池，普通报时确实停而钟面继续走；公众短测获有限许可、夜间常态恢复仍待另批，辛荔获得可核的夜间安静状况而非虚假结案语音。
 - **章号/标题/字数 PASS**：451，《钟没走到十二点，整条街先醒了》，FM和计划一致；3583有效字符（publisher.normalized），超3400偏好但未超3800硬上限。相邻案结构及F003细步申查属MINOR，不因此无关重写。
 - **结构前置**：此为独立内容QA证据，仍需精确Git候选版本CI实际执行 `publisher.check_local` 和结构单元测试SUCCESS、长期Memory/计划同步及main父SHA检查才准迁入ready。
+
+## 正式结构校验与ready放行事实｜2026-11-02
+- 精确候选/正式放行 commit：`bfb177d3cc3041b2546c91ff516f0055ba5c3a95`，父提交为已正式放行第450章的`968ed67a6a8d83dd85bf2249a36ab67e1ca60f62`，包含本QA、独立新SHA Reader、新章节摘要、人物知识/世界/伏笔/时间/关系、详细计划与CSV。
+- 精确候选CI `41326170819` **SUCCESS**，其中包含结构单元测试及`python -m publisher.check_local --repo .`；成功后采用`expected_sha`、`force:false`非强制main更新。最终main CI `41326212562`也**SUCCESS**。
+- 正式路径 `chapters/ready/0451.md`，Blob `3113a9421e4d3481354145986084f1ff285feb7f`；原`chapters/draft/0451.md`已在该原子提交中删除，451新Review针对`17e12cc3557e4f75160ff43cf6b3854722f301e6`、前450 ready blob `49f7e1f46cef95a29a533b6e3c28abe75ed27929`。

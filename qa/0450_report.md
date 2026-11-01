@@ -10,3 +10,8 @@
 - **Meaningful state change PASS**：原主人从找猫未果到实际有猫在猫包、获得医学观察提示并保留真实22:29交接时间；协作点接收误映主人签领完成本笔正式更正，另外两笔和全系统未结。
 - **序号 / 标题 / 有效字数 PASS**：450，标题《猫还在临时笼里，系统已经写了领回》与详细计划、FM一致，不含“第 N 章”，标题长度>=5。按publisher.normalized口径有效字符3716，落在2300–3800硬区间，超过3400首选上限但有完整失猫安全核认、次日核错及F003两个独立现场，无灌水式补字。
 - **结构门槛**：内容QA不替代精确版本Git提交的`python -m publisher.check_local --repo .`与GitHub CI；只有结构检查实际SUCCESS且完整计划、Memory已同步，才允许从draft原子迁ready。
+
+## 正式结构校验与ready放行事实｜2026-11-02
+- 精确候选/正式放行 commit：`968ed67a6a8d83dd85bf2249a36ab67e1ca60f62`，由main父commit `c6144120889052b2c594ac7b965a2d44669093d2`构造完整Git Tree，包含本QA、有效Reader、章节摘要/人物/知识/关系/世界/时间/伏笔/Arc状态、CSV详细章纲。
+- 该精确候选SHA的GitHub CI `41325727245` **SUCCESS**，工作流同时运行结构单元测试与`python -m publisher.check_local --repo .`（只读），之后以`expected_sha`、`force:false`非强制迁入main。最终同SHA的main CI `41325785390`也**SUCCESS**。
+- 正式路径 `chapters/ready/0450.md`，Git Blob `49f7e1f46cef95a29a533b6e3c28abe75ed27929`；原`chapters/draft/0450.md`在该原子提交中删除。Reader严格绑定最终修订draft SHA `00ebd3edb8064812c676312929c80e06007dd211`，没有复用旧SHA审核。
