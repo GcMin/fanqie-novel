@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 441
+title: "停航的第二晚，票还在卖"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "ec498e1ade817345749d9e2dfe665cb54785e465"
+source_draft_sha: "61f92a650132212dfe66d7a21bad9189f4277e99"
+initial_review: "reader_reviews/0441_ec498e1a.md"
+reader_review: "reader_reviews/0441_61f92a65.md"
+depends_on_chapter: 440
+depends_on_source_sha: "4075b7cbc26c46d46ecf4b0c92389e69eae8da83"
+dependency_status: verified_predecessor_body_identical
+timeframe: "Day302 20:47—Day303 20:06"
+summary: >-
+  Day302 20:47闻沫为当夜将七珠领饰送北岸服装师傅而从第三方代售端实付18元购槐浦已停航的21:40船票，码头浮台仍封、无旅客进闸。夏宁拆分渡运端停航与代售端过时班表，九点四十二分退款请求仅受理；当班售票入口22:24才由平台正式封停，22:31公众查询见不可购票，旧分享页缓存仍未全查。闻沫由公交有责岗确认既有正常夜线，22:34本人上车、23:08北岸正规公交站下车、23:26师傅正门真人签收领饰，未使用440仅一班的接驳授权。Day303 10:18专业更换防退旧件但仍需试载验收，渡口禁登/未复航；11:09退款正式批准，14:37闻沫原账户实收18元并本人确认，另外两笔交易及缓存未全部结。F003只针对上一章2019同号原纸指定局部短蓝痕登记保护评估，不扩看笔迹、不证明年代/签认/封口或2016旧回告及旧人真实收答；Day195旧物与沈家私人票分源，F008/M004/M005无证。
+meaningful_state_changes:
+  - "第三方票务对本停航班次实际封停售入口，原付款保留；未知缓存及其他交易不虚报全结。"
+  - "闻沫改乘正常夜公交并获师傅真正收下七珠领饰，Day303 18元实际退回本人账户；渡口仍不获复航许可。"
+  - "F003蓝痕原件保护评估获受理但未有笔迹鉴定或扩大阅档。"
+knowledge_updates:
+  - "夏宁周衡梁策知道昨夜仅一次接驳不跨夜，今夜正常公交已核、闻沫真实交件/退款；另一未购票问路者去向及另外两笔售后未知。"
+  - "罗经办马芸仅知保护评估登记被受理，蓝痕年代/成因、2019互签封口和2016旧回告仍不证。"
+relationship_updates:
+  - "闻沫与师傅另约23:30前正门真人接件，不让工作人员为演出未来验收预签；本人同意保存票务证据但拒作宣传素材。"
+foreshadowing_updates:
+  - "F003仅推进蓝痕保护评估登记，F008无可靠新记忆反证，M004/M005无确证。"
+ending_state: "Day303 20:06第441章闻沫已交件且18元实退，但槐浦渡口仍封闭、复航许可未出，第三方缓存与其他订单待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ec498e1ade817345749d9e2dfe665cb54785e465", final_draft_sha: "61f92a650132212dfe66d7a21bad9189f4277e99", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_draft_sha: "3b308b6093cd5cbf9ba605885abea9afd3696aad", predecessor_ready_blob: "4075b7cbc26c46d46ecf4b0c92389e69eae8da83", predecessor_factual_delta: "第440章小说正文逐字相同，仅交付Front Matter变化"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 2955

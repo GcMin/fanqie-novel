@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 439
-current_stage: reader_qa_pass_candidate_requires_exact_ci
-current_source_path: chapters/draft/0439.md
-current_source_sha: cd620a7a5270e8dd2f7b1a799ddf1e51fc39306b
-current_review_path: reader_reviews/0439_cd620a7a.md
+current_chapter: 441
+current_stage: audit_0441_candidate_requires_exact_ci
+current_source_path: chapters/draft/0441.md
+current_source_sha: 61f92a650132212dfe66d7a21bad9189f4277e99
+current_review_path: reader_reviews/0441_61f92a65.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,7 +12,7 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0439_candidate
+last_action: audit_0441_candidate_requires_exact_ci
 last_action_date: "2026-11-01"
 last_error: null
 last_diff_summary: "Stage A仅将439前章依赖从438原草稿SHA重绑至当前438 ready SHA，并逐字核438逾时台词差异不影响439事实；439正文零改，新SHA Reader 0/0/2、QA内容PASS，等待候选commit精确结构CI"
@@ -3036,5 +3036,37 @@ chapter_439_revision_final:
   predecessor_original_draft_sha: "7872ac0e6920b2889073aae434f1d38ec48592c0"
   predecessor_ready_blob: "d9fa7b4d8e127ac7767cbf9d5a1f2243bbc776e1"
   dependency_status: verified_predecessor_factual_delta_checked
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_440_revision_final:
+  chapter: 440
+  original_sha: "3b308b6093cd5cbf9ba605885abea9afd3696aad"
+  final_sha: "3b308b6093cd5cbf9ba605885abea9afd3696aad"
+  final_review: "reader_reviews/0440_3b308b60.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "16ae63626aa8a6a64a95de075088abba3f0caefc"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_441_revision_final:
+  chapter: 441
+  original_sha: "ec498e1ade817345749d9e2dfe665cb54785e465"
+  final_sha: "61f92a650132212dfe66d7a21bad9189f4277e99"
+  initial_review: "reader_reviews/0441_ec498e1a.md"
+  final_review: "reader_reviews/0441_61f92a65.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  correction: "440原draft与ready正文逐字相同，仅把441 FM及详纲依赖重绑正式440 ready blob"
+  predecessor_original_draft_sha: "3b308b6093cd5cbf9ba605885abea9afd3696aad"
+  predecessor_ready_blob: "4075b7cbc26c46d46ecf4b0c92389e69eae8da83"
+  dependency_status: verified_predecessor_body_identical
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 439
+last_updated_chapter: 441
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1792,4 +1792,18 @@ chapter_439_relationship_verified:
   riverside_duty_and_citizens: "邱岭保留旧巡查完成勾和两名实际21:53离园记录，不替巡查员假证人员清空；有责主管只核本栈道临时新时段，两人的抗议有源可查。"
   core_team: "中心夜班和河岸保安/照明/运营分权协作，梁策周衡不代有责岗位开门和改灯时。"
   archive: "罗经办与马芸严分旧格式栏位存在、后期数字化标签与2019原始实际签记，未借空格式冒充原封完整。"
+  trust_scores_unchanged: true
+chapter_440_relationship_verified:
+  chapter: 440
+  source_sha: "3b308b6093cd5cbf9ba605885abea9afd3696aad"
+  passenger_and_staff: "秦双为九岁外孙送生日蛋糕而急，许简不因绿屏票面放人涉险；四人真在北岸正式站下车，仅秦双本人到外孙处另获证，其他三人归家未知。"
+  core_team: "周衡梁策夏宁守公共侧真实核查与专业渡运/道路有责批准边界。"
+  archive: "罗经办马芸坚持原纸局部蓝痕不能当2019互签封口证据。"
+  trust_scores_unchanged: true
+chapter_441_relationship_verified:
+  chapter: 441
+  source_sha: "61f92a650132212dfe66d7a21bad9189f4277e99"
+  customer_and_merchant: "闻沫与师傅协调经正式正门夜间接件，师傅真收七珠领饰但不预签明日演出验收；闻沫要求实退18元而非以受理冒充到账。"
+  core_team: "夏宁周衡梁策与许简严分码头禁登、第三方停售、公交运行、真实退款和复航权限。"
+  archive: "罗经办马芸只做蓝痕保护评估登记，不偷换成纸本历史真实交接证据。"
   trust_scores_unchanged: true

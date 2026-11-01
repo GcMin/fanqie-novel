@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 440
+title: "最后一班船没有靠岸"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "3b308b6093cd5cbf9ba605885abea9afd3696aad"
+source_draft_sha: "3b308b6093cd5cbf9ba605885abea9afd3696aad"
+reader_review: "reader_reviews/0440_3b308b60.md"
+depends_on_chapter: 439
+depends_on_source_sha: "16ae63626aa8a6a64a95de075088abba3f0caefc"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day301 21:24—Day302 20:09"
+summary: >-
+  Day301 21:24秦双带九岁外孙生日蛋糕到槐浦渡口，21:28船舶定位范围触发错误“靠泊完成”，实际船未贴靠、浮台活动跳板定位销异常；值守许简21:33关闭闸门、21:41获正式禁登，四名候船者未上船。渡运与客运有责岗位22:23仅批准本班桥路接驳，22:42四人实际上车、23:08到北岸正式站点，秦双23:26真正送蛋糕到外孙处，其余三人到家未知。Day302 09:31专业发现定位销防退件松动/跳板支承偏移，11:21继续封闭待检，15:05仅本线页面区分靠近与允许登乘，终端缓存及复航仍未核准。F003承439 Day301 14:18申请，Day302 10:16获窄批后11:06在2019同号原纸背面“外封交运核看”指定非身份局部见一段短蓝痕，未知笔迹形成时间/原因/签认/封口；14:12明确后续需原件保护评估和新授权，2016旧书面回告是否在封及历史人是否真实获答未证，Day195旧物、两件旧拆物、沈家票仍不同源，F008/M004/M005无证。
+meaningful_state_changes:
+  - "四名候船者只经本班获批桥路接驳真实到北岸正式站，秦双独立证实蛋糕送达；未以船舶靠近或票务绿屏充作实际登乘。"
+  - "渡运确认旧接口靠近误报，专业核查连接件问题但仍禁登、未复航；本线展示只有限纠误。"
+  - "F003首获限项看见2019同号原纸指定栏局部蓝色短痕，性质及时间均未知。"
+knowledge_updates:
+  - "夏宁周衡梁策仅知现场禁登、当班获准接驳及四人到北岸站点，不知道另外三人是否到家；无自行检修、复航或批准跨夜接驳权限。"
+  - "罗经办马芸仅知2019同号原纸局部有蓝痕，未知字迹年代、互签、封口及2016旧回告是否在封。"
+relationship_updates:
+  - "秦双与许简从票面争执转为按单班合规交通选择安全过河，现场人员尊重其真实送蛋糕诉求，不代其他乘客签回家。"
+foreshadowing_updates:
+  - "F003从格式栏存在推进到同号原纸局部实际蓝痕，但证据不足以证明历史互签、封口或2016真回话；F008/M004/M005未确证。"
+ending_state: "Day302 20:09槐浦浮台仍停航且昨夜接驳仅一班生效；原纸蓝痕性质待新许可。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "3b308b6093cd5cbf9ba605885abea9afd3696aad", final_draft_sha: "3b308b6093cd5cbf9ba605885abea9afd3696aad", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "16ae63626aa8a6a64a95de075088abba3f0caefc"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3233

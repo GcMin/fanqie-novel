@@ -6,13 +6,13 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "504a09a4f7e2a60538362dd7e0dca6119d21bce7"
 - depends_on_chapter: 440
-- depends_on_source_sha: "3b308b6093cd5cbf9ba605885abea9afd3696aad"
-- dependency_status: provisional
+- depends_on_source_sha: "4075b7cbc26c46d46ecf4b0c92389e69eae8da83"
+- dependency_status: verified_predecessor_body_identical
 - continuity_precheck: writer_precheck_only_not_qa
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-11-01"
+- publish_mode: ready
 - timeframe: "Day302 20:47—Day303 20:06"
 - pov: "闻沫、许简、夏宁、周衡、梁策；罗经办、马芸"
 - target_effective_chars: 3000
@@ -46,3 +46,7 @@
 - F003在0440仅原2019纸本局部蓝痕，形成时间、人员、交运双方签认、封口、2016旧纸是否在封及历史报事人是否真收到均不明；Day195旧窄片、两件拆物与沈家私票不同源。F008无新可靠具体个人记忆冲突，F009/F010/F011已resolved，M004/M005无新确证。
 - 本轮实际读过最新AGENTS/config/写作职责与读取协议、Bible及周衡夏宁梁策人物卡、现存卷/ARC文档、人物/关系/知识/世界Memory、伏笔时间线、0431—0439九章摘要和0436—0439四章正式正文，以及0440整章未审稿与详纲。0440尚无正式摘要；没有读取历史reader_reviews。
 - 本轮只执行Planner/Continuity Precheck/Writer，新增详纲和draft首稿。正文2955有效字符（含标点不含空白/Front Matter/场景分隔符），不执行独立Reader、Revision、QA、Memory/Publish Gate或发布。
+
+## 独立Audit事实与放行门槛（2026-11-01）
+- 原draft `ec498e1ade817345749d9e2dfe665cb54785e465` Reader初审0/1/2；仅Stage A重绑第440章正式ready `4075b7cbc26c46d46ecf4b0c92389e69eae8da83`，确认前章正文与原草稿完全相同；新draft `61f92a650132212dfe66d7a21bad9189f4277e99`独立双遍Reader 0/0/2，正文0改。
+- 第441章QA内容PASS 2955字；拟ready blob `a04f99891cd93efe533a12269f29889625a5a67b`，结构须精确候选Commit验证后才可main ready。
