@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 448
+title: "秤盘没归零，先被称错的是人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "8f67abfb1f799f999caa06d5580ed3319ac5c458"
+source_draft_sha: "88e144b3466a2d339a3ec83b62d90c510e01099a"
+initial_review: "reader_reviews/0448_8f67abfb.md"
+reader_review: "reader_reviews/0448_88e144b3.md"
+depends_on_chapter: 447
+depends_on_source_sha: "7a614d178ca3a86752a8055b6d561999c0d45ecf"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day309 20:31—Day310 20:06"
+summary: >-
+  Day309 20:31叶荔在槐杉夜市向何雅晴买标重一公斤红豆，摊秤含新纸袋毛重，出口公平秤带未解除0.08公斤去皮值重复显示0.89，双方都无法单凭初见认定净重。20:43叶荔报夜间中心，21:08葛叔核取证、21:16市场将本台停用留照、管理室另一台复称真确红豆净重不足但小于出口误差；何雅晴承认纸袋同称，21:49真实补足一袋。21:58截短传播误指摊主卖0.89公斤，叶荔限定纠正群图，传播未完全撤除、其它旧订单须逐笔核。Day310 09:24专业在停用条件核秤台支脚松动与昨晚旧去皮值，具体按键者未知；14:14专业限定复核、15:06市场仅本台恢复公众使用，摊主自身秤和旧客诉仍待另查。Day310 20:06叶荔给摊主展示真正蒸成的豆糕，何雅晴下一次称重主动把纸袋先放旁边。F003 Day310 11:13合法确定2021同批照片目录题名“封套外观备查”只是2022整理多件共用名称，不是2019目标件一对一识别；14:08唯一关联申请仅收件。2019双方实际签交封口、2016回告是否在封及旧自然人是否真正获答均未证，Day195旧字窄片与两拆件沈家私票分源，F008/M004/M005不确认。
+meaningful_state_changes:
+  - "21:49叶荔本袋净豆真实补足且限定纠正被剪辑群图，不代表全网消除或所有历史交易清白。"
+  - "当夜公共秤有责停用，次日专业限项复核后仅恢复这台；旧消费者投诉与摊秤另列。"
+  - "F003确认2022目录题名是多件通用编目名，不能据此认目标2019封件已拍到。"
+knowledge_updates:
+  - "何雅晴知自己将新纸袋一同称作一公斤毛重；叶荔知本袋实际不足已补足且公共秤带去皮值，二人不知旧交易一律有无问题。"
+  - "专业只证昨晚旧去皮状态、支脚松动与限定复核，具体操作去皮键者仍未知。"
+  - "罗经办马芸只知2022通用目录标题形成批次，不知是否目标封件与图片正反/内容；2019实签封口与2016旧受答未知。"
+relationship_updates:
+  - "叶荔与何雅晴从相互怀疑转为有限的本袋事实承认与纠正，未全面和解旧订单或解决群视频传播。"
+foreshadowing_updates:
+  - "F003 Day310排除目录题名自动绑定目标件，14:08后续窄查只收件，未证2019互签封口和2016真人收答；F008/M004/M005不确认。"
+ending_state: "Day310 20:06槐杉夜市本台公平秤已获权恢复、何雅晴摊秤及旧单另核，叶荔带回实补红豆成糕并有限修复关系；F003通用目录名不证明目标封件。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "8f67abfb1f799f999caa06d5580ed3319ac5c458", final_draft_sha: "88e144b3466a2d339a3ec83b62d90c510e01099a", initial_counts: "0/2/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, predecessor_ready_blob: "7a614d178ca3a86752a8055b6d561999c0d45ecf", final_ready_blob: "2af1612cf50972cf570ad8aa25f9219cba61f1c1"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3393

@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 447
-current_stage: audit_0447_candidate_requires_exact_ci
-current_source_path: chapters/draft/0447.md
-current_source_sha: b15fb6aaa5003f7320cd67e3fe41e17bf8e8e64c
-current_review_path: reader_reviews/0447_b15fb6aa.md
+current_chapter: 448
+current_stage: audit_0448_candidate_requires_exact_ci
+current_source_path: chapters/draft/0448.md
+current_source_sha: 88e144b3466a2d339a3ec83b62d90c510e01099a
+current_review_path: reader_reviews/0448_88e144b3.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: audit_0447_candidate_requires_exact_ci
+last_action: audit_0448_candidate_requires_exact_ci
 last_action_date: "2026-11-01"
 last_error: null
-last_diff_summary: "第447章直接依第446章正式ready SHA精确匹配；独立Reader双遍0/0/2无强制修订，正文0改且Continuity/Style/Meaningful QA内容PASS；尚待精确候选结构CI"
+last_diff_summary: "第448章初审0/2/2，Stage A修照片跨日及去皮按键无证归责，修后SHA重新双遍Reader 0/0/2，内容QA PASS；尚待精确候选CI"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: b15fb6aaa5003f7320cd67e3fe41e17bf8e8e64c
+current_review_source_sha: 88e144b3466a2d339a3ec83b62d90c510e01099a
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -3165,6 +3165,22 @@ chapter_447_revision:
   body_revisions: 0
   correction: "无BLOCKER/MAJOR，不修正文；前446正式ready SHA依赖精确匹配。"
   predecessor_ready_blob: "a57ab52115067387df8652a4e184baff46072c28"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_448_revision:
+  original_source_sha: "8f67abfb1f799f999caa06d5580ed3319ac5c458"
+  first_review: "reader_reviews/0448_8f67abfb.md"
+  final_source_sha: "88e144b3466a2d339a3ec83b62d90c510e01099a"
+  final_review: "reader_reviews/0448_88e144b3.md"
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 1
+  correction: "Day310照片前晚改昨晚；删去无证员工按键归责，只保留旧去皮值及松支脚观察。"
+  predecessor_ready_blob: "7a614d178ca3a86752a8055b6d561999c0d45ecf"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

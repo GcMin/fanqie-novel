@@ -9,14 +9,14 @@
 - depends_on_source_sha: "7a614d178ca3a86752a8055b6d561999c0d45ecf"
 - dependency_status: verified_exact_ready_blob
 - continuity_precheck: writer_precheck_only_not_qa
-- status: draft
-- qa: pending
-- approved_at: null
-- publish_mode: draft
+- status: ready
+- qa: pass
+- approved_at: "2026-11-01"
+- publish_mode: ready
 - timeframe: "Day309 20:31—Day310 20:06"
 - pov: "叶荔与何雅晴贴近视角，夏宁、周衡、梁策与市场有责岗位葛叔；资料中心罗经办与马芸"
 - target_effective_chars: 3000
-- actual_effective_chars: 3397
+- actual_effective_chars: 3393
 
 ## 本章目标与开场状态
 
@@ -51,3 +51,20 @@
 - 直接依赖 `chapters/ready/0447.md` 的第447章，精确Git Blob SHA `7a614d178ca3a86752a8055b6d561999c0d45ecf`，状态 `verified_exact_ready_blob`。第447章已进入ready，衔接日时点不改变该章已审定事实。本章从Day309 20:31独立展开夜市新案，不借用公交单夜授权，也不宣称助行杖通路已经专业验收。
 - 本轮实际读取AGENTS、小说配置、分工与阅读协议、Bible核心/世界/风格/人物卡、现卷实际节奏、最近十章已审定摘要及最近五章全文、当前弧/人物/知识/关系/世界状态及F003/F008时间线。没有读取历史reader_reviews。仅Planner、Continuity Precheck及Writer，未执行Editor/Reader/Revision/QA/Memory/Publish Gate或平台发布。
 - 正文以去除Front Matter及空白、保留标点与场景分隔符的方法计3397有效字符，优选2600—3400、硬限2300—3800内；本章只作为待独立Audit的新草稿。
+
+## 独立Audit修订与放行记录｜2026-11-01
+
+- initial_source_sha: 8f67abfb1f799f999caa06d5580ed3319ac5c458
+- initial_reader_review: reader_reviews/0448_8f67abfb.md
+- initial_reader_counts: BLOCKER=0, MAJOR=2, MINOR=2
+- local_stage_a_revision: 1（Day310照片“前晚”校正为“昨晚”；未知去皮键操作者不作无证归责）
+- final_reviewed_draft_sha: 88e144b3466a2d339a3ec83b62d90c510e01099a
+- final_reader_review: reader_reviews/0448_88e144b3.md
+- final_reader_counts: BLOCKER=0, MAJOR=0, MINOR=2
+- final_ready_blob: 2af1612cf50972cf570ad8aa25f9219cba61f1c1
+- predecessor_ready_blob: 7a614d178ca3a86752a8055b6d561999c0d45ecf
+- dependency_status: verified_exact_ready_blob
+- continuity_style_meaningful_QA: pass
+- independent_QA_report: qa/0448_report.md
+- length_effective_chars: 3393
+- structural_gate: exact_candidate_commit_CI_required_before_main_ready

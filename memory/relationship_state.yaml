@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 447
+last_updated_chapter: 448
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1854,4 +1854,11 @@ chapter_447_relationship_verified:
   shao_family_and_operators: "当晚适配车辆仅针对本次两名错等乘客，经公交主管具体许可，未对其它错等乘客或未来无障碍路线作无证承诺。"
   core_team: "夏宁周衡梁策维持按来源联动和公共侧安全核证合作，三人关系评分不变。"
   archive: "罗经办马芸不因旧批照片目录题名就把它写成本件外封正面存在并实见。"
+  trust_scores_unchanged: true
+chapter_448_relationship_verified:
+  chapter: 448
+  source_sha: "88e144b3466a2d339a3ec83b62d90c510e01099a"
+  ye_li_and_he_yaqing: "由公开称量分歧与视频疑虑，转为本袋净重不足获承认补足、有限澄清误传；并无旧交易全面赔付或市场声誉完全恢复。"
+  core_team: "夏宁周衡梁策保持有源联动及岗位边界，三人长期关系评分不变。"
+  archive: "罗经办马芸合作区分编目通用名与具体封件，未提前证明2019历史互签。"
   trust_scores_unchanged: true
