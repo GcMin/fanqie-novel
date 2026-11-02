@@ -6,3 +6,9 @@
 - **Meaningful PASS**：蓝铁盒本人真正领回，受潮责任悬置；沈璐与孟远秋由误解到协商保留并授权扫描，不把私人家属姓名投入公开物权表单；物业限本楼改告示。
 - **章号/标题/字数 PASS**：461《旧箱子上了回收车，认领单还空着》，详纲和Front Matter一致，有效3564字在2300—3800硬区间；超过偏好3400因分拣链、家族冲突和有界档案调查各有独立作用。
 - **拟ready SHA**：`4e55b73b9521a6788bfa66bac61ceef93acfba8a`。本文生成时结构门禁**尚未验证**；精确候选Commit结构单元测试与`python -m publisher.check_local --repo .`在CI真实成功、长期Memory与计划同步前不得宣称最终放行。
+
+## 精确候选Commit结构CI与main正式放行证据｜2026-11-02
+- **正式放行Commit**：`1ffc262540f642209c35e4e4d9f0b467b7e85900`（父提交 `afd4829ddcae77f65e64261540273ab02f9a401c`）。已在同一树中同步两章Reader、独立内容QA、章节摘要、人物/知识/关系/世界/时间线/F003、全局摘要及计划CSV。
+- **精确候选审核分支** `audit/ready-0461-0462-20261102` Actions `41382803782` **SUCCESS**；该SHA checkout的`python -m unittest discover -s tests -p test_check_local.py -v`与`python -m publisher.check_local --repo .`两项均由CI执行且SUCCESS。真实校验成功后确认main原HEAD未变化，才以`expected_sha` / `force:false`无强推推进main至此SHA。
+- **正式main Actions** `41382853921` **SUCCESS**，同SHA的结构单测和离线结构检查均SUCCESS。已重新读取main，461正式ready Blob `4e55b73b9521a6788bfa66bac61ceef93acfba8a`、462正式ready Blob `2fa9877db188142fd5949242043ed950333c978e`，两原draft删除，draft仅留README和模板。
+- Reader双遍与Continuity/Style/Meaningful QA独立有效，不能以CI代替内容审核；无正文改写、无force pass、无Canon/published修改、无平台发布或定时任务更改。以上段落覆盖此前候选时“仍需结构CI”的阶段性提醒。

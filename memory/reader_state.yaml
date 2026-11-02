@@ -4019,3 +4019,13 @@ chapter_462_review:
   predecessor_body_delta: none
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+
+release_461_462:
+  candidate_commit: "1ffc262540f642209c35e4e4d9f0b467b7e85900"
+  candidate_ci: 41382803782
+  exact_main_ci: 41382853921
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  chapters: [461, 462]
+  ready_blobs: ["4e55b73b9521a6788bfa66bac61ceef93acfba8a", "2fa9877db188142fd5949242043ed950333c978e"]

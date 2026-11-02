@@ -1,3 +1,7 @@
+# 第461—462章正式main放行精确CI证据｜2026-11-02
+- 候选/正式main共用Git commit `1ffc262540f642209c35e4e4d9f0b467b7e85900`，分支Actions `41382803782` SUCCESS（结构单元测试、`publisher.check_local`均PASS），main Actions `41382853921` SUCCESS（同两项PASS）；main更新以`expected_sha`、`force:false`且原HEAD比对成功后才执行。
+- 第461章ready `4e55b73b9521a6788bfa66bac61ceef93acfba8a`，462章ready `2fa9877db188142fd5949242043ed950333c978e`，两个draft已删除。此前同文件“CI待验”仅是候选生成时门槛，现有本段实证完成。正文0字修改、462 Stage A仅重绑前章SHA后新SHA双遍Reader，全部长期Memory与计划均已同步，未发番茄。
+
 # 第461—462章独立Audit候选事实｜2026-11-02
 - 461草稿 `79cb57b23b3401280b62ae1ddb2df7eeeea5835b`，依赖460 ready `894e4b46a1040740f09c7e1fd7b2797bbae3ac58`精确命中；独立Reader双遍0/0/2、内容Continuity/Style/Meaningful QA PASS，3564有效字，正文0改；拟ready Blob `4e55b73b9521a6788bfa66bac61ceef93acfba8a`。Day322 20:34孟远秋发现六楼施工清运误将母亲私人蓝铁盒带走，QH-27只登记纸类混合袋；分拣站21:24有责暂停受控拆包，22:07仅发现疑似盒，22:43本人实际核相片尺码纸纽扣真签领，照片受潮和责任未定；Day323母女协商原物保存、同意后再扫描。
 - 462原草稿 `4c58bc0899c2173497f3b9536b76e205594f045f`，Reader初审0/1/2唯一MAJOR为前461 provisional依赖；461原draft与拟ready小说正文逐字相同仅Front Matter变化。Stage A只改462 Front Matter和章纲前章SHA为 `4e55b73b9521a6788bfa66bac61ceef93acfba8a`，正文不改；新草稿 `011f78c2368295c92e0270cfa3467aa2120ac9fa`再次独立Reader双遍0/0/2、内容QA PASS，3290有效字，拟ready Blob `2fa9877db188142fd5949242043ed950333c978e`。Day323 20:41助餐站18份平台假签但仅实到16份，旧两份温控无证不得食，另制两份，22:13/22:17真签；Day324仅本批纠错，蒲溪误工与厨师工时待核。

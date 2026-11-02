@@ -25,5 +25,7 @@ foreshadowing_updates:
 ending_state: "Day323 20:06蓝铁盒已入私家抽屉，损伤及责任继续待核；F003索引申请仍只是收件。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "79cb57b23b3401280b62ae1ddb2df7eeeea5835b", final_draft_sha: "79cb57b23b3401280b62ae1ddb2df7eeeea5835b", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "894e4b46a1040740f09c7e1fd7b2797bbae3ac58", proposed_ready_blob: "4e55b73b9521a6788bfa66bac61ceef93acfba8a"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_success}
 char_count: 3564
+
+release_evidence: {candidate_commit: "1ffc262540f642209c35e4e4d9f0b467b7e85900", candidate_ci: 41382803782, main_ci: 41382853921, ready_blob: "4e55b73b9521a6788bfa66bac61ceef93acfba8a", force: false}

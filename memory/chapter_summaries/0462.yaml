@@ -25,5 +25,7 @@ foreshadowing_updates:
 ending_state: "Day324 20:05站点仅暂时人工逐人实核，正式后台规则跨线测试未完；F003关联形成时点申请待批。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "4c58bc0899c2173497f3b9536b76e205594f045f", final_draft_sha: "011f78c2368295c92e0270cfa3467aa2120ac9fa", stage_a_used: 1, body_revisions: 0, predecessor_ready_blob: "4e55b73b9521a6788bfa66bac61ceef93acfba8a", proposed_ready_blob: "2fa9877db188142fd5949242043ed950333c978e"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_success}
 char_count: 3290
+
+release_evidence: {candidate_commit: "1ffc262540f642209c35e4e4d9f0b467b7e85900", candidate_ci: 41382803782, main_ci: 41382853921, ready_blob: "2fa9877db188142fd5949242043ed950333c978e", force: false}
