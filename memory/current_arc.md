@@ -1,3 +1,8 @@
+# 第466章正式main精确结构CI放行实证｜2026-11-02
+- 正式放行Git Commit `4d4a80a8bdf70fecc0513a8989b87c44b48c27f0`，候选分支Actions `41405521427` **SUCCESS**（结构单元测试及`python -m publisher.check_local --repo .`），同SHA正式main Actions `41405599733` **SUCCESS**；main以`expected_sha=0bdad485ae9c20976497ee40620a0f55d00461db`、`force:false`成功前进。
+- 第466章正式ready Git Blob `999b4bb8938d663447afa2ba0c05e1fa223dd8a2`，原draft已删除，小说正文0字修改；源draft `0dd43b761c9949e4713d9f4f23cfe2f18d9f5985` Reader双遍0/0/2、独立Continuity/Style/Meaningful内容QA PASS。现有事实与Memory和计划都在同一候选Commit的真实树中，并经精确版本结构CI；下文“CI待验”仅是候选时门槛提示，已由以上实证覆盖。
+- 本章仅对东篱路高处被困案本笔纠错和实际救援，不替专业宣告吊篮可复用。F003仅得目录容器登记级事件号而非附件实际内容，2019/2016历史与F008/M004/M005不确证，未修改Canon或published。
+
 # 第466章ARC-054审核通过的有界事实（候选正式放行须精确CI）
 - 第466章源草稿 `0dd43b761c9949e4713d9f4f23cfe2f18d9f5985` 依赖前465 ready `917cb6cd97f135384eb0843a535ea2c79c08533b` **SHA精确匹配**，独立Reader双遍0 BLOCKER/0 MAJOR/2 MINOR，正文0字修改；Continuity/Style/Meaningful QA PASS，3265有效字，拟ready blob `999b4bb8938d663447afa2ba0c05e1fa223dd8a2`。结构gate仍须精确候选Commit在Actions完成单测与`publisher.check_local`后才能更新main。
 - Day327 20:06东篱路旧电影厅吊篮停滞两人，被19:58排程任务结束绿字误映公众已收回；20:38许婉目击、20:46街边重封，21:51陈穗与22:09叶仲平真经专业救援转移，非专业人员不触控制器。汪进请求19:58补签被拒，实际工时与责任待核；Day328 10:41只撤本次公众假收篮提示并保留原日志、吊篮停用待专业调查。许婉拾到塑料扣的来源仍未知，工人健康恢复未获完全核准，Day328 20:17父女用真实劳动卡与返家记录收束。

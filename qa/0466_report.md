@@ -8,3 +8,9 @@
 - **Style PASS**：白色扣件、八楼上两人、车底危险区、空白收工签以及女儿不代签实践卡服务于动作与现实后果；人物声线可辨，心理解释不过量。相邻案假绿色提示形式重复、F003小步推进记录为Reader MINOR，不强修。
 - **Meaningful PASS**：高处救援真实完成并保持设备禁复用、街口安全恢复受控，假完工提示仅限本笔撤回，工人拒绝倒填工时，目录容器登记级证据新增。
 - **结构门禁**：本报告属于独立内容QA PASS；候选Git树的`python -m publisher.check_local --repo .`与结构单元测试尚须精确commit GitHub Actions真实SUCCESS。CI未成功前本章仅能留在候选分支，不能宣称main ready已放行。
+
+## 第466章精确版本结构门禁和正式main放行实证｜2026-11-02
+- **正式放行Commit**：`4d4a80a8bdf70fecc0513a8989b87c44b48c27f0`，父提交`0bdad485ae9c20976497ee40620a0f55d00461db`，完整候选树先在`audit/ready-0466-20261102`通过GitHub Actions `41405521427` **SUCCESS**。该候选checkout的`Test offline snapshot validation`（结构单元测试）与`Validate this checkout without Git sync or publishing`（运行`python -m publisher.check_local --repo .`）均 **SUCCESS**，是精确Commit而非浮动main。
+- 确认原main HEAD未变化后，`expected_sha=0bdad485ae9c20976497ee40620a0f55d00461db`、`force:false`实际推进main到同一Commit，main Actions `41405599733`亦 **SUCCESS**（同一精确checkout）。
+- 第466章ready Git Blob `999b4bb8938d663447afa2ba0c05e1fa223dd8a2`，`chapters/draft/0466.md`已从main删除。原draft `0dd43b761c9949e4713d9f4f23cfe2f18d9f5985`至正式ready只改交付Front Matter字段，小说正文0字变化；唯一SHA绑定Reader 0/0/2、独立Continuity/Style/Meaningful PASS及长期Memory/章节计划已同树提交。
+- 之前“候选CI尚待验证”是提交前阶段提示，此处完成证据覆盖该提示。没有对Canon/published/定时任务/番茄平台进行更改。

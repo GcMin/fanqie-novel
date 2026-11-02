@@ -28,5 +28,6 @@ foreshadowing_updates:
 ending_state: "Day328 20:17叶仲平在家休养、真实返家时点已记录；吊篮继续停用，原公众错误公告有源更正；档案新限项申请仅收件。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "0dd43b761c9949e4713d9f4f23cfe2f18d9f5985", final_draft_sha: "0dd43b761c9949e4713d9f4f23cfe2f18d9f5985", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "917cb6cd97f135384eb0843a535ea2c79c08533b", proposed_ready_blob: "999b4bb8938d663447afa2ba0c05e1fa223dd8a2"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_success}
 char_count: 3265
+release_evidence: {candidate_commit: "4d4a80a8bdf70fecc0513a8989b87c44b48c27f0", candidate_ci: 41405521427, main_ci: 41405599733, ready_blob: "999b4bb8938d663447afa2ba0c05e1fa223dd8a2", publisher_check_local: pass, structural_unit_tests: pass, main_ref_update: expected_sha_force_false_success}

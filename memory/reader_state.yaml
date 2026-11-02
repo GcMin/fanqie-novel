@@ -4098,4 +4098,15 @@ chapter_466_review:
   predecessor_ready_blob: "917cb6cd97f135384eb0843a535ea2c79c08533b"
   predecessor_body_delta: exact_ready_sha_no_old_reference
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_commit_CI_success
+
+release_466:
+  candidate_commit: "4d4a80a8bdf70fecc0513a8989b87c44b48c27f0"
+  candidate_ci: 41405521427
+  main_ci: 41405599733
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  chapters: [466]
+  ready_blobs: ["999b4bb8938d663447afa2ba0c05e1fa223dd8a2"]
+  body_revisions: 0

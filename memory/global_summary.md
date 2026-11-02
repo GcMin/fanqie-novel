@@ -1,3 +1,6 @@
+## 第466章精确Git结构检查通过并正式ready｜2026-11-02
+- 候选/正式main同一Commit `4d4a80a8bdf70fecc0513a8989b87c44b48c27f0`，审计分支Actions `41405521427` SUCCESS、main Actions `41405599733` SUCCESS，包含`python -m publisher.check_local --repo .`与结构单元测试在精确checkout的PASS；main用expected_sha及force:false更新。ready Blob `999b4bb8938d663447afa2ba0c05e1fa223dd8a2`，草稿已删除，Reader0/0/2、独立内容QA PASS、小说正文0改，前章依赖精确。下方候选态的“CI待验”历史提示现已由实际成功证据覆盖。
+
 ## 第466章内容QA候选事实｜2026-11-02
 源draft `0dd43b761c9949e4713d9f4f23cfe2f18d9f5985`、前465 ready `917cb6cd97f135384eb0843a535ea2c79c08533b` 依赖精确一致；Reader两遍0/0/2、独立Continuity/Style/Meaningful内容PASS，正文0字修订。Day327东篱路吊篮两工人仍悬空却被排程绿色误报收回，21:51和22:09专业真实救出；Day328只本次公众告示更正、设备继续停用，工人拒补签19:58假收工。F003 Day328仅增目录容器接收事件编号而不证明内容附件实际接收或2022导入具体版，2019/2016历史真实及F008/M004/M005皆未证。精确Git CI尚待真实成功，未在main提前宣称ready。
 

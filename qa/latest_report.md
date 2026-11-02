@@ -1,3 +1,6 @@
+# 第466章精确版本结构校验与main正式放行｜2026-11-02
+- Commit `4d4a80a8bdf70fecc0513a8989b87c44b48c27f0`候选分支Actions `41405521427`、main Actions `41405599733`均SUCCESS，同SHA checkout的结构单元测试与`python -m publisher.check_local --repo .`均PASS。第466章正式ready Blob `999b4bb8938d663447afa2ba0c05e1fa223dd8a2`，draft已删除；Reader0/0/2、独立QA PASS、长期Memory和计划均在正式放行commit同一树，小说正文0改。下方“候选CI待验”内容为历史阶段提醒，现已由真实CI和main更新实证覆盖。
+
 # 第466章独立内容QA候选｜2026-11-02
 - 源draft `0dd43b761c9949e4713d9f4f23cfe2f18d9f5985` Reader独立Pass A→B 0/0/2；前章ready SHA `917cb6cd97f135384eb0843a535ea2c79c08533b`精确匹配，Continuity/Style/Meaningful PASS，3265有效字；无正文修改。拟ready blob `999b4bb8938d663447afa2ba0c05e1fa223dd8a2`。当代危险吊篮两人真救出、错公众状态只限项纠正且设备继续停用；F003仅获目录容器级记录，历史真相不越证。
 - 本报告仅内容QA；须精确候选Commit Actions单元测试和`publisher.check_local`真实SUCCESS后才可expected_sha/force:false更新main，不得把候选称作已正式放行。
