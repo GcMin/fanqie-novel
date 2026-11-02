@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 480
+title: "十二号箱没有跟车走"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "84317cde0551b24e03d0f96c8e666d31affbf597"
+reader_review: "reader_reviews/0480_84317cde.md"
+depends_on_chapter: 479
+depends_on_source_sha: "93570f4915c4cb9dc1c8553788812bba6194bc47"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day342 20:44—Day343 10:17"
+summary: >-
+  Day342 20:44西陇社区旧阅览室搬迁后季唯在第十一及十二箱仍留旧址后柜的情况下，把12箱整车次扫码成全部完成。退休值守员缪芸手记十二只，后柜遇漏水、旁有接电台灯。20:53新馆许汀实名核实仅十箱真签收。21:06夏宁周衡梁策分源协调，先避免人员冒险进屋。21:24物业与持资质电气人员只隔离受影响支路、按实围护；22:07屋檐雨水短管有限临时导排但非正式修好；22:23在核准干燥通路转移十一号到旧址暂存，不冒称新馆已收；23:11获准人员再次核安全路后两人整箱搬出十二号，封带一角松、底部外纸板潮湿，含旧借阅卡与私人联系资料、不得擅拆，不断言内页完好或尽毁。Day343 09:32十一号经真实到馆双方签收；十二号只在有责受控位置封箱暂存、内件核验待办；10:17季唯附两张不同真实凭据申请更正整车完成展示，尚未审结。缪芸本人记十一今早到馆、十二封存待查。屋檐短管永久维修、内页实际状态、误操作责任均待有责程序。无F003新史料、F008/M004/M005不证。
+meaningful_state_changes:
+  - "整车完成绿勾被新馆十箱真人签收和旧址两箱外观实证反驳，季唯保源承认错误。"
+  - "十一号Day343 09:32真正签收入新馆，昨日旧址暂存不能倒填成昨日已到馆。"
+  - "十二号合法整箱救出且外包装见潮、内件未核，缪芸接受安全及隐私保护而不冒险擅拆。"
+  - "季唯提交有据更正申请仍未获批，旧屋雨水管正式修好也未获证。"
+knowledge_updates:
+  - "季唯知道全批扫码不等于十二只货物逐件到馆，自己的录入时点不得篡改。"
+  - "缪芸凭手记和目视知箱号与外部见潮，不知旧借阅卡具体损伤；许汀凭新馆十张及次日十一张真实单据知交接状态，不公开箱内私人资料。"
+  - "夏宁周衡梁策不代电气、物业、保管单位签永久安全或纸张损坏终局。"
+relationship_updates:
+  - "季唯从回避责任转为当众写实情，许汀严守实际签收不代开脱；缪芸从想立即抢纸转为尊重受权保管和核查程序。"
+foreshadowing_updates:
+  - "F003无新旧史料，2022实例结束类别无子号结果码读取字节，2019真双签、2016旧回告及历史本人受答仍待独立来源；F008/M004/M005不确证。"
+ending_state: "Day343 10:17十一号真实入馆、十二号封箱受控暂存且外见潮内件待核，整车假完成更正仅申请，旧屋短管正式维修未结。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "84317cde0551b24e03d0f96c8e666d31affbf597", final_draft_sha: "84317cde0551b24e03d0f96c8e666d31affbf597", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "93570f4915c4cb9dc1c8553788812bba6194bc47", dependency_status: verified_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3215

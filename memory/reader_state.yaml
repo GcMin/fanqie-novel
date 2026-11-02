@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 479
-last_reviewed_title: "签收时间写得清楚，停下脚步的人却被算作迟到"
-last_source_path: chapters/draft/0479.md
-last_source_sha: 675d32068e767e184c8d4a090c54c68f1eb76505
-last_review_path: reader_reviews/0479_675d3206.md
+last_reviewed_chapter: 480
+last_reviewed_title: "十二号箱没有跟车走"
+last_source_path: chapters/draft/0480.md
+last_source_sha: 84317cde0551b24e03d0f96c8e666d31affbf597
+last_review_path: reader_reviews/0480_84317cde.md
 last_reviewed_at: "2026-11-03"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 478
-depends_on_source_sha: 53647ce712e9a1359a92c3495e135fe3010b33c8
-dependency_status: verified_predecessor_body_identical_metadata_delta_checked
-predecessor_current_source_sha: 53647ce712e9a1359a92c3495e135fe3010b33c8
+depends_on_chapter: 479
+depends_on_source_sha: 93570f4915c4cb9dc1c8553788812bba6194bc47
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 93570f4915c4cb9dc1c8553788812bba6194bc47
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -4385,3 +4385,19 @@ release_478_479_reader_evidence:
   validated_candidate_commit: "4adbba770a9a54462a35869fa4d5cb6ff340f6bb"
   structural_ci_success: 41518977662
   main_ci_success: 41519114123
+
+chapter_480_review:
+  chapter: 480
+  title: "十二号箱没有跟车走"
+  source_path: chapters/draft/0480.md
+  source_sha: "84317cde0551b24e03d0f96c8e666d31affbf597"
+  review_path: reader_reviews/0480_84317cde.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  independent_pass_a_then_b: true
+  required_action: none
+  local_revision_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "93570f4915c4cb9dc1c8553788812bba6194bc47"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
