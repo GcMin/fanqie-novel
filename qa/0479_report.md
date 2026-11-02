@@ -9,3 +9,7 @@
 - **Meaningful Change PASS**：保留真迟到而撤无证违纪建议；错误扣分暂不发生、客户退款申请推进但未冒称已到账、劳务最终待遇未提前判定；门店新增限本店报事编号及调度知悉时间的临时记录字段。
 - **Canon/伏笔**：本章未新增F003史料及可靠F008记忆反证，M004/M005不确证；2019旧双向签封、2016在封回告、历史报事人本人收答、2022/11/21同字节仍未知。
 - **结构门槛**：内容QA独立PASS不是结构CI结果。必须对应同一Git候选树中478、479按序ready、源SHA Reader/QA、记忆与唯一计划行，CI真实通过结构单测和`publisher.check_local`后才可非强制更新main；如失败原draft不得删除。
+
+## 478—479正式交付结构门禁与main记录｜2026-11-03
+- 精确候选提交 `4adbba770a9a54462a35869fa4d5cb6ff340f6bb`（Git Tree `c35052277e26490a6e91c1c6913697a381213e07`），GitHub Actions `41518977662` **SUCCESS**：checkout该精确提交，结构单元测试及`python -m publisher.check_local --repo .`均成功；对应ready Blob为478 `53647ce712e9a1359a92c3495e135fe3010b33c8`、479 `93570f4915c4cb9dc1c8553788812bba6194bc47`，草稿同号均在候选树原子移除。
+- 实际使用`expected_sha=8d7d651abf52066695c30fc06d6cf3baec686585`、`force:false`更新main到该候选提交成功；main同版本Actions `41519114123` **SUCCESS**。Reader 478最终0/0/2、479初审0/1/2、Stage A后新SHA独立复审0/0/2，Continuity/Style/Meaningful内容QA两章均PASS，小说正文修改0字，F003无新史料。

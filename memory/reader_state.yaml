@@ -4355,7 +4355,7 @@ chapter_478_review:
   predecessor_ready_blob: "a415cbe2b112172ee741e1ae0d908640f1223cf3"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_CI_required
+  structural_gate: exact_candidate_ci_success_41518977662
 
 chapter_479_review:
   chapter: 479
@@ -4376,4 +4376,12 @@ chapter_479_review:
   predecessor_body_delta: "第478章标题与小说正文完全相同仅status/qa/approved_at/publish_mode交付元数据不同"
   dependency_status: verified_predecessor_body_identical_metadata_delta_checked
   content_qa: pass
-  structural_gate: exact_candidate_CI_required
+  structural_gate: exact_candidate_ci_success_41518977662
+
+release_478_479_reader_evidence:
+  chapter_478: {source_sha: "d679973d8dee0707217d4719b53b14da3b7d79fd", counts: "0/0/2", review: "reader_reviews/0478_d679973d.md"}
+  chapter_479: {original_sha: "975ce60d3c6233438626ed0b69ed234a9c5afd0d", initial_counts: "0/1/2", final_sha: "675d32068e767e184c8d4a090c54c68f1eb76505", counts: "0/0/2", review: "reader_reviews/0479_675d3206.md"}
+  approved_exact_tree: "c35052277e26490a6e91c1c6913697a381213e07"
+  validated_candidate_commit: "4adbba770a9a54462a35869fa4d5cb6ff340f6bb"
+  structural_ci_success: 41518977662
+  main_ci_success: 41519114123

@@ -9,3 +9,7 @@
 - **Meaningful Change PASS**：误播声与人行红灯分离被实证，本方向真实保护绕行、后合法有限修复，当事人再次自主真过街；迟到、车费、陈迎配送工时保留真实后果。
 - **伏笔核定**：F003没有独立新档案来源；2022同标识一条执行实例结束类别无子号/结果码/字节，不推2019实签封、2016在封回告、历史本人收答及2022与11/21具体字节同一。普通设施错误不构成F008可靠记忆反证、M004/M005机制确证。
 - **结构门槛**：上述为独立内容QA，不能代替结构校验；只有精确候选Git Tree真实通过结构单测与`python -m publisher.check_local --repo .`，才可由最新main非强制更新以合法交付。失败时不得宣称ready。
+
+## 478—479正式交付结构门禁与main记录｜2026-11-03
+- 精确候选提交 `4adbba770a9a54462a35869fa4d5cb6ff340f6bb`（Git Tree `c35052277e26490a6e91c1c6913697a381213e07`），GitHub Actions `41518977662` **SUCCESS**：checkout该精确提交，结构单元测试及`python -m publisher.check_local --repo .`均成功；对应ready Blob为478 `53647ce712e9a1359a92c3495e135fe3010b33c8`、479 `93570f4915c4cb9dc1c8553788812bba6194bc47`，草稿同号均在候选树原子移除。
+- 实际使用`expected_sha=8d7d651abf52066695c30fc06d6cf3baec686585`、`force:false`更新main到该候选提交成功；main同版本Actions `41519114123` **SUCCESS**。Reader 478最终0/0/2、479初审0/1/2、Stage A后新SHA独立复审0/0/2，Continuity/Style/Meaningful内容QA两章均PASS，小说正文修改0字，F003无新史料。

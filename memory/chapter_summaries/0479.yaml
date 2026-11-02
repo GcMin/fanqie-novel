@@ -31,5 +31,6 @@ foreshadowing_updates:
 ending_state: "Day342傍晚陈迎按真实当日出货栏重新工作，旧两笔22:26/22:31实到不变，错误擅离标签已撤而工资及退款实际到账仍待有责核。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "975ce60d3c6233438626ed0b69ed234a9c5afd0d", initial_counts: "0/1/2", final_draft_sha: "675d32068e767e184c8d4a090c54c68f1eb76505", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_blob: "d679973d8dee0707217d4719b53b14da3b7d79fd", predecessor_ready_blob: "53647ce712e9a1359a92c3495e135fe3010b33c8", predecessor_body_delta: "标题及小说正文逐字相同仅交付Front Matter变化", proposed_ready_blob: "93570f4915c4cb9dc1c8553788812bba6194bc47"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_success_41518977662}
 char_count: 3210
+release_evidence: {candidate_commit: "4adbba770a9a54462a35869fa4d5cb6ff340f6bb", validated_tree: "c35052277e26490a6e91c1c6913697a381213e07", candidate_ci: 41518977662, candidate_ci_conclusion: success, main_ci: 41519114123, main_ci_conclusion: success, structural_unit_tests: pass, publisher_check_local: pass, main_ref_update: expected_sha_force_false_success, ready_blob: "93570f4915c4cb9dc1c8553788812bba6194bc47"}

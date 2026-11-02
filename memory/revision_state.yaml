@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 479
-current_stage: content_qa_pass_structural_pending
+current_stage: ready_after_exact_candidate_ci_success
 current_source_path: chapters/draft/0479.md
 current_source_sha: 675d32068e767e184c8d4a090c54c68f1eb76505
 current_review_path: reader_reviews/0479_675d3206.md
@@ -12,13 +12,13 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter478_content_pass_chapter479_stage_a_metadata_rebind_new_sha_reader_and_independent_qa
+last_action: chapters478_479_ready_after_exact_candidate_CI_and_main_lease_update
 last_action_date: "2026-11-03"
 last_error: null
-last_diff_summary: "478源 d679973d Reader0/0/2独立QA通过不改正文；479初始 975ce60d3c6233438626ed0b69ed234a9c5afd0d Reader0/1/2因为478仍为旧draft，比较478正文标题与ready逐字相同仅交付元数据后Stage A重绑478 ready 53647ce712e9a1359a92c3495e135fe3010b33c8，479新SHA 675d32068e767e184c8d4a090c54c68f1eb76505重新Reader0/0/2且独立QA PASS，479正文0字修改，精确候选结构CI待实际检验。"
+last_diff_summary: "原478 Reader0/0/2、479初审0/1/2仅前章临时SHA问题；479 Stage A只重绑478正式ready，独立新SHA双遍Reader0/0/2，两章内容QA PASS且正文0字修改；Git Tree c35052277e26490a6e91c1c6913697a381213e07提交 4adbba770a9a54462a35869fa4d5cb6ff340f6bb 的候选CI 41518977662结构单测及publisher.check_local真实SUCCESS，main同版CI 41519114123 SUCCESS；两章原子从draft进入ready。"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: false
+publish_gate_passed: true
 current_review_source_sha: 675d32068e767e184c8d4a090c54c68f1eb76505
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
@@ -3796,7 +3796,7 @@ chapter_478_revision:
   predecessor_ready_blob: "a415cbe2b112172ee741e1ae0d908640f1223cf3"
   predecessor_factual_delta: "前章源SHA与正式ready精确相同，无版本差异"
   content_qa: pass
-  structural_gate: exact_candidate_CI_required
+  structural_gate: exact_candidate_ci_success_41518977662
 
 chapter_479_revision:
   chapter: 479
@@ -3817,4 +3817,19 @@ chapter_479_revision:
   predecessor_ready_blob: "53647ce712e9a1359a92c3495e135fe3010b33c8"
   predecessor_factual_delta: "标题正文完全相同，仅交付status/qa/approved_at/publish_mode"
   content_qa: pass
-  structural_gate: exact_candidate_CI_required
+  structural_gate: exact_candidate_ci_success_41518977662
+
+release_478_479:
+  chapters: [478, 479]
+  validated_candidate_commit: "4adbba770a9a54462a35869fa4d5cb6ff340f6bb"
+  validated_candidate_tree: "c35052277e26490a6e91c1c6913697a381213e07"
+  candidate_ci: 41518977662
+  candidate_ci_conclusion: success
+  main_ci: 41519114123
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  ready_478_blob: "53647ce712e9a1359a92c3495e135fe3010b33c8"
+  ready_479_blob: "93570f4915c4cb9dc1c8553788812bba6194bc47"
+  draft_numbers_remaining_at_release: 0

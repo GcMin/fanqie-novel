@@ -1406,3 +1406,7 @@ Day173 20:24仅是该号码未来新语义的专业标识测试，20:39廖珊看
 ## 第479章Stage A正式依赖、重新双遍Reader与独立QA｜2026-11-03
 - 原完整draft Blob `975ce60d3c6233438626ed0b69ed234a9c5afd0d` Reader初审0/1/2，唯一MAJOR为前478仍引用provisional旧稿。逐字对比478旧draft `d679973d8dee0707217d4719b53b14da3b7d79fd` 与拟ready Blob `53647ce712e9a1359a92c3495e135fe3010b33c8`，**标题与小说正文完全相同**，只有status、qa、approved_at、publish_mode四项交付字段变化，Day340/341交通、人物和费用事实不变。Stage A只修479前章SHA及详纲，正文0字修改，新完整draft `675d32068e767e184c8d4a090c54c68f1eb76505` 独立重新Reader Pass A/B为0/0/2 keep/none，独立QA PASS，3210有效字符；拟ready Blob `93570f4915c4cb9dc1c8553788812bba6194bc47`，CI需完整候选树通过后才可按478→479顺序正式放行。
 - Day341 20:36陈迎回便利店被查Day340 22:26/22:31两笔真迟送，邓芳对丁先生顾客投诉和陈迎个人违纪分别待核，郭蕊旧援客无证提醒。21:11中心夏宁周衡梁策只可提供合法本人接报时点，不泄孟照秋私人音频住址；Day342 09:18交通岗位有限出21:19/21:37/21:56时点并非陈迎全程不间断在场证明，邓芳撤未经证实擅离建议和待生效内部扣分，但签收延时事实不改，工资最终与客户运费真实到账未定。店内仅增加限项临时补记，不冒称平台全局制度修复。F003/F008无新可靠独立证据，M004/M005未证。
+
+## 478—479正式交付结构门禁与main记录｜2026-11-03
+- 精确候选提交 `4adbba770a9a54462a35869fa4d5cb6ff340f6bb`（Git Tree `c35052277e26490a6e91c1c6913697a381213e07`），GitHub Actions `41518977662` **SUCCESS**：checkout该精确提交，结构单元测试及`python -m publisher.check_local --repo .`均成功；对应ready Blob为478 `53647ce712e9a1359a92c3495e135fe3010b33c8`、479 `93570f4915c4cb9dc1c8553788812bba6194bc47`，草稿同号均在候选树原子移除。
+- 实际使用`expected_sha=8d7d651abf52066695c30fc06d6cf3baec686585`、`force:false`更新main到该候选提交成功；main同版本Actions `41519114123` **SUCCESS**。Reader 478最终0/0/2、479初审0/1/2、Stage A后新SHA独立复审0/0/2，Continuity/Style/Meaningful内容QA两章均PASS，小说正文修改0字，F003无新史料。
