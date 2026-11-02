@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 475
+last_updated_chapter: 476
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2086,4 +2086,13 @@ chapter_475_relationship_verified:
   movers: "搬家带班承认总单绿完成不代表第三厨房箱已经真正交，苏梨只签下午实际收到时点，老人缺口茶壶的价值由本人说明不被箱单通用词替代。"
   archive: "马芸罗经办拒把三种系统事件类别强行拼为同一次执行链，并暂缓无判定力的派生窄申，合作仍以证据限定边界为先。"
   core_team: "本章普通私人交货搬家不调整夏宁周衡梁策长期信任分值，不新增F008可靠矛盾样本。"
+  trust_scores_unchanged: true
+
+chapter_476_relationship_verified:
+  chapter: 476
+  source_sha: "d7d2d05b4491bccc9057000bfb4d150bb65cc63f"
+  grandmother_granddaughter: "冯见春坚持旧家花草不由旁人决定、保留旧钥匙并嘱苏梨先拍照；苏梨由取一把花土转为依法保护三盆活物且按老人照片确认取白瓷薄荷。祖孙在旧屋与临时新家并存中保持当事人自主权，未以好意替其放弃旧居。"
+  neighbors: "郭阿姨既发现清空告示疑点又夜间帮助有责引导邻居不踩新水线，物业仅承认本户错误并修公共二楼本处雨水漏点；信任建立于保留误表与可核实际维修，不是满意总签。"
+  professional_service: "焦雨岚与顾师傅明确业主暂住申请不等于财物弃置，公共雨水立管与私人窗框各自待独立判断；有责服务关系未通过擅改原记录换取表面完成。"
+  core_team: "夏宁周衡梁策原有协作与信任分值未因普通物业错误变化；不新增F008可靠本人记忆反证。"
   trust_scores_unchanged: true

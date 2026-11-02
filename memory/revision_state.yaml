@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 475
+current_chapter: 476
 current_stage: content_qa_pass_structural_pending
-current_source_path: chapters/draft/0475.md
-current_source_sha: a31db13112a1495ee94cb50a6715a44f71f4d9f6
-current_review_path: reader_reviews/0475_a31db131.md
+current_source_path: chapters/draft/0476.md
+current_source_sha: d7d2d05b4491bccc9057000bfb4d150bb65cc63f
+current_review_path: reader_reviews/0476_d7d2d05b.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter475_prev474_ready_rebind_new_sha_double_reader_and_independent_qa
+last_action: chapter476_exact_prev475_ready_no_revision_double_reader_independent_qa
 last_action_date: "2026-11-03"
 last_error: null
-last_diff_summary: "475原SHA a770dd7c初审0/1/2；前474原临时draft与已放行ready正文和标题相同仅Front Matter交付更改；Stage A只重绑依赖与详纲，正文0字修改；475新SHA a31db131独立Reader A/B重审0/0/2，内容QA通过，精确CI待验证。"
+last_diff_summary: "476原SHA d7d2d05b初审0/0/2 keep/none；前475 ready SHA精确匹配，无须修订；小说正文0字修改，独立QA通过，精确候选结构CI仍须实际验证。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
-current_review_source_sha: 9d8ae809262c804f59f6387791970a959a4095f1
+current_review_source_sha: d7d2d05b4491bccc9057000bfb4d150bb65cc63f
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -3739,5 +3739,23 @@ chapter_475_revision:
   predecessor_old_draft_sha: "f9691eccdbdd2cbd5043512a9301b2ff8e972eee"
   predecessor_ready_blob: "c67f5994ed787ab440e38afe873bbf85d2bcb83d"
   predecessor_factual_delta: "正文标题完全一致，仅交付Front Matter差异"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_476_revision:
+  chapter: 476
+  original_sha: "d7d2d05b4491bccc9057000bfb4d150bb65cc63f"
+  source_sha: "d7d2d05b4491bccc9057000bfb4d150bb65cc63f"
+  final_review: "reader_reviews/0476_d7d2d05b.md"
+  initial_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage: no_revision_needed
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  retry_cycles: 0
+  predecessor_ready_blob: "62418403cfa3578c135ce5946a736fedd936f392"
+  predecessor_factual_delta: "依赖SHA与已审ready精确一致，无版本差异"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

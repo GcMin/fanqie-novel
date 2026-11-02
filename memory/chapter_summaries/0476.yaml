@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 476
+title: "清空通知贴上门，她的花还在窗台长着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "d7d2d05b4491bccc9057000bfb4d150bb65cc63f"
+source_draft_sha: "d7d2d05b4491bccc9057000bfb4d150bb65cc63f"
+reader_review: "reader_reviews/0476_d7d2d05b.md"
+depends_on_chapter: 475
+depends_on_source_sha: "62418403cfa3578c135ce5946a736fedd936f392"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day338 08:42—Day339 19:22"
+summary: >-
+  Day338 08:42冯见春在江锦公寓西楼临时租屋保有褪色绿绳旧钥匙，嘱孙女苏梨去未注销的旧屋看看窗台花与土；Day338 09:21苏梨发现物业施工户表误将“因阳台漏水暂时搬离”写作“整户空置、室内无留物、外窗花盆待清除”，但实际原屋有未搬木衣柜冬衣与三盆活花。10:08物业焦雨岚与维修领班顾师傅查原申请只有暂住迁出、没有放弃物品或退房签认，保留错表有源纠本户并撤花盆清理任务，阳台窗框漏水待另核。Day338 20:36雨天二楼公共楼梯平台另有新水线及湿滑险情，物业值守和有责电气专业岗位按权有限隔离、现场看护及通行安排；20:52夜间中心夏宁周衡梁策只分源协调且不把本次楼道雨水硬同旧屋窗框漏水并因，夜间无高处安全作业许可便不冒险修。Day339 09:18专业从获准作业位查公共雨水立管一处卡箍松动和接头偏移、限项维修并通水检查；11:06物业依据局部专业复测与干燥条件撤本处临护，其它房屋窗框旧问题未结。苏梨经外婆照片确认从安全室内取出白瓷盆薄荷与原土、两盆留旧屋且旧钥匙仍可开门。Day339 19:22老人亲自将薄荷安置新屋，仍期待回旧屋浇两盆花；旧居未注销也未全部修好。F003该章无独立新材料，沿用475结束事件类别无实例子号/结果码/字节结论；F008/M004/M005不确认。
+meaningful_state_changes:
+  - "临时迁出被误映整户弃置的记录保源纠正，本户花盆清理任务撤销，旧房使用权与私人物品处置权不因错误表消失。"
+  - "公共二楼楼梯渗水经有责专业核为雨水立管局部固定件松动并修复且本处通路复行，室内窗框渗水明确未结。"
+  - "冯见春本人同意的白瓷薄荷与原土已到新租屋，其余两盆、旧木柜冬衣及绿绳旧钥匙仍连着未注销的旧屋。"
+knowledge_updates:
+  - "苏梨和冯见春知道错表不是其本人确认弃置，三盆旧花可分存，公共楼道专业修复不等于旧窗框修好；外婆可自主确认取哪一盆。"
+  - "焦雨岚顾师傅只核本户暂住申请及搬运工作范围，不能代居民丢弃私人物品；物业限本楼本处专业实测撤湿滑警示。"
+  - "夏宁周衡梁策只知物业现场反馈、照片和专业有限回告，不替物业全面验房或认定不同漏水点同源；罗经办马芸本章未获新档案材料。"
+relationship_updates:
+  - "苏梨依外婆照片确认白瓷薄荷而不擅动其余花，冯见春亲自留旧钥匙及下一次回旧屋浇花的意愿，两人互相保护而不替对方放弃原家。"
+  - "郭阿姨基于楼道现场帮助邻居安全走过，物业以保源纠表与有责实修恢复本处有限互信，未强迫住户签全屋清空。"
+foreshadowing_updates:
+  - "F003无新增独立证据，2022导入结束事件类别不证实际成功或同一旧底稿字节；此处当代空户误表有正常字段抽取来源，不构成可靠F008记忆异常样本，M004/M005不确认。"
+ending_state: "Day339 19:22白瓷盆薄荷连土到江锦公寓西楼新租屋、两盆及旧柜冬衣留旧屋，绿绳旧钥匙仍可用；公共二楼楼道本处已修复而旧住处阳台窗框渗水待独立排查；无新增F003史料。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d7d2d05b4491bccc9057000bfb4d150bb65cc63f", final_draft_sha: "d7d2d05b4491bccc9057000bfb4d150bb65cc63f", final_counts: "0/0/2", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "62418403cfa3578c135ce5946a736fedd936f392", dependency_status: verified_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3052
