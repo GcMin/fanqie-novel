@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 471
+last_updated_chapter: 472
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2051,4 +2051,12 @@ chapter_471_relationship_verified:
   venue_service: "冯栩承担本场错误公示的现场核查和更正，小邵由建议擅抬变为询问本人协助需求并引导实测东侧入口；安全责任不转嫁轮椅乘坐者。"
   archive: "罗经办马芸共同坚持将任务配置源类型与实际读取证明分开，仅以合法窄申继续查询，不用空白推旧真相。"
   core_team: "夏宁周衡梁策互信分值不因一场普通活动告示错映改变，仍按权限分源协作。"
+  trust_scores_unchanged: true
+chapter_472_relationship_verified:
+  chapter: 472
+  source_sha: "d33e6683f811f347bc9c4db42f9f0b9716090d52"
+  mother_daughter: "秦芳芝听似亡夫旧哨而不相信他复生，秦澄由担心母亲将未知风鸣命名爸回来了转为理解她记得被人唤回家的生活，二人保留不同来源录音且不添改听不清的旧词。"
+  neighbors: "曹叔对夜间声源生疑、翌日要从北侧运纸箱；物业以有限真实警戒与翌日有责修复复行换取具体合作，不把邻里猜测当求救已证。"
+  archive: "罗经办马芸保持请求建立、读取成功与文件字节三层区分，在合法窄申下继续查状态类别，不将未见成功回执断作技术上未执行。"
+  core_team: "夏宁周衡梁策夜间权限分工与长期互信分值不变，普通物理设施事件不自动升级F008异常人身记忆矛盾。"
   trust_scores_unchanged: true

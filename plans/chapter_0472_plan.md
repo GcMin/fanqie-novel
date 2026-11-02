@@ -6,9 +6,9 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "8cccadd00f8aa1b37616a4b743a58e3d565ffd18"
 - depends_on_chapter: 471
-- depends_on_source_sha: "72670341a6aa5cf261e5a80ab39dc0436223660e"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0471.md
+- depends_on_source_sha: "db9d77574a83076441e6aaac5cc8183097c47f76"
+- dependency_status: verified_predecessor_body_identical_metadata_delta_checked
+- predecessor_location: chapters/ready/0471.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day333 20:41—Day334 20:09
 - title: 墙上的哨声停了，母亲却留下那段录音
@@ -36,9 +36,14 @@ Day333 20:41秦芳芝听见三短一长哨音，联想到亡夫当年召女回�
 - F003请求事件不是文件成功读取；后续结果状态窄申待审批。Day195旧拆物与沈家私票分源；F008/M004/M005仍未确认。
 
 ## Continuity Precheck 与保密边界
-- 前章第471章仅提供Day333 14:05窄申起点，具体情节引用该特定Blob（尚未审定，所有承接均为临时、非正式Canon）；本章主要生活案独立，不改变陈妙云、许澄与沈未事实。
+- 第471章Day333 14:05窄申起点与第472章Day334 11:29合法答复对应。写作时引用第471章初稿Blob；Audit已核该稿与最终ready小说正文逐字一致，只标题及Front Matter改变，并重新绑定正式ready SHA；本章生活案独立，不改变陈妙云、许澄与沈未事实。
 - “未获阅完成回执”不等于证明未完成；请求建立不等于实际读取目标文件。
 - 天井的普通风帽故障不作永安里/M004/M005机制证据；夜间中心没有高处作业与专业维修/燃气验收授权；不得声称所有住户设备无隐患。
 
 ## 结尾与审核边界
 Day334 20:09局部风帽已按权修好，北侧通道正式解除有限警戒，其他旧罩仍待检；母女分清亡人真实语音与本次物理风声；F003新申请仅收件。目标2600—3400有效字符；本稿3292。只供独立Audit审核，不生成QA/Memory/Reader或平台发布。
+
+## Audit Stage A / 双遍新SHA复审（2026-11-02）
+- 原472 draft Blob `c5ee597f33d5ad53f3102ff95d161d452d8f20b0` 初审Reader Pass A→B结果0 BLOCKER/1 MAJOR/2 MINOR；唯一MAJOR为前章引用仍指471旧临时draft Blob `72670341a6aa5cf261e5a80ab39dc0436223660e`。
+- 实际比较471旧draft与正式ready Blob `db9d77574a83076441e6aaac5cc8183097c47f76`，**小说正文逐字一致**，差异仅为原标题“坡道”改为“通道”及Front Matter。Stage A只改本章前章依赖SHA/状态并同步详细章纲，**本章小说正文0字修改**；新draft Blob `d33e6683f811f347bc9c4db42f9f0b9716090d52`新SHA独立Reader A/B 0/0/2 keep/none。
+- 独立Continuity/Style/Meaningful内容QA PASS，正文3292有效字符；精确候选结构CI PASS前不得以预检代正式ready。

@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 471
+current_chapter: 472
 current_stage: content_qa_pass_structural_pending
-current_source_path: chapters/draft/0471.md
-current_source_sha: 229d9560b293681fd7fa4af11228440185689f4c
-current_review_path: reader_reviews/0471_229d9560.md
+current_source_path: chapters/draft/0472.md
+current_source_sha: d33e6683f811f347bc9c4db42f9f0b9716090d52
+current_review_path: reader_reviews/0472_d33e6683.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: stage_a_title_only_and_new_sha_double_reader_complete
+last_action: prev471_final_ready_rebind_and_new_sha_double_reader_complete
 last_action_date: "2026-11-02"
 last_error: null
-last_diff_summary: "471初审0/1/2；只把标题坡道改通道并同步详纲，正文零改；新SHA 229d9560独立Reader A/B 0/0/2，内容QA通过，精确CI待验证。"
+last_diff_summary: "472初审0/1/2；471旧draft与ready正文逐字相同，仅标题及Front Matter异；472仅重绑前章ready并同步详纲，正文零改；新SHA d33e6683独立Reader A/B 0/0/2，内容QA通过，精确CI待验证。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -3662,5 +3662,25 @@ chapter_471_revision:
   body_revisions: 0
   retry_cycles: 0
   predecessor_ready_blob: "ca637825f2c60e5feef78990cc750ca7a84216ff"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_472_revision:
+  chapter: 472
+  original_sha: "c5ee597f33d5ad53f3102ff95d161d452d8f20b0"
+  source_sha: "d33e6683f811f347bc9c4db42f9f0b9716090d52"
+  initial_review: "reader_reviews/0472_c5ee597f.md"
+  final_review: "reader_reviews/0472_d33e6683.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage: local_revision_predecessor_sha_and_metadata_only
+  fix: "仅将前章471旧临时SHA重绑正式ready并记录前章新旧标题和交付元数据差异，正文完全不改"
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  retry_cycles: 0
+  predecessor_old_draft_sha: "72670341a6aa5cf261e5a80ab39dc0436223660e"
+  predecessor_ready_blob: "db9d77574a83076441e6aaac5cc8183097c47f76"
+  predecessor_factual_delta: "正文相同标题和Front Matter变化"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

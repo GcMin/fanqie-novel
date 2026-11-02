@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 472
+title: "墙上的哨声停了，母亲却留下那段录音"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "c5ee597f33d5ad53f3102ff95d161d452d8f20b0"
+source_draft_sha: "d33e6683f811f347bc9c4db42f9f0b9716090d52"
+initial_review: "reader_reviews/0472_c5ee597f.md"
+reader_review: "reader_reviews/0472_d33e6683.md"
+depends_on_chapter: 471
+depends_on_source_sha: "db9d77574a83076441e6aaac5cc8183097c47f76"
+dependency_status: verified_predecessor_body_identical_metadata_delta_checked
+timeframe: "Day333 20:41—Day334 20:09"
+summary: >-
+  Day333 20:41秦芳芝在石楠巷17号楼内院听到三短一长的哨声，想到两年前去世的丈夫昔日唤女秦澄回家；女儿录下黑窗和金属颤动，不将传言“有人求救”“煤气报警”或亡父归来认成已证。20:57物业俞新从安全侧初查且不擅登夜间无照明高处，不把“无许可作业”证明为绝对无人；21:06夏宁周衡梁策按权追问现场来源而不编虚构“吹哨人”，21:24具资质人员核公共燃气风险无本次立即泄漏证据而不能代全户设备合格，核北侧可能落物区域有限警戒并核南门许可绕行。22:02母女不再冒险追哨，辨别思念亡父与未知真实声源。Day334 09:36有权专业高处检修证旧通风罩两个导流片固定点松脱、金属间歇撞击和特定风向窄缝气鸣，10:07按许可修复本罩，11:12楼栋负责人按实际复核撤北侧警戒、同楼其它旧罩仍待逐项检查。20:09母女保存亡父真实旧语音原日期及维修前环境哨鸣分源记录，不补听不清的半句；曹叔纸箱可在警戒解除后正常通过。F003 Day334 11:29合法从前章Day333 14:05窄申仅获2022-11-18 15:42导入任务一条工作区读取请求建立的事件类型，公开范围没有独立读取完成和具体字节成功回执，不推出任务成功或失败或具体文件；14:12只提交下一次无身份无内容“读取结果状态类别”申请。2019真双向签封、2016旧回告在封、历史本人真受答、2022与11/21归档字节同一仍未证，Day195旧拆物沈家票分源F008/M004/M005不升级。
+meaningful_state_changes:
+  - "旧通风罩实地查出风鸣原因且按权完成本罩修复和北侧局部通道复开，其余旧罩未验。"
+  - "秦芳芝秦澄明确哨声非亡父真归来，分源保存父亲真实原日期语音和修前环境风声，不篡补旧音频。"
+  - "F003从配置来源类型枚举推进一条读取请求建立事件但未获真实读取完成文件字节的独立凭据。"
+knowledge_updates:
+  - "秦芳芝知道熟悉的节奏不等于亡夫本人，秦澄知道录音有金属颤动和父亲真实旧语音来自另一记录，不把未知来源声音命名为亡父。"
+  - "俞新及有责专业岗位只知道本处有限气体风险核查与一处罩体修复和北侧通路复行，不证全楼外墙或所有住户燃气设备合格。"
+  - "夏宁周衡梁策只按权限分源协调，罗经办马芸仅知获准范围内一次工作区读取请求建立的事件种类，不知实际访问文件路径、字节、人员或成败。"
+relationship_updates:
+  - "秦澄从怕母亲误以为亡夫回来到理解母亲要保存旧被叫回家的感觉，尊重其记忆但不将推测替代证据；母女共同归档两类录音。"
+  - "曹叔配合真实安全绕行，物业以有责局部专业修复和实告时点赢得有限信任。"
+foreshadowing_updates:
+  - "F003仅有读取请求建立事件而无获准范围内可验具体文件读取成功凭据，不能将请求存在证明实际字节同一，也不能据缺失成功回执推当时一定失败；旧2019/2016及F008/M004/M005无新可靠证。"
+ending_state: "Day334 20:09本罩修好且北侧警戒真撤，其他旧罩待核；母女保留父亲旧语音与修前风声真实区分，档案读取结果状态下一申请仅收件。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "c5ee597f33d5ad53f3102ff95d161d452d8f20b0", initial_counts: "0/1/2", final_draft_sha: "d33e6683f811f347bc9c4db42f9f0b9716090d52", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, fix: "前章SHA改为471最终ready并核实正文相同", predecessor_original_draft_blob: "72670341a6aa5cf261e5a80ab39dc0436223660e", predecessor_ready_blob: "db9d77574a83076441e6aaac5cc8183097c47f76", predecessor_body_delta: "正文相同仅标题坡道改通道及交付元数据", proposed_ready_blob: "5a5a807d95f2fbe4f1872cbe1b4c1fa1cc15d194"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3292
