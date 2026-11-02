@@ -9,3 +9,7 @@
 - **Meaningful Change PASS**：原错误绿通知仍留证但车辆真正到楼下并把患者按实际评估转运；紧急内弯障碍清理并启用临时可核回告，系统规则大范围整改与责任未结；F003新增限定写入批次，不越权跳谜。
 - **章号/标题/有效字数 PASS**：463；`闸杆抬了，救护车还堵在转弯口`；FM、详纲及计划一致；按正文去空白与场景分隔符 `***` 为 **3280有效字**，位于2600—3400优选范围。原稿和拟ready仅交付Front Matter变化，无小说正文修订。
 - **结构门禁**：本报告是独立内容QA，**不等于结构校验**。仅当精确候选Git commit触发的真实 `python -m publisher.check_local --repo .` 与结构单测均成功，且main HEAD仍可用expected_sha/force:false非强制更新时，才将本次ready候选推广至main；CI失败时维持原main draft。
+
+## 第463章精确候选结构 CI 和 main 正式放行证据（2026-11-02）
+- **正式放行 Commit**：`b9f4cd9ce27a001c6489a288072bd0d9c1aa6ba6`，父 Commit `683022ab579963e71cf619e2cbde9e276387db00`，tree `f3e426d22ee44bbb4c0ec8b36750fb713e3cf137`。审核分支 `audit/ready-0463-20261102` 触发的 GitHub Actions `41387423626` **SUCCESS**，精确 checkout 的 `python -m unittest discover -s tests -p test_check_local.py -v` 和 `python -m publisher.check_local --repo .` 均为成功。基于前述成功且 main 原 HEAD 未变化，使用 `expected_sha=683022ab579963e71cf619e2cbde9e276387db00` / `force:false` 非强制推进 main 到同一 Commit；main Actions `41387462765` **SUCCESS** 且两项检查成功。
+- **正式 ready Git Blob**：`2d43e882ea46cb74b37fca5a3a3a51582f89c55d`；`chapters/ready/0463.md` 是第463章唯一正式文件，原 `chapters/draft/0463.md` 已删除。实际章节与详细计划标题一致、正文未改；源草稿 Blob `1f7ba37d02b9d1171848619a8f0e09da977b65f6` 的 Reader 两遍 0/0/2 和独立 Continuity/Style/Meaningful 内容 QA PASS 已落盘。完整树 2446项、`truncated=false`，ready304、published159、数字draft0。本次仅变更正文交付元数据，不发布番茄、不修改Canon/published或定时任务。

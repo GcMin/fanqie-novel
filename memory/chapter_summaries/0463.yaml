@@ -29,5 +29,6 @@ foreshadowing_updates:
 ending_state: "Day325 20:21祝盼取灰毛衣赶医院，父亲仍检查；东门临时人工真到达回告且本笔错通知留证，正式通知映射与责任待核；F003旧源凭据申请只收件。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "1f7ba37d02b9d1171848619a8f0e09da977b65f6", final_draft_sha: "1f7ba37d02b9d1171848619a8f0e09da977b65f6", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "2fa9877db188142fd5949242043ed950333c978e"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_success}
 char_count: 3280
+release_evidence: {candidate_commit: "b9f4cd9ce27a001c6489a288072bd0d9c1aa6ba6", candidate_ci: 41387423626, main_ci: 41387462765, structural_unit_tests: pass, publisher_check_local: pass, ready_blob: "2d43e882ea46cb74b37fca5a3a3a51582f89c55d", main_ref_update: expected_sha_force_false_success}

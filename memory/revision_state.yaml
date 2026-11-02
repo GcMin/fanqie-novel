@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 463
-current_stage: content_QA_pass_candidate_CI_required
+current_stage: ready_released_exact_CI_success
 current_source_path: chapters/draft/0463.md
 current_source_sha: 1f7ba37d02b9d1171848619a8f0e09da977b65f6
 current_review_path: reader_reviews/0463_1f7ba37d.md
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: content_QA_pass_candidate_CI_required
+last_action: ready_released_exact_CI_success
 last_action_date: "2026-11-02"
 last_error: null
-last_diff_summary: "463 exact predecessor ready SHA; Reader 0/0/2 and content QA PASS; no revision; candidate CI required before main ready"
+last_diff_summary: "463 exact predecessor ready SHA; Reader 0/0/2, QA PASS, no body revision, candidate CI 41387423626 and main CI 41387462765 SUCCESS; ready blob 2d43e882ea46cb74b37fca5a3a3a51582f89c55d"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
-current_review_source_sha: 011f78c2368295c92e0270cfa3467aa2120ac9fa
+current_review_source_sha: 1f7ba37d02b9d1171848619a8f0e09da977b65f6
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -3468,4 +3468,15 @@ chapter_463_revision:
   body_revisions: 0
   predecessor_ready_blob: "2fa9877db188142fd5949242043ed950333c978e"
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_commit_CI_success
+
+release_463:
+  candidate_commit: "b9f4cd9ce27a001c6489a288072bd0d9c1aa6ba6"
+  candidate_ci: 41387423626
+  main_ci: 41387462765
+  exact_sha_verified: true
+  status: ready
+  ready_chapters: [463]
+  ready_blobs: ["2d43e882ea46cb74b37fca5a3a3a51582f89c55d"]
+  main_ref_update: expected_sha_force_false_success
+  body_revisions: 0

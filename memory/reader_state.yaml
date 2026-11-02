@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 461
-depends_on_source_sha: 4e55b73b9521a6788bfa66bac61ceef93acfba8a
-dependency_status: verified_predecessor_factual_delta_checked
-predecessor_current_source_sha: 4e55b73b9521a6788bfa66bac61ceef93acfba8a
+depends_on_chapter: 462
+depends_on_source_sha: 2fa9877db188142fd5949242043ed950333c978e
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 2fa9877db188142fd5949242043ed950333c978e
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -4040,4 +4040,14 @@ chapter_463_review:
   predecessor_ready_blob: "2fa9877db188142fd5949242043ed950333c978e"
   predecessor_body_delta: exact_ready_sha_no_old_reference
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_commit_CI_success
+
+release_463:
+  candidate_commit: "b9f4cd9ce27a001c6489a288072bd0d9c1aa6ba6"
+  candidate_ci: 41387423626
+  main_ci: 41387462765
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  chapters: [463]
+  ready_blobs: ["2d43e882ea46cb74b37fca5a3a3a51582f89c55d"]

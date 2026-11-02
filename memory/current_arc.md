@@ -1,3 +1,6 @@
+# 第463章main正式放行精确结构CI证据｜2026-11-02
+- 精确候选 Commit `b9f4cd9ce27a001c6489a288072bd0d9c1aa6ba6`，分支Actions `41387423626` SUCCESS，结构单测与`publisher.check_local`均PASS；以原HEAD为expected_sha、force:false推进main后同Commit Actions `41387462765` SUCCESS。第463章正式ready Blob `2d43e882ea46cb74b37fca5a3a3a51582f89c55d`，原draft已删除，Reader 0/0/2与独立内容QA PASS，小说正文0改。此前同文件“候选需CI”是历史阶段提示，现已由本段实证覆盖。
+
 # 第463章ARC-054独立Audit有界事实（2026-11-02；正式ready须以精确候选CI成功+main非强制更新实证）
 - 源draft `1f7ba37d02b9d1171848619a8f0e09da977b65f6`；前462正式ready Blob `2fa9877db188142fd5949242043ed950333c978e` 与依赖精确一致，前章旧/新SHA无差异需要比对；Reader Pass A后独立Pass B：0 BLOCKER / 0 MAJOR / 2 MINOR；无Revision及正文改写；Continuity/Style/Meaningful内容QA PASS，3280有效字。
 - Day324 20:47祝仁山胸闷由祝盼拨120；21:06救护车抵槐荫里东门，21:07闸口放行被平台误映为楼门抵达，但内弯厢货挡实际车行。医护21:16先经安全路线到三楼，货车司机21:24回来有权挪车，21:36救护车真到五号楼，21:47患者由专业人员转运入车21:54离开。病情诊断与责任未决，Day325仅本笔保留旧错并东门人工实核，正式模板和其它门未全面修复。
