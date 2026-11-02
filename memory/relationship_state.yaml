@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 467
+last_updated_chapter: 468
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2014,4 +2014,13 @@ chapter_467_relationship_verified:
   safety_service: "唐向前拒借已读绿字硬开工，运营管理按权只限危险九摊逐人告知、其余档不停业；安全配合不等于经营索赔结清。"
   archive: "罗经办马芸共同将旧容器无附件数量字段与附件数为0区别记录，下一笔仅申请更窄事件类型。"
   core_team: "夜间中心夏宁周衡梁策按已有权限合作，不据本普通案件调整长期互信数值。"
+  trust_scores_unchanged: true
+
+chapter_468_relationship_verified:
+  chapter: 468
+  source_sha: "9d8ae809262c804f59f6387791970a959a4095f1"
+  family: "林柚抱婴与宋柏膝盖不适互有实际照护压力，宋柏从辩解旧架占楼梯到主动收架、共同合法移置童车；杜青抱孩子实际协助，家庭不将公共安全与育儿必要存车二选一。"
+  community: "耿启不代扣故意堵门帽子，施芮核准许可室并由双人领钥匙交付一格，住户知道只限本车及当次有效凭据，不推所有居民已解决。"
+  archive: "罗经办马芸继续按来源分层，仅记挂载任务创建而非成功，等待下一合法状态类申请答复。"
+  core_team: "夏宁周衡梁策互信数值不变，分别承担有源调度、设施判断边界和现场授权问责。"
   trust_scores_unchanged: true

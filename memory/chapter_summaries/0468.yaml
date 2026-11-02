@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 468
+title: "防火门已经闭合，楼道里还伸着半辆婴儿车"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "9d8ae809262c804f59f6387791970a959a4095f1"
+reader_review: "reader_reviews/0468_9d8ae809.md"
+depends_on_chapter: 467
+depends_on_source_sha: "3e3ec0ebf9152522869ff1a688a95fe48b40fcbe"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day329 20:46—Day330 20:09"
+summary: >-
+  Day329 20:46柳栖花园6号楼东侧三楼半林柚抱九个月女儿，折叠童车与宋柏旧木架阻防火门，公众20:32误显示已闭合。20:53耿启实查无火情伤人并有限看护，21:07夏宁周衡梁策分源协调有权物业及专业岗位。施芮排除消防器材室与占消防车操作场地旧棚，查合法一楼临时物品室；21:58两管理者核空位钥匙路线，22:04杜青抱婴、林柚宋柏实际搬车且收走架，22:17领真凭据；22:23专业核门仍有锁舌不到位，临护不撤。Day330 09:38专业调整复测、10:26本点有责撤临护、10:51确认20:32仅联动释放指令执行回执被误映实际闭合，只本门有源纠错，其他门待核。20:09林柚本人凭证真取车、宋柏旧架移入自家。F003 Day330午前仅获2022-11-18 15:06关联目录容器有“附件挂载任务创建”类型事件标记，无任务完成或失败状态、附件名、字节或校验；14:06新非身份限项申请仅收件，不证2022 15:42实际导入内容与11/21第三校对本同一、2019实签封、2016回告在封或历史本人真获答。
+meaningful_state_changes:
+  - "楼梯疏散实物障碍真实移除，合法物品室经双人实际核交一辆折叠童车的可用凭据，家人不将存车问题移往下一消防通道。"
+  - "单点防火门经专业修复复测并有责结束临护，历史误映释放指令为实体闭合的绿色源记录保留并限本门纠正；全楼未统一验收。"
+  - "宋柏承担木架移至私人空间义务并改变照护安排，林柚无需冒险抱婴扛车。"
+  - "F003仅获得附件挂载任务创建事件类型，不能证明真实挂载成功及附件实际来源。"
+knowledge_updates:
+  - "林柚宋柏只知本人车/旧架实际搬离与合法储物许可，施芮耿启各知有限现场核验，杜青只在场抱稳孩子；其他住户储物空位未知。"
+  - "夏宁周衡梁策只据现场与联动回执协调，不替有资质维护者判断其它消防门；罗经办马芸仅知创建过附件挂载任务，不知执行状态或文件内容。"
+relationship_updates:
+  - "宋柏从替旧架辩解转为主动收架及按许可协助林柚存车，家庭照护与疏散公共安全不被设成二选一。"
+foreshadowing_updates:
+  - "2022-11-18 15:06容器挂载任务类型创建不等于挂载成功或具体字节交付；2019旧封双方实签、2016在封回告及旧报事人本人真获答仍不证。Day195旧拆件与沈家私票分源、F008/M004/M005无新证。"
+ending_state: "Day330 20:09林柚凭据取车后仍按许可室登记使用，宋柏旧木架回到家内；单点门实测可闭合但其它门信号映射待核；档案任务结果状态新申请仅收件。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "9d8ae809262c804f59f6387791970a959a4095f1", final_draft_sha: "9d8ae809262c804f59f6387791970a959a4095f1", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "3e3ec0ebf9152522869ff1a688a95fe48b40fcbe", proposed_ready_blob: "376df6841d327a028d57f92f8170681b606bbfe9"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3391
+release_evidence: {ready_blob: "376df6841d327a028d57f92f8170681b606bbfe9", candidate_ci: pending, publisher_check_local: pending, structural_unit_tests: pending, main_ref_update: pending}

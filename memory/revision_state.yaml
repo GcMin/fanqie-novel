@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 467
-current_stage: ready_released_exact_CI_success
-current_source_path: chapters/draft/0467.md
-current_source_sha: ff079acce562bda2ae8213e4b7dfe0b9418d004c
-current_review_path: reader_reviews/0467_ff079acc.md
+current_chapter: 468
+current_stage: content_qa_pass_structural_CI_pending
+current_source_path: chapters/draft/0468.md
+current_source_sha: 9d8ae809262c804f59f6387791970a959a4095f1
+current_review_path: reader_reviews/0468_9d8ae809.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: ready_released_exact_CI_success
+last_action: content_qa_pass_structural_CI_pending
 last_action_date: "2026-11-02"
 last_error: null
-last_diff_summary: "467 Reader 0/0/2 and QA pass, body unchanged, ready blob 3e3ec0ebf9152522869ff1a688a95fe48b40fcbe; candidate 64f72c488fd9c71f38d8e21c87dd43c4d866837c CI 41412507219 SUCCESS, main CI 41412568796 SUCCESS, main update expected_sha force:false."
+last_diff_summary: "468 Reader 0/0/2 and Continuity/Style/Meaningful QA pass, body unchanged, predecessor exact 3e3ec0ebf9152522869ff1a688a95fe48b40fcbe, proposed ready 376df6841d327a028d57f92f8170681b606bbfe9; structural CI pending."
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: true
-current_review_source_sha: ff079acce562bda2ae8213e4b7dfe0b9418d004c
+publish_gate_passed: false
+current_review_source_sha: 9d8ae809262c804f59f6387791970a959a4095f1
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -3568,3 +3568,19 @@ release_467:
   ready_chapters: [467]
   ready_blobs: ["3e3ec0ebf9152522869ff1a688a95fe48b40fcbe"]
   body_revisions: 0
+
+chapter_468_revision:
+  chapter: 468
+  original_sha: "9d8ae809262c804f59f6387791970a959a4095f1"
+  source_sha: "9d8ae809262c804f59f6387791970a959a4095f1"
+  final_review: "reader_reviews/0468_9d8ae809.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage: no_revision_needed
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  retry_cycles: 0
+  body_revisions: 0
+  predecessor_ready_blob: "3e3ec0ebf9152522869ff1a688a95fe48b40fcbe"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
