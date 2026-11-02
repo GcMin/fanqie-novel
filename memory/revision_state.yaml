@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 470
+current_chapter: 471
 current_stage: content_qa_pass_structural_pending
-current_source_path: chapters/draft/0470.md
-current_source_sha: bfeadde1e38037e3beee3fa904c76468339e26cf
-current_review_path: reader_reviews/0470_bfeadde1.md
+current_source_path: chapters/draft/0471.md
+current_source_sha: 229d9560b293681fd7fa4af11228440185689f4c
+current_review_path: reader_reviews/0471_229d9560.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: ready_released_exact_tree_CI_success
+last_action: stage_a_title_only_and_new_sha_double_reader_complete
 last_action_date: "2026-11-02"
 last_error: null
-last_diff_summary: "468 Reader 0/0/2 and content QA pass, body unchanged, exact predecessor ready, PR tree-identical CI 41419924429 success, main 6b9283fa8d1d73915c12fb89f9a46665789a3a6f expected_sha force:false, ready blob 376df6841d327a028d57f92f8170681b606bbfe9."
+last_diff_summary: "471初审0/1/2；只把标题坡道改通道并同步详纲，正文零改；新SHA 229d9560独立Reader A/B 0/0/2，内容QA通过，精确CI待验证。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -3646,3 +3646,21 @@ chapter_470_revision:
   predecessor_body_delta: "前日下午14:06→昨日下午14:06"
   content_qa: pass
   structural_gate: pending_exact_candidate_CI
+chapter_471_revision:
+  chapter: 471
+  original_sha: "72670341a6aa5cf261e5a80ab39dc0436223660e"
+  source_sha: "229d9560b293681fd7fa4af11228440185689f4c"
+  initial_review: "reader_reviews/0471_72670341.md"
+  final_review: "reader_reviews/0471_229d9560.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage: local_revision_title_only
+  fix: "坡道标题改成通道，与无障碍公开公告及东侧平层入口实际内容对应"
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  retry_cycles: 0
+  predecessor_ready_blob: "ca637825f2c60e5feef78990cc750ca7a84216ff"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required

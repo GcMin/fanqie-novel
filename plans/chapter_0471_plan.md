@@ -1,4 +1,4 @@
-# 第471章详细章纲｜坡道标着可以通行，她还停在台阶下面
+# 第471章详细章纲｜通道标着可以通行，她还停在台阶下面
 
 - chapter: 471
 - volume: 6
@@ -11,7 +11,7 @@
 - predecessor_location: chapters/ready/0470.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day332 20:33—Day333 20:14
-- title: 坡道标着可以通行，她还停在台阶下面
+- title: 通道标着可以通行，她还停在台阶下面
 - target_effective_chars: 3000
 - actual_effective_chars: 3534
 - pov: 陈妙云、许澄贴近第三人称，场馆及夜间中心限权联动；罗经办马芸按权限查档
@@ -46,3 +46,8 @@ Day332 20:33南雁文化中心音乐会网页写“无障碍入场通道已开�
 
 ## 结尾承接
 Day333 20:14家人明确仅第三首是真听过的节目；档案“读取动作”事件种类计数新申请刚收件，不知答复。独立Audit尚未审新稿。
+
+## Audit Stage A与独立复审（2026-11-02）
+- 原稿Blob: `72670341a6aa5cf261e5a80ab39dc0436223660e`；初次Reader A/B: BLOCKER 0、MAJOR 1、MINOR 2。唯一必改项为标题“坡道”与正文实际“无障碍通道/东侧平层入口”不符。
+- Stage A仅改标题“坡道→通道”，**小说正文零字修改**；修订后草稿Blob: `229d9560b293681fd7fa4af11228440185689f4c`。按新SHA重新独立Reader A/B: BLOCKER 0、MAJOR 0、MINOR 2，keep/none。
+- 连续性/文风/有意义变化独立内容QA PASS；前章470正式ready Blob `ca637825f2c60e5feef78990cc750ca7a84216ff` 与本稿依赖精确一致。正式迁入ready必须先通过精确候选Git Tree结构CI。

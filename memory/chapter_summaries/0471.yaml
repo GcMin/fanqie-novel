@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 471
+title: "通道标着可以通行，她还停在台阶下面"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "72670341a6aa5cf261e5a80ab39dc0436223660e"
+source_draft_sha: "229d9560b293681fd7fa4af11228440185689f4c"
+initial_review: "reader_reviews/0471_72670341.md"
+reader_review: "reader_reviews/0471_229d9560.md"
+depends_on_chapter: 470
+depends_on_source_sha: "ca637825f2c60e5feef78990cc750ca7a84216ff"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day332 20:33—Day333 20:14"
+summary: >-
+  Day332 20:33南雁文化中心公告无障碍入口已开放，但陈妙云推轮椅到正门三级台阶无法进入、东侧合法平层入口导向牌丢失且夜间仍有布展障碍。20:45冯栩辨明14:20布展走货交接不等于19:55公众通道已开放并保留错误页面；21:04夜间中心夏宁周衡梁策仅按权协调，不代场馆安全和开门岗位验收。21:16有责人员核正式东侧路线，21:28物料真入合法器材室并安全岗位实际复查夜间照明、门扇与沟盖；21:37合规领钥匙开门，21:42陈妙云自主轮椅真入场听到外孙沈未第三首长笛，前两首错过不倒填。场馆按真人入场时点记录，主持人仅在自身权限内调节目介绍，Day333 09:24只纠本场布展单误映观众开放，其他场馆和通道未统一验收；志愿者小邵改从擅抬轮椅为先核可用合法路线。Day333 20:14外婆与沈未只把真听过的第三首标星。F003 Day333 11:32罗经办马芸合法获2022-11-18 15:42导入任务配置的非身份来源类型为“内部工作区引用”，只说明当时配置类别而非实际打开文件、读到字节或与11/21归档版同一；14:05查询工作区文件读取动作事件类型和数量的更窄申请仅收件。2019真签封、2016回告在封、历史本人获答均未证，Day195旧拆件沈家私人票分源，F008/M004/M005不确认。
+meaningful_state_changes:
+  - "虚假公众通道开放经场馆有责安全核验、真实清障和合法领钥匙后，陈妙云21:42自行进入，缺席的前两首未被倒填。"
+  - "祖孙用第三首独立小星保存真实听到的演出，陈妙云拒绝被当货物抬进、许澄尊重其参与权、志愿者改变协助方式。"
+  - "场馆只对本活动的布展交接误关联作带源公开纠错，不能宣称全部无障碍路线重新验收。"
+  - "F003获得导入配置来源类型枚举而非读取事实，后续读取动作事件最小申请待答。"
+knowledge_updates:
+  - "陈妙云与许澄知道21:42实入及前两首未听；沈未知道外婆真听第三首，不替外婆写全场到齐。"
+  - "冯栩及场馆安全岗只对本次东侧平层入口现场条件授权；小邵只能指路联系有权人，不代开锁或抬人。"
+  - "夏宁周衡梁策按实际来源协调，不替场馆或专业岗判断整馆安全；罗经办马芸只知非身份配置枚举，不知执行时真实读取与具体字节。"
+relationship_updates:
+  - "陈妙云坚持自主进入、许澄尊重母亲并为她争取合理节目安排、沈未用第三首小星记真听；祖孙关系因真实见证加深。"
+  - "小邵从建议抬人改为保护可用路线和听取本人需求；场馆认原误告，不以令人勉强签满意代替实际服务。"
+foreshadowing_updates:
+  - "2022导入来源配置可查但读取动作未证，仍不证11/21归档第三校对本同字节，也不证2019双签封、2016在封回告及历史真人受答；F008/M004/M005无升级。"
+ending_state: "Day333 20:14陈妙云保留当晚只听第三首的事实，外孙愿以后在家补吹第一首；场馆本场限项纠错完成而历史文件读取动作更窄申请仅收件。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "72670341a6aa5cf261e5a80ab39dc0436223660e", initial_counts: "0/1/2", final_draft_sha: "229d9560b293681fd7fa4af11228440185689f4c", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, fix: "标题坡道改通道并同步详纲", predecessor_ready_blob: "ca637825f2c60e5feef78990cc750ca7a84216ff", proposed_ready_blob: "db9d77574a83076441e6aaac5cc8183097c47f76"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3534
