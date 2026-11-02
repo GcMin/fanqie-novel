@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 463
+title: "闸杆抬了，救护车还堵在转弯口"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "1f7ba37d02b9d1171848619a8f0e09da977b65f6"
+reader_review: "reader_reviews/0463_1f7ba37d.md"
+depends_on_chapter: 462
+depends_on_source_sha: "2fa9877db188142fd5949242043ed950333c978e"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day324 20:47—Day325 20:21"
+summary: >-
+  Day324 20:47祝仁山胸闷出汗，女儿祝盼按120调度等专业医护，21:06救护车抵槐荫里东门，21:07闸杆放行却被物业新模板误报“已到五号楼”，施工货车及周转筐卡住内弯。医护不等车进楼，21:16按安全步行路线先抵三楼专业评估；夜间中心夏宁周衡梁策只核公共安全与来源，不代医疗或物业越权。21:24司机徐建勇回来清长料挪车，21:32物业现场与救护驾驶员分别核路，21:36救护车实到楼下，21:47祝仁山由专业人员真转运入车，21:54驶离；家属医院待检查无已稳定/出院结论。Day325 10:18仅纠东门本笔误通知保原错，人工核真实楼栋到达、其它入口和正式模板尚待测，司机责任未判。Day325 11:43罗经办马芸仅合法获2022现存非身份关联引用最早可核记录为11月22日同步批次，晚于11月18日15:42导入和11月21日归档，不能反推出导入当时无底稿、2019真双签封口、2016旧回告在封或历史本人实际获答；新的原始任务版本凭据申请仅收件。晚间祝盼取灰毛衣赶医院，何明利实巡内弯，父亲病情未有最终结论。Day195旧拆件沈家私人票分源，F008/M004/M005不证。
+meaningful_state_changes:
+  - "救护车由闸口绿字假到达转为21:36实际到楼门、21:47患者真正上车；原错通知保留。"
+  - "祝盼改为要求真人位置与按医护评估交接，何明利实行临时内弯实地观察；正式系统改造和占道责任未定。"
+  - "F003新增现存非身份索引关联的最早可核2022-11-22写入批次，不可反证2022-11-18底稿使用或旧历史真实性。"
+knowledge_updates:
+  - "祝盼只知父亲实际经医护转运和医院仍检查，不知诊断、预后或全小区急救通路永久正常。"
+  - "夏宁周衡梁策知道闸口与楼门两源不一致、实际车和医护分别到达，不掌医嘱或车辆强制拖移权。"
+  - "罗经办马芸只知合法后期索引同步批次，不知当日原始使用版本、2019封件与2016回告事实。"
+relationship_updates:
+  - "祝盼与祝仁山由父亲惦念收音机和女儿空口保证转为重视实际救援和后续照料；家属的焦急奔波未因绿通知纠正而消失。"
+foreshadowing_updates:
+  - "F003 Day325最早可核现存索引为2022-11-22同步批次，11-18实际使用凭据仍未知；2019真签封、2016回告在封和历史本人获答不证。F008/M004/M005不升级。"
+ending_state: "Day325 20:21祝盼取灰毛衣赶医院，父亲仍检查；东门临时人工真到达回告且本笔错通知留证，正式通知映射与责任待核；F003旧源凭据申请只收件。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1f7ba37d02b9d1171848619a8f0e09da977b65f6", final_draft_sha: "1f7ba37d02b9d1171848619a8f0e09da977b65f6", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "2fa9877db188142fd5949242043ed950333c978e"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3280

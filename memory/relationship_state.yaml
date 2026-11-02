@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 462
+last_updated_chapter: 463
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1971,4 +1971,13 @@ chapter_462_relationship_verified:
   service_relationship: "许如云核纸签和实物保护老人知情，厨房依法另做，不以补餐抹原假签及后续赔偿问题。"
   core_team: "夜班仅有权协作，信任数值不因普通助餐事件改变。"
   archive: "罗经办马芸只知现存2022后期索引关联，不越级宣称2019原物真实性。"
+  trust_scores_unchanged: true
+
+chapter_463_relationship_verified:
+  chapter: 463
+  source_sha: "1f7ba37d02b9d1171848619a8f0e09da977b65f6"
+  father_daughter: "祝盼从向祝仁山笼统保证救护车能来，转为亲自辨别闸口与楼下实到并按医护指示安排转运；父亲惦记拖鞋和收音机，女儿到Day325仍实际照料并取灰毛衣，病情未知。"
+  service_relationship: "何明利不以闸口绿字敷衍家属，向祝盼展示有限可核纸本且记录她对真人回告的要求；物业人工巡查只覆盖本东门，不自称全小区已修。"
+  core_team: "三位夜班同事只围绕职责协调，信任数值未改变。"
+  archive: "罗经办马芸共同谨慎区分后期索引同步批次与历史实际使用凭据，不就2019/2016旧原件越权推断。"
   trust_scores_unchanged: true
