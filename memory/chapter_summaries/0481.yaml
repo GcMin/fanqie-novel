@@ -30,5 +30,17 @@ foreshadowing_updates:
 ending_state: "Day344 19:42旧借阅卡见似车轮画但姓名尚未核、受潮贴页待专业处置、十二号未验收上架；公众现行告示已分项说明，主管整车更正审批及旧屋短管永久维修未结。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "46ee512c335ff1fd588b6ce9413a9744d6cbf4de", final_draft_sha: "46ee512c335ff1fd588b6ce9413a9744d6cbf4de", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "d4771d4300bbbd81217a76e333be2d9fdafa5c5c", dependency_status: verified_exact_ready_blob}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_success_41535621570}
 char_count: 3050
+
+release_evidence:
+  candidate_commit: "a199833406307918d2d4ec829bf228083d3e7acb"
+  validated_tree: "f276fe806007bfa03b179724dc979fe8035d8424"
+  candidate_ci: 41535621570
+  candidate_ci_conclusion: success
+  main_ci: 41535722474
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  ready_blob: "621991bba117c72193c8f8bb55eed31059dc1e42"

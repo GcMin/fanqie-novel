@@ -1,3 +1,6 @@
+# 第481章已正式main放行｜精确候选结构CI与版本核验成功｜2026-11-03
+- 候选及放行Commit `a199833406307918d2d4ec829bf228083d3e7acb`，Tree `f276fe806007bfa03b179724dc979fe8035d8424`，审计分支CI `41535621570` **SUCCESS**（结构单测及`python -m publisher.check_local --repo .`）；main同SHA CI `41535722474` **SUCCESS**；main以`expected_sha=c33391b624ee4bcb1940bca7b46c82aa0fd6e38c`、`force:false`更新成功。第481章ready Blob `621991bba117c72193c8f8bb55eed31059dc1e42`，原draft已删除；原稿Reader双遍0/0/2、独立内容QA全PASS、小说正文0字修改，前480正式SHA完全匹配。下方候选阶段“结构待核”已由上述实际精确CI结果覆盖。
+
 # 第481章独立Reader及Continuity/Style/Meaningful内容QA｜2026-11-03（候选结构门禁待核）
 - 对`chapters/draft/0481.md`原始Git Blob `46ee512c335ff1fd588b6ce9413a9744d6cbf4de`依次完成独立普通读者Pass A和Canon/事实Pass B，最终0 BLOCKER/0 MAJOR/2 MINOR，keep/none，无须修订且正文0字改动。当前章直接依赖第480章正式ready Blob `d4771d4300bbbd81217a76e333be2d9fdafa5c5c`，源SHA精确一致，前章无旧→新未核事实差异。内容Continuity/Style/Meaningful QA均PASS；完整结构放行**必须以同一候选Commit的CI实际成功为准**，未成功之前不得宣称正式ready。
 - Day343 20:26新活动室借书父子问旧馆资料是否全移交，季唯许汀说明旧十箱真到、第十一箱Day343真签和第十二箱受控检查尚未验收。Day344 08:43有责纸品人员限权检查第十二箱、分项记录受潮纸套及两组粘连旧页，11:22见一张似大前轮小后轮的旧卡铅笔画，因姓名栏遮挡不辨旧借阅者；缪芸只记相似而不替原持有人认领，志愿者未经授权不可公开旧姓名/电话/借阅轨迹。季唯补交误扫码源事实、主管仅收件，17:18公众告示改分项说明，系统更正批准与短管永久修复仍未结；19:42父子新画轮子不等于旧卡本人。F003无历史新来源，F008/M004/M005不新增确证。

@@ -9,3 +9,7 @@
 - **Meaningful Change QA PASS**：第十二箱由“内部未核”真正进入受权限的分项检查，确认某些纸套受潮、部分贴页且见到**似**旧车轮画；外部公众告示由误导性全交付换成按真实时点列状态；缪芸从急于找旧卡主人转为尊重匿名和未核事实。纸张数量/损伤终局、个人身份、扫码更正审批及旧屋短管永久修理均待核。
 - **Canon / F003 / F008 / M004/M005**：本章没有新增独立永安里史料；2022旧任务结束事件无实例子号、结果码和具体读取字节不能作完成证；F003旧关键事实仍未证，F008没有可靠新增记忆反证，M004/M005不借普通流程错映提前确证。Canon和published文件不修改。
 - **放行结构门禁（候选阶段）**：Reader和以上独立内容QA已PASS，不等于结构校验PASS。仅当包含本章ready、从draft移除、Memory及完整章节计划行的**相同精确Git Commit**在GitHub Actions实际执行并SUCCESS完成`python -m unittest discover -s tests -p test_check_local.py -v`和`python -m publisher.check_local --repo .`后，才能以最新main的`expected_sha`、`force:false`原子放行。CI未执行、失败或main并发改变则保留draft，复核后重试；不force pass。
+
+## 第481章正式ready结构门禁与main更新｜2026-11-03
+- 精确候选并正式放行Commit `a199833406307918d2d4ec829bf228083d3e7acb`，Git Tree `f276fe806007bfa03b179724dc979fe8035d8424`。审计分支`audit/ready-0481-20261103` GitHub Actions `41535621570` **SUCCESS**，checkout精确候选SHA，结构单测与`python -m publisher.check_local --repo .`两步均为success。
+- 实际main以`expected_sha=c33391b624ee4bcb1940bca7b46c82aa0fd6e38c`、`force:false`非强制更新成功，main同版本Actions `41535722474` **SUCCESS**。原`chapters/draft/0481.md`在同一Git Tree原子删除；正式`chapters/ready/0481.md` Git Blob `621991bba117c72193c8f8bb55eed31059dc1e42`。Reader0/0/2、独立内容QA三项PASS、正文0字改、前480ready精确依赖，Memory与计划已经同一候选树完成校验。

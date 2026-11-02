@@ -4416,5 +4416,5 @@ chapter_481_review:
   predecessor_ready_blob: "d4771d4300bbbd81217a76e333be2d9fdafa5c5c"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_ci_success_41535621570
 
