@@ -30,5 +30,16 @@ foreshadowing_updates:
 ending_state: "Day345 17:02新画墙按本人授权展示至周末，错误认亲宣传已纠正但外传无法全回收，受控旧卡未核姓名；原扫码状态及旧屋修复待有责流程。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "7602bad005187aad8c93a2056a31473f1d03fc73", final_draft_sha: "7602bad005187aad8c93a2056a31473f1d03fc73", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "621991bba117c72193c8f8bb55eed31059dc1e42", dependency_status: verified_exact_ready_blob}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_success_41544333763}
 char_count: 3297
+release_evidence:
+  candidate_commit: "515c4389017de7c05c505e1f96790d07b77d27ca"
+  validated_tree: "54e83b86b88c640baa6d00313d53b3300e4780bc"
+  candidate_ci: 41544333763
+  candidate_ci_conclusion: success
+  main_ci: 41544409940
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  ready_blob: "19985262505e501675f0e9d2f8190cad9a48df73"

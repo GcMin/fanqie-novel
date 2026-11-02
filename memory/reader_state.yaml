@@ -4432,4 +4432,14 @@ chapter_482_review:
   predecessor_ready_blob: "621991bba117c72193c8f8bb55eed31059dc1e42"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_ci_success_41544333763
+
+release_482_reader_evidence:
+  source_draft_sha: "7602bad005187aad8c93a2056a31473f1d03fc73"
+  source_review: reader_reviews/0482_7602bad0.md
+  counts: "0/0/2"
+  content_qa: pass
+  candidate_commit: "515c4389017de7c05c505e1f96790d07b77d27ca"
+  exact_candidate_ci_success: 41544333763
+  same_sha_main_ci_success: 41544409940
+  ready_blob: "19985262505e501675f0e9d2f8190cad9a48df73"

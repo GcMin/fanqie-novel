@@ -9,3 +9,10 @@
 - **Meaningful Change QA PASS**：旧借阅人已确认的错误宣传实际公开更正，认亲环节撤而授权新画展成，严师傅得以拒绝不必要公开身份辩白，小乔的行动准则改变。旧箱身份、全部受潮状态、整车错扫正式终态及旧屋维修仍未获证。
 - **Canon/伏笔 PASS**：F003无原始旧史新证，F008/M004/M005不得据普通宣传误认确认，旧人身份仍未知，Canon/published不改。
 - **结构校验未执行前不得宣称结构PASS**：内容QA三项已通过；需对包含正式ready/删除draft、Reader、QA、Memory和完整计划行的精确候选Git commit在GitHub Actions实际运行结构单元测试和`python -m publisher.check_local --repo .`全部SUCCESS，再按main最新expected_sha、force:false原子放行；CI未完成/失败则保留draft，下轮复核。
+
+## 第482章精确结构 CI 与 main 放行证据｜2026-11-03
+- 原始正文草稿 Git Blob `7602bad005187aad8c93a2056a31473f1d03fc73`，Reader 双遍 0/0/2 keep/none，Continuity/Style/Meaningful 内容QA PASS、正文未改。
+- 含迁入 `chapters/ready/0482.md`、同树删除 `chapters/draft/0482.md`、Reader/QA/Memory/计划的原子候选及正式放行提交 `515c4389017de7c05c505e1f96790d07b77d27ca`；验证Git Tree `54e83b86b88c640baa6d00313d53b3300e4780bc`；正式 ready 文件 Git Blob `19985262505e501675f0e9d2f8190cad9a48df73`。
+- 审计候选分支 `audit/ready-0482-20261103-0706` GitHub Actions `41544333763` **SUCCESS**，checkout精确候选SHA，`python -m unittest discover -s tests -p test_check_local.py -v`、`python -m publisher.check_local --repo .` 两步均真实 success。
+- 基于原 main `34e632eda6675125b19afcc103b691a0a0816679` 以 `expected_sha`、`force:false` 非强制更新 main 到候选提交成功；同SHA main Actions `41544409940` **SUCCESS**，相同结构单元测试和本地快照结构检查通过。原 draft 路径在同树中删除，481正式ready作为精确前章依赖，无跳章和其他写作文件覆盖。
+- 本证据段是后续独立审计记录，不代表此前候选阶段先验获得CI通过，也不新增正文审核或发布平台动作。
