@@ -3959,7 +3959,7 @@ chapter_459_review:
   predecessor_ready_blob: "ea85314493f916a24c22f13055eaf9a4081b733a"
   predecessor_body_delta: none
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_commit_CI_success
 chapter_460_review:
   chapter: 460
   title: "站牌熄灯时，最后一班车还在场内"
@@ -3980,4 +3980,13 @@ chapter_460_review:
   predecessor_body_delta: none
   dependency_status: verified_predecessor_factual_delta_checked
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_commit_CI_success
+release_459_460:
+  verified_commit: "c632a5a8ad6616f1db5bd41df73f9542813777a3"
+  exact_candidate_ci: 41371616498
+  exact_main_ci: 41371656416
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_update: expected_sha_force_false_success
+  ready_chapters: [459, 460]
+  ready_blobs: ["92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd", "894e4b46a1040740f09c7e1fd7b2797bbae3ac58"]

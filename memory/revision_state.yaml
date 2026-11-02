@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 460
-current_stage: ready_candidate_waiting_exact_CI
+current_stage: ready_released_exact_CI_success
 current_source_path: chapters/draft/0460.md
 current_source_sha: e5ea351ed1bb5002f617f46097a01efefd9bcfb6
 current_review_path: reader_reviews/0460_e5ea351e.md
@@ -12,13 +12,13 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: ready_candidate_waiting_exact_CI
+last_action: ready_released_exact_CI_success
 last_action_date: "2026-11-02"
 last_error: null
-last_diff_summary: "459 Reader 0/0/2且内容QA PASS；460原稿 0/1/2仅依赖459临时SHA，确认459原稿与拟ready正文事实完全相同，StageA只重绑460 FrontMatter及详纲，正文0改，新SHA独立Reader 0/0/2且内容QA PASS；须精确候选CI门禁成功才推进main"
+last_diff_summary: "459 Reader0/0/2与QA均PASS；460原稿0/1/2唯一MAJOR前459临时SHA，真实核前章正文无事实差异后StageA只重绑460 FrontMatter及章纲，正文0改，新SHA Reader0/0/2与QA均PASS；精确候选commit c632a5a8结构CI41371616498 SUCCESS后以expected_sha/force:false正式推进main且main CI41371656416 SUCCESS"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: false
+publish_gate_passed: true
 current_review_source_sha: e5ea351ed1bb5002f617f46097a01efefd9bcfb6
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
@@ -3386,7 +3386,7 @@ chapter_459_revision:
   previous_ready_blob: "ea85314493f916a24c22f13055eaf9a4081b733a"
   predecessor_body_delta: none
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_commit_CI_success
 chapter_460_revision:
   chapter: 460
   original_sha: "2ddba97f62cb7786b386e5a3d877d96b238548bb"
@@ -3403,4 +3403,13 @@ chapter_460_revision:
   previous_ready_blob: "92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd"
   predecessor_body_delta: none
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_commit_CI_success
+release_459_460:
+  candidate_commit: "c632a5a8ad6616f1db5bd41df73f9542813777a3"
+  candidate_ci: 41371616498
+  final_main_ci: 41371656416
+  exact_sha_verified: true
+  status: ready
+  main_ref_update: expected_sha_force_false_success
+  ready_chapters: [459, 460]
+  body_revisions: 0

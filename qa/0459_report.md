@@ -13,3 +13,9 @@
 ## 本轮待结构校验（2026-11-02）
 - 已于同一候选树编排459拟ready Blob `92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd` 与460原稿经前章新旧正文比较后修订依赖；459的有效 SHA Reader/内容QA未失效。
 - 将同步459、460逐章摘要、人物知识世界关系时间线F003及计划CSV。只有同一精确Git提交结构CI SUCCESS后，才可使用 expected_sha/force:false 将此树推进main。
+
+## 真实结构校验与main放行证据（2026-11-02）
+- 精确候选Git Commit：`c632a5a8ad6616f1db5bd41df73f9542813777a3`；候选分支 `audit/ready-0459-0460-20261102` GitHub Actions `41371616498` **SUCCESS**。该精确checkout实际执行结构单元测试 `python -m unittest discover -s tests -p test_check_local.py -v` 与 `python -m publisher.check_local --repo .`，全部 SUCCESS。
+- 确认main原HEAD `75735789cd68184d35339a0c11431226b68b8144`未变化后，以 `expected_sha` / `force:false` 非强制推进main到上述精确Commit；同一SHA的main GitHub Actions `41371656416` **SUCCESS**，两步结构命令均pass。
+- 第459、460章分别正式存在 `chapters/ready/0459.md` blob `92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd` 和 `chapters/ready/0460.md` blob `894e4b46a1040740f09c7e1fd7b2797bbae3ac58`；两个旧draft确已删除。Ready数301、Published159、Draft数字0，完整Git Tree 2430项未截断；计划与长期Memory、F003状态同步在同一Commit中。
+- Reader与Continuity/Style/Meaningful QA独立完成，不以CI成功代替内容审核；不存在force pass、未经比较的依赖跨越或自动发布。

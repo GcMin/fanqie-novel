@@ -32,5 +32,6 @@ foreshadowing_updates:
 ending_state: "Day322 20:11K26本趟错结算已本笔保留痕迹更正、运营延误评价与多车接口未修定；陈渺已与父亲见面；F003下一笔归档前版本使用登记仅收件。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "2ddba97f62cb7786b386e5a3d877d96b238548bb", final_draft_sha: "e5ea351ed1bb5002f617f46097a01efefd9bcfb6", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_blob: "e688eb8a6570bee6d4fe5ab40a6bb4f2ee8f13cd", predecessor_ready_blob: "92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd", proposed_ready_blob: "894e4b46a1040740f09c7e1fd7b2797bbae3ac58"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_success}
 char_count: 3637
+release_evidence: {candidate_commit: "c632a5a8ad6616f1db5bd41df73f9542813777a3", candidate_ci: 41371616498, main_ci: 41371656416, ready_blob: "894e4b46a1040740f09c7e1fd7b2797bbae3ac58", force: false}

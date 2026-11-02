@@ -7,3 +7,9 @@
 - **Meaningful Change PASS**：乘客在有权合法实际派车后抵达父亲处；一次性纸质授权与假电子结算分别保留，公众公告由“运营结束”改为“末班延误待核”，真实运营延误仍有后果；父女沟通变得直接；F003取得受限的新版本日期差异而不预断解释。
 - **章号、标题、字数 PASS**：460，标题《站牌熄灯时，最后一班车还在场内》，与详纲相符，中文有效3637字，在2300—3800硬界内；超3400首选区间是因双场站+翌日限项追因与F003独立授权答复，未靠无关段落填字。
 - **拟ready Blob**：`894e4b46a1040740f09c7e1fd7b2797bbae3ac58`。**结构门禁未在本报告生成时通过**：需要更新所有长期Memory、章节摘要及计划CSV，并在精确候选Commit运行`python -m publisher.check_local --repo .`及结构单测取得CI SUCCESS后才可用expected_sha/force:false推进main；没有真实CI结果不得称已放行。
+
+## 真实结构校验与main放行证据（2026-11-02）
+- 精确候选Git Commit：`c632a5a8ad6616f1db5bd41df73f9542813777a3`；候选分支 `audit/ready-0459-0460-20261102` GitHub Actions `41371616498` **SUCCESS**。该精确checkout实际执行结构单元测试 `python -m unittest discover -s tests -p test_check_local.py -v` 与 `python -m publisher.check_local --repo .`，全部 SUCCESS。
+- 确认main原HEAD `75735789cd68184d35339a0c11431226b68b8144`未变化后，以 `expected_sha` / `force:false` 非强制推进main到上述精确Commit；同一SHA的main GitHub Actions `41371656416` **SUCCESS**，两步结构命令均pass。
+- 第459、460章分别正式存在 `chapters/ready/0459.md` blob `92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd` 和 `chapters/ready/0460.md` blob `894e4b46a1040740f09c7e1fd7b2797bbae3ac58`；两个旧draft确已删除。Ready数301、Published159、Draft数字0，完整Git Tree 2430项未截断；计划与长期Memory、F003状态同步在同一Commit中。
+- Reader与Continuity/Style/Meaningful QA独立完成，不以CI成功代替内容审核；不存在force pass、未经比较的依赖跨越或自动发布。

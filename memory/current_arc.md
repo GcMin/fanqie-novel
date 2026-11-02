@@ -1,3 +1,7 @@
+# 第459—460章精确结构CI通过与正式main放行证据｜2026-11-02
+- 候选 `c632a5a8ad6616f1db5bd41df73f9542813777a3` 的审计分支 Actions `41371616498` SUCCESS（结构单测与 `python -m publisher.check_local --repo .`均PASS）；对main HEAD `75735789cd68184d35339a0c11431226b68b8144`作 expected_sha/force:false 非强制前进后，同SHA main Actions `41371656416` SUCCESS。459、460正式ready blobs `92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd`、`894e4b46a1040740f09c7e1fd7b2797bbae3ac58`，原draft已删除；本次两章正文均未修改。
+- 以下旧阶段的“CI仍需成功”语句仅是候选形成时的门禁提醒；本段有可追踪的真实精确提交与Actions结果。已由本任务按计划与Memory同步，未发布外部平台。
+
 # 第459—460章联合Audit后ARC-054有界事实｜2026-11-02
 - **门禁状态**：459原稿 SHA `e688eb8a6570bee6d4fe5ab40a6bb4f2ee8f13cd` 已有效独立Reader双遍0/0/2和内容Continuity/Style/Meaningful PASS，3650字，无正文改动，拟ready `92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd`。460初始 SHA `2ddba97f62cb7786b386e5a3d877d96b238548bb` 双遍Reader 0/1/2的唯一MAJOR为459尚为临时依赖；逐段核459原draft和拟ready小说事实不变仅FM状态不同，Stage A只重绑460 FM/章纲，不改正文，新草稿 SHA `e5ea351ed1bb5002f617f46097a01efefd9bcfb6` 再独立Reader双遍0/0/2和内容QA PASS，3637字，拟ready `894e4b46a1040740f09c7e1fd7b2797bbae3ac58`。两章均在同步长期Memory与计划CSV和精确候选CI结构门禁SUCCESS前不得更新main为ready。
 - **459案实况**：Day320 20:39赵桂莲原薄被仍锁三号余水机内却20:31电子假称已领，运营方停机有权保留原日志、不强开；21:42合法另借应急被。Day321 09:18有资质维护查滤网金属扣/绒絮阻水、结算错映领取，10:02只本笔保源更正，15:12本人真签领原被且临时被另归还，20:09母女共缝亡夫所缝蓝线，设备复用及赔付未结。

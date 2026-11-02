@@ -29,5 +29,6 @@ foreshadowing_updates:
 ending_state: "Day321 20:09赵桂莲与陈芙在家中缝旧被；洗烘站3号机未恢复，布料赔付待核；F003下一笔非身份字段申请仅收。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "31718f2e78891ef62aa954307bc223847dd178ea", final_draft_sha: "e688eb8a6570bee6d4fe5ab40a6bb4f2ee8f13cd", stage_a_used: 1, body_revisions: 0, predecessor_ready_blob: "ea85314493f916a24c22f13055eaf9a4081b733a", proposed_ready_blob: "92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_success}
 char_count: 3650
+release_evidence: {candidate_commit: "c632a5a8ad6616f1db5bd41df73f9542813777a3", candidate_ci: 41371616498, main_ci: 41371656416, ready_blob: "92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd", force: false}
