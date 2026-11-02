@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 459
+title: "被子还在滚筒里，屏幕先说取走了"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "e688eb8a6570bee6d4fe5ab40a6bb4f2ee8f13cd"
+reader_review: "reader_reviews/0459_e688eb8a.md"
+depends_on_chapter: 458
+depends_on_source_sha: "ea85314493f916a24c22f13055eaf9a4081b733a"
+dependency_status: verified_predecessor_factual_delta_checked
+timeframe: "Day320 20:39—Day321 20:09"
+summary: >-
+  Day320 20:39赵桂莲在绿汀社区洗烘站见3号机红锁仍亮、蓝白格薄被锁在有余水的机内，却收到20:31已领取通知。值守马露保留错误提示与现场记录、停用设备不强开；夜间中心夏宁周衡梁策只按权限协调安全、借用合法应急寝具，21:42经合法保管岗位另借临时薄被，绝非原被已交。Day321 09:18有资格维护人员受控排查发现滤网金属扣/绒絮阻水、门锁未解，系统把程序结束且结算误映实际领取。10:02仅本笔纠正并保留错日志，设备仍停；15:12赵桂莲本人真签领原被、临时被独立归还，损伤与费用待核。20:09母女重新把老伴所缝松脱蓝线缝入被角，误责变为共同记挂。F003 Day321 11:36仅获2022导入任务称使用“整理批次表第三校对本”的版级标签，14:26再次窄申只收件，不得看表内行图像/真实旧封物件，也不证2019双人真签封口、2016旧回告在封和旧报事人本人获答；F008/M004/M005无新证。
+meaningful_state_changes:
+  - "设备错误领取被限定纠正、原错误与真正Day321 15:12交接独立保留，3号机仍停用，其余机器未证全修。"
+  - "赵桂莲和陈芙由以为忘操作的误责转成共同照料老伴所缝旧被，暂借/归还另一条被褥单据分开。"
+  - "F003新得后期工作底稿第三校对本版本标签，但不能读表内具体行或推旧原件同一性。"
+knowledge_updates:
+  - "赵桂莲、陈芙只知自己的旧被确实取回和老伴缝线，不知其它设备安全或赔偿最终结论。"
+  - "马露、设备人员按权限保全日志、停用维修、合法交接；夏宁周衡梁策只获公共协调事实，不获取私人家事或代签。"
+  - "罗经办马芸仅知2022导入任务版级标签，尚未获表内字段及2019封件历史证据。"
+relationship_updates:
+  - "陈芙从责问母亲忘按机器转为帮母亲穿针并协助领取原被；双方保留对亡夫/父亲记忆。"
+foreshadowing_updates:
+  - "F003 Day321唯一新增后期第三校对本版级标签，2019/2016历史证据未确认；F008/M004/M005仍未确证。"
+ending_state: "Day321 20:09赵桂莲与陈芙在家中缝旧被；洗烘站3号机未恢复，布料赔付待核；F003下一笔非身份字段申请仅收。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "31718f2e78891ef62aa954307bc223847dd178ea", final_draft_sha: "e688eb8a6570bee6d4fe5ab40a6bb4f2ee8f13cd", stage_a_used: 1, body_revisions: 0, predecessor_ready_blob: "ea85314493f916a24c22f13055eaf9a4081b733a", proposed_ready_blob: "92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_required}
+char_count: 3650

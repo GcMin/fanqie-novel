@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 457
-last_reviewed_title: "电话打了两次，她的求助还没被读到"
-last_source_path: chapters/draft/0457.md
-last_source_sha: 9fa071565e340ba3a96e2ab06f7ead462c89300e
-last_review_path: reader_reviews/0457_9fa07156.md
+last_reviewed_chapter: 460
+last_reviewed_title: "站牌熄灯时，最后一班车还在场内"
+last_source_path: chapters/draft/0460.md
+last_source_sha: e5ea351ed1bb5002f617f46097a01efefd9bcfb6
+last_review_path: reader_reviews/0460_e5ea351e.md
 last_reviewed_at: "2026-11-02"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 456
-depends_on_source_sha: de204dd4ec4cb0b4d620035f65358c247b0cc6cc
+depends_on_chapter: 459
+depends_on_source_sha: 92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd
 dependency_status: verified_predecessor_factual_delta_checked
-predecessor_current_source_sha: de204dd4ec4cb0b4d620035f65358c247b0cc6cc
+predecessor_current_source_sha: 92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -3958,5 +3958,26 @@ chapter_459_review:
   predecessor_original_draft_blob: "9bdc8da68b75642299411e212b9c9a2f975b629e"
   predecessor_ready_blob: "ea85314493f916a24c22f13055eaf9a4081b733a"
   predecessor_body_delta: none
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_460_review:
+  chapter: 460
+  title: "站牌熄灯时，最后一班车还在场内"
+  initial_source_sha: "2ddba97f62cb7786b386e5a3d877d96b238548bb"
+  initial_review: "reader_reviews/0460_2ddba97f.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "e5ea351ed1bb5002f617f46097a01efefd9bcfb6"
+  review_path: "reader_reviews/0460_e5ea351e.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  independent_pass_a_then_b: true
+  recommendation: keep
+  required_action: none
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  body_revisions: 0
+  predecessor_original_draft_blob: "e688eb8a6570bee6d4fe5ab40a6bb4f2ee8f13cd"
+  predecessor_ready_blob: "92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd"
+  predecessor_body_delta: none
+  dependency_status: verified_predecessor_factual_delta_checked
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

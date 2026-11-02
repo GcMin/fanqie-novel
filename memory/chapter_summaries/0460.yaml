@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 460
+title: "站牌熄灯时，最后一班车还在场内"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "2ddba97f62cb7786b386e5a3d877d96b238548bb"
+source_draft_sha: "e5ea351ed1bb5002f617f46097a01efefd9bcfb6"
+initial_review: "reader_reviews/0460_2ddba97f.md"
+reader_review: "reader_reviews/0460_e5ea351e.md"
+depends_on_chapter: 459
+depends_on_source_sha: "92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd"
+dependency_status: verified_predecessor_factual_delta_checked
+timeframe: "Day321 20:52—Day322 20:11"
+summary: >-
+  Day321 20:52陈渺到南湾K26末班站见灯箱误显今日营运结束，但真车与司机何行舟仍在场内，20:42因备用岗位交回误关联导致司机岗位假签退。伍妍未越权派车，21:01给候车人真实延误登记，21:06夏宁周衡梁策只核公众安全和来源，保留旧显示。21:13主管核真实工时休息车辆检查，21:20依法签仅本趟纸质应急派车，21:27真实出场、21:31载客，22:09真到末站；陈渺在父亲接站时交绿豆糕，父女心意更直接。Day322 09:37复现错结算映射、10:42仅本笔有源更正而保留错误与真实迟发日志，其它线路及延误补偿未定。F003 Day322 11:24仅限权确认2022“第三校对本”正式归档日11月21日晚于11月18日15:42后期目录导入时刻，可先用后归档或后补命名，不得据此认定作伪/2019原封同一性/2016回告实际在封；14:17窄申请仅收。Day322 20:11陈渺见本夜又有人核合法派车而未代全线路签结。F008/M004/M005无新证。
+meaningful_state_changes:
+  - "电子假签退的K26末班经有权主管合法一次性派车并实际抵达，不把延误抹去或认定全线映射修复。"
+  - "陈渺父女由猜测末班和互相担心改为直接确认并真见面；保洁员免遭错误归责。"
+  - "F003取得2022版级归档时间与更早导入记录的受限差异，历史真实性问题仍待合法来源核对。"
+knowledge_updates:
+  - "陈渺知自己22:09到站和父亲实际接到；何行舟伍妍知道本趟纸质授权/错结算，不知其它线路是否同样误映。"
+  - "夏宁周衡梁策仅公共安全协调与各源记录，不掌公交实际发车授权。"
+  - "罗经办马芸仅知2022归档登记时点与导入时间之差，不获版内行/照片/2019人身份或原封信息。"
+relationship_updates:
+  - "陈渺父亲先前将担忧说成想吃糕，末班后真实见面和留糕给母亲，沟通趋于直接。"
+  - "伍妍与司机在合法手续下相互配合，不让保洁员承担平台误映错误。"
+foreshadowing_updates:
+  - "F003版级归档日倒序是待核元数据，不证2019实物签封、2016在封旧纸、1996报修人实获回告或F008/M004/M005。"
+ending_state: "Day322 20:11K26本趟错结算已本笔保留痕迹更正、运营延误评价与多车接口未修定；陈渺已与父亲见面；F003下一笔归档前版本使用登记仅收件。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "2ddba97f62cb7786b386e5a3d877d96b238548bb", final_draft_sha: "e5ea351ed1bb5002f617f46097a01efefd9bcfb6", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_blob: "e688eb8a6570bee6d4fe5ab40a6bb4f2ee8f13cd", predecessor_ready_blob: "92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd", proposed_ready_blob: "894e4b46a1040740f09c7e1fd7b2797bbae3ac58"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_required}
+char_count: 3637

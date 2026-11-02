@@ -6,9 +6,9 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "5d63eb7044d739e851a2a3ec6f1c47d286130f86"
 - depends_on_chapter: 459
-- depends_on_source_sha: "e688eb8a6570bee6d4fe5ab40a6bb4f2ee8f13cd"
-- dependency_status: provisional
-- predecessor_location: "chapters/draft/0459.md"
+- depends_on_source_sha: "92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd"
+- dependency_status: verified_predecessor_factual_delta_checked
+- predecessor_location: "chapters/ready/0459.md"
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: "Day321 20:52—Day322 20:11"
 - pov: "陈渺与何行舟限知近景；伍妍仅场站权限；夏宁、周衡、梁策仅夜间公共协作；罗经办、马芸仅合法档案窄查"
@@ -45,3 +45,7 @@ Day321夜间，南湾K26末班车仍停调度场内，站牌却因驾驶岗位�
 ## 结尾承接
 
 Day322 20:11，陈渺目睹合法开车前岗位查验，昨夜迟发与原错结算均仍保源；公交正式全线映射测试及运营评价未结。F003只新增第三校对本的正式归档时间与后期导入时间差，归档前版本使用登记申请仅收件，绝未获封件照片或历史实签证据。
+
+## Audit前章SHA差异核验（2026-11-02）
+- 459原草稿 `e688eb8a6570bee6d4fe5ab40a6bb4f2ee8f13cd` 与拟ready `92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd` 正文逐字一致，仅Front Matter由draft/pending变ready/pass、批准日期与发布模式改为ready；第459章Day321 15:12真实领被、20:09母女缝线及14:26 F003最小申请仍未获准均无事实变化。
+- 第460章原provisional引用更新为459拟ready blob，正文未更改；新草稿SHA必须重新Reader双遍审核，结构CI通过后才能放行。

@@ -8,3 +8,8 @@
 - **Meaningful Change PASS**：设备假领取得到有权仅本笔纠错，原被实收与临时借物归还分源，母女由错责转共同缝补，旧被损伤赔偿及停机范围未擅收束。
 - **Front Matter、标题、字数 PASS**：中文有效3650，非空白包括场景分隔3668，均在硬限2300—3800；标题《被子还在滚筒里，屏幕先说取走了》，Front Matter、详纲、计划CSV一致。正文0修改。拟ready Blob `92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd`。
 - **结构仍待验证**：独立内容QA不代替结构，必须在包含458、459按序迁ready、Memory与计划最新镜像的精确候选Git commit上运行 `python -m publisher.check_local --repo .` 与结构单测成功后才可 expected_sha、force:false推进main。
+
+
+## 本轮待结构校验（2026-11-02）
+- 已于同一候选树编排459拟ready Blob `92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd` 与460原稿经前章新旧正文比较后修订依赖；459的有效 SHA Reader/内容QA未失效。
+- 将同步459、460逐章摘要、人物知识世界关系时间线F003及计划CSV。只有同一精确Git提交结构CI SUCCESS后，才可使用 expected_sha/force:false 将此树推进main。

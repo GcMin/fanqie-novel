@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 457
+last_updated_chapter: 460
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1938,4 +1938,19 @@ chapter_458_relationship_verified:
   trader_and_market: "魏芳代表属地管理协助撤虚假全场复电公告并保留源记录，不因经营者发愁而承诺无证赔偿或全部设备已可用。"
   core_team: "夜班中心仅职务分源、协调有权岗位，不改变周衡夏宁梁策既有信任关系。"
   archive: "罗经办马芸并列记后期工作底稿版本登记与尚未对应目标写入的缺口，不用一份受控答复提前证明历史原封真实性。"
+  trust_scores_unchanged: true
+
+chapter_459_relationship_verified:
+  chapter: 459
+  source_sha: "e688eb8a6570bee6d4fe5ab40a6bb4f2ee8f13cd"
+  zhao_guilian_and_chen_fu: "Day320陈芙起初以为赵桂莲忘操作而责问，Day321本人真领回带亡夫歪蓝线的旧被后女儿才理解母亲珍惜针脚的缘由；20:09她主动帮穿针、母亲自己缝线，关系由误责转共同记忆与照顾。"
+  service_relationship: "马露和夜间中心在限定权限内保护老妇人实际物件及独立借被单据，不让假电子签收或临时寝具混取件证明；损失责任另核。"
+  archive: "罗经办马芸只相互确认后期第三校对本版级标签，旧案来源真相仍未定。"
+  trust_scores_unchanged: true
+chapter_460_relationship_verified:
+  chapter: 460
+  source_sha: "e5ea351ed1bb5002f617f46097a01efefd9bcfb6"
+  chen_miao_and_father: "父亲总以绿豆糕玩笑掩盖担忧，Day321延误后陈渺亲自解释已合法上车并于22:09到末站，两人把糕留一盒给母亲，言语更直接而未假称此前没有延误。"
+  driver_and_dispatcher: "何行舟守驾驶资格底线，伍妍不为赶末班擅发车，主管按有效核实程序只本趟应急派车，乘客安全与司机法定手续并重。"
+  archive: "罗经办马芸针对2022归档登记晚于旧目录导入的日期差异谨慎各提可能，不把日期差推为有人篡改2019原封。"
   trust_scores_unchanged: true
