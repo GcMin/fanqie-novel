@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 467
+title: "通知写着四十七户已读，桥下的汤还没收"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "ff079acce562bda2ae8213e4b7dfe0b9418d004c"
+reader_review: "reader_reviews/0467_ff079acc.md"
+depends_on_chapter: 466
+depends_on_source_sha: "999b4bb8938d663447afa2ba0c05e1fa223dd8a2"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day328 20:43—Day329 20:11"
+summary: >-
+  Day328西鹭桥南段油污危险，夜市四十七档通知显示全部本人已读，实际19:26仅夜市管理账号群级接收被误映。20:43牛杂汤摊主罗银桂及女儿罗杳仍持许可经营、燃气热锅未撤，清洗班唐向前不按绿字冒进；21:07夜间中心按权协调，21:21有责管理人只将南段约三十米九摊提前临空并逐摊实告，其余档不一并停业。22:01邱叔货箱移净、22:08真实清洗、22:35清毕、22:52专业复核仅准南段行人复行；损失登记与赔付未决。罗杳四笔订单逐客核：两笔退款实到账、一笔明晚拟重新下单，第四笔Day329 20:11本人回话同意按原渠道退款并仅已提交申请未实际入账。Day329 09:47平台确认群级接收批量复制为47人已读，只本类源纠错并停止误作自动进场依据，其他路段告知待查。F003 Day329 11:26合法获2022-11-18 15:06目录容器事件原登记结构没有独立附件数量字段，不可据空白推出附件为零或若干；14:04新非身份申请仅问附件挂载或解包类型事件是否存在，尚待答复。2019实签封、2016原回告在封、历史报事人本人获答、2022 15:42实际读取底稿字节与11/21第三校对本同一均未证；Day195旧拆物沈家私票分源，F008/M004/M005无新证。
+meaningful_state_changes:
+  - "南段九摊安全清场、清洗与限项复行完成，未误把其余38档皆认作已实告；经营许可提前结束带来的成本已登记但赔偿未定。"
+  - "群级工作接收误映四十七经营者本人已读得到有源本次纠错，清洗实际批准和开始时点不回填。"
+  - "罗杳逐单征得真实顾客意愿处理订单，第四笔仅退款申请未实际到账。"
+  - "F003确认容器级旧事件字段设计缺失，不把不存在附件计数字段的空白误判为零附件。"
+knowledge_updates:
+  - "罗银桂知自身热锅燃气、原经营到22:30及经营实损，罗杳知四笔客户真实处理，但二人不掌其他档本人已读情况。"
+  - "唐向前只从真实人员热源与现场许可决定是否开始专业清洗；夏宁周衡梁策仅按来源协调，不代有权主管批准清场/复行/赔偿。"
+  - "罗经办马芸仅合法知道2022-11-18 15:06目录容器事件不采集附件数量，后续类型申请仅收件，不知历史具体文件内容。"
+relationship_updates:
+  - "罗银桂坚持不签自愿提前收摊但接受真实安全要求，罗杳记录母女工时和真实订单；二人共同保护实际经营事实。"
+  - "清洗班与摊主从可能冲突转为按实际隔离、热源安全和管理有责说明合作，不等于赔偿达成。"
+foreshadowing_updates:
+  - "F003获得记录结构无附件数新事实而非旧内容或真实封存证明；2019/2016/历史个人回告均未证，F008无新可靠本人记忆冲突，M004/M005未证。"
+ending_state: "Day329 20:11第四笔退款已按客人本人意思提交申请但未到账；南段安全复行、经营损失只收件未赔、历史附件类型新申请待答。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ff079acce562bda2ae8213e4b7dfe0b9418d004c", final_draft_sha: "ff079acce562bda2ae8213e4b7dfe0b9418d004c", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "999b4bb8938d663447afa2ba0c05e1fa223dd8a2", proposed_ready_blob: "3e3ec0ebf9152522869ff1a688a95fe48b40fcbe"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3325

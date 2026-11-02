@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 466
+last_updated_chapter: 467
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2004,4 +2004,14 @@ chapter_466_relationship_verified:
   community: "许婉和老范共同转为尊重地面吊篮危险区；许婉仅以真实目击报险、不替专业岗位推断扣件来源。"
   archive: "罗经办马芸合作坚持目录容器有登记不能推出内容附件实收，下一步只交合法非身份窄申。"
   core_team: "中心三人按既定权限协调、记录有源事实，既有核心互信分值不变。"
+  trust_scores_unchanged: true
+
+chapter_467_relationship_verified:
+  chapter: 467
+  source_sha: "ff079acce562bda2ae8213e4b7dfe0b9418d004c"
+  mother_daughter: "罗银桂坚持原许可和不被冒签自愿收摊，罗杳尊重安全安排并记下两人的工时、订单和真实赔损证据；母女合作由急于撤摊到按事实逐笔处理。"
+  commercial: "第四位客户Day329真实回话同意退款，但申请提交尚不是消费者实收；第三位仅约明晚重新下单。"
+  safety_service: "唐向前拒借已读绿字硬开工，运营管理按权只限危险九摊逐人告知、其余档不停业；安全配合不等于经营索赔结清。"
+  archive: "罗经办马芸共同将旧容器无附件数量字段与附件数为0区别记录，下一笔仅申请更窄事件类型。"
+  core_team: "夜间中心夏宁周衡梁策按已有权限合作，不据本普通案件调整长期互信数值。"
   trust_scores_unchanged: true
