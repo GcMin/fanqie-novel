@@ -33,5 +33,6 @@ foreshadowing_updates:
 ending_state: "Day333 20:14陈妙云保留当晚只听第三首的事实，外孙愿以后在家补吹第一首；场馆本场限项纠错完成而历史文件读取动作更窄申请仅收件。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "72670341a6aa5cf261e5a80ab39dc0436223660e", initial_counts: "0/1/2", final_draft_sha: "229d9560b293681fd7fa4af11228440185689f4c", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, fix: "标题坡道改通道并同步详纲", predecessor_ready_blob: "ca637825f2c60e5feef78990cc750ca7a84216ff", proposed_ready_blob: "db9d77574a83076441e6aaac5cc8183097c47f76"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_success}
 char_count: 3534
+release_evidence: {candidate_commit: "6ec914337eed71d83f50295f2865e5f325444940", candidate_tree: "8bb9481e7135d67d70dc29f88bfbb3560eac8d6b", candidate_ci: 41451957926, candidate_ci_conclusion: success, structural_unit_tests: pass, publisher_check_local: pass, main_ref_update: expected_sha_force_false_success, previous_main_head: "79baaf76dbbf6ea47e9744a8bb7cb3e1b2ea6244", ready_blob: "db9d77574a83076441e6aaac5cc8183097c47f76", draft_removed: true}

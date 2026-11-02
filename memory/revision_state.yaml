@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 472
-current_stage: content_qa_pass_structural_pending
+current_stage: ready_released_exact_candidate_CI_success
 current_source_path: chapters/draft/0472.md
 current_source_sha: d33e6683f811f347bc9c4db42f9f0b9716090d52
 current_review_path: reader_reviews/0472_d33e6683.md
@@ -12,7 +12,7 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: prev471_final_ready_rebind_and_new_sha_double_reader_complete
+last_action: released_471_472_with_precise_snapshot_CI_and_nonforce_head_update
 last_action_date: "2026-11-02"
 last_error: null
 last_diff_summary: "472初审0/1/2；471旧draft与ready正文逐字相同，仅标题及Front Matter异；472仅重绑前章ready并同步详纲，正文零改；新SHA d33e6683独立Reader A/B 0/0/2，内容QA通过，精确CI待验证。"
@@ -3663,7 +3663,7 @@ chapter_471_revision:
   retry_cycles: 0
   predecessor_ready_blob: "ca637825f2c60e5feef78990cc750ca7a84216ff"
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_commit_CI_success
 chapter_472_revision:
   chapter: 472
   original_sha: "c5ee597f33d5ad53f3102ff95d161d452d8f20b0"
@@ -3683,4 +3683,26 @@ chapter_472_revision:
   predecessor_ready_blob: "db9d77574a83076441e6aaac5cc8183097c47f76"
   predecessor_factual_delta: "正文相同标题和Front Matter变化"
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_commit_CI_success
+release_471_audit:
+  chapter: 471
+  release_commit: "6ec914337eed71d83f50295f2865e5f325444940"
+  candidate_ci: 41451957926
+  candidate_ci_conclusion: success
+  structural_tests: pass
+  publisher_check_local: pass
+  ready_blob: "db9d77574a83076441e6aaac5cc8183097c47f76"
+  draft_removed: true
+  expected_previous_main_head: "79baaf76dbbf6ea47e9744a8bb7cb3e1b2ea6244"
+  main_ref_update: expected_sha_force_false_success
+release_472_audit:
+  chapter: 472
+  release_commit: "6f794c8782ca34a14a78332c5eadd33db3d2e4df"
+  candidate_ci: 41453006047
+  candidate_ci_conclusion: success
+  structural_tests: pass
+  publisher_check_local: pass
+  ready_blob: "5a5a807d95f2fbe4f1872cbe1b4c1fa1cc15d194"
+  draft_removed: true
+  expected_previous_main_head: "6ec914337eed71d83f50295f2865e5f325444940"
+  main_ref_update: expected_sha_force_false_success

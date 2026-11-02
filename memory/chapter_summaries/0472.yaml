@@ -32,5 +32,6 @@ foreshadowing_updates:
 ending_state: "Day334 20:09本罩修好且北侧警戒真撤，其他旧罩待核；母女保留父亲旧语音与修前风声真实区分，档案读取结果状态下一申请仅收件。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "c5ee597f33d5ad53f3102ff95d161d452d8f20b0", initial_counts: "0/1/2", final_draft_sha: "d33e6683f811f347bc9c4db42f9f0b9716090d52", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, fix: "前章SHA改为471最终ready并核实正文相同", predecessor_original_draft_blob: "72670341a6aa5cf261e5a80ab39dc0436223660e", predecessor_ready_blob: "db9d77574a83076441e6aaac5cc8183097c47f76", predecessor_body_delta: "正文相同仅标题坡道改通道及交付元数据", proposed_ready_blob: "5a5a807d95f2fbe4f1872cbe1b4c1fa1cc15d194"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_success}
 char_count: 3292
+release_evidence: {candidate_commit: "6f794c8782ca34a14a78332c5eadd33db3d2e4df", candidate_tree: "d85e5b550b3c9bbf6ae92a990c4bd2df834b1c19", candidate_ci: 41453006047, candidate_ci_conclusion: success, structural_unit_tests: pass, publisher_check_local: pass, main_ref_update: expected_sha_force_false_success, previous_main_head: "6ec914337eed71d83f50295f2865e5f325444940", ready_blob: "5a5a807d95f2fbe4f1872cbe1b4c1fa1cc15d194", draft_removed: true}

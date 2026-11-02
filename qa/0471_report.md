@@ -9,3 +9,7 @@
 - **Meaningful Change QA PASS**：原错误对外开放现场待核→有权真实清障/授权开门/本人21:42入场→仅本场带源记录纠正；陈妙云自主参与，志愿者改变服务协助方式，祖孙记录只听到第三首的不可倒填缺席；F003增加合法受限配置枚举并留下待答申请。
 - **Memory与计划**：按第471章最终事实同步chapter_summaries、character/knowledge/relationships/world/timeline/F003/current_arc，并在plan CSV仅追加471唯一行，保留历史ready全部行。
 - **结构门禁**：内容QA已实际独立完成；正式ready放行仍以包含该ready Blob `db9d77574a83076441e6aaac5cc8183097c47f76`及Memory、plan、QA、Review的**精确候选Git Tree**通过GitHub Actions结构单测和`python -m publisher.check_local --repo .`为前提。未核实精确版本成功前不得推进main、不得虚报结构PASS。
+
+## 正式放行后的精确结构校验证据
+- 内容QA/Reader完成后，精确候选Git Commit `6ec914337eed71d83f50295f2865e5f325444940`（Tree `8bb9481e7135d67d70dc29f88bfbb3560eac8d6b`）的GitHub Actions运行 [41451957926](https://github.com/GcMin/fanqie-novel/actions/runs/41451957926) **SUCCESS**，检出的head_sha与候选Commit完全相同；独立结构单测及`python -m publisher.check_local --repo .`两步均SUCCESS。
+- 通过后才将main以 `expected_sha=79baaf76dbbf6ea47e9744a8bb7cb3e1b2ea6244`、`force:false` 非强制推进到该候选Commit，正式文件Blob `db9d77574a83076441e6aaac5cc8183097c47f76`，原draft章节已删除；本项为事后真实校验证据，前文“待检”系发布前的审计时点，不再是当前阻塞。

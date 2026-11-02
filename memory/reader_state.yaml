@@ -4224,7 +4224,7 @@ chapter_471_review:
   predecessor_ready_blob: "ca637825f2c60e5feef78990cc750ca7a84216ff"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_commit_CI_success
 chapter_472_review:
   chapter: 472
   title: "墙上的哨声停了，母亲却留下那段录音"
@@ -4244,4 +4244,26 @@ chapter_472_review:
   predecessor_body_delta: "正文完全相同仅标题坡道改通道和Front Matter差异"
   dependency_status: verified_predecessor_body_identical_metadata_delta_checked
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_commit_CI_success
+release_471_audit:
+  chapter: 471
+  release_commit: "6ec914337eed71d83f50295f2865e5f325444940"
+  candidate_ci: 41451957926
+  candidate_ci_conclusion: success
+  structural_tests: pass
+  publisher_check_local: pass
+  ready_blob: "db9d77574a83076441e6aaac5cc8183097c47f76"
+  draft_removed: true
+  expected_previous_main_head: "79baaf76dbbf6ea47e9744a8bb7cb3e1b2ea6244"
+  main_ref_update: expected_sha_force_false_success
+release_472_audit:
+  chapter: 472
+  release_commit: "6f794c8782ca34a14a78332c5eadd33db3d2e4df"
+  candidate_ci: 41453006047
+  candidate_ci_conclusion: success
+  structural_tests: pass
+  publisher_check_local: pass
+  ready_blob: "5a5a807d95f2fbe4f1872cbe1b4c1fa1cc15d194"
+  draft_removed: true
+  expected_previous_main_head: "6ec914337eed71d83f50295f2865e5f325444940"
+  main_ref_update: expected_sha_force_false_success

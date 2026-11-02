@@ -9,3 +9,7 @@
 - **Meaningful Change QA PASS**：从不能指认扰民对象到专业确认、修复一处危险旧罩并有责恢复北侧通行，母女分辨并保留两种声源与私人记忆，F003从导入配置类型延伸到“读取请求建立”有限事件而非真实文件。
 - **Memory/计划**：同步472真实人物、知识、关系、世界、时间、F003、当前弧及独立章节摘要；chapter_plan.csv仅追加472唯一行，470/471及更早ready计划不动。
 - **结构门禁**：内容QA真实PASS，正式迁入ready仍必须对包含拟ready Blob `5a5a807d95f2fbe4f1872cbe1b4c1fa1cc15d194`、Review、QA、Memory、plan的精确Git候选树执行GitHub Actions publisher.check_local/单测全SUCCESS后非强制更新main。未获成功不虚称已放行。
+
+## 正式放行后的精确结构校验证据
+- 内容QA/Reader完成后，精确候选Git Commit `6f794c8782ca34a14a78332c5eadd33db3d2e4df`（Tree `d85e5b550b3c9bbf6ae92a990c4bd2df834b1c19`）的GitHub Actions运行 [41453006047](https://github.com/GcMin/fanqie-novel/actions/runs/41453006047) **SUCCESS**，检出的head_sha与候选Commit完全相同；独立结构单测及`python -m publisher.check_local --repo .`两步均SUCCESS。
+- 通过后才将main以 `expected_sha=6ec914337eed71d83f50295f2865e5f325444940`、`force:false` 非强制推进到该候选Commit，正式文件Blob `5a5a807d95f2fbe4f1872cbe1b4c1fa1cc15d194`，原draft章节已删除；本项为事后真实校验证据，前文“待检”系发布前的审计时点，不再是当前阻塞。
