@@ -1415,3 +1415,7 @@ Day173 20:24仅是该号码未来新语义的专业标识测试，20:39廖珊看
 - 原草稿Git Blob `84317cde0551b24e03d0f96c8e666d31affbf597`，第479章正式ready `93570f4915c4cb9dc1c8553788812bba6194bc47` 精确依赖，前章文本没有旧→新差异；完整原稿Reader Pass A/B为0 BLOCKER/0 MAJOR/2 MINOR keep/none，正文0字修改；独立Continuity/Style/Meaningful QA PASS，叙事3215字符、publisher计场景符号3227。Memory与计划拟同候选树，须精确候选Git CI成功才算结构放行。
 - Day342 20:44西陇社区旧阅览室十二箱扫码绿勾，实只有十箱进新馆，第十一和十二箱仍旧柜，旁有漏水湿电风险；20:53许汀真核十张签、21:06中心有源转办，21:24物业电气限项隔离；22:07临时导排，22:23十一号先到旧址干燥暂存，23:11十二号经有责核后整箱取出，外纸板潮而内件未核。Day343 09:32十一号有真实新馆收件，十二号封箱受控待核；10:17季唯保源承认误扫码并附证向主管申请更正但未批准，雨水短管永久修复未结。缪芸不替借阅卡主人写已完好。
 - F003无新独立原始材料，2022导入实例结束仅无子号、结果码、读文件字节的事件类，2019原封真实双方签、2016回告在封、历史真人获答、2022与11/21归档本同字节未证；F008可靠记忆反证与M004/M005均不升级。
+
+## 第480章正式ready结构门禁与main更新｜2026-11-03
+- 精确候选/正式main同Commit `511d076679f5dee8b4798a0667777ae3108f3722`、Git Tree `45c1a4bed35f47814f9d4cf041e768de066332cd`；审计分支 `audit/ready-0480-20261103` 的 GitHub Actions `41527483969` **SUCCESS**，checkout该Commit且实际执行结构单元测试和 `python -m publisher.check_local --repo .` 两步均成功。正式ready Blob `d4771d4300bbbd81217a76e333be2d9fdafa5c5c`，原draft按同一Tree原子删除，Chapter 480 Reader0/0/2、Continuity/Style/Meaningful内容QA三项PASS，正文改动0字、前479 ready依赖精确，已同步摘要/人物/知识/关系/世界/时间线/当前弧及计划。
+- main从 `99c025962d400efb791d7b0d3a717d70de3a9bdd` 使用 `expected_sha` 和 `force:false` 非强制更新到上述Commit成功。后续任何正文修改必须重审新Git Blob；本段只记录已发生结构及交付证据，不是伪称重新跑Reader。

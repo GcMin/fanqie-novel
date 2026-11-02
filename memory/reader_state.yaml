@@ -4400,4 +4400,4 @@ chapter_480_review:
   predecessor_ready_blob: "93570f4915c4cb9dc1c8553788812bba6194bc47"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_ci_success_41527483969

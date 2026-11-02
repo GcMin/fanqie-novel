@@ -9,3 +9,7 @@
 - **Meaningful Change PASS**：整车假全收被实际十张凭据推翻；第十一箱次日真实到馆；第十二箱按授权整箱脱险但内部状态待核；季唯承认操作并提交纠错申请、缪芸按真时点记账，未把申请当更正已完成。
 - **Canon/伏笔**：无F003新独立史料；2019双人签封、2016回告在封、2022任务字节与11/21归档本同一、历史本人答复均未证；F008/M004/M005不能由当代普通错映升级。Canon/published未改。
 - **结构门禁**：内容QA独立PASS不能代表结构PASS。仅在与ready、Memory、章节计划、Reader、QA同一精确候选Git Commit的Actions实际执行并成功完成结构单元测试和 `python -m publisher.check_local --repo .` 后，才以 `expected_sha`、`force:false` 将其从draft原子迁入main ready；CI未成功则主分支保持draft，候选证据不算正式放行。
+
+## 第480章正式ready结构门禁与main更新｜2026-11-03
+- 精确候选/正式main同Commit `511d076679f5dee8b4798a0667777ae3108f3722`、Git Tree `45c1a4bed35f47814f9d4cf041e768de066332cd`；审计分支 `audit/ready-0480-20261103` 的 GitHub Actions `41527483969` **SUCCESS**，checkout该Commit且实际执行结构单元测试和 `python -m publisher.check_local --repo .` 两步均成功。正式ready Blob `d4771d4300bbbd81217a76e333be2d9fdafa5c5c`，原draft按同一Tree原子删除，Chapter 480 Reader0/0/2、Continuity/Style/Meaningful内容QA三项PASS，正文改动0字、前479 ready依赖精确，已同步摘要/人物/知识/关系/世界/时间线/当前弧及计划。
+- main从 `99c025962d400efb791d7b0d3a717d70de3a9bdd` 使用 `expected_sha` 和 `force:false` 非强制更新到上述Commit成功。后续任何正文修改必须重审新Git Blob；本段只记录已发生结构及交付证据，不是伪称重新跑Reader。

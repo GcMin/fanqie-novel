@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 480
-current_stage: content_qa_pass_structural_ci_pending
+current_stage: ready_after_exact_candidate_ci_success
 current_source_path: chapters/draft/0480.md
 current_source_sha: 84317cde0551b24e03d0f96c8e666d31affbf597
 current_review_path: reader_reviews/0480_84317cde.md
@@ -12,13 +12,13 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter480_reader_and_qa_pass_no_revision_pending_precise_CI
+last_action: chapter480_ready_after_exact_candidate_ci_41527483969
 last_action_date: "2026-11-03"
 last_error: null
-last_diff_summary: "第480章前479正式依赖SHA精确；Reader双遍0/0/2，无正文修订；Continuity/Style/Meaningful内容QA通过，Memory与计划候选同步，须精确候选结构CI成功后ready。"
+last_diff_summary: "480原SHA 84317cde0551b24e03d0f96c8e666d31affbf597 Reader0/0/2，正文0改；前479正式ready依赖SHA精确，独立内容QA PASS；精确候选 511d076679f5dee8b4798a0667777ae3108f3722 的结构CI 41527483969 SUCCESS，main使用expected_sha和force:false成功放行，ready d4771d4300bbbd81217a76e333be2d9fdafa5c5c。"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: false
+publish_gate_passed: true
 current_review_source_sha: 84317cde0551b24e03d0f96c8e666d31affbf597
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
@@ -3849,4 +3849,4 @@ chapter_480_revision:
   predecessor_ready_blob: "93570f4915c4cb9dc1c8553788812bba6194bc47"
   predecessor_factual_delta: "依赖前章正式ready blob完全相同，无旧版本事实差异"
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_candidate_ci_success_41527483969

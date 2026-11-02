@@ -30,5 +30,6 @@ foreshadowing_updates:
 ending_state: "Day343 10:17十一号真实入馆、十二号封箱受控暂存且外见潮内件待核，整车假完成更正仅申请，旧屋短管正式维修未结。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "84317cde0551b24e03d0f96c8e666d31affbf597", final_draft_sha: "84317cde0551b24e03d0f96c8e666d31affbf597", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "93570f4915c4cb9dc1c8553788812bba6194bc47", dependency_status: verified_exact_ready_blob}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_success_41527483969}
 char_count: 3215
+release_evidence: {candidate_commit: "511d076679f5dee8b4798a0667777ae3108f3722", validated_tree: "45c1a4bed35f47814f9d4cf041e768de066332cd", candidate_ci: 41527483969, candidate_ci_conclusion: success, structural_unit_tests: pass, publisher_check_local: pass, main_ref_update: expected_sha_force_false_success, ready_blob: "d4771d4300bbbd81217a76e333be2d9fdafa5c5c"}
