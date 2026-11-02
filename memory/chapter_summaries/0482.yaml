@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 482
+title: "旧卡还没认出人，墙上先贴了新画"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "7602bad005187aad8c93a2056a31473f1d03fc73"
+reader_review: "reader_reviews/0482_7602bad0.md"
+depends_on_chapter: 481
+depends_on_source_sha: "621991bba117c72193c8f8bb55eed31059dc1e42"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day345 08:27—17:02"
+summary: >-
+  Day345 08:27西陇社区活动室志愿者小乔把第十二号箱旧卡似车轮画误宣传成“找到失散多年借书人”，配图仅新绘示意，非偷拍旧卡；借修车书父子当场质疑，社区群无证点名严师傅，令其受到熟人来电。08:41许汀查传播来源，09:08留存原错宣传有源记录并公开更正，活动取消旧卡认亲但不宣称外传旧截图全部收回。09:30活动照常，严师傅不愿被公开叫上台自证，按本人意愿借榫卯图册。10:19专业保护人员告第十二箱两组贴页与旧卡无新变化，姓名栏不得为展览临时揭开。孩子自绘自行车去学校班级、本人和监护人按位置期限撤回规则签当次同意；12:06新画展示墙实际办成，两篮分放可公开和不展示的新作。13:30季唯误扫更正资料仅转有权审核，原整车十二箱全到系统状态未改；旧屋后檐短管仅排查排期未正式修复复测。16:46严师傅自愿匿名留评，17:02新画墙授权保留至周末、旧卡仍受控身份未知，缪芸只给新画留“画得很好”，旧箱笔记留空。无F003独立史料，F008/M004/M005未确证。
+meaningful_state_changes:
+  - "旧卡原人已找到的错误宣传公开更正，活动停止认亲环节，但外部所有截图是否收到更正仍未证。"
+  - "经儿童本人和监护人明确同意、隐去学校班级、规定展示期限撤回途径后，新画墙真正展示，拒展第二幅画不公开。"
+  - "小乔从抢眼球标题转为尊重来源和个人选择，严师傅拒当众自证，缪芸不借旧卡怀旧指认旧主人。"
+  - "整车误扫正式审批、旧屋短管正式维修与旧卡潮损姓名仍待核。"
+knowledge_updates:
+  - "小乔知道自己改写未经核验的旧卡宣传造成严师傅被点名，已发有源更正但外传是否收到未知。"
+  - "许汀知道馆方只得纠本次展览和核新画授权，不能替主管改系统状态或替物业签旧屋修复。"
+  - "缪芸仍只见似大小轮子的旧卡画且姓名栏被遮，不知原借阅人是谁，新画不能替其身份作证。"
+relationship_updates:
+  - "小乔向被误点名严师傅道歉且接受其拒上台，父子和缪芸以当代自愿新画取代旧人认领猜测。"
+foreshadowing_updates:
+  - "F003缺2019真签封、2016旧回告在封、历史本人获答和2022读取文件字节的独立证据；旧卡/宣传普通误认不构成F008新失址本人记忆反证，M004/M005不确证。"
+ending_state: "Day345 17:02新画墙按本人授权展示至周末，错误认亲宣传已纠正但外传无法全回收，受控旧卡未核姓名；原扫码状态及旧屋修复待有责流程。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7602bad005187aad8c93a2056a31473f1d03fc73", final_draft_sha: "7602bad005187aad8c93a2056a31473f1d03fc73", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "621991bba117c72193c8f8bb55eed31059dc1e42", dependency_status: verified_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3297
