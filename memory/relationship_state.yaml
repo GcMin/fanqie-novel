@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 469
+last_updated_chapter: 470
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2033,4 +2033,13 @@ chapter_469_relationship_verified:
   service_duty: "邵岚认真登记魏安蓉真实损失与回拨需求，龚乐只签本人的真实接班、开门和服务时点；公众信任来自可亲见行为。"
   archive: "罗经办马芸继续严格区分任务取消的状态类别与具体旧底稿字节，下一步只循受限申请。"
   core_team: "夏宁周衡梁策遵循既有分工，长期互信数值不因普通站点映射问题变化。"
+  trust_scores_unchanged: true
+
+chapter_470_relationship_verified:
+  chapter: 470
+  source_sha: "bfeadde1e38037e3beee3fa904c76468339e26cf"
+  father_daughter: "彭叶禾先阻父亲险钻栏，彭砚声担心旧书近乎不肯退；女儿据旧目录实核箱件、帮父亲背布包，Day332主动记受潮旧册、合法存放和搬运费问题，两人从争执变为共同保旧物而不牺牲安全。"
+  service_relationship: "丁盛承认扫码只代表摊位牌，祁闻与有权搬运人员只签实际已交两箱及次日一车，不以平台假清场强迫摊主签无损。"
+  archive: "罗经办马芸共同将数字0补写完整限定栏目“同键同日同类型现存可检记录”，不把未见其它创建冒充零附件。"
+  core_team: "夜间中心三位既有协调关系不变，人物信任分值不因普通书市虚假清退变化。"
   trust_scores_unchanged: true

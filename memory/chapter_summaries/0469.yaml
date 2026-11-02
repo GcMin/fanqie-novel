@@ -30,6 +30,7 @@ foreshadowing_updates:
   - "F003在原创建记录外新增同任务后续取消类别，15:42源文件与11月21日归档第三校对本同一未知，2019真双方封签2016旧回告在封历史真人收答均未证；F008/M004/M005无升级。"
 ending_state: "Day331 20:16魏安蓉真正进站登记喝水，昨晚损失仍留档；档案其它同键挂载任务计数新申请待答。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
-revision_trace: {original_sha: "39a83876a3eea3eb8c7c83cf66228bdf678a951c", final_draft_sha: "899b1cfcd29f2dafbe878bc8ae7e3bea459e64d5", stage_a_used: 1, body_revisions: 1, predecessor_ready_blob: "376df6841d327a028d57f92f8170681b606bbfe9", fix: "前日下午更正为昨日下午", proposed_ready_blob: "candidate_pending_CI"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_pending}
+revision_trace: {original_sha: "39a83876a3eea3eb8c7c83cf66228bdf678a951c", final_draft_sha: "899b1cfcd29f2dafbe878bc8ae7e3bea459e64d5", stage_a_used: 1, body_revisions: 1, predecessor_ready_blob: "376df6841d327a028d57f92f8170681b606bbfe9", fix: "前日下午更正为昨日下午", proposed_ready_blob: "ce2dd8259c4f7ed7b7600dffd4cdf8daabc5114a"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_success}
 char_count: 3348
+release_evidence: {candidate_commit: "f51ed496323aa2cb1d8a8c8967035bf9fbee4f1d", candidate_tree: "fe8c7f27242ace27a821aecf59782cfd759445e0", candidate_ci_push: 41435391558, candidate_ci_pr: 41435398406, main_ci: 41435505358, ready_blob: "ce2dd8259c4f7ed7b7600dffd4cdf8daabc5114a", publisher_check_local: pass, structural_unit_tests: pass, main_ref_update: expected_sha_force_false_success}

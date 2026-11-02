@@ -10,3 +10,8 @@
 - **Style QA PASS**：磨脚后跟、湿衣、充电位与居民询问描绘服务实代价，不靠万能解释；工作人员与劳动者对话有角色差异；仅标记重复电子绿状态框架与F003微步两项MINOR，不因MINOR重修。
 - **Meaningful Change QA PASS**：站点限项错映带源纠正、真实服务启用、魏安蓉次晚实际获休息与独立签时点、乔一诺停止抢夜单，以及任务取消类别信息进展。
 - **同步与结构门禁**：正式候选须同树包含本章摘要、character/knowledge/relationship/world/timeline/foreshadowing/current_arc、plans/chapter_plan.csv的第469章唯一新行，保留前468章及所有ready计划；本报告只表示内容QA通过。**尚未执行结构校验**，不得提前移动ready。候选需真实CI在精确Git Tree上同时通过单测和`python -m publisher.check_local --repo .`，main仍为预期HEAD才可用expected_sha/force:false正式放行。
+
+## 第469章正式结构放行实证（2026-11-02）
+- 有效Reader源 `899b1cfcd29f2dafbe878bc8ae7e3bea459e64d5`、双遍结果0 BLOCKER/0 MAJOR/2 MINOR；该稿的原review及Stage A一次事实日期词修订已独立保留。
+- 正式放行候选Commit `f51ed496323aa2cb1d8a8c8967035bf9fbee4f1d` 与候选Tree `fe8c7f27242ace27a821aecf59782cfd759445e0`；候选分支push CI `41435391558` **SUCCESS**（head_sha即该候选Commit），GitHub PR #13 CI `41435398406` **SUCCESS**。精确候选的“Test offline snapshot validation”与“Validate this checkout without Git Sync or publishing”步骤均**SUCCESS**，即`python -m unittest discover -s tests -p test_check_local.py -v`和`python -m publisher.check_local --repo .`通过；另main同SHA push CI `41435505358` SUCCESS。
+- 在main旧HEAD `631e58cc1845b9d1095f92e172c9303689fa0338`未变时使用`expected_sha`、`force:false`前进到`f51ed496323aa2cb1d8a8c8967035bf9fbee4f1d`；正式`chapters/ready/0469.md` Blob `ce2dd8259c4f7ed7b7600dffd4cdf8daabc5114a`，旧`draft/0469.md`同树删除，Memory及章节计划同树保全。此前上方“结构待验”为当时候选历史状态，已由本段精确实证覆盖。
