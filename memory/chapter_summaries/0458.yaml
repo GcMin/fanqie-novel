@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 458
+title: "前排亮了，后排的冰柜还在滴水"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "9bdc8da68b75642299411e212b9c9a2f975b629e"
+reader_review: "reader_reviews/0458_9bdc8da6.md"
+depends_on_chapter: 457
+depends_on_source_sha: "780fad6ef5838cf9ad1b4e65839b6e44c1c18c5e"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day319 20:42—Day320 20:12"
+summary: >-
+  Day319 20:42青榆街市场前排已亮但后排八至十号仍断电、检修槽边渗水，20:31公告却称全场恢复。廖春芸暂停销售，阻止弟弟廖松跨湿地拉延长线，留记录并请魏芳核实。21:07夜间中心夏宁周衡梁策分离总进线与后排支路状态、人员风险和食品资质，21:22持证电工真实隔离保护断开的后排支路，21:38市场主管按权只更正三铺暂停，不抹旧错公示。22:12后柜16盒获合规库房受控暂存、仍待销售资格核实，前柜10盒单封。Day320 10:18专业查排水软管接口松脱并分项排除电险，14:26仅支路经有权准复电、14:35实亮；前柜十盒因无连续合规贮存证据退出销售并有记录销毁，后柜十六盒继续暂存待复核，赔偿责任及公告状态映射正式修复未定。20:12廖春芸实退或顺延订单、姐弟商量新做一批。F003 Day320 11:27仅依法获2022后期整理批次表属于编目工作底稿且库内有版本变更登记，尚未定位2022-11-18 15:42该字段对应的确切版本；对应窄查仅收件，2019双方真签封口、2016旧回告封内及历史真人获答仍未知，Day195三拆物沈家私票分源，F008/M004/M005未确证。
+meaningful_state_changes:
+  - "后排八至十号由假全场复电公示转真实专业隔离、限项验电复用；错误公告保源但底层映射整改仍待测试。"
+  - "前柜十盒确实损失退出销售并销毁，后柜十六盒只合规暂存不能售；姐弟由争执转共同退单及制作新货。"
+  - "F003增加后期整理批次表属编目工作底稿、有版本变更登记的限项证据，不获目标字段具体来源版本。"
+knowledge_updates:
+  - "廖春芸廖松可知两批货的真实现场与交接、前十盒已销毁后十六盒待销售资格复核，但不知赔偿责任或后柜最终适售结论。"
+  - "魏芳市场主管知道局部分支待处置和权限范围；夏宁周衡梁策分清总进线与支路，食品安全由经营管理岗位依法核，不代专业签核。"
+  - "罗经办马芸只知2022工作底稿有版本登记，不知道目标字段的底稿具体版次、照片实见或2019历史签封真实性。"
+relationship_updates:
+  - "廖春芸与廖松从备货多寡互相责备，到共同认可退订损失和明日实际新包；母亲换热水器钱形成有限经济压力。"
+  - "市场管理方对店主纠正错告示、保留旧报事记录，没有做无证赔偿许诺。"
+foreshadowing_updates:
+  - "F003 Day320合法取得整理批次表属后期工作底稿且有版本变更登记，不是已找到2022-11-18 15:42具体数据来源版本，更不证2019签封、2016回告或历史真答；F008/M004/M005不升级。"
+ending_state: "Day320 20:12仅八至十号支路恢复且真人核各铺，前柜十盒真实退出销售后柜十六盒待有权复核，姐弟恢复协作准备新货；F003底稿版本对应尚未获批核实。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "9bdc8da68b75642299411e212b9c9a2f975b629e", final_draft_sha: "9bdc8da68b75642299411e212b9c9a2f975b629e", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "780fad6ef5838cf9ad1b4e65839b6e44c1c18c5e", proposed_ready_blob: "ea85314493f916a24c22f13055eaf9a4081b733a"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3278
