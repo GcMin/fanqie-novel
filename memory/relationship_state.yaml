@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 476
+last_updated_chapter: 477
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2095,4 +2095,13 @@ chapter_476_relationship_verified:
   neighbors: "郭阿姨既发现清空告示疑点又夜间帮助有责引导邻居不踩新水线，物业仅承认本户错误并修公共二楼本处雨水漏点；信任建立于保留误表与可核实际维修，不是满意总签。"
   professional_service: "焦雨岚与顾师傅明确业主暂住申请不等于财物弃置，公共雨水立管与私人窗框各自待独立判断；有责服务关系未通过擅改原记录换取表面完成。"
   core_team: "夏宁周衡梁策原有协作与信任分值未因普通物业错误变化；不新增F008可靠本人记忆反证。"
+  trust_scores_unchanged: true
+
+chapter_477_relationship_verified:
+  chapter: 477
+  source_sha: "61cd8884b715ce001a3b2ebcd584fda169e0badb"
+  elder_caregiver: "柳望远不愿离开熟悉韩芹独自搭车，但明言自己不是要认女儿，只尊重对方做照护工作；韩芹既不冒亲属也不替老人擅作决定，合法随行与活动室真实交接后由本人感谢和确认记得谁帮他上车。"
+  community: "齐鸣先因原报名名单缺韩芹拒冒占最后一席，后获得吴阿姨本人真实不乘与有责调度授权，合法单列随行照护并记录15住户实乘；没有偷换或删除原吴某住户的身份。"
+  workplace: "韩芹与雇主儿子仍须按实际照护/等待时点核算费用，不因楼栋停电整段倒填加班或冒称已获补偿；老人可独立决定后续服务。"
+  core_team: "夏宁周衡梁策职责分离和长期信任分值不变，普通名单遗漏不构成F008新可靠本人记忆反证。"
   trust_scores_unchanged: true

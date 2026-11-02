@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 477
+title: "车上空着一个座位，她的名字却不在名单里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "267e588b1728edf1b7f69c4934db72d791144fd5"
+source_draft_sha: "61cd8884b715ce001a3b2ebcd584fda169e0badb"
+initial_review: "reader_reviews/0477_267e588b.md"
+reader_review: "reader_reviews/0477_61cd8884.md"
+depends_on_chapter: 476
+depends_on_source_sha: "7df0e7b25c1483e38b612f55bf5f42a70f1540eb"
+dependency_status: verified_predecessor_body_identical_metadata_delta_checked
+timeframe: "Day339 20:27—Day340晚间"
+summary: >-
+  Day339 20:27北禾新村3号楼地下设备间进水导致有责岗位隔离受影响公共回路并临时停用两部电梯，街道社区提供自愿临时接驳，不是整楼强制清空。76岁住户柳望远膝盖不适由按时受雇的晚间照护韩芹陪下楼，社区齐鸣持16位报名住户名单但现场只有15人在场，最后一位吴阿姨尚未核去向，韩芹不在名单且不冒认家属，老人坚持照护人不能上车便先不乘。21:01夜间中心夏宁周衡梁策分开失联吴阿姨、本人暂不乘柳望远、请求随行照护韩芹三类状态并追现场值守与有责调度。21:12社区经预留渠道获吴阿姨亲口确认人在儿子家且本次不乘，保其隐私，街道有权岗位核16人定员和实到信息后让韩芹以独立随行照护身份登记，不覆盖吴阿姨身份；21:29实乘15住户+1照护乘车，21:47活动室接待核真到与获准无障碍路径，22:18只确认本车到达与本人不乘，不将全楼住户误写迁空。Day340 10:14公共用电专业只完成受影响回路的阶段性检查，两部电梯和设备间仍须继续核验；柳望远自选不赶第一批回楼，韩芹记录本人实际服务至23时和等待时点供与雇主核费用，不把停电时段冒充全加班。夜间老人致电强调清楚记得韩芹真正帮他上车，身份由本人承认而非冒签亲属。F003无新独立资料，F008/M004/M005无新可靠确认。
+meaningful_state_changes:
+  - "吴阿姨从未核去向变为本人按合法渠道确认安全在儿子家并自愿不乘车，隐私未扩大传播。"
+  - "柳望远由困在车门前无法获真实照护安排，转为其本人选择合法随行、15住户+1照护实乘真达活动室并各自保留身份，不强填所有住户已迁出。"
+  - "公共回路有限检查不代电梯复用，柳望远自决暂不第一批返楼，韩芹如实记录额外服务时点及未决费用。"
+knowledge_updates:
+  - "韩芹知道自己是受雇照护人、服务到23时，不是住户或亲属；柳望远知道可本人决定转移和返楼；吴阿姨只对本人安全位置及本次不乘负责。"
+  - "齐鸣及街道有责岗位分别知道原住户16人、15真到1人亲自不乘与1名独立随行照护真乘，不能用人员名单推整栋楼已经清空。"
+  - "夏宁周衡梁策只掌握本次有限调度、物业和专业反馈，不替街道决定随车人或替专业确认电梯恢复；罗经办马芸本章无新增档案来源。"
+relationship_updates:
+  - "柳望远尊重韩芹的职业身份而非强迫她冒充家人，韩芹按本人与有权岗位许可提供真实照护；老人后来本人认可帮助并保留继续雇佣安排的选择。"
+  - "齐鸣由初始名单拦下转为合法协调吴阿姨本人确认、街道有权新增随行身份，不剥夺未到者原名册位置。"
+foreshadowing_updates:
+  - "F003无新增证据，2022-11-18导入任务一条执行实例结束事件类别仍不能证明读过何文件或重试成功；本次普通名单误用不构成F008、M004、M005的新确证。"
+ending_state: "Day340晚柳望远真实安全进入合法活动室且保留本人返楼意愿，韩芹不冒家属取得合法随行照护记录并将服务时点交雇主待核，北禾新村设备间和两部电梯仍待专项复核；吴阿姨本人不乘有来源。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "267e588b1728edf1b7f69c4934db72d791144fd5", initial_counts: "0/1/2", final_draft_sha: "61cd8884b715ce001a3b2ebcd584fda169e0badb", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, fix: "476原draft与ready正文标题逐字同、仅交付Front Matter不同，重绑477及详纲", predecessor_original_draft_blob: "d7d2d05b4491bccc9057000bfb4d150bb65cc63f", predecessor_ready_blob: "7df0e7b25c1483e38b612f55bf5f42a70f1540eb", predecessor_body_delta: "正文标题一致，status/qa/approved_at/publish_mode交付字段差异"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3130

@@ -6,10 +6,10 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "1bf14348174f1127d42bca3c65371c5d83fe2e00"
 - depends_on_chapter: 476
-- depends_on_source_sha: "d7d2d05b4491bccc9057000bfb4d150bb65cc63f"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0476.md
-- predecessor_canon_boundary: 第476章仅为未经独立审核的特定版本草稿；第477章只在时间上接续Day339晚间，北禾新村接驳事件独立发生，不把476章花盆与旧屋修复的任何内容升格正式Canon；如476后续修订，应由独立Audit核对。
+- depends_on_source_sha: "7df0e7b25c1483e38b612f55bf5f42a70f1540eb"
+- dependency_status: verified_predecessor_body_identical_metadata_delta_checked
+- predecessor_location: chapters/ready/0476.md
+- predecessor_canon_boundary: 第476章已完成独立Reader/QA及精确候选CI成功并正式ready；本章时间接续Day339晚间且北禾新村接驳事件独立，476原草稿与正式ready正文标题逐字一致，仅Front Matter交付状态改变。
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day339 20:27—Day340晚间
 - title: 车上空着一个座位，她的名字却不在名单里
@@ -45,8 +45,11 @@ Day339 20:27北禾新村三号楼地下设备间进水，受影响回路隔离�
 
 ## Continuity Precheck（仅Writer）
 - 实际重读main HEAD、项目规范/设定、ARC及长期Memory、最近10章摘要、最近5章全文；三类章节目录最高章476且第153章已在published，477章纲及草稿目标不存在。
-- 直接前章是未审draft Blob `d7d2d05b4491bccc9057000bfb4d150bb65cc63f`，按完整SHA绑定，`dependency_status: provisional`，不当成既定Canon；本章另起独立事件，时间从Day339 20:27起，无逆改既存人物伤势、物品或历史授权。
+- 原Writer阶段以前章草稿为临时依据；独立Audit已核第476章原draft Blob `d7d2d05b4491bccc9057000bfb4d150bb65cc63f` 与正式ready Blob `7df0e7b25c1483e38b612f55bf5f42a70f1540eb` 的**正文与标题逐字一致，只有Front Matter状态/QA/批准日期/交付模式不同**；现绑定正式ready的完整SHA，独立新案从Day339 20:27接续、不逆改既有事实。
 - 内容只进行Writer连续性预检，不执行Reader、Revision、QA、Memory和Publish Gate。
 
 ## 结尾状态与交付
 Day340晚柳望远明确真实随行照护者身份及未来探视约定，电梯仍待有责维保复核，返楼不强制、工时费用未定；仅新建详细章纲与待审草稿，有效字符3130。
+## 独立Audit第477章Stage A（2026-11-03）
+- 原0477草稿Git Blob `267e588b1728edf1b7f69c4934db72d791144fd5` 对应Reader双遍初审0 BLOCKER/1 MAJOR/2 MINOR；唯一必须修项为第476章依赖尚属provisional而原稿已正式ready。
+- 已逐字核对476原稿与正式ready（标题正文不变、仅交付Front Matter差异），此Stage A仅更新477 Front Matter/本详纲依赖及已验证事实差异；**第477章小说正文0字修改**。改后必须基于新Git Blob独立重审Reader Pass A/B再独立QA及精确CI门禁。

@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 476
-last_reviewed_title: "清空通知贴上门，她的花还在窗台长着"
-last_source_path: chapters/draft/0476.md
-last_source_sha: d7d2d05b4491bccc9057000bfb4d150bb65cc63f
-last_review_path: reader_reviews/0476_d7d2d05b.md
+last_reviewed_chapter: 477
+last_reviewed_title: "车上空着一个座位，她的名字却不在名单里"
+last_source_path: chapters/draft/0477.md
+last_source_sha: 61cd8884b715ce001a3b2ebcd584fda169e0badb
+last_review_path: reader_reviews/0477_61cd8884.md
 last_reviewed_at: "2026-11-03"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 475
-depends_on_source_sha: 62418403cfa3578c135ce5946a736fedd936f392
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 62418403cfa3578c135ce5946a736fedd936f392
+depends_on_chapter: 476
+depends_on_source_sha: 7df0e7b25c1483e38b612f55bf5f42a70f1540eb
+dependency_status: verified_predecessor_body_identical_metadata_delta_checked
+predecessor_current_source_sha: 7df0e7b25c1483e38b612f55bf5f42a70f1540eb
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -4317,5 +4317,26 @@ chapter_476_review:
   body_revisions: 0
   predecessor_ready_blob: "62418403cfa3578c135ce5946a736fedd936f392"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_477_review:
+  chapter: 477
+  title: "车上空着一个座位，她的名字却不在名单里"
+  original_sha: "267e588b1728edf1b7f69c4934db72d791144fd5"
+  source_path: chapters/draft/0477.md
+  source_sha: "61cd8884b715ce001a3b2ebcd584fda169e0badb"
+  original_review: "reader_reviews/0477_267e588b.md"
+  final_review: "reader_reviews/0477_61cd8884.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  independent_pass_a_then_b: true
+  required_action: none
+  local_revision_used: 1
+  body_revisions: 0
+  predecessor_original_draft_blob: "d7d2d05b4491bccc9057000bfb4d150bb65cc63f"
+  predecessor_ready_blob: "7df0e7b25c1483e38b612f55bf5f42a70f1540eb"
+  predecessor_body_delta: "正文与标题逐字相同，仅交付Front Matter差异"
+  dependency_status: verified_predecessor_body_identical_metadata_delta_checked
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
