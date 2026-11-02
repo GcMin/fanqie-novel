@@ -30,5 +30,6 @@ foreshadowing_updates:
 ending_state: "Day327 20:16局部屋面本处修完但受潮回路和顶棚未准复用，师徒只在干区完成工作；档案附件级查询仅收件。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "0549b7482b79e0677ab17322e90fed55679284f1", final_draft_sha: "5962708179a9a6692d0879a3cb6ff7b10621b1ee", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_blob: "0445868d8d34060ac522fb12a6e96a33b075bf47", predecessor_ready_blob: "575761ea7395ea6038d6ce624efef1f701e007ad", predecessor_body_delta: none, proposed_ready_blob: "917cb6cd97f135384eb0843a535ea2c79c08533b"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_success}
 char_count: 3204
+release_evidence: {candidate_commit: "6611ba96cfea20434d8214ec30c25dff95665d73", candidate_ci: 41399839871, main_ci: 41399924740, ready_blob: "917cb6cd97f135384eb0843a535ea2c79c08533b", publisher_check_local: pass, structural_unit_tests: pass, main_ref_update: expected_sha_force_false_success}

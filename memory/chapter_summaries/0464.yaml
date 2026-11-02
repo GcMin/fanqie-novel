@@ -28,5 +28,6 @@ foreshadowing_updates:
 ending_state: "Day326 20:18本户真复水余瓶2，本批纠错但他点模板待测，档案窄申只收。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "0445868d8d34060ac522fb12a6e96a33b075bf47", final_draft_sha: "0445868d8d34060ac522fb12a6e96a33b075bf47", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "2d43e882ea46cb74b37fca5a3a3a51582f89c55d", proposed_ready_blob: "575761ea7395ea6038d6ce624efef1f701e007ad"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_success}
 char_count: 3629
+release_evidence: {candidate_commit: "6611ba96cfea20434d8214ec30c25dff95665d73", candidate_ci: 41399839871, main_ci: 41399924740, ready_blob: "575761ea7395ea6038d6ce624efef1f701e007ad", publisher_check_local: pass, structural_unit_tests: pass, main_ref_update: expected_sha_force_false_success}

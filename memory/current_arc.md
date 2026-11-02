@@ -1,3 +1,8 @@
+# 第464—465章正式main放行精确CI证据｜2026-11-02
+- 候选/正式main共用Commit `6611ba96cfea20434d8214ec30c25dff95665d73`，audit分支CI `41399839871` SUCCESS，main CI `41399924740` SUCCESS，精确checkout单元测试和`python -m publisher.check_local --repo .`均通过。main更新`expected_sha=7859ed71e87ee81c9b738af8f0d48b04ef2c9fa9`、`force:false`成功。
+- 正式ready第464章Blob `575761ea7395ea6038d6ce624efef1f701e007ad`，第465章 `917cb6cd97f135384eb0843a535ea2c79c08533b`；两份draft已删除。464原SHA `0445868d8d34060ac522fb12a6e96a33b075bf47` Reader0/0/2 QA PASS无需修订；465原稿 `0549b7482b79e0677ab17322e90fed55679284f1` Reader0/1/2仅前章临时SHA，Stage A重绑后新稿SHA `5962708179a9a6692d0879a3cb6ff7b10621b1ee` Reader0/0/2、独立QA PASS，正文两章均未改。
+- 此段实证覆盖下文候选状态；未发布番茄、不修改Canon/published及两项定时任务。
+
 # 第464—465章ARC-054独立Audit事实｜2026-11-02（须精确候选CI成功）
 - 464源draft `0445868d8d34060ac522fb12a6e96a33b075bf47`，前463 ready精确匹配，独立Reader双遍0/0/2，Continuity/Style/Meaningful QA PASS，3629有效字，不修正文，拟ready Blob `575761ea7395ea6038d6ce624efef1f701e007ad`。
 - 465原源draft 0549b7482b79e0677ab17322e90fed55679284f1 初Reader0/1/2仅MAJOR为引用464旧临时draft SHA。已比较464原draft与拟ready小说正文完全相同只FrontMatter交付变化，Stage A仅重绑465 FrontMatter和详纲前章SHA为`575761ea7395ea6038d6ce624efef1f701e007ad`；新draft `5962708179a9a6692d0879a3cb6ff7b10621b1ee`独立重新Reader双遍0/0/2，内容QA PASS，3204有效字，正文0改。

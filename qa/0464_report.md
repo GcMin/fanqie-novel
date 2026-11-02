@@ -7,3 +7,7 @@
 - **Style PASS**：空瓶、搪瓷杯、两趟六层与饭锅具体可见，父女语气自然；重复绿屏套路记MINOR不重写。**Meaningful PASS**：本批错报有源更正、39户真得水、父女互相照料而未抹排队代价、F003有界小进展。
 - **章号/标题/字数 PASS**：464，`水车停在南门，六楼的空桶还在排队`，Front Matter/详纲与计划一致；3629有效字，满足2300—3800硬限，高于优选上限但两条事件线均承担事实推进。
 - **结构门禁**：本QA不是CI；只有精确候选Commit上的单测和`python -m publisher.check_local --repo .`成功且main HEAD可expected_sha/force:false非强制更新才可正式放行。
+
+## 2026-11-02 精确候选结构校验与main放行证据
+- 正式放行 Git Commit `6611ba96cfea20434d8214ec30c25dff95665d73`，候选分支 `audit/ready-0464-0465-20261102` GitHub Actions `41399839871` **SUCCESS**；Checkout为本精确Commit，`Test offline snapshot validation`与`Validate this checkout without Git sync or publishing`两步均 **SUCCESS**，后者执行 `python -m publisher.check_local --repo .`。
+- 以 `expected_sha=7859ed71e87ee81c9b738af8f0d48b04ef2c9fa9`、`force:false`非强制更新main到同一Commit，main CI `41399924740` **SUCCESS**；所有文件是已验证的精确树，非浮动master。第464章ready Blob `575761ea7395ea6038d6ce624efef1f701e007ad`、第465章ready Blob `917cb6cd97f135384eb0843a535ea2c79c08533b`；两个draft均已删除，正文0字修改，Reviewer源SHA证据仍与当前正式正文相对应（仅变更Front Matter交付字段）。

@@ -6,3 +6,7 @@
 - **Style PASS**：滴到旧机器的水与西装左袖、顶针、干区手动压边形成动作链；师徒对白有区别；重复假绿字模式及F003元信息慢进是MINOR。**Meaningful PASS**：危险回路真隔离，住户拒绝假验收，客人有权带走旧衣，师徒不以赶工牺牲安全。
 - **章号/标题/字数 PASS**：465，`屋顶的维修单签了字，水还在缝纫机旁滴`；正文3204有效字符在2600—3400优选范围，Front Matter/详纲/计划一致。
 - **结构门禁**：内容QA不替代CI；只有精确候选Commit实跑结构单测和`publisher.check_local`且成功，才可带expected_sha/force:false推进main为ready；失败保留draft。
+
+## 2026-11-02 精确候选结构校验与main放行证据
+- 正式放行 Git Commit `6611ba96cfea20434d8214ec30c25dff95665d73`，候选分支 `audit/ready-0464-0465-20261102` GitHub Actions `41399839871` **SUCCESS**；Checkout为本精确Commit，`Test offline snapshot validation`与`Validate this checkout without Git sync or publishing`两步均 **SUCCESS**，后者执行 `python -m publisher.check_local --repo .`。
+- 以 `expected_sha=7859ed71e87ee81c9b738af8f0d48b04ef2c9fa9`、`force:false`非强制更新main到同一Commit，main CI `41399924740` **SUCCESS**；所有文件是已验证的精确树，非浮动master。第464章ready Blob `575761ea7395ea6038d6ce624efef1f701e007ad`、第465章ready Blob `917cb6cd97f135384eb0843a535ea2c79c08533b`；两个draft均已删除，正文0字修改，Reviewer源SHA证据仍与当前正式正文相对应（仅变更Front Matter交付字段）。

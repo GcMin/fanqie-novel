@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 465
-current_stage: ready_candidate_exact_CI_required
+current_stage: ready_released_exact_CI_success
 current_source_path: chapters/draft/0465.md
 current_source_sha: 5962708179a9a6692d0879a3cb6ff7b10621b1ee
 current_review_path: reader_reviews/0465_59627081.md
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: content_QA_pass_exact_CI_required
+last_action: ready_released_exact_CI_success
 last_action_date: "2026-11-02"
 last_error: null
-last_diff_summary: "464 Reader0/0/2 QA PASS; 465 initial0/1/2 rebind 464ready 575761ea7395ea6038d6ce624efef1f701e007ad, new 5962708179a9a6692d0879a3cb6ff7b10621b1ee Reader0/0/2 QA PASS, no body revision; exact candidate CI required"
+last_diff_summary: "464-465 exact candidate 6611ba96cfea20434d8214ec30c25dff95665d73 CI 41399839871 SUCCESS and main 41399924740 SUCCESS; 465 Stage A only metadata; Reader 0/0/2 after new SHA; body unchanged."
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -3508,3 +3508,13 @@ chapter_465_revision:
   predecessor_body_delta: none
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+release_464_465:
+  candidate_commit: "6611ba96cfea20434d8214ec30c25dff95665d73"
+  candidate_ci: 41399839871
+  main_ci: 41399924740
+  exact_sha_verified: true
+  status: ready
+  main_ref_update: expected_sha_force_false_success
+  ready_chapters: [464, 465]
+  ready_blobs: ["575761ea7395ea6038d6ce624efef1f701e007ad", "917cb6cd97f135384eb0843a535ea2c79c08533b"]
+  body_revisions: 0
