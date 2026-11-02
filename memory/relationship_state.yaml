@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 474
+last_updated_chapter: 475
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2077,4 +2077,13 @@ chapter_474_relationship_verified:
   venue_service: "喷泉管理方不以节目结束绿字当实际停机，专业班及管理岗仅核限项公众路复开，谁承担坏灯赔付未判。"
   archive: "罗经办马芸共同将重试请求接收和真实执行完成区别记入有源笔记，不将缺失最终记录替代事实。"
   core_team: "夜间中心三人按分权核有责安全与来源，既有信任分值不变。"
+  trust_scores_unchanged: true
+chapter_475_relationship_verified:
+  chapter: 475
+  source_sha: "a31db13112a1495ee94cb50a6715a44f71f4d9f6"
+  father_daughter: "何映棠坚持纸灯真实交付的各独立节点，何启元从想将客户提前预结单当已交变为和女儿分项写本人领取/外婆自主挂好/坏灯保管/损失待定；双方因实作而互相信任。"
+  grandmother_granddaughter: "冯见春保留旧家的钥匙和缺口壶并亲试新锁，苏梨尊重其不公布住址、不代选灯位与不催放弃旧物；新房可安住不意味着旧屋关系被抹去。"
+  movers: "搬家带班承认总单绿完成不代表第三厨房箱已经真正交，苏梨只签下午实际收到时点，老人缺口茶壶的价值由本人说明不被箱单通用词替代。"
+  archive: "马芸罗经办拒把三种系统事件类别强行拼为同一次执行链，并暂缓无判定力的派生窄申，合作仍以证据限定边界为先。"
+  core_team: "本章普通私人交货搬家不调整夏宁周衡梁策长期信任分值，不新增F008可靠矛盾样本。"
   trust_scores_unchanged: true

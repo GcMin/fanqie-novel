@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 474
-last_reviewed_title: "喷泉显示已经停机，纸灯笼还在水里漂"
-last_source_path: chapters/draft/0474.md
-last_source_sha: a9ce97d596293f93524114792fa33627311da428
-last_review_path: reader_reviews/0474_a9ce97d5.md
+last_reviewed_chapter: 475
+last_reviewed_title: "纸灯挂进新屋，旧钥匙还在她手里"
+last_source_path: chapters/draft/0475.md
+last_source_sha: a31db13112a1495ee94cb50a6715a44f71f4d9f6
+last_review_path: reader_reviews/0475_a31db131.md
 last_reviewed_at: "2026-11-03"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 473
-depends_on_source_sha: 7df1eceea3e04bed9d959e3e4b9d2fe84aca2227
+depends_on_chapter: 474
+depends_on_source_sha: c67f5994ed787ab440e38afe873bbf85d2bcb83d
 dependency_status: verified_predecessor_body_identical_metadata_delta_checked
-predecessor_current_source_sha: 7df1eceea3e04bed9d959e3e4b9d2fe84aca2227
+predecessor_current_source_sha: c67f5994ed787ab440e38afe873bbf85d2bcb83d
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -4279,6 +4279,27 @@ chapter_474_review:
   predecessor_old_draft_sha: "586c4e23b2be392df947e72bde4593a34a4e6c93"
   predecessor_ready_blob: "7df1eceea3e04bed9d959e3e4b9d2fe84aca2227"
   predecessor_body_delta: "正文逐字一致且标题一致，仅交付Front Matter差异"
+  dependency_status: verified_predecessor_body_identical_metadata_delta_checked
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_475_review:
+  chapter: 475
+  title: "纸灯挂进新屋，旧钥匙还在她手里"
+  source_path: chapters/draft/0475.md
+  original_sha: "a770dd7c7f72f305eea64e2305737e6fab9b1654"
+  initial_review: "reader_reviews/0475_a770dd7c.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "a31db13112a1495ee94cb50a6715a44f71f4d9f6"
+  final_review: "reader_reviews/0475_a31db131.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  independent_pass_a_then_b: true
+  required_action: none
+  local_revision_used: 1
+  body_revisions: 0
+  predecessor_old_draft_sha: "f9691eccdbdd2cbd5043512a9301b2ff8e972eee"
+  predecessor_ready_blob: "c67f5994ed787ab440e38afe873bbf85d2bcb83d"
+  predecessor_body_delta: "正文和标题完全相同，仅交付Front Matter不同"
   dependency_status: verified_predecessor_body_identical_metadata_delta_checked
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

@@ -6,10 +6,10 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "f82b6a47240037ce0b97072dc3ea050420bcfa27"
 - depends_on_chapter: 474
-- depends_on_source_sha: "f9691eccdbdd2cbd5043512a9301b2ff8e972eee"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0474.md
-- predecessor_canon_boundary: 第474章仍为未审草稿，仅可按指定Git Blob作为临时参考，独立审核可能改变其正文；不得视为正式Canon
+- depends_on_source_sha: "c67f5994ed787ab440e38afe873bbf85d2bcb83d"
+- dependency_status: verified_predecessor_body_identical_metadata_delta_checked
+- predecessor_location: chapters/ready/0474.md
+- predecessor_canon_boundary: 第474章正式ready SHA已通过独立Reader/QA与精确Git候选CI；旧draft与ready小说正文及标题逐字相同，变动仅依赖绑定和交付Front Matter，已按源比对
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day336 20:34—Day337 20:01
 - title: 纸灯挂进新屋，旧钥匙还在她手里
@@ -39,10 +39,10 @@ Day336 20:34，何启元急于在新灯未干时写字、提前结单，何映�
 
 ## Continuity Precheck（仅Writer创作预检）
 - 本轮从published/ready/draft真实列举确认最大现有章号474；第153章真实存在于published，故新章为475，两个目标文件预检均不存在。
-- 前474章仅draft，Git Blob SHA f9691eccdbdd2cbd5043512a9301b2ff8e972eee。上章结尾Day336 20:18新灯仍未完全干、旧灯保留、苏梨选择重做且不伪签交付；本章Day336 20:34续写，不倒填前日“全部交货”，不将临时桥接事实提升为正式Canon。
+- 前474章原draft与现ready正文及标题相同，原draft SHA f9691eccdbdd2cbd5043512a9301b2ff8e972eee，ready Git Blob SHA c67f5994ed787ab440e38afe873bbf85d2bcb83d；正文事实无变化，Front Matter版本已重绑。上章结尾Day336 20:18新灯仍未完全干、旧灯保留、苏梨选择重做且不伪签交付；本章Day336 20:34续写，不倒填前日“全部交货”，不将临时桥接事实提升为正式Canon。
 - 第474章F003 Day336 14:16仅提交“执行结束事件类别”限项申请，本章Day337 11:27才获得受权限答复；结束事件类型不证明导入重试成功或实际字节、历史本人回复与旧封签。
 - Day195三旧拆物与沈家私人票据不并入新灯或搬迁线；无新增F008可靠个人记忆反证，也不确认M004/M005。夜间综合服务中心未接手私人搬家合同、租屋挂钩安全责任或档案越权核定。
-- 这是Planner与Continuity Precheck，不构成独立Reader/QA/Memory或Publish Gate；只新建本章两文件。
+- 既有Writer预检不算独立审查；2026-11-03 Audit对原SHA a770dd7c7f72f305eea64e2305737e6fab9b1654 执行Reader初审，对修订后新SHA a31db13112a1495ee94cb50a6715a44f71f4d9f6 再独立Reader A/B与Continuity/Style/Meaningful QA，只有精确结构CI成功才能ready。
 
 ## 结尾、字数及交付
 Day337夜外婆本人选位挂灯并掌握新钥匙开锁，旧钥匙仍保留；父女分项记真实交付、坏灯保管与未决责任。有效字符数3008（排除Front Matter、空白和***分隔）；仅以status:draft/qa:pending提交独立Audit。

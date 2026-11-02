@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 475
+title: "纸灯挂进新屋，旧钥匙还在她手里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "a770dd7c7f72f305eea64e2305737e6fab9b1654"
+source_draft_sha: "a31db13112a1495ee94cb50a6715a44f71f4d9f6"
+initial_review: "reader_reviews/0475_a770dd7c.md"
+reader_review: "reader_reviews/0475_a31db131.md"
+depends_on_chapter: 474
+depends_on_source_sha: "c67f5994ed787ab440e38afe873bbf85d2bcb83d"
+dependency_status: verified_predecessor_body_identical_metadata_delta_checked
+timeframe: "Day336 20:34—Day337 20:01"
+summary: >-
+  Day336 20:34南浦河纸灯摊何启元与何映棠正在重做苏梨原订“平安回家”素面新灯，原件受喷泉水湿损保留，父女拒以未干未交新灯提前填交付成功；21:06苏梨搬家改期提出先结单仍获实告只待真人实交。Day337 09:47苏梨陪外婆冯见春搬至江锦公寓西楼临时租屋，旧居未注销且绿绳旧钥匙由外婆自持；搬家车辆/工人签退被平台误映三箱全到，实际第三厨房箱尚在后车，里有外婆缺口旧瓷壶，苏梨只按缺箱真实记录，外婆亲手学会新门锁分放新旧钥匙。11:27罗经办马芸仅据Day336 14:16合法限项申请获2022-11-18 15:42工作区导入任务同标识一条“执行实例结束”事件类型，无子号结果码重试链与文件字节，不能将“等待重试”“请求接收”和该结束记录断为同一次成功重试；她们暂停无收益的同类派生窄申、保原授权边界等待独立原始交接来源。14:25搬家第三箱才真到，外婆得缺口瓷壶，旧家冬衣及柜仍留；16:08苏梨本人真领新灯旧灯继续由何家保存赔偿未决；19:59外婆自主决定安全室内灯位，用电池光源实挂并真试新锁，旧钥匙仍留，20:01苏梨有限回报真挂好，何启元按本人交付、本人挂好、旧灯保管和赔损未定分别记账。2019真双签封、2016旧回告在封、历史真人真受答及2022与11/21归档第三校对本同字节无证，Day195旧件沈家私票分源F008/M004/M005不确证。
+meaningful_state_changes:
+  - "苏梨的定制新灯从尚未干到Day337 16:08本人真领再到19:59外婆自主挂好，旧灯坏件与赔偿仍分别保留。"
+  - "搬家平台假完成被实际第三箱未交证伪且14:25真补交，旧家未注销、旧物未全迁，新旧钥匙清楚区分；外婆学会新门锁。"
+  - "F003新增同任务标识执行实例结束类别，但无实例子号或结果码，不能关联前次重试请求也不证任何读取成功。"
+knowledge_updates:
+  - "何映棠何启元只知道新灯已苏梨亲领及外婆自选室内真挂，旧灯仍待处理赔损未定；苏梨只告诉真挂好，不公开外婆地址及面容。"
+  - "苏梨冯见春知道三箱中第三箱到14:25才真交，旧家物件仍需另取，新家只是临时租屋，旧地址和旧钥匙依旧有效。"
+  - "罗经办马芸知道限项可见某执行实例结束事件，却不知道是前次重试哪一实例、结果成功与否或实际文件字节。"
+relationship_updates:
+  - "何启元接受女儿坚持分开承诺履约与实际交付，苏梨尊重外婆自主选择是否挂灯及隐私；冯见春保旧家钥匙同时亲自掌握新门锁。"
+foreshadowing_updates:
+  - "F003三类事件记录只能各自确认受限存在，缺关联子号、结果码、原始交接源及字节，不可串成成功重试或旧封真相；F008/M004/M005不确认。"
+ending_state: "Day337约20:01新灯真正挂入外婆自行选择的新屋位置且本人会使用新钥匙，旧钥匙仍保、旧房未注销、旧灯受潮和赔付未结，F003进一步查询暂停待独立原始来源。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "a770dd7c7f72f305eea64e2305737e6fab9b1654", initial_counts: "0/1/2", final_draft_sha: "a31db13112a1495ee94cb50a6715a44f71f4d9f6", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, fix: "仅更新474最终ready依赖SHA及详纲", predecessor_original_draft_blob: "f9691eccdbdd2cbd5043512a9301b2ff8e972eee", predecessor_ready_blob: "c67f5994ed787ab440e38afe873bbf85d2bcb83d", predecessor_body_delta: "原标题与小说正文完全相同仅交付Front Matter变动", proposed_ready_blob: "62418403cfa3578c135ce5946a736fedd936f392"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3008

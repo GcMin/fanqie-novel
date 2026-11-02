@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 474
+current_chapter: 475
 current_stage: content_qa_pass_structural_pending
-current_source_path: chapters/draft/0474.md
-current_source_sha: a9ce97d596293f93524114792fa33627311da428
-current_review_path: reader_reviews/0474_a9ce97d5.md
+current_source_path: chapters/draft/0475.md
+current_source_sha: a31db13112a1495ee94cb50a6715a44f71f4d9f6
+current_review_path: reader_reviews/0475_a31db131.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter474_prev473_ready_rebind_and_new_sha_double_reader_complete
+last_action: chapter475_prev474_ready_rebind_new_sha_double_reader_and_independent_qa
 last_action_date: "2026-11-03"
 last_error: null
-last_diff_summary: "473原稿0/0/2无需正文修订；474原稿0/1/2因绑前473旧草稿SHA；逐字比对473原稿与ready小说正文和标题相同仅交付元数据差异，Stage A只重绑474依赖与详纲；474新SHA a9ce97d5独立Reader A/B重审0/0/2；两章独立内容QA通过，结构CI待精确提交校验。"
+last_diff_summary: "475原SHA a770dd7c初审0/1/2；前474原临时draft与已放行ready正文和标题相同仅Front Matter交付更改；Stage A只重绑依赖与详纲，正文0字修改；475新SHA a31db131独立Reader A/B重审0/0/2，内容QA通过，精确CI待验证。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -3718,5 +3718,26 @@ chapter_474_revision:
   predecessor_old_draft_sha: "586c4e23b2be392df947e72bde4593a34a4e6c93"
   predecessor_ready_blob: "7df1eceea3e04bed9d959e3e4b9d2fe84aca2227"
   predecessor_factual_delta: "小说正文及标题相同仅交付Front Matter差异"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_475_revision:
+  chapter: 475
+  original_sha: "a770dd7c7f72f305eea64e2305737e6fab9b1654"
+  source_sha: "a31db13112a1495ee94cb50a6715a44f71f4d9f6"
+  initial_review: "reader_reviews/0475_a770dd7c.md"
+  final_review: "reader_reviews/0475_a31db131.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage: local_revision_predecessor_sha_and_metadata_only
+  fix: "474原稿与ready标题正文逐字一致，仅更新前章依赖SHA和详纲；475正文0字修改，按新SHA双遍复审"
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  retry_cycles: 0
+  predecessor_old_draft_sha: "f9691eccdbdd2cbd5043512a9301b2ff8e972eee"
+  predecessor_ready_blob: "c67f5994ed787ab440e38afe873bbf85d2bcb83d"
+  predecessor_factual_delta: "正文标题完全一致，仅交付Front Matter差异"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
