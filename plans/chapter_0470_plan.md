@@ -6,9 +6,9 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "09e348a388ca7cdcf73caf0c8e9746d6a191c18c"
 - depends_on_chapter: 469
-- depends_on_source_sha: "39a83876a3eea3eb8c7c83cf66228bdf678a951c"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0469.md
+- depends_on_source_sha: "ce2dd8259c4f7ed7b7600dffd4cdf8daabc5114a"
+- dependency_status: verified_predecessor_factual_delta_checked
+- predecessor_location: chapters/ready/0469.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day331 20:41—Day332 20:07
 - title: 十一号摊收了牌，旧书还在雨里
@@ -17,7 +17,7 @@
 - pov: 彭叶禾贴近第三人称、彭砚声与书市值守现场；夏宁周衡梁策限权联动，罗经办马芸限权查档
 
 ## 本章目标与开场状态
-Day331 20:41南翎旧书市收到十九摊已清场短信，但十一号书车及两箱旧书仍在封闭区；天候转差，夜间不能冒险攀越。前第469章为未审核draft，仅依赖其Day331 20:16南芩街歇脚站真正开站事实及F003当前申请口径，不将其新增未审内容作为永久Canon。
+Day331 20:41南翎旧书市收到十九摊已清场短信，但十一号书车及两箱旧书仍在封闭区；天候转差，夜间不能冒险攀越。前第469章已独立Reader/QA且经精确CI正式ready；该章旧draft与ready正文仅有Day331对前一日档案申请的时间指代由“前日下午”修为“昨日下午”（另有交付Front Matter差异），本章必须依赖最终ready SHA并正确承接Day331 14:08新申请与20:16本人真进站事实。
 
 ## 人物诉求与冲突
 - 彭砚声要保住旧书和夹着女儿童年路标的薄册；他怕损失、也不愿女儿认为他守旧。
