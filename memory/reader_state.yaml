@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 468
-last_reviewed_title: "防火门已经闭合，楼道里还伸着半辆婴儿车"
-last_source_path: chapters/draft/0468.md
-last_source_sha: 9d8ae809262c804f59f6387791970a959a4095f1
-last_review_path: reader_reviews/0468_9d8ae809.md
+last_reviewed_chapter: 469
+last_reviewed_title: "休息站已经开门，钥匙还在锁柜里"
+last_source_path: chapters/draft/0469.md
+last_source_sha: 899b1cfcd29f2dafbe878bc8ae7e3bea459e64d5
+last_review_path: reader_reviews/0469_899b1cfc.md
 last_reviewed_at: "2026-11-02"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -4157,3 +4157,21 @@ release_468:
   chapters: [468]
   ready_blobs: ["376df6841d327a028d57f92f8170681b606bbfe9"]
   body_revisions: 0
+
+chapter_469_review:
+  chapter: 469
+  source_path: chapters/draft/0469.md
+  original_sha: "39a83876a3eea3eb8c7c83cf66228bdf678a951c"
+  initial_review: "reader_reviews/0469_39a83876.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "899b1cfcd29f2dafbe878bc8ae7e3bea459e64d5"
+  review_path: "reader_reviews/0469_899b1cfc.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  independent_pass_a_then_b: true
+  required_action: none
+  local_revision_used: 1
+  body_revisions: 1
+  predecessor_ready_blob: "376df6841d327a028d57f92f8170681b606bbfe9"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: pending_exact_candidate_CI

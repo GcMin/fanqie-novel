@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 468
+last_updated_chapter: 469
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2023,4 +2023,14 @@ chapter_468_relationship_verified:
   community: "耿启不代扣故意堵门帽子，施芮核准许可室并由双人领钥匙交付一格，住户知道只限本车及当次有效凭据，不推所有居民已解决。"
   archive: "罗经办马芸继续按来源分层，仅记挂载任务创建而非成功，等待下一合法状态类申请答复。"
   core_team: "夏宁周衡梁策互信数值不变，分别承担有源调度、设施判断边界和现场授权问责。"
+  trust_scores_unchanged: true
+
+chapter_469_relationship_verified:
+  chapter: 469
+  source_sha: "899b1cfcd29f2dafbe878bc8ae7e3bea459e64d5"
+  worker_service: "魏安蓉由质疑站点假开放转为次晚真正坐下写20:16进站时点，形成有限信任，但前晚失去的工间休息不签满意或假结案。"
+  rider: "乔一诺亲自等待合法充电且自主决定停止抢夜单回家，不能被站点假开门记录代本人签到。"
+  service_duty: "邵岚认真登记魏安蓉真实损失与回拨需求，龚乐只签本人的真实接班、开门和服务时点；公众信任来自可亲见行为。"
+  archive: "罗经办马芸继续严格区分任务取消的状态类别与具体旧底稿字节，下一步只循受限申请。"
+  core_team: "夏宁周衡梁策遵循既有分工，长期互信数值不因普通站点映射问题变化。"
   trust_scores_unchanged: true

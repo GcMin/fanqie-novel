@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 469
+title: "休息站已经开门，钥匙还在锁柜里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "39a83876a3eea3eb8c7c83cf66228bdf678a951c"
+source_draft_sha: "899b1cfcd29f2dafbe878bc8ae7e3bea459e64d5"
+initial_review: "reader_reviews/0469_39a83876.md"
+reader_review: "reader_reviews/0469_899b1cfc.md"
+depends_on_chapter: 468
+depends_on_source_sha: "376df6841d327a028d57f92f8170681b606bbfe9"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day330 20:38—Day331 20:16"
+summary: >-
+  Day330 20:38环卫清扫工魏安蓉和骑手乔一诺抵达南芩街夜间歇脚站发现门仍锁、值守无人且供水未启，公众却依19:58回执称站点正常开放；20:47邵岚核当班龚乐从未收钥匙，21:06夏宁周衡梁策仅按权源分离协调。21:20主管核实19:58白班只是钥匙封袋归柜，被旧接口误映夜班交接和公众开放；21:39有权两人真实核柜领钥匙，21:58龚乐核位开门，22:09供水、座椅、卫生间核明可用才提供实际服务。魏安蓉错过原休息时段不能回返，乔一诺真充电后决定不抢夜单回家。Day331 10:24仅本点保源纠公共开放时段不倒填、损失登记不强制签满意；20:16魏安蓉本人真到站登记、坐下喝温水。F003 Day331 11:32合法取得Day330 14:06窄申答复：2022-11-18 15:06关联一笔挂载任务在同日稍后有“取消”状态类别，仅知时间类别不知操作人原因附件内容字节或其它任务数；14:08问其它同键任务数量的申请仅收。2022 15:42实际导入与11/21归档第三校对本字节同一、2019双方真签封、2016回告在封和历史本人真获答未证，Day195旧拆件沈家私票独立，F008/M004/M005无新证。
+meaningful_state_changes:
+  - "白班钥匙归柜错映公众已开放本点带源纠正，21:58真开门与22:09实际服务可用严格分层，前晚未开放时段不可倒填。"
+  - "魏安蓉从白跑误工到Day331真正坐下并亲签20:16，保留原始实损；乔一诺真正充电并自主回家。"
+  - "F003获一笔挂载任务后来有取消状态类别，但不证明其它任务不存在、目标导入字节或历史原件真实性。"
+knowledge_updates:
+  - "魏安蓉只见本人实际休息、工作时段与现场真开放；乔一诺仅知本人充电和订单选择，不宣称全市站点可用。"
+  - "邵岚龚乐及街道主管各知本点归柜和真实开门/饮水条件，中心三人仅按权协调，不代双人领柜和供水资格判断。"
+  - "罗经办马芸只获任务取消的非身份事件类别，不得推取消原因、文件内容、其它任务数量或2022 15:42导入实际同字节。"
+relationship_updates:
+  - "魏安蓉对假开放质疑后因次晚真开站形成有限信任，但前晚休息时间无法补回、不签满意；骑手个人选择回家。"
+foreshadowing_updates:
+  - "F003在原创建记录外新增同任务后续取消类别，15:42源文件与11月21日归档第三校对本同一未知，2019真双方封签2016旧回告在封历史真人收答均未证；F008/M004/M005无升级。"
+ending_state: "Day331 20:16魏安蓉真正进站登记喝水，昨晚损失仍留档；档案其它同键挂载任务计数新申请待答。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "39a83876a3eea3eb8c7c83cf66228bdf678a951c", final_draft_sha: "899b1cfcd29f2dafbe878bc8ae7e3bea459e64d5", stage_a_used: 1, body_revisions: 1, predecessor_ready_blob: "376df6841d327a028d57f92f8170681b606bbfe9", fix: "前日下午更正为昨日下午", proposed_ready_blob: "candidate_pending_CI"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_pending}
+char_count: 3348

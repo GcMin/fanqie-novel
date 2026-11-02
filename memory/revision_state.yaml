@@ -1,13 +1,13 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 468
-current_stage: ready_released_exact_tree_CI_success
-current_source_path: chapters/draft/0468.md
-current_source_sha: 9d8ae809262c804f59f6387791970a959a4095f1
-current_review_path: reader_reviews/0468_9d8ae809.md
+current_chapter: 469
+current_stage: content_qa_pass_structural_pending
+current_source_path: chapters/draft/0469.md
+current_source_sha: 899b1cfcd29f2dafbe878bc8ae7e3bea459e64d5
+current_review_path: reader_reviews/0469_899b1cfc.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
@@ -3597,3 +3597,21 @@ release_468:
   ready_chapters: [468]
   ready_blobs: ["376df6841d327a028d57f92f8170681b606bbfe9"]
   body_revisions: 0
+
+chapter_469_revision:
+  chapter: 469
+  original_sha: "39a83876a3eea3eb8c7c83cf66228bdf678a951c"
+  source_sha: "899b1cfcd29f2dafbe878bc8ae7e3bea459e64d5"
+  initial_review: "reader_reviews/0469_39a83876.md"
+  final_review: "reader_reviews/0469_899b1cfc.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage: local_revision_time_reference_only
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 1
+  retry_cycles: 0
+  predecessor_ready_blob: "376df6841d327a028d57f92f8170681b606bbfe9"
+  content_qa: pass
+  structural_gate: pending_exact_candidate_CI
