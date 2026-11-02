@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 479
+title: "签收时间写得清楚，停下脚步的人却被算作迟到"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "975ce60d3c6233438626ed0b69ed234a9c5afd0d"
+source_draft_sha: "675d32068e767e184c8d4a090c54c68f1eb76505"
+initial_review: "reader_reviews/0479_975ce60d.md"
+reader_review: "reader_reviews/0479_675d3206.md"
+depends_on_chapter: 478
+depends_on_source_sha: "53647ce712e9a1359a92c3495e135fe3010b33c8"
+dependency_status: verified_predecessor_body_identical_metadata_delta_checked
+timeframe: "Day341 20:36—Day342傍晚"
+summary: >-
+  Day341 20:36便利店陈迎因前Day340白藤路救险导致两单分别22:26与22:31真正迟交，被后台自动建议个人擅离，邓芳面临顾客投诉但查清事实前不得自动扣分，郭蕊提起自己过去助客无证的情况。丁先生在门店主张真实晚到和运费补偿、不假签谅解；只提出退运费申请未证到款。21:11陈迎向中心查询自己的合法接报时点，夏宁只按权限说明中心接转报范围，周衡梁策提醒孟照秋声音及联系方式不得披露；Day342 09:18交通有权岗位依本人实名合法限项说明Day340 21:19到场、21:37专业处置和21:56合法备用路线，不证明陈迎全程在场。邓芳分开顾客实际延迟与员工个人处分，撤回后台无独立证据擅离建议和即将生效内部扣分，不改真实签收；工资最终按考勤另核。店内临时增加异常报事编号与当班调度实际知悉时点两栏，不冒称平台全局流程更改；陈迎继续送新单。F003无独立新档案来源，不由普通系统误映推F008或M004/M005。
+meaningful_state_changes:
+  - "两单真实晚到保留，平台原自动擅离建议撤销且当天未生效扣分取消，实际工资与顾客投诉仍按各自依据处理。"
+  - "陈迎仅用本人报事编号与交通有权提供的限项时点，不泄孟照秋语音或住所。"
+  - "门店本地补充报事编号和调度知悉时间字段，运费退款实际到款与薪酬最终结论仍待核。"
+knowledge_updates:
+  - "陈迎知道自己真实延误和报险范围，不把交通在场时点证明当全程无间断在场或工资裁决。"
+  - "邓芳有权撤本店内部未经证据的建议及待扣，但不能改客观实交与代平台作全局制度声明。"
+  - "丁先生知实晚到与路口报险背景，可合法要求运费申诉但未签放弃投诉。"
+relationship_updates:
+  - "陈迎与邓芳由未经核实的擅离争议转为双表核实客户交付与员工当班事实，丁先生仍保留顾客损失主张。"
+foreshadowing_updates:
+  - "F003/F008无新可靠历史材料或本人记忆矛盾证据；M004/M005不确证， ordinary auto classification is not anomalous."
+ending_state: "Day342傍晚陈迎按真实当日出货栏重新工作，旧两笔22:26/22:31实到不变，错误擅离标签已撤而工资及退款实际到账仍待有责核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "975ce60d3c6233438626ed0b69ed234a9c5afd0d", initial_counts: "0/1/2", final_draft_sha: "675d32068e767e184c8d4a090c54c68f1eb76505", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_blob: "d679973d8dee0707217d4719b53b14da3b7d79fd", predecessor_ready_blob: "53647ce712e9a1359a92c3495e135fe3010b33c8", predecessor_body_delta: "标题及小说正文逐字相同仅交付Front Matter变化", proposed_ready_blob: "93570f4915c4cb9dc1c8553788812bba6194bc47"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_required}
+char_count: 3210

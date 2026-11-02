@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 477
+last_updated_chapter: 479
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2104,4 +2104,23 @@ chapter_477_relationship_verified:
   community: "齐鸣先因原报名名单缺韩芹拒冒占最后一席，后获得吴阿姨本人真实不乘与有责调度授权，合法单列随行照护并记录15住户实乘；没有偷换或删除原吴某住户的身份。"
   workplace: "韩芹与雇主儿子仍须按实际照护/等待时点核算费用，不因楼栋停电整段倒填加班或冒称已获补偿；老人可独立决定后续服务。"
   core_team: "夏宁周衡梁策职责分离和长期信任分值不变，普通名单遗漏不构成F008新可靠本人记忆反证。"
+  trust_scores_unchanged: true
+
+chapter_478_relationship_verified:
+  chapter: 478
+  source_sha: "d679973d8dee0707217d4719b53b14da3b7d79fd"
+  blind_woman_helper: "孟照秋有自主安全通行权并要求陈迎不要拽她；陈迎确认灯色和报修、陪至合法路线起点而不代交警指挥；她主动留下报事编号可证明其真实帮助，但没有承诺代店核工时。"
+  family: "孟照秋告知妹妹今晚改袖外套可能晚送，妹妹电话担心，她拒让妹妹冒险来替灯变绿；Day341妹妹已实际取得外套。"
+  workplace: "陈迎帮助路人耽误配送，两袋货的晚到真实发生，店方是否扣分或补工时本章仍未结算。"
+  core_team: "夜间中心三人原有可信证据协作不变，公共设施普通维修案不提升F008信任疑点。"
+  trust_scores_unchanged: true
+
+chapter_479_relationship_verified:
+  chapter: 479
+  source_sha: "675d32068e767e184c8d4a090c54c68f1eb76505"
+  chen_deng: "陈迎与邓芳先争个人擅离定性，经理核实名下报事资料和真送货记录后撤待生效扣分，分表处理顾客履约与员工责任；正式工资与费用仍须按权。"
+  customer: "丁先生不接受平台或门店假填谅解，确曾等到22:26并申请运费返还，但听报险后不主张送货员冒险赶单，顾客投诉未删。"
+  colleague: "郭蕊从自身无留证受罚旧事理解陈迎保留编号和向调度报备的实际价值，不以私人人身声音替同事申辩。"
+  privacy: "陈迎尊重孟照秋并未获得她的身份音频外传许可，不把临时帮助关系转成以对方隐私为代价的工作证明。"
+  core_team: "夏宁周衡梁策原有信任分值不变，三人不代店方判责也不外泄当事人资料。"
   trust_scores_unchanged: true

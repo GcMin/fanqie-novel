@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 478
+title: "绿灯的声音还在，路口已经亮了红灯"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "d679973d8dee0707217d4719b53b14da3b7d79fd"
+reader_review: "reader_reviews/0478_d679973d.md"
+depends_on_chapter: 477
+depends_on_source_sha: "a415cbe2b112172ee741e1ae0d908640f1223cf3"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day340 20:47—Day341 20:21"
+summary: >-
+  Day340 20:47孟照秋在白藤路与锦浦街口听见人行快节奏提示而真实人行灯红且有转弯车流，陈迎喊停并留灯色视频本人录声；20:55报修页面设备“在线”并非声响与实际放行相位一致。21:04夏宁周衡梁策分源联动，21:19有责交通岗现场复核双周期红灯快声，21:37专业仅隔离该只异常音响、仍由现场护行，21:56实核北侧合法备用路线，22:08孟照秋到原公交站错过21:05车后自费出租，陈迎配送工时未决。Day341 09:44专业获权隔离测试确认前一天现场试听触发后控制板持续快音，11:06交通有权岗位凭逐周期比对只批准此方向声响恢复，其他方向未统验。20:21孟照秋持来源明确的限项恢复说明并现场确认绿灯/快音一致后本人安全过街，保留原错误提示音录音。F003无新的历史档案记录，2022“执行实例结束”事件类别无子号结果码或具体文件字节，不证2019实签封、2016旧回告在封及2022/11月21日字节同一；F008/M004/M005不升级。
+meaningful_state_changes:
+  - "人行红灯快音失同步被实地核查，在线绿勾保源纠正，受权单只音响先隔离后专业限本方向测试恢复。"
+  - "孟照秋获合法备用路线并实际再走过此路口，不以旁人搀扶或“在线”记录冒充本人安全通行。"
+  - "陈迎真正参与报险却耽误配送，本人和当事人各保有来源明确记录，工资与车费待另核。"
+knowledge_updates:
+  - "孟照秋只凭车流与他人目视知提示有误，技术原因由翌日专业有责复测才获知。"
+  - "陈迎只知自己所见红灯/快音、通话时点及真实晚送，不可以他人隐私自行对外披露。"
+  - "夏宁周衡梁策只据有源现场与有权岗位协调，不能替交通管理或专业班签设备复用。"
+relationship_updates:
+  - "孟照秋要求陈迎尊重其自主出行，陈迎协助真实报险，孟照秋认可其确实在现场帮助并愿按有权渠道证明时点。"
+foreshadowing_updates:
+  - "F003无新增独立旧史料，先前2022同任务标识执行实例结束类别不能当成功读取具体文件；F008/M004/M005不确证。"
+ending_state: "Day341 20:21孟照秋本人经实核限本方向路口安全过街，错误快音录音保留，陈迎两笔晚送与工资以及当事人出租费用仍待真实核查。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d679973d8dee0707217d4719b53b14da3b7d79fd", final_draft_sha: "d679973d8dee0707217d4719b53b14da3b7d79fd", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "a415cbe2b112172ee741e1ae0d908640f1223cf3", proposed_ready_blob: "53647ce712e9a1359a92c3495e135fe3010b33c8"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_required}
+char_count: 3464

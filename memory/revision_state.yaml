@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 477
+current_chapter: 479
 current_stage: content_qa_pass_structural_pending
-current_source_path: chapters/draft/0477.md
-current_source_sha: 61cd8884b715ce001a3b2ebcd584fda169e0badb
-current_review_path: reader_reviews/0477_61cd8884.md
+current_source_path: chapters/draft/0479.md
+current_source_sha: 675d32068e767e184c8d4a090c54c68f1eb76505
+current_review_path: reader_reviews/0479_675d3206.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter477_stage_a_prev476_draft_to_ready_rebind_new_sha_reader_and_independent_qa
+last_action: chapter478_content_pass_chapter479_stage_a_metadata_rebind_new_sha_reader_and_independent_qa
 last_action_date: "2026-11-03"
 last_error: null
-last_diff_summary: "477原SHA 267e588b初审0/1/2；476旧草稿与ready标题正文逐字一致仅交付字段不同，Stage A只改依赖SHA与详纲，正文0字修改；477新SHA 61cd8884独立Reader两遍复审0/0/2，独立QA通过，精确候选CI待核。"
+last_diff_summary: "478源 d679973d Reader0/0/2独立QA通过不改正文；479初始 975ce60d3c6233438626ed0b69ed234a9c5afd0d Reader0/1/2因为478仍为旧draft，比较478正文标题与ready逐字相同仅交付元数据后Stage A重绑478 ready 53647ce712e9a1359a92c3495e135fe3010b33c8，479新SHA 675d32068e767e184c8d4a090c54c68f1eb76505重新Reader0/0/2且独立QA PASS，479正文0字修改，精确候选结构CI待实际检验。"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: true
-current_review_source_sha: 61cd8884b715ce001a3b2ebcd584fda169e0badb
+publish_gate_passed: false
+current_review_source_sha: 675d32068e767e184c8d4a090c54c68f1eb76505
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -3780,3 +3780,41 @@ chapter_477_revision:
   predecessor_factual_delta: "小说正文标题相同仅交付Front Matter差异"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+
+chapter_478_revision:
+  chapter: 478
+  source_sha: "d679973d8dee0707217d4719b53b14da3b7d79fd"
+  final_review: "reader_reviews/0478_d679973d.md"
+  initial_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage: no_revision_needed
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  retry_cycles: 0
+  predecessor_ready_blob: "a415cbe2b112172ee741e1ae0d908640f1223cf3"
+  predecessor_factual_delta: "前章源SHA与正式ready精确相同，无版本差异"
+  content_qa: pass
+  structural_gate: exact_candidate_CI_required
+
+chapter_479_revision:
+  chapter: 479
+  original_sha: "975ce60d3c6233438626ed0b69ed234a9c5afd0d"
+  source_sha: "675d32068e767e184c8d4a090c54c68f1eb76505"
+  initial_review: "reader_reviews/0479_975ce60d.md"
+  final_review: "reader_reviews/0479_675d3206.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage: local_revision_predecessor_sha_metadata_only
+  fix: "478旧草稿与ready标题小说正文逐字相同，仅按权重绑479依赖与详纲，正文0字变化后新完整SHA独立双遍Reader"
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  retry_cycles: 0
+  predecessor_original_draft_blob: "d679973d8dee0707217d4719b53b14da3b7d79fd"
+  predecessor_ready_blob: "53647ce712e9a1359a92c3495e135fe3010b33c8"
+  predecessor_factual_delta: "标题正文完全相同，仅交付status/qa/approved_at/publish_mode"
+  content_qa: pass
+  structural_gate: exact_candidate_CI_required

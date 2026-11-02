@@ -6,9 +6,9 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "36575abebd1f562d3f10ee2bfafb40cfe48cd7b3"
 - depends_on_chapter: 478
-- depends_on_source_sha: "d679973d8dee0707217d4719b53b14da3b7d79fd"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0478.md
+- depends_on_source_sha: "53647ce712e9a1359a92c3495e135fe3010b33c8"
+- dependency_status: verified_predecessor_body_identical_metadata_delta_checked
+- predecessor_location: chapters/ready/0478.md
 - predecessor_canon_boundary: 第478章尚为未审draft；仅将Day340 20:47白藤路西侧孟照秋遭遇人行红灯持续快节奏提示、陈迎报险留证、现场岗位有限保护绕行、Day341 11:06专业限项恢复、Day341 20:21孟照秋合法真实过街、陈迎到货延时与工时核算未决作为这个版本的临时参考。若独立审核修改这些关键事实，后续Audit须复核本章衔接，不提前当作正式Canon。
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day341 20:36—Day342傍晚
@@ -56,3 +56,8 @@ Day341 20:36陈迎回便利店，前一晚两单22:26、22:31才实收，邓芳�
 ## 结尾和交付
 
 Day342傍晚，陈迎两笔历史迟到保持原真实实收时点，个人“擅离”自动建议已撤、工资和实际运费到款仍待核；门店追加限项有来源的临时补记，未冒称全体门店制度改变。仅新建本详纲及draft，等待独立Reader/Revision/QA/Memory/Publish Gate审核。正文有效字符3210。
+
+## 独立Audit Stage A｜第478章正式交付源SHA与事实差异（2026-11-03）
+
+- Writer初始版本引用478草稿Blob `d679973d8dee0707217d4719b53b14da3b7d79fd`，本轮独立Reader/QA通过的478拟ready Blob `53647ce712e9a1359a92c3495e135fe3010b33c8`；已逐字核对两者**标题和小说正文完全相同**，仅Front Matter交付status、qa、approved_at、publish_mode不同。Day340 21:19/21:37/21:56、Day341 11:06/20:21等情节事实无变化。
+- 本次479只修Front Matter引用与详纲状态，不改小说正文0字。原完整草稿 `975ce60d3c6233438626ed0b69ed234a9c5afd0d` 初审Reader A/B为0/1/2，仅MAJOR是前章源仍provisional。改后完整479草稿Blob `675d32068e767e184c8d4a090c54c68f1eb76505` **重新独立**Pass A/B为0/0/2且独立QA通过；旧Review不用于放行。结构CI必须对478/479两章、Reader/QA、Memory与唯一章计划行的同一候选Git Tree全通过，才可按序由draft共同迁入ready。
