@@ -6,10 +6,10 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "6600e6b7286e65014655d384d3b5b382e5ce15d7"
 - depends_on_chapter: 473
-- depends_on_source_sha: "586c4e23b2be392df947e72bde4593a34a4e6c93"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0473.md
-- predecessor_canon_boundary: 第473章尚为未审草稿，仅作精确版本临时连续性参考，不作已正式认可的Canon
+- depends_on_source_sha: "7df1eceea3e04bed9d959e3e4b9d2fe84aca2227"
+- dependency_status: verified_predecessor_body_identical_metadata_delta_checked
+- predecessor_location: chapters/ready/0473.md
+- predecessor_canon_boundary: 第473章已按其原草稿SHA独立完成Reader Pass A/B、Content QA；最新前章拟ready Blob与原稿逐字正文及标题一致，仅交付Front Matter变化；待精确候选CI成功后两章依序正式ready
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day335 20:31—Day336 20:18
 - title: 喷泉显示已经停机，纸灯笼还在水里漂
@@ -37,10 +37,10 @@ Day335 20:31南浦河东岸小广场，何映棠与父亲何启元守获准摆�
 - F003新增“重试执行请求已接收”有限类别，非实际执行成功或失败；2019双方真封签、2016旧回告封内、历史真人获答、2022导入与11/21第三校对本同字节均未证；Day195旧拆件沈家私票独立，F008/M004/M005未确认。
 
 ## Continuity Precheck
-- 重新列举published/ready/draft确认最大第473章；第153章已在published。第473章仅存在draft，Git Blob精确版本 586c4e23b2be392df947e72bde4593a34a4e6c93，故本章与章纲绑定dependency_status: provisional，不作正式Canon。
+- 重新列举published/ready/draft确认最大第473章；第153章已在published。第473章原草稿与拟ready小说正文逐字相同、标题相同；原稿SHA 586c4e23b2be392df947e72bde4593a34a4e6c93、ready文件SHA 7df1eceea3e04bed9d959e3e4b9d2fe84aca2227，本章经独立修订后重绑依赖，前章交付必须经精确结构CI全成功。
 - 前473章Day335 20:12戴小荻本人获青塘路真实回拨，另行骑行；本章Day335 20:31发生在独立南浦河广场，绝不把前章工时补偿、其它井口和本单报险接口全市修复当成已结案。前章F003 Day335 14:09只递交“后续重试结果事件类别”窄查，本章Day336 11:36获独立限项回复，严格不倒填审批。
 - 周衡只依工程图指出待专业核的问题；夏宁记录并联动；梁策关注避险与具名接手；夜间中心无权认停机、准复演、定赔。未审473事实仅作为临时衔接，不升级Canon。
-- 本轮为Writer情节连续性创作预检，不作Reader/Revision/QA/Memory/Publish Gate，不改既有章节或计划表。
+- Writer原预检不等于Audit；2026-11-03 Audit对第474章依赖重绑后新SHA a9ce97d596293f93524114792fa33627311da428 独立重做Reader Pass A/B，并按此最终草稿独立QA与Memory核验。
 
 ## 结尾与交付边界
 Day336 20:18私人订灯正在重做，旧受潮件保留、赔付与喷泉复演未定；F003新窄申仅收件。正文3211有效字符；仅新建本章章纲和status:draft正文，待独立Audit。

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 472
+last_updated_chapter: 474
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2059,4 +2059,22 @@ chapter_472_relationship_verified:
   neighbors: "曹叔对夜间声源生疑、翌日要从北侧运纸箱；物业以有限真实警戒与翌日有责修复复行换取具体合作，不把邻里猜测当求救已证。"
   archive: "罗经办马芸保持请求建立、读取成功与文件字节三层区分，在合法窄申下继续查状态类别，不将未见成功回执断作技术上未执行。"
   core_team: "夏宁周衡梁策夜间权限分工与长期互信分值不变，普通物理设施事件不自动升级F008异常人身记忆矛盾。"
+  trust_scores_unchanged: true
+
+chapter_473_relationship_verified:
+  chapter: 473
+  source_sha: "586c4e23b2be392df947e72bde4593a34a4e6c93"
+  rider_public_service: "戴小荻本为工时急着归库仍为险盖板停留并报险，收到假回拨而拒替总机认本人获告；程柯真接管后她撤离，次日本人回拨只认可实际本处可走，留住收入争议。"
+  workplace: "小赵知道总机自动接听，不曾代她与热线确认危险已解除；车队主管仅承诺核因报险的工时，没虚写早到与补偿已付。"
+  archive: "罗经办马芸彼此核实等待重试不是已重试、更不是失败或成功，继续以合法下一笔申请推进，不借未知文件补证。"
+  core_team: "夏宁周衡梁策按既有角色和权限配合，长期互信指标不因普通热线回访错误变化。"
+  trust_scores_unchanged: true
+chapter_474_relationship_verified:
+  chapter: 474
+  source_sha: "a9ce97d596293f93524114792fa33627311da428"
+  father_daughter: "何映棠不让父亲为抢五盏湿纸灯涉水，何启元先怕误交后接受两人按实物损坏和顾客承诺逐项记录，合力重做；承诺和真履约仍要分别记。"
+  buyer: "苏梨得知受潮后自主选延时重做并保留写平安回家的坏件，信任并非无条件满意；父女欠她的灯还在做。"
+  venue_service: "喷泉管理方不以节目结束绿字当实际停机，专业班及管理岗仅核限项公众路复开，谁承担坏灯赔付未判。"
+  archive: "罗经办马芸共同将重试请求接收和真实执行完成区别记入有源笔记，不将缺失最终记录替代事实。"
+  core_team: "夜间中心三人按分权核有责安全与来源，既有信任分值不变。"
   trust_scores_unchanged: true

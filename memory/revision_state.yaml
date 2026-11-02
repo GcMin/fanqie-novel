@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 472
+current_chapter: 474
 current_stage: content_qa_pass_structural_pending
-current_source_path: chapters/draft/0472.md
-current_source_sha: d33e6683f811f347bc9c4db42f9f0b9716090d52
-current_review_path: reader_reviews/0472_d33e6683.md
+current_source_path: chapters/draft/0474.md
+current_source_sha: a9ce97d596293f93524114792fa33627311da428
+current_review_path: reader_reviews/0474_a9ce97d5.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: prev471_final_ready_rebind_and_new_sha_double_reader_complete
-last_action_date: "2026-11-02"
+last_action: chapter474_prev473_ready_rebind_and_new_sha_double_reader_complete
+last_action_date: "2026-11-03"
 last_error: null
-last_diff_summary: "472初审0/1/2；471旧draft与ready正文逐字相同，仅标题及Front Matter异；472仅重绑前章ready并同步详纲，正文零改；新SHA d33e6683独立Reader A/B 0/0/2，内容QA通过，精确CI待验证。"
+last_diff_summary: "473原稿0/0/2无需正文修订；474原稿0/1/2因绑前473旧草稿SHA；逐字比对473原稿与ready小说正文和标题相同仅交付元数据差异，Stage A只重绑474依赖与详纲；474新SHA a9ce97d5独立Reader A/B重审0/0/2；两章独立内容QA通过，结构CI待精确提交校验。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -3682,5 +3682,41 @@ chapter_472_revision:
   predecessor_old_draft_sha: "72670341a6aa5cf261e5a80ab39dc0436223660e"
   predecessor_ready_blob: "db9d77574a83076441e6aaac5cc8183097c47f76"
   predecessor_factual_delta: "正文相同标题和Front Matter变化"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_473_revision:
+  chapter: 473
+  original_sha: "586c4e23b2be392df947e72bde4593a34a4e6c93"
+  source_sha: "586c4e23b2be392df947e72bde4593a34a4e6c93"
+  final_review: "reader_reviews/0473_586c4e23.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage: no_revision_needed
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  retry_cycles: 0
+  predecessor_ready_blob: "5a5a807d95f2fbe4f1872cbe1b4c1fa1cc15d194"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_474_revision:
+  chapter: 474
+  original_sha: "f9691eccdbdd2cbd5043512a9301b2ff8e972eee"
+  source_sha: "a9ce97d596293f93524114792fa33627311da428"
+  initial_review: "reader_reviews/0474_f9691ecc.md"
+  final_review: "reader_reviews/0474_a9ce97d5.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage: local_revision_predecessor_sha_and_metadata_only
+  fix: "前章473原draft与ready正文标题完全一致，474仅改依赖SHA和详纲，不改正文；新SHA独立A/B审查"
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  retry_cycles: 0
+  predecessor_old_draft_sha: "586c4e23b2be392df947e72bde4593a34a4e6c93"
+  predecessor_ready_blob: "7df1eceea3e04bed9d959e3e4b9d2fe84aca2227"
+  predecessor_factual_delta: "小说正文及标题相同仅交付Front Matter差异"
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required

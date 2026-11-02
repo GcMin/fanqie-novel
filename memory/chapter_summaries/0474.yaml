@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 474
+title: "喷泉显示已经停机，纸灯笼还在水里漂"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "f9691eccdbdd2cbd5043512a9301b2ff8e972eee"
+source_draft_sha: "a9ce97d596293f93524114792fa33627311da428"
+initial_review: "reader_reviews/0474_f9691ecc.md"
+reader_review: "reader_reviews/0474_a9ce97d5.md"
+depends_on_chapter: 473
+depends_on_source_sha: "7df1eceea3e04bed9d959e3e4b9d2fe84aca2227"
+dependency_status: verified_predecessor_body_identical_metadata_delta_checked
+timeframe: "Day335 20:31—Day336 20:18"
+summary: >-
+  Day335 20:31南浦河东岸小广场音乐喷泉节目虽20:00结束且公共页面称设备停机，外圈冲洗喷口仍运行，何映棠与父亲何启元的24盏纸灯中5盏见水，其中2盏落入浅槽；女儿拦父亲与追逐喷泉的孩子进入危险区域。20:43值守林越先劝退并联动有权管理及专业班；21:03夜间中心夏宁周衡梁策分别保留公开假停机状态和真实喷水/安全源，21:19有责人员实核不经过危险区的西侧合法绕行，21:28专业从安全位停外圈并隔离控制能源，21:41虽不再喷水但湿地与喷泉仍围护。22:11订客苏梨被告知可能延期，自主同意重做并保留旧写“平安回家”的受潮灯，不把未交货/未收回写成完好；夜间损失和停业登记、赔付未决。Day336 09:42专业核明节目排程结束≠外圈冲洗已停且公共页面错映，11:17仅有权恢复不积水的西侧步道、喷泉整体继续停用，两盏旧灯按许可由有责人员取回后确认订客旧灯已坏；苏梨同意新灯再做，旧灯留存。11:36罗经办马芸合法仅获前日14:09窄查范围内2022-11-18 15:42导入任务后续“重试执行请求已接收”非身份类别，不等于重试实际执行、完成/失败或文件读取字节；14:16再窄申实际执行结束事件只收件。20:18父女用干材料重做新灯未交货，账本按实19盏未售、5盏受潮待处置，赔偿未知。2019双方真签封2016回告在封历史本人真获答、2022/11/21同字节未知；Day195旧件沈家私票分源，F008/M004/M005无升级。
+meaningful_state_changes:
+  - "节目结束与外圈冲洗停机分离，专业真实停运行而管理岗仅准恢复核过的西侧步道，喷泉复演尚未批准。"
+  - "纸灯父女由冒险抢订品改为保护人身、据实登记与让苏梨决定重做/保留坏件，交货和赔付仍待核。"
+  - "F003从等待重试到重试执行请求已接收，不将接收请求冒成实际重试完成。"
+knowledge_updates:
+  - "何映棠何启元知道24原灯、5见水、19未见水及订单簿混淆，不知赔付或新灯能否准时交。"
+  - "苏梨知旧写平安回家的订灯已湿损，自主选择新做并保留旧件，仍未真领新灯。"
+  - "罗经办马芸只获重试请求接收非身份记录，不知道实际执行结果与具体旧字节。"
+relationship_updates:
+  - "何启元接受女儿先护人后按实计算损失，不再用承诺交期掩盖湿件；苏梨仍信其手艺，给半日延期但要求原字不换。"
+foreshadowing_updates:
+  - "F003新有重试执行请求已接收，但非执行成功/失败或11/21第三校对本同源证明，F008/M004/M005仍不确认。"
+ending_state: "Day336 20:18新灯正晾干，原旧灯保留但不能按原质量交，五件见水损失与停业赔偿待核；F003实际执行结束状态窄申仅收。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f9691eccdbdd2cbd5043512a9301b2ff8e972eee", initial_counts: "0/1/2", final_draft_sha: "a9ce97d596293f93524114792fa33627311da428", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, fix: "仅绑定473最终ready依赖SHA并同步详纲", predecessor_original_draft_blob: "586c4e23b2be392df947e72bde4593a34a4e6c93", predecessor_ready_blob: "7df1eceea3e04bed9d959e3e4b9d2fe84aca2227", predecessor_body_delta: "小说正文及标题完全相同仅交付Front Matter变化", proposed_ready_blob: "c67f5994ed787ab440e38afe873bbf85d2bcb83d"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3211

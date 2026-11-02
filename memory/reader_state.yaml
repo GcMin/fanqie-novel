@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 472
-last_reviewed_title: "墙上的哨声停了，母亲却留下那段录音"
-last_source_path: chapters/draft/0472.md
-last_source_sha: d33e6683f811f347bc9c4db42f9f0b9716090d52
-last_review_path: reader_reviews/0472_d33e6683.md
-last_reviewed_at: "2026-11-02"
+last_reviewed_chapter: 474
+last_reviewed_title: "喷泉显示已经停机，纸灯笼还在水里漂"
+last_source_path: chapters/draft/0474.md
+last_source_sha: a9ce97d596293f93524114792fa33627311da428
+last_review_path: reader_reviews/0474_a9ce97d5.md
+last_reviewed_at: "2026-11-03"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 471
-depends_on_source_sha: db9d77574a83076441e6aaac5cc8183097c47f76
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 3e3ec0ebf9152522869ff1a688a95fe48b40fcbe
+depends_on_chapter: 473
+depends_on_source_sha: 7df1eceea3e04bed9d959e3e4b9d2fe84aca2227
+dependency_status: verified_predecessor_body_identical_metadata_delta_checked
+predecessor_current_source_sha: 7df1eceea3e04bed9d959e3e4b9d2fe84aca2227
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -4242,6 +4242,43 @@ chapter_472_review:
   predecessor_old_draft_sha: "72670341a6aa5cf261e5a80ab39dc0436223660e"
   predecessor_ready_blob: "db9d77574a83076441e6aaac5cc8183097c47f76"
   predecessor_body_delta: "正文完全相同仅标题坡道改通道和Front Matter差异"
+  dependency_status: verified_predecessor_body_identical_metadata_delta_checked
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_473_review:
+  chapter: 473
+  title: "电话说已经回访，她还守着那块松动的盖板"
+  source_path: chapters/draft/0473.md
+  original_sha: "586c4e23b2be392df947e72bde4593a34a4e6c93"
+  source_sha: "586c4e23b2be392df947e72bde4593a34a4e6c93"
+  review_path: "reader_reviews/0473_586c4e23.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  independent_pass_a_then_b: true
+  required_action: none
+  local_revision_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "5a5a807d95f2fbe4f1872cbe1b4c1fa1cc15d194"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_474_review:
+  chapter: 474
+  title: "喷泉显示已经停机，纸灯笼还在水里漂"
+  source_path: chapters/draft/0474.md
+  original_sha: "f9691eccdbdd2cbd5043512a9301b2ff8e972eee"
+  initial_review: "reader_reviews/0474_f9691ecc.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "a9ce97d596293f93524114792fa33627311da428"
+  final_review: "reader_reviews/0474_a9ce97d5.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  independent_pass_a_then_b: true
+  required_action: none
+  local_revision_used: 1
+  body_revisions: 0
+  predecessor_old_draft_sha: "586c4e23b2be392df947e72bde4593a34a4e6c93"
+  predecessor_ready_blob: "7df1eceea3e04bed9d959e3e4b9d2fe84aca2227"
+  predecessor_body_delta: "正文逐字一致且标题一致，仅交付Front Matter差异"
   dependency_status: verified_predecessor_body_identical_metadata_delta_checked
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
