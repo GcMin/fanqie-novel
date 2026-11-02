@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 465
-last_reviewed_title: "屋顶的维修单签了字，水还在缝纫机旁滴"
-last_source_path: chapters/draft/0465.md
-last_source_sha: 5962708179a9a6692d0879a3cb6ff7b10621b1ee
-last_review_path: reader_reviews/0465_59627081.md
+last_reviewed_chapter: 466
+last_reviewed_title: "吊篮显示已经收回，两个人还悬在八楼外"
+last_source_path: chapters/draft/0466.md
+last_source_sha: 0dd43b761c9949e4713d9f4f23cfe2f18d9f5985
+last_review_path: reader_reviews/0466_0dd43b76.md
 last_reviewed_at: "2026-11-02"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -4087,3 +4087,15 @@ release_464_465:
   ready_chapters: [464, 465]
   ready_blobs: ["575761ea7395ea6038d6ce624efef1f701e007ad", "917cb6cd97f135384eb0843a535ea2c79c08533b"]
   body_revisions: 0
+
+chapter_466_review:
+  chapter: 466
+  source_sha: "0dd43b761c9949e4713d9f4f23cfe2f18d9f5985"
+  review_path: "reader_reviews/0466_0dd43b76.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  independent_pass_a_then_b: true
+  required_action: none
+  predecessor_ready_blob: "917cb6cd97f135384eb0843a535ea2c79c08533b"
+  predecessor_body_delta: exact_ready_sha_no_old_reference
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required

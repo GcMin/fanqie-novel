@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 466
+title: "吊篮显示已经收回，两个人还悬在八楼外"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "0dd43b761c9949e4713d9f4f23cfe2f18d9f5985"
+reader_review: "reader_reviews/0466_0dd43b76.md"
+depends_on_chapter: 465
+depends_on_source_sha: "917cb6cd97f135384eb0843a535ea2c79c08533b"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day327 20:38—Day328 20:17"
+summary: >-
+  Day327 20:06东篱路旧电影厅外墙吊篮停滞，20:38许婉见两工人仍悬八楼且19:58公众告示误写设备已回收，阻老范烤红薯车进危险区。20:46活动中心有责封控并通知专业救援及消防；21:02夜间中心夏宁周衡梁策分开任务结束绿屏与真实两人被困、只做权限内协调。21:51陈穗及22:09叶仲平依专业实际转移至安全位并获必要身体评估；班组长汪进请按19:58补签被拒，实际工时与责任待核。Day328 09:20专业核出19:58只是排程班次任务结束被对外误映为吊篮已收回与公众可通行，设备20:06停滞的机械原因另查；10:41本次撤假告示保原日志，外墙仍封、吊篮停用待有资质检查。许婉只交地面拾扣位置时间不推原件来源。F003 11:37合法仅得2022-11-18 15:06工作目录占位关联的容器登记事件号，无可核附件清单、字节/独立校验；不证15:42导入读取版或11/21第三校对本同一性，12:18新非身份附件数量申请仅收。Day328 20:17叶仲平家中仍在休养，与女儿叶茴不代签作业卡相映，亲笔写实际到家时点。2019双向真正签封、2016旧回告在封及历史真人获答皆未证，Day195旧件沈家私票分源，F008/M004/M005无证。
+meaningful_state_changes:
+  - "两名吊篮工人经专业真实获救，地面危险区依法重新受控；后台完工告示撤回但涉事吊篮持续停用，非全面修复。"
+  - "叶仲平拒绝倒签错误19:58下班时点，将真实加班和返家时间留作有源记录，班组责任另核。"
+  - "F003新增目录容器关联事件编号，未获得附件级字节真实性或历史原封证明。"
+knowledge_updates:
+  - "许婉只知发现人和塑料扣落地位置，不知其来自何设备；叶仲平陈穗只知本人滞留、被救及真实时点，后续检查/责任未判。"
+  - "夏宁周衡梁策只知分源公众提示、现场回告及专业救援，不代高处技术判断；罗经办马芸只获后期容器登记非身份元数据。"
+relationship_updates:
+  - "叶仲平和汪进由补签要求转为明确拒绝失实记录，真实工时与报酬仍待独立核算；女儿叶茴不代签实践卡促他记录真实到家时间。"
+foreshadowing_updates:
+  - "F003 2022-11-18 15:06目录占位关联事件号类别为目录容器登记，未获可独立核附件及字节证据；2019真封口/2016旧纸/历史真人受答及F008/M004/M005继续未证。"
+ending_state: "Day328 20:17叶仲平在家休养、真实返家时点已记录；吊篮继续停用，原公众错误公告有源更正；档案新限项申请仅收件。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0dd43b761c9949e4713d9f4f23cfe2f18d9f5985", final_draft_sha: "0dd43b761c9949e4713d9f4f23cfe2f18d9f5985", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "917cb6cd97f135384eb0843a535ea2c79c08533b", proposed_ready_blob: "999b4bb8938d663447afa2ba0c05e1fa223dd8a2"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3265

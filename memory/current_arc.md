@@ -1,3 +1,9 @@
+# 第466章ARC-054审核通过的有界事实（候选正式放行须精确CI）
+- 第466章源草稿 `0dd43b761c9949e4713d9f4f23cfe2f18d9f5985` 依赖前465 ready `917cb6cd97f135384eb0843a535ea2c79c08533b` **SHA精确匹配**，独立Reader双遍0 BLOCKER/0 MAJOR/2 MINOR，正文0字修改；Continuity/Style/Meaningful QA PASS，3265有效字，拟ready blob `999b4bb8938d663447afa2ba0c05e1fa223dd8a2`。结构gate仍须精确候选Commit在Actions完成单测与`publisher.check_local`后才能更新main。
+- Day327 20:06东篱路旧电影厅吊篮停滞两人，被19:58排程任务结束绿字误映公众已收回；20:38许婉目击、20:46街边重封，21:51陈穗与22:09叶仲平真经专业救援转移，非专业人员不触控制器。汪进请求19:58补签被拒，实际工时与责任待核；Day328 10:41只撤本次公众假收篮提示并保留原日志、吊篮停用待专业调查。许婉拾到塑料扣的来源仍未知，工人健康恢复未获完全核准，Day328 20:17父女用真实劳动卡与返家记录收束。
+- F003 Day328 11:37仅合法取得2022-11-18 15:06工作目录占位关联的**目录容器登记**事件编号，尚无许可确认的附件清单、字节量或独立校验，未证15:42所读文件版与11/21第三校对本同一性；12:18再申请非身份附件数量仅收件。2019旧封双方实签、2016回告是否在封、历史本人真正获答未证，Day195旧拆物沈家私人票分源，F008/M004/M005不确证。
+- 上述为内容审查候选阶段事实，不以Reader/内容QA伪称结构CI已完成或main已正式放行。
+
 # 第464—465章正式main放行精确CI证据｜2026-11-02
 - 候选/正式main共用Commit `6611ba96cfea20434d8214ec30c25dff95665d73`，audit分支CI `41399839871` SUCCESS，main CI `41399924740` SUCCESS，精确checkout单元测试和`python -m publisher.check_local --repo .`均通过。main更新`expected_sha=7859ed71e87ee81c9b738af8f0d48b04ef2c9fa9`、`force:false`成功。
 - 正式ready第464章Blob `575761ea7395ea6038d6ce624efef1f701e007ad`，第465章 `917cb6cd97f135384eb0843a535ea2c79c08533b`；两份draft已删除。464原SHA `0445868d8d34060ac522fb12a6e96a33b075bf47` Reader0/0/2 QA PASS无需修订；465原稿 `0549b7482b79e0677ab17322e90fed55679284f1` Reader0/1/2仅前章临时SHA，Stage A重绑后新稿SHA `5962708179a9a6692d0879a3cb6ff7b10621b1ee` Reader0/0/2、独立QA PASS，正文两章均未改。
