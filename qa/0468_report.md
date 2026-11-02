@@ -11,3 +11,8 @@
 - **Meaningful PASS**：疏散障碍移除与合规存车实际交付、专业修门局部完成和错误状态映射分源纠错、家族照护合作转变、F003获得新的事件类型。
 - **长期Memory/计划要求**：第468章摘要、人物/知识/关系/世界、F003、时间线、当前弧与`plans/chapter_plan.csv`均须以本章真实正文逐项落盘，完整保留已有ready计划行。
 - **结构门禁**：本报告只证明**内容QA PASS**，不等于已经执行结构校验。拟ready Blob `376df6841d327a028d57f92f8170681b606bbfe9`。仅当包含以上文件的**精确候选Git Commit**经真实GitHub Actions同时运行`python -m unittest discover -s tests -p test_check_local.py -v`及`python -m publisher.check_local --repo .`并明确SUCCESS、main HEAD未变，才允许本章正式从draft原子迁入ready。未经CI前绝不伪称正式放行。
+## 第468章正式结构门禁实证｜2026-11-02
+- **正式进入main的Commit**：`6b9283fa8d1d73915c12fb89f9a46665789a3a6f`；独立候选工作树SHA `40e49497fa0c844aa755ff8ce3179142254d6803`，前章467的正式ready SHA `3e3ec0ebf9152522869ff1a688a95fe48b40fcbe` 精确匹配。含ready正文、全部Memory、Foreshadowing、章节计划和独立报告的同一树经成功结构验证。
+- **可核 CI**：候选PR #11 GitHub Actions `41419924429` **SUCCESS**，job `125192736525`，包含`Test offline snapshot validation`与`Validate this checkout without Git Sync or publishing`均**SUCCESS**；日志里`Checked commit: 57008291aa52f16a9893e4bb0ecba6dc12f9336c`为PR自动合并提交。独立核验该PR CI的Git Tree `40e49497fa0c844aa755ff8ce3179142254d6803` **逐字节SHA等于**拟推进main的直接候选Commit `6b9283fa8d1d73915c12fb89f9a46665789a3a6f`之Tree `40e49497fa0c844aa755ff8ce3179142254d6803`（两者父提交不同，**不伪称测试提交SHA等于候选SHA**）。
+- main在expected_sha `2af3d5fd51d4693ac82bad99d1c63c1379e82e85` 未变时使用`force:false`推进至`6b9283fa8d1d73915c12fb89f9a46665789a3a6f`成功；正式`chapters/ready/0468.md` Git Blob `376df6841d327a028d57f92f8170681b606bbfe9`，原`draft/0468.md`在同树删除。Reader 0/0/2、QA PASS、小说正文0修改、内存计划同树校验均具实际证据。
+- 本附录属于事后审计记录，不修改小说正文或原Reviewer结果。原上段“结构CI尚未验证”是候选时历史状态，已经由以上实证覆盖。

@@ -4144,4 +4144,16 @@ chapter_468_review:
   predecessor_ready_blob: "3e3ec0ebf9152522869ff1a688a95fe48b40fcbe"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_tree_CI_success_PR41419924429
+release_468:
+  candidate_commit: "6b9283fa8d1d73915c12fb89f9a46665789a3a6f"
+  candidate_tree: "40e49497fa0c844aa755ff8ce3179142254d6803"
+  pr_validation_run: 41419924429
+  pr_validation_checkout_commit: "57008291aa52f16a9893e4bb0ecba6dc12f9336c"
+  exact_tree_verified: true
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  chapters: [468]
+  ready_blobs: ["376df6841d327a028d57f92f8170681b606bbfe9"]
+  body_revisions: 0

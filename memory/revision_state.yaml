@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 468
-current_stage: content_qa_pass_structural_CI_pending
+current_stage: ready_released_exact_tree_CI_success
 current_source_path: chapters/draft/0468.md
 current_source_sha: 9d8ae809262c804f59f6387791970a959a4095f1
 current_review_path: reader_reviews/0468_9d8ae809.md
@@ -12,13 +12,13 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: content_qa_pass_structural_CI_pending
+last_action: ready_released_exact_tree_CI_success
 last_action_date: "2026-11-02"
 last_error: null
-last_diff_summary: "468 Reader 0/0/2 and Continuity/Style/Meaningful QA pass, body unchanged, predecessor exact 3e3ec0ebf9152522869ff1a688a95fe48b40fcbe, proposed ready 376df6841d327a028d57f92f8170681b606bbfe9; structural CI pending."
+last_diff_summary: "468 Reader 0/0/2 and content QA pass, body unchanged, exact predecessor ready, PR tree-identical CI 41419924429 success, main 6b9283fa8d1d73915c12fb89f9a46665789a3a6f expected_sha force:false, ready blob 376df6841d327a028d57f92f8170681b606bbfe9."
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: false
+publish_gate_passed: true
 current_review_source_sha: 9d8ae809262c804f59f6387791970a959a4095f1
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
@@ -3583,4 +3583,17 @@ chapter_468_revision:
   body_revisions: 0
   predecessor_ready_blob: "3e3ec0ebf9152522869ff1a688a95fe48b40fcbe"
   content_qa: pass
-  structural_gate: exact_candidate_commit_CI_required
+  structural_gate: exact_tree_CI_success_PR41419924429
+release_468:
+  candidate_commit: "6b9283fa8d1d73915c12fb89f9a46665789a3a6f"
+  candidate_tree: "40e49497fa0c844aa755ff8ce3179142254d6803"
+  pr_validation_run: 41419924429
+  pr_validation_checkout_commit: "57008291aa52f16a9893e4bb0ecba6dc12f9336c"
+  exact_tree_verified: true
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  status: ready
+  main_ref_update: expected_sha_force_false_success
+  ready_chapters: [468]
+  ready_blobs: ["376df6841d327a028d57f92f8170681b606bbfe9"]
+  body_revisions: 0

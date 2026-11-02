@@ -29,6 +29,6 @@ foreshadowing_updates:
 ending_state: "Day330 20:09林柚凭据取车后仍按许可室登记使用，宋柏旧木架回到家内；单点门实测可闭合但其它门信号映射待核；档案任务结果状态新申请仅收件。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "9d8ae809262c804f59f6387791970a959a4095f1", final_draft_sha: "9d8ae809262c804f59f6387791970a959a4095f1", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "3e3ec0ebf9152522869ff1a688a95fe48b40fcbe", proposed_ready_blob: "376df6841d327a028d57f92f8170681b606bbfe9"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_tree_CI_success_PR41419924429}
 char_count: 3391
-release_evidence: {ready_blob: "376df6841d327a028d57f92f8170681b606bbfe9", candidate_ci: pending, publisher_check_local: pending, structural_unit_tests: pending, main_ref_update: pending}
+release_evidence: {candidate_commit: "6b9283fa8d1d73915c12fb89f9a46665789a3a6f", exact_tree: "40e49497fa0c844aa755ff8ce3179142254d6803", validated_pr_merge_commit: "57008291aa52f16a9893e4bb0ecba6dc12f9336c", validated_pr_merge_tree: "40e49497fa0c844aa755ff8ce3179142254d6803", candidate_ci: 41419924429, candidate_ci_conclusion: success, structural_unit_tests: pass, publisher_check_local: pass, main_ref_update: expected_sha_force_false_success, ready_blob: "376df6841d327a028d57f92f8170681b606bbfe9"}
