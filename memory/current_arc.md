@@ -1,3 +1,7 @@
+# 第481章独立Reader及Continuity/Style/Meaningful内容QA｜2026-11-03（候选结构门禁待核）
+- 对`chapters/draft/0481.md`原始Git Blob `46ee512c335ff1fd588b6ce9413a9744d6cbf4de`依次完成独立普通读者Pass A和Canon/事实Pass B，最终0 BLOCKER/0 MAJOR/2 MINOR，keep/none，无须修订且正文0字改动。当前章直接依赖第480章正式ready Blob `d4771d4300bbbd81217a76e333be2d9fdafa5c5c`，源SHA精确一致，前章无旧→新未核事实差异。内容Continuity/Style/Meaningful QA均PASS；完整结构放行**必须以同一候选Commit的CI实际成功为准**，未成功之前不得宣称正式ready。
+- Day343 20:26新活动室借书父子问旧馆资料是否全移交，季唯许汀说明旧十箱真到、第十一箱Day343真签和第十二箱受控检查尚未验收。Day344 08:43有责纸品人员限权检查第十二箱、分项记录受潮纸套及两组粘连旧页，11:22见一张似大前轮小后轮的旧卡铅笔画，因姓名栏遮挡不辨旧借阅者；缪芸只记相似而不替原持有人认领，志愿者未经授权不可公开旧姓名/电话/借阅轨迹。季唯补交误扫码源事实、主管仅收件，17:18公众告示改分项说明，系统更正批准与短管永久修复仍未结；19:42父子新画轮子不等于旧卡本人。F003无历史新来源，F008/M004/M005不新增确证。
+
 # 第468章正式main放行：相同Git Tree已通过精确内容结构CI｜2026-11-02
 - 正式放行Commit `6b9283fa8d1d73915c12fb89f9a46665789a3a6f`，Git Tree `40e49497fa0c844aa755ff8ce3179142254d6803`；PR #11 Actions `41419924429` **SUCCESS**（结构单测、`python -m publisher.check_local --repo .`）。CI实际checkout合并Commit `57008291aa52f16a9893e4bb0ecba6dc12f9336c` 的Git Tree为同一 `40e49497fa0c844aa755ff8ce3179142254d6803`，与直接放行Commit快照精确一致，并非声称两个Commit SHA相同。main此前为 `2af3d5fd51d4693ac82bad99d1c63c1379e82e85`，使用`expected_sha`、`force:false`更新到`6b9283fa8d1d73915c12fb89f9a46665789a3a6f`成功。
 - 0468正式ready Blob `376df6841d327a028d57f92f8170681b606bbfe9`，原draft已删除；独立Reader Pass A/B 0/0/2、Continuity/Style/Meaningful QA PASS、3391有效字符、正文0字修改。前467 ready SHA精确匹配，Memory、Foreshadowing、计划同release候选Tree已通过结构CI。下方“候选结构CI待验”为已完成之前的历史提醒。
