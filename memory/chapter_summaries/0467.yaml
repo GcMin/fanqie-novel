@@ -31,5 +31,6 @@ foreshadowing_updates:
 ending_state: "Day329 20:11第四笔退款已按客人本人意思提交申请但未到账；南段安全复行、经营损失只收件未赔、历史附件类型新申请待答。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "ff079acce562bda2ae8213e4b7dfe0b9418d004c", final_draft_sha: "ff079acce562bda2ae8213e4b7dfe0b9418d004c", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "999b4bb8938d663447afa2ba0c05e1fa223dd8a2", proposed_ready_blob: "3e3ec0ebf9152522869ff1a688a95fe48b40fcbe"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_success}
 char_count: 3325
+release_evidence: {candidate_commit: "64f72c488fd9c71f38d8e21c87dd43c4d866837c", candidate_ci: 41412507219, main_ci: 41412568796, ready_blob: "3e3ec0ebf9152522869ff1a688a95fe48b40fcbe", publisher_check_local: pass, structural_unit_tests: pass, main_ref_update: expected_sha_force_false_success}

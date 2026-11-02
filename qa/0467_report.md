@@ -11,3 +11,9 @@
 - **Meaningful PASS**：油污路段有责清理与复核开放、群级接收错映个人已读的机制得到限定纠错、经营与四笔订单有真实分流后果；F003获“字段不存在”有来源新边界。
 - **长期Memory和计划同步**：对应`chapter_summaries`、character/knowledge/relationship/world/timeline、F003与`chapter_plan.csv`均须与本章ready候选置于同一Git树，既有ready计划行不可删除或修改。
 - **结构门禁**：内容QA **PASS**，但本报告创建时尚未执行针对精确候选Commit的GitHub Actions结构单元测试和`python -m publisher.check_local --repo .`。若CI没有实际SUCCESS，必须保留候选、不得更新main或称ready正式放行。预计ready blob `3e3ec0ebf9152522869ff1a688a95fe48b40fcbe`，应以Git实算再次核对。
+
+## 第467章精确版本结构门禁与正式main放行实证｜2026-11-02
+- **正式放行Commit**：`64f72c488fd9c71f38d8e21c87dd43c4d866837c`，父提交`44350280ed421554ffeeb723c519bfa922cad2be`，先在`audit/ready-0467-20261102-1611`候选分支执行GitHub Actions `41412507219` **SUCCESS**，其精确checkout的`Test offline snapshot validation`与`Validate this checkout without Git Sync or publishing`（`python -m publisher.check_local --repo .`）均 **SUCCESS**。
+- 先读取main并确认旧HEAD未变化，随后以`expected_sha=44350280ed421554ffeeb723c519bfa922cad2be`、`force:false`将main非强制推进到同一Commit；main GitHub Actions `41412568796` **SUCCESS**，其中结构单元测试与离线结构校验均通过。
+- 第467章正式ready文件`chapters/ready/0467.md` Git Blob `3e3ec0ebf9152522869ff1a688a95fe48b40fcbe`，原`chapters/draft/0467.md`已在同树删除。原稿SHA `ff079acce562bda2ae8213e4b7dfe0b9418d004c`双遍Reader 0 BLOCKER/0 MAJOR/2 MINOR，独立Continuity/Style/Meaningful内容QA PASS；小说正文0字修改，ready仅交付元数据更新。Memory、Foreshadowing、计划CSV与ready同一已校验树。
+- 之前报告里“须结构CI验证”是候选阶段历史门槛，现由以上真实精确Commit/CI成功记录覆盖。未修改Canon/published正文、未发布平台、未动定时任务。

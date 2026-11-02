@@ -1,3 +1,7 @@
+# 第467章精确Git候选CI与正式main放行｜2026-11-02
+- 候选/正式main共同Commit `64f72c488fd9c71f38d8e21c87dd43c4d866837c`，审计分支CI `41412507219`与main CI `41412568796`均已 **SUCCESS**；精确checkout运行结构单元测试和`python -m publisher.check_local --repo .`均成功。原draft `ff079acce562bda2ae8213e4b7dfe0b9418d004c`双遍Reader 0/0/2、独立Continuity/Style/Meaningful QA PASS，正文0改。
+- 第467章正式 `ready` Git Blob `3e3ec0ebf9152522869ff1a688a95fe48b40fcbe`，原draft已删除；原466正式ready blob `999b4bb8938d663447afa2ba0c05e1fa223dd8a2`与依赖SHA精确匹配。当前Ready/Memory/F003/计划表在同一候选树经真实CI验证，main非强制更新`expected_sha`成功；没有放行阻塞。具体逐条证据见`qa/0467_report.md`。
+
 # 第466章精确版本结构校验与main正式放行｜2026-11-02
 - Commit `4d4a80a8bdf70fecc0513a8989b87c44b48c27f0`候选分支Actions `41405521427`、main Actions `41405599733`均SUCCESS，同SHA checkout的结构单元测试与`python -m publisher.check_local --repo .`均PASS。第466章正式ready Blob `999b4bb8938d663447afa2ba0c05e1fa223dd8a2`，draft已删除；Reader0/0/2、独立QA PASS、长期Memory和计划均在正式放行commit同一树，小说正文0改。下方“候选CI待验”内容为历史阶段提醒，现已由真实CI和main更新实证覆盖。
 

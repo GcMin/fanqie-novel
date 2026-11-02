@@ -1,3 +1,6 @@
+## 第467章精确Git结构CI完成并正式ready｜2026-11-02
+正式Commit `64f72c488fd9c71f38d8e21c87dd43c4d866837c`（父`44350280ed421554ffeeb723c519bfa922cad2be`），审计分支CI `41412507219`、main CI `41412568796`全部SUCCESS，精确checkout执行结构单元测试和`python -m publisher.check_local --repo .`均PASS；以expected_sha/force:false正式推进main。ready Blob `3e3ec0ebf9152522869ff1a688a95fe48b40fcbe`，原draft已删除；原稿`ff079acce562bda2ae8213e4b7dfe0b9418d004c` Reader双遍0/0/2、独立内容QA PASS、小说正文0字修改，前466依赖精确。Day328夜市群级已读被错映四十七名个体、九摊实际安全清场后22:08清洗且22:52准行；赔偿待核。Day329逐笔订单第三笔仅拟新下单第四笔只申退款未到账；F003合法新知旧2022容器级事件不采集附件数量，不能从空字段推零附件或有附件，挂载/解包类型申请仅收件；2019/2016旧人真实答复及F008/M004/M005继续无证。
+
 ## 第466章精确Git结构检查通过并正式ready｜2026-11-02
 - 候选/正式main同一Commit `4d4a80a8bdf70fecc0513a8989b87c44b48c27f0`，审计分支Actions `41405521427` SUCCESS、main Actions `41405599733` SUCCESS，包含`python -m publisher.check_local --repo .`与结构单元测试在精确checkout的PASS；main用expected_sha及force:false更新。ready Blob `999b4bb8938d663447afa2ba0c05e1fa223dd8a2`，草稿已删除，Reader0/0/2、独立内容QA PASS、小说正文0改，前章依赖精确。下方候选态的“CI待验”历史提示现已由实际成功证据覆盖。
 

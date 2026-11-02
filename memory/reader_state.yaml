@@ -4122,3 +4122,13 @@ chapter_467_review:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_commit_CI_required
+release_467:
+  candidate_commit: "64f72c488fd9c71f38d8e21c87dd43c4d866837c"
+  candidate_ci: 41412507219
+  main_ci: 41412568796
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  chapters: [467]
+  ready_blobs: ["3e3ec0ebf9152522869ff1a688a95fe48b40fcbe"]
+  body_revisions: 0
