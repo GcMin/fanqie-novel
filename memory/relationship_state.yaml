@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 463
+last_updated_chapter: 465
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1980,4 +1980,18 @@ chapter_463_relationship_verified:
   service_relationship: "何明利不以闸口绿字敷衍家属，向祝盼展示有限可核纸本且记录她对真人回告的要求；物业人工巡查只覆盖本东门，不自称全小区已修。"
   core_team: "三位夜班同事只围绕职责协调，信任数值未改变。"
   archive: "罗经办马芸共同谨慎区分后期索引同步批次与历史实际使用凭据，不就2019/2016旧原件越权推断。"
+  trust_scores_unchanged: true
+chapter_464_relationship_verified:
+  chapter: 464
+  source_sha: "0445868d8d34060ac522fb12a6e96a33b075bf47"
+  father_daughter: "方明元误信已发水系统通知、没看到女儿两趟爬六楼，Day326看到真实剩水和粥饭后承认未见她搬水，转而先照顾她吃饭。"
+  service_relationship: "石垒、陈娟和叶竹分别坚持车辆合法路线、实物和发放岗逐户记录，不替未到的住户签收。"
+  core_team: "夜间中心仅协调真实来源和有权安全处置，既有核心三人信任数值不变。"
+  trust_scores_unchanged: true
+chapter_465_relationship_verified:
+  chapter: 465
+  source_sha: "5962708179a9a6692d0879a3cb6ff7b10621b1ee"
+  master_apprentice: "关颂从想以已完成稳住婚礼客人转为真实告知未完西装和转店选择；安玉枝承认先安全后交付更妥，师徒不赌湿电气赶工。"
+  service_relationship: "客人本人核衣和取走，不被代签全部修补合格；物业承认仓储到料签收不是房顶完工，保留错绿回执。"
+  archive: "罗经办马芸共同坚持目录占位不等附件文件实际接收。"
   trust_scores_unchanged: true

@@ -6,9 +6,9 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "1a7f29f0493949cac19d7c1fd481912aa5d7ea31"
 - depends_on_chapter: 464
-- depends_on_source_sha: "0445868d8d34060ac522fb12a6e96a33b075bf47"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0464.md
+- depends_on_source_sha: "575761ea7395ea6038d6ce624efef1f701e007ad"
+- dependency_status: verified_predecessor_factual_delta_checked
+- predecessor_location: chapters/ready/0464.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day326 20:46—Day327 20:16
 - pov: 安玉枝、关颂贴近第三人称；夏宁、周衡、梁策在夜间中心有限联动；罗经办与马芸依限定阅档许可行动
@@ -29,7 +29,7 @@ Day326傍晚青槐巷修补铺仍有真实屋面渗漏，店内灯具及老缝�
 
 ## Precheck：继承事实、未证信息与状态变化
 - 直接前章第464章Day326 20:18仅云桂新村四号楼本立管真复水，供水车实发与平台假通知另有来源；本章为青槐巷不同地点、不同责任单位的新事件，不能据相似映射宣称跨平台同一根因。
-- 若464处于draft，依赖其来源blob为临时事实，尚非正式Canon。独立Audit应依本计划保存的40位SHA核最终版是否影响Day326时序。
+- Audit已比较464原draft 0445868d8d34060ac522fb12a6e96a33b075bf47与拟ready 575761ea7395ea6038d6ce624efef1f701e007ad：小说正文逐字一致，仅Front Matter交付元数据变化；465仅重绑前章依赖，正文未改；新SHA 5962708179a9a6692d0879a3cb6ff7b10621b1ee已独立双遍Reader审查。
 - 本章变化：住户不再被代签无渗漏，婚礼西装客人获得自主决定权且安全实取，师徒调整赶单原则；有权单位仅限定维修，经济与受损范围待核。
 - F003只新增后期资料“目录占位”登记存在，不等同具体文件已接收或历史原件真相。2019旧封双人真签、2016旧回告是否在封、历史本人是否真获答仍未知；Day195旧拆三物与沈家私人票不合并，F008无新符合标准样本，M004/M005不得成立。
 

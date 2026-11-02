@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 463
-last_reviewed_title: "闸杆抬了，救护车还堵在转弯口"
-last_source_path: chapters/draft/0463.md
-last_source_sha: 1f7ba37d02b9d1171848619a8f0e09da977b65f6
-last_review_path: reader_reviews/0463_1f7ba37d.md
+last_reviewed_chapter: 465
+last_reviewed_title: "屋顶的维修单签了字，水还在缝纫机旁滴"
+last_source_path: chapters/draft/0465.md
+last_source_sha: 5962708179a9a6692d0879a3cb6ff7b10621b1ee
+last_review_path: reader_reviews/0465_59627081.md
 last_reviewed_at: "2026-11-02"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 462
-depends_on_source_sha: 2fa9877db188142fd5949242043ed950333c978e
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 2fa9877db188142fd5949242043ed950333c978e
+depends_on_chapter: 464
+depends_on_source_sha: 575761ea7395ea6038d6ce624efef1f701e007ad
+dependency_status: verified_predecessor_factual_delta_checked
+predecessor_current_source_sha: 575761ea7395ea6038d6ce624efef1f701e007ad
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -4051,3 +4051,28 @@ release_463:
   main_ref_update: expected_sha_force_false_success
   chapters: [463]
   ready_blobs: ["2d43e882ea46cb74b37fca5a3a3a51582f89c55d"]
+chapter_464_review:
+  chapter: 464
+  source_sha: "0445868d8d34060ac522fb12a6e96a33b075bf47"
+  review_path: "reader_reviews/0464_0445868d.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  independent_pass_a_then_b: true
+  predecessor_ready_blob: "2d43e882ea46cb74b37fca5a3a3a51582f89c55d"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+chapter_465_review:
+  chapter: 465
+  original_sha: "0549b7482b79e0677ab17322e90fed55679284f1"
+  initial_review_path: "reader_reviews/0465_0549b748.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "5962708179a9a6692d0879a3cb6ff7b10621b1ee"
+  review_path: "reader_reviews/0465_59627081.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  independent_pass_a_then_b: true
+  local_revision_used: 1
+  body_revisions: 0
+  predecessor_original_draft_blob: "0445868d8d34060ac522fb12a6e96a33b075bf47"
+  predecessor_ready_blob: "575761ea7395ea6038d6ce624efef1f701e007ad"
+  predecessor_body_delta: none
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required

@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 465
+title: "屋顶的维修单签了字，水还在缝纫机旁滴"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "0549b7482b79e0677ab17322e90fed55679284f1"
+source_draft_sha: "5962708179a9a6692d0879a3cb6ff7b10621b1ee"
+initial_review: "reader_reviews/0465_0549b748.md"
+reader_review: "reader_reviews/0465_59627081.md"
+depends_on_chapter: 464
+depends_on_source_sha: "575761ea7395ea6038d6ce624efef1f701e007ad"
+dependency_status: verified_predecessor_factual_delta_checked
+timeframe: "Day326 20:46—Day327 20:16"
+summary: >-
+  Day326 20:46青槐巷修补铺屋顶真漏向灯具和缝纫机，公众却将17:45防水卷材仓储签字误映19:40全部屋面施工完成且住户确认。物业许石宁核工序和住户验收纸栏均空，21:32持证电工隔离受潮回路；21:58查出工程方天气不宜施工、仓储签字≠维修验收。关颂如实告知婚礼西装客户未完成，22:19顾客本人核衣带走另店修补，费用按实际办理；22:43仅限项临时导排、受潮回路未准复用。Day327 09:27安全核实后10:08屋面仅本处接缝修补，20:16师徒仍仅在合法干区完成裤脚。F003 Day327 11:29获2022-11-18 15:06工作目录占位收讫，但无附件名、字节数、独立校验值或唯一文件号；14:07申请附件级接收事件号仅收件，不证历史真实性。
+meaningful_state_changes:
+  - "材料仓储签认与工程施工/住户验收分源，真实隔离湿电气，本处屋面局部修补但受潮回路仍待专业复用。"
+  - "客户本人带走未完婚礼西装，师徒改变冒险赶工习惯且只给实际完成的工件记账。"
+  - "F003获得目录级占位记录而非实际文件字节接收证明。"
+knowledge_updates:
+  - "安玉枝关颂知假绿色完工来自收料而非施工，不擅使用湿区旧缝纫机；许石宁与专业电工各守权限。"
+  - "罗经办马芸仅知道2022-11-18 15:06目录占位，不知15:42导入时真正读取何附件/版本。"
+relationship_updates:
+  - "关颂改为向客人真实告知未完，安玉枝肯定徒弟不以赶单牺牲安全。"
+foreshadowing_updates:
+  - "目录占位不证2019原封双向真签、2016回告在封或历史真人获答，Day195旧物沈家票分源，F008/M004/M005无证。"
+ending_state: "Day327 20:16局部屋面本处修完但受潮回路和顶棚未准复用，师徒只在干区完成工作；档案附件级查询仅收件。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0549b7482b79e0677ab17322e90fed55679284f1", final_draft_sha: "5962708179a9a6692d0879a3cb6ff7b10621b1ee", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_blob: "0445868d8d34060ac522fb12a6e96a33b075bf47", predecessor_ready_blob: "575761ea7395ea6038d6ce624efef1f701e007ad", predecessor_body_delta: none, proposed_ready_blob: "917cb6cd97f135384eb0843a535ea2c79c08533b"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3204

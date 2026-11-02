@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 464
+title: "水车停在南门，六楼的空桶还在排队"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "0445868d8d34060ac522fb12a6e96a33b075bf47"
+reader_review: "reader_reviews/0464_0445868d.md"
+depends_on_chapter: 463
+depends_on_source_sha: "2d43e882ea46cb74b37fca5a3a3a51582f89c55d"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day325 20:43—Day326 20:18"
+summary: >-
+  Day325 20:41云桂新村应急水车GPS到南门误被平台推成全部发放，四号楼方宜禾和方明元家中仍缺可用水。21:12夜间中心核来源，东入口由物业施工人员按权清理21:52送水车实到北侧、叶竹按权验18箱每箱24瓶，22:07开岗22:19方宜禾第13位真领4瓶22:38累计39户真领，未到户无代签余水受控存。方宜禾分两趟上六层，Day326 10:06专业只准本立管复水、13:17本批带源纠错，20:18父亲煮粥承认此前未见女儿提水而留2瓶备用。F003 Day326 11:28有限获2022-11-18 15:42任务原始摘要有来源目录别名版本标签而无独立锁当时字节的快照校验；14:09临时文件接收清册非身份申请仅收件，2019真签2016回告在封历史真人答复未证。
+meaningful_state_changes:
+  - "本批假全发通知带源更正、39户实际取得瓶装水，未到户不能冒签。"
+  - "方宜禾与父亲由误会转向实际照料与储备，六楼搬运代价不抹去。"
+  - "F003新增2022原始任务摘要独立字节快照缺失的有限证据，而非全部历史保管记录不存在。"
+knowledge_updates:
+  - "方宜禾仅知本人实际领4瓶及家中真复水，石垒叶竹只核本批实物与逐户记录；中心无权代专业判断水质或宣布全楼已发。"
+  - "罗经办马芸仅知原始任务摘要有目录别名、标签但无独立字节校验，尚不知11-18实际读取的底稿版次。"
+relationship_updates:
+  - "方明元误把平台完成当女儿空跑，见实际水和粥饭后改以实际照料回应。"
+foreshadowing_updates:
+  - "F003仍不证2019原封实签、2016旧回告在封与历史本人受答，Day195旧件沈家票分源，F008/M004/M005未证。"
+ending_state: "Day326 20:18本户真复水余瓶2，本批纠错但他点模板待测，档案窄申只收。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0445868d8d34060ac522fb12a6e96a33b075bf47", final_draft_sha: "0445868d8d34060ac522fb12a6e96a33b075bf47", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "2d43e882ea46cb74b37fca5a3a3a51582f89c55d", proposed_ready_blob: "575761ea7395ea6038d6ce624efef1f701e007ad"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3629

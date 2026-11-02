@@ -1,3 +1,10 @@
+# 第464—465章ARC-054独立Audit事实｜2026-11-02（须精确候选CI成功）
+- 464源draft `0445868d8d34060ac522fb12a6e96a33b075bf47`，前463 ready精确匹配，独立Reader双遍0/0/2，Continuity/Style/Meaningful QA PASS，3629有效字，不修正文，拟ready Blob `575761ea7395ea6038d6ce624efef1f701e007ad`。
+- 465原源draft 0549b7482b79e0677ab17322e90fed55679284f1 初Reader0/1/2仅MAJOR为引用464旧临时draft SHA。已比较464原draft与拟ready小说正文完全相同只FrontMatter交付变化，Stage A仅重绑465 FrontMatter和详纲前章SHA为`575761ea7395ea6038d6ce624efef1f701e007ad`；新draft `5962708179a9a6692d0879a3cb6ff7b10621b1ee`独立重新Reader双遍0/0/2，内容QA PASS，3204有效字，正文0改。
+- Day325 20:41云桂新村南门GPS到点被误报全发，22:19方宜禾真领4瓶、22:38仅39户真领，Day326本批保源纠错且本立管专业复水；Day326青槐巷仓储卷材签收误冒房顶施工完成/住户验收，电工隔离湿回路、婚礼客户自主带走未完西装，Day327本处修补但湿区电气仍停。
+- F003 Day326原始导入摘要缺锁字节校验，Day327新增15:06目录占位收讫而非真实附件内容证明，后续附件级编号窄申仅收；2019原封真双签2016在封回告及旧人真获答未证，Day195旧件沈家票分源，F008/M004/M005不确证。
+- **此记录只证明Reader/内容QA，精确候选Commit CI成功并非强制更新main前，不宣称正式ready放行。**
+
 # 第463章main正式放行精确结构CI证据｜2026-11-02
 - 精确候选 Commit `b9f4cd9ce27a001c6489a288072bd0d9c1aa6ba6`，分支Actions `41387423626` SUCCESS，结构单测与`publisher.check_local`均PASS；以原HEAD为expected_sha、force:false推进main后同Commit Actions `41387462765` SUCCESS。第463章正式ready Blob `2d43e882ea46cb74b37fca5a3a3a51582f89c55d`，原draft已删除，Reader 0/0/2与独立内容QA PASS，小说正文0改。此前同文件“候选需CI”是历史阶段提示，现已由本段实证覆盖。
 
