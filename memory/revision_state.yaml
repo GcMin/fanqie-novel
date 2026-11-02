@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 460
-current_stage: ready_released_exact_CI_success
-current_source_path: chapters/draft/0460.md
-current_source_sha: e5ea351ed1bb5002f617f46097a01efefd9bcfb6
-current_review_path: reader_reviews/0460_e5ea351e.md
+current_chapter: 462
+current_stage: content_QA_pass_exact_CI_pending
+current_source_path: chapters/draft/0462.md
+current_source_sha: 011f78c2368295c92e0270cfa3467aa2120ac9fa
+current_review_path: reader_reviews/0462_011f78c2.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: ready_released_exact_CI_success
+last_action: content_QA_pass_exact_CI_pending
 last_action_date: "2026-11-02"
 last_error: null
-last_diff_summary: "459 Reader0/0/2与QA均PASS；460原稿0/1/2唯一MAJOR前459临时SHA，真实核前章正文无事实差异后StageA只重绑460 FrontMatter及章纲，正文0改，新SHA Reader0/0/2与QA均PASS；精确候选commit c632a5a8结构CI41371616498 SUCCESS后以expected_sha/force:false正式推进main且main CI41371656416 SUCCESS"
+last_diff_summary: "461 original Reader 0/0/2 no revision; 462 original 0/1/2 provisional predecessor, Stage A only rebound to 461 ready SHA after confirming identical body, new SHA Reader 0/0/2, both content QA PASS; structural CI pending"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: true
-current_review_source_sha: e5ea351ed1bb5002f617f46097a01efefd9bcfb6
+publish_gate_passed: false
+current_review_source_sha: 011f78c2368295c92e0270cfa3467aa2120ac9fa
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -3413,3 +3413,33 @@ release_459_460:
   main_ref_update: expected_sha_force_false_success
   ready_chapters: [459, 460]
   body_revisions: 0
+
+chapter_461_revision:
+  chapter: 461
+  source_sha: "79cb57b23b3401280b62ae1ddb2df7eeeea5835b"
+  stage: no_revision_needed
+  final_review: "reader_reviews/0461_79cb57b2.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "894e4b46a1040740f09c7e1fd7b2797bbae3ac58"
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required
+
+chapter_462_revision:
+  chapter: 462
+  original_sha: "4c58bc0899c2173497f3b9536b76e205594f045f"
+  updated_sha: "011f78c2368295c92e0270cfa3467aa2120ac9fa"
+  stage: local_revision_predecessor_sha_only
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  retry_cycles: 0
+  body_revisions: 0
+  predecessor_original_draft_blob: "79cb57b23b3401280b62ae1ddb2df7eeeea5835b"
+  predecessor_ready_blob: "4e55b73b9521a6788bfa66bac61ceef93acfba8a"
+  predecessor_body_delta: none
+  content_qa: pass
+  structural_gate: exact_candidate_commit_CI_required

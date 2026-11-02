@@ -1,0 +1,29 @@
+schema_version: 1
+chapter: 461
+title: "旧箱子上了回收车，认领单还空着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "79cb57b23b3401280b62ae1ddb2df7eeeea5835b"
+reader_review: "reader_reviews/461_79cb57b2.md"
+depends_on_chapter: 460
+depends_on_source_sha: "894e4b46a1040740f09c7e1fd7b2797bbae3ac58"
+dependency_status: verified_predecessor_factual_delta_checked
+timeframe: "Day322 20:34—Day323 20:06"
+summary: >-
+  Day322 20:34孟远秋发现因六楼窗框检修临时清理，母亲遗留蓝铁盒从纸袋消失，物业20:12仅将QH-27列纸类混合袋且私人便签脱落。夏宁20:51按夜间协调不擅定窃盗，21:03仅确认分拣站该批未压缩，21:24站方有权暂停，21:51发现疑似蓝铁盒并22:07单独封存，22:43孟远秋本人经安全窗口核角弯、半月胶痕、戏服尺码纸、旧照片与纽扣后真签领；相片受潮不签全好，谁拿走便签及损失责任未定。Day323 物业只核本楼通知与交接、改变临时废料和私人物件标识，母女就原物保存和将来授权扫描化解误会。F003 Day323 11:13有限获2022-11-18归档前临时使用登记目录存在但不知它对应15:42导入；14:08非身份关联再申仅收件。
+meaningful_state_changes:
+  - "铁盒本人实得但相纸受潮与具体责任未决；母女改以私物保存和授权扫描共同整理。"
+knowledge_updates:
+  - "孟远秋与沈璐只知本次物件及现场照片，站方只证本批停处置和实物核交；夜间中心不知具体经手人或私照片身份。"
+relationship_updates:
+  - "沈璐由责问整理变成区分搬回与放弃，母女形成保存旧物再协商扫描的共同选择。"
+foreshadowing_updates:
+  - "F003仅增加2022后期归档前临时使用目录项，不证明目标15:42导入当时已用哪版；2019/2016/历史真人受答无新证，Day195分源，F008/M004/M005不确证。"
+ending_state: "Day323 20:06蓝铁盒已入私家抽屉，损伤及责任继续待核；F003索引申请仍只是收件。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "79cb57b23b3401280b62ae1ddb2df7eeeea5835b", final_draft_sha: "79cb57b23b3401280b62ae1ddb2df7eeeea5835b", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "894e4b46a1040740f09c7e1fd7b2797bbae3ac58", proposed_ready_blob: "4e55b73b9521a6788bfa66bac61ceef93acfba8a"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3564

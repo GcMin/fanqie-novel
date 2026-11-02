@@ -1,0 +1,29 @@
+schema_version: 1
+chapter: 462
+title: "十八份饭都签收了，桌上只有十六盒"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "011f78c2368295c92e0270cfa3467aa2120ac9fa"
+reader_review: "reader_reviews/462_011f78c2.md"
+depends_on_chapter: 461
+depends_on_source_sha: "4e55b73b9521a6788bfa66bac61ceef93acfba8a"
+dependency_status: verified_predecessor_factual_delta_checked
+timeframe: "Day323 20:41—Day324 20:05"
+summary: >-
+  Day323 20:41钟榆路助餐站屏报18/18已签，实际到站16盒与末两位未领；蒲万青与女儿蒲溪追问，许如云保留纸簿两格空白、司机郝谨实际交接单。21:17找到后厨两份未装车旧餐但温控记录不全不得食用，负责厨师按许可另做，22:13和22:17两名本人各自真签领新餐；蒲溪迟到和新增工时损耗未因此消失。Day324 09:26运营方证平台将计划出餐18份随车辆到站误映全部已签领，仅本批保源纠正、各线仍待测；20:05蒲万青晚餐实际吃后签。F003 Day324 11:21仅获当前2022后期非身份编目索引内临时使用目录与15:42导入任务有同一引用，但最初形成时点与当日具体实际使用底稿未获；14:05更窄申请只收件。
+meaningful_state_changes:
+  - "两名未领餐者各自获合法新餐并真签，旧假签领保留；本批纠错不等全平台修复，女儿迟到与厨师额外劳动为实际代价。"
+knowledge_updates:
+  - "蒲万青知道本人真实领餐，蒲溪知道父亲当晚未按旧屏时点进食；运营与中心分权限核实际交接和食品资质，其他16人隐私不公开。"
+relationship_updates:
+  - "蒲万青与蒲溪由平台误告的相互担忧转共同坚持不凭绿屏代替本人用餐，父女南瓜对话收束。"
+foreshadowing_updates:
+  - "F003仅新增现存非身份索引对2022临时使用与后期导入有关联，不证初始写入时点、2019原封、2016旧回告及历史人获答。"
+ending_state: "Day324 20:05站点仅暂时人工逐人实核，正式后台规则跨线测试未完；F003关联形成时点申请待批。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "4c58bc0899c2173497f3b9536b76e205594f045f", final_draft_sha: "011f78c2368295c92e0270cfa3467aa2120ac9fa", stage_a_used: 1, body_revisions: 0, predecessor_ready_blob: "4e55b73b9521a6788bfa66bac61ceef93acfba8a", proposed_ready_blob: "2fa9877db188142fd5949242043ed950333c978e"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_commit_CI_required}
+char_count: 3290

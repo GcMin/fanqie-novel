@@ -6,9 +6,9 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "96e2b1f7ae8fd14e92eac2588e6ba3adeeaea9f8"
 - depends_on_chapter: 461
-- depends_on_source_sha: "79cb57b23b3401280b62ae1ddb2df7eeeea5835b"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0461.md
+- depends_on_source_sha: "4e55b73b9521a6788bfa66bac61ceef93acfba8a"
+- dependency_status: verified_predecessor_factual_delta_checked
+- predecessor_location: chapters/ready/0461.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day323 20:41—Day324 20:05
 - pov: 蒲万青、蒲溪与许如云近景；夏宁/周衡/梁策有限联动；罗经办、马芸依法限权查F003
@@ -38,7 +38,7 @@ Day323 20:41钟榆路社区助餐点的平台显示“今晚十八份全部送�
 ## Writer Continuity Precheck（非QA）
 
 - 实际读取当前 GitHub main `96e2b1f7ae8fd14e92eac2588e6ba3adeeaea9f8` 的 AGENTS、novel配置、writing_roles、ai_reading_protocol、四份Bible与三张主角卡、旧卷纲/arc_current并识别其落后于ARC-054、新近Memory/时间线/F003与F008、451—460摘要及457—461全文，未读取历史reader_reviews。
-- published/ready/draft实查最高461，第153章已存在于published；第462章章纲及正文在当前树中均不存在。前章461仅draft，绑定实际Blob SHA `79cb57b23b3401280b62ae1ddb2df7eeeea5835b`，故`dependency_status: provisional`；不把461单章新事实写入已确认长期Canon。
+- published/ready/draft实查最高461，第153章已存在于published；第462章章纲及正文在当前树中均不存在。前章461已拟ready（Reader/内容QA及正文事实差异核对通过），绑定正式预备Blob SHA `4e55b73b9521a6788bfa66bac61ceef93acfba8a`，故`dependency_status: verified_predecessor_factual_delta_checked`；不把461单章新事实写入已确认长期Canon。
 - 仅创建462详纲及初稿；标题符合不少于5个非空白字符，正文有效字符3290（含标点、不含空白、Front Matter与独立***），处于硬限2300—3800。不得称Reader/QA/Memory/Publish Gate已完成。
 
 ## 结尾承接

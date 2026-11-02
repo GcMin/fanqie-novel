@@ -1,3 +1,9 @@
+# 第461—462章独立Audit候选事实｜2026-11-02
+- 461草稿 `79cb57b23b3401280b62ae1ddb2df7eeeea5835b`，依赖460 ready `894e4b46a1040740f09c7e1fd7b2797bbae3ac58`精确命中；独立Reader双遍0/0/2、内容Continuity/Style/Meaningful QA PASS，3564有效字，正文0改；拟ready Blob `4e55b73b9521a6788bfa66bac61ceef93acfba8a`。Day322 20:34孟远秋发现六楼施工清运误将母亲私人蓝铁盒带走，QH-27只登记纸类混合袋；分拣站21:24有责暂停受控拆包，22:07仅发现疑似盒，22:43本人实际核相片尺码纸纽扣真签领，照片受潮和责任未定；Day323母女协商原物保存、同意后再扫描。
+- 462原草稿 `4c58bc0899c2173497f3b9536b76e205594f045f`，Reader初审0/1/2唯一MAJOR为前461 provisional依赖；461原draft与拟ready小说正文逐字相同仅Front Matter变化。Stage A只改462 Front Matter和章纲前章SHA为 `4e55b73b9521a6788bfa66bac61ceef93acfba8a`，正文不改；新草稿 `011f78c2368295c92e0270cfa3467aa2120ac9fa`再次独立Reader双遍0/0/2、内容QA PASS，3290有效字，拟ready Blob `2fa9877db188142fd5949242043ed950333c978e`。Day323 20:41助餐站18份平台假签但仅实到16份，旧两份温控无证不得食，另制两份，22:13/22:17真签；Day324仅本批纠错，蒲溪误工与厨师工时待核。
+- F003第461章Day323 11:13只合法得2022归档前“临时使用登记”目录项，14:08非身份关联申请仅收；第462章Day324 11:21仅知此目录项与15:42后期导入任务在**当前**非身份索引有关联，原始形成时点与当时所用校对本、2019双方真签封口、2016旧回告在封及历史报事人真人获答仍未证，14:05下一申请仅收。Day195三旧拆物/沈家私人票分源，F008/M004/M005不确证。
+- 仅候选内容审查通过，结构门禁需精确候选Commit CI执行`python -m publisher.check_local --repo .`和单测SUCCESS后才可以expected_sha/force:false正式main放行。
+
 # 第459—460章精确结构CI通过与正式main放行证据｜2026-11-02
 - 候选 `c632a5a8ad6616f1db5bd41df73f9542813777a3` 的审计分支 Actions `41371616498` SUCCESS（结构单测与 `python -m publisher.check_local --repo .`均PASS）；对main HEAD `75735789cd68184d35339a0c11431226b68b8144`作 expected_sha/force:false 非强制前进后，同SHA main Actions `41371656416` SUCCESS。459、460正式ready blobs `92bf30251f6dc986ab2d439dbc9ead5c6ed7e4bd`、`894e4b46a1040740f09c7e1fd7b2797bbae3ac58`，原draft已删除；本次两章正文均未修改。
 - 以下旧阶段的“CI仍需成功”语句仅是候选形成时的门禁提醒；本段有可追踪的真实精确提交与Actions结果。已由本任务按计划与Memory同步，未发布外部平台。

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 460
+last_updated_chapter: 462
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -1953,4 +1953,22 @@ chapter_460_relationship_verified:
   chen_miao_and_father: "父亲总以绿豆糕玩笑掩盖担忧，Day321延误后陈渺亲自解释已合法上车并于22:09到末站，两人把糕留一盒给母亲，言语更直接而未假称此前没有延误。"
   driver_and_dispatcher: "何行舟守驾驶资格底线，伍妍不为赶末班擅发车，主管按有效核实程序只本趟应急派车，乘客安全与司机法定手续并重。"
   archive: "罗经办马芸针对2022归档登记晚于旧目录导入的日期差异谨慎各提可能，不把日期差推为有人篡改2019原封。"
+  trust_scores_unchanged: true
+
+chapter_461_relationship_verified:
+  chapter: 461
+  source_sha: "79cb57b23b3401280b62ae1ddb2df7eeeea5835b"
+  mother_daughter: "孟远秋沈璐由‘整理’误解转共同找回母亲旧物并保护私人合照、先授权后扫描；相片受潮和清运责任真实未决。"
+  service_relationship: "物业和分拣站分源核QH-27及本人真签领，不以施工垃圾告示代替私人财物放弃授权。"
+  core_team: "夜班有权协调，原有互信数值不变。"
+  archive: "罗经办马芸对目录存在与具体字段匹配保持区分，新申请仅收。"
+  trust_scores_unchanged: true
+
+chapter_462_relationship_verified:
+  chapter: 462
+  source_sha: "011f78c2368295c92e0270cfa3467aa2120ac9fa"
+  father_daughter: "蒲万青与蒲溪因系统误说已吃而焦急，真实领餐后分享新做南瓜，迟到损失不归零，形成共同坚持本人真签的相互理解。"
+  service_relationship: "许如云核纸签和实物保护老人知情，厨房依法另做，不以补餐抹原假签及后续赔偿问题。"
+  core_team: "夜班仅有权协作，信任数值不因普通助餐事件改变。"
+  archive: "罗经办马芸只知现存2022后期索引关联，不越级宣称2019原物真实性。"
   trust_scores_unchanged: true
