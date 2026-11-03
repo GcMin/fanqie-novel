@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 493
+title: "电话响过了，父亲没有说平安"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "cf78548767aae72312727f7d6e9414384e849beb"
+source_draft_sha: "629c3cd1019387b9e00684671f85bedc1297b6bb"
+initial_review: "reader_reviews/0493_cf785487.md"
+reader_review: "reader_reviews/0493_629c3cd1.md"
+depends_on_chapter: 492
+depends_on_source_sha: "ae97a405d52268fd4c610a0d4a763ecd6c64ad61"
+dependency_status: verified_predecessor_factual_delta_reconciled
+timeframe: "Day355 20:30—22:02"
+summary: >-
+  Day355 20:30安康自动回访显示董敬安本人确认，实由紧急联系人女儿董筱南收到转接并按一，父亲未通话；她最后真实联系父亲为18:07，知其拟在社区活动室修录音机。20:54周衡联络社区有责唐蕊核到19:02老人签到未签离；21:08唐蕊与管理员在二楼找到本人仍在修未修好的机子，原磁带未翻录。约21:10董敬安直接对夜间中心口述本人安全并授权有限回告，21:19真实签离，21:27女儿获限定告知，父女自己通话约定以后不能家属代按本人，老人拟次日咨询服务规则。22:02老人本人到家并分别对女儿及中心真报；原家属按一/现场本人真话/到家新回拨分源保留。接口误写纠错仅申请未完成，不能推公交实际乘车。2019第73页仍仅非身份栏目，F008/M004/M005不证。
+meaningful_state_changes:
+  - "原误按绿字与现场本人真回话、本人到家回拨明确分源。"
+  - "父女由家属代按转为尊重老人自主确认且拟依法问服务规则。"
+knowledge_updates:
+  - "董筱南知道20:30自己按一不代表老人当时安全，只靠后来的本人实际联系确认。"
+  - "周衡夏宁知社区现场核人及本人到家各有来源，不认为已证明2019旧签名或安康接口已修。"
+relationship_updates:
+  - "父女仍互相关切，女儿不再替本人确认，父亲同意到家亲自告知。"
+foreshadowing_updates:
+  - "F003旧纸簿签认及历史本人获答未证，F008/M004/M005不确证。"
+ending_state: "Day355 22:02董敬安真到家，本人有源回告，安康转接错映待正式整改，录音机仍未修好。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "cf78548767aae72312727f7d6e9414384e849beb", initial_counts: "0/2/2", final_draft_sha: "629c3cd1019387b9e00684671f85bedc1297b6bb", stage_a_used: 1, body_revisions: 0, predecessor_draft_blob: "4c81094158b0313c96042ba31e2fa5b386bc0be8", predecessor_ready_blob: "ae97a405d52268fd4c610a0d4a763ecd6c64ad61", predecessor_factual_delta: body_title_identical}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3172
+release_evidence: {ready_blob: "dad59cdea686cd0eac3cf199cbd103440bd992fb", structural_gate: exact_candidate_ci_required}

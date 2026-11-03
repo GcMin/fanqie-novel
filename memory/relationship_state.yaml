@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 491
+last_updated_chapter: 493
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2218,4 +2218,18 @@ chapter_491_relationship_verified:
   zhou_heng_and_ma_yun: "马芸对2019纸簿页项依法限范围操作而不替周衡答其真正想问的签收人；周衡虽失落仍同意只收有权摘录，不把求真转化为越权追问。"
   core_team: "夏宁Day353/354分别阻止周衡把批准当查到、把可定位页项当历史本人收到；梁策以当代真正来电与有权回拨作对照，但旧同事故事不能补历史证据。"
   archivists: "原形成单位两个有责保管人员受控翻第73页只开放已批索引与表式，不允许马芸看个人填值，限项结果由签发岗位真实签发。"
+  trust_scores_unchanged: true
+
+chapter_492_relationship_verified:
+  chapter: 492
+  source_sha: "4c81094158b0313c96042ba31e2fa5b386bc0be8"
+  cheng_suqing_and_provider: "程素清坚持本人未领，不让平台和儿子替其解释；吴立平让本人选择重做或退款，最后22:39新餐亲交，但原错、责任费用未完全纠正。"
+  core_team: "夏宁周衡梁策按限项职责保护老人隐私，门岗王坤与供餐点各只报告实际经手。"
+  trust_scores_unchanged: true
+
+chapter_493_relationship_verified:
+  chapter: 493
+  source_sha: "629c3cd1019387b9e00684671f85bedc1297b6bb"
+  father_daughter: "董筱南出于关心错替董敬安按一本人确认，父女21:27后独立通话，商定只由本人回答安全、女儿可回报自己所知且保留互相关心。"
+  core_team: "社区唐蕊尊重老人自愿回话，夜间中心不越权确认救援或代改安康服务，旧2019史料依然独立。"
   trust_scores_unchanged: true

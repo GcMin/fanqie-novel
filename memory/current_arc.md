@@ -1498,3 +1498,8 @@ Day173 20:24仅是该号码未来新语义的专业标识测试，20:39廖珊看
 ## 第491章正式ready与精确CI（2026-11-03）
 - 正式候选Commit `f15086387464cfab260fb2c1467d16dd26b9a939`，GitHub Actions `Validate Fanqie ready chapters` run `41602893283` head SHA精确一致，**SUCCESS**：`Test offline snapshot validation`、`Validate this checkout without Git sync or publishing` 均PASS（后者实际运行 `python -m publisher.check_local --repo .`）。以`expected_sha=2adaffc40ffa46c7516b93be24c5f54f3de09307`及`force:false`正式快进main成功；0491 ready Blob `06daeb10f8ce9cd3c70d053e4008d3e4f1734c8f`，原draft已删。先前「精确结构待核」已由对应实际CI结果覆盖。
 - 第491章Reader初审0/3/2，Stage A修昨日申请/中文措辞与前章正式SHA依赖，修订稿新SHA `3152ab33...`独立Pass A/B最终0/0/2；独立连续性、文风、有效变化QA均PASS，长期Memory和第491章唯一ready计划行已更新。F003增加真实页项位置但非签认，F008/M004/M005仍不确证。
+
+## 第492—493章内容审核、限项Stage A与前章版本事实比对（2026-11-03）
+- 第492章 `4c81094158b0313c96042ba31e2fa5b386bc0be8`与491正式ready精确依赖，Reader两遍独立0/0/2，无正文修订，3050有效字符，Continuity/Style/Meaningful QA PASS；原门岗批次扫码假回写八份本人签收而五份有纸本分领、三份仍在门岗；供餐点不再将三份旧餐交当热餐，两户本人选补送并Day354 22:39/22:58真收到，Day355 09:14第三户本人选退款仅启动未到款。原平台错与费用责任仍待正式纠正。
+- 第493章原draft `cf78548767aae72312727f7d6e9414384e849beb`Reader Pass A/B初审0/2/2，Stage A只改493草稿及详纲临时前章SHA和字数元数据3187→3172；前492原稿 `4c81094158b0313c96042ba31e2fa5b386bc0be8`与拟ready `ae97a405d52268fd4c610a0d4a763ecd6c64ad61`正文及标题逐字同，故493与前章事实相容。修订后新草稿 `629c3cd1019387b9e00684671f85bedc1297b6bb`重新独立Pass A→B最终0/0/2、keep/none，小说正文0字修改；独立Continuity/Style/Meaningful QA PASS。Day355 20:30董筱南家属代按误写老人本人，21:08社区真实见董敬安、约21:10本人真实接中心电话、21:19签离、22:02本人安全到家回电；安康接口正式整改未确认、修机未完成。
+- **F003**仍仅2019原形成单位第73页可定位非身份业务栏式，不见条目签字、2016旧回告在封、历史本人真获答或2022导入具体字节；**F008/M004/M005**无新确证，钟楼正常公众报时停播、阿棋寄养至Day358 11:12不变。两章内容QA不能替代精确候选CI，结构未通过前不得放行main。

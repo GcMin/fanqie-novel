@@ -6,20 +6,20 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "844edf7a9d8dad2d5066f7150c8c0ab92e957184"
 - depends_on_chapter: 492
-- depends_on_source_sha: "4c81094158b0313c96042ba31e2fa5b386bc0be8"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0492.md
+- depends_on_source_sha: "ae97a405d52268fd4c610a0d4a763ecd6c64ad61"
+- dependency_status: verified_predecessor_factual_delta_reconciled
+- predecessor_location: chapters/ready/0492.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day355 20:30—22:02
 - title: 电话响过了，父亲没有说平安
 - target_effective_chars: 3000
-- actual_effective_chars: 3187
+- actual_effective_chars: 3172
 - pov: 夜间中心夏宁、周衡、梁策；董敬安父女、社区有责网格员唐蕊的限定视角
 - status: planned_and_new_draft_only
 
 ## 本章目标与开场
 
-第492章（仅未审核的临时草稿，Git Blob SHA精确绑定）写到Day355 09:14，社区助餐原批八份中的两个补送已有人真实收到、第三户仅选择退款且尚未到账，批次误回写也未获正式纠错。新章另起Day355 20:36：社区安康自动回访按键被回写为老人本人确认，而原受访人的声音从未出现在这次通话中。不将前一草稿视作Canon，不擅写其纠错审核已完成。
+第492章（原稿已与正式ready去Front Matter全文逐字比对、故事事实未改）写到Day355 09:14，社区助餐原批八份中的两个补送已有人真实收到、第三户仅选择退款且尚未到账，批次误回写也未获正式纠错。新章另起Day355 20:36：社区安康自动回访按键被回写为老人本人确认，而原受访人的声音从未出现在这次通话中。不将前一草稿视作Canon，不擅写其纠错审核已完成。
 
 ## 人物欲望及冲突
 
@@ -49,5 +49,5 @@
 
 - 本轮从main新取AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md与Bible核心四件、相关主角人物卡，读第五卷及arc_current早期记载并依据Memory最新491正式放行与492未审草稿定位现行第六卷ARC-054；读取Memory各状态、相关伏笔与时间线、482—491十章摘要、488—492五章全文、492详纲；不读取历史reader_reviews。
 - 已逐目录实查published/ready/draft，published含0153《人没回来，表先签完了》，现存最大章节号为492，493此前不存在；本轮仅新增493计划与首稿，不修订任何旧章。
-- 第492章仍在draft，完整blob为`4c81094158b0313c96042ba31e2fa5b386bc0be8`，dependency_status必须为provisional；只承接其限定日期与已写剧情为临时参考，不假定独立Audit正式通过，后续如上章修订须由独立审查处理衔接。
+- 第492章原来在draft，完整原稿blob为`ae97a405d52268fd4c610a0d4a763ecd6c64ad61`，本次Audit已逐字对照其正式ready和原稿故事事实一致，已改绑正式ready，不推定平台发布，后续如上章修订须由独立审查处理衔接。
 - 本轮只做Planner、Continuity Precheck与Writer；不做Reader、Revision、QA、Memory、Publish Gate或平台发布。

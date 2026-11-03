@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 492
+title: "晚饭在门岗放凉，签收却写着到家"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "4c81094158b0313c96042ba31e2fa5b386bc0be8"
+reader_review: "reader_reviews/0492_4c810941.md"
+depends_on_chapter: 491
+depends_on_source_sha: "06daeb10f8ce9cd3c70d053e4008d3e4f1734c8f"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day354 21:07—Day355 09:14"
+summary: >-
+  Day354 21:07程素清在三槐巷五号楼四层见便民晚餐20:06平台已写本人签收却尚未到家，按夜间原授权渠道提出异议，不愿泄露私联络信息。夏宁保留本人否认与系统绿字两个来源，周衡梁策核门岗纸本及有责供餐点：八份餐离店后被门岗批次扫码暂存，接口错误回写八个子单本人签收；其中五份仅有纸本分户领取记录，三份原餐仍在暂存。供餐方吴立平依热食时限与环境不再送旧餐，取得两户同意另制新餐，程素清22:39真正亲收，另一户22:58真收。第三户未联夜间不擅交，Day355 09:14对方本人选择退款且流程只启动未到账。平台原错保源待纠、费用责任未结。F003只到2019第73页非身份表式，F008/M004/M005未新增确证。
+meaningful_state_changes:
+  - "两户本人真实收到重做餐，第三户本人选择退款但未到款。"
+  - "门岗批次暂存与八户本人收讫被区分、原错误有源留存待改。"
+knowledge_updates:
+  - "程素清只确认22:39新餐真交，20:06平台原绿字不是自己签收。"
+  - "中心知道五份有纸本领取记录但不能代替全部本人独立证实，不能替供餐方评定食品安全。"
+relationship_updates:
+  - "吴立平让程素清自己选补送或退款，尊重其独立意愿与电话隐私。"
+foreshadowing_updates:
+  - "F003真实历史签认无新材料，F008/M004/M005不证。"
+ending_state: "Day355 09:14两户补餐已真正交付，第三户仅启动退款；旧平台批次错误正式更正与责任费用待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "4c81094158b0313c96042ba31e2fa5b386bc0be8", final_draft_sha: "4c81094158b0313c96042ba31e2fa5b386bc0be8", stage_a_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3050
+release_evidence: {ready_blob: "ae97a405d52268fd4c610a0d4a763ecd6c64ad61", structural_gate: exact_candidate_ci_required}

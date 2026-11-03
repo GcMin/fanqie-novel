@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 491
-last_reviewed_title: "登记页终于有了位置，签收的人仍未出现"
-last_source_path: chapters/draft/0491.md
-last_source_sha: 3152ab33fc9df02654b8c32d0b6b8edaaa86fdb7
-last_review_path: reader_reviews/0491_3152ab33.md
+last_reviewed_chapter: 493
+last_reviewed_title: "电话响过了，父亲没有说平安"
+last_source_path: chapters/draft/0493.md
+last_source_sha: 629c3cd1019387b9e00684671f85bedc1297b6bb
+last_review_path: reader_reviews/0493_629c3cd1.md
 last_reviewed_at: "2026-11-03"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -4652,3 +4652,35 @@ release_491_reader_evidence:
   candidate_ci_success: 41602893283
   ready_blob: "06daeb10f8ce9cd3c70d053e4008d3e4f1734c8f"
   main_ref_update: expected_sha_force_false_success
+
+chapter_492_audit_20261103:
+  chapter: 492
+  source_sha: "4c81094158b0313c96042ba31e2fa5b386bc0be8"
+  final_review_path: reader_reviews/0492_4c810941.md
+  pass_a: independent_first
+  pass_b: independent_after_pass_a
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  body_revisions: 0
+  predecessor_ready_blob: "06daeb10f8ce9cd3c70d053e4008d3e4f1734c8f"
+  content_qa: pass
+  ready_blob: "ae97a405d52268fd4c610a0d4a763ecd6c64ad61"
+  structural_gate: exact_candidate_ci_required
+
+chapter_493_audit_20261103:
+  chapter: 493
+  initial_source_sha: "cf78548767aae72312727f7d6e9414384e849beb"
+  initial_review: reader_reviews/0493_cf785487.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  stage_a_used: 1
+  final_source_sha: "629c3cd1019387b9e00684671f85bedc1297b6bb"
+  final_review_path: reader_reviews/0493_629c3cd1.md
+  pass_a: new_sha_independent_first
+  pass_b: new_sha_independent_after_pass_a
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  predecessor_draft_sha: "4c81094158b0313c96042ba31e2fa5b386bc0be8"
+  predecessor_ready_blob: "ae97a405d52268fd4c610a0d4a763ecd6c64ad61"
+  predecessor_factual_delta: body_title_identical_metadata_only
+  body_revisions: 0
+  content_qa: pass
+  ready_blob: "dad59cdea686cd0eac3cf199cbd103440bd992fb"
+  structural_gate: exact_candidate_ci_required
