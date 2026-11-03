@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 500
-current_stage: ready_released_exact_candidate_ci_success
+current_chapter: 502
+current_stage: content_qa_pass_pending_structural_ci
 current_source_path: chapters/draft/0500.md
-current_source_sha: 2af3f9133c3939f35e27986ad7c36d0986e2ad2d
-current_review_path: reader_reviews/0500_2af3f913.md
+current_source_sha: d252e40e2e76f4edbacc087ac2018c88ff489e85
+current_review_path: reader_reviews/0502_d252e40e.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -4304,3 +4304,19 @@ release_501_revision_evidence:
   main_update: expected_sha_force_false_success
   main_ci: 41692009094
   main_ci_conclusion: success
+
+chapter_502_revision_state:
+  chapter: 502
+  original_sha: "d252e40e2e76f4edbacc087ac2018c88ff489e85"
+  final_sha: "d252e40e2e76f4edbacc087ac2018c88ff489e85"
+  final_review: "reader_reviews/0502_d252e40e.md"
+  initial_counts: "0/0/2"
+  final_counts: "0/0/2"
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  retry_cycles: 0
+  safe_mode: false
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci
