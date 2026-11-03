@@ -28,6 +28,6 @@ foreshadowing_updates:
 ending_state: "Day348中午阿棋已由获本人授权的女儿曹茵真实临时代领并转短期寄养，三天后长期养犬和照护安排尚未决定；姜烁原报事有限结单。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "7248fab060ec4128f9178f1e0812a91cf92d10c0", final_draft_sha: "7248fab060ec4128f9178f1e0812a91cf92d10c0", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "9793fbb93a768261a53f728969b32ffcaa0625e8", dependency_status: verified_exact_ready_blob}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_success_41570246562}
 char_count: 3265
-release_evidence: {candidate_commit: pending, candidate_ci: pending, publisher_check_local: pending, main_ref_update: pending}
+release_evidence: {candidate_commit: "e0ec52a60d310b4ce3e476ed4c249b350dc5da12", validated_tree: "6f40938959e3ef9f863e5d1c60c333333fc6965e", candidate_ci: 41570246562, candidate_ci_conclusion: success, main_ci: 41570324742, main_ci_conclusion: success, structural_unit_tests: pass, publisher_check_local: pass, main_ref_update: expected_sha_force_false_success, ready_blob: "d3cdd50d3625c16d183ad49e8f750666b86f6e68"}

@@ -9,3 +9,8 @@
 - **Meaningful Change PASS**：黑白犬由仅真实收容/原主人不明推进至原饲养关系多源核准、本人授权女儿限时代领及次日真实短期寄养；父女从争论代为永久决定转为三日后共同商议，报事人姜烁真正退场。
 - **伏笔/历史边界 PASS**：F003无历史新来源，F008/M004/M005未证，F009/F010/F011 resolved不变，未动Canon/published。相关长记忆、章节摘要、时间线和计划仅记真实新状态。
 - **结构门禁**：本报告以上仅为实际内容QA结果。只有包含485 ready、Reader/QA及同步Memory/计划的**精确候选Git Commit**在Actions实际跑`python -m publisher.check_local --repo .`与结构单测均SUCCESS，才允许expected_sha、force:false把候选原子快进main。若候选未验证/失败/有并发冲突，main保持草稿、不得冒称已正式放行。
+
+## 第485章正式结构门禁及main放行实证（2026-11-03）
+- 精确候选Git Commit `e0ec52a60d310b4ce3e476ed4c249b350dc5da12`，Git Tree `6f40938959e3ef9f863e5d1c60c333333fc6965e`，审计分支 `audit/ready-0485-20261103-ade24846` 对应 Actions `41570246562` **SUCCESS**，该工作流的 `Test offline snapshot validation`（结构单测）和 `Validate this checkout without Git sync or publishing`（`python -m publisher.check_local --repo .`）均实际SUCCESS。正式main同一精确提交Actions `41570324742` **SUCCESS**，不是对旧版本的测试。
+- 在上述候选结构通过后，已以`expected_sha=ade24846bcf027b679fa3420c4c5ee4522e336e4`、`force:false`原子更新main至`e0ec52a60d310b4ce3e476ed4c249b350dc5da12`成功；第485章ready Blob `d3cdd50d3625c16d183ad49e8f750666b86f6e68`，草稿同号在同一Git Tree删除。reader_reviews/0485_7248fab0.md绑定源SHA `7248fab060ec4128f9178f1e0812a91cf92d10c0`；Reader0/0/2、独立Continuity/Style/Meaningful QA PASS、小说正文0字修改。
+- SHA重绑不需要：前484正式ready SHA `9793fbb93a768261a53f728969b32ffcaa0625e8`与原稿及计划依赖完全相同。已真实同步第485章摘要、人物、知识、关系、世界状态、时间线及章节计划，未更改Canon/published正文。
