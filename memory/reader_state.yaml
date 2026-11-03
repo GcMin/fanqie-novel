@@ -4541,3 +4541,18 @@ chapter_487_audit_20261103:
   predecessor_factual_delta: "title_and_shift_times_changed_old_archive_still_only_received_application"
   qa_gate: pass
   structural_gate: exact_candidate_ci_required
+release_486_487_reader_evidence:
+  chapters: [486, 487]
+  original_486: "6c394e3d264f045ee8fdd765467c3d6eb0891b20"
+  revised_486: "3ae165912045d92bec7ef12a89fd35bb3f307d40"
+  final_487: "e397ba3a576322ddfe35a2fd0d368d8eeecb34e5"
+  initial_486_counts: "0/2/2"
+  final_486_counts: "0/0/2"
+  final_487_counts: "0/0/2"
+  final_reviews: ["reader_reviews/0486_3ae16591.md", "reader_reviews/0487_e397ba3a.md"]
+  content_qa: pass
+  exact_candidate_commit: "7dde6240d26c18aa99b466137064b769168dc580"
+  candidate_ci_success: 41577411179
+  main_ci_success: 41577456639
+  ready_486_blob: "2e65046b8c9f2932d01aea9bb517cd9270a83919"
+  ready_487_blob: "3631a601180aa38e6745c5e43d2b3b9e12137111"

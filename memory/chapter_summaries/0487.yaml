@@ -32,3 +32,14 @@ reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "3d90f28c534bda0b0b3ce4726462d420542c969f", final_draft_sha: "e397ba3a576322ddfe35a2fd0d368d8eeecb34e5", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, fix: "rebind_dependency_to_486_ready_and_recount", predecessor_draft_sha: "6c394e3d264f045ee8fdd765467c3d6eb0891b20", predecessor_ready_blob: "2e65046b8c9f2932d01aea9bb517cd9270a83919", predecessor_factual_delta: "486 title and Day349 night shift corrected with F003 only received application still unresolved"}
 qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
 char_count: 3195
+release_evidence:
+  candidate_commit: "7dde6240d26c18aa99b466137064b769168dc580"
+  validated_tree: "53ac50e3d5996a1c6d442ad87bc0ee7a6c6667d9"
+  candidate_ci: 41577411179
+  candidate_ci_conclusion: success
+  main_ci: 41577456639
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  ready_blob: "3631a601180aa38e6745c5e43d2b3b9e12137111"

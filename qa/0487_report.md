@@ -8,3 +8,7 @@
 - Style PASS：两遍钟响和孩子纸面停顿形成可见后果，工作侧绿字与实际端子状态的反差具体可信；技术说明略重复与尾声温和为MINOR，不触发不必要修改。Meaningful PASS：真实找出两路静音失效原因且在有限范围采取措施、家长获解释、孩子重获朗读主动权，复验未结。
 - Foreshadowing PASS：F003旧档案未获页项、2016/2019实签无新证；设备误线是普通有责任可查故障，不是F008异常记忆机制，M004/M005未证。
 - **结构门禁须实证**：必须对包含486、487 ready、全部相关QA/Reader/Memory和plan的同一精确候选Git Commit执行并确认结构CI SUCCESS 后才能expected_sha、force:false快进main；不能凭本文内容QA代替结构校验。
+
+## 第487章精确结构校验与main放行实证（2026-11-03）
+- 精确候选/正式放行Commit `7dde6240d26c18aa99b466137064b769168dc580`，Tree `53ac50e3d5996a1c6d442ad87bc0ee7a6c6667d9`；审计分支CI `41577411179` **SUCCESS**，结构单测及`python -m publisher.check_local --repo .`均对精确提交实际PASS；main同SHA CI `41577456639` **SUCCESS**；已用expected_sha=`60ebdd5adfa059ec487b232c46a24d140d88243c`、force:false非强制快进main。第486/487章已同树从draft删除并正式迁入ready；486 ready Blob `2e65046b8c9f2932d01aea9bb517cd9270a83919`；487 ready Blob `3631a601180aa38e6745c5e43d2b3b9e12137111`。
+- 第486章Reader初审0/2/2、Stage A有限正文修订及新SHA双遍审查最终0/0/2；第487章仅依赖Front Matter/字数和计划更新，新SHA双遍Reader0/0/2；两章独立内容QA均PASS。

@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 487
-current_stage: content_qa_pass_awaiting_exact_candidate_structural_ci
+current_stage: ready_after_exact_candidate_ci_success
 current_source_path: chapters/draft/0487.md
 current_source_sha: e397ba3a576322ddfe35a2fd0d368d8eeecb34e5
 current_review_path: reader_reviews/0487_e397ba3a.md
@@ -12,13 +12,13 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter486_stage_a_then_new_reader_and_487_dependency_rebind_qa
+last_action: chapter486_487_ready_after_ci_41577411179
 last_action_date: "2026-11-03"
 last_error: null
-last_diff_summary: "486原0/2/2 → Stage A修正原文夜班时点/标题 → 新SHA双遍Reader0/0/2；487只改依赖和字数原文不改 → 新SHA双遍Reader0/0/2，两章内容QA PASS，结构须精确候选CI。"
+last_diff_summary: "486 Stage A修改标题与夜班事实后新SHA双遍Reader0/0/2；487元数据重绑新SHA Reader0/0/2；精确提交7dde6240 CI41577411179与main同SHA CI41577456639均SUCCESS，main非强制放行。"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: false
+publish_gate_passed: true
 current_review_source_sha: e397ba3a576322ddfe35a2fd0d368d8eeecb34e5
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
@@ -3968,3 +3968,15 @@ chapter_487_revision_verified:
   predecessor_ready_sha: "2e65046b8c9f2932d01aea9bb517cd9270a83919"
   qa_gate: pass
   structural_gate: exact_candidate_ci_required
+release_486_487_revision_evidence:
+  chapters: [486, 487]
+  stage_a_used: {chapter_486: 1, chapter_487: 1}
+  body_revisions: {chapter_486: 1, chapter_487: 0}
+  final_reviews: {chapter_486: "0/0/2", chapter_487: "0/0/2"}
+  qa_gate: pass
+  publish_gate_passed: true
+  exact_candidate_commit: "7dde6240d26c18aa99b466137064b769168dc580"
+  candidate_ci_success: 41577411179
+  main_ci_success: 41577456639
+  ready_486_blob: "2e65046b8c9f2932d01aea9bb517cd9270a83919"
+  ready_487_blob: "3631a601180aa38e6745c5e43d2b3b9e12137111"

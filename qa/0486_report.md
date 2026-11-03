@@ -9,3 +9,7 @@
 - Meaningful PASS：2019原形成单位纸质收发目录查阅从只有指引进入有权窗口**实际收件**，增加可合法查询路径；没有错误宣称查到真实签字页或历史本人获回话。
 - 伏笔 PASS：F003只有独立查询路径新进展，2019双方真签、2016封内回告、2022读取字节与11/21同一均未证，F008/M004/M005不升级；其余第480—485未决不隐性结案。
 - **结构门禁须实证**：以上为内容QA，必须在包含ready486+487及Memory/计划完整变更的精确候选Git Commit上运行实际 `python -m publisher.check_local --repo .` 或可信CI并成功后，才能非强制将同一候选快进main；未通过不得放行。
+
+## 第486章精确结构校验与main放行实证（2026-11-03）
+- 精确候选/正式放行Commit `7dde6240d26c18aa99b466137064b769168dc580`，Tree `53ac50e3d5996a1c6d442ad87bc0ee7a6c6667d9`；审计分支CI `41577411179` **SUCCESS**，结构单测及`python -m publisher.check_local --repo .`均对精确提交实际PASS；main同SHA CI `41577456639` **SUCCESS**；已用expected_sha=`60ebdd5adfa059ec487b232c46a24d140d88243c`、force:false非强制快进main。第486/487章已同树从draft删除并正式迁入ready；486 ready Blob `2e65046b8c9f2932d01aea9bb517cd9270a83919`；487 ready Blob `3631a601180aa38e6745c5e43d2b3b9e12137111`。
+- 第486章Reader初审0/2/2、Stage A有限正文修订及新SHA双遍审查最终0/0/2；第487章仅依赖Front Matter/字数和计划更新，新SHA双遍Reader0/0/2；两章独立内容QA均PASS。
