@@ -1479,3 +1479,9 @@ Day173 20:24仅是该号码未来新语义的专业标识测试，20:39廖珊看
 - Writer新创建489原draft Blob `c5df85a7e2c26f211e4e57a6bdcceeedf9e7c381`，Reader Pass A→Pass B初审0 BLOCKER/1 MAJOR/2 MINOR；唯一MAJOR是Day352 20:14马芸与夜班中心通话后无据称临近交班，违反20:00—次日08:00夜班。Stage A仅改为“电话核对结束后”，有效字符3347→3349，修订草稿新 Git Blob `b5ff9cc957a23818ba978e1d8d350c8a1b0b1b98`；基于新SHA重新独立Pass A/B 0/0/2、keep/none，内容Continuity/Style/Meaningful QA PASS。前488 ready SHA `bf9f8cedc38eb30a792940f8a5f7a9f3686101f6`依赖精确相合，无旧版未核事实差异。
 - Day351 20:38从Day349旧2019卷目申请收件转获合法目录级核验许可。Day352 09:28马芸按权入原形成单位保管处，10:06双人核出2019纸质收发登记簿实体、外部编号与目录区间相符，未翻内页，不获真实签字或回告内容；相近“回告留底”题名属于另一保管单元。11时后新限项页项非身份字段申请只收件，Day352 20:14中心依法有源接摘要，2022读取字节和11/21版同一/2019双方签封/2016回告在封/历史本人受答仍未证。F003确有实体证据层级的有限推进，F008/M004/M005不升级，F009/F010/F011保持resolved。第487钟楼公众侧复验、第488阿棋短续住至Day358和未约探访不被改写。
 - 上述内容QA不是结构门禁；只有包含修订稿新Reader、QA、全部Memory及章节计划、489 ready的精确Git候选提交实际通过结构单测与`python -m publisher.check_local --repo .`后才可采用expected_sha及force:false推进main。
+
+## 第490章独立 Reader 及内容 QA（2026-11-03，结构门禁待精确验证）
+- Writer原草稿 `chapters/draft/0490.md` Blob `3ccbfd3a7f71061c8151e9a4421908e13610dd91`，第490章Pass A仅读前487—489正式正文及近期摘要、文风；完成后Pass B核Canon、卷弧/人物知识/世界/时间/伏笔。新SHA对应有效报告 `reader_reviews/0490_3ccbfd3a.md` 得 **0 BLOCKER / 0 MAJOR / 3 MINOR**、keep/none，无Revision，正文0字修改。独立Continuity、Style、Meaningful QA PASS，去分隔和空白有效字符2789、标题与详纲一致。
+- 第489章正式ready Blob `96db4fa4003e605850d983f20a64814a0ba27aea`与490详纲及草稿依赖完全一致，无旧SHA差异未核。489截至Day352 20:14仅确定2019原形成单位纸簿实物及外部编号、未获签认页；490同日20:37夜班接成荫路钟楼有限计划，21:41许可内一次短音南岗可闻、北岗公交遮尾，不重试；23:00及23:04两岗独立记录未闻钟声、设备记录暂停试音且公众输出隔离。Day353 09:27设施方仅作阶段报告、10:09辛立真实回拨陈秋荷，拒用孩子录音。正常报时继续停用，长周期连续观察、恢复许可和公众全项复验仍待办，不把安静绝对化。
+- 独立QA核了第487章原故障与纠线路径、第488章阿棋短续住未改、第489章2019历史页项边界；本普通钟楼案不增加F003旧档史料或F008可靠记忆冲突，M004/M005仍未证。章节细微程序说明重复与尾段跨案总结、10:09孩子背包日程未明仅记MINOR，不因口味重写。
+- 当前记录仅是内容QA，**不是结构CI成功**；需待含ready、计划、Reader、QA及全部Memory的精确候选 Git Commit经CI结构单测及`python -m publisher.check_local --repo .`实际SUCCESS，方可以expected_sha和force:false迁入main。

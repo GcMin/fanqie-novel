@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 489
-last_reviewed_title: "档案柜开了，签收那一页仍未翻到"
-last_source_path: chapters/draft/0489.md
-last_source_sha: b5ff9cc957a23818ba978e1d8d350c8a1b0b1b98
-last_review_path: reader_reviews/0489_b5ff9cc9.md
+last_reviewed_chapter: 490
+last_reviewed_title: "钟楼没有再响，谁来证明这一次安静"
+last_source_path: chapters/draft/0490.md
+last_source_sha: 3ccbfd3a7f71061c8151e9a4421908e13610dd91
+last_review_path: reader_reviews/0490_3ccbfd3a.md
 last_reviewed_at: "2026-11-03"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
-minor_count: 2
+minor_count: 3
 reader_gate: pass
-depends_on_chapter: 488
-depends_on_source_sha: bf9f8cedc38eb30a792940f8a5f7a9f3686101f6
+depends_on_chapter: 489
+depends_on_source_sha: 96db4fa4003e605850d983f20a64814a0ba27aea
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: bf9f8cedc38eb30a792940f8a5f7a9f3686101f6
+predecessor_current_source_sha: 96db4fa4003e605850d983f20a64814a0ba27aea
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -4599,5 +4599,21 @@ chapter_489_audit_20261103:
   final_counts: {blocker: 0, major: 0, minor: 2}
   predecessor_ready_blob: "bf9f8cedc38eb30a792940f8a5f7a9f3686101f6"
   predecessor_factual_delta: exact_ready_sha_no_mismatch
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required
+
+chapter_490_audit_20261103:
+  chapter: 490
+  title: "钟楼没有再响，谁来证明这一次安静"
+  source_draft_sha: "3ccbfd3a7f71061c8151e9a4421908e13610dd91"
+  review_path: reader_reviews/0490_3ccbfd3a.md
+  pass_a: completed_before_canon_read
+  pass_b: completed_after_canon_read
+  final_counts: {blocker: 0, major: 0, minor: 3}
+  recommendation: keep
+  required_action: none
+  predecessor_ready_blob: "96db4fa4003e605850d983f20a64814a0ba27aea"
+  predecessor_factual_delta: exact_ready_sha_no_mismatch
+  body_revisions: 0
   content_qa: pass
   structural_gate: exact_candidate_ci_required

@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 489
+current_chapter: 490
 current_stage: content_qa_pass_structural_gate_pending
-current_source_path: chapters/draft/0489.md
-current_source_sha: b5ff9cc957a23818ba978e1d8d350c8a1b0b1b98
-current_review_path: reader_reviews/0489_b5ff9cc9.md
+current_source_path: chapters/draft/0490.md
+current_source_sha: 3ccbfd3a7f71061c8151e9a4421908e13610dd91
+current_review_path: reader_reviews/0490_3ccbfd3a.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter489_stage_a_new_sha_review_content_qa_pass_pending_ci
+last_action: chapter490_reader_pass_and_content_qa_pass_pending_ci
 last_action_date: "2026-11-03"
 last_error: null
-last_diff_summary: "488正式ready Commit9a0cfdb1 CI41588621727成功；489原初Reader0/1/2，Stage A修Day352 20:14临近交班误句，最终新SHA b5ff9cc957a23818ba978e1d8d350c8a1b0b1b98双遍Reader0/0/2内容QA通过；待精确CI结构门禁。"
+last_diff_summary: "490原稿 SHA 3ccbfd3a Reader独立双遍0/0/3，正文未改，前489 ready SHA精确一致，独立内容QA通过；待精确CI结构门禁。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
-current_review_source_sha: b5ff9cc957a23818ba978e1d8d350c8a1b0b1b98
+current_review_source_sha: 3ccbfd3a7f71061c8151e9a4421908e13610dd91
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -4024,5 +4024,21 @@ chapter_489_revision_verified:
   replan_rewrite_used: 0
   retry_cycles: 0
   predecessor_ready_blob: "bf9f8cedc38eb30a792940f8a5f7a9f3686101f6"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required
+
+chapter_490_revision_verified:
+  chapter: 490
+  original_sha: "3ccbfd3a7f71061c8151e9a4421908e13610dd91"
+  final_sha: "3ccbfd3a7f71061c8151e9a4421908e13610dd91"
+  reader_review: reader_reviews/0490_3ccbfd3a.md
+  final_counts: {blocker: 0, major: 0, minor: 3}
+  stage: no_revision_needed
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  retry_cycles: 0
+  predecessor_ready_blob: "96db4fa4003e605850d983f20a64814a0ba27aea"
   content_qa: pass
   structural_gate: exact_candidate_ci_required
