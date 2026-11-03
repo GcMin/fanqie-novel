@@ -13,3 +13,9 @@
 **Meaningful Change PASS：** 路线被实测并确认新风险，物业实际移开违停清洁车而翘砖未修，犬车声刺激由专业控绳真实观察，曹父明确拒勾自力牵行并实际签付一次有限服务的价格/排班，而不是假装已有长期安排；Day360接犬最后一环仍有真实压力。关系与资源状态改变有效。
 
 **结构门槛：** 内容QA PASS不能替代实际发布结构检查；必须对包括本ready、SHA绑定Review、QA、Memory和唯一计划行的**精确候选Commit**执行可信CI中`python -m publisher.check_local --repo .`及结构测试SUCCESS，核对workflow head_sha对应后，才按expected_sha/force:false快进main。否则保留draft，报告阻塞。
+
+## 正式放行结构门槛实际证据（不再待校验）
+- 原草稿 `5d2cf38a682d59786151ddc1db5708064c5b936d` 因旧前章临时SHA初审0/1/2，Stage A完成真新稿 `fc0fffd808fd86b984e6ff51b256c8a9646dcc3e`，前495原/ready标题正文实际逐字相同，重绑正式ready `1994c77e91f606310c4bff02d2f5a81b4e51e3af`，正文未改；新SHA独立两遍Reader 0/0/2、独立QA PASS。
+- 包括本ready、绑定Review、QA、Memory、唯一完整计划和第495章已完成CI证据的**精确候选Commit** `5c2b56b376e42e5c65de845a093d2e81532465b7`，Git Tree `2f70befd014ee51202a9f333890649214b833cc1`。审计分支 `audit/ready-0496-20261103-2125` GitHub Actions `41643519424` 的 head SHA与候选完全一致且**SUCCESS**；`Test offline snapshot validation`与`Validate this checkout without Git sync or publishing`（实际执行 `python -m publisher.check_local --repo .`）均PASS。
+- 原main `0c1bc1315f9d6daebebf613d974d0efefedec4bb` 经 `expected_sha`、`force:false` 成功非强制快进该候选，复核main HEAD与496 ready Blob `0b5362b8ddda03787e2d75d5314b27019e76c82d`、原496 draft在同树已删除。main同精确提交 Actions `41643619978` **SUCCESS**。
+- 本报告前面的“结构门槛待验证”为候选阶段记录，以上真实精确CI和main更新覆盖该状态；未发布番茄、未改Canon/published或定时任务。

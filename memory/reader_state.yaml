@@ -4768,3 +4768,22 @@ chapter_496_audit_20261103:
   body_revisions: 0
   content_qa: pass
   structural_gate: exact_candidate_ci_required
+
+release_496_reader_evidence:
+  chapter: 496
+  original_sha: "5d2cf38a682d59786151ddc1db5708064c5b936d"
+  initial_review: reader_reviews/0496_5d2cf38a.md
+  initial_counts: "0/1/2"
+  final_sha: "fc0fffd808fd86b984e6ff51b256c8a9646dcc3e"
+  final_review: reader_reviews/0496_fc0fffd8.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  body_revisions: 0
+  predecessor_ready_blob: "1994c77e91f606310c4bff02d2f5a81b4e51e3af"
+  independent_qa: pass
+  exact_candidate_commit: "5c2b56b376e42e5c65de845a093d2e81532465b7"
+  exact_candidate_ci_success: 41643519424
+  main_ci_success: 41643619978
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  ready_blob: "0b5362b8ddda03787e2d75d5314b27019e76c82d"
+  main_ref_update: expected_sha_force_false_success

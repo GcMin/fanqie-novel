@@ -4179,3 +4179,19 @@ chapter_496_revision_verified:
   predecessor_ready_sha: "1994c77e91f606310c4bff02d2f5a81b4e51e3af"
   qa_gate: pass
   structural_gate: exact_candidate_ci_required
+
+release_496_revision_evidence:
+  chapter: 496
+  stage_a_used: 1
+  fix: predecessor_495_source_sha_from_provisional_to_exact_ready_after_body_title_compare
+  body_revisions: 0
+  initial_counts: "0/1/2"
+  final_counts: "0/0/2"
+  final_source_sha: "fc0fffd808fd86b984e6ff51b256c8a9646dcc3e"
+  final_review: reader_reviews/0496_fc0fffd8.md
+  independent_qa: pass
+  exact_candidate_commit: "5c2b56b376e42e5c65de845a093d2e81532465b7"
+  candidate_ci_success: 41643519424
+  main_ci_success: 41643619978
+  ready_blob: "0b5362b8ddda03787e2d75d5314b27019e76c82d"
+  main_ref_update: expected_sha_force_false_success

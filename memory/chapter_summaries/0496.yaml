@@ -33,6 +33,6 @@ foreshadowing_updates:
 ending_state: "Day359 20:23曹父有Day360下午一次付费试行服务真实排班，犬仍在原寄养机构至Day360 11:12，Day360晨前接犬、送家、授权交接与后续服务未定；后巷翘砖待修。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "5d2cf38a682d59786151ddc1db5708064c5b936d", initial_counts: "0/1/2", final_draft_sha: "fc0fffd808fd86b984e6ff51b256c8a9646dcc3e", stage_a_used: 1, body_revisions: 0, predecessor_draft_sha: "6e9e84055cfbbec4941865b593fd5863a0b19f78", predecessor_ready_blob: "1994c77e91f606310c4bff02d2f5a81b4e51e3af", predecessor_factual_delta: body_title_identical_delivery_metadata_only}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_success_41643519424}
 char_count: 3161
-release_evidence: {structural_gate: exact_candidate_ci_required}
+release_evidence: {candidate_commit: "5c2b56b376e42e5c65de845a093d2e81532465b7", candidate_ci_success: 41643519424, main_ci_success: 41643619978, publisher_check_local: pass, structural_unit_tests: pass, main_ref_update: expected_sha_force_false_success, ready_blob: "0b5362b8ddda03787e2d75d5314b27019e76c82d", structural_gate: exact_candidate_ci_success_41643519424}
