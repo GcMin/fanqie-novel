@@ -6,9 +6,9 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "5419e38d446c67f089cdbd76c25de625c62a966e"
 - depends_on_chapter: 497
-- depends_on_source_sha: "56e6b14651ed8970132686f851d763565cadf6a0"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0497.md
+- depends_on_source_sha: "2e601cc3945d18d81c3433954177a2a63610d6f0"
+- dependency_status: verified_predecessor_factual_delta_reconciled
+- predecessor_location: chapters/ready/0497.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day360 22:17—Day361 07:26
 - title: 楼梯灯还亮着，七楼的人却没下去
@@ -49,3 +49,7 @@
 - 注意当前卷与arc独立纲文件落后于正文时，以已ready具体事实与最近未审497版本区分Canon/临时，未将落后状态文件当章号锁。
 - 直接前章497为draft blob 56e6b14651ed8970132686f851d763565cadf6a0，故仅记录临时依赖，不宣称已审；本章另起普通消防联动，与497尚未审定的返家细节无事实依赖。
 - Writer只新增chapters/draft和plans两文件，不开展Reader/Revision/QA/Memory/Publish Gate或平台发布。
+
+## Audit factual-delta reconciliation（2026-11-03）
+- 第497章原draft `56e6b14651ed8970132686f851d763565cadf6a0` 至ready `2e601cc3945d18d81c3433954177a2a63610d6f0` 的标题同一；正文只有水碗自窗台移至窗台下地砖的一处事实澄清，其余关键救犬/回寄养情节不变。第498章为独立消防救援，不引用497水碗与其他交接细节，安全重绑正式ready SHA而不修改小说正文。
+- 初稿SHA `00d1985d0b7979d5e25fb558cd66ff2707ad4efb` Reader Pass A/B 0/1/2，已完成唯一Stage A依赖修复，必须以新SHA独立Pass A和Pass B复审及QA、精确结构CI后才能ready。

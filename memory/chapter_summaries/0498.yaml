@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 498
+title: "楼梯灯还亮着，七楼的人却没下去"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "00d1985d0b7979d5e25fb558cd66ff2707ad4efb"
+source_draft_sha: "d8b315479a520af9d299c06c1887c5b841d4d518"
+initial_review: "reader_reviews/0498_00d1985d.md"
+reader_review: "reader_reviews/0498_d8b31547.md"
+depends_on_chapter: 497
+depends_on_source_sha: "2e601cc3945d18d81c3433954177a2a63610d6f0"
+dependency_status: verified_predecessor_factual_delta_reconciled
+timeframe: "Day360 22:17—Day361 07:26"
+summary: >-
+  Day360 22:17青杉里6号楼702齐曼发现楼梯间烟和热塑料味，立刻回屋关门联系物业及119并按消防指引和儿子等候；物业群公告却称“楼内全部撤离”。22:24物业向夜间中心报告已疏散六人，实为门岗闸机出行六条，其中两名是外卖骑手；夏宁周衡不将绿字人数当逐户真实撤离，保留原报文并将702仍困两人的有源信息按渠道移交现场消防。22:43梁策只到外围警戒线旁给指定岗位交真实位置，不擅入烟区，物业周庆林逐户核已知位置，601庄阿姨因未接电话仅列待确认。23:06消防实际到702核身份，23:19母子真实撤至安全区；23:27另由专业人员找到601庄阿姨带离、现场医护仅作实际评估，她与家属团聚。23:49物业试称楼里全出来被夏宁追溯来源后改为只证702两人及601一人，原六条虚已撤保源；Day361 00:38消防有责本轮控险但电气隔离排查尚待完成，不签全楼恢复。02:15齐曼拒丈夫未获许可回屋取物；03:27物业实置临时管控与夜联络人，齐曼决定先投亲属，07:26本班有限回报确认601经专业评估由家属陪离安置点、702母子尚未返家，电气原因和何时恢复仍未结案。独立普通设施错映非2019历史签认史料，F008/M004/M005无新证。
+meaningful_state_changes:
+  - "702母子与601老人由未核在楼内转为有责专业人员实际救至安全区，逐人逐时核见，不是群帖先验撤离。"
+  - "物业原六条闸机绿字保源并纠错为闸机/现场签到/消防实际确认三列，原强断全楼撤离被撤回。"
+  - "楼前实际设置临时管控和夜间联系，正常返屋许可、用电维修及具体故障源仍需有责专业核查。"
+knowledge_updates:
+  - "齐曼知道自己22:17仍在702、23:19真到安全区，她在亲属处暂住未获返屋许可；当时不知道601老人是否安全。"
+  - "周衡夏宁知道门岗六条含两位骑手且非住户逐户清单，只有现场确见人员可写到达；不能代消防签全楼复用安全。"
+  - "梁策只在外围递交实际702位置，未越消防警戒线或按闸机猜全部撤离。"
+  - "物业经理周庆林确知原绿勾错误并按现场/来源分栏，楼内仍有电气问题需专业查。"
+relationship_updates:
+  - "齐曼与丈夫纠正由群公告推她安全的误信，丈夫实际到安置点陪孩子且不擅返回危险区。"
+  - "周庆林接受夜间中心与消防联络纠错，不再以闸机数量替代住户实际安全确认。"
+foreshadowing_updates:
+  - "F003原单位2019纸簿第73页只非身份页项与表式，历史签封及旧回告/真人获答/2022字节同一未证；F008/M004/M005无独立新增证据。"
+ending_state: "Day361 07:26 702母子和601老人已获救并在专业指引下安置或与家属离开，七零二未返家；物业原伪全撤状态有源留档，楼栋安全恢复和电气故障原因仍待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "00d1985d0b7979d5e25fb558cd66ff2707ad4efb", initial_counts: "0/1/2", final_draft_sha: "d8b315479a520af9d299c06c1887c5b841d4d518", stage_a_used: 1, body_revisions: 0, fix: rebind_497_ready_after_actual_body_delta_compare, predecessor_draft_blob: "56e6b14651ed8970132686f851d763565cadf6a0", predecessor_ready_blob: "2e601cc3945d18d81c3433954177a2a63610d6f0", predecessor_factual_delta: enamel_bowl_sill_to_floor_498_unaffected}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3186

@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 497
-last_reviewed_title: "回家的门开了，阿棋却还不能留下"
-last_source_path: chapters/draft/0497.md
-last_source_sha: 2138d6009bb4c62e92f5a8ebe8db18e212acffc4
-last_review_path: reader_reviews/0497_2138d600.md
+last_reviewed_chapter: 498
+last_reviewed_title: "楼梯灯还亮着，七楼的人却没下去"
+last_source_path: chapters/draft/0498.md
+last_source_sha: d8b315479a520af9d299c06c1887c5b841d4d518
+last_review_path: reader_reviews/0498_d8b31547.md
 last_reviewed_at: "2026-11-03"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -4805,5 +4805,26 @@ chapter_497_audit_20261103:
   body_revisions: 1
   predecessor_ready_blob: "0b5362b8ddda03787e2d75d5314b27019e76c82d"
   predecessor_factual_delta: exact_ready_sha_no_mismatch
+  independent_content_qa: pass
+  structural_gate: pending_exact_candidate_ci
+
+chapter_498_audit_20261103:
+  chapter: 498
+  original_source_sha: "00d1985d0b7979d5e25fb558cd66ff2707ad4efb"
+  initial_review: reader_reviews/0498_00d1985d.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_used: 1
+  fix: "rebind_predecessor_497_provisional_original_to_actual_ready_after_body_delta_reconciled"
+  final_source_sha: "d8b315479a520af9d299c06c1887c5b841d4d518"
+  final_review: reader_reviews/0498_d8b31547.md
+  pass_a: independent_new_sha_read_current_three_ready_and_recent_ten_summaries_style_first
+  pass_b: independent_after_pass_a_canon_arc_world_people_timeline_foreshadowing
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  body_revisions: 0
+  predecessor_original_draft_blob: "56e6b14651ed8970132686f851d763565cadf6a0"
+  predecessor_ready_blob: "2e601cc3945d18d81c3433954177a2a63610d6f0"
+  predecessor_factual_delta: water_bowl_sill_to_floor_498_independent_case
   independent_content_qa: pass
   structural_gate: pending_exact_candidate_ci

@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 497
+current_chapter: 498
 current_stage: content_qa_pass_pending_exact_ci
-current_source_path: chapters/draft/0497.md
-current_source_sha: 2138d6009bb4c62e92f5a8ebe8db18e212acffc4
-current_review_path: reader_reviews/0497_2138d600.md
+current_source_path: chapters/draft/0498.md
+current_source_sha: d8b315479a520af9d299c06c1887c5b841d4d518
+current_review_path: reader_reviews/0498_d8b31547.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -4212,5 +4212,26 @@ chapter_497_revision_verified:
   body_revisions: 1
   char_count: 3267
   predecessor_ready_sha: "0b5362b8ddda03787e2d75d5314b27019e76c82d"
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci
+
+chapter_498_revision_verified:
+  chapter: 498
+  original_sha: "00d1985d0b7979d5e25fb558cd66ff2707ad4efb"
+  initial_review: reader_reviews/0498_00d1985d.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_used: 1
+  fix: "actual_compare_chapter497_original_to_ready_and_rebind498_FM_and_plan"
+  final_sha: "d8b315479a520af9d299c06c1887c5b841d4d518"
+  final_review: reader_reviews/0498_d8b31547.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  retry_cycles: 0
+  body_revisions: 0
+  char_count: 3186
+  predecessor_original_sha: "56e6b14651ed8970132686f851d763565cadf6a0"
+  predecessor_ready_sha: "2e601cc3945d18d81c3433954177a2a63610d6f0"
+  predecessor_factual_delta: bowl_sill_to_floor_no_chapter498_fact_dependency
   content_qa: pass
   structural_gate: pending_exact_candidate_ci
