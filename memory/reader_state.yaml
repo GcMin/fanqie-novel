@@ -4638,3 +4638,17 @@ chapter_491_audit_20261103:
   body_revisions: 1
   content_qa: pass
   structural_gate: exact_candidate_ci_required
+
+release_491_reader_evidence:
+  chapter: 491
+  original_sha: "1c002ae23b8e3305ab422d4288e81a2550e2a3f5"
+  initial_review: reader_reviews/0491_1c002ae2.md
+  final_sha: "3152ab33fc9df02654b8c32d0b6b8edaaa86fdb7"
+  final_review: reader_reviews/0491_3152ab33.md
+  initial_counts: "0/3/2"
+  final_counts: "0/0/2"
+  content_qa: pass
+  candidate_commit: "f15086387464cfab260fb2c1467d16dd26b9a939"
+  candidate_ci_success: 41602893283
+  ready_blob: "06daeb10f8ce9cd3c70d053e4008d3e4f1734c8f"
+  main_ref_update: expected_sha_force_false_success

@@ -9,3 +9,7 @@
 - Style PASS：第73页被遮挡的局部、补修书脊和窗口等待具体化情绪，人物有不问和删问题的行动；Stage A清除英文混入。剩余重复权限解释与低烈度章尾只记2项MINOR，不再重写。
 - Meaningful PASS：F003从「2019原形成单位纸簿确有实物、外号与目录相符」推进到「有权定位第73页对应区域及表式字段类别」，资料级别有真实增加但不证任何自然人签收、旧原回告或2022实际读取具体文件字节。F008/M004/M005不确证，F009/F010/F011已resolved。
 - **结构门禁待实际精确候选CI成功**：此内容QA不是CI PASS，只有精确candidate Commit的unittest与`python -m publisher.check_local --repo .`成功后才能main放行。
+
+## 精确候选结构校验与正式放行证据
+- 候选Commit `f15086387464cfab260fb2c1467d16dd26b9a939`，通过 `audit/ready-0491-20261103-run11` 的同head_SHA工作流run `41602893283` **SUCCESS**，结构单元测试步骤和 `python -m publisher.check_local --repo .` 步骤均SUCCESS。原待核门禁已由真实执行结果覆盖。
+- main以expected_sha `2adaffc40ffa46c7516b93be24c5f54f3de09307`、force:false 非强制快进对应候选成功，0491正式ready Blob `06daeb10f8ce9cd3c70d053e4008d3e4f1734c8f`，原草稿已从候选正式树删除。此证据不向Canon添加真实签名或人物身份。

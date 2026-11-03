@@ -1494,3 +1494,7 @@ Day173 20:24仅是该号码未来新语义的专业标识测试，20:39廖珊看
 - Writer原draft `1c002ae23b8e3305ab422d4288e81a2550e2a3f5`先独立Reader Pass A→B `0 BLOCKER/3 MAJOR/2 MINOR`；三项可操作问题为前490临时SHA、Day353 20:46「上午那份」误指当日而申请在Day352上午、纯中文小说突现英文“insist”。Stage A限项重绑正式490ready SHA并修「昨天上午那份」「坚持」，其它剧情不改。新完整draft SHA `3152ab33fc9df02654b8c32d0b6b8edaaa86fdb7`已重新独立Pass A再B `0/0/2`、keep/none，旧Review不用于放行。有效字数3109，独立Continuity/Style/Meaningful Change QA PASS。
 - 已逐字比较前490原草稿 Blob `3ccbfd3a...` 与正式ready Blob `0dda5a29...` 的标题和去Front Matter正文完全相同，差异纯交付元数据，新491正文与章纲都已重绑准确前章SHA。第489章Day352上午新窄页项申请只收件，Day353晚获许可、Day354 09:17合法核原单位纸簿第73页业务区域与非身份表式栏目、10:58正式限项摘录、20:22中心新夜班实收；**没有**读到2019具体签名、2016回告内件、历史本人实际收答或2022字节同一。F003仅增加页项定位证据，F008/M004/M005不确证。钟楼正常公众报时仍停，阿棋Day358续住节点不变。
 - 内容QA不代表结构成功；只有含491 ready与Reader新SHA/QA/Memory/Plan的**精确候选CI**结构单测与`python -m publisher.check_local --repo .`真实成功后方可正式main放行。
+
+## 第491章正式ready与精确CI（2026-11-03）
+- 正式候选Commit `f15086387464cfab260fb2c1467d16dd26b9a939`，GitHub Actions `Validate Fanqie ready chapters` run `41602893283` head SHA精确一致，**SUCCESS**：`Test offline snapshot validation`、`Validate this checkout without Git sync or publishing` 均PASS（后者实际运行 `python -m publisher.check_local --repo .`）。以`expected_sha=2adaffc40ffa46c7516b93be24c5f54f3de09307`及`force:false`正式快进main成功；0491 ready Blob `06daeb10f8ce9cd3c70d053e4008d3e4f1734c8f`，原draft已删。先前「精确结构待核」已由对应实际CI结果覆盖。
+- 第491章Reader初审0/3/2，Stage A修昨日申请/中文措辞与前章正式SHA依赖，修订稿新SHA `3152ab33...`独立Pass A/B最终0/0/2；独立连续性、文风、有效变化QA均PASS，长期Memory和第491章唯一ready计划行已更新。F003增加真实页项位置但非签认，F008/M004/M005仍不确证。
