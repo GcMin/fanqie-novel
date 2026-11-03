@@ -4131,3 +4131,19 @@ chapter_494_revision_verified:
   predecessor_ready_sha: "dad59cdea686cd0eac3cf199cbd103440bd992fb"
   qa_gate: pass
   structural_gate: exact_candidate_ci_required
+
+chapter_495_revision_verified:
+  chapter: 495
+  original_sha: "6e9e84055cfbbec4941865b593fd5863a0b19f78"
+  final_sha: "6e9e84055cfbbec4941865b593fd5863a0b19f78"
+  final_reader: reader_reviews/0495_6e9e8405.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage: no_revision_needed
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  retry_cycles: 0
+  body_revisions: 0
+  predecessor_ready_sha: "24115755aac852cc43f90ff90f03e24157bc8ee6"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required

@@ -1517,3 +1517,8 @@ Day173 20:24仅是该号码未来新语义的专业标识测试，20:39廖珊看
 - 精确候选Git commit `6fb356be752a424b9189c94a0998352c656ee32f`、Tree `7d38c426bc77267b4fa21f99d977cf34e92eb4d8`、审计分支 `audit/ready-0494-20261103-1907` 的GitHub Actions run `41625992376` 与head精确匹配且**SUCCESS**；结构单元测试与`python -m publisher.check_local --repo .`（步骤 `Validate this checkout without Git sync or publishing`）均成功。
 - main以expected_sha=`f974a6addffdc52acd27dbf01b86e7563bc9fea1` 和force:false真实快进该commit；第494章正式ready Blob `24115755aac852cc43f90ff90f03e24157bc8ee6`，原draft已删，小说正文未改。Reviewer 0/0/2, QA/Memory和唯一计划更新已正式落库，未发布番茄。
 - 旧候选阶段“结构门禁待核”由精确CI实证覆盖；F003/F008/M004/M005仍未获得新增历史确证。
+
+## 第495章独立 Reader 与内容QA｜2026-11-03（精确结构门禁须真实校验）
+- 原草稿 `chapters/draft/0495.md` Git Blob `6e9e84055cfbbec4941865b593fd5863a0b19f78`，前章494正式ready `24115755aac852cc43f90ff90f03e24157bc8ee6` 与FM和章纲精确依赖；没有旧临时前章SHA的事实差异。独立Reader Pass A普通读者视角先核495、492—494正文、485—494摘要和文风，Pass B后核Canon、人物知识/关系/世界、ARC-054、时间线与F003/F008，绑定`reader_reviews/0495_6e9e8405.md`，结果0 BLOCKER、0 MAJOR、2 MINOR keep/none，正文0字改动；Continuity/Style/Meaningful独立QA均PASS，有效字符3443（不计6行分场符）。
+- 第488章Day351本人签七日续住至Day358 11:12及膝盖受车声刺激犬前趋、女儿长班、老杜无日常代遛授权均承接。Day357夜曹国荣亲问老杜后发现收到的“已确认接领”是Day351问路备注被寄养点打印模板误映，Day358老杜本人到机构拒代领并撤机构紧急联系；父女真实核费、工作和安全，10:58曹国荣签两日有限续住、11:03真实确认并付费至Day360 11:12，阿棋原犬舍继续受控照护未出舍。Day359 09:30仅获到家条件评估预约确认，非合同、接犬委托或健康完好结论；曹父Day358 20:07真实回拨夜间中心，原错信息有源留存，机构整个模板尚未全局核改。中心只做本人授权有源转办，不越权批准机构放犬。
+- F003仍仅到2019原形成单位纸簿第73页业务区域与非身份栏式，签认填值、2016旧回告在封、历史真人是否真正获答及2022文件字节同一仍未知；F008/M004/M005无确证，钟楼未批准公众报时全面复开、安康转接接口未正式整改、林叔原带未专业鉴定与外转未知均不变。内容QA不等于结构门禁；只有精确候选Commit的 `python -m publisher.check_local --repo .` 或等价CI真正SUCCESS后可放行。
