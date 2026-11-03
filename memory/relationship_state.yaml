@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 484
+last_updated_chapter: 485
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2163,4 +2163,12 @@ chapter_484_relationship_verified:
   street_service: "卢青尊重乔芮确认宠物真实失联的证据，同时保护另只黑白花狗有独立报事人的原始接收状态；照片工作用途需征本人同意并遮个人资料。"
   professional_boundary: "曾跃负责设施安全、方槿负责救助、夜间中心负责分源协调；各方未把一次救援当作全部设施恢复。"
   core_team: "三名中心人员只正常联动，无已确认的信任分数变化。"
+  trust_scores_unchanged: true
+
+chapter_485_relationship_verified:
+  chapter: 485
+  father_daughter: "曹茵急着接阿棋并担心曹国荣膝盖不便，父亲要求别替他永久送狗；双方同意本次临时代领/短期寄养并约三日后一起决定，未永久消除分歧。"
+  reporter_rescuer: "姜烁仍作为昨夜报事人关切犬只，方槿明确区分其知情与所有权，给他隐私最小的真实结单。"
+  shelter_professionals: "方槿与有权负责人只核身份/有限授权和实际交接，不以狗听名或平台绿字替代本人意愿；中心三人不越权代签。"
+  core_team: "夏宁周衡梁策仍按原联动分工行事，未确认长期关系或信任分值变化。"
   trust_scores_unchanged: true

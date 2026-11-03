@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 484
-current_stage: ready_after_exact_candidate_ci_success
-current_source_path: chapters/draft/0484.md
-current_source_sha: 34a586e1598f5a8ef729b592645c9a688d0a2d5d
-current_review_path: reader_reviews/0484_34a586e1.md
+current_chapter: 485
+current_stage: content_qa_pass_pending_structural_ci
+current_source_path: chapters/draft/0485.md
+current_source_sha: 7248fab060ec4128f9178f1e0812a91cf92d10c0
+current_review_path: reader_reviews/0485_7248fab0.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter483_484_ready_after_ci_41559384621
+last_action: chapter485_review_qa_candidate
 last_action_date: "2026-11-03"
 last_error: null
-last_diff_summary: "第483、484章内容QA PASS，483 Reader0/0/2、484Stage A前0/1/2→新SHA0/0/2，正文0字修改；精确候选Git Tree fc71542d06d1e4a34f6298b68a94e8d9143af1ea 的CI 41559384621和同SHA main CI 41559456334均SUCCESS；非强制expected_sha正式放行两章。"
+last_diff_summary: "第485章原始draft Reader双遍0/0/2、Continuity/Style/Meaningful内容QA通过，前484正式ready SHA精确匹配，小说正文0字变更；精确候选结构CI待确认后才能进入main。"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: true
-current_review_source_sha: 34a586e1598f5a8ef729b592645c9a688d0a2d5d
+publish_gate_passed: false
+current_review_source_sha: 7248fab060ec4128f9178f1e0812a91cf92d10c0
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -3915,3 +3915,16 @@ release_483_484_revision_evidence:
   main_ci_success: 41559456334
   ready_483_blob: "a2901ad21661925c544aff1d2700304ffe09f414"
   ready_484_blob: "9793fbb93a768261a53f728969b32ffcaa0625e8"
+
+chapter_485_revision_verified:
+  chapter: 485
+  source_sha: "7248fab060ec4128f9178f1e0812a91cf92d10c0"
+  reader_review: "reader_reviews/0485_7248fab0.md"
+  counts: "0/0/2"
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "9793fbb93a768261a53f728969b32ffcaa0625e8"
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci
