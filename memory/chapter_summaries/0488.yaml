@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 488
+title: "牵引绳仍在他手里，归家的日期还空着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "eed03b052a8aed66f5144b3da822f49228af54bb"
+reader_review: "reader_reviews/0488_eed03b05.md"
+depends_on_chapter: 487
+depends_on_source_sha: "3631a601180aa38e6745c5e43d2b3b9e12137111"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day350 20:21—Day351 14:13"
+summary: >-
+  Day350 20:21曹茵听寄养点报告阿棋吃喝活动有记录但对车声会等待，Day348 11:12起三天寄养将在Day351 11:12到期。曹国荣仍想接犬回榆叶巷、膝盖不便；女儿长班不能单独保证白天照护。Day351 09:26父女一起去寄养点，10:08经本人身份和有限授权核对见犬，曹父与黑白花犬阿棋真实相认；10:43短距试牵遇外部公交气刹声犬前趋，父亲膝盖不稳，工作人员及时接手，无人受伤也不作医学诊断。双方认识到老杜未承诺日常代遛、女儿长班同样留照护缺口，不能用热心替别人安排长期值守。11:06逐项商议、11:20本人和女儿经真实确认签七天有限续住并分别付费，原Day351 11:12到期如实记录后续连续照护，续住节点至Day358 11:12；曹父未永久转让阿棋，也未承诺到期立即接犬。两次拟探访未获预约，不把未来居家照护/医疗/服务审批写成已成。14:13曹茵收到正式续住确认并转父亲，旧磨白牵引绳由女儿保管，父女尊重彼此决定和现实能力。与第487章钟楼案不同线，公众复验与下一夜观察未结；F003旧2019纸档只真实收件待阅准，F008/M004/M005无新独立证据。
+meaningful_state_changes:
+  - "三天寄养真实到期并通过父女和服务方实际签认、付费续住七天至Day358 11:12，永久饲养关系没有改变。"
+  - "曹国荣从坚持当日带狗回家转为亲见自身试牵能力与协助缺口后承认应继续安排；曹茵承认自己的长班难以独自照护，不再代父亲作永久决定。"
+  - "旧牵引绳由女儿保管，拟定探访时间明确仍需确认，未把预计日程冒充预约完成。"
+knowledge_updates:
+  - "曹茵知道自己长班期间无法保证日间照护、父亲目前牵犬遇突然车声会不稳，仍需取得真正长期照护承诺；未因本次续住拥有父亲永久转让权。"
+  - "曹国荣见阿棋认出自己也见到当日受力时膝盖不稳，亲自同意七天续住，不代表本人放弃原饲养决定权。"
+  - "照护员只知该班有来源的犬吃喝活动记录与入舍基础检查，不知道阿棋全部健康风险；隔壁老杜未被确认为正式日常代遛人。"
+relationship_updates:
+  - "曹茵、曹国荣由互相代安排转为共同确认现实资源、分别签认承担费用，彼此保留后续决定权，不夸大为照护问题最终解决。"
+foreshadowing_updates:
+  - "本章无F003新增历史纸档证据，F008无可信异样记忆样本，M004/M005不确证，F009/F010/F011保持resolved。"
+ending_state: "Day351 14:13阿棋继续短期寄养至Day358 11:12，原饲养人曹国荣仍拥有决定权，曹茵协助照护；下次两次探访、之后实际接犬/健康及长期条件均待真实核对。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "eed03b052a8aed66f5144b3da822f49228af54bb", final_draft_sha: "eed03b052a8aed66f5144b3da822f49228af54bb", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "3631a601180aa38e6745c5e43d2b3b9e12137111", dependency_status: verified_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3314
+release_evidence:
+  ready_blob: "bf9f8cedc38eb30a792940f8a5f7a9f3686101f6"
+  structural_gate: exact_candidate_ci_required

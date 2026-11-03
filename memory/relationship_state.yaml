@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 485
+last_updated_chapter: 488
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2186,4 +2186,12 @@ chapter_487_relationship_verified:
   mother_daughter: "陈秋荷保护女儿杜晚晚不被要求再录钟声；让她按自己理解的停顿完成朗读展示，未将设施责任转嫁给孩子。"
   manager_resident: "辛立起初质疑陈秋荷是不是听错，后限项查明两条独立输出故障，主动承认起初怀疑并有源回告、尊重录音隐私和未来监测责任。"
   core_team: "夏宁周衡梁策仍只做有源协调，尊重设备管理和专业岗位授权，既不把后台绿勾冒充现实，也不替设施方签永久复用。"
+  trust_scores_unchanged: true
+
+chapter_488_relationship_verified:
+  chapter: 488
+  source_sha: "eed03b052a8aed66f5144b3da822f49228af54bb"
+  cao_yin_and_cao_guorong: "Day350—351互相拒绝替对方预先决定阿棋永久去向；父亲现场牵犬遇风险后承认现实限制，女儿承认自己长班照护缺口。本人分别签认续住协议与付费、共同留两次待确认探访，保留七天后重新商议，不夸大为已解决长期护理与家庭分歧。"
+  father_and_dog: "阿棋在寄养点辨认曹国荣并贴其膝旁，车辆刹车声时前趋被专业及时接手；父亲保留决定权但暂不凭旧绳亲自独立遛犬。"
+  foster_staff: "有责服务方尊重本人授权，按实际可承诺的服务和安全活动流程协助父女签约，不代任何一方作出永久归属决定。"
   trust_scores_unchanged: true

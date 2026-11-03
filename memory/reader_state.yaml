@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 487
-last_reviewed_title: "十一点的钟声多响了一遍"
-last_source_path: chapters/draft/0487.md
-last_source_sha: e397ba3a576322ddfe35a2fd0d368d8eeecb34e5
-last_review_path: reader_reviews/0487_e397ba3a.md
+last_reviewed_chapter: 488
+last_reviewed_title: "牵引绳仍在他手里，归家的日期还空着"
+last_source_path: chapters/draft/0488.md
+last_source_sha: eed03b052a8aed66f5144b3da822f49228af54bb
+last_review_path: reader_reviews/0488_eed03b05.md
 last_reviewed_at: "2026-11-03"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,11 +12,11 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 486
-depends_on_source_sha: 2e65046b8c9f2932d01aea9bb517cd9270a83919
-dependency_status: verified_predecessor_factual_delta_reconciled
-predecessor_current_source_sha: 2e65046b8c9f2932d01aea9bb517cd9270a83919
-predecessor_sha_mismatch: true
+depends_on_chapter: 487
+depends_on_source_sha: 3631a601180aa38e6745c5e43d2b3b9e12137111
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 3631a601180aa38e6745c5e43d2b3b9e12137111
+predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
@@ -4556,3 +4556,19 @@ release_486_487_reader_evidence:
   main_ci_success: 41577456639
   ready_486_blob: "2e65046b8c9f2932d01aea9bb517cd9270a83919"
   ready_487_blob: "3631a601180aa38e6745c5e43d2b3b9e12137111"
+
+chapter_488_audit_20261103:
+  chapter: 488
+  title: "牵引绳仍在他手里，归家的日期还空着"
+  source_draft_sha: "eed03b052a8aed66f5144b3da822f49228af54bb"
+  review_path: reader_reviews/0488_eed03b05.md
+  pass_a: completed_before_canon_read
+  pass_b: completed_after_canon_read
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  predecessor_ready_blob: "3631a601180aa38e6745c5e43d2b3b9e12137111"
+  predecessor_factual_delta: exact_ready_sha_no_mismatch
+  body_revisions: 0
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required

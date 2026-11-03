@@ -1465,3 +1465,9 @@ Day173 20:24仅是该号码未来新语义的专业标识测试，20:39廖珊看
 - 精确候选/正式放行Commit `7dde6240d26c18aa99b466137064b769168dc580`，Tree `53ac50e3d5996a1c6d442ad87bc0ee7a6c6667d9`；审计分支CI `41577411179` **SUCCESS**，结构单测及`python -m publisher.check_local --repo .`均对精确提交实际PASS；main同SHA CI `41577456639` **SUCCESS**；已用expected_sha=`60ebdd5adfa059ec487b232c46a24d140d88243c`、force:false非强制快进main。第486/487章已同树从draft删除并正式迁入ready；486 ready Blob `2e65046b8c9f2932d01aea9bb517cd9270a83919`；487 ready Blob `3631a601180aa38e6745c5e43d2b3b9e12137111`。
 - 第486章原稿Reader0/2/2 → Stage A修复无据签名标题与跨夜班时点 → 新SHA双遍Reader0/0/2、3043字、内容QA PASS；第487章仅修前章依赖元数据/字数，新SHA双遍Reader0/0/2、3195字、内容QA PASS；正文修改仅第486章局部句段。
 - F003新增2019合法纸档查询路径申请真实收件但尚无获准查阅/签认原件；Day349—350钟楼故障两条实际问题经专业室内限项纠正，正式公众复验和下一夜观察待核，F008/M004/M005无新确认。以上正本质量门槛与结构门槛均有独立实际证据，Canon、published、定时任务及Writer新稿未动。
+
+## 第488章独立Reader与内容QA（2026-11-03；精确结构门禁尚待核验）
+- 对原draft Git Blob `eed03b052a8aed66f5144b3da822f49228af54bb`独立Pass A（本章与485—487正文、近期十章摘要、文风）然后Pass B（Canon、人物、关系、知识、世界、时间、当前剧情弧、F003/F008）完成Reader 0 BLOCKER/0 MAJOR/2 MINOR，keep/none；不启动Revision，小说正文0字修改。独立Continuity/Style/Meaningful QA均PASS。标题与章纲一致，按去空白且排除4组场景分隔符 `***` 3314有效字符，标题≥5字，硬区间合格。
+- 前章487正式ready Blob `3631a601180aa38e6745c5e43d2b3b9e12137111`与草稿和章纲精确依赖完全一致，不存在未核旧稿事实差异。Day350 20:21独立转到曹茵曹国荣阿棋照护线；Day351 10:43父亲本人试牵时公交气刹声使犬前趋、膝盖失稳但有人安全托绳，无伤与医学诊断；女儿也因长班没有日间照护保证、邻居老杜未答应代遛。原三天寄养Day351 11:12到期，父女于11:20实际签认七天续住并分付费用至Day358 11:12，14:13获正式确认；这不是永久转让或已预约探访。健康只有基础观察，不保证全部无事。
+- F003 Day349原形成单位旧纸档限项申请真实收件未获阅准，2022读取字节和2019真签封等缺源；F008/M004/M005不升级，F009/F010/F011保持resolved。第487广场钟楼公众侧验收和下一夜观察继续未结。
+- 结构放行必须对含ready章节、Plan和Reader/QA/Memory更新的**精确候选Commit**实际执行结构单测与`python -m publisher.check_local --repo .`并获得SUCCESS后才能以expected_sha和force:false推进main；本内容QA不是结构成功证据。
