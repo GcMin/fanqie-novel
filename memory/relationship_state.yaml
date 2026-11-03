@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 502
+last_updated_chapter: 503
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2303,3 +2303,10 @@ chapter_502_arc054_update:
   zhu_ling_and_stall_owner: "祝泠本人坚持不冒险跨链或让他人代搬，22:21货物真到摊；摊主承认晚到但先排剩余夜工，误工收入责任未定。"
   ma_yun_and_colleague: "马芸要求同事仅按原合法摘录的定位字段校同笔，不夹未证同源的2016旧件，不以无授权人名替代证据。"
   core_team: "周衡听梁策提醒不画收件号等于后续真实转送，夏宁对受理/许可/实际通行分开来源，梁策只确认现场和有责回告。"
+
+chapter_503_arc054_update:
+  chapter: 503
+  source_sha: "703c8dba76fc949dfc46dbceee40c4b3676193c4"
+  ma_yun_and_archive_staff: "马芸尊重本轮限制不窥另一个月同号业务，双岗只核库房外盒并出具真实限定回告，双方拒把候选目录当原始纸件。"
+  ma_yun_and_colleague: "马芸要求同事删去未经证实的“最终答复签收”，仅用合法原页号/编目页号/形成单位问候选随附同件性。"
+  core_team: "周衡原想把2019原笔接到盒号，在梁策夏宁提醒下明确画待核虚线并将拟申请留到白班，而非冒称已获历史真人回告。"

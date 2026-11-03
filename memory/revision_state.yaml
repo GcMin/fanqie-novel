@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 502
+current_chapter: 503
 current_stage: content_qa_pass_pending_structural_ci
 current_source_path: chapters/draft/0500.md
-current_source_sha: d252e40e2e76f4edbacc087ac2018c88ff489e85
-current_review_path: reader_reviews/0502_d252e40e.md
+current_source_sha: 703c8dba76fc949dfc46dbceee40c4b3676193c4
+current_review_path: reader_reviews/0503_703c8dba.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -4315,6 +4315,24 @@ chapter_502_revision_state:
   stage_a_used: 0
   stage_b_used: 0
   stage_c_used: 0
+  body_revisions: 0
+  retry_cycles: 0
+  safe_mode: false
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci
+
+chapter_503_revision_state:
+  chapter: 503
+  original_sha: "3d7d4c4c757350d600a14b78ec03f3d19c2a15ba"
+  initial_counts: "0/1/2"
+  initial_review: "reader_reviews/0503_3d7d4c4c.md"
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  fix_required_completed: "rebind previous 502 temporary draft SHA to exact ready after confirming predecessor body and title identical"
+  final_sha: "703c8dba76fc949dfc46dbceee40c4b3676193c4"
+  final_review: "reader_reviews/0503_703c8dba.md"
+  final_counts: "0/0/2"
   body_revisions: 0
   retry_cycles: 0
   safe_mode: false

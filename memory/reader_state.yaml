@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 502
-last_reviewed_title: "坡道上着锁，通行记录却写着恢复"
+last_reviewed_chapter: 503
+last_reviewed_title: "同号的两笔记录，只有一笔留着去处"
 last_source_path: chapters/draft/0500.md
-last_source_sha: d252e40e2e76f4edbacc087ac2018c88ff489e85
-last_review_path: reader_reviews/0502_d252e40e.md
+last_source_sha: 703c8dba76fc949dfc46dbceee40c4b3676193c4
+last_review_path: reader_reviews/0503_703c8dba.md
 last_reviewed_at: "2026-11-04"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -4922,5 +4922,22 @@ chapter_502_final_review:
   required_action: none
   pass_a_then_pass_b: true
   predecessor_ready_blob: "9a8f97bde5fee83c39666ed7676ebc1f71cd2c13"
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci
+
+chapter_503_final_review:
+  chapter: 503
+  original_source_sha: "3d7d4c4c757350d600a14b78ec03f3d19c2a15ba"
+  original_review: "reader_reviews/0503_3d7d4c4c.md"
+  original_counts: "0/1/2"
+  final_source_sha: "703c8dba76fc949dfc46dbceee40c4b3676193c4"
+  final_review: "reader_reviews/0503_703c8dba.md"
+  final_counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  pass_a_then_pass_b: true
+  predecessor_provisional_blob: "d252e40e2e76f4edbacc087ac2018c88ff489e85"
+  predecessor_ready_blob: "c865febbd82177834f8cbda61af89baf4d13944f"
+  predecessor_factual_delta: body_title_identical_delivery_metadata_only
   content_qa: pass
   structural_gate: pending_exact_candidate_ci

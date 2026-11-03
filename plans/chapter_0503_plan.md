@@ -7,9 +7,9 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "0854f1edb087a941d5a3400fb83868f8c6cd46ef"
 - depends_on_chapter: 502
-- depends_on_source_sha: "d252e40e2e76f4edbacc087ac2018c88ff489e85"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0502.md
+- depends_on_source_sha: "c865febbd82177834f8cbda61af89baf4d13944f"
+- dependency_status: verified_predecessor_factual_delta_reconciled
+- predecessor_location: chapters/ready/0502.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day366 09:06—Day367 07:12
 - target_effective_chars: 3000
@@ -18,7 +18,7 @@
 - status: planned_and_new_draft_only
 
 ## 本章目标与开场
-承接第502章Day365马芸向原形成单位档案窗口实际提交“2019原纸簿第73页指定业务续转记录存在性/可开放索引类别”申请、补交形成单位和双页号等定位；**上一章仅是未审draft**，其Day365事实绑定具体Git blob、保留provisional，不当作已审Canon。本章落实真实检索阶段回告，区分月度重复流水号、目录候选指向、实物盒在库与原历史业务同一性，不先验把2019纸簿和2016旧封袋/2022任务记录连成一条。
+承接第502章Day365马芸向原形成单位档案窗口实际提交“2019原纸簿第73页指定业务续转记录存在性/可开放索引类别”申请、补交形成单位和双页号等定位；**前502原稿经审核及精确结构CI成功后正式ready**，已逐字比较原稿与正式版标题和小说正文完全一致，仅交付Front Matter变化；本章Day365依赖事实不变，已绑定正式ready Git blob。本章落实真实检索阶段回告，区分月度重复流水号、目录候选指向、实物盒在库与原历史业务同一性，不先验把2019纸簿和2016旧封袋/2022任务记录连成一条。
 
 ## 人物诉求与冲突
 马芸希望查到旧业务是否真正传回人手中，但必须守住未授权自然人信息与原件查阅的边界；窗口工作人员要在同号与移交重编后保护来源，不能为满足申请人猜补结论。周衡更想追到永安里旧记忆旁的实证，梁策与夏宁压住“找到盒子=找到答复”的越线判断。
@@ -42,3 +42,8 @@ F003实质进展是合法定位出**一个同原2019第73页指定业务具有�
 
 ## Continuity Precheck（Writer，非独立QA）
 本轮重读main四份必读治理文档、Bible、三位人物卡、当前卷/ARC可用约束、长期知识/人物/世界/关系状态、F003/F008及近时间线、492—501十章摘要与498—502五章正文、502章纲。仓库独立volume仅到05，arc_current仍残留过期ARC-044，以正文502标记ARC-054和当前已审501为剧情依据；第153章确在published。三目录实盘最大第502章，计划及正文503此前不存在；前502仍是draft，原草稿blob=d252e40e2e76f4edbacc087ac2018c88ff489e85。不读取reader_reviews，不更改旧章、Memory、QA或平台发布内容。
+
+## Audit Stage A修订记录（2026-11-04）
+- 第502章原临时draft Blob `d252e40e2e76f4edbacc087ac2018c88ff489e85` 与正式ready Blob `c865febbd82177834f8cbda61af89baf4d13944f` 已真实核对，正文及标题完全一致，仅Front Matter交付元数据不同。
+- 第503章保留Writer当时以502草稿作为临时基础的历史Precheck事实；本次仅更新正式依赖、状态与路径，小说正文未修改。此前provisional约束现由已核正式ready替代，F003边界不变。
+- 第503章初审 0 BLOCKER/1 MAJOR/2 MINOR，唯一MAJOR为此前502临时SHA未重绑。此元数据调整后必须针对新完整Git Blob重新独立Pass A和Pass B。

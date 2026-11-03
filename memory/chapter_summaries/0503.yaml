@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 503
+title: "同号的两笔记录，只有一笔留着去处"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "3d7d4c4c757350d600a14b78ec03f3d19c2a15ba"
+source_draft_sha: "703c8dba76fc949dfc46dbceee40c4b3676193c4"
+initial_review: "reader_reviews/0503_3d7d4c4c.md"
+reader_review: "reader_reviews/0503_703c8dba.md"
+depends_on_chapter: 502
+depends_on_source_sha: "c865febbd82177834f8cbda61af89baf4d13944f"
+dependency_status: verified_predecessor_factual_delta_reconciled
+timeframe: "Day366 09:06—Day367 07:12"
+summary: >-
+  Day366 09:06马芸在原形成单位档案窗口收到Day365存在性查询阶段答复，发现2019旧册同流水号因每月重置有两个不同月份的业务，合法定位原第73页申请指定那笔，另月未授权不窥隐私。有一条后期整理形成的“候选随附”目录可疑指向指定业务，但未证明实际续转。11:15保管双岗只核旧箱目、清册及移交编号，不拆内页；12:40马芸制止同事将新查询拟稿预写“最终答复签收”。15:22双人真到库房发现候选封存整理盒、外签与现行保管号/批次吻合，盒未打开内文未核，目录标签仍仅候选；15:57马芸签收有责限项书面阶段回告，仅确认原业务定位与候选盒位真有实物，不证与旧原簿同件、后续内容、历史经办签名或真人收到回话。20:23夜间中心夏宁周衡梁策只接有限结果，周衡将旧登记“退回核址”到现盒的箭头改为待核虚线；22:01在马芸本人允许下仅拟下一轮最小同件/非身份后续类别查询申请，未提交亦未准阅。另一路灯普通报修只核故障位置待专业复测不写恢复。Day367 07:12早班前周衡将查询拟稿留待提交。F003只有候选整理盒实在新证，F008/M004/M005无确证。
+meaningful_state_changes:
+  - "旧查询阶段结果正式拆开按月重号的两笔，确认为指定第73页的是其中一笔；未经授权另笔身份/后续未核。"
+  - "现行目录有指向指定退回核址事项的候选整理盒号，双人于15:22实际核封存盒存在及外签批次相符；盒内和同件性未证。"
+  - "马芸15:57获有源书面限项阶段答复，周衡只在Day366夜拟新同件性申请，未报已申请或已批准。"
+knowledge_updates:
+  - "马芸知道两笔同号不同月份、自己限定事项已准确定位且候选盒真存在，不能据外标签推盒中必是旧事项或历史本人最终收到。"
+  - "周衡夏宁梁策知道2019原页处理类别与后编候选盒来自不同证据层；没有合法开盒或同件结论，仅拟新查询。"
+  - "保管老师傅与双岗知道现清册所示盒位真有实体但未开启/核内部纸件，不替历史人物签认。"
+relationship_updates:
+  - "马芸不让同事在未获材料前用“最终答复签收”预断，不为求快违法看另一月份业务。"
+  - "梁策夏宁继续约束周衡将两项待证记录画为虚线，周衡主动明确待核而非已查明。"
+foreshadowing_updates:
+  - "F003从2019实际退回核址类别及Day365合法查询收件推进到Day366不同月份同号、指定业务候选整理目录及有责实核外封盒位真实存在，仍不证明同件续转、历史自然人收答、2016在封回告、2022文件具体读取字节同一；F008/M004/M005不确认，F009/F010/F011 resolved。"
+ending_state: "Day367 07:12前旧纸簿仍只实证退回核址，候选盒外部位置确已核存但未经许可开盒或证同件，下一窄查询仅拟稿；中心夜班照明报修待有责正式复测。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "3d7d4c4c757350d600a14b78ec03f3d19c2a15ba", initial_counts: "0/1/2", final_draft_sha: "703c8dba76fc949dfc46dbceee40c4b3676193c4", stage_a_used: 1, body_revisions: 0, predecessor_draft_blob: "d252e40e2e76f4edbacc087ac2018c88ff489e85", predecessor_ready_blob: "c865febbd82177834f8cbda61af89baf4d13944f", predecessor_factual_delta: body_title_identical_delivery_metadata_only}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3240
