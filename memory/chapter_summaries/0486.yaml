@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 486
+title: "卷目指向旧档，回话的人尚未找到"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "6c394e3d264f045ee8fdd765467c3d6eb0891b20"
+source_draft_sha: "3ae165912045d92bec7ef12a89fd35bb3f307d40"
+initial_review: "reader_reviews/0486_6c394e3d.md"
+reader_review: "reader_reviews/0486_3ae16591.md"
+depends_on_chapter: 485
+depends_on_source_sha: "d3cdd50d3625c16d183ad49e8f750666b86f6e68"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day348 20:43—Day349 21:02"
+summary: >-
+  Day348 20:43夜班中心夏宁周衡获白班旧件新回复，周衡经马芸内部岗位电话确认2019原形成单位纸质收发目录仅有可合法申请的卷目区间指引，没开放具体签认页、2016回告或签字；2022-11-18导入任务仍只有执行实例结束类别无子号结果码或实际文件字节。梁策提醒先问姓名会诱导历史经手人，周衡在私本上无意预填岗位称谓又重抄以分来源与待核。Day348 22:03马芸分离卷目定位和签认形式两类申请，不合并2016旧回告、不得借夜间调度权跳过纸档程序。Day349 09:24马芸在有权窗口递交最小范围补充，窗口仅出具正式收件凭据，不等准阅或页项确有双方签认。Day349 20:28新夜班夏宁由白班限项转交收件摘要，周衡区分旧2022任务和本次纸档申请；20:57梁策提醒找不到也要如实留空；21:02马芸报告仍仅收件，未获调阅许可/具体原页，夏宁仅把本次咨询进度回告而非旧案标结。本章Stage A将原无据预言签名的标题改成卷目指引，并修复夜班班次时点；F003新增合法原册查询路径与正式收件事实，不新增实际2019签封、2016在封、历史本人获回话或2022与11月21第三校对本同字节证明，F008/M004/M005不升级。
+meaningful_state_changes:
+  - "2019纸质原形成单位收发卷目区间从口头目录提示进入合法最小申请真实收件，后续是否阅准仍待答。"
+  - "周衡识别个人在空白记录上预填岗位的证据污染风险，用来源和待核两列重抄并存留原草稿作为私人自警。"
+knowledge_updates:
+  - "马芸知道有原始卷目区间可依法申请定位，并实际递交限定申请，但尚不知哪一页签谁及是否可以查阅。"
+  - "周衡知2022工作区结束事件不能推2019实际签封；没有看到原始纸页/真实签认或历史真人收话。"
+  - "夏宁只获白班限项回告与本次申请收件摘要，梁策明确不宜先诱导问经手人，中心无直接调阅权限。"
+relationship_updates:
+  - "马芸明确问周衡是真的肯等还是怕看，引出其童年永安里记忆与证据审慎的张力；梁策以简短提醒而非无据回忆相助。"
+foreshadowing_updates:
+  - "F003仅新增原形成单位2019纸档卷目查询路径及Day349正式收件，不证可查具体签认、2016在封/历史本人受答、2022执行实例读取内容/字节与11月21第三校对本相同；F008/M004/M005无新确认；F009/F010/F011保持resolved。"
+ending_state: "Day349 21:02旧原册限定补充申请有真实收件、未获准阅卷或签认页；周衡保留正确待核和私人旧错误笔记，夜间中心仅回告本次进度，永安里历史本人有没有得到回话未获新证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6c394e3d264f045ee8fdd765467c3d6eb0891b20", initial_counts: "0/2/2", final_draft_sha: "3ae165912045d92bec7ef12a89fd35bb3f307d40", final_counts: "0/0/2", stage_a_used: 1, chapter_rewrite_used: 0, body_revisions: 1, fix: "title_no_unverified_signature_and_night_shift_time", predecessor_ready_blob: "d3cdd50d3625c16d183ad49e8f750666b86f6e68"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3043

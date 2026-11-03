@@ -2172,3 +2172,18 @@ chapter_485_relationship_verified:
   shelter_professionals: "方槿与有权负责人只核身份/有限授权和实际交接，不以狗听名或平台绿字替代本人意愿；中心三人不越权代签。"
   core_team: "夏宁周衡梁策仍按原联动分工行事，未确认长期关系或信任分值变化。"
   trust_scores_unchanged: true
+
+chapter_486_relationship_verified:
+  chapter: 486
+  source_sha: "3ae165912045d92bec7ef12a89fd35bb3f307d40"
+  core_team: "周衡在梁策提醒后自觉纠正个人预填旧岗位错误，夏宁要求他分清想找的与有权找的；三人合作仍按合法来源，不由私人希望改变身份取证。"
+  archival_contact: "马芸问周衡是否真的能等或不敢见旧档，体现旧案调查信任与周衡个人焦虑，并未让档案工作人员或中心擅自承诺权限。"
+  trust_scores_unchanged: true
+
+chapter_487_relationship_verified:
+  chapter: 487
+  source_sha: "e397ba3a576322ddfe35a2fd0d368d8eeecb34e5"
+  mother_daughter: "陈秋荷保护女儿杜晚晚不被要求再录钟声；让她按自己理解的停顿完成朗读展示，未将设施责任转嫁给孩子。"
+  manager_resident: "辛立起初质疑陈秋荷是不是听错，后限项查明两条独立输出故障，主动承认起初怀疑并有源回告、尊重录音隐私和未来监测责任。"
+  core_team: "夏宁周衡梁策仍只做有源协调，尊重设备管理和专业岗位授权，既不把后台绿勾冒充现实，也不替设施方签永久复用。"
+  trust_scores_unchanged: true

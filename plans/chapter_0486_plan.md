@@ -1,4 +1,4 @@
-# 第486章详细章纲｜签名还在柜子里，回话的人尚未找到
+# 第486章详细章纲｜卷目指向旧档，回话的人尚未找到
 
 - chapter: 486
 - volume: 6
@@ -10,10 +10,10 @@
 - dependency_status: verified_exact_ready_blob
 - predecessor_location: chapters/ready/0485.md
 - continuity_precheck: writer_precheck_only_not_qa
-- timeframe: Day348 20:43—Day349 傍晚
-- title: 签名还在柜子里，回话的人尚未找到
+- timeframe: Day348 20:43—Day349 21:02
+- title: 卷目指向旧档，回话的人尚未找到
 - target_effective_chars: 3000
-- actual_effective_chars: 2999
+- actual_effective_chars: 3043
 - pov: 周衡有限近距第三人称；夏宁、梁策与罗经办马芸均受各自岗位知情边界约束。
 
 ## 目标与开场
@@ -40,3 +40,7 @@
 - 基于最新main 050e1720ec793edd0333ded8355ad1724bedf8bc，逐项读取AGENTS、novel.yaml、writing_roles、ai_reading_protocol、四项Bible及三主人物卡、现存volume_05与arc_current（已过时，不能覆盖近期状态），当前Memory（current_arc/character/relationship/knowledge/world/foreshadowing/timeline）、chapter_plan.csv末尾、475—484十章摘要和481—485五章全文及485详纲；不读取历史reader_reviews。
 - main三目录实际章号最高：published 159（153已存在）、ready 485、draft 无数字新稿；第486章原不存在。第485章已由独立Audit正式放行至ready，原draft Git Blob `7248fab060ec4128f9178f1e0812a91cf92d10c0`与正式ready `d3cdd50d3625c16d183ad49e8f750666b86f6e68`逐字正文和标题相同，仅Front Matter交付字段变化；本章绑定正式ready Git Blob，前章事实可作为已审参考。
 - 本章仅创建详细章纲和一版draft，不执行独立Reader/Revision/QA/Memory/Publish Gate或番茄发布。
+## Audit Stage A continuity repair（2026-11-03）
+- 原稿题目“签名还在柜子里”暗示尚未取得的真实签认，改成只确认卷目查询方向；2019页项、签认与回话仍未验真。
+- 夜间中心按既定20:00—08:00轮班：Day349窗口白班受理，夏宁20:28接班后获白班限项回告，梁策20:57在夜班办公室交谈，马芸21:02更新待办，避免将周衡、夏宁、梁策写成Day348夜班后又在Day349上午至傍晚连续值守。
+- 本次是基于当前稿问题的有限局部修订，非Canon追认；本章Reader应按修订后新Git blob SHA重做双遍审核。

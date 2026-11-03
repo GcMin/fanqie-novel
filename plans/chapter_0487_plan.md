@@ -6,14 +6,14 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "28184a773ad917965f2c1ca2e4b305ab1ab18a62"
 - depends_on_chapter: 486
-- depends_on_source_sha: "6c394e3d264f045ee8fdd765467c3d6eb0891b20"
-- dependency_status: provisional
+- depends_on_source_sha: "2e65046b8c9f2932d01aea9bb517cd9270a83919"
+- dependency_status: verified_predecessor_factual_delta_reconciled
 - predecessor_location: chapters/draft/0486.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day349 22:57—Day350 19:52
 - title: 十一点的钟声多响了一遍
 - target_effective_chars: 3000
-- actual_effective_chars: 3177
+- actual_effective_chars: 3195
 - pov: 周衡、夏宁的有限职业视角与居民陈秋荷、值守辛立的当事人视角交错，不让任何一方提前知道专业原因。
 
 ## 章节目标、开场与动机
@@ -37,3 +37,8 @@
 - 本轮从main三个状态目录核实最高章号：published 0159（0153已归档）、ready 0485、draft 0486；0487及对应章纲此前不存在。配置允许一轮最多新增一章。
 - 实际重读AGENTS、novel.yaml、writing_roles、ai_reading_protocol、Premise/主纲/世界/文风/相关人物卡、当前卷与arc（仓库现存volume_05与arc_current较旧）、当前Memory/人物知识/关系/世界/时间线/伏笔、476—485十章摘要、482—486五章全文及486详纲；本轮未读取历史reader_reviews。
 - Day348 20:43—Day349傍晚为486临时事实。487从Day349夜间开始，在时间上兼容；临时申请状态不能提前被写作已经批准或已查得签字。新章只新增本详细章纲与draft，不执行独立审核或Publish。
+
+## Audit Stage A dependency reconciliation（2026-11-03）
+- 第486章草稿源`6c394e3d264f045ee8fdd765467c3d6eb0891b20`经独立Reader发现第349日班次和标题无据预断，定点修订后源Blob `3ae165912045d92bec7ef12a89fd35bb3f307d40`；更正标题为《卷目指向旧档，回话的人尚未找到》，白班窗口09:24收件，中心20:28接班获回告、21:02更新，正文案情事实未变。
+- 第486章正式待交付ready Blob `2e65046b8c9f2932d01aea9bb517cd9270a83919`，本章仍从Day349 22:57开场，2019原册只已正式收件、未获准查阅或签封结论。临时前章SHA与最终ready相异，经标题/时间/人物知识/程序结论逐项核对无后章承接冲突。
+- 本章仅绑定依赖元数据和详纲，正文未改；由于文件Git blob SHA变化，新SHA重新独立两遍Reader，不使用原草稿旧Review。

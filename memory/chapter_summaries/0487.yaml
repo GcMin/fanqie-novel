@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 487
+title: "十一点的钟声多响了一遍"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "3d90f28c534bda0b0b3ce4726462d420542c969f"
+source_draft_sha: "e397ba3a576322ddfe35a2fd0d368d8eeecb34e5"
+reader_review: "reader_reviews/0487_e397ba3a.md"
+depends_on_chapter: 486
+depends_on_source_sha: "2e65046b8c9f2932d01aea9bb517cd9270a83919"
+dependency_status: verified_predecessor_factual_delta_reconciled
+timeframe: "Day349 22:57—Day350 19:52"
+summary: >-
+  Day349 22:57居民陈秋荷的9岁女儿杜晚晚准备次日朗读展示，广场钟应22至06夜静音却23:00和23:04各敲11下。陈秋荷保存第二遍含女儿数声的录音而不公开个人信息，第一遍只有母女所听；设施值守辛立初疑别处声源，后台仅显示静音策略执行成功。23:19辛立有源报夜间中心，夏宁分系统回执与居民真闻声，周衡留意维护/公众两组图纸标签，梁策不许夜里登高拆设备；23:42有权运维只停本广场报时扩音通道并张贴限定告示，不断照明监控。Day350 00:01辛立仅在当场时段没听见钟响，不能证明未来永久修复；杜晚晚因两遍钟声影响朗读但妈妈允许她自主决定稿中停顿。Day350 08:46专业隔离外部扬声器检查，发现公开报时任务虽获静音策略但实际输出未隔离、维护任务23:04每夜自动试音且上周扩音器换新接线误接公众端；10:23核线确认两路问题，仅在室内负载复核和纠线并暂停维护试音，外部报时继续停用待许可时段公众侧复验。12:18限定检查记录形成，15:36设施管理方向陈秋荷承认先前质疑并就本案回告真实原因，保护孩子声音与私密录音用途；16:00女儿实际完成展示而未断言比赛成绩。19:52中心获有限结果，下一夜连续观察与公众验收未完成；周衡将该普通设备故障与2019旧纸档只收件待答完全分源，F003/F008/M004/M005不确证。
+meaningful_state_changes:
+  - "已核两次夜间扰民实际声音与后台绿字相矛盾，有权仅停报时公众扩音而不影响其它公共设施。"
+  - "专业限本案确认静音未隔离真实输出、维护试音误接公众端，两条路径限项纠正并暂停试音，正式公众侧复验/下一夜连续观察仍待办。"
+  - "陈秋荷得到有来源的管理方解释和本人录音隐私控制，杜晚晚在真实朗读展示中按自己停顿读完。"
+knowledge_updates:
+  - "陈秋荷与杜晚晚分别听到两次声响，只有后一次有受限录音；辛立最初未现场亲闻，后台绿勾只证明策略下发。"
+  - "设备维护人员经现场有权核线才知维护输入与公众扩音端误接，不能说昨夜已正式全链验收或全市同类设备均好。"
+  - "夏宁周衡梁策仅可记录有限投诉/现场/专业回告，未替有责管理方重开公众播报或认可全夜恢复。"
+relationship_updates:
+  - "辛立收回对陈秋荷听证的轻率质疑，有责回拨说明检修原因；陈秋荷保护女儿不再代设施监测，允许其自主朗读停顿，女儿找回表达主动权。"
+foreshadowing_updates:
+  - "成荫路钟楼是普通设施接线与维护任务问题，不是F008异常记忆样本或M004/M005证据；F003纸档申请仍只已收件未阅准，2019真实签封/2016在封历史回告/2022读取字节未证，F009/F010/F011保持resolved。"
+ending_state: "Day350 19:52本广场报时公众通道暂时停播，两路已核接线与维护任务已按权限处理，但下一夜实际安静和正式公众侧复验未确认；居民获限项说明，孩子回到朗读，F003旧档案继续等待有权答复。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "3d90f28c534bda0b0b3ce4726462d420542c969f", final_draft_sha: "e397ba3a576322ddfe35a2fd0d368d8eeecb34e5", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, fix: "rebind_dependency_to_486_ready_and_recount", predecessor_draft_sha: "6c394e3d264f045ee8fdd765467c3d6eb0891b20", predecessor_ready_blob: "2e65046b8c9f2932d01aea9bb517cd9270a83919", predecessor_factual_delta: "486 title and Day349 night shift corrected with F003 only received application still unresolved"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3195

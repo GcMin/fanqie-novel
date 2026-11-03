@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 485
-last_reviewed_title: "黑白花犬等的人，没在领养表上"
-last_source_path: chapters/draft/0485.md
-last_source_sha: 7248fab060ec4128f9178f1e0812a91cf92d10c0
-last_review_path: reader_reviews/0485_7248fab0.md
+last_reviewed_chapter: 487
+last_reviewed_title: "十一点的钟声多响了一遍"
+last_source_path: chapters/draft/0487.md
+last_source_sha: e397ba3a576322ddfe35a2fd0d368d8eeecb34e5
+last_review_path: reader_reviews/0487_e397ba3a.md
 last_reviewed_at: "2026-11-03"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,11 +12,11 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 484
-depends_on_source_sha: 9793fbb93a768261a53f728969b32ffcaa0625e8
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 9793fbb93a768261a53f728969b32ffcaa0625e8
-predecessor_sha_mismatch: false
+depends_on_chapter: 486
+depends_on_source_sha: 2e65046b8c9f2932d01aea9bb517cd9270a83919
+dependency_status: verified_predecessor_factual_delta_reconciled
+predecessor_current_source_sha: 2e65046b8c9f2932d01aea9bb517cd9270a83919
+predecessor_sha_mismatch: true
 predecessor_qa_verification_required: false
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
@@ -4514,3 +4514,30 @@ release_485_reader_evidence:
   candidate_ci_success: 41570246562
   main_ci_success: 41570324742
   ready_blob: "d3cdd50d3625c16d183ad49e8f750666b86f6e68"
+
+chapter_486_audit_20261103:
+  chapter: 486
+  original_source_sha: "6c394e3d264f045ee8fdd765467c3d6eb0891b20"
+  original_review: "reader_reviews/0486_6c394e3d.md"
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  stage_a_used: 1
+  final_source_sha: "3ae165912045d92bec7ef12a89fd35bb3f307d40"
+  final_review: "reader_reviews/0486_3ae16591.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  predecessor_ready_sha: "d3cdd50d3625c16d183ad49e8f750666b86f6e68"
+  qa_gate: pass
+  structural_gate: exact_candidate_ci_required
+
+chapter_487_audit_20261103:
+  chapter: 487
+  original_source_sha: "3d90f28c534bda0b0b3ce4726462d420542c969f"
+  final_source_sha: "e397ba3a576322ddfe35a2fd0d368d8eeecb34e5"
+  stage_a_used: 1
+  revision_scope: "predecessor_SHA_and_metadata_char_count_only_body_unchanged"
+  final_review: "reader_reviews/0487_e397ba3a.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  predecessor_original_sha: "6c394e3d264f045ee8fdd765467c3d6eb0891b20"
+  predecessor_ready_sha: "2e65046b8c9f2932d01aea9bb517cd9270a83919"
+  predecessor_factual_delta: "title_and_shift_times_changed_old_archive_still_only_received_application"
+  qa_gate: pass
+  structural_gate: exact_candidate_ci_required
