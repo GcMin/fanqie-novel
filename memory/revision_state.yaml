@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 500
-current_stage: ready_candidate_pending_exact_ci
+current_stage: ready_released_exact_candidate_ci_success
 current_source_path: chapters/draft/0500.md
 current_source_sha: 2af3f9133c3939f35e27986ad7c36d0986e2ad2d
 current_review_path: reader_reviews/0500_2af3f913.md
@@ -18,7 +18,7 @@ last_error: null
 last_diff_summary: "499 Reader0/0/2 no edits QA pass; 500 initial0/2/2 Stage A rebind499 ready and correct Day363 third night newSHA2af3f913 Reader0/0/2 QA pass; structural candidate CI pending."
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: false
+publish_gate_passed: true
 current_review_source_sha: 2af3f9133c3939f35e27986ad7c36d0986e2ad2d
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
@@ -4264,4 +4264,15 @@ chapter_499_500_revision_20261104:
   predecessor_original_sha: "1e84ea75e7afe6745c689d9d61218e75ea911627"
   predecessor_ready_blob: "e8299c14481ff26250660878cee53688cf481157"
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_ci_success_41683239404
+
+release_499_500_revision_evidence:
+  candidate_commit: "d1fbc70eb061a2531f3bde0e0b7bdeec29eec2dc"
+  validated_tree: "72b9cbcc50f5c9fbe00e1395240357aeba38dc9d"
+  candidate_ci_success: 41683239404
+  main_ci_success: 41683352395
+  chapter_499_ready_blob: "e8299c14481ff26250660878cee53688cf481157"
+  chapter_500_ready_blob: "95b296bbdeb5dd1bb3d7e4ef1ed41f05f89aa77a"
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  main_update: expected_sha_force_false

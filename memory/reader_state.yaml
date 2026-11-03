@@ -4852,7 +4852,7 @@ chapter_499_audit_20261104:
   revision: none
   qa: pass
   ready_candidate_blob: "e8299c14481ff26250660878cee53688cf481157"
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_ci_success_41683239404
 
 chapter_500_audit_20261104:
   initial_sha: "1c6fad9bb1fd0ef117d706a30c46d3a538dde2a2"
@@ -4868,4 +4868,18 @@ chapter_500_audit_20261104:
   ready_predecessor: "e8299c14481ff26250660878cee53688cf481157"
   predecessor_factual_delta: title_body_identical_metadata_only
   ready_candidate_blob: "95b296bbdeb5dd1bb3d7e4ef1ed41f05f89aa77a"
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_ci_success_41683239404
+
+release_499_500_reader_evidence:
+  candidate_commit: "d1fbc70eb061a2531f3bde0e0b7bdeec29eec2dc"
+  validated_tree: "72b9cbcc50f5c9fbe00e1395240357aeba38dc9d"
+  candidate_ci_success: 41683239404
+  main_ci_success: 41683352395
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  chapter_499_reader_final_counts: "0/0/2"
+  chapter_499_ready_blob: "e8299c14481ff26250660878cee53688cf481157"
+  chapter_500_reader_initial_counts: "0/2/2"
+  chapter_500_reader_final_counts: "0/0/2"
+  chapter_500_ready_blob: "95b296bbdeb5dd1bb3d7e4ef1ed41f05f89aa77a"
+  main_ref_update: expected_sha_force_false_success

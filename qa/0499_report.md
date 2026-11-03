@@ -8,3 +8,8 @@
 - Meaningful PASS：物业本户“已返家”错误来源查清且本人收到真实更正，家庭由拥挤暂住亲属转为真实入住一晚有费用安排的旅宿；原住处仍禁返、第二夜支持待定，未预填全楼安全。
 - 人物及长期伏笔：齐曼无需提供孩子私事以证明入住；梁策不越消防现场权限；F003仅旧2019第73页非身份位置/字段，F008/M004/M005无确证，F009/F010/F011保持resolved。
 - **结构放行门槛：本报告仅记录内容QA；需精确候选Commit的GitHub Actions结构单测与`python -m publisher.check_local --repo .`真正SUCCESS后才可非强制迁入main。** 未执行成功前不能宣称结构验收。
+
+## 精确提交结构校验与正式放行实际证据（2026-11-04）
+- 两章及对应SHA绑定Reader、修订后Reader、独立QA、Long Memory和唯一计划行同树候选commit `d1fbc70eb061a2531f3bde0e0b7bdeec29eec2dc`，Git Tree `72b9cbcc50f5c9fbe00e1395240357aeba38dc9d`；此树中499和500从draft原子删除并顺序生成 `chapters/ready/0499.md`、`chapters/ready/0500.md`，没有跳过前章。499 ready Blob `e8299c14481ff26250660878cee53688cf481157`，500 ready Blob `95b296bbdeb5dd1bb3d7e4ef1ed41f05f89aa77a`。
+- GitHub Actions审计分支 `audit/ready-0499-0500-20261104` run `41683239404` 的head SHA精确匹配该commit，结论 **SUCCESS**；结构单元测试步骤 `Test offline snapshot validation` **SUCCESS**，实际执行 `python -m publisher.check_local --repo .` 的步骤 `Validate this checkout without Git sync or publishing` **SUCCESS**。不是仅凭本QA文字放行。
+- 检查main未变后，从原main `12ae9ff09b7f9a10861fba16e9672ce27a960d95` 采用 `expected_sha`、`force:false` 非强制快进至精确候选commit，结果**SUCCESS**。同SHA main Actions run `41683352395` 亦 **SUCCESS**（对应结构单元测试和publisher.check_local均成功）。正式ready存在、原数字draft已删除。Canon/published/两条定时任务未改，不自动发布。
