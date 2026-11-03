@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 479
+last_updated_chapter: 484
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2147,4 +2147,20 @@ chapter_482_relationship_verified:
   child_father_keeper: "父亲尊重儿子新绘自行车可展和另一幅父亲肖像不展的意愿，缪芸只给新画评语并继续为旧卡身份留空。"
   staff_preservation: "许汀和保护岗位继续区分旧资料受控保管与新馆展示授权，未以热闹活动逼旧纸揭名。"
   core_team: "中心三人本章没有新的直接行动，既有分工关系不变。"
+  trust_scores_unchanged: true
+
+chapter_483_relationship_verified:
+  chapter: 483
+  merchants_manager: "郑桂华与林娟不接受郭胜代为认同全排停业，郭胜公开承认模板误扩并在后续检修主动问明范围与本人回应；保留双方利益差异，不虚构完全和解。"
+  merchants_customers: "郑桂华亲自联系三位客户，两位愿改东侧交接台且实际收货，第三位不急而改约；个人选择分别记录不代签。"
+  market_professionals: "市场主管承认原纸签与假汇总不同，维护岗位以实际危险作限项处置；市场方不得以临时不合格空地替林娟表示已经复业。"
+  core_team: "夏宁周衡梁策按本职边界协调，本案未改变其既有信任分数或Canon关系。"
+  trust_scores_unchanged: true
+
+chapter_484_relationship_verified:
+  chapter: 484
+  owner_rescuer: "乔芮先不满劝阻后配合方槿低声呼唤，不擅自冲入危险槽盖区域；方槿信任主人提供的习惯声、照片及项圈资料，但按有责救助流程确认归还。"
+  street_service: "卢青尊重乔芮确认宠物真实失联的证据，同时保护另只黑白花狗有独立报事人的原始接收状态；照片工作用途需征本人同意并遮个人资料。"
+  professional_boundary: "曾跃负责设施安全、方槿负责救助、夜间中心负责分源协调；各方未把一次救援当作全部设施恢复。"
+  core_team: "三名中心人员只正常联动，无已确认的信任分数变化。"
   trust_scores_unchanged: true

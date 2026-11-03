@@ -6,9 +6,9 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "db8768d7e97b8d4afe198a7c74b98875c21bba76"
 - depends_on_chapter: 483
-- depends_on_source_sha: "ea75fb156e2f5b851de72d8bd39784165a1f2be7"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0483.md
+- depends_on_source_sha: "a2901ad21661925c544aff1d2700304ffe09f414"
+- dependency_status: verified_predecessor_body_identical_ready
+- predecessor_location: chapters/ready/0483.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day346 20:49—Day347 11:12
 - title: 铃铛从绿篱里响了一声
@@ -17,7 +17,7 @@
 - pov: 乔芮近距第三人称，兼顾夜间中心夏宁、周衡、梁策的有限岗位视野。
 
 ## 本章目标与开场
-从第483章Day346傍晚北槐夜市局部照明复用后的时间顺序推进，但不依赖上一未审草稿的夜市处置为正式Canon。Day346 20:49，河望路乔芮丢失八岁黄棕犬毛豆，协寻平台却因两个同地图点的报事误把另一只黑白花犬的志愿接收记成她的“已办结”。一段雨夜施工绿篱及未复位检修槽造成真实行人误入风险；找狗与公共设施安全分别需要各自有权岗位落实。
+从第483章Day346傍晚北槐夜市局部照明复用后的时间顺序推进；前章正式ready与临时稿小说正文及标题一致，仅交付元数据不同。Day346 20:49，河望路乔芮丢失八岁黄棕犬毛豆，协寻平台却因两个同地图点的报事误把另一只黑白花犬的志愿接收记成她的“已办结”。一段雨夜施工绿篱及未复位检修槽造成真实行人误入风险；找狗与公共设施安全分别需要各自有权岗位落实。
 
 ## 角色诉求、冲突、六个 Beats
 1. 乔芮一边寻找毛豆蓝项圈的铃声，一边看到平台“动物已接收”，在雨棚下发现明显不符；她不得以自己熟悉爱犬为由钻入黑暗检修围栏。
@@ -36,5 +36,5 @@
 
 ## Continuity Precheck（仅Writer，不是独立审核）
 - 读取GitHub main当前AGENTS、novel配置、写作角色及阅读协议；Bible四项与三主人物卡、现存volume_05与arc_current（注意它们部分旧内容已滞后）、当前弧与人物/关系/知识/世界/伏笔/时间线Memory、473—482十章摘要、479—483五章全文及483详纲、chapter_plan.csv当前末尾；不读取任何历史Reader Review。
-- published存在0153.md，已满足“不得漏第153章”；按published最大159、ready最大482、draft最大483确定本轮新号484。此前483草稿的真实Git Blob SHA为ea75fb156e2f5b851de72d8bd39784165a1f2be7，本章完整绑定该未经审核版本，并显式标注provisional而不认定它已被审核。
+- published存在0153.md，已满足“不得漏第153章”；按published最大159、ready最大482、draft最大483确定本轮新号484。483正式ready Git Blob SHA为a2901ad21661925c544aff1d2700304ffe09f414，经核查原draft正文和标题均完全一致，仅交付Front Matter变化；本章修订为绑定前章正式版本。
 - 本章以不同地点及次日晚间独立民生工单推进，避免将第483章的未审事实硬连为已发生的法定结果。正文首稿2745有效字符；只新增plan与draft，不执行Reader/Revision/QA/Memory/Publish Gate，不发布番茄。

@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 481
-current_stage: ready_after_exact_candidate_ci_success
-current_source_path: chapters/draft/0481.md
-current_source_sha: 46ee512c335ff1fd588b6ce9413a9744d6cbf4de
-current_review_path: reader_reviews/0481_46ee512c.md
+current_chapter: 484
+current_stage: content_qa_pass_pending_exact_candidate_ci
+current_source_path: chapters/draft/0484.md
+current_source_sha: 34a586e1598f5a8ef729b592645c9a688d0a2d5d
+current_review_path: reader_reviews/0484_34a586e1.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter481_ready_after_exact_candidate_ci_41535621570
+last_action: chapter484_stage_a_metadata_rebind_new_sha_reader_0_0_2_qa_pass_pending_ci
 last_action_date: "2026-11-03"
 last_error: null
-last_diff_summary: "481原稿46ee512c335ff1fd588b6ce9413a9744d6cbf4de Reader0/0/2，正文0字修改，前480正式SHA精确且独立QA三项PASS；精确候选a199833406307918d2d4ec829bf228083d3e7acb的结构CI41535621570和main CI41535722474均SUCCESS，使用expected_sha和force:false完成正式ready，Blob621991bba117c72193c8f8bb55eed31059dc1e42。"
+last_diff_summary: "484原稿8be4cbadd0784df82501b25a0e78ec0696238a85Reader0/1/2，Stage A仅重绑483正式ready a2901ad21661925c544aff1d2700304ffe09f414（与旧稿正文和标题完全一致），新草稿34a586e1598f5a8ef729b592645c9a688d0a2d5d独立Reader0/0/2，正文0字变，内容QA PASS，待精确CI。"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: true
-current_review_source_sha: 46ee512c335ff1fd588b6ce9413a9744d6cbf4de
+publish_gate_passed: false
+current_review_source_sha: 34a586e1598f5a8ef729b592645c9a688d0a2d5d
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -3867,4 +3867,38 @@ chapter_481_revision:
   predecessor_factual_delta: "第481章直接绑定480正式ready SHA，精确一致无旧版本差异"
   content_qa: pass
   structural_gate: exact_candidate_ci_success_41535621570
-
+chapter_483_revision:
+  chapter: 483
+  source_sha: "ea75fb156e2f5b851de72d8bd39784165a1f2be7"
+  final_review: reader_reviews/0483_ea75fb15.md
+  initial_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage: no_revision_needed
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  retry_cycles: 0
+  predecessor_ready_blob: "19985262505e501675f0e9d2f8190cad9a48df73"
+  predecessor_factual_delta: "第483章直接绑定482正式ready SHA，没有旧稿到新版的事实变化。"
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci
+chapter_484_revision:
+  chapter: 484
+  original_source_sha: "8be4cbadd0784df82501b25a0e78ec0696238a85"
+  initial_review: reader_reviews/0484_8be4cbad.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage: stage_a_metadata_dependency_rebind
+  final_source_sha: "34a586e1598f5a8ef729b592645c9a688d0a2d5d"
+  final_review: reader_reviews/0484_34a586e1.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  body_revisions: 0
+  retry_cycles: 0
+  predecessor_original_draft_sha: "ea75fb156e2f5b851de72d8bd39784165a1f2be7"
+  predecessor_ready_blob: "a2901ad21661925c544aff1d2700304ffe09f414"
+  predecessor_factual_delta: "483原稿到正式ready只有Front Matter交付状态不同，小说正文与title逐字一致。"
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci

@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 484
+title: "铃铛从绿篱里响了一声"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "34a586e1598f5a8ef729b592645c9a688d0a2d5d"
+reader_review: "reader_reviews/0484_34a586e1.md"
+depends_on_chapter: 483
+depends_on_source_sha: "a2901ad21661925c544aff1d2700304ffe09f414"
+dependency_status: verified_predecessor_body_identical_ready
+timeframe: "Day346 20:49—Day347 11:12"
+summary: >-
+  Day346 20:49河望路雨后绿篱旁乔芮牵绳空了，八岁黄棕犬毛豆被园林推车吓到脱绳，蓝项圈铃铛仍在狗身上；协寻系统因地点聚合把车站南侧20:40真收的另一只黑白花犬错映成毛豆已接收。20:57街道值守卢青用照片和志愿队单据确认两犬不同且另一犬有独立报事人。21:06向夜间中心分别报动物失联和绿化带检修槽未盖、围护破口的人身风险，夏宁分源、周衡问收尾记录、梁策先护行人。21:23养护带班曾跃证盖板待复位且围护部分被风掀，保留行人隔离。22:02有责人员只核准作业窄道，救助志愿者方槿让乔芮低声按习惯呼唤，凭铃声、蓝项圈与左后腿白毛在外侧绿篱确认毛豆，22:19用软套和运输箱安全救出，照片、项圈联系及本人认领核实后真正归还。23:07专业只复位本段槽盖/限项撤隔离，其余养护区仍封；兽医初查看无须立即处理的明显外伤，但后续健康观察仍必要。Day347 11:12平台按权附来源更正：另一犬真收容、毛豆独立真救助交接，其他地点聚合未全面查；乔芮仅授权遮个人电话地址的限项工作交接，拒将救助照片做宣传，购买防脱胸背带。与北槐夜市、永安里史料无新增联系；F008/M004/M005仍无确证。
+meaningful_state_changes:
+  - "原错误协寻已接收绿字被真核两犬及不同收容时间地点所纠，毛豆真正安全找回并本人认领。"
+  - "检修槽因清堵待复位且围护松开的人身险由有责养护人员先护、后实际复位核查，仍封其余养护区。"
+  - "乔芮由想擅钻围栏转为按批准专业路线救犬、拒把个人照片做活动素材并选择新防脱胸背带。"
+knowledge_updates:
+  - "卢青知同地图点合并的是不同犬，各自原报事及接收凭据不能互换，平台局部更正不等于所有其它地点修好。"
+  - "乔芮知蓝项圈及旧照可与本人交接证明互相支持，兽医初查无明显急症不等于全部健康已最终确认。"
+  - "曾跃及作业养护团队只证本段盖板复位与行人区域核验，不能解除剩余绿篱养护区。"
+  - "夏宁周衡梁策依各自岗位协调，不代园林专业/动物救助岗位认定施工安全或动物归属。"
+relationship_updates:
+  - "乔芮从对别人劝阻的焦急不满转为与方槿配合低声引导及有责窄路救助，尊重真实专业保护；卢青和救助队保留另犬的独立主人关系。"
+foreshadowing_updates:
+  - "F003无2019真双签封/2016回告在封/历史本人获答/2022读取字节与11月21日归档同一新证；F008/M004/M005不升级，F009/F010/F011保持resolved。"
+ending_state: "Day347 11:12毛豆已经本人核验实交且初诊后观察，另一黑白花犬原案保留；本次两犬误聚合记录有源更正，本段检修槽复位而其它养护区继续封，隐私照片只准限项用途。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "8be4cbadd0784df82501b25a0e78ec0696238a85", final_draft_sha: "34a586e1598f5a8ef729b592645c9a688d0a2d5d", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "ea75fb156e2f5b851de72d8bd39784165a1f2be7", predecessor_ready_blob: "a2901ad21661925c544aff1d2700304ffe09f414", predecessor_factual_delta: body_and_title_identical_only_frontmatter_changed, dependency_status: verified_predecessor_body_identical_ready}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 2745

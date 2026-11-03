@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 483
+title: "她签的是查灯，纸上却写着整排停业"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "ea75fb156e2f5b851de72d8bd39784165a1f2be7"
+reader_review: "reader_reviews/0483_ea75fb15.md"
+depends_on_chapter: 482
+depends_on_source_sha: "19985262505e501675f0e9d2f8190cad9a48df73"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day345 20:26—Day346傍晚"
+summary: >-
+  Day345 20:26北槐夜市滴水横梁旁棚顶灯反复闪烁，林娟先移顾客与锅位，管理员郭胜手机将六户仅同意进场查灯的纸件误映为21:00至06:00整排停业断电同意。郑桂华冻饺冷柜和三笔预订受潜在影响；20:47带源报险，21:03夏宁分开即时安全风险和停业同意，周衡梁策分别询问专业回路和现场护人。21:17有责电工查明顶棚照明与郑桂华冷柜分支，21:29只隔离问题照明并围护，冷柜未被该隔离断电。21:54主管以原纸签和郑桂华“断电另告知”保源撤用错误全排同意，林娟拒把垃圾车出入口当作合格安置点；郑桂华向三客户分开协商，两人昨夜经实际交接台真取货，另一人另约且不倒填签收。Day346 09:12专业查棚槽接缝和接线盒受潮并限项维修复测，11:08只准已核照明和通路恢复、未检装饰灯带继续停用；林娟在原址经有责核准复业、食品损耗按真实处置。郭胜附来源更正电子误扩记录，不替六户重新代勾；停业损失和赔偿未结，剩余灯带待检。与旧借书卡/旧屋及F003无新独立联系，F008/M004/M005未获确证。
+meaningful_state_changes:
+  - "六户仅知悉查灯被错误扩大为同意全排停业的电子汇总已保源更正，不再被当作真授权。"
+  - "专业按现场风险局部隔离并限项复测恢复，冷柜独立支路未断，未检装饰灯带继续停用。"
+  - "郑桂华三单分作昨夜两笔本人实交和一笔改约，林娟拒不安全安置位并于次日经核准原址复业。"
+  - "郭胜承认模板误勾，之后先写清停电范围并征求商户真实回应；经营损失和责任仍待有权程序。"
+knowledge_updates:
+  - "郭胜知自己在手机模板将到场配合误汇成施工期间停业授权，原纸与电子表须保留真实来源与操作时间。"
+  - "林娟知围护内不可摆摊，未检灯带不恢复，合法原址复业不能覆盖昨夜真实食品损失。"
+  - "郑桂华有专业确认冷柜支路独立及真实柜温、两位客户实收、第三位另约，不知赔偿最终数额。"
+  - "夏宁周衡梁策只知转办与专业回告，不代电工判整个市场安全，不代管理方审批赔损。"
+relationship_updates:
+  - "林娟、郑桂华要求分别尊重个人经营与签认，郭胜从粗心代勾转为逐项问清；两人对其信任有可观察修正但不虚构彻底和解。"
+foreshadowing_updates:
+  - "F003没有新的2019/2016原始史料、2022读取文件及11/21第三校对本同字节证据，F008/M004/M005均不确证；F009/F010/F011保持resolved。"
+ending_state: "Day346傍晚已核原摊恢复，冷柜昨夜两单实交第三笔另约，错误全排停业授权保源更正；未检装饰灯带、商户赔损与责任仍待有责程序。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ea75fb156e2f5b851de72d8bd39784165a1f2be7", final_draft_sha: "ea75fb156e2f5b851de72d8bd39784165a1f2be7", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "19985262505e501675f0e9d2f8190cad9a48df73", dependency_status: verified_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 2812
