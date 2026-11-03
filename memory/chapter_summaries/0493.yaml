@@ -29,6 +29,6 @@ foreshadowing_updates:
 ending_state: "Day355 22:02董敬安真到家，本人有源回告，安康转接错映待正式整改，录音机仍未修好。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "cf78548767aae72312727f7d6e9414384e849beb", initial_counts: "0/2/2", final_draft_sha: "629c3cd1019387b9e00684671f85bedc1297b6bb", stage_a_used: 1, body_revisions: 0, predecessor_draft_blob: "4c81094158b0313c96042ba31e2fa5b386bc0be8", predecessor_ready_blob: "ae97a405d52268fd4c610a0d4a763ecd6c64ad61", predecessor_factual_delta: body_title_identical}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_success_41618567778}
 char_count: 3172
-release_evidence: {ready_blob: "dad59cdea686cd0eac3cf199cbd103440bd992fb", structural_gate: exact_candidate_ci_required}
+release_evidence: {candidate_commit: "75f8b4436a6621ee2fca9d3b537aec9a3eb51a41", candidate_ci_success: 41618567778, main_ci_success: 41618655020, structural_unit_tests: pass, publisher_check_local: pass, main_ref_update: expected_sha_force_false_success, ready_blob: "dad59cdea686cd0eac3cf199cbd103440bd992fb", structural_gate: exact_candidate_ci_success_41618567778}

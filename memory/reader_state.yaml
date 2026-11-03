@@ -4684,3 +4684,18 @@ chapter_493_audit_20261103:
   content_qa: pass
   ready_blob: "dad59cdea686cd0eac3cf199cbd103440bd992fb"
   structural_gate: exact_candidate_ci_required
+
+release_492_493_reader_evidence:
+  candidate_commit: "75f8b4436a6621ee2fca9d3b537aec9a3eb51a41"
+  candidate_ci_success: 41618567778
+  main_ci_success: 41618655020
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  chapter_492_review: reader_reviews/0492_4c810941.md
+  chapter_492_final_counts: "0/0/2"
+  chapter_492_ready_blob: "ae97a405d52268fd4c610a0d4a763ecd6c64ad61"
+  chapter_493_initial_review: reader_reviews/0493_cf785487.md
+  chapter_493_final_review: reader_reviews/0493_629c3cd1.md
+  chapter_493_final_counts: "0/0/2"
+  chapter_493_ready_blob: "dad59cdea686cd0eac3cf199cbd103440bd992fb"

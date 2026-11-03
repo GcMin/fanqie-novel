@@ -6,3 +6,7 @@
 **知识/职责PASS**：供餐单位负责食品处置，物业与中心只核交接及授权，程素清的隐私与本人选择不被儿子或群组代行。2019纸簿只到第73页非身份栏目，F008/M004/M005未确证，钟楼仍停用、阿棋续住期限不变。
 **文风PASS**：南瓜、旧凳、雨伞、原纸和真实收餐时间是人物动作与后果，夏宁梁策周衡语言可区分。两个MINOR不触发重写。
 **有效变化PASS**：两户新餐真交、第三户选择退款、批次错映被识别但仍待正式改错。结构门禁须此精确候选Git Commit可信CI真实执行publisher.check_local与单测成功后方能更新main。
+
+## 精确候选结构校验与main放行实证
+- 包含第492、493章ready、Reader Review、独立内容QA、长期Memory和完整计划的精确候选Commit `75f8b4436a6621ee2fca9d3b537aec9a3eb51a41`，审核分支 `audit/ready-0492-0493-20261103-1807` GitHub Actions run `41618567778` 与目标head SHA匹配，**SUCCESS**；`Test offline snapshot validation` 和 `Validate this checkout without Git sync or publishing` 皆SUCCESS，后者实际运行 `python -m publisher.check_local --repo .`。
+- main由旧HEAD `fe4521ad2b4b432cd2bf6a2acf3c3e995fcb49bb` 通过 `expected_sha`、`force:false` 非强制快进该Commit成功，main同SHA CI `41618655020` **SUCCESS**。第492章正式ready Blob `ae97a405d52268fd4c610a0d4a763ecd6c64ad61`，第493章 `dad59cdea686cd0eac3cf199cbd103440bd992fb`，两原draft均已删；未发布番茄。旧“需精确CI”属于候选阶段，现由以上真实实证覆盖。
