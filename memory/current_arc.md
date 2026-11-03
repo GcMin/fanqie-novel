@@ -1485,3 +1485,12 @@ Day173 20:24仅是该号码未来新语义的专业标识测试，20:39廖珊看
 - 第489章正式ready Blob `96db4fa4003e605850d983f20a64814a0ba27aea`与490详纲及草稿依赖完全一致，无旧SHA差异未核。489截至Day352 20:14仅确定2019原形成单位纸簿实物及外部编号、未获签认页；490同日20:37夜班接成荫路钟楼有限计划，21:41许可内一次短音南岗可闻、北岗公交遮尾，不重试；23:00及23:04两岗独立记录未闻钟声、设备记录暂停试音且公众输出隔离。Day353 09:27设施方仅作阶段报告、10:09辛立真实回拨陈秋荷，拒用孩子录音。正常报时继续停用，长周期连续观察、恢复许可和公众全项复验仍待办，不把安静绝对化。
 - 独立QA核了第487章原故障与纠线路径、第488章阿棋短续住未改、第489章2019历史页项边界；本普通钟楼案不增加F003旧档史料或F008可靠记忆冲突，M004/M005仍未证。章节细微程序说明重复与尾段跨案总结、10:09孩子背包日程未明仅记MINOR，不因口味重写。
 - 当前记录仅是内容QA，**不是结构CI成功**；需待含ready、计划、Reader、QA及全部Memory的精确候选 Git Commit经CI结构单测及`python -m publisher.check_local --repo .`实际SUCCESS，方可以expected_sha和force:false迁入main。
+
+## 第490章正式ready与精确CI（2026-11-03）
+- 放行候选Commit `2adaffc40ffa46c7516b93be24c5f54f3de09307`，审计分支 `audit/ready-0490-20261103-run11` 触发工作流 `Validate Fanqie ready chapters` Run `41602011829`，精确head SHA相符，**SUCCESS**；结构单测 `Test offline snapshot validation` 和 `Validate this checkout without Git sync or publishing` 均成功（含`python -m publisher.check_local --repo .`）。main以`expected_sha=39668d0e6364698e6beedbc5b66a75f09954e1fb`、`force:false`非强制快进该精确候选成功；0490 ready Blob `0dda5a29b3ec99da01e6bdba5699e50a8ac406f4`，原draft已删除；0491 Writer并发新稿得以保留。
+- Reader `reader_reviews/0490_3ccbfd3a.md` 0/0/3，正文未改、独立QA通过，前489正式ready SHA准确；此前记录的「结构待校验」状态由这次真实 CI 成功覆盖，不以其他提交的绿灯替代。
+
+## 第491章原稿双遍Reader、Stage A及新 SHA 独立QA（2026-11-03，精确结构门禁待核）
+- Writer原draft `1c002ae23b8e3305ab422d4288e81a2550e2a3f5`先独立Reader Pass A→B `0 BLOCKER/3 MAJOR/2 MINOR`；三项可操作问题为前490临时SHA、Day353 20:46「上午那份」误指当日而申请在Day352上午、纯中文小说突现英文“insist”。Stage A限项重绑正式490ready SHA并修「昨天上午那份」「坚持」，其它剧情不改。新完整draft SHA `3152ab33fc9df02654b8c32d0b6b8edaaa86fdb7`已重新独立Pass A再B `0/0/2`、keep/none，旧Review不用于放行。有效字数3109，独立Continuity/Style/Meaningful Change QA PASS。
+- 已逐字比较前490原草稿 Blob `3ccbfd3a...` 与正式ready Blob `0dda5a29...` 的标题和去Front Matter正文完全相同，差异纯交付元数据，新491正文与章纲都已重绑准确前章SHA。第489章Day352上午新窄页项申请只收件，Day353晚获许可、Day354 09:17合法核原单位纸簿第73页业务区域与非身份表式栏目、10:58正式限项摘录、20:22中心新夜班实收；**没有**读到2019具体签名、2016回告内件、历史本人实际收答或2022字节同一。F003仅增加页项定位证据，F008/M004/M005不确证。钟楼正常公众报时仍停，阿棋Day358续住节点不变。
+- 内容QA不代表结构成功；只有含491 ready与Reader新SHA/QA/Memory/Plan的**精确候选CI**结构单测与`python -m publisher.check_local --repo .`真实成功后方可正式main放行。

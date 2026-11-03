@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 490
-last_reviewed_title: "钟楼没有再响，谁来证明这一次安静"
-last_source_path: chapters/draft/0490.md
-last_source_sha: 3ccbfd3a7f71061c8151e9a4421908e13610dd91
-last_review_path: reader_reviews/0490_3ccbfd3a.md
+last_reviewed_chapter: 491
+last_reviewed_title: "登记页终于有了位置，签收的人仍未出现"
+last_source_path: chapters/draft/0491.md
+last_source_sha: 3152ab33fc9df02654b8c32d0b6b8edaaa86fdb7
+last_review_path: reader_reviews/0491_3152ab33.md
 last_reviewed_at: "2026-11-03"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
-minor_count: 3
+minor_count: 2
 reader_gate: pass
-depends_on_chapter: 489
-depends_on_source_sha: 96db4fa4003e605850d983f20a64814a0ba27aea
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 96db4fa4003e605850d983f20a64814a0ba27aea
+depends_on_chapter: 490
+depends_on_source_sha: 0dda5a29b3ec99da01e6bdba5699e50a8ac406f4
+dependency_status: verified_predecessor_factual_delta_reconciled
+predecessor_current_source_sha: 0dda5a29b3ec99da01e6bdba5699e50a8ac406f4
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -4615,5 +4615,26 @@ chapter_490_audit_20261103:
   predecessor_ready_blob: "96db4fa4003e605850d983f20a64814a0ba27aea"
   predecessor_factual_delta: exact_ready_sha_no_mismatch
   body_revisions: 0
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required
+
+chapter_491_audit_20261103:
+  chapter: 491
+  title: "登记页终于有了位置，签收的人仍未出现"
+  original_source_sha: "1c002ae23b8e3305ab422d4288e81a2550e2a3f5"
+  original_review: reader_reviews/0491_1c002ae2.md
+  initial_counts: {blocker: 0, major: 3, minor: 2}
+  stage_a_used: 1
+  final_source_sha: "3152ab33fc9df02654b8c32d0b6b8edaaa86fdb7"
+  final_review_path: reader_reviews/0491_3152ab33.md
+  pass_a: new_sha_independent_first
+  pass_b: new_sha_independent_after_pass_a
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  predecessor_draft_sha: "3ccbfd3a7f71061c8151e9a4421908e13610dd91"
+  predecessor_ready_blob: "0dda5a29b3ec99da01e6bdba5699e50a8ac406f4"
+  predecessor_factual_delta: body_and_title_identical_metadata_only
+  body_revisions: 1
   content_qa: pass
   structural_gate: exact_candidate_ci_required

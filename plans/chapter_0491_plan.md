@@ -6,14 +6,14 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "27814de0501209d1f7668d6b730d9b0e22939537"
 - depends_on_chapter: 490
-- depends_on_source_sha: "3ccbfd3a7f71061c8151e9a4421908e13610dd91"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0490.md
+- depends_on_source_sha: "0dda5a29b3ec99da01e6bdba5699e50a8ac406f4"
+- dependency_status: verified_predecessor_factual_delta_reconciled
+- predecessor_location: chapters/ready/0490.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day353 20:46—Day354 20:22
 - title: 登记页终于有了位置，签收的人仍未出现
 - target_effective_chars: 3000
-- actual_effective_chars: 3111
+- actual_effective_chars: 3109
 - pov: 周衡、马芸及夜间中心有限岗位视角
 
 ## 目标与开场
@@ -45,3 +45,6 @@ F003：非身份定位推进但不触碰真实签认人/收答；F008：不由�
 - 实读 `AGENTS.md`、`config/novel.yaml`、`docs/writing_roles.md`、`docs/ai_reading_protocol.md`、Premise/Main Outline/World/Style、周衡夏宁梁策人物卡、当前卷弧实际资料（仓库无单独vol06/arc054纲）、人物知识关系世界状态、伏笔/时间线、最近十章481—490摘要或对应正式正文及最近五章486—490完整正文；0490尚未有审核摘要，以其临时draft具体版本为参考；未读历史reader_reviews。
 - 从published、ready、draft三目录核对：第153章已经published；第491章和章纲在源main不存在；前490章位置与blob `3ccbfd3a7f71061c8151e9a4421908e13610dd91` 已核。第490章尚未审核，下一章只能依赖这个特定临时草稿，不能当作正式Canon；独立Audit须复核后来前章有无事实变化。
 - 只新建本章plan和draft，禁止Reader/Revision/QA/Memory/Publish。
+## Audit Stage A 核验注记（2026-11-03）
+- 第490章原依赖草稿 Blob `3ccbfd3a7f71061c8151e9a4421908e13610dd91` 与最终ready Blob `0dda5a29b3ec99da01e6bdba5699e50a8ac406f4` 标题和去 Front Matter 正文逐字一致，已逐字比较事实无变化；现重绑正式ready版本及修正两处可操作的文字/时点错误。
+- 初稿「上午那份」无据指向Day353上午，而真实申请在Day352上午；修订为「昨天上午那份」。另把纯中文叙述中突兀的英文“insist”校正为“坚持”。本Stage A只做上列三处，不改变第491章调查结论。

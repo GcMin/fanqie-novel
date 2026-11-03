@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 491
+title: "登记页终于有了位置，签收的人仍未出现"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "1c002ae23b8e3305ab422d4288e81a2550e2a3f5"
+source_draft_sha: "3152ab33fc9df02654b8c32d0b6b8edaaa86fdb7"
+initial_review: "reader_reviews/0491_1c002ae2.md"
+reader_review: "reader_reviews/0491_3152ab33.md"
+depends_on_chapter: 490
+depends_on_source_sha: "0dda5a29b3ec99da01e6bdba5699e50a8ac406f4"
+dependency_status: verified_predecessor_factual_delta_reconciled
+timeframe: "Day353 20:46—Day354 20:22"
+summary: >-
+  Day353 20:46夜间中心接马芸有来源回告：第489章Day352上午所递2019年原形成单位纸质收发簿指定页项非身份字段申请终于获准次日上午一次由保管岗位在场翻阅定位，不能见自然人身份、签名、回告内件。周衡仅在本上记获准定位，梁策旧同事交接分栏口述不等于真实历史签认。夏宁对钟楼查询仍只称前夜两时点未闻声且公众正常报时未复开。Day354 09:17马芸凭本人有效经办许可在原单位纸档保管处见双岗按获准查原簿，按馆内目录业务类目指向第73页指定区域并核手写原页号与后期编目页号不同；只能看可公开索引标记、字段类别，包括登记日期、收发方向、主体及签认栏，不能读目标条目实际填值或推2019有人签。10:58正式签发限定摘要不含个人信息，12:26马芸回同事拒将“有签认栏”等同“有签认记录”；16:00按授权渠道交回。Day354 20:22新夜班夏宁周衡有源收到摘录，周衡只记73页位置已核、签认/2016内件/历史本人真获答未核，2022导入实际文件字节与11月21校对本同一无证。中心当班对钟楼居民仅告有责方仍未批准复播。初审原稿时间“上午那份”、英文insist、临时490前章SHA Stage A限项修复，新SHA Reader0/0/2。
+meaningful_state_changes:
+  - "2019年原形成单位纸簿从实物外编号匹配提升到经合法许可具体第73页可定位业务区域、原页与编目页号映射及字段类别，不确认2019双方真实签名或历史本人收答。"
+  - "马芸获得有责签发无身份摘录，拒把模板栏位当已填记录；周衡修正对原件期待，依据权限记明确查到与未查到。"
+  - "日常钟楼居日问询得到有限有源答复，仍未有恢复公众报时批准日期。"
+knowledge_updates:
+  - "马芸知道2019指定业务类目的原册第73页有可定位位置、表式栏位类型和两套页码对应，不知道目标条目填值、具体经办人签名或封内旧回告。"
+  - "周衡夏宁在Day354 20:22只收到有限不含身份摘录，梁策旧同事交接口述不涉及本案真实签名；中心不能借自身职责查看原签字页。"
+  - "2022工作区读取是否成功及具体字节与2022-11-21第三校对本同一仍未证，F008/M004/M005不确证。"
+relationship_updates:
+  - "马芸再次拒越界提问而诚实递交限定结果，周衡虽失落但尊重她的合法范围；夏宁让周衡别将未知历史本人置换成自己。"
+foreshadowing_updates:
+  - "F003有限推进至2019原簿第73页位置与表式栏目，而非真实2019签封、2016旧回告封内、历史真人获答；F008无可靠新本人记忆冲突，M004/M005无确证。"
+ending_state: "Day354 20:22有源非身份摘录证实2019原形成单位登记簿第73页对应业务登记区域与字段类别，实际签字/内件/历史人获答仍不得知；钟楼正常报时继续停播待正式批准。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1c002ae23b8e3305ab422d4288e81a2550e2a3f5", original_counts: "0/3/2", final_draft_sha: "3152ab33fc9df02654b8c32d0b6b8edaaa86fdb7", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 1, fixes: "predecessor_ready_sha_rebind|Day353_yesterday_morning|english_insist_to_Chinese", predecessor_draft_blob: "3ccbfd3a7f71061c8151e9a4421908e13610dd91", predecessor_ready_blob: "0dda5a29b3ec99da01e6bdba5699e50a8ac406f4", predecessor_factual_delta: body_and_title_identical}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3109
+release_evidence:
+  structural_gate: exact_candidate_ci_required

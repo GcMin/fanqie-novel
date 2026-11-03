@@ -28,7 +28,14 @@ foreshadowing_updates:
 ending_state: "Day353 10:09两个时点静音有真实人岗和设备状态证据、居民已获告知；正常公众报时仍停、全面恢复许可/全项复验/连续夜观察未证。"
 reader_counts: {blocker: 0, major: 0, minor: 3}
 revision_trace: {original_sha: "3ccbfd3a7f71061c8151e9a4421908e13610dd91", final_draft_sha: "3ccbfd3a7f71061c8151e9a4421908e13610dd91", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "96db4fa4003e605850d983f20a64814a0ba27aea", dependency_status: verified_exact_ready_blob}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_success_41602011829}
 char_count: 2789
 release_evidence:
-  structural_gate: exact_candidate_ci_required
+  structural_gate: exact_candidate_ci_success_41602011829
+  candidate_commit: "2adaffc40ffa46c7516b93be24c5f54f3de09307"
+  candidate_ci: 41602011829
+  candidate_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  ready_blob: "0dda5a29b3ec99da01e6bdba5699e50a8ac406f4"

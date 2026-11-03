@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 490
+last_updated_chapter: 491
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2210,4 +2210,12 @@ chapter_490_relationship_verified:
   manager_resident: "辛立以对陈秋荷的主动限定回告、承认现场听感不完整并拒绝借儿童录音，继续修复第487章最初质疑居民的关系；陈秋荷不承诺替设备值守，仍要求公示真正的复播许可。"
   mother_daughter: "陈秋荷保护杜晚晚不参加夜间设施监测、也不要求孩子改写自己的小钟画；孩子获悉仅本次两时点未响，不认为未来保证无声。"
   core_team: "夏宁周衡按有源回告分栏，梁策只提醒未到时点不填结果，无新的正式信任分数变化。"
+  trust_scores_unchanged: true
+
+chapter_491_relationship_verified:
+  chapter: 491
+  source_sha: "3152ab33fc9df02654b8c32d0b6b8edaaa86fdb7"
+  zhou_heng_and_ma_yun: "马芸对2019纸簿页项依法限范围操作而不替周衡答其真正想问的签收人；周衡虽失落仍同意只收有权摘录，不把求真转化为越权追问。"
+  core_team: "夏宁Day353/354分别阻止周衡把批准当查到、把可定位页项当历史本人收到；梁策以当代真正来电与有权回拨作对照，但旧同事故事不能补历史证据。"
+  archivists: "原形成单位两个有责保管人员受控翻第73页只开放已批索引与表式，不允许马芸看个人填值，限项结果由签发岗位真实签发。"
   trust_scores_unchanged: true

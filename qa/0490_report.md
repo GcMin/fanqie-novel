@@ -9,4 +9,8 @@
 - Style PASS：公交气刹遮尾、旧表格预印全面恢复被划掉、孩子的画和女儿朗读纸将抽象核验转成动作，叙事中有角色选择。三项轻微重复/显性跨案对照/10:09背书包时间未明仅MINOR，不触发为文风审美重写。
 - Meaningful Change PASS：相对于487仅室内纠错，490新增许可范围内**真正一次公众短声**、23时及23:04双岗实测无响和设备状态留证；陈秋荷本人确实收到当次阶段说明。常态恢复许可、正式公众全项复验、长周期夜间观察**仍未完成**。
 - F003只沿用第489章2019原纸簿实体与外编号匹配、内页签认未见；F008/M004/M005不确证，F009/F010/F011 resolved；阿棋七天短寄养Day358 11:12节点不变。
-- **结构门禁：待精确候选 Git Commit 的可信CI实际执行 `python -m publisher.check_local --repo .` 与结构单元测试并成功。未验证前不得将候选内容推送 main，不得声称main已放行。**
+- **结构门禁（已于候选提交核实成功）：精确候选 Git Commit 的可信CI实际执行 `python -m publisher.check_local --repo .` 与结构单元测试并成功。结构单测与本地校验均已通过，已以expected_sha/force:false迁入main。**
+
+## 结构验收后审计证据
+- 候选Commit `2adaffc40ffa46c7516b93be24c5f54f3de09307`，推送 `audit/ready-0490-20261103-run11` 的同 SHA workflow run `41602011829` **SUCCESS**；实际job步骤“Test offline snapshot validation”及“Validate this checkout without Git sync or publishing”均SUCCESS，对应 `python -m publisher.check_local --repo .`。
+- 该 commit 经 expected_sha `39668d0e6364698e6beedbc5b66a75f09954e1fb`、force:false 成功更新 main；其ready Blob `0dda5a29b3ec99da01e6bdba5699e50a8ac406f4`。此记录不替第491章精确版本结构门禁。
