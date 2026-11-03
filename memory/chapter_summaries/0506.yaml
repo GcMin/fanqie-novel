@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 506
+title: "水龙头有了声音，回执却还没到人手里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "2c98fdda6e5d1ce3a2068e03c73f435abcbacb50"
+source_draft_sha: "8321515e89466cf5aa3b604cd1fc74f7fbbad36a"
+initial_review: "reader_reviews/0506_2c98fdda.md"
+reader_review: "reader_reviews/0506_8321515e.md"
+depends_on_chapter: 505
+depends_on_source_sha: "f0ee0e061a74b1cc9b57904ef7c2bd2f98633edf"
+dependency_status: verified_predecessor_factual_delta_reconciled
+timeframe: "Day369 09:17—Day370 07:11"
+summary: >-
+  Day369 09:17桂树街3号楼罗月与93岁外婆仍使用前夜真正送到的两桶应急水，供水专业告知街前临时取水点仍开放，主干修复复核尚待完成。10:41马芸在原档案窗口按2019第73页已核同一原业务组合、原岗再次转出登记提出非身份交接索引存在性和类别合法查询申请，10:59真受理但审查范围未定；旧阅准不延续。18:32供水专业完成主干修复复核批准渐次恢复，物业将范围有限消息误转群为全楼已恢复；20:07罗月亲测厨房无水20:24中心受理本人现况，夏宁周衡保留分源。21:06梁策外围核，供水专业查到市政侧已达本次压力范围而物业入楼设施待核，21:43有资质维保员确认抢修时依法关闭的入楼控制阀仍未复开，依权限复开、专业核压力和使用提示。22:02公共点位虽有水不能证明三楼，罗月亲测厨房持续实际出水。23:16物业有责撤回保留原错源的全楼恢复公告并仅分项更正，本人再回拨明确本户今夜基本生活用水恢复、其他户/后续稳定性未证；临时点不自动撤。23:48马芸只获查询范围仍待审提醒，不能证明历史交接；Day370 07:11有责供水阶段书面回报仍只证限定本户及专业操作，旧2019实际交接、历史真人收答仍不明。F008/M004/M005无新独立确证。
+meaningful_state_changes:
+  - "罗月家从两份应急水维持改为本人按专业提示实核厨房持续出水，旧物业全楼恢复误报被保源限定更正；全楼住户及长期稳定性未核。"
+  - "2019原岗再次转出后的非身份交接索引查询已新提交且正式受理，但查询范围待审，没有新增真实交接证明。"
+knowledge_updates:
+  - "罗月明确知道本户厨房实恢复，不代表整楼；供水/物业/本户三个责任层级分别确认，外婆无急诊。"
+  - "周衡夏宁梁策按供水专业修复、物业持证复阀及本人实出水分别记录，未代签水质或全部住户正常。"
+  - "马芸知道原岗三项原始动作仅到再次转出登记，现在只有新申请收件和范围待审，尚不知去向、目的端签收或历史真人获答。"
+relationship_updates:
+  - "罗月坚持真实核本户且保护外婆隐私，不替别户在群内签恢复；物业老宋接受撤回错误公告、分源核实。"
+  - "中心三人分工更明确，梁策只核现场责任，夏宁保留错公告与本户实报，周衡不冒写全楼状态。"
+foreshadowing_updates:
+  - "F003仅新增合法申请受理、范围待核，2019原岗再次转出是真原始登记但没有目的端交接或历史人获答；2016旧封/2022字节同一未知，F008/M004/M005无新证。"
+ending_state: "Day370 07:11罗月本户厨房确认持续出水、主干专业修复和入楼有责复阀分源获证，其他户与后续稳定性未核；2019交接索引范围申请受理而无新的结果或历史本人收答。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "2c98fdda6e5d1ce3a2068e03c73f435abcbacb50", initial_counts: "0/1/2", final_draft_sha: "8321515e89466cf5aa3b604cd1fc74f7fbbad36a", stage_a_used: 1, body_revisions: 0, fix: "rebind505_ready_metadata_only", predecessor_original_sha: "257fd321ae20f03ced5e1ca615e9e6b563cf64ad", predecessor_ready_blob: "f0ee0e061a74b1cc9b57904ef7c2bd2f98633edf", predecessor_factual_delta: title_and_body_identical_only_delivery_metadata_changed}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3366

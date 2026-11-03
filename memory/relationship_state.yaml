@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 505
+last_updated_chapter: 506
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2324,3 +2324,10 @@ chapter_505_arc054_update:
   ma_yun_and_colleague: "同事想因再转出写已回告，马芸坚持合法摘录只写原岗记录类别，避免越权替历史收件人签答。"
   luo_yue_and_supply_staff: "罗月自己完成第一桶并同意有责人员按预定方案送第二份，尊重外婆拒生人进厨房的边界，双方有真实到户交接。"
   core_team: "夏宁先查责权和开点实情，梁策现场提醒施工绕行，周衡将有责供水实到与旧档仅原岗位转出记录分源存放，未把程序号当末端到达。"
+
+chapter_506_arc054_update:
+  chapter: 506
+  source_sha: "8321515e89466cf5aa3b604cd1fc74f7fbbad36a"
+  luo_yue_and_property: "罗月不接受原物业全楼泛化公告，要求真实核自家与其他户分开；物业老宋在持证人员核复阀后保留错源并更正本户边界。"
+  ma_yun_and_archive: "马芸坚持旧再次转出登记之后先申请最小非身份交接索引，尊重不同保管部门权限，不要求直查历史真人。"
+  core_team: "夏宁按实复水和源类别留录，周衡不把一楼公点代三楼，梁策坚持专业人有责操作，不越权认定所有居民恢复。"
