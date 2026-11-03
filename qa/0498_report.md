@@ -13,3 +13,8 @@
 **Meaningful Change QA PASS：** 702母子和601老人实际经有责专业人员救出至安全点，原群绿字被以真到达与未核楼层分栏纠正，楼前按要求设临时管控并保存报错来源。住户知道安全区不等于回屋许可，后续起火原因、楼内用电恢复、财物结案均未伪写完成。
 
 **结构门槛：** 以上均为独立内容QA；必须见精确候选Git commit的GitHub Actions结构单测与`python -m publisher.check_local --repo .`实际SUCCESS，且对同commit精确SHA核实，才可用expected_sha、force:false迁ready，否则保留草稿待下次。
+
+## 正式放行结构门槛实际证据（已完成）
+- 与本章ready、有效SHA绑定Reader、独立QA、Memory和唯一计划行相同树的精确候选Git Commit `9f61f392ac28ec8544a80bfb38a9e6c87597e21d`，Git Tree `ba234556c2e070deebc74c63e2de8121859d4d5e`，原draft与对应ready在同一候选树中原子迁移。
+- GitHub Actions审计分支CI `41663510429` 的head SHA精确匹配上述候选Commit，结论**SUCCESS**。工作流中的`Test offline snapshot validation`（结构单元测试）与`Validate this checkout without Git sync or publishing`（实际执行`python -m publisher.check_local --repo .`）均为**SUCCESS**。此前报告中的“待结构校验”仅是候选阶段安全门槛，已由本节实际证据完成。
+- main使用`expected_sha`、`force:false`非强制前进至对应候选，main同Commit Actions `41663616393` **SUCCESS**；正式ready Git Blob `5422dcde59007049c78348a41db7adcad5d69755`，原对应draft已删除。Canon/published/定时任务未修改，不自动发布番茄。

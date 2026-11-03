@@ -33,5 +33,16 @@ foreshadowing_updates:
 ending_state: "Day361 07:26 702母子和601老人已获救并在专业指引下安置或与家属离开，七零二未返家；物业原伪全撤状态有源留档，楼栋安全恢复和电气故障原因仍待核。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "00d1985d0b7979d5e25fb558cd66ff2707ad4efb", initial_counts: "0/1/2", final_draft_sha: "d8b315479a520af9d299c06c1887c5b841d4d518", stage_a_used: 1, body_revisions: 0, fix: rebind_497_ready_after_actual_body_delta_compare, predecessor_draft_blob: "56e6b14651ed8970132686f851d763565cadf6a0", predecessor_ready_blob: "2e601cc3945d18d81c3433954177a2a63610d6f0", predecessor_factual_delta: enamel_bowl_sill_to_floor_498_unaffected}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_success_41663510429}
 char_count: 3186
+release_evidence:
+  candidate_commit: "9f61f392ac28ec8544a80bfb38a9e6c87597e21d"
+  validated_tree: "ba234556c2e070deebc74c63e2de8121859d4d5e"
+  candidate_ci: 41663510429
+  candidate_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ci: 41663616393
+  main_ci_conclusion: success
+  main_ref_update: expected_sha_force_false_success
+  ready_blob: "5422dcde59007049c78348a41db7adcad5d69755"

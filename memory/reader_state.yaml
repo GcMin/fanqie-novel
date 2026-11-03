@@ -4828,3 +4828,17 @@ chapter_498_audit_20261103:
   predecessor_factual_delta: water_bowl_sill_to_floor_498_independent_case
   independent_content_qa: pass
   structural_gate: pending_exact_candidate_ci
+
+chapter_497_498_release_verified:
+  chapter_497_commit: "b65f44207a380f1e1d7b8c23c4ac31aa16de9af7"
+  chapter_497_candidate_ci_success: 41662290058
+  chapter_497_main_ci_success: 41662411196
+  chapter_497_ready_blob: "2e601cc3945d18d81c3433954177a2a63610d6f0"
+  chapter_498_commit: "9f61f392ac28ec8544a80bfb38a9e6c87597e21d"
+  chapter_498_candidate_ci_success: 41663510429
+  chapter_498_main_ci_success: 41663616393
+  chapter_498_ready_blob: "5422dcde59007049c78348a41db7adcad5d69755"
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  main_updates: expected_sha_force_false
+  original_drafts_deleted: true

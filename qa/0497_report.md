@@ -13,3 +13,8 @@
 **Meaningful State Change：PASS。** 阿棋首次经可核运输与本人交接短时实际进入榆叶巷旧家并喝水，现场证实惊吓与牵犬承载风险；父亲用实际再次付费接回寄养点而不是虚报“永久到家”，三天过渡有新到期约定但具体日时须以新单为准，原主人决定权不变。
 
 **结构门槛：未放行前必须对包含本ready、旧draft删除、有效Reader/QA、全部真实Memory和唯一497计划行的同一Git候选commit运行可信GitHub Actions结构单测及`python -m publisher.check_local --repo .`并确认该SHA和SUCCESS；本内容QA无法替代结构校验。**
+
+## 正式放行结构门槛实际证据（已完成）
+- 与本章ready、有效SHA绑定Reader、独立QA、Memory和唯一计划行相同树的精确候选Git Commit `b65f44207a380f1e1d7b8c23c4ac31aa16de9af7`，Git Tree `08be2a6781c12b0bd2530611efd5b91259720a72`，原draft与对应ready在同一候选树中原子迁移。
+- GitHub Actions审计分支CI `41662290058` 的head SHA精确匹配上述候选Commit，结论**SUCCESS**。工作流中的`Test offline snapshot validation`（结构单元测试）与`Validate this checkout without Git sync or publishing`（实际执行`python -m publisher.check_local --repo .`）均为**SUCCESS**。此前报告中的“待结构校验”仅是候选阶段安全门槛，已由本节实际证据完成。
+- main使用`expected_sha`、`force:false`非强制前进至对应候选，main同Commit Actions `41662411196` **SUCCESS**；正式ready Git Blob `2e601cc3945d18d81c3433954177a2a63610d6f0`，原对应draft已删除。Canon/published/定时任务未修改，不自动发布番茄。
