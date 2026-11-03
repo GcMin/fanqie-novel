@@ -4806,7 +4806,7 @@ chapter_497_audit_20261103:
   predecessor_ready_blob: "0b5362b8ddda03787e2d75d5314b27019e76c82d"
   predecessor_factual_delta: exact_ready_sha_no_mismatch
   independent_content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_ci_success_41691890352
 
 chapter_498_audit_20261103:
   chapter: 498
@@ -4898,3 +4898,15 @@ chapter_501_final_review:
   precedent_ready_blob: "95b296bbdeb5dd1bb3d7e4ef1ed41f05f89aa77a"
   content_qa: pass
   structural_gate: pending_exact_candidate_ci
+
+release_501_reader_evidence:
+  candidate_commit: "a3e67c52520cea206ba2762b247d6200c564eaaa"
+  validated_tree: "03e09ab63a1a68f16aa089121d8e2313a99cce71"
+  candidate_ci: 41691890352
+  candidate_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  ready_blob: "9a8f97bde5fee83c39666ed7676ebc1f71cd2c13"
+  main_update: expected_sha_force_false_success
+  main_ci: 41692009094
+  main_ci_conclusion: success

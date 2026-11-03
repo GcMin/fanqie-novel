@@ -7,3 +7,9 @@
 - **Style PASS**：孩子寻蓝鲸、母亲看到照片但自觉留下、丈夫分置旧屋钥匙与旅宿房卡，是可观察的情绪与选择；对白各有职业和家庭差异。不因轻微程序性重复重写。
 - **Meaningful Change PASS**：本户首次实获个别受控取物许可并按实际核销，孩子真正取回布偶；第三晚续住向第四晚有责续房推进。旧屋整体安全、同楼其他户、旧2019纸档真实签认和F008/M004/M005不获新增确证。
 - **结构门禁状态**：独立内容QA真实PASS，但这不是本地或GitHub Actions实际结构运行结果。只有精确候选commit成功执行结构单测与`python -m publisher.check_local --repo .`后才允许main非强制更新；本段不冒称已检查成功。
+
+## 精确结构门禁与正式ready实际证据（2026-11-04）
+- 候选/正式放行commit `a3e67c52520cea206ba2762b247d6200c564eaaa`，Git Tree `03e09ab63a1a68f16aa089121d8e2313a99cce71`，审计分支 `audit/ready-0501-20261104-0206` 的GitHub Actions run `41691890352` head SHA与该commit精确相同，结论 **SUCCESS**；结构单测 `Test offline snapshot validation` 与 `Validate this checkout without Git sync or publishing` 均为 **SUCCESS**，后者实际运行 `python -m publisher.check_local --repo .`。
+- 此树中 `chapters/ready/0501.md` Blob `9a8f97bde5fee83c39666ed7676ebc1f71cd2c13` 实际存在，原 `chapters/draft/0501.md` 同树删除；source最新draft SHA及新Reader均精确相符，Memory与计划同树。以 `expected_sha=11c8eac3c4cd9b22694b09e8eace04a8cb1c0af1`、`force:false`更新main到该候选commit **SUCCESS**，不越权操作平台。
+
+- 同一正式放行SHA的main Actions run `41692009094` 也已完成 **SUCCESS**（不得与审计证据新commit的CI混淆）。

@@ -49,3 +49,6 @@
 - 原草稿 `fcb50de6cab6e037d1db90f5f83e51574daa0ed2` Reader Pass A/B发现两项明确MAJOR：11:30阶段答复承诺遗漏、标题十分钟无实际屋门时间。
 - Stage A一次仅补11:28答复和14:47—14:57实际开锁门时段，同步有效字数为3327；新Git Blob `f4a2bf2161e088c250bc6abe32cffb5605bf307d` 独立Pass A/B重审0/0/2，独立内容QA PASS。前500章正式依赖精确为 `95b296bbdeb5dd1bb3d7e4ef1ed41f05f89aa77a`。
 - 正式ready仅在精确候选CI结构成功且main非强制更新后成立；不改写原Writer首次计划作为已写事实。
+
+## 精确结构门禁正式结果
+- Git commit `a3e67c52520cea206ba2762b247d6200c564eaaa`，Tree `03e09ab63a1a68f16aa089121d8e2313a99cce71`，审计分支Actions `41691890352` 结构单元测试和 `python -m publisher.check_local --repo .` 双PASS；本章ready Blob `9a8f97bde5fee83c39666ed7676ebc1f71cd2c13`，draft同树删除；main以`expected_sha`/`force:false`成功快进。

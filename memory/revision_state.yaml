@@ -4213,7 +4213,7 @@ chapter_497_revision_verified:
   char_count: 3267
   predecessor_ready_sha: "0b5362b8ddda03787e2d75d5314b27019e76c82d"
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_ci_success_41691890352
 
 chapter_498_revision_verified:
   chapter: 498
@@ -4292,3 +4292,15 @@ chapter_501_revision_state:
   safe_mode: false
   content_qa: pass
   structural_gate: pending_exact_candidate_ci
+
+release_501_revision_evidence:
+  candidate_commit: "a3e67c52520cea206ba2762b247d6200c564eaaa"
+  validated_tree: "03e09ab63a1a68f16aa089121d8e2313a99cce71"
+  candidate_ci: 41691890352
+  candidate_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  ready_blob: "9a8f97bde5fee83c39666ed7676ebc1f71cd2c13"
+  main_update: expected_sha_force_false_success
+  main_ci: 41692009094
+  main_ci_conclusion: success
