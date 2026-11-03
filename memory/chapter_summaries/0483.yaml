@@ -31,5 +31,16 @@ foreshadowing_updates:
 ending_state: "Day346傍晚已核原摊恢复，冷柜昨夜两单实交第三笔另约，错误全排停业授权保源更正；未检装饰灯带、商户赔损与责任仍待有责程序。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "ea75fb156e2f5b851de72d8bd39784165a1f2be7", final_draft_sha: "ea75fb156e2f5b851de72d8bd39784165a1f2be7", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "19985262505e501675f0e9d2f8190cad9a48df73", dependency_status: verified_exact_ready_blob}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_success_41559384621}
 char_count: 2812
+release_evidence:
+  candidate_commit: "59b039c38e822bc4e1c373524bb3a57c25777273"
+  validated_tree: "fc71542d06d1e4a34f6298b68a94e8d9143af1ea"
+  candidate_ci: 41559384621
+  candidate_ci_conclusion: success
+  main_ci: 41559456334
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  ready_blob: "a2901ad21661925c544aff1d2700304ffe09f414"

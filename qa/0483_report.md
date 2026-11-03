@@ -9,3 +9,8 @@
 - **Meaningful Change QA PASS**：六摊“同意全排停业”错误汇总被保源纠正；真实风险只按专业确认限项隔离和复测恢复；林娟获得核准原址恢复，郑桂华两单真交一单另约；郭胜决定以后不代商户勾选。尚未检的灯带及赔偿保持待核。
 - **Canon/伏笔边界 PASS**：F003无永安里独立新史料、F008/M004/M005不确证，旧卡未识别与旧屋未修等前章事实不受污染；既有Canon及published不改。
 - **正式结构校验门禁待真实执行**：内容Reader、Continuity、Style、Meaningful检查已PASS，但结构只准依据包含ready迁移、删除draft、Memory、计划行的精确候选Commit实际CI（结构单测及`python -m publisher.check_local --repo .`）SUCCESS后放行；任何CI失败/未执行或main变化，都不得将该候选当作已在main正式ready。
+
+## 第483—484章结构门禁与main正式放行（2026-11-03）
+- 精确候选/正式放行Commit `59b039c38e822bc4e1c373524bb3a57c25777273`，Git Tree `fc71542d06d1e4a34f6298b68a94e8d9143af1ea`；审计分支 `audit/ready-0483-0484-20261103-0915` GitHub Actions `41559384621` **SUCCESS**，真实checkout该Commit，`Test offline snapshot validation`（单元测试）和 `Validate this checkout without Git sync or publishing`（`python -m publisher.check_local --repo .`）均成功。正式main同SHA Actions `41559456334` **SUCCESS**，两步相同。
+- 本次main从Writer并发提交的 `9834cc4850730f60b1933b2f6c1d16c50c1d6ff3`（仅新建484章节与详纲）基于expected_sha、force:false非强制快进到 `59b039c38e822bc4e1c373524bb3a57c25777273`，没有覆盖Writer的484内容；第483、484章在同一完整Git Tree中按章号顺序迁入ready，原两草稿同树删除。
+- 第483章ready Blob `a2901ad21661925c544aff1d2700304ffe09f414`，第484章ready Blob `9793fbb93a768261a53f728969b32ffcaa0625e8`，对应Reader分别绑定源SHA `ea75fb156e2f5b851de72d8bd39784165a1f2be7`、`34a586e1598f5a8ef729b592645c9a688d0a2d5d`；483 Reader0/0/2、484 Stage A前0/1/2且新SHA复审0/0/2，独立Continuity/Style/Meaningful内容QA均PASS、两章小说正文修改0字。

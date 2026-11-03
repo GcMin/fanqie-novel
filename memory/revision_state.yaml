@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 484
-current_stage: content_qa_pass_pending_exact_candidate_ci
+current_stage: ready_after_exact_candidate_ci_success
 current_source_path: chapters/draft/0484.md
 current_source_sha: 34a586e1598f5a8ef729b592645c9a688d0a2d5d
 current_review_path: reader_reviews/0484_34a586e1.md
@@ -12,13 +12,13 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter484_stage_a_metadata_rebind_new_sha_reader_0_0_2_qa_pass_pending_ci
+last_action: chapter483_484_ready_after_ci_41559384621
 last_action_date: "2026-11-03"
 last_error: null
-last_diff_summary: "484原稿8be4cbadd0784df82501b25a0e78ec0696238a85Reader0/1/2，Stage A仅重绑483正式ready a2901ad21661925c544aff1d2700304ffe09f414（与旧稿正文和标题完全一致），新草稿34a586e1598f5a8ef729b592645c9a688d0a2d5d独立Reader0/0/2，正文0字变，内容QA PASS，待精确CI。"
+last_diff_summary: "第483、484章内容QA PASS，483 Reader0/0/2、484Stage A前0/1/2→新SHA0/0/2，正文0字修改；精确候选Git Tree fc71542d06d1e4a34f6298b68a94e8d9143af1ea 的CI 41559384621和同SHA main CI 41559456334均SUCCESS；非强制expected_sha正式放行两章。"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: false
+publish_gate_passed: true
 current_review_source_sha: 34a586e1598f5a8ef729b592645c9a688d0a2d5d
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
@@ -3882,7 +3882,7 @@ chapter_483_revision:
   predecessor_ready_blob: "19985262505e501675f0e9d2f8190cad9a48df73"
   predecessor_factual_delta: "第483章直接绑定482正式ready SHA，没有旧稿到新版的事实变化。"
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_ci_success_41559384621
 chapter_484_revision:
   chapter: 484
   original_source_sha: "8be4cbadd0784df82501b25a0e78ec0696238a85"
@@ -3901,4 +3901,17 @@ chapter_484_revision:
   predecessor_ready_blob: "a2901ad21661925c544aff1d2700304ffe09f414"
   predecessor_factual_delta: "483原稿到正式ready只有Front Matter交付状态不同，小说正文与title逐字一致。"
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_ci_success_41559384621
+release_483_484_revision_evidence:
+  chapter_numbers: [483, 484]
+  first_reviews: "483:0/0/2;484:0/1/2"
+  final_reviews: "483:0/0/2;484:0/0/2"
+  stage_a_dependency_rebind_used: {483: 0, 484: 1}
+  body_revisions: 0
+  qa_gate: pass
+  publish_gate_passed: true
+  validated_commit: "59b039c38e822bc4e1c373524bb3a57c25777273"
+  exact_candidate_ci_success: 41559384621
+  main_ci_success: 41559456334
+  ready_483_blob: "a2901ad21661925c544aff1d2700304ffe09f414"
+  ready_484_blob: "9793fbb93a768261a53f728969b32ffcaa0625e8"

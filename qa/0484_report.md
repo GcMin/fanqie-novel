@@ -9,3 +9,8 @@
 - **Meaningful Change QA PASS**：犬从失联回到主人实际核实交付，危险槽盖真实复位且余区保持围护，错误接收记录拆分为两犬两源并留下透明更正；乔芮对安全和隐私的选择改变。宠物健康观察和平台其它地点均待核。
 - **伏笔/主线 QA PASS**：普通地图聚合不证失址记忆；F003无新2019/2016历史原件、2022字节与归档本同一性，F008/M004/M005不新确证。
 - **结构放行门禁**：内容QA已PASS，只有包含第483与484章按序ready迁移、各自Reader、QA、Memory、完整计划行的**同一个精确候选Git Commit**在GitHub Actions实际运行结构单测及`python -m publisher.check_local --repo .`全SUCCESS，才能以当下main expected_sha、force:false进行原子放行。未运行、失败、冲突皆保持main草稿与下轮重试，不伪称正式ready。
+
+## 第483—484章结构门禁与main正式放行（2026-11-03）
+- 精确候选/正式放行Commit `59b039c38e822bc4e1c373524bb3a57c25777273`，Git Tree `fc71542d06d1e4a34f6298b68a94e8d9143af1ea`；审计分支 `audit/ready-0483-0484-20261103-0915` GitHub Actions `41559384621` **SUCCESS**，真实checkout该Commit，`Test offline snapshot validation`（单元测试）和 `Validate this checkout without Git sync or publishing`（`python -m publisher.check_local --repo .`）均成功。正式main同SHA Actions `41559456334` **SUCCESS**，两步相同。
+- 本次main从Writer并发提交的 `9834cc4850730f60b1933b2f6c1d16c50c1d6ff3`（仅新建484章节与详纲）基于expected_sha、force:false非强制快进到 `59b039c38e822bc4e1c373524bb3a57c25777273`，没有覆盖Writer的484内容；第483、484章在同一完整Git Tree中按章号顺序迁入ready，原两草稿同树删除。
+- 第483章ready Blob `a2901ad21661925c544aff1d2700304ffe09f414`，第484章ready Blob `9793fbb93a768261a53f728969b32ffcaa0625e8`，对应Reader分别绑定源SHA `ea75fb156e2f5b851de72d8bd39784165a1f2be7`、`34a586e1598f5a8ef729b592645c9a688d0a2d5d`；483 Reader0/0/2、484 Stage A前0/1/2且新SHA复审0/0/2，独立Continuity/Style/Meaningful内容QA均PASS、两章小说正文修改0字。

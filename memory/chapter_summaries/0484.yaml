@@ -30,5 +30,16 @@ foreshadowing_updates:
 ending_state: "Day347 11:12毛豆已经本人核验实交且初诊后观察，另一黑白花犬原案保留；本次两犬误聚合记录有源更正，本段检修槽复位而其它养护区继续封，隐私照片只准限项用途。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "8be4cbadd0784df82501b25a0e78ec0696238a85", final_draft_sha: "34a586e1598f5a8ef729b592645c9a688d0a2d5d", stage_a_used: 1, body_revisions: 0, predecessor_original_draft_sha: "ea75fb156e2f5b851de72d8bd39784165a1f2be7", predecessor_ready_blob: "a2901ad21661925c544aff1d2700304ffe09f414", predecessor_factual_delta: body_and_title_identical_only_frontmatter_changed, dependency_status: verified_predecessor_body_identical_ready}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_success_41559384621}
 char_count: 2745
+release_evidence:
+  candidate_commit: "59b039c38e822bc4e1c373524bb3a57c25777273"
+  validated_tree: "fc71542d06d1e4a34f6298b68a94e8d9143af1ea"
+  candidate_ci: 41559384621
+  candidate_ci_conclusion: success
+  main_ci: 41559456334
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  ready_blob: "9793fbb93a768261a53f728969b32ffcaa0625e8"

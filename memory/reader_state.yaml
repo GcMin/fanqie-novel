@@ -4457,7 +4457,7 @@ chapter_483_review:
   predecessor_ready_blob: "19985262505e501675f0e9d2f8190cad9a48df73"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_ci_success_41559384621
 chapter_484_review:
   chapter: 484
   title: "铃铛从绿篱里响了一声"
@@ -4477,4 +4477,16 @@ chapter_484_review:
   predecessor_ready_blob: "a2901ad21661925c544aff1d2700304ffe09f414"
   predecessor_factual_delta: body_and_title_identical_only_delivery_frontmatter_changed
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_ci_success_41559384621
+release_483_484_reader_evidence:
+  chapters: [483, 484]
+  source_draft_483: ea75fb156e2f5b851de72d8bd39784165a1f2be7
+  source_draft_484: 34a586e1598f5a8ef729b592645c9a688d0a2d5d
+  reviews: [reader_reviews/0483_ea75fb15.md, reader_reviews/0484_34a586e1.md]
+  final_counts: "483:0/0/2;484:0/0/2"
+  independent_qa: pass
+  exact_candidate_commit: "59b039c38e822bc4e1c373524bb3a57c25777273"
+  candidate_ci_success: 41559384621
+  main_ci_success: 41559456334
+  ready_483_blob: "a2901ad21661925c544aff1d2700304ffe09f414"
+  ready_484_blob: "9793fbb93a768261a53f728969b32ffcaa0625e8"
