@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 482
-last_reviewed_title: "旧卡还没认出人，墙上先贴了新画"
-last_source_path: chapters/draft/0482.md
-last_source_sha: 7602bad005187aad8c93a2056a31473f1d03fc73
-last_review_path: reader_reviews/0482_7602bad0.md
+last_reviewed_chapter: 483
+last_reviewed_title: "她签的是查灯，纸上却写着整排停业"
+last_source_path: chapters/draft/0483.md
+last_source_sha: ea75fb156e2f5b851de72d8bd39784165a1f2be7
+last_review_path: reader_reviews/0483_ea75fb15.md
 last_reviewed_at: "2026-11-03"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 481
-depends_on_source_sha: 621991bba117c72193c8f8bb55eed31059dc1e42
+depends_on_chapter: 482
+depends_on_source_sha: 19985262505e501675f0e9d2f8190cad9a48df73
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 621991bba117c72193c8f8bb55eed31059dc1e42
+predecessor_current_source_sha: 19985262505e501675f0e9d2f8190cad9a48df73
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -4443,3 +4443,18 @@ release_482_reader_evidence:
   exact_candidate_ci_success: 41544333763
   same_sha_main_ci_success: 41544409940
   ready_blob: "19985262505e501675f0e9d2f8190cad9a48df73"
+chapter_483_review:
+  chapter: 483
+  title: "她签的是查灯，纸上却写着整排停业"
+  source_path: chapters/draft/0483.md
+  source_sha: "ea75fb156e2f5b851de72d8bd39784165a1f2be7"
+  review_path: reader_reviews/0483_ea75fb15.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  independent_pass_a_then_b: true
+  required_action: none
+  local_revision_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "19985262505e501675f0e9d2f8190cad9a48df73"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci

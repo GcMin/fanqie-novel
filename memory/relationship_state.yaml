@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 479
+last_updated_chapter: 483
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2147,4 +2147,12 @@ chapter_482_relationship_verified:
   child_father_keeper: "父亲尊重儿子新绘自行车可展和另一幅父亲肖像不展的意愿，缪芸只给新画评语并继续为旧卡身份留空。"
   staff_preservation: "许汀和保护岗位继续区分旧资料受控保管与新馆展示授权，未以热闹活动逼旧纸揭名。"
   core_team: "中心三人本章没有新的直接行动，既有分工关系不变。"
+  trust_scores_unchanged: true
+
+chapter_483_relationship_verified:
+  chapter: 483
+  merchants_manager: "郑桂华与林娟不接受郭胜代为认同全排停业，郭胜公开承认模板误扩并在后续检修主动问明范围与本人回应；保留双方利益差异，不虚构完全和解。"
+  merchants_customers: "郑桂华亲自联系三位客户，两位愿改东侧交接台且实际收货，第三位不急而改约；个人选择分别记录不代签。"
+  market_professionals: "市场主管承认原纸签与假汇总不同，维护岗位以实际危险作限项处置；市场方不得以临时不合格空地替林娟表示已经复业。"
+  core_team: "夏宁周衡梁策按本职边界协调，本案未改变其既有信任分数或Canon关系。"
   trust_scores_unchanged: true
