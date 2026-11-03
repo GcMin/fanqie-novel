@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 503
+last_updated_chapter: 504
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2310,3 +2310,10 @@ chapter_503_arc054_update:
   ma_yun_and_archive_staff: "马芸尊重本轮限制不窥另一个月同号业务，双岗只核库房外盒并出具真实限定回告，双方拒把候选目录当原始纸件。"
   ma_yun_and_colleague: "马芸要求同事删去未经证实的“最终答复签收”，仅用合法原页号/编目页号/形成单位问候选随附同件性。"
   core_team: "周衡原想把2019原笔接到盒号，在梁策夏宁提醒下明确画待核虚线并将拟申请留到白班，而非冒称已获历史真人回告。"
+
+chapter_504_arc054_update:
+  chapter: 504
+  source_sha: "0580e350c1a522baaa72f35e3d0f9d3885baae66"
+  ma_yun_and_colleague: "马芸阻止同事将已核外盒误写为已经找到最终后续，在取得确切原始内部类别后仍只写补核收讫而不抢先给历史业务结案；同事接受阶段有限说法。"
+  ma_yun_and_archive_staff: "有责保管双岗对申请分层核准，现场独立核原始组合并遮敏、复封，马芸认可未批准部分不能询问自然人身份或完整旧回告。"
+  zhou_heng_and_liang_ce_xia_ning: "周衡原拟从新证连到旧受领者，梁策问清原受理岗与当事人之别、夏宁提醒下一格待证，周衡依来源分开两格并保留右端空白。"

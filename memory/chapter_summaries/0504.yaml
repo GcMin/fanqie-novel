@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 504
+title: "封存盒打开以后，退回的纸往前走了一格"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "0580e350c1a522baaa72f35e3d0f9d3885baae66"
+reader_review: "reader_reviews/0504_0580e350.md"
+depends_on_chapter: 503
+depends_on_source_sha: "86182f9070f7555657eea88f28fca53a2c3af921"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day367 09:18—Day368 07:08"
+summary: >-
+  Day367 09:18马芸在原形成单位窗口将新申请明确限于2019第73页指定登记与现候选封存盒原始业务同件识别，必要时再核一项非身份内部处置类别，排除姓名签笔及旧回告内文；10:06实收件但不等于准阅。12:30同事误拟已有后续资料被马芸制止。13:48有责保管岗资格和条件审核批准双岗受控限项核阅，不含其他内页或身份信息。16:07保管双人记录封口并在授权下开盒，16:21按形成单位、原簿位置、月份及原始业务识别组合独立复核，排除另一月份同号、确认指定封套与原2019第73页登记同件；同封套获准非身份原始内部登记出现退回核址后的“补核收讫”，仅证原受理岗位曾收到补核材料，不证地址补对、再次转出、签收或历史本人获答。16:46受控材料复封并留真实有责记录，马芸只携去身份限定摘录。20:26夏宁周衡梁策接正式有限回告，周衡将新“补核收讫”单列在2019退回后而不跨接2016/2022独立来源；22:12马芸愿申请下一次有无再次转出原始登记，但当夜仅拟稿未递交。Day368 07:08完成交班归档，青杉里702仍未获复住、榆荫路原坡道仍需有责复验，普通路灯未宣布恢复。F003有界前进一步，F008/M004/M005无确证。
+meaningful_state_changes:
+  - "有责保管双岗在合法授权下打开此前只核在库的封存整理盒，原始识别组合确认指定封套与2019第73页那笔登记真正同件，不靠后编目录标签。"
+  - "合法核得退回核址之后一次原始内部“补核收讫”类别，第一次把旧业务推进到原受理岗位补核材料已收；未证地址核对成功或历史真实送达。"
+  - "马芸正式取得限项摘录，夜班三人明确只拟有无再次转出记录的新申请；盒复封、准阅许可不延续。"
+knowledge_updates:
+  - "马芸知道候选盒内指定封套原业务组合真对应2019第73页原笔及内部补核材料收讫，仍不知道同封套其余内页及签笔、人名、后续转出或历史真人收答。"
+  - "周衡夏宁梁策20:26获许可范围内去身份有源结论，知道退回与补核材料内部收件有原始记录时序，不把补核等同最终答复或联到2016/2022。"
+  - "保管双岗知道封套原始组合、有限内部业务类别、16:46复封登记，不对外开放未获许可自然人资料。"
+relationship_updates:
+  - "马芸制止同事将候选盒位写成已找到后续并让其按真正查得范围落字；双岗保管员坚持权限，周衡接受梁策夏宁按来源拆开方框。"
+foreshadowing_updates:
+  - "F003新增2019原簿第73页指定业务原始同件性和其后内部补核收讫登记；并无2019再次转出或历史本人获答、2016回告在封或2022字节同一新证；F008/M004/M005不升级，F009/F010/F011 resolved。"
+ending_state: "Day368 07:08封存盒已归回封闭、原始同件与补核收讫经有责获证；未得再次转出、真实签答和旧真人获答结论，下一窄申请尚未提交；702未准复住、坡道仍封待复验。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0580e350c1a522baaa72f35e3d0f9d3885baae66", final_draft_sha: "0580e350c1a522baaa72f35e3d0f9d3885baae66", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "86182f9070f7555657eea88f28fca53a2c3af921", dependency_status: verified_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3241

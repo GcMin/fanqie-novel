@@ -1577,3 +1577,8 @@ Day173 20:24仅是该号码未来新语义的专业标识测试，20:39廖珊看
 ## 第502—503章正式ready与精确结构CI已实证｜2026-11-04
 - 第502章正式ready Commit `963b526d54edcbe63d0c61ec9d67631127feb2b9`、审计候选Actions `41710415124` **SUCCESS**（其head_sha精确等于对应放行Commit，真实结构单测和`python -m publisher.check_local --repo .`均SUCCESS）、同SHA main Actions `41710531548` **SUCCESS**；以expected_sha、force:false真实快进main；对应正式ready Blob `c865febbd82177834f8cbda61af89baf4d13944f`，原draft已删。旧内容QA中“结构待核”仅为候选阶段提示，由此处真实CI证据覆盖。
 - 第503章正式ready Commit `929e66211fec88552a31416acee6c225e9429ed4`、审计候选Actions `41711406539` **SUCCESS**（其head_sha精确等于对应放行Commit，真实结构单测和`python -m publisher.check_local --repo .`均SUCCESS）、同SHA main Actions `41711525200` **SUCCESS**；以expected_sha、force:false真实快进main；对应正式ready Blob `86182f9070f7555657eea88f28fca53a2c3af921`，原draft已删。旧内容QA中“结构待核”仅为候选阶段提示，由此处真实CI证据覆盖。
+
+## 第504章ARC-054 Reader与独立Continuity/Style/Meaningful QA候选｜2026-11-04（须精确结构CI成功）
+- 原草稿 Git Blob `0580e350c1a522baaa72f35e3d0f9d3885baae66`，已先按普通读者视角 Pass A 阅读第504章和前501—503正文/494—503摘要/文风，再独立按最新Canon及人物知识世界时间伏笔做 Pass B；0 BLOCKER/0 MAJOR/2 MINOR，keep/none，Review `reader_reviews/0504_0580e350.md`，正文未改；独立内容QA三项PASS，有效字符3241；直接依赖503正式 ready Blob `86182f9070f7555657eea88f28fca53a2c3af921` 完全一致，不存在前章旧SHA事实差异。
+- Day367 09:18马芸依法提出只核2019原第73页指定登记与候选封套同件性及一项非身份内部处置类别的限项申请；10:06真受理，13:48有责批准双岗受控核阅。16:07先记录封口再开盒，16:21排除跨月同号，按原始形成单位/页位/月份/业务识别组合认定封套真同件，并核到退回核址之后一次“补核收讫”原始内部类别。16:46封盒归库，20:26夜班仅收有源限项摘录；22:12下一次再次转出存在性申请只拟未提交，Day368 07:08交班。旧案**只确认退回后原受理岗曾收补核材料**，不证地址补对、再次转出、历史自然人真获答、2016旧封内件或2022文件字节同一；F008/M004/M005无独立确证。702不获复住、榆荫路原坡道未复验，照明待有责复测。
+- 仅内容QA完成；同一候选Git Tree中的ready、计划、长期Memory必须在GitHub Actions结构单测和`python -m publisher.check_local --repo .`真正SUCCESS后才可用`expected_sha`、`force:false`推进main，不得以本小节冒充正式release。
