@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 488
+current_chapter: 489
 current_stage: content_qa_pass_structural_gate_pending
-current_source_path: chapters/draft/0488.md
-current_source_sha: eed03b052a8aed66f5144b3da822f49228af54bb
-current_review_path: reader_reviews/0488_eed03b05.md
+current_source_path: chapters/draft/0489.md
+current_source_sha: b5ff9cc957a23818ba978e1d8d350c8a1b0b1b98
+current_review_path: reader_reviews/0489_b5ff9cc9.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter488_reader_and_content_qa_pass_pending_exact_structural_ci
+last_action: chapter489_stage_a_new_sha_review_content_qa_pass_pending_ci
 last_action_date: "2026-11-03"
 last_error: null
-last_diff_summary: "488原稿SHA eed03b052a8aed66f5144b3da822f49228af54bb双遍Reader 0/0/2无需修订，前487正式ready精确依赖，独立内容QA通过；结构CI精确候选待核。"
+last_diff_summary: "488正式ready Commit9a0cfdb1 CI41588621727成功；489原初Reader0/1/2，Stage A修Day352 20:14临近交班误句，最终新SHA b5ff9cc957a23818ba978e1d8d350c8a1b0b1b98双遍Reader0/0/2内容QA通过；待精确CI结构门禁。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
-current_review_source_sha: eed03b052a8aed66f5144b3da822f49228af54bb
+current_review_source_sha: b5ff9cc957a23818ba978e1d8d350c8a1b0b1b98
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -3994,5 +3994,35 @@ chapter_488_revision_verified:
   body_revisions: 0
   retry_cycles: 0
   predecessor_ready_blob: "3631a601180aa38e6745c5e43d2b3b9e12137111"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_success_41588621727
+
+release_488_revision_evidence:
+  chapter: 488
+  initial_counts: "0/0/2"
+  final_counts: "0/0/2"
+  stage_a_used: 0
+  body_revisions: 0
+  qa_gate: pass
+  publish_gate_passed: true
+  exact_candidate_commit: "9a0cfdb1d9cc54db2f1b511740393d5f1085c2c4"
+  candidate_ci_success: 41588621727
+  ready_blob: "bf9f8cedc38eb30a792940f8a5f7a9f3686101f6"
+
+chapter_489_revision_verified:
+  chapter: 489
+  original_source_sha: "c5df85a7e2c26f211e4e57a6bdcceeedf9e7c381"
+  initial_review: reader_reviews/0489_c5df85a7.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_used: 1
+  fix: night_shift_time_at_Day352_20_14
+  final_sha: "b5ff9cc957a23818ba978e1d8d350c8a1b0b1b98"
+  final_review: reader_reviews/0489_b5ff9cc9.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  body_revisions: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  retry_cycles: 0
+  predecessor_ready_blob: "bf9f8cedc38eb30a792940f8a5f7a9f3686101f6"
   content_qa: pass
   structural_gate: exact_candidate_ci_required

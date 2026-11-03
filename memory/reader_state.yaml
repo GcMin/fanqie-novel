@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 488
-last_reviewed_title: "牵引绳仍在他手里，归家的日期还空着"
-last_source_path: chapters/draft/0488.md
-last_source_sha: eed03b052a8aed66f5144b3da822f49228af54bb
-last_review_path: reader_reviews/0488_eed03b05.md
+last_reviewed_chapter: 489
+last_reviewed_title: "档案柜开了，签收那一页仍未翻到"
+last_source_path: chapters/draft/0489.md
+last_source_sha: b5ff9cc957a23818ba978e1d8d350c8a1b0b1b98
+last_review_path: reader_reviews/0489_b5ff9cc9.md
 last_reviewed_at: "2026-11-03"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 487
-depends_on_source_sha: 3631a601180aa38e6745c5e43d2b3b9e12137111
+depends_on_chapter: 488
+depends_on_source_sha: bf9f8cedc38eb30a792940f8a5f7a9f3686101f6
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 3631a601180aa38e6745c5e43d2b3b9e12137111
+predecessor_current_source_sha: bf9f8cedc38eb30a792940f8a5f7a9f3686101f6
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -4570,5 +4570,34 @@ chapter_488_audit_20261103:
   predecessor_ready_blob: "3631a601180aa38e6745c5e43d2b3b9e12137111"
   predecessor_factual_delta: exact_ready_sha_no_mismatch
   body_revisions: 0
+  content_qa: pass
+  structural_gate: exact_candidate_ci_success_41588621727
+
+release_488_reader_evidence:
+  chapter: 488
+  source_draft_sha: "eed03b052a8aed66f5144b3da822f49228af54bb"
+  review: reader_reviews/0488_eed03b05.md
+  counts: {blocker: 0, major: 0, minor: 2}
+  independent_qa: pass
+  exact_candidate_commit: "9a0cfdb1d9cc54db2f1b511740393d5f1085c2c4"
+  candidate_ci_success: 41588621727
+  ready_blob: "bf9f8cedc38eb30a792940f8a5f7a9f3686101f6"
+  main_ref_update: expected_sha_force_false_success
+
+chapter_489_audit_20261103:
+  chapter: 489
+  title: "档案柜开了，签收那一页仍未翻到"
+  original_source_sha: "c5df85a7e2c26f211e4e57a6bdcceeedf9e7c381"
+  original_review: reader_reviews/0489_c5df85a7.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_used: 1
+  fix: "remove false Day352 20:14 near-shift-end temporal inference"
+  final_source_sha: "b5ff9cc957a23818ba978e1d8d350c8a1b0b1b98"
+  final_review_path: reader_reviews/0489_b5ff9cc9.md
+  pass_a: new_sha_independent_first
+  pass_b: new_sha_independent_after_pass_a
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  predecessor_ready_blob: "bf9f8cedc38eb30a792940f8a5f7a9f3686101f6"
+  predecessor_factual_delta: exact_ready_sha_no_mismatch
   content_qa: pass
   structural_gate: exact_candidate_ci_required

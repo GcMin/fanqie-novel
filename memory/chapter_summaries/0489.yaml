@@ -1,0 +1,38 @@
+schema_version: 1
+chapter: 489
+title: "档案柜开了，签收那一页仍未翻到"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "c5df85a7e2c26f211e4e57a6bdcceeedf9e7c381"
+source_draft_sha: "b5ff9cc957a23818ba978e1d8d350c8a1b0b1b98"
+initial_review: "reader_reviews/0489_c5df85a7.md"
+reader_review: "reader_reviews/0489_b5ff9cc9.md"
+depends_on_chapter: 488
+depends_on_source_sha: "bf9f8cedc38eb30a792940f8a5f7a9f3686101f6"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day351 20:38—Day352 20:14"
+summary: >-
+  Day351 20:38马芸电话告周衡第486章Day349窗口真收的2019原形成单位纸档限项申请有阶段答复，获准次日由经办岗位核馆内目录与卷目保管位置，不得翻具体登记页。周衡在夜班纸上划掉无据的原册已找到；梁策夏宁提醒不得由题名猜签认或由旧记录收讫推历史本人得答。Day352 09:28马芸按本人合法身份出示范围材料获准入纸档保管处，目录有相近收发登记和回告留底但分属不同保管单元，不能直接推同批或同件。10:06有责双人取出指定2019原形成单位纸质收发登记簿按外部编号和目录区间核实真实实物，未打开具体签字页或拍个人信息，马芸仅获不含身份的限项实物核验摘录。11:17拒越权翻签名，随后再次提出更窄指定事项有无原始页项及允许的非身份字段类别申请，窗口只真实收件，没有开放内页。Day352 20:14夏宁获真实阶段回告，周衡只见遮敏摘录，旧2022工作区任务虽有执行实例结束记录却没有实际读取字节或与11/21归档同一证明；2019双方真签封、2016回告在封、历史本人受答一概未确认。Stage A将原稿不符合20:00—08:00夜班的结尾临近交班时改为当晚电话核对结束后，杜绝无据Day353跨夜。F003仅新增真纸簿实际定位外编号吻合，F008/M004/M005不升级。
+meaningful_state_changes:
+  - "Day349只获2019限项申请收件推进到Day352按权核到原形成单位纸质收发簿真实实物且外部编号匹配目录，不等于获看具体页项、签名或历史本人收答。"
+  - "马芸识别相似题名属于不同保管单元，另行递交更窄的非身份页项申请而没有越权查阅；真实取得新收件回执。"
+  - "周衡从想把原册已找到误填成确证，转为把实际存簿和历史内容两栏分开保存，章尾时点与新夜班相容。"
+knowledge_updates:
+  - "马芸知指定原形成单位收发登记簿的馆内实物与外部编号确实吻合，另一本回告留底在不同单元；未阅特定签字页也不知当年真实签认和受答。"
+  - "周衡夏宁只收到按权遮敏核验摘录与最新页项申请已收件事实，不拥有原件查看或本人姓名辨认权限；梁策不替历史人补写记忆。"
+  - "2022工作区导入只知道执行实例结束类别，不得由纸簿实体推成功读取实际字节或与11/21校对本同一。"
+relationship_updates:
+  - "马芸对周衡既理解其着急又严格拒代其越权，夏宁梁策继续提醒他按证据分层，周衡接受限项回拨，不以旧居私人记忆证明纸档签认。"
+foreshadowing_updates:
+  - "F003确增2019原形成单位收发纸簿外部编号与目录相符的受控实物核验，页项与2016原回告及历史本人收到答复依旧待证；F008没有新记忆样本，M004/M005不确证。"
+ending_state: "Day352 20:14已依法确认2019原形成单位收发纸簿有实物、保管外编号与指定目录区间相符；新页项非身份字段查阅申请只收件，未翻真实签认页或确认历史受答。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "c5df85a7e2c26f211e4e57a6bdcceeedf9e7c381", initial_counts: "0/1/2", final_draft_sha: "b5ff9cc957a23818ba978e1d8d350c8a1b0b1b98", stage_a_used: 1, body_revisions: 1, fix: night_shift_end_ambiguous_time, predecessor_ready_blob: "bf9f8cedc38eb30a792940f8a5f7a9f3686101f6", dependency_status: verified_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3349
+release_evidence:
+  ready_blob: "96db4fa4003e605850d983f20a64814a0ba27aea"
+  structural_gate: exact_candidate_ci_required

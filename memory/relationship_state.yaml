@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 488
+last_updated_chapter: 489
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2194,4 +2194,12 @@ chapter_488_relationship_verified:
   cao_yin_and_cao_guorong: "Day350—351互相拒绝替对方预先决定阿棋永久去向；父亲现场牵犬遇风险后承认现实限制，女儿承认自己长班照护缺口。本人分别签认续住协议与付费、共同留两次待确认探访，保留七天后重新商议，不夸大为已解决长期护理与家庭分歧。"
   father_and_dog: "阿棋在寄养点辨认曹国荣并贴其膝旁，车辆刹车声时前趋被专业及时接手；父亲保留决定权但暂不凭旧绳亲自独立遛犬。"
   foster_staff: "有责服务方尊重本人授权，按实际可承诺的服务和安全活动流程协助父女签约，不代任何一方作出永久归属决定。"
+  trust_scores_unchanged: true
+
+chapter_489_relationship_verified:
+  chapter: 489
+  source_sha: "b5ff9cc957a23818ba978e1d8d350c8a1b0b1b98"
+  zhou_heng_and_ma_yun: "Day351周衡盼旧档实际回应，马芸在允许范围内愿独立核实并预先划定其不得越权跟随；Day352实际拿到实物存簿的限定摘录后按权限回告，不替周衡翻开历史姓名，双方信任在承认未知上加深。"
+  core_team: "夏宁提醒档案收发类别未必代表自然人真获答，梁策不替历史人编记忆；周衡删除无据预断并以有限证据写待核，不发生团队之间以权换取阅卷。"
+  archivists: "马芸尊重值守及双人保管查实物的程序，仅据批准访问外编号，要求后续页项另获批准。"
   trust_scores_unchanged: true

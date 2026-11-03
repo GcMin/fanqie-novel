@@ -13,7 +13,7 @@
 - timeframe: Day351 20:38—Day352 20:14
 - title: 档案柜开了，签收那一页仍未翻到
 - target_effective_chars: 3000
-- actual_effective_chars: 3347
+- actual_effective_chars: 3349
 - pov: 周衡与马芸有限视角，夏宁和梁策在岗位权限范围内取得情况。
 
 ## 本章目标和开场冲突
@@ -38,3 +38,7 @@
 - 仅经批准获取纸档的外部编号和遮敏进度，未公开个人名址、库位细项或无权限资料。
 - 按当前main实读AGENTS、novel.yaml、writing_roles、ai_reading_protocol、Bible、主角人物卡、当前卷/arc材料、人物/关系/知识/世界/伏笔/时间线Memory、478—487近十章摘要及484—488近五章正文；仓库无volume_06和arc_054单独纲，采用现行已审正文及ARC054记忆事实。未读历史reader_reviews。
 - 本轮只保存详细计划和新首稿，不做Reader、Revision、QA、Memory、Publish Gate或番茄发布。
+
+## Audit Stage A 定点修复（2026-11-03）
+- 原草稿 `c5df85a7e2c26f211e4e57a6bdcceeedf9e7c381` Reader 0/1/2，唯一MAJOR为Day352 20:14电话后无据写“临近交班时”；20:00—08:00夜班尚未接近交班。
+- 将章尾一句仅修为“电话核对结束后”，不更动纸档实物状态/其它对话。新草稿Blob `b5ff9cc957a23818ba978e1d8d350c8a1b0b1b98`，有效3349字；按新SHA独立Reader Pass A/B复审0/0/2，独立QA与精确结构门禁另执行。

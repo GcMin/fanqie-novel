@@ -29,8 +29,15 @@ foreshadowing_updates:
 ending_state: "Day351 14:13阿棋继续短期寄养至Day358 11:12，原饲养人曹国荣仍拥有决定权，曹茵协助照护；下次两次探访、之后实际接犬/健康及长期条件均待真实核对。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "eed03b052a8aed66f5144b3da822f49228af54bb", final_draft_sha: "eed03b052a8aed66f5144b3da822f49228af54bb", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "3631a601180aa38e6745c5e43d2b3b9e12137111", dependency_status: verified_exact_ready_blob}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_success_41588621727}
 char_count: 3314
 release_evidence:
   ready_blob: "bf9f8cedc38eb30a792940f8a5f7a9f3686101f6"
-  structural_gate: exact_candidate_ci_required
+  structural_gate: exact_candidate_ci_success_41588621727
+  candidate_commit: "9a0cfdb1d9cc54db2f1b511740393d5f1085c2c4"
+  validated_tree: "75f913db95ae3fa998481bee515c8a5d7aa81809"
+  candidate_ci: 41588621727
+  candidate_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
