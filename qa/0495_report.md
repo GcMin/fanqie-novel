@@ -20,3 +20,11 @@ F003止于2019原形成单位第73页非身份栏式定位，未见2019真实签
 错误“老杜预计接领/已确认”明确证为问路紧急备注被打印模板误映；本案有责撤掉错误接领与紧急联系人，原提醒保源，老杜不承担未答应义务；父女真实签两日续住并付费，犬在机构继续安全照护；Day359到家评估预约已确认但尚未评估、也未签约。原饲养关系、其他客户历史模板错与未来照护尚无确证，未代填完成。
 
 **结构硬门槛（待实际验证）：** 上述为独立内容QA PASS。必须对包含本ready、绑定源SHA Reader、QA、长期Memory和保留旧计划的准确候选Git Commit执行 `python -m publisher.check_local --repo .` 或可信等价CI并得到该精确commit的SUCCESS后，才可用 `expected_sha` 与 `force:false` 更新main；否则保持draft、报告阻塞，不得自称ready。
+
+## 精确候选 CI 与最终main结构校验（真实完成）
+
+- 原始第495章草稿 `6e9e84055cfbbec4941865b593fd5863a0b19f78`，Reader0/0/2、独立Continuity/Style/Meaningful QA PASS，正文修改0字，前章494正式ready精确依赖。
+- 最初候选Git commit `9f383d1377dbebc4f2619b7f8dc74c44bd7df18b` 的审计分支CI run `41642291712` **SUCCESS**；但main并发Writer新增第496章和详纲，不能再用旧HEAD覆盖。
+- 仅重放第495章本轮文件差异到Writer最新main `2c727d785af74110a89e46f7fe318530bb415c73`，保留其新496 draft及纲，生成精确候选Git commit `0c1bc1315f9d6daebebf613d974d0efefedec4bb`、Git Tree `cca31f54312c004c0e158577879c7332c327c7cc`。审计分支 `audit/ready-0495-20261103-2115` Actions `41642477931` head_sha精确匹配且 **SUCCESS**，其中 `Test offline snapshot validation` 和 `Validate this checkout without Git sync or publishing`（实际 `python -m publisher.check_local --repo .`）均 SUCCESS。
+- main以 `expected_sha=2c727d785af74110a89e46f7fe318530bb415c73`、`force:false` 无强推成功快进上述候选commit，随后实际读回main HEAD及 `chapters/ready/0495.md` Git Blob `1994c77e91f606310c4bff02d2f5a81b4e51e3af`，原495 draft在同树删除。main该精确commit的CI run `41642549824` **SUCCESS**。
+- 上文“结构门槛待验证”是候选阶段记录，此处后附真实证据证明第495章门槛已满足，未发布番茄、未改Canon/published/任务。

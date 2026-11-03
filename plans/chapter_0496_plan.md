@@ -6,9 +6,9 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "b1bf90bf690abd95180879c1fd7a916ea112c484"
 - depends_on_chapter: 495
-- depends_on_source_sha: "6e9e84055cfbbec4941865b593fd5863a0b19f78"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0495.md
+- depends_on_source_sha: "1994c77e91f606310c4bff02d2f5a81b4e51e3af"
+- dependency_status: verified_predecessor_factual_delta_reconciled
+- predecessor_location: chapters/ready/0495.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day359 09:22—Day359 20:23
 - title: 回家的那段路，先由别人试着走一遍
@@ -48,3 +48,7 @@
 - 本轮从GitHub最新main读取AGENTS、config、writing_roles、ai_reading_protocol、Bible四主文件与核心人物卡、当前卷/arc状态和长期人物/知识/关系/世界记忆、伏笔/时间线、485—494章摘要、490—494正式ready正文及495章尚未审草稿；未读取历史reader_reviews。
 - 实查published、ready、draft三目录，第153章已位于published，最大章号495，496及章纲此前均不存在；当前前章来源为chapters/draft/0495.md，绑定6e9e84055cfbbec4941865b593fd5863a0b19f78。依赖状态provisional，若前章随后由Audit修订，须由独立Audit核对本章事实差异。
 - 只首次新增本章详细计划及首稿，不审改旧章或改Memory/QA/发布状态，待独立Audit。
+
+## Audit Stage A 依赖版本修复（2026-11-03）
+- 第495章原draft `6e9e84055cfbbec4941865b593fd5863a0b19f78` 与正式ready `1994c77e91f606310c4bff02d2f5a81b4e51e3af` 的标题和去Front Matter正文逐字一致，只有交付元数据不同；剧情前置事实未改变。
+- 本章修订仅把源SHA、状态与来源位置重绑到已正式ready的第495章；不修改第496章小说正文，不继承旧版本Reader结论；新SHA必须重新执行完整Pass A、Pass B。

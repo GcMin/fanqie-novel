@@ -4147,3 +4147,35 @@ chapter_495_revision_verified:
   predecessor_ready_sha: "24115755aac852cc43f90ff90f03e24157bc8ee6"
   content_qa: pass
   structural_gate: exact_candidate_ci_required
+
+release_495_revision_evidence:
+  chapter: 495
+  stage_a_used: 0
+  body_revisions: 0
+  source_sha: "6e9e84055cfbbec4941865b593fd5863a0b19f78"
+  final_counts: "0/0/2"
+  content_qa: pass
+  exact_candidate_commit: "0c1bc1315f9d6daebebf613d974d0efefedec4bb"
+  candidate_ci_success: 41642477931
+  main_ci_success: 41642549824
+  main_ref_update: expected_sha_force_false_success
+  ready_blob: "1994c77e91f606310c4bff02d2f5a81b4e51e3af"
+
+chapter_496_revision_verified:
+  chapter: 496
+  original_sha: "5d2cf38a682d59786151ddc1db5708064c5b936d"
+  initial_review: reader_reviews/0496_5d2cf38a.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_used: 1
+  fix: "verify predecessor original/ready title and body identical; rebind FM and plan only"
+  final_sha: "fc0fffd808fd86b984e6ff51b256c8a9646dcc3e"
+  final_reader: reader_reviews/0496_fc0fffd8.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  retry_cycles: 0
+  body_revisions: 0
+  predecessor_draft_sha: "6e9e84055cfbbec4941865b593fd5863a0b19f78"
+  predecessor_ready_sha: "1994c77e91f606310c4bff02d2f5a81b4e51e3af"
+  qa_gate: pass
+  structural_gate: exact_candidate_ci_required

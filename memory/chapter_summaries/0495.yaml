@@ -31,6 +31,6 @@ foreshadowing_updates:
 ending_state: "Day358 20:07阿棋仍在机构原栏位，两天有证续住至Day360 11:12；老杜不代领，Day359 09:30仅预约到家评估，原主人长期怎么接犬仍由本人实际决定。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "6e9e84055cfbbec4941865b593fd5863a0b19f78", final_draft_sha: "6e9e84055cfbbec4941865b593fd5863a0b19f78", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "24115755aac852cc43f90ff90f03e24157bc8ee6", dependency_status: verified_exact_ready_blob}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_success_41642477931}
 char_count: 3443
-release_evidence: {structural_gate: exact_candidate_ci_required}
+release_evidence: {candidate_commit: "0c1bc1315f9d6daebebf613d974d0efefedec4bb", candidate_ci_success: 41642477931, main_ci_success: 41642549824, publisher_check_local: pass, structural_unit_tests: pass, main_ref_update: expected_sha_force_false_success, ready_blob: "1994c77e91f606310c4bff02d2f5a81b4e51e3af", structural_gate: exact_candidate_ci_success_41642477931}

@@ -4731,3 +4731,40 @@ chapter_495_audit_20261103:
   predecessor_factual_delta: exact_ready_sha_no_mismatch
   content_qa: pass
   structural_gate: exact_candidate_ci_required
+
+release_495_reader_evidence:
+  chapter: 495
+  source_sha: "6e9e84055cfbbec4941865b593fd5863a0b19f78"
+  review: reader_reviews/0495_6e9e8405.md
+  counts: {blocker: 0, major: 0, minor: 2}
+  independent_qa: pass
+  initial_candidate_commit: "9f383d1377dbebc4f2619b7f8dc74c44bd7df18b"
+  initial_candidate_ci_success: 41642291712
+  rebased_candidate_commit: "0c1bc1315f9d6daebebf613d974d0efefedec4bb"
+  exact_candidate_ci_success: 41642477931
+  main_ci_success: 41642549824
+  ready_blob: "1994c77e91f606310c4bff02d2f5a81b4e51e3af"
+  main_ref_update: expected_sha_force_false_success
+  reason_for_rebase: "Writer 496 draft/plan added after audit initial candidate; only concurrent writer new files preserved; regenerated candidate CI and checked exact SHA before main update"
+
+chapter_496_audit_20261103:
+  chapter: 496
+  title: "回家的那段路，先由别人试着走一遍"
+  original_source_sha: "5d2cf38a682d59786151ddc1db5708064c5b936d"
+  original_review: reader_reviews/0496_5d2cf38a.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_used: 1
+  fix: "rebind chapter 495 provisional draft to exact ready SHA after actual title and body comparison; no narrative text edits"
+  final_source_sha: "fc0fffd808fd86b984e6ff51b256c8a9646dcc3e"
+  final_review_path: reader_reviews/0496_fc0fffd8.md
+  pass_a: new_sha_independent_first
+  pass_b: new_sha_independent_after_pass_a
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  predecessor_draft_blob: "6e9e84055cfbbec4941865b593fd5863a0b19f78"
+  predecessor_ready_blob: "1994c77e91f606310c4bff02d2f5a81b4e51e3af"
+  predecessor_factual_delta: body_and_title_identical_only_delivery_metadata_changed
+  body_revisions: 0
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required

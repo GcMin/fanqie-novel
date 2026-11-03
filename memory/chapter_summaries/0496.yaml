@@ -1,0 +1,38 @@
+schema_version: 1
+chapter: 496
+title: "回家的那段路，先由别人试着走一遍"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "5d2cf38a682d59786151ddc1db5708064c5b936d"
+source_draft_sha: "fc0fffd808fd86b984e6ff51b256c8a9646dcc3e"
+initial_review: "reader_reviews/0496_5d2cf38a.md"
+reader_review: "reader_reviews/0496_fc0fffd8.md"
+depends_on_chapter: 495
+depends_on_source_sha: "1994c77e91f606310c4bff02d2f5a81b4e51e3af"
+dependency_status: verified_predecessor_factual_delta_reconciled
+timeframe: "Day359 09:22—Day359 20:23"
+summary: >-
+  Day359 09:22曹国荣从女儿暂住处返回榆叶巷旧家迎接已确认的9:30入户条件评估，曹茵当日上班无法同行，父亲明确不替她签全天照护。合作服务方何师傅在核主体及本人同意后陪曹父空手走两条拟遛犬路：近路临公交站车声和窄弯风险大，后巷有物业清洁车占道和翘砖。10:16曹父本人向物业有责求助，10:41物业实际挪车、翘砖旁仅置临时提醒待修；本人拒在“可独立日常牵行”空格打勾，也没交出家门钥匙。12:08曹茵电话知现场有限结论并接受父亲当下无法自己安全牵犬。15:06阿棋在原寄养点内院两道围门闭合条件下由何师傅控绳、照护员旁护做一次短距试牵，车声仍刺激前趋但未出栏，父亲坐旁观察未冒险独自牵；没有市街实犬试行或兽医完整健康结论。16:24服务方根据实核排班只能确认Day360下午一次指定人员上门试行，曹父本人自愿签限项首回委托并付约定费用、拿到真单据，后两日须另行逐次确认。寄养至Day360 11:12的合同仍有效，狗从寄养点出舍、运输、真正交接和屋内钥匙授权尚未落实。20:23新夜班周衡夏宁接本人限项回拨，梁策询问路是谁走过，曹父知道人走过而狗尚未走；明早若交接不成须到期前继续与寄养点合法安排。F003/F008/M004/M005不新增证据。
+meaningful_state_changes:
+  - "父亲与服务人员实走两条路线，近车站噪声和后巷翘砖均未被纸上误判安全；物业真实挪走清洁车但修砖仍未完。"
+  - "专业人员围栏内短牵真见阿棋对气刹声前趋，曹父承认不能独立稳定牵犬，尚未把围栏内试验当街道安全验收。"
+  - "曹父本人付费签仅Day360下午一回的真实服务排班与委托，后续两日未定、寄养点实际出舍与送家仍未授权执行。"
+knowledge_updates:
+  - "曹国荣知道空手走路不能证明狗能安全走，两条候选路线尚有风险，自身膝盖仍限制独立牵行；只签付一回试行，知道Day360上午接犬手续仍未办。"
+  - "曹茵只知父亲亲自评估并承认牵犬受限，自己Day359无法离岗，未被代签全天服务或自行准许狗出舍。"
+  - "何师傅与合作机构知围栏内实际试牵车声风险，能承诺Day360下午一次排班但不能保证后两日服务与运输，未接受父亲房门钥匙。"
+  - "周衡夏宁梁策只得本人限项回拨，不知道未来真实交接结果，不越权宣布寄养到期已完成或道路已修。"
+relationship_updates:
+  - "曹父与曹茵由争要不要带狗转为对真实牵行能力、费用、本人签约范围有具体交流，女儿仍担心但未替父亲决定永久去向。"
+  - "何师傅对曹父将健康、安全、路线、门钥匙和有限收费逐项拆开；尊重其自愿拒绝不真实勾选。"
+foreshadowing_updates:
+  - "F003仍止于2019第73页非身份业务位置与栏式、旧历史真签/2016回告在封/真人受答及2022读取字节同一未知；F008/M004/M005无新确证，F009/F010/F011仍resolved。"
+ending_state: "Day359 20:23曹父有Day360下午一次付费试行服务真实排班，犬仍在原寄养机构至Day360 11:12，Day360晨前接犬、送家、授权交接与后续服务未定；后巷翘砖待修。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "5d2cf38a682d59786151ddc1db5708064c5b936d", initial_counts: "0/1/2", final_draft_sha: "fc0fffd808fd86b984e6ff51b256c8a9646dcc3e", stage_a_used: 1, body_revisions: 0, predecessor_draft_sha: "6e9e84055cfbbec4941865b593fd5863a0b19f78", predecessor_ready_blob: "1994c77e91f606310c4bff02d2f5a81b4e51e3af", predecessor_factual_delta: body_title_identical_delivery_metadata_only}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3161
+release_evidence: {structural_gate: exact_candidate_ci_required}
