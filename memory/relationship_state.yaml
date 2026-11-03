@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 493
+last_updated_chapter: 494
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2232,4 +2232,13 @@ chapter_493_relationship_verified:
   source_sha: "629c3cd1019387b9e00684671f85bedc1297b6bb"
   father_daughter: "董筱南出于关心错替董敬安按一本人确认，父女21:27后独立通话，商定只由本人回答安全、女儿可回报自己所知且保留互相关心。"
   core_team: "社区唐蕊尊重老人自愿回话，夜间中心不越权确认救援或代改安康服务，旧2019史料依然独立。"
+  trust_scores_unchanged: true
+
+chapter_494_relationship_verified:
+  chapter: 494
+  source_sha: "7baccf63314887c8420d381ca8773432a798e99f"
+  lin_shu_and_xiao_ruan: "林叔认为志愿者有善意也无权替本人按录音机播放键，小阮真承认并对群内误标作更正；有责纠错成立不代表林叔完全原谅、双方以后同意公开。"
+  lin_shu_and_dong_jingan: "林叔仍信任董敬安Day355如实写未修好并不以此责怪老人；董敬安对次日擅播担心原带，建议仅做专业检测咨询，不代其许可交付或保证修复。"
+  lin_shu_and_grandson: "孙子先因群误标误信后段永久丢失，Day357经林叔本人解释愿等原带检测与六人的真实录音，未把未证的后半句唱成事实。"
+  core_team: "夏宁周衡梁策尊重林叔归还要求、社区管理权限和真实本人回拨，未扩大私聊文件监管权。"
   trust_scores_unchanged: true

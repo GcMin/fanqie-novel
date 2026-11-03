@@ -49,3 +49,14 @@
 - 本轮实际读取main最新四份写作约束、Bible、人物卡、卷/弧现行状态、memory相关字符/知识/关系/世界/伏笔/时间线、484—493十章摘要、489—493五章ready正文及493章纲，不读取历史Reader Review。
 - 实查published/ready/draft三目录，0153已published，最大章号493，494与同名计划此前均不存在；第493章已正式ready，使用其完整Git blob SHA绑定。
 - 本轮只创建494详细计划和draft，不改既有章节、长期Memory、QA和发布状态，待独立Audit审查。
+
+## Audit验收（2026-11-03）
+- reader_source_sha: 7baccf63314887c8420d381ca8773432a798e99f
+- reader_review: reader_reviews/0494_7baccf63.md
+- reader_pass_a_then_b: 0 BLOCKER / 0 MAJOR / 2 MINOR; keep / none
+- actual_revision: none; body_changes: 0
+- continuity_style_meaningful_qa: pass
+- predecessor_ready_blob: dad59cdea686cd0eac3cf199cbd103440bd992fb; dependency: exact
+- memory_and_plan_row: updated
+- structural_gate: exact_candidate_ci_required
+- proposed_release_status: ready_only_after_exact_ci_success

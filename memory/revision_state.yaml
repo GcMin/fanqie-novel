@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 493
-current_stage: ready_released_exact_ci_pass
-current_source_path: chapters/draft/0493.md
-current_source_sha: 629c3cd1019387b9e00684671f85bedc1297b6bb
-current_review_path: reader_reviews/0493_629c3cd1.md
+current_chapter: 494
+current_stage: content_qa_pass_pending_exact_ci
+current_source_path: chapters/draft/0494.md
+current_source_sha: 7baccf63314887c8420d381ca8773432a798e99f
+current_review_path: reader_reviews/0494_7baccf63.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter491_ready_released_exact_candidate_ci_41602893283
+last_action: chapter494_reader_and_content_qa_pass_pending_exact_ci
 last_action_date: "2026-11-03"
 last_error: null
 last_diff_summary: "490正式ready CI41602011829 SUCCESS，491初审0/3/2，Stage A修前章SHA/昨日申请时间和突兀英文后新SHA3152ab33双遍Reader0/0/2，独立内容QA通过；待精确CI结构门禁。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
-current_review_source_sha: 3152ab33fc9df02654b8c32d0b6b8edaaa86fdb7
+current_review_source_sha: 7baccf63314887c8420d381ca8773432a798e99f
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -4116,3 +4116,18 @@ release_492_493_revision_evidence:
   chapter_493_body_revisions: 0
   chapter_493_final_draft_sha: "629c3cd1019387b9e00684671f85bedc1297b6bb"
   chapter_493_ready_blob: "dad59cdea686cd0eac3cf199cbd103440bd992fb"
+
+chapter_494_revision_verified:
+  chapter: 494
+  original_sha: "7baccf63314887c8420d381ca8773432a798e99f"
+  final_sha: "7baccf63314887c8420d381ca8773432a798e99f"
+  stage_a_used: 0
+  body_revisions: 0
+  final_reader: reader_reviews/0494_7baccf63.md
+  final_counts: "0/0/2"
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  retry_cycles: 0
+  predecessor_ready_sha: "dad59cdea686cd0eac3cf199cbd103440bd992fb"
+  qa_gate: pass
+  structural_gate: exact_candidate_ci_required

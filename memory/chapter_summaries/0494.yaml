@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 494
+title: "旧歌被写成修好，原带还在桌上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "7baccf63314887c8420d381ca8773432a798e99f"
+reader_review: "reader_reviews/0494_7baccf63.md"
+depends_on_chapter: 493
+depends_on_source_sha: "dad59cdea686cd0eac3cf199cbd103440bd992fb"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day356 20:42—Day357 20:09"
+summary: >-
+  Day356 20:42林叔在四十三人的旧厂群发现小阮当日17:25未经本人授权试放未修好的双卡录音机并用手机录取十九秒后误标“首批数字化完成”，远方孙子误以为原歌只剩片段。夏宁接其授权报事并分源转社区，唐蕊与管理员21:16核实录音机、原磁带纸签和柜内移放记录，小阮承认擅试播及模板错选，不据磁带外观判定内部完好。21:48管理员在本群权限内保存原源、撤回并更正“未修复/未正式数字化”，两名成员承认外转且获更正通知，其他副本去向未知，不擅查他人设备。22:12林叔亲自核物签领原带，董敬安电话强调Day355机未修且未授权再播。Day357上午负责人暂停这批公开展示，修正授权与进度勾选；10:07向本人送限项说明；林叔下午仅预约专业检测咨询并未交付鉴定，20:09本人向夜间中心回拨确认原带在手、更正收到、外传仍未查尽；孙子愿等真实音源，未把六人合唱末段臆补为十九秒。安康转接问题仍待整改；F003 2019第73页非身份定位、F008/M004/M005无新增历史确证。
+meaningful_state_changes:
+  - "林叔本人真正取回原带，社区本群撤回不实成品帖并真实发布有来源限定更正；已知两次外转收到更正通知，未宣称副本全删。"
+  - "小阮承认无授权试录，活动负责人停止这一批对外展示并分列试播/录制/传播同意范围；未经检测不宣告磁带修复或完好。"
+  - "林叔与孙子不接受“十九秒就是全部”误断，林叔自主预约专业检测咨询、保留六人真实录音未知部分。"
+knowledge_updates:
+  - "林叔亲见原带盒壳与旧签并签领，知原帖已撤、两外转获更正，但不知全部转存和磁带内部真实状态。"
+  - "唐蕊及管理员知本群有权撤回更正、原带移放可据纸本，但不可据此证明全天无人试播或群外所有文件已销毁。"
+  - "小阮承认Day356 17:25未获许可试放/手机录十九秒与错误模板勾选，不再把未修复机器叫已完成。"
+  - "夏宁周衡梁策分清实物、本群误标、外转及技术修复；中心没有专业维修结论，也不掌握私聊副本去向。"
+relationship_updates:
+  - "林叔对志愿者小阮越过本人授权有明确不满，接受具体纠错但未表达完全谅解；和董敬安互信仍在，孙子开始等待真实原带而非群帖结论。"
+foreshadowing_updates:
+  - "普通旧声误标不是2019原签认/2016回告/历史真人获答或2022文件字节证据，F003仍到2019第73页非身份表式；F008/M004/M005无新确证；钟楼和阿棋旧状态不改。"
+ending_state: "Day357 20:09原带已由林叔本人签回且还未专业检测，本群已限项更正，群外副本仍待来源核实，维修预约咨询不保证修复；老人和孙子等真实完整声音。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7baccf63314887c8420d381ca8773432a798e99f", final_draft_sha: "7baccf63314887c8420d381ca8773432a798e99f", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "dad59cdea686cd0eac3cf199cbd103440bd992fb", dependency_status: verified_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3415

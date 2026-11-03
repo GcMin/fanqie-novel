@@ -1506,3 +1506,9 @@ Day173 20:24仅是该号码未来新语义的专业标识测试，20:39廖珊看
 
 ## 第492—493章精确Git结构成功及main放行（2026-11-03）
 - 候选Commit `75f8b4436a6621ee2fca9d3b537aec9a3eb51a41` 及分支 `audit/ready-0492-0493-20261103-1807` 精确Actions `41618567778` SUCCESS，实际执行结构单测和`python -m publisher.check_local --repo .`，main以expected_sha=`fe4521ad2b4b432cd2bf6a2acf3c3e995fcb49bb`、force:false快进成功，main同head CI `41618655020` SUCCESS。492正式ready `ae97a405d52268fd4c610a0d4a763ecd6c64ad61`、493正式ready `dad59cdea686cd0eac3cf199cbd103440bd992fb`，原draft已删；两章小说正文都没有改动。旧内容QA记录的“结构待核”已由真实精确CI成功实证覆盖。
+
+## 第494章独立Reader与内容QA（2026-11-03；精确结构门禁待核）
+- 新稿完整Blob `7baccf63314887c8420d381ca8773432a798e99f` 直接依赖第493章ready `dad59cdea686cd0eac3cf199cbd103440bd992fb`，依赖40位SHA精确一致；Reader先看正文/491—493/484—493摘要/文风作Pass A，后独立用Canon、ARC-054、人物知识、世界时间及伏笔作Pass B，最终0 BLOCKER、0 MAJOR、2 MINOR，keep/none，无小说正文修订。独立Continuity/Style/Meaningful QA PASS，标题一致，正文3415有效字符（不计5段三星分隔符）。
+- Day356 17:25小阮无授权试播未修机收手机19秒并误标已数字化；20:42林叔误见群帖；21:16社区核原物/手写旧签，21:48本群有源撤回更正，22:12林叔本人签领原带。Day357小阮责任和活动进度模板获纠错，公开展示暂停，已知两次外转仅转告更正、群外副本去向不明；原带未专业鉴定仅预约咨询；20:09本人向中心真回拨，孙子等真实完整声音，不当原歌只剩19秒。
+- 董敬安Day355 22:02真到家、Day355未修好录音机的事实保持；安康接口整改未确认，钟楼公众报时未准恢复、阿棋临时寄养至Day358 11:12。F003仍为2019纸簿第73页非身份位置和表式，不见真实签字/历史受答/2016内件/2022具体字节；F008/M004/M005不确证。
+- 尚须以包含ready/Review/QA/Memory/计划的精确Git候选Commit实际CI成功为门禁，未验证前不允许main放行。
