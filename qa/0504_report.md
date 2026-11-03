@@ -9,3 +9,8 @@
 - **Style PASS / 两项MINOR**：四个时间点和手套/遮挡板/封存单具象呈现合法查档；马芸、年轻经办人、老师傅、周衡夏宁梁策语言指纹可区分。少量“不等于答复”的解释重复，末尾隐喻有直白收束，但不构成MAJOR，也不据此改稿。
 - **Meaningful Change PASS**：原纸簿退回核址后确有一项内部补核材料收件记录第一次获得原始来源可核证，故事信息层级发生实质变化，后续再次转出和本人获答继续悬置。
 - **结构门禁**：当前仅内容QA PASS。必须验证与最终拟ready、Review、Memory、计划完全同树的精确候选Git Commit，实际完成 GitHub Actions 结构单测及 `python -m publisher.check_local --repo .`，才可用 `expected_sha`、`force:false` 更新 main 并将本候选视作正式ready；本报告不预先声称结构成功。
+
+## 精确GitHub候选结构校验与正式 main 放行证据｜2026-11-04
+- 放行候选/正式main Commit `efe097a77238df591656374c9091a67d4ce5afbc`，Git Tree `c5e1a007a0d2908857f868f31aa3385c9b81c301`；审计分支 `audit/ready-0504-20261104` GitHub Actions run `41720227080` 实际 `head_sha` 与此 Commit **完全一致**，结论 **completed/success**。步骤「Test offline snapshot validation」和「Validate this checkout without Git sync or publishing」均成功，包含结构单测和 `python -m publisher.check_local --repo .` 的实际 checkout 快照校验。
+- 真正结构校验成功后，main 由 `709cfe830a7f9aefc7e2a40d44209c40f7306e33` 通过 `expected_sha`、`force:false` 非强制更新至上述Commit。正式main同SHA的 Actions `41720313563` 亦为 **completed/success**。同树正式ready Blob `81f1d3d7d1b58b387bf115b5bf5ecc03c69a2eed`，原 `chapters/draft/0504.md` 已删除，reader reviews/QA/Memory/计划在同一已校验树中。
+- 仅迁入ready，**未发布番茄**；本项真实 CI 实证覆盖本报告候选阶段结构待核说明。

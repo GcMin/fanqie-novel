@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 504
-current_stage: content_qa_pass_pending_structural_ci
+current_stage: ready_structural_ci_verified
 current_source_path: chapters/draft/0504.md
 current_source_sha: 0580e350c1a522baaa72f35e3d0f9d3885baae66
 current_review_path: reader_reviews/0504_0580e350.md
@@ -18,7 +18,7 @@ last_error: null
 last_diff_summary: "504 Reader0/0/2 keep none; 503 predecessor exact ready; body no edits; independent QA all pass; structural gate pending exact candidate CI."
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: false
+publish_gate_passed: true
 current_review_source_sha: 0580e350c1a522baaa72f35e3d0f9d3885baae66
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
@@ -4377,4 +4377,16 @@ chapter_504_revision_state:
   retry_cycles: 0
   safe_mode: false
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_ci_success_41720227080
+
+release_504_revision_evidence:
+  chapter: 504
+  commit: "efe097a77238df591656374c9091a67d4ce5afbc"
+  candidate_ci: 41720227080
+  main_ci: 41720313563
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  ready_blob: "81f1d3d7d1b58b387bf115b5bf5ecc03c69a2eed"
+  stage_a_used: 0
+  body_revisions: 0
+  main_update: expected_sha_force_false_success

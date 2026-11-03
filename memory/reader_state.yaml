@@ -4980,4 +4980,17 @@ chapter_504_final_review:
   predecessor_factual_delta: exact_ready_sha
   body_revisions: 0
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_ci_success_41720227080
+
+release_504_reader_evidence:
+  chapter: 504
+  commit: "efe097a77238df591656374c9091a67d4ce5afbc"
+  reader_review: "reader_reviews/0504_0580e350.md"
+  source_sha: "0580e350c1a522baaa72f35e3d0f9d3885baae66"
+  counts: "0/0/2"
+  candidate_ci: 41720227080
+  main_ci: 41720313563
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  ready_blob: "81f1d3d7d1b58b387bf115b5bf5ecc03c69a2eed"
+  main_update: expected_sha_force_false_success
