@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 504
+last_updated_chapter: 505
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2317,3 +2317,10 @@ chapter_504_arc054_update:
   ma_yun_and_colleague: "马芸阻止同事将已核外盒误写为已经找到最终后续，在取得确切原始内部类别后仍只写补核收讫而不抢先给历史业务结案；同事接受阶段有限说法。"
   ma_yun_and_archive_staff: "有责保管双岗对申请分层核准，现场独立核原始组合并遮敏、复封，马芸认可未批准部分不能询问自然人身份或完整旧回告。"
   zhou_heng_and_liang_ce_xia_ning: "周衡原拟从新证连到旧受领者，梁策问清原受理岗与当事人之别、夏宁提醒下一格待证，周衡依来源分开两格并保留右端空白。"
+
+chapter_505_arc054_update:
+  chapter: 505
+  source_sha: "257fd321ae20f03ced5e1ca615e9e6b563cf64ad"
+  ma_yun_and_colleague: "同事想因再转出写已回告，马芸坚持合法摘录只写原岗记录类别，避免越权替历史收件人签答。"
+  luo_yue_and_supply_staff: "罗月自己完成第一桶并同意有责人员按预定方案送第二份，尊重外婆拒生人进厨房的边界，双方有真实到户交接。"
+  core_team: "夏宁先查责权和开点实情，梁策现场提醒施工绕行，周衡将有责供水实到与旧档仅原岗位转出记录分源存放，未把程序号当末端到达。"

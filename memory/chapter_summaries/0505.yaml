@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 505
+title: "两桶水送进了门，回话还在路上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "257fd321ae20f03ced5e1ca615e9e6b563cf64ad"
+reader_review: "reader_reviews/0505_257fd321.md"
+depends_on_chapter: 504
+depends_on_source_sha: "81f1d3d7d1b58b387bf115b5bf5ecc03c69a2eed"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day368 09:27—Day369 07:06"
+summary: >-
+  Day368 09:27马芸到原形成单位档案窗口，把前一天仅拟好的2019第73页指定原业务是否有“再次转出登记”的最小申请正式递交，先划去无记录等于未转出的强断；10:02真实获受理回执，14:11有责准按原业务识别组合限查有权原始登记载体且只见非身份动作类别；15:43保管双岗排除按月重号另一笔，证“补核收讫”后本笔存在一条原始“再次转出登记”，16:06核验归位并仅出合法限定摘录。不知去向、物理交接、末端签收、历史真人获答。20:37夜班中心接桂树街3号楼罗月求水，93岁外婆行动不便；物业称供水“已安排”而现场未设点，专业供水单位确认干管隔离抢修和应急水车待命不等于实供。21:04有责确认前街平整取水点和人行路线，21:22专业核验后启用，罗月21:41自行送第一桶到户，第二份由合法有责供水协助人员按本人同意实际送入安全位置；22:08本人回拨确认两份临时水都到户，水龙头仍没水，次日取水尚待通知。23:33中心按授权收到马芸限项摘录，周衡夏宁梁策只核2019退回核址、内部补核收讫、原岗再次转出登记三步，绝不当作目的端收到。Day369 07:06交班，桂树街修复未获证、旧案实际交接和真人历史回告未证。F008/M004/M005不升级。
+meaningful_state_changes:
+  - "2019原第73页指定业务真实取得退回核址、补核收讫之后再次转出原始登记存在性的非身份有限证据；目的端交接和旧人获答仍未知。"
+  - "罗月家确实取得两份应急临时水而家庭自来水系统仍停用，次日供水安排待专业新回报。"
+knowledge_updates:
+  - "马芸只知指定2019业务原岗在补核后曾作再次转出登记，不知道去向/交接/收文、签笔和历史本人受答；未读取未经授权身份字段。"
+  - "周衡夏宁梁策夜间仅依限项摘录和供水专业有责来源分开记原岗转出/末端真实交接与临时水到户/干管修复。"
+  - "罗月知道两份应急水实际到家，未误以为自家水管已恢复或明早供应安排已获确认。"
+relationship_updates:
+  - "马芸与同事坚持把原始登记类别和最终回告分开，同事不再抢写已回告。"
+  - "罗月坚持外婆和自己的真实取水需求；梁策引导安全绕行，供水方按其同意交第二份，不披露老人门牌给路人。"
+foreshadowing_updates:
+  - "F003新增原始再次转出登记的非身份存在性及类别，但不证历史实际交接、末端受领、2016在封旧回告、2022实际字节和11/21归档本同一；F008/M004/M005无独立新增证据。"
+ending_state: "Day369 07:06两份临时用水到罗月家但管网未修、次晨安排未确认；2019原岗再次转出登记存在而实际交接/历史真人收到答复持续未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "257fd321ae20f03ced5e1ca615e9e6b563cf64ad", final_draft_sha: "257fd321ae20f03ced5e1ca615e9e6b563cf64ad", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "81f1d3d7d1b58b387bf115b5bf5ecc03c69a2eed", dependency_status: verified_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3233
