@@ -5009,7 +5009,7 @@ chapter_505_final_review:
   predecessor_factual_delta: exact_ready_sha
   body_revisions: 0
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_ci_success_41737818829
 
 chapter_506_final_review:
   chapter: 506
@@ -5028,4 +5028,31 @@ chapter_506_final_review:
   stage_a_metadata_only: true
   body_revisions: 0
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_ci_success_41738461528
+
+release_505_reader_evidence:
+  chapter: 505
+  commit: "b769aa8a5c4bdf2ccfc6d0d2f11df097d23106a3"
+  source_sha: "257fd321ae20f03ced5e1ca615e9e6b563cf64ad"
+  final_review: "reader_reviews/0505_257fd321.md"
+  counts: "0/0/2"
+  candidate_ci: 41737818829
+  main_ci: 41737881197
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  ready_blob: "f0ee0e061a74b1cc9b57904ef7c2bd2f98633edf"
+  main_update: expected_sha_force_false_success
+
+release_506_reader_evidence:
+  chapter: 506
+  commit: "17aa4ea94030f5389732def1ff06f925fb1328f1"
+  source_original_sha: "2c98fdda6e5d1ce3a2068e03c73f435abcbacb50"
+  final_source_sha: "8321515e89466cf5aa3b604cd1fc74f7fbbad36a"
+  final_review: "reader_reviews/0506_8321515e.md"
+  counts: "0/1/2_to_0/0/2"
+  candidate_ci: 41738461528
+  main_ci: 41738520963
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  ready_blob: "e6f9ab9900999f680be72e2efb32655e57ed12d5"
+  main_update: expected_sha_force_false_success

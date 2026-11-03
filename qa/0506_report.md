@@ -9,3 +9,8 @@
 - **Style PASS（MINOR=2）**：现场细节和老人/罗月家居日常有辨识度、对话差异清楚；状态分层说明密集、章末象征解释略直，但不应因MINOR修改。
 - **Meaningful Change PASS**：罗月家从仅靠两桶临时水转为本人实际确认厨房持续出水，且公众“全楼已恢复”被有限保源纠正；历史查询的后续权限申请真实受理但未放行结果。
 - **结构门禁**：本报告仅真实内容QA。含新的506 ready、旧draft删除、两份SHA Review、长期Memory、章节CSV、校正详纲的**精确候选Git commit**须经结构单测和`python -m publisher.check_local --repo .`真正SUCCESS，再以expected_sha和force:false安全更新main。未获CI结果之前不伪称ready已正式放行。
+
+## 精确候选结构CI和正式ready放行实证｜2026-11-04
+- **候选/正式main Commit** `17aa4ea94030f5389732def1ff06f925fb1328f1`，Tree `2b30dd00a534a1d5a5aad7617b9311d15da0b236`；审计分支 `audit/ready-0506-20261104-0720` Actions `41738461528` 的head_sha精确等于本Commit，completed/**SUCCESS**；「Test offline snapshot validation」和执行 `python -m publisher.check_local --repo .` 的「Validate this checkout without Git sync or publishing」均**SUCCESS**。
+- 仅在此精确版本结构CI实际SUCCESS后，main从正式505 `b769aa8a5c4bdf2ccfc6d0d2f11df097d23106a3` 以expected_sha/force:false非强制更新到本Commit，更新结果真实**SUCCESS**；同SHA main Actions `41738520963` completed/**SUCCESS**。原 `chapters/draft/0506.md` 已在同树删除，`chapters/ready/0506.md` Git Blob `e6f9ab9900999f680be72e2efb32655e57ed12d5`，已有505 ready及既有计划行保留，修订后原稿 `8321515e89466cf5aa3b604cd1fc74f7fbbad36a` 的SHA绑定Review、独立QA、Memory和计划均在同一候选内。
+- 此真实CI实证覆盖上文原候选阶段“结构门禁待核”提示；正文0字修订、Stage A仅前章SHA元数据/详纲修复，没有发布番茄。

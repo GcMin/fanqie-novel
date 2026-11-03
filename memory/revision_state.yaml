@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 506
-current_stage: content_qa_pass_structural_ci_pending
+current_stage: ready_structural_ci_verified
 current_source_path: chapters/draft/0506.md
 current_source_sha: 8321515e89466cf5aa3b604cd1fc74f7fbbad36a
 current_review_path: reader_reviews/0506_8321515e.md
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter506_stageA_predecessor_sha_rebind_and_newSHA_reader_QA_pass_structural_pending
+last_action: chapter506_reader_qa_and_exact_structural_ci_verified_ready
 last_action_date: "2026-11-04"
 last_error: null
-last_diff_summary: "506 Reader0/1/2 StageA prev505 original vs ready body identical; final new SHA0/0/2; body no edits; QA pass; CI pending"
+last_diff_summary: "505 Reader0/0/2, 506 Reader0/1/2 StageA metadata-only final0/0/2; both QA and exact CI success; 505-506 now ready"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
@@ -4405,7 +4405,7 @@ chapter_505_revision_state:
   retry_cycles: 0
   safe_mode: false
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_ci_success_41737818829
 
 chapter_506_revision_state:
   chapter: 506
@@ -4423,4 +4423,28 @@ chapter_506_revision_state:
   retry_cycles: 0
   safe_mode: false
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_ci_success_41738461528
+
+release_505_revision_evidence:
+  chapter: 505
+  commit: "b769aa8a5c4bdf2ccfc6d0d2f11df097d23106a3"
+  candidate_ci: 41737818829
+  main_ci: 41737881197
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  ready_blob: "f0ee0e061a74b1cc9b57904ef7c2bd2f98633edf"
+  stage_a_used: 0
+  body_revisions: 0
+  main_update: expected_sha_force_false_success
+
+release_506_revision_evidence:
+  chapter: 506
+  commit: "17aa4ea94030f5389732def1ff06f925fb1328f1"
+  candidate_ci: 41738461528
+  main_ci: 41738520963
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  ready_blob: "e6f9ab9900999f680be72e2efb32655e57ed12d5"
+  stage_a_used: 1
+  body_revisions: 0
+  main_update: expected_sha_force_false_success

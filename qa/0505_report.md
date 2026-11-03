@@ -9,3 +9,9 @@
 - **Style PASS（2 MINOR）**：两线动作明确且角色口吻不同；行政证据免责声明和章末解释略密，属可选表达而非MAJOR，不作无谓润色。
 - **Meaningful Change PASS**：2019原业务首次真核再次转出登记存在，罗月家夜间两份应急用水真实到户，均为实质状态变化。
 - **结构门禁**：以上仅为独立内容QA；候选包含ready、SHA绑定Review、Long Memory、计划CSV和原draft删除的完整树仍须经精确Git commit Actions结构单测及`python -m publisher.check_local --repo .`实际SUCCESS后，才可用expected_sha/force:false更新main。不在此预称结构成功。
+
+## 精确候选结构CI和正式ready放行实证｜2026-11-04
+- 原候选Commit `6dbd8117557a801c4c1b586f1fac872c565ed2d8` 经run `41737666324` **SUCCESS**，但Writer并发创建第506章草稿及详纲，main前进到 `f9c9422e67cdd47dbb7b1f529a38a59c4020e1f8`。Audit重新读取并确认仅新增506两文件、不覆盖后以新main基线重建完整候选。
+- **正式精确候选/放行Commit** `b769aa8a5c4bdf2ccfc6d0d2f11df097d23106a3`，Tree `6da75d362f2b592b44c94bad570d1f70d7ecf969`；审计分支Actions `41737818829` 的head_sha精确匹配候选Commit，completed/**SUCCESS**，结构单测「Test offline snapshot validation」与 `python -m publisher.check_local --repo .` 对应步骤「Validate this checkout without Git sync or publishing」均**SUCCESS**。
+- 在main仍为上述并发新基线时，采用expected_sha与force:false真实推进main至 `b769aa8a5c4bdf2ccfc6d0d2f11df097d23106a3` **SUCCESS**，同SHA正式main run `41737881197` **SUCCESS**。此树仅将第505章从draft迁入 `chapters/ready/0505.md`，ready Blob `f0ee0e061a74b1cc9b57904ef7c2bd2f98633edf`，保留Writer第506章原始草稿及章纲。新Reader绑定旧draft Blob `257fd321ae20f03ced5e1ca615e9e6b563cf64ad`，正文0改，Memory和章节计划均在经验证同树。
+- 本节真实CI证明覆盖上文候选阶段“结构门禁未确认”的历史说明；不涉及published或番茄发布。
