@@ -4715,3 +4715,19 @@ chapter_494_audit_20261103:
   predecessor_factual_delta: exact_ready_sha_no_mismatch
   content_qa: pass
   structural_gate: exact_candidate_ci_required
+
+chapter_495_audit_20261103:
+  chapter: 495
+  title: "寄养到期那一栏，填了邻居的名字"
+  source_sha: "6e9e84055cfbbec4941865b593fd5863a0b19f78"
+  review_path: reader_reviews/0495_6e9e8405.md
+  pass_a: independently_read_draft_recent_three_recent_ten_summaries_style_first
+  pass_b: independently_checked_canon_arc_knowledge_world_timeline_foreshadowing_after_pass_a
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  body_revisions: 0
+  predecessor_ready_blob: "24115755aac852cc43f90ff90f03e24157bc8ee6"
+  predecessor_factual_delta: exact_ready_sha_no_mismatch
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required

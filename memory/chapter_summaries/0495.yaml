@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 495
+title: "寄养到期那一栏，填了邻居的名字"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "6e9e84055cfbbec4941865b593fd5863a0b19f78"
+reader_review: "reader_reviews/0495_6e9e8405.md"
+depends_on_chapter: 494
+depends_on_source_sha: "24115755aac852cc43f90ff90f03e24157bc8ee6"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day357 20:26—Day358 20:07"
+summary: >-
+  Day357 20:26曹国荣在曹茵家收到阿棋Day358 11:12寄养到期短信，误列邻居老杜为预计接领人并标“确认”，曹父亲自打电话发现老杜只同意问路未承诺接犬，更无每日照护义务。20:43夜间中心夏宁周衡梁策仅按曹父授权将原报与必要单号交有责寄养点，现场核阿棋仍在原栏位未出舍。21:18机构查Day351备注“可问路/未代领授权”经打印模板错映成预计接领，灰勾只代表送达；当夜有责暂禁按错表放犬。Day358 09:47老杜本人到场明确拒绝机构代领和长期遛犬，要求撤其紧急号码，机构查原记录保留更改痕迹并撤错记。10:06曹茵凭真实10:00—11:20短时调班到场，父女和机构看阿棋现场情况，仍知车声可能引发前趋、曹父膝盖不稳和工作日照护缺口。10:43获合作方Day359 09:30到家条件评估确认预约，尚非代遛合同或接犬授权；10:58曹父本人签两日有限续住，曹茵按约分付，11:03真实续住至Day360 11:12，11:12旧期满而犬未离舍。Day358 20:07曹父本人回拨中心确认限制错交、真实续住及明日仅评估，长远接犬和照护仍未决定。F003仍仅2019纸簿第73页非身份表式，F008/M004/M005不确证。
+meaningful_state_changes:
+  - "老杜由被系统冒作已确认代领恢复为本人拒绝并按其选择从机构联系人栏撤下，本案禁止无授权交犬，原错有源留档。"
+  - "阿棋从Day358 11:12原续住期限临近转为原饲养人亲签且父女真实付费延住两天至Day360 11:12，继续由有责机构照护。"
+  - "Day359 09:30到家条件评估获实际预约确认；未来服务合同、接犬授权和长期护理仍不预判。"
+knowledge_updates:
+  - "曹国荣确认老杜从未授权本次代领，自己是实际决定人，知道膝盖在车声惊犬时有风险并选择续住两天；评估不是正式服务。"
+  - "曹茵确认工作单位只实批10:00—11:20短时调班，日间照护尚无法承诺；Day359 09:30仅有条件评估预约回执。"
+  - "老杜知道自己被打印模板错列接领人，实际到场否认并要求撤机构紧急联系；寄养点负责人知道提醒送达不能等同授权签收。"
+  - "夏宁周衡梁策只收到有源有限回告，不能代寄养点准放、代服务商签约或诊断犬完整健康。"
+relationship_updates:
+  - "曹国荣、曹茵在费用、工作时段与犬真实牵行风险前共同支持有限续住，决定权仍在父亲，矛盾未被虚写为完全解决。"
+  - "老杜直言拒承担长期照护，曹父承认边界，邻居仍可喝茶来往而不以人情替代契约。"
+foreshadowing_updates:
+  - "F003只到2019原形成单位纸簿第73页非身份定位与表式，2019实际真签、2016回告在封、历史本人答复、2022工作区读过何文件及字节同一均未知；F008/M004/M005无新证，F009/F010/F011持续resolved。"
+ending_state: "Day358 20:07阿棋仍在机构原栏位，两天有证续住至Day360 11:12；老杜不代领，Day359 09:30仅预约到家评估，原主人长期怎么接犬仍由本人实际决定。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6e9e84055cfbbec4941865b593fd5863a0b19f78", final_draft_sha: "6e9e84055cfbbec4941865b593fd5863a0b19f78", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "24115755aac852cc43f90ff90f03e24157bc8ee6", dependency_status: verified_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3443
+release_evidence: {structural_gate: exact_candidate_ci_required}
