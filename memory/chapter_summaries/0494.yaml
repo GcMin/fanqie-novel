@@ -30,5 +30,15 @@ foreshadowing_updates:
 ending_state: "Day357 20:09原带已由林叔本人签回且还未专业检测，本群已限项更正，群外副本仍待来源核实，维修预约咨询不保证修复；老人和孙子等真实完整声音。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "7baccf63314887c8420d381ca8773432a798e99f", final_draft_sha: "7baccf63314887c8420d381ca8773432a798e99f", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "dad59cdea686cd0eac3cf199cbd103440bd992fb", dependency_status: verified_exact_ready_blob}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_success_41625992376}
 char_count: 3415
+
+release_evidence:
+  candidate_commit: "6fb356be752a424b9189c94a0998352c656ee32f"
+  validated_tree: "7d38c426bc77267b4fa21f99d977cf34e92eb4d8"
+  candidate_ci: 41625992376
+  candidate_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  ready_blob: "24115755aac852cc43f90ff90f03e24157bc8ee6"

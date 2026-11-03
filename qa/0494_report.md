@@ -13,3 +13,9 @@
 **Meaningful Change PASS：** 原带由社区保管真实转为林叔本人签领、官方误标群帖撤回并有源更正、已知两次外转获通知、志愿活动展示规则受限、维修只预约咨询，均为实际状态变化。安康接口正式修复、第三户退款到账、钟楼恢复、阿棋永久安排、F003/F008/M004/M005均未被本章擅改。
 
 **Git结构门禁：** 本QA仅为内容PASS。必须对包含第494章ready、SHA绑定Review、本QA、Memory和唯一计划行的精确候选commit完成 `python -m publisher.check_local --repo .`（或可信相同代码的GitHub CI）实际SUCCESS，核实head SHA相同之后才允许以 `expected_sha`、`force:false` 将候选快进main；失败保留draft并记录阻塞。
+
+## 精确候选结构校验与main实际放行证据
+- 原始稿 Blob `7baccf63314887c8420d381ca8773432a798e99f`，双遍Reader `reader_reviews/0494_7baccf63.md` 0/0/2，独立内容QA PASS，正文0字修改；第493章前置正式ready `dad59cdea686cd0eac3cf199cbd103440bd992fb` 精确依赖。
+- 含第494章正式ready、Reader Review、独立QA、长期Memory及完整计划的候选Git commit `6fb356be752a424b9189c94a0998352c656ee32f`，对应Git Tree `7d38c426bc77267b4fa21f99d977cf34e92eb4d8`；审计分支 `audit/ready-0494-20261103-1907` GitHub Actions run `41625992376` **SUCCESS**，运行head SHA与上述commit精确相同；`Test offline snapshot validation` SUCCESS，`Validate this checkout without Git sync or publishing` SUCCESS（实际运行 `python -m publisher.check_local --repo .`）。
+- main原HEAD `f974a6addffdc52acd27dbf01b86e7563bc9fea1` 使用 `expected_sha`、`force:false` 非强制快进候选 `6fb356be752a424b9189c94a0998352c656ee32f` 成功并再次读取确认。正式ready Blob `24115755aac852cc43f90ff90f03e24157bc8ee6`；旧 `chapters/draft/0494.md` 在同一树中删除、无正文覆写，未经番茄发布。
+- 上文“结构门禁待验证”仅为候选阶段描述；此处真实精确CI结果现已满足并覆盖该先前待核状态。

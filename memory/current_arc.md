@@ -1512,3 +1512,8 @@ Day173 20:24仅是该号码未来新语义的专业标识测试，20:39廖珊看
 - Day356 17:25小阮无授权试播未修机收手机19秒并误标已数字化；20:42林叔误见群帖；21:16社区核原物/手写旧签，21:48本群有源撤回更正，22:12林叔本人签领原带。Day357小阮责任和活动进度模板获纠错，公开展示暂停，已知两次外转仅转告更正、群外副本去向不明；原带未专业鉴定仅预约咨询；20:09本人向中心真回拨，孙子等真实完整声音，不当原歌只剩19秒。
 - 董敬安Day355 22:02真到家、Day355未修好录音机的事实保持；安康接口整改未确认，钟楼公众报时未准恢复、阿棋临时寄养至Day358 11:12。F003仍为2019纸簿第73页非身份位置和表式，不见真实签字/历史受答/2016内件/2022具体字节；F008/M004/M005不确证。
 - 尚须以包含ready/Review/QA/Memory/计划的精确Git候选Commit实际CI成功为门禁，未验证前不允许main放行。
+
+## 第494章精确结构CI通过与正式ready放行（2026-11-03）
+- 精确候选Git commit `6fb356be752a424b9189c94a0998352c656ee32f`、Tree `7d38c426bc77267b4fa21f99d977cf34e92eb4d8`、审计分支 `audit/ready-0494-20261103-1907` 的GitHub Actions run `41625992376` 与head精确匹配且**SUCCESS**；结构单元测试与`python -m publisher.check_local --repo .`（步骤 `Validate this checkout without Git sync or publishing`）均成功。
+- main以expected_sha=`f974a6addffdc52acd27dbf01b86e7563bc9fea1` 和force:false真实快进该commit；第494章正式ready Blob `24115755aac852cc43f90ff90f03e24157bc8ee6`，原draft已删，小说正文未改。Reviewer 0/0/2, QA/Memory和唯一计划更新已正式落库，未发布番茄。
+- 旧候选阶段“结构门禁待核”由精确CI实证覆盖；F003/F008/M004/M005仍未获得新增历史确证。
