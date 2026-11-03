@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 497
+title: "回家的门开了，阿棋却还不能留下"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "56e6b14651ed8970132686f851d763565cadf6a0"
+source_draft_sha: "2138d6009bb4c62e92f5a8ebe8db18e212acffc4"
+initial_review: "reader_reviews/0497_56e6b146.md"
+reader_review: "reader_reviews/0497_2138d600.md"
+depends_on_chapter: 496
+depends_on_source_sha: "0b5362b8ddda03787e2d75d5314b27019e76c82d"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day360 08:57—20:26"
+summary: >-
+  Day360 08:57曹国荣到阿棋寄养点核旧合同11:12到期、下午一次已付上门服务不能代替接送手续；本人联系承运商，10:18确认14:10一辆接受固定箱的单程宠物运输车。10:59真签付延时照护至14:20，11:12原寄养期限届满而犬仍有责照护、不倒填老杜交接。曹父将旧搪瓷碗带回榆叶巷并放窗台下地砖，后巷清洁车虽未回但翘砖及旁停自行车继续影响通行。14:08有约车到，真实核运输箱固定和主人亲领、14:20前完成真实出舍并运抵旧家；14:53何师傅按原一次上门试行提前几分钟到场，阿棋在旧碗旁喝水但听公交气刹突然向外门前趋，由何师傅控绳，曹父膝盖发软扶桌，没人受伤。16:03服务如实记室内适应与风险、拒写已完成室外遛行；父亲自行决定不得当日永久留下。本人另约返程、核实机构夜间空位，17:21真实把犬送回原寄养点，由有责人员亲收，父亲亲签付费三天新的过渡寄养而不转让主人身份。曹茵晚间收到有限凭据并与父亲通话，20:26夜间中心仅按本人授权和有责记录限项登记短时离舍/实际返家/真回寄养三个状态。长远室外安全牵犬、后巷维修、连续家庭照护仍未落实，F003仍只是2019原簿第73页非身份栏式，F008/M004/M005无新增证据。
+meaningful_state_changes:
+  - "阿棋第一次真实短暂返回旧屋并饮旧碗水，屋内车声刺激前趋实际复发，验证短时到家不等于长期安全照护。"
+  - "11:12与14:20前后的照护和出舍各有真合同/交接；17:21另实签新三天过渡寄养，不借原延期单冒写夜间承保。"
+  - "曹父主动承认自身膝盖及犬应激的照护现实，不替女儿或何师傅作无凭长期承诺。"
+knowledge_updates:
+  - "曹国荣亲自获知真实接送、安置和费用，现场看见狗认旧碗但受车声惊扰，知道本人目前不宜独自安全长期牵犬。"
+  - "曹茵晚上才知实返家两小时后又重新寄养及父亲扶桌惊险，仍没有承诺工作日全程照护。"
+  - "何师傅只见当次室内适应和控犬状况，不能确认室外安全或未来全部服务。"
+  - "夜班中心仅接本人有限20:26回报，不把暂时进家当永久归家，也不替机构和物业批准。"
+relationship_updates:
+  - "父女在实际风险、费用与真实凭据前讨论而非家属代签永久接犬决定，父亲坚持自己作现阶段可执行的过渡安排。"
+  - "父亲与阿棋仍相认，短暂相聚和真正放回有责寄养点并存，何师傅尊重原主人决定边界。"
+foreshadowing_updates:
+  - "F003第73页非身份可定位不证2019真实签认、2016回告在封、历史本人受答、2022导入与11/21归档同字节；F008/M004/M005无新证。"
+ending_state: "Day360 20:26阿棋已于17:21真正回到寄养点，由曹父本人付费新三天过渡寄养；未永久回家、父亲主人资格未变、后巷翘砖未修、长期照护未落实。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "56e6b14651ed8970132686f851d763565cadf6a0", initial_counts: "0/1/2", final_draft_sha: "2138d6009bb4c62e92f5a8ebe8db18e212acffc4", stage_a_used: 1, body_revisions: 1, fix: "move_enamel_bowl_from_windowsill_to_floor_below_window", predecessor_ready_blob: "0b5362b8ddda03787e2d75d5314b27019e76c82d", predecessor_factual_delta: exact_ready_sha}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3267

@@ -1532,3 +1532,8 @@ Day173 20:24仅是该号码未来新语义的专业标识测试，20:39廖珊看
 
 ## 第496章精确CI成功与正式ready（2026-11-03）
 - 第496章Stage A只将原草稿 `5d2cf38a...` 的前章依赖实际比较后重绑到正式495ready `1994c77e91...`，正文0字修改；新完整draft SHA `fc0fffd808fd86b984e6ff51b256c8a9646dcc3e` 独立Reader Pass A后Pass B结果0/0/2 keep/none，独立Continuity/Style/Meaningful QA均PASS。精确候选Git commit `5c2b56b376e42e5c65de845a093d2e81532465b7`、Tree `2f70befd014ee51202a9f333890649214b833cc1`，审计分支CI `41643519424` head SHA精确一致且**SUCCESS**，结构单元测试和 `python -m publisher.check_local --repo .` PASS。由main `0c1bc131...` 采用expected_sha/force:false非强制快进成功，main同Commit CI `41643619978` **SUCCESS**；第496章ready Blob `0b5362b8ddda03787e2d75d5314b27019e76c82d`，原draft已删除，唯一计划保留旧ready行。F003/F008/M004/M005边界不改。
+
+## 第497章独立Reader/Revision/内容QA（2026-11-03｜结构候选校验待核）
+- 本章初稿Git Blob `56e6b14651ed8970132686f851d763565cadf6a0` 初独立Pass A/B 0 BLOCKER/1 MAJOR/2 MINOR：上午旧搪瓷水碗写在窗台上，下午阿棋却直接从窗台下地砖舔水。Stage A仅限该位置修为中午放在窗台下地砖，char_count重算为3267，小说正文仅改一句；修订新完整SHA `2138d6009bb4c62e92f5a8ebe8db18e212acffc4`。新SHA重新独立Pass A后Pass B最终0/0/2 keep/none，旧版Review不用于放行；独立Continuity/Style/Meaningful内容QA PASS。
+- 与第496章ready `0b5362b8ddda03787e2d75d5314b27019e76c82d` 最新SHA精确一致，前章事实未被改写。Day360曹父10:59亲付短延养至14:20，11:12原期满但机构继续真管；14:20前本人实领犬并用受控箱运真回榆叶巷家，狗饮旧碗但仍闻公交气刹前趋，何师傅有责控绳、老人膝软扶桌未伤；16:03只实记室内试行不报室外成功。返车另付、17:21狗真送回寄养点、本人真签付三天新过渡养护，不是永久返家；20:26本人有限回拨夜班中心。后巷翘砖未修，长期安全牵犬和后续服务未定。
+- F003只2019原簿第73页非身份栏式可定位，不证实际签认/2016回告在封/历史本人获答/2022文件字节同一；F008/M004/M005不升级。本章内容QA不替代精确候选commit的结构单测与`python -m publisher.check_local --repo .` CI SUCCESS，后者完成后才可原子迁ready。

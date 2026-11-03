@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 494
+last_updated_chapter: 497
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2258,3 +2258,11 @@ chapter_496_arc054_update:
   cao_guorong_and_he_shifu: "何师傅尊重原主人实际决定权，也不为取悦客户伪勾独立牵行、安全路线和长期服务；曹父愿多问费用并接纳有界评估。"
   father_and_dog: "阿棋见父亲会亲近但闻气刹仍前趋，父亲坐旁让专业人员按围栏条件控绳，不用旧绳擅自引犬扑门；关系与安全决策并重。"
   core_team: "夜班三人仍只限本案原求助授权核来源，绝不把首回委托冒写已送犬或全链解除风险。"
+
+chapter_497_arc054_update:
+  chapter: 497
+  source_sha: "2138d6009bb4c62e92f5a8ebe8db18e212acffc4"
+  cao_guorong_and_cao_yin: "父亲Day360按本人决定亲领短时回家又自己付三天新寄养；晚间向女儿如实讲述膝软、费用与实际单据，女儿关心伤情和支出但未代签长期照护或转让犬主权。"
+  cao_guorong_and_a_qi: "狗短暂真回榆叶巷旧家喝地砖旧水碗水，车声惊动时仍前趋；父亲不凭相认忽略安全，17:21亲送原寄养机构并付新过渡寄养。"
+  cao_guorong_and_he_shifu: "何师傅尊重曹父决定并限项记录室内风险，父亲不要求伪称一次室内试行等于户外遛行成功。"
+  core_team: "周衡夏宁梁策只依据本人有限授权分开登记出舍和再入舍，继续坚持夜班不越行业安全判断。"

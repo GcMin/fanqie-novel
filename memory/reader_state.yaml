@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 494
-last_reviewed_title: "旧歌被写成修好，原带还在桌上"
-last_source_path: chapters/draft/0494.md
-last_source_sha: 7baccf63314887c8420d381ca8773432a798e99f
-last_review_path: reader_reviews/0494_7baccf63.md
+last_reviewed_chapter: 497
+last_reviewed_title: "回家的门开了，阿棋却还不能留下"
+last_source_path: chapters/draft/0497.md
+last_source_sha: 2138d6009bb4c62e92f5a8ebe8db18e212acffc4
+last_review_path: reader_reviews/0497_2138d600.md
 last_reviewed_at: "2026-11-03"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -4787,3 +4787,23 @@ release_496_reader_evidence:
   structural_unit_tests: pass
   ready_blob: "0b5362b8ddda03787e2d75d5314b27019e76c82d"
   main_ref_update: expected_sha_force_false_success
+
+chapter_497_audit_20261103:
+  chapter: 497
+  original_source_sha: "56e6b14651ed8970132686f851d763565cadf6a0"
+  initial_review: reader_reviews/0497_56e6b146.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_used: 1
+  fix: bowl_wrongly_on_windowsill_changed_to_floor
+  final_source_sha: "2138d6009bb4c62e92f5a8ebe8db18e212acffc4"
+  final_review: reader_reviews/0497_2138d600.md
+  pass_a: independent_new_sha_read_current_three_ready_recent_ten_summaries_style
+  pass_b: independent_after_pass_a_canon_arc_world_people_timeline_foreshadowing
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  body_revisions: 1
+  predecessor_ready_blob: "0b5362b8ddda03787e2d75d5314b27019e76c82d"
+  predecessor_factual_delta: exact_ready_sha_no_mismatch
+  independent_content_qa: pass
+  structural_gate: pending_exact_candidate_ci

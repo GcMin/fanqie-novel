@@ -13,7 +13,7 @@
 - timeframe: Day360 08:57—Day360 20:26
 - title: 回家的门开了，阿棋却还不能留下
 - target_effective_chars: 3000
-- actual_effective_chars: 3262
+- actual_effective_chars: 3267
 - pov: 曹国荣主视角；寄养点人员、合作照护何师傅、曹茵；夜间中心限项接报
 - status: planned_and_new_draft_only
 
@@ -50,3 +50,8 @@
 - 已实查第153章位于chapters/published/0153.md，0496位于chapters/ready/0496.md，0497及同号详纲不存在；plans/chapter_plan.csv最新章496。
 - 新章依赖直接前章已ready，Git blob SHA严格绑定，不标provisional，也不把后续新场景预写为前章已完成。
 - Writer仅新建计划和draft，未执行Reader/Revision/QA/Memory/Publish Gate或番茄发布，待独立Audit。
+
+## Audit Stage A及新SHA独立复核（2026-11-03）
+- 初稿源SHA `56e6b14651ed8970132686f851d763565cadf6a0` 独立Reader Pass A/B 0 BLOCKER/1 MAJOR/2 MINOR，水碗放窗台与后文犬直接从地砖喝水冲突。
+- Stage A仅修为碗放窗台下地砖，完整修订稿SHA `2138d6009bb4c62e92f5a8ebe8db18e212acffc4`，有效字符数3267；核心剧情与前章正式SHA不改。
+- 新SHA重新独立Pass A后Pass B最终0/0/2 keep/none；后续独立Continuity/Style/Meaningful QA PASS，但正式ready仍须精确Git候选提交结构CI SUCCESS。
