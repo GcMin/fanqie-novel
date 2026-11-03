@@ -30,5 +30,16 @@ foreshadowing_updates:
 ending_state: "Day365夜原坡道仍封，替代路仅经本次核可且祝泠真到摊；旧2019查询已有收件号但无查询结果或历史本人获答。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "d252e40e2e76f4edbacc087ac2018c88ff489e85", final_draft_sha: "d252e40e2e76f4edbacc087ac2018c88ff489e85", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "9a8f97bde5fee83c39666ed7676ebc1f71cd2c13", dependency_status: verified_exact_ready_blob}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_success_41710415124}
 char_count: 3159
+release_evidence:
+  candidate_commit: "963b526d54edcbe63d0c61ec9d67631127feb2b9"
+  validated_tree: "7ea9579c62096ea76e4a82d9912b3a6b907a54b3"
+  candidate_ci: 41710415124
+  candidate_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ci: 41710531548
+  main_ci_conclusion: success
+  main_ref_update: expected_sha_force_false_success
+  ready_blob: "c865febbd82177834f8cbda61af89baf4d13944f"

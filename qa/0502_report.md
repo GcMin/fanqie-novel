@@ -9,3 +9,8 @@
 - **Style PASS**：货车窄轮、路灯、锁链、周转筐、地面残绳与两次不同责任方现场核查具有行动质感。角色对话可辨、无强迫换景和机械悬念，轻度程序说明重复只属MINOR。
 - **Meaningful Change PASS**：旧案查询从草稿转为正式收件；当代坡道错误开放信息保源更正且实体仍封，另一条替代通路清障并由当事人实际通过，未决责任明确。
 - **独立结构门禁**：本报告仅为内容QA PASS。正式ready和main更新**只允许**在精确候选Git Commit的真实`python -m publisher.check_local --repo .`及结构测试CI **SUCCESS** 后执行。尚未取得此CI结果时不得称结构已通过。
+
+## 精确结构校验与正式main放行证据｜2026-11-04
+- 精确放行候选/commit `963b526d54edcbe63d0c61ec9d67631127feb2b9`，Git Tree `7ea9579c62096ea76e4a82d9912b3a6b907a54b3`；审计分支Actions run `41710415124` 实际head_sha与该commit完全相同，Workflow状态 **completed / SUCCESS**，结构单元测试与 `python -m publisher.check_local --repo .` 均实际 **SUCCESS**。
+- 在结构成功后以当时main HEAD作为`expected_sha`、`force:false`完成main更新；同SHA的main Actions `41710531548` 也已 **SUCCESS**，无复用旧commit结构结果。
+- 同一已验证树中正式ready Blob `c865febbd82177834f8cbda61af89baf4d13944f` 存在，旧对应draft路径已删除，Review绑定最后草稿Blob `d252e40e2e76f4edbacc087ac2018c88ff489e85`，对应长记忆与单一ready计划行已同步。本章不表示已经在番茄平台发布。

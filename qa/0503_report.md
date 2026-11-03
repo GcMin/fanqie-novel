@@ -9,3 +9,8 @@
 - **Style PASS**：月初流水重号、外盒与内件之别、柜外等候与实物封存核点具体；马芸/老师傅/年轻工作人员/夏宁/周衡/梁策对白可辨。盒未开不能证明同件的重复和标题对另月同号的含混属MINOR，不影响可理解性，无须改写其他正文。
 - **Meaningful Change PASS**：旧案从“第502章受理且无答复”推进到“第503章同号歧义被正式拆开、一个可能相关现行整理盒实物存在、待核同件与新的合法申请尚未提交”；单章信息证据层级实际提高但不越界。
 - **结构门禁仍待真实执行**：以上仅独立内容QA PASS，须确切候选commit的`python -m publisher.check_local --repo .`与结构单元测试CI完成SUCCESS，方可采用`expected_sha`、`force:false`将503移ready。
+
+## 精确结构校验与正式main放行证据｜2026-11-04
+- 精确放行候选/commit `929e66211fec88552a31416acee6c225e9429ed4`，Git Tree `942ee68d738be6cdf0d1134eb04f78eedd50220c`；审计分支Actions run `41711406539` 实际head_sha与该commit完全相同，Workflow状态 **completed / SUCCESS**，结构单元测试与 `python -m publisher.check_local --repo .` 均实际 **SUCCESS**。
+- 在结构成功后以当时main HEAD作为`expected_sha`、`force:false`完成main更新；同SHA的main Actions `41711525200` 也已 **SUCCESS**，无复用旧commit结构结果。
+- 同一已验证树中正式ready Blob `86182f9070f7555657eea88f28fca53a2c3af921` 存在，旧对应draft路径已删除，Review绑定最后草稿Blob `703c8dba76fc949dfc46dbceee40c4b3676193c4`，对应长记忆与单一ready计划行已同步。本章不表示已经在番茄平台发布。

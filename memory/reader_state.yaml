@@ -4941,3 +4941,27 @@ chapter_503_final_review:
   predecessor_factual_delta: body_title_identical_delivery_metadata_only
   content_qa: pass
   structural_gate: pending_exact_candidate_ci
+
+release_502_503_reader_evidence:
+  chapter_502:
+    chapter: 502
+    commit: "963b526d54edcbe63d0c61ec9d67631127feb2b9"
+    candidate_ci: 41710415124
+    candidate_ci_conclusion: success
+    publisher_check_local: pass
+    structural_unit_tests: pass
+    main_ci: 41710531548
+    main_ci_conclusion: success
+    ready_blob: "c865febbd82177834f8cbda61af89baf4d13944f"
+    main_update: expected_sha_force_false_success
+  chapter_503:
+    chapter: 503
+    commit: "929e66211fec88552a31416acee6c225e9429ed4"
+    candidate_ci: 41711406539
+    candidate_ci_conclusion: success
+    publisher_check_local: pass
+    structural_unit_tests: pass
+    main_ci: 41711525200
+    main_ci_conclusion: success
+    ready_blob: "86182f9070f7555657eea88f28fca53a2c3af921"
+    main_update: expected_sha_force_false_success
