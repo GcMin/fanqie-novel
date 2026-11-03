@@ -4276,3 +4276,19 @@ release_499_500_revision_evidence:
   publisher_check_local: pass
   structural_unit_tests: pass
   main_update: expected_sha_force_false
+
+chapter_501_revision_state:
+  chapter: 501
+  original_sha: "fcb50de6cab6e037d1db90f5f83e51574daa0ed2"
+  initial_counts: "0/2/2"
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  fix_required_completed: "11:28真实阶段反馈与14:47至14:57本户实际门开十分钟；同时更新有效字符数"
+  final_sha: "f4a2bf2161e088c250bc6abe32cffb5605bf307d"
+  final_review: "reader_reviews/0501_f4a2bf21.md"
+  final_counts: "0/0/2"
+  retry_cycles: 0
+  safe_mode: false
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci

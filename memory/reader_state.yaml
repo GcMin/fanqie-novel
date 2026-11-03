@@ -4883,3 +4883,18 @@ release_499_500_reader_evidence:
   chapter_500_reader_final_counts: "0/0/2"
   chapter_500_ready_blob: "95b296bbdeb5dd1bb3d7e4ef1ed41f05f89aa77a"
   main_ref_update: expected_sha_force_false_success
+
+chapter_501_final_review:
+  chapter: 501
+  original_source_sha: "fcb50de6cab6e037d1db90f5f83e51574daa0ed2"
+  original_review: "reader_reviews/0501_fcb50de6.md"
+  original_counts: "0/2/2"
+  final_source_sha: "f4a2bf2161e088c250bc6abe32cffb5605bf307d"
+  final_review: "reader_reviews/0501_f4a2bf21.md"
+  final_counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  pass_a_then_pass_b: true
+  precedent_ready_blob: "95b296bbdeb5dd1bb3d7e4ef1ed41f05f89aa77a"
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci

@@ -1,0 +1,39 @@
+schema_version: 1
+chapter: 501
+title: "门开了十分钟，家还不能回"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "fcb50de6cab6e037d1db90f5f83e51574daa0ed2"
+source_draft_sha: "f4a2bf2161e088c250bc6abe32cffb5605bf307d"
+initial_review: "reader_reviews/0501_fcb50de6.md"
+reader_review: "reader_reviews/0501_f4a2bf21.md"
+depends_on_chapter: 500
+depends_on_source_sha: "95b296bbdeb5dd1bb3d7e4ef1ed41f05f89aa77a"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day364 07:41—20:34"
+summary: >-
+  Day364 07:41青杉里702齐曼一家旅宿第三夜后孩子想取左鳍开线的旧蓝鲸，原房仍不可住。物业周庆林09:26联系本户需求，约11:30前答复并于11:28真实阶段回拨尚未获许可；11:42有资质人员限项隔离复核，仍未给用电和居住安全结论。有责岗位批准一次指定人员与路线陪同取物，13:09周庆林通知齐曼；14:37登记时旧表将复住预印，周庆林保源作不适用更正并另出有限取物单。14:47齐曼在陪同核准范围开启702，拿证件袋、校服及衣物、孩子破鳍蓝鲸，照片和被子按本次限制留下，没触碰电器；14:57锁门退出、15:01回外围逐项记录实取，家屋未获恢复许可。孩子真实抱回蓝鲸但不能凭本次许可再进。19:18第四夜旅宿另经有责费用确认且一家实际续房，20:34中心周衡夏宁梁策按本人授权分源记录真取物、第四晚真住、702仍不可复住。F003仍仅2019原簿第73页实际退回核址类别及同期说明，后续流转/真实签认/2016回告在封/历史本人获答/2022字节同一均未知；F008/M004/M005不确证。
+meaningful_state_changes:
+  - "本户首次获得合规限项短时取物许可并由本人真实带出校服、衣物、证件袋和破鳍蓝鲸，不因此恢复住宅用途。"
+  - "14:47—14:57真实门内十分钟与14:37—15:01整体服务时间独立记录，旧表错误预印复住改为不适用并保留原来源。"
+  - "一家Day364第四夜临时旅宿获有责费用确认并真实续住，前一晚第三夜的时间与凭据不改变。"
+knowledge_updates:
+  - "齐曼本人知道当日受控入屋和实取范围，未检查电气、不知道何日可复住；家人知道蓝鲸已取回、不可自行重复入屋。"
+  - "周庆林知道11:28答复仅进度未准、13:09有责新许可有限、取物登记不可当复住签认。"
+  - "周衡夏宁梁策20:34仅按有源回拨获知真取物、第四夜真住宿、原屋未获安全文件，不得代专业放行。"
+relationship_updates:
+  - "齐曼守住住户真实许可和孩子私人物品，丈夫认可钥匙不等于住宅恢复，两人继续共同承担临住。"
+  - "孩子坦白左鳍破损，母亲愿保留旧物，不以旧或坏为由替孩子作处置决定。"
+foreshadowing_updates:
+  - "F003在第500章原样保留退回核址有界证据；第501章当代短时取物不是旧案送达或真实签收证据，F008/M004/M005无新确证。"
+ending_state: "Day364 20:34一家三口已真续第四夜旅宿、蓝鲸及有限衣物拿回，702仍禁复住，下一次取物须重申；2019原簿旧事后续和历史本人受答未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "fcb50de6cab6e037d1db90f5f83e51574daa0ed2", initial_counts: "0/2/2", final_draft_sha: "f4a2bf2161e088c250bc6abe32cffb5605bf307d", stage_a_used: 1, body_revisions: 1, fix: "stage_callback_1128_and_exact_ten_minute_door_1447_1457", predecessor_ready_blob: "95b296bbdeb5dd1bb3d7e4ef1ed41f05f89aa77a"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3327
+release_evidence:
+  ready_candidate_blob: "9a8f97bde5fee83c39666ed7676ebc1f71cd2c13"
+  structural_gate: pending_exact_candidate_ci
