@@ -1,0 +1,38 @@
+schema_version: 1
+chapter: 500
+title: "退回两个字，写在第七十三页"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "1c6fad9bb1fd0ef117d706a30c46d3a538dde2a2"
+source_draft_sha: "2af3f9133c3939f35e27986ad7c36d0986e2ad2d"
+initial_review: "reader_reviews/0500_1c6fad9b.md"
+reader_review: "reader_reviews/0500_2af3f913.md"
+depends_on_chapter: 499
+depends_on_source_sha: "e8299c14481ff26250660878cee53688cf481157"
+dependency_status: verified_predecessor_factual_delta_reconciled
+timeframe: "Day362 20:32—Day363 23:00"
+summary: >-
+  Day362 20:32周衡夜班收到马芸合法限项通知，原形成单位2019纸质收发登记簿第73页次日获准仅查指定业务一项去身份实际处置类别，非真实签名回告。Day363 09:46马芸在有责双岗遮敏下核对原页/编目页，实际见该笔处置类别“退回核址”；同期可适用通用填表说明限定其为退原受理岗补核地址，而不推后续未再转、送达失败或真人获答。10:31她制止同事写“未完成送达”无来源强断，取得有责限定摘录，不跨查其他受控资料，中午拟下一步先确认原始同标识的续转记录存在及合法检索范围。20:24夏宁周衡接无身份摘录并分源记录，梁策阻止把2019此类别直接箭头接2016旧回告，周衡亲自擦箭头。21:16齐曼回拨说明Day362第二夜已另核并真正住过、Day363第三夜又真实获费用确认及续房，702原屋未获进入许可；周衡分别记真实两夜而不当楼栋安全。23:00周衡仅拟申请查原始旧业务后续流转记录是否存在，未取得后续记录或真实历史签认。F003有界推进，F008/M004/M005无确证。
+meaningful_state_changes:
+  - "F003由第491章只能看到第73页非身份表式，推进到经授权真实核该指定登记“退回核址”实际类别，按同期说明仅解为退原受理岗补地址。"
+  - "马芸纠正“未完成送达”无据强断，周衡擦掉2019与2016无凭跨年箭头，下一步改查是否有同标识后续记录。"
+  - "青杉里702 Day362第二晚已实际过夜且Day363第三晚依费用凭据和本人回告真实续住，原房返入许可仍未获批。"
+knowledge_updates:
+  - "马芸知道合法限项退回核址字样与通用说明含义，不知何人签认、补核后有无新流转、历史本人是否真收到答。"
+  - "周衡夏宁梁策只得到无身份摘录，知道2019本笔不能未经核对等于2016封袋旧回告或2022任务具体文件。"
+  - "齐曼仅对自身旅宿及获确认费用、房卡负责，不知道原住处电气专业结果。"
+relationship_updates:
+  - "马芸坚持与同事核具体原页后才落字，梁策对周衡无证跨年联想及时警示，周衡愿公开擦去错误关联。"
+foreshadowing_updates:
+  - "F003新增2019第73页指定业务真实处置类别退回核址，但未取得本笔后续流转真记录、真实签认、2016旧回告在封、历史本人受答或2022文件字节同一；F008/M004/M005不确证，F009/F010/F011 resolved。"
+ending_state: "Day363 23:00有源2019登记簿指定业务类别确为退回核址，周衡只拟合法核下一笔是否存在；真人历史收答与后续转送仍未证；702在第三夜真续住但原屋未开放。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1c6fad9bb1fd0ef117d706a30c46d3a538dde2a2", initial_counts: "0/2/2", final_draft_sha: "2af3f9133c3939f35e27986ad7c36d0986e2ad2d", stage_a_used: 1, body_revisions: 1, fix: "rebind499_ready_and_fix_Day363_third_night", predecessor_original_sha: "1e84ea75e7afe6745c689d9d61218e75ea911627", predecessor_ready_blob: "e8299c14481ff26250660878cee53688cf481157", predecessor_factual_delta: title_and_body_identical_only_delivery_metadata_changed}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3160
+release_evidence:
+  ready_candidate_blob: "95b296bbdeb5dd1bb3d7e4ef1ed41f05f89aa77a"
+  structural_gate: pending_exact_candidate_ci

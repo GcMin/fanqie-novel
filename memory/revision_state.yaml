@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 498
-current_stage: ready_released_exact_candidate_ci_success
-current_source_path: chapters/draft/0498.md
-current_source_sha: d8b315479a520af9d299c06c1887c5b841d4d518
-current_review_path: reader_reviews/0498_d8b31547.md
+current_chapter: 500
+current_stage: ready_candidate_pending_exact_ci
+current_source_path: chapters/draft/0500.md
+current_source_sha: 2af3f9133c3939f35e27986ad7c36d0986e2ad2d
+current_review_path: reader_reviews/0500_2af3f913.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter494_reader_and_content_qa_pass_pending_exact_ci
-last_action_date: "2026-11-03"
+last_action: chapter499_500_reader_revision_and_content_qa_pass_structural_pending
+last_action_date: "2026-11-04"
 last_error: null
-last_diff_summary: "490正式ready CI41602011829 SUCCESS，491初审0/3/2，Stage A修前章SHA/昨日申请时间和突兀英文后新SHA3152ab33双遍Reader0/0/2，独立内容QA通过；待精确CI结构门禁。"
+last_diff_summary: "499 Reader0/0/2 no edits QA pass; 500 initial0/2/2 Stage A rebind499 ready and correct Day363 third night newSHA2af3f913 Reader0/0/2 QA pass; structural candidate CI pending."
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: true
-current_review_source_sha: 7baccf63314887c8420d381ca8773432a798e99f
+publish_gate_passed: false
+current_review_source_sha: 2af3f9133c3939f35e27986ad7c36d0986e2ad2d
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -4249,3 +4249,19 @@ chapter_497_498_release_verified:
   structural_unit_tests: pass
   main_updates: expected_sha_force_false
   original_drafts_deleted: true
+
+chapter_499_500_revision_20261104:
+  chapter_499_source_sha: "1e84ea75e7afe6745c689d9d61218e75ea911627"
+  chapter_499_final_counts: "0/0/2"
+  chapter_499_body_revisions: 0
+  chapter_500_initial_source_sha: "1c6fad9bb1fd0ef117d706a30c46d3a538dde2a2"
+  chapter_500_initial_counts: "0/2/2"
+  stage_a_used: 1
+  fix: "500_predecessor_rebind_to_ready_and_Day363_hotel_third_night"
+  chapter_500_final_source_sha: "2af3f9133c3939f35e27986ad7c36d0986e2ad2d"
+  chapter_500_final_counts: "0/0/2"
+  chapter_500_final_review: reader_reviews/0500_2af3f913.md
+  predecessor_original_sha: "1e84ea75e7afe6745c689d9d61218e75ea911627"
+  predecessor_ready_blob: "e8299c14481ff26250660878cee53688cf481157"
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci

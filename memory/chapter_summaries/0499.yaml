@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 499
+title: "封条没有拆，返家短信先到了"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "1e84ea75e7afe6745c689d9d61218e75ea911627"
+reader_review: "reader_reviews/0499_1e84ea75.md"
+depends_on_chapter: 498
+depends_on_source_sha: "5422dcde59007049c78348a41db7adcad5d69755"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day361 20:17—Day362 07:19"
+summary: >-
+  Day361 20:17青杉里6号楼702齐曼一家仍住姨妈家，物业却发19:56“已返家”短信；齐曼本人核诉，中心20:31分开居民实住、电子回访与专业返楼许可，梁策21:02只到楼外核物业登记。周庆林确认19:56仅是服务岗给丈夫回访已接通、模板将“电话返回”错映“返回居所”，仍无702返屋取物批准。齐曼阻止丈夫未经许可进楼取校服，学校实际批准孩子次日便服上学及绘画延交。22:01物业保留错源并向702发更正为“已联系、暂住亲属、返楼许可待通知”，住户实际收。22:26物业按有责费用与实在空房核一晚合法旅宿，齐曼自主选择，23:08一家三口实际登记领取房卡入住；Day362 00:12限项确认入住不等于回原屋，07:19齐曼本人回拨告一夜真实住宿、第二晚尚未有准话、原屋未放行。楼内电气查因和全楼安全未结；普通错映未给F003原档或F008/M004/M005新证。
+meaningful_state_changes:
+  - "误将19:56回访接通写作本人返家，有责保留原错并限本户发出且由本人真实收更正。"
+  - "一家三口真正由亲属家搬到有实际空房和当晚费用安排的旅宿并于23:08真领房卡，第二晚和原楼返入仍未知。"
+knowledge_updates:
+  - "齐曼知道消防救出不等于许可返家，系统原已返家短信失实，学校已同意便服与作业延期。"
+  - "周衡夏宁仅按权限知道住户与物业来源、真实一晚入住，梁策不跨楼外围禁区、不代消防和电气专业批准返楼。"
+relationship_updates:
+  - "齐曼拒丈夫把一条物业短信当开门许可，丈夫放回车钥匙且不擅找人取衣，家人共同作实际临住选择。"
+  - "周庆林在本户可核证据前承认回访值误映，不再把平台绿勾当实体住回。"
+foreshadowing_updates:
+  - "F003仅2019纸簿第73页非身份位置和表式，真实签名/2016回告在封/历史本人获答及2022字节同一仍未知；F008/M004/M005无确证。"
+ending_state: "Day362 07:19齐曼一家在旅宿已真实完成第一晚住宿且收到物业本户纠错，702仍不准返屋，第二晚资金与具体修复待有责定。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1e84ea75e7afe6745c689d9d61218e75ea911627", final_draft_sha: "1e84ea75e7afe6745c689d9d61218e75ea911627", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "5422dcde59007049c78348a41db7adcad5d69755"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3361
+release_evidence:
+  ready_candidate_blob: "e8299c14481ff26250660878cee53688cf481157"
+  structural_gate: pending_exact_candidate_ci

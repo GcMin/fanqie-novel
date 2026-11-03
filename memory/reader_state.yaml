@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 498
-last_reviewed_title: "楼梯灯还亮着，七楼的人却没下去"
-last_source_path: chapters/draft/0498.md
-last_source_sha: d8b315479a520af9d299c06c1887c5b841d4d518
-last_review_path: reader_reviews/0498_d8b31547.md
-last_reviewed_at: "2026-11-03"
+last_reviewed_chapter: 500
+last_reviewed_title: "退回两个字，写在第七十三页"
+last_source_path: chapters/draft/0500.md
+last_source_sha: 2af3f9133c3939f35e27986ad7c36d0986e2ad2d
+last_review_path: reader_reviews/0500_2af3f913.md
+last_reviewed_at: "2026-11-04"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 493
-depends_on_source_sha: dad59cdea686cd0eac3cf199cbd103440bd992fb
+depends_on_chapter: 499
+depends_on_source_sha: e8299c14481ff26250660878cee53688cf481157
 dependency_status: verified_predecessor_factual_delta_reconciled
-predecessor_current_source_sha: dad59cdea686cd0eac3cf199cbd103440bd992fb
+predecessor_current_source_sha: e8299c14481ff26250660878cee53688cf481157
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -4842,3 +4842,30 @@ chapter_497_498_release_verified:
   structural_unit_tests: pass
   main_updates: expected_sha_force_false
   original_drafts_deleted: true
+
+chapter_499_audit_20261104:
+  source_sha: "1e84ea75e7afe6745c689d9d61218e75ea911627"
+  review: reader_reviews/0499_1e84ea75.md
+  pass_a: independent_496_498_full_489_498_summaries_style_first
+  pass_b: independent_after_pass_a_canon_arc_knowledge_timeline_foreshadowing
+  counts: {blocker: 0, major: 0, minor: 2}
+  revision: none
+  qa: pass
+  ready_candidate_blob: "e8299c14481ff26250660878cee53688cf481157"
+  structural_gate: pending_exact_candidate_ci
+
+chapter_500_audit_20261104:
+  initial_sha: "1c6fad9bb1fd0ef117d706a30c46d3a538dde2a2"
+  initial_review: reader_reviews/0500_1c6fad9b.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  stage_a: "rebind499_after_original_to_ready_title_body_compare_and_correct_day363_third_hotel_night"
+  new_sha: "2af3f9133c3939f35e27986ad7c36d0986e2ad2d"
+  rereview: reader_reviews/0500_2af3f913.md
+  passes: independent_pass_a_then_pass_b_on_new_sha
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  qa: pass
+  original_predecessor: "1e84ea75e7afe6745c689d9d61218e75ea911627"
+  ready_predecessor: "e8299c14481ff26250660878cee53688cf481157"
+  predecessor_factual_delta: title_body_identical_metadata_only
+  ready_candidate_blob: "95b296bbdeb5dd1bb3d7e4ef1ed41f05f89aa77a"
+  structural_gate: pending_exact_candidate_ci

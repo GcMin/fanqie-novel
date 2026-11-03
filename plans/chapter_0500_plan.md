@@ -7,13 +7,13 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "924aee1aa422f963c9ac062d848ccd9ff8313958"
 - depends_on_chapter: 499
-- depends_on_source_sha: "1e84ea75e7afe6745c689d9d61218e75ea911627"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0499.md
+- depends_on_source_sha: "e8299c14481ff26250660878cee53688cf481157"
+- dependency_status: verified_predecessor_factual_delta_reconciled
+- predecessor_location: chapters/ready/0499.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day362 20:32—Day363 23:00
 - target_effective_chars: 3000
-- actual_effective_chars: 3126
+- actual_effective_chars: 3160
 - pov: 周衡、马芸；夏宁与梁策夜间联动，齐曼一次有限回拨
 - status: planned_and_new_draft_only
 
@@ -28,12 +28,12 @@
 3. 10:31马芸制止经办人把一次“退回核址”推写成“未完成送达”的绝对终局，按真实许可形成限定摘录；对2016旧回告封袋、2019双方签认及2022字节均不越界。
 4. 午间机构内部讨论是否补齐名单，马芸以实际资料与权限说明下一步只能先追问指定旧业务是否存在可检索的后续流转记录及合法范围，不能从类似目录题名猜同一笔。
 5. Day363 20:24周衡夏宁收到无身份摘录，周衡一度在2019纸簿与2016旧回告之间画无据关联箭头，被梁策阻止并纠正，明确下一步最小查询标题。
-6. 21:16齐曼本人有限回拨确认第二晚旅宿有实际续房及本次费用凭据，原七零二仍未经有责返屋批准，夜间中心各自分源；23:00周衡留下未填写的“确认送达”栏，保留尚无真实旧回告接收人。
+6. 21:16齐曼本人有限回拨确认昨夜第二晚已实际入住、今晚第三晚旅宿获有责费用确认并实际续住，原七零二仍未经有责返屋批准，夜间中心各自分源；23:00周衡留下未填写的“确认送达”栏，保留尚无真实旧回告接收人。
 
 ## 真实新增信息与状态变化
 
 - F003具体进展：合法读取2019原形成单位收发纸簿第73页一笔指定业务的非身份“退回核址”处置类别，并用同期通用填表说明限定为退回原受理岗位补核地址；它不等于最终不送达，不等于原报事人已经接到答复，也不证明该笔2019业务与2016旧封袋或2022工作区读档任务原件同一。续转记录有无尚未查。
-- 当代青杉里702第二晚住宿由第499章“后续未定”推进为本次限项获有责确认、本人真实续住；原住处七楼电气隔离、返入许可和其他住户仍不作全楼结论。
+- 当代青杉里702第二晚住宿在Day362另获真实确认并实际入住、Day363第三晚获有责确认且本人真实续住；原住处七楼电气隔离、返入许可和其他住户仍不作全楼结论。
 - 周衡把未经来源验证的跨年箭头擦掉；马芸拒用“未完成送达”伪装最终史实，改以可查后续记录是否存在为具体目标。
 
 ## 伏笔、禁止泄露与章末承接
@@ -44,5 +44,5 @@ F003保留2019实际经办签字、2016旧回告是否在封、历史自然人�
 
 - 实际读取当前main源SHA及 published、ready、draft目录：第153章已在published，最高现有为第499章draft，准备新建0500，源快照尚无0500正文或章纲。
 - 已读取AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、Premise、全书/世界/文风Bible和周衡、夏宁、梁策人物卡；仓库实际只有volume_01—05和arcs/arc_current.md，当前实际卷弧信息按第499章及长期状态ARC-054第六卷为准；读取主要长期记忆、F003/F008和近时线、490—499摘要（第499章尚无正式摘要）、495—499实际完整正文；未读取历史 reader_reviews。
-- 前第499章仅draft，Blob 1e84ea75e7afe6745c689d9d61218e75ea911627 不是正式Canon；仅将其已写的母子住进旅宿和后续第二晚未定视作临时衔接。若前章独立审核后改变关键事实，交由独立Audit检查。
+- Audit核对第499章原草稿Blob 1e84ea75e7afe6745c689d9d61218e75ea911627 与正式ready Blob e8299c14481ff26250660878cee53688cf481157 的标题和正文完全一致，差异只有交付Front Matter；按正式ready事实重绑，且按Day361首晚/Day362第二晚/Day363第三晚修正真实时序。
 - Writer只创建章纲与首稿，不执行Reader、Revision、QA、Memory、Publish Gate或番茄发布。
