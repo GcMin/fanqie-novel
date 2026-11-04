@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 528
+last_updated_chapter: 529
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2481,4 +2481,12 @@ chapter_528_arc054_verified:
   tang_li_and_gu_jie: "唐莉坚持门外不能算到岗，顾姐始终守老人直到真实交班；顾姐拿保温杯招呼唐莉并提醒保存四次误记，互助但不解决工时争议。"
   tang_li_property_family: "物业在唐莉要求下记录真人仍在门外，改用东侧合规核验；家属原渠道确认并核实23:12真交接。"
   center_team: "夏宁、梁策、周衡遵循各自岗位权限，信任分值不因本章无依据改变。"
+  trust_scores_unchanged: true
+
+chapter_529_arc054_verified:
+  chapter: 529
+  source_sha: "555f8c79219ea32b057278385c11e21c3c3ae771"
+  ma_yun_and_colleague: "同事想将核址岗位接单和数据迁移完成写办结，马芸只接受本次合法原始工作页确证的实际参照核对及暂缓自动覆盖，不越证补最终结论。"
+  shen_yiqing_and_listeners: "沈宜青带母亲家书从活动室封门到东侧书屋亲自朗读得到真实听众，年轻报名者自行选择另日改期，社区人员提供真实凭据。"
+  center_team: "夏宁、周衡仅有责核当晚十二人真实参与和旧室持续封闭，梁策只核外围可通行线路不代文化主管签许可，互信值无据不改。"
   trust_scores_unchanged: true

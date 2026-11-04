@@ -1,3 +1,8 @@
+## 第529章ARC-054独立Reader与内容QA PASS，结构候选CI待核｜2026-11-05
+- 原draft `555f8c79219ea32b057278385c11e21c3c3ae771` 独立Pass A→Pass B为0/0/2、keep/none、正文未修订；直接前528正式ready blob `e02ff42e941bae93274bd4347eba55084cb73de4` 精确依赖，3733有效字符，Continuity/Style/Meaningful内容QA PASS。
+- Day392马芸新限项双岗证2019原核址岗当年真调两类规范地址参照，候选对应不唯一，阶段暂缓自动覆盖原报地址；不证原报地址错误、核址最终结案、旧信末端和历史真人获答。白杨活动室公众号假开放而实体仍封，东侧书屋当晚获有责许可12人听沈宜青真实朗读家书，其余报名者自愿改期。F003有限推进，F008/M004/M005及2016封内/2022原字节同一无新独立证。
+- 只有精确候选Git commit真实结构CI SUCCESS后，才可使用expected_sha、force:false快进main和正式放行。见Reader Review与qa/0529_report.md。
+
 ## 第528章正式ready并经精确候选和main结构CI双重实测SUCCESS｜2026-11-05
 - Reader草稿源 `e5dc2ca331ee0cac8f99ad526d8c2dbac4e8b41d`，0/0/2、keep/none、正文0字改，独立Continuity/Style/Meaningful QA PASS。
 - 放行提交 `31fce11c53235b6198bf586025c752a9ad563bba` 与Tree `2aedbb3ca077db5768a71e54e89e3f176fa76587`，候选分支Actions `41913671912` 和main Actions `41913751539` 均已对完全相同head SHA completed/SUCCESS，结构单元测试与实际`python -m publisher.check_local --repo .`分别通过。先候选检验后以expected_sha、force:false安全快进main。

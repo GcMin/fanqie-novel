@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 529
+title: "旧地址没有被改掉，灯亮在另一间屋"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "555f8c79219ea32b057278385c11e21c3c3ae771"
+reader_review: "reader_reviews/0529_555f8c79.md"
+depends_on_chapter: 528
+depends_on_source_sha: "e02ff42e941bae93274bd4347eba55084cb73de4"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day392 09:21—Day393 07:06"
+summary: >-
+  Day392马芸09:21另行申请2019指定第73页关联重拟稿核址岗实际办理动作，10:03收件13:57获新限项，双岗排迁移完成字样、异月同尾号、缺单件关联整班汇总后在14:58原始工作页有据核到同任务实际调取两类规范地址参照、候选对应不唯一和阶段暂缓规范字段自动覆盖原报地址待补据再核；15:46合法去身份摘录到手，但不证原报地址错误、补据完成、核址终局、旧信重派/末端或历史人实获答。白杨社区读书会公众号19:30假显示活动室开放而实体因屋顶漏水与电路待专业复检禁入，20:09现场13人含两陪同。书屋有责主管核当晚容量十二、散读者自愿退出、无障碍及45分钟安静朗读许可；21:23核实安全后21:38十二名实际参加者入小厅、沈宜青读母亲家书22:26结束、23:07本人合法回访，其余人真实改期，原活动室持续封闭；Day393 07:06中心交班。F003有限推进，F008/M004/M005、2016旧封内与2022跨源同一无独立新证。
+meaningful_state_changes:
+  - "2019旧核址岗从有据实领推进到真实两类规范地址参照核对并在该阶段暂缓自动覆盖原报地址，结果和历史真人获答未知。"
+  - "社区活动室假开放而真禁入，东侧书屋合法获批12人当晚实到朗读完成，原活动室仍封闭，未到者改期。"
+knowledge_updates:
+  - "马芸/夜班只知合法去身份阶段核对动作和暂缓字段标记，不知具体地址、真实个人、最终核址与旧信历史收答。"
+  - "沈宜青只知书屋真举办家书朗读，不知原活动室何时有权专业复开。"
+relationship_updates:
+  - "马芸抵住同事把迁移系统写入/岗位实领当办结；听众尊重沈宜青慢读，其他报名者自愿改期。"
+foreshadowing_updates:
+  - "F003新增当年核址岗真实核验与暂缓覆盖原报字段，F008/M004/M005和2016/2022跨源同一未知。"
+ending_state: "Day393 07:06旧核址真核验而末端未知，书屋真实朗读完成且原活动室仍未复开。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "555f8c79219ea32b057278385c11e21c3c3ae771", final_draft_sha: "555f8c79219ea32b057278385c11e21c3c3ae771", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3733
