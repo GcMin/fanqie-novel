@@ -9,3 +9,8 @@
 - **Meaningful Change PASS**：2019同件真实由异常退回的待处理批次分流至首站单件待核岗（独立实际接入证据）；少年中心找回第二张未收旧表、当代父女在有效授权下真实交接并留下查询渠道及尚未完成的隐私调查。
 - **长期记忆同步**：仅据520当前正文维护摘要、人物状态、知识/关系/世界、时间线、F003、ARC及plan；保留所有既有ready计划行和Canon/published。
 - **结构门禁**：内容QA PASS不是结构成功。必须等待含本章ready与Memory、计划的**精确候选 Git commit**运行GitHub Actions单测和`python -m publisher.check_local --repo .`确实SUCCESS，方可以expected_sha/force:false推进main；未验证前不得放行。
+
+## 第520章正式ready的精确 GitHub CI 放行实证｜2026-11-04
+- 放行候选Git commit `e7ee4e772b51986317a048e5b347c9ebf0786f28`，Git Tree `d8b31fde0a4b5627e733482311b605eb8fd28c56`，父main `5dbc503c2a55e229e7f5a97a434716343c778d29`；审计分支 `audit/ready-0520-20261104-2202` 的Actions run **41844621315** 已completed/**SUCCESS**，其结构单元测试与`python -m publisher.check_local --repo .`步骤均真实SUCCESS。
+- 精确候选通过后，用`expected_sha=5dbc503c2a55e229e7f5a97a434716343c778d29`、`force:false`成功原子推进main至相同commit `e7ee4e772b51986317a048e5b347c9ebf0786f28`。main run **41844732572** 同SHA completed/**SUCCESS**，单测和本地快照检查步骤均完成SUCCESS。
+- 正式ready Blob `175b4df2cb093790e70d7ed33d67defad2f55b8d`；原`chapters/draft/0520.md`随同一Git Tree删除；正文零字变动，只有交付Front Matter状态更新。历史“候选CI待验”由本条真实精确证据覆盖，不是跳过Reader/独立QA。

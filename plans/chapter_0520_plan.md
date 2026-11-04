@@ -15,7 +15,7 @@
 - pov: 第三人称有限视角（马芸、方老师、周衡）
 - target_effective_chars: 3000
 - actual_effective_chars: 3281
-- status: qa_pass_ready_candidate_pending_exact_ci
+- status: ready_committed_after_exact_ci_success
 
 ## 章节目标
 从第519章2019指定业务首站16:32预扫作废、16:47封签异常退回之后出发，依法核查同件退回后的首次独立内部去向，区分批次重封与单件交接。北河路少年活动中心处理全班名单外摆后新发现的遗漏副本，让家长知悉可查询自身孩子资料并真正接领孩子，不假称传播范围已核清。
@@ -51,3 +51,7 @@ Day383 09:14马芸在档案窗口以旧摘录提交新范围申请；方老师�
 - 源草稿 Git Blob：`7a7c5f11530358c24aa9ab4c971f8059a07cb9dd`；Reader Pass A/B：`reader_reviews/0520_7a7c5f11.md`，0 BLOCKER / 0 MAJOR / 2 MINOR，keep / none；原正文零修改。
 - 独立 Continuity/Style/Meaningful QA：`qa/0520_report.md`，内容PASS；前519 ready SHA精确匹配。有效字符3281。
 - 结构门禁：候选精确 Git Commit 尚待Actions单测及`python -m publisher.check_local --repo .`真实SUCCESS，未核验前不把草稿视作已正式放行。
+
+## 正式ready交付实证
+- 候选与main同一commit `e7ee4e772b51986317a048e5b347c9ebf0786f28`，Git Tree `d8b31fde0a4b5627e733482311b605eb8fd28c56`；审计分支CI run 41844621315及main CI run 41844732572均completed/SUCCESS，独立结构单测与`python -m publisher.check_local --repo .`均PASS。
+- `chapters/ready/0520.md`正式Git Blob `175b4df2cb093790e70d7ed33d67defad2f55b8d`；原draft已同树删除，main expected_sha/force:false成功。不发布番茄。

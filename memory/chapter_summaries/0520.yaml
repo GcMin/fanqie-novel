@@ -28,5 +28,16 @@ foreshadowing_updates:
 ending_state: "Day384 07:12纸件首次分流到单件待核岗获双载体实证，后续出柜未知；北河路人工授权接领当次成功、遗漏表已封存但外露范围和正式系统更新未结。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "7a7c5f11530358c24aa9ab4c971f8059a07cb9dd", final_draft_sha: "7a7c5f11530358c24aa9ab4c971f8059a07cb9dd", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3281
+release_evidence:
+  ready_blob: "175b4df2cb093790e70d7ed33d67defad2f55b8d"
+  candidate_commit: "e7ee4e772b51986317a048e5b347c9ebf0786f28"
+  validated_tree: "d8b31fde0a4b5627e733482311b605eb8fd28c56"
+  candidate_ci: 41844621315
+  candidate_ci_conclusion: success
+  main_ci: 41844732572
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
