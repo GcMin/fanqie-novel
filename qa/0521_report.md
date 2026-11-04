@@ -9,3 +9,8 @@
 - **Meaningful Change PASS**：F003同件从单件待核岗获新证真实出柜并入复核台，且“件数对应待核/当时暂缓外转”明确新证据类别；姜素兰从错站无路可找推进到本人真实登车，原箭头误导有责保源与现场补救。
 - **Memory/Plan PASS（内容）**：仅据本章更新summary、character/knowledge/relationship/world/arc/timeline及F003、计划521完成行，保留以前所有ready计划，F008/M004/M005等仍未证。Canon和published均未改。
 - **结构门禁**：上述内容通过不等于结构CI成功，须精确候选Git commit真实运行结构单测与`python -m publisher.check_local --repo .`成功后，方能以expected_sha/force:false正式推进main并原子删除draft迁ready。
+
+## 第521章正式ready精确 GitHub 结构校验与main放行证据｜2026-11-04
+- 精确候选Commit `73bbdb930ac5a2483d0ffc1982bd823800c8ea32`，Git Tree `2eb1ac08b1efa37dbf450ba47b98be71299e8302`，父main `a603c563a686c10cb6c8587e7a2b5c76204824b0`；分支 `audit/ready-0521-20261104` 的Actions run **41845811045** completed/**SUCCESS**，真实检查了结构单元测试和`python -m publisher.check_local --repo .`，两者均SUCCESS。
+- 候选通过后以`expected_sha=a603c563a686c10cb6c8587e7a2b5c76204824b0`、`force:false`成功更新main到同一`73bbdb930ac5a2483d0ffc1982bd823800c8ea32`。该sha的main Actions run **41845876399** completed/**SUCCESS**，单测及`publisher.check_local`均SUCCESS。
+- 第521章正式ready Blob `73fc160f938c61c6d04ca54f492edb96cb6a0b44`，原`chapters/draft/0521.md`同树删除；小说正文未修改，只有交付Front Matter。先前“结构候选待校验”是历史门禁状态，已由上述实证覆盖，不代替独立Reader及内容QA。

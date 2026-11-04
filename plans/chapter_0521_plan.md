@@ -15,7 +15,7 @@
 - pov: 第三人称有限（马芸、姜素兰、周衡）
 - target_effective_chars: 3000
 - actual_effective_chars: 3297
-- status: qa_pass_ready_candidate_pending_exact_ci
+- status: ready_committed_after_exact_ci_success
 
 ## 本章目标与开场
 承接520草稿Day384 07:12已证2019原第73页指定业务关联重拟稿首站破封后实际单件分流并由待核岗位接入。马芸于Day384上午以新许可追查目标件第一次出柜交接，不把暂时来源升级为Canon。同期桃溪桥南社区接驳末班车临时停靠点的告示被围挡遮住，乘客姜素兰独自候错站。
@@ -50,3 +50,7 @@
 - 草稿来源Git Blob `2b2a328a7b27afa75036ac82ba4b4a98491f1704`，SHA绑定Reader Pass A/B `reader_reviews/0521_2b2a328a.md`：0 BLOCKER / 0 MAJOR / 2 MINOR；keep/none；正文0字修订。
 - 独立Continuity/Style/Meaningful QA PASS，详见`qa/0521_report.md`；前520正式ready SHA `175b4df2cb093790e70d7ed33d67defad2f55b8d`精确依赖；3297有效字符。
 - `ready`仅在精确候选Commit结构单测与`python -m publisher.check_local --repo .`均SUCCESS且main用expected_sha/force:false成功后正式生效，不用内容QA冒充结构门禁。
+
+## 第521章正式ready验证
+- 实际候选+main同SHA Commit `73bbdb930ac5a2483d0ffc1982bd823800c8ea32`，Git Tree `2eb1ac08b1efa37dbf450ba47b98be71299e8302`；audit Actions 41845811045和main Actions 41845876399均completed/SUCCESS，结构单测、`python -m publisher.check_local --repo .`成功。
+- ready Blob `73fc160f938c61c6d04ca54f492edb96cb6a0b44`；原draft同树删除，expected_sha+force:false成功。只放行，不发布番茄，不改定时任务。

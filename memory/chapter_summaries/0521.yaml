@@ -28,5 +28,16 @@ foreshadowing_updates:
 ending_state: "Day385 07:10旧信只证首站内部复核台有责接手并在当时因件数对应问题暂缓外转，后续未知；姜素兰当晚实坐上末班车，但错误站点指引的持续改造待核。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "2b2a328a7b27afa75036ac82ba4b4a98491f1704", final_draft_sha: "2b2a328a7b27afa75036ac82ba4b4a98491f1704", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3297
+release_evidence:
+  ready_blob: "73fc160f938c61c6d04ca54f492edb96cb6a0b44"
+  candidate_commit: "73bbdb930ac5a2483d0ffc1982bd823800c8ea32"
+  validated_tree: "2eb1ac08b1efa37dbf450ba47b98be71299e8302"
+  candidate_ci: 41845811045
+  candidate_ci_conclusion: success
+  main_ci: 41845876399
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
