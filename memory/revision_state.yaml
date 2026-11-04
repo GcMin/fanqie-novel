@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 528
-current_stage: content_qa_pass_structural_candidate_pending
+current_stage: ready_committed_after_exact_ci_success
 current_source_path: chapters/draft/0528.md
 current_source_sha: e5dc2ca331ee0cac8f99ad526d8c2dbac4e8b41d
 current_review_path: reader_reviews/0528_e5dc2ca3.md
@@ -4879,4 +4879,16 @@ chapter_528_arc054_revision:
   stage_c_used: 0
   body_revisions: 0
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
+release_528_exact_ci_evidence:
+  chapter: 528
+  source_sha: "e5dc2ca331ee0cac8f99ad526d8c2dbac4e8b41d"
+  ready_blob: "e02ff42e941bae93274bd4347eba55084cb73de4"
+  candidate_commit: "31fce11c53235b6198bf586025c752a9ad563bba"
+  validated_tree: "2aedbb3ca077db5768a71e54e89e3f176fa76587"
+  candidate_ci: 41913671912
+  main_ci: 41913751539
+  conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success

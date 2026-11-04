@@ -5506,4 +5506,16 @@ chapter_528_arc054_reader_gate:
   independent_pass_a_then_b: true
   predecessor_ready_blob: "32798251259048f8c4b6c9eb2c9aae09d9bb962e"
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
+release_528_exact_ci_evidence:
+  chapter: 528
+  source_sha: "e5dc2ca331ee0cac8f99ad526d8c2dbac4e8b41d"
+  ready_blob: "e02ff42e941bae93274bd4347eba55084cb73de4"
+  candidate_commit: "31fce11c53235b6198bf586025c752a9ad563bba"
+  validated_tree: "2aedbb3ca077db5768a71e54e89e3f176fa76587"
+  candidate_ci: 41913671912
+  main_ci: 41913751539
+  conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success

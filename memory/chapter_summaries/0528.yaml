@@ -27,8 +27,17 @@ foreshadowing_updates:
 ending_state: "Day392 07:08历史补核岗位实领有证但处理结果仍空；唐莉已经真实入园并换班，二号门设备、四次错误记录和工资工时待有责核。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "e5dc2ca331ee0cac8f99ad526d8c2dbac4e8b41d", final_draft_sha: "e5dc2ca331ee0cac8f99ad526d8c2dbac4e8b41d", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3450
 release_evidence:
   ready_blob: "e02ff42e941bae93274bd4347eba55084cb73de4"
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
+  candidate_commit: "31fce11c53235b6198bf586025c752a9ad563bba"
+  validated_tree: "2aedbb3ca077db5768a71e54e89e3f176fa76587"
+  candidate_ci: 41913671912
+  candidate_ci_conclusion: success
+  main_ci: 41913751539
+  main_ci_conclusion: success
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  main_ref_update: expected_sha_force_false_success
