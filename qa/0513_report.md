@@ -11,3 +11,6 @@
 ## 正式精确结构校验及main放行已完成
 - Git Commit `5cb5ed1bc1e5f8c030e3d971032cc9aa5a23da47`，Tree `7c8a0f9bafd0b99c683f82195cc30f9ff03ae304`，candidate Actions `41784735180` completed/SUCCESS，main Actions `41784786060` completed/SUCCESS；两次运行的head_sha都等于本Commit，单元测试及 `publisher.check_local` 各自PASS。
 - 已先经候选CI成功后才以旧main HEAD的expected_sha、force:false正式推进，原草稿删除，正式ready Blob `d0a9ee3ad802516db83905b5afae97c1fe720844`。本节的已验证事实覆盖本报告上方曾处于候选阶段的警告，不表示跳过结构门禁。
+
+## Reader 来源路径规范修正
+- 本轮最终审计发现Reader Review Front Matter中的 `source_path` 遗漏四位补零（`chapters/draft/512.md` / `513.md`）。现将第512、513章初审及最终新SHA两份Review共四处路径更正为 `chapters/draft/0512.md` / `0513.md`；source_sha、Reader判定、正文、ready Blob、Memory故事事实均不变。此提交再次触发精确GitHub结构CI，不以路径错字当作新的小说修订。
