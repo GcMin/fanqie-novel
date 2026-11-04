@@ -9,3 +9,6 @@
 - Canon PASS：2016回告封内、2022实际读取字节同一、旧事真实历史受答仍未知，F008/M004/M005无新独立确证；702不可复住、旧坡道仍封、罗月本户有水不代表全部恢复。
 - 章节及前章新旧SHA差异已真正比较，不因历史137→138等旧SHA机械阻断也不无依据忽略事实变化。更新Memory/计划必须与当前正文同步。
 - **内容QA PASS不等于结构检查PASS；只有精确候选Commit的结构单测和`python -m publisher.check_local --repo .`实际通过才可原子更新main ready。**
+
+## 原子候选结构校验触发
+候选分支已同时创建 `chapters/ready/0510.md` 与 `chapters/ready/0511.md`，并删除 `chapters/draft/0510.md` 与 `chapters/draft/0511.md`；Reader、QA、Memory、计划均存在于此分支。此提交专门触发 workflow 在**最终、无双份草稿**的精确 Git Commit 上重新执行离线结构测试及 `publisher.check_local`。在取得相同 Commit SHA 的实际 SUCCESS 前，不更新 main。
