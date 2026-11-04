@@ -11,3 +11,7 @@
 - Meaningful PASS：原机责任从“待复核”到专业收回，陶佩云得到真实但有限的新借机；旧案“暂缓后复核索引”最小查询从计划到正式收件（仍无检索结果），至少两项有意义状态变化。
 - Memory及计划：应在同一候选提交同步本章摘要、人物知识、关系、世界、时间线、F003、current_arc和chapter_plan；既有ready计划行不能改写。
 - 结构门禁：**待候选审计分支精确Git Commit的GitHub Actions同时通过结构单测和`python -m publisher.check_local --repo .`后才能快进main**；此条不是已通过声明。若CI失败，候选不得进入main，保留draft及可恢复证据。
+## 第509章精确候选GitHub结构CI及正式main放行实证｜2026-11-04
+- 本章候选Commit `df93d1e1a6ff678d011364c28f2543c205d5201e`，Tree `4f36fb9fea28ea85a483108f3e993dd5a3eed388`，审计分支 `audit/ready-0509-20261104-1005` Actions `41759306017` 的 head_sha 精确匹配，completed/**SUCCESS**。工作流的结构单元测试与 `python -m publisher.check_local --repo .` 两项实际步骤均 success。
+- 只在上述候选 CI 成功后，按 expected_sha=`9e7d623add0f03e6880fd9ca1ac5037e645d25e3`、force:false，将 main 真实更新到放行 Commit。该精准版本 main Actions `41759350171` 亦 completed/**SUCCESS**。
+- 第509章ready Git Blob `f2a96d07956158081e5ea8c79d92fbf6cbb6d55b`；旧 `chapters/draft/0509.md` 同树删除；正文未修改，Reader源原始SHA保持不变。Reader、独立QA、长期Memory及章节计划已随放行提交，旧QA段落中“仍待结构门禁”的候选阶段状态由本节真实验证结果覆盖。无Canon、published、定时任务及番茄发布更动。

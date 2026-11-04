@@ -30,3 +30,15 @@ reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "0b514c71c786aad28435c436a5710b81a3afd1dc", final_draft_sha: "0b514c71c786aad28435c436a5710b81a3afd1dc", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "21f9ce3c16844d9f04fcd5fcd9185d126efe9d2e", dependency_status: verified_exact_ready_blob}
 qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
 char_count: 3294
+
+release_evidence:
+  ready_blob: "f2a96d07956158081e5ea8c79d92fbf6cbb6d55b"
+  candidate_commit: "df93d1e1a6ff678d011364c28f2543c205d5201e"
+  validated_tree: "4f36fb9fea28ea85a483108f3e993dd5a3eed388"
+  candidate_ci: 41759306017
+  candidate_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ci: 41759350171
+  main_ci_conclusion: success
+  main_ref_update: expected_sha_force_false_success

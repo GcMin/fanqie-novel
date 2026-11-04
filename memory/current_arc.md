@@ -1,3 +1,7 @@
+# 第509章正式ready及精确GitHub CI实证｜2026-11-04
+- 原draft `0b514c71c786aad28435c436a5710b81a3afd1dc` Reader双遍0/0/2、独立Continuity/Style/Meaningful QA PASS、正文零字修改。精确候选 Commit `df93d1e1a6ff678d011364c28f2543c205d5201e`，Tree `4f36fb9fea28ea85a483108f3e993dd5a3eed388` Actions `41759306017` completed/SUCCESS，单元测试和`python -m publisher.check_local --repo .`两步骤均通过。CI通过后以expected_sha=`9e7d623add0f03e6880fd9ca1ac5037e645d25e3`、force:false真实更新main，该提交的main CI `41759350171` SUCCESS。ready Blob `f2a96d07956158081e5ea8c79d92fbf6cbb6d55b`，原draft已同树移除；不改Canon/published/定时任务，不发布平台。
+- 注意下文《第509章Reader/QA通过，结构CI仍待候选》仅记放行前阶段状态；当前上述精确CI已完成并正式放行。
+
 # 第509章独立Reader/QA通过，结构CI仍待精确候选核验｜2026-11-04
 - `chapters/draft/0509.md` 原始真实Git Blob `0b514c71c786aad28435c436a5710b81a3afd1dc`，本轮独立Reader Pass A（正文、前3章、最近10章摘要、文风）→Pass B（Canon、人物知识/世界/时间线/伏笔及依赖）为BLOCKER=0、MAJOR=0、MINOR=2；`reader_reviews/0509_0b514c71.md` 与SHA绑定。MINOR仅转场时序轻微回读和证据边界提示略密，不执行Revision，正文修改0字。
 - 独立Continuity/Style/Meaningful QA PASS：508正式ready Blob `21f9ce3c16844d9f04fcd5fcd9185d126efe9d2e` 与509草稿及详纲精确匹配，严格接508 Day372 14:20专业复核预约和2019指定笔当次暂缓。Day372 14:32陶佩云专业核原左耳助听器，旧耳模贴合需处理且尖鸣原因未单一认定；16:06旧模板“维修完成”不适用经有责纠正，原机真收回留修，另编号临时借机专业核准试戴本人真签领至Day375 17:00，居家短时未复现不等于长期修好。马芸11:37只提交暂缓后识别码复核索引最小非身份新申请且真收件，仍无准阅/检索/历史后续再交或本人获答；夜班仅按授权20:42、21:09收到有限回告，Day373 07:01交班。
