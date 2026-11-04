@@ -27,5 +27,19 @@ foreshadowing_updates:
 ending_state: "Day393 07:06旧核址真核验而末端未知，书屋真实朗读完成且原活动室仍未复开。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "555f8c79219ea32b057278385c11e21c3c3ae771", final_draft_sha: "555f8c79219ea32b057278385c11e21c3c3ae771", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3733
+
+release_evidence:
+  ready_blob: "6f51154625c57fa38578c8e3ef7b4e98a05102d9"
+  structural_gate: exact_candidate_and_main_ci_success
+  candidate_commit: "3596600bc21e9ddd9c9053737dd4d70b41971683"
+  validated_tree: "a58faa862ebfefbc30ebdf2f466609e7ebbbdc7b"
+  candidate_ci: 41932489587
+  candidate_ci_conclusion: success
+  main_ci: 41932563449
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  evidence_file: qa/0529_0530_release_evidence_20261105.md

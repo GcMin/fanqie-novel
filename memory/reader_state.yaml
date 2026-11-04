@@ -5531,7 +5531,7 @@ chapter_529_arc054_reader_gate:
   predecessor_ready_blob: "e02ff42e941bae93274bd4347eba55084cb73de4"
   predecessor_factual_delta: exact_ready_blob_no_delta
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
 
 chapter_530_arc054_reader_gate:
   chapter: 530
@@ -5550,4 +5550,20 @@ chapter_530_arc054_reader_gate:
   required_action: none
   independent_pass_a_then_b: true
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
+
+release_529_530_exact_ci_evidence:
+  chapters: [529, 530]
+  chapter_529_candidate_commit: "3596600bc21e9ddd9c9053737dd4d70b41971683"
+  chapter_529_ready_blob: "6f51154625c57fa38578c8e3ef7b4e98a05102d9"
+  chapter_529_candidate_ci: 41932489587
+  chapter_529_main_ci: 41932563449
+  chapter_530_candidate_commit: "f315bd2c5651cd3372280ce92ece249ec394dff3"
+  chapter_530_ready_blob: "5e5b69e993a9914343f0af7c8ea271c242ed5ebe"
+  chapter_530_candidate_ci: 41933149160
+  chapter_530_main_ci: 41933210216
+  conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_update: expected_sha_force_false_success
+  evidence_file: qa/0529_0530_release_evidence_20261105.md

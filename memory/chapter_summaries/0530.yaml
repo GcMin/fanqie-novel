@@ -29,5 +29,19 @@ foreshadowing_updates:
 ending_state: "Day394 07:07林秀枝本人收到封箱但未试听，物流误规范规则待查；2019补据清单仅证有责收发岗真接，历史答复仍未知。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "0db773825c58d44604b262139eed33886999d0ad", final_draft_sha: "81877fb04bfe4ebcd3eb890c14d3ccfe90e66934", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, fix: "rebind_529_draft_sha_to_exact_ready_after_title_body_compare"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3459
+
+release_evidence:
+  ready_blob: "5e5b69e993a9914343f0af7c8ea271c242ed5ebe"
+  structural_gate: exact_candidate_and_main_ci_success
+  candidate_commit: "f315bd2c5651cd3372280ce92ece249ec394dff3"
+  validated_tree: "bf87a95ad82e5b58dbdd5a98f505ec7157ff3cfb"
+  candidate_ci: 41933149160
+  candidate_ci_conclusion: success
+  main_ci: 41933210216
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  evidence_file: qa/0529_0530_release_evidence_20261105.md

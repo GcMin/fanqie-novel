@@ -1,3 +1,8 @@
+## 第529—530章精确候选与main结构CI全部SUCCESS并顺序正式ready｜2026-11-05
+- 第529章放行Commit `3596600bc21e9ddd9c9053737dd4d70b41971683`，对应候选Actions `41932489587` 和main Actions `41932563449` 全部completed/SUCCESS，结构单元测试与`publisher.check_local`真实通过；第529章ready Blob `6f51154625c57fa38578c8e3ef7b4e98a05102d9`，draft已删。
+- 第530章初审0/1/2、Stage A只更改529依赖元数据，529原draft和ready标题/正文相同，530修改后新Blob `81877fb04bfe4ebcd3eb890c14d3ccfe90e66934` 独立双遍复审0/0/2，正文0字改，独立内容QA PASS。放行Commit `f315bd2c5651cd3372280ce92ece249ec394dff3`，候选Actions `41933149160` 与main Actions `41933210216` 全completed/SUCCESS，结构单测及`publisher.check_local`真实通过；正式ready Blob `5e5b69e993a9914343f0af7c8ea271c242ed5ebe`，draft已删。
+- 两次均**候选结构CI先成功**再用对应expected_sha/force:false正式快进main，既有ready计划未覆盖；当代物流错映不能提升F008/M004/M005为异常机制确证。完整审计证据`qa/0529_0530_release_evidence_20261105.md`；不改Canon/published、不发布番茄、不触及定时任务。
+
 ## 第530章ARC-054 Stage A元数据修订与新SHA Reader/内容QA PASS，结构候选CI待核｜2026-11-05
 - 旧530 draft `0db773825c58d44604b262139eed33886999d0ad` 初审0/1/2，唯一MAJOR为依赖529旧临时draft SHA。已真实比529旧草稿与正式ready `6f51154625c57fa38578c8e3ef7b4e98a05102d9` 小说正文、标题完全一致，只有交付Front Matter区别。Stage A一次只重绑530草稿与详细章纲至529正式ready，小说正文0字变化，新草稿Git blob `81877fb04bfe4ebcd3eb890c14d3ccfe90e66934` 独立新Reader Pass A/B 0/0/2 keep/none，QA Continuity/Style/Meaningful PASS，3459有效字符。
 - Day393新合法限项证2019原第73页核址任务补据清单真形成、核址岗真交出与原形成单位收发岗有独立接入凭据，不证经办人取走、旧件末端或历史人得答。当代两座真实不同的槐石里8号、槐石路8号遭物流系统自动规范误合，错代收柜内旧录音机有责撤回后22:19由林秀枝本人亲收，未拆封试听、物流系统整体修复待查。F003有限推进，F008/M004/M005及2016/2022同一无新独立确证。
