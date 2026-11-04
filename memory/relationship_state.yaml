@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 521
+last_updated_chapter: 525
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2442,3 +2442,20 @@ chapter_523_arc054_verified:
   lin_jie_and_center: "林婕困梯期间担心工时及没人救，夏宁连续有责核救援并确认本人回拨；林婕获得求助记录但劳动补偿不由中心承诺。"
   center_team: "梁策阻止用平台字样替现场到岗，周衡按人离厢/设备停用分栏，夏宁以实际来源核人身脱困；未凭单章无据改主角互信量化值。"
   trust_scores_unchanged: true
+
+chapter_524_arc054_verified:
+  chapter: 524
+  source_sha: "cf1802f7cfb95794ab6e2c07774627d6c253f6c0"
+  ma_yun_and_colleague: "同事想从新封好直接写再次重寄，马芸仅同意据合法单件封口双岗见证说明；尊重授权范围。"
+  xu_lei_and_gym: "许蕾先不信系统已取件绿字，主管与授权维保当场核实卡住的背包带并让本人当面核实完整领取，后续设备仍停用。"
+  center_team: "夏宁分开设备假完成和真人实领及返家回话，梁策周衡只基于有限来源记录，核心角色互信指标不凭一次普通工单改动。"
+  trust_scores_unchanged: true
+
+chapter_525_arc054_verified:
+  chapter: 525
+  source_sha: "9ba99b05c8238472c04ee7de720df727e41678be"
+  ma_yun_and_colleague: "同事起初把封袋出站写到收件人，马芸要求只据本次两侧实际交接分别写首次外交和承运实接，不提前补下站和历史人。"
+  liao_sumei_and_street: "廖素梅拒绝让物业把门岗完成等同实际饮水，街道有责人员在核身份、湿滑通行和协助范围后帮她将两桶水送五楼，父亲真正饮用而管网仍待抢修。"
+  center_team: "夏宁不替全楼签收，梁策优先三楼居民安全，周衡分栏对照史档与当代，互信值不凭单章无据调整。"
+  trust_scores_unchanged: true
+

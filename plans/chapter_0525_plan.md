@@ -7,15 +7,15 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "793b6c82cd23d7643c4fdef122d627f15ae0ee51"
 - depends_on_chapter: 524
-- depends_on_source_sha: "cf1802f7cfb95794ab6e2c07774627d6c253f6c0"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0524.md
+- depends_on_source_sha: "b228be104e4cce0ee3edcaeaef69aaf87078cfdf"
+- dependency_status: verified_ready_same_body_and_title
+- predecessor_location: chapters/ready/0524.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day388 09:02—Day389 07:10
 - pov: 第三人称有限（马芸、夏宁、周衡，现场廖素梅）
 - target_effective_chars: 3000
 - actual_effective_chars: 3789
-- status: draft_pending_independent_audit
+- status: audit_content_pass_structural_candidate_pending
 
 ## 本章目标与开场
 
@@ -35,7 +35,7 @@
 - F003：从前章暂据的单件封口见证推进到旧件**首站实物对外交出及承运岗位独立接入有双载体证据**；不虚构车次、目的端、下一站收文、历史本人收答。2016封内回告、2022实际读到的文件字节与2019材料跨源同一性仍未证，F008/M004/M005无新独立确证，F009/F010/F011维持已解决。
 - 新河里：廖素梅的两桶应急饮水九点二十九分实际到五楼户门且本人确认、父亲已饮用；全楼供水尚未恢复、楼内其他需求及六楼待核，无全楼已保障结论。
 - 不让周衡、夏宁直接看到史档封内正文、个人身份和目的端；中心既不替街道签人手已送，也不替专业管网部门核恢复。
-- 前章524仍为 `draft`，依赖 `depends_on_source_sha=cf1802f7cfb95794ab6e2c07774627d6c253f6c0`，`dependency_status=provisional`；Audit如修订524必须核其新版本与本章关键依赖兼容。第153章在published；本轮不修改Canon、Memory、既有正文或发布状态。
+- 前章524原始草稿SHA为cf1802f7cfb95794ab6e2c07774627d6c253f6c0，审核后ready SHA为b228be104e4cce0ee3edcaeaef69aaf87078cfdf；标题与正文逐字一致，仅交付元数据变更，依赖已按事实比较后重绑并重新双遍Reader。第153章在published；本轮不修改Canon、Memory、既有正文或发布状态。
 
 ## Writer Continuity Precheck
 
@@ -48,3 +48,7 @@
 
 - 新建 `plans/chapter_0525_plan.md` 与 `chapters/draft/0525.md`。
 - 小说正文有效字符 3789（包括标点、不含Front Matter/空白和独立分隔符），待独立Audit。
+
+## Audit 2026-11-05
+- 525初审f24d096a为0/1/2，Stage A仅修正524正式ready依赖并比对前章标题正文完全一致；新source SHA 9ba99b05c8238472c04ee7de720df727e41678be 重新独立Pass A/B 0/0/2，正文未修改。
+- Continuity/Style/Meaningful QA PASS，有效字符3789，ready候选blob 3d67442df304a147b708d0d184dd6de4e34ee697；结构门禁候选待查。

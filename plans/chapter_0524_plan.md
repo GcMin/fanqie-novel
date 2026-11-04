@@ -15,7 +15,7 @@
 - pov: 第三人称有限（马芸、夏宁、周衡）
 - target_effective_chars: 3000
 - actual_effective_chars: 3563
-- status: draft_pending_independent_audit
+- status: audit_content_pass_structural_candidate_pending
 
 ## 目标、开场与人物诉求
 承接523已证2019年原第73页指定关联重拟稿从首站复核台实交接至重封待发准备岗。本章马芸依法只核该单件有无实际装入特定小封袋并完成封装；不读取旧信正文、身份和寄递终点。用档案窗口空盒点数起笔，避免“封好便已寄到”的先验断言。夜间许蕾在沿湖体育馆自助寄存B-17遭遇远程测试被误映“已取件”，背包及家门钥匙实仍在柜内。她要在孩子睡前真正取回个人物品，场馆则需在合法授权、现场安全与物品隐私范围内开柜交接。
@@ -42,3 +42,7 @@
 
 ## 本次交付
 - 仅新建 plans/chapter_0524_plan.md 与 chapters/draft/0524.md；正文 3563 有效字符（含标点，不含Front Matter、空白与场景分隔符），待独立Audit。
+
+## Audit 2026-11-05
+- Reader: cf1802f7 原SHA双遍0/0/2；Continuity/Style/Meaningful QA PASS；结构门禁候选待查。正文未变。
+- ready 候选blob: b228be104e4cce0ee3edcaeaef69aaf87078cfdf；必须通过精确CI后才能更新main。

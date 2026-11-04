@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 523
-last_reviewed_title: "纸件换了保管人，轿厢里的人还没出来"
-last_source_path: chapters/draft/0523.md
-last_source_sha: 90d52a3a19487e581fb5ac8d3fbdd3b7c03713b1
-last_review_path: reader_reviews/0523_90d52a3a.md
+last_reviewed_chapter: 525
+last_reviewed_title: "封好的旧信出了首站，楼上的水还没送到"
+last_source_path: chapters/draft/0525.md
+last_source_sha: 9ba99b05c8238472c04ee7de720df727e41678be
+last_review_path: reader_reviews/0525_9ba99b05.md
 last_reviewed_at: "2026-11-05"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -5412,3 +5412,32 @@ release_523_exact_ci_evidence:
   publisher_check_local: pass
   ready_blob: "302512e15e077f45297d7348d1d06fd5758b6cb4"
   main_update: expected_sha_force_false_success
+chapter_524_arc054_reader_gate:
+  chapter: 524
+  source_sha: "cf1802f7cfb95794ab6e2c07774627d6c253f6c0"
+  review: "reader_reviews/0524_cf1802f7.md"
+  counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  predecessor_ready_blob: "302512e15e077f45297d7348d1d06fd5758b6cb4"
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci
+chapter_525_arc054_reader_gate:
+  chapter: 525
+  original_sha: "f24d096a15046a850a8332ca14850567793ed72d"
+  original_review: "reader_reviews/0525_f24d096a.md"
+  initial_counts: "0/1/2"
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_original_draft_sha: "cf1802f7cfb95794ab6e2c07774627d6c253f6c0"
+  predecessor_ready_blob: "b228be104e4cce0ee3edcaeaef69aaf87078cfdf"
+  predecessor_factual_delta: none_body_title_identical
+  final_source_sha: "9ba99b05c8238472c04ee7de720df727e41678be"
+  review: "reader_reviews/0525_9ba99b05.md"
+  counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci
