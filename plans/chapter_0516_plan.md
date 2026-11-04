@@ -56,3 +56,7 @@ Day380 07:11交班，邵桂芳本次携助行车实际入院，后续现场可�
 - 源草稿Git Blob：`b1c7d68f4d950a0ca97b1fcdab8a3b730c03b152`，3546有效字符，正文、标题及原元数据未修改。
 - Reader Pass A→Pass B为0 BLOCKER/0 MAJOR/2 MINOR，独立Continuity/Style/Meaningful QA PASS，精确依赖前515 ready 668a6b38d887a0d8c388b877f74b3c07631b5f2c。
 - 结构门禁仍须精确候选Git提交的Actions本地结构校验SUCCESS才允许更新main放行。
+
+## 正式放行实证（2026-11-04）
+- 结构候选 `132e076df3256ff31b02af517d2eb3456ff210df` 的Actions `41806482985`（结构单测与publisher.check_local）SUCCESS，正式main同SHA的 `41806539202` SUCCESS。
+- `expected_sha`、`force:false`更新main成功；ready Git Blob `0d3c1ae4bb40787bea5bb6f0eb78894a8a2f9edd`，草稿已原子移除。

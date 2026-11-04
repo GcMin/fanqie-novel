@@ -5229,3 +5229,15 @@ chapter_516_20261104:
   predecessor_ready_sha: "668a6b38d887a0d8c388b877f74b3c07631b5f2c"
   content_qa: pass
   structural_gate: exact_candidate_ci_required
+
+release_516_exact_ci_evidence:
+  chapter: 516
+  candidate_commit: "132e076df3256ff31b02af517d2eb3456ff210df"
+  validated_tree: "7e91cfb91de02864c6f0343fc615520619e14e82"
+  candidate_ci: 41806482985
+  main_ci: 41806539202
+  conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_update: expected_sha_force_false_success
+  ready_blob: "0d3c1ae4bb40787bea5bb6f0eb78894a8a2f9edd"

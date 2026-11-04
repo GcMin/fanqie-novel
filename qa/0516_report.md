@@ -7,3 +7,9 @@
 - **Meaningful Change PASS**：2019关联新稿从“核发完成”推进到有据的内部双端交接；现时通行从轮子卡弯推进为施工有责调整与居民本人入院。确有实质新增状态。
 - **Memory/Plan候选**：第516章摘要、人物、知识、关系、世界、时间线、F003、当前弧及计划同步，不覆盖已有ready计划；仍区分历史已证与未证事实。
 - **结构门禁**：本内容QA PASS不能替代真实结构校验；精确候选Git提交上`python -m publisher.check_local --repo .`及结构单测必须经可信CI完成SUCCESS，之后才允许以`expected_sha`、`force:false`将同树ready变更更新main。
+
+## 第516章精确结构CI真实SUCCESS并正式更新main（2026-11-04）
+- 正式放行Commit `132e076df3256ff31b02af517d2eb3456ff210df`，Git Tree `7e91cfb91de02864c6f0343fc615520619e14e82`，原main父Commit `fde9dc2b40f8080c6f416e3687386e54d357a5c9`。
+- 候选审计分支 `audit/ready-0516-20261104` Actions `41806482985`，head_sha精确匹配放行Commit，completed/**SUCCESS**；其中离线结构单元测试与 `python -m publisher.check_local --repo .` 分别完成SUCCESS。
+- 候选验证成功后，main通过 `expected_sha=fde9dc2b40f8080c6f416e3687386e54d357a5c9`、`force:false` 实际fast-forward至 `132e076df3256ff31b02af517d2eb3456ff210df`；main同SHA Actions `41806539202` completed/**SUCCESS**，两项检查均通过。
+- `chapters/ready/0516.md`正式Git Blob `0d3c1ae4bb40787bea5bb6f0eb78894a8a2f9edd`，原draft同Git Tree内删除。正文0字修改，Reader0/0/2、独立QA PASS、Memory与计划真实同步，不触及Canon/published或定时任务。
