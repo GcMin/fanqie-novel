@@ -1,3 +1,10 @@
+# 第510—511章Reader/Revision/独立QA与结构候选记录｜2026-11-04
+- 第510章原稿Git Blob `a203cc95c09a73c632d6f95e6a269bc4879861e0`仅修char_count 3209→3221，新稿Blob `5efa7f1a9967c50be7d524dd976c578cd073b292`，正文/标题逐字未改；新SHA独立Reader Pass A、Pass B 均0/0/2，独立Continuity/Style/Meaningful QA PASS；正式ready拟Blob `570bee4ff60e6cf91280bb3aeace3016924cccf0`。
+- 第511章原稿Blob `0d3be6700558c5e31ba9d4e4a7b7705739b367ae`初审0/2/2，Stage A仅将“十九年前”改为明确二〇一九年那笔旧事，并逐段核510初稿与正式ready小说正文和标题完全一致后重绑依赖到`570bee4ff60e6cf91280bb3aeace3016924cccf0`、同步章纲、修正有效字符3253→3272，新稿完整Blob `9d43b17ff6a5a5f2357f64346d7d9f116c6d1744`重新独立Reader Pass A/B 0/0/2，独立内容QA PASS；旧Review不能放行。正式ready拟Blob `be72fd54b2c1cdc385f391c6935371a18784858a`。
+- F003第510章有权核原2019第73页指定笔当次交运暂缓后“识别码复核申请登记”真实存在；第511章新许可有责双岗又核同笔“复核处理登记”状态为“双码待核、原登记码与候选更正码并列保留、待补原始依据”。**不能证成功改码、后来真实再交运、对端签收或历史自然人真正收到答复；双码也不自动是两处地址。** 2016旧封回告与2022实际字节同一仍未知，F008/M004/M005无新增独立确证。
+- 陶佩云原左耳助听器留维修点，另编号借机原定至Day375 17:00，Day373真参加社区活动并获书面改时、旧相框仅部分修；Day374本人电话约Day375 10:30专业短时复核，**未发生检查及续借**。702仍不能复住、旧坡道仍封、罗月本户供水未证明全楼。
+- 本节是**内容QA PASS和待结构验证的候选证据**，精确候选Git SHA上的GitHub Actions结构单测及`python -m publisher.check_local --repo .`须真正SUCCESS后才能expected_sha/force:false更新main。此时不得冒称结构校验已通过。
+
 # 第509章正式ready及精确GitHub CI实证｜2026-11-04
 - 原draft `0b514c71c786aad28435c436a5710b81a3afd1dc` Reader双遍0/0/2、独立Continuity/Style/Meaningful QA PASS、正文零字修改。精确候选 Commit `df93d1e1a6ff678d011364c28f2543c205d5201e`，Tree `4f36fb9fea28ea85a483108f3e993dd5a3eed388` Actions `41759306017` completed/SUCCESS，单元测试和`python -m publisher.check_local --repo .`两步骤均通过。CI通过后以expected_sha=`9e7d623add0f03e6880fd9ca1ac5037e645d25e3`、force:false真实更新main，该提交的main CI `41759350171` SUCCESS。ready Blob `f2a96d07956158081e5ea8c79d92fbf6cbb6d55b`，原draft已同树移除；不改Canon/published/定时任务，不发布平台。
 - 注意下文《第509章Reader/QA通过，结构CI仍待候选》仅记放行前阶段状态；当前上述精确CI已完成并正式放行。
