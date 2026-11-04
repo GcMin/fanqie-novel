@@ -9,3 +9,9 @@
 - **Meaningful Change PASS**：F003当时件数差异由待核进入有据核明且该项内部暂缓结案；沈秋葵图鉴从机器假受理、实体在手转为馆方真正人工接入及有凭条，仍对后台同步和另一册保留待核状态。
 - **Memory/Plan PASS（内容）**：对应0522摘要、人物/知识/关系/世界、F003、时间线及当前弧、唯一计划行按最新正文同步；不改Canon与published，原ready计划行保留。
 - **结构门禁**：当前文本QA结果不替代精确Commit结构验证。只在包含本章ready、Memory、计划、报告的候选Git Commit上真实运行GitHub Actions单测和`python -m publisher.check_local --repo .`并SUCCESS后，方以expected_sha和force:false推进main。失败保留draft且不虚称ready。
+
+## 第522章精确GitHub结构CI与正式main放行实证｜2026-11-04
+- 源草稿完整Git Blob `516e41e1f046840e88afe38bcd2e160da94d600f`，Reader独立Pass A/B 0/0/2 keep/none，小说正文未修订；独立Continuity、Style、Meaningful Change内容QA均PASS，3523个剔场景分割有效字符、项目结构计数3535。
+- 正式放行Commit `d990011e48e56a56bab6fbb512289a5be97d683c`，已校验Git Tree `247f10bb6f3ec8b982aedb7032d5675bfc48bd00`，候选分支 `audit/ready-0522-20261104` Actions run **41855820597** 的head_sha精确匹配上述Commit，completed/**SUCCESS**，真实运行结构单测及 `python -m publisher.check_local --repo .` 且两者均PASS。
+- 候选成功后通过 `expected_sha=604e2c028d27f2b61db5cba0d7c7121a274f5e2b` / `force:false` 成功将main推进同一Commit；main Actions **41855948067** 同一head_sha completed/**SUCCESS**，单元测试及publisher.check_local均PASS。
+- 第522章ready Blob `a2edda4ba24d64f897e4d8221e85a59816f26de0`，原 `chapters/draft/0522.md` 与同一个Git Tree内删除；所有现存ready计划行原样保留，Canon/published/定时任务不改，未发布外部平台。

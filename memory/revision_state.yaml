@@ -4743,3 +4743,17 @@ chapter_522_arc054_revision:
   retry_cycles: 0
   safe_mode: false
   status: qa_pass_structural_candidate_pending
+
+release_522_exact_ci_evidence:
+  chapter: 522
+  source_sha: "516e41e1f046840e88afe38bcd2e160da94d600f"
+  local_revision_used: 0
+  body_revisions: 0
+  candidate_commit: "d990011e48e56a56bab6fbb512289a5be97d683c"
+  candidate_ci: 41855820597
+  main_ci: 41855948067
+  conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  ready_blob: "a2edda4ba24d64f897e4d8221e85a59816f26de0"
+  main_update: expected_sha_force_false_success

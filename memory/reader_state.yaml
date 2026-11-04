@@ -5370,3 +5370,18 @@ chapter_522_arc054_reader_gate:
   predecessor_ready_blob: "73fc160f938c61c6d04ca54f492edb96cb6a0b44"
   content_qa: pass
   structural_gate: exact_candidate_ci_required
+
+release_522_exact_ci_evidence:
+  chapter: 522
+  source_sha: "516e41e1f046840e88afe38bcd2e160da94d600f"
+  review: "reader_reviews/0522_516e41e1.md"
+  counts: "0/0/2"
+  content_qa: pass
+  candidate_commit: "d990011e48e56a56bab6fbb512289a5be97d683c"
+  candidate_ci: 41855820597
+  main_ci: 41855948067
+  conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  ready_blob: "a2edda4ba24d64f897e4d8221e85a59816f26de0"
+  main_update: expected_sha_force_false_success

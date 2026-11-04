@@ -27,7 +27,17 @@ foreshadowing_updates:
 ending_state: "Day386 07:12旧件仅证首站内部复核计数核明，后续交接仍空；图鉴经人工实收、箱体停用且后台待同步。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "516e41e1f046840e88afe38bcd2e160da94d600f", final_draft_sha: "516e41e1f046840e88afe38bcd2e160da94d600f", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3535
 release_evidence:
-  structural_status: pending_exact_candidate_ci
+  structural_status: exact_candidate_and_main_ci_success
+  ready_blob: "a2edda4ba24d64f897e4d8221e85a59816f26de0"
+  candidate_commit: "d990011e48e56a56bab6fbb512289a5be97d683c"
+  validated_tree: "247f10bb6f3ec8b982aedb7032d5675bfc48bd00"
+  candidate_ci: 41855820597
+  candidate_ci_conclusion: success
+  main_ci: 41855948067
+  main_ci_conclusion: success
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  main_ref_update: expected_sha_force_false_success
