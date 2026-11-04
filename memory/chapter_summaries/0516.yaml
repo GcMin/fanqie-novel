@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 516
+title: "签发的纸走到收发室，助行车卡在转角"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "b1c7d68f4d950a0ca97b1fcdab8a3b730c03b152"
+reader_review: "reader_reviews/0516_b1c7d68f.md"
+depends_on_chapter: 515
+depends_on_source_sha: "668a6b38d887a0d8c388b877f74b3c07631b5f2c"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day379 09:12—Day380 07:11"
+summary: >-
+  Day379马芸10:03另申请合法限定查2019原第73页指定业务关联重拟稿“核发完成”之后原单位内部收发动作，13:47获限准后双岗排除跨月近号并核到原单位核发岗交出及内设收发转运岗独立接入的双端真实登记，15:55得有限去身份摘录；外部交运、对端签收、2019历史人受答、2016旧封、2022实际字节同一均未证。20:41邵桂芳携带前轮助行车被南砂路28号院西侧施工通道新增电缆保护挡板卡弯，安全退回；梁策20:57外围联络，施工有责电工/负责人按批准方案调保护件及围挡支脚，第一次空车试转仍阻、二次成功，21:58只限当下条件核可，22:06邵本人携车实到院内并致电女儿。物业撤回西口全天无障碍错误表述，后续不同辅具/时段仍需有责核；夜班分史档与当代实到来源记录，Day380 07:11交班。
+meaningful_state_changes:
+  - "2019同笔关联重拟稿核发后原单位内部双端交接原始登记成立，外部送达依旧不明。"
+  - "邵桂芳助行车当夜因新挡板不能转弯，专业改位并重新试推后本人于22:06携车实际入院，未证明全天全员无障碍。"
+knowledge_updates:
+  - "马芸及夜班只知2019原单位内部两端交接存在，不知外部寄递、对端收件和历史个人受答。"
+  - "邵桂芳知道前一人能步行不代表辅助器具能通行，其本人仅确认这次实际入院。"
+relationship_updates:
+  - "邵桂芳要求安保不能只抬车而丢下人，物业施工方按专业权限整改；马芸纠正同事周报阶段措辞。"
+foreshadowing_updates:
+  - "F003有限推进到原单位内部双端交接；2016/2022跨源同一及外部实际寄递、历史自然人受答待核，F008/M004/M005无新确证。"
+ending_state: "Day380 07:11邵桂芳本人和助行车已到院内，通道随施工变化需逐班核；2019重拟稿实际内部交接有证，外部交运、历史受领未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "b1c7d68f4d950a0ca97b1fcdab8a3b730c03b152", final_draft_sha: "b1c7d68f4d950a0ca97b1fcdab8a3b730c03b152", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3546
