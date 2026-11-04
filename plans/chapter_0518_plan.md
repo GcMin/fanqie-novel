@@ -15,7 +15,7 @@
 - pov: 第三人称有限视角（马芸、方老师、罗叔、周衡）
 - target_effective_chars: 3000
 - actual_effective_chars: 2799
-- status: draft_pending_independent_audit
+- status: ready_candidate_after_reader_qa_pending_exact_ci
 
 ## 章节目标
 依据前517章真实双端交接已证2019原第73页指定业务关联重拟稿外部承运接入，在独立合法新授权下推进到首站实际分拣接入及编袋待转，而不误认为下一站或最终受领。现实线跟进北河路少年活动中心错误扫码映射停用后的人工核验，落到真实交接与人的等候成本。

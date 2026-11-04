@@ -7,15 +7,15 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "56bc74d9a7d2463302677fee3b3fc8bb7cc4f989"
 - depends_on_chapter: 518
-- depends_on_source_sha: "56731ff7ac90853335881dea03c4239f10a42b5c"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0518.md
+- depends_on_source_sha: "df863313f4a7c673c4c481f81e7c7c6605f32aea"
+- dependency_status: verified_predecessor_factual_delta_reconciled
+- predecessor_location: chapters/ready/0518.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day382 09:17—Day383 07:09
 - pov: 第三人称有限视角（马芸、方老师、周衡）
 - target_effective_chars: 3000
-- actual_effective_chars: 3423
-- status: draft_pending_independent_audit
+- actual_effective_chars: 3420
+- status: ready_candidate_after_reader_qa_pending_exact_ci
 
 ## 章节目标
 继续追踪2019原第73页指定业务关联重拟稿，拆开首站待转编袋、预扫出站、实物交运：通过有责新限项原始记录确认当次16:32预扫后来作废、16:47因封签破损退回首站内部，而不是凭扫描写成已出站。现实线检验北河路少年活动中心人工签出临时流程的隐私与授权问题，拒绝让孩子认识代接人或口头临时说明替代有效授权。
@@ -46,10 +46,10 @@ Day382上午马芸持前518章限摘重新申请，只能将前章真实首站�
 2019具体个人信息、同件重编后真正出站、目的端收文、自然人实收答、2016旧封内文、2022原始文件字节同一均未证。封签破损不推人为破坏或整体丢失。F008无新可靠本人记忆矛盾，M004/M005未确证，F009/F010/F011保持resolved。青杉里702仍不可复住、榆荫路旧坡道未核正式开放、南砂路28号院外廊仍施工/西侧通道逐班复核，陶佩云原机短试正常不等长期适配。
 
 ## Continuity Precheck（仅Writer，非QA）
-- 518尚在chapters/draft且仅为未审文本，按特定Git Blob SHA 56731ff7ac90853335881dea03c4239f10a42b5c暂引，dependency_status: provisional；不得直接写作已验Canon。
+- 第518章原临时草稿Blob 56731ff7ac90853335881dea03c4239f10a42b5c 与正式ready Blob df863313f4a7c673c4c481f81e7c7c6605f32aea 逐字核对小说正文与标题一致，仅交付Front Matter变化；因此本站分拣与编袋待转事实完全兼容，现绑定正式ready SHA，dependency_status为verified_predecessor_factual_delta_reconciled。
 - 承接前518章马芸有权见“首站实际分拣接入、编袋待转”，本章先撤回预扫的已出站推论；不改前章真实性，也不确证此后无新交运。
 - 承接前518章北河路由自动错签出改为临时人工分流；本章只纠人工流程的可见隐私与授权边界，并留下运营方正式修复待办。
 - 档案查阅在白天由有权双岗完成，夜班只受摘录；当代儿童只有原授权岗位和班级老师真正交接。
 
 ## 结尾与长度
-Day383 07:09交班，2019首站该次出站未成立、后续重交证据未知；北河路外摆整表已收、当次代接未交、母亲真实接走，后续运营复核待办。有效字符3423（含标点、不含Front Matter、空白和分隔符），优选2600—3400、硬限2300—3800。仅Writer新建计划与草稿，待独立Audit，不执行Reader/Revision/QA/Memory/Publish Gate及平台发布。
+Day383 07:09交班，2019首站该次出站未成立、后续重交证据未知；北河路外摆整表已收、当次代接未交、母亲真实接走，后续运营复核待办。有效字符3420（含标点、不含Front Matter、空白和分隔符），优选2600—3400、硬限2300—3800。本章节已经独立Audit修复元叙事章号并重新按新SHA双遍Reader审查、内容QA通过，正式ready仅待精确候选CI真实成功后更新main；未发布番茄。

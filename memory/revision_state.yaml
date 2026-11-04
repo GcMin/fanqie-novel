@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 517
-current_stage: ready_committed_after_exact_ci_success
-current_source_path: chapters/draft/0517.md
-current_source_sha: 26db97c0d41edb1e1d0571e09b301ba344ea8ccf
-current_review_path: reader_reviews/0517_26db97c0.md
+current_chapter: 519
+current_stage: ready_candidate_pending_exact_ci
+current_source_path: chapters/draft/0519.md
+current_source_sha: 1dee71cbc72e6683c7d0ceb6cc99517695b8f439
+current_review_path: reader_reviews/0519_1dee71cb.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter517_ready_committed_after_exact_ci_success
+last_action: chapter519_stage_a_new_sha_rereview_and_content_qa_pass
 last_action_date: "2026-11-04"
 last_error: null
-last_diff_summary: "517 reader 0/0/2 keep none; body unchanged; independent QA pass; structural CI pending"
+last_diff_summary: "519修元叙事章号和前518正式ready依赖；正文3423至3420，518正文标题同原稿；最终Reader0/0/2，独立QA pass，精确CI待核"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 26db97c0d41edb1e1d0571e09b301ba344ea8ccf
+current_review_source_sha: 1dee71cbc72e6683c7d0ceb6cc99517695b8f439
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -4638,3 +4638,35 @@ release_517_revision_evidence:
   structural_gate: exact_candidate_ci_success_41813217888
   main_ci: 41813326848
   ready_blob: "85b841af1ce5bed58c7f758fc4abcc4cd6cc4cbb"
+
+chapter_518_20261104:
+  original_sha: "56731ff7ac90853335881dea03c4239f10a42b5c"
+  final_sha: "56731ff7ac90853335881dea03c4239f10a42b5c"
+  final_review: "reader_reviews/0518_56731ff7.md"
+  reader_counts: "0/0/2"
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "85b841af1ce5bed58c7f758fc4abcc4cd6cc4cbb"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required
+chapter_519_20261104:
+  original_sha: "7965f3933a868bf280e2de590830e044bb04db99"
+  initial_review: "reader_reviews/0519_7965f393.md"
+  initial_counts: "0/2/2"
+  final_sha: "1dee71cbc72e6683c7d0ceb6cc99517695b8f439"
+  final_review: "reader_reviews/0519_1dee71cb.md"
+  final_counts: "0/0/2"
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  retry_cycles: 0
+  safe_mode: false
+  fix: "only_meta_narrative_chapter_reference_and_prev518_ready_sha_rebind"
+  predecessor_original_draft_sha: "56731ff7ac90853335881dea03c4239f10a42b5c"
+  predecessor_ready_blob: "df863313f4a7c673c4c481f81e7c7c6605f32aea"
+  predecessor_factual_delta: "none_body_and_title_identical"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required
