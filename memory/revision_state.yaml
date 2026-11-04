@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 523
-current_stage: qa_pass_structural_candidate_pending
+current_stage: ready_committed_after_exact_ci_success
 current_source_path: chapters/draft/0523.md
 current_source_sha: 90d52a3a19487e581fb5ac8d3fbdd3b7c03713b1
 current_review_path: reader_reviews/0523_90d52a3a.md
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter523_reader_qa_pass_no_revision
+last_action: chapter523_ready_committed_after_exact_ci_success
 last_action_date: "2026-11-05"
 last_error: null
-last_diff_summary: "523原稿0/0/2 keep/none正文未改;独立QA内容PASS;精确候选CI待校验"
+last_diff_summary: "523原稿Reader 0/0/2 keep/none 正文未改，独立QA PASS，候选及main精确结构CI成功"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -4742,7 +4742,7 @@ chapter_522_arc054_revision:
   body_revisions: 0
   retry_cycles: 0
   safe_mode: false
-  status: qa_pass_structural_candidate_pending
+  status: ready_committed_after_exact_ci_success
 
 release_522_exact_ci_evidence:
   chapter: 522
@@ -4771,3 +4771,17 @@ chapter_523_arc054_revision:
   retry_cycles: 0
   safe_mode: false
   status: qa_pass_structural_candidate_pending
+
+release_523_exact_ci_evidence:
+  chapter: 523
+  source_sha: "90d52a3a19487e581fb5ac8d3fbdd3b7c03713b1"
+  local_revision_used: 0
+  body_revisions: 0
+  candidate_commit: "14ed4bfd0fd029b2a47b5ff76fab74972adecb5b"
+  candidate_ci: 41865980268
+  main_ci: 41866940639
+  conclusion: success
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  ready_blob: "302512e15e077f45297d7348d1d06fd5758b6cb4"
+  main_update: expected_sha_force_false_success

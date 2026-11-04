@@ -9,3 +9,8 @@
 - **Meaningful Change PASS**：F003从“差异已核但后续无证”推进到“复核台真实移至重封待发准备岗”；现代困人从错误关单下仍被困到真实有责救出、本人回拨，设备仍停用，错挂状态留痕。
 - **Memory/Plan 内容同步**：本章摘要、人物、知识、关系、世界、时间线、F003与唯一523计划行在候选版本逐章落盘，旧ready行保留；Canon/published未改。
 - **结构门禁**：本报告仅是独立内容QA。候选commit实际CI完成且`python -m publisher.check_local --repo .`成功以前，不能称正式ready。主分支更新须expected_sha/force:false，候选未验不得快进。
+
+## 第523章精确结构CI成功及正式main ready证据｜2026-11-05
+- 正式放行候选兼main Git commit `14ed4bfd0fd029b2a47b5ff76fab74972adecb5b`，对应Git Tree `b42e74d46e57b26a99b60d9452907b037c520e32`，候选分支GitHub Actions run **41865980268**、主分支run **41866940639** 均head_sha精确匹配、completed/**SUCCESS**。候选工作流实际离线单元测试及`python -m publisher.check_local --repo .`均PASS，主分支相同commit CI也SUCCESS。
+- 正式 `chapters/ready/0523.md` blob `302512e15e077f45297d7348d1d06fd5758b6cb4`，旧draft同一个Git Tree原子删除；已先取得候选精确CI通过，再按 `expected_sha=ce5c762bce4bf68bc2119f3af32475981df0ee49`、`force:false` 快进main成功。
+- 章节源草稿 `90d52a3a19487e581fb5ac8d3fbdd3b7c03713b1`，Reader 0/0/2，正文0字改，3351有效字符，QA和Memory/plan同步。Canon、published及两个定时任务未改，未发布番茄。

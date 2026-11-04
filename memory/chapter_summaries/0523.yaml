@@ -27,7 +27,18 @@ foreshadowing_updates:
 ending_state: "Day387 07:11旧件确曾进入待发准备岗但尚无重封外寄证；林婕已安全离厢且本人回拨，电梯仍停用待维保。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "90d52a3a19487e581fb5ac8d3fbdd3b7c03713b1", final_draft_sha: "90d52a3a19487e581fb5ac8d3fbdd3b7c03713b1", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_pending}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3351
 release_evidence:
-  structural_status: exact_candidate_ci_pending
+  structural_status: exact_candidate_and_main_ci_success
+
+  ready_blob: "302512e15e077f45297d7348d1d06fd5758b6cb4"
+  candidate_commit: "14ed4bfd0fd029b2a47b5ff76fab74972adecb5b"
+  validated_tree: "b42e74d46e57b26a99b60d9452907b037c520e32"
+  candidate_ci: 41865980268
+  candidate_ci_conclusion: success
+  main_ci: 41866940639
+  main_ci_conclusion: success
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  main_ref_update: expected_sha_force_false_success

@@ -5396,4 +5396,19 @@ chapter_523_arc054_reader_gate:
   independent_pass_a_then_b: true
   predecessor_ready_blob: "a2edda4ba24d64f897e4d8221e85a59816f26de0"
   content_qa: pass
-  structural_gate: exact_candidate_ci_pending
+  structural_gate: exact_candidate_and_main_ci_success
+
+release_523_exact_ci_evidence:
+  chapter: 523
+  source_sha: "90d52a3a19487e581fb5ac8d3fbdd3b7c03713b1"
+  review: "reader_reviews/0523_90d52a3a.md"
+  counts: "0/0/2"
+  content_qa: pass
+  candidate_commit: "14ed4bfd0fd029b2a47b5ff76fab74972adecb5b"
+  candidate_ci: 41865980268
+  main_ci: 41866940639
+  conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  ready_blob: "302512e15e077f45297d7348d1d06fd5758b6cb4"
+  main_update: expected_sha_force_false_success
