@@ -7,3 +7,8 @@
 - **Meaningful Change PASS**：原始核发登记在合法授权范围内由未知变为有据的“核发完成”程序状态；南砂路施工临时通道由白天实堵转为有责清障、排时和值守并由祖孙17:26真走通。新证不代替历史送达或未来永久畅通。
 - **Memory/计划 PASS**：chapter_summaries、arc、人物、知识、关系、世界、时间线、F003与计划515新增同步，既有ready计划行不覆盖。已确认与待核事实分别记录。
 - **结构门禁**：仅有本内容QA不足以放行；必须与精确Git候选Commit绑定的Actions成功执行离线单测与 `python -m publisher.check_local --repo .` 后，才可以 `expected_sha`、`force:false` 更新main。结构成功证据另以实际Actions记录为准。
+
+## 第515章精确候选与main实际结构校验SUCCESS｜2026-11-04
+- 候选/正式放行Commit `74f5c5a4bb21ee4c8e653102fa3b135b3f08ac45`，Git Tree `8801cb08ec5752cb9ec28271f0f5f0e019fd003f`，父main `bade509961f031c597658f533d86b07003a6ada7`。审计分支 `audit/ready-0515-20261104` 的GitHub Actions `41798064510`，head_sha精确匹配放行Commit，状态completed/**SUCCESS**；离线结构单元测试及 `python -m publisher.check_local --repo .` 步骤各自SUCCESS。
+- 正式main以 `expected_sha=bade509961f031c597658f533d86b07003a6ada7`、`force:false` 完成fast-forward，main同SHA Actions `41798143296` completed/**SUCCESS**，离线单测和本地快照结构校验同样SUCCESS。ready `chapters/ready/0515.md` Blob `668a6b38d887a0d8c388b877f74b3c07631b5f2c`，旧draft在同一Git Tree内删除。
+- Reader初审0/2/2，Stage A正文局部对白“这章→这案子”、字数3560→3573，修订版Blob `b45e5d210fd1106d3774061c367c0a156dc63022` 新SHA独立双遍Reader0/0/2，独立Continuity/Style/Meaningful QA均PASS，计划行和记忆真实同步；不涉及Canon/published，不发布番茄。

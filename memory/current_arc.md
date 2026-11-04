@@ -1,3 +1,9 @@
+
+## 第515章精确候选与main实际结构校验SUCCESS｜2026-11-04
+- 候选/正式放行Commit `74f5c5a4bb21ee4c8e653102fa3b135b3f08ac45`，Git Tree `8801cb08ec5752cb9ec28271f0f5f0e019fd003f`，父main `bade509961f031c597658f533d86b07003a6ada7`。审计分支 `audit/ready-0515-20261104` 的GitHub Actions `41798064510`，head_sha精确匹配放行Commit，状态completed/**SUCCESS**；离线结构单元测试及 `python -m publisher.check_local --repo .` 步骤各自SUCCESS。
+- 正式main以 `expected_sha=bade509961f031c597658f533d86b07003a6ada7`、`force:false` 完成fast-forward，main同SHA Actions `41798143296` completed/**SUCCESS**，离线单测和本地快照结构校验同样SUCCESS。ready `chapters/ready/0515.md` Blob `668a6b38d887a0d8c388b877f74b3c07631b5f2c`，旧draft在同一Git Tree内删除。
+- Reader初审0/2/2，Stage A正文局部对白“这章→这案子”、字数3560→3573，修订版Blob `b45e5d210fd1106d3774061c367c0a156dc63022` 新SHA独立双遍Reader0/0/2，独立Continuity/Style/Meaningful QA均PASS，计划行和记忆真实同步；不涉及Canon/published，不发布番茄。
+
 # 第515章ARC-054已核实内容进度｜2026-11-04
 
 - 修订后正文Git Blob `b45e5d210fd1106d3774061c367c0a156dc63022`：Reader先独立Pass A、后Pass B为0 BLOCKER/0 MAJOR/2 MINOR；原版 `d000ab8103b6d1ccb0ffb8c136971790ebb878ae` 因长度元数据错报及同事“这章”出戏获0/2/2，Stage A仅修两处；独立Continuity/Style/Meaningful QA全部PASS，实际3573有效字符；结构仍以精确候选GitHub Actions真正SUCCESS为门禁。

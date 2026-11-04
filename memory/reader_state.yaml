@@ -5202,3 +5202,14 @@ chapter_515_20261104:
   reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
   content_qa: pass
   structural_gate: exact_candidate_ci_required
+release_515_exact_ci_evidence:
+  chapter: 515
+  candidate_commit: "74f5c5a4bb21ee4c8e653102fa3b135b3f08ac45"
+  validated_tree: "8801cb08ec5752cb9ec28271f0f5f0e019fd003f"
+  candidate_ci: 41798064510
+  main_ci: 41798143296
+  candidate_and_main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_update: expected_sha_force_false_success
+  ready_515_blob: "668a6b38d887a0d8c388b877f74b3c07631b5f2c"
