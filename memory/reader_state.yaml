@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 521
-last_reviewed_title: "箭头指向围挡，纸件停在复核台"
-last_source_path: chapters/draft/0521.md
-last_source_sha: 2b2a328a7b27afa75036ac82ba4b4a98491f1704
-last_review_path: reader_reviews/0521_2b2a328a.md
-last_reviewed_at: "2026-11-04"
+last_reviewed_chapter: 523
+last_reviewed_title: "纸件换了保管人，轿厢里的人还没出来"
+last_source_path: chapters/draft/0523.md
+last_source_sha: 90d52a3a19487e581fb5ac8d3fbdd3b7c03713b1
+last_review_path: reader_reviews/0523_90d52a3a.md
+last_reviewed_at: "2026-11-05"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 520
-depends_on_source_sha: 175b4df2cb093790e70d7ed33d67defad2f55b8d
+depends_on_chapter: 522
+depends_on_source_sha: a2edda4ba24d64f897e4d8221e85a59816f26de0
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 175b4df2cb093790e70d7ed33d67defad2f55b8d
+predecessor_current_source_sha: a2edda4ba24d64f897e4d8221e85a59816f26de0
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -5385,3 +5385,15 @@ release_522_exact_ci_evidence:
   publisher_check_local: pass
   ready_blob: "a2edda4ba24d64f897e4d8221e85a59816f26de0"
   main_update: expected_sha_force_false_success
+
+chapter_523_arc054_reader_gate:
+  chapter: 523
+  source_sha: "90d52a3a19487e581fb5ac8d3fbdd3b7c03713b1"
+  review: "reader_reviews/0523_90d52a3a.md"
+  counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  predecessor_ready_blob: "a2edda4ba24d64f897e4d8221e85a59816f26de0"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_pending
