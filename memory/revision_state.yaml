@@ -15,7 +15,7 @@ next_retry_after: null
 last_action: chapter523_reader_qa_pass_no_revision
 last_action_date: "2026-11-05"
 last_error: null
-"last_diff_summary: 523原稿0/0/2 keep/none正文未改;独立QA内容PASS;精确候选CI待校验"
+last_diff_summary: "523原稿0/0/2 keep/none正文未改;独立QA内容PASS;精确候选CI待校验"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
