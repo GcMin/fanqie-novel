@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 515
+title: "纸上核发有了日期，收信的人还没出现"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "d000ab8103b6d1ccb0ffb8c136971790ebb878ae"
+source_draft_sha: "b45e5d210fd1106d3774061c367c0a156dc63022"
+initial_review: "reader_reviews/0515_d000ab81.md"
+reader_review: "reader_reviews/0515_b45e5d21.md"
+depends_on_chapter: 514
+depends_on_source_sha: "19b43717b0dbd446f011bcc484a49eb830a57a3c"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day378 09:16—Day379 07:09"
+summary: >-
+  Day378 09:43马芸持第514章2019第73页指定旧业务“原拟稿退回重拟、关联重拟稿建档待补依据复核”合法限摘，在原形成单位另申请该新稿索引后核发原始登记的存在/非身份状态与日期，10:07真收件14:22限准，15:41有责双岗排除跨月近似同号和补据日期后证同一新稿索引另有独立“核发完成”登记且晚于建档待复核；16:17领去身份签发有限摘录。只证原始核发登记类别和日期，不证文稿实体全文、外部交运、对端收讫及历史自然人获答。南砂路28号院赵爱莲10:30发现西侧临时通道新告示后有卸料平板车堵转角，11:14物业与施工方核白天值守交接缺口11:48撤车、安保和施工有责复核当前路况；调整17:40卸货另时段并真设置交班值守，17:26赵与孙在现场值守下再次实际到院，未替全院或后续全部时段证明通行。20:32夜班中心按两路合法限项分栏记录，21:06赵本人回拨；Day379 07:09交班。F003有界推进，F008/M004/M005无新独立确证。
+meaningful_state_changes:
+  - "2019指定旧业务关联重拟稿有独立原始“核发完成”登记，仍不等于交运/送达/真人受答。"
+  - "南砂路西侧临时通行由日间卸货占道推进为当次有责清障、排时和值守且祖孙在新时点实际走通；仍属施工中的条件性通道。"
+knowledge_updates:
+  - "马芸及夜班只知2019关联重拟稿原始核发登记存在及许可内类别日期，不知文稿全文、外送和历史当事人收答。"
+  - "赵爱莲知道当日白天卸料会改变前夜有效的临时路线，要求现场实际值守和放学时的路可走；不代表其他住户。"
+relationship_updates:
+  - "赵爱莲当面要求物业/施工方将现场值守人与卸料安排写清；马芸督促同事纠正核发即送达的周报措辞；夜间三人按来源分工。"
+foreshadowing_updates:
+  - "F003新证仅独立核发登记“完成”而非外部交运/对端签收/历史本人答复；2016封内、2022真实字节同一未知，F008/M004/M005均无新增独立确证。"
+ending_state: "Day379 07:09旧案关联重拟稿核发登记有证、物理外送和历史真人签收未知；西侧通道仅在有责交接的时段实际通行，外廊工程未完工。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d000ab8103b6d1ccb0ffb8c136971790ebb878ae", final_draft_sha: "b45e5d210fd1106d3774061c367c0a156dc63022", stage_a_used: 1, body_revisions: 1, fix: "char_count3560_to3573_and_meta_dialogue", predecessor_ready_blob: "19b43717b0dbd446f011bcc484a49eb830a57a3c"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3573

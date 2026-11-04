@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 514
-current_stage: ready_committed_after_exact_ci_success
-current_source_path: chapters/draft/0514.md
-current_source_sha: a1b5cea937173fb9a51edf7d46d3eb2e03bb65c8
-current_review_path: reader_reviews/0514_a1b5cea9.md
+current_chapter: 515
+current_stage: content_qa_pass_structural_candidate_gate_pending
+current_source_path: chapters/draft/0515.md
+current_source_sha: b45e5d210fd1106d3774061c367c0a156dc63022
+current_review_path: reader_reviews/0515_b45e5d21.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter514_ready_committed_after_exact_ci_success
+last_action: chapter515_reader_revision_qa_completed_pending_precise_ci
 last_action_date: "2026-11-04"
 last_error: null
-last_diff_summary: "509 Reader0/0/2 no_revision; independentQA_PASS; exactCI41759306017_success; mainCI41759350171_success; readyBlob_f2a96d07956158081e5ea8c79d92fbf6cbb6d55b"
+last_diff_summary: "515 reader 0/2/2 to 0/0/2 StageA meta char count and case dialogue; independent content QA PASS, structural CI requires exact candidate"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: a1b5cea937173fb9a51edf7d46d3eb2e03bb65c8
+current_review_source_sha: b45e5d210fd1106d3774061c367c0a156dc63022
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -4555,3 +4555,18 @@ release_514_exact_ci_evidence:
   publisher_check_local: pass
   main_update: expected_sha_force_false_success
   ready_514_blob: "19b43717b0dbd446f011bcc484a49eb830a57a3c"
+chapter_515_20261104:
+  original_sha: "d000ab8103b6d1ccb0ffb8c136971790ebb878ae"
+  initial_review: "reader_reviews/0515_d000ab81.md"
+  initial_counts: "0/2/2"
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  fix: "correct real effective chars 3560 to 3573 and meta-dialogue change"
+  final_draft_sha: "b45e5d210fd1106d3774061c367c0a156dc63022"
+  final_review: "reader_reviews/0515_b45e5d21.md"
+  final_counts: "0/0/2"
+  predecessor_ready_blob: "19b43717b0dbd446f011bcc484a49eb830a57a3c"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required

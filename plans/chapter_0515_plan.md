@@ -14,7 +14,7 @@
 - timeframe: Day378 09:16—Day379 07:09
 - pov: 第三人称有限视角（马芸、赵爱莲、周衡）
 - target_effective_chars: 3000
-- actual_effective_chars: 3560
+- actual_effective_chars: 3573
 - status: planned_and_new_draft_only
 
 ## 本章目标

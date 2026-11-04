@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 514
+last_updated_chapter: 515
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2376,3 +2376,10 @@ chapter_514_arc054_update:
   tao_peiyun_and_service: "专业验配员在有限条件下实际核旧机新适配件，留有书面记录；服务点把不同编号原机交回与借机回收分单，接受本人后续故障回报而非给长期合格承诺。"
   ma_yun_and_colleague: "同事修周报将原拟稿退回与后续重拟稿建档分列；马芸明确下一查须基于新索引另行申请，不直接外推发出或真人获答。"
   core_team: "周衡、夏宁、梁策依不同授权来源区分两条进度，不替有责档案岗或售后岗推终局；南砂路本人回拨已完成，仍不推全院受通知。"
+
+chapter_515_arc054_update:
+  chapter: 515
+  source_sha: "b45e5d210fd1106d3774061c367c0a156dc63022"
+  ma_yun_and_colleague: "同事先误将核发等于送达，马芸以邮寄未拆信类比纠正；合法摘录到手后只写核发登记完成，不替历史当事人签已收到。"
+  zhao_ailian_and_property: "赵爱莲以携孙子日间安全为据要求纸告示有真实值守与卸货调度，施工物业履责撤车复核并修订交接；信任以本次实际通行为限。"
+  core_team: "周衡夏宁梁策继续按登记阶段/实走/有责交班分源，不为任一部门签无限期恢复或历史送达。"
