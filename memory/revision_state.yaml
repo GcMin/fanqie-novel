@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 506
-current_stage: ready_structural_ci_verified
-current_source_path: chapters/draft/0506.md
-current_source_sha: 8321515e89466cf5aa3b604cd1fc74f7fbbad36a
-current_review_path: reader_reviews/0506_8321515e.md
+current_chapter: 509
+current_stage: reader_and_content_qa_pass_structural_ci_pending
+current_source_path: chapters/draft/0509.md
+current_source_sha: 0b514c71c786aad28435c436a5710b81a3afd1dc
+current_review_path: reader_reviews/0509_0b514c71.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter506_reader_qa_and_exact_structural_ci_verified_ready
+last_action: chapter509_reader_qa_pass_pending_exact_commit_ci
 last_action_date: "2026-11-04"
 last_error: null
-last_diff_summary: "505 Reader0/0/2, 506 Reader0/1/2 StageA metadata-only final0/0/2; both QA and exact CI success; 505-506 now ready"
+last_diff_summary: "509 Reader0/0/2 no_revision; independentQA_PASS; predecessor508_exact_ready; structural_candidate_CI_required"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: true
-current_review_source_sha: 8321515e89466cf5aa3b604cd1fc74f7fbbad36a
+publish_gate_passed: false
+current_review_source_sha: 0b514c71c786aad28435c436a5710b81a3afd1dc
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -4499,3 +4499,13 @@ release_507_508_exact_ci_evidence:
   main_update: expected_sha_force_false_success
   ready_507_blob: "02ce1959020d940daabbb7d19ad2744c155e8140"
   ready_508_blob: "21f9ce3c16844d9f04fcd5fcd9185d126efe9d2e"
+combined_audit_chapter_509_20261104:
+  chapter: 509
+  source_sha: "0b514c71c786aad28435c436a5710b81a3afd1dc"
+  review: "reader_reviews/0509_0b514c71.md"
+  reader: {blocker: 0, major: 0, minor: 2}
+  local_revision_used: 0
+  body_revisions: 0
+  predecessor_ready_blob: "21f9ce3c16844d9f04fcd5fcd9185d126efe9d2e"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required

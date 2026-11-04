@@ -1,3 +1,9 @@
+# 第509章独立Reader/QA通过，结构CI仍待精确候选核验｜2026-11-04
+- `chapters/draft/0509.md` 原始真实Git Blob `0b514c71c786aad28435c436a5710b81a3afd1dc`，本轮独立Reader Pass A（正文、前3章、最近10章摘要、文风）→Pass B（Canon、人物知识/世界/时间线/伏笔及依赖）为BLOCKER=0、MAJOR=0、MINOR=2；`reader_reviews/0509_0b514c71.md` 与SHA绑定。MINOR仅转场时序轻微回读和证据边界提示略密，不执行Revision，正文修改0字。
+- 独立Continuity/Style/Meaningful QA PASS：508正式ready Blob `21f9ce3c16844d9f04fcd5fcd9185d126efe9d2e` 与509草稿及详纲精确匹配，严格接508 Day372 14:20专业复核预约和2019指定笔当次暂缓。Day372 14:32陶佩云专业核原左耳助听器，旧耳模贴合需处理且尖鸣原因未单一认定；16:06旧模板“维修完成”不适用经有责纠正，原机真收回留修，另编号临时借机专业核准试戴本人真签领至Day375 17:00，居家短时未复现不等于长期修好。马芸11:37只提交暂缓后识别码复核索引最小非身份新申请且真收件，仍无准阅/检索/历史后续再交或本人获答；夜班仅按授权20:42、21:09收到有限回告，Day373 07:01交班。
+- F003仅增加2019指定笔暂缓后复核索引查找**收件**，不证2016旧回告在封、2022工作区具体字节同一、2019真正再交、对端受领或历史自然人收到答复；F008/M004/M005无新独立确证。青杉里702未准复住、原坡道仍封和罗月户水不证全楼状态继续。
+- 此块为当前正文事实的候选长期Memory，提交main只能在候选精确Commit触发GitHub Actions结构单测和`python -m publisher.check_local --repo .`均SUCCESS后执行expected_sha+force:false，不把预检和旧CI写成已成功。
+
 # 第507—508章正式ready及精确GitHub CI证据｜2026-11-04
 - 两章候选Git Commit `5f85b51e0dfa8a58310ffbc18d5e8c7e28bf6fc1` Tree `9e23c10047166d21ffded0b65dc4b19fc396fee7`，审计分支Actions `41754212670` exact head SHA completed/**SUCCESS**，实际结构单测及`python -m publisher.check_local --repo .`通过。只在验证成功后，以expected_sha=`67f7ecba5acc85aac565806764800601b3667ed8`、force:false更新main成功。main 同SHA CI `41754283022` **SUCCESS**。
 - 第507章ready Blob `02ce1959020d940daabbb7d19ad2744c155e8140`，初稿0/1/2修一处历史年数并重新独立Reader 0/0/2；第508章ready Blob `21f9ce3c16844d9f04fcd5fcd9185d126efe9d2e`，初稿0/1/2在对照前章事实后仅修依赖和详纲并按新SHA再双遍审0/0/2，小说正文0字改。独立QA均PASS，分别3119和3361有效字。两原draft已随ready迁移原子删除；无Canon、published或定时任务修改。

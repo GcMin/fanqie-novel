@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 509
+title: "借来的声音，不能写进修好那一栏"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "0b514c71c786aad28435c436a5710b81a3afd1dc"
+reader_review: "reader_reviews/0509_0b514c71.md"
+depends_on_chapter: 508
+depends_on_source_sha: "21f9ce3c16844d9f04fcd5fcd9185d126efe9d2e"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day372 09:28—Day373 07:01"
+summary: >-
+  Day372 09:28马芸纠正同事把2019旧笔一次暂缓交运推断为从未外发；10:54先核馆藏与权限，11:37只将“本次暂缓后识别码复核目录/索引是否存在”的非身份新申请真正递交并取得收件，不等于范围准阅或实际检索结果。陶佩云14:10按预约至雁汀路南门、14:32由专业验配师核左耳原机短时开机正常及旧耳模边缘变硬和连接磨损，声学反馈原因仍未确诊。本人发现旧借用模板混有原机维修完工推定并要求有责纠正；16:06另一编号临时机经个体适配、短试、本人签领实际借出至Day375 17:00，原左耳机另有编号和专业收件凭据留点待继续适配。本人回家短时试用未见复现而长期效果未核。20:42夏宁按本人授权收真实限报，21:09马芸只回报新查询受理未核结果，周衡纠白板，Day373 07:01交班。旧案随后复核/再交/对端签收/历史真人获答仍未知，F008/M004/M005不升级。
+meaningful_state_changes:
+  - "陶佩云从原机真实领取但使用异常停用，推进为原机真实收回留点适配、另一编号临时机专业试戴签领与本人有限使用；原机与借机不混签。"
+  - "2019指定笔暂缓后识别码复核索引的最小非身份存在性申请真正被受理，但尚无许可、检索或后续再交运证据。"
+knowledge_updates:
+  - "陶佩云知道专业人员只确认现场短试和旧耳模密合问题，回家尖鸣原因未唯一诊断；清楚原机留修与借机不同编号及Day375 17:00归还时点。"
+  - "马芸与夜班只知2019一笔当次暂缓和本次新申请收件，不知复核索引检索结果、随后真实再交运或历史本人收答。"
+relationship_updates:
+  - "陶佩云坚持本人阅读和签领、拒女儿未经要求代办；服务点尊重原机维修责任与借机独立签字。"
+  - "周衡、夏宁、梁策依据授权来源限定回告，未替陶佩云或者旧案自然人签完工/办结。"
+foreshadowing_updates:
+  - "F003新增暂缓后复核索引最小查询的真实收件（非检索结果）；2016在封、2022具体字节及历史真实收答不证。F008/M004/M005不升级。"
+ending_state: "Day373 07:01原左耳机由有责服务点留修，另编号借机在陶佩云本人手中至Day375 17:00，长期稳定性未证；2019暂缓后复核索引合法查询仅获收件，历史再次交运及受答未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0b514c71c786aad28435c436a5710b81a3afd1dc", final_draft_sha: "0b514c71c786aad28435c436a5710b81a3afd1dc", stage_a_used: 0, body_revisions: 0, predecessor_ready_blob: "21f9ce3c16844d9f04fcd5fcd9185d126efe9d2e", dependency_status: verified_exact_ready_blob}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3294
