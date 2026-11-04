@@ -1,3 +1,8 @@
+## 第526—527章精确候选及main结构CI成功并正式ready｜2026-11-05
+- 两章Reader与独立内容QA均PASS，526原draft `216f77e73c59d0405c192aa0825791fc4c4ef481` 0/0/2无修订；527原draft `ab1fb75c091d9344de781091d45b56c546846bd2`初审0/1/2，经核对526旧稿与ready正文标题一致，Stage A只重绑前章依赖，新draft `ee942a858fd7fc59afda901cb99977c9bd84c947`重审0/0/2；两章小说正文均0字改。
+- 正式放行Git commit `0c595950bfa07c8c489b600fc6f87e08be7f9f84` / tree `2b96195cfffcf8eaba23866272a6e23eecfd3594`；审计分支Actions `41906054484` completed SUCCESS（结构单测和publisher.check_local均PASS），随后expected_sha + force:false将main安全快进到同commit；main Actions `41906174995` completed SUCCESS（相同步骤均PASS）。
+- 第526章ready blob `5194624fa5716f9e7cebb721ea23119f3aad42da`；第527章ready blob `32798251259048f8c4b6c9eb2c9aae09d9bb962e`；原draft同tree删除，Memory/计划按当前正文同步。先前候选内容阶段的结构pending字样由此实际实证覆盖。无Canon/published修改、无番茄发布。
+
 ## 第526—527章ARC-054独立Reader、修订及内容QA｜2026-11-05
 - 第526章原draft `216f77e73c59d0405c192aa0825791fc4c4ef481` Reader先Pass A后Pass B 0/0/2 keep/none，3320有效字，正文0字修改，前章525 ready blob `3d67442df304a147b708d0d184dd6de4e34ee697`精确匹配。Day389次站实体实收及地址要素待补核类别有据；六〇二本人在女儿处安全、无当夜送水需求，立管仍抢修。
 - 第527章原draft `ab1fb75c091d9344de781091d45b56c546846bd2`初审0/1/2，因指526临时SHA；已核526原稿与ready标题全文一致仅交付Front Matter不同，Stage A仅将527 Front Matter/详纲改用正式ready blob `5194624fa5716f9e7cebb721ea23119f3aad42da`，527小说正文0字改。新draft `ee942a858fd7fc59afda901cb99977c9bd84c947`已重新独立双遍Reader 0/0/2 keep/none，3394有效字。Day390旧地址补核待办实际生成、本授权载体未见承接；四〇一专业真核本户复通且收到两瓶饮水，原物业全栋误报保源更正，全楼/水质仍待核。

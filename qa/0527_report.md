@@ -8,3 +8,9 @@
 - **Meaningful Change QA PASS**：旧件新任务只有生成状态，四〇一专业实际复通并交付可饮用瓶装水，物业原群纠正错误公告。
 - Memory/计划：更新新0527摘要与人物、知识、世界、关系、时间线、F003、章节计划，既有ready行保留。
 - **结构门禁：pending_exact_candidate_ci**，不以内容QA代替精确commit校验。
+
+## 结构门禁已通过｜正式放行证据（2026-11-05）
+- 同时包含526和527正式ready、绑定SHA Reader Review、QA、Memory与章节计划的候选commit：`0c595950bfa07c8c489b600fc6f87e08be7f9f84`，tree：`2b96195cfffcf8eaba23866272a6e23eecfd3594`。
+- audit审计分支精确Actions `41906054484` completed/**SUCCESS**，结构单元测试及实际 `python -m publisher.check_local --repo .` 均通过。
+- 确认CI后以 `expected_sha=75642598786fedd944b161c2d44315fdaf65f0d2`、`force:false` 成功快进main至同一commit，main Actions `41906174995` completed/**SUCCESS**，两步骤再次通过。
+- 原正文未修订，第527章仅修前章SHA元数据且基于新SHA重新双遍Reader，原draft同树删除。此前“结构门禁pending”仅为内容审查阶段，现由实际CI证据解除。见 `qa/0526_0527_release_evidence_20261105.md`。

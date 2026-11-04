@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 527
-current_stage: qa_pass_candidate_structural_ci_pending
+current_stage: ready_committed_after_exact_ci_success
 current_source_path: chapters/draft/0527.md
 current_source_sha: ee942a858fd7fc59afda901cb99977c9bd84c947
 current_review_path: reader_reviews/0527_ee942a85.md
@@ -4838,7 +4838,7 @@ chapter_526_arc054_revision:
   stage_c_used: 0
   body_revisions: 0
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
 chapter_527_arc054_revision:
   chapter: 527
   original_sha: "ab1fb75c091d9344de781091d45b56c546846bd2"
@@ -4853,4 +4853,17 @@ chapter_527_arc054_revision:
   final_review: "reader_reviews/0527_ee942a85.md"
   final_counts: "0/0/2"
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
+
+release_526_527_exact_ci_evidence:
+  chapters: [526, 527]
+  candidate_commit: "0c595950bfa07c8c489b600fc6f87e08be7f9f84"
+  validated_tree: "2b96195cfffcf8eaba23866272a6e23eecfd3594"
+  candidate_ci: 41906054484
+  main_ci: 41906174995
+  conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_update: expected_sha_force_false_success
+  ready_526_blob: "5194624fa5716f9e7cebb721ea23119f3aad42da"
+  ready_527_blob: "32798251259048f8c4b6c9eb2c9aae09d9bb962e"

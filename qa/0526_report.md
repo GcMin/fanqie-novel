@@ -8,3 +8,9 @@
 - **Meaningful Change QA PASS**：历史袋子真到次站而出现新待核类别，当代当事人自证安全、谣传受控撤回。
 - Memory/计划：新0526摘要，人物、知识、关系、世界、时间线、F003与唯一章节计划行须据最终正文同步；原ready计划保持不变。
 - **结构门禁状态：pending_exact_candidate_ci**。本报告仅内容QA，不代表实际执行`python -m publisher.check_local --repo .`；只有含两章ready与Memory/计划的精确Git候选commit通过可信CI后才能快进main。
+
+## 结构门禁已通过｜正式放行证据（2026-11-05）
+- 同时包含526和527正式ready、绑定SHA Reader Review、QA、Memory与章节计划的候选commit：`0c595950bfa07c8c489b600fc6f87e08be7f9f84`，tree：`2b96195cfffcf8eaba23866272a6e23eecfd3594`。
+- audit审计分支精确Actions `41906054484` completed/**SUCCESS**，结构单元测试及实际 `python -m publisher.check_local --repo .` 均通过。
+- 确认CI后以 `expected_sha=75642598786fedd944b161c2d44315fdaf65f0d2`、`force:false` 成功快进main至同一commit，main Actions `41906174995` completed/**SUCCESS**，两步骤再次通过。
+- 原正文未修订，第527章仅修前章SHA元数据且基于新SHA重新双遍Reader，原draft同树删除。此前“结构门禁pending”仅为内容审查阶段，现由实际CI证据解除。见 `qa/0526_0527_release_evidence_20261105.md`。

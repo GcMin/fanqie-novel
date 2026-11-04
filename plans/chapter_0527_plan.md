@@ -15,7 +15,7 @@
 - pov: 第三人称有限（马芸、罗欣、周衡/夏宁）
 - target_effective_chars: 3000
 - actual_effective_chars: 3394
-- status: audit_pass_structural_candidate_pending
+- status: audit_pass_ready_released
 
 ## 目标与开场
 第526章目前仅为尚未经独立审核的draft，特定来源Git Blob为 `216f77e73c59d0405c192aa0825791fc4c4ef481`。据其暂定情节，2019原第73页同一关联重拟稿的独立小封袋，在外承运后下一有责分拣节点得到实际接收，后续分类标记“地址要素待补核”；这不意味着具体地址不存在或有人收到。新河里四号楼六〇二姜阿姨经本人确认当夜在亲属处、无需送水，立管仍抢修。本章只在此临时版本事实的明确边界内承接，不视第526章为正式Canon。
@@ -46,3 +46,7 @@
 ## Audit Stage A 前章依赖复核｜2026-11-05
 - 526原draft `216f77e73c59d0405c192aa0825791fc4c4ef481`与ready候选 `5194624fa5716f9e7cebb721ea23119f3aad42da`标题和正文完整一致，只有交付Front Matter变化；前章事实兼容。
 - 原Writer预检的临时依赖保留为历史描述；当前有效字段以本详纲顶部新正式ready SHA为准。本章小说正文未动，527新draft SHA `ee942a858fd7fc59afda901cb99977c9bd84c947`已独立双遍Reader 0/0/2及内容QA通过；精确CI待核。
+
+## 第526—527章实际结构CI及正式ready
+- 候选和main同一commit `0c595950bfa07c8c489b600fc6f87e08be7f9f84`；审计Actions `41906054484`、main Actions `41906174995`均completed SUCCESS，结构单测及 `python -m publisher.check_local --repo .`均PASS。
+- 先候选CI成功、再expected_sha加force:false真实更新main，第526章ready blob `5194624fa5716f9e7cebb721ea23119f3aad42da`、第527章ready blob `32798251259048f8c4b6c9eb2c9aae09d9bb962e`；原draft同树删除。正文未修改，详细证据在`qa/0526_0527_release_evidence_20261105.md`。
