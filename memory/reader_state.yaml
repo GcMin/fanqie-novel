@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 527
-last_reviewed_title: "一张补核单没有走远，四楼的水终于流了"
-last_source_path: chapters/draft/0527.md
-last_source_sha: ee942a858fd7fc59afda901cb99977c9bd84c947
-last_review_path: reader_reviews/0527_ee942a85.md
+last_reviewed_chapter: 528
+last_reviewed_title: "接收岗签了字，夜归的人还站在门外"
+last_source_path: chapters/draft/0528.md
+last_source_sha: e5dc2ca331ee0cac8f99ad526d8c2dbac4e8b41d
+last_review_path: reader_reviews/0528_e5dc2ca3.md
 last_reviewed_at: "2026-11-05"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 522
-depends_on_source_sha: a2edda4ba24d64f897e4d8221e85a59816f26de0
+depends_on_chapter: 527
+depends_on_source_sha: 32798251259048f8c4b6c9eb2c9aae09d9bb962e
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: a2edda4ba24d64f897e4d8221e85a59816f26de0
+predecessor_current_source_sha: 32798251259048f8c4b6c9eb2c9aae09d9bb962e
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -5495,3 +5495,15 @@ release_526_527_exact_ci_evidence:
   main_update: expected_sha_force_false_success
   ready_526_blob: "5194624fa5716f9e7cebb721ea23119f3aad42da"
   ready_527_blob: "32798251259048f8c4b6c9eb2c9aae09d9bb962e"
+
+chapter_528_arc054_reader_gate:
+  chapter: 528
+  source_sha: "e5dc2ca331ee0cac8f99ad526d8c2dbac4e8b41d"
+  review: "reader_reviews/0528_e5dc2ca3.md"
+  counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  predecessor_ready_blob: "32798251259048f8c4b6c9eb2c9aae09d9bb962e"
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci

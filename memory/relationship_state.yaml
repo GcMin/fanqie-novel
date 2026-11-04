@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 527
+last_updated_chapter: 528
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2472,4 +2472,13 @@ chapter_527_arc054_verified:
   ma_yun_and_colleague: "马芸删掉无据的办理二字，仅写待办形成与承接待核。"
   luo_xin_and_providers: "误报使罗欣带孩子回家遇无水，专业人员真实本户复通并交应急水。"
   center_team: "梁策提醒周衡不替旧件陌生经手者签字，夏宁核本人回拨而非全楼公告。"
+  trust_scores_unchanged: true
+
+chapter_528_arc054_verified:
+  chapter: 528
+  source_sha: "e5dc2ca331ee0cac8f99ad526d8c2dbac4e8b41d"
+  ma_yun_and_colleague: "同事希望凭核址签领写办结，马芸仅同意当年有责岗位接过任务，抵住过度推断。"
+  tang_li_and_gu_jie: "唐莉坚持门外不能算到岗，顾姐始终守老人直到真实交班；顾姐拿保温杯招呼唐莉并提醒保存四次误记，互助但不解决工时争议。"
+  tang_li_property_family: "物业在唐莉要求下记录真人仍在门外，改用东侧合规核验；家属原渠道确认并核实23:12真交接。"
+  center_team: "夏宁、梁策、周衡遵循各自岗位权限，信任分值不因本章无依据改变。"
   trust_scores_unchanged: true

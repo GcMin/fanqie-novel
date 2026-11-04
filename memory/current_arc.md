@@ -1,3 +1,8 @@
+## 第528章ARC-054独立Reader与内容QA通过，精确候选结构CI待核｜2026-11-05
+- 源草稿 e5dc2ca331ee0cac8f99ad526d8c2dbac4e8b41d 绑定reader_reviews/0528_e5dc2ca3.md，前章527正式ready blob 32798251259048f8c4b6c9eb2c9aae09d9bb962e精确，先读正文/前3章/10摘要/文风Pass A，后独立核Bible/arc/人物/知识/时地伏笔Pass B，BLOCKER=0 MAJOR=0 MINOR=2、keep/none，无正文修订；Continuity/Style/Meaningful QA内容PASS，3450有效字符。
+- Day391合法新限项独立岗位签领与交接表证2019旧地址补核任务当年真领单，办结和历史人收答仍未知；唐莉门禁假入后22:56有权人工真入、23:12家属确认真实换班，误记、设备修复和雇主工时未结；Day392 07:08交班。F003有限推进，F008/M004/M005和2016/2022字节同一不提升。
+- Memory及计划行与原文同步，但**必须等精确候选Commit CI真正执行publisher.check_local及结构单元测试SUCCESS后才可更新main**。
+
 ## 第526—527章精确候选及main结构CI成功并正式ready｜2026-11-05
 - 两章Reader与独立内容QA均PASS，526原draft `216f77e73c59d0405c192aa0825791fc4c4ef481` 0/0/2无修订；527原draft `ab1fb75c091d9344de781091d45b56c546846bd2`初审0/1/2，经核对526旧稿与ready正文标题一致，Stage A只重绑前章依赖，新draft `ee942a858fd7fc59afda901cb99977c9bd84c947`重审0/0/2；两章小说正文均0字改。
 - 正式放行Git commit `0c595950bfa07c8c489b600fc6f87e08be7f9f84` / tree `2b96195cfffcf8eaba23866272a6e23eecfd3594`；审计分支Actions `41906054484` completed SUCCESS（结构单测和publisher.check_local均PASS），随后expected_sha + force:false将main安全快进到同commit；main Actions `41906174995` completed SUCCESS（相同步骤均PASS）。

@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 528
+title: "接收岗签了字，夜归的人还站在门外"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "e5dc2ca331ee0cac8f99ad526d8c2dbac4e8b41d"
+reader_review: "reader_reviews/0528_e5dc2ca3.md"
+depends_on_chapter: 527
+depends_on_source_sha: "32798251259048f8c4b6c9eb2c9aae09d9bb962e"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day391 09:13—Day392 07:08"
+summary: >-
+  Day391马芸09:54另行申请2019原73页指定旧关联重拟稿次站“地址要素补核转办待办”原核址岗签领材料，14:02限准，双岗比原派发/签领/独立交接表并排异月同尾号和迁移回填，16:17有限去身份摘录证当年核址岗实际独立接领待办；核址结果、旧信再次改址派送与历史真人得答仍未知。当代栖霞苑二号门唐莉22:06真人被卡门外而系统四次显示已入，22:18物业报中心，22:31梁策只核合法可用入口；22:56唐莉经东侧有人值守服务门及家属原渠道核授权实入园，23:04到二号楼五层、23:12与顾姐及家属真照护交班。老人当晚始终有人照看，顾姐因晚交班错过末班由丈夫来接；自动门禁复机、四次误记录正式处理和雇主工时工资仍由各有责方后核。23:28限项回告，Day392 07:08交班。F003仅真领待办新证，F008/M004/M005、2016封内与2022实际字节同一无新独立确证。
+meaningful_state_changes:
+  - "2019旧核址待办从已生成而本许可未见承接推进至原始岗位签领簿与独立交接表证实当年有责岗位实际承接；办结和历史人得答未知。"
+  - "唐莉由系统假已入而真人门外推进到22:56合规东门实入、23:12家属确认真实照护换班；维修误记与工时仍未结。"
+knowledge_updates:
+  - "马芸/夜班仅知道合法非身份史档岗位真签领，不知核址办理结果、地址/历史个人或纸件终局。"
+  - "唐莉/顾姐/家属知道真入门及交班时点，物业负责误记和设备、雇主负责工时核定。"
+relationship_updates:
+  - "马芸制止同事把岗位领单误写办结，唐莉顾姐互相守住实际照护责任，并以保温杯和饭盒呈现互助。"
+foreshadowing_updates:
+  - "F003仅证旧核址岗位任务真领，不证核址完成、旧信重派或2019自然人得答；F008/M004/M005及2016/2022跨源同一无新证。"
+ending_state: "Day392 07:08历史补核岗位实领有证但处理结果仍空；唐莉已经真实入园并换班，二号门设备、四次错误记录和工资工时待有责核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "e5dc2ca331ee0cac8f99ad526d8c2dbac4e8b41d", final_draft_sha: "e5dc2ca331ee0cac8f99ad526d8c2dbac4e8b41d", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3450
+release_evidence:
+  ready_blob: "e02ff42e941bae93274bd4347eba55084cb73de4"
+  structural_gate: pending_exact_candidate_ci

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 527
+last_updated_chapter: 528
 characters:
   zhou_heng:
     knows:
@@ -2795,3 +2795,11 @@ chapter_527_arc054_verified:
   ma_yun_and_center: "只知2019次站地址补核待办生成且本次许可未核到独立承接，不知道是否以后办理及历史真人受答。"
   luo_xin_and_providers: "只证四〇一当下专业稳定复通及瓶水真交，不证全楼正常与可直饮水质。"
   invariants: "F008/M004/M005、2016/2022跨源同一及旧个人收答均未新证。"
+
+chapter_528_arc054_verified:
+  chapter: 528
+  source_sha: "e5dc2ca331ee0cac8f99ad526d8c2dbac4e8b41d"
+  ma_yun_and_night_center: "只凭合法新去身份限项得知2019旧补核任务原始岗位真实签领；不获具体地址、核址结果、投递情况、收件人或历史答复；迁移处理完成仅是系统写入成功。"
+  tang_li_and_family: "唐莉与物业知道四次扫码成功不代表本人进门，22:56按身份预约家属有效电话确证进入东侧服务门，23:12家属确认与顾姐真人换班；老人有在岗照护、当晚无报告紧急医疗险情。"
+  unresolved: "设备运营须查自动访客故障和原错误记录；工资工时由雇主核算，中心不能直接认定已修复、已更正或已结算。"
+  invariants: "旧任务岗位实领≠核址实际完成≠旧信改址重派≠2019自然人得答；F008/M004/M005与2016/2022同一未获新独立证。"
