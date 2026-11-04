@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 525
+last_updated_chapter: 527
 characters:
   zhou_heng:
     knows:
@@ -2784,3 +2784,14 @@ chapter_525_arc054_verified:
   center_team: "夏宁分开物业门岗二十箱入库和本户实际送上楼及管网未修，周衡与梁策不替全部住户签字或擅自判专业复水。"
   invariants: "F003仅首站对外交接与承运独立接入有证，F008/M004/M005、历史真人获答仍无独立确证。"
 
+chapter_526_arc054_verified:
+  chapter: 526
+  source_sha: "216f77e73c59d0405c192aa0825791fc4c4ef481"
+  ma_yun_and_center: "只知限项证实2019指定小袋次站真正接收及地址要素待补核类别，不知具体地址或后续个人收答。"
+  jiang_ayi_and_street: "本人向有责岗位确认在女儿处安全而当夜不需送水，不同意公开住处；未核602实体室内或楼内供水。"
+chapter_527_arc054_verified:
+  chapter: 527
+  source_sha: "ee942a858fd7fc59afda901cb99977c9bd84c947"
+  ma_yun_and_center: "只知2019次站地址补核待办生成且本次许可未核到独立承接，不知道是否以后办理及历史真人受答。"
+  luo_xin_and_providers: "只证四〇一当下专业稳定复通及瓶水真交，不证全楼正常与可直饮水质。"
+  invariants: "F008/M004/M005、2016/2022跨源同一及旧个人收答均未新证。"

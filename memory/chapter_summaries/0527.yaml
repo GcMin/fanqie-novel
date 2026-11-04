@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 527
+title: "一张补核单没有走远，四楼的水终于流了"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "ab1fb75c091d9344de781091d45b56c546846bd2"
+source_draft_sha: "ee942a858fd7fc59afda901cb99977c9bd84c947"
+initial_review: "reader_reviews/0527_ab1fb75c.md"
+reader_review: "reader_reviews/0527_ee942a85.md"
+depends_on_chapter: 526
+depends_on_source_sha: "5194624fa5716f9e7cebb721ea23119f3aad42da"
+dependency_status: verified_ready_same_body_and_title
+timeframe: "Day390 09:17—Day391 07:06"
+summary: >-
+  Day390马芸基于526已证2019旧指定小封袋次站真实实收和地址要素待补核类别，09:43另申当时后续非身份任务承接，13:56新限准，双岗排同尾号异月后确证分类之后曾生成“地址要素补核转办待办”，但本次开放载体仅见拟交而无独立承接确认，16:22获限摘；不能推历史任务永不处理、具体地址及当事人身份。新河里四号楼401罗欣看到物业“全栋恢复”公告带孩子回家，水先黄后细；Day390 20:26中心接求助，有责专业核原公告系区段试压被误写全楼恢复，四楼支路尚隔离待复通，21:05专业核后按程序操作，21:48街道物业实交两瓶合规包装饮用水，22:36本户冷水连续稳定出水并经专业记录，22:55物业保源更正原群，23:19罗欣真人回拨；水质饮用判定、全楼逐户和持续恢复仍待有责，不把六楼602昨夜无送水需求改写成已复供。Day391 07:06交班。F003仅到任务待办有据且承接不明，F008/M004/M005、2016/2022同一未新证。
+meaningful_state_changes:
+  - "历史旧件的地址补核事项从泛称待补核推进到确有转办待办形成，但尚未见本限项内有责独立承接凭据。"
+  - "四楼401从物业误报全楼恢复而实际支路未复通，推进至专业本户稳定出水核验、两瓶饮水真实交付和公开误报留痕更正。"
+knowledge_updates:
+  - "马芸及夜班只知合法载体里待办生成且未核到独立承接，不知历史后续是否实际执行、具体地址及真人收答。"
+  - "罗欣知道专业当前核本户冷水已稳定且瓶装饮用水已收到，但水质最终安全、其他住户与全楼完工未获确认。"
+relationship_updates:
+  - "马芸让同事把周报“转核址岗办理”改成“生成待办，独立承接待核”；梁策要求周衡不能替从未见过的历史经手人签字，罗欣要求物业把本户真实状态写准。"
+foreshadowing_updates:
+  - "F003新增地址补核转办待办形成而独立承接尚未实证，不上升M004/M005与旧失址原因；F008及2016/2022跨源同一未证。"
+ending_state: "Day391 07:06次站旧地址补核任务仅见已生成待办，不知当年有责岗位是否真正承接；四楼401有专业现场当夜复通和瓶装水实交，全楼和水质仍待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ab1fb75c091d9344de781091d45b56c546846bd2", final_draft_sha: "ee942a858fd7fc59afda901cb99977c9bd84c947", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, fix: "dependency_rebind_526_draft_to_ready_after_same_body_title_compare"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3394
+release_evidence:
+  ready_blob: "32798251259048f8c4b6c9eb2c9aae09d9bb962e"
+  structural_gate: pending_exact_candidate_ci

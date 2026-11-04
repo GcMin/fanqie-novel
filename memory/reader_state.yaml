@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 525
-last_reviewed_title: "封好的旧信出了首站，楼上的水还没送到"
-last_source_path: chapters/draft/0525.md
-last_source_sha: 9ba99b05c8238472c04ee7de720df727e41678be
-last_review_path: reader_reviews/0525_9ba99b05.md
+last_reviewed_chapter: 527
+last_reviewed_title: "一张补核单没有走远，四楼的水终于流了"
+last_source_path: chapters/draft/0527.md
+last_source_sha: ee942a858fd7fc59afda901cb99977c9bd84c947
+last_review_path: reader_reviews/0527_ee942a85.md
 last_reviewed_at: "2026-11-05"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -5453,3 +5453,32 @@ release_524_525_exact_ci_evidence:
   main_update: expected_sha_force_false_success
   ready_524_blob: "b228be104e4cce0ee3edcaeaef69aaf87078cfdf"
   ready_525_blob: "3d67442df304a147b708d0d184dd6de4e34ee697"
+
+chapter_526_arc054_reader_gate:
+  chapter: 526
+  source_sha: "216f77e73c59d0405c192aa0825791fc4c4ef481"
+  review: "reader_reviews/0526_216f77e7.md"
+  counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  predecessor_ready_blob: "3d67442df304a147b708d0d184dd6de4e34ee697"
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci
+chapter_527_arc054_reader_gate:
+  chapter: 527
+  original_source_sha: "ab1fb75c091d9344de781091d45b56c546846bd2"
+  original_review: "reader_reviews/0527_ab1fb75c.md"
+  initial_counts: "0/1/2"
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_ready_blob: "5194624fa5716f9e7cebb721ea23119f3aad42da"
+  predecessor_factual_delta: none_title_body_identical
+  final_source_sha: "ee942a858fd7fc59afda901cb99977c9bd84c947"
+  review: "reader_reviews/0527_ee942a85.md"
+  counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci

@@ -7,15 +7,15 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "bb493811435288d7e1bae573a6d0f84f1f4ce38f"
 - depends_on_chapter: 526
-- depends_on_source_sha: "216f77e73c59d0405c192aa0825791fc4c4ef481"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0526.md
+- depends_on_source_sha: "5194624fa5716f9e7cebb721ea23119f3aad42da"
+- dependency_status: verified_ready_same_body_and_title
+- predecessor_location: chapters/ready/0526.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day390 09:17—Day391 07:06
 - pov: 第三人称有限（马芸、罗欣、周衡/夏宁）
 - target_effective_chars: 3000
 - actual_effective_chars: 3394
-- status: planned_draft_pending_independent_audit
+- status: audit_pass_structural_candidate_pending
 
 ## 目标与开场
 第526章目前仅为尚未经独立审核的draft，特定来源Git Blob为 `216f77e73c59d0405c192aa0825791fc4c4ef481`。据其暂定情节，2019原第73页同一关联重拟稿的独立小封袋，在外承运后下一有责分拣节点得到实际接收，后续分类标记“地址要素待补核”；这不意味着具体地址不存在或有人收到。新河里四号楼六〇二姜阿姨经本人确认当夜在亲属处、无需送水，立管仍抢修。本章只在此临时版本事实的明确边界内承接，不视第526章为正式Canon。
@@ -42,3 +42,7 @@
 
 ## Writer交付
 正文按有效字符口径（含标点，不含Front Matter、空白及独立分隔符）3394字，提交后仍待独立Audit审核。
+
+## Audit Stage A 前章依赖复核｜2026-11-05
+- 526原draft `216f77e73c59d0405c192aa0825791fc4c4ef481`与ready候选 `5194624fa5716f9e7cebb721ea23119f3aad42da`标题和正文完整一致，只有交付Front Matter变化；前章事实兼容。
+- 原Writer预检的临时依赖保留为历史描述；当前有效字段以本详纲顶部新正式ready SHA为准。本章小说正文未动，527新draft SHA `ee942a858fd7fc59afda901cb99977c9bd84c947`已独立双遍Reader 0/0/2及内容QA通过；精确CI待核。

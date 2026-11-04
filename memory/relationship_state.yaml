@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 525
+last_updated_chapter: 527
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2459,3 +2459,17 @@ chapter_525_arc054_verified:
   center_team: "夏宁不替全楼签收，梁策优先三楼居民安全，周衡分栏对照史档与当代，互信值不凭单章无据调整。"
   trust_scores_unchanged: true
 
+chapter_526_arc054_verified:
+  chapter: 526
+  source_sha: "216f77e73c59d0405c192aa0825791fc4c4ef481"
+  ma_yun_and_colleague: "拒从次站实收直接推历史收件人得答。"
+  jiang_ayi_and_street: "楼长的担忧获本人声音证实无当夜危险，街道尊重隐私，物业保源撤无据猜测。"
+  center_team: "夏宁与梁策分开不需要和拒绝，互信值无据不调。"
+  trust_scores_unchanged: true
+chapter_527_arc054_verified:
+  chapter: 527
+  source_sha: "ee942a858fd7fc59afda901cb99977c9bd84c947"
+  ma_yun_and_colleague: "马芸删掉无据的办理二字，仅写待办形成与承接待核。"
+  luo_xin_and_providers: "误报使罗欣带孩子回家遇无水，专业人员真实本户复通并交应急水。"
+  center_team: "梁策提醒周衡不替旧件陌生经手者签字，夏宁核本人回拨而非全楼公告。"
+  trust_scores_unchanged: true
