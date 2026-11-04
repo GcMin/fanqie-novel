@@ -7,18 +7,18 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "55acca55a51bffe7887f613fb739a61702f67a18"
 - depends_on_chapter: 510
-- depends_on_source_sha: a203cc95c09a73c632d6f95e6a269bc4879861e0
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0510.md
+- depends_on_source_sha: 570bee4ff60e6cf91280bb3aeace3016924cccf0
+- dependency_status: verified_predecessor_factual_delta_reconciled
+- predecessor_location: chapters/ready/0510.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day374 09:18—Day375 07:05
 - pov: 第三人称有限，马芸 / 陶佩云 / 周衡
 - target_effective_chars: 3000
-- actual_effective_chars: 3253
+- actual_effective_chars: 3272
 - status: planned_and_new_draft_only
 
 ## 本章目标和开场
-第510章末，2019年第73页原指定笔经合法许可已经证实在“当次暂缓交运”后出现同笔“识别码复核申请登记”，但只是申请，并不意味着处理完毕；前章仍为未审草稿，以上依赖是 provisional，既不宣称已审定Canon，也不得当作独立真实历史回告。本章让马芸进一步依法确认“复核处理登记”是否存在，限定查可开放的非身份状态，不跨越原岗与接收端。陶佩云借机仍是另编号临时机，原左耳机留点待专业处理，借期 Day375 17:00，没有原机修好结论。
+第510章末，2019年第73页原指定笔经合法许可已经证实在“当次暂缓交运”后出现同笔“识别码复核申请登记”，但只是申请，并不意味着处理完毕；前章已真实Reader及独立QA、正文未改，依赖已重绑前章最终ready版本，既不宣称已审定Canon，也不得当作独立真实历史回告。本章让马芸进一步依法确认“复核处理登记”是否存在，限定查可开放的非身份状态，不跨越原岗与接收端。陶佩云借机仍是另编号临时机，原左耳机留点待专业处理，借期 Day375 17:00，没有原机修好结论。
 
 ## 人物诉求与冲突
 - 马芸：想从“有人申请”走到“到底处理了什么”；同事担心反复申请无结果，试图提前结案。法律许可只查特定登记状态而非完整码值、姓名或收答。
@@ -34,7 +34,7 @@
 6. Day375 07:05有限交班，F003有界推进且历史真人受答、码的实际更正及再次交运未知，形成新的待合法查证点。
 
 ## 新信息 / 状态变化
-2019指定笔“复核申请”后**确有同笔处理登记**，处理结果不是完成改码，而是**双码并列待核且待补原始依据**。这只是合法获准的非身份登记类别，不能确认码值含义、真实补件、后来补核成功、再次交运、对端接收或自然人获答。F003新线索维持限定，2016封内回告与2022实际导入字节仍不能跨年等同；F008/M004/M005不得升级，F009/F010/F011仍 resolved。第510章未审，必须随 SHA 后续独立核兼容性。
+2019指定笔“复核申请”后**确有同笔处理登记**，处理结果不是完成改码，而是**双码并列待核且待补原始依据**。这只是合法获准的非身份登记类别，不能确认码值含义、真实补件、后来补核成功、再次交运、对端接收或自然人获答。F003新线索维持限定，2016封内回告与2022实际导入字节仍不能跨年等同；F008/M004/M005不得升级，F009/F010/F011仍 resolved。第510章原稿与候选正式ready正文/标题实际核对完全一致，仅Front Matter交付及长度发生改变；本章现依赖最终ready SHA。
 
 ## 现有Canon与保密边界
 - 周衡三人不能白天在档案库亲见原册，只在20:17后获得马芸有权限项摘录；不向外披露个人信息及完整旧码。
@@ -43,4 +43,4 @@
 - 不修改既有正文，不做Reader、Revision、QA、长期Memory、ready、Publisher。标题与Front Matter保持一致，独立审核仍 pending。
 
 ## 预检与章尾交接
-从GitHub main当前 HEAD 55acca55a51bffe7887f613fb739a61702f67a18 的 published/ready/draft 数字章号中确认最大510，且published/0153.md已在仓库；新章必须是511。第510章草稿完整 Git Blob SHA a203cc95c09a73c632d6f95e6a269bc4879861e0，状态draft，因此依赖provisional。已重读最新AGENTS、novel.yaml、writing_roles、ai_reading_protocol、bible/premise/main_outline/world/style与三主角卡、当前可用卷弧、长期人物知识状态、F003时间线、500—509摘要及506—510全文；旧卷图停滞，以当前正文有来源事实约束。下章可另申请确认原始依据是否曾补齐，但不能凭本章状态预认后续交运、旧人签答或明确失址机理。正文目标2600—3400有效字，当前3253字。
+从GitHub main当前 HEAD 55acca55a51bffe7887f613fb739a61702f67a18 的 published/ready/draft 数字章号中确认最大510，且published/0153.md已在仓库；新章必须是511。第510章草稿完整 Git Blob SHA 570bee4ff60e6cf91280bb3aeace3016924cccf0，状态draft，因此依赖provisional。已重读最新AGENTS、novel.yaml、writing_roles、ai_reading_protocol、bible/premise/main_outline/world/style与三主角卡、当前可用卷弧、长期人物知识状态、F003时间线、500—509摘要及506—510全文；旧卷图停滞，以当前正文有来源事实约束。下章可另申请确认原始依据是否曾补齐，但不能凭本章状态预认后续交运、旧人签答或明确失址机理。正文目标2600—3400有效字，当前3272字。
