@@ -1,3 +1,7 @@
+## 第517章精确候选与main结构CI均SUCCESS并正式ready｜2026-11-04
+- 放行Commit `396de5fdf42ba1f8b5745f5c4003bca71f3c283a`，Tree `8ed4688436241940e47ccc384646267518e887cd`；审计候选 Actions `41813217888` 和正式main Actions `41813326848` 均按精确head SHA completed/SUCCESS，离线结构单元测试与`python -m publisher.check_local --repo .`步骤均成功。先候选核验后非强制expected_sha快进main，ready Blob `85b841af1ce5bed58c7f758fc4abcc4cd6cc4cbb`，原draft原子删除。
+- Reader独立Pass A/B 0/0/2，正文未改，独立Continuity/Style/Meaningful QA PASS；第516章依赖精确。Day380双端有据证2019关联重拟稿原单位对外交出和外部承运接入，不证明目的端实收或历史人获答；黎苗21:23由蒋宜真正接领21:38母女实离楼，错误20:27扫码映射留存待运营核。F008/M004/M005无新确证。
+
 ## 第516章精确候选与main结构CI全部SUCCESS及正式ready｜2026-11-04
 - 第516章正式放行Commit `132e076df3256ff31b02af517d2eb3456ff210df`，父main `fde9dc2b40f8080c6f416e3687386e54d357a5c9`，Tree `7e91cfb91de02864c6f0343fc615520619e14e82`。候选分支 `audit/ready-0516-20261104` Actions `41806482985`和main同SHA Actions `41806539202`均精确匹配HEAD且completed/**SUCCESS**，离线结构单元测试与`python -m publisher.check_local --repo .`各自PASS。以`expected_sha`及`force:false`真实快进main；ready Blob `0d3c1ae4bb40787bea5bb6f0eb78894a8a2f9edd`，原draft删除。Reader0/0/2，独立QA PASS，正文0字改，Memory计划同步。
 

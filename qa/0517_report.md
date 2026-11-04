@@ -9,3 +9,9 @@
 - **Meaningful Change PASS**：2019原单位外部承运交接新增原始双端证据；孩子从后台误标已接领且实体仍在画室，变为实际有责身份核验、监护人接领并离楼；保留误映原记录供运营方核查。
 - **Memory/Plan候选**：按正文同步本章摘要、人物、知识、世界、关系、时间线、F003和当前弧；仅新增517计划，全部已ready计划保持原状。
 - **结构门禁**：本篇内容QA PASS不能替代结构CI。在与当前Git树精确匹配的候选Commit上，`python -m publisher.check_local --repo .`及结构单测必须真实SUCCESS，之后方可用`expected_sha`、`force:false`更新main并将draft原子迁ready。候选态不冒称结构校验已通过。
+
+## 第517章精确结构CI SUCCESS后已正式ready｜2026-11-04
+- 放行Commit `396de5fdf42ba1f8b5745f5c4003bca71f3c283a`，Git Tree `8ed4688436241940e47ccc384646267518e887cd`，父main `3cb4ce69d3e2777225c13880b789da461ea21781`。
+- 候选分支 `audit/ready-0517-20261104-1810` Actions `41813217888` head_sha精确匹配放行Commit，状态completed/**SUCCESS**；结构单元测试和 `python -m publisher.check_local --repo .` 两步骤分别SUCCESS。
+- 确认候选CI通过才使用expected_sha=`3cb4ce69d3e2777225c13880b789da461ea21781`、force:false将main非强制快进至该Commit；main同SHA Actions `41813326848` completed/**SUCCESS**，两步结构校验同样SUCCESS。
+- 正式ready `chapters/ready/0517.md` Git Blob `85b841af1ce5bed58c7f758fc4abcc4cd6cc4cbb`，原draft与ready在同一Git Tree原子迁移。Reader0/0/2、独立内容QA PASS，全文无修订，长期Memory与计划同期更新；未改Canon/published，不发布番茄。

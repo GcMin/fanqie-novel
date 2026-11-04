@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 517
-current_stage: reader_pass_and_content_qa_complete_pending_exact_structural_ci
+current_stage: ready_committed_after_exact_ci_success
 current_source_path: chapters/draft/0517.md
 current_source_sha: 26db97c0d41edb1e1d0571e09b301ba344ea8ccf
 current_review_path: reader_reviews/0517_26db97c0.md
@@ -12,7 +12,7 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter517_reader_and_content_qa_pass_pending_exact_candidate_ci
+last_action: chapter517_ready_committed_after_exact_ci_success
 last_action_date: "2026-11-04"
 last_error: null
 last_diff_summary: "517 reader 0/0/2 keep none; body unchanged; independent QA pass; structural CI pending"
@@ -4625,4 +4625,16 @@ chapter_517_20261104:
   safe_mode: false
   predecessor_ready_blob: "0d3c1ae4bb40787bea5bb6f0eb78894a8a2f9edd"
   content_qa: pass
-  structural_gate: exact_candidate_ci_required
+  structural_gate: exact_candidate_and_main_ci_success
+
+release_517_revision_evidence:
+  chapter: 517
+  source_sha: "26db97c0d41edb1e1d0571e09b301ba344ea8ccf"
+  final_review: "reader_reviews/0517_26db97c0.md"
+  final_counts: "0/0/2"
+  stage_a_used: 0
+  body_revisions: 0
+  content_qa: pass
+  structural_gate: exact_candidate_ci_success_41813217888
+  main_ci: 41813326848
+  ready_blob: "85b841af1ce5bed58c7f758fc4abcc4cd6cc4cbb"
