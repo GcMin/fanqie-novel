@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 514
+title: "借来的声音归了柜，重写的通知才起头"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "41262c3d9620c62615284cce82794a069bc6ab93"
+source_draft_sha: "a1b5cea937173fb9a51edf7d46d3eb2e03bb65c8"
+initial_review: "reader_reviews/0514_41262c3d.md"
+reader_review: "reader_reviews/0514_a1b5cea9.md"
+depends_on_chapter: 513
+depends_on_source_sha: "d0a9ee3ad802516db83905b5afae97c1fe720844"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day377 09:07—Day378 07:04"
+summary: >-
+  Day377马芸09:54在原2019纸档窗口将同笔旧拟发事项当次退回后的关联“重拟稿建档”存在与非身份状态窄申真收件，13:42获有责限项许可，15:33双岗排除跨月近号并核到同一业务原始关联重拟稿建档、登记状态为待补依据复核，16:11领去身份限定摘录；无法证明新文稿实体全文、核发外发、末端交接及历史自然人实收答。陶佩云10:21闻原机适配件真到，14:27由验配师专业处理和短时场景试戴未复现尖鸣，16:02本人核编号领回原左耳机，16:38将另编号临时机实还并取独立凭据，早于原延期Day377 17:00；21:46回家厨房短时未再尖鸣但长期适配未知。20:29夜班中心只获两路合法限项回报，Day378 07:04交班；南砂路施工仍在继续。F003有界推进，F008/M004/M005没有新独立确证。
+meaningful_state_changes:
+  - "2019指定旧业务旧拟稿退回后，原始关联重拟稿建档及待补依据复核登记被合法双岗确认，仍不能据此推新稿已经发出或当事人收到。"
+  - "陶佩云有责专业处理后本人实领原左耳机，另编号临时借机按时独立归还，长期效果待观察。"
+knowledge_updates:
+  - "马芸与夜班仅能按授权知道有新重拟建档，不知道真实核发外发、历史自然人收答或旧码的正确值。"
+  - "陶佩云知道本人实际持原机、临时机已还，但日常长期适配尚未证实。"
+relationship_updates:
+  - "陶佩云不请女儿代办而本人事后告知，服务点按两编号真实交接；马芸促同事更正周报避免把建档误写送达。"
+foreshadowing_updates:
+  - "F003新添2019同笔关联建档登记；2016旧封、2022字节同一、历史真人获答仍未知，F008/M004/M005无新确证，F009/F010/F011仍resolved。"
+ending_state: "Day378 07:04原左耳机在陶佩云本人手中、另一编号借机在有责服务点；2019同笔仅重拟建档状态有证，后续核发外发/真人受答未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "41262c3d9620c62615284cce82794a069bc6ab93", final_draft_sha: "a1b5cea937173fb9a51edf7d46d3eb2e03bb65c8", stage_a_used: 1, body_revisions: 0, fix: "char_count_and_plan_3770_to_3785"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3785

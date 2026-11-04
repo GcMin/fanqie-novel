@@ -14,7 +14,7 @@
 - timeframe: Day377 09:07—Day378 07:04
 - pov: 第三人称有限视角，马芸 / 陶佩云 / 周衡
 - target_effective_chars: 3000
-- actual_effective_chars: 3770
+- actual_effective_chars: 3785
 - status: planned_and_new_draft_only
 
 ## 本章目标和开场状态

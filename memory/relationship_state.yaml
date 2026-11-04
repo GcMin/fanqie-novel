@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 513
+last_updated_chapter: 514
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2368,3 +2368,11 @@ chapter_513_arc054_update:
   chapter: 513
   zhao_ailian_and_property: "赵爱莲不认可后台群发成功即本人获知，物业有责检查告示朝向并协调清障后给实际通行保障，不强迫其冒险走封闭区。"
   core_team: "梁策只核外围而不自签施工许可，夏宁据本人回拨登记到院，周衡拒将纸档当次退回误成以后永不发送。"
+
+chapter_514_arc054_update:
+  chapter: 514
+  source_sha: "a1b5cea937173fb9a51edf7d46d3eb2e03bb65c8"
+  tao_peiyun_and_daughter: "陶佩云坚持Day377独自办理原机领回和借机归还，事后本人告知女儿并约吃豆腐；女儿没有代签，关系在尊重本人决定的前提下继续相互照应。"
+  tao_peiyun_and_service: "专业验配员在有限条件下实际核旧机新适配件，留有书面记录；服务点把不同编号原机交回与借机回收分单，接受本人后续故障回报而非给长期合格承诺。"
+  ma_yun_and_colleague: "同事修周报将原拟稿退回与后续重拟稿建档分列；马芸明确下一查须基于新索引另行申请，不直接外推发出或真人获答。"
+  core_team: "周衡、夏宁、梁策依不同授权来源区分两条进度，不替有责档案岗或售后岗推终局；南砂路本人回拨已完成，仍不推全院受通知。"
