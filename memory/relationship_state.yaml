@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 529
+last_updated_chapter: 530
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2489,4 +2489,12 @@ chapter_529_arc054_verified:
   ma_yun_and_colleague: "同事想将核址岗位接单和数据迁移完成写办结，马芸只接受本次合法原始工作页确证的实际参照核对及暂缓自动覆盖，不越证补最终结论。"
   shen_yiqing_and_listeners: "沈宜青带母亲家书从活动室封门到东侧书屋亲自朗读得到真实听众，年轻报名者自行选择另日改期，社区人员提供真实凭据。"
   center_team: "夏宁、周衡仅有责核当晚十二人真实参与和旧室持续封闭，梁策只核外围可通行线路不代文化主管签许可，互信值无据不改。"
+  trust_scores_unchanged: true
+
+chapter_530_arc054_verified:
+  chapter: 530
+  source_sha: "81877fb04bfe4ebcd3eb890c14d3ccfe90e66934"
+  ma_yun_and_colleague: "同事觉得继续补据岗交接不如直接写已答复，马芸把业务岗有无真正实领及历史收信人答复空栏保留，拒越权推定。"
+  lin_xiuzhi_delivery: "老人坚持槐石里8号是旧院原有效住址，配送负责人承认平台错改并按职责实际撤回原误代收，22:19本人真收而未拆箱试听，双方留下可复核的错映和真签收记录。"
+  center_team: "梁策不越权从商务楼柜拿箱，夏宁分三方回告与系统误映，周衡只记两个真门牌；主要人物互信分值没有无依据变化。"
   trust_scores_unchanged: true

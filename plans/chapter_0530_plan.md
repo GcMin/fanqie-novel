@@ -7,18 +7,18 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "a93e38d9dac87ca84085ebd073389e8df012db58"
 - depends_on_chapter: 529
-- depends_on_source_sha: "555f8c79219ea32b057278385c11e21c3c3ae771"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0529.md
+- depends_on_source_sha: "6f51154625c57fa38578c8e3ef7b4e98a05102d9"
+- dependency_status: verified_ready_same_title_body_facts
+- predecessor_location: chapters/ready/0529.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day393 09:14—Day394 07:07
 - pov: 第三人称有限（林秀枝、马芸、周衡、夏宁）
 - target_effective_chars: 3000
 - actual_effective_chars: 3459
-- status: draft_pending_independent_audit
+- status: draft_pending_rereview_after_dependency_rebind
 
 ## 本章目标和开场
-上一章529尚在draft，仅可临时依赖其指定Blob：2019原第73页同笔关联重拟稿核址岗曾实际调取两类规范地址参照，非身份阶段结论为“候选对应不唯一”，暂缓自动覆盖原报地址，尚无补据处理终局或历史自然人收答证据；Day392白杨社区旧活动室禁入，书屋限一次朗读实际完成，正式复修仍待专业核。本章以“原文和系统规范地址不同”推进限项旧证与两条当代合法街名被系统误合的实际处置。
+上一章529现已由独立Audit审核并通过精确结构CI进入ready，复核其原draft与ready标题及小说正文完全一致，因此可依赖正式Blob：2019原第73页同笔关联重拟稿核址岗曾实际调取两类规范地址参照，非身份阶段结论为“候选对应不唯一”，暂缓自动覆盖原报地址，尚无补据处理终局或历史自然人收答证据；Day392白杨社区旧活动室禁入，书屋限一次朗读实际完成，正式复修仍待专业核。本章以“原文和系统规范地址不同”推进限项旧证与两条当代合法街名被系统误合的实际处置。
 
 ## 人物诉求与阻碍
 - 马芸：查“待补依据再核”是否有具体补据请求和真实岗位回转，而非索要地址原文、历史收件身份或终局；再次独立申请，不冒用旧许可。
@@ -42,11 +42,11 @@
 ## 伏笔与不可泄露
 - F003继续待查真实补据办结与历史本人回告，不跨查权限；F008无新的可靠本人记忆矛盾样本，M004/M005未获独立新证。
 - 2016旧封内物及2022实际读取文件字节同一性不升级；F009/F010/F011保持resolved。
-- 前章529待独立Audit；不能把其尚未审核的“候选对应不唯一”直接确认为正式Canon。若审核改变此事实，后续Revision/QA负责跨章核对。
+- 前章529已通过独立Audit/QA且只变交付元数据，历史“候选对应不唯一”可在其合法限项证据边界内视为已核事实，不能把历史自然人获答提前当已证。
 
 ## Continuity Precheck（仅Writer）
 - 从GitHub main最新完整tree核对published/ready/draft: 0153已在published，最高章号529；第530章正文和章纲均不存在。AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、Bible、人物卡及当前卷/弧、长期Memory/知识和人物状态、F003与时间线、最近519—528章十章摘要、最近525—529章五章正文已读取；旧卷/弧纲存在滞后，按已审正文与最新Memory约束，不改旧纲。
-- 529仅draft，临时依赖正文Blob `555f8c79219ea32b057278385c11e21c3c3ae771`，不得当成已经ready的Canon。
+- 529已ready，按内容及标题逐段比对后正式依赖Blob `6f51154625c57fa38578c8e3ef7b4e98a05102d9`，已通过独立Reader、QA与精确候选CI；不得超出其有限事实边界。
 - 当前人物与事实边界不改变：2016封内、2022字节同源、F008/M004/M005未证；不将任何新民生服务问题直接神秘化。
 - 仅新增计划与draft，不读取历史reader_reviews，不作Editor、Reader、Revision、QA、Memory或Publish Gate，不修改旧文件。
 

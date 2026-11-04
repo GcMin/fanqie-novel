@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 529
+last_updated_chapter: 530
 characters:
   zhou_heng:
     knows:
@@ -2811,3 +2811,11 @@ chapter_529_arc054_verified:
   shen_yiqing_and_participants: "老人只知东侧书屋有真实听众听其读完家书，尚不知道原文化活动室何时专业复开；其余报名者不得被视为当晚已出席。"
   center_team: "夜班按合法无身份旧案摘录及书屋和社区有责回告知有限事实；不代主管决定场地或读取档案涉个资，不因候选不唯一推断城市失址机制。"
   invariants: "F008/M004/M005、2016封内物和2022实际读取字节同一均无新独立确证。"
+
+chapter_530_arc054_verified:
+  chapter: 530
+  source_sha: "81877fb04bfe4ebcd3eb890c14d3ccfe90e66934"
+  ma_yun_and_center: "仅合法获知2019原核址岗确形成指定补据清单、实际交给原形成单位收发岗且有独立接入簿；不知具体地址、补据是否填齐、经办岗后来是否取走、最终旧信收答或任何历史自然人身份。"
+  lin_xiuzhi_and_carriers: "林秀枝和配送有责人员确认槐石里8号与槐石路8号是两处有效不同门牌，错改地址造成商务楼当次代收后撤回和本人22:19实际收件；林秀枝尚未开机试磁带，运营方未确认整体修复。"
+  center_team: "周衡/夏宁/梁策以当夜合法三方回告及有权小范围档案摘录知事实，不代任何方签物件/证明地址异常或历史人得答。"
+  invariants: "F003仅新增清单合法两侧交接，F008/M004/M005及2016/2022跨源同一无证。"

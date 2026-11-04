@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 529
+current_chapter: 530
 current_stage: candidate_pending_exact_ci
-current_source_path: chapters/draft/0529.md
-current_source_sha: 555f8c79219ea32b057278385c11e21c3c3ae771
-current_review_path: reader_reviews/0529_555f8c79.md
+current_source_path: chapters/draft/0530.md
+current_source_sha: 81877fb04bfe4ebcd3eb890c14d3ccfe90e66934
+current_review_path: reader_reviews/0530_81877fb0.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter529_content_qa_pass_pending_exact_candidate_ci
+last_action: chapter530_content_qa_pass_pending_exact_candidate_ci
 last_action_date: "2026-11-05"
 last_error: null
-last_diff_summary: "529 Reader 0/0/2 keep/none，未修订正文；独立内容QA PASS，结构精确候选CI待核"
+last_diff_summary: "530 初审0/1/2，Stage A一次只改前章ready依赖元数据；新SHA双遍Reader 0/0/2，正文0字改，内容QA PASS，精确结构CI待核"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -4905,5 +4905,24 @@ chapter_529_arc054_revision:
   body_revisions: 0
   retry_cycles: 0
   safe_mode: false
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci
+
+chapter_530_arc054_revision:
+  chapter: 530
+  original_source_sha: "0db773825c58d44604b262139eed33886999d0ad"
+  initial_review: "reader_reviews/0530_0db77382.md"
+  initial_counts: "0/1/2"
+  predecessor_original_draft_sha: "555f8c79219ea32b057278385c11e21c3c3ae771"
+  predecessor_ready_blob: "6f51154625c57fa38578c8e3ef7b4e98a05102d9"
+  predecessor_factual_delta: none_title_body_identical
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  final_source_sha: "81877fb04bfe4ebcd3eb890c14d3ccfe90e66934"
+  final_review: "reader_reviews/0530_81877fb0.md"
+  final_counts: "0/0/2"
+  retry_cycles: 0
   content_qa: pass
   structural_gate: pending_exact_candidate_ci

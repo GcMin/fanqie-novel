@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 529
-last_reviewed_title: "旧地址没有被改掉，灯亮在另一间屋"
-last_source_path: chapters/draft/0529.md
-last_source_sha: 555f8c79219ea32b057278385c11e21c3c3ae771
-last_review_path: reader_reviews/0529_555f8c79.md
+last_reviewed_chapter: 530
+last_reviewed_title: "两个八号门牌，只有一件东西抵达"
+last_source_path: chapters/draft/0530.md
+last_source_sha: 81877fb04bfe4ebcd3eb890c14d3ccfe90e66934
+last_review_path: reader_reviews/0530_81877fb0.md
 last_reviewed_at: "2026-11-05"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,9 +12,9 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 528
-depends_on_source_sha: e02ff42e941bae93274bd4347eba55084cb73de4
-dependency_status: verified_exact_ready_blob
+depends_on_chapter: 529
+depends_on_source_sha: 6f51154625c57fa38578c8e3ef7b4e98a05102d9
+dependency_status: verified_ready_same_title_body_facts
 predecessor_current_source_sha: 32798251259048f8c4b6c9eb2c9aae09d9bb962e
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
@@ -5530,5 +5530,24 @@ chapter_529_arc054_reader_gate:
   independent_pass_a_then_b: true
   predecessor_ready_blob: "e02ff42e941bae93274bd4347eba55084cb73de4"
   predecessor_factual_delta: exact_ready_blob_no_delta
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci
+
+chapter_530_arc054_reader_gate:
+  chapter: 530
+  original_source_sha: "0db773825c58d44604b262139eed33886999d0ad"
+  initial_review: "reader_reviews/0530_0db77382.md"
+  initial_counts: "0/1/2"
+  predecessor_original_draft_sha: "555f8c79219ea32b057278385c11e21c3c3ae771"
+  predecessor_ready_blob: "6f51154625c57fa38578c8e3ef7b4e98a05102d9"
+  predecessor_factual_delta: none_title_body_identical
+  stage_a_used: 1
+  body_revisions: 0
+  final_source_sha: "81877fb04bfe4ebcd3eb890c14d3ccfe90e66934"
+  review: "reader_reviews/0530_81877fb0.md"
+  counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
   content_qa: pass
   structural_gate: pending_exact_candidate_ci

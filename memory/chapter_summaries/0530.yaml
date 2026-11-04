@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 530
+title: "两个八号门牌，只有一件东西抵达"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "0db773825c58d44604b262139eed33886999d0ad"
+source_draft_sha: "81877fb04bfe4ebcd3eb890c14d3ccfe90e66934"
+initial_review: "reader_reviews/0530_0db77382.md"
+reader_review: "reader_reviews/0530_81877fb0.md"
+depends_on_chapter: 529
+depends_on_source_sha: "6f51154625c57fa38578c8e3ef7b4e98a05102d9"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day393 09:14—Day394 07:07"
+summary: >-
+  Day393马芸依据529已证2019原第73页重拟稿核址岗真调两类规范地址参照、候选对应不唯一并暂缓自动覆盖原报字段，09:14新申只核原任务补据请求形成和首次岗位回转，10:06收件13:47获另项合法权限；15:24双保管员依法对原核址岗补据登记、交出簿与原业务形成单位收发岗接入簿，排异月同尾号、搬库迁移映射和无单件对应批次表后证指定两类补据类别清单确形成且原岗真交出、收发岗真接入，15:52马芸得去身份摘录；后续业务岗是否取件、具体地址、补据是否到齐、旧信终局及历史自然人收答仍未知。当代槐石里8号与槐石路8号真实同在，物流平台自动规范错误将原住户地址改写成商务楼，林秀枝20:18问旧录音机；20:31夜间中心接报。21:03梁策和有责配送站核商务楼代收柜内同封件，21:28前台按原登记撤回、配送方独立实接；22:19有责派送员在槐石里8号按原始留底与本人核验真交到林秀枝，箱未拆，仍待女儿来时试听，23:02中心分五来源登记而平台改写根因及其他单待运营核，Day394 07:07交班。F003仅有限新增补据清单原始真回转，F008/M004/M005和2016封内/2022原字节同一无新证。
+meaningful_state_changes:
+  - "2019核址岗位实际形成指定补据清单并独立真实交给原形成单位收发岗，业务岗接领/补据结论/历史真人收答未核。"
+  - "林秀枝录音机由错误地址商务楼代收柜真实在柜，推进到有责撤回、物流实接并22:19本人真正签收，未开机试听，平台全局修复待核。"
+knowledge_updates:
+  - "马芸/夜班只知有权去身份两册原始交接的非身份动作，不知具体地址、历史人或收件终局。"
+  - "林秀枝确认两处八号均在用、本人取回包裹，不知道机器或磁带最终能否播放。"
+relationship_updates:
+  - "马芸抵住同事跨越收发岗推历史人得答；配送方承担真实撤回及重新交付，林秀枝不以误取件码代替本人认领。"
+foreshadowing_updates:
+  - "F003仅新增补据清单形成及两岗真回转；F008/M004/M005及2016/2022同一无新证。"
+ending_state: "Day394 07:07林秀枝本人收到封箱但未试听，物流误规范规则待查；2019补据清单仅证有责收发岗真接，历史答复仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0db773825c58d44604b262139eed33886999d0ad", final_draft_sha: "81877fb04bfe4ebcd3eb890c14d3ccfe90e66934", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, fix: "rebind_529_draft_sha_to_exact_ready_after_title_body_compare"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3459
