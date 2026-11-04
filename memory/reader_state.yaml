@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 519
-last_reviewed_title: "出站章盖在前面，那只袋子又被退回"
-last_source_path: chapters/draft/0519.md
-last_source_sha: 1dee71cbc72e6683c7d0ceb6cc99517695b8f439
-last_review_path: reader_reviews/0519_1dee71cb.md
+last_reviewed_chapter: 520
+last_reviewed_title: "封袋换了新的，旧信却被单独留下"
+last_source_path: chapters/draft/0520.md
+last_source_sha: 7a7c5f11530358c24aa9ab4c971f8059a07cb9dd
+last_review_path: reader_reviews/0520_7a7c5f11.md
 last_reviewed_at: "2026-11-04"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 518
-depends_on_source_sha: df863313f4a7c673c4c481f81e7c7c6605f32aea
-dependency_status: verified_predecessor_factual_delta_reconciled
-predecessor_current_source_sha: df863313f4a7c673c4c481f81e7c7c6605f32aea
+depends_on_chapter: 519
+depends_on_source_sha: 07bcb9bf0b7ed4754e2c9e58344edb8b661b49f1
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 07bcb9bf0b7ed4754e2c9e58344edb8b661b49f1
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -5310,3 +5310,15 @@ release_518_519_exact_ci_evidence:
   main_update: expected_sha_force_false_success
   ready_518_blob: "df863313f4a7c673c4c481f81e7c7c6605f32aea"
   ready_519_blob: "07bcb9bf0b7ed4754e2c9e58344edb8b661b49f1"
+
+chapter_520_arc054_reader_gate:
+  chapter: 520
+  source_sha: "7a7c5f11530358c24aa9ab4c971f8059a07cb9dd"
+  review: "reader_reviews/0520_7a7c5f11.md"
+  counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  predecessor_ready_blob: "07bcb9bf0b7ed4754e2c9e58344edb8b661b49f1"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required

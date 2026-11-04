@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 520
+title: "封袋换了新的，旧信却被单独留下"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "7a7c5f11530358c24aa9ab4c971f8059a07cb9dd"
+reader_review: "reader_reviews/0520_7a7c5f11.md"
+depends_on_chapter: 519
+depends_on_source_sha: "07bcb9bf0b7ed4754e2c9e58344edb8b661b49f1"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day383 09:14—Day384 07:12"
+summary: >-
+  Day383马芸09:14按2019原第73页同笔关联新稿首站16:32出站预扫作废与16:47封签异常退回的旧证，另递最小合法同件首次再交接查询，09:59正式收件、14:08限项获准；14:43—15:46双岗排同尾号/月份歧义，原袋确有批次重封但指定件在首次分流时单独转入首站内部单件待核保管岗，另一独立载体有实际接入时间/数量凭据，16:09获去身份摘录。尚不知为何待核、之后出柜或重新发运、下一站/目的端或历史人真获答；破损不推故意扣留。北河路少年活动中心16:30从值班柜再发现第二张昨夜公开使用类别的旧整班名单，由有责个人信息岗位登来源、柜位与经手并受控封存；父亲询问仅获其女儿查询途径，其他副本及拍摄和影响范围未清。晚间内侧核有效授权、老师真见孩子与接领人；20:47父亲合法签领、20:52父女实际离楼，正式自动系统仍未完整改造。22:06夜班分两来源落账，Day384 07:12交班。F003新增单件真实内部接入证据，F008/M004/M005仍无独立新证。
+meaningful_state_changes:
+  - "2019原首站退回后，批次重封与同件首次分流被区分，目标单件转首站内部待核岗并获独立接入原证，不等于再出站。"
+  - "北河路发现遗漏第二张全班纸单保源，父亲仅查自家孩子并完成有权真实接领，外泄范围仍待核。"
+knowledge_updates:
+  - "马芸及夜班仅知道同件首次分流及岗位独立接入，不知待核原因、后来出柜或末端收件、历史人受答。"
+  - "方老师/家长仅知道第二张旧全班表已发现并保管，不知其他副本及传播范围；父亲只获自家孩子的本次交接。"
+relationship_updates:
+  - "马芸与同事对批次重封和指定单件实际交运的区分保持职业分歧，夜班不越证画下一站。"
+  - "方老师承认家长的隐私疑虑并提供有责本人查询，父女有效当面交接且离楼。"
+foreshadowing_updates:
+  - "F003到首站内部单件待核岗位真实接入，仍不证具体待核原因和后续出柜、下站收文、历史个人答复；F008/M004/M005、2016旧封内件及2022实际文件字节同一无新独立确证。"
+ending_state: "Day384 07:12纸件首次分流到单件待核岗获双载体实证，后续出柜未知；北河路人工授权接领当次成功、遗漏表已封存但外露范围和正式系统更新未结。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7a7c5f11530358c24aa9ab4c971f8059a07cb9dd", final_draft_sha: "7a7c5f11530358c24aa9ab4c971f8059a07cb9dd", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3281

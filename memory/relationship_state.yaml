@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 515
+last_updated_chapter: 520
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2413,3 +2413,10 @@ chapter_519_arc054_verified:
   ma_yun_and_colleague: "同事想以预扫标已出站又误写整件退回原单位，马芸要求按合法载体写当次预扫作废、首站内部退回，未越证后续。"
   fang_teacher_and_parents: "方老师先收回公众区外摆全班名单，后阻止认得熟人的孩子被无有效授权带走，许一一母亲经原监护渠道核后坚持本人到场完成真领；熟人没有强行索要孩子。"
   center_team: "夏宁分别记录公开名单的待核影响及真交接，梁策不赞同比喻替代有源事实，周衡仅在旧档栏补本次内部退回，互信值不变。"
+
+chapter_520_arc054_verified:
+  chapter: 520
+  source_sha: "7a7c5f11530358c24aa9ab4c971f8059a07cb9dd"
+  ma_yun_and_colleague: "同事推测破袋就重封再寄，马芸依法只核具体同件首次内部交接，不让同事先报出站。"
+  fang_teacher_and_parent: "父亲担忧公开旧全班表曾让陌生家长念出女儿同学名字；方老师说明可依法查询本人子女资料，隐私岗实际发现第二张漏表并保源，父女当晚真接真离。"
+  center_team: "周衡按梁策纠正把本件只写为首次分流入待核岗，夏宁保留旧表外泄范围待核，互信值不凭单章无依据调整。"
