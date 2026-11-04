@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 512
+title: "五点之前，她要自己签下一行"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "fab485bedebb2280fa5574ca7fb5da21e11ee0a8"
+source_draft_sha: "3b14cca386841b1f02ebc1012a7d21fbb815f633"
+initial_review: "reader_reviews/0512_fab485be.md"
+reader_review: "reader_reviews/0512_3b14cca3.md"
+depends_on_chapter: 511
+depends_on_source_sha: "be72fd54b2c1cdc385f391c6935371a18784858a"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day375 08:46—Day376 07:08"
+summary: "Day375陶佩云10:22到雁汀路南门、10:35真做有限专业借机复核，原左耳机仍留修，11:12延借仅受理；13:53获拟批准，16:49本人亲签并经有责办理同编号设备真延至Day377 17:00，不代原机完工或长期适配。马芸11:48新交2019原第73页同笔非身份催补目录窄申，15:16限准后16:03双岗见原复核处理后“补据通知拟发登记”且当时待核发，16:21获有限摘录，不等于真正外发、收到补件或历史人受答。20:26夜班只接两路有限有源回报，Day376 07:08交班。"
+meaningful_state_changes:
+  - "陶佩云在原Day375 17:00期限前由本人确认并获负责岗位批准真续借至Day377 17:00，原机继续留修。"
+  - "旧2019原指定笔获新有责证据“补据通知拟发登记”且当时待核发，但无外发/收达证明。"
+knowledge_updates:
+  - "陶佩云知借机短时核验不等于长期稳定；马芸和夜班只知原同笔拟发待核发、不知实际核发与后续收答。"
+relationship_updates:
+  - "女儿承认母亲可本人作主、约买老豆腐晚餐；马芸和同事修正周报把待补等同依据缺失的旧写法。"
+foreshadowing_updates:
+  - "F003仅增加2019指定笔原始程序阶段，2016旧封在封、2022工作区文件实际字节同一、2019历史自然人受答仍未证；F008/M004/M005无新独立确证，F009/F010/F011继续resolved。"
+ending_state: "Day376 07:08同编号借机真延至Day377 17:00、原机仍留修；2019拟发登记待核发、真正外发与历史受答继续未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "fab485bedebb2280fa5574ca7fb5da21e11ee0a8", final_draft_sha: "3b14cca386841b1f02ebc1012a7d21fbb815f633", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3353
+release_evidence:
+  ready_blob: "42bab184c7780b3cbff0d3eb62637782f864ed03"
+  structural_status: exact_candidate_ci_pending

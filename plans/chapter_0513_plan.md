@@ -7,14 +7,14 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "c55d79c8e1b9b8b56f3ced67e2036e1b9467f958"
 - depends_on_chapter: 512
-- depends_on_source_sha: fab485bedebb2280fa5574ca7fb5da21e11ee0a8
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0512.md
+- depends_on_source_sha: 42bab184c7780b3cbff0d3eb62637782f864ed03
+- dependency_status: verified_predecessor_factual_delta_reconciled
+- predecessor_location: chapters/ready/0512.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day376 09:12—Day377 07:06
 - pov: 第三人称有限视角，马芸 / 赵爱莲 / 周衡
 - target_effective_chars: 3000
-- actual_effective_chars: 3142
+- actual_effective_chars: 3154
 - status: planned_and_new_draft_only
 
 ## 本章目标与开场
@@ -41,4 +41,4 @@
 - 章名不少于五字，正文2600—3400优选、2300—3800硬限，仅新建详细章纲和draft，不改旧章、Memory、Reader、QA或平台。
 
 ## Precheck与后续承接
-GitHub main=c55d79c8e1b9b8b56f3ced67e2036e1b9467f958，published/0153.md已存在；published/ready/draft三处最大编号为512，且唯一前章为chapters/draft/0512.md，完整blob SHA=fab485bedebb2280fa5574ca7fb5da21e11ee0a8，状态未审，因此当前章节严格标记provisional，不能把第512章新事实当正式Canon。已读取最新协议、Bible与人物、可用旧卷/旧arc、当前已审Memory、十章摘要502—511和五章正文508—512；旧卷纲落后于ARC-054，实际近章连续性以最近ready和明确版本draft为准。下一章可依法再查有无另稿核发线索，但不可预先断定答复去向；南砂路其他入口/全院获通知待责任单位进一步核实。
+GitHub main=c55d79c8e1b9b8b56f3ced67e2036e1b9467f958，published/0153.md已存在；published/ready/draft三处最大编号为512，且唯一前章为chapters/draft/0512.md，原临时草稿blob SHA=fab485bedebb2280fa5574ca7fb5da21e11ee0a8已实际与正式ready Blob 42bab184c7780b3cbff0d3eb62637782f864ed03比对，小说标题及正文逐字相同，仅有效字数与交付Front Matter变化，513叙事事实兼容并正式重绑。已读取最新协议、Bible与人物、可用旧卷/旧arc、当前已审Memory、十章摘要502—511和五章正文508—512；旧卷纲落后于ARC-054，实际近章连续性以最近ready和明确版本draft为准。下一章可依法再查有无另稿核发线索，但不可预先断定答复去向；南砂路其他入口/全院获通知待责任单位进一步核实。

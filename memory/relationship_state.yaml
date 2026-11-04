@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 509
+last_updated_chapter: 513
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2359,3 +2359,12 @@ chapter_511_arc054_update:
   ma_yun_and_colleague: "同事催旧档结案，马芸坚持真实办理留痕、按有责非身份处理登记说双码待核而非成功改码。"
   tao_peiyun_and_community: "小许交给陶佩云公开服务点纸面资料，由她本人电话预约，不让女儿或工作人员代签续借。"
   core_team: "梁策及时制止周衡把双码擅猜两处地址，周衡抹除无证猜想，夏宁记录合法摘录与岗位职责。"
+
+chapter_512_arc054_update:
+  chapter: 512
+  tao_peiyun_and_daughter: "女儿提出代还或代签被本人清楚拒绝，陶佩云保留自主签借条同时邀请下班后来吃晚饭买老豆腐，双方互动未变成敌对。"
+  ma_yun_and_colleague: "马芸要求周报按原始待补依据原话写而非凭空说证据缺失，同事按实际受理状态更正。"
+chapter_513_arc054_update:
+  chapter: 513
+  zhao_ailian_and_property: "赵爱莲不认可后台群发成功即本人获知，物业有责检查告示朝向并协调清障后给实际通行保障，不强迫其冒险走封闭区。"
+  core_team: "梁策只核外围而不自签施工许可，夏宁据本人回拨登记到院，周衡拒将纸档当次退回误成以后永不发送。"

@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 511
+current_chapter: 513
 current_stage: ready_candidate_structural_ci_pending
-current_source_path: chapters/draft/0511.md
-current_source_sha: 9d43b17ff6a5a5f2357f64346d7d9f116c6d1744
-current_review_path: reader_reviews/0511_9d43b17f.md
+current_source_path: chapters/draft/0513.md
+current_source_sha: c47c7b67c640c0b542ac33df8ee31f863bcaab48
+current_review_path: reader_reviews/0513_c47c7b67.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,7 +12,7 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter510_511_reader_QA_success_structural_candidate_pending
+last_action: chapters512_513_reader_qa_success_structural_candidate_pending
 last_action_date: "2026-11-04"
 last_error: null
 last_diff_summary: "509 Reader0/0/2 no_revision; independentQA_PASS; exactCI41759306017_success; mainCI41759350171_success; readyBlob_f2a96d07956158081e5ea8c79d92fbf6cbb6d55b"
@@ -4513,3 +4513,6 @@ combined_audit_chapter_510_511_20261104:
   chapter_510: {original_sha: "a203cc95c09a73c632d6f95e6a269bc4879861e0", final_sha: "5efa7f1a9967c50be7d524dd976c578cd073b292", stage_a_used: 1, body_revisions: 0, final_counts: "0/0/2", content_qa: pass}
   chapter_511: {original_sha: "0d3be6700558c5e31ba9d4e4a7b7705739b367ae", final_sha: "9d43b17ff6a5a5f2357f64346d7d9f116c6d1744", stage_a_used: 1, body_revisions: 1, initial_counts: "0/2/2", final_counts: "0/0/2", predecessor_ready_blob: "570bee4ff60e6cf91280bb3aeace3016924cccf0", content_qa: pass, structural_gate: exact_candidate_ci_required}
 
+combined_audit_chapter_512_513_20261104:
+  chapter_512: {original_sha: "fab485bedebb2280fa5574ca7fb5da21e11ee0a8", final_sha: "3b14cca386841b1f02ebc1012a7d21fbb815f633", initial_review: "reader_reviews/0512_fab485be.md", final_review: "reader_reviews/0512_3b14cca3.md", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "only_charcount3338_to3353_and_plan", content_qa: pass, structural_gate: exact_candidate_ci_required}
+  chapter_513: {original_sha: "f5ef048eb88b609ab57c016b5f55dc256b398ab7", final_sha: "c47c7b67c640c0b542ac33df8ee31f863bcaab48", initial_review: "reader_reviews/0513_f5ef048e.md", final_review: "reader_reviews/0513_c47c7b67.md", initial_counts: "0/2/2", final_counts: "0/0/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "compare512_body_title_same_rebind_ready_and_correct_charcount", predecessor_ready_blob: "42bab184c7780b3cbff0d3eb62637782f864ed03", content_qa: pass, structural_gate: exact_candidate_ci_required}

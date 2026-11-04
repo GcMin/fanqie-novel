@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 513
+title: "通知退回原处，等门的人还没进去"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "f5ef048eb88b609ab57c016b5f55dc256b398ab7"
+source_draft_sha: "c47c7b67c640c0b542ac33df8ee31f863bcaab48"
+initial_review: "reader_reviews/0513_f5ef048e.md"
+reader_review: "reader_reviews/0513_c47c7b67.md"
+depends_on_chapter: 512
+depends_on_source_sha: "42bab184c7780b3cbff0d3eb62637782f864ed03"
+dependency_status: verified_predecessor_factual_delta_reconciled
+timeframe: "Day376 09:12—Day377 07:06"
+summary: "Day376 09:12马芸另交2019指定“补据通知拟发”当次核发审核非身份状态新窄申，09:41收件14:42有责限准15:26双岗核同一拟稿原始审核“退回重拟”及原始依据未满足核发条件，15:49得合法有限摘录，后续重拟/外发/历史收答不明。夜20:47赵爱莲及孙子被南砂路28号院7单元东入口有责施工封闭困在外，物业误以群发成功代表所有人获知；21:03梁策查告示背贴和西侧防护网堵路，物业施工安保有责清障复核后21:37带人绕行、21:46两人真到院内，赵本人回拨；22:20夜班获旧档限项摘要，Day377 07:06交班。"
+meaningful_state_changes:
+  - "2019同笔原“补据通知拟发”当次核发审核真实退回重拟，但不得推后续不曾另稿发出。"
+  - "被封入口阻挡的赵爱莲和孙子在有责清障、核路与安保陪同后实际到院内，系统误通知保源。"
+knowledge_updates:
+  - "马芸和夜班只知同一拟稿当次退回重拟；周衡不将群发成功当全院居民真正已读，也不将当代通知误映视作失址机制。"
+relationship_updates:
+  - "赵爱莲要求本人可见指引而非后台假已通知，物业责任方接受现场纠错；中心协同但不越权签施工安全。"
+foreshadowing_updates:
+  - "F003仅增加2019指定笔原始程序阶段，2016旧封在封、2022工作区文件实际字节同一、2019历史自然人受答仍未证；F008/M004/M005无新独立确证，F009/F010/F011继续resolved。"
+ending_state: "Day377 07:06旧2019拟稿当次未获核发、后来外发/本人收到答复仍无证；赵爱莲祖孙实际入院，外廊继续施工、其他居民获悉与否待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f5ef048eb88b609ab57c016b5f55dc256b398ab7", final_draft_sha: "c47c7b67c640c0b542ac33df8ee31f863bcaab48", initial_counts: "0/2/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3154
+release_evidence:
+  ready_blob: "d0a9ee3ad802516db83905b5afae97c1fe720844"
+  structural_status: exact_candidate_ci_pending

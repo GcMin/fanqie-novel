@@ -1,3 +1,11 @@
+# 第512—513章 ARC-054 Reader/Revision/内容QA 候选｜2026-11-04
+- 第512章初稿 `fab485bedebb2280fa5574ca7fb5da21e11ee0a8` 首轮Reader 0/1/2（唯一MAJOR为Front Matter /详纲3338与真实3353有效字不符）。Stage A仅修两处数字，小说正文标题逐字不变，新draft SHA `3b14cca386841b1f02ebc1012a7d21fbb815f633` 再独立Pass A/B 0/0/2，独立Continuity/Style/Meaningful QA PASS，正式ready候选Blob `42bab184c7780b3cbff0d3eb62637782f864ed03`；前511 ready `be72fd54b2c1cdc385f391c6935371a18784858a` 精确依赖。
+- Day375陶佩云10:35真做专业短时借机复核，原机待件留修，原到期17:00前16:49本人真正亲签经有责岗位使同编号设备借期延至Day377 17:00，不证长期适配。马芸按新许可16:03双岗核2019原第73页指定笔复核处理后的“补据通知拟发登记”当时状态待核发，不证真实核发、外发、历史人获答。Day376 07:08夜班交班。
+- 第513章初稿 `f5ef048eb88b609ab57c016b5f55dc256b398ab7` 首Reader 0/2/2，唯一两项MAJOR为512仍临时依赖和字符3142/实3154。真实逐字对照512旧稿、修正版、ready：标题及正文完全一致、只有长度和交付Front Matter变化；Stage A仅513 Front Matter与详纲重绑512 ready `42bab184c7780b3cbff0d3eb62637782f864ed03` 并调char_count3154，小说正文0字改。新完整draft SHA `c47c7b67c640c0b542ac33df8ee31f863bcaab48` 再独立Pass A/B 0/0/2，独立内容QA PASS，ready候选Blob `d0a9ee3ad802516db83905b5afae97c1fe720844`。
+- Day376马芸15:26核原指定同笔拟发事项当次核发审核“退回重拟、原始依据未满足核发条件”，不证后来没有另稿发出/历史自然人收到。南砂路28号院7单元夜间东入口施工封闭、群发成功不等于本人收讯，物业/施工有责清西巷防护网并核路，21:46赵爱莲祖孙在安保带领下真正入院、本人回拨；仍不证全院全体已获通知或外廊修复。Day377 07:06交班。
+- F003阶段有界进展，2016旧封内回告、2022具体读取文件字节及历史本人真实受答均未知；F008/M004/M005无新独立证，702仍不能复住、榆荫路原坡道仍封、罗月本户复水不证全楼。
+- **以上仅内容QA候选，绝不冒称结构验证成功。必须先让精确候选Git Commit的GitHub Actions结构单测与 `python -m publisher.check_local --repo .` 实际SUCCESS，再以expected_sha和force:false推进main。**
+
 # 第510—511章Reader/Revision/独立QA与结构候选记录｜2026-11-04
 - 第510章原稿Git Blob `a203cc95c09a73c632d6f95e6a269bc4879861e0`仅修char_count 3209→3221，新稿Blob `5efa7f1a9967c50be7d524dd976c578cd073b292`，正文/标题逐字未改；新SHA独立Reader Pass A、Pass B 均0/0/2，独立Continuity/Style/Meaningful QA PASS；正式ready拟Blob `570bee4ff60e6cf91280bb3aeace3016924cccf0`。
 - 第511章原稿Blob `0d3be6700558c5e31ba9d4e4a7b7705739b367ae`初审0/2/2，Stage A仅将“十九年前”改为明确二〇一九年那笔旧事，并逐段核510初稿与正式ready小说正文和标题完全一致后重绑依赖到`570bee4ff60e6cf91280bb3aeace3016924cccf0`、同步章纲、修正有效字符3253→3272，新稿完整Blob `9d43b17ff6a5a5f2357f64346d7d9f116c6d1744`重新独立Reader Pass A/B 0/0/2，独立内容QA PASS；旧Review不能放行。正式ready拟Blob `be72fd54b2c1cdc385f391c6935371a18784858a`。
