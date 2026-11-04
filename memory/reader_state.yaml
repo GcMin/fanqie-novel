@@ -5113,3 +5113,27 @@ combined_audit_chapter_509_20261104:
   predecessor_ready_blob: "21f9ce3c16844d9f04fcd5fcd9185d126efe9d2e"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required
+combined_audit_chapter_510_511_20261104:
+  chapter_510:
+    original_sha: "a203cc95c09a73c632d6f95e6a269bc4879861e0"
+    source_sha: "5efa7f1a9967c50be7d524dd976c578cd073b292"
+    review: "reader_reviews/0510_5efa7f1a.md"
+    counts: "0/0/2"
+    fix: "frontmatter_charcount_3209_to_3221"
+    body_revisions: 0
+    predecessor_ready_blob: "f2a96d07956158081e5ea8c79d92fbf6cbb6d55b"
+    content_qa: pass
+    structural_gate: exact_candidate_ci_required
+  chapter_511:
+    original_sha: "0d3be6700558c5e31ba9d4e4a7b7705739b367ae"
+    initial_review: "reader_reviews/0511_0d3be670.md"
+    initial_counts: "0/2/2"
+    source_sha: "9d43b17ff6a5a5f2357f64346d7d9f116c6d1744"
+    review: "reader_reviews/0511_9d43b17f.md"
+    counts: "0/0/2"
+    fix: "2019_age_one_line_and_final510_dep_and_charcount"
+    body_revisions: 1
+    predecessor_ready_blob: "570bee4ff60e6cf91280bb3aeace3016924cccf0"
+    content_qa: pass
+    structural_gate: exact_candidate_ci_required
+
