@@ -54,3 +54,6 @@
 ## Audit Stage A修订记录｜2026-11-04
 - 508原Draft SHA 807541d01e1f9abef10b47040dd65766d61a28e9 Reader 0/1/2；原依赖507草稿 68f53ce15b3cac9a31cdce929083e147083197b9。真实比较507原稿与ready 02ce1959020d940daabbb7d19ad2744c155e8140，仅修正对2019史料无依据的“十九年前”，目录定位与22:27实领事实完全不变。
 - 本章只重绑依赖及详细章纲，508小说正文零改，新完整Draft SHA e1cd3e06ea3c872d37d5d6338a8eb8ac53c8b670 独立再审0/0/2，QA通过，3361有效字；精确候选结构CI待验。
+
+## 正式放行结构证据｜2026-11-04
+- 两章精确Git Commit `5f85b51e0dfa8a58310ffbc18d5e8c7e28bf6fc1`，审计分支CI `41754212670` SUCCESS（结构单测及publisher.check_local均PASS），main ref以expected_sha/force:false成功更新且main同SHA CI `41754283022` SUCCESS；原候选待核状态由实际校验结果覆盖。

@@ -48,3 +48,6 @@
 
 ## Audit修订说明｜2026-11-04
 - 原稿SHA 68f53ce15b3cac9a31cdce929083e147083197b9 原Reader 0/1/2；仅改章末不实的“十九年前”为“二〇一九年那笔事”，新草稿SHA 99186212cefb7528b934b60b4a4839d74ad2b19d Reader重新独立双遍0/0/2，QA通过，3119有效字，候选结构CI待验。
+
+## 正式放行结构证据｜2026-11-04
+- 两章精确Git Commit `5f85b51e0dfa8a58310ffbc18d5e8c7e28bf6fc1`，审计分支CI `41754212670` SUCCESS（结构单测及publisher.check_local均PASS），main ref以expected_sha/force:false成功更新且main同SHA CI `41754283022` SUCCESS；原候选待核状态由实际校验结果覆盖。

@@ -1,3 +1,7 @@
+# 第507—508章正式ready及精确GitHub CI证据｜2026-11-04
+- 两章候选Git Commit `5f85b51e0dfa8a58310ffbc18d5e8c7e28bf6fc1` Tree `9e23c10047166d21ffded0b65dc4b19fc396fee7`，审计分支Actions `41754212670` exact head SHA completed/**SUCCESS**，实际结构单测及`python -m publisher.check_local --repo .`通过。只在验证成功后，以expected_sha=`67f7ecba5acc85aac565806764800601b3667ed8`、force:false更新main成功。main 同SHA CI `41754283022` **SUCCESS**。
+- 第507章ready Blob `02ce1959020d940daabbb7d19ad2744c155e8140`，初稿0/1/2修一处历史年数并重新独立Reader 0/0/2；第508章ready Blob `21f9ce3c16844d9f04fcd5fcd9185d126efe9d2e`，初稿0/1/2在对照前章事实后仅修依赖和详纲并按新SHA再双遍审0/0/2，小说正文0字改。独立QA均PASS，分别3119和3361有效字。两原draft已随ready迁移原子删除；无Canon、published或定时任务修改。
+
 # 第507—508章ARC-054 Reader两遍/Stage A/内容QA及候选状态｜2026-11-04
 - 第507章初稿Git Blob `68f53ce15b3cac9a31cdce929083e147083197b9` 独立Reader Pass A/B 0/1/2，唯一MAJOR是2019原档无依据写“十九年前”；Stage A仅修该句为“二〇一九年那笔事”且有效字符变3119。修订后实际Git Blob `99186212cefb7528b934b60b4a4839d74ad2b19d`，重新独立Pass A/B 0/0/2，Continuity/Style/Meaningful QA全部PASS；前506正式ready Blob `e6f9ab9900999f680be72e2efb32655e57ed12d5` 精确依赖。
 - Day370 09:46马芸领取旧档查询范围分流，11:28新交只问原岗目录补申15:17仅准目录16:02找到2019纸质移交簿保管位置，未证第73页指定笔真实列簿或交运；陶佩云20:34报19:46助听器虚假已领，21:03查明授权巡检开门8秒被错误模板映到公众端，22:19有责清点真物22:27本人签收实领并短试，修后长期效果待她本人使用；23:28中心有源获目录阶段回告，Day371 06:54交班。

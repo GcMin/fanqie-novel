@@ -6,3 +6,7 @@
 - 职责/知识 PASS：马芸及双岗只限项查阅，梁策不把未证错码写作蓄意截留；夜班不越权作设备诊断或历史签收结论。F003仅一笔当次暂缓，不证以后永不再交、对端实收、历史自然人获答、2016/2022跨来源同一；F008/M004/M005未证。702、原坡道等状态未改。
 - Style PASS（2 MINOR）：独立暂缓红章形成事实变化，现实新售后投诉有行动；信息分层和末尾总结稍密，不强制修订。Meaningful PASS：旧档新确证与真实售后预约各有实质变化。
 - 仍需精确候选Git Commit对应结构单测及`python -m publisher.check_local --repo .` SUCCESS，才能以expected_sha/force:false放行。
+
+## 第507—508章精确Commit结构CI及正式main放行实证｜2026-11-04
+- 本次两章同一候选Git Commit `5f85b51e0dfa8a58310ffbc18d5e8c7e28bf6fc1`（Tree `9e23c10047166d21ffded0b65dc4b19fc396fee7`）由分支 `audit/ready-0507-0508-20261104-0910` 触发Actions `41754212670`，head_sha精确匹配且completed/**SUCCESS**；offline结构单测与`python -m publisher.check_local --repo .`均实际SUCCESS。
+- 仅CI成功后以expected_sha=`67f7ecba5acc85aac565806764800601b3667ed8`、force:false真实安全快进main至上述Commit，main同SHA Actions `41754283022` completed/**SUCCESS**。507 ready Blob `02ce1959020d940daabbb7d19ad2744c155e8140`、508 ready Blob `21f9ce3c16844d9f04fcd5fcd9185d126efe9d2e`，原draft同树删除，Reader新SHA绑定、QA、长期Memory及计划同步正式提交。此前候选阶段门禁提示由本节真实CI实证覆盖；无番茄发布、Canon和published变动。

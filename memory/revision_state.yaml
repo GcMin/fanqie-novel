@@ -4485,3 +4485,17 @@ chapter_508_revision_state:
   safe_mode: false
   content_qa: pass
   structural_gate: exact_candidate_ci_required
+
+release_507_508_exact_ci_evidence:
+  chapters: [507, 508]
+  candidate_commit: "5f85b51e0dfa8a58310ffbc18d5e8c7e28bf6fc1"
+  validated_tree: "9e23c10047166d21ffded0b65dc4b19fc396fee7"
+  candidate_ci: 41754212670
+  candidate_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ci: 41754283022
+  main_ci_conclusion: success
+  main_update: expected_sha_force_false_success
+  ready_507_blob: "02ce1959020d940daabbb7d19ad2744c155e8140"
+  ready_508_blob: "21f9ce3c16844d9f04fcd5fcd9185d126efe9d2e"
