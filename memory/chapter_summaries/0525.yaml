@@ -29,6 +29,17 @@ foreshadowing_updates:
 ending_state: "Day389 07:10指定小封袋已首站对外实交及外承运独立接入、下站与历史真人受答未知；廖素梅本人两桶水已到家，立管仍抢修六楼需求未核。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "f24d096a15046a850a8332ca14850567793ed72d", final_draft_sha: "9ba99b05c8238472c04ee7de720df727e41678be", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, body_revisions: 0, fix: "rebind_524_exact_ready_sha_after_title_body_factual_compare"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3789
-release_evidence: {ready_blob: "3d67442df304a147b708d0d184dd6de4e34ee697", structural_gate: pending_exact_candidate_ci}
+release_evidence:
+  ready_blob: "3d67442df304a147b708d0d184dd6de4e34ee697"
+  structural_gate: exact_candidate_and_main_ci_success
+  candidate_commit: "e41af3584dcc83623c8cf46358f3f93674c2de7a"
+  validated_tree: "fde8a108900138e93f6e34c891abb8f771d44325"
+  candidate_ci: 41885297735
+  candidate_ci_conclusion: success
+  main_ci: 41885398330
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success

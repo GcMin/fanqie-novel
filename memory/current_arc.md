@@ -1,3 +1,9 @@
+## 第524—525章精确候选与main结构CI已实测SUCCESS｜2026-11-05
+- 目标Git提交 `e41af3584dcc83623c8cf46358f3f93674c2de7a`，精确tree `fde8a108900138e93f6e34c891abb8f771d44325`，parent main `a07b75a981fb23ceec9edc3d37ad1b8fa4713b5e`。
+- 先在分支 `audit/ready-0524-0525-20261105` 的该commit触发Actions run **41885297735**，head_sha精确匹配，completed/**SUCCESS**；`Test offline snapshot validation`和`Validate this checkout without Git sync or publishing`两步均SUCCESS，其中实际执行 `python -m publisher.check_local --repo .`。
+- 然后使用expected_sha=`a07b75a981fb23ceec9edc3d37ad1b8fa4713b5e`及force:false快进main到相同commit。main Actions run **41885398330** 精确同SHA、completed/**SUCCESS**，对应结构单元测试与publisher.check_local步骤PASS。
+- 524正式ready blob `b228be104e4cce0ee3edcaeaef69aaf87078cfdf`，525正式ready blob `3d67442df304a147b708d0d184dd6de4e34ee697`，原draft在同一Git Tree删除。Reviewer/Continuity/Style QA、Memory、唯一计划行已同步；正文524/525均未修改。未更改Canon/published，也未发布番茄。
+
 ## 第524—525章ARC-054独立Reader/内容QA已完成，精确候选结构CI待查｜2026-11-05
 - 524原稿Git Blob `cf1802f7cfb95794ab6e2c07774627d6c253f6c0`，与523正式ready `302512e15e077f45297d7348d1d06fd5758b6cb4`精确依赖，Pass A后Pass B独立Reader 0/0/2 keep/none，正文无修订，3563有效字符。Continuity/Style/Meaningful QA PASS。Day387指定2019单件独立小封袋实际装入与双岗封口见证；不证再次交运。沿湖体育馆B-17假取件误映后21:44许蕾本人真领包、23:02已到家；柜停用待运营核。同篇ready候选blob `b228be104e4cce0ee3edcaeaef69aaf87078cfdf`仅用于精确候选结构验证。
 - 525原稿 `f24d096a15046a850a8332ca14850567793ed72d` 以524临时草稿SHA为provisional，Reader初审0/1/2要求验证前章并重绑；比较524原稿与候选ready标题和全部正文完全相同，仅交付元数据变化，Stage A只将525 Front Matter与详细章纲改绑524 ready blob。修改后新Git Blob `9ba99b05c8238472c04ee7de720df727e41678be`，严格重做先普通读者Pass A、后Canon/人物知识/时间线/伏笔Pass B，0/0/2 keep/none，正文0字修改，3789有效字符，独立Continuity/Style/Meaningful QA PASS。Day388经另行有权限项核2019指定小封袋首站真实对外交出及外部承运独立接入，不证下站/2019历史真人答复。新河里廖素梅两桶应急水21:29经街道有责人员送到五楼户门本人收、23:17回拨父亲已饮水，立管仍抢修六楼待核。525 ready候选blob `3d67442df304a147b708d0d184dd6de4e34ee697`。

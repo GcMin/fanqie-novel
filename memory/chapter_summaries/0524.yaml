@@ -27,6 +27,17 @@ foreshadowing_updates:
 ending_state: "Day388 07:08旧件封好但尚无再次外送有权实证；许蕾已带包回家，体育馆B-17停用且同批调查未结。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "cf1802f7cfb95794ab6e2c07774627d6c253f6c0", final_draft_sha: "cf1802f7cfb95794ab6e2c07774627d6c253f6c0", stage_a_used: 0, body_revisions: 0}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3563
-release_evidence: {ready_blob: "b228be104e4cce0ee3edcaeaef69aaf87078cfdf", structural_gate: pending_exact_candidate_ci}
+release_evidence:
+  ready_blob: "b228be104e4cce0ee3edcaeaef69aaf87078cfdf"
+  structural_gate: exact_candidate_and_main_ci_success
+  candidate_commit: "e41af3584dcc83623c8cf46358f3f93674c2de7a"
+  validated_tree: "fde8a108900138e93f6e34c891abb8f771d44325"
+  candidate_ci: 41885297735
+  candidate_ci_conclusion: success
+  main_ci: 41885398330
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success

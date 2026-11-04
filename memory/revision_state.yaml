@@ -4814,3 +4814,15 @@ chapter_525_arc054_revision:
   safe_mode: false
   content_qa: pass
   structural_gate: pending_exact_candidate_ci
+release_524_525_exact_ci_evidence:
+  chapters: [524, 525]
+  candidate_commit: "e41af3584dcc83623c8cf46358f3f93674c2de7a"
+  validated_tree: "fde8a108900138e93f6e34c891abb8f771d44325"
+  candidate_ci: 41885297735
+  main_ci: 41885398330
+  conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_update: expected_sha_force_false_success
+  ready_524_blob: "b228be104e4cce0ee3edcaeaef69aaf87078cfdf"
+  ready_525_blob: "3d67442df304a147b708d0d184dd6de4e34ee697"
