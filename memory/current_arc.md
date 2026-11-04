@@ -1675,3 +1675,8 @@ Day173 20:24仅是该号码未来新语义的专业标识测试，20:39廖珊看
 
 ## 第504章正式ready结构门禁实证｜2026-11-04
 - 第504章放行候选及正式main Commit `efe097a77238df591656374c9091a67d4ce5afbc`，Git Tree `c5e1a007a0d2908857f868f31aa3385c9b81c301`；审计分支GitHub Actions `41720227080` 和同SHA正式main Actions `41720313563` 都实际 **completed/success**，离线单测、精确checkout结构校验及 `python -m publisher.check_local --repo .` 成功。main以 `expected_sha=709cfe830a7f9aefc7e2a40d44209c40f7306e33`、`force:false` 更新成功，504正式ready Blob `81f1d3d7d1b58b387bf115b5bf5ecc03c69a2eed`；原draft已删，Reader 0/0/2、独立内容QA PASS、正文0字改动、503前章ready SHA精确一致。此前候选阶段结构待核说明由上述CI实证覆盖，尚未发布番茄。
+
+## 第517章ARC-054独立Reader/内容QA及精确结构门禁｜2026-11-04
+- 原draft `26db97c0d41edb1e1d0571e09b301ba344ea8ccf`，Reader先独立Pass A再Pass B为BLOCKER0/MAJOR0/MINOR2、keep/none；原正文和原元数据无修订，项目有效字符3263，前第516章正式ready `0d3c1ae4bb40787bea5bb6f0eb78894a8a2f9edd`精确依赖。独立Continuity/Style/Meaningful QA内容PASS，精确候选结构CI必须实际SUCCESS才可更新main迁ready。
+- Day380马芸新申请外部交运范围，14:18获新合法限项许可、15:48双岗证2019原第73页同笔关联重拟稿原单位对外交出及承运独立接入，16:16获限摘；不证目的端收文、历史自然人实获答或2016旧封/2022实际字节同一。F003有限推进；F008/M004/M005无新独立确证。
+- 北河路少年活动中心20:27监护账号入楼被误映成班级接领，方老师真实守护黎苗，蒋宜本人21:17到班、21:23有效真交接、21:38母女实际离楼，原错源保全而运营根因/同类待核；Day381 07:06夜班交班。南砂路28号院仍施工，西侧须逐班现场复核。

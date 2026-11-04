@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 515
-last_reviewed_title: "纸上核发有了日期，收信的人还没出现"
-last_source_path: chapters/draft/0515.md
-last_source_sha: b45e5d210fd1106d3774061c367c0a156dc63022
-last_review_path: reader_reviews/0515_b45e5d21.md
+last_reviewed_chapter: 517
+last_reviewed_title: "纸件出了单位门，孩子还在楼上等"
+last_source_path: chapters/draft/0517.md
+last_source_sha: 26db97c0d41edb1e1d0571e09b301ba344ea8ccf
+last_review_path: reader_reviews/0517_26db97c0.md
 last_reviewed_at: "2026-11-04"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 514
-depends_on_source_sha: 19b43717b0dbd446f011bcc484a49eb830a57a3c
+depends_on_chapter: 516
+depends_on_source_sha: 0d3c1ae4bb40787bea5bb6f0eb78894a8a2f9edd
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 19b43717b0dbd446f011bcc484a49eb830a57a3c
+predecessor_current_source_sha: 0d3c1ae4bb40787bea5bb6f0eb78894a8a2f9edd
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -5241,3 +5241,20 @@ release_516_exact_ci_evidence:
   publisher_check_local: pass
   main_update: expected_sha_force_false_success
   ready_blob: "0d3c1ae4bb40787bea5bb6f0eb78894a8a2f9edd"
+
+chapter_517_20261104:
+  chapter: 517
+  source_sha: "26db97c0d41edb1e1d0571e09b301ba344ea8ccf"
+  source_path: "chapters/draft/0517.md"
+  review_path: "reader_reviews/0517_26db97c0.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  predecessor_ready_blob: "0d3c1ae4bb40787bea5bb6f0eb78894a8a2f9edd"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required

@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 515
-current_stage: ready_committed_after_exact_ci_success
-current_source_path: chapters/draft/0515.md
-current_source_sha: b45e5d210fd1106d3774061c367c0a156dc63022
-current_review_path: reader_reviews/0515_b45e5d21.md
+current_chapter: 517
+current_stage: reader_pass_and_content_qa_complete_pending_exact_structural_ci
+current_source_path: chapters/draft/0517.md
+current_source_sha: 26db97c0d41edb1e1d0571e09b301ba344ea8ccf
+current_review_path: reader_reviews/0517_26db97c0.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter515_ready_committed_after_exact_ci_success
+last_action: chapter517_reader_and_content_qa_pass_pending_exact_candidate_ci
 last_action_date: "2026-11-04"
 last_error: null
-last_diff_summary: "515 reader 0/2/2 to 0/0/2 StageA meta char count and case dialogue; independent content QA PASS, structural CI requires exact candidate"
+last_diff_summary: "517 reader 0/0/2 keep none; body unchanged; independent QA pass; structural CI pending"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: b45e5d210fd1106d3774061c367c0a156dc63022
+current_review_source_sha: 26db97c0d41edb1e1d0571e09b301ba344ea8ccf
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -4609,3 +4609,20 @@ release_516_revision_evidence:
   structural_gate: exact_candidate_ci_success_41806482985
   main_ci: 41806539202
   ready_blob: "0d3c1ae4bb40787bea5bb6f0eb78894a8a2f9edd"
+
+chapter_517_20261104:
+  chapter: 517
+  original_sha: "26db97c0d41edb1e1d0571e09b301ba344ea8ccf"
+  final_sha: "26db97c0d41edb1e1d0571e09b301ba344ea8ccf"
+  final_review: "reader_reviews/0517_26db97c0.md"
+  initial_counts: "0/0/2"
+  final_counts: "0/0/2"
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  retry_cycles: 0
+  safe_mode: false
+  predecessor_ready_blob: "0d3c1ae4bb40787bea5bb6f0eb78894a8a2f9edd"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required
