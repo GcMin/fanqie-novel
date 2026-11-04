@@ -1,3 +1,10 @@
+# 第514章精确GitHub候选与main结构CI双SUCCESS及正式ready证据｜2026-11-04
+
+## 精确候选和main结构校验完成（2026-11-04）
+- 正式ready放行Commit `c81d27357e6d95d1b05ef9568bdd8fbcbb16bfac`，原main父Commit `ae79411ae904ac28e52e6aaa4361ba7bb030239e`，候选Git Tree `72301e33f49940e64522894e4368a2a4fb823aed`。
+- 真实独立审计分支 `audit/ready-0514-20261104` GitHub Actions运行 `41791373366`，`head_sha`精确等于本放行Commit，completed/**SUCCESS**；离线结构单元测试与 `python -m publisher.check_local --repo .` 两步骤均成功。
+- 候选验证成功后，main使用 `expected_sha=ae79411ae904ac28e52e6aaa4361ba7bb030239e`、`force:false` 实际更新成功，main同SHA Actions运行 `41791418888` completed/**SUCCESS**，同两步骤均成功。正式ready Blob `19b43717b0dbd446f011bcc484a49eb830a57a3c`，`chapters/draft/0514.md` 已从同一树删除。只修长度元数据及详纲，小说正文改动0字。旧章节与Canon/published均未修改。
+
 # 第514章ARC-054独立Reader/Stage A/Continuity Style QA候选｜2026-11-04
 - 原始draft Blob `41262c3d9620c62615284cce82794a069bc6ab93` Reader先Pass A后Pass B结论0 BLOCKER/1 MAJOR/2 MINOR。唯一MAJOR：Front Matter及详细章纲声称3770有效字，按 `publisher.content.normalized` 真正计算3785。Stage A仅修改两个数字，正文标题逐字未动，新draft Git Blob `a1b5cea937173fb9a51edf7d46d3eb2e03bb65c8`，针对新SHA重新独立双遍 Reader 0/0/2 keep/none，MINOR仅档案声明略密与节奏略平，不改正文。
 - 第513章正式ready `d0a9ee3ad802516db83905b5afae97c1fe720844` 精确依赖。Day376 15:26原2019同笔拟稿审核退回重拟，Day377 07:06夜班交班；本章Day377 09:07马芸启动全新限项窄申、13:42获准、15:33有责双岗确认原业务同笔另有关联重拟稿建档登记及当时待补依据复核，16:11真获非身份摘录。不证新文稿实体内容、核发外发、历史真人受答或双码真实地址。

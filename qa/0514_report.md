@@ -7,3 +7,8 @@
 - **Style PASS**：对话有不同声音、具体动作可核，局部档案说明重复和长度接近硬上限为MINOR，不因MINOR重写。3785有效字位于2300—3800硬范围内，标题与Front Matter/章纲一致。
 - **Meaningful Change PASS**：2019同笔后续有真实“重拟稿建档”有源新增证据；陶佩云原机实领及另一编号借机实还，至少两条可追踪状态变化。Memory已同步chapter_summaries/角色知识世界时间伏笔关系与唯一计划行，既有ready计划不覆盖。
 - **结构与正式放行门禁**：本内容QA自身不替代结构检查，须精确候选Git Commit实际完成GitHub Actions离线结构单元测试和 `python -m publisher.check_local --repo .` SUCCESS，且成功使用 `expected_sha`、`force:false` 更新main后才认定正式ready。
+
+## 精确候选和main结构校验完成（2026-11-04）
+- 正式ready放行Commit `c81d27357e6d95d1b05ef9568bdd8fbcbb16bfac`，原main父Commit `ae79411ae904ac28e52e6aaa4361ba7bb030239e`，候选Git Tree `72301e33f49940e64522894e4368a2a4fb823aed`。
+- 真实独立审计分支 `audit/ready-0514-20261104` GitHub Actions运行 `41791373366`，`head_sha`精确等于本放行Commit，completed/**SUCCESS**；离线结构单元测试与 `python -m publisher.check_local --repo .` 两步骤均成功。
+- 候选验证成功后，main使用 `expected_sha=ae79411ae904ac28e52e6aaa4361ba7bb030239e`、`force:false` 实际更新成功，main同SHA Actions运行 `41791418888` completed/**SUCCESS**，同两步骤均成功。正式ready Blob `19b43717b0dbd446f011bcc484a49eb830a57a3c`，`chapters/draft/0514.md` 已从同一树删除。只修长度元数据及详纲，小说正文改动0字。旧章节与Canon/published均未修改。

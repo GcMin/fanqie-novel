@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 514
-current_stage: ready_candidate_awaiting_exact_ci_success
+current_stage: ready_committed_after_exact_ci_success
 current_source_path: chapters/draft/0514.md
 current_source_sha: a1b5cea937173fb9a51edf7d46d3eb2e03bb65c8
 current_review_path: reader_reviews/0514_a1b5cea9.md
@@ -12,7 +12,7 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter514_stageA_and_new_sha_re_review_content_QA_PASS
+last_action: chapter514_ready_committed_after_exact_ci_success
 last_action_date: "2026-11-04"
 last_error: null
 last_diff_summary: "509 Reader0/0/2 no_revision; independentQA_PASS; exactCI41759306017_success; mainCI41759350171_success; readyBlob_f2a96d07956158081e5ea8c79d92fbf6cbb6d55b"
@@ -4544,4 +4544,14 @@ combined_audit_chapter_514_20261104:
   final_counts: "0/0/2"
   predecessor_ready_blob: "d0a9ee3ad802516db83905b5afae97c1fe720844"
   content_qa: pass
-  structural_gate: exact_candidate_ci_required
+  structural_gate: exact_candidate_and_main_ci_success
+release_514_exact_ci_evidence:
+  candidate_commit: "c81d27357e6d95d1b05ef9568bdd8fbcbb16bfac"
+  validated_tree: "72301e33f49940e64522894e4368a2a4fb823aed"
+  candidate_ci: 41791373366
+  main_ci: 41791418888
+  candidate_and_main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_update: expected_sha_force_false_success
+  ready_514_blob: "19b43717b0dbd446f011bcc484a49eb830a57a3c"

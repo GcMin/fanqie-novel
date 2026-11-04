@@ -5187,4 +5187,4 @@ chapter_514_20261104:
   predecessor_ready_blob: "d0a9ee3ad802516db83905b5afae97c1fe720844"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required
+  structural_gate: exact_candidate_and_main_ci_success

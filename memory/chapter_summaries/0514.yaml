@@ -29,5 +29,16 @@ foreshadowing_updates:
 ending_state: "Day378 07:04原左耳机在陶佩云本人手中、另一编号借机在有责服务点；2019同笔仅重拟建档状态有证，后续核发外发/真人受答未证。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "41262c3d9620c62615284cce82794a069bc6ab93", final_draft_sha: "a1b5cea937173fb9a51edf7d46d3eb2e03bb65c8", stage_a_used: 1, body_revisions: 0, fix: "char_count_and_plan_3770_to_3785"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3785
+release_evidence:
+  ready_blob: "19b43717b0dbd446f011bcc484a49eb830a57a3c"
+  candidate_commit: "c81d27357e6d95d1b05ef9568bdd8fbcbb16bfac"
+  validated_tree: "72301e33f49940e64522894e4368a2a4fb823aed"
+  candidate_ci: 41791373366
+  candidate_ci_conclusion: success
+  main_ci: 41791418888
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
