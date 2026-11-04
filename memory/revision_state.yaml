@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 520
-current_stage: ready_candidate_pending_exact_ci
+current_stage: ready_committed_after_exact_ci_success
 current_source_path: chapters/draft/0520.md
 current_source_sha: 7a7c5f11530358c24aa9ab4c971f8059a07cb9dd
 current_review_path: reader_reviews/0520_7a7c5f11.md
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter520_content_qa_pass_pending_exact_candidate_ci
+last_action: chapter520_ready_committed_after_exact_ci_success
 last_action_date: "2026-11-04"
 last_error: null
-last_diff_summary: "520原稿0/0/2 keep/none无正文修订;独立QA通过;精确结构候选CI尚待验"
+last_diff_summary: "520原稿0/0/2 keep/none无正文修订;独立QA通过;候选及main同SHA结构CI真实成功"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -4694,4 +4694,15 @@ chapter_520_arc054_revision:
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
   body_revisions: 0
-  status: content_qa_pass_pending_exact_structural_ci
+  status: ready_committed_after_exact_ci_success
+
+release_520_exact_ci_evidence:
+  chapter: 520
+  candidate_commit: "e7ee4e772b51986317a048e5b347c9ebf0786f28"
+  candidate_ci: 41844621315
+  main_ci: 41844732572
+  conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_update: expected_sha_force_false_success
+  ready_blob: "175b4df2cb093790e70d7ed33d67defad2f55b8d"

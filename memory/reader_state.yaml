@@ -5321,4 +5321,16 @@ chapter_520_arc054_reader_gate:
   independent_pass_a_then_b: true
   predecessor_ready_blob: "07bcb9bf0b7ed4754e2c9e58344edb8b661b49f1"
   content_qa: pass
-  structural_gate: exact_candidate_ci_required
+  structural_gate: exact_candidate_and_main_ci_success
+
+release_520_exact_ci_evidence:
+  chapter: 520
+  candidate_commit: "e7ee4e772b51986317a048e5b347c9ebf0786f28"
+  validated_tree: "d8b31fde0a4b5627e733482311b605eb8fd28c56"
+  candidate_ci: 41844621315
+  main_ci: 41844732572
+  conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_update: expected_sha_force_false_success
+  ready_blob: "175b4df2cb093790e70d7ed33d67defad2f55b8d"
