@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 522
+title: "复核单上少了一件，归还箱前多了个人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "516e41e1f046840e88afe38bcd2e160da94d600f"
+reader_review: "reader_reviews/0522_516e41e1.md"
+depends_on_chapter: 521
+depends_on_source_sha: "73fc160f938c61c6d04ca54f492edb96cb6a0b44"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day385 09:08—Day386 07:12"
+summary: >-
+  Day385马芸09:08携上一章已证首站内部复核台独立接入与件数对应待核摘录，10:24新窄申正式受理，13:41获只核原2019第73页关联重拟稿原袋拆分计数与指定单件复核结论的合法限项；双岗15:26核不同载体、排除把批次“差一”读作该纸丢失的误解：批次待转件数因单件拆分未同步，指定单件在当时实存数量另有独立核对，该项拆分计数差异已核明并有内部暂缓结案登记，15:58领合法有限摘录；未见之后实体交出、重发或历史自然人收到答复。柳溪路市民图书馆北侧自助还书机当晚显示“归还已受理”但实体《江岸植物图鉴》仍在沈秋葵手中，歪脱导板造成卡入；20:39本人求助，21:06有责馆方到场停用设备并查实另一开放人工岗，21:23授权维保检查并留下故障件/日志、另一薄书来源待查；21:31人工岗位当面核图鉴书号和本人借阅凭据实收图鉴出凭条，设备仍停用、后台待同步。22:04/22:21中心分源有据记结果，Day386 07:12交班。F003有界推进，F008/M004/M005和2016/2022同一均无新增确证。
+meaningful_state_changes:
+  - "2019同一单件首站内部件数差异有源核明，本项内部暂缓结案；后续实体离站和历史收答仍未知。"
+  - "沈秋葵图鉴从屏显受理但未实投入变为馆方21:31合法实际收书、有纸凭；设备与后台问题尚未全面完成。"
+knowledge_updates:
+  - "马芸、夜班知2019该项差异有据核明，不知破袋原因、后续实物交出、目的端或历史本人收到；仅得匿名限定摘录。"
+  - "沈秋葵与馆方有本图鉴的真实手工交接及凭条，另一薄书是否入库、设备复测和后台状态均待有责核。"
+relationship_updates:
+  - "马芸让同事把周报改为件数差异已核、后续实物交运待核；馆方接受沈秋葵真实归还诉求并出凭条。"
+foreshadowing_updates:
+  - "F003推进复核台实际结论与该项暂缓结案，不代后续外寄或历史自然人签收；F008/M004/M005、2016旧封和2022具体字节不新确证。"
+ending_state: "Day386 07:12旧件仅证首站内部复核计数核明，后续交接仍空；图鉴经人工实收、箱体停用且后台待同步。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "516e41e1f046840e88afe38bcd2e160da94d600f", final_draft_sha: "516e41e1f046840e88afe38bcd2e160da94d600f", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3535
+release_evidence:
+  structural_status: pending_exact_candidate_ci

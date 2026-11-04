@@ -5358,3 +5358,15 @@ release_521_exact_ci_evidence:
   publisher_check_local: pass
   main_update: expected_sha_force_false_success
   ready_blob: "73fc160f938c61c6d04ca54f492edb96cb6a0b44"
+
+chapter_522_arc054_reader_gate:
+  chapter: 522
+  source_sha: "516e41e1f046840e88afe38bcd2e160da94d600f"
+  review: "reader_reviews/0522_516e41e1.md"
+  counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  predecessor_ready_blob: "73fc160f938c61c6d04ca54f492edb96cb6a0b44"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required
