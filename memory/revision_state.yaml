@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 519
-current_stage: ready_candidate_pending_exact_ci
+current_stage: ready_committed_after_exact_ci_success
 current_source_path: chapters/draft/0519.md
 current_source_sha: 1dee71cbc72e6683c7d0ceb6cc99517695b8f439
 current_review_path: reader_reviews/0519_1dee71cb.md
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter519_stage_a_new_sha_rereview_and_content_qa_pass
+last_action: chapter518_519_ready_committed_after_exact_ci_success
 last_action_date: "2026-11-04"
 last_error: null
-last_diff_summary: "519修元叙事章号和前518正式ready依赖；正文3423至3420，518正文标题同原稿；最终Reader0/0/2，独立QA pass，精确CI待核"
+last_diff_summary: "518内容原稿keep 0/0/2;519旧稿0/2/2经StageA对新SHA复审0/0/2;QA双PASS;精确候选及main CI已success"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -4670,3 +4670,16 @@ chapter_519_20261104:
   predecessor_factual_delta: "none_body_and_title_identical"
   content_qa: pass
   structural_gate: exact_candidate_ci_required
+
+release_518_519_exact_ci_evidence:
+  chapters: [518, 519]
+  candidate_commit: "d14ceb8c215ab3163660c752b3386c96e492a9d3"
+  validated_tree: "5c0699cf79b8b4eadb9937b4f7dbdd20ff5531df"
+  candidate_ci: 41828829234
+  main_ci: 41828914726
+  conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_update: expected_sha_force_false_success
+  ready_518_blob: "df863313f4a7c673c4c481f81e7c7c6605f32aea"
+  ready_519_blob: "07bcb9bf0b7ed4754e2c9e58344edb8b661b49f1"

@@ -15,7 +15,7 @@
 - pov: 第三人称有限视角（马芸、方老师、罗叔、周衡）
 - target_effective_chars: 3000
 - actual_effective_chars: 2799
-- status: ready_candidate_after_reader_qa_pending_exact_ci
+- status: ready_after_exact_candidate_and_main_ci_success
 
 ## 章节目标
 依据前517章真实双端交接已证2019原第73页指定业务关联重拟稿外部承运接入，在独立合法新授权下推进到首站实际分拣接入及编袋待转，而不误认为下一站或最终受领。现实线跟进北河路少年活动中心错误扫码映射停用后的人工核验，落到真实交接与人的等候成本。
@@ -48,3 +48,6 @@ F003仅增首站分拣与编袋待转证据；不能写历史个人已获答、�
 
 ## 章尾承接和长度
 Day382 07:08，北河路两组真实签出且人工模式待复核，2019旧件实际首站分拣且已编入待转批次，但后续出站及目的端、自然人受领仍未知。有效字符2799（含标点、不含Front Matter、空白及分隔符），优选2600—3400，硬限2300—3800。Writer仅新建计划与draft，不做审、修、QA、Memory、Publish Gate及番茄发布。
+
+## 正式审核放行实证｜2026-11-04
+- 真实候选Commit `d14ceb8c215ab3163660c752b3386c96e492a9d3`，分支结构CI `41828829234`与同Commit main结构CI `41828914726`均SUCCESS，`publisher.check_local`及结构单测两步PASS；main使用expected_sha、force:false原子迁移章节至ready。内容Reader和独立QA具体见reader_reviews及qa/本章报告；不发布番茄。

@@ -32,4 +32,13 @@ qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structu
 char_count: 2799
 release_evidence:
   ready_blob: "df863313f4a7c673c4c481f81e7c7c6605f32aea"
-  structural_gate: exact_candidate_ci_required
+  structural_gate: exact_candidate_and_main_ci_success
+  candidate_commit: "d14ceb8c215ab3163660c752b3386c96e492a9d3"
+  validated_tree: "5c0699cf79b8b4eadb9937b4f7dbdd20ff5531df"
+  candidate_ci: 41828829234
+  candidate_ci_conclusion: success
+  main_ci: 41828914726
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success

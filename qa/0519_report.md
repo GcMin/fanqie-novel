@@ -10,3 +10,7 @@
 - **Meaningful Change PASS**：2019旧袋次出站预扫被原实物交接否决并证内部退回；现代人工签出在处理拥堵后发现信息外摆与授权不足，改内侧保密验证且完成当次本人交接。
 - **Memory/Plan**：只基于第519章修订后正文更新真实状态、summary、timeline、F003、人物知识/关系及计划，保留既有ready行。旧137→148迁移SHA并非本章所引当前源，不构成无据结论。
 - **结构门禁**：独立内容QA已PASS，正式原子迁ready必须等待同一候选Git SHA真实结构单测及`python -m publisher.check_local --repo .`均SUCCESS；失败则保留draft/阻塞不假放行。
+
+## 第519章正式ready精确结构CI及main证据｜2026-11-04
+- 放行候选Commit `d14ceb8c215ab3163660c752b3386c96e492a9d3`，Git Tree `5c0699cf79b8b4eadb9937b4f7dbdd20ff5531df`，父main `45c266a2f71b4c592e9c9547f87789e30cd3ced2`；审核分支 `audit/ready-0518-0519-20261104-2010` Actions `41828829234` head_sha精确匹配候选Commit，completed/**SUCCESS**，其中离线结构单元测试与`python -m publisher.check_local --repo .`均SUCCESS。
+- 在精确CI完成后，main以expected_sha=`45c266a2f71b4c592e9c9547f87789e30cd3ced2`、force:false非强制快进至同一候选Commit成功；main同SHA Actions `41828914726` completed/**SUCCESS**。第518章ready Blob `df863313f4a7c673c4c481f81e7c7c6605f32aea`，第519章ready Blob `07bcb9bf0b7ed4754e2c9e58344edb8b661b49f1`，两份原draft同一树中删除、已按序迁ready。此前“结构待核”仅为候选阶段标识，此处实际精确CI结果覆盖，不代替独立正文Reader和QA。

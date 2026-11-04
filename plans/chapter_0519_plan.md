@@ -15,7 +15,7 @@
 - pov: 第三人称有限视角（马芸、方老师、周衡）
 - target_effective_chars: 3000
 - actual_effective_chars: 3420
-- status: ready_candidate_after_reader_qa_pending_exact_ci
+- status: ready_after_exact_candidate_and_main_ci_success
 
 ## 章节目标
 继续追踪2019原第73页指定业务关联重拟稿，拆开首站待转编袋、预扫出站、实物交运：通过有责新限项原始记录确认当次16:32预扫后来作废、16:47因封签破损退回首站内部，而不是凭扫描写成已出站。现实线检验北河路少年活动中心人工签出临时流程的隐私与授权问题，拒绝让孩子认识代接人或口头临时说明替代有效授权。
@@ -53,3 +53,6 @@ Day382上午马芸持前518章限摘重新申请，只能将前章真实首站�
 
 ## 结尾与长度
 Day383 07:09交班，2019首站该次出站未成立、后续重交证据未知；北河路外摆整表已收、当次代接未交、母亲真实接走，后续运营复核待办。有效字符3420（含标点、不含Front Matter、空白和分隔符），优选2600—3400、硬限2300—3800。本章节已经独立Audit修复元叙事章号并重新按新SHA双遍Reader审查、内容QA通过，正式ready仅待精确候选CI真实成功后更新main；未发布番茄。
+
+## 正式审核放行实证｜2026-11-04
+- 真实候选Commit `d14ceb8c215ab3163660c752b3386c96e492a9d3`，分支结构CI `41828829234`与同Commit main结构CI `41828914726`均SUCCESS，`publisher.check_local`及结构单测两步PASS；main使用expected_sha、force:false原子迁移章节至ready。内容Reader和独立QA具体见reader_reviews及qa/本章报告；不发布番茄。

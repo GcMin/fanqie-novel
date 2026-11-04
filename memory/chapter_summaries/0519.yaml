@@ -15,7 +15,7 @@ depends_on_source_sha: "df863313f4a7c673c4c481f81e7c7c6605f32aea"
 dependency_status: verified_predecessor_factual_delta_reconciled
 timeframe: "Day382 09:17—Day383 07:09"
 summary: >-
-  Day382马芸09:17就2019原第73页同笔关联重拟稿首站真实接入和待转编袋另申请该批次真实出站及异常退回类别，10:04收件13:42限项准阅，双岗排重号、核实同批16:32只有已作废的拟出站预扫，16:47因袋口封签破损退回首站内部待处理区，该次没有真正实物出站交接，16:03在合法范围取得有限摘录；后续是否重新编袋、出站、下一站受袋和历史自然人答复均未核，封签破损原因不得定人祸。北河路少年中心当代临时人工接送暴露打印全班姓名和电话尾号在公众区；有责运营与隐私联络岗保源收回全班表、改当次排号及内侧有效授权核验，其他副本与正式系统更新未核。20:19许一一认识的熟人虽持聊天截图但不具本次有效代接授权，未带离；有权岗位按原监护渠道回拨，母亲21:06真到、21:11合法真人签出、21:24母女实离楼。22:07夜班有源记首站预扫作废及内部退回，Day383 07:09交班。F003限定增加当次异常处理证据，F008/M004/M005仍无新独立确证。
+  Day382马芸09:17就2019原第73页同笔关联重拟稿首站真实接入和待转编袋另申请该批次真实出站及异常退回类别，10:04收件13:42限项准阅，双岗排重号、核实同批16:32只有已作废的拟出站预扫，16:47因袋口封签破损退回首站内部待处理区，该次没有真正实物出站交接；Day382 16:03在合法范围取得有限摘录；后续是否重新编袋、出站、下一站受袋和历史自然人答复均未核，封签破损原因不得定人祸。北河路少年中心当代临时人工接送暴露打印全班姓名和电话尾号在公众区；有责运营与隐私联络岗保源收回全班表、改当次排号及内侧有效授权核验，其他副本与正式系统更新未核。20:19许一一认识的熟人虽持聊天截图但不具本次有效代接授权，未带离；有权岗位按原监护渠道回拨，母亲21:06真到、21:11合法真人签出、21:24母女实离楼。22:07夜班有源记首站预扫作废及内部退回，Day383 07:09交班。F003限定增加当次异常处理证据，F008/M004/M005仍无新独立确证。
 meaningful_state_changes:
   - "2019关联新稿首站待转批次的16:32出站预扫后来作废，16:47封签异常使本次未形成实物出站，证内部退回而非永未再发。"
   - "少年中心临时人工流程的全班公示单被有责回收，改私密授权核验；未经正式授权的熟人未接走孩子，母亲本人真接走。"
@@ -34,4 +34,13 @@ qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structu
 char_count: 3420
 release_evidence:
   ready_blob: "07bcb9bf0b7ed4754e2c9e58344edb8b661b49f1"
-  structural_gate: exact_candidate_ci_required
+  structural_gate: exact_candidate_and_main_ci_success
+  candidate_commit: "d14ceb8c215ab3163660c752b3386c96e492a9d3"
+  validated_tree: "5c0699cf79b8b4eadb9937b4f7dbdd20ff5531df"
+  candidate_ci: 41828829234
+  candidate_ci_conclusion: success
+  main_ci: 41828914726
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
