@@ -7,9 +7,9 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "db64e25de64c02de869645350e04b35e9080560b"
 - depends_on_chapter: 507
-- depends_on_source_sha: "68f53ce15b3cac9a31cdce929083e147083197b9"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0507.md
+- depends_on_source_sha: "02ce1959020d940daabbb7d19ad2744c155e8140"
+- dependency_status: verified_predecessor_factual_delta_reconciled
+- predecessor_location: chapters/ready/0507.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: Day371 09:14—Day372 07:03
 - pov: 第三人称有限视角，马芸、陶佩云与夜间中心
@@ -19,7 +19,7 @@
 
 ## 本章目标与开场
 
-第507章《柜门开过一次，助听器还在里面》仍是未审草稿（Git Blob `68f53ce15b3cac9a31cdce929083e147083197b9`），仅作为临时事实来源，绝不提升为正式 Canon。该临时版本中，Day370白天马芸只经授权定位2019年原岗位纸质移交登记簿的目录及保管位置，**没有**看到第73页指定业务在该册是否有对应项；Day370 22:27陶佩云才真实领到左耳助听器并短时试听，19:46虚领取源于巡检开柜误映，长期使用情况待核；Day371 06:54夜班有限交接。已确证的旧案仅原始“退回核址→补核收讫→再次转出登记”三段，末端交接、当事人获答未知。
+第507章《柜门开过一次，助听器还在里面》已完成独立审核并在本批次先序候选中转ready（Git Blob `02ce1959020d940daabbb7d19ad2744c155e8140`），仅作为临时事实来源，绝不提升为正式 Canon。该临时版本中，Day370白天马芸只经授权定位2019年原岗位纸质移交登记簿的目录及保管位置，**没有**看到第73页指定业务在该册是否有对应项；Day370 22:27陶佩云才真实领到左耳助听器并短时试听，19:46虚领取源于巡检开柜误映，长期使用情况待核；Day371 06:54夜班有限交接。已确证的旧案仅原始“退回核址→补核收讫→再次转出登记”三段，末端交接、当事人获答未知。
 
 目标：旧档调查合法深入一步，确认指定业务在某次交运簿上被标作“暂缓交运”，纠正“登记再转出=实际已移交”的推断，同时让陶佩云本人获得真实的助听器后续复核预约，不把实物领回误写长期维修效果已验收。
 
@@ -41,13 +41,16 @@
 ## 状态变化、伏笔及不可提前泄露
 
 - F003新增限定事实：2019第73页指定原笔一度列入待交批次，某次交运簿当笔“暂缓”且备注识别码复核未合；**未证此后是否修正、是否再交运、真正对端接收、2016在封旧回告内容、历史自然人获答、2022字节同一**。未确认F008新记忆冲突、M004主动删改机制或M005旧工单制度来源。
-- 第507章仍provisional：本章依赖其目录定位、陶佩云有源实领和假领取纠错状态。将来Audit如修订507，需要按具体 `depends_on_source_sha` 比较与重绑，不允许本Writer修改旧章。
+- 第507章已对照旧稿与新稿的事实差异并重绑为正式ready：本章依赖其目录定位、陶佩云有源实领和假领取纠错状态。将来Audit如修订507，需要按具体 `depends_on_source_sha` 比较与重绑，不允许本Writer修改旧章。
 - 陶佩云新增的是**预约真实完成**、使用问题真实受理，不能写机器修复或本人再次领取；原入柜、巡检、22:27本人实领不会因为售后复核被反写。
 - 青杉里702未准复住、榆荫路原坡道仍封、曹国荣阿棋过渡寄养、桂树街其他住户供水和长时稳定性未核，不受本章事件影响。
 - 既有周衡童年永安里记忆未被2019目录转出记载确认；人物不知完整失址机制，不能凭普通档案编码差异跳出阴谋结论。
 
 ## Continuity Precheck 与交接
 
-本轮重读main AGENTS、config/novel、docs/writing_roles、docs/ai_reading_protocol，四项 Bible、三名核心人物卡；当前卷/arc旧outline与近期 Memory 冲突时采用已核本线 ARC-054 和记载的最新正式事实；读取长期人物/关系/知识/世界状态、F003/F008与时间线、497—506最近十章正式摘要、503—506正式正文及507未审草稿与详细章纲，并检查 plans/chapter_plan.csv。未读历史 reader_reviews。第153章已真实存在于published，不需恢复；三目录最新正文至507，新章应为508。正文 Front Matter 为 `status:draft`、`qa:pending`、`approved_at:null`、`publish_mode:draft`，只提交本章新章纲和新草稿，无独立审核/修订/QA/Memory/ready/番茄发布。
+本轮重读main AGENTS、config/novel、docs/writing_roles、docs/ai_reading_protocol，四项 Bible、三名核心人物卡；当前卷/arc旧outline与近期 Memory 冲突时采用已核本线 ARC-054 和记载的最新正式事实；读取长期人物/关系/知识/世界状态、F003/F008与时间线、497—506最近十章正式摘要、503—506正式正文及507旧草稿（已由Audit核对）与详细章纲，并检查 plans/chapter_plan.csv。未读历史 reader_reviews。第153章已真实存在于published，不需恢复；三目录最新正文至507，新章应为508。正文 Front Matter 为 `status:draft`、`qa:pending`、`approved_at:null`、`publish_mode:draft`，只提交本章新章纲和新草稿，无独立审核/修订/QA/Memory/ready/番茄发布。
 
 章末双方案子均有改变：陶佩云确有次日专业复核预约；2019原档本次交运因识别码复核暂缓有原始证据，但尚无后来真实交接和自然人回复。
+## Audit Stage A修订记录｜2026-11-04
+- 508原Draft SHA 807541d01e1f9abef10b47040dd65766d61a28e9 Reader 0/1/2；原依赖507草稿 68f53ce15b3cac9a31cdce929083e147083197b9。真实比较507原稿与ready 02ce1959020d940daabbb7d19ad2744c155e8140，仅修正对2019史料无依据的“十九年前”，目录定位与22:27实领事实完全不变。
+- 本章只重绑依赖及详细章纲，508小说正文零改，新完整Draft SHA e1cd3e06ea3c872d37d5d6338a8eb8ac53c8b670 独立再审0/0/2，QA通过，3361有效字；精确候选结构CI待验。

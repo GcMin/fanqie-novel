@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 507
+title: "柜门开过一次，助听器还在里面"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "68f53ce15b3cac9a31cdce929083e147083197b9"
+source_draft_sha: "99186212cefb7528b934b60b4a4839d74ad2b19d"
+initial_review: "reader_reviews/0507_68f53ce1.md"
+reader_review: "reader_reviews/0507_99186212.md"
+depends_on_chapter: 506
+depends_on_source_sha: "e6f9ab9900999f680be72e2efb32655e57ed12d5"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day370 09:46—Day371 06:54"
+summary: >-
+  Day370马芸09:46获得原岗交接与目的端受领范围分流11:28真提交限项补充说明15:17仅获去身份目录许可16:02确认2019纸质移交登记簿馆藏位置，不证第73页指定笔实际交运。夜间陶佩云20:34自报19:46自助柜假标已领取而本人未取，合作单位21:03核见授权巡检柜门八秒公众端错映，并不证明物件去向。22:07有责人员本人在场开柜22:19按维修单核袋内真实左耳助听器，22:27陶佩云本人真正签领并短试，修后长期使用仍未知；原错映来源保留并申请更正。23:28中心只获目录级阶段回告，Day371 06:54交班。F003不证交接与历史真人获答，F008/M004/M005无新证。
+meaningful_state_changes:
+  - "陶佩云从错误已领取而无法取件推进到本人真正签领、短时试用；长期修复未知。"
+  - "旧2019纸质移交簿馆藏位置有源可查，但特定原业务是否有交运项未知。"
+knowledge_updates:
+  - "马芸只能知道合法目录及保管位置，不知历史当事人及对端受领。"
+  - "周衡夏宁梁策知道巡检开柜和陶佩云本人领件是两回事，长期修复待检。"
+relationship_updates:
+  - "陶佩云拒被代签丢失或假领，服务单位尊重本人核物自主权。"
+foreshadowing_updates:
+  - "F003增旧移交簿目录位置但不证具体历史交运、回告，F008/M004/M005无确证。"
+ending_state: "Day371 06:54陶佩云实际持有助听器、维修效果待试；旧案仅目录可定位。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "68f53ce15b3cac9a31cdce929083e147083197b9", final_draft_sha: "99186212cefb7528b934b60b4a4839d74ad2b19d", stage_a_used: 1, body_revisions: 1}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3119
+release_evidence: {ready_blob: "02ce1959020d940daabbb7d19ad2744c155e8140", candidate_ci: pending_exact_commit}

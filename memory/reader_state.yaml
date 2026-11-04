@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 506
-last_reviewed_title: "水龙头有了声音，回执却还没到人手里"
-last_source_path: chapters/draft/0506.md
-last_source_sha: 8321515e89466cf5aa3b604cd1fc74f7fbbad36a
-last_review_path: reader_reviews/0506_8321515e.md
+last_reviewed_chapter: 508
+last_reviewed_title: "转出栏还在，交运那天却盖了暂缓"
+last_source_path: chapters/draft/0508.md
+last_source_sha: e1cd3e06ea3c872d37d5d6338a8eb8ac53c8b670
+last_review_path: reader_reviews/0508_e1cd3e06.md
 last_reviewed_at: "2026-11-04"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 505
-depends_on_source_sha: f0ee0e061a74b1cc9b57904ef7c2bd2f98633edf
+depends_on_chapter: 507
+depends_on_source_sha: 02ce1959020d940daabbb7d19ad2744c155e8140
 dependency_status: verified_predecessor_factual_delta_reconciled
-predecessor_current_source_sha: f0ee0e061a74b1cc9b57904ef7c2bd2f98633edf
+predecessor_current_source_sha: 02ce1959020d940daabbb7d19ad2744c155e8140
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -5056,3 +5056,28 @@ release_506_reader_evidence:
   structural_unit_tests: pass
   ready_blob: "e6f9ab9900999f680be72e2efb32655e57ed12d5"
   main_update: expected_sha_force_false_success
+chapter_507_audit_reader:
+  chapter: 507
+  original_sha: "68f53ce15b3cac9a31cdce929083e147083197b9"
+  original_review: "reader_reviews/0507_68f53ce1.md"
+  original_counts: "0/1/2"
+  source_sha: "99186212cefb7528b934b60b4a4839d74ad2b19d"
+  review: "reader_reviews/0507_99186212.md"
+  final_counts: "0/0/2"
+  stage_a: "remove ungrounded nineteen-year interval for 2019 original registration"
+  dependency: "506 exact ready SHA"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required
+
+chapter_508_audit_reader:
+  chapter: 508
+  original_sha: "807541d01e1f9abef10b47040dd65766d61a28e9"
+  original_review: "reader_reviews/0508_807541d0.md"
+  original_counts: "0/1/2"
+  source_sha: "e1cd3e06ea3c872d37d5d6338a8eb8ac53c8b670"
+  review: "reader_reviews/0508_e1cd3e06.md"
+  final_counts: "0/0/2"
+  stage_a: "507 original vs final ready factual delta compared and metadata+outline rebound"
+  predecessor_ready_blob: "02ce1959020d940daabbb7d19ad2744c155e8140"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required

@@ -14,7 +14,7 @@
 - timeframe: Day370 09:46—Day371 06:54
 - pov: 第三人称有限视角，陶佩云、马芸与夜间中心三人
 - target_effective_chars: 3000
-- actual_effective_chars: 3114
+- actual_effective_chars: 3119
 - status: planned_and_new_draft_only
 
 ## 本章目标与开场
@@ -45,3 +45,6 @@
 已按AGENTS、config、writing_roles及ai_reading_protocol读取Bible四项和周衡/夏宁/梁策人物卡、最新卷/ARC说明与Memory人物/关系/知识/世界、F003和时间线、497—506十章摘要和502—506五章正文、计划表。旧ARC文件仍停留第137章，不作当前事实来源；实际当下以Memory的ARC-054第506章及已ready正文为准。未读历史reader_reviews。frontmatter status draft, qa pending, approved_at null; 506 is verified ready; Day370 07:11 predecessor end; Day370 afternoon legal limited archive directory only; Day370 night emergency service type is regular locator and pickup, does not imply F008/M004/M005.Writer不执行独立Reader/Revision/QA/Memory/ready/平台发布。
 
 章末当代确有陶佩云本人领取时间和票据；旧2019没有同类真交接，下一步仅能另行申请核原岗移交登记簿内指定笔的非身份条目。
+
+## Audit修订说明｜2026-11-04
+- 原稿SHA 68f53ce15b3cac9a31cdce929083e147083197b9 原Reader 0/1/2；仅改章末不实的“十九年前”为“二〇一九年那笔事”，新草稿SHA 99186212cefb7528b934b60b4a4839d74ad2b19d Reader重新独立双遍0/0/2，QA通过，3119有效字，候选结构CI待验。

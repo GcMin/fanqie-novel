@@ -1,7 +1,4 @@
-# 唯一Audit最新已完成正式ready：第505—506章｜2026-11-04
-
-第505章源草稿 `257fd321ae20f03ced5e1ca615e9e6b563cf64ad` 独立Reader Pass A/B 0/0/2，正文无修订，独立Continuity/Style/Meaningful QA PASS。并发Writer第506章新草稿保留后，505精确候选及正式Commit `b769aa8a5c4bdf2ccfc6d0d2f11df097d23106a3`，Actions候选 `41737818829` **SUCCESS**（离线结构单测和 `python -m publisher.check_local --repo .` 实际通过），main同SHA `41737881197` **SUCCESS**，用expected_sha/force:false成功更新main。正式 `chapters/ready/0505.md` Blob `f0ee0e061a74b1cc9b57904ef7c2bd2f98633edf`，原draft删除。
-
-第506章原草稿 `2c98fdda6e5d1ce3a2068e03c73f435abcbacb50` Reader 0/1/2；Stage A因505旧草稿与正式ready标题/正文完全一致仅元数据不同，将506及详纲前章依赖重绑505正式SHA，生成新草稿 `8321515e89466cf5aa3b604cd1fc74f7fbbad36a`，重新独立双遍Reader 0/0/2，正文0字改动，独立QA PASS。精确候选/正式Commit `17aa4ea94030f5389732def1ff06f925fb1328f1`，Actions候选 `41738461528` **SUCCESS**（结构单测及publisher.check_local真实成功），main同SHA `41738520963` **SUCCESS**，expected_sha/force:false更新真实成功。正式 `chapters/ready/0506.md` Blob `e6f9ab9900999f680be72e2efb32655e57ed12d5`，原draft删除。两章长Memory、章节计划、Reader/QA均同树归档。
-
-不修改Canon/published或两条定时任务，不自动发布番茄。详情见`qa/0505_report.md`、`qa/0506_report.md`。
+# ARC-054最新内容QA｜第507—508章｜2026-11-04
+- 507：原 `68f53ce15b3cac9a31cdce929083e147083197b9` Reader 0/1/2，Stage A仅更正2019旧档不实“十九年前”，新SHA `99186212cefb7528b934b60b4a4839d74ad2b19d` 独立重审0/0/2，Continuity/Style/Meaningful PASS，3119有效字。正式ready Blob候选 `02ce1959020d940daabbb7d19ad2744c155e8140`。
+- 508：原 `807541d01e1f9abef10b47040dd65766d61a28e9` Reader 0/1/2，Stage A按事实比对507旧稿与正式ready后重绑元数据及详纲，508正文0字改；新SHA `e1cd3e06ea3c872d37d5d6338a8eb8ac53c8b670` 再双遍审查0/0/2，三项QA PASS，3361有效字；ready候选 `21f9ce3c16844d9f04fcd5fcd9185d126efe9d2e`。
+- 本报告仅内容QA，精确GitHub CI未成功不得声称结构通过或正式放行。

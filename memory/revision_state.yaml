@@ -4448,3 +4448,40 @@ release_506_revision_evidence:
   stage_a_used: 1
   body_revisions: 0
   main_update: expected_sha_force_false_success
+chapter_507_revision_state:
+  chapter: 507
+  original_sha: "68f53ce15b3cac9a31cdce929083e147083197b9"
+  final_sha: "99186212cefb7528b934b60b4a4839d74ad2b19d"
+  initial_review: "reader_reviews/0507_68f53ce1.md"
+  final_review: "reader_reviews/0507_99186212.md"
+  initial_counts: "0/1/2"
+  final_counts: "0/0/2"
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  fix: "2019 record misdescribed as nineteen years ago; replace with explicit 2019 reference only"
+  retry_cycles: 0
+  safe_mode: false
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required
+
+chapter_508_revision_state:
+  chapter: 508
+  original_sha: "807541d01e1f9abef10b47040dd65766d61a28e9"
+  final_sha: "e1cd3e06ea3c872d37d5d6338a8eb8ac53c8b670"
+  initial_review: "reader_reviews/0508_807541d0.md"
+  final_review: "reader_reviews/0508_e1cd3e06.md"
+  initial_counts: "0/1/2"
+  final_counts: "0/0/2"
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  fix: "compare 507 source/ready narrative and rebind 508 dependency+plan to actual ready SHA"
+  predecessor_original_sha: "68f53ce15b3cac9a31cdce929083e147083197b9"
+  predecessor_ready_sha: "02ce1959020d940daabbb7d19ad2744c155e8140"
+  retry_cycles: 0
+  safe_mode: false
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required

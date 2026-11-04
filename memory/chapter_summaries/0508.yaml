@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 508
+title: "转出栏还在，交运那天却盖了暂缓"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "807541d01e1f9abef10b47040dd65766d61a28e9"
+source_draft_sha: "e1cd3e06ea3c872d37d5d6338a8eb8ac53c8b670"
+initial_review: "reader_reviews/0508_807541d0.md"
+reader_review: "reader_reviews/0508_e1cd3e06.md"
+depends_on_chapter: 507
+depends_on_source_sha: "02ce1959020d940daabbb7d19ad2744c155e8140"
+dependency_status: verified_predecessor_factual_delta_reconciled
+timeframe: "Day371 09:14—Day372 07:03"
+summary: >-
+  Day371马芸09:47新申合法核2019移交簿第73页指定业务非身份交运项14:16获正式限项许可，15:52有责双岗确认本笔曾列待交批次但独立状态栏有“暂缓”红章与识别码复核未合备注，故本次交运未完成；原岗“再次转出登记”仍然成立，不能推后来未再交或历史自然人未获答。16:08出有源限定摘录。20:48陶佩云Day370实领助听器居家试用尖鸣，主动停用且无急性耳痛，21:27经有责合作单位真确认Day372 14:20专业复核预约而未检测，原公众错领取同步仍待核；23:06中心仅收匿名摘录，Day372 07:03交班。F003有界推进，F008/M004/M005无新独立证据。
+meaningful_state_changes:
+  - "旧指定业务当次实际交运因识别码复核未合被原始登记明确暂缓。"
+  - "陶佩云居家发现新问题获独立售后工单和真实次日14:20预约，设备尚未复核。"
+knowledge_updates:
+  - "马芸与夜班中心只知一次暂缓交运，不知后续再交、对端收答或故意截留。"
+  - "陶佩云知道真领和后续使用异常是不同服务事实，不将昨日签字作长期合格。"
+relationship_updates:
+  - "马芸与有责双岗坚持遮敏限项，陶佩云与维修方明确独立售后权利。"
+foreshadowing_updates:
+  - "F003新增本次暂缓交运有源证据而非永久不交，2016旧封/2022字节和历史人获答未知，F008/M004/M005未证。"
+ending_state: "Day372 07:03陶佩云持实物但停用异常机器且有当日下午复核预约；2019原岗待交笔本次暂缓、未来再交未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "807541d01e1f9abef10b47040dd65766d61a28e9", final_draft_sha: "e1cd3e06ea3c872d37d5d6338a8eb8ac53c8b670", stage_a_used: 1, body_revisions: 0, predecessor_original_sha: "68f53ce15b3cac9a31cdce929083e147083197b9", predecessor_ready_blob: "02ce1959020d940daabbb7d19ad2744c155e8140"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3361
+release_evidence: {ready_blob: "21f9ce3c16844d9f04fcd5fcd9185d126efe9d2e", candidate_ci: pending_exact_commit}
