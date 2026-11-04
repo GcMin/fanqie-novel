@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 521
+title: "箭头指向围挡，纸件停在复核台"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "2b2a328a7b27afa75036ac82ba4b4a98491f1704"
+reader_review: "reader_reviews/0521_2b2a328a.md"
+depends_on_chapter: 520
+depends_on_source_sha: "175b4df2cb093790e70d7ed33d67defad2f55b8d"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day384 09:16—Day385 07:10"
+summary: >-
+  Day384马芸从前520已证首站单件待核岗实接另申请该件首次真实出柜与接收类别，10:11新窄申获受理、13:52新限准，14:29—15:08两名有权保管员从待核岗出柜簿与内部复核台独立接入簿排同尾号跨批歧义后，真核原2019第73页同一关联重拟稿自待核岗真实交出、内部复核台独立接收，当时非身份处理类别为原袋拆分件数与本件接续对应关系待核、暂缓继续外转，15:39合法限摘；不证以后永远暂缓、后续重新编袋/下一站收文、历史本人获答。桃溪桥南社区接驳末班旧站的临时箭头被施工围挡遮蔽且指向禁止通行位置，乘客姜素兰21:07到旧站不知安全路径；21:12夜间中心联动运营，有责站务21:21核真实安全人行路线和批准的东侧临时站，调度在本权限内让末班稍候，姜素兰21:41真实上车刷卡后本人回拨；21:53旧站临时指引现场补正并保留错误照片，其他班次和永久指引仍待核。22:13旧档限项回告只分源登记，Day385 07:10交班。F003限定推进，F008/M004/M005、2016封内及2022具体文件字节不新确证。
+meaningful_state_changes:
+  - "旧2019指定单件自首站待核岗获双端真实出柜至内部复核台实接，且当时因件数对应待核暂缓继续外转，未来动作待查。"
+  - "桃溪桥南原站错指引得到现场有责纠正，一名实际被误导乘客按安全路线在批准临时站真人登车。"
+knowledge_updates:
+  - "马芸与夜班仅知实际内部复核台接手及当时暂缓类别，不知实际复核结果或历史自然人收答。"
+  - "姜素兰本人及运营人员知道该班次真实可走的公开人行路线、她21:41实际登车，不知其他乘客是否同样获有效指引。"
+relationship_updates:
+  - "马芸同事删除无据的在途，周衡梁策夏宁分源书面记本次有据交接，不用一次案子的结局替另一案子签收。"
+  - "姜素兰接受站务真实引导而非手机箭头，实际到达批准站位后由司机按合法停站上车。"
+foreshadowing_updates:
+  - "F003从内部单件待核实接推进至复核台独立实接与当时件数对应待核，不证后来实际外送、2019自然人实收答；2016封内、2022字节同一和F008/M004/M005没有新确证。"
+ending_state: "Day385 07:10旧信只证首站内部复核台有责接手并在当时因件数对应问题暂缓外转，后续未知；姜素兰当晚实坐上末班车，但错误站点指引的持续改造待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "2b2a328a7b27afa75036ac82ba4b4a98491f1704", final_draft_sha: "2b2a328a7b27afa75036ac82ba4b4a98491f1704", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required}
+char_count: 3297

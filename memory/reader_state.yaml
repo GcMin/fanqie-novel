@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 520
-last_reviewed_title: "封袋换了新的，旧信却被单独留下"
-last_source_path: chapters/draft/0520.md
-last_source_sha: 7a7c5f11530358c24aa9ab4c971f8059a07cb9dd
-last_review_path: reader_reviews/0520_7a7c5f11.md
+last_reviewed_chapter: 521
+last_reviewed_title: "箭头指向围挡，纸件停在复核台"
+last_source_path: chapters/draft/0521.md
+last_source_sha: 2b2a328a7b27afa75036ac82ba4b4a98491f1704
+last_review_path: reader_reviews/0521_2b2a328a.md
 last_reviewed_at: "2026-11-04"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 519
-depends_on_source_sha: 07bcb9bf0b7ed4754e2c9e58344edb8b661b49f1
+depends_on_chapter: 520
+depends_on_source_sha: 175b4df2cb093790e70d7ed33d67defad2f55b8d
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 07bcb9bf0b7ed4754e2c9e58344edb8b661b49f1
+predecessor_current_source_sha: 175b4df2cb093790e70d7ed33d67defad2f55b8d
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -5334,3 +5334,15 @@ release_520_exact_ci_evidence:
   publisher_check_local: pass
   main_update: expected_sha_force_false_success
   ready_blob: "175b4df2cb093790e70d7ed33d67defad2f55b8d"
+
+chapter_521_arc054_reader_gate:
+  chapter: 521
+  source_sha: "2b2a328a7b27afa75036ac82ba4b4a98491f1704"
+  review: "reader_reviews/0521_2b2a328a.md"
+  counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  predecessor_ready_blob: "175b4df2cb093790e70d7ed33d67defad2f55b8d"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required

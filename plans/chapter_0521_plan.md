@@ -15,7 +15,7 @@
 - pov: 第三人称有限（马芸、姜素兰、周衡）
 - target_effective_chars: 3000
 - actual_effective_chars: 3297
-- status: writer_created_pending_independent_audit
+- status: qa_pass_ready_candidate_pending_exact_ci
 
 ## 本章目标与开场
 承接520草稿Day384 07:12已证2019原第73页指定业务关联重拟稿首站破封后实际单件分流并由待核岗位接入。马芸于Day384上午以新许可追查目标件第一次出柜交接，不把暂时来源升级为Canon。同期桃溪桥南社区接驳末班车临时停靠点的告示被围挡遮住，乘客姜素兰独自候错站。
@@ -46,3 +46,7 @@
 
 ## 交付
 新草稿3297有效字符，status:draft、qa:pending、approved_at:null、publish_mode:draft；待独立审核。
+## 独立审查与交付候选证据｜2026-11-04
+- 草稿来源Git Blob `2b2a328a7b27afa75036ac82ba4b4a98491f1704`，SHA绑定Reader Pass A/B `reader_reviews/0521_2b2a328a.md`：0 BLOCKER / 0 MAJOR / 2 MINOR；keep/none；正文0字修订。
+- 独立Continuity/Style/Meaningful QA PASS，详见`qa/0521_report.md`；前520正式ready SHA `175b4df2cb093790e70d7ed33d67defad2f55b8d`精确依赖；3297有效字符。
+- `ready`仅在精确候选Commit结构单测与`python -m publisher.check_local --repo .`均SUCCESS且main用expected_sha/force:false成功后正式生效，不用内容QA冒充结构门禁。

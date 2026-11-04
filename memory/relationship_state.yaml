@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 520
+last_updated_chapter: 521
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2420,3 +2420,10 @@ chapter_520_arc054_verified:
   ma_yun_and_colleague: "同事推测破袋就重封再寄，马芸依法只核具体同件首次内部交接，不让同事先报出站。"
   fang_teacher_and_parent: "父亲担忧公开旧全班表曾让陌生家长念出女儿同学名字；方老师说明可依法查询本人子女资料，隐私岗实际发现第二张漏表并保源，父女当晚真接真离。"
   center_team: "周衡按梁策纠正把本件只写为首次分流入待核岗，夏宁保留旧表外泄范围待核，互信值不凭单章无依据调整。"
+
+chapter_521_arc054_verified:
+  chapter: 521
+  source_sha: "2b2a328a7b27afa75036ac82ba4b4a98491f1704"
+  ma_yun_and_colleague: "同事误将离开待核柜当重新寄出，马芸用新双端档案只证内部复核台接手，协助纠正周报在途。"
+  jiang_sulan_and_station_staff: "姜素兰担忧末班赶不上，站务当班陪走批准公众安全路线并联系合法调度，使本人到达临时站实际登车，不以系统语音替代。"
+  center_team: "夏宁坚持旧站是否真告知与乘客是否上车分项，周衡等实际回告，梁策提醒不由中心越权改站位，关系互信指标不作无依据调整。"
