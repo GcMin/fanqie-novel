@@ -8,3 +8,7 @@
 - Meaningful PASS：借机本人合法续借与旧档出现新登记均为实质变化；标题《五点之前，她要自己签下一行》与详纲、Front Matter一致，3353字在硬限及优选内。
 - 与此前137→138、139→140、142→143、146→147、147→148历史依赖案例不混用；本章不存在这些前章旧版本的直接承接。不可据SHA不同而跳过真实前章事实比较。
 - **此处仅为独立内容 QA PASS，精确候选Git Commit的结构单元测试与 `python -m publisher.check_local --repo .` 实际SUCCESS后，才能更新main正式ready。**
+
+## 正式精确结构校验及main放行已完成
+- Git Commit `5cb5ed1bc1e5f8c030e3d971032cc9aa5a23da47`，Tree `7c8a0f9bafd0b99c683f82195cc30f9ff03ae304`，candidate Actions `41784735180` completed/SUCCESS，main Actions `41784786060` completed/SUCCESS；两次运行的head_sha都等于本Commit，单元测试及 `publisher.check_local` 各自PASS。
+- 已先经候选CI成功后才以旧main HEAD的expected_sha、force:false正式推进，原草稿删除，正式ready Blob `42bab184c7780b3cbff0d3eb62637782f864ed03`。本节的已验证事实覆盖本报告上方曾处于候选阶段的警告，不表示跳过结构门禁。

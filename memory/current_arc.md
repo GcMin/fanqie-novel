@@ -1,3 +1,7 @@
+# 第512—513章真实精确GitHub CI 与main放行证据｜2026-11-04
+- 正式放行候选和main Commit `5cb5ed1bc1e5f8c030e3d971032cc9aa5a23da47`；完整Git Tree `7c8a0f9bafd0b99c683f82195cc30f9ff03ae304`。候选审计分支Actions `41784735180` 与实际main Actions `41784786060`，`head_sha`都精确等于该Commit，均已完成 **SUCCESS**，各自实际执行离线结构单元测试及 `python -m publisher.check_local --repo .` 并通过。
+- 校验成功后使用 `expected_sha=2e1aedc9b699d03bb2ecdf720d7a6b0f3703ce84`、`force:false` 真正更新main；511已ready未改。512正式ready Blob `42bab184c7780b3cbff0d3eb62637782f864ed03`；513正式ready Blob `d0a9ee3ad802516db83905b5afae97c1fe720844`；两原draft同树删除。Stage A均只修Front Matter/详纲元数据，小说正文0字改。仅当下述审计证据补充提交也通过精确候选CI后才将其写入main，不将上一章节内容QA候选中“结构待核”视作最新状态。
+
 # 第512—513章 ARC-054 Reader/Revision/内容QA 候选｜2026-11-04
 - 第512章初稿 `fab485bedebb2280fa5574ca7fb5da21e11ee0a8` 首轮Reader 0/1/2（唯一MAJOR为Front Matter /详纲3338与真实3353有效字不符）。Stage A仅修两处数字，小说正文标题逐字不变，新draft SHA `3b14cca386841b1f02ebc1012a7d21fbb815f633` 再独立Pass A/B 0/0/2，独立Continuity/Style/Meaningful QA PASS，正式ready候选Blob `42bab184c7780b3cbff0d3eb62637782f864ed03`；前511 ready `be72fd54b2c1cdc385f391c6935371a18784858a` 精确依赖。
 - Day375陶佩云10:35真做专业短时借机复核，原机待件留修，原到期17:00前16:49本人真正亲签经有责岗位使同编号设备借期延至Day377 17:00，不证长期适配。马芸按新许可16:03双岗核2019原第73页指定笔复核处理后的“补据通知拟发登记”当时状态待核发，不证真实核发、外发、历史人获答。Day376 07:08夜班交班。

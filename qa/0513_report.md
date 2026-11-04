@@ -7,3 +7,7 @@
 - Style PASS：老人担心孩子、湿面包与告示朝向等具体动作构成完整场景；MINOR为在夜案中回插下午档案线的短暂时间调整与后段提醒密集，但明确“曾”字，未造成MAJOR。
 - Meaningful PASS：2019原拟稿审核退回重拟的新有源阶段和一宗居民真实获安全通路处置至少两项变化。F003边界如上，F008/M004/M005无新增独立证，青杉里702/榆荫路坡道/罗月本户状态不被改写。章号513、卷6 ARC-054、标题《通知退回原处，等门的人还没进去》与详纲一致，3154有效字符合规。
 - **只有真实精确候选Commit结构单测及 `python -m publisher.check_local --repo .` 均SUCCESS，才能原子移动ready；本QA报告本身不构成结构放行。**
+
+## 正式精确结构校验及main放行已完成
+- Git Commit `5cb5ed1bc1e5f8c030e3d971032cc9aa5a23da47`，Tree `7c8a0f9bafd0b99c683f82195cc30f9ff03ae304`，candidate Actions `41784735180` completed/SUCCESS，main Actions `41784786060` completed/SUCCESS；两次运行的head_sha都等于本Commit，单元测试及 `publisher.check_local` 各自PASS。
+- 已先经候选CI成功后才以旧main HEAD的expected_sha、force:false正式推进，原草稿删除，正式ready Blob `d0a9ee3ad802516db83905b5afae97c1fe720844`。本节的已验证事实覆盖本报告上方曾处于候选阶段的警告，不表示跳过结构门禁。

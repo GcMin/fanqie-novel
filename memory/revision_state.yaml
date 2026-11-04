@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 513
-current_stage: ready_candidate_structural_ci_pending
+current_stage: ready_committed_after_exact_ci_success
 current_source_path: chapters/draft/0513.md
 current_source_sha: c47c7b67c640c0b542ac33df8ee31f863bcaab48
 current_review_path: reader_reviews/0513_c47c7b67.md
@@ -12,7 +12,7 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapters512_513_reader_qa_success_structural_candidate_pending
+last_action: chapter512_513_ready_released_after_exact_ci_success
 last_action_date: "2026-11-04"
 last_error: null
 last_diff_summary: "509 Reader0/0/2 no_revision; independentQA_PASS; exactCI41759306017_success; mainCI41759350171_success; readyBlob_f2a96d07956158081e5ea8c79d92fbf6cbb6d55b"
@@ -4516,3 +4516,16 @@ combined_audit_chapter_510_511_20261104:
 combined_audit_chapter_512_513_20261104:
   chapter_512: {original_sha: "fab485bedebb2280fa5574ca7fb5da21e11ee0a8", final_sha: "3b14cca386841b1f02ebc1012a7d21fbb815f633", initial_review: "reader_reviews/0512_fab485be.md", final_review: "reader_reviews/0512_3b14cca3.md", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "only_charcount3338_to3353_and_plan", content_qa: pass, structural_gate: exact_candidate_ci_required}
   chapter_513: {original_sha: "f5ef048eb88b609ab57c016b5f55dc256b398ab7", final_sha: "c47c7b67c640c0b542ac33df8ee31f863bcaab48", initial_review: "reader_reviews/0513_f5ef048e.md", final_review: "reader_reviews/0513_c47c7b67.md", initial_counts: "0/2/2", final_counts: "0/0/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "compare512_body_title_same_rebind_ready_and_correct_charcount", predecessor_ready_blob: "42bab184c7780b3cbff0d3eb62637782f864ed03", content_qa: pass, structural_gate: exact_candidate_ci_required}
+
+release_512_513_revision_evidence:
+  chapters: [512, 513]
+  candidate_commit: "5cb5ed1bc1e5f8c030e3d971032cc9aa5a23da47"
+  candidate_ci: 41784735180
+  main_ci: 41784786060
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  ready_512_blob: "42bab184c7780b3cbff0d3eb62637782f864ed03"
+  ready_513_blob: "d0a9ee3ad802516db83905b5afae97c1fe720844"
+  stage_a_used_each: 1
+  body_revisions: 0
+  main_update: expected_sha_force_false_success
