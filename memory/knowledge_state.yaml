@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 533
+last_updated_chapter: 534
 characters:
   zhou_heng:
     knows:
@@ -2843,3 +2843,11 @@ chapter_533_arc054_verified:
   zheng_man_and_crew: "郑曼知道丈夫失动力仍在水上且经专业通联与救援实际登岸；最初平台假已归港不等于真到岸，具体航线未知。"
   center_team: "岸上备用终端蓝点不对应工作艇，救援专业独立核位和转移，中心只收当次真实来源正式通报。"
   invariants: "2019待核发不等于个人收答；F008/M004/M005和2016旧封、2022原字节同一无证。"
+
+chapter_534_arc054_verified:
+  chapter: 534
+  source_sha: "1b859e0f89226633c5d567d874dd109f31c6d6f1"
+  ma_yun_and_center: "仅依法有责核2019同笔内部提示拟稿本次送审并因补据不足退回暂不核发；不知之后修改重拟正式核发、个人身份地址或历史本人受答。"
+  crew_and_management: "汪嵘已于前夜真签上岸交接，知道本人归岸而原艇未回；刘树成及码头确认原艇假可派、班员都未登艇，主管签停派撤班。动力原因/原艇复航/工资工时未知。"
+  beacon_providers: "航标有责方只核特定灯位经合规窗口专业23:27本次复测正常，其他航标/长期表现并未全部通过。"
+  invariants: "普通当代平台错映不等于2019旧稿退审同一机制；F008/M004/M005及2016/2022跨源同一仍未证。"

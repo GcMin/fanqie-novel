@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 534
+title: "退回的那一页，码头又亮起出航灯"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "594c7175712e0c7522c6399e038987fe07f4cfa5"
+source_draft_sha: "1b859e0f89226633c5d567d874dd109f31c6d6f1"
+initial_review: "reader_reviews/0534_594c7175.md"
+reader_review: "reader_reviews/0534_1b859e0f.md"
+depends_on_chapter: 533
+depends_on_source_sha: "1ba6a457ecb0d9d25dd69dc31281cf322c9f6d84"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day397 09:19—Day398 07:06（开场先呈现Day397早餐）"
+summary: >-
+  Day397马芸就2019第73页关联同一指定补据清单已形成且待核发的内部回转提示拟稿另申请其当次审核阶段，09:53受理14:26独立限准，15:09双岗双原始簿互证原稿本次确实进入审核后因“补据不足”退回，阶段“暂不核发”，16:06限项摘录；不证后来不会另拟或历史真人终无获答。当代汪嵘等两人上夜23:06专业救援真登岸但失动力原艇仍在江上，码头把返港计划假归泊自动带入新班可用艇；领班刘树成留两班员在岸不让假出航，20:16中心受理，21:08航标有责方复核近岸灯位异常并评估专业补救，21:31码头主管按权限签原艇停派和撤班，汪嵘拒把人员归岸签成船艇正常归泊；有责维护单位调合法保障船与许可窗口核该灯位，23:27本灯位复测正常，不能推全线完成。23:48分源回告Day398 07:06交班；原艇拖带/故障、平台全局修复、工时工资仍待有责。F003有限推进，F008/M004/M005及2016/2022同一不升级。
+meaningful_state_changes:
+  - "2019原内部回转提示拟稿本次审核曾真正受理，但补据不足退回且暂不核发；不能推后续所有版本未发或历史无人答复。"
+  - "原工作艇虽未归泊且系统假列可派，21:31有权主管真实停派撤班，两新班员并未危险出航。"
+  - "有责航标维护人员另合法作业，该灯位23:27本次专业复测正常，不等于全线或原艇恢复。"
+knowledge_updates:
+  - "马芸和中心仅知当次合法去身份审核退稿，不知后续改稿、核发及历史个人实收。"
+  - "汪嵘、刘树成和码头知道两人归岸不等于原艇真返泊，后续误派已撤；原艇动力原因和拖带复航待核。"
+relationship_updates:
+  - "刘树成主动护住新班员安全与真实性，保留纸签到以便后核工时；汪嵘拒在假返泊栏补签，向家人说明船未回来。"
+foreshadowing_updates:
+  - "F003有据新增2019指定稿送审当次因补据不足真实退回与暂不核发；以后是否另稿/对外答复未证，F008/M004/M005/2016/2022同一不升级。"
+ending_state: "Day398 07:06已撤原艇危险假派，本灯位专业复测正常但原艇拖带复航/全局运营规则未结；2019该份拟稿本次退回，未来改稿和历史真人答复仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "594c7175712e0c7522c6399e038987fe07f4cfa5", final_draft_sha: "1b859e0f89226633c5d567d874dd109f31c6d6f1", initial_counts: "0/2/2", final_counts: "0/0/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, fix: "rebind_533_ready_and_clarify_already_signed_rescue_handover"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3578
+release_evidence:
+  ready_blob: "961c7b0fd45ca93881dd237cf653ddccea2b3863"
+  structural_gate: pending_exact_candidate_ci

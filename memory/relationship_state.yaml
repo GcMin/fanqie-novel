@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 533
+last_updated_chapter: 534
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2521,4 +2521,13 @@ chapter_533_arc054_verified:
   ma_yun_and_colleague: "同事周报以旧初点资料误写补据核销完成，马芸要求删完成并只记2019新准阅实际形成的待核发内拟稿。"
   zheng_man_wang_rong_child: "郑曼误转丈夫已归港给孩子后保留并纠正，真等丈夫岸上交接，不编造具体行船路线，家庭彼此可信信息源重新确认。"
   center_rescue: "码头值班员主动撤销无根据的位置猜测；专业救援独立核人通联并救起，夏宁周衡记录正确阶段，梁策不越权出船。"
+  trust_scores_unchanged: true
+
+chapter_534_arc054_verified:
+  chapter: 534
+  source_sha: "1b859e0f89226633c5d567d874dd109f31c6d6f1"
+  ma_yun_and_colleague: "同事猜旧信未寄，马芸凭合法审核记录只认此份本次补据不足退回，不把未知后续填成无答。"
+  liu_shucheng_and_crew: "领班主动保护两新班员不因平台错误出航，保留签班记录供真实工时核；汪嵘拒在原艇正常归泊上虚签。"
+  zheng_man_and_wang_rong: "妻子和孩子对人归岸船未归形成共同理解，孩子留言爸爸人先回来船慢慢修。"
+  center_team: "夜间中心配合各自有责码头和专业航标评估，不代他们决定出航、复航或薪资；互信评分无依据不改。"
   trust_scores_unchanged: true
