@@ -1,5 +1,5 @@
 schema_version: 1
-last_reviewed_chapter: 548
+last_reviewed_chapter: 551
 last_reviewed_title: "借住到期那天，母亲先查了电梯"
 last_source_path: chapters/draft/0548.md
 last_source_sha: 75dc2ad21ee39191743c36e6c53543d0a228129f
@@ -6026,3 +6026,22 @@ combined_audit_chapter_550_20261106:
   predecessor_ready_sha: "8bbd6a399d206c384195a2a8e179bf42c8912540"
   predecessor_verified_title_body_identical: true
   structural_gate: requires_exact_candidate_ci_success_before_main
+
+combined_audit_chapter_551_20261106:
+  chapter: 551
+  original_sha: "3ec526b6d82d39388d24ad4ede736370e9fc211c"
+  first_review: reader_reviews/0551_3ec526b6.md
+  first_counts: {blocker: 0, major: 1, minor: 2}
+  local_revision_rounds: 1
+  source_sha: "96be3d308194e971b97a3a028f3d290c8a20e7b9"
+  review_path: reader_reviews/0551_96be3d30.md
+  reviewer_mode: independent_pass_a_then_b_on_new_blob
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main

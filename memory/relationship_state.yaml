@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 550
+last_updated_chapter: 551
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2667,4 +2667,11 @@ chapter_550_arc054_verified:
   tang_xiaoman_mother: "母亲自行合法退旧房、缴新房手续并主动授权女儿仅领重箱，女儿尊重母亲不必因换住牺牲工作排班，双方真实交接完成。"
   property_and_street: "母亲通过本人许可通道得到三点含水实测尚不合格的信息；物业没有因旅店安顿便宣布可返住，街道支持仍待核。"
   ma_yun_colleague: "马芸阻止同事从暂缓核定推“真实性存疑”，保持2019原始内部请求发出与其形成岗位实收是不同证据。"
+  trust_scores_unchanged: true
+
+chapter_551_arc054_verified:
+  chapter: 551
+  source_sha: "96be3d308194e971b97a3a028f3d290c8a20e7b9"
+  mother_daughter: "母亲独立查询资金、签续房、保管凭据、补交街道材料和向中心回拨；唐晓漫尊重决定并完成工作排班，两人协商未来一夜而不是女儿代全部签字。"
+  ma_yun_colleague: "马芸坚持按许可只确认2019形成岗实收，不接受将后期整盒签收当作当年业务回应。"
   trust_scores_unchanged: true
