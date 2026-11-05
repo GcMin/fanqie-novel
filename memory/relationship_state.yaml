@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 547
+last_updated_chapter: 548
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2643,4 +2643,12 @@ chapter_547_arc054_verified:
   aunt_family: "姨妈继续为母女提供一晚临时住处，但此后家有外孙来访，催生真实的续住及费用途径需求而非必然已经找到住处。"
   property_owner: "母女要求按实证划分干燥、电气和旧物移交，未要求曾先生预认赔；产权人与施工有权签署仍另走程序。"
   ma_yun_colleague: "马芸纠正同事用内部交接或归档齐备标签替历史当事人签收，且只记录原始簿真正另立待核事项。"
+  trust_scores_unchanged: true
+
+chapter_548_arc054_verified:
+  chapter: 548
+  source_sha: "75dc2ad21ee39191743c36e6c53543d0a228129f"
+  tang_xiaoman_mother: "母亲亲自挑电梯可达房间并核两晚价、房门反锁、房卡收据，女儿尊重其资金与入住决定。"
+  aunt_family: "姨妈次日下午需客房，母女提前主动搬出，姨妈留热汤/赠钱未收，亲情保留、临居压力转向实际费用。"
+  ma_yun_colleague: "马芸纠正把2019待核立项当办结的猜测，要求经新许可看原始下一笔证据。"
   trust_scores_unchanged: true

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 547
+last_updated_chapter: 548
 characters:
   zhou_heng:
     knows:
@@ -2962,3 +2962,12 @@ chapter_547_arc054_verified:
   ma_yun_center: "2019同一附件原办件岗实收后有独立原始「补据来源对应待核」事项，补据结果、正式核发/寄达、历史自然人真正收到答复均无证明。"
   staff_permissions: "母亲签署的只是三件物品限项搬移，施工和房产权许可另按有责确认；夜班中心不代电工或赔偿方作出验收裁定。"
   invariants: "F003只到新增待核事项，F008/M004/M005、2016旧封与2022具体字节同一均未证。"
+
+chapter_548_arc054_verified:
+  chapter: 548
+  source_sha: "75dc2ad21ee39191743c36e6c53543d0a228129f"
+  tang_xiaoman_mother: "两晚旅店自费真入住、有房卡收据，街道只收件咨询未批准补贴，续住和赔款不知，四楼未准回家。"
+  zeng_family: "五楼留证管件不等于确定责任，西户供水尚限停。"
+  ma_yun_center: "2019原办件岗接收后另立待核事项属已证；本章其后阶段状态查阅申请仅收件待准阅，仍不知下一笔是否存在及核发/寄达/历史个人获答。"
+  staff_permissions: "物业可给阶段现场事实不可代专业复电、街道咨询不能预支资金、夜间中心仅分项登记。"
+  invariants: "F008/M004/M005及2016/2022跨源同一无新增证据。"

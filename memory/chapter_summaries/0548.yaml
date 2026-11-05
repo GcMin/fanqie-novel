@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 548
+title: "借住到期那天，母亲先查了电梯"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "75dc2ad21ee39191743c36e6c53543d0a228129f"
+reader_review: reader_reviews/0548_75dc2ad2.md
+depends_on_chapter: 547
+depends_on_source_sha: "83118ffc7c877b78c505c5fda4f2e21d9e3eb5d7"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day411 08:41—Day412 07:30"
+summary: >-
+  Day411姨妈告知次日下午孩子回来需客房，母女主动当晚搬离。唐晓漫分别向物业与街道问临住和费用流程，物业只给受水电路隔离与干燥准备的阶段事实，不作复电复居证明；街道16:10登记住宿支持咨询材料并给正式编号回执、资格与费用支付待核。母亲拒绝电梯停运的旅店，核第二家可达双床房、押金和续住条款，因资金有限只选两晚。19:24母女真实自费缴款并获两张房卡与付款凭证，亲试电梯/房门/房内安全；20:09唐晓漫本人向中心实回拨，Day412 07:05夜班分开交住房、费用与四楼风险，07:30母亲安排询续住价格而不预定返家日。四楼受水回路、五楼西户供水分支仍限停，干燥与电气未专业验收、赔损责任未核。马芸10:06新申请限核2019同一附件另立待核事项之后是否存在下一笔原始办理状态，10:32仅正式收件、权限待审，不能推断处理完成或历史个人获答。
+meaningful_state_changes:
+  - "母女从亲戚借住转为真正自付两晚的电梯可用旅店入住，持房卡收据，但续住和房费来源未定。"
+  - "母亲亲自决定可达、安全、付款及账目，街道正式咨询登记待核不等于补贴批准。"
+  - "2019后续状态最小查阅申请真实收件，但准阅与下一笔有无均未知。"
+knowledge_updates:
+  - "母女知道正式入住的两晚真实花费和当前街道仅登记咨询；四楼无复居许可，赔责未定。"
+  - "马芸/夜间中心只知道新查申请收件待审，不知道2019是否有下一笔状态、核发寄达和历史自然人获答。"
+relationship_updates:
+  - "母女主动为姨妈次日孩子回家腾房，姨妈留热汤并想赠钱，母亲保有求助与否的主动权。"
+  - "母亲亲自核房况与持房卡收据，唐晓漫接受其安全和费用决策。"
+foreshadowing_updates:
+  - "F003不升级2019已证待核事项为办结，仅新增查阅申请受理；F008/M004/M005及2016/2022同一无证。"
+ending_state: "Day412 07:30母女在旅店自费两晚真实入住、费用补助与续住价格未知；四楼未复居五楼西户限停，2019后续状态申请待权限审查。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "75dc2ad21ee39191743c36e6c53543d0a228129f", final_draft_sha: "75dc2ad21ee39191743c36e6c53543d0a228129f", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci_before_main}
+char_count: 3575
