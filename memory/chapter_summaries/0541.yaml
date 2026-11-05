@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 541
+title: "叫号屏亮着，他还在另一扇门外"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "bb0b59466dfeb07c2ae5fc7e4a81fe896b4e2dd7"
+reader_review: reader_reviews/0541_bb0b5946.md
+depends_on_chapter: 540
+depends_on_source_sha: "578491fda40770f6ce21710e340f6661e8929507"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day404 09:17—Day405 07:08"
+summary: >-
+  Day404马芸09:17就2019同一补据工作页退补后一份附件复核岗签领之后的独立逐项核对登记提出合法新申请，13:32准阅，双岗排除异月同尾号后15:09确证目标件有逐项核对起始登记，原阶段“待补对照后续核”，不证审查完成、正式核发寄达和历史自然人答复。18:42何守礼坐轮椅到康复门诊却被旧东侧指引导往施工锁门，升降台停用；家属预约确认经旧接口18:31误写现场签到并19:50自动假发已完成短信。夜班中心19:46联动，西侧电缆桥风险未核不准试走；物业与门诊21:11合法现场核准南侧受控临时平路，何守礼自主推轮椅21:28实际到诊，22:07真正复诊。有责信息岗纠正本单错状态、撤东侧旧指引；永久路线、升降维修和全局规则仍待核。Day405 07:08分源交班。F008/M004/M005和2016/2022跨源同一无新证。
+meaningful_state_changes:
+  - "2019同件附件获独立原始逐项核对起始登记，原阶段待补对照后续核；审核结果、核发寄达及历史真人获答均未证。"
+  - "轮椅患者从系统假签到但门外真实受阻，变为本人通过现场获准临时平路、真实到诊并完成复诊；有源纠正该单假状态。"
+  - "旧误导指引撤下，东侧施工口、停用升降台、永久整改及全接口映射仍未正式恢复。"
+knowledge_updates:
+  - "马芸与中心仅知合法去身份的旧附件核对起始登记，尚不知内部意见、个人身份、对外核发寄达或真实个人获答。"
+  - "何守礼与何岚知道预约确认和自动消息可以错误映射，本次真正到诊与诊察有独立时点。"
+relationship_updates:
+  - "何岚尊重父亲自己推轮椅的自主意愿，门诊与物业采取联合现场核验而非要求家属冒险试路。"
+foreshadowing_updates:
+  - "F003仅推进到2019同一附件逐项核对起始登记，结果未知；F008/M004/M005及2016/2022不新证。"
+ending_state: "Day405 07:08当代患者真复诊而永久无障碍、全局映射待核；旧档只到核对起始，终局未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "bb0b59466dfeb07c2ae5fc7e4a81fe896b4e2dd7", final_draft_sha: "bb0b59466dfeb07c2ae5fc7e4a81fe896b4e2dd7", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 2935
+release_evidence:
+  ready_blob: "5ec081d270b63b650eb4260e502c3cd0e600e491"
+  structural_gate: pending_exact_candidate_ci

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 540
+last_updated_chapter: 541
 characters:
   zhou_heng:
     knows:
@@ -2903,3 +2903,11 @@ chapter_540_arc054_verified:
   ma_yun_center: "马芸及中心只知2019同件附件有原始复核岗逐日实领簿与业务交出底联/分件索引双向印证；不知审核是否通过、后续核发寄达或历史自然人收到答复。"
   permissions: "2019查阅许可不含个人身份、附件全文或复核意见；中心不代专业食安、理赔及档案有权岗位判断终局。"
   invariants: "F008/M004/M005、2016旧封及2022实际文件字节同一无新证。"
+
+chapter_541_arc054_verified:
+  chapter: 541
+  source_sha: "bb0b59466dfeb07c2ae5fc7e4a81fe896b4e2dd7"
+  ma_yun_center: "2019同一附件复核岗实领后，合法有限核逐项核对起始登记及待补对照后续核阶段；审核通过、核发、寄达、自然人获答未知。"
+  he_family: "何岚与何守礼知本次18:31假签到、19:50假完成消息和21:28真到诊22:07真诊察有不同来源；不知全局接口是否修好。"
+  permissions: "中心不代医疗、物业施工或无障碍专业验收；历史私址个人及审批意见不越权查询。"
+  invariants: "F008/M004/M005、2016旧封/2022原字节同一不新证。"

@@ -1,6 +1,6 @@
 schema_version: 1
-last_updated_chapter: 540
-current_time: "Day404 07:01旧15箱分12目的库禁出3原市场隔离，新4箱2箱Day403 22:12真正送达另2箱未售；2019同件附件内部复核岗真实签领，但结果未知"
+last_updated_chapter: 541
+current_time: "Day405 07:08何守礼本人真复诊而东侧及升降仍停，2019同件核对起始登记有证但结论未知"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-054_active
@@ -2956,3 +2956,11 @@ chapter_540_arc054_verified:
   xizhan_old: "原十二箱目的冷库受限和三箱原市场隔离均未专业可售放行，故障根因食品品质理赔赔款未决；误清运本单虽撤但全局接口修复未证。"
   xizhan_new: "独立合法新批4箱中2箱Day403有独立新单合规配送22:12买方实收，剩2箱待销合规保管；旧单与赔款不抵冲，经营维修预备款缺口存在。"
   unchanged: "F008/M004/M005与2016/2022同一无新证。"
+
+chapter_541_arc054_verified:
+  chapter: 541
+  source_sha: "bb0b59466dfeb07c2ae5fc7e4a81fe896b4e2dd7"
+  historic_2019: "复核岗实领后另一原始逐项核对起始登记真实存在、当时待补对照后续核；未见复核结果核发寄达或历史自然人真收答。"
+  clinic_access: "门诊东侧施工封门和升降台停用，西侧电缆桥未获通行许可；南侧平路仅当夜合法临时陪同通行，何守礼本人21:28到诊22:07诊察完毕；永久整改未知。"
+  clinic_interface: "家属预约确认被旧接口误映签到并触发假完成提示，本单有源更正但全局规则仍未修。"
+  invariants: "本章仅当代技术差错与有限历史程序证据，不新增F008/M004/M005或2016/2022同一。"

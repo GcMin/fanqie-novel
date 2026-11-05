@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 540
+last_updated_chapter: 541
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2586,4 +2586,12 @@ chapter_540_arc054_verified:
   sun_yue_brother: "弟弟先想按旧订单补发，孙月拒混账，新货两箱真交后弟弟据实记新单且承认维修款缺口仍在。"
   sun_yue_third_shop: "双方对新批次真实价格及交付条件重新协商成立新单，店主22:12真收；不抵旧单及历史索赔。"
   ma_yun_colleague: "同事想凭历史岗位实领记办理完成，马芸明确仅证交接不证复核结论。"
+  trust_scores_unchanged: true
+
+chapter_541_arc054_verified:
+  chapter: 541
+  source_sha: "bb0b59466dfeb07c2ae5fc7e4a81fe896b4e2dd7"
+  he_shouli_he_lan: "父亲拒绝被抬，选择自己推行通过批准的平层通道；女儿支持自主而不试施工锁门。"
+  clinic_property: "诊所与物业经各自权限实地共验临时路线，护士保留预约并真核本人到诊。"
+  ma_yun_colleague: "同事想把复核岗签领填办结，马芸纠正为逐项核对起始且结果未知。"
   trust_scores_unchanged: true

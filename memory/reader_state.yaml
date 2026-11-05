@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 540
-last_reviewed_title: "新货单另起一行，旧档只签了收"
-last_source_path: chapters/draft/0540.md
-last_source_sha: 05afdb756a8e120600d71d9c65fda70c41ca155a
-last_review_path: reader_reviews/0540_05afdb75.md
+last_reviewed_chapter: 541
+last_reviewed_title: "叫号屏亮着，他还在另一扇门外"
+last_source_path: chapters/draft/0541.md
+last_source_sha: bb0b59466dfeb07c2ae5fc7e4a81fe896b4e2dd7
+last_review_path: reader_reviews/0541_bb0b5946.md
 last_reviewed_at: "2026-11-05"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 539
-depends_on_source_sha: eee2f218db274c21c3ad3f8658717b16aad18084
+depends_on_chapter: 540
+depends_on_source_sha: 578491fda40770f6ce21710e340f6661e8929507
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: eee2f218db274c21c3ad3f8658717b16aad18084
+predecessor_current_source_sha: 578491fda40770f6ce21710e340f6661e8929507
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -5828,3 +5828,21 @@ release_0540_exact_ci:
   publisher_check_local: pass
   main_update: expected_sha_force_false_success
   evidence_file: qa/0540_release_evidence_20261105.md
+
+chapter_541_arc054_verified:
+  chapter: 541
+  source_sha: "bb0b59466dfeb07c2ae5fc7e4a81fe896b4e2dd7"
+  title: "叫号屏亮着，他还在另一扇门外"
+  review_path: reader_reviews/0541_bb0b5946.md
+  reviewed_at: "2026-11-05"
+  reviewer_mode: independent_pass_a_then_pass_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  depends_on_chapter: 540
+  depends_on_source_sha: "578491fda40770f6ce21710e340f6661e8929507"
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci
