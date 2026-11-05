@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 534
+last_updated_chapter: 536
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2539,4 +2539,14 @@ chapter_535_arc054_verified:
   liu_shucheng_crew: "刘树成见证小许真正到岗并协助有责考勤核查拒按本人未到申报。"
   ma_yun_colleague: "马芸纠正同事对旧稿后续未办的无据判断，只新增关联续办索引。"
   center_team: "仍按岗位权限行事，信任分值无事实依据不变。"
+  trust_scores_unchanged: true
+
+
+chapter_536_arc054_verified:
+  chapter: 536
+  source_sha: "aa21671bbfbd9646fd1951cb5b24481c190799c6"
+  sun_yue_and_brother: "孙月阻止弟弟擅入涉电渗水环境搬箱，双方逐一核对十五箱号。"
+  sun_yue_and_market: "商户拒以买主承担风险替代食品安全，市场运营方/承运方分别留十二箱有责目的仓交接及三箱隔离明细，孙月据实通知三家买主延期。"
+  ma_yun_and_colleague: "同事欲写多年悬案已办理，马芸仅写新工作页形成及待内部复核，不用未见的历史答复充当成绩。"
+  center_team: "夏宁周衡梁策按来源与职责协调，主要人物互信分值无事实依据不变。"
   trust_scores_unchanged: true

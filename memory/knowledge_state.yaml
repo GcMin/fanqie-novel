@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 534
+last_updated_chapter: 536
 characters:
   zhou_heng:
     knows:
@@ -2859,3 +2859,12 @@ chapter_535_arc054_verified:
   family_crew: "汪嵘妻儿知船已归港隔离待检但不能派班；小许知出勤真实凭据和主管已受理，不知工资如何结算。"
   permissions: "中心不代专业调度和船艇资产岗位批准复航，亦不代档案核发和人事核工资。"
   invariants: "F008/M004/M005与2016/2022同一没有新证。"
+
+
+chapter_536_arc054_verified:
+  chapter: 536
+  source_sha: "aa21671bbfbd9646fd1951cb5b24481c190799c6"
+  ma_yun_center: "合法新去身份准阅仅能证明2019旧退稿关联续办索引之下《补据项目核对工作页》实际形成、阶段待内部复核；不知文书正文、人址、补据是否齐、核发及历史自然人获答。"
+  sun_yue_market: "孙月及运营岗知当夜屏幕缓存-18℃、探头18:17止采样、专业20:43通道近0度实测、十二箱冷链目的仓真接及三箱市场隔离；不知此前完整温控曲线、可售安全、设备故障根因或赔偿结论。"
+  permissions: "中心不代机电合闸、冷库运营修复、食品专业人员评估或决定赔偿；马芸不越合法档案范围。"
+  invariants: "F008/M004/M005及2016封内、2022原字节同一无新证。"

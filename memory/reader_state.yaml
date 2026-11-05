@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 535
-last_reviewed_title: "船拖回了泊位，名字还留在撤班单上"
-last_source_path: chapters/draft/0535.md
-last_source_sha: e732483ef9adc3de358f5b883f8098a9658a1e5b
-last_review_path: reader_reviews/0535_e732483e.md
+last_reviewed_chapter: 536
+last_reviewed_title: "冷库显示零下十八度，门口却滴着水"
+last_source_path: chapters/draft/0536.md
+last_source_sha: aa21671bbfbd9646fd1951cb5b24481c190799c6
+last_review_path: reader_reviews/0536_aa21671b.md
 last_reviewed_at: "2026-11-05"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 534
-depends_on_source_sha: 961c7b0fd45ca93881dd237cf653ddccea2b3863
+depends_on_chapter: 535
+depends_on_source_sha: bf79b3133f2766edc5d00281506c71937e7023cf
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 961c7b0fd45ca93881dd237cf653ddccea2b3863
+predecessor_current_source_sha: bf79b3133f2766edc5d00281506c71937e7023cf
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -5684,3 +5684,14 @@ chapter_535_release_evidence:
   publisher_check_local: pass
   structural_unit_tests: pass
   main_update: expected_sha_force_false_success
+
+chapter_536_reader:
+  chapter: 536
+  source_sha: "aa21671bbfbd9646fd1951cb5b24481c190799c6"
+  review: reader_reviews/0536_aa21671b.md
+  counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  predecessor_ready_sha: "bf79b3133f2766edc5d00281506c71937e7023cf"
+  content_qa: pass
+  structural: pending_exact_candidate_ci
