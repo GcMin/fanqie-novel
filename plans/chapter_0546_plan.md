@@ -7,10 +7,10 @@
 - phase: Planner / Continuity Precheck / Writer
 - status: draft
 - depends_on_chapter: 545
-- depends_on_source_sha: d27230e9dde7b3b2a5f377857c4362317097558d
-- dependency_status: provisional
-- source_location: chapters/draft/0545.md
-- provisional_boundary: 第545章尚未独立Audit：Day408五楼西户洗衣机冷水进水连接件裂损经有资质人员拆下独立低压检漏复现、留证，五楼西户供水仍限停；四楼客厅受水电路和吊顶未获复验或复居许可，唐晓漫母女仍在姨妈家；2019年原第73页关联事项同一附件只获复核岗单端真实交出登记，原办件流程接收岗实收、核发寄达和历史自然人真获答均未知。只把此草稿版本当作临时叙事参考，不能提前升级Canon。
+- depends_on_source_sha: ffe05ae656dae3213fae47c6c220f5c8bd021527
+- dependency_status: verified_ready_same_title_body_facts
+- source_location: chapters/ready/0545.md
+- verified_boundary: 前545原draft与正式ready已实比章节标题及全部小说正文逐字相同，仅交付Front Matter不同；545正式ready Blob ffe05ae656dae3213fae47c6c220f5c8bd021527，Day409 07:06五楼漏损软管已独立复现并拆下留存，五楼西分支仍限停、四楼受水电气与吊顶未获复检且母女仍在姨妈家；2019同附件复核岗一端真实交出，但原办件岗签收、核发寄达和历史个人获答未证。
 - goal: 将具体漏件处置、住房受潮复验与真正可居住三种状态拆开；让唐晓漫母亲成为自己接收安全告知和预约信息的主体；在合法限项范围证实2019同件附件另一端岗位是否真正接收，仍保留历史私人最终获答未知。
 - POV: 第三人称有限；唐晓漫与母亲的生活处境为现实主轴，马芸的史料查询和夏宁、周衡夜班收口交错。
 - opening: Day409上午唐晓漫回仁合里等待四楼受潮检测，母女仍住姨妈家；马芸提出只核2019同件独立原办件接收登记的申请。
@@ -29,4 +29,4 @@
 - cannot_reveal: 历史私人姓名、具体地址、附件内容、复核审核意见、最终核发寄达或历史自然人答复；不得替五楼业主提前判赔，不得暗示普通后台错映证明失址机制。
 - ending: 母亲拿到次日复查预约、明确仍不能用受水灯而继续住姨妈家；2019原办件岗确曾收到附件，但原工单历史当事人是否收到答复仍是空白。
 - target_chars: preferred 2600–3400; hard 2300–3800
-- precheck: 最近五章541—545全文及535—544摘要、当前长期状态与F003/F008、人物卡、卷六既有近章规划已读取；前545仅为精确Blob草稿、不得转正式Canon；Day409接Day409 07:06前章交班、Day410 07:10出班；受潮检测不当复电许可，前案水分支限停持续；历史双端签认不当最后自然人获答。本章只新增章纲与草稿，不操作Audit/Memory/QA/ready/published。
+- precheck: 最近五章541—545全文及535—544摘要、当前长期状态与F003/F008、人物卡、卷六既有近章规划已读取；前545原稿与正式ready小说正文及标题相同，按正式ready事实衔接；Day409接Day409 07:06前章交班、Day410 07:10出班；受潮检测不当复电许可，前案水分支限停持续；历史双端签认不当最后自然人获答。本章只新增章纲与草稿，不操作Audit/Memory/QA/ready/published。
