@@ -5,7 +5,7 @@
 - arc: ARC-054《回拨接收点》
 - author_role: Writer
 - phase: Planner / Continuity Precheck / Writer
-- status: draft
+- status: ready
 - depends_on_chapter: 544
 - depends_on_source_sha: 75c91f6f6a06994fe1db5ab5d8e46d5c50c4d442
 - dependency_status: verified_exact_ready_blob
@@ -29,5 +29,10 @@
 - cannot_reveal: 历史私人身份和地址、2019补据意见全文、旧封内件与2022文件实际字节、失址机制与责任。
 - ending: 老档单端有实交不等于收件；五楼确有裂口故障而四楼仍不能恢复使用，母女保留明确专业复测待办。
 - target_chars: 2600–3400 preferred; hard 2300–3800
-- actual_effective_chars: 3430
+- actual_effective_chars: 3448
 - precheck: 采用第544章正式ready全文及精确blob；Day408 07:04接续至Day409 07:06；业主的姐姐由找钥匙到核权开门不偷换为昨日已入户；确认部件故障不直接确认赔偿、整套供水复通、四楼安全复居；旧案严格单端证据，无F008/M004/M005或2016/2022同一新确证。Writer不执行Audit/Memory/QA/Publish Gate。
+
+- audit_result: Reader Pass A/B 0 BLOCKER 0 MAJOR 2 MINOR; Continuity/Style/Meaningful PASS; no revision
+- reader_source_sha: d27230e9dde7b3b2a5f377857c4362317097558d
+- reader_review: reader_reviews/0545_d27230e9.md
+- structural_gate: require exact candidate CI SUCCESS before main ready
