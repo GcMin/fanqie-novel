@@ -5,7 +5,7 @@
 - arc: ARC-054《回拨接收点》
 - author_role: Writer
 - phase: Planner / Continuity Precheck / Writer
-- status: draft
+- status: ready
 - depends_on_chapter: 545
 - depends_on_source_sha: ffe05ae656dae3213fae47c6c220f5c8bd021527
 - dependency_status: verified_ready_same_title_body_facts
@@ -30,3 +30,9 @@
 - ending: 母亲拿到次日复查预约、明确仍不能用受水灯而继续住姨妈家；2019原办件岗确曾收到附件，但原工单历史当事人是否收到答复仍是空白。
 - target_chars: preferred 2600–3400; hard 2300–3800
 - precheck: 最近五章541—545全文及535—544摘要、当前长期状态与F003/F008、人物卡、卷六既有近章规划已读取；前545原稿与正式ready小说正文及标题相同，按正式ready事实衔接；Day409接Day409 07:06前章交班、Day410 07:10出班；受潮检测不当复电许可，前案水分支限停持续；历史双端签认不当最后自然人获答。本章只新增章纲与草稿，不操作Audit/Memory/QA/ready/published。
+
+- actual_effective_chars: 3382
+- audit_result: Reader original 0/1/2; Stage A only metadata predecessor SHA; newSHA 0/0/2; Continuity/Style/Meaningful PASS; novel body unchanged
+- reader_source_sha: f4f3e7b42b5f0fa50bbce3e881d412c8c6337d12
+- reader_review: reader_reviews/0546_f4f3e7b4.md
+- structural_gate: exact candidate CI required before main ready

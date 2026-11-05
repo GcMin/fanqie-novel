@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 545
+last_updated_chapter: 546
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2626,5 +2626,13 @@ chapter_545_arc054_verified:
   tang_xiaoman_mother: "母亲拒绝女儿把临时避险当永不返家的决定；女儿改为按获准路径取衣并安排复测，姨妈仍接纳母女。"
   zeng_property_tang: "曾先生姐姐按业主授权配合有责入屋及取证；曾先生愿配合查验但不在电话中承认未定损失，唐晓漫也不要求其先答赔额。"
   ma_yun_colleague: "同事配合三组全部完成旧错表撤回更正，马芸坚持把新查单端实交与原预约号分列。"
+  trust_scores_unchanged: true
+
+chapter_546_arc054_verified:
+  chapter: 546
+  source_sha: "f4f3e7b42b5f0fa50bbce3e881d412c8c6337d12"
+  tang_xiaoman_mother: "母亲纠正女儿替她解释绿勾，要求物业专业人员直接提供住房安全信息，已实际持有次日复查安排；女儿按此办理，母女继续临居姨妈家。"
+  tang_property_zeng: "唐晓漫要求拆水暖子单、住户复居与赔损责任三栏，曾先生承诺保存证据配合却不凭现有漏点替双方定赔责。"
+  ma_yun_colleague: "同事从问交出总得有人收转到接受仅写接收岗实际收附件、不代历史自然人签答。"
   trust_scores_unchanged: true
 

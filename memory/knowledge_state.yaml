@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 545
+last_updated_chapter: 546
 characters:
   zhou_heng:
     knows:
@@ -2944,4 +2944,13 @@ chapter_545_arc054_verified:
   ma_yun_center: "2019同件复核岗单端有独立实际交出原始记录，仍不知原办件岗真正收件、后续核发寄达或历史真人得答。"
   staff_permissions: "中心不代有责专业人员验收复电/复水，不替档案保管岗扩阅历史私人资料。"
   invariants: "F008/M004/M005及2016旧封/2022原字节同一仍无证。"
+
+chapter_546_arc054_verified:
+  chapter: 546
+  source_sha: "f4f3e7b42b5f0fa50bbce3e881d412c8c6337d12"
+  tang_xiaoman_mother: "受水灯上夹层实有湿材料、回路未复检；小程序说恢复属五楼子单误映，已实际撤正，母女继续临住姨妈家。母亲本人获后续检查计划，尚不知真正复居日期。"
+  zeng_family: "连接管件已拆留证但后续专业检测和赔责未知，不得由五楼子单完成推四楼可用。"
+  ma_yun_center: "2019原第73页同笔附件经复核岗真正交出、原办件岗按原始簿真实接收，所获仅去身份岗位业务证据，无历史自然人真获答/核发寄达。"
+  staff_permissions: "中心可本单纠假状态却不替专业电工放行、不能以错误页面推现场验收或全球接口已修。"
+  invariants: "F008/M004/M005与2016封内和2022原字节同一无新证。"
 

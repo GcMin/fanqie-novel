@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 546
+title: "回执上写着恢复，灯下的夹层还是湿的"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "03d03dede85aa69cefdb70a6f55b2b3e0a80a908"
+source_draft_sha: "f4f3e7b42b5f0fa50bbce3e881d412c8c6337d12"
+initial_review: reader_reviews/0546_03d03ded.md
+reader_review: reader_reviews/0546_f4f3e7b4.md
+depends_on_chapter: 545
+depends_on_source_sha: "ffe05ae656dae3213fae47c6c220f5c8bd021527"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day409 08:17—Day410 07:10"
+summary: >-
+  Day409唐晓漫08:17到仁合里四楼等查，10:13现场有限测得受水灯位附近吊顶较其他处更潮，电工不许复电；五楼前日软管裂口已独立低压复现、封存，但西户水分支仍限停。12:40物业小程序错误把五楼子单「拆下坏连接件」结项合并写成四楼住户「恢复正常使用」，母女本人收到假绿勾；唐晓漫留证异议，母亲要求物业直接向她解释专业验收情况。傍晚经住户与有责方限定许可局部开吊顶，确认受潮填料、接线盒待专业复测，不能复居；19:28仅定后续检查窗口并把安排给母亲本人。20:04夜间中心接报，21:08物业信息岗按本单留痕撤错误复居并向两人分别纠正，批量接口尚未确认全修。马芸09:22新申请限核2019同一附件在复核岗实交后原办件岗是否实际接收，10:06收件14:27获准，受控双原始账15:36排除异月同尾号及后补档案入库索引，确证原办件岗当年真实签入该附件，16:11获去身份摘录；仅证业务双端岗位真实交接，不证后来核发寄达、历史当事人获答。22:16中心收有界回告，Day410 07:10交班，母女仍住姨妈家、五楼供水西分支关闭、四楼受水回路继续隔离。
+meaningful_state_changes:
+  - "旧档从复核岗单端真实交出推进为原办件岗确有独立实际收件登记，但仍无对外最终答复证据。"
+  - "四楼小程序假称恢复使用虽误导母女但已保源按权限纠本单错；湿夹层实际被局部检出，复居电路仍停且次日仅预约检查。"
+  - "母亲不再只经女儿转达住宅安全信息，要求有责人员直接说明并亲自保管下一次复测安排。"
+knowledge_updates:
+  - "马芸和中心知2019同一附件业务岗位间双端真实交接，不知核发/寄达/历史个人真获答。"
+  - "唐晓漫母女、物业、曾先生均知道五楼坏管已拆但四楼受水灯位夹层仍潮，错误小程序绿勾不能代表返住许可；后续专业实测和责任未知。"
+relationship_updates:
+  - "母亲要求物业将复查信息给她本人、唐晓漫不再代收代签；姨妈持续接待。"
+  - "曾先生愿配合后续干燥和证据保存但不预认全部赔责，住户要求有责说明真实恢复条件。"
+foreshadowing_updates:
+  - "F003单端旧实交扩为双端岗位原始实收证据，历史外部个人获答仍不明；F008/M004/M005和2016/2022跨源同一无新证。"
+ending_state: "Day410 07:10四楼已确认局部夹层受潮待处理且客厅受水回路继续隔离，五楼西分支仍限停，母女住姨妈家并直接获后续检查通知；2019同附件双端岗位真交接，但对外核发寄达与历史自然人答复未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "03d03dede85aa69cefdb70a6f55b2b3e0a80a908", final_draft_sha: "f4f3e7b42b5f0fa50bbce3e881d412c8c6337d12", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "metadata_only_predecessor_ready_SHA_rebind_after_title_and_prose_identical"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci_before_main}
+char_count: 3382

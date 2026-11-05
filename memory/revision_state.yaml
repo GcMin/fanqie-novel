@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 545
-current_stage: chapter545_reader_qa_pass_exact_candidate_ci_pending
-current_source_path: chapters/draft/0545.md
-current_source_sha: d27230e9dde7b3b2a5f377857c4362317097558d
-current_review_path: reader_reviews/0545_d27230e9.md
+current_chapter: 546
+current_stage: chapter546_reader_qa_pass_exact_candidate_ci_pending
+current_source_path: chapters/draft/0546.md
+current_source_sha: f4f3e7b42b5f0fa50bbce3e881d412c8c6337d12
+current_review_path: reader_reviews/0546_f4f3e7b4.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter545_reader_qa_pass_no_revision
+last_action: chapter546_stageA_predecessor_metadata_rebind_and_new_sha_review
 last_action_date: "2026-11-05"
 last_error: null
-last_diff_summary: chapter545 predecessor exact ready SHA, no body or metadata revision"
+last_diff_summary: "546 only metadata and detailed plan rebind after 545 prior draft and ready prose/title identical; no body revision"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: d27230e9dde7b3b2a5f377857c4362317097558d
+current_review_source_sha: f4f3e7b42b5f0fa50bbce3e881d412c8c6337d12
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -5295,6 +5295,20 @@ combined_audit_chapter_545_20261105:
   stage_b_used: 0
   stage_c_used: 0
   body_revisions: 0
+  reader_gate: pass
+  content_qa: pass
+  structural_gate: exact_candidate_CI_pending_before_main
+
+combined_audit_chapter_546_20261105:
+  original_sha: "03d03dede85aa69cefdb70a6f55b2b3e0a80a908"
+  final_draft_sha: "f4f3e7b42b5f0fa50bbce3e881d412c8c6337d12"
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  fix: "metadata_and_plan_predecessor_ready_sha_rebind_after_identical_545_title_and_prose"
+  initial_review: "reader_reviews/0546_03d03ded.md"
+  final_review: "reader_reviews/0546_f4f3e7b4.md"
   reader_gate: pass
   content_qa: pass
   structural_gate: exact_candidate_CI_pending_before_main

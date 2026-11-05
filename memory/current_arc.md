@@ -1,3 +1,9 @@
+## 第546章新SHA Reader/独立内容QA与候选结构校验｜2026-11-05
+
+- 原546 Draft `03d03dede85aa69cefdb70a6f55b2b3e0a80a908`Reader Pass A/B 0/1/2，唯一MAJOR是前驱545仍引用旧未审Draft `d27230e9dde7b3b2a5f377857c4362317097558d`。已直接实比545旧Draft与最终ready `ffe05ae656dae3213fae47c6c220f5c8bd021527`标题及小说正文完全相同，仅交付Front Matter改变；Stage A commit `abd8c1c1ec786de03dbd043c9638b8a44952c848`只重绑546 Front Matter及详细计划至正式ready SHA，小说正文0字改；新546 Draft `f4f3e7b42b5f0fa50bbce3e881d412c8c6337d12`独立重新Pass A→B 0/0/2 keep/none、独立Continuity/Style/Meaningful内容QA均PASS，正常化有效3382字符。
+- Day409实测仁合里四楼灯罩夹层仍潮、受水回路仍隔离，五楼西户供水仍限停且拆掉漏管不证明四楼安全；12:40系统假复居绿勾在21:08本单留源撤正，未证软件全局修复；母亲直接得到实际复测信息与预约，未返住。2019原附件在545复核岗单端真交出之后，546新合法范围证明原办件岗**另一端真的签收该附件**；不推核发寄达及历史自然人获答。F008/M004/M005和2016/2022同一仍无证。
+- **候选准备阶段**：正式放行需要包含本文、Reader/QA、Memory、计划、ready章与删除草稿的**精确Git Commit**真实执行结构校验SUCCESS后按expected_sha、force:false更新main，不能只凭文本QA放行。
+
 ## 第545章独立审核与候选结构门禁｜2026-11-05
 
 - 原Draft `d27230e9dde7b3b2a5f377857c4362317097558d`，前544正式ready `75c91f6f6a06994fe1db5ab5d8e46d5c50c4d442`精确匹配。先独立普通Reader Pass A再核Canon/世界/人物/ARC-054/伏笔的Pass B，0 BLOCKER / 0 MAJOR / 2 MINOR，keep/none；小说正文0字修订。Continuity/Style/Meaningful QA均PASS，有效字符按空白规范化3448（原Writer元数据3430不计分隔符）。

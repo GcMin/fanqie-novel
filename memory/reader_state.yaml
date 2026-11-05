@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 545
-last_reviewed_title: "五楼的门打开了，四楼的灯还不敢亮"
-last_source_path: chapters/draft/0545.md
-last_source_sha: d27230e9dde7b3b2a5f377857c4362317097558d
-last_review_path: reader_reviews/0545_d27230e9.md
+last_reviewed_chapter: 546
+last_reviewed_title: "回执上写着恢复，灯下的夹层还是湿的"
+last_source_path: chapters/draft/0546.md
+last_source_sha: f4f3e7b42b5f0fa50bbce3e881d412c8c6337d12
+last_review_path: reader_reviews/0546_f4f3e7b4.md
 last_reviewed_at: "2026-11-05"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 544
-depends_on_source_sha: 75c91f6f6a06994fe1db5ab5d8e46d5c50c4d442
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 75c91f6f6a06994fe1db5ab5d8e46d5c50c4d442
+depends_on_chapter: 545
+depends_on_source_sha: ffe05ae656dae3213fae47c6c220f5c8bd021527
+dependency_status: verified_ready_same_title_body_facts
+predecessor_current_source_sha: ffe05ae656dae3213fae47c6c220f5c8bd021527
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -5949,3 +5949,20 @@ combined_audit_chapter_545_20261105:
   content_qa: pass
   predecessor_ready_sha: "75c91f6f6a06994fe1db5ab5d8e46d5c50c4d442"
   structural_gate: requires_exact_candidate_CI_success_before_main
+
+combined_audit_chapter_546_20261105:
+  chapter: 546
+  original_source_sha: "03d03dede85aa69cefdb70a6f55b2b3e0a80a908"
+  final_source_sha: "f4f3e7b42b5f0fa50bbce3e881d412c8c6337d12"
+  review_path: "reader_reviews/0546_f4f3e7b4.md"
+  initial_review_path: "reader_reviews/0546_03d03ded.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_new_metadata_SHA
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  recommendation: keep
+  required_action: none
+  content_qa: pass
+  predecessor_ready_sha: "ffe05ae656dae3213fae47c6c220f5c8bd021527"
+  predecessor_verified_title_body_identical: true
+  structural_gate: requires_exact_candidate_ci_success_before_main
