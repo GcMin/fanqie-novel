@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 544
-current_stage: chapter544_qa_pass_structural_ci_pending
+current_stage: chapter544_ready_released_exact_ci_success
 current_source_path: chapters/draft/0544.md
 current_source_sha: 3153431d71dcc5277673755601a37b58cef8dd7e
 current_review_path: reader_reviews/0544_3153431d.md
@@ -12,7 +12,7 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter544_independent_reader_qa_pass_waiting_exact_ci
+last_action: chapter543_544_ready_released_exact_ci_success
 last_action_date: "2026-11-05"
 last_error: null
 last_diff_summary: "542 metadata-only predecessor ready SHA rebind at bff3961, body unchanged; new SHA reader 0/0/2"
@@ -5257,7 +5257,7 @@ chapter_543_arc054_revision:
   body_revisions: 0
   retry_cycles: 0
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
 
 chapter_544_arc054_revision:
   chapter: 544
@@ -5273,4 +5273,17 @@ chapter_544_arc054_revision:
   retry_cycles: 0
   safe_mode: false
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
+
+release_0543_0544_exact_ci:
+  chapters: [543, 544]
+  ready_0543_blob: "da481e427a75fc060f82fc380829072f4a53a5bd"
+  ready_0544_blob: "75c91f6f6a06994fe1db5ab5d8e46d5c50c4d442"
+  release_commit: "4bbfc4745458aa18732bd6dd0bc91dda20028b34"
+  candidate_ci: 42035218249
+  main_ci: 42035389369
+  conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_update: expected_sha_force_false_success
+  evidence_file: qa/0543_0544_release_evidence_20261105.md
