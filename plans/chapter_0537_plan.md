@@ -52,3 +52,5 @@
 - 原稿Reader `reader_reviews/0537_1a718fa5.md` 0/1/2，Stage A元数据修订1次、小说正文0字修订，前536草稿与正式ready小说正文及标题逐字一致。
 - 修订后新稿Blob `21e567c7a03ff22f10700644857d1fd8be79f0c8` 重新独立Pass A/B 0/0/2 keep/none；Continuity/Style/Meaningful QA PASS，3366有效字符。
 - 前章正式ready Blob `af9253855006664f612b47a5f032f50cfec356a0`；本章ready Blob `df8ac549a9fb28d7e8714a20eb04f42c0c516e2a`；仅候选结构CI真实SUCCESS后可更新main。
+
+- 结构正式证据：候选Commit `8226c867392b20b74a5ceb9b9132623f0a339bc2`、Git Tree `133c7461c3906c09ca6aaa8e67b0134ae6684dea` 及精确候选CI `41982930970` SUCCESS、main CI `41983233341` SUCCESS；已以 expected_sha、force:false 正式ready，原draft同Git Tree删除。证据 `qa/0537_release_evidence_20261105.md`。

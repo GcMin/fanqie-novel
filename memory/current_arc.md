@@ -1,3 +1,8 @@
+## 第537章精确候选与main结构CI真实SUCCESS、正式ready｜2026-11-05
+- Stage A Git `7d748ad2e8b1ad7145bd5ef52ee9efe04fb54927` 修正536临时draft SHA依赖为正式ready `af9253855006664f612b47a5f032f50cfec356a0`，前章原稿与ready的小说正文和标题实比逐字一致。第537章新draft `21e567c7a03ff22f10700644857d1fd8be79f0c8` 重新Pass A/B 0/0/2，独立内容QA全部PASS，小说正文不修改。
+- 放行候选commit `8226c867392b20b74a5ceb9b9132623f0a339bc2` Git Tree `133c7461c3906c09ca6aaa8e67b0134ae6684dea`，audit/ready候选Actions `41982930970`与同SHA main Actions `41983233341`均实际completed/**SUCCESS**，offline structural unittest和`python -m publisher.check_local --repo .`真实通过；先候选CI核实再以expected_sha=`7d748ad2e8b1ad7145bd5ef52ee9efe04fb54927`、force:false安全更新main。
+- 正式ready Blob `df8ac549a9fb28d7e8714a20eb04f42c0c516e2a`，原draft于同一Git Tree原子删除。新Reader/QA/摘要、人物、知识、关系、世界、timeline、F003和计划真实同步，既有ready计划行未覆盖。详细证据：`qa/0537_release_evidence_20261105.md`；未改Canon/published或任何定时任务，未发布番茄。
+
 ## 第537章独立Reader双遍复审与内容QA通过，精确结构候选待验证｜2026-11-05
 - 原draft `1a718fa569db147c9b817fbfecec4a16128dc932`初审0/1/2，Stage A仅更正536临时draft SHA到最终ready `af9253855006664f612b47a5f032f50cfec356a0`及章纲，比较确认536两个版本完整小说正文/标题逐字一致仅元数据变化；Stage A commit `7d748ad2e8b1ad7145bd5ef52ee9efe04fb54927`。537新draft `21e567c7a03ff22f10700644857d1fd8be79f0c8`已重新独立Pass A/B 0/0/2 keep/none，正文0字改，Continuity/Style/Meaningful PASS，3366有效字符。
 - Day400 2019旧补据工作页经新许可核原始收件和意见簿确认一次实际内复核，意见需补原始对照依据、暂不确认核对完成；后续补件、核发和历史本人真收答未知。当代冷库第八箱21:27双底联复核确属孙月，十二箱全部仍限售、另三箱隔离；首单订金实际退回另两店改期/暂停、故障品质与赔偿待有责结论，Day401 06:58交班。F003有界推进，F008/M004/M005和2016/2022跨源同一无新证。

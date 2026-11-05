@@ -9,3 +9,6 @@
 - **Meaningful PASS**：同一工作页从“形成待内复核”推进为“当次确已内复核、需补原始对照”；第八箱单件归属真实核定仍禁售、订单真实退款与改期，拒把仓库实收入数误写“供应恢复”。F003仅限项推进，F008/M004/M005和2016/2022跨源同一均未获新证。
 - **Memory/Plan**：章节摘要、人物/知识/关系/世界、时间线、F003、剧情弧及章纲/计划和Reader/Revision状态按当前正文同步，不覆盖任何现有ready计划行。
 - **结构门槛**：本报告仅内容QA PASS；含Ready文件/Review/QA/Memory/计划的精确候选commit必须经真实`publisher.check_local`或对应GitHub CI成功，成功后才可用expected_sha/force:false提交main。无结构证据时不得宣称正式ready。
+
+## 放行后结构证据补录（覆盖前述候选待验证状态）
+候选commit `8226c867392b20b74a5ceb9b9132623f0a339bc2`、tree `133c7461c3906c09ca6aaa8e67b0134ae6684dea`，分支 `audit/ready-0537-20261105` Actions `41982930970` **SUCCESS**，该commit正式main Actions `41983233341` **SUCCESS**。两次均实际通过 offline 单测及 `python -m publisher.check_local --repo .`。已在候选通过之后按 expected_sha、force:false 推进main。ready blob `df8ac549a9fb28d7e8714a20eb04f42c0c516e2a`，原draft已原子删除。

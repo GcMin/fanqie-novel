@@ -5711,4 +5711,16 @@ chapter_537_reader:
   predecessor_ready_blob: "af9253855006664f612b47a5f032f50cfec356a0"
   predecessor_body_title: exactly_identical
   content_qa: pass
-  structural: pending_exact_candidate_ci
+  structural: exact_candidate_and_main_ci_success
+
+chapter_537_release_evidence:
+  candidate_commit: "8226c867392b20b74a5ceb9b9132623f0a339bc2"
+  candidate_tree: "133c7461c3906c09ca6aaa8e67b0134ae6684dea"
+  ready_blob: "df8ac549a9fb28d7e8714a20eb04f42c0c516e2a"
+  candidate_ci: 41982930970
+  main_ci: 41983233341
+  conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_update: expected_sha_force_false_success
+  evidence_file: qa/0537_release_evidence_20261105.md
