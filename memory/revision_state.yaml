@@ -5336,3 +5336,15 @@ combined_audit_chapter_548_20261106:
   reader_gate: pass
   content_qa: pass
   structural_gate: exact_candidate_CI_pending_before_main
+ 
+combined_audit_chapter_549_20261106:
+  original_sha: "11d8dac241ae8893e5111aebd7224d2f60005633"
+  final_draft_sha: "11d8dac241ae8893e5111aebd7224d2f60005633"
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  final_review: "reader_reviews/0549_11d8dac2.md"
+  reader_gate: pass
+  content_qa: pass
+  structural_gate: exact_candidate_CI_pending_before_main

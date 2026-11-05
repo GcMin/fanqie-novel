@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 549
+title: "房卡还剩一晚，回家的日期没人敢填"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "11d8dac241ae8893e5111aebd7224d2f60005633"
+reader_review: reader_reviews/0549_11d8dac2.md
+depends_on_chapter: 548
+depends_on_source_sha: "098bc657518e04032fd6a7530d6dd0e11994cbfd"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day412 08:43—Day413 07:09"
+summary: >-
+  Day412 08:43母女在第一家有电梯旅店收到真实续住房型情况：已付第二晚当晚仍有效至Day413中午，但Day413次夜同层双床已满，押金尚未退不可当现金。10:21物业在获准隔离范围编号移走一段受潮填料，内侧仍潮，次早含水复测只暂排，四楼受水回路和五楼西户水支路继续限停，未准复电/返住。唐晓漫因公司排班与实付费用压力不能预付五晚，母亲亲查另一店电梯真实到达房门，拒绝虽网页有梯但实际位于无梯侧楼的低价房，Day412 18:18经平台和店方真实确认并付款预订Day413晚主楼双床一晚，尚未入住、未领新房卡；20:06本人向中心分清今夜实住与次夜仅预订，街道费用咨询仍待核。马芸窄查2019原第73页关联同件“补据来源对应待核”事项获有限准阅，两名有权保管员排除后期整盒已归档标签与异月同尾条目，核得原始岗位登记当时下一状态确为“暂缓核定，待补来源对应说明”；15:16限摘与22:19中心实收有源记录，仅证当时暂缓，不证后续恢复、附件伪造、核发寄达或历史本人获答。Day413 07:09交班仍在第一家旅店完成第二夜，另店只有次夜预订，原四楼不宜复居。
+meaningful_state_changes:
+  - "母女从首店住满两晚面临无续同房的压力，推进到Day413晚第二家主楼电梯可达双床已付款有效预订一晚而未入住。"
+  - "物业真实有限移除受潮填料但未完成干燥电气验收，次日复测只预约；母亲继续主动核可达路线和实付预算。"
+  - "2019同一内部待核事项新增有原簿岗位独立登记的一次当时暂缓核定阶段，后续结果仍未知。"
+knowledge_updates:
+  - "唐晓漫母女知道首店第二晚和明夜另店一晚的真实费用与可达条件；街道只咨询受理未批支持，水电返住和赔责未知。"
+  - "马芸、夜间中心仅知2019同件当时曾暂缓并待补来源对应说明，不知暂缓是否解除、最终核发寄达或历史个人是否收到答复。"
+relationship_updates:
+  - "母亲主动核验从街面到房门全程可达、看重不计未退押金的实际余额，女儿尊重母亲决定并避免无预算长住；双方在搬运安排上协商而非一方代答。"
+foreshadowing_updates:
+  - "F003仅增加2019内部事项原始暂缓阶段，不推永久未办或旧真人获答；F008/M004/M005和2016/2022跨源同一无新增证据。"
+ending_state: "Day413 07:09首店仍真实住完第二夜，Day413晚另店已订未入住，四楼受水回路及五楼西分支持续限停，旧档暂缓状态有证但后续结论未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "11d8dac241ae8893e5111aebd7224d2f60005633", final_draft_sha: "11d8dac241ae8893e5111aebd7224d2f60005633", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci_before_main}
+char_count: 3188

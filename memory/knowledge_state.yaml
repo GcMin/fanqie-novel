@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 548
+last_updated_chapter: 549
 characters:
   zhou_heng:
     knows:
@@ -2971,3 +2971,12 @@ chapter_548_arc054_verified:
   ma_yun_center: "2019原办件岗接收后另立待核事项属已证；本章其后阶段状态查阅申请仅收件待准阅，仍不知下一笔是否存在及核发/寄达/历史个人获答。"
   staff_permissions: "物业可给阶段现场事实不可代专业复电、街道咨询不能预支资金、夜间中心仅分项登记。"
   invariants: "F008/M004/M005及2016/2022跨源同一无新增证据。"
+
+chapter_549_arc054_verified:
+  chapter: 549
+  source_sha: "11d8dac241ae8893e5111aebd7224d2f60005633"
+  tang_xiaoman_mother: "首店已付第二晚截至Day413中午可住，Day413晚新店主楼双床仅真实预订尚未入住，钱款实际付出但房卡未取得；街道未批准任何补助，返家日期和赔责未知。"
+  zeng_family: "五楼软管件拆除留样不代表西户分支已复通，四楼仅获许可移除部分湿料仍未复电，不知后续归责。"
+  ma_yun_center: "2019同一件已真实建立待核事项，合法新窄查只证当时出现暂缓核定与待补来源对应说明记录，不知道此后是否补据、最终核发寄达及历史自然人获答。"
+  staff_permissions: "物业实际有限拆料不等于专业复居验收；街道住宿咨询仅受理，中心只核记录，档案查阅不得越许可范围查人址或外发。"
+  invariants: "F003有界暂缓阶段；F008/M004/M005、2016封旧件和2022字节同一无新增确证。"
