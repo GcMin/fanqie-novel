@@ -10,3 +10,6 @@
 - **Meaningful Change PASS**：历史同一拟稿此次确实经审核被退回/暂不核发，新班因旧船假可派而临险时有责正式停派，专业航标仅本灯位完成安全窗口内处理并复测。
 - **Memory/Plan**：章节摘要、人物/关系/知识/世界状态、时间线、F003、ARC与Reader/Revision状态，章节计划534按真实章正文同步；历史已ready计划全部原样保留。
 - **精确结构校验：候选提交CI待核**。本报告不自行宣布PASS；只有包含本章ready、Memory和plan精确Commit的`python -m publisher.check_local --repo .`实际成功才可快进main并放行。
+
+## 精确候选/main结构校验及正式放行实证
+Stage A修订Commit `34a10f2d63421499e5daa9aaa0f2b9e490e19f8f` 记录新SHA。候选Git Commit `d0ba45b5c0cca51888673402ee170f8b662fc8ff`、Tree `eb6eb281548d0d359293b4c59a25653e67c05860`，候选Actions 41961830694及同SHA main Actions 41961873543均completed/SUCCESS，offline结构单测及实际`python -m publisher.check_local --repo .`均成功。expected_sha=796ec40a1193cb986ac433256337c91c8abf9c0c、force:false安全更新main后，ready Blob 961c7b0fd45ca93881dd237cf653ddccea2b3863，原draft同Tree删除。详见`qa/0533_0534_release_evidence_20261105.md`，本节实证覆盖前文“待核”。

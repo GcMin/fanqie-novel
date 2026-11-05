@@ -29,8 +29,19 @@ foreshadowing_updates:
 ending_state: "Day397 07:13两船员实登岸，但艇拖带、复航和平台全局修复未结；2019拟稿待核发，历史真人收答仍无证。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "6df68c6e669b608c7a7347687ec6311b2741b3cf", final_draft_sha: "6df68c6e669b608c7a7347687ec6311b2741b3cf", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3477
 release_evidence:
   ready_blob: "1ba6a457ecb0d9d25dd69dc31281cf322c9f6d84"
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
+
+  candidate_commit: "796ec40a1193cb986ac433256337c91c8abf9c0c"
+  validated_tree: "14c6fa74fdd01f2c585965ded6b24a30a4186f3e"
+  candidate_ci: 41961018080
+  candidate_ci_conclusion: success
+  main_ci: 41961084144
+  main_ci_conclusion: success
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  main_ref_update: expected_sha_force_false_success
+  evidence_file: qa/0533_0534_release_evidence_20261105.md

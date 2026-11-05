@@ -9,3 +9,6 @@
 - **Meaningful Change PASS**：2019历史待核发拟稿形成新证；失动力艇两人被专业救援实际接回岸；家属更正此前假归港消息。F003有界推进，不虚构M004/M005/F008或2016/2022同一。
 - **Memory与计划**：依法按本章新事实更新chapter_summary、人物/知识/关系/世界、timeline、F003、ARC进度、Reader和Revision状态、chapter_plan.csv，保留全部既有ready计划行。
 - **精确结构校验：待候选提交CI核实**。本报告不以内容QA替代结构校验；只有目标SHA的`python -m publisher.check_local --repo .`成功才放行main。
+
+## 精确候选/main结构校验及正式放行实证
+候选Git Commit `796ec40a1193cb986ac433256337c91c8abf9c0c`、Tree `14c6fa74fdd01f2c585965ded6b24a30a4186f3e`，候选Actions 41961018080与同SHA main Actions 41961084144均completed/SUCCESS，offline结构单测及实际`python -m publisher.check_local --repo .`均通过。使用expected_sha=e66ba558bf0b891f36dd2496d930ff46d9fbc7df、force:false正式main快进成功；ready Blob 1ba6a457ecb0d9d25dd69dc31281cf322c9f6d84，原draft同树删除。本节真实CI证据覆盖前文“待核”，详见`qa/0533_0534_release_evidence_20261105.md`。
