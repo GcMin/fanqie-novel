@@ -11,3 +11,10 @@
 - **Meaningful PASS**：母女从危险受水屋内真实转移到姨妈住所，夜间仅有责精准控水控电，日后具体漏点与入户仍需独立核实；历史预约号码合法限项确证，澄清“拟回转”与“实交”的证据差异。
 - **指定历史137→148链**：本章不引用其被修改正文的具体事实，新旧SHA比对重点是直前543，未宣称重跑不相关旧章。
 - **最终独立内容QA**：Continuity PASS、Style PASS、Meaningful PASS，Reader PASS。**结构门禁：pending exact candidate commit Actions CI**；没有与此候选版本精确匹配的实际 `python -m publisher.check_local --repo .` 成功前，不得更新main或报告章节正式ready。
+
+## 正式精确候选与 main 结构检查成功记录
+- 先前独立QA“结构pending”是审核**发生时**的状态，现由本节真实后验CI覆盖。
+- 实际审计候选与正式放行Git Commit同SHA：`4bbfc4745458aa18732bd6dd0bc91dda20028b34`。
+- 候选Actions `42035218249` completed/**SUCCESS**，精确对应上述Commit；`Test offline snapshot validation` 与运行 `python -m publisher.check_local --repo .` 的 `Validate this checkout without Git sync or publishing` 两项均成功。
+- 以原main `5ee30e086c71ad3d42e982b8e6e6b140f6842eb9` 作 `expected_sha`，`force:false` 真正快进main成功；正式main同SHA Actions `42035389369` completed/**SUCCESS**。
+- 对应ready本章精确Blob：`75c91f6f6a06994fe1db5ab5d8e46d5c50c4d442`，原draft同树删除。详细证据见 `qa/0543_0544_release_evidence_20261105.md`。
