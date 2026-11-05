@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 553
+title: "楼下签了停机时间，楼上还在等复测"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "5dad5d8a2439168796e2213fb5bcc2f66b7e1d87"
+reader_review: reader_reviews/0553_5dad5d8a.md
+depends_on_chapter: 552
+depends_on_source_sha: "96205a6d24c9d7fedcc935ca36a22d53b418cb00"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day416 08:32—Day417 07:08"
+summary: >-
+  Day416母女第三旅店主楼双床已付两夜，第二夜仍可住、Day417中午后未订；唐晓漫上班，母亲本人09:07向物业问干燥机实际作业和有责复测，Day415 20:02施工岗实停，Day416 09:24电工核独立施工回路后实复开。14:00母亲、三楼吴叔、物业施工岗在公共区域核明前日正式施工告知漏送三楼，吴叔签收当次补告知并另留噪声反馈，不签无异议；责任岗确认许可时段和降噪复看、Day417上午10点前只核复测条件符合才执行，20:03确实停机且具名告两户，四楼受水回路和五楼西户供水仍限停。18:47母女询旅店后夜原房库存仅咨询未续订，20:26母亲向中心真实回拨，22:14专业和历史分项回告，Day417 07:08交班未批准复居及街道补助。马芸09:31就2019形成岗“原始来源位置待查”内部分办窄申首次柜位实核、10:08真收件15:17限项获准，双保管员原登记实证当年在指定旧柜位一次真实查找未见对应来源页，“转请核另一编目位置”仅建议、未证下一位置查过或文件全库遗失，亦不证补据、暂缓解除、核发寄达和历史自然人获答。
+meaningful_state_changes:
+  - "Day416施工噪声由漏送告知推进为吴叔实名签收事实通知并保留异议，Day416 20:03实停，Day417检测仅具条件式可执行安排。"
+  - "2019来源位置由内部分办待查推进为一处指定旧柜位确有实核但按当次目录未见目标页，后续另一位置仅建议。"
+  - "第三旅店两夜中的第二夜已真付真住，Day417中午后住宿未确认且费用支持未核。"
+knowledge_updates:
+  - "母女与吴叔知道当次运行时段、漏送已补告知、20:03有责实停，但受水电路和西户水支路仍隔离，专业复测条件未确认、无复居许可。"
+  - "马芸与夜班只知道2019一处指定柜位当年实查未见目标页，不知道另处查找、补据、最终核发寄达及旧自然人受答。"
+relationship_updates:
+  - "母亲尊重吴叔照护孩子的噪声诉求并拒代签无异议，女儿分担住宿与工作，吴叔签收告知但保留反馈。"
+foreshadowing_updates:
+  - "F003新增一处旧柜位有源实查未见，不证全件丢失/第二处真查/补据办结/旧人实答；F008/M004/M005及2016/2022跨源同一未新增证。"
+ending_state: "Day417 07:08母女第三旅店次夜实住后下一晚未订，Day416 20:03机器实停，Day417条件核验在先而非复测已通过；四楼水损回路和五楼西分支仍限停，2019旧柜一处实查未见而其余历史结果未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "5dad5d8a2439168796e2213fb5bcc2f66b7e1d87", final_draft_sha: "5dad5d8a2439168796e2213fb5bcc2f66b7e1d87", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci_before_main}
+char_count: 3190

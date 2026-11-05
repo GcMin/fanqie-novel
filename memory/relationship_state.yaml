@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 552
+last_updated_chapter: 553
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2682,4 +2682,11 @@ chapter_552_arc054_verified:
   mother_daughter: "母亲保持房间及费用签字自主，女儿完成工作培训后实际核通达路线并共同分担第三店两夜房费，不将母亲意愿视为女儿全权授权。"
   other_residents: "吴叔就干燥机噪声向物业有责提实际影响，物业记录并说明许可时段，母女安全诉求与其他居民安宁分项处理。"
   ma_yun_colleague: "有权保管员阻止把多年后整盒档案办结标签当成原始形成岗答复，并排除异月同尾事项。"
+  trust_scores_unchanged: true
+
+chapter_553_arc054_verified:
+  chapter: 553
+  mother_daughter: "母亲参加现场协调并拒以返住压力替邻居表示无异议，女儿正常到岗且就次夜预算继续与母亲共议，不代作决定。"
+  mother_neighbor: "母亲认可吴叔孩子睡眠受影响的事实，吴叔愿接收具体运行告知但正式反馈噪声影响、不签无异议，争执转入可核时段和有责降噪复看。"
+  ma_yun_colleague: "纠正同事把2019单柜位未见误写作全原件失踪，保留具体柜位与转请建议的证据边界。"
   trust_scores_unchanged: true

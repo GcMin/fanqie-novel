@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 552
-last_reviewed_title: "借住到期那天，母亲先查了电梯"
-last_source_path: chapters/draft/0548.md
-last_source_sha: 75dc2ad21ee39191743c36e6c53543d0a228129f
-last_review_path: reader_reviews/0548_75dc2ad2.md
+last_reviewed_chapter: 553
+last_reviewed_title: "楼下签了停机时间，楼上还在等复测"
+last_source_path: chapters/draft/0553.md
+last_source_sha: 5dad5d8a2439168796e2213fb5bcc2f66b7e1d87
+last_review_path: reader_reviews/0553_5dad5d8a.md
 last_reviewed_at: "2026-11-06"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 547
-depends_on_source_sha: 83118ffc7c877b78c505c5fda4f2e21d9e3eb5d7
+depends_on_chapter: 552
+depends_on_source_sha: 96205a6d24c9d7fedcc935ca36a22d53b418cb00
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 83118ffc7c877b78c505c5fda4f2e21d9e3eb5d7
+predecessor_current_source_sha: 96205a6d24c9d7fedcc935ca36a22d53b418cb00
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6063,4 +6063,19 @@ combined_audit_chapter_552_20261106:
   reader_gate: pass
   independent_qa: pass
   dependency_status: verified_predecessor_one_word_time_fix_facts_compatible
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_553_20261106:
+  chapter: 553
+  source_sha: "5dad5d8a2439168796e2213fb5bcc2f66b7e1d87"
+  review_path: reader_reviews/0553_5dad5d8a.md
+  reviewer_mode: independent_pass_a_then_b_on_exact_blob
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main
