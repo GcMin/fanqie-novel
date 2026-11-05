@@ -15,8 +15,8 @@
 - pov: 第三人称有限；孙月为主，马芸与中心为辅
 - target_effective_chars: 3000
 - actual_effective_chars: 3291
-- status: draft
-- qa: pending
+- status: ready
+- qa: pass
 
 ## 本章目标
 承第538章的15箱货保管与理赔资料受理：将一次新触发的错误清运派单阻止在真实交接前，同时让孙月为维持经营承担采购新批次的现金压力。原12箱仍在目的仓限制出库，原市场3箱隔离；市场原库检修、专业质量结论、赔付/责任均不能提前写成已决。旧档2019补据页仅证一份原始对照资料类别附件真实交入，并不证后续复核；本章仅新提出合法限项申请，**不虚构获准或当年后续办结**。
@@ -50,3 +50,8 @@
 ## 独立审核阶段补录（2026-11-05）
 - 539原草稿SHA `1bca43925225cbe83cd2f605fe1a47527accd917` 的初审0/1/2；MAJOR为仍使用538的临时draft SHA。实际比对538原draft `2282564361e3cb2edf49108eece31845503ae9d7` 与正式ready `315aa2f0aa9cf2386abdd82511461856307204c0`：全章小说正文、标题逐字一致，只有status、qa、approved_at、publish_mode交付元数据变化，不发生任何时间地点人物知识事实差异。
 - Stage A仅修正539 Front Matter和本详细章纲的前驱依赖到538正式ready SHA，无小说正文修改。必须对本次修订后新SHA重新完成独立Pass A/Pass B，方可继续QA与结构门槛。
+
+## 审核复审及放行阶段（2026-11-05）
+- 原始SHA `1bca43925225cbe83cd2f605fe1a47527accd917` 初审0/1/2；Stage A仅修正前538原draft SHA→ready `315aa2f0aa9cf2386abdd82511461856307204c0`，两版本小说正文和标题逐字一致仅交付元数据不同；修订后539新SHA `72661641c9bc415a5e7ce3f51f3b4d4969d86013`，整章正文0字改。
+- 针对新SHA独立执行Pass A再Pass B，Reader 0/0/2 keep/none `reader_reviews/0539_72661641.md`；独立Continuity/Style/Meaningful QA PASS，3291有效字 `qa/0539_report.md`；Memory/计划逐项同步。
+- 仍须真实精确候选Git结构CI通过后，以expected_sha/force:false安全放行，CI未验前不得宣称已ready。

@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 538
-last_reviewed_title: "赔偿单有了编号，冷库的门还没开"
-last_source_path: chapters/draft/0538.md
-last_source_sha: 2282564361e3cb2edf49108eece31845503ae9d7
-last_review_path: reader_reviews/0538_22825643.md
+last_reviewed_chapter: 539
+last_reviewed_title: "清运车到了门口，十五箱一箱没走"
+last_source_path: chapters/draft/0539.md
+last_source_sha: 72661641c9bc415a5e7ce3f51f3b4d4969d86013
+last_review_path: reader_reviews/0539_72661641.md
 last_reviewed_at: "2026-11-05"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 537
-depends_on_source_sha: df8ac549a9fb28d7e8714a20eb04f42c0c516e2a
+depends_on_chapter: 538
+depends_on_source_sha: 315aa2f0aa9cf2386abdd82511461856307204c0
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: df8ac549a9fb28d7e8714a20eb04f42c0c516e2a
+predecessor_current_source_sha: 315aa2f0aa9cf2386abdd82511461856307204c0
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -5744,5 +5744,32 @@ chapter_538_arc054_reader:
   depends_on_source_sha: "df8ac549a9fb28d7e8714a20eb04f42c0c516e2a"
   predecessor_source: verified_exact_ready_blob
   body_revisions: 0
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci
+
+
+chapter_539_arc054_reader:
+  chapter: 539
+  title: "清运车到了门口，十五箱一箱没走"
+  original_source_sha: "1bca43925225cbe83cd2f605fe1a47527accd917"
+  initial_review: reader_reviews/0539_1bca4392.md
+  initial_counts: "0/1/2"
+  stage_a_commit: "465d593b8bc80c16c80cd126c45a84f75b70dca1"
+  stage_a_used: 1
+  source_path: chapters/draft/0539.md
+  source_sha: "72661641c9bc415a5e7ce3f51f3b4d4969d86013"
+  review_path: reader_reviews/0539_72661641.md
+  reviewed_at: "2026-11-05"
+  reviewer_mode: independent_pass_a_then_pass_b_after_new_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  depends_on_chapter: 538
+  depends_on_source_sha: "315aa2f0aa9cf2386abdd82511461856307204c0"
+  predecessor_draft_blob: "2282564361e3cb2edf49108eece31845503ae9d7"
+  predecessor_title_body: exactly_identical
   content_qa: pass
   structural_gate: pending_exact_candidate_ci

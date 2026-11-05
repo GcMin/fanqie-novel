@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 539
+title: "清运车到了门口，十五箱一箱没走"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "1bca43925225cbe83cd2f605fe1a47527accd917"
+source_draft_sha: "72661641c9bc415a5e7ce3f51f3b4d4969d86013"
+initial_review: reader_reviews/0539_1bca4392.md
+reader_review: reader_reviews/0539_72661641.md
+depends_on_chapter: 538
+depends_on_source_sha: "315aa2f0aa9cf2386abdd82511461856307204c0"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day402 09:46—Day403 06:55"
+summary: >-
+  Day402 09:46目的库电话告知孙月有15箱待清运，10:17外包清运车真到院门但只持错误显示“理赔受理/待处置领取”的扫码派单，缺货主、专业处置与保管方有责放行；十五箱分为目的库12箱禁出、原市场3箱隔离且未装车。10:51孙月催市场核来源，发现旧接口把资料“受理”误映预排可提，11:33有责主管暂停单件并由清运方撤单/司机未提离场留痕，原平台全局规则未修复。17:10孙月从正规批发另购有完整手续的四箱新批次以维持经营，用店铺维修储备钱支付定金；旧十五箱未混入新单，第二客户另购、第三还在核价未签新单。马芸就2019旧同一工作页退补后一份附件是否再被内复核岗真实签领提出新合法窄申，Day402只有收件凭条、周报更正，未获审批/后续历史新证。夜班20:22分源核本单误清运无交接且两处保管点各自留实物、22:08记历史新申请仅待许可，Day403 06:55交班。F003不升格，F008/M004/M005及2016/2022同一无新证。
+meaningful_state_changes:
+  - "旧接口将赔偿申请受理错映清运派单，车到场但15箱未实交、11:33有责撤单，平台全局修复未完成。"
+  - "孙月以维修预留款购入独立合法新批次4箱，成为可销售新货；旧12箱仍目的仓禁出、3箱原市场隔离。"
+  - "历史2019后续复核岗是否签领新窄申被正式收件但未获许可、无当年新事实可写。"
+knowledge_updates:
+  - "孙月/仓库/市场/司机知本次清运错误派车真实发生与未领货，赔偿仍只是资料受理，食品品质未知；弟弟知新旧批次须分账。"
+  - "马芸及夜班只知2019同件原附件一份曾双端接入，今日新申请处于待许可，不知道复核岗是否实际签领。"
+relationship_updates:
+  - "孙月不接受口头“程序问题”，坚持市场、仓储、承运三方保真记录；弟弟学习分别展示理赔受理与新旧批次。"
+  - "第二买主要求差价凭据，孙月不代第三方认定损失；马芸纠正同事“资料完备”表述。"
+foreshadowing_updates:
+  - "F003沿用538一份原始对照类别附件双端实接而不提升后续复核；未获得2019历史自然人实答或2016/2022同一新证。"
+ending_state: "Day403 06:55旧十五箱实物未清运且品控/理赔未决，新四箱独立合法批次可供经营但旧流程全局修复未核；历史新申请仅收件待许可。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1bca43925225cbe83cd2f605fe1a47527accd917", final_draft_sha: "72661641c9bc415a5e7ce3f51f3b4d4969d86013", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "rebind_538_draft_sha_to_ready_after_identical_title_body_compare"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3291
+release_evidence:
+  structural_gate: pending_exact_candidate_ci

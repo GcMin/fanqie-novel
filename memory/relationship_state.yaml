@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 538
+last_updated_chapter: 539
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2568,4 +2568,14 @@ chapter_538_arc054_verified:
   sun_yue_buyers_market: "首家确认订金真退仍对差价不满，另外两家改向别人进货或继续暂停；商户与市场在赔付模板旧误句上通过有责留痕更正，未认定责任与赔款。"
   ma_yun_colleague: "马芸拒将退补后的原始对照类别附件真接入等同历史工作页补齐或复核恢复，同事周报只能记录确知动作。"
   center_team: "周衡夏宁梁策只做有责来源转接和实交班，互信分值无因单章无据改变。"
+  trust_scores_unchanged: true
+
+
+chapter_539_arc054_verified:
+  chapter: 539
+  source_sha: "72661641c9bc415a5e7ce3f51f3b4d4969d86013"
+  sun_yue_market_carrier: "孙月要求市场有责岗真实撤错误清运派单，仓储主管坚持不得凭扫码码放行，司机只确认到场未提不被强迫签货无损；各方边界清楚。"
+  sun_yue_brother: "弟弟曾多抄赔偿受理号欲宣称赔偿中，被孙月纠正；姐姐孙月提醒他只把理赔编号写成资料已受理。弟弟协助把新批四箱与旧15箱不同账分开，未无据更改长期互信分值。"
+  sun_yue_customers: "第二家另购且有差价顾虑，第三家只待核价无新单；孙月花自家维修储备保经营而非冒认旧货可售。"
+  ma_yun_colleague: "同事继续想写资料已完备，马芸只留下某类附件已接后续处理未核的正式更正。"
   trust_scores_unchanged: true
