@@ -28,5 +28,18 @@ foreshadowing_updates:
 ending_state: "Day399 07:09原艇已专业隔离系泊仍待检，撤班工时申请有责受理未结；2019续办索引实有新文书和历史本人受答仍未知。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "e732483ef9adc3de358f5b883f8098a9658a1e5b", final_draft_sha: "e732483ef9adc3de358f5b883f8098a9658a1e5b", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3446
+release_evidence:
+  ready_blob: "bf79b3133f2766edc5d00281506c71937e7023cf"
+  structural_gate: exact_candidate_and_main_ci_success
+  candidate_commit: "f46bab3a9ddeb7c33769bc0f7a68741154614c79"
+  validated_tree: "d3cd78cd8bb693c7a6dd876279595eafb4bd2da0"
+  candidate_ci: 41966923757
+  candidate_ci_conclusion: success
+  main_ci: 41966972491
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  evidence_file: qa/0535_release_evidence_20261105.md

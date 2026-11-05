@@ -5673,4 +5673,14 @@ chapter_535_reader:
   required_action: none
   predecessor_ready_sha: "961c7b0fd45ca93881dd237cf653ddccea2b3863"
   content_qa: pass
-  structural: pending_exact_candidate_ci
+  structural: exact_candidate_and_main_ci_success
+
+chapter_535_release_evidence:
+  candidate_commit: "f46bab3a9ddeb7c33769bc0f7a68741154614c79"
+  ready_blob: "bf79b3133f2766edc5d00281506c71937e7023cf"
+  candidate_ci: 41966923757
+  main_ci: 41966972491
+  conclusion: success
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  main_update: expected_sha_force_false_success

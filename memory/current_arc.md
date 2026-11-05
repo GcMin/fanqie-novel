@@ -1,7 +1,7 @@
-## 第535章Reader双遍与内容QA已过，精确结构CI待核｜2026-11-05
+## 第535章精确候选及main结构CI成功、正式ready｜2026-11-05
 - 原稿`e732483ef9adc3de358f5b883f8098a9658a1e5b`，Pass A→B 0/0/2 keep/none，无正文修订，独立Continuity/Style/Meaningful PASS，3446有效字符；前章534正式ready `961c7b0fd45ca93881dd237cf653ddccea2b3863` 精确匹配。
 - Day398合法新限项证2019同一退审稿后原办件岗有原始关联的补据续办索引，非新稿已形成或历史本人受答；原艇21:46专业拖回隔离泊位仍待检停派，两名撤班员工22:28考勤异议由主管签收工资未结，Day399 07:09交班。F003有界进展，F008/M004/M005和2016/2022同一未证。
-- 仅在精确候选Commit经可信结构CI实际成功后可以正式更新main。
+- 精确候选Commit `f46bab3a9ddeb7c33769bc0f7a68741154614c79`（Tree `d3cd78cd8bb693c7a6dd876279595eafb4bd2da0`）候选Actions `41966923757`与main同SHA Actions `41966972491`均completed/SUCCESS，结构单元测试和实际publisher.check_local双PASS；已先验候选再expected_sha/force:false真实更新main，第535章ready Blob `bf79b3133f2766edc5d00281506c71937e7023cf`，原draft同Tree删除。
 
 ## 第533—534章精确候选及main结构CI双重SUCCESS、正式ready｜2026-11-05
 - 第533章原 `6df68c6e669b608c7a7347687ec6311b2741b3cf` Reader独立0/0/2，正文0改，内容QA PASS，候选 `796ec40a1193cb986ac433256337c91c8abf9c0c` Actions 41961018080、同SHA main Actions 41961084144均SUCCESS，结构单测与`publisher.check_local`实成功；expected_sha=e66ba558bf0b891f36dd2496d930ff46d9fbc7df、force:false真实main安全更新。ready Blob `1ba6a457ecb0d9d25dd69dc31281cf322c9f6d84`，原draft删除。
