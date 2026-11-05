@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 552
+title: "烘干机已经进屋，灯还是不能开"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "f81e26acb3073dcec4a41fefb8e34cd5557b26d1"
+source_draft_sha: "1ff621c3113d099c80bfd9a97be94fb54a042c55"
+initial_review: reader_reviews/0552_f81e26ac.md
+reader_review: reader_reviews/0552_1ff621c3.md
+depends_on_chapter: 551
+depends_on_source_sha: "5e9bdd18f3408175d5716f9277a4576f50457105"
+dependency_status: verified_predecessor_one_word_time_fix_facts_compatible
+timeframe: "Day415 08:41—Day416 07:06"
+summary: >-
+  Day415 08:41唐晓漫需工作培训，第二店昨夜付款续房只至当日中午，母亲09:12发现原双床房被先前团体订单预占不可再续，拒绝不通达的侧楼、11:37本人真实退第二店并有权凭条寄存大箱，药盒挂历随身。街道仅给公开住宿资源表，救助资格仍待核。仁合里物业10:07通知拟进场烘干设备；13:26设备实际到位但电源未接、不可冒写已运行；14:43经有责电工核独立合规施工供电而非受水线路，干燥机真正首次启动，吴叔反映噪声并被有责受理；15:09三原测点阶段观察一处仍高，不能据运行或读数下降推复电/复居，四楼受水电路和五楼西户供水分支持续限停。唐晓漫18:35同母亲实核第三店主楼电梯到房门、19:14双方实付两晚并登记领卡真入住，20:06女儿凭授权领回寄存大箱，20:22母亲向中心真回拨，Day416 07:06交班确认已住两晚中第一夜且第二夜预付，街道未批救助、赔责未知。马芸09:26窄申核2019同一内请求形成岗实收之后是否真实分办，10:03收件15:42获准后16:19两有权保管员原始内部分办簿确证形成岗曾分配「原始来源位置待查」内部资料核对任务，16:47限摘22:09分源回告；不证原件丢失、回应实际回发、暂缓解除、对外核发寄达或历史自然人获答。
+meaningful_state_changes:
+  - "母女第二店Day415 11:37真正退房并凭条寄存，第三店19:14双方真实自费入住可达主楼双床两夜、20:06实领旧大箱；二夜费用既付，不等于获街道补助。"
+  - "四楼烘干机从拟进场/实到达推进14:43在独立许可电源下真正启动，但15:09单点仍潮不能据此允许原受水回路复电或返住，五楼西户限停。"
+  - "2019同一补充来源对应说明请求形成岗真收之后，又有源证其内部分办至「原始来源位置待查」环节，后续补据答复未知。"
+knowledge_updates:
+  - "母女知第三店两晚已支付真住并完成箱子领取，四楼虽开始专业干燥但受水回路与五楼西户供水仍限停、街道支持/赔责未定。"
+  - "马芸与夜班只知2019形成岗真正内部分办来源位置待查，不知原件是否丢失或后来找到、补据是否写回、暂缓解除、核发寄达与历史自然人真获答。"
+relationship_updates:
+  - "母亲坚持真实无障碍路径和签字决定权，唐晓漫顺利完成培训、实地核第三店并共同分担两夜费用，女儿按授权领取大箱。"
+  - "物业有责人员记录吴叔的施工噪声诉求，不因母女返住压力忽略其他住户。"
+foreshadowing_updates:
+  - "F003新增2019形成岗内部分办「原始来源位置待查」，不冒写原件丢失/补据完成；F008/M004/M005与2016/2022跨源同一不升级。"
+ending_state: "Day416 07:06母女第三旅店两夜中首夜真住、次夜已付；四楼干燥机真启但未准复电复居，五楼西户限停；2019形成岗真实内部分办待找原始来源位置，后续历史自然人获答未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f81e26acb3073dcec4a41fefb8e34cd5557b26d1", final_draft_sha: "1ff621c3113d099c80bfd9a97be94fb54a042c55", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "bind provisional 551 initial draft to final 551 ready Blob after one word time correction factual comparison"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci_before_main}
+char_count: 3040

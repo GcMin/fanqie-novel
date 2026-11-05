@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 551
-current_stage: chapter551_new_sha_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0551.md
-current_source_sha: 96be3d308194e971b97a3a028f3d290c8a20e7b9
-current_review_path: reader_reviews/0551_96be3d30.md
+current_chapter: 552
+current_stage: chapter552_new_sha_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0552.md
+current_source_sha: 1ff621c3113d099c80bfd9a97be94fb54a042c55
+current_review_path: reader_reviews/0552_1ff621c3.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 1
@@ -12,7 +12,7 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter551_stage_a_date_term_fix_rereview_qa_pass
+last_action: chapter552_stage_a_dependency_rebind_new_sha_rereview_qa_pass
 last_action_date: "2026-11-06"
 last_error: null
 last_diff_summary: "546 only metadata and detailed plan rebind after 545 prior draft and ready prose/title identical; no body revision"
@@ -5373,3 +5373,15 @@ combined_audit_chapter_551_20261106:
   final_reader: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
   structural_gate: exact_commit_ci_required
+
+combined_audit_chapter_552_20261106:
+  original_sha: "f81e26acb3073dcec4a41fefb8e34cd5557b26d1"
+  source_after: "1ff621c3113d099c80bfd9a97be94fb54a042c55"
+  stage: local_revision_metadata_only
+  fix: "bind 551 provisional old source to final ready blob after one-word time change verified compatible"
+  stage_a_rounds: 1
+  body_revisions: 0
+  review_after: reader_reviews/0552_1ff621c3.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required

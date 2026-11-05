@@ -5,7 +5,7 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer
 - phases: Planner / Continuity Precheck / Writer
-- status: draft
+- status: ready
 - depends_on_chapter: 551
 - depends_on_source_sha: 5e9bdd18f3408175d5716f9277a4576f50457105
 - dependency_status: verified_predecessor_one_word_time_fix_facts_compatible
@@ -32,3 +32,4 @@
 - actual_effective_chars: 3040
 - count_method: 除去Front Matter和***独立分场符与空白后，正文标点保留，按Unicode码点计算。
 - precheck: 从main读取AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、Bible及三张人物卡、现有旧卷弧与最近长期Memory、active F003/F008及时间线、541—550十章摘要、547—551五章正文及551详细章纲；outlines/volume_05.md与arc_current.md陈旧，按已确认ready、近期Memory为准。published中第153章《人没回来，表先签完了》确实存在，published最大159、ready最大550、draft最大551。只运行Planner、Continuity Precheck、Writer，不读reader_reviews，不做Audit/Memory/发布。
+- audit_note: 第552原SHA f81e26ac受前551临时依赖影响，Stage A仅前章依赖重绑到ready 5e9bdd18f3408175d5716f9277a4576f50457105，正文0字改；新SHA 1ff621c3113d099c80bfd9a97be94fb54a042c55重新独立Pass A/B 0/0/2及内容QA PASS，正式ready结构门禁以精确候选CI为准。

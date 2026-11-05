@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 551
+last_updated_chapter: 552
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2674,4 +2674,12 @@ chapter_551_arc054_verified:
   source_sha: "96be3d308194e971b97a3a028f3d290c8a20e7b9"
   mother_daughter: "母亲独立查询资金、签续房、保管凭据、补交街道材料和向中心回拨；唐晓漫尊重决定并完成工作排班，两人协商未来一夜而不是女儿代全部签字。"
   ma_yun_colleague: "马芸坚持按许可只确认2019形成岗实收，不接受将后期整盒签收当作当年业务回应。"
+  trust_scores_unchanged: true
+
+chapter_552_arc054_verified:
+  chapter: 552
+  source_sha: "1ff621c3113d099c80bfd9a97be94fb54a042c55"
+  mother_daughter: "母亲保持房间及费用签字自主，女儿完成工作培训后实际核通达路线并共同分担第三店两夜房费，不将母亲意愿视为女儿全权授权。"
+  other_residents: "吴叔就干燥机噪声向物业有责提实际影响，物业记录并说明许可时段，母女安全诉求与其他居民安宁分项处理。"
+  ma_yun_colleague: "有权保管员阻止把多年后整盒档案办结标签当成原始形成岗答复，并排除异月同尾事项。"
   trust_scores_unchanged: true
