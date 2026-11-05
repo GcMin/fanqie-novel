@@ -15,7 +15,7 @@
 - pov: 第三人称有限，孙月、马芸、夜班周衡夏宁；梁策配角
 - target_effective_chars: 3000
 - actual_effective_chars: 3366
-- status: draft_pending_independent_audit
+- status: ready
 - audit_dependency_reconciliation: "536原draft与ready正文、标题逐字一致，仅Front Matter交付字段变化；Stage A仅重绑正式ready Blob；537正文未改。"
 
 ## 本章目标与开场
@@ -46,3 +46,9 @@
 
 ## 交付边界
 只新增plans/chapter_0537_plan.md与chapters/draft/0537.md；正文status:draft、qa:pending、approved_at:null、publish_mode:draft。不更改既有章节、Memory、QA或审稿状态，不发布番茄。
+
+
+## 独立Audit与Stage A结果（2026-11-05）
+- 原稿Reader `reader_reviews/0537_1a718fa5.md` 0/1/2，Stage A元数据修订1次、小说正文0字修订，前536草稿与正式ready小说正文及标题逐字一致。
+- 修订后新稿Blob `21e567c7a03ff22f10700644857d1fd8be79f0c8` 重新独立Pass A/B 0/0/2 keep/none；Continuity/Style/Meaningful QA PASS，3366有效字符。
+- 前章正式ready Blob `af9253855006664f612b47a5f032f50cfec356a0`；本章ready Blob `df8ac549a9fb28d7e8714a20eb04f42c0c516e2a`；仅候选结构CI真实SUCCESS后可更新main。

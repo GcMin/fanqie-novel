@@ -1,0 +1,38 @@
+schema_version: 1
+chapter: 537
+title: "十二箱都在，今晚一箱也不能卖"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "1a718fa569db147c9b817fbfecec4a16128dc932"
+source_draft_sha: "21e567c7a03ff22f10700644857d1fd8be79f0c8"
+initial_review: "reader_reviews/0537_1a718fa5.md"
+reader_review: "reader_reviews/0537_21e567c7.md"
+depends_on_chapter: 536
+depends_on_source_sha: "af9253855006664f612b47a5f032f50cfec356a0"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day400 08:46—Day401 06:58"
+summary: >-
+  Day400马芸09:19新窄申、09:52受理、14:11限准，当年原始内复核收件簿与复核意见登记双证2019原第73页退审补据续办索引下《补据项目核对工作页》曾确实进入有责内部复核，原意见为需补原始对照依据、暂不确认项目核对完成；不证后来是否补齐、核发或历史真人受答。西栈街孙月十二箱Day399 23:09已实到目的库，Day400一箱外标模糊11:15不足单方证据，21:04原市场双底联到、21:27仓储双人独立核实第八箱归属；十二箱归属确立但仍全部限制出库待专业品质判断，三箱继续原市场隔离。孙月给第一店实际退订金，另两店改期/暂停，市场群误写供应恢复需原发布岗保源补正；原库停用、温控断点、赔偿待核。Day401 06:58早班交接。F003有限推进，F008/M004/M005及2016/2022跨源同一无新确证。
+meaningful_state_changes:
+  - "2019旧工作页曾真正进入内复核，但因欠原始对照依据当次退补，后来处理及历史真人收答仍未知。"
+  - "第八箱从受潮外标归属待认变为有责双源实物核属孙月，十二箱全部限出库而非专业可售通过，另三箱继续隔离。"
+  - "第一单订金真退回、另外两单改期/暂停，孙月付出现金周转代价，门店明确暂停供货。"
+knowledge_updates:
+  - "马芸和夜班中心只知有权去身份内复核阶段类别，不知具体补据、地址身份、后来正式核发及个人受答。"
+  - "孙月及仓储人员知十二箱归属和限制状态、三箱隔离，不能据此断定食品安全与最终赔偿。"
+relationship_updates:
+  - "孙月拒替店主冒险出售，真退还首单订金；弟弟开始按已退款/改期/暂停分别记账。"
+  - "马芸纠正同事把内部工作页形成写成业务已解决的错误统计。"
+foreshadowing_updates:
+  - "F003同一工作页本次内复核需补依据且暂不确认核对完成；F008/M004/M005及2016/2022同一未新证。"
+ending_state: "Day401 06:58旧工作页当次退补、后续未知；十二箱身份核明但仍禁售、三箱隔离、订单退款改期，原库维修食品品质责任赔偿均未结。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1a718fa569db147c9b817fbfecec4a16128dc932", final_draft_sha: "21e567c7a03ff22f10700644857d1fd8be79f0c8", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "rebind_536_final_ready_SHA_and_plan_only"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3366
+release_evidence:
+  ready_blob: "df8ac549a9fb28d7e8714a20eb04f42c0c516e2a"
+  structural_gate: pending_exact_candidate_ci

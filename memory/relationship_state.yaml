@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 536
+last_updated_chapter: 537
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2549,4 +2549,13 @@ chapter_536_arc054_verified:
   sun_yue_and_market: "商户拒以买主承担风险替代食品安全，市场运营方/承运方分别留十二箱有责目的仓交接及三箱隔离明细，孙月据实通知三家买主延期。"
   ma_yun_and_colleague: "同事欲写多年悬案已办理，马芸仅写新工作页形成及待内部复核，不用未见的历史答复充当成绩。"
   center_team: "夏宁周衡梁策按来源与职责协调，主要人物互信分值无事实依据不变。"
+  trust_scores_unchanged: true
+
+chapter_537_arc054_verified:
+  chapter: 537
+  source_sha: "21e567c7a03ff22f10700644857d1fd8be79f0c8"
+  sun_yue_brother: "弟弟先想拖延并按三单已交记账，孙月实际退款并教他区分退款、改期、暂停；亲属间商业判断有行动影响，未无据修改长期信任分值。"
+  sun_yue_buyers: "首家缺货获真实订金退款，差价赔偿依凭据未裁决；第二家转别家取货、第三家暂缓，不把限制出库误作已交。"
+  ma_yun_colleague: "马芸纠正同事把内部工作页已形成填业务已解决；两人仍以可证阶段为统计边界。"
+  center_team: "周衡夏宁梁策按职责不替冷库/食品责任岗位裁决，互信评分无无据变更。"
   trust_scores_unchanged: true

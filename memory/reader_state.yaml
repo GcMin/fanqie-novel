@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 536
-last_reviewed_title: "冷库显示零下十八度，门口却滴着水"
-last_source_path: chapters/draft/0536.md
-last_source_sha: aa21671bbfbd9646fd1951cb5b24481c190799c6
-last_review_path: reader_reviews/0536_aa21671b.md
+last_reviewed_chapter: 537
+last_reviewed_title: "十二箱都在，今晚一箱也不能卖"
+last_source_path: chapters/draft/0537.md
+last_source_sha: 21e567c7a03ff22f10700644857d1fd8be79f0c8
+last_review_path: reader_reviews/0537_21e567c7.md
 last_reviewed_at: "2026-11-05"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -5693,5 +5693,22 @@ chapter_536_reader:
   recommendation: keep
   required_action: none
   predecessor_ready_sha: "bf79b3133f2766edc5d00281506c71937e7023cf"
+  content_qa: pass
+  structural: pending_exact_candidate_ci
+
+chapter_537_reader:
+  chapter: 537
+  original_sha: "1a718fa569db147c9b817fbfecec4a16128dc932"
+  original_review: reader_reviews/0537_1a718fa5.md
+  initial_counts: "0/1/2"
+  stage_a_commit: "7d748ad2e8b1ad7145bd5ef52ee9efe04fb54927"
+  source_sha: "21e567c7a03ff22f10700644857d1fd8be79f0c8"
+  final_review: reader_reviews/0537_21e567c7.md
+  final_counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  predecessor_draft_blob: "aa21671bbfbd9646fd1951cb5b24481c190799c6"
+  predecessor_ready_blob: "af9253855006664f612b47a5f032f50cfec356a0"
+  predecessor_body_title: exactly_identical
   content_qa: pass
   structural: pending_exact_candidate_ci
