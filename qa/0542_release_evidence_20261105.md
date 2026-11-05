@@ -1,0 +1,6 @@
+# 第542章正式ready精确校验与放行证据｜2026-11-05
+- 原Draft `chapters/draft/0542.md` Git Blob `608a937956327c9c0b2ac44dbef78f783bcde13c` 依赖541未审Draft SHA `bb0b59466dfeb07c2ae5fc7e4a81fe896b4e2dd7`，经验证541正式ready标题及正文与原稿逐字一致、只是交付Front Matter不同。
+- Stage A仅改542 Front Matter与详细章纲前驱SHA为541正式ready `5ec081d270b63b650eb4260e502c3cd0e600e491`，实际main修改Commit `bff396176defc78e23f2e4268958f7061b320ec2`，542新正式Draft Blob `76365a133a0ab90b0d3771b94ad219a16a59dd38`，小说正文0字修订。针对**新SHA**独立Pass A后Pass B Review `reader_reviews/0542_76365a13.md`，0 BLOCKER / 0 MAJOR / 2 MINOR，keep/none；独立Continuity/Style/Meaningful QA PASS，3494有效字符。
+- 精确候选Commit `1cfa78a10b21f36066fe46fa6574cdbecfa9fe83`，Git Tree `f53ff49bbfa788d6231f5edb50971f5af0731216`；审计分支 `audit/ready-0542-20261105-1922` GitHub Actions Run **42018318742**，head_sha精确等于候选Commit，completed/success，job中真实单测与`python -m publisher.check_local --repo .`均SUCCESS。
+- 候选结构检查完成后核main仍为父Commit `bff396176defc78e23f2e4268958f7061b320ec2`，update_ref(main,expected_sha=bff3961...,sha=1cfa78a...,force:false)实际返回success。相同HEAD的main Actions Run **42018376516** completed/success。
+- 正式文件 `chapters/ready/0542.md` Git Blob `57d0461ea1f655fbef6f69f8c69e675df877ea6f`，原 `chapters/draft/0542.md` 同一Git Tree删除。对应Reader QA、章节摘要、人物知识关系世界时间线伏笔及计划随正式提交同步，旧ready计划行保留。Canon、published及定时任务未改，未操作番茄发布。

@@ -11,3 +11,8 @@
 - **Meaningful PASS**：雨水改道与涉水电气经各责任方有界处理、道路有现场复测，婚鞋有真实新接手岗位；维修赔偿与店铺复业尚未完成。
 - 指定137→138、139→140、142→143、146→147、147→148历史SHA关系不属于本章直接引用，保持既有事实边界，不冒称重检老正文。
 - 长期Memory、F003和章节计划按本章真事实更新，已ready计划行不覆盖。**结构放行门禁**：独立内容PASS不等于结构PASS；待本候选精确Git Commit的Actions实际结构单测和`python -m publisher.check_local --repo .`完成SUCCESS，才能用expected_sha、force:false迁入ready。
+
+## 精确候选与正式main CI验证
+- 在main `bff396176defc78e23f2e4268958f7061b320ec2`真实提交542草稿元数据重绑后，Reader对新blob `76365a133a0ab90b0d3771b94ad219a16a59dd38`完成双遍0/0/2，独立内容QA PASS，小说正文未变。
+- 候选/正式main Commit `1cfa78a10b21f36066fe46fa6574cdbecfa9fe83` / tree `f53ff49bbfa788d6231f5edb50971f5af0731216`。审计分支Actions `42018318742` 和同SHA正式main Actions `42018376516` 都completed/**SUCCESS**；候选job中`Test offline snapshot validation`和`Validate this checkout without Git sync or publishing`（实际执行`python -m publisher.check_local --repo .`）两项completed/SUCCESS。
+- 验证main父Commit仍为`bff396176defc78e23f2e4268958f7061b320ec2`，以`expected_sha`、`force:false`真正更新至放行Commit成功。正式ready文件`chapters/ready/0542.md` Blob `57d0461ea1f655fbef6f69f8c69e675df877ea6f`，原draft已同树删除。详细审计`qa/0542_release_evidence_20261105.md`。

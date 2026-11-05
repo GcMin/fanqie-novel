@@ -5879,4 +5879,19 @@ chapter_542_arc054_verified:
   depends_on_source_sha: "5ec081d270b63b650eb4260e502c3cd0e600e491"
   predecessor_title_body_same: true
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
+
+release_0542_exact_ci:
+  chapter: 542
+  original_source_sha: "608a937956327c9c0b2ac44dbef78f783bcde13c"
+  source_sha: "76365a133a0ab90b0d3771b94ad219a16a59dd38"
+  reviewer: reader_reviews/0542_76365a13.md
+  final_counts: "0/0/2"
+  ready_blob: "57d0461ea1f655fbef6f69f8c69e675df877ea6f"
+  candidate_commit: "1cfa78a10b21f36066fe46fa6574cdbecfa9fe83"
+  candidate_ci: 42018318742
+  main_ci: 42018376516
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_update: expected_sha_force_false_success
+  evidence_file: qa/0542_release_evidence_20261105.md
