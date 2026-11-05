@@ -31,7 +31,18 @@ foreshadowing_updates:
 ending_state: "Day403 06:55旧十五箱实物未清运且品控/理赔未决，新四箱独立合法批次可供经营但旧流程全局修复未核；历史新申请仅收件待许可。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "1bca43925225cbe83cd2f605fe1a47527accd917", final_draft_sha: "72661641c9bc415a5e7ce3f51f3b4d4969d86013", initial_counts: "0/1/2", final_counts: "0/0/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "rebind_538_draft_sha_to_ready_after_identical_title_body_compare"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3291
 release_evidence:
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
+  ready_blob: "eee2f218db274c21c3ad3f8658717b16aad18084"
+  candidate_commit: "dc3cb2f348c79f5b8dc7ffab48899e8bdd5653bc"
+  validated_tree: "9a19178053167c2ff2bfaa3811d9d7a55769daef"
+  candidate_ci: 41994504034
+  candidate_ci_conclusion: success
+  main_ci: 41994568758
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  evidence_file: qa/0538_0539_release_evidence_20261105.md

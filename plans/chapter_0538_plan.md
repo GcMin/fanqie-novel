@@ -51,3 +51,5 @@
 - 独立Reader Pass A/B已按源 `2282564361e3cb2edf49108eece31845503ae9d7` 审核，最终0/0/2、keep/none，无正文或交付元数据修订；对应 `reader_reviews/0538_22825643.md`。
 - Continuity/Style/Meaningful QA PASS，真实有效字符3584，章号/标题和前537正式ready精确SHA对应；`qa/0538_report.md`。
 - Memory/计划按当前正文同步；只有含全部内容的精确候选Git commit通过真实publisher结构CI后才允许主线ready，候选未验前不得宣称已放行。
+
+- 正式结构证据：候选/main Commit `ddcd54a7e1d2036d2078dbef48564ccf7cab027b`，候选Actions 41993601925、main Actions 41993686810均SUCCESS；expected_sha/force:false安全更新main，详见`qa/0538_0539_release_evidence_20261105.md`。

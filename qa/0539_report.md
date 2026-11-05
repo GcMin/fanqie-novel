@@ -10,3 +10,6 @@
 - **Meaningful PASS**：15箱虽遭错误清运派车仍未交出、本单有源撤回；孙月另批四箱合法可售并承担现金成本；历史线新申请仅收件，边界有据，不伪造新旧档实证。
 - **Memory/Plan**：必须按本章事实更新摘要、人物/知识/关系/世界、timeline/F003、最新剧情弧及总计划；不删或覆任何现存ready计划。
 - **结构门槛**：这里只是独立内容QA PASS；须先由GitHub Actions对含全部ready/Reader/QA/Memory/计划、删除原draft的**精确候选Commit**实际完成结构单测和`python -m publisher.check_local --repo .`SUCCESS；没有则不得推进main或声称已ready。
+
+## 精确结构CI及正式ready补录
+- Stage A Commit `465d593b8bc80c16c80cd126c45a84f75b70dca1`后，新SHA独立Reader 0/0/2，正文0字改。候选与main同Commit `dc3cb2f348c79f5b8dc7ffab48899e8bdd5653bc`，候选Actions 41994504034和main Actions 41994568758均completed/**SUCCESS**，offline结构单测及`python -m publisher.check_local --repo .`双PASS。先候选成功后expected_sha、force:false安全更新main；ready Blob `eee2f218db274c21c3ad3f8658717b16aad18084`，原draft同Tree删除。详细`qa/0538_0539_release_evidence_20261105.md`。

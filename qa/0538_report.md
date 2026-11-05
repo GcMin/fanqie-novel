@@ -10,3 +10,6 @@
 - **Meaningful PASS**：理赔真实编号及责任人留痕更正，弟弟首次独立作出限售拒领，2019附件真实两侧交入。
 - **Memory/Plan**：需真实按当前正文逐项更新，不能覆盖既有ready计划行。
 - **结构门槛**：本报告是独立内容QA PASS，结构尚未验证；须精确候选Commit在GitHub CI或本地真实运行`python -m publisher.check_local --repo .`成功后，方能expected_sha/force:false推进main。未验时不可宣称ready。
+
+## 精确结构CI及正式ready补录
+- 候选与main同Commit `ddcd54a7e1d2036d2078dbef48564ccf7cab027b`，候选Actions 41993601925和main Actions 41993686810均completed/**SUCCESS**，offline结构单测及`python -m publisher.check_local --repo .`双PASS。先候选成功后expected_sha、force:false安全更新main；ready Blob `315aa2f0aa9cf2386abdd82511461856307204c0`，原draft同Tree删除。详细`qa/0538_0539_release_evidence_20261105.md`。

@@ -55,3 +55,5 @@
 - 原始SHA `1bca43925225cbe83cd2f605fe1a47527accd917` 初审0/1/2；Stage A仅修正前538原draft SHA→ready `315aa2f0aa9cf2386abdd82511461856307204c0`，两版本小说正文和标题逐字一致仅交付元数据不同；修订后539新SHA `72661641c9bc415a5e7ce3f51f3b4d4969d86013`，整章正文0字改。
 - 针对新SHA独立执行Pass A再Pass B，Reader 0/0/2 keep/none `reader_reviews/0539_72661641.md`；独立Continuity/Style/Meaningful QA PASS，3291有效字 `qa/0539_report.md`；Memory/计划逐项同步。
 - 仍须真实精确候选Git结构CI通过后，以expected_sha/force:false安全放行，CI未验前不得宣称已ready。
+
+- 正式结构证据：Stage A `465d593b8bc80c16c80cd126c45a84f75b70dca1`，候选/main Commit `dc3cb2f348c79f5b8dc7ffab48899e8bdd5653bc`，候选Actions 41994504034、main Actions 41994568758均SUCCESS；expected_sha/force:false安全更新main，详见`qa/0538_0539_release_evidence_20261105.md`。

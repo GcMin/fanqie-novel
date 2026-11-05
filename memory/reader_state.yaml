@@ -5773,3 +5773,26 @@ chapter_539_arc054_reader:
   predecessor_title_body: exactly_identical
   content_qa: pass
   structural_gate: pending_exact_candidate_ci
+
+release_538_539_exact_ci:
+  chapters: [538, 539]
+  chapter_538_source: "2282564361e3cb2edf49108eece31845503ae9d7"
+  chapter_538_reader_review: reader_reviews/0538_22825643.md
+  chapter_538_ready_blob: "315aa2f0aa9cf2386abdd82511461856307204c0"
+  chapter_538_candidate_commit: "ddcd54a7e1d2036d2078dbef48564ccf7cab027b"
+  chapter_538_candidate_ci: 41993601925
+  chapter_538_main_ci: 41993686810
+  chapter_539_original_source: "1bca43925225cbe83cd2f605fe1a47527accd917"
+  chapter_539_stage_a_commit: "465d593b8bc80c16c80cd126c45a84f75b70dca1"
+  chapter_539_source: "72661641c9bc415a5e7ce3f51f3b4d4969d86013"
+  chapter_539_reader_review: reader_reviews/0539_72661641.md
+  chapter_539_ready_blob: "eee2f218db274c21c3ad3f8658717b16aad18084"
+  chapter_539_candidate_commit: "dc3cb2f348c79f5b8dc7ffab48899e8bdd5653bc"
+  chapter_539_candidate_ci: 41994504034
+  chapter_539_main_ci: 41994568758
+  final_counts_both: "0/0/2"
+  conclusion: exact_candidate_and_main_ci_success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  evidence_file: qa/0538_0539_release_evidence_20261105.md

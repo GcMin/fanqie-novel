@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 539
-current_stage: content_qa_pass_structural_pending
+current_stage: chapter539_ready_released_exact_ci_success
 current_source_path: chapters/draft/0539.md
 current_source_sha: 72661641c9bc415a5e7ce3f51f3b4d4969d86013
 current_review_path: reader_reviews/0539_72661641.md
@@ -12,13 +12,13 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter539_stage_a_new_sha_reader_qa_pass_pending_ci
+last_action: chapter539_ready_released_exact_ci_success
 last_action_date: "2026-11-05"
 last_error: null
 last_diff_summary: "Stage A 539 predecessor ready SHA rebind, 538 body identical, no body revision, Reader newSHA 0/0/2"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: false
+publish_gate_passed: true
 current_review_source_sha: 72661641c9bc415a5e7ce3f51f3b4d4969d86013
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
@@ -5148,3 +5148,21 @@ chapter_539_arc054_revision:
   safe_mode: false
   content_qa: pass
   structural_gate: pending_exact_candidate_ci
+
+release_538_539_exact_ci:
+  chapters: [538, 539]
+  chapter_538_ready_blob: "315aa2f0aa9cf2386abdd82511461856307204c0"
+  chapter_538_candidate_commit: "ddcd54a7e1d2036d2078dbef48564ccf7cab027b"
+  chapter_538_candidate_ci: 41993601925
+  chapter_538_main_ci: 41993686810
+  chapter_539_stage_a_commit: "465d593b8bc80c16c80cd126c45a84f75b70dca1"
+  chapter_539_final_source_sha: "72661641c9bc415a5e7ce3f51f3b4d4969d86013"
+  chapter_539_ready_blob: "eee2f218db274c21c3ad3f8658717b16aad18084"
+  chapter_539_candidate_commit: "dc3cb2f348c79f5b8dc7ffab48899e8bdd5653bc"
+  chapter_539_candidate_ci: 41994504034
+  chapter_539_main_ci: 41994568758
+  conclusion: exact_candidate_and_main_ci_success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  evidence_file: qa/0538_0539_release_evidence_20261105.md
