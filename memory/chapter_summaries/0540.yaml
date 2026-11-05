@@ -28,7 +28,16 @@ foreshadowing_updates:
 ending_state: "Day404 07:01原15箱未专业放行/赔款未知；新4箱中2箱实收、另2箱待售；2019同一附件内复核岗实领已证但审核核发寄达及历史个人获答未知。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "05afdb756a8e120600d71d9c65fda70c41ca155a", final_draft_sha: "05afdb756a8e120600d71d9c65fda70c41ca155a", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3144
 release_evidence:
-  structural_gate: pending_exact_candidate_ci
+  ready_blob: "578491fda40770f6ce21710e340f6661e8929507"
+  candidate_commit: "3c95d9518ddfe308a353c86a2478a55aeee604cd"
+  candidate_tree: "7f3a8d905c993fcdf5572528d2d78f790af5d0ce"
+  candidate_ci: 42008779782
+  main_ci: 42008860613
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  evidence_file: qa/0540_release_evidence_20261105.md
+  structural_gate: exact_candidate_and_main_ci_success

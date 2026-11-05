@@ -10,3 +10,7 @@
 - **Meaningful PASS**：两箱新货从询价到真签收并形成营业回款（扣运费后可用现金更少），原受限货保留；旧档同件附件新增真实内部复核岗签领证据但无办理终局。
 - **Memory/计划**：按通过后的真实现状更新540摘要、人物、知识、关系、世界、时间线、F003、chapter_plan.csv，所有原有ready行保留。
 - **结构放行门禁**：本报告仅为独立内容QA PASS。只有对含0539前驱与第540章ready、Reader、QA、Memory和计划且删除原draft的**精确候选Git commit**，获得可信Actions中真实结构单测和`python -m publisher.check_local --repo .` SUCCESS后，方可用expected_sha、force:false推进main；未验前不得宣称正式放行。
+
+## 精确候选CI及正式ready验证
+- 放行Commit `3c95d9518ddfe308a353c86a2478a55aeee604cd` / Tree `7f3a8d905c993fcdf5572528d2d78f790af5d0ce`；候选Actions 42008779782与同SHA main Actions 42008860613均**completed/success**，离线结构单测和`python -m publisher.check_local --repo .`双PASS。精确SHA先候选成功后`expected_sha`、`force:false`更新main成功。
+- Ready blob `578491fda40770f6ce21710e340f6661e8929507`，原draft同树删除；详细见`qa/0540_release_evidence_20261105.md`。

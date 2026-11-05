@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 540
-current_stage: chapter540_ready_candidate_pending_ci
+current_stage: chapter540_ready_released_exact_ci_success
 current_source_path: chapters/draft/0540.md
 current_source_sha: 05afdb756a8e120600d71d9c65fda70c41ca155a
 current_review_path: reader_reviews/0540_05afdb75.md
@@ -12,13 +12,13 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter540_qa_pass_pending_ci
+last_action: chapter540_ready_released_exact_ci_success
 last_action_date: "2026-11-05"
 last_error: null
 last_diff_summary: "540 no revision; Reader 0/0/2, exact predecessor ready SHA"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: false
+publish_gate_passed: true
 current_review_source_sha: 05afdb756a8e120600d71d9c65fda70c41ca155a
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
@@ -5180,4 +5180,16 @@ chapter_540_arc054_verified:
   body_revisions: 0
   retry_cycles: 0
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
+
+release_0540_exact_ci:
+  chapter: 540
+  ready_blob: "578491fda40770f6ce21710e340f6661e8929507"
+  candidate_commit: "3c95d9518ddfe308a353c86a2478a55aeee604cd"
+  candidate_ci: 42008779782
+  main_ci: 42008860613
+  conclusion: exact_candidate_and_main_ci_success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  evidence_file: qa/0540_release_evidence_20261105.md
