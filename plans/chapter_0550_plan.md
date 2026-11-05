@@ -7,10 +7,10 @@
 - phases: Planner / Continuity Precheck / Writer
 - status: draft
 - depends_on_chapter: 549
-- depends_on_source_sha: 11d8dac241ae8893e5111aebd7224d2f60005633
-- dependency_status: provisional
-- source_location: chapters/draft/0549.md
-- provisional_boundary: 第549章仍是未审草稿，仅据其精确Git Blob临时衔接Day413 07:09；母女第一家已付第二晚实住、原旅店Day413中午退房，另一家主楼双床仅预订未入住；四楼只已拆一段湿填料，Day413清晨含水复测仍属预约；2019同一内部事项已证当时暂缓核定待补来源对应说明，但其后是否恢复、核发寄达及历史本人获答仍未知。
+- depends_on_source_sha: 8bbd6a399d206c384195a2a8e179bf42c8912540
+- dependency_status: verified_ready_same_title_body_facts
+- source_location: chapters/ready/0549.md
+- verified_boundary: 已实核第549章原草稿与正式ready除Front Matter外标题正文完全一致，正式ready Git Blob直接衔接Day413 07:09；母女第一家已付第二晚实住、原旅店Day413中午退房，另一家主楼双床仅预订未入住；四楼只已拆一段湿填料，Day413清晨含水复测仍属预约；2019同一内部事项已证当时暂缓核定待补来源对应说明，但其后是否恢复、核发寄达及历史本人获答仍未知。
 - goal: 让母亲自主完成旧旅店真实退房、新旅店真实单日入住，分清旧押金申请退和银行到账；落实Day413实际专业复测但继续不复居；合法核2019暂缓之后是否真的向资料形成岗位发出补充对应说明请求。
 - POV: 第三人称有限，唐晓漫母亲主场，穿插马芸档案核验和夜间中心。
 - opening: Day413 08:52旧房卡尚未交回，母亲拒绝女儿为搬家临时请假，双方谈清行李与退房安排。
@@ -26,9 +26,10 @@
 - new_information: Day413专业三点复测一降两点未达干燥条件；母亲实际办理两家旅店离店与入住并完成行李实领交接；2019原办件岗在暂缓后真登记发出内部补充来源对应说明请求。
 - meaningful_state_change: 母女临住由第一家真实完成退房转第二家实际领卡入住，母亲实现独立手续和安全判断；旧史从仅暂缓记载推进到发出补充请求的原始岗位动作。
 - foreshadowing: F003仅补内部发出动作，不推出形成岗收件、回复、暂缓解除、对外核发寄达及历史自然人真获答；F008/M004/M005及2016封存与2022字节同一不升格。
-- cannot_reveal: 不得将549未审稿写为正式Canon；旧押金申请退不算到账；预订不等于入住；含水下降不等于电气可复验/复电复居；内部发出请求不等于真实补据或最终对外答复。
+- cannot_reveal: 只能以549最新正式ready事实为Canon，不得扩大内容；旧押金申请退不算到账；预订不等于入住；含水下降不等于电气可复验/复电复居；内部发出请求不等于真实补据或最终对外答复。
 - ending: Day414 07:06第一家离店和行李交接均已发生，第二家主楼双床有真实两人登记与房卡，旧押金未确认到账；街道咨询待核、专业限停不变，2019只新增内部请求发出证据。
 - target_chars: 2600—3400优选，2300—3800硬限
 - actual_effective_chars: 3112
 - count_method: 去Front Matter、独立***分场符及空白，正文标点保留，按Unicode码点计。
 - precheck: 本轮核main SHA、published/ready/draft数字最新549且153已位于published；读取四项规则、Bible、三人物卡、旧卷及实际current arc、人物知识关系世界状态、F003/F008与近期时间线、539—548十章摘要、545—549五章正文；旧outlines/arc_current.md和volume_05.md对当前六卷进度已陈旧，优先最近正式ready与现行Memory再用549草稿临时承接。未读取历史Reader Reviews；仅新建两个文件，不改现有章节或长期状态。
+- audit_rebind_20261106: 原549草稿 `11d8dac2...` 与正式ready `8bbd6a39...` 小说正文/标题完全一致，差异仅Front Matter交付状态；仅重绑550草稿及本纲前驱SHA/状态，不改550小说正文，修改后按新550 Blob重做独立Reader双遍审核。
