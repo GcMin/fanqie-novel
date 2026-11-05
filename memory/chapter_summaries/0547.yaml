@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 547
+title: "屋里还不能住，母亲先签了物品清单"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "cf0d22a220396ce812b32e0756551f922b27191c"
+reader_review: reader_reviews/0547_cf0d22a2.md
+depends_on_chapter: 546
+depends_on_source_sha: "1836ff00bbc4588e6a509155d14089829a345c74"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day410 08:26—Day411 07:04"
+summary: >-
+  Day410唐晓漫因公司积压排班表不得不去工作，母亲自行携预约赴仁合里四楼有责说明会，在公共安全区听专业人员确认灯位夹层仍潮、五楼西户供水分支和四楼受水电路仍限停。她拒签通用表中尚未发生的完工移交，只按获准范围签桌子、针线铁盒、旧挂历三物逐项拍照记录与安全搬移清单，核旧裂纹和件数，拿到当次副本与挂历封袋；11:24专业复核仍不具备复电/复居条件，只能作干燥准备，母女仍住姨妈家。姨妈可再留一晚，后续亲属住处受限，唐晓漫须查合规临住政策及费用渠道而不得先判定曾先生等人赔偿。马芸09:07申请限核2019同一附件原办件接收后的内部核对事项，10:19正式收件、14:43准阅，双原始簿排除错月同尾号及迁入后「资料齐备」标签，真实确认另立「补据来源对应待核」内部事项，16:27获有权限项去身份摘录；没有后续补齐、审核意见、核发寄达或历史自然人得答证据。夜间中心20:15核专业分项回报、22:03获历史有源回告，Day411 07:04按边界交班；最后挂历旧搬家日程由母亲决定不再照抄，实际新返家时间未知。
+meaningful_state_changes:
+  - "三件旧物依法留影、清点、搬移并有双方清单，母亲限定授权边界，不预签完工验收；四楼未复电、未准返住。"
+  - "母女仍住姨妈家但亲属临时借住将到限制日，需要另查暂住支持与费用渠道，赔偿责任未定。"
+  - "2019同一附件实收后确实另立「补据来源对应待核」事项，有原始簿证；其完成/核发/寄达/旧人真获答仍未知。"
+knowledge_updates:
+  - "唐晓漫母女知道可有限搬移而不可据此复居，母亲本人持物品清单及预约信息；临住费用办理条件、赔责未知。"
+  - "马芸和夜间中心知道2019业务原岗接收后另立补据来源对应待核项目，未见其核对结论、发文寄达或历史个人实答。"
+relationship_updates:
+  - "母亲独立核自身物品且不再接受女儿代签；唐晓漫接受其决定，姨妈临住帮助有期限压力。"
+foreshadowing_updates:
+  - "F003仅推进同一附件另立有原始证据的内部待核事项，不推核发或旧自然人收答；F008/M004/M005和2016/2022同一不升级。"
+ending_state: "Day411 07:04四楼有限搬移/干燥准备已实际完成，受水电路与五楼西分支仍隔离，母女仍临住且费用渠道待问；2019后续待核确立但结果及历史人获答未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "cf0d22a220396ce812b32e0756551f922b27191c", final_draft_sha: "cf0d22a220396ce812b32e0756551f922b27191c", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci_before_main}
+char_count: 3234

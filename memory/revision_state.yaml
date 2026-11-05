@@ -1,18 +1,18 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 546
-current_stage: chapter546_reader_qa_pass_exact_candidate_ci_pending
-current_source_path: chapters/draft/0546.md
-current_source_sha: f4f3e7b42b5f0fa50bbce3e881d412c8c6337d12
-current_review_path: reader_reviews/0546_f4f3e7b4.md
+current_chapter: 547
+current_stage: chapter547_reader_qa_pass_exact_candidate_ci_pending
+current_source_path: chapters/draft/0547.md
+current_source_sha: cf0d22a220396ce812b32e0756551f922b27191c
+current_review_path: reader_reviews/0547_cf0d22a2.md
 rounds:
   reviews_this_cycle: 1
-  local_revision_used: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter546_stageA_predecessor_metadata_rebind_and_new_sha_review
+last_action: chapter547_independent_review_qa_pass_no_revision
 last_action_date: "2026-11-05"
 last_error: null
 last_diff_summary: "546 only metadata and detailed plan rebind after 545 prior draft and ready prose/title identical; no body revision"
@@ -5309,6 +5309,18 @@ combined_audit_chapter_546_20261105:
   fix: "metadata_and_plan_predecessor_ready_sha_rebind_after_identical_545_title_and_prose"
   initial_review: "reader_reviews/0546_03d03ded.md"
   final_review: "reader_reviews/0546_f4f3e7b4.md"
+  reader_gate: pass
+  content_qa: pass
+  structural_gate: exact_candidate_CI_pending_before_main
+
+combined_audit_chapter_547_20261106:
+  original_sha: "cf0d22a220396ce812b32e0756551f922b27191c"
+  final_draft_sha: "cf0d22a220396ce812b32e0756551f922b27191c"
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  final_review: "reader_reviews/0547_cf0d22a2.md"
   reader_gate: pass
   content_qa: pass
   structural_gate: exact_candidate_CI_pending_before_main

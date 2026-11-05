@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 546
-last_reviewed_title: "回执上写着恢复，灯下的夹层还是湿的"
-last_source_path: chapters/draft/0546.md
-last_source_sha: f4f3e7b42b5f0fa50bbce3e881d412c8c6337d12
-last_review_path: reader_reviews/0546_f4f3e7b4.md
-last_reviewed_at: "2026-11-05"
+last_reviewed_chapter: 547
+last_reviewed_title: "屋里还不能住，母亲先签了物品清单"
+last_source_path: chapters/draft/0547.md
+last_source_sha: cf0d22a220396ce812b32e0756551f922b27191c
+last_review_path: reader_reviews/0547_cf0d22a2.md
+last_reviewed_at: "2026-11-06"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
 required_action: none
@@ -12,7 +12,7 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 545
+depends_on_chapter: 546
 depends_on_source_sha: ffe05ae656dae3213fae47c6c220f5c8bd021527
 dependency_status: verified_ready_same_title_body_facts
 predecessor_current_source_sha: ffe05ae656dae3213fae47c6c220f5c8bd021527
@@ -5965,4 +5965,18 @@ combined_audit_chapter_546_20261105:
   content_qa: pass
   predecessor_ready_sha: "ffe05ae656dae3213fae47c6c220f5c8bd021527"
   predecessor_verified_title_body_identical: true
+  structural_gate: requires_exact_candidate_ci_success_before_main
+
+combined_audit_chapter_547_20261106:
+  chapter: 547
+  source_sha: "cf0d22a220396ce812b32e0756551f922b27191c"
+  review_path: "reader_reviews/0547_cf0d22a2.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  recommendation: keep
+  required_action: none
+  content_qa: pass
+  predecessor_ready_sha: "1836ff00bbc4588e6a509155d14089829a345c74"
   structural_gate: requires_exact_candidate_ci_success_before_main

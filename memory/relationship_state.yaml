@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 546
+last_updated_chapter: 547
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2636,3 +2636,11 @@ chapter_546_arc054_verified:
   ma_yun_colleague: "同事从问交出总得有人收转到接受仅写接收岗实际收附件、不代历史自然人签答。"
   trust_scores_unchanged: true
 
+chapter_547_arc054_verified:
+  chapter: 547
+  source_sha: "cf0d22a220396ce812b32e0756551f922b27191c"
+  tang_xiaoman_mother: "母亲不再只是听女儿转述，独自向物业核三件旧物现状并限定签字范围；女儿认可清单与其自主决定；母亲不愿提前签返住或由女儿代答。"
+  aunt_family: "姨妈继续为母女提供一晚临时住处，但此后家有外孙来访，催生真实的续住及费用途径需求而非必然已经找到住处。"
+  property_owner: "母女要求按实证划分干燥、电气和旧物移交，未要求曾先生预认赔；产权人与施工有权签署仍另走程序。"
+  ma_yun_colleague: "马芸纠正同事用内部交接或归档齐备标签替历史当事人签收，且只记录原始簿真正另立待核事项。"
+  trust_scores_unchanged: true
