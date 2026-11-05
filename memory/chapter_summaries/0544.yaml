@@ -31,7 +31,17 @@ foreshadowing_updates:
 ending_state: "Day408 07:04五楼西分支及四楼受水电路仍隔离，母女已在姨妈家，曾先生姐姐只在找钥匙，真正漏点、责任、房屋复居待有责检查；历史旧号只是预约，实际交接未知。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "b34bebe9fc99d8169b046139851ec2e6ff510063", final_draft_sha: "3153431d71dcc5277673755601a37b58cef8dd7e", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "metadata_and_plan_only_predecessor_sha_rebind_after_identical_prose_and_title"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3429
 release_evidence:
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
+  ready_blob: "75c91f6f6a06994fe1db5ab5d8e46d5c50c4d442"
+  candidate_commit: "4bbfc4745458aa18732bd6dd0bc91dda20028b34"
+  candidate_ci: 42035218249
+  main_ci: 42035389369
+  candidate_ci_conclusion: success
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  evidence_file: qa/0543_0544_release_evidence_20261105.md
