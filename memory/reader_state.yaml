@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 530
-last_reviewed_title: "两个八号门牌，只有一件东西抵达"
-last_source_path: chapters/draft/0530.md
-last_source_sha: 81877fb04bfe4ebcd3eb890c14d3ccfe90e66934
-last_review_path: reader_reviews/0530_81877fb0.md
+last_reviewed_chapter: 531
+last_reviewed_title: "一张清单有人接手，旧磁带传出了人声"
+last_source_path: chapters/draft/0531.md
+last_source_sha: 76a269616b4fa61194304ddb27aa252cece7b1ac
+last_review_path: reader_reviews/0531_76a26961.md
 last_reviewed_at: "2026-11-05"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 529
-depends_on_source_sha: 6f51154625c57fa38578c8e3ef7b4e98a05102d9
-dependency_status: verified_ready_same_title_body_facts
-predecessor_current_source_sha: 32798251259048f8c4b6c9eb2c9aae09d9bb962e
+depends_on_chapter: 530
+depends_on_source_sha: 5e5b69e993a9914343f0af7c8ea271c242ed5ebe
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 5e5b69e993a9914343f0af7c8ea271c242ed5ebe
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -5567,3 +5567,16 @@ release_529_530_exact_ci_evidence:
   publisher_check_local: pass
   main_update: expected_sha_force_false_success
   evidence_file: qa/0529_0530_release_evidence_20261105.md
+
+chapter_531_arc054_reader_gate:
+  chapter: 531
+  source_sha: "76a269616b4fa61194304ddb27aa252cece7b1ac"
+  review: "reader_reviews/0531_76a26961.md"
+  counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  predecessor_ready_blob: "5e5b69e993a9914343f0af7c8ea271c242ed5ebe"
+  predecessor_factual_delta: exact_ready_blob_no_delta
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 530
+last_updated_chapter: 531
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2497,4 +2497,12 @@ chapter_530_arc054_verified:
   ma_yun_and_colleague: "同事觉得继续补据岗交接不如直接写已答复，马芸把业务岗有无真正实领及历史收信人答复空栏保留，拒越权推定。"
   lin_xiuzhi_delivery: "老人坚持槐石里8号是旧院原有效住址，配送负责人承认平台错改并按职责实际撤回原误代收，22:19本人真收而未拆箱试听，双方留下可复核的错映和真签收记录。"
   center_team: "梁策不越权从商务楼柜拿箱，夏宁分三方回告与系统误映，周衡只记两个真门牌；主要人物互信分值没有无依据变化。"
+  trust_scores_unchanged: true
+
+chapter_531_arc054_verified:
+  chapter: 531
+  source_sha: "76a269616b4fa61194304ddb27aa252cece7b1ac"
+  ma_yun_and_colleague: "同事希望把清单已回转直接写补核已办理，马芸凭新双端原始账册仅确认业务办件岗真接手，不能推结案或历史人实答。"
+  lin_xiuzhi_and_daughter: "母女在确认旧机和旧磁带情况、咨询修理铺后谨慎试听，只听到外婆提醒挪葱的一小段就收起；真实分享旧生活回忆。"
+  delivery_and_center: "配送站有责岗位先核错误再正式出本人可阅单件补正，中心不代维修商判保修或配送方宣布全局规则修复。"
   trust_scores_unchanged: true
