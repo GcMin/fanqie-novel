@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 534
-current_stage: ready_committed_after_exact_ci_success
-current_source_path: chapters/draft/0534.md
-current_source_sha: 1b859e0f89226633c5d567d874dd109f31c6d6f1
-current_review_path: reader_reviews/0534_1b859e0f.md
+current_chapter: 535
+current_stage: content_qa_pass_pending_exact_candidate_ci
+current_source_path: chapters/draft/0535.md
+current_source_sha: e732483ef9adc3de358f5b883f8098a9658a1e5b
+current_review_path: reader_reviews/0535_e732483e.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter534_ready_committed_after_exact_candidate_and_main_ci_success
+last_action: chapter535_no_revision_required_content_qa_pass
 last_action_date: "2026-11-05"
 last_error: null
-last_diff_summary: "534原0/2/2唯一StageA依赖及已签交接修正，新SHA再双遍0/0/2，内容QA及候选/main结构CI全部PASS，正式ready"
+last_diff_summary: "Reader535 0/0/2, body unchanged, content QA pass, candidate CI pending"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 1b859e0f89226633c5d567d874dd109f31c6d6f1
+current_review_source_sha: e732483ef9adc3de358f5b883f8098a9658a1e5b
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -5045,3 +5045,13 @@ release_533_534_exact_ci_evidence:
   publisher_check_local: pass
   main_update: expected_sha_force_false_success
   evidence_file: qa/0533_0534_release_evidence_20261105.md
+
+chapter_535_revision_audit:
+  chapter: 535
+  source_sha: "e732483ef9adc3de358f5b883f8098a9658a1e5b"
+  review: reader_reviews/0535_e732483e.md
+  final_counts: "0/0/2"
+  local_revision_used: 0
+  retry_cycles: 0
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci

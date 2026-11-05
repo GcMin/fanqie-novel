@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 535
+title: "船拖回了泊位，名字还留在撤班单上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "e732483ef9adc3de358f5b883f8098a9658a1e5b"
+reader_review: reader_reviews/0535_e732483e.md
+depends_on_chapter: 534
+depends_on_source_sha: "961c7b0fd45ca93881dd237cf653ddccea2b3863"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day398 09:34—Day399 07:09（早餐为Day398）"
+summary: >-
+  Day398马芸09:34申请仅核2019同一退审内部回转提示拟稿之后是否形成原岗补据续办索引，14:11合法去身份限准15:27双原始记录证原业务办件岗确立关联续办索引；尚无新稿形成、核发外送或历史自然人受答证据。原失动力工作艇经专业水上调度，20:24隔离泊位清通道联动20:57现场有责复核21:46实际拖回隔离泊位系泊23:07专业与码头双端交接留档；原艇仍停派待检未修复，不代表适航复航或生产映射全局修复。昨夜两新班确实到岗未登艇，22:28主管签收考勤分类核查材料但工资待有责处理。Day399 07:09交班；汪嵘向家人解释人回来了船已回港仍不能开。F003仅索引有限进展，F008/M004/M005及2016/2022跨源同一无新证。
+meaningful_state_changes:
+  - "2019同一退稿后原岗有原始关联的补据续办索引，后续新稿/核发/历史个人答复不证。"
+  - "失动力原艇从江上待拖推进到专业实际拖回指定隔离泊位，仍停派待检。"
+  - "两名确实到岗撤班员工的考勤核查有有责主管编号签收，工资待核。"
+knowledge_updates:
+  - "马芸夜班仅知去身份许可下双原记录对应的续办索引，不知私人地址/后续新稿/收答。"
+  - "汪嵘家人知道船已回港但不得派班；小许有考勤正式受理凭证未有工资结论。"
+relationship_updates:
+  - "郑曼追问生活工资但不要求冒险或虚签；刘树成陪小许留下真实到岗记录；马芸要求同事不凭退稿推后来未办。"
+foreshadowing_updates:
+  - "F003追加同退审稿原岗续办索引有原始关联，F008/M004/M005及2016/2022同一不新证。"
+ending_state: "Day399 07:09原艇已专业隔离系泊仍待检，撤班工时申请有责受理未结；2019续办索引实有新文书和历史本人受答仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "e732483ef9adc3de358f5b883f8098a9658a1e5b", final_draft_sha: "e732483ef9adc3de358f5b883f8098a9658a1e5b", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3446

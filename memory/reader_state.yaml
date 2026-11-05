@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 534
-last_reviewed_title: "退回的那一页，码头又亮起出航灯"
-last_source_path: chapters/draft/0534.md
-last_source_sha: 1b859e0f89226633c5d567d874dd109f31c6d6f1
-last_review_path: reader_reviews/0534_1b859e0f.md
+last_reviewed_chapter: 535
+last_reviewed_title: "船拖回了泊位，名字还留在撤班单上"
+last_source_path: chapters/draft/0535.md
+last_source_sha: e732483ef9adc3de358f5b883f8098a9658a1e5b
+last_review_path: reader_reviews/0535_e732483e.md
 last_reviewed_at: "2026-11-05"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 533
-depends_on_source_sha: 1ba6a457ecb0d9d25dd69dc31281cf322c9f6d84
+depends_on_chapter: 534
+depends_on_source_sha: 961c7b0fd45ca93881dd237cf653ddccea2b3863
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 1ba6a457ecb0d9d25dd69dc31281cf322c9f6d84
+predecessor_current_source_sha: 961c7b0fd45ca93881dd237cf653ddccea2b3863
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -5663,3 +5663,14 @@ release_533_534_exact_ci_evidence:
   publisher_check_local: pass
   main_update: expected_sha_force_false_success
   evidence_file: qa/0533_0534_release_evidence_20261105.md
+
+chapter_535_reader:
+  chapter: 535
+  source_sha: "e732483ef9adc3de358f5b883f8098a9658a1e5b"
+  review: reader_reviews/0535_e732483e.md
+  counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  predecessor_ready_sha: "961c7b0fd45ca93881dd237cf653ddccea2b3863"
+  content_qa: pass
+  structural: pending_exact_candidate_ci
