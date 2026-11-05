@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 536
+title: "冷库显示零下十八度，门口却滴着水"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "aa21671bbfbd9646fd1951cb5b24481c190799c6"
+reader_review: reader_reviews/0536_aa21671b.md
+depends_on_chapter: 535
+depends_on_source_sha: "bf79b3133f2766edc5d00281506c71937e7023cf"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day399 09:16—Day400 07:11（冷库开场为Day399夜间）"
+summary: >-
+  Day399马芸09:16申请仅核2019同笔退审稿补据续办索引下是否形成工作文书及阶段，10:02收件13:47合法限准15:22双原始登记证《补据项目核对工作页》独立编页真正形成且待内部复核，16:07获去身份摘录；补据是否完成、核发、历史个人获答均未证。西栈街共享冷库屏幕停在零下十八度、冷风机不响渗水，真实最后有效采样18:17；中心20:12受理、20:43有责人员独立实测通道近0度且供电回路异常，故障根因未定。十五箱中十二箱封口完整按有责冷链22:27装车23:09目的仓真实接收待核，三箱另隔离不作可销售交接；23:21孙月获得源记录和去向、接手凭据，赔偿和品控仍待专业处理。Day400 07:11交班原库正式停用。F003有界推进，F008/M004/M005及2016/2022同一不新证。
+meaningful_state_changes:
+  - "2019原同笔退审稿续办索引下另有独立编页工作页真实形成，阶段待内部复核，尚不证外发与历史自然人答复。"
+  - "共享冷库旧温度显示与真实采样终止区别核实，专业停用待修。"
+  - "十二箱实际到下一有责冷库、三箱原市场隔离，食品可售及赔偿均未核结。"
+knowledge_updates:
+  - "马芸仅知合法去身份形成/阶段，未见文书正文、历史人址、核发或真实收答。"
+  - "孙月掌握十五箱实际去向，但十二箱到仓不等于可售，三箱待隔离评估。"
+relationship_updates:
+  - "孙月拦弟弟擅进库，拒依买主承担风险直接出货；市场人员交付可复核双端记录。"
+  - "马芸要求同事撤无据多年悬案已办理表述，夜班中心按岗位分源。"
+foreshadowing_updates:
+  - "F003新增工作页形成待内部复核，F008/M004/M005和2016/2022同一未新证。"
+ending_state: "Day400 07:11原库停用，12箱真到有责仓待核、3箱隔离，设备根因和赔偿未结；旧工作页待内部复核，历史人收答未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "aa21671bbfbd9646fd1951cb5b24481c190799c6", final_draft_sha: "aa21671bbfbd9646fd1951cb5b24481c190799c6", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3336
+release_evidence:
+  structural_gate: pending_exact_candidate_ci
