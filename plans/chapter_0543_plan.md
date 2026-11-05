@@ -5,7 +5,7 @@
 - arc: ARC-054《回拨接收点》
 - author_role: Writer
 - phase: Planner / Continuity Precheck / Writer
-- status: draft
+- status: ready
 - depends_on_chapter: 542
 - depends_on_source_sha: 57d0461ea1f655fbef6f69f8c69e675df877ea6f
 - dependency_status: verified_exact_ready_blob
@@ -31,3 +31,10 @@
 - target_chars: 2600–3400 preferred; hard 2300–3800
 - actual_effective_chars: 3732
 - precheck: Day405 07:11交班之后Day406白天复核、当晚20:00起夜班至Day407 07:06；婚鞋第542章只真转给他师傅，本章才由他师傅真交客户；昨天店主本人已接抢险限项回拨，本章为新的错误系统回拨不可混同；无Reader/Revision/QA/Memory/Publish。
+
+- audit_reader: reader_reviews/0543_69c96238.md
+- audit_qa: qa/0543_report.md
+- audit_reader_counts: BLOCKER=0 MAJOR=0 MINOR=2
+- audit_qa_result: Continuity_PASS Style_PASS Meaningful_PASS
+- audit_structural_gate: pending_exact_candidate_ci
+- audit_body_revisions: 0
