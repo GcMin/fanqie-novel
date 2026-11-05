@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 553
+last_updated_chapter: 554
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2689,4 +2689,11 @@ chapter_553_arc054_verified:
   mother_daughter: "母亲参加现场协调并拒以返住压力替邻居表示无异议，女儿正常到岗且就次夜预算继续与母亲共议，不代作决定。"
   mother_neighbor: "母亲认可吴叔孩子睡眠受影响的事实，吴叔愿接收具体运行告知但正式反馈噪声影响、不签无异议，争执转入可核时段和有责降噪复看。"
   ma_yun_colleague: "纠正同事把2019单柜位未见误写作全原件失踪，保留具体柜位与转请建议的证据边界。"
+  trust_scores_unchanged: true
+
+chapter_554_arc054_verified:
+  chapter: 554
+  mother_daughter: "母亲独立自费再续一晚和核专业真实后果，女儿尊重她拒签未施工完工栏并完成公司交接。"
+  mother_property: "母亲拒物业通用完工表，主管实际重新分列检查与后续换线及真回拨待采购许可。"
+  ma_yun_colleague: "删除同事未经授权推的第二位置查无，改只保旧岗真实签发转查单。"
   trust_scores_unchanged: true

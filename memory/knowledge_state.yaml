@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 553
+last_updated_chapter: 554
 characters:
   zhou_heng:
     knows:
@@ -3013,3 +3013,10 @@ chapter_553_arc054_verified:
   neighbor_property: "吴叔实际收到补告知并提出噪声反馈未放弃异议；物业有责岗位知道许可时段20:03实停与次日复测先核条件。"
   permissions: "施工电源经电工许可不代表四楼原受水回路可合闸；中心仅登记有源回告，档案查阅不得越非身份旧柜位核位范围。"
   invariants: "F003一处未见不等于全部遗失；F008/M004/M005及2016/2022跨源同一无新证。"
+
+chapter_554_arc054_verified:
+  chapter: 554
+  tang_family: "Day417知道受水连接段断电限查不合电气恢复要求仅建议更换而未施作、第三旅店真续一晚到Day418午，救助赔责均待核。"
+  ma_yun_center: "2019转查单由原核位岗真正签发交出，另一岗位是否真收与第二编目位置是否实查找到来源页、历史个人是否获答未知。"
+  permissions: "检查记录实收不等于施工完工、断电测量不等于复电复居许可；档案许可仅限旧岗转出。"
+  invariants: "F008/M004/M005及2016/2022跨源同一无新证。"
