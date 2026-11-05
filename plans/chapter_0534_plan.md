@@ -7,18 +7,18 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "9abb1693085eb958ce79ab05a07cfb7ef9a640e8"
 - depends_on_chapter: 533
-- depends_on_source_sha: "6df68c6e669b608c7a7347687ec6311b2741b3cf"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0533.md
+- depends_on_source_sha: "1ba6a457ecb0d9d25dd69dc31281cf322c9f6d84"
+- dependency_status: verified_ready_same_title_body_facts
+- predecessor_location: chapters/ready/0533.md
 - continuity_precheck: writer_precheck_only_not_qa
 - timeframe: "Day397 09:19—Day398 07:06（开场先呈现Day397早餐）"
 - pov: 第三人称有限（汪嵘、马芸、夏宁、周衡、刘树成）
 - target_effective_chars: 3000
-- actual_effective_chars: 3576
+- actual_effective_chars: 3578
 - status: draft_pending_independent_audit
 
 ## 本章目标、开场及人物诉求
-- 承接上一章第533章（未独立审查draft，严格绑定来源Blob，不能作Canon）：专业救援已将汪嵘等两人实际带回岸，失动力原工作艇仍未证实拖回或适航；2019原第73页关联同笔内部回转提示拟稿仅证形成且阶段待核发，不证已发或历史人获答。
+- 承接上一章第533章（已通过独立Reader和QA并正式ready，参考正式交付SHA）：专业救援已将汪嵘等两人实际带回岸，失动力原工作艇仍未证实拖回或适航；2019原第73页关联同笔内部回转提示拟稿仅证形成且阶段待核发，不证已发或历史人获答。
 - 马芸对同一旧稿另获权限，只查审核动作及阶段结果，不能扩大到个人信息、具体地址、后续新稿或历史自然人收答。
 - 新班领班刘树成要阻止系统把未归泊艇排进下一次巡检；汪嵘希望不替失动力船签虚假返泊，也不凭此自判劳动工时；郑曼与孩子要得到不掺假的到家与出航消息。
 - 周衡、夏宁、梁策只能协调有权单位，不能代专业水上调度、资产、救援、航标维护或劳动争议裁决作决定。
@@ -35,7 +35,7 @@
 - F003阶段新增旧回转提示拟稿同件审核实退回，补据不足导致本次不核发；不把“退回一份”偷换成“从此历史无人收到答复”。
 - 当代业务新增上一夜错误归泊自动流入下一班次的具体风险，刘树成主动据实体拦下，主管真实停派；汪嵘要求把人员安全与设备状态分开，纸证留存。
 - 2016旧封内件、2022系统执行文件字节同一仍未经证实；F008无新增独立具体失忆样本，M004/M005不得提前确认。新码头软件错误不能自动归因旧异常工单机制。
-- 前章第533章仍在draft，依赖完整Git Blob SHA 6df68c6e669b608c7a7347687ec6311b2741b3cf；后续独立Audit须对比前章最终状态，必要时修订本章，不提前批准。
+- 前章第533章已按真实CI正式ready；原draft 6df68c6e669b608c7a7347687ec6311b2741b3cf与正式ready 1ba6a457ecb0d9d25dd69dc31281cf322c9f6d84 标题正文事实相同仅Front Matter交付元数据不同，后章现仅以正式ready SHA依赖；本章仍待单独Reader/QA。
 
 ## Continuity Precheck（Writer内部，非审核）
 - 实读AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、硬Canon、主要人物卡、当前卷/弧资料、人物/关系/知识/世界长期状态、F003/F008与近日timeline、523—532摘要、529—533正文及533章纲，不读历史reader_reviews。现有current arc纲滞后，按已验证ready Canon及上一章provisional事实优先。
