@@ -10,3 +10,10 @@
 - **Meaningful Change PASS**：系统将共用物业座机门岗应答误写店主确认复业，本单21:12实际保留源证据后撤回错误认可；婚鞋由接手店真实交给顾客；2019同件新增一条内部拟回转准备登记，真实交出与历史真人收到答复未证。
 - **F003/主线边界**：只推进2019该附件准备登记，无实交、复核结论、正式核发或自然人获答的新证；F008、M004、M005及2016封袋、2022字节同一均不升级。
 - **QA结论**：Continuity=PASS；Style=PASS；Meaningful=PASS；Reader=PASS。长期Memory和Chapter Plan必须依据本章真实事实同步。**结构状态：pending exact candidate CI**，本报告不宣称已执行 `publisher.check_local`，精确CI未 SUCCESS 前不准更新正式 main 或宣称放行。
+
+## 正式精确候选与 main 结构检查成功记录
+- 先前独立QA“结构pending”是审核**发生时**的状态，现由本节真实后验CI覆盖。
+- 实际审计候选与正式放行Git Commit同SHA：`4bbfc4745458aa18732bd6dd0bc91dda20028b34`。
+- 候选Actions `42035218249` completed/**SUCCESS**，精确对应上述Commit；`Test offline snapshot validation` 与运行 `python -m publisher.check_local --repo .` 的 `Validate this checkout without Git sync or publishing` 两项均成功。
+- 以原main `5ee30e086c71ad3d42e982b8e6e6b140f6842eb9` 作 `expected_sha`，`force:false` 真正快进main成功；正式main同SHA Actions `42035389369` completed/**SUCCESS**。
+- 对应ready本章精确Blob：`da481e427a75fc060f82fc380829072f4a53a5bd`，原draft同树删除。详细证据见 `qa/0543_0544_release_evidence_20261105.md`。
