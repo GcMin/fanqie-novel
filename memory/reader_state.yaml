@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 536
-last_reviewed_title: "冷库显示零下十八度，门口却滴着水"
-last_source_path: chapters/draft/0536.md
-last_source_sha: aa21671bbfbd9646fd1951cb5b24481c190799c6
-last_review_path: reader_reviews/0536_aa21671b.md
+last_reviewed_chapter: 537
+last_reviewed_title: "十二箱都在，今晚一箱也不能卖"
+last_source_path: chapters/draft/0537.md
+last_source_sha: 21e567c7a03ff22f10700644857d1fd8be79f0c8
+last_review_path: reader_reviews/0537_21e567c7.md
 last_reviewed_at: "2026-11-05"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 535
-depends_on_source_sha: bf79b3133f2766edc5d00281506c71937e7023cf
+depends_on_chapter: 536
+depends_on_source_sha: af9253855006664f612b47a5f032f50cfec356a0
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: bf79b3133f2766edc5d00281506c71937e7023cf
+predecessor_current_source_sha: af9253855006664f612b47a5f032f50cfec356a0
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -5695,3 +5695,23 @@ chapter_536_reader:
   predecessor_ready_sha: "bf79b3133f2766edc5d00281506c71937e7023cf"
   content_qa: pass
   structural: pending_exact_candidate_ci
+
+chapter_537_initial_reader:
+  chapter: 537
+  source_sha: "1a718fa569db147c9b817fbfecec4a16128dc932"
+  review: reader_reviews/0537_1a718fa5.md
+  counts: "0/1/2"
+  action: local_revision_rebind_predecessor_ready_blob
+chapter_537_final_reader:
+  chapter: 537
+  source_sha: "21e567c7a03ff22f10700644857d1fd8be79f0c8"
+  review: reader_reviews/0537_21e567c7.md
+  counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  predecessor_original_draft_sha: "aa21671bbfbd9646fd1951cb5b24481c190799c6"
+  predecessor_ready_sha: "af9253855006664f612b47a5f032f50cfec356a0"
+  predecessor_factual_delta: none_title_body_identical
+  independent_pass_a_b_after_revision: true
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci
