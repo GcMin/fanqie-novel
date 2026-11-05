@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 544
+title: "空房的门锁着，水从楼下灯罩里落"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "b34bebe9fc99d8169b046139851ec2e6ff510063"
+source_draft_sha: "3153431d71dcc5277673755601a37b58cef8dd7e"
+initial_review: null
+reader_review: reader_reviews/0544_3153431d.md
+depends_on_chapter: 543
+depends_on_source_sha: "da481e427a75fc060f82fc380829072f4a53a5bd"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day407 09:00—Day408 07:04"
+summary: >-
+  Day407马芸纠正同事把2019同笔“待补对照、拟回转”准备登记误说已经送回原经办岗；14:42再获合法限项对照同年代原登记及号码簿，16:09获去身份摘录，证明该准备登记上的七位数仅为内部预约编号，真正交出另需独立交出编号及实收凭据，本次并未取得，也不能断定以后没有实交。20:23仁合里17号四楼唐晓漫看到灯罩滴水危及插排，母女实际撤离；物业20:28联动、中心20:37受转，20:46持证电工仅隔离四楼受水电路。五楼西户无人开门、水表缓转，水暖班核两阀对应后21:28依权限只关闭西户水分支、保留东户供水，限停后表流量止、四楼可见滴水渐缓，但漏点和责任不明。22:01外地业主曾先生答应后续提供次日合法入户方式，其姐姐尚未实到。22:37现场有准有限取出母亲带标签药盒，母女23:32本人确认到姨妈家，四楼居住与受水线路仍禁用。23:15现场有限复核，Day408 00:20分项回报、07:04交班。F008/M004/M005及2016旧封、2022字节同一无新证。
+meaningful_state_changes:
+  - "2019拟回转登记七位号获原编号簿确证仅是内部预约编号，不能替代实际交回的双端证据，也不能否认将来另有凭据。"
+  - "仁合里四楼受水电路有责隔离、五楼西户水分支限定停水，其他东户仍正常，漏点和损害赔责尚未证。"
+  - "唐晓漫母女从危险房间真实撤至姨妈家、有限获准取出母亲药盒；居住安全待有责查验而不能直接回家。"
+knowledge_updates:
+  - "马芸与中心仅知同一2019附件准备号为内部预约编号，不知真实交出或历史私人获答。"
+  - "唐晓漫及母亲、物业、业主均知分支关闭后滴水减弱却未知真实漏点与责任，入户途径尚待合法实际执行。"
+relationship_updates:
+  - "唐晓漫尊重母亲自主联系姨妈与服药决定，不冒险强行回家取药；姨妈真实接待母女临时住宿。"
+  - "五楼业主在外地担忧擅入，物业按授权联系次日钥匙，但不冒写已入户。"
+foreshadowing_updates:
+  - "F003只新增同附件拟回转七位号码属性；不证实交核发寄达历史真人获答，F008/M004/M005和2016/2022跨源同一不升级。"
+ending_state: "Day408 07:04五楼西分支及四楼受水电路仍隔离，母女已在姨妈家，曾先生姐姐只在找钥匙，真正漏点、责任、房屋复居待有责检查；历史旧号只是预约，实际交接未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "b34bebe9fc99d8169b046139851ec2e6ff510063", final_draft_sha: "3153431d71dcc5277673755601a37b58cef8dd7e", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "metadata_and_plan_only_predecessor_sha_rebind_after_identical_prose_and_title"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3429
+release_evidence:
+  structural_gate: pending_exact_candidate_ci
