@@ -7,15 +7,16 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "a672c7f205f9ef490b631f8a789b3fce20c9a3f1"
 - depends_on_chapter: 536
-- depends_on_source_sha: "aa21671bbfbd9646fd1951cb5b24481c190799c6"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0536.md
+- depends_on_source_sha: "af9253855006664f612b47a5f032f50cfec356a0"
+- dependency_status: verified_ready_same_title_body_facts
+- predecessor_location: chapters/ready/0536.md
 - continuity_precheck: writer_precheck_only_not_QA
 - timeframe: Day400 08:46—Day401 06:58
 - pov: 第三人称有限，孙月、马芸、夜班周衡夏宁；梁策配角
 - target_effective_chars: 3000
 - actual_effective_chars: 3366
 - status: draft_pending_independent_audit
+- audit_dependency_reconciliation: "536原draft与ready正文、标题逐字一致，仅Front Matter交付字段变化；Stage A仅重绑正式ready Blob；537正文未改。"
 
 ## 本章目标与开场
 承第536章：西栈街共享冷库Day399 18:17后采样中断，故障库停用；十二箱在Day399 22:27出车，23:09有责目的库实际接收，三箱原场隔离；转仓不等于品质可售，赔偿和原库维修未决。Day400早晨目的库发现第八箱外号晕染，数量吻合却单箱归属未确认。孙月面对三家买主要求明早交付，不能用入库总件数替代归属、安全评估。
