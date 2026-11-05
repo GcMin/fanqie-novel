@@ -7,9 +7,9 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "a672c7f205f9ef490b631f8a789b3fce20c9a3f1"
 - depends_on_chapter: 536
-- depends_on_source_sha: "aa21671bbfbd9646fd1951cb5b24481c190799c6"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0536.md
+- depends_on_source_sha: "af9253855006664f612b47a5f032f50cfec356a0"
+- dependency_status: verified_ready_same_title_body_facts
+- predecessor_location: chapters/ready/0536.md
 - continuity_precheck: writer_precheck_only_not_QA
 - timeframe: Day400 08:46—Day401 06:58
 - pov: 第三人称有限，孙月、马芸、夜班周衡夏宁；梁策配角
@@ -45,3 +45,7 @@
 
 ## 交付边界
 只新增plans/chapter_0537_plan.md与chapters/draft/0537.md；正文status:draft、qa:pending、approved_at:null、publish_mode:draft。不更改既有章节、Memory、QA或审稿状态，不发布番茄。
+
+## Audit Stage A｜2026-11-05
+- 对照第536章临时草稿与正式ready版本，标题及完整正文逐字一致；仅Front Matter交付状态、QA和批准日期变化，故事事实与结尾状态无差异。
+- 依赖第536章由临时draft SHA改绑正式ready Blob `af9253855006664f612b47a5f032f50cfec356a0`。第537章正文不修改。此阶段修订需基于新537 Git Blob SHA重新独立两遍Reader。
