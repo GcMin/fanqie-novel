@@ -1,3 +1,10 @@
+## 第543—544章独立内容QA与候选结构门禁｜2026-11-05
+
+- **第543章**源Draft `69c9623858fb13745fb71385a85ddf1517a8abbb`，前542正式ready Blob `57d0461ea1f655fbef6f69f8c69e675df877ea6f`精确匹配，独立Reader Pass A/B 0 BLOCKER/0 MAJOR/2 MINOR、正文零改、独立Continuity/Style/Meaningful QA均PASS，3732有效字，候选ready Blob `da481e427a75fc060f82fc380829072f4a53a5bd`。Day406门岗用物业共用座机只答门外未进水，系统误当店主19:54授权恢复使用，21:12有责本单撤错保源，电工涉水回路仍停；婚鞋由他店16:26真的交顾客；2019同件仅新增“待补对照、拟回转”内部准备登记，未证实交核发或历史受答。
+- **第544章**原稿 `b34bebe9fc99d8169b046139851ec2e6ff510063` 前驱引用543临时草稿，已比543原草稿与ready的**标题和小说全文一致**且仅Front Matter交付状态不同；Stage A只改544 Front Matter与详细计划依赖精确ready SHA，正文零改，修订新Draft Blob `3153431d71dcc5277673755601a37b58cef8dd7e` 独立重新Reader Pass A/B 0/0/2，独立内容QA三项PASS，3429有效字，候选ready Blob `75c91f6f6a06994fe1db5ab5d8e46d5c50c4d442`。Day407档案双簿证2019拟回转七位号仅为内部预约号非实交号；仁合里四楼灯罩漏水，四楼有责断受水电路、五楼西户精准关分支而东户不停水；23:32母女实际到姨妈家，管线真实漏点、责任、复居与明日合法开门待查。
+- F003仅有界推进“准备登记”和“内部预约号码属性”；2019实际交出/寄达/历史本人获答及F008、M004、M005、2016旧封、2022字节同一全未获得独立新证。指定137→148既有事实差异与本章无直接事实引用，不伪称重新逐章复核。
+- **注意：以上仅独立Reader及内容QA已通过**。候选 `audit/ready-0543-0544-20261105-2106` 的ready内容及Memory/plan均尚待**其精确Git Commit** GitHub Actions `publisher-check.yml`的实际结构单元测试和 `python -m publisher.check_local --repo .` SUCCESS。CI通过前不得快进正式main，不得汇报已正式放行。
+
 ## 第542章正式ready与精确结构CI双SUCCESS｜2026-11-05
 - 原542草稿608a937956327c9c0b2ac44dbef78f783bcde13c仅Stage A修改前驱SHA元数据与详细章纲，main修订Commit bff396176defc78e23f2e4268958f7061b320ec2，新Draft SHA 76365a133a0ab90b0d3771b94ad219a16a59dd38，对此新SHA Reader双遍0/0/2、内容QA三项PASS，正文未改3494有效字符；前541原草稿与ready正文及标题完全一致，前驱ready Blob 5ec081d270b63b650eb4260e502c3cd0e600e491。候选及正式main放行Commit 1cfa78a10b21f36066fe46fa6574cdbecfa9fe83，候选Actions42018318742与mainActions42018376516均completed/SUCCESS，真实offline单测与publisher.check_local通过，以expected_sha、force:false安全推进main；542正式ready Blob 57d0461ea1f655fbef6f69f8c69e675df877ea6f，草稿同树删除。Day405雨水由临时坡改道有界处置、鞋铺涉水电气继续封停、婚鞋真转他师傅；2019新后续申请仅收件未准阅、F008/M004/M005及2016/2022同一无新证。详情qa/0542_release_evidence_20261105.md。
 
