@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 544
+last_updated_chapter: 545
 characters:
   zhou_heng:
     knows:
@@ -2935,4 +2935,13 @@ chapter_544_arc054_verified:
   tang_family_property: "唐晓漫母亲、物业、业主各仅知五楼西户水表限项关阀前走动、后流量停止、四楼滴水减慢；未知漏点、责任和安全复居条件。母女已真抵亲属家，入户钥匙尚未实到。"
   permissions: "电气隔离须由有责电工确认；供水阀门先核对应后仅隔离西户；历史准阅不含具体个人及附件内容；不能未经授权开空屋。"
   invariants: "F003仅号码属性更新，F008/M004/M005与2016/2022同一无新证。"
+
+chapter_545_arc054_verified:
+  chapter: 545
+  source_sha: "d27230e9dde7b3b2a5f377857c4362317097558d"
+  tang_xiaoman_mother: "只知五楼一段洗衣机进水软管裂口独立检漏漏水；不知楼板完整渗水通道、全部损害、最终责任或四楼复居具体日期。"
+  zeng_family_property: "业主姐姐经真实授权带钥匙开五楼，业主同意有限拆检；故障部件已封存，西户分支未恢复，赔偿金额未确认。"
+  ma_yun_center: "2019同件复核岗单端有独立实际交出原始记录，仍不知原办件岗真正收件、后续核发寄达或历史真人得答。"
+  staff_permissions: "中心不代有责专业人员验收复电/复水，不替档案保管岗扩阅历史私人资料。"
+  invariants: "F008/M004/M005及2016旧封/2022原字节同一仍无证。"
 

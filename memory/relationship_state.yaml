@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 544
+last_updated_chapter: 545
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2618,5 +2618,13 @@ chapter_544_arc054_verified:
   tang_xiaoman_mother: "母亲拒被女儿单方安排，自己问姨妈有无住处且自己确认常用药标识；女儿放弃强闯屋内取药并接受有准专业安全提取，两人实达姨妈家。"
   property_zeng_sir: "五楼西户曾先生担心擅开锁和损害归责，物业只协商次日有权核身份、钥匙、人员安排，未承诺已入屋或由业主担责。"
   ma_yun_colleague: "同事原把拟回转旧备案表填已送回，马芸要求追回误写并用同期真实编号簿校正为内部预约号，不能代历史个人签收。"
+  trust_scores_unchanged: true
+
+chapter_545_arc054_verified:
+  chapter: 545
+  source_sha: "d27230e9dde7b3b2a5f377857c4362317097558d"
+  tang_xiaoman_mother: "母亲拒绝女儿把临时避险当永不返家的决定；女儿改为按获准路径取衣并安排复测，姨妈仍接纳母女。"
+  zeng_property_tang: "曾先生姐姐按业主授权配合有责入屋及取证；曾先生愿配合查验但不在电话中承认未定损失，唐晓漫也不要求其先答赔额。"
+  ma_yun_colleague: "同事配合三组全部完成旧错表撤回更正，马芸坚持把新查单端实交与原预约号分列。"
   trust_scores_unchanged: true
 

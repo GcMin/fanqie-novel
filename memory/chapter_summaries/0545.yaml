@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 545
+title: "五楼的门打开了，四楼的灯还不敢亮"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "d27230e9dde7b3b2a5f377857c4362317097558d"
+reader_review: reader_reviews/0545_d27230e9.md
+depends_on_chapter: 544
+depends_on_source_sha: "75c91f6f6a06994fe1db5ab5d8e46d5c50c4d442"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day408 08:47—Day409 07:06"
+summary: >-
+  Day408 08:47唐晓漫仍在姨妈家，获物业通知曾先生姐姐找到钥匙。10:36姐姐到五楼经核身份授权后合法开门；11:18有资质水暖班在业主视频同意的限定范围内发现洗衣机冷水进水软管靠近接头裂损并以独立容器低压检漏真实复现，保存旧管、现场照片及记录。不能由此直接判断楼板全部水路、责任或损失。12:48分开记录，五楼西户总供水支路继续限项关闭、四楼受水回路和吊顶未复检不能复电/复居；唐晓漫获准短时沿安全路径取干衣与充电器，母女继续在姨妈家。马芸09:20提出限查2019同一附件复核岗独立实交登记，10:12收件、15:40获批，双岗排除了预约应交清单与异月同尾号后，17:06合法去身份摘录证实同一附件在拟回转准备之后真实有一次复核岗向原办件流程交出的原始岗位记载，但接收端、核发寄达、历史自然人答复依然未知。旧错报已送回的三组均有源更正。20:21中心获分项回告，22:02接历史限项结论，Day409 07:06交班，母女仍不返住、两处专业复验与赔责待定；F008/M004/M005和2016/2022跨源同一无新证。
+meaningful_state_changes:
+  - "现实经合法入户和独立低压检漏实证五楼一处具体软管连接件裂损，损坏件留存，却不能直接推整个房屋可复居或业主承担赔偿。"
+  - "2019同一附件由预约准备推进到复核岗一端真实交出登记；原办件岗实际签收与最终历史自然人答复未证。"
+  - "唐晓漫有权沿安全路线短时取回干衣与充电器，母女仍临居姨妈家并安排后续受水回路复测。"
+knowledge_updates:
+  - "唐晓漫、物业、曾先生知道经独立检漏可复现具体连接软管漏点，均不得以此认定完整责任、楼板水路径或复居许可。"
+  - "马芸和中心知2019复核岗确有原始单端交出；原办件岗是否实际接收、之后复核核发寄达、历史个人是否真正获答均未知。"
+relationship_updates:
+  - "母亲与女儿对何时取衣和回家的商量更平等，母亲拒绝被永久排除在自身决定外；姨妈继续真实提供暂住。"
+  - "业主曾先生及姐姐配合有权拆检、封存旧管，对责任赔偿仍保持独立待核。"
+foreshadowing_updates:
+  - "F003新增2019同一附件独立实交的单端原始岗位记载，不自动升级原办件岗签收、正式核发寄达或历史个人获答；F008/M004/M005及2016/2022同一无新证。"
+ending_state: "Day409 07:06五楼可疑洗衣机接头确证漏但西分支持续限停，四楼受水回路隔离、吊顶和绝缘未复测，母女仍住姨妈家；2019复核岗一端实交已证但另一端接收及历史个人真获答未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d27230e9dde7b3b2a5f377857c4362317097558d", final_draft_sha: "d27230e9dde7b3b2a5f377857c4362317097558d", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci_before_main}
+char_count: 3448
