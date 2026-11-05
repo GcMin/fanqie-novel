@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 531
+last_updated_chapter: 532
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2505,4 +2505,12 @@ chapter_531_arc054_verified:
   ma_yun_and_colleague: "同事希望把清单已回转直接写补核已办理，马芸凭新双端原始账册仅确认业务办件岗真接手，不能推结案或历史人实答。"
   lin_xiuzhi_and_daughter: "母女在确认旧机和旧磁带情况、咨询修理铺后谨慎试听，只听到外婆提醒挪葱的一小段就收起；真实分享旧生活回忆。"
   delivery_and_center: "配送站有责岗位先核错误再正式出本人可阅单件补正，中心不代维修商判保修或配送方宣布全局规则修复。"
+  trust_scores_unchanged: true
+
+chapter_532_arc054_verified:
+  chapter: 532
+  source_sha: "b1254d79c4d10c29b7cd16aa80e6a4f60bfbfdd6"
+  ma_yun_and_colleague: "同事欲顺便查询旧信收件人及从内部已登记猜已办理，马芸依本次权限只证内初点、拒填未见的后续。"
+  xu_guizhi_and_site_team: "徐桂枝指出系统假退班时本人仍在现场且油污未交接；保安组长承认只巡南门主通道，另一名有责保洁人真签接湿滑点位，项目主管源查错映并正式纠正，徐保留通知、离场纸据追工时。"
+  center_team: "夏宁周衡梁策仍按来源与权责分开人身、点位及工资，主要人物信任分值无无据变更。"
   trust_scores_unchanged: true

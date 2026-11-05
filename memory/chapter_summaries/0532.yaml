@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 532
+title: "名单上她提前离场，围栏里还亮着一盏灯"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "b1254d79c4d10c29b7cd16aa80e6a4f60bfbfdd6"
+reader_review: "reader_reviews/0532_b1254d79.md"
+depends_on_chapter: 531
+depends_on_source_sha: "84827471239f4061f174daa6c608bbb0ab628c21"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day395 09:26—Day396 07:06（开场先呈现Day395 20:47）"
+summary: >-
+  Day395马芸另合法申请核2019原73页同一指定补据清单在原业务办件岗真接之后是否形成内部初点，10:08收件、13:52限准、15:14双保管员原初点与阶段簿互证独立实有初点且“依据待补核”，16:03限摘；不证补齐、核址结案、旧信末端或历史自然人答复。当代南岑路夜市西区徐桂枝20:47仍在场扫尾却被小程序误写20:30本人提前退班且服务门已锁；20:53中心接报，21:07现场负责人停清场后设备进场，21:15正常服务门打开并由另一有责保洁人员实接湿滑点位，21:22本人纸簿实离，22:11项目主管查通知已阅错映本人申请退班并留源更正；工时工资及油污后续完工未核。Day396 07:06交班，F003有限推进，F008/M004/M005及2016/2022同一无新证。
+meaningful_state_changes:
+  - "2019清单业务办件岗形成真实内部初点，阶段仍依据待补核；后续实交与自然人获答未知。"
+  - "徐桂枝从假提前离场且人困围栏推进为本人安全实离、有责湿滑点位真交接、本人请退错误归类有源更正；工资工时待核。"
+knowledge_updates:
+  - "马芸与中心只合法知原始内部初点及阶段类别，不知具体身份地址、补据内容、历史末端。"
+  - "徐桂枝知道自己未申请退班，持实离与交接证明，主管有源纠正后台错映；劳动工时尚未裁决。"
+relationship_updates:
+  - "徐桂枝要求现场组长不能用名单代替核人，后者承认只巡南门主通道并办理实交接；马芸拒把初点写成办结。"
+foreshadowing_updates:
+  - "F003仅新增内部初点实有且依据待补核；F008/M004/M005及2016封内/2022原字节同一不新增。"
+ending_state: "Day396 07:06徐桂枝实离场、错请退归类有据更正但工时待核；2019补据清单有内部初点而旧信和历史真人收答空缺。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "b1254d79c4d10c29b7cd16aa80e6a4f60bfbfdd6", final_draft_sha: "b1254d79c4d10c29b7cd16aa80e6a4f60bfbfdd6", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: candidate_ci_pending}
+char_count: 3394
+release_evidence:
+  ready_blob: "76168b0bac6b05da5ccc9b743ed644b912e0ec18"
+  structural_gate: pending_exact_candidate_ci
