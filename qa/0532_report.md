@@ -8,4 +8,4 @@
 - **Style PASS**：纸清单、油污吸附垫、实际交接、热馒头具有叙事功能；人物台词区分。时段回切和主题重复仅MINOR，不触发修订。
 - **Meaningful Change PASS**：历史初点真实存在但待补核；徐桂枝真实离场、实际有责交接、单件错退班分类纠正。
 - **Memory与计划**：逐章把真实正文事实更新chapter_summary、人物/知识/关系/世界、timeline、F003、current_arc、reader/revision状态与计划532，历史ready计划行不动。
-- **结构校验状态**：内容QA PASS；候选提交实际`python -m publisher.check_local --repo .`和结构单元测试尚未核得SUCCESS，不得提前宣称已正式main/ready。
+- **结构校验状态：已真实PASS**。候选Git提交`b828a99a57f7534df1b217d46e00545c784dc6fd` 对应Actions `41953459310`（head_sha相同，completed/SUCCESS），`Test offline snapshot validation`和`Validate this checkout without Git sync or publishing`包括实际`python -m publisher.check_local --repo .`均PASS。之后以`expected_sha=62f6589a6c4bb259ef0f8fc4a399f1c45886e685`、`force:false`快进main到相同已检提交，main Actions `41953525052` 对相同head_sha亦completed/SUCCESS，两项真实步骤PASS。ready Blob `76168b0bac6b05da5ccc9b743ed644b912e0ec18`，原draft在同一Git Tree删除。证据详见`qa/0532_release_evidence_20261105.md`。

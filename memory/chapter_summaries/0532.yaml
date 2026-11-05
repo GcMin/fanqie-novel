@@ -27,8 +27,18 @@ foreshadowing_updates:
 ending_state: "Day396 07:06徐桂枝实离场、错请退归类有据更正但工时待核；2019补据清单有内部初点而旧信和历史真人收答空缺。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "b1254d79c4d10c29b7cd16aa80e6a4f60bfbfdd6", final_draft_sha: "b1254d79c4d10c29b7cd16aa80e6a4f60bfbfdd6", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: candidate_ci_pending}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3394
 release_evidence:
   ready_blob: "76168b0bac6b05da5ccc9b743ed644b912e0ec18"
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
+  candidate_commit: "b828a99a57f7534df1b217d46e00545c784dc6fd"
+  validated_tree: "ca7541ae0001ebc9f5cb726d0170d22d0a67dac7"
+  candidate_ci: 41953459310
+  candidate_ci_conclusion: success
+  main_ci: 41953525052
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  evidence_file: "qa/0532_release_evidence_20261105.md"
