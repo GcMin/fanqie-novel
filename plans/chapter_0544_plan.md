@@ -7,10 +7,10 @@
 - phase: Planner / Continuity Precheck / Writer
 - status: draft
 - depends_on_chapter: 543
-- depends_on_source_sha: 69c9623858fb13745fb71385a85ddf1517a8abbb
-- dependency_status: provisional
-- source_location: chapters/draft/0543.md
-- verified_boundary: 第543章仅为特定Blob的未经审核临时草稿：Day406旧档新增2019同一附件“待补对照、拟回转”准备登记，未证原岗实收、正式核发或真人获答；南岸路郑莹修鞋铺错误复业确认已获当夜单件有源纠正，涉水电气仍停封。以上只作临时衔接事实，后续若审修须由独立Audit核对。
+- depends_on_source_sha: da481e427a75fc060f82fc380829072f4a53a5bd
+- dependency_status: verified_ready_same_title_body_facts
+- source_location: chapters/ready/0543.md
+- verified_boundary: 第543章已由准确源Blob独立Reader/QA审核且候选ready全文标题不变：Day406旧档新增2019同一附件“待补对照、拟回转”准备登记，未证原岗实收、正式核发或真人获答；南岸路郑莹修鞋铺错误复业确认已获当夜单件有源纠正，涉水电气仍停封。以上只作临时衔接事实，后续若审修须由独立Audit核对。
 - goal: 辨清历史“拟回转”预约号码与真实交接编号；完成仁合里四楼灯罩滴水紧急控险，保障居民安全，保留真正漏点与责任未核边界。
 - POV: 第三人称有限，马芸、唐晓漫、周衡与夏宁轮流以可知证据行动。
 - opening: Day407白天马芸纠正同事误把旧拟回转当实送；当夜唐晓漫发现无人在家的五楼下方四楼灯罩受水。
@@ -30,4 +30,4 @@
 - ending: 旧档只有预约编号与准备登记，楼里紧急控险但需次日有权真实入户才能核漏点及可否复居。
 - target_chars: 2600–3400 preferred; hard 2300–3800
 - actual_effective_chars: 3429
-- precheck: Day406 07:06上一章交班，Day407白天旧档继续限项、当夜20:00至Day408 07:04夜班；543未审仅做provisional参考且精确引用其完整Git Blob SHA；未将准备登记当原岗实际收讫；未更改任何现有章节、Canon、Memory、QA或平台发布。
+- precheck: Day406 07:06上一章交班，Day407白天旧档继续限项、当夜20:00至Day408 07:04夜班；543候选ready与原草稿标题及全文逐字一致，按最终ready Git Blob精确重新绑定；待精确CI成功才正式放行；未将准备登记当原岗实际收讫；未更改任何现有章节、Canon、Memory、QA或平台发布。
