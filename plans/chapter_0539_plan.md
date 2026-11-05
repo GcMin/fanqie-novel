@@ -7,9 +7,9 @@
 - role: Planner / Continuity Precheck / Writer
 - source_main_sha: "8db03729ec97af903effb5c9ea422e81c2fab6a2"
 - depends_on_chapter: 538
-- depends_on_source_sha: "2282564361e3cb2edf49108eece31845503ae9d7"
-- dependency_status: provisional
-- predecessor_location: chapters/draft/0538.md
+- depends_on_source_sha: "315aa2f0aa9cf2386abdd82511461856307204c0"
+- dependency_status: verified_ready_same_title_body_facts
+- predecessor_location: chapters/ready/0538.md
 - continuity_precheck: writer_precheck_only_not_QA
 - timeframe: Day402 09:46—Day403 06:55
 - pov: 第三人称有限；孙月为主，马芸与中心为辅
@@ -46,3 +46,7 @@
 
 ## Writer交付边界
 仅新增本计划与draft/0539.md，不运行或冒充Editor、Reader、Revision、QA、Memory、ready或平台发布。
+
+## 独立审核阶段补录（2026-11-05）
+- 539原草稿SHA `1bca43925225cbe83cd2f605fe1a47527accd917` 的初审0/1/2；MAJOR为仍使用538的临时draft SHA。实际比对538原draft `2282564361e3cb2edf49108eece31845503ae9d7` 与正式ready `315aa2f0aa9cf2386abdd82511461856307204c0`：全章小说正文、标题逐字一致，只有status、qa、approved_at、publish_mode交付元数据变化，不发生任何时间地点人物知识事实差异。
+- Stage A仅修正539 Front Matter和本详细章纲的前驱依赖到538正式ready SHA，无小说正文修改。必须对本次修订后新SHA重新完成独立Pass A/Pass B，方可继续QA与结构门槛。
