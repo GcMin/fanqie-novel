@@ -1,3 +1,7 @@
+## 第531章精确候选与main结构CI真实SUCCESS、正式ready｜2026-11-05
+- 第531章原稿Blob `76a269616b4fa61194304ddb27aa252cece7b1ac`独立Reader Pass A/B 0/0/2、正文未修订、Continuity/Style/Meaningful内容QA PASS；第530章前章依赖精确匹配。
+- 候选放行Commit `31d9407fc4c8eed6cb2342bc85203c4f47221b96`，Tree `eb3f2db684d2b719732f2ac0e8e71cc0529fb3f2`，候选Actions `41940312107`与正式main Actions `41940370922`全部同head_sha且completed/SUCCESS，结构单元测试和实际`publisher.check_local`均PASS；先候选验收再以expected_sha/force:false更新main。正式ready Blob `84827471239f4061f174daa6c608bbb0ab628c21`，原draft已在同Tree删除。完整证据见`qa/0531_release_evidence_20261105.md`，无Canon/published改动和番茄发布。
+
 ## 第531章 ARC-054 Reader与独立内容QA PASS｜精确结构候选CI待核｜2026-11-05
 - 原稿Git Blob `76a269616b4fa61194304ddb27aa252cece7b1ac`，独立先Pass A（本章、前3章、近10章摘要、文风）后Pass B（Canon、ARC-054、人物、知识、关系、世界、时间线、F003），BLOCKER/MAJOR/MINOR=0/0/2 keep/none，正文0字修改；Continuity/Style/Meaningful独立QA PASS，3793净有效字。
 - Day394马芸新合法申请后，有责双岗查原始双端簿确认2019同笔指定补据清单由原形成单位收发岗确实交到原业务办件岗并独立实接；不能说补据已办、核址结案、旧信再次投递、历史自然人受答。当代林秀枝仍为Day393真实签收旧机，Day394 22:56正式单件地址补正出具、23:12她本人实际收到，21:44母女短听旧带中外婆几句家常，整带/保修/物流平台整体修复未证。F003有界推进，F008/M004/M005及2016/2022跨源同一无新独立确证。

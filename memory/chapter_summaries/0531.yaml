@@ -28,5 +28,17 @@ foreshadowing_updates:
 ending_state: "Day395 07:09历史清单业务岗真实接手但补据与历史人收答空缺；老人本人真得更正件并短听旧声，平台全局及介质可靠性未证。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "76a269616b4fa61194304ddb27aa252cece7b1ac", final_draft_sha: "76a269616b4fa61194304ddb27aa252cece7b1ac", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3793
+release_evidence:
+  ready_blob: "84827471239f4061f174daa6c608bbb0ab628c21"
+  validated_commit: "31d9407fc4c8eed6cb2342bc85203c4f47221b96"
+  validated_tree: "eb3f2db684d2b719732f2ac0e8e71cc0529fb3f2"
+  candidate_ci: 41940312107
+  main_ci: 41940370922
+  candidate_ci_conclusion: success
+  main_ci_conclusion: success
+  publisher_check_local: pass
+  structural_unit_tests: pass
+  main_ref_update: expected_sha_force_false_success
+  evidence_file: "qa/0531_release_evidence_20261105.md"
