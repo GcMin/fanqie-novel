@@ -9,3 +9,6 @@
 - **Style PASS**：母女围绕谁签、何时退、如何寄存体现关系转变，档案强调原始证据而非作者解释。两项程序重复MINOR不构成MAJOR，不重写。
 - **Meaningful Change PASS**：真退旧店、真领取寄存箱、真双人新店入住和旧押金未到的区别，2019内请求真实发出，但历史后续不虚构。
 - **结构门禁**：内容QA本次PASS仅为内容；只有包含550 ready、删draft、Reader、QA、Memory与计划精确候选Git Commit的结构单测及`python -m publisher.check_local --repo .`真正SUCCESS才可正式main放行。
+
+## 结构验证与正式放行（已实证）
+本报告之前的结构“待核”是内容审查阶段记录，现由对应放行Commit的实际候选及main两条CI覆盖。Commit `93edc08fa1540a9a97edfd34d92c3249f488d862`、审计候选 Run 42092414352 和main Run 42092506294均精确匹配同一SHA、completed/success；结构单元测试及`python -m publisher.check_local --repo .`的实际步骤均 success，已以expected_sha/force:false正式进入main。详细证据：`qa/0549_0550_release_evidence_20261106.md`。

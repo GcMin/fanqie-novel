@@ -8,3 +8,6 @@
 - **Style PASS**：母亲用核电梯路线、账目、押金及房卡作决定，人物话语可辨且不泛化煽情。档案重复排错技巧和章尾“明晚”措辞已记录为两项MINOR，不构成硬连续性错误或强制改稿。
 - **Meaningful Change PASS**：有真实下一夜可达房型预订及支付，改善短住但只保一夜；旧档从待核事项已立推进到一次有原簿的当时暂缓状态，无结果越界。
 - **结构门禁**：以上仅为内容QA PASS；必须将ready/删draft、Review、Memory、计划形成的精确候选Git Commit，真实执行结构单测与`python -m publisher.check_local --repo .`并经SUCCESS后才允许main正式迁ready；未运行或失败均不可称结构通过。
+
+## 结构验证与正式放行（已实证）
+本报告之前的结构“待核”是内容审查阶段记录，现由对应放行Commit的实际候选及main两条CI覆盖。Commit `c840c85ee040931ba3b9841f640f45f39e9eefe0`、审计候选 Run 42091278146 和main Run 42091398169均精确匹配同一SHA、completed/success；结构单元测试及`python -m publisher.check_local --repo .`的实际步骤均 success，已以expected_sha/force:false正式进入main。详细证据：`qa/0549_0550_release_evidence_20261106.md`。

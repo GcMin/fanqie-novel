@@ -30,5 +30,17 @@ foreshadowing_updates:
 ending_state: "Day414 07:06母女真入住第二家电梯主楼双床房，旧店退房与重箱领取各有凭据、旧押金到账未知，四楼受水回路五楼西户供水仍停；2019内部请求已真发但收答与最终结论未知。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "5c6a23ae9445763a502b856f4f2f435e6ffdca48", final_draft_sha: "cde71502088c81d6b2ac06feb6e144bba98b375d", initial_counts: "0/1/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "metadata_and_plan_predecessor_ready_SHA_rebind_after_identical_title_body_compare"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci_before_main}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3112
+release_evidence:
+  structural_gate: exact_candidate_and_main_ci_success
+  ready_blob: "f905c8dbe322f8a283202e01066eabbc5630475d"
+  release_commit: "93edc08fa1540a9a97edfd34d92c3249f488d862"
+  candidate_ci: 42092414352
+  main_ci: 42092506294
+  candidate_ci_conclusion: success
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  evidence_file: qa/0549_0550_release_evidence_20261106.md

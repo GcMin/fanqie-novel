@@ -28,5 +28,17 @@ foreshadowing_updates:
 ending_state: "Day413 07:09首店仍真实住完第二夜，Day413晚另店已订未入住，四楼受水回路及五楼西分支持续限停，旧档暂缓状态有证但后续结论未知。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "11d8dac241ae8893e5111aebd7224d2f60005633", final_draft_sha: "11d8dac241ae8893e5111aebd7224d2f60005633", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci_before_main}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3188
+release_evidence:
+  structural_gate: exact_candidate_and_main_ci_success
+  ready_blob: "8bbd6a399d206c384195a2a8e179bf42c8912540"
+  release_commit: "c840c85ee040931ba3b9841f640f45f39e9eefe0"
+  candidate_ci: 42091278146
+  main_ci: 42091398169
+  candidate_ci_conclusion: success
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  evidence_file: qa/0549_0550_release_evidence_20261106.md
