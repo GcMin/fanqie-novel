@@ -5905,7 +5905,7 @@ chapter_543_arc054_verified:
   body_revisions: 0
   independent_pass_a_then_b: true
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
   predecessor_ready_blob: "57d0461ea1f655fbef6f69f8c69e675df877ea6f"
 
 chapter_544_arc054_verified:
@@ -5921,4 +5921,17 @@ chapter_544_arc054_verified:
   predecessor_ready_blob: "da481e427a75fc060f82fc380829072f4a53a5bd"
   predecessor_title_body_same: true
   content_qa: pass
-  structural_gate: pending_exact_candidate_ci
+  structural_gate: exact_candidate_and_main_ci_success
+
+release_0543_0544_exact_ci:
+  chapters: [543, 544]
+  ready_0543_blob: "da481e427a75fc060f82fc380829072f4a53a5bd"
+  ready_0544_blob: "75c91f6f6a06994fe1db5ab5d8e46d5c50c4d442"
+  release_commit: "4bbfc4745458aa18732bd6dd0bc91dda20028b34"
+  candidate_ci: 42035218249
+  main_ci: 42035389369
+  conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_update: expected_sha_force_false_success
+  evidence_file: qa/0543_0544_release_evidence_20261105.md
