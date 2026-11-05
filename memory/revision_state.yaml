@@ -5348,3 +5348,17 @@ combined_audit_chapter_549_20261106:
   reader_gate: pass
   content_qa: pass
   structural_gate: exact_candidate_CI_pending_before_main
+
+combined_audit_chapter_550_20261106:
+  original_sha: "5c6a23ae9445763a502b856f4f2f435e6ffdca48"
+  final_draft_sha: "cde71502088c81d6b2ac06feb6e144bba98b375d"
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  fix: "metadata_and_plan_predecessor_sha_rebind_to_549_ready_after_title_body_identical_compare"
+  initial_review: "reader_reviews/0550_5c6a23ae.md"
+  final_review: "reader_reviews/0550_cde71502.md"
+  reader_gate: pass
+  content_qa: pass
+  structural_gate: exact_candidate_CI_pending_before_main

@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 550
+title: "退房单签了字，第二张房卡才到手"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "5c6a23ae9445763a502b856f4f2f435e6ffdca48"
+source_draft_sha: "cde71502088c81d6b2ac06feb6e144bba98b375d"
+initial_review: reader_reviews/0550_5c6a23ae.md
+reader_review: reader_reviews/0550_cde71502.md
+depends_on_chapter: 549
+depends_on_source_sha: "8bbd6a399d206c384195a2a8e179bf42c8912540"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day413 08:52—Day414 07:06"
+summary: >-
+  Day413 08:52母亲决定自己办首店退房、保存药盒挂历与票据并让唐晓漫安心上班；10:33仁合里四楼专业实际复测三个编号潮湿点一处下降两处仍高，电气恢复评估与复居无许可，五楼西户供水支路依旧隔离。11:38首店真正完成退房，押金仅发起退款未到账，大箱凭有效登记寄存并授权女儿领取。12:46抵Day412已预订的第二家主楼双床房却只获房间准备说明未入住，14:17完成清洁后母亲本人按流程实付现场应付款、领取房卡与住客登记，实际从电梯进入房间、核防滑垫与门锁；18:51女儿凭授权在旧店取回大箱，19:28自身完成第二家入住身份登记，20:08本人向中心实回拨，Day414 07:06交班确认新店两人真住，旧押金仍未到账、街道住宿支持咨询待核、返家日期未知。马芸09:26再向历史窗口限申请查2019“补据来源对应待核”当年暂缓后的内部补充说明请求，10:04仅收件、16:09获准后有权双岗在原形成时发出簿及岗位底单确证原办件岗位真实登记发出过一次补充来源对应说明请求，16:42得去身份摘录，22:11中心获限回告；未证形成岗位收件、补据完成、暂缓解除、核发寄达和历史自然人获答。
+meaningful_state_changes:
+  - "母女从首店两夜真入住与次夜新店仅预订，推进到首店11:38真实退房、大箱有凭据寄存及18:51实领、第二家14:17母亲真入住拿卡与19:28女儿实际登记，旧押金只退款申请而未到账。"
+  - "Day413四楼实际复测三编号点一降两仍潮，未获得受水回路复电或复居许可，五楼西户水支路限停。"
+  - "2019原件暂缓之后确有原办件岗位向形成岗位发内部补充说明请求的原始发出记录，但接收、补据及历史对外答复未知。"
+knowledge_updates:
+  - "母女知道旧店实退且押金未到账、新店已真实入住并持房卡、房屋仍不可返住、街道未批准费用。"
+  - "马芸与中心只知道2019内部补充请求原岗真发，未证形成岗实收/实答和旧自然人获答。"
+relationship_updates:
+  - "母亲独立办退房和入住、自己签真实手续并授权女儿领重箱，女儿尊重其决定且没有因迁住再缺班。"
+foreshadowing_updates:
+  - "F003新增2019同一事项来源补充请求原岗实际发出，不能替代另一端真实接收、补据、恢复核发和历史本人答复；F008/M004/M005与2016/2022跨源同一没有新增确证。"
+ending_state: "Day414 07:06母女真入住第二家电梯主楼双床房，旧店退房与重箱领取各有凭据、旧押金到账未知，四楼受水回路五楼西户供水仍停；2019内部请求已真发但收答与最终结论未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "5c6a23ae9445763a502b856f4f2f435e6ffdca48", final_draft_sha: "cde71502088c81d6b2ac06feb6e144bba98b375d", initial_counts: "0/1/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "metadata_and_plan_predecessor_ready_SHA_rebind_after_identical_title_body_compare"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci_before_main}
+char_count: 3112

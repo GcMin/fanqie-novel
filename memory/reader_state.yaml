@@ -6008,3 +6008,21 @@ combined_audit_chapter_549_20261106:
   content_qa: pass
   predecessor_ready_sha: "098bc657518e04032fd6a7530d6dd0e11994cbfd"
   structural_gate: requires_exact_candidate_ci_success_before_main
+
+combined_audit_chapter_550_20261106:
+  chapter: 550
+  original_sha: "5c6a23ae9445763a502b856f4f2f435e6ffdca48"
+  source_sha: "cde71502088c81d6b2ac06feb6e144bba98b375d"
+  initial_review: "reader_reviews/0550_5c6a23ae.md"
+  review_path: "reader_reviews/0550_cde71502.md"
+  reviewer_mode: combined_audit_new_sha_independent_pass_a_then_b
+  initial_counts: "0/1/2"
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  recommendation: keep
+  required_action: none
+  content_qa: pass
+  predecessor_ready_sha: "8bbd6a399d206c384195a2a8e179bf42c8912540"
+  predecessor_verified_title_body_identical: true
+  structural_gate: requires_exact_candidate_ci_success_before_main

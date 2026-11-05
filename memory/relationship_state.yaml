@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 549
+last_updated_chapter: 550
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2659,4 +2659,12 @@ chapter_549_arc054_verified:
   tang_xiaoman_mother: "女儿在预算压力和工作排班下愿请假搬行李，母亲提议自己先办退房、重件寄存等下班再搬，女儿接受母亲亲核全程电梯的决策；互相协商而不代答。"
   property_and_street: "母亲直接向物业主管核明仅已实移局部湿料与次日暂排复测，街道咨询仅受理不确认费用补助，赔责仍由有责渠道决定。"
   ma_yun_colleague: "马芸明确纠正同事把当时暂缓等同附件造假或永久无答复的两种过度推论。"
+  trust_scores_unchanged: true
+
+chapter_550_arc054_verified:
+  chapter: 550
+  source_sha: "cde71502088c81d6b2ac06feb6e144bba98b375d"
+  tang_xiaoman_mother: "母亲自行合法退旧房、缴新房手续并主动授权女儿仅领重箱，女儿尊重母亲不必因换住牺牲工作排班，双方真实交接完成。"
+  property_and_street: "母亲通过本人许可通道得到三点含水实测尚不合格的信息；物业没有因旅店安顿便宣布可返住，街道支持仍待核。"
+  ma_yun_colleague: "马芸阻止同事从暂缓核定推“真实性存疑”，保持2019原始内部请求发出与其形成岗位实收是不同证据。"
   trust_scores_unchanged: true
