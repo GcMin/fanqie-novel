@@ -7,10 +7,10 @@
 - phases: Planner / Continuity Precheck / Writer
 - status: draft
 - depends_on_chapter: 553
-- depends_on_source_sha: 5dad5d8a2439168796e2213fb5bcc2f66b7e1d87
-- dependency_status: provisional
-- source_location: chapters/draft/0553.md
-- provisional_boundary: 第553章为main实际未审原稿，绑定上述完整Blob SHA，只临时承接Day416干燥机按约20:03实停、吴叔仅签收到停机通知及表达噪声意见、Day417十点前确认专业复测条件、母女第三旅店两晚已付且次夜尚未订、2019原核位登记仅证一处旧柜位实查未见及另查建议。前稿未来修订不得直接转成Canon，后续Audit须与最终上章核兼容。
+- depends_on_source_sha: 6ac98f967356d69401a8b1cb75774b2fbe5c4b4b
+- dependency_status: verified_ready_same_title_body_facts
+- source_location: chapters/ready/0553.md
+- verified_boundary: 上章553原临时Draft `5dad5d8a2439168796e2213fb5bcc2f66b7e1d87` 与正式ready `6ac98f967356d69401a8b1cb75774b2fbe5c4b4b` 的小说正文与标题逐字相同，仅交付Front Matter元数据不同；Day416机器20:03有责真停、三楼吴叔签收告知但保留噪声反馈、Day417十点前仅核复测条件、第三旅店第二晚已付且续夜未订、2019指定旧柜单点实查未见与转请仅建议均一致。前驱已正式reader/QA/精确候选CI通过并进入ready，后章仅更新引用，不改变小说正文。
 - goal: 让四楼从笼统干燥等待进入具体专业电气维修范围与住户知情流程；历史2019转请由单纯建议推进至限定原岗位真实交出但仍不证接收。
 - POV: 第三人称有限，唐晓漫母亲的现实居住困境为主，穿插马芸的档案限项调查与夜班中心。
 - opening: Day417早晨第三旅店已付两夜结束，Day417中午到期；昨夜机器按许可时段实停，但今天上午尚无复电、换线或复居事实。
