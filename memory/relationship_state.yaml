@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 541
+last_updated_chapter: 542
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2594,4 +2594,12 @@ chapter_541_arc054_verified:
   he_shouli_he_lan: "父亲拒绝被抬，选择自己推行通过批准的平层通道；女儿支持自主而不试施工锁门。"
   clinic_property: "诊所与物业经各自权限实地共验临时路线，护士保留预约并真核本人到诊。"
   ma_yun_colleague: "同事想把复核岗签领填办结，马芸纠正为逐项核对起始且结果未知。"
+  trust_scores_unchanged: true
+
+chapter_542_arc054_verified:
+  chapter: 542
+  source_sha: "76365a133a0ab90b0d3771b94ad219a16a59dd38"
+  zheng_ying_xiao_tang: "学徒试护鞋滑倒，郑莹优先人身安全、阻止越过涉水区；两人按订单和受潮状况分栏，未湿婚鞋交另一师傅续修。"
+  zheng_ying_customers: "老板亲告婚礼鞋客户迟交风险，客户允许改师傅承接，23:12受托人真接仍未宣称按时完工。"
+  road_property_center: "专业岗位各自签复核，夜班夏宁把三源回告实际交给报修人而不替赔损定责。"
   trust_scores_unchanged: true

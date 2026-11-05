@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 542
+title: "井盖换好了，水还在往店里走"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "608a937956327c9c0b2ac44dbef78f783bcde13c"
+source_draft_sha: "76365a133a0ab90b0d3771b94ad219a16a59dd38"
+reader_review: reader_reviews/0542_76365a13.md
+depends_on_chapter: 541
+depends_on_source_sha: "5ec081d270b63b650eb4260e502c3cd0e600e491"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day405 09:26—Day406 07:11"
+summary: >-
+  Day405马芸09:26旧档关于2019同件逐项核对后结果的申请因范围过宽退回，11:08重提只核是否有后续独立登记且不问意见寄达的窄申，16:46仍处范围核定未批准，不产生2019史实新结论。20:12南岸路郑莹修鞋铺因白天井盖施工附加临时坡堵低浅沟导致雨水改入低门槛，郑莹与学徒小唐撤到干处，店内延长线和磨鞋机附近存在涉水风险。20:27中心分源转道路/物业/电工，20:54起有责现场核出新井盖确实完工但临时坡改变水路，持证电工有限隔离涉水回路；21:41获临时道路处置许可后局部去坡恢复浅沟，22:03起雨中现场复测未再进水。店内水有限清排，六个外盒受潮，鞋本体、墙体、电气复验与损失责任未决。郑莹23:12将未湿婚鞋真实转给另一师傅续修不冒写完工，23:31本人得到三源有责回告；Day406 07:11中心交班。141—2019旧档只有541核对起始登记旧证，本章新申请未获准。F008/M004/M005及2016/2022跨源同一不新证。
+meaningful_state_changes:
+  - "井盖更换完成仍属实，但白天临时坡改变水路造成店内新积水，经有责查证局部处置且22:03—22:23雨中短时复测通畅；正式长期道路方案待复核。"
+  - "郑莹与学徒安全撤出，店内涉水回路有责隔离、六盒受潮，墙体设备与赔损未决；一双未湿婚鞋23:12真交另位师傅续修而非已交客户。"
+  - "2019档案后续结果窄申重收件但未准阅，无新历史结论。"
+knowledge_updates:
+  - "郑莹小唐及中心知道此轮雨水改道与临时坡有关，但不知最终损失归责/复业许可；某双婚鞋由他师傅已收但未完工。"
+  - "马芸与中心只知旧同一工作页至逐项核对起始登记，新的后续复核查询尚无合法许可。"
+relationship_updates:
+  - "郑莹优先保护学徒和客户鞋，拒绝强开停用烘箱；学徒学会按外盒受潮与鞋本体待核分栏。"
+  - "道路、物业、电工按来源分别负责并让郑莹本人实际听到回告，不因报修关闭冒认赔损解决。"
+foreshadowing_updates:
+  - "F003保持541核对起始登记既有范围，本章新申请仅收件；F008/M004/M005与2016/2022同一不升格。"
+ending_state: "Day406 07:11浅沟夜间有界恢复，涉水电气封停、店铺不能宣布全面恢复，婚鞋真转接而未完成；旧档新查申请仍待许可。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "608a937956327c9c0b2ac44dbef78f783bcde13c", final_draft_sha: "76365a133a0ab90b0d3771b94ad219a16a59dd38", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "metadata_only_rebind_541_to_verified_ready_SHA"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3494
+release_evidence:
+  ready_blob: "57d0461ea1f655fbef6f69f8c69e675df877ea6f"
+  structural_gate: pending_exact_candidate_ci

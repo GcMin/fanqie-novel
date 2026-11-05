@@ -11,3 +11,7 @@
 - **历史旧SHA**：137→138、139→140、142→143、146→147、147→148均非本章直接引用；本轮无依据声称重审历史版本，不机械阻断。
 - **Memory与计划**：仅按此正文事实更新0541摘要及人物知识关系世界时间线F003与计划；不覆盖已有ready计划行。
 - **结构门禁**：内容QA通过并非正式ready。只有本次候选精确Git commit的可信Actions实际成功运行结构单测与`python -m publisher.check_local --repo .`，才允许expected_sha、force:false推进main；此前结构状态pending。
+
+## 精确候选与正式main CI已成功
+- 候选及正式main Commit `b0aa1a5c81ff12dc87af94f96ebe035b5625a69b` / Git Tree `54c8df7ac8f35336c1ca0011c581e93b1b31afb7`；审计分支Actions `42017638626`、同SHA main Actions `42017709478` 已完成 **SUCCESS**。候选run实际结构单测和`python -m publisher.check_local --repo .`步骤独立SUCCESS。
+- 更新main前验证其HEAD仍为`a962d7b838a34a64fa5bc0563487097965d0e3b9`，以`expected_sha`、`force:false`快进至对应Commit；ready Blob `5ec081d270b63b650eb4260e502c3cd0e600e491`，原draft同树删除。详情`qa/0541_release_evidence_20261105.md`。

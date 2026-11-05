@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 541
-last_reviewed_title: "叫号屏亮着，他还在另一扇门外"
-last_source_path: chapters/draft/0541.md
-last_source_sha: bb0b59466dfeb07c2ae5fc7e4a81fe896b4e2dd7
-last_review_path: reader_reviews/0541_bb0b5946.md
+last_reviewed_chapter: 542
+last_reviewed_title: "井盖换好了，水还在往店里走"
+last_source_path: chapters/draft/0542.md
+last_source_sha: 76365a133a0ab90b0d3771b94ad219a16a59dd38
+last_review_path: reader_reviews/0542_76365a13.md
 last_reviewed_at: "2026-11-05"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 540
-depends_on_source_sha: 578491fda40770f6ce21710e340f6661e8929507
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 578491fda40770f6ce21710e340f6661e8929507
+depends_on_chapter: 541
+depends_on_source_sha: 5ec081d270b63b650eb4260e502c3cd0e600e491
+dependency_status: verified_ready_same_title_body_facts
+predecessor_current_source_sha: 5ec081d270b63b650eb4260e502c3cd0e600e491
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -5844,5 +5844,39 @@ chapter_541_arc054_verified:
   reader_gate: pass
   depends_on_chapter: 540
   depends_on_source_sha: "578491fda40770f6ce21710e340f6661e8929507"
+  content_qa: pass
+  structural_gate: exact_candidate_and_main_ci_success
+
+release_0541_exact_ci:
+  chapter: 541
+  source_sha: "bb0b59466dfeb07c2ae5fc7e4a81fe896b4e2dd7"
+  reviewer: reader_reviews/0541_bb0b5946.md
+  final_counts: "0/0/2"
+  ready_blob: "5ec081d270b63b650eb4260e502c3cd0e600e491"
+  candidate_commit: "b0aa1a5c81ff12dc87af94f96ebe035b5625a69b"
+  candidate_ci: 42017638626
+  main_ci: 42017709478
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_update: expected_sha_force_false_success
+  evidence_file: qa/0541_release_evidence_20261105.md
+
+chapter_542_arc054_verified:
+  chapter: 542
+  original_source_sha: "608a937956327c9c0b2ac44dbef78f783bcde13c"
+  source_sha: "76365a133a0ab90b0d3771b94ad219a16a59dd38"
+  title: "井盖换好了，水还在往店里走"
+  review_path: reader_reviews/0542_76365a13.md
+  reviewed_at: "2026-11-05"
+  reviewer_mode: new_blob_independent_pass_a_then_pass_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  depends_on_chapter: 541
+  depends_on_source_sha: "5ec081d270b63b650eb4260e502c3cd0e600e491"
+  predecessor_title_body_same: true
   content_qa: pass
   structural_gate: pending_exact_candidate_ci
