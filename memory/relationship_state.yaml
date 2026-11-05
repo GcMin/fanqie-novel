@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 542
+last_updated_chapter: 544
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2603,3 +2603,20 @@ chapter_542_arc054_verified:
   zheng_ying_customers: "老板亲告婚礼鞋客户迟交风险，客户允许改师傅承接，23:12受托人真接仍未宣称按时完工。"
   road_property_center: "专业岗位各自签复核，夜班夏宁把三源回告实际交给报修人而不替赔损定责。"
   trust_scores_unchanged: true
+
+chapter_543_arc054_verified:
+  chapter: 543
+  source_sha: "69c9623858fb13745fb71385a85ddf1517a8abbb"
+  zheng_ying_xiao_tang: "小唐倾向快把旧单勾成已交或把营业牌挂正常，郑莹要求标注实际他店完成、机器停用且经客户本人验领才算旧单交付，学习来源分栏。"
+  zheng_ying_property: "店主本人正式反对物业系统把门岗共用座机答路面积水当本人授权复业，物业主管保留证据并按权限撤本单错误认可，信任需后续核数据来源。"
+  ma_yun_colleague: "档案同事只依据原始去身份登记描述拟回转，没有把实际交出或历史个体获答写成事实。"
+  trust_scores_unchanged: true
+
+chapter_544_arc054_verified:
+  chapter: 544
+  source_sha: "3153431d71dcc5277673755601a37b58cef8dd7e"
+  tang_xiaoman_mother: "母亲拒被女儿单方安排，自己问姨妈有无住处且自己确认常用药标识；女儿放弃强闯屋内取药并接受有准专业安全提取，两人实达姨妈家。"
+  property_zeng_sir: "五楼西户曾先生担心擅开锁和损害归责，物业只协商次日有权核身份、钥匙、人员安排，未承诺已入屋或由业主担责。"
+  ma_yun_colleague: "同事原把拟回转旧备案表填已送回，马芸要求追回误写并用同期真实编号簿校正为内部预约号，不能代历史个人签收。"
+  trust_scores_unchanged: true
+
