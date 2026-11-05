@@ -7,10 +7,10 @@
 - phases: Planner / Continuity Precheck / Writer
 - status: draft
 - depends_on_chapter: 551
-- depends_on_source_sha: 3ec526b6d82d39388d24ad4ede736370e9fc211c
-- dependency_status: provisional
-- source_location: chapters/draft/0551.md
-- provisional_boundary: 第551章仍为未审草稿。暂时参考该特定版本中Day414首店押金10:02真退、第二店10:46实付续房至Day415中午、街道17:25补交材料实收资格未定，四楼受水回路及五楼西户水分支持续限停，2019同笔内部请求已证原岗真发与形成岗实收、尚不证补件。以上均须由独立Audit在551版次变动后复核，不视为正式Canon。
+- depends_on_source_sha: 5e9bdd18f3408175d5716f9277a4576f50457105
+- dependency_status: verified_predecessor_one_word_time_fix_facts_compatible
+- source_location: chapters/ready/0551.md
+- verified_boundary: 已精确对比551初稿3ec526b6与修订稿96be3d30及最终ready 5e9bdd18，前章只将Day415 07:08交班的“今夜续住已付”修为“昨夜续住已付”，其余标题与正文相同；真实Day414 10:46付费续住至Day415中午、Day415夜未订，完全兼容552 Day415 08:41开局。第551章已真实放行，形成岗内请求实收、街道仅补件、仁合里双限停和其他事实未发生变化。
 - goal: 在有限预算下落实未来两晚真实可达住宿；专业干燥由设备进场推进真启但绝不替代复电；旧档只有限证2019形成岗收件后的内部分办。
 - POV: 第三人称有限，唐晓漫母亲为现实主场，穿插马芸和中心。
 - opening: Day415 08:41第二家旅店昨晚已付续房即将到期，唐晓漫上午培训不能缺席，下一晚未订。
