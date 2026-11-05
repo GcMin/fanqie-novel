@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 532
+last_updated_chapter: 533
 characters:
   zhou_heng:
     knows:
@@ -2835,3 +2835,11 @@ chapter_532_arc054_verified:
   xu_guizhi_and_site: "徐桂枝知道自己未自愿请退、20:47仍在场和21:22真离场，持有纸簿及纠错说明；项目主管知调整通知已阅误映本人退班申请，工时工资仍未核。"
   center_team: "周衡夏宁梁策仅知有责来源的当夜安全交接及合法去身份旧史档，不宣称油污已彻底清理、下一阶段设备可入或2019异常机制同源。"
   invariants: "F003仍待补核；F008/M004/M005及2016/2022同一无新增确证。"
+
+chapter_533_arc054_verified:
+  chapter: 533
+  source_sha: "6df68c6e669b608c7a7347687ec6311b2741b3cf"
+  ma_yun_and_center: "仅凭合法去身份限项得知2019同一指定补据清单后内部回转提示拟稿真实形成且待核发；无受限地址姓名、正式核发交出、历史真人收答知识。"
+  zheng_man_and_crew: "郑曼知道丈夫失动力仍在水上且经专业通联与救援实际登岸；最初平台假已归港不等于真到岸，具体航线未知。"
+  center_team: "岸上备用终端蓝点不对应工作艇，救援专业独立核位和转移，中心只收当次真实来源正式通报。"
+  invariants: "2019待核发不等于个人收答；F008/M004/M005和2016旧封、2022原字节同一无证。"

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 532
+last_updated_chapter: 533
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2513,4 +2513,12 @@ chapter_532_arc054_verified:
   ma_yun_and_colleague: "同事欲顺便查询旧信收件人及从内部已登记猜已办理，马芸依本次权限只证内初点、拒填未见的后续。"
   xu_guizhi_and_site_team: "徐桂枝指出系统假退班时本人仍在现场且油污未交接；保安组长承认只巡南门主通道，另一名有责保洁人真签接湿滑点位，项目主管源查错映并正式纠正，徐保留通知、离场纸据追工时。"
   center_team: "夏宁周衡梁策仍按来源与权责分开人身、点位及工资，主要人物信任分值无无据变更。"
+  trust_scores_unchanged: true
+
+chapter_533_arc054_verified:
+  chapter: 533
+  source_sha: "6df68c6e669b608c7a7347687ec6311b2741b3cf"
+  ma_yun_and_colleague: "同事周报以旧初点资料误写补据核销完成，马芸要求删完成并只记2019新准阅实际形成的待核发内拟稿。"
+  zheng_man_wang_rong_child: "郑曼误转丈夫已归港给孩子后保留并纠正，真等丈夫岸上交接，不编造具体行船路线，家庭彼此可信信息源重新确认。"
+  center_rescue: "码头值班员主动撤销无根据的位置猜测；专业救援独立核人通联并救起，夏宁周衡记录正确阶段，梁策不越权出船。"
   trust_scores_unchanged: true

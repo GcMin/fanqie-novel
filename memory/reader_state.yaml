@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 532
-last_reviewed_title: "名单上她提前离场，围栏里还亮着一盏灯"
-last_source_path: chapters/draft/0532.md
-last_source_sha: b1254d79c4d10c29b7cd16aa80e6a4f60bfbfdd6
-last_review_path: reader_reviews/0532_b1254d79.md
+last_reviewed_chapter: 533
+last_reviewed_title: "江面传来的那声收到"
+last_source_path: chapters/draft/0533.md
+last_source_sha: 6df68c6e669b608c7a7347687ec6311b2741b3cf
+last_review_path: reader_reviews/0533_6df68c6e.md
 last_reviewed_at: "2026-11-05"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 531
-depends_on_source_sha: 84827471239f4061f174daa6c608bbb0ab628c21
+depends_on_chapter: 532
+depends_on_source_sha: 76168b0bac6b05da5ccc9b743ed644b912e0ec18
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 84827471239f4061f174daa6c608bbb0ab628c21
+predecessor_current_source_sha: 76168b0bac6b05da5ccc9b743ed644b912e0ec18
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -5615,3 +5615,16 @@ release_532_exact_ci_evidence:
   structural_unit_tests: pass
   publisher_check_local: pass
   main_update: expected_sha_force_false_success
+
+chapter_533_arc054_reader_gate:
+  chapter: 533
+  source_sha: "6df68c6e669b608c7a7347687ec6311b2741b3cf"
+  review: "reader_reviews/0533_6df68c6e.md"
+  counts: "0/0/2"
+  recommendation: keep
+  required_action: none
+  independent_pass_a_then_b: true
+  predecessor_ready_blob: "76168b0bac6b05da5ccc9b743ed644b912e0ec18"
+  predecessor_factual_delta: exact_ready_blob_no_delta
+  content_qa: pass
+  structural_gate: pending_exact_candidate_ci
