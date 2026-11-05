@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 540
+title: "新货单另起一行，旧档只签了收"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "05afdb756a8e120600d71d9c65fda70c41ca155a"
+reader_review: reader_reviews/0540_05afdb75.md
+depends_on_chapter: 539
+depends_on_source_sha: "eee2f218db274c21c3ad3f8658717b16aad18084"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day403 08:20—Day404 07:01"
+summary: >-
+  Day403孙月将Day402另购合法四箱与原受限15箱完全分账，第三家店主10:52询价18:15按新批次独立签单，两箱经合规库位许可、承运交接后22:12本人实际核验实收；另外两箱未售仍合规保管，原目的库12箱禁出、原市场3箱隔离，维修预留款先前挪用、食品品质及赔偿未结。马芸对2019同一补据工作页退补后原始对照类别附件有新合法限项，保管员经原业务交出底联、复核岗逐日接件簿与分件索引排异月同尾号，15:16确证该附件由内部复核岗真实签领，16:02领取去身份摘录；仅证实领，不证复核结论、核发、寄达或历史自然人获答。中心夜班22:46分源更新状态，Day404 07:01交班。F008/M004/M005以及2016/2022同一没有新证。
+meaningful_state_changes:
+  - "合法新4箱中2箱通过独立新单、合规配送与第三家店主真实签收，另外2箱未售且维修资金缺口仍在。"
+  - "2019同件一份原始对照资料类别附件进一步有独立原始证据证明内部复核岗实际签领，不证明后续审理结果或当年自然人获答。"
+knowledge_updates:
+  - "孙月、弟弟和中心知道新两箱真实交付，旧十五箱持续受限；第三买主有新单签收但旧订单及赔偿互不冲抵。"
+  - "马芸、中心只获合法去身份复核岗实领信息，未获具体附件内容、内复核意见、核发及历史收答。"
+relationship_updates:
+  - "孙月和弟弟对新单独立核价交货一致，但仍需共同承担维修款亏空；第三家店长接受独立新单拒旧单冲抵。"
+  - "马芸和同事不再把复核岗接件误写办理完成，中心继续以岗位权责分源核实。"
+foreshadowing_updates:
+  - "F003新增退补后附件内部复核岗真实签领；其后办理结果未知，F008/M004/M005及2016/2022跨源同一不新证。"
+ending_state: "Day404 07:01原15箱未专业放行/赔款未知；新4箱中2箱实收、另2箱待售；2019同一附件内复核岗实领已证但审核核发寄达及历史个人获答未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "05afdb756a8e120600d71d9c65fda70c41ca155a", final_draft_sha: "05afdb756a8e120600d71d9c65fda70c41ca155a", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_ci}
+char_count: 3144
+release_evidence:
+  structural_gate: pending_exact_candidate_ci

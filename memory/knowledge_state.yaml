@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 539
+last_updated_chapter: 540
 characters:
   zhou_heng:
     knows:
@@ -2895,3 +2895,11 @@ chapter_539_arc054_verified:
   ma_yun_center: "2019历史同一工作页退补后一份原始对照资料类别附件双端交接是已证，Day402之后是否被内部复核岗真实签领只新申请收件，未获许可或原始结果；自然人历史收答未知。"
   permissions: "清运平台预排和扫码提货码不代替货主/保管方合法放行或专业判损；夜班中心不代仓储、理赔、食品专业或旧档作最终决定。"
   invariants: "F008/M004/M005和2016/2022跨源同一无新证。"
+
+chapter_540_arc054_verified:
+  chapter: 540
+  source_sha: "05afdb756a8e120600d71d9c65fda70c41ca155a"
+  sun_yue_market: "孙月、弟弟、第三家店长知道新批四箱中两箱有独立新单、配送和22:12本人实收，其余两箱仍待销；新单不冲销旧十五箱的原单退款或理赔。"
+  ma_yun_center: "马芸及中心只知2019同件附件有原始复核岗逐日实领簿与业务交出底联/分件索引双向印证；不知审核是否通过、后续核发寄达或历史自然人收到答复。"
+  permissions: "2019查阅许可不含个人身份、附件全文或复核意见；中心不代专业食安、理赔及档案有权岗位判断终局。"
+  invariants: "F008/M004/M005、2016旧封及2022实际文件字节同一无新证。"

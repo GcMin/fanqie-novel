@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 539
+last_updated_chapter: 540
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2578,4 +2578,12 @@ chapter_539_arc054_verified:
   sun_yue_brother: "弟弟曾多抄赔偿受理号欲宣称赔偿中，被孙月纠正；姐姐孙月提醒他只把理赔编号写成资料已受理。弟弟协助把新批四箱与旧15箱不同账分开，未无据更改长期互信分值。"
   sun_yue_customers: "第二家另购且有差价顾虑，第三家只待核价无新单；孙月花自家维修储备保经营而非冒认旧货可售。"
   ma_yun_colleague: "同事继续想写资料已完备，马芸只留下某类附件已接后续处理未核的正式更正。"
+  trust_scores_unchanged: true
+
+chapter_540_arc054_verified:
+  chapter: 540
+  source_sha: "05afdb756a8e120600d71d9c65fda70c41ca155a"
+  sun_yue_brother: "弟弟先想按旧订单补发，孙月拒混账，新货两箱真交后弟弟据实记新单且承认维修款缺口仍在。"
+  sun_yue_third_shop: "双方对新批次真实价格及交付条件重新协商成立新单，店主22:12真收；不抵旧单及历史索赔。"
+  ma_yun_colleague: "同事想凭历史岗位实领记办理完成，马芸明确仅证交接不证复核结论。"
   trust_scores_unchanged: true
