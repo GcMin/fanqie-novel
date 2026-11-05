@@ -15,8 +15,8 @@
 - pov: 第三人称有限，孙月与马芸主线，周衡夏宁梁策夜班收束
 - target_effective_chars: 3000
 - actual_effective_chars: 3584
-- status: draft
-- qa: pending
+- status: ready
+- qa: pass
 
 ## 本章目标
 延续537的西栈冷库：12箱归属已核明但目的库限制出库，另3箱原市场隔离，产品品质、原库根因、赔偿均未决。孙月在对账与现金周转压力下提出正式损失资料申请，反对模板把“未交付”“未能销售”直接写成“全部灭失”。当代申诉形成真正的受理编号，但不确认可售、损失额度或理赔支付；原误导供应恢复信息由原发有责人员保源更正。
@@ -47,3 +47,7 @@
 
 ## 交付范围
 仅新增`plans/chapter_0538_plan.md`与`chapters/draft/0538.md`，暂不审核，不修改Memory、计划总表、旧稿、ready/published，不发布番茄。
+## 审核放行阶段补录（2026-11-05）
+- 独立Reader Pass A/B已按源 `2282564361e3cb2edf49108eece31845503ae9d7` 审核，最终0/0/2、keep/none，无正文或交付元数据修订；对应 `reader_reviews/0538_22825643.md`。
+- Continuity/Style/Meaningful QA PASS，真实有效字符3584，章号/标题和前537正式ready精确SHA对应；`qa/0538_report.md`。
+- Memory/计划按当前正文同步；只有含全部内容的精确候选Git commit通过真实publisher结构CI后才允许主线ready，候选未验前不得宣称已放行。

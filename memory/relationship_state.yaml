@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 537
+last_updated_chapter: 538
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2558,4 +2558,14 @@ chapter_537_arc054_verified:
   sun_yue_buyers: "首家缺货获真实订金退款，差价赔偿依凭据未裁决；第二家转别家取货、第三家暂缓，不把限制出库误作已交。"
   ma_yun_colleague: "马芸纠正同事把内部工作页已形成填业务已解决；两人仍以可证阶段为统计边界。"
   center_team: "周衡夏宁梁策按职责不替冷库/食品责任岗位裁决，互信评分无无据变更。"
+  trust_scores_unchanged: true
+
+
+chapter_538_arc054_verified:
+  chapter: 538
+  source_sha: "2282564361e3cb2edf49108eece31845503ae9d7"
+  sun_yue_brother: "弟弟面对熟客求两箱自用，独立查限制出库通知拒绝私领，实际将未出库留账；孙月看见他已经能自主区分责任凭据，未擅改长期信任分值。"
+  sun_yue_buyers_market: "首家确认订金真退仍对差价不满，另外两家改向别人进货或继续暂停；商户与市场在赔付模板旧误句上通过有责留痕更正，未认定责任与赔款。"
+  ma_yun_colleague: "马芸拒将退补后的原始对照类别附件真接入等同历史工作页补齐或复核恢复，同事周报只能记录确知动作。"
+  center_team: "周衡夏宁梁策只做有责来源转接和实交班，互信分值无因单章无据改变。"
   trust_scores_unchanged: true
