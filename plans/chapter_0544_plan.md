@@ -5,7 +5,7 @@
 - arc: ARC-054《回拨接收点》
 - author_role: Writer
 - phase: Planner / Continuity Precheck / Writer
-- status: draft
+- status: ready
 - depends_on_chapter: 543
 - depends_on_source_sha: da481e427a75fc060f82fc380829072f4a53a5bd
 - dependency_status: verified_ready_same_title_body_facts
@@ -31,3 +31,10 @@
 - target_chars: 2600–3400 preferred; hard 2300–3800
 - actual_effective_chars: 3429
 - precheck: Day406 07:06上一章交班，Day407白天旧档继续限项、当夜20:00至Day408 07:04夜班；543候选ready与原草稿标题及全文逐字一致，按最终ready Git Blob精确重新绑定；待精确CI成功才正式放行；未将准备登记当原岗实际收讫；未更改任何现有章节、Canon、Memory、QA或平台发布。
+
+- audit_reader: reader_reviews/0544_3153431d.md
+- audit_qa: qa/0544_report.md
+- audit_reader_counts: BLOCKER=0 MAJOR=0 MINOR=2
+- audit_qa_result: Continuity_PASS Style_PASS Meaningful_PASS
+- audit_structural_gate: pending_exact_candidate_ci
+- audit_body_revisions: 0
