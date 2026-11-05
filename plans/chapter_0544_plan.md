@@ -36,5 +36,5 @@
 - audit_qa: qa/0544_report.md
 - audit_reader_counts: BLOCKER=0 MAJOR=0 MINOR=2
 - audit_qa_result: Continuity_PASS Style_PASS Meaningful_PASS
-- audit_structural_gate: pending_exact_candidate_ci
+- audit_structural_gate: exact_candidate_and_main_ci_success_42035218249_42035389369
 - audit_body_revisions: 0
