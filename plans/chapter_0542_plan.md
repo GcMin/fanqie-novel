@@ -7,10 +7,10 @@
 - phase: Planner / Continuity Precheck / Writer
 - status: draft
 - depends_on_chapter: 541
-- depends_on_source_sha: bb0b59466dfeb07c2ae5fc7e4a81fe896b4e2dd7
-- dependency_status: provisional
-- source_location: chapters/draft/0541.md
-- provisional_boundary: 第541章未独立审核，Day404何守礼本人真到诊/完成复诊、东侧门封和升降台停用，以及2019旧附件逐项核对起始登记仍仅作为绑定blob的临时连续性前情；非正式Canon。如前章修订，后续由独立Audit核兼容。
+- depends_on_source_sha: 5ec081d270b63b650eb4260e502c3cd0e600e491
+- dependency_status: verified_ready_same_title_body_facts
+- source_location: chapters/ready/0541.md
+- verified_boundary: 第541章原草稿bb0b5946与正式ready标题及正文逐字相同，差异仅交付Front Matter；其Day404何守礼本人真到诊完成复诊、东侧入口及升降设施仍停、2019附件只证逐项核对起始登记等依赖事实兼容，正式绑定ready SHA。
 - goal: 以“井盖真实完工但临时铺装改变水路”处置南岸路修鞋铺雨水险情，并让报修人本人获得真实回告，不把抢险等于店铺全面恢复。
 - POV: 第三人称有限视角，主要郑莹、夜间中心周衡与夏宁，少量马芸。
 - opening: Day405马芸拟查2019后续结果申请范围过宽被退回，重申仅收件；当晚井盖完工牌旁修鞋铺遭雨水倒灌。
@@ -26,7 +26,7 @@
 - new_information: 现代井盖施工附带临时坡会改变原浅沟排水路径；本次2019查阅没有新增史实。
 - meaningful_state_change: 进铺雨水改道被有责处理且短时观察，电气有责隔离，受影响订单一双实际交接；不能说全店已复业或赔款已核。
 - foreshadowing: F003程序链保持第541章暂时已见起始登记，不证2019最终复核核发寄达或历史自然人获答；F008/M004/M005及2016/2022跨源同一未证。
-- cannot_reveal: 2019旧档私人身份/具体人址/意见、核发寄达与历史人实际受答，以及终局世界真相；不得把541未审稿升级Canon。
+- cannot_reveal: 2019旧档私人身份/具体人址/意见、核发寄达与历史人实际受答，以及终局世界真相；已以正式541 ready版本逐项核准依赖边界。
 - ending: 店主只写“今日核单”，保留为客人交接但不重启涉水设备，下一次专业复核待办。
 - target_chars: 2600–3400 preferred; hard 2300–3800
 - actual_effective_chars: 3494
