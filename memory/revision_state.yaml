@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 558
-current_stage: chapter558_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0558.md
-current_source_sha: 9004efbeab7ef304d4f2747775e66b69307182f9
-current_review_path: reader_reviews/0558_9004efbe.md
+current_chapter: 559
+current_stage: chapter559_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0559.md
+current_source_sha: 1fe6301f5f62cc0e7ccc1acc63d057c0bbc0f1f8
+current_review_path: reader_reviews/0559_1fe6301f.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter558_stage_a_one_line_fix_new_sha_reader_qa_pass
+last_action: chapter559_stage_a_measurement_fix_new_sha_reader_qa_pass
 last_action_date: "2026-11-06"
 last_error: null
-last_diff_summary: "558原稿0/1/2；仅纠母亲昨日灯位复电的时间台词；新版重新审为0/0/2，独立内容QA PASS，候选CI待核"
+last_diff_summary: "559原稿0/1/2；仅纠拆板前测点位置及有效字数；新SHA复审0/0/2，独立内容QA PASS"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -5466,6 +5466,21 @@ combined_audit_chapter_558_20261106:
   stage_c_rounds: 0
   body_revisions: 1
   final_review: reader_reviews/0558_9004efbe.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required
+combined_audit_chapter_559_20261106:
+  original_sha: "b0826374c5175460d1410a9177291d36ec96fecf"
+  original_review: reader_reviews/0559_b0826374.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_after: "1fe6301f5f62cc0e7ccc1acc63d057c0bbc0f1f8"
+  stage: local_revision
+  fix: "10:27测点实际在外侧并更新3416有效字数"
+  stage_a_rounds: 1
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 1
+  final_review: reader_reviews/0559_1fe6301f.md
   final_reader: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
   structural_gate: exact_candidate_ci_required

@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 559
+title: "墙脚拆下第一块板，返家单仍空着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "1fe6301f5f62cc0e7ccc1acc63d057c0bbc0f1f8"
+original_source_sha: "b0826374c5175460d1410a9177291d36ec96fecf"
+reader_review: reader_reviews/0559_1fe6301f.md
+original_reader_review: reader_reviews/0559_b0826374.md
+depends_on_chapter: 558
+depends_on_source_sha: "78279fbe44a5ebcc5d52ea37fed20ff7fd76d88b"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day422 08:40—Day423 07:07"
+summary: >-
+  Day422母亲发现物业“修复进展正常”单栏不能回答“墙体潮湿、隔离电路、返住决定”三项，09:13落实各项责任岗位与下一反馈。10:27专业复测外侧测点一低一高，柜脚挡内侧，负责人先核所有权与隐线风险；13:52母亲只签有编号的有限拆检及原貌留存而非室内完工/弃索赔，14:24合法仅卸第一块可拆踢脚饰板，真见背面旧填料受潮，取样封存和照片留存，不能说新漏水、全部干燥、电气解封或复居。16:08约Day423 09:20条件式露出部位复测，未实际完成。母亲11:58与女儿通话，唐晓漫主动申请Day423早半天年假且获准，母亲接受共同见证。母女既有第三旅店双床房卡为Day421真付两晚到Day423中午，本章未再实付，街道支持赔偿仍未定。马芸09:46新申2019同批盒接收时随附清点纸有无原始登记，15:23获限许可，双有权保管员原簿实证当年“随盒清点纸一份”核收字段，16:01限摘，不证纸今日实物现存/是否逐页、原第73页是否随盒及其下落、补据暂缓解除、对外核发寄达或旧自然人实际获答。母亲20:11真回拨、22:06中心获档案限摘，Day423 07:07分项交班。
+meaningful_state_changes:
+  - "四楼外层高值湿区后方经合法有限拆板于Day422 14:24实见内侧旧填料受潮且编号留样，约定Day423 09:20条件式复测，不准复电和返住。"
+  - "唐晓漫主动请Day423早半天年假陪同有责复测，母亲首次主动要求共同见证并接受，但仍自主签认可核项目。"
+  - "F003确认2019同批盒接入当时原始登记存在随盒清点纸一份核收字段，不证纸当前存否及页级内容。"
+knowledge_updates:
+  - "母女知道外侧与内侧测点不同、旧柜后确有受潮填料，只获限定检测/留存，不代表可返住或街道补助已经批准。"
+  - "马芸和夜间中心仅知原始收件簿随盒清点纸一份字段，不知纸是否现存、逐页粒度、第73页下落、旧自然人受答及2016/2022同一。"
+relationship_updates:
+  - "母亲主动提出女儿到场见证，女儿选择请假参与而非代签，互信提升。吴叔表示不阻合法维修但要求有责通知噪声。"
+foreshadowing_updates:
+  - "F003由盒级实交接向盒级随附一张清点纸的原始核收证据小步推进，未证页级；F008/M004/M005及2016/2022跨源同一不升级。"
+ending_state: "Day423 07:07四楼一处旧踢脚饰板合法拆开并保留受潮样，Day423 09:20仅条件式预约，其他受水线路与返住仍待有责审查；第三旅店已付到Day423午；旧档仅随盒清点纸一份有当时核收记载，不知具体内容与旧人受答。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "b0826374c5175460d1410a9177291d36ec96fecf", final_draft_sha: "1fe6301f5f62cc0e7ccc1acc63d057c0bbc0f1f8", initial_counts: "0/1/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, fix: "10:27_behind_panel_measurement_to_accessible_outer_measurement_and_char_count_3416"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3416

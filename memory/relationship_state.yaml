@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 558
+last_updated_chapter: 559
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2729,4 +2729,13 @@ chapter_558_arc054_verified:
   mother_zeng_sister: "曾先生姐姐着急用水且有合法授权，母亲支持五楼经专业复供，却明确双方不互相担保；试水第一次失败后双方等待专业第二次具名核合才共同接受恢复事实。"
   mother_property: "母亲要求有责岗位将五楼实际复水和四楼尚需潮湿、电气、返住三项签认分开，不接受模板泛称整屋已好。"
   ma_yun_colleague: "马芸依据两端原始簿阻止把2019整盒实际交接误读为单页第73页已转存或旧人收到答复，维持权限边界。"
+  trust_scores_unchanged: true
+
+chapter_559_arc054_verified:
+  chapter: 559
+  source_sha: "1fe6301f5f62cc0e7ccc1acc63d057c0bbc0f1f8"
+  mother_daughter: "母亲面对父亲旧饰板第一次主动提出女儿到现场见证，唐晓漫决定用半天年假陪Day423 09:20复测而非替母亲签字；母亲尊重女儿参与且仍保留自己授权和索赔决定。"
+  mother_property: "物业分出含水、电路与返住的有责岗位，母亲拒‘室内修复完成’旧联，只限项同意拆一块旧饰板并要求拍照、记录材料和损伤；专业检测不代有权部门签整屋可住。"
+  mother_wu_uncle: "吴叔提出孙子午睡噪声诉求，认可四楼必要检测，但要求如有后续施工必须提前通知具体时段。"
+  ma_yun_colleague: "马芸与有权保管员坚持只核2019随盒清点纸存在性的原始登记，纠正年轻保管员把一份纸等同逐页清单的推断。"
   trust_scores_unchanged: true
