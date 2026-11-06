@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 573
+title: "材料有了名字，回家的日期没有"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "2e050dc47b9e337c8f647cb5728c9a9cf6e77058"
+source_draft_sha: "d16460f283b12abb8f473a3a93ed95fe73b68e99"
+initial_review: reader_reviews/0573_2e050dc4.md
+reader_review: reader_reviews/0573_d16460f2.md
+depends_on_chapter: 572
+depends_on_source_sha: "c787b43f4d04a0abab0dc788712d27466d87066c"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day436 08:17—Day437 07:09"
+summary: "Day436 08:17梧楠路公寓原双床房两卡先前Day434真付到当日中午，Day435仅询房态而未预订；Day436 10:54物业具名说明中午前没有新增付款指令，11:08母亲本人账户按新实价确实自付原有梯双床房接续一晚Day436午—Day437午，电子单与双卡真试；押金不重复列入所得，女儿此前家庭转账不作为物业垫付或赔责结清，街道支持与未来赔责未批。 Day431获准从四楼12厘米口采灰色薄衬小样，Day434 14:42受托实验室实收；Day436 13:26首次送出带原完整封号的正式受限材料识别意见：所收局部样本含纤维性薄衬与一侧胶黏残留，在有限测试条件下有吸湿与胶黏变化特征。该报告不是原设计用途、全段材料含水率、施工年代、漏源、电气安全及整屋可住的结论。15:38有责人员在原12厘米口复核前Day435侧光发现的旧胶/灰衬缝和原封编号，16:02仅真签报告收件与原现场保护状态，工人未扩拆，父亲带铅笔线旧板仍独号封存；四楼仅客厅原批准一条照明支路有限可用，其他受水回路隔离、整屋返住不准；五楼西户合法有限复水不变。 Day435马芸把2019同拟办号补正通知后的非身份收件目录申请缩到目录存在性，16:12真实收件待审。Day436 14:40取得仅查该目录的限项许可，双岗16:27见一行后编“补据材料候选登记 / 待核原件接入”，本次许可中无对应的原始签收号；17:09去身份摘录出具。只证后编候选索引存在，不证2019补据材料真收、补正完成、批准移交、旧袋今日存址、原第73页及历史自然人实获答。 Day436母亲20:34本人实际回拨夏宁，确认自己11:08续住原房一夜、物业未付、材料报告局部特性与新作业许可不可混合；周衡确认原封号与12厘米开口未扩、受水线路隔离；梁策提醒不要把材料报告当工程许可，22:21马芸限项后编目录摘录到夜班，Day437 07:09分项交班，历史实物袋状态仍待独立核。"
+meaningful_state_changes:
+  - "Day436 10:54物业确实告无新增周转款，母亲11:08真实自费续梧楠路可达原双床房一晚至Day437午、两卡实际试开。"
+  - "受托实验室13:26就Day431封样首次真出带号受限材料识别意见，15:38/16:02专业核报告和原12厘米口，只证明小样纤维衬胶层的有限吸湿特性，不证余段用途、复电或返住。"
+  - "2019补正拟办号旧档获新合法限项目录许可、16:27查到后编候选补据登记而无原始签收证，历史旧人受答/袋今址/原第73页仍未知。"
+knowledge_updates:
+  - "母女知道续住付款有效至Day437午、报告已真发但不证墙材全部可拆或整屋复居；家庭分担和物业赔责没有混账。"
+  - "马芸和中心知后编候选目录存在，不知2019有无原始补据实收或封袋去向及第73页和旧人获答。"
+relationship_updates:
+  - "唐晓漫最初建议考虑便宜的旁楼单床房却漏看需爬两层楼梯，母亲解释可达性和身体负担不能只按房价决定，女儿认错并不再催转账，两人共同维持药费、通勤与住宿预算；母亲依权限单独拒绝物业将样本报告误用作修复或返住签认。"
+  - "马芸与保管员坚持后编候选不等于真原件，物业/专业只可在授权范围分阶段核查。"
+foreshadowing_updates:
+  - "F003仅新增后编补据候选目录与待核原件状态；F008/M004/M005、2016旧封/2022电子字节同一均未证。"
+ending_state: "Day437 07:09短住房由母亲真付至当日中午且下夜未付款；材料小样已有有限正式报告，原12厘米开口、父亲旧板和受水回路原保护均未升级，整屋返住不准；2019补据只有后编候选目录、原始真收与旧袋/原第73页/历史实受答未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "2e050dc47b9e337c8f647cb5728c9a9cf6e77058", final_draft_sha: "d16460f283b12abb8f473a3a93ed95fe73b68e99", initial_counts: "0/1/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "rebind_chapter572_provisional_to_ready_SHA_after_identical_title_body_comparison"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3399

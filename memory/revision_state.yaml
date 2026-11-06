@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 572
-current_stage: chapter572_no_revision_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0572.md
-current_source_sha: e5f051b6f42c58d392d37031393b81eb0177e74e
-current_review_path: reader_reviews/0572_e5f051b6.md
+current_chapter: 573
+current_stage: chapter573_stageA_dependency_fixed_newSHA_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0573.md
+current_source_sha: d16460f283b12abb8f473a3a93ed95fe73b68e99
+current_review_path: reader_reviews/0573_d16460f2.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,7 +12,7 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter572_reader_0_0_2_no_revision_content_qa_pass
+last_action: chapter573_stageA_dependency_rebind_rereview_0_0_2_content_qa_pass
 last_action_date: "2026-11-07"
 last_error: null
 last_diff_summary: "567原稿3770578955db85403fb341d1cb894054ca9709dd独立双遍Reader0/0/2，直接前章566正式ready SHA精确一致，小说正文0字修订，独立Continuity/Style/Meaningful QA PASS，待精确候选CI"
@@ -5682,4 +5682,22 @@ chapter_572_arc054_verified:
   content_qa: pass
   predecessor_ready_sha: "524cda53d33ffdfcdee8afaf3fa23d0dd8331568"
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_success_required
+
+chapter_573_arc054_verified:
+  chapter: 573
+  original_source_sha: "2e050dc47b9e337c8f647cb5728c9a9cf6e77058"
+  final_draft_sha: "d16460f283b12abb8f473a3a93ed95fe73b68e99"
+  stage_a_rounds: 1
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  original_reader: {blocker: 0, major: 1, minor: 2}
+  review_before: reader_reviews/0573_2e050dc4.md
+  review_after: reader_reviews/0573_d16460f2.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  predecessor_old_sha: "e5f051b6f42c58d392d37031393b81eb0177e74e"
+  predecessor_ready_sha: "c787b43f4d04a0abab0dc788712d27466d87066c"
+  dependency_status: verified_ready_same_title_body_facts
   structural_gate: exact_candidate_ci_success_required
