@@ -28,5 +28,17 @@ foreshadowing_updates:
 ending_state: "Day424 07:06旧饰板已编号独存、获准小段受潮填料实际移出，Day424 10:00仅条件式复核，四楼仍未获返住许可；第三旅店已真付到当日中午；2019随盒附纸仅现行目录待点验索引存在而实物内容与历史受答仍未知。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "6a7b54a94af609d9b2b4214bf6e0a1cedff3a3e3", final_draft_sha: "6a7b54a94af609d9b2b4214bf6e0a1cedff3a3e3", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3681
+
+release_evidence:
+  ready_blob: "e1677401cdc447842965493e235273e2e242fb47"
+  release_commit: "d197cf8682436ded82a383ec9812a3f6b606a86b"
+  candidate_ci: 42167532269
+  main_ci: 42167583225
+  candidate_ci_conclusion: success
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  evidence_file: qa/0560_release_evidence_20261106.md
