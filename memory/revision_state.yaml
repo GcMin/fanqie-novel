@@ -5649,3 +5649,22 @@ chapter_570_arc054_verified:
   content_qa: pass
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_success_required
+
+chapter_571_arc054_verified:
+  chapter: 571
+  original_source_sha: "78e4078b6e2f8800c2642f1972c9a5dab8390a32"
+  original_review: reader_reviews/0571_78e4078b.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_after: "d2dc766b7102cefcda07ce98e0f3443a45ec78fc"
+  stage: local_revision_metadata_only
+  fix: "rebind_570_provisional_to_formal_ready_sha_after_identical_title_body_comparison"
+  stage_a_rounds: 1
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  review_after: reader_reviews/0571_d2dc766b.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  predecessor_ready_sha: "bb66687fdea0f6a17ac31537bae8c5aa71dd0d89"
+  dependency_status: verified_ready_same_title_body_facts
+  structural_gate: exact_candidate_ci_success_required

@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 571
+title: "封样进了检测室，回家那栏仍空着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "78e4078b6e2f8800c2642f1972c9a5dab8390a32"
+source_draft_sha: "d2dc766b7102cefcda07ce98e0f3443a45ec78fc"
+initial_review: reader_reviews/0571_78e4078b.md
+reader_review: reader_reviews/0571_d2dc766b.md
+depends_on_chapter: 570
+depends_on_source_sha: "bb66687fdea0f6a17ac31537bae8c5aa71dd0d89"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day434 08:27—Day435 07:08"
+summary: >-
+  Day434母亲清晨知昨日自付梧楠路原房一晚到当日中午，物业09:10欲将三点监测取回勾成具备恢复条件而被母亲拒绝；9:46女儿完成本月检查预约费、药费及交通预算核实，真实向母亲转家庭临住分担款但未代签责任结清。母亲10:23按公寓当日实价通过本人账户真付原双床房接续两晚至Day436中午、更新两卡实际试开并获得收据，旧物业三晚与Day433本人一晚均不重复计费，街道补助赔责仍待核。四楼10:51专业人员核Day431留样灰薄衬封口、位置和编号，11:12仅交一袋依法送检；14:42受托实验室实际按封签接收并出材料识别/吸湿特性参考的收样单，报告尚未生成，也未检查受水路径或认定整屋可住。15:20专业新安排仅拟Day435先核构造/现场，不扩大12厘米开口，不移封父亲有铅笔线旧饰板，不复受水电路或返住；三楼吴叔仅知当天无新增机具施工。马芸10:05合法窄项申请、15:16获准，两名有权保管员对照2019资料复核台通知发出簿与拟办岗收件簿，确认同一拟办单关联补正通知确实双端实际交接，内容「归属依据未齐，暂缓就本拟办申请作出移交决定；补明后另报」；仅纸面通知双端真实流转，不能推历史封袋物理存留或此后从未另行移交、今存袋位、原第73页及历史自然人真获答。母亲20:31回拨、22:16旧档限项摘录到夜间中心、Day435 07:08交班，仍只有四楼客厅一条照明支路可在原批准范围有限用，其余受水电路及整屋返住未准，五楼西户Day421有限复水不变。
+meaningful_state_changes:
+  - "Day434女儿真实转账家庭房费分担、母亲10:23自本人账户支付原房两晚至Day436中午并实际验两张房卡，未代物业赔偿结清。"
+  - "Day431原封灰薄衬小样Day434 11:12有权交送、14:42受托实验室确实实收并出编号收样单，材料报告尚未出。"
+  - "F003新证2019旧拟办单关联内部补正通知发出端与拟办岗位收件端双簿互证实交实收，仅本次申请暂缓待补，袋后事未知。"
+knowledge_updates:
+  - "母女知道短住真付至Day436中午，三点记录数据已取并非墙体含水验收，样品受托实验室实收但报告未出，专业待执行新核不等于已复装/返住。"
+  - "马芸及夜班中心仅有2019拟办单暂缓待补通知双端实际收发，不知另报后续、封袋现址/第73页、历史本人真获答。"
+relationship_updates:
+  - "女儿从协助预算推进为实际家庭房费分担但不替母亲签责任/返住结清，母亲接受并保留每笔支付证据；共同继续保护父亲旧饰板铅笔痕。"
+  - "吴叔仅得到当日无噪声施工核实，不放弃未来施工告知。"
+foreshadowing_updates:
+  - "F003新增历史内部补正通知双端收发证明，只代表当次拟办暂缓而非永久无移交；F008/M004/M005和2016旧封/2022字节同一均无新确证。"
+ending_state: "Day435 07:08母女原双床短住房母亲真付到Day436午且家庭内分担真实存在，灰薄衬样本实验室实收待报告，Day435仅拟有权材料现场核查；四楼旧板独存、受水线路隔离、整屋仍不能返住；2019补正通知双端真传而袋后移交及原第73页、历史自然人真获答未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "78e4078b6e2f8800c2642f1972c9a5dab8390a32", final_draft_sha: "d2dc766b7102cefcda07ce98e0f3443a45ec78fc", initial_counts: "0/1/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "rebind_chapter570_provisional_to_ready_sha_after_identical_title_body_comparison"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3620

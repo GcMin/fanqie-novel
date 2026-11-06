@@ -6387,3 +6387,25 @@ chapter_570_arc054_verified:
   predecessor_ready_sha: "5dd0ed50a287d9eb65583575f47694f00b825066"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_success_required
+
+chapter_571_arc054_verified:
+  chapter: 571
+  title: "封样进了检测室，回家那栏仍空着"
+  original_source_sha: "78e4078b6e2f8800c2642f1972c9a5dab8390a32"
+  initial_review: reader_reviews/0571_78e4078b.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_path: chapters/draft/0571.md
+  source_sha: "d2dc766b7102cefcda07ce98e0f3443a45ec78fc"
+  review_path: reader_reviews/0571_d2dc766b.md
+  reviewer_mode: independent_pass_a_then_b_on_new_git_blob
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_old_provisional_sha: "f588312977df6e914c8d00d3c3f44e5e0e6ebf45"
+  predecessor_ready_sha: "bb66687fdea0f6a17ac31537bae8c5aa71dd0d89"
+  dependency_status: verified_ready_same_title_body_facts
+  structural_gate: exact_candidate_ci_success_required
