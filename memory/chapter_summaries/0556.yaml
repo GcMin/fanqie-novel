@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 556
+title: "新线装进墙里，回家还差一次验收"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "37388e6875a05277e4113c307f89760810f9caec"
+source_draft_sha: "b50602347af27c184f6bab5457fe54a75a6ca928"
+initial_review: reader_reviews/0556_37388e68.md
+reader_review: reader_reviews/0556_b5060234.md
+depends_on_chapter: 555
+depends_on_source_sha: "1eec1d1af7120afab62fcc5f4ecf1788bdb8996f"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day419 08:23—Day420 07:06"
+summary: >-
+  Day419母亲09:05核Day418获批的11:00—12:30限项施工条件，10:04自费续第三家有梯旅店原双床一晚至Day420中午，午后双房卡真实更新并试刷，街道住宿支持与赔责仍待核。电工10:49到场，11:07识别混入他项备料并按规格退回，11:29才在断电隔离下真拆旧段，12:08有限更换连接段并将旧件留编号封存，12:22责任岗撤场及三楼吴叔实际获停工告知；受水接线盒及关联线路后续专业复验未通过，不准合闸/返住，五楼西户水分支仍限停。马芸09:43新窄申10:15收件14:43获准，两名有权保管员以2019原转查单核原簿，证第二编目岗位确曾在指定架位按当时目录真查未见目标来源页，旁记目录移位卡待对照但移位卡号和去向未获权限；16:07限摘，22:04中心有界收报，不证明全库遗失、旧暂缓解除、核发寄达、历史个人实际获答或2016/2022跨源同一。20:11母亲本人实回拨，Day420 07:06中心分项交班。
+meaningful_state_changes:
+  - "四楼受水灯位限定连接段由Day418拟施工推进为Day419 12:08真正更换、有编号旧件与署名记录；专业复验、复电和复居仍未完成。"
+  - "母亲Day419实际自费再续第三家有梯旅店原房至Day420中午，更新并实测两张房卡；下一晚及支持费用待核。"
+  - "2019另一编目岗位从已真签收进至确曾查第二处指定架位却未见来源页，发现未核的目录移位卡线索。"
+knowledge_updates:
+  - "母女及吴叔知道限定换线真完成、当次噪声于12:22真实结束，但住户与水电不具备返住许可；街道支持赔责均未核定。"
+  - "马芸与中心仅依法知2019第二架位有源真查未见，未获移位卡号去向，不知全库结果、旧自然人获答或2016/2022同一。"
+relationship_updates:
+  - "母亲坚持签收只对应实际施工，唐晓漫亲认更换段与两接点；吴叔只签当次停工告知，继续保留以后施工噪声反馈。"
+foreshadowing_updates:
+  - "F003有源推进第二指定架位实查未见并露出待核目录移位卡；不推原件永久遗失、补据解除暂缓、历史对外答复；F008/M004/M005不升级。"
+ending_state: "Day420 07:06受水连接段已有限真换、整回路仍断电/未获复居许可，五楼西户供水继续限停；母女真续有梯旅店至Day420午，下一晚未订；2019两处限项核位未见但移位卡和历史本人真正获答未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "37388e6875a05277e4113c307f89760810f9caec", final_draft_sha: "b50602347af27c184f6bab5457fe54a75a6ca928", initial_counts: "0/2/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, fix: "rebind_555_ready_sha_and_old_wire_photo_before_actual_disassembly"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3278

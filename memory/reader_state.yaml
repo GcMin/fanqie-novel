@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 555
-last_reviewed_title: "施工单有了日期，回家的日子还没填"
-last_source_path: chapters/draft/0555.md
-last_source_sha: 34e37cc00e2d852367ab65bc3675b690e3021a87
-last_review_path: reader_reviews/0555_34e37cc0.md
+last_reviewed_chapter: 556
+last_reviewed_title: "新线装进墙里，回家还差一次验收"
+last_source_path: chapters/draft/0556.md
+last_source_sha: b50602347af27c184f6bab5457fe54a75a6ca928
+last_review_path: reader_reviews/0556_b5060234.md
 last_reviewed_at: "2026-11-06"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,8 +12,8 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 554
-depends_on_source_sha: 9d7c7ea16f123752b7b067990c92f29017fcc658
+depends_on_chapter: 555
+depends_on_source_sha: 1eec1d1af7120afab62fcc5f4ecf1788bdb8996f
 dependency_status: verified_exact_ready_blob
 predecessor_current_source_sha: 9d7c7ea16f123752b7b067990c92f29017fcc658
 predecessor_sha_mismatch: false
@@ -6116,4 +6116,24 @@ combined_audit_chapter_555_20261106:
   independent_qa: pass
   predecessor_ready_sha: "9d7c7ea16f123752b7b067990c92f29017fcc658"
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_556_20261106:
+  chapter: 556
+  initial_source_sha: "37388e6875a05277e4113c307f89760810f9caec"
+  initial_review: reader_reviews/0556_37388e68.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  local_revision_rounds: 1
+  source_sha: "b50602347af27c184f6bab5457fe54a75a6ca928"
+  review_path: reader_reviews/0556_b5060234.md
+  reviewer_mode: independent_pass_a_then_b_on_new_git_blob
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "1eec1d1af7120afab62fcc5f4ecf1788bdb8996f"
+  dependency_status: verified_ready_same_title_body_facts
   structural_gate: exact_candidate_ci_required_before_main
