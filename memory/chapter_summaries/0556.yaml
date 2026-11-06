@@ -30,5 +30,19 @@ foreshadowing_updates:
 ending_state: "Day420 07:06受水连接段已有限真换、整回路仍断电/未获复居许可，五楼西户供水继续限停；母女真续有梯旅店至Day420午，下一晚未订；2019两处限项核位未见但移位卡和历史本人真正获答未知。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "37388e6875a05277e4113c307f89760810f9caec", final_draft_sha: "b50602347af27c184f6bab5457fe54a75a6ca928", initial_counts: "0/2/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, fix: "rebind_555_ready_sha_and_old_wire_photo_before_actual_disassembly"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_and_main_ci_success}
 char_count: 3278
+
+release_evidence:
+  structural_gate: exact_candidate_and_main_ci_success
+  ready_blob: "11477ec8659ffa4d6a26a40b533a8fb7e1bfcc32"
+  release_commit: "0c0740a4a041a0a526166174304b913887239333"
+  candidate_tree: "587a3839c9f85ff6e69b49a7d920f80d7c934712"
+  candidate_ci: 42145354287
+  main_ci: 42145425933
+  candidate_ci_conclusion: success
+  main_ci_conclusion: success
+  structural_unit_tests: pass
+  publisher_check_local: pass
+  main_ref_update: expected_sha_force_false_success
+  evidence_file: qa/0556_release_evidence_20261106.md
