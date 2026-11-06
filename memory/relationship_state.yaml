@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 560
+last_updated_chapter: 561
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2746,4 +2746,12 @@ chapter_560_arc054_verified:
   mother_daughter: "Day423唐晓漫真用半天年假陪母亲现场对比测点，只有母亲在新许可范围内签有限清除、女儿仅签见证；发现父亲旧板铅笔记号后两人一致要保留原板，分别编号封存湿料；两人共同算房费，母亲自主11:59续第三店一晚，不视女儿出钱为替代本人决定。"
   mother_property: "主管出示独立的原饰板留存和受潮填料有限清除两组记录，母亲只认可被允许的清除与见证，不签『返住验收』或事后赔偿定论；专业负责人明示内层高湿不等于楼上新漏源。"
   ma_yun_colleague: "马芸坚持当年随盒纸核收和现行待点验目录索引不同于现物证据；两有权保管员排除相近盒号且承认未见纸，保留未来最窄实物点验仍未申请。"
+  trust_scores_unchanged: true
+
+chapter_561_arc054_verified:
+  chapter: 561
+  source_sha: "01912c6932191b3405570fa56b6280de591838ea"
+  mother_daughter: "女儿照常上班远程核昨日旅店扣款与未来两夜预算；母亲自主按实时房价真正续住并保留药费车费，不把资助受理或女儿参与当成代签。"
+  mother_property: "母亲坚持专业复核按位置和责任写实，不以外侧读数下降恢复旧板、电气或返住；吴叔只获当前无干燥机运行安排的回答。"
+  ma_yun_colleague: "马芸与两保管员排除异批近号封套，明确现行外标实物与2019内纸及旧第73页非同一证明层级。"
   trust_scores_unchanged: true

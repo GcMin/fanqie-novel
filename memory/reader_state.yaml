@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 560
-last_reviewed_title: "旧木板留在袋里，返家日还不能签"
-last_source_path: chapters/draft/0560.md
-last_source_sha: 6a7b54a94af609d9b2b4214bf6e0a1cedff3a3e3
-last_review_path: reader_reviews/0560_6a7b54a9.md
+last_reviewed_chapter: 561
+last_reviewed_title: "墙根又测了一次，封套仍未拆开"
+last_source_path: chapters/draft/0561.md
+last_source_sha: 01912c6932191b3405570fa56b6280de591838ea
+last_review_path: reader_reviews/0561_01912c69.md
 last_reviewed_at: "2026-11-06"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 559
-depends_on_source_sha: 3b73b0f9b7c729ac0743750042ba5e16674656e0
+depends_on_chapter: 560
+depends_on_source_sha: e1677401cdc447842965493e235273e2e242fb47
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 3b73b0f9b7c729ac0743750042ba5e16674656e0
+predecessor_current_source_sha: e1677401cdc447842965493e235273e2e242fb47
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6207,5 +6207,21 @@ combined_audit_chapter_560_20261106:
   reader_gate: pass
   independent_qa: pass
   predecessor_ready_sha: "3b73b0f9b7c729ac0743750042ba5e16674656e0"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: requires_precise_candidate_ci_success_before_main
+
+combined_audit_chapter_561_20261106:
+  chapter: 561
+  source_sha: "01912c6932191b3405570fa56b6280de591838ea"
+  review_path: reader_reviews/0561_01912c69.md
+  reviewer_mode: independent_pass_a_then_b_exact_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "e1677401cdc447842965493e235273e2e242fb47"
   dependency_status: verified_exact_ready_blob
   structural_gate: requires_precise_candidate_ci_success_before_main

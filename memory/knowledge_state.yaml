@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 560
+last_updated_chapter: 561
 characters:
   zhou_heng:
     knows:
@@ -3074,3 +3074,17 @@ chapter_560_arc054_verified:
     knows: "母亲20:14实回拨陈述有限清除、旅店实付与次日条件式复核；22:08获有源去身份目录级摘录。"
     unknown: "专业未完成的返住审批及历史目标页真实下落；不得擅自替主管与档案馆断言。"
   shared_invariants: "F003只到现行待点验索引，无2016封回告与2022读取字节同一证据，不新添F008/M004/M005。"
+
+chapter_561_arc054_verified:
+  chapter: 561
+  source_sha: "01912c6932191b3405570fa56b6280de591838ea"
+  mother_daughter:
+    knows: "Day424墙脚外侧局部下降但邻点仍不合格不准复装，住宿至Day425午已真付，未来两晚只预算无预订。"
+    unknown: "整屋何时干燥、电气何时解封、能否返住及政府支持或物业赔款何时到账。"
+  ma_yun:
+    knows: "现行库位真有一只封套且其外部标记与待点验现行目录关联，另一异批同形封套已排除。"
+    unknown: "封内是不是当年原清点纸、原第73页是否在内、补据解除或历史当事人真正得答。"
+  center_team:
+    knows: "母亲20:19实回拨分点复测与续住；22:11收到依法限项封套外部摘录。"
+    unknown: "四楼真正返住许可及历史原纸内容，不得推2016封件和2022字节同一。"
+  shared_invariants: "F003限到外部现物，F008/M004/M005不升级。"

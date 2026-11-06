@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 561
+title: "墙根又测了一次，封套仍未拆开"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "01912c6932191b3405570fa56b6280de591838ea"
+reader_review: reader_reviews/0561_01912c69.md
+depends_on_chapter: 560
+depends_on_source_sha: "e1677401cdc447842965493e235273e2e242fb47"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day424 08:22—Day425 07:08"
+summary: >-
+  Day424第三家有梯旅店撤连住优惠，母亲08:22问11:30前原房可保与实时价，现卡到当日中午。仁合里四楼10:01执行前章条件式专业复核，10:17外侧测点较前降、10:29邻近柜脚可及点仍高，10:54出具署名局部检测结论、旧饰板不复装，其他受水电路与返住仍未签准。11:21母亲按实价真付第三家旅店原主楼双床一晚至Day425中午并更新试刷双房卡，女儿核银行单笔旧扣款并列未来两晚可达房型预算，街道支持和物业赔责无结论。马芸10:12合法收最窄现行封套外观申请，15:41仅外部核验获准，双有权保管员排除异批相似信封后16:03实际点到与现行待点验项目号及旧盒批次转写标识对应的一只封套，16:35得去身份摘录，不拆封、不认2019原清点纸存在于内或第73页去向、旧人历史实际受答。20:19母亲真回拨，22:11旧档限项资料到夜间中心；Day425 07:08分项交班四楼一条客厅照明有限可用，其他电路与返住仍未准、旧板独存，五楼西户既有有限复水不变。
+meaningful_state_changes:
+  - "Day424有责专业复核实际完成，局部下降但邻点仍不合格，不予复装旧板或批准返住。"
+  - "11:21母亲真付第三旅店原房一晚至Day425午并试刷双卡，女儿共同制定未来住宿备选。"
+  - "F003双岗从现行待点验目录索引推进到对应封套外部实物可点到，不确认内纸、第73页或历史个人受答。"
+knowledge_updates:
+  - "母女知道墙体局部改善不能当整屋达标，电路和返住仍未过；街道支持和赔责不能作为已到现金。"
+  - "马芸及夜间中心只知现行封套外标对应当前目录，内纸、旧第73页和历史本人受答不知。"
+relationship_updates:
+  - "母女共同核扣款及预算，继续保留母亲自主支付与复居签字权。"
+  - "马芸与两保管员通过排除相似封套避免编号误配。"
+foreshadowing_updates:
+  - "F003外部现物有限推进，F008/M004/M005与2016/2022字节同一均无新证。"
+ending_state: "Day425 07:08四楼墙脚一处改善相邻仍湿，其他受水电路和整屋返住未解封；第三旅店实付至Day425午；2019现行封套外标实物可核而内容及历史受答未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "01912c6932191b3405570fa56b6280de591838ea", final_draft_sha: "01912c6932191b3405570fa56b6280de591838ea", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3456
