@@ -8,16 +8,16 @@
 - status: draft
 - qa: pending
 - depends_on_chapter: 570
-- depends_on_source_sha: f588312977df6e914c8d00d3c3f44e5e0e6ebf45
-- dependency_status: provisional
-- predecessor_source_path: chapters/draft/0570.md
+- depends_on_source_sha: bb66687fdea0f6a17ac31537bae8c5aa71dd0d89
+- dependency_status: verified_ready_same_title_body_facts
+- predecessor_source_path: chapters/ready/0570.md
 - proposed_timeframe: Day434 08:27—Day435 07:08
 - target_effective_chars: 2600—3400（硬限2300—3800）
 - actual_effective_chars: 3620
 - count_method: Unicode码点，含标点，不含Front Matter、空白与独立***场景分隔符
 
 ## 目标和 POV
-第三人称限知：唐晓漫母亲为生活与现场主视角，唐晓漫补充经济/记录，马芸负责限定2019档案核查，夏宁、周衡、梁策分源接收。将暂住费用、三点监测数据、样本实际收件与检验结论、旧案内部通知与封袋流转严格区分。前第570章在读取main时仅有未审草稿，特定Git Blob SHA为f588312977df6e914c8d00d3c3f44e5e0e6ebf45；所有事实只是provisional依赖，绝不视为正式Canon。
+第三人称限知：唐晓漫母亲为生活与现场主视角，唐晓漫补充经济/记录，马芸负责限定2019档案核查，夏宁、周衡、梁策分源接收。将暂住费用、三点监测数据、样本实际收件与检验结论、旧案内部通知与封袋流转严格区分。原第570章在Writer创建本章时仅有临时draft（Blob f588312977df6e914c8d00d3c3f44e5e0e6ebf45）。Audit已逐字比较该临时稿与正式ready Blob bb66687fdea0f6a17ac31537bae8c5aa71dd0d89：标题与小说正文完全相同，仅交付元数据改变；现已精确绑定前章正式ready，事实兼容，不再将provisional视为Canon。
 
 ## 开场、人物诉求与冲突
 上一章暂存文本事实：Day433母亲10:42自己按实价付梧楠路原房一晚到Day434中午，物业09:29确实回复但仍无新增费用付款；Day433 14:11三台电池温湿记录器满24小时后取回，14:27真实导出原始数据，深角/外侧/室内趋势不同，不能据此验墙体或批准返住；Day431灰薄衬小样已留样，材质及来源待查，父亲旧饰板独封。四楼仅客厅照明一支路有限可用、其他受水电路与整屋返住未准，五楼西户Day421合法有限复水。2019同封签散页袋历史复核台真签收、有本站暂存码、后续流转拟办单当年确登记，尚无正式移交与下站签收证据。
@@ -34,3 +34,8 @@
 ## 新信息与状态变化
 Day434临时住房两晚确实自付到Day436中午，女儿家庭内部分担而不代签；灰薄衬样本从采存推进至实验室有编号真实签收但无结果；2019历史拟办单有独立补正通知双端真交接，证明该单当时暂缓待补而非旧袋随后永久不动。
 F003只增加该有界事实，不确认当年原第73页是否在散页袋、现袋今址、后续另报/真实移交、历史自然人获答；2016旧封与2022文件字节同一未知，F008/M004/M005不升级。政府支持与赔责未批，旧板独号、隔离受水回路与整屋禁止返住不变；不得让夜班中心/家人代专业人员签字。结尾进入Day435，需后续另行实际执行检查并再有源核旧袋后路；本轮只创建新章纲与draft，不执行Editor/Reader/Revision/QA/Memory/Publish。
+
+## Audit Stage A修订记录（2026-11-07）
+- 原第570章临时草稿SHA: f588312977df6e914c8d00d3c3f44e5e0e6ebf45；正式ready SHA: bb66687fdea0f6a17ac31537bae8c5aa71dd0d89。
+- 已独立比较小说标题与全部正文，逐字完全相同，交付Front Matter有变化；本章不需要改变事件和正文。
+- 本章Front Matter及章纲依赖改绑正式ready，`dependency_status=verified_ready_same_title_body_facts`。原 Reader `reader_reviews/0571_78e4078b.md` 的MAJOR已局部修复；修订后新Blob必须重新独立双遍Reader，不继承旧Review结果。
