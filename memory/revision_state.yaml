@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 565
-current_stage: chapter565_no_revision_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0565.md
-current_source_sha: 0c8014019a474b5d9e2c6a6bc9370e5dbb95afe0
-current_review_path: reader_reviews/0565_0c801401.md
+current_chapter: 566
+current_stage: chapter566_stage_a_metadata_only_newSHA_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0566.md
+current_source_sha: 2ef4fb82cec077c7192a5b59e69cba75ececb830
+current_review_path: reader_reviews/0566_2ef4fb82.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter565_initial_reader_0_0_2_content_qa_pass_no_revision
+last_action: chapter566_stageA_metadata_rebind_then_newSHA_reader_0_0_2_content_qa_pass
 last_action_date: "2026-11-06"
 last_error: null
-last_diff_summary: "565首次Reader0/0/2，依赖564正式ready精确一致，正文0字修订，独立QA PASS，精确候选CI待验"
+last_diff_summary: "566原稿00975760b0aa46c0069a12286214be6d7c223363先Reader0/1/2，Stage A只将565依赖SHA由旧草稿改正式ready且逐字正文兼容，小说正文0字修订，新draft2ef4fb82cec077c7192a5b59e69cba75ececb830新Reader0/0/2，独立QA PASS，待精确候选CI"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 0c8014019a474b5d9e2c6a6bc9370e5dbb95afe0
+current_review_source_sha: 2ef4fb82cec077c7192a5b59e69cba75ececb830
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -5568,4 +5568,22 @@ chapter_565_arc054_verified:
   final_reader: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
   dependency_status: verified_exact_ready_blob
+  structural_gate: requires_precise_candidate_ci_success_before_main
+
+chapter_566_arc054_verified:
+  chapter: 566
+  original_source_sha: "00975760b0aa46c0069a12286214be6d7c223363"
+  original_review: reader_reviews/0566_00975760.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_after: "2ef4fb82cec077c7192a5b59e69cba75ececb830"
+  stage: local_revision_metadata_only
+  fix: "rebind_565_provisional_to_formal_ready_sha_after_identical_title_body_comparison"
+  stage_a_rounds: 1
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  review_after: reader_reviews/0566_2ef4fb82.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  dependency_status: verified_ready_same_title_body_facts
   structural_gate: requires_precise_candidate_ci_success_before_main
