@@ -29,6 +29,6 @@
 - cannot_reveal: 不以五楼水表真走字、单照明支路真复电或低柜露出就认定四楼可复居；不能把普通局部残湿等同新漏点或一次含水读数当全部电路验收；不把住户有限拆检同意等同放弃赔偿或装修全部拆除；不让马芸越档案许可查页件/身份或将随盒一份清点纸夸称目标页单件确在。
 - ending: Day423 07:07四楼第一块饰板已按有责范围拆下并留证、露出部位翌日上午需再核，其他受水电路和复居都未准；旅店已付款有效到中午，没有新增入住或政府补助/赔责。2019同批盒有随盒清点纸一份的当时核收字段，但未看过内容及目标页，旧人是否收到真实答复仍未知。
 - target_chars: 2600—3400 preferred; 2300—3800 hard
-- actual_effective_chars: 3412
+- actual_effective_chars: 3416
 - count_method: 排除YAML Front Matter、独立***分隔符和所有空白，按Unicode码点计算，标点计入。
 - precheck: 本轮重新从GitHub main读取四份执行协议、Bible四份与周衡/夏宁/梁策人物卡、当前卷及滞后的arc_current纲、最新长期Memory人物/关系/知识/世界/伏笔与时间线、549—558最近十章摘要和554—558最近五章ready正文及相邻详细章纲/计划。已核published存在0153《人没回来，表先签完了》，最新ready为0558且draft无数值章，故目标0559。卷/arc纲滞后于已确认章节，以已审正文和当前Memory为准。仅执行Planner/Continuity Precheck/Writer，不读取历史Reader Reviews，不修改既有章节，不做Audit/QA/Memory/Publish Gate。
