@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 560
+title: "旧木板留在袋里，返家日还不能签"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "6a7b54a94af609d9b2b4214bf6e0a1cedff3a3e3"
+reader_review: reader_reviews/0560_6a7b54a9.md
+depends_on_chapter: 559
+depends_on_source_sha: "3b73b0f9b7c729ac0743750042ba5e16674656e0"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day423 08:37—Day424 07:06"
+summary: >-
+  Day423女儿唐晓漫半天年假获准与母亲现场共同见证，第三旅店旧房费仅实付至当天中午。仁合里四楼09:20专业条件核实后实际开始复测，09:36确认墙脚外侧读数较低、拆板后可及内层受潮填料仍明显高湿，不能据此推新漏源。10:47有责岗位对新增小范围受潮填料处置出示分项许可、母亲本人签限项同意、女儿只签见证；11:19确实有限移出一小段湿料封袋取样，旧木板上父亲留下的铅笔安装记号另封存、单独编号不复装，未动相邻柜脚和受水电路封签，也未得到整屋干燥/返住结论。Day424 10:00仅为条件式复核预约。11:59母亲按当前实价真正自费续第三家有梯旅店原双床一夜至Day424中午，午后实更新试开双房卡；政府支持与物业赔责仍未知。马芸13:14依法申请只查2019同批盒随盒附纸在现行保管目录的去身份索引，15:29限项批准，16:06两有权保管员在排除相近盒号后确认有一条独立「随盒附纸封套待点验」项目索引，既未看见封套实物也未核原纸和第73页；20:14母亲回拨、22:08夜班接档案限摘，Day424 07:06交班保持四楼仅客厅一条照明有限复电，其他受水电路隔离、全屋返住未批准，五楼西户此前真复水状态不变；历史补据、核发寄达与本人获答未知。
+meaningful_state_changes:
+  - "条件式复测变为Day423 09:36实测内层仍高湿，新增合法限定移除11:19实际执行；原饰板与湿料独立编号，父亲旧笔迹获保留。"
+  - "唐晓漫半天年假真见证而不代签，母亲自主支付真实新价格的一晚住宿至Day424中午，两卡已核。"
+  - "F003新增当年随盒清点纸的现行待点验封套目录项目索引；不证现物/页级内容/历史答复。"
+knowledge_updates:
+  - "母女知道内层实际仍湿和限定移除不代表墙体合格，后续复测条件式、四楼受水线路和返住仍未获准；补助和赔责未知。"
+  - "马芸与夜间中心仅知现行同批盒存在随盒附纸待点验目录项目，不知封套实物、原纸内容、第73页下落及2019历史个人获答。"
+relationship_updates:
+  - "母亲保留签字权，女儿请假实际共同核测点、见证并主张留父亲旧木板，母亲明确同意；经济压力仍实在。"
+foreshadowing_updates:
+  - "F003只从当年核收纸一份推进到现行封套待点验项目索引，F008/M004/M005及2016旧封与2022字节同一不升级。"
+ending_state: "Day424 07:06旧饰板已编号独存、获准小段受潮填料实际移出，Day424 10:00仅条件式复核，四楼仍未获返住许可；第三旅店已真付到当日中午；2019随盒附纸仅现行目录待点验索引存在而实物内容与历史受答仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6a7b54a94af609d9b2b4214bf6e0a1cedff3a3e3", final_draft_sha: "6a7b54a94af609d9b2b4214bf6e0a1cedff3a3e3", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3681

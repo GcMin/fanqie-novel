@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 559
+last_updated_chapter: 560
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2738,4 +2738,12 @@ chapter_559_arc054_verified:
   mother_property: "物业分出含水、电路与返住的有责岗位，母亲拒‘室内修复完成’旧联，只限项同意拆一块旧饰板并要求拍照、记录材料和损伤；专业检测不代有权部门签整屋可住。"
   mother_wu_uncle: "吴叔提出孙子午睡噪声诉求，认可四楼必要检测，但要求如有后续施工必须提前通知具体时段。"
   ma_yun_colleague: "马芸与有权保管员坚持只核2019随盒清点纸存在性的原始登记，纠正年轻保管员把一份纸等同逐页清单的推断。"
+  trust_scores_unchanged: true
+
+chapter_560_arc054_verified:
+  chapter: 560
+  source_sha: "6a7b54a94af609d9b2b4214bf6e0a1cedff3a3e3"
+  mother_daughter: "Day423唐晓漫真用半天年假陪母亲现场对比测点，只有母亲在新许可范围内签有限清除、女儿仅签见证；发现父亲旧板铅笔记号后两人一致要保留原板，分别编号封存湿料；两人共同算房费，母亲自主11:59续第三店一晚，不视女儿出钱为替代本人决定。"
+  mother_property: "主管出示独立的原饰板留存和受潮填料有限清除两组记录，母亲只认可被允许的清除与见证，不签『返住验收』或事后赔偿定论；专业负责人明示内层高湿不等于楼上新漏源。"
+  ma_yun_colleague: "马芸坚持当年随盒纸核收和现行待点验目录索引不同于现物证据；两有权保管员排除相近盒号且承认未见纸，保留未来最窄实物点验仍未申请。"
   trust_scores_unchanged: true

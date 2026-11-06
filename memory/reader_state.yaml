@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 559
-last_reviewed_title: "墙脚拆下第一块板，返家单仍空着"
-last_source_path: chapters/draft/0559.md
-last_source_sha: 1fe6301f5f62cc0e7ccc1acc63d057c0bbc0f1f8
-last_review_path: reader_reviews/0559_1fe6301f.md
+last_reviewed_chapter: 560
+last_reviewed_title: "旧木板留在袋里，返家日还不能签"
+last_source_path: chapters/draft/0560.md
+last_source_sha: 6a7b54a94af609d9b2b4214bf6e0a1cedff3a3e3
+last_review_path: reader_reviews/0560_6a7b54a9.md
 last_reviewed_at: "2026-11-06"
-reviewer_mode: combined_audit_new_sha_independent_pass_a_then_b
+reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 558
-depends_on_source_sha: 78279fbe44a5ebcc5d52ea37fed20ff7fd76d88b
+depends_on_chapter: 559
+depends_on_source_sha: 3b73b0f9b7c729ac0743750042ba5e16674656e0
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: e8bb7af7c7747f2239fac10a3202162d0e72f924
+predecessor_current_source_sha: 3b73b0f9b7c729ac0743750042ba5e16674656e0
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6194,3 +6194,18 @@ combined_audit_chapter_559_20261106:
   predecessor_ready_sha: "78279fbe44a5ebcc5d52ea37fed20ff7fd76d88b"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_560_20261106:
+  chapter: 560
+  source_sha: "6a7b54a94af609d9b2b4214bf6e0a1cedff3a3e3"
+  review_path: reader_reviews/0560_6a7b54a9.md
+  reviewer_mode: independent_pass_a_then_b_exact_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "3b73b0f9b7c729ac0743750042ba5e16674656e0"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: requires_precise_candidate_ci_success_before_main
