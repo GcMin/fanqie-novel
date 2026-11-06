@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 554
+last_updated_chapter: 555
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2696,4 +2696,12 @@ chapter_554_arc054_verified:
   mother_daughter: "母亲独立自费再续一晚和核专业真实后果，女儿尊重她拒签未施工完工栏并完成公司交接。"
   mother_property: "母亲拒物业通用完工表，主管实际重新分列检查与后续换线及真回拨待采购许可。"
   ma_yun_colleague: "删除同事未经授权推的第二位置查无，改只保旧岗真实签发转查单。"
+  trust_scores_unchanged: true
+
+chapter_555_arc054_verified:
+  chapter: 555
+  source_sha: "34e37cc00e2d852367ab65bc3675b690e3021a87"
+  mother_daughter: "母亲独立只续旅店一晚并核真实付款与作业责任岗位，女儿午休看凭据并参与有限方案讨论，不代母亲签住房恢复。"
+  mother_property_neighbor: "母亲拒物业通用完工模板只签限定拟方案接收；三楼吴叔获噪声预告/联系岗位而保留对实际影响的异议，不签无异议。"
+  ma_yun_colleague: "马芸阻止把另一编目岗收单的待定位核查误说成已真查第二处，继续明确权限边界。"
   trust_scores_unchanged: true

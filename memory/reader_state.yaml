@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 554
-last_reviewed_title: "复测写了换线，房卡又续了一晚"
-last_source_path: chapters/draft/0554.md
-last_source_sha: bdde111952ba3d762a8d357663d143d5bc101272
-last_review_path: reader_reviews/0554_bdde1119.md
+last_reviewed_chapter: 555
+last_reviewed_title: "施工单有了日期，回家的日子还没填"
+last_source_path: chapters/draft/0555.md
+last_source_sha: 34e37cc00e2d852367ab65bc3675b690e3021a87
+last_review_path: reader_reviews/0555_34e37cc0.md
 last_reviewed_at: "2026-11-06"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 553
-depends_on_source_sha: 6ac98f967356d69401a8b1cb75774b2fbe5c4b4b
-dependency_status: verified_ready_same_title_body_facts
-predecessor_current_source_sha: 6ac98f967356d69401a8b1cb75774b2fbe5c4b4b
+depends_on_chapter: 554
+depends_on_source_sha: 9d7c7ea16f123752b7b067990c92f29017fcc658
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 9d7c7ea16f123752b7b067990c92f29017fcc658
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6097,4 +6097,23 @@ combined_audit_chapter_554_20261106:
   reader_gate: pass
   independent_qa: pass
   dependency_status: verified_ready_same_title_body_facts
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_555_20261106:
+  chapter: 555
+  original_sha: "75a9a264bff0de2fe5674f16b3fbf2d4ea500aec"
+  initial_review: reader_reviews/0555_75a9a264.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  local_revision_rounds: 1
+  source_sha: "34e37cc00e2d852367ab65bc3675b690e3021a87"
+  review_path: reader_reviews/0555_34e37cc0.md
+  reviewer_mode: independent_pass_a_then_b_on_new_git_blob
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "9d7c7ea16f123752b7b067990c92f29017fcc658"
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main
