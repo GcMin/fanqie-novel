@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 555
+last_updated_chapter: 556
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2704,4 +2704,12 @@ chapter_555_arc054_verified:
   mother_daughter: "母亲独立只续旅店一晚并核真实付款与作业责任岗位，女儿午休看凭据并参与有限方案讨论，不代母亲签住房恢复。"
   mother_property_neighbor: "母亲拒物业通用完工模板只签限定拟方案接收；三楼吴叔获噪声预告/联系岗位而保留对实际影响的异议，不签无异议。"
   ma_yun_colleague: "马芸阻止把另一编目岗收单的待定位核查误说成已真查第二处，继续明确权限边界。"
+  trust_scores_unchanged: true
+
+chapter_556_arc054_verified:
+  chapter: 556
+  source_sha: "b50602347af27c184f6bab5457fe54a75a6ca928"
+  mother_daughter: "母亲自主续房核两卡并要电工分项签已换线与待复验，女儿上午交接后主动到现场照图核接点，相互分担不代对方决定。"
+  mother_neighbor: "三楼吴叔认可四楼必须维修，但真实记录12:22有责停止噪声只算本次，不代表未来免告知。"
+  ma_yun_colleague: "马芸纠正把2019两处架位按时未见误写全库遗失，不越目录移位卡未获准范围。"
   trust_scores_unchanged: true

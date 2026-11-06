@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 555
-current_stage: chapter555_new_sha_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0555.md
-current_source_sha: 34e37cc00e2d852367ab65bc3675b690e3021a87
-current_review_path: reader_reviews/0555_34e37cc0.md
+current_chapter: 556
+current_stage: chapter556_new_sha_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0556.md
+current_source_sha: b50602347af27c184f6bab5457fe54a75a6ca928
+current_review_path: reader_reviews/0556_b5060234.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter555_stage_a_two_time_fixes_new_sha_rereview_qa_pass
+last_action: chapter556_stage_a_predecessor_rebind_and_old_wire_photo_fix_new_sha_qa_pass
 last_action_date: "2026-11-06"
 last_error: null
-last_diff_summary: "555只修两处时间锚点：女儿午休及旧档昨日，不改核心事实"
+last_diff_summary: "556重绑555正式ready SHA及11:07旧线改现场照片，11:29才真拆旧"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -5421,6 +5421,20 @@ combined_audit_chapter_555_20261106:
   body_revisions: 1
   initial_review: reader_reviews/0555_75a9a264.md
   review_after: reader_reviews/0555_34e37cc0.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required
+combined_audit_chapter_556_20261106:
+  original_sha: "37388e6875a05277e4113c307f89760810f9caec"
+  source_after: "b50602347af27c184f6bab5457fe54a75a6ca928"
+  stage: local_revision
+  fix: "前555正式ready SHA安全重绑和11:07未拆旧线改现场照片"
+  stage_a_rounds: 1
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 1
+  initial_review: reader_reviews/0556_37388e68.md
+  review_after: reader_reviews/0556_b5060234.md
   final_reader: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
   structural_gate: exact_candidate_ci_required
