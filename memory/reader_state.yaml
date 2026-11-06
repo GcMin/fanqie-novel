@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 565
-last_reviewed_title: "四十八分钟不能算两天"
-last_source_path: chapters/draft/0565.md
-last_source_sha: 0c8014019a474b5d9e2c6a6bc9370e5dbb95afe0
-last_review_path: reader_reviews/0565_0c801401.md
+last_reviewed_chapter: 566
+last_reviewed_title: "这一晚有人先垫，返家那栏仍空着"
+last_source_path: chapters/draft/0566.md
+last_source_sha: 2ef4fb82cec077c7192a5b59e69cba75ececb830
+last_review_path: reader_reviews/0566_2ef4fb82.md
 last_reviewed_at: "2026-11-06"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 564
-depends_on_source_sha: fad4c0dd07ea16bff834970bd61a80963d6d68e9
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: fad4c0dd07ea16bff834970bd61a80963d6d68e9
+depends_on_chapter: 565
+depends_on_source_sha: e353b33f84fa8d15dae2b5f3e3763ab89f5f5be4
+dependency_status: verified_ready_same_title_body_facts
+predecessor_current_source_sha: e353b33f84fa8d15dae2b5f3e3763ab89f5f5be4
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6293,4 +6293,25 @@ chapter_565_arc054_verified:
   independent_qa: pass
   predecessor_ready_sha: "fad4c0dd07ea16bff834970bd61a80963d6d68e9"
   dependency_status: verified_exact_ready_blob
+  structural_gate: requires_precise_candidate_ci_success_before_main
+
+chapter_566_arc054_verified:
+  chapter: 566
+  original_source_sha: "00975760b0aa46c0069a12286214be6d7c223363"
+  initial_review: reader_reviews/0566_00975760.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  local_revision_rounds: 1
+  source_sha: "2ef4fb82cec077c7192a5b59e69cba75ececb830"
+  review_path: reader_reviews/0566_2ef4fb82.md
+  reviewer_mode: independent_pass_a_then_b_on_new_git_blob
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_old_provisional_sha: "0c8014019a474b5d9e2c6a6bc9370e5dbb95afe0"
+  predecessor_ready_sha: "e353b33f84fa8d15dae2b5f3e3763ab89f5f5be4"
+  dependency_status: verified_ready_same_title_body_facts
   structural_gate: requires_precise_candidate_ci_success_before_main
