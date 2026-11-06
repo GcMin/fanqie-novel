@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 575
-current_stage: chapter575_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0575.md
-current_source_sha: f9b191e85bcd691a385afb889d5b687512405881
-current_review_path: reader_reviews/0575_f9b191e8.md
+current_chapter: 576
+current_stage: chapter576_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0576.md
+current_source_sha: 8ec7035eb87254001911513989ca26a014d63fca
+current_review_path: reader_reviews/0576_8ec7035e.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter575_stage_a_metadata_only_new_sha_reader_0_0_2_content_qa_pass
+last_action: chapter576_stage_a_remove_internal_codes_and_new_sha_reader_qa_pass
 last_action_date: "2026-11-07"
 last_error: null
-last_diff_summary: "575原稿5937f163先审0/1/2；Stage A比较前574标题全文一致并重绑ready，正文0字修订，新SHA f9b191e8再独立双遍0/0/2，QA PASS，待候选精确CI"
+last_diff_summary: "576原稿7ec980b9初审0/1/2；Stage A移除夜班小说正文内部编号，改有效字数；新草稿8ec7035e独立Pass A/B为0/0/2；QA PASS候选结构CI待验证"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: f9b191e85bcd691a385afb889d5b687512405881
+current_review_source_sha: 8ec7035eb87254001911513989ca26a014d63fca
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -5735,4 +5735,23 @@ chapter_575_arc054_verified:
   predecessor_old_sha: "fa55728a05252b65e4363db29f59a4e9ede4db6b"
   predecessor_ready_sha: "29a80ac7493a17b8063d31033cff4b6186eca5d5"
   dependency_status: verified_ready_same_title_body_facts
+  structural_gate: exact_candidate_ci_success_required
+
+chapter_576_arc054_verified:
+  chapter: 576
+  original_source_sha: "7ec980b91c66d09b475ba78260a4f3e271b19bdc"
+  final_draft_sha: "8ec7035eb87254001911513989ca26a014d63fca"
+  original_review: reader_reviews/0576_7ec980b9.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage: local_revision
+  fix: "remove_author_only_F008_M004_M005_codes_from_prose"
+  stage_a_rounds: 1
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 1
+  review_after: reader_reviews/0576_8ec7035e.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  predecessor_ready_sha: "26e397c098f6e7e9efe1169328002695faecb721"
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_success_required

@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 576
+title: "房费自己续了一晚，问询只走到发出"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "7ec980b91c66d09b475ba78260a4f3e271b19bdc"
+source_draft_sha: "8ec7035eb87254001911513989ca26a014d63fca"
+initial_review: reader_reviews/0576_7ec980b9.md
+reader_review: reader_reviews/0576_8ec7035e.md
+depends_on_chapter: 575
+depends_on_source_sha: "26e397c098f6e7e9efe1169328002695faecb721"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day439 08:17—Day440 07:05"
+summary: >-
+  Day439母亲梧楠路同房由物业Day437已真付至Day439中午。物业费端09:06仍把昨日已纠错三点误汇总写作“恢复评估通过”拦续付，10:44真正更正住房适宜性未确认，但款未到账。母亲11:02自行从本人账户支付原有梯双床房Day439午—Day440午一晚、双卡实际试开，旧物业直付款和女儿家庭分担独立。傍晚物业只真实签收分项费用事实清单、赔偿审核仍待定，不能写成临住问题已由物业解决。13:46专业提出原12厘米开口内与原获准相邻位置两处旧砂浆同材同法无破坏测量，持证人员核范围后母亲另签有限同意，14:12实测，14:38正式记录两个局部表面读数存在差异、不代表全墙干燥或可复电返住；灰衬旧胶未触及、旧板父亲铅笔线独封、四楼客厅一条照明支路有限用其余受水电路隔离、五楼西户原有限复水不变。马芸10:26申请、15:03有权限定只查2019同拟办号原发出簿，双保管员实见一件“来源附件核验请求”当年由原端真实发往旧卷复核岗；不查目的端收簿、不证真收或答复、补据实体、2021候选目录同一、旧袋今址/原第73页/历史自然人获答。20:35母亲实际回拨夏宁，22:09档案去身份摘录到席、Day440 07:05交班；房费仅到当日午、下一夜未付、整屋返住不准，2016旧封件/2022电子记录同一和F008/M004/M005无新增确证。
+meaningful_state_changes:
+  - "Day439 10:44物业费用旧错状态确已更正但无款，母亲11:02真正本人自付续房一晚至Day440中午并试两卡，分项事实清单另签收而赔偿未核准。"
+  - "Day439 14:12两处同材旧砂浆合法有限同法检测真做并14:38留有源差异记录，不推整屋干燥、受水回路复电或返住。"
+  - "F003新增2019同拟办号一件“来源附件核验请求”原发出簿单端真实发出，旧卷复核岗目的端实收、回复及实质归属补据仍未知。"
+knowledge_updates:
+  - "母女知道今晚原房母亲本人真付到Day440午而非物业补付，赔偿未完成，现场仅取得双点表面有限差异；医疗隐私仍属女儿。"
+  - "马芸和夜间中心仅知道2019另有内部核验请求真实发出，目的旧卷复核岗收讫未查，旧封袋今址、第73页和历史真人获答未知。"
+relationship_updates:
+  - "母亲将自付住房账据与物业直付及女儿家庭分担明确拆开，女儿帮记账但两人均不接受用费用表换取失准工程签字。"
+  - "吴叔以孙子线上讨论为界关心机具噪音，专业人员按许可承诺当天无敲击；马芸与双有权保管员不把发送当收件。"
+foreshadowing_updates:
+  - "F003升级2019原发出簿核验请求单端真发，不能替代实质归属补据或目标端实收。F008/M004/M005、2016旧封件与2022电子同一及历史真人真实获答未确证。"
+ending_state: "Day440 07:05母亲同房已从本人账户真付到当日中午，之后未付款，物业费用承担与补偿待核；四楼仅原12厘米口内合法双旧砂浆局部数据、旧板独封受水线路隔离整屋不可返住；2019内部核验请求真发未证对方收讫回复，原第73页/旧袋今址/历史人得答未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7ec980b91c66d09b475ba78260a4f3e271b19bdc", final_draft_sha: "8ec7035eb87254001911513989ca26a014d63fca", initial_counts: "0/1/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, fix: "replace_one_internal_story_code_sentence_and_update_count"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3382
