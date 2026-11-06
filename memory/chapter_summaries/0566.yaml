@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 566
+title: "这一晚有人先垫，返家那栏仍空着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "00975760b0aa46c0069a12286214be6d7c223363"
+source_draft_sha: "2ef4fb82cec077c7192a5b59e69cba75ececb830"
+initial_review: reader_reviews/0566_00975760.md
+reader_review: reader_reviews/0566_2ef4fb82.md
+depends_on_chapter: 565
+depends_on_source_sha: "e353b33f84fa8d15dae2b5f3e3763ab89f5f5be4"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day429 08:27—Day430 07:10"
+summary: >-
+  Day429 08:27母女梧楠路可达短住公寓旧单真付至当日中午，物业仅有拟垫付房费消息；母亲要求有真实付款否则11:30自己付。仁合里四楼09:53专业停风稳定复测同位置同深度两点，边缘下降但靠未开放深处仍高，不可封回，提出不扩大拆检的新导风集水小试，父亲有铅笔短线旧饰板仍独封存、受水回路隔离。11:07物业费用模板想合并本次付款与后续损失解决，母亲拒签；11:22物业有权账户直接向公寓经营方实际付清一晚至Day430中午，两房卡实名更新且本人真试开，母亲仅在重印本次周转支付凭据签收，不承认赔责终结或整屋已验收，旧押金到账、街道住宿补助未获证。吴叔收到13:26新时段征询，13:51有责准16至17:30最长90分钟仅受控导风除湿；16:06独立供电设备真启，16:34吴叔带孙经过发现围挡固定带翘起，停机9分钟真加固、核人行电源保护，16:43有责批准复启，17:22真结束；集水有增量但不证墙内干燥，深处稳定复测待下一次有责安排。2019 F003马芸10:03新窄申请限查指定封签散页袋在临时接收岗是否曾再真交出，14:22准阅，两名有权保管员排除同批整盒误配，在原始交出簿发现同一完整封签号一件散页封袋真实交出、目的资料复核台；只有接收岗交出端已证，下一站实际接入、今存袋址及原第73页或历史真人获得答复仍未知。20:26母亲回拨，22:08合法去身份摘录达席，Day430 07:10交班分列房费真垫与试验真做，四楼一条客厅照明有限可用、其他受水电路隔离与整屋返住未批，五楼西户有限复水不变。
+meaningful_state_changes:
+  - "Day429 11:22物业实际直接向公寓垫付同房一晚至Day430中午并更新双卡，住户拒以本次付款签索赔豁免、整屋验收。"
+  - "Day429专业稳定复测深点仍湿，16:06—17:22受控导风集水试验真做、16:34—16:43因邻居指出围挡通行风险停机9分钟整改，集水不证明墙内已干。"
+  - "F003同一封签散页袋2019临时接收岗当年实收后，另有实际交出簿注明去资料复核台；目的端签入、今天何处与第73页未知。"
+knowledge_updates:
+  - "母女知道物业只付了一晚实际房费而非政府补贴或最终认责、深处复测仍不合格且需新许可，房卡真可用到Day430午。"
+  - "马芸与中心只知2019临时接收岗真签入后另有真交出记录指向复核台，但不知该台实收及封袋今日状态、第73页和旧人获答。"
+relationship_updates:
+  - "母亲坚持与物业分开临住周转和赔责、拒签混合免责表而对真实到账签收，女儿依真实付款方核预算保留药费车费。"
+  - "吴叔因孙子路过围挡主动拍照反馈，现场真正停机整改后复开，母亲把照片与作业记录归档，保留后续邻户告知权。"
+foreshadowing_updates:
+  - "F003新证仅2019临时接收岗真交出同封签袋至标注资料复核台，后者实际签收与现存、第73页和历史人答均无证；F008/M004/M005、2016/2022跨源同一未确认。"
+ending_state: "Day430 07:10房间仅物业真垫到当日午，其他夜未订；四楼新受控导风集水试验已完成但深处稳定复测未合格、受水线路和整屋返住均不准，旧板独存；F003历史封签袋临时接收岗另有交出记录但目的端及今址与原第73页、旧人获答仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "00975760b0aa46c0069a12286214be6d7c223363", final_draft_sha: "2ef4fb82cec077c7192a5b59e69cba75ececb830", initial_counts: "0/1/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "rebind_chapter565_provisional_to_ready_SHA_after_identical_title_body_comparison"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3341
