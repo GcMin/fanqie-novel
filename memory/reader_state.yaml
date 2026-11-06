@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 556
-last_reviewed_title: "新线装进墙里，回家还差一次验收"
-last_source_path: chapters/draft/0556.md
-last_source_sha: b50602347af27c184f6bab5457fe54a75a6ca928
-last_review_path: reader_reviews/0556_b5060234.md
+last_reviewed_chapter: 557
+last_reviewed_title: "灯终于亮了一盏，床还留在旅店"
+last_source_path: chapters/draft/0557.md
+last_source_sha: a9ea960650aa1442bba37386cddfab3e80ee155b
+last_review_path: reader_reviews/0557_a9ea9606.md
 last_reviewed_at: "2026-11-06"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 555
-depends_on_source_sha: 1eec1d1af7120afab62fcc5f4ecf1788bdb8996f
+depends_on_chapter: 556
+depends_on_source_sha: 11477ec8659ffa4d6a26a40b533a8fb7e1bfcc32
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 9d7c7ea16f123752b7b067990c92f29017fcc658
+predecessor_current_source_sha: 11477ec8659ffa4d6a26a40b533a8fb7e1bfcc32
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6136,4 +6136,20 @@ combined_audit_chapter_556_20261106:
   independent_qa: pass
   predecessor_ready_sha: "1eec1d1af7120afab62fcc5f4ecf1788bdb8996f"
   dependency_status: verified_ready_same_title_body_facts
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_557_20261106:
+  chapter: 557
+  source_sha: "a9ea960650aa1442bba37386cddfab3e80ee155b"
+  review_path: reader_reviews/0557_a9ea9606.md
+  reviewer_mode: independent_pass_a_then_b_on_exact_draft_blob
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "11477ec8659ffa4d6a26a40b533a8fb7e1bfcc32"
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

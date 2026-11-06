@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 556
+last_updated_chapter: 557
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2712,4 +2712,12 @@ chapter_556_arc054_verified:
   mother_daughter: "女儿上午完成公司交接后到现场亲核限定新线接点，母亲独立实付再续住房并限定签收；两人合作把实做与待办分开，不替对方签字。"
   mother_neighbor: "母亲支持吴叔只确认当次施工噪声结束，吴叔不反对合理修缮但保留后续施工需告知权，双方无无限同意。"
   ma_yun_colleague: "马芸和有权保管员纠正同事把2019两处查无当成原件全丢，继续坚持有限来源分层。"
+  trust_scores_unchanged: true
+
+chapter_557_arc054_verified:
+  chapter: 557
+  source_sha: "a9ea960650aa1442bba37386cddfab3e80ee155b"
+  mother_daughter: "母亲独立核优惠房态和续住费用，女儿下班赶到现场看到亮灯想进屋，接受母亲所示有权分项报告后停步；合作区分真正一盏灯和仍不能返住。"
+  mother_property: "母亲要求物业解释谁能签限定复电与谁能批准复居，不用仅换线/盒体的作业单替代整屋结论；专业人员明确责任范围。"
+  ma_yun_colleague: "马芸和保管员纠正把整盒级转存索引误认第73页单页去向的推断，尊重授权范围。"
   trust_scores_unchanged: true
