@@ -1,3 +1,10 @@
+## 第555章ARC-054修订新SHA审查与独立QA｜2026-11-06（结构CI待核）
+
+- 原稿 `75a9a264...` Reader Pass A/B为0 BLOCKER/2 MAJOR/2 MINOR；Stage A只纠正女儿Day418“下班看付款”→“午休看付款”与档案旧转查来源“前日”→“昨日”。修订后新Git Blob `34e37cc00e2d852367ab65bc3675b690e3021a87` 再独立Pass A/B为0/0/2 keep/none，独立Continuity/Style/Meaningful QA均PASS，约3225有效字，前554正式ready Blob完全匹配。
+- Day418母亲11:19真续第三旅店一晚到Day419中午，15:28配件实到、16:17有责获Day419 11:00—12:30条件式有限施工许可，尚未开工换线、独立复验、复电或复居，四楼受水回路与五楼西户水分支持续限停，三楼吴叔仅获噪声预告，街道住宿支持及赔责未核准。
+- 马芸合法有责双原始簿证2019转查单另一编目岗位已真收、登记待定位核查，不证第二位置真查/找到来源/补据、旧暂缓解除、核发寄达及历史自然人收到答复；F008/M004/M005及2016/2022同一无新证。
+- 正文内容QA不等于结构放行；需精确候选提交结构单测与 `python -m publisher.check_local --repo .` CI SUCCESS，之后expected_sha、force:false更新main才算正式ready。
+
 ## 第554章ARC-054新SHA Reader/独立QA｜2026-11-06（精确候选CI待核）
 
 - 初稿 `96cf3b0680e869509352d727f727f6fd55184bf9` Pass A/B 0/1/2，唯一MAJOR前驱553旧provisional SHA；实比553旧 `5dad5d8a2439168796e2213fb5bcc2f66b7e1d87` 与ready `6ac98f967356d69401a8b1cb75774b2fbe5c4b4b` 小说标题/正文逐字相同，Stage A只更正554 FM及详纲依赖，正文0字。新Blob `bdde111952ba3d762a8d357663d143d5bc101272` 独立新Pass A/B 0/0/2 keep/none、独立Continuity/Style/Meaningful PASS，3765有效字符在硬限3800内。

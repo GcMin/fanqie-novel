@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 555
+title: "施工单有了日期，回家的日子还没填"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "75a9a264bff0de2fe5674f16b3fbf2d4ea500aec"
+source_draft_sha: "34e37cc00e2d852367ab65bc3675b690e3021a87"
+initial_review: reader_reviews/0555_75a9a264.md
+reader_review: reader_reviews/0555_34e37cc0.md
+depends_on_chapter: 554
+depends_on_source_sha: "9d7c7ea16f123752b7b067990c92f29017fcc658"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day418 08:11—Day419 07:08"
+summary: >-
+  Day418母亲自费第三旅店原有梯主楼双床11:19真续一晚至Day419中午，未订次夜、街道资助资格与赔责待核。仁合里四楼受水灯位连接段材料10:46仅仓库待发，15:28实到现场核型号批次数量，16:17获Day419 11:00—12:30限定条件式作业许可但换线未开始，不代表独立电气复验、复电或批准返住；四楼受水回路与五楼西户水支路仍限停。母亲只签拟方案接收不签完工，唐晓漫午休看凭据13:14安全侧核图；三楼吴叔获施工噪声时窗告知并可反馈，但未签无异议。马芸Day418 09:48仅限申查2019旧柜位核位岗真正发出的内部转查单另一端是否真实收件，14:27获准，15:41双原始岗位簿证另一编目岗真签收并登记待定位核查；第二处柜位实查、原始页找到、补据解除暂缓、核发寄达、历史自然人真获答未知。20:07母亲本人回拨夜间中心、22:13马芸限项历史回告，Day419 07:08交班仍未真正开工且再下一夜住房未知。
+meaningful_state_changes:
+  - "受水线材配件真到库及Day419合法有限施工许可已批准，但专业施工复验复居未完成。"
+  - "第三家旅店母亲真自付续一晚至Day419中午，再下一夜未订、支持赔责未定。"
+  - "2019旧转查单另一编目岗真收原簿独立互证且待定位核查，后续查找未证。"
+knowledge_updates:
+  - "母女和吴叔分清材料到货、许可、实际作业、专业复验与住房放行不同；邻居告知不代表认可全部噪声。"
+  - "马芸与中心仅知2019内部双端真实发收，不知第二柜位实查与历史本人真收答。"
+relationship_updates:
+  - "母亲自行决定续住与签收，女儿午休配合；吴叔合法要求噪声预告并保留反馈。"
+foreshadowing_updates:
+  - "F003只增另一编目岗原簿实收新证，不推出第二柜实查、历史补据完成或旧人获答；F008/M004/M005及2016/2022同一无新证。"
+ending_state: "Day419 07:08酒店真实续房至当日中午；施工材料已到条件许可获批但四楼回路未换未复电复居、五楼西户限停；2019转查单双端真实收发证据已有而后续真查未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "75a9a264bff0de2fe5674f16b3fbf2d4ea500aec", final_draft_sha: "34e37cc00e2d852367ab65bc3675b690e3021a87", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, fix: "Day418女儿下班→午休及前日旧档→昨日两处时间锚点"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3225
