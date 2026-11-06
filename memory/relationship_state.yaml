@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 564
+last_updated_chapter: 565
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2780,4 +2780,13 @@ chapter_564_arc054_verified:
   mother_property: "母亲拒物业用今日一小时试机同意书替代连续48小时作业许可，并当场拒预印‘干燥完成’贴纸，要求实机与停机日志两份分别保存。"
   mother_wu_uncle: "三楼吴叔为孙子午睡反对13—14点试机，物业将一次许可改16—17时；16:36书架共振反馈获得专业防振垫调整，通知签收不是今后连续作业无异议。"
   ma_yun_colleague: "马芸坚持按唯一指定封签号排除同批整盒交接，保管员从原岗交出与接收端是否签收分层核实，不借无完整回执推现袋今址。"
+  trust_scores_unchanged: true
+
+chapter_565_arc054_verified:
+  chapter: 565
+  source_sha: "0c8014019a474b5d9e2c6a6bc9370e5dbb95afe0"
+  mother_daughter: "女儿协同核实梧楠路同房退改与药费车费预算，母亲本人9:09实付款、门卡实刷，二人共同保留不以住宿到期逼迫不当返住签字。"
+  mother_property: "母亲拒将Day427试机48分钟预估填为已做48小时并于Day428 10:21取更正说明，Day428当次许可限最长90分钟实做75分钟，未经审批未同意连续两天。"
+  mother_wu_uncle: "吴叔收到新送风时段征询，继续保留关于儿童通行及低声的反馈权，不签未来无异议，物业据实记录本次意见。"
+  ma_yun_colleague: "马芸及两名有权保管员只按同一完整封签号从接收岗原始账确认历史实收，拒以同批整盒代散页封袋。"
   trust_scores_unchanged: true
