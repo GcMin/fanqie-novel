@@ -1,3 +1,10 @@
+## 第565章 ARC-054 独立双遍Reader与内容QA｜2026-11-06（精确结构CI前）
+- 原稿Git Blob `0c8014019a474b5d9e2c6a6bc9370e5dbb95afe0`；先只读本章、前562—564章与近期摘要和文风完成Pass A，再读Canon、人物知识关系世界时间伏笔完成Pass B。Reader BLOCKER0/MAJOR0/MINOR2，keep/none，正文0字修订；独立Continuity/Style/Meaningful Change内容QA均PASS，有效字符2877。
+- 第564章ready Blob `fad4c0dd07ea16bff834970bd61a80963d6d68e9`精确匹配依赖，无前章版本漂移；历史137—148旧SHA关注链不是本章直接依赖，不凭形式阻断亦不冒称旧全文复审。
+- Day428 09:09母亲自付梧楠路同房续至Day429午，10:21纠正48小时已执行误记为昨日真实48分钟试机，16:09—17:24新有限许可真运行75分钟且有邻户反馈；四楼旧板独封、深处待稳定复测、其他受水电路与整屋返住未准，五楼西户有限复水不变，补助赔责旧押金未证。
+- F003完整封签号新限项确认2019散页袋临时接收岗当年真收讫原簿，后续转出及现存、第73页、历史旧人受答仍未知，F008/M004/M005、2016/2022跨源同一不升级。
+- 内容QA PASS不等于结构校验；必须有含ready、Reader、QA、Memory、计划的精确候选Commit实际经结构单测和`python -m publisher.check_local --repo .` SUCCESS方可更新main。
+
 ## 第564章ARC-054独立Reader与Continuity/Style/Meaningful Change内容QA｜2026-11-06（精确候选结构CI前）
 - 原564 Draft Git Blob `9172ca75634efb3ed007aef866430ca512b1b8ef`先独立Pass A普通读者、后Pass B Canon/人物知识/时间线/伏笔，结果BLOCKER0/MAJOR0/MINOR2，keep/none；小说正文0字修订，有效字符3305。依赖第563章已正式ready Blob `0315019d5a398f4078a7d62f667e998e214886ab`精确一致，无须比对不同前章正文。独立Continuity、Style、Meaningful Change QA均PASS；这些不是结构门禁替代品。
 - Day427母亲仅同意16—17点一次送风试运行，16:08—16:56真做、收到三楼吴叔书架共振反馈并调防振，不将一小时实验误作连续干燥、稳定复测、其他电路复电或整屋返住。梧楠路短住已真付至Day428中午而次夜未付款，母女保留药费与车费预算。
