@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 562
-current_stage: chapter562_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0562.md
-current_source_sha: 564ab6dcc5293d57d3f5c7b5bde0e9c3cb12e66e
-current_review_path: reader_reviews/0562_564ab6dc.md
+current_chapter: 563
+current_stage: chapter563_stageA_newSHA_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0563.md
+current_source_sha: 54b2ed1cb3f90136d9c3ecc3f182b520923ad53b
+current_review_path: reader_reviews/0563_54b2ed1c.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter562_reader_0_0_2_content_qa_pass_no_revision
+last_action: chapter563_stageA_rebind_ready_sha_then_new_reader_0_0_2_content_qa_pass
 last_action_date: "2026-11-06"
 last_error: null
-last_diff_summary: "562原稿0/0/2；正文0字修订；独立双遍Reader和内容QA PASS，待精确候选结构CI"
+last_diff_summary: "563原2e3c21cf Reader0/1/2仅过期562依赖；StageA只改元数据且正文0字改；新54b2ed1c Reader0/0/2与独立QA PASS，待精确候选CI"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 564ab6dcc5293d57d3f5c7b5bde0e9c3cb12e66e
+current_review_source_sha: 54b2ed1cb3f90136d9c3ecc3f182b520923ad53b
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -5524,5 +5524,21 @@ combined_audit_chapter_562_20261106:
   final_reader: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
   dependency_status: verified_exact_ready_blob
+  structural_gate: requires_precise_candidate_ci_success_before_main
+combined_audit_chapter_563_20261106:
+  original_sha: "2e3c21cfcf8a88e7b32b7e15510ab6c8d282d0e4"
+  original_review: reader_reviews/0563_2e3c21cf.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_after: "54b2ed1cb3f90136d9c3ecc3f182b520923ad53b"
+  stage: local_revision_metadata_only
+  fix: "rebind_562_provisional_to_formal_ready_sha_after_identical_title_body_comparison"
+  stage_a_rounds: 1
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  review_after: reader_reviews/0563_54b2ed1c.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  dependency_status: verified_ready_same_title_body_facts
   structural_gate: requires_precise_candidate_ci_success_before_main
 

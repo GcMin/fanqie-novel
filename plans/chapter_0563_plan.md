@@ -5,7 +5,7 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer
 - phases: Planner / Continuity Precheck / Writer
-- status: draft
+- status: ready
 - depends_on_chapter: 562
 - depends_on_source_sha: e08d3be9c94c546df361084aed6b10a91bddd69a
 - dependency_status: verified_ready_same_title_body_facts
@@ -34,3 +34,5 @@
 - precheck: 每轮独立从GitHub main核AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、Bible四份和三人物卡、现有卷/弧及长期Memory人物/关系/知识/世界/伏笔/时间线与总计划表、552—561十章摘要及558—562最近五章正文。published确有0153《人没回来，表先签完了》，published/ready/draft最大数字章号562。562当前仅有draft，故绑定完整Blob SHA，依赖provisional。本轮仅做Planner/Continuity Precheck/Writer，未读历史reader_reviews，未做Review、Revision、QA、Memory或Publisher。
 
 - audit_revision: StageA仅更新前章已ready的精确Blob与依赖事实状态；原562与ready小说正文标题逐字相同，563原正文未改。旧Reader指向2e3c21cfcf8a88e7b32b7e15510ab6c8d282d0e4，必须基于修订后新GitBlob重新独立双遍审查。
+
+- audit_result: initialReader_0_1_2_StageA_only_dep_readySHA_then_newSHA_54b2ed1c_Reader_0_0_2_keep_none; IndependentQA_PASS; structural_release_requires_precise_candidate_CI

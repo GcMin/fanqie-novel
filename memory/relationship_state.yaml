@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 562
+last_updated_chapter: 563
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2762,4 +2762,13 @@ chapter_562_arc054_verified:
   mother_daughter: "唐晓漫Day425真转半数短住费用并于18:19凭授权领大箱，两人真正安顿Day425至Day428三晚。母亲接受女儿共同承担生活现金与搬运，却独自核合同和签有限施工同意，女儿明确出钱不购买签字权。"
   mother_property: "母亲与物业先核活动柜固定状态、隐线及父亲旧拉手并照相记录，仅批准15:47有限移动和留证；不接受柜后旧水印即推新漏水，也不签旧饰板复装或返住验收。"
   ma_yun_colleague: "马芸与保管员承认经许可实见一张旧纸非身份散页另封记载，主动区分封内表纸与2019原核收纸、另封袋今存及第73页归属的不同证明层级。"
+  trust_scores_unchanged: true
+
+chapter_563_arc054_verified:
+  chapter: 563
+  source_sha: "54b2ed1cb3f90136d9c3ecc3f182b520923ad53b"
+  mother_daughter: "女儿Day426上午无法停工，母亲拒接受物业混合验收栏只签限项，午间用边界和不同保管号照片回应女儿担忧；18:45共同看父亲旧板与新受潮样证据并建立两个手机相册，尊重母亲决定同时强化共同事实核对。"
+  mother_property: "物业接受母亲删除不实‘室内完工’栏要求，以限定十五厘米薄层取样、临时保护、留样责任和邻户告知另出作业单；母亲只签有限施工而不签总验收/返住。"
+  mother_wu_uncle: "三楼吴叔11:09真实收13:30—14:30噪声告知，不接受收件等于同意今后任意施工；14:21有责岗位告知当次敲击结束但未撤回未来反馈权。"
+  ma_yun_colleague: "双岗原簿证指定散页袋曾确实封装时，马芸阻止把‘当年封过’误读成‘今天袋已找到’，同事接受证据层级。"
   trust_scores_unchanged: true

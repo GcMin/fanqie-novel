@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 562
-last_reviewed_title: "房卡换了地方，封套里多出一条去向"
-last_source_path: chapters/draft/0562.md
-last_source_sha: 564ab6dcc5293d57d3f5c7b5bde0e9c3cb12e66e
-last_review_path: reader_reviews/0562_564ab6dc.md
+last_reviewed_chapter: 563
+last_reviewed_title: "父亲的旧板要留，湿墙的内层得拆"
+last_source_path: chapters/draft/0563.md
+last_source_sha: 54b2ed1cb3f90136d9c3ecc3f182b520923ad53b
+last_review_path: reader_reviews/0563_54b2ed1c.md
 last_reviewed_at: "2026-11-06"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 561
-depends_on_source_sha: 4412c883901c4c28d3639ea1f78edbe79ca4157b
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 4412c883901c4c28d3639ea1f78edbe79ca4157b
+depends_on_chapter: 562
+depends_on_source_sha: e08d3be9c94c546df361084aed6b10a91bddd69a
+dependency_status: verified_ready_same_title_body_facts
+predecessor_current_source_sha: e08d3be9c94c546df361084aed6b10a91bddd69a
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6239,5 +6239,25 @@ combined_audit_chapter_562_20261106:
   independent_qa: pass
   predecessor_ready_sha: "4412c883901c4c28d3639ea1f78edbe79ca4157b"
   dependency_status: verified_exact_ready_blob
+  structural_gate: requires_precise_candidate_ci_success_before_main
+combined_audit_chapter_563_20261106:
+  chapter: 563
+  original_source_sha: "2e3c21cfcf8a88e7b32b7e15510ab6c8d282d0e4"
+  original_review: reader_reviews/0563_2e3c21cf.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  local_revision_rounds: 1
+  source_sha: "54b2ed1cb3f90136d9c3ecc3f182b520923ad53b"
+  review_path: reader_reviews/0563_54b2ed1c.md
+  reviewer_mode: independent_pass_a_then_b_on_new_git_blob
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_old_provisional_sha: "564ab6dcc5293d57d3f5c7b5bde0e9c3cb12e66e"
+  predecessor_ready_sha: "e08d3be9c94c546df361084aed6b10a91bddd69a"
+  dependency_status: verified_ready_same_title_body_facts
   structural_gate: requires_precise_candidate_ci_success_before_main
 

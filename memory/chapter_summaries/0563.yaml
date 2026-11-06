@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 563
+title: "父亲的旧板要留，湿墙的内层得拆"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "2e3c21cfcf8a88e7b32b7e15510ab6c8d282d0e4"
+source_draft_sha: "54b2ed1cb3f90136d9c3ecc3f182b520923ad53b"
+initial_review: reader_reviews/0563_2e3c21cf.md
+reader_review: reader_reviews/0563_54b2ed1c.md
+depends_on_chapter: 562
+depends_on_source_sha: "e08d3be9c94c546df361084aed6b10a91bddd69a"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day426 08:20—Day427 07:09"
+summary: >-
+  Day426母女已真住梧楠路可达短住房且三夜房费付至Day428中午无需当日续房，女儿正常上班。仁合里四楼原活动矮柜Day425已合法移开，但柜后仍潮。母亲09:36发现物业新方案拟把局部施工同意与室内完工验收混入同栏，坚持删除不实完工字样，10:18只签约十五厘米湿损薄层的限项采样清除并保留父亲旧饰板独立编号；11:09物业实际告知三楼吴叔13:30—14:30作业窗口及本次不启干燥机，吴叔仅签收不放弃异议。13:32依法安全剥出获准薄层，局部粉化及受潮材料留样、原板另封不混放，14:06在新露面另留两测点供后续方案，14:21确实停工并告邻居；不能由当次初测认定新漏源、墙已干、其他电路复电或整屋返住。马芸10:04合法窄申核2019现行旧纸上的非身份处理代号当年是否实际封装，15:11获准限核原始封装作业簿及封签领用簿，双岗排除近似代号后16:27确认指定代号对应2019一笔散页袋真封装和封签领用记录；袋今存、袋内何页、原第73页归属、历史核发寄达及自然人真获答仍未知。母女18:45核两组独立保管联并建原板与受潮样相册，街道支持赔责仍未批。20:17母亲真回拨夜间中心、22:08有源去身份档案摘录抵达、Day427 07:09分项交班；四楼仅客厅一条照明支路有限复电，其他受水电路与返住未准，五楼西户Day421有限复水不变。
+meaningful_state_changes:
+  - "四楼柜后约十五厘米受潮内层合法实际取出留样，新测点留证待未来专业复核，父亲旧饰板继续独立封存，整屋未能返住。"
+  - "母女以两个独立相册分管旧板与新湿样，保留有权签字和真实住房预算；短住房已真付至Day428中午。"
+  - "F003当年指定散页袋封装由旧纸文字线索推进为原始封装岗位簿与封签领用簿双证，真封装而不证明袋今存及第73页下落。"
+knowledge_updates:
+  - "母女知道当次仅有限剥取湿损层、留下两处新测点，父亲旧板另封未损，不能据此申请未达条件的复电返住或将待批赔偿算收入。"
+  - "马芸和中心仅知2019指定处理代号确曾执行一次散页袋封装及封签领用，不知袋今址、内页及第73页同一性与旧历史自然人获答。"
+relationship_updates:
+  - "母亲坚持清除旧表里提前验收条款，女儿虽担心但支持母亲本人限定授权，晚间用照片和编号各自核旧板及湿样。"
+  - "吴叔收到合法限时噪声通知且只签收事实并保留反馈；物业按当次停工另行告知。"
+foreshadowing_updates:
+  - "F003推进当年真封装散页袋的原簿证据，不证现今找到该袋、第73页归属或历史业务人实收答；F008/M004/M005与2016/2022同一无证。"
+ending_state: "Day427 07:09四楼柜后薄层已有限合法取出、旧饰板独存、复测装修与其他电路返住仍未批准；母女新短住公寓真付至Day428中午；2019真封装散页袋有双簿有源证而袋今址及原第73页和旧人受答未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "2e3c21cfcf8a88e7b32b7e15510ab6c8d282d0e4", final_draft_sha: "54b2ed1cb3f90136d9c3ecc3f182b520923ad53b", initial_counts: "0/1/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "rebind_chapter562_provisional_to_ready_SHA_after_identical_title_body_comparison"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2965

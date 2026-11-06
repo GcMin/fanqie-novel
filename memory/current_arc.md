@@ -1,3 +1,9 @@
+## 第563章ARC-054原稿Stage A与新SHA独立Reader/内容QA｜2026-11-06（精确结构CI前）
+- 原563草稿 Git Blob `2e3c21cfcf8a88e7b32b7e15510ab6c8d282d0e4` 的独立Reader Pass A和Pass B为0 BLOCKER / 1 MAJOR / 2 MINOR；唯一MAJOR是前562原临时SHA `564ab6dcc5293d57d3f5c7b5bde0e9c3cb12e66e` 已正式转换为ready Blob `e08d3be9c94c546df361084aed6b10a91bddd69a`。确实核对原562与ready的**小说正文、标题逐字相同**，仅交付Front Matter不同，没有事实差异。Stage A Commit `eed679fb901ea8adca08793cce413888b4979af6` 只更正563草稿/章纲的依赖元数据，正文0字改动；新draft Blob `54b2ed1cb3f90136d9c3ecc3f182b520923ad53b` 真正落盘。
+- 新SHA独立Pass A普通读者、随后Pass B Canon/人物知识/时间线/伏笔，为0/0/2 keep/none，旧Reader失效。独立Continuity/Style/Meaningful Change QA均PASS，有效字数2965，前章正式ready SHA精确绑定；不凭137—148历史旧SHA形式机械阻断亦不冒称对旧全文重新验证。
+- Day426母亲10:18仅签15厘米柜后湿损薄层局部许可，物业11:09真实告知吴叔噪声，13:32—14:21依法真取湿损层另袋存样父亲旧板仍独存，14:06新露面测点留证但不等于装修电路或返住验收；母女新短住房三晚已付至Day428午。马芸在新授权下双原簿16:27证实2019处理代号当年确实真封装散页袋并领封签，不证袋今存、内页、第73页及旧人受答，F008/M004/M005与2016/2022跨源同一不升级。
+- 仅内容QA PASS；必须在包含本章最终ready及Memory、计划的精确候选Commit上获得结构单测与`python -m publisher.check_local --repo .`真实SUCCESS后再更新main。
+
 ## 第562章 ARC-054 独立双遍Reader与内容QA｜2026-11-06（精确结构CI前）
 - 草稿精确Git Blob `564ab6dcc5293d57d3f5c7b5bde0e9c3cb12e66e`，先以562正文、559—561前3章全文、552—561十章摘要及文风圣经执行普通读者Pass A，再依Canon、弧、人物知识关系世界时间线与F003执行Pass B。Reader BLOCKER0/MAJOR0/MINOR2，keep/none，`reader_reviews/0562_564ab6dc.md`；正文0字修改，独立Continuity/Style/Meaningful Change QA均PASS，3468有效字。
 - 直接前章561正式ready `4412c883901c4c28d3639ea1f78edbe79ca4157b` 与562正文及详细章纲的依赖SHA精确一致，无旧SHA变更的事实差异；137—148历史关注链不是本章直接依赖，不机械阻断亦不冒称旧全文重审。
