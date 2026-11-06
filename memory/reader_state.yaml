@@ -6369,3 +6369,21 @@ chapter_569_arc054_verified:
   predecessor_ready_sha: "07f5555b0f390c876c85bf87bf51458d425ea20a"
   dependency_status: verified_ready_same_title_body_facts
   structural_gate: requires_precise_candidate_ci_success_before_main
+
+chapter_570_arc054_verified:
+  chapter: 570
+  title: "房钱上午付清，墙里的数下午才到"
+  source_path: chapters/draft/0570.md
+  source_sha: "f588312977df6e914c8d00d3c3f44e5e0e6ebf45"
+  review_path: reader_reviews/0570_f5883129.md
+  reviewer_mode: independent_pass_a_then_b_exact_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "5dd0ed50a287d9eb65583575f47694f00b825066"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_success_required

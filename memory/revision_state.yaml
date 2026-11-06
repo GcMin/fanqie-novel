@@ -5634,3 +5634,18 @@ chapter_569_arc054_verified:
   content_qa: pass
   dependency_status: verified_ready_same_title_body_facts
   structural_gate: requires_precise_candidate_ci_success_before_main
+
+chapter_570_arc054_verified:
+  chapter: 570
+  original_source_sha: "f588312977df6e914c8d00d3c3f44e5e0e6ebf45"
+  final_draft_sha: "f588312977df6e914c8d00d3c3f44e5e0e6ebf45"
+  review: reader_reviews/0570_f5883129.md
+  stage: no_revision_needed
+  stage_a_rounds: 0
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_success_required
