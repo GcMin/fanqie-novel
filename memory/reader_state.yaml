@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 563
-last_reviewed_title: "父亲的旧板要留，湿墙的内层得拆"
-last_source_path: chapters/draft/0563.md
-last_source_sha: 54b2ed1cb3f90136d9c3ecc3f182b520923ad53b
-last_review_path: reader_reviews/0563_54b2ed1c.md
+last_reviewed_chapter: 564
+last_reviewed_title: "墙里还要吹风，旧封签只走到门口"
+last_source_path: chapters/draft/0564.md
+last_source_sha: 9172ca75634efb3ed007aef866430ca512b1b8ef
+last_review_path: reader_reviews/0564_9172ca75.md
 last_reviewed_at: "2026-11-06"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 562
-depends_on_source_sha: e08d3be9c94c546df361084aed6b10a91bddd69a
-dependency_status: verified_ready_same_title_body_facts
-predecessor_current_source_sha: e08d3be9c94c546df361084aed6b10a91bddd69a
+depends_on_chapter: 563
+depends_on_source_sha: 0315019d5a398f4078a7d62f667e998e214886ab
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 0315019d5a398f4078a7d62f667e998e214886ab
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6261,3 +6261,20 @@ combined_audit_chapter_563_20261106:
   dependency_status: verified_ready_same_title_body_facts
   structural_gate: requires_precise_candidate_ci_success_before_main
 
+chapter_564_arc054_verified:
+  chapter: 564
+  title: "墙里还要吹风，旧封签只走到门口"
+  source_path: chapters/draft/0564.md
+  source_sha: "9172ca75634efb3ed007aef866430ca512b1b8ef"
+  review_path: reader_reviews/0564_9172ca75.md
+  reviewer_mode: independent_pass_a_then_b_exact_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "0315019d5a398f4078a7d62f667e998e214886ab"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: requires_precise_candidate_ci_success_before_main

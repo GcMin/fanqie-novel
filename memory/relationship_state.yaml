@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 563
+last_updated_chapter: 564
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2771,4 +2771,13 @@ chapter_563_arc054_verified:
   mother_property: "物业接受母亲删除不实‘室内完工’栏要求，以限定十五厘米薄层取样、临时保护、留样责任和邻户告知另出作业单；母亲只签有限施工而不签总验收/返住。"
   mother_wu_uncle: "三楼吴叔11:09真实收13:30—14:30噪声告知，不接受收件等于同意今后任意施工；14:21有责岗位告知当次敲击结束但未撤回未来反馈权。"
   ma_yun_colleague: "双岗原簿证指定散页袋曾确实封装时，马芸阻止把‘当年封过’误读成‘今天袋已找到’，同事接受证据层级。"
+  trust_scores_unchanged: true
+
+chapter_564_arc054_verified:
+  chapter: 564
+  source_sha: "9172ca75634efb3ed007aef866430ca512b1b8ef"
+  mother_daughter: "女儿为续住询同房可退改价、把药钱车费单列并未代母亲付款，母亲把继续干燥是否有责审批置于仓促返家之前，两人保持本人签字与共同预算边界。"
+  mother_property: "母亲拒物业用今日一小时试机同意书替代连续48小时作业许可，并当场拒预印‘干燥完成’贴纸，要求实机与停机日志两份分别保存。"
+  mother_wu_uncle: "三楼吴叔为孙子午睡反对13—14点试机，物业将一次许可改16—17时；16:36书架共振反馈获得专业防振垫调整，通知签收不是今后连续作业无异议。"
+  ma_yun_colleague: "马芸坚持按唯一指定封签号排除同批整盒交接，保管员从原岗交出与接收端是否签收分层核实，不借无完整回执推现袋今址。"
   trust_scores_unchanged: true

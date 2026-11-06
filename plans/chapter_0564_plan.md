@@ -5,7 +5,7 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer
 - phases: Planner / Continuity Precheck / Writer
-- status: draft
+- status: ready
 - depends_on_chapter: 563
 - depends_on_source_sha: 0315019d5a398f4078a7d62f667e998e214886ab
 - dependency_status: verified_exact_ready_blob
@@ -32,3 +32,9 @@
 - actual_effective_chars: 3305
 - count_method: 排除YAML Front Matter、独立***场景分隔符与全部空白，按Unicode码点计数，标点计入。
 - precheck: 读取GitHub main的AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、四份Bible及人物卡、现有outlines卷/弧（现存volume_05与arc_current均为旧锚点，实际ARC-054以近期ready正文、memory/current_arc与章纲为准）、长期人物/关系/知识/世界状态、伏笔和时间线、554—563十章摘要及559—563五章正文。published目录最高159且含0153《人没回来，表先签完了》，ready最高563，draft目录无数字章节；564在三目录均不存在。前章563已经ready，精确依赖ready blob；只进行Planner/Continuity Precheck/Writer，未读历史reader_reviews，未做Editor/Reader/Revision/QA/Memory/Publish Gate。
+
+- audit_reader: reader_reviews/0564_9172ca75.md (BLOCKER0 / MAJOR0 / MINOR2, keep/none)
+- audit_qa: qa/0564_report.md (continuity/style/meaningful PASS, structural via exact candidate CI)
+- audit_source_draft_sha: 9172ca75634efb3ed007aef866430ca512b1b8ef
+- audit_body_revisions: 0
+- audit_ready_dependency_sha: 0315019d5a398f4078a7d62f667e998e214886ab

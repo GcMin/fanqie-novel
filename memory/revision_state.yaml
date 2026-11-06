@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 563
-current_stage: chapter563_stageA_newSHA_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0563.md
-current_source_sha: 54b2ed1cb3f90136d9c3ecc3f182b520923ad53b
-current_review_path: reader_reviews/0563_54b2ed1c.md
+current_chapter: 564
+current_stage: chapter564_no_revision_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0564.md
+current_source_sha: 9172ca75634efb3ed007aef866430ca512b1b8ef
+current_review_path: reader_reviews/0564_9172ca75.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter563_stageA_rebind_ready_sha_then_new_reader_0_0_2_content_qa_pass
+last_action: chapter564_initial_reader_0_0_2_content_qa_pass_no_revision
 last_action_date: "2026-11-06"
 last_error: null
-last_diff_summary: "563原2e3c21cf Reader0/1/2仅过期562依赖；StageA只改元数据且正文0字改；新54b2ed1c Reader0/0/2与独立QA PASS，待精确候选CI"
+last_diff_summary: "564原9172ca75634efb3ed007aef866430ca512b1b8ef首次Reader0/0/2，依赖563正式ready精确一致，正文0字修订，独立QA PASS，待精确候选CI"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 54b2ed1cb3f90136d9c3ecc3f182b520923ad53b
+current_review_source_sha: 9172ca75634efb3ed007aef866430ca512b1b8ef
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -5542,3 +5542,16 @@ combined_audit_chapter_563_20261106:
   dependency_status: verified_ready_same_title_body_facts
   structural_gate: requires_precise_candidate_ci_success_before_main
 
+chapter_564_arc054_verified:
+  chapter: 564
+  original_source_sha: "9172ca75634efb3ed007aef866430ca512b1b8ef"
+  final_draft_sha: "9172ca75634efb3ed007aef866430ca512b1b8ef"
+  review: reader_reviews/0564_9172ca75.md
+  stage_a_rounds: 0
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  dependency_status: verified_exact_ready_blob
+  structural_gate: requires_precise_candidate_ci_success_before_main
