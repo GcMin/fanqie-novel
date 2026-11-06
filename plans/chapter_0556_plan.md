@@ -7,10 +7,10 @@
 - phases: Planner / Continuity Precheck / Writer
 - status: draft
 - depends_on_chapter: 555
-- depends_on_source_sha: 34e37cc00e2d852367ab65bc3675b690e3021a87
-- dependency_status: provisional
-- source_location: chapters/draft/0555.md
-- source_boundary: 第555章main当前为Audit阶段未审定草稿（SHA 34e37cc00e2d852367ab65bc3675b690e3021a87），Day418 15:28线材实到且16:17限项条件许可Day419 11:00—12:30更换，尚未开工、复电或返住；Day418 11:19母亲真续第三家可达旅店至Day419午，后续房费待负担；2019另一编目岗位原簿真收内部转查但不证已去第二处实查。前章未来发生独立审核修改须由Audit核对事实兼容，暂不升格Canon。
+- depends_on_source_sha: 1eec1d1af7120afab62fcc5f4ecf1788bdb8996f
+- dependency_status: verified_ready_same_title_body_facts
+- source_location: chapters/ready/0555.md
+- source_boundary: 第555章已经正式ready（SHA 1eec1d1af7120afab62fcc5f4ecf1788bdb8996f；其原Draft正文与ready正文事实一致），Day418 15:28线材实到且16:17限项条件许可Day419 11:00—12:30更换，尚未开工、复电或返住；Day418 11:19母亲真续第三家可达旅店至Day419午，后续房费待负担；2019另一编目岗位原簿真收内部转查但不证已去第二处实查。前章未来发生独立审核修改须由Audit核对事实兼容，暂不升格Canon。
 - goal: 专业修复从施工许可推进为限定水损电路连接段真实换线与旧件留存，仍不得复电/复居；查实2019第二位置实际核位动作但保留移位卡去向未知。
 - POV: 第三人称有限，以唐晓漫母女的维修验真和三楼吴叔邻里诉求为主，马芸旧档调查与中心调度分线。
 - opening: Day419 08:23母女从旅店准备去四楼核今日有条件施工窗口，原房只住到中午；女儿得到半天假，决定亲认工程范围，不替母亲签字。
@@ -32,3 +32,5 @@
 - actual_effective_chars: 3278
 - count_method: 排除YAML Front Matter、独立***分隔符、全部空白，保留标点，按Unicode码点计。
 - precheck: 本轮从GitHub main读取AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md及Bible四份、三人物卡、可用卷/arc大纲、长期Memory/人物知识关系世界/伏笔时间线、第545—554章十章摘要、最近第551—555章五章正文、相邻详细计划；旧volume/arc纲滞后于现有主线，以已审554和555指定SHA作临时衔接。核published最大159含第153章、ready最大554、draft最大555，故本轮只新增556。不读取历史reader_reviews，不做独立审核/修订/QA/Memory/平台发布。
+
+- audit_revision_20261106: 第556章初始暂依555 Draft SHA 34e37cc00e2d852367ab65bc3675b690e3021a87；本次实核其真实正文与555 ready 1eec1d1af7120afab62fcc5f4ecf1788bdb8996f相同、交付FM差异不影响事实，Stage A仅重绑556依赖并将11:07未拆下的旧受水段改为现场照片（实际拆旧11:29），修订后需独立新SHA Reader双遍及独立QA。
