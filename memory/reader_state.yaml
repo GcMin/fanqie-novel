@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 567
-last_reviewed_title: "房卡一次续三晚，封袋只到复核台"
-last_source_path: chapters/draft/0567.md
-last_source_sha: 3770578955db85403fb341d1cb894054ca9709dd
-last_review_path: reader_reviews/0567_37705789.md
-last_reviewed_at: "2026-11-06"
+last_reviewed_chapter: 572
+last_reviewed_title: "旧图只画一层，墙后还隔着一道缝"
+last_source_path: chapters/draft/0572.md
+last_source_sha: e5f051b6f42c58d392d37031393b81eb0177e74e
+last_review_path: reader_reviews/0572_e5f051b6.md
+last_reviewed_at: "2026-11-07"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 566
-depends_on_source_sha: 55d1e234540a5502397487dfaad49a06271bde5b
+depends_on_chapter: 571
+depends_on_source_sha: 524cda53d33ffdfcdee8afaf3fa23d0dd8331568
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 55d1e234540a5502397487dfaad49a06271bde5b
+predecessor_current_source_sha: 524cda53d33ffdfcdee8afaf3fa23d0dd8331568
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6408,4 +6408,20 @@ chapter_571_arc054_verified:
   predecessor_old_provisional_sha: "f588312977df6e914c8d00d3c3f44e5e0e6ebf45"
   predecessor_ready_sha: "bb66687fdea0f6a17ac31537bae8c5aa71dd0d89"
   dependency_status: verified_ready_same_title_body_facts
+  structural_gate: exact_candidate_ci_success_required
+
+chapter_572_arc054_verified:
+  chapter: 572
+  source_sha: "e5f051b6f42c58d392d37031393b81eb0177e74e"
+  review: reader_reviews/0572_e5f051b6.md
+  reviewed_at: "2026-11-07"
+  pass_a: chapter572_previous569_to571_summaries562_to571_style
+  pass_b: canon_arc_character_knowledge_world_timeline_foreshadowing
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "524cda53d33ffdfcdee8afaf3fa23d0dd8331568"
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_success_required
