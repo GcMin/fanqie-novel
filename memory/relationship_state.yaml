@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 576
+last_updated_chapter: 577
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2885,3 +2885,11 @@ chapter_576_arc054_verified:
   mother_property: "物业纠正错误的住房适宜性费用状态并签收分项支付事实，但赔偿、补偿、后续周转和恢复验收均未获准；母亲明确保留争议。"
   neighbor: "吴叔关心孙子下午线上小组讨论，现场限手持仪器无敲击导风机，后续扰民通知权不变。"
   archive: "马芸与有权保管员只核原发文登记，不代未查的目标岗签收。"
+
+chapter_577_arc054_verified:
+  chapter: 577
+  source_sha: "5dafc2857e9e8d38768b598b802c3a216d4242e0"
+  mother_daughter: "女儿请假帮母亲实际搬家并承担车费，母亲接受分工又保护女儿的就医独立；两人将新住宿合同和家庭支出按付款主体分开。"
+  mother_property: "母亲要求将物业推荐名单写为提供备选而不是已安排，物业仍未向新公寓实际支付且赔偿待核。"
+  neighbor: "吴叔后续机具噪声告知权未受影响，本轮专业只归档旧检测未新增机具。"
+  archive: "马芸与两保管员排除说明页和旧袋暂存后独立确认目标岗原簿真实收问询，拒无权限查回函。"

@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 577
+title: "两张房卡退了，旧问询才有收件章"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "6fe3414b4b4bd741e2c29916e2651668d6b78921"
+source_draft_sha: "5dafc2857e9e8d38768b598b802c3a216d4242e0"
+initial_review: reader_reviews/0577_6fe3414b.md
+reader_review: reader_reviews/0577_5dafc285.md
+depends_on_chapter: 576
+depends_on_source_sha: "7341a7eb7a417733b904d3a4eaa2d63563fe39b3"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day440 08:26—Day441 07:09"
+summary: >-
+  Day440 08:26母女梧楠路原有梯双床短住房母亲Day439 11:02已真自付一晚至当日中午，但前台告原房下午另有已确认会务订单不能续，合同权利仍到12点。物业09:11仅推附近住宿平台列表，费用端未新实付；母亲09:47真试第一家虽有电梯但路口到门口三级台阶扶手松、不可达，10:58母女真查泊晨公寓缓坡/电梯/双床、11:16物业具名未拨新款，11:29母亲从本人账户真正支付泊晨Day440午—Day441午一夜并双卡实试，押金另列；11:47梧楠路旧双卡真实退回有收据，女儿单独支付搬运车费，12:09人和行李实际到泊晨，新房也仅付一晚。仁合里四楼原12厘米开口外未动，576两处旧砂浆有限同法测量Day440 15:24由有责专业真正归档“本轮测量完成”但不叫房屋修复验收，新增深部点及旧胶灰衬需另方案申请、未复装父亲铅笔线旧饰板、四楼只有客厅一条原准照明限用其他受水回路隔离整屋不许返住、五楼西户先前有限复水不变。2019旧档：576已仅证同拟办号来源附件核验请求原发出一件到旧卷复核岗，马芸Day440 09:28另交合法限项、14:46获准只看目的岗非身份原始收件簿，双保管员16:07按拟办号类别件数/原发出签识证目标旧卷复核岗当年真实收下**这一封问询**；未查看回复也未证明附件实体补据或旧封袋今存、第73页、历史自然人获答。母亲20:36亲自从新公寓回拨、22:14档案去身份摘录到夜班、Day441 07:09交班；F008/M004/M005、2016旧封/2022电子字节同一未升级。
+meaningful_state_changes:
+  - "母女Day440真正退旧梧楠路原双卡、入住可达泊晨新房，母亲11:29新真付一晚至Day441中午并验双卡、女儿另真付搬车费，物业仅推介名单无新房实付。"
+  - "专业15:24真实归档上一日两处同材旧砂浆有限测量而未把局部测试记整屋恢复或批准复电返住。"
+  - "F003 2019来源附件核验请求真从原发出端推进到旧卷复核岗原始收件簿独立实证，回函与补据实体及历史个人受答仍无证。"
+knowledge_updates:
+  - "母女知梧楠路旧合同已退且泊晨新房只真付至Day441午、不可预言物业赔偿或复住；唐晓漫自己承担搬车费并保持医诊隐私。"
+  - "马芸与夜间中心知2019同一件核验请求原发及目的端原簿收讫双证，不知后续回复、来源附件归属或旧袋今址及历史个人受答。"
+relationship_updates:
+  - "女儿正式请假共同搬家并自己付车费，母亲允许分工而保持各笔费用来源和签字边界；物业推荐名单不能冒已经替住户租到房。"
+  - "马芸与保管员对原说明纸、核验请求及旧封袋另簿分类，夜间中心继续拒把收问询写成收到答案。"
+foreshadowing_updates:
+  - "F003从第576章原端单向真实发出推进至第577章目的旧卷复核岗真实接收请求，但无回文实证，旧袋今址、第73页及历史真人获答未知；F008/M004/M005及2016/2022跨源同一无新增证据。"
+ending_state: "Day441 07:09母女原房已退、可达泊晨短住房母亲真付至当日午、此后房费未付；四楼原12厘米口/旧板封存和受水线路隔离未变，有限双点已归档而整屋不得返住；2019内部核验请求旧卷复核岗确实收讫，不知回函和补据、原第73页、旧袋今天何处或历史个人收答。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6fe3414b4b4bd741e2c29916e2651668d6b78921", final_draft_sha: "5dafc2857e9e8d38768b598b802c3a216d4242e0", initial_counts: "0/1/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "rebind_576_provisional_SHA_to_formal_ready_identical_title_body"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3142

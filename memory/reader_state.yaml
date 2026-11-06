@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 576
-last_reviewed_title: "房费自己续了一晚，问询只走到发出"
-last_source_path: chapters/draft/0576.md
-last_source_sha: 8ec7035eb87254001911513989ca26a014d63fca
-last_review_path: reader_reviews/0576_8ec7035e.md
+last_reviewed_chapter: 577
+last_reviewed_title: "两张房卡退了，旧问询才有收件章"
+last_source_path: chapters/draft/0577.md
+last_source_sha: 5dafc2857e9e8d38768b598b802c3a216d4242e0
+last_review_path: reader_reviews/0577_5dafc285.md
 last_reviewed_at: "2026-11-07"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 575
-depends_on_source_sha: 26e397c098f6e7e9efe1169328002695faecb721
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 26e397c098f6e7e9efe1169328002695faecb721
+depends_on_chapter: 576
+depends_on_source_sha: 7341a7eb7a417733b904d3a4eaa2d63563fe39b3
+dependency_status: verified_ready_same_title_body_facts
+predecessor_current_source_sha: 7341a7eb7a417733b904d3a4eaa2d63563fe39b3
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6498,4 +6498,24 @@ chapter_576_arc054_verified:
   independent_qa: pass
   predecessor_ready_sha: "26e397c098f6e7e9efe1169328002695faecb721"
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_success_required
+
+chapter_577_arc054_verified:
+  chapter: 577
+  original_sha: "6fe3414b4b4bd741e2c29916e2651668d6b78921"
+  source_sha: "5dafc2857e9e8d38768b598b802c3a216d4242e0"
+  initial_review: reader_reviews/0577_6fe3414b.md
+  review: reader_reviews/0577_5dafc285.md
+  reviewed_at: "2026-11-07"
+  pass_a: chapter577_previous574_to576_summaries567_to576_style
+  pass_b: canon_arc054_character_knowledge_world_timeline_foreshadowing
+  initial_counts: "0/1/2"
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_old_provisional_sha: "8ec7035eb87254001911513989ca26a014d63fca"
+  predecessor_ready_sha: "7341a7eb7a417733b904d3a4eaa2d63563fe39b3"
+  dependency_status: verified_ready_same_title_body_facts
   structural_gate: exact_candidate_ci_success_required
