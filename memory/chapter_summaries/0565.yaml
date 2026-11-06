@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 565
+title: "四十八分钟不能算两天"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "0c8014019a474b5d9e2c6a6bc9370e5dbb95afe0"
+reader_review: reader_reviews/0565_0c801401.md
+depends_on_chapter: 564
+depends_on_source_sha: "fad4c0dd07ea16bff834970bd61a80963d6d68e9"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day428 08:16—Day429 07:09"
+summary: >-
+  Day428母女梧楠路短住同房因旧款只付至Day428午，母亲9:09从本人账户真付新一晚到Day429午并重验双卡；第三店旧押金、街道资助及物业赔责仍未核到账或批准。母亲查发现物业把Day427实际16:08—16:56的48分钟试机在预估表错列成已做48小时，10:21取得有责更正说明，仅签收非承认费用、完工和返住。仁合里四楼11:06停风后同点同深测点内层仍湿，13:42只批准16:00—17:30最长90分钟有限送风；持证电工核独立临电、通道围挡和封签，16:09—17:24真运行75分钟，吴叔回报楼道低声经实录，连续48小时和停机后专业稳定复测仍未做/未批准；父亲旧饰板独号保管，其他受水回路隔离、整屋返住未准，五楼西户Day421有限复水不变。马芸10:06仅申请按2019完整指定封签核临时接收岗非身份原簿，15:28限准后双有权保管员排除仅同批盒号的非同物记录，16:41实见该封签散页袋当年有该站真实收讫记号与岗位签章；原岗交出与接收岗真收两站可相互对应，不等于后续转出、今存、袋内原第73页、历史补据核发寄达或旧自然人得答。20:22母亲真回拨中心，22:14去身份摘录达席，Day429 07:09分项交班。
+meaningful_state_changes:
+  - "预估表48小时错归已执行经10:21书面更正为Day427真实48分钟，Day428新真试机75分钟，仍不构成连续干燥、返住验收。"
+  - "母女本人真续梧楠路同房一晚至Day429午，两房卡实际可用，未将押金补助赔责预先记入到账。"
+  - "F003指定2019散页封袋由原岗交出推进为临时接收岗当年真实收讫证据，但后续、今存与页件未知。"
+knowledge_updates:
+  - "母女知道两次短时送风及尚未做稳定复测、许可上限非实做、四楼其他回路和返住均未准，药钱车费预留。"
+  - "马芸与中心仅知原岗交出和临时接收岗真实接入旧袋，不知下一站、现存、原第73页与旧人得答。"
+relationship_updates:
+  - "母亲坚持实付住宿、核价和真实作业签字，拒替物业预估背书；吴叔因孙子与通行继续保留噪声反馈。"
+  - "女儿协同保留药费与车费，尊重母亲本人付款签认，中心只登记有源事实。"
+foreshadowing_updates:
+  - "F003新增2019临时接收岗实收原簿，与原封装岗交出互证；后续转出、今存、第73页、历史受答及F008/M004/M005、2016/2022跨源同一均未升级。"
+ending_state: "Day429 07:09两次送风分别48分与75分均停机，仍未获连续干燥/稳定复测合格/整屋返住或其他受水线路解封；公寓真付至Day429中午下一夜未订；2019同封签袋已证接收岗当年实收而后续未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0c8014019a474b5d9e2c6a6bc9370e5dbb95afe0", final_draft_sha: "0c8014019a474b5d9e2c6a6bc9370e5dbb95afe0", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2877
