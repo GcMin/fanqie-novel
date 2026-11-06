@@ -5,10 +5,10 @@
 - arc: ARC-054
 - status: planned_for_first_draft
 - depends_on_chapter: 576
-- depends_on_source_sha: "8ec7035eb87254001911513989ca26a014d63fca"
-- dependency_status: provisional
+- depends_on_source_sha: "7341a7eb7a417733b904d3a4eaa2d63563fe39b3"
+- dependency_status: verified_ready_same_title_body_facts
 - target_chars: 2600—3400，硬限2300—3800有效字符
-- 基线：main `8c73ec25ef3182ff083a5aea3109e5c6df695304`；576仍是draft，QA pending，特定源blob仅作临时连续性参考，不升级为正式Canon。若其后修订造成事实冲突，留待独立Revision/Audit处理；Writer不修改既有稿。
+- 基线：main `8c73ec25ef3182ff083a5aea3109e5c6df695304`；576已由唯一Audit审核并迁入ready，正式Blob 7341a7eb7a417733b904d3a4eaa2d63563fe39b3；原临时草稿 8ec7035eb87254001911513989ca26a014d63fca 与ready版本标题和全部小说正文逐字相同，只有Front Matter交付状态变化，故事事实未变。
 - 目标：母女真正搬离无法续住的旧可达公寓，验证新住宿的实际出入口和房间、付款方、合同和房卡；档案线将2019内部问询从“发出”推进到合法有权原始收文“实收”，严格不写回复或补据成立。
 - POV：母亲及唐晓漫为主，马芸独立档案线，夜班结尾有限切周衡/夏宁/梁策。维持生活化的工单悬疑，不滥用技术说明。
 - 开场：Day440 08:26梧楠路原双床房由母亲Day439 11:02真正自付到Day440中午，原房下午会务订单不能续；前章Day439两处同材旧砂浆有限测量有读数而无全墙合格；2019同拟办号“来源附件核验请求”只有原发出端已证。
@@ -23,4 +23,8 @@
 - 新信息/变化：旧短住合同正常结束，母女真正搬入泊晨已付至Day441中午；母女明确工作分担不代签；专业暂停无新权限的重复测试；2019内部核验问询目的端原收文独立证实。
 - 伏笔与边界：F003只增内部核验请求原收文，旧卷复核岗真收问询不等于散页袋实收或补据答复；F008/M004/M005无独立确证。2016旧封件和2022电子记录字节同一、旧袋当下存址、原第73页、历史自然人获答、灰薄衬原设计用途/受水根因均不可擅填。
 - 结尾承接：Day441 07:09泊晨短住只真付到当日中午，之后未付；仁合里仍无返住许可；下一档案问题只能合法另申请回复登记，不直接写成查过。
-- Continuity Precheck：576稿本截至本次读取的源blob `8ec7035eb87254001911513989ca26a014d63fca` 是临时依赖，只延续其有界已写事实；工程测量与验收、住宿有房与真付款、历史请求发出/收到/回复严格分层。本轮只Planner/Precheck/Writer，不含Reader、Revision、QA、Memory和发布。
+- Continuity Precheck：576原临时草稿 `8ec7035eb87254001911513989ca26a014d63fca` 与正式ready `7341a7eb7a417733b904d3a4eaa2d63563fe39b3` 标题和正文逐字一致，仅交付Front Matter变化；当前精确依赖正式ready，延续有界已核事实；工程测量与验收、住宿有房与真付款、历史请求发出/收到/回复严格分层。本轮只Planner/Precheck/Writer，不含Reader、Revision、QA、Memory和发布。
+
+## 第577章 Audit Stage A 依赖重绑记录（2026-11-07）
+- 原577草稿初审前章SHA为576旧草稿 `8ec7035eb87254001911513989ca26a014d63fca`、状态provisional；实际独立比较其与正式ready `7341a7eb7a417733b904d3a4eaa2d63563fe39b3`，小说标题和全文逐字相同，仅Front Matter交付元数据不同，不新增人物或事件差异。
+- 第577章本次局部修订仅更新前章正式Blob依赖/状态及Front Matter有效字数，小说正文0字修改。原稿Reader 0 BLOCKER/1 MAJOR/2 MINOR，MAJOR仅交付依赖SHA；必须基于新577草稿Blob重新Reader Pass A/B后独立QA与精确CI门禁。
