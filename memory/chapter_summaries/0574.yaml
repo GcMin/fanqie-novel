@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 574
+title: "两晚房钱终于付了，旧目录仍没有签收"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "fa55728a05252b65e4363db29f59a4e9ede4db6b"
+reader_review: reader_reviews/0574_fa55728a.md
+depends_on_chapter: 573
+depends_on_source_sha: "ca6a983e772dbf07ec0fb935c610831f422f9eab"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day437 08:19—Day438 07:08"
+summary: >-
+  Day437母亲本人之前真付梧楠路有梯双床房到当日中午；物业09:47仅内部批准下一两晚临住周转费，10:12财务才实际直付公寓Day437午—Day439午两晚，收据记实付款方、两卡重写实试，母亲拒签把本期费用与全部住房损失争议无异议合一的模板，旧自费、女儿家庭款和街道支持/赔责未定。女儿能继续工作与就医预约。四楼14:06仅在原12厘米口两处可触表面和邻近已允许一处做合法非破坏测量，15:17三点读数及环境/位置照片各留号，有局部差异但不能推全墙干燥、灰衬余段用途、漏水根因、复装/受水回路复电或整屋返住；父亲旧板独号封、四楼仅客厅一照明支路有限可用其他受水线路隔离，五楼西户有限复水不变，三楼吴叔未来施工告知权保留。马芸Day437 10:53依法限定核2019补据候选后编目录来源，14:38获新准阅，两位有权保管员证候选实际于2021目录整理由待关联旧纸质收文迁入，2019登记日期为业务年份而非当年实际签收，16:49去身份限项摘录真出；不证2019原纸是否真正接入、袋今日存址、原第73页和历史自然人受答。母亲20:28实回拨、22:06限项档案摘录入夜班、Day438 07:08分项交班。
+meaningful_state_changes:
+  - "物业10:12真正直付原双床房两夜至Day439中午，双卡试开不等于赔责结清。"
+  - "专业在原开口/邻近获准位置真实做三点非破坏测量并留有源位置差异信息，不代表可返住。"
+  - "F003核候选目录2021整理导入、2019只是业务年份，旧原纸真收仍未证。"
+knowledge_updates:
+  - "母女知住房物业真付至Day439中午，但旧个人支出/女儿分担不能自动计入赔偿；三点读数不证全墙合格。"
+  - "马芸和夜班知后编候选实际2021导入，仍不知2019真原纸实收或旧袋、第73页、历史人获答。"
+relationship_updates:
+  - "母亲接受真实房费又拒签赔责无异议，女儿坚持就医工作与账目；专业仅对合法有限测点负责。"
+  - "马芸与保管员共同守住候选索引和实收原簿的证据区分；吴叔未来知情权保留。"
+foreshadowing_updates:
+  - "F003仅厘清2021编目来源不升级2019实物补据、旧袋今址、第73页或自然人得答；F008/M004/M005和2016/2022跨源同一无新证。"
+ending_state: "Day438 07:08母女原房真实付到Day439中午但赔责未定，四楼三点数据有源旧板独封其他受水电路隔离整屋不得返住，2019补据原始收文实证及袋今址第73页历史得答仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "fa55728a05252b65e4363db29f59a4e9ede4db6b", final_draft_sha: "fa55728a05252b65e4363db29f59a4e9ede4db6b", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3403

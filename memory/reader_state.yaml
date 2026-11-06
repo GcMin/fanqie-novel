@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 573
-last_reviewed_title: "材料有了名字，回家的日期没有"
-last_source_path: chapters/draft/0573.md
-last_source_sha: d16460f283b12abb8f473a3a93ed95fe73b68e99
-last_review_path: reader_reviews/0573_d16460f2.md
+last_reviewed_chapter: 574
+last_reviewed_title: "两晚房钱终于付了，旧目录仍没有签收"
+last_source_path: chapters/draft/0574.md
+last_source_sha: fa55728a05252b65e4363db29f59a4e9ede4db6b
+last_review_path: reader_reviews/0574_fa55728a.md
 last_reviewed_at: "2026-11-07"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 572
-depends_on_source_sha: c787b43f4d04a0abab0dc788712d27466d87066c
+depends_on_chapter: 573
+depends_on_source_sha: ca6a983e772dbf07ec0fb935c610831f422f9eab
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: c787b43f4d04a0abab0dc788712d27466d87066c
+predecessor_current_source_sha: ca6a983e772dbf07ec0fb935c610831f422f9eab
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6444,4 +6444,19 @@ chapter_573_arc054_verified:
   predecessor_old_provisional_sha: "e5f051b6f42c58d392d37031393b81eb0177e74e"
   predecessor_ready_sha: "c787b43f4d04a0abab0dc788712d27466d87066c"
   dependency_status: verified_ready_same_title_body_facts
+  structural_gate: exact_candidate_ci_success_required
+
+chapter_574_arc054_verified:
+  chapter: 574
+  source_sha: "fa55728a05252b65e4363db29f59a4e9ede4db6b"
+  review: reader_reviews/0574_fa55728a.md
+  pass_a: chapter574_previous571_to573_summaries564_to573_style
+  pass_b: canon_arc_character_knowledge_world_timeline_foreshadowing
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "ca6a983e772dbf07ec0fb935c610831f422f9eab"
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_success_required
