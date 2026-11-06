@@ -1,3 +1,8 @@
+## 第566章 ARC-054 Stage A与新SHA独立双遍Reader及内容QA｜2026-11-06（精确候选结构CI前）
+- 原Draft `00975760b0aa46c0069a12286214be6d7c223363` 的独立Pass A普通读者/Pass B Canon+知识世界关系时间伏笔审查0 BLOCKER/1 MAJOR/2 MINOR；唯一MAJOR为前565旧临时SHA未对齐ready。实际比较565原draft与正式ready `e353b33f84fa8d15dae2b5f3e3763ab89f5f5be4`小说正文与标题**逐字相同**，仅交付元数据改变，故事事实兼容。Stage A只调整566正文Front Matter及详细章纲前章SHA和状态，**小说正文0字修改**。新draft Git Blob `2ef4fb82cec077c7192a5b59e69cba75ececb830`实际落盘后再次独立Pass A/B结果0/0/2，keep/none，`reader_reviews/0566_2ef4fb82.md`，旧Review不用于放行。独立Continuity/Style/Meaningful Change内容QA均PASS，有效字符3341。
+- Day429 09:53专业停机后深点仍湿，11:22物业向公寓经营方真付母女一晚至Day430午而母亲拒放弃索赔/返住模板；16:06—17:22有责受控导风除湿实启停且16:34—16:43因吴叔发现围挡通行风险真停9分钟整改，集水增量非墙干，其他受水电路及整屋返住未批。2019同一封签散页袋前章已证临时接收岗真收，本章仅新证该岗当年另真实交出并记目的资料复核台，不证下一站实际签收、现今存址、袋内第73页、历史真人得答；F008/M004/M005与2016/2022同一未升级。
+- 历史137→138、139→140、142→143、146→147、147→148的旧SHA链不是本章直接依赖，不因旧引用机械阻断亦不冒称全部旧全文复核。仅内容QA PASS，必须在最终精确候选Git commit上实际通过结构单测及`python -m publisher.check_local --repo .`后方可迁移main ready。
+
 ## 第565章 ARC-054 独立双遍Reader与内容QA｜2026-11-06（精确结构CI前）
 - 原稿Git Blob `0c8014019a474b5d9e2c6a6bc9370e5dbb95afe0`；先只读本章、前562—564章与近期摘要和文风完成Pass A，再读Canon、人物知识关系世界时间伏笔完成Pass B。Reader BLOCKER0/MAJOR0/MINOR2，keep/none，正文0字修订；独立Continuity/Style/Meaningful Change内容QA均PASS，有效字符2877。
 - 第564章ready Blob `fad4c0dd07ea16bff834970bd61a80963d6d68e9`精确匹配依赖，无前章版本漂移；历史137—148旧SHA关注链不是本章直接依赖，不凭形式阻断亦不冒称旧全文复审。
