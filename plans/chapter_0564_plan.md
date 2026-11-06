@@ -29,6 +29,6 @@
 - cannot_reveal: 无完整失址机制与历史业务自然人身份；不宣称第73页在袋中、袋现今仍存在或旧业务补据完成、核发寄达或本人获答；不从短时试运行推全屋合格、其他受水线路复电、街道补助赔责已批或返住许可。
 - ending: Day428 07:11四楼仅一条客厅照明可有限使用、其他受水电路仍隔离，整屋不可返住；局部干燥试运行已真实结束而持续作业尚待批准；五楼西户有限复水不变；梧楠路短住已付至Day428中午、再下一夜未付；2019散页袋确有原岗位交出登记，但下一接收与袋今址及第73页待证。
 - target_chars: 2600—3400 preferred; 2300—3800 hard
-- actual_effective_chars: 3320
+- actual_effective_chars: 3305
 - count_method: 排除YAML Front Matter、独立***场景分隔符与全部空白，按Unicode码点计数，标点计入。
 - precheck: 读取GitHub main的AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、四份Bible及人物卡、现有outlines卷/弧（现存volume_05与arc_current均为旧锚点，实际ARC-054以近期ready正文、memory/current_arc与章纲为准）、长期人物/关系/知识/世界状态、伏笔和时间线、554—563十章摘要及559—563五章正文。published目录最高159且含0153《人没回来，表先签完了》，ready最高563，draft目录无数字章节；564在三目录均不存在。前章563已经ready，精确依赖ready blob；只进行Planner/Continuity Precheck/Writer，未读历史reader_reviews，未做Editor/Reader/Revision/QA/Memory/Publish Gate。
