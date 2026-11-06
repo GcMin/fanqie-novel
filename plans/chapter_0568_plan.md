@@ -5,7 +5,7 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer
 - phases: Planner / Continuity Precheck / Writer
-- status: draft
+- status: ready
 - depends_on_chapter: 567
 - depends_on_source_sha: 25a30e8a0dc073f51250de26dbedc2a42080cd86
 - dependency_status: verified_exact_ready_blob
@@ -32,3 +32,8 @@
 - actual_effective_chars: 3530
 - count_method: 排除Front Matter及独立***分隔符、全部Unicode空白，按Unicode码点统计，包含标点。
 - precheck: 读取当前main 9797f589c7f81ddda72322374721a50658165472 的AGENTS、novel配置、writing_roles、ai_reading_protocol、Bible与相关人物卡、现有第五卷旧大纲与arc_current、最新memory/current_arc、人物知识关系世界状态、伏笔时间线、计划表、558—567摘要及563—567正式ready全文；未读取历史reader_reviews。published/0153.md存在；published/ready/draft最大567，拟写568两文件均不存在；前章ready精确Blob为25a30e8a0dc073f51250de26dbedc2a42080cd86。仅Planner/Continuity Precheck/Writer，未进入独立审核。
+
+- audit_reader: 0 BLOCKER / 0 MAJOR / 2 MINOR; SHA 92eb564b4ab9f864430cf1255aabaab98fd6350f; independent Pass A then Pass B
+- audit_qa: continuity/style/meaningful PASS; 3530 effective chars within hard limit; 130 beyond preferred upper bound justified by three meaningful scenes; no prose edits
+- release_ready_blob: 07f5555b0f390c876c85bf87bf51458d425ea20a
+- audit_structural_gate: exact candidate CI required before main

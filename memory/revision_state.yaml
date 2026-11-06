@@ -5601,3 +5601,36 @@ chapter_567_arc054_verified:
   content_qa: pass
   dependency_status: verified_exact_ready_blob
   structural_gate: requires_precise_candidate_ci_success_before_main
+
+
+chapter_568_arc054_verified:
+  chapter: 568
+  original_source_sha: "92eb564b4ab9f864430cf1255aabaab98fd6350f"
+  final_draft_sha: "92eb564b4ab9f864430cf1255aabaab98fd6350f"
+  review: reader_reviews/0568_92eb564b.md
+  stage_a_rounds: 0
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  dependency_status: verified_exact_ready_blob
+  structural_gate: requires_precise_candidate_ci_success_before_main
+
+chapter_569_arc054_verified:
+  chapter: 569
+  original_source_sha: "ddddf18a906bafd0e9948cb28614400cf7780270"
+  original_review: reader_reviews/0569_ddddf18a.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_after: "53471dcd0d6e6596265a6f3be8eb1818fb68c248"
+  stage: local_revision_metadata_only
+  fix: "rebind_568_provisional_to_formal_ready_sha_after_identical_title_body_comparison"
+  stage_a_rounds: 1
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  review_after: reader_reviews/0569_53471dcd.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  dependency_status: verified_ready_same_title_body_facts
+  structural_gate: requires_precise_candidate_ci_success_before_main

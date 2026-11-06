@@ -6331,3 +6331,41 @@ combined_audit_chapter_567_20261106:
   predecessor_ready_sha: "55d1e234540a5502397487dfaad49a06271bde5b"
   dependency_status: verified_exact_ready_blob
   structural_gate: requires_precise_candidate_ci_success_before_main
+
+
+chapter_568_arc054_verified:
+  chapter: 568
+  source_sha: "92eb564b4ab9f864430cf1255aabaab98fd6350f"
+  review_path: reader_reviews/0568_92eb564b.md
+  reviewer_mode: independent_pass_a_then_b_exact_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "25a30e8a0dc073f51250de26dbedc2a42080cd86"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: requires_precise_candidate_ci_success_before_main
+
+chapter_569_arc054_verified:
+  chapter: 569
+  original_source_sha: "ddddf18a906bafd0e9948cb28614400cf7780270"
+  initial_review: reader_reviews/0569_ddddf18a.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  local_revision_rounds: 1
+  source_sha: "53471dcd0d6e6596265a6f3be8eb1818fb68c248"
+  review_path: reader_reviews/0569_53471dcd.md
+  reviewer_mode: independent_pass_a_then_b_on_new_git_blob
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_old_provisional_sha: "92eb564b4ab9f864430cf1255aabaab98fd6350f"
+  predecessor_ready_sha: "07f5555b0f390c876c85bf87bf51458d425ea20a"
+  dependency_status: verified_ready_same_title_body_facts
+  structural_gate: requires_precise_candidate_ci_success_before_main

@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 569
+title: "记录器要守到下午，房卡只到中午"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "ddddf18a906bafd0e9948cb28614400cf7780270"
+source_draft_sha: "53471dcd0d6e6596265a6f3be8eb1818fb68c248"
+initial_review: reader_reviews/0569_ddddf18a.md
+reader_review: reader_reviews/0569_53471dcd.md
+depends_on_chapter: 568
+depends_on_source_sha: "07f5555b0f390c876c85bf87bf51458d425ea20a"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day432 08:26—Day433 07:09"
+summary: >-
+  Day432 08:26母亲收到Day431灰薄衬封样照片标签写待送材质评估，物业却误称已检并拟继续清内层；母亲保存误述、专业材料人员明确用途待核且不能扩拆。仁合里四楼09:48专业提出既有12厘米开口两只电池温湿记录器加室内一对照，只作趋势参考不等于含水率合格/漏源鉴定；10:56母亲拒把监测单混签完工/返住许可，另签仅安装取回限项；因需24小时至Day433下午，短住房卡却Day433中午到期，物业仅具名承诺Day433 09:30告知下一笔实付与否，截至交班未付。唐晓漫午间核设备编号/取回身份与母亲远程见证边界。13:39布设、13:56三器实际启动、14:08首轮存数核对，完整监测须Day433 14:08后才算；旧薄衬未清、旧板独封、受水线路未复电与整屋返住未准，吴叔保留新噪声告知权。马芸10:16申请查2019复核台暂存码历史更正对照，15:09合法两岗准阅原始更正簿，证后编表曾误抄同码于同批整盒、错误当年已划销，原完整封签散页袋本站码未改，并不证明后续转出/今天实存/第73页及旧自然人受答；16:51领去身份摘录。20:32母亲回拨、22:20旧档摘录到中心、Day433 07:09交班仍无后续房费实付、监测未满24小时、街道支持赔责未准。
+meaningful_state_changes:
+  - "三点电池记录器实际运转，至少24小时数据需待Day433下午，当前无合格结论。"
+  - "物业有Day433 09:30住房续付状态具名回复承诺，但下一晚未实际付款，12:00房卡到期压力独立存在。"
+  - "F003后编整盒误录被2019原始更正簿划销证实，本站散页封袋暂存码仍有效作为历史索引但不证现存。"
+knowledge_updates:
+  - "母女知道‘待送’绝非‘已检’，监测已开但无结果，下一晚费用并未支付，不能提前签复居。"
+  - "马芸和夜班中心明确2019后编整盒同码是错误支线，历史封签袋今址、第73页与旧人得答仍不知。"
+relationship_updates:
+  - "母女共核三台设备编号及工作时间安排，母亲拒监测与整屋验收合签，吴叔保留以后扰民/通行反馈。"
+foreshadowing_updates:
+  - "F003划销同码误配整盒，仍不证封袋后续/今天位置与旧自然人获得答复；2016/2022同一及F008/M004/M005无新确证。"
+ending_state: "Day433 07:09三台记录器持续测量未满24小时、父亲旧板独封、墙体未准封回、其他受水电路及整屋返住未批准；梧楠路房费只真付至Day433午，物业09:30将回告但新款尚未实付；旧散页袋错码已纠而真实今址和第73页仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ddddf18a906bafd0e9948cb28614400cf7780270", final_draft_sha: "53471dcd0d6e6596265a6f3be8eb1818fb68c248", initial_counts: "0/1/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "rebind_568_provisional_to_ready_sha_after_exact_same_title_body_comparison"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3313

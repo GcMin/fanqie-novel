@@ -5,12 +5,12 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer
 - phases: Planner / Continuity Precheck / Writer
-- status: draft
+- status: ready
 - depends_on_chapter: 568
-- depends_on_source_sha: 92eb564b4ab9f864430cf1255aabaab98fd6350f
-- dependency_status: provisional
-- source_location: chapters/draft/0568.md
-- source_boundary: 前章568截至本轮仍为main中未审draft，精确Git Blob仅用于临时衔接，不算正式Canon。其Day431十二厘米合法新开口与灰色薄衬取样、父亲旧饰板封存、物业房费真付到Day433中午以及2019复核台当年暂存码属于暂定剧情；若568审核更动关键事实由独立审核核对。
+- depends_on_source_sha: 07f5555b0f390c876c85bf87bf51458d425ea20a
+- dependency_status: verified_exact_ready_blob
+- source_location: chapters/ready/0568.md
+- source_boundary: 前568原草稿92eb564b4ab9f864430cf1255aabaab98fd6350f与正式ready 07f5555b0f390c876c85bf87bf51458d425ea20a标题及小说正文逐字完全相同，仅交付元数据不同；本章事实与前章衔接相容且依赖已精确绑定正式ready。仅承认前章有权开口与暂存码等有限事实，不上升未知项。
 - goal: 纠正“待送材质评估”被误写成“已检”的程序误判；在不扩大拆检、不动隔离电路前提下布设可比较24小时记录器；让房卡截止与监测周期冲突成为需要真实答复的倒计时；排除F003的2019后编暂存码误配。
 - POV: 第三人称限知，以唐晓漫母亲为主；马芸限项受控档案核查；夏宁周衡梁策仅夜班分源记录。
 - opening: Day432 08:26收到昨日灰薄衬样本“待送”照片，但物业口称“已检”，母亲拒其越权扩大清障。
@@ -32,3 +32,11 @@
 - actual_effective_chars: 3313
 - count_method: 正文不含Front Matter、空白和独立场景分隔符***，按Unicode码点计数含标点。
 - precheck: GitHub main 4abb125f4384e98a7f3287f462767a832d5a5230已重读AGENTS、config/novel.yaml、docs/writing_roles、docs/ai_reading_protocol、Bible四项及人物卡、arc_current与既有卷纲、Memory人物/关系/知识/世界/伏笔/时间线、558—567十章摘要、564—567 ready全文和568 draft全文；未读历史reader_reviews。published/0153.md已存在，published/ready/draft最大编号568，569正文和章纲路径原不存在。
+
+- audit_initial_reader: 0 BLOCKER / 1 MAJOR / 2 MINOR on original draft ddddf18a906bafd0e9948cb28614400cf7780270; MAJOR only stale predecessor provisional SHA
+- audit_stage_a: only rebind dependency to formal ready predecessor in Front Matter and this plan; body 0 chars changed
+- audit_final_draft_sha: 53471dcd0d6e6596265a6f3be8eb1818fb68c248
+- audit_final_reader: 0 BLOCKER / 0 MAJOR / 2 MINOR; independent Pass A and Pass B on new Git blob
+- audit_qa: continuity/style/meaningful PASS; 3313 effective chars
+- release_ready_blob: 5dd0ed50a287d9eb65583575f47694f00b825066
+- audit_structural_gate: exact candidate CI required before main

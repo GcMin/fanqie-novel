@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 568
+title: "只开十二厘米，墙后还有一层挡板"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "92eb564b4ab9f864430cf1255aabaab98fd6350f"
+reader_review: reader_reviews/0568_92eb564b.md
+depends_on_chapter: 567
+depends_on_source_sha: "25a30e8a0dc073f51250de26dbedc2a42080cd86"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day431 08:40—Day432 07:06"
+summary: >-
+  Day431 08:40母女梧楠路短住公寓房费此前已由物业真付至Day433中午，母亲发现新局部方案把小口拆检与整屋恢复验收混写，拒签混合模板。09:37四楼专业与电工核现场隐线/原受水线路隔离，限定非结构饰面约12厘米，10:23母亲只签新限项同意，不同意复装复电或返住。吴叔担心孙子14时网课，专业把可敲施工窗改13:30—14:00，吴叔仅签收告知。13:33实际在允许范围开口，13:47见旧灰薄衬背面旧胶遮挡此前导风方向一部分，13:52仅取可分离小样按编号封存，未扩大开口或推新漏源；深角潮痕/两新点仅留据，13:58真收工，旧饰板父亲笔记仍另封。马芸10:02申请核2019同完整封签散页袋复核台历史内部暂存码，15:26合法有权双岗核原簿排除同批整盒，确有当年本站暂存识别码及待核归属，16:44领去身份摘录；不证袋今存址/原第73页/旧自然人受答。20:31母亲本人回拨、22:12档案摘录到夜班，Day432 07:06交班明确旧导风仍停、新专业方案待评估/另批、四楼其他受水电路与整屋返住未准、五楼西户有限复水不变，三晚原房费真实有效至Day433午。
+meaningful_state_changes:
+  - "12厘米局部开放已合法实施并封存灰薄衬样品，原风路被遮挡但未知受水原因和材料用途。"
+  - "吴叔14点网课需求落实为真实作业停止窗口，旧饰板仍独立在位。"
+  - "F003资料复核台同封签散页袋当年内部暂存识别码及待核归属有源确认，现袋/原第73页仍不明。"
+knowledge_updates:
+  - "母女知旧薄衬可解释导风局部受阻却不证墙干，授权只限12厘米；三晚真付至Day433午，返住未准。"
+  - "马芸与夜间中心知2019旧封签袋复核台历史内部暂存码，今存及旧个人获答未知。"
+relationship_updates:
+  - "母亲拒混合验收、女儿核父亲旧板编号；吴叔要求施工14点前结束，物业真正执行。"
+foreshadowing_updates:
+  - "F003只增2019本站暂存标识，不推出今日实际袋址、第73页与历史真答，F008/M004/M005、2016/2022同一未确证。"
+ending_state: "Day432 07:06母女房费到Day433午已真付；四楼12厘米限定开口完成仅留样、旧导风停止新方案待批、父亲旧饰板独封、其他受水电路和整屋返住未准；旧封签袋当年暂存码有源、今址及第73页未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "92eb564b4ab9f864430cf1255aabaab98fd6350f", final_draft_sha: "92eb564b4ab9f864430cf1255aabaab98fd6350f", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3530
