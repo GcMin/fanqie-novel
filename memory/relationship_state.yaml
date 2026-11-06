@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 565
+last_updated_chapter: 566
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2789,4 +2789,13 @@ chapter_565_arc054_verified:
   mother_property: "母亲拒将Day427试机48分钟预估填为已做48小时并于Day428 10:21取更正说明，Day428当次许可限最长90分钟实做75分钟，未经审批未同意连续两天。"
   mother_wu_uncle: "吴叔收到新送风时段征询，继续保留关于儿童通行及低声的反馈权，不签未来无异议，物业据实记录本次意见。"
   ma_yun_colleague: "马芸及两名有权保管员只按同一完整封签号从接收岗原始账确认历史实收，拒以同批整盒代散页封袋。"
+  trust_scores_unchanged: true
+
+chapter_566_arc054_verified:
+  chapter: 566
+  source_sha: "2ef4fb82cec077c7192a5b59e69cba75ececb830"
+  mother_daughter: "母女共同坚持住房到期前有真实续房付款，女儿核预算中的付款方不是补助到账；母亲只签真实本次费用使用证明，不牺牲未来损失主张。"
+  mother_property: "物业先行垫一晚梧楠路住宿，母亲拒模板中的一揽子损失已解决，要求重印仅实际支付确认；新导风试验得到限定许可而非全屋验收。"
+  mother_wu_uncle: "吴叔Day429带孙经过四楼时发现围挡固定带翘起拍照报警，负责人真实停机9分钟并核人行宽度和电源保护后恢复，母亲保留照片与作业记录。"
+  ma_yun_colleague: "马芸及双岗保管员按完整历史封签号区分同站交出与资料复核台是否实收，不把同批盒号拼成同一件。"
   trust_scores_unchanged: true
