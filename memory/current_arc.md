@@ -1,3 +1,9 @@
+## 第558章ARC-054修订后独立Reader与内容QA｜2026-11-06（精确候选CI前）
+
+- 第558章原始草稿Git Blob `d3d7f3823f97307b70aee3b8af95ecd537e04ce1`，初次独立Pass A/B结果 BLOCKER0/MAJOR1/MINOR2；仅Stage A一处将母亲Day421“去年修好的灯”纠正为“昨天那盏灯也是验过才开的”，修订后新Git Blob `9004efbeab7ef304d4f2747775e66b69307182f9`，新SHA重新独立Pass A/B 0/0/2 keep/none；独立Continuity/Style/Meaningful QA内容PASS，3703有效字符，前章557正式ready Blob `e8bb7af7c7747f2239fac10a3202162d0e72f924`精确匹配。仅候选精确结构CI成功才能放行。
+- Day421五楼西户授权水暖第一次分段试压12:06见接头湿痕，13:11纠正密封圈配合问题，13:56二次独立测试、14:28限定合格、15:07有权真复供与水表走字；四楼其他受水电路与墙体仍待专业确认，独立复居未准。母女12:42真自费支付第三旅店两夜到Day423午，房卡真更新试刷；街道资助与赔责未批。
+- 2019同批一盒合法有权双端原簿实交接有据，但没有第73页随盒的页级证据和历史本人受答；F003小步推进，F008/M004/M005及2016旧封与2022实际字节同一不升级。137—148相关旧SHA未成为本章事实依赖，不机械阻断或伪称重核。
+
 ## 第557章ARC-054 SHA绑定Reader与独立内容QA｜2026-11-06（候选CI前）
 
 - 正式待审Draft Git Blob `a9ea960650aa1442bba37386cddfab3e80ee155b`，Reader按先Pass A(557、554—556全文、547—556摘要及文风)、后Pass B(Canon、人物/知识/世界/时间线/F003/卷弧)独立审查为0 BLOCKER/0 MAJOR/2 MINOR、keep/none，正文0字改；Continuity/Style/Meaningful QA内容PASS，3216有效字，前章556正式ready Git Blob `11477ec8659ffa4d6a26a40b533a8fb7e1bfcc32`精确依赖，旧历史137—148非本章相关版本事实无漂移。

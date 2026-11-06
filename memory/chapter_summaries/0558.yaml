@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 558
+title: "水表重新走字，返家单还缺三栏"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "d3d7f3823f97307b70aee3b8af95ecd537e04ce1"
+source_draft_sha: "9004efbeab7ef304d4f2747775e66b69307182f9"
+initial_review: reader_reviews/0558_d3d7f382.md
+reader_review: reader_reviews/0558_9004efbe.md
+depends_on_chapter: 557
+depends_on_source_sha: "e8bb7af7c7747f2239fac10a3202162d0e72f924"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day421 08:16—Day422 07:05"
+summary: >-
+  Day421母女仍住第三家有梯旅店至中午，Day420有限复电一条客厅照明支路不等于四楼返住。五楼西户家属凭合法授权请求恢复旧裂损软管拆除后停用的供水分支，专业水暖人员11:34完成限定新件安装；12:06首次试水发现接头湿痕当即中止，13:11纠正密封圈装配问题，13:56按独立记录重测、14:28达到本次限定恢复条件，15:07有权恢复五楼西户该供水分支且实际开水水表走字；四楼同步限定观察未见这次新渗漏但其他受水电路、潮湿区域及复居仍待独立检查，不用五楼结果批准四楼返住。母亲与唐晓漫12:42真实自费再付第三家主楼双床两晚至Day423中午，两卡更新且实测可开门，女儿转部分生活费但不代签，街道住宿支持与赔责无新核定。马芸09:41极窄申请2019原第73页同批整盒交接原始凭据，10:08收件、15:46有限许可下双有权保管员核两端原簿确认限定同批一盒从旧架真实交出及临时架实际接入，22:09去身份回告入中心；但目标第73页是否在盒、后来去处、旧补据、核发寄达、历史本人实际获答及2016/2022跨源同一仍未证。20:16母亲实回拨，Day422 07:05中心分栏交班，母亲挂历列三项签认待办：潮湿部位、仍隔离电路、返住决定。
+meaningful_state_changes:
+  - "五楼西户供水分支从限停变为Day421 15:07合法检测后有限真实复供，四楼仍未复居。"
+  - "母女真付第三家有梯旅店两晚房费并更新测试两张房卡至Day423中午。"
+  - "F003从同批整盒拟转存目录升级为同批一盒真发生两端原始交接，不证目标第73页单件下落。"
+knowledge_updates:
+  - "母女与中心知道五楼西户供水真实恢复但不能代替四楼电气与返住审查；母女知真付两晚、政府补助赔责仍待核。"
+  - "马芸与中心仅知2019同批一盒真实双端交接，页级对应、补据解除与自然人受答未知。"
+relationship_updates:
+  - "母亲与五楼家属不互相背书，要求专业人员负责；唐晓漫以实转款协助母亲且尊重她的住房决定权。"
+  - "马芸与保管员按原簿层级纠正盒不等于页的误判。"
+foreshadowing_updates:
+  - "F003新增2019一盒实交接但仍未知第73页归属及旧人获答；F008/M004/M005和2016封回告/2022实际字节同一不升格。"
+ending_state: "Day422 07:05五楼西户分支真复供，四楼一条照明可用其余受水电路隔离且墙体/复居未准；第三家旅店实付至Day423中午；历史整盒真交接但第73页下落与受答未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d3d7f3823f97307b70aee3b8af95ecd537e04ce1", final_draft_sha: "9004efbeab7ef304d4f2747775e66b69307182f9", initial_counts: "0/1/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, fix: "Day421 09:02去年修好的灯改成昨天有限验后开的灯"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3703

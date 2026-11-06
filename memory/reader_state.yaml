@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 557
-last_reviewed_title: "灯终于亮了一盏，床还留在旅店"
-last_source_path: chapters/draft/0557.md
-last_source_sha: a9ea960650aa1442bba37386cddfab3e80ee155b
-last_review_path: reader_reviews/0557_a9ea9606.md
+last_reviewed_chapter: 558
+last_reviewed_title: "水表重新走字，返家单还缺三栏"
+last_source_path: chapters/draft/0558.md
+last_source_sha: 9004efbeab7ef304d4f2747775e66b69307182f9
+last_review_path: reader_reviews/0558_9004efbe.md
 last_reviewed_at: "2026-11-06"
-reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
+reviewer_mode: combined_audit_new_sha_independent_pass_a_then_b
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 556
-depends_on_source_sha: 11477ec8659ffa4d6a26a40b533a8fb7e1bfcc32
+depends_on_chapter: 557
+depends_on_source_sha: e8bb7af7c7747f2239fac10a3202162d0e72f924
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 11477ec8659ffa4d6a26a40b533a8fb7e1bfcc32
+predecessor_current_source_sha: e8bb7af7c7747f2239fac10a3202162d0e72f924
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6151,5 +6151,26 @@ combined_audit_chapter_557_20261106:
   reader_gate: pass
   independent_qa: pass
   predecessor_ready_sha: "11477ec8659ffa4d6a26a40b533a8fb7e1bfcc32"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_558_20261106:
+  chapter: 558
+  original_sha: "d3d7f3823f97307b70aee3b8af95ecd537e04ce1"
+  original_review_path: reader_reviews/0558_d3d7f382.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  local_revision_rounds: 1
+  fix: "Day421母亲去年修灯台词纠正为昨天有限复电后的验灯"
+  source_sha: "9004efbeab7ef304d4f2747775e66b69307182f9"
+  review_path: reader_reviews/0558_9004efbe.md
+  reviewer_mode: independent_new_sha_pass_a_then_b
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "e8bb7af7c7747f2239fac10a3202162d0e72f924"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

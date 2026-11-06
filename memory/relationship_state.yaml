@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 557
+last_updated_chapter: 558
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2720,4 +2720,13 @@ chapter_557_arc054_verified:
   mother_daughter: "母亲独立核优惠房态和续住费用，女儿下班赶到现场看到亮灯想进屋，接受母亲所示有权分项报告后停步；合作区分真正一盏灯和仍不能返住。"
   mother_property: "母亲要求物业解释谁能签限定复电与谁能批准复居，不用仅换线/盒体的作业单替代整屋结论；专业人员明确责任范围。"
   ma_yun_colleague: "马芸和保管员纠正把整盒级转存索引误认第73页单页去向的推断，尊重授权范围。"
+  trust_scores_unchanged: true
+
+chapter_558_arc054_verified:
+  chapter: 558
+  source_sha: "9004efbeab7ef304d4f2747775e66b69307182f9"
+  mother_daughter: "唐晓漫午间转部分生活费共同核旅店条款并真正实付两晚，但母亲仍自主决定住几晚、何时搬床，不让女儿代签四楼安全结论。"
+  mother_zeng_sister: "曾先生姐姐着急用水且有合法授权，母亲支持五楼经专业复供，却明确双方不互相担保；试水第一次失败后双方等待专业第二次具名核合才共同接受恢复事实。"
+  mother_property: "母亲要求有责岗位将五楼实际复水和四楼尚需潮湿、电气、返住三项签认分开，不接受模板泛称整屋已好。"
+  ma_yun_colleague: "马芸依据两端原始簿阻止把2019整盒实际交接误读为单页第73页已转存或旧人收到答复，维持权限边界。"
   trust_scores_unchanged: true
