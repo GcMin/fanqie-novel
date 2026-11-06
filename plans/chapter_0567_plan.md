@@ -5,7 +5,7 @@
 - arc: ARC-054《回拨接收点》
 - role: Writer
 - phases: Planner / Continuity Precheck / Writer
-- status: draft
+- status: ready
 - depends_on_chapter: 566
 - depends_on_source_sha: 55d1e234540a5502397487dfaad49a06271bde5b
 - dependency_status: verified_exact_ready_blob

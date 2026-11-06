@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 566
-current_stage: chapter566_stage_a_metadata_only_newSHA_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0566.md
-current_source_sha: 2ef4fb82cec077c7192a5b59e69cba75ececb830
-current_review_path: reader_reviews/0566_2ef4fb82.md
+current_chapter: 567
+current_stage: chapter567_no_revision_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0567.md
+current_source_sha: 3770578955db85403fb341d1cb894054ca9709dd
+current_review_path: reader_reviews/0567_37705789.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter566_stageA_metadata_rebind_then_newSHA_reader_0_0_2_content_qa_pass
+last_action: chapter567_reader_0_0_2_no_revision_content_qa_pass
 last_action_date: "2026-11-06"
 last_error: null
-last_diff_summary: "566原稿00975760b0aa46c0069a12286214be6d7c223363先Reader0/1/2，Stage A只将565依赖SHA由旧草稿改正式ready且逐字正文兼容，小说正文0字修订，新draft2ef4fb82cec077c7192a5b59e69cba75ececb830新Reader0/0/2，独立QA PASS，待精确候选CI"
+last_diff_summary: "567原稿3770578955db85403fb341d1cb894054ca9709dd独立双遍Reader0/0/2，直接前章566正式ready SHA精确一致，小说正文0字修订，独立Continuity/Style/Meaningful QA PASS，待精确候选CI"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 2ef4fb82cec077c7192a5b59e69cba75ececb830
+current_review_source_sha: 3770578955db85403fb341d1cb894054ca9709dd
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -5586,4 +5586,18 @@ chapter_566_arc054_verified:
   final_reader: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
   dependency_status: verified_ready_same_title_body_facts
+  structural_gate: requires_precise_candidate_ci_success_before_main
+
+chapter_567_arc054_verified:
+  chapter: 567
+  original_source_sha: "3770578955db85403fb341d1cb894054ca9709dd"
+  final_draft_sha: "3770578955db85403fb341d1cb894054ca9709dd"
+  review: reader_reviews/0567_37705789.md
+  stage_a_rounds: 0
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  dependency_status: verified_exact_ready_blob
   structural_gate: requires_precise_candidate_ci_success_before_main

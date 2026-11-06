@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 567
+title: "房卡一次续三晚，封袋只到复核台"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "3770578955db85403fb341d1cb894054ca9709dd"
+reader_review: reader_reviews/0567_37705789.md
+depends_on_chapter: 566
+depends_on_source_sha: "55d1e234540a5502397487dfaad49a06271bde5b"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day430 08:10—Day431 07:08"
+summary: >-
+  Day430母女梧楠路双卡仅付到当日午，母亲要求物业明确一次三晚付款而不签责任结清；仁合里四楼9:23查柜后旧受潮处、10:06有责人员复测同深四点深角仍高，旧集水风路覆盖不足，停止重复加试并只拟经核隐线与住户同意的有限新增开放方案，尚未获批施工。三楼吴叔收到当日不开机答复，未来噪声与通行反馈权保留。11:16物业有权签批新三晚临时周转，11:24实际直接付梧楠路原双床公寓Day430午至Day433午，前台更新原合同双卡并真验，不含整屋验收、赔责结清或街道支持到账。马芸09:52窄申请核2019旧完整封签散页袋在资料复核台原始接入簿，14:34获限许可后双保管员排除同批整盒，独立核真实当年封签袋岗位签收，16:09领取去身份摘录；不能推出袋今日位置/内容、原第73页、历史真人获答及2016/2022同一。18:12母女隔透明原袋核旧饰板父亲铅笔线、保管员签在位记录不拆封；20:24母亲实回拨、22:17档案摘录达夜间中心，Day431 07:08分栏交班：住房真付至Day433午、旧导风停止继续试验、新开放未获准、其余受水电路与整屋返住仍未批准、五楼西户既有有限复水不变。
+meaningful_state_changes:
+  - "物业首次一次真直付梧楠路原房三晚至Day433中午，双卡实测，母女保留后续索赔和返住签字权。"
+  - "墙深角仍潮证实旧导风覆盖不足，停止无效重复，仅提出待新许可的限定局部开放；父亲旧饰板原封在位获实证。"
+  - "F003指定历史封签袋2019年在资料复核台当年真实接收独立有源确认，不证今日存址、袋内原第73页及历史个人答复。"
+knowledge_updates:
+  - "母女知同房三晚到Day433午已经物业真实直接支付、旧导风不宜重复、新的局部开放未签准，其他受水电路及整屋返住仍未批准。"
+  - "马芸及夜间中心有源知2019同一封签散页袋当年确到资料复核台，但不知今日袋在哪或原第73页是否在内、历史自然人是否实际获答。"
+relationship_updates:
+  - "母亲保留自己授权和赔损主张、女儿核三晚凭据并共同核父亲旧板，互相尊重，吴叔保留邻里通行与告知权。"
+  - "马芸与有权保管员坚持从目的端独立收讫证明一站，拒同批整盒误配。"
+foreshadowing_updates:
+  - "F003旧站实际交出推进到资料复核台当年实收，F008/M004/M005及2016/2022跨源同一不升级。"
+ending_state: "Day431 07:08梧楠路住房物业真付至Day433中午；四楼深处仍潮旧导风停止、新局部开放未准，客厅仅一条照明有限用其余受水电路和整屋返住未准、父亲旧板独号封存；2019资料复核台原簿真实收讫有源而袋现今状态/第73页/历史当事人答复未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "3770578955db85403fb341d1cb894054ca9709dd", final_draft_sha: "3770578955db85403fb341d1cb894054ca9709dd", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3353

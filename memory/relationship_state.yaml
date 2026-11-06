@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 566
+last_updated_chapter: 567
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2798,4 +2798,13 @@ chapter_566_arc054_verified:
   mother_property: "物业先行垫一晚梧楠路住宿，母亲拒模板中的一揽子损失已解决，要求重印仅实际支付确认；新导风试验得到限定许可而非全屋验收。"
   mother_wu_uncle: "吴叔Day429带孙经过四楼时发现围挡固定带翘起拍照报警，负责人真实停机9分钟并核人行宽度和电源保护后恢复，母亲保留照片与作业记录。"
   ma_yun_colleague: "马芸及双岗保管员按完整历史封签号区分同站交出与资料复核台是否实收，不把同批盒号拼成同一件。"
+  trust_scores_unchanged: true
+
+chapter_567_arc054_verified:
+  chapter: 567
+  source_sha: "3770578955db85403fb341d1cb894054ca9709dd"
+  mother_daughter: "女儿担心每天将工资拿来续房，母亲坚持以有责物业真实三晚周转代替每天临时自费，不让女儿代签；18:12共同隔袋核对父亲原旧板和Day422照片，双方对证物保护达成一致。"
+  mother_property: "母亲拒物业将已租设备继续使用当成应持续运转，促专业停旧导风并提出有界新方案，物业11:24真正直接向公寓付三晚而不要求损失结清、返住验收。"
+  mother_wu_uncle: "吴叔确认Day430旧风路不追加，仍要求新方案提前告知并保障孙子通行；母亲明确物业不得将收到通知冒充同意以后任何施工。"
+  ma_yun_colleague: "马芸与有权双保管员对比精确封签和原簿，拒用同批整盒替代散页袋，在目的端独立证2019真实签收但不冒充今日存袋。"
   trust_scores_unchanged: true
