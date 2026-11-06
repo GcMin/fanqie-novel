@@ -7,10 +7,10 @@
 - phases: Planner / Continuity Precheck / Writer
 - status: draft
 - depends_on_chapter: 562
-- depends_on_source_sha: 564ab6dcc5293d57d3f5c7b5bde0e9c3cb12e66e
-- dependency_status: provisional
-- source_location: chapters/draft/0562.md
-- source_boundary: 第562章仍为待独立审查的draft，以下只作为临时参考而非已确认Canon：Day425母女真正从第三旅店退房，真付三晚到Day428中午并入住梧楠路可达短住公寓；仁合里四楼活动矮柜限项移开、柜后旧水印及高湿实见，其余受水电路与整屋返住仍未获准；2019同批封套依许可启封仅实见旧纸一张与「散页另封一袋，待核归属」文字，纸张来源同一性、袋现存及原第73页归属未知。若562被Audit修订，须由后续独立审核核对事实兼容性，不把前章未审内容视为正式Canon。
+- depends_on_source_sha: e08d3be9c94c546df361084aed6b10a91bddd69a
+- dependency_status: verified_ready_same_title_body_facts
+- source_location: chapters/ready/0562.md
+- source_boundary: 第562章正式ready Blob e08d3be9c94c546df361084aed6b10a91bddd69a，与原稿SHA 564ab6dcc5293d57d3f5c7b5bde0e9c3cb12e66e相比只改变status、qa、approved_at和publish_mode等交付元数据，标题与小说正文逐字一致；Day425母女真退第三旅店、真实付三晚并入住梧楠路可达短住公寓至Day428中午，四楼活动柜依法移开见旧水印但整屋未准返住，2019旧纸非身份栏记散页另封一袋但不证原73页。故第563章依赖事实完全兼容。
 - goal: 利用新的三晚稳定短住窗口推进四楼柜后真实有界修复，母亲保留已封存的父亲旧木板，同时合法辨认2019历史散页袋封装曾否实际发生。
 - POV: 第三人称有限，母亲现实处置为主，马芸档案窄查和夜间中心分源接收穿插。
 - opening: Day426早上新公寓，母女不用再赶每日续房，母亲发现物业局部施工与整屋验收共用一栏。
@@ -26,9 +26,11 @@
 - new_information: 四楼柜后湿损内层在获准范围内已真正剥取且袋装留样，露出的两个新测点与外表层分开；2019旧处理代号可与两套当年原始非身份簿中的实际散页袋封装动作、封签领用对应，但不能自动确认昨日旧纸即当年原核收纸。
 - meaningful_state_change: 修复从柜后首次露出高湿推进为有证的受损材料实取与保护，母女实际进入稳定三晚住所；历史F003从现行旧纸文字进入当年真封装执行记录。
 - foreshadowing: F003仅有当年封袋的真实过程证据，袋今存何处、袋内页件、原第73页同一性、旧业务本人实际获答均不证；F008/M004/M005与2016封回告/2022实际读取材料同一均不升级，F009/F010/F011仍resolved。
-- cannot_reveal: 不将未审第562章升为Canon；不把一次历史封签当成今天已找到袋/原第73页，不能提前确认旧纸与当年核收纸相同、历史补据核发寄达及本人获答；不把当次湿料有限取出视为全屋潮湿合格或新漏源，不超专业职权解封电路/准返住或伪造赔偿资助。
+- cannot_reveal: 仅依第562章已ready实际事实；不把一次历史封签当成今天已找到袋/原第73页，不能提前确认旧纸与当年核收纸相同、历史补据核发寄达及本人获答；不把当次湿料有限取出视为全屋潮湿合格或新漏源，不超专业职权解封电路/准返住或伪造赔偿资助。
 - ending: Day427 07:09柜后湿层实际有限移出并编号留证，父亲原板继续独存，其他受水电路及返住未批；短住实付至Day428中午；2019只证当年散页封装执行并领用封签，袋的今址、内容、原第73页及历史人受答均待合法证据。
 - target_chars: 2600—3400 preferred; 2300—3800 hard
 - actual_effective_chars: 2965
 - count_method: 排除YAML Front Matter、独立***场景分隔符与所有空白，按Unicode码点计算，标点计入。
 - precheck: 每轮独立从GitHub main核AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、Bible四份和三人物卡、现有卷/弧及长期Memory人物/关系/知识/世界/伏笔/时间线与总计划表、552—561十章摘要及558—562最近五章正文。published确有0153《人没回来，表先签完了》，published/ready/draft最大数字章号562。562当前仅有draft，故绑定完整Blob SHA，依赖provisional。本轮仅做Planner/Continuity Precheck/Writer，未读历史reader_reviews，未做Review、Revision、QA、Memory或Publisher。
+
+- audit_revision: StageA仅更新前章已ready的精确Blob与依赖事实状态；原562与ready小说正文标题逐字相同，563原正文未改。旧Reader指向2e3c21cfcf8a88e7b32b7e15510ab6c8d282d0e4，必须基于修订后新GitBlob重新独立双遍审查。
