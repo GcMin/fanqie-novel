@@ -41,8 +41,8 @@
 
 ## Continuity Precheck
 
-前574 Git Blob为 `29a80ac7493a17b8063d31033cff4b6186eca5d5`，它是 `chapters/ready/0574.md` 的正式Blob；与旧draft `fa55728a05252b65e4363db29f59a4e9ede4db6b` 比较小说标题和正文逐字相同，仅Front Matter交付状态不同；`depends_on_chapter:574`、`depends_on_source_sha` 更新为正式ready SHA，`dependency_status: verified_ready_same_title_body_facts`；前章物业真付Day437午—Day439午、Day437三处非破坏测点、2021后编目录来源年份是本章依赖的**临时事实**，独立Audit如修订574应核对。第574章已正式ready且关键事实可用；不将未证旧档推定成Canon。Day431原12厘米开口、旧板父亲铅笔线独号封存、四楼仅客厅一条已准照明有限可用、其他受水电路隔离和整屋返住未准、五楼西户先前有限复水，不得越权改写。检测对象不同不证明材料用途、漏源、墙含水合格或可复电。2019所见表式说明页不等于补据，更不能回填历史真人受答、2016/2022跨源同一。
+前574 Git Blob为 `29a80ac7493a17b8063d31033cff4b6186eca5d5`，它是 `chapters/ready/0574.md` 的正式Blob；与旧draft `fa55728a05252b65e4363db29f59a4e9ede4db6b` 比较小说标题和正文逐字相同，仅Front Matter交付状态不同；`depends_on_chapter:574`、`depends_on_source_sha` 更新为正式ready SHA，`dependency_status: verified_ready_same_title_body_facts`；前章物业真付Day437午—Day439午、Day437三处非破坏测点、2021后编目录来源年份是经前章正式ready版本核实的既成事实。第574章已正式ready且关键事实可用；不将未证旧档推定成Canon。Day431原12厘米开口、旧板父亲铅笔线独号封存、四楼仅客厅一条已准照明有限可用、其他受水电路隔离和整屋返住未准、五楼西户先前有限复水，不得越权改写。检测对象不同不证明材料用途、漏源、墙含水合格或可复电。2019所见表式说明页不等于补据，更不能回填历史真人受答、2016/2022跨源同一。
 
 ## 结尾承接
 
-Day439早间：下一笔房费将于中午到期，需要分开核实是否实际续付；专业下一轮测点需先厘清同类基材与明确新授权；旧档应区分2019真实表式说明纸与2021候选目录，若查实质补据必须另有原始收文的限项查阅。本轮仅新建章纲和draft，不做Reader、Revision、QA、Memory、ready或发布。
+Day439早间：下一笔房费将于中午到期，需要分开核实是否实际续付；专业下一轮测点需先厘清同类基材与明确新授权；旧档应区分2019真实表式说明纸与2021候选目录，若查实质补据必须另有原始收文的限项查阅。本详细章纲为Writer原始规划；第575章Reader/Stage A/QA/Memory/ready由唯一Audit另行有源执行，未发布番茄。

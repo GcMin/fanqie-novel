@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 575
+title: "签收的是填表说明，不是补据"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "5937f1634db1cc6dff60e317659265cc646310bd"
+source_draft_sha: "f9b191e85bcd691a385afb889d5b687512405881"
+initial_review: reader_reviews/0575_5937f163.md
+reader_review: reader_reviews/0575_f9b191e8.md
+depends_on_chapter: 574
+depends_on_source_sha: "29a80ac7493a17b8063d31033cff4b6186eca5d5"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day438 08:26—Day439 07:06"
+summary: >-
+  Day438母亲在梧楠路有梯原双床短住房已获物业Day437 10:12真实直付两晚至Day439中午，今日无新付款，不把以前自付或女儿家庭转账当作赔责结清；母亲按预约催唐晓漫赴门诊，女儿真赴医候诊未取消。仁合里四楼业主群误发“材料已查明三点检测基本合格计划恢复”，9:58专业取出Day437原三张照片和有源表，发现旧砂浆、灰薄衬旧胶边、邻近旧涂层的三种接触表面被汇总表错写“同材三点复测”；11:42真正出更正单并保留错误原页和原始照片，物业撤回错误截图更发来源说明，未新增机具施工，吴叔知当日不敲击。下午专业仅提同材料可比测点/如触及灰衬旧胶必须另申请审批及住户同意，母亲只签收到建议而拒“视同认可后续施工”，没有扩12厘米原口/揭胶、复装旧板或批准整屋返住。父亲有铅笔线旧饰板独号封，四楼仍只有客厅原一照明支路有限用其他受水回路隔离，五楼西户有限复水照旧。马芸10:04限申请2019同拟办号补正后非身份纸面说明交接，12:22范围确定，14:26合法双保管员核当年原发出簿与原收件簿：仅“字段表式填写说明一页”确有发出及拟办岗签收，16:08去身份摘录出具；并非归属实质补据，亦不证2021候选目录同一、旧封袋现在何处、原第73页和历史自然人收到过什么答复。母亲20:39实回拨中心，22:12档案摘录入席，Day439 07:06交班。房费只付至当日中午、次夜未付；实测三表面未得墙体合格或复电返住资格；2016/2022跨源同一及F008/M004/M005不确证。
+meaningful_state_changes:
+  - "Day437三点读数被错误合并为同材合格的汇总于Day438 11:42真实更正并保留错误证据，撤回群误报，房屋仍不能返住。"
+  - "母亲只签下一步专业评估建议收件，未作任何新施工、复装或受水线路送电许可；唐晓漫按预约赴医。"
+  - "F003：2019同拟办号一页表式填写说明有原簿双端收发签记，补据实体及2021候选同一仍未知。"
+knowledge_updates:
+  - "母女知物业真付原房至Day439午而新夜未付，三点分别是不同表面、此前‘同材合格’汇总不可靠；仍无整屋返住或赔偿结清。"
+  - "马芸与夜班中心知2019当年真收到的是一页如何填表的纸质说明，而非实质归属补据；旧袋今址、第73页及历史真人答复未知。"
+relationship_updates:
+  - "母亲让唐晓漫履行个人门诊安排并尊重她不公开医疗结果，母女不让房费和工程状态绑架日常。"
+  - "母亲要求物业区分建议收件和施工同意，吴叔按孙子网课需求得到当天无机具确认。"
+foreshadowing_updates:
+  - "F003新增表式填写说明真签收而不越界升级补据或旧袋今址、第73页、历史真人获答；F008/M004/M005、2016旧封件与2022电子记录同一不确认。"
+ending_state: "Day439 07:06，梧楠路同房真实付款仅至当日中午且次夜未付；错误同材检测汇总纠正，四楼原12厘米口、旧板独封、其他受水电路及整屋返住均不准；2019说明页纸质交接已证，真正补据及历史旧袋第73页和旧人受答未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "5937f1634db1cc6dff60e317659265cc646310bd", final_draft_sha: "f9b191e85bcd691a385afb889d5b687512405881", initial_counts: "0/1/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "rebind_574_provisional_to_ready_sha_after_identical_title_body_comparison"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3312
