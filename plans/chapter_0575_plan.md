@@ -8,9 +8,9 @@
 - status: draft
 - qa: pending
 - depends_on_chapter: 574
-- depends_on_source_sha: fa55728a05252b65e4363db29f59a4e9ede4db6b
-- dependency_status: provisional
-- predecessor_source_path: chapters/draft/0574.md
+- depends_on_source_sha: 29a80ac7493a17b8063d31033cff4b6186eca5d5
+- dependency_status: verified_ready_same_title_body_facts
+- predecessor_source_path: chapters/ready/0574.md
 - proposed_timeframe: Day438 08:26—Day439 07:06
 - target_effective_chars: 2600—3400（硬限2300—3800）
 - actual_effective_chars: 3312
@@ -18,7 +18,7 @@
 
 ## Planner：章目标、POV与开场
 
-第三人称贴近唐晓漫母亲，兼及唐晓漫、周衡、夏宁、梁策、马芸。前574章仍为独立Audit未审草稿，依赖其**特定版本** `fa55728a05252b65e4363db29f59a4e9ede4db6b`，不是正式Canon，故本章全部衔接处于provisional。承接Day437物业真正直付梧楠路同房Day437午至Day439午两晚（与此前付款不重复）；Day437专业只在原12厘米开口及相邻原许可表面取得三个有编号的有限非破坏读数；2019拟办号后编补据候选目录于2021形成，不能替代2019原始签收。
+第三人称贴近唐晓漫母亲，兼及唐晓漫、周衡、夏宁、梁策、马芸。前574章已完成独立Audit且正式进入ready；原稿与正式版标题正文逐字一致，依赖已重绑定正式ready版本 `29a80ac7493a17b8063d31033cff4b6186eca5d5`，前章关键事实逐项确认一致。承接Day437物业真正直付梧楠路同房Day437午至Day439午两晚（与此前付款不重复）；Day437专业只在原12厘米开口及相邻原许可表面取得三个有编号的有限非破坏读数；2019拟办号后编补据候选目录于2021形成，不能替代2019原始签收。
 
 ## 人物想要什么、冲突
 
@@ -41,7 +41,7 @@
 
 ## Continuity Precheck
 
-前574 Git Blob为 `fa55728a05252b65e4363db29f59a4e9ede4db6b`，它是 `chapters/draft/0574.md` 的未审版本，`depends_on_chapter:574`、`depends_on_source_sha` 完整保存，`dependency_status: provisional`；前章物业真付Day437午—Day439午、Day437三处非破坏测点、2021后编目录来源年份是本章依赖的**临时事实**，独立Audit如修订574应核对。不得认第574章进入ready或Canon。Day431原12厘米开口、旧板父亲铅笔线独号封存、四楼仅客厅一条已准照明有限可用、其他受水电路隔离和整屋返住未准、五楼西户先前有限复水，不得越权改写。检测对象不同不证明材料用途、漏源、墙含水合格或可复电。2019所见表式说明页不等于补据，更不能回填历史真人受答、2016/2022跨源同一。
+前574 Git Blob为 `29a80ac7493a17b8063d31033cff4b6186eca5d5`，它是 `chapters/ready/0574.md` 的正式Blob；与旧draft `fa55728a05252b65e4363db29f59a4e9ede4db6b` 比较小说标题和正文逐字相同，仅Front Matter交付状态不同；`depends_on_chapter:574`、`depends_on_source_sha` 更新为正式ready SHA，`dependency_status: verified_ready_same_title_body_facts`；前章物业真付Day437午—Day439午、Day437三处非破坏测点、2021后编目录来源年份是本章依赖的**临时事实**，独立Audit如修订574应核对。第574章已正式ready且关键事实可用；不将未证旧档推定成Canon。Day431原12厘米开口、旧板父亲铅笔线独号封存、四楼仅客厅一条已准照明有限可用、其他受水电路隔离和整屋返住未准、五楼西户先前有限复水，不得越权改写。检测对象不同不证明材料用途、漏源、墙含水合格或可复电。2019所见表式说明页不等于补据，更不能回填历史真人受答、2016/2022跨源同一。
 
 ## 结尾承接
 
