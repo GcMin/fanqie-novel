@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 561
+last_updated_chapter: 562
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2754,4 +2754,12 @@ chapter_561_arc054_verified:
   mother_daughter: "女儿照常上班远程核昨日旅店扣款与未来两夜预算；母亲自主按实时房价真正续住并保留药费车费，不把资助受理或女儿参与当成代签。"
   mother_property: "母亲坚持专业复核按位置和责任写实，不以外侧读数下降恢复旧板、电气或返住；吴叔只获当前无干燥机运行安排的回答。"
   ma_yun_colleague: "马芸与两保管员排除异批近号封套，明确现行外标实物与2019内纸及旧第73页非同一证明层级。"
+  trust_scores_unchanged: true
+
+chapter_562_arc054_verified:
+  chapter: 562
+  source_sha: "564ab6dcc5293d57d3f5c7b5bde0e9c3cb12e66e"
+  mother_daughter: "唐晓漫Day425真转半数短住费用并于18:19凭授权领大箱，两人真正安顿Day425至Day428三晚。母亲接受女儿共同承担生活现金与搬运，却独自核合同和签有限施工同意，女儿明确出钱不购买签字权。"
+  mother_property: "母亲与物业先核活动柜固定状态、隐线及父亲旧拉手并照相记录，仅批准15:47有限移动和留证；不接受柜后旧水印即推新漏水，也不签旧饰板复装或返住验收。"
+  ma_yun_colleague: "马芸与保管员承认经许可实见一张旧纸非身份散页另封记载，主动区分封内表纸与2019原核收纸、另封袋今存及第73页归属的不同证明层级。"
   trust_scores_unchanged: true

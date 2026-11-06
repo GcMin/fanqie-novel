@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 562
+title: "房卡换了地方，封套里多出一条去向"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "564ab6dcc5293d57d3f5c7b5bde0e9c3cb12e66e"
+reader_review: reader_reviews/0562_564ab6dc.md
+depends_on_chapter: 561
+depends_on_source_sha: "4412c883901c4c28d3639ea1f78edbe79ca4157b"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day425 08:10—Day426 07:06"
+summary: >-
+  Day425 08:10第三家有梯旅店原双床房因团队订房不可再续至晚间，母亲拒须爬两层楼梯侧楼。09:43亲走梧楠路短住公寓从街口到电梯房门无台阶，浴室仍有低挡水边如实记录；唐晓漫10:39真正转一半费用，母亲10:48核实合同实际付清Day425中午至Day428中午三晚房费及另列押金并试开门卡。11:42真退第三店，重箱先合法当日寄存且旧店押金到账未认；12:19新房真办理入住，女儿18:19持授权实际领回寄存重箱完成搬入；街道支持和物业赔责未定。仁合里四楼专业先核隐线与活动柜保护，15:18有责出示限项作业单母亲亲签，15:47确实有限移柜首次显露柜后旧水印及不合条件测点并留照片；父亲旧饰板单独封存、四楼只客厅一条照明有限复电、其余受水回路和整屋返住未准，五楼西户Day421有限真复水不变。马芸Day425获新合法限项批准后15:55双有权保管员启现行关联封套见旧表纸一张，非身份栏写“整盒接入一件；散页另封一袋，待核归属”，16:34按记录受控再封；纸与当年核收纸同一、另封袋今存与第73页去向、历史人真获答均未证。20:27母亲真回拨、22:17去身份摘录到夜间中心、Day426 07:06交班按事实边界分项确认。
+meaningful_state_changes:
+  - "母女从第三家旅店真正退房，转为梧楠路可达短住房真实自费三晚至Day428中午，重箱依授权领回，两人各分担部分费用。"
+  - "四楼限项合法移开活动柜取得先前不可见柜后水印及高湿证据，未批准更多拆检、受水电路复电或整屋返住。"
+  - "F003现行封套经新授权受控启封，实见旧表纸一张记散页另封一袋；同一性及第73页与旧人受答仍未知。"
+knowledge_updates:
+  - "母女知道梧楠路短住公寓三晚真付真入住、浴室低挡边仍需注意及柜后仍潮；旧店押金、救助赔责与四楼返住未准。"
+  - "马芸及夜间中心仅知现行封套旧纸非身份栏目记有散页另封处理，不知纸当年原件同一、袋现存、原第73页去向和2019历史自然人受答。"
+relationship_updates:
+  - "女儿真实转一半费用又晚间凭授权领箱，母亲接受共同负担而保留住房和修复签字自主权。"
+  - "母亲在保护父亲旧物与合法移动柜子之间同物业明确边界；马芸不替保管员和审批程序越权判断。"
+foreshadowing_updates:
+  - "F003仅新增散页另封一袋的非身份纸面记载而非页级同一确认；F008/M004/M005和2016/2022跨源同一均无新确证。"
+ending_state: "Day426 07:06母女新可达短住房已真住一夜且房费付到Day428中午，大箱已取回；四楼柜后新显受潮区域仍待有责下一步方案、其他受水电路与返住未准，五楼西户有限复水不变；旧档可见散页另封记载但袋及第73页与历史真人受答未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "564ab6dcc5293d57d3f5c7b5bde0e9c3cb12e66e", final_draft_sha: "564ab6dcc5293d57d3f5c7b5bde0e9c3cb12e66e", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3468

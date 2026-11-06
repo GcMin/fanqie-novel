@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 561
-last_reviewed_title: "墙根又测了一次，封套仍未拆开"
-last_source_path: chapters/draft/0561.md
-last_source_sha: 01912c6932191b3405570fa56b6280de591838ea
-last_review_path: reader_reviews/0561_01912c69.md
+last_reviewed_chapter: 562
+last_reviewed_title: "房卡换了地方，封套里多出一条去向"
+last_source_path: chapters/draft/0562.md
+last_source_sha: 564ab6dcc5293d57d3f5c7b5bde0e9c3cb12e66e
+last_review_path: reader_reviews/0562_564ab6dc.md
 last_reviewed_at: "2026-11-06"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 560
-depends_on_source_sha: e1677401cdc447842965493e235273e2e242fb47
+depends_on_chapter: 561
+depends_on_source_sha: 4412c883901c4c28d3639ea1f78edbe79ca4157b
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: e1677401cdc447842965493e235273e2e242fb47
+predecessor_current_source_sha: 4412c883901c4c28d3639ea1f78edbe79ca4157b
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6225,3 +6225,19 @@ combined_audit_chapter_561_20261106:
   predecessor_ready_sha: "e1677401cdc447842965493e235273e2e242fb47"
   dependency_status: verified_exact_ready_blob
   structural_gate: requires_precise_candidate_ci_success_before_main
+combined_audit_chapter_562_20261106:
+  chapter: 562
+  source_sha: "564ab6dcc5293d57d3f5c7b5bde0e9c3cb12e66e"
+  review_path: reader_reviews/0562_564ab6dc.md
+  reviewer_mode: independent_pass_a_then_b_exact_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "4412c883901c4c28d3639ea1f78edbe79ca4157b"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: requires_precise_candidate_ci_success_before_main
+
