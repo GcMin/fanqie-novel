@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 564
+last_updated_chapter: 565
 characters:
   zhou_heng:
     knows:
@@ -3130,3 +3130,17 @@ chapter_564_arc054_verified:
     knows: "20:24母亲限时试机实况回拨、22:19原岗位交出非身份摘录到席，Day428 07:11按已执行和待审批区分。"
     unknown: "后续稳定复测或返住许可、历史散页袋接收端及今存页件。"
   shared_invariants: "F003仅旧封袋交出原岗有源登记，接收实际签收与第73页同一及历史人得答均未证，F008/M004/M005无新确证。"
+
+chapter_565_arc054_verified:
+  chapter: 565
+  source_sha: "0c8014019a474b5d9e2c6a6bc9370e5dbb95afe0"
+  mother_daughter:
+    knows: "Day427真做48分钟而非48小时；Day428有责更正及16:09—17:24只真做75分钟、两卡真续至Day429午、深处仍潮需稳定复测。"
+    unknown: "未来连续作业何时批准，其他受水电路及整屋返住何时达标；街道补助赔责和第三店旧押金是否到账。"
+  ma_yun:
+    knows: "新权限下2019同一散页袋完整封签号在临时接收岗原簿留真实收讫岗位签章，与原岗真交出对应。"
+    unknown: "接收之后有没有转出、现在何处及袋内何物、第73页和历史自然人真正获答。"
+  center_team:
+    knows: "母亲20:22报告当日自付续房和实做75分钟、48小时错误账单已更正，22:14核到历史临时接收岗实收去身份摘录。"
+    unknown: "受水复验、整屋返住、历史封袋后续流转和今存。"
+  shared_invariants: "F003接收站当年真实接入不等于复核台接入或页件第73页；F008/M004/M005、2016/2022同一仍不确认。"
