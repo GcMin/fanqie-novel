@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 599
+last_updated_chapter: 601
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3068,3 +3068,19 @@ chapter_599_arc054_verified:
   mother_property: "母亲拒签旧房安置处置总确认，物业改出只记新两夜真实付款的有限收讫。"
   mother_professional_fifth_floor: "工程负责人拒工程员扩大至四楼或让五楼住户试水，住户接受只陈述限定量测事实的书面告知。"
   center_team: "夜间中心维持住房付款、工程测量、历史档案三类证据不混用的协作。"
+
+chapter_600_arc054_verified:
+  chapter: 600
+  source_sha: "71eae439c9d80eb13a1dee00a4ebe411472310cb"
+  mother_daughter: "母亲自己打理河安起居，要求住房续费提前书面通知，女儿照常上班仅按实际收据沟通，不代母亲替物业承诺付款。"
+  mother_property: "母亲只对已付到Day464午的住宿签阶段收讫，拒带原房结案条款的总表；前台已收书面告知要求但未承诺后续费用。"
+  mother_professional_fifth_floor: "五楼居民主动提醒窗口曾改动并明确口述不替代验收，负责人采旧原单后按有源照片限项回告，母亲拒将图纸推断变责任结论。"
+  center_team: "夏宁周衡梁策分别留存住房付款已到期前状态、窗框90mm移动与旧管可见、四楼隔离和2019 F003独立证据边界。"
+
+chapter_601_arc054_verified:
+  chapter: 601
+  source_sha: "ac8715678f4d8db987e5f28a4276fc472c381281"
+  mother_daughter: "母亲未催女儿请假代款，选择以个人银行卡付河安一夜确保当晚安全，女儿劝保存新票据并分账，不以口头保证退款替代事实。"
+  mother_property_street: "母亲向物业要求有责限时书面付款回告、向街道登记独立自费核对，接受收件但不把经办审批当已付或费用结案。"
+  mother_professional_fifth_floor: "专业负责人拒从2022旧潮印定位今漏源或责怪五楼住户，五楼住户只收到今天可做事项的有限范围说明。"
+  center_team: "夜班把母亲、物业和女儿三笔款分源，旧潮印原发真登记与目标收件未知分栏，不把普通2022维修联系单并入2019 F003旧案。"

@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 599
-last_reviewed_title: "尺寸量出来了，接口仍没对上"
-last_source_path: chapters/draft/0599.md
-last_source_sha: 080407fd8b05b0b1a1a053f17a196ed9ff1d110f
-last_review_path: reader_reviews/0599_080407fd.md
+last_reviewed_chapter: 601
+last_reviewed_title: "一夜房钱先垫上，旧照片旁有张联系单"
+last_source_path: chapters/draft/0601.md
+last_source_sha: ac8715678f4d8db987e5f28a4276fc472c381281
+last_review_path: reader_reviews/0601_ac871567.md
 last_reviewed_at: "2026-11-08"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 598
-depends_on_source_sha: 1c1deaacf8d8c8c6562b6eab70d92b47196fe87b
+depends_on_chapter: 600
+depends_on_source_sha: 8e4fb67fa2977c330b46caa5010c49a5e83fe0dd
 dependency_status: verified_ready_same_title_body_facts
-predecessor_current_source_sha: 1c1deaacf8d8c8c6562b6eab70d92b47196fe87b
+predecessor_current_source_sha: 8e4fb67fa2977c330b46caa5010c49a5e83fe0dd
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6890,5 +6890,33 @@ chapter_599_arc054_verified:
   content_qa: pass
   predecessor_old_provisional_sha: "a8b6997a8084b5707e9cfe0c98646b1a0f1167aa"
   predecessor_ready_sha: "1c1deaacf8d8c8c6562b6eab70d92b47196fe87b"
+  dependency_status: verified_ready_same_title_body_facts
+  structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_600_arc054_verified:
+  chapter: 600
+  source_sha: "71eae439c9d80eb13a1dee00a4ebe411472310cb"
+  review_path: reader_reviews/0600_71eae439.md
+  pass_a_then_pass_b: true
+  counts: "0/0/2"
+  reader_gate: pass
+  content_qa: pass
+  predecessor_ready_sha: "e187746aaa8099824b1c034b324c04f27fab72fc"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_601_arc054_verified:
+  chapter: 601
+  original_sha: "59e8844a52e0d729d37f2a2944dd1ee68fb4fe93"
+  source_sha: "ac8715678f4d8db987e5f28a4276fc472c381281"
+  initial_review: reader_reviews/0601_59e8844a.md
+  review_path: reader_reviews/0601_ac871567.md
+  pass_a_then_pass_b_new_sha: true
+  initial_counts: "0/1/2"
+  counts: "0/0/2"
+  reader_gate: pass
+  content_qa: pass
+  predecessor_old_provisional_sha: "71eae439c9d80eb13a1dee00a4ebe411472310cb"
+  predecessor_ready_sha: "8e4fb67fa2977c330b46caa5010c49a5e83fe0dd"
   dependency_status: verified_ready_same_title_body_facts
   structural_gate: exact_candidate_ci_success_required_before_main

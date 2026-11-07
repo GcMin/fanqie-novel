@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 600
+title: "窗口移过九厘米，旧管还在照片里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "71eae439c9d80eb13a1dee00a4ebe411472310cb"
+reader_review: "reader_reviews/0600_71eae439.md"
+depends_on_chapter: 599
+depends_on_source_sha: "e187746aaa8099824b1c034b324c04f27fab72fc"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day463 08:18—Day464 07:05"
+summary: >-
+  Day463河安首层双床房物业在Day462 11:06实付两夜仅到Day464中午、双卡有效，母亲拒签暗含旧房处置完结的总安置确认，要求后续每次续房至少提前一天提供住房房态与付款责任人的书面通知，前台仅把要求受理写入服务记录，未取得Day464后的新住房实付款。唐晓漫Day453—455泊晨本人垫付两夜仍仅经办待核没有核赔退钱。五楼住户口述公共观察窗曾换过，工程负责人不以口述证明施工；09:32申最小目录查询10:23仅受理，13:19有责确证2022公共检修窗位置调整原工单及照片真实归档，13:52限项许可后双人员有源真阅，证明当年以走廊转角固定墙线为参照窗框边线向楼梯侧平移90mm，而不是灰管移动。调整前原始照片在粗立管背后有同位置同走向灰色细侧管可见，与2023巡检及Day458现照构成跨时可见性证据，但三者缺灰管铭牌或完全同视角，不证实体同一、安装时间、功能、漏源、责任或2021图示封堵端真施工/启封。维修“既有设施避让”不等于管线合法验收；Day462现况测量不能把旧窗框当历史不动固定尺度。16:17向五楼住户有限回告不改其限定复水，母亲技术回告不承诺房费。20:31母亲本人回拨，Day464 07:05交班。四楼原12cm口不扩大、父亲短铅笔线饰板独号封存、客厅原一照明支路有限用其余受水回路隔离整屋禁返住、五楼有限复水不变，无试水转阀拆管进户复装或复电。2019 F003材料页次内部核问只有原端真发和形成岗真收，原73页、旧袋现址、历史真人受答及F008/M004/M005无新确证，2022当代楼宇照片与2019旧案无证同源。
+meaningful_state_changes:
+  - "2022年公共检修窗维修工单和原照片首次合法真阅，证窗口移动90mm及当年同位灰色侧管可见，而非灰管曾移/现管身份已确。"
+  - "母亲提前一天书面通知房态和付款责任人的独立服务请求得到受理记录，但Day464午后房款仍无实收。"
+knowledge_updates:
+  - "专业岗、母亲与五楼住户已知窗口2022移动90mm的原件依据和照片同位可见信息；不能推出灰管安装时点、功能、漏源、责任或2021封堵图实同一。"
+  - "母女清楚河安物业实付只到Day464中午，女儿泊晨两夜个人旧垫资尚待核无退赔。"
+relationship_updates:
+  - "母亲将追问住房责任转为可追责的书面办理入口；唐晓漫继续工作、仅晚间交换可核情况，五楼住户不受无证归责。"
+foreshadowing_updates:
+  - "F003历史材料内部原发真收不能上升为第73页补齐或历史人受答；2022当代维修独立来源不与2019旧案串证，F008/M004/M005不升级。"
+ending_state: "Day464 07:05河安物业房款仅到当日中午；2022移窗90mm及旧灰管同位可见有源，身份漏源仍未知；四楼不可返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "71eae439c9d80eb13a1dee00a4ebe411472310cb", final_draft_sha: "71eae439c9d80eb13a1dee00a4ebe411472310cb", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3342

@@ -6,15 +6,15 @@
 - status: planned
 - base_main_commit: 90641cbc8788a8b5e9882dd053642444ff1c89ee
 - depends_on_chapter: 600
-- depends_on_source_sha: 71eae439c9d80eb13a1dee00a4ebe411472310cb
-- dependency_status: provisional
+- depends_on_source_sha: 8e4fb67fa2977c330b46caa5010c49a5e83fe0dd
+- dependency_status: verified_ready_same_title_body_facts
 
 ## Planner
 
 - 本章目标：在第四楼住户原房仍禁止返住且河安物业真实住房付款仅覆盖至Day464中午的期限下，让母亲通过自身可核的住房选择获得下一夜安全住处，同时借合法查阅2022年公共检修窗维修批次“现场联系单”，发现一条早于当前漏水调查的有源局部潮印记录，明确“发文≠收文≠已调查≠同因”四层证据边界。
 - POV：以受影响母亲近景为主，穿插五楼公共管井专业负责人、工程员、五楼西户、夜间中心周衡/夏宁/梁策；唐晓漫保持独立生活与付费来源。
 - 时间：Day464 08:11至Day465 07:04。
-- 开场状态：前章600仍是未经独立审核的特定草稿，本章仅暂按其“2022年公共检修窗向楼梯侧平移90mm且旧照片同位置可见灰色侧管”的当前版本衔接；河安两张房卡和物业实际付款截至Day464午，后续付款尚未证；2021图只表述预留/临时封堵而没有实体同一证据。
+- 开场状态：前章600已审定为正式ready（原稿和ready仅Front Matter不同、标题及小说正文相同），本章按其“2022年公共检修窗向楼梯侧平移90mm且旧照片同位置可见灰色侧管”的当前版本衔接；河安两张房卡和物业实际付款截至Day464午，后续付款尚未证；2021图只表述预留/临时封堵而没有实体同一证据。
 - 角色诉求：母亲希望当晚安全睡觉、取得具名且有时限的付款回告，拒用自家或女儿款为物业结案；唐晓漫不愿工作反复被打断；专业负责人只按有源原档推进而不宣称查明漏源；五楼住户要确认今晚到底能否照原许可用水。
 - 核心冲突：审批流程绿色并不产生真实住房款；居住安置并不能解决房屋修复或赔责；2022年公共部位潮湿印迹虽有源，却不可替今日四楼漏水判断原因。
 - Beat 1：母亲08:11核昨日书面通知要求，09:04河安前台真实无新收款而房间仅可保留至11:30，物业09:42只出流程截图；母亲追问责任人与下一回复时间。
@@ -33,6 +33,12 @@
 ## Continuity Precheck
 
 - 本轮在main SHA 90641cbc8788a8b5e9882dd053642444ff1c89ee查得章节最大号为600：published/0153.md已经存在；chapters/ready最大599，chapters/draft/0600.md存在，章纲0601与draft/0601在本次写入前均不存在。
-- 第600章是待审草稿，完整Git blob SHA为71eae439c9d80eb13a1dee00a4ebe411472310cb；本章计划和Front Matter都精确记录depends_on_chapter、depends_on_source_sha及dependency_status:provisional；将第600章情节仅用作临时版本的连续性参考，不视作正式Canon。如独立审核修订第600章，后续Audit须核对本章依赖并按需修订。
+- 第600章是待审草稿，完整Git blob SHA为8e4fb67fa2977c330b46caa5010c49a5e83fe0dd；本章计划和Front Matter都精确记录depends_on_chapter、depends_on_source_sha及dependency_status:provisional；将第600章情节仅用作临时版本的连续性参考，不视作正式Canon。如独立审核修订第600章，后续Audit须核对本章依赖并按需修订。
 - 本轮重新读取最新AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、Premise/主线/世界/文风与相关人物卡；使用ARC-054长期状态、人物知识、时间线和活跃伏笔；查阅第590—599章十章摘要、596—600章五篇正文以及第600章详细章纲。历史reader_reviews没有读取。旧outlines/arcs/arc_current.md仍停留137章，仅以有效较新章节和记忆确认当前ARC-054，不将旧草稿弧覆盖事实。
 - 角色知识、安全许可、时间与付款来源逐项限定；本次仅新建详细章纲及status:draft的新章，独立Reader/Revision/QA/Memory/Publish Gate均不执行；不修改既有章节、不发布番茄。
+
+## Audit Stage A｜2026-11-08
+
+- 前600原Draft Blob SHA 71eae439c9d80eb13a1dee00a4ebe411472310cb 与正式ready Blob 8e4fb67fa2977c330b46caa5010c49a5e83fe0dd 逐字对照：标题及全部小说正文一致，只有Front Matter交付元数据改变，无关键事实差异。
+- 将601 Front Matter和此章纲的depends_on_source_sha重绑为600真实ready Blob，dependency_status=verified_ready_same_title_body_facts；601小说正文0字修改。此前“600待审/provisional”仅为Writer创建时历史事实，不再代表最终依赖状态。
+- 601原Draft SHA 59e8844a52e0d729d37f2a2944dd1ee68fb4fe93初审0/1/2（仅依赖版本为MAJOR），Stage A后新Draft SHA ac8715678f4d8db987e5f28a4276fc472c381281独立Reader双遍复审0/0/2，Continuity/Style/Meaningful QA PASS；最后仍以精确候选CI结构校验成功为正式ready门槛。
