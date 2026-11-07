@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 583
+last_updated_chapter: 584
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2941,3 +2941,11 @@ chapter_583_arc054_verified:
   mother_property: "母亲拒按四楼原始设计页自动同意复装，专业负责人坚持另核现场技术核定与交接签认；物业已转主管并非真的付住宿新夜。"
   neighbor: "吴叔以后合法施工告知权仍在，本章没有机具作业或临时排程复活。"
   archive: "马芸与有权双保管员只看2019资料复核台原始收文簿，严格不阅未许可的处理栏，不替历史自然人签收答复。"
+
+chapter_584_arc054_verified:
+  chapter: 584
+  source_sha: "8cb72872c9f7534ba8d44d885f522a6fdb714ac3"
+  mother_daughter: "母亲Day447选择以本人真金实付泊晨原房一夜，不因未到账物业呈批继续让女儿请假或搬家；唐晓漫照常上班并买晚饭，承诺之后与母亲共同分算现金流，不以药费或车费冲抵赔偿。"
+  mother_professional_property: "专业负责人坚持四楼技术联系资料原始登记、交接页名目不能冒认签字或施工做法；母亲以Day445已退的封板申请阻止物业重新排标准板车，保持获批范围。"
+  ma_yun_records_officers: "马芸和双有权保管员仅查2019请复阅非身份处理类别与拟转索引，不把类别待补核/拟回送说成已经实发或历史个人获答。"
+  center_team: "夏宁分项核本人真付款与物业未到账，周衡守工程边界，梁策把拟回送从已办栏移到待核栏；角色关系不被无证行政状态改变。"
