@@ -1,3 +1,8 @@
+## 第587章 ARC-054 独立Reader双遍、Continuity/Style QA及长期记忆｜2026-11-07（精确候选结构CI前）
+- 固定草稿Git Blob `5f01c7309acc02200f1395ebef3a353e070ab86e`，精确依赖前586正式ready SHA `c85dd7374d15ab3c5ff2ff039f1c8e60fa877712`。Pass A先读本章、584—586正式正文、577—586摘要、文风；Pass B再核Canon、ARC-054、人物与知识/世界/关系、时间/伏笔。Reader 0 BLOCKER / 0 MAJOR / 2 MINOR、keep/none；无正文修订，3354有效字符，详见 `reader_reviews/0587_5f01c730.md`。独立Continuity/Style/Meaningful Change QA内容PASS见 `qa/0587_report.md`。
+- Day450泊晨10:26实际收物业新三夜款至Day453午并两房卡实试，旧垫房费、女儿车费、押金、赔责仍不冲销。四楼13:09真正获准受控限定开封、14:34两名保管员真开外封、仅见移交清单与保管收讫两页，档案签名不是施工签认；15:26真重封，16:47送审非破坏现场核验范围仅获收件号，未获施工/扩拆/复电/返住许可。原12厘米口旧板封存、单照明支路限用及其余受水回路隔离、五楼有限复水不变。2019待补核新号后真有一笔内部催办登记，不证正式发文、补据或历史个人得答；旧封袋现址、原第73页、2016/2022同一、F008/M004/M005仍未证。
+- **结构门禁**：上述内容PASS不冒称结构通过，须同一精确候选commit上CI实际离线单测及 `python -m publisher.check_local --repo .` SUCCESS后再以expected_sha、force:false快进main迁ready。
+
 ## 第586章 ARC-054 Stage A新SHA Reader、独立QA与长期记忆｜2026-11-07（精确候选CI前）
 - 初稿 `3ee3059dfd9091c47eeecd0090b606ee6e09c2f4` 独立双遍Reader 0/2/2：仍依赖585临时草稿SHA、Day449晚“比上个月短”与Day440泊晨入住仅相隔数日；Stage A commit `366cde094727e2b7576bbf184fc9f70165c32270` 将草稿和章纲依赖重绑正式585 ready blob `dd9e4080dbd9ed3c224305fad22b2fba0fbdf51f`（实核585原draft与ready标题/全篇正文逐字一致仅交付元数据不同），并只将“比上个月短”改为“比前几天短”。新586草稿SHA `81f530b154e5766c855ce8ae987aa3969b2890b5` 针对此SHA独立重新Pass A/B `reader_reviews/0586_81f530b1.md` 为0 BLOCKER/0 MAJOR/2 MINOR，keep/none；正文仅局部1句，3204有效字符，独立Continuity/Style/Meaningful Change内容QA均PASS见`qa/0586_report.md`。
 - Day449泊晨物业前日真付两夜仍只到Day450中午，无新续付；母女计划次日上午分开确认实际房款与工作可协助时间。四楼原技术联系外封未启封薄件由两份原始档案真正核对三段编号旧号—封存号—现柜号连续，15:46才把保护性开封申请真送至受理，未获开封、施工或复居许可；四楼原12厘米口、父亲旧板独封、客厅单照明支路有限用、其余受水电路隔离、五楼有限复水不变。2019旧案马芸经新权限真核一项跨期待补核内部事项续登新流水，转登≠回送发文实发/收件/实质补核/历史真人获答；旧袋、第73页、F008/M004/M005和2016/2022跨源同一仍未证。20:32母亲回拨、22:17旧档摘录入席、Day450 07:06交班。

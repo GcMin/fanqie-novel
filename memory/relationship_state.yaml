@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 586
+last_updated_chapter: 587
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2965,3 +2965,10 @@ chapter_586_arc054_verified:
   mother_property: "工程员试拿预计两日封板报价促备料，母亲拒称已定型，专业负责人把报价材料型号列待核、工期仅无效参考，物业未获施工许可。"
   mother_custodian: "双有权保管员真正核实未启封薄件旧号转现号的来源链后，母亲认可查到外封实物来源但仍签受理不签开工；吴叔得到当日无机具工程的真实告知。"
   ma_yun_center: "马芸坚持2019转期登记与实际发文、收到及实质处理分层，夏宁/梁策夜间依去身份摘录只新增内部待办号而不捏造结案。"
+
+chapter_587_arc054_verified:
+  chapter: 587
+  source_sha: "5f01c7309acc02200f1395ebef3a353e070ab86e"
+  mother_daughter: "物业Day450 10:26新付三晚真到账使唐晓漫无须为临时搬迁请假；母亲给女儿自主调班决定权，女儿当晚买菜洗碗和照顾晾衣，不将家庭开销当物业赔责结清。"
+  mother_property_professional: "母亲从受控新许可获知薄件实开两页仅保管收讫，专业负责人阻止工程员把两枚保管签名当施工技术确认；工程员不再能以封套为凭排两日封板，正式送审的是非破坏核验范围而非施工申请批准。"
+  ma_yun_center: "马芸按合法新号目录限核一笔2019内部催办，夏宁/梁策夜间只将这条内部状态登记为真催办，不认2019回函真发、补据真到或历史真人获答。"
