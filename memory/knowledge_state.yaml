@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 584
+last_updated_chapter: 585
 characters:
   zhou_heng:
     knows:
@@ -3388,3 +3388,17 @@ chapter_584_arc054_verified:
     knows: "母亲Day447本人实际续住一夜，四楼只找到原技术联系登记及交接页名目；2019仅待补核处理类别和拟回送索引，未证实际发送。"
     unknown: "不能将物业呈批当到账，技术登记当施工许可，拟回送当完成补核，更不能称历史自然人得答。"
   shared_invariants: "前583正式ready Blob e4456a18f7f8cab1e6582f9deb85e91b14cce201依赖精确匹配；F003不升级实体补据，F008/M004/M005与2016/2022同一仍未证。"
+
+chapter_585_arc054_verified:
+  chapter: 585
+  source_sha: "88d74679cdb7adac8dc1e7fdbcd9e7a6f6cb23fc"
+  mother_daughter:
+    knows: "物业Day448 11:22向泊晨实际付两夜到Day450中午；母亲只签本笔实收并划明不认整屋可返住或旧赔责结清。四楼外封点交及柜存有一件编号可定位未启封薄件。"
+    unknown: "薄件内页是否原交接页、谁签字、现场实际灰衬做法和合法复装时点，旧个人款与押金最终赔付。"
+  ma_yun:
+    knows: "2019旧案当期有限原发文簿检索范围未见拟回送形成岗补对照的真实发出签记，获许可区间和检索条件已留存。"
+    unknown: "跨期几个编号的真实对应、2019是否从未发出、历史实质补据、旧散页袋及第73页、个人是否收到答复。"
+  center_team:
+    knows: "母亲实际两夜住宿可达Day450午，四楼外封可定位薄件尚未开封，档案旧案只有有限区间未见出文。"
+    unknown: "不将外封编号当签认，不把未见当未发生，不把物业付款当整屋修好。"
+  shared_invariants: "前584正式ready源SHA精确匹配；F003仍有界，F008/M004/M005与2016/2022同一未证。"

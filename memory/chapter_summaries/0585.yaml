@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 585
+title: "这一栏不能代签，封套还没拆开"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "88d74679cdb7adac8dc1e7fdbcd9e7a6f6cb23fc"
+reader_review: reader_reviews/0585_88d74679.md
+depends_on_chapter: 584
+depends_on_source_sha: "0660b913e542630a1c8a8c0791b6c3b490a0a8c1"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day448 08:11—Day449 07:08"
+summary: >-
+  Day448泊晨原可达双床房由母亲Day447本人真正付款只到Day448午，物业新房费此前仅呈批。09:24物业要求在临时安置完成确认上签字，内容错误暗示整屋居住问题已解决，母亲拒签并保存原表；10:08主管确认可按独立住宿服务费用走，10:42前台仍无款，11:07签收模板改为实际支付，11:22泊晨真正收到物业直付Day448中午至Day450中午连续两夜，房号及可达性核对、两卡实际试开；母亲仅签本次两夜实收，划明不认可原房返住、不结清本人旧房费、押金、女儿车费及维修赔责。仁合里四楼Day447只证局部技术联系资料原始登记及交接页名目，Day448 14:23新有限许可仅核移交批次外部点交目录及保管位置；16:03核出当批次另有局部交接附件封套独立保管编号，现行柜内有同编号未启封薄件，但重编号原新对应表、内页及谁签认都未核，未经授权开封或复装。原12厘米口不扩、父亲短铅笔线旧饰板独封、客厅一条照明支路有限使用，其余受水线路隔离整屋不许返住，五楼西户有限复水不变。2019旧档Day447仅证原件对应关系待补核及拟回送，马芸Day448 10:26申请、15:37新授权核当期限定发文序列、16:27未见同拟项实际发出签记，另有跨期编号本次未获准；不能据此断定历史没有发出、补据完成与否或自然人是否得答，也不把另一归属依据未齐通知当同件。母亲20:46回拨，22:18去身份摘录入夜班，Day449 07:08交班。F003旧袋今址、第73页、2016/2022同一和F008/M004/M005均未确证。
+meaningful_state_changes:
+  - "Day448 11:22物业实际支付泊晨两夜到Day450午，母亲仅限项签收本次费用，不认可整体安置完成。"
+  - "四楼原技术联系资料同批次外封独立编号对应一件现存未启封薄件，但尚未开封核内页签认或工程适用。"
+  - "2019限项原发文簿受检序列未见对应拟回送真发签记，跨期索引未授权，保持未决。"
+knowledge_updates:
+  - "母女知物业两夜真付及房卡可用到Day450午、旧本人支付赔责未结；不知四楼内封薄件内容或实际签字。"
+  - "马芸及中心知道2019本次有限发文序列未见签记，不知道跨期号和历史自然人实获答。"
+relationship_updates:
+  - "母亲拒超范围签字但接受确已支付的限项确认；唐晓漫守工作时间并承担合理家务，家庭不把个人交通药费和物业账相抵。"
+  - "专业负责人阻止工程员把外封证据当施工许可证，保管员明确重编对照与开封权限；马芸守双岗合法准阅边界。"
+foreshadowing_updates:
+  - "F003只从拟回送推进至限定原簿区间未见匹配实发，保留跨期号与历史真人受答未证；F008/M004/M005和2016/2022同一无新确证。"
+ending_state: "Day449 07:08泊晨物业真正付款到Day450中午，两卡已试，整屋返住仍不批准；四楼仅现存未启封薄件外封编号，内页签认与原新号对照待查；2019限定发文序列未见实发但全期未核，旧案自然人答复未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "88d74679cdb7adac8dc1e7fdbcd9e7a6f6cb23fc", final_draft_sha: "88d74679cdb7adac8dc1e7fdbcd9e7a6f6cb23fc", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3325
