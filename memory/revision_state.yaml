@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 593
-current_stage: chapter593_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0593.md
-current_source_sha: 40a5ec9ae66412956bdd4b0968fd481ab73e2f6f
-current_review_path: reader_reviews/0593_40a5ec9a.md
+current_chapter: 594
+current_stage: chapter594_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0594.md
+current_source_sha: 4fd2414d28c22c8fd54522cecde22d5552306188
+current_review_path: reader_reviews/0594_4fd2414d.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter593_reader_0_0_2_qa_pass_no_revision
-last_action_date: "2026-11-07"
+last_action: chapter594_reader_0_0_2_qa_pass_no_revision
+last_action_date: "2026-11-08"
 last_error: null
-last_diff_summary: "593草稿前592正式ready精确依赖；独立Reader Pass A/B 0/0/2，无正文修改；独立QA通过，待候选精确结构CI。"
+last_diff_summary: "594草稿前593正式ready精确依赖；独立Reader Pass A/B 0/0/2，无正文修改；独立QA通过，待候选精确结构CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 40a5ec9ae66412956bdd4b0968fd481ab73e2f6f
+current_review_source_sha: 4fd2414d28c22c8fd54522cecde22d5552306188
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6005,3 +6005,16 @@ chapter_593_arc054_verified:
   qa_gate: pass
   structural_gate: exact_candidate_ci_success_required_before_main
 
+
+chapter_594_arc054_verified:
+  chapter: 594
+  source_before: "4fd2414d28c22c8fd54522cecde22d5552306188"
+  source_after: "4fd2414d28c22c8fd54522cecde22d5552306188"
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_changes: 0
+  review: reader_reviews/0594_4fd2414d.md
+  reader_counts: "0/0/2"
+  qa_gate: pass
+  structural_gate: exact_candidate_ci_success_required_before_main

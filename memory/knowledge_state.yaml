@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 593
+last_updated_chapter: 594
 characters:
   zhou_heng:
     knows:
@@ -3509,3 +3509,19 @@ chapter_593_arc054_verified:
     knows: "母亲20:34真人回拨，河安真住、个人垫款汇总已纠错仍待核；供水阀组与排水系统只是分项拟查尚未现场获批。"
     unknown: "漏水原因及实际管线定位、下一夜实款、历史人获答；F008/M004/M005无新证。"
 
+
+chapter_594_arc054_verified:
+  chapter: 594
+  source_sha: "4fd2414d28c22c8fd54522cecde22d5552306188"
+  mother_daughter:
+    knows: "Day457河安物业真续付两夜至Day459午且双卡实试；泊晨个人垫款仍待核未退款，仁合里继续禁返住。"
+    unknown: "旧个人费用核赔、原房维修赔责、真正漏源与返住日期。"
+  professional:
+    knows: "Day457供水侧有限外观许可实查，柜门03标签与左阀旧02及右阀遮挡标识无可证一一对应；未转阀拆牌。"
+    unknown: "固定阀体真实编号映射、实际供水支路、漏源和排水侧合法实施时间。"
+  ma_yun:
+    knows: "2019材料页次核问原端真发目标岗真收，没有新办理类别阅准。"
+    unknown: "原73页实质补齐、旧散页袋今址、历史自然人实际获答及2016/2022同源。"
+  center_team:
+    knows: "母亲20:41真人回拨，河安真付至Day459午、供水仅外观实查阀无操作排水待批。"
+    unknown: "阀体实物对应、漏源、旧案历史答复或F008/M004/M005新机制证据。"

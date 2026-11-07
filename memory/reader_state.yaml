@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 593
-last_reviewed_title: "新住处的门能开，旧房的账还没认"
-last_source_path: chapters/draft/0593.md
-last_source_sha: 40a5ec9ae66412956bdd4b0968fd481ab73e2f6f
-last_review_path: reader_reviews/0593_40a5ec9a.md
-last_reviewed_at: "2026-11-07"
+last_reviewed_chapter: 594
+last_reviewed_title: "两张房卡续上了，阀组编号没对上"
+last_source_path: chapters/draft/0594.md
+last_source_sha: 4fd2414d28c22c8fd54522cecde22d5552306188
+last_review_path: reader_reviews/0594_4fd2414d.md
+last_reviewed_at: "2026-11-08"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 592
-depends_on_source_sha: 3cc3208b0952f04325c88d960dbe492a286fcbf2
+depends_on_chapter: 593
+depends_on_source_sha: 7e960e5b0b001d5aa2065fee6c241cd379a9d2c8
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 565842415c6adb297111eb4dbb4adba09a06244b
+predecessor_current_source_sha: 7e960e5b0b001d5aa2065fee6c241cd379a9d2c8
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6796,3 +6796,21 @@ chapter_593_arc054_verified:
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_success_required_before_main
 
+
+chapter_594_arc054_verified:
+  chapter: 594
+  title: "两张房卡续上了，阀组编号没对上"
+  source_sha: "4fd2414d28c22c8fd54522cecde22d5552306188"
+  review_path: reader_reviews/0594_4fd2414d.md
+  reviewed_at: "2026-11-08"
+  reviewer_mode: independent_pass_a_then_pass_b_exact_git_blob
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "7e960e5b0b001d5aa2065fee6c241cd379a9d2c8"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_success_required_before_main
