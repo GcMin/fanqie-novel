@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 585
+last_updated_chapter: 586
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2957,3 +2957,11 @@ chapter_585_arc054_verified:
   mother_property: "物业主管接受以独立实际住宿付款单替代全局安置完成签名，母亲只限项确认本次两夜真到账，不撤旧房维修/赔责主张。"
   mother_professional: "工程员想以现存薄件代替原交接签认，专业负责人和保管员明确未开封及原新编号对应未查，不准机具恢复。"
   ma_yun_officers: "马芸尊重有限发文簿授权与跨期号分离，夜班梁策把未发生更正为本次范围未见，防止错记。"
+
+chapter_586_arc054_verified:
+  chapter: 586
+  source_sha: "81f530b154e5766c855ce8ae987aa3969b2890b5"
+  mother_daughter: "母女不拿Day450中午到期事实逼彼此立即请假，计划次日上午各自核入住实收与工作时间；唐晓漫追问封套内页而母亲明确答不知道。"
+  mother_property: "工程员试拿预计两日封板报价促备料，母亲拒称已定型，专业负责人把报价材料型号列待核、工期仅无效参考，物业未获施工许可。"
+  mother_custodian: "双有权保管员真正核实未启封薄件旧号转现号的来源链后，母亲认可查到外封实物来源但仍签受理不签开工；吴叔得到当日无机具工程的真实告知。"
+  ma_yun_center: "马芸坚持2019转期登记与实际发文、收到及实质处理分层，夏宁/梁策夜间依去身份摘录只新增内部待办号而不捏造结案。"

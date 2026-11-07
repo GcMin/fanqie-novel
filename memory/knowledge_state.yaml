@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 585
+last_updated_chapter: 586
 characters:
   zhou_heng:
     knows:
@@ -3402,3 +3402,17 @@ chapter_585_arc054_verified:
     knows: "母亲实际两夜住宿可达Day450午，四楼外封可定位薄件尚未开封，档案旧案只有有限区间未见出文。"
     unknown: "不将外封编号当签认，不把未见当未发生，不把物业付款当整屋修好。"
   shared_invariants: "前584正式ready源SHA精确匹配；F003仍有界，F008/M004/M005与2016/2022同一未证。"
+
+chapter_586_arc054_verified:
+  chapter: 586
+  source_sha: "81f530b154e5766c855ce8ae987aa3969b2890b5"
+  mother_daughter:
+    knows: "原局部交接附件外部点交老号、转存封存号与现柜号Day449由双有权岗位原始记录连续对上，薄件仍未开；住宿物业真款只到Day450午，次日十点前分别核房款和工作时间。"
+    unknown: "内页是否本户施工交接页、签字人/技术核定及开封批准与施工条件；后续房费、押金及赔责。"
+  ma_yun:
+    knows: "2019资料复核台的原件对应关系待补核事项由旧期号真实转登下一期新待办流水。"
+    unknown: "拟回送形成岗是否真发真收、实质补据与历史个人答复、旧袋与第73页及2016/2022同源。"
+  center_team:
+    knows: "Day449四楼外封三段编号可核和开封申请受理但薄件未开；历史内部待办真转期而非结案。"
+    unknown: "不能把编号对应当内页签认/工程许可，不能把2019转登当原业务回函或自然人真收。"
+  shared_invariants: "前585正式ready SHA dd9e4080dbd9ed3c224305fad22b2fba0fbdf51f 已核标题和正文与旧draft逐字相同；F003仅有界推进，F008/M004/M005未证。"
