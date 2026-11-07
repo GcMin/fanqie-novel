@@ -6,8 +6,8 @@
 - status: planned
 - base_main_commit: 3239dfb0fdefaa293cadfcd0fb22f75f2a8c6fae
 - depends_on_chapter: 589
-- depends_on_source_sha: fa7a9e990d524ae18c86aad9a7cf952354d00a2e
-- dependency_status: provisional
+- depends_on_source_sha: 0d4cdc5433759035923e92193a288827f383bb80
+- dependency_status: verified_ready_same_title_body_facts
 
 ## Planner
 - 本章目标：Day453泊晨住房实付截止中午，真实解决母女当日住宿决定；完成原12厘米口内两处已建砂浆基准的首次有权回测，出现单点相对读数上升也不提前作干燥或再漏结论。
@@ -28,6 +28,11 @@
 
 ## Continuity Precheck
 - 使用本轮GitHub main最新3239dfb0fdefaa293cadfcd0fb22f75f2a8c6fae实际完整树检查published、ready、draft：第153章在published，最大数字章节589，第590正文及计划在main均不存在。
-- 直接前章chapters/draft/0589.md完整Git Blob fa7a9e990d524ae18c86aad9a7cf952354d00a2e，dependency_status: provisional。前589尚为待审draft，依赖仅作指定源版本的临时连续性参考而非正式Canon；独立Audit后续须校正文事实兼容。
+- 直接前章chapters/draft/0589.md完整Git Blob 0d4cdc5433759035923e92193a288827f383bb80，dependency_status: verified_ready_same_title_body_facts。第589章正式ready Blob已核为0d4cdc5433759035923e92193a288827f383bb80；原589暂定草稿与正式版本标题及小说正文逐字相同，只有交付Front Matter字段不同，第590章正文事实无需修订。
 - 实证前情：Day453 07:05泊晨真付款仅到当日中午；Day452两处可定位砂浆点已有首次基准但未来回测未排。原12厘米口不扩、父亲短铅笔线旧饰板独号封存、客厅原单照明支路有限用、其他受水电路隔离、四楼整屋不可返住、五楼西户有限复水不变。2019页次核问目标端确有真收，但不证补据和历史真人答复。
-- 本次只新建详细章纲与待审正文，不执行Reader、Revision、QA、Memory、ready或平台发布，不修改既有章节。
+- 本次Writer仅新建详细章纲与待审正文，不执行Reader、Revision、QA、Memory、ready或平台发布，不修改既有章节。
+
+
+## Audit Stage A（2026-11-07）
+- 前589临时Draft Blob fa7a9e990d524ae18c86aad9a7cf952354d00a2e 与正式ready Blob 0d4cdc5433759035923e92193a288827f383bb80 逐字比较标题、小说正文一致，仅Front Matter的QA/交付字段不同；第590章Day453付款/回测完全兼容589真实初始点位和住房到期边界。
+- 据初审Reader `reader_reviews/0590_7f086c6a.md` 的MAJOR，Stage A仅重绑Front Matter与本计划依赖，不修改590小说正文。元数据变更导致新Draft SHA须再独立Pass A和Pass B审查；不继承旧Review。
