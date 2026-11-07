@@ -5775,3 +5775,19 @@ chapter_577_arc054_verified:
   predecessor_ready_sha: "7341a7eb7a417733b904d3a4eaa2d63563fe39b3"
   dependency_status: verified_ready_same_title_body_facts
   structural_gate: exact_candidate_ci_success_required
+
+chapter_578_arc054_verified:
+  chapter: 578
+  original_source_sha: "cd8d44fe837c11f4b86958f72af8bfa30ba86b2b"
+  final_draft_sha: "cd8d44fe837c11f4b86958f72af8bfa30ba86b2b"
+  stage: no_revision_needed
+  stage_a_rounds: 0
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  review_after: reader_reviews/0578_cd8d44fe.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  predecessor_ready_sha: "dbe544a26b5a2c4190bfb9d3de8919b4b5030b29"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_success_required_before_main

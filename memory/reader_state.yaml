@@ -6519,3 +6519,22 @@ chapter_577_arc054_verified:
   predecessor_ready_sha: "7341a7eb7a417733b904d3a4eaa2d63563fe39b3"
   dependency_status: verified_ready_same_title_body_facts
   structural_gate: exact_candidate_ci_success_required
+
+chapter_578_arc054_verified:
+  chapter: 578
+  title: "新房钱真正到账，旧回函却退回核对"
+  source_path: chapters/draft/0578.md
+  source_sha: "cd8d44fe837c11f4b86958f72af8bfa30ba86b2b"
+  review_path: reader_reviews/0578_cd8d44fe.md
+  reviewed_at: "2026-11-07"
+  reviewer_mode: independent_pass_a_then_pass_b_exact_git_blob
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "dbe544a26b5a2c4190bfb9d3de8919b4b5030b29"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_success_required_before_main
