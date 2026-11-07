@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 588
-current_stage: chapter588_stage_a_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0588.md
-current_source_sha: ea982c2d76718383329364dae4f8c4cc2065ecf1
-current_review_path: reader_reviews/0588_ea982c2d.md
+current_chapter: 589
+current_stage: chapter589_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0589.md
+current_source_sha: fa7a9e990d524ae18c86aad9a7cf952354d00a2e
+current_review_path: reader_reviews/0589_fa7a9e99.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -5932,4 +5932,19 @@ chapter_588_arc054_verified:
   predecessor_old_sha: "5f01c7309acc02200f1395ebef3a353e070ab86e"
   predecessor_ready_sha: "e99cb765ecf9199f0e72ecb63a3214a36c0a8e3f"
   dependency_status: verified_ready_same_title_body_facts
+  structural_gate: exact_candidate_ci_success_required_before_main
+chapter_589_arc054_verified:
+  chapter: 589
+  original_sha: "fa7a9e990d524ae18c86aad9a7cf952354d00a2e"
+  final_draft_sha: "fa7a9e990d524ae18c86aad9a7cf952354d00a2e"
+  stage: no_revision_needed
+  stage_a_rounds: 0
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  review_after: reader_reviews/0589_fa7a9e99.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  predecessor_ready_sha: "321c06acfdc062004a5c10b98b0762420b3ffeaf"
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_success_required_before_main
