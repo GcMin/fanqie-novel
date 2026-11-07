@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 589
+last_updated_chapter: 590
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2987,3 +2987,10 @@ chapter_589_arc054_verified:
   mother_property: "物业只传已上传延住申请而未新增实款，母亲依泊晨前台真收和现有房态核未来住宿，不按群中呈批作已落实。"
   mother_professional: "工程员旧三点下降简图经专业责令纠正并留原记录，母亲发现点位近景遮住螺钉孔要求补拍，专业人员留废影像，母亲仅签知悉测量。"
   ma_yun_center: "马芸依法限定查2019形成岗实际收文和待核原页不越权读补据，夜班对旧案阶段只记录岗位真收，不填结案与自然人获答。"
+chapter_590_arc054_verified:
+  chapter: 590
+  source_sha: "855dbcba0d6bb3f2a3b970a96ad1e6fa52088f8b"
+  mother_daughter: "Day453唐晓漫从口头表示可帮忙进至本人到前台实际付款两夜，母亲尊重她自主选择并分账留票，不让她代签原房修复与物业赔责。"
+  mother_property: "母亲坚持绿色审批页不能当实款，也拒物业未落实即签安置延续完成；家庭垫付费用不冲销物业责任。"
+  mother_professional: "新点比上日初值相对升高，工程员急于猜新漏和仓库备料，母亲与有责专业人员均拒无证定漏源/复装日期，保留原值和环境条件。"
+  ma_yun_center: "马芸没有新旧案授权，只维护已实证的历史内部收发与待核原页，夜班记录无新证，不编造补据或旧当事人获答。"
