@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 589
+title: "新点位贴好了，回家的日期仍空着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "fa7a9e990d524ae18c86aad9a7cf952354d00a2e"
+reader_review: "reader_reviews/0589_fa7a9e99.md"
+depends_on_chapter: 588
+depends_on_source_sha: "321c06acfdc062004a5c10b98b0762420b3ffeaf"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day452 08:16—Day453 07:05"
+summary: >-
+  Day452泊晨物业既有三夜真款仅付到Day453中午，今日前台只见次日候选空位未锁、物业续住申请尚无实付；母女商议女儿自愿分担下一夜费用但需核真实房态金额，旧自付和赔责未结。四楼旧三测点仅一号砂浆具有历史接触面可比前提；Day452 12:21有责真正批准原12cm口内非破坏定位和初测，14:27专业把原一号与另一同材砂浆点建立可重复定位初值，保留螺钉孔遮挡废照片及旧工程员三点下降误图，不把初测或不能同比旧二/三号当整墙干燥。四楼原12cm口未扩大、父亲铅笔旧饰板独号封存、客厅一照明限用其余受水回路隔离整屋不准返住，五楼西户有限复水不变；无复装、电安和返住许可。2019跨期新号材料页次核问前章只证原端真发，本章马芸经新限项授权16:03真正查到材料形成岗原收文簿签记“待核原页”，内部岗位已真实收件，但实质补页、散页袋今址、第73页和历史自然人实际获答未知。母亲20:44亲回拨、22:21摘录到夜班、Day453 07:05交班，泊晨下一夜仍无新实收。
+meaningful_state_changes:
+  - "Day452在既有原12cm开口内形成原一号与同材新砂浆点两处可重复定位、带环境与仪器记录的初次基准。"
+  - "旧三点下降误图正式纠正并保留，不据本次读数批准整屋返住。"
+  - "F003：2019页次核问从单端真发推进到材料形成岗真收，实质补页与历史人获答仍未知。"
+knowledge_updates:
+  - "母女知泊晨仅真付到Day453中午，今天不存在新的实际续费，四楼两个基准点不等于墙体已干或可以返住。"
+  - "马芸和夜班仅知2019核问真到材料形成岗且仍待核原页，不知历史原页补据或个人得答。"
+relationship_updates:
+  - "唐晓漫主动提出可按实际价钱帮助支付，母亲愿意商议但不代签，维持自主分账。"
+  - "专业负责人要求保留旧误图和技术条件，工程员未提前备料施工。"
+foreshadowing_updates:
+  - "F003双端核问收发真证，旧散页袋今址、第73页、实质补页、历史本人获答及2016/2022同源均未知；F008/M004/M005没有新增确证。"
+ending_state: "Day453 07:05泊晨真款只到中午，四楼有两点初始基准但未来同点复测尚未获准，没有复装送电返住许可；2019核问实际收讫而实质补页和历史个人答复未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "fa7a9e990d524ae18c86aad9a7cf952354d00a2e", final_draft_sha: "fa7a9e990d524ae18c86aad9a7cf952354d00a2e", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3797
