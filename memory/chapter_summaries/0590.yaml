@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 590
+title: "两晚房费有人付了，墙脚却多了一条上升线"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "7f086c6a470552ca929ecadaaaff84baee4e14cd"
+source_draft_sha: "855dbcba0d6bb3f2a3b970a96ad1e6fa52088f8b"
+initial_review: "reader_reviews/0590_7f086c6a.md"
+reader_review: "reader_reviews/0590_855dbcba.md"
+depends_on_chapter: 589
+depends_on_source_sha: "0d4cdc5433759035923e92193a288827f383bb80"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day453 08:19—Day454 07:06"
+summary: >-
+  Day453泊晨原物业Day450实际直付三夜只到当日中午，新延住申请/绿色审批页仍无新入账；9:12前台核同双床房后两夜可售并保报价到11:30。唐晓漫11:17亲到前台自付Day453午—Day455午连续两夜，原房双卡重制并均实开，母亲只记录女儿本人实际付款不抵扣物业责任、原家庭垫资、押金及房屋赔责。仁合里四楼Day452专业实际形成原一号与同材新砂浆点两处可重复定位初次基准；Day453 11:48新有限批准只复测原12cm开口内两处，13:26有责签现场任务，14:57原一号相对值变化小，15:09新砂浆点读数上升但室内环境及接触条件须核，不能据两次人工读数宣称新漏、整墙干燥或整屋合格。旧图旧读数未篡改、需另排条件可比复测及合法修复技术判断；原12cm口不扩、父亲铅笔旧饰板独封、客厅单照明有限用其余受水电路隔离、整屋不准复装复电返住，五楼西户既有有限复水不变。2019旧案没有新限项许可，仍只证跨期新号材料页次核问原簿真发及材料形成岗真收、收后待核原页，不证补页真实完成、旧散页袋今址原第73页或历史自然人实际获答。20:37母亲亲回拨夜间中心，Day454 07:06交班，母女房卡真付到Day455午。
+meaningful_state_changes:
+  - "Day453 11:17唐晓漫个人真正付泊晨两夜并试开双房卡至Day455午，旧费用赔责仍独立。"
+  - "Day453两处同材砂浆点首次有授权回测，新点相对指示升高但与不同环境下原一号变化小并存，原因待核、不能断言新漏。"
+  - "母亲接受女儿自主分担而不让其代签修复赔责，家庭关系有具体新行动。"
+knowledge_updates:
+  - "母女知女儿个人真付两夜、物业仍无新款，四楼新点升高是相对读数差别而非确凿新漏或返住结论。"
+  - "马芸和中心延续2019核问双端真收发及待核原页，没有新的补据或历史自然人答复证据。"
+relationship_updates:
+  - "女儿从主动提出帮助变成本人实际决定并付款，母亲认可且独立留票，不将家庭钱款列为物业结清。"
+  - "工程员想提前仓库备料被专业负责人和母亲拒绝；专业保留读数、条件差异而不下超范围结论。"
+foreshadowing_updates:
+  - "F003本章无新旧档许可，维持2019核问目标真收、实质补页/旧袋今址/第73页/历史自然人得答均待核，2016/2022同源与F008/M004/M005不证。"
+ending_state: "Day454 07:06泊晨实付至Day455午，付款人为唐晓漫不是物业；原12cm开口、父亲旧板封存、电气隔离和整屋禁返住不变，新点相对上升原因待核，历史自然人受答及原页补据未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7f086c6a470552ca929ecadaaaff84baee4e14cd", final_draft_sha: "855dbcba0d6bb3f2a3b970a96ad1e6fa52088f8b", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "rebind_589_formal_ready_after_title_body_identical_and_correct_effective_char_count_to_3094"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3094
