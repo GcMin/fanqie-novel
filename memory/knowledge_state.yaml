@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 582
+last_updated_chapter: 583
 characters:
   zhou_heng:
     knows:
@@ -3360,3 +3360,17 @@ chapter_582_arc054_verified:
     knows: "20:31母亲确认Day445有源正式回告/恢复申请退回且房期有效；22:09限项摘录证2019内部原端发出一件请复阅。"
     unknown: "四楼施工和返住许可证据、内部复阅结果及历史个人答复。"
   shared_invariants: "F008/M004/M005及2016/2022同一未被本案的普通内部表单链证实。"
+
+chapter_583_arc054_verified:
+  chapter: 583
+  source_sha: "fe2a04f79f7bed190921d41ba33d2b992b5ad1e3"
+  mother_daughter:
+    knows: "Day446四楼原设计节点真调到且灰衬未单列，但实际现场技术核定/交接签认未查，不能封板送电返住；泊晨真付至Day447中午，后夜只有询价没有预订/付款。"
+    unknown: "四楼当前灰衬真实年代/设计用途、局部施工调整有无与材料安全以及未来住宿付款/旧赔责结清。"
+  ma_yun:
+    knows: "2019年请复阅内部原端发出与资料复核台目的端收文簿签收有可对应的真实记录。"
+    unknown: "资料复核台实际复阅处理结论、实质补据或旧袋现址原第73页及历史自然人实际获答。"
+  center_team:
+    knows: "母亲20:37本人告知原设计真取得仍缺施工签认及住费后续未付；22:11去身份摘录只证2019内部目的岗位真正收到请复阅。"
+    unknown: "不凭原图证明恢复条件、不凭内部收文宣告历史真人得答或机制结论。"
+  shared_invariants: "前582原稿和正式ready只有一处快递领取时点事实变化，583 Day446首次本人签领兼容且已绑正式ready SHA；F008/M004/M005及2016/2022同一无新增确证。"

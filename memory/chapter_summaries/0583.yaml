@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 583
+title: "四楼原图找到了，签认那页还空着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "48b36cf3afdc9709fa66a55b1249efcf58067340"
+source_draft_sha: "fe2a04f79f7bed190921d41ba33d2b992b5ad1e3"
+initial_review: reader_reviews/0583_48b36cf3.md
+reader_review: reader_reviews/0583_fe2a04f7.md
+depends_on_chapter: 582
+depends_on_source_sha: "244b5d71d0414812e690072a9cc1db4205148d05"
+dependency_status: verified_ready_after_package_receipt_local_fact_fix
+timeframe: "Day446 08:17—Day447 07:07"
+summary: >-
+  Day446泊晨有缓坡电梯双床房先前Day444 10:56物业真实直付三夜到Day447中午，女儿08:17从前台真正本人签收Day445代收公司快递、下午按原约真取药；泊晨16:10仅告次日续住实价可留意向，未收钱未预订，物业答“已转主管”无付款承诺，旧母亲垫房款/女儿车费/押金赔责独立。仁合里四楼原设计墙脚节点Day446 09:32仅查到归档页项及箱号，11:48准阅、12:26双有权保管岗真正调出有来源版本的四楼原始设计节点页，图中灰薄衬未单独标名、边注如有局部做法调整须另核技术核定/施工交接签认，不能推材料原年代用途或实际施工按图；专业负责人拒以原设计页作施工复装依据，13:04另提交仅查对应签认存在性的申请有受理号未获准，12厘米原口不扩、父亲旧板铅笔短线独封、仅客厅一照明支路有限可用其余受水电路隔离、整屋不可返住、五楼西户有限复水不变。马芸Day446申请只核2019材料形成岗原端真发至资料复核台一件“核对情况请复阅”目的端原收文簿，14:42合法限项、15:09有权双岗见同号类别件数和真实资料复核台原簿签收，15:34去身份摘录，后续实质处理栏未阅、旧袋今址/原第73页/历史当事人真获答未核、另一补正通知未混入。母亲20:37实际回拨夜班、22:11档案摘录入席、Day447 07:07分项交班。原582临时草稿仅Day445快递领取事实有过一处被修正，583自始Day446本人首签与正式582相容，Stage A仅将本章元数据/章纲依赖重绑582 ready SHA；F008/M004/M005与2016/2022同一未证。
+meaningful_state_changes:
+  - "Day446 12:26真正取得来源可核的四楼原设计节点页，图边注显露需另核现场局部技术核定与交接签认，13:04只获新申请受理。"
+  - "Day446 15:09旧案资料复核台原收文簿实证2019请复阅内部真正签收，不证明处理结果或旧自然人答复。"
+  - "女儿履行Day446本人领公司快递和取药，泊晨次夜仅有报价未付，Day447中午后续住需凭新实际付款。"
+knowledge_updates:
+  - "母女知四楼确有原设计图但未证实际施工签认、不可封板返住；泊晨到Day447中午真付，后夜无款，女儿Day446真正领此前代收快递并取药。"
+  - "马芸与中心知2019材料形成岗请复阅原发及资料复核台原收双端真交接，不知实质复核结果和历史个人答复。"
+relationship_updates:
+  - "母女不把子女药费通勤和物业赔款混账，母亲自主要求原图与实际施工证据分开；工程员被专业负责人限制按图擅动。"
+  - "马芸与有权保管员严格止于准阅收文簿，资料复核台处理栏暂不越权。"
+foreshadowing_updates:
+  - "F003新增旧内部请复阅目的岗实收，不升级实质归属补据、旧散页封签袋现址、第73页或历史自然人真答，2016/2022跨源同一与F008/M004/M005不确证。"
+ending_state: "Day447 07:07泊晨物业既有房款仅到当日中午，新增续夜只有报价及已转主管无实款；四楼原设计节点页已合法取得但实际施工技术核定与交接签认尚未查到，四楼受水电路等隔离整屋不可返住；2019请复阅内部真到目的岗仍无实质处理/自然人获答证据。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "48b36cf3afdc9709fa66a55b1249efcf58067340", final_draft_sha: "fe2a04f79f7bed190921d41ba33d2b992b5ad1e3", initial_counts: "0/1/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "rebind_582_old_provisional_to_formal_ready_after_one_package_pickup_fact_comparison"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3314
