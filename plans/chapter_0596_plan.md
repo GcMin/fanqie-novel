@@ -6,8 +6,8 @@
 - status: planned
 - base_main_commit: 178870151d18a4255d108c6185286f464df6097d
 - depends_on_chapter: 595
-- depends_on_source_sha: 8459d77b0dcc3399b885506a617cc0b2b23168b6
-- dependency_status: provisional
+- depends_on_source_sha: a05ef869a2da69050a82ea4f1ce45c0257e90f66
+- dependency_status: verified_ready_same_title_body_facts
 
 ## Planner
 - 目标：在Day459将新见侧接管从无时间来源的观察推进到有来源、有拍摄时间的旧巡检影像，并让五楼住户获得不被无据归责的有限回告；住房真正续付几夜避免每天重演同一临界状态。
