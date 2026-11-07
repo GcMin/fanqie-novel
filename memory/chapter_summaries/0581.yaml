@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 581
+title: "修订页终于调出，四楼却不在适用栏"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "3cb6faa893690f6ea3f0b51a8db02d90f0f7706f"
+source_draft_sha: "fdfd200419ab6b5c0b6b3b5b619302be4f09e367"
+initial_review: reader_reviews/0581_3cb6faa8.md
+reader_review: reader_reviews/0581_fdfd2004.md
+depends_on_chapter: 580
+depends_on_source_sha: "8932da3c0e521864e94391e993c4501293cc23d3"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day444 08:18—Day445 07:06"
+summary: >-
+  Day444母女住有坡道电梯的泊晨，Day443 11:16物业真款一夜止于Day444中午，Day444 09:12物业表示拟付三夜但母亲坚持实际入账；10:56前台真实收到物业一笔三夜房费Day444午—Day447午，双房卡重制并两卡实际试开，女儿午间核到凭据；旧母亲自费、女儿搬车费、押金和赔责未冲销。母女谈Day440搬家请假，修正文中错置的“上个月”为“前几天”，女儿照常开会并下班回住所，可再安排取处方。仁合里Day443已真取得本楼原总图封面/图号索引，后修目录指另细部；Day444 12:22新限项准阅、13:43真正调到后期修订细部页，页眉来源有效但适用栏明确“五层西侧共用管井外壁”而非四楼客厅墙脚，不能由目录跨层指引或老图倒推本户现时适用；14:21专业仅签真实收件/层位不符，14:47物业仅向形成单位送达狭窄层位适用核问，尚无实质答复或工程许可。标准板材无新入场，原12厘米口不扩、父亲旧饰板独封、四楼仅客厅原一照明支路限用其他受水回路隔离整屋不可返住，五楼西户有限复水不变；吴叔未来施工告知渠道保留。2019档案线：前580证同号退回核对回文原拟办岗真收后，原拟办岗一件来源材料再核真交出到材料形成岗；Day444马芸09:27申请并删“核结果”超权内容、15:04有权限项只核材料形成岗原收文簿、15:49双保管员证同号同类件数的一件再核转办真正由材料形成岗签收、16:16出非身份摘录，但并未阅实质核据/结果、旧袋今址原第73页历史真人受答。母亲20:34亲回拨夜间中心，22:16摘录入席、Day445 07:06交班，F008/M004/M005和2016/2022同一无新确证。
+meaningful_state_changes:
+  - "Day444 10:56泊晨真正收到物业三夜直付至Day447中午并双房卡重制试开，旧个人垫付赔责仍各自待核。"
+  - "13:43后修细部页真实调出，适用栏仅五层西侧管井而非四楼墙脚，跨层目录须向形成单位核，不能复装复电返住。"
+  - "F003：2019一件来源材料再核从原拟办岗交出推进到材料形成岗真正签收，实质补核与历史人获答依旧无证。"
+knowledge_updates:
+  - "母女知物业泊晨直付三夜至Day447午、暂免每日续费；图纸真到但不适用四楼，仍无施工/复电/返住许可。"
+  - "马芸及中心知2019材料形成岗实收一件再核转办单，未知结果、旧封袋今址、原第73页、历史个人实际得答。"
+relationship_updates:
+  - "母女恢复一定生活日程，女儿正常开会、晚间讨论取处方，不代母亲签物业赔责或施工。"
+  - "专业负责人逐项核层位并与物业工程员维持不得据错图封板的限制；吴叔仍被承诺有真实作业时须提前正式通知。"
+foreshadowing_updates:
+  - "F003由再核原端发出推进材料形成岗原簿实收，但不等于再核结论或归属补据，历史个体得答未知；F008/M004/M005及2016/2022同一不证。"
+ending_state: "Day445 07:06泊晨已付到Day447中午，四楼后修细部真实取得但明确仅五楼西侧管井适用，形成单位尚未答层位核问，工程不准；历史再核转办双端岗位收发已证但实质结果及自然人获答未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "3cb6faa893690f6ea3f0b51a8db02d90f0f7706f", final_draft_sha: "fdfd200419ab6b5c0b6b3b5b619302be4f09e367", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3292
