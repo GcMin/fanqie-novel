@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 577
+last_updated_chapter: 579
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2901,3 +2901,11 @@ chapter_578_arc054_verified:
   mother_property: "物业真实直付泊晨两夜但未清旧房费及赔责；母亲坚决将专业旧图来源核查与修复工程可施工许可分开。"
   neighbor: "吴叔孙子上网课的施工噪声知情权仍保留，专业称本轮不拆不敲，新方案另告知。"
   archive: "马芸与双保管员仅核2019原发文簿，不代原拟办岗签收，也不扩查历史身份和封袋实体。"
+
+chapter_579_arc054_verified:
+  chapter: 579
+  source_sha: "dfc8421768f55a87eb28691c09fe362daaeca655"
+  mother_daughter: "午间唐晓漫送饭并谈父亲旧板铅笔线，母亲不让女儿反复为住房请假，留药店日常分工；彼此不把家庭照片当工程原始证明。"
+  mother_property: "母亲拒无批号备料排程与住户代收，物业主管受有责专业限制真实撤车、取消次日九点准备；母亲只签依法调图授权不签复装。"
+  neighbor: "吴叔发现材料车并电话提醒，未代为进入现场或碰物料，后续合法施工告知权不变。"
+  archive: "马芸与两名有权保管员只核原拟办岗2019非身份原收件，不顺手阅未授权业务附页，不替自然人签答。"

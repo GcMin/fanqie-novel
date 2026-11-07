@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 579
+title: "板材到了楼下，图纸还在目录里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "dfc8421768f55a87eb28691c09fe362daaeca655"
+reader_review: "reader_reviews/0579_dfc84217.md"
+depends_on_chapter: 578
+depends_on_source_sha: "ea8ed68d6608d28c333f1d1fbb84fcdeb09e6c53"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day442 08:21—Day443 07:09"
+summary: >-
+  Day442母女在有缓坡电梯的泊晨公寓，物业Day441 11:19已直付两夜至Day443中午，未新付下一夜，原梧楠路已退。仁合里物业群错将Day443九点排为墙脚复装前准备，无施工审批；母亲保存截图，专业负责人10:11核真正原构造总图及变更资料只在目录，10:34母亲仅授权依法调阅，11:48系统送达，纠“原图已调取”误状态。15:14板材车真到但不得入户/占公共通道，15:22禁止卸货和撤销次日备料，15:47车未卸真撤；16:18保管端才正式受理限项调图，仍待图号版本楼层适用核验、无图副本/施工许可。原12厘米口不扩、旧饰板父亲铅笔线独封、四楼客厅一照明支路限用其他受水线路隔离、整屋不可返住，五楼西户既有有限复水不变。唐晓漫午间送饭、父亲旧螺丝回忆不当工程证据。马芸09:38申请核2019同拟办号“退回核对”回文目的端非身份原始收文，14:36限项获准、15:57双原簿索引和原拟办岗收讫签记实证回文当年**岗位真收**、16:24去身份摘录出具；不查回文正文、不证后续实质补核、散页封袋今址/原第73页/历史自然人真获答。母亲20:29回拨、22:08摘录到中心、Day443 07:09交班；住房下一夜未付。
+meaningful_state_changes:
+  - "未经许可的复装备料排程被有责明确取消，Day442 15:47标准板材车辆未卸货撤离，不冒作已施工。"
+  - "原构造/变更图限项申请由11:48送达升级为16:18正式受理，有受理号但尚无图及工程许可。"
+  - "F003：2019同一件退回核对回文从原发端真发推进为原拟办岗真收，仍无补核结果或历史自然人实际答复。"
+knowledge_updates:
+  - "母女知泊晨物业真付到Day443午，次夜未付；备料车辆撤回、原图申请受理但未取图，不能封墙、复电或返住。"
+  - "马芸/中心知2019回文有发出和目的岗实收双端签记，不知内容、实质补核、旧袋/第73页/历史自然人获答。"
+relationship_updates:
+  - "母亲给女儿保留上班与买药分工，父亲铅笔线为家庭记忆不是工程证据；母亲不代工班签收板材。"
+  - "吴叔仅报告楼下备料车不代替住户拦工，物业有责主管和专业人员完成取消排程与撤车。"
+foreshadowing_updates:
+  - "F003回文原拟办岗真收，但不证完整归属补据、旧封袋今址、原第73页与历史人得答；F008/M004/M005和2016/2022跨源同一无新证。"
+ending_state: "Day443 07:09泊晨已真付仅到当日中午、无新续款；专业原图调取已受理未拿图，板材车撤走没有复装、受水电路及返住许可；2019原拟办岗收退回核对真有原簿，后续补核及历史自然人受答未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "dfc8421768f55a87eb28691c09fe362daaeca655", final_draft_sha: "dfc8421768f55a87eb28691c09fe362daaeca655", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3566
