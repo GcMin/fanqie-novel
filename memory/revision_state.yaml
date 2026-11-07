@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 594
-current_stage: chapter594_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0594.md
-current_source_sha: 4fd2414d28c22c8fd54522cecde22d5552306188
-current_review_path: reader_reviews/0594_4fd2414d.md
+current_chapter: 596
+current_stage: chapter596_stageA_metadata_rebind_new_sha_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0596.md
+current_source_sha: ebb308964e8ee2dd37a29d8e187a966bdae83fdc
+current_review_path: reader_reviews/0596_ebb30896.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter594_reader_0_0_2_qa_pass_no_revision
+last_action: chapter596_stageA_metadata_only_then_new_sha_reader_0_0_2_qa_pass
 last_action_date: "2026-11-08"
 last_error: null
-last_diff_summary: "594草稿前593正式ready精确依赖；独立Reader Pass A/B 0/0/2，无正文修改；独立QA通过，待候选精确结构CI。"
+last_diff_summary: "595草稿与ready版标题及小说正文逐字一致；596 Stage A仅将章纲Front Matter重绑前595正式ready SHA，新Blob ebb30896；独立Reader复审0/0/2与内容QA PASS，尚待精确结构CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 4fd2414d28c22c8fd54522cecde22d5552306188
+current_review_source_sha: ebb308964e8ee2dd37a29d8e187a966bdae83fdc
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6018,3 +6018,41 @@ chapter_594_arc054_verified:
   reader_counts: "0/0/2"
   qa_gate: pass
   structural_gate: exact_candidate_ci_success_required_before_main
+
+
+chapter_595_arc054_verified:
+  chapter: 595
+  source_sha: "8459d77b0dcc3399b885506a617cc0b2b23168b6"
+  source_before: "8459d77b0dcc3399b885506a617cc0b2b23168b6"
+  source_after: "8459d77b0dcc3399b885506a617cc0b2b23168b6"
+  stage: "no_revision_needed"
+  fix: "none"
+  stage_a_rounds: 0
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  review_after: "reader_reviews/595_8459d77b.md"
+  reader_counts: "0/0/2"
+  qa_gate: "pass"
+  predecessor_ready_sha: "c599a10c001ccbd6515918104b93348668e4ba2f"
+  dependency_status: "verified_exact_ready_blob"
+  structural_gate: "exact_candidate_ci_success_required_before_main"
+
+
+chapter_596_arc054_verified:
+  chapter: 596
+  source_sha: "ebb308964e8ee2dd37a29d8e187a966bdae83fdc"
+  source_before: "494251198c3db6fd6ee4311db25158952c851384"
+  source_after: "ebb308964e8ee2dd37a29d8e187a966bdae83fdc"
+  stage: "local_revision_metadata_only"
+  fix: "rebind_595_provisional_to_formal_ready_after_identical_title_body_comparison"
+  stage_a_rounds: 1
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  review_after: "reader_reviews/596_ebb30896.md"
+  reader_counts: "0/0/2"
+  qa_gate: "pass"
+  predecessor_ready_sha: "a05ef869a2da69050a82ea4f1ce45c0257e90f66"
+  dependency_status: "verified_ready_same_title_body_facts"
+  structural_gate: "exact_candidate_ci_success_required_before_main"

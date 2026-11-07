@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 594
+last_updated_chapter: 596
 characters:
   zhou_heng:
     knows:
@@ -3525,3 +3525,21 @@ chapter_594_arc054_verified:
   center_team:
     knows: "母亲20:41真人回拨，河安真付至Day459午、供水仅外观实查阀无操作排水待批。"
     unknown: "阀体实物对应、漏源、旧案历史答复或F008/M004/M005新机制证据。"
+
+
+chapter_595_arc054_verified:
+  chapter: 595
+  source_sha: "8459d77b0dcc3399b885506a617cc0b2b23168b6"
+  mother_daughter: "knows: Day458河安物业此前实付到Day459午、无新的续费确认；泊晨唐晓漫个人两晚进入经办复核无核赔退钱。；unknown:旧个人核赔退钱与返住许可"
+  professional: "knows:Day458排水侧获得与此前供水外观不同的独立限项许可，公共观察窗拍到图纸未列的灰色细侧接；两端不全、没有现场持续滴漏，不证私接、成因、形成时间及责任；供水柜门03与旧02未映射。；unknown:侧接起源及实际漏源"
+  ma_yun: "knows:2019内部材料页次核问双端真发真收不证原件实际补齐，马芸无新准阅；当代灰管不与旧案串证。；unknown:原73页完整性和历史真人是否受答"
+  center_team: "knows:母亲20:37河安本人回拨夏宁，周衡记录图外管但非漏源结论，梁策保留既有五楼限供与四楼禁返住，Day459 07:06交班。；unknown:真实漏源和F008/M004/M005关联"
+
+
+chapter_596_arc054_verified:
+  chapter: 596
+  source_sha: "ebb308964e8ee2dd37a29d8e187a966bdae83fdc"
+  mother_daughter: "knows: Day459物业11:09真付河安原首层双床三夜Day459午到Day462午，11:16双卡实际开门；泊晨女儿Day453—455个人垫费仅在经办复核无赔付，其他旧费和维修责任未结。；unknown:旧个人核赔退钱与返住许可"
+  professional: "knows:2023年合法来源可查原巡检影像同位可见侧接，排除了无依据的昨日新安装指控，但不证明具体安装日期、功能、连续未改、漏源或责任人，仍需核正式竣工变更维修记录；五楼供水限制不扩。；unknown:侧接起源及实际漏源"
+  ma_yun: "knows:2019材料页次核问仍只双端真实发收，原第73页旧袋今址实质补核历史真人获答未知，2023公共管井资料独立来源不串证。；unknown:原73页完整性和历史真人是否受答"
+  center_team: "knows:母亲20:33本人回拨，夏宁分开河安真实付款与泊晨旧费，周衡保留来源2023旧照与Day458新照分层，梁策确认无试水拆管转阀或进户，Day460 07:08交班。；unknown:真实漏源和F008/M004/M005关联"

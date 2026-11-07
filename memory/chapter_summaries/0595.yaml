@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 595
+title: "墙外多了一根管，水从哪来还没定"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "8459d77b0dcc3399b885506a617cc0b2b23168b6"
+reader_review: "reader_reviews/595_8459d77b.md"
+depends_on_chapter: 594
+depends_on_source_sha: "c599a10c001ccbd6515918104b93348668e4ba2f"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day458 08:16—Day459 07:06"
+summary: "Day458母亲仍住河安首层双床，Day457物业已真付Day457午至Day459午两夜、两卡有效。08:28前台仅核旧实付款；母女按紧急/日常需求分开联系。仁合里17号楼供水侧Day457只有限外观核到柜门03新签与阀体02旧牌无一一映射，排水侧本日10:05才获得独立有限许可，可由有责人员在五楼公共走廊打开原观察窗观察拍照，不准进户、转阀、拆清扫口、放水或拆板。12:42观察窗真实开启，粗竖管侧有灰色细管侧接，现行排水维护图未单列，接头无当场持续滴漏且另一端被遮挡；不能推断图外管违法、近期新装、引起四楼漏水或由哪户负责。13:47按原状关窗交回钥匙、保存原状照。14:19母亲远程看受控照片，否决工程员写疑似私接导致漏水；责任岗位仅拟最小查竣工、维修、更换记录，未准现场扩检；供水柜真实映射仍待核。唐晓漫Day453—455泊晨个人实付两夜真正进入经办复核，尚未核赔/退款；河安Day459午后的下一夜没有新增付款确认。四楼旧12cm口、父亲短铅笔线饰板独号封存、客厅单照明支路有限使用其余受水回路隔离整屋禁返住、五楼西户有限复水不变。2019内部材料页次核问依旧只双端原发真收，原73页是否补齐、旧散页袋今址及历史自然人是否实际获答不证，F008/M004/M005及2016/2022同源没有新确证。母亲20:37亲回拨夜班，Day459 07:06交班。"
+meaningful_state_changes:
+  - "排水侧独立许可由待审核成为真获批并于公共观察窗实际执行。"
+  - "现行维护图未单列的灰色侧接管有原状照片，来路与漏源仍未证，下一步转向有源历史记录。"
+  - "女儿两夜个人垫款经办复核开始但仍未退款核赔。"
+knowledge_updates:
+  - "母女知河安物业已真付到Day459午、灰色侧接未定性、旧个人两夜仍待核，未取得新的住期或返住许可。"
+  - "专业人员知道现行图未单列侧接但无另一端与形成日期证据，不知道真实连接或漏源，供水柜03/02未映射。"
+  - "中心与马芸只知2019核问双端真实收发，没有原73页补齐或历史个人获答证据。"
+relationship_updates:
+  - "母亲拒无凭据认五楼住户私接或要求其试水，专业岗制止工程员越许可操作。"
+  - "母女遵守普通信息晚间沟通约定，工作和生活不被未证工程猜测完全占据。"
+foreshadowing_updates:
+  - "F003维持2019内部核问双端真收发边界；现行公共排水管件观察与2019旧档无已证同源；F008/M004/M005及2016/2022同源未升级。"
+ending_state: "Day459 07:06河安住期真款仅到当日中午，五楼排水公共窗真见图外侧接而来路未知、供水柜03/02仍待映射，四楼旧口旧板电隔离禁返住不变，女儿旧费未退。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "8459d77b0dcc3399b885506a617cc0b2b23168b6", final_draft_sha: "8459d77b0dcc3399b885506a617cc0b2b23168b6", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3150
