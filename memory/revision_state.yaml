@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 583
-current_stage: chapter583_stage_a_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0583.md
-current_source_sha: fe2a04f79f7bed190921d41ba33d2b992b5ad1e3
-current_review_path: reader_reviews/0583_fe2a04f7.md
+current_chapter: 584
+current_stage: chapter584_no_revision_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0584.md
+current_source_sha: 8cb72872c9f7534ba8d44d885f522a6fdb714ac3
+current_review_path: reader_reviews/0584_8cb72872.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter581_stage_a_two_dialogues_and_dependency_sha_then_new_reader_0_0_2_qa_pass
+last_action: chapter584_reader_0_0_2_no_revision_independent_qa_pass
 last_action_date: "2026-11-07"
 last_error: null
-last_diff_summary: "原581_SHA3cb6faa8 初审0/2/2：580旧provisional_SHA及四天前搬家误写上个月；StageA对比580原稿与正式ready小说标题正文完全一致，581依赖重绑ready SHA并仅修改两句日期对白，正文有效字从3291到3292；新581_SHAfdfd2004独立PassA/B 0/0/2，QA内容PASS待精确CI"
+last_diff_summary: "第584章依赖前583正式ready精确SHA，无修订，Reader0/0/2且独立QA通过；结构候选CI成功后方可迁ready。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: fdfd200419ab6b5c0b6b3b5b619302be4f09e367
+current_review_source_sha: 8cb72872c9f7534ba8d44d885f522a6fdb714ac3
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -5880,4 +5880,20 @@ chapter_583_arc054_verified:
   predecessor_old_sha: "6ec608d4061ceaae606aea9957a0a8c6e0755d51"
   predecessor_ready_sha: "244b5d71d0414812e690072a9cc1db4205148d05"
   dependency_status: verified_ready_after_package_receipt_local_fact_fix
+  structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_584_arc054_verified:
+  chapter: 584
+  original_source_sha: "8cb72872c9f7534ba8d44d885f522a6fdb714ac3"
+  final_draft_sha: "8cb72872c9f7534ba8d44d885f522a6fdb714ac3"
+  stage: no_revision_needed
+  stage_a_rounds: 0
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  review_after: reader_reviews/0584_8cb72872.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  predecessor_ready_sha: "e4456a18f7f8cab1e6582f9deb85e91b14cce201"
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_success_required_before_main
