@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 590
-current_stage: chapter590_stage_a_new_sha_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0590.md
-current_source_sha: 855dbcba0d6bb3f2a3b970a96ad1e6fa52088f8b
-current_review_path: reader_reviews/0590_855dbcba.md
+current_chapter: 592
+current_stage: chapter592_new_sha_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0592.md
+current_source_sha: a650640c2932f3c1e5d71cd21bd2cc5d6b29533f
+current_review_path: reader_reviews/0592_a650640c.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter588_stage_a_new_sha_reader_0_0_2_independent_qa_pass
+last_action: chapter592_stage_a_metadata_rebind_new_sha_reader_0_0_2_qa_pass
 last_action_date: "2026-11-07"
 last_error: null
-last_diff_summary: "第588章0/1/2原稿Stage A重绑587正式ready已比对标题正文逐字相同，正文0字变化，新SHA ea982c2d...重审Reader 0/0/2内容QA PASS，待精确结构候选CI放行。"
+last_diff_summary: "第591章0/0/2无需修文；第592章原0/1/2仅前章临时SHA，核591原草稿与正式ready标题正文逐字同一，仅Front Matter改变；Stage A仅重绑592依赖、正文0字，新SHA a650640c... Reader独立双遍0/0/2、QA PASS，待精确候选CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 81f530b154e5766c855ce8ae987aa3969b2890b5
+current_review_source_sha: a650640c2932f3c1e5d71cd21bd2cc5d6b29533f
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -5966,4 +5966,28 @@ chapter_590_arc054_verified:
   predecessor_old_sha: "fa7a9e990d524ae18c86aad9a7cf952354d00a2e"
   predecessor_ready_sha: "0d4cdc5433759035923e92193a288827f383bb80"
   dependency_status: verified_ready_same_title_body_facts
+  structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_591_arc054_verified:
+  chapter: 591
+  source_before: "73fdb536c4c22fa3c0a864e28c6ab3e794eb5948"
+  source_after: "73fdb536c4c22fa3c0a864e28c6ab3e794eb5948"
+  stage_a_used: 0
+  body_changes: 0
+  review: reader_reviews/0591_73fdb536.md
+  reader_counts: "0/0/2"
+  qa_gate: pass
+  structural_gate: exact_candidate_ci_success_required_before_main
+chapter_592_arc054_verified:
+  chapter: 592
+  source_before: "e8fdd938c4ff12cae2f466b2987e00a5b784f276"
+  source_after: "a650640c2932f3c1e5d71cd21bd2cc5d6b29533f"
+  stage_a_used: 1
+  stage_a_fix: "Front Matter与详细计划绑定前591正式ready SHA56584241...；旧591草稿与ready标题/正文完全相同、仅元数据变化"
+  body_changes: 0
+  initial_review: reader_reviews/0592_e8fdd938.md
+  final_review: reader_reviews/0592_a650640c.md
+  reader_initial_counts: "0/1/2"
+  reader_final_counts: "0/0/2"
+  qa_gate: pass
   structural_gate: exact_candidate_ci_success_required_before_main

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 590
+last_updated_chapter: 592
 characters:
   zhou_heng:
     knows:
@@ -3470,3 +3470,28 @@ chapter_590_arc054_verified:
     knows: "新住宿付款人为女儿非物业，真正覆盖Day455午；两处砂浆相对值有限差异不构成漏源或复电返住许可。"
     unknown: "新点升高真实原因和历史旧案实质补据、历史个人答复。"
   shared_invariants: "本章前章589正式ready SHA 0d4cdc5433759035923e92193a288827f383bb80 已与原589临时草稿标题全文逐字对照一致，仅元数据变；四楼隔离禁返住和F003/F008/M004/M005界限未变。"
+
+chapter_591_arc054_verified:
+  chapter: 591
+  source_sha: "73fdb536c4c22fa3c0a864e28c6ab3e794eb5948"
+  mother_daughter:
+    knows: "女儿本人Day453真付泊晨两晚到Day455午，Day454独立费用受理只是待核未赔付；新砂浆点当日三次读取相近不证跨日原因，四楼仍未获任何返住许可。"
+    unknown: "Day455午后住房有否真付、工艺修复和漏水真实原因、旧个人房费押金车费及赔责。"
+  ma_yun:
+    knows: "2019跨期新号页次核问原端真发、形成岗真收和待核原页，Day454新办理类别申请仅受理。"
+    unknown: "申请准阅与后续办理结果、实质补页、旧袋今址第73页和历史真人受答。"
+  center_team:
+    knows: "母亲实际回拨明确房费个人自付待核、同点重复性有限结果、下一工程范围仅受理。"
+    unknown: "漏源/整屋安全验收以及历史个人答复；F008/M004/M005不证。"
+chapter_592_arc054_verified:
+  chapter: 592
+  source_sha: "a650640c2932f3c1e5d71cd21bd2cc5d6b29533f"
+  mother_daughter:
+    knows: "泊晨Day455 11:42真退，新河安真实物业直付Day455午至Day457午、13:07双卡实开入住；物业11:28自动提示是假入住且已更正留痕；原家庭垫费未结。"
+    unknown: "Day457午后如何续住、四楼实际漏源与全屋安全复居批准、损失赔偿结算。"
+  ma_yun:
+    knows: "旧案办理类别限项申请仍等待准阅，仅先前内部页次核问的双端发收证据。"
+    unknown: "历史实质补据完成或自然人是否得答、第73页和旧封袋今址。"
+  center_team:
+    knows: "母亲晚间河安真人回拨，11:42泊晨退房、12:27第二辆车真载客、13:07河安真入住；专业只核时序差不能排漏源。"
+    unknown: "五楼其他管道/旧滞水因果、进一步核查是否批；F008/M004/M005及2016/2022同源无新证。"

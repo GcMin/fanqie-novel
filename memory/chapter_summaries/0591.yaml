@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 591
+title: "同一处量了三遍，结论还是不能签"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "73fdb536c4c22fa3c0a864e28c6ab3e794eb5948"
+reader_review: "reader_reviews/0591_73fdb536.md"
+depends_on_chapter: 590
+depends_on_source_sha: "af9cd25589ea35ecd1a33f3059789188c7e95e79"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day454 08:31—Day455 07:02"
+summary: >-
+  Day454泊晨有缓坡双床房Day453 11:17由唐晓漫本人实付两晚到Day455午，物业当日没有新增房费/赔款。母亲09:16拒绝将女儿个人垫付纳入含“本次居住争议处理完结”的旧申报模板；10:47取得不含结案条款的独立待核临住费用渠道，11:29真实收女儿两夜凭据并生成编号，仅受理未核付、物业未代付、旧费押金车费和仁合里维修责任未结。四楼前590新砂浆点Day453相对升高原因未证；Day454 12:48限定送审，13:34正式获准原12厘米开口内同点非破坏重复性核验，15:12专业人员按原定位每次移开仪器重新接触共三次，原始相对值落窄区间且仍较高，旧一号同日变化小，仅能证明本日重复性而非跨日水分变化或漏源，16:08形成有限记录。16:51下一阶段非破坏技术范围建议仅取得受理号，尚无执行批准；五楼西户有限复水与四楼原口、父亲有短铅笔线旧饰板独号封存、客厅一照明限用、其余受水线路隔离、整屋禁返住均不变。2019旧档马芸16:18仅递交材料形成岗收件后非身份办理类别的最小申请，未得准阅；F003仍只证2019跨期新号材料页次核问原端真发和材料形成岗真收、待核原页，不证实质补页、旧封袋今址、第73页、历史自然人得答和2016/2022同源。母女约定仅安全及住房决定立即电话、普通进度晚上交换，20:42母亲本人回拨夜班、Day455 07:02交班；F008/M004/M005无新确认。
+meaningful_state_changes:
+  - "Day454 11:29女儿两夜个人房费首次通过不含结案条款的物业独立待核费用窗口真受理，未赔付。"
+  - "Day454 15:12新砂浆点同日同位置三次重新接触读数真记录，证本日重复性但不确定跨日升值原因或漏源。"
+  - "母女将每张表通知改成仅安全或住房重大决定即时联络。"
+knowledge_updates:
+  - "母女知泊晨原房由女儿本人真付到Day455午，个人垫款仅已报未核付；四楼当日同点可重复不代表能恢复施工和返住。"
+  - "马芸与中心只知2019材料页次核问双端原簿真证以及新权限申请受理，不知核补结果、历史个人答复或旧袋位置。"
+relationship_updates:
+  - "母女按工作与紧急事情分开联系，不逼女儿随每次测量改工作；母亲拒用女儿真款签旧争议结案条款。"
+  - "专业负责人拒把单点相对值与五楼全部复水/四楼封板复电混为一谈。"
+foreshadowing_updates:
+  - "F003无新旧档原页证据，历史实质核补与个人答复未获证；F008/M004/M005及2016/2022同源不证。"
+ending_state: "Day455 07:02泊晨房卡依女儿个人真付仍有效到当日中午，物业无新增真款；独立费用登记待核，非破坏下一阶段仅受理；四楼原口旧板电气禁返住保护不变，旧案办理类别申请待审。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "73fdb536c4c22fa3c0a864e28c6ab3e794eb5948", final_draft_sha: "73fdb536c4c22fa3c0a864e28c6ab3e794eb5948", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}

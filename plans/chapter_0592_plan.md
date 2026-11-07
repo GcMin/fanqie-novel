@@ -6,8 +6,8 @@
 - status: planned
 - base_main_commit: 9ca1b1bedf317c3aa0486cca440b44ba66d87d68
 - depends_on_chapter: 591
-- depends_on_source_sha: 73fdb536c4c22fa3c0a864e28c6ab3e794eb5948
-- dependency_status: provisional
+- depends_on_source_sha: 565842415c6adb297111eb4dbb4adba09a06244b
+- dependency_status: verified_ready_same_title_body_facts
 
 ## Planner
 
@@ -32,6 +32,6 @@
 ## Continuity Precheck
 
 - 本轮从 GitHub main 9ca1b1bedf317c3aa0486cca440b44ba66d87d68 递归树重新核 published、ready、draft，最大章号591，第153章确在 published；计划与正文 0592 均不存在。
-- 直接前章 chapters/draft/0591.md 未经独立审核，完整 Git Blob SHA `73fdb536c4c22fa3c0a864e28c6ab3e794eb5948`，故 `dependency_status: provisional`；仅将Day454实证的房费登记待核、同点当日重复性、非破坏核查建议受理、住房到Day455午和现场隔离作为临时情节事实，绝不称正式Canon。
+- 直接前章 chapters/draft/0591.md 已完成独立审核，完整 Git Blob SHA `565842415c6adb297111eb4dbb4adba09a06244b`，故 `dependency_status: verified_ready_same_title_body_facts`；根据正式ready中Day454实证的房费登记待核、同点当日重复性、非破坏核查建议受理、住房到Day455午和现场隔离作为临时情节事实，绝不称正式Canon。
 - 已读取规定的最高规则、Bible/人物卡、卷与剧情弧、角色知识/世界/关系/伏笔时间线、最近十章摘要（581—590）和最近五章正文（587—591）；不读取历史 reader_reviews。
 - 仅 Writer 新建本章计划和首稿；不做Reader、Revision、QA、Memory、ready、published或平台发布，也不修改旧章节。

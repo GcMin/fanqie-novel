@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 590
-last_reviewed_title: "两晚房费有人付了，墙脚却多了一条上升线"
-last_source_path: chapters/draft/0590.md
-last_source_sha: 855dbcba0d6bb3f2a3b970a96ad1e6fa52088f8b
-last_review_path: reader_reviews/0590_855dbcba.md
+last_reviewed_chapter: 592
+last_reviewed_title: "原房到点退了，新房还没算入住"
+last_source_path: chapters/draft/0592.md
+last_source_sha: a650640c2932f3c1e5d71cd21bd2cc5d6b29533f
+last_review_path: reader_reviews/0592_a650640c.md
 last_reviewed_at: "2026-11-07"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 585
-depends_on_source_sha: dd9e4080dbd9ed3c224305fad22b2fba0fbdf51f
+depends_on_chapter: 591
+depends_on_source_sha: 565842415c6adb297111eb4dbb4adba09a06244b
 dependency_status: verified_ready_same_title_body_facts
-predecessor_current_source_sha: dd9e4080dbd9ed3c224305fad22b2fba0fbdf51f
+predecessor_current_source_sha: 565842415c6adb297111eb4dbb4adba09a06244b
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6737,4 +6737,43 @@ chapter_590_arc054_verified:
   dependency_status: verified_ready_same_title_body_facts
   char_count_corrected_from: 3085
   char_count_actual: 3094
+  structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_591_arc054_verified:
+  chapter: 591
+  title: "同一处量了三遍，结论还是不能签"
+  source_sha: "73fdb536c4c22fa3c0a864e28c6ab3e794eb5948"
+  review_path: reader_reviews/0591_73fdb536.md
+  reviewed_at: "2026-11-07"
+  reviewer_mode: independent_pass_a_then_pass_b_exact_git_blob
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "af9cd25589ea35ecd1a33f3059789188c7e95e79"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_success_required_before_main
+chapter_592_arc054_verified:
+  chapter: 592
+  title: "原房到点退了，新房还没算入住"
+  original_sha: "e8fdd938c4ff12cae2f466b2987e00a5b784f276"
+  source_sha: "a650640c2932f3c1e5d71cd21bd2cc5d6b29533f"
+  initial_review: reader_reviews/0592_e8fdd938.md
+  review_path: reader_reviews/0592_a650640c.md
+  reviewed_at: "2026-11-07"
+  reviewer_mode: independent_pass_a_then_pass_b_new_sha_after_stage_a_metadata_rebind
+  initial_counts: "0/1/2"
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_old_provisional_sha: "73fdb536c4c22fa3c0a864e28c6ab3e794eb5948"
+  predecessor_ready_sha: "565842415c6adb297111eb4dbb4adba09a06244b"
+  dependency_status: verified_ready_same_title_body_facts
   structural_gate: exact_candidate_ci_success_required_before_main

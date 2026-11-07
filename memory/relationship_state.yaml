@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 590
+last_updated_chapter: 592
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2994,3 +2994,17 @@ chapter_590_arc054_verified:
   mother_property: "母亲坚持绿色审批页不能当实款，也拒物业未落实即签安置延续完成；家庭垫付费用不冲销物业责任。"
   mother_professional: "新点比上日初值相对升高，工程员急于猜新漏和仓库备料，母亲与有责专业人员均拒无证定漏源/复装日期，保留原值和环境条件。"
   ma_yun_center: "马芸没有新旧案授权，只维护已实证的历史内部收发与待核原页，夜班记录无新证，不编造补据或旧当事人获答。"
+
+chapter_591_arc054_verified:
+  chapter: 591
+  source_sha: "73fdb536c4c22fa3c0a864e28c6ab3e794eb5948"
+  mother_daughter: "唐晓漫拒把个人垫付写成同意物业争议结案；母亲通过独立待核费用受理，减少工作日即时发送每次测量表，约定仅住房/安全决定及时打电话。"
+  mother_property_professional: "物业旧费用表带争议完结被母亲拒签，主管开放不带完结条款受理；专业负责人拒按三次高相对值批准工程或五楼无限复水，工程员不得据此安排复装。"
+  ma_yun_center: "马芸只依新窄申请取得受理号，夜班不把新申请算历史原页已核或自然人收到正式答复。"
+chapter_592_arc054_verified:
+  chapter: 592
+  source_sha: "a650640c2932f3c1e5d71cd21bd2cc5d6b29533f"
+  mother_daughter: "女儿主动在重要搬迁阶段赶来而不替母亲无限请假，实地检查新房可达通道、两张卡并帮忙搬箱；母亲准确讲明旧房退、新房入、旧家仍不能返住三个不同状态。"
+  mother_property: "母亲拒锦栈纸面可达与物业提前假已入住，促物业具名按13:07实际入住更正，真正履责只认河安收款与现场交付。"
+  mother_professional: "母亲搬迁当日无需现场出现，专业负责人仅合法核既有供水时间记录，不以时差向母亲或其他住户宣称已排除漏源。"
+  ma_yun_center: "2019旧档办理类别申请仍待准阅，夏宁和梁策依去身份边界不填不存在的历史个人答复。"
