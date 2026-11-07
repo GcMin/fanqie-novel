@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 586
+last_updated_chapter: 587
 characters:
   zhou_heng:
     knows:
@@ -3416,3 +3416,17 @@ chapter_586_arc054_verified:
     knows: "Day449四楼外封三段编号可核和开封申请受理但薄件未开；历史内部待办真转期而非结案。"
     unknown: "不能把编号对应当内页签认/工程许可，不能把2019转登当原业务回函或自然人真收。"
   shared_invariants: "前585正式ready SHA dd9e4080dbd9ed3c224305fad22b2fba0fbdf51f 已核标题和正文与旧draft逐字相同；F003仅有界推进，F008/M004/M005未证。"
+
+chapter_587_arc054_verified:
+  chapter: 587
+  source_sha: "5f01c7309acc02200f1395ebef3a353e070ab86e"
+  mother_daughter:
+    knows: "Day450 10:26物业实付泊晨三夜至Day453午、双卡真试；封套内两页仅资料移交和保管岗位收件签名，本封套不是本户施工技术签认，非破坏复核范围仅送审，现场不准扩拆复电返住。"
+    unknown: "其他档案是否存在真正四楼施工交接签认、灰衬实际安全做法及何时施工复居；旧母亲房费押金女儿车费最终赔偿。"
+  ma_yun:
+    knows: "2019内部跨期待补核新号之后真正有一笔待来源材料补对照催办登记，不是向材料形成岗的已实发文。"
+    unknown: "原件归属实质补据、外部发送及历史本人是否真正获答、旧散页封签袋今存与原第73页。"
+  center_team:
+    knows: "Day450物业续住三夜已真实到账；四楼薄件实开只有保管收讫且重封，新非破坏核验仅送审；2019内部催办真实登记。"
+    unknown: "不把内页保管签名当施工许可，不把催办当正式回函/历史本人收答，不知旧散页袋今址与2016/2022同一。"
+  shared_invariants: "前586正式ready精确SHA匹配；F003只是内部真实催办不证实质归属，F008/M004/M005及2016/2022同一无新增。"

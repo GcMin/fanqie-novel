@@ -6659,3 +6659,21 @@ chapter_584_arc054_verified:
   predecessor_ready_sha: "e4456a18f7f8cab1e6582f9deb85e91b14cce201"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_587_arc054_verified:
+  chapter: 587
+  title: "封套打开了，签认不在这一页"
+  source_sha: "5f01c7309acc02200f1395ebef3a353e070ab86e"
+  review_path: reader_reviews/0587_5f01c730.md
+  reviewed_at: "2026-11-07"
+  reviewer_mode: independent_pass_a_then_pass_b_exact_git_blob
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "c85dd7374d15ab3c5ff2ff039f1c8e60fa877712"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_success_required_before_main
