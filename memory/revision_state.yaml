@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 589
-current_stage: chapter589_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0589.md
-current_source_sha: fa7a9e990d524ae18c86aad9a7cf952354d00a2e
-current_review_path: reader_reviews/0589_fa7a9e99.md
+current_chapter: 590
+current_stage: chapter590_stage_a_new_sha_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0590.md
+current_source_sha: 855dbcba0d6bb3f2a3b970a96ad1e6fa52088f8b
+current_review_path: reader_reviews/0590_855dbcba.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -5947,4 +5947,23 @@ chapter_589_arc054_verified:
   content_qa: pass
   predecessor_ready_sha: "321c06acfdc062004a5c10b98b0762420b3ffeaf"
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_success_required_before_main
+chapter_590_arc054_verified:
+  chapter: 590
+  original_sha: "7f086c6a470552ca929ecadaaaff84baee4e14cd"
+  final_draft_sha: "855dbcba0d6bb3f2a3b970a96ad1e6fa52088f8b"
+  stage: local_revision_metadata_only
+  fix: "rebind_589_provisional_to_formal_ready_after_exact_title_body_comparison; correct_char_count_3085_to_3094_by_normalized"
+  stage_a_rounds: 1
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  initial_review: reader_reviews/0590_7f086c6a.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  review_after: reader_reviews/0590_855dbcba.md
+  final_reader: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  predecessor_old_sha: "fa7a9e990d524ae18c86aad9a7cf952354d00a2e"
+  predecessor_ready_sha: "0d4cdc5433759035923e92193a288827f383bb80"
+  dependency_status: verified_ready_same_title_body_facts
   structural_gate: exact_candidate_ci_success_required_before_main
