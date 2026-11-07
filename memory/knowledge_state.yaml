@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 588
+last_updated_chapter: 589
 characters:
   zhou_heng:
     knows:
@@ -3444,3 +3444,16 @@ chapter_588_arc054_verified:
     knows: "本次非破坏现场核验完成，仅一测点可比、其余两处不可直接比较且电气隔离仍在；旧案新号下一笔材料页次核问真发但不知目的岗实收。"
     unknown: "不能把现场核数据当房屋合格、不能把内部单端发文当历史自然人收到答复；F008/M004/M005未证。"
   shared_invariants: "前587原草稿与正式ready标题和正文逐字相同，本章Stage A仅重绑587正式ready SHA e99cb765ecf9199f0e72ecb63a3214a36c0a8e3f；房费真付仅到Day453午；四楼现场不得复装送电返住，2019档案未知边界保持。"
+chapter_589_arc054_verified:
+  chapter: 589
+  source_sha: "fa7a9e990d524ae18c86aad9a7cf952354d00a2e"
+  mother_daughter:
+    knows: "Day452泊晨物业真付仍到Day453午，新延住申请尚未实付；四楼经准许确有原一号与同材新点两处可复测基准初值，旧二三点不可直接当下降趋势，整屋未准返住。"
+    unknown: "次日新房费能否支付和房态是否保留，真实漏源及未来技术修复许可、个人旧费押金车费赔责。"
+  ma_yun:
+    knows: "2019跨期待补核新号下材料页次核问从发端真发到形成岗真收有原簿双端对应，原收文类别待核原页。"
+    unknown: "实际原页补全、旧散页袋今址和第73页、历史自然人是否获答、2016/2022是否同一源。"
+  center_team:
+    knows: "Day452两处可重复定位砂浆初测不代表全墙干燥；2019核问目标岗实收不代表实质补据或自然人已得回函。"
+    unknown: "复装复电整屋返住条件、后续档案补据处理及2016/2022跨源同一。"
+  shared_invariants: "本章精确依赖588正式ready SHA321c06acfdc062004a5c10b98b0762420b3ffeaf；四楼原口受水电路旧饰板和F003/F008/M004/M005边界不变。"
