@@ -6,8 +6,8 @@
 - status: planned
 - base_main_commit: 702773029e0b55c3ebceb3a27d9c55dc0f1a51a5
 - depends_on_chapter: 585
-- depends_on_source_sha: 88d74679cdb7adac8dc1e7fdbcd9e7a6f6cb23fc
-- dependency_status: provisional
+- depends_on_source_sha: dd9e4080dbd9ed3c224305fad22b2fba0fbdf51f
+- dependency_status: verified_ready_same_title_body_facts
 
 ## Planner
 - **目标**：给第585章已证的未启封外保管薄件补上旧号到现号的双源对照，只把保护性开封推进到受理；以二〇一九年跨期转登实证解决限定区间查无发文的歧义，却不借内部转登冒充历史个人获答。安排母女在住房付期内各自承担下一日行动。
@@ -29,3 +29,7 @@
 - 第585章仍为未审草稿 `chapters/draft/0585.md`，完整Git Blob 88d74679cdb7adac8dc1e7fdbcd9e7a6f6cb23fc。本章仅按其Day448物业11:22实付两夜至Day450午、16:03未启封外封薄件、2019拟回送原限定发文区间未见实发等事实作**临时依赖**，并非正式Canon。
 - 第584章ready对应已正式获审，前585如被修订须由独立审核者比较586依赖关键事实，Writer不回改已存在稿。
 - 只创建本章plan与draft；不写Memory、Review、Revision、QA、ready、published，也不发往番茄。
+
+## Audit Stage A 2026-11-07
+- 第585章原Draft blob 88d74679cdb7adac8dc1e7fdbcd9e7a6f6cb23fc 与正式ready blob dd9e4080dbd9ed3c224305fad22b2fba0fbdf51f 的标题/小说正文逐字相同，仅Front Matter交付元数据不同。故依赖重绑至正式ready，不存在正文事实差异。
+- 原586一处Day449晚间“比上个月短”与Day440搬到泊晨相隔不足十天，Stage A仅改成“比前几天短”，角色行为不变；原始Reader见reader_reviews/0586_3ee3059d.md。
