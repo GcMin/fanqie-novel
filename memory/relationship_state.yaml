@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 597
+last_updated_chapter: 599
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3051,3 +3051,20 @@ chapter_597_arc054_verified:
   mother_professional_property: "母亲只要可核图号并明确未签施工，专业负责人责令工程员撤回按图复装草稿并留原始版本；群图不凭口头来源成责任定性。"
   mother_fifth_floor: "不将2021预留图示反向解释为五楼住户私接或免责结论，尊重有限供水与隐私。"
   center_team: "夏宁分费用真实收付，周衡分2021图纸与实物边界，梁策保留整屋禁返住、有限复水及未批准作业。"
+
+
+chapter_598_arc054_verified:
+  chapter: 598
+  source_sha: "a8b6997a8084b5707e9cfe0c98646b1a0f1167aa"
+  mother_daughter: "母亲自行打理河安做饭缝毛衣，女儿仅在紧要住期或本人垫资问题介入，互相尊重工作时间。"
+  mother_professional: "专业负责人不因附页图示让住户承担未经证实的私接责任，母亲要求回告保留完整‘现场另核’语境。"
+  mother_fifth_floor: "五楼住户删除指控消息，母亲亦不凭封堵符号反向指认邻户，有限用水边界不变。"
+  center_team: "夏宁、周衡、梁策只把合法附页和申请状态分栏，拒以图示代替实际施工证据。"
+
+chapter_599_arc054_verified:
+  chapter: 599
+  source_sha: "080407fd8b05b0b1a1a053f17a196ed9ff1d110f"
+  mother_daughter: "母亲自主核备用自费选项但物业最终真付，唐晓漫继续工作并保留独立旧垫款证据。"
+  mother_property: "母亲拒签旧房安置处置总确认，物业改出只记新两夜真实付款的有限收讫。"
+  mother_professional_fifth_floor: "工程负责人拒工程员扩大至四楼或让五楼住户试水，住户接受只陈述限定量测事实的书面告知。"
+  center_team: "夜间中心维持住房付款、工程测量、历史档案三类证据不混用的协作。"

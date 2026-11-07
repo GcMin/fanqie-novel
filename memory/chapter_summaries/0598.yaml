@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 598
+title: "附页画着封头，现场却不能照认"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "a8b6997a8084b5707e9cfe0c98646b1a0f1167aa"
+reader_review: "reader_reviews/0598_a8b6997a.md"
+depends_on_chapter: 597
+depends_on_source_sha: "31ea09d1562e56517f45254484eb8947b9b4ca03"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day461 08:20—Day462 07:08"
+summary: >-
+  Day461河安母亲住物业实际付款截至Day462中午的首层双床，两房卡有效但之后未续；女儿泊晨Day453—455本人两夜原电子收据补发仅经办收件，无核赔退款。2021移交节点图的设备关联附页Day461 10:07核实同批真实存在，10:41去身份准阅，11:26真正查到“临时封堵端”图示及现场移交须另核交接记录的限定语；版本说明后日期只是档案归并，不等于现场改接。不能证明现场实际曾封或启封、现灰管与图示同一、安装时间、功能、漏源或责任。五楼住户删掉无证指责消息并要求有限书面回告，13:58测量岗建议公共可达部位非破坏固定尺度方案，15:19新申请仅收件未准执行。母亲缝旧毛衣、20:36本人回拨，Day462 07:08交班；四楼原12cm口父亲旧板独封、客厅原一照明限用其余受水回路隔离整屋禁返住、五楼有限复水均不变。2019 F003只内部核问双端真发真收，原73页旧袋今址实质补据历史自然人受答未知，F008/M004/M005不升级。
+meaningful_state_changes:
+  - "2021关联附页获去身份合法真阅，证图面临时封堵端及现场另核交接的要求而非实物封堵事实。"
+  - "公共固定尺度非破坏方案形成并有真实受理号，尚未经现场执行审批；五楼住户不转发无证责任推断。"
+knowledge_updates:
+  - "母亲、五楼住户与工程专业岗知道图示和现场实物证据分离，仍未知灰管功能、成因、封启记录。"
+relationship_updates:
+  - "母女保持工作生活自主；专业负责人保护五楼住户不受无证归责。"
+foreshadowing_updates:
+  - "F003旧案没有实质新证，不与当代楼宇图纸串证。"
+ending_state: "Day462 07:08河安两卡实付期限仅到当天中午，公共测量仍待批准，四楼不得返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "a8b6997a8084b5707e9cfe0c98646b1a0f1167aa", final_draft_sha: "a8b6997a8084b5707e9cfe0c98646b1a0f1167aa", stage_a_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3059

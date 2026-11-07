@@ -1,3 +1,14 @@
+## 第599章 ARC-054 Stage A新SHA独立Reader/QA/Memory｜2026-11-08（候选结构CI待核）
+- 初稿599 SHA 4de0f8086eba24174e6de765be1a0636f6e950f6初审0/1/2：依赖598临时SHA。逐字比较598原草稿a8b6997a8084b5707e9cfe0c98646b1a0f1167aa与拟正式ready SHA 1c1deaacf8d8c8c6562b6eab70d92b47196fe87b，标题与小说正文完全相同仅交付元数据差异。Stage A仅修改599前章依赖元数据和详细章纲，小说正文0字变动；新599草稿SHA 080407fd8b05b0b1a1a053f17a196ed9ff1d110f，重新独立Pass A/Pass B Reader 0/0/2 keep/none，Continuity/Style/Meaningful QA PASS，3146有效字符。
+- Day462 11:06河安物业真付原首层双床再两夜至Day464午、11:12两张卡真试开，仅本次住宿实收确认；泊晨女儿Day453—455个人垫付两夜仍经办待核无赔付。10:28公共位有条件测量批准、11:13范围人员核妥、13:47—15:08真实限项量测；图示缺统一固定基准或高程，不能证图上临时封堵端与灰侧管实物同一，功能、启封、漏源、责任仍未证。
+- 四楼原12cm墙口、父亲旧板独封、客厅单照明有限用其余受水回路隔离整屋禁返住、五楼有限复水不变；2019旧案仅材料页次核问内部双端收发，第73页/旧袋今址/历史真人受答未知；F008/M004/M005不升级。Day463 07:06交班，下一步寻有来源竣工实测或正式变更记录。
+- 内容QA不代替候选精确Git提交的check_local和unittest；真实CI成功才可expected_sha/force:false迁main ready。
+
+## 第598章 ARC-054 独立Reader/QA/Memory｜2026-11-08（候选结构CI待核）
+- 原草稿598 SHA a8b6997a8084b5707e9cfe0c98646b1a0f1167aa，前597 ready SHA 31ea09d1562e56517f45254484eb8947b9b4ca03精确依赖；独立Pass A后再Pass B，Reader 0/0/2 keep/none，正文0字修改，3059有效字符。Continuity/Style/Meaningful QA PASS。
+- Day461有责档案岗10:41真正准阅2021设备附页，11:26获“临时封堵端”图例及另核交接备注；只证图示不证实体曾封启、灰管同一、用途责任漏源。13:58仅有不触碰管件公共固定尺度非破坏方案建议、15:19真受理但未批现场执行；五楼住户撤无证私接指责。河安物业真款仅到Day462中午，女儿泊晨原两夜个人垫款仍经办待核。四楼禁返住、电气隔离、旧口与旧板独封、五楼有限复水照旧；F003历史第73页和旧袋/真人受答无新证。Day462 07:08交班。
+- 内容QA不代替候选精确Git提交的check_local和unittest；真实CI成功才可迁main ready。
+
 ## 第597章 ARC-054 独立Reader、Continuity/Style QA与长期状态｜2026-11-08（精确候选结构CI待核）
 - Draft Blob `cf1432a17302210eb2fc3a1a9d88d61f713792c7`；前596章ready Blob `27f8c4b40457320ceb589c7d9bd27f0bdbe9f08d` 精确匹配；Reader先普通读者Pass A后Canon与状态Pass B，0 BLOCKER / 0 MAJOR / 2 MINOR，keep/none，无Revision；有效字符3357。独立Continuity、Style及Meaningful QA PASS；见`reader_reviews/0597_cf1432a1.md`和`qa/0597_report.md`。
 - Day460河安物业Day459续三夜真实款到Day462午双卡实试，女儿泊晨Day453—455两夜个人实付仍经办复核无赔付；母亲在短住处挂衣买菜减少每日等待续费。

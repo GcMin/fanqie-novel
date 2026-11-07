@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 599
+title: "尺寸量出来了，接口仍没对上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "080407fd8b05b0b1a1a053f17a196ed9ff1d110f"
+reader_review: "reader_reviews/0599_080407fd.md"
+depends_on_chapter: 598
+depends_on_source_sha: "1c1deaacf8d8c8c6562b6eab70d92b47196fe87b"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day462 08:12—Day463 07:06"
+summary: >-
+  Day462母亲在河安先核原首层双床房态和自主一夜自费备选，11:06物业向河安收银端真正续付Day462中午至Day464中午两夜，11:12两卡试开；她只签本次住宿收讫拒签包含旧房处置完结的总确认；唐晓漫Day453—455泊晨两夜个人垫款仍仅经办待核无退赔。Day461公共非破坏测量只有申请受理，Day462 10:28责任岗有条件批准，11:13确认人员范围，13:47—15:08在五楼公共可达位置合法取得墙边、观察窗框和支架可见端相对尺度及拍摄方位原始记录；但2021图只有构造示意和预留接口标注，缺统一尺度基准和高程，仍不能认图示“临时封堵端”与现灰色侧接同一。2021同批目录只是图纸文件交付保管，不是实物封堵验收；下一步查是否有有源竣工实测或正式变更。没有试水转阀拆管进户或扩大四楼旧口。五楼有限复水、四楼原12cm口父亲旧板独封、客厅单照明限用其余受水电路隔离整屋禁返住均不变；20:38母亲真人回拨，Day463 07:06交班。F003历史第73页、旧袋今址或真人获答无新证，当代图不串证F008/M004/M005。
+meaningful_state_changes:
+  - "河安物业真实付款接续两夜并两卡实际开门，有效至Day464中午。"
+  - "公共可达几何尺度经批准实测归档，明确历史图缺共同基准，下一步只能查真实竣工实测或变更。"
+knowledge_updates:
+  - "专业岗与母女知道本次真实测得可见位置距离，但不能凭此确认管道身份、启封日期或漏源。"
+relationship_updates:
+  - "母亲拒打包赔责结案，尊重女儿个人垫资与上班；五楼住户仅接受有限去隐私实测告知。"
+foreshadowing_updates:
+  - "F003内部核问仍只真发真收不证原页补齐旧袋今址历史人受答，F008/M004/M005没有确证。"
+ending_state: "Day463 07:06河安物业付至Day464午且两卡有效，历史图实尚未建立共同尺度基准，四楼禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "4de0f8086eba24174e6de765be1a0636f6e950f6", final_draft_sha: "080407fd8b05b0b1a1a053f17a196ed9ff1d110f", stage_a_used: 1, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3146

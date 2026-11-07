@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 597
-current_stage: chapter597_unmodified_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0597.md
-current_source_sha: cf1432a17302210eb2fc3a1a9d88d61f713792c7
-current_review_path: reader_reviews/0597_cf1432a1.md
+current_chapter: 599
+current_stage: chapter599_stage_a_rebind_new_sha_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0599.md
+current_source_sha: 080407fd8b05b0b1a1a053f17a196ed9ff1d110f
+current_review_path: reader_reviews/0599_080407fd.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter597_no_revision_reader_0_0_2_qa_pass
+last_action: chapter599_stage_a_metadata_only_new_sha_reader_0_0_2_qa_pass
 last_action_date: "2026-11-08"
 last_error: null
-last_diff_summary: "原稿保持不变；前596章正式readySHA精确依赖；Reader_0_0_2与独立内容QA_PASS，结构候选CI待验证。"
+last_diff_summary: "599仅Front Matter和章纲重绑前598正式readySHA，正文0字改变；初审0/1/2、改后新SHA复审0/0/2，结构候选CI待核。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: cf1432a17302210eb2fc3a1a9d88d61f713792c7
+current_review_source_sha: 080407fd8b05b0b1a1a053f17a196ed9ff1d110f
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6070,4 +6070,36 @@ chapter_597_arc054_verified:
   qa_gate: pass
   predecessor_ready_sha: "27f8c4b40457320ceb589c7d9bd27f0bdbe9f08d"
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_598_arc054_verified:
+  chapter: 598
+  source_before: "a8b6997a8084b5707e9cfe0c98646b1a0f1167aa"
+  source_after: "a8b6997a8084b5707e9cfe0c98646b1a0f1167aa"
+  stage: no_revision_needed
+  stage_a_rounds: 0
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  review_after: reader_reviews/0598_a8b6997a.md
+  reader_counts: "0/0/2"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_599_arc054_verified:
+  chapter: 599
+  source_before: "4de0f8086eba24174e6de765be1a0636f6e950f6"
+  source_after: "080407fd8b05b0b1a1a053f17a196ed9ff1d110f"
+  stage: local_revision_metadata_only
+  stage_a_rounds: 1
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  initial_review: reader_reviews/0599_4de0f808.md
+  review_after: reader_reviews/0599_080407fd.md
+  initial_counts: "0/1/2"
+  reader_counts: "0/0/2"
+  fix: "598原稿与正式ready全部小说正文和标题相同，仅交付元数据不同；599元数据及章纲重绑前598正式ready SHA"
+  predecessor_ready_sha: "1c1deaacf8d8c8c6562b6eab70d92b47196fe87b"
+  content_qa: pass
   structural_gate: exact_candidate_ci_success_required_before_main

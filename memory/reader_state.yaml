@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 597
-last_reviewed_title: "图上有个接口，水从哪来仍没写"
-last_source_path: chapters/draft/0597.md
-last_source_sha: cf1432a17302210eb2fc3a1a9d88d61f713792c7
-last_review_path: reader_reviews/0597_cf1432a1.md
+last_reviewed_chapter: 599
+last_reviewed_title: "尺寸量出来了，接口仍没对上"
+last_source_path: chapters/draft/0599.md
+last_source_sha: 080407fd8b05b0b1a1a053f17a196ed9ff1d110f
+last_review_path: reader_reviews/0599_080407fd.md
 last_reviewed_at: "2026-11-08"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 596
-depends_on_source_sha: 27f8c4b40457320ceb589c7d9bd27f0bdbe9f08d
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 27f8c4b40457320ceb589c7d9bd27f0bdbe9f08d
+depends_on_chapter: 598
+depends_on_source_sha: 1c1deaacf8d8c8c6562b6eab70d92b47196fe87b
+dependency_status: verified_ready_same_title_body_facts
+predecessor_current_source_sha: 1c1deaacf8d8c8c6562b6eab70d92b47196fe87b
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6863,4 +6863,32 @@ chapter_597_arc054_verified:
   dependency_status: verified_exact_ready_blob
   predecessor_ready_sha: "27f8c4b40457320ceb589c7d9bd27f0bdbe9f08d"
   content_qa: pass
+  structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_598_arc054_verified:
+  chapter: 598
+  source_sha: "a8b6997a8084b5707e9cfe0c98646b1a0f1167aa"
+  review_path: reader_reviews/0598_a8b6997a.md
+  pass_a_then_pass_b: true
+  counts: "0/0/2"
+  reader_gate: pass
+  content_qa: pass
+  predecessor_ready_sha: "31ea09d1562e56517f45254484eb8947b9b4ca03"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_599_arc054_verified:
+  chapter: 599
+  original_sha: "4de0f8086eba24174e6de765be1a0636f6e950f6"
+  source_sha: "080407fd8b05b0b1a1a053f17a196ed9ff1d110f"
+  initial_review: reader_reviews/0599_4de0f808.md
+  review_path: reader_reviews/0599_080407fd.md
+  pass_a_then_pass_b_new_sha: true
+  initial_counts: "0/1/2"
+  counts: "0/0/2"
+  reader_gate: pass
+  content_qa: pass
+  predecessor_old_provisional_sha: "a8b6997a8084b5707e9cfe0c98646b1a0f1167aa"
+  predecessor_ready_sha: "1c1deaacf8d8c8c6562b6eab70d92b47196fe87b"
+  dependency_status: verified_ready_same_title_body_facts
   structural_gate: exact_candidate_ci_success_required_before_main

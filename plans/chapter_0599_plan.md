@@ -6,8 +6,8 @@
 - status: planned
 - base_main_commit: 79a88baa7e02cdcd45b2f12f0b2b67625a4dcded
 - depends_on_chapter: 598
-- depends_on_source_sha: a8b6997a8084b5707e9cfe0c98646b1a0f1167aa
-- dependency_status: provisional
+- depends_on_source_sha: 1c1deaacf8d8c8c6562b6eab70d92b47196fe87b
+- dependency_status: verified_ready_same_title_body_facts
 
 ## Planner
 
@@ -32,6 +32,11 @@
 ## Continuity Precheck
 
 - 本轮从最新main SHA 79a88baa7e02cdcd45b2f12f0b2b67625a4dcded核 published、ready、draft；153确在published，最大编号598在draft，599此前不存在，计划与草稿目标文件均不存在。
-- 本章依赖598未审draft，完整Git blob SHA a8b6997a8084b5707e9cfe0c98646b1a0f1167aa；只将“图上封堵端不证现物状态、河安已付到Day462午、公共测量未获许可、旧费用未核赔”等第598章特定文本作 provisional 参考，未提升为正式Canon。若598审核修订，交独立Audit核后章兼容性。
+- 本章依赖598未审draft，完整Git blob SHA 1c1deaacf8d8c8c6562b6eab70d92b47196fe87b；只将“图上封堵端不证现物状态、河安已付到Day462午、公共测量未获许可、旧费用未核赔”等第598章特定文本作 provisional 参考，未提升为正式Canon。若598审核修订，交独立Audit核后章兼容性。
 - 重读Writer规则、Bible、现行人物卡、卷与arc及ARC054当前记忆、人物与知识、关系、世界、时间、伏笔、588—597章摘要、594—598五章全文；未读历史reader_reviews。
 - 本轮只创建一份章纲和一份新章草稿；不操作Reader/Revision/QA/Memory/Publish Gate/番茄发布。
+
+## Revision Stage A / Audit 2026-11-08
+
+- 598 原临时草稿 SHA `a8b6997a8084b5707e9cfe0c98646b1a0f1167aa` 与正式 ready SHA `1c1deaacf8d8c8c6562b6eab70d92b47196fe87b` 的小说标题及全部正文逐字一致，仅 Front Matter 交付元数据不同；对598所依赖的时间、知识、事实边界无改变。
+- Stage A 仅重新绑定本详细计划和599 Front Matter的前章 SHA；未修改小说正文。599 新草稿 SHA `080407fd8b05b0b1a1a053f17a196ed9ff1d110f`，已独立重新 Pass A / Pass B Reader 0/0/2 并完成 Continuity/Style/Meaningful QA；迁入ready仍须精确候选结构CI成功。
