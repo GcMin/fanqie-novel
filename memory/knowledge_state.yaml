@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 579
+last_updated_chapter: 580
 characters:
   zhou_heng:
     knows:
@@ -3318,3 +3318,17 @@ chapter_579_arc054_verified:
     knows: "母亲本人回拨核证真实撤车、调图受理、次夜未付；马芸去身份摘录核2019回文岗位双端交接。"
     unknown: "未授权施工及历史补核/实体封袋，不能将岗位收件当自然人答复。"
   shared_invariants: "第578章正式ready SHA ea8ed68d6608d28c333f1d1fbb84fcdeb09e6c53与579依赖完全匹配；F003不升级旧纸实质补据/历史个人答复，F008/M004/M005、2016/2022字节跨源同一不确证。"
+
+chapter_580_arc054_verified:
+  chapter: 580
+  source_sha: "137174a77eee8b992d33b8d307d2dc233e6f5bf2"
+  mother_daughter:
+    knows: "Day443 11:16泊晨真实收到物业一夜续款且双卡延至Day444中午；旧梧楠路误地址已纠、以前本人垫款和赔责未核销；真正原总图与变更目录指不同细部版本而变更细部未调出；已取消的板材排程没有复活。"
+    unknown: "下一夜续款是否支付、本户灰薄衬设计用途/适用图版本、漏源干燥与复装复电整屋返住许可。"
+  ma_yun:
+    knows: "2019同号退回核对回文原拟办岗真收之后，当年原拟办岗原交转簿真实记有向材料形成岗交出一件来源材料再核。"
+    unknown: "材料形成岗是否实际收到及处理/补据的实质内容，旧袋今址、原第73页、历史自然人真获答，另一补正通知不能混入。"
+  center_team:
+    knows: "依母亲本人20:38回拨及马芸22:19去身份摘录知泊晨真实收款、工程仅得版本索引和2019再核单端交出。"
+    unknown: "无权以索引替代施工安全或以2019交出替目标岗签收/历史自然人受答。"
+  shared_invariants: "第579章正式ready Blob d48888dfa2f3e3e7138b4ff25346dca15a7eae65与本章依赖精确一致；F008/M004/M005、2016/2022跨源同一无新增确证。"
