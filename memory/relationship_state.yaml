@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 588
+last_updated_chapter: 589
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -2980,3 +2980,10 @@ chapter_588_arc054_verified:
   mother_property: "物业工程员错发群称资料基本齐全拟复装，专业负责人要求撤回并保留原消息记录后发正式澄清，未获准封板。"
   mother_professional: "有责专业按10:49有限许可执行原12cm口内非破坏测点核验；只留一号可比条件及两处不可比原读数，电气专业只检查原隔离不送电，母亲不要求强做下降曲线或当日贴新点扩范围。"
   ma_yun_center: "马芸按2019新号原发簿严格限项证一笔材料页次核问真发，不宣称材料形成岗收到或历史真人有答；中心独立核纸面边界。"
+chapter_589_arc054_verified:
+  chapter: 589
+  source_sha: "fa7a9e990d524ae18c86aad9a7cf952354d00a2e"
+  mother_daughter: "唐晓漫提出可自愿按实际价钱帮付次日住费，母亲愿先核房价及可售条件不再本能拒绝；双方不代替对方签工程或全局赔责。"
+  mother_property: "物业只传已上传延住申请而未新增实款，母亲依泊晨前台真收和现有房态核未来住宿，不按群中呈批作已落实。"
+  mother_professional: "工程员旧三点下降简图经专业责令纠正并留原记录，母亲发现点位近景遮住螺钉孔要求补拍，专业人员留废影像，母亲仅签知悉测量。"
+  ma_yun_center: "马芸依法限定查2019形成岗实际收文和待核原页不越权读补据，夜班对旧案阶段只记录岗位真收，不填结案与自然人获答。"
