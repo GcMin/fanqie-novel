@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 593
+title: "新住处的门能开，旧房的账还没认"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "40a5ec9ae66412956bdd4b0968fd481ab73e2f6f"
+reader_review: "reader_reviews/0593_40a5ec9a.md"
+depends_on_chapter: 592
+depends_on_source_sha: "3cc3208b0952f04325c88d960dbe492a286fcbf2"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day456 08:14—Day457 07:04"
+summary: >-
+  Day456母亲在河安首层双床真实入住后的第一晨8:14复核两张房卡及物业已真付仅到Day457午，女儿正常去工作，两人约定普通进度晚间沟通。9:26物业跨住处住宿汇总把河安Day455午—Day457午两夜物业直付绿色完成与此前泊晨Day453午—Day455午女儿唐晓漫个人实付两夜错误归并、隐藏付款人；原Day454独立待核编号/凭据仍在。母亲10:47取得更正受理联，15:21新版本真正恢复泊晨个人付款独立列示、保留原查询编号，河安物业直付另列，但没有退款、实际核付、全局赔责结案。仁合里四楼11:00仅依法核两组图号及Day453时标，发现五楼受控供水支路阀组与竖向排水管线是不同技术系统；13:42专业形成限项资料核对记录，并分别提出已许可阀组现场标识对照和公共可达排水非破坏查验两项待审申请，均未获现场执行许可、未进户开阀破拆或定位漏源。四楼原12cm口、父亲短铅笔线饰板独封、客厅原一照明限用其他受水线路隔离整屋禁返住及五楼有限复水不变。马芸2019材料形成岗办理类别申请无新准阅，先前跨期材料页次核问仅内部原端真发目标端真收，原页是否补齐、旧散页封袋今址第73页、历史自然人获答及2016/2022同源未证；F008/M004/M005不升级。20:34母亲本人回拨中心，Day457 07:04分项交班；下一夜河安续住房款未确认。
+meaningful_state_changes:
+  - "Day456 15:21跨住处费用汇总真实更正女儿原泊晨个人两晚付款人并保留原Day454待核编号，未赔付。"
+  - "Day456 13:42图纸与记录分清供水阀组和排水管线两类不同对象，形成两项待审批现场核查问题，无执行许可。"
+  - "母女在河安形成重要安全住房决定即时联络、一般事项晚间交换的新生活协作。"
+knowledge_updates:
+  - "母女知河安物业真付只到Day457午，泊晨女儿个人两夜待核记录被恢复显示但并未退款，下一夜无实款。"
+  - "专业岗与夜班只知供水、排水两组原图不同并须分别审批，不知实际管线或漏水原因；四楼禁返住。"
+  - "马芸仍未得新旧案准阅，不知2019实质补页、第73页及旧案自然人是否收到答复。"
+relationship_updates:
+  - "母亲不要求女儿频繁中断工作，两人用明确凭据沟通；物业经办人承认原汇总误导并真实补回付款来源，但拒无权即刻核付。"
+  - "工程专业人员拒将图号和供水时标当漏源与现场作业许可，母亲不逼五楼其他住户无凭据停水。"
+foreshadowing_updates:
+  - "F003只有内部历史材料页次核问双端真实收发，后续处理/历史个人受答及旧袋第73页未知；F008/M004/M005和2016/2022同源未证。"
+ending_state: "Day457 07:04母亲住河安、物业真款只到当日中午，女儿泊晨两晚个人款恢复独立待核但未获赔付；四楼两类管线核查拟申请未准，整屋仍不能返住，2019历史事实边界未升级。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "40a5ec9ae66412956bdd4b0968fd481ab73e2f6f", final_draft_sha: "40a5ec9ae66412956bdd4b0968fd481ab73e2f6f", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3438

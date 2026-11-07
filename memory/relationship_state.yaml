@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 592
+last_updated_chapter: 593
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3008,3 +3008,12 @@ chapter_592_arc054_verified:
   mother_property: "母亲拒锦栈纸面可达与物业提前假已入住，促物业具名按13:07实际入住更正，真正履责只认河安收款与现场交付。"
   mother_professional: "母亲搬迁当日无需现场出现，专业负责人仅合法核既有供水时间记录，不以时差向母亲或其他住户宣称已排除漏源。"
   ma_yun_center: "2019旧档办理类别申请仍待准阅，夏宁和梁策依去身份边界不填不存在的历史个人答复。"
+
+chapter_593_arc054_verified:
+  chapter: 593
+  source_sha: "40a5ec9ae66412956bdd4b0968fd481ab73e2f6f"
+  mother_daughter: "女儿要求母亲问清更正是否真写入而非催款，母亲在河安休息不因每张新表重返旧房，母女分清住房安全紧急电话与普通晚间交流。"
+  mother_property: "母亲保存09:26错误费用汇总，促经办人15:21恢复女儿原付款人且不混河安物业直付，不接受未核赔却表示已赔完。"
+  mother_professional: "专业岗把一个笼统查漏源请求分成两种不同管线的有限申请；母亲支持不无凭据对五楼开阀停水、工程员不再将纸面图当施工批准。"
+  ma_yun_center: "旧案没有新准阅，马芸及夜班不因当代费用更正推出历史补据或自然人受答。"
+

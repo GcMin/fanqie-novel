@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 592
+last_updated_chapter: 593
 characters:
   zhou_heng:
     knows:
@@ -3495,3 +3495,17 @@ chapter_592_arc054_verified:
   center_team:
     knows: "母亲晚间河安真人回拨，11:42泊晨退房、12:27第二辆车真载客、13:07河安真入住；专业只核时序差不能排漏源。"
     unknown: "五楼其他管道/旧滞水因果、进一步核查是否批；F008/M004/M005及2016/2022同源无新证。"
+
+chapter_593_arc054_verified:
+  chapter: 593
+  source_sha: "40a5ec9ae66412956bdd4b0968fd481ab73e2f6f"
+  mother_daughter:
+    knows: "河安首层真住、物业两夜实款只到Day457午；女儿泊晨两夜来源经15:21已恢复独立列示，仍仅Day454待核未退款；两类管线核查只拟送审。"
+    unknown: "新河安下一夜是否续住及谁付款，女儿费用能否获赔及其他押金赔责，真实漏源、复电复装返住何时准许。"
+  ma_yun:
+    knows: "2019跨期内部材料页次核问原端真发/形成岗真收，Day456仍无新准阅。"
+    unknown: "实质补页、旧袋今址原第73页与历史自然人受答、2016/2022跨源同一。"
+  center_team:
+    knows: "母亲20:34真人回拨，河安真住、个人垫款汇总已纠错仍待核；供水阀组与排水系统只是分项拟查尚未现场获批。"
+    unknown: "漏水原因及实际管线定位、下一夜实款、历史人获答；F008/M004/M005无新证。"
+
