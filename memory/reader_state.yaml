@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 579
-last_reviewed_title: "板材到了楼下，图纸还在目录里"
-last_source_path: chapters/draft/0579.md
-last_source_sha: dfc8421768f55a87eb28691c09fe362daaeca655
-last_review_path: reader_reviews/0579_dfc84217.md
+last_reviewed_chapter: 580
+last_reviewed_title: "新房费准点到了，旧图号却分成两套"
+last_source_path: chapters/draft/0580.md
+last_source_sha: 137174a77eee8b992d33b8d307d2dc233e6f5bf2
+last_review_path: reader_reviews/0580_137174a7.md
 last_reviewed_at: "2026-11-07"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 578
-depends_on_source_sha: ea8ed68d6608d28c333f1d1fbb84fcdeb09e6c53
+depends_on_chapter: 579
+depends_on_source_sha: d48888dfa2f3e3e7138b4ff25346dca15a7eae65
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 7341a7eb7a417733b904d3a4eaa2d63563fe39b3
+predecessor_current_source_sha: d48888dfa2f3e3e7138b4ff25346dca15a7eae65
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6554,5 +6554,24 @@ chapter_579_arc054_verified:
   reader_gate: pass
   independent_qa: pass
   predecessor_ready_sha: "ea8ed68d6608d28c333f1d1fbb84fcdeb09e6c53"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_580_arc054_verified:
+  chapter: 580
+  title: "新房费准点到了，旧图号却分成两套"
+  source_path: chapters/draft/0580.md
+  source_sha: "137174a77eee8b992d33b8d307d2dc233e6f5bf2"
+  review_path: reader_reviews/0580_137174a7.md
+  reviewed_at: "2026-11-07"
+  reviewer_mode: independent_pass_a_then_pass_b_exact_git_blob
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_ready_sha: "d48888dfa2f3e3e7138b4ff25346dca15a7eae65"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_success_required_before_main
