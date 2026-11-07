@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 588
+title: "三处测点，只剩一处能对比"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "00f9bf82c10199d5a8eede8a707bc5f48ea6459f"
+source_draft_sha: "ea982c2d76718383329364dae4f8c4cc2065ecf1"
+initial_review: reader_reviews/0588_00f9bf82.md
+reader_review: reader_reviews/0588_ea982c2d.md
+depends_on_chapter: 587
+depends_on_source_sha: "e99cb765ecf9199f0e72ecb63a3214a36c0a8e3f"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day451 08:23—Day452 07:08"
+summary: >-
+  Day451泊晨房费物业前日Day450 10:26真付三夜到Day453中午，母女不用本日续费、女儿照常工作并晚间买新笔。9:15物业工程员错发群称四楼资料基本齐全拟复装，专业负责人让其撤回并更正且留旧消息来源。前587四楼封套真开两页仅资料移交与保管收讫、16:47非破坏复核范围仅送审，588经10:49限三项正式获批原12厘米口内观察/原三点位条件比对/电气隔离原状检查，11:26专业负责人签出任务，13:12进入现场对比Day437/439旧位置与材料接触面，确定一号旧砂浆点具同位置接触面可比前提，二号灰薄衬侧/旧胶接触面不一致、三号清洁前后附着条件不同，两处历史读数虽真但跨次不可比，不可按三条整体下降推干燥或求均值，16:08形成有限记录且仅拟未来稳定点位，未真正另开测或批准复装。14:46电气专业只核隔离标签和现场记录未解除其他受水回路。原12cm口没扩父亲旧饰板原号独封、客厅单照明支路限用其余受水电路隔离整屋禁返住五楼西户有限复水不变。2019档案线，马芸依法另查跨期待补核新号后原始发文簿，14:21限定准阅、16:19双岗证一件材料页次核问从该新号真实单端发往材料形成岗，16:48出去身份摘录；不证目标岗位真收、来源页次真补、旧封袋今天现址、原第73页或历史自然人实际得答，也不与旧期拟回送或另份补正合并。母亲20:39本人回拨、22:23摘录到中心、Day452 07:08交班；F008/M004/M005及2016/2022跨源同一未证。
+meaningful_state_changes:
+  - "四楼非破坏现场范围由前章送审实推进至Day451 10:49获准11:26签任务并16:08真核，3个历史湿度点位仅1处符合本轮确认的跨次可比条件，另外2处需另建稳定点位；不据此复装、复电返住。"
+  - "2019跨期待补核新号下材料页次核问16:19确见真实原发端发文签记，但材料形成岗真收与历史自然人实际获答仍未知。"
+  - "物业群错称资料基本齐全拟复装，经专业负责人具名纠正、工程员撤回及原消息留痕，工期仍未许可。"
+knowledge_updates:
+  - "母女知道旧三处真实读数不能直接当同点连续变化仅一号条件可比；电气核标签非绝缘复验/送电许可、四楼仍不准返住，泊晨既有物业款到Day453中午。"
+  - "马芸和中心知道2019跨期新号下确有一件材料页次核问真实发文，但未获权限查目标端实际接收或补据结论。"
+relationship_updates:
+  - "母亲与女儿保留工作自主和晚间分工，不因父亲旧饰板联想把技术责任交给家庭口述；母亲要求保留旧读数与真实原条件。"
+  - "专业负责人限制工程员群误报与复装，测量和电气专业各按权责签记，吴叔获无拆除作业的有限事实。"
+foreshadowing_updates:
+  - "F003本章新增同2019跨期新号下原发端真实送出材料页次核问，不推材料形成岗签收、实质归属补据、旧袋今址、原第73页或历史自然人获答；2016/2022同源与F008/M004/M005不证。"
+ending_state: "Day452 07:08泊晨真付房期至Day453中午，四楼三旧测点仅一处核成可比条件、两处待另建稳定点，旧饰板封存电气隔离与整屋禁返住不变；2019内部材料页次核问真发但目标岗收讫和历史个人收到答复依旧未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "00f9bf82c10199d5a8eede8a707bc5f48ea6459f", final_draft_sha: "ea982c2d76718383329364dae4f8c4cc2065ecf1", initial_counts: "0/1/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, fix: "rebind_587_provisional_to_formal_ready_after_identical_title_and_body_comparison"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3233

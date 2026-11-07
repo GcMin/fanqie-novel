@@ -6677,3 +6677,24 @@ chapter_587_arc054_verified:
   predecessor_ready_sha: "c85dd7374d15ab3c5ff2ff039f1c8e60fa877712"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_588_arc054_verified:
+  chapter: 588
+  original_sha: "00f9bf82c10199d5a8eede8a707bc5f48ea6459f"
+  source_sha: "ea982c2d76718383329364dae4f8c4cc2065ecf1"
+  initial_review: reader_reviews/0588_00f9bf82.md
+  review_path: reader_reviews/0588_ea982c2d.md
+  reviewed_at: "2026-11-07"
+  reviewer_mode: independent_pass_a_then_pass_b_new_sha_after_stage_a
+  initial_counts: "0/1/2"
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  independent_qa: pass
+  predecessor_old_provisional_sha: "5f01c7309acc02200f1395ebef3a353e070ab86e"
+  predecessor_ready_sha: "e99cb765ecf9199f0e72ecb63a3214a36c0a8e3f"
+  dependency_status: verified_ready_same_title_body_facts
+  structural_gate: exact_candidate_ci_success_required_before_main
