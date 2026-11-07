@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 596
-last_reviewed_title: "一张旧照片，管子比说法更早"
-last_source_path: chapters/draft/0596.md
-last_source_sha: ebb308964e8ee2dd37a29d8e187a966bdae83fdc
-last_review_path: reader_reviews/0596_ebb30896.md
+last_reviewed_chapter: 597
+last_reviewed_title: "图上有个接口，水从哪来仍没写"
+last_source_path: chapters/draft/0597.md
+last_source_sha: cf1432a17302210eb2fc3a1a9d88d61f713792c7
+last_review_path: reader_reviews/0597_cf1432a1.md
 last_reviewed_at: "2026-11-08"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 595
-depends_on_source_sha: a05ef869a2da69050a82ea4f1ce45c0257e90f66
-dependency_status: verified_ready_same_title_body_facts
-predecessor_current_source_sha: a05ef869a2da69050a82ea4f1ce45c0257e90f66
+depends_on_chapter: 596
+depends_on_source_sha: 27f8c4b40457320ceb589c7d9bd27f0bdbe9f08d
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 27f8c4b40457320ceb589c7d9bd27f0bdbe9f08d
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6852,3 +6852,15 @@ chapter_596_arc054_verified:
   predecessor_ready_sha: "a05ef869a2da69050a82ea4f1ce45c0257e90f66"
   dependency_status: "verified_ready_same_title_body_facts"
   structural_gate: "exact_candidate_ci_success_required_before_main"
+
+chapter_597_arc054_verified:
+  chapter: 597
+  source_sha: "cf1432a17302210eb2fc3a1a9d88d61f713792c7"
+  review_path: "reader_reviews/0597_cf1432a1.md"
+  pass_a_then_pass_b: true
+  counts: "0/0/2"
+  reader_gate: pass
+  dependency_status: verified_exact_ready_blob
+  predecessor_ready_sha: "27f8c4b40457320ceb589c7d9bd27f0bdbe9f08d"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_success_required_before_main

@@ -1,3 +1,10 @@
+## 第597章 ARC-054 独立Reader、Continuity/Style QA与长期状态｜2026-11-08（精确候选结构CI待核）
+- Draft Blob `cf1432a17302210eb2fc3a1a9d88d61f713792c7`；前596章ready Blob `27f8c4b40457320ceb589c7d9bd27f0bdbe9f08d` 精确匹配；Reader先普通读者Pass A后Canon与状态Pass B，0 BLOCKER / 0 MAJOR / 2 MINOR，keep/none，无Revision；有效字符3357。独立Continuity、Style及Meaningful QA PASS；见`reader_reviews/0597_cf1432a1.md`和`qa/0597_report.md`。
+- Day460河安物业Day459续三夜真实款到Day462午双卡实试，女儿泊晨Day453—455两夜个人实付仍经办复核无赔付；母亲在短住处挂衣买菜减少每日等待续费。
+- Day460 10:04有责限项仅查询受理，11:43查2021竣工移交目录含管井节点详图，13:26去身份许可后原图真正受控核阅到‘预留接口’文字，15:02仅出有源图面结论；与Day458实物和2023照片的侧接未有尺度基点可同一认证，功能安装时间另一端漏源责任不证。18:27未经许可复装排程撤回，18:46关联页及非破坏位置比对申请仅受理未实施。
+- 四楼12厘米原口父亲铅笔线旧饰板独封、单照明有限用其余受水回路隔离、整屋禁返住、五楼有限复水不变。2019 F003核问双端真收发不证第73页旧袋今址实质补据与历史真人答复；2021楼宇图纸/2023巡检不串证F003或F008/M004/M005。
+- 内容QA不等于结构校验，精确候选Git commit的`python -m publisher.check_local --repo .`及离线测试成功后才能expected_sha/force:false迁main ready。
+
 ## 第596章 ARC-054 独立Reader、Continuity/Style QA及真实记忆状态｜2026-11-08（候选结构CI待核）
 - 草稿Blob `ebb308964e8ee2dd37a29d8e187a966bdae83fdc`，源前章正式ready Blob `a05ef869a2da69050a82ea4f1ce45c0257e90f66`；原596 provisional Blob 49425119独立Reader 0/1/2，仅前595临时SHA错绑，Stage A核595正文标题与正式ready逐字同一并重绑章纲与Front Matter，新SHA独立Reader复审0/0/2，内容Continuity/Style/Meaningful QA PASS，正文没有改字，有效字数3261。见`reader_reviews/596_ebb30896.md`及`qa/596_report.md`。
 - Day459物业11:09真付河安原首层双床三夜Day459午到Day462午，11:16双卡实际开门；泊晨女儿Day453—455个人垫费仅在经办复核无赔付，其他旧费和维修责任未结。

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 596
+last_updated_chapter: 597
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3043,3 +3043,11 @@ chapter_596_arc054_verified:
   mother_property: "Day459物业11:09真付河安原首层双床三夜Day459午到Day462午，11:16双卡实际开门；泊晨女儿Day453—455个人垫费仅在经办复核无赔付，其他旧费和维修责任未结。"
   mother_professional: "Day459 10:02旧公共窗巡检影像查询仅受理，13:22限项准阅2023原巡检原始附件；窗框掉漆、支架焊痕及可见细管位置与Day458原状照相合，只证该时点同位可见，不能确定安装日期、物理走向、功能漏源或其后是否改变；15:48给五楼住户有限去隐私回告。"
   ma_yun_center: "2019材料页次核问仍只双端真实发收，原第73页旧袋今址实质补核历史真人获答未知，2023公共管井资料独立来源不串证。"
+
+chapter_597_arc054_verified:
+  chapter: 597
+  source_sha: "cf1432a17302210eb2fc3a1a9d88d61f713792c7"
+  mother_daughter: "母亲主动减少日常审批截图打扰，整理衣物买菜，女儿继续上班、晚上确认母亲有饭吃；泊晨女儿个人两夜旧垫资独立待核。"
+  mother_professional_property: "母亲只要可核图号并明确未签施工，专业负责人责令工程员撤回按图复装草稿并留原始版本；群图不凭口头来源成责任定性。"
+  mother_fifth_floor: "不将2021预留图示反向解释为五楼住户私接或免责结论，尊重有限供水与隐私。"
+  center_team: "夏宁分费用真实收付，周衡分2021图纸与实物边界，梁策保留整屋禁返住、有限复水及未批准作业。"

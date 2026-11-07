@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 596
-current_stage: chapter596_stageA_metadata_rebind_new_sha_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0596.md
-current_source_sha: ebb308964e8ee2dd37a29d8e187a966bdae83fdc
-current_review_path: reader_reviews/0596_ebb30896.md
+current_chapter: 597
+current_stage: chapter597_unmodified_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0597.md
+current_source_sha: cf1432a17302210eb2fc3a1a9d88d61f713792c7
+current_review_path: reader_reviews/0597_cf1432a1.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter596_stageA_metadata_only_then_new_sha_reader_0_0_2_qa_pass
+last_action: chapter597_no_revision_reader_0_0_2_qa_pass
 last_action_date: "2026-11-08"
 last_error: null
-last_diff_summary: "595草稿与ready版标题及小说正文逐字一致；596 Stage A仅将章纲Front Matter重绑前595正式ready SHA，新Blob ebb30896；独立Reader复审0/0/2与内容QA PASS，尚待精确结构CI。"
+last_diff_summary: "原稿保持不变；前596章正式readySHA精确依赖；Reader_0_0_2与独立内容QA_PASS，结构候选CI待验证。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: ebb308964e8ee2dd37a29d8e187a966bdae83fdc
+current_review_source_sha: cf1432a17302210eb2fc3a1a9d88d61f713792c7
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6056,3 +6056,18 @@ chapter_596_arc054_verified:
   predecessor_ready_sha: "a05ef869a2da69050a82ea4f1ce45c0257e90f66"
   dependency_status: "verified_ready_same_title_body_facts"
   structural_gate: "exact_candidate_ci_success_required_before_main"
+
+chapter_597_arc054_verified:
+  chapter: 597
+  source_sha: "cf1432a17302210eb2fc3a1a9d88d61f713792c7"
+  stage: no_revision_needed
+  stage_a_rounds: 0
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  review_after: "reader_reviews/0597_cf1432a1.md"
+  reader_counts: "0/0/2"
+  qa_gate: pass
+  predecessor_ready_sha: "27f8c4b40457320ceb589c7d9bd27f0bdbe9f08d"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_success_required_before_main
