@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 582
+title: "图纸索引改了，封板申请还是退回"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "6ec608d4061ceaae606aea9957a0a8c6e0755d51"
+source_draft_sha: "db82ddee0478d6553ca8de1cf051b0aef98c3395"
+initial_review: reader_reviews/0582_6ec608d4.md
+reader_review: reader_reviews/0582_db82ddee.md
+depends_on_chapter: 581
+depends_on_source_sha: "40099fd8b82cc658144f574c93634bef1d520619"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day445 08:23—Day446 07:08"
+summary: >-
+  Day445泊晨短住房物业Day444 10:56真正直付三夜到Day447中午，今日无续款或退房，两卡保持有效，旧母亲本人垫付/女儿车费/押金赔责独立。仁合里17号四楼后期变更页只有五层西侧管井外壁适用，9:26绿色回执仅为Day444层位核问的收文而非实质答复，10:48物业主管具名退回无据封板申请并继续取消备料；15:38形成单位真正有源发限项说明，四至五层属检索分类，五楼修订细部不证明四楼适用，也未证四楼必无变更；15:56专业核实真签收，四楼原始节点和变更签发待独立调阅。12厘米开口未扩、父亲铅笔短线旧饰板原号封存，客厅单一照明支路有限用、其他受水线路隔离、整屋不可返住，五楼西户有限复水不变，吴叔孙子网课不受无批作业打断。Day445女儿改公司快递临时地址，前台代收但女儿当日尚未本人领件，约定Day446取药；母亲离开泊晨时带旧钥匙，Day446早晨将钥匙留抽屉。马芸Day445 09:41依法限项申请查询2019同拟办号材料形成岗非身份下一步发文索引，14:47有权准阅、15:22双保管员证一件“核对情况请复阅”从该岗向资料复核台原端确曾发出，16:05出去身份摘录；目的岗实收与处理结果、实质归属补据、旧袋今址、原第73页、历史自然人答复未知，另条补正通知独立。母亲20:31实回拨夏宁、22:09摘录到席、Day446 07:08交班；F008/M004/M005与2016/2022跨源同一没有新增确证。
+meaningful_state_changes:
+  - "物业10:48具名退回被绿色收文误导的封板申请且保持无机具/备料排程，保留错误原件。"
+  - "15:38形成单位正式说明四至五层只是检索分类，五楼修订页不适用四楼且四楼原节点/签发待查。"
+  - "F003 Day445确证2019材料形成岗向资料复核台请复阅一件真实原端发文，后者是否收到未知。"
+knowledge_updates:
+  - "母女知道物业泊晨真款到Day447中午但未有额外续付，书面图纸回告不等于可复装、复电或返住；女儿快递Day445前台代收待本人Day446领取。"
+  - "马芸及夜班仅知旧请复阅一件原端真实发出，未证目的岗真收或历史自然人获答。"
+relationship_updates:
+  - "母女分别安排取药和临时收件并尊重个人工作，母亲拒把工程收文冒当修复授权；吴叔获得当前无批准机具作业的事实告知。"
+foreshadowing_updates:
+  - "F003仅续一段内部原端发文，不升级到资料复核台收件、实质补据、旧封签袋现址、第73页或历史真人获答；F008/M004/M005不新增确证。"
+ending_state: "Day446 07:08泊晨真付房期至Day447中午；母亲将旧钥匙留在公寓抽屉，四楼原图仍待查、原口旧板受水线路保护及整屋不可返住不变；2019内部请复阅已发但尚未证目的岗实收或历史个人答复。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6ec608d4061ceaae606aea9957a0a8c6e0755d51", final_draft_sha: "db82ddee0478d6553ca8de1cf051b0aef98c3395", initial_counts: "0/1/2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, fix: "Day445_front_desk_receipt_not_daughter_pickup_until_Day446"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3270
