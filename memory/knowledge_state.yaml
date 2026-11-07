@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 589
+last_updated_chapter: 590
 characters:
   zhou_heng:
     knows:
@@ -3457,3 +3457,16 @@ chapter_589_arc054_verified:
     knows: "Day452两处可重复定位砂浆初测不代表全墙干燥；2019核问目标岗实收不代表实质补据或自然人已得回函。"
     unknown: "复装复电整屋返住条件、后续档案补据处理及2016/2022跨源同一。"
   shared_invariants: "本章精确依赖588正式ready SHA321c06acfdc062004a5c10b98b0762420b3ffeaf；四楼原口受水电路旧饰板和F003/F008/M004/M005边界不变。"
+chapter_590_arc054_verified:
+  chapter: 590
+  source_sha: "855dbcba0d6bb3f2a3b970a96ad1e6fa52088f8b"
+  mother_daughter:
+    knows: "Day453 11:17唐晓漫个人真付泊晨Day453午至Day455午两晚且房卡试开，物业无新款；新砂浆点Day453首次回测相对值高于Day452初值，旧一号变动小，不足以推出再漏/整墙干燥/整屋返住。"
+    unknown: "相对值升高的真实成因、可比条件下后续复测计划、整屋真实修复批准与物业旧房费押金车费赔责。"
+  ma_yun:
+    knows: "只有上章已经双端证明的2019跨期待补核新号页次核问真发真收及待核原页，没有今天新增旧案查阅。"
+    unknown: "实质补齐原页、旧散页封签袋今址、第73页、历史个人是否获答、2016/2022跨源同一。"
+  center_team:
+    knows: "新住宿付款人为女儿非物业，真正覆盖Day455午；两处砂浆相对值有限差异不构成漏源或复电返住许可。"
+    unknown: "新点升高真实原因和历史旧案实质补据、历史个人答复。"
+  shared_invariants: "本章前章589正式ready SHA 0d4cdc5433759035923e92193a288827f383bb80 已与原589临时草稿标题全文逐字对照一致，仅元数据变；四楼隔离禁返住和F003/F008/M004/M005界限未变。"
