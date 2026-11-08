@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 620
+title: "刷墙的人到了门口，排查单还没有批准"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "34b8c337430b35cd13ef9cbde2f80c1702f59885"
+reader_review: "reader_reviews/0620_34b8c337.md"
+depends_on_chapter: 619
+depends_on_source_sha: "53e1480eb6f6be82449383097e3dbd59c0ba6a21"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day483 08:13—Day484 07:06"
+summary: >-
+  Day483母亲住河安首层双床已真付到Day486中午、两房卡有效，之后住宿与旧房押金搬运受潮物件赔责仍未知。早上母亲安排带南瓜去妹妹家蒸，唐晓漫正常上班。工程负责人核Day480及Day482两轮三点非破坏表面测读，二号仅各自同轮相对高；同室第三无潮迹点材质一致性未证，2021失基点旧门洞试测不得拼接，不能判跨轮趋势与漏源。10:11只形成技术分析。10:58物业误将研究表面保护措施调度成现场墙脚底涂，母亲反对，昨日单次测读许可已经结束、不能授权施工；11:47维修班带未开盖底涂在门岗退场、12:19误派撤单，19:16有源书面更正确认没有维修班进屋或施工，当日也未做新的室内旧封边验收，不把旧照片冒作今验收。16:06案头技术复核申请真正收件，新的现场调查方案仍草稿未报，无拆封试水涂刷复装复电返住许可。傍晚母亲与女儿在妹妹家蒸南瓜共餐，20:42母亲本人回拨夏宁周衡梁策，按已测、案头收件、现场未报、撤销未执行独立登记，Day484 07:06交班。四楼原12cm口父亲短铅笔旧饰板独号封存、客厅单照明有限用其它受水电路隔离整屋禁返住，五楼有限复水不变；2019 F003旧73页旧袋今址历史人获答和F008/M004/M005无新证。
+meaningful_state_changes:
+  - "未获批准的物业底涂误派被真阻止，维修班11:47退场12:19撤单19:16保留源更正，无入户施工或今日屋内封边验收。"
+  - "16:06案头技术复核申请实际收件，现场调查方案仍未提交或批准。"
+  - "母女与姨妈真正蒸南瓜共餐，恢复普通家庭生活节奏。"
+knowledge_updates:
+  - "母女知道滚涂未执行与撤单，不能把旧影像当今天复核；工程案头收件不等于现场许可，不知漏源或返住条件。"
+  - "工程和夜班知道两轮二号各自同轮相对高，第三参考点材质不可直接比，2021失基点不可拼接。"
+relationship_updates:
+  - "母亲对物业坚持事实书面回告而不签结案，并与女儿、妹妹进行普通生活活动。"
+foreshadowing_updates:
+  - "未来诊断另需技术方案与独立现场许可，河安Day486之后续住仍待实款；2019 F003及F008/M004/M005未证。"
+ending_state: "Day484 07:06误派撤单维修班未进户，案头技术复核仅收件，现场仍未申报；河安真付到Day486午，四楼整屋禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "34b8c337430b35cd13ef9cbde2f80c1702f59885", final_draft_sha: "34b8c337430b35cd13ef9cbde2f80c1702f59885", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3347
