@@ -6,8 +6,8 @@
 - status: planned
 - base_main_commit: 8171d30f04e2e3620ffc9b5b0266f4d8ab7e2793
 - depends_on_chapter: 612
-- depends_on_source_sha: 8b93b3f2c693d13c19bbdadd04c7834255f823d2
-- dependency_status: provisional
+- depends_on_source_sha: ec14f3cb3d2718ea6e19f371468a74cfaeb2da4c
+- dependency_status: verified_ready_same_title_body_facts
 
 ## Planner
 - 本章目标：从“2021四楼东侧施工影像可见两种颜色”的初步过程证据，推进到有签记的材料领退及较晚返工交接，揭示旧照片不能代替封墙最终层次；同时让母亲在河安七晚已真付的稳定短住期恢复自己的日常安排。
@@ -31,7 +31,7 @@
 
 ## Continuity Precheck
 - 每轮实读published/ready/draft关键章路径：0153《人没回来，表先签完了》已在published，0612是目前最高已知章，0613三目录及章纲均不存在；只创建0613，不修改既有文件。
-- 第612章来源为`chapters/draft/0612.md`、Git Blob完整SHA `8b93b3f2c693d13c19bbdadd04c7834255f823d2`、`dependency_status: provisional`。前章仅为临时未审稿，以上七晚真收、四楼原影像发现只能用于暂时衔接，不能预先立为正式Canon；后续Audit如改动关键事实须核对本章。
+- 第612章来源为`chapters/draft/0612.md`、Git Blob完整SHA `ec14f3cb3d2718ea6e19f371468a74cfaeb2da4c`、`dependency_status: provisional`。前章仅为临时未审稿，以上七晚真收、四楼原影像发现只能用于暂时衔接，不能预先立为正式Canon；后续Audit如改动关键事实须核对本章。
 - 参照Bible、文风、人物卡、ARC-054当前状态、近期摘要与正文、人物知识/时间/伏笔。四楼原十二厘米口及父亲铅笔线旧板独封未动，客厅单照明有限用其余受水电路隔离，整屋禁返住；五楼西户有限复水不扩大。
 - 2019年F003原第73页、散页袋当前所在、历史自然人是否实际得答和F008/M004/M005均无新确证；当代普通工程领退返工不能同源跳证。
 - 本轮只新建计划与draft，不执行Editor、Reader、Revision、QA、Memory或Publish Gate。
@@ -39,4 +39,4 @@
 ## 伏笔与承接
 - 追索四楼东侧后续返工质量复查附单的来源、位置边界、形成时间及是否真实签认；没有原件前不得把2021施工过程照片画为当代二湿点的墙内分层图。
 - 河安至Day483午的住房稳定为下一段专业核查提供时间，原房押金搬运及房损赔责仍独立未结。
-- 目标有效字符：2600—3400；实际本稿：2843；标题超过5个非空白字符。
+- 目标有效字符：2600—3400；实际修订稿：2839；标题超过5个非空白字符。
