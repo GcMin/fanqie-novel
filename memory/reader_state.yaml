@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 615
-last_reviewed_title: "封口日期查到了，却只是临时封护"
-last_source_path: chapters/draft/0615.md
-last_source_sha: e9d0da01f4477c89c1bd71772ab6e8bca8595659
-last_review_path: reader_reviews/0615_e9d0da01.md
+last_reviewed_chapter: 616
+last_reviewed_title: "房卡到期日，被填成了返住日"
+last_source_path: chapters/draft/0616.md
+last_source_sha: 088625d7a2aeb10893c228d121e4f45f5c63458d
+last_review_path: reader_reviews/0616_088625d7.md
 last_reviewed_at: "2026-11-08"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 614
-depends_on_source_sha: d08b86aad76d09f88dac6b6bb169ef21cff72f08
-dependency_status: verified_ready_same_title_body_facts
-predecessor_current_source_sha: d08b86aad76d09f88dac6b6bb169ef21cff72f08
+depends_on_chapter: 615
+depends_on_source_sha: d0e37bf515d6315a713355e45428341399bcd697
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: d0e37bf515d6315a713355e45428341399bcd697
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7087,3 +7087,23 @@ chapter_615_arc054_verified:
   dependency_status: verified_ready_same_title_body_facts
   content_qa: pass
   structural_gate: exact_candidate_ci_success_required_before_main
+ 
+combined_audit_chapter_616_20261108:
+  chapter: 616
+  title: "房卡到期日，被填成了返住日"
+  source_path: chapters/draft/0616.md
+  source_sha: "088625d7a2aeb10893c228d121e4f45f5c63458d"
+  review_path: reader_reviews/0616_088625d7.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 615
+  depends_on_source_sha: "d0e37bf515d6315a713355e45428341399bcd697"
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 0
+  structural_gate: exact_candidate_CI_required_before_main
