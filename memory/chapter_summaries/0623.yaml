@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 623
+title: "十点半有了答复，原来的房间却留不住"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "3fa517fcd415846ddaa8c122989ae7a03249ddc7"
+original_source_sha: "fa9aa5150fb2b6827ff7ef9bfcf85468378846aa"
+reader_review: "reader_reviews/0623_3fa517fc.md"
+initial_reader_review: "reader_reviews/0623_fa9aa515.md"
+depends_on_chapter: 622
+depends_on_source_sha: "fbb41b9559c514d94a9ed7fdcdaa09c0b4d95c10"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day486 08:09—Day487 07:03"
+summary: >-
+  Day486 08:09河安前台通知母亲原首层双床中午后已被新客确认预订，不保证继续住原房，另一同层双床仍待清洁且后续房费未实际入账。唐晓漫Day487两天培训原已报名，Day486 09:17订票身份证姓名错字，白天真改正并出票Day487 07:40班次，不因母亲住房待定请假。Day486 10:29物业在承诺10:30前只报两晚住宿内部审批通过、财务尚未出款，11:04称付款指令提交，11:27河安商户才真实收到接续两晚至Day488中午，房号尚未实配。11:58母亲实际退原房、注销旧两卡、核退房无新增收费并寄存行李，午间公共休息区等合法交接；13:18新首层房真清洁交接且母亲核门槛防滑垫，13:31新房号绑定新两晚实款、两张新房卡逐张真实试开，向女儿单独报告新房号。工程室Day486 09:46跟进Day485公共窗白色未定性附着痕，10:52经授权调得去年窗框及外侧积灰清洁登记，记录没有管道表面清洗并不等于从未清洗；16:08仅内部提议另核白痕采样权限与灰侧管远端，未获新现场许可也未实施取样或试水、拆管、入四楼。母亲20:41本人回拨夏宁周衡梁策，Day487 07:03交班时女儿仅在车站检票等待，尚未证实离站到达。四楼旧12cm口父亲带短铅笔线饰板独封、客厅一照明有限用其他受水电路隔离整屋禁止返住、五楼有限复水不扩；旧房押金搬运受潮损赔责未结，2019 F003旧73页、旧袋今址、历史本人获答及F008/M004/M005未新证。
+meaningful_state_changes:
+  - "Day486 11:27河安商户真收物业接续两晚至Day488午；11:58原房真退旧卡注销，13:31新首层房双卡真试，母亲真实换房且午间公共休息区短等待。"
+  - "唐晓漫纠正订票身份字样取得Day487 07:40车票，培训计划不因母亲住期而中断。"
+  - "公共窗去年清洁记录只涵盖窗框外侧，不证管面从未清洁；白痕性质/新旧及灰侧管来路仍不明，无采样或入室新许可。"
+knowledge_updates:
+  - "母女知道Day486 11:27新两晚商户真收、旧客房已退而新同层首层房13:31两卡实开至Day488午，不把内部审批及候房当实住。"
+  - "工程、中心知公共窗清洁登记范围窄，白痕需专业取样方法与独立许可，未知原管接归属/现房安全。"
+relationship_updates:
+  - "母亲自行完成退旧房与临时寄存等待并与女儿沟通新实住位置，女儿处理票务并表示必要时协助，母亲支持她工作出行。"
+foreshadowing_updates:
+  - "Day488中午新住宿到期前需要另核实际续款；公共白痕采样与灰侧管归属各需独立许可；2019 F003旧73页旧袋今址历史人获答未补。"
+ending_state: "Day487 07:03母亲住河安新首层同层双床、两卡实试，商户真付至Day488中午；女儿站台待Day487 07:40车，四楼仍禁返住，白痕和灰侧管远端未定性。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "fa9aa5150fb2b6827ff7ef9bfcf85468378846aa", final_draft_sha: "3fa517fcd415846ddaa8c122989ae7a03249ddc7", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3333
