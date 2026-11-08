@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 619
+last_updated_chapter: 622
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3241,3 +3241,12 @@ chapter_621_arc054_verified:
   mother_daughter_aunt: "母亲去妹妹家还南瓜保鲜盒，妹妹自主核电饭煲并给孩子学校活动单真实签名；母亲不越权代签，女儿照常上班晚间与母亲核回告。"
   mother_property_street: "母亲不把两轮测量真资料和物业错误绿色汇总混为一谈，也不因已签收更正而视作房屋安全/返住；前日滚涂误派独立保留。"
   center_team: "周衡夏宁梁策按实际授权和来源记录绿色标签是后制模板误判，专业人员负责修正；夜间中心不代签材料合格。"
+
+
+chapter_622_arc054_verified:
+  chapter: 622
+  source_sha: "42f8d1c08fb99d7415fc5bd86e984955b3a0a63e"
+  mother_daughter: "母亲支持唐晓漫参加Day487起两天培训，不要求因尚未发生的住房困难先请假；女儿已报名车票未出。母亲自主核住宿商户实收、洗女儿工作衬衫，两人约定有真实困难再相互求助。"
+  mother_property_street: "母亲拒将后续预算/申请当商户实际入账，清楚提醒次晨10:30回告不延长Day486中午酒店已付住期，不认可试板演示为返住证明。"
+  mother_professional_fifth_floor: "专业岗位区分非涉案样板与四楼现场材料、独立公区限定目视与进户许可；白色附着痕照片不产生拆检或转阀授权，五楼限定复水不扩大。"
+  center_team: "夏宁周衡梁策分源记录工程方法演示、公区目视和住期承诺，不擅自认定墙体漏源或历史2019案件关联。"

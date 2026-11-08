@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 622
+title: "两块试板都是干的，仪器却给了不同的数"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "42f8d1c08fb99d7415fc5bd86e984955b3a0a63e"
+reader_review: "reader_reviews/0622_42f8d1c0.md"
+depends_on_chapter: 621
+depends_on_source_sha: "fdd633a7be939797ba960ecd7edd06ffef33ec73"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day485 08:18—Day486 07:05"
+summary: >-
+  Day485 08:18河安早餐，唐晓漫获Day487开始为期两天邻区工作培训通知，当日成功报名但车票未出票；母亲支持她正常工作出行，自己处理住宿。09:42工程室用检测单位借来的两块非涉案试板按规定同等干燥条件测得不同饰面相对示值，显示方法受表层影响，却不能证明四楼第三参照点材质/干燥、二号墙点漏源或仪器全无故障，Day480与Day482原始两轮三点实测不删。11:30母亲核河安Day481 17:29物业商户真付三晚仍仅覆盖至Day486中午，双卡有效；之后商户无新收款无有效预订。物业称已列下一批实为申请，下午具名报告只确认预算与新申请登记，承诺Day486 10:30前真实反馈付款或替代安置，母亲不将承诺当到账或把到期误当返住。13:20拟公区排水观察窗有限目视，14:17真获具名许可，15:02—15:46在管理岗陪同下依法观察并拍到粗竖管下未定性白色附着痕，旧2023同部位照片不清不足以定新旧，灰侧管远端依旧被遮，未试水、转阀、拆管、进户或定责。母亲给女儿洗工作衬衫，女儿正常报名培训；20:39母亲亲回拨中心，Day486 07:05交班。四楼12cm旧观察口及父亲铅笔短线饰板独号封存、单照明有限用其余受水线路隔离整屋禁返住、五楼有限复水不扩，旧房押金搬运房损赔责未结；2019 F003原73页旧袋今址历史本人获答及F008/M004/M005无新证。
+meaningful_state_changes:
+  - "Day485 09:42以非涉案试板真实演示不同表层影响相对示值，不可直接用于四楼现场材料或湿度漏源判定。"
+  - "Day485 14:17具名许可后15:02—15:46实际完成公共观察窗有限目视并记录未定性白痕，旧照无法定痕迹新旧、灰侧管远端未明。"
+  - "河安付款真实只到Day486中午，更后仍无商户实收，物业Day486 10:30只承诺回告；唐晓漫Day487两日培训报名完成、车票尚未出票。"
+knowledge_updates:
+  - "母女知试板非四楼墙材、Day486到期与次晨10:30承诺非续款；女儿知道报名成功但车票未出票，不知墙内漏源。"
+  - "工程与中心仅知非涉案试板示范及获准公区目视照片白痕，不能判新旧、漏源、责任或F003历史旧案。"
+relationship_updates:
+  - "母亲主动洗女儿衬衫并支持她参加培训，住宿真实到期仍由母亲自主追款；母女承诺实际有事互相求助。"
+foreshadowing_updates:
+  - "公共白痕须另评估核验，灰侧管来路未证；Day486 10:30付款或替代安置回告待兑现；F003原73页旧袋今址和历史人获答未补。"
+ending_state: "Day486 07:05，河安两房卡及真付款只到当日中午，10:30回告未发生；四楼禁返住，公区白痕未定性，女儿已报Day487培训而车票未出。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "42f8d1c08fb99d7415fc5bd86e984955b3a0a63e", final_draft_sha: "42f8d1c08fb99d7415fc5bd86e984955b3a0a63e", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3103
