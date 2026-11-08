@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 608
+title: "签认页还没开箱，坡口先清出了水"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "68bbb7dcc12ee2a4d41763ae22d905c4007a94d5"
+reader_review: "reader_reviews/0608_68bbb7dc.md"
+depends_on_chapter: 607
+depends_on_source_sha: "79c268f6f61eecec3540c2df9ded4c454cb8bad9"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day471 08:14—Day472 07:06"
+summary: >-
+  Day471小雨，河安母亲自主发现路口东侧缘石坡口落叶堵雨水篦子、积水遮起翘松砖，安全绕北口，报便民热线双风险并在安全位置上传照片；下午道路养护合法清理表面落叶、现场核实积水已排走，但砖未修仅设警示待铺装修整，母亲保留北口绕行、晚间与唐晓漫吃苹果谈安全出行。仁合里四楼原设计所指现场签认索引Day470的去向申请，Day471 09:34只获移交转存箱级线索核阅许可，13:46有权人员真核外封箱组保管现址及转存簿，发现外箱重写简称与“材料验收签收汇总”截短编号易混，将两个原完整编号检索映射纠正；未开箱、未见签认内页或签字，不能断纸件存在、施工实做、漏源、责任或返住许可；另一非破坏墙脚定位申请仍待审。母亲河安首层双床原物业三夜真付至Day472中午双卡有效，母亲Day464一晚与女儿泊晨Day453—455本人两晚垫款皆真实银行退回，押金搬运房屋赔责未结且Day472午后续住尚未实付。四楼原12cm口父亲笔迹饰板独封、客厅单照明有限用其余受水电路隔离整屋禁返住，五楼有限复水不扩大，灰侧管与两砂浆点漏源不证；20:44母亲亲回拨夜班，Day472 07:06分别交班排水已清松砖待修、箱组可定位内件未审。2019 F003原73页旧袋今址历史真人是否受答、F008/M004/M005和当代跨源同一均无新证。
+meaningful_state_changes:
+  - "Day471道路责任班组真正清走坡口雨水篦子表面落叶并复核积水排退，起翘砖仅有临时警示待修；母亲确立北口安全绕行。"
+  - "四楼原现场位置签认索引获限项核实外封保管箱组现址，并纠正与材料验收汇总的截短编号混名；内件尚未获准打开。"
+knowledge_updates:
+  - "母女知道道路排水已清而铺砖未修、河安到Day472午已真付但未来续住未证；只知去身份档案箱级进展，不知道施工签认内文。"
+  - "工程、保管与夜班知道两个相近资料条目因简称截断易混、外封现址真核，不知道现场签名、实际构造、漏源与工程开工许可。"
+relationship_updates:
+  - "母亲自己举报、绕行与安排买菜，女儿尊重她自主出行；物业专业岗坚持先证后做而非让住户背未证工程责任。"
+foreshadowing_updates:
+  - "F003历史原第73页、旧散页袋今址、当事人是否真获答仍未知；当代档案标签错映射不推导2019旧档失址机制或F008/M004/M005。"
+ending_state: "Day472 07:06坡口排水已清但松砖待修，四楼签认外箱可定位内件未查，河安真付住宿只到当日中午、之后房态付款待核；四楼禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "68bbb7dcc12ee2a4d41763ae22d905c4007a94d5", final_draft_sha: "68bbb7dcc12ee2a4d41763ae22d905c4007a94d5", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2874

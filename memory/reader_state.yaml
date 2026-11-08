@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 607
-last_reviewed_title: "两处湿点背后，原图少了一道签认"
-last_source_path: chapters/draft/0607.md
-last_source_sha: fda7c90fa87aa0675553bc9e90fddff39531e8a0
-last_review_path: reader_reviews/0607_fda7c90f.md
+last_reviewed_chapter: 608
+last_reviewed_title: "签认页还没开箱，坡口先清出了水"
+last_source_path: chapters/draft/0608.md
+last_source_sha: 68bbb7dcc12ee2a4d41763ae22d905c4007a94d5
+last_review_path: reader_reviews/0608_68bbb7dc.md
 last_reviewed_at: "2026-11-08"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 606
-depends_on_source_sha: aaacab728bb7d7b93f499e8afb83dddec013a0f9
+depends_on_chapter: 607
+depends_on_source_sha: 79c268f6f61eecec3540c2df9ded4c454cb8bad9
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: aaacab728bb7d7b93f499e8afb83dddec013a0f9
+predecessor_current_source_sha: 79c268f6f61eecec3540c2df9ded4c454cb8bad9
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -6967,4 +6967,16 @@ chapter_607_arc054_verified:
   content_qa: pass
   predecessor_ready_sha: "aaacab728bb7d7b93f499e8afb83dddec013a0f9"
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_success_required_before_main
+chapter_608_arc054_verified:
+  chapter: 608
+  source_sha: "68bbb7dcc12ee2a4d41763ae22d905c4007a94d5"
+  review_path: "reader_reviews/0608_68bbb7dc.md"
+  pass_a_then_pass_b: true
+  counts: "0/0/2"
+  reader_gate: pass
+  content_qa: pass
+  predecessor_ready_sha: "79c268f6f61eecec3540c2df9ded4c454cb8bad9"
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 0
   structural_gate: exact_candidate_ci_success_required_before_main
