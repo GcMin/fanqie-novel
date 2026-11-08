@@ -5,8 +5,8 @@
 - arc: ARC-054
 - status: planned
 - depends_on_chapter: 622
-- depends_on_source_sha: 42f8d1c08fb99d7415fc5bd86e984955b3a0a63e
-- dependency_status: provisional
+- depends_on_source_sha: fbb41b9559c514d94a9ed7fdcdaa09c0b4d95c10
+- dependency_status: verified_ready_same_title_body_facts
 
 ## Planner
 - 本章目标：兑现第622章河安Day486中午到期、物业10:30前回告的实况；母亲经历新款到账、旧房退房、同层候房和双卡实开四个不同状态，并查公共窗白痕可否有普通清洁来源。
