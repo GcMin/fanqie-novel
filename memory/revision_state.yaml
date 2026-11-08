@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 605
-current_stage: chapter605_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0605.md
-current_source_sha: 6eb11f5cd4895b2d92fa9872bbaf744a8db8eb00
-current_review_path: reader_reviews/0605_6eb11f5c.md
+current_chapter: 606
+current_stage: chapter606_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0606.md
+current_source_sha: d9afb3c2f38a45effc0d6f63d5f3805a35e4a8b0
+current_review_path: reader_reviews/0606_d9afb3c2.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter605_reader_qa_pass_no_revision
+last_action: chapter606_reader_qa_pass_no_revision
 last_action_date: "2026-11-08"
 last_error: null
-last_diff_summary: "605原草稿与604最终ready SHA精确匹配，Reader 0/0/2，独立QA PASS，正文0字；候选CI结构Gate待核。"
+last_diff_summary: "606精确依赖605正式ready，Reader 0/0/2，独立QA PASS，正文0字；候选CI结构Gate待核。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 8dcd2932d7f5e1cc55b184e22f74c13d968d8426
+current_review_source_sha: d9afb3c2f38a45effc0d6f63d5f3805a35e4a8b0
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -43,7 +43,7 @@ combined_audit_final_20261015:
   note: "前版Reader意见只绑定前版SHA；修订后新的Reader报告已存在并通过。"
 
 # source_sha of the final Reader Review refers to original draft; ready differs by metadata fields only.
-current_review_source_sha: 7a7c5f11530358c24aa9ab4c971f8059a07cb9dd
+current_review_source_sha: d9afb3c2f38a45effc0d6f63d5f3805a35e4a8b0
  
 combined_audit_chapter_154:
   stage: local_revision
@@ -5497,7 +5497,7 @@ combined_audit_chapter_560_20261106:
   content_qa: pass
   dependency_status: verified_exact_ready_blob
   structural_gate: requires_precise_candidate_ci_success_before_main
-current_review_source_sha: "6a7b54a94af609d9b2b4214bf6e0a1cedff3a3e3"
+current_review_source_sha: d9afb3c2f38a45effc0d6f63d5f3805a35e4a8b0
 
 combined_audit_chapter_561_20261106:
   original_sha: "01912c6932191b3405570fa56b6280de591838ea"
@@ -6168,4 +6168,18 @@ chapter_605_arc054_verified:
   stage_c_used: 0
   body_revisions: 0
   content_qa: pass
+  structural_gate: exact_candidate_ci_success_required_before_main
+chapter_606_arc054_verified:
+  chapter: 606
+  source_before: "d9afb3c2f38a45effc0d6f63d5f3805a35e4a8b0"
+  source_after: "d9afb3c2f38a45effc0d6f63d5f3805a35e4a8b0"
+  stage: no_revision_needed
+  stage_a_rounds: 0
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  review_after: "reader_reviews/0606_d9afb3c2.md"
+  reader_counts: "0/0/2"
+  content_qa: pass
+  predecessor_ready_sha: "795bb000f3e8a81b677408f677b9420c4cbc13c8"
   structural_gate: exact_candidate_ci_success_required_before_main

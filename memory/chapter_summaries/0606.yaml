@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 606
+title: "房卡续到第三天，墙里的数值仍不肯合拢"
+volume: 6
+arc: "ARC-054"
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "d9afb3c2f38a45effc0d6f63d5f3805a35e4a8b0"
+reader_review: "reader_reviews/0606_d9afb3c2.md"
+depends_on_chapter: 605
+depends_on_source_sha: "795bb000f3e8a81b677408f677b9420c4cbc13c8"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day469 08:09—Day470 07:09"
+summary: "Day469河安首层双床原物业款仅到当天午，09:21有拟续三晚申请却未实收，11:12物业向商户真正直付Day469午—Day472午三晚，11:20两张房卡实际逐张试开；母亲坚持删除总费用结清小字，仅签本期住宿回执。母亲Day464河安个人自费一晚及唐晓漫Day453—455泊晨本人垫两晚此前均银行实退，其他押金搬运与旧房赔责未结。Day468五楼公区新墙角基点不等于四楼基点；Day469 10:06四楼另获独立有限非破坏专业复评许可，13:27入场按原来两处砂浆点和环境条件实测，一号本次低于前次、二号仍显著高且变化不一致，不能平均认干燥、不能认没有漏源。15:48撤场保持封条，16:23专业签限项回告，受水路径及原构造查核另行申请尚未获准，未形成返住日期，也不能用个别低值缩减临住。四楼原12cm口不扩、父亲旧饰板独封、客厅一照明限用其他受水电路隔离整屋禁返住、五楼有限复水不扩大。母亲独自平缓过街买菜借矮凳，女儿下班带米糕探望；20:41母亲本人回拨，Day470 07:09交班。F003 2019原73页旧袋今址历史人获答、F008/M004/M005均无新证。"
+meaningful_state_changes:
+  - "河安Day469 11:12真收物业三夜直付至Day472午且11:20两张房卡实开；母亲没有签全费结清。"
+  - "四楼独立有限专业复评获许可并执行，两点砂浆变化不一，有源限项回告但无安全返住结论。"
+knowledge_updates:
+  - "母女知道旧个人两笔房费已经银行退回且河安住期真续至Day472中午，其他押金搬运旧房责任仍未结。"
+  - "专业岗知四楼两点原始读数一降一仍高且五楼墙角零点不可通用；实际受水路径、漏源与返住条件未知。"
+relationship_updates:
+  - "母亲要求本期真实住房而不签整体费用放弃，维持独立买菜与日常；女儿工作后带米糕并讨论周末出行。"
+foreshadowing_updates:
+  - "F003 2019原73页旧袋今日位置与历史人受答依然不明；当代四楼实测、2021图、2022窗口、2023侧管不作F008/M004/M005确证。"
+ending_state: "Day470 07:09河安物业已付款至Day472午，四楼有限测量一号下降二号高、整屋禁返住，新原构造和受水路径查核待另批。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d9afb3c2f38a45effc0d6f63d5f3805a35e4a8b0", final_draft_sha: "d9afb3c2f38a45effc0d6f63d5f3805a35e4a8b0", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3279

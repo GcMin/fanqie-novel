@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 605
+last_updated_chapter: 606
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3116,3 +3116,11 @@ chapter_605_arc054_verified:
   mother_property_street: "母亲仅认可本次实付住期，河安物业款至Day469午；旧押金搬运房赔仍未结。"
   mother_professional_fifth_floor: "专业负责人纠正历史90mm与活动窗框零点的错误推断，五楼住户仅得有限解释；不拿工程照片承诺四楼复住。"
   center_team: "按来源分记本人退款和公区基点，独立保留四楼保护条件与2019旧案边界。"
+
+chapter_606_arc054_verified:
+  chapter: 606
+  source_sha: "d9afb3c2f38a45effc0d6f63d5f3805a35e4a8b0"
+  mother_daughter: "母亲自主续房核款并走平缓路买菜，女儿晚间带米糕探访，母女商量周末走路不让安全工单吞没全部生活。"
+  mother_property_street: "母亲拒把一张三晚续住表签到房屋赔责终结，仅认可物业实款和双卡确证；专业岗阻止物业裁技术摘要来缩减住期。"
+  mother_professional_fifth_floor: "专业人员承认四楼两点不一致的边界，五楼按原有限用水且无无据责任认定。"
+  center_team: "当夜20:41母亲真人回拨后夜班分项记两条责任线，绝不将四楼个别低读数等同安全返住。"
