@@ -6,8 +6,8 @@
 - status: planned
 - base_main_commit: 051c8278e2afa56fce81de83208835a17e13423a
 - depends_on_chapter: 611
-- depends_on_source_sha: 19d82b2b4f4cb3b5e7d5c52114385f804b3729db
-- dependency_status: provisional
+- depends_on_source_sha: 292132ce7264caaac0fec0446ea2211b25d46fcf
+- dependency_status: verified_ready_fact_delta_compatible
 
 ## Planner
 - 目标：把短住每两晚续费的重复危机转成真实稳定七晚、推进四楼实际施工证据而不虚构已验收的隐蔽层或漏源，并强化母女的独立行动和明确分账。
@@ -31,7 +31,7 @@
 
 ## Continuity Precheck
 - 从main的published/ready/draft实际数字章名核到published最高159（含0153《人没回来，表先签完了》）、ready最高610、draft最新611，故只新建612；不修改任何旧章。
-- 前章第611章为draft未审，完整Git blob SHA 19d82b2b4f4cb3b5e7d5c52114385f804b3729db，仅作为provisional版本依赖；第611章所写Day474真实七晚之前的两晚付款至Day476午、路口局部验收放行和两类材料原簿到场证据，不能假装已成正式Canon，后续独立审核若改动须重核本章。
+- 前章第611章为draft未审，完整Git blob SHA 292132ce7264caaac0fec0446ea2211b25d46fcf，仅作为provisional版本依赖；第611章所写Day474真实七晚之前的两晚付款至Day476午、路口局部验收放行和两类材料原簿到场证据，不能假装已成正式Canon，后续独立审核若改动须重核本章。
 - 核前十份可用正式摘要、最近五章正文及Bible/角色/知识/世界/时间线、F003/F008和当前ARC-054范围。四楼原12cm口不扩，父亲短铅笔线饰板独立封存，客厅单照明限用其余受水电路隔离整屋禁返住；五楼有限复水不扩大，不试水、不转阀、不偷定漏源或施工责任。
 - 2019 F003原第73页、旧袋今址、历史本人是否真得答及F008/M004/M005机制无新证据；2021普通楼宇旧影像不能替代历史异常档案。
 - 第612章仅创建本计划与草稿，不执行Editor/Reader/Revision/QA/Memory/Publish Gate，不发布番茄。
