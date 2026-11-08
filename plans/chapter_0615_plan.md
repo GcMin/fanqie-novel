@@ -5,8 +5,8 @@
 - arc: ARC-054
 - status: planned
 - depends_on_chapter: 614
-- depends_on_source_sha: 1323b9eab9fdf2d87c05d3a23911dc475fe0f10c
-- dependency_status: provisional
+- depends_on_source_sha: d08b86aad76d09f88dac6b6bb169ef21cff72f08
+- dependency_status: verified_ready_same_title_body_facts
 
 ## Planner
 - 本章目标：以昨日真实取得的2021局部裸露基层复查附单和“待归并”续件号为入口，依法查明续件所指的“封口”究竟是哪一种工序，并让住户的知情权落到准确、不夸大的文书。
@@ -30,7 +30,7 @@
 
 ## Continuity Precheck
 - 已从published、ready、draft三目录取得最大现有章号614；0153存在于published，无需恢复。本章仅新建0615，不覆盖已有篇章。
-- 前614仍为未审草稿，精确Git Blob `1323b9eab9fdf2d87c05d3a23911dc475fe0f10c`，新章Front Matter和计划均按 `depends_on_chapter: 614`、`dependency_status: provisional` 绑定；614的旧裸露基层附单事实仅为临时衔接，待Audit复核，不升级为正式Canon。
+- 前614已独立Reader/QA及精确结构CI通过并正式ready，Git Blob `d08b86aad76d09f88dac6b6bb169ef21cff72f08`。Audit已逐字比较前614临时原稿 `1323b9eab9fdf2d87c05d3a23911dc475fe0f10c` 与正式ready，标题和小说正文相同，仅交付Front Matter改变；本章Front Matter及计划均改绑正式ready并记录 verified_ready_same_title_body_facts。
 - 四楼原12cm观察口不扩，父亲短铅笔线旧饰板独封，客厅原单一照明有限用，其余受水电路隔离、整屋禁返住；五楼西户有限复水不扩。没有现场试水、转阀、拆管、复装、复电或返住许可。
 - 2021工程资料与2019旧案分源：2019原第73页、旧袋今址及历史自然人实获答没有新确证，不将普通2021档案越级认F008/M004/M005。
 - 字数依据有效Unicode字母数字计数：3291，优选2600—3400，硬限2300—3800；本轮仅Planner、Continuity Precheck、Writer。
