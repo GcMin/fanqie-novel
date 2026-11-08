@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 616
+title: "房卡到期日，被填成了返住日"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "088625d7a2aeb10893c228d121e4f45f5c63458d"
+reader_review: "reader_reviews/0616_088625d7.md"
+depends_on_chapter: 615
+depends_on_source_sha: "d0e37bf515d6315a713355e45428341399bcd697"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day479 08:19—Day480 07:05"
+summary: >-
+  Day479母亲河安收到错误自动服务推送，将Day483中午七夜住宿真实付款截止写成四楼原址“预计返住”，母亲不确认而截屏核款；物业10:11真正撤回原推送保留误告记录，10:24真实发更正：河安Day475预付Day476午至Day483午七晚、双卡继续有效，Day483后续住申请上午受理及17:30具名确认收件但未新商户付款；四楼整屋禁返住不变。Day478受理的2021年旧仪器及正式闭口档案两项申请分开。Day479 13:46另获仪器原始纸本具名限项许可，双保管员真见2021-09-15三处临时测点试测记录：前二各有两次仪器示值，第三处因临时门洞基点移位未复定被划销，仪器当班自检签名存在，但位置、单位、条件记录不足，质量联系页明确“试测保留，不作闭口报验；基点复定后另测”；15:08原页归库。只证当年试测痕迹真实且不能作为有效闭口复测，不知后续是否真复定重测/正式闭口。旧门洞不得叠合Day473固定墙角67/112cm两砂浆表面点。母亲自主买面和柿子、修旧菜包托破纸袋，女儿正常工作带修好拉头的旧帆布袋，晚间一起吃面。母亲20:46本人回拨夏宁周衡梁策分记录真房费、错误提示更正和旧试测有限结论，Day480 07:05交班。四楼原12cm观察口父亲短铅笔线旧板独封、单照明有限用其他受水电路隔离整屋禁返住，五楼限复水不扩大；2019F003原73页旧袋今址历史本人获答及F008/M004/M005仍无新证。
+meaningful_state_changes:
+  - "物业纠正错误Day483返住预测，同时保留真正商户已付款至Day483午的住宿期限，下一期仅受理未付。"
+  - "2021-09-15原始试测有时间、仪器与签记但临时基点失效，明文不得作正式闭口报验；后续有效复测和闭口仍待另查。"
+knowledge_updates:
+  - "母女只知道Day483午前实付及错误推送更正、后续付款待落实，不知道无权限旧测原纸细节，知当前不能返住。"
+  - "工程与夜班经合法限定摘录知2021有无效基点试测痕迹及后续闭口未知，不能与Day473今固定点直接对照。"
+relationship_updates:
+  - "母亲自主索要书面更正、买菜做饭并管理续住请求，女儿照常工作吃面陪伴，不请假代办。"
+foreshadowing_updates:
+  - "四楼2021旧基点复定后是否另有有效重测及最终闭口签认待独立许可；2019F003第73页旧袋今址历史人答复、F008/M004/M005不升级。"
+ending_state: "Day480 07:05河安原两卡有效到Day483午、之后付款待落实；旧试测真实却不能正式闭口、四楼仍禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "088625d7a2aeb10893c228d121e4f45f5c63458d", final_draft_sha: "088625d7a2aeb10893c228d121e4f45f5c63458d", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3105
