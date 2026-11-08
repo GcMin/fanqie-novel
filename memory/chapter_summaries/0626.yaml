@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 626
+title: "到站的人回来了，白痕还不能取"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "c4641eeae4ffa368fd021039ff12595abacbbbe2"
+reader_review: "reader_reviews/0626_c4641eea.md"
+depends_on_chapter: 625
+depends_on_source_sha: "8c309af90c4b123cb2b8967625aa5a142487cee6"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day489 09:06—Day490 07:06"
+summary: >-
+  Day489母亲住河安Day486实际换入首层新双床，Day488 11:17河安商户真收物业续款至Day490中午、11:34双卡真开，本章核明后期未付。工程室10:17收到白色附着痕专业取样方法限定书面意见：原则可考虑但必须公共设施接触许可、专业采样人、空白对照和封样，白色物未定性；11:25公共设施现场条件核查请求真收件而未获当日采样许可，2023窗框照片附号非灰细管资产号，灰侧接来路远端漏源未明。Day487理赔原分项收件号和Day491 16:00进度承诺不变；袁经办13:54发押金签收副联限项补件书面说明，母亲14:36实际补交并得附属回执，原收取端对账、受潮物入户核实与赔偿均未完成。唐晓漫完成邻区培训后Day489 15:11实际乘车返程、17:49真出站、18:21进河安新房与母亲团聚；旧帆布袋拉头修好但底角待补，父亲给母亲旧菜包缝的补丁不拆。母亲20:47本人回拨夜班，Day490 07:06交接。四楼原12cm观察口父亲旧饰板独封、客厅单照明有限用其余受水电路隔离整屋禁返住，五楼有限复水不扩；2019 F003原第73页旧袋今址历史真人获答和F008/M004/M005没有新证。
+meaningful_state_changes:
+  - "唐晓漫从Day488培训后拟返程，变成Day489 15:11列车真开17:49真出站18:21与母亲河安团聚。"
+  - "公区白痕具名专业方法意见实际回复、11:25公共设施条件核查新收件，但没有取样许可或检验结论。"
+  - "押金副联经13:54有源补件要求于14:36真收取得附属回执，不等于原收取端对账或赔付。"
+knowledge_updates:
+  - "母女知房款到Day490中午，后续未付，副联仅补件真收；女儿真实返程到河安，四楼不解禁。"
+  - "工程与夜班知公区白痕方法意见和条件核查请求不等于正式采样，灰管资产远端和漏源未知。"
+relationship_updates:
+  - "母亲允许女儿完成培训自主返程，两人在河安共餐、约由女儿自行决定旧包补布；母亲自己处理理赔不把女儿当跑腿员。"
+foreshadowing_updates:
+  - "Day490中午后河安续款仍需真核，Day491 16:00理赔进度答复待履行；公区取样许可、灰管独立资产索引未证，F003旧73页旧袋与F008/M004/M005无新确证。"
+ending_state: "Day490 07:06女儿已实际回河安，房款只到当日中午；押金真收补件但未赔、公区只有方法意见和条件核查收件；四楼仍禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "c4641eeae4ffa368fd021039ff12595abacbbbe2", final_draft_sha: "c4641eeae4ffa368fd021039ff12595abacbbbe2", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3186

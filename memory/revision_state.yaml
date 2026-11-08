@@ -19,7 +19,7 @@ last_diff_summary: "626原draft c4641eea 依赖625精确ready SHA，Reader双遍
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 3fa517fcd415846ddaa8c122989ae7a03249ddc7
+current_review_source_sha: c4641eeae4ffa368fd021039ff12595abacbbbe2
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
