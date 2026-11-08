@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 610
+title: "尺子落在四楼，旧板仍有一条铅笔线"
+volume: 6
+arc: "ARC-054"
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "93206260d9ed79f3dfa6812e110882a3809a5584"
+reader_review: "reader_reviews/0610_93206260.md"
+depends_on_chapter: 609
+depends_on_source_sha: "d64d032f13c0c2e88267ac140afd10262f06b253"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day473 08:23—Day474 07:08"
+summary: >-
+  Day473河安母亲物业原房两晚商户实款仍有效至Day474中午，两张房卡可用，无新续费真款；母亲本人Day464一晚和唐晓漫泊晨Day453—455两晚旧垫资均已银行实退，押金搬运旧房损失未结。母亲独立试买防滑鞋并从北口绕行，路面坡口在Day471排水清障后松砖仍警示，Day473养护班获准真正起出局部松砖开始修整但没有稳固验收或撤警示。Day472有权开箱取得四楼现场交底收悉签名、未见隐蔽前实作验收填表和定位片实件后，Day473另一份非破坏定位申请获专业有限允许，母亲另核仅进屋测表面位置且父亲铅笔线旧饰板不动。13:43工程人员真正入四楼，以本室内固定墙角重复归零，取得两处旧砂浆测点相对表面约67cm及112cm的可复拍位置，发现可见旧补刷色差；没有旧实做定位片与实际隐蔽层证据，不能把表面坐标套交底折线认漏源。撤去从未获许可的“整片同一处理层复装”内部估算，15:06撤场旧口封边完整。母女晚间聊新鞋及父亲旧板留下的短铅笔线，不将个人记忆当技术结论。四楼原12cm口不扩旧饰板独封、客厅单一照明限用其余受水线路隔离整屋禁返住，五楼西户限定复水不变。20:46母亲本人回拨、Day474 07:08交班；2019 F003第73页旧袋今址历史本人获答及F008/M004/M005无当代跨源实证。
+meaningful_state_changes:
+  - "Day473四楼独立有责有限准许后13:43—15:06完成两旧砂浆点以本楼内固定墙角为基准的表面可复拍坐标约67cm和112cm；不证墙内材料漏源或返住。"
+  - "Day473道路铺装修整真正起砖但尚未验收撤警示；母亲仍从北口绕行并自行试防滑鞋。"
+knowledge_updates:
+  - "母女知Day474中午前河安住房真付且旧两笔个人垫费已退，母亲只授四楼限项进入不动父亲旧板；知新两点表面坐标、仍不知墙内材料漏源或返住日期。"
+  - "工程与夜班知四楼两点在本室内固定角参照下可复拍，旧交底折线与实做层次缺相互映射证据，不能据位置推专业验收。"
+relationship_updates:
+  - "母亲自主试鞋选择安全路线、保护亡夫旧板笔迹，女儿尊重限项决定、按警示绕行并晚间陪伴，不强迫复装。"
+foreshadowing_updates:
+  - "四楼定位片原件今址、实际隐蔽收边材料层和漏源待合法核；道路铺装修整验收未完；F003旧73页旧袋历史获答、F008/M004/M005均未知。"
+ending_state: "Day474 07:08四楼已获本楼表面点位可复拍参照但墙内实作未知，旧板封存原位、整屋禁返住；河安实付到Day474午，坡口起砖未验收、北口继续绕行。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "aec7a3548cb874b87778020a774f8ef911a3e924", final_draft_sha: "93206260d9ed79f3dfa6812e110882a3809a5584", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3207

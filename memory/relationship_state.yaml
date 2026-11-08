@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 609
+last_updated_chapter: 610
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3148,3 +3148,11 @@ chapter_609_arc054_verified:
   mother_property_street: "母亲要求付款成功以河安商户真实收款为准，仅签本期住房，不同意将安置相关押金搬运房赔标为全部完成；道路排水已清但砖未修仍按两项分记并维持绕行。"
   mother_professional_fifth_floor: "工程负责人仅提供合法脱敏交底收悉与验收空栏的有限摘要，明确不因有旧签名就安排施工/返住；五楼住户维持既有有限用水而不背未证工程责任。"
   center_team: "夜班将本期实付、道路排水与铺砖风险、工程交底签收与隐蔽前验收缺口分层交班，不借当代工程推定2019失址旧案。"
+
+chapter_610_arc054_verified:
+  chapter: 610
+  source_sha: "93206260d9ed79f3dfa6812e110882a3809a5584"
+  mother_daughter: "母亲独自试鞋与决定北口路线，女儿尊重她的判断，晚上以亡父旧板短铅笔线讨论家庭记忆但不让回忆充当漏源技术证据，女儿不擅闯道路围挡替母亲验收。"
+  mother_property_street: "母亲亲核四楼入场限项告知，要求不领出父亲旧板；泊晨和河安旧个人垫资真实退款与原房赔责分别记，未把Day474房卡到期后的钱当已付。"
+  mother_professional_fifth_floor: "专业岗只在住户同意范围内真测表面点位，改正整片同层复装无证估算，五楼维持限水不承担未证责任；母亲仍可要求任何未来动旧板须先核封存记录。"
+  center_team: "周衡梁策夏宁把真测量与不知墙内构造、真道路修整与未验收开放、旅店真付与旧赔责未结分源登记，未拿普通工程资料替2019旧案下结论。"
