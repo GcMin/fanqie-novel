@@ -24,3 +24,6 @@
 
 ## 结构Gate
 这里只是新SHA Reader与独立内容QA结论，精确候选提交仍须通过单元测试和 `python -m publisher.check_local --repo .`，然后才能expected_sha/force:false迁入main。
+
+## 精确候选校验触发
+本报告更新所归属的审查候选快照同时包含第616、617章ready、两个SHA版Reader Review、第617章Stage A依赖重绑、各项长期Memory与chapter_plan.csv增量；通过本次对候选分支的QA文件更新明确请求GitHub Actions对该准确Git Commit执行结构单元测试与check_local。该句不是成功凭证，实际结果以对应commit Actions日志为准。
