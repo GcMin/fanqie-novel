@@ -5,8 +5,8 @@
 - arc: ARC-054
 - status: planned
 - depends_on_chapter: 616
-- depends_on_source_sha: 088625d7a2aeb10893c228d121e4f45f5c63458d
-- dependency_status: provisional
+- depends_on_source_sha: c8b619552cda3a054c984168e3b552f2bbe99ff8
+- dependency_status: verified_ready_same_title_body_facts
 
 ## Planner
 - 目标：在2021年试测基点失效、正式闭口未证的前提下，通过一场独立合法的当代限项非破坏复测建立三点可复拍参照，并使河安Day483之后住宿的现实付款时限明确、可追责。
@@ -31,7 +31,7 @@
 
 ## Continuity Precheck
 - 已实核 published/0153.md 存在；published/ready/draft 三目录最新数字为第616章，main无第617章。本轮只新建第617章两份文件。
-- 前章第616章在draft目录，完整Git Blob SHA：088625d7a2aeb10893c228d121e4f45f5c63458d；依赖状态：provisional。第616章未经独立审核，所有衔接事实只依赖所指特定草稿版本，不写成正式Canon；后续审核须按最终前章重核。
+- 前616初稿与正式ready标题及小说正文实际逐字一致，仅交付Front Matter不同；本章依赖精确绑定第616章ready Blob c8b619552cda3a054c984168e3b552f2bbe99ff8，dependency_status: verified_ready_same_title_body_facts。
 - 四楼原12cm观察口、父亲短铅笔线旧饰板独号封存、客厅单照明支路有限使用、其余受水电路隔离、整屋禁返住，五楼原有限复水不扩大；Day473当前两点约67/112厘米与2021移位旧门洞坐标不得互作依据。
 - 当期河安七晚物业Day475已真付Day476午至Day483午、两卡真试；此前母女私人垫款均银行实退，但押金搬运旧房房损等赔责尚未结。
 - 正文有效字符：3137；优选2600—3400、硬限2300—3800；仅Planner、Continuity Precheck、Writer，不进行审核或Memory/Publish Gate。
