@@ -7042,3 +7042,19 @@ chapter_612_arc054_verified:
   dependency_status: verified_ready_fact_delta_compatible
   content_qa: pass
   structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_613_arc054_verified:
+  chapter: 613
+  original_sha: "da1a5bc98074a13621d8096e10722162fcdb7f73"
+  final_source_sha: "4a4281212e3fb3c5bb65c5a588ef216613c586c5"
+  initial_review: reader_reviews/0613_da1a5bc9.md
+  final_review: reader_reviews/0613_4a428121.md
+  initial_counts: "0/2/2"
+  final_counts: "0/0/2"
+  pass_a_then_pass_b_new_sha: true
+  stage_a_used: 1
+  body_revisions_prior_to_this_run: 1
+  predecessor_ready_sha: "ec14f3cb3d2718ea6e19f371468a74cfaeb2da4c"
+  dependency_status: verified_ready_same_title_body_facts
+  content_qa: pass
+  structural_gate: exact_candidate_ci_success_required_before_main

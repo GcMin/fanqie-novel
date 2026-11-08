@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 613
+title: "照片拍在返工前，封墙日期还没找到"
+volume: 6
+arc: "ARC-054"
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "4a4281212e3fb3c5bb65c5a588ef216613c586c5"
+original_source_sha: "da1a5bc98074a13621d8096e10722162fcdb7f73"
+reader_review: "reader_reviews/0613_4a428121.md"
+initial_reader_review: "reader_reviews/0613_da1a5bc9.md"
+depends_on_chapter: 612
+depends_on_source_sha: "ec14f3cb3d2718ea6e19f371468a74cfaeb2da4c"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day476 08:38—Day477 07:04"
+summary: >-
+  Day476河安母亲首层双床房已由物业在Day475 13:26真实商户预付Day476中午至Day483中午七夜，双卡真试有效；母女旧个人两笔垫房款皆已退，但原房押金搬运房损赔责未结。母亲将背带快断的旧菜包送修，仅换承重带而保留亡夫旧补丁歪针脚并取回旧断带，女儿唐晓漫由欲购新包转为尊重母亲自主修旧。东坡口局部Day474已验收放行，母亲正常谨慎行走仍存北口雨天备用路线。工程岗位Day476 09:26申请、13:31获具名限项真实批准，依法调2021四楼东侧班组领退簿、质量日记与另一本交接簿：有双签退料但领退数字跨班组作业面汇总，不得领出减退回推四楼单户实做；旧施工照片形成之后有四楼东侧基层起皮返工处置与次班复刷交接的签记，能确定先后但不能确认具体返工边界、深色带是否被铲或今67/112厘米两点的墙内层、漏源。完工复查附单只有其他验收系列旧索引，Day477 07:04后续查询仅受理，未获阅准。母亲Day476 20:41本人回拨，夜班分源交班；四楼原12厘米口、父亲铅笔线旧板独封、单照明有限用其他受水电路隔离及整屋禁返住、五楼有限复水均不变。2019旧卷原73页、旧袋今址及历史自然人获答与F008/M004/M005均无新证。
+meaningful_state_changes:
+  - "依法核实旧照片后有东侧返工处置与次班复刷交接；最终完工复查仍未获得原件。"
+  - "材料退库有双签但按多班多作业面汇总，不证该户用料；不按旧照片直接采购复装。"
+  - "母亲修复承重危险旧包并保留亡夫旧补丁，女儿理解并尊重。"
+knowledge_updates:
+  - "母女只知七晚实付至Day483中午、旧个人房款已退、旧房赔责仍未结，四楼实际构造与漏源未知。"
+  - "工程知道原旧照片日期早于签记返工/复刷记录，但房间边界、最后验收及完工复查未见。"
+relationship_updates:
+  - "母亲旧包保存亡夫手缝补丁，女儿从建议换新到接纳母亲独立决定。"
+foreshadowing_updates:
+  - "另一质量验收系列完工复查附单仅有索引与新受理号，真实性、内容、尺寸待另授权核；2019F003旧案与F008/M004/M005仍无新证。"
+ending_state: "Day477 07:04新附单查询仅有受理号未获阅准，河安双卡到Day483中午；四楼禁返住与受水隔离照旧。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "da1a5bc98074a13621d8096e10722162fcdb7f73", final_draft_sha: "4a4281212e3fb3c5bb65c5a588ef216613c586c5", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2839

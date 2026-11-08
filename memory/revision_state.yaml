@@ -6277,3 +6277,18 @@ chapter_612_arc054_verified:
   content_qa: pass
   predecessor_ready_sha: "292132ce7264caaac0fec0446ea2211b25d46fcf"
   structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_613_arc054_verified:
+  original_sha: "da1a5bc98074a13621d8096e10722162fcdb7f73"
+  source_sha: "4a4281212e3fb3c5bb65c5a588ef216613c586c5"
+  stage: local_revision_completed_before_final_audit
+  fix: "上轮Stage A已将612临时依赖绑定正式ready SHA并移除小说正文F003/F008/M004/M005内部编码，本轮基于修订SHA重新独立双遍Reader与QA，无额外正文修改。"
+  stage_a_rounds: 1
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  initial_review: reader_reviews/0613_da1a5bc9.md
+  review_after: reader_reviews/0613_4a428121.md
+  reader_counts: "0/2/2 -> 0/0/2"
+  content_qa: pass
+  predecessor_ready_sha: "ec14f3cb3d2718ea6e19f371468a74cfaeb2da4c"
+  structural_gate: exact_candidate_ci_success_required_before_main
