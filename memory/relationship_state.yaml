@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 610
+last_updated_chapter: 611
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3156,3 +3156,11 @@ chapter_610_arc054_verified:
   mother_property_street: "母亲亲核四楼入场限项告知，要求不领出父亲旧板；泊晨和河安旧个人垫资真实退款与原房赔责分别记，未把Day474房卡到期后的钱当已付。"
   mother_professional_fifth_floor: "专业岗只在住户同意范围内真测表面点位，改正整片同层复装无证估算，五楼维持限水不承担未证责任；母亲仍可要求任何未来动旧板须先核封存记录。"
   center_team: "周衡梁策夏宁把真测量与不知墙内构造、真道路修整与未验收开放、旅店真付与旧赔责未结分源登记，未拿普通工程资料替2019旧案下结论。"
+
+chapter_611_arc054_verified:
+  chapter: 611
+  source_sha: "72a4dee65a4ff09d59e90efa7a9659ab51b5527f"
+  mother_daughter: "母亲独立用新鞋试走验收开放东坡口并保留备选北口，女儿尊重选择，晚间一起买面；母亲拒让家属代付款或以本期住房签旧房赔责结清。"
+  mother_property_street: "对河安商户真实收到物业两晚后才签限项续住，未以绿色审批取代实收；认可道路仅东坡口局部具名验收。"
+  mother_professional_fifth_floor: "母亲守住房禁返与父亲旧板保护；工程方仅核整栋材料到场不擅采购，五楼限定复水不因旧材料档升级。"
+  center_team: "夏宁周衡梁策以房费商户真实到账、道路局部合格和工程到场而非实作分项登记，维持2019旧案证据边界。"

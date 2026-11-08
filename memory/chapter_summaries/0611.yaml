@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 611
+title: "坡口终于放行，墙里的材料还没认领"
+volume: 6
+arc: "ARC-054"
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "72a4dee65a4ff09d59e90efa7a9659ab51b5527f"
+reader_review: "reader_reviews/0611_72a4dee6.md"
+original_source_sha: "19d82b2b4f4cb3b5e7d5c52114385f804b3729db"
+initial_reader_review: "reader_reviews/0611_19d82b2b.md"
+depends_on_chapter: 610
+depends_on_source_sha: "c2b402ac4d76c7225d692e60d85d6997c4fe2d2e"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day474 08:17—Day475 07:05"
+summary: >-
+  Day474河安母亲首层双床房原物业已付款至当日中午但下一期仍仅审批绿色截图，09:13柜台无实收；10:57河安商户真正收到物业Day474午—Day476午两夜直付款，11:06两张房卡重写并各自真试，母亲只签本住期，不签旧房押金搬运房损责任总结清；此前母亲河安一晚与唐晓漫泊晨两晚垫资均已银行实际退回。仁合里四楼此前Day473已获得本室内固定墙角到两旧砂浆测点约67cm与112cm表面坐标，Day474 11:27申请获受理、14:08有责获准受控阅2021材料到场簿，真核整栋曾到场普通找平砂浆和局部防潮界面材料两类、领用只按整栋批次汇总，不能证明四楼房间用料、隐蔽实际层次或当前漏源；15:26查阅结束、复装采购暂不提出。道路东坡口局部起砖已修但警示仍在，Day474 14:30具名巡检检查，15:12签局部合格并撤该段警示放行；15:49母亲穿新防滑鞋亲自往返通过，仍保存北口备选路线并和女儿晚饭。20:43本人回拨夜班，Day475 07:05交班；四楼原12cm口父亲短铅笔线旧板独号封存、单照明有限用其余受水回路隔离、整屋禁返住；五楼西户限定复水不扩。2019 F003原73页、散页袋今址及历史自然人是否得答与F008/M004/M005均无新证。
+meaningful_state_changes:
+  - "Day474 10:57河安真收物业两晚至Day476午、11:06双卡实开，旧个人垫款真退且其他赔责未结。"
+  - "Day474 15:12东坡口局部铺装修整经具名巡检真验收撤警示开放，母亲15:49本人穿新鞋通行，北口备用保留。"
+  - "Day474 14:08合法查出两类材料整栋到场记录，不能确认四楼具体领用或隐蔽实作，停止无证复装采购。"
+knowledge_updates:
+  - "母女知新房期真续到Day476午、道路局部恢复通行并可自行使用，旧私人垫资已退款；不知墙内漏源及返住日。"
+  - "专业岗知道到场双类物料与四楼表面两点位置，却不能建立具体房间使用、材料层位和漏源的证据链。"
+relationship_updates:
+  - "母亲自己试走东坡口自主择路，女儿尊重而不代替决定，旧房赔责与本期安置分账。"
+foreshadowing_updates:
+  - "四楼原班组领退簿和有源施工影像仍须另获权限；F003原73页旧袋今址历史个人获答与F008/M004/M005未证。"
+ending_state: "Day475 07:05河安真付至Day476中午、东坡口局部开放且备用北口仍留；四楼两类材料到场不等于实作验收，整屋禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "19d82b2b4f4cb3b5e7d5c52114385f804b3729db", final_draft_sha: "72a4dee65a4ff09d59e90efa7a9659ab51b5527f", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2789
