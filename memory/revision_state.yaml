@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 610
-current_stage: chapter610_stage_a_revised_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0610.md
-current_source_sha: 93206260d9ed79f3dfa6812e110882a3809a5584
-current_review_path: reader_reviews/0610_93206260.md
+current_chapter: 614
+current_stage: chapter614_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0614.md
+current_source_sha: 1323b9eab9fdf2d87c05d3a23911dc475fe0f10c
+current_review_path: reader_reviews/0614_1323b9ea.md
 rounds:
   reviews_this_cycle: 1
-  local_revision_used: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter610_stage_a_local_revision_and_new_sha_reader_pass
+last_action: chapter614_review_pass_qa_pass_no_revision
 last_action_date: "2026-11-08"
 last_error: null
-last_diff_summary: "610原草稿0/3/2；Stage A一次仅重绑609正式ready SHA、修正Day473剩余住期、去正文内部伏笔码，中文有效3222→3207；新SHA独立Reader 0/0/2且内容QA PASS，候选CI待核。"
+last_diff_summary: "第614章原稿独立两遍Reader 0/0/2 keep/none，未改正文；独立QA PASS，结构候选Git Commit精确CI待核。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 93206260d9ed79f3dfa6812e110882a3809a5584
+current_review_source_sha: 1323b9eab9fdf2d87c05d3a23911dc475fe0f10c
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6291,4 +6291,16 @@ chapter_613_arc054_verified:
   reader_counts: "0/2/2 -> 0/0/2"
   content_qa: pass
   predecessor_ready_sha: "ec14f3cb3d2718ea6e19f371468a74cfaeb2da4c"
+  structural_gate: exact_candidate_ci_success_required_before_main
+chapter_614_arc054_verified:
+  source_sha: "1323b9eab9fdf2d87c05d3a23911dc475fe0f10c"
+  stage: reader_qa_pass_no_revision
+  stage_a_rounds: 0
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  initial_review: reader_reviews/0614_1323b9ea.md
+  review_after: reader_reviews/0614_1323b9ea.md
+  reader_counts: "0/0/2"
+  content_qa: pass
+  predecessor_ready_sha: "0881218e071c2b3334757e7593ea7576de305ce5"
   structural_gate: exact_candidate_ci_success_required_before_main

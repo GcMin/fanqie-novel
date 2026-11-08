@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 612
-last_reviewed_title: "房卡一次续足七晚，旧墙照片露出两层颜色"
-last_source_path: chapters/draft/0612.md
-last_source_sha: 8b93b3f2c693d13c19bbdadd04c7834255f823d2
-last_review_path: reader_reviews/0612_8b93b3f2.md
+last_reviewed_chapter: 614
+last_reviewed_title: "复查单上有了签字，封墙那页还空着"
+last_source_path: chapters/draft/0614.md
+last_source_sha: 1323b9eab9fdf2d87c05d3a23911dc475fe0f10c
+last_review_path: reader_reviews/0614_1323b9ea.md
 last_reviewed_at: "2026-11-08"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 609
-depends_on_source_sha: d64d032f13c0c2e88267ac140afd10262f06b253
+depends_on_chapter: 613
+depends_on_source_sha: 0881218e071c2b3334757e7593ea7576de305ce5
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: d64d032f13c0c2e88267ac140afd10262f06b253
+predecessor_current_source_sha: 0881218e071c2b3334757e7593ea7576de305ce5
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7056,5 +7056,18 @@ chapter_613_arc054_verified:
   body_revisions_prior_to_this_run: 1
   predecessor_ready_sha: "ec14f3cb3d2718ea6e19f371468a74cfaeb2da4c"
   dependency_status: verified_ready_same_title_body_facts
+  content_qa: pass
+  structural_gate: exact_candidate_ci_success_required_before_main
+chapter_614_arc054_verified:
+  chapter: 614
+  original_sha: "1323b9eab9fdf2d87c05d3a23911dc475fe0f10c"
+  final_source_sha: "1323b9eab9fdf2d87c05d3a23911dc475fe0f10c"
+  final_review: reader_reviews/0614_1323b9ea.md
+  final_counts: "0/0/2"
+  pass_a_then_pass_b_new_sha: true
+  stage_a_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "0881218e071c2b3334757e7593ea7576de305ce5"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_success_required_before_main
