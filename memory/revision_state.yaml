@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 623
-current_stage: chapter623_stage_a_dependency_rebind_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0623.md
-current_source_sha: 3fa517fcd415846ddaa8c122989ae7a03249ddc7
-current_review_path: reader_reviews/0623_3fa517fc.md
+current_chapter: 626
+current_stage: chapter626_reader_qa_pass_no_revision_structural_pending
+current_source_path: chapters/draft/0626.md
+current_source_sha: c4641eeae4ffa368fd021039ff12595abacbbbe2
+current_review_path: reader_reviews/0626_c4641eea.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter623_stage_a_metadata_only_new_sha_reader_qa_pass
+last_action: chapter626_reader_qa_pass_no_revision
 last_action_date: "2026-11-09"
 last_error: null
-last_diff_summary: "623初稿fa9aa515 Reader 0/1/2，唯一MAJOR是依赖622旧draft；标题正文比正式ready一致。StageA只重绑前章正式SHA正文0字改，新SHA3fa517fc Reader 0/0/2、独立QA PASS，精确结构CI待核。"
+last_diff_summary: "626原draft c4641eea 依赖625精确ready SHA，Reader双遍0/0/2、独立QA PASS；正文0字修改，精确候选CI待核。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -6478,4 +6478,18 @@ combined_audit_chapter_625_20261109:
   predecessor_original_draft_sha: "200886cd2054e99605f2fe824536df9ddd2b6454"
   predecessor_ready_sha: "5c362f0b19571eeee4d61b7893e2e641c12f12ab"
   predecessor_title_body_unchanged: true
+  structural_gate: exact_candidate_CI_required_before_main
+
+combined_audit_chapter_626_20261109:
+  chapter: 626
+  original_source_sha: "c4641eeae4ffa368fd021039ff12595abacbbbe2"
+  final_draft_sha: "c4641eeae4ffa368fd021039ff12595abacbbbe2"
+  current_review_path: reader_reviews/0626_c4641eea.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  content_qa: pass
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_CI_required_before_main
