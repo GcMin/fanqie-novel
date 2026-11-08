@@ -6,15 +6,15 @@
 - status: planned
 - base_main_commit: 82d6edb2d8d8a793b5ecd896ff0675e15b081e1d
 - depends_on_chapter: 602
-- depends_on_source_sha: fc76b51253482451c3ac2a1d4b0dbd24e165b6e3
-- dependency_status: provisional
+- depends_on_source_sha: 3542f900ebe3afa37a0939446d19c88855d02fa5
+- dependency_status: verified_ready_same_title_body_facts
 
 ## Planner
 
 - 本章目标：核证2022年旧窗“竣工资料补图”真实形成、归档，但明确它只含窗位、不含潮印定位或专业处理结果；现实住宿端把母亲Day464个人垫付一夜从待核推进为实际银行卡退还，并建立Day467中午续住的新一轮可核状态。
 - POV：母亲在河安短住点的生活与财务判断为主，穿插仁合里工程负责人有限档案查核，夜间回到周衡、夏宁、梁策交班。
 - 时间：Day466 08:12—Day467 07:06。
-- 开场状态：第602章仍仅为未经审定草稿，其全部叙事事实暂作具体版本的临时承接，不升级正式Canon；其中物业Day465 11:08真实向河安支付Day465午—Day467午两夜、11:15双卡实际试开。母亲此前Day464—Day465亲付一夜仅待核，女儿Day453—Day455泊晨亲付两夜也待核。2022联系单目标公共协调岗位真正实收，归入“竣工资料补图”，后续专业实收及复核未知。
+- 开场状态：第602章已按原稿完成独立Reader与内容QA；候选正式ready与原稿标题和全部小说正文逐字相同，仅交付Front Matter改变，按候选最终ready SHA精确承接；其中物业Day465 11:08真实向河安支付Day465午—Day467午两夜、11:15双卡实际试开。母亲此前Day464—Day465亲付一夜仅待核，女儿Day453—Day455泊晨亲付两夜也待核。2022联系单目标公共协调岗位真正实收，归入“竣工资料补图”，后续专业实收及复核未知。
 - 角色诉求：母亲要的是钱真回、续住房费真到、旧房安全独立处理；女儿要按真实凭据区分自己的两夜；工程员想借补图推断旧潮印与现管同一；专业负责人拒绝混淆图面、归档与施工许可。
 - 冲突：历史补图“完成”仅是档案条目完成，不代表潮印或管线复核；物业当日给出次日续住房书面安排，却尚无商户实付，母亲不能只凭文字过夜后的截止点放松准备。
 - Beat 1：08:12母亲核河安已有真付至Day467午和后续未付的分界，询问原首层双床房下一日是否可留，不让唐晓漫因普通核验缺席工作。
@@ -32,6 +32,6 @@
 ## Continuity Precheck
 
 - 本轮从GitHub main的published、ready、draft目录复查最大数字章号602，published/0153.md确实存在；本轮写入前不存在0603正文或章纲。
-- 依赖第602章的完整Git Blob SHA为 `fc76b51253482451c3ac2a1d4b0dbd24e165b6e3`，其当前为draft；`dependency_status: provisional`。第602章只能作为绑定此SHA的provisional来源，任何后续审核修订可能要求独立Audit核对和修正本章衔接。
+- 依赖第602章的完整Git Blob SHA为 `3542f900ebe3afa37a0939446d19c88855d02fa5`，其当前为draft；`dependency_status: verified_ready_same_title_body_facts`。第602章只能作为绑定此SHA的provisional来源，任何后续审核修订可能要求独立Audit核对和修正本章衔接。
 - 已按AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md读取所需Canon、人物卡、当前ARC、长期状态、最近十章摘要及最近五章正文；未读历史reader_reviews，旧卷与旧arc文件未误作当前纲领。
 - 本轮仅新建章纲和status:draft、qa:pending正文，不执行Reader、Revision、QA、Memory、Publish Gate，不改旧稿，不发表番茄。若同时有独立Audit修改602，仅采用本轮核实的确切版本并据此记录依赖。

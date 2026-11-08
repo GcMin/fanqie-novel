@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 601
+last_updated_chapter: 603
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3084,3 +3084,19 @@ chapter_601_arc054_verified:
   mother_property_street: "母亲向物业要求有责限时书面付款回告、向街道登记独立自费核对，接受收件但不把经办审批当已付或费用结案。"
   mother_professional_fifth_floor: "专业负责人拒从2022旧潮印定位今漏源或责怪五楼住户，五楼住户只收到今天可做事项的有限范围说明。"
   center_team: "夜班把母亲、物业和女儿三笔款分源，旧潮印原发真登记与目标收件未知分栏，不把普通2022维修联系单并入2019 F003旧案。"
+
+chapter_602_arc054_verified:
+  chapter: 602
+  source_sha: "fc76b51253482451c3ac2a1d4b0dbd24e165b6e3"
+  mother_daughter: "母亲自主真核续房与两卡，拒女儿请假代付；旧费用按实际付款人分开，女儿继续工作。"
+  mother_property_street: "空泛回告未代实付，母亲追有责具名补确认并向街道留痕，11:08真正续两夜。"
+  mother_professional_fifth_floor: "专业负责人保留资料流转不代表管线查过的边界，五楼住户仍按原有限许可用水。"
+  center_team: "将2022旧纸收到并归补图有据记录，既不暗认2019旧案实质补据也不推四楼漏源。"
+
+chapter_603_arc054_verified:
+  chapter: 603
+  source_sha: "8dcd2932d7f5e1cc55b184e22f74c13d968d8426"
+  mother_daughter: "母亲核真实退款一晚后告诉女儿仅本笔已返，女儿泊晨两晚另待核，母女继续日常关照。"
+  mother_property_street: "母亲对已有本人退款有限签收，但对未来拟续房书面安排拒签已实付，街道只登记现状。"
+  mother_professional_fifth_floor: "工程负责人划掉按旧补图复装指令，五楼有限复水与隐私保护不变。"
+  center_team: "夜班记录实档补图与专业处置未证的差别，住房退款和未来未付款分账。"

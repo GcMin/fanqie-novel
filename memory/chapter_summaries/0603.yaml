@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 603
+title: "补图确实进了卷，续房款还没到账"
+volume: 6
+arc: "ARC-054"
+status: "ready"
+qa: "pass"
+reader_gate: "pass"
+original_source_sha: "a8cac2b77e28d0dd0973cf5072418c3a3a9a554a"
+source_draft_sha: "8dcd2932d7f5e1cc55b184e22f74c13d968d8426"
+initial_review: "reader_reviews/0603_a8cac2b7.md"
+reader_review: "reader_reviews/0603_8dcd2932.md"
+depends_on_chapter: 602
+depends_on_source_sha: "3542f900ebe3afa37a0939446d19c88855d02fa5"
+dependency_status: "verified_ready_same_title_body_facts"
+timeframe: "Day466 08:12—Day467 07:06"
+summary: "Day466河安原房两卡仅物业真付到Day467午，母亲核柜台Day467午后尚无商户续费；上午物业称母亲Day464自费一夜已审批，14:31本人银行明细真正收该一夜退还金额并核流水，只有这笔退费实际完成，唐晓漫Day453—455泊晨个人两夜与旧押金搬运赔损仍未核赔。15:46物业书面拟续河安Day467中午起两夜，次日10:30为预计实付查核点，但商户未真收，原房未越过Day467午锁定。2022公共窗旧联系单实收归入补图事项后，9:28有责核到同批窗位置示意目录，12:09仅限项授权12:43真实查到补图及双方原始归档交接，确认窗框参照固定墙线向楼梯侧移90mm而图未定位旧潮印或专业查核；不证2019旧案、灰管身份、漏源或专业另无收文。母亲20:29亲回拨夜间中心，Day467 07:06交班；四楼旧12cm口父亲旧板独封电气隔离整屋禁返住和五楼有限复水均不变。"
+meaningful_state_changes:
+  - "2022窗位补图由待补索引推进为实存且双方归档交接真实核到，但只含窗框边线。"
+  - "母亲Day464自费河安一夜于Day466 14:31实际入账退款，女儿旧两夜仍未退赔。"
+  - "Day467午后两夜仅书面拟续和具名时点，尚无实际付款。"
+knowledge_updates:
+  - "母亲知本人一夜已退款、女儿泊晨款未核、Day467午后尚未实付。"
+  - "工程岗知2022补图有真实实物档案而没有旧潮印定位或专业复核，不能认现灰管同一及漏水责任。"
+relationship_updates:
+  - "母女认可真实有限退款、不签总赔责结清，女儿保持正常上班。"
+  - "工程负责人划除按旧窗图直接复装的越权指示，物业须对续费实付款负责。"
+foreshadowing_updates:
+  - "F003 2019原第73页旧袋历史人得答无新确证；2022普通补图不与F003或M004/M005串证。"
+ending_state: "Day467 07:06母亲一夜垫款已实退、泊晨女儿两晚仍待核；河安旧两卡仅有效至当日中午，新两晚只有书面拟付，无商户实收；四楼仍禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+char_count: 3466

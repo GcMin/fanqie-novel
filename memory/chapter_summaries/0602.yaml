@@ -1,0 +1,29 @@
+schema_version: 1
+chapter: 602
+title: "收件章找到了，水印却被写进补图栏"
+volume: 6
+arc: "ARC-054"
+status: "ready"
+qa: "pass"
+reader_gate: "pass"
+source_draft_sha: "fc76b51253482451c3ac2a1d4b0dbd24e165b6e3"
+reader_review: "reader_reviews/0602_fc76b512.md"
+depends_on_chapter: 601
+depends_on_source_sha: "3016fa1b31141082c9ffbea369f53a09245b6423"
+dependency_status: "verified_exact_ready_blob"
+timeframe: "Day465 09:22—Day466 07:06"
+summary: "Day465 09:56物业按时但空泛书面答复未明确住宿付款与住期，母亲登记缺口；10:46另给拟付Day465午—Day467午两夜的具名确认，河安11:08商户真正收物业付款，11:15两卡实试。母亲本人Day464在河安一夜个人款与唐晓漫Day453—455泊晨两夜个人款仍待核未退款。2022公共窗旧联系单按601真发号窄查，10:38仅获目标目录条目，13:48后有责受控真核同号具名目标岗位收件与归入竣工资料补图事项，摘要漏列原件的建议管线专业复核；内部待补登记不证明正式补图已成文、专业实际收件或实勘，也不证旧潮印与今灰侧管四楼湿点同因。五楼有限复水不扩，四楼原12cm口不扩父亲旧板独封一照明限用其他受水电路隔离整屋禁返住；2019 F003旧原73页旧袋历史真人受答和F008/M004/M005未新增证。母亲20:27亲回拨、Day466 07:06双线交班。"
+meaningful_state_changes:
+  - "河安物业两夜真付到Day467午并实际试开双卡，未冲销旧个人费用。"
+  - "2022旧联系单从原发可证到目标岗位具名真收并进入补图归档类别，不代表专业复核。"
+knowledge_updates:
+  - "母女知新住期至Day467午且旧各自垫资未退，四楼仍不能返住。"
+  - "工程和中心知2022收件岗真实收到并归补图，专业有无另收及后续实勘未知。"
+relationship_updates:
+  - "母亲要求独立实收证明而非程序截图，体谅女儿工作。"
+  - "负责人拒以收件簿误断故意不办，五楼居民仅获有限措施告知。"
+foreshadowing_updates:
+  - "F003 2019原73页旧袋历史人回应无新证，2022设施旧纸与2019异常线无已证同源；M004/M005及F008不升级。"
+ending_state: "Day466 07:06河安物业两夜真付至Day467午两卡有效，2022原联系单真收归补图，但补图成文与专业核查仍待证；四楼禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+char_count: 3231

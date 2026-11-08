@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 601
+last_updated_chapter: 603
 characters:
   zhou_heng:
     knows:
@@ -3588,3 +3588,21 @@ chapter_601_arc054_verified:
   professional: "2022公共窗旧联系单只有当年局部表面潮湿印迹与来源不明建议管线复核；原维修单位有源真发而目标实际收文及专业核查处置未知；不能断现灰侧管或四楼砂浆点同源。"
   fifth_floor: "只获不含他人隐私的有限回告，知道原有限复水不因旧潮印增改，也未知谁当年真正接收发文。"
   center_archive: "周衡夏宁梁策知道房费三笔来源需分账、旧联系单原发与目标收文及复核未证的边界；马芸2019 F003原73页旧袋与历史人得答未新查，F008/M004/M005不确认。"
+
+chapter_602_arc054_verified:
+  chapter: 602
+  source_sha: "fc76b51253482451c3ac2a1d4b0dbd24e165b6e3"
+  mother: "已核河安物业新付款两夜到Day467午；旧个人一晚及女儿泊晨两晚未退款；现住房不可返住。"
+  daughter: "知道母亲旧个人一晚未退、河安新两晚已真付，泊晨本人两晚仍待核。"
+  professional: "知道2022联系单协调岗实际签收归入补图，不知道补图真实有无形成、专业岗位是否另收以及现管漏源。"
+  fifth_floor: "仅知原有限复水不改、旧联系单已真收但不能认责任。"
+  center_archive: "当代2022簿页独立于2019 F003；原73页旧袋和历史自然人得答仍未知。"
+
+chapter_603_arc054_verified:
+  chapter: 603
+  source_sha: "8dcd2932d7f5e1cc55b184e22f74c13d968d8426"
+  mother: "本人Day464自费一晚已在Day466 14:31真实到账退还；新两夜仅书面拟安排而未真正支付，房卡仍只到Day467中午。"
+  daughter: "女儿泊晨两夜仍没有入账退款，不能用母亲退款替代。"
+  professional: "2022补图原图和双方归档确实存在，窗框固定基准移90mm；图上无旧潮印定位和管线复核，专业是否另有收文未知。"
+  fifth_floor: "有限供水边界未变，不能从补图认某户责任。"
+  center_archive: "2022普通楼宇补图与2019 F003分源，M004/M005和F008未证。"

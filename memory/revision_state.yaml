@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 601
-current_stage: chapter601_stage_a_metadata_rebind_new_sha_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0601.md
-current_source_sha: ac8715678f4d8db987e5f28a4276fc472c381281
-current_review_path: reader_reviews/0601_ac871567.md
+current_chapter: 603
+current_stage: chapter603_stage_a_metadata_rebind_new_sha_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0603.md
+current_source_sha: 8dcd2932d7f5e1cc55b184e22f74c13d968d8426
+current_review_path: reader_reviews/0603_8dcd2932.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter601_stage_a_metadata_only_new_sha_reader_0_0_2_qa_pass
+last_action: chapter603_stage_a_metadata_rebind_new_sha_reader_qa_pass
 last_action_date: "2026-11-08"
 last_error: null
-last_diff_summary: "601仅Front Matter与详细章纲重绑前600正式readySHA，正文0字改变；初审0/1/2，改后新SHA复审0/0/2；候选精确CI结构校验待核。"
+last_diff_summary: "603只把602临时SHA重绑602最终ready SHA，新草稿8dcd2932d7f5e1cc55b184e22f74c13d968d8426，正文零字；初审0/1/2，新SHA双遍复审0/0/2；精确候选CI待核。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: ac8715678f4d8db987e5f28a4276fc472c381281
+current_review_source_sha: 8dcd2932d7f5e1cc55b184e22f74c13d968d8426
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6135,5 +6135,27 @@ chapter_601_arc054_verified:
   fix: "比较600原草稿与正式ready章名及全文一致，仅Front Matter元数据变更；601元数据及章纲重绑前600正式readySHA"
   predecessor_ready_sha: "8e4fb67fa2977c330b46caa5010c49a5e83fe0dd"
   dependency_status: verified_ready_same_title_body_facts
+  content_qa: pass
+  structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_602_arc054_verified:
+  draft_sha: "fc76b51253482451c3ac2a1d4b0dbd24e165b6e3"
+  reader_review: reader_reviews/0602_fc76b512.md
+  reader_counts: "0/0/2"
+  local_revision_used: 0
+  body_revisions: 0
+  content_qa: pass
+chapter_603_arc054_verified:
+  initial_draft_sha: "a8cac2b77e28d0dd0973cf5072418c3a3a9a554a"
+  final_draft_sha: "8dcd2932d7f5e1cc55b184e22f74c13d968d8426"
+  original_review: reader_reviews/0603_a8cac2b7.md
+  final_review: reader_reviews/0603_8dcd2932.md
+  initial_counts: "0/1/2"
+  final_counts: "0/0/2"
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "3542f900ebe3afa37a0939446d19c88855d02fa5"
   content_qa: pass
   structural_gate: exact_candidate_ci_success_required_before_main
