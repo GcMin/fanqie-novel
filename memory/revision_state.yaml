@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 615
-current_stage: chapter615_stage_a_rebind_new_sha_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0615.md
-current_source_sha: e9d0da01f4477c89c1bd71772ab6e8bca8595659
-current_review_path: reader_reviews/0615_e9d0da01.md
+current_chapter: 616
+current_stage: chapter616_reader_qa_pass_no_revision_candidate_ci_pending
+current_source_path: chapters/draft/0616.md
+current_source_sha: 088625d7a2aeb10893c228d121e4f45f5c63458d
+current_review_path: reader_reviews/0616_088625d7.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter615_stage_a_metadata_only_rebind_reader_qa_pass
+last_action: chapter616_reader_qa_pass_no_revision
 last_action_date: "2026-11-08"
 last_error: null
-last_diff_summary: "原615草稿0/1/2仅前614 provisional依赖MAJOR；第614初draft与ready标题及正文逐字一致；Stage A仅更新615 Front Matter及详细计划依赖到614正式ready SHA，新草稿独立双遍Reader 0/0/2、QA PASS，小说正文0字改；结构候选CI待核。"
+last_diff_summary: "第616章原始草稿新SHA独立Reader Pass A/B 0/0/2，前615正式ready依赖精确一致；无正文修改，独立Continuity/Style/Meaningful QA PASS，等待精确候选CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: e9d0da01f4477c89c1bd71772ab6e8bca8595659
+current_review_source_sha: 088625d7a2aeb10893c228d121e4f45f5c63458d
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6318,3 +6318,14 @@ chapter_615_arc054_verified:
   content_qa: pass
   predecessor_ready_sha: "d08b86aad76d09f88dac6b6bb169ef21cff72f08"
   structural_gate: exact_candidate_ci_success_required_before_main
+ 
+combined_audit_chapter_616_20261108:
+  chapter: 616
+  source_sha: "088625d7a2aeb10893c228d121e4f45f5c63458d"
+  review: reader_reviews/0616_088625d7.md
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  body_revisions: 0
+  content_qa: pass
+  predecessor_ready_sha: "d0e37bf515d6315a713355e45428341399bcd697"
+  structural_gate: exact_candidate_CI_required_before_main
