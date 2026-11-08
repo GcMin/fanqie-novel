@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 604
-current_stage: chapter604_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0604.md
-current_source_sha: 8dcd2932d7f5e1cc55b184e22f74c13d968d8426
-current_review_path: reader_reviews/0603_8dcd2932.md
+current_chapter: 605
+current_stage: chapter605_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0605.md
+current_source_sha: 6eb11f5cd4895b2d92fa9872bbaf744a8db8eb00
+current_review_path: reader_reviews/0605_6eb11f5c.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter603_stage_a_metadata_rebind_new_sha_reader_qa_pass
+last_action: chapter605_reader_qa_pass_no_revision
 last_action_date: "2026-11-08"
 last_error: null
-last_diff_summary: "603只把602临时SHA重绑602最终ready SHA，新草稿8dcd2932d7f5e1cc55b184e22f74c13d968d8426，正文零字；初审0/1/2，新SHA双遍复审0/0/2；精确候选CI待核。"
+last_diff_summary: "605原草稿与604最终ready SHA精确匹配，Reader 0/0/2，独立QA PASS，正文0字；候选CI结构Gate待核。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -6157,5 +6157,15 @@ chapter_603_arc054_verified:
   stage_c_used: 0
   body_revisions: 0
   predecessor_ready_sha: "3542f900ebe3afa37a0939446d19c88855d02fa5"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_success_required_before_main
+chapter_605_arc054_verified:
+  source_sha: "6eb11f5cd4895b2d92fa9872bbaf744a8db8eb00"
+  reader_review: reader_reviews/0605_6eb11f5c.md
+  counts: "0/0/2"
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
   content_qa: pass
   structural_gate: exact_candidate_ci_success_required_before_main

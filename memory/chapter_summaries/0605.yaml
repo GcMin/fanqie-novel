@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 605
+title: "两晚房费退回，墙角有了新基点"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "6eb11f5cd4895b2d92fa9872bbaf744a8db8eb00"
+reader_review: "reader_reviews/0605_6eb11f5c.md"
+depends_on_chapter: 604
+depends_on_source_sha: "d18f6e6d738f2b74e597b2354e228f0008a56285"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day468 08:42—Day469 07:07"
+summary: "Day468河安母亲首层双床物业真付住期到Day469午、两卡有效，Day464本人自费一晚此前已退；唐晓漫泊晨Day453—455本人垫付两晚从此前待核转为15:58拿到限项退款出账指令、17:26本人银行明细核实真正入账，拒绝以本人两晚退还即全部安置结清，原押金搬运与旧房赔责未结。2022同号专业任务曾因缺进入和统一定位基点被退回未实施；Day468 09:22新限项五楼公共位置非破坏复拍批准、11:04签出，13:47—15:09仅观察窗原状摄照、软垫靠尺、固定墙角与原始读数，建立当代可重复测量基点，纠正Day462草图错以窗框作固定零点；不能把2022移窗90mm当今天实测偏移或认旧潮印/灰管/2021预留端同一与漏源责任。五楼有限复水不扩，四楼专业复评仍待许可、原12cm口父亲旧板独封，单照明限用其余受水电路隔离整屋禁返住，没有试水转阀拆管进户复装。母女买菜吃饭与周末可走平缓路，20:37母亲亲回拨夜班、Day469 07:07交班；F003历史原73页旧袋今址自然人答复及F008/M004/M005无新证。"
+meaningful_state_changes:
+  - "Day468 17:26唐晓漫本人两晚泊晨银行真退，其他赔责未结。"
+  - "新合法五楼公共任务建立可复测固定墙角新基点并纠正活动窗框零点。"
+knowledge_updates:
+  - "母女已知女儿两晚真退和河安物业只付到Day469午，但未知后续续住与四楼漏源。"
+  - "专业知道新拍摄基点可复用，旧潮印/灰管同一、真实管线功能及漏源责任未证。"
+relationship_updates:
+  - "母亲拒总安置结清条款，支持女儿自主办个人费用，母女继续日常饭菜与出行安排。"
+foreshadowing_updates:
+  - "F003历史旧页旧袋和真人得答无新证，普通2022维修档不串F008/M004/M005。"
+ending_state: "Day469 07:07河安住期仅到中午，女儿本人旧两晚已真退，五楼有当代固定墙角复拍基点却不证漏源，四楼仍不可返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6eb11f5cd4895b2d92fa9872bbaf744a8db8eb00", final_draft_sha: "6eb11f5cd4895b2d92fa9872bbaf744a8db8eb00", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3238

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 604
+last_updated_chapter: 605
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3108,3 +3108,11 @@ chapter_604_arc054_verified:
   mother_property_street: "母亲对商户实付和双卡真开才签仅新住期的收讫，不因本次付款免除旧赔责。"
   mother_professional_fifth_floor: "负责人把2022同号专业未实施与全楼历史和当前专业许可分开，五楼只得合法限定告知不承担未证责任。"
   center_team: "夏宁周衡梁策将旧专业退单与现行安全复评分源归档，保留返住保护措施。"
+
+chapter_605_arc054_verified:
+  chapter: 605
+  source_sha: "6eb11f5cd4895b2d92fa9872bbaf744a8db8eb00"
+  mother_daughter: "母亲拒以女儿个人两晚退款签全部安置结清，女儿自主核本人银行入账，晚间一起买菜吃饭讨论周末。"
+  mother_property_street: "母亲仅认可本次实付住期，河安物业款至Day469午；旧押金搬运房赔仍未结。"
+  mother_professional_fifth_floor: "专业负责人纠正历史90mm与活动窗框零点的错误推断，五楼住户仅得有限解释；不拿工程照片承诺四楼复住。"
+  center_team: "按来源分记本人退款和公区基点，独立保留四楼保护条件与2019旧案边界。"
