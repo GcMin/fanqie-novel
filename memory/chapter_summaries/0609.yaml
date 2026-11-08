@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 609
+title: "签认页上有收件人，验收一栏仍空着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "a6041cad38c94e04f871c235a1d403169425a372"
+reader_review: "reader_reviews/0609_a6041cad.md"
+depends_on_chapter: 608
+depends_on_source_sha: "cce82ef6edc7ecec46877a5c89269a9131762ff9"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day472 08:07—Day473 07:04"
+summary: >-
+  Day472河安原首层双床物业三晚真实支付仅至当天中午；10:28有付款凭据商户仍未收，11:09河安商户真实收到物业新两晚直付款至Day474中午，11:18母亲逐张试开两张新房卡，只签本期收讫，不签整体安置结清。母亲Day464个人一晚和唐晓漫Day453—455泊晨个人两晚已各自银行真实退款，押金、搬运、房损与原房修复赔责仍未结。仁合里四楼Day471获外封箱组现址信息但尚未开箱，Day472 13:36新独立许可下两名保管员合法启封核内件，分清材料到场验收签名与现场位置交底收悉签名；交底纸上曾提收边线退让但原一掌宽被划掉改为待现场实测，交底收悉栏有两名签署，隐蔽前复核/实做验收栏本次未见填写，附件所列复核定位片本箱未见实物。15:22复封后只另申请定位片去向及非破坏现场边界定位，未核实际做法、两砂浆湿点漏源或返住许可。道路坡口雨后积水已清而翘砖只警示未修，母亲维持北口绕行。四楼原12厘米口不扩、父亲笔迹旧板独封、单照明支路有限用其余受水电路隔离整屋禁返住，五楼西户有限复水不扩。20:42母亲本人回拨、Day473 07:04交班；2019 F003原第73页、旧袋今址及历史自然人得答、F008/M004/M005均无新证，当代图纸不跨源认旧案。
+meaningful_state_changes:
+  - "Day472 11:09河安商户真正收到物业Day472中午—Day474中午两夜款，11:18双卡实开，本期住宿已保障但不结清原房赔责。"
+  - "有权双保管员13:36开箱确认四楼历史交底收悉真实签名而隐蔽前实做验收栏本次未见填写，定位片有名无本箱实件，15:22复封；查件≠施工事实。"
+knowledge_updates:
+  - "母女知本期住房真实延期到Day474中午、旧个人垫资真退，原房不可返住；只获经脱敏的历史交底收件信息，不知道实际收边位置。"
+  - "工程、保管、夜班知材料到场验收与现场交底签收分源，交底有签名但不证隐蔽前验收及当代两湿点受水路径。"
+relationship_updates:
+  - "母亲不让女儿代付代签，维持自主核房卡和雨天绕行，女儿正常工作并共进晚饭；专业方拒用签名替住户决定返住。"
+foreshadowing_updates:
+  - "四楼现场复核定位片实件今址及非破坏边界定位许可仍待独立查核；F003 2019原73页旧袋今址历史个人得答和F008/M004/M005跨源同一性无新证。"
+ending_state: "Day473 07:04河安真付两夜至Day474午；四楼签认仅交底收悉有签名、隐蔽前实做验收与定位片仍待查、整屋禁返住；坡口松砖未修。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "a6041cad38c94e04f871c235a1d403169425a372", final_draft_sha: "a6041cad38c94e04f871c235a1d403169425a372", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3468

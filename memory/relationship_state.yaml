@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 607
+last_updated_chapter: 609
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3140,3 +3140,11 @@ chapter_608_arc054_verified:
   mother_property_street: "母亲对道路风险分别实名受理并确认处理范围，不以积水清除宣称铺砖已修；河安真款仅到Day472午，不以两笔已退款结清全部搬运/房损。"
   mother_professional_fifth_floor: "工程专业与档案保管岗纠正截短索引混名和“签认资料已齐”便条，向母亲只给去身份箱组信息，不认真实施工、漏源或允许返住；五楼有限复水仍受原限制。"
   center_team: "夜班按来源分写道路积水/松砖与签认箱组/内件两类责任，保持信息边界与普通日常行动的尊重。"
+
+chapter_609_arc054_verified:
+  chapter: 609
+  source_sha: "a6041cad38c94e04f871c235a1d403169425a372"
+  mother_daughter: "母亲自己核商户实收与双卡，女儿上午开会无需请假，傍晚一起吃饭聊买菜及下次房卡截止日；女儿不代母亲签整体安置结案，尊重她走北口避松砖的安排。"
+  mother_property_street: "母亲要求付款成功以河安商户真实收款为准，仅签本期住房，不同意将安置相关押金搬运房赔标为全部完成；道路排水已清但砖未修仍按两项分记并维持绕行。"
+  mother_professional_fifth_floor: "工程负责人仅提供合法脱敏交底收悉与验收空栏的有限摘要，明确不因有旧签名就安排施工/返住；五楼住户维持既有有限用水而不背未证工程责任。"
+  center_team: "夜班将本期实付、道路排水与铺砖风险、工程交底签收与隐蔽前验收缺口分层交班，不借当代工程推定2019失址旧案。"
