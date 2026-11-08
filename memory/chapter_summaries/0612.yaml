@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 612
+title: "房卡一次续足七晚，旧墙照片露出两层颜色"
+volume: 6
+arc: "ARC-054"
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "8b93b3f2c693d13c19bbdadd04c7834255f823d2"
+reader_review: "reader_reviews/0612_8b93b3f2.md"
+original_source_sha: "e72c3670bfa0e38c475458f99af997286c627512"
+initial_reader_review: "reader_reviews/0612_e72c3670.md"
+depends_on_chapter: 611
+depends_on_source_sha: "292132ce7264caaac0fec0446ea2211b25d46fcf"
+dependency_status: verified_ready_fact_delta_compatible
+timeframe: "Day475 08:12—Day476 07:06"
+summary: >-
+  Day475河安母亲首层双床房原物业已实付到Day476午双卡仍可用，物业新七夜申请09:08前台没有实际付款且包含不当安置结案措辞，母亲只限项确认原房续住意愿。13:26河安商户真正收到物业Day476午—Day483午七晚预付款，13:34两张卡真正重写逐张试开，原房不搬；母亲只签新七晚实收回执，不签原房押金搬运房损与修复责任总结清，母亲河安一晚及唐晓漫泊晨两晚以前个人垫资均已银行真退不再列欠。Day474工程岗依法只核整栋普通找平砂浆和局部防潮界面材料两类到场，没有四楼房间领用实作证。Day475工程岗10:27另申请限定核2021四楼东侧该户施工影像及班组日报，14:40获有责批准，受控看到旧某时作业面灰白层和深色窄带后被局部找平覆盖的不同可见处理状态；因为缺原完整标尺与后续隐蔽验收/返工，不能据颜色认材料化学身份或映射现今表面旧砂浆两点约67cm和112cm、漏源及安全返住。16:17阅毕仅拟另核材料配比、领退与返工，不获新现场施工许可。母亲独自走已验收东坡口买菜保留北口雨天备路，女儿正常上班晚间带鸡蛋共饭；20:38母亲亲回拨，Day476 07:06交班。四楼原12cm口父亲短铅笔线旧板封存、客厅一照明限用其他受水线路隔离整屋禁返住，五楼限定复水未扩；2019 F003原73页旧袋今址历史真人获答与F008/M004/M005无新证。
+meaningful_state_changes:
+  - "Day475 13:26河安实际收物业七夜直付到Day483午并13:34两房卡逐一真试，押金搬运房损赔责未结。"
+  - "依法真查2021四楼东侧指定作业面旧施工照片与班组日报出现两种不同可见处理色状态，不证材料化学性质、今日隐藏层及漏源或返住许可。"
+  - "七夜真实预付减轻母女因频繁催款请假负担，母亲仍自行从已开放东坡口出行。"
+knowledge_updates:
+  - "母女知七晚已实付到Day483中午、旧个人垫资真退而旧房赔责未结，只得有限工程旧照片摘要不知漏源返住日。"
+  - "工程知道该户旧施工时点有不同可见处理色层，但没有原完整标尺或隐蔽验收，无法给今日湿点和墙内实层对应。"
+relationship_updates:
+  - "母亲不以临住七夜收讫换取放弃原房权利，女儿维持上班与正常家庭晚餐，尊重母亲自主走已验收坡口。"
+foreshadowing_updates:
+  - "下一小步须另合法核原班组领退、配比与返工，仍缺旧定位片；F003原73页旧袋今址历史自然人获答F008/M004/M005不证。"
+ending_state: "Day476 07:06河安物业新七夜真付到Day483中午双卡有效；旧施工时点两种可见表面处理已核但现况墙内层位漏源及返住许可未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "e72c3670bfa0e38c475458f99af997286c627512", final_draft_sha: "8b93b3f2c693d13c19bbdadd04c7834255f823d2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3318

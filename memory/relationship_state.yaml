@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 611
+last_updated_chapter: 612
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3164,3 +3164,11 @@ chapter_611_arc054_verified:
   mother_property_street: "对河安商户真实收到物业两晚后才签限项续住，未以绿色审批取代实收；认可道路仅东坡口局部具名验收。"
   mother_professional_fifth_floor: "母亲守住房禁返与父亲旧板保护；工程方仅核整栋材料到场不擅采购，五楼限定复水不因旧材料档升级。"
   center_team: "夏宁周衡梁策以房费商户真实到账、道路局部合格和工程到场而非实作分项登记，维持2019旧案证据边界。"
+
+chapter_612_arc054_verified:
+  chapter: 612
+  source_sha: "8b93b3f2c693d13c19bbdadd04c7834255f823d2"
+  mother_daughter: "七晚实际商户收款减轻女儿因住房续费反复请假催款，母亲亲自走东坡口留雨天北口备用，晚间女儿带鸡蛋共同做饭，仍尊重本人决定。"
+  mother_property_street: "母亲只对商户实收并两卡实际可用的本期住房签字，不签物业提供的旧房全面结案条款，旧赔责独立。"
+  mother_professional_fifth_floor: "母亲仅获有限旧施工影像结论不把两色认今天漏源或复居许可，父亲旧板继续独号封存五楼有限复水保持。"
+  center_team: "夏宁周衡梁策把七夜真款、旧施工影像有源可见事实和未证隐蔽层分栏登记不合并2019异常案。"

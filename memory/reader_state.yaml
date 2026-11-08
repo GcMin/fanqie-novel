@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 611
-last_reviewed_title: "坡口终于放行，墙里的材料还没认领"
-last_source_path: chapters/draft/0611.md
-last_source_sha: 72a4dee65a4ff09d59e90efa7a9659ab51b5527f
-last_review_path: reader_reviews/0611_72a4dee6.md
+last_reviewed_chapter: 612
+last_reviewed_title: "房卡一次续足七晚，旧墙照片露出两层颜色"
+last_source_path: chapters/draft/0612.md
+last_source_sha: 8b93b3f2c693d13c19bbdadd04c7834255f823d2
+last_review_path: reader_reviews/0612_8b93b3f2.md
 last_reviewed_at: "2026-11-08"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -7024,5 +7024,21 @@ chapter_611_arc054_verified:
   stage_a_used: 1
   body_revisions: 1
   predecessor_ready_sha: "c2b402ac4d76c7225d692e60d85d6997c4fe2d2e"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_612_arc054_verified:
+  original_sha: "e72c3670bfa0e38c475458f99af997286c627512"
+  final_source_sha: "8b93b3f2c693d13c19bbdadd04c7834255f823d2"
+  initial_review: reader_reviews/0612_e72c3670.md
+  final_review: reader_reviews/0612_8b93b3f2.md
+  initial_counts: "0/1/2"
+  final_counts: "0/0/2"
+  pass_a_then_pass_b_new_sha: true
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_old_sha: "19d82b2b4f4cb3b5e7d5c52114385f804b3729db"
+  predecessor_ready_sha: "292132ce7264caaac0fec0446ea2211b25d46fcf"
+  dependency_status: verified_ready_fact_delta_compatible
   content_qa: pass
   structural_gate: exact_candidate_ci_success_required_before_main

@@ -6261,3 +6261,19 @@ chapter_611_arc054_verified:
   content_qa: pass
   predecessor_ready_sha: "c2b402ac4d76c7225d692e60d85d6997c4fe2d2e"
   structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_612_arc054_verified:
+  original_sha: "e72c3670bfa0e38c475458f99af997286c627512"
+  source_sha: "8b93b3f2c693d13c19bbdadd04c7834255f823d2"
+  stage: local_revision_metadata_only
+  fix: "612前611旧provisional SHA经逐字对照只有Day475到期误日修正且与本章兼容;612元数据与详细计划改绑定正式ready"
+  stage_a_rounds: 1
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 0
+  initial_review: reader_reviews/0612_e72c3670.md
+  review_after: reader_reviews/0612_8b93b3f2.md
+  reader_counts: "0/1/2 -> 0/0/2"
+  content_qa: pass
+  predecessor_ready_sha: "292132ce7264caaac0fec0446ea2211b25d46fcf"
+  structural_gate: exact_candidate_ci_success_required_before_main
