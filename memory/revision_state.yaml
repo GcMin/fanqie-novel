@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 616
-current_stage: chapter616_reader_qa_pass_no_revision_candidate_ci_pending
-current_source_path: chapters/draft/0616.md
-current_source_sha: 088625d7a2aeb10893c228d121e4f45f5c63458d
-current_review_path: reader_reviews/0616_088625d7.md
+current_chapter: 617
+current_stage: chapter617_stage_a_dependency_rebind_new_sha_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0617.md
+current_source_sha: 6e7f4f0e2fa52534742bab379233f891b8904b00
+current_review_path: reader_reviews/0617_6e7f4f0e.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter616_reader_qa_pass_no_revision
+last_action: chapter617_stage_a_metadata_only_rebind_reader_qa_pass
 last_action_date: "2026-11-08"
 last_error: null
-last_diff_summary: "第616章原始草稿新SHA独立Reader Pass A/B 0/0/2，前615正式ready依赖精确一致；无正文修改，独立Continuity/Style/Meaningful QA PASS，等待精确候选CI。"
+last_diff_summary: "617原SHA db51e797初Reader 0/1/2仅前616临时依赖，前616草稿与ready正文标题一致；Stage A仅重绑到616 ready c8b619552cda3a054c984168e3b552f2bbe99ff8并同步计划，新SHA 6e7f4f0e2fa52534742bab379233f891b8904b00独立双遍Reader 0/0/2与Continuity/Style/Meaningful QA PASS，小说正文零字改，结构CI待核。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 088625d7a2aeb10893c228d121e4f45f5c63458d
+current_review_source_sha: 6e7f4f0e2fa52534742bab379233f891b8904b00
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6328,4 +6328,21 @@ combined_audit_chapter_616_20261108:
   body_revisions: 0
   content_qa: pass
   predecessor_ready_sha: "d0e37bf515d6315a713355e45428341399bcd697"
+  structural_gate: exact_candidate_CI_required_before_main
+ 
+combined_audit_chapter_617_20261108:
+  chapter: 617
+  original_source_sha: "db51e797822f0d851255805077adda100123372d"
+  original_review: reader_reviews/0617_db51e797.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage: local_revision_metadata_only
+  final_draft_sha: "6e7f4f0e2fa52534742bab379233f891b8904b00"
+  current_review_path: reader_reviews/0617_6e7f4f0e.md
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  predecessor_ready_sha: "c8b619552cda3a054c984168e3b552f2bbe99ff8"
   structural_gate: exact_candidate_CI_required_before_main
