@@ -1,8 +1,8 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 603
-current_stage: chapter603_stage_a_metadata_rebind_new_sha_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0603.md
+current_chapter: 604
+current_stage: chapter604_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0604.md
 current_source_sha: 8dcd2932d7f5e1cc55b184e22f74c13d968d8426
 current_review_path: reader_reviews/0603_8dcd2932.md
 rounds:

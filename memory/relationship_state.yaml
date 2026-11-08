@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 603
+last_updated_chapter: 604
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3100,3 +3100,11 @@ chapter_603_arc054_verified:
   mother_property_street: "母亲对已有本人退款有限签收，但对未来拟续房书面安排拒签已实付，街道只登记现状。"
   mother_professional_fifth_floor: "工程负责人划掉按旧补图复装指令，五楼有限复水与隐私保护不变。"
   center_team: "夜班记录实档补图与专业处置未证的差别，住房退款和未来未付款分账。"
+
+chapter_604_arc054_verified:
+  chapter: 604
+  source_sha: "7a33547ecff1e47ace14743cb03f63d506017703"
+  mother_daughter: "母亲坚持真实住期后自主管理生活，女儿正常上班晚间陪伴，两夜旧个人费用仍由本人独立追核。"
+  mother_property_street: "母亲对商户实付和双卡真开才签仅新住期的收讫，不因本次付款免除旧赔责。"
+  mother_professional_fifth_floor: "负责人把2022同号专业未实施与全楼历史和当前专业许可分开，五楼只得合法限定告知不承担未证责任。"
+  center_team: "夏宁周衡梁策将旧专业退单与现行安全复评分源归档，保留返住保护措施。"

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 603
+last_updated_chapter: 604
 characters:
   zhou_heng:
     knows:
@@ -3606,3 +3606,12 @@ chapter_603_arc054_verified:
   professional: "2022补图原图和双方归档确实存在，窗框固定基准移90mm；图上无旧潮印定位和管线复核，专业是否另有收文未知。"
   fifth_floor: "有限供水边界未变，不能从补图认某户责任。"
   center_archive: "2022普通楼宇补图与2019 F003分源，M004/M005和F008未证。"
+
+chapter_604_arc054_verified:
+  chapter: 604
+  source_sha: "7a33547ecff1e47ace14743cb03f63d506017703"
+  mother: "知Day467 11:07河安物业新付两夜到Day469中午，11:15双房卡实际续开；Day464本人一晚已退，女儿泊晨两晚仍待核，旧房仍不可返住；只得同号专业单有限未实施回告。"
+  daughter: "本人泊晨Day453—455两晚尚无核赔入账，知道母亲新住期到Day469中午；未掌握超许可工程细节。"
+  professional: "知道2022同号联系单专业业务台真实接收并因现场进入条件、统一定位基点不足而回退且未实施该编号现场核验；其他历史任务及当今灰管身份漏源责任未知。"
+  fifth_floor: "知道原许可限定用水照旧，无新增转阀试水或责任结论。"
+  center_archive: "合法有限回告同号专业未实施；2019 F003原73页旧袋历史人得答不因此新增证据，M004/M005未解决。"

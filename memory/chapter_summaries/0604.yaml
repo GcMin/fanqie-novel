@@ -1,0 +1,29 @@
+schema_version: 1
+chapter: 604
+title: "补图归了档，专业复核单却写着未实施"
+volume: 6
+arc: "ARC-054"
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "7a33547ecff1e47ace14743cb03f63d506017703"
+reader_review: "reader_reviews/0604_7a33547e.md"
+depends_on_chapter: 603
+depends_on_source_sha: "20a8c0c53d266e584962a473e5ea140867a05c7e"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day467 08:24—Day468 07:05"
+summary: "Day467河安旧两卡原到当天中午，10:30收银端尚无物业续款，11:07物业正式付Day467午至Day469午两夜，11:15两卡改写逐一试开，母亲只签本次住期。母亲Day464自费一晚在Day466 14:31已真退，唐晓漫泊晨Day453—455本人付两晚仍待核赔，其他押金搬运赔损未结。2022公共窗联系单循同号合法限阅，13:09获专业业务有限许可，查见转送、专业业务台真收及有收讫回退：由于缺现场进入条件和统一潮印定位基点，同编号专业现场核验明确未实施；这不是说所有历史编号从未查。窗位90mm补图完成不等于管线专业复核，旧潮印/灰侧接/2021图示/当代四楼受潮之间同一性与漏源责任仍未证。现况五楼公共非破坏条件及四楼独立安全复评仍须另获许可，没有转阀试水/拆管/复装/复电。四楼原12cm口、父亲旧板独封、客厅单照明有限用其余受水回路隔离整屋禁返住，五楼有限复水不变。母亲20:43亲回拨、Day468 07:05交班；2019 F003第73页、旧袋今址历史真人受答与F008/M004/M005仍无新证。"
+meaningful_state_changes:
+  - "Day467 11:07河安真收物业两夜续款至Day469中午，11:15两卡实试。"
+  - "2022同号专业任务真收真退且现场核验明确未实施，限于该编号，不替代当前工程复评。"
+knowledge_updates:
+  - "母女知新两夜已实收，但女儿泊晨旧两夜和其他赔责未结。"
+  - "工程和中心知该同号专业单未实施现场核验，不能推所有旧查核为零或认今日漏源。"
+relationship_updates:
+  - "母亲坚持仅签本住期，女儿保持上班并在晚间交流，工程负责人纠正扩张旧单效力的说法。"
+foreshadowing_updates:
+  - "2019 F003原第73页/旧封袋现址/历史个人受答无新证，普通2022资料不得串F008/M004/M005。"
+ending_state: "Day468 07:05母亲河安住期有效至Day469中午，女儿泊晨两晚仍待核；2022同号专业任务未实施、当代四楼仍禁止返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7a33547ecff1e47ace14743cb03f63d506017703", final_draft_sha: "7a33547ecff1e47ace14743cb03f63d506017703", stage_a_used: 0, body_revisions: 0}
+char_count: 3701

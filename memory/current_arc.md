@@ -1,3 +1,8 @@
+## 第604章 ARC-054 已审正文事实｜2026-11-08（精确候选结构CI待核）
+- 独立Reader Pass A/B针对草稿7a33547ecff1e47ace14743cb03f63d506017703为0/0/2 keep/none，正文零修订，有效字符3701，前章603正式ready 20a8c0c53d266e584962a473e5ea140867a05c7e精确匹配；独立Continuity/Style/Meaningful QA PASS。
+- Day467物业11:07向河安真实续付Day467午—Day469午两夜，11:15两卡真试；女儿泊晨旧两晚仍待核。2022同号专业单有业务台真实接收与回退收讫，因缺进入条件和统一定位基点该编号现场核验未实施；当代漏源及其他历史核查不据此定性。四楼仍禁返住、五楼有限复水不扩；2019旧案证据界限不变。
+- 内容通过不代表结构Gate；精确候选commit CI通过后方可main正式ready。
+
 ## 第603章 ARC-054 Stage A新SHA Reader/QA/Memory｜2026-11-08（精确候选结构CI待核）
 - 第602章原草稿 fc76b51253482451c3ac2a1d4b0dbd24e165b6e3 与拟正式ready 3542f900ebe3afa37a0939446d19c88855d02fa5 标题及全部小说正文一致，仅交付Front Matter差异。603原初稿 a8cac2b77e28d0dd0973cf5072418c3a3a9a554a 依赖602临时稿，初审Reader 0/1/2；Stage A仅修Front Matter与详细章纲依赖到602正式ready，正文零字，603新Draft 8dcd2932d7f5e1cc55b184e22f74c13d968d8426，独立Reader Pass A/B重新审核0/0/2，Continuity/Style/Meaningful QA PASS，有效字数3466。
 - Day466 2022窗位补图及双边原始归档交接真见，图只含90mm窗框移动无旧潮印或管线复核结果；母亲Day464一晚本人旧垫费14:31银行真退款，女儿泊晨两夜仍待核。物业Day467午后拟续两夜只有书面承诺，未获河安商户真收，旧两卡仅到Day467午。
