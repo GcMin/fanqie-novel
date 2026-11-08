@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 606
+last_updated_chapter: 607
 characters:
   zhou_heng:
     knows:
@@ -3633,3 +3633,12 @@ chapter_606_arc054_verified:
   professional: "知四楼独立许可及实测两点非一致、五楼墙角复拍零点不适用四楼，不知真实受水路径或灰侧管漏源、不能给复电返住或缩临住依据。"
   fifth_floor: "只知现有有限供水限制，无扩大供水或针对个人漏源归责。"
   center_archive: "夏宁周衡梁策按真凭据分列三晚续费与有限专业复评，F003原73页旧袋历史人答复及F008/M004/M005仍未证。"
+
+chapter_607_arc054_verified:
+  chapter: 607
+  source_sha: "fda7c90fa87aa0675553bc9e90fddff39531e8a0"
+  mother: "知Day472午河安付费有效、旧个人两笔退款真实但押金搬运和旧房赔责未结；理解两点湿度差不能写整体干燥，原设计不等于真实施工/返住许可。"
+  daughter: "知本人泊晨两晚早已退款及母亲酒店真续至Day472，知道工程查图无漏源或入住日期；没有未经授权的签认正文知识。"
+  professional: "知有源四楼原设计两类墙脚与过管需现场签认，签认索引有登记但内页未阅，不知当前二号湿点空间对应、实际构造、漏源责任。"
+  fifth_floor: "仅得原有限复水告知，无任何扩准操作或责任结论。"
+  center_archive: "周衡夏宁梁策按实际限项回告记录，不能把四楼当代资料串证2019 F003旧页旧袋历史人得答及F008/M004/M005。"

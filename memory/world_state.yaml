@@ -1,6 +1,6 @@
 schema_version: 1
-last_updated_chapter: 606
-current_time: "Day470 07:09河安物业三晚真款至Day472午，四楼两点有限专业复评不一致仍禁返住"
+last_updated_chapter: 607
+current_time: "Day471 07:07河安真付住至Day472午，四楼原设计签认内页未见，仍禁止返住"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-054_active
@@ -3492,3 +3492,13 @@ chapter_606_arc054_verified:
   site: "四楼Day469新获独立有限非破坏专业许可，13:27—15:48两处砂浆点实测一号较前次低二号仍高且走势异，16:23限项回告，未来受水路径/原构造检查仍须另批，无安全返住日期；五楼Day468公区新基点仅适用于自身。"
   archive_2019: "F003旧案原73页旧袋今址和历史本人受答无新证，当代楼宇测量不作F008/M004/M005机制证据。"
   invariants: "四楼原12cm口不扩、父亲铅笔线旧板独封，客厅一照明限用其余受水回路隔离整屋禁返住；五楼西户有限复水照旧。"
+
+chapter_607_arc054_verified:
+  chapter: 607
+  source_sha: "fda7c90fa87aa0675553bc9e90fddff39531e8a0"
+  hotel: "河安物业三晚真付并双卡有效至Day472午，母女旧个人垫款真退，旧押金搬运房赔未结。"
+  fourth_floor: "Day469独立非破坏复评一号点较前次低二号仍高；Day470真阅原设计两种收边和“现场签认”为准注释，签认内页及实做空间对应未知；16:02新查询/非破坏定位申请只收件无施工与返住许可。"
+  protection: "四楼原12cm口父亲旧饰板独号封存，一照明支路有限用其余受水电路隔离，整屋禁返住。"
+  fifth_floor: "原有限复水不扩大，五楼墙角摄影基点不用于四楼。"
+  archive: "2019 F003原73页旧袋今址历史自然人获答及F008/M004/M005无新确证，不用当代楼宇资料串证。"
+  handover: "Day471 07:07夜班交班，两个工程下一步申请均待审批。"
