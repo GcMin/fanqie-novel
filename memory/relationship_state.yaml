@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 615
+last_updated_chapter: 619
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3211,3 +3211,19 @@ chapter_617_arc054_verified:
   mother_property_street: "物业具名负责人只承诺Day481 16:00前具体回告，商户尚未收到Day483之后款，母亲不签已安排妥当；酒店Day481 18:00仅暂留房态与Day483既有真付截止严格分开。"
   mother_professional_fifth_floor: "母亲签收三点限定测读但在不相关拆封复装栏目明确不予，本次工程全程不动亡夫旧板，未扩大观察口或改动受水电路及五楼限定复水。"
   center_team: "夏宁周衡梁策不以三点同次相对差判完整墙体安全，也不以酒店暂留写真续费；2019普通工程之外历史异常线仍无证。"
+
+chapter_618_arc054_verified:
+  chapter: 618
+  source_sha: "c08da0fc262f708053557efeb5fdd0b94daf8009"
+  mother_daughter: "母亲自主追款及验证双卡，告诉女儿四点不必请假、若六点失败才求助搬迁；女儿工作后送饭吃橘子，尊重母亲自办。"
+  mother_property_street: "物业按时具名回告内部核准但尚未实收，母亲坚持跟财务及河安分别核验并保留真实时间凭证；只确认本期三晚住宿，不签旧房赔责结清。"
+  mother_professional_fifth_floor: "四楼专业岗位仅提交同条件后测申请，母亲没有追加授权入屋、揭封、复电或返住，父亲旧板与五楼限复水边界不变。"
+  center_team: "夏宁周衡梁策在20:47把商户到账、房卡实试、工程后测仅收件和历史旧案证据分开记录，没有代住户宣布返住。"
+
+chapter_619_arc054_verified:
+  chapter: 619
+  source_sha: "f534f06906100ac0c4834cba5ff87dadcdc8cc75"
+  mother_daughter: "母亲自己买南瓜考虑旅店无灶台，女儿下班与其商量周末去姨妈家蒸；女儿未干预母亲限定工程操作或住房自主决定。"
+  mother_property_street: "物业及工程确有单次入四楼非破坏测读批准并保留入撤场记录，母亲仅签限项知悉及报告收讫，不签工程完结或返住同意；河安真款Day486之后无新实收。"
+  mother_professional_fifth_floor: "专业人员准入只核三点表面相对示值，原观察口封边和父亲短铅笔线旧饰板独封不动，受水电路隔离和五楼限复水不变。"
+  center_team: "夜班区分Day480与Day482各自同轮二号偏高和跨轮数值不可直接诊断漏源，2019旧档独立，已付住宿不等于现房可返住。"

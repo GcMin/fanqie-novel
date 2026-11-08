@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 617
-last_reviewed_title: "干墙作了参照，潮湿还没找到来路"
-last_source_path: chapters/draft/0617.md
-last_source_sha: 6e7f4f0e2fa52534742bab379233f891b8904b00
-last_review_path: reader_reviews/0617_6e7f4f0e.md
-last_reviewed_at: "2026-11-08"
+last_reviewed_chapter: 619
+last_reviewed_title: "第二次读数出来，墙后仍没有答案"
+last_source_path: chapters/draft/0619.md
+last_source_sha: f534f06906100ac0c4834cba5ff87dadcdc8cc75
+last_review_path: reader_reviews/0619_f534f069.md
+last_reviewed_at: "2026-11-09"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 616
-depends_on_source_sha: c8b619552cda3a054c984168e3b552f2bbe99ff8
+depends_on_chapter: 618
+depends_on_source_sha: 723cf7928be2f405366bd09a4186d813d3715eda
 dependency_status: verified_ready_same_title_body_facts
-predecessor_current_source_sha: c8b619552cda3a054c984168e3b552f2bbe99ff8
+predecessor_current_source_sha: 723cf7928be2f405366bd09a4186d813d3715eda
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7132,4 +7132,48 @@ combined_audit_chapter_617_20261108:
   stage_a_used: 1
   predecessor_original_draft_sha: "088625d7a2aeb10893c228d121e4f45f5c63458d"
   predecessor_ready_sha: "c8b619552cda3a054c984168e3b552f2bbe99ff8"
+  structural_gate: exact_candidate_CI_required_before_main
+ 
+combined_audit_chapter_618_20261109:
+  chapter: 618
+  source_sha: "c08da0fc262f708053557efeb5fdd0b94daf8009"
+  review_path: "reader_reviews/0618_c08da0fc.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b_exact_blob
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 617
+  depends_on_source_sha: "94628122217f64e455194126a9b8cc7220b18958"
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 0
+  stage_a_used: 0
+  structural_gate: exact_candidate_CI_required_before_main
+
+combined_audit_chapter_619_20261109:
+  chapter: 619
+  original_sha: "811480e46cea3ad63b825d7f4b1fdc42e595a7ef"
+  initial_review: reader_reviews/0619_811480e4.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  original_predecessor_draft_sha: "c08da0fc262f708053557efeb5fdd0b94daf8009"
+  final_predecessor_ready_sha: "723cf7928be2f405366bd09a4186d813d3715eda"
+  predecessor_title_body_unchanged: true
+  source_sha: "f534f06906100ac0c4834cba5ff87dadcdc8cc75"
+  review_path: reader_reviews/0619_f534f069.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 618
+  depends_on_source_sha: "723cf7928be2f405366bd09a4186d813d3715eda"
+  dependency_status: verified_ready_same_title_body_facts
+  body_revisions: 0
+  stage_a_used: 1
   structural_gate: exact_candidate_CI_required_before_main

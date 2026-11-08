@@ -5,8 +5,8 @@
 - arc: ARC-054
 - status: planned
 - depends_on_chapter: 618
-- depends_on_source_sha: c08da0fc262f708053557efeb5fdd0b94daf8009
-- dependency_status: provisional
+- depends_on_source_sha: 723cf7928be2f405366bd09a4186d813d3715eda
+- dependency_status: verified_ready_same_title_body_facts
 
 ## Planner
 - 目标：河安住宿真实续至Day486后，让四楼三点现况测读的第二轮从“申请待审”推进为有限许可下真实实施；严格区分二号再次在同轮偏高与未确认漏源、不可返住。母亲在安置暂稳后恢复买菜与周末安排。
@@ -31,7 +31,7 @@
 
 ## Continuity Precheck
 - 本轮main 20690a535966bb059b3187bc40f8044b94c2a1b8核对published/ready/draft章号及第153章；第619章及对应章纲是新建文件，不能修改既有章节。
-- 上一章实际来源：chapters/draft/0618.md，完整 Git Blob SHA：c08da0fc262f708053557efeb5fdd0b94daf8009；depends_on_chapter=618，dependency_status=provisional。第618章目前是未审草稿，这一特定版本仅可作临时连续性参考，不是已审定Canon。
+- 上一章实际来源：chapters/ready/0618.md，候选正式 Git Blob SHA：723cf7928be2f405366bd09a4186d813d3715eda；depends_on_chapter=618，dependency_status=provisional。第618章目前经Reader双遍与独立QA通过并已进入候选ready快照，真实比对原draft c08da0fc与正式ready 723cf792的标题和正文逐字一致，仅交付元数据不同；须待精确结构CI通过后才能将其作为正式ready依赖。
 - 前章最后是Day482 07:06住房真延至Day486午、后测申请仅受理，本章必须先真批准后实测。
 - 非空白正文3152字符，符合2600—3400优选及2300—3800硬限；只做Planner、Continuity Precheck及Writer。
 
