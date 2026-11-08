@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 617
+title: "干墙作了参照，潮湿还没找到来路"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "6e7f4f0e2fa52534742bab379233f891b8904b00"
+original_source_sha: "db51e797822f0d851255805077adda100123372d"
+reader_review: "reader_reviews/0617_6e7f4f0e.md"
+initial_reader_review: "reader_reviews/0617_db51e797.md"
+depends_on_chapter: 616
+depends_on_source_sha: "c8b619552cda3a054c984168e3b552f2bbe99ff8"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day480 08:31—Day481 07:08"
+summary: >-
+  Day480母亲对照前日已撤“Day483返住”误推送及正式更正，河安七晚物业真付到Day483午双卡有效。Day481后续住宿仍未商户付款；河安前台Day480 11:40只临时暂留同类房态至Day481 18:00非实订，物业17:20仅具名回应正在办理并承诺Day481 16:00前真实回告，母亲分别登记两个时限及Day483既有付款截止，不请女儿代办。四楼工程组拒将前日合法查到的2021-09-15旧临时门洞基点失效试测数值与Day473本室固定角旧砂浆点直接比趋势，改拟现况两处旧点约67cm和112cm加同室一处无明显潮迹对照，记录温湿度、仪器自检、重复读数和尺度照片，第三处仅是本次比较不证明安全干燥。10:56主管书面仅准非破坏测读，母亲另限定知悉不准破拆；13:43真入四楼，14:58三处读毕，二号相对示值仍高于本次另外两处但不得说较旧批持续升高，15:07拍封边撤场。四楼原12cm口父亲短铅笔线旧板独号封存、仅客厅一照明支路有限用其余受水电路隔离整屋禁返住，五楼限复水不变，未试水复电复装。母亲独自吃馄饨与使用修好的菜包、女儿晚间带换好拉头的旧帆布袋吃面，母亲20:45本人回拨中心，夏宁分已付/仅暂留/待付，周衡分2021无效旧试测与Day480有条件新基线，Day481 07:08交班。2019 F003旧73页旧袋今址历史真人获答F008/M004/M005无新证。
+meaningful_state_changes:
+  - "Day480独立合法现况三点非破坏表面重复测量建立本室固定参照与环境记录，二号同次相对偏高但未确认漏源安全返住。"
+  - "河安Day481 18:00同房暂留和物业Day481 16:00具名答复均已确立，商户后期未收款，不能写成续住已付。"
+knowledge_updates:
+  - "母女知当前三点有限测读只是可复拍参照、Day483前商户真付和Day481两办理期限，不知墙内材料漏源、未来住宿是否真实付款。"
+  - "工程与夜班知2021旧失基点试测与新同次三点基线不可直接相互作趋势，二号相对偏高仍需同条件后测。"
+relationship_updates:
+  - "母亲自行审阅只限表面测读许可保全亡夫旧板和亲自追住房实款，唐晓漫提出请假帮忙但接受母亲自主安排；晚间共饭。"
+foreshadowing_updates:
+  - "后续需同条件重测并依法核实际漏源/正式闭口，Day481两住房时限须核真实结果；2019 F003旧页旧袋历史真人获答及F008/M004/M005没有新证。"
+ending_state: "Day481 07:08四楼有合法三点同次基线二号相对高但安全返住未准；河安实付到Day483午，Day481 16:00具名回告、18:00暂留截止仍待落实。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "db51e797822f0d851255805077adda100123372d", final_draft_sha: "6e7f4f0e2fa52534742bab379233f891b8904b00", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3137
