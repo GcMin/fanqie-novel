@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 616
-last_reviewed_title: "房卡到期日，被填成了返住日"
-last_source_path: chapters/draft/0616.md
-last_source_sha: 088625d7a2aeb10893c228d121e4f45f5c63458d
-last_review_path: reader_reviews/0616_088625d7.md
+last_reviewed_chapter: 617
+last_reviewed_title: "干墙作了参照，潮湿还没找到来路"
+last_source_path: chapters/draft/0617.md
+last_source_sha: 6e7f4f0e2fa52534742bab379233f891b8904b00
+last_review_path: reader_reviews/0617_6e7f4f0e.md
 last_reviewed_at: "2026-11-08"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 615
-depends_on_source_sha: d0e37bf515d6315a713355e45428341399bcd697
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: d0e37bf515d6315a713355e45428341399bcd697
+depends_on_chapter: 616
+depends_on_source_sha: c8b619552cda3a054c984168e3b552f2bbe99ff8
+dependency_status: verified_ready_same_title_body_facts
+predecessor_current_source_sha: c8b619552cda3a054c984168e3b552f2bbe99ff8
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7106,4 +7106,30 @@ combined_audit_chapter_616_20261108:
   depends_on_source_sha: "d0e37bf515d6315a713355e45428341399bcd697"
   dependency_status: verified_exact_ready_blob
   body_revisions: 0
+  structural_gate: exact_candidate_CI_required_before_main
+ 
+combined_audit_chapter_617_20261108:
+  chapter: 617
+  title: "干墙作了参照，潮湿还没找到来路"
+  original_source_sha: "db51e797822f0d851255805077adda100123372d"
+  initial_review_path: reader_reviews/0617_db51e797.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_path: chapters/draft/0617.md
+  source_sha: "6e7f4f0e2fa52534742bab379233f891b8904b00"
+  review_path: reader_reviews/0617_6e7f4f0e.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 616
+  depends_on_source_sha: "c8b619552cda3a054c984168e3b552f2bbe99ff8"
+  dependency_status: verified_ready_same_title_body_facts
+  body_revisions: 0
+  stage_a_used: 1
+  predecessor_original_draft_sha: "088625d7a2aeb10893c228d121e4f45f5c63458d"
+  predecessor_ready_sha: "c8b619552cda3a054c984168e3b552f2bbe99ff8"
   structural_gate: exact_candidate_CI_required_before_main
