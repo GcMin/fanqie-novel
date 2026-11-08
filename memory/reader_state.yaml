@@ -7266,3 +7266,49 @@ combined_audit_chapter_623_20261109:
   stage_a_used: 1
   body_revisions: 0
   structural_gate: exact_candidate_CI_required_before_main
+
+combined_audit_chapter_624_20261109:
+  chapter: 624
+  title: "赔偿清单有了收件号，旧房仍不能签结案"
+  source_path: chapters/draft/0624.md
+  source_sha: "200886cd2054e99605f2fe824536df9ddd2b6454"
+  review_path: reader_reviews/0624_200886cd.md
+  reviewer_mode: combined_audit_independent_pass_a_then_pass_b_exact_blob
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 623
+  depends_on_source_sha: "b68b894d70c22cac35304a61bd6b7e4a9591217a"
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 0
+  structural_gate: exact_candidate_CI_required_before_main
+
+combined_audit_chapter_625_20261109:
+  chapter: 625
+  title: "那个编号属于窗框，房卡还得另算"
+  original_source_sha: "f14a9412e01369a8e7836e477134e489a20d9676"
+  initial_review_path: reader_reviews/0625_f14a9412.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  source_path: chapters/draft/0625.md
+  source_sha: "e25bbc8544c3db86ec50362da1fb4f23b147c5b7"
+  review_path: reader_reviews/0625_e25bbc85.md
+  reviewer_mode: combined_audit_independent_pass_a_then_pass_b_after_stage_a_new_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 624
+  original_predecessor_draft_sha: "200886cd2054e99605f2fe824536df9ddd2b6454"
+  depends_on_source_sha: "5c362f0b19571eeee4d61b7893e2e641c12f12ab"
+  dependency_status: verified_ready_same_title_body_facts
+  predecessor_title_body_unchanged: true
+  stage_a_used: 1
+  body_revisions: 1
+  structural_gate: exact_candidate_CI_required_before_main

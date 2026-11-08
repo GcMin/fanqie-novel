@@ -5,8 +5,8 @@
 - arc: ARC-054
 - status: planned
 - depends_on_chapter: 624
-- depends_on_source_sha: 200886cd2054e99605f2fe824536df9ddd2b6454
-- dependency_status: provisional
+- depends_on_source_sha: 5c362f0b19571eeee4d61b7893e2e641c12f12ab
+- dependency_status: verified_ready_same_title_body_facts
 
 ## Planner
 - 本章目标：兑现Day488中午临住房款实际到期与Day488 09:30具名进度要求，不让已交旧房理赔材料成为续住的虚假结案条件；核清此前被误口称“灰管编号”的2023年照片编号究竟指向哪项资产/附件，纠正受影响的会议纪要，既推进日常安置又减少工程线假证据。

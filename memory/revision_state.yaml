@@ -6444,3 +6444,38 @@ combined_audit_chapter_623_20261109:
   predecessor_original_draft_sha: "42f8d1c08fb99d7415fc5bd86e984955b3a0a63e"
   predecessor_title_body_unchanged: true
   structural_gate: exact_candidate_CI_required_before_main
+
+combined_audit_chapter_624_20261109:
+  chapter: 624
+  original_source_sha: "200886cd2054e99605f2fe824536df9ddd2b6454"
+  stage: no_revision_required
+  final_draft_sha: "200886cd2054e99605f2fe824536df9ddd2b6454"
+  current_review_path: reader_reviews/0624_200886cd.md
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  predecessor_ready_sha: "b68b894d70c22cac35304a61bd6b7e4a9591217a"
+  structural_gate: exact_candidate_CI_required_before_main
+
+combined_audit_chapter_625_20261109:
+  chapter: 625
+  original_source_sha: "f14a9412e01369a8e7836e477134e489a20d9676"
+  initial_review: reader_reviews/0625_f14a9412.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  stage: local_revision_metadata_rebind_and_one_body_continuity_fix
+  fix: "重绑624最终ready来源；将Day488回忆的错误昨天与另一客房门外改为前天中午前台寄存及公共休息区等候"
+  final_draft_sha: "e25bbc8544c3db86ec50362da1fb4f23b147c5b7"
+  current_review_path: reader_reviews/0625_e25bbc85.md
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  predecessor_original_draft_sha: "200886cd2054e99605f2fe824536df9ddd2b6454"
+  predecessor_ready_sha: "5c362f0b19571eeee4d61b7893e2e641c12f12ab"
+  predecessor_title_body_unchanged: true
+  structural_gate: exact_candidate_CI_required_before_main

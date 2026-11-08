@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 624
+title: "赔偿清单有了收件号，旧房仍不能签结案"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "200886cd2054e99605f2fe824536df9ddd2b6454"
+reader_review: "reader_reviews/0624_200886cd.md"
+depends_on_chapter: 623
+depends_on_source_sha: "b68b894d70c22cac35304a61bd6b7e4a9591217a"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day487 07:52—Day488 07:06"
+summary: >-
+  Day487唐晓漫07:40培训列车真正离站，11:43到邻区并与同事会合，照常开展两天工作培训；母亲住Day486 13:31实际入住的河安首层新双床，旧房卡已注销，商户真正已收款仍只到Day488中午。09:07物业把换房的住宿分项误推为全单“阶段处理完成”，母亲要求保留误版并分开旧房工程与理赔。母亲梳理两笔本人和女儿先前真实已退款房费、物业直接付商户住宿、搬运与旧押金凭证、尚不能进四楼核实的受潮物件，父亲短铅笔线旧饰板不列折旧理赔亦不授开封权。Day487 13:36—14:48物业袁经办改用“分项材料接收及待办确认”代替总费用确认，14:48真生成收件号与具名回执，承诺Day491 16:00前给分项进度或补件说明，不等于金额批准与实际赔付。工程室Day487 10:12分开公共观察窗白色附着痕专业取样方法咨询与灰色细侧接独立非住户资产索引查询，11:27两事只获收件并无现场许可、成分或管线身份结论。18:22物业真正书面更正住宿换房仅是分项完成，下一期河安续住仍为申请无商户实收。母亲20:39亲回拨夜间中心，Day488 07:06交班。四楼原12cm口父亲旧饰板封存、单照明有限用其余受水回路隔离整屋禁返住、五楼西户有限复水不扩；2019 F003原73页旧袋今址历史真人获答及F008/M004/M005均未获新证。
+meaningful_state_changes:
+  - "女儿Day487 07:40真正出发、11:43邻区到站并与同事会合，两日培训按计划进行。"
+  - "母亲Day487 14:48拿到理赔材料具名接收号与Day491 16:00待办回复责任，但赔偿未被批准。"
+  - "公区白痕取样方法咨询与灰侧管资产索引查询分别真正收件、尚未获得任何现场作业许可。"
+  - "物业18:22真正撤销住宿换房等于全部工程/赔责结案的误解。"
+knowledge_updates:
+  - "母亲与女儿知Day487女儿已抵邻区、河安真付款仅到Day488午，理赔收件不等于获赔，未受限进入四楼不能现场确认损物。"
+  - "工程及中心知两个公区查询仅收件、白痕和灰管来路及漏源未知，咨询不授权取样或入户。"
+relationship_updates:
+  - "母亲自主逐项理赔与查房款，不要女儿中断培训；女儿如约报抵达并坚持正常单位工作。"
+foreshadowing_updates:
+  - "Day488中午后河安商户是否真再续款待实证；Day491 16:00索赔分项进度待回告；公区白痕取样与灰管档案身份待独立查。"
+ending_state: "Day488 07:06河安新首层双卡有效但商户实付只到当日午，之后续住仅申请；理赔有收件号而无赔付结果、工程两个公区事项只有咨询/查询收件，四楼禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "200886cd2054e99605f2fe824536df9ddd2b6454", final_draft_sha: "200886cd2054e99605f2fe824536df9ddd2b6454", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3382

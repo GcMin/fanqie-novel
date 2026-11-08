@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 625
+title: "那个编号属于窗框，房卡还得另算"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "e25bbc8544c3db86ec50362da1fb4f23b147c5b7"
+original_source_sha: "f14a9412e01369a8e7836e477134e489a20d9676"
+reader_review: "reader_reviews/0625_e25bbc85.md"
+initial_reader_review: "reader_reviews/0625_f14a9412.md"
+depends_on_chapter: 624
+depends_on_source_sha: "5c362f0b19571eeee4d61b7893e2e641c12f12ab"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day488 08:08—Day489 07:05"
+summary: >-
+  Day488母亲继续住河安Day486 13:31换入的新首层双床，商户原真款仍仅到当日中午，Day487 14:48旧房分项理赔只拿到收件号并承诺Day491 16:00具名进度不等于赔付。母亲早上明确拒物业用“总费用确认表”交换房卡；09:28仅财务内部批准两夜，10:46支付指令、11:09通道成功均未证明商户真收，11:17河安商户才实际收到续Day488午—Day490午两夜款并绑定同一新房号，11:34母亲逐张真试两张更新房卡无需再换房。工程室为Day487公共灰色细侧接资产索引收件另获Day488 10:05非住户元数据限项查询许可，查明过去被叫“灰管编号”的2023年照片附图号实际归属公共观察窗框维护任务，不能当照片内灰管资产号；13:17正式有源限定查询摘要归档并向错误引述的经办人纠正。白色附着痕专业取样方法咨询仍只有收件，灰侧管功能/远端/漏源均未知，没有新取样、拆管、试水或四楼入屋许可。母亲去补包铺配眼镜盒软垫、留亡夫原缝补丁，妹妹维修电饭煲已有报价自行决定，女儿Day488完成邻区两天培训、计划Day489返程并约修旧帆布袋底角。母亲20:43回拨中心，Day489 07:05交班。四楼原12cm观察口旧板独封、一照明有限用其余受水回路隔离整屋禁返住，五楼有限复水未扩大；2019 F003原73页旧袋今址历史本人获答及F008/M004/M005未新增确证。
+meaningful_state_changes:
+  - "Day488 11:17河安商户真正收续款至Day490午、11:34新首层现有同房号两卡真实重新可开，无再次搬房。"
+  - "2023所谓灰侧管编号正式证实为窗框维护照片附件号，原会议误引被保留版本并有源更正，不认灰管没有其他档案。"
+  - "母亲与女儿各自处理小物维修及培训返程，理赔Day491 16:00仅待进度不虚报已结算。"
+knowledge_updates:
+  - "母亲女儿知Day490午前新续款和两卡真试，知道理赔收件不等于赔偿决定；女儿Day488两日培训已完成待Day489返。"
+  - "工程及夜班知所谓灰管编号实际为2023窗框图像附件号，灰细侧接功能来路与白痕性质未定，不得以附件号定责。"
+relationship_updates:
+  - "母亲继续自主维权不以赔责结案交换续房，女儿尊重并完成培训，母女约好回来补薄旧帆布袋。"
+foreshadowing_updates:
+  - "河安Day490午后仍须另核实际付款；Day491 16:00理赔分项进度尚待有责回复；公区白痕取样和灰管另线真实资产索引待另批；2019旧案未补证。"
+ending_state: "Day489 07:05河安新首层房同号两卡实开且物业商户真付至Day490午；图像附件错号正式纠正但灰管身份/白痕未明，理赔仅受理未赔付，四楼仍禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f14a9412e01369a8e7836e477134e489a20d9676", final_draft_sha: "e25bbc8544c3db86ec50362da1fb4f23b147c5b7", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3348
