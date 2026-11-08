@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 620
-last_reviewed_title: "刷墙的人到了门口，排查单还没有批准"
-last_source_path: chapters/draft/0620.md
-last_source_sha: 34b8c337430b35cd13ef9cbde2f80c1702f59885
-last_review_path: reader_reviews/0620_34b8c337.md
+last_reviewed_chapter: 621
+last_reviewed_title: "第三个点没有干燥证明，绿色结论撤回"
+last_source_path: chapters/draft/0621.md
+last_source_sha: 3f7afbeaea670fa90d1391c3fb0ab0f47f6fe109
+last_review_path: reader_reviews/0621_3f7afbea.md
 last_reviewed_at: "2026-11-09"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 619
-depends_on_source_sha: 53e1480eb6f6be82449383097e3dbd59c0ba6a21
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 53e1480eb6f6be82449383097e3dbd59c0ba6a21
+depends_on_chapter: 620
+depends_on_source_sha: 0ce6bee258d8deff1b50f039b5620d3431505f3a
+dependency_status: verified_ready_same_title_body_facts
+predecessor_current_source_sha: 0ce6bee258d8deff1b50f039b5620d3431505f3a
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7194,4 +7194,28 @@ combined_audit_chapter_620_20261109:
   dependency_status: verified_exact_ready_blob
   body_revisions: 0
   stage_a_used: 0
+  structural_gate: exact_candidate_CI_required_before_main
+combined_audit_chapter_621_20261109:
+  chapter: 621
+  original_sha: "7539bb988816e898c9dd751e8a4aa89119b9d9dd"
+  initial_review: reader_reviews/0621_7539bb98.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  predecessor_original_draft_sha: "34b8c337430b35cd13ef9cbde2f80c1702f59885"
+  predecessor_ready_sha: "0ce6bee258d8deff1b50f039b5620d3431505f3a"
+  predecessor_title_body_unchanged: true
+  source_sha: "3f7afbeaea670fa90d1391c3fb0ab0f47f6fe109"
+  review_path: reader_reviews/0621_3f7afbea.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 620
+  depends_on_source_sha: "0ce6bee258d8deff1b50f039b5620d3431505f3a"
+  dependency_status: verified_ready_same_title_body_facts
+  body_revisions: 0
+  stage_a_used: 1
   structural_gate: exact_candidate_CI_required_before_main

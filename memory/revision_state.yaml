@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 620
-current_stage: chapter620_no_revision_required_reader_qa_pass_candidate_ci_pending
-current_source_path: chapters/draft/0620.md
-current_source_sha: 34b8c337430b35cd13ef9cbde2f80c1702f59885
-current_review_path: reader_reviews/0620_34b8c337.md
+current_chapter: 621
+current_stage: chapter621_stage_a_dependency_rebind_reader_qa_pass_candidate_ci_pending
+current_source_path: chapters/draft/0621.md
+current_source_sha: 3f7afbeaea670fa90d1391c3fb0ab0f47f6fe109
+current_review_path: reader_reviews/0621_3f7afbea.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter620_reader_qa_pass_no_revision_needed
+last_action: chapter621_stage_a_dependency_metadata_only_new_sha_reader_qa_pass
 last_action_date: "2026-11-09"
 last_error: null
-last_diff_summary: "620源sha34b8c337精确依赖619正式ready，Reader双遍0/0/2、独立QA通过，未改正文，结构CI待执行。"
+last_diff_summary: "621原7539bb98 Reader 0/1/2，唯一MAJOR是依赖620旧draft；标题正文逐字比较完全一致，StageA只重绑620正式ready SHA、正文0字改变，新SHA3f7afbea Reader 0/0/2、独立QA PASS，精确结构CI待核。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 34b8c337430b35cd13ef9cbde2f80c1702f59885
+current_review_source_sha: 3f7afbeaea670fa90d1391c3fb0ab0f47f6fe109
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6393,4 +6393,20 @@ combined_audit_chapter_620_20261109:
   final_counts: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
   predecessor_ready_sha: "53e1480eb6f6be82449383097e3dbd59c0ba6a21"
+  structural_gate: exact_candidate_CI_required_before_main
+combined_audit_chapter_621_20261109:
+  chapter: 621
+  original_source_sha: "7539bb988816e898c9dd751e8a4aa89119b9d9dd"
+  original_review: reader_reviews/0621_7539bb98.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage: local_revision_metadata_only
+  final_draft_sha: "3f7afbeaea670fa90d1391c3fb0ab0f47f6fe109"
+  current_review_path: reader_reviews/0621_3f7afbea.md
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  predecessor_ready_sha: "0ce6bee258d8deff1b50f039b5620d3431505f3a"
   structural_gate: exact_candidate_CI_required_before_main

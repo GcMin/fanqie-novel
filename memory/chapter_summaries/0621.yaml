@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 621
+title: "第三个点没有干燥证明，绿色结论撤回"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "3f7afbeaea670fa90d1391c3fb0ab0f47f6fe109"
+original_source_sha: "7539bb988816e898c9dd751e8a4aa89119b9d9dd"
+reader_review: "reader_reviews/0621_3f7afbea.md"
+initial_reader_review: "reader_reviews/0621_7539bb98.md"
+depends_on_chapter: 620
+depends_on_source_sha: "0ce6bee258d8deff1b50f039b5620d3431505f3a"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day484 08:27—Day485 07:04"
+summary: >-
+  Day484河安物业Day481已实收三晚至Day486午、双卡有效，更后期未付款且旧房押金搬运受潮物件赔责未结。母亲在河安吃昨日姨妈家蒸的南瓜，后去妹妹家还保鲜盒，妹妹电饭煲按钮待专业检查，孩子校内活动单轻微受湿由其母亲自行签名，母亲不代签；唐晓漫正常上班。Day483四楼未经批准底涂误排已撤、维修班未入户，Day483 16:06案头技术复核申请只收件。Day484 09:13独立专业复核员审Day480/Day482原始两轮三点测读、照片、仪器条件和后制办公汇总，发现第三点原始仅“同室无明显潮迹位置”，未有同材或确认干燥记录，办公室汇总模板自动附加绿色“干燥参照有效”并非现场签署。10:08发现第三点表面可见较平滑与饰面接缝，但不得凭外观断化学材质或已证选点不合；一二号旧砂浆点仍以本室固定角约67/112cm复拍，两次分别同轮二号相对高原始数据不变。11:26专业签限定纠错意见，不把模板绿格当干燥验收或漏源、返住许可。14:52工程室停用错误汇总结论且保留原版及发送记录，15:37去身份更正回告，16:45母亲真收到并区分原始真测、办公室汇总错误与昨日撤单各不同。后续材料/点位非破坏方法评估仍拟稿未申报，无新增四楼入户及拆板涂刷试水复电复装返住许可。母亲20:38亲回拨夏宁周衡梁策，Day485 07:04交班。四楼原12cm口父亲短铅笔旧板独封单照明有限用其余受水电路隔离整屋禁返住，五楼限复水不变；2019 F003原73页旧袋今址历史本人得答与F008/M004/M005无新证。
+meaningful_state_changes:
+  - "专业独立案头复核揭示汇总模板错误绿色干燥标签仅默认显示，11:26有源纠正，14:52停止引用15:37发正式更正，原始真实两轮测读仍保留。"
+  - "第三点只可作为同室无潮印测读位置，尚无同材与干燥合格证明，后续诊断方法需另行技术审定、现场许可依旧未获。"
+  - "母亲还南瓜盒、妹妹安排电饭煲按钮检查及签孩子活动单，家人正常安排未被四楼工程吞没。"
+knowledge_updates:
+  - "母女知绿格不是专业签认，原始两轮测读仍是真的，但漏源干燥返住不证，Day486后续住宿未付。"
+  - "工程与夜班知第三参照点原始仅无明显潮迹，办公模板默认绿色有效属于版本错误，已真正停引。"
+relationship_updates:
+  - "母亲尊重妹妹与孩子学校纸件的签字权、女儿工作节奏，自行核对工程报告与已真付款。"
+foreshadowing_updates:
+  - "未来只能合法另审材料与点位的可比性或新现场诊断；2019 F003及F008/M004/M005不因当代错绿格推同源。"
+ending_state: "Day485 07:04办公汇总错误干燥参照绿格正式更正且已停引，原两轮真实测读保留，现场方法评估仍草案；河安真付到Day486午，整屋禁止返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7539bb988816e898c9dd751e8a4aa89119b9d9dd", final_draft_sha: "3f7afbeaea670fa90d1391c3fb0ab0f47f6fe109", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3398
