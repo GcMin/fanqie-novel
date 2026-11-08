@@ -5,8 +5,8 @@
 - arc: ARC-054
 - status: planned
 - depends_on_chapter: 620
-- depends_on_source_sha: 34b8c337430b35cd13ef9cbde2f80c1702f59885
-- dependency_status: provisional
+- depends_on_source_sha: 0ce6bee258d8deff1b50f039b5620d3431505f3a
+- dependency_status: verified_ready_same_title_body_facts
 
 ## Planner
 - 本章目标：让Day483真正收件的两轮三点测读案头复核产生具体可核的纠错结果，将汇总模板默认绿色“干燥合格参照”从证据等级中撤下，保留真实已测原始数据和住户对进一步入户的决定权。以母亲去妹妹家还饭盒、女儿照常上班拉开日常空间。
