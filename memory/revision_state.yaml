@@ -6277,3 +6277,19 @@ chapter_612_arc054_verified:
   content_qa: pass
   predecessor_ready_sha: "292132ce7264caaac0fec0446ea2211b25d46fcf"
   structural_gate: exact_candidate_ci_success_required_before_main
+
+chapter_613_arc054_verified:
+  original_sha: "da1a5bc98074a13621d8096e10722162fcdb7f73"
+  source_sha: "4a4281212e3fb3c5bb65c5a588ef216613c586c5"
+  stage: local_revision
+  fix: "612旧provisional SHA重绑正式ready且移除613小说正文的内部F003F008M004M005编码保留旧案无证事实"
+  stage_a_rounds: 1
+  stage_b_rounds: 0
+  stage_c_rounds: 0
+  body_revisions: 1
+  initial_review: reader_reviews/0613_da1a5bc9.md
+  review_after: reader_reviews/0613_4a428121.md
+  reader_counts: "0/2/2 -> 0/0/2"
+  content_qa: pass
+  predecessor_ready_sha: "ec14f3cb3d2718ea6e19f371468a74cfaeb2da4c"
+  structural_gate: exact_candidate_ci_success_required_before_main

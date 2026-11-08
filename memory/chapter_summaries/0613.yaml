@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 613
+title: "照片拍在返工前，封墙日期还没找到"
+volume: 6
+arc: "ARC-054"
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "4a4281212e3fb3c5bb65c5a588ef216613c586c5"
+reader_review: "reader_reviews/0613_4a428121.md"
+original_source_sha: "da1a5bc98074a13621d8096e10722162fcdb7f73"
+initial_reader_review: "reader_reviews/0613_da1a5bc9.md"
+depends_on_chapter: 612
+depends_on_source_sha: "ec14f3cb3d2718ea6e19f371468a74cfaeb2da4c"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day476 08:38—Day477 07:04"
+summary: >-
+  Day476河安母亲原首层双床房的物业Day475已真正预付Day476中午至Day483中午连续七晚、双卡真实试开，不再逐两晚催房款；母亲个人河安一夜及女儿唐晓漫泊晨两晚旧垫款早已银行实退、旧押金搬运受潮房损赔责未结。母亲独立走Day474局部验收开放的东坡口保留北口备用，10:40去修菜包，要求只换损坏背带、保留亡夫歪针旧补丁，下午试提新带安全承重且留旧断带，晚上与女儿分享生活记忆。仁合里四楼前日合法受控2021该户旧照片只显示当年某时点不同颜色表面处理层无最后隐蔽验收，Day476工程岗09:26限项另申请同批材料领退及返工资料，13:31获有责受控查阅，原簿证材料领用与封存退回双人签名且按多班次多作业面汇总不能算单户墙内净用料；质量日记及另一本交接簿独立证四楼东侧在原旧照片形成之后曾记墙脚基层起皮返工、次班复刷，无法确定是否恰为照片深色带范围或最终完成层次。当次完工复查只见另系列附单旧编号，本轮无权限阅实物，16:02限项摘录结束，后续查询至Day477 07:04仅受理未阅准；旧整体复装预算与采购继续暂停。母亲20:41亲回拨夜间中心，Day477 07:04交班。四楼原12cm口父亲短铅笔线旧板独封、客厅单照明有限用其余受水电路隔离整屋禁返住，五楼有限复水不扩。2019 F003旧卷原73页旧散页袋今址历史自然人获答与F008/M004/M005无新证。
+meaningful_state_changes:
+  - "Day476依法取得2021同批领退簿原签字与部分退料事实但班组汇总不能算四楼该户壁内实际净材料用量。"
+  - "质量日记与独立交接簿证原历史施工照片后有四楼东侧基层起皮返工与次班复刷，照片不能当最终封墙层；后续完工复查附单只见索引未阅。"
+  - "母亲更换断背带留亡夫旧补丁和旧带，女儿尊重旧包不强求购新，住房真实七夜仍有保障。"
+knowledge_updates:
+  - "母女知七晚河安真付到Day483午、旧个人垫款已退其他赔责待核；只获去身份工程返工限项结论，不知道旧附单及今日墙内层位漏源。"
+  - "工程有权知道旧照片后有返工/复刷交接、旧材料领退双签但没有完整单户净用量及终验附单实物。"
+relationship_updates:
+  - "母亲选择保留亡夫旧补丁同时安全换带，女儿接受维修而非代替买新；母亲持续自行决定出行与工程保护边界。"
+foreshadowing_updates:
+  - "下一合法目标为2021另系列完工复查附单原件，返工部位范围与今日67/112cm两旧湿点真实关系仍未证；2019旧案独立不升级。"
+ending_state: "Day477 07:04河安酒店住期仍真付至Day483中午；四楼已知旧照片后确有返工但封墙最终复核内页未核，整屋仍禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "da1a5bc98074a13621d8096e10722162fcdb7f73", final_draft_sha: "4a4281212e3fb3c5bb65c5a588ef216613c586c5", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2839
