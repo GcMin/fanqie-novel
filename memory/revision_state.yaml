@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 627
-current_stage: chapter627_reader_qa_pass_title_only_stageA_structural_pending
-current_source_path: chapters/draft/0627.md
-current_source_sha: 6e239aa2877ffec49fd8fee1ec82742ad5001a2c
-current_review_path: reader_reviews/0627_6e239aa2.md
+current_chapter: 628
+current_stage: chapter628_reader_qa_pass_predecessor_rebind_structural_pending
+current_source_path: chapters/draft/0628.md
+current_source_sha: 0500d4eeee26ebbec4c451eb85c70ac88e3e89a8
+current_review_path: reader_reviews/0628_0500d4ee.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter627_title_local_revision_and_new_sha_reader_qa_pass
+last_action: chapter628_predecessor_rebind_and_new_sha_reader_qa_pass
 last_action_date: "2026-11-09"
 last_error: null
-last_diff_summary: "627仅改误导标题及章纲无正文变化，初0/1/2，新SHA复审0/0/2，独立QA PASS"
+last_diff_summary: "628仅重绑627正式ready依赖并更新详细章纲；前章正文逐字一致；初0/1/2新SHA再审0/0/2"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 6e239aa2877ffec49fd8fee1ec82742ad5001a2c
+current_review_source_sha: 0500d4eeee26ebbec4c451eb85c70ac88e3e89a8
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6509,4 +6509,23 @@ combined_audit_chapter_627_20261109:
   final_counts: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
   predecessor_ready_sha: "887ec4d39d7f1c6534379118408ed4d66526c554"
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_628_20261109:
+  chapter: 628
+  original_source_sha: "e1d5da8bee3dd9f2669b75d1efa9721ad13fb109"
+  initial_review: reader_reviews/0628_e1d5da8b.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage: local_revision_predecessor_metadata_and_plan
+  predecessor_original_sha: "4a3b22ade4ac0a656f1476e46bddf88384b4eeca"
+  predecessor_ready_sha: "925b5621e64cd4c477bc9d93bdd7305d14a908c6"
+  predecessor_title_changed_body_unchanged: true
+  final_draft_sha: "0500d4eeee26ebbec4c451eb85c70ac88e3e89a8"
+  current_review_path: reader_reviews/0628_0500d4ee.md
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

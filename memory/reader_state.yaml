@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 627
-last_reviewed_title: "房费续到了三天后，白痕的位置却要重画"
-last_source_path: chapters/draft/0627.md
-last_source_sha: 6e239aa2877ffec49fd8fee1ec82742ad5001a2c
-last_review_path: reader_reviews/0627_6e239aa2.md
+last_reviewed_chapter: 628
+last_reviewed_title: "旧押金找到了收款人，退款还差一份交接"
+last_source_path: chapters/draft/0628.md
+last_source_sha: 0500d4eeee26ebbec4c451eb85c70ac88e3e89a8
+last_review_path: reader_reviews/0628_0500d4ee.md
 last_reviewed_at: "2026-11-09"
 reviewer_mode: combined_audit_independent_pass_a_then_b_on_exact_source_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 626
-depends_on_source_sha: 887ec4d39d7f1c6534379118408ed4d66526c554
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 887ec4d39d7f1c6534379118408ed4d66526c554
+depends_on_chapter: 627
+depends_on_source_sha: 925b5621e64cd4c477bc9d93bdd7305d14a908c6
+dependency_status: verified_ready_same_body_facts
+predecessor_current_source_sha: 925b5621e64cd4c477bc9d93bdd7305d14a908c6
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7345,4 +7345,19 @@ combined_audit_chapter_627_20261109:
   final_counts: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
   predecessor_ready_sha: "887ec4d39d7f1c6534379118408ed4d66526c554"
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_628_20261109:
+  chapter: 628
+  original_source_sha: "e1d5da8bee3dd9f2669b75d1efa9721ad13fb109"
+  initial_review: reader_reviews/0628_e1d5da8b.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_fix: predecessor_sha_metadata_and_plan_only
+  final_draft_sha: "0500d4eeee26ebbec4c451eb85c70ac88e3e89a8"
+  final_review: reader_reviews/0628_0500d4ee.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  predecessor_old_draft_sha: "4a3b22ade4ac0a656f1476e46bddf88384b4eeca"
+  predecessor_ready_sha: "925b5621e64cd4c477bc9d93bdd7305d14a908c6"
+  predecessor_body_unchanged: true
   structural_gate: exact_candidate_ci_required_before_main

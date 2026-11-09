@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 628
+title: "旧押金找到了收款人，退款还差一份交接"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "0500d4eeee26ebbec4c451eb85c70ac88e3e89a8"
+original_source_sha: "e1d5da8bee3dd9f2669b75d1efa9721ad13fb109"
+reader_review: "reader_reviews/0628_0500d4ee.md"
+initial_reader_review: "reader_reviews/0628_e1d5da8b.md"
+depends_on_chapter: 627
+depends_on_source_sha: "925b5621e64cd4c477bc9d93bdd7305d14a908c6"
+dependency_status: verified_ready_same_body_facts
+timeframe: "Day491 08:13—Day492 07:06"
+summary: >-
+  Day491母亲住河安Day486换入首层双床，Day490 11:09商户真收接续三晚到Day493中午、11:38双卡实开，Day493后期未收。唐晓漫Day490已独立修旧帆布袋底角，Day491返正常工作不代母亲办赔责。物业理赔袁经办09:26分项查旧押金搬运及受潮物件，11:07旧收取端原始收款簿有房号票号日期单位与母亲副联相符，证当年押金真收；旧年度交接只有总编号，此次未获逐户细页或实际退款渠道证据，不能说已退也不能定没退。11:39母亲收到限定解释，搬运服务商午间真核原一趟车及票据但不决定赔责，受潮物件因四楼禁返住未获清点。15:41袁经办在承诺Day491 16:00前发具名分项进度函，押金逐户交接与退款、搬运归责、受潮物件现场核验均仍待查，下一次Day494 15:00只约新的具名进度不保证退付。工程室Day491 10:08否定无安全依据的接触杆路线，只把Day485合法旧原照、可见参照及Day490管理权限回函整理为专业案头评估包，未有新目视、开窗接触或采样许可，灰细侧接身份远端漏源未证。女儿17:58回河安与母亲吃面，20:42母亲本人回拨夜班，Day492 07:06交班。四楼12cm原口父亲旧板独封、客厅单照明限用其余受水电路隔离整屋禁返住，五楼有限复水不扩；2019 F003原73页旧袋现址历史人得答及F008/M004/M005没有新确证。
+meaningful_state_changes:
+  - "Day491 11:07旧收取端原始簿核押金历史真收，但逐户交接、退付与赔责仍待证。"
+  - "搬运服务商确认一趟真实行程但不裁责任；15:41物业如期给三项具名进度函，下轮Day494 15:00仅待进度。"
+  - "公区工程否定没有专业安全依据的工具伸入线，旧照片仅整理为资料包，仍无采样许可。"
+knowledge_updates:
+  - "母亲与袁经办知历史押金确实收过，但当下是否退款、谁负责任仍未查明；河安只付至Day493中午。"
+  - "工程及夜班知墙面/管面待核，专业安全工具未获批准，没有现场接触许可，灰细侧接与漏源未证。"
+relationship_updates:
+  - "母亲不让女儿代办理赔，女儿修旧包后正常工作回河安相伴；袁经办承担按项具名查原证而不催结案。"
+foreshadowing_updates:
+  - "Day494 15:00押金逐户交接进度下次回告，Day493中午后续住仍要真付款；受潮物件未核，公区白痕与灰管未知，2019 F003/F008/M004/M005不升级。"
+ending_state: "Day492 07:06旧押金历史收款已核、逐户交接与退款仍未知；Day491 15:41具名分项进度函已实际履约，下期Day494 15:00待回告；河安真付至Day493午，四楼禁返住公区无采样。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "e1d5da8bee3dd9f2669b75d1efa9721ad13fb109", final_draft_sha: "0500d4eeee26ebbec4c451eb85c70ac88e3e89a8", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3149

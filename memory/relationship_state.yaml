@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 627
+last_updated_chapter: 628
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3291,3 +3291,10 @@ chapter_627_arc054_verified:
   mother_daughter: "母亲允许女儿陪同但不代答自己理赔和房费；女儿独立选布、验包、付款，母女共同真验两张房卡。"
   mother_property_street: "母亲以商户真收才认付款完成，不把临住进度换旧房理赔结案；仍待Day491 16:00具名回复。"
   center_team: "夏宁周衡梁策按有源实际到账与公区管理范围回复分层登记，无越权推断。"
+
+chapter_628_arc054_verified:
+  chapter: 628
+  source_sha: "0500d4eeee26ebbec4c451eb85c70ac88e3e89a8"
+  mother_daughter: "女儿旧袋修好返正常工作，只提供扫件建议不代母亲催理赔，17:58回河安与母亲同吃面。"
+  mother_property_street: "袁经办按历史收款原证核对不推定退款，15:41按时送分项函，母亲只确认收件且拒把原账有收款写成已退款结案。"
+  center_team: "夜班对母亲亲回拨的原收款核实与未核退付分栏，工程仅案头处理不能代现场权限，合作关系稳定。"

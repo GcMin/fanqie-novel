@@ -1,6 +1,6 @@
 schema_version: 1
-last_updated_chapter: 627
-current_time: "Day491 07:05河安商户新实付至Day493午两卡可开，公区未采样四楼仍禁返住"
+last_updated_chapter: 628
+current_time: "Day492 07:06旧押金历史原收款已核但逐户交接/退款未知；河安真付至Day493中午四楼禁返住"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-054_active
@@ -3687,3 +3687,13 @@ chapter_627_arc054_verified:
   engineering: "Day490仅据Day485公区原照片提出墙面收边/相邻管面白痕待核，13:47有权管理岗回共用权限和方案条件，15:00方案仅草稿无接触采样开窗或漏源结论。"
   archive_2019: "F003旧原73页旧袋今址历史人真实获答及F008/M004/M005无新证。"
   invariants: "四楼原12cm口父亲旧饰板独封、一照明限用其余受水电路隔离整屋禁返住，五楼有限复水不扩。"
+
+chapter_628_arc054_verified:
+  chapter: 628
+  source_sha: "0500d4eeee26ebbec4c451eb85c70ac88e3e89a8"
+  housing: "河安商户Day490 11:09实付至Day493中午、两卡实开，Day493之后没有新的商户真收证明。"
+  compensation: "Day491 11:07旧收取端确认原押金原始收款簿与收据副联匹配，年度交接仅总号没有逐户附页，退款与赔付未证；搬运商只确认一趟行程；Day491 15:41具名分项进度函真交，Day494 15:00仅约下一次进度。"
+  engineering: "Day491公区专业审核否决无安全依据的工具触碰路径，仅保留Day485旧照与Day490管理范围回函的案头资料包，无新现场准许或取样；灰细侧接身份漏源未知。"
+  family: "唐晓漫带前日修好灰蓝底角旧袋正常上班17:58回河安与母亲吃面，自身修包小票不混旧屋索赔。"
+  archive_2019: "F003旧73页旧袋今址历史人获答及F008/M004/M005无新跨源证据。"
+  invariants: "四楼原12cm口父亲旧饰板独封、客厅一照明限用其余受水电隔离整屋禁返住，五楼限复水不扩。"
