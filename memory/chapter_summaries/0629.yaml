@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 629
+title: "交接册有了保管号，押金还没有去向"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "86c155e657669b11be9770d6ed889bb0b1139d76"
+source_draft_sha: "f7d7b5386a79da0fea2125e909ad8355bde890e2"
+initial_reader_review: "reader_reviews/0629_86c155e6.md"
+reader_review: "reader_reviews/0629_f7d7b538.md"
+depends_on_chapter: 628
+depends_on_source_sha: "3f4974c4ab05d7fe2e1aa77175c224b793936774"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day492 08:16—Day493 07:04"
+summary: >-
+  Day492母亲继续住河安Day486换入首层双床，Day490 11:09商户真收物业三晚续款至Day493 12:00、11:38双卡实际试开，但Day493中午以后仍无商户真收新款。理赔袁经办09:24把Day491已真核的旧押金原收款簿与旧年度总目录分开，10:06仅能有源告知按总号查询逐户附册的保管岗位。旧档目录新核到“住户押金逐户附册”附件类别及独立保管盒号，Day492 13:42双岗只对保管室盒位、外标、外封签及改编号对应关系真做核对，并未开盒或确认本户页项完整及交接退款；14:21袁经办收到有源限项回告。15:27限定母亲这一户的阅核申请真正受理但未获开册批准，Day494 15:00仍仅是下次分项进度期限，不保证退款。母亲洗衣后仅补自己旧衬衣袖口、保存小票，父亲旧菜包原补丁保留；傍晚在女儿指导下本人扫描押金副联并保留原纸，不让女儿代发，母女周末探亲计划视真实续住情况决定。河安物业新期费用仅内部申请，约Day493 10:00回告进度或替代安排，不能作真付款。母亲20:43亲回拨夜班，Day493 07:04交班。公区白痕仍未准接触取样、灰细侧接身份/漏源未证；四楼原12cm口与父亲旧板封存、一照明限用其余受水电路隔离整屋禁返住，五楼限复水不扩；2019 F003旧73页/散袋今址/历史本人答复及F008/M004/M005均无新证。
+meaningful_state_changes:
+  - "旧年度逐户附册从仅知总交接号，推进到有源附件类别和保管盒号、13:42双岗真定位外部标签/封签；不是内页或退付真证。"
+  - "Day492 15:27限定本户的阅核申请真实受理，尚未经许可开盒；Day494 15:00仍只约进度。"
+  - "河安Day493 10:00有具名住房回告进度承诺但未有续款，母亲独立扫描旧押金副联保留原纸。"
+knowledge_updates:
+  - "母亲与袁经办知逐户附册类别对应的保管盒实体外标已核、里面是否有本户账及最后退款状态均未知；Day493中午房费还未再付。"
+  - "夜班只从母亲与有源有限回告知盒位外标和申请真收件，未获开册信息；工程及2019旧案无新证。"
+relationship_updates:
+  - "母亲坚持自己追原纸/留收据并学习扫描；女儿只教操作不代母亲提交，母女协商周末安排；袁经办保守分清查目录、实物盒与内页权限。"
+foreshadowing_updates:
+  - "Day493 10:00住房真实付款或替代安排进度须核，12:00商户已付期限截止；Day494 15:00押金逐户交接仅待具名进度，开册权限未获批；公共白痕灰管与2019旧案仍未知。"
+ending_state: "Day493 07:04夜班交接：旧押金保管盒外标真定位、本户内页及退款未证；Day493 12:00河安已付住期将尽且新款未真收，四楼禁返住和公区未获新作业许可。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "86c155e657669b11be9770d6ed889bb0b1139d76", final_draft_sha: "f7d7b5386a79da0fea2125e909ad8355bde890e2", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3057
