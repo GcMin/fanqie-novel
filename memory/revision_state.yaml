@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 648
-current_stage: chapter648_stage_a_ready_sha_rebind_new_sha_reader_qa_pass_structural_pending
-current_source_path: chapters/draft/0648.md
-current_source_sha: c84450d042a7ccb3d0d8a3fcaa1cd5aa207e5443
-current_review_path: reader_reviews/0648_c84450d0.md
+current_chapter: 649
+current_stage: chapter649_reader_and_independent_qa_pass_no_revision_structural_pending
+current_source_path: chapters/draft/0649.md
+current_source_sha: 0cfa99a1bc28eaa919c5e34e4182ad12f4ff7b16
+current_review_path: reader_reviews/0649_0cfa99a1.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter647_independent_reader_qa_then_chapter648_stage_a_metadata_rebind_and_new_sha_reader_qa
+last_action: chapter649_reader_and_independent_qa_without_revision
 last_action_date: "2026-11-10"
 last_error: null
-last_diff_summary: "647原草稿与正式ready标题正文逐字一致仅FrontMatter交付变化；648 Stage A只重绑647正式ready SHA及详细章纲，新draft c84450d042a7ccb3d0d8a3fcaa1cd5aa207e5443 重新独立双遍Reader 0/0/2与内容QA PASS，小说正文0字修改，结构CI另核"
+last_diff_summary: "649精确依赖648正式ready，无前章SHA差异；Reader新草稿0/0/2，独立内容QA PASS，正文0字修改，待精确候选CI成功即ready""
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: c84450d042a7ccb3d0d8a3fcaa1cd5aa207e5443
+current_review_source_sha: 0cfa99a1bc28eaa919c5e34e4182ad12f4ff7b16
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6861,4 +6861,17 @@ chapter_648_arc054_verified:
   predecessor_old_draft_sha: "22ac603177f3af323025a93472128aa52f98484e"
   predecessor_ready_sha: "86c1259b29aac13e728a45a5ad34a6362eacac58"
   predecessor_factual_delta: title_body_identical_only_frontmatter_delivery_changed
+  structural_gate: exact_candidate_CI_required_before_main
+chapter_649_arc054_verified:
+  chapter: 649
+  source_sha: "0cfa99a1bc28eaa919c5e34e4182ad12f4ff7b16"
+  review_path: reader_reviews/0649_0cfa99a1.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  content_qa: pass
+  predecessor_ready_sha: "6131bd06f9f3ed237e3d517508a1fd0d12c6d6ed"
+  predecessor_factual_delta: exact_ready_blob_no_delta
   structural_gate: exact_candidate_CI_required_before_main

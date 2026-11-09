@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 649
+title: "旧房退了卡，新住处得亲手开门"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "0cfa99a1bc28eaa919c5e34e4182ad12f4ff7b16"
+reader_review: "reader_reviews/0649_0cfa99a1.md"
+depends_on_chapter: 648
+depends_on_source_sha: "6131bd06f9f3ed237e3d517508a1fd0d12c6d6ed"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day512 07:43—Day513 07:05"
+summary: >-
+  Day512母亲仍在青桥原首层双床，Day509 14:53商户真实收取的最后两晚房费只到本日中午；物业Day511 17:22承诺次晨09:30前真落实新款或可执行替代房却09:30失约、10:30二楼候选房无付款和楼梯通行确认不能算安置。青桥09:28前台无新商户款，母亲11:57真的注销原两张卡办理退房，12:00旧房使用权到期，两只箱子按“两件、架号、领取方式”凭条正式寄存，本人暂留安全公共休息区且绝不回仁合里禁住四楼。13:22物业负责人具名承认两次失约；14:27提出栖园旅舍首层双床三晚到Day515中午作为待付款候选，母亲亲用公开电话确认房间、出入与浴室低挡水沿。14:49物业仅发付款指令，15:06栖园商户真正收新三晚款。15:20母亲持青桥寄存凭条真实领取两箱并见证装车、文件夹及亡夫缝旧菜包本人随身；15:41栖园实核本人和商户订单，发两张新卡母亲逐张真开、两箱真到房，她仅签行李两件交付而不签旧房工程赔责或历史押金结清。16:02母亲有源通知唐晓漫真实新住期，女儿下班后到栖园共饭，外甥船外黑猫画、亡夫旧针脚仍在。旧押金方面袁经办只核Day511 15:48后序申请，10:48与16:30查询许可仍在审批，Day513 16:00仅应给进度/补件，不曾获准翻新页、未证明历史退款或全部旧通知未送。20:46母亲亲回拨中心，Day513 07:05交班栖园已住过一晚；四楼旧12cm观察口父亲旧板独封、单照明有限其余受水电路隔离整屋禁返住、五楼限复水不扩，公区白痕材质灰细侧接远端漏源及2019 F003/F008/M004/M005均无跨源新确证。
+meaningful_state_changes:
+  - "Day512 11:57青桥真正退卡并12:00终止旧房，双箱有真实寄存凭条及领回记录，物业两次具名承诺失约被保留。"
+  - "Day512 15:06栖园商户真正收到物业接续三晚房费至Day515中午，15:41母亲本人实际逐张开新双卡、双箱安全移交首层新房，真正换址。"
+  - "旧押金后序许可仅在审，Day513 16:00约进度或补件没有提前准查；住房付款与历史押金原件继续分源。"
+knowledge_updates:
+  - "母亲亲见青桥退房、两箱寄存领取、栖园新商户实款和两卡开门，16:30后仅有限得知旧押金后序仍待许可，未得历史实付/所有通知结论。"
+  - "唐晓漫16:02得真实新址、正常下班后到栖园；袁经办只按许可进度说明，夏宁周衡梁策20:46本人回拨后才依有源记录新住与旧账边界。"
+relationship_updates:
+  - "母亲独自落实搬迁，不让晓漫因模糊候选先请假；女儿下班按真实新址来共饭，亡夫旧菜包针脚和外甥船猫画延续。"
+foreshadowing_updates:
+  - "F014本条原承办派办的后序仅申请审批，Day513 16:00待具名进度/缺件，旧二次拟再办及其他渠道实际退款和全部历史通知依旧未知；Day515中午住宿须再核。"
+ending_state: "Day513 07:05母亲已在栖园首层真住一夜，三晚商户已实收至Day515午两卡可开两箱在房；旧押金后序许可仍在审，仁合里四楼仍禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0cfa99a1bc28eaa919c5e34e4182ad12f4ff7b16", final_draft_sha: "0cfa99a1bc28eaa919c5e34e4182ad12f4ff7b16", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3676

@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 648
-last_reviewed_title: "退件送回了原岗，通知还停在纸上"
-last_source_path: chapters/draft/0648.md
-last_source_sha: c84450d042a7ccb3d0d8a3fcaa1cd5aa207e5443
-last_review_path: reader_reviews/0648_c84450d0.md
+last_reviewed_chapter: 649
+last_reviewed_title: "旧房退了卡，新住处得亲手开门"
+last_source_path: chapters/draft/0649.md
+last_source_sha: 0cfa99a1bc28eaa919c5e34e4182ad12f4ff7b16
+last_review_path: reader_reviews/0649_0cfa99a1.md
 last_reviewed_at: "2026-11-10"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b_exact_ready_dependency
 recommendation: keep
@@ -12,11 +12,11 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 647
-depends_on_source_sha: 86c1259b29aac13e728a45a5ad34a6362eacac58
-dependency_status: verified_ready_same_title_body_facts
-predecessor_current_source_sha: 86c1259b29aac13e728a45a5ad34a6362eacac58
-predecessor_sha_mismatch: true
+depends_on_chapter: 648
+depends_on_source_sha: 6131bd06f9f3ed237e3d517508a1fd0d12c6d6ed
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 6131bd06f9f3ed237e3d517508a1fd0d12c6d6ed
+predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
@@ -7746,5 +7746,23 @@ chapter_648_arc054_review:
   predecessor_title_body_unchanged: true
   dependency_status: verified_ready_same_title_body_facts
   stage_a_used: 1
+  body_revisions: 0
+  structural_gate: exact_candidate_CI_required_before_main
+chapter_649_arc054_review:
+  chapter: 649
+  title: "旧房退了卡，新住处得亲手开门"
+  source_sha: "0cfa99a1bc28eaa919c5e34e4182ad12f4ff7b16"
+  source_path: "chapters/draft/0649.md"
+  review_path: "reader_reviews/0649_0cfa99a1.md"
+  reviewer_mode: "combined_audit_independent_pass_a_then_pass_b_exact_ready_dependency"
+  pass_a: "先本章/前646—648正文/639—648摘要及bible/style"
+  pass_b: "后核Canon/ARC054/人物知识世界关系时间线F014"
+  counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "6131bd06f9f3ed237e3d517508a1fd0d12c6d6ed"
+  dependency_status: verified_exact_ready_blob
   body_revisions: 0
   structural_gate: exact_candidate_CI_required_before_main

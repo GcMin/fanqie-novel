@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 648
+last_updated_chapter: 649
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3436,3 +3436,10 @@ chapter_648_arc054_verified:
   mother_daughter: "母亲不让晓漫在住房新款未付时提前请假搬箱，自己接受仅限当代的精确查询授权；女儿晚间来看孩子给船外猫添木板照片并与母亲共餐。"
   family: "亡夫旧菜包底角及内衬新补仍保留旧歪针脚，外甥给船外黑猫画落脚木板而没擦掉猫，日常生活自行继续。"
   professional: "袁经办尊重母亲现行联系不追认历史，以退件号有权追原承办收文与派办；双方只认本条联系未标发不认全部历史通知不送或任何已退款结论。"
+
+chapter_649_arc054_verified:
+  chapter: 649
+  source_sha: "0cfa99a1bc28eaa919c5e34e4182ad12f4ff7b16"
+  mother_and_daughter: "母亲在青桥真退卡、寄存两箱并自行按商户实付转入栖园后才请晓漫正常下班探望；晓漫尊重不因待付候选提前请假的决定，晚间来新住处共饭、只带青菜。"
+  evidence_boundaries: "母亲自主签限项行李交接，不签住房完成等于旧四楼修复/赔责/旧押金结清；袁经办不因安置完成给旧押金代填付款结论。"
+  family_objects: "亡夫旧菜包歪针脚随母亲本人到栖园，外甥船与木板上的黑猫画保存，关系日常有实际动作。"
