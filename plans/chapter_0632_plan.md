@@ -5,9 +5,9 @@
 - arc: ARC-054
 - status: planned
 - depends_on_chapter: 631
-- depends_on_source_sha: 4c4eff489d28ee9573b938b556866085af280618
-- dependency_status: provisional
-- depends_on_path: chapters/draft/0631.md
+- depends_on_source_sha: 6d362cec5856da68cb40a2d58c2f3bb7cdf7393e
+- dependency_status: verified_ready_same_title_body_facts
+- depends_on_path: chapters/ready/0631.md
 - target_effective_chars: 3053
 
 ## Planner
@@ -30,7 +30,7 @@
 ## Continuity Precheck
 - 实际从GitHub main `81209bc3e3987b92c32bb37813cfc7e9b91f22a7` 读取AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、Bible与三张主角人物卡、volume_05及arc_current历史边界、最新ARC-054 Memory、人物/关系/知识/世界状态、伏笔和时间线、0621—0630十章摘要及0627—0631最近五章正文、前631章详细章纲和章计划表；未读取历史reader_reviews。
 - 已检查published、ready、draft三处文件目录；published包含0153章，不需恢复。最高章号为631且仅存 `chapters/draft/0631.md`，故第632章为此次新建，不重复创建旧章。
-- 直接前章仅是尚未审定草稿，明确临时依赖 `depends_on_chapter: 631`、完整Git blob `4c4eff489d28ee9573b938b556866085af280618`、`dependency_status: provisional`。仅取其Day494和Day495开场可验证的拟叙事作为临时参考，不把其财务细节当正式Canon；如Audit后续修订，必须独立核对本章兼容性。
+- 直接前章仅是尚未审定草稿，明确临时依赖 `depends_on_chapter: 631`、完整Git blob `6d362cec5856da68cb40a2d58c2f3bb7cdf7393e`、`dependency_status: verified_ready_same_title_body_facts`。仅取其Day494和Day495开场可验证的拟叙事作为临时参考，不把其财务细节当正式Canon；如Audit后续修订，必须独立核对本章兼容性。
 - 法律/业务事实边界：批次未执行成功不代表所有年份所有渠道未退款；拟支付不代表付款，内部财务执行与商户实收区别；只有实际新增授权后能查关联附件必要页项，不能替银行、档案或住户签字。
 - 四楼原12厘米口与父亲短铅笔线旧板独封、客厅单照明有限用、其他受水电路隔离整屋禁返住；五楼西户有限复水不变；公共白痕与灰侧接及漏源未定，2019旧卷原73页、散袋今址及历史本人答复、F008/M004/M005都不建立新同源或确认。
 
