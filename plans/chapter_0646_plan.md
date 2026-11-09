@@ -6,9 +6,9 @@ volume: 6
 arc: "ARC-054"
 status: planned
 depends_on_chapter: 645
-depends_on_source_sha: "87d9d99b50f2b5f3f6e74f9c4b12610bacdb0008"
-dependency_status: provisional
-predecessor_path: chapters/draft/0645.md
+depends_on_source_sha: "362b9580c9430cd83ba2da3a7705f4b273b408e2"
+dependency_status: verified_ready_same_title_body_facts
+predecessor_path: chapters/ready/0645.md
 target_effective_chars: 3427
 ---
 
@@ -35,7 +35,7 @@ target_effective_chars: 3427
 
 ## Continuity Precheck
 - 本轮从main的published、ready、draft目录实际读取最高为645；第153章《人没回来，表先签完了》已在chapters/published/0153.md，不能恢复或跳章。
-- 前章645只在chapters/draft/0645.md，其Git Blob SHA完整为87d9d99b50f2b5f3f6e74f9c4b12610bacdb0008。本章依赖仅是**provisional**，未将645的新事实作为正式Canon，独立Audit若修改前章需核对本章承接。
+- 前章645已获Reader双遍、独立QA和精确候选CI通过，并正式位于chapters/ready/0645.md，ready Blob SHA为362b9580c9430cd83ba2da3a7705f4b273b408e2。已将其原始draft Blob 87d9d99b50f2b5f3f6e74f9c4b12610bacdb0008与正式ready的标题及小说正文逐字比较，确认完全一致，仅Front Matter交付状态变更；本章旧provisional引用已按核实结果重绑为**verified_ready_same_title_body_facts**，不借元数据差异跳过对正文的核对。
 - 645以Day509 07:05交班收束，Day509午前住宿提前具名答复未兑现；本章从Day509晨接，不回填Day508未看下层转存凭证的权限和结论。
 - 已读取AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、Bible人物卡、当前卷/arc、人物关系知识世界状态、伏笔与时间线、近十章摘要及近五章正文；不读取历史reader_reviews。
 - 仅执行Planner、Continuity Precheck、Writer。不进行Reader/Revision/QA/Memory/Publish Gate，不改既有章。
