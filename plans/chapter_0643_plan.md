@@ -6,9 +6,9 @@ volume: 6
 arc: "ARC-054"
 status: planned
 depends_on_chapter: 642
-depends_on_source_sha: "975b595593d8d4266cfc554f027cc7aac15c1db4"
-dependency_status: provisional
-predecessor_path: chapters/draft/0642.md
+depends_on_source_sha: "2c22c8c73c34948203573768e8b28b54f7570750"
+dependency_status: verified_ready_same_title_body_facts
+predecessor_path: chapters/ready/0642.md
 target_effective_chars: 3440
 ---
 
@@ -35,7 +35,7 @@ target_effective_chars: 3440
 
 ## Continuity Precheck
 - 本轮以GitHub main同时检查 `chapters/published/`、`chapters/ready/`、`chapters/draft/` 数字文件，最新为642，第153章《人没回来，表先签完了》已存在 `chapters/published/0153.md`，新建目标643，不覆盖旧章。
-- 前一章642此刻仅为未审 `chapters/draft/0642.md`，完整Git Blob SHA `975b595593d8d4266cfc554f027cc7aac15c1db4`，依赖标为 `provisional`，仅用于本章临时衔接，不能当审定Canon；Audit以后应核最终642与本章的房款期限、Day505本人核验结果、母亲持有纸件和Day506 09:30承诺的兼容性。
+- 前章642已于Audit通过独立Reader及QA、精确候选结构CI后迁入 `chapters/ready/0642.md`，正式Git blob SHA `2c22c8c73c34948203573768e8b28b54f7570750`。本轮逐字比较该前章原draft blob `975b595593d8d4266cfc554f027cc7aac15c1db4` 与ready的标题及小说正文完全一致，仅Front Matter交付元数据不同，故643的Day506事件和事实边界兼容；已将本章Front Matter、详细计划重绑正式依赖。
 - 第642草稿Day505 10:37核得现行账户姓名一致、11:08本人领取限项回执、14:06理赔渠道真收件、15:28另外两项办理请求只收件；Day506 07:06仅有下一期09:30真实付款或替代衔接的承诺。本章不得写前期已付款或前一日已批准银行旧押金制付。
 - Day503青桥三晚真付至Day506中午，旧屋禁止返住；旧联系已证“迁移联络备查已转入”、逐户复核待核；今日本人核验不可补历史签字，本号未外发付款指令，其他历史渠道仍不明。女儿唐晓漫不作为默认代收人，母亲本人接收。
 - 已从本轮最新 main 读取AGENTS、配置、角色和读取协议、Bible、人物卡、当前arc及世界知识人物关系伏笔时间线、最近632—641十章摘要与638—642五章全文（642为临时draft）；未读任何历史reader_reviews。只执行Planner、Continuity Precheck、Writer，不执行Reader/Revision/QA/Memory/Publish Gate。
