@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 648
+title: "退件送回了原岗，通知还停在纸上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "9e320d9d03aef3598ed6dd3f12d8a5a4042ec9f6"
+source_draft_sha: "c84450d042a7ccb3d0d8a3fcaa1cd5aa207e5443"
+initial_reader_review: "reader_reviews/0648_9e320d9d.md"
+reader_review: "reader_reviews/0648_c84450d0.md"
+depends_on_chapter: 647
+depends_on_source_sha: "86c1259b29aac13e728a45a5ad34a6362eacac58"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day511 08:17—Day512 07:06"
+summary: >-
+  Day511母亲仍住青桥原首层双床，Day509商户真收两晚到Day512中午、两卡可开两箱未动，新住房款未实付；母亲用补好内衬和保留亡夫原歪针脚的旧菜包去菜市场买豆芽，晚上与晓漫吃面、看外甥给船栏外黑猫添木板的画。第647章Day510合法查旧押金集中清理册证某批退原承办补核及真退件号，本条清理“办结”非个人退款；Day511袁经办09:35以真退件号申请限本户原承办岗收文及派办、10:08真受理，10:26母亲收到核当代本人同意范围电话、10:44原岗去除错误追认历史通知确认框并生成当前限定回执；12:08合法限项许可获准，13:16档案双岗以旧退件号/原票号/批次核查旧收件簿，证原承办岗曾真实签收这次退件、派办“本人收款资料复核”新内部分办序号，获准可见本条联系栏“联系未发”且未标当次送达，但不排除其他通知序号或后来通知，不能说母亲从未接通知。14:07原册归位，15:14袁得双签摘录，与旧二次拟再办本号未外发指令分栏不冒认同一办理链或银行支付，15:48下一本户派办及联系记录查询有责收件，Day513 16:00仅约进度/补件说明并非核准。母亲下午限定获悉，17:22物业住房负责人仅具名答应Day512 09:30前给真新款或可执行合法替代房、没有实付，母亲未让女儿提前请假搬箱。20:42本人回拨中心、Day512 07:06交班，住房仍真付至当天中午，历史本人受旧信、其他退款渠道及二次申请与这次派办是否同链仍待核。四楼12cm观察口父亲旧板独号封存、单照明有限用其余受水电路隔离整屋禁返住，五楼有限复水，公区白痕灰细侧接远端漏源与2019 F003/F008/M004/M005未获新证。
+meaningful_state_changes:
+  - "新获有责限项许可后13:16真核历史退件原承办岗收文及本户资料复核派办序号，证明内部承接真实；本条可见联系待核未标发送而其他渠道未查。"
+  - "母亲真正取得只为当代本人限项查阅的确认回执，拒用今天的联系确认替当年旧信本人签收。"
+  - "住房Day512 09:30新执行答复成为物业具名承诺但截至Day512 07:06仍无实付，不误认完成。"
+knowledge_updates:
+  - "母亲下午获真收文/派办/本条未标发送的限定回告；不知旧年所有通知送达与否、历史全部银行渠道退款或派办与二次申请同一路。"
+  - "档案双岗仅在12:08有权批准后阅本户原岗收件，袁15:14得摘录；晓漫通过母亲转述有限知晓，夏宁周衡梁策20:42回拨后才知道。"
+relationship_updates:
+  - "母亲以独立本人授权保留决定权，晓漫工作后共餐不替旧年签字或为未付款住房提前请假，家人讨论外甥船外猫和小木板。"
+foreshadowing_updates:
+  - "F014由集中清理退件号推进到原承办真收文/派办新号；本次可见联系未标发，独立其他通知及银行实付仍未知，Day513 16:00只约后续查询进度。"
+ending_state: "Day512 07:06青桥新一期未付款且09:30物业答复待兑现、原房到中午；旧押金退件实际到原岗且派办，但当次可见联系未发不证全历史无通知或已退款。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "9e320d9d03aef3598ed6dd3f12d8a5a4042ec9f6", final_draft_sha: "c84450d042a7ccb3d0d8a3fcaa1cd5aa207e5443", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_required_before_main}
+char_count: 3302

@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 646
-last_reviewed_title: "房款回话过了中午，旧账有了接手处"
-last_source_path: chapters/draft/0646.md
-last_source_sha: 8d46052badd7b86bb21a6907f27786c06e8bae7c
-last_review_path: reader_reviews/0646_8d46052b.md
+last_reviewed_chapter: 648
+last_reviewed_title: "退件送回了原岗，通知还停在纸上"
+last_source_path: chapters/draft/0648.md
+last_source_sha: c84450d042a7ccb3d0d8a3fcaa1cd5aa207e5443
+last_review_path: reader_reviews/0648_c84450d0.md
 last_reviewed_at: "2026-11-10"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b_exact_ready_dependency
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 645
-depends_on_source_sha: 362b9580c9430cd83ba2da3a7705f4b273b408e2
+depends_on_chapter: 647
+depends_on_source_sha: 86c1259b29aac13e728a45a5ad34a6362eacac58
 dependency_status: verified_ready_same_title_body_facts
-predecessor_current_source_sha: 362b9580c9430cd83ba2da3a7705f4b273b408e2
+predecessor_current_source_sha: 86c1259b29aac13e728a45a5ad34a6362eacac58
 predecessor_sha_mismatch: true
 predecessor_qa_verification_required: false
 
@@ -7712,3 +7712,39 @@ chapter_646_arc054_review:
   stage_a_used: 1
   body_revisions: 0
   structural_gate: "exact_candidate_CI_required_before_main"
+chapter_647_arc054_review:
+  chapter: 647
+  source_path: chapters/draft/0647.md
+  source_sha: "22ac603177f3af323025a93472128aa52f98484e"
+  review_path: reader_reviews/0647_22ac6031.md
+  original_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "2c54dd12d2b6c626206c49f8202dbaeb1270e7a7"
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 0
+  structural_gate: exact_candidate_CI_required_before_main
+
+chapter_648_arc054_review:
+  chapter: 648
+  initial_source_sha: "9e320d9d03aef3598ed6dd3f12d8a5a4042ec9f6"
+  initial_review_path: reader_reviews/0648_9e320d9d.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_path: chapters/draft/0648.md
+  source_sha: "c84450d042a7ccb3d0d8a3fcaa1cd5aa207e5443"
+  review_path: reader_reviews/0648_c84450d0.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_old_draft_sha: "22ac603177f3af323025a93472128aa52f98484e"
+  predecessor_ready_sha: "86c1259b29aac13e728a45a5ad34a6362eacac58"
+  predecessor_title_body_unchanged: true
+  dependency_status: verified_ready_same_title_body_facts
+  stage_a_used: 1
+  body_revisions: 0
+  structural_gate: exact_candidate_CI_required_before_main

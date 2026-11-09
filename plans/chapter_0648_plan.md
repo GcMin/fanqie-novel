@@ -6,9 +6,9 @@ volume: 6
 arc: "ARC-054"
 status: planned
 depends_on_chapter: 647
-depends_on_source_sha: "22ac603177f3af323025a93472128aa52f98484e"
-dependency_status: provisional
-predecessor_path: chapters/draft/0647.md
+depends_on_source_sha: "86c1259b29aac13e728a45a5ad34a6362eacac58"
+dependency_status: verified_ready_same_title_body_facts
+predecessor_path: chapters/ready/0647.md
 target_effective_chars: 3302
 ---
 
@@ -35,6 +35,6 @@ target_effective_chars: 3302
 
 ## Continuity Precheck
 - 依据main 8de3ba1b84eb2ceb822c99fd485315378a5eece4三目录真实章号最高647，已发表的第153章 `chapters/published/0153.md` 存在；两个第648章目标路径提交前均不存在。
-- 前章647仍是未审draft，SHA `22ac603177f3af323025a93472128aa52f98484e`，故本章前件标记 `provisional`；依赖前件具体事实：Day510已查本户清理册退原承办、真退件号，本次清理页无外付编号，系统误导性“清理完成”已正式受理限定解释，Day512中午住宿有真款但后期未付。不得将此视作正式Canon或历史所有渠道不退款的证明。
+- 前章647原为provisional draft，原SHA `86c1259b29aac13e728a45a5ad34a6362eacac58`，经逐字比较647原draft与最终ready标题正文相同仅交付Front Matter不同，现已重绑正式ready SHA，依赖已核实；依赖前件具体事实：Day510已查本户清理册退原承办、真退件号，本次清理页无外付编号，系统误导性“清理完成”已正式受理限定解释，Day512中午住宿有真款但后期未付。不得将此视作正式Canon或历史所有渠道不退款的证明。
 - 已从最新main重新读取AGENTS、novel配置、Writer/Reading协议、Bible四件及三主角人物卡、当前弧/卷已有资料、角色知识关系世界状态、活跃伏笔时间线及近期十章摘要（637—646），阅读最近五章正文643—647。未读取历史reader_reviews。
 - 只执行Planner、Continuity Precheck、Writer；本轮不做Reader/Revision/QA/Memory/Publish Gate，不改任何既有文件，不发布番茄。
