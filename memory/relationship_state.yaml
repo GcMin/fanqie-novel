@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 626
+last_updated_chapter: 627
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3284,3 +3284,10 @@ chapter_626_arc054_verified:
   mother_property_street: "母亲先取得袁师傅13:54具名限项说明才于14:36真交押金签收副联取得附属回执，保留原分项接收号及Day491 16:00回复期限，拒将补件等同全部赔偿完成。"
   mother_professional_fifth_floor: "公区专业岗位要求独立接触许可，母亲不代公区设施管理人签允取样；四楼旧板封存与五楼限项复水不变。"
   center_team: "夏宁周衡梁策只登记母亲亲回拨确认的女儿真人到站、酒店期限、押金补件和公区咨询/收件，不越权推断漏源或历史旧案。"
+
+chapter_627_arc054_verified:
+  chapter: 627
+  source_sha: "6e239aa2877ffec49fd8fee1ec82742ad5001a2c"
+  mother_daughter: "母亲允许女儿陪同但不代答自己理赔和房费；女儿独立选布、验包、付款，母女共同真验两张房卡。"
+  mother_property_street: "母亲以商户真收才认付款完成，不把临住进度换旧房理赔结案；仍待Day491 16:00具名回复。"
+  center_team: "夏宁周衡梁策按有源实际到账与公区管理范围回复分层登记，无越权推断。"

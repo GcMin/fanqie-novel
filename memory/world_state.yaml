@@ -1,6 +1,6 @@
 schema_version: 1
-last_updated_chapter: 626
-current_time: "Day490 07:06唐晓漫已返河安、商户实付至当日中午，公区未采样四楼仍禁止返住"
+last_updated_chapter: 627
+current_time: "Day491 07:05河安商户新实付至Day493午两卡可开，公区未采样四楼仍禁返住"
 world:
   anomaly_public_awareness: none
   current_arc: ARC-054_active
@@ -3677,3 +3677,13 @@ chapter_626_arc054_verified:
   engineering: "公区白痕Day489 10:17得到专业取样方法建议，11:25公共设施现场条件核查请求收件；无采样许可和检测，2023图像号归公共窗框非灰侧接资产，灰细管身份远端漏源未知。"
   archive_2019: "F003原73页散袋现址历史自然人获答与F008/M004/M005仍无新跨源证据。"
   invariants: "四楼原12cm观察口父亲旧板独封、单照明限用其余受水电隔离整屋禁返住，五楼有限复水不扩。"
+
+chapter_627_arc054_verified:
+  chapter: 627
+  source_sha: "6e239aa2877ffec49fd8fee1ec82742ad5001a2c"
+  housing: "Day490 11:09河安同首层房商户真实续付三夜至Day493 12:00，11:38两卡逐张实际试开，Day493午后未保证。"
+  family: "女儿独立修旧帆布袋底角灰蓝补布，16:26真验收付款，亡父缝母亲菜包旧补丁仍在。"
+  compensation: "Day487理赔已真分项收件Day489押金副联真补件，Day491 16:00仅待具名分项进度，未赔付。"
+  engineering: "Day490仅据Day485公区原照片提出墙面收边/相邻管面白痕待核，13:47有权管理岗回共用权限和方案条件，15:00方案仅草稿无接触采样开窗或漏源结论。"
+  archive_2019: "F003旧原73页旧袋今址历史人真实获答及F008/M004/M005无新证。"
+  invariants: "四楼原12cm口父亲旧饰板独封、一照明限用其余受水电路隔离整屋禁返住，五楼有限复水不扩。"

@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 627
+title: "房费续到了三天后，白痕的位置却要重画"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "6e239aa2877ffec49fd8fee1ec82742ad5001a2c"
+original_source_sha: "4a3b22ade4ac0a656f1476e46bddf88384b4eeca"
+reader_review: "reader_reviews/0627_6e239aa2.md"
+initial_reader_review: "reader_reviews/0627_4a3b22ad.md"
+depends_on_chapter: 626
+depends_on_source_sha: "887ec4d39d7f1c6534379118408ed4d66526c554"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day490 08:12—Day491 07:05"
+summary: >-
+  Day490河安新首层双床两张卡原真款只到中午。母女09:03核前台房型保留只是意向；09:46物业内部审批三夜、10:41付款指令都不等于商户实收，11:09河安商户真正收到接续Day490中午—Day493中午三晚款，11:32出纸本、11:38同房两张卡分别更新实开。仁合里17号工程室依据Day485公区观察窗旧原照片固定螺钉和窗缝参照重核白色痕迹可能在粗竖管后侧墙面收边或相邻管外表面，两候选均未现场证实；Day490 13:47设施管理岗具名确认共用部位管理范围及靠近在用管件须另列点位工具保护和人员作业方案再审批；15:00只形成无审批号草案，不存在取样接触开窗拆管试水、四楼入户或漏源结论。唐晓漫Day489返河安后Day490自行选灰蓝布补薄旧帆布袋底角、先付定金、16:26当面装厚书验收后付尾款并恢复工作，母亲亡夫补旧菜包仍保留。Day487旧屋分项理赔与Day489押金副联真补件仅承诺Day491 16:00给进度，不等于赔偿。20:44母亲本人回拨夜班，Day491 07:05交班。四楼原12cm口父亲旧板独封、客厅单照明限用其余受水电路隔离整屋禁返住，五楼有限复水不扩大；灰细侧接身份、远端和白痕漏源未证，2019F003旧73页旧袋今址历史个人真正获答及F008/M004/M005无新证。
+meaningful_state_changes:
+  - "Day490 11:09河安商户真收三夜续至Day493中午、11:38两张卡真开。"
+  - "公区白痕按旧照片分两处待核表面、管理岗13:47有源回复共用部位权责和另审批条件，但未准采样。"
+  - "唐晓漫旧袋底角16:26已补缝并本人试提验收付尾款，母亲亡夫旧菜包补丁不动。"
+knowledge_updates:
+  - "母女知河安商户实付至Day493午、两卡可用，旧四楼不可返住且Day491 16:00理赔仅待进度。"
+  - "专业和夜班知墙面/管面是待确认而非新实测点，管理岗回函不代表触碰或取样许可。"
+relationship_updates:
+  - "母亲坚持自己核酒店和理赔、女儿可以陪同但不代答；女儿自行选布付费验包并返正常工作。"
+foreshadowing_updates:
+  - "Day491 16:00旧房赔责具名进度待兑现，Day493午后的新房费尚无保证；公区白痕、灰细管权限和漏源未证，2019旧案与F008/M004/M005不升级。"
+ending_state: "Day491 07:05河安同首层房真实住期至Day493午双卡可用；旧袋补好、母女各自正常生活，公区仅点位候选与未获批作业草案，四楼仍禁返住，理赔当日下午四点待进度。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "4a3b22ade4ac0a656f1476e46bddf88384b4eeca", final_draft_sha: "6e239aa2877ffec49fd8fee1ec82742ad5001a2c", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3396
