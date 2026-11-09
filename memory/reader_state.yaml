@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 633
-last_reviewed_title: "门卫室签了收，信到没到她手里还得查"
-last_source_path: chapters/draft/0633.md
-last_source_sha: 9cda4e54589290dc728e75dc35b3fce6b0850dc4
-last_review_path: reader_reviews/0633_9cda4e54.md
+last_reviewed_chapter: 634
+last_reviewed_title: "这一次，回话到了她本人手里"
+last_source_path: chapters/draft/0634.md
+last_source_sha: ca157dca14a0a919e79ba32d84c0c6c96b11bf8e
+last_review_path: reader_reviews/0634_ca157dca.md
 last_reviewed_at: "2026-11-09"
-reviewer_mode: combined_audit_independent_pass_a_then_pass_b_after_stage_a_new_sha_title_fix
+reviewer_mode: combined_audit_independent_pass_a_then_pass_b_after_stage_a_dependency_and_day_fix
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 632
-depends_on_source_sha: ea3bf39108c4b9bb17ab3f8873d073b1a33ad5bf
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: ea3bf39108c4b9bb17ab3f8873d073b1a33ad5bf
+depends_on_chapter: 633
+depends_on_source_sha: 8cc83efeac52d2470b2a7912eee9e91b1198fa96
+dependency_status: verified_ready_same_body_facts
+predecessor_current_source_sha: 8cc83efeac52d2470b2a7912eee9e91b1198fa96
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7457,4 +7457,23 @@ combined_audit_chapter_633_20261109:
   qa_gate: pass
   predecessor_ready_sha: "ea3bf39108c4b9bb17ab3f8873d073b1a33ad5bf"
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_CI_required_before_main
+combined_audit_chapter_634_20261109:
+  chapter: 634
+  original_source_sha: "e3d5b540bebd940f605cece0224eaaf30758318b"
+  initial_review: reader_reviews/0634_e3d5b540.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  stage_a_fix: rebind_633_final_ready_and_fix_Day497_yesterday
+  source_path: chapters/draft/0634.md
+  source_sha: "ca157dca14a0a919e79ba32d84c0c6c96b11bf8e"
+  review_path: reader_reviews/0634_ca157dca.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_original_draft_sha: "97ece0d931f3569edbb72a21fd010168d366c719"
+  predecessor_ready_sha: "8cc83efeac52d2470b2a7912eee9e91b1198fa96"
+  predecessor_body_unchanged_title_changed: true
+  dependency_status: verified_ready_same_body_facts
   structural_gate: exact_candidate_CI_required_before_main

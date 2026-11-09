@@ -5,9 +5,9 @@
 - arc: ARC-054
 - status: planned
 - depends_on_chapter: 633
-- depends_on_source_sha: 97ece0d931f3569edbb72a21fd010168d366c719
-- dependency_status: provisional
-- depends_on_path: chapters/draft/0633.md
+- depends_on_source_sha: 8cc83efeac52d2470b2a7912eee9e91b1198fa96
+- dependency_status: verified_ready_same_body_facts
+- depends_on_path: chapters/ready/0633.md
 - source_main_sha: 7d3a3e38497ca6ccb7ae12d36b5f1e9836c8e453
 - target_effective_chars: 3220
 
@@ -33,7 +33,7 @@
 
 - 本次从GitHub main实际读取AGENTS、novel配置、writing_roles、ai_reading_protocol、bible premise/main_outline/world/style、周衡夏宁梁策人物卡、volume_05与arc_current历史卷文件、当前ARC-054在memory/current_arc顶部审核事实、人物/知识/关系/世界记录、F003/F008及timeline近期记录、0623—0632十章摘要、0629—0632四章ready与0633当前原文，共最近五章正文；另查了第633章详细章纲和最近chapter_plan记录，没有读取历史reader_reviews。独立volume_06尚无，最新可验证章文与Memory优先于陈旧第五卷说明。
 - 三个章节目录在此main SHA核实：published包含第153章、最高159，ready最高632，draft最高633；第634章不存在，本轮仅新增该章两个文件。
-- 直接前章第633章依赖完整blob SHA `97ece0d931f3569edbb72a21fd010168d366c719`，对应 `chapters/draft/0633.md`，依赖状态为 `provisional`；若属provisional，则第633章暂非正式Canon，本文只接续其特定版本中Day496真实回函、门卫代收联及旧序号等场景事实，待独立Audit验证，不将尚未审核部分定为终局。
+- 直接前章第633章依赖完整blob SHA `8cc83efeac52d2470b2a7912eee9e91b1198fa96`，对应 `chapters/draft/0633.md`，依赖状态为 `provisional`；若属provisional，则第633章暂非正式Canon，本文只接续其特定版本中Day496真实回函、门卫代收联及旧序号等场景事实，待独立Audit验证，不将尚未审核部分定为终局。
 - **可知边界**：今日只确认旧后续核验任务的有限内部记录与今天新确认渠道的本人实收，不推当年本人从未见旧信，不认定历史没有别的联系，也不推断押金在任何其它渠道最终是否退付。母亲本人同意的是新通知送达，不同意结案、女儿代办、自动重付或无授权披露。
 - **世界边界**：仁合里四楼旧十二厘米观察口与父亲短铅笔线旧饰板独号封存，客厅单照明有限使用其余受水线路隔离整屋禁止返住；五楼西户仅既有限复水，公区白痕位置、灰细侧接远端/漏源未证，不新增采样拆检或入屋。2019 F003原73页、旧散页袋今址、历史真人是否获答与王启明F008唯一明确样本均不被现代押金线提升；M004/M005无新确证。
 - 前章为draft时一切不确定事实仅作为该版本临时承接；若后续独立审核修改第633章关键事实，需要由独立Audit决定第634章衔接而非Writer修改旧章。
