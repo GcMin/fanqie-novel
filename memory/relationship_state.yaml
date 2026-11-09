@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 628
+last_updated_chapter: 629
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3298,3 +3298,10 @@ chapter_628_arc054_verified:
   mother_daughter: "女儿旧袋修好返正常工作，只提供扫件建议不代母亲催理赔，17:58回河安与母亲同吃面。"
   mother_property_street: "袁经办按历史收款原证核对不推定退款，15:41按时送分项函，母亲只确认收件且拒把原账有收款写成已退款结案。"
   center_team: "夜班对母亲亲回拨的原收款核实与未核退付分栏，工程仅案头处理不能代现场权限，合作关系稳定。"
+
+chapter_629_arc054_verified:
+  chapter: 629
+  source_sha: "f7d7b5386a79da0fea2125e909ad8355bde890e2"
+  mother_daughter: "女儿正常上班并仅教母亲本人扫描旧押金纸本，母亲自存原件不委托代交代签；生活线补衬衣袖口和周末探亲仍由母亲自行决定。"
+  mother_property_street: "母亲要求袁经办分清历史真收、保管盒定位和尚未批准的开册申请，不签退付/结案；物业房费新内部申请不能当商户真收，Day493 10:00回告不保证续住。"
+  center_team: "周衡夏宁梁策依法有限分源交接，维护旧档保密和2019历史事实未证边界。"

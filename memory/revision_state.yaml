@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 628
-current_stage: chapter628_reader_qa_pass_predecessor_rebind_structural_pending
-current_source_path: chapters/draft/0628.md
-current_source_sha: 0500d4eeee26ebbec4c451eb85c70ac88e3e89a8
-current_review_path: reader_reviews/0628_0500d4ee.md
+current_chapter: 629
+current_stage: chapter629_reader_qa_pass_stage_a_timefix_structural_pending
+current_source_path: chapters/draft/0629.md
+current_source_sha: f7d7b5386a79da0fea2125e909ad8355bde890e2
+current_review_path: reader_reviews/0629_f7d7b538.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter628_predecessor_rebind_and_new_sha_reader_qa_pass
+last_action: chapter629_one_body_relative_day_fix_new_sha_reader_qa_pass
 last_action_date: "2026-11-09"
 last_error: null
-last_diff_summary: "628仅重绑627正式ready依赖并更新详细章纲；前章正文逐字一致；初0/1/2新SHA再审0/0/2"
+last_diff_summary: "629仅纠Day492把Day494称明天为后天；初0/1/2新SHA复审0/0/2"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 0500d4eeee26ebbec4c451eb85c70ac88e3e89a8
+current_review_source_sha: f7d7b5386a79da0fea2125e909ad8355bde890e2
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6529,3 +6529,20 @@ combined_audit_chapter_628_20261109:
   final_counts: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_629_20261109:
+  chapter: 629
+  original_source_sha: "86c155e657669b11be9770d6ed889bb0b1139d76"
+  stage: local_revision_one_time_word_time_fix
+  initial_review: reader_reviews/0629_86c155e6.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_draft_sha: "f7d7b5386a79da0fea2125e909ad8355bde890e2"
+  final_review: reader_reviews/0629_f7d7b538.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  predecessor_ready_sha: "3f4974c4ab05d7fe2e1aa77175c224b793936774"
+  content_qa: pass
+  structural_gate: exact_candidate_CI_required_before_main
