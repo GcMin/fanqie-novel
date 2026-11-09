@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 631
-last_reviewed_title: "账上结转了一笔，退款凭证仍然缺席"
-last_source_path: chapters/draft/0631.md
-last_source_sha: 4c4eff489d28ee9573b938b556866085af280618
-last_review_path: reader_reviews/0631_4c4eff48.md
+last_reviewed_chapter: 632
+last_reviewed_title: "一张退回回执，不能算她领过钱"
+last_source_path: chapters/draft/0632.md
+last_source_sha: cefc4f6205678e953b31987cc02ae673a7eebd58
+last_review_path: reader_reviews/0632_cefc4f62.md
 last_reviewed_at: "2026-11-09"
-reviewer_mode: combined_audit_independent_pass_a_then_pass_b_exact_ready_dependency
+reviewer_mode: combined_audit_independent_pass_a_then_pass_b_after_stage_a_new_sha
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 630
-depends_on_source_sha: 4cf0d24ff589f44e85ac1e34b9a80170080df0ec
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 4cf0d24ff589f44e85ac1e34b9a80170080df0ec
+depends_on_chapter: 631
+depends_on_source_sha: 6d362cec5856da68cb40a2d58c2f3bb7cdf7393e
+dependency_status: verified_ready_same_title_body_facts
+predecessor_current_source_sha: 6d362cec5856da68cb40a2d58c2f3bb7cdf7393e
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7419,4 +7419,25 @@ combined_audit_chapter_631_20261109:
   depends_on_source_sha: "4cf0d24ff589f44e85ac1e34b9a80170080df0ec"
   dependency_status: verified_exact_ready_blob
   body_revisions: 0
+  structural_gate: exact_candidate_CI_required_before_main
+
+combined_audit_chapter_632_20261109:
+  chapter: 632
+  title: "一张退回回执，不能算她领过钱"
+  original_source_sha: "96e807f36f83f1f57eb8f565df5216b03ec15fc8"
+  initial_review: reader_reviews/0632_96e807f3.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_fix: predecessor_sha_metadata_plan_only
+  source_path: chapters/draft/0632.md
+  source_sha: "cefc4f6205678e953b31987cc02ae673a7eebd58"
+  review_path: reader_reviews/0632_cefc4f62.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_original_draft_sha: "4c4eff489d28ee9573b938b556866085af280618"
+  predecessor_ready_sha: "6d362cec5856da68cb40a2d58c2f3bb7cdf7393e"
+  predecessor_title_body_unchanged: true
+  dependency_status: verified_ready_same_title_body_facts
   structural_gate: exact_candidate_CI_required_before_main
