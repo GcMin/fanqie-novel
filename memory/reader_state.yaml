@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 643
-last_reviewed_title: "房卡多了四晚，旧账还差原始凭据"
-last_source_path: chapters/draft/0643.md
-last_source_sha: 2b066532fdd61382e1cd1cf0f0bc48309f2a33bd
-last_review_path: reader_reviews/0643_2b066532.md
+last_reviewed_chapter: 644
+last_reviewed_title: "旧票号在另一册露面，钱还没有下落"
+last_source_path: chapters/draft/0644.md
+last_source_sha: 4d8c15951d72f6b1891ce26731b76f05ca16497a
+last_review_path: reader_reviews/0644_4d8c1595.md
 last_reviewed_at: "2026-11-10"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b_exact_ready_dependency
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 642
-depends_on_source_sha: 2c22c8c73c34948203573768e8b28b54f7570750
+depends_on_chapter: 643
+depends_on_source_sha: d8453d7744da6e95c079bd362168f0caf670c3db
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 2c22c8c73c34948203573768e8b28b54f7570750
+predecessor_current_source_sha: d8453d7744da6e95c079bd362168f0caf670c3db
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7650,4 +7650,23 @@ combined_audit_chapter_643_20261110:
   dependency_status: verified_ready_same_title_body_facts
   stage_a_used: 1
   body_revisions: 1
+  structural_gate: exact_candidate_CI_required_before_main
+
+chapter_644_arc054_review:
+  chapter: 644
+  source_path: chapters/draft/0644.md
+  source_sha: "4d8c15951d72f6b1891ce26731b76f05ca16497a"
+  review_path: reader_reviews/0644_4d8c1595.md
+  reviewed_at: "2026-11-10"
+  pass_a: "独立只读本章、前641—643正式正文、634—643摘要与文风"
+  pass_b: "Pass A后核Canon、ARC054、人物知识关系世界、时间及F014"
+  counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "d8453d7744da6e95c079bd362168f0caf670c3db"
+  dependency_status: verified_exact_ready_blob
+  stage_a_used: 0
+  body_revisions: 0
   structural_gate: exact_candidate_CI_required_before_main
