@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 634
-last_reviewed_title: "这一次，回话到了她本人手里"
-last_source_path: chapters/draft/0634.md
-last_source_sha: ca157dca14a0a919e79ba32d84c0c6c96b11bf8e
-last_review_path: reader_reviews/0634_ca157dca.md
+last_reviewed_chapter: 635
+last_reviewed_title: "两张旧卡归还后，新房门才算开了"
+last_source_path: chapters/draft/0635.md
+last_source_sha: 0c6c2f32eb03dd6f6501d5dccc868c603719c61f
+last_review_path: reader_reviews/0635_0c6c2f32.md
 last_reviewed_at: "2026-11-09"
-reviewer_mode: combined_audit_independent_pass_a_then_pass_b_after_stage_a_dependency_and_day_fix
+reviewer_mode: combined_audit_independent_pass_a_then_pass_b_no_revision
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 633
-depends_on_source_sha: 8cc83efeac52d2470b2a7912eee9e91b1198fa96
-dependency_status: verified_ready_same_body_facts
-predecessor_current_source_sha: 8cc83efeac52d2470b2a7912eee9e91b1198fa96
+depends_on_chapter: 634
+depends_on_source_sha: 6fd649a7b3d05644828039b618e0c0f4b90b58a5
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 6fd649a7b3d05644828039b618e0c0f4b90b58a5
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7476,4 +7476,18 @@ combined_audit_chapter_634_20261109:
   predecessor_ready_sha: "8cc83efeac52d2470b2a7912eee9e91b1198fa96"
   predecessor_body_unchanged_title_changed: true
   dependency_status: verified_ready_same_body_facts
+  structural_gate: exact_candidate_CI_required_before_main
+combined_audit_chapter_635_20261109:
+  chapter: 635
+  source_path: chapters/draft/0635.md
+  source_sha: "0c6c2f32eb03dd6f6501d5dccc868c603719c61f"
+  review_path: reader_reviews/0635_0c6c2f32.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "6fd649a7b3d05644828039b618e0c0f4b90b58a5"
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 0
   structural_gate: exact_candidate_CI_required_before_main

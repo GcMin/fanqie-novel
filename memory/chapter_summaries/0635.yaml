@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 635
+title: "两张旧卡归还后，新房门才算开了"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "0c6c2f32eb03dd6f6501d5dccc868c603719c61f"
+reader_review: "reader_reviews/0635_0c6c2f32.md"
+depends_on_chapter: 634
+depends_on_source_sha: "6fd649a7b3d05644828039b618e0c0f4b90b58a5"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day498 08:08—Day499 07:06"
+summary: >-
+  Day498河安首层双床原Day495 11:07真款只付至当日12:00且原房后续已有人排住，08:26前台查今日无续款。物业09:47内审误仍用原房号无真实付款，09:56按承诺出具具名限定回告建议换青桥首层双床，只是建议未锁房未支付且不得要求先签四楼赔责结案。母亲10:12经独立营业电话核青桥房型地址，拒将身份证照片送陌生群，安排两件箱子搬运点件。11:16新订单建立尚未真收，青桥商户11:38真正收Day498中午—Day501中午三晚物业款，11:42向本人确证收款；11:52母亲河安两张旧卡真实注销交还，12:17到青桥核店名房型本人实地登记及平缓通路，12:31青桥新两卡分别实际开门入住、两箱清点交接。物业通用模板试把本次临住写成相关费用全部结清，母亲拒签后仅签实收住期退旧卡新入住及两箱交接的限项证明；原四楼禁返住、维修受潮赔责、旧押金历史资金去向、Day501后续安置责任未结。唐晓漫照常上班傍晚来青桥共餐，外甥Day497所画双头船保留，母亲菜包亡夫旧补丁和旧押金副联妥善随身保管。16:19袁经办仅有源发限定办理提醒，没有新增银行真实退款回单；20:47母亲本人回拨中心，Day499 07:06交班。四楼原12cm口父亲铅笔旧板独封、客厅一照明有限使用其余受水电路隔离整屋禁返住，五楼限复水不扩大；公共白痕灰细侧接漏源未证，2019 F003旧原73页旧袋现址历史人获答及F008/M004/M005无新确证。
+meaningful_state_changes:
+  - "青桥Day498 11:38真正收物业三晚住宿款至Day501中午、12:31母亲本人实际登记两卡真开；河安11:52旧两卡注销，搬运两件箱子确交。"
+  - "物业试以通用表合并临住与旧屋赔责被母亲拒签，限定交接单只确认已发生住宿及行李事实，原赔责押金和下期安置独立未结。"
+  - "母女保持常规工作生活，外甥双头船与亡夫补丁旧菜包保留，母亲本人接收而不泄露私人登记和押金证件。"
+knowledge_updates:
+  - "母女知道河安原房已真实退住、青桥到Day501中午实付入住；此次办妥短住并不能证明四楼可返、旧押金退款已实付。"
+  - "夏宁周衡梁策仅依据母亲本人20:47回拨和有源商户/退卡/入住凭据登记住处迁移，旧押金2019历史异常事实均保持待核。"
+relationship_updates:
+  - "母亲自主核款、搬运与限项交接，唐晓漫照常工作下班探望共餐，妹妹只从母亲本人获得新住址不代办旧押金。"
+foreshadowing_updates:
+  - "青桥实付仅到Day501中午，下一期住宿仍须另核；旧押金是否历史另有渠道真退未证，四楼封存公区白痕灰侧管和2019旧案不升级。"
+ending_state: "Day499 07:06母亲和两箱行李已真入住青桥首层双床并可使用两张房卡，真款只保障到Day501中午；河安已退、四楼禁止返住、旧押金及维修赔责未结。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0c6c2f32eb03dd6f6501d5dccc868c603719c61f", final_draft_sha: "0c6c2f32eb03dd6f6501d5dccc868c603719c61f", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3008
