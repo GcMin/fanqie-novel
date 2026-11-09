@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 642
-last_reviewed_title: "今天签下的名字，不替旧年作证"
-last_source_path: chapters/draft/0642.md
-last_source_sha: 975b595593d8d4266cfc554f027cc7aac15c1db4
-last_review_path: reader_reviews/0642_975b5955.md
+last_reviewed_chapter: 643
+last_reviewed_title: "房卡多了四晚，旧账还差原始凭据"
+last_source_path: chapters/draft/0643.md
+last_source_sha: 2b066532fdd61382e1cd1cf0f0bc48309f2a33bd
+last_review_path: reader_reviews/0643_2b066532.md
 last_reviewed_at: "2026-11-10"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b_exact_ready_dependency
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 641
-depends_on_source_sha: d0fa1a2b3cf83ae96f1d61d8a7040f07cd76965e
+depends_on_chapter: 642
+depends_on_source_sha: 2c22c8c73c34948203573768e8b28b54f7570750
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: d0fa1a2b3cf83ae96f1d61d8a7040f07cd76965e
+predecessor_current_source_sha: 2c22c8c73c34948203573768e8b28b54f7570750
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7627,4 +7627,27 @@ combined_audit_chapter_642_20261110:
   dependency_status: verified_exact_ready_blob
   stage_a_used: 0
   body_revisions: 0
+  structural_gate: exact_candidate_CI_required_before_main
+
+combined_audit_chapter_643_20261110:
+  chapter: 643
+  title: "房卡多了四晚，旧账还差原始凭据"
+  original_source_sha: "cd7dad0546f290f2b3b1ce054e0a9dfb757015c1"
+  source_path: chapters/draft/0643.md
+  source_sha: "2b066532fdd61382e1cd1cf0f0bc48309f2a33bd"
+  initial_review_path: reader_reviews/0643_cd7dad05.md
+  review_path: reader_reviews/0643_2b066532.md
+  reviewer_mode: combined_audit_new_sha_independent_pass_a_then_pass_b
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_old_draft_sha: "975b595593d8d4266cfc554f027cc7aac15c1db4"
+  predecessor_ready_sha: "2c22c8c73c34948203573768e8b28b54f7570750"
+  predecessor_title_body_unchanged: true
+  dependency_status: verified_ready_same_title_body_facts
+  stage_a_used: 1
+  body_revisions: 1
   structural_gate: exact_candidate_CI_required_before_main
