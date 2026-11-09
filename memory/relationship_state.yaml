@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 644
+last_updated_chapter: 645
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3408,3 +3408,10 @@ chapter_644_arc054_verified:
   mother_daughter: "母亲Day507亲自买给外甥的大画纸，晓漫工作加班不赶来青桥；母女用消息互约晚餐和孩子画船，允许各自过生活，不再因为没有新理赔消息而日常停摆。"
   family: "亡夫菜包旧歪针脚保留、外甥双头船有了实际购入的大画纸及可延后给蜡笔的打算；两只行李箱仍在青桥原房。"
   professional: "袁经办按许可只给母亲同票号后续备查册的目录索引和下一步责任窗口，不说收册号是收款人、不以旧索引下断款已退或未退；母亲要求继续查原页并只接受本人有源回告。"
+
+chapter_645_arc054_verified:
+  chapter: 645
+  source_sha: "87d9d99b50f2b5f3f6e74f9c4b12610bacdb0008"
+  mother_daughter: "Day508母亲独自办理理赔与生活，晓漫工作后携蜡笔与母亲在青桥同备外甥大画纸并共餐，双方未要求代垫住房或代办旧账。"
+  family: "外甥从双头船问三头船，已备大画纸与蜡笔，仍未送到妹妹家；亡夫旧菜包原歪针脚保留。"
+  professional: "袁经办按授权只回告限项账务历史阶段，母亲要求留真凭证且不签全部收款/结案，双方尊重证据边界。"

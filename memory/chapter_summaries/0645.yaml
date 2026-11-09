@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 645
+title: "那笔旧钱曾经挂账，后来去了哪里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "87d9d99b50f2b5f3f6e74f9c4b12610bacdb0008"
+reader_review: "reader_reviews/0645_87d9d99b.md"
+depends_on_chapter: 644
+depends_on_source_sha: "aafe9db3a8fc6b5a2d52aa7cc65efa55b5f88280"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day508 08:11—Day509 07:05"
+summary: >-
+  Day508青桥旅舍原首层双床仍有Day506商户实际收到的四晚款至Day510中午、两张房卡真开、两箱未搬；Day509中午下期住房具名答复尚未到期且没有新实收。母亲买青菜豆腐面、留亡夫旧针脚旧菜包及为外甥购的大画纸；晓漫下班带蜡笔到青桥同备三头船画纸并共餐。第644章只合法见同票号另册目录页次，第645章Day508 10:26袁经办申请本户内页10:40真受理13:09正式获准，13:47两档案保管员实际阅本户同一旧银行退回批次原页：历史银行渠道曾未达并转入待核暂挂科目，后有转存待结及另一转存凭证索引；经办复核签识非本人收讫，不能由本页无本人领取证明其他年份或渠道均未退款，也不说明今天余额。14:36双岗签摘录归册15:08袁收有限摘录15:33仅得查下一张凭证须另申的具名条件但未申请获准或真查。16:01母亲本人从原渠道获限项有源回告，不把历史转存当实际受款也不把本项和二次拟付强行合并；20:44本人回拨夜间中心、Day509 07:05交班。四楼原12cm口及父亲旧板独封、单照明限用其余受水电路隔离整屋禁止返住，五楼有限复水，公共白痕灰侧管漏源及2019 F003旧原73页旧袋今址历史真人获答、F008/M004/M005无新跨源证。
+meaningful_state_changes:
+  - "13:47在13:09合法批准后双岗真阅本户原页，证某次旧银行退回后的历史暂挂及转存待结和下一凭证索引，改变只知目录阶段。"
+  - "15:33仅得下一凭证需另申请的条件，16:01母亲有源收到限项结论，但旧款末端实付和今日余额仍未知。"
+  - "母女实际为外甥备大画纸及蜡笔并共餐，住房Day509中午下一期提前回告仍待。"
+knowledge_updates:
+  - "母亲16:01才知道历史暂挂/转存待结，未获现在余额、历史本人实收或与二次申请同一路证据。"
+  - "双岗袁经办仅见有权限定本户原页，女儿经母亲口述、中心夜班20:44本人回拨后才知合法限项结果。"
+relationship_updates:
+  - "母女保持各自工作与本人理赔边界，晓漫下班携蜡笔来准备外甥画纸同餐，不代签旧账。"
+foreshadowing_updates:
+  - "F014同票号另册从目录索引实际推进到获权内页证历史暂挂及转存待结，下一转存凭证尚未另申阅核，旧押金最终退收与旧信本人获悉仍未知。"
+ending_state: "Day509 07:05青桥真付仅至Day510午，Day509午下期住房提前答复未到；旧账证当时曾暂挂转存待结但末端资金未知，四楼仍禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "87d9d99b50f2b5f3f6e74f9c4b12610bacdb0008", final_draft_sha: "87d9d99b50f2b5f3f6e74f9c4b12610bacdb0008", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_required_before_main}
+char_count: 3301
