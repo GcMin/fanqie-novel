@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 629
+last_updated_chapter: 630
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3305,3 +3305,10 @@ chapter_629_arc054_verified:
   mother_daughter: "女儿正常上班并仅教母亲本人扫描旧押金纸本，母亲自存原件不委托代交代签；生活线补衬衣袖口和周末探亲仍由母亲自行决定。"
   mother_property_street: "母亲要求袁经办分清历史真收、保管盒定位和尚未批准的开册申请，不签退付/结案；物业房费新内部申请不能当商户真收，Day493 10:00回告不保证续住。"
   center_team: "周衡夏宁梁策依法有限分源交接，维护旧档保密和2019历史事实未证边界。"
+
+chapter_630_arc054_verified:
+  chapter: 630
+  source_sha: "0929ef40c71f21c60703b229a2a69d2e5a3dd305"
+  mother_daughter: "女儿主动提出可请假协助搬箱，母亲坚持先向物业核付款和退房备选、无需女儿为错误垫款或放弃上班，晚间共同核扫描纸张折痕不冒充新签名。"
+  mother_property_street: "物业支付旧房号错单具名留底、11:31以新房号商户真收两晚，母亲不因酒店续住签理赔全案结案；袁经办严守旧押金本户查档范围，不把暂挂索引认退款。"
+  center_team: "夜班分别存酒店实际商户回款和经批准旧押金附册摘录，不替工程或档案给结论。"

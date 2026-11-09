@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 629
-last_reviewed_title: "交接册有了保管号，押金还没有去向"
-last_source_path: chapters/draft/0629.md
-last_source_sha: f7d7b5386a79da0fea2125e909ad8355bde890e2
-last_review_path: reader_reviews/0629_f7d7b538.md
+last_reviewed_chapter: 630
+last_reviewed_title: "房款到账前的错房号，旧账翻出一行暂挂"
+last_source_path: chapters/draft/0630.md
+last_source_sha: 0929ef40c71f21c60703b229a2a69d2e5a3dd305
+last_review_path: reader_reviews/0630_0929ef40.md
 last_reviewed_at: "2026-11-09"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b_after_stage_a_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 628
-depends_on_source_sha: 3f4974c4ab05d7fe2e1aa77175c224b793936774
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 3f4974c4ab05d7fe2e1aa77175c224b793936774
+depends_on_chapter: 629
+depends_on_source_sha: 884a11862b614873d16d432c1341b63eb893d227
+dependency_status: verified_ready_same_body_facts
+predecessor_current_source_sha: 884a11862b614873d16d432c1341b63eb893d227
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7379,4 +7379,24 @@ combined_audit_chapter_629_20261109:
   qa_gate: pass
   predecessor_ready_sha: "3f4974c4ab05d7fe2e1aa77175c224b793936774"
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_CI_required_before_main
+
+combined_audit_chapter_630_20261109:
+  chapter: 630
+  initial_sha: "f51bc3b97d164afa6fd6dbdd0aa776b5c097228f"
+  initial_review: reader_reviews/0630_f51bc3b9.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_fix: predecessor_ready_sha_rebind_after_body_facts_diff
+  source_path: chapters/draft/0630.md
+  source_sha: "0929ef40c71f21c60703b229a2a69d2e5a3dd305"
+  review_path: reader_reviews/0630_0929ef40.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_original_draft_sha: "86c155e657669b11be9770d6ed889bb0b1139d76"
+  predecessor_ready_sha: "884a11862b614873d16d432c1341b63eb893d227"
+  predecessor_only_relative_day_word_changed: true
+  dependency_status: verified_ready_same_body_facts
   structural_gate: exact_candidate_CI_required_before_main

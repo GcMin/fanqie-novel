@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 630
+title: "房款到账前的错房号，旧账翻出一行暂挂"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "f51bc3b97d164afa6fd6dbdd0aa776b5c097228f"
+source_draft_sha: "0929ef40c71f21c60703b229a2a69d2e5a3dd305"
+initial_reader_review: "reader_reviews/0630_f51bc3b9.md"
+reader_review: "reader_reviews/0630_0929ef40.md"
+depends_on_chapter: 629
+depends_on_source_sha: "884a11862b614873d16d432c1341b63eb893d227"
+dependency_status: verified_ready_same_body_facts
+timeframe: "Day493 08:12—Day494 07:05"
+summary: >-
+  Day493母亲在河安Day486真正换入首层双床，Day490 11:09原真款只到Day493 12:00。09:58物业有源告知新住期付款申请错用Day486退卡的旧房号而被退回、商户未收到钱，10:06给母亲具名错误说明与中午前不能付款则须负责临住合法衔接的承诺，母亲提前备行李且不要求女儿放弃工作。11:02正确房号重新提交付款截图仍非实收；11:31河安商户真收到物业接续Day493中午—Day495中午两晚款，11:43母亲两张新卡逐张真正开门同原新房号续住，未把错误申请删掉。旧押金方面Day492 13:42已合法核到逐户附册外部保管盒、15:27本户开册请求收件，Day493 13:08新获限定本户逐户页项查阅许可，两名档案岗14:11双岗开盒、依目录在遮挡其他住户前提下真正核到本户原票号房号一致的附册一行，见“转记待核”和独立暂挂账索引、接收确认签认不完整；未查索引源账或退付凭据，不认已退、确定未退或已转账。15:17袁经办收到正式有限摘录并修订旧盒定位说明，母亲获限项回告，Day494 15:00仍只是下一次赔责分项具名进度期限。女儿正常工作，晚间母女讨论扫描自动增强造成折痕误像手写线，原纸和原始扫描均保留。母亲20:37本人夜间回拨、Day494 07:05交班。公区白痕、灰细侧接与漏源均未证无新施工取样许可；四楼原12cm口父亲旧板独封、单照明有限使用其余受水电路隔离整屋禁返住，五楼有限复水不扩；2019 F003原73页旧袋今址历史本人获答及F008/M004/M005无新证。
+meaningful_state_changes:
+  - "Day493旧房号致物业支付申请退回，经核正后河安商户11:31真正续两夜到Day495中午、11:43两张卡重新实开。"
+  - "13:08本户限项开册真正批准、14:11双岗已开盒真见本人附册行及独立暂挂索引，资金实际接收或退款仍未核。"
+  - "Day494 15:00分项进度期限继续有效；押金相关账目只新增后续可核索引而未签结案。"
+knowledge_updates:
+  - "母亲女儿知现河安真款续至Day495午且旧房号错单仍留档；母亲知本户行有暂挂账索引但相关源账/退付均未知。"
+  - "袁经办档案双岗与夜班知限定许可后的本户行和暂挂索引、接收签认不完整，不借索引断言本人已收退款。"
+relationship_updates:
+  - "母亲坚持让物业纠正旧房号并真实付商户，不用女儿预垫或放弃工作；袁经办与档案人员分别遵守来源和查阅权限。"
+foreshadowing_updates:
+  - "Day494 15:00下一次理赔分项进度需按时核；独立暂挂账源将来需合法获批查询，Day495中午后住房未预付，公区白痕灰管2019旧案未知不升级。"
+ending_state: "Day494 07:05河安已真续住到Day495 12:00两卡可开；本户附册行与暂挂索引已核但对应源账、资金去向和退款均未知，四楼仍禁返住公区无新现场许可。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f51bc3b97d164afa6fd6dbdd0aa776b5c097228f", final_draft_sha: "0929ef40c71f21c60703b229a2a69d2e5a3dd305", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3059
