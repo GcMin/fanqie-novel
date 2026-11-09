@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 631
+last_updated_chapter: 632
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3319,3 +3319,10 @@ chapter_631_arc054_verified:
   mother_daughter: "母亲自主追旧押金过渡账真实证据和河安下一期房费，不让唐晓漫代缴或放弃工作；女儿下班共餐以单位报销经验辨过账和到账；两人商议周末从河安正常赴小姨家吃饭。"
   family: "母亲接受女儿转达小姨的周末邀请，不把四楼返住或押金解决当成正常探亲的必要前提；住址若改由母亲主动通知。"
   professional: "母亲与袁经办按本户授权、证据边界及具名进度来回沟通；确认收到进度函不签全部结案。"
+
+chapter_632_arc054_verified:
+  chapter: 632
+  source_sha: "cefc4f6205678e953b31987cc02ae673a7eebd58"
+  mother_daughter: "Day495上午母亲自己催商户真到账而不让唐晓漫为物业请假或先付；11:26真实续房告女儿；晚间母女分橘子、沟通银行批次退回与未知后续退款并一起安排周末探亲。"
+  family: "母亲到妹妹家楼下买橘子并电话商定周末母女带菜前来，小姨电饭煲按钮维修好了，小孩愿意展示自己画的地图；私人押金信息不转发给妹妹代查。"
+  professional: "袁经办按限定权限把该次银行退回真证告母亲，承认后续人工与其他支付渠道待查，母亲要求保留具名回函且不签结案。"
