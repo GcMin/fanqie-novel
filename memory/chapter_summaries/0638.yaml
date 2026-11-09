@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 638
+title: "房门续住两晚，退回的是一张核验单"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "a4ac864f36f2466077087b2787969d12efaba585"
+source_draft_sha: "9a666c43162f379e180a00d94c11a29f6aeb9d6b"
+initial_reader_review: "reader_reviews/0638_a4ac864f.md"
+reader_review: "reader_reviews/0638_9a666c43.md"
+depends_on_chapter: 637
+depends_on_source_sha: "d45d1e3fb28cbe454d5a5bcea176c21016799b4d"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day501 08:12—Day502 07:05"
+summary: >-
+  Day501母亲青桥首层双床原Day498 11:38商户真收三晚到当日12:00，08:12无新款，09:26物业按Day500约定回复但仅财务指令已发、09:42具名进度和11:30前商户实收再核及若失败的合法替代房搬运责任，旅舍暂留原房至11:30不等于续住。11:03商户仍无款、11:09支付提示处理中仍非到账，11:14青桥商户自行真核物业接续Day501午—Day503午两晚新款，11:26母亲两张房卡重新编码逐张实际开门，两箱未搬，母亲告女儿无需垫款换住。袁经办沿Day500查获的历史二次拟转付申请及内部财务收材料号，Day501 10:48本户有限下游原件申请真受理、13:08新获合法限页批准，双保管员依法核见财务席向原承办岗退回的是需补账户姓名一致性/本人联系方式来源/原票号证明的**核验意见单**，原承办岗有真实收文时间和岗位签记，二端流转一致，不是银行资金退回，未证补齐复提、对外银行执行或母亲实得款；后续分类目录原件超本次阅核许可。14:41原册归位、15:06袁经办改错系统拟“二次转付完成”为“二次申请财务退补、原岗已收意见、后续资金待核”；15:38母亲在菜摊接有源回告，只认退的是纸并要求再查原承办岗分类原件；唐晓漫晚上来青桥共餐、带菜，母亲保留真实新住宿单与旧押金资料分袋。20:46本人回拨夜间中心，Day502 07:05交班时青桥实付至Day503午，押金仍未知银行真正实付与其他渠道；四楼旧12cm口父亲短铅笔旧板封存、一照明限用其余受水电路隔离整屋禁止返住，五楼限复水不扩大，公区白痕材质漏源/灰管远端和2019 F003旧73页旧散袋今址历史真人获答/F008/M004/M005无新确证。
+meaningful_state_changes:
+  - "Day501 11:14青桥商户真收物业新两晚款至Day503中午，11:26原房双卡重新编码并各实开，住房真实连续且没有搬家。"
+  - "13:08限本户获新批准、双岗真核旧押金二次拟再办的财务退补核验单和原承办岗收文真签，两端内部纸件流转可证，银行实付及另一后序分类仍待查。"
+  - "母女生活保持日常，母亲拒把两晚住宿或内部财务退补当历史赔责全结案，四楼公区安全边界保持。"
+knowledge_updates:
+  - "母亲知新青桥实付至Day503午且双卡可开、旧押金二次申请退回的是补核单而非银行资金，没有实收退款凭据。"
+  - "袁经办与双岗只见获准原岗财务往返签记、具体缺件分类，不知权限外后续分类办理；女儿不代查账户，周衡夏宁梁策只据有源回函与母亲本人回拨分层记录。"
+relationship_updates:
+  - "母亲自行核真款续住，让女儿正常上班而非中午赶来搬箱；晚上唐晓漫带青菜同餐听限定进展，母亲自主管理赔责旧票号。"
+foreshadowing_updates:
+  - "F014旧押金二次拟办的财务退补核验单真实回到原承办岗，是否后来补件复提/由其他渠道支付仍未知，后序分类需新许可；Day503午后住宿与公区白痕漏源及2019原旧案仍待证。"
+ending_state: "Day502 07:05青桥实际新续两晚到Day503中午、双卡真开且母亲留原房；旧押金二次拟办核验单退原承办岗真签，款的最终去向仍不明。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "a4ac864f36f2466077087b2787969d12efaba585", final_draft_sha: "9a666c43162f379e180a00d94c11a29f6aeb9d6b", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_required_before_main}
+char_count: 2912

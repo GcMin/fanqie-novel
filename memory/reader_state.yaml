@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 637
-last_reviewed_title: "第二次转付有了编号，钱还没到她手里"
-last_source_path: chapters/draft/0637.md
-last_source_sha: fce352400832dc7a7ba7b92358f3a810db44473f
-last_review_path: reader_reviews/0637_fce35240.md
+last_reviewed_chapter: 638
+last_reviewed_title: "房门续住两晚，退回的是一张核验单"
+last_source_path: chapters/draft/0638.md
+last_source_sha: 9a666c43162f379e180a00d94c11a29f6aeb9d6b
+last_review_path: reader_reviews/0638_9a666c43.md
 last_reviewed_at: "2026-11-09"
-reviewer_mode: combined_audit_independent_pass_a_then_b_exact_ready_dependency
+reviewer_mode: combined_audit_independent_pass_a_then_pass_b_after_stage_a_predecessor_ready_rebind
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 636
-depends_on_source_sha: 71845b3dd20a0b982ddc6d07680998e73f371439
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 71845b3dd20a0b982ddc6d07680998e73f371439
+depends_on_chapter: 637
+depends_on_source_sha: d45d1e3fb28cbe454d5a5bcea176c21016799b4d
+dependency_status: verified_ready_same_title_body_facts
+predecessor_current_source_sha: d45d1e3fb28cbe454d5a5bcea176c21016799b4d
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7526,5 +7526,28 @@ combined_audit_chapter_637_20261109:
   predecessor_ready_sha: "71845b3dd20a0b982ddc6d07680998e73f371439"
   dependency_status: verified_exact_ready_blob
   stage_a_used: 0
+  body_revisions: 0
+  structural_gate: exact_candidate_CI_required_before_main
+
+combined_audit_chapter_638_20261109:
+  chapter: 638
+  title: "房门续住两晚，退回的是一张核验单"
+  original_source_sha: "a4ac864f36f2466077087b2787969d12efaba585"
+  initial_review: "reader_reviews/0638_a4ac864f.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_fix: predecessor_sha_metadata_plan_only_after_title_body_comparison
+  source_path: chapters/draft/0638.md
+  source_sha: "9a666c43162f379e180a00d94c11a29f6aeb9d6b"
+  review_path: "reader_reviews/0638_9a666c43.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_old_draft_sha: "fce352400832dc7a7ba7b92358f3a810db44473f"
+  predecessor_ready_sha: "d45d1e3fb28cbe454d5a5bcea176c21016799b4d"
+  predecessor_title_body_unchanged: true
+  dependency_status: verified_ready_same_title_body_facts
+  stage_a_used: 1
   body_revisions: 0
   structural_gate: exact_candidate_CI_required_before_main

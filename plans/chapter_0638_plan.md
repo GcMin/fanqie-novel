@@ -6,9 +6,9 @@ volume: 6
 arc: ARC-054
 status: planned
 depends_on_chapter: 637
-depends_on_source_sha: "fce352400832dc7a7ba7b92358f3a810db44473f"
-dependency_status: provisional
-predecessor_path: chapters/draft/0637.md
+depends_on_source_sha: "d45d1e3fb28cbe454d5a5bcea176c21016799b4d"
+dependency_status: verified_ready_same_title_body_facts
+predecessor_path: chapters/ready/0637.md
 target_effective_chars: 3000
 ---
 
@@ -31,7 +31,7 @@ target_effective_chars: 3000
 - **结尾与承接**：Day502早青桥真付至Day503中午，下一步合法查询仍需核原承办岗后续分类原件；正文优选2600—3400有效字符，硬限2300—3800。
 
 ## Continuity Precheck
-- 第637章当前仅为未审草稿：`chapters/draft/0637.md`，Git blob `fce352400832dc7a7ba7b92358f3a810db44473f`，依赖状态 `provisional`，不是正式Canon；本章 Front Matter 同步保存章号与完整 SHA。
+- 第637章已通过Reader、独立QA、精确CI并迁入正式ready：`chapters/ready/0637.md`，Git blob `d45d1e3fb28cbe454d5a5bcea176c21016799b4d`，原临时依赖SHA已逐字与正式ready正文及标题比较相同；仅Front Matter交付元数据改变，现依赖核对为verified_ready_same_title_body_facts，正式ready正文事实可用于本章；本章 Front Matter 同步保存章号与完整 SHA。
 - 前章Day500 10:02仅有物业对Day501 09:30的具名回复承诺，青桥Day498 11:38实际真付只到Day501 12:00；二次转付只见申请材料内转财务复核席、后序号未获准阅。
 - Day497 15:17母亲本人真收到当代新补核说明，Day499 10:11限项核账回执真到有责窗口；旧门卫室代收旧信不等于当年本人获悉。
 - 四楼旧12cm口父亲铅笔短线旧饰板独封、客厅一照明有限用其余受水回路隔离整屋禁返住，五楼限复水不扩大；公区Day499补拍仅证明可见白痕主段在墙面收边，管背、物质、漏源及灰管身份远端未证，Day500方法评估只是收件未获接触许可。
