@@ -6,9 +6,9 @@ volume: 6
 arc: ARC-054
 status: planned
 depends_on_chapter: 639
-depends_on_source_sha: "d1f6e2e1a1b089707334cae3065305ab7fd1e331"
-dependency_status: provisional
-predecessor_path: chapters/draft/0639.md
+depends_on_source_sha: "0d0d636ed3c19b4baf9559bed268fa391168e08f"
+dependency_status: verified_ready_same_title_body_facts
+predecessor_path: chapters/ready/0639.md
 target_effective_chars: 3000
 ---
 
@@ -34,7 +34,7 @@ target_effective_chars: 3000
 
 ## Continuity Precheck
 - GitHub main中第153章实际位于 chapters/published/0153.md；本轮从 published、ready、draft 三类数字章名确认最大为639，新写640而不重建旧章。
-- 前639仅处于 chapters/draft/0639.md，Git Blob d1f6e2e1a1b089707334cae3065305ab7fd1e331；按第639章此特定版设 depends_on_chapter=639、depends_on_source_sha=d1f6e2e1a1b089707334cae3065305ab7fd1e331、dependency_status=provisional，未将草稿当正式Canon，待独立审核确认衔接。
+- 前章639正式位于 `chapters/ready/0639.md`，Git blob `0d0d636ed3c19b4baf9559bed268fa391168e08f`；本章原稿所依赖的639临时草稿与正式ready比较后**标题及小说正文逐字一致，差异只有交付Front Matter**，已将depends_on_source_sha及依赖状态重绑为正式ready，全部本章依赖的Day502事实一致。
 - 第638章Day501 11:14商户真实收至Day503午且11:26双卡实开；第639章Day502没有新住宿实款，故本章必须明确Day503中午衔接，不能以内部审批当续住。
 - 旧押金第639章仅本号票号对照已补、本号未制付，账户实名/历史联系来源未核；Day497新本人通知及Day499限项本人回执不倒填旧门卫室代收为本人旧实收。
 - 四楼旧12cm观察口/父亲旧板封存、只限单照明支路其余隔离整屋禁返住；五楼有限复水未扩大；公区白痕可见段在墙面收边，遮挡段/材质/漏源/灰侧接远端未证，Day500方法评估仅受理。

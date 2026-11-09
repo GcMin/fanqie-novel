@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 639
-last_reviewed_title: "补齐了一张对应表，付款指令仍未生成"
-last_source_path: chapters/draft/0639.md
-last_source_sha: d1f6e2e1a1b089707334cae3065305ab7fd1e331
-last_review_path: reader_reviews/0639_d1f6e2e1.md
+last_reviewed_chapter: 640
+last_reviewed_title: "旧号码找到了抄录处，签字栏仍然空着"
+last_source_path: chapters/draft/0640.md
+last_source_sha: 98d41b923d44fafa50750b668bd679728912fe7a
+last_review_path: reader_reviews/0640_98d41b92.md
 last_reviewed_at: "2026-11-09"
-reviewer_mode: combined_audit_independent_pass_a_then_pass_b_exact_ready_dependency
+reviewer_mode: combined_audit_independent_pass_a_then_pass_b_after_stage_a_factual_compatible_rebind
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 638
-depends_on_source_sha: cecce34a9b23584e2342357506b57a0f702b707b
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: cecce34a9b23584e2342357506b57a0f702b707b
+depends_on_chapter: 639
+depends_on_source_sha: 0d0d636ed3c19b4baf9559bed268fa391168e08f
+dependency_status: verified_ready_same_title_body_facts
+predecessor_current_source_sha: 0d0d636ed3c19b4baf9559bed268fa391168e08f
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7568,4 +7568,28 @@ combined_audit_chapter_639_20261109:
   dependency_status: verified_exact_ready_blob
   stage_a_used: 0
   body_revisions: 0
+  structural_gate: exact_candidate_CI_required_before_main
+
+combined_audit_chapter_640_20261109:
+  chapter: 640
+  title: "旧号码找到了抄录处，签字栏仍然空着"
+  original_source_sha: "1380c7d001a3a455610579219da818071dd0e535"
+  initial_review: reader_reviews/0640_1380c7d0.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  stage_a_fix: narrative_chapter_reference_one_phrase_and_predecessor_ready_sha_metadata_plan
+  source_path: chapters/draft/0640.md
+  source_sha: "98d41b923d44fafa50750b668bd679728912fe7a"
+  review_path: reader_reviews/0640_98d41b92.md
+  reviewer_mode: combined_audit_independent_pass_a_then_pass_b_after_stage_a
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_old_draft_sha: "d1f6e2e1a1b089707334cae3065305ab7fd1e331"
+  predecessor_ready_sha: "0d0d636ed3c19b4baf9559bed268fa391168e08f"
+  predecessor_title_body_unchanged: true
+  dependency_status: verified_ready_same_title_body_facts
+  stage_a_used: 1
+  body_revisions: 1
   structural_gate: exact_candidate_CI_required_before_main

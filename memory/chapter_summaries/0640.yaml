@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 640
+title: "旧号码找到了抄录处，签字栏仍然空着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "1380c7d001a3a455610579219da818071dd0e535"
+source_draft_sha: "98d41b923d44fafa50750b668bd679728912fe7a"
+initial_reader_review: "reader_reviews/0640_1380c7d0.md"
+reader_review: "reader_reviews/0640_98d41b92.md"
+depends_on_chapter: 639
+depends_on_source_sha: "0d0d636ed3c19b4baf9559bed268fa391168e08f"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day503 08:12—Day504 07:06"
+summary: >-
+  Day503母亲上午08:12核青桥Day501 11:14商户真付两晚仅到本日中午，原房暂留不等于续住；物业09:03原则同意、10:43指令发出、11:08支付处理中都不是商户实收。11:16青桥商户真正收到新三晚款接续Day503中午至Day506中午，11:33同房两张卡分别重新编码并真实开门，两个箱子未搬，母亲把真实收款单告知正常上班的唐晓漫。旧押金方面Day502新有源限项核到票号关联已补、账户姓名和旧联系来源待核、二次申请本号未对外制付；Day503袁经办10:21另提交限本户联系人来源查阅、10:38正式收件，13:07获准双岗查阅，13:49从历史住户资料**批量转录簿**真证本户号码来自“旧住户联系清单”批量录入，录入和岗位复核签识存在，但本户**本人确认栏空白**，原来源清单册本次权限未覆盖，不能证号码最初是谁提供、当年母亲是否获悉旧信或断定她从来没提供。14:36双签归册、15:22袁得限项摘录、16:08母亲本人获回告，拒用现在签字补旧日。旧押金其他渠道资金去向仍未知。晓漫下班带热豆腐共餐，母亲修好的亡夫旧菜包保留父亲原歪针脚及外甥双头船；20:43本人回拨夜间中心，Day504 07:06交班青桥真住期至Day506中午，四楼旧12cm口封存单照明限用其他受水电路隔离整屋禁返住、五楼有限复水未扩，公区白痕材质漏源灰接远端及2019 F003旧73页旧袋今址历史真人获答/F008/M004/M005无新跨源确证。
+meaningful_state_changes:
+  - "Day503 11:16青桥商户真正收到接续三晚款至Day506中午，11:33两张卡逐张真开而原房未搬。"
+  - "Day503合法双岗证旧联系人字段来自批量转录簿，录入与复核岗位真签但本户本人确认栏空白；源旧清单不在许可内，不能推历史本人知否。"
+knowledge_updates:
+  - "母亲15:08后确认当年联系人只知批量转录和本人确认栏空白，她现今电话能通不等于当年本人填过、旧信见过；押金款其他渠道仍未知。"
+  - "袁经办和双岗仅知13:07获准的转录登记；女儿只听母亲限项描述；夏宁周衡梁策20:43本人回拨后获得有源有限信息，不替历史接收人签字。"
+relationship_updates:
+  - "母亲自己核真实商户款与住期，晓漫照常工作晚间带豆腐到青桥共餐；两人拒用今天签字倒认多年以前旧联系人事实。"
+foreshadowing_updates:
+  - "F014旧联系方式找到了批量转录处但原住户清单源册尚未获权阅核，过去本人确认与旧信送达未知；旧押金其他历史渠道支付仍未证，Day506午后住房另待续；工程/2019旧案继续分源。"
+ending_state: "Day504 07:06母亲同原房续至Day506中午且双卡真开；旧联系人仅证转录、岗位签记与本户确认栏空白，原清单未查，押金实际去向仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1380c7d001a3a455610579219da818071dd0e535", final_draft_sha: "98d41b923d44fafa50750b668bd679728912fe7a", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3055
