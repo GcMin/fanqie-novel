@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 638
-current_stage: chapter638_stage_a_dependency_reader_qa_pass_structural_pending
-current_source_path: chapters/draft/0638.md
-current_source_sha: 9a666c43162f379e180a00d94c11a29f6aeb9d6b
-current_review_path: reader_reviews/0638_9a666c43.md
+current_chapter: 641
+current_stage: chapter641_reader_qa_pass_no_revision_structural_pending
+current_source_path: chapters/draft/0641.md
+current_source_sha: 523d8ae90e99a73041fac63827b6a6cce4ba40bb
+current_review_path: reader_reviews/0641_523d8ae9.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter638_stage_a_637_ready_rebind_reader_qa_pass
+last_action: chapter641_reader_and_qa_pass_no_revision
 last_action_date: "2026-11-09"
 last_error: null
-last_diff_summary: "第637旧draft与正式ready标题小说正文完全相同只更交付元数据；第638章Stage A仅元数据+详细章纲重绑，初Reader0/1/2、新SHA独立Reader0/0/2，正文0字改"
+last_diff_summary: "第641章直接依赖640正式ready精确SHA，Reader 0/0/2、独立内容QA PASS、正文0字改动，须精确候选CI通过才准迁ready"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 9a666c43162f379e180a00d94c11a29f6aeb9d6b
+current_review_source_sha: 523d8ae90e99a73041fac63827b6a6cce4ba40bb
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6730,4 +6730,19 @@ combined_audit_chapter_640_20261109:
   predecessor_old_draft_sha: "d1f6e2e1a1b089707334cae3065305ab7fd1e331"
   predecessor_ready_sha: "0d0d636ed3c19b4baf9559bed268fa391168e08f"
   predecessor_factual_delta: title_body_identical_only_frontmatter_delivery_changed
+  structural_gate: exact_candidate_CI_required_before_main
+combined_audit_chapter_641_20261109:
+  chapter: 641
+  original_source_sha: "523d8ae90e99a73041fac63827b6a6cce4ba40bb"
+  stage: reader_and_independent_content_qa_pass_no_revision
+  fix: none
+  final_draft_sha: "523d8ae90e99a73041fac63827b6a6cce4ba40bb"
+  final_review: reader_reviews/0641_523d8ae9.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  content_qa: pass
+  predecessor_ready_sha: "1fb4451b7fefc777e04068f38bce3375fee17c22"
   structural_gate: exact_candidate_CI_required_before_main
