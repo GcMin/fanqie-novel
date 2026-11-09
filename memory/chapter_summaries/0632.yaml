@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 632
+title: "一张退回回执，不能算她领过钱"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "cefc4f6205678e953b31987cc02ae673a7eebd58"
+original_source_sha: "96e807f36f83f1f57eb8f565df5216b03ec15fc8"
+reader_review: "reader_reviews/0632_cefc4f62.md"
+initial_reader_review: "reader_reviews/0632_96e807f3.md"
+depends_on_chapter: 631
+depends_on_source_sha: "6d362cec5856da68cb40a2d58c2f3bb7cdf7393e"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day495 08:17—Day496 07:08"
+summary: >-
+  Day495河安首层双床原商户真款到当日12:00，09:02前台查新一期未收到；09:47物业经办仍仅内部批次安排，10:22履行前日承诺送具名办理进度及付款不成时由物业负责合法替代住宿衔接说明，母亲不把申请写成实款。11:07河安商户真正收到物业接续Day495午—Day498午三晚款，11:26现同房号双房卡逐一更新试开，母女无需搬房，仍保留原错误房号申请历史。旧押金Day494已依法见过渡账本户转入待核与批次结转两行，仅找到下一清算附件目录；Day495 09:55袁经办按本户票号与附件号申请，11:44另获有权岗位限定关联页项查阅许可，13:18双岗依法查到批次拟支付表、独立日期与批次号的银行渠道退回反馈及后续人工处理索引，限户关联表确认包含母亲票号对应项。该次批次因收款账户资料未完成核对被渠道退回且未获有效执行确认；不等于证以后从任何其他渠道都没有退过款。14:06按权限归位、14:33前形成有源有限摘录，袁经办只告母亲该次失败及下一步人工处理另申请；Day496 15:00原约定仍只是相关限项办理进度。搬运真实一趟赔责未判、受潮物件因四楼禁止返住不能合法现地清点。母亲买橘子与妹妹商定周末探亲并告女儿，女儿工作正常不替物业付款，20:41母亲本人回拨夜间中心，Day496 07:08交班。四楼12cm旧观察口父亲短铅笔线饰板独封、单照明有限用其余受水线路隔离整屋禁返住，五楼原有限复水不扩；白痕灰侧管漏源和2019 F003原73页旧袋今址历史真人受答、F008/M004/M005无新跨源证。
+meaningful_state_changes:
+  - "Day495 11:07河安商户真正收新三晚款至Day498中午、11:26同房号双卡各实际开门。"
+  - "Day495 11:44另获清算附件有限许可后13:18双岗实核含本户关联项的某批拟支付表与银行渠道退回反馈，确证该次未获有效执行确认；其他重付或渠道未知。"
+  - "母亲和妹妹真定周末访家共餐、女儿正常上班生活没有停摆；Day496 15:00只有后续人工处理查询进度。"
+knowledge_updates:
+  - "母女知道旧押金某次关联支付批次因收款账户核对不足真实遭渠道退回，但后续人工/他渠道及本人最后是否实收未知；河安真付已到Day498午。"
+  - "袁经办双岗与夜班只知合法限定回告及渠道回执，不能替银行或住户签署退付完结，2019旧案不被此现代民事账证串联。"
+relationship_updates:
+  - "母亲自主求商户真实款与档案具名回告、与妹妹周末买菜共餐；女儿继续正常工作而支持母亲，母女互通真实进展但不代办垫款。"
+foreshadowing_updates:
+  - "Day496 15:00后续人工核对与申请办理进度有待真核；该次渠道退回不排除其他支付路径。Day498午后住宿新款未付，四楼禁返住、公区疑点、2019旧档未证。"
+ending_state: "Day496 07:08河安续住到Day498午双卡可用；旧押金某次拟付批次确有独立渠道退回凭据、后续人工处理仍未知；四楼仍禁返住，2019旧案未获新证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "96e807f36f83f1f57eb8f565df5216b03ec15fc8", final_draft_sha: "cefc4f6205678e953b31987cc02ae673a7eebd58", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_required_before_main}
+char_count: 3053
