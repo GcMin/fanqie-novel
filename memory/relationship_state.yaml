@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 636
+last_updated_chapter: 639
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3366,3 +3366,10 @@ chapter_638_arc054_verified:
   mother_daughter: "母亲Day501自行核物业付款与青桥双卡，真续住后告诉晓漫午休不用来搬两箱；晓漫照常工作傍晚带菜来青桥同餐，尊重母亲本人旧押金查证边界。"
   family: "母亲收到外甥双头船多了两道蓝色波浪线的新照片，生活节奏不因旧押金再添一张纸而停摆。"
   professional: "袁经办向母亲明确本轮查获财务退补核验单与原承办岗真实收文，母亲在菜摊要求具名函只写纸件退补不称银行退款；下一分类号须另合法申请。"
+
+chapter_639_arc054_verified:
+  chapter: 639
+  source_sha: "d1f6e2e1a1b089707334cae3065305ab7fd1e331"
+  mother_daughter: "母亲自己交旧包局部修补、按原渠道核账不让女儿代办，唐晓漫下班来青桥共餐，理解不能以一个付款申请号无指令断全部历史退款。"
+  family: "父亲旧菜包歪针脚完整保留，外甥双头船仍压桌垫，母女平等支持日常。"
+  professional: "袁经办告知母亲票号关联补证与本申请号未制付的有限原件状态，母亲要求合法分项补件清单，不给旧款补填历史签字。"

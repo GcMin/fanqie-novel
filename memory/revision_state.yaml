@@ -6698,3 +6698,17 @@ combined_audit_chapter_638_20261109:
   predecessor_ready_sha: "d45d1e3fb28cbe454d5a5bcea176c21016799b4d"
   predecessor_factual_delta: title_body_identical_only_frontmatter_delivery_changed
   structural_gate: exact_candidate_CI_required_before_main
+
+combined_audit_chapter_639_20261109:
+  chapter: 639
+  source_sha: "d1f6e2e1a1b089707334cae3065305ab7fd1e331"
+  stage: reader_and_independent_content_qa_pass_no_revision
+  final_review: reader_reviews/0639_d1f6e2e1.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  content_qa: pass
+  predecessor_ready_sha: "cecce34a9b23584e2342357506b57a0f702b707b"
+  structural_gate: exact_candidate_CI_required_before_main

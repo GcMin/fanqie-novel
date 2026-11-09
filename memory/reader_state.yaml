@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 638
-last_reviewed_title: "房门续住两晚，退回的是一张核验单"
-last_source_path: chapters/draft/0638.md
-last_source_sha: 9a666c43162f379e180a00d94c11a29f6aeb9d6b
-last_review_path: reader_reviews/0638_9a666c43.md
+last_reviewed_chapter: 639
+last_reviewed_title: "补齐了一张对应表，付款指令仍未生成"
+last_source_path: chapters/draft/0639.md
+last_source_sha: d1f6e2e1a1b089707334cae3065305ab7fd1e331
+last_review_path: reader_reviews/0639_d1f6e2e1.md
 last_reviewed_at: "2026-11-09"
-reviewer_mode: combined_audit_independent_pass_a_then_pass_b_after_stage_a_predecessor_ready_rebind
+reviewer_mode: combined_audit_independent_pass_a_then_pass_b_exact_ready_dependency
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 637
-depends_on_source_sha: d45d1e3fb28cbe454d5a5bcea176c21016799b4d
-dependency_status: verified_ready_same_title_body_facts
-predecessor_current_source_sha: d45d1e3fb28cbe454d5a5bcea176c21016799b4d
+depends_on_chapter: 638
+depends_on_source_sha: cecce34a9b23584e2342357506b57a0f702b707b
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: cecce34a9b23584e2342357506b57a0f702b707b
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7549,5 +7549,23 @@ combined_audit_chapter_638_20261109:
   predecessor_title_body_unchanged: true
   dependency_status: verified_ready_same_title_body_facts
   stage_a_used: 1
+  body_revisions: 0
+  structural_gate: exact_candidate_CI_required_before_main
+
+combined_audit_chapter_639_20261109:
+  chapter: 639
+  title: "补齐了一张对应表，付款指令仍未生成"
+  source_path: chapters/draft/0639.md
+  source_sha: "d1f6e2e1a1b089707334cae3065305ab7fd1e331"
+  review_path: reader_reviews/0639_d1f6e2e1.md
+  reviewer_mode: combined_audit_independent_pass_a_then_pass_b_exact_ready_dependency
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "cecce34a9b23584e2342357506b57a0f702b707b"
+  dependency_status: verified_exact_ready_blob
+  stage_a_used: 0
   body_revisions: 0
   structural_gate: exact_candidate_CI_required_before_main

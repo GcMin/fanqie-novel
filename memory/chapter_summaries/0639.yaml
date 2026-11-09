@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 639
+title: "补齐了一张对应表，付款指令仍未生成"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "d1f6e2e1a1b089707334cae3065305ab7fd1e331"
+reader_review: "reader_reviews/0639_d1f6e2e1.md"
+depends_on_chapter: 638
+depends_on_source_sha: "cecce34a9b23584e2342357506b57a0f702b707b"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day502 08:24—Day503 07:04"
+summary: >-
+  Day502青桥旅舍物业Day501 11:14真实付款两晚只到Day503中午，两张房卡已在Day501 11:26分别重制真开，本日未实收下一期。母亲保存旧押金副联，找缝纫店真实修补亡夫旧菜包发薄的底角而保留原歪针脚，唐晓漫照常工作晚上与她同餐。袁经办Day502 10:06提出仅查本户旧押金二次拟再办财务退补单的后序分类及本申请制付登记，11:52有权岗位真实批准，13:16档案双岗真核后序原件：本户原票号与收款簿住户登记关联说明当年有源真补；账户姓名一致性及历史联系来源仍写未核，原承办岗将夹子列为部分补证暂缓再次送财务；本申请号具名记录“退补待核，未生成本号付款指令”，只能证明这一申请路径未生成外发指令，不证别的历史渠道没有实际退款。14:27双签归册，15:14袁得有限摘录并拒写退款失败或重付，15:46向母亲本人有源回告，她仅在票号对应一格勾记并要求现在可合法补的分项清单，不倒签旧日账户或通知。20:41本人回拨夜班，Day503 07:04交班旧押金仍无真正资金去向，青桥房款只到当日中午。四楼12cm观察口父亲短铅笔旧板独封、单照明有限用其余受水电路隔离整屋禁返住、五楼有限复水不扩；白痕材质漏源灰细管远端和2019 F003旧73页旧散袋今址历史人获答及F008/M004/M005没有新跨源确证。
+meaningful_state_changes:
+  - "Day502新获限项许可，双岗真证二次申请后序只有票号对应一项有源补证、其他两项未核，本申请未生成对外付款指令，旧账具体范围收窄但资金去向仍未知。"
+  - "母亲亲自修补亡夫旧菜包底角且保留旧歪针脚，母女继续日常；青桥旧款仅到Day503午且无新续费。"
+knowledge_updates:
+  - "母亲和袁经办在15:46前后各按来源知票号对应已补、本号未外发指令且其他支付渠道未知；女儿晚间才听母亲告知，不取得档案查阅权。"
+  - "夏宁周衡梁策只依据20:41本人回拨及有源限项摘要登记，不能以新本人渠道反推当年旧联系或旧信本人签收。"
+relationship_updates:
+  - "母亲独立要求准确合法分项补件并保留旧包父亲针脚，晓漫正常上班晚上共餐，不代签、代查银行或代垫。"
+foreshadowing_updates:
+  - "F014旧押金二次申请仅票号对应有源已补、本号未制付，账户一致和当年联系来源待另核；Day503中午后青桥住房未续，F003/F008/M004/M005及白痕灰管独立未证。"
+ending_state: "Day503 07:04已证二次申请本号未生成付款指令且其他渠道未知；母亲旧菜包真补好、青桥实款至当日中午、四楼仍禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d1f6e2e1a1b089707334cae3065305ab7fd1e331", final_draft_sha: "d1f6e2e1a1b089707334cae3065305ab7fd1e331", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3289
