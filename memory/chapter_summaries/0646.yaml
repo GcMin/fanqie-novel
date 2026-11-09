@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 646
+title: "房款回话过了中午，旧账有了接手处"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "e2a07702ee5f3becacced47768529fb596153490"
+source_draft_sha: "8d46052badd7b86bb21a6907f27786c06e8bae7c"
+initial_reader_review: "reader_reviews/0646_e2a07702.md"
+reader_review: "reader_reviews/0646_8d46052b.md"
+depends_on_chapter: 645
+depends_on_source_sha: "362b9580c9430cd83ba2da3a7705f4b273b408e2"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day509 08:06—Day510 07:04"
+summary: >-
+  Day509青桥原首层双床仍由Day506 11:39物业真付四晚款到Day510中午，两卡真开、两箱未搬。母亲上午09:22收到物业进度10:27只见预计制付、没有新商户款，12:00原承诺具名续费/合法替代住处未落实、12:19物业责任岗正式承认住期退核与备用旅舍未签约，不能写已安置也不等于青桥已断供。14:47商户出现候选订单，14:53真核青桥商户另收Day510中午—Day512中午两晚实款，15:06母亲两张新卡逐张真的开门，两箱保持原位；失约时点与下午真付分别留档。旧押金方面第645章已合法真核某银行退回后历史暂挂转存待结索引、下一转存凭证尚未申阅；袁经办Day509 10:04新限项申请、11:16获财务岗限定批准、13:42双档案岗实际核本户同票号同批次原转存凭证，内部账项真正由原岗位移交财务集中清理往来账岗，且有接续清理批次及下一册页项索引，14:38双签复位；收账单位章及交接时间非本人收款或银行实付。16:12袁经办获有限摘录并具名告母亲，她17:01仅获下一清理册本户查阅条件的受理号、未获准实阅下一册。母亲下午实际到妹妹家将大画纸与晓漫买的蜡笔交给外甥，外甥真的画三头与四头船并想加猫，亡夫旧菜包针脚延续，女儿下班短时相聚。20:48母亲本人回拨中心、Day510 07:04交班只知新商户真付和旧账内部承接、历史押金最终实际退收未知。四楼12cm旧口父亲旧板独封单照明有限其余受水电路隔离整屋禁返住、五楼有限复水；公区白痕灰细侧接远端漏源与2019 F003旧73页旧袋今址历史真人回告及F008/M004/M005无新跨源证。
+meaningful_state_changes:
+  - "Day509 12:00物业提前住房回复未兑现且12:19具名承认，14:53青桥商户真正收到新两晚至Day512午、15:06两张房卡实开，箱子未搬。"
+  - "10:04另申请旧转存凭证11:16合法批准13:42双档案岗真阅并证内部移交财务集中清理岗及下一清理册批次号，但无本人收款/银行实际支付证。"
+  - "母亲实际带大画纸蜡笔到妹妹家与外甥画船，晓漫下班短时共处，亡夫旧包针脚仍存。"
+knowledge_updates:
+  - "母亲16:12后仅知道旧账转存承接集中清理岗及下层索引，不知该账后来怎么清结、自己旧年是否收款，17:01下层许可仅受理。"
+  - "袁经办和双保管员只知获权本户转存凭证，未见下层清理册实际收付；夏宁周衡梁策20:48本人口述及有限源件才记录新住房真付与旧账单位移交。"
+relationship_updates:
+  - "母亲亲自核住房真款、不让晓漫为预算消息提前代搬，两人当日带外甥实画船；保留父亲旧菜包原针脚及家庭关系。"
+foreshadowing_updates:
+  - "F014旧押金转存凭证证历史内部转给集中清理岗，接续清理册号及批次索引成为下一合法查询入口，但尚无许可或实阅下一册、银行出款/本人实收仍未知。"
+ending_state: "Day510 07:04青桥商户两笔款真实接续到Day512午、两卡实开两箱未搬，Day509中午承诺失约另记；旧押金历史内部承接岗已证，下一册仅待许可真实退款未知，四楼禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "e2a07702ee5f3becacced47768529fb596153490", final_draft_sha: "8d46052badd7b86bb21a6907f27786c06e8bae7c", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_required_before_main}
+char_count: 3427

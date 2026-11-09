@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 645
-last_reviewed_title: "那笔旧钱曾经挂账，后来去了哪里"
-last_source_path: chapters/draft/0645.md
-last_source_sha: 87d9d99b50f2b5f3f6e74f9c4b12610bacdb0008
-last_review_path: reader_reviews/0645_87d9d99b.md
+last_reviewed_chapter: 646
+last_reviewed_title: "房款回话过了中午，旧账有了接手处"
+last_source_path: chapters/draft/0646.md
+last_source_sha: 8d46052badd7b86bb21a6907f27786c06e8bae7c
+last_review_path: reader_reviews/0646_8d46052b.md
 last_reviewed_at: "2026-11-10"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b_exact_ready_dependency
 recommendation: keep
@@ -12,11 +12,11 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 644
-depends_on_source_sha: aafe9db3a8fc6b5a2d52aa7cc65efa55b5f88280
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: aafe9db3a8fc6b5a2d52aa7cc65efa55b5f88280
-predecessor_sha_mismatch: false
+depends_on_chapter: 645
+depends_on_source_sha: 362b9580c9430cd83ba2da3a7705f4b273b408e2
+dependency_status: verified_ready_same_title_body_facts
+predecessor_current_source_sha: 362b9580c9430cd83ba2da3a7705f4b273b408e2
+predecessor_sha_mismatch: true
 predecessor_qa_verification_required: false
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
@@ -7686,5 +7686,29 @@ chapter_645_arc054_review:
   qa_gate: "pass"
   predecessor_ready_sha: "aafe9db3a8fc6b5a2d52aa7cc65efa55b5f88280"
   dependency_status: "verified_exact_ready_blob"
+  body_revisions: 0
+  structural_gate: "exact_candidate_CI_required_before_main"
+
+chapter_646_arc054_review:
+  chapter: 646
+  title: "房款回话过了中午，旧账有了接手处"
+  original_source_sha: "e2a07702ee5f3becacced47768529fb596153490"
+  initial_review_path: "reader_reviews/0646_e2a07702.md"
+  initial_counts: "blocker=0 major=1 minor=2"
+  stage_a_fix: "predecessor_ready_sha_metadata_plan_rebind_after_title_body_comparison"
+  source_path: "chapters/draft/0646.md"
+  source_sha: "8d46052badd7b86bb21a6907f27786c06e8bae7c"
+  review_path: "reader_reviews/0646_8d46052b.md"
+  reviewer_mode: "independent_new_sha_pass_a_then_pass_b"
+  final_counts: "blocker=0 major=0 minor=2"
+  recommendation: "keep"
+  required_action: "none"
+  reader_gate: "pass"
+  qa_gate: "pass"
+  predecessor_old_draft_sha: "87d9d99b50f2b5f3f6e74f9c4b12610bacdb0008"
+  predecessor_ready_sha: "362b9580c9430cd83ba2da3a7705f4b273b408e2"
+  predecessor_title_body_unchanged: true
+  dependency_status: "verified_ready_same_title_body_facts"
+  stage_a_used: 1
   body_revisions: 0
   structural_gate: "exact_candidate_CI_required_before_main"

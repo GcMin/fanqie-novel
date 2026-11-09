@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 645
+last_updated_chapter: 646
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3415,3 +3415,10 @@ chapter_645_arc054_verified:
   mother_daughter: "Day508母亲独自办理理赔与生活，晓漫工作后携蜡笔与母亲在青桥同备外甥大画纸并共餐，双方未要求代垫住房或代办旧账。"
   family: "外甥从双头船问三头船，已备大画纸与蜡笔，仍未送到妹妹家；亡夫旧菜包原歪针脚保留。"
   professional: "袁经办按授权只回告限项账务历史阶段，母亲要求留真凭证且不签全部收款/结案，双方尊重证据边界。"
+
+chapter_646_arc054_verified:
+  chapter: 646
+  source_sha: "8d46052badd7b86bb21a6907f27786c06e8bae7c"
+  mother_daughter: "母亲Day509坚持物业真实付款而不让晓漫中午为内部审批请假搬家，下午房款真到后自己送外甥大画纸和蜡笔；晓漫下班短时同处妹妹家尊重母亲自己处理。"
+  family: "外甥实际开始画三头四头船与猫、问外公菜包歪针脚，母亲让他绘画且保留亡夫旧针脚，不把押金纸放妹妹家桌上。"
+  professional: "物业住宿负责人具名承认中午期限未满足、下午补真款后母亲要求分别记逾期和完成；袁经办与母亲均不将财务集中清理岗接账签名当本人实际退款。"
