@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 636
-last_reviewed_title: "白痕落在墙边，漏水还没有名字"
-last_source_path: chapters/draft/0636.md
-last_source_sha: 116611f50420679bec86d786d6338b20216c8edc
-last_review_path: reader_reviews/0636_116611f5.md
+last_reviewed_chapter: 637
+last_reviewed_title: "第二次转付有了编号，钱还没到她手里"
+last_source_path: chapters/draft/0637.md
+last_source_sha: fce352400832dc7a7ba7b92358f3a810db44473f
+last_review_path: reader_reviews/0637_fce35240.md
 last_reviewed_at: "2026-11-09"
-reviewer_mode: combined_audit_independent_pass_a_then_pass_b_after_stage_a_dependency_and_relative_dates
+reviewer_mode: combined_audit_independent_pass_a_then_b_exact_ready_dependency
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 635
-depends_on_source_sha: 1c13bd26f468b1d5b91733b42fdb1b1b6905bbac
-dependency_status: verified_ready_same_title_body_facts
-predecessor_current_source_sha: 1c13bd26f468b1d5b91733b42fdb1b1b6905bbac
+depends_on_chapter: 636
+depends_on_source_sha: 71845b3dd20a0b982ddc6d07680998e73f371439
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 71845b3dd20a0b982ddc6d07680998e73f371439
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7509,4 +7509,22 @@ combined_audit_chapter_636_20261109:
   predecessor_ready_sha: "1c13bd26f468b1d5b91733b42fdb1b1b6905bbac"
   predecessor_title_body_unchanged: true
   dependency_status: verified_ready_same_title_body_facts
+  structural_gate: exact_candidate_CI_required_before_main
+
+combined_audit_chapter_637_20261109:
+  chapter: 637
+  title: "第二次转付有了编号，钱还没到她手里"
+  source_path: chapters/draft/0637.md
+  source_sha: "fce352400832dc7a7ba7b92358f3a810db44473f"
+  review_path: "reader_reviews/0637_fce35240.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_pass_b_exact_ready_dependency
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "71845b3dd20a0b982ddc6d07680998e73f371439"
+  dependency_status: verified_exact_ready_blob
+  stage_a_used: 0
+  body_revisions: 0
   structural_gate: exact_candidate_CI_required_before_main

@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 637
+title: "第二次转付有了编号，钱还没到她手里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "fce352400832dc7a7ba7b92358f3a810db44473f"
+reader_review: "reader_reviews/0637_fce35240.md"
+depends_on_chapter: 636
+depends_on_source_sha: "71845b3dd20a0b982ddc6d07680998e73f371439"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day500 08:19—Day501 07:06"
+summary: >-
+  Day500青桥仍由Day498 11:38商户真收的Day498午至Day501午三晚款保障，旧双卡已退、新双卡已开、两箱已交；09:07母亲核无续款，10:02获物业具名办理进度、明确Day501 09:30前应答真续款或合法替代房与行李交接；Day501 07:06前台仍无新实收。依Day499 10:11母亲本人限项继续查原票号回执，袁经办Day500 10:58提出本户关联二次转付申请查阅、11:46获限定批准，13:12双岗真核原银行退回后的“补核后拟再办”第二次申请号及材料转财务复核席的“转出”记录和接收签记，复核意见仍为补核材料待齐，后序号超许可未阅，没有对外银行付款或本人实际到账凭证，其他渠道仍未知；13:58归册，14:19袁经办得摘录、14:46母亲具名获限项回告，不签结案。顾工基于Day499双站位非接触影像15:36申请进一步专业接触方法评估、16:08仅获管理岗受理，没有刮样、拆管、试水及进入四楼许可；可见白痕主段在墙面收边而旧灰管亮边有反光，管背段、物质成因漏源及灰侧接用途远端未知。母女在青桥正常生活，补衬衣、留双头船、不泄房号旧票号；Day500 20:44母亲本人回拨、Day501 07:06夜班交接。四楼12cm口父亲旧板独封、单照明有限用其余受水线路隔离整屋禁返住、五楼限复水不扩大；2019 F003旧第73页旧袋今址历史真人获答/F008/M004/M005无新证。
+meaningful_state_changes:
+  - "Day500 11:46限定新查许可取得、13:12双岗真核旧押金二次拟再办号和财务复核席内部材料接收，超范围后序号及真实银行付款仍待查。"
+  - "Day500 10:02物业具名明确Day501 09:30住宿应答期限，但Day501 07:06青桥商户仍没收到新款。"
+  - "Day500 16:08公区白痕方法评估只受理未准接触，四楼仍不得返住。"
+knowledge_updates:
+  - "母亲知道第二次内部申请号及财务接收已证，但没有真实退款回单；女儿只听母亲限项分享，不取得本户查阅权限。"
+  - "袁经办及双岗只知获准原册内的二次拟办、内部送财务与待补核；顾工知方案评估受理不是许可；周衡夏宁梁策以有源限项信息分层记录。"
+relationship_updates:
+  - "母亲自主核实住宿实付及押金真正到账，拒绝女儿代垫；唐晓漫正常上班、陪母亲削苹果及拍双头船局部，但不扩大代收授权。"
+foreshadowing_updates:
+  - "F014新增二次拟再办号与财务内部接收事实，后序号须另获授权；旧信当年是否本人亲见、资金真实退付、Day501午后住宿、白痕成因灰细管远端继续待查。"
+ending_state: "Day501 07:06二次内部申请与财务材料流转已证但不证退款；青桥下一期仍未付款、09:30须具名答复；工程方法评估仅收件，四楼禁返住和旧案未变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "fce352400832dc7a7ba7b92358f3a810db44473f", final_draft_sha: "fce352400832dc7a7ba7b92358f3a810db44473f", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_required_before_main}
+char_count: 3381
