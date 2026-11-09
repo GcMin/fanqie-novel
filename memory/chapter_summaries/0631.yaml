@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 631
+title: "账上结转了一笔，退款凭证仍然缺席"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "4c4eff489d28ee9573b938b556866085af280618"
+reader_review: "reader_reviews/0631_4c4eff48.md"
+depends_on_chapter: 630
+depends_on_source_sha: "4cf0d24ff589f44e85ac1e34b9a80170080df0ec"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day494 08:20—Day495 07:06"
+summary: >-
+  Day494母亲仍住河安Day486换入首层双床，Day493 11:31商户真收接续两晚至Day495中午、11:43双卡真开，Day494 09:04再次核实后期尚无新付款；住宿经办人具名承诺Day495 10:30前真实回复进度或合法替代安置，承诺不等于实款。母亲整理旧押金逐户附册的本户票号及“转记待核”暂挂索引，10:11袁经办获得过渡科目目录信息，11:32本户限定源账核查申请真受理未获当时授权；13:07档案管理岗另获有限许可后13:43双岗合法限定查见与本户票号对应的“转入待核”及年末“批次结转”两条过渡账记录、归集岗位签名，定位下一件“清算往来凭证附件”目录号但未获开放附件许可。记账转列与批次归集不是本人领款或支付渠道证明，仍未知退款是否发生。14:42袁经办在Day494 15:00原约定前出具具名三项分项进度函，搬运一趟发生但责任/赔付未定、受潮物件因四楼禁返住无法合法清点，下一次Day496 15:00仅答复清算附件有限查阅申请办理进度不承诺实际款项。母亲买可单手开盖的保温杯，女儿正常工作，母女约定周末从河安赴小姨家吃饭。母亲20:38本人回拨中心，Day495 07:06交接。四楼旧12cm观察口父亲带短铅笔线旧饰板独号封存、一照明有限用其余受水回路隔离整屋禁止返住，五楼有限复水不扩大；公区白痕、灰细侧接和漏源无新现场许可或确证；2019 F003原73页旧袋现址历史当事人真正获答及F008/M004/M005没有新跨源证。
+meaningful_state_changes:
+  - "Day494 13:07另获限定本户过渡账许可后13:43双岗真核两条原始记账，并定位清算附件目录号；未见支付凭证或真人签收。"
+  - "Day494 14:42实际兑现三项具名进度；下一次Day496 15:00仅关于附件申请的进度，旧押金是否退还仍未核。"
+  - "母女决定周末从河安正常探亲；住房下一期Day495午后尚无商户真实收款，物业只承诺Day495 10:30进度。"
+knowledge_updates:
+  - "母亲女儿知过渡账两行“转入待核/批次结转”只表明账簿流转、年末签名不是退款签收，清算附件本次未获阅准；河安真付仅到Day495午。"
+  - "袁经办、双岗保管人员仅知合法限定两行及附件目录；夜班仅从本人回拨与有源限定信息记载，不知实际支付者与领款人。"
+relationship_updates:
+  - "母亲继续自主查账、去买保温杯并同意周末从河安赴妹妹家，女儿正常上班、不替物业付后续房费；母女按事实互通。"
+foreshadowing_updates:
+  - "Day495 10:30住宿下一期进度或合法替代安排尚待兑现；Day495中午实付住宿将到期；Day496 15:00限定清算附件申请办理结果待回告；公共工程与2019旧案仍不升级。"
+ending_state: "Day495 07:06两条过渡账真记账有据、后续附件仅目录号、退款实际去向不明；河安真实款到Day495中午，四楼仍禁止返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "4c4eff489d28ee9573b938b556866085af280618", final_draft_sha: "4c4eff489d28ee9573b938b556866085af280618", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_required_before_main}
+char_count: 3117
