@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 635
-current_stage: chapter635_reader_qa_pass_no_revision_structural_pending
-current_source_path: chapters/draft/0635.md
-current_source_sha: 0c6c2f32eb03dd6f6501d5dccc868c603719c61f
-current_review_path: reader_reviews/0635_0c6c2f32.md
+current_chapter: 636
+current_stage: chapter636_stage_a_dependency_relative_dates_reader_qa_pass_structural_pending
+current_source_path: chapters/draft/0636.md
+current_source_sha: 116611f50420679bec86d786d6338b20216c8edc
+current_review_path: reader_reviews/0636_116611f5.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter635_no_revision_reader_qa_pass
+last_action: chapter636_stage_a_635_ready_rebind_three_relative_dates_new_sha_reader_qa_pass
 last_action_date: "2026-11-09"
 last_error: null
-last_diff_summary: "635草稿直接依赖634正式readySHA精确一致；首轮独立PassA/PassB 0 BLOCKER 0 MAJOR 2 MINOR；未修改正文，内容QA PASS"
+last_diff_summary: "635旧草稿与正式ready小说正文和标题完全一致只改交付元数据；636 StageA重绑635 ready依赖并将Day499上午三处Day497新信“昨天”纠正“前天”；旧Reader0/2/2新SHA Reader0/0/2"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 0c6c2f32eb03dd6f6501d5dccc868c603719c61f
+current_review_source_sha: 116611f50420679bec86d786d6338b20216c8edc
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6649,4 +6649,21 @@ combined_audit_chapter_635_20261109:
   body_revisions: 0
   content_qa: pass
   predecessor_ready_sha: "6fd649a7b3d05644828039b618e0c0f4b90b58a5"
+  structural_gate: exact_candidate_CI_required_before_main
+combined_audit_chapter_636_20261109:
+  chapter: 636
+  original_source_sha: "ae477bd6fcaf04e1b221702d24d31b19b5612c0d"
+  stage: local_revision_predecessor_ready_rebind_and_three_relative_date_word_fixes
+  fix: "比较635原draft与正式ready标题小说正文逐字相同，重绑正式依赖及详细章纲，Day499三处Day497新信相对词昨天修为前天，其他日期保留"
+  initial_review: reader_reviews/0636_ae477bd6.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_draft_sha: "116611f50420679bec86d786d6338b20216c8edc"
+  final_review: reader_reviews/0636_116611f5.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 3
+  content_qa: pass
+  predecessor_ready_sha: "1c13bd26f468b1d5b91733b42fdb1b1b6905bbac"
   structural_gate: exact_candidate_CI_required_before_main

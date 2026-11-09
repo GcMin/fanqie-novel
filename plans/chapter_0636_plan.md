@@ -6,9 +6,9 @@
 - status: planned
 - source_main_sha: 99b9e02f582912317da6e2bf254970caaf23205f
 - depends_on_chapter: 635
-- depends_on_source_sha: 0c6c2f32eb03dd6f6501d5dccc868c603719c61f
-- depends_on_path: chapters/draft/0635.md
-- dependency_status: provisional
+- depends_on_source_sha: 1c13bd26f468b1d5b91733b42fdb1b1b6905bbac
+- depends_on_path: chapters/ready/0635.md
+- dependency_status: verified_ready_same_title_body_facts
 - target_effective_chars: 3138
 
 ## Planner
@@ -18,7 +18,7 @@
 - **开场状态**：Day499 08:12青桥首层双床已由物业于Day498 11:38真实支付三晚，母亲于Day498 12:31本人试开双卡并实际入住，确保只到Day501中午；河安旧房两张卡已注销退回。Day497新补核说明确实到母亲本人，历史旧邮递是否转交及押金资金去向均未证。
 - **人物诉求**：母亲希望在可用房里过正常日子，不被迫将新渠道本人答复变成历史款项结案承认；周衡与顾工需要把影像上的表面位置搞清楚，但拒绝越权试水、触碰或确定漏源。
 - **核心冲突**：模板“事项已知悉”容易被误解为完整承认；旧照片管子亮边与墙面细白痕重叠，专业人员可能误把视觉定位当成管道故障排除。
-- **前章临时依赖**：依第635章草稿特定Blob 0c6c2f32eb03dd6f6501d5dccc868c603719c61f：河安已正式退卡并搬至青桥、Day498 11:38三晚真款、12:31双卡实开与本人真实入住；只引用该版本的已描写场景，不认为635通过Reader/QA、进入ready或成为正式Canon。前章如经独立Audit修订须复核本章时地、住房时限与本人知识。
+- **前章正式依赖（Stage A核实重绑）**：第635章原draft Blob 0c6c2f32eb03dd6f6501d5dccc868c603719c61f 与正式ready Blob 1c13bd26f468b1d5b91733b42fdb1b1b6905bbac 标题和小说正文逐字相同，仅交付元数据差异，已重绑正式ready：河安已正式退卡并搬至青桥、Day498 11:38三晚真款、12:31双卡实开与本人真实入住；经独立Audit完成635 Reader/QA/精确CI与ready放行后，直接依赖其正式ready事实，已复核本章时地、住房期限和本人知识。Day499上午涉及Day497新说明的三处“昨天”均已Stage A局部更正为“前天”（Day498搬家、当晚等另有真实时间参照保留）。
 - **字数范围**：优选2600—3400有效字符，硬限2300—3800；按 Unicode 字母或数字码点计本稿3138有效字符。
 
 ## 关键Beats

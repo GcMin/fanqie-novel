@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 636
+title: "白痕落在墙边，漏水还没有名字"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "ae477bd6fcaf04e1b221702d24d31b19b5612c0d"
+source_draft_sha: "116611f50420679bec86d786d6338b20216c8edc"
+initial_reader_review: "reader_reviews/0636_ae477bd6.md"
+reader_review: "reader_reviews/0636_116611f5.md"
+depends_on_chapter: 635
+depends_on_source_sha: "1c13bd26f468b1d5b91733b42fdb1b1b6905bbac"
+dependency_status: verified_ready_same_title_body_facts
+timeframe: "Day499 08:12—Day500 07:04"
+summary: >-
+  Day499母亲真正住在青桥首层双床，物业Day498 11:38商户真收Day498午—Day501午三晚款，Day498 12:31新两房卡逐张真实开门和两件行李交接已经完成；本章无下一期新付款。母亲09:16打开Day497 15:17本人真实收到的新补核说明，发现模板“相关事项已知悉”可能被误用为押金退款与责任全结，她亲拨有责理赔渠道，10:03收到范围更窄的确认页，仅确认本人收到Day497新信、同意按本户原票号后续核账；10:11本人限项答复实际送到有权窗口且产生回执号，未核历史全部支付渠道、更无实际退款回单。Day499 10:24公共设施管理岗另准专业两安全站位不接触补充影像核验，不准开窗擦拭取样试水拆管进入四楼；14:19顾工双人实际照新旧视角换光源留原始照片和站位、15:08完成、15:41有责工程岗收到双签限定结果：公共观察窗靠走廊可见白痕主要段**位于墙面收边**，旧图仿佛贴灰细管的长亮边部分因反光叠影，遮挡段与管背细点仍看不清；未鉴定白色物质、是否潮湿、产生时间、漏源或灰细侧管真实身份远端，不得写“排除管道问题”。唐晓漫照常工作来青桥与母亲吃饭，母亲买可带走的衣架、保留外甥双头船，不外传住处门牌或私人票号。20:37母亲本人夜间回拨，Day500 07:04交班分开记录当次本人答复与当次工程影像。四楼原12cm口父亲短铅笔旧板独封、客厅单照明有限用其余受水线路隔离整屋禁返住、五楼有限复水不扩大；旧押金真实退款、原四楼赔责和2019 F003原73页旧袋今址历史本人获答/F008/M004/M005无新增确证。
+meaningful_state_changes:
+  - "Day499 10:11母亲本人就Day497新通知的限定核账选项真正提交有责回执，不将本人继续查账错误扩展成承认资金已退或赔责办结。"
+  - "公共设施10:24另获合法双站位不接触补拍许可，14:19—15:08实做，15:41有权限项结果定位可见白痕墙面收边、旧灰管亮边含反光重叠但不排除管道故障或确定漏源。"
+  - "母女青桥生活连续，房款真实保障到Day501午且下一期尚未付；四楼仍禁返住，历史押金资金去向待核。"
+knowledge_updates:
+  - "母亲知今日真正完成的是限定本人回执，旧信本人是否曾见过、后续其他退付路径未证；女儿知本次回执不等于收到旧钱。"
+  - "工程顾工与中心周衡夏宁梁策在有源限定报告范围内知道公区白痕可见段确位于墙面收边而旧照管面亮边有反光，管背遮挡段、材质、漏源及灰细侧接身份仍未知；无新返住许可。"
+relationship_updates:
+  - "母亲自主取消模糊默认确认，坚持本人小范围答复；唐晓漫正常上班并尊重旧押金与新住处隐私，互相照料日常而不代办。"
+foreshadowing_updates:
+  - "公区白痕局部位置推进但取样物质性质、灰细侧接远端和漏源待另外合法许可；旧押金人工后续真实资金结果不明，青桥Day501中午后住房保障待解决，2019旧案不升级。"
+ending_state: "Day500 07:04母亲已真住青桥并提交限项后续核账回执；工程证公区可见白痕墙面收边但未定材质漏源或排除管子；短住真付仅到Day501中午，原四楼禁止返住及历史押金退款未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ae477bd6fcaf04e1b221702d24d31b19b5612c0d", final_draft_sha: "116611f50420679bec86d786d6338b20216c8edc", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 3}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3138

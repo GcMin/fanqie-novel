@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 635
-last_reviewed_title: "两张旧卡归还后，新房门才算开了"
-last_source_path: chapters/draft/0635.md
-last_source_sha: 0c6c2f32eb03dd6f6501d5dccc868c603719c61f
-last_review_path: reader_reviews/0635_0c6c2f32.md
+last_reviewed_chapter: 636
+last_reviewed_title: "白痕落在墙边，漏水还没有名字"
+last_source_path: chapters/draft/0636.md
+last_source_sha: 116611f50420679bec86d786d6338b20216c8edc
+last_review_path: reader_reviews/0636_116611f5.md
 last_reviewed_at: "2026-11-09"
-reviewer_mode: combined_audit_independent_pass_a_then_pass_b_no_revision
+reviewer_mode: combined_audit_independent_pass_a_then_pass_b_after_stage_a_dependency_and_relative_dates
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 634
-depends_on_source_sha: 6fd649a7b3d05644828039b618e0c0f4b90b58a5
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 6fd649a7b3d05644828039b618e0c0f4b90b58a5
+depends_on_chapter: 635
+depends_on_source_sha: 1c13bd26f468b1d5b91733b42fdb1b1b6905bbac
+dependency_status: verified_ready_same_title_body_facts
+predecessor_current_source_sha: 1c13bd26f468b1d5b91733b42fdb1b1b6905bbac
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7490,4 +7490,23 @@ combined_audit_chapter_635_20261109:
   predecessor_ready_sha: "6fd649a7b3d05644828039b618e0c0f4b90b58a5"
   dependency_status: verified_exact_ready_blob
   body_revisions: 0
+  structural_gate: exact_candidate_CI_required_before_main
+combined_audit_chapter_636_20261109:
+  chapter: 636
+  original_source_sha: "ae477bd6fcaf04e1b221702d24d31b19b5612c0d"
+  initial_review: reader_reviews/0636_ae477bd6.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  stage_a_fix: rebind_635_final_ready_and_fix_Day499_three_Day497_relative_dates
+  source_path: chapters/draft/0636.md
+  source_sha: "116611f50420679bec86d786d6338b20216c8edc"
+  review_path: reader_reviews/0636_116611f5.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_original_draft_sha: "0c6c2f32eb03dd6f6501d5dccc868c603719c61f"
+  predecessor_ready_sha: "1c13bd26f468b1d5b91733b42fdb1b1b6905bbac"
+  predecessor_title_body_unchanged: true
+  dependency_status: verified_ready_same_title_body_facts
   structural_gate: exact_candidate_CI_required_before_main
