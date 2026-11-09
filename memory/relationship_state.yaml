@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 630
+last_updated_chapter: 631
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3312,3 +3312,10 @@ chapter_630_arc054_verified:
   mother_daughter: "女儿主动提出可请假协助搬箱，母亲坚持先向物业核付款和退房备选、无需女儿为错误垫款或放弃上班，晚间共同核扫描纸张折痕不冒充新签名。"
   mother_property_street: "物业支付旧房号错单具名留底、11:31以新房号商户真收两晚，母亲不因酒店续住签理赔全案结案；袁经办严守旧押金本户查档范围，不把暂挂索引认退款。"
   center_team: "夜班分别存酒店实际商户回款和经批准旧押金附册摘录，不替工程或档案给结论。"
+
+chapter_631_arc054_verified:
+  chapter: 631
+  source_sha: "4c4eff489d28ee9573b938b556866085af280618"
+  mother_daughter: "母亲自主追旧押金过渡账真实证据和河安下一期房费，不让唐晓漫代缴或放弃工作；女儿下班共餐以单位报销经验辨过账和到账；两人商议周末从河安正常赴小姨家吃饭。"
+  family: "母亲接受女儿转达小姨的周末邀请，不把四楼返住或押金解决当成正常探亲的必要前提；住址若改由母亲主动通知。"
+  professional: "母亲与袁经办按本户授权、证据边界及具名进度来回沟通；确认收到进度函不签全部结案。"
