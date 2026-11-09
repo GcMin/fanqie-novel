@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 633
+title: "门卫室签了收，信到没到她手里还得查"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "97ece0d931f3569edbb72a21fd010168d366c719"
+source_draft_sha: "9cda4e54589290dc728e75dc35b3fce6b0850dc4"
+initial_reader_review: "reader_reviews/0633_97ece0d9.md"
+reader_review: "reader_reviews/0633_9cda4e54.md"
+depends_on_chapter: 632
+depends_on_source_sha: "ea3bf39108c4b9bb17ab3f8873d073b1a33ad5bf"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day496 08:26—Day497 07:07"
+summary: >-
+  Day496母亲与唐晓漫仍住河安Day486迁入的首层双床，Day495 11:07商户真正收到续至Day498中午三晚款且11:26两张房卡真试，Day496未新增付款、未改变住房许可。Day495已核的旧押金相关某次银行渠道拟支付批次因账户资料未核被退回，后续人工处理此前只有索引。袁经办Day496 09:12按本户原票号另向档案岗分项申请人工处理与邮递交付限阅，10:08真受理、11:23有权岗位批准必要且遮挡他户的有限阅核。双岗13:14依法查到银行退回后人工组曾记“收款资料待核”并发补核联系方式与账户的通知，邮递联显示旧小区门卫室岗位确有代收签名及日期，没有母亲本人签名或门卫实际转交本人的独立凭据；旧工作清单误把代收点已签自动写成“已通知本人”。14:19袁经办得正式摘录并保留旧模板、有源更正为门卫室代收而实际本人获悉待核；母亲记不清是否真正见过信，不用回忆否定邮递源件也不承认必已读。14:48在Day496 15:00约定前真送具名回函，母亲只确认收到进度且拒绝结案。后续“待补联系”办理序号仍需新许可，不能从代收联推出已付/未付或其他渠道去向。母亲买可单支补的彩铅、女儿下班共同准备周末去妹妹家，20:39母亲本人回拨中心、Day497 07:07交班。四楼12cm口与亡夫铅笔线旧饰板独封、客厅单照明有限用其他受水电路隔离整屋禁返住，五楼有限复水不扩大；公区白痕灰细侧接漏源与2019 F003旧73页旧袋现址历史真人获答及F008/M004/M005均未获新证。
+meaningful_state_changes:
+  - "人工处理从仅有索引到获批真核本户补核登记和邮递联，证实门卫室代收而非本人签名，旧模板误把代收当本人获悉并获具名更正。"
+  - "Day496 14:48限项具名进度函按承诺兑现，母亲只确认本次办理进度、不签旧房/押金结案；新待补联系办理序号尚未获权查看。"
+  - "母女真实购置彩铅与约定周末探亲菜品，住房原实付至Day498中午，个人生活不被旧账调查吞没。"
+knowledge_updates:
+  - "母亲与唐晓漫只知本户某次补核通知确寄出并由门卫室代收，而母亲是否本人获悉、后来补核/重付及其他渠道仍未知。"
+  - "袁经办与档案双岗依法获该次原联和限定人工登记、知旧模板语义误录并留源更正；夏宁周衡梁策仅从母亲20:39回拨及有源限项回函知此结论，未见后页。"
+relationship_updates:
+  - "母亲坚持本人陈述与证据各归其位，不让女儿代查旧门卫；母女一起备周末探亲用品、女儿正常工作，袁经办在权限内按源解释并保留旧误版。"
+foreshadowing_updates:
+  - "本户后续待补联系办理序号、通知最终是否转交本人、其他渠道是否真正退付，仍须独立许可及来源；河安Day498中午后尚未续款，公区工程和2019旧案照原边界待查。"
+ending_state: "Day497 07:07夜班交接：河安真付款到Day498中午，两卡可用；有源确认补核信曾由旧门卫室代收但母亲本人获悉/实际重付仍无证；四楼继续禁返住，公区漏源和2019旧案未有新证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "97ece0d931f3569edbb72a21fd010168d366c719", final_draft_sha: "9cda4e54589290dc728e75dc35b3fce6b0850dc4", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_required_before_main}
+char_count: 3260

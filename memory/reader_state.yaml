@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 632
-last_reviewed_title: "一张退回回执，不能算她领过钱"
-last_source_path: chapters/draft/0632.md
-last_source_sha: cefc4f6205678e953b31987cc02ae673a7eebd58
-last_review_path: reader_reviews/0632_cefc4f62.md
+last_reviewed_chapter: 633
+last_reviewed_title: "门卫室签了收，信到没到她手里还得查"
+last_source_path: chapters/draft/0633.md
+last_source_sha: 9cda4e54589290dc728e75dc35b3fce6b0850dc4
+last_review_path: reader_reviews/0633_9cda4e54.md
 last_reviewed_at: "2026-11-09"
-reviewer_mode: combined_audit_independent_pass_a_then_pass_b_after_stage_a_new_sha
+reviewer_mode: combined_audit_independent_pass_a_then_pass_b_after_stage_a_new_sha_title_fix
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 631
-depends_on_source_sha: 6d362cec5856da68cb40a2d58c2f3bb7cdf7393e
-dependency_status: verified_ready_same_title_body_facts
-predecessor_current_source_sha: 6d362cec5856da68cb40a2d58c2f3bb7cdf7393e
+depends_on_chapter: 632
+depends_on_source_sha: ea3bf39108c4b9bb17ab3f8873d073b1a33ad5bf
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: ea3bf39108c4b9bb17ab3f8873d073b1a33ad5bf
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7440,4 +7440,21 @@ combined_audit_chapter_632_20261109:
   predecessor_ready_sha: "6d362cec5856da68cb40a2d58c2f3bb7cdf7393e"
   predecessor_title_body_unchanged: true
   dependency_status: verified_ready_same_title_body_facts
+  structural_gate: exact_candidate_CI_required_before_main
+combined_audit_chapter_633_20261109:
+  chapter: 633
+  original_source_sha: "97ece0d931f3569edbb72a21fd010168d366c719"
+  initial_review: reader_reviews/0633_97ece0d9.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_fix: title_and_plan_only_remove_unproven_delivery_assertion
+  source_path: chapters/draft/0633.md
+  source_sha: "9cda4e54589290dc728e75dc35b3fce6b0850dc4"
+  review_path: reader_reviews/0633_9cda4e54.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "ea3bf39108c4b9bb17ab3f8873d073b1a33ad5bf"
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_CI_required_before_main
