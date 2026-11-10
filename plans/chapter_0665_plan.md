@@ -6,9 +6,9 @@ volume: 6
 arc: "ARC-054"
 status: planned
 depends_on_chapter: 664
-depends_on_source_sha: "ff14e37f20cc05ad2a39b1aee358fd7f0b6f0a62"
-dependency_status: provisional
-predecessor_path: chapters/draft/0664.md
+depends_on_source_sha: "2812fee7acae4afcfcaf0ee803a3bef8e7ce0685"
+dependency_status: verified_ready_compatible_body
+predecessor_path: chapters/ready/0664.md
 target_effective_chars: 3343
 ---
 
