@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 652
-last_reviewed_title: "两份答复走向不同窗口，缺的那页还没打开"
-last_source_path: chapters/draft/0652.md
-last_source_sha: dd4d8a32ee76e14104fde30ce6830fb699e99e3f
-last_review_path: reader_reviews/0652_dd4d8a32.md
+last_reviewed_chapter: 653
+last_reviewed_title: "房间明天有人订，旧档今天开了一页"
+last_source_path: chapters/draft/0653.md
+last_source_sha: fea8fbe489de9415a2a8847a0da183eba782b77d
+last_review_path: reader_reviews/0653_fea8fbe4.md
 last_reviewed_at: "2026-11-10"
-reviewer_mode: combined_audit_independent_new_sha_pass_a_then_pass_b_predecessor_exact_ready_verified
+reviewer_mode: combined_audit_independent_pass_a_then_pass_b_predecessor_exact_ready_verified
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 651
-depends_on_source_sha: d51a4fdb9a26938a17fbeb2d28dbd861c0384d85
+depends_on_chapter: 652
+depends_on_source_sha: 6c9a747bc17906da8f1aa2a1b9c847cf71a227fb
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: d51a4fdb9a26938a17fbeb2d28dbd861c0384d85
+predecessor_current_source_sha: 6c9a747bc17906da8f1aa2a1b9c847cf71a227fb
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7823,4 +7823,22 @@ chapter_652_arc054_review:
   dependency_status: verified_exact_ready_blob
   stage_a_used: 1
   body_revisions: 3
+  structural_gate: exact_candidate_ci_required_before_main
+chapter_653_arc054_review:
+  chapter: 653
+  source_path: chapters/draft/0653.md
+  source_sha: "fea8fbe489de9415a2a8847a0da183eba782b77d"
+  review_path: reader_reviews/0653_fea8fbe4.md
+  reviewer_mode: "combined_audit_independent_pass_a_then_pass_b"
+  pass_a: "仅本章/650—652正文/643—652摘要及文风，独立阅读节奏与人物语言"
+  pass_b: "再核Canon/ARC-054/人物知识关系/世界时间线/F014及历史两号证据边界"
+  counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "6c9a747bc17906da8f1aa2a1b9c847cf71a227fb"
+  dependency_status: verified_exact_ready_blob
+  predecessor_factual_delta: exact_ready_blob_no_delta
+  body_revisions: 0
   structural_gate: exact_candidate_ci_required_before_main

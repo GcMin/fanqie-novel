@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 652
-current_stage: chapter652_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0652.md
-current_source_sha: dd4d8a32ee76e14104fde30ce6830fb699e99e3f
-current_review_path: reader_reviews/0652_dd4d8a32.md
+current_chapter: 653
+current_stage: chapter653_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0653.md
+current_source_sha: fea8fbe489de9415a2a8847a0da183eba782b77d
+current_review_path: reader_reviews/0653_fea8fbe4.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter652_three_local_fixes_fresh_new_sha_pass_a_b_content_qa_pass
+last_action: chapter653_reader_pass_a_b_content_qa_pass_no_body_revision
 last_action_date: "2026-11-10"
 last_error: null
-last_diff_summary: "Day514相对日期改昨天;妹妹家新船画与栖园旧画分离;Day516早改今天下午答复;两个旧业务号未强合因果"
+last_diff_summary: "前章ready SHA精确一致;正文无修订;当前版本Reader_0_0_2;旧收发仅待目录审批财务原页合法真阅且住房新房仅约实看"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: dd4d8a32ee76e14104fde30ce6830fb699e99e3f
+current_review_source_sha: fea8fbe489de9415a2a8847a0da183eba782b77d
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6924,5 +6924,19 @@ chapter_652_arc054_verified:
   body_revisions: 3
   content_qa: pass
   predecessor_ready_sha: "d51a4fdb9a26938a17fbeb2d28dbd861c0384d85"
+  predecessor_factual_delta: exact_ready_blob_no_delta
+  structural_gate: exact_candidate_ci_required_before_main
+chapter_653_arc054_verified:
+  chapter: 653
+  original_source_sha: "fea8fbe489de9415a2a8847a0da183eba782b77d"
+  source_sha: "fea8fbe489de9415a2a8847a0da183eba782b77d"
+  final_review: reader_reviews/0653_fea8fbe4.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  content_qa: pass
+  predecessor_ready_sha: "6c9a747bc17906da8f1aa2a1b9c847cf71a227fb"
   predecessor_factual_delta: exact_ready_blob_no_delta
   structural_gate: exact_candidate_ci_required_before_main

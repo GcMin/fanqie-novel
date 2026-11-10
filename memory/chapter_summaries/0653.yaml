@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 653
+title: "房间明天有人订，旧档今天开了一页"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "fea8fbe489de9415a2a8847a0da183eba782b77d"
+source_draft_sha: "fea8fbe489de9415a2a8847a0da183eba782b77d"
+reader_review: "reader_reviews/0653_fea8fbe4.md"
+depends_on_chapter: 652
+depends_on_source_sha: "6c9a747bc17906da8f1aa2a1b9c847cf71a227fb"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day516 08:07—Day517 07:03"
+summary: >-
+  Day516母亲仍住栖园首层双床，Day51409:55商户真收款仅至Day517中午、10:08两卡已实开，两箱在房；08:07旅舍前台具名出具房态说明：原房Day517下午已被预订，首层另一间仅待退房待定、楼上无电梯，新房未定且物业未有商户新款。09:06母亲要求物业履行可实达通道、同等首层或带电梯、两箱搬运及真入账责任，不让妹妹临时收留抵消物业义务；午前负责人仅联系合作旅舍，13:55约定Day51709:15与母亲在有电梯候选旅舍实地核门口台阶、房门浴室，两箱仍没搬，未付款未入住。母亲把磨损的箱提手在街角修好，保留亡夫旧菜包歪针脚，晓漫照常上班傍晚到栖园陪母亲吃豆腐。旧押金Day515仅有旧通知后序需另申目录及二次拟再办财务退补资料索引，未阅原件；Day516袁经办09:38分责递交、10:12获旧收发目录筛查条件11:04另申请仅登记待批，不能断历史另有通知或已本人签收。财务原页另获14:19合法本户限定脱敏许可，14:46双保管员真核对应二次拟再办申请退补原页，原票号证明附联清晰度、当期账户姓名一致性有效来源、联系资料来源均列待核，页上只见财务接收退补件签记而未见本户三项补齐后的正式复核签记；15:09双签归位、15:21袁取得摘录，15:42责任岗各出具具名限项进度、16:07母亲本人现时渠道真收两份。该页不能证明日后未补齐、其他号或渠道未付、更不能强接原联系派办两来源冲突。20:43母亲亲回拨夜间综合中心，Day51707:03交班；仁合里四楼旧12cm观察口与亡夫旧饰板独封、客厅单照明有限其余受水电隔离整屋禁返住、五楼限复水，公区白痕灰细侧接远端漏源及2019 F003/F008/M004/M005无新跨源证。
+meaningful_state_changes:
+  - "Day516栖园原房Day517午后已预订不能直接原房续住，物业仅约Day51709:15另处实看，住房没有新商户真款或实际入住。"
+  - "财务本户二次拟再办退补原页在新许可下真阅，三项当期退补要求及本页无后续正式复核签记由双档案员有源摘录，区别于前日仅见索引。"
+  - "Day51616:07母亲当前渠道真收到两条独立限项进度，旧通知目录仍未获准，旧押金最终历史实付未定。"
+knowledge_updates:
+  - "母亲16:07才获知本次原页退补三项要求与旧收发目录仅待审批，不知道历史后续补件或全渠道真正退款及其他旧通知送达。"
+  - "袁经办及双保管员限于14:19许可范围看本户两栏；夜班中心20:43经母亲本人回拨才掌握限定来源，不越权推2019旧案。"
+relationship_updates:
+  - "母亲自己修好箱提手并坚持物业安排可实际出入搬运的住所；晓漫正常上班后探望不代为请假或签旧账；妹妹曾愿临时接纳仍不能代物业担责。"
+foreshadowing_updates:
+  - "F014二次拟再办退补原页三项要求证成但后续齐备、独立旧通知及历史最终入账全未证；旧联系派办与二次申请保持分链。"
+ending_state: "Day517 07:03栖园首层原房实付仍仅至Day51712:00、Day51709:15新旅舍候选待母亲实看且新商户未真收，两个箱子未搬，旧押金真退款及独立旧通知未知，四楼仍禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "fea8fbe489de9415a2a8847a0da183eba782b77d", final_draft_sha: "fea8fbe489de9415a2a8847a0da183eba782b77d", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2933
