@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 663
+last_updated_chapter: 664
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3530,3 +3530,10 @@ chapter_663_arc054_verified:
   mother_daughter: "母亲保留本人限定查档和当代回复确认权；晓漫白天从办公室给孩子考虑宽些包装板，下班带未裁板到松澜与母亲同吃面，未代签旧档或冒充母亲登录。"
   family: "外甥在妹妹家自行用胶带补四船码头的歪角、计划给修船处加板；母亲仍保留蓝船红纸鞋和丈夫菜包旧歪针脚与晓漫新补内衬。"
   professional: "袁坚持错误未回应的历史留痕和本条真回读修正并存，母亲认可狭窄纠错，不因当代成功而倒签历史旧号与旧信。"
+
+chapter_664_arc054_verified:
+  chapter: 664
+  source_sha: "ff14e37f20cc05ad2a39b1aee358fd7f0b6f0a62"
+  family: "外甥延续称母亲外婆，自主剪宽纸码头修船处并用剪下窄条胶带补回，母亲协助不夺替决定；妹妹陪同，晓漫白天办公室视频。"
+  mother_daughter: "母亲带晓漫昨晚未裁包装板赴妹妹家，让孩子自己剪补；两代补过的菜包继续保留亡夫外层歪线与女儿内层蓝布，不替母亲补签旧年历史。"
+  professional: "袁尊重母亲本人限定查档和本件现行安全取号，要求另岗核证自动候选真正排除，不能靠备注假完成。"
