@@ -6,9 +6,9 @@ volume: 6
 arc: "ARC-054"
 status: planned
 depends_on_chapter: 656
-depends_on_source_sha: "c75e3837b961b035f7dd985f5dd60a4c0b7a359e"
-dependency_status: provisional
-predecessor_path: chapters/draft/0656.md
+depends_on_source_sha: "c05f9e5f448d5b3d03b5d34e0ebe6524d4381f4c"
+dependency_status: verified_ready_compatible_fact_delta
+predecessor_path: chapters/ready/0656.md
 target_effective_chars: 3044
 ---
 
@@ -18,7 +18,7 @@ target_effective_chars: 3044
 
 - **目标**：Day520正面解决松澜后续住宿履约——真收三晚款、两卡实开，而非仅持预算和房态截图；F014仅依法验证街道资料核对席“拟退请”的内部发文确实交出，不冒认原承办已签收或旧年本人收信。
 - **POV**：第三人称有限，母亲的主动生活/住房签名与袁经办合法核档交替；夏宁、周衡、梁策只在夜间本人回拨后获知来源。
-- **开场**：Day52008:26松澜首层，Day517已真付四晚到Day521午、两卡实开两箱在房；物业Day51812:06受理后续住期并承诺Day520中午前具名进度，Day519仍无新款。656尚处draft未审，处理页“拟退请”及其下一内部回复索引只是按绑定版本临时承接，不能视正式Canon。
+- **开场**：Day52008:26松澜首层，Day517已真付四晚到Day521午、两卡实开两箱在房；物业Day51812:06受理后续住期并承诺Day520中午前具名进度，Day519仍无新款。656现已通过新SHA独立Reader/QA并形成ready，处理页“拟退请”及下一内部回复索引有正式证据来源；此前临时草稿在第二幅画的实物地点句子被局部修正，657所写妹妹家图片与新版相容，其他正文事实未变。
 - **人物诉求**：母亲要不再因空头付款承诺搬箱，保留独立旧押金请求与生活节奏；袁要把内部意见、真实发出、目的端签收和本人收悉分开记录。
 - **阻碍**：物业模板“执行完成”错把审批当商户到账；档案原簿分不同保管岗，单端发文不能替代另一端实收。
 - **核心 beats**：
@@ -36,6 +36,6 @@ target_effective_chars: 3044
 ## Continuity Precheck
 
 - 本轮重读main最新AGENTS、config/novel、writing_roles、ai_reading_protocol、Bible主线世界文风和三主角人物卡、当前卷/弧、current_arc、角色知识关系世界状态、F014伏笔与近期时间线、0646—0655十章摘要、0652—0656五章正文和前章纲；未读取历史reader_reviews。卷纲及arc_current滞后，已证的ready与Memory优先。
-- published最大0159且0153存在；ready最大0655，draft最大0656，目标0657在检查时尚不存在。**前章656仅为draft，dependency_status为provisional，绑定完整Git blob `c75e3837b961b035f7dd985f5dd60a4c0b7a359e`**。前章若经独立Audit修订，后续审核须再核相容性；Writer不改旧章。
+- published最大0159且0153存在；ready最大0655，draft最大0656，目标0657在检查时尚不存在。**前章656仅为draft，dependency_status为provisional，绑定完整Git blob `c05f9e5f448d5b3d03b5d34e0ebe6524d4381f4c`**。前章若经独立Audit修订，后续审核须再核相容性；Writer不改旧章。
 - 住房续款、旧登记发出均是本章新动作，不把656待审信息或档案单页推成正式个人送达、退款或异常系统真相。
 - 本轮仅创建新章详细计划和初稿，不执行Reader/Revision/QA/Memory/Publish Gate，不改既有文件，不发布番茄。
