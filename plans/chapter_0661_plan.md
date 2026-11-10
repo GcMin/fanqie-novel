@@ -6,9 +6,9 @@ volume: 6
 arc: "ARC-054"
 status: planned
 depends_on_chapter: 660
-depends_on_source_sha: "574ba9e77ed1f99ed457fda95eb634a0f504c918"
-dependency_status: provisional
-predecessor_path: chapters/draft/0660.md
+depends_on_source_sha: "4c8f2a7d0de0971041b86109fa851f0bd469cc4b"
+dependency_status: verified_ready_compatible_body
+predecessor_path: chapters/ready/0660.md
 target_effective_chars: 3233
 ---
 
@@ -16,9 +16,9 @@ target_effective_chars: 3233
 
 ## Planner
 
-- **目标**：在第660章指定版本的临时连续事实基础上，于Day524真实核实旧联系号码移交前的字段用途，证明“转接服务点联络”被统一导入、展示为“本人联系电话”，而不冒认号码本身虚假、本人曾否留号或历史本人收到通知；同时落实母亲与外甥的纸船码头和下一住期具名办理请求。
+- **目标**：在第660章已放行正文基础上，于Day524真实核实旧联系号码移交前的字段用途，证明“转接服务点联络”被统一导入、展示为“本人联系电话”，而不冒认号码本身虚假、本人曾否留号或历史本人收到通知；同时落实母亲与外甥的纸船码头和下一住期具名办理请求。
 - **POV**：第三人称有限；母亲与袁经办两条线交织，唐晓漫在单位通过讯息参与；夜班中心只在母亲本人晚间回拨之后得知限项结果。
-- **开场**：Day524 08:31，松澜首层原房，双房卡和两件箱子未动，母女Day522晚上补好的旧菜包保留亡夫歪针脚，外甥蓝纸船的红纸鞋仍在，Day523购入硬卡纸待做码头。第660章来源路径chapters/draft/0660.md、Git Blob 574ba9e77ed1f99ed457fda95eb634a0f504c918，仍为未审草稿、仅用于版本明确的临时事实衔接；第660章记Day523 11:27松澜商户新增两夜款至Day526中午、旧函调发收回函及更早形成单位目录。
+- **开场**：Day524 08:31，松澜首层原房，双房卡和两件箱子未动，母女Day522晚上补好的旧菜包保留亡夫歪针脚，外甥蓝纸船的红纸鞋仍在，Day523购入硬卡纸待做码头。第660章来源路径chapters/ready/0660.md、Git Blob 4c8f2a7d0de0971041b86109fa851f0bd469cc4b，已正式通过Reader、QA及结构校验迁入ready；第660章已正式记Day523 11:27松澜商户新增两夜款至Day526中午、旧函调发收回函及更早形成单位目录。
 - **人物诉求**：母亲要弄清旧表上称作“本人”的联络依据是谁写下而不替旧年签字，也要在Day526中午后保有合法住处；袁经办只申请本户与字段说明的限定查证，不用新授权倒填旧年本人确认；外甥想自主确定纸船码头与修船位置。
 - **冲突**：两个旧字段因批量导入被压成一个展示字段；用途映射错误不等于号码数字必错，也不等于历史本人从未提供号码。另一条押金财务退补链和旧门卫室代收联不可强行归并。单笔纠错受理与正式上线不同，既有房费付款与下一期安排也不同。
 - **六个关键beats**：
@@ -36,5 +36,5 @@ target_effective_chars: 3233
 ## Continuity Precheck
 
 - 已重新读取GitHub main最新AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md；核心Bible、主要人物卡、卷纲与arc（旧文件滞后，以最新Memory、现有正文确定ARC-054）、人物/关系/知识/世界状态、F014伏笔、时间线、计划表、最近十章650—659摘要与最近五章656—660全文。未读取历史reader_reviews。
-- 从published、ready、draft目录重新确定最新数字章号660；第153章存在published；第661章两个目标文件此前均不存在。前章直接依赖chapters/draft/0660.md，Git Blob 574ba9e77ed1f99ed457fda95eb634a0f504c918，依赖状态provisional，不得替未审草稿臆造未有的跨源结论。
+- 从published、ready、draft目录重新确定最新数字章号660；第153章存在published；第661章两个目标文件此前均不存在。前章直接依赖chapters/ready/0660.md，Git Blob 4c8f2a7d0de0971041b86109fa851f0bd469cc4b，依赖状态verified_ready_compatible_body，仅依据已放行第660章正文和有源材料，不臆造未有的跨源结论。
 - 本轮只创建一个新章计划与首稿，不执行Reader、Revision、QA、Memory、Publish Gate，不向番茄发布；由独立Audit核前章最终版与本章衔接。
