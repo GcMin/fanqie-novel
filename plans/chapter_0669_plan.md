@@ -6,9 +6,9 @@ volume: 6
 arc: "ARC-054"
 status: planned
 depends_on_chapter: 668
-depends_on_source_sha: "77b874efb8ce050b3ac79f6bc7dfbe313eea90a2"
-dependency_status: provisional
-predecessor_path: chapters/draft/0668.md
+depends_on_source_sha: "d68707522b84305fa497a1021d97e2be9037bcb5"
+dependency_status: verified_ready_compatible_body
+predecessor_path: chapters/ready/0668.md
 target_effective_chars: 3481
 ---
 
@@ -17,7 +17,7 @@ target_effective_chars: 3481
 ## Planner
 - **目标**：Day532真实落实泊灯同房新三晚住宿，拆清Day531已到账的268元个人核销与本期商户直付款；追查旧汇总“已联系”的字段业务来源，不用笼统标签证明旧年本人收信。
 - **POV**：第三人称有限，母亲为主线；袁经办、双档案保管员作工作现场交错切换。
-- **开场**：承接第668章临时草稿：Day53116:58母亲原账户收到自付268元核销款，泊灯Day53011:27的物业两晚真款只覆盖到Day532中午；母亲Day531收到旧个人回执核问附页限项说明，证本册未补入本人签认，但历史个人实收尚未确定。第668章还处于draft，所有承接事实须由独立Audit核对。
+- **开场**：承接第668章正式Ready：Day53116:58母亲原账户收到自付268元核销款，泊灯Day53011:27的物业两晚真款只覆盖到Day532中午；母亲Day531收到旧个人回执核问附页限项说明，证本册未补入本人签认，但历史个人实收尚未确定。第668章已进入ready，独立Audit已经逐字比较原草稿与正式版并确认正文完全相同，仅元数据改变。
 - **诉求与冲突**：母亲要今日十二点之后真正可住、不再被内部“已审批”误导；袁要把旧屏幕“已联系”还原为当时岗位进度而非住户亲收，不能直接把旧状态改写成“未联系”。
 - **关键beats（6）**：
   1. Day53208:18旅舍实查原房仅真付至今日中午，物业09:04只说审批完成未见商户实付，母亲逐项确认住房和责任人。
@@ -33,6 +33,6 @@ target_effective_chars: 3481
 
 ## Continuity Precheck
 - 已重新读取GitHub main的AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、硬Canon（premise/main_outline/world/style、梁策/夏宁/周衡卡）、第五卷及ARC-054工作状态、人物关系知识世界、F014、近期时间线、第658—667十章摘要及第664—668五章实际全文；不读取reader_reviews。
-- 三目录现场验证：published最高0159含0153，ready最高0667，draft最高0668；第669章与章纲此前不存在。
-- 第668章仅处于draft，完整前章blob 77b874efb8ce050b3ac79f6bc7dfbe313eea90a2，故本章以provisional依赖它，不将其历史个人回执见闻升级为正式Canon。若668审定版发生事实变更，须由独立Audit比较并处理669连续性。
+- 三目录现场验证：published最高0159含0153，本稿创建时ready最高0667、draft最高0668；Audit当前已经按序正式放行0668并保留本章为待审草稿；第669章与章纲此前不存在。
+- 第668章当前正式ready Blob d68707522b84305fa497a1021d97e2be9037bcb5；独立Audit核对原draft 77b874efb8ce050b3ac79f6bc7dfbe313eea90a2 与正式ready标题/正文逐字一致，仅交付元数据不同，故事事实无差异；本章依赖已从临时SHA重绑为正式Ready，仍须按本章新SHA重新双遍Reader。
 - 本轮只新建本章详纲和首稿，不执行Reader/Editor/Revision/QA/Memory/Publish Gate，不修改已有正文或任何定时任务；GitHub原子tree/commit与expected_sha、force:false保护并发。
