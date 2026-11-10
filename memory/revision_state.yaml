@@ -7175,3 +7175,18 @@ combined_audit_chapter_669_20261111:
   predecessor_provisional_sha: "77b874efb8ce050b3ac79f6bc7dfbe313eea90a2"
   predecessor_ready_sha: "d68707522b84305fa497a1021d97e2be9037bcb5"
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_670_20261111:
+  chapter: 670
+  original_sha: "48296f8a51fb78ee300f9ed351d01466154a4424"
+  final_draft_sha: "48296f8a51fb78ee300f9ed351d01466154a4424"
+  final_review: "reader_reviews/0670_48296f8a.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  revision_reason: no_fix_required
+  content_qa: pass
+  predecessor_ready_sha: "913aca30b754e43dcbc75161afb8336e73b89dc4"
+  structural_gate: exact_candidate_ci_required_before_main

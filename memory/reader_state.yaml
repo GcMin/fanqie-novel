@@ -8121,3 +8121,19 @@ combined_audit_chapter_669_20261111:
   stage_a_used: 1
   body_revisions: 0
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_670_20261111:
+  chapter: 670
+  title: "旧表没有删字，新回单多了一行"
+  source_sha: "48296f8a51fb78ee300f9ed351d01466154a4424"
+  final_review: "reader_reviews/0670_48296f8a.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_pass_b
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "913aca30b754e43dcbc75161afb8336e73b89dc4"
+  predecessor_factual_delta: exact_ready_blob_no_delta
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
