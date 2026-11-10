@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 655
-current_stage: chapter655_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0655.md
-current_source_sha: 56aa5a820c7b9fb2e971e7344060b7738e3c89fe
-current_review_path: reader_reviews/0655_56aa5a82.md
+current_chapter: 656
+current_stage: chapter656_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0656.md
+current_source_sha: 5ce59df5650f4ca9c80c1b78541a25eadc81bbfe
+current_review_path: reader_reviews/0656_5ce59df5.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter655_stage_a_video_geography_fix_new_blob_reader_pass_content_qa_pass
+last_action: chapter656_stage_a_object_location_fix_new_sha_reader_pass_content_qa_pass
 last_action_date: "2026-11-10"
 last_error: null
-last_diff_summary: "前章654ready SHA精确一致;正文视频两个局部替换;Reader_0_1_2_to_0_0_2;松澜真付四晚无新款;街道再移交资料核对席仍为内部收件"
+last_diff_summary: "前章655ready SHA精确一致;正文开场新画纸本仍在妹妹家仅手机留照片;StageA正文一处且字数3532;Reader_0_1_2_to_0_0_2;旧联系核对席内部拟退请不等于实际发回或历史本人送达"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 56aa5a820c7b9fb2e971e7344060b7738e3c89fe
+current_review_source_sha: 5ce59df5650f4ca9c80c1b78541a25eadc81bbfe
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6972,4 +6972,18 @@ chapter_655_arc054_verified:
   content_qa: pass
   predecessor_ready_sha: "ea3fd357f2acf3e560a6d8dfe4e502d77c7188e1"
   predecessor_factual_delta: exact_ready_blob_no_delta
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_656_20261110:
+  chapter: 656
+  original_source_sha: "c75e3837b961b035f7dd985f5dd60a4c0b7a359e"
+  initial_review: "reader_reviews/0656_c75e3837.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage: local_revision
+  stage_a_rounds: 1
+  fix: "开场注明新跳板船画纸本仍在妹妹家、母亲在松澜仅有手机照片，未将两幅实物错误合并位置"
+  new_source_sha: "5ce59df5650f4ca9c80c1b78541a25eadc81bbfe"
+  new_review: "reader_reviews/0656_5ce59df5.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
