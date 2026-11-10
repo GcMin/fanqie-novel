@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 666
+title: "房卡中午交回去，新房费却由她先付"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "90385998b57ffb336bba3bb04e84c6ff05115e9d"
+source_draft_sha: "3626a5d9e4aae0478a2ca32fd70e3a60ebb4ce71"
+initial_reader_review: reader_reviews/0666_90385998.md
+reader_review: reader_reviews/0666_3626a5d9.md
+depends_on_chapter: 665
+depends_on_source_sha: "61a341f1b423f5efb64a1867c9a47d705a32a1b5"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day52908:16—Day53007:03"
+summary: >-
+  Day52909:02物业以内部表“可入住”虚写候选首层房但未有真实商户收款或夜间通路，09:21母亲取得未落实安置报告收件号。松澜原房Day52515:26商户真款只到Day529午且午后另客预订，母亲11:56真退两张房卡、两箱甲乙凭条寄存药物随身。13:07本人实查泊灯客舍首层24h正门，13:29本人真付268元一晚至Day530中午，实际刷开新卡，14:05甲乙两箱凭条真领、14:22物业具名委托只包运输、14:52双箱确实进入新房。物业15:18误把母亲自行入住说成已安排，16:01仅受理母亲268元费用申请待审核尚未报销，下次住宿未有真付；Day53009:30仅是本人提出的答复时间，不是物业承诺。袁另申旧个人通知回执专册本户限定索引，18:14母亲有限同意、18:33档案窗真收申请未获阅准原册未开，旧号最初提供者、旧年本人真收旧信与旧押金各渠道真实退款均未知。本户当代旧号候选排除已在而全局字段显示未更正；晓漫下班后视频尊重母亲不请假代责，外甥纸船、旧包两代针脚延续。20:47母亲亲自回拨夜班，Day53007:03交班。仁合里四楼旧12cm口亡夫板独封整屋禁返住，五楼限复水公区漏源待判，2019F003F008M004M005无跨源新证。
+meaningful_state_changes:
+  - "松澜11:56真实退双卡，泊灯13:29由本人真付268元一晚至Day530午且真刷卡，14:52双箱真实入新房。"
+  - "物业09:00安置未兑现，16:01仅受理本人自垫费用追偿待审，下一期无付款。"
+  - "旧个人通知回执专册18:33新限项申请真受理，未获查阅许可。"
+knowledge_updates:
+  - "母亲知道新房是自己实付、物业未履约且报销尚未完成，旧个人回执没开，旧联系和历史押金款仍未核实。"
+  - "袁仅知道新申请被接收，夜班人员20:47本人回拨才得今天有限事实。"
+relationship_updates:
+  - "晓漫愿请假帮忙但母亲不让女儿代物业履责，晚间仍主动分享本人真款和明日到期。"
+foreshadowing_updates:
+  - "F014旧个人通知回执专册限项申请仅受理，历史本人收信与押金所有渠道实退仍未证。"
+ending_state: "Day53007:03交班，泊灯已本人真付至Day530中午，268元报销待审，下一晚未落实，09:30答复仅本人诉求。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "90385998b57ffb336bba3bb04e84c6ff05115e9d", final_draft_sha: "3626a5d9e4aae0478a2ca32fd70e3a60ebb4ce71", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, trimmed_effective_chars: 322}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3648

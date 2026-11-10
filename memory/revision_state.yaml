@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 665
-current_stage: chapter665_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0665.md
-current_source_sha: 32778884b17af5ce978cadc69ddbf08ae2a235cd
-current_review_path: reader_reviews/0665_32778884.md
+current_chapter: 666
+current_stage: chapter666_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0666.md
+current_source_sha: 3626a5d9e4aae0478a2ca32fd70e3a60ebb4ce71
+current_review_path: reader_reviews/0666_3626a5d9.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter665_stage_a_metadata_rebind_new_sha_reader_qa_pass
-last_action_date: "2026-11-10"
+last_action: chapter666_stage_a_trim_322_new_sha_reader_qa_pass
+last_action_date: "2026-11-11"
 last_error: null
-last_diff_summary: "第665章StageA仅重绑第664章Ready依赖，无正文改动；新SHA独立Reader双遍0/0/2、独立内容QA PASS，精确候选CI验证后方可ready。"
+last_diff_summary: "原稿真正3970>3800并误填3480，StageA删322至3648，新SHA独立双遍Reader0/0/2及独立QA PASS，待候选commit结构CI成功才ready。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 32778884b17af5ce978cadc69ddbf08ae2a235cd
+current_review_source_sha: 3626a5d9e4aae0478a2ca32fd70e3a60ebb4ce71
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7107,4 +7107,21 @@ combined_audit_chapter_664_20261110:
   content_qa: pass
   predecessor_ready_sha: "e74b9b2a9551a716c235b6a8fc12ffd6df7268b2"
   predecessor_factual_delta: exact_ready_blob_no_delta
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_666_20261111:
+  chapter: 666
+  original_sha: "90385998b57ffb336bba3bb04e84c6ff05115e9d"
+  initial_review: reader_reviews/0666_90385998.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_draft_sha: "3626a5d9e4aae0478a2ca32fd70e3a60ebb4ce71"
+  final_review: reader_reviews/0666_3626a5d9.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  revision_reason: trim_322_and_fix_effective_char_count
+  content_qa: pass
+  predecessor_ready_sha: "61a341f1b423f5efb64a1867c9a47d705a32a1b5"
   structural_gate: exact_candidate_ci_required_before_main
