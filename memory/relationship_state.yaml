@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 660
+last_updated_chapter: 662
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3516,3 +3516,10 @@ chapter_661_arc054_verified:
   mother_daughter: "母亲使用Day522晓漫帮补内衬的旧包带Day523卡纸出门，Day524午饭以相片回答晓漫在办公室的问候，仍保留亡夫歪针脚而不替旧年本人签字。"
   family: "外甥决定四艘纸船宽码头及另设修船处，妹妹帮忙固定，母亲尊重孩子不把歪处一律裁直。"
   professional: "袁和母亲共同守住当前查档授权、旧表用途、更正申请受理、历史真人签认和退款的层级差异。"
+
+chapter_662_arc054_verified:
+  chapter: 662
+  source_sha: "43dd02e615d043e3943148d56e4949dbde9656c0"
+  mother_daughter: "晓漫日间正常工作晚间带汤来松澜，母亲告知本条真停发与新回告本人真收但不展示旧号全文；母亲本人负责签名。"
+  family: "女儿新补菜包提手蓝衬与父亲旧歪针脚共存；外甥四纸船码头修船处留待下回扩建。"
+  professional: "袁尊重母亲当代有限授权，区分候发已停、本次新渠道真收、历史本人真收未证和押金退款未证。"
