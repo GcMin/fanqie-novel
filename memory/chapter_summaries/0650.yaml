@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 650
+title: "新住处的门开了，旧联络还卡在原岗"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "7d509b01218c8c20124967b14a76af5fc3afad2c"
+source_draft_sha: "4dcd105cfa10ccb35e0da24d6b2cf49f2dce05c9"
+initial_reader_review: "reader_reviews/0650_7d509b01.md"
+reader_review: "reader_reviews/0650_4dcd105c.md"
+depends_on_chapter: 649
+depends_on_source_sha: "d91a5a364d54abfabac081ed4b68226352920129"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day513 08:17—Day514 07:05"
+summary: >-
+  Day513母亲已从青桥搬进栖园首层双床，Day512 15:06新商户真收三晚至Day515中午、15:41双新卡分别实际开门、两箱在房，Day513未新付；她和保洁员换窄防滑垫并亲试、留亡夫歪针脚旧菜包和外甥船外黑猫画，晓漫照常工作晚间来用夹子固定画纸共餐。袁经办Day511 15:48旧申请原本只拟查本户派办结果及可能独立通知而非银行流水，Day512仍在审；Day513 11:02得需缩窄独立通知范围的退补意见、11:26重交仅本派办实际资料复核/退补原因/外联指令申请、12:09受理、13:12获准限定查阅，14:22双档案岗实核原承办旧退件收文及派办后序，证本条确有资料复核却因两版不同来源旧联系冲突退补，未生成该派办对外联系指令和对应发送凭据；15:08双签归册15:21袁取摘录15:52本人具名电话、16:07母亲当前渠道真收说明仅签今日收悉，不追认旧联系历史。其他旧通知是否另号送达、旧号码最初来源、押金其他渠道是否真正退付、同二次拟再办是否业务同链未知；住宿负责人只约Day51410:00给下一期商户真收或合法衔接进度，没有新款。母亲20:42本人回拨中心次晨07:05交班。仁合里四楼旧12cm口与亡夫旧板独封、单照明限用其余受水电隔离整屋禁返住，五楼有限复水，公区白痕/灰细侧接远端漏源、2019F003旧73页旧袋今址历史真人得答、F008/M004/M005无跨源新证。
+meaningful_state_changes:
+  - "合法限项查证旧派办本条确有资料复核且两版联系来源冲突被退补，本条对外联系指令未生成；此前仅知派办未见结果。"
+  - "母亲Day513 16:07当前渠道真收到限项结论，不用今天签字倒签历史本人获通知；Day51410:00住房新具名回应成为待履行承诺。"
+knowledge_updates:
+  - "母亲16:07才知道本条派办历史复核及两版来源冲突退补，不知道其他通知是否送达、旧押金最终款项或两个历史业务真实关联。"
+  - "袁经办仅在13:12授权后查本户档，晓漫从母亲转述才知；夜班20:42本人回拨后才记有源事实。"
+relationship_updates:
+  - "母亲亲处理旅舍防滑垫和旧押金本人授权边界，女儿下班带夹子固定外甥画且共餐，不代签旧年。"
+foreshadowing_updates:
+  - "F014本条派办从派发推进到有源复核冲突退补和未生成该项外联指令；其他旧通知及银行实付、与二次拟再办同链仍待核。"
+ending_state: "Day514 07:05母亲栖园真付至Day515午双卡和双箱仍有效，Day51410:00续住仅承诺；本次旧派办复核真办后退补但旧押金最终实付未知，四楼仍禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7d509b01218c8c20124967b14a76af5fc3afad2c", final_draft_sha: "4dcd105cfa10ccb35e0da24d6b2cf49f2dce05c9", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2948

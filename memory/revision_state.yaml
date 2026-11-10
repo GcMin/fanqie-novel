@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 649
-current_stage: chapter649_ready_verified_exact_ci
-current_source_path: chapters/draft/0649.md
-current_source_sha: 0cfa99a1bc28eaa919c5e34e4182ad12f4ff7b16
-current_review_path: reader_reviews/0649_0cfa99a1.md
+current_chapter: 651
+current_stage: chapter651_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0651.md
+current_source_sha: 1ba2d3b87ac02d7baf9bf5d6aa043f1bed2e3b69
+current_review_path: reader_reviews/0651_1ba2d3b8.md
 rounds:
   reviews_this_cycle: 1
-  local_revision_used: 0
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter649_reader_and_independent_qa_without_revision
+last_action: chapter650_scope_revision_and_651_predecessor_rebind_both_new_sha_rereviews_independent_qa_pass
 last_action_date: "2026-11-10"
 last_error: null
-last_diff_summary: "649精确依赖648正式ready，无前章SHA差异；Reader新草稿0/0/2，独立内容QA PASS，正文0字修改，精确候选CI成功后已迁ready"
+last_diff_summary: "650修复Day511原申请误含银行出款且新SHA复审0/0/2；651比较650旧draft与正式ready仅一段申请范围差异无Day513实质事实影响，重绑650正式ready SHA后新SHA复审0/0/2；结构门槛精确候选CI待验证"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 0cfa99a1bc28eaa919c5e34e4182ad12f4ff7b16
+current_review_source_sha: 1ba2d3b87ac02d7baf9bf5d6aa043f1bed2e3b69
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6875,3 +6875,37 @@ chapter_649_arc054_verified:
   predecessor_ready_sha: "6131bd06f9f3ed237e3d517508a1fd0d12c6d6ed"
   predecessor_factual_delta: exact_ready_blob_no_delta
   structural_gate: exact_candidate_CI_required_before_main
+chapter_650_arc054_verified:
+  chapter: 650
+  original_source_sha: "7d509b01218c8c20124967b14a76af5fc3afad2c"
+  initial_review: reader_reviews/0650_7d509b01.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "4dcd105cfa10ccb35e0da24d6b2cf49f2dce05c9"
+  final_review: reader_reviews/0650_4dcd105c.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  content_qa: pass
+  predecessor_ready_sha: "d91a5a364d54abfabac081ed4b68226352920129"
+  predecessor_factual_delta: exact_ready_blob_no_delta
+  structural_gate: exact_candidate_ci_required_before_main
+
+chapter_651_arc054_verified:
+  chapter: 651
+  original_source_sha: "4fa08bffb2d3091cd73d618132faa8cbd1389758"
+  initial_review: reader_reviews/0651_4fa08bff.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "1ba2d3b87ac02d7baf9bf5d6aa043f1bed2e3b69"
+  final_review: reader_reviews/0651_1ba2d3b8.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  content_qa: pass
+  predecessor_old_draft_sha: "7d509b01218c8c20124967b14a76af5fc3afad2c"
+  predecessor_ready_sha: "efe399e168b616b854ff5a712c5a6ed2c7433077"
+  predecessor_factual_delta: only_prior_application_scope_paragraph_changed_day513_results_stable
+  structural_gate: exact_candidate_ci_required_before_main

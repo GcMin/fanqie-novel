@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 651
+title: "两条旧编号，不该挤在一格里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "4fa08bffb2d3091cd73d618132faa8cbd1389758"
+source_draft_sha: "1ba2d3b87ac02d7baf9bf5d6aa043f1bed2e3b69"
+initial_reader_review: "reader_reviews/0651_4fa08bff.md"
+reader_review: "reader_reviews/0651_1ba2d3b8.md"
+depends_on_chapter: 650
+depends_on_source_sha: "efe399e168b616b854ff5a712c5a6ed2c7433077"
+dependency_status: verified_ready_compatible_fact_delta
+timeframe: "Day514 08:21—Day515 07:06"
+summary: >-
+  Day514母亲栖园首层双床，原Day512 15:06商户三晚真款只至Day515中午，Day513住宿岗只承诺本日10:00具名进度。Day514 09:12物业仍在排款、09:47支付截图尚不是商户实收；09:55栖园真收到Day515午—Day517午新两晚与现房对应款，10:08两卡重制各真开，两箱无搬动。母亲亲自到裁缝铺取改短的家居裤，为分离住宿款与旧押金买蓝白薄夹；亡夫旧菜包原歪针脚和外甥长轮船猫画存于门后，晓漫下班来粘好画纸并共餐。旧押金Day513已核原承办旧派办确有资料复核因两版旧联系人来源冲突退补且本号未发外联指令；另一路二次拟再办此前本号未生成付款指令，但同票号不证明两者同一业务链。Day514袁经办10:16仅申请本户两编号展示关联/各自业务状态11:03真收件13:24合法许可，14:11双档案保管员和系统联核岗实际证迁移系统按同一原票号汇集展示，两个历史业务编号和原始状态仍独立，展示不带跨链退补原因或银行付款凭据，不证绝无其他关联；14:58签出。15:27母亲得限项回告，16:13责任窗口真正收下两条独立后续询问、分配各自收件号，约Day51616:00给各自进度/办理条件，不是银行退款。20:43母亲本人回拨中心、Day51507:06交班。历史其他通知真实送达、旧押金所有渠道最终实付及两链真实关系仍未证，四楼整屋禁返住、五楼限复水、公区白痕灰细侧接远端漏源及2019 F003/F008/M004/M005保持独立未知。
+meaningful_state_changes:
+  - "Day514 09:55栖园商户真正新收独立两晚款到Day517午、10:08双卡真开，房间与两箱不变。"
+  - "Day514 14:11有权三方核两号仅同票号迁移显示汇集，不是有源财务同链；16:13两个分别承担责任的后续询问真受理。"
+knowledge_updates:
+  - "母亲15:27限项获知两号仅按界面汇集，不能把前一派办退补原因给后二次拟付款未生成原因；真实旧款实退及其他旧通知仍不知。"
+  - "双档案与系统岗只核限权映射，女儿下班得母亲限项解释，夜班20:43本人回拨才登记。"
+relationship_updates:
+  - "母亲核实旅舍实收、自己把住宿凭据与旧押金分夹收纳，女儿下班携纸胶带固定外甥长轮船猫画，互相尊重现实生活与本人核账边界。"
+foreshadowing_updates:
+  - "F014按票号汇集只是显示规则，旧派办与二次拟再办实质业务因果未知，Day516 16:00待两条分项进度；其他通知与各渠道实际退款未知。"
+ending_state: "Day515 07:06栖园商户真收款延至Day517午双卡实开双箱在首层房；历史两号仅界面汇集已证，新两项分头查询已受理但退款和其他通知未知，四楼禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "4fa08bffb2d3091cd73d618132faa8cbd1389758", final_draft_sha: "1ba2d3b87ac02d7baf9bf5d6aa043f1bed2e3b69", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3072

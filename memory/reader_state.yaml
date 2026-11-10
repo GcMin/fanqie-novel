@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 649
-last_reviewed_title: "旧房退了卡，新住处得亲手开门"
-last_source_path: chapters/draft/0649.md
-last_source_sha: 0cfa99a1bc28eaa919c5e34e4182ad12f4ff7b16
-last_review_path: reader_reviews/0649_0cfa99a1.md
+last_reviewed_chapter: 651
+last_reviewed_title: "两条旧编号，不该挤在一格里"
+last_source_path: chapters/draft/0651.md
+last_source_sha: 1ba2d3b87ac02d7baf9bf5d6aa043f1bed2e3b69
+last_review_path: reader_reviews/0651_1ba2d3b8.md
 last_reviewed_at: "2026-11-10"
-reviewer_mode: combined_audit_independent_pass_a_then_pass_b_exact_ready_dependency
+reviewer_mode: combined_audit_independent_new_sha_pass_a_then_pass_b_predecessor_fact_delta_verified
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 648
-depends_on_source_sha: 6131bd06f9f3ed237e3d517508a1fd0d12c6d6ed
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 6131bd06f9f3ed237e3d517508a1fd0d12c6d6ed
+depends_on_chapter: 650
+depends_on_source_sha: efe399e168b616b854ff5a712c5a6ed2c7433077
+dependency_status: verified_ready_compatible_fact_delta
+predecessor_current_source_sha: efe399e168b616b854ff5a712c5a6ed2c7433077
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7766,3 +7766,42 @@ chapter_649_arc054_review:
   dependency_status: verified_exact_ready_blob
   body_revisions: 0
   structural_gate: exact_candidate_CI_required_before_main
+chapter_650_arc054_review:
+  chapter: 650
+  original_source_sha: "7d509b01218c8c20124967b14a76af5fc3afad2c"
+  initial_review_path: reader_reviews/0650_7d509b01.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_fix: "Day511原历史查询只含派办和可能独立通知_未含银行付款_同步计划和字数"
+  source_path: chapters/draft/0650.md
+  source_sha: "4dcd105cfa10ccb35e0da24d6b2cf49f2dce05c9"
+  review_path: reader_reviews/0650_4dcd105c.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: independent_new_sha_pass_a_then_pass_b
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "d91a5a364d54abfabac081ed4b68226352920129"
+  dependency_status: verified_exact_ready_blob
+  stage_a_used: 1
+  body_revisions: 1
+  structural_gate: exact_candidate_ci_required_before_main
+
+chapter_651_arc054_review:
+  chapter: 651
+  original_source_sha: "4fa08bffb2d3091cd73d618132faa8cbd1389758"
+  initial_review_path: reader_reviews/0651_4fa08bff.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_fix: "compare_650_original_vs_final_scope_paragraph_rebind_650_ready_sha_plan_metadata_only"
+  source_path: chapters/draft/0651.md
+  source_sha: "1ba2d3b87ac02d7baf9bf5d6aa043f1bed2e3b69"
+  review_path: reader_reviews/0651_1ba2d3b8.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: independent_new_sha_pass_a_then_pass_b
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_original_draft_sha: "7d509b01218c8c20124967b14a76af5fc3afad2c"
+  predecessor_final_ready_sha: "efe399e168b616b854ff5a712c5a6ed2c7433077"
+  predecessor_factual_delta: "one_paragraph_day511_prior_application_scope_fix_no_change_to_day513_result_or_end_state"
+  dependency_status: verified_ready_compatible_fact_delta
+  stage_a_used: 1
+  body_revisions: 0
+  structural_gate: exact_candidate_ci_required_before_main

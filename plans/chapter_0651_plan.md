@@ -6,9 +6,9 @@ volume: 6
 arc: "ARC-054"
 status: planned
 depends_on_chapter: 650
-depends_on_source_sha: "7d509b01218c8c20124967b14a76af5fc3afad2c"
-dependency_status: provisional
-predecessor_path: chapters/draft/0650.md
+depends_on_source_sha: "efe399e168b616b854ff5a712c5a6ed2c7433077"
+dependency_status: verified_ready_compatible_fact_delta
+predecessor_path: chapters/ready/0650.md
 target_effective_chars: 3072
 ---
 
@@ -36,5 +36,5 @@ target_effective_chars: 3072
 ## Continuity Precheck
 - 重新读取main的AGENTS、小说配置、Writer/reading协议、Bible、角色卡、当前弧和状态、近期伏笔时间线、640—649十章摘要及646—650五章正文、650详细章纲；不读取历史Reader Reviews。
 - 从published/ready/draft实际章号确认published的0153已存在且三目录最高650；651新稿此前不存在，最多只新建一章。
-- 依赖前章650：路径 `chapters/draft/0650.md`，完整Git Blob SHA `7d509b01218c8c20124967b14a76af5fc3afad2c`，`dependency_status: provisional`。此前章仍仅未审draft，以指定blob临时参考，不视为正式Canon；独立Audit必须核对前章最终版兼容性。
+- 依赖前章650：路径 `chapters/ready/0650.md`，完整Git Blob SHA `efe399e168b616b854ff5a712c5a6ed2c7433077`，`dependency_status: provisional`。Audit逐字核对原第650章临时草稿与现已ready的最终版本：原文仅Day511历史申请范围一句段落经局部校正，Day513查证和回告、住宿及夜班交接事实没有改变。第651章可在该事实边界下接续，前章已按最新正式SHA核定。
 - 650结尾为Day514 07:05，Day514 10:00的旅舍续住仅是许诺，旧派办复核真实退回但没有结论证明其他历史通知及退款；本章只从真实场景动作推进，不回写前章。

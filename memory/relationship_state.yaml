@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 649
+last_updated_chapter: 651
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3443,3 +3443,16 @@ chapter_649_arc054_verified:
   mother_and_daughter: "母亲在青桥真退卡、寄存两箱并自行按商户实付转入栖园后才请晓漫正常下班探望；晓漫尊重不因待付候选提前请假的决定，晚间来新住处共饭、只带青菜。"
   evidence_boundaries: "母亲自主签限项行李交接，不签住房完成等于旧四楼修复/赔责/旧押金结清；袁经办不因安置完成给旧押金代填付款结论。"
   family_objects: "亡夫旧菜包歪针脚随母亲本人到栖园，外甥船与木板上的黑猫画保存，关系日常有实际动作。"
+chapter_650_arc054_verified:
+  chapter: 650
+  source_sha: "4dcd105cfa10ccb35e0da24d6b2cf49f2dce05c9"
+  mother_daughter: "母亲独立处理栖园浴室防滑垫及有权旧派办核查，不让晓漫工作时为未付新款请假；晓漫下班带夹子到新首层房挂外甥船猫画并共餐、只听有限源证，不代旧年签字。"
+  family: "亡夫旧菜包旧歪针脚随母亲在栖园，两箱在房；外甥船外黑猫新画与家人对话继续，未把家庭画纸混进档案。"
+  professional: "母亲要求袁将本条历史资料复核与各渠道实际退款及旧年本人收到通知分别论证；袁按Day513合法限权给真回告，不代她补确认。"
+
+chapter_651_arc054_verified:
+  chapter: 651
+  source_sha: "1ba2d3b87ac02d7baf9bf5d6aa043f1bed2e3b69"
+  mother_daughter: "母亲独自向栖园核真正新付款、将住房蓝夹与押金白夹分开，晓漫照常上班后带胶带固定外甥有轮子船黑猫画、共餐；不代母亲签理赔旧档。"
+  family: "亡夫旧菜包针脚保留，外甥长轮子的船和黑猫画在栖园门后，母女讨论船可否上岸。"
+  professional: "袁与母亲同意不能因迁移界面同票号并列把两历史号强接；按各自责任岗产生两条真收的后续分项问询，仅约Day51616:00核查进度。"
