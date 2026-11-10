@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 655
+title: "街道签了收，下一站不是她家"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "25a670fc767902af27353e43c8f140dfd8fcf054"
+source_draft_sha: "56aa5a820c7b9fb2e971e7344060b7738e3c89fe"
+initial_reader_review: "reader_reviews/0655_25a670fc.md"
+reader_review: "reader_reviews/0655_56aa5a82.md"
+depends_on_chapter: 654
+depends_on_source_sha: "ea3fd357f2acf3e560a6d8dfe4e502d77c7188e1"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day518 08:16—Day519 07:05"
+summary: >-
+  Day518母亲已在松澜首层真正入住，Day51714:09商户实际收到本房号四晚款覆盖到Day521中午、14:21双卡逐张开门、15:14两箱确在房；本日没有新增商户付款。08:16洗衣时保洁员按实际通道移开布车，让婴儿车先过；母亲自行洗晾衣物。唐晓漫在办公室休息区视频问候，妹妹从其家加入多人视频后转镜头给外甥，让外甥另画一幅船与码头间的跳板及黑猫；松澜门后原船猫画和亡夫旧菜包歪针脚仍保留。Day51812:06母亲拒绝把四晚临住当全部安置完成，要求物业Day520中午前就Day521中午之后的住宿给具名可执行衔接进度；物业真正受理该需求但没有新付款。旧押金旧联系件原承办岗→街道收发岗内部收文已在Day51716:02有权查证；袁经办Day51810:18就同一登记号申请下一内部移交索引，10:47仅收件，13:27才获限定阅准，14:03双档案员在受控室见此核问件真实交到街道资料核对席、有接收签记及另一个尚未获准打开的处理页索引，14:36双签摘录，15:08袁见有源结果，16:02给母亲限项说明，16:24母亲当前本人渠道真收仅当代说明。资料核对席是否找出历史地址/是否向本人投递、旧门卫室代收是否本人知悉、与旧派办及二次拟再办是否同链、历史所有渠道旧押金是否真退付继续未知。20:46母亲本人回拨夜间中心，Day51907:05交班。仁合里四楼旧12cm口与亡夫旧饰板独号封存、客厅一照明支路有限使用其余受水电路隔离整屋禁返住；五楼限复水、公区白痕灰细侧接远端漏源、2019第73页旧袋现址及历史真人获答与F008/M004/M005无新跨源证。
+meaningful_state_changes:
+  - "Day518 13:27合法限定授权后14:03同一核问件由街道收发岗内部转交资料核对席的来源登记与接收签记真被核见，另有未准阅处理页索引。"
+  - "物业Day518中午确实受理Day521午后住宿衔接需求并被要求Day520午前具名答进度；没有新的商户款，不能将受理标成完成安置。"
+knowledge_updates:
+  - "母亲16:02才从袁经办获知内部移交事实，16:24当前渠道收到限项说明，仍不知道历史私人投递是否发生、押金是否实际到账。"
+  - "袁经办与双档案岗只得授权内的内部交接索引；唐晓漫和妹妹只参与本章有源家庭视频；夜班中心20:46由母亲回拨后登记。"
+relationship_updates:
+  - "母亲独立整理洗衣与住房续住要求，唐晓漫照常在办公室工作、妹妹在家参与多人视频、外甥续画船猫跳板，不由女儿代签旧账。"
+foreshadowing_updates:
+  - "F014源链从街道收发岗岗位收文进一步到资料核对席内部签记与未准阅处理页索引，但仍不等同旧年本人通知/真实退款；原派办和二次拟再办独立。"
+ending_state: "Day51907:05母亲与双箱仍在松澜首层真付至Day521午；新旧房续住只获受理待Day520午具名进度；街道资料核对席处理页尚未准阅，历史本人收信及押金实退未知；仁合里四楼禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "25a670fc767902af27353e43c8f140dfd8fcf054", final_draft_sha: "56aa5a820c7b9fb2e971e7344060b7738e3c89fe", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 2}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3709

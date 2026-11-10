@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 654
-current_stage: chapter654_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0654.md
-current_source_sha: cc5f2b16a4cfb5482eb2171d8df5e1f85658c36e
-current_review_path: reader_reviews/0654_cc5f2b16.md
+current_chapter: 655
+current_stage: chapter655_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0655.md
+current_source_sha: 56aa5a820c7b9fb2e971e7344060b7738e3c89fe
+current_review_path: reader_reviews/0655_56aa5a82.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter654_reader_pass_a_b_content_qa_pass_no_body_revision
+last_action: chapter655_stage_a_video_geography_fix_new_blob_reader_pass_content_qa_pass
 last_action_date: "2026-11-10"
 last_error: null
-last_diff_summary: "前章653ready SHA精确一致;正文无修订;Reader_0_0_2;松澜真付四晚真迁住且街道岗位内部收件不证本人收到"
+last_diff_summary: "前章654ready SHA精确一致;正文视频两个局部替换;Reader_0_1_2_to_0_0_2;松澜真付四晚无新款;街道再移交资料核对席仍为内部收件"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: cc5f2b16a4cfb5482eb2171d8df5e1f85658c36e
+current_review_source_sha: 56aa5a820c7b9fb2e971e7344060b7738e3c89fe
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6955,3 +6955,21 @@ chapter_654_arc054_verified:
   predecessor_ready_sha: "1555e963fdc30808cb13ce1a55f6d93ffebd461d"
   predecessor_factual_delta: exact_ready_blob_no_delta
   structural_gate: exact_candidate_CI_required_before_main
+
+chapter_655_arc054_verified:
+  chapter: 655
+  original_source_sha: "25a670fc767902af27353e43c8f140dfd8fcf054"
+  source_sha: "56aa5a820c7b9fb2e971e7344060b7738e3c89fe"
+  initial_review: "reader_reviews/0655_25a670fc.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_review: "reader_reviews/0655_56aa5a82.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 2
+  revision_reason: "multi_party_video_sister_at_home_daughter_office"
+  content_qa: pass
+  predecessor_ready_sha: "ea3fd357f2acf3e560a6d8dfe4e502d77c7188e1"
+  predecessor_factual_delta: exact_ready_blob_no_delta
+  structural_gate: exact_candidate_ci_required_before_main

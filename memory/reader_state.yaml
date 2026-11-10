@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 654
-last_reviewed_title: "电梯到了门内，路还没走通"
-last_source_path: chapters/draft/0654.md
-last_source_sha: cc5f2b16a4cfb5482eb2171d8df5e1f85658c36e
-last_review_path: reader_reviews/0654_cc5f2b16.md
+last_reviewed_chapter: 655
+last_reviewed_title: "街道签了收，下一站不是她家"
+last_source_path: chapters/draft/0655.md
+last_source_sha: 56aa5a820c7b9fb2e971e7344060b7738e3c89fe
+last_review_path: reader_reviews/0655_56aa5a82.md
 last_reviewed_at: "2026-11-10"
-reviewer_mode: combined_audit_independent_pass_a_then_pass_b_predecessor_exact_ready_verified
+reviewer_mode: combined_audit_new_blob_independent_pass_a_then_pass_b_exact_ready_dependency
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 653
-depends_on_source_sha: 1555e963fdc30808cb13ce1a55f6d93ffebd461d
+depends_on_chapter: 654
+depends_on_source_sha: ea3fd357f2acf3e560a6d8dfe4e502d77c7188e1
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 1555e963fdc30808cb13ce1a55f6d93ffebd461d
+predecessor_current_source_sha: ea3fd357f2acf3e560a6d8dfe4e502d77c7188e1
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7861,3 +7861,23 @@ chapter_654_arc054_review:
   predecessor_factual_delta: exact_ready_blob_no_delta
   body_revisions: 0
   structural_gate: exact_candidate_CI_required_before_main
+
+chapter_655_arc054_review:
+  chapter: 655
+  original_source_sha: "25a670fc767902af27353e43c8f140dfd8fcf054"
+  initial_review: "reader_reviews/0655_25a670fc.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_fix: "repair_video_geography_by_sisters_separate_multi_party_join"
+  source_path: chapters/draft/0655.md
+  source_sha: "56aa5a820c7b9fb2e971e7344060b7738e3c89fe"
+  final_review: "reader_reviews/0655_56aa5a82.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: "independent_new_blob_pass_a_then_pass_b"
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "ea3fd357f2acf3e560a6d8dfe4e502d77c7188e1"
+  predecessor_factual_delta: exact_ready_blob_no_delta
+  dependency_status: verified_exact_ready_blob
+  stage_a_used: 1
+  body_revisions: 2
+  structural_gate: exact_candidate_ci_required_before_main
