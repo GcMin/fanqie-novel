@@ -6,9 +6,9 @@ volume: 6
 arc: "ARC-054"
 status: planned
 depends_on_chapter: 666
-depends_on_source_sha: "90385998b57ffb336bba3bb04e84c6ff05115e9d"
-dependency_status: provisional
-predecessor_path: chapters/draft/0666.md
+depends_on_source_sha: "1417c2cf8c67df84f7049ccca4e034d214f213ba"
+dependency_status: verified_ready_compatible_body
+predecessor_path: chapters/ready/0666.md
 target_effective_chars: 3373
 ---
 
@@ -35,5 +35,5 @@ target_effective_chars: 3373
 ## Continuity Precheck
 - 每轮重新读取main仓库AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、Bible/人物卡、第五卷及当前arc、计划表、当前弧与人物/关系/知识/世界状态、F014和近期时间线、656—665最近十章摘要与662—666最近五章正文；不读取reader_reviews。
 - 从main的published/ready/draft目录核实published含0153.md；published最高159、ready最高665、draft最高666，现有最高666，667章纲与正文尚不存在。
-- 上章666为未经审核的draft；保留其完整Git Blob SHA 90385998b57ffb336bba3bb04e84c6ff05115e9d作为临时精确依赖，`dependency_status: provisional`，不将Day529首稿未来修订可能改动的事实视为正式Canon。本章对其场景只作限定、明确来源的后续延伸。
+- 上章666已通过独立Reader/QA并正式ready；核对原Draft Blob 90385998b57ffb336bba3bb04e84c6ff05115e9d 与Ready Blob 1417c2cf8c67df84f7049ccca4e034d214f213ba，差异为多处局部删冗与表达压缩（去空白3970→3648），所有Day529住房/付款/行李/档案授权/夜班时点及知识边界不变。以正式Ready Blob为本章精确依赖，`dependency_status: verified_ready_compatible_body`。
 - 本轮仅新建计划与首稿，不执行Reader/Revision/QA/Memory/Publish Gate，不改任何既有文件；将两文件原子提交，使用最新main head SHA和非强制expected_sha更新。

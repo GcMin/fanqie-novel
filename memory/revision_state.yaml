@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 666
-current_stage: chapter666_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0666.md
-current_source_sha: 3626a5d9e4aae0478a2ca32fd70e3a60ebb4ce71
-current_review_path: reader_reviews/0666_3626a5d9.md
+current_chapter: 667
+current_stage: chapter667_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0667.md
+current_source_sha: e72e32f903c6be295c7e2e0d0d359332c89a667f
+current_review_path: reader_reviews/0667_e72e32f9.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter666_stage_a_trim_322_new_sha_reader_qa_pass
+last_action: chapter667_stage_a_metadata_only_rebind_new_sha_reader_qa_pass
 last_action_date: "2026-11-11"
 last_error: null
-last_diff_summary: "原稿真正3970>3800并误填3480，StageA删322至3648，新SHA独立双遍Reader0/0/2及独立QA PASS，待候选commit结构CI成功才ready。"
+last_diff_summary: "原始667章依赖666临时Draft，但666修订删冗322字并正式Ready，StageA只重绑新Ready SHA、667正文零修改；新667Blob独立Reader双遍0/0/2与Continuity/Style QA均通过，仍待精确结构CI才可ready。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 3626a5d9e4aae0478a2ca32fd70e3a60ebb4ce71
+current_review_source_sha: e72e32f903c6be295c7e2e0d0d359332c89a667f
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7124,4 +7124,21 @@ combined_audit_chapter_666_20261111:
   revision_reason: trim_322_and_fix_effective_char_count
   content_qa: pass
   predecessor_ready_sha: "61a341f1b423f5efb64a1867c9a47d705a32a1b5"
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_667_20261111:
+  chapter: 667
+  original_sha: "19515fe3a3fae927d1a780ad488d9c6322a07ce5"
+  initial_review: reader_reviews/0667_19515fe3.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_draft_sha: "e72e32f903c6be295c7e2e0d0d359332c89a667f"
+  final_review: reader_reviews/0667_e72e32f9.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  revision_reason: rebind_666_formal_ready_after_322_chars_trim_no_factual_delta
+  content_qa: pass
+  predecessor_ready_sha: "1417c2cf8c67df84f7049ccca4e034d214f213ba"
   structural_gate: exact_candidate_ci_required_before_main

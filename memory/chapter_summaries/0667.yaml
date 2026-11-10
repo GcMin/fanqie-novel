@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 667
+title: "两条登记号，不是两封收到的信"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "19515fe3a3fae927d1a780ad488d9c6322a07ce5"
+source_draft_sha: "e72e32f903c6be295c7e2e0d0d359332c89a667f"
+initial_reader_review: "reader_reviews/0667_19515fe3.md"
+reader_review: "reader_reviews/0667_e72e32f9.md"
+depends_on_chapter: 666
+depends_on_source_sha: "1417c2cf8c67df84f7049ccca4e034d214f213ba"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day530 08:23—Day531 07:05"
+summary: >-
+  Day530母亲在泊灯首层房，Day529自己13:29实付268元的一晚于今中午到期，两箱已到房、旧菜包亡夫歪针脚与女儿蓝衬、纸船红垫保留。物业09:06错把其个人自付新住所登记应急安置已完成，母亲09:38真提交三项分开的异议：昨天安置未兑现、昨日本人268元待审核报销、今天午后住宿仍未落实。10:48物业出具可直付的具名意见但无商户实收；11:09仍无款，11:27泊灯同房号商户真正收到物业责任岗新付Day530中午至Day532中午两晚房费（不含昨日268元），11:40重制房卡真实开门，夜间正门通路不变，两箱无需搬。袁经办基于Day52918:33限项申请09:26有编号10:53仅准查本户个人回执专册目录，13:34两名保管员遮其他户实阅目录：第一号为同一旧通知所附门卫室代收投递线索，第二号是同件的后续个人回执核问，指向未准查的独立附页；14:02双签归位，不能把两号认作两封本人收信或将未看原件写已阅。母亲15:17现时渠道得有限解释16:08确认今日说明真收不倒签旧年。晓漫下班到泊灯帮助按日期金额商户留本人268元照片但不代物业履责，外甥发纸码头新窗口照片。母亲20:45主动回拨后夏宁周衡梁策分别记录当代两晚物业真付款、旧个人款待审、两目录同一旧通知原件未看；Day53107:05交班。旧联系人初始来源、旧年本人实收通知、旧押金历史所有渠道末端退款和二次拟再办同链、2019旧卷F003F008M004M005仍无新跨源证，仁合里四楼旧12cm口亡夫饰板独封全屋禁返住、五楼有限复水公区漏源待判，全局联系人字段旧错显尚未证已改。
+meaningful_state_changes:
+  - "泊灯商户Day53011:27真实收到物业直接支付同房两晚款至Day532中午11:40新卡开门；本人Day529垫付268元仍待核未报销。"
+  - "旧个人回执专册目录从申请未阅推进到本户有限合法阅准及两条同一通知不同用途关联摘录；原始本人回执附页未阅。"
+  - "母女在泊灯共同整理凭据，外甥纸码头修船处增设窗口，旧包两代针脚与蓝船红垫延续。"
+knowledge_updates:
+  - "母亲15:17才知本户目录两号不是两封个人收信，16:08只确认本次说明；不知道旧年本人实收与押金末端退款，也知道今日两晚物业真付并不等于昨天268元已退。"
+  - "袁与双保管员只核本户目录两条及相同通知关联，未看回执原件；夜班仅在母亲20:45主动回拨后限项知情。"
+relationship_updates:
+  - "晓漫工作后到泊灯帮助保存个人收据照片而不代母亲签旧年收悉、物业责任；母亲允下次稳定后再探外甥新纸窗口。"
+foreshadowing_updates:
+  - "F014旧个人回执目录两条共用同一通知关联号，第一指向门卫代收凭条，第二仅查真正个人回执另卷附页；本人历史收讫、旧号最初形成者、旧押金全渠道真退未证。"
+ending_state: "Day53107:05泊灯同房物业商户实付到Day532中午，新卡可开两箱不搬，个人268元待审核；档案原始个人回执附页须另申请，旧房禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "19515fe3a3fae927d1a780ad488d9c6322a07ce5", final_draft_sha: "e72e32f903c6be295c7e2e0d0d359332c89a667f", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3373

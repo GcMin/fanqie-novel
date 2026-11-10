@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 666
-last_reviewed_title: "房卡中午交回去，新房费却由她先付"
-last_source_path: chapters/draft/0666.md
-last_source_sha: 3626a5d9e4aae0478a2ca32fd70e3a60ebb4ce71
-last_review_path: reader_reviews/0666_3626a5d9.md
+last_reviewed_chapter: 667
+last_reviewed_title: "两条登记号，不是两封收到的信"
+last_source_path: chapters/draft/0667.md
+last_source_sha: e72e32f903c6be295c7e2e0d0d359332c89a667f
+last_review_path: reader_reviews/0667_e72e32f9.md
 last_reviewed_at: "2026-11-11"
 reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
 recommendation: keep
@@ -12,11 +12,11 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 665
-depends_on_source_sha: 61a341f1b423f5efb64a1867c9a47d705a32a1b5
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 61a341f1b423f5efb64a1867c9a47d705a32a1b5
-predecessor_sha_mismatch: false
+depends_on_chapter: 666
+depends_on_source_sha: 1417c2cf8c67df84f7049ccca4e034d214f213ba
+dependency_status: verified_ready_compatible_body
+predecessor_current_source_sha: 1417c2cf8c67df84f7049ccca4e034d214f213ba
+predecessor_sha_mismatch: true
 predecessor_qa_verification_required: false
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
@@ -8060,4 +8060,24 @@ combined_audit_chapter_666_20261111:
   reader_gate: pass
   qa_gate: pass
   predecessor_ready_sha: "61a341f1b423f5efb64a1867c9a47d705a32a1b5"
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_667_20261111:
+  chapter: 667
+  title: "两条登记号，不是两封收到的信"
+  original_source_sha: "19515fe3a3fae927d1a780ad488d9c6322a07ce5"
+  initial_review: reader_reviews/0667_19515fe3.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "e72e32f903c6be295c7e2e0d0d359332c89a667f"
+  final_review: reader_reviews/0667_e72e32f9.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_provisional_sha: "90385998b57ffb336bba3bb04e84c6ff05115e9d"
+  predecessor_ready_sha: "1417c2cf8c67df84f7049ccca4e034d214f213ba"
+  predecessor_factual_delta: 322_non_whitespace_char_trim_only_no_key_fact_delta
+  dependency_status: verified_ready_compatible_body
+  reader_gate: pass
+  qa_gate: pass
   structural_gate: exact_candidate_ci_required_before_main
