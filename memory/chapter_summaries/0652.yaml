@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 652
+title: "两份答复走向不同窗口，缺的那页还没打开"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "d477077f5a04c91649abad45b2df8766fe6c0305"
+source_draft_sha: "dd4d8a32ee76e14104fde30ce6830fb699e99e3f"
+initial_reader_review: "reader_reviews/0652_d477077f.md"
+reader_review: "reader_reviews/0652_dd4d8a32.md"
+depends_on_chapter: 651
+depends_on_source_sha: "d51a4fdb9a26938a17fbeb2d28dbd861c0384d85"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day515 08:12—Day516 07:04"
+summary: >-
+  Day515母亲在栖园首层双床两卡可开两箱在房，物业Day514新真收两晚款至Day517中午，本日未新付；自购合脚防滑拖鞋中午携亡夫留歪针脚旧菜包到妹妹家，与外甥看他另画的带轮子船和推船人，栖园门后原船猫画仍在。袁经办09:40独立收到Day51416:13两分项查询的限项进度：旧派办后序联系须另按本户范围向旧收发目录申请，不能证明历史独立通知已经发出或本人获悉；二次拟再办旧财务交接目录有材料退补索引、封存页项与保管单位，但未获准看具体缺件原页，不能认为因原派办旧联系人两来源冲突而导致二次申请不出款或将本号未生成付款指令扩成所有渠道未付款。10:30袁拒绝一张混合历史确认的综合知悉单，11:27分拆申请收件，14:47两张独立当代限项回告生成，15:42母亲本人当前渠道真收，只确认今日收悉不追认历史旧信与银行退付。Day51616:00仍是两个不同责任岗各自答下步条件的截止时点；栖园Day517中午下期住房未有新款，母亲计划提前询问。20:46母亲本人回拨夜班，Day51607:04交班，旧房四楼继续禁返住，五楼限复水、公区白痕灰接漏源及2019 F003/F008/M004/M005无新跨源证。
+meaningful_state_changes:
+  - "Day515真实定位二次拟再办财务退补资料索引但未获原件阅准。"
+  - "Day51514:47生成两张仅限当代的独立回告并15:42由母亲本人真正收到。"
+knowledge_updates:
+  - "母亲知道后续通知可另申旧收发目录以及财务退补仅存在索引，具体旧年送达及所有渠道旧款最终实付未证。"
+relationship_updates:
+  - "母亲独自买适脚鞋和维护住房责任，妹妹愿临时相助但不能替代物业；女儿照常工作下班探望，外甥在妹妹家另画新船。"
+foreshadowing_updates:
+  - "F014旧联系后序与二次拟再办仍分链，财务退补目录存在不等于具体原因已知、旧款已退。"
+ending_state: "Day51607:04栖园真实款只至Day517午、双卡可开双箱在房，母亲已真收两份本次限定回告，Day51616:00两项待答进一步条件，旧押金实际实退和其他历史通知仍未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d477077f5a04c91649abad45b2df8766fe6c0305", final_draft_sha: "dd4d8a32ee76e14104fde30ce6830fb699e99e3f", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 3}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3180
