@@ -6,9 +6,9 @@ volume: 6
 arc: "ARC-054"
 status: planned
 depends_on_chapter: 658
-depends_on_source_sha: "7272759c61839d1bcd10d48d04e1a55fd792e332"
-dependency_status: provisional
-predecessor_path: chapters/draft/0658.md
+depends_on_source_sha: "3513b6d40317b2e6088582270ae081ea8eaecb95"
+dependency_status: verified_ready_compatible_body
+predecessor_path: chapters/ready/0658.md
 target_effective_chars: 3740
 ---
 
@@ -18,7 +18,7 @@ target_effective_chars: 3740
 
 - **目标**：Day522在合法限项许可下查旧联系核问件“补源转办”实际领办与处置分类，区分有人领办、确曾暂停本件外联、来源材料是否真实补齐与历史当事人本人收信；母亲在松澜恢复普通生活，与晓漫共同修缮旧菜包提手，不消除亡夫留存针脚。
 - **POV**：第三人称有限，以母亲生活与袁经办专业核证双线推进，夜班中心只在当晚本人回拨后记录。
-- **开场**：第658章仍为未审草稿，其指定 blob 7272759c61839d1bcd10d48d04e1a55fd792e332 仅作为 provisional 参照：Day521已在限项许可下证街道内部回复于原承办岗收件签记，出现未准看的下一“补源转办”目录。母亲松澜真付至Day524午，两卡能开，两箱不搬，蓝纸船由外甥赠给母亲。
+- **开场**：第658章经独立审核并交付ready，原标题与小说正文和所依赖草稿逐字一致，原草稿仅交付Front Matter变更；正式ready blob 3513b6d40317b2e6088582270ae081ea8eaecb95 可作确证承接：Day521已在限项许可下证街道内部回复于原承办岗收件签记，出现未准看的下一“补源转办”目录。母亲松澜真付至Day524午，两卡能开，两箱不搬，蓝纸船由外甥赠给母亲。
 - **角色诉求**：母亲只愿承认当下真实获知及历史可证事实，不替任何人补旧签名；袁只按本户指定内部流转号弄清何人领办、办理分类及后续源目录，避免合并另一财务二次拟再办线；晓漫想在不抹掉父亲手工痕迹的前提下修好提手。
 - **冲突**：内部“已处理”总览与真实证据层级不同，岗位领办不代表补源完成；暂停这一个联系核问件的外联，不足以证明历史没有其他通知、没有本人收信，更不涉及旧押金所有银行渠道末端实付。
 - **六个关键 beats**：
@@ -36,5 +36,5 @@ target_effective_chars: 3740
 ## Continuity Precheck
 
 - 本轮从实际GitHub main的 published、ready、draft三目录取最大章号658，153已在 published；第659章及计划均未存在。按main读取AGENTS、novel.yaml、writing_roles、ai_reading_protocol、Bible、三个主角人物卡、第五卷与arc_current（两者显著滞后，真实进度以近期正文与长记忆为准）、人物状态知识关系世界、时间线、F014、0648—0657十章摘要及0654—0658五章正文；没有读取reader_reviews。
-- 前章658仅在 draft，Git blob **7272759c61839d1bcd10d48d04e1a55fd792e332**，本章与章纲都记录 **depends_on_chapter:658**、**depends_on_source_sha** 和 **dependency_status:provisional**，其未审事件只作暂时承接，未晋升正式 Canon。若独立Audit修订第658章，后续审核者须按该精确原稿与第658章最终版本对照是否兼容。
+- 第658章原草稿 Git blob **7272759c61839d1bcd10d48d04e1a55fd792e332** 与正式ready **3513b6d40317b2e6088582270ae081ea8eaecb95** 的标题、小说正文逐字一致，交付Front Matter不同；本章 Front Matter 与本章纲均重绑正式ready SHA，标记 **dependency_status:verified_ready_compatible_body**；前章不存在新增情节或人物知识事实差异。
 - 仅执行Planner、Continuity Precheck、Writer，新建详细章纲与待审首稿；不审核、不修既有章、不更新长期Memory、不进入ready、不发布番茄。

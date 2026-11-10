@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 657
+last_updated_chapter: 659
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3494,3 +3494,11 @@ chapter_657_arc054_verified:
   chapter: 657
   source_sha: "bd3ed52e1b8e9a858ed9373e908abd5a7a315fa1"
   verified_state: "母亲拒签预算模板错误完成栏，自己核商户新实款并逐开双卡后告诉女儿无需搬箱；晓漫工作后传妹妹家孩子新画照片，原松澜船猫画与旧菜包未移；袁只确认街道内部发出，不替原承办或母亲补收件。"
+chapter_658_arc054_verified:
+  chapter: 658
+  source_sha: "7272759c61839d1bcd10d48d04e1a55fd792e332"
+  verified_state: "母亲兑现陪外甥做纸船的约定，手把手让孩子自行纠正折痕，外甥用红纸帮蓝船立稳；晓漫下班后到妹妹家一起吃饭。母亲与袁仍坚持现行本人回告不追认旧年个人签收。"
+chapter_659_arc054_verified:
+  chapter: 659
+  source_sha: "74862874a4d53ae5abbd40a365e583189156d822"
+  verified_state: "母亲允许晓漫下班后在松澜实际缝补旧菜包提手，并教她穿线与避开亡夫原歪针脚；两代手工在一个包上分别保留，母亲不再所有小事独自承担。袁只区分本件暂停外联与所有历史旧信。"

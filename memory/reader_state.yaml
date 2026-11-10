@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 657
-last_reviewed_title: "三晚房费落了账，旧回件只查到发出"
-last_source_path: chapters/draft/0657.md
-last_source_sha: bd3ed52e1b8e9a858ed9373e908abd5a7a315fa1
-last_review_path: reader_reviews/0657_bd3ed52e.md
+last_reviewed_chapter: 659
+last_reviewed_title: "补源任务有人领，旧信仍要找凭据"
+last_source_path: chapters/draft/0659.md
+last_source_sha: 74862874a4d53ae5abbd40a365e583189156d822
+last_review_path: reader_reviews/0659_74862874.md
 last_reviewed_at: "2026-11-10"
 reviewer_mode: combined_audit_independent_new_blob_pass_a_then_pass_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 656
-depends_on_source_sha: 4a4c050753be44c7e5b8217c1c2e0d85fc86cf9f
+depends_on_chapter: 658
+depends_on_source_sha: 3513b6d40317b2e6088582270ae081ea8eaecb95
 dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: 4a4c050753be44c7e5b8217c1c2e0d85fc86cf9f
+predecessor_current_source_sha: 3513b6d40317b2e6088582270ae081ea8eaecb95
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7902,6 +7902,37 @@ chapter_657_arc054_review:
   body_revisions: 0
   predecessor_ready_sha: "4a4c050753be44c7e5b8217c1c2e0d85fc86cf9f"
   predecessor_factual_delta: title_body_same_metadata_only
+  reader_gate: pass
+  qa_gate: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+chapter_658_arc054_review:
+  chapter: 658
+  source_sha: "7272759c61839d1bcd10d48d04e1a55fd792e332"
+  final_review: reader_reviews/0658_7272759c.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "be6e8c676b47ef7108c7612aa766934b44fef57c"
+  predecessor_factual_delta: exact_ready_blob_no_delta
+  dependency_status: verified_exact_ready_blob
+  reader_gate: pass
+  qa_gate: pass
+  structural_gate: exact_candidate_ci_required_before_main
+chapter_659_arc054_review:
+  chapter: 659
+  original_source_sha: "55c396d9c3c49d5571d32431da25ebf75ff0af10"
+  initial_review: reader_reviews/0659_55c396d9.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "74862874a4d53ae5abbd40a365e583189156d822"
+  final_review: reader_reviews/0659_74862874.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_provisional_sha: "7272759c61839d1bcd10d48d04e1a55fd792e332"
+  predecessor_ready_sha: "3513b6d40317b2e6088582270ae081ea8eaecb95"
+  predecessor_factual_delta: title_body_exact_same_metadata_only
+  dependency_status: verified_ready_compatible_body
   reader_gate: pass
   qa_gate: pass
   structural_gate: exact_candidate_ci_required_before_main
