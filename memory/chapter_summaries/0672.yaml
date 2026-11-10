@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 672
+title: "七晚房费真到了，夜门还得自己走"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "e95f3b4367dddd5072c1fe2e9cad44941f416400"
+reader_review: "reader_reviews/0672_e95f3b43.md"
+depends_on_chapter: 671
+depends_on_source_sha: "c1858aa49109b934a3ca46d30f3d7ea272d8fe1d"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day535 08:12—Day536 07:06"
+summary: >-
+  Day535泊灯原房物业真款仅至中午，08:12母亲收退房提醒。09:07两旧长住候选夜路不能成立，09:47小许提出禾汀首层，10:19母亲白天亲走查正门和房间，但夜路仍待试。11:31禾汀商户真正收到物业Day535中午至Day542中午七晚款，11:42泊灯真退房卡甲乙双箱限项寄存，12:06凭具名委托领箱，12:38禾汀两箱实际交房新卡开门且药和亡夫菜包随身。15:17母亲拒把夜门未试写整体已交付、拒把五楼清洁间软管局部维修写四楼可返住。21:03至21:07母亲独自从临街人行道本人夜刷住客正门及新房门实通，21:21本人回拨中心、Day53607:06交班。Day53917:00仅承诺下一次具名答复，不是第八晚实付款；Day529本人垫268元已Day53116:58真退，不是历史旧押金。蓝船红垫及母亲歪广告大船、旧菜包丈夫外针脚女儿内补蓝布随迁，晓漫上班关心药和箱。四楼旧12cm口和亡夫饰板各自独封、整屋禁返住单照明有限其余受水电隔离，五楼新软管局部真修不证公区旧白痕灰细侧接漏源；历史F014旧号码来源、旧信本人实收、旧押金所有渠道实退和2019/F003/F008/M004/M005仍无跨源新证。
+meaningful_state_changes:
+  - "禾汀商户Day53511:31实际收物业七晚真款至Day542中午，12:38双箱真交和卡真开，21:03母亲夜门真验证。"
+  - "两旧候选夜路问题获得实查排除，Day53917:00仅下一步答复未增加付款。"
+knowledge_updates:
+  - "母亲白天10:19仅能确认日间路线，夜里21:03亲试才知独立夜门可通；夜班21:21本人回拨后才知有源付款搬箱夜验。"
+relationship_updates:
+  - "晓漫照常工作关怀箱药，母亲自主验房；外甥蓝纸船红垫与母亲新歪广告纸船随迁，亡夫菜包两代针脚继续。"
+foreshadowing_updates:
+  - "F014本户当代旧已联系限定注释和双页说明仍真有效，不证明历史本人实收信或旧押金全渠道实退。"
+ending_state: "Day53607:06禾汀真付七晚到Day542中午、两箱进房夜门实走；Day53917:00仍只待具名答复、四楼禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "e95f3b4367dddd5072c1fe2e9cad44941f416400", final_draft_sha: "e95f3b4367dddd5072c1fe2e9cad44941f416400", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2716

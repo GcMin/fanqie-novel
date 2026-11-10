@@ -7,8 +7,8 @@
 - role_id: writer
 - status: plan_only
 - depends_on_chapter: 672
-- depends_on_source_sha: e95f3b4367dddd5072c1fe2e9cad44941f416400
-- dependency_status: provisional
+- depends_on_source_sha: f1e947f9108812edf119f9f74f80245006a72a0d
+- dependency_status: verified_ready_compatible_body
 - source: chapters/draft/0672.md（main 中仍为待审草稿，仅作为暂定连续性参考，不视为正式Canon）
 - target_effective_chars: 3000（优选2600—3400；硬限2300—3800）
 - actual_effective_chars: 3217
@@ -43,3 +43,7 @@ Day536上午，禾汀首层临街正门昨夜本人真走；物业真正支付Da
 - 实读 main 中 AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、四篇Bible、三张主要人物卡、当前 arc 与卷纲、相关 memory 人物/知识/关系/世界/伏笔/时间线及近十章662—671摘要、最近五章668—672正文；不阅读历史 reader_reviews。
 - 按 Git tree published=0159、ready=0671、draft=0672，已出版0153存在，673此前不存在；上一章0672待审稿 Blob SHA `e95f3b4367dddd5072c1fe2e9cad44941f416400`，依赖只能为 provisional，不能升为正式 Canon。
 - 本轮仅 Planner、Continuity Precheck、Writer；未审核、修订现有章节、更新长期Memory或发布。
+
+## Audit Stage A｜2026-11-11
+- 原第672章Draft `e95f3b4367dddd5072c1fe2e9cad44941f416400` 与正式Ready `f1e947f9108812edf119f9f74f80245006a72a0d` 的标题、全部小说正文逐字一致，只有Front Matter交付元数据不同。七晚实际商户到账、夜门本人实走、旧房禁返住无事实变化。
+- 第673章Front Matter与章纲只重绑前章正式SHA；原Draft `b9ffac86585eaa5e6007b4e0831c0a5cefe0a784` → 新Draft `68eee283d31b86f92b9d46e330609c10be89d653`，正文0字修改。新SHA独立Pass A→Pass B 0/0/2，Continuity/Style/Meaningful QA通过；精确候选CI成功后才能交付Ready。

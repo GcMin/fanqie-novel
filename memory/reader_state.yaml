@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 667
-last_reviewed_title: "两条登记号，不是两封收到的信"
-last_source_path: chapters/draft/0667.md
-last_source_sha: e72e32f903c6be295c7e2e0d0d359332c89a667f
-last_review_path: reader_reviews/0667_e72e32f9.md
+last_reviewed_chapter: 673
+last_reviewed_title: "封条没有动，清运单先写了完成"
+last_source_path: chapters/draft/0673.md
+last_source_sha: 68eee283d31b86f92b9d46e330609c10be89d653
+last_review_path: reader_reviews/0673_68eee283.md
 last_reviewed_at: "2026-11-11"
 reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 666
-depends_on_source_sha: 1417c2cf8c67df84f7049ccca4e034d214f213ba
+depends_on_chapter: 672
+depends_on_source_sha: f1e947f9108812edf119f9f74f80245006a72a0d
 dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: 1417c2cf8c67df84f7049ccca4e034d214f213ba
+predecessor_current_source_sha: f1e947f9108812edf119f9f74f80245006a72a0d
 predecessor_sha_mismatch: true
 predecessor_qa_verification_required: false
 
@@ -8156,6 +8156,43 @@ combined_audit_chapter_671_20261111:
   qa_gate: pass
   predecessor_provisional_sha: "48296f8a51fb78ee300f9ed351d01466154a4424"
   predecessor_ready_sha: "4512e10b5fcf38054d11e9a4574c9ecf8d268dc3"
+  predecessor_factual_delta: title_body_exact_same_metadata_only
+  dependency_status: verified_ready_compatible_body
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_672_20261111:
+  chapter: 672
+  title: "七晚房费真到了，夜门还得自己走"
+  source_sha: "e95f3b4367dddd5072c1fe2e9cad44941f416400"
+  final_review: reader_reviews/0672_e95f3b43.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "c1858aa49109b934a3ca46d30f3d7ea272d8fe1d"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_673_20261111:
+  chapter: 673
+  title: "封条没有动，清运单先写了完成"
+  original_source_sha: "b9ffac86585eaa5e6007b4e0831c0a5cefe0a784"
+  initial_review: reader_reviews/0673_b9ffac86.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "68eee283d31b86f92b9d46e330609c10be89d653"
+  final_review: reader_reviews/0673_68eee283.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 0
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_provisional_sha: "e95f3b4367dddd5072c1fe2e9cad44941f416400"
+  predecessor_ready_sha: "f1e947f9108812edf119f9f74f80245006a72a0d"
   predecessor_factual_delta: title_body_exact_same_metadata_only
   dependency_status: verified_ready_compatible_body
   structural_gate: exact_candidate_ci_required_before_main
