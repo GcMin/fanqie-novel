@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 655
-current_stage: chapter655_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0655.md
-current_source_sha: 56aa5a820c7b9fb2e971e7344060b7738e3c89fe
-current_review_path: reader_reviews/0655_56aa5a82.md
+current_chapter: 657
+current_stage: chapter657_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0657.md
+current_source_sha: bd3ed52e1b8e9a858ed9373e908abd5a7a315fa1
+current_review_path: reader_reviews/0657_bd3ed52e.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter655_stage_a_video_geography_fix_new_blob_reader_pass_content_qa_pass
+last_action: chapter657_stage_a_rebind_656_ready_new_sha_reader_pass_content_qa_pass
 last_action_date: "2026-11-10"
 last_error: null
-last_diff_summary: "前章654ready SHA精确一致;正文视频两个局部替换;Reader_0_1_2_to_0_0_2;松澜真付四晚无新款;街道再移交资料核对席仍为内部收件"
+last_diff_summary: "656原草稿与正式ready标题正文相同仅交付元数据不同;657重绑正式前章SHA正文0字;Reader0_1_2_to_0_0_2;松澜三晚商户真收双卡真开;街道一端真发对端未证"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 56aa5a820c7b9fb2e971e7344060b7738e3c89fe
+current_review_source_sha: bd3ed52e1b8e9a858ed9373e908abd5a7a315fa1
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -6972,4 +6972,26 @@ chapter_655_arc054_verified:
   content_qa: pass
   predecessor_ready_sha: "ea3fd357f2acf3e560a6d8dfe4e502d77c7188e1"
   predecessor_factual_delta: exact_ready_blob_no_delta
+  structural_gate: exact_candidate_ci_required_before_main
+
+chapter_656_arc054_verified:
+  chapter: 656
+  source_sha: "c75e3837b961b035f7dd985f5dd60a4c0b7a359e"
+  final_review: reader_reviews/0656_c75e3837.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  content_qa: pass
+  predecessor_ready_sha: "3de810384ad70d70c12aadc56c0528b9b67b8e83"
+  structural_gate: exact_candidate_ci_required_before_main
+chapter_657_arc054_verified:
+  chapter: 657
+  original_source_sha: "fb8aaf1288313eaf328889ecfc9096e1b34fb274"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "bd3ed52e1b8e9a858ed9373e908abd5a7a315fa1"
+  final_review: reader_reviews/0657_bd3ed52e.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 0
+  content_qa: pass
+  predecessor_ready_sha: "4a4c050753be44c7e5b8217c1c2e0d85fc86cf9f"
   structural_gate: exact_candidate_ci_required_before_main

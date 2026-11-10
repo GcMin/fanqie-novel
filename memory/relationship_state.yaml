@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 655
+last_updated_chapter: 657
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3485,3 +3485,12 @@ chapter_655_arc054_verified:
   mother_daughter: "母亲在松澜独立洗衣、安排住房责任进度和确认旧档当前回告，晓漫仍按日常在办公室工作，通过多人视频陪母亲并未代她签旧年手续，晚间只发外甥画的照片。"
   family: "妹妹从自家加入母女多人视频、转给外甥看另画船与码头跳板，母亲不外泄松澜具体门牌；亡夫旧菜包针脚与原船猫画仍在松澜，新画在妹妹家。"
   professional: "袁经办与母亲坚持街道各岗位内部签字不可充当母亲当年的本人收信，也不拿新的资料核对席索引代旧押金最终实际退款；母亲16:24只确认本日限项回告收到。"
+
+chapter_656_arc054_verified:
+  chapter: 656
+  source_sha: "c75e3837b961b035f7dd985f5dd60a4c0b7a359e"
+  verified_state: "母亲独自维护松澜日常，核房态不叫女儿催未到账付款；晓漫正常下班来共餐挪箱留道；亡夫旧菜包歪针脚和原船猫画在松澜，妹妹家新船画仍独立；袁经办只用限定来源告知，不替母亲追认历史签收。"
+chapter_657_arc054_verified:
+  chapter: 657
+  source_sha: "bd3ed52e1b8e9a858ed9373e908abd5a7a315fa1"
+  verified_state: "母亲拒签预算模板错误完成栏，自己核商户新实款并逐开双卡后告诉女儿无需搬箱；晓漫工作后传妹妹家孩子新画照片，原松澜船猫画与旧菜包未移；袁只确认街道内部发出，不替原承办或母亲补收件。"

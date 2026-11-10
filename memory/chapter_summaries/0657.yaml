@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 657
+title: "三晚房费落了账，旧回件只查到发出"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "fb8aaf1288313eaf328889ecfc9096e1b34fb274"
+source_draft_sha: "bd3ed52e1b8e9a858ed9373e908abd5a7a315fa1"
+reader_review: "reader_reviews/0657_bd3ed52e.md"
+initial_reader_review: "reader_reviews/0657_fb8aaf12.md"
+depends_on_chapter: 656
+depends_on_source_sha: "4a4c050753be44c7e5b8217c1c2e0d85fc86cf9f"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day520 08:26—Day521 07:04"
+summary: >-
+  Day520母亲在松澜首层缝旧菜包内袋，旧四晚款仅覆盖至Day521午，物业给预算截图与错误“执行完成”单被她退改；11:46松澜对原房号新增三晚真正收款，自Day521午接续至Day524午，11:54物业具名分项回告、12:07两卡逐张重新实际开门，两箱不搬，今日住房履约完成一段不等于旧押金或四楼房屋赔责结清。袁09:41另申Day519处理页拟退请的内部回件发收原簿，10:04正式收件、10:33分街道发文和原承办收文两单位限定范围；13:18街道端获准、14:11双档案岗真见同件一份发给原承办收文岗的内部回复及发文号和交出签记，14:47双签，接收端原簿未获准看，不能认定原承办真收或历史本人实际得通知。系统错将联系事项类别显示“联系人答复”，袁按原始来源纠正，未混入二次拟再办财务退补。15:58向母亲限项解释、16:22当代本人渠道真收，20:44本人回拨夜班、次晨07:04交班。旧门卫代收与内交分别保留、历史各渠道押金真款未知；旧房四楼禁返住、五楼限复水、公区白痕灰细侧接漏源以及2019F003F008M004M005不获跨源新证。
+meaningful_state_changes:
+  - "Day520 11:46松澜商户新增三晚真收到Day524午、12:07两张房卡各自实开，旧订单与双箱不变。"
+  - "Day52014:11街道端原簿真证内部退请回复实际发出，原承办接收端收文仍未核。"
+knowledge_updates:
+  - "母亲Day52015:58仅知道街道端真实发文，16:22本次渠道真收；原承办是否签收、本人历史得信或旧押金各渠道实付未知。"
+  - "夜班中心只有在母亲本人当晚回拨后登记对应有源结果，不先验使用未授权旧联系人/银行资料。"
+relationship_updates:
+  - "母亲自己核商户真款、两张卡并拒物业错误完成单，女儿下班只问是否搬箱，妹妹家孩子另画有扶手的跳板；本人签名边界不变。"
+foreshadowing_updates:
+  - "F014街道端原簿证明退请回复一端实际发出；目的岗收文、本人口头/书面历史知悉及旧押金实付仍无核实。"
+ending_state: "Day52107:04松澜首层原房续三晚真实收款至Day524午、双卡可开箱子不搬；街道端真发旧退请但原承办端未见收文，本人历史签收/旧款实退未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "fb8aaf1288313eaf328889ecfc9096e1b34fb274", final_draft_sha: "bd3ed52e1b8e9a858ed9373e908abd5a7a315fa1", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3044

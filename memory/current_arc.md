@@ -1,3 +1,11 @@
+## 第657章 ARC-054 Stage A前章ready重绑、新SHA Reader及独立内容QA｜2026-11-10
+- 原稿 `fb8aaf1288313eaf328889ecfc9096e1b34fb274` Reader独立先Pass A后Pass B初评0 BLOCKER/1 MAJOR/2 MINOR；唯一MAJOR为前章656 provisional SHA。比对656原草稿 `c75e3837b961b035f7dd985f5dd60a4c0b7a359e` 与正式ready `4a4c050753be44c7e5b8217c1c2e0d85fc86cf9f`：标题和小说正文完全一致，仅交付Front Matter不同；Stage A只重绑657 Front Matter和章纲，正文0字改。修订稿 `bd3ed52e1b8e9a858ed9373e908abd5a7a315fa1` 经独立新SHA双遍Reader `reader_reviews/0657_bd3ed52e.md` 0/0/2 keep/none，独立Continuity/Style/Meaningful内容QA PASS，有效3044字。正式ready仍须精确候选CI成功。
+- Day520物业内部预算与错误完成单不能当真付款；松澜11:46商户新收同首层房三晚至Day524中午、11:54物业具名分项回告12:07双卡重设逐张真开、两箱不搬。袁10:04申请真收13:18获街道端限项许可、14:11双档案员真核同件内部回复原簿有发文号及交出签记、14:47双签，但原承办收文原簿未查；15:58母亲有源获回告16:22当代渠道真收、20:44本人回拨、次晨07:04交班。只证街道一端真实发出，旧年母亲本人得信、旧押金各渠道最终实付与两独立旧业务同链仍未知，四楼禁返住及2019F003F008M004M005未新增证。
+
+## 第656章 ARC-054 Reader双遍及独立内容QA｜2026-11-10
+- 原稿 `c75e3837b961b035f7dd985f5dd60a4c0b7a359e` Reader `reader_reviews/0656_c75e3837.md`独立先Pass A读本章/653—655正文/646—655摘要/文风，再Pass B读Canon、ARC-054、人物知识世界时间F014，0 BLOCKER/0 MAJOR/2 MINOR keep/none；正文无改，有效3512字在硬上限3800内，独立Continuity/Style/Meaningful内容QA PASS。依赖前655正式ready `3de810384ad70d70c12aadc56c0528b9b67b8e83` 精确一致，正式ready仍须精确候选CI成功。
+- Day519松澜首层双卡双箱在房且四晚商户真款仅至Day521午；母亲自行挂衣查续住房态但尚无新款。袁10:09申请真受理13:11获准14:06双档案员真见街道资料核对席双签联系来源不足与拟退请原承办补源意见、另有未准阅内部回复登记索引，14:43双签；15:49母亲获回告16:21当代渠道真收、20:42本人回拨、次晨07:06交班。拟退不等于真发件/原承办收文/历史本人收信或旧押金实付。四楼12cm观察口及亡夫旧饰板独封整屋禁返住、五楼限复水、公区白痕灰细侧接漏源及2019F003F008M004M005无跨源新证。
+
 ## 第655章 ARC-054 Stage A视频空间修正、新SHA独立Reader与内容QA｜2026-11-10
 - 初稿Blob `25a670fc767902af27353e43c8f140dfd8fcf054` Reader先Pass A（655/652—654正式正文/645—654摘要/文风）再Pass B（主线硬Canon、ARC-054、人物知识关系、世界时间与F014），0 BLOCKER/1 MAJOR/2 MINOR。唯一MAJOR是女儿仍在办公室，却靠转动她自己的手机看到妹妹家餐桌的外甥，形成物理场景断裂；Stage A只将该场景改为妹妹另从其家加入多人视频并转镜头，其他剧情未改，详细章纲同步。新Draft blob `56aa5a820c7b9fb2e971e7344060b7738e3c89fe` 新Reader `reader_reviews/0655_56aa5a82.md`重新独立Pass A/B 0/0/2 keep/none；Continuity、Style、Meaningful QA各PASS，实算3709非空白有效字符，硬上限3800内。第654正式ready SHA `ea3fd357f2acf3e560a6d8dfe4e502d77c7188e1`依赖精确一致，无前章版本事实差异。结构与ready迁入仍以精确候选CI成功为门槛。
 - Day518松澜首层仍由Day51714:09商户真实收四晚款覆盖到Day521午，两卡14:21已实开两箱15:14已在房；母亲本人洗衣，保洁员挪布车保证通路，女儿办公室与妹妹家视频接入，外甥另画船与码头跳板。12:06物业真实受理Day521午后住宿衔接需求，母亲要求Day520中午前具名可执行进度，但当前绝无新的商户实付款。
