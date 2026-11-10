@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 651
-last_reviewed_title: "两条旧编号，不该挤在一格里"
-last_source_path: chapters/draft/0651.md
-last_source_sha: 1ba2d3b87ac02d7baf9bf5d6aa043f1bed2e3b69
-last_review_path: reader_reviews/0651_1ba2d3b8.md
+last_reviewed_chapter: 652
+last_reviewed_title: "两份答复走向不同窗口，缺的那页还没打开"
+last_source_path: chapters/draft/0652.md
+last_source_sha: dd4d8a32ee76e14104fde30ce6830fb699e99e3f
+last_review_path: reader_reviews/0652_dd4d8a32.md
 last_reviewed_at: "2026-11-10"
-reviewer_mode: combined_audit_independent_new_sha_pass_a_then_pass_b_predecessor_fact_delta_verified
+reviewer_mode: combined_audit_independent_new_sha_pass_a_then_pass_b_predecessor_exact_ready_verified
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 650
-depends_on_source_sha: efe399e168b616b854ff5a712c5a6ed2c7433077
-dependency_status: verified_ready_compatible_fact_delta
-predecessor_current_source_sha: efe399e168b616b854ff5a712c5a6ed2c7433077
+depends_on_chapter: 651
+depends_on_source_sha: d51a4fdb9a26938a17fbeb2d28dbd861c0384d85
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: d51a4fdb9a26938a17fbeb2d28dbd861c0384d85
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7804,4 +7804,23 @@ chapter_651_arc054_review:
   dependency_status: verified_ready_compatible_fact_delta
   stage_a_used: 1
   body_revisions: 0
+  structural_gate: exact_candidate_ci_required_before_main
+
+chapter_652_arc054_review:
+  chapter: 652
+  original_source_sha: "d477077f5a04c91649abad45b2df8766fe6c0305"
+  initial_review_path: reader_reviews/0652_d477077f.md
+  initial_counts: {blocker: 0, major: 3, minor: 2}
+  stage_a_fix: "day514_relative_date_nephew_new_drawing_day516_today_response"
+  source_path: chapters/draft/0652.md
+  source_sha: "dd4d8a32ee76e14104fde30ce6830fb699e99e3f"
+  review_path: reader_reviews/0652_dd4d8a32.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: independent_new_sha_pass_a_then_pass_b
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "d51a4fdb9a26938a17fbeb2d28dbd861c0384d85"
+  dependency_status: verified_exact_ready_blob
+  stage_a_used: 1
+  body_revisions: 3
   structural_gate: exact_candidate_ci_required_before_main
