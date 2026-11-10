@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 668
+title: "钱退回来了，旧回执还差一个人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "77b874efb8ce050b3ac79f6bc7dfbe313eea90a2"
+reader_review: "reader_reviews/0668_77b874ef.md"
+depends_on_chapter: 667
+depends_on_source_sha: "7be674fee6d504f6dccfc963ac39072d427d3728"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day531 08:27—Day532 07:06"
+summary: >-
+  Day531母亲泊灯同一首层房物业Day53011:27真付新两晚到Day532中午且11:40房卡实开两箱原位，Day52913:29本人原垫268元一晚尚待报销。今费用系统误按相同住客商户将不同付款人及住期归为重复，09:14母亲追问10:02责任岗实际分项复核16:17核销仅批准、16:58原个人账户真实收到268元，仍不冲抵物业两晚款及历史押金；Day532午后新房款仍无。袁10:12另申本户旧个人收讫核问原页11:06受理13:07批准14:18双档案员依法真阅：门卫代收后当年确有个人收讫凭据补核要求，本册后续未补入本人签认且编号空着，14:56双签归位；不能断定母亲实际从未收到旧信或其他渠道没有凭据。15:36母亲只获有权限项解释，下午去妹妹家与外甥四船码头窗口实际接船，旧补丁和红纸垫、旧菜包亡夫歪针脚及女儿内蓝布保留，晓漫下班到泊灯共同分蓝白夹保存本次费用和有权旧档说明；20:44母亲亲回拨夜班Day53207:06交班。旧联系号码最初提供人、旧年本人真收、历史押金所有渠道实际退款及二次拟再办同链未证，仁合里四楼旧12cm观察口和亡夫板独封整屋禁返住，五楼有限复水、公区漏源及2019F003F008M004M005无跨源新证。
+meaningful_state_changes:
+  - "Day53116:58本人Day529垫资268元实退到原账户，且物业Day530新两晚住房款仍真付到Day532午，下一期未付。"
+  - "旧个人回执后续核问附页获本户限权真阅，当年真实追补本人收讫凭据但本册未补，不能定历史是否本人实收。"
+  - "母亲带四纸船码头与外甥新窗口互动，实际由妹妹在窗口接船。"
+knowledge_updates:
+  - "母亲15:36才知本人旧收讫补核本册未补而非历史绝未收信；16:58才知本次住宿自垫268元真实入账。"
+  - "袁只依法看本户原页，晓漫仅看母亲允许分享部分，夜班20:44母亲回拨后才有源获知。"
+relationship_updates:
+  - "晓漫下班到泊灯帮母亲分档，尊重母亲旧年本人签认权；妹妹与外甥纸船窗口互动，亡夫旧包针脚不被女儿新补布覆盖。"
+foreshadowing_updates:
+  - "F014旧本人收讫补核确有原页，但本册未补到本人签认，不推历史所有渠道未收信或旧押金未退款。"
+ending_state: "Day53207:06泊灯续住已付仅到当日中午，两箱房卡原处，个人268元Day53116:58已实退；旧通知本册无补入本人收讫但事实仍未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "77b874efb8ce050b3ac79f6bc7dfbe313eea90a2", final_draft_sha: "77b874efb8ce050b3ac79f6bc7dfbe313eea90a2", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2950
