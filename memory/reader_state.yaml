@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 659
-last_reviewed_title: "补源任务有人领，旧信仍要找凭据"
-last_source_path: chapters/draft/0659.md
-last_source_sha: 74862874a4d53ae5abbd40a365e583189156d822
-last_review_path: reader_reviews/0659_74862874.md
+last_reviewed_chapter: 660
+last_reviewed_title: "回函送到了，旧号码仍没有来处"
+last_source_path: chapters/draft/0660.md
+last_source_sha: 574ba9e77ed1f99ed457fda95eb634a0f504c918
+last_review_path: reader_reviews/0660_574ba9e7.md
 last_reviewed_at: "2026-11-10"
 reviewer_mode: combined_audit_independent_new_blob_pass_a_then_pass_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 658
-depends_on_source_sha: 3513b6d40317b2e6088582270ae081ea8eaecb95
-dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: 3513b6d40317b2e6088582270ae081ea8eaecb95
+depends_on_chapter: 659
+depends_on_source_sha: c682b063926e755e0f6b79ce7142b1aacd54a809
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: c682b063926e755e0f6b79ce7142b1aacd54a809
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7935,4 +7935,20 @@ chapter_659_arc054_review:
   dependency_status: verified_ready_compatible_body
   reader_gate: pass
   qa_gate: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+chapter_660_arc054_review:
+  chapter: 660
+  original_source_sha: "28d7dc93c5b80a6334e374bff17f74dd2b6e909d"
+  initial_review: "reader_reviews/0660_28d7dc93.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "574ba9e77ed1f99ed457fda95eb634a0f504c918"
+  final_review: "reader_reviews/0660_574ba9e7.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 1
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "c682b063926e755e0f6b79ce7142b1aacd54a809"
+  predecessor_factual_delta: exact_ready_blob_no_delta
   structural_gate: exact_candidate_ci_required_before_main

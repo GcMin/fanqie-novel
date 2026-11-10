@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 659
-current_stage: chapter659_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0659.md
-current_source_sha: 74862874a4d53ae5abbd40a365e583189156d822
-current_review_path: reader_reviews/0659_74862874.md
+current_chapter: 660
+current_stage: chapter660_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0660.md
+current_source_sha: 574ba9e77ed1f99ed457fda95eb634a0f504c918
+current_review_path: reader_reviews/0660_574ba9e7.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter659_stage_a_rebind_658_ready_new_sha_reader_pass_content_qa_pass
+last_action: chapter660_stage_a_relative_day_fix_new_sha_reader_qa_pass
 last_action_date: "2026-11-10"
 last_error: null
-last_diff_summary: "658原草稿与正式ready标题正文完全相同只交付元数据变化;659只重绑正式658Ready SHA正文0字;Reader0_1_2_to_0_0_2;原承办资料核对岗位实际领办复核暂停本件外联待来源;母女共补菜包提手"
+last_diff_summary: "第660章初稿Day523误称昨天承诺外甥带卡纸，已改为前天Day521折船时的打算；原SHA 28d7dc93c5b80a6334e374bff17f74dd2b6e909d Reader0_1_2，修订SHA 574ba9e77ed1f99ed457fda95eb634a0f504c918新Reader0_0_2，独立QA通过，母亲Day523新增真住房款到Day526午并真核旧函调发收回函。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 74862874a4d53ae5abbd40a365e583189156d822
+current_review_source_sha: 574ba9e77ed1f99ed457fda95eb634a0f504c918
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7025,4 +7025,22 @@ chapter_659_arc054_verified:
   predecessor_draft_sha: "7272759c61839d1bcd10d48d04e1a55fd792e332"
   predecessor_ready_sha: "3513b6d40317b2e6088582270ae081ea8eaecb95"
   predecessor_factual_delta: title_body_exact_same_metadata_only
+  structural_gate: exact_candidate_ci_required_before_main
+
+chapter_660_arc054_verified:
+  chapter: 660
+  original_source_sha: "28d7dc93c5b80a6334e374bff17f74dd2b6e909d"
+  source_sha: "574ba9e77ed1f99ed457fda95eb634a0f504c918"
+  initial_review: "reader_reviews/0660_28d7dc93.md"
+  final_review: "reader_reviews/0660_574ba9e7.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  revision_reason: "correct_day522_vs_day521_child_paper_boat_promise"
+  content_qa: pass
+  predecessor_ready_sha: "c682b063926e755e0f6b79ce7142b1aacd54a809"
+  predecessor_factual_delta: exact_ready_blob_no_delta
   structural_gate: exact_candidate_ci_required_before_main

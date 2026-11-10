@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 660
+title: "回函送到了，旧号码仍没有来处"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "28d7dc93c5b80a6334e374bff17f74dd2b6e909d"
+source_draft_sha: "574ba9e77ed1f99ed457fda95eb634a0f504c918"
+initial_reader_review: "reader_reviews/0660_28d7dc93.md"
+reader_review: "reader_reviews/0660_574ba9e7.md"
+depends_on_chapter: 659
+depends_on_source_sha: "c682b063926e755e0f6b79ce7142b1aacd54a809"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day523 08:18—Day524 07:06"
+summary: >-
+  Day523母亲在松澜首层用两瓶水试女儿Day522所补旧菜包提手，保留亡夫旧歪针脚，用外甥Day521红纸垫稳蓝纸船，前天探亲的念头延伸为今买硬卡纸准备码头。松澜Day520商户已收三晚至Day524午双卡可开两箱未动；物业仅发内部“续住款已批准”截图不算新款，母亲10:58真核同房号Day524午后仍未有实收，11:27松澜商户新真收两晚延至Day526午，11:41两张卡重新编码各自真开，只签限项住房确认，不把仁合里房赔或旧押金列为结清。袁09:14为本件原始来源函调独立申发出/岗位收文/回函结论，09:46受理13:07获限定许可，14:12双档案岗真核该函有发文序号、对端岗位收文签记、同号回函。回函只证当年维护岗保存本件旧联系方式为批量转录字段，该岗不能提供逐户本人确认原件，另指更早原数据形成单位保管目录；不证明号码必为假、本人从未留号、别的单位无原件、历史全部通知未发或旧押金已退/未退。14:50摘录双签，15:24袁纠正“确认非本人提供”的越证记录；此前系统粗分类纠错仍仅受理，二次拟再办财务退补三项与联系函调独立。16:22母亲本人当前渠道真收到本次限项回告，不追认旧年本人签收；晓漫晚间问修包，母亲给外甥备码头纸。20:42母亲本人回拨夜班后夏宁周衡梁策才登记限项事实；Day52407:06交班。四楼12cm旧观察口亡夫饰板独号封存、单照明有限其余受水电路隔离整屋禁返住，五楼有限复水、公区白痕灰细侧接远端漏源及2019旧卷第73页散页袋、F003/F008/M004/M005无新跨源证据。
+meaningful_state_changes:
+  - "Day52314:12合法核查原始来源函调真实发出、岗位接收和同号回函，维护岗位仅存批量迁移清单而不能据此证明号码由本人原始提供，新增更早形成单位目录待另申。"
+  - "Day52311:27商户原首层房新增两晚实际到账至Day526中午、11:41两张房卡分别真实开门；从物业审批承诺推进为可核支付与住房保障。"
+  - "母亲亲自用已修复旧菜包出门买卡纸，保留父亲歪针脚与外甥蓝船红纸鞋，让家庭手工继续进展。"
+knowledge_updates:
+  - "母亲16:22在当代本人渠道确实收到今日函调范围回告，仅知本维护岗位缺少逐户原始确认；不知更早源单位内文、历史本人是否实收通知或旧押金真正退款。"
+  - "袁经办和双档案员只知有权限的发收回函与下一形成单位目录，不能擅自跨单位查逐户原件；夜班须在20:42母亲本人回拨后才得有限结果。"
+relationship_updates:
+  - "母亲用母女合缝旧包出门购物，自行制作外甥船码头，晓漫晚间关心旧提手保留亡夫歪针脚；家庭协作延续而非代办旧年签收。"
+foreshadowing_updates:
+  - "F014旧联系原始来源函调从目录推进为有发文、岗位签收与限定回复；最早形成单位逐户来源仍待合法另申，旧年本人获信与各渠道实际退款未证。"
+ending_state: "Day52407:06松澜首层同房号真付两晚续至Day526午、两张卡真实可开两箱未搬；函调发收回已证但旧号码最初来源、本人口头/书面原始确认、历史通知与旧押金全渠道款项仍待核；四楼禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "28d7dc93c5b80a6334e374bff17f74dd2b6e909d", final_draft_sha: "574ba9e77ed1f99ed457fda95eb634a0f504c918", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3232
