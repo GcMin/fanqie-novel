@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 653
-last_reviewed_title: "房间明天有人订，旧档今天开了一页"
-last_source_path: chapters/draft/0653.md
-last_source_sha: fea8fbe489de9415a2a8847a0da183eba782b77d
-last_review_path: reader_reviews/0653_fea8fbe4.md
+last_reviewed_chapter: 654
+last_reviewed_title: "电梯到了门内，路还没走通"
+last_source_path: chapters/draft/0654.md
+last_source_sha: cc5f2b16a4cfb5482eb2171d8df5e1f85658c36e
+last_review_path: reader_reviews/0654_cc5f2b16.md
 last_reviewed_at: "2026-11-10"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b_predecessor_exact_ready_verified
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 652
-depends_on_source_sha: 6c9a747bc17906da8f1aa2a1b9c847cf71a227fb
+depends_on_chapter: 653
+depends_on_source_sha: 1555e963fdc30808cb13ce1a55f6d93ffebd461d
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 6c9a747bc17906da8f1aa2a1b9c847cf71a227fb
+predecessor_current_source_sha: 1555e963fdc30808cb13ce1a55f6d93ffebd461d
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7842,3 +7842,22 @@ chapter_653_arc054_review:
   predecessor_factual_delta: exact_ready_blob_no_delta
   body_revisions: 0
   structural_gate: exact_candidate_ci_required_before_main
+
+chapter_654_arc054_review:
+  chapter: 654
+  source_path: chapters/draft/0654.md
+  source_sha: "cc5f2b16a4cfb5482eb2171d8df5e1f85658c36e"
+  review_path: "reader_reviews/0654_cc5f2b16.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_pass_b_exact_ready_dependency
+  pass_a: "仅654正文/651—653正式ready正文/644—653摘要及文风"
+  pass_b: "后核硬Canon/ARC054/人物知识关系世界时间线F014与档案权限"
+  counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "1555e963fdc30808cb13ce1a55f6d93ffebd461d"
+  dependency_status: verified_exact_ready_blob
+  predecessor_factual_delta: exact_ready_blob_no_delta
+  body_revisions: 0
+  structural_gate: exact_candidate_CI_required_before_main

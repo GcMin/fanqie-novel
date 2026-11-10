@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 654
+title: "电梯到了门内，路还没走通"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "cc5f2b16a4cfb5482eb2171d8df5e1f85658c36e"
+source_draft_sha: "cc5f2b16a4cfb5482eb2171d8df5e1f85658c36e"
+reader_review: "reader_reviews/0654_cc5f2b16.md"
+depends_on_chapter: 653
+depends_on_source_sha: "1555e963fdc30808cb13ce1a55f6d93ffebd461d"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day517 08:52—Day518 07:06"
+summary: >-
+  Day517母亲在栖园首层双床仍真付至当日12:00、两箱在房双卡有效，但房午后已有他人预订；09:15按前章预约看有电梯候选，却见正门两级台阶，侧门需过卸货车且夜间出入未明，09:48母亲拒误写已安排，记未付款未入住。10:23回栖园，11:49两箱真寄存、11:56旧双卡注销退房，四楼原居仍禁返住。12:46实地看松澜旅舍首层新候选，平地公共入口、前台全天管理、低挡水沿和两箱留道可接受，13:19有条件接受；13:47物业发四晚付款指令不等于商户真收，14:09松澜才真正收对应房号四晚房费至Day521中午、14:21两新卡逐张真开。母亲14:37持栖园寄存凭条领两箱、15:14松澜房内两件真交接，拒将旧四楼受潮损失/历史押金写结清，仅签今日住房与行李。旧押金独立联系目录Day51611:04申请待批，Day51710:06仅范围确认15:16才获本户有限查阅，16:02双档案员真见一笔当年原承办岗向街道收发岗内部转送“联系资料核问件”与后者岗位收件签记，16:26双签归册，17:08母亲当代渠道真得限项回告；不能据岗位收文说历史本人收到、件内具体内容/后续投递、原派办和二次拟再办业务同链及历史各渠道旧押金实际银行款。亡夫旧菜包歪针脚与栖园原船黑猫画随母亲到松澜，晓漫晚间来探带外甥新猫脚印纸条，不代母亲签旧账；20:45母亲本人回拨夜间中心，Day51807:06交班。四楼旧12cm口及旧饰板独封、单照明有限其余受水电隔离整屋禁返住，五楼限复水，公区白痕灰侧接漏源及2019 F003原73页旧袋现址和F008/M004/M005无新跨源结果。
+meaningful_state_changes:
+  - "Day51709:48第一候选因安全出入不符被真实排除；11:56栖园双卡注销，14:09松澜商户真收四晚到Day521中午、14:21双卡逐开、15:14双箱真入首层房。"
+  - "Day51715:16旧收发目录限本户许可、16:02新核另一笔内部岗位转送及街道收发岗签收，历史个人实际获知、钱款去向仍未证。"
+knowledge_updates:
+  - "母亲只在17:08现时渠道知街道收发岗位曾接一笔联系件，不代表她历史本人收讫；袁经办按范围见摘录，不获得全文或所有渠道退款。"
+  - "夜班中心仅20:45本人回拨后登记住房真款与限项旧登记，女儿只能从母亲得现行安置和少量有源事实。"
+relationship_updates:
+  - "母亲保留新住处和旧押金签名主动权、女儿下班后实地帮看新房并愿下次协助核路，不代为旧账签字；外甥原画带去新房。"
+foreshadowing_updates:
+  - "F014新增街道收发岗位内部收文签记，未证历史当事人实际通知、旧号同链或银行退款；既有旧门卫室代收独立保留。"
+ending_state: "Day51807:06松澜首层已真住一夜，两件箱子可核、双卡实开，商户四晚真款至Day521中午；四楼禁返住，旧通知本人实际送达/旧押金全渠道最终退款未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "cc5f2b16a4cfb5482eb2171d8df5e1f85658c36e", final_draft_sha: "cc5f2b16a4cfb5482eb2171d8df5e1f85658c36e", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3705
