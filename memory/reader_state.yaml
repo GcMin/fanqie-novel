@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 664
-last_reviewed_title: "原始簿上写着代接，签名却空了一栏"
-last_source_path: chapters/draft/0664.md
-last_source_sha: ff14e37f20cc05ad2a39b1aee358fd7f0b6f0a62
-last_review_path: reader_reviews/0664_ff14e37f.md
+last_reviewed_chapter: 665
+last_reviewed_title: "纸上交接分了两栏，明天住哪还没定"
+last_source_path: chapters/draft/0665.md
+last_source_sha: 32778884b17af5ce978cadc69ddbf08ae2a235cd
+last_review_path: reader_reviews/0665_32778884.md
 last_reviewed_at: "2026-11-10"
 reviewer_mode: combined_audit_independent_new_blob_pass_a_then_pass_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 663
-depends_on_source_sha: e74b9b2a9551a716c235b6a8fc12ffd6df7268b2
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: e74b9b2a9551a716c235b6a8fc12ffd6df7268b2
+depends_on_chapter: 664
+depends_on_source_sha: 2812fee7acae4afcfcaf0ee803a3bef8e7ce0685
+dependency_status: verified_ready_compatible_body
+predecessor_current_source_sha: 2812fee7acae4afcfcaf0ee803a3bef8e7ce0685
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8025,6 +8025,27 @@ combined_audit_chapter_664_20261110:
   predecessor_ready_sha: "e74b9b2a9551a716c235b6a8fc12ffd6df7268b2"
   predecessor_factual_delta: exact_ready_blob_no_delta
   dependency_status: verified_exact_ready_blob
+  reader_gate: pass
+  qa_gate: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_665_20261110:
+  chapter: 665
+  original_source_sha: "89b5c82a4c4a186268bc5116d93dfce636599645"
+  initial_review: reader_reviews/0665_89b5c82a.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "32778884b17af5ce978cadc69ddbf08ae2a235cd"
+  final_review: reader_reviews/0665_32778884.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_new_blob_pass_a_then_pass_b
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_draft_sha: "ff14e37f20cc05ad2a39b1aee358fd7f0b6f0a62"
+  predecessor_ready_sha: "2812fee7acae4afcfcaf0ee803a3bef8e7ce0685"
+  predecessor_factual_delta: title_body_exact_same_metadata_only
+  dependency_status: verified_ready_compatible_body
   reader_gate: pass
   qa_gate: pass
   structural_gate: exact_candidate_ci_required_before_main

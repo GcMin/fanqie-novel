@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 664
-current_stage: chapter664_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0664.md
-current_source_sha: ff14e37f20cc05ad2a39b1aee358fd7f0b6f0a62
-current_review_path: reader_reviews/0664_ff14e37f.md
+current_chapter: 665
+current_stage: chapter665_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0665.md
+current_source_sha: 32778884b17af5ce978cadc69ddbf08ae2a235cd
+current_review_path: reader_reviews/0665_32778884.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter664_stage_a_greeting_fix_and_new_sha_reader_qa_pass
+last_action: chapter665_stage_a_metadata_rebind_and_new_sha_reader_qa_pass
 last_action_date: "2026-11-10"
 last_error: null
-last_diff_summary: "第664章StageA仅把外甥对母亲称谓姨婆恢复外婆，新ff14e37f独立Reader0/0/2与独立QA完成；精确候选CI成功后方可ready。"
+last_diff_summary: "第665章原89b5c82a仅临时依赖第664章草稿，已逐字核664正式Ready同标题同正文仅元数据变更，StageA只重绑本章FrontMatter/详纲至2812fee7；新32778884 Reader0/0/2独立QA通过，待精确候选CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: ff14e37f20cc05ad2a39b1aee358fd7f0b6f0a62
+current_review_source_sha: 32778884b17af5ce978cadc69ddbf08ae2a235cd
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7107,4 +7107,23 @@ combined_audit_chapter_664_20261110:
   content_qa: pass
   predecessor_ready_sha: "e74b9b2a9551a716c235b6a8fc12ffd6df7268b2"
   predecessor_factual_delta: exact_ready_blob_no_delta
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_665_20261110:
+  chapter: 665
+  original_source_sha: "89b5c82a4c4a186268bc5116d93dfce636599645"
+  initial_review: reader_reviews/0665_89b5c82a.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "32778884b17af5ce978cadc69ddbf08ae2a235cd"
+  final_review: reader_reviews/0665_32778884.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  revision_reason: rebind_664_ready_sha_after_title_body_identity_verification
+  content_qa: pass
+  predecessor_provisional_sha: "ff14e37f20cc05ad2a39b1aee358fd7f0b6f0a62"
+  predecessor_ready_sha: "2812fee7acae4afcfcaf0ee803a3bef8e7ce0685"
+  predecessor_factual_delta: title_body_exact_same_metadata_only
   structural_gate: exact_candidate_ci_required_before_main
