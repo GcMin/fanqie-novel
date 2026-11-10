@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 655
-last_reviewed_title: "街道签了收，下一站不是她家"
-last_source_path: chapters/draft/0655.md
-last_source_sha: 56aa5a820c7b9fb2e971e7344060b7738e3c89fe
-last_review_path: reader_reviews/0655_56aa5a82.md
+last_reviewed_chapter: 656
+last_reviewed_title: "核对页写着退请，签名栏仍空着"
+last_source_path: chapters/draft/0656.md
+last_source_sha: 5ce59df5650f4ca9c80c1b78541a25eadc81bbfe
+last_review_path: reader_reviews/0656_5ce59df5.md
 last_reviewed_at: "2026-11-10"
 reviewer_mode: combined_audit_new_blob_independent_pass_a_then_pass_b_exact_ready_dependency
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 654
-depends_on_source_sha: ea3fd357f2acf3e560a6d8dfe4e502d77c7188e1
+depends_on_chapter: 655
+depends_on_source_sha: 3de810384ad70d70c12aadc56c0528b9b67b8e83
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: ea3fd357f2acf3e560a6d8dfe4e502d77c7188e1
+predecessor_current_source_sha: 3de810384ad70d70c12aadc56c0528b9b67b8e83
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -7881,3 +7881,21 @@ chapter_655_arc054_review:
   stage_a_used: 1
   body_revisions: 2
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_656_20261110:
+  chapter: 656
+  title: "核对页写着退请，签名栏仍空着"
+  original_source_sha: "c75e3837b961b035f7dd985f5dd60a4c0b7a359e"
+  initial_reader_review: "reader_reviews/0656_c75e3837.md"
+  stage_a: "one opening paper-drawing location fix"
+  source_sha: "5ce59df5650f4ca9c80c1b78541a25eadc81bbfe"
+  final_reader_review: "reader_reviews/0656_5ce59df5.md"
+  reviewer_mode: combined_audit_new_blob_independent_pass_a_then_pass_b_exact_ready_dependency
+  reader_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  depends_on_chapter: 655
+  depends_on_source_sha: "3de810384ad70d70c12aadc56c0528b9b67b8e83"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required
