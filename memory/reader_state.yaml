@@ -8099,3 +8099,25 @@ combined_audit_chapter_668_20261111:
   stage_a_used: 0
   body_revisions: 0
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_669_20261111:
+  chapter: 669
+  title: "三晚房费进了账，旧表还写着已联系"
+  original_source_sha: "39b426384c25168f1bb053fd958fc29f72279fec"
+  initial_review: reader_reviews/0669_39b42638.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "97397eaa639e6a315e14554e1edb6b49979a4c8b"
+  final_review: reader_reviews/0669_97397eaa.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_new_blob_pass_a_then_pass_b
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_provisional_sha: "77b874efb8ce050b3ac79f6bc7dfbe313eea90a2"
+  predecessor_ready_sha: "d68707522b84305fa497a1021d97e2be9037bcb5"
+  predecessor_factual_delta: title_body_exact_same_metadata_only
+  dependency_status: verified_ready_compatible_body
+  stage_a_used: 1
+  body_revisions: 0
+  structural_gate: exact_candidate_ci_required_before_main
