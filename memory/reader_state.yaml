@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 664
-last_reviewed_title: "原始簿上写着代接，签名却空了一栏"
-last_source_path: chapters/draft/0664.md
-last_source_sha: ff14e37f20cc05ad2a39b1aee358fd7f0b6f0a62
-last_review_path: reader_reviews/0664_ff14e37f.md
+last_reviewed_chapter: 665
+last_reviewed_title: "纸上交接分了两栏，明天住哪还没定"
+last_source_path: chapters/draft/0665.md
+last_source_sha: 32778884b17af5ce978cadc69ddbf08ae2a235cd
+last_review_path: reader_reviews/0665_32778884.md
 last_reviewed_at: "2026-11-10"
-reviewer_mode: combined_audit_independent_new_blob_pass_a_then_pass_b
+reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 663
-depends_on_source_sha: e74b9b2a9551a716c235b6a8fc12ffd6df7268b2
+depends_on_chapter: 664
+depends_on_source_sha: 2812fee7acae4afcfcaf0ee803a3bef8e7ce0685
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: e74b9b2a9551a716c235b6a8fc12ffd6df7268b2
+predecessor_current_source_sha: 2812fee7acae4afcfcaf0ee803a3bef8e7ce0685
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8028,3 +8028,20 @@ combined_audit_chapter_664_20261110:
   reader_gate: pass
   qa_gate: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_665_20261110:
+  chapter: 665
+  title: "纸上交接分了两栏，明天住哪还没定"
+  source_sha: "32778884b17af5ce978cadc69ddbf08ae2a235cd"
+  original_sha: "89b5c82a4c4a186268bc5116d93dfce636599645"
+  review: reader_reviews/0665_32778884.md
+  original_review: reader_reviews/0665_89b5c82a.md
+  reviewer_mode: combined_audit_new_sha_independent_pass_a_then_b
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  content_qa: pass
+  predecessor_ready_blob: "2812fee7acae4afcfcaf0ee803a3bef8e7ce0685"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required

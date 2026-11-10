@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 664
-current_stage: chapter664_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0664.md
-current_source_sha: ff14e37f20cc05ad2a39b1aee358fd7f0b6f0a62
-current_review_path: reader_reviews/0664_ff14e37f.md
+current_chapter: 665
+current_stage: chapter665_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0665.md
+current_source_sha: 32778884b17af5ce978cadc69ddbf08ae2a235cd
+current_review_path: reader_reviews/0665_32778884.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter664_stage_a_greeting_fix_and_new_sha_reader_qa_pass
+last_action: chapter665_stage_a_metadata_rebind_new_sha_reader_qa_pass
 last_action_date: "2026-11-10"
 last_error: null
-last_diff_summary: "第664章StageA仅把外甥对母亲称谓姨婆恢复外婆，新ff14e37f独立Reader0/0/2与独立QA完成；精确候选CI成功后方可ready。"
+last_diff_summary: "第665章StageA仅重绑第664章Ready依赖，无正文改动；新SHA独立Reader双遍0/0/2、独立内容QA PASS，精确候选CI验证后方可ready。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: ff14e37f20cc05ad2a39b1aee358fd7f0b6f0a62
+current_review_source_sha: 32778884b17af5ce978cadc69ddbf08ae2a235cd
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:

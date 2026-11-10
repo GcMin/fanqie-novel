@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 665
+title: "纸上交接分了两栏，明天住哪还没定"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "89b5c82a4c4a186268bc5116d93dfce636599645"
+source_draft_sha: "32778884b17af5ce978cadc69ddbf08ae2a235cd"
+initial_reader_review: reader_reviews/0665_89b5c82a.md
+reader_review: reader_reviews/0665_32778884.md
+depends_on_chapter: 664
+depends_on_source_sha: "2812fee7acae4afcfcaf0ee803a3bef8e7ce0685"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day52808:12—Day52907:04"
+summary: >-
+  Day528松澜同一首层原房Day52515:26商户真付到Day529中午、两房卡可开双箱原位，Day52808:12前台实告原房Day529午后已被他客预订。袁10:06另申请本户旧清册交接附件真受理13:27有限许可14:11双保管员查左栏站点联络转接汇总真实岗位间移交签记，右栏仅个人通知回执另册保管索引，历史本人签收未证，原号码最初提供者及旧押金各渠道最终实退仍未知。本户现行事项旧号候选Day527已排除，旧字段全局误显示尚未更正。母亲15:16实看备选房，床品车占道、夜间侧门不供自行出入，商户未真收新款也没换房卡，拒签“已完成安置”；16:03物业仅真收查看意见并约Day52909:00具名可执行安全方案。母亲16:52现时本人渠道真收限项档案说明，17:07“岗位交接非本人签收”的当代异议真实受理，旧档没有被改。晓漫下班到松澜陪核房态，妹妹家外甥为四船纸码头添仓库，旧蓝船红垫和菜包两代针脚延续。母亲20:48本人回拨中心后夜班才得知，Day52907:04交班。四楼旧12cm口亡夫饰板独封、单照明有限其余受水电路隔离整屋禁返住，五楼有限复水公区漏源未证；2019F003/F008/M004/M005不升级。
+meaningful_state_changes:
+  - "Day52814:11有许可真阅本户旧清册岗位移交而个人回执仅另册索引。"
+  - "Day52817:07母亲当代限项异议正式受理，不改历史原件。"
+  - "原房Day529中午到期且午后另订，备选房没有真付款和安全夜路，物业次晨09:00具名落实期限。"
+knowledge_updates:
+  - "母亲16:52只知本户旧资料岗位交接及待查的个人回执目录，不知历史本人收信/号码最初提供者或旧押金最终款；次日房源未落实。"
+  - "袁与双保管员仅知合法限权内本户内容；夜班人员20:48本人回拨后知当代有限事实。"
+relationship_updates:
+  - "晓漫下班陪母亲核住期和资料，但不能替物业安置或代母亲历史签认；妹妹外甥继续折船活动。"
+foreshadowing_updates:
+  - "F014旧清册岗位间交接已证，历史个人回执另册未阅；旧年真人得信、旧号最初来源、旧押金各渠道最终真退仍待核。"
+ending_state: "Day52907:04交班；原房真付至中午且午后他客预订，备选房没有商户实收及夜间通路确认，物业09:00必须具名可执行答复；四楼禁返住、旧个人回执专册待查。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "89b5c82a4c4a186268bc5116d93dfce636599645", final_draft_sha: "32778884b17af5ce978cadc69ddbf08ae2a235cd", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3343
