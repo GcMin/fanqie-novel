@@ -8137,3 +8137,25 @@ combined_audit_chapter_670_20261111:
   predecessor_factual_delta: exact_ready_blob_no_delta
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_671_20261111:
+  chapter: 671
+  title: "楼道的水止住了，四楼的门还封着"
+  original_source_sha: "ed71cfe5a729c17edc0a34dbf3311647b6a8b54e"
+  initial_review: "reader_reviews/0671_ed71cfe5.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "58dcc61334867c8e78523fe23de4423eee75f968"
+  final_review: "reader_reviews/0671_58dcc613.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 0
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_provisional_sha: "48296f8a51fb78ee300f9ed351d01466154a4424"
+  predecessor_ready_sha: "4512e10b5fcf38054d11e9a4574c9ecf8d268dc3"
+  predecessor_factual_delta: title_body_exact_same_metadata_only
+  dependency_status: verified_ready_compatible_body
+  structural_gate: exact_candidate_ci_required_before_main

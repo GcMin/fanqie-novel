@@ -6,9 +6,9 @@ volume: 6
 arc: "ARC-054"
 status: planned
 depends_on_chapter: 670
-depends_on_source_sha: "48296f8a51fb78ee300f9ed351d01466154a4424"
-dependency_status: provisional
-predecessor_path: chapters/draft/0670.md
+depends_on_source_sha: "4512e10b5fcf38054d11e9a4574c9ecf8d268dc3"
+dependency_status: verified_ready_compatible_body
+predecessor_path: chapters/ready/0670.md
 target_effective_chars: 3092
 ---
 
@@ -35,5 +35,5 @@ target_effective_chars: 3092
 ## Continuity Precheck
 - 实时读取GitHub main AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md；Bible premise/main_outline/world/style、周衡人物卡、第五卷现存大纲、outlines/arcs/arc_current.md（该文件滞留ARC-044，实际最新ARC-054以memory/current_arc及最近ready章节为准）、plans/chapter_plan.csv、人物/关系/知识/世界状态、F014和近期时间线、0660—0669十章摘要及0666—0670最近五章全文；不读历史reader_reviews。
 - 三目录实查published最大0159、ready最大0669、draft最大0670；0153《人没回来，表先签完了》位于published。只可新建以前不存在的0671。
-- 前章为`chapters/draft/0670.md`，完整Git Blob `48296f8a51fb78ee300f9ed351d01466154a4424`，dependency_status `provisional`。670尚待审，仅作临时连续性来源，未升格Canon，独立Audit需按最终670事实核后章。 当前main基准 `d34a47813591a9a5aa8680f6d6744b09317e9746`。
+- 前章原为`chapters/draft/0670.md`，旧暂用Blob `48296f8a51fb78ee300f9ed351d01466154a4424`；现第670章正式Ready Blob `4512e10b5fcf38054d11e9a4574c9ecf8d268dc3`，实际逐字比较原稿和正式Ready的标题及小说正文完全相同，仅前章Front Matter交付状态不同，无任何故事事实变化；因此按正式Ready绑定依赖，不是未经确认的临时Canon。
 - 只运行Planner、Continuity Precheck、Writer，不执行Editor/Reader/Revision/QA/Memory/发布，不改现有文件；使用两blob、基于main树的一棵树、单一commit及expected_sha非强制更新。

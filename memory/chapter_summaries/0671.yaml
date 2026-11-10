@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 671
+title: "楼道的水止住了，四楼的门还封着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "ed71cfe5a729c17edc0a34dbf3311647b6a8b54e"
+source_draft_sha: "58dcc61334867c8e78523fe23de4423eee75f968"
+initial_reader_review: "reader_reviews/0671_ed71cfe5.md"
+reader_review: "reader_reviews/0671_58dcc613.md"
+depends_on_chapter: 670
+depends_on_source_sha: "4512e10b5fcf38054d11e9a4574c9ecf8d268dc3"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day534 08:21—Day535 07:07"
+summary: >-
+  Day534母亲仍泊灯原首层房，Day532物业商户真付三晚至Day535中午新卡真开、两箱房内，Day529本人268元Day53116:58已实退，今日无新住费。08:21物业告知仁合里五楼公共清洁间门口新湿印，不能与旧白痕或灰细侧接推为同源；周衡清晨交班时分开图片、发现时间和地址后按时离开，未越权拆封。母亲09:43只在合法公区隔离线外观察；11:12维修班经许可检查公用洗涤池下软管束箍和硬化接头，限本支路短试水真正见水滴后关水留证，扶正并换接头，再按同范围短试水及半小时复看无新增滴水，公区擦干铺防滑，局部新渗点得到实际处置，不代表四楼旧风险或楼宇所有水患消除。13:16物业原处置单误预填全部水患消除并可返住，母亲拒签；责任人真实保留旧版本改出本次限定维修处置单，四楼12cm旧口和亡夫旧饰板仍独封、客厅单照明有限其余受水电隔离整屋禁返住，五楼旧有限复水未扩大，旧白痕灰细侧接漏源未知。晓漫在工作间接母亲电话了解到局部修好，提出周末陪看更久可住的安全处所，不代物业提前付款；16:30物业两家长住候选仅询价没有安全实看和商户真实收款，Day53510:00仅约具名答复，母亲不预搬箱。母亲晚间与妹妹外甥视频折大船，自己旧广告纸折歪未丢，蓝船红纸垫与亡夫旧包针脚晓漫补布保留。20:50母亲本人回拨后夜班把本次新水局部处理子事项与四楼未解风险及住房付款要求分开，Day53507:07交班。F014旧联系人最初提供者、历史旧信本人真实收到否、旧押金全渠道实退与二次拟再办关联、2019旧卷原73页F003F008M004M005仍无跨源新证。
+meaningful_state_changes:
+  - "专业维修班对五楼公用清洁间新软管接头渗漏真实限项排查、修复、同范围复试与半小时后无新滴，不能扩大成四楼旧漏源确证。"
+  - "13:16物业误把单点维修填写整楼水患消除可返住，母亲拒签后旧单留源重开限定单，四楼继续整屋禁返住。"
+  - "16:30较长期住房两候选仅询价、无商户实付和实地安全核验，Day53510:00具名答复待兑现；外甥教母亲折大纸船，母亲保留折歪的作品。"
+knowledge_updates:
+  - "母亲只知本次公共清洁池支路新渗点专业处置及有限复试，无证据认为旧公区灰细侧接同源或四楼可返住；知明日住宿答复仅约定还没真款。"
+  - "周衡和夜班团队当日只接有源普通专业维修限项结果，本次子事项可核处置而原风险工单不随之关闭；与2019F003F008M004M005无新关系。"
+relationship_updates:
+  - "晓漫正常上班后与母亲约周末共同看较长、安全住所但不替物业付房费，外甥视频教母亲折大船，亡夫旧包外歪针脚与女儿内补布延续。"
+foreshadowing_updates:
+  - "F014旧已联系现代本户限定双页组合件仍有效但历史本人旧信收讫、原号码提供者与旧押金全渠道实际退款未证，不能以普通新水管事件跨源填补。"
+ending_state: "Day53507:07泊灯物业实付住房仅至今日中午房卡可开两箱未搬，10:00前住宿责任岗具名答复约定待兑现；五楼新清洁间局部软管修好且待复查，四楼独封整屋禁返住、旧公区漏源未证，旧档历史收信和押金全渠道末端退款仍未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ed71cfe5a729c17edc0a34dbf3311647b6a8b54e", final_draft_sha: "58dcc61334867c8e78523fe23de4423eee75f968", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3092
