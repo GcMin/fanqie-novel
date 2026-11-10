@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 662
-current_stage: chapter662_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0662.md
-current_source_sha: 43dd02e615d043e3943148d56e4949dbde9656c0
-current_review_path: reader_reviews/0662_43dd02e6.md
+current_chapter: 663
+current_stage: chapter663_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0663.md
+current_source_sha: 882e95b803c3ee877c4833c352910009cf23a869
+current_review_path: reader_reviews/0663_882e95b8.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter662_reader_qa_pass_no_revision
+last_action: chapter663_stage_a_metadata_rebind_and_new_sha_reader_qa_pass
 last_action_date: "2026-11-10"
 last_error: null
-last_diff_summary: "661前章660正式ready SHA精确匹配，修订后草稿已具备新SHA绑定0_0_2 Reader Pass A/B；本轮正文未修改，独立QA PASS，待精确候选CI核验。"
+last_diff_summary: "第663章元数据重绑第662章正式Ready 5116f5351216b8069751e8426503d780ce73f43e，原标题和小说正文逐字不变；新882e95b803c3ee877c4833c352910009cf23a869 Reader 0_0_2及独立QA通过；待精确候选CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 43dd02e615d043e3943148d56e4949dbde9656c0
+current_review_source_sha: 882e95b803c3ee877c4833c352910009cf23a869
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7071,4 +7071,22 @@ combined_audit_chapter_662_20261110:
   content_qa: pass
   predecessor_ready_sha: "277f77d690161406c42e1149f16bb3627c00bca4"
   predecessor_factual_delta: exact_ready_blob_no_delta
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_663_20261110:
+  chapter: 663
+  original_source_sha: "26d42191d4cf2efd5b83dbe08ad4d60b361c5768"
+  initial_review: reader_reviews/0663_26d42191.md
+  source_sha: "882e95b803c3ee877c4833c352910009cf23a869"
+  final_review: reader_reviews/0663_882e95b8.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  revision_reason: rebind_662_ready_metadata_title_body_identical
+  content_qa: pass
+  predecessor_ready_sha: "5116f5351216b8069751e8426503d780ce73f43e"
+  predecessor_factual_delta: title_body_same_metadata_only
   structural_gate: exact_candidate_ci_required_before_main
