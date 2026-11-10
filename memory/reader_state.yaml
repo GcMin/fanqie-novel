@@ -8081,3 +8081,21 @@ combined_audit_chapter_667_20261111:
   reader_gate: pass
   qa_gate: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_668_20261111:
+  chapter: 668
+  title: "钱退回来了，旧回执还差一个人"
+  source_path: chapters/draft/0668.md
+  source_sha: "77b874efb8ce050b3ac79f6bc7dfbe313eea90a2"
+  review_path: reader_reviews/0668_77b874ef.md
+  reviewer_mode: combined_audit_independent_pass_a_then_pass_b
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "7be674fee6d504f6dccfc963ac39072d427d3728"
+  dependency_status: verified_exact_ready_blob
+  stage_a_used: 0
+  body_revisions: 0
+  structural_gate: exact_candidate_ci_required_before_main
