@@ -13,3 +13,6 @@ Day513合法证的历史派办联系冲突退补，仅限一个派办没有形�
 
 ## Meaningful State Change QA：PASS
 新增真实栖园续两晚商户到账至Day517中午；另获限权联核证两旧号只是迁移显示汇集且原业务状态与原因不相互覆盖，16:13两份独立查询真正收件，明确后续责任、没有虚报旧退款完成。Memory/plan.csv更新须与精确候选结构CI共同验证后才可进入ready。
+
+## Reader Review路径精确一致性核对
+本次对初始及修订后四份 SHA 绑定 Reader Review 的 Front Matter `source_path` 逐一复核；文件目录使用四位章号（`chapters/draft/0650.md`、`chapters/draft/0651.md`），与真实原始及修订草稿路径匹配，报告内评审 SHA 和评审结论未变。此处为审核元数据修正，非小说正文修订；精确提交结构CI重新验证后生效。

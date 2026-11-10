@@ -18,3 +18,6 @@ Day513首次合法真核旧派办执行后的复核结果、两版旧联系来�
 
 ## Memory/结构放行
 以审定正文为准写入摘要、人物、知识、关系、世界、时间线、F014、ARC-054与plan.csv；现有ready计划行不可覆盖。此报告并非结构测试结果，必须精确候选Git提交对应CI记录`Checked commit`及SUCCESS后，才能将候选非强制推进main并据此正式放行。
+
+## Reader Review路径精确一致性核对
+本次对初始及修订后四份 SHA 绑定 Reader Review 的 Front Matter `source_path` 逐一复核；文件目录使用四位章号（`chapters/draft/0650.md`、`chapters/draft/0651.md`），与真实原始及修订草稿路径匹配，报告内评审 SHA 和评审结论未变。此处为审核元数据修正，非小说正文修订；精确提交结构CI重新验证后生效。
