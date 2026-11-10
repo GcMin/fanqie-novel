@@ -6,9 +6,9 @@ volume: 6
 arc: "ARC-054"
 status: planned
 depends_on_chapter: 662
-depends_on_source_sha: "43dd02e615d043e3943148d56e4949dbde9656c0"
-dependency_status: provisional
-predecessor_path: chapters/draft/0662.md
+depends_on_source_sha: "5116f5351216b8069751e8426503d780ce73f43e"
+dependency_status: verified_ready_compatible_body
+predecessor_path: chapters/ready/0662.md
 target_effective_chars: 3185
 ---
 
@@ -35,5 +35,11 @@ target_effective_chars: 3185
 ## Continuity Precheck
 - 按本轮GitHub main读取AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、Bible四项与周衡/夏宁/梁策人物卡、volume_05和arc_current、当前ARC-054及人物/关系/知识/世界状态、F014、近期时间线、章节计划、652—661十章摘要、658—662五章全文。未读取历史 reader_reviews。
 - 重新核 published（至0159）、ready（至0661）、draft（含0662）目录。0153.md已位于published。首次新建663，不修改前文。
-- 第662章在本轮查验时仍为chapters/draft/0662.md，Git blob `43dd02e615d043e3943148d56e4949dbde9656c0`；本章依赖此**特定未审草稿**，`depends_on_chapter: 662`、`depends_on_source_sha: 43dd02e615d043e3943148d56e4949dbde9656c0`、`dependency_status: provisional`。其Day52514:31真收、15:26住房真收和晚上回拨仅为临时叙事参照，**不当正式Canon**。后续独立Audit若修订662，应核本章兼容性。
+- 第662章在写作当时为chapters/draft/0662.md，Git blob `5116f5351216b8069751e8426503d780ce73f43e`；本章依赖此**特定未审草稿**，`depends_on_chapter: 662`、`depends_on_source_sha: 5116f5351216b8069751e8426503d780ce73f43e`、`dependency_status: verified_ready_compatible_body`。其Day52514:31真收、15:26住房真收和晚上回拨仅为临时叙事参照，**不当正式Canon**。后续独立Audit若修订662，应核本章兼容性。
 - 仅执行Planner、Continuity Precheck、Writer；不生成Reader、Revision、QA、Memory、Publish Gate，不修改既有章节，不发布番茄。
+
+## Audit Stage A依赖元数据重绑（2026-11-10）
+
+- 本次唯一Audit核对第662章最初Draft blob `43dd02e615d043e3943148d56e4949dbde9656c0` 与已正式验收的Ready blob `5116f5351216b8069751e8426503d780ce73f43e`，标题及纯小说正文逐字相同，变化仅为Front Matter交付元数据；无角色、时间、场景、事实差异。
+- 将第663章Front Matter与详细章纲正式依赖重绑为第662章ready Blob `5116f5351216b8069751e8426503d780ce73f43e`，dependency_status=verified_ready_compatible_body，正文一字未改。
+- 旧Review `reader_reviews/0663_26d42191.md` 对此前草稿有效但在重绑后失效，必须针对新Git blob执行全新独立Reader双遍审核，不能引用旧通过状态。
