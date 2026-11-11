@@ -8236,3 +8236,18 @@ combined_audit_chapter_675_20261111:
   predecessor_factual_delta: title_body_exact_same_metadata_only
   dependency_status: verified_ready_compatible_body
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_676_20261111:
+  chapter: 676
+  title: "续住单写到下一周，旧照片只进历史栏"
+  source_sha: "c9f756d5f39271401ab97848273d586f3cd5d755"
+  final_review: "reader_reviews/0676_c9f756d5.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "be0da8527fc2d96898b3c085bab4ae896cf835b8"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main

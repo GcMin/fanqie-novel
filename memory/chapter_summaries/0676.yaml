@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 676
+title: "续住单写到下一周，旧照片只进历史栏"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "c9f756d5f39271401ab97848273d586f3cd5d755"
+reader_review: "reader_reviews/0676_c9f756d5.md"
+depends_on_chapter: 675
+depends_on_source_sha: "be0da8527fc2d96898b3c085bab4ae896cf835b8"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day53908:18—Day54007:04"
+summary: >-
+  Day539母亲在禾汀首层，同房原Day535午—Day542午七晚商户真收、本人已亲试夜门、两箱与两纸船原位。08:26前台只给Day542以后可售待商户真付款报价，10:41物业责任岗仅受理，14:16财务指令仍非到账，15:07禾汀商户真正收到物业责任单位续住原房Day542午—Day549午七晚房费，15:19两张新卡各自真开原门，旧七晚不重复计账、Day549以后未付。16:27责任人于Day53917:00前具名分项真送住宿完成部分但不结案仁合里旧房安全赔责旧押金。母亲Day529个人垫资268元早在Day53116:58实退原账户，无关新支付及历史押金。Day538晓漫亲送家庭旧相原纸正背，母亲Day539持原相片；15:42原保全申报责任窗正式出限历史影像用途说明，母女遮去儿童肖像保留旧院窗台花砖和原纸背无署名字迹及冲印来源限定；16:09旧院历史材料有限附件真正接收并当代回读，不等于四楼现场木箱确存同一或曾搬迁、不开封也不恢复清运许可。晓漫下班在禾汀共饭、外甥四纸船和父亲菜包歪针脚女儿蓝衬延续；20:47母亲主动回拨夜班后夏宁周衡梁策才限项记录住房/历史影像各自结果，Day54007:04交班。四楼12cm口与亡夫饰板分封、单照明有限其他受水电路隔离禁返住、五楼旧白痕灰细侧接漏源未证。F014旧号首源、旧通知本人历史实收与旧押金全渠道真退、2019旧73页袋及F003/F008/M004/M005没有新跨源证。
+meaningful_state_changes:
+  - "Day53915:07禾汀商户真收物业同房Day542—Day549新增七晚费用且15:19双卡各自真开，16:27具名住宿回复在17:00前真实送达。"
+  - "Day53916:09原保全申报历史照片遮蔽副本受限收件并回读，从待提供推进到历史线索已收；旧箱四楼现况依旧未核且清运任务仍撤。"
+knowledge_updates:
+  - "母亲15:07才知新七晚真付、16:09知历史照片已受限收件，明确不同于历史旧信真收、旧押金退付和四楼现况。"
+  - "晓漫只与母亲核遮蔽范围，夜班20:47收到母亲有源回拨才知商户付款及旧照有限收件。"
+relationship_updates:
+  - "母亲允许女儿工作后参与照片遮蔽和共饭，不让她代物业付款或代签旧房结案；外甥已为歪大船留宽格。"
+foreshadowing_updates:
+  - "F014历史旧号码最初提供者、本人当年真收通知和旧押金各渠道末端付款均无新证；家庭旧院影像与2019/F003/F008/M004/M005不得跨源推定。"
+ending_state: "Day54007:04禾汀同房真付住期到Day549午，两卡可开双箱原位；旧相片历史附件真实收件但四楼封存和旧箱现况未改，Day549之后尚未付款。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "c9f756d5f39271401ab97848273d586f3cd5d755", final_draft_sha: "c9f756d5f39271401ab97848273d586f3cd5d755", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3673
