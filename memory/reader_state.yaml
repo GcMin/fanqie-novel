@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 685
-last_reviewed_title: "中午的答复到了，房钱下午才进账"
-last_source_path: chapters/draft/0685.md
-last_source_sha: 9f480a53add2e12dc9e628c8da804858cda41974
-last_review_path: reader_reviews/0685_9f480a53.md
+last_reviewed_chapter: 686
+last_reviewed_title: "九秒钟后面有一道剪口"
+last_source_path: chapters/draft/0686.md
+last_source_sha: e62542a70a396698fbfc81a6af26971eeb9de8c4
+last_review_path: reader_reviews/0686_e62542a7.md
 last_reviewed_at: "2026-11-11"
-reviewer_mode: combined_audit_independent_pass_a_then_b
+reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 684
-depends_on_source_sha: 6b417cbc12d4b4603f9630938c993be1780e5497
+depends_on_chapter: 685
+depends_on_source_sha: bb8843eec0d3caad196a6ab38acb1cb38ff10f61
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 6b417cbc12d4b4603f9630938c993be1780e5497
+predecessor_current_source_sha: bb8843eec0d3caad196a6ab38acb1cb38ff10f61
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8404,5 +8404,28 @@ combined_audit_chapter_685_20261111:
   stage_a_used: 0
   body_revisions: 0
   predecessor_ready_sha: "6b417cbc12d4b4603f9630938c993be1780e5497"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_686_20261111:
+  chapter: 686
+  title: "九秒钟后面有一道剪口"
+  original_sha: "be90c95a82fcfdd5cdfe5f78e7c0c4b9c6e7b84a"
+  initial_review: reader_reviews/0686_be90c95a.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a: correct_sister_niece_kinship_reference
+  final_draft_sha: "e62542a70a396698fbfc81a6af26971eeb9de8c4"
+  final_review: reader_reviews/0686_e62542a7.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "bb8843eec0d3caad196a6ab38acb1cb38ff10f61"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

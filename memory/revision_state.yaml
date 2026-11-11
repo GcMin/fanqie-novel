@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 685
-current_stage: chapter685_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0685.md
-current_source_sha: 9f480a53add2e12dc9e628c8da804858cda41974
-current_review_path: reader_reviews/0685_9f480a53.md
+current_chapter: 686
+current_stage: chapter686_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0686.md
+current_source_sha: e62542a70a396698fbfc81a6af26971eeb9de8c4
+current_review_path: reader_reviews/0686_e62542a7.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter685_initial_reader_QA_pass_no_revision
+last_action: chapter686_stage_a_kinship_fix_new_sha_review_and_content_QA_pass
 last_action_date: "2026-11-11"
 last_error: null
-last_diff_summary: "685精确依赖第684章正式Ready SHA；首次Reader Pass A/B 0/0/2，独立Continuity/Style/Meaningful QA PASS，正文0字修改，待精确候选CI结构校验。"
+last_diff_summary: "686初稿Reader 0 BLOCKER/1 MAJOR/2 MINOR；Stage A仅更正妹妹将外甥女晓漫误称为女儿，新Git blob e62542a70a396698fbfc81a6af26971eeb9de8c4重做独立Pass A/B 0/0/2；独立Continuity/Style/Meaningful QA PASS；待精确候选CI校验。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 9f480a53add2e12dc9e628c8da804858cda41974
+current_review_source_sha: e62542a70a396698fbfc81a6af26971eeb9de8c4
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7430,5 +7430,28 @@ combined_audit_chapter_685_20261111:
   revision_reason: no_fix_required
   content_qa: pass
   predecessor_ready_sha: "6b417cbc12d4b4603f9630938c993be1780e5497"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_686_20261111:
+  chapter: 686
+  title: "九秒钟后面有一道剪口"
+  original_sha: "be90c95a82fcfdd5cdfe5f78e7c0c4b9c6e7b84a"
+  initial_review: reader_reviews/0686_be90c95a.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a: correct_sister_niece_kinship_reference
+  final_draft_sha: "e62542a70a396698fbfc81a6af26971eeb9de8c4"
+  final_review: reader_reviews/0686_e62542a7.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "bb8843eec0d3caad196a6ab38acb1cb38ff10f61"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

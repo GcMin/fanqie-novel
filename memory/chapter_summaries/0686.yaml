@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 686
+title: "九秒钟后面有一道剪口"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "be90c95a82fcfdd5cdfe5f78e7c0c4b9c6e7b84a"
+source_draft_sha: "e62542a70a396698fbfc81a6af26971eeb9de8c4"
+initial_reader_review: "reader_reviews/0686_be90c95a.md"
+reader_review: "reader_reviews/0686_e62542a7.md"
+depends_on_chapter: 685
+depends_on_source_sha: "bb8843eec0d3caad196a6ab38acb1cb38ff10f61"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day54908:32—Day55007:04"
+summary: >-
+  Day54908:32母亲在禾汀同一首层房核Day54815:18已实付的Day54912:00至Day55112:00两晚接续，两张卡已真开甲乙双箱原位。妹妹发现自己旧电脑备份的较长家庭视频在约九秒处有短黑闪、声场改变，先只说可能有剪辑不作拍摄日期推断。16:26妹妹带私人灰U盘与电脑到禾汀，17:11晓漫下班到场；仅在妹妹许可的单一家庭视频与同文件夹内“拼接顺序_家用.txt”范围内查看。文本由妹妹本人誊写，列“铺纸、椅子空镜约九秒”“扇子、修椅、箱边”与“交家里看的版本，不是原带”，代号家中一和家中四；与视频九秒处黑闪和声场突变吻合，可把现存较长文件确认为家用拼接成品，不能证明两段原摄影连续、同日同室或原素材存在。妹妹担心误剪家事，母亲和晓漫确认丈夫原声对家人的意义不需要充当旧箱入户证据；晓漫获同意仅私存拼接说明局部照片，既有完整影片私存副本原样不剪，原灰U盘与后刻CD仍归妹妹且不扩大肖像查看授权。19:43各自整理旧家庭资料不提交物业，20:37母亲通过原事项渠道仅发有源限项文字更正多九秒连续误解，夏宁仅回执不作四楼现场物证。Day55007:04交班，Day551以后无新款。仁合里四楼旧12cm观察口及亡夫饰板各自独封、客厅单照明有限其他受水电路隔离、整屋禁返住，Day536撤清运令未恢复，五楼公区白痕灰细侧接旧漏源未得专业同源结论。七号旧铁角箱最终入户和今日实物未证，F014历史旧号初源/旧通知本人真收/旧押金全渠道实际退款与2019旧卷F003F008M004M005没有新跨源证明。
+meaningful_state_changes:
+  - "旧USB长片新核见九秒处剪口并获本人旧家用拼接文本相互印证，从看似前后相接的旧片重新界定为家用剪辑成品，证据范围收窄。"
+  - "妹妹同意只在本人保管范围寻找家中一/家中四原素材；家人坚持保留原视频与隐私授权，不因剪辑否认丈夫原声私人情感价值。"
+knowledge_updates:
+  - "母亲、晓漫、妹妹从亲自播放视频和阅读本人旧文本知道目前成品含拼接，仍未知各素材原摄影机记录、拍摄日期、同室同物、木箱最终入户及四楼现况。"
+  - "夏宁仅在Day54920:37母亲有源文字更正后知道剪辑边界，周衡梁策不获私片、联系方式、现场物证或新准入。"
+relationship_updates:
+  - "母亲与晓漫没有指责妹妹旧时家用剪辑，妹妹表达担忧后自愿寻原片；家庭对亡夫声音的记忆与调查许可边界分开。"
+foreshadowing_updates:
+  - "原素材家中一/家中四未找到，九秒旧报纸声段与修椅箱边不可当连续拍摄证据；不触及F014、2019/F003/F008/M004/M005的未证边界。"
+ending_state: "Day55007:04交班，禾汀同房实付至Day551中午，两卡有效甲乙双箱不搬；妹妹私人旧长片被确认是家用拼接成品但原素材日期地点与旧箱终点待核，四楼封存且Day536清运撤回不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "be90c95a82fcfdd5cdfe5f78e7c0c4b9c6e7b84a", final_draft_sha: "e62542a70a396698fbfc81a6af26971eeb9de8c4", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: corrected_sister_niece_reference}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3437
