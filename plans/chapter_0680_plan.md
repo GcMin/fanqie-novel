@@ -7,9 +7,9 @@
 - created_at: 2026-11-11
 - status: plan_only
 - depends_on_chapter: 679
-- depends_on_source_sha: f61619d1cec1e180f40db25d7c173328edfa47b3
-- dependency_status: provisional
-- source: chapters/draft/0679.md（main 未审草稿精确 Git Blob）
+- depends_on_source_sha: 6248f6ee6619b2f0c7818e0e10159198817b70ae
+- dependency_status: verified_ready_compatible_body
+- source: chapters/ready/0679.md（候选正式 Ready Git Blob）
 - target_effective_chars: 3000
 - actual_effective_chars: 3200
 
@@ -31,7 +31,7 @@
 
 ## Continuity Precheck｜不可泄露、不能推定、结尾承接
 - 已重读main最新AGENTS、config/novel.yaml、writing_roles、ai_reading_protocol及世界/风格/主线硬Canon、人物卡、当前卷弧与必要人物/知识/关系/世界记录、F014时间线、最近十章已归档摘要与最近五章正文；不读历史reader_reviews。
-- 直接前章679仍为未审草稿，完整Blob f61619d1cec1e180f40db25d7c173328edfa47b3，依赖状态provisional；本章仅临时参考其杜本人愿意回电、所述背带借还而无同日同物证的片段，后续Audit必须比对正式版本。不视未审草稿为Canon。
+- 第679章原始Draft Blob f61619d1cec1e180f40db25d7c173328edfa47b3，与候选正式Ready Blob 6248f6ee6619b2f0c7818e0e10159198817b70ae 经本轮Audit实比标题及全部小说正文相同，仅交付元数据变化，事实无差异；本章Stage A只重绑前章正式Ready Blob，不再将临时原稿视为Canon。
 - Day53915:07禾汀商户已真付本首层同房续Day542—Day549中午七晚，15:19两卡真开；Day549以后无实款，甲乙箱没搬。Day536错误清运任务已撤且不得恢复，四楼旧12cm观察口及亡夫饰板各自封存、单照明有限其余受水电路隔离整屋禁返住；五楼旧白痕灰细侧接漏源无结论。
 - F014旧联系号码初源、旧年通知本人实收、历史押金全部渠道末端真正退款、2019旧卷73页散袋及F003/F008/M004/M005没有新跨源证明。私人借物本的字样、勾记和证人解读不能被升级为末段搬运、物件同一性、当下四楼实物或失址机制。
 - Writer仅新增本章章纲与草稿；本章未审，Reader/Revision/QA/Memory/Publish Gate均留独立Audit。

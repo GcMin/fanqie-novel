@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 680
+title: "背带账本上有个没写全的名字"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "2d7e652e7a8ee4d82796ecce4be8355055a06884"
+source_draft_sha: "e7c84763c76b479f3a208477f8d37037f3b3f103"
+initial_reader_review: "reader_reviews/0680_2d7e652e.md"
+reader_review: "reader_reviews/0680_e7c84763.md"
+depends_on_chapter: 679
+depends_on_source_sha: "6248f6ee6619b2f0c7818e0e10159198817b70ae"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day54308:37—Day54407:06"
+summary: >-
+  Day54308:37母亲在禾汀首层同房从公共厨房断裂夹子联想前日杜阿姨旧青布背带借还口述。杜阿姨10:17主动回电话，找到自己私用的旧借物册，念到青布带、小吴借、外侧勾并说明此本不是按日记账，所谓勾仅是自己月底看见东西在柜子里的核物记号，而非借用人当面归还签名；楼里和邻街均曾有人被叫小吴，没日期也不能确认对应本户旧搬家。母亲在蓝夹旧记录旁补记新解释，不抹旧文字。午间晓漫到禾汀听后把背带借还人改记为疑似小吴且身份日期用途未知，不把小吴作为人名公开搜寻，尊重杜不能泄漏邻居号码；父亲当年修椅、母女相处与外甥纸仓门延续。15:42杜本人同意由孙女只发旧册相关局部照片，青布带字样可见、前小字模糊、勾在还栏外、扣松补针字样无日期无作者；照片和杜当代解读均不足以鉴定木箱搬运或证明亡夫修过背带。17:30妹妹通话仅记年轻人骑三轮带绳却不知姓氏，母亲另页写不构成小吴辨认。20:56母亲亲回拨夜班中心，夏宁周衡梁策仅记录有源私人有限图片与杜自述，四楼不开封、清运不恢复，Day54407:06交班时晓漫语音决定暂不在旧群搜人。禾汀商户真付到Day549午两卡可开双箱不搬且无本日新款；四楼旧12cm口亡夫板分封单照明有限其余水电隔离整屋禁返住，五楼旧漏源无结论，F014旧联系号码最初来源、历史通知本人收悉、旧押金各渠道实退及2019旧案无跨源证。
+meaningful_state_changes:
+  - "杜阿姨有限旧借物册局部照片与当代解读出现，青布带疑似小吴借不等于确定人名日期，勾只为月底在柜确认，不能作为借用人归还签收。"
+  - "母女将旧本图片、杜本人解释和搬运终点分列并决定不公开搜小吴，原第七项木箱最后入户仍待证。"
+knowledge_updates:
+  - "母亲和晓漫仅知杜私本局部内容及其当代解释，不知小吴身份、背带用处、具体时日、实际谁返还、是否曾背七号箱进四楼。"
+  - "妹妹无法独立辨认姓吴或背带借者；中心仅Day54320:56母亲本人回拨后有限获知源记，不掌握旧邻私人号码或旧册全部内容。"
+relationship_updates:
+  - "母亲保护杜及其他旧住户信息，晓漫先冲动想查姓名、后接受等待证人本人意愿；父亲修椅记忆和外甥纸仓门维持亲情。"
+foreshadowing_updates:
+  - "青布带旧本中疑似小吴只增加可后续征询的潜在线索，未确证搬运人或四楼现物；F014及2019/F003/F008/M004/M005仍不得跨源推断。"
+ending_state: "Day54407:06禾汀同房真付至Day549午且双箱两卡不变；旧借物册局部照片私人留存，本人解释勾为月底库存确认，不知借人和箱体末段，四楼仍封存禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "2d7e652e7a8ee4d82796ecce4be8355055a06884", final_draft_sha: "e7c84763c76b479f3a208477f8d37037f3b3f103", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, predecessor_provisional_sha: "f61619d1cec1e180f40db25d7c173328edfa47b3", predecessor_ready_sha: "6248f6ee6619b2f0c7818e0e10159198817b70ae", predecessor_factual_delta: title_body_exact_same_metadata_only}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3200

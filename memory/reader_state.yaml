@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 678
-last_reviewed_title: "楼梯口那一声“先放着”"
-last_source_path: chapters/draft/0678.md
-last_source_sha: 5fc45a11ea75d322c3be48aecd8a359ca976f8d3
-last_review_path: reader_reviews/0678_5fc45a11.md
+last_reviewed_chapter: 680
+last_reviewed_title: "背带账本上有个没写全的名字"
+last_source_path: chapters/draft/0680.md
+last_source_sha: e7c84763c76b479f3a208477f8d37037f3b3f103
+last_review_path: reader_reviews/0680_e7c84763.md
 last_reviewed_at: "2026-11-11"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,9 +12,9 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 677
-depends_on_source_sha: 8265a5b5d51c6d18e684d73310084085bc6ffa3c
-dependency_status: verified_exact_ready_blob
+depends_on_chapter: 679
+depends_on_source_sha: 6248f6ee6619b2f0c7818e0e10159198817b70ae
+dependency_status: verified_ready_compatible_body
 predecessor_current_source_sha: 8265a5b5d51c6d18e684d73310084085bc6ffa3c
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
@@ -8287,4 +8287,43 @@ combined_audit_chapter_678_20261111:
   body_revisions: 0
   predecessor_ready_sha: "8265a5b5d51c6d18e684d73310084085bc6ffa3c"
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_679_20261111:
+  chapter: 679
+  title: "第二个人说起了“先放着”"
+  source_sha: "f61619d1cec1e180f40db25d7c173328edfa47b3"
+  final_review: "reader_reviews/0679_f61619d1.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  stage_a_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "743edd2d29c35ad2dba1274bf995bb2537dd4be6"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_680_20261111:
+  chapter: 680
+  title: "背带账本上有个没写全的名字"
+  original_source_sha: "2d7e652e7a8ee4d82796ecce4be8355055a06884"
+  initial_review: reader_reviews/0680_2d7e652e.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "e7c84763c76b479f3a208477f8d37037f3b3f103"
+  final_review: reader_reviews/0680_e7c84763.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_provisional_sha: "f61619d1cec1e180f40db25d7c173328edfa47b3"
+  predecessor_ready_sha: "6248f6ee6619b2f0c7818e0e10159198817b70ae"
+  predecessor_factual_delta: title_body_exact_same_metadata_only
+  dependency_status: verified_ready_compatible_body
   structural_gate: exact_candidate_ci_required_before_main

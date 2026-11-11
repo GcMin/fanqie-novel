@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 678
-current_stage: chapter678_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0678.md
-current_source_sha: 5fc45a11ea75d322c3be48aecd8a359ca976f8d3
-current_review_path: reader_reviews/0678_5fc45a11.md
+current_chapter: 680
+current_stage: chapter680_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0680.md
+current_source_sha: e7c84763c76b479f3a208477f8d37037f3b3f103
+current_review_path: reader_reviews/0680_e7c84763.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,7 +12,7 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter678_no_fix_required_independent_reader_qa_pass
+last_action: chapter680_stageA_rebind679_formal_ready_new_sha_rereview_QA_pass
 last_action_date: "2026-11-11"
 last_error: null
 last_diff_summary: "本章初稿精确依赖第677章正式ready Git blob；完整独立两遍Reader0/0/2，无正文修订；Continuity/Style/Meaningful QA PASS；待精确候选CI结构校验。"
@@ -7323,4 +7323,38 @@ combined_audit_chapter_678_20261111:
   revision_reason: no_fix_required
   content_qa: pass
   predecessor_ready_sha: "8265a5b5d51c6d18e684d73310084085bc6ffa3c"
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_679_20261111:
+  chapter: 679
+  original_sha: "f61619d1cec1e180f40db25d7c173328edfa47b3"
+  final_draft_sha: "f61619d1cec1e180f40db25d7c173328edfa47b3"
+  final_review: reader_reviews/0679_f61619d1.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  revision_reason: no_fix_required
+  content_qa: pass
+  predecessor_ready_sha: "743edd2d29c35ad2dba1274bf995bb2537dd4be6"
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_680_20261111:
+  chapter: 680
+  original_sha: "2d7e652e7a8ee4d82796ecce4be8355055a06884"
+  initial_review: reader_reviews/0680_2d7e652e.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_draft_sha: "e7c84763c76b479f3a208477f8d37037f3b3f103"
+  final_review: reader_reviews/0680_e7c84763.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  revision_reason: rebind_679_ready_after_title_body_exact_same
+  predecessor_provisional_sha: "f61619d1cec1e180f40db25d7c173328edfa47b3"
+  predecessor_ready_sha: "6248f6ee6619b2f0c7818e0e10159198817b70ae"
+  predecessor_factual_delta: title_body_exact_same_metadata_only
+  content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

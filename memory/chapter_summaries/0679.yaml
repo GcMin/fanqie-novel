@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 679
+title: "第二个人说起了“先放着”"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "f61619d1cec1e180f40db25d7c173328edfa47b3"
+reader_review: "reader_reviews/0679_f61619d1.md"
+depends_on_chapter: 678
+depends_on_source_sha: "743edd2d29c35ad2dba1274bf995bb2537dd4be6"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day54208:42—Day54307:04"
+summary: >-
+  Day54208:42晓漫上班时和禾汀首层同房的母亲商量旧搬家第七项木箱的最后搬运见证。此前旧院装车有勾、仁合里到楼空格七号另核与妹妹Day541一楼转角包硬角物暂放只是分源线索，均未证末段搬运。母亲忆起二楼杜阿姨，妹妹仅在旧街坊小群代转自愿回电意向，不提供杜旧号码、箱件和目标原句。杜阿姨11:24自主来电并约下午，14:36与母女三方通话说记得自己曾喊先放着以让小推车通行、见一件布包硬角物被暂放，也记得有人借用旧青布窄背带且后来还了；但她不保证同一次搬家、同一物件或特定借用人，更从未见第七项木箱抬入四楼。晓漫没有录音，只有笔记并在后续回拨时按杜本人反馈把小推车与硬角物措辞纠正，不将杜电话交物业。家人原两页旧格子纸继续分袋保留，妹妹不被要求替另一个记忆补结论。Day54220:51母亲主动回拨夜班，夏宁周衡梁策仅记录有源的当代私人回忆，旧四楼准入清运不恢复；Day54307:04交班。物业Day53915:07商户真付禾汀同房续到Day549午、15:19双卡真开两箱未搬，此日无新增付款。四楼12cm口和亡夫饰板分封、单照明有限其余水电隔离整屋禁返住，Day536清运令仍撤，五楼公区旧漏源未证；F014旧号源、历史通知本人真收和押金全渠道实退、2019旧案F003F008M004M005均无新跨源证。
+meaningful_state_changes:
+  - "第二位旧邻居杜阿姨本人自愿提供有限的楼梯口先放着以及窄青布背带借还回忆；仍不知具体时日物件同一性与最终入户。"
+  - "母女按杜本人回核缩窄口述、私存手写笔记且不泄漏联络方式；下一步从旧清单空格转向旧背带可能使用者的独立来源。"
+knowledge_updates:
+  - "母亲晓漫杜阿姨各自只知本人的当代记忆；杜没有确认是哪一天、哪户、何物及最终四楼到达，也未确认借带人身份。"
+  - "夜班夏宁周衡梁策仅在Day54220:51母亲主动回拨后知分源口述，没有获准查住户私号或开启封存房。"
+relationship_updates:
+  - "母亲尊重杜自愿谈话与私人号码限制，晓漫按反馈准确记述而不是追问到一个方便的答案；妹妹不被逼着回忆未见的末段搬运。"
+foreshadowing_updates:
+  - "一楼先放着和借用旧青布背带成为私人新询问方向，不证旧七号箱已入户；F014旧信旧号旧押金及2019旧案无交叉新材料。"
+ending_state: "Day54307:04母亲在禾汀首层同房仍真付到Day549午、双卡有效双箱未动；旧纸分存，杜本人回忆限项记录，四楼封存及清运禁令未变；窄背带借者身份待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f61619d1cec1e180f40db25d7c173328edfa47b3", final_draft_sha: "f61619d1cec1e180f40db25d7c173328edfa47b3", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3140
