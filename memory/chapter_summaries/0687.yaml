@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 687
+title: "纸仓库的声音由谁来讲"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "bbf628eb3a9faba9431f61b5a57ce859651ca4c1"
+source_draft_sha: "85d4c656831d6cd5a9b0a4983526fbb2d1bfd89d"
+initial_reader_review: "reader_reviews/0687_bbf628eb.md"
+reader_review: "reader_reviews/0687_85d4c656.md"
+depends_on_chapter: 686
+depends_on_source_sha: "b756a1639844171ae6642ac02e059cebd834064c"
+dependency_status: verified_ready_compatible_body
+predecessor_comparison: "686原Draft be90c95a → Ready b756a163小说正文仅更正妹妹看了晓漫一眼的亲属称谓；无时间地点物证及人物知识变化"
+timeframe: "Day55008:41—Day55107:00以后"
+summary: >-
+  Day55008:41母亲仍住禾汀同首层房，甲乙两箱原位，Day54815:18实际已付Day549午—Day551午两晚、两卡已真开，之后未有实款。妹妹问孩子能否借亡夫“别踩那条纸”一句给纸仓库班级视频配音，母亲和晓漫坚持灰U盘家庭旧影像为许可有限的家用拼接版本，不能把旧原声、童年肖像随便截发班群。11:06母亲视频与外甥沟通，知其主要因自己说话容易太快而希望用旧声，邀请下午当面演示，不传原片。Day55013:00物业责任岗仅说明Day551中午以后续原房待商户收款和夜间通路双箱安全方案，目前没有新实收，母亲要求次晨给明确结果但未提前结案或搬箱。16:22妹妹带孩子只携纸仓库与手机来到禾汀，实演才发现两车抢窄门的物理冲突，孩子自己加可翻转的进出牌并第三次录清自己的声音“蓝车先出来，红车再进去。门小，别挤”，前两次保留用于比较。18点晓漫亲看班级视频只有孩子纸仓库和本人配音，孩子理解家庭旧片今次不借外公语音入公开班级，仍可于获许可的家里完整播放。饭后晓漫提议保留家人当代声音，母亲本人同意录下一段外婆讲纸仓库、蓝船的私人语音，开头停顿原样留存，只分享晓漫和妹妹并批准孩子在家听，不上传班群。21:17没有新增公共服务事实，母亲不为凑工单擅回拨；Day55107:00后仍在原房，圈出中午期限，青菜、纸船与双箱原位。家用九秒剪口/拼接说明源素材家中一与家中四未找到，旧第七项铁角箱最终入户未证；四楼旧12cm观察口与亡夫饰板独封、客厅单照明有限其他水电隔离整屋禁返住，Day536清运撤回不变，五楼旧白痕灰细侧接旧漏源无专业结论；F014旧号码首源、旧年通知本人实际收讫、历史押金所有渠道真实最终退付与2019/F003/F008/M004/M005无跨源新证。
+meaningful_state_changes:
+  - "外甥真实做出纸仓库进出牌，完成可演示的第三版视频并以自己声音作唯一配音，不依赖取用未经公共授权的亡夫原声。"
+  - "母亲主动授权录自己的当代家庭语音，并自选保留停顿、仅在家人范围分享；亲情线从单纯寻找过去影音扩展为创造现在的家人记录。"
+knowledge_updates:
+  - "母亲晓漫妹妹和孩子知道旧家影不为班级传播而授权，孩子清楚自己的第三版声音和纸门解决方式。"
+  - "母亲知道Day551午后未新付款、物业次上午须给方案；夜班本章未收到新事项号结果，无新增旧房物证。"
+relationship_updates:
+  - "母亲、晓漫、妹妹和孩子一起试错、尊重当代被录者同意；孩子不因不能借外公声音而放弃创作，母亲在不被追问旧木箱的前提下自愿留声。"
+foreshadowing_updates:
+  - "Day551午为真实暂住到期节点，次期商户实际付款未见；家中一四原片以及七号铁角箱入户、F014和2019旧卷仍待核。"
+ending_state: "Day551早上七点后禾汀同房双卡双箱仍在、付费止于中午；外甥班级视频自配音第三版留旧试错版，母亲新留获同意私人家庭音频未发班群，无更高证据结论及四楼准入改变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "bbf628eb3a9faba9431f61b5a57ce859651ca4c1", final_draft_sha: "85d4c656831d6cd5a9b0a4983526fbb2d1bfd89d", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: rebind_686_ready_after_one_kinship_line_factual_comparison}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3482

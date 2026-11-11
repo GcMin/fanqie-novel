@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 686
-current_stage: chapter686_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0686.md
-current_source_sha: e62542a70a396698fbfc81a6af26971eeb9de8c4
-current_review_path: reader_reviews/0686_e62542a7.md
+current_chapter: 687
+current_stage: chapter687_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0687.md
+current_source_sha: 85d4c656831d6cd5a9b0a4983526fbb2d1bfd89d
+current_review_path: reader_reviews/0687_85d4c656.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter686_stage_a_kinship_fix_new_sha_review_and_content_QA_pass
+last_action: chapter687_stage_a_rebind_686_ready_new_sha_review_and_QA_pass
 last_action_date: "2026-11-11"
 last_error: null
-last_diff_summary: "686初稿Reader 0 BLOCKER/1 MAJOR/2 MINOR；Stage A仅更正妹妹将外甥女晓漫误称为女儿，新Git blob e62542a70a396698fbfc81a6af26971eeb9de8c4重做独立Pass A/B 0/0/2；独立Continuity/Style/Meaningful QA PASS；待精确候选CI校验。"
+last_diff_summary: "687原Draft依赖686临时SHA，初审Reader 0/1/2；实际比对686旧Draft与Ready全文仅一行亲属误指更正、其他剧情事实相同，Stage A只重绑FrontMatter及详细章纲，687正文0字改，新Draft SHA 85d4c656831d6cd5a9b0a4983526fbb2d1bfd89d新Reader0/0/2，独立Continuity/Style/MeaningfulQA PASS，待候选CI结构。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: e62542a70a396698fbfc81a6af26971eeb9de8c4
+current_review_source_sha: 85d4c656831d6cd5a9b0a4983526fbb2d1bfd89d
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7454,4 +7454,29 @@ combined_audit_chapter_686_20261111:
   qa_gate: pass
   predecessor_ready_sha: "bb8843eec0d3caad196a6ab38acb1cb38ff10f61"
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_687_20261111:
+  chapter: 687
+  title: "纸仓库的声音由谁来讲"
+  original_sha: "bbf628eb3a9faba9431f61b5a57ce859651ca4c1"
+  initial_review: reader_reviews/0687_bbf628eb.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a: rebind_686_ready_compatible_body_after_one_line_kinship_fix_comparison
+  final_draft_sha: "85d4c656831d6cd5a9b0a4983526fbb2d1bfd89d"
+  final_review: reader_reviews/0687_85d4c656.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_draft_sha: "be90c95a82fcfdd5cdfe5f78e7c0c4b9c6e7b84a"
+  predecessor_ready_sha: "b756a1639844171ae6642ac02e059cebd834064c"
+  predecessor_factual_delta: one_kinship_narrator_reference_changed_no_event_or_knowledge_change
+  dependency_status: verified_ready_compatible_body
   structural_gate: exact_candidate_ci_required_before_main

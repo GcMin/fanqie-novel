@@ -7,9 +7,9 @@
 - created_at: 2026-11-11
 - status: plan_only
 - depends_on_chapter: 686
-- depends_on_source_sha: be90c95a82fcfdd5cdfe5f78e7c0c4b9c6e7b84a
-- dependency_status: provisional
-- source: chapters/draft/0686.md
+- depends_on_source_sha: b756a1639844171ae6642ac02e059cebd834064c
+- dependency_status: verified_ready_compatible_body
+- source: chapters/ready/0686.md
 - target_effective_chars: 3000
 - actual_effective_chars: 3482
 
@@ -37,3 +37,9 @@
 - 本轮实际读取main的AGENTS、novel配置、writing_roles与ai_reading_protocol、Premise/主线/世界/文风与三位夜班人物卡、现有volume_05和arc_current（旧卷弧内容滞后，不能覆盖最新Ready）、memory/current_arc、character/relationship/knowledge/world、F014相关foreshadowing与最近timeline、676—685十章摘要、682—685 Ready及686 Draft五章正文、前685和686详细章纲及chapter_plan表尾；未读取历史reader_reviews。
 - 读GitHub三目录：published到0159且0153存在，ready到0685，draft仅0686，0687此前不存在。上一章0686仍是draft Git Blob be90c95a82fcfdd5cdfe5f78e7c0c4b9c6e7b84a，所以本章依赖为provisional，涉及剪口、拼接顺序、家庭授权情节须经独立Audit未来对照最终686 Ready事实，绝不因本章先写而将其当正式Canon。
 - 仅新增本章计划和正文首稿，不做Editor/Reader/Revision/QA/Memory/Publish Gate，不修改任何既有章节或长期记忆。
+
+
+## Audit依赖版本校验（2026-11-11）
+- Writer最初写作时686为临时Draft `be90c95a82fcfdd5cdfe5f78e7c0c4b9c6e7b84a`，这一历史Precheck记录仍保留，不代表当前实际依赖。
+- Audit逐行比较686临时Draft与正式Ready `b756a1639844171ae6642ac02e059cebd834064c`：正文仅改正“妹妹看了女儿一眼”→“妹妹看了晓漫一眼”的亲属旁白，其他叙事事实与结尾相同。687无旧亲属误指沿用，故只重绑本计划及687 Front Matter至正式Ready，并保留本章小说正文逐字不变。
+- 该元数据Stage A变更生成687新Git blob，旧Reader不可用于放行，必须新SHA双遍审查、独立QA和精确结构CI。
