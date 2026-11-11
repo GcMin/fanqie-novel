@@ -1,19 +1,19 @@
 schema_version: 1
-last_reviewed_chapter: 674
-last_reviewed_title: "旧照片拍到木箱，四楼的门仍不能开"
-last_source_path: chapters/draft/0674.md
-last_source_sha: c13dbcc22e5d8a957eaef8de1607fc9f551f7e48
-last_review_path: reader_reviews/0674_c13dbcc2.md
+last_reviewed_chapter: 675
+last_reviewed_title: "相片翻到了背面，木箱还隔着一扇门"
+last_source_path: chapters/draft/0675.md
+last_source_sha: 82a787ae3319520f6196936bca1bde516c648550
+last_review_path: reader_reviews/0675_82a787ae.md
 last_reviewed_at: "2026-11-11"
-reviewer_mode: combined_audit_independent_pass_a_then_b
+reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 673
-depends_on_source_sha: 8aac5808317d9a120e113be5d08986b3b9fb25e5
+depends_on_chapter: 674
+depends_on_source_sha: 976a50a07aef6e8ec44c61a45e05ca305d3e1a25
 dependency_status: verified_ready_compatible_body
 predecessor_current_source_sha: f1e947f9108812edf119f9f74f80245006a72a0d
 predecessor_sha_mismatch: true
@@ -8213,4 +8213,26 @@ combined_audit_chapter_674_20261111:
   predecessor_ready_sha: "8aac5808317d9a120e113be5d08986b3b9fb25e5"
   predecessor_factual_delta: exact_formal_ready_dependency
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_675_20261111:
+  chapter: 675
+  title: "相片翻到了背面，木箱还隔着一扇门"
+  original_source_sha: "7f618a179eac94c659bedbeeda31496351c8e4bf"
+  initial_review: reader_reviews/0675_7f618a17.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "82a787ae3319520f6196936bca1bde516c648550"
+  final_review: reader_reviews/0675_82a787ae.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 0
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_provisional_sha: "c13dbcc22e5d8a957eaef8de1607fc9f551f7e48"
+  predecessor_ready_sha: "976a50a07aef6e8ec44c61a45e05ca305d3e1a25"
+  predecessor_factual_delta: title_body_exact_same_metadata_only
+  dependency_status: verified_ready_compatible_body
   structural_gate: exact_candidate_ci_required_before_main

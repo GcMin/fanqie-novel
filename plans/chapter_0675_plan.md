@@ -7,9 +7,9 @@
 - role_id: writer
 - status: plan_only
 - depends_on_chapter: 674
-- depends_on_source_sha: c13dbcc22e5d8a957eaef8de1607fc9f551f7e48
-- dependency_status: provisional
-- source: chapters/draft/0674.md（main 中未经独立审核的精确草稿 Git Blob，非正式 Canon）
+- depends_on_source_sha: 976a50a07aef6e8ec44c61a45e05ca305d3e1a25
+- dependency_status: verified_ready_compatible_body
+- source: chapters/ready/0674.md（Audit核实原Draft c13dbcc22e5d8a957eaef8de1607fc9f551f7e48与正式Ready 976a50a07aef6e8ec44c61a45e05ca305d3e1a25小说正文与标题逐字相同，仅交付元数据有变）
 - target_effective_chars: 3000（优选 2600—3400；硬限 2300—3800）
 - actual_effective_chars: 3348（仅正文去 Unicode 空白）
 
@@ -44,3 +44,8 @@
 - 按 published、ready、draft 数字章名核实 published最高0159、ready最高0673、draft最高0674，第0153章已在 published，第0675章此前不存在。
 - 第674章当前仅有 draft Blob c13dbcc22e5d8a957eaef8de1607fc9f551f7e48，因此显式 provisional 依赖；如独立 Audit 后续修订674，须由 Audit 核查675对纸相片、Day537限定回复、照片备注与交班时点的依赖是否兼容。
 - 只实施 Planner、Continuity Precheck、Writer 创建新章章纲与新稿，不进行 Editor、Reader、Revision、QA、Memory、Publish Gate，也不修改任何原有章节及文件。
+
+## Audit Stage A依赖修订｜2026-11-11
+- Writer当时依赖674原草稿 `c13dbcc22e5d8a957eaef8de1607fc9f551f7e48`，本段原Writer Continuity Precheck为创稿时历史事实，不可倒改为创稿前已获审。
+- Audit逐字比674原Draft与正式Ready `976a50a07aef6e8ec44c61a45e05ca305d3e1a25`：标题与所有小说正文相同，变化仅Front Matter的ready/qa/approved_at/publish_mode；675依赖的Day537照片未提供、16:11保全备注、Day53807:04交班及Day539住房时限事实完全兼容。
+- 已在675正文Front Matter与本章纲头部更新为正式Ready SHA；本章正文0字修改。新675 Draft blob将重新独立Reader A/B；旧 `reader_reviews/0675_7f618a17.md` 不可作为新稿放行证据。

@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 675
+title: "相片翻到了背面，木箱还隔着一扇门"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "7f618a179eac94c659bedbeeda31496351c8e4bf"
+source_draft_sha: "82a787ae3319520f6196936bca1bde516c648550"
+initial_reader_review: "reader_reviews/0675_7f618a17.md"
+reader_review: "reader_reviews/0675_82a787ae.md"
+depends_on_chapter: 674
+depends_on_source_sha: "976a50a07aef6e8ec44c61a45e05ca305d3e1a25"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day53808:29—Day53907:03"
+summary: >-
+  Day538母亲在禾汀首层，Day535午到Day542午七晚物业房费商户真实已收、甲乙箱和蓝纸船广告纸船在房、夜门此前已由本人亲试；Day53917:00只承诺下一期住房具名答复而第八晚尚无实款。09:40材料员误问昨天保全号“疑似历史影像待提供”能否作为现在房内照片，母亲区分旧相与现场；10:03小许另证Day536原清运许可仍不可执行且该备注未变施工许可。晓漫在自己旧相册箱找到纸质家庭照片，14:08先发正背：冲印店订单年月不等于拍摄年月，背面无署名手写“搬家前，修餐椅”，正面高窗台和旧花砖提示旧院；14点后母亲仅以自己记忆辨认过去旧院而非仁合里四楼，照片中丈夫修的椅子是旧借餐椅，箱子在当时旧院照片里但同一性/后来有无搬到四楼仍未知。16:19物业仅报两处未来住房在核售住期及夜门，无新商户实款，Day53917:00具名答复仍待履行。18:38晓漫下班携原纸相本人和母亲对照，母女承认昨夜对照片场景曾误认，原相纸由母亲妥存并私人留正背面记录，任何外送需明确合法用途且遮挡童年肖像、不删可帮助区分旧院的窗台环境；没有向物业/外包提交正式相片或核查四楼物件。外甥为歪大船留高泊位，母女在禾汀共饭。20:45母亲本人回拨后中心才限项记录照片旧院仅本人辨认、清运撤销有效与住宿未续，Day53907:03交班。仁合里四楼旧12cm观察口和亡夫饰板分封整屋禁返住、旧公区漏源未判；旧联系F014历史本人旧信/号码初源及旧押金多渠道末端款、2019/F003/F008/M004/M005均无跨源新证。
+meaningful_state_changes:
+  - "首次实见旧相纸正背并有冲印店订单/月与无署名搬家前手写说明，母亲通过旧院高窗台纠正先前把照片当仁合里现场的主观误认；历史照片仍不证现在箱体。"
+  - "10:03另次确认撤销的错误清运许可仍不能执行、旧照待提供备注不转为现场照；Day539住房新答复继续有效但未预先真付。"
+knowledge_updates:
+  - "母女知道照片原纸在晓漫个人旧相册箱而非四楼；冲印印字并非拍摄日期，母亲只通过记忆判断旧院拍摄场景，未获专业鉴定或旧箱搬迁/现况证据。"
+  - "小许只核撤单可执行状态，物业未收到已核照片；夜班20:45本人回拨后才得有限旧院辨认信息。"
+relationship_updates:
+  - "母亲接受自己也可能认错旧照，晓漫不追着让相片承担实物证明；下班同桌吃饭、共同处理旧相隐私；外甥让歪船另占码头高位。"
+foreshadowing_updates:
+  - "F014历史旧通知本人真收、旧号首源、旧押金全渠道末端实付与2019原卷73页/F003/F008/M004/M005没有因这张老院家庭照片获得新证。"
+ending_state: "Day53907:03母亲留存纸相片正背，记忆中照片更可能是旧院场景，现时仁合里旧箱未查；禾汀真款到Day542午，Day53917:00具名住房答复待核，四楼不能进。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7f618a179eac94c659bedbeeda31496351c8e4bf", final_draft_sha: "82a787ae3319520f6196936bca1bde516c648550", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, predecessor_provisional_sha: "c13dbcc22e5d8a957eaef8de1607fc9f551f7e48", predecessor_ready_sha: "976a50a07aef6e8ec44c61a45e05ca305d3e1a25", predecessor_factual_delta: title_body_exact_same_metadata_only}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3348
