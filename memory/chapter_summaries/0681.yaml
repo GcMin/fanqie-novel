@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 681
+title: "录像里有一只铁角箱"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "6b26c80864411d19f8921aa17322ec27700bb853"
+reader_review: "reader_reviews/0681_6b26c808.md"
+depends_on_chapter: 680
+depends_on_source_sha: "cfa55368633e1596ec14382f82485e508ce267ba"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day54408:22—Day54507:08"
+summary: >-
+  Day54408:22母亲在禾汀真付至Day549午的首层同房整理旧菜包与两纸船，妹妹因外甥旧物视频找到私人后刻光盘，原摄像机与原卡下落不明且刻录文件时间不代表拍摄日期。14:08妹妹持带外置光驱的旧电脑到房，播放短猫片及亡夫修椅、幼年晓漫缺两根扇骨纸扇的旧画面；母亲妹妹凭墙角补灰和蓝白条纹帘个人初认仁合里四楼，画面有一只金属包角深色箱、右上两道错位白痕，但缺唯一编号、拍摄日、完整搬运入户和外部同位鉴定。17:42晓漫下班亲看父亲完整原声，家人将旧院照片、旧院装车第七项有勾/仁合里到楼第七项空格七号另核、个人历史旧录像分源记录，不把箱体同一性或现况当事实；光盘由妹妹原样保管，晓漫有同意获取未剪辑文件副本并私存，不公开肖像。20:53母亲本人主动回拨夜班夏宁周衡梁策，仅按旧影像有限来源登记，Day54507:08交班。禾汀无新增房款双卡双箱原位；四楼12cm旧观察口亡夫饰板独封、单照明有限其余受水电隔离禁返住、Day536清运撤销、五楼旧漏源不明；F014历史旧号来源/通知本人旧年真收/押金全渠道末端真退及2019F003F008M004M005无跨源证。
+meaningful_state_changes:
+  - "家人首次保存有原声的私人旧录像副本，辨认出疑似旧四楼室内铁包角箱样物及右上两道白痕，但不证明第七项同一性或今日现物。"
+  - "晓漫选择留完整父亲声音及来源，不剪片投送物业或街坊群；光盘原盘由妹妹保管。"
+knowledge_updates:
+  - "母亲妹妹晓漫仅根据熟悉墙面与窗帘推认旧室地点，仍未知原卡/拍摄日/旧箱编号/真实入户与现时位置。"
+  - "中心仅Day54420:53母亲回拨后知私人影像来源限制，不能核实房间、恢复清运或开放封存。"
+relationship_updates:
+  - "母亲想保留丈夫声音，晓漫重新听到父亲劝她收好断骨纸扇，决定珍惜原声而不只截取木箱证据；妹妹同意有限保存副本。"
+foreshadowing_updates:
+  - "铁角箱样物的两道白痕可供未来合法来源比对，但没有同一物或四楼现状证明；F014及2019旧案未关联。"
+ending_state: "Day54507:08禾汀同房真付到Day549午，私人光盘与完整副本分存且旧纸空格不补，四楼封存不动，旧箱同一性、日期、入户未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6b26c80864411d19f8921aa17322ec27700bb853", final_draft_sha: "6b26c80864411d19f8921aa17322ec27700bb853", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3250

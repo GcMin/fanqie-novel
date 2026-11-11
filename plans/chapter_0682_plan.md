@@ -7,9 +7,9 @@
 - created_at: 2026-11-11
 - status: plan_only
 - depends_on_chapter: 681
-- depends_on_source_sha: 6b26c80864411d19f8921aa17322ec27700bb853
-- dependency_status: provisional
-- source: chapters/draft/0681.md（未审草稿的精确 Git Blob，不视为正式 Canon）
+- depends_on_source_sha: 912ddda84264eeb032a5a7b1e7e5ee9233dd8b71
+- dependency_status: verified_ready_compatible_body
+- source: chapters/ready/0681.md（原稿与Ready标题正文逐字相同，仅交付元数据不同）
 - target_effective_chars: 3000
 - actual_effective_chars: 3294
 
@@ -32,6 +32,6 @@
 
 ## Continuity Precheck
 - 依最新 main 读取 AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、Bible 四项、三人角色卡、当前卷/弧文件、memory/current_arc及人物知识关系世界、F014与近期时间线、0671—0680十章摘要、0677—0681五章正文；未读历史 reader_reviews。
-- main 的 published/0153.md 已存在；最新 chapter=681，章节 0682 及计划尚不存在。前章 681 只有 draft，Git Blob SHA 6b26c80864411d19f8921aa17322ec27700bb853，本章对其仅 provisional 依赖，视频原卡/日期/与旧院第七项箱体同一性不当成已审事实。
+- main 的 published/0153.md 已存在；最新 chapter=681，章节 0682 及计划尚不存在。前章681已在本轮候选正式ready，Git Blob SHA 912ddda84264eeb032a5a7b1e7e5ee9233dd8b71，本章已核原681草稿与ready标题正文逐字一致并重绑正式依赖，视频原卡/日期/与旧院第七项箱体同一性不当成已审事实。
 - 禾汀同一首层房 Day539 15:07 物业商户真付续至 Day549 中午、双卡有效、甲乙箱未动；本章无新付。仁合里四楼旧 12cm 观察口与亡夫饰板分别封存，客厅单照明有限、其余受水电路隔离、整屋禁返住；Day536 撤销清运任务持续，五楼旧白痕与灰细侧接漏源未证。历史维修记录不等于当前安全许可。
 - F014旧联系人号码最初来源、历史本人真收旧信、押金全渠道末端退款及2019原第73页散袋/F003/F008/M004/M005都无新跨源确认。只产新章详细计划与 draft，Audit/QA/Memory/发布全部交独立任务。

@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 680
-last_reviewed_title: "背带账本上有个没写全的名字"
-last_source_path: chapters/draft/0680.md
-last_source_sha: e7c84763c76b479f3a208477f8d37037f3b3f103
-last_review_path: reader_reviews/0680_e7c84763.md
+last_reviewed_chapter: 682
+last_reviewed_title: "窗边那块补灰，有过一张维修单"
+last_source_path: chapters/draft/0682.md
+last_source_sha: ec106b8ee040e176127445e361acbde9aae7eff8
+last_review_path: reader_reviews/0682_ec106b8e.md
 last_reviewed_at: "2026-11-11"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 679
-depends_on_source_sha: 6248f6ee6619b2f0c7818e0e10159198817b70ae
+depends_on_chapter: 681
+depends_on_source_sha: 912ddda84264eeb032a5a7b1e7e5ee9233dd8b71
 dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: 8265a5b5d51c6d18e684d73310084085bc6ffa3c
+predecessor_current_source_sha: 912ddda84264eeb032a5a7b1e7e5ee9233dd8b71
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8327,3 +8327,31 @@ combined_audit_chapter_680_20261111:
   predecessor_factual_delta: title_body_exact_same_metadata_only
   dependency_status: verified_ready_compatible_body
   structural_gate: exact_candidate_ci_required_before_main
+
+
+combined_audit_chapter_681_20261111:
+  chapter: 681
+  title: "录像里有一只铁角箱"
+  source_sha: "6b26c80864411d19f8921aa17322ec27700bb853"
+  review: reader_reviews/0681_6b26c808.md
+  counts: {blocker: 0, major: 0, minor: 2}
+  pass_a_then_b: pass
+  predecessor_ready_sha: "cfa55368633e1596ec14382f82485e508ce267ba"
+  continuity_style_qa: pass
+  structure: exact_candidate_ci_required
+
+combined_audit_chapter_682_20261111:
+  chapter: 682
+  title: "窗边那块补灰，有过一张维修单"
+  original_sha: "6ef43b3f5a42f87cbaf75a7fb129acc868c30e49"
+  original_review: reader_reviews/0682_6ef43b3f.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a: predecessor_sha_rebind_only
+  source_sha: "ec106b8ee040e176127445e361acbde9aae7eff8"
+  final_review: reader_reviews/0682_ec106b8e.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  predecessor_ready_sha: "912ddda84264eeb032a5a7b1e7e5ee9233dd8b71"
+  predecessor_factual_delta: title_body_exact_same_metadata_only
+  pass_a_then_b: pass
+  continuity_style_qa: pass
+  structure: exact_candidate_ci_required

@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 682
+title: "窗边那块补灰，有过一张维修单"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "6ef43b3f5a42f87cbaf75a7fb129acc868c30e49"
+source_draft_sha: "ec106b8ee040e176127445e361acbde9aae7eff8"
+initial_reader_review: "reader_reviews/0682_6ef43b3f.md"
+reader_review: "reader_reviews/0682_ec106b8e.md"
+depends_on_chapter: 681
+depends_on_source_sha: "912ddda84264eeb032a5a7b1e7e5ee9233dd8b71"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day54508:31—Day54607:05"
+summary: >-
+  Day54508:31母亲从妹妹后刻旧光盘的视频墙边补灰想起本户当年有维修回执，决定只按物业合法渠道查本户过去窗内侧抹灰，不申请进入禁返住四楼。09:40查询申报方式，拿蓝夹内本户旧回执复印件，经晓漫核对模糊号后本人提交；11:12只获得受理回执。15:26物业资料岗核身份限定找到旧袋中一页本户窗内侧抹灰修补登记、一张带旧报纸垫地的局部照片，16:08资料袋号页次与遮私字段的两页副本真正送达；仅确认本户历史维修事件。母亲和18点后到访的晓漫见旧档照片补灰斜边与家庭影片相似，但角度与年代不足作同位鉴定，旧照片无箱子，私家录像原卡和拍摄日继续未知；不把它与第七项旧院装车勾/仁合里到楼空格合并成铁角箱入户证据。20:59母亲主动回拨夜班只登记有源历史维修资料而不恢复四楼准入和清运，Day54607:05交班。禾汀同房商户真付到Day549午无新增款两卡双箱原位；四楼12cm观察口亡夫板独封水电隔离全屋禁返住、Day536清运仍撤、五楼旧漏源不明；F014旧号来源/历史本人真收旧信/押金历史全渠道真退及2019F003F008M004M005无交叉新证。
+meaningful_state_changes:
+  - "首次获有源物业旧维修袋的本户抹灰登记和局部照片，给家庭录像的墙面相似处一个独立可对照来源，但不具同位或箱体鉴定力。"
+  - "母女按合法有限调阅和私人影像分别归档，不要求今天入户开封。"
+knowledge_updates:
+  - "母亲晓漫知道旧本户确实修补过窗内侧及两来源斜向补灰边缘相似，未知视频拍摄日、箱体编号、同一性、搬入及四楼现况。"
+  - "物业仅提供已授权两页并声明旧维修不证明今日安全；中心Day54520:59母亲回拨后知有限内容，无新准入权。"
+relationship_updates:
+  - "晓漫帮助母亲辨认旧回执号码但由母亲本人申请；两人通过父亲旧语音与芋头饼维持互助，妹妹保留原盘。"
+foreshadowing_updates:
+  - "历史窗侧抹灰记录成为将来合法影像场景核验候选，不证旧第七项木箱或F014和2019主线。"
+ending_state: "Day54607:05禾汀同房真付到Day549午；有源旧维修副本与家庭旧影像分存，木箱与旧墙同一性仍待核，四楼未开封或清运。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6ef43b3f5a42f87cbaf75a7fb129acc868c30e49", final_draft_sha: "ec106b8ee040e176127445e361acbde9aae7eff8", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, predecessor_provisional_sha: "6b26c80864411d19f8921aa17322ec27700bb853", predecessor_ready_sha: "912ddda84264eeb032a5a7b1e7e5ee9233dd8b71", predecessor_factual_delta: title_body_exact_same_metadata_only}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3294

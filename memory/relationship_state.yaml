@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 680
+last_updated_chapter: 682
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3647,3 +3647,18 @@ chapter_680_arc054:
   family: "妹妹对三轮车与挂绳人的碎片记忆不确定姓氏，母亲不迫其辨认；外甥纸仓门日常与亡父修椅旧记忆延续。"
   neighbor: "杜阿姨出于自愿公开私本极窄局部，母女接受勾为月底核物的新解释并不索整页旧住户隐私。"
   professional: "中心限项记旧册内容与证人当代解释，不能变成认证搬家历史或解封依据。"
+
+
+chapter_681_arc054:
+  chapter: 681
+  source_sha: "6b26c80864411d19f8921aa17322ec27700bb853"
+  mother_daughter: "母亲想再听亡夫原声而非先截取铁角木箱，晓漫记起幼时嫌父亲啰嗦而选择留完整父亲话语；母女接纳暂不知箱体身份。"
+  family: "妹妹因外甥旧物视频找到后刻光盘，自愿带给母女完整播放；原盘归妹妹、复制件私存且不公开童年肖像，外甥纸仓门纸船及旧菜包维持日常。"
+  professional: "中心仅限项登记有源家庭录像不替家人认定四楼现物或批准入封存屋。"
+
+chapter_682_arc054:
+  chapter: 682
+  source_sha: "ec106b8ee040e176127445e361acbde9aae7eff8"
+  mother_daughter: "晓漫协助母亲读旧回执编号却不代办，晚间与母亲共同看有源旧维修照片和家族视频承认仅相似不能证同位；父亲录音和芋头饼提供普通亲情互动。"
+  family: "妹妹保留原刻盘，外甥纸仓门补彩纸与家庭修补记忆相映照。"
+  professional: "物业档案岗经本户核权有范围提供历史资料，夜班仅记录，不突破今日四楼专业封存权限。"

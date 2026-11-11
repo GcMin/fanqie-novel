@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 680
-current_stage: chapter680_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0680.md
-current_source_sha: e7c84763c76b479f3a208477f8d37037f3b3f103
-current_review_path: reader_reviews/0680_e7c84763.md
+current_chapter: 682
+current_stage: chapter682_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0682.md
+current_source_sha: ec106b8ee040e176127445e361acbde9aae7eff8
+current_review_path: reader_reviews/0682_ec106b8e.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter680_stageA_rebind679_formal_ready_new_sha_rereview_QA_pass
+last_action: chapter682_stageA_rebind681_ready_new_sha_rereview_QA_pass
 last_action_date: "2026-11-11"
 last_error: null
-last_diff_summary: "本章初稿精确依赖第677章正式ready Git blob；完整独立两遍Reader0/0/2，无正文修订；Continuity/Style/Meaningful QA PASS；待精确候选CI结构校验。"
+last_diff_summary: "681旧Draft与Ready仅交付元数据不同、小说正文标题逐字一致；682仅重绑前章Ready SHA并重做两遍Reader，正文无改；独立内容QA通过，待精确候选结构CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 5fc45a11ea75d322c3be48aecd8a359ca976f8d3
+current_review_source_sha: ec106b8ee040e176127445e361acbde9aae7eff8
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7358,3 +7358,29 @@ combined_audit_chapter_680_20261111:
   predecessor_factual_delta: title_body_exact_same_metadata_only
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+
+combined_audit_chapter_681_20261111:
+  chapter: 681
+  source_sha: "6b26c80864411d19f8921aa17322ec27700bb853"
+  review_path: reader_reviews/0681_6b26c808.md
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  body_revisions: 0
+  qa_gate: pass
+  structural_gate: exact_candidate_ci_required
+
+combined_audit_chapter_682_20261111:
+  chapter: 682
+  original_source_sha: "6ef43b3f5a42f87cbaf75a7fb129acc868c30e49"
+  initial_review: reader_reviews/0682_6ef43b3f.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a_used: 1
+  change: "rebind predecessor from 681 provisional Draft SHA to Ready SHA; no body changes"
+  new_source_sha: "ec106b8ee040e176127445e361acbde9aae7eff8"
+  new_review: reader_reviews/0682_ec106b8e.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  body_revisions: 0
+  qa_gate: pass
+  structural_gate: exact_candidate_ci_required
