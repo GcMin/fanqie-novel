@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 687
+title: "纸仓库的声音由谁来讲"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "bbf628eb3a9faba9431f61b5a57ce859651ca4c1"
+source_draft_sha: "85d4c656831d6cd5a9b0a4983526fbb2d1bfd89d"
+initial_reader_review: "reader_reviews/0687_bbf628eb.md"
+reader_review: "reader_reviews/0687_85d4c656.md"
+depends_on_chapter: 686
+depends_on_source_sha: "b756a1639844171ae6642ac02e059cebd834064c"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day55008:41—Day551清晨"
+summary: >-
+  Day55008:41母亲在禾汀首层同房，甲乙两箱不搬、真付住期至Day551中午、两卡有效，此后无新商户实款。妹妹与晓漫告知外甥想截亡夫旧家庭视频“别踩那条纸”为要在班里看的纸仓库演示配音；家人将灰U盘里已确认家用拼接的旧影像、私人童年肖像及原声许可和班级公开传播区别开，不允许未授权截取。11:06孩子承认紧张时自己声音太快，母亲约下午当面演示。13:00物业仅确认房款止于Day55112:00，母亲要求次日上午给真实可执行的下期支付或安全夜间出入与两箱搬运方案，未把查询说成付款。16:22妹妹带孩子纸仓库来，双小车撞门，外甥自己发明“进/出”可翻转牌并第三遍用自身声音录成“纸仓库第三版”，未加外公旧声也未加旧家庭影像，保留失败前两版。18:00晓漫下班认可孩子新设计，家庭只同意未来获许可时在家人范围听完整旧片。晚饭后晓漫征得母亲同意开始手机录音，母亲回顾今天修纸门及自身蓝纸船，在开口停顿数秒后主动决定保留原录音，有限共享给晓漫和妹妹并许可外甥家中听，禁止传班级群。Day55021:17没有新住房支付或四楼安全证据不做虚假工单；Day55107:00以后仍待中午实际住期处理。仁合里四楼双封存与撤清运、五楼旧漏源、第七项箱体及2019/F014均无新证。
+meaningful_state_changes:
+  - "外甥自主解决纸仓库窄门双车相撞，翻转进出牌并用自己的声音完成可供班级展示第三版，保留前两版以体现修改历程。"
+  - "家庭区分亡夫拼接旧影像许可与现代班群传播，未使用外公原声做外部配音；母亲首次自愿录新家庭声音，保留停顿并限制家人私听。"
+knowledge_updates:
+  - "母亲、晓漫、妹妹和外甥知道第三版视频仅用孩子声音；妹妹旧灰U盘及CD仍私人控制，家中一/家中四原素材未获找到，箱体入户仍未知。"
+  - "物业仅知Day551中午住房到期未续实款，夜班当天未收到虚构的新物证或住房成果。"
+relationship_updates:
+  - "晓漫支持母亲保有本人同意权，妹妹守原片许可，外甥从模仿亡夫原声转为用自己的声音表达；母亲不再只保存亡夫旧声，亦主动留下自己当下讲述。"
+foreshadowing_updates:
+  - "Day551中午实付住宿即将到期未有新商户款；旧视频源素材、旧七号箱与F014旧信旧款及2019伏笔均未新增确证。"
+ending_state: "Day551清晨母亲仍在禾汀首层原房，Day55112:00住房到期待核；外甥第三版纸仓库完成，母亲私人录音仅家人获准收听；四楼独封禁返住清运仍撤。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "bbf628eb3a9faba9431f61b5a57ce859651ca4c1", final_draft_sha: "85d4c656831d6cd5a9b0a4983526fbb2d1bfd89d", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: predecessor_sha_metadata_rebind_after_fact_diff}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3482
