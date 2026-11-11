@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 685
+title: "中午的答复到了，房钱下午才进账"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "9f480a53add2e12dc9e628c8da804858cda41974"
+reader_review: "reader_reviews/0685_9f480a53.md"
+depends_on_chapter: 684
+depends_on_source_sha: "6b417cbc12d4b4603f9630938c993be1780e5497"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day54808:14—Day54907:05"
+summary: >-
+  Day54808:14母亲在禾汀首层同房核前日Day548误离店短信已更正，商户旧房晚与两卡至Day549午，新一期尚无付款。09:08前台核无新增实款、原房可询价非锁单；09:46物业责任岗说优先保留但财务未付，10:23拟回复擅写临时安置全部处理完毕，母亲拒签虚假总完结并要求保留原时点。11:56具名修订分项答复实际送达，列同房两晚申请待付、如果未付须另作满足夜门和两箱搬运的转住方案，原旧房安全赔责另办；前台同时确认仍无实收。晓漫12:20电话支持但不代物业转运；13:07经理提二楼备选因夜门刷卡未核而未搬。14:48仅财务支付指令，15:18禾汀商户真正收到物业支付的Day54912:00至Day55112:00连续两晚同房款，原Day539款不冲销；15:34甲乙两卡分别真实开原门，16:02有责后续凭据限项送达且保留中午未付款版。家人旧灰USB/后刻CD私源不改变原卡拍摄日及第七项铁角箱身份未证，母女只讨论日后征妹妹同意再作家庭原声索引。20:54本人主动向夏宁周衡梁策限项回拨，Day54907:05交班。四楼旧12cm观察口亡夫板分封、单照明有限其余水电隔离全屋禁返住、Day536清运仍撤，五楼旧漏源、F014旧号旧通知旧押金及2019旧卷F003F008M004M005均无新证。
+meaningful_state_changes:
+  - "Day54811:56具名分项答复真正到本人渠道而当时未付，15:18禾汀商户真收Day549—Day551连续两晚、15:34两卡真开并保留旧账。"
+  - "物业误写临时安置已全面结案被纠正；Day551之后需另答复，旧房修复赔责及历史卷未结。"
+knowledge_updates:
+  - "母亲亲核两次商户账和门卡、晓漫傍晚见新收据，仅知本次两晚真付；夜班于Day54820:54母亲回拨后才知道限项事实。"
+  - "妹妹仍控制旧家影像许可，未知摄影原卡和旧第七项铁角箱最终去向及当下现物。"
+relationship_updates:
+  - "母亲不让晓漫请假代物业转运，女儿下班带青菜陪伴并提出仅限家庭讨论父亲原声索引；妹妹原盘与许可未被越过。"
+foreshadowing_updates:
+  - "Day551午成为真实的新临住期限，不解决四楼安全及旧款；F014旧号源/本人旧年收信/历史押金末端实款和2019旧卷无跨源新证。"
+ending_state: "Day54907:05交班；禾汀同一首层原房商户真付至Day551午，两卡真开双箱原位；四楼禁返住清运不复、旧箱和旧钱来源仍待证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "9f480a53add2e12dc9e628c8da804858cda41974", final_draft_sha: "9f480a53add2e12dc9e628c8da804858cda41974", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3313

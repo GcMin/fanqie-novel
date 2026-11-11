@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 684
-last_reviewed_title: "退房提醒早了一天"
-last_source_path: chapters/draft/0684.md
-last_source_sha: 3715d0b768a3359ad5e7ff25942f2a4358fefa81
-last_review_path: reader_reviews/0684_3715d0b7.md
+last_reviewed_chapter: 685
+last_reviewed_title: "中午的答复到了，房钱下午才进账"
+last_source_path: chapters/draft/0685.md
+last_source_sha: 9f480a53add2e12dc9e628c8da804858cda41974
+last_review_path: reader_reviews/0685_9f480a53.md
 last_reviewed_at: "2026-11-11"
-reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
+reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 683
-depends_on_source_sha: 54bfd3990fee3c4b7cdd7b276d05ea8ebf331b35
-dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: 54bfd3990fee3c4b7cdd7b276d05ea8ebf331b35
+depends_on_chapter: 684
+depends_on_source_sha: 6b417cbc12d4b4603f9630938c993be1780e5497
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 6b417cbc12d4b4603f9630938c993be1780e5497
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8388,4 +8388,21 @@ combined_audit_chapter_684_20261111:
   predecessor_factual_delta: title_body_exact_same_metadata_only
   dependency_status: verified_ready_compatible_body
   continuity_style_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_685_20261111:
+  chapter: 685
+  title: "中午的答复到了，房钱下午才进账"
+  source_sha: "9f480a53add2e12dc9e628c8da804858cda41974"
+  final_review: "reader_reviews/0685_9f480a53.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  qa_gate: pass
+  stage_a_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "6b417cbc12d4b4603f9630938c993be1780e5497"
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

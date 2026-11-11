@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 684
+last_updated_chapter: 685
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3675,3 +3675,11 @@ chapter_684_arc054:
   mother_daughter: "晓漫远程帮母亲核更正单日期，不代其退房、签字或承担物业续费责任，晚间来禾汀共饭。"
   family: "妹妹拒让亲戚看家用USB私片以认七号箱，外甥纸仓门小坡道试错与丈夫旧菜包针脚延续。"
   professional: "前台有责更正Day548误离店短信且保留原错，物业只承诺Day548午前答复商户续款及夜间通路搬运项目，尚未实际执行。"
+
+
+chapter_685_arc054:
+  chapter: 685
+  source_sha: "9f480a53add2e12dc9e628c8da804858cda41974"
+  mother_daughter: "母亲不让晓漫请假被写成女儿自行承担物业搬运，女儿理解并下班带青菜到禾汀核实际商户收据，两人继续以事实核查代替代签。"
+  family: "母亲尊重妹妹保留原USB及录音的同意范围，晓漫提出仅先商议家人听父亲原声索引；纸船和亡夫旧菜包的外歪针脚及女儿蓝布仍在。"
+  professional: "母亲接受物业中午对尚未付款的真实答复但拒绝整体结案，向禾汀前台分别核商户实收和双卡真开；与夜班只交流本人已证限项成果。"

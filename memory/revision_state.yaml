@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 684
-current_stage: chapter684_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0684.md
-current_source_sha: 3715d0b768a3359ad5e7ff25942f2a4358fefa81
-current_review_path: reader_reviews/0684_3715d0b7.md
+current_chapter: 685
+current_stage: chapter685_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0685.md
+current_source_sha: 9f480a53add2e12dc9e628c8da804858cda41974
+current_review_path: reader_reviews/0685_9f480a53.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter684_stageA_dependency_rebind_new_sha_reader_QA_pass
+last_action: chapter685_initial_reader_QA_pass_no_revision
 last_action_date: "2026-11-11"
 last_error: null
-last_diff_summary: "683旧Draft与Ready仅元数据差异，标题和正文全部一致；684只重绑依赖SHA及计划，正文0字改动，独立新SHA Reader0/0/2与QA PASS，待精确候选结构CI。"
+last_diff_summary: "685精确依赖第684章正式Ready SHA；首次Reader Pass A/B 0/0/2，独立Continuity/Style/Meaningful QA PASS，正文0字修改，待精确候选CI结构校验。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 3715d0b768a3359ad5e7ff25942f2a4358fefa81
+current_review_source_sha: 9f480a53add2e12dc9e628c8da804858cda41974
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7415,4 +7415,20 @@ combined_audit_chapter_684_20261111:
   predecessor_ready_sha: "54bfd3990fee3c4b7cdd7b276d05ea8ebf331b35"
   predecessor_factual_delta: title_body_exact_same_metadata_only
   content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_685_20261111:
+  chapter: 685
+  original_source_sha: "9f480a53add2e12dc9e628c8da804858cda41974"
+  final_draft_sha: "9f480a53add2e12dc9e628c8da804858cda41974"
+  final_review: "reader_reviews/0685_9f480a53.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  revision_reason: no_fix_required
+  content_qa: pass
+  predecessor_ready_sha: "6b417cbc12d4b4603f9630938c993be1780e5497"
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main
