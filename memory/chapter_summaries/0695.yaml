@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 695
+title: "备注里留着一句“先问过姐姐”"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "075126025f6cdb0d36bb07d9fe4dc757177e6ef4"
+source_draft_sha: "075126025f6cdb0d36bb07d9fe4dc757177e6ef4"
+reader_review: "reader_reviews/0695_07512602.md"
+depends_on_chapter: 694
+depends_on_source_sha: "24132bd3fb5e14556b31fc81f3d7cd83f161b625"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day55808:32—Day55907:06"
+summary: >-
+  Day55808:32母亲住桥北行舍首层、甲乙两箱双房卡原位，物业商户Day554已真付七晚续住到Day56112:00，新期限夜门双卡此前21:12实开；仁合里四楼仍禁返住。妹妹决定本人只读此前未打开的剪片备注.txt，不动箱边视频；晓漫在单位补完昨日请假交接、仅接姨妈电话并尊重限权。13:58妹妹携裂口旧盘到维修店书面指定只读单个文字文件、不预览其余视频、不复制上传扫描恢复、异常即停；14:17只读读到旧文字“箱边先放着。镜头里有别人，先问过姐姐再定”和“给孩子看的那版不接箱边”，没有姓名或摄录日期；14:31关闭卸载、原盘和个人抄录归妹妹。文字作者写入日、他人身份及当年姐姐有无同意均无法证实。16:20妹妹到桥北自愿只转述限定两句，姐姐母亲不记得当年是否被询，也不因这句旧字追认许可；18点多晓漫仅经母亲获转述且明确不能推出已见箱边视频或旧七号箱到楼。外甥利用双脚钉修正纸仓翻牌，经四次真通过才取下维修中，另将记录收入修理本。Day55907:06妹妹仍保有原盘及后续是否看箱边的决定权，桥北住宿付款仅到Day561中午，四楼封存及Day536撤清运未变，五楼旧漏源、七号铁角箱终点、F014旧年通知/号码/押金历史实退、2019旧卷均无新增跨源实证。
+meaningful_state_changes:
+  - "剪片备注.txt首次由妹妹本人限项读到文字，‘箱边’曾被标注待问姐姐且可能涉及未指明的第三人，但不构成历史或当下许可及原摄影证明。"
+  - "外甥自主修好纸仓翻牌并四次实测后移除维修中，与694修理失败形成明确实质进展。"
+knowledge_updates:
+  - "妹妹亲见文字，仅能说旧盘此刻有该备注；母亲只获妹妹限定转述，晓漫只获母亲转述，箱边画面、文字作者时间、他人身份和是否曾获姐姐同意均未知。"
+  - "物业/中心未得私人旧盘与新文字，没有任何四楼准入或清运新许可。"
+relationship_updates:
+  - "妹妹不把过去的自责变成当年事实，姐姐不替过去补授权，晓漫不代签；外甥以实测自行解除维修中。"
+foreshadowing_updates:
+  - "箱边可能包含未获许可的第三人仍待本人另行决定；F014及2019相关证据边界不变。"
+ending_state: "Day55907:06桥北已付到Day56112:00、两箱两卡仍在；妹妹持裂口盘与手抄记录，扇椅已经妹妹和晓漫在许可内看过、剪片备注仅妹妹本人本次读过、箱边AVI无人打开；仁合里旧四楼仍封存禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "075126025f6cdb0d36bb07d9fe4dc757177e6ef4", final_draft_sha: "075126025f6cdb0d36bb07d9fe4dc757177e6ef4", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2989

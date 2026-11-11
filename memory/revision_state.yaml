@@ -7592,3 +7592,21 @@ combined_audit_chapter_694_20261112:
   predecessor_factual_delta: metadata_only_body_identical
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_695_20261112:
+  chapter: 695
+  stage: no_revision_needed
+  source_before: "075126025f6cdb0d36bb07d9fe4dc757177e6ef4"
+  source_after: "075126025f6cdb0d36bb07d9fe4dc757177e6ef4"
+  changes: []
+  current_review: "reader_reviews/0695_07512602.md"
+  initial_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "24132bd3fb5e14556b31fc81f3d7cd83f161b625"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
