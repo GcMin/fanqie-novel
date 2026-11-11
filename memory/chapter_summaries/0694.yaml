@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 694
+title: "欠一次的那句原话"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "ee7cc413a52ecea8e2251aed0beae583b01d9f77"
+source_draft_sha: "2448fa0f6474a73cbbe55b15387822a1f403de4d"
+initial_reader_review: "reader_reviews/0694_ee7cc413.md"
+reader_review: "reader_reviews/0694_2448fa0f.md"
+depends_on_chapter: 693
+depends_on_source_sha: "4bd5dec10ba808d4d04963e6f24a19997e47d85b"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day55708:06—Day55807:08"
+summary: >-
+  Day55708:06妹妹将昨日“扇椅”亲眼所见的手写记忆片段发晓漫并说明不是逐字誊录；晓漫虽盼听父亲亲口说“修椅子的欠你一次”，先在笔记中标二手转述。桥北行舍母亲首层房间甲乙箱与双卡不动，Day554商户实际付款连住七晚到Day56112:00。中午母亲与妹妹电话谈幼年晓漫方格纸欠条，提醒未拍落笔不能断真写过，也不能去封存的仁合里四楼找纸。晓漫上午正常上班、午休向主管请两小时事假交接后，14:40到维修店与妹妹会面，妹妹另签本次仅允晓漫在场看JZ4_扇椅.avi一遍、不复制/截屏录屏/上传/扫描修复或开JZ4_箱边.avi及剪片备注.txt，旧盘风险由师傅明确说明。14:58只读挂载成功再次播放约2分46秒，晓漫这次本人见童年自己数螺丝、父亲修藤椅并说欠她一次，妹妹年轻时喊先别搬明确指地上有钉子的椅子。画面没拍到孩子真写欠条，摄录日期、原摄影机、此前剪辑链仍未知。师傅播完退出卸载，不主动留副本，裂盘及原卡选片纸仍妹妹本人分持，晓漫手里没有视频文件且家族群/班级纸仓不外传。姐妹路边糖水聊保留私人观看许可，晚间晓漫到桥北与母亲吃饭，外甥纸仓进出牌维修未成功仍贴维修中。Day55807:08新住房真实房期仅到Day561中午；旧铁角木箱最终是否进四楼、现今位置及F014旧联系人号码原始来源、历史本人旧通知真收、旧押金全渠道实际末端退款与2019主线均未增跨源证；仁合里四楼独封禁返住与Day536撤销清运持续。
+meaningful_state_changes:
+  - "晓漫从姨妈口述升级为本人单次被许可观看JZ4扇椅，首次亲耳听到父亲说修椅子的欠你一次；童年欠条是否落笔仍无影片证实。"
+  - "妹妹独立授予晓漫本次观看但不授权任何副本及对外传播，箱边/备注仍未查，旧盘和旧卡不离手；晓漫能据本人耳闻记录而不能把内容认成旧箱原摄影证据。"
+knowledge_updates:
+  - "妹妹与晓漫两人已实际观看扇椅片但仅妹妹持原盘，晓漫没有副本；母亲仅知女儿晚间口述与丈夫生前性格。"
+  - "物业、夜班中心及外甥均未获得本次私人视频，不应以亲人记忆追认旧七号箱到四楼。"
+relationship_updates:
+  - "妹妹从仅本人观看扩展为限晓漫一人在场看一遍、仍不许复制，晓漫遵守且体谅旧盘私人影像其余亲友的隐私；母亲不为找儿时方格纸突破封存门槛。"
+foreshadowing_updates:
+  - "片内先别搬仅与地上有钉子的椅子关联，未触及旧箱搬家过程；其它文件、家中四源头与F014/2019继续保持未证。"
+ending_state: "Day55807:08桥北首层已付到Day561中午甲乙两箱双卡在，妹妹保存裂盘家中一旧卡及选片纸，扇椅已由妹妹及晓漫本人各限权看过，未复制外传；旧箱及四楼封存和旧历史疑问仍在。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ee7cc413a52ecea8e2251aed0beae583b01d9f77", final_draft_sha: "2448fa0f6474a73cbbe55b15387822a1f403de4d", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: workday_leave_and_predecessor_ready_rebind, predecessor_draft_sha: "e52e4275504ab9a9600c0fae87a4431f7cad0eff", predecessor_ready_sha: "4bd5dec10ba808d4d04963e6f24a19997e47d85b", predecessor_factual_delta: metadata_only_body_identical}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3086
