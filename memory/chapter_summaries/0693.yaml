@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 693
+title: "修椅子的那句“先别搬”"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "e52e4275504ab9a9600c0fae87a4431f7cad0eff"
+source_draft_sha: "e52e4275504ab9a9600c0fae87a4431f7cad0eff"
+reader_review: "reader_reviews/0693_e52e4275.md"
+depends_on_chapter: 692
+depends_on_source_sha: "8feebf511264789a6bc7b2ede1d2f43fdb30c56e"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day55608:14—Day55707:11"
+summary: >-
+  Day55608:14母亲仍住桥北行舍首层，Day55411:19物业商户真付七晚至Day56112:00，两房卡曾于Day55421:12实测可开夜门、甲乙箱不搬。Day55607:02妹妹原仅表愿将来本人在场先看扇椅、不许别人代约；10:21她自行电话约维修店14:40，14:28到店另写明只准本地当场播放旧片待选中的JZ4_扇椅.avi，不读JZ4_箱边.avi或剪片备注.txt，不复制上传扫描修复，遇故障立即停。师傅解释只读不能保证无临时数据及坏盘不出错，14:52按该许可只读挂载并实际播放扇椅约2分46秒，画面呈旧院姐夫修藤椅、幼年晓漫数螺丝拿折扇、父亲笑说修椅子欠她一次；镜头外年轻妹妹喊先别搬并明确是因为地上钉子、不要挪椅子桌子。妹妹由此确认该一次原声语境不是旧第七项铁角木箱搬运命令，但不据此推断当年所有类似叫喊或箱体最终入屋。维修师傅播放完退出安全卸载，无主动保存视频副本、第二遍、恢复或上传，硬盘及本人纸记仍由妹妹带走；不能因此认原摄影机、拍摄日或后续剪接链。17:07晓漫下班时只听姨妈主动口述，尚无视频副本；晚间与母亲共饭不以家影替旧屋物证，Day55707:11妹妹纸上记录扇椅已看、箱边备注未开，允下一次家人观看前仍由本人另定范围。桥北实付住期仅到Day561中午；仁合里四楼12cm口与亡夫饰板独封、整屋禁返住、Day536撤清运未复，五楼旧漏源、第七项旧箱去向、F014旧号旧通知旧押金全部渠道实款及2019主线仍待证。
+meaningful_state_changes:
+  - "旧盘从只能查看目录进入本人限定扇椅单文件播放成功，首次亲听年轻妹妹说先别搬及姐夫与幼年晓漫修椅子的欠一次玩笑。"
+  - "先别搬在这一段明确指椅子，不构成第七项铁角木箱的搬运结论；其他文件权限未开放，晓漫只获口述，未来家庭观看需本人重新同意。"
+knowledge_updates:
+  - "妹妹本人亲见扇椅片2:46与台词；晓漫17:07只知姨妈口述，母亲晚饭听闻，无人获本次视频副本或原摄影来源证。"
+  - "维修人员只知授权播放的本地内容及操作限制，物业和夜班中心没有接获旧盘内容；第七项箱及F014旧年事实继续未知。"
+relationship_updates:
+  - "母亲尊重妹妹本人选择旧盘查看和留下未证问题；晓漫愿意等姨妈自行决定是否让她听父亲欠一次原声，不越权索取视频。"
+foreshadowing_updates:
+  - "JZ4扇椅虽本次播放成功不代表原摄影文件同一性；箱边和备注未开，旧七号箱空格未填，F014与2019仍无跨源证。"
+ending_state: "Day55707:11桥北首层住期已付至Day561午甲乙箱两卡在；妹妹持裂盘及纸记扇椅看过、未复制未鉴定，其它文件仍封闭，四楼禁返住及撤清运未变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "e52e4275504ab9a9600c0fae87a4431f7cad0eff", final_draft_sha: "e52e4275504ab9a9600c0fae87a4431f7cad0eff", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3364
