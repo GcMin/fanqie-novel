@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 694
-last_reviewed_title: "欠一次的那句原话"
-last_source_path: chapters/draft/0694.md
-last_source_sha: 2448fa0f6474a73cbbe55b15387822a1f403de4d
-last_review_path: reader_reviews/0694_2448fa0f.md
+last_reviewed_chapter: 696
+last_reviewed_title: "没露面的人，先留一个位置"
+last_source_path: chapters/draft/0696.md
+last_source_sha: a9540821399c4dc857806072dcb2e1d1165f7bbd
+last_review_path: reader_reviews/0696_a9540821.md
 last_reviewed_at: "2026-11-12"
 reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 693
-depends_on_source_sha: 4bd5dec10ba808d4d04963e6f24a19997e47d85b
-dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: 4bd5dec10ba808d4d04963e6f24a19997e47d85b
+depends_on_chapter: 695
+depends_on_source_sha: 2d836b028e29e7a56a5058f3d5fa07831533786d
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 2d836b028e29e7a56a5058f3d5fa07831533786d
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8580,6 +8580,23 @@ combined_audit_chapter_695_20261112:
   stage_a_used: 0
   body_revisions: 0
   predecessor_ready_sha: "24132bd3fb5e14556b31fc81f3d7cd83f161b625"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_696_20261112:
+  chapter: 696
+  title: "没露面的人，先留一个位置"
+  original_sha: "7bfa80fdb90365f6d65c578b9c1136da7c83ad77"
+  source_sha: "a9540821399c4dc857806072dcb2e1d1165f7bbd"
+  initial_review: "reader_reviews/0696_7bfa80fd.md"
+  current_review: "reader_reviews/0696_a9540821.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 1
+  reason: fixed_day560_morning_reminder
+  predecessor_ready_sha: "2d836b028e29e7a56a5058f3d5fa07831533786d"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

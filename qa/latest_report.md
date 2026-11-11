@@ -1,6 +1,7 @@
-# 最新审核：第632章｜2026-11-09
+# 最新审核：第696章｜2026-11-12
 
-- 初稿SHA `96e807f36f83f1f57eb8f565df5216b03ec15fc8` 双遍Reader 0/1/2，初审唯一MAJOR为前631章provisional草稿依赖。经实核631原draft `4c4eff489d28ee9573b938b556866085af280618`与正式ready `6d362cec5856da68cb40a2d58c2f3bb7cdf7393e` 标题和小说正文逐字一致，Stage A仅重绑632 Front Matter/章纲正式依赖，小说正文0字变更。
-- 修订后0632草稿 blob `cefc4f6205678e953b31987cc02ae673a7eebd58` 重新独立Pass A再Pass B，`reader_reviews/0632_cefc4f62.md` 0 BLOCKER / 0 MAJOR / 2 MINOR keep/none，有效3053字符；独立Continuity/Style/Meaningful Change QA PASS，详见 `qa/0632_report.md`。
-- Day495 11:07河安商户真收接续三晚到Day498中午、11:26双卡实开；11:44旧押金清算附件另获限本户许可、13:18双岗实核某批支付表与银行退回凭据，关联原票号的**该次**批次未有效执行，不证后续人工核对或其他渠道从未退付。母亲和妹妹已确认周末探亲、女儿正常工作。四楼禁返住、公区白痕灰细侧接与2019旧卷均无新证。
-- 内容QA不能替代结构门禁；仅当精确候选commit的GitHub CI真正成功运行离线测试及 `python -m publisher.check_local --repo .` 才可用 `expected_sha`、`force:false` 非强制更新main，不能先报放行。
+- 原始Draft SHA `7bfa80fdb90365f6d65c578b9c1136da7c83ad77`，独立Reader 0 BLOCKER/1 MAJOR/2 MINOR；Stage A仅局部修正Day560清晨房期提醒时点。
+- 新Draft SHA `a9540821399c4dc857806072dcb2e1d1165f7bbd`，独立重新Pass A/B 0/0/2、keep/none；独立Continuity/Style/Meaningful QA PASS，3690有效字符，详见`qa/0696_report.md`。
+- 与第695章正式Ready blob `2d836b028e29e7a56a5058f3d5fa07831533786d`精确依赖，没有旧前章事实差异。
+- Day559安全前置资料请求仅真收件并纠正旧木箱误列，妹妹咨询裂盘风险后不新增通电备份；Day560桥北付至Day561中午而以后无真收，仁合里四楼仍双封禁返住，Day536清运撤销持续。
+- **本内容QA不能替代候选精确Commit真实结构CI。只有SUCCESS才能将章节作为正式main Ready放行。**

@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 694
-current_stage: chapter694_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0694.md
-current_source_sha: 2448fa0f6474a73cbbe55b15387822a1f403de4d
-current_review_path: reader_reviews/0694_2448fa0f.md
+current_chapter: 696
+current_stage: chapter696_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0696.md
+current_source_sha: a9540821399c4dc857806072dcb2e1d1165f7bbd
+current_review_path: reader_reviews/0696_a9540821.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter694_workday_leave_and_predecessor_ready_rebind_new_sha_review_qa_pass
+last_action: chapter696_stage_a_reminder_fix_new_sha_qa_pass
 last_action_date: "2026-11-12"
 last_error: null
-last_diff_summary: "694初Reader0/2/2，StageA只补晓漫下午赴店工作请假交接及前693Ready SHA重绑；693原Draft与Ready小说正文逐字一致，只有交付Front Matter差异，694新SHA 2448fa0f独立双遍Reader0/0/2及内容QA通过，候选CI仍需实测。"
+last_diff_summary: "696初0/1/2 StageA只改Day560清晨提醒时点，新SHA a9540821399c4dc857806072dcb2e1d1165f7bbd重新双遍Reader0/0/2且独立QA PASS，精确候选CI待核。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 2448fa0f6474a73cbbe55b15387822a1f403de4d
+current_review_source_sha: a9540821399c4dc857806072dcb2e1d1165f7bbd
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7607,6 +7607,25 @@ combined_audit_chapter_695_20261112:
   stage_c_used: 0
   body_revisions: 0
   predecessor_ready_sha: "24132bd3fb5e14556b31fc81f3d7cd83f161b625"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_696_20261112:
+  chapter: 696
+  stage: local_revision
+  source_before: "7bfa80fdb90365f6d65c578b9c1136da7c83ad77"
+  source_after: "a9540821399c4dc857806072dcb2e1d1165f7bbd"
+  changes: [fix_day560_morning_reminder]
+  initial_review: "reader_reviews/0696_7bfa80fd.md"
+  current_review: "reader_reviews/0696_a9540821.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  predecessor_ready_sha: "2d836b028e29e7a56a5058f3d5fa07831533786d"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
