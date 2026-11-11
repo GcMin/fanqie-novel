@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 691
-last_reviewed_title: "七晚房钱到账，旧盘先定查看范围"
-last_source_path: chapters/draft/0691.md
-last_source_sha: 5656537bb7b8fe4dd99ff385922a0ff97b50f1a7
-last_review_path: reader_reviews/0691_5656537b.md
+last_reviewed_chapter: 692
+last_reviewed_title: "旧盘亮起两个名字，画面一个没看"
+last_source_path: chapters/draft/0692.md
+last_source_sha: 320ec8681c79517c64b8466dd5e1e7f640364bba
+last_review_path: reader_reviews/0692_320ec868.md
 last_reviewed_at: "2026-11-12"
 reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
 recommendation: keep
@@ -8516,5 +8516,22 @@ combined_audit_chapter_691_20261112:
   predecessor_ready_sha: "68fdbe291e73f91438dc4c1df7bdf7701d1f041e"
   predecessor_factual_delta: phone_hearing_corrected_no_conflict
   dependency_status: verified_ready_compatible_body
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_692_20261112:
+  chapter: 692
+  title: "旧盘亮起两个名字，画面一个没看"
+  original_sha: "cd76afb710af6dd1e7fbbb1dba398e973dfde90a"
+  source_sha: "320ec8681c79517c64b8466dd5e1e7f640364bba"
+  initial_review: "reader_reviews/0692_cd76afb7.md"
+  current_review: "reader_reviews/0692_320ec868.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 1
+  reason: corrected_sister_brother_in_law_kinship_reference
+  predecessor_ready_sha: "9ee7ee850344751ae5c02f45f6eda9a6fe9c5b86"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

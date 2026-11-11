@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 692
+title: "旧盘亮起两个名字，画面一个没看"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "cd76afb710af6dd1e7fbbb1dba398e973dfde90a"
+source_draft_sha: "320ec8681c79517c64b8466dd5e1e7f640364bba"
+initial_reader_review: "reader_reviews/0692_cd76afb7.md"
+reader_review: "reader_reviews/0692_320ec868.md"
+depends_on_chapter: 691
+depends_on_source_sha: "9ee7ee850344751ae5c02f45f6eda9a6fe9c5b86"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day55508:17—Day55607:02"
+summary: >-
+  Day55508:17母亲仍住桥北行舍首层，物业商户Day55411:19真付Day55412:00到Day56112:00连续七晚，前夜21:12新期限两卡真开夜门；甲乙箱不搬。妹妹09:42持蓝布套裂口旧盘和前夜限定范围到维修店，要求本人在场、只读、停自动缩略图、仅指定“旧片待选”目录、无搜索/修复/预览/复制/上传且异常即停。10:09技术人员检查外壳接口后以只读适配器识别设备，10:23只列目录可见的JZ4_扇椅.avi约132MB、JZ4_箱边.avi约46MB与剪片备注.txt三项名字；妹妹拒绝查看视频或备注，只手写记录，不拍屏、不留盘，10:48原盘归本人。列表不证明文件能播放、原摄影设备与拍摄日期，也不证“箱边”对应旧第七项铁角箱。中午晓漫仅收到姨妈手写局部记录，劝不把文件名当原片；17:40母亲和晓漫到妹妹家对照清单，外甥修纸仓进出翻牌，妹妹保留姐夫旧声的私人家忆而不把它强作箱体物证，继续保持全部文件内容许可由本人决定。20:36母亲返桥北未将私人目录交物业中心，也不变更仁合里四楼独封禁返住及Day536清运撤销。Day55607:02妹妹只表达以后本人在场有限查看扇椅文件的意愿，不为箱边/备注授权、不预约也未看内容。F014旧号源、旧通知本人真收、旧押金历史各渠道实际退付及2019F003F008M004M005没有新跨源证。
+meaningful_state_changes:
+  - "旧盘从未上电进入一次本人限定的实际只读目录核验，真实出现三项名称与两视频大小，但未读取内容、未证原摄影来源。"
+  - "妹妹把未来授权进一步限定为本人在场先看扇椅单文件，箱边与备注不开放，家人没有越权代行。"
+knowledge_updates:
+  - "妹妹本人亲见指定目录和三项文件名、两视频大小；晓漫只知姨妈授权转述的手写清单，母亲傍晚得知同一有限信息；任何人都未知内容/原摄影日期/第七号旧箱最后入户与今物。"
+  - "维修师傅只知此次授权范围与目录可见，不知道原片同一性；物业/夏宁周衡梁策未收到私人文件目录，也没有新旧屋准入。"
+relationship_updates:
+  - "妹妹独立确定旧盘查看边界并拒技术员建议预览，晓漫和母亲不以追查姐夫旧声或七号箱逼迫开放文件；外甥以纸仓翻牌和红薯延续家人真实生活。"
+foreshadowing_updates:
+  - "JZ4扇椅/箱边只是可核旧转存目录候选，备注未读、拍摄日期及七号铁角箱最后去向仍待证；F014和2019旧卷不升级。"
+ending_state: "Day55607:02桥北同首层两卡甲乙箱不变，真房费到Day561午；裂口旧盘归妹妹且仅见目录名，未来扇椅单文件获本人初步许可而未预约未播放；四楼封存禁返住清运仍撤。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "cd76afb710af6dd1e7fbbb1dba398e973dfde90a", final_draft_sha: "320ec8681c79517c64b8466dd5e1e7f640364bba", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: corrected_sister_brother_in_law_reference}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3446

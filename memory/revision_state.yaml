@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 691
-current_stage: chapter691_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0691.md
-current_source_sha: 5656537bb7b8fe4dd99ff385922a0ff97b50f1a7
-current_review_path: reader_reviews/0691_5656537b.md
+current_chapter: 692
+current_stage: chapter692_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0692.md
+current_source_sha: 320ec8681c79517c64b8466dd5e1e7f640364bba
+current_review_path: reader_reviews/0692_320ec868.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -7534,5 +7534,23 @@ combined_audit_chapter_691_20261112:
   initial_counts: {blocker: 0, major: 3, minor: 2}
   final_counts: {blocker: 0, major: 0, minor: 2}
   stage_a_used: 1
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_692_20261112:
+  chapter: 692
+  stage: local_revision
+  source_before: "cd76afb710af6dd1e7fbbb1dba398e973dfde90a"
+  source_after: "320ec8681c79517c64b8466dd5e1e7f640364bba"
+  changes: [correct_sister_kinship_husband_to_brother_in_law]
+  current_review: "reader_reviews/0692_320ec868.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  predecessor_ready_sha: "9ee7ee850344751ae5c02f45f6eda9a6fe9c5b86"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
