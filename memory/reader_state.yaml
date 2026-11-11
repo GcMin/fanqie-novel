@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 696
-last_reviewed_title: "没露面的人，先留一个位置"
-last_source_path: chapters/draft/0696.md
-last_source_sha: a9540821399c4dc857806072dcb2e1d1165f7bbd
-last_review_path: reader_reviews/0696_a9540821.md
+last_reviewed_chapter: 697
+last_reviewed_title: "配电箱上只亮着一条线"
+last_source_path: chapters/draft/0697.md
+last_source_sha: 22540fd688bfa4679859c868d2aea42a0dda71e1
+last_review_path: reader_reviews/0697_22540fd6.md
 last_reviewed_at: "2026-11-12"
 reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 695
-depends_on_source_sha: 2d836b028e29e7a56a5058f3d5fa07831533786d
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 2d836b028e29e7a56a5058f3d5fa07831533786d
+depends_on_chapter: 696
+depends_on_source_sha: e13ec78581322b3a1c191973df68599dc97b4252
+dependency_status: verified_ready_compatible_body
+predecessor_current_source_sha: e13ec78581322b3a1c191973df68599dc97b4252
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8598,5 +8598,24 @@ combined_audit_chapter_696_20261112:
   reason: fixed_day560_morning_reminder
   predecessor_ready_sha: "2d836b028e29e7a56a5058f3d5fa07831533786d"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_697_20261112:
+  chapter: 697
+  title: "配电箱上只亮着一条线"
+  original_sha: "7758ce69c903dba243adbf6c57b534bacb739095"
+  source_sha: "22540fd688bfa4679859c868d2aea42a0dda71e1"
+  initial_review: "reader_reviews/0697_7758ce69.md"
+  current_review: "reader_reviews/0697_22540fd6.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 0
+  reason: predecessor_ready_sha_metadata_rebind
+  predecessor_original_sha: "7bfa80fdb90365f6d65c578b9c1136da7c83ad77"
+  predecessor_ready_sha: "e13ec78581322b3a1c191973df68599dc97b4252"
+  predecessor_fact_delta: "仅Day560晨间到期提醒表述修正，没有697关键依赖事实变化"
+  dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
