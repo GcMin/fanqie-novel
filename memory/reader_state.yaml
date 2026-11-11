@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 682
-last_reviewed_title: "窗边那块补灰，有过一张维修单"
-last_source_path: chapters/draft/0682.md
-last_source_sha: ec106b8ee040e176127445e361acbde9aae7eff8
-last_review_path: reader_reviews/0682_ec106b8e.md
+last_reviewed_chapter: 684
+last_reviewed_title: "退房提醒早了一天"
+last_source_path: chapters/draft/0684.md
+last_source_sha: 3715d0b768a3359ad5e7ff25942f2a4358fefa81
+last_review_path: reader_reviews/0684_3715d0b7.md
 last_reviewed_at: "2026-11-11"
-reviewer_mode: combined_audit_independent_pass_a_then_b
+reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 681
-depends_on_source_sha: 912ddda84264eeb032a5a7b1e7e5ee9233dd8b71
+depends_on_chapter: 683
+depends_on_source_sha: 54bfd3990fee3c4b7cdd7b276d05ea8ebf331b35
 dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: 912ddda84264eeb032a5a7b1e7e5ee9233dd8b71
+predecessor_current_source_sha: 54bfd3990fee3c4b7cdd7b276d05ea8ebf331b35
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8355,3 +8355,37 @@ combined_audit_chapter_682_20261111:
   pass_a_then_b: pass
   continuity_style_qa: pass
   structure: exact_candidate_ci_required
+
+combined_audit_chapter_683_20261111:
+  chapter: 683
+  title: "光盘之外，还有一份更早的拷贝"
+  source_sha: "f230ceafc48c444dcd5c684c24a8d52c0b534a95"
+  final_review: reader_reviews/0683_f230ceaf.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  pass_a_then_b: pass
+  recommendation: keep
+  required_action: none
+  predecessor_ready_sha: "47966690520863ba14afbfd6daacc0586573090f"
+  dependency_status: verified_exact_ready_blob
+  continuity_style_qa: pass
+  body_revisions: 0
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_684_20261111:
+  chapter: 684
+  title: "退房提醒早了一天"
+  original_sha: "0820e8764169882eed273d6cf0b6af384cffb8b4"
+  initial_review: reader_reviews/0684_0820e876.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  stage_a: predecessor_sha_rebind_only
+  source_sha: "3715d0b768a3359ad5e7ff25942f2a4358fefa81"
+  final_review: reader_reviews/0684_3715d0b7.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  pass_a_then_b: pass
+  body_revisions: 0
+  predecessor_provisional_sha: "f230ceafc48c444dcd5c684c24a8d52c0b534a95"
+  predecessor_ready_sha: "54bfd3990fee3c4b7cdd7b276d05ea8ebf331b35"
+  predecessor_factual_delta: title_body_exact_same_metadata_only
+  dependency_status: verified_ready_compatible_body
+  continuity_style_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main

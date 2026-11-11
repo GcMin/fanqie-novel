@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 682
+last_updated_chapter: 684
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3662,3 +3662,16 @@ chapter_682_arc054:
   mother_daughter: "晓漫协助母亲读旧回执编号却不代办，晚间与母亲共同看有源旧维修照片和家族视频承认仅相似不能证同位；父亲录音和芋头饼提供普通亲情互动。"
   family: "妹妹保留原刻盘，外甥纸仓门补彩纸与家庭修补记忆相映照。"
   professional: "物业档案岗经本户核权有范围提供历史资料，夜班仅记录，不突破今日四楼专业封存权限。"
+
+chapter_683_arc054:
+  chapter: 683
+  source_sha: "f230ceafc48c444dcd5c684c24a8d52c0b534a95"
+  mother_daughter: "母亲不逼晓漫把九秒旧影像当第七号箱证明；晓漫只在姨妈同意的范围私存完整片，仍帮助母亲守住住房商户真款边界。"
+  family: "妹妹坚持个人灰USB中非家用影片及儿童肖像的访问由她决定，原U盘和光盘自存；亡夫菜包原歪针脚只在内侧加固，外甥纸仓门日常继续。"
+  professional: "物业仅具名承诺Day548中午前回复下期住房，不替代实际实付与新卡，夜班有限记录。"
+chapter_684_arc054:
+  chapter: 684
+  source_sha: "3715d0b768a3359ad5e7ff25942f2a4358fefa81"
+  mother_daughter: "晓漫远程帮母亲核更正单日期，不代其退房、签字或承担物业续费责任，晚间来禾汀共饭。"
+  family: "妹妹拒让亲戚看家用USB私片以认七号箱，外甥纸仓门小坡道试错与丈夫旧菜包针脚延续。"
+  professional: "前台有责更正Day548误离店短信且保留原错，物业只承诺Day548午前答复商户续款及夜间通路搬运项目，尚未实际执行。"

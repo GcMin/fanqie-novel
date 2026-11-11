@@ -7,9 +7,9 @@
 - created_at: 2026-11-11
 - status: plan_only
 - depends_on_chapter: 683
-- depends_on_source_sha: f230ceafc48c444dcd5c684c24a8d52c0b534a95
-- dependency_status: provisional
-- source: chapters/draft/0683.md
+- depends_on_source_sha: 54bfd3990fee3c4b7cdd7b276d05ea8ebf331b35
+- dependency_status: verified_ready_compatible_body
+- source: chapters/ready/0683.md
 - target_effective_chars: 3000
 - actual_effective_chars: 3016
 

@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 684
+title: "退房提醒早了一天"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "0820e8764169882eed273d6cf0b6af384cffb8b4"
+source_draft_sha: "3715d0b768a3359ad5e7ff25942f2a4358fefa81"
+initial_reader_review: "reader_reviews/0684_0820e876.md"
+reader_review: "reader_reviews/0684_3715d0b7.md"
+depends_on_chapter: 683
+depends_on_source_sha: "54bfd3990fee3c4b7cdd7b276d05ea8ebf331b35"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day54708:19—Day54807:07"
+summary: >-
+  Day54708:19母亲在禾汀首层同房收到系统外部自动Day548中午「办理续住或离店手续」提醒，与Day539真实商户收讫接续到Day549中午冲突，母亲不点立即办理，带两次七晚收据和双房卡到前台。09:06前台核商户Day53915:07实款及两卡实际授权均至Day549中午，没有提前退房、扣款或退款。10:11主管查到外部提前处理通知模板误写「离店手续」，10:28有责限项更正确实送到本人渠道，母亲保留原错误提醒并不为之搬甲乙箱。11:03母亲本人对物业原事项号提交限定说明要求按Day548中午承诺给出下一期房款、夜间正门通路及双箱搬运，11:47仅收件无新款。13点妹妹说明灰色旧电脑备份U盘已原样自存，亲友要求看旧家影像被拒；母亲和晓漫保持同意的单份私存，九秒亡夫原声不能证明第七号铁角木箱进四楼。16:23物业确认Day549午后原房可询价但尚无商户订单实收，16:41具名书面补充明天答复须列款项、通路、搬运及安全问题，仍不等于付款或已转住。母女共饭、外甥纸仓库坡道修好，20:52母亲本人回拨夜班分源登记错误提醒更正、未付款、家庭影像，Day54807:07交班。禾汀Day549之前住期未失效、Day548中午只是答复期限；四楼旧12cm观察口与亡夫饰板独封单照明有限其余水电隔离整屋禁返住、Day536撤清运不复、五楼旧漏源仍不明；F014旧号码旧通知旧押金和2019原卷F003F008M004M005不增跨源新证。
+meaningful_state_changes:
+  - "实际核商户账和两卡，独立修正把Day548提醒写成退房义务的错误模板，有具名更正且原错误保留；真实Day549到期未变化。"
+  - "物业Day548答复须具体说明下期实付、夜间通路和双箱搬运；当前仅书面范围承诺且无商户新付款。"
+knowledge_updates:
+  - "母亲与晓漫知道外部退房短信非商户真住期变化，Day549后仍尚未实收；物业有责窗口确认同房可询价不等于预订或付款。"
+  - "妹妹、晓漫与母亲未将更长U盘视频公开或误作木箱搬运确认；中心仅Day54720:52本人回拨后限项得知。"
+relationship_updates:
+  - "母亲独立查收据与双卡，晓漫远程核具体日期但不代母亲办理；妹妹守护亡夫旧原声及旧片许可，外甥修纸仓门的小斜坡。"
+foreshadowing_updates:
+  - "Day548中午是物业分项答复必须检验是否真正履行的节点；Day549中午才是既有商户实付到期，仍需真正续费或安全转住。"
+ending_state: "Day54807:07交班，旧Day548退房错误已具名更正但保留记录，当前房费仍只至Day549中午，无下期新款；四楼独封禁返住未改。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0820e8764169882eed273d6cf0b6af384cffb8b4", final_draft_sha: "3715d0b768a3359ad5e7ff25942f2a4358fefa81", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, predecessor_provisional_sha: "f230ceafc48c444dcd5c684c24a8d52c0b534a95", predecessor_ready_sha: "54bfd3990fee3c4b7cdd7b276d05ea8ebf331b35", predecessor_factual_delta: title_body_exact_same_metadata_only}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3016

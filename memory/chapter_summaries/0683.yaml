@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 683
+title: "光盘之外，还有一份更早的拷贝"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "f230ceafc48c444dcd5c684c24a8d52c0b534a95"
+reader_review: "reader_reviews/0683_f230ceaf.md"
+depends_on_chapter: 682
+depends_on_source_sha: "47966690520863ba14afbfd6daacc0586573090f"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day54608:27—Day54707:06"
+summary: >-
+  Day54608:27母亲在禾汀首层同房收到妹妹可能找到旧录像第二来源的消息，妹妹确认自家旧电脑备份U盘，并非原摄影机存储卡，转存代数及拍摄日期不明。母亲仅让裁缝加固亡夫菜包里侧，不拆其旧歪针脚；在前台确认Day539商户实付禾汀同房只至Day549中午，两卡双箱原位，向物业提出Day548中午前分项答复住房是否落实与真正支付。15:07妹妹带灰色U盘来禾汀，16:30晓漫到场；妹妹自愿限定只看一份家庭旧片，另有私有照片不得扩看。较后刻光盘多约九秒的片头见折叠椅、报纸及亡夫说「别踩那条纸，刚铺的」，但U盘仅是旧电脑备份，文件修改时间不是摄像机拍摄时间，报纸和物业旧维修照片的纸缺相同识别标记，不能确认拍摄场所、日期、同箱与第七项木箱搬入四楼。妹妹留原U盘与后刻CD，晓漫仅经同意私存此片完整文件，不向外传播童年肖像。18:12物业具名只承诺Day548中午前再次答复，未新增商户房款；20:57母亲本人回拨夏宁周衡梁策限项报告，Day54707:06交班。四楼旧12cm观察口和亡夫饰板分封单照明有限其余水电隔离全屋禁返住，Day536撤销清运依旧，五楼公区旧漏源未证；F014旧号码初始来源、旧年通知本人真收及历史押金各渠道实际退还与2019F003F008M004M005无新跨源证据。
+meaningful_state_changes:
+  - "首次发现妹妹旧电脑备份U盘保存比后刻光盘多约九秒的旧家庭影片，新增亡夫原声可保留，但未确认原摄影机链、同一箱体或场景。"
+  - "母亲争取Day548中午前物业就Day549后住房给具名分项答复，但未获得任何新商户真款。"
+knowledge_updates:
+  - "母亲、晓漫和妹妹知道现存U盘有较长私人影片、非原卡；报纸与物业旧维修照片没有独立同源识别，不知道拍摄日、木箱同一性与最终入户。"
+  - "中心只在Day54620:57母亲回拨后获知有限私人片源信息及住房答复期限。"
+relationship_updates:
+  - "妹妹控制本人旧U盘与其他照片开放范围，晓漫只私存一份本人同意的完整影像；母亲先珍惜丈夫声音而不以它逼迫旧物结论。"
+foreshadowing_updates:
+  - "更长旧电脑拷贝的复制链可以另行查实但未发现原介质；F014和2019旧案未因家庭录像取得证明。"
+ending_state: "Day54707:06交班，禾汀真付至Day549午，Day548中午物业具名答复待履约；旧影像多九秒并分源保管；四楼不入不清运。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f230ceafc48c444dcd5c684c24a8d52c0b534a95", final_draft_sha: "f230ceafc48c444dcd5c684c24a8d52c0b534a95", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3531
