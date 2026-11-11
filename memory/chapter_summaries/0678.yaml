@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 678
+title: "楼梯口那一声“先放着”"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "5fc45a11ea75d322c3be48aecd8a359ca976f8d3"
+reader_review: "reader_reviews/0678_5fc45a11.md"
+depends_on_chapter: 677
+depends_on_source_sha: "8265a5b5d51c6d18e684d73310084085bc6ffa3c"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day54108:36—Day54207:05"
+summary: >-
+  Day54108:36母亲仍住禾汀同一首层房，Day53915:07物业真付Day542午—Day549午续住七晚、15:19两张房卡实开，甲乙两箱原位且本日无新付款。第677章两张私人家用旧纸原封存：旧院装车第七项铁角木箱有先上车勾，仁合里到楼核对第七项入户格空且背注七号另核，无原作者日期或独立鉴定。09:07妹妹看局部图称核字似自己写却不敢认，14:42赴禾汀看原纸并在另纸试写，未认当年署名。妹妹当代回忆搬家日仁合里一楼转角曾有一件包着硬角的东西因转弯受阻暂靠，有人说先放着；她后来取楼门钥匙离开，没有看到搬入四楼，不能确定就是第七项木箱。母亲15:11在蓝夹另页注明妹妹本人回忆及未核同一性和最终去向，朗读后按妹妹要求把箱子在楼下缩窄为硬角物临时靠在转角，不动旧纸；18点后晓漫来到房内，将旧院照片/装车纸/一楼回忆/到楼空格分列而不连箭头。外甥纸仓门和双纸船、亡夫旧菜包歪针脚与晓漫蓝补布仍在。20:48母亲主动回拨中心，夏宁周衡梁策才限项记录私人回忆为待核来源，不是现场物证或启封清运依据，Day54207:05交班。四楼旧12cm观察口与亡夫饰板分封、单照明有限水电隔离整屋禁返住，Day536撤清运仍有效；五楼旧公区漏源未证；F014旧号码源/历史本人真收通知/旧押金全部渠道末端返款及2019原卷73页散袋F003F008M004M005无跨源新证。下一步仅可查找一楼到四楼最后一段搬运的独立来源，不能反推木箱从未入户。
+meaningful_state_changes:
+  - "妹妹提供限定的一楼转角暂放硬角物和先放着口述，不证明第七项身份或最终入户。"
+  - "家人亲自缩窄证人叙述并新页记录，和原两旧纸分离；调查从猜旧字移向最后一段搬运见证。"
+knowledge_updates:
+  - "母亲妹妹晓漫均知道一楼转角只是妹妹片段记忆，字形像并非署名鉴定，不知搬运终点与四楼现况。"
+  - "夏宁周衡梁策仅20:48本人回拨后知限项私人回忆；物业保全没有新准入许可。"
+relationship_updates:
+  - "母亲不逼妹妹确认不记得的签字或搬运，妹妹亲自校正过度记述；晓漫不把父亲旧物补勾当证据，亲情与纸门旧包纸船日常延续。"
+foreshadowing_updates:
+  - "旧箱家族线增一楼转角私人记忆但不验同一性；F014旧联系人/历史通知/押金及2019旧案和失址机制不因之升级。"
+ending_state: "Day54207:05禾汀同房首层真付至Day549午两卡可开双箱未移；两张旧纸与新口述另页分存，四楼未启封未清运，最后一段搬运和硬角物身份仍待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "5fc45a11ea75d322c3be48aecd8a359ca976f8d3", final_draft_sha: "5fc45a11ea75d322c3be48aecd8a359ca976f8d3", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, predecessor_ready_sha: "8265a5b5d51c6d18e684d73310084085bc6ffa3c", predecessor_factual_delta: exact_ready_dependency}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3081

@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 677
-current_stage: chapter677_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0677.md
-current_source_sha: 9f3d74e2362492c79add62dbba4e7035cd7c1e5a
-current_review_path: reader_reviews/0677_9f3d74e2.md
+current_chapter: 678
+current_stage: chapter678_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0678.md
+current_source_sha: 5fc45a11ea75d322c3be48aecd8a359ca976f8d3
+current_review_path: reader_reviews/0678_5fc45a11.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter677_stage_a_dependency_metadata_rebind_new_sha_reader_qa_pass
+last_action: chapter678_no_fix_required_independent_reader_qa_pass
 last_action_date: "2026-11-11"
 last_error: null
-last_diff_summary: "第676章旧Draft与正式Ready标题正文逐字一致，仅Front Matter交付元数据不同；第677章StageA只重绑前章正式Ready SHA，小说正文0字修改，修订后新blob重新Reader双遍0/0/2，独立QA PASS，仍需精确候选CI。"
+last_diff_summary: "本章初稿精确依赖第677章正式ready Git blob；完整独立两遍Reader0/0/2，无正文修订；Continuity/Style/Meaningful QA PASS；待精确候选CI结构校验。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 9f3d74e2362492c79add62dbba4e7035cd7c1e5a
+current_review_source_sha: 5fc45a11ea75d322c3be48aecd8a359ca976f8d3
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7309,4 +7309,18 @@ combined_audit_chapter_677_20261111:
   predecessor_ready_sha: "dbd9941161659e9fde6f371c9beadc2ac7834cf0"
   predecessor_factual_delta: title_body_exact_same_metadata_only
   content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_678_20261111:
+  chapter: 678
+  original_sha: "5fc45a11ea75d322c3be48aecd8a359ca976f8d3"
+  final_draft_sha: "5fc45a11ea75d322c3be48aecd8a359ca976f8d3"
+  final_review: "reader_reviews/0678_5fc45a11.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  revision_reason: no_fix_required
+  content_qa: pass
+  predecessor_ready_sha: "8265a5b5d51c6d18e684d73310084085bc6ffa3c"
   structural_gate: exact_candidate_ci_required_before_main
