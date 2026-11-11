@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 698
+title: "原房多了三晚，结案那格还空着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "bc28c99400cb7224e26322c1f963482ea690445a"
+source_draft_sha: "bc28c99400cb7224e26322c1f963482ea690445a"
+reader_review: "reader_reviews/0698_bc28c994.md"
+depends_on_chapter: 697
+depends_on_source_sha: "1e3a6618a032587590944b3f517543a3f7b2a962"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day56108:58—Day56207:05"
+summary: >-
+  Day56108:58桥北行舍母亲核原七晚房费只到Day56112点、次期商户仍未实收，09点致电住宿责任岗催真收证据，前台09:26仅暂留原房到11:30。10:02晓漫在单位担心失住提出借钱，母亲保留自救却不替物业销应付账；10:29物业把财务已接收截图混入总括住房安置完成勾选，母亲拒签要求单独分项回执。11:03、11:26商户仍未收，11:17银行指令受理号不等于商户真款，11:31原房临保到期而尚未被他人订走，母亲备自费银行卡与随身袋但未实际支付。11:36商户真实收到物业责任单位原房连续三晚款，11:38前台复核，接续旧七晚Day56112点到Day56412点，甲乙箱不搬；11:49两张房卡本期室内门逐张实开，夜门当时尚未验。12:06母亲获得仅列三晚当代应急续住的分项回执，并明确仁合里旧房安全、保全和旧押金仍未结案。15:17工程窗口只征询入户复核排班，不提供入口安全、专业具名陪同和本人逐件许可，母亲未授权进四楼或拆双封、清运。妹妹仅询新房费，裂口旧盘仍在家不上电、不读箱边；晓漫下班带橘子探访。21:13母亲在夜间外门亲用新期双卡分别实开，21:48夏宁周衡梁策只收到本人当代三晚真收及夜门实测、公共配电有限现况的合法限项告知，无私人影像。Day56207:05母亲将真收账与夜门实证、拒签总括截图分开，并设Day563上午追下一期及Day564中午付款截止。四楼12厘米观察口与亡夫饰板仍分别封存，客厅单路照明有限其他水电隔离整屋禁返住，Day536清运撤销未复；五楼旧漏源、七号铁角箱终点、F014旧号初源/历史本人通知真收/旧押金全渠道末端退付及2019旧卷无新跨源证。
+meaningful_state_changes:
+  - "Day56111:36商户真正收责任单位原房三晚续费至Day56412点，11:49室内门双卡及21:13夜门双卡真开，甲乙箱保留原房。"
+  - "拒签全案住房完成泛化回执，取得单列当代三晚应急续住的分项回执，仍待长期住房和四楼安全解决。"
+knowledge_updates:
+  - "母亲亲核商户到账及双卡夜门、晓漫只获家人当代限项信息，夜班三人只经本人获住房与公共配电限项公事，不知私人旧盘。"
+  - "妹妹不再上电或开放JZ4箱边，旧第三人身份/历史许可未知；工程仅征询后续计划、未取得本户准入。"
+relationship_updates:
+  - "母亲认可晓漫紧急帮付的担忧但不让家款代物业履责，母女明确三晚只解决三晚。"
+foreshadowing_updates:
+  - "Day564住房新硬期限留待Day563追问；旧四楼封存、七号箱、F014旧年号信押金与2019旧卷继续待证。"
+ending_state: "Day56207:05桥北首层原房双箱双卡在，Day56111:36商户真收三晚至Day56412:00，21:13新期双卡夜门真开；四楼仍禁返住、双封、Day536清运撤销，妹妹旧盘不再读，Day563上午下一期待追。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "bc28c99400cb7224e26322c1f963482ea690445a", final_draft_sha: "bc28c99400cb7224e26322c1f963482ea690445a", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3618

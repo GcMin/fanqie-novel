@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 697
-last_reviewed_title: "配电箱上只亮着一条线"
-last_source_path: chapters/draft/0697.md
-last_source_sha: 22540fd688bfa4679859c868d2aea42a0dda71e1
-last_review_path: reader_reviews/0697_22540fd6.md
+last_reviewed_chapter: 698
+last_reviewed_title: "原房多了三晚，结案那格还空着"
+last_source_path: chapters/draft/0698.md
+last_source_sha: bc28c99400cb7224e26322c1f963482ea690445a
+last_review_path: reader_reviews/0698_bc28c994.md
 last_reviewed_at: "2026-11-12"
-reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
+reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 696
-depends_on_source_sha: e13ec78581322b3a1c191973df68599dc97b4252
-dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: e13ec78581322b3a1c191973df68599dc97b4252
+depends_on_chapter: 697
+depends_on_source_sha: 1e3a6618a032587590944b3f517543a3f7b2a962
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 1e3a6618a032587590944b3f517543a3f7b2a962
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8617,5 +8617,18 @@ combined_audit_chapter_697_20261112:
   predecessor_ready_sha: "e13ec78581322b3a1c191973df68599dc97b4252"
   predecessor_fact_delta: "仅Day560晨间到期提醒表述修正，没有697关键依赖事实变化"
   dependency_status: verified_ready_compatible_body
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_698_20261112:
+  chapter: 698
+  source_sha: "bc28c99400cb7224e26322c1f963482ea690445a"
+  review_path: "reader_reviews/0698_bc28c994.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 0
+  body_revisions: 0
+  dependency_status: verified_exact_ready_blob
+  predecessor_ready_sha: "1e3a6618a032587590944b3f517543a3f7b2a962"
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
