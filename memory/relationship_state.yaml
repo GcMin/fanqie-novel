@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 689
+last_updated_chapter: 690
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3710,3 +3710,10 @@ chapter_689_arc054:
   mother_daughter: "晓漫按母亲和姨妈意愿限定查私人旧视频，不以旧片强迫物业结论"
   family: "妹妹在本人旧相机包找到家中一卡盒与可读卡，保留原件控制许可；晓漫仅存同意范围私人副本并在画面里看到自己童年与父亲。"
   professional: "周衡夏宁梁策没有被给予新卡及私片，仍无四楼启封或木箱证据。"
+
+chapter_690_arc054:
+  chapter: 690
+  source_sha: "276ab34b1224a924a769232efc2c1247f9aa92ea"
+  mother_daughter: "母亲和晓漫分别核真实房期与旧片来源，母亲不要求晓漫替物业承担住宿保证，晓漫尊重姨妈原物控制与仅限局部照片。"
+  family: "妹妹主动出示旧选片纸与裂口硬盘但不授权通电/整盘复制；母女接受她带走原物，分开保存本人回忆与实见物件。"
+  professional: "母亲只要求物业Day554上午九点就续住实款、夜间通行及两箱安排具名答复，不把申请/提报当作真支付或旧屋结案。"

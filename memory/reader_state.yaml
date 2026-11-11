@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 689
-last_reviewed_title: "九秒之外的那张存储卡"
-last_source_path: chapters/draft/0689.md
-last_source_sha: f0f9627c2e564e4c0f3f8868e4bd47f2249ff834
-last_review_path: reader_reviews/0689_f0f9627c.md
-last_reviewed_at: "2026-11-11"
+last_reviewed_chapter: 690
+last_reviewed_title: "“家中四”写在另一张转存单上"
+last_source_path: chapters/draft/0690.md
+last_source_sha: 276ab34b1224a924a769232efc2c1247f9aa92ea
+last_review_path: reader_reviews/0690_276ab34b.md
+last_reviewed_at: "2026-11-12"
 reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 688
-depends_on_source_sha: cb3425483771b0558a97386906c9d1581a219a97
-dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: cb3425483771b0558a97386906c9d1581a219a97
+depends_on_chapter: 689
+depends_on_source_sha: 76c83a441306cc9f299163071c1e4cf76db8f6ea
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 76c83a441306cc9f299163071c1e4cf76db8f6ea
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8480,5 +8480,22 @@ combined_audit_chapter_689_20261111:
   predecessor_draft_sha: "eaab76388f51489292f893a5fb3e357d49720da5"
   predecessor_ready_sha: "cb3425483771b0558a97386906c9d1581a219a97"
   predecessor_factual_delta: night_mode_22_to_21_compatible
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_690_20261112:
+  chapter: 690
+  title: "“家中四”写在另一张转存单上"
+  original_sha: "ecf97f6fd8ec4845dac046f0b6f1d288c00da497"
+  source_sha: "276ab34b1224a924a769232efc2c1247f9aa92ea"
+  initial_review: "reader_reviews/0690_ecf97f6f.md"
+  current_review: "reader_reviews/0690_276ab34b.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 1
+  reason: fix_cross_location_unmotivated_phone_hearing
+  predecessor_ready_sha: "76c83a441306cc9f299163071c1e4cf76db8f6ea"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

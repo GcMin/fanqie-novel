@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 690
+title: "“家中四”写在另一张转存单上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "ecf97f6fd8ec4845dac046f0b6f1d288c00da497"
+source_draft_sha: "276ab34b1224a924a769232efc2c1247f9aa92ea"
+initial_reader_review: "reader_reviews/0690_ecf97f6f.md"
+reader_review: "reader_reviews/0690_276ab34b.md"
+depends_on_chapter: 689
+depends_on_source_sha: "76c83a441306cc9f299163071c1e4cf76db8f6ea"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day55307:32—Day55407:03"
+summary: >-
+  Day55307:32母亲在桥北行舍首层两箱两卡依旧、Day551商户三晚真付款仅到Day55412:00；今晨物业只说下期申请，未真收新款，母亲要求Day55409点前具名说明付款夜门和双箱的可执行安排。08:07妹妹在自己家找到旧刻盘废封套和两张旧抄文件名纸，回忆“家中一取九秒”“家中四修扇子起”原是她家用剪接选片时自起的代号，不能据四字推出四张摄像卡。10:30晓漫在办公室与姨妈电话，得知还有蓝布套裂口旧移动硬盘，不知道是否对应旧转存路径，劝未授权未确认之前不通电。午间桥北前台核已付款房晚到Day554中午、双卡有效、以后无订单。17:26妹妹在桥北出示废封套/折纸的选片序、残缺路径似“移动盘…旧片待选”和一块裂口旧硬盘，姨妈不授权整盘复制；家人只据真实看到的纸与本人回忆把家中四改记为剪辑代号，原摄影文件和介质仍缺。获姨妈同意仅拍指定局部且当面核裁切，妹妹带旧硬盘及旧原卡回自己家不通电。20:13物业只称方案提报，拟Day55409点答复，仍无商户新实款。Day55407:03母亲准备优先核真实住房安排。仁合里四楼旧12cm观察口和亡夫饰板分封、整屋禁返住、Day536撤清运不复，五楼漏源、第七号木箱旧后段及F014旧号/通知/押金和2019旧卷仍未证。
+meaningful_state_changes:
+  - "真实手写旧选片单出现，家中四确立为当年影片素材代号而非第四张摄像机卡的证明；残缺路径只提供可能转存方向。"
+  - "妹妹仍持未通电裂口移动盘、授权仅纸面局部；母亲把Day554上午九点及中午实际房款到期作为行动先后，未误称已续住。"
+knowledge_updates:
+  - "母亲、晓漫与妹妹知道选片标签的限定含义，不知道原摄影机、时间、家中四对应源文件/转存盘同一性或旧木箱实际去向。"
+  - "物业和夜班中心未获授权获取家影、旧盘或家中四的新结论，不获得四楼启封权。"
+relationship_updates:
+  - "妹妹决定只展示旧纸并自行带走未读取硬盘，晓漫遵从其私物许可，母亲不以调查催她通电并独立追房费。"
+foreshadowing_updates:
+  - "家中四可能存在旧转存盘线索但尚未核原源；Day554中午后的新住宿未实付；F014和2019旧证据边界不变。"
+ending_state: "Day55407:03桥北首层两卡两箱原位、真房费到Day55412:00且09点具名答复尚未到；家中一为私人候选，家中四原源未见，裂口移动盘在妹妹处未通电。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ecf97f6fd8ec4845dac046f0b6f1d288c00da497", final_draft_sha: "276ab34b1224a924a769232efc2c1247f9aa92ea", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: corrected_unmotivated_cross_location_phone_hearing}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3366
