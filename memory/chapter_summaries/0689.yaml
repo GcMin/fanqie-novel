@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 689
+title: "九秒之外的那张存储卡"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "f5401bc71fce074b9c4f9a319862d3e5cde2aafc"
+source_draft_sha: "f0f9627c2e564e4c0f3f8868e4bd47f2249ff834"
+initial_reader_review: "reader_reviews/0689_f5401bc7.md"
+reader_review: "reader_reviews/0689_f0f9627c.md"
+depends_on_chapter: 688
+depends_on_source_sha: "cb3425483771b0558a97386906c9d1581a219a97"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day55208:23—Day55307:06"
+summary: >-
+  Day55208:23母亲在桥北行舍首层新房，甲乙双箱与双卡仍在，Day55110:49商户真付三晚到Day55412:00，前夜21:08夜门权限失败经21:17双卡实开修正。09:04妹妹在本人旧相机包小袋找到透明卡盒标「家中一」和一张未知来源存储卡，尚未确认摄影机/年代/先后手。晓漫午后约带读卡器，三人限定只看姨妈许可的候选家庭视频，不遍历其他私人照片、不自动上传外网。16:48妹妹把原卡带来，17:21晓漫当面拍外观与当次查看信息、先作副本仅在副本看；前九秒折叠椅、报纸和亡夫「别踩那条纸」与现存灰USB家用拼接前段音画对应，而后续不是扇子/箱角，出现旧院纸船画窗户及年幼晓漫与父亲的家庭对话。18:10本地有限比对记录，认定为「家中一」来源候选，盒标签/文件保存时间仍不证原摄影机原带、摄录日期或与家中四同室，妹妹不授权对物业/班级公开，原卡与盒仍由妹妹保管、晓漫仅私人有限副本。晚上家人讨论外甥已用本人声音班级展示纸仓库第三版，母亲不把旧声拼进新录音。21:42母亲从桥北外门亲自用甲卡进入。Day55307:06原卡在妹妹处，新卡对应的家中一候选与家中四缺失区别清楚。第七项旧铁角箱是否抬入四楼和今日现物仍未知；仁合里双封存/整屋禁返住/Day536撤清运、五楼旧漏源、F014旧联系人源头与历史通知押金真付及2019主线没有新跨源证。
+meaningful_state_changes:
+  - "有实体‘家中一’标签卡盒、可读的候选旧家庭视频；前九秒与既有剪接片头对应，原本被剪去的后续是旧院父女纸船画窗户，改变家人对那句提醒的私人记忆。"
+  - "妹妹对原卡、其他私照与对外用途维持控制，只容许晓漫留限定私人副本，‘家中四’仍缺且原摄影机、日期、七号箱最终去向均未证。"
+knowledge_updates:
+  - "母亲、晓漫、妹妹知道这张卡含与九秒片头对应的更多画面，却无摄影设备/日期/转存链外部证；不把私人记忆当物业现场木箱证明。"
+  - "夜班中心和物业没有获准获取卡或家庭私片，不知晓卡内童年画面；桥北商户只知当前已付住期和前晚门控修复。"
+relationship_updates:
+  - "妹妹主动持原件出示但限制查看范围，晓漫在获同意后复制并标明来源边界；母亲尊重两人的决定并珍惜丈夫和幼时女儿的记忆。"
+foreshadowing_updates:
+  - "家中一出现可核新私源候选、家中四未知，不能把剪接后的箱角补为与纸船同一拍摄；F014与2019案无跨源证据。"
+ending_state: "Day55307:06桥北新首层房与甲乙两箱不变，真付款到Day554中午；妹妹保存带标卡盒和原卡、家中四未获，仁合里四楼不进不清运。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f5401bc71fce074b9c4f9a319862d3e5cde2aafc", final_draft_sha: "f0f9627c2e564e4c0f3f8868e4bd47f2249ff834", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: corrected_sister_brother_in_law_reference_and_predecessor_rebind, predecessor_provisional_sha: "eaab76388f51489292f893a5fb3e357d49720da5", predecessor_ready_sha: "cb3425483771b0558a97386906c9d1581a219a97", predecessor_factual_delta: night_mode_switch_22_to_21_no_conflict}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3785

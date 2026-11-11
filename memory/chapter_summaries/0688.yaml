@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 688
+title: "十二点之前，先验那扇夜门"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "eaab76388f51489292f893a5fb3e357d49720da5"
+source_draft_sha: "9ec288d84741b60305dedcfe5c8f4254e4127c7a"
+initial_reader_review: "reader_reviews/0688_eaab7638.md"
+reader_review: "reader_reviews/0688_9ec288d8.md"
+depends_on_chapter: 687
+depends_on_source_sha: "5e0ceec72aea516daac42d9a725a409b94f3adf3"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day55107:52—Day552早晨"
+summary: >-
+  Day55107:52母亲在禾汀首层原房核真付款仅到当日12:00且无续房实款，甲乙两箱原位。物业08:43提出桥北行舍首层候选；09:37经理说明夜间外门从21:00转住客卡+值班对讲，但尚无本卡的夜间实测。10:11物业模板误写全部安置事项完成，被母亲要求分项更正；10:27仅候选房三晚拟付、两箱安排待落实。10:49桥北行舍商户真实收Day55112:00—Day55412:00三晚款、11:02具名付款结果到母亲渠道且二次核实，没有拿禾汀旧款或退款抵算。11:16核派工人员车号，11:32甲乙两件外观受限交接，不涉及仁合里封存物件；11:41禾汀旧卡退回且说明责任单位转住原因。约12:00抵桥北，12:22两张新卡分别真开首层房，两箱外观标记无新增损。21:08母亲实际测试外门发现日间授权未含夜间住客组，值班先核身份从内侧开门保护住客；21:17有权重授权两卡，母亲在门外逐张真实刷开并验证对讲，故障与修正保留纸本，21:31向物业只确认已核事项。Day552早晨仍住新房，两箱两卡与纸船在，下一真实付款责任截止Day55412:00。仁合里四楼旧12cm观察口和亡夫饰板各独封仅客厅有限照明其他水电隔离整屋禁返住，Day536清运许可持续撤销，五楼旧漏源及第七号木箱入户和现物未知；F014旧号源旧年通知本人真收旧押金各渠道末端真返与2019/F003/F008/M004/M005无跨源证。
+meaningful_state_changes:
+  - "取得桥北行舍Day55112:00—Day55412:00三晚商户真收并按责任单位派工完成甲乙两箱有限外观交接，不再受禾汀Day551中午到期影响。"
+  - "夜间外门实测先失败，再由有权岗位修正双卡夜门权限，21:17两卡分别真开并记录前次故障，非白天进门冒充夜间通路。"
+knowledge_updates:
+  - "母亲、物业住宿责任岗及新商户分别知道新房已真实实收、搬入两箱，母亲还知道21:08失败和21:17修复；晓漫只经母亲视频知道已真实搬迁与晚间待测，不得提前当已完成。"
+  - "夜班中心没有因临住接续收到新旧屋物证，不能由新住房付款推断仁合里四楼安全、七号铁角箱或历史旧账结案。"
+relationship_updates:
+  - "母亲拒让晓漫请假替物业搬运，和派工负责人限项核人核物；新商户如实保留夜门失败并陪同纠错，不强迫她签全案完成。"
+foreshadowing_updates:
+  - "Day55412:00成为新临住真实支付到期点；家中一四源素材仍旧未知，F014及2019旧线不因住房搬迁获得证据。"
+ending_state: "Day552清晨桥北行舍首层，Day554中午真付到期，两卡昨夜实开、甲乙两箱和纸船在新房；仁合里封存禁返住清运未复。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "eaab76388f51489292f893a5fb3e357d49720da5", final_draft_sha: "9ec288d84741b60305dedcfe5c8f4254e4127c7a", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: corrected_night_door_switch_22_to_21}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3511

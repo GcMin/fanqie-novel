@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 687
-current_stage: chapter687_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0687.md
-current_source_sha: 85d4c656831d6cd5a9b0a4983526fbb2d1bfd89d
-current_review_path: reader_reviews/0687_85d4c656.md
+current_chapter: 689
+current_stage: chapter689_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0689.md
+current_source_sha: f0f9627c2e564e4c0f3f8868e4bd47f2249ff834
+current_review_path: reader_reviews/0689_f0f9627c.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter687_stage_a_metadata_dependency_fix_new_sha_review_and_content_QA_pass
+last_action: chapter689_kinship_and_dependency_fixed_new_sha_review_and_content_qa_pass
 last_action_date: "2026-11-11"
 last_error: null
-last_diff_summary: "687原Draft初Reader0/1/2; StageA比较前686旧Draft与正式Ready正文仅一处亲属指代更正; 仅重绑687章纲与Front Matter至686正式Ready,小说正文0字; 新Git blob 85d4c656831d6cd5a9b0a4983526fbb2d1bfd89d重新独立Reader Pass A/B 0/0/2;独立Continuity/Style/Meaningful QA PASS;待精确候选结构CI。"
+last_diff_summary: "688初版Reader0/1/2，StageA夜门22点改21点新SHA9ec288d84741b60305dedcfe5c8f4254e4127c7a再审0/0/2；689初版Reader0/2/2，StageA姐夫称谓修正并从前章旧草稿SHA重绑最终Readycb3425483771b0558a97386906c9d1581a219a97，前章唯一正文事实变化夜门22→21与689兼容，新SHAf0f9627c2e564e4c0f3f8868e4bd47f2249ff834再审0/0/2；两章独立内容QA通过但均待精确候选结构CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 85d4c656831d6cd5a9b0a4983526fbb2d1bfd89d
+current_review_source_sha: f0f9627c2e564e4c0f3f8868e4bd47f2249ff834
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7478,4 +7478,29 @@ combined_audit_chapter_687_20261111:
   predecessor_ready_sha: "b756a1639844171ae6642ac02e059cebd834064c"
   predecessor_factual_delta: kinship_reference_only
   dependency_status: verified_ready_compatible_body
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_688_20261111:
+  chapter: 688
+  stage: local_revision
+  source_before: "eaab76388f51489292f893a5fb3e357d49720da5"
+  source_after: "9ec288d84741b60305dedcfe5c8f4254e4127c7a"
+  change: night_door_cutover_22_to_21
+  current_review: "reader_reviews/0688_9ec288d8.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_689_20261111:
+  chapter: 689
+  stage: local_revision
+  source_before: "f5401bc71fce074b9c4f9a319862d3e5cde2aafc"
+  source_after: "f0f9627c2e564e4c0f3f8868e4bd47f2249ff834"
+  changes: [kinship_jiefu_corrected, predecessor_ready_rebound_after_diff]
+  predecessor_draft_sha: "eaab76388f51489292f893a5fb3e357d49720da5"
+  predecessor_ready_sha: "cb3425483771b0558a97386906c9d1581a219a97"
+  predecessor_factual_delta: night_cutover_22_to_21_compatible
+  current_review: "reader_reviews/0689_f0f9627c.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

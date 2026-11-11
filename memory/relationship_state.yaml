@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 687
+last_updated_chapter: 689
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3697,3 +3697,16 @@ chapter_687_arc054:
   mother_daughter: "晓漫先请母亲本人同意再录她现在的声音，也把是否剪去开头停顿的决定还给母亲；女儿不因旧视频来源讨论让母亲充当调查口供。"
   family: "妹妹维持旧家庭视频的个人许可，外甥被允许表达想用外公声音的愿望而没有被拿来作旧物证；门道窄改进出牌后他主动用自己的声音拍摄，外婆愿意留当代声音，家庭只在同意的私用范围听。"
   professional: "母亲Day550仅要求物业在Day551上午拿出实际住房商户付款与安全可执行安排，不以询价或口头确认替代真款、不让晓漫代搬箱承担物业责任。"
+chapter_688_arc054:
+  chapter: 688
+  source_sha: "9ec288d84741b60305dedcfe5c8f4254e4127c7a"
+  mother_daughter: "晓漫远程关心但不代物业搬运母亲实测付房与夜门"
+  family: "晓漫正常上班不替物业搬箱；妹妹原USB/CD继续私藏；孩子班级纸仓库只用自己声音。"
+  professional: "未取得仁合里四楼现场新证或启封资格。"
+
+chapter_689_arc054:
+  chapter: 689
+  source_sha: "f0f9627c2e564e4c0f3f8868e4bd47f2249ff834"
+  mother_daughter: "晓漫按母亲和姨妈意愿限定查私人旧视频，不以旧片强迫物业结论"
+  family: "妹妹在本人旧相机包找到家中一卡盒与可读卡，保留原件控制许可；晓漫仅存同意范围私人副本并在画面里看到自己童年与父亲。"
+  professional: "周衡夏宁梁策没有被给予新卡及私片，仍无四楼启封或木箱证据。"

@@ -7,9 +7,9 @@
 - created_at: 2026-11-11
 - status: plan_only
 - depends_on_chapter: 688
-- depends_on_source_sha: eaab76388f51489292f893a5fb3e357d49720da5
-- dependency_status: provisional
-- source: chapters/draft/0688.md
+- depends_on_source_sha: cb3425483771b0558a97386906c9d1581a219a97
+- dependency_status: verified_ready_compatible_body
+- source: chapters/ready/0688.md
 - target_effective_chars: 3000
 - actual_effective_chars: 3785
 
@@ -34,10 +34,14 @@
 - **结尾承接**：家中一新候选由妹妹继续保管；下一步需寻找家中四独立来源而不强迫本轮解决。桥北住宿到Day554中午仅三晚实付。
 - **目标字数**：2600—3400优选，2300—3800硬限；实际有效字符3785。
 
+## Audit 补核（688正式Ready差异及689局部修订）
+- 688原Draft eaab76388f51489292f893a5fb3e357d49720da5 对比正式Ready cb3425483771b0558a97386906c9d1581a219a97：交付元数据之外小说正文仅将夜门切换起点22:00修正为21:00；本章所依赖昨晚21:17两卡实开与实际房款、双箱交接均兼容。
+- 689修正“妹妹...父亲后面...”为“妹妹...姐夫后面...”，其余小说正文不变；由唯一Audit负责修订后新SHA Reader双遍与内容QA，原Writer预检是历史写作时点记录。
+
 ## Continuity Precheck
 
 - 本轮重读main的AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、Bible四份、相关人物卡、volume_05与arc_current（两者旧进度滞后，以实际Ready/Draft与Memory事实为准）、plans/chapter_plan.csv最近规划、memory/current_arc/character/relationship/knowledge/world、timeline与foreshadowing最新状态、0678—0687最近十章摘要及0684—0688最近五章正文；未读取历史reader_reviews。
-- 目录核验：第153章已存在于published；最新已存在第688章，689计划与正文先前不存在。第688章为chapters/draft/0688.md，Git Blob SHA `eaab76388f51489292f893a5fb3e357d49720da5`，依赖`provisional`。
+- 目录核验：第153章已存在于published；最新已存在第688章，689计划与正文先前不存在。第688章为chapters/draft/0688.md，Git Blob SHA `cb3425483771b0558a97386906c9d1581a219a97`，依赖`provisional`。
 - 第688章当日已证Day551桥北三晚真实付款、双箱接续搬运、两卡日间开房、夜门授权失败后21:17逐卡真开；到Day554中午而非永久续住。仅以此版本作临时/正式对应参考；若为provisional，其后续修改必须由独立Audit校对，不当Canon。
 - 四楼旧12cm观察口/亡夫饰板分别封存、只客厅单照明有限，其余受水电隔离整屋禁返住；Day536清运撤销不恢复；五楼漏源无同源专业结论。母亲与晓漫的私人家音频、妹妹U盘、家庭纸本不能补强F014/2019或七号箱入户。
 - Writer只创建本章plan与draft，不执行Reader、Revision、QA、Memory、Publish Gate或平台发布。
