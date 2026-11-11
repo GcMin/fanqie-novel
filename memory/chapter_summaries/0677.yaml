@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 677
+title: "清单上有一只木箱，签收栏空着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "81ffe77bb8ba276a348d38a3693766f4fbc6e11f"
+source_draft_sha: "9f3d74e2362492c79add62dbba4e7035cd7c1e5a"
+initial_reader_review: "reader_reviews/0677_81ffe77b.md"
+reader_review: "reader_reviews/0677_9f3d74e2.md"
+depends_on_chapter: 676
+depends_on_source_sha: "dbd9941161659e9fde6f371c9beadc2ac7834cf0"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day54008:41—Day54107:02"
+summary: >-
+  Day540母亲在禾汀同房首层原住，物业Day53915:07商户已真收续Day542午—Day549午七晚，15:19两卡真开甲乙箱原位，Day549后仍无新款；Day53916:09保全窗口受限真收遮童年肖像且保留旧院背景的历史照片附件，不证四楼现物。08:41晓漫电话告知自己私人相册箱底发现粘连牛皮纸封套，疑有旧搬家清单，母亲阻止硬扯并约晚上当面拆。妹妹上午视频只回忆以前确有重的木东西但不能确定旧院搬出还是仁合里搬入；外甥纸船仓库自用“七号”与真正木箱无证据关联。14:11小许问旧照历史附件是否可转物件已核名单，母亲要求继续以未核栏记四楼旧木箱，Day536撤回的清运许可不因历史照片复活。18:13晓漫携封套在禾汀当面展开两张家庭格子纸：第一张“旧院装车”第七项“铁角木箱一只”标“先上车”有重勾；第二张“仁合里到楼核对”同第七项入户格空白，背注“七号另核”，无日期、签字或补搬收据。两张纸属于私人家族材料，原纸作者与箱子同一性未独立鉴定，不能证后来实际搬入或从未搬入、四楼当下仍有实物。母女分袋保留原纸纸序与旧胶带，分别拍正反，不在原纸上描字，也不代亡父补勾；谈及旧借餐椅、未修好的扇骨并共饭。20:49母亲主动回拨夏宁周衡梁策，只按来源记私人清单新历史去向疑问，未提交正式附件、未入封存四楼、未改清运和安全权限，Day54107:02交班并告晓漫“第七项先留空”。四楼旧12cm观察口与亡夫旧饰板分别独封、单照明有限其余受水电隔离整屋禁返住，五楼旧公区白痕灰细侧接漏源未证，F014旧号最早来源、本人历史真收旧通知、旧押金全渠道末端真付款与2019原73页散袋F003F008M004M005无跨源新证。
+meaningful_state_changes:
+  - "首次发现家庭私人两张分阶段旧搬家格子纸：第七项铁角木箱旧院装车有勾、仁合里到楼入户栏空白并有七号另核背注；过去去向成可核但尚未核实的新问题。"
+  - "母女共同保存两页原纸、顺序、胶带和正背照片，夜班20:49有源有限登记未鉴定私人线索，不改变Day536撤销清运或四楼封存。"
+  - "母亲稳定居住禾汀同房、物业真付至Day549午未新付款，家庭对亡夫旧物记忆由盼找到转向容许不确定。"
+knowledge_updates:
+  - "母亲和晓漫只能知道私人清单的写字与勾格差异，未知原始作者、箱体同一性、是否补运或仁合里四楼现时物件；妹妹明示不清楚当年是哪段搬运。"
+  - "小许仅知旧照历史附件且不可转现况名单，夏宁周衡梁策仅在母亲20:49回拨后知两页私纸的来源限定，无原纸正式鉴定、无历史押金/旧信新证。"
+relationship_updates:
+  - "晓漫上班时发现封套并听母亲建议避免撕破，下班两人谨慎展开、保存两张纸及胶带，允许父亲留下的疑问不马上补答；旧菜包父亲歪线和女儿蓝衬保持。"
+  - "妹妹与外甥以视频分享七号纸船仓库，母亲请妹妹不要因记忆模糊强行翻家中旧物。"
+foreshadowing_updates:
+  - "旧家庭木箱新增七号另核私人线索，但F014旧联系人源、旧年通知本人真收、历史押金各渠道末端实际退款及2019旧卷/F003F008M004M005均无跨源新证。"
+ending_state: "Day54107:02母亲在禾汀首层同房两卡可开双箱原位物业真付至Day549午；两张私人搬家清单原纸分袋保存及照片留证、第七项到楼未勾另核，四楼独封整屋禁返住未核箱，无合法清运准入。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "81ffe77bb8ba276a348d38a3693766f4fbc6e11f", final_draft_sha: "9f3d74e2362492c79add62dbba4e7035cd7c1e5a", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, predecessor_provisional_sha: "c9f756d5f39271401ab97848273d586f3cd5d755", predecessor_ready_sha: "dbd9941161659e9fde6f371c9beadc2ac7834cf0", predecessor_factual_delta: title_body_exact_same_metadata_only}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3079

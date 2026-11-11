@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 675
-current_stage: chapter675_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0675.md
-current_source_sha: 82a787ae3319520f6196936bca1bde516c648550
-current_review_path: reader_reviews/0675_82a787ae.md
+current_chapter: 677
+current_stage: chapter677_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0677.md
+current_source_sha: 9f3d74e2362492c79add62dbba4e7035cd7c1e5a
+current_review_path: reader_reviews/0677_9f3d74e2.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter675_stage_a_dependency_metadata_rebind_new_sha_reader_qa_pass
+last_action: chapter677_stage_a_dependency_metadata_rebind_new_sha_reader_qa_pass
 last_action_date: "2026-11-11"
 last_error: null
-last_diff_summary: "第672章Draft与Ready标题正文一致，仅Front Matter交付字段不同；673 Stage A仅重绑前章正式Ready SHA，小说正文0字修订，新SHA再独立双遍Reader 0/0/2且内容QA通过，仍须精确结构CI。"
+last_diff_summary: "第676章旧Draft与正式Ready标题正文逐字一致，仅Front Matter交付元数据不同；第677章StageA只重绑前章正式Ready SHA，小说正文0字修改，修订后新blob重新Reader双遍0/0/2，独立QA PASS，仍需精确候选CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 68eee283d31b86f92b9d46e330609c10be89d653
+current_review_source_sha: 9f3d74e2362492c79add62dbba4e7035cd7c1e5a
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7290,4 +7290,23 @@ combined_audit_chapter_676_20261111:
   revision_reason: no_fix_required
   content_qa: pass
   predecessor_ready_sha: "be0da8527fc2d96898b3c085bab4ae896cf835b8"
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_677_20261111:
+  chapter: 677
+  original_sha: "81ffe77bb8ba276a348d38a3693766f4fbc6e11f"
+  initial_review: reader_reviews/0677_81ffe77b.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_draft_sha: "9f3d74e2362492c79add62dbba4e7035cd7c1e5a"
+  final_review: reader_reviews/0677_9f3d74e2.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  revision_reason: rebind_676_ready_after_title_body_exact_comparison
+  predecessor_provisional_sha: "c9f756d5f39271401ab97848273d586f3cd5d755"
+  predecessor_ready_sha: "dbd9941161659e9fde6f371c9beadc2ac7834cf0"
+  predecessor_factual_delta: title_body_exact_same_metadata_only
+  content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

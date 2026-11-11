@@ -7,9 +7,9 @@
 - created_at: 2026-11-11
 - status: plan_only
 - depends_on_chapter: 676
-- depends_on_source_sha: c9f756d5f39271401ab97848273d586f3cd5d755
-- dependency_status: provisional
-- source: chapters/draft/0676.md（main精确 Git Blob）
+- depends_on_source_sha: dbd9941161659e9fde6f371c9beadc2ac7834cf0
+- dependency_status: verified_ready_compatible_body
+- source: chapters/ready/0676.md（正式main精确Git Blob，原标题正文与临时稿逐字一致）
 - target_effective_chars: 3000（优选2600—3400，硬限2300—3800）
 - actual_effective_chars: 3079
 
@@ -34,3 +34,10 @@
 - 从main published、ready、draft三目录实际数字章号重算最高676，153章在published已存在，677章及新章纲均不存在；前676章位于chapters/draft/0676.md、Git Blob c9f756d5f39271401ab97848273d586f3cd5d755、dependency_status: provisional。前676章尚未经过独立审核，所有依赖事实仅作为对应SHA临时参考，不能升为正式Canon；如独立Audit后修改，将由Audit处理后章兼容性。
 - 四楼原十二厘米旧观察口和亡夫旧饰板分别独封，客厅单照明有限、其他受水电路隔离、整屋禁返住；五楼有限复水、公区白痕灰细侧接漏源无专业同源结论。Day536旧清运任务撤销有效，Day539限项历史附件不是现场实物、不开门不清运。旧联系F014最初号码提供者、旧年本人真收通知、历史押金所有渠道末端付款以及2019原第73页散袋/F003/F008/M004/M005未获新跨源证据。
 - 仅执行Planner、Continuity Precheck、Writer；读取规则、硬Canon、人物与卷弧、长期Memory、0666—0675十章摘要、0672—0676五章原文；不读取reader_reviews、不修改其他文件、不执行Editor/Reader/Revision/QA/Memory/Publish Gate。
+
+## 独立Audit终审附记（2026-11-11）
+- Writer原始依赖第676章临时Draft SHA `c9f756d5f39271401ab97848273d586f3cd5d755`。Audit实际比较该版本与ready blob `dbd9941161659e9fde6f371c9beadc2ac7834cf0`：第676章标题与小说正文逐字一致，仅Front Matter交付字段不同；不伪称旧元数据就是正式Ready。
+- 第677章原草稿SHA `81ffe77bb8ba276a348d38a3693766f4fbc6e11f` 初审独立Pass A/B为0 BLOCKER/1 MAJOR/2 MINOR，唯一MAJOR依赖SHA元数据。Stage A仅调整本章Front Matter和本章详细章纲依赖，小说正文0字改动；新draft blob `9f3d74e2362492c79add62dbba4e7035cd7c1e5a` 已重新独立Reader Pass A/B 0/0/2 keep/none。
+- Continuity/Style/Meaningful QA PASS，第七项“旧院装车”有勾与“仁合里到楼”空格和“七号另核”仅属于未独立核验私人历史文件，不可写成已搬入/未搬入四楼，不改变Day536已撤清运任务及当前四楼禁返住。Day549后未再付房费。
+- 本章原Writer Continuity Precheck是创建时的真实历史记录，原段落所载“当时第676章仅Draft”保留作为创作时事实，不代表审核后当前状态。
+- 仅当精确候选Git SHA的结构CI SUCCESS后，允许迁入main ready。
