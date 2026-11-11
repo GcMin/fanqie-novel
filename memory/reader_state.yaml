@@ -1,19 +1,19 @@
 schema_version: 1
-last_reviewed_chapter: 673
-last_reviewed_title: "封条没有动，清运单先写了完成"
-last_source_path: chapters/draft/0673.md
-last_source_sha: 68eee283d31b86f92b9d46e330609c10be89d653
-last_review_path: reader_reviews/0673_68eee283.md
+last_reviewed_chapter: 674
+last_reviewed_title: "旧照片拍到木箱，四楼的门仍不能开"
+last_source_path: chapters/draft/0674.md
+last_source_sha: c13dbcc22e5d8a957eaef8de1607fc9f551f7e48
+last_review_path: reader_reviews/0674_c13dbcc2.md
 last_reviewed_at: "2026-11-11"
-reviewer_mode: combined_audit_independent_new_sha_pass_a_then_b
+reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 672
-depends_on_source_sha: f1e947f9108812edf119f9f74f80245006a72a0d
+depends_on_chapter: 673
+depends_on_source_sha: 8aac5808317d9a120e113be5d08986b3b9fb25e5
 dependency_status: verified_ready_compatible_body
 predecessor_current_source_sha: f1e947f9108812edf119f9f74f80245006a72a0d
 predecessor_sha_mismatch: true
@@ -8195,4 +8195,22 @@ combined_audit_chapter_673_20261111:
   predecessor_ready_sha: "f1e947f9108812edf119f9f74f80245006a72a0d"
   predecessor_factual_delta: title_body_exact_same_metadata_only
   dependency_status: verified_ready_compatible_body
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_674_20261111:
+  chapter: 674
+  title: "旧照片拍到木箱，四楼的门仍不能开"
+  source_sha: "c13dbcc22e5d8a957eaef8de1607fc9f551f7e48"
+  final_review: reader_reviews/0674_c13dbcc2.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  stage_a_used: 0
+  body_revisions: 0
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_sha: "8aac5808317d9a120e113be5d08986b3b9fb25e5"
+  predecessor_factual_delta: exact_formal_ready_dependency
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main
