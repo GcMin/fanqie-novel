@@ -1,4 +1,4 @@
-# 第691章详细章纲｜七晚房钱到账，旧盘只露出文件名
+# 第691章详细章纲｜七晚房钱到账，旧盘先定查看范围
 
 - chapter: 691
 - volume: 6
@@ -7,11 +7,11 @@
 - created_at: 2026-11-12
 - status: plan_only
 - depends_on_chapter: 690
-- depends_on_source_sha: ecf97f6fd8ec4845dac046f0b6f1d288c00da497
-- dependency_status: provisional
-- source: chapters/draft/0690.md
+- depends_on_source_sha: 68fdbe291e73f91438dc4c1df7bdf7701d1f041e
+- dependency_status: verified_ready_compatible_body
+- source: chapters/ready/0690.md
 - target_effective_chars: 3000
-- actual_effective_chars: 3328
+- actual_effective_chars: 3360
 
 ## Planner
 
@@ -30,12 +30,17 @@
 - **伏笔**：家中一只有可读候选片，家中四仍只是剪片代号，旧移动盘内容、拍摄日期、七号箱真实入户及今日现物待核；F014旧号首源、历史本人收信与押金历史所有渠道实退、2019原卷/F003/F008/M004/M005继续各自保持未证。
 - **不可提前泄露**：不得将未经执行的硬盘识别写成已找到文件；不得把原卡或剪片等同原摄影连续证据；不得让物业/夜间中心接触未经家属同意的私人影像；四楼旧12cm观察口和亡夫饰板分封、整屋禁返住，Day536清运撤销仍有效，五楼旧白痕灰细侧接漏源无新专业同源证明。
 - **结尾/下一章承接**：Day55507:05桥北真实续住到Day561中午，甲乙箱和房卡在首层、夜门新期限已实测；妹妹只预约日后按自定范围看旧盘目录，未来真读文件及授权仍待行动。
-- **字数**：正文3328有效字符，优选2600—3400，硬限2300—3800。
+- **字数**：正文3360有效字符，优选2600—3400，硬限2300—3800。
 
 ## Continuity Precheck
 
 - 读取最新 main 的 AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、bible/premise/main_outline/world/style和主要人物卡、当前卷与弧（仓库现有outlines/volume_05与arcs/arc_current均已过时，现实以ARC-054及近期Ready和Memory为准）、memory/current_arc、各人物关系知识世界状态、foreshadowing/timeline、chapter_plan、0680—0689摘要及0686—0690五章正文；不读取历史reader_reviews。
-- 三目录统计：0153已处于published，最高章号690，691尚无现存文件。前690章为未审草稿，精确依赖其git blob `ecf97f6fd8ec4845dac046f0b6f1d288c00da497`，标记 `provisional`，不将未审新增事件认作正式Canon。
+- 三目录统计：0153已处于published，最高章号690，691尚无现存文件。前690章为未审草稿，精确依赖其git blob `68fdbe291e73f91438dc4c1df7bdf7701d1f041e`，标记 `provisional`，不将未审新增事件认作正式Canon。
 - 第690章结束时Day55407:03桥北房费至当日12:00两卡两箱未搬，上午九点责任岗待具名答复；“家中四”为剪辑选片代号，蓝布套硬盘未经上电、内容未知，原卡由妹妹保管。此章以这些待核问题为唯一衔接，不擅改旧稿。
 - 旧仁合里四楼水电隔离、12cm观察口与亡夫饰板分别封存、Day536清运已撤，五楼旧漏源以及第七项旧木箱的物证现况均未变化。此章没有将家庭影像与F014或2019旧案跨源关联。
 - 仅新建本章详细plan与draft；未作Reader/Revision/QA/Memory/Publish Gate或外部发布，提交后待独立Audit。
+
+## Audit Stage A 事实差异核验与修订｜2026-11-12
+- 原691 Draft SHA `43fa02d6d2f6e75c25998d433dbe99ca9f83194d` 0 BLOCKER/3 MAJOR/2 MINOR。旧标题暗示已读到文件名，正文却明确无读盘；母亲快递纸夹段及收尾似持有妹妹已拿回家的旧纸；原依赖仍是690临时Draft。
+- 逐字核690原Draft `ecf97f6fd8ec4845dac046f0b6f1d288c00da497` 和最终Ready `68fdbe291e73f91438dc4c1df7bdf7701d1f041e`，正文唯一差异为把办公室晓漫无缘听到母亲另一通电话改成合理的此前记忆，691依赖住房到期/剪片代号/硬盘未通电等均不受影响。故本章及计划重绑正式Ready并标事实兼容。
+- Stage A仅修标题为「七晚房钱到账，旧盘先定查看范围」、两处纸夹与妹妹原纸物理持有描述、前章Source SHA及有效字数。正文新SHA `5656537bb7b8fe4dd99ff385922a0ff97b50f1a7` 重新独立双遍Reader 0/0/2 keep/none；独立内容QA PASS。结构仍需候选CI精确成功。

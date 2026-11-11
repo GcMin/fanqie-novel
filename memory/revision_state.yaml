@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 690
-current_stage: chapter690_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0690.md
-current_source_sha: 276ab34b1224a924a769232efc2c1247f9aa92ea
-current_review_path: reader_reviews/0690_276ab34b.md
+current_chapter: 691
+current_stage: chapter691_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0691.md
+current_source_sha: 5656537bb7b8fe4dd99ff385922a0ff97b50f1a7
+current_review_path: reader_reviews/0691_5656537b.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter690_phone_location_fixed_new_sha_review_content_qa_pass
+last_action: chapter691_title_paper_location_depends_fixed_new_sha_review_and_qa_pass
 last_action_date: "2026-11-12"
 last_error: null
-last_diff_summary: "690初审Reader0/1/2，局部StageA修正晓漫办公室电话无缘听到母亲其他电话的声源，正文事实及时间不改，更新字数3366；新SHA276ab34b1224a924a769232efc2c1247f9aa92ea独立双遍Reader0/0/2。前689章正式Ready精确依赖；独立内容QA通过，精确候选结构CI成功才放行main。"
+last_diff_summary: "691初Reader0/3/2，StageA修不实题名旧盘露出文件名、母亲不应持有妹妹带回的旧选片原纸，以及前690旧草稿依赖；校对690原Draft ecf97f6f与最终Ready 68fdbe291e73f91438dc4c1df7bdf7701d1f041e 的唯一小说正文差异是晓漫办公室声源改为合理记忆，691连续性兼容；新Draft 5656537bb7b8fe4dd99ff385922a0ff97b50f1a7双遍Reader0/0/2及独立QA通过；精确候选结构CI仍需成功。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 276ab34b1224a924a769232efc2c1247f9aa92ea
+current_review_source_sha: 5656537bb7b8fe4dd99ff385922a0ff97b50f1a7
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7518,5 +7518,21 @@ combined_audit_chapter_690_20261112:
   stage_a_used: 1
   stage_b_used: 0
   stage_c_used: 0
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_691_20261112:
+  chapter: 691
+  stage: local_revision
+  source_before: "43fa02d6d2f6e75c25998d433dbe99ca9f83194d"
+  source_after: "5656537bb7b8fe4dd99ff385922a0ff97b50f1a7"
+  changes: [correct_title_before_any_file_read, correct_sisters_old_paper_location, verified_predecessor_ready_rebind]
+  predecessor_draft_sha: "ecf97f6fd8ec4845dac046f0b6f1d288c00da497"
+  predecessor_ready_sha: "68fdbe291e73f91438dc4c1df7bdf7701d1f041e"
+  predecessor_factual_delta: phone_hearing_no_effect_on_691
+  current_review: "reader_reviews/0691_5656537b.md"
+  initial_counts: {blocker: 0, major: 3, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 691
+title: "七晚房钱到账，旧盘先定查看范围"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "43fa02d6d2f6e75c25998d433dbe99ca9f83194d"
+source_draft_sha: "5656537bb7b8fe4dd99ff385922a0ff97b50f1a7"
+initial_reader_review: "reader_reviews/0691_43fa02d6.md"
+reader_review: "reader_reviews/0691_5656537b.md"
+depends_on_chapter: 690
+depends_on_source_sha: "68fdbe291e73f91438dc4c1df7bdf7701d1f041e"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day55408:26—Day55507:05"
+summary: >-
+  Day55408:26母亲仍在桥北行舍首层两卡双箱在，商户前款真付只到12点。08:47物业责任岗旧表虚写连续安置已落实实际上仅七晚内部批准，母亲请求真实商户收款；09:04新具名答复明确候选原房续七晚到Day56112点但待实收，夜门待授权，旧四楼赔责单办。10:16前台核无下期真单，约11点付款指令亦不当到账。11:19商户实际收到Day55412点—Day56112点连住七晚，新单不冲原Day551—554三晚，母亲当面核账打印，11:37两卡按新房期分别开室内门；夜门待晚上核。Day55414点多妹妹携蓝布套裂口旧硬盘自愿咨询维修者，仅外观评估和未来指定目录读取风险报价，既未通电也未读取文件；17:20晓漫到姨妈家，双方规定本人在场仅识别盘挂载与特定“旧片待选”目录文件名大小、不预览复制上传、异常即停，预约次日再决定，原硬盘及旧选片纸都仍由妹妹持有。21:12母亲在晚间住客权限状态下用本次新房期两卡逐张真开桥北外门并记录，21:26只限项告物业真付与两卡实测，不结束仁合里旧屋其他事项。Day55507:05母亲桥北首层真正住到Day561中午，甲乙箱与卡不动。旧盘未上电、家中四原文件及原摄影来源未见，第七项旧铁角箱最终入户与现物未知；仁合里四楼旧12cm口与亡夫饰板独封整屋禁返住、Day536撤清运、五楼旧漏源与F014历史旧号/本人旧通知/押金全渠道末端真退及2019旧卷无跨源新证。
+meaningful_state_changes:
+  - "Day55411:19桥北商户真正收七晚至Day56112:00，11:37新房期室内双卡真开、21:12夜间外门两卡实际复核成功，旧三晚款不冲回。"
+  - "妹妹只与师傅讨论外壳裂口风险并本人拟定未来只查指定目录文件名与大小的可中止授权，旧盘当天未通电/读到任何文件内容。"
+knowledge_updates:
+  - "母亲、晓漫和物业/商户分别知道本次七晚实款与相应门卡真用，但不代表仁合里四楼安全赔责结案。"
+  - "妹妹和晓漫知道读取的技术风险与限定程序，并不知道硬盘内部有没有家中四源文件、原摄影日期或箱体线索。"
+relationship_updates:
+  - "母亲坚持让责任单位承担付费而不叫女儿替代；妹妹坚持由自己限定旧盘查询授权，晓漫协助而不代签。"
+foreshadowing_updates:
+  - "七晚住宿安全窗口到Day561中午有据；仅约未来查盘目录、不实际读取，家中四与F014/2019/七号箱各未证。"
+ending_state: "Day55507:05桥北首层两卡两箱和新七晚商户款均在，新夜门甲乙卡实测成功；妹妹持裂盘待决定明天是否执行有限目录查询，四楼封存和旧年案不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "43fa02d6d2f6e75c25998d433dbe99ca9f83194d", final_draft_sha: "5656537bb7b8fe4dd99ff385922a0ff97b50f1a7", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: corrected_title_premature_file_name_and_old_paper_location_and_predecessor_sha_rebind, predecessor_draft_sha: "ecf97f6fd8ec4845dac046f0b6f1d288c00da497", predecessor_ready_sha: "68fdbe291e73f91438dc4c1df7bdf7701d1f041e", predecessor_factual_delta: office_phone_sound_source_corrected_only_no_conflict}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3360
