@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 718
-last_reviewed_title: "换班以后，门口谁还在"
-last_source_path: chapters/draft/0718.md
-last_source_sha: 40ddc4d0085c53ed39c69f487536254a4d26c5b0
-last_review_path: reader_reviews/0718_40ddc4d0.md
+last_reviewed_chapter: 719
+last_reviewed_title: "一间房到点了，另一间还没交"
+last_source_path: chapters/draft/0719.md
+last_source_sha: e52b428786e560ca88f8c0c4f67db4a6ae33bf6b
+last_review_path: reader_reviews/0719_e52b4287.md
 last_reviewed_at: "2026-11-13"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 717
-depends_on_source_sha: b5a7114d3e29eb6c36d5c0b6c7968e7bcf2589cb
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: b5a7114d3e29eb6c36d5c0b6c7968e7bcf2589cb
+depends_on_chapter: 718
+depends_on_source_sha: dabe9f34470b177fb0460d952a2a56bc99ba17a1
+dependency_status: verified_ready_compatible_body
+predecessor_current_source_sha: dabe9f34470b177fb0460d952a2a56bc99ba17a1
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8982,5 +8982,22 @@ combined_audit_chapter_718_20261113:
   predecessor_ready_sha: "b5a7114d3e29eb6c36d5c0b6c7968e7bcf2589cb"
   predecessor_fact_delta: "exact_ready_reference_no_old_sha_delta"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_719_20261113:
+  chapter: 719
+  title: "一间房到点了，另一间还没交"
+  original_source_sha: "2082064690908de84c49a9d76409bc318326beeb"
+  source_sha: "e52b428786e560ca88f8c0c4f67db4a6ae33bf6b"
+  review_path: "reader_reviews/0719_e52b4287.md"
+  counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_draft_sha: "40ddc4d0085c53ed39c69f487536254a4d26c5b0"
+  predecessor_ready_sha: "dabe9f34470b177fb0460d952a2a56bc99ba17a1"
+  predecessor_fact_delta: "body_identical_front_matter_only"
+  dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

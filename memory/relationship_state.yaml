@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 718
+last_updated_chapter: 719
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3904,3 +3904,8 @@ chapter_718_arc054:
   mother_daughter: "晓漫照常上班、讨论保温杯，晚间与母亲做番茄炒蛋，不替旧屋工程守门、签许可或支付无实据费用。"
   family: "妹妹JZ4旧裂盘及历史影像授权边界继续独立，旧七号箱不因当代预核获得实证。"
   professional: "母亲要求夜班接管人真人到场，段启任小勇认可当次具名路线、共同改掉‘接管完成’，不存在实际失锁事故或开门许可。"
+chapter_719_arc054:
+  source_sha: "e52b428786e560ca88f8c0c4f67db4a6ae33bf6b"
+  mother_daughter: "母亲亲自看北廊新房路线和真实两箱签收，晓漫正常上班午休问搬家、晚上带粥探望，不代母亲签住宿与旧屋许可。"
+  family: "妹妹旧裂盘JZ4私人影像权限不变，七号箱未在本次搬运名单中成为旧屋现物。"
+  professional: "母亲与住宿主管分别区分两晚款实收、旧房真退、箱件具名寄存、北廊新房真交、双门逐卡实开；林工承认Day581到场人员签页不能变Day582工程执行令。"

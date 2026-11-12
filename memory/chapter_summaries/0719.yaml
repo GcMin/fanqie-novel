@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 719
+title: "一间房到点了，另一间还没交"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "2082064690908de84c49a9d76409bc318326beeb"
+source_draft_sha: "e52b428786e560ca88f8c0c4f67db4a6ae33bf6b"
+reader_review: "reader_reviews/0719_e52b4287.md"
+depends_on_chapter: 718
+depends_on_source_sha: "dabe9f34470b177fb0460d952a2a56bc99ba17a1"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day58208:12—Day58307:05"
+summary: >-
+  Day58208:12松桥客舍原首层房费Day57916:19真款仅到当日12时，原房已被别客人预约，甲乙箱在屋。09:06安置预算虽获批仍按原房号且商户尚未收到新款；09:38母亲亲走拟调松桥北廊新首层房路线，见保洁车堵转角并由保洁员按专位移走，新房无需抬腿门槛但尚未清洁交付，不把首层标签当无障碍验收。10:11有源限定为拟调房非入住。10:42仁合里工程把Day581段启任小勇当次安防实核误认作Day582可开旧门，任小勇今夜巡区另有人员尚未核，林工正式撤启动建议，仍无新建筑电气许可、开门授权或维修。Day58211:16次期付款指令并非实收，11:31仍未到款，11:47松桥商户真正收到新北廊房号两晚款覆盖Day58212至Day58412。11:58母亲清双箱，12:03原房真实退还双卡，两箱在前台行李间有双方签条临存；12:27新北廊首层房已完成本次清洁与设施核验，两箱实际送到本人签收，12:35甲及换发新乙卡分别真正打开新房门复位。20:52母亲限项回拨中心只报白天付款、退旧房、实交两箱和午间房卡，夜门尚未测不倒填。21:09甲和新乙卡分别实开夜侧门，21:43另次回拨补报；晓漫下班带粥共饭。Day58307:05两箱在北廊新房，商户真款到Day58412、房门夜门双卡本次均实开，仁合里旧四楼继续锁闭双封、受水电路隔离、Day536撤清运与禁返住，不存在第二次开门、实际应急接管或修门。F014旧号旧信旧押金、七号箱五楼漏源、2019原卷无新证，桥北本人368元Day571真返仅一笔。
+meaningful_state_changes:
+  - "Day58211:47新北廊房号两晚款真到商户，12:03旧房真退卡、12:27新房双箱真交、12:35双卡房门真开、21:09双卡夜门真开。"
+  - "Day581人员签页不足覆盖Day582新班次，仁合里误启动建议真正撤回。"
+knowledge_updates:
+  - "母亲亲见具体新房、核实款/箱/门禁，夜班中心20:52和21:43两次限项分时得知。"
+  - "晓漫仅知母亲自己新房实交事实，不代签工程；妹妹JZ4仍私有。"
+relationship_updates:
+  - "母亲与客舍按订单与实物核行李寄存转送，晓漫下班探望共粥。"
+foreshadowing_updates:
+  - "后续旧屋动态查验还须本班专业意见与住户许可，Day58412后客舍续住另待付款。"
+  - "历史F014旧号旧信旧押金/七号箱/五楼漏源和2019原卷不因转房获得新证。"
+ending_state: "Day58307:05松桥客舍北廊新首层甲乙双箱原位、甲及换发新乙卡Day582房门和夜侧门均当次实开，商户真付到Day58412；原房真退，仁合里旧屋四楼封控隔离禁返住未变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "2082064690908de84c49a9d76409bc318326beeb", final_draft_sha: "e52b428786e560ca88f8c0c4f67db4a6ae33bf6b", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "predecessor_718_ready_SHA_rebind_body_identical"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3347

@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 718
-current_stage: chapter718_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0718.md
-current_source_sha: 40ddc4d0085c53ed39c69f487536254a4d26c5b0
-current_review_path: reader_reviews/0718_40ddc4d0.md
+current_chapter: 719
+current_stage: chapter719_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0719.md
+current_source_sha: e52b428786e560ca88f8c0c4f67db4a6ae33bf6b
+current_review_path: reader_reviews/0719_e52b4287.md
 rounds:
   reviews_this_cycle: 1
-  local_revision_used: 0
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter718_reader_keep_no_revision
+last_action: chapter719_stage_a_predecessor_ready_metadata_rebind_only
 last_action_date: "2026-11-13"
 last_error: null
-last_diff_summary: "718精确依赖717正式Ready；Reader双遍0/0/2、独立QA PASS、正文不修订，结构待精确CI。"
+last_diff_summary: "718原Draft与正式Ready正文完全一致；719仅重绑前章SHA及章纲，正文0改；新SHA Reader 0/0/2及独立QA PASS，精确结构CI待校验。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 40ddc4d0085c53ed39c69f487536254a4d26c5b0
+current_review_source_sha: e52b428786e560ca88f8c0c4f67db4a6ae33bf6b
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7972,5 +7972,21 @@ combined_audit_chapter_718_20261113:
   body_revisions: 0
   predecessor_ready_sha: "b5a7114d3e29eb6c36d5c0b6c7968e7bcf2589cb"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_719_20261113:
+  chapter: 719
+  source_before: "2082064690908de84c49a9d76409bc318326beeb"
+  source_after: "e52b428786e560ca88f8c0c4f67db4a6ae33bf6b"
+  review: "reader_reviews/0719_e52b4287.md"
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  predecessor_original_sha: "40ddc4d0085c53ed39c69f487536254a4d26c5b0"
+  predecessor_ready_sha: "dabe9f34470b177fb0460d952a2a56bc99ba17a1"
+  predecessor_fact_delta: "body_identical_front_matter_only"
+  dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
