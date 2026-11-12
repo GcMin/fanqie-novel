@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 705
+title: "十二点以后，房钱从谁的卡里扣"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "b99bfb63f8f41830b958646d6cc79a3079c5aa8f"
+source_draft_sha: "930e20f16020e87b177e1ebc5801af1d68f36cbb"
+initial_reader_review: "reader_reviews/0705_b99bfb63.md"
+reader_review: "reader_reviews/0705_930e20f1.md"
+depends_on_chapter: 704
+depends_on_source_sha: "4fdde0e75d220070833aa795fbbed7c0ba0e8ab8"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day56807:16—Day56907:08"
+summary: >-
+  Day568桥北行舍母亲原首层甲乙两箱两卡在，物业Day563已真付四晚只覆盖到Day56812点。07:53前台核无物业后期实收，08:09责任岗仅报银行付款指令。晓漫09:26愿转钱，母亲顾及其上班与个人支付能力而决定自己付；10:08酒店真实收到母亲银行卡368元，新房期Day56812:00到Day56912:00，前期不重叠。12:11新期实际生效12:13两卡分别实开室内门，21:16夜间外门双卡分别实开，甲乙箱未动。物业11:43内部备注住户自续、14:27误将个人出资登记居民自行安排住宿完成；母亲据本人收据在原号申请更正，15:46真实取得临住个人先行支付费用待核限项回执，只有材料接收而无责任核定或任何退款。下午预约药房补药、买菜省开支，晓漫晚上来共饭并核当代实付；21:32母亲只向夜间中心夏宁周衡梁策限报个人真实续付及待核收件，不提妹妹自持裂口旧盘私影。Day56907:08仍住桥北原房、两卡双箱原位，个人真付只到当日12点，次期物业商户无真收。仁合里四楼门关锁、12厘米观察口亡夫饰板分别封存、客厅一路照明有限其他受水电隔离、整屋禁返住、Day536撤清运仍有效；穆师傅仍仅Day567外观初查未入室。旧五楼漏源、第七铁角箱、F014旧号旧信旧押金及2019旧卷未获新跨源证。
+meaningful_state_changes:
+  - "母亲本人Day56810:08银行卡确付368元保原首层至Day56912:00，12:13新期房门及21:16夜外门甲乙卡分别实际验证，不把物业申请当到账。"
+  - "错误居民自行安排住宿完成分类已于15:46更正个人临住先行支付费用待核有源收件；没有责任单位付款、核销批准或返款。"
+knowledge_updates:
+  - "母亲真见支付实收与双卡新期有效，仅知个人垫付款待核；晓漫经母亲当代限项知道，无代签。"
+  - "夏宁周衡梁策21:32经本人限报只知当代临住，妹妹裂盘没新读取、旧第三人许可仍未知。"
+relationship_updates:
+  - "晓漫提出资金援助，母亲考虑女儿加班压力选择先自己付款，母女晚饭计划新付款期限，不代物业履行责任。"
+foreshadowing_updates:
+  - "Day56912点又到住房缴费期限，个人368元责任待核；F014和2019历史谜题仍须独立跨源证。"
+ending_state: "Day56907:08桥北原首层甲乙箱两卡仍在，本人368元付到中午12点且双卡房门夜门均实开；个人垫付仅收件待核无退款，旧四楼双封禁返住、Day536撤清运持续。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "b99bfb63f8f41830b958646d6cc79a3079c5aa8f", final_draft_sha: "930e20f16020e87b177e1ebc5801af1d68f36cbb", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "publisher_normalized_3809_exceeded_hard_max_3800_cut_20_and_recount_3789"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3789

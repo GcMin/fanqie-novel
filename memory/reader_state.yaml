@@ -8742,3 +8742,25 @@ combined_audit_chapter_704_20261112:
   dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_705_20261112:
+  chapter: 705
+  title: "十二点以后，房钱从谁的卡里扣"
+  original_source_sha: "b99bfb63f8f41830b958646d6cc79a3079c5aa8f"
+  source_sha: "930e20f16020e87b177e1ebc5801af1d68f36cbb"
+  initial_review_path: "reader_reviews/0705_b99bfb63.md"
+  review_path: "reader_reviews/0705_930e20f1.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  reason: "publisher_normalized_3809_over_hard_max_3800_cut_20_chars_and_recount_3789"
+  predecessor_ready_sha: "4fdde0e75d220070833aa795fbbed7c0ba0e8ab8"
+  predecessor_fact_delta: "exact_ready_reference_no_provisional_delta"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
