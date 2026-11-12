@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 704
+title: "两道擦痕不在同一处"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "785bf85be656978ff8f1b9447aaba4c82f3d8682"
+source_draft_sha: "5e08939f8c8350ffa05d316a68323d0e987ab90c"
+initial_reader_review: "reader_reviews/0704_785bf85b.md"
+reader_review: "reader_reviews/0704_5e08939f.md"
+depends_on_chapter: 703
+depends_on_source_sha: "b5389da2a5de6fac64225b8b20b5abcec6aeb81f"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day56708:17—Day56807:01"
+summary: >-
+  Day56708:17母亲住桥北行舍原首层，昨天Day566真换的窗帘挂钩已能正常拉，甲乙箱和两卡仍在，商户实际四晚房费只覆盖到Day56812:00。09:07物业住宿岗口头新段内部审批，答应16点前给结果并未商户真收。10:12母亲带钥匙到仁合里四楼公共走廊，10:26现行门体维护商穆师傅与物业工程联络员真实具名到场，核服务登记与身份，第一步限闭锁门外外观初查，不开门。10:34穆师傅借手电改变外部光角后核出外露翻卷胶边与右下角浅擦漆实在不同位置，间隙可见右下稍窄却不据此断门扇下沉；10:52外框旧漆边另见小断口，形成时间及因果未定。穆师傅带尺却不未经许可贴门或伸进内侧，不动螺丝、不剪胶，把预印更换密封条划去改为待合法范围核门体间隙/开合条件及建筑电气另行协同；11:28真实具名外观查验签记，母亲只签本次接收不认可完工；14:40收到同内容正式扫描件，历史门体安装维保目录拟查未获原件，不生成拆修工单或返住许可。12:09晓漫在单位午间经母亲照片得实到但未修的真实进度。15:59住宿岗只出内部已批的付款申请号，桥北前台再次核没有商户新款、次期未保房，母亲预备必要时自行真实支付并留责任追索。20:31母亲只按原号向夏宁周衡梁策限报有源外部初查与商户未收钱，旧盘私影不进公事。Day56807:01桥北原房双卡仍能开但已付期当天12:00截止、次期没有实收；仁合里旧门闭锁无室内复核，12厘米观察口与亡夫饰板独封、客厅一路照明有限其余受水电隔离、Day536清运撤销持续、整屋禁返住，旧五楼漏源、第七项铁角木箱、F014历史旧号旧信旧押金及2019旧卷仍未证。
+meaningful_state_changes:
+  - "Day56710:26现行门体穆师傅与工程联络员首次具名真实到场，经光角核外胶边与擦漆不是同一处，另见外框漆边断口；11:28真签仅闭锁门外初查，拒绝误用预印更换胶条，不能当实修。"
+  - "Day56715:59桥北下一期仍只有物业内部审批/付款申请而非商户真收；Day568中午住房硬期限逼近，母亲准备独立核付款与合法自付备选。"
+knowledge_updates:
+  - "母亲与穆师傅知道有源外部痕迹分别在两处但不知年龄、受水因果或内侧安全；晓漫经母亲得限项实到照片，未把到场当修复。"
+  - "夜班只知母亲限项实到与住房待付，妹妹私盘未新读，F014旧年私人及历史帐事实无新增。"
+relationship_updates:
+  - "母亲与穆师傅就仅外观范围形成真实遵守约定的合作，晓漫从担心又多一项改为认可划掉错误预填修复；母女共同做住房备付预案。"
+foreshadowing_updates:
+  - "Day56812:00住房前台必须真的收到款或本人实际采用备选；门体历史维保目录是否有资料、未来接触式安全方案与返住条件仍待核。"
+ending_state: "Day56807:01桥北原房两卡甲乙箱在，但次期商户未收到款、当日12:00截止；仁合里Day567门体外观真查只留有源签记，无开门拆修室内检测，四楼双封禁返住，Day536清运仍撤。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "785bf85be656978ff8f1b9447aaba4c82f3d8682", final_draft_sha: "5e08939f8c8350ffa05d316a68323d0e987ab90c", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: predecessor_703_ready_rebind_after_day567_today_appointment_fix}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3331

@@ -7737,3 +7737,19 @@ combined_audit_chapter_703_20261112:
   final_counts: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_704_20261112:
+  chapter: 704
+  source_before: "785bf85be656978ff8f1b9447aaba4c82f3d8682"
+  source_after: "5e08939f8c8350ffa05d316a68323d0e987ab90c"
+  initial_review: reader_reviews/0704_785bf85b.md
+  final_review: reader_reviews/0704_5e08939f.md
+  stage: local_revision_metadata_only
+  stage_a_rounds: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  fix: "前703原临时Draft SHA重绑正式Ready Blob，实际逐字核实只Day567清晨预约明天改今天、704日时与事实兼容；704正文不变"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main

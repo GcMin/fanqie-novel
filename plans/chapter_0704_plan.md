@@ -5,9 +5,9 @@
 - arc: ARC-054
 - status: planned
 - depends_on_chapter: 703
-- depends_on_source_sha: d589f527fb63ff0ba154c3fcce3b75a1fca24057
-- dependency_status: provisional
-- source_boundary: 本轮核对main的published最大0159、ready最大0702、draft最大0703，0153位于published，因此只允许新建0704。703仍为未经独立审核的原始draft，Git Blob SHA=d589f527fb63ff0ba154c3fcce3b75a1fca24057；本章引用的Day56710:30预约、穆师傅电话接谈、桥北已真付至Day56812:00，均仅是对该特定草稿版本的临时衔接，不能升格为Canonical事实。703末尾Day56707:02误用“明天十点半”，与前文明确预约Day56710:30不一致；本章只按703文本中书面预约的明确日时推进，不修改既有正文，待独立Audit核对。
+- depends_on_source_sha: b5389da2a5de6fac64225b8b20b5abcec6aeb81f
+- dependency_status: verified_ready_compatible_body
+- source_boundary: 审核核实前703章已独立Reader双遍和Continuity/Style QA、精确候选CI成功并正式Ready，Git Blob SHA=b5389da2a5de6fac64225b8b20b5abcec6aeb81f。原703初稿d589f527fb63ff0ba154c3fcce3b75a1fca24057到最终Ready的小说正文只修复Day56707:02对当天10:30预约的“明天→今天”指代；Day56613:47穆师傅电话接谈、15:36真实约Day56710:30、桥北商户实付到Day56812:00及未实际到场的事实不变，704Day567实际到场与最终703完全兼容。
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
 - actual_first_draft_effective_chars: 3331
@@ -27,12 +27,12 @@
 6. 20:31母亲按原号向夏宁、周衡、梁策仅限报当代专业外观实到与住房待付，私人硬盘不共享。Day56807:01两卡双箱在原房，真实已付期当日12点截止，旧屋仍闭锁禁返住；下一章必须在到期前面对商户收款与实际住处安排。
 
 ## Continuity Precheck
-- 原章703写Day566真实通话和Day56710:30预约，但并无实际到场；本章只能把Day567的新现场行动写成本章发生。703最终Day56707:02已经到当天早晨，“明天”属其未审草稿中的明显用词矛盾，不借此延后正式预约或回写旧章。
-- 前章未审，depends_on_chapter=703、完整Git Blob SHA=d589f527fb63ff0ba154c3fcce3b75a1fca24057，dependency_status=provisional，正文Front Matter同步。Audit如果将703修订为其他版本，须核当日预约时间及房期是否兼容，Writer不对703做修订。
+- 第703章最终Ready写Day566真实电话接谈与Day56710:30预约，但截至Day56707:02仍未实际到场；本章才记Day56710:26具名真实到场，704不把前章电话预约冒充已经派修或开门。
+- 前章703正式Ready Blob=b5389da2a5de6fac64225b8b20b5abcec6aeb81f，本章Front Matter已重绑此精确依赖。已逐字核703原Draft与正式Ready小说正文仅Day567清晨“明天”→“今天”预约指代一处不同，704的Day56710:26到场、Day568房期依赖事实全部兼容。
 - 701 Day564外门由母亲限项开约二十厘米、当场关锁；702 Day565闭锁门外照片看到外胶边卷起，内压条、亮痕性质未明。703仅电话技术接谈，今日初查仍不得借外观判水源或门阻成因，更不得擅做接触测量、开锁、入室、修复或验收。
 - Day563桥北同房四晚商户真付覆盖Day56412:00—Day56812:00；本章新段只有内部审批和付款申请，无商户实收，甲乙箱不搬、两卡沿用，下一章须按Day568中午硬期限核实。
 - 仁合里四楼旧12厘米口与亡夫饰板独封、客厅单路有限照明、其余受水电路隔离、整屋禁返住、Day536清运撤销持续；旧七号铁角箱进本户与今物、五楼旧漏源、F014旧号旧通知/押金全渠道末端、2019 F003/F008/M004/M005均无新跨源实证。
-- 妹妹旧裂盘仍在硬盒，未重新上电、复制、打开JZ4_箱边或对未知第三人的过去许可追认；中心不得获得私人片。未执行Reader/Revision/QA/Memory/Publish Gate，不把本文当正式Canon。
+- 妹妹旧裂盘仍在硬盒，未重新上电、复制、打开JZ4_箱边或对未知第三人的旧许可追认；中心不得获得私人片。704须由Audit以修订后新Blob重做独立Reader双遍/Continuity/Style QA/长期Memory并经精确结构校验后才能Ready，严禁直接以Planner标记作为放行。
 
 ## 伏笔与不可泄露
 - 外漆痕和胶边不重合、框边旧断口只是今天新增外观观察，保留旧维保记录能否找到的悬而未决；不能借此揭开异常机制。

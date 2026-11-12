@@ -8721,3 +8721,24 @@ combined_audit_chapter_703_20261112:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_704_20261112:
+  chapter: 704
+  title: "两道擦痕不在同一处"
+  original_source_sha: "785bf85be656978ff8f1b9447aaba4c82f3d8682"
+  source_sha: "5e08939f8c8350ffa05d316a68323d0e987ab90c"
+  initial_review_path: "reader_reviews/0704_785bf85b.md"
+  review_path: "reader_reviews/0704_5e08939f.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 0
+  reason: predecessor_703_final_ready_SHA_metadata_rebind
+  predecessor_original_sha: "d589f527fb63ff0ba154c3fcce3b75a1fca24057"
+  predecessor_ready_sha: "b5389da2a5de6fac64225b8b20b5abcec6aeb81f"
+  predecessor_fact_delta: "703原稿与Ready正文唯一实质差异是Day56707:02明天预约更正今天；704 Day56710:26到场与10:30预约兼容"
+  dependency_status: verified_ready_compatible_body
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
