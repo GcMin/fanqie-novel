@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 713
+title: "续住生效以后，侧门还认不认人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "0a4ea1abb2147a4514d6bc9b1707df17c532da5c"
+source_draft_sha: "e1c88838b6659f25af7aca5e1a0ffe6798d59040"
+initial_reader_review: "reader_reviews/0713_0a4ea1ab.md"
+reader_review: "reader_reviews/0713_e1c88838.md"
+depends_on_chapter: 712
+depends_on_source_sha: "a7fc33afcf56d02c246ca67dbd30b4c6671e922d"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day57608:23—Day57707:04"
+summary: >-
+  Day57608:23母亲住松桥原首层，甲箱靠窗乙箱贴柜；Day57415:48商户已实收续住4晚覆盖Day57612点—Day58012点，Day57515:22两箱误搬候选已真实撤销未派车。08:23前台确认两卡新期须实际验证、9:18住宿岗只分项记录住房不推旧屋返住、晓漫周末按本人行程。12:06新期生效写入甲乙卡，但旧乙12:14两次不能实开房门；12:26注销旧乙卡、剪角并新发乙卡；12:31甲和新乙卡分别从外侧实际开房门，关合复位，保留错误记录。下午母亲正常买水果与晓漫互通生活，17:30仁合里工程只发未经建筑/电气具名本次确认及住户明确授权的旧门查验草案，不构成开门施工许可。21:07松桥夜侧门甲卡可开、新乙卡因缺独立夜间通行组而失败；21:23有权夜班主管补录并留原失效日志，21:29甲和新乙卡分别实开夜侧门且关合，母亲只签本时段限项接收。21:46母亲向夏宁周衡梁策有限报当代客舍通行与仁合里旧屋未动。Day57707:04松桥原首层双箱不动、两卡本期房门夜侧门均已实开，房费到Day58012点；仁合里旧四楼仍锁闭，12厘米观察口/亡夫饰板分封、一路照明有限、其他受水电隔离、Day536清运撤销、整屋禁返住；五楼旧漏源、第七铁角木箱、F014旧号码旧信历史押金全渠道及2019卷仍无新跨源证。
+meaningful_state_changes:
+  - "Day57612:31两张现行房卡真正打开新期房门，旧乙卡读号不稳定导致的失败被有权注销换发并留痕。"
+  - "Day57621:29两卡分别真正从外侧打开夜侧门；新乙夜间通行组曾缺失且21:23才补录，旧失败与更正有源留存。"
+knowledge_updates:
+  - "母亲及客舍主管知新期付款、写入授权、实际开房门与夜门分属不同状态；晓漫只收到母亲合法当代限项信息，照常周末出行。"
+  - "夜班夏宁周衡梁策仅获母亲本人限报的住宿门禁与旧屋工程草案边界，妹妹旧裂盘与F014历史事实不越权。"
+relationship_updates:
+  - "晓漫担忧母亲晚间进出但不再因此取消个人郊游，母亲主动在场真验并鼓励女儿按原行程行动。"
+  - "客舍主管与母亲合作按实际实开和失败留痕确认权限，不依后台绿灯代签；旧屋工程不获无范围许可。"
+foreshadowing_updates:
+  - "当前客舍临住已实付至Day58012且两套通行在Day576实测，未来续住仍要按实际时效判定，不能承诺永久有效。"
+  - "仁合里旧门专业建筑电气本次安全开合条件和住户限定授权仍缺；F014历史号码旧信旧押金、七号箱、五楼漏源和2019仍未证。"
+ending_state: "Day57707:04松桥同首层甲乙双箱原位、现行甲卡及新乙卡在，Day57612:31房门双卡实开、21:29夜侧门双卡实开，旧乙卡注销留痕；商户Day574真付至Day58012点，Day575运输候选真撤无司机；仁合里旧屋锁闭双封一路照明其余隔离Day536撤清运整屋禁返住，工程只草案。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0a4ea1abb2147a4514d6bc9b1707df17c532da5c", final_draft_sha: "e1c88838b6659f25af7aca5e1a0ffe6798d59040", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "Day577_yesterday_transport_to_Day575_cancel_and_exact_char_count_3732_to_3754"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3754

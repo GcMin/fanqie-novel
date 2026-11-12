@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 712
-current_stage: chapter712_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0712.md
-current_source_sha: a7b3d8bc121a1eeb782c17d496e45e92a81e0e02
-current_review_path: reader_reviews/0712_a7b3d8bc.md
+current_chapter: 713
+current_stage: chapter713_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0713.md
+current_source_sha: e1c88838b6659f25af7aca5e1a0ffe6798d59040
+current_review_path: reader_reviews/0713_e1c88838.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter712_stageA_dependency_ready_rebind_newSHA_reader_content_qa_pass
+last_action: chapter713_stageA_day575_transport_date_and_char_count_newSHA_reader_content_qa_pass
 last_action_date: "2026-11-12"
 last_error: null
-last_diff_summary: "第711章Day575后天验卡更正为明天；第712章只改前章正式Ready依赖，正文不变，两个新SHA各重审Pass A/B并通过独立QA，结构门禁候选CI待核。"
+last_diff_summary: "第713章原稿结尾Day577误称Day575撤运为昨日，局部改为Day575当日撤销，字数原误报3732重算3754；新Git Blob独立重审Pass A/B且Continuity/Style QA通过。结构候选CI待核。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: a7b3d8bc121a1eeb782c17d496e45e92a81e0e02
+current_review_source_sha: e1c88838b6659f25af7aca5e1a0ffe6798d59040
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7902,5 +7902,23 @@ combined_audit_chapter_712_20261112:
   body_revisions: 0
   predecessor_ready_sha: "e3a5070e8d7a4a5c7e0682183cd07eaf12006813"
   dependency_status: verified_ready_compatible_body
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_713_20261112:
+  chapter: 713
+  stage: local_revision
+  source_before: "0a4ea1abb2147a4514d6bc9b1707df17c532da5c"
+  source_after: "e1c88838b6659f25af7aca5e1a0ffe6798d59040"
+  changes: [day577_yesterday_cancel_to_day575_actual_cancel, effective_chars_3747_to_3754, front_matter_3732_to_3754]
+  initial_review: "reader_reviews/0713_0a4ea1ab.md"
+  current_review: "reader_reviews/0713_e1c88838.md"
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  predecessor_ready_sha: "a7fc33afcf56d02c246ca67dbd30b4c6671e922d"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 712
-last_reviewed_title: "两只箱子被写进返家路线"
-last_source_path: chapters/draft/0712.md
-last_source_sha: a7b3d8bc121a1eeb782c17d496e45e92a81e0e02
-last_review_path: reader_reviews/0712_a7b3d8bc.md
+last_reviewed_chapter: 713
+last_reviewed_title: "续住生效以后，侧门还认不认人"
+last_source_path: chapters/draft/0713.md
+last_source_sha: e1c88838b6659f25af7aca5e1a0ffe6798d59040
+last_review_path: reader_reviews/0713_e1c88838.md
 last_reviewed_at: "2026-11-12"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 711
-depends_on_source_sha: e3a5070e8d7a4a5c7e0682183cd07eaf12006813
-dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: e3a5070e8d7a4a5c7e0682183cd07eaf12006813
+depends_on_chapter: 712
+depends_on_source_sha: a7fc33afcf56d02c246ca67dbd30b4c6671e922d
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: a7fc33afcf56d02c246ca67dbd30b4c6671e922d
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8909,5 +8909,22 @@ combined_audit_chapter_712_20261112:
   predecessor_ready_sha: "e3a5070e8d7a4a5c7e0682183cd07eaf12006813"
   predecessor_fact_delta: "711只有Day575后天验卡改明天验卡已核事实兼容"
   dependency_status: verified_ready_compatible_body
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_713_20261112:
+  chapter: 713
+  source_before: "0a4ea1abb2147a4514d6bc9b1707df17c532da5c"
+  source_after: "e1c88838b6659f25af7aca5e1a0ffe6798d59040"
+  initial_review: "reader_reviews/0713_0a4ea1ab.md"
+  current_review: "reader_reviews/0713_e1c88838.md"
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  reason: "Day577昨日撤运时指误称改为Day575当日撤运并重算有效字符3754"
+  predecessor_ready_sha: "a7fc33afcf56d02c246ca67dbd30b4c6671e922d"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

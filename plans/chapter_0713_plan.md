@@ -3,14 +3,19 @@
 - chapter: 713
 - volume: 6
 - arc: ARC-054
-- status: planned_first_draft
+- status: ready
 - depends_on_chapter: 712
 - depends_on_source_sha: a7fc33afcf56d02c246ca67dbd30b4c6671e922d
 - dependency_status: verified_exact_ready_blob
 - source_boundary: 前章0712为main正式ready，核对真实Git Blob SHA；Day575运输候选已于15:22真实撤销，松桥Day57415:48四晚商户真收，Day57612:00切期房门及夜间侧门待分别验证。旧四楼始终未开放，未把旧稿视为Canon。
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
-- actual_first_draft_effective_chars: 3732
+- actual_first_draft_effective_chars: 3747
+- actual_final_effective_chars: 3754
+- source_draft_sha: e1c88838b6659f25af7aca5e1a0ffe6798d59040
+- reader_review: reader_reviews/0713_e1c88838.md
+- independent_qa: pass
+- release_gate: exact_candidate_ci_required_before_main
 
 ## Planner
 - 目标：兑现Day576新期已付但门禁待验证的现实任务，分别处理房门与夜间侧门的独立实际失败，避免系统“写入成功”代替真正通行；为仁合里旧屋下一次专业安全核验留出未批准的行动空间。

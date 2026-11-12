@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 710
+last_updated_chapter: 713
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3870,3 +3870,9 @@ chapter_712_arc054:
   mother_daughter: "晓漫担忧自动派车后或需帮母亲搬箱，母亲凭实际撤运回执说明可控而支持女儿照常郊游。"
   family: "妹妹旧私盘和旧箱不得被承运/中心用作已认证材料。"
   professional: "母亲督促责任岗位分清通知与对端完成、撤车与保房独立，车务主管明确本事项无司机无实际取件。"
+chapter_713_arc054:
+  chapter: 713
+  source_sha: "e1c88838b6659f25af7aca5e1a0ffe6798d59040"
+  mother_daughter: "晓漫有独立郊游安排，母亲通过自己现场验证与有限发信告知女儿无需为卡权风险取消出行；母女恢复普通买菜和个人口味闲谈。"
+  family: "妹妹旧裂盘及家影继续由本人控制、不新增阅读传送或对旧年第三人授权；七号箱未知。"
+  professional: "母亲与松桥主管把机器写卡、房门实开、夜门组补录和夜门实开分项记录并保留首次失败；仁合里工程仅可送未经安全签准的草案，不获交钥匙或开门许可。"
