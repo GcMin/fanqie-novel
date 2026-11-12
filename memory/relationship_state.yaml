@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 699
+last_updated_chapter: 700
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3779,3 +3779,10 @@ chapter_699_arc054:
   mother_daughter: "晓漫午休误担心模板已派人进屋，母亲以未签未派令纠正；晚间核工程签记，问是否能回去取衣，母亲坚持不能凭门外通路推断室内安全。"
   family: "妹妹持旧裂盘不再上电读取，姐姐不要求看箱边或替未明第三人补许可，外甥试纸仓不进入物业系统。"
   professional: "母亲要求工程承办人分开有权公区实查和本户入室移物清运许可；物业自行移走推车并留有源签记，未让她签错误模板。"
+
+chapter_700_arc054:
+  chapter: 700
+  source_sha: "127d86eb4d34beab5d5430c72e54256f251c99ea"
+  mother_daughter: "晓漫午间提醒母亲别只留证不保障住处，晚间确认四晚真付并决定另购衣袜，母亲接受而不冒险到旧四楼取衣。"
+  family: "妹妹询问房期只获真实新期限，不接收内部工程表、不开放裂盘箱边；母亲不催第三人影像历史。"
+  professional: "母亲推动工程岗依真实有限记录撤无据Day565返家日期，住宿岗分别记录发出与接收、更正两版费用表；前台只以真实商户流水重写卡，银行指令不当付款。"

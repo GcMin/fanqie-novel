@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 700
+title: "那行预计返家日期被划掉"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "b4beb675b0ae1cbf3c715536a039fc8449d6ca7f"
+source_draft_sha: "127d86eb4d34beab5d5430c72e54256f251c99ea"
+initial_reader_review: "reader_reviews/0700_b4beb675.md"
+reader_review: "reader_reviews/0700_127d86eb.md"
+depends_on_chapter: 699
+depends_on_source_sha: "ad0db453981e1017afe8d094ef0bce600c085b23"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day56308:36—Day56407:04"
+summary: >-
+  Day56308:36桥北原首层双卡甲乙双箱在，前Day56111:36商户三晚真付只至Day56412:00。08:58前台系统真实生成到期离店提醒而不是实际退房或新房期商户收款。09:17母亲主动向住宿责任岗追下一期具名方案，对方七晚申请仅内部批四晚额度未付款，费用表错误写“预计Day565居民返家”且来源只是旧工程进度模板。母亲依据Day560公共配电和Day562公区门外真实有限核验追问专业依据；11:28工程人员确认未有室内安全结论，11:56工程正式有源发送四项本户室内复核前置条件，12:19住宿岗实际收到并撤用无据日期，14:08新费用表将预计返家栏置空且不作停临住款/自动退房依据，保留原版。14:29桥北商户仍无新款，15:48仅银行受理指令；16:27商户真收物业同首层房接续四晚至Day56812:00，16:29前台按订单核实，16:41两卡本期逐张实开室内门，21:19两卡新期夜间外门也分别真实开启，甲乙箱不搬。晓漫上班午间核日期，晚间建议另买换洗衣袜不擅入仁合里四楼；妹妹旧硬盘不上电不备份不打开箱边。21:42母亲向夏宁周衡梁策限项回拨真实商户款、夜门及错误日期专业纠正，无家影。Day56407:04两卡双箱原位，四楼12cm观察口和亡夫饰板各自封存、客厅单照明有限其余受水电隔离整屋禁返住，Day536撤清运仍有效。五楼旧漏源、第七项铁角箱最终入户与今物、F014旧号本人旧年通知历史押金全渠道实退与2019旧卷无新增跨源实证。
+meaningful_state_changes:
+  - "错误预计Day565返家由工程有源限定说明和住宿岗实收纠正，14:08新版费用表真正撤去日期并保留原版；本户室内复核及许可仍未落实。"
+  - "Day56316:27商户真实收到同房接续Day56412:00—Day56812:00四晚款，16:41两卡室内真开、21:19两卡夜门真开，双箱不搬。"
+knowledge_updates:
+  - "母亲与晓漫仅知无据回迁日期撤回与新四晚实收，不知道四楼可返住；工程只以公配和公区有源记录证明未查内室，夜班仅获母亲限项事实。"
+  - "妹妹不读旧箱边或整盘备份，第三人身份和历史许可不明。"
+relationship_updates:
+  - "晓漫提醒母亲兼顾证据与临时住处，母女决定正常买换洗衣物而不是未经许可入旧屋；妹妹尊重私人影像限制。"
+foreshadowing_updates:
+  - "Day568中午成为新实付住房截止，四楼室内专业人员/防护/逐件许可仍需安排；旧七号箱、F014、2019旧案未证。"
+ending_state: "Day56407:04桥北原首层双卡两箱仍在，新四晚真款续至Day56812:00且夜门两卡已实测；无据预计Day565返家已被撤掉，四楼未开未验双封禁返住，Day536撤清运不恢复。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "b4beb675b0ae1cbf3c715536a039fc8449d6ca7f", final_draft_sha: "127d86eb4d34beab5d5430c72e54256f251c99ea", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "predecessor_ready_rebind_and_remove_unsupported_day563_promise"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3654

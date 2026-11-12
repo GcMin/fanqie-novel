@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 699
-last_reviewed_title: "门没打开，清理栏先被勾上"
-last_source_path: chapters/draft/0699.md
-last_source_sha: 7bb63e6ed6416c01cfb077457f3124f29ab311ab
-last_review_path: reader_reviews/0699_7bb63e6e.md
+last_reviewed_chapter: 700
+last_reviewed_title: "那行预计返家日期被划掉"
+last_source_path: chapters/draft/0700.md
+last_source_sha: 127d86eb4d34beab5d5430c72e54256f251c99ea
+last_review_path: reader_reviews/0700_127d86eb.md
 last_reviewed_at: "2026-11-12"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 698
-depends_on_source_sha: 2b163c67961e06d3d230a29f0fbd557d5120df73
+depends_on_chapter: 699
+depends_on_source_sha: ad0db453981e1017afe8d094ef0bce600c085b23
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 2b163c67961e06d3d230a29f0fbd557d5120df73
+predecessor_current_source_sha: ad0db453981e1017afe8d094ef0bce600c085b23
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8644,5 +8644,25 @@ combined_audit_chapter_699_20261112:
   body_revisions: 0
   dependency_status: verified_exact_ready_blob
   predecessor_ready_sha: "2b163c67961e06d3d230a29f0fbd557d5120df73"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_700_20261112:
+  chapter: 700
+  original_source_sha: "b4beb675b0ae1cbf3c715536a039fc8449d6ca7f"
+  source_sha: "127d86eb4d34beab5d5430c72e54256f251c99ea"
+  initial_review_path: "reader_reviews/0700_b4beb675.md"
+  review_path: "reader_reviews/0700_127d86eb.md"
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 1
+  reason: predecessor_ready_sha_rebind_and_remove_unsupported_yesterday_promise
+  predecessor_original_sha: "7bb63e6ed6416c01cfb077457f3124f29ab311ab"
+  predecessor_ready_sha: "ad0db453981e1017afe8d094ef0bce600c085b23"
+  predecessor_fact_delta: "第699章标题和小说正文逐字一致，仅交付Front Matter变化"
+  dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

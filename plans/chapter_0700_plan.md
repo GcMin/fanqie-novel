@@ -3,14 +3,16 @@
 - chapter: 700
 - volume: 6
 - arc: ARC-054
-- status: planned
+- status: completed
 - depends_on_chapter: 699
-- depends_on_source_sha: 7bb63e6ed6416c01cfb077457f3124f29ab311ab
-- dependency_status: provisional
-- source_boundary: 第699章当前main来源chapters/draft/0699.md、完整Git Blob 7bb63e6ed6416c01cfb077457f3124f29ab311ab。Day562门外公区走廊查验和物业工具推车移位真正完成，错误预勾清理表失去本次授权效力，但四楼门未开启、屋内安全未核、Day536撤清运持续；桥北三晚商户实付到Day56412点，Day563上午必须查下期真实付款。若699仍为草稿，其事实仅作临时写作依赖，不视为正式Canon。
+- depends_on_source_sha: ad0db453981e1017afe8d094ef0bce600c085b23
+- dependency_status: verified_ready_compatible_body
+- source_boundary: 第699章已正式Ready来源chapters/ready/0699.md、Git Blob ad0db453981e1017afe8d094ef0bce600c085b23。Day562门外公区走廊查验和物业工具推车移位真正完成，错误预勾清理表失去本次授权效力，但四楼门未开启、屋内安全未核、Day536撤清运持续；桥北三晚商户实付到Day56412点，Day563上午必须查下期真实付款。第699章原稿与正式Ready正文和标题完全一致，因只更改交付Front Matter，现可作为已核实前章。
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
 - actual_first_draft_effective_chars: 3653
+- actual_final_effective_chars: 3654
+- audit_stage_a: remove_unsupported_yesterday_promise_and_rebind_699_ready
 
 ## 本章目标和POV
 母亲有限视角，Day56308:36至Day56407:04。Day563依既有提醒查住宿续期，同时在实际费用审批中发现“预计Day565返家”是无依据的旧工程进度模板；用有源专业分项记录纠正具体返家日期，避免未核本户室内安全被当成缩短临住费用的依据。故事在夜间双卡核验与日常生活采购决定中落地。
@@ -38,7 +40,7 @@
 - 仁合里旧四楼十二厘米观察口与亡夫饰板各封；客厅有限一路照明、其他受水电路隔离、整屋禁返住，Day536撤清运不恢复。公区通道可通行并不提供室内开门、物件搬离及返住许可。
 - 五楼灰细侧接旧漏源仍无同源专业结论；第七项铁角木箱是否最终入户及现物均未证。妹妹JZ4_箱边未打开，剪片备注未证旧第三人身份及当年许可。
 - F014历史旧联系号码来源、本人旧年通知真收、旧押金全部渠道末端真退款，2019旧卷与F003/F008/M004/M005均无跨源新证。
-- 前章699仅草稿时依赖标记provisional及精确7bb63e6ed6416c01cfb077457f3124f29ab311ab；不改既有章，不将其确认为正式Canon。本轮仅Planner、Continuity Precheck、Writer。
+- 前章699原Draft与正式Ready小说正文及标题逐字一致，当前依赖精确绑定其Ready Blob；本章Stage A仅局部纠正无据昨日承诺和依赖。本轮仅Planner、Continuity Precheck、Writer。
 
 ## 结尾承接
 Day56407:04桥北原房已付款到Day56812点，真正可住但不是终局安置；错误Day565预计返家撤回，新的专业入户前提清单仍未安排现场实施。后续须在既有许可和现实危险内逐项办具名专业复核，不得用住房款掩盖旧房安全、旧物去向或历史账。
