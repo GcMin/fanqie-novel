@@ -7721,3 +7721,19 @@ combined_audit_chapter_702_20261112:
   final_counts: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_703_20261112:
+  chapter: 703
+  source_before: "d589f527fb63ff0ba154c3fcce3b75a1fca24057"
+  source_after: "0db3599d7a690f2d4f6e51ee2c0a7e2a96c9a19e"
+  initial_review: reader_reviews/0703_d589f527.md
+  final_review: reader_reviews/0703_0db3599d.md
+  stage: local_revision
+  stage_a_rounds: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  fix: "Day56707:02末段把Day56710:30预约误写明天，更正为今天；其余正文不变"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main

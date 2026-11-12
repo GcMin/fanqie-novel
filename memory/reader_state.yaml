@@ -8701,3 +8701,23 @@ combined_audit_chapter_702_20261112:
   dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_703_20261112:
+  chapter: 703
+  title: "钥匙先留在自己手里"
+  original_source_sha: "d589f527fb63ff0ba154c3fcce3b75a1fca24057"
+  source_sha: "0db3599d7a690f2d4f6e51ee2c0a7e2a96c9a19e"
+  initial_review_path: "reader_reviews/0703_d589f527.md"
+  review_path: "reader_reviews/0703_0db3599d.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 1
+  reason: day567_tomorrow_to_today_appointment_fix
+  predecessor_ready_sha: "2ae3c95dd83f3e7f8dd5970c8979a9ccdbf02ced"
+  predecessor_fact_delta: "702正式Ready精准绑定，未发生临时稿差异"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main

@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 703
+title: "钥匙先留在自己手里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "d589f527fb63ff0ba154c3fcce3b75a1fca24057"
+source_draft_sha: "0db3599d7a690f2d4f6e51ee2c0a7e2a96c9a19e"
+initial_reader_review: "reader_reviews/0703_d589f527.md"
+reader_review: "reader_reviews/0703_0db3599d.md"
+depends_on_chapter: 702
+depends_on_source_sha: "2ae3c95dd83f3e7f8dd5970c8979a9ccdbf02ced"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day56608:21—Day56707:02"
+summary: >-
+  Day56608:21桥北行舍母亲报修首层临住房窗帘挂钩，10:46维修员更换断扣并由本人四次拉合真正验修，只签此项维修单。母亲和晓漫继续住桥北同首层原房，两张房卡与甲乙箱不动，物业Day56316:27实际付款到Day56812:00，Day566及Day567清晨没有新一笔商户实收。仁合里四楼旧门Day564仅开约20厘米后复锁，Day565只在闭锁门外经有权人员非接触拍到外胶边局部翻卷、浅擦印和下框间隙不均，未证门阻主因及内侧亮痕性质。Day56609:03工程找到原供货合同登记但原维修班组不接单；11:12母亲退回带必要时入户及交钥匙格的通用意向表，拒的是无范围授权并非拒修。13:47工程联系上现行门体维护服务商值班穆师傅，母亲自行拨公开号码核身份、服务登记号并技术接谈，穆师傅明确不能仅凭照片定因或剪胶入室。15:09收到新限项表，第一步仅闭锁门公共走廊外观初查，开门、触碰内侧、拆件、复测与修复须以后另议；15:36工程真正登记Day56710:30穆师傅与工程联络岗的外观会面预约，现场未到、无室内施工派工或实际开门许可。母亲只同意这次有限外观预约而不交钥匙。晓漫在单位午间和晚间听母亲解释，下班送菜并理解有权公区事项与家门许可不同；20:37母亲仅向夏宁周衡梁策限报当代具名接谈和次日上午预约，妹妹旧裂盘仍未通电或读箱边。Day56707:02桥北双卡双箱和已付Day568中午房期未变，四楼旧十二厘米口与亡夫饰板独封，客厅一路照明有限其余受水电隔离、整屋禁返住、Day536撤销清运持续，五楼旧漏源七号铁角木箱F014旧号旧信旧押金及2019 F003/F008/M004/M005均无新跨源证。
+meaningful_state_changes:
+  - "桥北临住房窗帘挂钩Day566已实际更换并四次拉合验证，与旧屋仍不能动门的安全边界形成明确对比。"
+  - "旧门维保从仅有后续建议推进为有可回拨现行技术员穆师傅、服务登记号、有限范围单和Day56710:30真实预约；未实际到场或维修。"
+knowledge_updates:
+  - "母亲知道旧供货登记与当前可联系服务商是两件事，能确认穆师傅真实接谈和预约，未知外胶边与内压条亮痕因果及室内安全。"
+  - "晓漫从母亲获限项新表但不代签或到场；中心只得母亲当代预约事实，妹妹私盘未知第三人、历史许可未改变。"
+relationship_updates:
+  - "母亲愿意让具名专业人员自主负责合法公区核验但保留家门钥匙及逐项许可；晓漫由担心拖延转为要求问清范围，晚间共饭。"
+foreshadowing_updates:
+  - "Day56710:30预约真实存在却仍待到场、初查结果及新安全方案；Day56812:00住房下一期尚无商户实收。"
+  - "F014历史旧号最初来源、当年本人旧信收讫和旧押金全渠道末端实退、七号旧箱及2019旧卷仍无跨源证。"
+ending_state: "Day56707:02桥北同房两卡甲乙箱在、房费真付到Day56812:00；Day56710:30关锁门外初查预约待履行、钥匙仍由母亲持有，仁合里四楼门闭锁双封整屋禁返住，Day536清运撤销继续有效。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d589f527fb63ff0ba154c3fcce3b75a1fca24057", final_draft_sha: "0db3599d7a690f2d4f6e51ee2c0a7e2a96c9a19e", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: day567_tomorrow_to_today_appointment_fix}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3603
