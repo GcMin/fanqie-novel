@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 708
+title: "那笔三百六十八元终于回来了"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "f3529c26030fd0b9b448e6e8161dcf1d4cd737bf"
+source_draft_sha: "70e76c7031b51b9da1e899030b4ac077b353bf2c"
+initial_reader_review: "reader_reviews/0708_f3529c26.md"
+reader_review: "reader_reviews/0708_70e76c70.md"
+depends_on_chapter: 707
+depends_on_source_sha: "d158c2e62b0434c7cb57b3978294fc78268603ac"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day57108:27—Day57207:06"
+summary: >-
+  Day57108:27松桥前台昨日实际改善的侧门引导卡被客人使用，母亲查桥北本人Day56810:08支付368元仍无入账返还，松桥物业实付Day56912—Day57612七晚独立有效。09:38费用初核页混入应急安置全部处理完毕，母亲拒总括签认；12:06撤回通用两页单改为仅桥北个人一晚分项，12:41具名责任方核定应返368元但付款指令不代表钱已到账，14:48仅内部受理回执；16:17母亲原银行卡真正收到责任单位368元，有实际银行流水；16:46分项结算与收讫回执仅核销此笔，旧屋安全和旧押金等历史责任未终结。工程11:14定位两种住宅入口门采购配置而没有逐户安装对应表或后续换件资料，穆师傅远程明确不据此锁定现门型号，未到场未开门贴尺拆胶。晓漫晚间共做炖萝卜、21:12母亲再次试松桥夜侧门两卡可开；20:49夜间中心仅限项得知当代368元实返与门型仍待核。Day57207:06松桥首层甲乙箱两卡原位、房费物业实付至Day57612；仁合里四楼旧门仍锁、12cm口和亡夫饰板独封、单路照明有限其他受水电隔离、Day536撤清运禁返住；五楼漏源、七号箱、F014旧号通知及历史旧押金全渠道、2019旧卷仍未跨源证明。
+meaningful_state_changes:
+  - "桥北本人先付368元由待核未退变成16:17原卡真实返款和16:46仅本笔核销；住宅门原采购范围查出两种配置但未落实本户实装"
+knowledge_updates:
+  - "母亲晓漫得知368元实返及银行流水，不将其当作松桥物业七晚款或旧押金退完；工程档案员和穆师傅知道采购仅有两种配置无逐户安装表；夜间中心只得限项当代进展"
+relationship_updates:
+  - "母亲和晓漫就一次真实返款重新恢复普通晚饭节奏，同时不签整体安置结案；工程与母亲同意后续先核逐户清单及工作停止条件"
+foreshadowing_updates:
+  - "个人368元已结清不得再写待核或未退款；松桥真付至Day57612点；本户实装门型仍未知且不允许擅自拆修；旧押金历史款及F014无跨源新证"
+ending_state: "Day57207:06松桥首层双卡甲乙箱在、已付至Day57612:00；仁合里旧屋双封禁返住Day536撤清运持续；桥北本人368元真实返还而历史旧押金未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f3529c26030fd0b9b448e6e8161dcf1d4cd737bf", final_draft_sha: "70e76c7031b51b9da1e899030b4ac077b353bf2c", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "predecessor_707_ready_rebind_card_day569_temporal_fix_and_count"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}

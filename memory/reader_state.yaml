@@ -8787,3 +8787,41 @@ combined_audit_chapter_706_20261112:
   dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_707_20261112:
+  chapter: 707
+  original_source_sha: "3949696585a135058d465d8ee8daf37f0a2af66b"
+  source_sha: "4d8b08c51aefb84cf4f09c7613e537932535fbef"
+  initial_review_path: "reader_reviews/0707_39496965.md"
+  review_path: "reader_reviews/0707_4d8b08c5.md"
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 1
+  reason: correct_day570_reference_to_day567_mushi_and_count_3192
+  predecessor_ready_sha: "28b6ad269d79fa76a208c9e8ecd052b66883e99d"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_708_20261112:
+  chapter: 708
+  original_source_sha: "f3529c26030fd0b9b448e6e8161dcf1d4cd737bf"
+  source_sha: "70e76c7031b51b9da1e899030b4ac077b353bf2c"
+  initial_review_path: "reader_reviews/0708_f3529c26.md"
+  review_path: "reader_reviews/0708_70e76c70.md"
+  initial_counts: {blocker: 0, major: 3, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 1
+  reason: predecessor707_ready_rebind_day569_card_temporal_fix_and_normalized_count
+  predecessor_original_sha: "3949696585a135058d465d8ee8daf37f0a2af66b"
+  predecessor_ready_sha: "d158c2e62b0434c7cb57b3978294fc78268603ac"
+  predecessor_fact_delta: "仅Day567穆师傅到场被误称昨天改前几天; 708依赖事实均兼容"
+  dependency_status: verified_ready_compatible_body
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main

@@ -5,12 +5,12 @@
 - arc: ARC-054
 - status: planned
 - depends_on_chapter: 707
-- depends_on_source_sha: 3949696585a135058d465d8ee8daf37f0a2af66b
-- dependency_status: provisional
+- depends_on_source_sha: d158c2e62b0434c7cb57b3978294fc78268603ac
+- dependency_status: verified_ready_compatible_body
 - source_boundary: 第707章当轮实际版本为第707章尚待独立审核的临时draft Blob 3949696585a135058d465d8ee8daf37f0a2af66b。当代可沿用事实仅包括松桥七晚商户实收至Day57612:00、甲乙两箱两卡在首层、夜侧门可用，桥北本人368元仍待核未返；仁合里旧门未开未修，F-02确为公共楼梯间门图且本户错误引用已正式撤回。707若仍为draft，上述仅作临时衔接事实，未经独立审核不得当成Canon。
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
-- actual_first_draft_effective_chars: 3473
+- actual_first_draft_effective_chars: 3488
 
 ## Planner
 - 目标：Day571让桥北本人垫付的368元完成真实责任核定、银行返还和限项核销，阻止其被错误扩大为安置全结案；技术上取得正确住宅门采购范围，却不冒充本户现门确切型号。
@@ -30,3 +30,8 @@
 - Continuity Precheck：Day570第707章错误引用公区F-02已真撤，原错版及正式更正保留，穆师傅仅Day567门外外观初查，不得称已入室测量；Day571不开户、不贴尺、不拆胶、不动封存。旧四楼门闭锁，12厘米口及亡夫饰板各封，客厅单路有限照明其他水电隔离，整屋禁返住，Day536撤清运持续。松桥七晚真实付款至Day57612点，甲乙两箱及两卡原房不动；旧368在本章16:17前不得提前写已退。
 - 结尾承接点：个人垫款终于独立结清、正常日常得以恢复一部分；住宅门正确来源仍差逐户安装和现装核对，后章可以进入安全范围明确后的专业检查，不得默认已获许可。
 - 审核：本稿仅Writer首次创建，等独立Audit评估；不执行Reader、Revision、QA、Memory或发布。
+
+## 独立Audit修订与核验（2026-11-12）
+- 第707章原临时Blob 3949696585a135058d465d8ee8daf37f0a2af66b 对比正式Ready Blob d158c2e62b0434c7cb57b3978294fc78268603ac，小说正文仅Day57010:11将穆师傅Day567现场称昨天改前几天，F-02正式撤回、松桥实付、个人368元未退等第708章依赖事实无差异。
+- 本章开头Day571“昨晚新卡刷过门”更正为已于Day56921:12有源“前晚两张新卡分别刷过侧门”，不虚构Day570新刷卡；本章最终有效字数3494（5处***计入），虽略超优选3400但不超硬3800。
+- 最终审查源Blob 70e76c7031b51b9da1e899030b4ac077b353bf2c；独立Reader Pass A/B 0/0/2，Continuity/Style QA通过；正式交付Ready Blob 9f102be09735c4e38178c86ce626ce2e11ca8c6e，须真实精确结构CI成功后main放行。

@@ -1,0 +1,30 @@
+schema_version: 1
+chapter: 707
+title: "那张施工图画的是另一扇门"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "3949696585a135058d465d8ee8daf37f0a2af66b"
+source_draft_sha: "4d8b08c51aefb84cf4f09c7613e537932535fbef"
+initial_reader_review: "reader_reviews/0707_39496965.md"
+reader_review: "reader_reviews/0707_4d8b08c5.md"
+depends_on_chapter: 706
+depends_on_source_sha: "28b6ad269d79fa76a208c9e8ecd052b66883e99d"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day57008:12—Day57107:04"
+summary: >-
+  Day57008:12松桥客舍两卡甲乙箱首层原位，物业已于Day56910:37真付七晚至Day57612点，桥北个人368元仍未核定返还。09:26工程送5页本户维修建议，母亲核出施工图F-02实际系公区楼梯间防火门，10:11晓漫只核截图而不替专业人员认证；11:08廖档案员确认系统按楼栋门体打包误引，现场照片已核仅指附件存在，不代表图与本户门一致，穆师傅明确拒按错图拆胶调铰链。本户实际安装型号与后来换件记录仍待查。中午松桥客舍前台修正侧通道指引卡，使拖箱者能找坡道，非全通道验收。14:34工程提交引用核对单、15:18正式有编号更正回执撤F-02作为本户拆修依据和不成立照片勾，保留旧错版；没有开门/触件/维修/返住许可。晚间晓漫与母亲共饭，20:41限项向夏宁周衡梁策汇报当代更正。Day57107:04房费真付至Day576午，四楼门关锁、双封、客厅一路照明有限其余受水电隔离、Day536撤清运持续禁返住；五楼漏源、七号箱、F014历史旧号通知押金、2019旧卷无新跨源证。
+meaningful_state_changes:
+  - "明确公区F-02错误图纸被撤、无效照片勾被正式撤回并保留错版轨迹；新住处侧门实际增设可见指路卡"
+knowledge_updates:
+  - "母亲/晓漫区分图纸来源、附件照片存在与本户现装门型；穆师傅只承认Day567门外痕迹并拒绝错误图拆修；夜班仅经本人限项得当代更正，不获私盘"
+relationship_updates:
+  - "母亲可在专业人具名拒错图后接受未来有条件的限定维修；晓漫在单位处理自己的工作、晚间送番茄并理解改图不等于完工"
+foreshadowing_updates:
+  - "门的逐户安装/现装型号未知；本人368元待核未退；Day57612点房费期限未延长；F014历史旧押金仍未知"
+ending_state: "Day57107:04松桥首层双卡甲乙箱在、已付至Day57612:00；仁合里旧屋双封禁返住Day536撤清运持续；桥北本人368元仍待核未返。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "3949696585a135058d465d8ee8daf37f0a2af66b", final_draft_sha: "4d8b08c51aefb84cf4f09c7613e537932535fbef", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "correct_day567_mushi_yesterday_and_normalized_count"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
