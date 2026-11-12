@@ -7830,3 +7830,22 @@ combined_audit_chapter_708_20261112:
   dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_709_20261112:
+  chapter: 709
+  stage: local_revision
+  source_before: "6e6ac62e086137ece84d771fe10eed67f6f6e2a5"
+  source_after: "2fd3ff8986131192ccd9b46c3988b410e05e468c"
+  changes: [day573_yesterday_refund_to_day571_two_days_ago, remove_unsupported_reason_for_two_slips_claim, effective_chars_3366_to_3367]
+  initial_review: "reader_reviews/0709_6e6ac62e.md"
+  current_review: "reader_reviews/0709_2fd3ff89.md"
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  predecessor_ready_sha: "9f102be09735c4e38178c86ce626ce2e11ca8c6e"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
