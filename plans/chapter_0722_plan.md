@@ -3,16 +3,16 @@
 - chapter: 722
 - volume: 6
 - arc: ARC-054
-- status: planned
+- status: ready
 - depends_on_chapter: 721
-- depends_on_source_sha: 66e686bdc0600310d07bf7a1d6c24ad8b55f0660
-- dependency_status: provisional
-- source_boundary: 第721章仅为main未审draft，Day58411:52松桥商户真收到Day58412—Day59112七晚北廊同房款，Day58412:09房门和21:03夜侧门甲/新乙双卡分别真开；仁合里旧屋禁返住、旧图灰线同一性与门体根因未证。此为本章临时参考，不能视为正式Canon。
+- depends_on_source_sha: 2a6246ea881017788a0c5208dfacb3d2c3eca3d4
+- dependency_status: verified_exact_ready_blob
+- source_boundary: 第721章已正式ready，Day58411:52松桥商户真收到Day58412—Day59112七晚北廊同房款，Day58412:09房门和21:03夜侧门甲/新乙双卡分别真开；仁合里旧屋禁返住、旧图灰线同一性与门体根因未证。已逐字核原721 Draft与正式Ready正文相同，仅交付Frontmatter不同；以721正式Ready为准。
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
 - writer_scope: Planner + Continuity Precheck + Writer only
-- review_status: pending_independent_audit
-- publish_gate: draft_only_not_published
+- review_status: reader_cb596a22_0_0_2_qa_pass
+- publish_gate: ready_after_exact_candidate_ci
 
 ## Planner
 
@@ -37,7 +37,7 @@
 
 ## Continuity Precheck
 
-- 依赖第721章尚未独立审定的main草稿（Git blob完整SHA 66e686bdc0600310d07bf7a1d6c24ad8b55f0660），本章Front Matter与本计划记录`depends_on_chapter: 721`、`depends_on_source_sha`与`dependency_status: provisional`，不视其为正式Canon。
+- 依赖第721章已独立审核通过的main正式Ready（Git blob完整SHA 66e686bdc0600310d07bf7a1d6c24ad8b55f0660），本章Front Matter与本计划均重绑第721章正式Ready Blob，事实正文与原Draft完全相同。
 - Day584商户真收七晚，不在Day585再次付款、再发新卡；房门与夜门双卡Day584都已分别实开，但Day58522时仅甲卡再次使用，不能预断乙卡当次表现。
 - Day577短开约11厘米触框即停与Day578静态门外间隙并未确定因果，旧照片不能据同区域即推同一痕；Day585只新增一次关锁门外公区非接触拍摄与限项比较。
 - 旧屋12厘米观察口、亡夫饰板分别封存，受水电路继续隔离，Day536撤清运和整屋禁返住不变；F014旧号信押金、七号箱、五楼漏源和2019未因资料比对获得跨源新证。

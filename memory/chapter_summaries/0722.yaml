@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 722
+title: "旧照片量不出新门缝"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "f4889d321482e1c83d66e72797a8a26b2393e8d6"
+source_draft_sha: "cb596a22bd9e27923395d687420e5fc244a5f48f"
+initial_reader_review: "reader_reviews/0722_f4889d32.md"
+reader_review: "reader_reviews/0722_cb596a22.md"
+depends_on_chapter: 721
+depends_on_source_sha: "2a6246ea881017788a0c5208dfacb3d2c3eca3d4"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day58508:36—Day58607:08"
+summary: >-
+  Day58508:36松桥北廊首层甲乙箱、甲及新乙卡在，Day58411:52商户真收连续七晚至Day59112，旧屋闭锁未修。晓漫邀母亲当晚19:40电影。09:18廖档案员确认本户合法限项旧巡检归档影像后续专业核阅、原拍摄设备卡不在移交件，归档接收时点不等于真正拍摄时间。10:27双岗遮蔽他户后与当代本户门外照片并列，穆师傅与林工区分固定框/活动扇；两幅图无一致标尺且取景不同，墙皮尖角及两处固定点仅可定位本户同区域，右下旧灰线构件归属不清，不能拉伸旧图反推毫米或断同一损伤。12:46经有权限项确认及母亲当次允许，仅在仁合里四楼公共走廊闭锁门外非接触取点，13:18确认没有碰门、动封、入屋或电路操作。15:09分档案旧图、当代闭门外照片、Day577约11cm短开动态擦响三源；16:02穆师傅正式具名写“同一区域位置关系已核、旧灰线构件归属及与现擦印同一性无法判定；现装型号、动态卡阻根因待证”，旧图不可作尺寸验收或直接备件；下一次开门仍需当班建筑电气门体安防具名责任和住户另次许可。晓漫下班同母亲吃面看电影，散场后母亲仅以甲卡实开夜侧门，不声称本次新乙卡另验；22:47母亲限项向夜间中心报告当日真实比较与旧屋未修，不触妹妹JZ4私盘。Day58607:08北廊双箱双卡仍在，七晚真钱到Day59112，旧四楼门锁闭、旧12cm观察口与亡夫饰板各封、受水电路隔离，Day536撤清运及整屋禁返住继续；Day578静态点、F014旧联系号通知旧押金全渠道、七号箱五楼漏源及2019无新跨源证明。
+meaningful_state_changes:
+  - "Day585专业静态非接触比对从拟计划变真正核阅/外照采集/三源有限比对，16:02形成具名正式不能反推旧毫米或定同一擦痕的结论。"
+  - "Day585仁合里四楼只做公区闭门外非接触取点，未开门、动封、解除禁返住。"
+knowledge_updates:
+  - "母亲知缺旧原摄影设备卡、拍摄时间不能由归档接收推，旧图虽可定位区域却不能直接推现门缝毫米/根因。"
+  - "穆师傅林工仅确认同位置区域而未定现装型号或动态因果，中心只22:47限报获知当代结果。"
+relationship_updates:
+  - "晓漫和母亲履行电影之约、共面，女儿不代签工程、母亲守住本次限项许可。"
+foreshadowing_updates:
+  - "后续应核现装门体可追溯标识与合规维保记录，若需再开门须另次当班安全条件及闭锁保障。"
+  - "F014旧号旧信旧押金全渠道、七号箱五楼漏源及2019仍未获跨源新证。"
+ending_state: "Day58607:08北廊甲乙箱与双卡在、七晚商户真钱到Day59112；仁合里旧门锁闭双封隔离禁返住；专业非接触比对已完成但现门型号、旧灰线同一性、根因未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f4889d321482e1c83d66e72797a8a26b2393e8d6", final_draft_sha: "cb596a22bd9e27923395d687420e5fc244a5f48f", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: predecessor_721_ready_metadata_and_plan_rebind_body_identical}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3459

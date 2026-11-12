@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 721
-last_reviewed_title: "七晚住处不能写成返家"
-last_source_path: chapters/draft/0721.md
-last_source_sha: 66e686bdc0600310d07bf7a1d6c24ad8b55f0660
-last_review_path: reader_reviews/0721_66e686bd.md
+last_reviewed_chapter: 722
+last_reviewed_title: "旧照片量不出新门缝"
+last_source_path: chapters/draft/0722.md
+last_source_sha: cb596a22bd9e27923395d687420e5fc244a5f48f
+last_review_path: reader_reviews/0722_cb596a22.md
 last_reviewed_at: "2026-11-13"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 720
-depends_on_source_sha: 53ad43bd760ceb71f2bedb8eb7852dd8cdfe8758
+depends_on_chapter: 721
+depends_on_source_sha: 2a6246ea881017788a0c5208dfacb3d2c3eca3d4
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 53ad43bd760ceb71f2bedb8eb7852dd8cdfe8758
+predecessor_current_source_sha: 2a6246ea881017788a0c5208dfacb3d2c3eca3d4
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -9033,6 +9033,26 @@ combined_audit_chapter_721_20261113:
   body_revisions: 0
   predecessor_ready_sha: "53ad43bd760ceb71f2bedb8eb7852dd8cdfe8758"
   predecessor_fact_delta: exact_ready_reference_no_old_sha_delta
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_722_20261113:
+  chapter: 722
+  title: "旧照片量不出新门缝"
+  original_source_sha: "f4889d321482e1c83d66e72797a8a26b2393e8d6"
+  source_sha: "cb596a22bd9e27923395d687420e5fc244a5f48f"
+  initial_review_path: "reader_reviews/0722_f4889d32.md"
+  review_path: "reader_reviews/0722_cb596a22.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_original_sha: "66e686bdc0600310d07bf7a1d6c24ad8b55f0660"
+  predecessor_ready_sha: "2a6246ea881017788a0c5208dfacb3d2c3eca3d4"
+  predecessor_fact_delta: body_identical_front_matter_only
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
