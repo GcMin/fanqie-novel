@@ -3,7 +3,7 @@
 - chapter: 721
 - volume: 6
 - arc: ARC-054
-- status: planned
+- status: ready
 - depends_on_chapter: 720
 - depends_on_source_sha: 53ad43bd760ceb71f2bedb8eb7852dd8cdfe8758
 - dependency_status: verified_exact_ready_blob
@@ -11,8 +11,8 @@
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
 - writer_scope: Planner + Continuity Precheck + Writer only
-- review_status: pending_independent_audit
-- publish_gate: draft_only_not_published
+- review_status: reader_66e686bd_0_0_2_qa_pass
+- publish_gate: ready_after_exact_candidate_ci
 
 ## Planner
 - **本章目标**：将历史影像资料误映射为“返住条件改善”的新一轮跨岗错误纠正，同时取得一段真实而非口头的七晚住宿保障，给旧门后续非接触比对创造时间；不以照片冒充修复。

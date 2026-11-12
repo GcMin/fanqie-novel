@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 721
+title: "七晚住处不能写成返家"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "66e686bdc0600310d07bf7a1d6c24ad8b55f0660"
+source_draft_sha: "66e686bdc0600310d07bf7a1d6c24ad8b55f0660"
+reader_review: "reader_reviews/0721_66e686bd.md"
+depends_on_chapter: 720
+depends_on_source_sha: "53ad43bd760ceb71f2bedb8eb7852dd8cdfe8758"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day58408:11—Day58507:06"
+summary: >-
+  Day58408:11松桥北廊首层甲乙两箱、甲及换发新乙卡原位，商户旧两晚房期仅到Day58412点。09:02住宿综合表把Day583合法取得的公区旧影像误映“历史磨损已确认/异常缓解/可返住评估”，母亲拒勾，09:43林工有源限更正工程侧资料用途，10:17住宿端真撤返住绿栏保留旧错误版，旧四楼禁返住不变。10:48同北廊首层房七晚责任获批Day58412到Day59112，11:26仅财务指令、11:52商户真钱到账，12:09甲与换发新乙卡各自真开本期房门，21:03夜侧门两卡各自实开，21:27母亲本人限报夜间中心。14:37穆师傅只提出依法遮蔽旧公区图和今外照非接触可比条件、15:06收待核计划，未实施或判同一划痕根因。晓漫下班带青菜与母亲吃面谈电影，不代工程签字。Day58507:06北廊双箱双卡原位，七晚真款覆盖至Day59112，双门卡权各已真实试过；仁合里四楼旧门闭锁、旧12cm观察口及亡夫饰板分封、受水电路隔离、Day536撤清运与整屋禁返住持续。Day57711cm动态接触、Day578静态点与Day583旧图灰线不证同一伤痕、现门型号或根因；F014旧号旧信旧押金全渠道、七号箱五楼漏源2019旧卷无新跨源证。
+meaningful_state_changes:
+  - "Day58411:52松桥商户真收北廊同房七晚款至Day59112，12:09双卡房门和21:03双卡夜侧门各自实开。"
+  - "旧图已取得被误映返住绿栏，Day58410:17具名更正、留旧错版，旧屋仍禁返住。"
+  - "依法遮蔽的非接触旧新图可比条件仅形成拟计划，无判断或施工授权。"
+knowledge_updates:
+  - "母亲区分责任批准、银行指令、商户真收和双套门禁实开，不把七晚安置当旧屋可返住。"
+  - "林工仅核误映源、穆师傅只拟非接触比对；中心仅经母亲21:27限项得当前真实事实。"
+relationship_updates:
+  - "晓漫下班带青菜、与母亲谈电影，不代签工程或临住责任。"
+  - "住宿岗与松桥主管接受真实来源纠错和商户真收而非预勾。"
+foreshadowing_updates:
+  - "历史旧图灰线同一性与Day577动态卡阻根因、现门型号仍待合法专业核验。"
+  - "F014历史旧号旧信旧押金全渠道、七号箱五楼漏源和2019未证。"
+ending_state: "Day58507:06松桥北廊双箱双卡原位，真钱覆盖到Day59112，房门夜侧门本期双卡均各自实开；旧屋双封隔离禁返住未改，旧图根因未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "66e686bdc0600310d07bf7a1d6c24ad8b55f0660", final_draft_sha: "66e686bdc0600310d07bf7a1d6c24ad8b55f0660", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3319
