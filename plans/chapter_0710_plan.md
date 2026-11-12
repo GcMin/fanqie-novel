@@ -5,9 +5,9 @@
 - arc: ARC-054
 - status: planned
 - depends_on_chapter: 709
-- depends_on_source_sha: 6e6ac62e086137ece84d771fe10eed67f6f6e2a5
-- dependency_status: provisional
-- source_boundary: 第709章仅是待审草稿，所述材料单与身份、技术结论均只作为有特定SHA的临时叙事依赖，不得提前写成已审核Canon。Day572旧领料甲配置暂存、乙配置替领、尾码多一字母，仍未有逐户实装来源或现门型号；松桥真付至Day57612:00，甲乙两箱与两卡首层原位，桥北本人368元于Day57116:17真返。旧四楼闭锁，旧12厘米观察口/亡夫饰板分别封存，客厅仅一路有限照明，其他受水电路隔离，Day536撤销清运且整屋禁返住。F014旧号旧信旧押金、七号铁角箱和2019旧卷无跨源证据。
+- depends_on_source_sha: 87f6519fed980dbdd91d681e89b95165e0f43011
+- dependency_status: verified_ready_compatible_body
+- source_boundary: 第709章正式Ready Blob 87f6519fed980dbdd91d681e89b95165e0f43011 已核；原临时Draft 6e6ac62e086137ece84d771fe10eed67f6f6e2a5 与Ready仅Day573返款昨天→前天及把“知道原因”改为“分别记录材料流转”，不影响710依赖的甲暂存乙替领尾码差字母、368元Day571真返、松桥已付至Day57612、旧屋禁返住等事实。709纸面只证材料流转，710逐户交付签认是新发现且仅证当年，不证现门或后续维保。
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
 - actual_first_draft_effective_chars: 3583

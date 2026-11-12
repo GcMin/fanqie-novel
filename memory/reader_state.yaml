@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 702
-last_reviewed_title: "门底翻起的一截胶边"
-last_source_path: chapters/draft/0702.md
-last_source_sha: 525a605d609c758fae16c6922bf48b089f89479b
-last_review_path: reader_reviews/0702_525a605d.md
+last_reviewed_chapter: 710
+last_reviewed_title: "签在交付那天，不等于现在"
+last_source_path: chapters/draft/0710.md
+last_source_sha: adcf3207b1eb70214bb1882b64e26033d24fe593
+last_review_path: reader_reviews/0710_adcf3207.md
 last_reviewed_at: "2026-11-12"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 701
-depends_on_source_sha: 96865c1de8818e1333c70e80bbbb00a33d9d1bac
+depends_on_chapter: 709
+depends_on_source_sha: 87f6519fed980dbdd91d681e89b95165e0f43011
 dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: 96865c1de8818e1333c70e80bbbb00a33d9d1bac
+predecessor_current_source_sha: 87f6519fed980dbdd91d681e89b95165e0f43011
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8845,5 +8845,27 @@ combined_audit_chapter_709_20261112:
   predecessor_ready_sha: "9f102be09735c4e38178c86ce626ce2e11ca8c6e"
   predecessor_fact_delta: "exact_ready_dependency_no_provisional_or_old_sha_delta"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_710_20261112:
+  chapter: 710
+  title: "签在交付那天，不等于现在"
+  original_source_sha: "fb8a0a3966235f7da302a1d6ca2e0cb600e436be"
+  source_sha: "adcf3207b1eb70214bb1882b64e26033d24fe593"
+  initial_review_path: "reader_reviews/0710_fb8a0a39.md"
+  review_path: "reader_reviews/0710_adcf3207.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  reason: predecessor_709_final_ready_sha_rebind_only
+  predecessor_original_sha: "6e6ac62e086137ece84d771fe10eed67f6f6e2a5"
+  predecessor_ready_sha: "87f6519fed980dbdd91d681e89b95165e0f43011"
+  predecessor_fact_delta: "709原稿与Ready仅Day573返款昨天改前天和旧领料无据成因改为各自流转，710关键事实无冲突"
+  dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 702
-current_stage: chapter702_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0702.md
-current_source_sha: 525a605d609c758fae16c6922bf48b089f89479b
-current_review_path: reader_reviews/0702_525a605d.md
+current_chapter: 710
+current_stage: chapter710_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0710.md
+current_source_sha: adcf3207b1eb70214bb1882b64e26033d24fe593
+current_review_path: reader_reviews/0710_adcf3207.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter702_stageA_predecessor_ready_rebind_newSHA_reader_content_qa_pass
+last_action: chapter710_stageA_predecessor_ready_rebind_newSHA_reader_content_qa_pass
 last_action_date: "2026-11-12"
 last_error: null
-last_diff_summary: "702原稿引用701旧Draft临时SHA；核701最终Ready唯一小说正文差异是Day565今天/昨天新袜子，不影响702关键事实。仅重绑前章正式SHA及章纲，702正文无改，新SHA完整复审0/0/2，独立QA通过，结构候选CI待核。"
+last_diff_summary: "710原稿引用709临时Draft；逐行比较709正式Ready两处正文差异，与710依赖兼容。只重绑709正式Ready SHA和详细章纲，正文零修改，新SHA双遍复审0/0/2且独立QA通过，结构候选CI待核。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -7847,5 +7847,24 @@ combined_audit_chapter_709_20261112:
   body_revisions: 1
   predecessor_ready_sha: "9f102be09735c4e38178c86ce626ce2e11ca8c6e"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_710_20261112:
+  chapter: 710
+  stage: local_revision_metadata_only
+  source_before: "fb8a0a3966235f7da302a1d6ca2e0cb600e436be"
+  source_after: "adcf3207b1eb70214bb1882b64e26033d24fe593"
+  changes: [predecessor_709_ready_sha_rebind_with_two_fact_deltas_compatible]
+  initial_review: "reader_reviews/0710_fb8a0a39.md"
+  current_review: "reader_reviews/0710_adcf3207.md"
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  predecessor_original_sha: "6e6ac62e086137ece84d771fe10eed67f6f6e2a5"
+  predecessor_ready_sha: "87f6519fed980dbdd91d681e89b95165e0f43011"
+  dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
