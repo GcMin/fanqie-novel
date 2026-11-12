@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 716
-last_reviewed_title: "首层房间，门外还有两级台阶"
-last_source_path: chapters/draft/0716.md
-last_source_sha: b324d7132789142fb57be1baaed7db66133cb6a5
-last_review_path: reader_reviews/0716_b324d713.md
+last_reviewed_chapter: 717
+last_reviewed_title: "开门的人走了，锁不上谁留下"
+last_source_path: chapters/draft/0717.md
+last_source_sha: 955d9896bef1874699fd3aab7b523f007f429978
+last_review_path: reader_reviews/0717_955d9896.md
 last_reviewed_at: "2026-11-13"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 715
-depends_on_source_sha: 17a212f58ecc6fbb892a8787ce6d8e582b748472
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 17a212f58ecc6fbb892a8787ce6d8e582b748472
+depends_on_chapter: 716
+depends_on_source_sha: 6c87b86d3d1dc5a0ffbf8b2f56c3ce471dd5be50
+dependency_status: verified_ready_compatible_body
+predecessor_current_source_sha: 6c87b86d3d1dc5a0ffbf8b2f56c3ce471dd5be50
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8947,5 +8947,24 @@ combined_audit_chapter_716_20261113:
   body_revisions: 0
   predecessor_ready_sha: "17a212f58ecc6fbb892a8787ce6d8e582b748472"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_717_20261113:
+  chapter: 717
+  title: "开门的人走了，锁不上谁留下"
+  original_source_sha: "f9d3a8ad99cb9229beb5998ba148754e3802712c"
+  source_sha: "955d9896bef1874699fd3aab7b523f007f429978"
+  initial_review_path: reader_reviews/0717_f9d3a8ad.md
+  review_path: reader_reviews/0717_955d9896.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_draft_sha: "b324d7132789142fb57be1baaed7db66133cb6a5"
+  predecessor_ready_sha: "6c87b86d3d1dc5a0ffbf8b2f56c3ce471dd5be50"
+  predecessor_fact_delta: "body_identical_front_matter_only"
+  dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

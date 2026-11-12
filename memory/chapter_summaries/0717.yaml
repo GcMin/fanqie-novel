@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 717
+title: "开门的人走了，锁不上谁留下"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "f9d3a8ad99cb9229beb5998ba148754e3802712c"
+source_draft_sha: "955d9896bef1874699fd3aab7b523f007f429978"
+initial_reader_review: "reader_reviews/0717_f9d3a8ad.md"
+reader_review: "reader_reviews/0717_955d9896.md"
+depends_on_chapter: 716
+depends_on_source_sha: "6c87b86d3d1dc5a0ffbf8b2f56c3ce471dd5be50"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day58008:26—Day58107:05"
+summary: >-
+  Day58008:26松桥原首层母亲核前日Day57916:19商户已经真实收到Day58012到Day58212的两晚同房款，甲箱靠窗乙箱贴柜、甲及换发新乙卡在，新期门禁尚未实测。09:17仁合里工程停后闭锁保障草表错误要求发生卡阻后住户自行拨物业值班电话，母亲指出无法关锁时必须有人现场继续负责，原版保留并要求建筑岗位核；未同意第二次开门。12:07客舍按真实新期订单分别为甲、新乙卡写卡，12:13两卡真正各自开原首层客房门并复位、旧乙卡继续已注销，夜侧门仍待夜间实测。13:04林工提出门体操作与停止复核二人、无法闭锁持续现场值守及物业安防当面接管等未批准的可行框架；15:48具名文本把住户自行致电改为操作人员不得先离场且必须有签认交接，但负责人与接管人姓名仍空。16:22工程正式有编号受理只限公区准备核查，建筑林工、门体穆师傅、电气马师傅、物业安防四项分责，既无完整人手/时段确认，也无施工派工或住户再次开门授权。晓漫白天顺路送药、看实测单并回自己的同事晚约。20:47母亲向夜间中心仅限报白天真付、房门两卡实开和旧门闭锁保障未具名，不提前报晚间侧门结果。21:06母亲与夜班员工对甲与新乙卡分别从外侧实际开松桥夜侧门、闭合复位，21:32告晓漫后约次日再补报中心，未把夜门结果倒填进20:47电话。Day58107:05商户两晚真实覆盖到Day58212，现行两卡新期房门与夜侧门均有真实实测，甲乙箱不动；仁合里四楼关锁双封、受水电路隔离、Day536撤清运禁返住持续。Day577约11cm接触与Day578静态间隙不能证现门型/根因，闭锁失败现场两名责任人员未落实前无再次开门或维修。桥北368元Day571已返，F014旧号旧信旧押金、七号箱、五楼漏源与2019旧卷无新证。
+meaningful_state_changes:
+  - "Day58012:13松桥甲和换发新乙卡分别实际开新期房门，21:06两卡分别实开夜侧门并关闭复位，两套权限实测有效至本次时点。"
+  - "Day580旧四楼闭锁失败保障从住户自行打电话错误条款变成专业人员持续现场值守及安防具名接管框架，有源受理准备核对但姓名和交接时段未填、无开门执行许可。"
+knowledge_updates:
+  - "母亲已亲测Day580两套客舍门禁；晓漫限项知当天双卡房门与晚间夜侧门实开，不代本户工程签字。"
+  - "夜班夏宁周衡梁策20:47只获白天住房与停后保障准备事实，尚未收到21:06夜门实测，不读妹妹旧盘或历史F014。"
+relationship_updates:
+  - "晓漫顺路送药和修小袋按扣，晚上照常与同事聚会，母亲支持她不替旧门工程承担现场责任。"
+  - "林工与工程联络岗承认闭锁失败时不能由住户打电话代替现场保障，必须落实具名岗位、应急接管再谈安全操作。"
+foreshadowing_updates:
+  - "旧四楼下一次开门仍须现场责任人和安防交接时段落实、建筑电气/门体各自专业许可与住户当次限项授权，不能凭一次十一厘米观察推定维修方案。"
+  - "新住期门禁仅证明Day580当次通过，不保证永久有效；F014历史旧号旧信旧押金、旧七号箱、五楼漏源和2019仍未知。"
+ending_state: "Day58107:05松桥原首层甲乙箱不动，现行甲及新乙卡Day58012:13房门双实开、21:06夜侧门双实开，Day57916:19商户两晚真款覆盖到Day58212；旧乙卡注销。旧四楼闭锁双封受水电隔离Day536撤清运禁返住；工程仅限准备收件、闭锁失败负责人名单未填，无再次开门施工。F014/2019未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "f9d3a8ad99cb9229beb5998ba148754e3802712c", final_draft_sha: "955d9896bef1874699fd3aab7b523f007f429978", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "predecessor_716_ready_SHA_rebind_body_unchanged"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3195

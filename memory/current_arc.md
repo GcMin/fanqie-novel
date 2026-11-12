@@ -1,3 +1,8 @@
+## 第717章 ARC-054 Day580新房门与侧门双卡实开、旧门闭锁失败应急职责待具名｜2026-11-13
+- 原Draft SHA `f9d3a8ad99cb9229beb5998ba148754e3802712c` Reader先Pass A后Pass B为0 BLOCKER/1 MAJOR/2 MINOR，唯一MAJOR系前章716依赖仍为provisional旧Draft。已逐字核716旧Draft `b324d7132789142fb57be1baaed7db66133cb6a5` 与正式Ready `6c87b86d3d1dc5a0ffbf8b2f56c3ce471dd5be50` 正文完全一致，仅交付Front Matter变化，Stage A只重绑本章Front Matter及详细章纲，717小说正文0修改，新Draft SHA `955d9896bef1874699fd3aab7b523f007f429978` 已重新独立双遍 Reader 0/0/2 keep/none；独立Continuity/Style/Meaningful QA PASS，3195有效字。结构须精确候选CI成功方可main Ready。
+- Day58012:13松桥现行甲与换发新乙卡新期逐张真开原首层房门，21:06夜侧门分别实开并闭合，商户Day57916:19真付Day58012—Day58212两晚，甲乙箱不搬。20:47母亲仅向夜班限项报告午间房门和旧屋工程准备，尚未发生的21:06夜门成功不能倒填。
+- Day580仁合里旧屋应急表原让住户自行打电话承担不能复锁风险，15:48正式改为现场持续值守与安防具名交接，但负责人和接管员姓名/时间仍空，16:22只受理公区人员装备准备核对，未再次开门、拆修、派工、返住。Day57711cm动态触框、Day578静态上约3mm右下不足2mm非现门型根因。旧四楼双封受水电路隔离、Day536撤清运禁返住持续；F014旧押金旧信、七号箱五楼漏源2019无新证。
+
 ## 第716章 ARC-054 Day579福源两级台阶与松桥两晚真实到款｜2026-11-13
 - 原稿SHA `b324d7132789142fb57be1baaed7db66133cb6a5`，前章715正式Ready `17a212f58ecc6fbb892a8787ce6d8e582b748472` 精确一致，无临时旧稿差异；独立Reader先Pass A（本章/713—715正文/706—715摘要/风格）再Pass B（Canon、ARC、人物、知识、关系、世界、时间线、伏笔），0 BLOCKER/0 MAJOR/2 MINOR keep/none，正文没有修订；Continuity/Style/Meaningful QA PASS，3463有效字。结构需精确候选Git commit CI成功才可main Ready。
 - Day57911点方案“福源首层或松桥续住”只有告知没有真款/夜行条件。12:21亲见福源正门两级台阶和夜间侧送货口卷帘，备选本次撤出可立即执行名单，未发卡、入房或搬甲乙箱。松桥15:36仅付款指令、15:57商户未收、16:19真实收到Day58012—Day58212同原房两晚款，16:38限项核实；Day580切期房门甲/新乙双卡与夜侧门仍未实际复测。

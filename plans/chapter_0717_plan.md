@@ -3,17 +3,17 @@
 - chapter: 717
 - volume: 6
 - arc: ARC-054
-- status: draft
+- status: completed
 - depends_on_chapter: 716
-- depends_on_source_sha: b324d7132789142fb57be1baaed7db66133cb6a5
-- dependency_status: provisional
-- source_boundary: 第716章在本次读取时仅位于main的chapters/draft/0716.md，尚非ready或published；以该完整Git Blob SHA作为临时连续性参考，不能当正式Canon。第716章所述Day57916:19松桥商户实际收两晚款只暂按草稿事实衔接，后续审核须检查修订兼容性。
+- depends_on_source_sha: 6c87b86d3d1dc5a0ffbf8b2f56c3ce471dd5be50
+- dependency_status: verified_ready_compatible_body
+- source_boundary: 第716章已正式迁入main ready，Blob 6c87b86d3d1dc5a0ffbf8b2f56c3ce471dd5be50；已将原Draft b324d7132789142fb57be1baaed7db66133cb6a5 与最终Ready正文逐字比较：正文完全一致，只是交付Front Matter的status/qa/approved_at/publish_mode不同。Day57916:19松桥商户已实收Day58012—Day58212两晚款，福源本户未执行；Day580切期新房门与夜侧门尚待实测，仁合里旧屋继续禁返住。
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
 - writer_scope: Planner + Continuity Precheck + Writer only
-- reader_gate: pending
-- qa_gate: pending
-- publish_gate: draft_only
+- reader_gate: pass
+- qa_gate: pass
+- publish_gate: ready_after_exact_ci
 
 ## Planner
 
@@ -32,6 +32,6 @@
 - 意义变化：从依靠住户事后打电话改为形成必须现场守护至具名交接的应急责任框架；客舍付款与双房卡/夜门使用分别真正验证，短期安全住期从付款落实推进到实际通行落实。
 - 伏笔：Day577约11cm右下动态接触与Day578闭门外上约3mm、右下不足2mm为有限记录，不证现门型号和故障根因；后续须完成具名安全责任、门体方案和本人限项同意，才可讨论第二次开门。F014旧联系人来源/旧年信件本人收讫/旧押金历史全渠道末端真退，第七项铁角箱现况、五楼漏源和2019旧卷无新增跨源证明。
 - 不可泄露：妹妹自持旧裂盘JZ4影像、第三人身份与许可仍未知，不向中心或工程提供；桥北个人368元Day57116:17已实退，只能算本笔，不是旧押金。
-- Continuity Precheck：第716章截至本轮是未审Draft，依赖0716 Git Blob SHA b324d7132789142fb57be1baaed7db66133cb6a5，dependency_status=provisional。Day57916:19续住真款、福源首层两级台阶与夜间侧门未核，均是待审前章情节暂时接续，后续若716修订须由独立Audit重核717。Day575误搬运候选真实撤销；Day536撤清运、旧12cm口与亡夫饰板独立封存、受水电路隔离及禁返住都保持。
+- Continuity Precheck：第716章截至本轮是未审Draft，依赖0716 Git Blob SHA 6c87b86d3d1dc5a0ffbf8b2f56c3ce471dd5be50，dependency_status=provisional。Day57916:19续住真款、福源首层两级台阶与夜间侧门未核，均是待审前章情节暂时接续，后续若716修订须由独立Audit重核717。Day575误搬运候选真实撤销；Day536撤清运、旧12cm口与亡夫饰板独立封存、受水电路隔离及禁返住都保持。
 - 结尾承接点：Day58107:05客舍真付两晚至Day58212点且Day580新期双卡房门、夜侧门均实开；四楼没有新开门，仍缺无法闭锁时的实名现场与安防交接签认。下一章可以推进具体人手/专业有限授权或家庭生活，不虚构根因。
 - 正文有效字符：3195（去除空白与场景分隔符）；硬限2300—3800，优选2600—3400。
