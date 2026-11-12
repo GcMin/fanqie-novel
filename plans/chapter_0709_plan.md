@@ -3,7 +3,7 @@
 - chapter: 709
 - volume: 6
 - arc: ARC-054
-- status: planned
+- status: completed
 - depends_on_chapter: 708
 - depends_on_source_sha: 9f102be09735c4e38178c86ce626ce2e11ca8c6e
 - dependency_status: verified_exact_ready_blob
@@ -28,3 +28,9 @@
 - 新信息与有意义变化：材料确有甲暂存及乙替领的两份独立记录，差异尾码暴露未可跨越的实装映射；工程接收原厂版本核验及逐户安装档案去向追溯，和限定查验安全分工，不能据此宣称已修。
 - 连续性 Precheck：此前没有本户现装型号、入户/贴尺/拆胶/维修授权，Day567穆师傅仅从公共走廊观察；旧12厘米口与亡夫饰板独封，单路照明有限其余隔离，Day536撤清运、整屋禁返住。桥北368元已真退不能再写待核未退；松桥七晚限Day57612点。五楼漏源、七号铁角木箱、私人裂盘JZ4箱边、F014历史通知/旧押金全渠道和2019旧卷没有跨源实证，不应由今日领料单突然解释。夜班三人仅经本人有限回拨知当代可核事实。
 - 结尾承接：追出可核的材料流转证据和明确的技术待查对象，但原厂尾码、逐户安装记录、现门部件及安全许可仍未解决；仅交独立Audit审查。
+
+## Audit／Ready 交付记录（2026-11-12）
+- 仅修改原稿两处MAJOR：Day573早晨368元到账回看从昨天改前天；材料双记录只知仓储流转而非已查明为什么出现两处。
+- 初稿SHA: 6e6ac62e086137ece84d771fe10eed67f6f6e2a5，Reader 0/2/2；Stage A修订SHA: 2fd3ff8986131192ccd9b46c3988b410e05e468c，新SHA Reader Pass A/B 0/0/2 keep/none。
+- 实际有效字符: 3367；独立Continuity/Style/Meaningful QA: PASS；前章第708章正式Ready SHA精确依赖: 9f102be09735c4e38178c86ce626ce2e11ca8c6e。
+- 结构 Gate：需以本章Ready候选精确Git提交运行 check_local / Actions 验证成功后才准同步main，报告见qa/0709_report.md。
