@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 719
-last_reviewed_title: "一间房到点了，另一间还没交"
-last_source_path: chapters/draft/0719.md
-last_source_sha: e52b428786e560ca88f8c0c4f67db4a6ae33bf6b
-last_review_path: reader_reviews/0719_e52b4287.md
+last_reviewed_chapter: 720
+last_reviewed_title: "旧照片上也有一道灰线"
+last_source_path: chapters/draft/0720.md
+last_source_sha: d5b3ad7917715d200ad9dd08a1822cf81b25e327
+last_review_path: reader_reviews/0720_d5b3ad79.md
 last_reviewed_at: "2026-11-13"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 718
-depends_on_source_sha: dabe9f34470b177fb0460d952a2a56bc99ba17a1
-dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: dabe9f34470b177fb0460d952a2a56bc99ba17a1
+depends_on_chapter: 719
+depends_on_source_sha: 5334f9f448d738f22ef944aa7d4062ca7fdc09fd
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 5334f9f448d738f22ef944aa7d4062ca7fdc09fd
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8999,5 +8999,23 @@ combined_audit_chapter_719_20261113:
   predecessor_ready_sha: "dabe9f34470b177fb0460d952a2a56bc99ba17a1"
   predecessor_fact_delta: "body_identical_front_matter_only"
   dependency_status: verified_ready_compatible_body
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_720_20261113:
+  chapter: 720
+  title: "旧照片上也有一道灰线"
+  original_source_sha: "74e33f50748dd3d6fca57a31cc01ee120981e22d"
+  source_sha: "d5b3ad7917715d200ad9dd08a1822cf81b25e327"
+  initial_review_path: reader_reviews/0720_74e33f50.md
+  review_path: reader_reviews/0720_d5b3ad79.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_ready_sha: "5334f9f448d738f22ef944aa7d4062ca7fdc09fd"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

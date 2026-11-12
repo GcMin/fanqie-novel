@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 719
+last_updated_chapter: 720
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3909,3 +3909,10 @@ chapter_719_arc054:
   mother_daughter: "母亲亲自看北廊新房路线和真实两箱签收，晓漫正常上班午休问搬家、晚上带粥探望，不代母亲签住宿与旧屋许可。"
   family: "妹妹旧裂盘JZ4私人影像权限不变，七号箱未在本次搬运名单中成为旧屋现物。"
   professional: "母亲与住宿主管分别区分两晚款实收、旧房真退、箱件具名寄存、北廊新房真交、双门逐卡实开；林工承认Day581到场人员签页不能变Day582工程执行令。"
+
+chapter_720_arc054:
+  chapter: 720
+  source_sha: "d5b3ad7917715d200ad9dd08a1822cf81b25e327"
+  mother_daughter: "晓漫下班带馄饨到北廊新房，母女谈旧照片与已故父亲，母亲不替他补造修门说法；女儿保持独立工作生活而不代签。"
+  family: "妹妹持有的JZ4裂盘和旧七号箱边私影权限不因母亲获本户公区历史图而扩大，母女仅合法看遮蔽页。"
+  professional: "档案员双岗合法核旧影像来源、穆师傅按限定局部判断而不作假归因、工程联络员撤新班次未经核的拟实施。"

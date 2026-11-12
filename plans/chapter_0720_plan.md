@@ -1,4 +1,4 @@
-# 第720章详细章纲：那道划痕不是昨天留下的
+# 第720章详细章纲：旧照片上也有一道灰线
 
 - chapter: 720
 - volume: 6
@@ -11,8 +11,8 @@
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
 - writer_scope: Planner + Continuity Precheck + Writer only
-- reader_gate: pending
-- qa_gate: pending
+- reader_gate: pass (reader_reviews/0720_d5b3ad79.md 0/0/2)
+- qa_gate: pass (qa/0720_report.md)
 - publish_gate: draft_only_not_published
 
 ## Planner
@@ -37,3 +37,8 @@
 - **正文有效字符**：3614（去除空白及独立场景分隔符）
 - **Continuity Precheck**：以719正式Ready Blob 5334f9f448d738f22ef944aa7d4062ca7fdc09fd作唯一前章版本，不基于未审原稿；Day582新房已实际交付和房门、侧门双卡实开可用于开场；本章没有倒改719、没有把历史照片认作当年真实修复或门体可用结论。
 
+
+## 审核更正与放行依据（2026-11-13）
+
+- 原始Draft SHA `74e33f50748dd3d6fca57a31cc01ee120981e22d`，首轮Reader双遍0/1/2，MAJOR为原题将同一划痕和形成时间写成已证事实，Stage A仅将标题更正为《旧照片上也有一道灰线》，正文0字变更，仍3614有效字。
+- 新Draft SHA `d5b3ad7917715d200ad9dd08a1822cf81b25e327` 独立Reader双遍0/0/2（`reader_reviews/0720_d5b3ad79.md`），独立QA `qa/0720_report.md`。精确依赖719 Ready blob `5334f9f448d738f22ef944aa7d4062ca7fdc09fd`；Day58412后住宿继续付款未知、旧门根因和历史影像同一性未知，禁返住持续。

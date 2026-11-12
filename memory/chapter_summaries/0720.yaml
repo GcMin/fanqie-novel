@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 720
+title: "旧照片上也有一道灰线"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "74e33f50748dd3d6fca57a31cc01ee120981e22d"
+source_draft_sha: "d5b3ad7917715d200ad9dd08a1822cf81b25e327"
+initial_reader_review: "reader_reviews/0720_74e33f50.md"
+reader_review: "reader_reviews/0720_d5b3ad79.md"
+depends_on_chapter: 719
+depends_on_source_sha: "5334f9f448d738f22ef944aa7d4062ca7fdc09fd"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day58308:14—Day58407:03"
+summary: >-
+  Day58308:14松桥北廊新首层甲乙两箱、现行甲与换发新乙两卡原位，两晚商户真款只覆盖Day58212至Day58412且Day582双卡房门/夜侧门各自实开。09:06廖档案员告知三年前旧公区巡检目录有本户楼层记录，但尚未核图，不能电话断言拍到本户门；10:22工程误以Day581段启任小勇安防具名签页可作Day584拟实施查验保障，母亲要求新班次、专业建筑电气门体限项及本人授权重核，撤为待条件核。13:42母亲凭本户身份权益证明到档案馆双岗核原目录、拍摄点位和旧归档接收时间、遮蔽后有源本户门外影像，右下模糊灰线与现时擦印位置可能相似，但材质、同一物理损伤、原拍摄准确时间均未知；15:08穆师傅仅阅获准局部图，不把相似外观定为维修史或现门卡阻根因；16:26正式获有限核阅回执，证旧图于历史归档接收日之前已存在。18:13晓漫来北廊新房带馄饨，与母亲不借记忆替亡父证明曾修门；20:47母亲仅按本事项号向夜间中心限项通报旧图和旧门未再动，不传妹妹JZ4私人旧盘。Day58407:03两箱两卡原位，商户真款仅到今日12点，后续续住尚无实收凭证；仁合里旧四楼仍闭锁双封、单路有限照明其他受水电路隔离、Day536撤清运及全屋禁返住；Day577约11cm右下接触和Day578门外静态读数非因果结论。桥北个人368元Day571真退只此笔，F014历史旧号旧信旧押金、七号箱五楼漏源2019卷均无跨源新证。
+meaningful_state_changes:
+  - "合法双岗核三年前公区巡检原图与本户点位，得到同区域灰线外观在历史归档接收之前存在的可溯源新时间界，未证为同一划痕。"
+  - "Day584旧门试开计划因新班次/专业许可与住户授权不齐继续待核，Day58412后住宿真款尚无。"
+knowledge_updates:
+  - "母亲、廖档案员与保管员、穆师傅只知道旧图有同区域灰线，无法凭静态图推历史维修、现装门型和Day577动态卡阻根因。"
+  - "晓漫仅知母亲自愿展示的合法遮蔽局部，中心仅获当代本人限报，妹妹JZ4未授权读。"
+relationship_updates:
+  - "晓漫下班带馄饨探母、谈父亲曾否说过门卡，母亲不假造亡父说法，日常对话保持自主生活。"
+foreshadowing_updates:
+  - "未来需要有权建筑/门体岗位核新旧同位置与原拍摄链，旧图不能替代再次开门许可或维修。"
+  - "Day58412后的商户付款续房需查证；F014旧号旧信历史押金全渠道与七号箱五楼漏源2019无新证。"
+ending_state: "Day58407:03松桥北廊甲乙箱双卡均在商户真款只到今日12点；历史有源旧影像同区域灰线已核，是否与当代右下擦印同一、根因及维修史仍未知。仁合里旧屋闭锁双封受水电隔离Day536撤清运和禁返住未改。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "74e33f50748dd3d6fca57a31cc01ee120981e22d", final_draft_sha: "d5b3ad7917715d200ad9dd08a1822cf81b25e327", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: title_overclaim_limited_to_old_image_grey_line}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3614
