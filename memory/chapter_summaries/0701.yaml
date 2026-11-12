@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 701
+title: "门开了二十厘米，没人跨过去"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "9d565809710d691060d9174d3c5b120a9937013b"
+source_draft_sha: "4c2d2ab2a788581c24f5ac346eb68894d901dcf8"
+initial_reader_review: "reader_reviews/0701_9d565809.md"
+reader_review: "reader_reviews/0701_4c2d2ab2.md"
+depends_on_chapter: 700
+depends_on_source_sha: "d8d8d00e3a4b2e7cd298c4ea812aa1300005c6f5"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day56408:27—Day56507:06"
+summary: >-
+  Day56408:27桥北行舍原首层甲乙箱两卡原位，Day56316:27商户已真收连续四晚到Day56812:00，夜门两卡新期已实开。08:42工程口头提议看看四楼门内，母亲要求具名人员、进门方式、范围和停止条件不把提议当准入。10:03正式收到四页限定门外可视观察方案，11:17工程核具名电工、建筑安全查验者、物业陪同实际履责，母亲仅签本人在专业人员监护下从公共走廊开外门作门外目视，不授权跨门槛、测室内电、伸纸、开封、移物、清运或返住。晓漫12:14实际买衣袜，完成单位交接后请两小时假赶到。14:12三方在走廊到场，14:34母亲开门遇门底擦响即停，最多约开20厘米，目视门槛内旧压条翘起、门底胶边疑受顶和一道不能确定是水的细亮痕，没有查其形成时间或原因；无人跨门槛、没探纸或触碰。14:46外门复锁，15:08三方签真实门外观察及待复核范围，母亲只签在场知悉而不承认全部处置完成。晓漫看到旧鞋柜和篮子，但不取旧衣，改用新买衣袜。20:47母亲只向夏宁周衡梁策限报具名人员到场、门外开20厘米、无人进入和未明门槛问题；妹妹旧硬盘没有再读取。Day56507:06桥北仍住原首层双卡双箱，实付到Day568中午；四楼12厘米旧观察口及亡夫饰板各封、客厅有限一路照明而其他受水电路隔离、Day536撤清运仍有效，整屋禁返住。旧五楼漏源、七号铁角箱最终实物、F014历史旧号旧信押金及2019旧卷依然没有跨源新证。
+meaningful_state_changes:
+  - "首次经住户本人书面限项同意且具名有权人员现场监督，真实开旧四楼外门约20厘米并14:46复锁、15:08留正式范围签记，不扩大入户授权。"
+  - "门槛内旧压条、门底胶边及性质不明亮痕成为分别列明的待查风险；晓漫实际买换洗衣袜而不违规进屋取物。"
+knowledge_updates:
+  - "母亲与专业人员仅知门外目视，不能推室内安全、亮痕成因或五楼漏源；晓漫经母亲限项信息到场，不代母签字。"
+  - "夜班只知母亲限定四项当代事实，妹妹裂盘未再读箱边/备份，旧影第三人身份和同意未知。"
+relationship_updates:
+  - "晓漫为母亲买衣袜并请两小时假陪到场，母亲目视旧物仍守住不入户，两人将生活解决和旧屋证据分开。"
+foreshadowing_updates:
+  - "门底摩擦与细亮痕待另行有权专业复核及本人新的限定同意，桥北真实住期至Day568中午；F014、2019和旧七号箱不被提前解答。"
+ending_state: "Day56507:06同首层房甲乙箱双卡原位且实付至Day56812:00；旧屋外门曾有限目视约20厘米并复锁，未入室、未测电、未取物，双封仍在、整屋禁返住、Day536撤清运持续，门槛亮痕与受阻成因未明。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "9d565809710d691060d9174d3c5b120a9937013b", final_draft_sha: "4c2d2ab2a788581c24f5ac346eb68894d901dcf8", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: day565_today_to_yesterday_socks_fix}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3699
