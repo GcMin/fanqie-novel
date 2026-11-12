@@ -8825,3 +8825,25 @@ combined_audit_chapter_708_20261112:
   dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_709_20261112:
+  chapter: 709
+  title: "两张领料单之间"
+  original_source_sha: "6e6ac62e086137ece84d771fe10eed67f6f6e2a5"
+  source_sha: "2fd3ff8986131192ccd9b46c3988b410e05e468c"
+  initial_review_path: "reader_reviews/0709_6e6ac62e.md"
+  review_path: "reader_reviews/0709_2fd3ff89.md"
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  reason: "Day573 refund yesterday corrected to Day571 the day before yesterday and unsupported material record causality narrowed to observable warehouse flows"
+  predecessor_ready_sha: "9f102be09735c4e38178c86ce626ce2e11ca8c6e"
+  predecessor_fact_delta: "exact_ready_dependency_no_provisional_or_old_sha_delta"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
