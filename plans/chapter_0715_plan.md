@@ -3,17 +3,17 @@
 - chapter: 715
 - volume: 6
 - arc: ARC-054
-- status: draft
+- status: ready
 - depends_on_chapter: 714
-- depends_on_source_sha: b73b5ecd17e10c2113be1ba1e25c58e87896e1fb
-- dependency_status: provisional
-- source_boundary: 第714章在本次 main 的 chapters/draft/0714.md，仍为待独立审核的临时草稿。仅暂据其Day577一次短开约十一厘米右下接触、随即闭锁、有源限项纪要，不能称正式Canon；后续若第714章修订改变现场事实，须由独立Audit核对本章衔接。Day576松桥真付四晚到Day58012:00、现行甲卡与换发乙卡分别实开房门及夜侧门、Day575搬箱误派候选已撤；仁合里四楼独封隔离禁返住、Day536清运撤销持续，桥北个人368元Day571已真返。第714章并未批准后续开门、维修、返住。
+- depends_on_source_sha: 5c7c6c90d1868f050ebce5060941f0556a0d728e
+- dependency_status: verified_ready_compatible_body
+- source_boundary: 第714章已完成审查并拟以正式Ready交付，经核对原Draft与最终Ready小说正文完全一致（仅交付Front Matter变化）。据其Day577一次短开约十一厘米右下接触、随即闭锁、有源限项纪要，现已按正式Ready SHA核对且无事实矛盾。Day576松桥真付四晚到Day58012:00、现行甲卡与换发乙卡分别实开房门及夜侧门、Day575搬箱误派候选已撤；仁合里四楼独封隔离禁返住、Day536清运撤销持续，桥北个人368元Day571已真返。第714章并未批准后续开门、维修、返住。
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
 - writer_scope: Planner + Continuity Precheck + Writer only
-- reader_gate: pending
-- qa_gate: pending
-- publish_gate: not_attempted
+- reader_gate: pass
+- qa_gate: pass
+- publish_gate: ready_only_not_published
 
 ## Planner
 - 目标：从Day577单次短开接触证据推进至Day578闭门外局部可复核测点、下一次操作必须有复位保障的具体技术边界，同时让Day580午之后临住付款不足成为新行动期限；不让纸面建议冒充维修。
@@ -31,6 +31,6 @@
 - 状态变化：由一次有源接触照片新增独立静态观测基线和禁止擅调下铰链的修正记录；住房下一期实际期限与责任岗Day57911点答复节点被明确列出，没有假造住宿续成。
 - 伏笔：Day577右下接触、Day578外露间隙差异的因果、现装门型号与后续维修仍未知；Day580临住真实付款；F014历史旧号旧信历史押金、第七铁角木箱、五楼漏源和2019旧卷均不获得跨源新证。
 - 不可泄露：妹妹私人旧裂盘JZ4箱边不因工程流程获得新授权；中心只在母亲Day57820:51授权回拨后有限知道当代施工/住宿，不能替代住户/专业签认；M004/M005/F003/F008不作新跨源认定。
-- Continuity Precheck：直接前章714尚在draft，40位Blob b73b5ecd17e10c2113be1ba1e25c58e87896e1fb 为唯一临时依据，dependency_status必须为provisional；不以该章当正式Canon。Day578紧接714 Day577现场限项短开，现门仍闭锁，未新授权不得再开门。Day571本人368元已实返，不写待核；松桥四晚真正已付至Day580中午，之后不预支结论。
+- Continuity Precheck：直接前章714已完成Reader与内容QA，正式Ready 40位Blob 5c7c6c90d1868f050ebce5060941f0556a0d728e 为已比对并重绑的正式依赖，dependency_status为verified_ready_compatible_body。Day578紧接714 Day577现场限项短开，现门仍闭锁，未新授权不得再开门。Day571本人368元已实返，不写待核；松桥四晚真正已付至Day580中午，之后不预支结论。
 - 结尾：Day57907:09明示Day580午之后尚无新住房实款；门的下一次动作等待独立核验与复位保障，不将外部局部尺量等同已修复。
 - 目标有效字符：3457（正文去除空白及***场景分隔符），硬限2300—3800。

@@ -3,7 +3,7 @@
 - chapter: 714
 - volume: 6
 - arc: ARC-054
-- status: draft
+- status: ready
 - depends_on_chapter: 713
 - depends_on_source_sha: 30ed8f5eabf10dcb07b7e42d967f59ff4dbf04c0
 - dependency_status: verified_exact_ready_blob
@@ -11,9 +11,9 @@
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
 - writer_scope: Planner + Continuity Precheck + Writer only
-- reader_gate: pending
-- qa_gate: pending
-- publish_gate: not_attempted
+- reader_gate: pass
+- qa_gate: pass
+- publish_gate: ready_only_not_published
 
 ## Planner
 - 本章目标：从“有空栏的旧门开合草案”推进至真实具名建筑、电气分项限项核查和一次被允许的短开实地观察；让母亲获得具体、可复核的当前接触位置，同时保留全部未证的成因、安全和历史事实。

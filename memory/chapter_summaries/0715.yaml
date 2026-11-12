@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 715
+title: "十一厘米之外，还差一把尺"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "3216f909ff15c837094eb5666d905e1f5ff9d951"
+source_draft_sha: "8a608c1712da679761d4cc375af49b0539836dd6"
+initial_reader_review: "reader_reviews/0715_3216f909.md"
+reader_review: "reader_reviews/0715_8a608c17.md"
+depends_on_chapter: 714
+depends_on_source_sha: "5c7c6c90d1868f050ebce5060941f0556a0d728e"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day57808:26—Day57907:09"
+summary: >-
+  Day57808:26母亲整理Day577十一厘米动态接触纪要，09:02穆师傅提出只在旧门闭锁时量门外可见位置，母亲要求书面排除再次开门拆卸。10:37林工穆师傅与联络员在仁合里四楼从门外对上中下外侧间隙两轮复核，上部约3毫米，右下有效可见点不足2毫米，翻卷胶边遮挡处读数无效；不能据此判断门框变形、铰链下沉或把交付当年甲配置当成现装。11:49将外部静态基线与昨日动态触框照片分列，后续再开或拆件必须新建筑电气意见、住户限项授权、停止后的闭锁或无法闭锁保障。14:06松桥主管亲核Day580中午后没有商户真收款或同房锁定。15:17工程“调整下铰链恢复正常”未经授权建议被具名撤回，今日没有开门维修；16:42住宿承办人只拿到内部申请号，承诺Day57911点前给可执行方案/备选，住户要求首层无台阶、夜门和双箱搬运责任。20:51母亲仅向夜班限报当代信息。Day57907:09松桥新一期尚未付、未锁房，甲乙两箱与现行房卡原位；Day536撤清运、旧屋双封、受水电隔离、禁返住持续，桥北个人368元真退而F014旧押金及2019旧案未证。
+meaningful_state_changes:
+  - "Day578闭门外两轮局部测点有可追溯静态基线且排除无效胶边点，不能反推动态根因。"
+  - "无据调整下铰链建议正式撤回；下次开门的闭锁失败保障被列作先决条件。"
+  - "明确Day58012:00后住宿未付款与Day57911:00具名答复期限。"
+knowledge_updates:
+  - "母亲和专业人员仅知外侧可见局部间隙，夜班只知母亲授权当代事实。"
+relationship_updates:
+  - "晓漫与母亲在橘子、还伞小事上维持日常生活，母亲自行核实住宿与工程。"
+foreshadowing_updates:
+  - "动态碰框和静态间隙的因果、现装门型及维修方案均未知；F014历史款与2019未证。"
+ending_state: "Day57907:09松桥原首层双箱双卡仍在，Day580中午后无实款或锁房；仁合里未再开修，禁返住不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "3216f909ff15c837094eb5666d905e1f5ff9d951", final_draft_sha: "8a608c1712da679761d4cc375af49b0539836dd6", stage_a_used: 1, body_revisions: 0, reason: predecessor_714_ready_SHA_metadata_and_plan_rebind}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3457

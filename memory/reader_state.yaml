@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 713
-last_reviewed_title: "续住生效以后，侧门还认不认人"
-last_source_path: chapters/draft/0713.md
-last_source_sha: e1c88838b6659f25af7aca5e1a0ffe6798d59040
-last_review_path: reader_reviews/0713_e1c88838.md
-last_reviewed_at: "2026-11-12"
+last_reviewed_chapter: 715
+last_reviewed_title: "十一厘米之外，还差一把尺"
+last_source_path: chapters/draft/0715.md
+last_source_sha: 8a608c1712da679761d4cc375af49b0539836dd6
+last_review_path: reader_reviews/0715_8a608c17.md
+last_reviewed_at: "2026-11-13"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 712
-depends_on_source_sha: a7fc33afcf56d02c246ca67dbd30b4c6671e922d
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: a7fc33afcf56d02c246ca67dbd30b4c6671e922d
+depends_on_chapter: 714
+depends_on_source_sha: 5c7c6c90d1868f050ebce5060941f0556a0d728e
+dependency_status: verified_ready_compatible_body
+predecessor_current_source_sha: 5c7c6c90d1868f050ebce5060941f0556a0d728e
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8928,3 +8928,9 @@ combined_audit_chapter_713_20261112:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_714_715_20261113:
+  chapters: [714, 715]
+  chapter714: {original_sha: "b73b5ecd17e10c2113be1ba1e25c58e87896e1fb", review: "reader_reviews/0714_b73b5ecd.md", counts: "0/0/2", content_qa: pass}
+  chapter715: {original_sha: "3216f909ff15c837094eb5666d905e1f5ff9d951", new_sha: "8a608c1712da679761d4cc375af49b0539836dd6", old_counts: "0/1/2", new_counts: "0/0/2", review: "reader_reviews/0715_8a608c17.md", content_qa: pass, body_revisions: 0}
+  gate: exact_candidate_CI_required_before_main

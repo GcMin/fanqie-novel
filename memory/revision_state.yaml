@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 713
-current_stage: chapter713_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0713.md
-current_source_sha: e1c88838b6659f25af7aca5e1a0ffe6798d59040
-current_review_path: reader_reviews/0713_e1c88838.md
+current_chapter: 715
+current_stage: chapter715_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0715.md
+current_source_sha: 8a608c1712da679761d4cc375af49b0539836dd6
+current_review_path: reader_reviews/0715_8a608c17.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter713_stageA_day575_transport_date_and_char_count_newSHA_reader_content_qa_pass
-last_action_date: "2026-11-12"
+last_action: chapter714_no_revision_chapter715_metadata_only_rebind
+last_action_date: "2026-11-13"
 last_error: null
-last_diff_summary: "第713章原稿结尾Day577误称Day575撤运为昨日，局部改为Day575当日撤销，字数原误报3732重算3754；新Git Blob独立重审Pass A/B且Continuity/Style QA通过。结构候选CI待核。"
+last_diff_summary: "714正文0改；715仅把714旧draft依赖重绑Ready 5c7c6c90d1868f050ebce5060941f0556a0d728e，小说正文0改。新SHA 8a608c1712da679761d4cc375af49b0539836dd6独立Reader 0/0/2和内容QA PASS，精确CI未完。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: e1c88838b6659f25af7aca5e1a0ffe6798d59040
+current_review_source_sha: 8a608c1712da679761d4cc375af49b0539836dd6
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -7922,3 +7922,9 @@ combined_audit_chapter_713_20261112:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_714_715_20261113:
+  chapter714: {stage_a_used: 0, body_revisions: 0, review: "reader_reviews/0714_b73b5ecd.md"}
+  chapter715: {stage_a_used: 1, body_revisions: 0, initial_sha: "3216f909ff15c837094eb5666d905e1f5ff9d951", final_draft_sha: "8a608c1712da679761d4cc375af49b0539836dd6", review: "reader_reviews/0715_8a608c17.md", predecessor_ready_sha: "5c7c6c90d1868f050ebce5060941f0556a0d728e"}
+  content_qa: pass
+  structural_gate: exact_candidate_CI_required_before_main

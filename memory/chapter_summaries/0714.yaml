@@ -1,0 +1,31 @@
+schema_version: 1
+chapter: 714
+title: "门只动了十一厘米"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "b73b5ecd17e10c2113be1ba1e25c58e87896e1fb"
+source_draft_sha: "b73b5ecd17e10c2113be1ba1e25c58e87896e1fb"
+reader_review: "reader_reviews/0714_b73b5ecd.md"
+depends_on_chapter: 713
+depends_on_source_sha: "30ed8f5eabf10dcb07b7e42d967f59ff4dbf04c0"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day57708:16—Day57807:06"
+summary: >-
+  Day57708:16松桥母亲收到仁合里四楼门体查验草案补全后的建筑、电气分项条件，先拒未预核时提前签同意。10:19林工、马师傅、穆师傅与联络员在门外公区到场，分别核外部承托可见状态与受水电路隔离，无入室；11:32形成一次最大15厘米短开、卡阻异响即停的具名限项专业条件后，母亲仅为本次动作明确同意并自持钥匙。12:46清障后母亲短开，约11厘米右下外缘与框体接触擦响立即停、关锁，无再开无进屋触件。14:21原“原因已发现”被纠为仅当次观察接触，马师傅注明室内未复验，穆师傅停未确认适配胶条备料；15:08有编号限项纪要，下一次动作必须另案。20:48母亲限项告夜班。Day57807:06松桥首层甲乙箱原位、甲卡和新乙卡仍在且Day576房门与夜门双卡实开，商户真付到Day58012；旧四楼双封、受水电路隔离、Day536撤清运、整屋禁返住持续。十一厘米只证当次右下动态接触，根因/现门型未证；桥北本人368元Day571已真返，F014、七号箱、五楼漏源、2019旧卷无新证。
+meaningful_state_changes:
+  - "Day57712:46首次有源一次开门约11厘米右下动态接触擦响，即停并退回复锁。"
+  - "正式纪要区分实际观测、根因未知、后续操作未授权。"
+knowledge_updates:
+  - "母亲与专业人员知当次右下触框，不能证明现门型号或整屋安全；夜班仅限报当代事实。"
+relationship_updates:
+  - "母亲只在限项安全意见后签字，穆师傅拒签未做的试开结果；晓漫照常出游与母亲交流吃饭和橘子。"
+foreshadowing_updates:
+  - "Day577动态接触为后续查验提供有源位置，不确定与旧擦痕同源；F014/2019未证。"
+ending_state: "Day57807:06仁合里门关锁双封禁返住，松桥甲乙箱现行双卡与商户真付Day58012保持。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "b73b5ecd17e10c2113be1ba1e25c58e87896e1fb", final_draft_sha: "b73b5ecd17e10c2113be1ba1e25c58e87896e1fb", stage_a_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3627
