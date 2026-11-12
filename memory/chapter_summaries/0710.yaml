@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 710
+title: "签在交付那天，不等于现在"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "fb8a0a3966235f7da302a1d6ca2e0cb600e436be"
+source_draft_sha: "adcf3207b1eb70214bb1882b64e26033d24fe593"
+initial_reader_review: "reader_reviews/0710_fb8a0a39.md"
+reader_review: "reader_reviews/0710_adcf3207.md"
+depends_on_chapter: 709
+depends_on_source_sha: "87f6519fed980dbdd91d681e89b95165e0f43011"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day57308:12—Day57407:08"
+summary: >-
+  Day57308:12母亲仍住松桥首层，双卡甲乙箱在，物业真付至Day57612点；桥北本人368元已Day57116:17真实原卡返还。她带馒头核昨日Day572的两份领料单甲暂存/乙替领尾码差一个字母，未把其当本户实装记录。09:26工程联络员得到原厂技术岗口头有源回复：多字母是乙替领配件包的仓库分拣后缀，非门扇铭牌或整门更换编号；有具名技术档号等待正式文件。10:05母亲取药并向问路老人指松桥侧坡，不另把普通好心当证据回执。11:48廖档案员在旧项目竣工交付的另一册原纸中找到本户逐户门体交付核验页，母亲只报旧正式户位并同意两岗核原册/遮其他住户；不以电话口述宣称已验安装。14:13工程送原厂后缀说明和有原册连续页/目录/本户位/两当年岗位签字位置的限项摘录，交付记录有源写本户当年甲配置，与前楼层物料单不同；只证当年交付文件签认，不证后来维保换件或现门真实型号。15:09穆师傅远程只愿把甲历史资料列入备查而非按旧型号下单、剪胶或开锁，拟另定建筑电气和门体分工、出现卡阻即停，没有现场日期或本次准入。16:26正式签收资料回执保留分项边界，错误F-02公区图不因新资料复效；未到旧四楼触门。17:02松桥前台发到期提醒且次期无商户真收，母亲取得住宿责任岗Day57416:00前给可执行方案的有限答复承诺，既不是已续住也不是返住许可。晓漫正常上班，18:37带亲手补牢的旧提袋到松桥共吃饭并计划周末见朋友，母亲支持不让女儿天天陪跑。20:52母亲仅向夏宁周衡梁策限项回告有源旧甲配置交付页、现门未知及无开门动作，不送私人整册或妹妹旧盘。Day57407:08两卡甲乙箱仍住松桥至Day57612:00，旧仁合里四楼门仍锁、旧12厘米口与亡夫饰板各封、客厅单路有限照明其他受水电隔离、Day536撤清运整屋禁返住；旧五楼漏源、七号箱、F014旧号旧信押金和2019旧卷未获跨源实证。
+meaningful_state_changes:
+  - "原厂技术档首次释明乙替领包装尾码只是仓储分拣后缀，排除将其当门铭牌或换门编号的错误证据用法。"
+  - "第710章首次有源取得本户逐户门体旧交付核验页当年甲配置双岗位签认的档案事实，但后续维修/现门型号仍未知；16:26正式限项收件。"
+  - "Day57317:02松桥到期提醒只证次期尚无付款，住宿岗约定Day57416:00前给实际方案进度答复，但未有新房款。"
+knowledge_updates:
+  - "母亲/廖档案员能把楼层材料流转、原厂尾码、历史逐户交付与现时配置分别留档，穆师傅认可甲历史资料只可备查，未经当代安全查验不得下单或触门。"
+  - "晓漫午间只知可能找到当年本户有源交付页，不得以父亲旧事或今日历史签字推当前门已修；夜间中心仅得母亲限项新档案与未入屋事实。"
+relationship_updates:
+  - "晓漫补缝提袋并在下班来松桥陪母亲吃饭，母亲支持其周末外出；专业人员与母亲就当年签认和今日安全权限互不取代达成明确共识。"
+foreshadowing_updates:
+  - "Day57416:00住宿具名答复需核是否落实商户实际真收，Day57612:00仍为已付房期硬期限。"
+  - "本户现门需查后续维保/铭牌及有权安全条件，旧甲交付签字不足以授权拆修；F014历史押金和2019仍未证。"
+ending_state: "Day57407:08松桥首层双卡甲乙箱原位，已付至Day57612:00次期未真收；第710章得到本户当年甲配置交付有源签认，当前实际门型、维保链和本次安全许可仍未知；旧四楼锁闭双封受水电路隔离且Day536撤清运/禁返住有效，个人368元已真返但旧押金历史仍待证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "fb8a0a3966235f7da302a1d6ca2e0cb600e436be", final_draft_sha: "adcf3207b1eb70214bb1882b64e26033d24fe593", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "predecessor_709_ready_sha_rebind_after_2_fact_compatible_body_edits"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3583
