@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 718
+title: "换班以后，门口谁还在"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "40ddc4d0085c53ed39c69f487536254a4d26c5b0"
+source_draft_sha: "40ddc4d0085c53ed39c69f487536254a4d26c5b0"
+reader_review: "reader_reviews/0718_40ddc4d0.md"
+depends_on_chapter: 717
+depends_on_source_sha: "b5a7114d3e29eb6c36d5c0b6c7968e7bcf2589cb"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day58108:39—Day58207:06"
+summary: >-
+  Day58108:39松桥原首层母亲收到仁合里再次有限查验人员表，三专业人员有姓名，白班安防段启09—18时，但没有夜班人实核；09:18联络岗认当前安排不能覆盖闭锁失败后的夜间。10:46旧屋四楼公区做不触门岗位走位，段启已到，夜班任小勇排班尚待复核，无开锁/维修许可。Day581中午松桥确认Day57916:19实收同原房两晚只覆盖Day58012至Day58212，后续只有询房无新商户真款，双箱仍同首层。14:08核夜班任小勇排班但本人尚未接本户现场任务；15:37条件框架明确若门无法复锁原操作人员应持续留守直至有权安防现场核实、真实交接。18:07任小勇本人走到四楼门口，发现门岗监控只见楼梯口不见本户门；18:19与段启分别具名签本次班次、联系人、路线，撤掉应急接管已完成的错误用语，确认无真正失锁、交钥匙、开门或接管，不保证未来班次。20:51母亲限项回拨夜间中心。Day58207:06松桥甲乙箱与甲新乙卡未动，Day580双卡房门和夜侧门真开只证当次，商户付款仍止今日12点，无次期实收；仁合里四楼锁闭双封、受水电路隔离、Day536撤清运禁返住持续；Day577右下约11cm碰框、Day578静态测点不能定根因型号。桥北本人368元Day571已真返仅此笔，F014旧联系人/旧信/旧押金、七号箱五楼漏源2019无跨源新证。
+meaningful_state_changes:
+  - "Day58118:07任小勇实到四楼，18:19与段启签当次白夜接续路线和时段，认门岗监控盲区。"
+  - "责任准备由白班填名发展为当次双班亲核，非实际事故接管或开门许可。"
+knowledge_updates:
+  - "母亲知后续实际班次需重新实核，晓漫只知母亲限项转述。"
+  - "夜间中心仅本人Day58120:51限项回拨获当代情况，不接妹妹JZ4私人材料。"
+relationship_updates:
+  - "段启任小勇与母亲共同拒将当次预核写成实际接管。"
+  - "晓漫照常上班与母亲炒菜，不代专业人员守门。"
+foreshadowing_updates:
+  - "旧门再开需另次建筑电气及住户限项签认，真实跨班处置保障。"
+  - "Day58212后住宿尚无新真款；F014历史线/七号箱/五楼漏源/2019未证。"
+ending_state: "Day58207:06松桥原首层甲乙双箱与甲新乙卡在，商户款只到今日12点；仁合里旧门锁闭双封隔离禁返住，无新门体操作或实际无法闭锁交接，只有Day581当次白夜人员与路线实核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "40ddc4d0085c53ed39c69f487536254a4d26c5b0", final_draft_sha: "40ddc4d0085c53ed39c69f487536254a4d26c5b0", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3522

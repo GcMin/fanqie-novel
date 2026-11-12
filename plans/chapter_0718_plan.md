@@ -3,7 +3,7 @@
 - chapter: 718
 - volume: 6
 - arc: ARC-054
-- status: planned
+- status: completed
 - depends_on_chapter: 717
 - depends_on_source_sha: b5a7114d3e29eb6c36d5c0b6c7968e7bcf2589cb
 - dependency_status: verified_exact_ready_blob
@@ -11,9 +11,9 @@
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
 - writer_scope: Planner + Continuity Precheck + Writer only
-- reader_gate: pending
-- qa_gate: pending
-- publish_gate: not_evaluated
+- reader_gate: pass
+- qa_gate: pass
+- publish_gate: ready_only_not_published
 
 ## Planner
 - 本章目标：验证旧屋无法复位应急安排不是一份只有白班姓名的纸，补足实际白夜班具名接续、现场到达和不能替代下一班签认的边界；推进安全准备，不开启旧屋。
@@ -34,3 +34,12 @@
 - Continuity Precheck：前章第717章位于ready，按完整Git blob b5a7114d3e29eb6c36d5c0b6c7968e7bcf2589cb 精确引用，dependency_status=verified_exact_ready_blob；Day58020:47中心回拨发生在21:06夜侧门核验之前，故只在本章晚间新回拨的限项范围告知已发生事项。Day536撤清运持续、四楼旧12cm观察口与亡夫饰板分封、电路隔离、整屋禁返住不变。新章只推进前置安全责任，不伪造开锁、派工、返住或新住房真款。
 - 结尾承接点：Day58207:06真实房费止于当天12点，无续期真款；Day581岗位条件核验已有具名页，旧屋尚无下一次开门条件或授权。下一章可先处理当日临住延续与专业限定作业排期的矛盾。
 - 正文有效字符: 3522（去除空白及独立场景分隔符，UTF-8 Unicode code points计数）
+
+## Audit 2026-11-13
+- original_draft_sha: 40ddc4d0085c53ed39c69f487536254a4d26c5b0
+- review: reader_reviews/0718_40ddc4d0.md
+- Reader: 0 BLOCKER / 0 MAJOR / 2 MINOR keep none
+- QA: Continuity/Style/Meaningful PASS
+- predecessor: exact ready b5a7114d3e29eb6c36d5c0b6c7968e7bcf2589cb
+- body_revisions: 0
+- structural_gate: exact_candidate_ci_required_before_main
