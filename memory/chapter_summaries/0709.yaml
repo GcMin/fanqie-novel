@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 709
+title: "两张领料单之间"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "6e6ac62e086137ece84d771fe10eed67f6f6e2a5"
+source_draft_sha: "2fd3ff8986131192ccd9b46c3988b410e05e468c"
+initial_reader_review: "reader_reviews/0709_6e6ac62e.md"
+reader_review: "reader_reviews/0709_2fd3ff89.md"
+depends_on_chapter: 708
+depends_on_source_sha: "9f102be09735c4e38178c86ce626ce2e11ca8c6e"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day57208:31—Day57307:03"
+summary: >-
+  Day57208:31母亲松桥首层洗衣后查询昨日Day57116:17桥北本人368元实际原卡返款仍在且仅此笔费用核销，与松桥物业真付七晚至Day57612:00无关。09:06工程联络员说廖档案员又找到旧门体两张材料领料单。10:42档案岗位经有限核阅确认第一张住宅入口门甲配置配件包为楼层暂存、第二张晚八天有甲配置缺件待退与乙配置替领，原单上有斜杠改尾码及材料岗移交签字，却缺户号级安装映射、具体退件完成凭据和更改签认来源，不能推本户换门或现装哪款。母亲要求分清材料流转与安装，11:27晓漫正常上班午间来电且晚上与朋友散步，不全天代跑档案。12:30脱敏局部图保留关键尾码并遮其他住户，母亲发现两张尾码差一个字母，13:08档案员拒以仓储经验断言混装，要求现行维保及原厂核版本。14:19穆师傅三方电话指出型号未定不可先备乙配置胶边或剪原胶边，Day567仅门外见可见外胶边/擦漆/漆边断口及Day564外门只限约20厘米的事实仍不足以推成因；建筑安全、电气、门体维保各有具名专业责任和出现卡阻异响即停止的准备条件，未定现场日期或新开门许可。15:52工程真实出具追溯原厂版本与逐户安装册的编号收件回执，未触门进屋或开工。20:43母亲限项向夏宁周衡梁策报告当代材料与待查，不上交家庭私盘。Day57307:03松桥两卡甲乙箱仍在、房期只真付到Day57612:00，桥北368元前天已真返；仁合里四楼门锁闭、旧12厘米观察口和亡夫饰板各封、客厅单路有限照明其余受水电隔离、Day536撤销清运仍有效且整屋禁返住；五楼旧漏源、七号箱现物、F014旧联系人/旧信/旧押金全渠道及2019旧卷仍未跨源核证。
+meaningful_state_changes:
+  - "有源两张材料领料单分别证甲配置楼层暂存与乙替领的记录存在，并发现尾码差字母、缺逐户安装映射和真实改记签认；本户实装仍不得认定。"
+  - "Day57215:52具名门体材料追溯与限定查验准备申请已真实收件，专业分工及停止条件形成下一步，但没有现实触门、维修或返住批准。"
+knowledge_updates:
+  - "母亲和工程档案员能区别采购、楼层领料、退件未证与具体入户安装，穆师傅坚持版本表/安全许可先行，不把乙替领当本户乙门。"
+  - "晓漫只从母亲两行限报得知材料记录仍不能判型号；夜班仅经本人限报得当代工程进度，妹妹未新读旧盘、F014历史事实不变。"
+relationship_updates:
+  - "母亲认可晓漫照常工作与晚上社交、女儿无需日日陪核资料；母亲继续以实际限定条款和具名专业分工与工程窗口协作。"
+foreshadowing_updates:
+  - "旧门材料尾码需原厂版次解释，逐户安装记录保管去向需有权追溯；现门识别及安全开合另设许可，不能凭材料单断实装。"
+  - "历史旧押金与桥北368元返款严格分账，F014旧号旧信、2019与七号箱仍待独立证据。"
+ending_state: "Day57307:03松桥首层双卡甲乙箱在、商户真付到Day57612点；桥北本人368元于前天Day57116:17已实际原卡返还；两张领料仅形成可追溯材料证据、实装门型与安全查验条件待核；仁合里四楼门锁闭双封受水电隔离禁返住Day536撤清运持续。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6e6ac62e086137ece84d771fe10eed67f6f6e2a5", final_draft_sha: "2fd3ff8986131192ccd9b46c3988b410e05e468c", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "day573_yesterday_refund_to_day571_day_before_yesterday_and_remove_unsupported_why_two_slips_inference"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3367
