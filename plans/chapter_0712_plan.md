@@ -3,11 +3,11 @@
 - chapter: 712
 - volume: 6
 - arc: ARC-054
-- status: planned
+- status: completed
 - depends_on_chapter: 711
-- depends_on_source_sha: 120d9d2e77e4dff252f0c4109788e0b1d8dcfdc7
-- dependency_status: provisional
-- source_boundary: 前711在本轮读得未审Draft Blob 120d9d2e77e4dff252f0c4109788e0b1d8dcfdc7，不是正式Canon。仅临时衔接Day574返住错勾正式撤回、新四晚Day57415:48商户真收且Day57612至Day58012连续续住、同首层两箱双卡未动、旧四楼禁返住以及新期房卡和夜侧门尚待验；待独立Audit按前章最终版本检查。
+- depends_on_source_sha: e3a5070e8d7a4a5c7e0682183cd07eaf12006813
+- dependency_status: verified_ready_compatible_body
+- source_boundary: 711原Draft 120d9d2e77e4dff252f0c4109788e0b1d8dcfdc7 至正式Ready e3a5070e8d7a4a5c7e0682183cd07eaf12006813 小说正文仅Day575结尾“后天验卡”更正为“明天验卡”，已逐行核对Day574四晚商户15:48真收、返住错误勾13:43撤回、Day57612新期卡权待验、旧四楼禁返住及运输预排关键事实均兼容。
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
 - actual_first_draft_effective_chars: 3165
@@ -26,7 +26,8 @@
   5. 15:22承运端候选实际撤销、15:41两端编号可回读，保持新房期与撤车独立；只证明本事项无预排，不夸大其他未知缓存。
   6. 20:47仅把当代有限事实告诉夏宁周衡梁策，Day57607:09两箱仍在，四楼未碰，卡权留待十二点后核。
 - 新信息和变化：真正发现了源系统撤销未自动传递的下游预排，完成独立承运端有源取消；母女明确不因未派车的候选改变生活安排。
-- Continuity Precheck：前章未审须记完整SHA和provisional；不能写门已修、当前门型证实、入室/电测/返住许可、司机派出或真正搬箱。旧F-02公区错误图已撤，Day564开门约20厘米即止、Day567穆师傅仅门外初查。桥北368元Day57116:17已真返，仅此笔非历史押金；F014历史联系人初源、本人当年旧信收讫、历史押金各渠道末端到账、五楼旧漏源、第七项旧箱、2019旧卷、F008/M004/M005均无新增跨源证。妹妹裂盘无本轮通电读取。
+- Continuity Precheck：前章原Draft与正式Ready已比较并绑定实际Ready SHA；不能写门已修、当前门型证实、入室/电测/返住许可、司机派出或真正搬箱。旧F-02公区错误图已撤，Day564开门约20厘米即止、Day567穆师傅仅门外初查。桥北368元Day57116:17已真返，仅此笔非历史押金；F014历史联系人初源、本人当年旧信收讫、历史押金各渠道末端到账、五楼旧漏源、第七项旧箱、2019旧卷、F008/M004/M005均无新增跨源证。妹妹裂盘无本轮通电读取。
 - 伏笔/不可泄露：Day576新期两张室内卡和夜侧门时段分别待实测，旧屋未取得当次建筑/电气具名安全开合方案，历史谜团不因当代运力更正提前确认。
 - 结尾：Day57612:00新房期实际切换之后核双卡，夜门留夜间真实验证。
 - 本轮只执行Planner、Continuity Precheck、Writer，不开展Editor/Reader/Revision/QA/Memory/Publish Gate或番茄发布。
+- 审核结果：原Draft 725907687392e429395c43e994bc0580402c2844 Reader双遍0/1/2，Stage A仅重绑第711章最终Ready依赖及详细计划，小说正文零字更改；新Draft a7b3d8bc121a1eeb782c17d496e45e92a81e0e02独立再双遍0/0/2、QA pass、3165字，精确候选CI结构门禁通过后才正式ready。

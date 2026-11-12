@@ -3,7 +3,7 @@
 - chapter: 711
 - volume: 6
 - arc: ARC-054
-- status: planned
+- status: completed
 - depends_on_chapter: 710
 - depends_on_source_sha: baffb6eb2bafc26b233cb07ded0ed5fe708f2420
 - dependency_status: verified_exact_ready_blob
@@ -31,3 +31,4 @@
 - 伏笔与不可泄露：旧门今天真正型号/历史换件待合法专业方案；F014以及家庭旧影第三人身份仍不提前揭明。
 - 结尾：Day576住房切期须核两房卡和夜间侧门；旧门接触/开合与电气、建筑许可另待具名分项方案。
 - 本轮界限：Writer仅新建章纲与未审草稿，不作Reader/Revision/QA/Memory/ready/Publish Gate或番茄发布。
+- 审核结果：原Draft 120d9d2e77e4dff252f0c4109788e0b1d8dcfdc7 Reader初审0/1/2；Stage A仅修Day575结尾“后天”验卡至“明天”；新Draft 91a83dc43da48ceca80637903488aa954eddd48c Reader独立再双遍0/0/2，Continuity/Style QA pass、3056字，精确候选CI结构门禁通过后才正式ready。

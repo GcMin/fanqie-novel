@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 710
-last_reviewed_title: "签在交付那天，不等于现在"
-last_source_path: chapters/draft/0710.md
-last_source_sha: adcf3207b1eb70214bb1882b64e26033d24fe593
-last_review_path: reader_reviews/0710_adcf3207.md
+last_reviewed_chapter: 712
+last_reviewed_title: "两只箱子被写进返家路线"
+last_source_path: chapters/draft/0712.md
+last_source_sha: a7b3d8bc121a1eeb782c17d496e45e92a81e0e02
+last_review_path: reader_reviews/0712_a7b3d8bc.md
 last_reviewed_at: "2026-11-12"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 709
-depends_on_source_sha: 87f6519fed980dbdd91d681e89b95165e0f43011
+depends_on_chapter: 711
+depends_on_source_sha: e3a5070e8d7a4a5c7e0682183cd07eaf12006813
 dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: 87f6519fed980dbdd91d681e89b95165e0f43011
+predecessor_current_source_sha: e3a5070e8d7a4a5c7e0682183cd07eaf12006813
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -8866,6 +8866,48 @@ combined_audit_chapter_710_20261112:
   predecessor_original_sha: "6e6ac62e086137ece84d771fe10eed67f6f6e2a5"
   predecessor_ready_sha: "87f6519fed980dbdd91d681e89b95165e0f43011"
   predecessor_fact_delta: "709原稿与Ready仅Day573返款昨天改前天和旧领料无据成因改为各自流转，710关键事实无冲突"
+  dependency_status: verified_ready_compatible_body
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_711_20261112:
+  chapter: 711
+  title: "旧门没修，返住栏先被勾上"
+  original_source_sha: "120d9d2e77e4dff252f0c4109788e0b1d8dcfdc7"
+  source_sha: "91a83dc43da48ceca80637903488aa954eddd48c"
+  initial_review_path: reader_reviews/0711_120d9d2e.md
+  review_path: reader_reviews/0711_91a83dc4.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  reason: "day575_card_date_local_body_fix"
+  predecessor_ready_sha: "baffb6eb2bafc26b233cb07ded0ed5fe708f2420"
+  predecessor_fact_delta: "exact_ready_sha"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_712_20261112:
+  chapter: 712
+  title: "两只箱子被写进返家路线"
+  original_source_sha: "725907687392e429395c43e994bc0580402c2844"
+  source_sha: "a7b3d8bc121a1eeb782c17d496e45e92a81e0e02"
+  initial_review_path: reader_reviews/0712_72590768.md
+  review_path: reader_reviews/0712_a7b3d8bc.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  reason: "predecessor_ready_sha_rebind_body_unchanged"
+  predecessor_ready_sha: "e3a5070e8d7a4a5c7e0682183cd07eaf12006813"
+  predecessor_fact_delta: "711只有Day575后天验卡改明天验卡已核事实兼容"
   dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

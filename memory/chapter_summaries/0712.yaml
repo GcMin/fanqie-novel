@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 712
+title: "两只箱子被写进返家路线"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "725907687392e429395c43e994bc0580402c2844"
+source_draft_sha: "a7b3d8bc121a1eeb782c17d496e45e92a81e0e02"
+initial_reader_review: "reader_reviews/0712_72590768.md"
+reader_review: "reader_reviews/0712_a7b3d8bc.md"
+depends_on_chapter: 711
+depends_on_source_sha: "e3a5070e8d7a4a5c7e0682183cd07eaf12006813"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day57508:27—Day57607:09"
+summary: >-
+  Day57508:27松桥客舍母亲接运输公司电话询Day57611:20预排将两件箱送返仁合里四楼，母亲未授权搬回，核车务仅候选非正式派车。松桥商户真见Day57415:48新4晚款已结至Day58012:00、原首层无退房/交物授权；甲箱靠窗、乙箱贴柜。09:19母亲持Day574错误返住绿勾及正式撤回回执核原事项；10:06住宿岗/运力联络核Day57410:08错误返住状态在撤销前沿用Day569旧搬箱数量和原住址生成下游Day576运输候选，缺住户签字、派车令、司机接单及旧屋准入。11:23车务确认仅候选池无车无接货，尚须责任单位正式取消。晓漫在单位照常工作并备周末外出，不需为未派车候选请假。13:46住宿责任岗发具名跨平台撤销通知，尚待对端回执；14:30松桥客舍核新期已付款但Day57612:00之后双房门卡需刷新并各自实开，夜间侧门权限另待夜时实测。15:22运输侧候选真实撤回、保留原预排/撤码，无派车、未通知司机、无费用；15:41住户获两系统关联编号确认旧屋返住建议仍已撤、真付住房订单独立有效，不保证所有未知旧缓存已清。20:47母亲限项告夜间中心当代运输撤单与旧屋禁返住，私人盘未交。Day57607:09松桥首层甲乙箱双卡原位，原七晚到当日12:00、新4晚实付接到Day58012:00，但切期房门双卡与夜侧门仍未新期实测。旧四楼锁闭、旧12cm观察口和亡夫饰板各封、一路照明有限其他受水电隔离、Day536撤清运整屋禁返住。桥北368元Day57116:17已真返，五楼旧漏源、七号箱、F014历史联系/押金及2019卷未证。
+meaningful_state_changes:
+  - "独立承运端的Day576搬运候选被追源为Day57410:08错误返住推送，Day57515:22实际撤销且有可回查码；并非曾有真实司机或搬箱。"
+  - "住户核Day576切期双房卡与夜侧门需分别刷新/实测，真续住房与取消下游转运互不误删。"
+knowledge_updates:
+  - "母亲与住宿承办、运力岗仅知本事项两端真实状态，不断言未核的其他系统缓存；晓漫知无人派车，照常保留周末生活。"
+  - "夜间中心仅经母亲收到有授权当代预排/撤回事实，不知妹妹旧私人盘、F014旧信和押金源头。"
+relationship_updates:
+  - "晓漫担心母亲又要跑流程，母亲独立追有源撤单并支持女儿按原计划外出；双方不以错单预设风险或代签权限。"
+foreshadowing_updates:
+  - "Day57612:00商户续住生效后须逐张刷新与实测房门双卡，夜侧门待夜间实测；旧屋本次建筑/电气安全开合与真正维保仍须另具名方案。"
+ending_state: "Day57607:09松桥首层甲乙箱不动、新4晚商户真付可从12:00接续至Day58012:00，但房门/夜侧门切期卡权未验证；错误运输候选真实撤销、原版留存；旧屋双封受水电隔离禁返住、桥北368元已实退、历史悬案未解。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "725907687392e429395c43e994bc0580402c2844", final_draft_sha: "a7b3d8bc121a1eeb782c17d496e45e92a81e0e02", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: predecessor_711_ready_sha_rebind_after_day575_card_tomorrow_word_fix}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3165

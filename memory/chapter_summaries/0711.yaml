@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 711
+title: "旧门没修，返住栏先被勾上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "120d9d2e77e4dff252f0c4109788e0b1d8dcfdc7"
+source_draft_sha: "91a83dc43da48ceca80637903488aa954eddd48c"
+initial_reader_review: "reader_reviews/0711_120d9d2e.md"
+reader_review: "reader_reviews/0711_91a83dc4.md"
+depends_on_chapter: 710
+depends_on_source_sha: "baffb6eb2bafc26b233cb07ded0ed5fe708f2420"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day57408:16—Day57507:06"
+summary: >-
+  Day57408:16松桥首层甲乙箱双卡原位、责任单位七晚已实付至Day57612:00；住户收到根据昨日逐户交付核验册甲配置的历史纸证跨系统映射而自动生成的“返住条件已完成”绿色勾及外部退房建议，住户未签。09:31工程/住宿电话核原字段遗漏“交付当年”时间限定，Day564旧屋门仅有权限项开约20cm又复锁、Day567穆师傅仅关锁门外观察，现门实际型号、受水安全和维修许可都未得。11:02有编号异议受理，13:17工程有权岗正式送更正说明，维持旧本户甲配置交付原档真实但撤其当代返住用途；13:43住宿岗真正撤回自动建议、留错误原版。14:28松桥核同首层可续；15:07具名4晚续住方案、15:36仅付款指令尚非商户实收；15:48商户实际收到责任单位新4晚款，覆盖Day57612:00到Day58012:00无重叠，15:56住宿责任岗按Day57416:00承诺实答且附商户真实到账号。新期两张房卡及夜侧门须Day576切期后分别实测，并未提前验过。晓漫下班带水果与母亲共饭、保留周末行程，20:39母亲仅向夏宁周衡梁策报告当代错勾正式撤回与4晚真款。Day57507:06两箱双卡原位，桥北368元已Day57116:17本人原卡实返仅结此笔；旧四楼关锁、旧12cm观察口及亡夫饰板分别封存、一路照明有限其余受水电隔离、Day536撤清运及整屋禁返住持续。五楼旧漏源、七号箱、F014旧年号码/信件/押金全渠道及2019原卷无新跨源证。
+meaningful_state_changes:
+  - "旧交付纸证错误映射当代返住资格，有源追查、工程正式更正和住宿正式撤回，并保留错误历史。"
+  - "Day57415:48商户真实收到责任单位4晚款，接续同房到Day58012:00，住房答复15:56按时兑现；Day576双卡仍待真实切期核验。"
+knowledge_updates:
+  - "母亲、档案、工程、住宿岗分别知当年甲配置纸面真证不等于现门型或安全，且自动绿勾已撤；晓漫仅经母亲得限项当代进展。"
+  - "中心夜班三人只得住房与门体当代状态，不接收妹妹旧盘或私影、F014旧年资料。"
+relationship_updates:
+  - "晓漫未因错误退房通知取消周末社交，母亲自行追责并只请女儿生活陪伴，晚间简单共饭。"
+foreshadowing_updates:
+  - "Day57612:00新期双房门卡及夜侧门仍须逐张、分时实测；旧四楼须另获建筑、电气有权开合安全方案，不能依旧签字返住。"
+ending_state: "Day57507:06松桥同首层双卡双箱原位，新商户真付4晚续至Day58012:00但切期卡权未验；旧屋锁闭双封受水电隔离禁返住，绿勾旧版保存但返住用途已正式撤销，桥北368元已真返。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "120d9d2e77e4dff252f0c4109788e0b1d8dcfdc7", final_draft_sha: "91a83dc43da48ceca80637903488aa954eddd48c", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: day575_day_after_tomorrow_to_tomorrow_card_time_fix}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3056
