@@ -3,7 +3,7 @@
 - chapter: 716
 - volume: 6
 - arc: ARC-054
-- status: draft
+- status: completed
 - depends_on_chapter: 715
 - depends_on_source_sha: 17a212f58ecc6fbb892a8787ce6d8e582b748472
 - dependency_status: verified_exact_ready_blob
@@ -11,9 +11,9 @@
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
 - writer_scope: Planner + Continuity Precheck + Writer only
-- reader_gate: pending
-- qa_gate: pending
-- publish_gate: draft_only
+- reader_gate: pass
+- qa_gate: pass
+- publish_gate: ready_after_exact_ci
 
 ## Planner
 

@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 716
+title: "首层房间，门外还有两级台阶"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "b324d7132789142fb57be1baaed7db66133cb6a5"
+source_draft_sha: "b324d7132789142fb57be1baaed7db66133cb6a5"
+reader_review: "reader_reviews/0716_b324d713.md"
+depends_on_chapter: 715
+depends_on_source_sha: "17a212f58ecc6fbb892a8787ce6d8e582b748472"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day57908:18—Day58007:04"
+summary: >-
+  Day57908:18松桥首层母亲核现款只到Day58012点，甲乙两箱和现行甲卡新乙卡原位，下期仅询房未锁房。09:12责任岗提福源首层或松桥续住，10:47福源承认正门两级台阶和侧送货口夜间条件未核，11:07只有“方案已反馈”无实款或可行路线，11:29依住户要求更正分栏并留有16点具名答复。12:21母亲亲见福源正门两级台阶、窄金属条非有效坡道，侧送货口22:30后落卷帘且后侧有周转箱，本户夜间独立通行不能保证；13:43从本次可立即执行名单转为条件待核，未付费发卡入住搬箱。15:36住宿岗向松桥原首层两晚发支付指令，15:57商户未收，16:19商户真收到Day58012—Day58212连续两晚款，原房号未变、甲乙箱不动；16:38收限项真实账款答复，不签旧屋返住或全案结清，不声称Day580新期卡权已通过。晓漫工作后带饭团豆浆共饭，20:46母亲向夏宁周衡梁策只限项报当代住宿与旧屋未修。Day58007:04松桥商户新两晚真款已到但新期甲与换发新乙两卡房门、夜侧门待切期实际复验。仁合里四楼仍锁闭、旧12厘米观察口与亡夫饰板双封、受水电路隔离、Day536撤清运、整屋禁返住；Day577约11cm右下动态接触和Day578上约3mm右下不足2mm静态读数不能证现装或根因；桥北本人368元Day571已真返，F014旧联系人旧信旧押金、七号铁角箱五楼漏源及2019原卷无新跨源证。
+meaningful_state_changes:
+  - "Day57916:19松桥商户真实收到Day58012到Day58212原首层同房两晚款，甲乙箱不搬，新期门卡和夜门待实测。"
+  - "福源首层却存在两级台阶及夜间送货口卷帘，本户不符合即时可执行通行要求，备选有源转条件待核。"
+knowledge_updates:
+  - "母亲已亲见福源入口并确认松桥新款真正入账，不把指令当付款、白天可走当夜间可独立通行。"
+  - "晓漫仅得当代限项实付房期和未搬迁信息，夜间中心只获住户20:46本人限报，不读旧私人盘。"
+relationship_updates:
+  - "晓漫保持正常工作并带饭团豆浆与母亲吃饭，不代母亲勾入住或旧屋修复结案。"
+  - "松桥主管只认商户真实款项，住宿岗将已反馈与实际交付分栏并具名纠错。"
+foreshadowing_updates:
+  - "Day58012切期后须逐张实际测试甲、新乙房门及夜间侧门，不能沿用Day576旧期结果。"
+  - "旧屋现门型号及触框根因、F014历史旧号旧信旧押金全渠道真实返款、七号箱五楼漏源2019卷仍未知。"
+ending_state: "Day58007:04松桥首层甲乙双箱、现行甲和新乙卡原位，商户已真收连续两晚到Day58212；新期房门夜门未测；福源本次未执行，旧四楼双封隔离禁返住和Day536撤清运持续，桥北368元已返且F014/2019旧证未明。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "b324d7132789142fb57be1baaed7db66133cb6a5", final_draft_sha: "b324d7132789142fb57be1baaed7db66133cb6a5", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3463
