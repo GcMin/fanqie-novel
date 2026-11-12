@@ -5,9 +5,9 @@
 - arc: ARC-054
 - status: planned
 - depends_on_chapter: 718
-- depends_on_source_sha: 40ddc4d0085c53ed39c69f487536254a4d26c5b0
-- dependency_status: provisional
-- source_boundary: 仅以main中第718章尚未审核的draft版本（完整Git Blob SHA 40ddc4d0085c53ed39c69f487536254a4d26c5b0）作为临时衔接；Day581白夜安防段启和任小勇仅实际核其当班条件与走位，非跨日执行保障。松桥Day57916:19实付房费仅覆盖到Day58212点；原首层甲乙箱及甲、新乙两卡原位，仁合里旧门没有第二次开。
+- depends_on_source_sha: dabe9f34470b177fb0460d952a2a56bc99ba17a1
+- dependency_status: verified_ready_compatible_body
+- source_boundary: 第718章原Draft `40ddc4d0085c53ed39c69f487536254a4d26c5b0` 与正式Ready `dabe9f34470b177fb0460d952a2a56bc99ba17a1` 的小说正文逐字一致，仅Front Matter交付状态变化；本章依赖Day581白夜安防仅当次实地预核、松桥已付款到Day58212、旧门没有第二次打开的关键事实均完全兼容。
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
 - writer_scope: Planner + Continuity Precheck + Writer only
@@ -32,5 +32,5 @@
 - 伏笔：现门型号/右下触框根因、五楼漏源、七号箱、F014旧号旧信旧押金全渠道、2019旧卷都不凭本次住宿与当代岗位核验升级。
 - 不可泄露：妹妹自持私人裂盘JZ4及第三方许可仍未解决；桥北368元Day571已实际退还，不能混为旧押金或本次新房费。
 - 结尾承接：Day58307:05松桥北廊新房有真实住宿凭据与双卡测试，房期至Day58412；旧四楼再次动态查验需新的具名班次、专业条件和住户限项授权。
-- Continuity Precheck: 第718章main仍处draft、源SHA=40ddc4d0085c53ed39c69f487536254a4d26c5b0，故dependency_status=provisional，不提升为Canon；本稿若后续718修改，需独立Audit核对Day581白夜实际到场、Day58212房费到期和未再开旧门事实。本章新发生的住宿付款/转房不倒填第718章。
+- Continuity Precheck: 第718章已迁main ready，原临时Draft `40ddc4d0085c53ed39c69f487536254a4d26c5b0` 与Ready `dabe9f34470b177fb0460d952a2a56bc99ba17a1` 正文完全一致；当前只修改依赖元数据及章纲，不修改719小说正文。Day582新住宿入账与转房属于本章新事实，不倒填718。
 - 正文有效字符: 3347（去除空白及独立场景分隔符）
