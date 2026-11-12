@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 706
+title: "新住处有一扇不在图上的侧门"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "bc64b8b1e36285381b8ea101e6801a0235686cd8"
+source_draft_sha: "78bca375568ac162a9d7366e53e085cf335024c7"
+initial_reader_review: "reader_reviews/0706_bc64b8b1.md"
+reader_review: "reader_reviews/0706_78bca375.md"
+depends_on_chapter: 705
+depends_on_source_sha: "61423f7ed4cb11d922438e4cfd8d8d85f5b8d373"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day56908:23—Day57007:05"
+summary: >-
+  Day56908:23桥北行舍首层旧房甲乙两箱两卡在，Day56810:08母亲自己真正支付368元仅到Day56912点，21:16两卡夜门已真开，个人垫付费用仍待核没有退款。早上另统计页错误写居民自行续住需求已满足，08:46母亲追责任岗，09:27晓漫单位来电愿请假但母亲让她先工作；母亲直接向松桥客舍核首层房、正门三级台阶、侧通道夜门和商户还未收款。10:04只得拟转住与具名司机，10:37松桥商户才真正收到物业责任单位Day56912点至Day57612点七晚款，确认非付款指令；11:27桥北最终本人368元收据不曾退款，11:43旧房清点退房、甲乙两箱交具名司机，仅搬当代行李。12:21到松桥亲走侧坡、见排水沟和转角绿植堵路并请客舍当班主管留下保持净空记录；12:42首层房实际入住、甲乙双卡分别打开房门，两箱转移，不等于从旧四楼清运。14:06发现个人368元又被另一费用表误并作安置方支出，15:12取得本人先付待核与责任单位松桥七晚实付两段有源分项纠正，未核销/退款。晓漫20:58下班探访，21:12两卡分别在九点后实际打开松桥夜间侧门并再次核房门，21:39母亲仅向夏宁周衡梁策限报当代新住及旧屋禁返住。Day57007:05松桥首层两箱两卡在且真正已付至Day57612，个人368元仍待核；四楼旧12厘米观察口和亡夫饰板分别封存、客厅一路有限照明其余受水电隔离、Day536撤清运持续整屋禁返住，穆师傅只门外观察未室内复核；五楼漏源、七号旧铁角箱、F014旧号通知押金及2019旧卷无新跨源证明。
+meaningful_state_changes:
+  - "Day56910:37松桥商户真正收到责任单位七晚款至Day57612；11:43桥北退房、12:42甲乙箱转新首层、两卡房门实开、21:12夜侧门双卡实际真开。"
+  - "Day56915:12本人368元先行垫付与单位松桥七晚实付被有源分项更正，不发生银行退款或责任终结。"
+knowledge_updates:
+  - "母亲和晓漫知道新客舍付款/实际通行及368元费用待核；夜间中心三人仅从本人限项告知新住与旧屋仍禁返住，不知私人历史或旧屋室内安全。"
+  - "妹妹仍只保管裂盘硬盒，不读取JZ4箱边或备份；F014旧年本人收信、旧号初源和历史押金实际末端退付仍未知。"
+relationship_updates:
+  - "母亲让晓漫先交单位汇总、由物业具名司机搬箱，晓漫下班再探访且帮助夜侧门核验，不代母亲签工程或费用结案。"
+foreshadowing_updates:
+  - "新住七晚到Day57612点暂缓住房危机，但本人368元退款及旧四楼门体接触式核验专业范围仍未定；F014历史旧年源链、七号箱、五楼旧漏源与2019仍待证。"
+ending_state: "Day57007:05松桥首层甲乙两箱两卡在，物业已向商户真付至Day57612点且两卡夜侧门实开，本人桥北368元待费用核定未退款；仁合里四楼闭锁双封、受水电路隔离禁返住、Day536撤清运不复。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "bc64b8b1e36285381b8ea101e6801a0235686cd8", final_draft_sha: "78bca375568ac162a9d7366e53e085cf335024c7", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "predecessor_ready_blob_rebind_and_effective_count_3729_to_3744"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3744

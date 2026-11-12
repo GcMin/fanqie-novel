@@ -8764,3 +8764,26 @@ combined_audit_chapter_705_20261112:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_706_20261112:
+  chapter: 706
+  title: "新住处有一扇不在图上的侧门"
+  original_source_sha: "bc64b8b1e36285381b8ea101e6801a0235686cd8"
+  source_sha: "78bca375568ac162a9d7366e53e085cf335024c7"
+  initial_review_path: "reader_reviews/0706_bc64b8b1.md"
+  review_path: "reader_reviews/0706_78bca375.md"
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  reason: predecessor_705_ready_sha_rebind_and_correct_3744_count
+  predecessor_original_sha: "b99bfb63f8f41830b958646d6cc79a3079c5aa8f"
+  predecessor_ready_sha: "61423f7ed4cb11d922438e4cfd8d8d85f5b8d373"
+  predecessor_fact_delta: "705原稿与正式Ready仅删除无关玻璃门外路人镜头20字，368元自付Day56912到期和夜间双卡实开及旧屋禁返住不变"
+  dependency_status: verified_ready_compatible_body
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main

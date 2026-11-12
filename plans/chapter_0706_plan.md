@@ -5,12 +5,12 @@
 - arc: ARC-054
 - status: planned
 - depends_on_chapter: 705
-- depends_on_source_sha: b99bfb63f8f41830b958646d6cc79a3079c5aa8f
-- dependency_status: provisional
-- source_boundary: 第705章在main仅为未审核draft，Git Blob b99bfb63f8f41830b958646d6cc79a3079c5aa8f；仅临时参考Day568本人368元真实支付桥北同首层Day56812点—Day56912点、两卡夜门真开、费用待核未退款、仁合里禁返住。前章将来修订若改变关键事实须独立Audit核对，本章不得将draft视为Canon。
+- depends_on_source_sha: 61423f7ed4cb11d922438e4cfd8d8d85f5b8d373
+- dependency_status: verified_ready_compatible_body
+- source_boundary: 第705章原临时Draft Git Blob b99bfb63f8f41830b958646d6cc79a3079c5aa8f 已与正式Ready Blob 61423f7ed4cb11d922438e4cfd8d8d85f5b8d373 逐段比较，唯一正文变动为删除20有效字的无关玻璃门过镜；Day568本人368元真付Day56812点—Day56912点、双卡夜门真开、个人垫付待核未退款、仁合里禁返住事实一致，故本章依赖重绑正式Ready。
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
-- actual_first_draft_effective_chars: 3729
+- actual_first_draft_effective_chars: 3744
 
 ## Planner
 - 目标：在Day569中午临住房实际到期时结束逐日抢付的被动局面，完成真正可使用的七晚转住与夜间出入验证，同时独立保住本人此前368元的费用核定权。
@@ -28,7 +28,7 @@
 6. 21:12甲乙卡逐张通过新客舍侧门夜间真实门禁测试，21:39母亲仅向夏宁周衡梁策限项通报住房执行与旧屋不变；Day57007:05新住期至Day576中午，个人垫付款待核，转回门体后续安全方案。
 
 ## Continuity Precheck
-- 前章705为临时草稿，精确依赖 b99bfb63f8f41830b958646d6cc79a3079c5aa8f；本章不得据其“费用待核”认定审核通过、责任承担或返款。昨本人368元Day56812—Day56912与本日责任单位付款Day56912—Day57612严格无重叠；新客舍商户真收不得倒写进桥北酒店。
+- 前章705现已正式Ready，精确依赖 61423f7ed4cb11d922438e4cfd8d8d85f5b8d373，原临时稿仅删除20字不相干路人镜头且关键事实兼容；本章不得据其“费用待核”认定审核通过、责任承担或返款。昨本人368元Day56812—Day56912与本日责任单位付款Day56912—Day57612严格无重叠；新客舍商户真收不得倒写进桥北酒店。
 - Day567穆师傅仅闭门门外看外胶边、擦漆和漆边断口，不曾开门/剪胶/量内侧/定因；不从入住新客舍推老屋已经修好。
 - 仁合里四楼旧12cm观察口与亡夫饰板分别封存、客厅一路照明有限其余受水电路隔离、Day536撤清运持续、整屋禁返住；五楼旧漏源、七号铁角木箱实际今物、F014历史旧联系号旧年本人收信旧押金全部渠道实退与2019 F003/F008/M004/M005均无跨源新证。
 - 晓漫白天工作不代母亲签准入；妹妹裂口旧盘硬盒自持，不上电、备份、打开JZ4箱边或让第三人历史授权被补签；中心三人只从母亲得到当代授权公事。

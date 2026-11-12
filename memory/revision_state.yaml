@@ -7775,3 +7775,20 @@ combined_audit_chapter_705_20261112:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_706_20261112:
+  chapter: 706
+  title: "新住处有一扇不在图上的侧门"
+  source_before: "bc64b8b1e36285381b8ea101e6801a0235686cd8"
+  source_after: "78bca375568ac162a9d7366e53e085cf335024c7"
+  initial_review: reader_reviews/0706_bc64b8b1.md
+  final_review: reader_reviews/0706_78bca375.md
+  stage: local_revision_metadata_only
+  stage_a_rounds: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  fix: "重绑第705章正式Ready Blob及核前章仅删20字路人过镜无关键事实变化；重计第706章实际有效正文3744而非3729，小说正文不改"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
