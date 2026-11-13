@@ -1,7 +1,7 @@
 ---
 schema_version: 1
 chapter: 726
-title: "附页的去处写在另一张交接单上"
+title: "封套找到了，附页还没见到"
 volume: 6
 arc: ARC-054
 status: draft
@@ -9,11 +9,11 @@ qa: pending
 approved_at: null
 publish_mode: draft
 depends_on_chapter: 725
-depends_on_source_sha: "925a12a65781faac664720ae36e5931c33d7a1ae"
-dependency_status: provisional
+depends_on_source_sha: "c6027d67d0ed8395c9d620248a15f06d055f83c4"
+dependency_status: verified_ready_compatible_body
 ---
 
-# 第726章详细章纲：《附页的去处写在另一张交接单上》
+# 第726章详细章纲：《封套找到了，附页还没见到》
 
 ## Planner
 - 目标：把第725章仅受理的本户固定框配货与交付附件查询推进至实有流转记录与现保管人，拒绝把移交封套等于内页内容、历史配货等于现装。
@@ -34,7 +34,7 @@ dependency_status: provisional
 - 目标字数：2600—3400有效字符，硬限2300—3800；本章初稿实数3014。
 
 ## Continuity Precheck
-- 前章725还在main的chapters/draft/0725.md，为待审草稿，完整Git Blob SHA 925a12a65781faac664720ae36e5931c33d7a1ae；depends_on_chapter: 725，depends_on_source_sha记录该SHA，dependency_status: provisional；只作临时连续性参考，绝不确认为正式Canon。
+- 前章725已进入main的chapters/ready/0725.md，正式Ready Git Blob SHA c6027d67d0ed8395c9d620248a15f06d055f83c4；depends_on_chapter: 725，depends_on_source_sha记录该SHA，dependency_status: verified_ready_compatible_body；已逐字比较原Draft与Ready小说正文相同，唯Front Matter交付元数据变化，可按正式前章事实衔接。
 - 时序：前章结束Day58907:06，本章Day58908:23至Day59007:05；Day59112之后无新真钱。
 - 事实：LJ-FR-2406是现时门外固定框有限可见刻码，2406为图纸版次；B-17是另一个档案转库批次，不推任何完整尾码、生产月份或现装总门型。
 - 人物与权限：母亲仅核本户已许可的索引和流转；二库保管员只核外封位置不启封；晓漫只知母亲限项转述；中心三人仅晚间本人回拨后知道当日确证内容。
@@ -43,3 +43,8 @@ dependency_status: provisional
 
 ## Writer
 仅新建本章计划与草稿，不做Editor、Reader、Revision、QA、Memory、Publish Gate或平台发布。
+
+## Audit Stage A（2026-11-13）
+- 初始Reader针对原草稿 `8c3fa502d9ff6b28cf685636fa5c783ae1a8c8b4` 判定标题误称已找出附页去处；本章只能证实B-17分册转库登记及二库外封标签与柜位，未见内页，故将章名收窄为《封套找到了，附页还没见到》，不改小说正文。
+- 前章725原Draft `925a12a65781faac664720ae36e5931c33d7a1ae` 与正式Ready `c6027d67d0ed8395c9d620248a15f06d055f83c4` 小说正文逐字一致，只有Front Matter交付元数据变化；本章及章纲依赖已重绑正式Ready。
+- 新草稿必须按更新后的Git Blob SHA重新独立Reader双遍审核，旧Review不可用于放行。
