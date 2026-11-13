@@ -1,7 +1,7 @@
 ---
 schema_version: 1
 chapter: 740
-title: "旧号码有人接，却没人能上四楼"
+title: "旧短号接通的是物资库"
 volume: 6
 arc: "ARC-054"
 status: planned
@@ -9,16 +9,16 @@ qa: pending
 approved_at: null
 publish_mode: draft
 depends_on_chapter: 739
-depends_on_source_sha: "58b49281de50f32ce743109a8578c4b854e12aab"
-dependency_status: provisional
+depends_on_source_sha: "078e96e85c3d1055b31868aee6e6c135e2a7c213"
+dependency_status: verified_ready_compatible_body
 ---
 
-# 第740章详细章纲：《旧号码有人接，却没人能上四楼》
+# 第740章详细章纲：《旧短号接通的是物资库》
 
 ## Planner
 - 目标：在Day603验证仁合里四楼旧门“失锁接管预案”的真实电话链。由Day602已做的限时闭门交接切入，揭示旧候选短号实转物资库，依授权修正本户联络指引、完成日夜各一次有限联系及具名到场核验；不能代替未来试开门所需的持续守门和替岗。
 - POV：晓漫母亲的近距离第三人称。夜间中心仅在Day60321:21本人限项回拨后得知当日事实；晓漫保留自己的工作与生活，不代签工程。
-- 开场：Day60307:35松桥西廊原房甲乙双箱、双卡、青白碗，住宿七晚商户实付至Day60512:00；前章Day602原双人拟排被撤，13:46—15:08闭门交接实做但不等于完整失锁保障。前章只是draft，具体事实临时依赖其blob，非正式Canon。
+- 开场：Day60307:35松桥西廊原房甲乙双箱、双卡、青白碗，住宿七晚商户实付至Day60512:00；前章Day602原双人拟排被撤，13:46—15:08闭门交接实做但不等于完整失锁保障。前章739已正式Ready，已逐字比较其旧Draft与最终Ready正文相同，仅标题和交付Front Matter变化；本章精确依赖正式Ready。
 - 角色诉求：母亲要求书面分开“能拨通、有人接、能调度、实际到场、持续守候”；林工防止系统完成状态误推开门；物业主管找出可用的合法当班联系链；晓漫关心母亲人身行程而非替她控制旧屋。
 - 冲突：提示自动把限时核对误标全面保障；旧预案短号能接通却指向物资库，不具持续守门或失锁调配职权。临时修正既不能绕过值班调度，也不能冒写未来安全许可。
 - Beat 1：07:35母亲收到无依据“现场保障完成”提示不确认；09:17有责更正为Day602限时闭门交接完成，今后保障待核。
@@ -34,5 +34,5 @@ dependency_status: provisional
 ## Continuity Precheck
 - 使用GitHub main基线 05e017ed1a2b9e19d8a908fa81cd400a66dc3d64 读取AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md，Bible核心与三主角人物卡、现存volume_05和arc_current（历史内容显著滞后，不覆盖卷六ARC-054的近期已成文事实）、current_arc及人物/关系/知识/世界状态、伏笔和时间线、最近十章0730—0739的可用摘要（0739尚无摘要）、最近五章0735—0739正文、0739章纲及chapter_plan.csv末行。未读取历史reader_reviews。
 - published目录第153章已实际存在，published最高159、ready最高738、draft最高739；0740此前不存在，且新章从739继续。
-- 第739章仍在chapters/draft/0739.md，Git blob 58b49281de50f32ce743109a8578c4b854e12aab，仅临时来源；depends_on_chapter: 739、depends_on_source_sha: 58b49281de50f32ce743109a8578c4b854e12aab、dependency_status: provisional。前章的Day602时段交接在本稿仅作为待审核事实，不固化为Canon；若Audit后来修订739，须由独立Audit核对740。
+- 739正式Ready Git blob 078e96e85c3d1055b31868aee6e6c135e2a7c213，原Draft 58b49281de50f32ce743109a8578c4b854e12aab小说正文逐字相同，只有标题和Front Matter元数据不同；740依赖已由独立Audit重绑正式Ready并重新完成SHA双遍Reader。
 - 只执行Planner、Continuity Precheck、Writer；仅新建chapter_0740_plan.md与draft/0740.md，不做Reader、Revision、QA、Memory、ready、published或平台发布。

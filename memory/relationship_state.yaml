@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 739
+last_updated_chapter: 740
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4044,3 +4044,10 @@ chapter_739_arc054:
   mother_daughter: "母亲提前告晓漫仅去仁合里四楼公区，女儿照常上班、带办公室树影照共餐，继续不代签。"
   family: "亡夫饰板继续独封，妹妹JZ4私人盘与他户档案不因本次核人扩权。"
   professional: "母亲拒虚签，何启董明实说班次，主管有责撤误名单，何启马闻真交班但未来完整保障未获承诺，中心只收本人有限夜报。"
+
+chapter_740_arc054:
+  chapter: 740
+  source_sha: "d9b8a9530669b7ca54768e562642a731add88bde"
+  mother_daughter: "晓漫照常下班视频问母亲午饭，买烤红薯共吃并查照片树名，两个软件结果不一不胡乱定论；母亲仍会事先告知未来真实开门安排。"
+  family: "亡夫旧饰板仍独封，妹妹JZ4私人裂盘及他户资料不随公区通讯核验扩权。"
+  professional: "母亲要求林工和物业分清接听转接现场到人和持续值守，主管有责撤本户候选旧短号并日夜真实到场核验，中心只在本人限项夜报后获知。"

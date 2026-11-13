@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 740
+title: "旧短号接通的是物资库"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "335b8092f47d68a6e3e3687cc6af6e286fbd8989"
+source_draft_sha: "d9b8a9530669b7ca54768e562642a731add88bde"
+initial_reader_review: "reader_reviews/0740_335b8092.md"
+reader_review: "reader_reviews/0740_d9b8a953.md"
+depends_on_chapter: 739
+depends_on_source_sha: "078e96e85c3d1055b31868aee6e6c135e2a7c213"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day60307:35—Day60407:10"
+summary: >-
+  Day60307:35松桥客舍西廊原房甲乙双箱双卡青白碗在，商户实收至Day60512。739章Day602原双人虚拟拟排作废、13:46—15:08只真实完成一次闭门限定交接而不构成未来失锁保障。本日系统又把该短段误标“现场保障事项已完成”，母亲拒勾；09:17林工依有源旧版撤总绿字改为仅限时交接完成。10:24本户四楼公区授权真实拨旧预案短号，实际接物资库、转接控制室虽能传话却不能直接派具名接管人，11:07分三层留痕。11:48主管查出Day581旧秩序组曾借中继分机，后路由改版旧附件未改；有权保留旧版、撤旧号候选而现行控制室接警及秩序主管派人并分开职责。14:46日班从四楼真拨现行控制室，15:02具名派人现场到四楼；18:11夜班交接后18:27本时段真拨，18:43具名人员到四楼随后回原岗。19:08本户限定新联络指引正式发布，旧号候选废止而未来完整守门班次仍未落实。晓漫正常工作后带烤红薯，母女谈照片树名，21:21母亲本人限项回报夏宁周衡梁策。Day60407:10松桥西廊原房双箱双卡真钱至Day60512；仁合里旧四楼门闭锁12cm口及亡夫饰板分封、受水电隔离Day536撤清运禁返住，C-09/R-12末签、现门型Day577擦响根因及F014旧号旧信旧押金七号箱五楼漏源2019无新跨源证。
+meaningful_state_changes:
+  - "旧本户失锁预案短号实际拨到物资库且不具派人职权，有源查改版路由、撤错误候选并留来源。"
+  - "本户日夜两班各一次现行控制室接警和具名到四楼真测通过，仍不构成未来整班失锁持续值守。"
+knowledge_updates:
+  - "母亲知道电话能接通、正确转达、主管派人、实际到场及持续守门是不同验证层级；旧短号误接物资库。"
+  - "夜间中心三人仅Day60321:21本人授权限报后知，晓漫不代签不接他户或妹妹JZ4私盘。"
+relationship_updates:
+  - "晓漫下班买烤红薯陪母亲聊照片树名，母亲不要求她跑工程或代签。"
+foreshadowing_updates:
+  - "未来实际开门仍须特定时段具名整班持续看守替岗、门体电气建筑安全与母亲新许可，历史C-09/R-12及F014未证。"
+ending_state: "Day60407:10松桥西廊原房双箱双卡商户真钱至Day60512；旧门双封隔离禁返住，旧短号候选已废、日夜当次联络各有源成功但未来失锁整班无签领。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "335b8092f47d68a6e3e3687cc6af6e286fbd8989", final_draft_sha: "d9b8a9530669b7ca54768e562642a731add88bde", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: title_scope_and_predecessor_ready_SHA_rebind_body_unchanged}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3741
