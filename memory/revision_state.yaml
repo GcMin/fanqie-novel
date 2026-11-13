@@ -1,18 +1,18 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 734
-current_stage: chapter734_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0734.md
-current_source_sha: a26dbd6c8531e7643f8efe4777f985872a7b3628
-current_review_path: reader_reviews/0734_a26dbd6c.md
+current_chapter: 735
+current_stage: chapter735_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0735.md
+current_source_sha: ba19cc0d243e1d0be97d2bd5dabf9743de3829d4
+current_review_path: reader_reviews/0735_ba19cc0d.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter734_stage_a_prev_sha_rebind_and_dialogue_local_fix_new_sha_reader_qa_pass
+last_action: chapter735_reader_qa_pass_no_revision
 last_action_date: "2026-11-13"
 last_error: null
 last_diff_summary: "734原稿依赖733旧Draft且晓漫视频对白带子指代断裂，Stage A重绑733正式Ready且正文只修一处问句，733前后正文逐字相同；新SHA重做Pass A/B 0/0/2和独立QA通过，须精确候选CI才可放行。"
@@ -8250,5 +8250,22 @@ combined_audit_chapter_734_20261113:
   predecessor_draft_sha: "c519d85fcf209dc3f4c1b0df2c1ff5042635d2ad"
   predecessor_ready_sha: "6ac07486336f9dd9d8b4971e828838406ea13f4e"
   predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_735_20261113:
+  chapter: 735
+  source_before: "ba19cc0d243e1d0be97d2bd5dabf9743de3829d4"
+  source_after: "ba19cc0d243e1d0be97d2bd5dabf9743de3829d4"
+  changes: none
+  current_review: "reader_reviews/0735_ba19cc0d.md"
+  counts_before: {blocker: 0, major: 0, minor: 2}
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "ec0f346dd3cb513ab4126dec9442e1637aef10cc"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

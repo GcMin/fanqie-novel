@@ -1,11 +1,11 @@
 schema_version: 1
-last_reviewed_chapter: 734
-last_reviewed_title: "两只箱子这回不用搬"
-last_source_path: chapters/draft/0734.md
-last_source_sha: a26dbd6c8531e7643f8efe4777f985872a7b3628
-last_review_path: reader_reviews/0734_a26dbd6c.md
+last_reviewed_chapter: 735
+last_reviewed_title: "夜侧门不认七晚的房钱"
+last_source_path: chapters/draft/0735.md
+last_source_sha: ba19cc0d243e1d0be97d2bd5dabf9743de3829d4
+last_review_path: reader_reviews/0735_ba19cc0d.md
 last_reviewed_at: "2026-11-13"
-reviewer_mode: combined_audit_independent_pass_a_then_b_post_revision
+reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
 required_action: none
 blocker_count: 0
@@ -9264,6 +9264,22 @@ combined_audit_chapter_734_20261113:
   predecessor_draft_sha: "c519d85fcf209dc3f4c1b0df2c1ff5042635d2ad"
   predecessor_ready_sha: "6ac07486336f9dd9d8b4971e828838406ea13f4e"
   predecessor_fact_delta: body_identical_metadata_only
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_735_20261113:
+  chapter: 735
+  title: "夜侧门不认七晚的房钱"
+  original_source_sha: "ba19cc0d243e1d0be97d2bd5dabf9743de3829d4"
+  source_sha: "ba19cc0d243e1d0be97d2bd5dabf9743de3829d4"
+  current_review_path: "reader_reviews/0735_ba19cc0d.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "ec0f346dd3cb513ab4126dec9442e1637aef10cc"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

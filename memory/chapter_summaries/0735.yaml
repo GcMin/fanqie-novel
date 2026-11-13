@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 735
+title: "夜侧门不认七晚的房钱"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "ba19cc0d243e1d0be97d2bd5dabf9743de3829d4"
+source_draft_sha: "ba19cc0d243e1d0be97d2bd5dabf9743de3829d4"
+reader_review: "reader_reviews/0735_ba19cc0d.md"
+depends_on_chapter: 734
+depends_on_source_sha: "ec0f346dd3cb513ab4126dec9442e1637aef10cc"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day59807:29—Day59907:08"
+summary: >-
+  Day59807:29松桥西廊首层原房甲乙箱双卡与青白碗在，Day59716:26商户已真收Day59812至Day60512七晚款，新期权限尚待真实测试。08:08母亲不允许用旧期能开提前勾已验，12:06新期双卡分别真开客房门。13:17仁合里工程试拟Day600再开旧门而失锁持续守门替岗仍未落实，赵班长只是流动接警，母亲拒预签及交钥匙。21:03两张卡在夜侧门夜间模式均红灯，独立门禁组待下发，值守正门仍是可走替代路线；21:28有权维护员重推组，21:39两张卡各自真实开夜侧门并复位，失败和修复复验分别留痕，不把当次成功推未来永久。晓漫正常和同事爬山并报平安，母亲自行买菜做饭；22:26母亲按本人授权限项报告夏宁周衡梁策，不涉他户或妹妹JZ4私人盘。Day59907:08双箱未搬、实款至Day60512，新期客房门与夜门双卡均有本次成功实测；仁合里四楼闭锁双封、受水电隔离Day536撤清运及禁返住持续，C-09/R-12最终复核、现门型号及Day577根因、F014旧号旧信旧押金与七号箱五楼漏源2019无跨源新证。
+meaningful_state_changes:
+  - "新期客房门双卡分别实开，夜侧门双卡先拒绝、21:28专业重推后21:39双卡各实开及复位。"
+  - "两次失败、正门值守替代、维护重推和双卡实测分别留痕，未来有效性不预断。"
+  - "仁合里再开门拟排无持续守门和具名替岗，母亲不预签旧门许可。"
+knowledge_updates:
+  - "母亲知道真款、房门卡与夜侧门组是不同来源，本次失败后修正成功也不保未来。"
+  - "晓漫只经母亲限项消息获知，夜间中心22:26本人回拨才获当日事实。"
+relationship_updates:
+  - "母亲自己办卡做饭，晓漫照同事爬山计划生活并报平安，不代签或代办。"
+foreshadowing_updates:
+  - "新住期夜侧门权限曾漏发但本次专业修正，不保证未来每班；旧屋失锁接管与另次住户许可仍待证。"
+  - "C-09/R-12末签、LJ-FR完整尾码及Day577根因、F014旧号旧信旧押金及七号箱五楼旧漏源2019无跨源新证。"
+ending_state: "Day59907:08松桥西廊原房双箱双卡在，七晚真款至Day60512，客房及夜门均有新期双卡真开记录，夜门曾失败且留痕；旧四楼双封受水电隔离禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ba19cc0d243e1d0be97d2bd5dabf9743de3829d4", final_draft_sha: "ba19cc0d243e1d0be97d2bd5dabf9743de3829d4", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3250
