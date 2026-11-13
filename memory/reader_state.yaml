@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 729
-last_reviewed_title: "那张回签页留着一个空格"
-last_source_path: chapters/draft/0729.md
-last_source_sha: d267b904addb8e5e7b45b040cac293ed144988b1
-last_review_path: reader_reviews/0729_d267b904.md
+last_reviewed_chapter: 730
+last_reviewed_title: "旧调整单也记着右下接触"
+last_source_path: chapters/draft/0730.md
+last_source_sha: 173b6fc7ae72540fa760a060f1c246b31401fac8
+last_review_path: reader_reviews/0730_173b6fc7.md
 last_reviewed_at: "2026-11-13"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 728
-depends_on_source_sha: 856627801333696380aa5fc0dbcb430bf478490c
+depends_on_chapter: 729
+depends_on_source_sha: 1d0a6e34e4c5a86063f2b6c212e09a9bc22589c3
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 856627801333696380aa5fc0dbcb430bf478490c
+predecessor_current_source_sha: 1d0a6e34e4c5a86063f2b6c212e09a9bc22589c3
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -9175,5 +9175,24 @@ combined_audit_chapter_729_20261113:
   predecessor_ready_sha: "856627801333696380aa5fc0dbcb430bf478490c"
   predecessor_body_identical: true
   dependency_status: verified_ready_compatible_body
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_730_20261113:
+  chapter: 730
+  title: "旧调整单也记着右下接触"
+  original_source_sha: "7af3faaa2f226a1b71406b868583a53d10497d5a"
+  source_sha: "173b6fc7ae72540fa760a060f1c246b31401fac8"
+  initial_review_path: reader_reviews/0730_7af3faaa.md
+  review_path: reader_reviews/0730_173b6fc7.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_ready_sha: "1d0a6e34e4c5a86063f2b6c212e09a9bc22589c3"
+  predecessor_fact_delta: exact_ready_reference_no_old_sha_delta
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

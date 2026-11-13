@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 730
+title: "旧调整单也记着右下接触"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "7af3faaa2f226a1b71406b868583a53d10497d5a"
+source_draft_sha: "173b6fc7ae72540fa760a060f1c246b31401fac8"
+initial_reader_review: reader_reviews/0730_7af3faaa.md
+reader_review: reader_reviews/0730_173b6fc7.md
+depends_on_chapter: 729
+depends_on_source_sha: "1d0a6e34e4c5a86063f2b6c212e09a9bc22589c3"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day59308:26—Day59407:09"
+summary: >-
+  Day59308:26松桥东廊首层甲乙箱与新甲及换发新乙卡仍在，Day59111:41商户三晚真钱止Day59412，旧北廊已真退。C-09真册43页本户甲配置工班工序有据但最终复核回签空且写待收回件。10:04查封底追踪方章，11:12旧退补件登记找到R-12索引但未见实物；13:46确认另一工程盒现存同号，14:22双岗依法真实核本户旧工序调整单，记录历史门扇关合偏紧、右下边缘与框体接触及工班自记合页微调完成，末栏最终复核依旧缺签；14:58母亲真正取得本户有限摘录。15:47联络员曾拟照旧单配同类合页，被穆师傅阻止，旧右下文字不等于Day577现门约11厘米动态擦响同因或现装件。旧四楼双封锁闭、受水电隔离、Day536撤清运及整屋禁返住持续无开门派工。16:23住宿新三晚仅受理无商户真钱、房间预留、二楼实走核验；晓漫下班带馄饨共餐谈帆布包黑线，20:52母亲本人限项报夏宁周衡梁策。Day59407:09东廊双箱双卡仍在、现行真款只到当日12，旧号旧信旧押金全渠道、七号箱五楼旧漏源2019无跨源新增证。
+meaningful_state_changes:
+  - "R-12旧退补件索引升级为双岗合法有源历史工班调整真页和有限摘录，历史右下接触有源但最终复核未见。"
+  - "Day59412东廊住宿到期前，新三晚只受理、真款及可交房间未落实。"
+knowledge_updates:
+  - "母亲知历史R-12右下接触与旧工班自记微调，不知最终复核是否另存、现在实装门型及Day577卡阻根因。"
+  - "晓漫仅听自愿讲述，夏宁周衡梁策20:52才获本人限项当代证据，无他户与JZ4私盘。"
+relationship_updates:
+  - "晓漫正常工作后带馄饨，母女谈补包黑线；女儿不代签工程或垫住宿费。"
+foreshadowing_updates:
+  - "R-12调整完成不能替代C-09最终复核，历史后续签页、现装完整码和真实维修史待证。"
+  - "F014历史旧号旧信旧押金全渠道、七号箱五楼旧漏源及2019卷仍无跨源新证。"
+ending_state: "Day59407:09东廊两箱双卡在、真款只至当日12；R-12旧右下接触有源但终复核未见、今门根因未知，旧屋双封隔离禁返住不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7af3faaa2f226a1b71406b868583a53d10497d5a", final_draft_sha: "173b6fc7ae72540fa760a060f1c246b31401fac8", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "title_overclaim_corrected_body_identical"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3365

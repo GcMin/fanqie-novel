@@ -1,7 +1,7 @@
 ---
 schema_version: 1
 chapter: 730
-title: "那次擦碰写在另一张单上"
+title: "旧调整单也记着右下接触"
 volume: 6
 arc: "ARC-054"
 status: planned
@@ -13,7 +13,7 @@ depends_on_source_sha: "1d0a6e34e4c5a86063f2b6c212e09a9bc22589c3"
 dependency_status: verified_exact_ready_blob
 ---
 
-# 第730章详细章纲：《那次擦碰写在另一张单上》
+# 第730章详细章纲：《旧调整单也记着右下接触》
 
 ## Planner
 - **本章目标**：Day593从C-09真实核页后留空的“待收回件”追索有源退补件记录，实际核到本户一份历史工序调整单R-12，发现当年“右下边缘接触”的文字，但严格区分当年工班自记调整、最终复核回签、现门安全诊断；同时在Day594中午住宿到期前重新建立可执行的住房付款与交接需求。
@@ -38,3 +38,6 @@ dependency_status: verified_exact_ready_blob
 - 前章 `chapters/ready/0729.md` 为正式已审核Ready，Git Blob `1d0a6e34e4c5a86063f2b6c212e09a9bc22589c3`；`depends_on_chapter: 729`、`depends_on_source_sha: 1d0a6e34e4c5a86063f2b6c212e09a9bc22589c3`、`dependency_status: verified_exact_ready_blob`。不把R-12新增事实倒写回0729。
 - Day593开场新东廊双箱双卡与Day59412点到期，旧北廊已退；C-09当前只能证明历史实收43页与本户工序、复核缺签。查R-12须分阶段、分权限，不能用旧调整单确认现门、授权维修或解除旧屋闭锁双封、隔离、Day536撤清运/禁返住。
 - 仅创建本章的章纲与Draft，待独立Audit；不进行Reader、Editor、Revision、QA、Memory、Publish Gate，不发布平台。
+
+## 独立 Audit 校订（2026-11-13）
+- 原Draft 7af3faaa2f226a1b71406b868583a53d10497d5a 的标题可能把旧右下接触与Day577动态擦响混为同一性；Stage A仅校正标题，小说正文不变。新Draft 173b6fc7ae72540fa760a060f1c246b31401fac8 的Reader Pass A/B为0/0/2；Continuity/Style/Meaningful QA通过，结构仅以精确候选CI结果为准。

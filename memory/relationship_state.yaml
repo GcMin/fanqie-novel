@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 729
+last_updated_chapter: 730
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3976,3 +3976,10 @@ chapter_729_arc054:
   mother_daughter: "晓漫正常工作后带玉米到东廊，与母亲谈C-09回签空格不宜凭空归因，又讨论自己双色包扣；母亲不让她代签档案工程或承担住房费用。"
   family: "妹妹JZ4旧裂盘及他户资料不因本户历史装配查档扩大权限，旧亡夫饰板仍单独封存。"
   professional: "协作站文件组双岗仅对本次实物、43页及本户遮蔽核页负责，工程联络员撤旧系统完成误填，穆师傅拒以工班号和空白复核栏认定现装或派工。"
+
+chapter_730_arc054:
+  chapter: 730
+  source_sha: "173b6fc7ae72540fa760a060f1c246b31401fac8"
+  mother_daughter: "晓漫工作后带馄饨与母亲吃饭、讨论旧调整单与自己包底黑线；母亲不让她代签工程或为次期住宿垫款，彼此保留普通生活。"
+  family: "妹妹JZ4私人裂盘及邻户档案不因R-12限项核阅扩张权限；亡夫饰板仍独封。"
+  professional: "施工文件组、工程档案保管岗只在本户授权范围核旧R-12；工程联络员被穆师傅纠正误判，不以旧工班自记签今天配件或复工，住宿责任岗仍需商户真钱和真正房间交接。"
