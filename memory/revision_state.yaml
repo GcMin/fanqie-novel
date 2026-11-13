@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 743
-current_stage: chapter743_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0743.md
-current_source_sha: 86243043b1fde807cf18837851001a411e2ada67
-current_review_path: reader_reviews/0743_86243043.md
+current_chapter: 744
+current_stage: chapter744_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0744.md
+current_source_sha: 79ed65c6ae43a1d6cc69b9bac3ef7d6ead551570
+current_review_path: reader_reviews/0744_79ed65c6.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter743_reader_0_0_2_no_revision_content_qa_pass
+last_action: chapter744_stageA_two_time_fixes_prev743_rebind_reader_newSHA_0_0_2_QA_pass
 last_action_date: "2026-11-14"
 last_error: null
-last_diff_summary: "第743章原稿Reader0/0/2，未修订；742精确Ready依赖，旧图有源外传一条合作队两端停用；待结构CI。"
+last_diff_summary: "第744章原稿Reader0/2/2，Stage A改Day607时序两处、743前章重绑Ready，修订SHA79ed65c6独立Reader0/0/2，QA通过；待结构CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -8411,5 +8411,25 @@ combined_audit_chapter_743_20261114:
   body_revisions: 0
   predecessor_ready_sha: "e8331e3861aaa5dfb853813f6538b62510d49d9e"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_744_20261114:
+  chapter: 744
+  source_before: "44b7ef000546c18b6b82b9ee7441810ae654c19e"
+  source_after: "79ed65c6ae43a1d6cc69b9bac3ef7d6ead551570"
+  changes: fix_two_time_passages_and_predecessor_ready_rebind
+  initial_review: reader_reviews/0744_44b7ef00.md
+  current_review: reader_reviews/0744_79ed65c6.md
+  counts_before: {blocker: 0, major: 2, minor: 2}
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 2
+  predecessor_ready_sha: "3b61f7e63f5b57c70f1cdbe000d5e02f944d5c5c"
+  predecessor_original_draft_sha: "86243043b1fde807cf18837851001a411e2ada67"
+  predecessor_body_identical: true
+  dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
