@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 731
+title: "两只箱子先住进了行李间"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "354b7db15a34d2670051035e3c2f56f65ff913cd"
+source_draft_sha: "354b7db15a34d2670051035e3c2f56f65ff913cd"
+reader_review: "reader_reviews/0731_354b7db1.md"
+depends_on_chapter: 730
+depends_on_source_sha: "13f21f7ca4295c8e6aeb33500cfd2ec31d431c4d"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day59407:41—Day59507:11"
+summary: >-
+  Day59407:41东廊首层甲乙箱、甲与换发乙卡在，Day59111:41已真收三晚但房期仅至Day59412，次期仅需求受理；08:06客舍确认东廊12点后已被另客预订，西廊首层候选房待保洁，09:21母亲亲核西廊转角与夜侧门路线，餐车当次移走并书面约禁停但夜门卡未实测。10:02四晚保障批准只属待交待付，10:36指令未实收，11:43松桥商户真正收到Day59412—Day59812西廊首层四晚款。12:04东廊旧甲/换发乙双卡真退注销，12:14甲乙箱分别贴号具名暂存行李间，13:17保洁完毕13:27西廊新房与两箱分别真正交付，13:39西廊新甲/新乙双卡分别实际开客房门，21:17双卡分别实开夜侧门，21:43母亲限项回报夜间中心。15:31工程联络员尝试沿R-12旧工序右下接触建议调今门合页，母亲拒无据试修，只要求下次建筑/门体/电气/安防及闭锁失败接管具名方案，未授权二次开门施工。晓漫下班带黑线加固双色扣包，母女吃馄饨。Day59507:11西廊首层甲乙两箱、双新卡在，新房四晚真实到账至Day59812；仁合里旧四楼仍双封锁闭受水电隔离，Day536撤清运及整屋禁返住不变，C-09/R-12旧最终复核未见，现门型号根因未证；F014旧号旧信旧押金全渠道、七号箱五楼旧漏源2019无跨源新证。
+meaningful_state_changes:
+  - "新西廊首层四晚商户真钱到Day59812，东廊真实退卡，甲乙箱有12:14临存与13:27实交链，昼夜双卡分别当次实开。"
+  - "母亲将仁合里旧门下次另次开门前提限定为具名建筑、电气、门体、安防和失败复锁接管条件，未签许可。"
+knowledge_updates:
+  - "母亲区分批准、付款指令、商户真实入账、待清洁与实际交房；明白R-12历史工班记录不证今门合页或动态卡阻根因。"
+  - "晓漫只据母亲短信知道西廊新房及两箱交接，21:43夜间中心只由本人限报得知当代安置、旧屋禁返住。"
+relationship_updates:
+  - "晓漫正常工作后带黑线自行加固包底，与母亲共馄饨；母亲不让女儿请假搬箱或代工程签字。"
+foreshadowing_updates:
+  - "Day59812下一次住房保障时限明确；旧门另次开门仍须具名安全条件、当班签认及母亲再次授权。"
+  - "C-09/R-12最终复核回签及LJ-FR-2406尾码未证；F014旧号旧信旧押金全渠道、七号箱、五楼旧漏源及2019卷仍无跨源新证。"
+ending_state: "Day59507:11松桥西廊首层甲乙箱和新甲乙卡原位、四晚商户真钱至Day59812；东廊旧卡真注销，仁合里旧门双封隔离禁返住不变，R-12历史调整不能替代当代维修安全批准。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "354b7db15a34d2670051035e3c2f56f65ff913cd", final_draft_sha: "354b7db15a34d2670051035e3c2f56f65ff913cd", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3386

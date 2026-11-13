@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 730
-last_reviewed_title: "旧调整单也记着右下接触"
-last_source_path: chapters/draft/0730.md
-last_source_sha: 173b6fc7ae72540fa760a060f1c246b31401fac8
-last_review_path: reader_reviews/0730_173b6fc7.md
+last_reviewed_chapter: 731
+last_reviewed_title: "两只箱子先住进了行李间"
+last_source_path: chapters/draft/0731.md
+last_source_sha: 354b7db15a34d2670051035e3c2f56f65ff913cd
+last_review_path: reader_reviews/0731_354b7db1.md
 last_reviewed_at: "2026-11-13"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 729
-depends_on_source_sha: 1d0a6e34e4c5a86063f2b6c212e09a9bc22589c3
+depends_on_chapter: 730
+depends_on_source_sha: 13f21f7ca4295c8e6aeb33500cfd2ec31d431c4d
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 1d0a6e34e4c5a86063f2b6c212e09a9bc22589c3
+predecessor_current_source_sha: 13f21f7ca4295c8e6aeb33500cfd2ec31d431c4d
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -9195,4 +9195,24 @@ combined_audit_chapter_730_20261113:
   predecessor_fact_delta: exact_ready_reference_no_old_sha_delta
   dependency_status: verified_exact_ready_blob
   content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_731_20261113:
+  chapter: 731
+  title: "两只箱子先住进了行李间"
+  source_path: "chapters/draft/0731.md"
+  source_sha: "354b7db15a34d2670051035e3c2f56f65ff913cd"
+  review_path: "reader_reviews/0731_354b7db1.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  content_qa: pass
+  depends_on_chapter: 730
+  declared_predecessor_sha: "13f21f7ca4295c8e6aeb33500cfd2ec31d431c4d"
+  predecessor_ready_blob_sha: "13f21f7ca4295c8e6aeb33500cfd2ec31d431c4d"
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

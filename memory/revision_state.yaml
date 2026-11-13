@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 730
-current_stage: chapter730_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0730.md
-current_source_sha: 173b6fc7ae72540fa760a060f1c246b31401fac8
-current_review_path: reader_reviews/0730_173b6fc7.md
+current_chapter: 731
+current_stage: chapter731_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0731.md
+current_source_sha: 354b7db15a34d2670051035e3c2f56f65ff913cd
+current_review_path: reader_reviews/0731_354b7db1.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter730_stage_a_title_only_new_sha_reader_and_qa_pass
+last_action: chapter731_reader_keep_none_independent_qa_pass
 last_action_date: "2026-11-13"
 last_error: null
-last_diff_summary: "730原稿7af3faaa标题暗示同一擦碰Reader0/1/2，Stage A仅改标题和详细章纲、正文0字；新Draft173b6fc7独立双遍Reader0/0/2与QA通过，候选CI前不放行main。"
+last_diff_summary: "731原Draft354b7db1与730正式Ready依赖精确一致，双遍Reader 0/0/2 keep/none，Continuity Style Meaningful QA通过，正文未修改，候选精确CI前不放行main。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 173b6fc7ae72540fa760a060f1c246b31401fac8
+current_review_source_sha: 354b7db15a34d2670051035e3c2f56f65ff913cd
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -8178,6 +8178,23 @@ combined_audit_chapter_730_20261113:
   stage_c_used: 0
   body_revisions: 0
   predecessor_ready_sha: "1d0a6e34e4c5a86063f2b6c212e09a9bc22589c3"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_731_20261113:
+  chapter: 731
+  source_before: "354b7db15a34d2670051035e3c2f56f65ff913cd"
+  source_after: "354b7db15a34d2670051035e3c2f56f65ff913cd"
+  changes: none
+  current_review: "reader_reviews/0731_354b7db1.md"
+  counts_before: {blocker: 0, major: 0, minor: 2}
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "13f21f7ca4295c8e6aeb33500cfd2ec31d431c4d"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
