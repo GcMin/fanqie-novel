@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 732
-current_stage: chapter732_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0732.md
-current_source_sha: dc2c448ba58727865c6bed5ac1f0629a6faf1a85
-current_review_path: reader_reviews/0732_dc2c448b.md
+current_chapter: 733
+current_stage: chapter733_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0733.md
+current_source_sha: c519d85fcf209dc3f4c1b0df2c1ff5042635d2ad
+current_review_path: reader_reviews/0733_c519d85f.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter732_stage_a_predecessor_ready_rebind_new_sha_reader_and_qa_pass
+last_action: chapter733_reader_pass_a_b_and_qa_pass_no_revision
 last_action_date: "2026-11-13"
 last_error: null
-last_diff_summary: "732初稿71386358的前章731原Draft旧SHA因正式Ready变化引起Reader0/1/2，前章小说正文逐字相同仅交付Front Matter变化；Stage A只修依赖及章纲，正文0字；新Draftdc2c448b双遍Reader0/0/2、独立QA通过，等待精确候选结构CI。"
+last_diff_summary: "733原稿无修订，双遍Reader0/0/2、独立QA通过，依赖732正式Ready blob精确匹配，待精确候选结构CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: dc2c448ba58727865c6bed5ac1f0629a6faf1a85
+current_review_source_sha: c519d85fcf209dc3f4c1b0df2c1ff5042635d2ad
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -8215,5 +8215,21 @@ combined_audit_chapter_732_20261113:
   predecessor_old_sha: "354b7db15a34d2670051035e3c2f56f65ff913cd"
   predecessor_ready_sha: "4064b09407a88b8e2eea18dd72af7bdc4dd4dd1e"
   predecessor_body_identical: true
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_733_20261113:
+  chapter: 733
+  source_before: "c519d85fcf209dc3f4c1b0df2c1ff5042635d2ad"
+  source_after: "c519d85fcf209dc3f4c1b0df2c1ff5042635d2ad"
+  changes: none
+  current_review: reader_reviews/0733_c519d85f.md
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "27c2ee1538139bf9a6eaf7d88af2e9fd726fc456"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 732
+last_updated_chapter: 733
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3997,3 +3997,10 @@ chapter_732_arc054:
   mother_daughter: "晓漫自己带黑线穿小针眼并重缝包底，母亲只备剪刀和汤；母亲当日公区工程的决策与女儿的工作和生活边界分明，不要女儿代签或担保。"
   family: "妹妹JZ4旧私人盘、七号木箱历史证据和亡夫饰板继续单独保管，本轮公区目视及撤开门预排不扩权限。"
   professional: "林工与物业巡查员承认昨日绿字不能替今日实况，外墙班组清障且清点实物，工程联络员保留预排错误版本并撤销；住户仅允许公区通行核验，没有同意试开门或修合页，三专业岗和安防不得互替未来责任。"
+
+chapter_733_arc054:
+  chapter: 733
+  source_sha: "c519d85fcf209dc3f4c1b0df2c1ff5042635d2ad"
+  mother_daughter: "晓漫下班带青白饭碗与母亲吃汤，仍安排自己同事爬山，母亲不要求女儿因工程改班或签字。"
+  family: "亡夫饰板独封、妹妹JZ4私人盘和邻户资料不因公区照明工作扩权。"
+  professional: "母亲要求物业赵班长与林工明示流动巡查和持续看守/替岗不可互替；电工按专业单测公区灯，经理撤虚假保障勾选，母亲不交钥匙或授权开门。"
