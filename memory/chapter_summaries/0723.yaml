@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 723
+title: "领料单后还有一张退库单"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "e4f9e10aec840b2e15e24b81d1b0a850f2ef803c"
+source_draft_sha: "7e48c5408a04bb8c21410f574a290a04fbede347"
+initial_reader_review: "reader_reviews/0723_e4f9e10a.md"
+reader_review: "reader_reviews/0723_7e48c540.md"
+depends_on_chapter: 722
+depends_on_source_sha: "61cff6d48d5b8dda3ae0e2d85fca0ef141fec2fb"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day58608:22—Day58707:06"
+summary: >-
+  Day58608:22母亲住松桥北廊首层，甲乙两箱和甲卡换发新乙卡原位，Day58411:52商户已真收到Day59112七晚款。09:16工程联络员转“J-18R两套已领用，可按型号预约维修”单页，母亲拒把出库当本户现装，穆师傅10:05仅要求物料编码、规格、领料日期与安装签认分开；10:48物业资料岗允许按本户权益遮蔽核合法旧仓储流水。13:08资料岗与保管员真核几年前五月同批J-18R两套出库和两天后同包装序号两套未拆封退库，发现查询页面仅筛出库漏掉退库，不能拿本批作为实际安装证明，也不能推历史绝无其他维修。14:27联络员真撤按J-18R预约维修推荐并保留错误旧版本，10:27询价只是待确认备件询价、无正式施工派工或旧屋操作。15:11穆师傅再次拒定现装件/根因，16:04林工马师傅仍旧隔离无新安全开门意见。傍晚晓漫与母亲共桔子饭团约Day587旧市场修伞；20:53母亲本人限项向夜间中心报告当代旧物料记录核对、误推荐撤回和旧门未动。Day58707:06北廊双箱双卡原位，七晚真款至Day59112，仁合里四楼旧门闭锁、旧12cm观察口与亡夫饰板分封、受水电路隔离、Day536撤清运及整屋禁返住持续。Day577十一厘米动态碰框、Day578静态点及Day585三源图片不证现装型号和根因；F014、七号箱、五楼旧漏源及2019原卷无跨源新证。
+meaningful_state_changes:
+  - "核实J-18R两套同批同序号出库及原封完整退库，纠正单查出库造成的‘已领用’误导。"
+  - "无权现装型号推荐正式撤回并留旧错误版；专业下步转真实现装资料核验，不产生新开门授权。"
+knowledge_updates:
+  - "母亲、资料岗、穆师傅只知此批原封退回，不知本户如今配件或有无其他批次历史维修。"
+  - "晓漫只听母亲限报并按个人工作生活安排；夜班中心仅20:53获母亲合法转述，不读妹妹私盘。"
+relationship_updates:
+  - "母女分桔子并约Day587旧市场修伞，不让待证领料单夺走整天。"
+  - "联络员按有源完整流水撤误推荐，专业人员拒替证据空白签现装结论。"
+foreshadowing_updates:
+  - "未来须合法寻找本户近年有权维修签认、当前现场影像或在安全条件下可见门体标识，不能用旧退库或无比例尺影像直接配件施工。"
+  - "F014历史旧号旧信押金全部渠道、七号箱五楼漏源2019等无新增跨源证明。"
+ending_state: "Day58707:06松桥北廊双箱双卡、七晚真款至Day59112；旧屋锁闭双封受水电隔离禁返住、Day536撤清运不变。J-18R本批两套旧领旧退有源，不证明现装；旧门及F014历史根因待证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "e4f9e10aec840b2e15e24b81d1b0a850f2ef803c", final_draft_sha: "7e48c5408a04bb8c21410f574a290a04fbede347", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "title_overclaim_and_malformed_old_date"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3365

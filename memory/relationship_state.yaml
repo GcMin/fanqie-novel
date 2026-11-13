@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 722
+last_updated_chapter: 723
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3930,3 +3930,10 @@ chapter_722_arc054:
   mother_daughter: "晓漫与母亲Day585实际兑现电影约会，先吃面再入场；女儿提醒勿赶场签未来旧屋作业，母亲只签当日有限比对报告。"
   family: "妹妹旧裂盘JZ4箱边视频和其他住户原始档案仍受独立权限约束，非接触技术查验不扩大私影范围。"
   professional: "穆师傅林工与母亲如实将旧图、新门外实拍和短开动态三种来源分层，拒无标尺旧图毫米验收；廖档案员保留原件控制，工程不借拍照开门。"
+
+chapter_723_arc054:
+  chapter: 723
+  source_sha: "7e48c5408a04bb8c21410f574a290a04fbede347"
+  mother_daughter: "晓漫下班带桔子饭团、与母亲约Day587旧市场修伞吃粉；母亲不要求女儿为无安装证据的单页误推荐请假或代签。"
+  family: "妹妹自持裂盘JZ4箱边视频及私人物件的独立授权未变；没有与本次物料仓库流转混作同一证据链。"
+  professional: "工程联络员接受母亲提出的同批同序号退库证据，保留原错误版并撤按型号建议；资料岗双人核授权边界，穆师傅拒替未知现装填型号，旧门无再次施工。"

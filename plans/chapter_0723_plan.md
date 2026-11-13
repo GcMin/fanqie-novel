@@ -1,4 +1,4 @@
-# 第723章详细章纲：领料单上写着已到现场
+# 第723章详细章纲：领料单后还有一张退库单
 
 - chapter: 723
 - volume: 6
@@ -11,8 +11,8 @@
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
 - writer_scope: Planner + Continuity Precheck + Writer only
-- review_status: pending_independent_audit
-- publish_gate: not_run
+- review_status: independent_reader_pass_A_B_newSHA_0_blocker_0_major_2_minor
+- publish_gate: content_qa_pass_pending_exact_candidate_CI
 
 ## Planner
 
@@ -33,7 +33,7 @@
 - **伏笔与未证**：Day577动态十一厘米碰框、Day578门外静态点、Day585旧新三源图不能直接确认根因；原交付当年甲配置不证当前门型；F014旧号旧信旧押金、七号铁角箱、五楼旧漏源和2019卷宗不获跨源新增证据。
 - **不可提前泄露**：妹妹保管的JZ4私盘与箱边视频不读不复制；不转他户仓储隐私；不得由旧物料和照片推成已修门、已解除旧屋禁返住或M004/M005证据。
 - **结尾承接点**：Day587早上物料同序号完整退回有证，现装和故障原因仍未知；母女周末可按自己计划活动；后续寻找真正有对应本户现场来源的现装证据。
-- **目标字数**：优选2600—3400有效字符，硬限2300—3800；本次实际3369有效字符。
+- **目标字数**：优选2600—3400有效字符，硬限2300—3800；修订后实际3365有效字符。
 
 ## Continuity Precheck
 
@@ -41,3 +41,9 @@
 - Day584七晚款仍真实覆盖到Day59112，不在Day586重新付款、不挪两箱、不以Day584双卡实开推未来所有时段；旧四楼禁返住及封控持续。
 - 今天只合法查同批备件的出入库，不能凭退货说全历史未换件；不发生再次开门、拆件、试装、安防接管或解除隔离。原交付当年甲配置与后来J-18R备料分列。
 - 夜间中心仅Day58620:53本人限报获知当代信息，不触JZ4/旧押金和2019私卷；F014/M004/M005无跨源证据。
+
+## Audit Stage A / 新SHA双遍Reader / QA
+
+- 原Draft `e4f9e10aec840b2e15e24b81d1b0a850f2ef803c` 初审0 BLOCKER/1 MAJOR/2 MINOR；仅修正标题夸大“已到现场”与正文历史日期占位“Day以前某年五月”，改为“几年前五月”，不杜撰具体年份；有效3365字。
+- 修订后Draft `7e48c5408a04bb8c21410f574a290a04fbede347` 重新独立Reader Pass A/B 0/0/2 keep/none，原Review失效；722 Ready blob `61cff6d48d5b8dda3ae0e2d85fca0ef141fec2fb` 精确匹配。
+- 独立Continuity、Style及Meaningful QA均PASS；结构须精确候选Commit CI通过才将main放行。

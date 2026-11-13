@@ -9056,3 +9056,22 @@ combined_audit_chapter_722_20261113:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_723_20261113:
+  chapter: 723
+  title: "领料单后还有一张退库单"
+  original_source_sha: "e4f9e10aec840b2e15e24b81d1b0a850f2ef803c"
+  source_sha: "7e48c5408a04bb8c21410f574a290a04fbede347"
+  initial_review_path: "reader_reviews/0723_e4f9e10a.md"
+  review_path: "reader_reviews/0723_7e48c540.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 1
+  predecessor_ready_sha: "61cff6d48d5b8dda3ae0e2d85fca0ef141fec2fb"
+  predecessor_fact_delta: exact_ready_reference_no_old_sha_delta
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main

@@ -8041,3 +8041,21 @@ combined_audit_chapter_722_20261113:
   predecessor_fact_delta: body_identical_front_matter_only
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_723_20261113:
+  chapter: 723
+  source_before: "e4f9e10aec840b2e15e24b81d1b0a850f2ef803c"
+  source_after: "7e48c5408a04bb8c21410f574a290a04fbede347"
+  changes: title_overclaim_and_malformed_historical_date_only
+  initial_review: "reader_reviews/0723_e4f9e10a.md"
+  current_review: "reader_reviews/0723_7e48c540.md"
+  counts_before: {blocker: 0, major: 1, minor: 2}
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  predecessor_ready_sha: "61cff6d48d5b8dda3ae0e2d85fca0ef141fec2fb"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
