@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 727
-last_reviewed_title: "封套里的签收不算安装"
-last_source_path: chapters/draft/0727.md
-last_source_sha: 39e6bd00c7b1d1e8db8f9b28a59f8cf1bb6eee8e
-last_review_path: reader_reviews/0727_39e6bd00.md
+last_reviewed_chapter: 728
+last_reviewed_title: "中午之前，钥匙先交给谁"
+last_source_path: chapters/draft/0728.md
+last_source_sha: 436031bb7c43fb545fb15fb7880ef4f9e6332a58
+last_review_path: reader_reviews/0728_436031bb.md
 last_reviewed_at: "2026-11-13"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 726
-depends_on_source_sha: 7989304599f784c442c713b2ac8b96fdb69bec23
+depends_on_chapter: 727
+depends_on_source_sha: 18e7b5431ef83a0ecbdc28f5d28e6a34446628dc
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 7989304599f784c442c713b2ac8b96fdb69bec23
+predecessor_current_source_sha: 18e7b5431ef83a0ecbdc28f5d28e6a34446628dc
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -9140,6 +9140,21 @@ combined_audit_chapter_727_20261113:
   stage_a_used: 0
   body_revisions: 0
   predecessor_ready_sha: "7989304599f784c442c713b2ac8b96fdb69bec23"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_728_20261113:
+  chapter: 728
+  title: "中午之前，钥匙先交给谁"
+  original_source_sha: "436031bb7c43fb545fb15fb7880ef4f9e6332a58"
+  source_sha: "436031bb7c43fb545fb15fb7880ef4f9e6332a58"
+  review_path: "reader_reviews/0728_436031bb.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "18e7b5431ef83a0ecbdc28f5d28e6a34446628dc"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

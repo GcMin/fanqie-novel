@@ -4,10 +4,10 @@ chapter: 728
 title: "中午之前，钥匙先交给谁"
 volume: 6
 arc: ARC-054
-status: draft
-qa: pending
-approved_at: null
-publish_mode: draft
+status: completed
+qa: pass
+approved_at: "2026-11-13"
+publish_mode: ready
 depends_on_chapter: 727
 depends_on_source_sha: "18e7b5431ef83a0ecbdc28f5d28e6a34446628dc"
 dependency_status: verified_exact_ready_blob
@@ -41,3 +41,8 @@ dependency_status: verified_exact_ready_blob
 - 仁合里旧12cm口与亡夫饰板分封，客厅一路有限照明其余受水电隔离、Day536撤清运、整屋禁返住均不变；中心三人仅母亲21:42限项告知后知本次事态。
 ## Writer
 只完成本章Planner、Continuity Precheck、Writer首稿。未进行Editor、Reader、Revision、QA、Memory、Publish Gate或番茄发布。
+
+## Audit / QA 交付（2026-11-13）
+- 原Draft `436031bb7c43fb545fb15fb7880ef4f9e6332a58` Reader Pass A/B 0/0/2，正文零修订，报告 `reader_reviews/0728_436031bb.md`；前章727正式Ready Blob `18e7b5431ef83a0ecbdc28f5d28e6a34446628dc` 精确匹配。
+- 独立Continuity/Style/Meaningful QA PASS见 `qa/0728_report.md`。C-09仍只旧移交目录；三晚商户真收、原北廊真退、双箱东廊实交及昼夜双卡真开有本章实际时间证据。
+- 结构必须以实际精确候选提交CI通过为准，未发布番茄。

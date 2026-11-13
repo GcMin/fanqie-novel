@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 728
+title: "中午之前，钥匙先交给谁"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "436031bb7c43fb545fb15fb7880ef4f9e6332a58"
+source_draft_sha: "436031bb7c43fb545fb15fb7880ef4f9e6332a58"
+reader_review: "reader_reviews/0728_436031bb.md"
+depends_on_chapter: 727
+depends_on_source_sha: "18e7b5431ef83a0ecbdc28f5d28e6a34446628dc"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day59107:22—Day59207:06"
+summary: >-
+  Day59107:22松桥北廊旧房12点到期且下一客预订，Day58411:52七晚商户款仅到Day59112。08:46责任岗同意继续保障但未付款，09:20母亲实走东廊首层候选日间短坡与清理床单路障；10:39审批拟东廊三晚Day59112—Day59412，11:08财务指令不等于到账，11:23清洁检查完成，11:41松桥商户实际收到指定东廊首层房三晚款。11:55原北廊房真退旧两卡注销，甲乙箱具名暂存；12:16东廊房与双箱真交，12:28新甲与换发新乙卡分别实开房门，21:11两张卡各自真正实开夜侧门，昼夜结果不混。14:48工程联络员仅有C-09旧施工资料移交目录接收岗位及批次，缺接收方真签、册现物和本户逐户安装回签；B-17批量收讫及LJ-FR-2406仍不证本门现装。晓漫正常上班后带自缝双色包扣和饼探母，不垫钱，21:42母亲本人限项向中心报告。Day59207:06松桥东廊首层双箱双卡在，商户真款到Day59412，原北廊已退；仁合里四楼闭锁、12cm观察口与亡夫饰板分封、受水电隔离Day536撤清运与整屋禁返住不变。C-09、门框尾码、Day577根因、F014旧号旧信旧押金全渠道、七号箱五楼漏源2019无跨源新增证。
+meaningful_state_changes:
+  - "原北廊房真退卡且两箱暂存后真实东廊交付，商户11:41真收三晚，房门12:28和夜侧门21:11双卡分别真开。"
+  - "C-09从只有另册索引进到旧移交目录有接收岗位与批次，但没有现物与安装回签。"
+knowledge_updates:
+  - "母亲知道新东廊房当次实交和两卡昼夜真实通行，不推定未来恒有效；C-09仍是纸面线索。"
+  - "晓漫只凭母亲消息知新房路线；夜班中心21:42后仅知本人有限报告。"
+relationship_updates:
+  - "母亲不让晓漫垫资，晓漫正常工作且自行缝双色扣的包夜间探望。"
+foreshadowing_updates:
+  - "C-09接收方实签、真册、本户逐户装配回签待核；B-17批量与LJ-FR残码不可拼接。"
+  - "F014历史旧号旧信旧押金全渠道、七号箱五楼旧漏源及2019仍未跨源确证。"
+ending_state: "Day59207:06松桥东廊首层甲乙箱、新甲及换发新乙卡在，真实商户款到Day59412，北廊已退，仁合里仍禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "436031bb7c43fb545fb15fb7880ef4f9e6332a58", final_draft_sha: "436031bb7c43fb545fb15fb7880ef4f9e6332a58", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3198
