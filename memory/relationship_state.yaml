@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 728
+last_updated_chapter: 729
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3970,3 +3970,9 @@ chapter_728_arc054:
   mother_daughter: "母亲只发东廊新住处路线，不请女儿为三晚住宿垫钱或代搬箱签工程；晓漫工作后带饼和自行缝双色扣帆布包来访，夜侧门测试只作陪同不代母签未来安全担保。"
   family: "妹妹JZ4私人裂盘、亡夫饰板与旧家私人物证权限未扩大。"
   professional: "松桥主管只对本商户真钱、当次房卡及箱件流转签字；仁合里工程联络员限定C-09仅旧移交目录线索，夜间中心只接母亲本人限报。"
+chapter_729_arc054:
+  chapter: 729
+  source_sha: "d267b904addb8e5e7b45b040cac293ed144988b1"
+  mother_daughter: "晓漫正常工作后带玉米到东廊，与母亲谈C-09回签空格不宜凭空归因，又讨论自己双色包扣；母亲不让她代签档案工程或承担住房费用。"
+  family: "妹妹JZ4旧裂盘及他户资料不因本户历史装配查档扩大权限，旧亡夫饰板仍单独封存。"
+  professional: "协作站文件组双岗仅对本次实物、43页及本户遮蔽核页负责，工程联络员撤旧系统完成误填，穆师傅拒以工班号和空白复核栏认定现装或派工。"

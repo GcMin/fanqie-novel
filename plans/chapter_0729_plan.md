@@ -4,13 +4,13 @@ chapter: 729
 title: "那张回签页留着一个空格"
 volume: 6
 arc: "ARC-054"
-status: draft
-qa: pending
-approved_at: null
-publish_mode: draft
+status: completed
+qa: pass
+approved_at: "2026-11-13"
+publish_mode: ready
 depends_on_chapter: 728
-depends_on_source_sha: "436031bb7c43fb545fb15fb7880ef4f9e6332a58"
-dependency_status: provisional
+depends_on_source_sha: "856627801333696380aa5fc0dbcb430bf478490c"
+dependency_status: verified_ready_compatible_body
 ---
 
 # 第729章详细章纲：《那张回签页留着一个空格》
@@ -41,3 +41,8 @@ dependency_status: provisional
 
 ## Writer
 仅执行Planner、Continuity Precheck、Writer，新增本章章纲与首稿；不执行Editor、Reader、Revision、QA、Memory、Publish Gate或平台发布。
+
+## Audit 修订与交付（2026-11-13）
+- 原Draft SHA `8782fe495d681b4ff3e0dcb054db479974934748`，初Reader双遍0/1/2，MAJOR为728原provisional依赖。已逐字比较728原Draft `436031bb7c43fb545fb15fb7880ef4f9e6332a58`和正式Ready `856627801333696380aa5fc0dbcb430bf478490c`正文完全相同，Stage A只更新728正式依赖及本章章纲，729小说正文0字变更。
+- 新Draft SHA `d267b904addb8e5e7b45b040cac293ed144988b1` 独立重新Reader Pass A/B 0/0/2 keep/none，`reader_reviews/0729_d267b904.md`；独立Continuity/Style/Meaningful QA PASS见 `qa/0729_report.md`，3271有效字。
+- C-09当年双岗签收、今日同号封册与本户有限工序真核，复核回签本册未见，不证明今日门体及旧屋返住；精确候选CI必须成功后才能main ready。

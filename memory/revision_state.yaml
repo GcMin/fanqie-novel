@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 728
-current_stage: chapter728_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0728.md
-current_source_sha: 436031bb7c43fb545fb15fb7880ef4f9e6332a58
-current_review_path: reader_reviews/0728_436031bb.md
+current_chapter: 729
+current_stage: chapter729_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0729.md
+current_source_sha: d267b904addb8e5e7b45b040cac293ed144988b1
+current_review_path: reader_reviews/0729_d267b904.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter728_original_sha_reader_and_qa_pass_no_revision
+last_action: chapter729_stage_a_predecessor_sha_rebind_new_sha_reader_and_qa_pass
 last_action_date: "2026-11-13"
 last_error: null
-last_diff_summary: "728原Draft 436031bb独立双遍Reader 0/0/2，无正文修订，前章727 Ready SHA精确一致，独立QA PASS，精确候选CI前不放行main。"
+last_diff_summary: "729原Draft 8782fe49旧728 provisional依赖Reader 0/1/2，728旧稿与正式Ready正文相同，Stage A仅重绑依赖与章纲，新Draft d267b904独立Reader 0/0/2、QA PASS；候选CI前不放行main。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 436031bb7c43fb545fb15fb7880ef4f9e6332a58
+current_review_source_sha: d267b904addb8e5e7b45b040cac293ed144988b1
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -8142,5 +8142,24 @@ combined_audit_chapter_728_20261113:
   body_revisions: 0
   predecessor_ready_sha: "18e7b5431ef83a0ecbdc28f5d28e6a34446628dc"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_729_20261113:
+  chapter: 729
+  source_before: "8782fe495d681b4ff3e0dcb054db479974934748"
+  source_after: "d267b904addb8e5e7b45b040cac293ed144988b1"
+  changes: predecessor_ready_sha_rebind_and_plan_only
+  current_review: reader_reviews/0729_d267b904.md
+  initial_review: reader_reviews/0729_8782fe49.md
+  counts_before: {blocker: 0, major: 1, minor: 2}
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  predecessor_old_sha: "436031bb7c43fb545fb15fb7880ef4f9e6332a58"
+  predecessor_ready_sha: "856627801333696380aa5fc0dbcb430bf478490c"
+  predecessor_body_identical: true
+  dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
