@@ -1,7 +1,7 @@
 ---
 schema_version: 1
 chapter: 741
-title: "她的号码被印在替岗一栏"
+title: "她的号码被印进备用联系栏"
 volume: 6
 arc: "ARC-054"
 status: planned
@@ -13,7 +13,7 @@ depends_on_source_sha: "1e2a2890647969531b008887b79a27e2e3006d72"
 dependency_status: verified_exact_ready_blob
 ---
 
-# 第741章详细章纲：《她的号码被印在替岗一栏》
+# 第741章详细章纲：《她的号码被印进备用联系栏》
 
 ## Planner
 - 本章目标：延续Day603对旧短号的真实校正，发现新版本户指引因人工复制把母亲私人预约回访号码当作失锁替岗联系方式放入工作分发，真正撤换、追踪已知分发，恢复可用而不泄密的调度链；不让保安责任转嫁给住户。Day605住房付费期限作为独立现实压力。

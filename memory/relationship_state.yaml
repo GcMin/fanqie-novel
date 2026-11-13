@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 740
+last_updated_chapter: 741
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4051,3 +4051,10 @@ chapter_740_arc054:
   mother_daughter: "晓漫照常下班视频问母亲午饭，买烤红薯共吃并查照片树名，两个软件结果不一不胡乱定论；母亲仍会事先告知未来真实开门安排。"
   family: "亡夫旧饰板仍独封，妹妹JZ4私人裂盘及他户资料不随公区通讯核验扩权。"
   professional: "母亲要求林工和物业分清接听转接现场到人和持续值守，主管有责撤本户候选旧短号并日夜真实到场核验，中心只在本人限项夜报后获知。"
+
+chapter_741_arc054:
+  chapter: 741
+  source_sha: "31a8c5ec4b3fb3399a5fb17fd99f491f03e2db7e"
+  mother_daughter: "晓漫照常上班，晚间与母亲吃清汤面并明确自愿陪医搬物吃饭，不愿本人或母亲成物业替班；母亲不要求女儿请假，承诺自行查Day605住宿安排。"
+  family: "亡夫饰板仍独封，妹妹JZ4私人裂盘及邻户资料不因物业通讯号码误列而扩权。"
+  professional: "母亲拒绝居民号码被当值守应急岗位，主管与小刘撤错有责保原版，林工不把通讯限测当持续失锁守门，中心仅本人限报后获知。"
