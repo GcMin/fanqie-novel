@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 736
-last_reviewed_title: "退补章旁边还留着一行字"
-last_source_path: chapters/draft/0736.md
-last_source_sha: b906123dae4f76a5c837f527ae48ca6d277ddf72
-last_review_path: reader_reviews/0736_b906123d.md
+last_reviewed_chapter: 737
+last_reviewed_title: "旧档停在空格，现况另起一页"
+last_source_path: chapters/draft/0737.md
+last_source_sha: 2891fed850e88097d1941781f7cfa48035961e33
+last_review_path: reader_reviews/0737_2891fed8.md
 last_reviewed_at: "2026-11-13"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 735
-depends_on_source_sha: 9e068f6a65ebfd6618fd318e4ca01337074cf86f
-dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: 9e068f6a65ebfd6618fd318e4ca01337074cf86f
+depends_on_chapter: 736
+depends_on_source_sha: d5dd391a8e3f2c8e80fcba1804b6b2f0070a2047
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: d5dd391a8e3f2c8e80fcba1804b6b2f0070a2047
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -9300,5 +9300,20 @@ combined_audit_chapter_736_20261113:
   predecessor_ready_sha: "9e068f6a65ebfd6618fd318e4ca01337074cf86f"
   predecessor_fact_delta: body_identical_metadata_only
   dependency_status: verified_ready_compatible_body
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_737_20261113:
+  chapter: 737
+  title: "旧档停在空格，现况另起一页"
+  original_source_sha: "2891fed850e88097d1941781f7cfa48035961e33"
+  source_sha: "2891fed850e88097d1941781f7cfa48035961e33"
+  current_review_path: "reader_reviews/0737_2891fed8.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "d5dd391a8e3f2c8e80fcba1804b6b2f0070a2047"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

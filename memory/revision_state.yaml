@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 736
-current_stage: chapter736_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0736.md
-current_source_sha: b906123dae4f76a5c837f527ae48ca6d277ddf72
-current_review_path: reader_reviews/0736_b906123d.md
+current_chapter: 737
+current_stage: chapter737_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0737.md
+current_source_sha: 2891fed850e88097d1941781f7cfa48035961e33
+current_review_path: reader_reviews/0737_2891fed8.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter736_stage_a_title_body_token_predecessor_rebind_newSHA_reader_qa_pass
+last_action: chapter737_originalSHA_reader_qa_pass
 last_action_date: "2026-11-13"
 last_error: null
-last_diff_summary: "736旧标题错称退件章且一处对白错称章名，Stage A均改退补章；735旧Draft与正式Ready小说正文完全同一仅Front Matter变，736重绑Ready SHA，最终新Draft b906123d独立Pass A/B 0/0/2及内容QA PASS，待精确CI。"
+last_diff_summary: "737原稿2891fed8独立双遍Reader 0/0/2 keep/none；736正式Ready SHA精确一致；正文无修订；独立QA PASS；待精确候选CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: b906123dae4f76a5c837f527ae48ca6d277ddf72
+current_review_source_sha: 2891fed850e88097d1941781f7cfa48035961e33
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -8286,5 +8286,21 @@ combined_audit_chapter_736_20261113:
   predecessor_ready_sha: "9e068f6a65ebfd6618fd318e4ca01337074cf86f"
   predecessor_body_identical: true
   dependency_status: verified_ready_compatible_body
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_737_20261113:
+  chapter: 737
+  source_before: "2891fed850e88097d1941781f7cfa48035961e33"
+  source_after: "2891fed850e88097d1941781f7cfa48035961e33"
+  changes: none
+  current_review: "reader_reviews/0737_2891fed8.md"
+  counts_before: {blocker: 0, major: 0, minor: 2}
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "d5dd391a8e3f2c8e80fcba1804b6b2f0070a2047"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
