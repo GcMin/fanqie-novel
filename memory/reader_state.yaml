@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 738
-last_reviewed_title: "同一框码，不只一种旧配置"
-last_source_path: chapters/draft/0738.md
-last_source_sha: 2ca8231f2a48ff280b6e31473763ae63d81f82d5
-last_review_path: reader_reviews/0738_2ca8231f.md
-last_reviewed_at: "2026-11-13"
+last_reviewed_chapter: 739
+last_reviewed_title: "名单上的两个人，没接下整班"
+last_source_path: chapters/draft/0739.md
+last_source_sha: 394ff1b40fa0b1c65237849c712b59c3dbe3cf07
+last_review_path: reader_reviews/0739_394ff1b4.md
+last_reviewed_at: "2026-11-14"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 737
-depends_on_source_sha: bf4955b6dc3ce5c249c683e9bf779899306c8394
-dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: bf4955b6dc3ce5c249c683e9bf779899306c8394
+depends_on_chapter: 738
+depends_on_source_sha: 6a802163465ab29d203640c6bc3ea759dec60aab
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 6a802163465ab29d203640c6bc3ea759dec60aab
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -9334,5 +9334,24 @@ combined_audit_chapter_738_20261113:
   predecessor_ready_sha: "bf4955b6dc3ce5c249c683e9bf779899306c8394"
   predecessor_fact_delta: body_identical_metadata_only
   dependency_status: verified_ready_compatible_body
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_739_20261114:
+  chapter: 739
+  title: "名单上的两个人，没接下整班"
+  original_source_sha: "58b49281de50f32ce743109a8578c4b854e12aab"
+  source_sha: "394ff1b40fa0b1c65237849c712b59c3dbe3cf07"
+  initial_review_path: reader_reviews/0739_58b49281.md
+  current_review_path: reader_reviews/0739_394ff1b4.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_ready_sha: "6a802163465ab29d203640c6bc3ea759dec60aab"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

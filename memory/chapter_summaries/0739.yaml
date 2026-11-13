@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 739
+title: "名单上的两个人，没接下整班"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "58b49281de50f32ce743109a8578c4b854e12aab"
+source_draft_sha: "394ff1b40fa0b1c65237849c712b59c3dbe3cf07"
+initial_reader_review: "reader_reviews/0739_58b49281.md"
+reader_review: "reader_reviews/0739_394ff1b4.md"
+depends_on_chapter: 738
+depends_on_source_sha: "6a802163465ab29d203640c6bc3ea759dec60aab"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day60207:42—Day60307:06"
+summary: >-
+  Day60207:42松桥客舍西廊原房甲乙双箱双卡与青白碗在，商户已真钱支付七晚至Day60512。母亲发现两人安防拟排本人接领两格空白，09:11拒签虚假保障到位；何启只知巡楼协同、董明11:30要去车库，不曾接领至15:00的整班。10:27二人真实在四楼，10:39清洁用品当次真移走；11:57物业主管查实原系统将协同人员复制成持续看守和替岗，保留错表来源并另外调配。母亲只同意闭门岗位交接不交钥匙不开旧门，13:46何启马闻实际到位、14:21当面交班、14:46外楼呼叫主管另派、15:08结束本段签认，16:12原双人拟排正式作废而本次闭门交接另号归档。不构成未来完整持续失锁看守/替岗、再开门安全方案或本人开门同意。晓漫事前获母亲仅去公区说明，傍晚送树影照共餐不代签，21:32母亲本人限项回拨夏宁周衡梁策。Day60307:06松桥同房双箱双卡和真钱到Day60512不变，仁合里旧四楼闭锁、12cm口和亡夫饰板各封、受水电隔离、Day536撤清运及整屋禁返住继续；C-09/R-12终签、现门型Day577擦响根因和F014旧号旧信押金七号箱五楼漏源2019跨源仍未证。
+meaningful_state_changes:
+  - "查实原双人安防拟排不匹配本人实际职责班次，原误复制名单有责作废并保存原版。"
+  - "何启马闻完成13:46—15:08有限闭门交接及真实进出记录，但未来开门所需整班没有落实。"
+knowledge_updates:
+  - "母亲知道现场有两人也不等于未来整班持续失锁值守接领，本次短交班只证本次。"
+  - "夏宁周衡梁策仅Day60221:32本人回拨后知；晓漫不代签或接触他户及JZ4私盘。"
+relationship_updates:
+  - "母亲事先告知晓漫仅公区核人，女儿照常工作带树影照与母亲共餐，双方各有自主选择。"
+foreshadowing_updates:
+  - "真正再开门须另次具名整班持续守门及替岗、建筑门体电气安全和住户当次授权，历史终签F014未证。"
+ending_state: "Day60307:06松桥同房双箱双卡真钱至Day60512；仁合里旧门闭锁双封隔离禁返住，误排旧表撤销，短时交班有源但未来整班未落实。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "58b49281de50f32ce743109a8578c4b854e12aab", final_draft_sha: "394ff1b40fa0b1c65237849c712b59c3dbe3cf07", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: title_only}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3371

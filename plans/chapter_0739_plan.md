@@ -1,7 +1,7 @@
 ---
 schema_version: 1
 chapter: 739
-title: "名单上有两个人，走廊只站了一个"
+title: "名单上的两个人，没接下整班"
 volume: 6
 arc: "ARC-054"
 status: planned
@@ -13,7 +13,7 @@ depends_on_source_sha: "6a802163465ab29d203640c6bc3ea759dec60aab"
 dependency_status: verified_exact_ready_blob
 ---
 
-# 第739章详细章纲：《名单上有两个人，走廊只站了一个》
+# 第739章详细章纲：《名单上的两个人，没接下整班》
 
 ## Planner
 - 本章目标：Day602把安防“双人拟排”追查到本人接领和岗位交班；识别“协同人员”复制成“持续失锁看守”的错误。在旧门闭锁的前提下，完成限定闭门岗位交接，不把它当作未来失锁接管、开门授权或维修。
