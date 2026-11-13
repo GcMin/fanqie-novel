@@ -5,20 +5,20 @@
 - arc: ARC-054
 - status: draft
 - depends_on_chapter: 723
-- depends_on_source_sha: e4f9e10aec840b2e15e24b81d1b0a850f2ef803c
-- dependency_status: provisional
-- source_boundary: 第723章为未审草稿，只能临时参考其Day586 J-18R两套同序号原封退库、错误备件建议撤回、母女约Day587旧市场修伞及Day58707:06北廊住房与仁合里旧门状态；不得把该草稿当已审Canon。若Audit后续修订前章，由独立审核核对关键事实与本章衔接。
+- depends_on_source_sha: 4bcad3b4acaa7b52ffc6f131041ed5f687372ea5
+- dependency_status: verified_ready_compatible_body
+- source_boundary: 第723章已正式Ready，只能临时参考其Day586 J-18R两套同序号原封退库、错误备件建议撤回、母女约Day587旧市场修伞及Day58707:06北廊住房与仁合里旧门状态；不得把该草稿当已审Canon。若Audit后续修订前章，由独立审核核对关键事实与本章衔接。
 - target_effective_chars: 2600-3400
 - hard_effective_chars: 2300-3800
 - writer_scope: Planner + Continuity Precheck + Writer only
-- review_status: pending_independent_audit
-- publish_gate: not_run
+- review_status: independent_reader_new_SHA_pass_A_B_0_blocker_0_major_2_minor
+- publish_gate: content_qa_pass_pending_exact_candidate_CI
 
 ## Planner
 
 - **目标**：让母女真正兑现日常修伞计划，同时把门体调查由旧物料流转推进到当代闭锁固定框的现场可追溯线索；明确刻码只能证明外露位置与可辨前缀，不能认定门扇/密封件型号。
 - **POV**：唐晓漫母亲有限第三人称；中心仅从其晚间限项本人授权回拨知当代事实。
-- **开场状态**：Day58709:08松桥客舍北廊新首层，甲乙两箱、甲与新乙卡在，商户实收七晚覆盖Day58412至Day59112；旧仁合里四楼闭锁双封受水电隔离、Day536撤清运与整屋禁返住持续。第723章J-18R出退库仅作临时未审承接。
+- **开场状态**：Day58709:08松桥客舍北廊新首层，甲乙两箱、甲与新乙卡在，商户实收七晚覆盖Day58412至Day59112；旧仁合里四楼闭锁双封受水电隔离、Day536撤清运与整屋禁返住持续。第723章J-18R出退库已独立审核并Ready。
 - **角色诉求**：母亲希望有一点真实能修好的生活小事，也要查当前门上真正可追溯的信息；晓漫希望陪母亲逛旧市场又保有自己的打球安排；穆师傅与林工坚持把局部现场记录与维修许可划开。
 - **冲突**：可修伞骨只需实见失效铆钉，而旧门没有充分的现装信息；厂家技术窗口提示固定框外侧可能有刻码，但Day585旧取景不包含左上外沿，是否有号与含义都未知，工程联络岗起初欲借看码重新拉门。
 - **关键 beats**：
@@ -37,8 +37,14 @@
 
 ## Continuity Precheck
 
-- **前章来源**：chapters/draft/0723.md，Git blob完整SHA `e4f9e10aec840b2e15e24b81d1b0a850f2ef803c`。前章为未审draft，本章dependency_status必须provisional；第723章事实不晋升正式Canon。
+- **前章来源**：chapters/draft/0723.md，Git blob完整SHA `4bcad3b4acaa7b52ffc6f131041ed5f687372ea5`。前章为未审draft，本章dependency_status必须provisional；第723章实际审核通过的物料出退库事实可作为本章已证前章。
 - **时间与物品**：第723章Day58620:53母亲回拨后Day58707:06双箱双卡北廊在；本章从Day58709:08开始至Day58807:11，客舍七晚商户真款Day58412—Day59112，不重复付款也不冒认后续未知时段门卡实开；日常伞由旧市场修复、付八元。
 - **门体证据边界**：第723章J-18R两套同序号退回和建议撤回只作临时承接；Day585三源旧照裁切范围只含右下灰线和墙皮，本章新查左上外侧固定框，既不推翻旧图结论也不借照片认定门扇与根因；刻码尾码/来源待厂家核实。
 - **权限/安全**：只在本次公区限项非接触拍摄，不启封、不开门、不动锁、不触受水电；仁合里四楼旧12cm观察口与亡夫饰板分封、Day536撤清运、整屋禁返住一直有效；后续再次开门仍要新建筑电气门体安防具名条件与母亲另次许可。
 - **知识边界**：夏宁、周衡、梁策只在Day58720:41经母亲本人限报知本次前缀线索，未拿到厂家完整原档、妹妹私盘、F014及2019旧卷；既有未证历史不获跨源新增结论。
+
+## Audit Stage A / 新SHA双遍Reader / QA
+
+- 原724 Draft `0f7c8d510567d628c7f37688bb5af8f578454f0a` 依赖原723 Draft `e4f9e10aec840b2e15e24b81d1b0a850f2ef803c`；原723与最终Ready `4bcad3b4acaa7b52ffc6f131041ed5f687372ea5` 的小说正文已逐字比较：只将“Day以前某年五月”换成“几年前五月”，并更正旧标题/交付元数据；J-18R两套原封退库、撤无据维修建议、Day587晨状态均未改变。
+- Stage A只重绑本章Front Matter和章纲的前章Ready SHA，并标记verified_ready_compatible_body，不修改本章小说正文（0字）；新Draft `a27c19539dc34783a8c7a0c026560c3d93d3cf5b` Reader独立Pass A再Pass B 0/0/2 keep/none，原Review无效，3501有效字在硬上限内。
+- 章节独立Continuity/Style/Meaningful QA均PASS；真正迁入main Ready必须先精确候选CI通过。

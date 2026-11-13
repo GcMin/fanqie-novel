@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 724
+title: "门框有了编号，门扇还没认领"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "0f7c8d510567d628c7f37688bb5af8f578454f0a"
+source_draft_sha: "a27c19539dc34783a8c7a0c026560c3d93d3cf5b"
+initial_reader_review: "reader_reviews/0724_0f7c8d51.md"
+reader_review: "reader_reviews/0724_a27c1953.md"
+depends_on_chapter: 723
+depends_on_source_sha: "4bcad3b4acaa7b52ffc6f131041ed5f687372ea5"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day58709:08—Day58807:11"
+summary: >-
+  Day58709:08松桥客舍北廊母亲与晓漫按前日计划出门修伞，甲乙两箱和甲/换发新乙卡原位、Day58411:52商户七晚真款至Day59112。旧市场顾师傅认松铆钉而非断骨，10:07换钉调整布扣后母亲三次开合实际验收并付八元，母女买芝麻糖吃粉，晓漫下午正常与同事打球。11:38穆师傅提示可能有闭锁固定框外露刻码，Day585图左上未取景、来源用途未知；14:06当次有权工程/建筑/门体/电气/安防各限项确认，仅许四楼公共走廊闭锁门外非接触取左上固定框，不触锁封或受水电。15:02穆师傅及林工换角度现场拍得外露金属刻码可辨前缀LJ-FR-2406，后至少三位不能无争议辨全，未刮漆或开门，15:46母亲只签实际取证而未认现装总型号；16:21厂家仅收遮蔽标识含义查询、未回用途/型号/安装日或派工。傍晚晓漫回客舍见真正修好的伞；20:41母亲本人限项向夜间中心报告当代框体前缀厂家仅受询问与无开门，中心未得妹妹JZ4或他户档案。Day58807:11松桥北廊两箱双卡仍在七晚真款至Day59112，仁合里旧门锁闭、旧12cm观察口/亡夫饰板分别封存、受水电隔离、Day536撤清运全屋禁返住继续；Day577约11cm碰框、Day578静态点、Day585三源比对、Day586 J-18R两套退库均未证现装门扇型号或卡阻原因，F014七号箱五楼漏源2019无新跨源证。
+meaningful_state_changes:
+  - "旧市场松铆钉真维修后母亲三次开合伞均顺畅，实际付八元且母女兑现私人出行约定。"
+  - "本户闭锁固定框左上现时刻码可辨LJ-FR-2406前缀并由双岗位记录，厂家有源收到标识含义询问，尾码与部件含义待证。"
+knowledge_updates:
+  - "母亲知现时固定框有局部可读刻码不等于完整门扇型号、安装日或11cm动态卡阻根因，且今日未动门；晓漫仅知母亲主动转述的限定现场进展。"
+  - "夜间中心20:41仅获母亲本人有限当代回报，不知厂家尚未答复的完整信息或妹妹JZ4私人内容。"
+relationship_updates:
+  - "母女共逛旧市场修伞吃粉买芝麻糖，晓漫仍按下午球约独立活动，母亲自办合法工程取证。"
+  - "专业岗严格限定非接触观察，联络员不以局部前缀推备件订单，厂家仅受查询。"
+foreshadowing_updates:
+  - "厂家解释固定框前缀的来源意义和有权追溯可能成为下一步，但尾码、当前门扇/合页/密封件及故障根因仍未知；未来若再开门须另次具名安全条件与本人同意。"
+  - "F014旧号旧信旧押金全渠道、七号箱五楼漏源2019无跨源新证。"
+ending_state: "Day58807:11松桥北廊两箱现行双卡、七晚真钱至Day59112，旧屋双封锁闭受水电隔离禁返住及Day536撤清运不变；修伞真完成八元，框体前缀LJ-FR-2406有源且厂家仅收询问，总型号动态根因待证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0f7c8d510567d628c7f37688bb5af8f578454f0a", final_draft_sha: "a27c19539dc34783a8c7a0c026560c3d93d3cf5b", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "predecessor_723_ready_SHA_rebind_and_fact_delta_checked"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3501

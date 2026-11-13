@@ -8059,3 +8059,22 @@ combined_audit_chapter_723_20261113:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_724_20261113:
+  chapter: 724
+  source_before: "0f7c8d510567d628c7f37688bb5af8f578454f0a"
+  source_after: "a27c19539dc34783a8c7a0c026560c3d93d3cf5b"
+  changes: predecessor_723_ready_SHA_and_plan_rebind_body_unchanged
+  initial_review: "reader_reviews/0724_0f7c8d51.md"
+  current_review: "reader_reviews/0724_a27c1953.md"
+  counts_before: {blocker: 0, major: 1, minor: 2}
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  predecessor_original_sha: "e4f9e10aec840b2e15e24b81d1b0a850f2ef803c"
+  predecessor_ready_sha: "4bcad3b4acaa7b52ffc6f131041ed5f687372ea5"
+  predecessor_fact_delta: "only_time_placeholder_to_approximate_time_and_title_frontmatter_change"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
