@@ -9,8 +9,8 @@ qa: pending
 approved_at: null
 publish_mode: draft
 depends_on_chapter: 731
-depends_on_source_sha: "354b7db15a34d2670051035e3c2f56f65ff913cd"
-dependency_status: provisional
+depends_on_source_sha: "4064b09407a88b8e2eea18dd72af7bdc4dd4dd1e"
+dependency_status: verified_exact_ready_blob
 ---
 
 # 第732章详细章纲：《门还没开，退路先被堵住》
@@ -38,3 +38,8 @@ dependency_status: provisional
 - GitHub main 8bdd7c57408f4b84eb29450e586ce746219fbb6e检查published/ready/draft目录：第153章在published/0153.md、第731章在chapters/draft/0731.md且现有最大章号731；第732章正文与章纲路径不存在。
 - 本章depends_on_chapter为731，完整来源Git Blob SHA=354b7db15a34d2670051035e3c2f56f65ff913cd，dependency_status=provisional。上一章未审核，依赖事实只作为具体暂定版本，非正式Canon；独立Audit须在前章定稿后核对衔接。
 - 本轮只新建第732章详细章纲与首稿，不执行Editor、Reader、Revision、QA、Memory、ready、Publish Gate或番茄发布。
+
+## Audit Stage A｜依赖重新核验（2026-11-13）
+- 原临时依赖为第731章Draft blob `354b7db15a34d2670051035e3c2f56f65ff913cd`，第731章正式Ready blob `4064b09407a88b8e2eea18dd72af7bdc4dd4dd1e` 已在精确候选CI中验证后合入main。
+- 本轮逐字核对两版本小说正文完全相同，差异仅ready交付Front Matter，未改变Day594西廊交房实付、旧屋禁返住及晓漫知识等关键事实。
+- 本章仅重绑Front Matter与本详细章纲依赖为第731章正式Ready blob，正文零字修改；修改后必须按本章新Git blob SHA重新独立Reader双遍再作Continuity/Style QA。

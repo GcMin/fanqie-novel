@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 732
+title: "门还没开，退路先被堵住"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "71386358654964bb3b23997f5df2936943fe31fc"
+source_draft_sha: "dc2c448ba58727865c6bed5ac1f0629a6faf1a85"
+initial_reader_review: "reader_reviews/0732_71386358.md"
+reader_review: "reader_reviews/0732_dc2c448b.md"
+depends_on_chapter: 731
+depends_on_source_sha: "4064b09407a88b8e2eea18dd72af7bdc4dd4dd1e"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day59507:24—Day59607:06"
+summary: >-
+  Day59507:24松桥西廊首层甲乙箱与新双卡在，Day59411:43商户已真收西廊四晚到Day59812，旧东廊真退。08:46仁合里工程联络员发送预排Day596再次开门表，以「住户知悉后实施」和单位简称冒充当次许可、责任姓名，母亲拒绝，只准Day595核四楼公共走廊。10:09林工与物业巡查员实际看见外墙检修留下工具车、梯子及塑料箱堵四楼转角，系统「畅通」绿字从昨日巡查自动带来，与今日不符。10:58外墙班组领班到场并提工具试走失败，11:26真移梯子工具车至指定处、清点小件，两岗当次复走畅通并记录来源，不跨班保证。13:48撤销Day596预排再次开门，清空执行日期并记住户未授权；14:35林工、马师傅、穆师傅仅限项意见，Day581段启与任小勇旧班签不能替Day596安防接管，今日安防只收征询、未来人名和时段仍空；15:17母亲实收条件表，施工栏空、未获同意、不拆旧门。晓漫下班带黑线自行补双色扣包底，与母亲吃汤；21:36母亲本人限项告夏宁周衡梁策今公区真实撤障和预排撤销，无他户或JZ4私人数据。Day59607:06西廊双箱双卡与商户真钱至Day59812未变；仁合里四楼旧12cm观察口和亡夫饰板各封、受水电隔离、Day536撤清运、整屋禁返住持续；C-09/R-12最后复核、现装门型与Day577擦响根因仍未知，F014旧号旧信旧押金全渠道、七号箱五楼旧漏源2019无跨源新证。
+meaningful_state_changes:
+  - "仁合里四楼公区工具车、梯子实际占道被本次发现、真移走并复核，旧自动畅通绿字改为有源当次记录，不保证未来班次。"
+  - "无授权的Day596预排短开已经正式撤销，三专业岗仅限定意见，安防具名失锁接管与当次住户许可继续空，旧屋不动。"
+knowledge_updates:
+  - "母亲和林工知道昨日走廊通畅不能代替Day595有器材的实况；当次搬离已证但不能跨班保证。"
+  - "晓漫只据母亲转述知道今公区工具车已移，夜间中心只在21:36本人限项报告后得当代情况，没有私盘资料。"
+relationship_updates:
+  - "晓漫坚持自己给双色扣包穿黑线与重缝，母亲只递剪刀，二人共汤并保持不代签旧门工程的边界。"
+foreshadowing_updates:
+  - "未来再开门须当班真实确认通道及建筑电气门体和安防接管，不能套Day581或今日签页；C-09/R-12末栏回签、现装尾码及Day577根因未知。"
+  - "F014旧号旧信旧押金、七号箱五楼旧漏源与2019原卷均无跨源新增证明。"
+ending_state: "Day59607:06松桥西廊首层双箱双卡四晚真钱到Day59812；四楼走廊Day595当次真实移走占道但Day596预排开门撤回、安防及住户批准未成立；旧屋仍双封隔离禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "71386358654964bb3b23997f5df2936943fe31fc", final_draft_sha: "dc2c448ba58727865c6bed5ac1f0629a6faf1a85", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: predecessor_731_ready_sha_rebind_body_identical}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3243

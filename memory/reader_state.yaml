@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 731
-last_reviewed_title: "两只箱子先住进了行李间"
-last_source_path: chapters/draft/0731.md
-last_source_sha: 354b7db15a34d2670051035e3c2f56f65ff913cd
-last_review_path: reader_reviews/0731_354b7db1.md
+last_reviewed_chapter: 732
+last_reviewed_title: "门还没开，退路先被堵住"
+last_source_path: chapters/draft/0732.md
+last_source_sha: dc2c448ba58727865c6bed5ac1f0629a6faf1a85
+last_review_path: reader_reviews/0732_dc2c448b.md
 last_reviewed_at: "2026-11-13"
-reviewer_mode: combined_audit_independent_pass_a_then_b
+reviewer_mode: combined_audit_independent_pass_a_then_b_post_revision
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 730
-depends_on_source_sha: 13f21f7ca4295c8e6aeb33500cfd2ec31d431c4d
+depends_on_chapter: 731
+depends_on_source_sha: 4064b09407a88b8e2eea18dd72af7bdc4dd4dd1e
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 13f21f7ca4295c8e6aeb33500cfd2ec31d431c4d
+predecessor_current_source_sha: 4064b09407a88b8e2eea18dd72af7bdc4dd4dd1e
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -9215,4 +9215,22 @@ combined_audit_chapter_731_20261113:
   declared_predecessor_sha: "13f21f7ca4295c8e6aeb33500cfd2ec31d431c4d"
   predecessor_ready_blob_sha: "13f21f7ca4295c8e6aeb33500cfd2ec31d431c4d"
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_732_20261113:
+  chapter: 732
+  title: "门还没开，退路先被堵住"
+  original_source_sha: "71386358654964bb3b23997f5df2936943fe31fc"
+  source_sha: "dc2c448ba58727865c6bed5ac1f0629a6faf1a85"
+  current_review_path: "reader_reviews/0732_dc2c448b.md"
+  initial_review_path: "reader_reviews/0732_71386358.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_draft_sha: "354b7db15a34d2670051035e3c2f56f65ff913cd"
+  predecessor_ready_sha: "4064b09407a88b8e2eea18dd72af7bdc4dd4dd1e"
+  predecessor_fact_delta: body_identical_metadata_only
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
