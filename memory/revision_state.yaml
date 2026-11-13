@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 735
-current_stage: chapter735_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0735.md
-current_source_sha: ba19cc0d243e1d0be97d2bd5dabf9743de3829d4
-current_review_path: reader_reviews/0735_ba19cc0d.md
+current_chapter: 736
+current_stage: chapter736_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0736.md
+current_source_sha: b906123dae4f76a5c837f527ae48ca6d277ddf72
+current_review_path: reader_reviews/0736_b906123d.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter735_reader_qa_pass_no_revision
+last_action: chapter736_stage_a_title_body_token_predecessor_rebind_newSHA_reader_qa_pass
 last_action_date: "2026-11-13"
 last_error: null
-last_diff_summary: "734原稿依赖733旧Draft且晓漫视频对白带子指代断裂，Stage A重绑733正式Ready且正文只修一处问句，733前后正文逐字相同；新SHA重做Pass A/B 0/0/2和独立QA通过，须精确候选CI才可放行。"
+last_diff_summary: "736旧标题错称退件章且一处对白错称章名，Stage A均改退补章；735旧Draft与正式Ready小说正文完全同一仅Front Matter变，736重绑Ready SHA，最终新Draft b906123d独立Pass A/B 0/0/2及内容QA PASS，待精确CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: a26dbd6c8531e7643f8efe4777f985872a7b3628
+current_review_source_sha: b906123dae4f76a5c837f527ae48ca6d277ddf72
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -8267,5 +8267,24 @@ combined_audit_chapter_735_20261113:
   body_revisions: 0
   predecessor_ready_sha: "ec0f346dd3cb513ab4126dec9442e1637aef10cc"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_736_20261113:
+  chapter: 736
+  source_before: "ece2ee06435b6ce01b20c27cf69c7e9b578b7675"
+  source_after: "b906123dae4f76a5c837f527ae48ca6d277ddf72"
+  changes: stamp_title_one_body_reference_and_predecessor_ready_rebind
+  initial_review: reader_reviews/0736_ece2ee06.md
+  current_review: reader_reviews/0736_b906123d.md
+  counts_before: {blocker: 0, major: 2, minor: 2}
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  predecessor_draft_sha: "ba19cc0d243e1d0be97d2bd5dabf9743de3829d4"
+  predecessor_ready_sha: "9e068f6a65ebfd6618fd318e4ca01337074cf86f"
+  predecessor_body_identical: true
+  dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

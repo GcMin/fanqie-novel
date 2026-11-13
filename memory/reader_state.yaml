@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 735
-last_reviewed_title: "夜侧门不认七晚的房钱"
-last_source_path: chapters/draft/0735.md
-last_source_sha: ba19cc0d243e1d0be97d2bd5dabf9743de3829d4
-last_review_path: reader_reviews/0735_ba19cc0d.md
+last_reviewed_chapter: 736
+last_reviewed_title: "退补章旁边还留着一行字"
+last_source_path: chapters/draft/0736.md
+last_source_sha: b906123dae4f76a5c837f527ae48ca6d277ddf72
+last_review_path: reader_reviews/0736_b906123d.md
 last_reviewed_at: "2026-11-13"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 733
-depends_on_source_sha: 6ac07486336f9dd9d8b4971e828838406ea13f4e
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 6ac07486336f9dd9d8b4971e828838406ea13f4e
+depends_on_chapter: 735
+depends_on_source_sha: 9e068f6a65ebfd6618fd318e4ca01337074cf86f
+dependency_status: verified_ready_compatible_body
+predecessor_current_source_sha: 9e068f6a65ebfd6618fd318e4ca01337074cf86f
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -9281,5 +9281,24 @@ combined_audit_chapter_735_20261113:
   body_revisions: 0
   predecessor_ready_sha: "ec0f346dd3cb513ab4126dec9442e1637aef10cc"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_736_20261113:
+  chapter: 736
+  title: "退补章旁边还留着一行字"
+  original_source_sha: "ece2ee06435b6ce01b20c27cf69c7e9b578b7675"
+  source_sha: "b906123dae4f76a5c837f527ae48ca6d277ddf72"
+  initial_review_path: reader_reviews/0736_ece2ee06.md
+  current_review_path: reader_reviews/0736_b906123d.md
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 1
+  predecessor_draft_sha: "ba19cc0d243e1d0be97d2bd5dabf9743de3829d4"
+  predecessor_ready_sha: "9e068f6a65ebfd6618fd318e4ca01337074cf86f"
+  predecessor_fact_delta: body_identical_metadata_only
+  dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

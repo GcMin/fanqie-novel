@@ -1,7 +1,7 @@
 ---
 schema_version: 1
 chapter: 736
-title: "退件章旁边还留着一行字"
+title: "退补章旁边还留着一行字"
 volume: 6
 arc: "ARC-054"
 status: planned
@@ -12,11 +12,11 @@ updated_at: "2026-11-13"
 approved_at: null
 publish_mode: draft
 depends_on_chapter: 735
-depends_on_source_sha: "ba19cc0d243e1d0be97d2bd5dabf9743de3829d4"
-dependency_status: provisional
+depends_on_source_sha: "9e068f6a65ebfd6618fd318e4ca01337074cf86f"
+dependency_status: verified_ready_compatible_body
 ---
 
-# 第736章详细章纲：《退件章旁边还留着一行字》
+# 第736章详细章纲：《退补章旁边还留着一行字》
 
 ## Planner
 - **本章目标**：Day599经合法本户限项核验，找到R-12同批退补附袋中的有源本户退补记录，把“工班自记调整完成”和“最终验收完成”真正分开；当日撤销旧系统以无据完成绿栏派生的维修建议。将责任与证据推进一格，但不借此诊断今天的门或签旧屋重开许可。
@@ -35,8 +35,12 @@ dependency_status: provisional
 - **目标字数**：2600—3400有效字符；本稿实际3220有效字符，按正文去除空白及独立场景分隔符计算。
 
 ## Continuity Precheck
-- 已读取main最新AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md；bible/premise、main_outline、world、style及周衡/夏宁/梁策人物卡；outlines/volume_05.md与outlines/arcs/arc_current.md（仅旧进度，不能覆盖最新ARC-054与卷六事实）；memory/current_arc、character/relationship/knowledge/world state、foreshadowing、timeline、近10章摘要（0735摘要尚未审核生成，以原Draft作临时参考）及近期五章正文；不读取历史reader_reviews。
-- main中published/0153.md《人没回来，表先签完了》已真实存在。三个目录最大章节为735，第736章此前不存在。
-- **前章依赖**：depends_on_chapter=735；depends_on_source_sha=ba19cc0d243e1d0be97d2bd5dabf9743de3829d4；dependency_status=provisional。第735章目前仅为待审draft，所有承接只作provisional；不将其记录为正式Canon。
+- 已读取main最新AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md；bible/premise、main_outline、world、style及周衡/夏宁/梁策人物卡；outlines/volume_05.md与outlines/arcs/arc_current.md（仅旧进度，不能覆盖最新ARC-054与卷六事实）；memory/current_arc、character/relationship/knowledge/world state、foreshadowing、timeline、近10章摘要（0735摘要已审核为Ready，复核原Draft与Ready正文逐字相同）及近期五章正文；不读取历史reader_reviews。
+- main中published/0153.md《人没回来，表先签完了》已真实存在。本轮Writer初建第736章时第735章尚待审；Audit现在以第735章正式Ready为先序基线，仅修订已存在第736章草稿。
+- **前章依赖**：depends_on_chapter=735；depends_on_source_sha=9e068f6a65ebfd6618fd318e4ca01337074cf86f；dependency_status=verified_ready_compatible_body。第735章现为正式Ready；已逐字比较原Draft与Ready小说正文一致、仅Front Matter交付元数据变化，故以正式Ready blob为依赖，关键事实无差异。
 - 依赖的具体场景事实：Day59821:03夜侧门双卡红灯，重推后21:39双卡实开；新七晚真钱/原房双箱未搬；旧仁合里门依然不开、双封隔离禁返住、安防具名接管与本人许可继续空。
 - 仅执行Planner、Continuity Precheck与Writer；不做Editor、Reader、Revision、QA、长期Memory、ready或发布。
+
+## Audit Stage A（2026-11-13）
+- 原标题“退件章”与正文实体印章“退补”两字不一致，改为《退补章旁边还留着一行字》，正文仅将晓漫转述“旧退件章”改为“旧退补章”，其余文字不变。
+- 第735章原Draft ba19cc0d243e1d0be97d2bd5dabf9743de3829d4 与正式Ready 9e068f6a65ebfd6618fd318e4ca01337074cf86f 小说正文逐字一致；本章依赖、章纲重绑正式Ready，旧Reader需按修订后新SHA再审。
