@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 742
-current_stage: chapter742_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0742.md
-current_source_sha: f9a025e8a12a0575ed7efaeddadf8ef6b67d2a06
-current_review_path: reader_reviews/0742_f9a025e8.md
+current_chapter: 743
+current_stage: chapter743_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0743.md
+current_source_sha: 86243043b1fde807cf18837851001a411e2ada67
+current_review_path: reader_reviews/0743_86243043.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter742_local_photo_object_continuity_newSHA_reader_qa_pass
+last_action: chapter743_reader_0_0_2_no_revision_content_qa_pass
 last_action_date: "2026-11-14"
 last_error: null
-last_diff_summary: "原稿ab832eb86737483d170230a7775ce5d4ccf028e3Reader0/1/2；StageA局部改13:23照片透明袋与已打包青碗矛盾，正文一处；新稿f9a025e8a12a0575ed7efaeddadf8ef6b67d2a06双遍Reader0/0/2、前章741精确Ready686575fc65be951329f5c8ba490ab5d5c7b10316、独立QA通过；候选CI待核。"
+last_diff_summary: "第743章原稿Reader0/0/2，未修订；742精确Ready依赖，旧图有源外传一条合作队两端停用；待结构CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -8393,6 +8393,23 @@ combined_audit_chapter_742_20261114:
   stage_c_used: 0
   body_revisions: 1
   predecessor_ready_sha: "686575fc65be951329f5c8ba490ab5d5c7b10316"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_743_20261114:
+  chapter: 743
+  source_before: "86243043b1fde807cf18837851001a411e2ada67"
+  source_after: "86243043b1fde807cf18837851001a411e2ada67"
+  changes: none_no_fix_required
+  current_review: reader_reviews/0743_86243043.md
+  counts_before: {blocker: 0, major: 0, minor: 2}
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "e8331e3861aaa5dfb853813f6538b62510d49d9e"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

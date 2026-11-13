@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 743
+title: "打来电话的人拿着旧版表"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "86243043b1fde807cf18837851001a411e2ada67"
+reader_review: "reader_reviews/0743_86243043.md"
+depends_on_chapter: 742
+depends_on_source_sha: "e8331e3861aaa5dfb853813f6538b62510d49d9e"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day60607:27—Day60707:09"
+summary: >-
+  Day606松桥南廊首层母亲双箱双新卡青白碗在、商户真付三晚仅到Day60812。09:02合作队小齐依Day604撤用的错误特殊情况备用联系旧图误邀母亲去仁合里四楼失锁时守门，既无正式开锁派工又无专业整班接管。母亲拒被替岗、交钥匙或旧门作业；09:26林工核今日无开锁试门换合页许可，10:08限告晓漫只查本户文件。11:40工程服务点确认外部截图与Day604错指引一致；13:06合作队负责人承认要求按旧图先约人，撤错内部咨询、取消小齐拟去四楼等待，13:34截至核查无开门触封。14:42一名原六人工作群有权收件人核实自己Day60410:52在停用前已向合作队外传旧截图一张；六人后来停用的回执仍真实，但不能推出群外副本清零。15:19合作队对接人及小齐两个已核工作接收端停用旧图，内部咨询作废，15:53取得本户私人号码仅供授权工程预约、不可据旧图邀守门的更正指引回执。晓漫下班带修好的鞋，母女用青白碗喝粥；21:23母亲仅本人授权向夏宁周衡梁策限项夜报。Day60707:09南廊甲乙箱、青白碗和双新卡在，真款仍只到Day60812；旧四楼双封隔离禁返住未动，母亲问住宿责任岗下一段真实安排，其他旧案待证。
+meaningful_state_changes:
+  - "Day604旧错指引至少一条外传链获得有源确认，合作队两个真实接收端停用。"
+  - "错误内部待联系咨询作废并取得限定新指引回执，旧门未开、失锁专业守门仍无。"
+knowledge_updates:
+  - "母亲和有权业务人知道六人群内停用不代表停用前外传已追回，另存范围未知。"
+  - "晓漫傍晚获限项结果；夏宁周衡梁策仅21:23本人夜报后知，无他户和JZ4扩权。"
+relationship_updates:
+  - "母亲不转嫁物业岗位，晓漫照常工作并带修好鞋来共餐。"
+foreshadowing_updates:
+  - "外部其他旧图副本仍未知；专业持续失锁看守替岗及本次开门许可仍缺。"
+  - "Day60812后下一段安置未真付款交房，C-09/R-12、现门型号Day577根因、F014旧号旧信旧押金及七号箱五楼漏源2019跨源未证。"
+ending_state: "Day60707:09松桥南廊双箱双卡青白碗、真钱至Day60812，旧屋锁闭双封禁返住，旧指引至少一条外传链已核并限项停用，其他未知。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "86243043b1fde807cf18837851001a411e2ada67", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3393
