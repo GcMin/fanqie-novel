@@ -1,7 +1,7 @@
 ---
 schema_version: 1
 chapter: 738
-title: "一截框号，查出两种装配法"
+title: "同一框码，不只一种旧配置"
 volume: 6
 arc: "ARC-054"
 status: planned
@@ -9,11 +9,11 @@ qa: pending
 approved_at: null
 publish_mode: draft
 depends_on_chapter: 737
-depends_on_source_sha: "2891fed850e88097d1941781f7cfa48035961e33"
-dependency_status: provisional
+depends_on_source_sha: "bf4955b6dc3ce5c249c683e9bf779899306c8394"
+dependency_status: verified_ready_compatible_body
 ---
 
-# 第738章详细章纲：《一截框号，查出两种装配法》
+# 第738章详细章纲：《同一框码，不只一种旧配置》
 
 ## Planner
 - **本章目标**：Day601让Day600独立登记的现况事项真正走出单一旧框码的误识别：厂家有源书面证实LJ-FR-2406固定框前缀不唯一对应整门铰接配置，工程撤单一配置预选锁料；不据此推定今门型号、Day577卡阻根因或允许开门。
@@ -36,3 +36,7 @@ dependency_status: provisional
 - published/0153.md存在，无需恢复第153章。从published、ready、draft三处树确认最大现有章号为737；第738章与其章纲在提交前不存在。
 - 上一章737尚为**未审draft**，本章临时依据完整Git Blob `2891fed850e88097d1941781f7cfa48035961e33`，记录`depends_on_chapter: 737`、`depends_on_source_sha: 2891fed850e88097d1941781f7cfa48035961e33`、`dependency_status: provisional`。本章只暂时承接Day600现况调查已立、厂方查询尚未发、旧四楼未动和Day60107:08松桥已真住的草稿事实，不把第737章当正式Canon；若其后经审改需由独立Audit检查兼容性。
 - Writer仅新增本章详细章纲与首稿。无Editor/Reader/Revision/QA/Memory/Publish Gate、无修改既有章节、未发布平台。
+## Audit 更新｜2026-11-13
+- 原Writer记录的第737章 `2891fed850e88097d1941781f7cfa48035961e33` 当时确为provisional；审核后正式Ready blob `bf4955b6dc3ce5c249c683e9bf779899306c8394`。已逐字比对两版小说正文完全相同、仅交付Front Matter不同，故本章依赖改绑Ready SHA，标记verified_ready_compatible_body；不把历史Writer当时记录的临时SHA当作当前交付条件。
+- 原始738 Draft `3c801cadd9ec5ef8b3bd4e0f463accbfbc2a10a6` Reader 0 BLOCKER/2 MAJOR/2 MINOR；Stage A仅更正标题为《同一框码，不只一种旧配置》避免把“历史至少两类旧铰接”写成“本户现装两种维修方案”，并更新前章依赖，小说正文0字修改。
+- 修订后738 Draft `2ca8231f2a48ff280b6e31473763ae63d81f82d5` 已重新独立双遍Reader 0/0/2 keep/none，独立Continuity/Style/Meaningful QA PASS，3132有效字符。需精确候选Commit CI结构验证后才准Ready。

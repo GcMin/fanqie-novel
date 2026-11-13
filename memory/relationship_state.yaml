@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 737
+last_updated_chapter: 738
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4031,3 +4031,9 @@ chapter_737_arc054:
   mother_daughter: "晓漫带山路新照片与母亲煮面，双方能谈旧屋未修而不把生活完全变为资料审查；不要求女儿签工程许可。"
   family: "亡夫饰板独封，妹妹JZ4私人旧盘、他户档案不扩大给今门工程或夜间中心。"
   professional: "母亲与林工穆师傅约定仅闭门外公区非接触拍照，责任岗拆分历史退补与现况调查，21:34本人限项回告夜班。"
+chapter_738_arc054:
+  chapter: 738
+  source_sha: "2ca8231f2a48ff280b6e31473763ae63d81f82d5"
+  mother_daughter: "晓漫送热饭与水果，给母亲装山路照片，并请求真安排现场动作时提前告知位置；不代签工程或强求参与。"
+  family: "亡夫饰板独封，妹妹JZ4私人盘与他户工程页不随厂家查询、夜间中心限报扩大授权。"
+  professional: "母亲与林工穆师傅以厂方正式书面限定区分历史旧配法和今门未知，要求备件岗撤单一候选；物业安防两人只有拟排不能当真实守门与替岗。"

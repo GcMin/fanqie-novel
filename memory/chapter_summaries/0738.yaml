@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 738
+title: "同一框码，不只一种旧配置"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "3c801cadd9ec5ef8b3bd4e0f463accbfbc2a10a6"
+source_draft_sha: "2ca8231f2a48ff280b6e31473763ae63d81f82d5"
+initial_reader_review: "reader_reviews/0738_3c801cad.md"
+reader_review: "reader_reviews/0738_2ca8231f.md"
+depends_on_chapter: 737
+depends_on_source_sha: "bf4955b6dc3ce5c249c683e9bf779899306c8394"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day60107:26—Day60207:12"
+summary: >-
+  Day60107:26松桥客舍西廊首层原房两箱双卡与青白碗、晓漫山路照片在，七晚商户真钱到Day60512。昨日Day600有责另立现况限项调查只拍既有固定框码LJ-FR-2406前缀，厂家新询问尚未发出。08:17母亲限照片邻户隐私、旧资料及本人号码范围，09:24林工改技术鉴定为资料释义咨询，10:06厂家技术窗口只受理不等于回答。12:48厂家电话初步说同一固定框图纸版次历史至少有两种门扇铰接配置；14:37有权书面限项证明固定框前缀不是整门唯一标识，不能据旧供货或闭门外照片定本户现装或维修方案。15:44备件岗实际将此前只在询价阶段、从未采购派工的单一铰接配置锁料取消，改型号未识别并留更正记录。物业安防Day602两人拟排仅有姓名和时段、本人未接领，不冒充具名现场保障；无旧屋开门同意。晓漫下班带热饭、照片袋与母亲谈事，母亲承诺实际去旧屋会提前告知而非让女儿代办，21:38按授权向夏宁周衡梁策回拨限项报告。Day60207:12松桥西廊双箱双卡实款至Day60512，仁合里旧门闭锁、12cm观察口与亡夫饰板分封、受水电隔离、Day536撤清运与整屋禁返住继续；C-09/R-12最终复核、本户现装门型及Day577卡阻根因、F014旧联系号旧信押金全渠道、七号箱五楼漏源2019跨源事实仍未证。
+meaningful_state_changes:
+  - "厂家有权书面确认LJ-FR-2406固定框前缀可能对应不止一种历史铰接配置，不能唯一识别现装整门。"
+  - "备件岗有责实际撤销本户尚未采购派工的无据单一配置预选锁料，保留来源及更正，避免将旧图纸当现装维修方案。"
+  - "Day602安防提出两人拟排姓名时段但尚未实接，说明真实授权与到位仍有前置缺口。"
+knowledge_updates:
+  - "母亲知道厂家有源历史多适配、不能因此断今门型号或故障；知道撤候选为实际业务动作，不是维修完成。"
+  - "中心夏宁周衡梁策仅Day60121:38本人限项回拨后知此事，不接他户和JZ4私盘；晓漫仅在母亲分享后知，仍不代签。"
+relationship_updates:
+  - "晓漫带热饭、装照片袋并要求母亲真正安排现场时提前知会，但不代签或强求同行。"
+foreshadowing_updates:
+  - "Day602两人安防拟排尚需真实本人签领、现场条件及当次住户许可；完整门型与旧签仍待证。"
+  - "F014历史旧号旧信旧押金全渠道、七号箱五楼漏源2019未获新跨源证。"
+ending_state: "Day60207:12松桥西廊原房双箱双卡商户真款至Day60512；厂家有源确认历史多配、单一候选锁料取消，现装和根因未知；旧屋继续双封隔离禁返住，Day602人手仅拟排。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "3c801cadd9ec5ef8b3bd4e0f463accbfbc2a10a6", final_draft_sha: "2ca8231f2a48ff280b6e31473763ae63d81f82d5", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "title_historical_scope_and_predecessor_737_ready_SHA_rebind_body_identical"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3132
