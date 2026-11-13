@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 722
-current_stage: chapter722_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0722.md
-current_source_sha: cb596a22bd9e27923395d687420e5fc244a5f48f
-current_review_path: reader_reviews/0722_cb596a22.md
+current_chapter: 725
+current_stage: chapter725_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0725.md
+current_source_sha: 925a12a65781faac664720ae36e5931c33d7a1ae
+current_review_path: reader_reviews/0725_925a12a6.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter722_stage_a_predecessor_ready_rebind
+last_action: chapter725_keep_no_revision_content_qa_pass
 last_action_date: "2026-11-13"
 last_error: null
-last_diff_summary: "722初稿0/1/2的唯一MAJOR为前章721仍引用旧provisional Draft，前章旧/Ready正文完全相同。仅改722依赖及章纲无正文变化，新SHA Reader独立0/0/2，QA通过、精确CI待核。"
+last_diff_summary: "725草稿精确依赖724正式Ready，0/0/2 keep/none，无需Revision，独立内容QA通过，精确候选CI前main继续保留草稿。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: cb596a22bd9e27923395d687420e5fc244a5f48f
+current_review_source_sha: 925a12a65781faac664720ae36e5931c33d7a1ae
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -8076,5 +8076,22 @@ combined_audit_chapter_724_20261113:
   predecessor_original_sha: "e4f9e10aec840b2e15e24b81d1b0a850f2ef803c"
   predecessor_ready_sha: "4bcad3b4acaa7b52ffc6f131041ed5f687372ea5"
   predecessor_fact_delta: "only_time_placeholder_to_approximate_time_and_title_frontmatter_change"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_725_20261113:
+  chapter: 725
+  source_before: "925a12a65781faac664720ae36e5931c33d7a1ae"
+  source_after: "925a12a65781faac664720ae36e5931c33d7a1ae"
+  changes: none
+  current_review: "reader_reviews/0725_925a12a6.md"
+  counts_before: {blocker: 0, major: 0, minor: 2}
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "6fbc6971c04f318032600a5b893ad8af7e9a752d"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

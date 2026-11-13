@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 725
+title: "刻码上的数字不是安装日期"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "925a12a65781faac664720ae36e5931c33d7a1ae"
+source_draft_sha: "925a12a65781faac664720ae36e5931c33d7a1ae"
+reader_review: "reader_reviews/0725_925a12a6.md"
+depends_on_chapter: 724
+depends_on_source_sha: "6fbc6971c04f318032600a5b893ad8af7e9a752d"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day58808:17—Day58907:06"
+summary: >-
+  Day58808:17松桥客舍北廊母亲见系统自动生成门框标识与安装年月待确认提示，昨日只在闭锁四楼外露固定框拍到LJ-FR-2406，后至少三位无法辨清，厂家16:21仅受询问。10:26穆师傅转厂家有编号规则答复：LJ-FR为固定框金属型材流转系列、2406是图纸版次而非2024年6月或制造月，不可直接确认为本户完整门扇合页胶边锁体型号或安装史，完整尾码、原厂出货与逐户安装签认缺。11:47工程联络员真正核图片字段识别器错把2406当安装月、旧J-18R仅显示“已领用”不显示本批两套原封退库，两个错误叠成待人工确认的自动维修建议，但无施工派工；母亲要求保留旧版及触发来源，15:36联络员和林工正式撤错年月与J-18R推荐。14:33资料岗提出本户原交付册是否有固定框配货与逐户安装独立附件需窄查，15:09本户最小范围合法申请真受理，但没有准阅或找到附页。晓漫午间短聊母亲吃饭，傍晚18:20带藕片面包探望，同母亲谈周末给帆布包换纽扣；20:48母亲亲回拨夜间中心，夏宁周衡梁策才按限定来源获厂家规则和更正编号、不接他户或妹妹JZ4私盘。Day58907:06松桥北廊甲乙箱和甲及换发新乙卡仍在，Day58411:52商户七晚真款覆盖Day59112；仁合里四楼旧门闭锁、12cm观察口与亡夫饰板各封、受水电隔离、Day536撤清运及整屋禁返住不变。Day577动态触框、Day578静态点与Day585三源影像不能定现装门体或根因；F014旧号旧信旧押金各渠道、七号箱、五楼旧漏源与2019原卷无跨源新证。
+meaningful_state_changes:
+  - "厂家有源说明LJ-FR系列与2406图纸版次组合非安装年月，不代表本户完整门体。"
+  - "图像日期识别器与J-18R旧出库展示叠加引发的错误建议于15:36具名撤回留旧版，无真正施工派工。"
+  - "本户原交付固定框原配货/逐户安装附页合法窄查于15:09受理，未准阅或见证。"
+knowledge_updates:
+  - "母亲知道厂家编码规则，但不知道完整尾码、本户原发货批次/逐户安装或卡阻原因。"
+  - "晓漫仅经母亲讲解获限项信息，中心仅在20:48本人回拨后获当代纠错。"
+relationship_updates:
+  - "母女共晚饭并讨论改帆布包纽扣，母亲不让女儿代签工程，晓漫仍正常工作。"
+foreshadowing_updates:
+  - "原配货与逐户安装资料待准阅，不能从图纸版次推本户现装或动态根因。"
+  - "F014旧号旧信押金全渠道、七号箱五楼旧漏源、2019原卷仍没有跨源证明。"
+ending_state: "Day58907:06松桥北廊双箱双卡与七晚真款至Day59112，旧屋锁闭双封受水电隔离禁返住，厂家编码有限解释已得而旧错误推荐已撤；出货和安装凭据仅申请受理。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "925a12a65781faac664720ae36e5931c33d7a1ae", final_draft_sha: "925a12a65781faac664720ae36e5931c33d7a1ae", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3387
