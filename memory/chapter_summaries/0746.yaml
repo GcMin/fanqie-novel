@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 746
+title: "退补之后，有一张转送签收联"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "9ff11d7c3eed089023f2e69d88337e30604c1072"
+source_draft_sha: "8e0cc7eabdfede34523970e921b1659e5f14a885"
+initial_reader_review: "reader_reviews/0746_9ff11d7c.md"
+reader_review: "reader_reviews/0746_8e0cc7ea.md"
+depends_on_chapter: 745
+depends_on_source_sha: "3a8b188601611d6d800423d392a36d49d3443d7d"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day60907:28—Day61007:11"
+summary: >-
+  Day60907:28松桥南廊原房两箱双卡青白碗与外甥纸码头在，Day608真付款两晚到Day61012。08:46小郑只报原房下一期询价和两晚预算财务复核，未付款锁房；母亲将住房进度与旧仁合里四楼R-12退补后文件流转分开。09:52持本户权限查C-09/R-12限项收发记录，10:39双岗核旧目录与退补后独立的复核联系件转送索引；11:12首次有源核见一张本户相关“复核联系件”历史转送签收联，有收件岗位章、日期、流水号和附页数量一张，具体原附页未见，本册终复核回签仍未见，不能证末次验收。13:26领限定查询回执，14:10拒工程联络员误写“复核资料已全部找到”，林工将“本册终签未见”和“另有转送签收线索，附页待调”有源分列，15:48系统保原版更新且具名岗位负责追附页，追件仅待办。18:23晓漫下班携修好的鞋陪母亲到桥头吃粉、公交返回，纸码头未动。21:16住房次期仅原房优先询价、责任岗预算与审批，没有商户实收和同房新锁定，承诺Day61009前具名答复；21:31母亲本人限项告中心并未授权他户/JZ4信息。Day61007:11南廊双箱双卡青白碗不变，已付真期仅到12点；仁合里四楼仍锁闭双封受水电隔离Day536撤清运及禁返住，失锁整班看守替岗及开门许可无；C-09/R-12终签、今门型号Day577根因与F014历史旧号信押金七号箱五楼漏源2019跨源仍未证。
+meaningful_state_changes:
+  - "R-12退补后的本户复核联系件首次有源核实历史转送签收联，收件岗位和流水号可追索，但原附页与最终复核签未见。"
+  - "工程系统原模糊“后续材料未见”纠为本册终签未见与另有转送联系件签收线索，15:48保留原版并具名追附页责任，未实获附页。"
+  - "Day61012后住房仅询价与预算审批无商户真收锁房，Day61009前需回具名进度。"
+knowledge_updates:
+  - "母亲、老袁及工程责任岗分清历史收发签认和工程质量终检签字，不能从附页数量推断未见原页内容。"
+  - "晓漫仅经母亲告知新档案找到线索而未找到终签，不访问工程底稿；中心三人仅Day60921:31限项夜报知，无他户/JZ4扩权。"
+relationship_updates:
+  - "晓漫以修好的鞋、步行坐车陪母亲吃粉；母亲不把女儿变成行政或工程经办人。"
+foreshadowing_updates:
+  - "Day61009前新住房须有具名进度，12点前仍需实际商户付款和锁房或可交付备选；次期未证。"
+  - "历史转送联系件附页原物待追，本册C-09/R-12最终复核仍空；现装门型根因及F014诸旧线跨源未知。"
+ending_state: "Day61007:11松桥南廊旧两晚真款只到当日12，次期只有审批无实收锁房；R-12另有历史转送签收但原附页和终签未见，旧屋双封闭锁禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "9ff11d7c3eed089023f2e69d88337e30604c1072", final_draft_sha: "8e0cc7eabdfede34523970e921b1659e5f14a885", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "title_scope_and_prev745_ready_rebind"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3347

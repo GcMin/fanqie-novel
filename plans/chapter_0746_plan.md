@@ -1,4 +1,4 @@
-# 第746章详细章纲｜有人收过一张追签纸
+# 第746章详细章纲｜退补之后，有一张转送签收联
 
 - chapter: 746
 - volume: 6
@@ -6,8 +6,8 @@
 - role: Writer
 - status: draft
 - depends_on_chapter: 745
-- depends_on_source_sha: 31005356418fd9ae3590dbeff9df2944058a11ec
-- dependency_status: provisional
+- depends_on_source_sha: 3a8b188601611d6d800423d392a36d49d3443d7d
+- dependency_status: verified_ready_compatible_body
 - target_effective_chars: 2600-3400
 - actual_first_draft_effective_chars: 3347
 
@@ -35,3 +35,8 @@
 - 重新枚举三目录：published最高159（第153章《人没回来，表先签完了》已存在）、ready最高744、draft最高745；0746正文和章纲此前不存在。
 - 直接前章745为未审draft，精确Git Blob为31005356418fd9ae3590dbeff9df2944058a11ec，故本章只标dependency_status: provisional；待独立Audit检查前章最终版的差异。
 - 本轮仅Planner、Continuity Precheck、Writer首稿；不执行Editor/Reader/Revision/QA/Memory/Publish Gate或番茄发布。
+
+## Audit修订与衔接核验｜2026-11-14
+- 原Draft SHA 9ff11d7c3eed089023f2e69d88337e30604c1072，Reader 0/2/2。Stage A仅标题改为只指已见“转送签收联”、且依赖745重新绑定Ready，小说正文未变。
+- 745原Draft 31005356418fd9ae3590dbeff9df2944058a11ec与正式Ready 3a8b188601611d6d800423d392a36d49d3443d7d正文逐字一致，只交付元数据不同。原Continuity Precheck的provisional是Writer当时所见历史事实，现已在本章最新Header和上述字段更新。
+- 修订后Draft 8e0cc7eabdfede34523970e921b1659e5f14a885，独立新SHA Reader 0/0/2 keep/none、独立内容QA PASS。精确候选CI结构成功后才Ready。
