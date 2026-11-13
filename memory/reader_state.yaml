@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 733
-last_reviewed_title: "那盏灯只亮了七秒"
-last_source_path: chapters/draft/0733.md
-last_source_sha: c519d85fcf209dc3f4c1b0df2c1ff5042635d2ad
-last_review_path: reader_reviews/0733_c519d85f.md
+last_reviewed_chapter: 734
+last_reviewed_title: "两只箱子这回不用搬"
+last_source_path: chapters/draft/0734.md
+last_source_sha: a26dbd6c8531e7643f8efe4777f985872a7b3628
+last_review_path: reader_reviews/0734_a26dbd6c.md
 last_reviewed_at: "2026-11-13"
 reviewer_mode: combined_audit_independent_pass_a_then_b_post_revision
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 732
-depends_on_source_sha: 27c2ee1538139bf9a6eaf7d88af2e9fd726fc456
+depends_on_chapter: 733
+depends_on_source_sha: 6ac07486336f9dd9d8b4971e828838406ea13f4e
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 27c2ee1538139bf9a6eaf7d88af2e9fd726fc456
+predecessor_current_source_sha: 6ac07486336f9dd9d8b4971e828838406ea13f4e
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -9246,6 +9246,24 @@ combined_audit_chapter_733_20261113:
   stage_a_used: 0
   body_revisions: 0
   predecessor_ready_sha: "27c2ee1538139bf9a6eaf7d88af2e9fd726fc456"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_734_20261113:
+  chapter: 734
+  title: "两只箱子这回不用搬"
+  original_source_sha: "c6399eb4309f0d05c602bbf8e406528226c47477"
+  source_sha: "a26dbd6c8531e7643f8efe4777f985872a7b3628"
+  initial_review_path: "reader_reviews/0734_c6399eb4.md"
+  current_review_path: "reader_reviews/0734_a26dbd6c.md"
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  body_revisions: 1
+  predecessor_draft_sha: "c519d85fcf209dc3f4c1b0df2c1ff5042635d2ad"
+  predecessor_ready_sha: "6ac07486336f9dd9d8b4971e828838406ea13f4e"
+  predecessor_fact_delta: body_identical_metadata_only
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

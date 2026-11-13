@@ -9,8 +9,8 @@ qa: pending
 approved_at: null
 publish_mode: draft
 depends_on_chapter: 733
-depends_on_source_sha: "c519d85fcf209dc3f4c1b0df2c1ff5042635d2ad"
-dependency_status: provisional
+depends_on_source_sha: "6ac07486336f9dd9d8b4971e828838406ea13f4e"
+dependency_status: verified_exact_ready_blob
 ---
 
 # 第734章详细章纲：《两只箱子这回不用搬》
@@ -38,3 +38,7 @@ dependency_status: provisional
 - 第153章《人没回来，表先签完了》确实存在chapters/published/0153.md；published/ready/draft核得最大既有章号733，734此前三目录均不存在。
 - 第733章按生成前最新main上的实际可见状态绑定精确Git blob，正文关键依赖为：Day596公区应急灯七秒失效后仅十五分钟短测、安防接警不能代持续守门、Day59812住期临界、旧门没开、两箱与卡仍在西廊。其终审前只作**provisional**连续性参考，不升级正式Canon。
 - 本轮只执行Planner、Continuity Precheck、Writer；不执行Reader/Editor/Revision/QA/Memory/ready/Publish Gate或番茄发布。
+
+## Audit Stage A 衔接核对｜2026-11-13
+- 第733章原Draft blob `c519d85fcf209dc3f4c1b0df2c1ff5042635d2ad` → 正式Ready blob `6ac07486336f9dd9d8b4971e828838406ea13f4e`；小说正文逐字一致，变化仅交付Front Matter。因此第734章依据的Day596应急灯七秒失败、15分钟短测及安防仅接警等事实完全兼容，已重绑上章正式Ready blob。
+- Reader原始草稿 `c6399eb4309f0d05c602bbf8e406528226c47477` 发现对话“黑线缝牢没有”与“我是问鞋带”不连贯，Stage A改为“那带子牢不牢”，使晓漫误以为是包带、母亲实际问鞋带；正文仅此一处短句改变，有效字数仍3378。新Draft blob `a26dbd6c8531e7643f8efe4777f985872a7b3628` 必须独立重新先Pass A再Pass B，旧Review作废。其他事件及前章依赖无事实变化。

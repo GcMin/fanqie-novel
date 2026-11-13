@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 734
+title: "两只箱子这回不用搬"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "c6399eb4309f0d05c602bbf8e406528226c47477"
+source_draft_sha: "a26dbd6c8531e7643f8efe4777f985872a7b3628"
+initial_reader_review: "reader_reviews/0734_c6399eb4.md"
+reader_review: "reader_reviews/0734_a26dbd6c.md"
+depends_on_chapter: 733
+depends_on_source_sha: "6ac07486336f9dd9d8b4971e828838406ea13f4e"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day59707:23—Day59807:11"
+summary: >-
+  Day59707:23松桥西廊首层甲乙两箱、双新卡与新青白碗在，Day59411:43商户真收四晚只保到Day59812。住宿责任岗08:17仅审批七晚，原房Day598中午后有未付款候补客，其他同层房起初淋浴检修。10:03工程预写应急灯“满足开门条件”，10:21纠为待测并保留旧版；物业电工有权按公区该盏灯设备登记要求10:41—12:11连续九十分钟备用供电测试通过，12:17林工回报单灯本次足时记录，保留Day596七秒失败/换件/15分钟短测，但别灯、未来走廊、失锁持续守门/替岗/旧门复锁和本人开门许可均无签。母亲只在13:43签同房意向，不认已收款；14:48财务指令、16:02银行受理不等于到账。松桥商户Day59716:26真正收到Day59812—Day60512七晚款，16:31西廊原房正式锁定且另一候补客同意同层别房，17:05母亲取明确房号/入账/起止回执，甲乙箱从未离原房不虚构寄存，现期双卡尚待Day598新期真开房门与夜侧门。晓漫视频谈换好的登山鞋带、双色扣包，按同事爬山计划生活；21:19母亲本人有限报夏宁周衡梁策。Day59807:11西廊原房双箱双卡和新七晚真钱已经落实、门卡新期实际有效性未核；仁合里旧屋门仍双封闭锁、受水电隔离、Day536撤清运及禁返住持续，C-09/R-12最后复核签、LJ-FR完整尾码、Day577擦响原因与F014旧号旧信旧押金、七号箱五楼漏源2019跨源关系仍未证。
+meaningful_state_changes:
+  - "公区应急灯按维护登记连续九十分钟实测成功，明确仅此灯本次足时过测，旧屋安全与安防接管不因此成立。"
+  - "松桥西廊同原房七晚于16:26获得真实商户入账并锁定至Day60512，另一候补客另选同层房，本户双箱不搬；Day598新期双卡真测待办。"
+knowledge_updates:
+  - "母亲、维修岗知道单灯本次完整时长过测不等于全楼/旧门开门许可；住宿岗、客舍与本人区分审批、财务指令、商户真款及房号实保留。"
+  - "晓漫仅经母亲视频获知当代限项结果；夜间中心在21:19本人回拨后才知真收与单灯实测，无JZ4和他户。"
+relationship_updates:
+  - "晓漫换鞋带、安排同事爬山，母亲不要求其请假搬箱或代工程签字。"
+foreshadowing_updates:
+  - "Day598新期两卡分别实际刷开客房及夜侧门仍待核；旧门失锁持续值守/替岗及另次本人授权仍未落实。"
+  - "C-09/R-12最终复核、现门型号和Day577根因、F014旧号旧信旧押金与七号箱五楼漏源2019无新增跨源确认。"
+ending_state: "Day59807:11松桥西廊原房甲乙箱和双现期卡在，Day59716:26真收新七晚到Day60512，同房不搬箱但新期门卡尚待实测；公区单灯90分钟有源通过，旧屋双封受水电隔离禁返住持续。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "c6399eb4309f0d05c602bbf8e406528226c47477", final_draft_sha: "a26dbd6c8531e7643f8efe4777f985872a7b3628", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "predecessor_733_ready_SHA_rebind_and_dialogue_ambiguity_fix"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3378
