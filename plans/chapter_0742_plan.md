@@ -4,7 +4,7 @@
 - volume: 6
 - arc: ARC-054
 - role: Writer
-- status: planned_for_first_draft
+- status: audited_ready_after_exact_ci
 - depends_on_chapter: 741
 - depends_on_source_sha: 686575fc65be951329f5c8ba490ab5d5c7b10316
 - dependency_status: verified_exact_ready_blob
@@ -37,3 +37,7 @@ Day60507:11松桥西廊首层旧房双箱双卡青白碗仍在，旧七晚商户
 - 三目录树实际核验：published最高0159含0153《人没回来，表先签完了》、ready最高0741、draft无数字新章；0742正文和计划未存在。
 - 第741章为正式ready，严格依赖其Git Blob SHA 686575fc65be951329f5c8ba490ab5d5c7b10316，dependency_status=verified_exact_ready_blob；仅使用其可证事实，不将未审核更晚内容视为Canon。
 - 本轮只做Planner、Continuity Precheck、Writer，首次创建新章纲及首稿；不执行Reader、Revision、QA、Memory、Publish Gate，也不发布平台。
+## Audit 2026-11-14（第742章）
+- 原Draft `ab832eb86737483d170230a7775ce5d4ccf028e3` Reader 0/1/2，Stage A只修13:23树影照片与已装箱青碗及透明袋状态矛盾，保留付款交房门禁四条主线。
+- 新Draft `f9a025e8a12a0575ed7efaeddadf8ef6b67d2a06` 再独立Pass A、Pass B为0/0/2 keep/none，Chapter742独立Continuity/Style/Meaningful QA PASS，3244有效字；与741正式Ready `686575fc65be951329f5c8ba490ab5d5c7b10316` 精确依赖。
+- 结构校验只认精确候选Commit真实CI成功；本条编辑记录不能作为结构成功证据。

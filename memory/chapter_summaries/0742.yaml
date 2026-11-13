@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 742
+title: "新房款到账时，她还拿着旧房卡"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "ab832eb86737483d170230a7775ce5d4ccf028e3"
+source_draft_sha: "f9a025e8a12a0575ed7efaeddadf8ef6b67d2a06"
+initial_reader_review: "reader_reviews/0742_ab832eb8.md"
+reader_review: "reader_reviews/0742_f9a025e8.md"
+depends_on_chapter: 741
+depends_on_source_sha: "686575fc65be951329f5c8ba490ab5d5c7b10316"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day60507:39—Day60607:06"
+summary: >-
+  Day60507:39松桥西廊旧房双箱双卡青白碗在，原七晚真钱只到12点，下一期只有需求登记且原房下午候补。08:27责任岗三晚仅申请未到账；09:04二楼候选夜间去侧坡要绕正门三级台阶且不曾验证，南廊首层待客退清洁。10:11客舍书面允许原房在原期12点结束后免费衔接用至14点但不算新房费。11:34银行受理非商户收款，11:52松桥商户真正收到责任单位Day60512—Day60812三晚款，12:03正式预留回执仍不冒充入住。13:07首层实检并当次移走布草筐，13:23两箱具名从西廊搬、透明袋照片和蓝夹药袋母亲随身；13:38南廊双箱到、双新卡各真开房门、青白碗重新摆放；13:51旧房双卡退还注销。15:16有源纠正安置单上错误“已具备返原址条件”，仅签三晚实住房。21:09核当班夜路、21:17双新卡各当次真开侧门，21:31本人限项回报夏宁周衡梁策，未触仁合里旧门。Day60607:06双箱青白碗与新双卡在南廊首层，真钱仅到Day60812点，下一段仍待核；仁合里四楼仍闭锁双封隔离Day536撤清运禁返住，C-09/R-12终签、现门型Day577根因及F014旧号旧信旧押金七号箱五楼漏源2019无新跨源证。
+meaningful_state_changes:
+  - "Day60511:52商户真收三晚安置费Day60512—Day60812，新南廊首层13:38真实入住，两箱搬到位、双新卡各实开。"
+  - "13:51原西廊双房卡注销；15:16实际删除错误的返原址完成字段，只限本次三晚安置。"
+  - "21:17新双卡实际开当班夜侧门仅证本次；Day60812:00后的续住未落实。"
+knowledge_updates:
+  - "母亲知道财务指令、银行受理、商户真正入账、房清洁可用、夜门真开是不同证据层级。"
+  - "晓漫仅经母亲限报知道三晚新居交付，中心三人仅Day60521:31本人回拨后知，不接他户和JZ4私人盘。"
+relationship_updates:
+  - "母亲自主核房搬箱与付款，不要求晓漫请假搬物；女儿下班前后联系关心吃饭与修鞋日常。"
+foreshadowing_updates:
+  - "新三晚只到Day60812:00须提前核下一段；旧四楼再开门仍需专业门体电气条件、持续失锁看守替岗及另次授权。"
+  - "C-09/R-12最终复核与F014历史旧号旧信旧押金及七号箱五楼漏源2019跨源仍未证。"
+ending_state: "Day60607:06松桥南廊首层甲乙双箱、青白碗和双新卡实际在、真款到Day60812；西廊双旧卡已注销，旧屋闭锁双封隔离禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ab832eb86737483d170230a7775ce5d4ccf028e3", final_draft_sha: "f9a025e8a12a0575ed7efaeddadf8ef6b67d2a06", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "fix_bowl_photo_location_and_transparent_bag_continuity"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3244

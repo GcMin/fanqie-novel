@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 741
-current_stage: chapter741_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0741.md
-current_source_sha: 31a8c5ec4b3fb3399a5fb17fd99f491f03e2db7e
-current_review_path: reader_reviews/0741_31a8c5ec.md
+current_chapter: 742
+current_stage: chapter742_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0742.md
+current_source_sha: f9a025e8a12a0575ed7efaeddadf8ef6b67d2a06
+current_review_path: reader_reviews/0742_f9a025e8.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter741_title_scope_only_newSHA_reader_qa_pass
+last_action: chapter742_local_photo_object_continuity_newSHA_reader_qa_pass
 last_action_date: "2026-11-14"
 last_error: null
-last_diff_summary: "原稿9463f252e42c0e2094e2f8465a7b79ce6dcc0043Reader0/1/2，StageA仅将栏目名称对应标题与章纲更正，小说正文不变；新稿31a8c5ec4b3fb3399a5fb17fd99f491f03e2db7eReader0/0/2、前章740精确Ready1e2a2890647969531b008887b79a27e2e3006d72、独立QA通过；候选CI待核。"
+last_diff_summary: "原稿ab832eb86737483d170230a7775ce5d4ccf028e3Reader0/1/2；StageA局部改13:23照片透明袋与已打包青碗矛盾，正文一处；新稿f9a025e8a12a0575ed7efaeddadf8ef6b67d2a06双遍Reader0/0/2、前章741精确Ready686575fc65be951329f5c8ba490ab5d5c7b10316、独立QA通过；候选CI待核。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 31a8c5ec4b3fb3399a5fb17fd99f491f03e2db7e
+current_review_source_sha: f9a025e8a12a0575ed7efaeddadf8ef6b67d2a06
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -8376,6 +8376,23 @@ combined_audit_chapter_741_20261114:
   stage_c_used: 0
   body_revisions: 0
   predecessor_ready_sha: "1e2a2890647969531b008887b79a27e2e3006d72"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_742_20261114:
+  chapter: 742
+  source_before: "ab832eb86737483d170230a7775ce5d4ccf028e3"
+  source_after: "f9a025e8a12a0575ed7efaeddadf8ef6b67d2a06"
+  changes: single_body_photo_bowl_location_fix
+  initial_review: reader_reviews/0742_ab832eb8.md
+  current_review: reader_reviews/0742_f9a025e8.md
+  counts_before: {blocker: 0, major: 1, minor: 2}
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  predecessor_ready_sha: "686575fc65be951329f5c8ba490ab5d5c7b10316"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
