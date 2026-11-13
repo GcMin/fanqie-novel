@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 726
-current_stage: chapter726_content_qa_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0726.md
-current_source_sha: 98cf784336ab5986231201fc2419068866bf7267
-current_review_path: reader_reviews/0726_98cf7843.md
+current_chapter: 727
+current_stage: chapter727_content_qa_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0727.md
+current_source_sha: 39e6bd00c7b1d1e8db8f9b28a59f8cf1bb6eee8e
+current_review_path: reader_reviews/0727_39e6bd00.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter726_metadata_revision_new_sha_reader_and_qa_pass
+last_action: chapter727_original_sha_reader_and_qa_pass_no_revision
 last_action_date: "2026-11-13"
 last_error: null
-last_diff_summary: "726题目与725依赖已修，正文0字；原Reader 0/2/2到新SHA Reader 0/0/2，独立内容QA PASS，精确候选CI前不放行main。"
+last_diff_summary: "727原Draft 39e6bd00独立双遍Reader 0/0/2，正文无修订，前章726正式Ready SHA精确一致；独立QA PASS，精确候选CI前不放行main。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 98cf784336ab5986231201fc2419068866bf7267
+current_review_source_sha: 39e6bd00c7b1d1e8db8f9b28a59f8cf1bb6eee8e
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -8110,5 +8110,21 @@ combined_audit_chapter_726_20261113:
   stage_c_used: 0
   body_revisions: 0
   predecessor_ready_sha: "c6027d67d0ed8395c9d620248a15f06d055f83c4"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_727_20261113:
+  chapter: 727
+  source_before: "39e6bd00c7b1d1e8db8f9b28a59f8cf1bb6eee8e"
+  source_after: "39e6bd00c7b1d1e8db8f9b28a59f8cf1bb6eee8e"
+  changes: none
+  current_review: reader_reviews/0727_39e6bd00.md
+  counts_before: {blocker: 0, major: 0, minor: 2}
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "7989304599f784c442c713b2ac8b96fdb69bec23"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

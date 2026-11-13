@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 727
+title: "封套里的签收不算安装"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "39e6bd00c7b1d1e8db8f9b28a59f8cf1bb6eee8e"
+source_draft_sha: "39e6bd00c7b1d1e8db8f9b28a59f8cf1bb6eee8e"
+reader_review: "reader_reviews/0727_39e6bd00.md"
+depends_on_chapter: 726
+depends_on_source_sha: "7989304599f784c442c713b2ac8b96fdb69bec23"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day59008:19—Day59107:07"
+summary: >-
+  Day59008:19松桥北廊母亲核双箱甲及换发新乙卡、Day58411:52商户七晚真钱止Day59112；问前台只证本住期不保证次期。09:21二库审批本户限定核阅B-17分册且准现场查不当然准复制；12:58二库保管员和登记见证岗核外袋旧标签、记录封签翘角现状后真正启封，内有工程目录、到货清点、楼层配货及仓储收讫签认。十七号楼四层甲乙配置仅楼层批量收货，未见本户逐户安装与现装门体签认。13:49末页手写“逐户装配回签另册归档”并给原项目索引C-09，但没有对应现物库位，二库现行目录也查不到可直接指向现物的条目；14:26有源双栏限定回执确认B-17内页批量收发真实可证，C-09内容与现址未证。15:12工程系统将“附件已核”具体限指B-17批量，现装型号空白；16:06另提交C-09移交流向查询仅收件。穆师傅林工不以旧货单推现装或施工，无开门派工。17:08住宿责任岗仅受理次期需求，Day59112后无松桥商户新真钱和原北廊房保留承诺；母亲要求可执行夜行方案，不让晓漫垫资。晚间晓漫自己缝包带双色扣子，20:47母亲本人限项向夏宁周衡梁策回报。Day59107:07北廊双箱双卡仍在，旧仁合里四楼双封锁闭、受水电隔离Day536撤清运禁返住未变，完整门框尾码和Day577触框根因、F014旧号旧信旧押金全渠道七号箱五楼漏源2019均无新证。
+meaningful_state_changes:
+  - "B-17由外封登记升级为实际双岗启封核看；只证明楼层批量收发，不能证明本户装配。"
+  - "目录新增逐户装配回签另册索引C-09，其真实现物和库位尚未知；查询仅受理。"
+  - "Day591中午住宿续住只有内部需求登记，缺商户实收与可交付房间保证，优先级转向当日落地。"
+knowledge_updates:
+  - "母亲依法见B-17内页及C-09索引，但不知本户逐户安装、本门现装配置、C-09实际存址内容。"
+  - "晓漫晚间只听母亲限项回报；夜间中心20:47后才得本次真实核阅，不接他户资料。"
+relationship_updates:
+  - "母亲不让晓漫垫房费，晓漫自行选装两色扣子并保留正常工作与私人活动。"
+foreshadowing_updates:
+  - "C-09另册是否留有本户真实装配回签待合法查存与查页；不能用B-17收讫冒充安装。"
+  - "F014历史旧号旧信旧押金全渠道、七号箱五楼漏源2019仍无跨源新增证。"
+ending_state: "Day59107:07北廊双箱双卡，商户真款至当日12:00无次期真款；B-17批量内页已核但C-09现物待查；旧四楼继续双封隔离禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "39e6bd00c7b1d1e8db8f9b28a59f8cf1bb6eee8e", final_draft_sha: "39e6bd00c7b1d1e8db8f9b28a59f8cf1bb6eee8e", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3237
