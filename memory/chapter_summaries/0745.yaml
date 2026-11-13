@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 745
+title: "十点半以前，房间还在"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "31005356418fd9ae3590dbeff9df2944058a11ec"
+reader_review: "reader_reviews/0745_31005356.md"
+depends_on_chapter: 744
+depends_on_source_sha: "d9decf6b0b7a98b28f36f1dd223b8efcc70b3685"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day60807:46—Day60907:07"
+summary: >-
+  Day60807:46松桥南廊首层两箱双卡青白碗仍在、先前三晚真钱只到12点。Day607有权纠正二楼房型拒绝误成全盘拒绝并恢复Day608续办。08:37小郑按九点前承诺具名回复两晚额度已审但商户未收，09:42只到支付指令；10:09先有责核未交的另一首层备选公区夜路与搬箱，未扰他户。10:17松桥商户真正收到Day60812—Day61012两晚款，经有权核房态10:24原南廊房正式锁定、双箱不搬。11:26默认结案句错称住房全解决，14:48另附本户来源限定更正只落实两晚、旧屋禁返住且后续需求仍在；Day609只有具名继续核办未再付款。12:06双卡各自实开新期房门，21:07夜模式两卡实开侧门留记；20:58晓漫携外甥“不搬站”纸码头及晚饭到场。21:37母亲本人限项报中心，不授权他户或JZ4资料。Day60907:07仍居南廊同房两箱双卡青白碗在，付款只到Day61012；仁合里四楼仍闭锁12cm口与亡夫板分封受水电隔离、Day536撤清运和禁返住，失锁整班看守替岗及再次开门许可无，C-09/R-12最终复核、今门型号Day577根因与F014历史线跨源未证。
+meaningful_state_changes:
+  - "Day60810:17商户真收两晚新期房费，10:24南廊原房真实续住锁定、两箱无需搬运。"
+  - "12:06双卡新期各实开客房门，21:07夜间模式双卡各实开侧门，均只证明当次。"
+  - "14:48有责保原件限项附页纠正本期办结被误推住房需求全部结束，Day609安排具名核下一段不等于已付款。"
+knowledge_updates:
+  - "母亲和住宿责任岗明确内部批准、指令、商户收款与真锁房属于不同事实，后续安置尚未付。"
+  - "晓漫仅经母亲告知今日不搬及两晚实住；中心三人仅Day60821:37本人限报后获知，不接他户/JZ4。"
+relationship_updates:
+  - "母亲允许女儿下班带纸码头来共餐，不要求其请假搬箱或代付；小郑由道歉转为具名限项移交。"
+foreshadowing_updates:
+  - "Day61012后仍无住宿真款，Day609责任人仅具名约定核续办；旧屋仍禁返住。"
+  - "旧门失锁连续看守替岗/开门许可、C-09/R-12终签、今门型和F014历史线未证。"
+ending_state: "Day60907:07松桥南廊首层原房两箱双卡青白碗在，实付款至Day61012；后续申请未办妥，仁合里四楼双封隔离禁返住不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "31005356418fd9ae3590dbeff9df2944058a11ec", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3396
