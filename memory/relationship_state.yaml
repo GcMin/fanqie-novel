@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 725
+last_updated_chapter: 726
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -3951,3 +3951,10 @@ chapter_725_arc054:
   mother_daughter: "晓漫午间只问吃饭、晚间带藕片面包同母亲共餐聊周末改帆布包，母亲不强迫女儿陪技术核查；两人保留各自安排。"
   family: "妹妹JZ4旧盘与家照仍按私人权限保管，不因工厂码改为工程证据。"
   professional: "母亲要求保留误识别触发链后再具名撤错，不签未来开门；林工联络员依法纠错，穆师傅不推定本户现装，资料岗受理窄范围待准阅。"
+
+chapter_726_arc054:
+  chapter: 726
+  source_sha: "98cf784336ab5986231201fc2419068866bf7267"
+  mother_daughter: "晓漫自己六针缝补帆布包带并放两瓶水实测，母亲只帮穿针；夜间共餐并聊有源进展，不以母亲的旧屋工程绑女儿工作与代签。"
+  family: "妹妹JZ4私人旧盘、七号箱等独立授权未因本户旧门资料扩张。"
+  professional: "档案老袁与二库各守本库能证范围，工程联络员撤无依据附件已找到预填，穆师傅不从历史配货推当前维修型号。"
