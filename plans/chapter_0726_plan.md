@@ -9,8 +9,8 @@ qa: pending
 approved_at: null
 publish_mode: draft
 depends_on_chapter: 725
-depends_on_source_sha: "925a12a65781faac664720ae36e5931c33d7a1ae"
-dependency_status: provisional
+depends_on_source_sha: "c6027d67d0ed8395c9d620248a15f06d055f83c4"
+dependency_status: verified_ready_compatible_body
 ---
 
 # 第726章详细章纲：《附页的去处写在另一张交接单上》
@@ -34,7 +34,7 @@ dependency_status: provisional
 - 目标字数：2600—3400有效字符，硬限2300—3800；本章初稿实数3014。
 
 ## Continuity Precheck
-- 前章725还在main的chapters/draft/0725.md，为待审草稿，完整Git Blob SHA 925a12a65781faac664720ae36e5931c33d7a1ae；depends_on_chapter: 725，depends_on_source_sha记录该SHA，dependency_status: provisional；只作临时连续性参考，绝不确认为正式Canon。
+- 前章725还在main的chapters/draft/0725.md，为待审草稿，完整Git Blob SHA c6027d67d0ed8395c9d620248a15f06d055f83c4；depends_on_chapter: 725，depends_on_source_sha记录该SHA，dependency_status: verified_ready_compatible_body；只作临时连续性参考，绝不确认为正式Canon。
 - 时序：前章结束Day58907:06，本章Day58908:23至Day59007:05；Day59112之后无新真钱。
 - 事实：LJ-FR-2406是现时门外固定框有限可见刻码，2406为图纸版次；B-17是另一个档案转库批次，不推任何完整尾码、生产月份或现装总门型。
 - 人物与权限：母亲仅核本户已许可的索引和流转；二库保管员只核外封位置不启封；晓漫只知母亲限项转述；中心三人仅晚间本人回拨后知道当日确证内容。
