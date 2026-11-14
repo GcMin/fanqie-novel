@@ -4,17 +4,17 @@
 - volume: 6
 - arc: ARC-054
 - role: Writer
-- status: draft
+- status: ready
 - depends_on_chapter: 758
-- depends_on_source_sha: c6ee7afea0d6bf4fcbe8591bf7c42ffb6a14197c
-- dependency_status: provisional
+- depends_on_source_sha: 98c0aa178109f670ed294a4747ddd80356ffc620
+- dependency_status: verified_exact_ready_blob
 - target_effective_chars: 2600-3400
 - actual_first_draft_effective_chars: 3455
 
 ## 目标、POV与开场
 - POV：仁合里十七号楼四楼“母亲”有限第三人称；Day62207:26—Day62307:09。
 - 目标：在Day62312南廊实付房期截止前，为后续两晚争取具名、真实可交付且有正常夜间出入路径的住处；同时维护本人版画展示及家人作品的授权边界。
-- 前章仅为临时未审草稿：第758章草稿所述Day62109:30在住清洁实成、12:02本人提前核需实成、16:09临住备岗罗岚真接领；但并未证明Day623后商户真收或锁房。以上属于provisional，不提升为Canon。
+- 前章第758章现已正式Ready，旧Draft与Ready正文逐字核实完全相同：第758章草稿所述Day62109:30在住清洁实成、12:02本人提前核需实成、16:09临住备岗罗岚真接领；但并未证明Day623后商户真收或锁房。以上事实已由第758章正式Ready确认，但住房核需不等于Day623后商户真收或锁房。
 - 开场：Day622南廊甲乙箱、双卡、青白实体碗、两本借书、外甥蓝色旧票盒和未完成船板仍在，母亲匿名五日展示的歪双碗纸上版画暂挂松桥分馆，旧房房期只到Day62312。
 
 ## 角色诉求与冲突
@@ -36,7 +36,13 @@
 
 ## Continuity Precheck 与禁止越界
 - main SHA基线 182f4f1973a37e8c75c4a4b5b8985e98488f759b；核published/ready/draft，0153已在published，最高章节为0758 draft，新的0759在三目录均不存在；只新建本章计划及draft。
-- 直接依赖前章 `chapters/draft/0758.md` Git Blob SHA c6ee7afea0d6bf4fcbe8591bf7c42ffb6a14197c，`dependency_status: provisional`；Audit须先核前章最终版本关键事实，再处理本章，不将第758章临时事实作为正式Canon。
+- 直接依赖前章 `chapters/draft/0758.md` Git Blob SHA c6ee7afea0d6bf4fcbe8591bf7c42ffb6a14197c，`dependency_status: verified_exact_ready_blob`；Audit须先核前章最终版本关键事实，再处理本章，不将第758章临时事实作为正式Canon。
 - 仁合里旧四楼12cm观察口与亡夫饰板分别封存，水电隔离、Day536撤清运与整屋禁返住持续，失锁专业整班看守替岗、住户再次开门许可没有建立。
 - R-12最终独立复核签、今门完整型号与Day577擦响根因、F014旧号旧信旧押金七号箱五楼漏源2019、F003/F008/M004/M005仍无新跨源证；不得让客舍行政替岗替代旧屋专业守门或让图书馆泄露本人资料。
 - 本轮已依据AGENTS、novel配置、writing_roles、ai_reading_protocol、Bible及人物卡、现有卷/ARC、人物关系知识世界与伏笔时间线、近十章摘要及近五章正文进行Planner/Continuity Precheck；未读历史Reader Review；不进行审修、QA、Memory更新、ready与发布。
+
+## Audit 后续审核记录（不属于 Writer 首稿）
+- 第758章旧Draft/正式Ready小说正文逐字一致，重绑759依赖未修改小说正文。
+- 原759 Reader：1 MAJOR（provisional依赖未重绑）、2 MINOR；仅对前章源和依赖状态做 Stage A 局部元数据修订。
+- 新759 Draft Git blob：1d28edc355c03aa9656d65d38a11476a70608411；独立 Reader Pass A/B 复审：0 BLOCKER、0 MAJOR、2 MINOR，keep/none。
+- Continuity/Style/Meaningful QA PASS；须精确Git候选CI结构检查成功后才可Ready，房间实际交付仍需下章现场核验。

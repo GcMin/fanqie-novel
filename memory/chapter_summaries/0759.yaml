@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 759
+title: "她先看了新房间的门槛"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "118860f23793a90c2374b3b17bc3894a7ccf1330"
+source_draft_sha: "1d28edc355c03aa9656d65d38a11476a70608411"
+initial_reader_review: "reader_reviews/0759_118860f2.md"
+reader_review: "reader_reviews/0759_1d28edc3.md"
+depends_on_chapter: 758
+depends_on_source_sha: "98c0aa178109f670ed294a4747ddd80356ffc620"
+dependency_status: verified_exact_ready_blob
+predecessor_original_draft_sha: "c6ee7afea0d6bf4fcbe8591bf7c42ffb6a14197c"
+predecessor_fact_delta: body_identical_metadata_only
+timeframe: "Day62207:26—Day62307:09"
+summary: >-
+  Day62207:26母亲在松桥客舍南廊原房，两箱、双卡、实物青白碗、两本版画借书、蓝色已用票盒旧票都在，自己那张歪双碗版画仍在分馆一楼匿名展示五日并持真领回条；原房真款只到Day62312。07:42询问有权商户房态，09:40本人去分馆确认作品不因将来换房撤展，不代孩子讲课或投稿。Day62209:06商户确认原南廊Day623之后有其他住客真钱订单，11:17小郑限本户转告原房不能续，但不泄露他客身份。13:07主管陪同实看两个可询价首层候选：北附廊虽有后勤坡道但两级台阶及夜间工作门权限未核，不可写为可正常入住；东廊首层正门正规路线当次可走、门槛用样箱过，但本人装满的两箱、新房卡、夜门仍未实测。14:51两晚过渡额度有权批准，15:20财务发指令、15:57银行受理、16:24松桥商户真收Day62312—Day62512东廊两晚款，16:32房态真实锁定；Day62311:30具名交房进度待通知，清洁交付、发卡、夜间房门与正门实测、两箱搬迁未成。母女各自守生活与分工，孩子未完成船仍由自己画；21:26母亲只向夜间中心限项报仁合里旧四楼封控未变。Day62307:09母亲仍在南廊，东廊已真付锁定但未交卡未搬箱，明日交接顺序明确。
+meaningful_state_changes:
+  - "原南廊Day62312后出现他客有效已付订单，本户原房优先不等于强行预留；母亲决定不挤走他客。"
+  - "北附廊后勤门夜路未核故不认可交付，东廊首层正规通路白天实走、门槛样箱当次可过，但新卡夜门两箱尚待本次正式交付验证。"
+  - "Day62312—Day62512东廊商户16:24确证两晚实收、16:32房间时段真锁；解决次期无真钱房态但未解决正式交房。"
+knowledge_updates:
+  - "母亲、小郑与客舍主管分辨本人需求受理、他客真付锁房、备选房合法夜间通路、两晚批款到商户实收、清洁交房及真实卡验，不能互相替代。"
+  - "夜间中心只在Day62221:26限项获旧四楼安全不变报告，不因客舍临房进展或图书馆作品得其他户或家庭隐私。"
+relationship_updates:
+  - "母亲不夺他客已付南廊房，不把晓漫排作必须请假的搬运工；孩子船板仍自画，馆展权属及公开范围保持独立。"
+foreshadowing_updates:
+  - "Day62311:30具名交房进度、12点南廊到期以及东廊新卡夜路/实际两箱交接待执行，分馆五日作品及两本书后续须本人取回/归还。"
+  - "R-12末签、今门型Day577根因、失锁安防、F014旧号旧信旧押金全渠道七号箱五楼漏源2019及F003/F008/M004/M005仍无跨源证。"
+ending_state: "Day62307:09南廊实物双箱双卡青白实碗两本借书蓝票盒在，商户旧款原房仅到12点；东廊新房商户已实收两晚到Day62512且真锁房，未正式交房未验新卡夜路未搬箱，仁合里四楼仍封闭隔离禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "118860f23793a90c2374b3b17bc3894a7ccf1330", final_draft_sha: "1d28edc355c03aa9656d65d38a11476a70608411", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "predecessor_ready_sha_rebind_only"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3455

@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 758
-last_reviewed_title: "十二点有人问她，还要不要这间房"
-last_source_path: chapters/draft/0758.md
-last_source_sha: c6ee7afea0d6bf4fcbe8591bf7c42ffb6a14197c
-last_review_path: reader_reviews/0758_c6ee7afe.md
+last_reviewed_chapter: 759
+last_reviewed_title: "她先看了新房间的门槛"
+last_source_path: chapters/draft/0759.md
+last_source_sha: 1d28edc355c03aa9656d65d38a11476a70608411
+last_review_path: reader_reviews/0759_1d28edc3.md
 last_reviewed_at: "2026-11-14"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -9720,6 +9720,30 @@ combined_audit_chapter_758_20261114:
   depends_on_chapter: 757
   depends_on_source_sha: "5450533bbbd9037695f4b7f7620682a97aaa9767"
   predecessor_ready_blob_sha: "5450533bbbd9037695f4b7f7620682a97aaa9767"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  body_revisions: 0
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_759_20261114:
+  chapter: 759
+  title: "她先看了新房间的门槛"
+  source_path: chapters/draft/0759.md
+  source_sha: "1d28edc355c03aa9656d65d38a11476a70608411"
+  initial_review: reader_reviews/0759_118860f2.md
+  review_path: reader_reviews/0759_1d28edc3.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  depends_on_chapter: 758
+  depends_on_source_sha: "98c0aa178109f670ed294a4747ddd80356ffc620"
+  predecessor_draft_sha: "c6ee7afea0d6bf4fcbe8591bf7c42ffb6a14197c"
+  predecessor_ready_blob_sha: "98c0aa178109f670ed294a4747ddd80356ffc620"
+  predecessor_body_identical: true
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   body_revisions: 0
