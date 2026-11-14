@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 763
+title: "她给陌生人印了一张没写地址的画"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "59dbc9a478d6ccf0f2b1dfce10eb48c8478b8dcc"
+source_draft_sha: "d6c0ca13f02d55da4cb9fc3f7df7e27c3fb46fd3"
+initial_reader_review: "reader_reviews/0763_59dbc9a4.md"
+reader_review: "reader_reviews/0763_d6c0ca13.md"
+depends_on_chapter: 762
+depends_on_source_sha: "57709232d012fd7f4913b2b315a3c1f61a4ec008"
+dependency_status: verified_ready_compatible_body
+predecessor_original_draft_sha: "76cb3089f6c414faeb01b3e7aa426bb3559989a3"
+predecessor_fact_delta: artwork_location_fixed_in_album_at_Day62607_10_other_facts_same
+timeframe: "Day62607:29—Day62707:08"
+summary: >-
+  Day62607:29母亲仍住松桥东廊甲乙箱双卡青白实碗蓝色旧票盒旧船票在，Day625本人真领的歪双碗画、外甥署名赠纸船都由她保管，三晚商户实付到Day62812但后段未知。手机见分馆一楼开放手作台，09:57本人按普通参加者规则进馆做不同于五日匿名短展的独立新试印。第一张碗底过量积蓝墨成废样，她留下；第二张只有一只碗与一截桌沿、留白，馆内晾干供本人携出。11:06前天曾想带姐姐来见双碗画的何阿姨认出母亲，提出给姐姐看，她们没有取得对方住所私密信息，母亲不要求馆方自动拍照传播或转交；14:08小吴分别核第一张失败样、第二张正式品，14:46母亲本人把第二张一碗画真交何阿姨，不做长期联系承诺，也不将姐姐可能看画写成已经接收。傍晚母亲保留首次失败样与原双碗画，晓漫仅知本人限项，不被安排代交，孩子自己继续试印船头。21:26母亲仅向夜间中心限报仁合里四楼安全旧状态。Day62707:08甲乙箱青白碗双卡蓝盒旧票原位，三晚真款止Day62812，原作/废样/孩子船仍自己保管；何阿姨的姐姐是否真实看见未知。
+meaningful_state_changes:
+  - "母亲真实参加分馆普通手作，完成一张积墨失败样与第二张正式单碗试印，并自主保留废样。"
+  - "Day62614:46母亲亲手将新单碗画实交何阿姨；不造姐姐已见或已收的事实。"
+  - "母亲个人作品权、赠画自主权与他人隐私分开；Day62812之后住期仍待落实。"
+knowledge_updates:
+  - "母亲知道何阿姨得到新画，但她姐姐是否看过、接受、收藏仍不知道；两张试纸数量已明。"
+  - "分馆小吴只处理当次开放台材料，不代母亲寄送或公开；夜间中心仅获旧四楼授权安全限项而无赠画与住房细节。"
+relationship_updates:
+  - "母亲与何阿姨以私人手作赠画交流但不建立强制长期关系；晓漫与孩子继续各自生活，不代对方创作或交付。"
+foreshadowing_updates:
+  - "何阿姨姐姐是否真见新单碗作品仍未知；Day62812之后没有商户新实付款房态锁定。"
+  - "旧四楼失锁整班专业守门替岗和再开门许可未成、R-12独立末签今门型号Day577根因及F014旧号旧信旧押金所有渠道七号箱五楼漏源2019与F003/F008/M004/M005无新跨源证。"
+ending_state: "Day62707:08母亲继续住松桥东廊甲乙箱青白碗双卡蓝旧票盒都在，三晚商户真付至Day62812以后住期未落实；本人歪双碗原画、积墨废样、孩子署名赠船均自留，新单碗正式画14:46已本人交何阿姨，姐姐是否见过未知；旧仁合里四楼仍双封隔离整屋禁返住失锁安防和开门许可无，R-12/F014未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "59dbc9a478d6ccf0f2b1dfce10eb48c8478b8dcc", final_draft_sha: "d6c0ca13f02d55da4cb9fc3f7df7e27c3fb46fd3", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "predecessor_ready_SHA_rebind_and_single_print_quantity_dialogue"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3391

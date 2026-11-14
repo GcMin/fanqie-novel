@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 762
+last_updated_chapter: 763
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4204,3 +4204,10 @@ chapter_762_arc054:
   mother_daughter: "母亲主动向晓漫报Day62512—Day62812新三晚商户实付、原东廊同房保留和画实领，不要求晓漫为想象中的搬家请假，也不把之后住期预先许诺。"
   family: "外甥自己署名赠的纸船由外婆与歪碗版画分隔收藏；原薄板仍孩子所有，未代其投稿。"
   professional: "母亲遵守分馆展示到期和客舍真实付款责任边界；不因临界期限逼小吴代存馆画，亦不让前台用银行受理截图替商户真收。"
+
+chapter_763_arc054:
+  chapter: 763
+  source_sha: "d6c0ca13f02d55da4cb9fc3f7df7e27c3fb46fd3"
+  mother_daughter: "母亲向晓漫报告本人自行试印并亲手赠新画给何阿姨，不让女儿代跑腿、不公开第三者隐私；母女保留各自生活自主。"
+  family: "外甥自留薄板试印船头，自愿赠外婆的署名纸船还在外婆画夹；母亲鼓励失败试样也可留作练习。"
+  professional: "母亲在分馆按普通参与者规则使用材料，面对何阿姨善意没有要求机构代转、签长期联系或公开身份；赠画事实限何阿姨本人实收、不称姐姐已经收到。"

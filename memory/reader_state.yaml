@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 762
-last_reviewed_title: "画拿回来了，房间差一点没续上"
-last_source_path: chapters/draft/0762.md
-last_source_sha: e449dd3a4a8bd26f78453f152baaf1e1de4d0d6e
-last_review_path: reader_reviews/0762_e449dd3a.md
+last_reviewed_chapter: 763
+last_reviewed_title: "她给陌生人印了一张没写地址的画"
+last_source_path: chapters/draft/0763.md
+last_source_sha: d6c0ca13f02d55da4cb9fc3f7df7e27c3fb46fd3
+last_review_path: reader_reviews/0763_d6c0ca13.md
 last_reviewed_at: "2026-11-15"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,11 +12,11 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 761
-depends_on_source_sha: 5f67c17c7e528f09248c4fb0dbf3416101c9e95e
-dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 5f67c17c7e528f09248c4fb0dbf3416101c9e95e
-predecessor_sha_mismatch: false
+depends_on_chapter: 762
+depends_on_source_sha: 57709232d012fd7f4913b2b315a3c1f61a4ec008
+dependency_status: verified_ready_compatible_body
+predecessor_current_source_sha: 57709232d012fd7f4913b2b315a3c1f61a4ec008
+predecessor_sha_mismatch: true
 predecessor_qa_verification_required: false
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
@@ -9815,6 +9815,32 @@ combined_audit_chapter_762_20261115:
   predecessor_ready_blob_sha: "5f67c17c7e528f09248c4fb0dbf3416101c9e95e"
   predecessor_sha_mismatch: false
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  stage_a_used: 1
+  body_revisions: 1
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_763_20261115:
+  chapter: 763
+  title: "她给陌生人印了一张没写地址的画"
+  source_path: chapters/draft/0763.md
+  original_source_sha: "59dbc9a478d6ccf0f2b1dfce10eb48c8478b8dcc"
+  source_sha: "d6c0ca13f02d55da4cb9fc3f7df7e27c3fb46fd3"
+  initial_review: reader_reviews/0763_59dbc9a4.md
+  review_path: reader_reviews/0763_d6c0ca13.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_after_stage_a
+  original_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  reader_gate: pass
+  depends_on_chapter: 762
+  depends_on_source_sha: "57709232d012fd7f4913b2b315a3c1f61a4ec008"
+  predecessor_draft_sha: "76cb3089f6c414faeb01b3e7aa426bb3559989a3"
+  predecessor_ready_blob_sha: "57709232d012fd7f4913b2b315a3c1f61a4ec008"
+  predecessor_body_identical: false
+  predecessor_fact_delta: artwork_location_fixed_at_Day62607_10_other_facts_same
+  dependency_status: verified_ready_compatible_body
   content_qa: pass
   stage_a_used: 1
   body_revisions: 1

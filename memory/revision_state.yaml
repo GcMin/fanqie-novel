@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 762
-current_stage: chapter762_reader_QA_pass_exact_ci_required
-current_source_path: chapters/draft/0762.md
-current_source_sha: e449dd3a4a8bd26f78453f152baaf1e1de4d0d6e
-current_review_path: reader_reviews/0762_e449dd3a.md
+current_chapter: 763
+current_stage: chapter763_reader_QA_pass_exact_ci_required
+current_source_path: chapters/draft/0763.md
+current_source_sha: d6c0ca13f02d55da4cb9fc3f7df7e27c3fb46fd3
+current_review_path: reader_reviews/0763_d6c0ca13.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter762_stage_a_fix_artwork_location_and_newSHA_reader_QA_pass
+last_action: chapter763_stage_a_rebind_prev762_and_fix_artwork_quantity_newSHA_reader_QA_pass
 last_action_date: "2026-11-15"
 last_error: null
-last_diff_summary: "第762章原Draft 76cb3089 Day62607:10末段作品先入画夹又留桌上；Stage A仅纠正最终位置，新Draft e449dd3a4a8bd26f78453f152baaf1e1de4d0d6e；新SHA独立双遍Reader 0/0/2，前章761 Ready精确匹配。"
+last_diff_summary: "原763依赖762旧Draft 76cb3089，762正式Ready 57709232只修Day626作品放画夹位置不变其他事实；Stage A重绑前章Ready并修11:06第三张画数量口误；新Draft d6c0ca13f02d55da4cb9fc3f7df7e27c3fb46fd3新SHA独立Pass A/B 0/0/2。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -8760,5 +8760,26 @@ combined_audit_chapter_762_20261115:
   body_revisions: 1
   predecessor_ready_sha: "5f67c17c7e528f09248c4fb0dbf3416101c9e95e"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_763_20261115:
+  chapter: 763
+  source_before: "59dbc9a478d6ccf0f2b1dfce10eb48c8478b8dcc"
+  source_after: "d6c0ca13f02d55da4cb9fc3f7df7e27c3fb46fd3"
+  changes: predecessor_ready_sha_rebind_and_one_artwork_quantity_dialogue
+  initial_review: reader_reviews/0763_59dbc9a4.md
+  current_review: reader_reviews/0763_d6c0ca13.md
+  counts_before: {blocker: 0, major: 2, minor: 2}
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  predecessor_draft_sha: "76cb3089f6c414faeb01b3e7aa426bb3559989a3"
+  predecessor_ready_sha: "57709232d012fd7f4913b2b315a3c1f61a4ec008"
+  predecessor_body_identical: false
+  predecessor_fact_delta: artwork_location_fixed_at_Day62607_10_other_facts_same
+  dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
