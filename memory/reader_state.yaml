@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 767
-last_reviewed_title: "她去看一间不用换房卡的屋子"
-last_source_path: chapters/draft/0767.md
-last_source_sha: 0667fdfa3ea6bd5eaea2f805792068fa5932653c
-last_review_path: reader_reviews/0767_0667fdfa.md
+last_reviewed_chapter: 768
+last_reviewed_title: "窗边的水迹还没有结论"
+last_source_path: chapters/draft/0768.md
+last_source_sha: 7adcdae8d5e4074728243637d956135608869a31
+last_review_path: reader_reviews/0768_7adcdae8.md
 last_reviewed_at: "2026-11-15"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 766
-depends_on_source_sha: 18f216e2a21226748160bcf03ebdc56fa4c7f485
+depends_on_chapter: 767
+depends_on_source_sha: b0ecab7b9b5d031ddca3237d39f9472040065cc5
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 18f216e2a21226748160bcf03ebdc56fa4c7f485
+predecessor_current_source_sha: b0ecab7b9b5d031ddca3237d39f9472040065cc5
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -9928,4 +9928,30 @@ combined_audit_chapter_767_20261115:
   predecessor_sha_mismatch: false
   dependency_status: verified_exact_ready_blob
   body_revisions: 0
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_768_20261115:
+  chapter: 768
+  title: "窗边的水迹还没有结论"
+  source_path: chapters/draft/0768.md
+  original_source_sha: "93187fb3b605590e817f579976c7264c856cb028"
+  original_review_path: reader_reviews/0768_93187fb3.md
+  source_sha: "7adcdae8d5e4074728243637d956135608869a31"
+  review_path: reader_reviews/0768_7adcdae8.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  original_counts: {blocker: 0, major: 2, minor: 2}
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 767
+  depends_on_source_sha: "b0ecab7b9b5d031ddca3237d39f9472040065cc5"
+  predecessor_sha_mismatch: false
+  predecessor_original_draft_sha: "0667fdfa3ea6bd5eaea2f805792068fa5932653c"
+  predecessor_body_identical: true
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 1
   structural_gate: exact_candidate_ci_required_before_main
