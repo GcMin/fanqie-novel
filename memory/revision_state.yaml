@@ -8470,3 +8470,20 @@ combined_audit_chapter_746_20261114:
   dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_747_20261114:
+  chapter: 747
+  source_before: "60a186e87d8469855481107dcf3cf42073124e55"
+  source_after: "60a186e87d8469855481107dcf3cf42073124e55"
+  changes: none_no_fix_required
+  current_review: reader_reviews/0747_60a186e8.md
+  counts_before: {blocker: 0, major: 0, minor: 2}
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "2e5137b2959e14543b6f4b9e3f4dcdcff99faedd"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main

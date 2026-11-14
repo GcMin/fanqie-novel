@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 747
+title: "日期落在旧一期，房钱差点付错"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "60a186e87d8469855481107dcf3cf42073124e55"
+reader_review: "reader_reviews/0747_60a186e8.md"
+depends_on_chapter: 746
+depends_on_source_sha: "2e5137b2959e14543b6f4b9e3f4dcdcff99faedd"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day61007:29—Day61107:06"
+summary: >-
+  Day61007:29松桥南廊甲乙双箱、双房卡、青白碗和外甥不搬站纸码头在，原两晚款只到当日中午。08:41小郑报新期付款办理但截图服务期误复制已付Day60812—Day61012；09:07付款岗核底单尚未汇出，保原版撤单；10:22更正Day61012—Day61212新申请尚未批准。11:06本期批准并发银行指令，11:29松桥商户真收新期两晚，11:46原南廊同房正式锁定，12:09双卡各真开房门两箱不搬。14:26林工称R-12退补联系件转送封套找到，15:11老袁以本户权限双岗按流水及关联码查见原一页附件为要求补具末次复核签依据、核当年门扇配置的催补说明，不是最终合格单或当代门型号证明；16:04工程系统只关闭找到附页子项，历史最终回签与是否答复仍待追。晓漫带小胶棒与母亲买晚饭、不代查档，21:08双卡夜侧门当班各真开；21:34母亲本人限项回拨夜间中心，夏宁周衡梁策仅此时获新结果。Day61107:06南廊双箱双卡青白碗纸码头在，新期真钱至Day61212；仁合里四楼仍闭锁12cm观察口及亡夫饰板各封、受水电隔离Day536撤清运禁返住，失锁专业整班看守替岗及新开门许可无；C-09/R-12末签、现门型Day577原因、F014旧号旧信旧押金七号箱五楼漏源2019跨源仍未证。
+meaningful_state_changes:
+  - "旧期复制误底单09:07确认未汇出并保原版撤单，11:29商户真收正确新两晚、11:46原房锁定、12:09/21:08双卡分时实开，住房到Day61212。"
+  - "R-12历史转送原一页附件证实为催补说明而非终签，16:04仅结附件找到子项，最终签及旧工班答复仍待追。"
+knowledge_updates:
+  - "母亲及业务人知道误付款只是未汇出底单，正确房期真钱/锁房必须独立核；老袁林工知道原一页催补而非终签。"
+  - "晓漫限项只听母亲转述，中心只在21:34本人授权限报后知，不读妹妹JZ4或他户。"
+relationship_updates:
+  - "晓漫带检票亭小胶棒与母亲共晚饭，不请假代办行政或查旧工程档案。"
+foreshadowing_updates:
+  - "Day61212后的住宿仍待核；R-12催补后答复、最后复核签、C-09与当代门型号Day577根因无证。"
+  - "F014旧号旧信旧押金全渠道、七号箱五楼漏源2019跨源没有新证明。"
+ending_state: "Day61107:06松桥南廊原房双箱双卡青白碗和纸码头在，已真付到Day61212；旧屋禁返住、R-12催补附件已见而最终回签未见。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "60a186e87d8469855481107dcf3cf42073124e55", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3653

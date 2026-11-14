@@ -9488,3 +9488,19 @@ combined_audit_chapter_746_20261114:
   dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_747_20261114:
+  chapter: 747
+  title: "日期落在旧一期，房钱差点付错"
+  source_sha: "60a186e87d8469855481107dcf3cf42073124e55"
+  current_review_path: reader_reviews/0747_60a186e8.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "2e5137b2959e14543b6f4b9e3f4dcdcff99faedd"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
