@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 752
+last_updated_chapter: 753
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4135,3 +4135,10 @@ chapter_752_arc054:
   mother_daughter: "晓漫提供信息而不代母亲报名，母亲自己核实一楼入口并参与家庭参观；三人印画，不让旧工程占满全部生活。"
   family: "外甥本人粘贴蓝色已用票盒并试投，母亲只答应代收而不代造票，守护孩子自主权。亡夫饰板与妹妹JZ4私人盘未动。"
   professional: "母亲只认可物业未来一名候选人员的有限信息，不把未实签守门写成落实，也不允许新开门。"
+
+chapter_753_arc054:
+  chapter: 753
+  source_sha: "da4cdca9d93f46041bd866ecdd0a518325677a73"
+  mother_daughter: "母亲独立办理图书借阅，为外甥下次印桥准备两本书；晓漫短信调侃别把自己变老师，彼此尊重个人节奏。"
+  family: "外甥在视频中关注昨日本人装好的船票回收盒，理解图书馆借书不能用纸票代还，并约定下次先试纸；亡夫饰板仍封存，陌生读者的亡妻书签不被母亲冒犯询问。"
+  professional: "母亲本人到图书馆确认书籍状况、借还条款和临时短信提醒，馆员不把馆内住址记录变化冒充旧屋返住；物业没有给出守门实际保证。"

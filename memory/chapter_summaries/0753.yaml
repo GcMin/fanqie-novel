@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 753
+title: "借走的书，得由她自己来还"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "d4c9d35dda0e878598417dc4fefbc91aa07dcd50"
+source_draft_sha: "da4cdca9d93f46041bd866ecdd0a518325677a73"
+initial_reader_review: "reader_reviews/0753_d4c9d35d.md"
+reader_review: "reader_reviews/0753_da4cdca9.md"
+depends_on_chapter: 752
+depends_on_source_sha: "40a67c17fde2919f30560b32b86067b707720f96"
+dependency_status: verified_ready_compatible_body
+predecessor_original_draft_sha: "1f9f93bb81b8bfe289a8ff002c2ba582601f96ee"
+predecessor_fact_delta: one_elevator_location_clarification_title_and_delivery_metadata_only
+timeframe: "Day61607:40—Day61707:09"
+summary: >-
+  Day61607:40母亲在松桥南廊同房双箱双卡青白碗，孩子昨日装好的蓝色已用票盒里有一张真票，两张家人版画需收存。七晚住房真款仅到Day61912。母亲自行电话核松桥分馆一楼阅览开放与本人借书条件，10:07实到馆检索版画/拓印书，第一本现场可读，第二本显示在馆却待整理上架；同桌男读者欲凭亡妻书签续借遭要求核身份，母亲不窥别人的旧物。11:26母亲带本人证件和现用手机核借阅条款和联系信息，馆员将仁合里旧房地址留原记录、临时消息用短信分开，不认定旧屋已可住或客舍永久。第二本经馆员核整理车找到并当面记录第十九页旧折角，两书真实借出，各有到期凭条。12:40独自吃饭与晓漫短信交流，购无胶画夹，15:10回南廊按约已清洁，青白碗甲乙箱不搬，妥善收存画并让书避开水杯；例行烟感检测只是预告。16:24物业仍无完整实际失锁守门签领和替岗交接，未允许开旧门。19:12外甥经晓漫视频问票盒并学书不等于船票、下次印桥先试纸；21:27母亲只向中心限项回报旧封控不变，不上报图书馆私事。Day61707:09南廊双箱双卡双碗蓝票盒仍在，住房真付到Day61912，母亲已把两书归还期限记进画夹、承诺本人负责归还；仁合里四楼双封水电隔离Day536撤清运禁返住继续，旧R-12最终签、现门完整型号Day577根因及F014旧号旧信旧押金历史跨源均未证。
+meaningful_state_changes:
+  - "母亲本人核证件与现联系方式，实际办妥借阅并真借两本版画/拓印书、取得各自期限，其中第二册旧折角有借前记录。"
+  - "两张家庭版画收进无胶画夹，外甥与母亲视频确认书不由船票盒代还、下次先用废纸试印。"
+  - "借阅还书期限长于已付Day61912临住房期，真实个人归还责任由母亲承担；旧四楼专业守门安防不因此改变。"
+knowledge_updates:
+  - "母亲知道馆方借书卡可用本人现用手机短信联络，旧房地址记录不自动视为当下可住；借书须本人真还，已核两本实体、折角与各到期日。"
+  - "夜间中心只有Day61621:27本人限项知道旧门安全没有变化，不接触借书明细或JZ4私人信息。"
+relationship_updates:
+  - "母亲独立办个人生活手续，晓漫不代办，外甥视频学习先试纸与真实归还义务；不越过彼此责任边界。"
+foreshadowing_updates:
+  - "客舍真款仅到Day61912，图书归还期限超出已付款期；R-12末签、现门型号Day577根因及F014历史跨源与整班守门开门许可均继续待证。"
+ending_state: "Day61707:09松桥南廊双箱双卡青白碗与蓝票盒原位，已借两本书及真实期限由母亲负责，已付住期到Day61912；仁合里旧屋封闭隔离禁返住未变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d4c9d35dda0e878598417dc4fefbc91aa07dcd50", final_draft_sha: "da4cdca9d93f46041bd866ecdd0a518325677a73", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "predecessor_ready_sha_rebind_only"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3375
