@@ -41,3 +41,8 @@
 - 仁合里17号楼四楼原门闭锁、12cm观察口与亡夫饰板分别封存，受控水电隔离Day536撤清运且整屋禁返住；专业失锁整班看守与替岗、母亲再次开门许可未成。R-12最后独立签、完整现门型号Day577擦响根因、F014旧号旧信旧押金全部渠道、七号箱五楼漏源2019及F003/F008/M004/M005无新增跨源结论。
 - 夏宁周衡梁策仅Day62521:32按本人限报知道旧屋状态，不知住宿支付、图书馆展览、儿童赠礼、妹妹JZ4私人材料。
 - 已读取AGENTS/config/角色协议/阅读协议、Bible与人物卡、当前卷及arc、长期Memory、伏笔时间线、最近十章摘要与近五章Ready全文、详细章纲和计划表；未读历史reader_reviews。本轮仅Planner、Continuity Precheck、Writer，不做Editor/Reader/Revision/QA/Memory/Publish Gate。
+
+## Audit第762章：局部修订与源SHA证据（2026-11-15）
+- 原始Draft Blob: 76cb3089f6c414faeb01b3e7aa426bb3559989a3；初始Review: reader_reviews/0762_76cb3089.md（0 BLOCKER / 1 MAJOR / 2 MINOR）。
+- Stage A仅更正Day626早晨歪碗画的最后存放位置：从“放回画夹又在桌上”改为昨夜已收入画夹、次晨暂留其中。与下章从画夹取出一致；Day625撤展/领取、商户支付及当次双卡真开无改变。
+- 修改后Draft Blob: e449dd3a4a8bd26f78453f152baaf1e1de4d0d6e；新独立Pass A/B Review: reader_reviews/0762_e449dd3a.md，0/0/2，keep/none；有效字符3151。尚须独立QA、Memory与精确结构CI后才能ready。
