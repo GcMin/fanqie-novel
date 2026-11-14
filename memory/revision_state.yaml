@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 749
-current_stage: chapter749_stageA_newSHA_reader_QA_pass_exact_candidate_ci_required
-current_source_path: chapters/draft/0749.md
-current_source_sha: f0f2010a7d9d45f7dc53063e6f1465cc70f4d23b
-current_review_path: reader_reviews/0749_f0f2010a.md
+current_chapter: 750
+current_stage: chapter750_stageA_title_only_newSHA_reader_QA_pass_exact_candidate_ci_required
+current_source_path: chapters/draft/0750.md
+current_source_sha: 0cae49bb67a306b719fb9ea9c554d07b02c0fc2d
+current_review_path: reader_reviews/0750_0cae49bb.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter749_stageA_title_scope_prev748_ready_rebind_reader_0_0_2_QA_pass
+last_action: chapter750_StageA_correct_title_scope_reader_0_0_2_QA_pass
 last_action_date: "2026-11-14"
 last_error: null
-last_diff_summary: "第749章原稿Reader0/2/2，Stage A修原标题混淆收讫与另页退件及前748正式Ready依赖；748原草稿与Ready小说正文相同仅交付元数据变；749正文零字更动，新SHAf0f2010a独立Reader0/0/2、QA通过；待候选精确CI。"
+last_diff_summary: "第750章原稿Reader0/1/2，Stage A仅纠拟发登记被标题误表述为已见补件信；正文0字修改，前749精确正式Ready依赖；新SHA0cae49bb独立Reader0/0/2、独立Continuity/Style QA通过，精确候选CI仍须真实验证。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: f0f2010a7d9d45f7dc53063e6f1465cc70f4d23b
+current_review_source_sha: 0cae49bb67a306b719fb9ea9c554d07b02c0fc2d
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -8521,5 +8521,23 @@ combined_audit_chapter_749_20261114:
   predecessor_ready_sha: "a1d4a1faf64d4bfcd2300de855166184baeab51a"
   predecessor_body_identical: true
   dependency_status: verified_ready_compatible_body
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_750_20261114:
+  chapter: 750
+  source_before: "98e5aea7fe33ef78658fa59b76d194b2d99fc739"
+  source_after: "0cae49bb67a306b719fb9ea9c554d07b02c0fc2d"
+  changes: title_scope_and_detailed_plan_only_body_unchanged
+  initial_review: reader_reviews/0750_98e5aea7.md
+  current_review: reader_reviews/0750_0cae49bb.md
+  counts_before: {blocker: 0, major: 1, minor: 2}
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "bf75a6e6e7282ccf1ad4bf58191ffae451397a98"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
