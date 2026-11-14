@@ -6,15 +6,16 @@
 - role: Writer
 - status: draft
 - depends_on_chapter: 769
-- depends_on_source_sha: c8e9226e8fe197c2d61cc5cb50e207b30e59b1ed
-- dependency_status: provisional
+- depends_on_source_sha: 54ca737b158e29ab5b49379ca95952a6794082c9
+- dependency_status: verified_exact_ready_blob
 - target_effective_chars: 2600-3400
 - actual_first_draft_effective_chars: 2945
+- post_revision_effective_chars: 2957
 
 ## 目标、POV、开场状态
 - POV：仁合里17号楼四楼母亲，限制第三人称；Day63407:26—Day63507:11。
 - 目标：完成新荷街本人租房从待签草案到独立合法交付的实质跃迁，严格区分验收、修理、签署、实收、授权开卡、独立出入和两箱实际入住。
-- 开场：第769章仅为待审Draft Git Blob `c8e9226e8fe197c2d61cc5cb50e207b30e59b1ed`，本章依赖其暂定Day633看房、产权/报价初核、Day63416:00验交预约；不作为Canon。Day63407:08母亲仍实住松桥西廊，房钱及双卡到Day63512，甲乙箱青白碗蓝旧票盒旧船票，歪双碗原画积墨废样、外甥署名旧纸船和新方窗船赠卡、邹姨共印第一张都在。柳叶街旧窗水迹原因未证、未租成。
+- 开场：第769章原Draft Blob `c8e9226e8fe197c2d61cc5cb50e207b30e59b1ed` 与正式Ready Blob `54ca737b158e29ab5b49379ca95952a6794082c9` 经核对小说正文一致，差异仅为交付Front Matter；已按正式Ready事实承接Day633看房、权属报价初核及Day63416:00验交预约。Day63407:08母亲仍实住松桥西廊，房钱及双卡到Day63512，甲乙箱青白碗蓝旧票盒旧船票，歪双碗原画积墨废样、外甥署名旧纸船和新方窗船赠卡、邹姨共印第一张都在。柳叶街旧窗水迹原因未证、未租成。
 
 ## 人物诉求与冲突
 - 母亲要自己承担一份可以真正入住的长期合同，不接受房屋待交却先认验收合格；明日西廊十二点到期，时间紧迫但仍有一夜已付住宿。
@@ -35,7 +36,7 @@
 - 下章优先Day63512前松桥按正式手续退房、两箱搬运及入住清点；若失约仍必须按事实记录。孩子将来是否来挂画由本人同意，旧纸船/新方窗卡不能混淆。
 
 ## Continuity Precheck与秘密边界
-- published/含0153；三目录当前最大章号769；本章不得跳章、不得修改769；769仅draft，严格标注本章 `depends_on_chapter: 769`，`depends_on_source_sha: c8e9226e8fe197c2d61cc5cb50e207b30e59b1ed`，`dependency_status: provisional`。其Day633房源访看与新赠卡仍是可后续独立审修的临时参照。
+- published/含0153；三目录当前最大章号769；本章不得跳章、不得修改769；769已正式Ready，核对其原Draft与Ready除交付元数据外小说正文逐字相同，按正式Ready精确依赖 `depends_on_chapter: 769`，`depends_on_source_sha: 54ca737b158e29ab5b49379ca95952a6794082c9`，`dependency_status: verified_exact_ready_blob`。Day633看房与新赠卡已经成为可追溯的前章已审定事实。
 - 仁合里旧四楼闭锁12cm观察口与亡夫饰板分封、受控水电隔离、Day536撤清运整屋禁返住、失锁整班守门替岗和再开门许可无。R-12独立末签/现门型号Day577根因、F014旧号旧信旧押金全渠道/七号箱/五楼漏源2019及F003/F008/M004/M005仍无跨源新结论。
 - 母亲本人能知道新荷街合同/真付款/卡和钥匙；晓漫只据母亲授权的文件与回信得知；孩子未被代替决定作品展出；夏宁周衡梁策仅得旧屋安全限项，不能获母亲私租房源和押金。
 - 按本轮最新main重新读取治理、Bible、旧卷/arc、人物、长期状态、伏笔时间线、未来计划、759—768章摘要、765—769章完整正文，未读取reader_reviews；仅Planner、Continuity Precheck、Writer。
