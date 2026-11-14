@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 763
-last_reviewed_title: "她给陌生人印了一张没写地址的画"
-last_source_path: chapters/draft/0763.md
-last_source_sha: d6c0ca13f02d55da4cb9fc3f7df7e27c3fb46fd3
-last_review_path: reader_reviews/0763_d6c0ca13.md
+last_reviewed_chapter: 764
+last_reviewed_title: "她在报名表上留下了能接通的号码"
+last_source_path: chapters/draft/0764.md
+last_source_sha: 4e690280b75ae03fcc611fb49723c38a2eb08dd1
+last_review_path: reader_reviews/0764_4e690280.md
 last_reviewed_at: "2026-11-15"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,11 +12,11 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 762
-depends_on_source_sha: 57709232d012fd7f4913b2b315a3c1f61a4ec008
-dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: 57709232d012fd7f4913b2b315a3c1f61a4ec008
-predecessor_sha_mismatch: true
+depends_on_chapter: 763
+depends_on_source_sha: 5d9905dd5e1728e22c25ac1e51bf3636e722df3a
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 5d9905dd5e1728e22c25ac1e51bf3636e722df3a
+predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
 # 2026-10-15 唯一 Audit 回填最早草稿，保留原独立 Reader 游标，不回退最后审查章节
@@ -9844,4 +9844,25 @@ combined_audit_chapter_763_20261115:
   content_qa: pass
   stage_a_used: 1
   body_revisions: 1
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_764_20261115:
+  chapter: 764
+  title: "她在报名表上留下了能接通的号码"
+  source_path: chapters/draft/0764.md
+  source_sha: "4e690280b75ae03fcc611fb49723c38a2eb08dd1"
+  review_path: reader_reviews/0764_4e690280.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 763
+  depends_on_source_sha: "5d9905dd5e1728e22c25ac1e51bf3636e722df3a"
+  predecessor_sha_mismatch: false
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 0
   structural_gate: exact_candidate_ci_required_before_main

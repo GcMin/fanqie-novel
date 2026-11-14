@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 764
+title: "她在报名表上留下了能接通的号码"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "4e690280b75ae03fcc611fb49723c38a2eb08dd1"
+reader_review: "reader_reviews/0764_4e690280.md"
+depends_on_chapter: 763
+depends_on_source_sha: "5d9905dd5e1728e22c25ac1e51bf3636e722df3a"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day62707:31—Day62807:06"
+summary: >-
+  Day62707:31母亲在松桥客舍东廊甲乙箱双卡青白碗蓝旧票盒旧船票与已领回双碗原画、积墨废样、孩子署名赠船都在；Day626正式单碗画已交何阿姨。商户当前真钱仅到Day62812。Day62709:22在分馆母亲核公共软板已归馆洗净、问Day63014普通共桌活动，小吴误拿需邮寄地址的材料包申请，她不把仁合里禁返住旧房或明日到期客舍房号当邮寄地址；09:43换成只需称呼、有效手机、到场时段和工具需求的馆内到场表，馆方真录一个席位并打印预约编号，未来不能来可本人取消。10:56小郑仅有Day628之后住宿审批待办、未商户新收款房态锁定，能预核标准退房寄存接领岗位及罗岚备岗但未真正交箱卡。中午何阿姨本人称她已将前日单碗赠画给姐姐看、姐姐觉得空桌宽敞且暂放书架；母亲仅获二手说法，不证对方永久收藏，不替何阿姨报活动。下午晓漫视频知母亲报名却尚不知未来住处，孩子自己试印歪船。21:23母亲只向夜间中心限项回报旧四楼闭锁封控状态。Day62807:06甲乙箱双卡青白碗蓝旧票盒原画废样孩子纸船均在，现房真付当日12点到期，后期无商户真收锁房；Day63014共桌已有真实一人预约但尚未实际到场。
+meaningful_state_changes:
+  - "Day63014分馆普通共桌按正确本人到场表实际登记一席并打印有编号的小票；使用可接通手机而未伪报旧屋或客舍邮寄地址。"
+  - "何阿姨本人转述姐姐已看Day626新单碗画并暂放书架；母亲没有亲见、未知永久收藏意愿。"
+  - "Day62812后新住宿未商户实收锁房，寄存交接预核不等于双箱实际移交。"
+knowledge_updates:
+  - "母亲与小吴区分邮寄材料收件申请和本人到场共桌活动预约，通讯号码有效不等于有安全邮寄住址。"
+  - "母亲已知何阿姨转述姐姐看画，未得到独立见证；夜间中心只知本人旧屋安全限项，不获馆内预约和家人第三方隐私。"
+relationship_updates:
+  - "母亲与何阿姨保留无强制后续联系的私人作品交流，不替她报名或要求姐姐永久收画；晓漫不代母亲确定住房，孩子自己决定下一张船印。"
+foreshadowing_updates:
+  - "Day62812后住处及真退款/新商户付款锁房待有权岗位实际核办；Day63014本人共桌只有已办预约、未到场。"
+  - "旧四楼专业失锁整班守门替岗和再次开门许可未立、R-12独立末签今门型Day577根因、F014旧号旧信旧押金全部渠道七号箱五楼旧漏源2019及F003/F008/M004/M005无新跨源证。"
+ending_state: "Day62807:06松桥客舍东廊甲乙两箱双卡青白碗蓝旧票盒旧船票和母亲原双碗画、积墨废样、儿童署名船都在，商户实收住期仅到今日12点后段未锁房；Day63014分馆共桌已真预约，姐姐见画只获何阿姨本人转述，仁合里旧屋仍闭锁双封隔离禁返住，R-12/F014未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "4e690280b75ae03fcc611fb49723c38a2eb08dd1", final_draft_sha: "4e690280b75ae03fcc611fb49723c38a2eb08dd1", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "none_no_fix_required"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3201

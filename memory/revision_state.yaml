@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 763
-current_stage: chapter763_reader_QA_pass_exact_ci_required
-current_source_path: chapters/draft/0763.md
-current_source_sha: d6c0ca13f02d55da4cb9fc3f7df7e27c3fb46fd3
-current_review_path: reader_reviews/0763_d6c0ca13.md
+current_chapter: 764
+current_stage: chapter764_reader_QA_pass_exact_ci_required
+current_source_path: chapters/draft/0764.md
+current_source_sha: 4e690280b75ae03fcc611fb49723c38a2eb08dd1
+current_review_path: reader_reviews/0764_4e690280.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter763_stage_a_rebind_prev762_and_fix_artwork_quantity_newSHA_reader_QA_pass
+last_action: chapter764_no_revision_reader_QA_pass_exact_prev763
 last_action_date: "2026-11-15"
 last_error: null
-last_diff_summary: "原763依赖762旧Draft 76cb3089，762正式Ready 57709232只修Day626作品放画夹位置不变其他事实；Stage A重绑前章Ready并修11:06第三张画数量口误；新Draft d6c0ca13f02d55da4cb9fc3f7df7e27c3fb46fd3新SHA独立Pass A/B 0/0/2。"
+last_diff_summary: "764依赖763正式Ready 5d9905dd精确匹配；本人Day63014馆内普通共桌09:43真报名，住房Day62812后仍未付锁，何阿姨姐姐见画仅其本人转述；原Draft 4e690280无必修项Reader A/B 0/0/2及独立QA PASS。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 4306b05e334c29989e37fa97ca6ed71cb40e1f49
+current_review_source_sha: 4e690280b75ae03fcc611fb49723c38a2eb08dd1
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -8782,4 +8782,17 @@ combined_audit_chapter_763_20261115:
   predecessor_fact_delta: artwork_location_fixed_at_Day62607_10_other_facts_same
   dependency_status: verified_ready_compatible_body
   content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_764_20261115:
+  chapter: 764
+  source_sha: "4e690280b75ae03fcc611fb49723c38a2eb08dd1"
+  review: reader_reviews/0764_4e690280.md
+  original_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  content_qa: pass
+  predecessor_ready_sha: "5d9905dd5e1728e22c25ac1e51bf3636e722df3a"
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main
