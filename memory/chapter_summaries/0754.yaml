@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 754
+title: "那辆推车挪走以后，路才真正空出来"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "947f32a8f31025a5151dceb1a568d7f2d2a4b939"
+reader_review: "reader_reviews/0754_947f32a8.md"
+depends_on_chapter: 753
+depends_on_source_sha: "5e4943db404341f02239ca8a5997dd1b8c16b44c"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day61707:33—Day61807:12"
+summary: >-
+  Day61707:33母亲在松桥客舍南廊仍有甲乙箱、双卡、青白碗、外甥蓝色已用票盒一张票和前日真正借阅的两本版画书、画夹；商户住房真钱仅到Day61912。她发现清洁推车和布草袋堵北侧疏散通道转角，07:46只拍可见公共位置并反馈前台；主管08:02到场实试背包通过受阻，08:14推车真正移出转角。安全巡查员沿真实路线核北侧疏散门状态并清另一只空塑料筐，08:43签当班有限清障记录，母亲拒代安全岗位签完成。调查后知布草间实际储位被两箱后勤待清用品挤占，后勤归物腾空车位；15:56前台尚只证上午归位不冒充下午接班，16:26下午领班现场实看并签交，16:32巡查转角未见车/筐，16:39主管限项告知本人，两班当日闭环不等于永久保证。母亲与晓漫电话并用自有废纸和泡沫版试印，借书不沾墨，晚间女儿带菜共餐；21:24母亲本人只向中心限报仁合里四楼依旧锁闭12cm观察口和亡夫板分封、水电隔离Day536撤清运及整屋禁返住、失锁整班守门替岗和再次开门许可无，不能从客舍清障推旧屋安全。Day61807:12南廊转角当次无车障，双箱双卡两碗两书和蓝票盒未动，Day61912后房钱依旧未真收，母亲拟当日核续住。
+meaningful_state_changes:
+  - "松桥客舍北侧疏散转角推车和布草袋真正撤离，另有空筐实际清障；巡查员核路线及北侧门并有当次签识，不代表永久消防验收。"
+  - "后勤腾出实有空车位，16:26下午领班现场签接、16:32复核转角空出，解决了单纯挪车后下一班仍无处停的实际成因。"
+  - "母亲本人以自有废纸试印并与晓漫共饭；Day618拟核Day619之后的新住宿，当前无未来真付。"
+knowledge_updates:
+  - "母亲和客舍有责岗位知道通路不能靠侧身勉强通过，哪一班实清、车位在哪里、哪一班真签交必须各自核；同日两次巡查不等于永久安全。"
+  - "夜间中心只在Day61721:24本人授权限报后知仁合里旧四楼安全状态未变，不获得客舍内部安全认证责任或家人借阅私事。"
+relationship_updates:
+  - "母亲维护暂住房正常通路却不迁怒清洁员、不替有责岗位签安全检查；晓漫上班间隙问候、晚上带菜共餐，仍不代办房屋工程。"
+foreshadowing_updates:
+  - "Day61912后房间仍无下一期商户真款，Day618须按具名渠道追；R-12独立末签、今门型Day577根因、F014历史旧号旧信旧押金及七号箱五楼旧漏源2019等跨源均未确证。"
+ending_state: "Day61807:12松桥南廊疏散转角当次无遮挡，甲乙箱双卡青白碗两本借书蓝票盒在，客舍实付仅到Day61912；仁合里旧屋双封隔离撤清运禁返住未解除，失锁连续专业守门和再次开门许可不存在。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "947f32a8f31025a5151dceb1a568d7f2d2a4b939", final_draft_sha: "947f32a8f31025a5151dceb1a568d7f2d2a4b939", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "none_no_fix_required"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3479
