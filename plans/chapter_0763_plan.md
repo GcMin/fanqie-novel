@@ -6,15 +6,15 @@
 - role: Writer
 - status: draft
 - depends_on_chapter: 762
-- depends_on_source_sha: 76cb3089f6c414faeb01b3e7aa426bb3559989a3
-- dependency_status: provisional
+- depends_on_source_sha: 57709232d012fd7f4913b2b315a3c1f61a4ec008
+- dependency_status: verified_ready_compatible_body
 - target_effective_chars: 2600-3400
 - actual_first_draft_effective_chars: 3395
 
 ## 目标、POV、时间、开场
 - POV：仁合里十七号楼四楼母亲的有限第三人称，Day62607:29—Day62707:08。
 - 目标：在第762章取回五日短展画、实付三晚住期后，母亲重新以普通参与者身份来到分馆开放工作台，用自己的手印一张独立新作，自主赠予曾希望带姐姐看画的何阿姨，而非继续围绕住房手续生活。
-- 开场：前章仅为未审草稿，所涉事实均以指定临时版本为连续性参考而非正式Canon；暂按其明确的Day62510:57本人真领《还在用的两只碗》、11:41松桥商户真收Day62512—Day62812三晚、11:43东廊同房锁定、12:04与21:18两卡分别实开作为本章临时开场。甲乙箱、青白实体碗、蓝色已用票盒旧票和孩子本人署名赠船在东廊；两借书已真还；旧屋不得返住。
+- 开场：前章已正式Ready，已对旧Draft与正式Ready小说事实差异执行核对；按其确认的Day62510:57本人真领《还在用的两只碗》、11:41松桥商户真收Day62512—Day62812三晚、11:43东廊同房锁定、12:04与21:18两卡分别实开作为本章临时开场。甲乙箱、青白实体碗、蓝色已用票盒旧票和孩子本人署名赠船在东廊；两借书已真还；旧屋不得返住。
 
 ## 人物诉求与冲突
 - 母亲希望自己的创作既能属于本人，也能随本人自由赠予他人；她在陌生人的好意面前不愿被压成永久展览、公开宣传或社会救助的材料。
@@ -36,7 +36,12 @@
 
 ## Continuity Precheck、人物知识、权限与禁止提前泄露
 - 首读最新main SHA：569eb811dfe6ddc2f2bc8128f4c4293c2a7d0693；三目录最高第762章，第153章在published；第763章正文和章纲均原本不存在。
-- 依赖第762章draft精确 Git blob 76cb3089f6c414faeb01b3e7aa426bb3559989a3；dependency_status: provisional。第762章为未审草稿，Day625取画/续住房等仅作暂时连续性引用，不写入已确认Canon，待独立Audit校对其正式终稿的事实变化。
+- 依赖第762章draft精确 Git blob 76cb3089f6c414faeb01b3e7aa426bb3559989a3；dependency_status: verified_ready_compatible_body。第762章为未审草稿，Day625取画/续住房等仅作暂时连续性引用，不写入已确认Canon，待独立Audit校对其正式终稿的事实变化。
 - 不把临时住宿视为旧屋返住；两本馆书已清借阅不能重借在手；匿名短展Day62510:26已到期、Day62510:57本人领取后不能写仍挂墙上；外甥赠母亲的是另张签名纸船，原薄板仍归孩子。
 - 夏宁周衡梁策只听母亲当次授权的旧屋限项，不能从她的个人创作推知图书馆何阿姨、姐姐病情、孩子作品、住宿经费；不新造2019或F014历史跨源确证。
 - 本轮只执行Planner、Continuity Precheck、Writer；不读历史reader_reviews，不修改此前章节或memory，不做Editor/Reader/Revision/QA/Publish Gate，不发布番茄。
+
+## Audit 763局部修订与新版SHA证据（2026-11-15）
+- 原Draft SHA 59dbc9a478d6ccf0f2b1dfce10eb48c8478b8dcc，原Reader独立Pass A/B为0 BLOCKER/2 MAJOR/2 MINOR。明确修复：重绑762正式Ready依赖；11:06母亲只答允待第二张正式版画晾干后供何阿姨带给姐姐，不另承诺凭空多印第三张。
+- 新Draft SHA d6c0ca13f02d55da4cb9fc3f7df7e27c3fb46fd3；在新SHA上独立Pass A/B重审0/0/2 keep/none；正文仅改11:06一处对话，有效3391字。
+- 第762章原Draft 76cb3089至正式Ready 57709232只在Day626次晨纠正画夹/桌上位置，真实事实无变化；当前763开场画从画夹取出。Reader保存在 reader_reviews/0763_59dbc9a4.md 和 reader_reviews/0763_d6c0ca13.md，独立QA及精确结构CI仍为ready放行前置条件。
