@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 752
+title: "二楼电梯停着，她们在一楼看了画"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "1f9f93bb81b8bfe289a8ff002c2ba582601f96ee"
+source_draft_sha: "e89248f3ec63e94f7af48275b1c44197e0c3e270"
+initial_reader_review: "reader_reviews/0752_1f9f93bb.md"
+reader_review: "reader_reviews/0752_e89248f3.md"
+depends_on_chapter: 751
+depends_on_source_sha: "129879f1a5c16e1f2ff863538e26957d2736aa93"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day61507:32—Day61607:06"
+summary: >-
+  Day61507:32母亲松桥南廊同房甲乙双箱两房卡青白碗及未装蓝色票盒在，商户真钱至Day61912。母亲得知展馆二楼原作展仍开但电梯检修且无已确认无障碍上楼路线，08:49决定只看一楼。10:23晓漫和外甥到客舍，三人坐公交，实际由一楼正式入口参观版画、手作；母亲印歪两个碗仍保留第一张，孩子第二次印成清楚桥船。Day61513:16物业秩序主管仅告未来守门协调一人有意愿，其他时段、本人签领、失锁替岗和交接均未齐，旧门不开。16:27回南廊后孩子自己粘歪蓝色“已用票”盒并实际试投可收，母亲只承诺代收不代造票。21:21母亲本人限项回报夜间中心旧门未获许可，未讲家庭展览。Day61607:06南廊原房双箱双卡双碗与已装票盒在，七晚真钱至Day61912，仁合里四楼闭锁12厘米观察口和亡夫饰板双封水电隔离Day536撤清运禁返住；R-12最终独立签、今门型号Day577根因、F014历史线未获新证。
+meaningful_state_changes:
+  - "母亲本人核实正式一楼可达路线并与女儿外甥实际参观版画及手作，二楼不访问。"
+  - "外甥亲手安装不搬站蓝色已用票盒并试投真实可用，母亲接代收责任。"
+  - "物业仅一人未来候选意愿，不等于失锁守门完整实签和开门许可。"
+knowledge_updates:
+  - "母亲知道一楼本次实际可达、二楼原作展仍开但电梯检修，没有自行上楼或泛化所有路线。"
+  - "夏宁周衡梁策仅Day61521:21经母亲限项回拨知本户安全仍不足，不知家庭活动/JZ4。"
+relationship_updates:
+  - "母女尊重各自决定，孩子兑现自己装票盒承诺；祖辈只代收不替造票。"
+foreshadowing_updates:
+  - "失锁整班看守替岗与本人再次开门许可仍不成立，R-12末签、现门根因、F014历史跨源均未证。"
+ending_state: "Day61607:06松桥南廊甲乙箱双卡青白碗与新装蓝色已用票盒原位，商户真钱至Day61912；旧屋双封隔离禁返住不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1f9f93bb81b8bfe289a8ff002c2ba582601f96ee", final_draft_sha: "e89248f3ec63e94f7af48275b1c44197e0c3e270", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "correct_title_scope_and_elevator_1f_location"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2889
