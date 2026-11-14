@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 764
-last_reviewed_title: "她在报名表上留下了能接通的号码"
-last_source_path: chapters/draft/0764.md
-last_source_sha: 4e690280b75ae03fcc611fb49723c38a2eb08dd1
-last_review_path: reader_reviews/0764_4e690280.md
+last_reviewed_chapter: 766
+last_reviewed_title: "共桌的人只问她还印不印"
+last_source_path: chapters/draft/0766.md
+last_source_sha: bda57bb6ce52f0ca969af31751d3a8c3d2e92b15
+last_review_path: reader_reviews/0766_bda57bb6.md
 last_reviewed_at: "2026-11-15"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 763
-depends_on_source_sha: 5d9905dd5e1728e22c25ac1e51bf3636e722df3a
+depends_on_chapter: 765
+depends_on_source_sha: c95a981a248e04372a0ade03200664f4cc52f717
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 5d9905dd5e1728e22c25ac1e51bf3636e722df3a
+predecessor_current_source_sha: c95a981a248e04372a0ade03200664f4cc52f717
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -9883,6 +9883,27 @@ combined_audit_chapter_765_20261115:
   qa_gate: pass
   depends_on_chapter: 764
   depends_on_source_sha: "994f2ce800710f1940553c68287319ee41844334"
+  predecessor_sha_mismatch: false
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 0
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_766_20261115:
+  chapter: 766
+  title: "共桌的人只问她还印不印"
+  source_path: chapters/draft/0766.md
+  source_sha: "bda57bb6ce52f0ca969af31751d3a8c3d2e92b15"
+  review_path: reader_reviews/0766_bda57bb6.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 765
+  depends_on_source_sha: "c95a981a248e04372a0ade03200664f4cc52f717"
   predecessor_sha_mismatch: false
   dependency_status: verified_exact_ready_blob
   body_revisions: 0

@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 766
+title: "共桌的人只问她还印不印"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "bda57bb6ce52f0ca969af31751d3a8c3d2e92b15"
+reader_review: "reader_reviews/0766_bda57bb6.md"
+depends_on_chapter: 765
+depends_on_source_sha: "c95a981a248e04372a0ade03200664f4cc52f717"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day62907:31—Day63016:26"
+summary: >-
+  Day62907:31母亲已真住松桥西廊一楼，甲乙两箱双新卡、青白实碗、蓝色已用票盒旧船票、本人歪双碗原画积墨废样及外甥署名纸船均在，Day628商户真收四晚仅至Day63212，Day63014分馆本人共桌预约仍未签到。母亲备两张干净厚纸和布，晓漫告知外甥次日下午有课，外甥不同意将自己赠船作为多人复制的图案，母亲尊重。Day629下午小吴核定一楼开放台、13:40可签到、现场用具按规则归馆；21:21母亲只向夏宁授权回报仁合里旧四楼闭锁双封禁返住等限项，无旧案新跨源证。Day63013:42母亲凭预约票和手机号末四位真实签到获桌位卡，由预约升级为真实本人到场；小吴与另一值班员重新安置晾画架给持手杖的邹姨留足通道。邹姨自带旧布但纸用水性颜料未验证布固色，遂改纸试印。两人各在馆方空白公用板刻花盆和简桌沿，在废纸上试版后利用母亲带的两张厚纸共印两张花盆与桌沿留白的作品，15:11前完成晾干、邹姨自主选第二张带给孙女看，母亲留第一张。双方未带走公用工具、未对自拍人脸姓名预约信息授权公开；不约下次、不交换门牌。Day63015:48母亲将第一张合作画入纸套；16:26返西廊后只给晓漫和外甥发不带居住背景的纸画照片，说明左边花盆是邹姨所画，孩子确认双方各一幅。实付住期仅到Day63212；旧仁合里四楼封控和R-12/F014待核未变。
+meaningful_state_changes:
+  - "Day63013:42本人由共桌预约升级为馆内实际签到及真实参加，活动未转为讲师或公开展出。"
+  - "母亲与邹姨自愿共印两张，邹姨选择并带走第二张，母亲带回第一张；创作与材料归属经双方当面确认。"
+  - "公用晾架遮挡持杖参加者通道由值班员真实调整，未经固色测试的布面印画未假称可靠。"
+knowledge_updates:
+  - "母亲和小吴知道普通共桌到场、材料和隐私授权的不同边界；两张公用板只馆内用，孩子赠船不自动授权重印。"
+  - "夏宁周衡梁策只获本人旧宅安全限项，不获邹姨个人信息、共桌现场和西廊财务；晓漫与孩子只获纸面照片及创作份额。"
+relationship_updates:
+  - "母亲与邹姨仅形成一次平等共创和礼貌交往，无后续会面约定或私人地址交换；外甥仍有对赠船图案再用的决定权。"
+foreshadowing_updates:
+  - "Day63212后松桥西廊续住未经批准实收和锁房；Day630馆内共桌已经真实到场，不得再写为待到场。"
+  - "旧四楼专业失锁整班守门替岗与再开门许可、R-12末签现门型Day577根因、F014旧号旧信旧押金全渠道七号箱五楼漏源2019及F003/F008/M004/M005均未有新跨源证。"
+ending_state: "Day63016:26母亲住松桥西廊首层甲乙箱双新卡青白实碗蓝旧票盒和本人原画废样外甥署名船都在，画夹新增本人留存的第一张合作花盆桌沿画；邹姨持另一张自选作品，双方未约再次见面。四晚真款仅至Day63212，分馆本人共桌已真正到场，旧仁合里四楼封控禁返住R-12/F014待核不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "bda57bb6ce52f0ca969af31751d3a8c3d2e92b15", final_draft_sha: "bda57bb6ce52f0ca969af31751d3a8c3d2e92b15", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "none_no_fix_required"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2885
