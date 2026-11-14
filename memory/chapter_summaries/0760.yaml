@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 760
+title: "两只箱子在中午换了房间"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "09d1fe8848222fde930ff83f9ee728605b7e6348"
+reader_review: "reader_reviews/0760_09d1fe88.md"
+depends_on_chapter: 759
+depends_on_source_sha: "5bc7fd1de73fd0e5b09204be880c806db4b32da0"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day62307:24—Day62407:07"
+summary: >-
+  Day62307:24母亲仍在松桥南廊旧房，真付款只到当天12点、下一段由其他新客真付；东廊Day62312—Day62512两晚商户已真收并锁房，但清洁和发卡未交。11:30小郑及主管具名回告东廊尚未验完；11:47行李间真收甲乙两箱、贴签出收条，11:57南廊两张旧房卡实退注销，避免占用他客时段。12:18清洁员报完、12:29主管真实检查、12:34东廊房移交前台可入住，12:49母亲领取两张新卡分别实开房门，13:14—13:40行李间凭寄存条将甲乙箱按住客正常路线送入东廊，母亲确认箱锁、蓝线和青白实碗及旧票盒完整、真签收。晓漫与孩子傍晚来东廊共餐，孩子独立画船尾绳线未擅自提交分馆。21:16母亲本人按夜间有值守正门实际回新房、新双卡当次分别实开，不作永久保证；21:28只向夜间中心限报仁合里旧四楼双封水电隔离、Day536撤清运禁返住及专业失锁守门、再次开门许可缺项未变。Day62407:07东廊实住、两箱双新卡青白碗蓝旧票在，房费仅到Day62512；两书由本人还、歪双碗版画五日到期本人领取、船板由孩子带走。
+meaningful_state_changes:
+  - "11:47两箱行李间有责暂存并出双份收条、11:57南廊原房和两旧卡实交，不侵占已付他客。"
+  - "12:34东廊清洁实际交房、12:49两张新卡各自开门、13:40两箱真实入房本人签收、21:16夜间正规正门本人实走、双卡当次真开。"
+  - "个人借书、五日匿名展品、孩子作品均仍由各自本人负责，不被住房临时搬迁吞没。"
+knowledge_updates:
+  - "母亲及客舍有责岗位区别付费锁房、清洁预估与真实验交、寄存暂收和实体移交、旧卡注销与新卡逐张实开及夜间当次试走；时间和签收责任可追。"
+  - "夜间中心仅21:28收母亲旧屋限项，不得知其他住客、馆展及家人私事。"
+relationship_updates:
+  - "母亲未让晓漫替住宿责任岗位搬箱或为未交房提前请假；晚间女儿孩子共餐，孩子自主决定完成船板和投稿。"
+foreshadowing_updates:
+  - "东廊两晚真正到Day62512，尚无下一期款；图书馆两本书本人待还、歪碗版画五日到期本人领。"
+  - "旧屋R-12独立末签、完整门型Day577擦响根因、F014旧号旧信旧押金全部渠道七号箱五楼旧漏源2019及F003/F008/M004/M005无新跨源证。"
+ending_state: "Day62407:07母亲住东廊，甲乙箱、新期双卡、青白碗和蓝色已用票盒旧船票在；两书归还与展画领回仍待，旧屋仍封闭隔离禁返住，失锁安防与再开门许可缺。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "09d1fe8848222fde930ff83f9ee728605b7e6348", final_draft_sha: "09d1fe8848222fde930ff83f9ee728605b7e6348", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "none_no_fix_required"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3475
