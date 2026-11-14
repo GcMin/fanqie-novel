@@ -8865,3 +8865,20 @@ combined_audit_chapter_769_20261115:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_770_20261115:
+  chapter: 770
+  source_original: "fd940c6f32cc07928bf2130d978d8142d2485199"
+  original_review: reader_reviews/0770_fd940c6f.md
+  original_counts: {blocker: 0, major: 2, minor: 2}
+  source_sha: "faf38c0147e766399157b7730adf5e44db945f52"
+  review: reader_reviews/0770_faf38c01.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  stage_a_changes: "rebind_prev_769_exact_ready_and_correct_sink_water_valve_before_retest"
+  predecessor_original_sha: "c8e9226e8fe197c2d61cc5cb50e207b30e59b1ed"
+  predecessor_ready_sha: "54ca737b158e29ab5b49379ca95952a6794082c9"
+  predecessor_body_identical: true
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main

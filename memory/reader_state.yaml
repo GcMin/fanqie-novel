@@ -9974,3 +9974,27 @@ combined_audit_chapter_769_20261115:
   dependency_status: verified_exact_ready_blob
   body_revisions: 0
   structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_770_20261115:
+  chapter: 770
+  title: "院门在晚上也认她"
+  source_path: chapters/draft/0770.md
+  original_source_sha: "fd940c6f32cc07928bf2130d978d8142d2485199"
+  original_review_path: reader_reviews/0770_fd940c6f.md
+  source_sha: "faf38c0147e766399157b7730adf5e44db945f52"
+  review_path: reader_reviews/0770_faf38c01.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  original_counts: {blocker: 0, major: 2, minor: 2}
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 769
+  depends_on_source_sha: "54ca737b158e29ab5b49379ca95952a6794082c9"
+  predecessor_original_draft_sha: "c8e9226e8fe197c2d61cc5cb50e207b30e59b1ed"
+  predecessor_body_identical: true
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 1
+  structural_gate: exact_candidate_ci_required_before_main

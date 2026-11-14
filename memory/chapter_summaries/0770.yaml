@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 770
+title: "院门在晚上也认她"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "fd940c6f32cc07928bf2130d978d8142d2485199"
+source_draft_sha: "faf38c0147e766399157b7730adf5e44db945f52"
+initial_reader_review: "reader_reviews/0770_fd940c6f.md"
+reader_review: "reader_reviews/0770_faf38c01.md"
+depends_on_chapter: 769
+depends_on_source_sha: "54ca737b158e29ab5b49379ca95952a6794082c9"
+dependency_status: verified_exact_ready_blob
+predecessor_original_draft_sha: "c8e9226e8fe197c2d61cc5cb50e207b30e59b1ed"
+predecessor_fact_delta: body_identical_delivery_frontmatter_only
+timeframe: "Day63407:26—Day63507:11"
+summary: >-
+  Day63407:26母亲仍真住松桥客舍西廊，甲乙箱两卡青白碗蓝旧票盒和本人歪双碗原画废样、邹姨首张花盆共印、孩子旧署名纸船与Day633本人新赠方窗船卡都在，商户三晚真钱只到Day63512。09:13姚姐传钟女士清洁搬走两只屋主私箱的计划，母亲不以照片当交付。15:53本人到新荷街，房东用自己的卡开院门，实看私箱已清、屋内清洁，双方登记原表号与水电读数；试水发现柜下水槽软接头滴水，母亲未签无瑕疵。17:08物业允许的维修人员换匹配密封圈，17:34师傅先恢复进水阀，再由母亲连续试水观察干纸巾与接头无当次滴水，复测仅限此接头不证全屋隐管或雨天。母亲再审去除过宽免责的正式合同与验收附件，18:02同业主签署两份，租期从18:30起算，18:09本人转押金和首期房租、18:14钟女士实际账户收两笔并出用途收据，服务费另有门店实收单；未将银行转出认作房东已收。屋主真实交两把房门钥匙，18:37物业凭已签合同及证件实登记并发一张正式住户卡，母亲自己刷开院门再分别试两把房门钥匙，当次进出成立。20:46母亲独自在夜间正规入口刷自己卡真开院门与房门，新荷街本次合法租约和独立日夜进出已确立，但晚上她仍回松桥客舍住。21:28对夜间中心仅授权回报仁合里旧四楼封控限项。Day63507:11甲乙箱青白碗、旧双客舍卡、蓝旧票盒和画夹仍在松桥西廊，商户已付到当日12点，客舍退卡与有责行李搬入新荷街均未发生；新荷街钥匙两把住户卡一张由母亲自己保管。
+meaningful_state_changes:
+  - "新荷街Day634先发现软接头当次滴水拒假验收，再经维修人员更换密封圈、开阀后本人持续试水查明本次接头无当次滴漏并限项记账。"
+  - "18:02本人实际签署租约、18:14业主本人账户真收押金和首期租金，服务费另凭据；租期18:30起。"
+  - "两房钥匙及一张正式住户卡实际交母亲，白天本人刷卡及两钥匙各真开、20:46夜间正规通路本人再实开，新荷街合法取得而旧松桥双箱和房卡仍未退。"
+knowledge_updates:
+  - "母亲只认可有责维修当次水槽接头复测，不推隐蔽管道无问题；区分转账成功与房东到账、租约签署与钥匙、物业正式卡及夜间本人真开各个独立节点。"
+  - "晓漫只凭母亲本人分享的条款与晚间消息获合同及日夜独立出入结果，不代签付款；夜间中心不知道新荷街地址或租约。"
+relationship_updates:
+  - "母亲与钟女士实际建立普通租赁合同关系并有付款收据，姚姐独立留服务费凭证；晓漫保留愿帮看条款而不代决定的边界，外甥仍有个人作品摆放权。"
+foreshadowing_updates:
+  - "Day63512前松桥西廊按规定退双房卡并有责搬两箱至新荷街仍待真实执行，不能把拿卡拿钥匙写成搬入；新房未来雨天隐蔽问题未作无瑕疵担保。"
+  - "仁合里旧四楼闭锁双封受控水电隔离Day536撤清运整屋禁返住不变，专业失锁整班守门替岗与再开门许可未成，R-12独立末签现门型Day577擦响根因及F014旧号旧信旧押金全渠道七号箱五楼漏源2019无跨源新证。"
+ending_state: "Day63507:11母亲持新荷街已签真付租约、两把房钥匙与一张实发独立住户卡并有Day634日夜本人实开记录；仍真实住松桥西廊，原双房卡、双箱与全部物品未退未搬，商户三晚款仅到Day63512。新屋有权使用不等于已搬入，旧四楼禁返住R-12/F014待证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "fd940c6f32cc07928bf2130d978d8142d2485199", final_draft_sha: "faf38c0147e766399157b7730adf5e44db945f52", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "rebind_predecessor_ready_SHA_and_correct_water_valve_retest_order"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2957
