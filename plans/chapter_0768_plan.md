@@ -6,10 +6,12 @@
 - role: Writer
 - status: draft
 - depends_on_chapter: 767
-- depends_on_source_sha: 0667fdfa3ea6bd5eaea2f805792068fa5932653c
-- dependency_status: provisional
+- depends_on_source_sha: b0ecab7b9b5d031ddca3237d39f9472040065cc5
+- dependency_status: verified_exact_ready_blob
 - target_effective_chars: 2600-3400
 - actual_first_draft_effective_chars: 3533
+- latest_revised_effective_chars: 3552
+- audit_revision: Stage_A_two_MAJORS
 
 ## 目标、POV、开场状态
 - POV：仁合里17号楼四楼母亲，有限第三人称。Day63207:21—Day63307:06。
@@ -30,7 +32,13 @@
 - 新承接：业主询外侧合法检查许可但未有审批与维修复验日期；是否重新看房由母亲自主判断。优先继续寻找正常夜间通路和可负担有实际安全记录的长期居所。
 
 ## Canon/隐私边界与Continuity Precheck
-- 第767章在本轮查验时只有未审草稿，依赖具体Git Blob 0667fdfa3ea6bd5eaea2f805792068fa5932653c，dependency_status: provisional。第767章柳叶街候选、水迹、Day63209:30约见等仅作为该SHA临时事实，若独立Audit修订导致差异须复核本章，不先作为正式Canon。
+- 第767章已经作为正式Ready精确blob b0ecab7b9b5d031ddca3237d39f9472040065cc5 放行；Audit核其原Draft 0667fdfa3ea6bd5eaea2f805792068fa5932653c 与当前Ready仅交付元数据不同，正文完全相同。柳叶街候选、水迹、Day63209:30约见等事实可作已确认前章依赖；本章严格不把未执行检查、修复、租成当事实。
 - 仁合里17号楼四楼依旧闭锁，12cm观察口与亡夫饰板分别独封，水电受控隔离、Day536撤清运与整屋禁返住不变；失锁专业整班守门与替岗、本人的新开门许可均缺。R-12终签、现装门完整型号、Day577擦响根因、F014旧号初源/历史旧信本人实收/旧押金全渠道终退、七号箱五楼旧漏源与2019散件、F003/F008/M004/M005均无跨源新证明。
 - 夜间中心仅得本人授权旧屋限项；不可知姚姐/杜先生/谭师傅姓名、租房进度、图书馆邹姨共作及客舍财务。老案与新窗不得强行类比为同一证据源。
 - 开始前读取main真实章节三目录：第153章已在published，第767章在draft、第768章尚无；最近十章757—766摘要、最近五章763—767正文、必需Bible/人物卡/状态/卷弧/相关伏笔时间线和角色协议；未读历史reader_reviews。只做Planner、Continuity Precheck、Writer，不操作QA/Memory/旧章/发布。
+
+## Audit Stage A局部修订（2026-11-15）
+- 原Draft SHA: 93187fb3b605590e817f579976c7264c856cb028，Reader `reader_reviews/0768_93187fb3.md` 指明两项MAJOR：先前看房页事实误记及前章依赖仍为provisional。
+- 第767章原Draft与正式Ready正文一致，依赖更改为Ready b0ecab7b9b5d031ddca3237d39f9472040065cc5，本章正文只调整Day632杜先生解释“擦干不等于修过”及姚姐在既有“待核”记录上补电话询价未施工。其余情节和伏笔不变。
+- 新正文有效字符数3552，优选上沿3400稍超但低于硬上限3800，保留有限查窗和12点住宿实收两项必要执行过程。
+- 修订后新Git blob Reader A/B另审，原报告对新SHA不生效。
