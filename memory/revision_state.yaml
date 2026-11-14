@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 760
-current_stage: chapter760_reader_QA_pass_exact_ci_required
-current_source_path: chapters/draft/0760.md
-current_source_sha: 09d1fe8848222fde930ff83f9ee728605b7e6348
-current_review_path: reader_reviews/0760_09d1fe88.md
+current_chapter: 761
+current_stage: chapter761_reader_QA_pass_exact_ci_required
+current_source_path: chapters/draft/0761.md
+current_source_sha: 4306b05e334c29989e37fa97ca6ed71cb40e1f49
+current_review_path: reader_reviews/0761_4306b05e.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter760_reader_0_0_2_no_revision_independent_QA_pass
+last_action: chapter761_stage_a_predecessor_ready_sha_rebind_then_newSHA_reader_QA_pass
 last_action_date: "2026-11-14"
 last_error: null
-last_diff_summary: "第759章正式Ready与第760章依赖SHA精确一致；Reader 0/0/2 keep/none、正文不修改、QA内容通过；候选commit需精确CI验证。"
+last_diff_summary: "第760章原Draft 09d1fe8848222fde930ff83f9ee728605b7e6348与正式Ready 733b33ef23f07f2e77ba684816e5b654f2b6dbdf小说正文逐字一致，仅交付Front Matter不同；Stage A仅重绑761元数据及详细章纲，正文0字改，新Draft 4306b05e334c29989e37fa97ca6ed71cb40e1f49独立Pass A/B结果0/0/2 keep/none，独立QA通过，仍须精确候选CI。" 
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 09d1fe8848222fde930ff83f9ee728605b7e6348
+current_review_source_sha: 4306b05e334c29989e37fa97ca6ed71cb40e1f49
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -8721,6 +8721,26 @@ combined_audit_chapter_760_20261114:
   stage_c_used: 0
   body_revisions: 0
   predecessor_ready_sha: "5bc7fd1de73fd0e5b09204be880c806db4b32da0"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+ 
+combined_audit_chapter_761_20261114:
+  chapter: 761
+  source_before: "a55d6c0251bdb3a430e779aa31855d72fdc1a51b"
+  source_after: "4306b05e334c29989e37fa97ca6ed71cb40e1f49"
+  changes: predecessor_ready_sha_rebind_only_body_unchanged
+  initial_review: reader_reviews/0761_a55d6c02.md
+  current_review: reader_reviews/0761_4306b05e.md
+  counts_before: {blocker: 0, major: 1, minor: 2}
+  counts_after: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  predecessor_draft_sha: "09d1fe8848222fde930ff83f9ee728605b7e6348"
+  predecessor_ready_sha: "733b33ef23f07f2e77ba684816e5b654f2b6dbdf"
+  predecessor_body_identical: true
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

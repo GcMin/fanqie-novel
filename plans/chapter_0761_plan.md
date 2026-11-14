@@ -6,15 +6,15 @@
 - role: Writer
 - status: draft
 - depends_on_chapter: 760
-- depends_on_source_sha: 09d1fe8848222fde930ff83f9ee728605b7e6348
-- dependency_status: provisional
+- depends_on_source_sha: 733b33ef23f07f2e77ba684816e5b654f2b6dbdf
+- dependency_status: verified_exact_ready_blob
 - target_effective_chars: 2600-3400
 - actual_first_draft_effective_chars: 3375
 
 ## 章节目标、POV、开场
 - POV：仁合里17号楼四楼“母亲”有限第三人称；Day62407:28—Day62507:05。
 - 目标：在Day625东廊两晚已付房期将尽、后续住房尚未落实的情况下，让母亲亲自完成两本借书的真实归还，确认五日馆展原定领取方式，同时在家庭关系里接受外甥独立完成的私人纸船。
-- 开场：第760章仅是未审Draft；按其特定版本，Day623南廊原房11:57正式退还、旧卡注销，甲乙箱11:47具名寄存后13:40真正搬入东廊。Day62312—Day62512东廊两晚商户实收锁房，新卡昼夜当次已核，旧四楼安全状态不变；以上均为临时依赖事实，不视为已审Canon。
+- 开场：第760章已正式Ready；按其最终版本，Day623南廊原房11:57正式退还、旧卡注销，甲乙箱11:47具名寄存后13:40真正搬入东廊。Day62312—Day62512东廊两晚商户实收锁房，新卡昼夜当次已核，旧四楼安全状态不变；以上为经审核且原Draft与Ready正文逐字相同的已确认事实。
 
 ## 角色诉求、冲突
 - 母亲不愿把生活中每一件事都拖到下次换房才办，但两本借书还期不同、其中第十九页旧折角需与借前记录核对，不能凭口头说“我还了”。五日匿名展示结束将至，陌生观众希望继续挂画，她要在善意请求、原有限授权、可能的搬家与本人实际领回能力之间作选择。
@@ -37,7 +37,7 @@
 
 ## Continuity Precheck／知识边界
 - 读取main基线 141562abc02a13f9d1be59c8a0901803cb550c3b；三目录最高760 draft，第153章存在于published。严格只创建761章纲及草稿，不触旧章节、Reader、QA或Memory。
-- 临时依赖前章：`chapters/draft/0760.md` Git Blob 09d1fe8848222fde930ff83f9ee728605b7e6348；`depends_on_chapter: 760`、`depends_on_source_sha`、`dependency_status: provisional`在两文件齐备。审核760修订后由Audit判定关键事实相容，不能将本次假设改称正式Canon。
+- 正式依赖前章：`chapters/ready/0760.md` Git Blob 733b33ef23f07f2e77ba684816e5b654f2b6dbdf；原Draft 09d1fe8848222fde930ff83f9ee728605b7e6348与Ready小说正文逐字一致，仅Front Matter交付状态差异；Audit已检查兼容，760本文及章纲现精确重绑Ready SHA。
 - 仁合里四楼12cm观察口与亡夫饰板分封、水电隔离、Day536撤清运、整屋禁返住；失锁专业整班守门替岗及本人另次开门许可无。R-12最终签、当代门型Day577擦响根因、F014历史旧号旧信旧押金、七号箱五楼旧漏源2019及F003/F008/M004/M005未获跨源证。
 - 夏宁周衡梁策仅能知Day62421:25母亲本人允许的旧屋限项，不知道住宿付款、两本书借还、分馆观众、孩子纸船或JZ4私人资料。宿舍的审批、付款、商户到账、锁房不能互相替代。
 - 独立Writer本轮只做Planner／Continuity Precheck／首稿，不执行Editor、Reader、Revision、QA、Memory或Publisher。

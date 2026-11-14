@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 761
+title: "两本书还了，画还在墙上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "a55d6c0251bdb3a430e779aa31855d72fdc1a51b"
+source_draft_sha: "4306b05e334c29989e37fa97ca6ed71cb40e1f49"
+initial_reader_review: "reader_reviews/0761_a55d6c02.md"
+reader_review: "reader_reviews/0761_4306b05e.md"
+depends_on_chapter: 760
+depends_on_source_sha: "733b33ef23f07f2e77ba684816e5b654f2b6dbdf"
+dependency_status: verified_ready_compatible_body
+predecessor_original_draft_sha: "09d1fe8848222fde930ff83f9ee728605b7e6348"
+predecessor_fact_delta: body_identical_delivery_frontmatter_only
+timeframe: "Day62407:28—Day62507:05"
+summary: >-
+  Day62407:28母亲在松桥客舍东廊甲乙箱双新卡青白碗蓝色旧票盒和两本从分馆借的版画书均在，Day62512两晚实付期将止且无新续款。母亲主动当日归还借书，09:46到分馆小吴分别真扫两本馆藏码，把借阅数由2变1变0；第二本第十九页旧折角当场对应借前原记录，无新损伤，真取两册还书小票。本人匿名歪双碗版画仍在分馆一楼五日展中，读者盼再挂一天，母亲没有擅自扩大展览或网宣授权；确认Day62010:26起满五日为Day62510:26，Day62511点仅有本人拟领意向、作品未提前撤领。Day62411:26小郑具名回报Day625后住房保障申请仅送有权岗位，未审批、未实际财付款、未商户新收与锁房。傍晚晓漫带孩子来东廊，孩子本人完成船尾绳，自己署名赠母亲一张新纸船，自己保留原薄板且不投稿。21:25母亲仅向夏宁周衡梁策限项回报仁合里17号四楼旧门双封隔离禁返住、专业整班失锁看守替岗与再次开门许可无，旧R-12今门根因F014历史旧线无新跨源。Day62507:05双箱双卡青白碗蓝票盒原位，两借书已真还，纸船新礼物归母亲，馆画待取，Day62512后住房还无新真钱。
+meaningful_state_changes:
+  - "分馆两本书逐本真还且第二册旧折角与原登记匹配，借阅数真归零并获还书凭据。"
+  - "歪碗画保持原五日匿名展权限、不因读者请求自动续挂，Day62511点拟领本人仍待实做。"
+  - "孩子独立完成并署名赠外婆新纸船，原薄板继续自留，家人尊重作品是否投稿。"
+knowledge_updates:
+  - "母亲及小吴知道借阅真的完成而非仅承诺归还、馆展五日原约和取回须本人实领，不把馆方意向当完成。"
+  - "母亲知道Day625后续住申请仅有权岗位真收但未批未商户付款锁房；夜间中心21:25只获旧屋有限事实。"
+relationship_updates:
+  - "外甥自愿把独立签名纸船赠母亲、保留原板；母亲没有替儿童投稿或让晓漫承担尚未落实住房的搬家。"
+foreshadowing_updates:
+  - "Day62510:26画展五日期满、11点母亲拟实际领画；Day62512住房真付到期，新期款房均无。"
+  - "失锁整班专业看守替岗与开门许可、R-12独立终签、现门型号Day577根因、F014旧号旧信旧押金所有渠道七号箱五楼漏源2019、F003/F008/M004/M005仍无跨源证。"
+ending_state: "Day62507:05东廊母亲甲乙箱双新卡青白碗蓝旧票盒在，孩子新签名纸船入画夹；借阅数0、两书归还小票已真收，歪碗画仍馆内待原期限后本人领，现房真付仅到12点后续无商户新款，旧四楼双封隔离禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "a55d6c0251bdb3a430e779aa31855d72fdc1a51b", final_draft_sha: "4306b05e334c29989e37fa97ca6ed71cb40e1f49", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "predecessor_ready_sha_rebind_only"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3375
