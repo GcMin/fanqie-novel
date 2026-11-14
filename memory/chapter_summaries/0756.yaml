@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 756
+title: "房间续上了，清扫单却没停"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "448ad1861c20ca59c93875396735ae3a5f6b79f0"
+source_draft_sha: "c0d87ab4c223e192213a1374e578b0e9609dd89f"
+initial_reader_review: "reader_reviews/0756_448ad186.md"
+reader_review: "reader_reviews/0756_c0d87ab4.md"
+depends_on_chapter: 755
+depends_on_source_sha: "ce17506d86b3a91801795a9b5dff5a4490474a1e"
+dependency_status: verified_exact_ready_blob
+predecessor_original_draft_sha: "6cdb3779af9a86dd88c827917986548f16342200"
+predecessor_fact_delta: body_identical_metadata_only
+timeframe: "Day61907:29—Day62007:08"
+summary: >-
+  Day61907:29松桥南廊同房两箱两卡两本版画借书青白碗和外甥蓝色已用票盒在，新四晚Day61912—Day62312商户真钱及原房锁定昨日已成立，但前台从旧七晚订单自动生成换客清扫单催搬箱。07:47母亲核本户新旧房态，发现新款真锁房与旧清扫队列冲突；她见前天Day617真清出的北侧疏散转角当次仍空。08:46客房主管领班有权核旧七晚到期触发默认换客任务，清扫视图没排除同房续住新单；09:28保旧任务号及错源正式撤执行，改为在住清洁须另次住客预约，本人当天不入房。10:03主管领班在公共走廊和早班电子终端真核，早班纸单标错任务作废且从未擅入本房；11:18住宿端小郑发现旧同步待清扫红标，11:55有责接口更正为旧单已撤、续住仍在住。Day61912:07甲乙卡在真换期后分别各自实开原南廊房门，未把白天房门代夜门。母亲用废纸轻试孩子留白的船窗薄板但不代他画船身，借书不沾墨；16:20下午客房领班见旧纸副本，按撤单回执查电子终端并具名交接不按旧单入房、普通清洁由母亲另约，16:36告本户限定交接结果。晓漫照常上班发孩子自画碗与留白船，母亲只限项回复卡与错单情况。21:14夜侧门进入当班模式后甲乙卡各自实开一次；21:31母亲本人限项告夜间中心仁合里旧四楼封控未变。Day62007:08南廊双箱两卡青白碗两借书蓝票盒真票原位，四晚实款到Day62312、Day619房门夜侧门双卡当次均真开；Day621提前48小时核需尚未执行。旧仁合里四楼12cm口与亡夫饰板分封、水电隔离Day536撤清运及整屋禁返住未变，失锁持续专业守门替岗/再开门许可未成；R-12独立终签、今门完整型号Day577根因、F014历史旧号旧信旧押金全渠道七号箱五楼漏源2019及F003/F008/M004/M005跨源未证。
+meaningful_state_changes:
+  - "旧七晚订单派生的本户换客清扫旧任务有责保号撤销，早晚两班实际对纸单与电子端分别核销签交，住宿端旧同步红标有源改正。"
+  - "Day619新期甲乙双卡房门和夜侧门分别真开，原南廊同房两箱未搬；只证当次有效，非以后永久保障。"
+  - "母亲不代外甥补留白船板，今日清洁仍需本人另约；Day621提前48小时提醒尚未实际发生。"
+knowledge_updates:
+  - "母亲及客舍有权岗位明确续住真收、锁房与旧订单清扫队列是不同系统视图，错任务必须有源撤正并通知早晚班，不能靠口头随手划去。"
+  - "夏宁周衡梁策只在Day61921:31本人授权得旧屋限项安全状态，不知客舍清扫与借书私事。"
+relationship_updates:
+  - "母亲不怪罪清洁员，向主管追流程原因并保留旧错原版；晓漫不用请假帮搬箱，外甥的船板仍由孩子本人补。"
+foreshadowing_updates:
+  - "Day621具名核需未履行，Day623后无新续款；R-12末签、现门型Day577根因、F014历史旧号旧信旧押金及七号箱五楼漏源2019跨源均未获证。"
+ending_state: "Day62007:08松桥南廊同房双箱双卡青白碗两借书蓝票盒原位，四晚真钱到Day62312，Day619新期房门及夜侧门两卡均当次真开，旧换客清扫撤正跨班核验；仁合里旧四楼双封隔离禁返住、专业守门/许可未成立。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "448ad1861c20ca59c93875396735ae3a5f6b79f0", final_draft_sha: "c0d87ab4c223e192213a1374e578b0e9609dd89f", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "fix_Day617_clearing_day_and_rebind_755_final_ready"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3521

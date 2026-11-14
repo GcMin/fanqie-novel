@@ -6,15 +6,16 @@
 - role: Writer
 - status: draft
 - depends_on_chapter: 755
-- depends_on_source_sha: 6cdb3779af9a86dd88c827917986548f16342200
-- dependency_status: provisional
+- depends_on_source_sha: ce17506d86b3a91801795a9b5dff5a4490474a1e
+- dependency_status: verified_exact_ready_blob
 - target_effective_chars: 2600-3400
 - actual_first_draft_effective_chars: 3522
+- final_revised_effective_chars: 3521
 
 ## 目标、POV、开场状态、人物诉求
 
 - POV：仁合里十七号楼四楼“母亲”的有限第三人称；Day61907:29—Day62007:08。
-- 开场：第755章暂存的事实是Day61815:52松桥已真收到Day61912—Day62312四晚新款，16:07锁原南廊房，旧七晚仍到Day61912，新期双卡房门与夜侧门都尚未实测；甲乙箱、青白碗、两本借书与外甥蓝票盒原位。第755章未审，只作指定Git Blob版本的临时事实参考，不认正式Canon。
+- 开场：第755章正式Ready确认的事实是Day61815:52松桥已真收到Day61912—Day62312四晚新款，16:07锁原南廊房，旧七晚仍到Day61912，新期双卡房门与夜侧门都尚未实测；甲乙箱、青白碗、两本借书与外甥蓝票盒原位。第755章Reader双遍与独立QA已通过并正式Ready；原稿与Ready小说正文逐字相同，仅交付Front Matter不同，按正式Ready版本精确承接。
 - 诉求：母亲不搬箱、不被上一张到期订单误当离店，确证连续入住实际可用；同时争取清洁人员可以按明确而非错误的工作指令办事。
 - 冲突：旧订单到期自动触发“换客清扫”并生成本户待执行纸单，新连续入住订单已真实锁定却没有被清扫视图排除；房态与清扫队列存在普通系统字段割裂，前台、客房与住宿保障端所见状态不同。
 
@@ -37,11 +38,16 @@
 
 - 仁合里17号四楼12厘米观察口和亡夫饰板分别封存、旧门闭锁、水电受控隔离、Day536清运撤销、整屋禁返住，失锁后整班专业守门与替岗及本人另次开门许可均无。
 - R-12历史最终独立复核签、退件其他补送、现装门完整型号、Day577擦响根因、F014旧联系人原始来源/旧信本人实收/旧押金所有渠道末端结果、七号铁角箱/五楼旧漏源/2019旧卷及F003/F008/M004/M005跨源均不得凭今次客舍错误清扫单推断；妹妹JZ4私盘及他户资料不越权。
-- 前章第755章仍为未审草稿：只承接其已真付款和锁房的指定文本版本，若后续审核改变这一基础由独立Audit负责衔接核对。
+- 前章第755章已正式Ready，续住实付同房真锁与Day619切期两卡待验已经核对新旧正文完全相同；不得将新章客舍清扫错单推导旧屋可开门。
 
 ## Continuity Precheck
 
-- 先在main的published/ready/draft三目录按数字章名确认最高755，第153章在chapters/published/0153.md，不存在缺口；仅在0756全文与章纲均未存在时原子新建。
-- 前755来源为 chapters/draft/0755.md Git Blob 6cdb3779af9a86dd88c827917986548f16342200，作为provisional依赖，不冒充ready或正式Canon；具体承接Day61907:09双卡新期尚未试开、新四晚实付锁原房状态。
+- 先在main的published/ready/draft三目录按数字章名确认最高756，第153章在chapters/published/0153.md，不存在缺口；仅在0756全文与章纲均未存在时原子新建。
+- 前755来源为 chapters/ready/0755.md Git Blob ce17506d86b3a91801795a9b5dff5a4490474a1e，作为verified_exact_ready_blob依赖；具体承接Day61907:09双卡新期尚未试开、新四晚实付锁原房状态。
 - 读入AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、Bible及三人物卡、当前卷/剧情弧与chapter_plan、current_arc与人物/关系/知识/世界状态和伏笔时间线、745—754章摘要及751—755章完整正文；不读取历史reader_reviews。
 - 仅Planner、Continuity Precheck、Writer；不做Editor、Reader、Revision、QA、Memory、Publish Gate、平台发布或任何既有章节修改。
+
+## Audit Stage A 定向修订与最终审查说明
+- 原草稿SHA 448ad1861c20ca59c93875396735ae3a5f6b79f0 的独立Reader 0 BLOCKER/2 MAJOR/2 MINOR：前755临时SHA引用与Day619“昨晨被清出的”错误指向Day618，实际清障Day617。
+- Stage A已更正“前天清出的北侧转角”、重绑前755正式Ready ce17506d86b3a91801795a9b5dff5a4490474a1e、校正有效正文3521；第755章Draft和Ready正文完全一致，未更动755情节。
+- 最终DraftSHA c0d87ab4c223e192213a1374e578b0e9609dd89f，按新SHA再次独立Reader Pass A与Pass B：0 BLOCKER/0 MAJOR/2 MINOR，keep/none；独立Continuity/Style/Meaningful QA PASS，仍须精确候选结构CI通过才迁Ready。
