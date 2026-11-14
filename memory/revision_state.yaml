@@ -8796,3 +8796,16 @@ combined_audit_chapter_764_20261115:
   predecessor_ready_sha: "5d9905dd5e1728e22c25ac1e51bf3636e722df3a"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_765_20261115:
+  chapter: 765
+  source_sha: "75de4d89d0cb017c8baadd2c979b5c8e54c8d552"
+  review: reader_reviews/0765_75de4d89.md
+  original_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  content_qa: pass
+  predecessor_ready_sha: "994f2ce800710f1940553c68287319ee41844334"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main

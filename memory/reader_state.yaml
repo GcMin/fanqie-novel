@@ -9866,3 +9866,24 @@ combined_audit_chapter_764_20261115:
   dependency_status: verified_exact_ready_blob
   body_revisions: 0
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_765_20261115:
+  chapter: 765
+  title: "她把房卡还了，预约还留着"
+  source_path: chapters/draft/0765.md
+  source_sha: "75de4d89d0cb017c8baadd2c979b5c8e54c8d552"
+  review_path: reader_reviews/0765_75de4d89.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 764
+  depends_on_source_sha: "994f2ce800710f1940553c68287319ee41844334"
+  predecessor_sha_mismatch: false
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 0
+  structural_gate: exact_candidate_ci_required_before_main

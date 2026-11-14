@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 765
+title: "她把房卡还了，预约还留着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "75de4d89d0cb017c8baadd2c979b5c8e54c8d552"
+reader_review: "reader_reviews/0765_75de4d89.md"
+depends_on_chapter: 764
+depends_on_source_sha: "994f2ce800710f1940553c68287319ee41844334"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day62807:18—Day62907:04"
+summary: >-
+  Day62807:18母亲仍住松桥东廊，旧三晚商户真付仅到当日12点；甲乙箱两旧卡青白碗蓝旧票盒旧船票、本人歪双碗原画与积墨废样、孩子署名赠船均在，Day63014分馆本人共桌一席已真预约但未到场。08:02小郑尚无新额度，10:49有权岗批准Day62812—Day63212四晚过渡额度，11:28财务支付指令与11:35银行受理仍不等于商户实收；11:54行李间有责真收甲乙两箱贴两签出收条，11:59东廊旧两卡注销且本人真退房，没有占用下位住客时段。母亲自行带画夹和证件午间在分馆附近活动，晓漫知道批准未支付、两箱寄存已真办；孩子继续自己试印船。13:56商户真实收四晚款，14:04新西廊首层房锁定；清洁未完不能先交。15:22主管实核清洁与地垫可交房，15:36本人取得新双卡分别真开，16:23两箱由有责搬运送新房母亲核签；青白碗蓝旧票盒等在，画夹私人作品仍随身。21:19本人从有值守正规正门夜间实走并逐卡真开，21:27仅向夜间中心授权回报仁合里旧四楼安全限项。Day62907:04母亲住西廊，商户真钱止Day63212、之后未承诺；Day63014馆内共桌预约仍有效未到场，旧四楼封闭水电隔离禁返住与安防许可R-12/F014未证不变。
+meaningful_state_changes:
+  - "Day62811:54两箱行李间真的有责暂存出条，11:59原东廊旧房旧双卡合法退还注销，不再声称原房续住。"
+  - "Day62813:56四晚商户真收、14:04西廊首层真锁、15:22主管实交、15:36新双卡实开、16:23双箱真正运入本人核签，新增住期Day62812—Day63212。"
+  - "Day63014分馆共桌保持本人可取消的已登记名额，未假称到场、寄送或继续展览。"
+knowledge_updates:
+  - "母亲和晓漫准确区分额度批准、银行受理、商户真收、锁房、清洁验交、两件箱子有责寄存/签收；夜间双卡仅记录当次实开。"
+  - "母亲知道Day63212以后住期未定；夜间中心仅获旧屋安全限项不获住宿财务与私人画作情形。"
+relationship_updates:
+  - "晓漫提出协助搬箱但由母亲待有责员工真正交房再决定；孩子继续自己印船，母亲不控制作品意义。"
+foreshadowing_updates:
+  - "Day63014共桌已有预约小票，实际到场未发生；新商户四晚真款只到Day63212，后续仍要核。"
+  - "旧屋专业失锁整班看守替岗及再开门许可未立，R-12末签、现门型号Day577根因、F014旧号旧信旧押金全渠道、七号箱五楼漏源2019及F003/F008/M004/M005无新跨源证。"
+ending_state: "Day62907:04母亲住松桥西廊首层，新双卡和甲乙两箱均本人真签入房，青白碗、蓝票盒旧票、原画、废样及孩子署名赠船在；四晚实付锁房至Day63212，Day63014共桌仅预约未到场；仁合里旧四楼双封水电隔离Day536撤清运禁返住、失锁专业整班看守与开门许可仍缺、R-12/F014跨源待证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "75de4d89d0cb017c8baadd2c979b5c8e54c8d552", final_draft_sha: "75de4d89d0cb017c8baadd2c979b5c8e54c8d552", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "none_no_fix_required"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3308
