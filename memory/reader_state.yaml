@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 754
-last_reviewed_title: "那辆推车挪走以后，路才真正空出来"
-last_source_path: chapters/draft/0754.md
-last_source_sha: 947f32a8f31025a5151dceb1a568d7f2d2a4b939
-last_review_path: reader_reviews/0754_947f32a8.md
+last_reviewed_chapter: 755
+last_reviewed_title: "别等到退房那天才问"
+last_source_path: chapters/draft/0755.md
+last_source_sha: 6cdb3779af9a86dd88c827917986548f16342200
+last_review_path: reader_reviews/0755_6cdb3779.md
 last_reviewed_at: "2026-11-14"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 753
-depends_on_source_sha: 5e4943db404341f02239ca8a5997dd1b8c16b44c
+depends_on_chapter: 754
+depends_on_source_sha: 30cc1addd42d587d14c73d67821de9389ae7a128
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 5e4943db404341f02239ca8a5997dd1b8c16b44c
+predecessor_current_source_sha: 30cc1addd42d587d14c73d67821de9389ae7a128
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -9636,6 +9636,25 @@ combined_audit_chapter_754_20261114:
   reader_gate: pass
   depends_on_chapter: 753
   depends_on_source_sha: "5e4943db404341f02239ca8a5997dd1b8c16b44c"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_755_20261114:
+  chapter: 755
+  title: "别等到退房那天才问"
+  source_path: chapters/draft/0755.md
+  source_sha: "6cdb3779af9a86dd88c827917986548f16342200"
+  review_path: reader_reviews/0755_6cdb3779.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  depends_on_chapter: 754
+  depends_on_source_sha: "30cc1addd42d587d14c73d67821de9389ae7a128"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
