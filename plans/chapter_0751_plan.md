@@ -6,8 +6,8 @@
 - role: Writer
 - status: draft
 - depends_on_chapter: 750
-- depends_on_source_sha: 98e5aea7fe33ef78658fa59b76d194b2d99fc739
-- dependency_status: provisional
+- depends_on_source_sha: a0b917274b2a46bc665157deb2577f04c18a2f0a
+- dependency_status: verified_ready_compatible_body
 - target_effective_chars: 2600-3400
 - actual_first_draft_effective_chars: 3028
 
@@ -30,7 +30,7 @@
 - 人物转变：母亲愿意让专业人做合法有限工作，不再把旧档查询当作唯一正事；晓漫保有自己工作和活动，母亲有权决定实际能否去展厅。
 
 ## 连续性、知识及伏笔边界
-- 前章750是尚未审核的draft，依赖准确原Git Blob SHA，状态provisional；其拟发暂缓与本户当代清单均只暂按具体文本连贯使用，不能称正式Canon。若独立Audit修订750，须核751兼容。
+- 前章750已正式Ready：原Draft 98e5aea7fe33ef78658fa59b76d194b2d99fc739与正式Ready a0b917274b2a46bc665157deb2577f04c18a2f0a小说正文逐字相同，仅原标题与交付元数据修订。751仅重绑经过独立核验的前章依赖，不修改本章正文。
 - 甲乙两箱原房不搬；松桥Day61212至Day61912实收锁房，双卡实开只证Day612房门和夜侧门当次。纸票回收盒不由大人预先安装。
 - 仁合里四楼闭锁、十二厘米观察口与亡夫饰板分封、受水电隔离Day536撤清运整屋禁返住。尚无旧屋新开门住户许可、失锁全时守门替岗、真实现装门体型号或Day577擦响原因。
 - C-09/R-12独立末签及其他后补未知；F014旧联系号码最初来源、历史通知本人真收、旧押金全渠道最终实退、第七号铁角箱、五楼漏源、2019卷、F003/F008/M004/M005仍无跨源证明，不接妹妹JZ4私盘及邻户资料。
