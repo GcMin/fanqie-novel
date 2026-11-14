@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 757
+title: "她把两只碗借给了图书馆"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "cb9a5879e6f53f073ac7bf2aa9a282e6b938be09"
+reader_review: "reader_reviews/0757_cb9a5879.md"
+depends_on_chapter: 756
+depends_on_source_sha: "c60740abeeb68da101e6f1d2d45e927309b825ab"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day62007:31—Day62107:06"
+summary: >-
+  Day62007:31松桥南廊同房甲乙箱、双卡、青白实体碗、两本版画借书、蓝色已用票盒旧票及孩子未完成船板仍在，Day61912—Day62312新四晚商户真钱和原房锁定真实成立，旧到期换客清扫已撤正跨班核验、双卡仅Day619当次房门/夜侧门分别实开。母亲看到松桥分馆一楼五日自愿手作展示公告，仅带本人Day615套色印歪的双碗版画去询问，不带借书做材料、不代孩子交桥。09:48小吴本人实物查收，母亲分开授权馆内展示与仅作品交接核照，明确不授权公开网络宣传，展示牌匿名、内部联系本人核取回；10:26用无胶透明套真实挂展并取得有五日领回方式的收件条。陌生读者把错位边线看成水中倒影，母亲不假称有意设计；晓漫仅收本人作品照片，外甥仍有自行决定是否完成船并申请展出之权。回客舍后她Day620新约Day62109:30在住普通清洁须届时确认，旧强制换客清扫不复活；15:46林工限项告旧门型号与Day577根因、连续守门替岗及新开门许可仍未具。21:29母亲只向夏宁周衡梁策授权回报仁合里四楼封闭双封水电隔离Day536撤清运禁返住原样，私下展示、孩子作品、妹妹JZ4资料不进入夜间中心。Day62107:06同房实物均在，双碗版画暂在馆一楼五日、画夹前袋留收件条，Day62109:30清洁和12:00提前48小时具名住房核需尚未执行，Day623后房款仍未实收；旧R-12最终独立复核签、今门型Day577根因及F014旧号旧信旧押金七号箱五楼漏源2019跨源均未证。
+meaningful_state_changes:
+  - "母亲本人歪双碗版画在分馆真实挂牌展出五日，取得限期可领回凭据，匿名并拒绝公开网络传播；公共生活的真实自主行动。"
+  - "明确作品、交接留档、网络宣传和孩子作品授权各属不同许可，孩子先完成未画完船板再自主考虑展出。"
+  - "新在住清洁仅约Day62109:30、Day62112具名住房核需仍待真正执行，未以普通艺术活动推旧宅安全改变。"
+knowledge_updates:
+  - "母亲知道图书馆只接本人授权实物作品，需真实收件条领取、公开与内部状态留照分项，匿名展示不等于允许网上发布。"
+  - "晓漫与外甥只知本人的版画实际展出，未擅代孩子投稿；夜间中心只有Day62021:29本户旧门限项，没有展示或JZ4私事。"
+relationship_updates:
+  - "晓漫支持母亲匿名馆内展示，母亲尊重外甥先自行完成船板及其与监护人的后续授权选择，彼此不代办。"
+foreshadowing_updates:
+  - "图书馆本人版画五日期满须凭收件条取回，两本借书仍各需本人依时归还；Day621清洁确认及12点住房核需未执行、Day623后无新实收。"
+  - "R-12末签及退件后其他渠道、今门型Day577根因、F014旧号旧信旧押金历史及七号箱五楼漏源2019等跨源均无新证。"
+ending_state: "Day62107:06松桥南廊同房甲乙箱双卡青白碗两本借书蓝票盒旧票不变，母亲的双碗版画在分馆一楼有限展出五日且凭收件条领回，原房真款到Day62312；Day621住房提前核需和当日清洁均待执行，旧仁合里四楼封闭双封隔离禁返住不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "cb9a5879e6f53f073ac7bf2aa9a282e6b938be09", final_draft_sha: "cb9a5879e6f53f073ac7bf2aa9a282e6b938be09", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "none_no_fix_required"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3472
