@@ -6,8 +6,8 @@
 - role: Writer
 - status: draft
 - depends_on_chapter: 752
-- depends_on_source_sha: 1f9f93bb81b8bfe289a8ff002c2ba582601f96ee
-- dependency_status: provisional
+- depends_on_source_sha: 40a67c17fde2919f30560b32b86067b707720f96
+- dependency_status: verified_ready_compatible_body
 - target_effective_chars: 2600-3400
 - actual_first_draft_effective_chars: 3375
 
@@ -31,7 +31,7 @@
 - 下一章可接Day617后续真实日常与Day61912住宿到期前的住房核实，但不得凭申请/审批默认续付、锁房或卡长期可用。
 
 ## Continuity Precheck 与 Canon 边界
-- main三目录现存章号最大752，第153章存在于published；第753章两目标文件之前均不存在。依赖第752章 `chapters/draft/0752.md` 完整Git Blob `1f9f93bb81b8bfe289a8ff002c2ba582601f96ee`，标记 `provisional`。第752章若仍为未审草稿，其一楼看展、纸票盒装妥等只作具体版本暂时参考，**不升正式Canon**；Audit须独立核前章最终正文是否兼容。
+- main三目录现存章号最大752，第153章存在于published；第753章两目标文件之前均不存在。依赖第752章 `chapters/draft/0752.md` 完整Git Blob `40a67c17fde2919f30560b32b86067b707720f96`，标记 `provisional`。第752章已审核迁入Ready；逐行核旧Draft与正式Ready仅修改标题限定二楼电梯停用、将“二楼电梯厅”明确为一楼通往二楼的电梯入口及交付元数据，家庭一楼画展、票盒实际安装等所有本章承接事实相同。已重绑正式Ready SHA；新753 SHA需独立重做Reader双遍与QA。
 - 仁合里十七号四楼仍锁闭；十二厘米观察口与亡夫旧饰板分别封存，水电受控隔离、Day536撤清运、整屋禁返住继续。现装门完整型号、Day577擦响根因、C-09/R-12最后独立复核签、专业整班失锁看守替岗、本人再次开门许可均未获证。F014旧联系方式源头、旧信本人真正收到、旧押金全部渠道真退、第七号铁角箱、五楼漏源、2019旧卷与F003/F008/M004/M005无新跨源证明；妹妹JZ4私人盘及邻户不扩权。
 - 松桥七晚商户真款仅到Day61912，不凭安置未来安排或图书馆借阅认后段续款、旧房恢复；夜间中心仅收本人限项安全进度。
 - 已读取main最新AGENTS、novel配置、writing_roles、ai_reading_protocol、Bible/人物、现存volume_05和arc_current、chapter_plan、current_arc、人物关系知识世界状态、时间线伏笔与0742—0751摘要、0748—0752全文；历史reader_reviews未读。只执行Planner/Continuity Precheck/Writer，不做审核修订、Memory更新、Publish Gate或平台发布。
