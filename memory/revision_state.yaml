@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 766
-current_stage: chapter766_reader_QA_pass_exact_ci_required
-current_source_path: chapters/draft/0766.md
-current_source_sha: bda57bb6ce52f0ca969af31751d3a8c3d2e92b15
-current_review_path: reader_reviews/0766_bda57bb6.md
+current_chapter: 767
+current_stage: chapter767_reader_QA_pass_exact_ci_required
+current_source_path: chapters/draft/0767.md
+current_source_sha: 0667fdfa3ea6bd5eaea2f805792068fa5932653c
+current_review_path: reader_reviews/0767_0667fdfa.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter766_no_revision_reader_QA_pass_exact_prev765
+last_action: chapter767_no_revision_reader_QA_pass_exact_prev766
 last_action_date: "2026-11-15"
 last_error: null
-last_diff_summary: "766依赖765正式Ready c95a981a精确匹配；Day63013:42本人共桌由预约变真签到，与邹姨共印两张各领一张，西廊住期仅至Day63212，旧四楼封控R-12/F014仍无新证；原Draft bda57bb6 Reader A/B 0/0/2及独立QA PASS，无正文修订。"
+last_diff_summary: "第767章0667fdfa前章766正式Ready 18f216e2精确依赖，市场租房仅Day63209:30约查窗且西廊Day63212到期无新款，Reader Pass A/B 0/0/2、独立QA PASS，正文无修改。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: bda57bb6ce52f0ca969af31751d3a8c3d2e92b15
+current_review_source_sha: 0667fdfa3ea6bd5eaea2f805792068fa5932653c
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -8820,5 +8820,18 @@ combined_audit_chapter_766_20261115:
   body_revisions: 0
   content_qa: pass
   predecessor_ready_sha: "c95a981a248e04372a0ade03200664f4cc52f717"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_767_20261115:
+  chapter: 767
+  source_sha: "0667fdfa3ea6bd5eaea2f805792068fa5932653c"
+  review: reader_reviews/0767_0667fdfa.md
+  original_counts: {blocker: 0, major: 0, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  content_qa: pass
+  predecessor_ready_sha: "18f216e2a21226748160bcf03ebdc56fa4c7f485"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

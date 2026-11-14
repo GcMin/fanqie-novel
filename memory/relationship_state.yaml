@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 766
+last_updated_chapter: 767
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4233,3 +4233,11 @@ chapter_766_arc054:
   mother_daughter: "Day629与晓漫通话尊重外甥下午课程；Day630母亲仅发无房间背景的合作画纸照片，女儿不承担公示、拍摄或住期手续。"
   grandmother_child: "外甥明确希望外婆不大量印其赠船图案，母亲听从，随后告知本人合作画中的两个创作份额，孩子只获纸面信息。"
   institution: "小吴和另名值班员负责现场通道和工具安全，不要求母亲变成讲师或代理登记人；面对拍摄者不默认肖像、姓名和预约编号公开许可。"
+
+chapter_767_arc054:
+  chapter: 767
+  source_sha: "0667fdfa3ea6bd5eaea2f805792068fa5932653c"
+  mother_daughter: "母亲自行看房和拒定金，接受晓漫未来对确有条件房源逐项核合同，但不让女儿代选、代签或请假提前搬家。"
+  family: "孩子想给画留墙尚只是期待，外甥署名赠船与母亲原画和邹姨共印作品仍各有归属。"
+  professional: "姚姐按实看写未选/待核，杜先生催定金母亲拒付；小郑不介入市场租房合同，夜间中心不获私人租赁信息。"
+  other: "邹姨没有新的见面或私下联系承诺。"

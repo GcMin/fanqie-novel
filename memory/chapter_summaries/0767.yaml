@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 767
+title: "她去看一间不用换房卡的屋子"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "0667fdfa3ea6bd5eaea2f805792068fa5932653c"
+reader_review: "reader_reviews/0767_0667fdfa.md"
+depends_on_chapter: 766
+depends_on_source_sha: "18f216e2a21226748160bcf03ebdc56fa4c7f485"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day63107:16—Day63207:08"
+summary: >-
+  Day63107:16母亲真住松桥西廊首层，甲乙箱双新卡青白碗蓝旧票盒、本人的歪双碗原画积墨废样、外甥署名赠船及Day630与邹姨共印本人留的第一张花盆桌沿画都在；Day628商户四晚真款仅至Day63212后未新付。她不再仅等客舍续房，开始自行寻找可负担、可正常进出的普通长期租房，与住房保障事项严格分开。09:47找姚姐看房：榆树巷广告首层但实际入户三阶、扶手短缺，她明确不选；柳叶街正常住户入口、费用可承受且台面可放画夹，却有窗下旧水迹和踢脚线发胀，杜先生仅有联系师傅的消息无维修复验凭据。母亲拒交定金、未签合同、未得钥匙、未搬，姚姐约得Day63209:30师傅有限检查但尚未发生。16:51返西廊与小郑核次期，只有Day63212前商户真钱、后续待有权岗位真实回告；无新真付款锁房则按时退卡并寄存箱子尚未执行。晓漫获本人拍的三阶与旧水印两张限项照片，愿未来陪核合同但不代选房。21:24夜间中心只获仁合里旧四楼本人授权安全限项，R-12及F014仍无跨源新证。Day63207:08仍在西廊，09:30检查及12:00客舍到期均未变结果。
+meaningful_state_changes:
+  - "本人开始实际看普通长期房源，按真实入户三阶及扶手不足排除榆树巷。"
+  - "柳叶街普通房源转为待查候选，已约Day63209:30有限查窗，但没有定金、合同、钥匙、入住或维修合格证明。"
+  - "母亲接受晓漫未来帮审合同，仍保留本人选择权；短住保障与市场租赁不混写。"
+knowledge_updates:
+  - "母亲实际知首层广告不等于街面无台阶、当次窗台干不等于雨天无漏；业主上周问师傅不是已修复。"
+  - "小郑及夜间中心各获本岗授权限项，不得自动知租房房东、价格或家人隐私。"
+relationship_updates:
+  - "母女由母亲婉拒陪看转为有真正候选时共同核合同，但不代选与代签。"
+  - "姚姐杜先生只是普通租赁接洽，邹姨仍只是一次共创后未约再见。"
+foreshadowing_updates:
+  - "Day63209:30柳叶街窗框与排水有限检查已约未执行，Day63212客舍到期仍无后段商户新款房态。"
+  - "旧四楼闭锁12cm口与亡夫饰板双封、水电隔离Day536撤清运整屋禁返住、专业失锁整班守门替岗和开门许可未建立；R-12终签门型Day577根因、F014旧号旧信旧押金全渠道七号箱五楼漏源2019及F003/F008/M004/M005无跨源新证。"
+ending_state: "Day63207:08西廊甲乙双箱两新卡青白碗蓝旧票盒及原画废样外甥纸船邹姨合印第一张均在，商户实付只至Day63212。柳叶街仅普通租房候选，09:30检查仍待，未签约付押收钥匙入住；旧屋闭锁双封隔离禁返住及R-12/F014待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0667fdfa3ea6bd5eaea2f805792068fa5932653c", final_draft_sha: "0667fdfa3ea6bd5eaea2f805792068fa5932653c", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "none_no_fix_required"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3120
