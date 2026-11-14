@@ -9955,3 +9955,22 @@ combined_audit_chapter_768_20261115:
   dependency_status: verified_exact_ready_blob
   body_revisions: 1
   structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_769_20261115:
+  chapter: 769
+  title: "空房看过了，钥匙还在房东手里"
+  source_path: chapters/draft/0769.md
+  source_sha: "c8e9226e8fe197c2d61cc5cb50e207b30e59b1ed"
+  review_path: reader_reviews/0769_c8e9226e.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  depends_on_chapter: 768
+  depends_on_source_sha: "d777ca942601220c37c7f9491870c9c0c8f31d85"
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 0
+  structural_gate: exact_candidate_ci_required_before_main

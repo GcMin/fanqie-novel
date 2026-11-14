@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 769
+title: "空房看过了，钥匙还在房东手里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "c8e9226e8fe197c2d61cc5cb50e207b30e59b1ed"
+reader_review: "reader_reviews/0769_c8e9226e.md"
+depends_on_chapter: 768
+depends_on_source_sha: "d777ca942601220c37c7f9491870c9c0c8f31d85"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day63307:24—Day63407:08"
+summary: >-
+  Day63307:24母亲仍住松桥西廊，甲乙双箱、两卡、青白碗、蓝旧票盒、本人双碗原画废样、外甥署名旧船和邹姨第一张合作花盆画均在，商户真付至Day63512。08:42姚姐告柳叶街杜先生只得外侧查验申请路径，未获许可维修派工或复验。10:27母亲亲看新荷街钟女士普通长租房，实走正规住户通路及低门槛、推空箱，查可见窗墙水电表及业主身份权属、租押收费，房东两箱待清、本人门禁卡和夜间实际开门仍未交验。因草案含过宽全部设施认可条款，母亲与晓漫限项核合同，16:58姚姐和钟女士同意更正，约Day63416:00本人验交；全程未签约付款拿钥匙门禁或入住。孩子傍晚尚待晾干的方窗船卡夜间本人签名真赠母亲、与旧署名纸船分存。21:22母亲仅向夜间中心授权报旧四楼安全限项，Day63407:08仍在西廊真付住期内且全部行李画夹在，等待下午查验，柳叶街仍候选待证。
+meaningful_state_changes:
+  - "新荷街由电话候选变本人实看并初核权属报价，收到纠正过宽验收免责条款的待签草案和Day63416:00具名交屋前验收预约。"
+  - "外甥亲签方窗船卡完成并实际赠予外婆，旧署名船另存；晓漫帮看合同而不代选签。"
+knowledge_updates:
+  - "母亲知道当天干墙和可见排水非全屋或雨天验收；门禁、实交、租约、付款依赖后续真实完成，业主口头承诺不等于权限已取得。"
+  - "晓漫仅得到母亲分享的合同部分，夜间中心仅获旧宅限项，不获房东证件和普通租赁信息。"
+relationship_updates:
+  - "母女共同核条款但母亲自主决定签与不签，孩子亲手完成署名及赠卡。"
+foreshadowing_updates:
+  - "Day63416点新荷街实际验交与合同租金门禁钥匙待办，松桥客舍三晚真钱仅至Day63512；柳叶街外侧查水无许可。"
+  - "旧四楼闭锁12cm口与亡夫饰板分封水电隔离Day536撤清运整屋禁返住，失锁整班安防和再开门许可缺；R-12末签现门型号Day577根因及F014旧号旧信旧押金全渠道七号箱五楼漏源2019无跨源证明。"
+ending_state: "Day63407:08母亲仍在松桥西廊甲乙箱两卡青白碗蓝旧票盒与画夹完好，租住期至Day63512；孩子新方窗船卡实际归母亲，新荷街只看房和更正待签草案及16点验交约定，未签约付款交房钥匙卡。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "c8e9226e8fe197c2d61cc5cb50e207b30e59b1ed", final_draft_sha: "c8e9226e8fe197c2d61cc5cb50e207b30e59b1ed", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "none_no_fix_required"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3260
