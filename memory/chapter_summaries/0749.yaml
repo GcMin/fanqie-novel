@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 749
+title: "收讫章后面，还有一笔退件"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "23eece39e46de275296c778ed3804b21ae74534d"
+source_draft_sha: "f0f2010a7d9d45f7dc53063e6f1465cc70f4d23b"
+initial_reader_review: "reader_reviews/0749_23eece39.md"
+reader_review: "reader_reviews/0749_f0f2010a.md"
+depends_on_chapter: 748
+depends_on_source_sha: "a1d4a1faf64d4bfcd2300de855166184baeab51a"
+dependency_status: verified_ready_compatible_body
+timeframe: "Day61207:36—Day61307:09"
+summary: >-
+  Day61207:36松桥南廊原房两箱双卡青白碗与不搬站检票亭在，Day61116:27真收到Day61212—Day61912七晚且原房16:34锁定，双卡新期尚未实际试开。母亲08:22向林工确认旧四楼无解封或作业。09:58档案站双岗核本户R-12独立末复核收发索引，10:27有同号“复核材料一包”收讫章及收件人签名，签的是物流不是质量；11:03按其袋号另查当次退件处理页，旧包因缺独立复验签署及对应测试记录正式退回原项目资料联络岗补具，仍不知以后是否重送或最终签。Day61212:01松桥完成新期双卡授权，12:08房门甲乙卡各自真开，21:11当班夜侧门双卡各真开，只证当次，双箱不搬。13:36林工追原系统从收件登记映为“末次复核材料到齐”而遗漏后续退件，14:22本户保旧版有源纠正不得据收讫推终验，15:07具名受理退件后再送链查询，尚未找到末签。晓漫下班带纸票回收箱样件陪吃饭，外甥未到，不接他户/JZ4或工程授权；21:32母亲限项报中心。Day61307:09南廊同房七晚真款到Day61912，甲乙箱青白碗纸码头原位；旧屋锁闭12cm观察口和亡夫饰板分封受水电隔离Day536撤清运禁返住，专业整班看守替岗和再开门许可无，今门型Day577根因及F014旧号旧信旧押金七号箱五楼漏源2019跨源均未证。
+meaningful_state_changes:
+  - "旧R-12复核材料收讫与另页退回补具当次链条首次有源确认，终签/再送仍未见。"
+  - "本户系统错误将收件展示为复核到齐有源纠正，退回后再送链有具名受理但未查到结果。"
+  - "Day612七晚新期双卡分别实开客房门与当班夜侧门，完成本次而非七天全部保障。"
+knowledge_updates:
+  - "母亲与有权资料、工程岗知道收发签字和退件不能当复核签，也不能推永久未补。"
+  - "晓漫仅限项母亲口述知退件，中心三人仅Day61221:32本人授权后知，不读取妹妹JZ4私盘与他户。"
+relationship_updates:
+  - "晓漫下班带待安装的小纸票回收箱共餐，母亲准备次日散步，不把工程查询转嫁给家人。"
+foreshadowing_updates:
+  - "退回流水之后是否再送及最终独立复核签仍须有权追查，旧屋禁返住。"
+ending_state: "Day61307:09松桥原南廊同房七晚真收至Day61912，两卡Day612双门当次实开；R-12旧材料当次确有退件，后续再送和终签未证；仁合里旧屋双封锁闭禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "23eece39e46de275296c778ed3804b21ae74534d", final_draft_sha: "f0f2010a7d9d45f7dc53063e6f1465cc70f4d23b", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "fix_title_scope_and_predecessor_ready_sha"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3344

@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 748
+title: "工班回了话，复核还在空栏里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "4d9b7fa3b0cebd090ef50f6af6543d2b87ee30a7"
+reader_review: "reader_reviews/0748_4d9b7fa3.md"
+depends_on_chapter: 747
+depends_on_source_sha: "56b43b2c42b065aaab8011be5442685848b09bd6"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day61107:33—Day61207:12"
+summary: >-
+  Day61107:33松桥南廊原房甲乙两箱双卡青白碗外甥不搬站纸码头均在，商户上期真钱至Day61212，昨日R-12催补原页要求旧工班补末次复核及核历史门扇。08:12工程联络只许按本户旧收件索引追真实答复；10:52见“退补说明回复”两页索引，11:21双岗在本户权限内实见旧工班两页回复，第一张自记曾做合页微调但无独立关合测试，第二张“末次复核签认依据待补”，复核人、完成日期留白；工班报送人签不等于质量终签。13:42至14:09林工与工程经办保留旧系统错把“回函收讫=复核完成”混栏，只关闭回函查见子项，独立末签索引仍待有责追。15:40住宿责任岗经核旧屋禁返住与双箱屡搬获Day61212—Day61912连续七晚额度，16:03仅付款指令，16:27松桥商户真钱到账、16:34原南廊同房真正锁定，新期卡要到Day612切期实际分别验证，未提前宣布通过。晓漫带外甥装纸码头检票亭共晚饭，21:29母亲本人限报中心。Day61207:12甲乙箱青白碗双卡纸码头不搬，七晚新款及新房期已锁、卡未新期验；仁合里四楼闭锁12cm观察口与亡夫饰板分封受水电隔离Day536撤清运禁返住持续，独立末签、今门型Day577擦响根因、失锁专业整班守门替岗与开门许可、F014旧号旧信旧押金七号箱五楼漏源2019跨源未证。
+meaningful_state_changes:
+  - "R-12催补后两页工班回复首次有源实见，确有操作自记但末次独立签认依然留白。"
+  - "工程本户系统错联动有源纠正并限定关闭已找到回复子项，未结终验。"
+  - "新七晚Day61212—Day61912商户真收和原房锁定，卡片仍待切期实测。"
+knowledge_updates:
+  - "母亲老袁林工及有权岗知道旧工班操作记录不是独立终验。"
+  - "晓漫限项得知旧回函，夏宁周衡梁策仅21:29母亲本人回拨后才知，未越读他户/JZ4。"
+relationship_updates:
+  - "晓漫携外甥的检票亭与母亲共餐，仍不代签付或查档；母亲愿申请较连续的住宿而非每两天重来。"
+foreshadowing_updates:
+  - "Day612新期两卡房门及夜侧门必须实际测；旧R-12独立末签与现装门根因仍未证。"
+ending_state: "Day61207:12松桥南廊原房双箱双碗双卡纸码头，七晚真款已到Day61912但新期门卡未测；旧四楼双封闭锁隔离禁返住。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "4d9b7fa3b0cebd090ef50f6af6543d2b87ee30a7", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3399

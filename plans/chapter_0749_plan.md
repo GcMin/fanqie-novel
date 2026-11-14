@@ -1,4 +1,4 @@
-# 第749章详细章纲｜签收的那一页，原来是退件
+# 第749章详细章纲｜收讫章后面，还有一笔退件
 
 - chapter: 749
 - volume: 6
@@ -6,8 +6,8 @@
 - role: Writer
 - status: draft
 - depends_on_chapter: 748
-- depends_on_source_sha: 4d9b7fa3b0cebd090ef50f6af6543d2b87ee30a7
-- dependency_status: provisional
+- depends_on_source_sha: a1d4a1faf64d4bfcd2300de855166184baeab51a
+- dependency_status: verified_ready_compatible_body
 - target_effective_chars: 2600-3400
 - actual_first_draft_effective_chars: 3344
 
@@ -43,3 +43,9 @@
 - 当前main提交 a5eb28ee9ccaf847b841304f611d42a132da21f5：已实读AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、Bible主线/世界/文风/人物卡、volume/arc现存大纲、plans/chapter_plan.csv、memory/current_arc/character/relationship/knowledge/world/foreshadowing/timeline、近十章0738—0747摘要和近五章0744—0748正文、0748章纲；不读取历史reader_reviews。较旧卷/弧大纲进度滞留，以近期正文与Memory实际事实优先。
 - published/ready/draft三目录实查现有章号最大748，第153章已存在；新章749和本详细章纲均不存在。第748章状态为未审Draft，原文Git blob完整SHA 4d9b7fa3b0cebd090ef50f6af6543d2b87ee30a7。前章未审，以特定草稿版本临时依赖，不能将其当正式Canon，待独立Audit核对变更。
 - 本轮只执行Planner、Continuity Precheck与Writer，新增两文件；不执行Editor/Reader/Revision/QA/Memory/Publish Gate，不改既有章节，不发布番茄。
+
+## Audit 2026-11-14 修订附记
+- 原Writer Precheck记录为写作时真实的临时依赖，保留历史，不将其伪称已审。
+- 原标题“签收的那一页，原来是退件”混同10:27收讫与11:03另页退件；Stage A更正为“收讫章后面，还有一笔退件”，小说正文零字更改。
+- 前748原Draft `4d9b7fa3b0cebd090ef50f6af6543d2b87ee30a7` 与正式候选Ready `a1d4a1faf64d4bfcd2300de855166184baeab51a` 小说正文逐字相同，仅Front Matter交付元数据变化；749依赖已重绑后者。
+- 第749章原稿Reader0/2/2，修订后新Draft `f0f2010a7d9d45f7dc53063e6f1465cc70f4d23b`重新独立双遍Reader0/0/2，独立Continuity/Style QA PASS，精确候选结构CI成功后方可ready。
