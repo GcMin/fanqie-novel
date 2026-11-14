@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 749
-last_reviewed_title: "收讫章后面，还有一笔退件"
-last_source_path: chapters/draft/0749.md
-last_source_sha: f0f2010a7d9d45f7dc53063e6f1465cc70f4d23b
-last_review_path: reader_reviews/0749_f0f2010a.md
+last_reviewed_chapter: 750
+last_reviewed_title: "发文簿写着待发，出件栏没有签识"
+last_source_path: chapters/draft/0750.md
+last_source_sha: 0cae49bb67a306b719fb9ea9c554d07b02c0fc2d
+last_review_path: reader_reviews/0750_0cae49bb.md
 last_reviewed_at: "2026-11-14"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 748
-depends_on_source_sha: a1d4a1faf64d4bfcd2300de855166184baeab51a
-dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: a1d4a1faf64d4bfcd2300de855166184baeab51a
+depends_on_chapter: 749
+depends_on_source_sha: bf75a6e6e7282ccf1ad4bf58191ffae451397a98
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: bf75a6e6e7282ccf1ad4bf58191ffae451397a98
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -9538,5 +9538,24 @@ combined_audit_chapter_749_20261114:
   predecessor_ready_sha: "a1d4a1faf64d4bfcd2300de855166184baeab51a"
   predecessor_fact_delta: body_identical_metadata_only
   dependency_status: verified_ready_compatible_body
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_750_20261114:
+  chapter: 750
+  title: "发文簿写着待发，出件栏没有签识"
+  original_source_sha: "98e5aea7fe33ef78658fa59b76d194b2d99fc739"
+  source_sha: "0cae49bb67a306b719fb9ea9c554d07b02c0fc2d"
+  initial_review_path: reader_reviews/0750_98e5aea7.md
+  current_review_path: reader_reviews/0750_0cae49bb.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_used: 1
+  body_revisions: 0
+  predecessor_ready_sha: "bf75a6e6e7282ccf1ad4bf58191ffae451397a98"
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
