@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 786
+title: "展期到了，纸要回家"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "537f05922e17da08766c43b87b5c5bbd8de0dc39"
+source_draft_sha: "537f05922e17da08766c43b87b5c5bbd8de0dc39"
+reader_review: "reader_reviews/0786_537f0592.md"
+depends_on_chapter: 785
+depends_on_source_sha: "5129522ad63ffe1e5831c9b4371c38b980908350"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "785已正式Ready，本章依赖完全相同，无临时SHA事实修订"
+timeframe: "Day651早—Day65121点后"
+summary: >-
+  Day651母亲在新荷街早晨准备用硬背板、干隔纸及外层防水套接回本人Day644第三张独立新印且右碗沿原有少墨缺口的《两只碗》，与Day643原始歪双碗独作分开。驿站小陆约下午15点取还，拒留复印及续展。韩姨仍记得Day650本人亲印的四针纸，普通邻里对话不转成作品或钥匙代理。驿站Day645换过的中性大字说明卡仍在，灰帽老人从缺墨想到自家旧搪瓷碗，母亲只解释印版缺色，不被代写身世。15:05后小陆将站方相框从矮柜移至洁净台，核Day644接收登记、原照片、纸背本人署名和日期以及右碗沿旧缺墨和无新增明显折脏；母亲将画确实放入自己隔纸硬背板文件袋持有之后，站方才签实际归还和关闭保管项，公用相框及说明卡仍归站方。老人独自在小票背面画两个不同圆圈，不请求复制原画。以后成人开放桌只由站方另议，母亲未获教师职位或授权网络使用作品。回新荷街后本人将新印双碗与旧原双碗分开隔纸收存，晓漫仅获限项实领照片，方窗船及孩子红杯产权未变；母亲在新空白试纸背面写下一只碗构想，尚未印。夜间仅报告旧仁合里四楼本人授权安全限项，R-12/F014仍无跨源新证，Day639邮政错格调查仍待核。
+meaningful_state_changes:
+  - "Day644有限一周新印双碗借展在Day651真正经现场核验、实物交本人及正式交回回执结束，驿站保管责任结存。"
+  - "母亲自定下一张单碗印纸主题且仅留文字草案，未成为实际作品或擅自续展。"
+knowledge_updates:
+  - "母亲与小陆知道画有原有右碗沿少墨而非归还新损，并已实物交回；普通老人只按自己的记忆读画和画小票。"
+  - "晓漫仅获母亲有限私人照片；夏宁中心不获新荷街借展和访客资料。"
+relationship_updates:
+  - "驿站与母亲短借展依登记真正结算，未来无固定教学、继续展览或复制宣传约定。"
+  - "母亲与韩姨普通邻里关系不形成代管、钥匙或作品支配授权。"
+foreshadowing_updates:
+  - "Day644社区驿站借展归还完成，不能成为仁合里F014旧联系号旧信旧押金历史或R-12门体缺证的旁证。"
+  - "Day639当代普通邮卡错投邮政仍待同号调查回复，Day649前租客旧信已经真人实领，与F014分源。"
+ending_state: "Day651夜母亲在新荷街本人真实持有Day644新印《两只碗》及旧歪双碗原作、四张蓝椅和纸套、孩子两水点红杯赠画等各原位；纸上只有一只碗的下一作文字构想；驿站保管结清、相框说明卡留站；Day639邮政仍待核，仁合里旧四楼闭锁双封禁返住R-12/F014无新证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "537f05922e17da08766c43b87b5c5bbd8de0dc39", final_draft_sha: "537f05922e17da08766c43b87b5c5bbd8de0dc39", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "reader_keep_no_content_changes"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3105

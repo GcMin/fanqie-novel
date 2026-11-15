@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 785
+last_updated_chapter: 787
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4400,3 +4400,16 @@ chapter_785_arc054:
   neighbor: "韩姨与母亲普通邻里手作由修袋延续为本人试印两张，母亲只教操作不替画或替定去向，仍无钥匙、长期代收或旧案知情。"
   community: "拄杖老人亲自作两张圆环并明确不借展，小陆停止劝说，站方无权限扫描本人作品。"
   professional: "小陆负责一次性桌位避开线槽、轮椅通路与清洁归位，不将本站母亲双碗限一周借展与居民自主试印混成自动延期或默认网宣。"
+chapter_786_arc054:
+  chapter: 786
+  source_sha: "537f05922e17da08766c43b87b5c5bbd8de0dc39"
+  mother_daughter: "母亲只向晓漫私发确已取回双碗与本人桌面限项照片，不授权外宣。"
+  neighbor: "韩姨和母亲普通邻里闲谈个人试印与到期取画，不转保管及钥匙委托。"
+  community: "小陆真交本人借展双碗后才结束保管，站方不自动续展复印及授课；灰帽老人独自画买菜小票两个圆。"
+
+chapter_787_arc054:
+  chapter: 787
+  source_sha: "72361058174d1b5808e98e4867a0568b68456362"
+  mother_daughter: "母亲晓漫仅交流自印单碗和普通邮政有限答复，孩子仍自定两张红杯画与纸盒车署名留白。"
+  neighbor: "韩姨没有邮政收件人及持续代投递调查代理身份，继续保留自己四针两张印纸。"
+  professional: "邮政原编号只作真实限定回复与答复收讫，母亲不接受错投原因已证；Day648物业公区维护由物业独立负责。"

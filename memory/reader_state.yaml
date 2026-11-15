@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 785
-last_reviewed_title: "两张纸各有自己的主人"
-last_source_path: chapters/draft/0785.md
-last_source_sha: cd79bf89c5d464a1278485fbdbf09874de6e2277
-last_review_path: reader_reviews/0785_cd79bf89.md
-last_reviewed_at: "2026-11-15"
+last_reviewed_chapter: 787
+last_reviewed_title: "只印一只碗，空着的地方不补"
+last_source_path: chapters/draft/0787.md
+last_source_sha: 72361058174d1b5808e98e4867a0568b68456362
+last_review_path: reader_reviews/0787_72361058.md
+last_reviewed_at: "2026-11-16"
 reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 784
-depends_on_source_sha: 8baf9b7fc6ccd3b8c540b63d16d64c4e6ccf3182
+depends_on_chapter: 786
+depends_on_source_sha: a595a005349c419a28be53b1ad77d52ab6a822a2
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 8baf9b7fc6ccd3b8c540b63d16d64c4e6ccf3182
+predecessor_current_source_sha: a595a005349c419a28be53b1ad77d52ab6a822a2
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10352,5 +10352,48 @@ combined_audit_chapter_785_20261115:
   depends_on_chapter: 784
   predecessor_ready_sha: "8baf9b7fc6ccd3b8c540b63d16d64c4e6ccf3182"
   predecessor_body_delta: "前章784已在Writer写785前正式Ready，依赖完全精确，无临时旧SHA差异"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_786_20261116:
+  chapter: 786
+  source_sha: "537f05922e17da08766c43b87b5c5bbd8de0dc39"
+  review_path: "reader_reviews/0786_537f0592.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  char_count: 3105
+  body_revisions: 0
+  depends_on_chapter: 785
+  predecessor_ready_sha: "5129522ad63ffe1e5831c9b4371c38b980908350"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_787_20261116:
+  chapter: 787
+  original_source_sha: "ec01fa6881936c92151aa7ae127b0a2dcdea3573"
+  original_review_path: "reader_reviews/0787_ec01fa68.md"
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "72361058174d1b5808e98e4867a0568b68456362"
+  review_path: "reader_reviews/0787_72361058.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  char_count: 3333
+  body_revisions: 0
+  stage_a_changes: "786原Draft与Ready故事正文完全一致，787只重绑前章最终Ready SHA并同步详细章纲，小说正文未修改"
+  depends_on_chapter: 786
+  predecessor_original_draft_sha: "537f05922e17da08766c43b87b5c5bbd8de0dc39"
+  predecessor_ready_sha: "a595a005349c419a28be53b1ad77d52ab6a822a2"
+  predecessor_body_delta: "delivery_metadata_only_story_body_identical"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

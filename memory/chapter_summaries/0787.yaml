@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 787
+title: "只印一只碗，空着的地方不补"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "ec01fa6881936c92151aa7ae127b0a2dcdea3573"
+source_draft_sha: "72361058174d1b5808e98e4867a0568b68456362"
+initial_reader_review: "reader_reviews/0787_ec01fa68.md"
+reader_review: "reader_reviews/0787_72361058.md"
+depends_on_chapter: 786
+depends_on_source_sha: "a595a005349c419a28be53b1ad77d52ab6a822a2"
+dependency_status: verified_exact_ready_blob
+predecessor_original_draft_sha: "537f05922e17da08766c43b87b5c5bbd8de0dc39"
+predecessor_fact_delta: "786原Draft与正式Ready小说正文逐字相同，只有status/qa/approved_at/updated_at/publish_mode交付元数据变化；Day651真还双碗和只写单碗构想事实均不变。"
+timeframe: "Day652早—Day65221点后"
+summary: >-
+  Day652母亲在新荷街亲核昨日下午从社区驿站真实交回的Day644新印《两只碗》右碗沿旧少墨缺口，原画和个人其他纸作分存。Day651仅在试纸背面写的一只碗现在准备自己压印。上午原Day639普通明信片错格邮政渠道回访拟结单，母亲10:06要求分清已真收到邮卡、只提醒片区和仍未查清具体错投动作；Day648物业换号片只属公区维护，韩姨仅本人邻格发现并转交，不能代投递责任证。母亲洗净食用青白两碗后清出饭桌和工具垫，13:30自己刻软板留凸起单碗轮廓薄滚深蓝水洗颜料，第一次印样蓝墨积聚兼右缘缺线，背写试一仍保留；第二次减墨、左下定位并压稳，单碗成形、右半留大空白，母亲决定不添勺子，待纸干后背面日期署名和写一只碗，本人收存。15:42原邮政渠道同一编号电子限定答复实际到达，证本次自寄邮卡已由邻户转交本人实收，片区收到规范投递提醒，但无足够记录还原具体投格时刻、岗位人员和过失原因；母亲回电仅确认已收到回复且保留未查明，不将答复收讫等同错因认定或所有投递质量结案；物业纸回执与电子邮政回复分存。晚间晓漫及孩子视频知母亲只画单碗，孩子纸盒车第四轮已添并自己决定留白，孩子Day647红杯两张各归本人和外婆、方窗船架位未改。母亲清理工具饭桌复用，夜间仍仅向中心报旧仁合里四楼授权闭锁安全限项，R-12/F014历史证据未补。
+meaningful_state_changes:
+  - "Day651单碗文字构想在Day652成为母亲实际亲刻亲印两张不同试样，其中第二张左下单碗大留白并背签本人收藏。"
+  - "Day639自寄普通邮卡错格的邮政同编号由Day648提醒加补登待核推进至Day652实际收到有限电子书面回复；具体错投动作与人员责任仍未查明。"
+knowledge_updates:
+  - "母亲清楚本人确认的是收到限定电子回复而非错误投递根因查明；韩姨仅知道自己邻格实取转交而不能推断谁错投。"
+  - "晓漫只知普通邮政限项及本人版画，孩子拥有自己红杯与纸盒车创作决定权；夏宁只获旧屋授权限项。"
+relationship_updates:
+  - "韩姨与母亲仍是普通邻里，不被当作原收件人或长期代收调查员；邮政服务渠道只形成同号回复收讫不扩权。"
+  - "母亲尊重孩子署名和留白自由，晓漫也不要求两人互相补画。"
+foreshadowing_updates:
+  - "Day652邮政回复仅确认本次错格普通卡已实收和片区提醒、没有单次可还原错因；与Day648物业号牌维护、Day649旧租客旧信本人实领均分别归档，不证仁合里F014历史旧号旧信旧押金。"
+  - "R-12末签、现门型号Day577擦响根因、七号箱五楼2019漏源原卷仍无独立跨源核验；旧四楼禁返住不变。"
+ending_state: "Day652夜母亲新荷街真住、Day644新印双碗与Day643原作均已回到本人保存；Day652新刻单碗两张分夹第二张背签，Day639邮政原编号限定电子回复实收但具体原因仍未知，旧仁合里闭锁双封禁返住R-12/F014无证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ec01fa6881936c92151aa7ae127b0a2dcdea3573", final_draft_sha: "72361058174d1b5808e98e4867a0568b68456362", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "rebind_predecessor_786_draft_to_final_ready_verified_identical_body"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3333

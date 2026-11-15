@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 785
-current_stage: chapter785_reader_content_QA_pass_exact_CI_required
-current_source_path: chapters/draft/0785.md
-current_source_sha: cd79bf89c5d464a1278485fbdbf09874de6e2277
-current_review_path: reader_reviews/0785_cd79bf89.md
+current_chapter: 787
+current_stage: chapter787_reader_content_QA_pass_exact_CI_required
+current_source_path: chapters/draft/0787.md
+current_source_sha: 72361058174d1b5808e98e4867a0568b68456362
+current_review_path: reader_reviews/0787_72361058.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter785_stageA_newSHA_reader_QA_pass
-last_action_date: "2026-11-15"
+last_action: chapter787_stageA_metadata_only_newSHA_reader_QA_pass
+last_action_date: "2026-11-16"
 last_error: null
-last_diff_summary: "785局部修复厚卡凸版固定薄墨转印及Day645展示卡时间，正文四处，字数3302，新SHA Reader 0/0/2和独立QA PASS；候选精确结构CI必需。"
+last_diff_summary: "786原稿与Ready正文一致；787仅重绑前章Ready SHA并修改章纲未改正文，新SHA Reader 0/0/2和独立QA通过，待精确CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: cd79bf89c5d464a1278485fbdbf09874de6e2277
+current_review_source_sha: 72361058174d1b5808e98e4867a0568b68456362
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -9110,6 +9110,35 @@ combined_audit_chapter_785_20261115:
   stage_a_changes: "卡纸凸版固定上墨覆纸工艺补因果、Day645卡片时间纠错，正文四处"
   body_revisions: 4
   predecessor_ready_sha: "8baf9b7fc6ccd3b8c540b63d16d64c4e6ccf3182"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_786_20261116:
+  chapter: 786
+  original_sha: "537f05922e17da08766c43b87b5c5bbd8de0dc39"
+  source_sha: "537f05922e17da08766c43b87b5c5bbd8de0dc39"
+  final_review: "reader_reviews/0786_537f0592.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  predecessor_ready_sha: "5129522ad63ffe1e5831c9b4371c38b980908350"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_787_20261116:
+  chapter: 787
+  original_sha: "ec01fa6881936c92151aa7ae127b0a2dcdea3573"
+  source_sha: "72361058174d1b5808e98e4867a0568b68456362"
+  original_review: "reader_reviews/0787_ec01fa68.md"
+  final_review: "reader_reviews/0787_72361058.md"
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  stage_a_changes: "786原稿到正式Ready只有Front Matter改动，787只重绑正式Ready SHA同步章纲"
+  body_revisions: 0
+  predecessor_original_draft_sha: "537f05922e17da08766c43b87b5c5bbd8de0dc39"
+  predecessor_ready_sha: "a595a005349c419a28be53b1ad77d52ab6a822a2"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
