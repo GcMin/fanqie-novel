@@ -6,8 +6,8 @@
 - target_chars: 3000
 - preferred_range: 2600-3400
 - count_method: publisher.content.normalized（去空白，包含独立场景分隔符）
-- actual_effective_chars: 3163
-- prose_effective_chars_without_scene_markers: 3148
+- actual_effective_chars: 3254
+- prose_effective_chars_without_scene_markers: 3239
 - depends_on_chapter: 780
 - depends_on_source_sha: 31255f9282c91635864f7419de52af1b55065e0a
 - dependency_status: verified_exact_ready_blob
@@ -38,3 +38,8 @@
 - 最新前章第780章的正式Ready Git blob 为 `31255f9282c91635864f7419de52af1b55065e0a`，非未审临时稿；本章精确依赖正式Ready源，`dependency_status: verified_exact_ready_blob`，不标 `provisional`。Day645中性展卡与Day644一周借展均与正式第780章一致。
 - 参考最近十章771—780长期摘要和最近五章776—780正式Ready全文，核了Bible、当前状态及时间线。没有读取历史Reader Review，没有将旧仁合里未证事项改成已证。
 - 本章只执行 Planner、Continuity Precheck、Writer；不进行Reader、Revision、QA、Memory更新、Publish Gate，也不更新现有章节、计划总表或发布番茄。
+
+## 审核修订与正式依赖（2026-11-15）
+- 原Draft Blob `7f073e8dd9eafa2d738a020055229dc4920ca30b` Pass A→B为BLOCKER0/MAJOR1/MINOR2；MAJOR是软刻板仅描线便滚墨印出椅背四脚，缺实刻空白与刀具购买来源。
+- Stage A局部只加小刻刀和软板实际采购、滚墨前刻去多余软板留凸出椅子线，修正有效字符到3254，新的Draft SHA `2f688819aa5de4ff735b438fd8c90637cc0f3845` 独立双遍Reader0/0/2 keep/none；正文四次压印、人物状态不改。
+- 精确依赖第780章最终Ready `31255f9282c91635864f7419de52af1b55065e0a`，第780章原Draft与Ready小说正文实际相同；独立Continuity/Style QA PASS。原详细章纲预检保持创作时原始记录，实际放行必须另过精确候选CI结构门槛。

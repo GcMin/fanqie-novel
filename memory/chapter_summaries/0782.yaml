@@ -1,0 +1,38 @@
+schema_version: 1
+chapter: 782
+title: "杯子打架以前，先把纸摆平"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "8b7a7c74bac05c2d445de778c88e5e3bd6eb6f23"
+source_draft_sha: "51ccb2a27dc61c6440bdff6e6f79a5d719bb4c49"
+initial_reader_review: "reader_reviews/0782_8b7a7c74.md"
+reader_review: "reader_reviews/0782_51ccb2a2.md"
+depends_on_chapter: 781
+depends_on_source_sha: "518f7bec418b98a2b456e9dcd277d32abd380552"
+dependency_status: verified_exact_ready_blob
+predecessor_original_draft_sha: "7f073e8dd9eafa2d738a020055229dc4920ca30b"
+predecessor_fact_delta: "781原Draft到正式Ready实际新增软版刻刀购置与刻除底面保留椅线的工艺因果，四次印画和未来儿童参与承诺不变；782对工具来源及新事实相容且绑定正式Ready"
+timeframe: "Day647早—Day64721点后"
+summary: >-
+  Day647母亲继续真住新荷街，Day646自己印制的四张椅子试纸有序留存，第四张背签私人抽屉、前三张作为不同试印失败记录；Day644驿站有责室内一周借展她的新印双碗，Day645中性展卡仍有效。晓漫上午来电，外甥拿Day645自题《杯子打架》原稿想来亲手压印；母亲确认自己没有替他预印，承诺下午只用成人看护安全工具。上午母亲核桌面垫板平整，将食饭饮水与颜料分区，自费购有完整说明的少量红色水洗颜料；韩姨楼下仅普通闲聊不代办。14:20晓漫和孩子真实来访，外甥亲核Day638方窗船还在原来低柜内侧木架，不许擅改架位，不拿原画当刀具底纸；孩子自己决定只印两杯图案、标题待干后亲写，用钝头压纹笔试图控制杯柄反向，尖刀仅成人可用。15:05第一张红印杯口与杯柄局部断，三水点只现两颗；第二张红深浅不匀但三点都出现，一点恰碰杯口，孩子选择保留且没有强行重压湿纸。三人清洁、饭桌恢复、共食晚饭后，孩子决定第一张两水点画送外婆、第二张自己留，没授权驿站展示。17:30纸干后孩子在第一张背面亲署日期姓名，第二张正面写自己选的《杯子打架》并署名，分别装夹，晓漫带孩子正常离开，房卡仍母亲自持、方窗船未挪。21点后母亲仍仅向夏宁中心报旧仁合里四楼本人授权闭锁安全限项，旧屋双封水电隔离整屋禁返住及R-12/F014旧证缺口不变。
+meaningful_state_changes:
+  - "原本781只约定的孩子亲自试印于Day647真实发生，孩子实际制作两张不同红杯印画，并对成功失败自行解释。"
+  - "孩子亲笔分别署名、真赠第一张予外婆、带走第二张，两份所有权及去向明确，未经站方收件或网络发布。"
+  - "母亲窄桌首次容纳三人的有限手工和饮食并实际恢复正常通行，成人看护刀具与孩子作品署名边界落实。"
+knowledge_updates:
+  - "母亲、晓漫和孩子共同知道今天两张不同红杯印纸确实制成且各归谁，孩子自定左淡右深与水点意思；母亲仅知家人有限普通活动，不把作品外宣。"
+  - "韩姨只知道今天有小客来试印，夏宁仍只知仁合里旧四楼本人授权限项；邮政Day639反馈结案与历史R-12/F014仍未知。"
+relationship_updates:
+  - "母亲兑现尊重外甥本人印画的Day646承诺，晓漫作看护而非代作，孩子实际决定作品名、颜色、署名位置、赠送对象和未来是否挪纸船。"
+  - "韩姨只楼下扶菜车及问候，无代管、家门卡或儿作品公开许可。"
+foreshadowing_updates:
+  - "Day644一周限项《两只碗》公共借展不因此扩至孩子作品，Day645中性卡不回改，Day639邮政投诉只受理未结。"
+  - "Day647普通家庭艺术活动不能作为仁合里F014历史旧号旧信旧押金七号箱五楼漏源2019、R-12末签现门根因的跨源证明。"
+ending_state: "Day647夜母亲在新荷街与外甥本人所赠第一张红色双杯画分夹收藏、自己的小椅子印画仍本人私藏；孩子本人携第二张红杯画与原两杯彩笔稿返家，方窗船留原低柜内侧架；驿站借展原范围有效，旧四楼仍双封禁返住R-12/F014未核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "8b7a7c74bac05c2d445de778c88e5e3bd6eb6f23", final_draft_sha: "51ccb2a27dc61c6440bdff6e6f79a5d719bb4c49", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "rebind_provisional_prev781_original_to_final_ready_after_actual_body_fact_delta"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3365

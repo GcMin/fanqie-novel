@@ -9,9 +9,9 @@
 - actual_effective_chars: 3365
 - prose_effective_chars_without_scene_markers: 3347
 - depends_on_chapter: 781
-- depends_on_source_sha: 7f073e8dd9eafa2d738a020055229dc4920ca30b
-- dependency_status: provisional
-- source_path: chapters/draft/0781.md
+- depends_on_source_sha: 518f7bec418b98a2b456e9dcd277d32abd380552
+- dependency_status: verified_exact_ready_blob
+- source_path: chapters/ready/0781.md
 
 ## Planner
 
@@ -27,7 +27,7 @@
   6. 两画确实干燥后孩子亲自落日期、姓名与标题，两个纸夹分开、方窗船画位不变，晓漫与孩子当日自行离开。21点后夜间中心仍只获本人授权旧仁合里四楼安全限项。
 - **新增信息和状态变化**：孩子的红色两杯首批亲手纸印实际完成，两种不同缺损被本人确认并双份分流留存，作品署名权和去处实际落实；小桌从母亲单人练习扩为一次安全、有界、可收回的真实家庭共同操作，非预告。
 - **人物关系**：晓漫参与看护和清理而不替孩子决定“好坏”、标题、印色和赠送对象；母亲尊重孩子自己决定试印内容、收画位置和未来是否参与公开展示。韩姨仍为有限邻里关系，无新房卡或长期代办授权。
-- **伏笔和不可泄露**：第781章因是待审草稿，所用家庭打印工具、Day646四张试样和原位的方窗船仅作为 **provisional 待核** 的临时连续性依赖，不擅认新正式Canon；如Audit修订第781章，须以本章明确Blob核对印材与时间。Day639当代错格明信片虽本人实收，邮政质量反馈仅受理；旧仁合里四楼闭锁，12cm观察口与亡夫饰板分封，水电隔离、Day536撤清运整屋禁返住仍在。整班专业失锁守门替岗与再开门许可未成；R-12旧末签、现门型号、Day577擦响根因、F014历史旧号旧信旧押金全部渠道、七号箱五楼漏源及2019旧卷均没有跨源新证；不得抬高F003/F008/M004/M005。
+- **伏笔和不可泄露**：第781章已由唯一Audit局部补全软版刻制与刀具实际采购，并独立新SHA复审和QA；本章依据其最终Ready准确核实工具和四张试样事实，非未审临时引用，仍不得将儿童绘画自动授权公开。Day639当代错格明信片虽本人实收，邮政质量反馈仅受理；旧仁合里四楼闭锁，12cm观察口与亡夫饰板分封，水电隔离、Day536撤清运整屋禁返住仍在。整班专业失锁守门替岗与再开门许可未成；R-12旧末签、现门型号、Day577擦响根因、F014历史旧号旧信旧押金全部渠道、七号箱五楼漏源及2019旧卷均没有跨源新证；不得抬高F003/F008/M004/M005。
 - **结尾承接**：Day647夜孩子自留第二张、母亲持赠来的第一张，孩子原草稿未损、署名新方窗船原位，驿站《两只碗》维持原借展；未来若想公开展示须另请本人和监护人决定，不能倒推已同意。
 
 ## Continuity Precheck
@@ -36,3 +36,8 @@
 - 同一 main SHA 的 published、ready、draft 各列目录分别核对：最大数字章号781，原第153章已在 `chapters/published/0153.md`，`chapters/draft/0782.md` 和 `plans/chapter_0782_plan.md` 预期尚不存在；仅创建第782章。
 - 第781章位置 `chapters/draft/0781.md`，其完整Git Blob SHA为 `7f073e8dd9eafa2d738a020055229dc4920ca30b`；`depends_on_chapter: 781`、`depends_on_source_sha: 7f073e8dd9eafa2d738a020055229dc4920ca30b`、`dependency_status: provisional` 与正文Front Matter一致。第781章尚为未审草稿，关于工具购置、试纸与孩子未来意愿是基于特定版本的暂时参考，不将其视为正式Canon。
 - 仅Planner、Continuity Precheck、Writer；不执行Reader、Revision、QA、Memory、Publish Gate，不改已有正文及长期状态文件，不发布番茄。
+
+## 审核重新核对781版本依赖（2026-11-15）
+- 创作时预检仍历史真实地说明引用旧781 `7f073e8d...` 临时Draft。本次唯一Audit实际比对781原Draft与修订后正文的刀具/刻板工艺差异，确认本章儿童不得自行持刻刀的场景与新增事实相容。
+- Stage A仅将782 Front Matter和计划正式绑定第781章Ready Blob `518f7bec418b98a2b456e9dcd277d32abd380552`，小说正文0字改动；原782 Draft `8b7a7c74bac05c2d445de778c88e5e3bd6eb6f23` 改为新Draft `51ccb2a27dc61c6440bdff6e6f79a5d719bb4c49`，新SHA Reader独立Pass A→B结果0/0/2 keep/none。
+- 独立Continuity/Style/Meaningful QA PASS、3365有效字；还需精确候选Git提交CI真实结构校验后才可正式放行。

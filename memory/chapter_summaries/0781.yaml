@@ -1,0 +1,38 @@
+schema_version: 1
+chapter: 781
+title: "第一张在家印出来的纸"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "7f073e8dd9eafa2d738a020055229dc4920ca30b"
+source_draft_sha: "2f688819aa5de4ff735b438fd8c90637cc0f3845"
+initial_reader_review: "reader_reviews/0781_7f073e8d.md"
+reader_review: "reader_reviews/0781_2f688819.md"
+depends_on_chapter: 780
+depends_on_source_sha: "31255f9282c91635864f7419de52af1b55065e0a"
+dependency_status: verified_exact_ready_blob
+predecessor_original_draft_sha: "98512f67d544f4ce16d3674b83d3ddd6498e7f06"
+predecessor_fact_delta: "780初始临时Draft、修元数据Draft和最终Ready小说正文实际逐字相同，仅交付Front Matter变化；781精确依赖最终Ready"
+timeframe: "Day646清晨—Day64621点后"
+summary: >-
+  Day646母亲已合法真住新荷街，Day644本人另印的带小缺口双碗纸画仍由社区便民驿站按一周限项室内保管，Day645纠正的中性大字卡继续展示；原歪双碗画、Day644两张未选双碗试样、邹姨合作花盆桌沿画、孩子Day638亲签方窗船均在新屋按权属原位。母亲独立从自己窗边折叠椅起稿，09点后自费买小胶辊、软板、带护套小刻刀、水洗颜料和厚白卡，拒占走道大晾架；韩姨只推荐干净回收塑料垫板。10:45清空吃饭小桌，隔离水与饭具，刻除软板多余空白留椅背四脚凸线，先因颜料过厚导致糊版，再减量修边。午饭桌清洁，晓漫传外甥Day645自命名《杯子打架》的新草稿已增加歪胳膊和三水点，孩子想将来亲手试红色，母亲不擅自预印孩子作品也不承诺当前未买的红色颜料。15点第三次试压因压力不均留下浅痕，16点多收快递开门起风使纸角沾蓝，未碰亲签方窗船；17:30第四张椅子压印成功，背署名字日期装硬夹本人私藏，前三张留作失败顺序记录。随后洗净工具、恢复饭桌和正常走道；韩姨只在楼门口普通问候，没有替母亲署名或入室。21点后母亲仍仅向夏宁中心回报仁合里旧四楼授权安全限项，旧屋闭锁双封隔离整屋禁返住、专业守门替岗和再开门许可及R-12/F014历史跨源旧证不变。
+meaningful_state_changes:
+  - "第一次在本人独立新居真正建立可收起的纸印工作流程，并完成本人背签私藏的第四张小椅子版画；三张失败试纸按次序留存。"
+  - "本人实际购入并使用小滚筒软版刻刀颜料与可清洗垫板，四次试压及食饭与走道恢复均落实，不依赖分馆现成设备。"
+  - "外甥未来自己试印《杯子打架》仅是约定，未冒充他授权外婆直接复制，也未发生下次来访。"
+knowledge_updates:
+  - "母亲知道软版需先刻出凸线再薄墨按压，知在窄屋可以隔离颜料与饮食并按次序做完清洗归位；第四张是独作私藏，不自动成为驿站新借展。"
+  - "晓漫及孩子只私下看到椅子失败试纸，孩子本人想未来试印红色但尚无此颜料和到访，韩姨只知居家试印普通邻里事实；夏宁仍不知新居画具或住址。"
+relationship_updates:
+  - "韩姨仅为普通邻居提供垫板信息，晚间楼门口问候不形成代工授权、钥匙交换或旧案知情。"
+  - "母亲尊重孩子杯子画署名与参与权，晓漫只转递声音，家庭共作仍待未来真实发生。"
+foreshadowing_updates:
+  - "Day644社区驿站室内一周借展与Day645中性大字卡仍继续，没新增网宣许可或提前返还；Day639邮政错格反馈仍未查结。"
+  - "第781章的普通家庭纸版画不能证仁合里F014历史旧号旧信旧押金全渠道末端实退、七号箱五楼漏源2019及R-12末签门型号Day577根因。"
+ending_state: "Day646夜母亲在新荷街真实日常独住，第四张亲签椅子印画放本人抽屉，三试纸有序记录，刻刀水洗工具全部收起、通道饭桌恢复；驿站仍有责保管限一周借展的另一张双碗新印画，孩子船原位，旧仁合里仍禁返住且R-12/F014无新证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7f073e8dd9eafa2d738a020055229dc4920ca30b", final_draft_sha: "2f688819aa5de4ff735b438fd8c90637cc0f3845", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 2, reason: "fix_relief_plate_carving_and_explicit_cutter_purchase"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3254

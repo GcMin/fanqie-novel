@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 780
-current_stage: chapter780_reader_and_content_QA_pass_exact_CI_required
-current_source_path: chapters/draft/0780.md
-current_source_sha: c830a02876e3235f1c4d585786e8ae632d610868
-current_review_path: reader_reviews/0780_c830a028.md
+current_chapter: 782
+current_stage: chapter782_reader_and_content_QA_pass_exact_CI_required
+current_source_path: chapters/draft/0782.md
+current_source_sha: 51ccb2a27dc61c6440bdff6e6f79a5d719bb4c49
+current_review_path: reader_reviews/0782_51ccb2a2.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter780_stageA_rebind_779_final_ready_and_newSHA_reader_QA_pass
+last_action: chapters781_782_stageA_new_SHA_reader_QA_pass
 last_action_date: "2026-11-15"
 last_error: null
-last_diff_summary: "仅修第780章前章779原临时Draft依赖到正式Ready并更新计划，正文0字修改；新SHA Reader 0/0/2，精确候选CI必需。"
+last_diff_summary: "781正文补刀具实购与软板刻除空白留凸线并纠字数3254；782实比781正文版本后仅前章依赖绑最终Ready且正文0字变；两章新SHA Reader各0/0/2及QA通过，精确候选CI必需。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: c830a02876e3235f1c4d585786e8ae632d610868
+current_review_source_sha: 51ccb2a27dc61c6440bdff6e6f79a5d719bb4c49
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -9026,6 +9026,40 @@ combined_audit_chapter_780_20261115:
   body_revisions: 0
   predecessor_ready_sha: "adbaa5c005e91e25b5411ed7f288869dad11ebd0"
   predecessor_body_delta: "779_original_draft_and_final_ready_body_identical"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+
+combined_audit_chapter_781_20261115:
+  chapter: 781
+  original_sha: "7f073e8dd9eafa2d738a020055229dc4920ca30b"
+  source_sha: "2f688819aa5de4ff735b438fd8c90637cc0f3845"
+  original_review: reader_reviews/0781_7f073e8d.md
+  final_review: reader_reviews/0781_2f688819.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  stage_a_changes: "软板刻除空白形成凸线与带护套小刻刀实际买入"
+  body_revisions: 2
+  predecessor_ready_sha: "31255f9282c91635864f7419de52af1b55065e0a"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_782_20261115:
+  chapter: 782
+  original_sha: "8b7a7c74bac05c2d445de778c88e5e3bd6eb6f23"
+  source_sha: "51ccb2a27dc61c6440bdff6e6f79a5d719bb4c49"
+  original_review: reader_reviews/0782_8b7a7c74.md
+  final_review: reader_reviews/0782_51ccb2a2.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  stage_a_changes: "782绑定781正式Ready并记录前章刀具刻版事实变化"
+  body_revisions: 0
+  predecessor_original_draft_sha: "7f073e8dd9eafa2d738a020055229dc4920ca30b"
+  predecessor_ready_sha: "518f7bec418b98a2b456e9dcd277d32abd380552"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

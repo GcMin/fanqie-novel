@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 780
-last_reviewed_title: "画旁边那行字不是她写的"
-last_source_path: chapters/draft/0780.md
-last_source_sha: c830a02876e3235f1c4d585786e8ae632d610868
-last_review_path: reader_reviews/0780_c830a028.md
+last_reviewed_chapter: 782
+last_reviewed_title: "杯子打架以前，先把纸摆平"
+last_source_path: chapters/draft/0782.md
+last_source_sha: 51ccb2a27dc61c6440bdff6e6f79a5d719bb4c49
+last_review_path: reader_reviews/0782_51ccb2a2.md
 last_reviewed_at: "2026-11-15"
 reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 779
-depends_on_source_sha: adbaa5c005e91e25b5411ed7f288869dad11ebd0
+depends_on_chapter: 781
+depends_on_source_sha: 518f7bec418b98a2b456e9dcd277d32abd380552
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: adbaa5c005e91e25b5411ed7f288869dad11ebd0
+predecessor_current_source_sha: 518f7bec418b98a2b456e9dcd277d32abd380552
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10222,5 +10222,59 @@ combined_audit_chapter_780_20261115:
   predecessor_original_draft_sha: "6601d2dc5a1a765df76ecf4c3d5ffa2659de255a"
   predecessor_ready_sha: "adbaa5c005e91e25b5411ed7f288869dad11ebd0"
   predecessor_body_delta: "original_779_Draft_and_final_Ready_novel_body_identical"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+
+combined_audit_chapter_781_20261115:
+  chapter: 781
+  title: "第一张在家印出来的纸"
+  source_path: chapters/draft/0781.md
+  original_source_sha: "7f073e8dd9eafa2d738a020055229dc4920ca30b"
+  original_review_path: reader_reviews/0781_7f073e8d.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "2f688819aa5de4ff735b438fd8c90637cc0f3845"
+  review_path: reader_reviews/0781_2f688819.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  char_count: 3254
+  body_revisions: 2
+  stage_a_changes: "补真实软板刻刀采购与刻除空白留椅子凸线"
+  depends_on_chapter: 780
+  predecessor_ready_sha: "31255f9282c91635864f7419de52af1b55065e0a"
+  predecessor_body_delta: "780原稿中稿Ready小说正文实际逐字相同"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_782_20261115:
+  chapter: 782
+  title: "杯子打架以前，先把纸摆平"
+  source_path: chapters/draft/0782.md
+  original_source_sha: "8b7a7c74bac05c2d445de778c88e5e3bd6eb6f23"
+  original_review_path: reader_reviews/0782_8b7a7c74.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "51ccb2a27dc61c6440bdff6e6f79a5d719bb4c49"
+  review_path: reader_reviews/0782_51ccb2a2.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  char_count: 3365
+  body_revisions: 0
+  stage_a_changes: "实比前章781修订新增刻版和刀具事实并绑定最终Ready SHA"
+  depends_on_chapter: 781
+  predecessor_original_draft_sha: "7f073e8dd9eafa2d738a020055229dc4920ca30b"
+  predecessor_ready_sha: "518f7bec418b98a2b456e9dcd277d32abd380552"
+  predecessor_body_delta: "781新增真实采购刻刀及软板雕刻而四次压印不变，782引用事实兼容"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main
