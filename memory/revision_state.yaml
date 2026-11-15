@@ -9063,3 +9063,19 @@ combined_audit_chapter_782_20261115:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_783_20261115:
+  chapter: 783
+  original_sha: "0879175cb1aa7395c367d5b6f1113abffbd3515f"
+  source_sha: "9e28afa079a7013056a0f73dcc7e1a8fb2620648"
+  original_review: reader_reviews/0783_0879175c.md
+  final_review: reader_reviews/0783_9e28afa0.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  stage_a_changes: "将短信误作实体邮政补登纸件的章末归档改为手机原渠道存信、本子笔记另记日期及受理号；Front Matter有效字符计数2799改2822"
+  body_revisions: 1
+  predecessor_ready_sha: "d717eb82b929fba0d2ca6800a69fd8a928952e8c"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main

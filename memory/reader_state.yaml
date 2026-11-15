@@ -10278,3 +10278,28 @@ combined_audit_chapter_782_20261115:
   predecessor_body_delta: "781新增真实采购刻刀及软板雕刻而四次压印不变，782引用事实兼容"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_783_20261115:
+  chapter: 783
+  title: "换了箱牌，信还得走完路"
+  source_path: chapters/draft/0783.md
+  original_source_sha: "0879175cb1aa7395c367d5b6f1113abffbd3515f"
+  original_review_path: reader_reviews/0783_0879175c.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "9e28afa079a7013056a0f73dcc7e1a8fb2620648"
+  review_path: reader_reviews/0783_9e28afa0.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  char_count: 2822
+  body_revisions: 1
+  stage_a_changes: "纠正Day648结尾把邮政电子补充登记短信误当第二张实体纸件归档，重新区分物业纸质回执、原渠道短信和本子手记"
+  depends_on_chapter: 782
+  predecessor_ready_sha: "d717eb82b929fba0d2ca6800a69fd8a928952e8c"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main

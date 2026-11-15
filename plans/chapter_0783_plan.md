@@ -6,8 +6,8 @@
 - arc: ARC-054
 - target_chars: 3000
 - preferred_range: 2600-3400
-- actual_effective_chars: 2799
-- prose_effective_chars_without_scene_markers: 2781
+- actual_effective_chars: 2822
+- prose_effective_chars_without_scene_markers: 2804
 - count_method: 去空白计正文，包含独立 `***` 场景分隔符
 - depends_on_chapter: 782
 - depends_on_source_sha: d717eb82b929fba0d2ca6800a69fd8a928952e8c
@@ -33,7 +33,7 @@
 - **前章继承物证**：两只独立纸夹和两张红杯各有所主；母亲原歪双碗画、邹姨合作花盆画、蓝旧票盒、青白碗、甲乙箱在新荷街按原权属。Day63615:29母亲本人普通邮筒投寄的邮卡，Day63912:18由韩姨从相邻本人信箱取出并当面交，13:40母亲正式投诉，仅证明当代错格转交，不证明邮政岗位或旧仁合里历史地址链。
 - **不可泄露/不可越权**：旧仁合里17号楼四楼闭锁，12cm观察口与亡夫饰板分封，水电受控隔离、Day536撤清运整屋禁返住仍然存在；专业整班失锁守门与再开门许可、R-12最终独立签/现门型号/Day577擦响原因、F014旧号旧信本人历史收讫及旧押金所有渠道末端退付、七号箱五楼漏源和2019旧卷均未获得跨源新证。F003/F008/M004/M005不得因普通当代生活案件抬高。
 - **结尾承接**：当晚两格号码真的清晰且物业维护已完成，母亲自己的信箱仍空着；新邮件是否投对、邮政错投原因、旧投诉最终答复留待真实后续。结束在可核小结果和保留未知之间，不强行悬念。
-- **目标字数**：2600—3400有效字符，实际2799（不计空白，包含独立场景分隔符）。
+- **目标字数**：2600—3400有效字符，实际2822（不计空白，包含独立场景分隔符）。
 
 ## Continuity Precheck
 
@@ -41,3 +41,8 @@
 - 三目录在上述main SHA逐一核对：published最大0159（其中`0153.md`第153章《人没回来，表先签完了》已经真实存在）、ready最大0782、draft中无数字章；`chapters/draft/0783.md`、`chapters/ready/0783.md`、`chapters/published/0783.md`及`plans/chapter_0783_plan.md`尚不存在。所以下一章应为783，不得按旧游标重复写782。
 - 前章第782章于`chapters/ready/0782.md`真实已审定，完整Git Blob SHA `d717eb82b929fba0d2ca6800a69fd8a928952e8c`，因此本章 `depends_on_chapter: 782`、`depends_on_source_sha`精确指向该已审定版本、`dependency_status: verified_exact_ready_blob`；不标provisional。
 - 本轮仅Planner、Continuity Precheck、Writer新建一个新章计划和一个draft，`status:draft`、`qa:pending`、`approved_at:null`、`publish_mode:draft`。不读历史Reader评语、不执行Editor/Reader/Revision/QA/Memory/Publish Gate，不改其他旧稿，不发布番茄。GitHub分支更新须再读最新main SHA，使用base_tree保留原库、原子tree+commit，expected_sha与force:false拒绝并发覆盖。
+
+## 唯一Audit实际检查与修订（2026-11-15）
+- 原稿Git blob `0879175cb1aa7395c367d5b6f1113abffbd3515f` Reader双遍0 BLOCKER/1 MAJOR/2 MINOR，MAJOR为末尾电子邮政补登短信被误作第二张纸件。
+- Stage A仅正文末句归档来源一处改为物业纸回执入租屋夹、邮政短信留原手机渠道、旧本子另记短信日期和受理编号，并更新实际2822有效字符；修订Draft `9e28afa079a7013056a0f73dcc7e1a8fb2620648` 重新独立Reader先Pass A后Pass B，结果0/0/2 keep/none。
+- 本章精确依赖第782章正式Ready blob `d717eb82b929fba0d2ca6800a69fd8a928952e8c` 无临时前章差异。独立Continuity/Style/Meaningful QA PASS；只有目标候选提交精确结构CI实际SUCCESS后才能原子迁入main ready。

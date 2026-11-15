@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 783
+title: "换了箱牌，信还得走完路"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "0879175cb1aa7395c367d5b6f1113abffbd3515f"
+source_draft_sha: "9e28afa079a7013056a0f73dcc7e1a8fb2620648"
+initial_reader_review: "reader_reviews/0783_0879175c.md"
+reader_review: "reader_reviews/0783_9e28afa0.md"
+depends_on_chapter: 782
+depends_on_source_sha: "d717eb82b929fba0d2ca6800a69fd8a928952e8c"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "782已有正式Ready，依赖精确匹配，无临时前章SHA事实冲突"
+timeframe: "Day648早—Day64821点后"
+summary: >-
+  Day648母亲在新荷街看见自己Day646蓝椅印画和孩子Day647亲签赠送的两水点红杯；孩子本人自带三水点红杯且方窗船原位。晨收到Day639普通邮政错格质量回访短信，只写“已联系相关人员处理”。09:18她拨原渠道，接线员明示只作联系提醒未查出具体错投过程；她拒绝凭模板写查明原因，10:02获原编号“补充情况已登记，后续核查待回复”短信并在本子更正认识。10:30韩姨仅述Day639亲用自己钥匙从相邻本人信箱取出本户邮卡并转交，未目击投递。母亲见两格纸外号牌旧磨损，11:06向物业许桐登记；物业实核箱体编号原本正确、外牌磨损，只受理换两片耐水大字外牌，不擅开箱或认邮政差错岗位。13:20—14:07实际撕旧片存档、贴新号、母亲韩姨各持钥匙各自实开实锁，许桐仅发公区外牌维护回执。傍晚公众号只报当次维护，邮政仍无具体错因；母亲向晓漫私聊两事区分并尊重孩子作品不外展。夜中心只获仁合里旧四楼本人授权安全限项。母亲将物业回执纸质入日常夹、邮政短信留手机原渠道并在本子补日期与受理号，不冒充第二张纸件。
+meaningful_state_changes:
+  - "Day639邮政错格质量反馈从仅受理推进至Day648联系提醒确认和同号补充登记待核，原因与岗位仍未知。"
+  - "新荷街母亲与韩姨相邻两格磨损外号片由物业实际替换，两人分别真开真关，外号可辨、箱体锁盖未更换。"
+knowledge_updates:
+  - "母亲知道已提醒不等于查明错投原因，物业维护回执不能替邮政投递结案；她保存实体回执、电子短信及本人笔记各自来源。"
+  - "韩姨只知道自己Day639从本人邻格取卡转交且Day648外牌修好；许桐只知道公区维护事实，夏宁仍仅旧四楼安全限项；晓漫只知母亲所告新居普通邮政维修区分。"
+relationship_updates:
+  - "母亲与韩姨普通邻里核箱，各自持钥匙不形成代收委托；孩子两张红杯各归本人决定，无公开展示授权。"
+  - "母亲与物业以公共号片报修建立有责维护记录，不将邮政投递质量责任转给物业。"
+foreshadowing_updates:
+  - "当代新荷街错格投诉Day648待核与新箱牌已修两条链分开，不构成仁合里F014历史旧号旧信本人历史实收或旧押金各渠道实退证明。"
+  - "仁合里旧四楼R-12最后独立末签、现门型号、Day577擦响根因与七号箱五楼漏源2019原卷继续无新跨源证。"
+ending_state: "Day648夜新荷街两个外号片清晰且各自箱锁开闭核验完成，母亲自己信箱仍空；邮政只联系提醒和新补登待查。孩子赠画与母亲椅子私藏、驿站《两只碗》一周限借展继续；旧仁合里闭锁双封水电隔离Day536撤清运禁返住，R-12/F014历史不明。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0879175cb1aa7395c367d5b6f1113abffbd3515f", final_draft_sha: "9e28afa079a7013056a0f73dcc7e1a8fb2620648", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "correct_postal_SMS_mistaken_as_physical_sheet_and_update_effective_count"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2822
