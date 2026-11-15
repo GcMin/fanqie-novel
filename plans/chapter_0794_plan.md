@@ -9,9 +9,9 @@
 - actual_effective_chars: 3202
 - count_method: Unicode 去空白统计（正文，不含 Front Matter；含独立场景分隔符）
 - depends_on_chapter: 793
-- depends_on_source_sha: 56e2ff0728db8e9ebf574135cc5423dcd34dc2be
-- dependency_status: provisional
-- dependency_source_path: chapters/draft/0793.md
+- depends_on_source_sha: f4b407ef747534f37d95a7de26e9b964d989a4b0
+- dependency_status: verified_exact_ready_blob
+- dependency_source_path: chapters/ready/0793.md
 
 ## Planner
 - **章节目标**：Day659核清旧四楼已撤回维修通知仍显示“请住户协助入户”的当前展示问题；使本户旧通知保留原始来源、获得有权实施并在接收端核实的撤单页面，不能以通知修改替代入户许可。
@@ -37,3 +37,8 @@
 - 三目录全部数字章节最高0793，published/0153.md已存在，因此无153恢复；0794尚不存在。前章793仍是未审 draft，精确源 Git blob 为56e2ff0728db8e9ebf574135cc5423dcd34dc2be，故本章标provisional而不将其作为已审Canon。
 - 第793章被引用的事实仅用于暂行接续：Day658孩子同板实测宽路仍左偏、可拆底挡安全止车、本人带走车辆和路纸；若Audit修793影响以上关键事实，本章须由独立Revision/QA重核。
 - Writer只新建本章纲和首稿，不改变既有章节或Memory，不做Reader/Revision/QA/Publish Gate、不发布番茄；提交要求最新主分支SHA、原子Tree/Commit、expected_sha和force:false。
+
+## Audit 2026-11-16 前章版本复核
+- Writer创作时引用第793章旧Draft blob `56e2ff0728db8e9ebf574135cc5423dcd34dc2be`，该章此后已完成 Reader/QA 和结构CI并迁为Ready blob `f4b407ef747534f37d95a7de26e9b964d989a4b0`。
+- 已逐字比较793旧Draft与Ready正文，小说文字完全一致，差异只限交付Front Matter；Day658纸车红七、有角轮、两停车框及底端接车挡边的依赖事实不变。
+- 按独立Reader所指出的provisional依赖元数据MAJOR执行Stage A仅重绑本章Front Matter及计划，不改794小说正文；更新后的794 blob须重新执行Pass A/B、独立QA及精确候选结构CI。
