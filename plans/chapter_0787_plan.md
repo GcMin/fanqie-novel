@@ -10,9 +10,9 @@
 - prose_effective_chars_without_scene_markers: 3315
 - count_method: 正文按Unicode字符去空白计数，包含独立场景分隔符
 - depends_on_chapter: 786
-- depends_on_source_sha: 537f05922e17da08766c43b87b5c5bbd8de0dc39
-- dependency_status: provisional
-- dependency_source_path: chapters/draft/0786.md
+- depends_on_source_sha: a595a005349c419a28be53b1ad77d52ab6a822a2
+- dependency_status: verified_exact_ready_blob
+- dependency_source_path: chapters/ready/0786.md
 
 ## Planner
 
@@ -38,5 +38,9 @@
 
 - 基于GitHub main `742a34fd3ee92288cd7f56b8b764ec79eb4b4faf` 实读 AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md；全部四份bible核心文件和三份主要人物卡、现有volume_05.md（仓库没有volume_06.md）、arcs/arc_current.md（滞后于正文）与ARC-054相关近期Memory，最近十章776—785摘要、最近五章782—786全文以及786章详细章纲；不读取历史reader_reviews。
 - 数字章号从Git tree重新检查：published最高0159且0153存在、ready最高0785、draft最高0786；本章及其章纲在本轮启动时均不存在。第153章早已位于published，不执行恢复或跳章。
-- 第786章在此次读取时仅为未审草稿，完整Git Blob SHA `537f05922e17da08766c43b87b5c5bbd8de0dc39`；本章仅临时依赖其Day651母亲《两只碗》已实领、自己写“一只碗”构想及旧案报告限项等可定位情节，不认786为正式Canon；若Audit修订前章，则由独立Audit核对事实兼容性。
+- 第786章在此次读取时仅为未审草稿，完整Git Blob SHA `a595a005349c419a28be53b1ad77d52ab6a822a2`；本章仅临时依赖其Day651母亲《两只碗》已实领、自己写“一只碗”构想及旧案报告限项等可定位情节，不认786为正式Canon；若Audit修订前章，则由独立Audit核对事实兼容性。
 - 本轮仅Planner、Continuity Precheck、Writer；不修改既有章节或Memory/plan CSV；不执行Editor、Reader、Revision、QA、Memory、Publish Gate或番茄发布。写入新plan与新draft同一Git tree/commit，update_ref使用expected_sha和force:false，遇并发拒绝并重新读取。
+
+## Audit Stage A（2026-11-16）
+- 前章第786章初稿 SHA 537f05922e17da08766c43b87b5c5bbd8de0dc39 与拟交付 Ready Blob a595a005349c419a28be53b1ad77d52ab6a822a2 比对：小说正文完全一致，仅 Front Matter 交付状态及日期不同；Day651驿站真还画、一只碗纸背设想及安全限项未变化。
+- 本章 Stage A 仅重绑前章正式 Ready SHA 与依赖状态、日期，小说正文零修改；修订后 Draft Blob 72361058174d1b5808e98e4867a0568b68456362 必须以新 SHA 再做 Reader 双遍，旧 Review 不继承。
