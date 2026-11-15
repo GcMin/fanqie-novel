@@ -10397,3 +10397,23 @@ combined_audit_chapter_787_20261116:
   predecessor_body_delta: "delivery_metadata_only_story_body_identical"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_788_20261116:
+  chapter: 788
+  original_source_sha: "70a962f6b8e1ee7df19dcfd6a9289efa61da1c41"
+  source_sha: "70a962f6b8e1ee7df19dcfd6a9289efa61da1c41"
+  review_path: "reader_reviews/0788_70a962f6.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  char_count: 3146
+  body_revisions: 0
+  depends_on_chapter: 787
+  predecessor_ready_sha: "88fc0ccf22434188bd8eff27004baf9b4fd7a67e"
+  predecessor_body_delta: exact_ready_sha_no_provisional
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main

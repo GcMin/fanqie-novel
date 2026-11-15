@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 788
+title: "四个轮子，只肯转两个"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "70a962f6b8e1ee7df19dcfd6a9289efa61da1c41"
+source_draft_sha: "70a962f6b8e1ee7df19dcfd6a9289efa61da1c41"
+reader_review: "reader_reviews/0788_70a962f6.md"
+depends_on_chapter: 787
+depends_on_source_sha: "88fc0ccf22434188bd8eff27004baf9b4fd7a67e"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "787在Writer起稿前已经正式Ready，依赖精准吻合，故事正文不存在临时前章SHA差异"
+timeframe: "Day653早—夜"
+summary: >-
+  Day653母亲在新荷街将昨日亲做的两张单碗试印纸分隔收存，左下单碗右边大片留白的第二张仍由自己背签，未替换已于Day651真取回的借展双碗。晓漫发孩子四轮纸盒汽车只能原地打转视频，母亲先请带原车来核而未凭视频远程断因。近午从韩姨处取得两支未开封饮料吸管作为套管材料，母亲自备钝头旧木棒，旧纸棒太粗没有硬塞。14:17晓漫和孩子带Day649空盒制车及剩硬纸来，孩子先亲看Day638低柜内侧方窗船仍在，要求保留车顶本人红笔「七」与Day652新剪有角第四轮。查出四纸轮被胶带直接压死在车底，孩子同意只拆胶带；拆时纸盒底纤维撕破一小处，孩子亲选卡纸内补片。母亲成人操作刻刀、剪和打孔器，剪两段吸管固定车底为轴套，两根钝头木棒穿管与四纸轮固定，孩子只让胶带固定轮和棒不跨吸管。首次装上左后轮悬空，因后吸管贴高，孩子亲揭胶重贴；四轮落桌滚动却仍偏左，有角轮仍点桌。母亲搭稳防滑低坡硬板，孩子不助推首趟实走56厘米并记左转，另次用力撞书角，第三次从坡走53厘米仍左偏。他不许晓漫剪圆第四轮，亲手画自己走过的左弯路线与停车框，将记录和纸车都带回家。韩姨只在门口短问，孩子只请晓漫先询问修车店是否方便观看而非预定同意。母亲清理工具与胶带背衬，旧屋夜间仅向中心报已授权闭锁安全限项，Day639邮政答复已限定收讫、Day649原租客旧信真归还与F014历史旧证仍分源。夜间晓漫私人照片见纸车停在孩子画的弯路尽头，母亲不替他决定何时走直。
+meaningful_state_changes:
+  - "孩子纸盒车四轮从直接胶带封底不能转改成吸管轴套+木棒轴可滚动，真实不助推斜板首次测距56厘米，仍偏左但由本人记录并保留修正决定权。"
+  - "纸车与孩子亲画的三次试走记录及左弯路线均本人带回，角轮和车顶「七」未被大人擅改。"
+knowledge_updates:
+  - "母亲、晓漫及孩子现场知道问题来自四轮被胶带贴死，当前已能转动但左偏原因尚未进一步区分轴歪与轮不圆。"
+  - "韩姨只提供吸管及见普通玩具试滚，无孩子后续店家观看许可；中心未获得新荷街家庭手作情况。"
+relationship_updates:
+  - "孩子保留车的设计和修复选择，母亲提供安全工具与可重复试走，晓漫接受暂不剪圆第四轮。"
+  - "韩姨与母亲仅普通物料和邻里短问，无固定互助或管钥匙等承诺。"
+foreshadowing_updates:
+  - "车向左的待选校正是个人手作开放状态，不是新异常证据或F014历史联系；没有新的F014/R-12跨源材料。"
+  - "Day639普通邮卡有限回复和Day649前租客旧信真实领回均已是已确认事实，不可上升为旧仁合里历史旧信、押金或门体根因证明。"
+ending_state: "Day653夜新荷街母亲继续本人合法独住，单碗两张分别隔纸私藏；孩子的车已能滚但偏左、车和路线记录都在孩子家；旧仁合里四楼闭锁双封受控隔离禁返住，R-12最终签与现装型号Day577根因及F014历史旧号旧信旧押金仍缺跨源证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "70a962f6b8e1ee7df19dcfd6a9289efa61da1c41", final_draft_sha: "70a962f6b8e1ee7df19dcfd6a9289efa61da1c41", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "reader_keep_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3146
