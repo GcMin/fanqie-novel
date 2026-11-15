@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 789
+title: "车轮没换，路先走直一截"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "ce8a086f33a1558fb88abc3d7a2890d93c629b83"
+source_draft_sha: "ce8a086f33a1558fb88abc3d7a2890d93c629b83"
+reader_review: "reader_reviews/0789_ce8a086f.md"
+depends_on_chapter: 788
+depends_on_source_sha: "b422cf5f664c4ce5afc4588cdf89a3e739f4a504"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "788原已正式Ready且依赖精准，无旧临时前章SHA事实变化"
+timeframe: "Day654早—Day65421点后"
+summary: >-
+  Day654晓漫发孩子红七车顶及有角第四轮未换的纸盒车照片；Day653纸车已用吸管套管木棒轴实滚56和53厘米仍左偏，车和记录已由孩子带回。10:30晓漫向新荷街邵师傅问到有条件的下午有限旁观许可，15:20三人到店外安全黄线等候，15:42师傅示意用尺画平行线，孩子发现后吸管虽昨日调好高度却在方向上略朝车头斜；师傅还提醒轮片不圆、轴松和测试坡面皆可能影响跑偏，不代修或签合格证明。孩子决定保留右后有角轮、车顶红七，只在自家工具下标旧位置并修正后套管方向。回母亲新荷街租屋后原状态同低斜板先试49厘米和52厘米均左偏，板面轻黏痕先擦净；孩子亲标原管位置，母亲仅辅助揭一端纸胶带护底部补片，孩子重贴后套管使前后大致平行，四轮落桌且轴可转，调整后自然试走68和71厘米仍向左。没有把此改善冒作完全走直或唯一原因已查。孩子在原左弯纸路旁添较直但仍带弯的新路，自己带走车和两日试滚记录；晓漫尊重不剪轮，韩姨仅院门短问，母亲清理工具恢复饭桌。晚间中心只获仁合里旧四楼本人授权闭锁双封、水电隔离及禁返住安全限项，R-12/F014旧案未获跨源新证。
+meaningful_state_changes:
+  - "孩子实获有限观察并发现后管方向不平行，标原位置后只校一项，同板原状49/52厘米、调整后68/71厘米仍左偏，保留真实性和局限。"
+  - "孩子本人保留有角轮、红七、旧新路线与两日记录并带回家。"
+knowledge_updates:
+  - "孩子、母亲、晓漫知道后管高度调整不等于方向平行；邵师傅未排除角轮不圆、轴松及坡面因素，左偏根因未唯一确认。"
+  - "韩姨只知普通进展；夏宁中心不知道孩子纸车私事。"
+relationship_updates:
+  - "邵师傅仅在本人有条件许可下外侧示教，不承接维修；晓漫和母亲尊重孩子独立选择。"
+foreshadowing_updates:
+  - "普通纸车改进不为仁合里F014历史旧号旧信旧押金、R-12门体、七号箱旧卷提供跨源证据。"
+ending_state: "Day654夜母亲新荷街合法真住、个人纸印仍分藏；孩子持红七角轮不变但后管方向大致平行的仍左偏纸车与两日记录；旧仁合里四楼闭锁双封禁返住及R-12/F014未证边界不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ce8a086f33a1558fb88abc3d7a2890d93c629b83", final_draft_sha: "ce8a086f33a1558fb88abc3d7a2890d93c629b83", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "reader_keep_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3149

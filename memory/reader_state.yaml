@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 787
-last_reviewed_title: "只印一只碗，空着的地方不补"
-last_source_path: chapters/draft/0787.md
-last_source_sha: 72361058174d1b5808e98e4867a0568b68456362
-last_review_path: reader_reviews/0787_72361058.md
+last_reviewed_chapter: 789
+last_reviewed_title: "车轮没换，路先走直一截"
+last_source_path: chapters/draft/0789.md
+last_source_sha: ce8a086f33a1558fb88abc3d7a2890d93c629b83
+last_review_path: reader_reviews/0789_ce8a086f.md
 last_reviewed_at: "2026-11-16"
 reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 786
-depends_on_source_sha: a595a005349c419a28be53b1ad77d52ab6a822a2
+depends_on_chapter: 788
+depends_on_source_sha: b422cf5f664c4ce5afc4588cdf89a3e739f4a504
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: a595a005349c419a28be53b1ad77d52ab6a822a2
+predecessor_current_source_sha: b422cf5f664c4ce5afc4588cdf89a3e739f4a504
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10414,6 +10414,26 @@ combined_audit_chapter_788_20261116:
   body_revisions: 0
   depends_on_chapter: 787
   predecessor_ready_sha: "88fc0ccf22434188bd8eff27004baf9b4fd7a67e"
+  predecessor_body_delta: exact_ready_sha_no_provisional
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_789_20261116:
+  chapter: 789
+  original_source_sha: "ce8a086f33a1558fb88abc3d7a2890d93c629b83"
+  source_sha: "ce8a086f33a1558fb88abc3d7a2890d93c629b83"
+  review_path: "reader_reviews/0789_ce8a086f.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  char_count: 3149
+  body_revisions: 0
+  depends_on_chapter: 788
+  predecessor_ready_sha: "b422cf5f664c4ce5afc4588cdf89a3e739f4a504"
   predecessor_body_delta: exact_ready_sha_no_provisional
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

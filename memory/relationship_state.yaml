@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 787
+last_updated_chapter: 789
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4419,3 +4419,9 @@ chapter_788_arc054:
   mother_daughter_child: "母亲提供安全工具、修理原理和稳定试车板但不替孩子作决定；孩子保留车顶红七、有角第四轮及偏左路线，晓漫接受不剪圆并陪其把车和记录带回家。"
   neighbor: "韩姨提供普通未开封吸管和邻门短问，未形成固定互助、车作保管或钥匙委托。"
   outside: "晓漫只答应问修自行车师傅是否方便旁观，不替师傅事先允诺。"
+chapter_789_arc054:
+  chapter: 789
+  source_sha: "ce8a086f33a1558fb88abc3d7a2890d93c629b83"
+  mother_daughter_child: "孩子自主决定只调后吸管、保留纸车有角轮与红七及两日试车记录；晓漫不擅剪轮，母亲只协助胶带和保护补片。"
+  outside: "邵师傅先同意外侧短时观察，仅示教直尺比对，不代理维修、不给玩具合格证明，也不许可操作店内工具或拍客人的车。"
+  neighbor: "韩姨仅普通问询菜车闲谈，没有固定代教代保管约定。"
