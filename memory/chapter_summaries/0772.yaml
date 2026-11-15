@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 772
+title: "信箱有了钥匙，信还在路上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "2a89a0102ea86ab42b106386aa359b464c2894d2"
+reader_review: "reader_reviews/0772_2a89a010.md"
+depends_on_chapter: 771
+depends_on_source_sha: "1f7611619d6948faca374e18bbd0d6fdc83cc4b8"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day63607:22—Day63707:06"
+summary: >-
+  Day636母亲已实际真住新荷街，双箱青白碗蓝旧票盒本人原双碗画废样、邹姨首张合作画和外甥新旧两张署名船在。07:22发现小桌脚略晃，实测买可裁橡胶片垫后明显稳定。09:16物业许桐核本户铁信箱房号，新租约交付两房钥匙一正式住户卡却漏独立信箱钥匙；钟女士10:48只确认找到、13:52实际当面拿来开箱，见前租客原封旧信不拆，物业有责原样封袋、原房东仅按原租赁合法渠道联系，原收件人是否获信未知。14:07母亲亲自开锁回锁实收一把信箱短钥匙；15:29在正常邮筒将写本人正式新址的普通明信片亲手投入，无逐件跟踪，Day63707:06尚未收到，不写邮路已成功。晓漫只获本人私下分享的住址，孩子未来亲定纸船位置，21:19夜间中心仅获仁合里旧四楼授权安全限项；旧屋禁返住R-12/F014未证。
+meaningful_state_changes:
+  - "新荷街信箱短钥匙Day63614:07实际开锁签收，原房门双钥匙住户卡与信箱用途分开。"
+  - "Day63615:29自寄普通明信片真实投寄，至Day637早尚未投递收件成功。"
+  - "窗边小桌脚实测垫稳，青白碗可正常摆放。"
+knowledge_updates:
+  - "母亲知道找到短钥匙不等于交付、投邮筒不等于已送达；前租客旧信有责封袋非本人可阅读。"
+  - "晓漫私人知新地址，夜间中心仅知旧屋限项；旧收件人实际收回旧信未知。"
+relationship_updates:
+  - "钟女士按租约漏项真实补交信箱短钥匙并配合有责封袋；外甥未来决定展示和寄船，母亲不代办。"
+foreshadowing_updates:
+  - "普通自寄明信片仍在路上，原租客旧信实际归主未知；F014当年旧信本人收讫和旧押金实退另待跨源。"
+ending_state: "Day63707:06母亲住新荷街，两房钥匙一住户卡一信箱短钥匙各自本人保管，双箱青白碗蓝票盒画作归位；信箱可开而普通明信片未到、旧前租客信另有责处置，仁合里封控R-12/F014未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "2a89a0102ea86ab42b106386aa359b464c2894d2", final_draft_sha: "2a89a0102ea86ab42b106386aa359b464c2894d2", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "none_no_fix_required"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3150

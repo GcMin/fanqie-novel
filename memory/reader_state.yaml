@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 771
-last_reviewed_title: "两只箱子过了门，画才有地方放"
-last_source_path: chapters/draft/0771.md
-last_source_sha: 20b5fcbb4bb97e2bf6e08238edab5a091df1f752
-last_review_path: reader_reviews/0771_20b5fcbb.md
+last_reviewed_chapter: 773
+last_reviewed_title: "那条船暂时不上墙"
+last_source_path: chapters/draft/0773.md
+last_source_sha: fb35534afd69f83303e16cdee75cd20b8602c650
+last_review_path: reader_reviews/0773_fb35534a.md
 last_reviewed_at: "2026-11-15"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 770
-depends_on_source_sha: 1c89f3864c4405972a217ad560bf1fe701edf8d6
+depends_on_chapter: 772
+depends_on_source_sha: fbc00519aa4ec8e64506f75f2dbfe5810bf53a95
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 1c89f3864c4405972a217ad560bf1fe701edf8d6
+predecessor_current_source_sha: fbc00519aa4ec8e64506f75f2dbfe5810bf53a95
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10015,3 +10015,40 @@ combined_audit_chapter_771_20261115:
   predecessor_ready_blob: "1c89f3864c4405972a217ad560bf1fe701edf8d6"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_commit_ci_required
+combined_audit_chapter_772_20261115:
+  chapter: 772
+  source_sha: "2a89a0102ea86ab42b106386aa359b464c2894d2"
+  review_path: reader_reviews/0772_2a89a010.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_blob: "1f7611619d6948faca374e18bbd0d6fdc83cc4b8"
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 0
+  structural_gate: exact_candidate_ci_required
+
+combined_audit_chapter_773_20261115:
+  chapter: 773
+  original_source_sha: "38e5412a79548fb06fb4dea52d65d847cec33d7c"
+  source_sha: "fb35534afd69f83303e16cdee75cd20b8602c650"
+  review_path: reader_reviews/0773_fb35534a.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_draft_sha: "2a89a0102ea86ab42b106386aa359b464c2894d2"
+  predecessor_ready_blob: "fbc00519aa4ec8e64506f75f2dbfe5810bf53a95"
+  predecessor_body_identical: true
+  dependency_status: verified_exact_ready_blob
+  body_revisions: 0
+  metadata_rebind_only: true
+  structural_gate: exact_candidate_ci_required

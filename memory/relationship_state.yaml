@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 770
+last_updated_chapter: 773
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4274,3 +4274,19 @@ chapter_771_arc054:
   family: "外甥旧署名船与新方窗船卡分套，孩子日后亲选挂放光线和高度；母亲不钻墙，邹姨首张共印另有自己的位置。"
   rental: "母亲与钟女士维持已成立正常租赁，墙面可移动无损挂法可以，钻孔需另行沟通。"
   professional: "客舍有责搬运、社会承运人及新荷街物业进入登记按职责分开签交；夜间中心不介入个人迁居。"
+
+chapter_772_arc054:
+  chapter: 772
+  source_sha: "2a89a0102ea86ab42b106386aa359b464c2894d2"
+  mother_daughter: "母亲仅私下分享新住处给晓漫，女儿先问后寄，不代决定普通收信安排。"
+  family: "外甥提出将来写信寄新船，母亲保留孩子亲自决定是否寄出、亲选船画挂放位置。"
+  rental: "钟女士按原清单漏项真实补交短钥匙；物业许桐按有责原则保管非现住户旧封信，不冒充收件人。"
+  professional: "母亲夜间中心仅报告旧宅安全，不交代新租约邮寄。"
+
+chapter_773_arc054:
+  chapter: 773
+  source_sha: "fb35534afd69f83303e16cdee75cd20b8602c650"
+  mother_daughter: "晓漫与孩子Day638实际进新荷街拜访共餐，女儿不代母亲选择新家安排，也没有取得无条件门禁。"
+  family: "外甥与外婆共同真实试两处摆位，孩子选新方窗船可撤低柜内侧小架；旧船分套，母亲尊重孩子自主权。"
+  rental: "钟女士同意屋内正常可移动展示架，钻孔仍另议；母亲不改动房屋硬设施。"
+  professional: "夏宁未获新居来客和住址，不介入新生活私事。"

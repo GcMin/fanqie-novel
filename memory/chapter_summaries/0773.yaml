@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 773
+title: "那条船暂时不上墙"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "38e5412a79548fb06fb4dea52d65d847cec33d7c"
+source_draft_sha: "fb35534afd69f83303e16cdee75cd20b8602c650"
+reader_review: "reader_reviews/0773_fb35534a.md"
+depends_on_chapter: 772
+depends_on_source_sha: "fbc00519aa4ec8e64506f75f2dbfe5810bf53a95"
+dependency_status: verified_exact_ready_blob
+predecessor_original_draft_sha: "2a89a0102ea86ab42b106386aa359b464c2894d2"
+predecessor_fact_delta: body_identical_delivery_frontmatter_only
+timeframe: "Day63707:41—Day63821:17"
+summary: >-
+  Day637母亲真实住新荷街，Day63615:29自寄普通明信片尚未收到且独立信箱钥匙已真收。母亲不替外甥预先粘挂新方窗船，买一只低矮可移动木展示架和硬卡片，以空白卡在低柜内侧试摆、兼顾不遮走道并向钟女士确认普通活动家具可用钻孔另谈；Day63715:00信箱仍空，原前租客封口信原主是否取回无消息。Day63813:47晓漫与外甥真正从正规住户入口由母亲本人开门进入新屋，孩子先想将亲签方窗船摆在窗边却见直晒和风使纸角卷起，再试低柜最外沿通过时木架被碰倒，最终亲自选低柜靠内侧可取可撤矮架摆新船；旧船独立纸套，母亲歪双碗原画、废样、邹姨合作首张各归属不混。三人在新租房首次同桌吃饭，母亲正常送客、住户卡仍本人保管；Day638傍晚明信片未到，21:17中心只知仁合里旧四楼安全限项与R-12/F014旧证无进展。
+meaningful_state_changes:
+  - "Day638晓漫外甥第一次真正进新荷街探访并同桌吃饭。"
+  - "方窗船经孩子本人两轮试位后亲放低柜靠内侧可撤活动架，旧署名船独立收藏，不钉墙不粘纸。"
+knowledge_updates:
+  - "孩子自己知道窗边直晒、开窗风和柜外沿碰撞风险并保有日后改画位决定权。"
+  - "普通自寄明信片Day638仍未收到，旧前租客封口信后续未知；中心没有新地址/来客私人信息。"
+relationship_updates:
+  - "晓漫和孩子第一次真实来新居，不获无条件门禁；母亲既尊重孩子作品又维护通路/开窗的日常使用权。"
+foreshadowing_updates:
+  - "自寄明信片等待实际收讫，孩子展示可随时改变；旧F014历史号信押金仍须独立跨源核实。"
+ending_state: "Day638夜母亲在新荷街，新方窗船由孩子本人暂放低柜内侧可移动架、旧船纸套、原画废样邹姨合作画仍按归属，家人已实际来访并离开；信箱钥匙本人持、普通明信片未到，仁合里旧四楼双封禁返住R-12/F014无新证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "38e5412a79548fb06fb4dea52d65d847cec33d7c", final_draft_sha: "fb35534afd69f83303e16cdee75cd20b8602c650", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "rebind_previous_chapter_exact_ready_sha_metadata_only"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3479

@@ -6,8 +6,8 @@
 - role: Writer
 - status: draft
 - depends_on_chapter: 772
-- depends_on_source_sha: 2a89a0102ea86ab42b106386aa359b464c2894d2
-- dependency_status: provisional
+- depends_on_source_sha: fbc00519aa4ec8e64506f75f2dbfe5810bf53a95
+- dependency_status: verified_exact_ready_blob
 - target_effective_chars: 2600-3400
 - actual_first_draft_effective_chars: 3479
 
@@ -41,3 +41,7 @@
 - 第772章尚为未审draft，Git Blob 2a89a0102ea86ab42b106386aa359b464c2894d2；本章直接依赖该未审版本，dependency_status必须为provisional。以上772情节和新信箱/邮寄安排仅为临时连续性参考，不视为正式Canon。
 - 已读最新main的AGENTS/config/写作角色/读取协议、Bible及相关人物卡、卷/当前弧、Memory人物关系知识世界状态与伏笔时间线、762—771十章摘要、768—772五章正文；不读历史reader_reviews。
 - 本轮仅Planner、Continuity Precheck、Writer，仅新增plans/chapter_0773_plan.md和chapters/draft/0773.md，不做Editor/Reader/Revision/QA/Memory/Publish Gate或番茄发布。
+
+## Audit交付记录｜2026-11-15
+- Writer原草稿依赖772临时Draft 2a89a0102ea86ab42b106386aa359b464c2894d2。772正式Ready fbc00519aa4ec8e64506f75f2dbfe5810bf53a95 与原Draft正文逐字相同，仅交付Front Matter不同，前章事实差异为无。
+- 773仅将Front Matter依赖SHA重绑至772正式Ready，修改后Draft fb35534afd69f83303e16cdee75cd20b8602c650；正文零修改，独立Reader Pass A/B 0 BLOCKER 0 MAJOR 2 MINOR，Continuity/Style QA通过，精确提交结构校验成功才进入Ready。原始Writer预检属于历史草稿时点，不代表交付时仍为provisional。
