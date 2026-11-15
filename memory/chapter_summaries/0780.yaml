@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 780
+title: "画旁边那行字不是她写的"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "98512f67d544f4ce16d3674b83d3ddd6498e7f06"
+source_draft_sha: "c830a02876e3235f1c4d585786e8ae632d610868"
+initial_reader_review: "reader_reviews/0780_98512f67.md"
+reader_review: "reader_reviews/0780_c830a028.md"
+depends_on_chapter: 779
+depends_on_source_sha: "adbaa5c005e91e25b5411ed7f288869dad11ebd0"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "779原临时Draft与正式Ready小说正文相同，仅Front Matter计数纠正和交付元数据改变；780临时依赖重绑Ready完整SHA"
+timeframe: "Day645早—Day645夜"
+summary: >-
+  Day645母亲新荷街真住，晨看Day644未采用的两张双碗试样；昨日真正借给社区便民驿站的第三张带小缺口新印独作仍在固定矮柜的桌面相框16:38旧陈列位，借期一周。小陆早上发现志愿者误加未核黄卡，编写“等待亲人归来的母亲”虚构身世，随即撤牌并电话告知母亲。10:11母亲到驿站核对Day644接收页仅准一周本站室内、无外宣权限，黄卡留站内纠错且不再公开。拄杖老太太亲见字过小反光，同时自由理解碗缺口而不接受所谓作者唯一意义。志愿者小汪到场承认照模板臆写，误想改成“独居”亦被母亲纠止；尚未发出的社区信息待发草稿当场撤销且小陆核见，未声称外界从未拍照。母亲决定新作正式命名《两只碗》，独立展示卡仅写该作品名、纸版新印、本人公开姓名和本站短期借展，拒绝杜撰个人经历。小陆调整大字和相框可视角度，组织坐姿和空轮椅核正常通路，13:48实际登记卡片纠正与陈列位置；原一周借展和保管人均未改变。母亲返新荷街与韩姨短谈；晓漫私下发来外甥自拟题《杯子打架》的新两杯草稿，家人尊重孩子署名与命名权。夜间夏宁只获本人授权仁合里旧四楼安全限项，旧四楼禁返住R-12/F014仍无跨源新证。
+meaningful_state_changes:
+  - "站内未经作者授权的虚构身世黄卡真实撤除并留内部纠错，不再作为公开说明。"
+  - "母亲本人确认新作标题《两只碗》，独立大字卡只写可核作者材料和短借展范围，站方当次真实替换。"
+  - "坐席视角、反光及轮椅通路经重新核验，Day64513:48记录真实状态；一周借期、原作归属与网上宣传限制不变。"
+knowledge_updates:
+  - "小陆与小汪知道自行想象的作者经历不等于事实和许可，知道Day645已撤错误卡/待发稿；不能把站内记载当作者家庭信息。"
+  - "母亲知道作品可任观众解读但公开作者身份与身世说明须有本人真实授权；家人仅获母亲私报限项。"
+relationship_updates:
+  - "母亲在允许作品留站展示同时要求机构不代写个人经历，小陆接受并承担有责纠错；志愿者小汪承认错误后调整卡片。"
+  - "外甥自取新两杯图名《杯子打架》，署名仍由自己作主；母亲不因自己的展卡改变其创作选择。"
+foreshadowing_updates:
+  - "Day645错误的公共艺术说明卡不构成仁合里历史F014旧信、旧号、旧押金末端退付或者R-12门件的新证。"
+  - "Day639新荷街邮政错格质量反馈仍无结论；专业整班安防再开门许可与旧四楼证据缺口仍未解决。"
+ending_state: "Day645夜社区驿站仍按Day644起一周室内限项借展保管新印双碗画，原有虚构黄卡不再公开、新作《两只碗》由作者确认的大字卡实际展示且坐姿和通行经核；母亲新荷街保留原歪双碗画、试样与家人作品，夏宁夜间中心仅知仁合里旧四楼限项，F014/R-12旧案待证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "98512f67d544f4ce16d3674b83d3ddd6498e7f06", final_draft_sha: "c830a02876e3235f1c4d585786e8ae632d610868", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "rebind_779_provisional_draft_dependency_to_779_exact_ready_blob"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3389

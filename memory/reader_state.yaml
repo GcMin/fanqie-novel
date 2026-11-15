@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 778
-last_reviewed_title: "她给那两只碗署了名"
-last_source_path: chapters/draft/0778.md
-last_source_sha: 42c20f83733e98f5854d1ba0ef0c546a1d2aa76b
-last_review_path: reader_reviews/0778_42c20f83.md
+last_reviewed_chapter: 780
+last_reviewed_title: "画旁边那行字不是她写的"
+last_source_path: chapters/draft/0780.md
+last_source_sha: c830a02876e3235f1c4d585786e8ae632d610868
+last_review_path: reader_reviews/0780_c830a028.md
 last_reviewed_at: "2026-11-15"
 reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 777
-depends_on_source_sha: e9cfd4bd2bdb105a32fdd792bfdc190f121fc643
+depends_on_chapter: 779
+depends_on_source_sha: adbaa5c005e91e25b5411ed7f288869dad11ebd0
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: e9cfd4bd2bdb105a32fdd792bfdc190f121fc643
+predecessor_current_source_sha: adbaa5c005e91e25b5411ed7f288869dad11ebd0
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10168,5 +10168,59 @@ combined_audit_chapter_778_20261115:
   stage_a_changes: "FrontMatter_char_count_3221_to_3236_only"
   depends_on_chapter: 777
   predecessor_ready_sha: "e9cfd4bd2bdb105a32fdd792bfdc190f121fc643"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+ 
+combined_audit_chapter_779_20261115:
+  chapter: 779
+  title: "留下的是新印的那一张"
+  source_path: chapters/draft/0779.md
+  original_source_sha: "6601d2dc5a1a765df76ecf4c3d5ffa2659de255a"
+  original_review_path: reader_reviews/0779_6601d2dc.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "a8c6318e40a93fffd47d7d64e1c7c08fa683603e"
+  review_path: reader_reviews/0779_a8c6318e.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  char_count: 3125
+  body_revisions: 0
+  stage_a_changes: "FrontMatter_char_count_3110_to_3125_only"
+  depends_on_chapter: 778
+  predecessor_ready_sha: "108d1cfc56545e75ca95ae5146de458143335554"
+  predecessor_original_draft_sha: "191162278a974e81734673504278c52a76befbd5"
+  predecessor_body_delta: "778原Draft与最终Ready正文完全相同仅元数据改变"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+ 
+combined_audit_chapter_780_20261115:
+  chapter: 780
+  title: "画旁边那行字不是她写的"
+  source_path: chapters/draft/0780.md
+  original_source_sha: "98512f67d544f4ce16d3674b83d3ddd6498e7f06"
+  original_review_path: reader_reviews/0780_98512f67.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "c830a02876e3235f1c4d585786e8ae632d610868"
+  review_path: reader_reviews/0780_c830a028.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  char_count: 3389
+  body_revisions: 0
+  stage_a_changes: "rebind_prev779_original_provisional_draft_to_final_ready_blob_only"
+  depends_on_chapter: 779
+  predecessor_original_draft_sha: "6601d2dc5a1a765df76ecf4c3d5ffa2659de255a"
+  predecessor_ready_sha: "adbaa5c005e91e25b5411ed7f288869dad11ebd0"
+  predecessor_body_delta: "original_779_Draft_and_final_Ready_novel_body_identical"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

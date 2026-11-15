@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 778
-current_stage: chapter778_reader_and_content_QA_pass_exact_CI_required
-current_source_path: chapters/draft/0778.md
-current_source_sha: 42c20f83733e98f5854d1ba0ef0c546a1d2aa76b
-current_review_path: reader_reviews/0778_42c20f83.md
+current_chapter: 780
+current_stage: chapter780_reader_and_content_QA_pass_exact_CI_required
+current_source_path: chapters/draft/0780.md
+current_source_sha: c830a02876e3235f1c4d585786e8ae632d610868
+current_review_path: reader_reviews/0780_c830a028.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter778_stageA_correct_effective_count_newSHA_reader_QA_pass
+last_action: chapter780_stageA_rebind_779_final_ready_and_newSHA_reader_QA_pass
 last_action_date: "2026-11-15"
 last_error: null
-last_diff_summary: "仅修改Front Matter有效字符3221至3236，小说正文未动；新SHA Reader 0/0/2，精确候选CI必需。"
+last_diff_summary: "仅修第780章前章779原临时Draft依赖到正式Ready并更新计划，正文0字修改；新SHA Reader 0/0/2，精确候选CI必需。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 42c20f83733e98f5854d1ba0ef0c546a1d2aa76b
+current_review_source_sha: c830a02876e3235f1c4d585786e8ae632d610868
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -8993,6 +8993,39 @@ combined_audit_chapter_778_20261115:
   stage_a_changes: "FrontMatter effective char_count corrected 3221 to 3236"
   body_revisions: 0
   predecessor_ready_sha: "e9cfd4bd2bdb105a32fdd792bfdc190f121fc643"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+ 
+combined_audit_chapter_779_20261115:
+  chapter: 779
+  original_sha: "6601d2dc5a1a765df76ecf4c3d5ffa2659de255a"
+  source_sha: "a8c6318e40a93fffd47d7d64e1c7c08fa683603e"
+  original_review: reader_reviews/0779_6601d2dc.md
+  final_review: reader_reviews/0779_a8c6318e.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  stage_a_changes: "FrontMatter_char_count_3110_to_3125_only"
+  body_revisions: 0
+  predecessor_ready_sha: "108d1cfc56545e75ca95ae5146de458143335554"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+ 
+combined_audit_chapter_780_20261115:
+  chapter: 780
+  original_sha: "98512f67d544f4ce16d3674b83d3ddd6498e7f06"
+  source_sha: "c830a02876e3235f1c4d585786e8ae632d610868"
+  original_review: reader_reviews/0780_98512f67.md
+  final_review: reader_reviews/0780_c830a028.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  stage_a_changes: "rebind_prev779_6601d2dc_to_final_ready_adbaa5c0_without_body_modification"
+  body_revisions: 0
+  predecessor_ready_sha: "adbaa5c005e91e25b5411ed7f288869dad11ebd0"
+  predecessor_body_delta: "779_original_draft_and_final_ready_body_identical"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

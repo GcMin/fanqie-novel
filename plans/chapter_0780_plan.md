@@ -6,9 +6,9 @@
 - target_chars: 3000
 - preferred_range: 2600-3400
 - depends_on_chapter: 779
-- depends_on_source_sha: 6601d2dc5a1a765df76ecf4c3d5ffa2659de255a
-- dependency_status: provisional
-- source_path: chapters/draft/0779.md
+- depends_on_source_sha: adbaa5c005e91e25b5411ed7f288869dad11ebd0
+- dependency_status: verified_exact_ready_blob
+- source_path: chapters/ready/0779.md
 
 ## Planner
 - **本章目标**：Day645处理驿站志愿者在新印双碗画旁擅加的虚构身世说明，母亲亲自厘清作者署名与观看者解读的边界；在不撤展、不扩大宣传许可的情况下，换上本人确认、清晰易读的作品信息卡。
@@ -30,3 +30,9 @@
 - 从 main SHA `d1067b34b58dbc39a99599b85c65aef3381c3dbc` 的 published、ready、draft 三目录核章号：最大现存为779；第153章《人没回来，表先签完了》已在 published，780在三处均不存在，计划文件亦应新建。
 - 第779章实际来源为 `chapters/draft/0779.md`，Git Blob SHA `6601d2dc5a1a765df76ecf4c3d5ffa2659de255a`，状态 `provisional`。直接前章仅为待审草稿；此章只临时参考Day644真实交新印双碗画、借展一周和夜间旧屋限报等场景，绝不视作已审定Canon。后续Audit若修订779须按这个具体Blob核兼容性。
 - 第778章已在ready，Day643个人歪双碗原画只在分馆自带具名短展并当日自取，新印画发生在Day644，作者权属和现场展示、机构网宣权限须分开。Day645不会把昨日小陆站内实际陈列改成“尚未接收”，也不将馆方批注推算为本人私事。
+ 
+## Audit 前章依赖正式核验｜2026-11-15
+- 上文原 Continuity Precheck 为 Writer 在第779章尚处临时Draft时的历史检查，并非最终Ready事实判定。
+- 原779 Draft Git Blob `6601d2dc5a1a765df76ecf4c3d5ffa2659de255a`、更正Front Matter计数Draft `a8c6318e40a93fffd47d7d64e1c7c08fa683603e` 与拟交付Ready `adbaa5c005e91e25b5411ed7f288869dad11ebd0` 的小说正文逐字相同；变动仅字数及ready交付Front Matter。
+- 第780章对Day644新双碗独作小缺口、16:16实际接收、16:38实际矮柜相框陈列、一周室内限项借展的引用全部与第779章最终正文一致。
+- 第780章最新Draft SHA `c830a02876e3235f1c4d585786e8ae632d610868` 仅重绑正式前章完整Ready Blob；独立新SHA Reader Pass A/B 0 BLOCKER/0 MAJOR/2 MINOR，Continuity/Style/Meaningful QA PASS，最终交付须先精确候选Commit结构CI SUCCESS。

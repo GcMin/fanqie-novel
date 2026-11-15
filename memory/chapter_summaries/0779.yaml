@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 779
+title: "留下的是新印的那一张"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "6601d2dc5a1a765df76ecf4c3d5ffa2659de255a"
+source_draft_sha: "a8c6318e40a93fffd47d7d64e1c7c08fa683603e"
+initial_reader_review: "reader_reviews/0779_6601d2dc.md"
+reader_review: "reader_reviews/0779_a8c6318e.md"
+depends_on_chapter: 778
+depends_on_source_sha: "108d1cfc56545e75ca95ae5146de458143335554"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "778原Draft到最终Ready的小说正文逐字相同，仅Front Matter元数据不同；779依赖正式778Ready精确Blob"
+timeframe: "Day644早—Day644夜"
+summary: >-
+  Day644母亲仍在新荷街合法独立居住，Day643分馆实名短展并16:03亲领回的歪双碗本人原画及旧匿名、新署名展签都留在甲箱，不以原作借展。09:17小吴来电仅传社区便民驿站询问；10:20母亲实看驿站墙面、助行器轮椅通道与坐姿观看高度，陆姓工作人员未提前接收作品。13:08母亲在松桥分馆重新登记开放手作台，独立试印两张，再于14:22印第三张新双碗画，右碗边沿留有可见小缺口，15:41纸干后在背面署本人姓名和日期；旧原画偶然错位不被冒充复刻。16:16母亲亲带新作到驿站，双方当面核尺寸作者和独立作品，签一周室内限项借展接收，不转借、不宣称永久馆藏、不授权网上宣传，展卡只署姓名不公开新住址电话。墙上旧挂点不匹配，改放固定矮柜上稳固桌面相框，另名工作人员实核通行后16:38正式陈列，等候老人实际看见。原画、两张未采用的试样、邹姨合作画、外甥亲选低柜内侧亲签方窗船仍按各自权属留新荷街；晓漫外甥仅得私聊有限信息，夜间夏宁仍只得仁合里旧四楼本人授权安全限项。Day639邮政错格质量反馈仅受理未结；仁合里旧屋闭锁双封水电隔离禁返住、整班守门与新开门许可未落实，R-12/F014历史旧证无新跨源证明。
+meaningful_state_changes:
+  - "母亲亲手新印一张与旧歪双碗原画不同且背面本人署名的独作，真正交驿站有责保管而非只口头允诺。"
+  - "驿站16:38在实际核过无障碍路线后将新作陈列于固定矮柜相框，限一周室内借展、非馆藏和线上宣传授权。"
+  - "原画及两套历史展签保留在母亲甲箱，公用新作与私人原作在交接与位置上实质分开。"
+knowledge_updates:
+  - "母亲知道驿站需核作者、位置和接收用途，墙旧挂点不可擅自打孔，限项保管须由工作人员登记；旧原画在家而新作一周交站。"
+  - "小陆与当班工作人员知新作实际接收和有限展示权限，不得推定作者私住址或旧案工单；晓漫和外甥仅知本人私聊的驿站借展与孩子纸船仍在家。"
+relationship_updates:
+  - "母亲与小吴只维持分馆当日制版登记与转达关系，与小陆形成一周作品限项借展交接，不是永久转让。"
+  - "外甥亲签方窗船仍由他决定位置与署名，邹姨合作花盆桌沿画不由母亲单方翻印展示。"
+foreshadowing_updates:
+  - "Day639邮政质量反馈仍只受理；当代新荷街私人画作借展不成为仁合里F014旧联系号、旧信本人收讫或旧押金所有渠道末端真实退付的证明。"
+  - "旧四楼R-12最终独立复核、现门型号Day577擦响原因、七号箱五楼旧漏源及2019旧卷未得跨源新结论。"
+ending_state: "Day644夜新印本人双碗纸画在社区便民驿站固定矮柜相框内一周限项借展，16:38真实陈列并由站方负责保管；歪双碗原画、新旧展签、两张试样、邹姨合作画和外甥亲签新方窗船仍在母亲新荷街住所原位。夜间中心只知旧四楼安全限项，仁合里仍禁返住且R-12/F014未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6601d2dc5a1a765df76ecf4c3d5ffa2659de255a", final_draft_sha: "a8c6318e40a93fffd47d7d64e1c7c08fa683603e", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "correct_FrontMatter_effective_count_3110_to_3125"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3125
