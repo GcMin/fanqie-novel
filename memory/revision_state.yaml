@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 774
-current_stage: chapter774_reader_QA_pass_exact_ci_required
-current_source_path: chapters/draft/0774.md
-current_source_sha: d1cc6f28f1635baeb40577dfd1ef152b6d8f0d66
-current_review_path: reader_reviews/0774_d1cc6f28.md
+current_chapter: 775
+current_stage: chapter775_reader_QA_pass_exact_ci_required
+current_source_path: chapters/draft/0775.md
+current_source_sha: dc9286b93d5b2954b4e1a82bbe5ba7e231789e6a
+current_review_path: reader_reviews/0775_dc9286b9.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter774_reader_QA_pass_one_time_correction
+last_action: chapter775_reader_QA_pass_precise_predecessor_rebind
 last_action_date: "2026-11-15"
 last_error: null
-last_diff_summary: "原稿将Day639的三天前误写前天，StageA已按Day63615:29真实投寄局部纠正并将有效计数核为3275，新SHA独立双遍Reader 0/0/2，QA通过；结构仍待精准候选提交CI。"
+last_diff_summary: "774原Draft寄日误写Day637、终稿更正Day63615:29；775情节未提错误日，仅同步前章Ready SHA与实际有效字符3548；新SHA Reader 0/0/2 QA通过，候选精确CI必需。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: d1cc6f28f1635baeb40577dfd1ef152b6d8f0d66
+current_review_source_sha: dc9286b93d5b2954b4e1a82bbe5ba7e231789e6a
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -8928,6 +8928,24 @@ combined_audit_chapter_774_20261115:
   stage_a_changes: "replace_Day639_foretime_reference_from_Day637_to_actual_Day636_posting_and_correct_effective_count_3275"
   predecessor_ready_sha: "2b60a6ce26081a6aa5467e2c5856e2dc8b7cdc82"
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_775_20261115:
+  chapter: 775
+  source_original: "87291d6e43dc9bbad8ac1c90aa5e3d70fadbb428"
+  original_review: reader_reviews/0775_87291d6e.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "dc9286b93d5b2954b4e1a82bbe5ba7e231789e6a"
+  review: reader_reviews/0775_dc9286b9.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  metadata_rebind_only: true
+  predecessor_original_draft_sha: "5d7a56ad4aa59e1264a8ac8e0fe392c231e11ba4"
+  predecessor_ready_sha: "c8a4afddff154b6c808391339827e46fafa5fcee"
+  predecessor_fact_delta: "Day639_original_day637_posting_date_corrected_to_actual_Day63615_29;_775_no_conflicting_reference"
+  dependency_status: verified_ready_compatible_body
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
 

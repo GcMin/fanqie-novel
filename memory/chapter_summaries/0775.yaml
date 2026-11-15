@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 775
+title: "通道留出来，邻居才走得过去"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "87291d6e43dc9bbad8ac1c90aa5e3d70fadbb428"
+source_draft_sha: "dc9286b93d5b2954b4e1a82bbe5ba7e231789e6a"
+initial_reader_review: "reader_reviews/0775_87291d6e.md"
+reader_review: "reader_reviews/0775_dc9286b9.md"
+depends_on_chapter: 774
+depends_on_source_sha: "c8a4afddff154b6c808391339827e46fafa5fcee"
+dependency_status: verified_ready_compatible_body
+predecessor_original_draft_sha: "5d7a56ad4aa59e1264a8ac8e0fe392c231e11ba4"
+predecessor_fact_delta: "Day639原错称前天下午即Day637寄信，正式Ready纠为三天前即Day63615:29；775未提旧错日故正文兼容"
+timeframe: "Day64007:37—Day641清晨"
+summary: >-
+  Day640母亲已在新荷街真住并保管房门两钥匙、正式住户卡及信箱短钥匙，甲乙箱青白碗蓝旧票盒、原双碗画废样、邹姨合作第一张、孩子旧署名船和新方窗船都在。Day639邻格韩姨转交的自寄明信片已收入抽屉，邮政错格质量反馈只有一次受理号没有调查结论。Day64007:37母亲本户信箱核空，物业公布当日10:00至11:30普通清沟。08:45预放三只锥桶和两袋物料已挤窄信箱旁正常住户石板路、现场暂挂“绕后门”牌；韩姨拖购物车去给妹妹送菜受阻。母亲拒擅改围挡或带人走无普通住户权限的后勤门，向物业许桐真报。09:07许桐实查并撤错误指路牌、有责让工人挪物料，韩姨空车试通；09:26清沟班长与许桐当次签认连续行人通路和工作范围。10:08母亲只从安全围挡外看一段沟内枯叶饮料瓶，未推旧年积水原因；11:38班组本段实清沟、盖板复位清场后许桐核现场并公告恢复正常通路，未承诺整院雨季永久安全。15:11韩姨买菜归来同母亲聊天，谈邹姨合作画、衣服袖口和尊重孩子决定新方窗船位；15:37韩姨按明示邀请在母亲新屋短坐约十五分钟，只看母亲本人歪双碗画及邹姨合作画、远看不摸孩子新船，未见蓝票盒或旧宅私档。21:24夏宁中心仅收仁合里旧四楼安全限项，R-12/F014无跨源进展。Day641晨母亲在正常已恢复的石板路与韩姨远远挥手，居民通路当次实际可用。
+meaningful_state_changes:
+  - "Day640清沟事前物料挤断住户正门合法通路及错误引导后勤门，许桐和班长有责恢复连续步行通道并当次真实施工、复位公告；Day641现场通行正常。"
+  - "韩姨由Day639一次错格邮卡转交认识发展为Day64015:37受邀短时真实入屋，互见个人作品并建立有限邻里信任，仍不共享钥匙、代收授权或旧宅隐私。"
+knowledge_updates:
+  - "母亲亲见本次挤占并听许桐/班长核现场，知道清沟仅本段当次，未获雨季永久无涝或去年积水根因；邮政反馈尚未查结。"
+  - "韩姨仅知道母亲在新屋做画、自己的旧衣手艺可共鸣，不获仁合里旧案及钥匙或蓝票盒内容；中心不知今日新居来访。"
+relationship_updates:
+  - "母亲与韩姨由互递错格卡的邻居成为能彼此短访但相互尊重私人边界的普通邻里；物业许桐按岗位解决住户正门通行，不由母亲自行搬物料。"
+foreshadowing_updates:
+  - "当代邮政本次错格质量反馈仍只有受理号，前租客旧封信归原主未知；普通当次清沟不证明全年无积水。"
+  - "F014历史旧号旧信旧押金全渠道和七号箱五楼漏源2019未得到新跨源结论；R-12末签、现门型号Day577擦响根因及失锁专业整班守门替岗/再开门许可仍待办。"
+ending_state: "Day641清晨新荷街普通住户石板路昨作业后可走、后勤门未供居民借道，母亲真住、持正式门禁与钥匙，韩姨偶有邻里问候但无旧案或门禁授权；当代明信片实收、邮政反馈未查结，仁合里封控禁返住R-12/F014未变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "87291d6e43dc9bbad8ac1c90aa5e3d70fadbb428", final_draft_sha: "dc9286b93d5b2954b4e1a82bbe5ba7e231789e6a", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "bind_prev_774_exact_Ready_and_correct_publisher_count"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3548
