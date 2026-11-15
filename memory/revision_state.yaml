@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 791
-current_stage: chapter791_reader_content_QA_pass_exact_CI_required
-current_source_path: chapters/draft/0791.md
-current_source_sha: d6d0bfb788d43689e515da057fb33d830396d88a
-current_review_path: reader_reviews/0791_d6d0bfb7.md
+current_chapter: 793
+current_stage: chapter793_reader_content_QA_pass_exact_CI_required
+current_source_path: chapters/draft/0793.md
+current_source_sha: 56e2ff0728db8e9ebf574135cc5423dcd34dc2be
+current_review_path: reader_reviews/0793_56e2ff07.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter791_reader_keep_QA_pass_no_revision
+last_action: chapter793_reader_keep_QA_pass_no_revision
 last_action_date: "2026-11-16"
 last_error: null
-last_diff_summary: "791原稿独立双遍Reader直接0/0/2，无正文修订；前章790正式Ready SHA精确匹配，独立QA通过；待精确候选版本CI。"
+last_diff_summary: "793原稿独立双遍Reader直接0/0/2，无正文修订；前章792正式Ready SHA精确匹配，独立QA通过；待精确候选版本CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: d6d0bfb788d43689e515da057fb33d830396d88a
+current_review_source_sha: 56e2ff0728db8e9ebf574135cc5423dcd34dc2be
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -9206,6 +9206,20 @@ combined_audit_chapter_792_20261116:
   fix_required: none
   body_revisions: 0
   predecessor_ready_sha: "4dd2e6ca8d7f480d485b65d4ffbfcb2eae229fc2"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_793_20261116:
+  chapter: 793
+  original_sha: "56e2ff0728db8e9ebf574135cc5423dcd34dc2be"
+  source_sha: "56e2ff0728db8e9ebf574135cc5423dcd34dc2be"
+  final_review: "reader_reviews/0793_56e2ff07.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  fix_required: none
+  body_revisions: 0
+  predecessor_ready_sha: "4d0deeddd8ae6ae0baccabf581cb16830f6007ca"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

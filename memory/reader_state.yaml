@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 791
-last_reviewed_title: "夜巡两次，不等于整夜有人"
-last_source_path: chapters/draft/0791.md
-last_source_sha: d6d0bfb788d43689e515da057fb33d830396d88a
-last_review_path: reader_reviews/0791_d6d0bfb7.md
+last_reviewed_chapter: 793
+last_reviewed_title: "路拓宽了，车还是会往左"
+last_source_path: chapters/draft/0793.md
+last_source_sha: 56e2ff0728db8e9ebf574135cc5423dcd34dc2be
+last_review_path: reader_reviews/0793_56e2ff07.md
 last_reviewed_at: "2026-11-16"
 reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 790
-depends_on_source_sha: 59d1fc9fdb8e72b7ca807e1cca95c0504d797ac7
+depends_on_chapter: 792
+depends_on_source_sha: 4d0deeddd8ae6ae0baccabf581cb16830f6007ca
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 59d1fc9fdb8e72b7ca807e1cca95c0504d797ac7
+predecessor_current_source_sha: 4d0deeddd8ae6ae0baccabf581cb16830f6007ca
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10496,6 +10496,27 @@ combined_audit_chapter_792_20261116:
   body_revisions: 0
   depends_on_chapter: 791
   predecessor_ready_sha: "4dd2e6ca8d7f480d485b65d4ffbfcb2eae229fc2"
+  predecessor_body_delta: exact_ready_sha_no_provisional
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_793_20261116:
+  chapter: 793
+  original_source_sha: "56e2ff0728db8e9ebf574135cc5423dcd34dc2be"
+  source_sha: "56e2ff0728db8e9ebf574135cc5423dcd34dc2be"
+  review_path: "reader_reviews/0793_56e2ff07.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  char_count: 2917
+  body_revisions: 0
+  depends_on_chapter: 792
+  predecessor_ready_sha: "4d0deeddd8ae6ae0baccabf581cb16830f6007ca"
   predecessor_body_delta: exact_ready_sha_no_provisional
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main
