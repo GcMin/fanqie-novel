@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 774
+title: "信送到了隔壁那一格"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "5d7a56ad4aa59e1264a8ac8e0fe392c231e11ba4"
+source_draft_sha: "d1cc6f28f1635baeb40577dfd1ef152b6d8f0d66"
+initial_reader_review: "reader_reviews/0774_5d7a56ad.md"
+reader_review: "reader_reviews/0774_d1cc6f28.md"
+depends_on_chapter: 773
+depends_on_source_sha: "2b60a6ce26081a6aa5467e2c5856e2dc8b7cdc82"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day63907:28—Day63921:20"
+summary: >-
+  Day639母亲仍真正住新荷街，房门两钥匙、住户卡和独立信箱短钥匙本人保管，孩子Day638自己选置低柜内侧活动架的亲签方窗船未挪，旧船单存，甲乙箱青白碗蓝票盒及本人原画废样、邹姨合作画仍各归其位。Day63615:29母亲曾将写自己合法新住址的普通明信片投邮筒，Day637与Day638未见收件；Day63909:30本人打开本户铁信箱仍空。12:18同院韩姨称从相邻自家格里发现该明信片，按卡面地址实际送到母亲本人手中。母亲核卡面本户地址正确且亲手实收，但对误投邻格只保留韩姨证言，模糊邮戳不能定位责任环节。13:40本人致电邮政公布电话，记录投寄日、相邻格转交日及本户房号，获得一次投递质量反馈受理编号，未核定错格岗位或纠正结果、普通明信片无逐件跟踪。15:07晓漫知本次实收与错格，外甥只是提出以后画第二艘船，尚未实际寄新信；韩姨也未取得长久代收授权。21:20夜间中心夏宁仍只收仁合里旧四楼安全限项，新租屋住址、韩姨及邮政反馈均不入旧案；R-12与F014历史跨源待证，旧四楼仍禁返住。
+meaningful_state_changes:
+  - "Day636本人自寄的普通明信片到Day63912:18经相邻住户实际转交本人，实物真收到但本户信箱从未见正确落格。"
+  - "Day63913:40邮政正常渠道真实受理错格质量反馈并给编号，具体投错岗位与整改状态仍未知。"
+  - "母亲与韩姨形成有限正常邻里认识，不交换钥匙或永久代收授权。"
+knowledge_updates:
+  - "母亲本人证实实物收到和卡面地址正确；错格来源是韩姨明确转述，邮政仅受理反馈而未核定投递责任。"
+  - "晓漫和孩子只知自寄卡错格送回、孩子新船未寄；夏宁不知新住址韩姨和明信片私人信息。"
+relationship_updates:
+  - "韩姨初次按地址邻里转交，彼此可以礼貌识别但没有长期代收与门禁授权；晓漫提醒公开明信片隐私，孩子继续掌握未来绘画寄送决定。"
+foreshadowing_updates:
+  - "自寄卡单次实收完成但邮政错格反馈的后续核查/是否复发未知；旧租客封口信是否返还原主仍未知。"
+  - "F014历史旧号旧信本人收讫旧押金最终真退、七号箱五楼漏源及2019原卷、R-12最终签与现门Day577根因都没有因当代普通邮件收到而得到跨源证明。"
+ending_state: "Day639夜母亲在新荷街正常居住，明信片实物收入写有新荷街日常的抽屉，韩姨只是一次自发转交，邮政质量反馈仅受理；孩子方窗船仍低柜内侧活动架，旧屋双封隔离禁返住R-12/F014仍待独立证据。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "5d7a56ad4aa59e1264a8ac8e0fe392c231e11ba4", final_draft_sha: "d1cc6f28f1635baeb40577dfd1ef152b6d8f0d66", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "Day639_foretime_correct_Day636_postcard"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3275

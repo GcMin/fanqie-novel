@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 773
-last_reviewed_title: "那条船暂时不上墙"
-last_source_path: chapters/draft/0773.md
-last_source_sha: fb35534afd69f83303e16cdee75cd20b8602c650
-last_review_path: reader_reviews/0773_fb35534a.md
+last_reviewed_chapter: 774
+last_reviewed_title: "信送到了隔壁那一格"
+last_source_path: chapters/draft/0774.md
+last_source_sha: d1cc6f28f1635baeb40577dfd1ef152b6d8f0d66
+last_review_path: reader_reviews/0774_d1cc6f28.md
 last_reviewed_at: "2026-11-15"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 772
-depends_on_source_sha: fbc00519aa4ec8e64506f75f2dbfe5810bf53a95
+depends_on_chapter: 773
+depends_on_source_sha: 2b60a6ce26081a6aa5467e2c5856e2dc8b7cdc82
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: fbc00519aa4ec8e64506f75f2dbfe5810bf53a95
+predecessor_current_source_sha: 2b60a6ce26081a6aa5467e2c5856e2dc8b7cdc82
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10052,3 +10052,25 @@ combined_audit_chapter_773_20261115:
   body_revisions: 0
   metadata_rebind_only: true
   structural_gate: exact_candidate_ci_required
+
+combined_audit_chapter_774_20261115:
+  chapter: 774
+  title: "信送到了隔壁那一格"
+  original_source_sha: "5d7a56ad4aa59e1264a8ac8e0fe392c231e11ba4"
+  original_review_path: reader_reviews/0774_5d7a56ad.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "d1cc6f28f1635baeb40577dfd1ef152b6d8f0d66"
+  review_path: reader_reviews/0774_d1cc6f28.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  body_revisions: 1
+  predecessor_ready_blob: "2b60a6ce26081a6aa5467e2c5856e2dc8b7cdc82"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
