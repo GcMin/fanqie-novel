@@ -9079,3 +9079,21 @@ combined_audit_chapter_783_20261115:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_784_20261115:
+  chapter: 784
+  original_sha: "6d064270c658dac473b09e4bc129f629731d4a76"
+  source_sha: "181d93a3440750ac1bc1df372323fee9cd39e0b6"
+  original_review: reader_reviews/0784_6d064270.md
+  final_review: reader_reviews/0784_181d93a3.md
+  original_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  stage_a_changes: "783临时原稿依赖经事实差异核对改绑正式Ready；开头短信打印件与三样纸无源物证及结尾归档凭据归位两处正文更正"
+  body_revisions: 2
+  predecessor_original_draft_sha: "0879175cb1aa7395c367d5b6f1113abffbd3515f"
+  predecessor_ready_sha: "fe1a56074227e4d980b0bab412c00f5a37920efc"
+  predecessor_body_delta: "仅纠正Day648邮政电子短信错误变实体纸件、改保留手机渠道与本子自记，其余箱牌维护/当代投诉仍待查/儿童画事实未改"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main

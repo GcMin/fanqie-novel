@@ -6,13 +6,13 @@
 - arc: ARC-054
 - target_chars: 3000
 - preferred_range: 2600-3400
-- actual_effective_chars: 3367
-- prose_effective_chars_without_scene_markers: 3349
+- actual_effective_chars: 3369
+- prose_effective_chars_without_scene_markers: 3351
 - count_method: 正文去空白字符数，保留独立场景分隔符
 - depends_on_chapter: 783
-- depends_on_source_sha: 0879175cb1aa7395c367d5b6f1113abffbd3515f
-- dependency_status: provisional
-- dependency_source_path: chapters/draft/0783.md
+- depends_on_source_sha: fe1a56074227e4d980b0bab412c00f5a37920efc
+- dependency_status: verified_exact_ready_blob
+- dependency_source_path: chapters/ready/0783.md
 
 ## Planner
 
@@ -32,7 +32,7 @@
 - **人物关系与风险**：母亲与钟女士、许桐有清楚协作而非交换私人收件权；前租客未成为母亲的调查对象，韩姨仍无代收长期授权；母女在正常生活中分享画夹与餐食。
 - **伏笔与硬边界**：Day639当代自寄普通明信片的投递质量反馈仍只有提醒与补充登记、没有错格归责；这封前租客旧信不是仁合里历史F014旧信本人收讫的证据。旧仁合里17号楼四楼仍闭锁、12cm观察口和亡夫饰板分封、水电受控隔离、Day536撤清运及整屋禁返住不解；R-12末签、现门型号Day577擦响根因、F014旧号旧信旧押金全渠道末端真退、七号箱五楼漏源2019原卷及F003/F008/M004/M005无新跨源证。
 - **结尾承接**：合法保管的旧信真正交回原收件人，日常物件减少一个“待取”，邮政另案仍待回答，生活可以继续而不偷判旧事。
-- **字数目标**：2600—3400有效字符，实际3367（排除场景分隔符后3349）。
+- **字数目标**：2600—3400有效字符，实际3369（排除场景分隔符后3351）。
 
 ## Continuity Precheck
 
@@ -40,3 +40,8 @@
 - 三目录最新：published最大159（0153.md《人没回来，表先签完了》已存在）、ready最大782、draft最大783。第784章在三目录及章纲中均不存在，按数字连续创建784，不跳写。
 - 第783章只在 `chapters/draft/0783.md`，其实际完整blob SHA为 `0879175cb1aa7395c367d5b6f1113abffbd3515f`；因此本章必须记录 `depends_on_chapter: 783`、`depends_on_source_sha: 0879175cb1aa7395c367d5b6f1113abffbd3515f`、`dependency_status: provisional`。对783箱牌与回执事实仅暂时使用，不认定为正式Canon；若Audit后续修改783事实，独立Audit负责校验784兼容性。
 - 只执行Planner、Continuity Precheck、Writer，原子创建plan及draft，不修改其他文件，不执行Editor/Reader/Revision/QA/Memory/Publish Gate或番茄发布。必须基于最新main创建Git tree和commit，`expected_sha`+ `force:false` 更新，不强推、不覆盖并发。
+
+## 唯一Audit实际复核与修订（2026-11-15）
+- Writer所用第783章原临时Draft blob `0879175cb1aa7395c367d5b6f1113abffbd3515f` 现已通过唯一Audit Stage A更正电子短信误作纸件并最终正式Ready完整blob `fe1a56074227e4d980b0bab412c00f5a37920efc`。原前章两只箱外号片真换、邮政尚未查明投错原因、孩子红杯权属和驿站借展均不变；实际差异是Day648电子补登短信在手机原渠道、本子记日期编号而不是实体纸件。784必须准确承接，已改FM和详细计划依赖为正式Ready。
+- 第784章原稿blob `6d064270c658dac473b09e4bc129f629731d4a76` 独立Reader双遍0 BLOCKER/2 MAJOR/2 MINOR，Stage A只修开头无源短信打印件与结尾归档不当2处、同步3369有效字，修订新Draft `181d93a3440750ac1bc1df372323fee9cd39e0b6` 再次独立Reader Pass A→B 0 BLOCKER/0 MAJOR/2 MINOR keep/none；独立Continuity/Style/Meaningful QA PASS。
+- 候选精确Commit需真实CI执行 `python -m publisher.check_local --repo .` SUCCESS才准按序迁main Ready。

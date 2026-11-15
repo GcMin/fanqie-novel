@@ -1,0 +1,38 @@
+schema_version: 1
+chapter: 784
+title: "封口的信终于回到收件人手里"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "6d064270c658dac473b09e4bc129f629731d4a76"
+source_draft_sha: "181d93a3440750ac1bc1df372323fee9cd39e0b6"
+initial_reader_review: "reader_reviews/0784_6d064270.md"
+reader_review: "reader_reviews/0784_181d93a3.md"
+depends_on_chapter: 783
+depends_on_source_sha: "fe1a56074227e4d980b0bab412c00f5a37920efc"
+dependency_status: verified_exact_ready_blob
+predecessor_original_draft_sha: "0879175cb1aa7395c367d5b6f1113abffbd3515f"
+predecessor_fact_delta: "783原Draft曾将邮政电子补登短信错当实体第二纸件，正式Ready修成手机原渠道电子短信和本子日期受理号；箱牌维护与其他剧情事实未变。784新稿按真实物证来源修正并绑定783正式Ready。"
+timeframe: "Day649早—Day64921点后"
+summary: >-
+  Day649母亲已合法住新荷街，Day648更换的两只相邻铁信箱外号片保持清楚，母亲用本人短钥匙开本户仍空。桌上只有从日常夹取出的物业纸回执与孩子本人Day647所赠第一张两水点红杯硬纸夹；Day648邮政补充登记仍是手机原渠道短信，受理号已记在旁边本子，不凭空打印。09:13钟女士据Day636旧租约合法渠道联系到当年在本户信箱遗留封口信的原收件人，对方仅预约今日物业领取。母亲曾亲见Day636许桐原样封袋而自己不是保管人，拒让物业现住户模板假写自己负责。11:47许桐确认原封袋由物业暂存且原表默认现住户确认不适用，将修改留痕并待有权负责人确认。15:09旧收件人实到物业，15:27有责核本人必要身份证明和原租赁关联、封袋外观仍匹配Day636照片，信封内文未由物业读；直至15:48本人签领并由物业岗位当面实交信封入本人包，暂存结存真正关闭。母亲仅获不带姓名证件内容的办理结果，在Day636本人旧账本把待取改成实际领走。Day639自己寄出的当代邮卡已转交收到但错投质量仍仅提醒及补登待查，Day648箱牌维护与这封旧信是三条不同事项；Day644驿站母亲独作《两只碗》短借展不变，孩子第二张三水点红杯自携，方窗船架位不挪。晓漫傍晚来用饭并只得有限有责交还事实，带走干净可用纸盒供孩子学校用；母亲第四张蓝椅私印纸保护套实际做完但未改前三张失败试印历史。21点后母亲仍只向夏宁中心报告旧仁合里四楼安全限项，R-12/F014无跨源新证。
+meaningful_state_changes:
+  - "Day636发现并由物业封袋暂存的非本户前租客旧信，Day64915:48经合法核身份与租赁关联而由真正原收件人当面实领，物业暂存结存关闭。"
+  - "现住户不实保管确认模板被当次识别撤用并留内部更正流程，不谎称主管已终核。母亲不获前租客私件内容及身份证明。"
+  - "母亲在家给Day646四次蓝椅试印纸实际做可取放的保护纸套，保留前三张失败过程；与Day647孩子红杯及旧邮卡来源分存。"
+knowledge_updates:
+  - "母亲知道Day636旧封口信已由原收件人真实拿走而非只预约、核身份或签字，内文与身份资料仍不得知；她没有承担过物业物件保管责任。"
+  - "钟女士和许桐只在有责权限内联系核身份交物，韩姨只知属前租客待领而不掌握当事人私情，晓漫只知限项结论；夜间中心只旧四楼授权安全限项。"
+relationship_updates:
+  - "母亲与钟女士和许桐以不冒用现住户签认及实际交还维护清楚权责，原租客仍无新住户私人调查关系。"
+  - "晓漫陪母亲正常晚餐、带走安全纸盒给孩子使用，外甥两张红杯及方窗船的展示支配权不变。"
+foreshadowing_updates:
+  - "Day649前租客当代旧信实交原收件人不能回证仁合里F014历史旧号旧信本人实收或旧押金各渠道真退；Day639邮政错格只提醒补登未结，Day648物业换号片仅公区维修。"
+  - "R-12最终独立签、现装门型号Day577擦响根因、F014历史旧号旧信旧押金、七号箱五楼漏源2019原卷均未获跨源新证。"
+ending_state: "Day649夜新荷街本人正常真住，前租客封口旧信已被本人合法真领且物业暂存结存关闭，母亲不冒名签保管；邮政Day639错格仍待核、Day648外号牌已修，两者不混。家中母亲蓝椅与孩子赠红杯独立私藏、驿站本人《两只碗》短借展继续，仁合里旧屋闭锁双封禁返住R-12/F014未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "6d064270c658dac473b09e4bc129f629731d4a76", final_draft_sha: "181d93a3440750ac1bc1df372323fee9cd39e0b6", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 2, reason: "rebind_prev783_ready_and_fix_unproven_postal_SMS_printout"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3369
