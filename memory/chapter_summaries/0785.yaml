@@ -1,0 +1,37 @@
+schema_version: 1
+chapter: 785
+title: "两张纸各有自己的主人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "418ed0f3d87cf46149aa2519066f4bb01628253f"
+source_draft_sha: "cd79bf89c5d464a1278485fbdbf09874de6e2277"
+initial_reader_review: "reader_reviews/0785_418ed0f3.md"
+reader_review: "reader_reviews/0785_cd79bf89.md"
+depends_on_chapter: 784
+depends_on_source_sha: "8baf9b7fc6ccd3b8c540b63d16d64c4e6ccf3182"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "第784章在Writer创建785前已为正式Ready且本章依赖完全精确，不存在临时前章SHA；Day649旧信本人真领与邮政待查两链不变"
+timeframe: "Day650早—Day65021点后"
+summary: >-
+  Day650母亲在新荷街正常独住，Day649亲做的四张蓝椅印纸保护套、Day647外甥本人赠两水点红杯纸画和Day638低柜内侧方窗船原位。社区便民驿站小陆通知Day644借展的新印双碗画仍在站里一周限项室内展示，Day645中性大字卡保持，明Day651应按约核对真正取画，不自动延期。母亲愿意看看当日成人开放桌条件但不自任教师，携普通圆角厚卡、空白软板、小滚筒及蓝水洗颜料而不带原作和刻刀。Day65011:05指出活动桌脚压接线槽边并妨碍轮椅人群退让，小陆有责移动半米并让轮椅来访者实走、核桌下腿位，只记当次可用位置。下午韩姨依自己缝菜车袋四针草稿亲摆硬底卡上的圆角厚卡线条与四点，用胶带固定薄滚蓝墨、覆纸两次：首张墨糊、次张移动圆点并减墨后四点分开，两张连同首张失败样均本人带走，背写日期与四针。另一拄杖老人用杯底比大小亲摆厚卡缺口圆环、自己压两张，首张弧形断开、次张合上接缝仍白；自己决定一张夹菜谱另一张给孙女，明确拒绝站方留展或扫描。16点前小陆和同事真清水洗颜料与桌面并恢复安全通路，未用刻刀；母亲不提前取走或替驿站预填双碗已归还。韩姨傍晚在楼门口转述妹妹把四针看作芝麻，作品仍归其本人。晓漫只知母亲口述有限成人手工，外甥把Day649晓漫带去的干净纸盒自做玩具车而未到驿站。21点后母亲仅报旧仁合里四楼本人授权闭锁限项，失锁整班守门及再开门许可未成、R-12/F014历史无新跨源证；Day639邮政错投同号补登仍待核。
+meaningful_state_changes:
+  - "母亲首次在社区驿站成人开放桌实际帮助两位居民各亲印两张纸，但每人自己决定图案、署名、归属与公开权。"
+  - "韩姨与另一老人总四张个人纸印均本人真带走，站方未扫描、展示或替别人获得网宣许可。"
+  - "当次通路与桌位由站方实测调整、清场归位，原双碗借展Day650不提前结存或自动延期，Day651仍待真正核还。"
+knowledge_updates:
+  - "母亲和韩姨知道可用胶带固定圆角厚卡凸片、薄滚水洗颜料覆纸无刀转印；小陆知道一日开放桌不能代艺术作品借展授权。"
+  - "老人自己知道两张圆环纸形状和去向、只由本人决定拒展；晓漫只听普通私聊，夏宁不获新荷街艺术活动或参加者资料。"
+relationship_updates:
+  - "母亲和韩姨延续普通邻里互助而非代作、长期代收或共享钥匙；另一老人拒展得到小陆尊重。"
+  - "孩子红杯与方窗船私人权属不被活动扩张，社区驿站只负责桌面、清洁及原双碗借展保管。"
+foreshadowing_updates:
+  - "Day644室内一周《两只碗》仍在站，Day651本人实际取回才可改交还状态。"
+  - "现代作品权属、Day639邮政错格待核及Day649前租客旧信实领都不证F014历史旧号旧信旧押金全渠道退付或R-12门型根因。"
+ending_state: "Day650夜新荷街母亲四张蓝椅及纸套、外甥赠两水点红杯和方窗船各原位，韩姨与另一老人个人四张纸作均自己带走、无展览许可，驿站仍保管新印双碗到Day651核交，邮政与旧仁合里R-12/F014仍待证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "418ed0f3d87cf46149aa2519066f4bb01628253f", final_draft_sha: "cd79bf89c5d464a1278485fbdbf09874de6e2277", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 4, reason: "fix_thick_cardboard_relief_and_display_card_date"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3302

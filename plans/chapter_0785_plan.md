@@ -6,8 +6,8 @@
 - arc: ARC-054
 - target_chars: 3000
 - preferred_range: 2600-3400
-- actual_effective_chars: 3171
-- prose_effective_chars_without_scene_markers: 3153
+- actual_effective_chars: 3302
+- prose_effective_chars_without_scene_markers: 3284
 - count_method: 正文去空白字符数，含独立场景分隔符
 - depends_on_chapter: 784
 - depends_on_source_sha: 8baf9b7fc6ccd3b8c540b63d16d64c4e6ccf3182
@@ -32,7 +32,7 @@
 - **人物关系**：母亲与韩姨互助但无钥匙或持续代工，老太太拒陈列得到尊重，小陆仍只作为站方场地与借展责任人。
 - **伏笔与不可泄露秘密**：Day639普通邮政错格投诉未查明错投原因，Day649另一封旧信真返还不能作为仁合里F014旧信本人历史实收证明。Day644一周限项借展不扩网宣、今日未归还。旧仁合里17号楼四楼闭锁，12cm观察口和亡夫饰板分封，水电受控隔离，Day536撤清运且整屋禁返住；失锁专业整班看守替岗、重新开门许可、R-12末签及现装门型号Day577擦响根因、F014旧号旧信旧押金全渠道退付、七号箱五楼漏源2019与F003/F008/M004/M005无新跨源证。
 - **结尾承接**：各人带走自己的当代纸作，母亲未借出私藏小椅子版与孩子原作；Day651须向驿站实际取回借展双碗画才算完成返还。
-- **目标有效字符**：3171，剔除独立分隔符3153。
+- **目标有效字符**：3302，剔除独立分隔符3284。
 
 ## Continuity Precheck
 
@@ -40,3 +40,9 @@
 - 数字章号重查三目录：published最大0159（0153.md已存在），ready最大0784，draft无数字章节。第0785章及章纲尚不存在，连续创建。
 - 前章784已在ready，完整Git Blob SHA 8baf9b7fc6ccd3b8c540b63d16d64c4e6ccf3182，本章依赖状态为verified_exact_ready_blob；不把Day639的当代邮政质量待查误写为已结，也不把当代旧租客真领信混写为F014历史证据。
 - 仅执行Planner、Continuity Precheck、Writer。仅创建一份plan和一份draft；不修既有文件、不审核修订、不更改memory、QA或发布状态、不发布番茄。使用最新main、原子tree/commit和expected_sha、force:false更新。
+
+## 唯一Audit实际修订与复审（2026-11-15）
+- 原Draft `418ed0f3d87cf46149aa2519066f4bb01628253f` 独立Reader Pass A/B 0 BLOCKER/2 MAJOR/2 MINOR；缺厚卡凸版固定上墨转印因果且Day650误称Day645更换的大字卡为“昨天”。原Review：reader_reviews/0785_418ed0f3.md。
+- Stage A局部4处修复且纠Front Matter计数3171→3302；新Draft `cd79bf89c5d464a1278485fbdbf09874de6e2277` 再独立Pass A→Pass B 0 BLOCKER/0 MAJOR/2 MINOR keep/none，Review reader_reviews/0785_cd79bf89.md。MINOR只记录不额外重写。
+- 前章第784章已Ready Blob `8baf9b7fc6ccd3b8c540b63d16d64c4e6ccf3182` 精确依赖，无未核前章；本章完整Continuity/Style/Meaningful QA PASS。Day650两位成人本人各制作两张且自带，站方只负责一次性核通路及清桌，借展双碗仍待Day651真正取还。
+- 仅在包含Ready、计划、Memory和QA的精确候选Commit由可信CI实际执行`python -m publisher.check_local --repo .` SUCCESS后，才允许并main顺序放行。

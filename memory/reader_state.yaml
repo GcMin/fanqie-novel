@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 782
-last_reviewed_title: "杯子打架以前，先把纸摆平"
-last_source_path: chapters/draft/0782.md
-last_source_sha: 51ccb2a27dc61c6440bdff6e6f79a5d719bb4c49
-last_review_path: reader_reviews/0782_51ccb2a2.md
+last_reviewed_chapter: 785
+last_reviewed_title: "两张纸各有自己的主人"
+last_source_path: chapters/draft/0785.md
+last_source_sha: cd79bf89c5d464a1278485fbdbf09874de6e2277
+last_review_path: reader_reviews/0785_cd79bf89.md
 last_reviewed_at: "2026-11-15"
 reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 781
-depends_on_source_sha: 518f7bec418b98a2b456e9dcd277d32abd380552
+depends_on_chapter: 784
+depends_on_source_sha: 8baf9b7fc6ccd3b8c540b63d16d64c4e6ccf3182
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 518f7bec418b98a2b456e9dcd277d32abd380552
+predecessor_current_source_sha: 8baf9b7fc6ccd3b8c540b63d16d64c4e6ccf3182
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10328,5 +10328,29 @@ combined_audit_chapter_784_20261115:
   predecessor_original_draft_sha: "0879175cb1aa7395c367d5b6f1113abffbd3515f"
   predecessor_ready_sha: "fe1a56074227e4d980b0bab412c00f5a37920efc"
   predecessor_body_delta: "783纠正将原渠道电子短信误作实体第二纸件，Day648物业双号牌真换与各自开闭及邮政待查不变，784已按最终事实调整"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_785_20261115:
+  chapter: 785
+  original_sha: "418ed0f3d87cf46149aa2519066f4bb01628253f"
+  original_review_path: reader_reviews/0785_418ed0f3.md
+  original_counts: {blocker: 0, major: 2, minor: 2}
+  source_sha: "cd79bf89c5d464a1278485fbdbf09874de6e2277"
+  review_path: reader_reviews/0785_cd79bf89.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  char_count: 3302
+  body_revisions: 4
+  stage_a_changes: "真实补厚卡圆角凸片固定上墨覆纸，修Day645大字卡时间不符，计数3171到3302"
+  depends_on_chapter: 784
+  predecessor_ready_sha: "8baf9b7fc6ccd3b8c540b63d16d64c4e6ccf3182"
+  predecessor_body_delta: "前章784已在Writer写785前正式Ready，依赖完全精确，无临时旧SHA差异"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main
