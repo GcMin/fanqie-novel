@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 775
-current_stage: chapter775_reader_QA_pass_exact_ci_required
-current_source_path: chapters/draft/0775.md
-current_source_sha: dc9286b93d5b2954b4e1a82bbe5ba7e231789e6a
-current_review_path: reader_reviews/0775_dc9286b9.md
+current_chapter: 777
+current_stage: chapter777_reader_and_content_QA_pass_exact_CI_required
+current_source_path: chapters/draft/0777.md
+current_source_sha: 4e6f2088db5a43c10ea13d7726902d16a683f8d0
+current_review_path: reader_reviews/0777_4e6f2088.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter775_reader_QA_pass_precise_predecessor_rebind
+last_action: chapter777_stageA_day640_gutter_date_fix_newSHA_reader_QA_pass
 last_action_date: "2026-11-15"
 last_error: null
-last_diff_summary: "774原Draft寄日误写Day637、终稿更正Day63615:29；775情节未提错误日，仅同步前章Ready SHA与实际有效字符3548；新SHA Reader 0/0/2 QA通过，候选精确CI必需。"
+last_diff_summary: "Day642雨中昨天清沟改前天清沟，与第775章Day640有责作业日一致；新SHA Reader 0/0/2，正文3106有效字符，精确候选CI必需。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -8961,6 +8961,22 @@ combined_audit_chapter_776_20261115:
   stage_a_changes: "correct_FrontMatter_char_count_3324_to_actual_3342_only"
   body_revisions: 0
   predecessor_ready_sha: "6ed7c17fcc0805baf7ee51e6330cf83aaeed8804"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_777_20261115:
+  chapter: 777
+  original_sha: "bee3b9c13d3aca93329d8d104fc2f7642f9c8ae6"
+  source_sha: "4e6f2088db5a43c10ea13d7726902d16a683f8d0"
+  original_review: reader_reviews/0777_bee3b9c1.md
+  final_review: reader_reviews/0777_4e6f2088.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  stage_a_changes: "Day642 gutter date corrected from yesterday to the day before yesterday Day640"
+  body_revisions: 1
+  predecessor_ready_sha: "7260797e34f2d95ef410ec67d8ae12beaa522bcf"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

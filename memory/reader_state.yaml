@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 775
-last_reviewed_title: "通道留出来，邻居才走得过去"
-last_source_path: chapters/draft/0775.md
-last_source_sha: dc9286b93d5b2954b4e1a82bbe5ba7e231789e6a
-last_review_path: reader_reviews/0775_dc9286b9.md
+last_reviewed_chapter: 777
+last_reviewed_title: "布套只护纸，不替人改画"
+last_source_path: chapters/draft/0777.md
+last_source_sha: 4e6f2088db5a43c10ea13d7726902d16a683f8d0
+last_review_path: reader_reviews/0777_4e6f2088.md
 last_reviewed_at: "2026-11-15"
-reviewer_mode: combined_audit_independent_pass_a_then_b
+reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 774
-depends_on_source_sha: c8a4afddff154b6c808391339827e46fafa5fcee
-dependency_status: verified_ready_compatible_body
-predecessor_current_source_sha: c8a4afddff154b6c808391339827e46fafa5fcee
+depends_on_chapter: 776
+depends_on_source_sha: 7260797e34f2d95ef410ec67d8ae12beaa522bcf
+dependency_status: verified_exact_ready_blob
+predecessor_current_source_sha: 7260797e34f2d95ef410ec67d8ae12beaa522bcf
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10118,5 +10118,30 @@ combined_audit_chapter_776_20261115:
   metadata_revision: correct_3324_to_3342
   depends_on_chapter: 775
   predecessor_ready_sha: "6ed7c17fcc0805baf7ee51e6330cf83aaeed8804"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_777_20261115:
+  chapter: 777
+  title: "布套只护纸，不替人改画"
+  source_path: chapters/draft/0777.md
+  original_source_sha: "bee3b9c13d3aca93329d8d104fc2f7642f9c8ae6"
+  original_review_path: reader_reviews/0777_bee3b9c1.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "4e6f2088db5a43c10ea13d7726902d16a683f8d0"
+  review_path: reader_reviews/0777_4e6f2088.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  char_count: 3106
+  body_revisions: 1
+  stage_a_changes: "Day642 yesterday cleared drain corrected to the day before yesterday Day640"
+  depends_on_chapter: 776
+  predecessor_ready_sha: "7260797e34f2d95ef410ec67d8ae12beaa522bcf"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main
