@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 791
+title: "夜巡两次，不等于整夜有人"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "d6d0bfb788d43689e515da057fb33d830396d88a"
+source_draft_sha: "d6d0bfb788d43689e515da057fb33d830396d88a"
+reader_review: "reader_reviews/0791_d6d0bfb7.md"
+depends_on_chapter: 790
+depends_on_source_sha: "59d1fc9fdb8e72b7ca807e1cca95c0504d797ac7"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "第790章起稿前已在正式Ready，前章来源SHA精确一致；不存在临时前章不同版本的事实差异"
+timeframe: "Day656早—21点后"
+summary: >-
+  Day656母亲在新荷街真住，旧区物业群发仁合里17号楼旧四楼安全巡查确认页将前夜21:07和02:14两次外围走廊扫描误映射为整包绿色已完成，虽然专业失锁整班守门替岗无签到交接，母亲不点本户安全措施已落实。以旧有对公号码求证、记录受理流水，何工仅在本户授权范围核两次岗位巡查与封条外观记录，不把两次到点视为整夜值守或屋内安全查验，发起待复核更正。韩姨Day655本人菜车灰带高系补三针后本次短途不擦，仍无长期机械合格凭据；孩子红七角轮纸车继续左偏。午后母亲亲赴正常物业窗口依法限阅本户闭锁双封、外围夜巡、专业整班守门三个独立栏位；复核员保留两条原巡查和原误通知溯源、更正汇总显示并实际生成版本，母亲只签收新页不签已安排安保或可以开门；原对公渠道后来核本户页面真实改正，专业整班替岗仍明确未落实。晚间夏宁仅从本人合法渠道得到旧四楼安全事项，闭锁12cm口/亡夫饰板分封、水电受控隔离、Day536撤清运、整屋禁返住与再开门许可不变，R-12现门与F014历史旧号旧信旧押金及2019原卷无跨源新证。
+meaningful_state_changes:
+  - "物业本户安全汇总由误显全部完成更正为两次真实外围夜巡有源记录与专业整班守门未落实两栏分明，原误通知保存留痕。"
+  - "母亲拒签与事实不符的已落实确认，仅在见实际更新和版本号后签收本人更正页。"
+knowledge_updates:
+  - "母亲知道21:07与02:14两次走廊外侧岗位扫描可核但不是连续值班，也不意味着开门、屋内查验或再开许可；知道本户版本实际纠正。"
+  - "何工与复核员只核有权本户源表和页面映射，不能推出所有住户同误；夏宁仅得本人有限旧屋状态，不知新荷街地址及家庭艺术。"
+relationship_updates:
+  - "母亲与值班台、何工及物业复核员以正式流水和有责限阅纠正假完整，不授物业代签本人安保安全结论。"
+  - "韩姨只与母亲讨论菜车短期试走，不掌握旧屋内部资料或钥匙、孩子作品。"
+foreshadowing_updates:
+  - "本户外围夜巡页面纠错没有形成专业整班守门交接与再开门许可，不能当作旧屋安全条件已满足。"
+  - "R-12最后独立签、现装门型、Day577擦响原因及F014历史旧联系号初源、本人当年旧信收讫、旧押金各渠道末端真实退款、七号箱五楼漏源2019原卷仍无跨源证。"
+ending_state: "Day656夜母亲仍真住新荷街，本户物业三栏安全页面已纠正，两次真实外巡时点保留，整班安保待落实、旧屋仍闭锁禁返住且不得再开门；F014/R-12历史缺证不变，私人单碗纸作与家人纸车权属不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d6d0bfb788d43689e515da057fb33d830396d88a", final_draft_sha: "d6d0bfb788d43689e515da057fb33d830396d88a", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "reader_keep_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3404
