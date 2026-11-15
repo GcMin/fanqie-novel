@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 768
-last_reviewed_title: "窗边的水迹还没有结论"
-last_source_path: chapters/draft/0768.md
-last_source_sha: 7adcdae8d5e4074728243637d956135608869a31
-last_review_path: reader_reviews/0768_7adcdae8.md
+last_reviewed_chapter: 771
+last_reviewed_title: "两只箱子过了门，画才有地方放"
+last_source_path: chapters/draft/0771.md
+last_source_sha: 20b5fcbb4bb97e2bf6e08238edab5a091df1f752
+last_review_path: reader_reviews/0771_20b5fcbb.md
 last_reviewed_at: "2026-11-15"
 reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 767
-depends_on_source_sha: b0ecab7b9b5d031ddca3237d39f9472040065cc5
+depends_on_chapter: 770
+depends_on_source_sha: 1c89f3864c4405972a217ad560bf1fe701edf8d6
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: b0ecab7b9b5d031ddca3237d39f9472040065cc5
+predecessor_current_source_sha: 1c89f3864c4405972a217ad560bf1fe701edf8d6
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -9998,3 +9998,20 @@ combined_audit_chapter_770_20261115:
   dependency_status: verified_exact_ready_blob
   body_revisions: 1
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_771_20261115:
+  chapter: 771
+  title: "两只箱子过了门，画才有地方放"
+  source_sha: "20b5fcbb4bb97e2bf6e08238edab5a091df1f752"
+  review_path: reader_reviews/0771_20b5fcbb.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  predecessor_ready_blob: "1c89f3864c4405972a217ad560bf1fe701edf8d6"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_commit_ci_required

@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 768
-current_stage: chapter768_reader_QA_pass_exact_ci_required
-current_source_path: chapters/draft/0768.md
-current_source_sha: 7adcdae8d5e4074728243637d956135608869a31
-current_review_path: reader_reviews/0768_7adcdae8.md
+current_chapter: 771
+current_stage: chapter771_reader_QA_pass_exact_ci_required
+current_source_path: chapters/draft/0771.md
+current_source_sha: 20b5fcbb4bb97e2bf6e08238edab5a091df1f752
+current_review_path: reader_reviews/0771_20b5fcbb.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter768_stageA_two_major_fixed_new_sha_reader_QA_pass
+last_action: chapter771_reader_QA_pass_no_revision
 last_action_date: "2026-11-15"
 last_error: null
-last_diff_summary: "768初稿93187fb3两项MAJOR：前章767原Draft仅交付元数据不同已重绑Ready b0ecab7b及杜先生此前未说修过姚姐原记录为待核；Stage A局改得到新Blob 7adcdae8，独立Reader Pass A/B 0/0/2、QA PASS，Day63211:38西廊三晚真付至Day63512。"
+last_diff_summary: "771原Draft 20b5fcbb 直接绑定770正式Ready 1c89f386，Reader独立双遍0/0/2无fix_required无正文修订；Day635松桥退卡、双箱有责运输新屋11:58签收并真住第一夜。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 7adcdae8d5e4074728243637d956135608869a31
+current_review_source_sha: 20b5fcbb4bb97e2bf6e08238edab5a091df1f752
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -8882,3 +8882,13 @@ combined_audit_chapter_770_20261115:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_771_20261115:
+  chapter: 771
+  source_sha: "20b5fcbb4bb97e2bf6e08238edab5a091df1f752"
+  review: reader_reviews/0771_20b5fcbb.md
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  body_revisions: 0
+  qa_gate: pass
+  structural_gate: exact_commit_ci_required

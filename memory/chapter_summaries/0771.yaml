@@ -1,0 +1,32 @@
+schema_version: 1
+chapter: 771
+title: "两只箱子过了门，画才有地方放"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "20b5fcbb4bb97e2bf6e08238edab5a091df1f752"
+reader_review: "reader_reviews/0771_20b5fcbb.md"
+depends_on_chapter: 770
+depends_on_source_sha: "1c89f3864c4405972a217ad560bf1fe701edf8d6"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day63507:43—Day63606:59"
+summary: >-
+  Day63507:43母亲仍住松桥西廊，客舍住期至当日12点，甲乙双箱双旧卡青白碗蓝旧票盒船票、本人歪双碗画与积墨废样、邹姨共印第一张花盆桌沿、外甥旧署名纸船及新方窗船卡皆在；Day634新荷街已真签租、房东实收押金首租、两把房钥匙和一张正式住户卡及昼夜独立实开，但双箱尚未搬。09:18小郑核客舍到上车点与社会市内运输需各自负责；10:27核具名搬运员，10:51两箱有责交给承运人、画夹母亲始终自背；10:58西廊双客卡注销且清洁验退房。11:42母亲持正式住户卡从正常入口开新荷街院门、有责搬运人按许可登记并抬乙箱越石板路接缝，11:58母亲在新房实核甲乙两箱、青白碗与蓝票盒并签收。午后水槽接头当次无新滴非永久隐管验收、母亲分放自己旧画、邹姨合作画及孩子两船；夜晚在新荷街首次自炊住下，21:23仅向夜间中心限报旧四楼安全事项。Day63606:59新居真醒，双箱和全部画物已迁，旧仁合里四楼禁返住及R-12/F014仍未获新跨源证明。
+meaningful_state_changes:
+  - "Day63510:58松桥西廊旧房真退、两旧客卡注销。"
+  - "Day63510:51两箱从客舍有责交独立市内承运人，11:58在新荷街本人真正验签收，随身画夹全程不计托运。"
+  - "Day635第一夜真在新荷街住下，Day63606:59醒来，与770只取得租权和钥匙卡、还未搬箱严格区分。"
+knowledge_updates:
+  - "母亲分清客舍退住、两段运输、签收、住下各个独立事实；水槽当次未滴并非全屋长期无漏。"
+  - "晓漫孩子只获本人分享的新生活消息；夏宁夜间中心只得仁合里旧屋安全限项，不得新住址隐私。"
+relationship_updates:
+  - "晓漫愿帮但母亲本人负责签收，孩子保留新方窗船卡的展示位置决定权，房东同意无损挂法、打孔另商量。"
+foreshadowing_updates:
+  - "仁合里旧四楼双封隔离Day536撤清运整屋禁返住、专业守门替岗开门许可仍缺；R-12末签现门型号Day577根因、F014旧号旧信旧押金全渠道七号箱五楼旧漏源2019无新跨源结论。"
+ending_state: "Day63606:59母亲在新荷街过第一夜，甲乙箱、青白碗、蓝票盒旧船票、本人原画废样、邹姨合作第一张与孩子两张署名船均已在新屋；松桥两旧卡注销退房，旧仁合里四楼禁返住旧案未结。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "20b5fcbb4bb97e2bf6e08238edab5a091df1f752", final_draft_sha: "20b5fcbb4bb97e2bf6e08238edab5a091df1f752", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "none_no_fix_required"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3177
