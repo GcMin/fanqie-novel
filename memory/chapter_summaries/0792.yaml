@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 792
+title: "人到了门口，手续还没到"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "d98c3535ce7dda90ceb52ed4738a3aad00603887"
+source_draft_sha: "d98c3535ce7dda90ceb52ed4738a3aad00603887"
+reader_review: "reader_reviews/0792_d98c3535.md"
+depends_on_chapter: 791
+depends_on_source_sha: "4dd2e6ca8d7f480d485b65d4ffbfcb2eae229fc2"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "791已正式Ready且本章精确依赖相同Blob，无旧临时SHA与正文事实差异"
+timeframe: "Day657早—21点后"
+summary: >-
+  Day657母亲在新荷街收到仁合里旧四楼11:30“失锁点位复核”及“请住户协助入户”预约，昨日外围夜巡误标整班守门已纠正，但新维修派卡缺独立开门许可。她保存原号按钮和三栏更正页，经原对公电话取受理流水；10:27何工证另一套维修排班用了昨日上午旧清单，模板按钮根因未查，先让工人停公共区。母亲11点后只到楼下公共服务点，蒋师傅和同伴带工具箱、纸卡实到但未上楼、未领钥匙未触封存；11:42门岗记实际止步，11:48位置端只示到附近。13:17主管批准撤单尚非施工端实收；13:59施工方同号通知真实送达、纸卡标撤，两人装车离场，门岗与何工只记录无开门无维修完工，本户纸件独立归档，模板按钮来源仍待查。昨日页面纠错与今日维修撤单不能无证认为同源。韩姨菜车本次短程不擦，孩子红七角轮纸车添宽纸路未试；母亲仍自己保管单碗纸，夜间夏宁只得旧四楼本人授权限项。旧屋双封闭锁水电隔离Day536撤清运整屋禁返住、专业整班守门和再开门许可均未成，R-12/F014与七号箱五楼漏源2019旧卷无跨源新证。
+meaningful_state_changes:
+  - "无许可的维修预约有责撤回、施工方原号真收到撤单、两名外勤真实离场，避免了凭预约开门。"
+  - "到附近、止步、主管批撤、施工方收撤均分源分时记录，未冒充完工与专业安保。"
+knowledge_updates:
+  - "母亲、何工及工人知道本户今天实际撤单与未开门；维修旧模板与昨天显示错误是否同根因仍未知。"
+  - "夏宁仅得旧屋两份现代限项更正与撤单，不得新荷街地址及家庭邻里私事。"
+relationship_updates:
+  - "母亲不替施工方签假完工，不因工人空跑擅授旧屋开门权；工人同意实记到场、止步与退走。"
+  - "韩姨只问日常菜车；晓漫和孩子自行决定纸车下一次路测。"
+foreshadowing_updates:
+  - "当代撤单不等于旧屋整班安保到岗、合法再开门或R-12/F014历史线索取得跨源证。"
+ending_state: "Day657夜母亲在新荷街，Day656巡查误显已更正、Day657独立维修预约主管批准且施工方实撤离；旧四楼仍闭锁双封隔离禁返住，专业守门与再开许可未成，F014/R-12历史缺证不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d98c3535ce7dda90ceb52ed4738a3aad00603887", final_draft_sha: "d98c3535ce7dda90ceb52ed4738a3aad00603887", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "reader_keep_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3230
