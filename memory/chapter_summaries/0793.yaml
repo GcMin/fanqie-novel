@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 793
+title: "路拓宽了，车还是会往左"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "56e2ff0728db8e9ebf574135cc5423dcd34dc2be"
+source_draft_sha: "56e2ff0728db8e9ebf574135cc5423dcd34dc2be"
+reader_review: "reader_reviews/0793_56e2ff07.md"
+depends_on_chapter: 792
+depends_on_source_sha: "4d0deeddd8ae6ae0baccabf581cb16830f6007ca"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "第792章在起稿前正式Ready；依赖精确相同Blob，无前章临时与最终文本SHA差异"
+timeframe: "Day658早—夜"
+summary: >-
+  Day658晓漫晨传孩子新画的宽牛皮纸路线，红七有角右后轮的纸车Day653初试56/53厘米、Day654后套管方向调整前49/52厘米后68/71厘米仍左偏，Day657只画宽路未测试。下午孩子持原车旧记录与宽纸路到新荷街母亲租屋，先压平卷纸棱并用固定低斜板、起点、垫书和接车箱作对照。两次不设侧墙试走仍左偏，宽路线内停止或碰斜板硬边不等于车自行走直；孩子试摆侧墙见纸条会导正车头，主动撤去侧墙改在板下端用可揭胶带设横向止车挡，只防跌落。两次带下端挡边实走仍偏左；本人保留原右框和早晨猜想，另画左框、真实路径、斜停方位及「还差半只轮」，不剪角轮、不擦红七、自持车和原新纸路记录，临时工具当晚撤离饭桌。韩姨菜车高系灰带补三针短途未再擦，仅限当次；母亲只向夏宁夜间中心报Day656本户外围夜巡误显纠正、Day657无许可维修预约撤单施工方真退及旧四楼授权安全限项，未透露新荷街私事。旧四楼闭锁双封隔离Day536撤清运整屋禁返住，专业整班守门和再开许可未成立，R-12/F014和七号箱五楼2019旧卷未获跨源新证。
+meaningful_state_changes:
+  - "宽纸路真实铺设并对照试车；孩子辨清路变宽、侧墙导正与轮子自行走直不同，主动改侧墙为下端止车挡边。"
+  - "孩子在旧右框旁添左实停框并保留两次斜停、半轮误差及原假设，知道能安全停但仍左偏，自持车辆与记录。"
+knowledge_updates:
+  - "孩子、晓漫、母亲知道外部挡墙可使车看似走正，底端横挡只止车；未确认纸车偏左唯一根因或已经修好。"
+  - "韩姨仅知自己菜车当前未擦，不提供纸车根因；夏宁中心不知道新荷街地址、家庭纸车或邻里信息。"
+relationship_updates:
+  - "母亲提供低风险复测及接车防护而不替孩子剪轮，晓漫尊重孩子本人设计终点、保留错误记录的决定。"
+foreshadowing_updates:
+  - "普通手作纸车不构成R-12门体、F014旧号旧信旧押金或2019旧卷跨源证，历史缺口不变。"
+ending_state: "Day658夜母亲合法真住新荷街，私作单碗双碗仍分存、方窗船原位；孩子自持红七有角左偏纸车、旧新纸路和实测位置，安全止车方案可撤但未修直；旧仁合里四楼闭锁双封隔离禁返住及F014/R-12缺证不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "56e2ff0728db8e9ebf574135cc5423dcd34dc2be", final_draft_sha: "56e2ff0728db8e9ebf574135cc5423dcd34dc2be", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "reader_keep_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2917
