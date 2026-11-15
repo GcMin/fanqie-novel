@@ -30,5 +30,5 @@
 
 ## Continuity Precheck
 - 从 chapters/published、chapters/ready、chapters/draft 核实第153章已在 published、截至写作前最新章为778，目标779此前三处及计划路径均不存在。
-- 第778章 chapters/ready/0778.md 当前完整 Git Blob SHA 108d1cfc56545e75ca95ae5146de458143335554，依赖状态 provisional；本章精确引用 Day643 本人公开桌展示、独立展签署名及原画当日领回等已审定事实。
+- 第778章 chapters/ready/0778.md 当前完整 Git Blob SHA 108d1cfc56545e75ca95ae5146de458143335554，依赖状态 verified_exact_ready_blob；本章精确引用 Day643 本人公开桌展示、独立展签署名及原画当日领回等已审定事实。
 - 第778章正文事实仅需：Day643本人携原画在分馆公开桌展出并在独立展签写姓名，未批准机构对外宣传拍摄，16:03本人领回原画；邹姨合作画未带，孩子船与署名没动。第777章及以前Ready Canon证实新荷街独立居住、物件与权限边界、仁合里旧四楼禁返住与未证历史。
