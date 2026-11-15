@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 789
+last_updated_chapter: 790
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4425,3 +4425,11 @@ chapter_789_arc054:
   mother_daughter_child: "孩子自主决定只调后吸管、保留纸车有角轮与红七及两日试车记录；晓漫不擅剪轮，母亲只协助胶带和保护补片。"
   outside: "邵师傅先同意外侧短时观察，仅示教直尺比对，不代理维修、不给玩具合格证明，也不许可操作店内工具或拍客人的车。"
   neighbor: "韩姨仅普通问询菜车闲谈，没有固定代教代保管约定。"
+
+chapter_790_arc054:
+  chapter: 790
+  source_sha: "7d61b30eb77b060a62eb413dac394ecc2686a80a"
+  neighbor: "韩姨自主改系、缝线、路测并留小票，母亲仅有限安全观察，不形成代修、共管钥匙或永久维修承诺。"
+  mother_daughter_child: "电话把菜车与纸车原因分开，孩子自主保留红七、有角轮、自己的纸路及测试决定权。"
+  artwork: "韩姨Day650自印两张四针纸仍归本人；母亲两张单碗及真取回双碗仍自己保管，不扩展展览许可。"
+  center: "新荷街邻里与儿童活动不构成夜间中心授权报告内容。"

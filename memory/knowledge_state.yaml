@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 789
+last_updated_chapter: 790
 characters:
   zhou_heng:
     knows:
@@ -5219,3 +5219,13 @@ chapter_789_arc054:
   han: "只知孩子纸车有进步仍随板偏左，不获正式检修结论或旧案涉密知识。"
   center: "只获旧四楼本人授权闭锁隔离信息，未知家庭DIY与修车摊访问。"
   unknown: "纸车最终左偏原因未唯一证实；R-12/F014和七号箱2019旧卷跨源未证。"
+
+chapter_790_arc054:
+  chapter: 790
+  source_sha: "7d61b30eb77b060a62eb413dac394ecc2686a80a"
+  mother: "亲见菜车空载正常，满载下方灰带擦左轮；仅确认本次可见摩擦，不知轴轮有无其他问题。孩子纸车仍左偏。"
+  neighbor_han: "知道Day642上方袋口四针与下方绑带不同，亲自改高系并补三针，市场后门本次未再磨轮，自己留购物小票。"
+  child: "从母亲家庭通话得知菜车有布带而纸车只有吸管木棒胶带，同一左偏症状不能照搬原因。"
+  xiaoman: "只知普通邻里与孩子纸车有限状况，不得推旧案结论。"
+  center: "仅旧四楼授权安全限项，不知新荷街邻里或家庭私事。"
+  unresolved: "R-12现门根因与F014历史旧号旧信旧押金全渠道退付无跨源证。"

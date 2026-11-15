@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 790
+title: "菜车歪着走，袋口先松开"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "7d61b30eb77b060a62eb413dac394ecc2686a80a"
+source_draft_sha: "7d61b30eb77b060a62eb413dac394ecc2686a80a"
+reader_review: "reader_reviews/0790_7d61b30e.md"
+depends_on_chapter: 789
+depends_on_source_sha: "8b3bf7706f0a0dd68e77b17773e0694db16a83b8"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "789在790起稿前为正式Ready，依赖精确匹配，不存在临时前章SHA事实变动"
+timeframe: "Day655早—21点后"
+summary: >-
+  Day655上午新荷街韩姨买菜两轮菜车满载向左拽，母亲先协助安全卸两瓶水、土豆、青菜和鸡蛋；10:12院内硬地空车轻推未明显偏左，重装水与土豆时布袋左下方灰织带结头因负载下垂贴左轮发擦声。第777章上方袋口补四针仍牢、Day785韩姨本人以四针厚卡凸片试印双纸自持；今天下方另一捆带松结才与擦轮有关。韩姨自己取下下方旧结穿原布环绕高横杆系可解活结并沿布环补三针，母亲仅扶空袋与安全观察，纸胶带只临时标记。韩姨照平日物品载重院内原地去回两次无擦，午后又经市场后门石板路实际慢行，14时回报本次不咬带但路仍颠，不宣称整车长期机械合格或轴承无问题；本人持购物小票记改动，母亲小本子只留有限结果。傍晚晓漫及孩子电话里纸车仍往左偏，红七和有角轮未剪；孩子提出是否同有织带，获提醒纸车仅吸管木棒胶带不能移用菜车根因，自己保留三种路线和复测决定权。夜间中心仅得仁合里旧四楼闭锁双封受控隔离Day536撤清运及禁返住限项，R-12/F014历史旧案无跨源新证。
+meaningful_state_changes:
+  - "韩姨自己从负载对照发现菜车下方灰织带擦左轮，改系高处可解结并补三针、院内及市场后门真试无擦，自持车及小票。"
+  - "孩子认识到同样左偏不等于纸车与菜车同一原因，仍保留自己的红七有角轮纸车与多条路线。"
+knowledge_updates:
+  - "韩姨与母亲仅知满载时下方灰带摩擦及本次有限消除，未断言轴轮机械永久安全；孩子知道纸车无菜车织带，仍左偏。"
+  - "夏宁与夜间中心只知旧四楼授权限项，不知新荷街邻里修车、儿童个人纸车记录。"
+relationship_updates:
+  - "韩姨主导自己菜车的系结、补缝、路测与小票归属，母亲只提供观察和安全协助，不获代修与钥匙授权。"
+foreshadowing_updates:
+  - "Day655私人菜车修整与纸车类比不构成仁合里F014旧联系号旧信本人收讫旧押金全渠道真退、R-12现门根因、七号箱五楼旧卷新证。"
+ending_state: "Day655夜母亲仍合法真住新荷街，青白碗与个人单碗双碗作品归自己；韩姨独持高结加三针的菜车与购物小票，当前试走无擦而长效未知；孩子自持红七角轮左偏纸车和不同路由，旧仁合里四楼禁返住及F014/R-12未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "7d61b30eb77b060a62eb413dac394ecc2686a80a", final_draft_sha: "7d61b30eb77b060a62eb413dac394ecc2686a80a", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "reader_keep_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3393
