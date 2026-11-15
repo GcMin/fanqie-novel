@@ -8949,3 +8949,18 @@ combined_audit_chapter_775_20261115:
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
 
+combined_audit_chapter_776_20261115:
+  chapter: 776
+  original_sha: "a70084bb615327f678598d60932d200dc81478b3"
+  source_sha: "a77721e44710947a551e7c9e4a2545d5f219310c"
+  original_review: reader_reviews/0776_a70084bb.md
+  final_review: reader_reviews/0776_a77721e4.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  stage_a_changes: "correct_FrontMatter_char_count_3324_to_actual_3342_only"
+  body_revisions: 0
+  predecessor_ready_sha: "6ed7c17fcc0805baf7ee51e6330cf83aaeed8804"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main

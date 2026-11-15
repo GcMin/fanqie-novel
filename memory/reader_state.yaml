@@ -10096,3 +10096,27 @@ combined_audit_chapter_775_20261115:
   dependency_status: verified_ready_compatible_body
   structural_gate: exact_candidate_ci_required_before_main
 
+combined_audit_chapter_776_20261115:
+  chapter: 776
+  title: "水表记的是两段日子"
+  source_path: chapters/draft/0776.md
+  original_source_sha: "a70084bb615327f678598d60932d200dc81478b3"
+  original_review_path: reader_reviews/0776_a70084bb.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "a77721e44710947a551e7c9e4a2545d5f219310c"
+  review_path: reader_reviews/0776_a77721e4.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  char_count: 3342
+  body_revisions: 0
+  metadata_revision: correct_3324_to_3342
+  depends_on_chapter: 775
+  predecessor_ready_sha: "6ed7c17fcc0805baf7ee51e6330cf83aaeed8804"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main

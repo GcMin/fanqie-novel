@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 776
+title: "水表记的是两段日子"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "a70084bb615327f678598d60932d200dc81478b3"
+source_draft_sha: "a77721e44710947a551e7c9e4a2545d5f219310c"
+initial_reader_review: "reader_reviews/0776_a70084bb.md"
+reader_review: "reader_reviews/0776_a77721e4.md"
+depends_on_chapter: 775
+depends_on_source_sha: "6ed7c17fcc0805baf7ee51e6330cf83aaeed8804"
+dependency_status: verified_exact_ready_blob
+timeframe: "Day641早—Day642晨"
+summary: >-
+  Day641母亲仍真住新荷街，Day640普通清沟有责复位且Day641通路正常，收本户91.40元跨住期水费待核纸并含无据便利服务限制旧句，未实际停水。Day634签租18:30起时双方抄表264.3m³，Day640同表例抄266.1m³差1.8m³，按本户合同新期6.30元。原合计另含更旧账期85.10元业主账户结转，不能自动划给新租客。Day64110:05钟女士电话、11:27到物业，按业主渠道实际付85.10元、许桐后台核入账与旧栏归零；母亲仅付新期6.30元且实际收讫，取得本户两份分项凭据。物业撤本户无据限制性旧模板用语并保存原纸作为留痕，其他房号待有权主管核查。韩姨上午只见纸下午仅知分期已说清，晓漫只知道母亲主动告知的本人6.30元和业主旧结转真付，无人得到旧租客或业主私账；母亲把水费与旧蓝票盒、仁合里旧案分开。21:21夏宁只收旧仁合里安全限项；Day642晨两笔分账仍可查。Day639邮政错格反馈未结，仁合里旧屋R-12/F014仍无跨源证。
+meaningful_state_changes:
+  - "91.40元合计拆为业主旧期85.10元真付核销与新租期6.30元本人真付收讫，各有分项凭据。"
+  - "本户无根据的服务限制旧模板语句实际撤回且有更正留痕，不替其他房号宣告修复。"
+knowledge_updates:
+  - "母亲知Day634/640同表264.3至266.1m³及本期合同费用，知道本户两笔已收讫但不知旧租客原合同最终分责。"
+  - "钟女士核业主旧期，许桐核本户分期及旧模板；晓漫和韩姨仅获受限信息，夏宁只知旧案限项。"
+relationship_updates:
+  - "母亲与钟女士基于租约与抄表真核、分别付清而非简单要求租客垫旧期；晓漫建议将来考虑扣费，母亲决定先观察结算期。"
+foreshadowing_updates:
+  - "普通新荷街缴水费不能证明历史仁合里F014旧号旧信旧押金最终退付，也不证明R-12终签门型Day577擦响根因或2019旧卷。"
+  - "自寄明信片质量反馈仍只受理，其它户旧模板有无同样问题仍未核。"
+ending_state: "Day642晨新荷街两笔分期缴款各有实收凭证，母亲仍合法真住、钥匙和物件在位，仁合里旧门双封隔离禁返住与旧证未解。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "a70084bb615327f678598d60932d200dc81478b3", final_draft_sha: "a77721e44710947a551e7c9e4a2545d5f219310c", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "FrontMatter_count_3324_to_3342_only"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3342
