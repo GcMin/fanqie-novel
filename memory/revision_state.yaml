@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 777
-current_stage: chapter777_reader_and_content_QA_pass_exact_CI_required
-current_source_path: chapters/draft/0777.md
-current_source_sha: 4e6f2088db5a43c10ea13d7726902d16a683f8d0
-current_review_path: reader_reviews/0777_4e6f2088.md
+current_chapter: 778
+current_stage: chapter778_reader_and_content_QA_pass_exact_CI_required
+current_source_path: chapters/draft/0778.md
+current_source_sha: 42c20f83733e98f5854d1ba0ef0c546a1d2aa76b
+current_review_path: reader_reviews/0778_42c20f83.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter777_stageA_day640_gutter_date_fix_newSHA_reader_QA_pass
+last_action: chapter778_stageA_correct_effective_count_newSHA_reader_QA_pass
 last_action_date: "2026-11-15"
 last_error: null
-last_diff_summary: "Day642雨中昨天清沟改前天清沟，与第775章Day640有责作业日一致；新SHA Reader 0/0/2，正文3106有效字符，精确候选CI必需。"
+last_diff_summary: "仅修改Front Matter有效字符3221至3236，小说正文未动；新SHA Reader 0/0/2，精确候选CI必需。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: dc9286b93d5b2954b4e1a82bbe5ba7e231789e6a
+current_review_source_sha: 42c20f83733e98f5854d1ba0ef0c546a1d2aa76b
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -8977,6 +8977,22 @@ combined_audit_chapter_777_20261115:
   stage_a_changes: "Day642 gutter date corrected from yesterday to the day before yesterday Day640"
   body_revisions: 1
   predecessor_ready_sha: "7260797e34f2d95ef410ec67d8ae12beaa522bcf"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+ 
+combined_audit_chapter_778_20261115:
+  chapter: 778
+  original_sha: "191162278a974e81734673504278c52a76befbd5"
+  source_sha: "42c20f83733e98f5854d1ba0ef0c546a1d2aa76b"
+  original_review: reader_reviews/0778_19116227.md
+  final_review: reader_reviews/0778_42c20f83.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  stage_a_changes: "FrontMatter effective char_count corrected 3221 to 3236"
+  body_revisions: 0
+  predecessor_ready_sha: "e9cfd4bd2bdb105a32fdd792bfdc190f121fc643"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

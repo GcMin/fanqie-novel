@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 777
-last_reviewed_title: "布套只护纸，不替人改画"
-last_source_path: chapters/draft/0777.md
-last_source_sha: 4e6f2088db5a43c10ea13d7726902d16a683f8d0
-last_review_path: reader_reviews/0777_4e6f2088.md
+last_reviewed_chapter: 778
+last_reviewed_title: "她给那两只碗署了名"
+last_source_path: chapters/draft/0778.md
+last_source_sha: 42c20f83733e98f5854d1ba0ef0c546a1d2aa76b
+last_review_path: reader_reviews/0778_42c20f83.md
 last_reviewed_at: "2026-11-15"
 reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 776
-depends_on_source_sha: 7260797e34f2d95ef410ec67d8ae12beaa522bcf
+depends_on_chapter: 777
+depends_on_source_sha: e9cfd4bd2bdb105a32fdd792bfdc190f121fc643
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 7260797e34f2d95ef410ec67d8ae12beaa522bcf
+predecessor_current_source_sha: e9cfd4bd2bdb105a32fdd792bfdc190f121fc643
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10143,5 +10143,30 @@ combined_audit_chapter_777_20261115:
   stage_a_changes: "Day642 yesterday cleared drain corrected to the day before yesterday Day640"
   depends_on_chapter: 776
   predecessor_ready_sha: "7260797e34f2d95ef410ec67d8ae12beaa522bcf"
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+ 
+combined_audit_chapter_778_20261115:
+  chapter: 778
+  title: "她给那两只碗署了名"
+  source_path: chapters/draft/0778.md
+  original_source_sha: "191162278a974e81734673504278c52a76befbd5"
+  original_review_path: reader_reviews/0778_19116227.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "42c20f83733e98f5854d1ba0ef0c546a1d2aa76b"
+  review_path: reader_reviews/0778_42c20f83.md
+  reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  char_count: 3236
+  body_revisions: 0
+  stage_a_changes: "FrontMatter_char_count_3221_to_3236_only"
+  depends_on_chapter: 777
+  predecessor_ready_sha: "e9cfd4bd2bdb105a32fdd792bfdc190f121fc643"
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

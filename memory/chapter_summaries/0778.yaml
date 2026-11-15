@@ -1,0 +1,36 @@
+schema_version: 1
+chapter: 778
+title: "她给那两只碗署了名"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "191162278a974e81734673504278c52a76befbd5"
+source_draft_sha: "42c20f83733e98f5854d1ba0ef0c546a1d2aa76b"
+initial_reader_review: "reader_reviews/0778_19116227.md"
+reader_review: "reader_reviews/0778_42c20f83.md"
+depends_on_chapter: 777
+depends_on_source_sha: "e9cfd4bd2bdb105a32fdd792bfdc190f121fc643"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "777新稿修Day642与Day640清沟相对日期；778发生Day643且对原错误无依赖；778直接引用777最终Ready，无冲突"
+timeframe: "Day643早—Day643夜"
+summary: >-
+  Day643母亲已合法真住新荷街，仍保管两把房钥匙、住户卡、信箱短钥匙、甲乙箱青白碗蓝旧票盒与各自归属的版画。因第762章Day625已实际领回松桥分馆五日匿名展出的本人独作歪双碗，今日收到14:00—16:00开放桌短展通知，09:40电话核实原画自带、自守、只夹保护套、不强制摄影，自己买折叠背撑与夹子，未借外甥亲选的小木架或带邹姨共印画。13:42到分馆仅填现场展示登记，拒签分馆公开宣传摄影同意；在独立展签亲笔写本人姓名，不改原画，摆稳背撑。14:17男孩问为何双碗歪，母亲说明套印纸偏并允其母亲限定只拍本人画及公开展签、不拍旁人。15:26邹姨到场认可本人独作画的署名，合作花盆画仍待双方另行同意。16:03母亲亲自从开放桌取回画和展签，原馆不留存、未发平台宣传授权。晚间给晓漫和外甥看画与展签而不展示新租屋门牌；孩子亲署方窗船仍在Day638自己定的低柜内侧木架，旧匿名展签与新具名展签并存。Day639邮政错格反馈仍仅受理；仁合里四楼闭锁双封隔离、整屋禁返住、专业失锁守门及新开门许可未成，R-12与F014历史仍无跨源新证。
+meaningful_state_changes:
+  - "本人歪双碗原画从Day625已完成五日匿名展，推进为Day643半日真实开放桌具名署名展示并16:03当场本人收回。"
+  - "自主区分现场展示、机构对外宣传摄制与现场访客限定拍照，不将一次展示扩大成网络使用或永久馆藏权。"
+  - "旧作者栏空白展签保留，新具名展签也留本人保管；邹姨合作画、孩子署名和画位决定权未被代替。"
+knowledge_updates:
+  - "母亲知道此次展示与个人公开署名由自己作主，工作人员仅负责现场登记与正常提示，不能担保所有游客都不举手机。"
+  - "晓漫与孩子只在私聊里知道外婆为自己的歪双碗签展示卡、当日收回；夜间中心不获新住址与分馆拍摄信息。"
+relationship_updates:
+  - "邹姨知道母亲展示仅限本人独作，双方合作花盆桌沿仍需分别问授权；外甥的作品署名及位置优先由他自己决定。"
+foreshadowing_updates:
+  - "当代公开署名不证明仁合里F014历史旧号旧信或押金全渠道末端退付，也不推进R-12、七号箱五楼漏源及2019原卷。"
+  - "Day639普通邮政错格质量反馈只受理，先前五日匿名馆展与Day643新具名短展分立。"
+ending_state: "Day643夜母亲真住新荷街，本人歪双碗原画和新旧展签在甲箱上层附近本人保管，不在分馆；邹姨合作画及孩子低柜内侧亲签方窗船原位，馆方宣传摄影未获本人签字；普通邮政反馈未结，旧仁合里四楼仍封控禁返住、R-12/F014未证。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "191162278a974e81734673504278c52a76befbd5", final_draft_sha: "42c20f83733e98f5854d1ba0ef0c546a1d2aa76b", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "correct_FrontMatter_effective_count_3221_to_3236"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3236
