@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 812
+title: "卡片确实撤下了，左脚却没站住"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "80ca0af018ee7fb7ca91dbab2e6dc7ddf4d5330f"
+source_draft_sha: "991a7476f559f59a5637c7d8347541a75b7a7f60"
+reader_review: "reader_reviews/0812_991a7476.md"
+depends_on_chapter: 811
+depends_on_source_sha: "ffa1173073bd87be8de5c43a06410b92789be988"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "811原Draft 89cf9ca85与最终Ready ffa1173073bd87be8de5c43a06410b92789be988仅元数据不同、小说正文逐字一致；812已实比并重绑最终Ready精确blob"
+timeframe: "Day677星期一早至夜"
+summary: >-
+  Day677孩子进教室只见旧两张本班纸车展卡原位置换为纸船，不凭空位猜撤卡时间。课间老师拿出写Day674日期的牛皮纸信封，亲口确认Day674星期五放学后按期限取下Day666六圈说明副本及Day673裂带停测半卡，且在Day677两张实物交还孩子；半卡原水渍边保留，不擅给群转照片或延长展示。孩子向催问何时修好的同桌说明右边暂止退、左脚错位原因仍待查。放学后晓漫家原Day676有斜纹松底纸独封，新方格纸四角固定在废板上，设置不夹车轮的外部视线参照区分桥身相对左脚与整车相对桌面。甲三空桥两次暂未见错位，真车原右后有角轮悬空手拨一整圈本次未擦；平纸轻放第一回左右暂对位，第二回右垫未明显退而左脚相对桥横梁标点确见移动、纸上有细擦印，不能排除手势受力差和套口松紧因果；第三回与低坡都没做，持续左偏根因未证。红七纸车与Day653底补、Day661旧胶未改，33mm替轮仍独袋，Day666 A-B-A六圈、Day667课堂一趟、Day671另条件低坡两趟、Day675折边片及Day676斜纹纸分源保留。母亲新荷街只在门内给邻居看居中蓝碗试二、没有借出原纸和定稿，试一同白口及旧左下单碗仍独存，孩子私作不泄露给夏宁；旧四楼Day664第二夜02:15—02:24九分钟真空岗、Day665第三夜02:24晚交但岗点连续、后班只有分段材料，旧门12厘米口与亡夫饰板各封、水电隔离Day536撤清运禁返住无开门许可，R-12/F014及2019旧卷跨源缺证未变。
+meaningful_state_changes:
+  - "老师本人确认Day674旧两卡实撤且Day677原两副本实际交还，前两章不知道是否撤卡的悬点得实证。"
+  - "新方格底纸双参照第2回带车轻放发现左脚相对桥横梁确有错位，原因尚待分离受力/套口。"
+knowledge_updates:
+  - "孩子和老师知道班内旧两卡Day674已撤、Day677真回收；同桌只获孩子有限告知，不可群发。"
+  - "孩子和晓漫知道甲三空桥两次、原角轮悬空一圈、平纸两次及左脚相对桥身错位，不知实质成因或坡道新结果。"
+  - "母亲只家庭视频知有限实验，蓝碗试一试二同白口和旧单碗各由本人保管；夏宁仅得旧屋授权公事，不得新荷街与家人私作。"
+relationship_updates:
+  - "老师守本班展期并亲交还资料，孩子拒绝向同桌私传禁拍照片；晓漫监督分变量停止第三回，母亲允许邻居屋内有限看试二但不借纸。"
+foreshadowing_updates:
+  - "学校实撤展、孩子本次纸桥错位和私人蓝碗都不能提供R-12/F014/2019旧案跨源新证。"
+ending_state: "Day677学校两张旧卡实撤并回交已证，甲三左脚第二次带车轻放相对桥横梁错位但未定因、未做低坡；原车归悬空架，旧四楼禁返住和历史缺证维持。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "80ca0af018ee7fb7ca91dbab2e6dc7ddf4d5330f", final_draft_sha: "991a7476f559f59a5637c7d8347541a75b7a7f60", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "rebind_811_final_ready_and_correct_char_count_3316_to_3334"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3334

@@ -7,11 +7,11 @@
 - source_branch: main
 - source_main_sha_at_precheck: 422e9c7794a3e2d2717f48c13432706a61090834
 - depends_on_chapter: 811
-- depends_on_source_sha: 89cf9ca85c5f166fcfd8b65babaf894b39452cfe
-- dependency_status: provisional
-- plan_status: writer_draft_pending_independent_audit
+- depends_on_source_sha: ffa1173073bd87be8de5c43a06410b92789be988
+- dependency_status: verified_exact_ready_blob
+- plan_status: audit_content_QA_pass_exact_commit_CI_gate
 - target_effective_chars: 2600—3400（硬限2300—3800）
-- actual_effective_chars: 3316
+- actual_effective_chars: 3334
 
 ## 本章目标与POV
 有限第三人称，贴近晓漫照看的孩子。承接811章Day676甲三纸套右垫暂被硬片挡住、第二次平纸轻放时左桥脚相对轮廓错位却不能排除手放歪与纸面干扰。今日把学校两张限期卡去向从未核推进为真实回收；以双参考分清整车移位与左桥脚相对桥身移位，不称修直。
@@ -31,10 +31,10 @@ Day677周一旧两卡展示许可已于Day674到期，实际是否撤回待老�
 学校到期两卡由老师确认Day674实际撤回，Day677原副本交还孩子，排除了未确认撤展的悬点；受控平纸测试中新发现左脚相对桥身标点会移动，区别整车手放歪但不能排除力量差异，原车左偏原因、坡道承载仍未知。母亲拒绝向邻居借出原版画作品的实际决定。
 
 ## Canon、人物知识及伏笔
-第811章仍处draft，正文Git Blob SHA 89cf9ca85c5f166fcfd8b65babaf894b39452cfe，本章只作provisional依赖；独立Audit须对811正式版本核衔接，不当作正式Canon。学校展示期限Day674星期五不能延展，Day677老师口述是本章新增证据。右后角轮、红七、Day653补片、Day661旧胶、33mm替轮袋、Day666六圈、Day667课堂一次、Day671新坡两次、Day672旧裂带、Day674纸套和Day675止退舌分存且保持。旧四楼Day664第二夜02:15—02:24九分钟实缺与Day665第三夜迟交却连续分别成立，后续班只分段核查；门闭锁12cm口与亡夫饰板双封、水电受控隔离Day536撤清运禁返住无新入户许可。R-12现门型Day577擦响、F014旧号旧信旧押金实收实退、七号箱五楼和2019旧卷没有跨源新证；不推F008/M004/M005结论。夏宁只知授权旧屋安全限项，不知新荷街、孩子纸车与蓝碗。
+第811章现已正式Ready，正文Git Blob SHA ffa1173073bd87be8de5c43a06410b92789be988，本章已经独立核对811原Draft与最终Ready正文逐字相同，仅前章Front Matter修订与ready状态变化；本章重绑最终Ready的准确Git Blob。学校展示期限Day674星期五不能延展，Day677老师口述是本章新增证据。右后角轮、红七、Day653补片、Day661旧胶、33mm替轮袋、Day666六圈、Day667课堂一次、Day671新坡两次、Day672旧裂带、Day674纸套和Day675止退舌分存且保持。旧四楼Day664第二夜02:15—02:24九分钟实缺与Day665第三夜迟交却连续分别成立，后续班只分段核查；门闭锁12cm口与亡夫饰板双封、水电受控隔离Day536撤清运禁返住无新入户许可。R-12现门型Day577擦响、F014旧号旧信旧押金实收实退、七号箱五楼和2019旧卷没有跨源新证；不推F008/M004/M005结论。夏宁只知授权旧屋安全限项，不知新荷街、孩子纸车与蓝碗。
 
 ## Continuity Precheck
-读取最新main SHA 422e9c7794a3e2d2717f48c13432706a61090834，published最高159且已确认0153.md在其中，ready最高809，draft最高811；812在三目录均不存在。已读必需Bible与人物、ARC-054、人物/关系/知识/世界状态、伏笔与近期时间线、现有最新十章摘要0800—0809、近五章全文0807—0811及811前章精确Blob。810—811未审定，811仅为临时参考。只新建详细计划和草稿，不更新旧章或Memory，不进入任何审核发布阶段。
+读取最新main SHA 422e9c7794a3e2d2717f48c13432706a61090834，published最高159且已确认0153.md在其中，ready最高809，draft最高811；812在三目录均不存在。已读必需Bible与人物、ARC-054、人物/关系/知识/世界状态、伏笔与近期时间线、现有最新十章摘要0800—0809、近五章全文0807—0811及811前章精确Blob。810—811已有独立Reader/QA并已按精确候选CI正式放行Ready，811原稿与Ready小说正文一致；当前812依赖已重绑。只新建详细计划和草稿，不更新旧章或Memory，不进入任何审核发布阶段。
 
 ## 结尾承接
 学校两卡真实收回，甲三左脚在第二次带车轻放相对桥身移位且根因未定；取消第三次与低坡，下章优先分离左脚套口和受力条件。

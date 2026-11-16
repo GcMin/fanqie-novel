@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 811
-last_reviewed_title: "桥脚多了挡片，左边先挪了一格"
-last_source_path: chapters/draft/0811.md
-last_source_sha: fdc5472b93858ad774a38199f524ffcbbfbe362d
-last_review_path: reader_reviews/0811_fdc5472b.md
+last_reviewed_chapter: 812
+last_reviewed_title: "卡片确实撤下了，左脚却没站住"
+last_source_path: chapters/draft/0812.md
+last_source_sha: 991a7476f559f59a5637c7d8347541a75b7a7f60
+last_review_path: reader_reviews/0812_991a7476.md
 last_reviewed_at: "2026-11-17"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 810
-depends_on_source_sha: b6a54c3776d1e4e042e99c8ffd43c9a4b424a406
+depends_on_chapter: 811
+depends_on_source_sha: ffa1173073bd87be8de5c43a06410b92789be988
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: b6a54c3776d1e4e042e99c8ffd43c9a4b424a406
+predecessor_current_source_sha: ffa1173073bd87be8de5c43a06410b92789be988
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10865,6 +10865,26 @@ combined_audit_chapter_811_20261117:
   predecessor_original_draft_sha: "3111a8020003d5f521866db2d6137b37e82bf2e6"
   predecessor_ready_sha: "b6a54c3776d1e4e042e99c8ffd43c9a4b424a406"
   predecessor_body_delta: body_identical_frontmatter_only
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_812_20261117:
+  chapter: 812
+  original_source_sha: "80ca0af018ee7fb7ca91dbab2e6dc7ddf4d5330f"
+  original_review_path: reader_reviews/0812_80ca0af0.md
+  original_counts: {blocker: 0, major: 2, minor: 2}
+  source_sha: "991a7476f559f59a5637c7d8347541a75b7a7f60"
+  review_path: reader_reviews/0812_991a7476.md
+  pass_a: independently_rereviewed_new_SHA_before_canon
+  pass_b: independently_rereviewed_new_SHA_after_canon
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  body_revisions: 0
+  stage_a_fix: "rebind_811_finalReady_and_effective_chars_3316_to_3334"
+  predecessor_original_draft_sha: "89cf9ca85c5f166fcfd8b65babaf894b39452cfe"
+  predecessor_ready_sha: "ffa1173073bd87be8de5c43a06410b92789be988"
+  predecessor_body_delta: body_identical_metadata_only
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 811
-current_stage: chapter811_metadata_local_revision_new_SHA_reader_and_QA_pass_exact_candidate_CI_gate
-current_source_path: chapters/draft/0811.md
-current_source_sha: fdc5472b93858ad774a38199f524ffcbbfbe362d
-current_review_path: reader_reviews/0811_fdc5472b.md
+current_chapter: 812
+current_stage: chapter812_local_metadata_fix_new_SHA_reader_QA_pass_exact_commit_CI_gate
+current_source_path: chapters/draft/0812.md
+current_source_sha: 991a7476f559f59a5637c7d8347541a75b7a7f60
+current_review_path: reader_reviews/0812_991a7476.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter810_fix_char_count_and_chapter811_rebind_ready_810_then_independent_reader_QA
+last_action: chapter812_fix_predecessor_811_Ready_and_char_count_then_Rereview_QA
 last_action_date: "2026-11-17"
 last_error: null
-last_diff_summary: "810初审0/1/2仅字数元数据3077→3092，正文不改，新SHA0/0/2；811初审0/1/2仅provisional前章重绑810正式Ready且前章正文一致，新SHA0/0/2；两章内容QA通过，精确候选CI前不得主线放行。"
+last_diff_summary: "812初审0/2/2：811原临时依赖重绑正式Ready且前章正文一致；错误字数3316纠正3334；小说正文未改，新SHA独立Reader0/0/2与内容QA PASS，仍须候选精确CI成功才可main Ready。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: fdc5472b93858ad774a38199f524ffcbbfbe362d
+current_review_source_sha: 991a7476f559f59a5637c7d8347541a75b7a7f60
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -9547,6 +9547,22 @@ combined_audit_chapter_811_20261117:
   metadata_fix: "rebind_810_ready_blob_and_dependency_status"
   predecessor_original_sha: "3111a8020003d5f521866db2d6137b37e82bf2e6"
   predecessor_ready_sha: "b6a54c3776d1e4e042e99c8ffd43c9a4b424a406"
+  predecessor_body_delta: body_identical_metadata_only
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_812_20261117:
+  chapter: 812
+  original_sha: "80ca0af018ee7fb7ca91dbab2e6dc7ddf4d5330f"
+  final_draft_sha: "991a7476f559f59a5637c7d8347541a75b7a7f60"
+  review_path: reader_reviews/0812_991a7476.md
+  original_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  metadata_fix: "rebind_811_ready_and_correct_char_count_3316_to_3334"
+  predecessor_original_sha: "89cf9ca85c5f166fcfd8b65babaf894b39452cfe"
+  predecessor_ready_sha: "ffa1173073bd87be8de5c43a06410b92789be988"
   predecessor_body_delta: body_identical_metadata_only
   dependency_status: verified_exact_ready_blob
   content_qa: pass

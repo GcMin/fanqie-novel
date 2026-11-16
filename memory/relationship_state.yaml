@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 811
+last_updated_chapter: 812
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4601,3 +4601,12 @@ chapter_811_arc054:
   child_teacher: "孩子决定Day677周一在校向老师确认旧两卡是否真的撤下，而不让同桌发未经授权的换展照片；本日未获任何新展示许可。"
   mother_child: "母亲以版画墨量和压纸举例说明变量不能同时更换，孩子明确承认本人放车手势也可能影响结果，双方不将有限迹象定成最终结论。"
   mother_center: "母亲只按旧受理渠道独查安全限项，不向夏宁透露新荷街门牌、私人试印和儿童纸车。"
+
+chapter_812_arc054:
+  chapter: 812
+  source_sha: "991a7476f559f59a5637c7d8347541a75b7a7f60"
+  child_teacher: "老师依Day674校内期限实撤旧两卡、以日期信封独存并在Day677实物交还；孩子不拍或转发受限材料，下一次展示需要重新正式获准。"
+  child_classmate: "同桌催问车何时修好与展卡有否被扔，孩子坚持本次仍只是有限实验、旧卡实归还且不得群发照片，支持下课看实物。"
+  xiaoman_child: "晓漫帮助分清整车相对底纸与左桥脚相对桥身两套参照，发现第二回擦纸印后不强求第三次、孩子自主停测。"
+  mother_child: "母亲尊重孩子独立验证，私下将蓝碗试二只给邻居看而非借原纸，家庭信息不传夜间中心。"
+  mother_center: "新荷街地址、校内信封、儿童纸车及私印均不在夏宁获授权的旧屋对公限项内。"
