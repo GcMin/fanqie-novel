@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 803
+last_updated_chapter: 804
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4535,3 +4535,11 @@ chapter_803_arc054:
   xiaoman_child: "晓漫监管剪刀和工具，允许孩子承认原线蹭花，不替他涂成准确毫米数；孩子自己决定定位卡是否能装原车仍须待测。"
   mother_han: "韩姨提供对淡色碗印的个人审美意见，母亲自主暂不选公开作品且不转赠原件；当天菜车没有过门槛新试。"
   mother_center: "夏宁继续只持本户获授权旧屋安全限项，不涉及纸轮、家庭印画及具体新住所。"
+
+chapter_804_arc054:
+  chapter: 804
+  source_sha: "3182319c5a75e550b48c802cfde2f6bd250db2d7"
+  mother_child: "母亲只在家庭视频按本次证据回应孩子，对新发现的套管相对位移不替其断言修直；新蓝碗两试/旧单碗由本人决定留存。"
+  xiaoman_child: "晓漫通过提醒测量工具干扰原车，支持儿童记录被挡原卡、夹坏首版与未做后栏，儿童自己提出下次可拆支撑。"
+  mother_han: "韩姨只归还浅盘，无推车过门新结论，双方不代对方追认维修。"
+  mother_center: "母亲只经原受理号查询旧四楼安全限项，不向夏宁透露私人新住所或作品。"

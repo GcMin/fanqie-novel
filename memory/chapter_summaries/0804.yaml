@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 804
+title: "卡片贴上车，先松的是轴套"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "3182319c5a75e550b48c802cfde2f6bd250db2d7"
+source_draft_sha: "3182319c5a75e550b48c802cfde2f6bd250db2d7"
+reader_review: "reader_reviews/0804_3182319c.md"
+depends_on_chapter: 803
+depends_on_source_sha: "2e9c602b34fa0c75a1474c3ebc34a817baa58767"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "803起稿前已正式Ready且804依赖Git Blob精确匹配，不存在旧SHA前章事实差异"
+timeframe: "Day669周日早晨—夜"
+summary: >-
+  Day669孩子在晓漫家将Day668备用轴方向甲乙丙卡首次尝试靠向红七原车右后轴端，受Day661折回的旧胶带挡住停止硬塞。另用透明废封皮与纸夹做车外观察窗，第一次夹太紧使纸盒侧壁变形，标作废并保留；宽垫第二版可对齐可手拨。真车从悬空架落平纸及轻托车尾时，后吸管套管端相对车盒外壁定位点有本次可见位移，后套管固定胶带外缘略翘，但木棒未见断裂、底补片未见整体撕开，旧线位置无法独立复原，未量毫米或确定左偏唯一原因。孩子暂不贴胶固定，不拆右后带角旧轮，不换33毫米新轮，不做新斜坡试跑，拟下次设计可拆支撑，固定前后记录后栏明确未做。Day666六落点、Day667班内独立一趟、Day668备用轴手拨与今日轻托分袋存，车顶红七原轮完整。母亲新荷街经家庭视频仅知上述限定观察，自己两张新版蓝碗试印筷尖同白口及旧左下单碗原作分存不外展；韩姨Day669仅还浅盘没推菜车过门。学校本班后墙仅一张副本至下周五。仁合里旧四楼第二夜九分钟真空岗与第三夜延交但有据连续分账，后班待核；旧屋闭锁双封水电隔离Day536撤清运禁返住无开门许可；R-12/F014及七号箱2019旧卷无跨源新证，夏宁只得授权安全限项。
+meaningful_state_changes:
+  - "从备用轴间隙试验转为真车后套管相对纸盒本次可见松动迹象，形成独立观察记录但未证明左偏因果。"
+  - "新造可拆外壁观察窗，保留首次夹瘪车壳的作废材料；决定加固前保留原状，固定后格明确未做。"
+knowledge_updates:
+  - "孩子与晓漫知道真车后套管本次落平纸和轻托会相对车盒移动，但历史原位、准确位移、左偏根因仍未知。"
+  - "母亲仅经家庭视频获本次有限观察；夏宁不知新荷街、私人纸车和版画信息。"
+relationship_updates:
+  - "晓漫保护儿童自己实验与拒绝硬装原卡的决定，母亲不替孩子把位移推成已经修直。"
+  - "母亲旧屋合法安全限项与家庭手作继续严格分源，不向中心扩散新住所和儿童信息。"
+foreshadowing_updates:
+  - "当代纸车轴套观察不提供F014旧联系号源头、旧信本人收讫、旧押金末端真退、R-12/Day577门体原因和2019原卷的新跨源证。"
+ending_state: "Day669夜原车红七与右后带角轮安回四轮悬空架，33毫米B轮与甲乙丙备用卡分袋，外壁观察窗取下，Day666六圈和Day667演示原纸各自保留；可拆支撑未实施。新旧蓝碗分存；旧四楼闭锁禁返住，后班未全证，历史缺证不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "3182319c5a75e550b48c802cfde2f6bd250db2d7", final_draft_sha: "3182319c5a75e550b48c802cfde2f6bd250db2d7", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "reader_keep_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3192

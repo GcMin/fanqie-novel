@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 803
-last_reviewed_title: "纸垫有了刻度，车仍没走直"
-last_source_path: chapters/draft/0803.md
-last_source_sha: 7d5584d23a1dc8ae12886e78a7488420ed9aba4f
-last_review_path: reader_reviews/0803_7d5584d2.md
+last_reviewed_chapter: 804
+last_reviewed_title: "卡片贴上车，先松的是轴套"
+last_source_path: chapters/draft/0804.md
+last_source_sha: 3182319c5a75e550b48c802cfde2f6bd250db2d7
+last_review_path: reader_reviews/0804_3182319c.md
 last_reviewed_at: "2026-11-16"
-reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha_after_metadata_rebind
+reviewer_mode: combined_audit_independent_pass_a_then_pass_b
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 802
-depends_on_source_sha: 0088f32d04a8cf86a9bd39a0a83d8e224ff83705
+depends_on_chapter: 803
+depends_on_source_sha: 2e9c602b34fa0c75a1474c3ebc34a817baa58767
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 0088f32d04a8cf86a9bd39a0a83d8e224ff83705
+predecessor_current_source_sha: 2e9c602b34fa0c75a1474c3ebc34a817baa58767
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10735,4 +10735,17 @@ combined_audit_chapter_803_20261116:
   predecessor_ready_sha: "0088f32d04a8cf86a9bd39a0a83d8e224ff83705"
   predecessor_body_delta: provisional_vs_ready_body_identical_metadata_only
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_804_20261116:
+  chapter: 804
+  original_sha: "3182319c5a75e550b48c802cfde2f6bd250db2d7"
+  final_draft_sha: "3182319c5a75e550b48c802cfde2f6bd250db2d7"
+  review_path: "reader_reviews/0804_3182319c.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  predecessor_ready_sha: "2e9c602b34fa0c75a1474c3ebc34a817baa58767"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
