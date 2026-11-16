@@ -17,3 +17,6 @@
 
 ## 结构门槛
 此 QA 报告及新 SHA Reader 不代替结构校验；必须精确候选Git提交经可信 CI 执行 `python -m publisher.check_local --repo .` 成功，再以 expected_sha、force:false 原子迁移 797、798。
+
+## 已完成的精确结构校验
+审查/Memory/计划/Ready 原子候选提交 `b124e803a9343c6a622c9d75ed6bf104c34a286b` 已在可信 GitHub Actions [43797998765](https://github.com/GcMin/fanqie-novel/actions/runs/43797998765) 精确检出并实际运行 `python -m publisher.check_local --repo .` 成功（`ok:true`，`ready_count:639`），之后以 `expected_sha`、`force:false` 原子更新 main。第798章本文与对应新 SHA Reader、内容 QA 的结果未因这次补记而改变；后续更新详细章纲及此审计注记须再次对精确提交运行结构检查。
