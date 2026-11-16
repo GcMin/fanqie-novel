@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 808
+title: "半张补充卡上墙，纸带仍碰着轮"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "d8bba62a1e8b3b69028e51ce8e232aba08032a51"
+source_draft_sha: "6009724a1906defe869156dd09549e0762d4b03c"
+reader_review: "reader_reviews/0808_6009724a.md"
+depends_on_chapter: 807
+depends_on_source_sha: "29340ef233e865babb5e7d7dd56fd593739ef93b"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "807已正式Ready且808精确依赖相同Git Blob，Day672三次完整第四次开裂与备带二号未上车等事实无临时版本变化"
+timeframe: "Day673星期四到晚上"
+summary: >-
+  Day673星期四孩子在学校希望把Day672第五版旧扣带三次完整拆合、第4次打开途中裂开停测的真实失败补充到本班后墙；老师纠正“拆四次”的累计误读与未试新带“更结实”的无依据措辞，在旧Day666六圈原说明副本旁批准加半张手写停测卡，仅本班至Day674本周五换展、不覆盖旧卡、不公开原材料照片或发送群。回家后已裂旧带仍停用封袋，备带一号仍无法扣住；二号原只在硬板空扣一次，本日又在第五版桥脚桌面无载扣合，但试靠红七原车时横梁未到止紧红线，手拨右后有角轮便碰新带回口，立即拆除未装定，未试承重或低坡。孩子画出从回口向轮子伸出的方向，计划未来比较后撤回口与桥脚滑移风险，不做第三折法，旧红七角轮、Day653底补片、Day661旧胶及33毫米新轮等原物不变。Day666六圈、Day667课堂一趟、Day671第五版两次低坡均仍左偏且独立归档。母亲新荷街蓝色居中碗试一试二同筷尖白口与旧左下单碗原纸分别归夹未再印，家庭视频只获孩子有限实车擦轮事实；夏宁只知旧四楼本人授权的安全限项，不知家庭私作与新住址。旧仁合里四楼Day664第二夜02:15—02:24九分钟真缺岗和Day665第三夜02:24晚交但持续守岗分账，第四夜后只有分段核查；双封闭锁水电隔离Day536撤清运禁返住且无开门许可，R-12末签/现门Day577根因、F014旧号旧信旧押金及七号箱五楼2019原卷均无新跨源证。
+meaningful_state_changes:
+  - "本班后墙在旧Day666六圈说明旁经老师批准新增半张Day672旧扣带停测卡，到Day674本周五换展为止，不扩大公开权限。"
+  - "备用带二号首次实车试靠发现右后有角轮擦新回口，在未装定、承重和坡道试验前停止，明确避让轮缘与防桥脚滑落需同时验证。"
+knowledge_updates:
+  - "孩子与晓漫知道本次右后角轮手拨会擦备带二号回口，不知道后撤避让与受载能否成立或左偏根因；老师同桌只知班内补充卡的受限结果。"
+  - "母亲仅经家庭视频知有限试靠未装定；夏宁仅获旧四楼授权安全限项，不知新荷街及家人私人创作。"
+relationship_updates:
+  - "老师以本班限期许可保护原卡和其他同学作品，孩子不冒称新带更结实；晓漫监督停测不代替设计，母亲不替孩子宣称已修好。"
+foreshadowing_updates:
+  - "班内实验展示、家里试靠及后夜分段安全进度都不构成R-12/F014历史旧号旧信旧押金或七号箱五楼2019原卷的跨源证据。"
+ending_state: "Day673夜班内两张分开展示卡合法至Day674本周五，家中旧裂带封存停用、备带二号未实车装定而有轮缘擦碰待改，原红七旧角轮车在四轮悬空架仍左偏；母亲蓝碗试一试二及旧单碗分存，仁合里四楼仍闭锁禁返住，第二夜缺岗与第三夜晚交连续分账后续班待核，R-12/F014旧证不足不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d8bba62a1e8b3b69028e51ce8e232aba08032a51", final_draft_sha: "6009724a1906defe869156dd09549e0762d4b03c", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "fix_school_display_deadline_Day673_nextFriday_ambiguity_to_Day674_thisFriday_and_correct_character_count"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3066

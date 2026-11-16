@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 807
-last_reviewed_title: "扣带裂开了，旧车一寸没动"
-last_source_path: chapters/draft/0807.md
-last_source_sha: 26fc06d2a80e8583372bdaad4b95611ff9d645e1
-last_review_path: reader_reviews/0807_26fc06d2.md
-last_reviewed_at: "2026-11-16"
+last_reviewed_chapter: 809
+last_reviewed_title: "让开右后轮，纸桥还没站稳"
+last_source_path: chapters/draft/0809.md
+last_source_sha: 385e046ccef8d8a4ba5b1c8d6b20e27930b57082
+last_review_path: reader_reviews/0809_385e046c.md
+last_reviewed_at: "2026-11-17"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 806
-depends_on_source_sha: 07bb421826aaa744307f1977e0eb7a47f996feef
+depends_on_chapter: 808
+depends_on_source_sha: efdc8373b9c8e30f8358ba6da6dafbf1fd825f5a
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 07bb421826aaa744307f1977e0eb7a47f996feef
+predecessor_current_source_sha: efdc8373b9c8e30f8358ba6da6dafbf1fd825f5a
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10787,4 +10787,44 @@ combined_audit_chapter_807_20261116:
   predecessor_ready_sha: "07bb421826aaa744307f1977e0eb7a47f996feef"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_808_20261117:
+  chapter: 808
+  original_source_sha: "d8bba62a1e8b3b69028e51ce8e232aba08032a51"
+  original_review_path: "reader_reviews/0808_d8bba62a.md"
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "6009724a1906defe869156dd09549e0762d4b03c"
+  review_path: "reader_reviews/0808_6009724a.md"
+  pass_a: new_sha_independent_review_before_canon
+  pass_b: new_sha_independent_review_after_canon
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  body_revisions: 1
+  stage_a_fix: Day673_nextFriday_ambiguous_Day681_to_Day674_thisFriday
+  metadata_fix: declared_effective_char_count_3054_to_actual_3066
+  qa_gate: pass
+  predecessor_ready_sha: "29340ef233e865babb5e7d7dd56fd593739ef93b"
+  predecessor_body_delta: exact_ready_sha_no_provisional
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_809_20261117:
+  chapter: 809
+  original_source_sha: "d60452a01812b8325dfe399256de1c6d11d5f8fc"
+  original_review_path: "reader_reviews/0809_d60452a0.md"
+  original_counts: {blocker: 0, major: 2, minor: 2}
+  source_sha: "385e046ccef8d8a4ba5b1c8d6b20e27930b57082"
+  review_path: "reader_reviews/0809_385e046c.md"
+  pass_a: new_sha_independent_review_before_canon
+  pass_b: new_sha_independent_review_after_canon
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  body_revisions: 1
+  stage_a_fix: Day674_display_expires_today_and_predecessor_808_real_body_deadline_delta_rebound
+  metadata_fix: declared_char_count_3561_to_real_3581
+  qa_gate: pass
+  predecessor_ready_sha: "efdc8373b9c8e30f8358ba6da6dafbf1fd825f5a"
+  predecessor_body_delta: real_two_phrase_change_nextFriday_to_thisFriday_in_808
+  dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

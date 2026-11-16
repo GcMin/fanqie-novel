@@ -6,17 +6,17 @@
 - date_in_story: Day674（星期五）
 - source_branch: main
 - depends_on_chapter: 808
-- depends_on_source_sha: d8bba62a1e8b3b69028e51ce8e232aba08032a51
-- dependency_status: provisional
+- depends_on_source_sha: efdc8373b9c8e30f8358ba6da6dafbf1fd825f5a
+- dependency_status: verified_exact_ready_blob
 - plan_status: writer_draft_pending_independent_audit
 - target_chars: 2600—3400有效字符（硬限2300—3800）
-- actual_effective_chars: 3561
+- actual_effective_chars: 3581
 
 ## 本章目标与POV
 以孩子在Day674拆分“轮缘净空”和“纸桥自身止退”的两项验证为核心的近距离第三人称，避免用新纸带在空载板上的扣合假代实车可靠性。家庭手作仍作为拥有自主权的普通生活，不连带夜间中心隐私。
 
 ## 开场、角色诉求与冲突
-Day673学校后墙原六圈说明副本加半张Day672裂口补充卡，均限本班至下周五；原车红七、右后有角轮、Day653底补片、Day661折回旧胶带不动。第五版旧扣带Day672裂而停用，备带一号扣不住，备带二号Day673在桌面空载扣合后试靠真车时回口擦右后轮而停止，横梁未到红止紧线，承重与坡道均未做。孩子想给右后轮让出转动空间，但向后藏回口又可能导致纸桥脚滑退；晓漫负责安全边界，不代理判断。
+Day673学校后墙原六圈说明副本加半张Day672裂口补充卡，均限本班至Day674（本周五）；原车红七、右后有角轮、Day653底补片、Day661折回旧胶带不动。第五版旧扣带Day672裂而停用，备带一号扣不住，备带二号Day673在桌面空载扣合后试靠真车时回口擦右后轮而停止，横梁未到红止紧线，承重与坡道均未做。孩子想给右后轮让出转动空间，但向后藏回口又可能导致纸桥脚滑退；晓漫负责安全边界，不代理判断。
 
 ## 关键Beats
 1. 星期五教室旧卡空白边沾水，教师有责仅吸干处理，不换展、不放大许可；同桌再提换角轮，孩子决定先查纸带轮位干涉。
@@ -37,7 +37,7 @@ Day673学校后墙原六圈说明副本加半张Day672裂口补充卡，均限�
 - R-12最后独立签认、现装门型Day577擦响根因、F014旧联系号旧信旧押金各渠道末端真退、七号箱五楼2019旧卷仍无新跨源证；不提前把个人手作并入异常机制或宣称M004/M005进展。
 
 ## Continuity Precheck（仅Writer）
-GitHub main的三目录最大章号808，published存在第153章；第808章仍是待审Draft，精确Git Blob `d8bba62a1e8b3b69028e51ce8e232aba08032a51`，故正文和本计划均标记 `depends_on_chapter: 808`、`depends_on_source_sha` 及 `dependency_status: provisional`，未视作正式Canon。承接Day673星期四到Day674星期五；学校许可到“下周五”非今日，Day673备带二号只完成试靠无承载，本章独立编号并存新旧条件。
+GitHub main的三目录最大章号808，published存在第153章；第808章原Draft `d8bba62a1e8b3b69028e51ce8e232aba08032a51` 已经审核修订校内许可期限为Day674本周五，两处小说正文有真实措辞变化，最终Ready Blob `efdc8373b9c8e30f8358ba6da6dafbf1fd825f5a`；本章已经比较原稿和正式Ready的事实差异，依赖改绑正式Ready SHA 且标记 `verified_exact_ready_blob`。承接Day673星期四到Day674星期五；学校许可只到Day674今日，本章老师不续展或虚报已撤卡，Day673备带二号只完成试靠无承载，本章独立编号并存新旧条件。
 
 ## 结尾与承接
 今日轮缘净空在有限悬空转动中进展，右垫后退留下下一章必须独立解决的止退问题；原车未做新落桌或滑坡。学校旧两卡仍按既有授权展示，夜间中心旧案仍不得虚报关闭。正文待独立Audit审核，不执行Reader/QA/Memory/Publish Gate。

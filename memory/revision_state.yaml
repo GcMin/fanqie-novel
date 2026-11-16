@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 807
-current_stage: chapter807_reader_QA_pass_no_revision_exact_CI_required
-current_source_path: chapters/draft/0807.md
-current_source_sha: 26fc06d2a80e8583372bdaad4b95611ff9d645e1
-current_review_path: reader_reviews/0807_26fc06d2.md
+current_chapter: 809
+current_stage: chapter809_stageA_complete_new_SHA_reader_QA_pass_exact_CI_required
+current_source_path: chapters/draft/0809.md
+current_source_sha: 385e046ccef8d8a4ba5b1c8d6b20e27930b57082
+current_review_path: reader_reviews/0809_385e046c.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter807_reader_QA_pass_without_revision
-last_action_date: "2026-11-16"
+last_action: chapter809_stageA_fix_predecessor_real_body_delta_and_school_deadline_then_reader_QA_pass
+last_action_date: "2026-11-17"
 last_error: null
-last_diff_summary: "第807章精确依赖806正式Ready，独立Reader 0/0/2 keep/none，正文0修、独立QA PASS、长期Memory同步，待候选精确结构CI。"
+last_diff_summary: "第809章原稿0/2/2：校内许可延期及引用808旧SHA；Stage A更正Day674今日截止并将依赖重绑808最终Ready真实两处正文变化，字数3581，新SHA独立Reader0/0/2与QA通过，候选CI待执行。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 26fc06d2a80e8583372bdaad4b95611ff9d645e1
+current_review_source_sha: 385e046ccef8d8a4ba5b1c8d6b20e27930b57082
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -9487,6 +9487,37 @@ combined_audit_chapter_807_20261116:
   rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
   body_revisions: 0
   predecessor_ready_sha: "07bb421826aaa744307f1977e0eb7a47f996feef"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_808_20261117:
+  chapter: 808
+  original_sha: "d8bba62a1e8b3b69028e51ce8e232aba08032a51"
+  final_draft_sha: "6009724a1906defe869156dd09549e0762d4b03c"
+  initial_review_path: reader_reviews/0808_d8bba62a.md
+  final_review: reader_reviews/0808_6009724a.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  stage_a_changes: "将Day673星期四口中的下周五改为本周五Day674共2处并将字数校正3066；同步详细章纲"
+  predecessor_ready_sha: "29340ef233e865babb5e7d7dd56fd593739ef93b"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_809_20261117:
+  chapter: 809
+  original_sha: "d60452a01812b8325dfe399256de1c6d11d5f8fc"
+  final_draft_sha: "385e046ccef8d8a4ba5b1c8d6b20e27930b57082"
+  initial_review_path: reader_reviews/0809_d60452a0.md
+  final_review: reader_reviews/0809_385e046c.md
+  original_counts: {blocker: 0, major: 2, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  stage_a_changes: "正文Day674教师话语改为仅展到今天；依赖重绑808Ready SHA并确认808原始稿与终版两处展期事实文本实际改变，校正字符数3581，章纲同步"
+  predecessor_ready_sha: "efdc8373b9c8e30f8358ba6da6dafbf1fd825f5a"
+  predecessor_body_delta: two_material_deadline_phrase_revisions
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

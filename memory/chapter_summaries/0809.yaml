@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 809
+title: "让开右后轮，纸桥还没站稳"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "d60452a01812b8325dfe399256de1c6d11d5f8fc"
+source_draft_sha: "385e046ccef8d8a4ba5b1c8d6b20e27930b57082"
+reader_review: "reader_reviews/0809_385e046c.md"
+depends_on_chapter: 808
+depends_on_source_sha: "efdc8373b9c8e30f8358ba6da6dafbf1fd825f5a"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "808原Draft与正式Ready小说正文两处校内限展日期从Day673下周五改成Day674本周五，属于真实事实措辞变更；809已核差异并将Day674老师话语纠为今日到期，依赖重绑最终Ready SHA"
+timeframe: "Day674星期五放学前至夜"
+summary: >-
+  Day674星期五孩子看见本班后墙Day666旧六圈卡与Day673新添Day672旧扣带失败半卡，值日生水盆溅到空白纸角，老师只用干纸吸走水而未替换原纸；明确两卡授权仅展到当天Day674、换展照原计划办理，孩子没擅加新试验第三张卡。回家孩子在晓漫监督下保留原红七右后有角轮、Day653底补片、Day661旧胶及旧纸桥材料，使用不夹壳的临时透明片粗观右后轮整圈扫过范围，第一次片过近碰轮失败，改用纸条支点悬空看片而以宽弧虚线标非精确轮位。不动原角轮，先把备带二号回口向车尾后藏，悬空手拨未即擦但横梁未到红止紧线且右脚滑；不勒原车改做仅在桥右脚的可拆纸袖套，第一只狭缝过近裂开留废件，第二只宽边套后有剪后游离纸毛导致短暂停查，去毛后独立重试：悬空缓转旧轮两整圈未见擦回口，同时右脚宽垫向后退。孩子如实记本次轮缘净空但止退未验证，未做平纸承重或低坡，不断言左偏根因；旧六圈、Day667单次示范、Day671另两次坡道偏左、Day672扣带寿命及Day673擦轮记录各自分存。母亲新荷街两蓝色居中碗试一试二原白口与旧单碗独存，只经家人视频获本日有限实验结果。夏宁只收旧仁合里四楼授权限项，Day664第二夜02:15—02:24九分钟实空岗、Day665第三夜虽晚交但岗点连续各自成立，第四夜以后仅分段核查；旧屋双封闭锁水电隔离Day536撤清运禁返住无再开门许可，R-12/F014及七号箱五楼2019旧卷缺跨源新证。
+meaningful_state_changes:
+  - "右后角轮粗扫动范围经无夹片观察成非精确虚线；新后藏回口套调整后空载缓转原轮两圈本次无明显擦碰，但右纸桥垫片出现后退迹象。"
+  - "孩子明确将轮缘净空与桥脚止退分开检验，首纸套开裂废件及未承重、未跑坡仍如实记录；校内展示授权到Day674当天结束但没有假写换展已经执行。"
+knowledge_updates:
+  - "孩子与晓漫只知透明片视差、首套破裂和改套后悬空两圈无明显擦碰且右垫后退，无法据此确认长期避轮、落桌承重、坡道可靠性或左偏唯一原因。"
+  - "老师同学只知班内展示权限到当日及有限历史失败，母亲仅知家里自愿视频内容，夏宁不掌握家人实验/住所。"
+relationship_updates:
+  - "老师帮助保护湿到空白边的旧卡且坚持按授权换展，孩子不借此加第三张；晓漫用前次夹瘪车壳的经验阻止孩子强勒纸桥，母亲不代替给出方案。"
+foreshadowing_updates:
+  - "儿童纸车净空与止退实验不为R-12/F014历史旧号旧信旧押金末端退付和七号箱五楼2019原卷提供跨源证。"
+ending_state: "Day674夜校内两卡本周五展示期限届满、实际换展未在正文被确认；红七右后角轮原车回四轮悬空架，后藏回口套悬空两圈本次无擦但右脚垫片退位，未承重与新坡道，孩子下一步拟自行做可拆止退。母亲蓝碗两试同白口、旧单碗分存；旧四楼仍闭锁禁返住，夜岗二夜缺三夜有据晚交、后班待核，R-12/F014等历史缺证不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "d60452a01812b8325dfe399256de1c6d11d5f8fc", final_draft_sha: "385e046ccef8d8a4ba5b1c8d6b20e27930b57082", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "correct_Day674_original_display_permission_end_and_rebind_808_finalReady_after_real_novel_body_deadline_change"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3581
