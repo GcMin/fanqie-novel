@@ -1,0 +1,39 @@
+schema_version: 1
+chapter: 814
+title: "甲三收进纸盒，车还留在架上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "92552c08e673bd17a1d452d7b1eb3c490ea282bc"
+dependency_rebind_sha: "83fd8c2fce25bd17e143825bd48c30ff060bede2"
+source_draft_sha: "59c6e7b5e187d89f0a33273f2b09263f78364ce0"
+reader_review: "reader_reviews/0814_59c6e7b5.md"
+depends_on_chapter: 813
+depends_on_source_sha: "92814dbd9af8291f32636dbf915c1e941e487ee5"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "813最终Ready正文与最终Draft逐字一致，依赖SHA精确匹配；本章仅标题元数据修订"
+timeframe: "Day679星期三早至夜"
+summary: >-
+  Day679星期三，孩子复看Day678三张照片，发现托纸口袋遮住折口一部分，照片无法量出张缝变化。晓漫提醒先检验观察工具。孩子用废纸折成假左脚、两条短线和透明文件封皮旧划痕演示视角变化；仅改变观察位置，短线就像接近或错开，台灯影子也会让折口看起来更开。宽观察窗只在假脚上做视差演示，标为暂停，不套回甲三、不新增加载；静置甲三仅见旧白痕，形成日期未知，不压平。孩子把继续寻找原因与继续使用甲三托车分开，正式将甲三从待查改为停止用作原车支撑。Day672第五版旧扣带在拆合途中裂开、Day675反向止退舌两次平纸轻放后翘边、甲三右侧暂挡而左折口轻载张缝，三种失效各自留样，没有统称断裂。甲三、硬横片和两只观察窗放入平底纸盒分隔保存，旧试验原纸与假脚视差纸分别记日；红七原车继续四轮悬空架，右后旧角轮、Day653底补片、Day661旧胶与33毫米替轮不动，Day666六圈、Day667课堂一次、Day671低坡两趟不添新数。孩子接受同桌周末三点后踢球的邀请，明确不带未修好的车去操场；同桌回应“你人来就行”。母亲在新荷街只用废纸练习蓝碗白口补线，不动原版、不称试三、不出借原纸；韩姨只看练习纸。母亲视频知道孩子停用甲三的决定，不将私事带入对公渠道。夏宁仍只知授权旧屋安全限项。Day664第二夜九分钟真实空岗、Day665第三夜晚交但连续、后夜分段待核分开；旧四楼闭锁双封、水电隔离、Day536撤清运后禁返住无新开门许可；R-12/F014/七号箱五楼与2019旧卷无新增跨源证。
+meaningful_state_changes:
+  - "孩子将甲三从待查改为停止用作原车支撑，明确区分寻找原因与继续使用风险件。"
+  - "观察窗与照片被验证存在视差/遮挡风险，下一件支撑件的三项安全条件明确写出但尚未制作。"
+  - "孩子确认周末踢球且不带纸车，私人生活不再被无尽实验占满。"
+knowledge_updates:
+  - "孩子与晓漫知道透明封皮视角与灯影可制造短线错位，照片被遮挡时不能量折口；甲三静置见旧白痕但形成日期未知。"
+  - "孩子与晓漫知道甲三停止用作原车支撑，不知道Day677错位与Day678张缝是否同因或原车左偏根因。"
+  - "同桌只知道孩子不带车去操场并接受周末踢球，不知道纸桥全部实验细节。"
+  - "母亲仅通过家庭视频知道甲三停用决定；夏宁只知授权旧屋安全限项，不知新荷街、纸车或蓝碗私作。"
+relationship_updates:
+  - "晓漫把停用与抹掉记录区分，帮助孩子保存失败件但不替他决定后续设计。"
+  - "孩子接受同桌只邀请本人踢球，关系从追问修车结果转向普通周末约定。"
+  - "母亲尊重孩子停用决定；自己也只在废纸上练线，不动原版、不让邻居意见代替选择。"
+foreshadowing_updates:
+  - "本章未新增旧屋历史证据；R-12/F014/七号箱五楼2019旧卷仍缺跨源证，M004/M005不升级。"
+ending_state: "Day679夜甲三、硬片与两只观察窗分隔收进平底纸盒，正式停用且只供保留观察；红七原车仍在四轮悬空架，未新增试验、未跑坡。孩子周末踢球不带车；母亲蓝碗仍未选版，旧屋闭锁禁返住，历史缺证不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "92552c08e673bd17a1d452d7b1eb3c490ea282bc", dependency_rebind_sha: "83fd8c2fce25bd17e143825bd48c30ff060bede2", final_draft_sha: "59c6e7b5e187d89f0a33273f2b09263f78364ce0", initial_counts: {blocker: 0, major: 1, minor: 2}, final_counts: {blocker: 0, major: 0, minor: 2}, stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, metadata_revisions: 2, reason: "rebind_813_exact_ready_blob_then_correct_title_paperbag_to_paperbox"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3288

@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 812
-current_stage: chapter812_local_metadata_fix_new_SHA_reader_QA_pass_exact_commit_CI_gate
-current_source_path: chapters/draft/0812.md
-current_source_sha: 991a7476f559f59a5637c7d8347541a75b7a7f60
-current_review_path: reader_reviews/0812_991a7476.md
+current_chapter: 814
+current_stage: chapter814_title_metadata_fix_new_SHA_reader_QA_pass_exact_commit_CI_gate
+current_source_path: chapters/draft/0814.md
+current_source_sha: 59c6e7b5e187d89f0a33273f2b09263f78364ce0
+current_review_path: reader_reviews/0814_59c6e7b5.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter812_fix_predecessor_811_Ready_and_char_count_then_Rereview_QA
+last_action: chapter814_rebind_813_Ready_fix_title_then_new_SHA_Rereview_QA
 last_action_date: "2026-11-17"
 last_error: null
-last_diff_summary: "812初审0/2/2：811原临时依赖重绑正式Ready且前章正文一致；错误字数3316纠正3334；小说正文未改，新SHA独立Reader0/0/2与内容QA PASS，仍须候选精确CI成功才可main Ready。"
+last_diff_summary: "814初审0/1/2：重绑813正式Ready SHA，标题纸袋更正为纸盒；正文未改，新SHA独立Reader0/0/2，Continuity/Style PASS，候选精确CI待执行。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 991a7476f559f59a5637c7d8347541a75b7a7f60
+current_review_source_sha: 59c6e7b5e187d89f0a33273f2b09263f78364ce0
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -9583,6 +9583,27 @@ combined_audit_chapter_813_20261117:
   metadata_revisions: 1
   stage_a_fix: "Front Matter and chapter plan effective char count 2977 to 2992"
   predecessor_ready_sha: "618c05bd92158370028c34953bb425fc895e6834"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_814_20261117:
+  chapter: 814
+  original_sha: "92552c08e673bd17a1d452d7b1eb3c490ea282bc"
+  dependency_rebind_sha: "83fd8c2fce25bd17e143825bd48c30ff060bede2"
+  final_draft_sha: "59c6e7b5e187d89f0a33273f2b09263f78364ce0"
+  initial_review: "reader_reviews/0814_83fd8c2f.md"
+  final_review: "reader_reviews/0814_59c6e7b5.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  retry_cycles: 0
+  recommendation: keep
+  required_action: none
+  body_revisions: 0
+  metadata_revisions: 2
+  stage_a_fix: "rebind 813 exact Ready SHA; title paperbag to paperbox"
+  predecessor_ready_sha: "92814dbd9af8291f32636dbf915c1e941e487ee5"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

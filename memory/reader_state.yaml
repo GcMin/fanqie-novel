@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 812
-last_reviewed_title: "卡片确实撤下了，左脚却没站住"
-last_source_path: chapters/draft/0812.md
-last_source_sha: 991a7476f559f59a5637c7d8347541a75b7a7f60
-last_review_path: reader_reviews/0812_991a7476.md
+last_reviewed_chapter: 814
+last_reviewed_title: "甲三收进纸盒，车还留在架上"
+last_source_path: chapters/draft/0814.md
+last_source_sha: 59c6e7b5e187d89f0a33273f2b09263f78364ce0
+last_review_path: reader_reviews/0814_59c6e7b5.md
 last_reviewed_at: "2026-11-17"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 811
-depends_on_source_sha: ffa1173073bd87be8de5c43a06410b92789be988
+depends_on_chapter: 813
+depends_on_source_sha: 92814dbd9af8291f32636dbf915c1e941e487ee5
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: ffa1173073bd87be8de5c43a06410b92789be988
+predecessor_current_source_sha: 92814dbd9af8291f32636dbf915c1e941e487ee5
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10904,6 +10904,27 @@ combined_audit_chapter_813_20261117:
   body_revisions: 0
   metadata_revisions: 1
   predecessor_ready_sha: "618c05bd92158370028c34953bb425fc895e6834"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_814_20261117:
+  chapter: 814
+  original_source_sha: "92552c08e673bd17a1d452d7b1eb3c490ea282bc"
+  dependency_rebind_sha: "83fd8c2fce25bd17e143825bd48c30ff060bede2"
+  original_review_path: "reader_reviews/0814_83fd8c2f.md"
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "59c6e7b5e187d89f0a33273f2b09263f78364ce0"
+  review_path: "reader_reviews/0814_59c6e7b5.md"
+  pass_a: independently_rereviewed_new_SHA_before_canon
+  pass_b: independently_rereviewed_new_SHA_after_canon
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_fix: "rebind 813 exact Ready SHA and correct title paperbag to paperbox"
+  body_revisions: 0
+  metadata_revisions: 2
+  predecessor_ready_sha: "92814dbd9af8291f32636dbf915c1e941e487ee5"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

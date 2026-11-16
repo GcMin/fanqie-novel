@@ -1,15 +1,15 @@
-# 第814章《甲三收进纸袋，车还留在架上》详细章纲
+# 第814章《甲三收进纸盒，车还留在架上》详细章纲
 
 - chapter: 814
 - volume: 6
 - arc: ARC-054
 - date_in_story: Day679（星期三）
 - source_branch: main
-- source_main_sha_at_precheck: 7027d7270ef7b4c52f438529dca29e7a564c4adb
+- source_main_sha_at_precheck: a81bf6ec7dce657fe175fad4022d01d863a435c5
 - depends_on_chapter: 813
-- depends_on_source_sha: 0674ad0019ead8a2362e5453826323de482c4fdd
-- dependency_status: provisional
-- plan_status: writer_draft_pending_independent_audit
+- depends_on_source_sha: 92814dbd9af8291f32636dbf915c1e941e487ee5
+- dependency_status: verified_exact_ready_blob
+- plan_status: audit_pass_ready_candidate
 - target_effective_chars: 2600—3400（硬限2300—3800）
 - actual_effective_chars: 3288
 
@@ -38,3 +38,20 @@ Day679，原红七右后有角旧轮、Day653底补片、Day661折回旧胶和33
 
 ## 结尾承接
 Day679夜甲三及观察窗分格封存，仅作旧物证；红七原车无新跑坡且继续左偏未解。下一章可从三个设计前提、同桌约定或母亲白口选择继续，但不得凭空声称甲三修复、正式展示或旧屋安全放行。
+
+
+## Audit / Reader / QA 结果
+
+- original_draft_sha: 92552c08e673bd17a1d452d7b1eb3c490ea282bc
+- dependency_rebind_sha: 83fd8c2fce25bd17e143825bd48c30ff060bede2
+- final_draft_sha: 59c6e7b5e187d89f0a33273f2b09263f78364ce0
+- initial_review: reader_reviews/0814_83fd8c2f.md（BLOCKER 0 / MAJOR 1 / MINOR 2）
+- final_review: reader_reviews/0814_59c6e7b5.md（BLOCKER 0 / MAJOR 0 / MINOR 2；keep / none）
+- revision: Stage A仅将Front Matter与本计划标题“纸袋”改为“纸盒”；正文0修改
+- predecessor_ready_sha: 92814dbd9af8291f32636dbf915c1e941e487ee5
+- predecessor_fact_delta: 813最终Ready与本章依赖精确匹配；813正文与最终Ready逐字一致
+- continuity_qa: PASS
+- style_qa: PASS
+- meaningful_state_change: PASS
+- historical_dependency_pairs: 137→138、139→140、142→143、146→147、147→148均已对照旧SHA与当前published正文；无本章新冲突
+- structural_gate: exact_candidate_CI_required_before_main
