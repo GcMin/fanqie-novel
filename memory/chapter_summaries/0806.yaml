@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 806
+title: "纸桥能上坡，车头还是偏左"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "ba50a526df802a1516c2195213d9b6f3b24a993c"
+source_draft_sha: "ba50a526df802a1516c2195213d9b6f3b24a993c"
+reader_review: "reader_reviews/0806_ba50a526.md"
+depends_on_chapter: 805
+depends_on_source_sha: "eda26eb0f4374e8ba53e79ff921877313d609e82"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "806精确依赖805正式Ready Git Blob，与Day670静态纸桥情况衔接，无待比较的旧前章草稿版本差异。"
+timeframe: "Day671星期二放学后至夜间"
+summary: >-
+  Day671孩子在晓漫家复核Day670纸桥原记录：无支撑A平纸2次套管可见错位，有第三版支撑B平纸2次未见明显错位，拟第三次桥脚滑落停；第四版右垫3次仅悬空拆装一次外翻且未上坡。今第四版垫片在落平纸前再次外翻即停，不算试坡；孩子用废包装纸在纸桥右脚做回口与外侧扣带，自成可拆第五版，过宽过紧两次试折均不触原车新胶。第一回装卸复位对齐，第二回横梁未达止紧红线记失败并重装，第三四回大致对齐但垫片留下折痕。晓漫重铺低斜板接车软纸及止挡后，Day671真正低坡两次放手滑行均偏左，停后纸桥和后套管参照未见肉眼明显位移但细小位移未知，不能认永久稳定或左偏唯一原因。坡道条件与Day666旧轮2新轮2旧轮2六次A-B-A不同，本日两落点另纸留存，不计Day667课堂或Day668备用轴或Day669外窗或Day670平纸。原车红七、右后角轮、Day653底补片、Day661折回旧胶带不改，33毫米替代轮独袋和失败件全留；孩子决定下次先查纸带折痕与拆装寿命，不急换轮。母亲新荷街蓝碗试一试二仍有同一白口、旧左下单碗另存不外展，学校后墙一份旧说明副本仅本班限至下周五，今日新记录未得更换许可。旧仁合里四楼第二夜Day66402:15—02:24九分钟真空岗、第三夜Day665晚交但持续值守分别有据，第四夜以后只分段待核；双封闭锁12厘米观察口与亡夫饰板、水电受控隔离Day536撤清运禁返住无新开门许可，R-12/F014和2019旧卷无跨源证，夏宁只知旧屋合法限项。
+meaningful_state_changes:
+  - "Day671第五版可拆纸桥首次完成真实低斜板两次滑行均左偏，比Day670静态支撑实质推进。"
+  - "纸带和右垫出现折痕且一次复位失准有据，孩子自行留档并决定下次先核拆装耐久。"
+knowledge_updates:
+  - "孩子与晓漫只知这两回桥和套管参照肉眼无明显错位但车仍左偏，细微位移与长期寿命、唯一致偏因未证。"
+  - "母亲仅通过家庭视频知本次有限结果；夏宁不知新荷街住址和儿童手工。"
+relationship_updates:
+  - "晓漫提醒止紧线和停测边界，孩子亲自决定不抹掉失败次数、不追求漂亮落点；母亲不代称成功。"
+  - "学校展示仍需老师监护双重许可，母亲蓝碗试印由本人决定保存。"
+foreshadowing_updates:
+  - "纸车新试坡、私人蓝碗与当代分段夜岗均不提供R-12、F014旧号旧信旧押金末端真退或2019原卷跨源新证。"
+ending_state: "Day671夜原车红七右后角轮仍左偏且归四轮悬空架，第五版及折痕垫片另袋，两次新坡道落点与旧六圈纸分存；旧屋禁返住、后夜待核、F014/R-12旧证不足不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "ba50a526df802a1516c2195213d9b6f3b24a993c", final_draft_sha: "ba50a526df802a1516c2195213d9b6f3b24a993c", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "reader_keep_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3321
