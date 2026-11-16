@@ -9567,3 +9567,22 @@ combined_audit_chapter_812_20261117:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_813_20261117:
+  chapter: 813
+  original_sha: "0674ad0019ead8a2362e5453826323de482c4fdd"
+  final_draft_sha: "125c45592b590a5d9541185f6e79a2d09f100a11"
+  initial_review: "reader_reviews/0813_0674ad00.md"
+  final_review: "reader_reviews/0813_125c4559.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  retry_cycles: 0
+  recommendation: keep
+  required_action: none
+  body_revisions: 0
+  metadata_revisions: 1
+  stage_a_fix: "Front Matter and chapter plan effective char count 2977 to 2992"
+  predecessor_ready_sha: "618c05bd92158370028c34953bb425fc895e6834"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main

@@ -9,9 +9,9 @@
 - depends_on_chapter: 812
 - depends_on_source_sha: 618c05bd92158370028c34953bb425fc895e6834
 - dependency_status: verified_exact_ready_blob
-- plan_status: writer_draft_pending_independent_audit
+- plan_status: audit_pass_ready_candidate
 - target_effective_chars: 2600—3400（硬限2300—3800）
-- actual_effective_chars: 2977
+- actual_effective_chars: 2992
 
 ## 目标及POV
 有限第三人称，以晓漫照看的孩子为主要视角。承接第812章在固定方格底纸上观察甲三左脚相对横梁错位，但受力与纸套松紧原因未定；本章以不碰原车的无载与小重量试验检验甲三桥左脚折口是否本身存在移动可能，同时避免把私作证据误写为原车持续左偏的唯一原因。
@@ -38,3 +38,19 @@ Day678星期二，学校旧两卡已经于Day674撤展并在Day677交回，学�
 
 ## 结尾承接
 孩子已封存今日无载与轻载分条件纸、左脚观察窗待用，不给原车试坡；下一章先核不干扰折口的重复观察方式与甲三是否应停用。
+
+
+## Audit / Reader / QA 结果
+
+- original_draft_sha: 0674ad0019ead8a2362e5453826323de482c4fdd
+- final_draft_sha: 125c45592b590a5d9541185f6e79a2d09f100a11
+- initial_review: reader_reviews/0813_0674ad00.md（BLOCKER 0 / MAJOR 1 / MINOR 2）
+- final_review: reader_reviews/0813_125c4559.md（BLOCKER 0 / MAJOR 0 / MINOR 2；keep / none）
+- revision: Stage A 仅修正 Front Matter 与本计划有效字数 2977 → 2992；小说正文 0 修改
+- predecessor_ready_sha: 618c05bd92158370028c34953bb425fc895e6834
+- predecessor_fact_delta: 812正式Ready与本章依赖SHA精确匹配；无临时前章事实差异
+- continuity_qa: PASS
+- style_qa: PASS
+- meaningful_state_change: PASS
+- historical_dependency_pairs: 137→138、139→140、142→143、146→147、147→148均已对照旧SHA与当前published正文；变化边界见独立QA报告
+- structural_gate: exact_candidate_CI_required_before_main

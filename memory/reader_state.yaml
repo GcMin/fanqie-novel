@@ -10888,3 +10888,22 @@ combined_audit_chapter_812_20261117:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
+combined_audit_chapter_813_20261117:
+  chapter: 813
+  original_source_sha: "0674ad0019ead8a2362e5453826323de482c4fdd"
+  original_review_path: "reader_reviews/0813_0674ad00.md"
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "125c45592b590a5d9541185f6e79a2d09f100a11"
+  review_path: "reader_reviews/0813_125c4559.md"
+  pass_a: independently_rereviewed_new_SHA_before_canon
+  pass_b: independently_rereviewed_new_SHA_after_canon
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_fix: "correct Front Matter and detailed plan effective chars 2977 to 2992"
+  body_revisions: 0
+  metadata_revisions: 1
+  predecessor_ready_sha: "618c05bd92158370028c34953bb425fc895e6834"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
