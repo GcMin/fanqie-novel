@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 814
-last_reviewed_title: "甲三收进纸盒，车还留在架上"
-last_source_path: chapters/draft/0814.md
-last_source_sha: 59c6e7b5e187d89f0a33273f2b09263f78364ce0
-last_review_path: reader_reviews/0814_59c6e7b5.md
-last_reviewed_at: "2026-11-17"
+last_reviewed_chapter: 815
+last_reviewed_title: "白口留在碗沿，原纸没有借出"
+last_source_path: chapters/draft/0815.md
+last_source_sha: eca3209fe1d35415071635751d715eafee09c1b8
+last_review_path: reader_reviews/0815_eca3209f.md
+last_reviewed_at: "2026-11-17T06:05:40+08:00"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 813
-depends_on_source_sha: 92814dbd9af8291f32636dbf915c1e941e487ee5
+depends_on_chapter: 814
+depends_on_source_sha: 38eb560fb17d3bc3466b7e60000388cc362e1462
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 92814dbd9af8291f32636dbf915c1e941e487ee5
+predecessor_current_source_sha: 38eb560fb17d3bc3466b7e60000388cc362e1462
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 

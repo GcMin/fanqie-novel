@@ -9,7 +9,7 @@
 - depends_on_chapter: 814
 - depends_on_source_sha: 38eb560fb17d3bc3466b7e60000388cc362e1462
 - dependency_status: verified_exact_ready_blob
-- plan_status: writer_precheck_complete
+- plan_status: audit_ready_candidate_ci_pending
 - target_effective_chars: 2600—3400（硬限2300—3800）
 - actual_effective_chars: 2824
 
@@ -68,3 +68,11 @@ Day680夜，母亲将描纸与试印分夹，标签写“白口暂留”，不�
 ## Writer Scope
 
 本章仅新增详细章纲与首稿。未修改既有章节、计划表、长期 Memory、卷/弧文件或其他角色文件；未执行 Editor、Reader、Revision、QA、Memory、Publish Gate 或平台发布。
+
+## Audit Result｜2026-11-17
+
+- Reader Review：`reader_reviews/0815_eca3209f.md`，绑定源 SHA `eca3209fe1d35415071635751d715eafee09c1b8`，Pass A → Pass B，0 BLOCKER / 0 MAJOR / 2 MINOR，keep / none。
+- 正文修订0；有效字数2824，Front Matter一致。
+- 独立 Continuity / Style / Meaningful QA：PASS；前章814 Ready SHA精确匹配。
+- Memory 与 chapter_plan.csv 已按本章正文同步；F014维持active，无新历史证据。
+- Ready候选结构校验必须等待 `audit/ready-0815` 精确提交的 publisher-check 成功后才合入main。

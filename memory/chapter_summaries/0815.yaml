@@ -1,0 +1,44 @@
+schema_version: 1
+chapter: 815
+title: "白口留在碗沿，原纸没有借出"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "eca3209fe1d35415071635751d715eafee09c1b8"
+source_draft_sha: "eca3209fe1d35415071635751d715eafee09c1b8"
+ready_blob_sha: "8867e81910a8b8a3550bc08643f5a5461d14ccbf"
+reader_review: "reader_reviews/0815_eca3209f.md"
+depends_on_chapter: 814
+depends_on_source_sha: "38eb560fb17d3bc3466b7e60000388cc362e1462"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "814正式Ready Blob与本章depends_on_source_sha精确匹配；本章无前章正文差异需要重绑。"
+timeframe: "Day680星期四早至夜"
+summary: >-
+  Day680星期四，母亲重新查看同一块软版印出的蓝碗试一、试二：试二减墨后重印，碗沿较清楚，但两张筷尖白口位置近似，压力没有量值，成因仍可能在刻版、上墨或压印。韩姨只在屋内看纸，没有借走原印。母亲用三张薄描纸分别比较停线、接线和留距短弧；接线虽补成完整碗沿，却抹平原版略歪的手工轮廓，短弧只作叠看。她把三张均标作描纸，不是印样，给试一、试二分别保留背签，旧左下单碗另夹，明确决定当前版先不补白口，但不把白口解释为刻意留白。活动室只询问桌子位置和展示规则，考虑的也只是单独练习稿；没有报名、没有新展示授权、不带原印。孩子在学校不带红七车，也不把实验记录变成展示卡；同桌只看了原三项条件并确认周六三点踢球。回家后孩子把下一步从继续制作纸桥改为先画不承载空架样，新增观察线不能被支撑件遮挡的要求；空架样未制作，未剪材料，未碰原车，未承重或跑坡。傍晚母亲按原授权渠道查询旧四楼，仍只有后续夜班分段核查；Day664第二夜九分钟真空岗与Day665第三夜晚交但连续分别保留，旧屋闭锁禁返住和历史缺证不变。
+meaningful_state_changes:
+  - "母亲把蓝碗白口从待修缺陷改为当前版暂留的明确选择；这只是创作决定，不是对白口成因的事实确认。"
+  - "三种描纸处理产生可比较的视觉结果，但没有改动软版、制作第三张正式印样或借出原印。"
+  - "活动室事项只推进到询问桌子位置与展示规则，尚未报名或取得展示授权。"
+  - "孩子把下一步从继续造桥改为先做不承载空架样，并补入观察线不得被遮挡的第四项要求；样件未制作、未测试。"
+  - "孩子确认周六三点踢球，不以纸车修复进度作为参加条件。"
+knowledge_updates:
+  - "母亲知道自己的试一、试二同白口及三种描纸比较结果；白口成因仍未知，旧左下单碗与两张试印分存。"
+  - "韩姨看见两张试印及三种描纸比较，只知道母亲暂不补线；没有借走原纸，也不知道白口真实成因。"
+  - "孩子与晓漫知道原三项支撑条件及新增观察线要求；空架样只是计划，没有制作或验证。"
+  - "同桌只看过原三项条件并知道孩子周六踢球，不知道甲三和家庭实验的详细资料。"
+  - "夏宁仍只知道母亲本人授权的旧四楼安全限项，不知道新荷街住址、儿童纸车或蓝碗私作。"
+relationship_updates:
+  - "母亲听取韩姨意见但不把她的审美判断当成结论，仍自行决定当前版暂留白口。"
+  - "晓漫帮助孩子补足观察线约束，但不替他制作或验证空架样。"
+  - "同桌把互动从追问修车转为周六踢球，孩子接受邀请且不带车。"
+  - "母亲与孩子各自保留作品和决定权，描纸、原印、旧单碗及纸车实验资料分开保存。"
+foreshadowing_updates:
+  - "F014保持active；旧屋夜班后续仍仅分段核查，没有新增跨源证据。"
+  - "R-12、F014旧号/旧信/旧押金末端实退及七号箱五楼与2019旧卷关系未获新证；M004/M005不升级。"
+ending_state: "Day680夜母亲将三张描纸与两张试印分夹，当前版标记白口暂留而非定稿；旧左下单碗独存，原印未借出、软版未改、没有第三张正式印样。孩子只保留不承载空架样的条件纸，新增观察线要求，未剪、未制作、未测试；红七原车仍在四轮悬空架。周六三点踢球已确认。旧四楼闭锁禁返住，后续夜班分段待核，历史缺证不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "eca3209fe1d35415071635751d715eafee09c1b8", final_draft_sha: "eca3209fe1d35415071635751d715eafee09c1b8", initial_counts: {blocker: 0, major: 0, minor: 2}, final_counts: {blocker: 0, major: 0, minor: 2}, stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, metadata_revisions: 0, reason: "no_blocker_or_major_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_pending}
+char_count: 2824

@@ -1,14 +1,14 @@
 schema_version: 1
 mode: split_roles
-observed_main: 39abb9425befea821a301916c4c786dced8a4f43
-last_completed_chapter: 814
+observed_main: cc6aaff4ec7beb22b22b12725305ed614d320ad0
+last_completed_chapter: 815
 current_chapter: null
-current_stage: no_pending_draft
+current_stage: ready_candidate_structural_CI_pending
 current_source_path: null
 current_source_sha: null
 creative_gate: pass
-publish_gate: ready
-blocker_type: none
-next_action: writer_create_815_when_due
-next_new_chapter_after_creative_pass: 815
-note: "缓存仅描述本次核查快照；Audit每轮从main目录和Git blob重新推导。当前813与814均已Reader/QA/结构校验并Ready；Writer仍只负责创建新章。"
+publish_gate: candidate_pending_structural
+blocker_type: structural_ci_pending
+next_action: audit_verify_815_candidate_then_writer_create_816_when_due
+next_new_chapter_after_creative_pass: 816
+note: "815 Reader与内容QA已通过，候选分支等待精确publisher-check；main未放行前Writer仍不得越过815创建816。"
