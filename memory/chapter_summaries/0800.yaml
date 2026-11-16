@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 800
+title: "接班晚了，守门的人没先走"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "9f677b25b4c7b43596eef1d14006f40ffb6643e5"
+source_draft_sha: "06c966b2e495d8618af65f341b7daf1292df2dde"
+reader_review: "reader_reviews/0800_06c966b2.md"
+depends_on_chapter: 799
+depends_on_source_sha: "70a15f62f028d7a27ea54abcdef8d9e524b85ce9"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "799原临时Draft与最终正式Ready小说正文逐字一致，仅交付元数据不同；本章依赖改绑正式Ready SHA，本文正文未修并针对新Blob独立Reader复审"
+timeframe: "Day665早—20时后，第三夜值守段为Day66420至Day66508:04"
+summary: >-
+  Day665母亲在新荷街见仁合里旧四楼第三夜灰色待核页，拒将灰栏直接涂绿。第799章确认前一夜02:15—02:24九分钟专业固定岗真实缺人，旧错误绿页纠正。10:11何工在原对公渠道说明第三夜原计划02:10交接，实际接班人02:21到四楼、02:24双人现场签交、前段02:26才离开；母亲要求补核完整夜班而非仅靠两人声称。14:47何工有责提供二段02:06一层领器材并非到四楼、02:19物业抽核前人仍守、02:21后人到位、02:24真双签、02:26前人离、07:58早班实核、08:04本夜结束等分源时点；第三夜固定点本次连续有人，但交接晚于计划、延时另计，不能追认第二夜九分钟空岗或预签后续班次。母亲仅将本户第三夜限项告知夏宁，旧屋闭锁禁返住无再开许可。午后晓漫与孩子把红七右后有角纸车自制悬空架搬到母亲新家，纸轮两个方向粗量约34毫米与31毫米，相差约3毫米且轴松仍可能影响测量，孩子原纸签“左前不擦。还会偏左。”留存，不剪原轮不宣称左偏已查原因，拟未来另做同尺寸替代纸轮比较但当日未实试。母亲将第799章新居中碗筷草图转软板，安全刻刀刻出筷尖浅口留版痕，18:12蓝色水洗颜料第一次薄滚印纸，尚湿未背签且不外展，旧左下单碗留白旧印纸原状不改。旧四楼12cm口与亡夫饰板分封、水电受控隔离Day536撤清运禁返住、R-12最终签现门型Day577擦响原因/F014旧号旧信旧押金及七号箱五楼漏源2019旧卷仍无历史跨源新证。
+meaningful_state_changes:
+  - "第三夜由灰色待核页有责确认固定岗连续覆盖，但02:10计划交班延至02:24实签，原前人延留至02:26；第二夜九分钟空岗仍独立记账。"
+  - "孩子测右后角纸轮两个方向约34与31毫米、仅暂立替代轮比较计划不改原轮不认左偏根因；母亲新居中碗从草图推进到带筷尖浅口的首张未干蓝色试印。"
+knowledge_updates:
+  - "母亲及何工知道第三夜后岗02:21才到四楼，但02:19物业抽核前岗仍在且02:24双签后02:26离开，属实守但交接延时；本人旧屋闭锁与历史疑点不变。"
+  - "晓漫与孩子仅知本人纸车两向约3毫米不圆差和原左偏，夏宁仅获本人旧屋限项未获纸车及新印细节。"
+relationship_updates:
+  - "母亲坚持物业有权原岗位凭据核第3夜，不让第3夜结果抹第2夜责任；孩子自己决定先不剪原有角轮、晓漫辅助记录，母亲对自己新印作品有独立自主决定。"
+foreshadowing_updates:
+  - "当代实岗延交及手作纸车尺寸/新版画不证明R-12末签现装门型Day577擦响原因、F014历史旧号旧信旧押金全渠道末端真退或2019旧卷跨源，不产生开门许可。"
+ending_state: "Day665晚母亲合法新荷街真住，旧四楼第三夜有责核连续值守但实际延交仍记录、第二夜缺岗仍成立，旧屋闭锁双封受控隔离禁返住；孩子自持红七有角左偏纸车与尺量记录及替代轮意向，母亲自持未干的新居中碗首印纸和旧左下留白单碗原印，R-12/F014未证不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "9f677b25b4c7b43596eef1d14006f40ffb6643e5", final_draft_sha: "06c966b2e495d8618af65f341b7daf1292df2dde", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "metadata_only_predecessor_ready_sha_rebind_then_new_sha_independent_reader"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3132

@@ -9,9 +9,9 @@
 - actual_effective_chars: 3132
 - count_method: Unicode去空白，小说正文不含Front Matter
 - depends_on_chapter: 799
-- depends_on_source_sha: 37c7a5c1cb6d372d2722884fbe9cccc16e01d60a
-- dependency_status: provisional
-- dependency_source_path: chapters/draft/0799.md
+- depends_on_source_sha: 70a15f62f028d7a27ea54abcdef8d9e524b85ce9
+- dependency_status: verified_exact_ready_blob
+- dependency_source_path: chapters/ready/0799.md
 
 ## Planner
 
@@ -37,5 +37,10 @@
 
 - 已读取GitHub main本轮基线 `eb3fb2c768a73f0db057c9b7d5d1e3ed0544fb16` 的AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md，相关bible与人物卡、现有卷纲及arc_current（部分旧文件未更新至ARC-054，以近期已核事实为准），当前长期人物/关系/知识/世界状态、F014线索与时间线、最近十章0789—0798摘要、最近五章0795—0799完整正文及计划表。没有读取历史reader_reviews。
 - GitHub main 的published/0153.md确实存在；published/ready/draft三个目录当前最高为0799，计划/草稿0800原本均不存在。本次仅新建800章。
-- 第799章目前仅在draft，Git Blob SHA为`37c7a5c1cb6d372d2722884fbe9cccc16e01d60a`；本章仅基于该确切临时版本，依赖状态为`provisional`。其关于Day664九分钟缺岗和第三夜开始的事实尚非审核完成Canon；日后若799修订影响衔接，交独立Audit核对，Writer不修改任何既有章。
+- 第799章目前仅在draft，Git Blob SHA为`70a15f62f028d7a27ea54abcdef8d9e524b85ce9`；本章仅基于该确切临时版本，依赖状态为`provisional`。其关于Day664九分钟缺岗和第三夜开始的事实尚非审核完成Canon；日后若799修订影响衔接，交独立Audit核对，Writer不修改任何既有章。
 - 本轮仅执行Planner、Continuity Precheck、Writer。未执行Reader、Revision、QA、Memory、Publish Gate或外部平台发布，待独立审核。
+
+## Audit dependency reconciliation｜2026-11-16
+- 起稿时所引第799章Draft Blob原为 `37c7a5c1cb6d372d2722884fbe9cccc16e01d60a`，Audit Reader双遍0 BLOCKER/0 MAJOR/2 MINOR，正文未修订；第799章正式Ready Blob为 `70a15f62f028d7a27ea54abcdef8d9e524b85ce9`，两版本小说正文逐字相同，只有Front Matter交付状态变化。
+- 本章仅将Front Matter与详细章纲依赖重绑为第799章实际Ready Blob，新稿正文0字变更；原Writer Precheck保留为写稿时历史记录，不把当时的provisional状态作为当前Canon。
+- 变更后的第800章Git Blob须重新独立Pass A再Pass B审查、内容QA、Memory与精确候选CI后才能进入Ready。
