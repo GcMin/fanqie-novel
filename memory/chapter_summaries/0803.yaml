@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 803
+title: "纸垫有了刻度，车仍没走直"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "fde683a11ae1b91ab7bd9020ceb3143927a82f80"
+source_draft_sha: "7d5584d23a1dc8ae12886e78a7488420ed9aba4f"
+reader_review: "reader_reviews/0803_7d5584d2.md"
+depends_on_chapter: 802
+depends_on_source_sha: "0088f32d04a8cf86a9bd39a0a83d8e224ff83705"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "802临时原稿与正式Ready小说正文逐字一致仅交付状态元数据改变；803只改绑802正式Ready，小说正文0字修改，新SHA重新双遍Reader"
+timeframe: "Day668周六早晨至晚上"
+summary: >-
+  Day668周六孩子在晓漫家回看Day666旧A-B-A六圈与Day667班内单次示范，发现过去没有记录换轮时纸垫轴端间隙；决定今日不拆红七原车、不做新斜板滑坡试验。用备用短吸管和新木棒及33毫米B轮做独立单轮台，止动圈太近擦、留两条纸尺间隙较顺、更宽又会晃，只能说明在备用轴台手拨轮转受间隙影响，无法确认原车持续左偏唯一原因。原铅笔线蹭花后孩子诚实记不能复现精确距离，另做方向箭头与甲乙丙刻度可重放定位卡；比对真车下方空间发现可能碰旧左前胶带，因此仅记“先核空间/同轴装卸”待测，不实装。原右后带角轮、红七、Day661双结论纸签、六圈纸、坏练习片与B轮袋均在；学校只限本班后墙张贴一张说明复印件至下周五，原车始终孩子自持。母亲于新荷街保留居中蓝碗试一试二原有筷尖白口和旧左下单碗原纸；仅用废纸观察滚筒边缘余墨糊线，不冒称正式试三。韩姨本次没有推菜车过院门。仁合里旧四楼夜岗第二夜九分钟实缺、第三夜晚交但有据连续、第四夜以后分班待核不变，旧屋闭锁双封水电受控隔离Day536撤清运禁返住无再开许可，R-12/F014与七号箱2019原卷跨源缺证仍在；夏宁只获本户授权旧屋限项。
+meaningful_state_changes:
+  - "孩子用备用单轮台真实观察轴向间隙对转动摩擦与晃动的影响，制作有方向甲乙丙定位卡。"
+  - "蹭花的定位线按不能精确复现记录保留，真车适配仍待验证且不造新行驶结果；母亲明确区分余墨废样与两张正式碗印。"
+knowledge_updates:
+  - "孩子与晓漫知道备用轴上同轮在三种间隙会擦、较顺或会晃，但轴不同、仅手拨且未上真车，因此尚不能确证红七左偏根因。"
+  - "母亲仅知晓漫/孩子发来的有限纸轮与手拨结果，不因旧屋限项获取其他家事；夏宁仍不知新荷街及私人手作。"
+relationship_updates:
+  - "晓漫提供安全工具和废旧透明文件封皮帮助定位但不篡改旧数据，孩子保有本人纸车和决定权。"
+  - "韩姨对母亲蓝碗偏爱淡印仅属审美建议，母亲自主保留未作选择。"
+foreshadowing_updates:
+  - "今日纸轮手拨及母亲边缘余墨废样均为私人生活，不给旧屋R-12末签现装门Day577原因、F014旧号旧信旧押金各渠道末端真退或2019原卷跨源新证。"
+ending_state: "Day668夜红七原角轮车安回四轮悬空架未拆未试，备用单轮台和方向刻线卡另存，旧六圈与失准观察纸均保留；两张蓝碗正版和余墨废样独立；学校后墙许可待到下周五；旧四楼继续闭锁禁返住，新班待核，历史缺证不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "fde683a11ae1b91ab7bd9020ceb3143927a82f80", final_draft_sha: "7d5584d23a1dc8ae12886e78a7488420ed9aba4f", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "metadata_only_rebind_prev802_ready_then_new_sha_reader"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3401

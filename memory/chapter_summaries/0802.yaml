@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 802
+title: "没走直的车，照样上了讲台"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "1ec38cfd03ccc4ddca0e89d7b5a5cf8813342ed3"
+source_draft_sha: "1ec38cfd03ccc4ddca0e89d7b5a5cf8813342ed3"
+reader_review: "reader_reviews/0802_1ec38cfd.md"
+depends_on_chapter: 801
+depends_on_source_sha: "a82e4576d0690f1ff6b6549d6a65aaf31136d938"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "801起稿前已正式Ready且依赖精确匹配，无旧SHA事实差异"
+timeframe: "Day667周五早晨至晚上"
+summary: >-
+  Day667孩子把Day666同板A原角轮两次、B三十三毫米新轮两次、复装A原轮两次共六个旧落点带到课堂；右后原有角轮、车顶红七、Day661左前不擦仍会偏左的纸签、坏练习片与替换轮袋均保留。学校低斜板仅现场演示一次仍向左入接车箱，明确场地不同不计昨日第七次试验；孩子说清楚B暂靠中仍不走直且扩孔重装纸垫为干扰，不认角轮唯一根因。老师征经晓漫正常渠道监护同意，只将一份过程卡复印件限本班后墙展示至下周五，不公开照片、不占原车/原六圈纸，孩子放学全带回并提出下一步核纸垫松紧。母亲新荷街两张新版蓝碗试一试二筷尖同一白口均保留、旧左下单碗独存，韩姨菜车过已修左院门槛仅当次可证。旧仁合里四楼后夜只有核查进度，Day664第二夜九分钟空岗及第三夜晚交但连续独立成立；闭锁双封水电隔离Day536撤清运禁返住无开门许可，R-12/F014及2019旧卷缺证、夏宁仅获旧屋限项不变。
+meaningful_state_changes:
+  - "孩子从私下六次纸车试验推进为班内真实单次演示与教学过程展示，公开强调未解决而不虚报修好。"
+  - "经监护同意班内后墙限时张贴一份复印卡至下周五，原物与原记录仍属孩子，下一阶段仅决定排查纸垫间隙。"
+knowledge_updates:
+  - "孩子、晓漫、任课教师和同学知道本次课堂示范左偏及Day666六次历史对比，知道课堂本次不等于第七次同条件试验。"
+  - "夏宁只知本户授权仁合里安全限项，不知教室、纸车细节或新荷街住址。"
+relationship_updates:
+  - "晓漫保护孩子自主解释未修好的结果与原物，老师尊重监护范围和儿童不公开作品照片的意愿。"
+  - "母亲继续独立保存试一试二及旧单碗原作，韩姨菜车本人保管。"
+foreshadowing_updates:
+  - "儿童学校与私人纸作不向R-12末签现门Day577根因、F014旧号旧信旧押金全渠道末端真退、七号箱2019原卷提供跨源证明。"
+ending_state: "Day667夜孩子带回仍左偏的原角轮红七车、原六圈纸、新轮袋和练习坏片，教室仅留合法期限内一份说明副本；两张新蓝碗试印与旧单碗各自保留；旧屋闭锁禁返住，后夜核查待定，历史证据缺项不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "1ec38cfd03ccc4ddca0e89d7b5a5cf8813342ed3", final_draft_sha: "1ec38cfd03ccc4ddca0e89d7b5a5cf8813342ed3", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "independent_reader_keep_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3393

@@ -9,9 +9,9 @@
 - actual_effective_chars: 3401
 - count_method: 小说正文Unicode去空白（含场景分隔符，不含Front Matter）
 - depends_on_chapter: 802
-- depends_on_source_sha: 1ec38cfd03ccc4ddca0e89d7b5a5cf8813342ed3
-- dependency_status: provisional
-- dependency_source_path: chapters/draft/0802.md
+- depends_on_source_sha: 0088f32d04a8cf86a9bd39a0a83d8e224ff83705
+- dependency_status: verified_exact_ready_blob
+- dependency_source_path: chapters/ready/0802.md
 
 ## Planner
 
@@ -34,5 +34,9 @@
 
 - 已从当前GitHub main cd81761a3fad25d853f4da57cbd0a648e2925d9c核实published/0153.md存在，published/ready/draft数值最大章号802，803正文和章纲均不存在。
 - 本轮读取最新AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md、必要Bible/角色卡/当前卷与弧、Memory人物关系知识世界伏笔时间线及计划表、最近十章摘要（792—801）、最近五章正文（798—802）；未读取历史reader_reviews。部分长卷纲和arc_current旧时点优先以已审近期Memory与真实正文校正。
-- 第802章来源chapters/draft/0802.md，Git Blob SHA 1ec38cfd03ccc4ddca0e89d7b5a5cf8813342ed3，依赖状态provisional。第802章尚未审核，因此Day667课堂演示/限期张贴及回家结束只作本特定稿源的临时衔接，不当作正式Canon；后续Audit需核变更。
+- 第802章来源chapters/draft/0802.md，Git Blob SHA 0088f32d04a8cf86a9bd39a0a83d8e224ff83705，依赖状态provisional。第802章尚未审核，因此Day667课堂演示/限期张贴及回家结束只作本特定稿源的临时衔接，不当作正式Canon；后续Audit需核变更。
 - 仅Planner、Continuity Precheck、Writer，未做Editor/Reader/Revision/QA/Memory/Publish Gate，未发布番茄，也不改既有章节。
+
+## Audit依赖重绑｜2026-11-16
+- 起稿时第802章为provisional Draft `1ec38cfd03ccc4ddca0e89d7b5a5cf8813342ed3`，现802已通过独立Reader/QA，正式Ready `0088f32d04a8cf86a9bd39a0a83d8e224ff83705`；比较前后小说正文逐字一致，只改交付元数据，无前章事实差异。
+- 803执行一次Stage A元数据重绑，新Draft `7d5584d23a1dc8ae12886e78a7488420ed9aba4f`，小说正文不改；旧SHA Reader无效，已对新SHA独立再审Pass A/B为0/0/2。随后独立QA/Memory通过，仍须精确版本CI成功才准main Ready。

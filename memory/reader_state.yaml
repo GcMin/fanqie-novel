@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 801
-last_reviewed_title: "新轮试过了，旧轮仍然留着"
-last_source_path: chapters/draft/0801.md
-last_source_sha: 31e300e262b1697aac0d16a87a272adb218e83f3
-last_review_path: reader_reviews/0801_31e300e2.md
+last_reviewed_chapter: 803
+last_reviewed_title: "纸垫有了刻度，车仍没走直"
+last_source_path: chapters/draft/0803.md
+last_source_sha: 7d5584d23a1dc8ae12886e78a7488420ed9aba4f
+last_review_path: reader_reviews/0803_7d5584d2.md
 last_reviewed_at: "2026-11-16"
-reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
+reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha_after_metadata_rebind
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 800
-depends_on_source_sha: 9885db2de7c501007e23ee1f8af4df7c1040fcb8
+depends_on_chapter: 802
+depends_on_source_sha: 0088f32d04a8cf86a9bd39a0a83d8e224ff83705
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 9885db2de7c501007e23ee1f8af4df7c1040fcb8
+predecessor_current_source_sha: 0088f32d04a8cf86a9bd39a0a83d8e224ff83705
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10690,5 +10690,49 @@ combined_audit_chapter_801_20261116:
   char_count: 3228
   predecessor_ready_sha: "9885db2de7c501007e23ee1f8af4df7c1040fcb8"
   predecessor_body_delta: exact_ready_sha_no_provisional
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_802_20261116:
+  chapter: 802
+  original_source_sha: "1ec38cfd03ccc4ddca0e89d7b5a5cf8813342ed3"
+  source_sha: "1ec38cfd03ccc4ddca0e89d7b5a5cf8813342ed3"
+  review_path: "reader_reviews/0802_1ec38cfd.md"
+  pass_a: completed_independently_before_canon
+  pass_b: completed_independently_after_canon
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  recommendation: keep
+  required_action: none
+  body_revisions: 0
+  qa_gate: pass
+  char_count: 3393
+  predecessor_ready_sha: "a82e4576d0690f1ff6b6549d6a65aaf31136d938"
+  predecessor_body_delta: exact_ready_sha_no_provisional
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_803_20261116:
+  chapter: 803
+  original_source_sha: "fde683a11ae1b91ab7bd9020ceb3143927a82f80"
+  source_sha: "7d5584d23a1dc8ae12886e78a7488420ed9aba4f"
+  initial_review_path: "reader_reviews/0803_fde683a1.md"
+  review_path: "reader_reviews/0803_7d5584d2.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  pass_a: independently_rereviewed_new_sha_before_canon
+  pass_b: independently_rereviewed_new_sha_after_canon
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  recommendation: keep
+  required_action: none
+  body_revisions: 0
+  metadata_revision: rebind_predecessor_802_final_ready_sha_and_plan
+  qa_gate: pass
+  char_count: 3401
+  predecessor_original_draft_sha: "1ec38cfd03ccc4ddca0e89d7b5a5cf8813342ed3"
+  predecessor_ready_sha: "0088f32d04a8cf86a9bd39a0a83d8e224ff83705"
+  predecessor_body_delta: provisional_vs_ready_body_identical_metadata_only
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

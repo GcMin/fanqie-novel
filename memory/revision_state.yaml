@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 801
-current_stage: chapter801_reader_QA_pass_no_revision_exact_CI_required
-current_source_path: chapters/draft/0801.md
-current_source_sha: 31e300e262b1697aac0d16a87a272adb218e83f3
-current_review_path: reader_reviews/0801_31e300e2.md
+current_chapter: 803
+current_stage: chapter803_reader_QA_pass_metadata_rebind_exact_CI_required
+current_source_path: chapters/draft/0803.md
+current_source_sha: 7d5584d23a1dc8ae12886e78a7488420ed9aba4f
+current_review_path: reader_reviews/0803_7d5584d2.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter801_reader_keep_QA_pass
+last_action: chapter803_metadata_rebind_new_sha_reader_QA_pass
 last_action_date: "2026-11-16"
 last_error: null
-last_diff_summary: "第801章原Draft依赖第800章正式Ready精确SHA，Reader独立双遍0/0/2，正文0修，QA通过，候选CI待验。"
+last_diff_summary: "第802章旧Draft与正式Ready小说正文相同仅交付状态变化，803只重绑正式Ready SHA/详细章纲，正文未修，新SHA Reader先Pass A后B 0/0/2，内容QA通过，结构候选CI待核。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: 31e300e262b1697aac0d16a87a272adb218e83f3
+current_review_source_sha: 7d5584d23a1dc8ae12886e78a7488420ed9aba4f
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -9392,5 +9392,49 @@ combined_audit_chapter_801_20261116:
   body_revisions: 0
   predecessor_ready_sha: "9885db2de7c501007e23ee1f8af4df7c1040fcb8"
   predecessor_body_delta: exact_ready_sha_no_provisional
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_802_20261116:
+  chapter: 802
+  original_sha: "1ec38cfd03ccc4ddca0e89d7b5a5cf8813342ed3"
+  final_draft_sha: "1ec38cfd03ccc4ddca0e89d7b5a5cf8813342ed3"
+  review_path: "reader_reviews/0802_1ec38cfd.md"
+  reviews_this_cycle: 1
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  retry_cycles: 0
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  body_revisions: 0
+  predecessor_ready_sha: "a82e4576d0690f1ff6b6549d6a65aaf31136d938"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_803_20261116:
+  chapter: 803
+  original_sha: "fde683a11ae1b91ab7bd9020ceb3143927a82f80"
+  final_draft_sha: "7d5584d23a1dc8ae12886e78a7488420ed9aba4f"
+  initial_review_path: "reader_reviews/0803_fde683a1.md"
+  review_path: "reader_reviews/0803_7d5584d2.md"
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  retry_cycles: 0
+  stage_a_changes: "Rebind 802 provisional Draft to final Ready SHA after confirming novel body byte-identical"
+  body_revisions: 0
+  metadata_revisions: 1
+  predecessor_original_sha: "1ec38cfd03ccc4ddca0e89d7b5a5cf8813342ed3"
+  predecessor_ready_sha: "0088f32d04a8cf86a9bd39a0a83d8e224ff83705"
+  predecessor_body_delta: provisional_vs_ready_body_identical
+  dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
