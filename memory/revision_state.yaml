@@ -15,7 +15,7 @@ next_retry_after: null
 last_action: chapter814_ready_after_exact_candidate_CI_success
 last_action_date: "2026-11-17"
 last_error: null
-last_diff_summary: "814初审0/1/2：重绑813正式Ready SHA，标题纸袋更正为纸盒；正文未改，新SHA独立Reader0/0/2，Continuity/Style PASS；候选提交a179a586b4e1813c797bd6f184d1a860bff198ef的publisher-check运行43958900474成功并已合入main。"
+last_diff_summary: "814初审0/1/2：重绑813正式Ready SHA，标题纸袋更正为纸盒；正文未改，新SHA独立Reader0/0/2，Continuity/Style PASS；候选提交a179a586b4e1813c797bd6f184d1a860bff198ef的publisher-check运行43958900474成功；最终合并快照39abb9425befea821a301916c4c786dced8a4f43的publisher-check运行43959448624成功并保持main。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true

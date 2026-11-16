@@ -75,4 +75,4 @@
 - chapters/ready/0813.md：存在，blob 92814dbd9af8291f32636dbf915c1e941e487ee5；对应draft已不存在。
 - chapters/ready/0814.md：存在，blob 38eb560fb17d3bc3466b7e60000388cc362e1462；对应draft已不存在。
 - 813与814各自的初审/最终Review、章节摘要、详细章纲、QA报告和计划表行均存在；chapter_plan.csv保留两章唯一记录。
-- 813与814各自原候选提交的精确publisher-check均已成功；本次最终合并快照仍需由当前提交的publisher-check再次验证。
+- 813候选提交a81bf6ec7dce657fe175fad4022d01d863a435c5的publisher-check运行43958008579成功；814候选提交a179a586b4e1813c797bd6f184d1a860bff198ef的publisher-check运行43958900474成功；最终合并快照39abb9425befea821a301916c4c786dced8a4f43的publisher-check运行43959448624也成功。
