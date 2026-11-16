@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 796
-last_reviewed_title: "贴纸挪开了，车还留着小角"
-last_source_path: chapters/draft/0796.md
-last_source_sha: eda1b44e7f0ff1cd1e82dd5977d8044fc758d758
-last_review_path: reader_reviews/0796_eda1b44e.md
+last_reviewed_chapter: 798
+last_reviewed_title: "拐角的灯修好了，守门的人没挪"
+last_source_path: chapters/draft/0798.md
+last_source_sha: 2598a54f6e25d23ea75be8e30f3fa709b00cec03
+last_review_path: reader_reviews/0798_2598a54f.md
 last_reviewed_at: "2026-11-16"
 reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 795
-depends_on_source_sha: 2a6b53ca8994768b9a898dcf6a45d081d2d7c12e
+depends_on_chapter: 797
+depends_on_source_sha: aba050ecb23e1a353949687744f6d39efa4c15fc
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 2a6b53ca8994768b9a898dcf6a45d081d2d7c12e
+predecessor_current_source_sha: aba050ecb23e1a353949687744f6d39efa4c15fc
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10583,5 +10583,50 @@ combined_audit_chapter_796_20261116:
   content_qa: pass
   predecessor_ready_sha: "2a6b53ca8994768b9a898dcf6a45d081d2d7c12e"
   predecessor_body_delta: exact_ready_sha_no_provisional
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_797_20261116:
+  chapter: 797
+  original_source_sha: "fb9d5d00ab70ee91128db95f4494130e827cd189"
+  final_source_sha: "fb9d5d00ab70ee91128db95f4494130e827cd189"
+  review_path: reader_reviews/0797_fb9d5d00.md
+  pass_a: completed_independently_before_canon
+  pass_b: completed_independently_after_canon
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  recommendation: keep
+  required_action: none
+  body_revisions: 0
+  content_qa: pass
+  predecessor_ready_sha: "e14489aaa229e21d964619748e7f153fd2bbead8"
+  predecessor_body_delta: exact_ready_sha
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_798_initial_20261116:
+  chapter: 798
+  original_source_sha: "af4e7f58dd8e359bfad919ce8a4213f50801ab3c"
+  initial_review_path: reader_reviews/0798_af4e7f58.md
+  pass_a: completed_independently_before_canon
+  pass_b: completed_independently_after_canon
+  initial_blockers: 0
+  initial_majors: 2
+  initial_minors: 2
+  fix_required: [rebind_prev797_final_ready_blob, correct_1512_call_after_1518_action]
+  local_revision_used: 1
+  final_source_sha: "2598a54f6e25d23ea75be8e30f3fa709b00cec03"
+  final_review_path: reader_reviews/0798_2598a54f.md
+  final_pass_a: independently_rereviewed_new_sha_before_canon
+  final_pass_b: independently_rereviewed_new_sha_after_canon
+  final_blocker_count: 0
+  final_major_count: 0
+  final_minor_count: 2
+  recommendation: keep
+  required_action: none
+  content_qa: pass
+  predecessor_ready_sha: "aba050ecb23e1a353949687744f6d39efa4c15fc"
+  predecessor_body_delta: provisional_and_ready_body_identical_metadata_only
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

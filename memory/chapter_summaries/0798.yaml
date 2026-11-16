@@ -1,0 +1,35 @@
+schema_version: 1
+chapter: 798
+title: "拐角的灯修好了，守门的人没挪"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "af4e7f58dd8e359bfad919ce8a4213f50801ab3c"
+source_draft_sha: "2598a54f6e25d23ea75be8e30f3fa709b00cec03"
+reader_review: "reader_reviews/0798_2598a54f.md"
+depends_on_chapter: 797
+depends_on_source_sha: "aba050ecb23e1a353949687744f6d39efa4c15fc"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "797原临时Draft与最终Ready正文逐字一致，仅Front Matter状态变化；Stage A重绑正式Ready SHA，校正15:12原电话为15:25使15:18摆位已发生"
+timeframe: "Day663上午—晚间"
+summary: >-
+  Day663母亲在新荷街把第797章首次专业外侧整夜值守双签/早班限项记录与Day656错误绿页分别归档，另见仁合里十七号楼楼梯转角公区灯仍故障。上午物业把黄反光提示牌「临时处置完成」推送，她用原有对公渠道核明只是立牌不是灯修好。午间韩姨自己解开菜车购物袋新死结、灰织带仍高系补三针，左侧已修低斜门槛本次空载/装瓶短走可过而不证永久合格。孩子仍自持顶红七、右后有角且左偏纸车与Day661双结论纸签，今天只用两硬纸为车做四轮悬空停车架，没有重新试斜板或改轮。15:05公区施工队尚未进入转角，班长拟借专业固定值守员看工具车，何工拒绝并让施工单位自身安排看护；15:18重新摆位、将车停在下一层不挡通路及视线处并有责核实，15:25原渠道电话向母亲报告，固定岗不撤离也不进入旧门封存区。16:06电工实际换控制模块，16:39灯亮、16:47两次断供/恢复现场复核暂正常，16:53核通路后撤黄牌；17:08限项回报只证本次此灯正常不承诺后续免故障。母亲分存原临时立牌与实修回执、不在私作单碗纸上记工单。晚间向夏宁仅报旧四楼本户有权安全限项，昨日首班真守不等于今晚新班已经完成。旧四楼仍闭锁双封水电隔离禁返住无再开许可；R-12/F014及2019历史缺证未变。母亲另起以桌边一只碗为中心的新草图，旧单碗左下留白原纸保留。
+meaningful_state_changes:
+  - "楼梯转角普通公区灯从故障且仅立提示牌推进到有责更换模块并完成本次复亮复核，黄牌在现场安全确认后真实撤除。"
+  - "公区施工改派自身人员看工具车并调整摆位，专业固定守门员未擅离；昨天首班完成与今晚尚未核实清楚分栏。"
+  - "母亲以私作新草图独立推进本人生活，不覆盖旧单碗留白页；孩子只做不压轮的停车架。"
+knowledge_updates:
+  - "母亲与何工知道本次灯修结果和岗点未抽调，不能由短测推长期无故障、未来夜班完成或旧屋可入。"
+  - "夏宁仅知旧屋授权安全限项，韩姨与孩子都不掌握仁合里值守/灯具现场内部记录。"
+relationship_updates:
+  - "母亲要求责任部门分开记录临时提示与实修，不代公区工班验收；何工坚持固定守门与公区施工各自有人。"
+  - "晓漫及母亲继续尊重孩子对纸车角轮及试验的自主决定，韩姨保留菜车自理。"
+foreshadowing_updates:
+  - "公区灯短期复明与首夜专业值守无权代替R-12末签、现门型号Day577根因、F014旧号旧信旧押金及七号箱五楼2019旧卷跨源证据。"
+ending_state: "Day663晚母亲合法住新荷街；转角灯当次维修复亮并撤牌，固定专业守门岗位在施工中未挪；新夜班待单独实到核验；旧仁合里四楼闭锁双封隔离禁返住无新开门许可；母亲旧单碗留白纸及新草图分存，孩子红七左偏纸车和停车架自持。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "af4e7f58dd8e359bfad919ce8a4213f50801ab3c", final_draft_sha: "2598a54f6e25d23ea75be8e30f3fa709b00cec03", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "fix_1512_to_1525_and_rebind_prev797_final_ready_then_independent_new_sha_reader"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2954

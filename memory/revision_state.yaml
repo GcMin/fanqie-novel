@@ -1,25 +1,25 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 796
-current_stage: chapter796_reader_QA_pass_exact_CI_required
-current_source_path: chapters/draft/0796.md
-current_source_sha: eda1b44e7f0ff1cd1e82dd5977d8044fc758d758
-current_review_path: reader_reviews/0796_eda1b44e.md
+current_chapter: 798
+current_stage: chapter798_stageA_newSHA_reader_QA_pass_exact_CI_required
+current_source_path: chapters/draft/0798.md
+current_source_sha: 2598a54f6e25d23ea75be8e30f3fa709b00cec03
+current_review_path: reader_reviews/0798_2598a54f.md
 rounds:
-  reviews_this_cycle: 1
-  local_revision_used: 0
+  reviews_this_cycle: 2
+  local_revision_used: 1
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter796_reader_keep_no_revision_QA_pass
+last_action: chapter798_stageA_correction_then_fresh_reader_pass_QA_pass
 last_action_date: "2026-11-16"
 last_error: null
-last_diff_summary: "796原Draft独立Pass A/B 0/0/2 keep/none，无修订；前章795正式Ready精确SHA，独立QA通过；等待精确候选结构CI。"
+last_diff_summary: "797原稿独立Reader 0/0/2无修订，798初稿独立Reader 0/2/2，Stage A更正15:12电话为15:25并将前章SHA重绑797正式Ready，798新SHA Reader 0/0/2及QA通过；等待精确候选CI。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
-current_review_source_sha: eda1b44e7f0ff1cd1e82dd5977d8044fc758d758
+current_review_source_sha: 2598a54f6e25d23ea75be8e30f3fa709b00cec03
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -9280,5 +9280,51 @@ combined_audit_chapter_796_20261116:
   predecessor_ready_sha: "2a6b53ca8994768b9a898dcf6a45d081d2d7c12e"
   predecessor_body_delta: exact_ready_sha_no_provisional
   dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_797_20261116:
+  chapter: 797
+  original_sha: "fb9d5d00ab70ee91128db95f4494130e827cd189"
+  final_draft_sha: "fb9d5d00ab70ee91128db95f4494130e827cd189"
+  review_path: reader_reviews/0797_fb9d5d00.md
+  reviews_this_cycle: 1
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  body_revisions: 0
+  predecessor_ready_sha: "e14489aaa229e21d964619748e7f153fd2bbead8"
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_798_20261116:
+  chapter: 798
+  original_sha: "af4e7f58dd8e359bfad919ce8a4213f50801ab3c"
+  first_review: reader_reviews/0798_af4e7f58.md
+  first_blocker_count: 0
+  first_major_count: 2
+  first_minor_count: 2
+  stage_a_used: 1
+  fix: "rebind_797_finalReady_blob_and_fix_1512_to_1525_call_time"
+  source_sha: "2598a54f6e25d23ea75be8e30f3fa709b00cec03"
+  new_sha_review_path: reader_reviews/0798_2598a54f.md
+  reviews_this_cycle: 2
+  local_revision_used: 1
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  retry_cycles: 0
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  body_revisions: 1
+  predecessor_ready_sha: "aba050ecb23e1a353949687744f6d39efa4c15fc"
+  predecessor_body_delta: provisional_vs_ready_body_identical
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
