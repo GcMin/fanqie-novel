@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 795
+title: "门槛换了，纸车还往左"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "28776fecbcc784837a37e8487e9ec412067ffcc0"
+source_draft_sha: "a1aa48989446c73fbb803cf1d32c89899e3d8b87"
+reader_review: "reader_reviews/0795_a1aa4898.md"
+depends_on_chapter: 794
+depends_on_source_sha: "d46f6953364eb51aa89ad71388352c0ef9d7bf92"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "第794章起稿前已经正式Ready，所引794 Git blob精确匹配；不存在前章新旧SHA事实差异"
+timeframe: "Day660早晨—21点后"
+summary: >-
+  Day660清晨韩姨满载菜车在新荷街院门左侧洞口一条外侧金属压条翘角卡左轮，人车未受伤；Day655灰带高系补三针仍没见擦轮，此次不能直接判轮或织带永久故障。右侧门扇正常通行，母亲和韩姨请物业许桐按公共设施受理号登记，不把保洁看过当已修。10:26维修班长现场确认左门压条外端翘起固定点松、片下细沙，只断雨后观察而不推雨为根因；提示架安全隔离左门并保留右门通路。13:40后工班实际拆旧变形条、清基面、换低斜金属过渡条并固定，反复核门叶开闭、物业空车测试后韩姨本人先空载再以水瓶土豆作近似载荷各自进退；此次左门洞可过不推全楼无障碍或永久合格，母亲不代签工程责任。傍晚孩子与晓漫来访，红七右后带角左偏纸车仍归孩子、Day658宽纸路旧右/新左框及底端挡边保留；孩子不把车放公共门口试，只画院门新坡、注韩姨车过而本人纸车未试，原纸记半只轮差未擦。物业当夜有责限项结单，韩姨再买菜短程通过但灰带仍需自行观察。夜间夏宁仅获旧仁合里四楼授权闭锁双封水电隔离Day536撤清运禁返住、Day656外巡误显更正、Day657无许可维修撤单、Day659旧通知按钮本户移除的旧屋限项，不获新荷街院门与家庭私人信息；整班专业守门/再开许可未成立，R-12末签现门型Day577擦响原因、F014旧联系号旧信旧押金七号箱五楼2019旧卷均无跨源新证。
+meaningful_state_changes:
+  - "左侧院门翘边公共过渡条由实际危险转为有责拆换并经当次门叶、物业空车、韩姨本人模拟常见载重的真实有限复测，可用范围限定于本门洞本次观察。"
+  - "孩子新增主动在路图区分「韩姨车真实过了」与「自己红七纸车未试门槛」，保留左偏、角轮和既有半轮差原记录，不冒认修好了自己的车。"
+knowledge_updates:
+  - "母亲韩姨许桐及工班知左门压条固定点松动、局部变形实换且当次车过，不能将雨后出现直接归因为雨致松动，也不能推全楼适用性。"
+  - "晓漫和孩子知新荷街左门洞实修与韩姨有限复走，孩子未实测自己的纸车；夏宁只知旧仁合里四楼授权限项，不知新荷街家事与邻里菜车。"
+relationship_updates:
+  - "韩姨决定自行参与真实菜车复走与持续观察灰带，母亲要求有责物业真实结单，不替工程岗签全域合格。"
+  - "母亲晓漫尊重孩子对红七纸车、角轮和记录的自主决定，不因大人车轮顺利跨过新门槛而更动儿童作品。"
+foreshadowing_updates:
+  - "新荷街公共普通门槛维修不涉及仁合里F014旧号旧信旧押金及R-12末签/现门型、Day577擦响、2019原卷，旧屋跨源历史缺证状态维持。"
+ending_state: "Day660夜新荷街院门左侧新过渡条有责修换、韩姨有限实载通过但不代表永久合格；红七有角纸车仍左偏未真实试门槛且孩子自持车与路图；母亲新荷街合法真住，旧仁合里四楼闭锁双封隔离禁返住和旧案证据界线未改变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "28776fecbcc784837a37e8487e9ec412067ffcc0", final_draft_sha: "a1aa48989446c73fbb803cf1d32c89899e3d8b87", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "fix_left_door_strip_orientation_and_count_then_new_SHA_independent_reader"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3307

@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 794
-last_reviewed_title: "按钮撤了，许可仍是空的"
-last_source_path: chapters/draft/0794.md
-last_source_sha: 78d925225413d7af33ef95106f14a99fd51871ed
-last_review_path: reader_reviews/0794_78d92522.md
+last_reviewed_chapter: 795
+last_reviewed_title: "门槛换了，纸车还往左"
+last_source_path: chapters/draft/0795.md
+last_source_sha: a1aa48989446c73fbb803cf1d32c89899e3d8b87
+last_review_path: reader_reviews/0795_a1aa4898.md
 last_reviewed_at: "2026-11-16"
 reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 793
-depends_on_source_sha: f4b407ef747534f37d95a7de26e9b964d989a4b0
+depends_on_chapter: 794
+depends_on_source_sha: d46f6953364eb51aa89ad71388352c0ef9d7bf92
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: f4b407ef747534f37d95a7de26e9b964d989a4b0
+predecessor_current_source_sha: d46f6953364eb51aa89ad71388352c0ef9d7bf92
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10542,5 +10542,28 @@ combined_audit_chapter_794_20261116:
   depends_on_chapter: 793
   predecessor_ready_sha: "f4b407ef747534f37d95a7de26e9b964d989a4b0"
   predecessor_body_delta: source_provisional_body_identical_to_ready
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+ 
+combined_audit_chapter_795_20261116:
+  chapter: 795
+  original_source_sha: "28776fecbcc784837a37e8487e9ec412067ffcc0"
+  source_sha: "a1aa48989446c73fbb803cf1d32c89899e3d8b87"
+  previous_review_path: "reader_reviews/0795_28776fec.md"
+  review_path: "reader_reviews/0795_a1aa4898.md"
+  reviewer_mode: combined_audit_independent_pass_a_then_b_after_stage_a_local_revision
+  recommendation: keep
+  required_action: none
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  qa_gate: pass
+  char_count: 3307
+  body_revisions: 1
+  depends_on_chapter: 794
+  predecessor_ready_sha: "d46f6953364eb51aa89ad71388352c0ef9d7bf92"
+  predecessor_body_delta: exact_ready_sha_no_provisional
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

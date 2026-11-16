@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 794
+last_updated_chapter: 795
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4463,3 +4463,11 @@ chapter_794_arc054:
   mother_daughter_child: "晓漫午间带孩子路纸并探询旧屋，听母亲说明只查通知而非开门，尊重保留原消息证据；家庭照常共饭。孩子的纸车、署名、停框及新纸图仍由本人决定，不被大人改作修好。"
   neighbor: "韩姨仅谈自己菜车当前短程无擦，仍打算看灰带毛边，与母亲无代修或旧屋钥匙关系。"
   mother_center: "母亲和夏宁遵守旧屋安全限项与新居家人隐私的既有边界，不把撤按钮等于许可或值守到岗。"}
+ 
+chapter_795_arc054:
+  chapter: 795
+  source_sha: "a1aa48989446c73fbb803cf1d32c89899e3d8b87"
+  mother_property: "母亲通过正常对公受理协助及时报告左门通行障碍，并保留工班维护/验证/结单各责任岗；不代工程负责方签长期或无障碍全域合格。"
+  mother_han: "韩姨自主决定何时推菜车及空载、以水土豆近似负载试车，也自己保留灰带后续检查责任；母亲只观察帮助，不替韩姨车作鉴定。"
+  mother_daughter_child: "晓漫和母亲尊重孩子保留原红七有角纸车和偏左试走记录，孩子只画新门槛、标自己车未测试，未由成人借别人车的通过改写儿童证据。"
+  mother_center: "仍只共享授权仁合里旧四楼安全限项，夏宁不接受新居门牌和家人邻里日常细节。"

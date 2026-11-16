@@ -6,7 +6,7 @@
 - arc: ARC-054
 - target_chars: 3000
 - preferred_range: 2600-3400
-- actual_effective_chars: 3304
+- actual_effective_chars: 3307
 - count_method: Unicode 去空白统计（正文不含 Front Matter；包括独立场景分隔符）
 - depends_on_chapter: 794
 - depends_on_source_sha: d46f6953364eb51aa89ad71388352c0ef9d7bf92
@@ -29,10 +29,17 @@
 - **新增信息与实质状态变化**：院门一处通行障碍被具体识别、正常维护更换并于本门洞有限核实；韩姨本人对自己的菜车短途可通行有新实证，孩子第一次将“他人真实复走”与“我自己尚未试验”在画上明确分栏。
 - **伏笔与秘密边界**：不把新荷街普通公区故障写成仁合里历史旧事或异常；不恢复旧四楼入户授权、专业整班守门、F014历史联系号/旧信/押金跨源证、R-12末签和现门型/Day577根因，亦不让夜间中心知晓家庭纸车、新荷街门牌或邻里私事。
 - **结尾承接点**：韩姨的菜车本次门洞不再卡边，孩子仍自主保留有角轮与偏左走向；真正修好的门槛不等于纸车的转向已解。
-- **目标有效字符**：3304（首稿，待独立 Audit）。
+- **目标有效字符**：3307（首稿，待独立 Audit）。
 
 ## Continuity Precheck
 - 基于 main 27ab7bb7f3b5719e67693600c5b4c0489cea78e6 实读 AGENTS.md、config/novel.yaml、docs/writing_roles.md、docs/ai_reading_protocol.md，Bible四项及三名主角卡、第五卷/当前旧arc文档、ARC-054最新长期记录、人物/关系/知识/世界状态、F014和近期时间线、785—794十章摘要、790—794五章完整正文和上一章计划；未读取任何历史reader_reviews。
 - published/0153.md已存在；published、ready、draft三目录数字最高0794，目标仅创建未存在的第0795章。
 - 第794章位于chapters/ready/0794.md，Git blob d46f6953364eb51aa89ad71388352c0ef9d7bf92，已是正式ready，非未审草稿；精确依赖，不使用provisional。其Day659同号撤单通知纠错只限本户接收端，旧屋闭锁禁返住和专业守门许可空缺均持续。
 - 本章仅由 Writer创建详细计划和待审首稿，不写现有稿、Memory或审核状态，不执行Reader/Revision/QA/Publish Gate，不发布番茄。
+## Audit独立复核与交付｜2026-11-16
+- 初始Draft Git Blob：`28776fecbcc784837a37e8487e9ec412067ffcc0`；独立Pass A/B Reader 0 BLOCKER / 1 MAJOR / 2 MINOR，见 `reader_reviews/0795_28776fec.md`。
+- Stage A局部修订：仅将卡轮故障压条与物业报修中的右侧错误统一为**左门洞**，右门正常作为替代通道；正文两句、3有效字增加。未为MINOR重写，未触碰Canon/已发布。
+- 新Draft Git Blob：`a1aa48989446c73fbb803cf1d32c89899e3d8b87`；新SHA独立Pass A后Pass B 0 BLOCKER / 0 MAJOR / 2 MINOR，keep / none，详见 `reader_reviews/0795_a1aa4898.md`。
+- 独立Continuity、Style、Meaningful QA PASS（`qa/0795_report.md`），有效字符3307；前章794正式Ready Blob `d46f6953364eb51aa89ad71388352c0ef9d7bf92` 精确匹配，无provisional事实差异。
+- 具体剧情和限项以当前修订后795正文为准：左侧院门压条实修、韩姨本人有限推车复核，右侧门保持通行；孩子纸车未试门槛且仍左偏；旧屋安全状态未变。
+- 完整长期Memory/章节计划及Ready迁移须经精确候选Commit的`python -m publisher.check_local --repo .`真实CI成功后再以CAS合入main；此行不替代CI结果。
