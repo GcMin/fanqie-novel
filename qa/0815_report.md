@@ -67,8 +67,9 @@
 - `reader_state`、`revision_state`、`writing_state` 同步到815候选状态。
 - 详细章纲保留原目标和事实边界，追加审核结果。
 
-## 结构门槛：待验证
+## 结构门槛：PASS
 
-- 候选分支：`audit/ready-0815`
-- 必须由 `publisher-check.yml` 对精确候选 commit 执行成功后，才允许将候选快照 fast-forward 合入main。
-- 当前报告不把候选CI预写为成功；若CI未成功，main保留原Draft，不放行。
+- 精确候选提交：`801968e840ecaa04248cb0e004faa7c44a70c3ae`
+- GitHub Actions `publisher-check`：run `43967808307`
+- 结果：success；离线快照测试与当前 checkout 的 `python -m publisher.check_local --repo .` 均成功。
+- 该运行的 head SHA 与候选提交精确一致。只有在最终候选快照再次通过结构检查后，才 fast-forward 合入 main。
