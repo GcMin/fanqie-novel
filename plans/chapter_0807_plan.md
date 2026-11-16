@@ -8,7 +8,7 @@
 - depends_on_chapter: 806
 - depends_on_source_sha: 07bb421826aaa744307f1977e0eb7a47f996feef
 - dependency_status: verified_exact_ready_blob
-- plan_status: writer_only_pending_independent_review
+- plan_status: audited_ready_pending_exact_candidate_ci
 - target_chars: 2600-3400有效字符；实际3100，硬限制2300-3800
 
 ## 本章目标与POV
@@ -35,3 +35,9 @@ Day672孩子放学后主动先查第五版纸带的拆装状况，不动原红�
 
 ## 不可提前泄露及尾声承接
 禁止宣称左偏唯一原因、支撑永久稳定、纸带精确耐久寿命或学校已获新展许可；禁止因旧四楼专业班表推房内安全、历史旧案解决或再开门许可。结尾以旧扣带封存停用、新扣带未装车、次日学校申请待问作承接。
+
+## 独立审核交付记账｜2026-11-16
+- 原稿Git blob `26fc06d2a80e8583372bdaad4b95611ff9d645e1`，直接依赖806正式Ready `07bb421826aaa744307f1977e0eb7a47f996feef`，一致，无待重审前章临时SHA事实差异。
+- 独立Reader Pass A→Pass B：0 BLOCKER、0 MAJOR、2 MINOR，keep/none，正文未修；`reader_reviews/0807_26fc06d2.md`。
+- 独立Continuity/Style/Meaningful QA PASS，正文有效3100字符，见`qa/0807_report.md`。
+- 计划表中807唯一行设qa_status pass、publish_status ready；须精确候选CI结构成功才允许main完成原子迁移。

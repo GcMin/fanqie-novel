@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 806
+last_updated_chapter: 807
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4559,3 +4559,12 @@ chapter_806_arc054:
   xiaoman_child: "晓漫提示安装第二回未达止紧红线须重装，细小位移看不出就如实写，不代孩子掰正右后角轮；孩子坚持全部留原始记录。"
   mother_school: "旧学校副本许可仅本班后墙至下周五，孩子新页未获得更换授权，仍须监护与老师正常同意。"
   mother_center: "母亲按原受理号独立查旧四楼专业夜岗分段进度，不让夏宁获新荷街住所或孩子手作。"
+
+chapter_807_arc054:
+  chapter: 807
+  source_sha: "26fc06d2a80e8583372bdaad4b95611ff9d645e1"
+  mother_child: "母亲问车是否散了，孩子明确损坏的只有旧纸带而原车未动；母亲尊重停用决定并独立保存蓝碗试印。"
+  xiaoman_child: "晓漫阻止拉直裂带与装车冒险，孩子自记前三次完整第四次停测、自做无载备用带并保留失败件。"
+  child_classmate: "同桌询问走直与放大红七，孩子只答仍左偏、旧带裂且新卡先问老师，不越权改展。"
+  mother_school: "原班后墙一张旧副本限至下周五，新增资料待老师及监护同意。"
+  mother_center: "旧四楼安全限项与私人新住所和孩子手工分源，夏宁不知后者。"

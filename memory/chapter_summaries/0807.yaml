@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 807
+title: "扣带裂开了，旧车一寸没动"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "26fc06d2a80e8583372bdaad4b95611ff9d645e1"
+source_draft_sha: "26fc06d2a80e8583372bdaad4b95611ff9d645e1"
+reader_review: "reader_reviews/0807_26fc06d2.md"
+depends_on_chapter: 806
+depends_on_source_sha: "07bb421826aaa744307f1977e0eb7a47f996feef"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "807依赖806已在正式Ready的准确Blob，无临时前章新旧SHA事实差异"
+timeframe: "Day672星期三放学后至夜"
+summary: >-
+  Day672孩子在晓漫家不碰原红七纸车，在独立硬纸板上拆合Day671已受载带白折痕的第五版纸桥旧扣带。此前多回装卸与低斜板两趟使用总次数不明；当日3次完整拆合，第二次白痕加重、第三次回口扣合变浅，第4次打开途中旧折线开裂未完成，旧带正式停用留存照片和原物，不能将3次写成总寿命。孩子没有把裂口拉直。学校后墙Day666六圈旧副本仅获本班至下周五许可，新裂口卡不擅换不群发；同桌问车是否修好及加大红七字，孩子说明仍左偏、损坏的是带子、拟明日先问老师。备用带一号回口短无法扣住，二号仅在硬板无负载试扣一次，未装原车未跑坡，不能认新带更耐用或整车第六版验证。原红七右后带角轮、Day653补片、Day661旧胶带、33毫米新轮及Day666旧轮2新轮2复旧2六圈、Day667课堂一趟、Day671新低坡两次都独立留存。母亲新荷街保留两蓝碗试印同白口与旧左下单碗，只经私讯视频获本日有限失败；夏宁仅获旧仁合里四楼有权安全限项。旧四楼第二夜Day664九分钟真实空岗和第三夜Day665迟交但连续独立成立，后夜仅分段待核；双封闭锁水电受控隔离Day536撤清运禁返住无新开门许可，R-12/F014/2019旧卷跨源缺证未变。
+meaningful_state_changes:
+  - "第五版已用旧带由折痕待查成为第4次中途实裂并正式停用的失效件。"
+  - "备带一号失败、二号仅空载一次试扣，形成下一步实车避让与受载安全待检项。"
+  - "孩子主动对同桌说明仍偏左、准备向老师申请新展示，保留旧限期副本原状。"
+knowledge_updates:
+  - "孩子与晓漫知道Day672本日3次完整、第4次中途裂停；旧带总寿命、新带实车可靠性和左偏原因仍未知。"
+  - "母亲仅知家庭有限试带事实，夏宁不知儿童纸车或新荷街私住。"
+relationship_updates:
+  - "晓漫坚持如实计数和停止损伤，母亲不替孩子宣告修直，同桌询问由孩子自己回复。"
+foreshadowing_updates:
+  - "私人纸带故障不证明R-12/F014历史旧号旧信旧押金末端实退或七号箱2019原卷。"
+ending_state: "Day672第五版裂带封袋停用、备带二号仅无载试扣未装车；红七右后角轮原车安在悬空架且本日无新坡道，班内旧副本不换；母亲两蓝碗同白口旧单碗分存，旧四楼闭锁禁返住，后班待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "26fc06d2a80e8583372bdaad4b95611ff9d645e1", final_draft_sha: "26fc06d2a80e8583372bdaad4b95611ff9d645e1", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "independent_reader_keep_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3100
