@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 798
-last_reviewed_title: "拐角的灯修好了，守门的人没挪"
-last_source_path: chapters/draft/0798.md
-last_source_sha: 2598a54f6e25d23ea75be8e30f3fa709b00cec03
-last_review_path: reader_reviews/0798_2598a54f.md
+last_reviewed_chapter: 799
+last_reviewed_title: "九分钟没人守，整夜不能打勾"
+last_source_path: chapters/draft/0799.md
+last_source_sha: 37c7a5c1cb6d372d2722884fbe9cccc16e01d60a
+last_review_path: reader_reviews/0799_37c7a5c1.md
 last_reviewed_at: "2026-11-16"
-reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
+reviewer_mode: combined_audit_independent_pass_a_then_b
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 797
-depends_on_source_sha: aba050ecb23e1a353949687744f6d39efa4c15fc
+depends_on_chapter: 798
+depends_on_source_sha: b50e1cf3106bd9830b854ae3c57b7a19085a47a1
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: aba050ecb23e1a353949687744f6d39efa4c15fc
+predecessor_current_source_sha: b50e1cf3106bd9830b854ae3c57b7a19085a47a1
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10628,5 +10628,24 @@ combined_audit_chapter_798_initial_20261116:
   content_qa: pass
   predecessor_ready_sha: "aba050ecb23e1a353949687744f6d39efa4c15fc"
   predecessor_body_delta: provisional_and_ready_body_identical_metadata_only
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_799_20261116:
+  chapter: 799
+  source_sha: "37c7a5c1cb6d372d2722884fbe9cccc16e01d60a"
+  review_path: reader_reviews/0799_37c7a5c1.md
+  pass_a: completed_independently_before_canon
+  pass_b: completed_independently_after_canon
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  recommendation: keep
+  required_action: none
+  body_revisions: 0
+  qa_gate: pass
+  char_count: 3091
+  predecessor_ready_sha: "b50e1cf3106bd9830b854ae3c57b7a19085a47a1"
+  predecessor_body_delta: exact_ready_sha_no_provisional
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

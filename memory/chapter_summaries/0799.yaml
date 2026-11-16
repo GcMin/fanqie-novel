@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 799
+title: "九分钟没人守，整夜不能打勾"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "37c7a5c1cb6d372d2722884fbe9cccc16e01d60a"
+source_draft_sha: "37c7a5c1cb6d372d2722884fbe9cccc16e01d60a"
+reader_review: "reader_reviews/0799_37c7a5c1.md"
+depends_on_chapter: 798
+depends_on_source_sha: "b50e1cf3106bd9830b854ae3c57b7a19085a47a1"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "798起稿前已正式Ready且引用精准，不存在旧Draft到Ready事实变化"
+timeframe: "Day664早至21点后；第二夜实际空岗发生Day66402:15—02:24"
+summary: >-
+  Day664母亲新荷街合法真住，旧仁合里四楼第二夜专业安保20时到08时被系统绿条误记连续完成，母亲拒预签。首夜Day66220时至Day66308时已真正核实，第798章Day663公区灯已维修且施工未挪守岗仍不证第二夜。09:26母亲从原对公渠道查本户当班岗位，11:40何工核得后岗02:08仅刷楼门、前岗02:15离四楼、后岗02:24才上四楼，先不假定中间绝无人；13:48后物业和专业单位按原单据及当事陈述核无正式替岗与双签，16:07证实02:15—02:24四楼固定点九分钟实空岗，虽无失锁报警/开门损坏证据不等于有人守。17:29旧绿条保留，新限项摘要在本户原号实改为岗位连续性未满足；后续现场双签要求已提出但未全面核实落实。Day664第三夜19:58只证首段到点20时起值，晚间夏宁仅获有权旧屋安全分班限项，不获新荷街门牌或邻里/孩子车事。母亲自己的旧左下单碗留白印纸保持原样，另画居中碗筷新草图未制版。晓漫带孩子取拔过旧订书针的纸箱分装纸车路线，孩子自持红七右后有角轮仍左偏的纸车、Day661左前不擦还会偏左纸签与悬空停车架，没有剪轮或重测。旧四楼闭锁12厘米观察口与亡夫饰板分封、水电受控隔离Day536撤清运整屋禁返住、无再开许可，R-12终签现门型Day577擦响根因、F014旧号旧信旧押金全渠道末端退付及七号箱五楼2019原卷均无跨源新证。
+meaningful_state_changes:
+  - "第二夜假连续绿条转为有责确认九分钟岗位空缺，旧误页存证新版纠正。"
+  - "第三夜只确认首段19:58实到20时起值，不将后续整夜预写完成；母亲新草图与旧单碗原纸各归自己。"
+knowledge_updates:
+  - "母亲与何工仅据有权岗位原记录证明02:08到楼不等于四楼到岗，02:15—02:24空岗无替补，且无报警不意味着岗位有人。"
+  - "夏宁仅知旧屋授权安全分夜限项、不知新荷街地址或孩子韩姨的私人活动。"
+relationship_updates:
+  - "母亲坚持物业和专业单位各自负责真实核证与更正，不以未出警签整班完成；晓漫与母亲尊重孩子自管纸车角轮与原始记录。"
+foreshadowing_updates:
+  - "第二夜当代安保缺口及有责更正不证明R-12/F014历史旧号旧信旧押金/2019原卷跨源结论，不授新开门许可。"
+ending_state: "Day664夜母亲仍新荷街真住；第二夜九分钟空岗确证且旧误绿页留档，第三夜仅首段真起岗；旧四楼双封闭锁隔离禁返住无开门许可，R-12/F014缺证不变，个人纸印草图和孩子纸车纸路各自保管。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "37c7a5c1cb6d372d2722884fbe9cccc16e01d60a", final_draft_sha: "37c7a5c1cb6d372d2722884fbe9cccc16e01d60a", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "reader_keep_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3091

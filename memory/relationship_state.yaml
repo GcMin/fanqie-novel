@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 796
+last_updated_chapter: 799
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4495,3 +4495,11 @@ chapter_798_arc054:
   mother_family: "母亲支持孩子自主做纸车停车架但不替他宣告整车跑直；晓漫守护原红七角轮及纸签记录。母亲保留自己旧单碗与新草图的各自选择。"
   mother_han: "韩姨自行解结、调整菜车购物袋并判断今天左门短行，不把菜车可过当旧屋维修结论。"
   mother_center: "夏宁在夜报中区分昨日首班已实守和新夜班尚待核，只获得本户授权的旧屋和公区灯限项。"
+
+chapter_799_arc054:
+  chapter: 799
+  source_sha: "37c7a5c1cb6d372d2722884fbe9cccc16e01d60a"
+  mother_property: "母亲要求何工基于原岗核查区别到楼与到位，不替专业单位签完整值守或追责私事；何工依证明确认二夜九分钟缺岗且保留原错页。"
+  mother_family: "母亲先拔纸箱旧订书针、晓漫带孩子把旧新纸路分格，尊重孩子暂时不剪右后角轮，母亲对新草图灰线保持自主选择。"
+  mother_center: "夏宁分别登记首夜真守第二夜空岗第三夜刚起，不将全部合并完成，守住私人住所与家庭信息边界。"
+  mother_han: "韩姨菜车继续本人管理，不参与旧屋夜班责任认定。"

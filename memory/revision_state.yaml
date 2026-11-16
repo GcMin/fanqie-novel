@@ -1,21 +1,21 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 798
-current_stage: chapter798_stageA_newSHA_reader_QA_pass_exact_CI_required
-current_source_path: chapters/draft/0798.md
-current_source_sha: 2598a54f6e25d23ea75be8e30f3fa709b00cec03
-current_review_path: reader_reviews/0798_2598a54f.md
+current_chapter: 799
+current_stage: chapter799_reader_QA_pass_exact_candidate_CI_required
+current_source_path: chapters/draft/0799.md
+current_source_sha: 37c7a5c1cb6d372d2722884fbe9cccc16e01d60a
+current_review_path: reader_reviews/0799_37c7a5c1.md
 rounds:
-  reviews_this_cycle: 2
-  local_revision_used: 1
+  reviews_this_cycle: 1
+  local_revision_used: 0
   chapter_rewrite_used: 0
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter798_stageA_correction_then_fresh_reader_pass_QA_pass
+last_action: chapter799_reader_pass_QA_pass_no_revision
 last_action_date: "2026-11-16"
 last_error: null
-last_diff_summary: "797原稿独立Reader 0/0/2无修订，798初稿独立Reader 0/2/2，Stage A更正15:12电话为15:25并将前章SHA重绑797正式Ready，798新SHA Reader 0/0/2及QA通过；等待精确候选CI。"
+last_diff_summary: "799原Draft SHA对应Reader0/0/2无正文修订、前章798正式Ready SHA精确匹配，独立QA通过，候选精确CI待验。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
@@ -9326,5 +9326,26 @@ combined_audit_chapter_798_20261116:
   body_revisions: 1
   predecessor_ready_sha: "aba050ecb23e1a353949687744f6d39efa4c15fc"
   predecessor_body_delta: provisional_vs_ready_body_identical
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_799_20261116:
+  chapter: 799
+  original_sha: "37c7a5c1cb6d372d2722884fbe9cccc16e01d60a"
+  final_draft_sha: "37c7a5c1cb6d372d2722884fbe9cccc16e01d60a"
+  review_path: reader_reviews/0799_37c7a5c1.md
+  reviews_this_cycle: 1
+  local_revision_used: 0
+  chapter_rewrite_used: 0
+  replan_rewrite_used: 0
+  retry_cycles: 0
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  body_revisions: 0
+  predecessor_ready_sha: "b50e1cf3106bd9830b854ae3c57b7a19085a47a1"
+  predecessor_body_delta: exact_ready_sha_no_provisional
   content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main
