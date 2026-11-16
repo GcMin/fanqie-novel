@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 809
-last_reviewed_title: "让开右后轮，纸桥还没站稳"
-last_source_path: chapters/draft/0809.md
-last_source_sha: 385e046ccef8d8a4ba5b1c8d6b20e27930b57082
-last_review_path: reader_reviews/0809_385e046c.md
+last_reviewed_chapter: 811
+last_reviewed_title: "桥脚多了挡片，左边先挪了一格"
+last_source_path: chapters/draft/0811.md
+last_source_sha: fdc5472b93858ad774a38199f524ffcbbfbe362d
+last_review_path: reader_reviews/0811_fdc5472b.md
 last_reviewed_at: "2026-11-17"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 808
-depends_on_source_sha: efdc8373b9c8e30f8358ba6da6dafbf1fd825f5a
+depends_on_chapter: 810
+depends_on_source_sha: b6a54c3776d1e4e042e99c8ffd43c9a4b424a406
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: efdc8373b9c8e30f8358ba6da6dafbf1fd825f5a
+predecessor_current_source_sha: b6a54c3776d1e4e042e99c8ffd43c9a4b424a406
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10827,4 +10827,44 @@ combined_audit_chapter_809_20261117:
   predecessor_ready_sha: "efdc8373b9c8e30f8358ba6da6dafbf1fd825f5a"
   predecessor_body_delta: real_two_phrase_change_nextFriday_to_thisFriday_in_808
   dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_810_20261117:
+  chapter: 810
+  original_source_sha: "3111a8020003d5f521866db2d6137b37e82bf2e6"
+  original_review_path: reader_reviews/0810_3111a802.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "20f0b15dc522a61d87e756c98e4c8f68b66d6fec"
+  review_path: reader_reviews/0810_20f0b15d.md
+  pass_a: independently_rereviewed_new_SHA_before_canon
+  pass_b: independently_rereviewed_after_canon
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_fix: char_count_FrontMatter_and_chapter_plan_3077_to_3092
+  body_revisions: 0
+  predecessor_ready_sha: "cb6c5fccb8a1419538c18235d8a5e8ae9f79f6f9"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_811_20261117:
+  chapter: 811
+  original_source_sha: "89cf9ca85c5f166fcfd8b65babaf894b39452cfe"
+  original_review_path: reader_reviews/0811_89cf9ca8.md
+  original_counts: {blocker: 0, major: 1, minor: 2}
+  source_sha: "fdc5472b93858ad774a38199f524ffcbbfbe362d"
+  review_path: reader_reviews/0811_fdc5472b.md
+  pass_a: independently_rereviewed_new_SHA_before_canon
+  pass_b: independently_rereviewed_after_canon
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  stage_a_fix: rebind_provisional_810_to_final_Ready_SHA
+  body_revisions: 0
+  predecessor_original_draft_sha: "3111a8020003d5f521866db2d6137b37e82bf2e6"
+  predecessor_ready_sha: "b6a54c3776d1e4e042e99c8ffd43c9a4b424a406"
+  predecessor_body_delta: body_identical_frontmatter_only
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
   structural_gate: exact_candidate_ci_required_before_main

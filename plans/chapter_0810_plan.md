@@ -9,9 +9,9 @@
 - depends_on_chapter: 809
 - depends_on_source_sha: cb6c5fccb8a1419538c18235d8a5e8ae9f79f6f9
 - dependency_status: verified_exact_ready_blob
-- plan_status: writer_draft_pending_independent_audit
+- plan_status: audit_content_QA_pass_exact_commit_CI_gate
 - target_chars: 2600—3400有效字符（硬限2300—3800）
-- actual_effective_chars: 3077
+- actual_effective_chars: 3092
 
 ## 目标 / POV
 Day675星期六，近距离第三人称跟随孩子处理后藏回口套的“右脚宽垫后退”。将“轮缘无擦”“桥脚限位”“止退舌自身疲劳”拆成不同验证项，产生一次可复查的进展与新的材料失效，不把两次平纸放置说成坡道成功。家庭支线并行，但不混入夜间中心隐私。
@@ -43,7 +43,7 @@ Day675星期六，近距离第三人称跟随孩子处理后藏回口套的“�
 ## Continuity Precheck（只由Writer执行）
 - 本轮GitHub `main` 按 `published/`、`ready/`、`draft/` 三目录核实最大章号809，`published/0153.md` 存在；第810章为未曾创建的新章。
 - 前章 `chapters/ready/0809.md` 的完整Git blob SHA为 `cb6c5fccb8a1419538c18235d8a5e8ae9f79f6f9`，正式Ready；本章严格承接Day674周五到Day675周六，没有把未审草稿设为Canon。
-- 近十章摘要与近五章正文、人物状态、时间线、F014和既有场景事实已交叉核对；只创建本章章纲和首稿，所有Reader/QA/Memory/ready操作交独立Audit。
+- 近十章摘要与近五章正文、人物状态、时间线、F014和既有场景事实已交叉核对；本章Writer只创建章纲与首稿；后续独立Audit已经纠正3092字数标记并完成新SHA Reader、Continuity/Style/Memory，仍需精确候选Commit结构CI通过才允许正式ready。
 
 ## 后续接点
 止退舌在轻放后翘边，孩子保留现版与失效样件，下一章仅可从该已证弱点出发，不可预说纸车已经修直或具备低坡承载可靠性。

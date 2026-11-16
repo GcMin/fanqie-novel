@@ -7,9 +7,9 @@
 - source_branch: main
 - source_main_sha_at_precheck: 7f81e75ef9267fbe8a22da5e2758856cbde9a149
 - depends_on_chapter: 810
-- depends_on_source_sha: 3111a8020003d5f521866db2d6137b37e82bf2e6
-- dependency_status: provisional
-- plan_status: writer_draft_pending_independent_audit
+- depends_on_source_sha: b6a54c3776d1e4e042e99c8ffd43c9a4b424a406
+- dependency_status: verified_exact_ready_blob
+- plan_status: audit_content_QA_pass_exact_commit_CI_gate
 - target_effective_chars: 2600—3400（硬限2300—3800）
 - actual_effective_chars: 3434
 
@@ -17,7 +17,7 @@
 有限第三人称，主要贴近晓漫照看的孩子；承接第810章Day675反向止退舌在第二次平纸轻放后翘边的已写草稿事实。儿童不是“修好车”，而是发现右侧限位不能代表双脚位置都稳，并形成下一次单因素对照。母亲新荷街版画与仁合里合法限项为受控短场景。
 
 ## 开场状态与人物诉求
-- Day675新止退舌挡住右垫的两次平纸轻放，本次未见垫片明显后退，但第二回折边翘起而停；从未以该舌片跑低坡；第810章尚未独立审定。
+- Day675新止退舌挡住右垫的两次平纸轻放，本次未见垫片明显后退，但第二回折边翘起而停；从未以该舌片跑低坡；第810章已通过独立Reader与内容QA并在本轮拟迁Ready。
 - 孩子要把“需要反复弯折的舌片”从装置里剔除，造可单独抽换的硬纸挡片，不碰原车底补片、旧胶、角轮、红七纸面；晓漫检查两只脚而不代做结论。
 - 学校Day674星期五两张班内卡已到授权期限，实际撤下情况仍未知；Day676星期日不得虚构已完成换展或获得新授权。
 
@@ -35,7 +35,7 @@
 - 孩子决定周一询问卡片撤展实际结果、另起左脚滑移与放车手势对照，既非展示已续展也非新试验已获许可。
 
 ## Canon / 人物知识与伏笔边界
-- 前章810仍是draft：`depends_on_chapter: 810`、精确Git blob `3111a8020003d5f521866db2d6137b37e82bf2e6`、`dependency_status: provisional`；仅作临时连续性参考，审核者若修订810必须重新核811衔接。
+- 前章810已通过独立Reader、Continuity/Style QA，拟按精确候选CI放行Ready：`depends_on_chapter: 810`、精确Git blob `b6a54c3776d1e4e042e99c8ffd43c9a4b424a406`、`dependency_status: verified_exact_ready_blob`；前章810原草稿与已生成的Ready交付版只在Front Matter字数及状态元数据发生改变，正文逐字一致；本章已实核并重绑最终Ready blob。
 - Day664第二夜02:15—02:24实缺九分钟；Day665第三夜02:24晚交但连续在岗，不相互抵销；第四夜以后仅分段核查。仁合里旧四楼闭锁、十二厘米口及亡夫饰板双封、水电隔离、Day536撤清运、整屋禁返住、无开门许可。
 - R-12末签及现门型Day577擦响原因，F014旧号旧信旧押金跨渠道末端凭据、七号箱五楼和2019旧卷均未增加跨源证据；F008/M004/M005不新增结论。
 - 夏宁仅了解本人有权公开的旧屋安全限项，不知道新荷街门牌、私印、儿童纸车。学校老师及同桌只知班内旧许可的范围，不先获知Day676私人结果。

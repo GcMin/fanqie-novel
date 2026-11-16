@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 810
+title: "止退片挡住了垫，折边却先翘起"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "3111a8020003d5f521866db2d6137b37e82bf2e6"
+source_draft_sha: "20f0b15dc522a61d87e756c98e4c8f68b66d6fec"
+reader_review: "reader_reviews/0810_20f0b15d.md"
+depends_on_chapter: 809
+depends_on_source_sha: "cb6c5fccb8a1419538c18235d8a5e8ae9f79f6f9"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "809初稿与正式Ready曾有校内Day674期限修订，810直接精确引用809最终Ready，Day674权限制约已正确承接，无临时差异"
+timeframe: "Day675星期六早晨至晚间"
+summary: >-
+  Day675孩子承接前一日后藏袖套右脚宽垫后退、轮缘悬空两圈不擦但未承重的新问题，改在纸桥右脚自身安装可拆止退舌，不向红七原车增胶。第一只厚舌把右脚顶翘，第二只安装在错误一侧挡不住宽垫向后滑；第三只反向回口在空桥轻拉时止退、加力折边发白即停。接近原车红止紧线，保留Day653底补片和Day661旧折胶，右后原有角轮悬空缓转两圈本次未擦，宽垫轻拨也暂未退。随后在平纸上手控轻放两回，两次宽垫肉眼未明显后退，但第二回左移被手扶住且止退舌折回处新翘边，停止第三回和所有低坡；不能认自由滑行或长期承载。孩子保留三种不同失败试样、旧裂带与新套，原红七角轮车回四轮悬空架、33mm替轮独袋，Day666同板六圈、Day667课堂一次、Day671改条件低坡两次另存。学校Day674两张卡班内展期已届满，实际是否撤下尚未确认且无新展示授权。母亲新荷街保留两张居中蓝碗试印筷尖同白口与旧左下单碗，未借邻居；仅循本人原受理渠道查旧四楼合法限项，不向夏宁透露私家事。Day664二夜02:15—02:24九分钟真实空岗、Day665三夜02:24晚交但仍有据连续不相抵，后续只分段材料；旧四楼双封闭锁、水电隔离、Day536撤清运、禁返住无新开门许可，R-12/F014/七号箱2019旧卷无新跨源证。
+meaningful_state_changes:
+  - "桥自身反向止退舌首次在两次有限平纸轻放中暂止右垫后退，却明确发现自身折边翘起的新受力失效；下步需改承力结构而不碰原车。"
+  - "有限承重与低坡证据被刻意分开，学校限展届满而是否实撤仍待星期一查询。"
+knowledge_updates:
+  - "孩子与晓漫知道第三只反向折舌在本次两回平纸放置后受力翘起，无法判断长期可靠或左偏成因；母亲只得家内视频有限事实。"
+  - "夏宁只知授权旧屋安全限项，不知道新荷街地址、儿童纸车/校内活动、私人蓝碗。"
+relationship_updates:
+  - "晓漫提示先在空桥试错并收纳废样，孩子自主保留白痕与真实未做栏；母亲尊重儿童如实标记并暂不借自己的印纸。"
+foreshadowing_updates:
+  - "手工桥脚止退与蓝碗打印均不构成R-12/F014历史跨源证，旧屋后班分段并不证整班。"
+ending_state: "Day675夜旧反向止退舌折边新翘起而停用受力，车在四轮悬空架、原轮原胶不动，低坡未测；Day674校内卡期限已过但实撤未知；旧四楼禁返住及F014历史缺证不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "3111a8020003d5f521866db2d6137b37e82bf2e6", final_draft_sha: "20f0b15dc522a61d87e756c98e4c8f68b66d6fec", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "fix_declared_effective_char_count_3077_to_3092_metadata_only"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3092

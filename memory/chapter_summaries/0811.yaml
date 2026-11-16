@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 811
+title: "桥脚多了挡片，左边先挪了一格"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "89cf9ca85c5f166fcfd8b65babaf894b39452cfe"
+source_draft_sha: "fdc5472b93858ad774a38199f524ffcbbfbe362d"
+reader_review: "reader_reviews/0811_fdc5472b.md"
+depends_on_chapter: 810
+depends_on_source_sha: "b6a54c3776d1e4e042e99c8ffd43c9a4b424a406"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "原810草稿3111a802经Front Matter有效字数3077→3092更正和ready状态变化为b6a54c37；两版小说正文逐字一致，811仅精确重绑正式Ready，原provisional叙事事实没有改变"
+timeframe: "Day676星期日早至夜"
+summary: >-
+  Day676星期日孩子保留Day675第二次轻放后翘边的反向折舌，不压回伪修复。改用饼干盒硬纸横挡片与纸桥右脚外箍：第一只松箍空桥拿起即滑脱，第二只箍紧令桥左脚离桌，第三只甲三用两道缝与可抽硬纸横片，桥体无载提放两回两脚暂触桌且未见滑脱，方向短头由朝内改朝外。原红七右后有角轮、Day653底补、Day661旧胶无改，甲三在真车悬空右后角轮两整圈本次未擦、不与先前两天不同安装条件累计。平纸轻放两回，第一回双侧肉眼未错位，第二回右垫仍未明显向后退却有左脚相对纸面轮廓错位和斜纸纹，孩子承认可能手放歪或纸面干扰，停止第三回和低坡并拟做单变量排查，不认真实坡道左偏原因已找出。Day674班内旧卡和半张新卡期限早已截止，但实际换展撤卡未知，孩子决定Day677周一具名问老师，不索要群发照片、不先贴私人新记录。原车回四轮悬空架，Day666六圈、Day667课堂一次、Day671低坡两次和33mm替轮分存。母亲新荷街只保留蓝碗试一试二同白口及旧单碗，不借邻居，家庭纸车和作品不进入夏宁公事记录；旧四楼专业第二夜九分钟真缺岗和第三夜迟交却有据连续分别有效、第四夜后分段未全班核定，闭锁双封水电隔离Day536撤清运整屋禁返住与R-12/F014/2019缺证不变。
+meaningful_state_changes:
+  - "从右垫止退片本身翘起推进到甲三横挡可抽结构，并发现第二次落桌左桥脚参考位置错位，新假设是左脚滑移或手势/纸面误差。"
+  - "孩子新增周一只通过老师核学校旧卡实际撤展的具体行动，不靠未授权公开照片。"
+knowledge_updates:
+  - "孩子与晓漫知道甲三空桥两回可站平、真车悬空本次两整圈无擦、平纸第二回右侧暂稳而左脚相对轮廓错位；左脚为何错位和坡道持续偏左根因未知。"
+  - "母亲只得视频有限结论、独持两蓝碗与旧单碗；夏宁不知新住所或手工。"
+relationship_updates:
+  - "晓漫鼓励分开左右脚变量、遇左侧错位停止，孩子拒绝靠改摆条件假解；母亲以印纸变量提醒先确认单因素。"
+foreshadowing_updates:
+  - "Day676私家桥脚偏移、旧卡待核和后班分段安全进度均不构成R-12/F014/2019历史新跨源证。"
+ending_state: "Day676夜甲三可拆硬片与左脚纸纹分袋，原红七旧角轮车在悬空架，低坡没跑、左脚错位原因待排；Day677拟问老师旧两卡实撤，旧四楼禁返住和全部旧证据边界持续。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "89cf9ca85c5f166fcfd8b65babaf894b39452cfe", final_draft_sha: "fdc5472b93858ad774a38199f524ffcbbfbe362d", stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "rebind_810_provisional_SHA_to_exact_final_ready_metadata_only_body_identical"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3434
