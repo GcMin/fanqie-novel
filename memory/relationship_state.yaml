@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 795
+last_updated_chapter: 796
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4471,3 +4471,11 @@ chapter_795_arc054:
   mother_han: "韩姨自主决定何时推菜车及空载、以水土豆近似负载试车，也自己保留灰带后续检查责任；母亲只观察帮助，不替韩姨车作鉴定。"
   mother_daughter_child: "晓漫和母亲尊重孩子保留原红七有角纸车和偏左试走记录，孩子只画新门槛、标自己车未测试，未由成人借别人车的通过改写儿童证据。"
   mother_center: "仍只共享授权仁合里旧四楼安全限项，夏宁不接受新居门牌和家人邻里日常细节。"
+
+chapter_796_arc054:
+  chapter: 796
+  source_sha: "eda1b44e7f0ff1cd1e82dd5977d8044fc758d758"
+  mother_child: "母亲以原样记载、单项修改及有效前后对照保护孩子纸车作品和试验决定权，不为达到完全跑直代剪右后角轮。"
+  xiaoman_child: "晓漫不以「修好了」纸签代替孩子有限结论，孩子自己决定将「左前不擦。还会偏左。」纸签夹在原实验纸而非贴车顶。"
+  mother_han: "韩姨自持本人菜车并说明这次过已修左门未卡，不替儿童纸车判断根因及长期安全。"
+  mother_center: "夏宁只获母亲授权旧四楼限项，不涉及新居院门与儿童试车隐私。"

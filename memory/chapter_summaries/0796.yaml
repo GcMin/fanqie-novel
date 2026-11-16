@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 796
+title: "贴纸挪开了，车还留着小角"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "eda1b44e7f0ff1cd1e82dd5977d8044fc758d758"
+source_draft_sha: "eda1b44e7f0ff1cd1e82dd5977d8044fc758d758"
+reader_review: "reader_reviews/0796_eda1b44e.md"
+depends_on_chapter: 795
+depends_on_source_sha: "2a6b53ca8994768b9a898dcf6a45d081d2d7c12e"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "796依赖795已正式Ready的精确Blob，795原稿曾修左/右门方位但本章不引用其旧Draft，不存在未核事实差异。"
+timeframe: "Day661上午—21点后"
+summary: >-
+  Day661新荷街左侧院门Day660更换的低斜过渡条在韩姨本次菜车通行时不再卡轮，但仍不能宣称长期适用；菜车灰带高系补三针不变。孩子午后随晓漫带顶上红七、右后角轮及Day653/654/658/660旧记录到母亲合法租屋，Day638方窗船仍在低柜内侧。用原低斜板、固定起点、接车箱和横向止车挡进行改前有效三次滑行均偏左，另一次额外手推划线作废但不抹去。查明Day653补裂底旧胶带卷尾在压车受力时周期性擦左前轮；母亲不推断为整车左偏唯一原因。孩子护纸下只把胶带松尾折回底部原固定区，右后角轮、红七、两轴管均未改。改后慢推薄纸可抽、擦纸声暂消；同板三趟仍左偏，其中两趟较改前近中央；旧Day653的56/53厘米、Day654的49/52及68/71厘米均保留，本日不与不同坡面条件跨期硬比。孩子写「左前不擦。还会偏左。」Day661纸签并夹入记录而非贴到车顶，避免旁人只看一句当整车修好，车与记录本人带回。母亲仍持本人单碗双碗纸作，方窗船不动。夜间夏宁仅获仁合里旧四楼授权限项，Day656外巡绿标更正、Day657无许可维修撤销并实收、Day659本户旧按钮撤下互不推成专业守门/再开许可；旧屋闭锁双封受控隔离禁返住和R-12/F014/2019旧卷未证不变。
+meaningful_state_changes:
+  - "孩子证实左前轮受载擦Day653旧胶带并只折回松尾，经本日有限复测原擦声暂消，整车仍左偏，局部改善与未解状态明确分开。"
+  - "保留额外加推无效试验及三次改前后三次改后圈点，写双结论纸签夹回记录，车辆和判断权仍归孩子。"
+knowledge_updates:
+  - "母亲、晓漫与孩子仅知道本次受力左前轮碰胶带，未确认角轮不圆/轴套/木轴/坡面哪项造成全部转向，也未宣布完全修好。"
+  - "夏宁只知旧四楼授权安全限项，不知新荷街邻里菜车或儿童纸车与门牌。"
+relationship_updates:
+  - "母亲护纸协助且不代剪轮角，晓漫不替孩子贴修好标签，孩子决定记录与修复范围。"
+  - "韩姨仍自持自己菜车、只报告本人当次通行，与孩子玩具试车互不代证。"
+foreshadowing_updates:
+  - "本章日常儿童纸车胶带单项调整，不构成F014旧联系号/旧信/旧押金各渠道末端真退、R-12末签现门型Day577擦响或七号箱五楼2019旧卷的跨源新证。"
+ending_state: "Day661夜母亲继续合法住新荷街，韩姨菜车当次过修好的左门但需长期观察；红七右后有角纸车仅左前胶带松尾收好而仍左偏，孩子自持车与原始纸签；旧仁合里四楼禁返住、专业整班守门再开许可未成、R-12/F014仍缺历史证据。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "eda1b44e7f0ff1cd1e82dd5977d8044fc758d758", final_draft_sha: "eda1b44e7f0ff1cd1e82dd5977d8044fc758d758", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "reader_keep_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3391
