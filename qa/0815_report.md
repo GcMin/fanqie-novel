@@ -69,7 +69,7 @@
 
 ## 结构门槛：PASS
 
-- 精确候选提交：`801968e840ecaa04248cb0e004faa7c44a70c3ae`
-- GitHub Actions `publisher-check`：run `43967808307`
-- 结果：success；离线快照测试与当前 checkout 的 `python -m publisher.check_local --repo .` 均成功。
-- 该运行的 head SHA 与候选提交精确一致。只有在最终候选快照再次通过结构检查后，才 fast-forward 合入 main。
+- 第一候选提交：`801968e840ecaa04248cb0e004faa7c44a70c3ae`；publisher-check run `43967808307` success。
+- 最终 main 提交：`5d01866c31eb7a223f325925651127354f7e6406`；publisher-check run `43968060950` success，head SHA 与 main 精确一致。
+- 两次均完成离线快照测试与当前 checkout 的 `python -m publisher.check_local --repo .`；未启用发布。
+- 最终 Ready Blob：`8867e81910a8b8a3550bc08643f5a5461d14ccbf`；main 中 draft 已原子移除，Ready 已存在。

@@ -1,9 +1,9 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 815
-current_stage: chapter815_ready_exact_candidate_CI_pass
-current_source_path: chapters/draft/0815.md
-current_source_sha: eca3209fe1d35415071635751d715eafee09c1b8
+current_stage: chapter815_ready_main_exact_CI_pass
+current_source_path: chapters/ready/0815.md
+current_source_sha: 8867e81910a8b8a3550bc08643f5a5461d14ccbf
 current_review_path: reader_reviews/0815_eca3209f.md
 rounds:
   reviews_this_cycle: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter815_ready_after_exact_candidate_CI_success
+last_action: chapter815_ready_main_exact_CI_success
 last_action_date: "2026-11-17"
 last_error: null
-last_diff_summary: "815源SHA eca3209f独立Reader 0/0/2 keep/none，正文0改；独立Continuity/Style/Meaningful QA PASS，有效2824字；候选提交801968e840ecaa04248cb0e004faa7c44a70c3ae的publisher-check run 43967808307 success，等待最终候选快照再次校验后合入main。"
+last_diff_summary: "815源SHA eca3209f独立Reader 0/0/2 keep/none，正文0改；独立Continuity/Style/Meaningful QA PASS，有效2824字；最终main提交5d01866c31eb7a223f325925651127354f7e6406的publisher-check run 43968060950 success，已Ready。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true

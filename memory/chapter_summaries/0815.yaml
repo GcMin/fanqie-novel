@@ -40,7 +40,7 @@ foreshadowing_updates:
 ending_state: "Day680夜母亲将三张描纸与两张试印分夹，当前版标记白口暂留而非定稿；旧左下单碗独存，原印未借出、软版未改、没有第三张正式印样。孩子只保留不承载空架样的条件纸，新增观察线要求，未剪、未制作、未测试；红七原车仍在四轮悬空架。周六三点踢球已确认。旧四楼闭锁禁返住，后续夜班分段待核，历史缺证不变。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "eca3209fe1d35415071635751d715eafee09c1b8", final_draft_sha: "eca3209fe1d35415071635751d715eafee09c1b8", initial_counts: {blocker: 0, major: 0, minor: 2}, final_counts: {blocker: 0, major: 0, minor: 2}, stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, metadata_revisions: 0, reason: "no_blocker_or_major_no_revision"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_pass}
-structural_validation_commit: "801968e840ecaa04248cb0e004faa7c44a70c3ae"
-structural_validation_run: "43967808307"
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_main_CI_pass}
+structural_validation_commit: "5d01866c31eb7a223f325925651127354f7e6406"
+structural_validation_run: "43968060950"
 char_count: 2824

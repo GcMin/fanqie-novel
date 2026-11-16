@@ -75,4 +75,4 @@ Day680夜，母亲将描纸与试印分夹，标签写“白口暂留”，不�
 - 正文修订0；有效字数2824，Front Matter一致。
 - 独立 Continuity / Style / Meaningful QA：PASS；前章814 Ready SHA精确匹配。
 - Memory 与 chapter_plan.csv 已按本章正文同步；F014维持active，无新历史证据。
-- 候选提交 `801968e840ecaa04248cb0e004faa7c44a70c3ae` 的 publisher-check run `43967808307` 已成功；最终证据快照仍须精确CI成功后才合入main。
+- 候选提交 `801968e840ecaa04248cb0e004faa7c44a70c3ae` 的 publisher-check run `43967808307` 成功；最终 main 提交 `5d01866c31eb7a223f325925651127354f7e6406` 的 run `43968060950` 也成功，已正式合入 Ready。
