@@ -1,0 +1,33 @@
+schema_version: 1
+chapter: 805
+title: "纸桥托住了轴套，车还没上坡"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "fae0df58ed3c3d8a2aa33f76ad31f3596c1ca4de"
+source_draft_sha: "fae0df58ed3c3d8a2aa33f76ad31f3596c1ca4de"
+reader_review: "reader_reviews/0805_fae0df58.md"
+depends_on_chapter: 804
+depends_on_source_sha: "fc5ec2deb4217e5bbbcc1e3734d7003c97f06e39"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "805依赖804正式Ready精确blob，非临时SHA；无需新旧版本事实修复"
+timeframe: "Day670星期一放学后至夜间"
+summary: >-
+  Day670孩子在晓漫家将Day669真车后套管相对车盒可见位移推进为可拆纸桥实验。第一版脚长短不等、第二版碰Day661折回旧胶带和右后旧角轮；第三版宽垫和上沿横梁设红色止紧线以免夹瘪车壳。A无支撑2次落平纸时后套管端相对车壳短线可见错位，B装第三版纸桥2次落桌本次暂未见肉眼错位，准备第三次时右脚滑落停止，不算完成。第四版右脚增加可抽宽垫并画双参考记号，只三次悬空拆装复核，一次垫角外翻；未作低斜板坡道试跑、未证左偏根因。原车顶红七、右后带角轮、原旧胶带与底补片不改，33毫米新轮、Day666六圈、Day667班内一趟、Day668备用轴三间隙、Day669外壁观察与本次记录各自分存。母亲在新荷街仅获孩子有限家庭照片视频，保留两张蓝碗试印同筷尖白口和旧左下单碗；学校本班后墙一张副本许可至下周五未扩大。旧仁合里四楼第二夜02:15—02:24九分钟真空岗和第三夜迟交却连续不抵消，第四夜后仅分段进度；双封闭锁水电隔离Day536撤清运禁返住无新开门许可，R-12/F014/2019历史缺证未变；夏宁只知有权旧屋限项。
+meaningful_state_changes:
+  - "孩子真的制成可拆第三版纸桥、第四版可抽右垫，观察两次有限B条件后套管暂无肉眼错位，同时发现纸桥滑移及重装不稳定。"
+  - "增加后套管与纸桥双对齐记号，明确先检桥不滑再决定是否新试坡。"
+knowledge_updates:
+  - "孩子与晓漫仅知本次A2落桌有错位、B2暂未见错位、拟B3因桥滑停，第四版三回悬空重装一次垫角外翻；不知道斜坡上可靠性及左偏根因。"
+  - "母亲仅在家庭视频获有限实验内容；夏宁不知私作和新荷街地址，后夜旧屋值守只有进度。"
+relationship_updates:
+  - "晓漫保护纸车原状并阻止过度夹紧，孩子独立保留失败版及停测次数；母亲不替孩子把暂稳写成已修好。"
+foreshadowing_updates:
+  - "纸桥与私人蓝碗不提供旧屋R-12末签、F014旧号旧信旧押金末端真退及2019原卷跨源证据。"
+ending_state: "Day670夜原红七角轮车仍停四轮悬空架，纸桥1—4版与新表分开保留；第四版未做斜坡试验、纸桥右垫稳定性仍待检。学校旧副本未换，母亲蓝碗两试和旧单碗未外展，旧四楼闭锁禁返住、后夜待核。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "fae0df58ed3c3d8a2aa33f76ad31f3596c1ca4de", final_draft_sha: "fae0df58ed3c3d8a2aa33f76ad31f3596c1ca4de", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "reader_keep_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3364
