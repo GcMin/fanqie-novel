@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 800
-last_reviewed_title: "接班晚了，守门的人没先走"
-last_source_path: chapters/draft/0800.md
-last_source_sha: 06c966b2e495d8618af65f341b7daf1292df2dde
-last_review_path: reader_reviews/0800_06c966b2.md
+last_reviewed_chapter: 801
+last_reviewed_title: "新轮试过了，旧轮仍然留着"
+last_source_path: chapters/draft/0801.md
+last_source_sha: 31e300e262b1697aac0d16a87a272adb218e83f3
+last_review_path: reader_reviews/0801_31e300e2.md
 last_reviewed_at: "2026-11-16"
 reviewer_mode: combined_audit_independent_pass_a_then_b_new_sha
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 799
-depends_on_source_sha: 70a15f62f028d7a27ea54abcdef8d9e524b85ce9
+depends_on_chapter: 800
+depends_on_source_sha: 9885db2de7c501007e23ee1f8af4df7c1040fcb8
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 70a15f62f028d7a27ea54abcdef8d9e524b85ce9
+predecessor_current_source_sha: 9885db2de7c501007e23ee1f8af4df7c1040fcb8
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10669,5 +10669,26 @@ combined_audit_chapter_800_20261116:
   char_count: 3132
   predecessor_ready_sha: "70a15f62f028d7a27ea54abcdef8d9e524b85ce9"
   predecessor_body_delta: provisional_vs_ready_body_identical_metadata_only
+  dependency_status: verified_exact_ready_blob
+  structural_gate: exact_candidate_ci_required_before_main
+
+combined_audit_chapter_801_20261116:
+  chapter: 801
+  original_source_sha: "31e300e262b1697aac0d16a87a272adb218e83f3"
+  source_sha: "31e300e262b1697aac0d16a87a272adb218e83f3"
+  previous_review_path: null
+  review_path: reader_reviews/0801_31e300e2.md
+  pass_a: completed_independently_before_canon
+  pass_b: completed_independently_after_canon
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  recommendation: keep
+  required_action: none
+  body_revisions: 0
+  qa_gate: pass
+  char_count: 3228
+  predecessor_ready_sha: "9885db2de7c501007e23ee1f8af4df7c1040fcb8"
+  predecessor_body_delta: exact_ready_sha_no_provisional
   dependency_status: verified_exact_ready_blob
   structural_gate: exact_candidate_ci_required_before_main

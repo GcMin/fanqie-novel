@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 800
+last_updated_chapter: 801
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4511,3 +4511,11 @@ chapter_800_arc054:
   mother_family: "孩子自己用软尺测右后角纸轮两个方向约差3毫米并想留原轮造对照，晓漫辅助但不代剪；母亲关心测量单位、保护成人工具安全，自己刻新蓝色居中碗试印不把原左下单碗改造。"
   mother_center: "夏宁分夜记录第二夜真正缺九分钟和第三夜连续但迟交，不用后一次覆盖前一次；新荷街私人住所艺术与儿童玩具不泄漏。"
   mother_han: "韩姨仍自主使用自家菜车，不涉及旧四楼夜岗或孩子测量。"
+
+chapter_801_arc054:
+  chapter: 801
+  source_sha: "31e300e262b1697aac0d16a87a272adb218e83f3"
+  mother_child: "母亲提供斜板、提醒装卸垫片会干扰对比而不替孩子剪旧角轮、改六次落点或宣布已修直；孩子决定周五只讲实际试过。"
+  xiaoman_child: "晓漫监管剪刀及扩孔器具，但不代孩子得出唯一根因，也尊重原有角轮、替代轮和练习失败片的保留权。"
+  mother_han: "韩姨自己推菜车与观察灰带和左门本次通行，母亲不代签长期可靠。"
+  mother_center: "母亲仅经旧区原对公渠道与夏宁分享本户旧四楼受权限项，不向中心披露私人新居与儿童试验。"

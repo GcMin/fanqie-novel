@@ -1,0 +1,34 @@
+schema_version: 1
+chapter: 801
+title: "新轮试过了，旧轮仍然留着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "31e300e262b1697aac0d16a87a272adb218e83f3"
+source_draft_sha: "31e300e262b1697aac0d16a87a272adb218e83f3"
+reader_review: "reader_reviews/0801_31e300e2.md"
+depends_on_chapter: 800
+depends_on_source_sha: "9885db2de7c501007e23ee1f8af4df7c1040fcb8"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "第800章已正式Ready、来源SHA完全相同，不涉及旧临时前章与最终正文差异"
+timeframe: "Day666早—晚"
+summary: >-
+  Day666母亲在新荷街将昨晚未干的居中碗蓝印干后背记试一，旧左下单碗印纸另存；孩子晓漫带红七右后有角纸轮仍左偏的纸车来访，按Day665测约34/31毫米做直径33毫米可换轮，剪坏首片写练习仍保留，二片中心孔偏紧用钝头扩孔且纸垫重新装影响摩擦。按同斜板同起点原角轮两次A新轮两次B装回原角轮两次A共六落点，B两次当次相对靠中间但仍偏左不能归角轮唯一原因；原有角轮装回，替换轮独袋、练习坏片和原记录保留，孩子决定周五只讲试过的结果不称已经修好。母亲不改软版只减墨匀压印试二，碗沿改善而筷尖原白口仍在，干后亲背签，不外借展。韩姨高系灰带菜车本次过修好左门槛只是有限事实。仁合里旧四楼Day664第二夜02:15—02:24九分钟真实空岗与第800章Day665核第三夜有据连续但02:24延交分别成立，Day666仅后续新班核查进度不能预先写完成。旧屋闭锁双封水电隔离Day536撤清运整屋禁返住无再开许可，R-12末签现门型Day577根因与F014旧联系号旧信旧押金及七号箱五楼2019原卷仍无新跨源证，夏宁只知旧屋合法限项不知家庭私人手作与新住址。
+meaningful_state_changes:
+  - "孩子真做33毫米新轮并A-B-A六次同板试车，原右后角轮复装、仍偏左，保存全部圈点与练习片。"
+  - "母亲首印干后署试一并以未改软版做减墨试二，确认碗沿清晰度随上墨改变而版上白口不变。"
+knowledge_updates:
+  - "孩子及晓漫母亲知B两次暂更居中但孔径和垫片重装都是干扰，不能认右后角轮唯一根因。"
+  - "夏宁只获旧四楼限项，后续新班仅有核查进度、历史缺证不变。"
+relationship_updates:
+  - "成年人只监督安全，不代孩子改旧角轮或给学校展示写已修好结论。"
+  - "母亲保留自己两张新版碗试印与旧纸的选择权，韩姨菜车仍自理。"
+foreshadowing_updates:
+  - "现代纸车与个人纸印、夜岗核查进度不证明F014旧联系号初源、旧信当年真人收讫、旧押金所有渠道末端真退或R-12现门历史根因及2019原卷。"
+ending_state: "Day666夜孩子原角轮重新装在红七仍左偏纸车、新轮单袋、练习片与六次落点均存；母亲居中碗试一试二及旧左下单碗各自保管，旧屋双封隔离禁返住与F014/R-12缺证不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "31e300e262b1697aac0d16a87a272adb218e83f3", final_draft_sha: "31e300e262b1697aac0d16a87a272adb218e83f3", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, reason: "reader_keep_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 3228
