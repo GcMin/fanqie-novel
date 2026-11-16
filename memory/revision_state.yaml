@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 814
-current_stage: chapter814_title_metadata_fix_new_SHA_reader_QA_pass_exact_commit_CI_gate
+current_stage: chapter814_ready_exact_candidate_CI_pass
 current_source_path: chapters/draft/0814.md
 current_source_sha: 59c6e7b5e187d89f0a33273f2b09263f78364ce0
 current_review_path: reader_reviews/0814_59c6e7b5.md
@@ -12,13 +12,13 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter814_rebind_813_Ready_fix_title_then_new_SHA_Rereview_QA
+last_action: chapter814_ready_after_exact_candidate_CI_success
 last_action_date: "2026-11-17"
 last_error: null
-last_diff_summary: "814初审0/1/2：重绑813正式Ready SHA，标题纸袋更正为纸盒；正文未改，新SHA独立Reader0/0/2，Continuity/Style PASS，候选精确CI待执行。"
+last_diff_summary: "814初审0/1/2：重绑813正式Ready SHA，标题纸袋更正为纸盒；正文未改，新SHA独立Reader0/0/2，Continuity/Style PASS；候选提交a179a586b4e1813c797bd6f184d1a860bff198ef的publisher-check运行43958900474成功并已合入main。"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: false
+publish_gate_passed: true
 current_review_source_sha: 59c6e7b5e187d89f0a33273f2b09263f78364ce0
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
@@ -6509,7 +6509,7 @@ combined_audit_chapter_627_20261109:
   final_counts: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
   predecessor_ready_sha: "887ec4d39d7f1c6534379118408ed4d66526c554"
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_628_20261109:
   chapter: 628
@@ -6528,7 +6528,7 @@ combined_audit_chapter_628_20261109:
   body_revisions: 0
   final_counts: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_629_20261109:
   chapter: 629
@@ -6890,7 +6890,7 @@ chapter_650_arc054_verified:
   content_qa: pass
   predecessor_ready_sha: "d91a5a364d54abfabac081ed4b68226352920129"
   predecessor_factual_delta: exact_ready_blob_no_delta
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 chapter_651_arc054_verified:
   chapter: 651
@@ -6908,7 +6908,7 @@ chapter_651_arc054_verified:
   predecessor_old_draft_sha: "7d509b01218c8c20124967b14a76af5fc3afad2c"
   predecessor_ready_sha: "efe399e168b616b854ff5a712c5a6ed2c7433077"
   predecessor_factual_delta: only_prior_application_scope_paragraph_changed_day513_results_stable
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 chapter_652_arc054_verified:
   chapter: 652
@@ -6925,7 +6925,7 @@ chapter_652_arc054_verified:
   content_qa: pass
   predecessor_ready_sha: "d51a4fdb9a26938a17fbeb2d28dbd861c0384d85"
   predecessor_factual_delta: exact_ready_blob_no_delta
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 chapter_653_arc054_verified:
   chapter: 653
   original_source_sha: "fea8fbe489de9415a2a8847a0da183eba782b77d"
@@ -6939,7 +6939,7 @@ chapter_653_arc054_verified:
   content_qa: pass
   predecessor_ready_sha: "6c9a747bc17906da8f1aa2a1b9c847cf71a227fb"
   predecessor_factual_delta: exact_ready_blob_no_delta
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 chapter_654_arc054_verified:
   chapter: 654
@@ -6972,7 +6972,7 @@ chapter_655_arc054_verified:
   content_qa: pass
   predecessor_ready_sha: "ea3fd357f2acf3e560a6d8dfe4e502d77c7188e1"
   predecessor_factual_delta: exact_ready_blob_no_delta
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 chapter_656_arc054_verified:
   chapter: 656
@@ -6982,7 +6982,7 @@ chapter_656_arc054_verified:
   stage_a_used: 0
   content_qa: pass
   predecessor_ready_sha: "3de810384ad70d70c12aadc56c0528b9b67b8e83"
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 chapter_657_arc054_verified:
   chapter: 657
   original_source_sha: "fb8aaf1288313eaf328889ecfc9096e1b34fb274"
@@ -6994,7 +6994,7 @@ chapter_657_arc054_verified:
   body_revisions: 0
   content_qa: pass
   predecessor_ready_sha: "4a4c050753be44c7e5b8217c1c2e0d85fc86cf9f"
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 chapter_658_arc054_verified:
   chapter: 658
@@ -7007,7 +7007,7 @@ chapter_658_arc054_verified:
   body_revisions: 0
   content_qa: pass
   predecessor_ready_sha: "be6e8c676b47ef7108c7612aa766934b44fef57c"
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 chapter_659_arc054_verified:
   chapter: 659
   original_source_sha: "55c396d9c3c49d5571d32431da25ebf75ff0af10"
@@ -7025,7 +7025,7 @@ chapter_659_arc054_verified:
   predecessor_draft_sha: "7272759c61839d1bcd10d48d04e1a55fd792e332"
   predecessor_ready_sha: "3513b6d40317b2e6088582270ae081ea8eaecb95"
   predecessor_factual_delta: title_body_exact_same_metadata_only
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 chapter_660_arc054_verified:
   chapter: 660
@@ -7043,7 +7043,7 @@ chapter_660_arc054_verified:
   content_qa: pass
   predecessor_ready_sha: "c682b063926e755e0f6b79ce7142b1aacd54a809"
   predecessor_factual_delta: exact_ready_blob_no_delta
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_661_20261110:
   chapter: 661
@@ -7071,7 +7071,7 @@ combined_audit_chapter_662_20261110:
   content_qa: pass
   predecessor_ready_sha: "277f77d690161406c42e1149f16bb3627c00bca4"
   predecessor_factual_delta: exact_ready_blob_no_delta
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_663_20261110:
   chapter: 663
@@ -7089,7 +7089,7 @@ combined_audit_chapter_663_20261110:
   content_qa: pass
   predecessor_ready_sha: "5116f5351216b8069751e8426503d780ce73f43e"
   predecessor_factual_delta: title_body_same_metadata_only
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_664_20261110:
   chapter: 664
@@ -7107,7 +7107,7 @@ combined_audit_chapter_664_20261110:
   content_qa: pass
   predecessor_ready_sha: "e74b9b2a9551a716c235b6a8fc12ffd6df7268b2"
   predecessor_factual_delta: exact_ready_blob_no_delta
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_666_20261111:
   chapter: 666
@@ -7124,7 +7124,7 @@ combined_audit_chapter_666_20261111:
   revision_reason: trim_322_and_fix_effective_char_count
   content_qa: pass
   predecessor_ready_sha: "61a341f1b423f5efb64a1867c9a47d705a32a1b5"
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_667_20261111:
   chapter: 667
@@ -7141,7 +7141,7 @@ combined_audit_chapter_667_20261111:
   revision_reason: rebind_666_formal_ready_after_322_chars_trim_no_factual_delta
   content_qa: pass
   predecessor_ready_sha: "1417c2cf8c67df84f7049ccca4e034d214f213ba"
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_668_20261111:
   chapter: 668
@@ -7156,7 +7156,7 @@ combined_audit_chapter_668_20261111:
   revision_reason: no_fix_required
   content_qa: pass
   predecessor_ready_sha: "7be674fee6d504f6dccfc963ac39072d427d3728"
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_669_20261111:
   chapter: 669
@@ -7174,7 +7174,7 @@ combined_audit_chapter_669_20261111:
   content_qa: pass
   predecessor_provisional_sha: "77b874efb8ce050b3ac79f6bc7dfbe313eea90a2"
   predecessor_ready_sha: "d68707522b84305fa497a1021d97e2be9037bcb5"
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_670_20261111:
   chapter: 670
@@ -7189,7 +7189,7 @@ combined_audit_chapter_670_20261111:
   revision_reason: no_fix_required
   content_qa: pass
   predecessor_ready_sha: "913aca30b754e43dcbc75161afb8336e73b89dc4"
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_671_20261111:
   chapter: 671
@@ -7208,7 +7208,7 @@ combined_audit_chapter_671_20261111:
   predecessor_ready_sha: "4512e10b5fcf38054d11e9a4574c9ecf8d268dc3"
   predecessor_factual_delta: title_body_exact_same_metadata_only
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_672_20261111:
   chapter: 672
@@ -7223,7 +7223,7 @@ combined_audit_chapter_672_20261111:
   revision_reason: no_fix_required
   content_qa: pass
   predecessor_ready_sha: "c1858aa49109b934a3ca46d30f3d7ea272d8fe1d"
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_673_20261111:
   chapter: 673
   original_sha: "b9ffac86585eaa5e6007b4e0831c0a5cefe0a784"
@@ -7241,7 +7241,7 @@ combined_audit_chapter_673_20261111:
   predecessor_ready_sha: "f1e947f9108812edf119f9f74f80245006a72a0d"
   predecessor_factual_delta: title_body_exact_same_metadata_only
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_674_20261111:
   chapter: 674
@@ -7256,7 +7256,7 @@ combined_audit_chapter_674_20261111:
   revision_reason: no_fix_required
   content_qa: pass
   predecessor_ready_sha: "8aac5808317d9a120e113be5d08986b3b9fb25e5"
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_675_20261111:
   chapter: 675
@@ -7275,7 +7275,7 @@ combined_audit_chapter_675_20261111:
   predecessor_ready_sha: "976a50a07aef6e8ec44c61a45e05ca305d3e1a25"
   predecessor_factual_delta: title_body_exact_same_metadata_only
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_676_20261111:
   chapter: 676
@@ -7290,7 +7290,7 @@ combined_audit_chapter_676_20261111:
   revision_reason: no_fix_required
   content_qa: pass
   predecessor_ready_sha: "be0da8527fc2d96898b3c085bab4ae896cf835b8"
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_677_20261111:
   chapter: 677
@@ -7309,7 +7309,7 @@ combined_audit_chapter_677_20261111:
   predecessor_ready_sha: "dbd9941161659e9fde6f371c9beadc2ac7834cf0"
   predecessor_factual_delta: title_body_exact_same_metadata_only
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_678_20261111:
   chapter: 678
   original_sha: "5fc45a11ea75d322c3be48aecd8a359ca976f8d3"
@@ -7323,7 +7323,7 @@ combined_audit_chapter_678_20261111:
   revision_reason: no_fix_required
   content_qa: pass
   predecessor_ready_sha: "8265a5b5d51c6d18e684d73310084085bc6ffa3c"
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_679_20261111:
   chapter: 679
@@ -7338,7 +7338,7 @@ combined_audit_chapter_679_20261111:
   revision_reason: no_fix_required
   content_qa: pass
   predecessor_ready_sha: "743edd2d29c35ad2dba1274bf995bb2537dd4be6"
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_680_20261111:
   chapter: 680
@@ -7357,7 +7357,7 @@ combined_audit_chapter_680_20261111:
   predecessor_ready_sha: "6248f6ee6619b2f0c7818e0e10159198817b70ae"
   predecessor_factual_delta: title_body_exact_same_metadata_only
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 
 combined_audit_chapter_681_20261111:
@@ -7396,7 +7396,7 @@ combined_audit_chapter_683_20261111:
   body_revisions: 0
   content_qa: pass
   predecessor_ready_sha: "47966690520863ba14afbfd6daacc0586573090f"
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_684_20261111:
   chapter: 684
@@ -7415,7 +7415,7 @@ combined_audit_chapter_684_20261111:
   predecessor_ready_sha: "54bfd3990fee3c4b7cdd7b276d05ea8ebf331b35"
   predecessor_factual_delta: title_body_exact_same_metadata_only
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_685_20261111:
   chapter: 685
@@ -7431,7 +7431,7 @@ combined_audit_chapter_685_20261111:
   content_qa: pass
   predecessor_ready_sha: "6b417cbc12d4b4603f9630938c993be1780e5497"
   dependency_status: verified_exact_ready_blob
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_686_20261111:
   chapter: 686
@@ -7454,7 +7454,7 @@ combined_audit_chapter_686_20261111:
   qa_gate: pass
   predecessor_ready_sha: "bb8843eec0d3caad196a6ab38acb1cb38ff10f61"
   dependency_status: verified_exact_ready_blob
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_687_20261111:
   chapter: 687
@@ -7478,7 +7478,7 @@ combined_audit_chapter_687_20261111:
   predecessor_ready_sha: "b756a1639844171ae6642ac02e059cebd834064c"
   predecessor_factual_delta: kinship_reference_only
   dependency_status: verified_ready_compatible_body
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_688_20261111:
   chapter: 688
   stage: local_revision
@@ -7489,7 +7489,7 @@ combined_audit_chapter_688_20261111:
   final_counts: {blocker: 0, major: 0, minor: 2}
   stage_a_used: 1
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_689_20261111:
   chapter: 689
   stage: local_revision
@@ -7503,7 +7503,7 @@ combined_audit_chapter_689_20261111:
   final_counts: {blocker: 0, major: 0, minor: 2}
   stage_a_used: 1
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_690_20261112:
   chapter: 690
@@ -7519,7 +7519,7 @@ combined_audit_chapter_690_20261112:
   stage_b_used: 0
   stage_c_used: 0
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_691_20261112:
   chapter: 691
@@ -7535,7 +7535,7 @@ combined_audit_chapter_691_20261112:
   final_counts: {blocker: 0, major: 0, minor: 2}
   stage_a_used: 1
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_692_20261112:
   chapter: 692
@@ -7553,7 +7553,7 @@ combined_audit_chapter_692_20261112:
   predecessor_ready_sha: "9ee7ee850344751ae5c02f45f6eda9a6fe9c5b86"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_693_20261112:
   chapter: 693
@@ -7571,7 +7571,7 @@ combined_audit_chapter_693_20261112:
   predecessor_ready_sha: "8feebf511264789a6bc7b2ede1d2f43fdb30c56e"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_694_20261112:
   chapter: 694
@@ -7591,7 +7591,7 @@ combined_audit_chapter_694_20261112:
   predecessor_ready_sha: "4bd5dec10ba808d4d04963e6f24a19997e47d85b"
   predecessor_factual_delta: metadata_only_body_identical
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_695_20261112:
   chapter: 695
@@ -7609,7 +7609,7 @@ combined_audit_chapter_695_20261112:
   predecessor_ready_sha: "24132bd3fb5e14556b31fc81f3d7cd83f161b625"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_696_20261112:
   chapter: 696
@@ -7628,7 +7628,7 @@ combined_audit_chapter_696_20261112:
   predecessor_ready_sha: "2d836b028e29e7a56a5058f3d5fa07831533786d"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_697_20261112:
   chapter: 697
@@ -7648,7 +7648,7 @@ combined_audit_chapter_697_20261112:
   predecessor_ready_sha: "e13ec78581322b3a1c191973df68599dc97b4252"
   predecessor_fact_delta: "只有Day560清晨提醒修辞修正，无关键事实冲突"
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_698_20261112:
   chapter: 698
   original_sha: "bc28c99400cb7224e26322c1f963482ea690445a"
@@ -7662,7 +7662,7 @@ combined_audit_chapter_698_20261112:
   predecessor_ready_sha: "1e3a6618a032587590944b3f517543a3f7b2a962"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_699_20261112:
   chapter: 699
@@ -7677,7 +7677,7 @@ combined_audit_chapter_699_20261112:
   predecessor_ready_sha: "2b163c67961e06d3d230a29f0fbd557d5120df73"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_700_20261112:
   chapter: 700
@@ -7696,7 +7696,7 @@ combined_audit_chapter_700_20261112:
   predecessor_fact_delta: "699小说正文与标题无差异、只交付元数据改变"
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_701_20261112:
   chapter: 701
   source_before: "9d565809710d691060d9174d3c5b120a9937013b"
@@ -7708,7 +7708,7 @@ combined_audit_chapter_701_20261112:
   fix: "Day565晨间把今天新买袜子改为昨天新买袜子"
   final_counts: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_702_20261112:
   chapter: 702
   source_before: "130795af906e3ffc8df8684699c2da0ba55d41b7"
@@ -7720,7 +7720,7 @@ combined_audit_chapter_702_20261112:
   fix: "重绑701最终Ready Blob与详细章纲，核原701 Day565袜子一词变动与702兼容，702小说正文不动"
   final_counts: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_703_20261112:
   chapter: 703
@@ -7736,7 +7736,7 @@ combined_audit_chapter_703_20261112:
   fix: "Day56707:02末段把Day56710:30预约误写明天，更正为今天；其余正文不变"
   final_counts: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_704_20261112:
   chapter: 704
@@ -7752,7 +7752,7 @@ combined_audit_chapter_704_20261112:
   fix: "前703原临时Draft SHA重绑正式Ready Blob，实际逐字核实只Day567清晨预约明天改今天、704日时与事实兼容；704正文不变"
   final_counts: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_705_20261112:
   chapter: 705
@@ -7774,7 +7774,7 @@ combined_audit_chapter_705_20261112:
   predecessor_fact_delta: "exact_ready_reference_no_provisional_delta"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_706_20261112:
   chapter: 706
@@ -7791,7 +7791,7 @@ combined_audit_chapter_706_20261112:
   fix: "重绑第705章正式Ready Blob及核前章仅删20字路人过镜无关键事实变化；重计第706章实际有效正文3744而非3729，小说正文不改"
   final_counts: {blocker: 0, major: 0, minor: 2}
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_707_20261112:
   chapter: 707
@@ -7809,7 +7809,7 @@ combined_audit_chapter_707_20261112:
   body_revisions: 1
   predecessor_ready_sha: "28b6ad269d79fa76a208c9e8ecd052b66883e99d"
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_708_20261112:
   chapter: 708
@@ -7829,7 +7829,7 @@ combined_audit_chapter_708_20261112:
   predecessor_ready_sha: "d158c2e62b0434c7cb57b3978294fc78268603ac"
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_709_20261112:
   chapter: 709
@@ -7848,7 +7848,7 @@ combined_audit_chapter_709_20261112:
   predecessor_ready_sha: "9f102be09735c4e38178c86ce626ce2e11ca8c6e"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_710_20261112:
   chapter: 710
   stage: local_revision_metadata_only
@@ -7867,7 +7867,7 @@ combined_audit_chapter_710_20261112:
   predecessor_ready_sha: "87f6519fed980dbdd91d681e89b95165e0f43011"
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_711_20261112:
   chapter: 711
   stage: local_revision
@@ -7885,7 +7885,7 @@ combined_audit_chapter_711_20261112:
   predecessor_ready_sha: "baffb6eb2bafc26b233cb07ded0ed5fe708f2420"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_712_20261112:
   chapter: 712
   stage: local_revision_metadata_only
@@ -7903,7 +7903,7 @@ combined_audit_chapter_712_20261112:
   predecessor_ready_sha: "e3a5070e8d7a4a5c7e0682183cd07eaf12006813"
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_713_20261112:
   chapter: 713
   stage: local_revision
@@ -7921,7 +7921,7 @@ combined_audit_chapter_713_20261112:
   predecessor_ready_sha: "a7fc33afcf56d02c246ca67dbd30b4c6671e922d"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_714_715_20261113:
   chapter714: {stage_a_used: 0, body_revisions: 0, review: "reader_reviews/0714_b73b5ecd.md"}
@@ -7941,7 +7941,7 @@ combined_audit_chapter_716_20261113:
   predecessor_ready_sha: "17a212f58ecc6fbb892a8787ce6d8e582b748472"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_717_20261113:
   chapter: 717
   source_before: "f9d3a8ad99cb9229beb5998ba148754e3802712c"
@@ -7958,7 +7958,7 @@ combined_audit_chapter_717_20261113:
   predecessor_ready_sha: "6c87b86d3d1dc5a0ffbf8b2f56c3ce471dd5be50"
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_718_20261113:
   chapter: 718
   source_before: "40ddc4d0085c53ed39c69f487536254a4d26c5b0"
@@ -7973,7 +7973,7 @@ combined_audit_chapter_718_20261113:
   predecessor_ready_sha: "b5a7114d3e29eb6c36d5c0b6c7968e7bcf2589cb"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_719_20261113:
   chapter: 719
   source_before: "2082064690908de84c49a9d76409bc318326beeb"
@@ -7989,7 +7989,7 @@ combined_audit_chapter_719_20261113:
   predecessor_fact_delta: "body_identical_front_matter_only"
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_720_20261113:
   chapter: 720
@@ -8006,7 +8006,7 @@ combined_audit_chapter_720_20261113:
   body_revisions: 0
   predecessor_ready_sha: "5334f9f448d738f22ef944aa7d4062ca7fdc09fd"
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_721_20261113:
   chapter: 721
@@ -8021,7 +8021,7 @@ combined_audit_chapter_721_20261113:
   body_revisions: 0
   predecessor_ready_sha: "53ad43bd760ceb71f2bedb8eb7852dd8cdfe8758"
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_722_20261113:
   chapter: 722
@@ -8040,7 +8040,7 @@ combined_audit_chapter_722_20261113:
   predecessor_ready_sha: "2a6246ea881017788a0c5208dfacb3d2c3eca3d4"
   predecessor_fact_delta: body_identical_front_matter_only
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_723_20261113:
   chapter: 723
@@ -8058,7 +8058,7 @@ combined_audit_chapter_723_20261113:
   predecessor_ready_sha: "61cff6d48d5b8dda3ae0e2d85fca0ef141fec2fb"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_724_20261113:
   chapter: 724
@@ -8077,7 +8077,7 @@ combined_audit_chapter_724_20261113:
   predecessor_ready_sha: "4bcad3b4acaa7b52ffc6f131041ed5f687372ea5"
   predecessor_fact_delta: "only_time_placeholder_to_approximate_time_and_title_frontmatter_change"
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_725_20261113:
   chapter: 725
@@ -8094,7 +8094,7 @@ combined_audit_chapter_725_20261113:
   predecessor_ready_sha: "6fbc6971c04f318032600a5b893ad8af7e9a752d"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_726_20261113:
   chapter: 726
@@ -8111,7 +8111,7 @@ combined_audit_chapter_726_20261113:
   body_revisions: 0
   predecessor_ready_sha: "c6027d67d0ed8395c9d620248a15f06d055f83c4"
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_727_20261113:
   chapter: 727
   source_before: "39e6bd00c7b1d1e8db8f9b28a59f8cf1bb6eee8e"
@@ -8127,7 +8127,7 @@ combined_audit_chapter_727_20261113:
   predecessor_ready_sha: "7989304599f784c442c713b2ac8b96fdb69bec23"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_728_20261113:
   chapter: 728
   source_before: "436031bb7c43fb545fb15fb7880ef4f9e6332a58"
@@ -8143,7 +8143,7 @@ combined_audit_chapter_728_20261113:
   predecessor_ready_sha: "18e7b5431ef83a0ecbdc28f5d28e6a34446628dc"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_729_20261113:
   chapter: 729
   source_before: "8782fe495d681b4ff3e0dcb054db479974934748"
@@ -8162,7 +8162,7 @@ combined_audit_chapter_729_20261113:
   predecessor_body_identical: true
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_730_20261113:
   chapter: 730
@@ -8180,7 +8180,7 @@ combined_audit_chapter_730_20261113:
   predecessor_ready_sha: "1d0a6e34e4c5a86063f2b6c212e09a9bc22589c3"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_731_20261113:
   chapter: 731
@@ -8197,7 +8197,7 @@ combined_audit_chapter_731_20261113:
   predecessor_ready_sha: "13f21f7ca4295c8e6aeb33500cfd2ec31d431c4d"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_732_20261113:
   chapter: 732
@@ -8216,7 +8216,7 @@ combined_audit_chapter_732_20261113:
   predecessor_ready_sha: "4064b09407a88b8e2eea18dd72af7bdc4dd4dd1e"
   predecessor_body_identical: true
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_733_20261113:
   chapter: 733
@@ -8232,7 +8232,7 @@ combined_audit_chapter_733_20261113:
   predecessor_ready_sha: "27c2ee1538139bf9a6eaf7d88af2e9fd726fc456"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_734_20261113:
   chapter: 734
@@ -8251,7 +8251,7 @@ combined_audit_chapter_734_20261113:
   predecessor_ready_sha: "6ac07486336f9dd9d8b4971e828838406ea13f4e"
   predecessor_body_identical: true
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_735_20261113:
   chapter: 735
@@ -8268,7 +8268,7 @@ combined_audit_chapter_735_20261113:
   predecessor_ready_sha: "ec0f346dd3cb513ab4126dec9442e1637aef10cc"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_736_20261113:
   chapter: 736
   source_before: "ece2ee06435b6ce01b20c27cf69c7e9b578b7675"
@@ -8287,7 +8287,7 @@ combined_audit_chapter_736_20261113:
   predecessor_body_identical: true
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_737_20261113:
   chapter: 737
   source_before: "2891fed850e88097d1941781f7cfa48035961e33"
@@ -8303,7 +8303,7 @@ combined_audit_chapter_737_20261113:
   predecessor_ready_sha: "d5dd391a8e3f2c8e80fcba1804b6b2f0070a2047"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_738_20261113:
   chapter: 738
   source_before: "3c801cadd9ec5ef8b3bd4e0f463accbfbc2a10a6"
@@ -8322,7 +8322,7 @@ combined_audit_chapter_738_20261113:
   predecessor_body_identical: true
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_739_20261114:
   chapter: 739
@@ -8340,7 +8340,7 @@ combined_audit_chapter_739_20261114:
   predecessor_ready_sha: "6a802163465ab29d203640c6bc3ea759dec60aab"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_740_20261114:
   chapter: 740
@@ -8360,7 +8360,7 @@ combined_audit_chapter_740_20261114:
   predecessor_body_identical: true
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_741_20261114:
   chapter: 741
@@ -8378,7 +8378,7 @@ combined_audit_chapter_741_20261114:
   predecessor_ready_sha: "1e2a2890647969531b008887b79a27e2e3006d72"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_742_20261114:
   chapter: 742
   source_before: "ab832eb86737483d170230a7775ce5d4ccf028e3"
@@ -8395,7 +8395,7 @@ combined_audit_chapter_742_20261114:
   predecessor_ready_sha: "686575fc65be951329f5c8ba490ab5d5c7b10316"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_743_20261114:
   chapter: 743
@@ -8412,7 +8412,7 @@ combined_audit_chapter_743_20261114:
   predecessor_ready_sha: "e8331e3861aaa5dfb853813f6538b62510d49d9e"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_744_20261114:
   chapter: 744
@@ -8432,7 +8432,7 @@ combined_audit_chapter_744_20261114:
   predecessor_body_identical: true
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_745_20261114:
   chapter: 745
@@ -8449,7 +8449,7 @@ combined_audit_chapter_745_20261114:
   predecessor_ready_sha: "d9decf6b0b7a98b28f36f1dd223b8efcc70b3685"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_746_20261114:
   chapter: 746
@@ -8469,7 +8469,7 @@ combined_audit_chapter_746_20261114:
   predecessor_body_identical: true
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_747_20261114:
   chapter: 747
@@ -8486,7 +8486,7 @@ combined_audit_chapter_747_20261114:
   predecessor_ready_sha: "2e5137b2959e14543b6f4b9e3f4dcdcff99faedd"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_748_20261114:
   chapter: 748
   source_before: "4d9b7fa3b0cebd090ef50f6af6543d2b87ee30a7"
@@ -8502,7 +8502,7 @@ combined_audit_chapter_748_20261114:
   predecessor_ready_sha: "56b43b2c42b065aaab8011be5442685848b09bd6"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_749_20261114:
   chapter: 749
@@ -8522,7 +8522,7 @@ combined_audit_chapter_749_20261114:
   predecessor_body_identical: true
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_750_20261114:
   chapter: 750
@@ -8540,7 +8540,7 @@ combined_audit_chapter_750_20261114:
   predecessor_ready_sha: "bf75a6e6e7282ccf1ad4bf58191ffae451397a98"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_751_20261114:
   chapter: 751
@@ -8560,7 +8560,7 @@ combined_audit_chapter_751_20261114:
   predecessor_body_identical: true
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_752_20261114:
   chapter: 752
@@ -8578,7 +8578,7 @@ combined_audit_chapter_752_20261114:
   predecessor_ready_sha: "129879f1a5c16e1f2ff863538e26957d2736aa93"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_753_20261114:
   chapter: 753
@@ -8598,7 +8598,7 @@ combined_audit_chapter_753_20261114:
   predecessor_fact_delta: one_elevator_location_clarification_title_and_delivery_metadata_only
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_754_20261114:
   chapter: 754
@@ -8615,7 +8615,7 @@ combined_audit_chapter_754_20261114:
   predecessor_ready_sha: "5e4943db404341f02239ca8a5997dd1b8c16b44c"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_755_20261114:
   chapter: 755
@@ -8632,7 +8632,7 @@ combined_audit_chapter_755_20261114:
   predecessor_ready_sha: "30cc1addd42d587d14c73d67821de9389ae7a128"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_756_20261114:
   chapter: 756
@@ -8652,7 +8652,7 @@ combined_audit_chapter_756_20261114:
   predecessor_fact_delta: body_identical_metadata_only
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_757_20261114:
   chapter: 757
@@ -8669,7 +8669,7 @@ combined_audit_chapter_757_20261114:
   predecessor_ready_sha: "c60740abeeb68da101e6f1d2d45e927309b825ab"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_758_20261114:
   chapter: 758
@@ -8686,7 +8686,7 @@ combined_audit_chapter_758_20261114:
   predecessor_ready_sha: "5450533bbbd9037695f4b7f7620682a97aaa9767"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_759_20261114:
   chapter: 759
@@ -8706,7 +8706,7 @@ combined_audit_chapter_759_20261114:
   predecessor_body_identical: true
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
  
 combined_audit_chapter_760_20261114:
   chapter: 760
@@ -8723,7 +8723,7 @@ combined_audit_chapter_760_20261114:
   predecessor_ready_sha: "5bc7fd1de73fd0e5b09204be880c806db4b32da0"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
  
 combined_audit_chapter_761_20261114:
   chapter: 761
@@ -8743,7 +8743,7 @@ combined_audit_chapter_761_20261114:
   predecessor_body_identical: true
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_762_20261115:
   chapter: 762
@@ -8761,7 +8761,7 @@ combined_audit_chapter_762_20261115:
   predecessor_ready_sha: "5f67c17c7e528f09248c4fb0dbf3416101c9e95e"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_763_20261115:
   chapter: 763
@@ -8782,7 +8782,7 @@ combined_audit_chapter_763_20261115:
   predecessor_fact_delta: artwork_location_fixed_at_Day62607_10_other_facts_same
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_764_20261115:
   chapter: 764
@@ -8795,7 +8795,7 @@ combined_audit_chapter_764_20261115:
   content_qa: pass
   predecessor_ready_sha: "5d9905dd5e1728e22c25ac1e51bf3636e722df3a"
   dependency_status: verified_exact_ready_blob
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_765_20261115:
   chapter: 765
@@ -8808,7 +8808,7 @@ combined_audit_chapter_765_20261115:
   content_qa: pass
   predecessor_ready_sha: "994f2ce800710f1940553c68287319ee41844334"
   dependency_status: verified_exact_ready_blob
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_766_20261115:
   chapter: 766
@@ -8821,7 +8821,7 @@ combined_audit_chapter_766_20261115:
   content_qa: pass
   predecessor_ready_sha: "c95a981a248e04372a0ade03200664f4cc52f717"
   dependency_status: verified_exact_ready_blob
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_767_20261115:
   chapter: 767
@@ -8834,7 +8834,7 @@ combined_audit_chapter_767_20261115:
   content_qa: pass
   predecessor_ready_sha: "18f216e2a21226748160bcf03ebdc56fa4c7f485"
   dependency_status: verified_exact_ready_blob
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_768_20261115:
   chapter: 768
@@ -8852,7 +8852,7 @@ combined_audit_chapter_768_20261115:
   predecessor_body_identical: true
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_769_20261115:
   chapter: 769
   source_sha: "c8e9226e8fe197c2d61cc5cb50e207b30e59b1ed"
@@ -8864,7 +8864,7 @@ combined_audit_chapter_769_20261115:
   predecessor_ready_sha: "d777ca942601220c37c7f9491870c9c0c8f31d85"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_770_20261115:
   chapter: 770
   source_original: "fd940c6f32cc07928bf2130d978d8142d2485199"
@@ -8881,7 +8881,7 @@ combined_audit_chapter_770_20261115:
   predecessor_body_identical: true
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_771_20261115:
   chapter: 771
@@ -8929,7 +8929,7 @@ combined_audit_chapter_774_20261115:
   predecessor_ready_sha: "2b60a6ce26081a6aa5467e2c5856e2dc8b7cdc82"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_775_20261115:
   chapter: 775
@@ -8947,7 +8947,7 @@ combined_audit_chapter_775_20261115:
   predecessor_fact_delta: "Day639_original_day637_posting_date_corrected_to_actual_Day63615_29;_775_no_conflicting_reference"
   dependency_status: verified_ready_compatible_body
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_776_20261115:
   chapter: 776
@@ -8963,7 +8963,7 @@ combined_audit_chapter_776_20261115:
   predecessor_ready_sha: "6ed7c17fcc0805baf7ee51e6330cf83aaeed8804"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_777_20261115:
   chapter: 777
@@ -8979,7 +8979,7 @@ combined_audit_chapter_777_20261115:
   predecessor_ready_sha: "7260797e34f2d95ef410ec67d8ae12beaa522bcf"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
  
 combined_audit_chapter_778_20261115:
   chapter: 778
@@ -8995,7 +8995,7 @@ combined_audit_chapter_778_20261115:
   predecessor_ready_sha: "e9cfd4bd2bdb105a32fdd792bfdc190f121fc643"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
  
 combined_audit_chapter_779_20261115:
   chapter: 779
@@ -9011,7 +9011,7 @@ combined_audit_chapter_779_20261115:
   predecessor_ready_sha: "108d1cfc56545e75ca95ae5146de458143335554"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
  
 combined_audit_chapter_780_20261115:
   chapter: 780
@@ -9028,7 +9028,7 @@ combined_audit_chapter_780_20261115:
   predecessor_body_delta: "779_original_draft_and_final_ready_body_identical"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 
 combined_audit_chapter_781_20261115:
@@ -9045,7 +9045,7 @@ combined_audit_chapter_781_20261115:
   predecessor_ready_sha: "31255f9282c91635864f7419de52af1b55065e0a"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_782_20261115:
   chapter: 782
@@ -9062,7 +9062,7 @@ combined_audit_chapter_782_20261115:
   predecessor_ready_sha: "518f7bec418b98a2b456e9dcd277d32abd380552"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_783_20261115:
   chapter: 783
@@ -9078,7 +9078,7 @@ combined_audit_chapter_783_20261115:
   predecessor_ready_sha: "d717eb82b929fba0d2ca6800a69fd8a928952e8c"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_784_20261115:
   chapter: 784
@@ -9096,7 +9096,7 @@ combined_audit_chapter_784_20261115:
   predecessor_body_delta: "仅纠正Day648邮政电子短信错误变实体纸件、改保留手机渠道与本子自记，其余箱牌维护/当代投诉仍待查/儿童画事实未改"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_785_20261115:
   chapter: 785
@@ -9112,7 +9112,7 @@ combined_audit_chapter_785_20261115:
   predecessor_ready_sha: "8baf9b7fc6ccd3b8c540b63d16d64c4e6ccf3182"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_786_20261116:
   chapter: 786
   original_sha: "537f05922e17da08766c43b87b5c5bbd8de0dc39"
@@ -9124,7 +9124,7 @@ combined_audit_chapter_786_20261116:
   predecessor_ready_sha: "5129522ad63ffe1e5831c9b4371c38b980908350"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_787_20261116:
   chapter: 787
@@ -9141,7 +9141,7 @@ combined_audit_chapter_787_20261116:
   predecessor_ready_sha: "a595a005349c419a28be53b1ad77d52ab6a822a2"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_788_20261116:
   chapter: 788
   original_sha: "70a962f6b8e1ee7df19dcfd6a9289efa61da1c41"
@@ -9154,7 +9154,7 @@ combined_audit_chapter_788_20261116:
   predecessor_ready_sha: "88fc0ccf22434188bd8eff27004baf9b4fd7a67e"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_789_20261116:
   chapter: 789
   original_sha: "ce8a086f33a1558fb88abc3d7a2890d93c629b83"
@@ -9167,7 +9167,7 @@ combined_audit_chapter_789_20261116:
   predecessor_ready_sha: "b422cf5f664c4ce5afc4588cdf89a3e739f4a504"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_790_20261116:
   chapter: 790
   original_sha: "7d61b30eb77b060a62eb413dac394ecc2686a80a"
@@ -9180,7 +9180,7 @@ combined_audit_chapter_790_20261116:
   predecessor_ready_sha: "8b3bf7706f0a0dd68e77b17773e0694db16a83b8"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_791_20261116:
   chapter: 791
@@ -9194,7 +9194,7 @@ combined_audit_chapter_791_20261116:
   predecessor_ready_sha: "59d1fc9fdb8e72b7ca807e1cca95c0504d797ac7"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_792_20261116:
   chapter: 792
@@ -9208,7 +9208,7 @@ combined_audit_chapter_792_20261116:
   predecessor_ready_sha: "4dd2e6ca8d7f480d485b65d4ffbfcb2eae229fc2"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_793_20261116:
   chapter: 793
@@ -9222,7 +9222,7 @@ combined_audit_chapter_793_20261116:
   predecessor_ready_sha: "4d0deeddd8ae6ae0baccabf581cb16830f6007ca"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_794_20261116:
   chapter: 794
@@ -9241,7 +9241,7 @@ combined_audit_chapter_794_20261116:
   predecessor_body_delta: only_delivery_frontmatter_novel_body_identical
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
  
 combined_audit_chapter_795_20261116:
   chapter: 795
@@ -9259,7 +9259,7 @@ combined_audit_chapter_795_20261116:
   predecessor_body_delta: exact_ready_sha_no_provisional
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_796_20261116:
   chapter: 796
@@ -9281,7 +9281,7 @@ combined_audit_chapter_796_20261116:
   predecessor_body_delta: exact_ready_sha_no_provisional
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_797_20261116:
   chapter: 797
@@ -9300,7 +9300,7 @@ combined_audit_chapter_797_20261116:
   body_revisions: 0
   predecessor_ready_sha: "e14489aaa229e21d964619748e7f153fd2bbead8"
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_798_20261116:
   chapter: 798
@@ -9327,7 +9327,7 @@ combined_audit_chapter_798_20261116:
   predecessor_ready_sha: "aba050ecb23e1a353949687744f6d39efa4c15fc"
   predecessor_body_delta: provisional_vs_ready_body_identical
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_799_20261116:
   chapter: 799
@@ -9348,7 +9348,7 @@ combined_audit_chapter_799_20261116:
   predecessor_ready_sha: "b50e1cf3106bd9830b854ae3c57b7a19085a47a1"
   predecessor_body_delta: exact_ready_sha_no_provisional
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_800_20261116:
   chapter: 800
@@ -9371,7 +9371,7 @@ combined_audit_chapter_800_20261116:
   predecessor_ready_sha: "70a15f62f028d7a27ea54abcdef8d9e524b85ce9"
   predecessor_body_delta: provisional_vs_ready_body_identical
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_801_20261116:
   chapter: 801
@@ -9393,7 +9393,7 @@ combined_audit_chapter_801_20261116:
   predecessor_ready_sha: "9885db2de7c501007e23ee1f8af4df7c1040fcb8"
   predecessor_body_delta: exact_ready_sha_no_provisional
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_802_20261116:
   chapter: 802
@@ -9414,7 +9414,7 @@ combined_audit_chapter_802_20261116:
   predecessor_ready_sha: "a82e4576d0690f1ff6b6549d6a65aaf31136d938"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_803_20261116:
   chapter: 803
@@ -9437,7 +9437,7 @@ combined_audit_chapter_803_20261116:
   predecessor_body_delta: provisional_vs_ready_body_identical
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_804_20261116:
   chapter: 804
@@ -9450,7 +9450,7 @@ combined_audit_chapter_804_20261116:
   predecessor_ready_sha: "2e9c602b34fa0c75a1474c3ebc34a817baa58767"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_805_20261116:
   chapter: 805
@@ -9463,7 +9463,7 @@ combined_audit_chapter_805_20261116:
   predecessor_ready_sha: "fc5ec2deb4217e5bbbcc1e3734d7003c97f06e39"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_806_20261116:
   chapter: 806
@@ -9476,7 +9476,7 @@ combined_audit_chapter_806_20261116:
   predecessor_ready_sha: "eda26eb0f4374e8ba53e79ff921877313d609e82"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_807_20261116:
   chapter: 807
@@ -9489,7 +9489,7 @@ combined_audit_chapter_807_20261116:
   predecessor_ready_sha: "07bb421826aaa744307f1977e0eb7a47f996feef"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_808_20261117:
   chapter: 808
   original_sha: "d8bba62a1e8b3b69028e51ce8e232aba08032a51"
@@ -9504,7 +9504,7 @@ combined_audit_chapter_808_20261117:
   predecessor_ready_sha: "29340ef233e865babb5e7d7dd56fd593739ef93b"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_809_20261117:
   chapter: 809
   original_sha: "d60452a01812b8325dfe399256de1c6d11d5f8fc"
@@ -9520,7 +9520,7 @@ combined_audit_chapter_809_20261117:
   predecessor_body_delta: two_material_deadline_phrase_revisions
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_810_20261117:
   original_sha: "3111a8020003d5f521866db2d6137b37e82bf2e6"
@@ -9534,7 +9534,7 @@ combined_audit_chapter_810_20261117:
   predecessor_ready_sha: "cb6c5fccb8a1419538c18235d8a5e8ae9f79f6f9"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_811_20261117:
   original_sha: "89cf9ca85c5f166fcfd8b65babaf894b39452cfe"
@@ -9550,7 +9550,7 @@ combined_audit_chapter_811_20261117:
   predecessor_body_delta: body_identical_metadata_only
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_812_20261117:
   chapter: 812
   original_sha: "80ca0af018ee7fb7ca91dbab2e6dc7ddf4d5330f"
@@ -9566,7 +9566,7 @@ combined_audit_chapter_812_20261117:
   predecessor_body_delta: body_identical_metadata_only
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 combined_audit_chapter_813_20261117:
   chapter: 813
   original_sha: "0674ad0019ead8a2362e5453826323de482c4fdd"
@@ -9585,7 +9585,7 @@ combined_audit_chapter_813_20261117:
   predecessor_ready_sha: "618c05bd92158370028c34953bb425fc895e6834"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass
 
 combined_audit_chapter_814_20261117:
   chapter: 814
@@ -9606,4 +9606,4 @@ combined_audit_chapter_814_20261117:
   predecessor_ready_sha: "92814dbd9af8291f32636dbf915c1e941e487ee5"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_ci_required_before_main
+  structural_gate: exact_candidate_ci_pass

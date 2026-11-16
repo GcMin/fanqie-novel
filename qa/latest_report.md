@@ -62,6 +62,9 @@
 
 已按最终正文准备 chapter_summaries/0814、character_state、knowledge_state、world_state、relationship_state、timeline、F014 foreshadowing、current_arc、reader_state、revision_state、writing_state 与 chapter_plan.csv 更新；既有ready计划行保留。甲三停用是本章正式状态，未将“停用”写成“修复完成”。
 
-## 结构门槛
+## 结构门槛：PASS
 
-内容Reader、Continuity、Style和Memory QA已通过。候选将在 audit/ready-0814 分支以ready形态运行publisher-check.yml；仅当精确候选提交的GitHub Actions成功后才fast-forward合入main。CI未成功前不宣称814已放行到main。
+- 精确候选提交：a179a586b4e1813c797bd6f184d1a860bff198ef
+- GitHub Actions publisher-check：43958900474
+- 结果：success；离线快照结构校验与当前checkout校验均成功
+- 已使用 expected_sha、force:false 将该精确提交 fast-forward 合入 main

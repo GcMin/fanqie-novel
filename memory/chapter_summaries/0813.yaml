@@ -1,0 +1,38 @@
+schema_version: 1
+chapter: 813
+title: "一块橡皮压下去，左脚露了缝"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "0674ad0019ead8a2362e5453826323de482c4fdd"
+source_draft_sha: "125c45592b590a5d9541185f6e79a2d09f100a11"
+reader_review: "reader_reviews/0813_125c4559.md"
+depends_on_chapter: 812
+depends_on_source_sha: "618c05bd92158370028c34953bb425fc895e6834"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "812正式Ready SHA与本章depends_on_source_sha精确一致；无旧版事实差异"
+timeframe: "Day678星期二早至夜"
+summary: >-
+  Day678星期二，孩子不动红七原车，先把甲三纸桥放在新硬板上，以左脚下沿、横梁定位点和折口三条短线作观察。空桥提放两次，本次肉眼未见变化；同一块橡皮轻放横梁中部，第一回左脚边缘微弯但折口线暂对齐，第二回孩子可能碰到横梁，故标为无效。孩子改用不粘胶的外侧托纸口袋绕开手指，橡皮再次轻放后仍见折口张缝，移走后左脚未完全回到原线边；但托纸口袋是新变量，不能当作同条件第三次、不能推定精确受力或毫米宽度，也不能证明与Day677带车平纸错位同因。孩子停止继续加载，没有贴胶或新增硬片，甲三暂停；第一只窄观察窗作废，第二只只装袋待用。红七原车、右后带角旧轮、Day653底补片、Day661折回旧胶及33毫米替轮均不动，Day666六圈、Day667课堂一次、Day671低坡两趟分开保存。孩子仍去打半场球并与同桌约周末踢球。学校Day674撤下的两张旧卡已于Day677由老师原物交还，本章无新展示或照片传播授权。母亲仅从家庭视频获孩子有限试验事实，蓝碗试一试二同白口及旧左下单碗分存；夏宁仅知本人授权的旧屋安全限项。Day664第二夜02:15—02:24九分钟真空岗、Day665第三夜02:24晚交但连续、后夜分段待核分别保留；旧四楼闭锁双封、水电隔离、Day536撤清运后禁返住且无新开门许可。R-12末签、现门型Day577原因、F014旧号旧信旧押金末端凭据及七号箱五楼2019旧卷无新增跨源证。
+meaningful_state_changes:
+  - "甲三左脚折口在托纸口袋参与的有限轻载观察中出现张缝，孩子因此暂停甲三并保留原始条件差异。"
+  - "孩子拒绝把Day677实车错位与本次桥体轻载现象合并为同一原因，下一步转为寻找不接触折口的观察方式。"
+  - "孩子与同桌恢复半场球与周末活动安排，实验没有占满全部生活。"
+knowledge_updates:
+  - "孩子与晓漫只知道空桥两次暂未见变化、橡皮第二回可能触梁无效、托纸口袋参与的轻载出现张缝；不知道折口原始损伤时间、精确受力、与实车错位是否同因或纸车左偏根因。"
+  - "母亲仅经家庭视频知道孩子本次有限试验和暂停决定；蓝碗两试与旧单碗仍由本人分别保存。"
+  - "同桌只知道孩子尚未修好并仍安排打球；老师仅有旧两卡已撤回事实，不获得新展示授权。"
+  - "夏宁只知道母亲授权的仁合里旧四楼安全限项，不知道新荷街地址、孩子纸车和蓝碗私作。"
+relationship_updates:
+  - "晓漫继续以提问和停测边界支持孩子，不替他解释成因；孩子主动接受并保留不可靠观察。"
+  - "同桌把话题拉回打球，孩子愿意留出半场时间并约周末活动，关系保持日常互相催促。"
+  - "母亲以版画试印变量作类比，分享方法但不替孩子决定修复路线。"
+foreshadowing_updates:
+  - "本章没有新增旧屋历史证据；纸桥、学校旧卡与蓝碗均不构成R-12/F014/2019旧卷跨源证明，M004/M005不升级。"
+ending_state: "Day678夜甲三与观察窗分袋，甲三暂停、原红七车留在四轮悬空架且未跑坡；折口轻载张缝与Day677实车错位是否同因未证。学校旧两卡已撤并归还，无新展示。母亲两蓝碗同白口及旧单碗分存；旧四楼禁返住、后班待核，历史缺证不变。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "0674ad0019ead8a2362e5453826323de482c4fdd", final_draft_sha: "125c45592b590a5d9541185f6e79a2d09f100a11", initial_counts: {blocker: 0, major: 1, minor: 2}, final_counts: {blocker: 0, major: 0, minor: 2}, stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, metadata_revisions: 1, reason: "correct_effective_char_count_2977_to_2992_only"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2992

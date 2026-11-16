@@ -54,4 +54,9 @@ Day679夜甲三及观察窗分格封存，仅作旧物证；红七原车无新�
 - style_qa: PASS
 - meaningful_state_change: PASS
 - historical_dependency_pairs: 137→138、139→140、142→143、146→147、147→148均已对照旧SHA与当前published正文；无本章新冲突
-- structural_gate: exact_candidate_CI_required_before_main
+- structural_gate: exact_candidate_CI_pass
+
+- structural_commit: a179a586b4e1813c797bd6f184d1a860bff198ef
+- structural_workflow_run: 43958900474
+- structural_result: success
+- merged_main: a179a586b4e1813c797bd6f184d1a860bff198ef
