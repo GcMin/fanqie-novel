@@ -9,7 +9,7 @@
 - depends_on_chapter: 815
 - depends_on_source_sha: 8867e81910a8b8a3550bc08643f5a5461d14ccbf
 - dependency_status: verified_exact_ready_blob
-- plan_status: writer_draft_pending_independent_audit
+- plan_status: audit_qa_pass_structural_candidate
 - target_effective_chars: 2600—3400（硬限2300—3800）
 - actual_effective_chars: 3174
 
@@ -60,3 +60,11 @@ Day681夜：咨询样张新作未提交，电话与报名未填；两张旧蓝�
 ## Writer scope
 
 仅 Planner、Continuity Precheck、Writer；本章是待独立审核 draft，不执行 Editor/Reader/Revision/QA/Memory/Publish Gate，不改既有章节或全局状态，也不发布番茄。
+
+
+## Audit 2026-11-17
+
+- Reader：reader_reviews/0816_0a3821f5.md，源SHA 0a3821f539f55dedd2c3e75f6c26805e226b105c，0 BLOCKER / 0 MAJOR / 2 MINOR，keep / none。
+- 正文修订0；Continuity / Style / Meaningful QA PASS；有效字数3174。
+- 前章815正式Ready SHA 8867e81910a8b8a3550bc08643f5a5461d14ccbf 精确匹配。
+- 仅候选结构预检待执行；预检成功前不迁入ready。

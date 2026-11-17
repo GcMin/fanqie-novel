@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 815
-current_stage: chapter815_ready_main_exact_CI_pass
-current_source_path: chapters/ready/0815.md
-current_source_sha: 8867e81910a8b8a3550bc08643f5a5461d14ccbf
-current_review_path: reader_reviews/0815_eca3209f.md
+current_chapter: 816
+current_stage: chapter816_reader_and_content_qa_pass_candidate
+current_source_path: chapters/draft/0816.md
+current_source_sha: 3ba6ec2688a800a04a434840035a6e833f2d2891
+current_review_path: reader_reviews/0816_0a3821f5.md
 rounds:
   reviews_this_cycle: 1
   local_revision_used: 0
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter815_ready_main_exact_CI_success
+last_action: chapter816_reader_and_content_qa_pass_candidate
 last_action_date: "2026-11-17"
 last_error: null
-last_diff_summary: "815源SHA eca3209f独立Reader 0/0/2 keep/none，正文0改；独立Continuity/Style/Meaningful QA PASS，有效2824字；最终main提交5d01866c31eb7a223f325925651127354f7e6406的publisher-check run 43968060950 success，已Ready。"
+last_diff_summary: "816源SHA 0a3821f5独立Reader 0/0/2 keep/none；正文0改；Continuity/Style/Meaningful QA PASS，有效3174字；候选结构预检待执行，未迁入ready。"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: true
-current_review_source_sha: eca3209fe1d35415071635751d715eafee09c1b8
+publish_gate_passed: false
+current_review_source_sha: "0a3821f539f55dedd2c3e75f6c26805e226b105c"
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -9607,3 +9607,16 @@ combined_audit_chapter_814_20261117:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_pass
+
+combined_audit_chapter_816_20261117:
+  chapter: 816
+  original_sha: "0a3821f539f55dedd2c3e75f6c26805e226b105c"
+  candidate_draft_sha: "3ba6ec2688a800a04a434840035a6e833f2d2891"
+  review_path: reader_reviews/0816_0a3821f5.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 0
+  predecessor_ready_sha: "8867e81910a8b8a3550bc08643f5a5461d14ccbf"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: candidate_check_pending

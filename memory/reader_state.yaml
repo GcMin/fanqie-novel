@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 815
-last_reviewed_title: "白口留在碗沿，原纸没有借出"
-last_source_path: chapters/draft/0815.md
-last_source_sha: eca3209fe1d35415071635751d715eafee09c1b8
-last_review_path: reader_reviews/0815_eca3209f.md
-last_reviewed_at: "2026-11-17T06:05:40+08:00"
+last_reviewed_chapter: 816
+last_reviewed_title: "空架先开了窗，原车仍在盒里"
+last_source_path: chapters/draft/0816.md
+last_source_sha: 0a3821f539f55dedd2c3e75f6c26805e226b105c
+last_review_path: reader_reviews/0816_0a3821f5.md
+last_reviewed_at: "2026-11-17T08:07:04+08:00"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 814
-depends_on_source_sha: 38eb560fb17d3bc3466b7e60000388cc362e1462
+depends_on_chapter: 815
+depends_on_source_sha: 8867e81910a8b8a3550bc08643f5a5461d14ccbf
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 38eb560fb17d3bc3466b7e60000388cc362e1462
+predecessor_current_source_sha: 8867e81910a8b8a3550bc08643f5a5461d14ccbf
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10928,3 +10928,22 @@ combined_audit_chapter_814_20261117:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   structural_gate: exact_candidate_ci_pass
+
+combined_audit_chapter_816_20261117:
+  chapter: 816
+  title: "空架先开了窗，原车仍在盒里"
+  source_path: chapters/draft/0816.md
+  source_sha: "0a3821f539f55dedd2c3e75f6c26805e226b105c"
+  review_path: reader_reviews/0816_0a3821f5.md
+  reviewer_mode: combined_audit_independent_pass_a_then_pass_b
+  recommendation: keep
+  required_action: none
+  blocker_count: 0
+  major_count: 0
+  minor_count: 2
+  reader_gate: pass
+  dependency_status: verified_exact_ready_blob
+  predecessor_ready_sha: "8867e81910a8b8a3550bc08643f5a5461d14ccbf"
+  body_revisions: 0
+  qa_gate: pass
+  structural_gate: candidate_check_pending
