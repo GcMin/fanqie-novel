@@ -11093,4 +11093,4 @@ combined_audit_chapter_823_20261117:
   ready_sha: "1bc9b9d33878a49f4b0d0582fd61dba69cbb295f"
   qa_gate: pass
   content_qa: pass
-  structural_gate: exact_candidate_ci_pending
+  structural_gate: exact_candidate_ci_pass_run_44046055227
