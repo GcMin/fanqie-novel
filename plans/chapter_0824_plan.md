@@ -82,7 +82,7 @@ Day689夜：孩子在同一支撑条件下复核B版，两条对角线读数区�
 - 正文修改0；只重绑第823章最终Ready SHA，正文事实逐字不变。
 - Continuity、Style、Meaningful State Change：PASS；有效字符2783；标题非空白字符12。
 - 已同步 chapter summary、character/knowledge/relationship/world、timeline T827、F014、reader_state、revision_state 与 chapter_plan.csv。
-- Ready 候选 Blob：`81b802766588a8659afa2ac665d2c22cee173519`。结构门槛等待精确候选 CI，成功前不放行到 main。
+- Ready Blob：`81b802766588a8659afa2ac665d2c22cee173519`。候选CI run `44054978134`成功后已快进main；main commit `d1964411a9bbfebd352087ac4e484b0f26eb0e4e` 的CI run `44055275137`成功。
 
 
 ## Exact candidate CI evidence

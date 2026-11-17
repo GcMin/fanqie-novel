@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 824
-current_stage: chapter824_ready_candidate_exact_CI_pass
+current_stage: chapter824_ready_main_exact_CI_pass
 current_source_path: chapters/ready/0824.md
 current_source_sha: 81b802766588a8659afa2ac665d2c22cee173519
 current_review_path: reader_reviews/0824_cd7d4aa9.md
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter824_exact_candidate_CI_success
+last_action: chapter824_ready_main_exact_CI_success
 last_action_date: "2026-11-17"
 last_error: null
-last_diff_summary: "第824章Reader Pass A/B 0/0/3 keep/none；正文0改，仅依赖重绑。独立Continuity/Style/Meaningful QA PASS，有效2783字；候选提交3fd37be2bb27392fb410f90758d6777b6e499f24的Actions run 44054978134 success，离线快照测试通过，publisher.check_local ok=true、ready_count=665。"
+last_diff_summary: "第824章Reader Pass A/B 0/0/3 keep/none；正文0改，仅依赖重绑。独立Continuity/Style/Meaningful QA PASS，有效2783字；候选提交3fd37be2bb27392fb410f90758d6777b6e499f24的CI run 44054978134 success，随后快进main至d1964411a9bbfebd352087ac4e484b0f26eb0e4e；main CI run 44055275137 success。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
