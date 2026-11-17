@@ -49,5 +49,8 @@ revision_trace:
   body_revisions: 1
   metadata_revisions: 1
   reason: "clarify_112mm_length_reference_and_orthogonal_frame_for_B_version"
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_pending}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_pass_run_44037965509}
 char_count: 2753
+structural_validation_commit: "5c028ed4dbd38b2f93d57457695f6a8624dcd00d"
+structural_validation_run: 44037965509
+ready_count_after_validation: 664

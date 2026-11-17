@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 823
-current_stage: chapter823_content_qa_pass_structural_pending
+current_stage: chapter823_ready_candidate_CI_pass
 current_source_path: chapters/ready/0823.md
 current_source_sha: 01919b8fa2f60a1395c4a41532f16270e422baa3
 current_review_path: reader_reviews/0823_4fc61118.md
@@ -12,13 +12,13 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter823_content_qa_pass_structural_pending
+last_action: chapter823_ready_candidate_CI_success
 last_action_date: "2026-11-17"
 last_error: null
-last_diff_summary: "823初审0/1/2发现B版独立复画缺112毫米长度基准和四角构框步骤；Stage A局部修订1次，最终SHA 4fc61118独立双遍复审0/0/2 keep/none；独立Continuity/Style/Meaningful QA PASS，有效2753字；候选结构CI待执行。"
+last_diff_summary: "823初审0/1/2发现B版独立复画缺112毫米长度基准和四角构框步骤；Stage A局部修订1次，最终SHA 4fc61118独立双遍复审0/0/2 keep/none；独立Continuity/Style/Meaningful QA PASS，有效2753字；候选commit 5c028ed4dbd38b2f93d57457695f6a8624dcd00d的Actions run 44037965509 success，12项测试通过，publisher.check_local ok=true、ready_count=664。"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: false
+publish_gate_passed: true
 current_review_source_sha: "4fc61118d09aa7af58ecce9482fcb05b7fe35249"
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
@@ -9756,4 +9756,5 @@ combined_audit_chapter_823_20261117:
   required_action: none
   content_qa: pass
   ready_sha: "01919b8fa2f60a1395c4a41532f16270e422baa3"
-  structural_gate: candidate_CI_pending
+  structural_gate: exact_candidate_CI_pass_run_44037965509
+  candidate_commit: "5c028ed4dbd38b2f93d57457695f6a8624dcd00d"

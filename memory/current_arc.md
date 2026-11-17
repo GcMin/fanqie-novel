@@ -5,7 +5,7 @@
 - 红七原车、右后带角旧轮、Day653底补、Day661旧胶、33毫米替轮不动；甲三、硬横片与两只观察窗继续停用；Day681无载空架样未承载、未装车、未试坡。旧四楼闭锁双封、水电隔离、Day536撤清运后禁返住无许可。
 - F014保持active；R-12末签、旧联系号初源、旧信本人历史收讫、旧押金全渠道末端实退、七号箱五楼及2019旧卷无新增跨源证；M004/M005不升级。历史章对137→138、139→140、142→143、146→147、147→148均无新增正文diff。
 - Reader Review：`reader_reviews/0823_0e332afc.md`（初审）与 `reader_reviews/0823_4fc61118.md`（最终新SHA复审）；最终有效字数2753，标题非空白字符16。
-- 独立Continuity/Style/Meaningful QA：PASS；结构校验待候选CI。
+- 独立Continuity/Style/Meaningful QA：PASS；候选commit `5c028ed4dbd38b2f93d57457695f6a8624dcd00d` 的GitHub Actions run `44037965509` success，12项离线快照测试通过，`publisher.check_local` 返回 `ok: true`、`ready_count: 664`，第823章有效字数2753。
 
 ## 第822章 ARC-054 Day687纸样定尺寸与母亲字号试写｜2026-11-17
 - Draft Blob `56373f7ede1934068d05c94cc85eea6b9aed767f`；前章821 Ready Blob `5888e61896234c18d4899f09468f9eb01cff790f` 精确匹配依赖字段，且821原Draft与Ready正文逐字一致。独立Reader先Pass A（本章、819—821正文、812—821摘要、文风），后Pass B（Canon、ARC-054、人物知识、世界、关系、时间线、伏笔及指定历史差异），0 BLOCKER / 0 MAJOR / 2 MINOR，keep/none；正文0修改。

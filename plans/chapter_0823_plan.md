@@ -70,4 +70,4 @@ Day688夜：A版剪裁纸样、B版独立复画与Day686草图分别收存；对
 - 原始Draft SHA：`0e332afc72a754c4f1a259934aa30d8cbc02d216`；初审0 BLOCKER / 1 MAJOR / 2 MINOR。
 - Stage A局部修订1次：补足B版112毫米长度基准、两端±30毫米宽度和直角外框构造，并明确复画目标不等于A版正确或机械适配。
 - 最终Draft SHA：`4fc61118d09aa7af58ecce9482fcb05b7fe35249`；新SHA独立双遍Reader 0 BLOCKER / 0 MAJOR / 2 MINOR，keep / none。
-- 最终有效字数：2753；结构校验待候选CI。
+- 最终有效字数：2753；候选commit `5c028ed4dbd38b2f93d57457695f6a8624dcd00d` 的GitHub Actions run `44037965509` success；12项离线快照测试通过，`publisher.check_local` 返回 `ok: true`、`ready_count: 664`。

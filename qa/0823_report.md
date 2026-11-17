@@ -58,5 +58,10 @@
 - `memory/current_arc.md`追加第823章；`memory/reader_state.yaml`与`revision_state.yaml`更新到最终新SHA
 - `plans/chapter_0823_plan.md`记录修订与最终字数；`plans/chapter_plan.csv`追加823唯一计划行，保留全部既有Ready计划行
 
-## 结构门槛
-- 当前为待执行状态：必须对候选提交运行`python -m publisher.check_local --repo .`及离线快照单元测试；成功前不快进main。
+## 结构门槛：PASS
+
+- 已对精确候选提交 `5c028ed4dbd38b2f93d57457695f6a8624dcd00d` 执行可信GitHub Actions：`https://github.com/GcMin/fanqie-novel/actions/runs/44037965509`。
+- 离线快照验证测试：12项全部通过。
+- `python -m publisher.check_local --repo .`：`ok: true`，`ready_count: 664`；第823章标题与有效字数2753匹配。
+- CI checkout的精确提交SHA为 `5c028ed4dbd38b2f93d57457695f6a8624dcd00d`，不是仅对本地草稿或不同快照校验。
+- 该候选提交已包含第823章Ready候选、完整Reader/QA证据与Memory/Plan更新；准备以expected_sha、force:false快进main。
