@@ -1,0 +1,40 @@
+schema_version: 1
+chapter: 823
+title: "两条对角线没对上，底板仍不能转印"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+source_draft_sha: "0e332afc72a754c4f1a259934aa30d8cbc02d216"
+ready_blob_sha: "1bc9b9d33878a49f4b0d0582fd61dba69cbb295f"
+reader_review: "reader_reviews/0823_0e332afc.md"
+depends_on_chapter: 822
+depends_on_source_sha: "7b7aee43be962f61fd0d7a3ab7780b8613cc9d71"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "第822章最终Ready Blob精确匹配；822源Draft与Ready正文一致。Day687星期四→Day688星期五连续。"
+timeframe: "Day688星期五早至夜"
+summary: >-
+  孩子把第822章的112×60毫米暂定纸样保留为A版剪裁样，另在独立纸上重新定位中线、参考线和角点形成B版线稿。两条对角线读数分别接近127和128毫米，但尺具刻度、线宽、纸面平整度与三角板贴合均有限，孩子没有据此宣布偏斜或尺寸合格。A/B两版分袋保存，不互相修边，不转印、不剪包装纸板、不制作底板、不装轮、不承载或移动。母亲在家中继续比较两张字号试写卡，没有联系活动室或改变样张/说明卡状态。红七原车仍在四轮悬空架，甲三继续停用，Day681无载空架样未测试；旧四楼安全状态与F014历史缺证不变。
+meaningful_state_changes:
+  - "形成独立B版线稿，A版剪裁样与B版来源分开保存，避免修边覆盖原始差异。"
+  - "将127/128毫米读数限定为相邻刻度区间，不能据此认定确定偏斜、四角垂直或材料尺寸合格。"
+  - "母亲继续完成两张字号试写卡的家庭试读，不改变原样张、说明卡或活动室授权状态。"
+knowledge_updates:
+  - "孩子知道A/B两版和本次读数区间；不认为纸样已经通过尺寸或角度验证。"
+  - "晓漫看到孩子复画和测量，知道两版仍是纸面样，不代量、不宣布通过。"
+  - "母亲没有明确获知孩子112×60毫米纸样的精确尺寸或本章读数；只处理自己的字号卡。"
+  - "同桌只知道纸样未核完四角，不知道具体尺寸、甲三或家庭实验数据。"
+  - "夏宁、周衡、梁策仍不知道新荷街家庭纸样、母亲样张或蓝碗私作。"
+relationship_updates:
+  - "晓漫通过提问支持孩子保留不同版本和测量边界，不替孩子决定或验证。"
+  - "孩子向同桌有限说明纸样尚未完成，维持普通同伴交流，不以技术细节换取关注。"
+  - "母亲与孩子各自保留作品与决定权，家庭纸样和母亲作品分开存放。"
+foreshadowing_updates:
+  - "F014保持active；本章当代家庭纸样不构成旧联系号、旧信本人收讫、旧押金全渠道实退、七号箱五楼或2019旧卷的跨源证据。"
+  - "R-12末签及现门根因仍未证；M004/M005不升级、不触碰。"
+ending_state: "Day688夜A版剪裁样与B版独立线稿分袋保存；B版两条对角线读数接近但不足以判断尺寸/角度合格。母亲字号试写卡仍分存。红七原车未动，甲三停用，空架样未承载。孩子把下一步限定为重新确认角点和线中心，不转印、不制作。"
+reader_counts: {blocker: 0, major: 0, minor: 3}
+revision_trace: {original_sha: "0e332afc72a754c4f1a259934aa30d8cbc02d216", final_draft_sha: "0e332afc72a754c4f1a259934aa30d8cbc02d216", final_review: "reader_reviews/0823_0e332afc.md", initial_counts: {blocker: 0, major: 0, minor: 3}, final_counts: {blocker: 0, major: 0, minor: 3}, stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, metadata_revisions: 1, reason: "no_blocker_or_major_no_body_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_pending}
+char_count: 2659
