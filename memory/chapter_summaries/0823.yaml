@@ -1,0 +1,53 @@
+schema_version: 1
+chapter: 823
+title: "两条对角线没对上，底板仍不能转印"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "0e332afc72a754c4f1a259934aa30d8cbc02d216"
+source_draft_sha: "4fc61118d09aa7af58ecce9482fcb05b7fe35249"
+ready_blob_sha: "01919b8fa2f60a1395c4a41532f16270e422baa3"
+initial_reader_review: "reader_reviews/0823_0e332afc.md"
+reader_review: "reader_reviews/0823_4fc61118.md"
+depends_on_chapter: 822
+depends_on_source_sha: "7b7aee43be962f61fd0d7a3ab7780b8613cc9d71"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "第822章Ready Blob与本章依赖SHA精确一致；第822章原Draft与Ready正文逐字一致，前章没有影响本章的事实差异。"
+timeframe: "Day688（星期五）早至夜"
+summary: >-
+  Day688星期五，孩子将第822章剪裁纸样（A版）与Day686草图分开保存，并按A版记录的112×60毫米目标尺寸在新方格纸上独立复画B版：先在纵向中线上标出相距112毫米的两个端点，再在两端各向两侧量30毫米并用直角连接外框，距两端各16毫米标参考线。三角板检查时右上角贴合缝随纸面平整度变化；两条对角线读数约127—128毫米，复测仍不稳定，A/B边缘差异无法区分剪裁、线宽、纸面卷曲或测量起点。孩子保留A/B与Day686草图原状，不修边、不转印、不制作底板、不装轮、不承载或移动。母亲在固定坐位比较两张字号试写卡，大字可读完四行，小字仍需近看；只属家庭试读，不替换原说明卡、不联系活动室。红七原车、旧轮、底补、旧胶、33毫米替轮未动；甲三停用，Day681无载空架样未承载/未装车/未试坡。旧四楼安全边界及F014/M004/M005状态不变。
+meaningful_state_changes:
+  - "孩子将A版剪裁纸样推进为独立复画B版，并明确复画目标和几何构造；但四角贴合与对角线读数仍不稳定，暂缓转印。"
+  - "A版、B版和Day686草图分别保存，保留原始差异来源，不通过修边或覆盖制造假一致。"
+  - "母亲完成固定坐位下两种字号的家庭试读，大字当前更易读取，但尚未决定替换原说明卡。"
+knowledge_updates:
+  - "孩子知道B版按A版记录的112×60毫米纸样目标独立复画；两条对角线读数在127—128毫米间波动，不能确认几何误差或纸样正确性，也不能解释红七左偏。"
+  - "晓漫看到B版复画与角位检查，知道纸面平整度会影响三角板贴合、读数仍需复核；没有替孩子确认尺寸或机械适配。"
+  - "同桌只知道孩子仍在做纸面工作、四角未核完及红七未动；不知道A/B具体尺寸、甲三细节或家庭试验数据。"
+  - "母亲知道两张字号试写卡在固定坐位的可读性差异，大字当前更易读；没有获知B版尺寸、对角线读数或几何判断，未替换原说明卡。"
+  - "周衡、梁策、夏宁没有获得家庭纸样、字号试读或蓝碗私作信息。"
+  - "未解决事项包括B版几何重复性、纸样能否转印或制作、红七左偏根因、母亲白口成因及旧屋历史跨源材料。"
+relationship_updates:
+  - "母亲与孩子各自处理自己的纸张，母亲保留说明卡与作品决定权，孩子不把纸车进度与母亲的试读结果绑定。"
+  - "晓漫协助腾出桌面并在空白边压住作业本，帮助观察纸面条件但不替孩子测量或确认结果。"
+  - "孩子只向同桌有限说明纸样尚未完成；周末足球安排仍待确认，互动保持日常边界。"
+foreshadowing_updates:
+  - "F014保持active；Day688家庭纸样复画与字号试读不构成旧联系号初源、旧信本人历史收讫、旧押金全渠道末端实退、七号箱五楼或2019旧卷的跨源证据。"
+  - "M004/M005不升级、不触碰。"
+ending_state: "Day688夜A版剪裁纸样、B版独立复画与Day686草图分袋保存；对角线读数与角位贴合仍不稳定，未转印、未制作底板。母亲两张字号试写卡完成固定坐位家庭试读，较大字号暂时更易读但未定稿。红七原车未动、甲三停用、空架样未承载；旧四楼闭锁禁返住，F014仍active。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace:
+  original_sha: "0e332afc72a754c4f1a259934aa30d8cbc02d216"
+  final_draft_sha: "4fc61118d09aa7af58ecce9482fcb05b7fe35249"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  stage_a_used: 1
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 1
+  metadata_revisions: 1
+  reason: "clarify_112mm_length_reference_and_orthogonal_frame_for_B_version"
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_pending}
+char_count: 2753
