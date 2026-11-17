@@ -3,7 +3,7 @@
 - Day688星期五，孩子保留Day687剪裁纸样为A版，另画B版独立线稿。两条对角线读数分别接近127/128毫米，但尺具刻度、线宽、纸面平整度与三角板贴合不足以判定偏斜或合格；A/B分袋，不互相修边、不转印、不制作底板、不装轮、不承载、不移动。
 - 母亲只在家中继续试读两张字号卡，未联系活动室；Day681构图练习样张、Day685说明卡、试一/试二、旧左下单碗与软版继续分存。红七原车、旧轮、Day653底补、Day661旧胶与33毫米替轮不动；甲三继续停用，Day681无载空架样未测试。
 - 仁合里旧四楼闭锁双封、水电隔离、Day536撤清运后禁返住无新许可；F014保持active，R-12历史证据不变，M004/M005不升级。
-- 独立Continuity/Style/Meaningful QA PASS，有效2659字；Ready Blob 1bc9b9d33878a49f4b0d0582fd61dba69cbb295f，正文与Draft一致，仅交付Front Matter变化。结构候选CI待精确提交验证。
+- 独立Continuity/Style/Meaningful QA PASS，有效2659字；Ready Blob 1bc9b9d33878a49f4b0d0582fd61dba69cbb295f，正文与Draft一致，仅交付Front Matter变化。结构候选CI通过：候选PR#21结构CI run 44046055227 success；job 133911893266中12项离线快照测试全部通过，python -m publisher.check_local --repo .返回ok=true、ready_count=664、第823章effective_chars=2659。该run checkout merge commit fe73c9ccd930046799708cde110282b56723a752；与候选分支head 22dbcacb799d8f7651770d9ad2cd96a660232c11比较无文件差异，ready/plan输入树一致。审计证据更新后仍须等待最终PR同步CI成功，之后才快进main。
 
 ## 第822章 ARC-054 Day687纸样定尺寸与母亲字号试写｜2026-11-17
 - Draft Blob `56373f7ede1934068d05c94cc85eea6b9aed767f`；前章821 Ready Blob `5888e61896234c18d4899f09468f9eb01cff790f` 精确匹配依赖字段，且821原Draft与Ready正文逐字一致。独立Reader先Pass A（本章、819—821正文、812—821摘要、文风），后Pass B（Canon、ARC-054、人物知识、世界、关系、时间线、伏笔及指定历史差异），0 BLOCKER / 0 MAJOR / 2 MINOR，keep/none；正文0修改。
