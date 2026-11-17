@@ -9736,3 +9736,19 @@ combined_audit_chapter_822_20261117:
   structural_gate: exact_candidate_ci_pass_run_44029615910
   main_commit: "187aa4cd3502c6fa3f57d6638cf9d84aaafb4113"
   main_ci_run: 44029922517
+
+
+combined_audit_chapter_823_20261117:
+  original_sha: "0e332afc72a754c4f1a259934aa30d8cbc02d216"
+  final_draft_sha: "0e332afc72a754c4f1a259934aa30d8cbc02d216"
+  final_review: "reader_reviews/0823_0e332afc.md"
+  final_counts: {blocker: 0, major: 0, minor: 3}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  retry_cycles: 0
+  body_revisions: 0
+  metadata_revisions: 1
+  predecessor_ready_sha: "7b7aee43be962f61fd0d7a3ab7780b8613cc9d71"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  ready_sha: "1bc9b9d33878a49f4b0d0582fd61dba69cbb295f"
+  structural_gate: exact_candidate_ci_pending
