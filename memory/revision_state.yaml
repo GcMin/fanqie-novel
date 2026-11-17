@@ -9696,5 +9696,5 @@ combined_audit_chapter_820_20261117:
   required_action: none
   content_qa: pass
   ready_sha: "b4ff7777bb59c8e4eba93874ad779bc6a0b542ec"
-  structural_gate: pending_exact_candidate_CI
+  structural_gate: exact_candidate_CI_pass_run_44008826366
 

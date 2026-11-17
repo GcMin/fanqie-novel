@@ -39,5 +39,5 @@ foreshadowing_updates:
 ending_state: "样张由母亲带回，独立说明卡已制作；母亲不参加本次公开交流日，白口成因仍未知；红七原车未动、甲三停用、无载空架样未承载；旧四楼闭锁禁返住，无新许可。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "78216884ffb4a4ffd69b0a9aa5d64d2bb0fcf46a", final_draft_sha: "78216884ffb4a4ffd69b0a9aa5d64d2bb0fcf46a", initial_counts: {blocker: 0, major: 0, minor: 2}, final_counts: {blocker: 0, major: 0, minor: 2}, stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, metadata_revisions: 0, reason: "no_blocker_or_major_no_revision"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_CI}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_pass_run_44008826366}
 char_count: 2699

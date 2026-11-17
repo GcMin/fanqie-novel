@@ -67,4 +67,5 @@ Day685十五分钟私下看样实际完成；母亲获得“图像可看、说�
 
 - Ready 候选 Blob：`b4ff7777bb59c8e4eba93874ad779bc6a0b542ec`。
 - 本 QA 报告先随候选分支提交；只有候选提交的 `publisher-check` 对精确 Git commit 成功后才允许快进 `main`。CI只验证结构和离线快照，不替代上述Reader及内容QA。
-- 当前报告生成时：`pending_exact_candidate_CI`；若CI未成功，`main` 不放行，草稿保留并等待下轮恢复。
+- 候选提交：`8d1aed6de5a9fedbc5401f9acc340d0cfb9b09ac`；GitHub Actions run `44008826366` success。
+- `Test offline snapshot validation` 与 `Validate this checkout without Git sync or publishing` 两步均 success；精确候选提交结构门槛通过。

@@ -69,4 +69,4 @@ Day685夜：十五分钟私下看样已完成，样张仍由母亲带回；独�
 - Reader Review：`reader_reviews/0820_78216884.md`，独立Pass A→Pass B，0 BLOCKER / 0 MAJOR / 2 MINOR，`keep / none`；正文0修改。
 - 独立Continuity / Style / Meaningful QA：PASS；前章819正式Ready Blob `ee913d809f6d75d2d2e7e57c81aedd46dcf7be92` 精确依赖。
 - Ready候选Blob：`b4ff7777bb59c8e4eba93874ad779bc6a0b542ec`。
-- 结构门槛：候选分支精确CI pending；CI成功前不快进main。
+- 结构门槛：候选提交8d1aed6de5a9fedbc5401f9acc340d0cfb9b09ac的精确CI run 44008826366 success；允许快进main。
