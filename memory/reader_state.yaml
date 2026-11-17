@@ -11073,3 +11073,24 @@ combined_audit_chapter_822_20261117:
   content_qa: pass
   ready_sha: "7b7aee43be962f61fd0d7a3ab7780b8613cc9d71"
   structural_gate: exact_candidate_ci_pass_run_44029615910
+
+
+combined_audit_chapter_823_20261117:
+  chapter: 823
+  title: "两条对角线没对上，底板仍不能转印"
+  original_source_sha: "0e332afc72a754c4f1a259934aa30d8cbc02d216"
+  final_source_sha: "0e332afc72a754c4f1a259934aa30d8cbc02d216"
+  final_review_path: "reader_reviews/0823_0e332afc.md"
+  pass_a: independently_reviewed_current_chapter_previous_3_recent_10_summaries_and_style
+  pass_b: independently_reviewed_canon_arc_knowledge_world_timeline_foreshadowing_and_predecessor_deltas
+  final_counts: {blocker: 0, major: 0, minor: 3}
+  recommendation: keep
+  required_action: none
+  local_revision_used: 0
+  body_revisions: 0
+  predecessor_ready_sha: "7b7aee43be962f61fd0d7a3ab7780b8613cc9d71"
+  dependency_status: verified_exact_ready_blob
+  ready_sha: "1bc9b9d33878a49f4b0d0582fd61dba69cbb295f"
+  qa_gate: pass
+  content_qa: pass
+  structural_gate: exact_candidate_ci_pending
