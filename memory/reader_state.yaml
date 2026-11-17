@@ -4174,7 +4174,7 @@ chapter_469_review:
   predecessor_ready_blob: "376df6841d327a028d57f92f8170681b606bbfe9"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: pending_exact_candidate_CI
+  structural_gate: exact_candidate_CI_pass_run_44015950663
 
 release_469:
   candidate_commit: "f51ed496323aa2cb1d8a8c8967035bf9fbee4f1d"

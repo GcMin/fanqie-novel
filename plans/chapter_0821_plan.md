@@ -73,3 +73,5 @@ Day686夜：母亲将样张与说明卡分袋保存，暂不安排下一次公�
 - Ready候选Blob：`5888e61896234c18d4899f09468f9eb01cff790f`；正文未改，仅交付Front Matter更新。
 - 137→138、139→140、142→143、146→147、147→148历史正文路径相对上一审核main无变化；第820章源Draft与Ready正文逐字一致。
 - 结构校验：pending exact candidate CI；CI成功前不得合并main。
+
+- 精确候选结构校验：提交 `933e3e57809af6f8d87a412cebfc8b7697fbfb84`，Actions run `44015950663` success；`publisher.check_local` `ok: true`，ready_count 662，第821章有效字数2985；离线快照测试12项全部通过。

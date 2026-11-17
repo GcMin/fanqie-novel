@@ -59,7 +59,7 @@
 - 标题非空白字符：14；不含“第N章”。
 - Draft Front Matter与Writer计划记录有效字数：2985；位于2600—3400优选区间及2300—3800硬限内。最终有效字数以精确候选结构校验为准。
 - Ready候选Blob：`5888e61896234c18d4899f09468f9eb01cff790f`；正文与原Draft完全相同，只更新交付Front Matter。
-- 本报告内容QA已通过；结构门槛当前为 `pending_exact_candidate_CI`。CI成功前不得将本候选合并到main。
+- 本报告内容QA已通过；结构门槛已通过：候选提交 `933e3e57809af6f8d87a412cebfc8b7697fbfb84` 的 GitHub Actions run `44015950663` success。精确 checkout 执行 `python -m publisher.check_local --repo .` 返回 `ok: true`、`ready_count: 662`、第821章 `effective_chars: 2985`；离线快照单元测试12项全部通过。该结果绑定上述候选提交；最终证据整理提交仍需再次触发同一结构校验后才快进main。
 
 ## Memory / Plan 同步
 

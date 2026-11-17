@@ -38,5 +38,5 @@ foreshadowing_updates:
 ending_state: "Day686夜母亲样张与说明卡分开保存且暂不安排公开展示；孩子的新底板仅为独立纸面草图，尺寸待量、未制作未装轮未承载未移动；红七原车仍在四轮悬空架、甲三继续停用、Day681无载空架样未测试；旧四楼闭锁禁返住无重开许可，F014仍active。"
 reader_counts: {blocker: 0, major: 0, minor: 3}
 revision_trace: {original_sha: "e2ff35198259e6e664482e35e0aa500fb1bb3937", final_draft_sha: "e2ff35198259e6e664482e35e0aa500fb1bb3937", initial_counts: {blocker: 0, major: 0, minor: 3}, final_counts: {blocker: 0, major: 0, minor: 3}, stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, metadata_revisions: 0, reason: "no_blocker_or_major_no_revision"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_CI}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_pass_run_44015950663}
 char_count: 2985

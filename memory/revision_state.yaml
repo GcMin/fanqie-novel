@@ -3645,7 +3645,7 @@ chapter_470_revision:
   predecessor_ready_blob: "ce2dd8259c4f7ed7b7600dffd4cdf8daabc5114a"
   predecessor_body_delta: "前日下午14:06→昨日下午14:06"
   content_qa: pass
-  structural_gate: pending_exact_candidate_CI
+  structural_gate: exact_candidate_CI_pass_run_44015950663
 chapter_471_revision:
   chapter: 471
   original_sha: "72670341a6aa5cf261e5a80ab39dc0436223660e"
