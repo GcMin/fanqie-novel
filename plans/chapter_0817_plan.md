@@ -9,9 +9,9 @@
 - depends_on_chapter: 816
 - depends_on_source_sha: "bec8ada82b1df59acfe9bf6f3795d4ee5e488090"
 - dependency_status: verified_exact_ready_blob
-- plan_status: writer_draft_pending_independent_audit
+- plan_status: audit_qa_pass_structural_candidate
 - target_effective_chars: 2600—3400（硬限2300—3800）
-- actual_effective_chars: 3122
+- actual_effective_chars: 3174
 
 ## Planner：章节目标、POV与开场
 
@@ -60,3 +60,11 @@ Day682夜：咨询样张暂存在活动室，母亲持有收件回执，等待�
 ## Writer scope
 
 仅执行 Planner、Continuity Precheck、Writer；本章为待独立审核的新草稿。不执行 Editor、Reader、Revision、QA、Memory、Publish Gate，不修改既有章节或其他长期状态文件，不发布番茄。
+
+## Audit 2026-11-17
+
+- Audit时main HEAD：a108baac8a05893ff55f90c17b987f4c2723a6cb；前章816最终Ready SHA bec8ada82b1df59acfe9bf6f3795d4ee5e488090，依赖已重绑为verified_exact_ready_blob。
+- 初审源SHA a937e73ebce67e4433035a269e0fd83aebbcd446：0 BLOCKER / 1 MAJOR / 2 MINOR；唯一MAJOR为样张背面“未提交”与交件事实冲突。
+- Stage A局部修订1次，仅更新样张背面状态；修订后SHA 032be17279628f54be2c1ded4b812c607e28580d，独立双遍Reader 0/0/2 keep/none。
+- Continuity / Style / Meaningful QA PASS；有效字数3174；无其他正文修改。
+- 候选结构CI待执行；成功前不迁入main Ready。

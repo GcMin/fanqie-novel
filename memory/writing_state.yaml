@@ -1,14 +1,14 @@
 schema_version: 1
 mode: split_roles
-observed_main: 5d01866c31eb7a223f325925651127354f7e6406
-last_completed_chapter: 815
-current_chapter: null
-current_stage: no_pending_draft
-current_source_path: null
-current_source_sha: null
+observed_main: a108baac8a05893ff55f90c17b987f4c2723a6cb
+last_completed_chapter: 816
+current_chapter: 817
+current_stage: audit_qa_pass_candidate
+current_source_path: chapters/draft/0817.md
+current_source_sha: 4380f0aea9693f8a6792d25bab7cb51f1824d067
 creative_gate: pass
-publish_gate: ready
+publish_gate: pending_structural
 blocker_type: none
-next_action: writer_create_816_when_due
-next_new_chapter_after_creative_pass: 816
-note: "第815章已正式进入main Ready；最终main提交5d01866c31eb7a223f325925651127354f7e6406的publisher-check run 43968060950成功；数字章节draft为空，下一章由Writer按既有流程创建。"
+next_action: exact_candidate_CI_then_ready_817
+next_new_chapter_after_creative_pass: 818
+note: "第816章已Ready；第817章Reader 0/0/2与内容QA通过，局部修订1次，候选结构CI待执行；Writer仍仅负责新章，不在本轮创建下一章。"

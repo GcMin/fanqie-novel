@@ -61,8 +61,9 @@
 - reader_state、revision_state同步至816；Writer状态不代写、不创建新章。
 - 详细章纲保留原目标与事实边界，附加本轮审核结论。
 
-## 结构门槛：精确候选分支CI待执行
+## 结构门槛：PASS
 
-- main仍保持第816章在draft；在隔离的 audit/ready-0816-preflight 分支构建与拟放行完全相同的Ready快照，供现有 publisher-check.yml 对该精确分支提交执行离线结构校验。
-- 只有该候选分支CI成功后，才以 expected_sha、force:false 将同一提交快进到main；若失败，main保留draft并记录阻塞。
-- 该CI只验证结构，不替代本报告中的Reader、Continuity或Style判断。
+- 精确候选Ready快照提交：833b61abaa34cd044c5f91c9fda0ac54bb64cb81，隔离分支 audit/ready-0816-preflight；GitHub Actions run 43986269807 success，job 133715098140 success。
+- 该run实际执行12项离线快照单元测试，全部通过；随后对该精确checkout执行 python -m publisher.check_local --repo .，返回 ok: true、ready_count: 657，且第816章 effective_chars: 3174。
+- main原HEAD 2d1a776c13463cea3842e655de65dbbfcda4c3ea 以 expected_sha、force:false 快进到同一提交833b61abaa34cd044c5f91c9fda0ac54bb64cb81；main中的第816章已从draft原子迁入ready，Ready Blob SHA bec8ada82b1df59acfe9bf6f3795d4ee5e488090。
+- PUBLISH_ENABLED=false；没有执行番茄发布。CI只验证结构，不替代Reader、Continuity或Style判断。

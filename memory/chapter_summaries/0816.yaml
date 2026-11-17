@@ -3,7 +3,7 @@ chapter: 816
 title: "空架先开了窗，原车仍在盒里"
 volume: 6
 arc: "ARC-054"
-status: ready_candidate_CI_pending
+status: ready
 qa: pass
 reader_gate: pass
 source_sha: "0a3821f539f55dedd2c3e75f6c26805e226b105c"
@@ -33,4 +33,5 @@ unresolved:
   - "蓝碗白口成因仍未知"
   - "Day664第二夜九分钟空岗、Day665第三夜晚交但连续及后续夜班分段核查分别保留"
   - "R-12、F014旧联系/旧信/旧押金末端、七号箱五楼与2019旧卷仍无新增跨源证据"
+ready_blob_sha: "bec8ada82b1df59acfe9bf6f3795d4ee5e488090"
 ready_blob_sha: "bec8ada82b1df59acfe9bf6f3795d4ee5e488090"

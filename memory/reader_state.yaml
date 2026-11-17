@@ -1,9 +1,9 @@
 schema_version: 1
-last_reviewed_chapter: 816
-last_reviewed_title: "空架先开了窗，原车仍在盒里"
-last_source_path: chapters/draft/0816.md
-last_source_sha: 0a3821f539f55dedd2c3e75f6c26805e226b105c
-last_review_path: reader_reviews/0816_0a3821f5.md
+last_reviewed_chapter: 817
+last_reviewed_title: "样张收了，三点的人先到了"
+last_source_path: chapters/draft/0817.md
+last_source_sha: 032be17279628f54be2c1ded4b812c607e28580d
+last_review_path: reader_reviews/0817_032be172.md
 last_reviewed_at: "2026-11-17T08:07:04+08:00"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b
 recommendation: keep
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 815
-depends_on_source_sha: 8867e81910a8b8a3550bc08643f5a5461d14ccbf
+depends_on_chapter: 816
+depends_on_source_sha: bec8ada82b1df59acfe9bf6f3795d4ee5e488090
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 8867e81910a8b8a3550bc08643f5a5461d14ccbf
+predecessor_current_source_sha: bec8ada82b1df59acfe9bf6f3795d4ee5e488090
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10946,4 +10946,43 @@ combined_audit_chapter_816_20261117:
   predecessor_ready_sha: "8867e81910a8b8a3550bc08643f5a5461d14ccbf"
   body_revisions: 0
   qa_gate: pass
+  structural_gate: candidate_check_pending
+
+combined_audit_chapter_817_20261117:
+  chapter: 817
+  title: "样张收了，三点的人先到了"
+  source_path: chapters/draft/0817.md
+  original_source_sha: "cc8aaf31f0eee4bfa135c02e40c6f07e77af331e"
+  rebound_source_sha: "a937e73ebce67e4433035a269e0fd83aebbcd446"
+  initial_review_path: reader_reviews/0817_a937e73e.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  local_revision_used: 1
+  revision: "update sample back from 未提交 to Day682已交咨询样张、待负责人答复"
+  final_source_sha: "032be17279628f54be2c1ded4b812c607e28580d"
+  final_review_path: reader_reviews/0817_032be172.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  body_revisions: 1
+  predecessor_ready_sha: "bec8ada82b1df59acfe9bf6f3795d4ee5e488090"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: candidate_check_pending
+
+combined_audit_chapter_817_20261117:
+  chapter: 817
+  original_source_sha: "cc8aaf31f0eee4bfa135c02e40c6f07e77af331e"
+  rebound_source_sha: "a937e73ebce67e4433035a269e0fd83aebbcd446"
+  initial_review_path: reader_reviews/0817_a937e73e.md
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  local_revision_used: 1
+  final_source_sha: "032be17279628f54be2c1ded4b812c607e28580d"
+  final_review_path: reader_reviews/0817_032be172.md
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  dependency_status: verified_exact_ready_blob
+  predecessor_ready_sha: "bec8ada82b1df59acfe9bf6f3795d4ee5e488090"
+  reader_gate: pass
+  content_qa: pass
   structural_gate: candidate_check_pending
