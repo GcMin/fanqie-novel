@@ -9751,4 +9751,4 @@ combined_audit_chapter_823_20261117:
   dependency_status: verified_exact_ready_blob
   content_qa: pass
   ready_sha: "1bc9b9d33878a49f4b0d0582fd61dba69cbb295f"
-  structural_gate: exact_candidate_ci_pending
+  structural_gate: exact_candidate_ci_pass_run_44046055227
