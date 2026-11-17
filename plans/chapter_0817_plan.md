@@ -7,8 +7,8 @@
 - source_branch: main
 - source_main_sha_at_precheck: a90002af0a95649ff99df60b36e3681fb541d607
 - depends_on_chapter: 816
-- depends_on_source_sha: "0a3821f539f55dedd2c3e75f6c26805e226b105c"
-- dependency_status: provisional
+- depends_on_source_sha: "bec8ada82b1df59acfe9bf6f3795d4ee5e488090"
+- dependency_status: verified_exact_ready_blob
 - plan_status: writer_draft_pending_independent_audit
 - target_effective_chars: 2600—3400（硬限2300—3800）
 - actual_effective_chars: 3122
