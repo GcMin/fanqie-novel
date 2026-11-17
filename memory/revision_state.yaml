@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 817
-current_stage: chapter817_ready_main_exact_CI_pass
-current_source_path: chapters/ready/0817.md
-current_source_sha: cebc1ceebab22b7d24cb4606e562e01e253090fe
-current_review_path: reader_reviews/0817_032be172.md
+current_chapter: 818
+current_stage: chapter818_ready_candidate_structural_CI_pending
+current_source_path: chapters/ready/0818.md
+current_source_sha: 705302989cb9f8a37516fea41ea06e76bf4f6a10
+current_review_path: reader_reviews/0818_d357de1b.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter817_ready_main_exact_CI_success
+last_action: chapter818_reader_QA_pass_candidate_CI_pending
 last_action_date: "2026-11-17"
 last_error: null
-last_diff_summary: "817初审0/1/2发现样张未提交标记与实际交件冲突；Stage A局部修订1次，修订后SHA 032be172独立双遍复审0/0/2 keep/none；Continuity/Style/Meaningful QA PASS，有效3174字；候选分支CI 43987347076与main CI 43987471186均success，精确commit 495106698a3838e4ed3f6c66635724e73028691c，ready_count 658。"
+last_diff_summary: "818初审0/2/2发现08:00授权时间窗与08:02/08:07记录冲突，且标题/结论超过记录证据范围；Stage A局部修订1次，最终SHA d357de1b独立双遍复审0/0/2 keep/none；Continuity/Style/Meaningful QA PASS，有效2768字；精确候选CI待执行，未在CI成功前快进main。"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: true
-current_review_source_sha: "032be17279628f54be2c1ded4b812c607e28580d"
+publish_gate_passed: false
+current_review_source_sha: "d357de1b31ba6ff939786ede0706c19cf765393b"
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -9641,3 +9641,20 @@ combined_audit_chapter_817_20261117:
   structural_gate: exact_branch_CI_pass_run_43987347076
   ready_sha: cebc1ceebab22b7d24cb4606e562e01e253090fe
   main_ci_run: 43987471186
+
+
+combined_audit_chapter_818_20261117:
+  chapter: 818
+  original_sha: "510539c254d77dc3b04299e77af4ea1aacd4ada4"
+  initial_review: "reader_reviews/0818_510539c2.md"
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_draft_sha: "d357de1b31ba6ff939786ede0706c19cf765393b"
+  final_review: "reader_reviews/0818_d357de1b.md"
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  body_revisions: 1
+  stage_a_fix: "correct 08:00 scope and evidence overclaim"
+  predecessor_ready_sha: "cebc1ceebab22b7d24cb4606e562e01e253090fe"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  structural_gate: exact_candidate_CI_pending

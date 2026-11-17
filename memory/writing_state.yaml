@@ -1,14 +1,14 @@
 schema_version: 1
 mode: split_roles
-observed_main: 495106698a3838e4ed3f6c66635724e73028691c
+observed_main: 7cfcc851f526e40b15f2fe06daff48bb2dde39eb
 last_completed_chapter: 817
-current_chapter: null
-current_stage: no_pending_draft
-current_source_path: null
-current_source_sha: null
+current_chapter: 818
+current_stage: ready_candidate_structural_validation
+current_source_path: chapters/ready/0818.md
+current_source_sha: 705302989cb9f8a37516fea41ea06e76bf4f6a10
 creative_gate: pass
-publish_gate: ready
-blocker_type: none
-next_action: writer_create_818_when_due
-next_new_chapter_after_creative_pass: 818
-note: "第816、817章均已正式进入main Ready并通过精确提交结构CI；数字章节draft无待审正文，下一章818仅由Writer按既有任务创建，Audit不写新章。"
+publish_gate: pending
+blocker_type: structural_validation_pending
+next_action: audit_wait_for_exact_candidate_CI
+next_new_chapter_after_creative_pass: 819
+note: "第818章已完成初审、一次局部修订、新SHA双遍Reader及Continuity/Style/Memory QA；候选Ready结构CI待精确提交验证，CI成功前不快进main。Audit不写新章。"

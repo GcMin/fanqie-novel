@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 812
+last_updated_chapter: 818
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4649,3 +4649,11 @@ chapter_817_arc054:
   xiaoman_child: "晓漫尊重孩子暂不做实验的选择，只协助准备水壶和纸巾，不代替孩子判断试验结果。"
   mother_han: "本章未新增会面或共同决定；韩姨既有建议未转化为展示授权。"
   mother_center: "母亲只通过本人授权渠道查看旧四楼安全限项，不向夏宁分享新荷街地址、活动室收件或儿童手作。"
+
+
+chapter_818_arc054:
+  mother_center: "母亲只按既有授权核Day682本班外侧值守与门外封签，夏宁先确认范围并修正过宽模板；新荷街地址、活动室样张和家庭纸车/蓝碗私作不进入对公渠道。"
+  zhou_heng_liang_ce_xia_ning: "周衡坚持原始登记与时点证据，梁策阻止扩大结论，夏宁限定授权并修正回告；三人不把记录闭合说成逐分钟连续监控或室内安全。"
+  mother_child: "母亲只告诉孩子有一班记录核清且仍不能进入；孩子接受边界，继续作业，没有以纸车试验换取开门。"
+  child_xiaoman: "本章无新增共同实验或关系变化；甲三停用、空架样无载状态保持。"
+  mother_activity_room: "样张已交咨询并持有仅收件回执，负责人周一答复未到；母亲没有把收件升级为报名、展示或拍摄授权。"

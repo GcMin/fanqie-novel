@@ -1,0 +1,40 @@
+schema_version: 1
+chapter: 818
+title: "这班记录对上了，门仍没开"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "510539c254d77dc3b04299e77af4ea1aacd4ada4"
+source_draft_sha: "d357de1b31ba6ff939786ede0706c19cf765393b"
+ready_blob_sha: "705302989cb9f8a37516fea41ea06e76bf4f6a10"
+reader_review: "reader_reviews/0818_d357de1b.md"
+initial_reader_review: "reader_reviews/0818_510539c2.md"
+depends_on_chapter: 817
+depends_on_source_sha: "cebc1ceebab22b7d24cb4606e562e01e253090fe"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "817正式Ready Blob与本章依赖精确匹配；Writer提交7cfcc851仅新增818草稿和章纲，未修改历史章节；137→138、139→140、142→143、146→147、147→148既有事实比较结论不变。"
+timeframe: "Day682星期六夜间至Day683星期日"
+summary: >-
+  Day683星期日，母亲仍将活动室样张收件回执与旧屋资料分开，负责人周一答复未到。夏宁通知Day682夜间外侧固定岗原始记录已到，母亲按既有授权只核本班与门外封签。中心汇总页显示当班完成，周衡要求查看原始登记、交接联与现场检查联。登记记录19:58到岗、20:00接岗、00:06与04:03两次抽核，07:56接班人员到位、07:58双方签字、08:00原岗离开；两次抽核时点有在岗确认，登记未见换岗或离岗记录。门外20:04与07:51两次检查封签完整、锁具未操作。结果仅为本班登记、抽核与交接记录闭合，不能证明逐分钟连续监控、室内安全、门体工程验收或重开许可。Day664九分钟空岗、Day665晚交但连续、Day666—Day681分段核查各自保留。母亲拿到限项摘录与签收回执，未将活动室收件回执与旧屋材料混放。孩子未动红七、甲三或空架样，无新增试验；周六足球已履约，下周安排未确定。
+meaningful_state_changes:
+  - "Day682本班固定岗登记、两次抽核和交接记录相互对应，新增一班可核记录；结论不扩大为逐分钟连续监控。"
+  - "母亲把旧屋回告中的‘夜间安全已落实’改为本班记录闭合、仅限所列检查时点，并补明不含入户与重新开放。"
+  - "孩子继续正常生活，不因旧屋单班记录或纸车进度新增试验。"
+knowledge_updates:
+  - "母亲只知道Day682本班登记、两次抽核、07:58交接、08:00原岗离开及20:04/07:51门外封签检查；不据此认定室内安全或整屋可进入。"
+  - "夏宁、周衡、梁策知道本班登记、抽核和交接记录闭合；他们明确不将其扩写为逐分钟连续监控、室内状态或开门许可。"
+  - "孩子只听母亲说明旧屋有一班记录核清，知道仍不能进入；不掌握原始值守册、抽核签识或F014历史资料。"
+  - "活动室负责人答复仍待周一下午；母亲未取得报名、桌位、展示、拍摄或复制授权。"
+relationship_updates:
+  - "母亲继续按本人授权与夏宁沟通；夏宁先确认范围并修正模板，周衡坚持原始记录，梁策阻止扩大结论。"
+  - "母亲对孩子说明单班记录不等于开门，孩子接受并继续作业；没有以纸车试验换取进入旧屋的暗示。"
+foreshadowing_updates:
+  - "F014仍为active；Day682当代外侧值守记录不构成旧联系号、旧信本人收讫、旧押金全渠道实退或七号箱五楼/2019旧卷的跨源新证。"
+  - "R-12末签、现门型号、Day577擦响原因未获新证；M004/M005不升级。"
+ending_state: "Day683夜，母亲持有Day682外侧固定岗单班限项摘录，登记、两次抽核与交接记录闭合，但不等于逐分钟连续监控；门外两次检查所见封签完整，旧四楼仍闭锁、双封、水电隔离、整屋禁返住且无开门许可。Day664/665与Day666—681核查状态不变。活动室样张等待周一答复；红七原车未动，甲三继续停用，空架样未承载。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "510539c254d77dc3b04299e77af4ea1aacd4ada4", final_draft_sha: "d357de1b31ba6ff939786ede0706c19cf765393b", initial_counts: {blocker: 0, major: 2, minor: 2}, final_counts: {blocker: 0, major: 0, minor: 2}, stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "align_0800_authorization_window_and_limit_shift_evidence_claim"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+char_count: 2768
