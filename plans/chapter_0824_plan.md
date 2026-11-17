@@ -7,8 +7,8 @@
 - source_branch: main
 - source_main_sha_at_precheck: 7e20c30eefd4f6b67c26e0f86f19b94ab960f6d1
 - depends_on_chapter: 823
-- depends_on_source_sha: "0e332afc72a754c4f1a259934aa30d8cbc02d216"
-- dependency_status: provisional
+- depends_on_source_sha: "1bc9b9d33878a49f4b0d0582fd61dba69cbb295f"
+- dependency_status: verified_exact_ready_blob
 - plan_status: completed
 - target_effective_chars: 2600—3400（硬限2300—3800）
 - actual_effective_chars: 2783
@@ -67,3 +67,10 @@ Day689夜：孩子在同一支撑条件下复核B版，两条对角线读数区�
 ## Writer Scope
 
 仅执行Planner、Continuity Precheck、Writer；只新增本章详细章纲与正文首稿。不执行Editor、Reader、Revision、QA、Memory、Publish Gate，不修改既有章节、计划表或长期状态文件，不发布番茄。
+
+## Audit：前章最终 SHA 依赖核验
+
+- 第823章 Writer 依赖的 provisional Draft Blob：`0e332afc72a754c4f1a259934aa30d8cbc02d216`。
+- 第823章当前 main Ready Blob：`1bc9b9d33878a49f4b0d0582fd61dba69cbb295f`。
+- 已直接读取两个 Blob 并剥离 Front Matter 比较正文：逐字节一致；差异仅为交付 Front Matter 的 status、qa、approved_at、publish_mode 等字段，没有剧情事实差异。
+- 因此将本章依赖 SHA 精确重绑到第823章 Ready Blob，`dependency_status: verified_exact_ready_blob`；不因旧 SHA 不同阻断，也不忽略正文差异。
