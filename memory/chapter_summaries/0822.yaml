@@ -1,0 +1,40 @@
+schema_version: 1
+chapter: 822
+title: "尺子量出新边，红七仍留在架上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f"
+source_draft_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f"
+ready_blob_sha: "7b7aee43be962f61fd0d7a3ab7780b8613cc9d71"
+reader_review: "reader_reviews/0822_56373f7e.md"
+depends_on_chapter: 821
+depends_on_source_sha: "5888e61896234c18d4899f09468f9eb01cff790f"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "第821章原Draft e2ff35198259e6e664482e35e0aa500fb1bb3937与最终Ready 5888e61896234c18d4899f09468f9eb01cff790f剥离Front Matter后正文逐字一致；没有影响第822章依赖的事实差异。"
+timeframe: "Day687（星期四）早至晚"
+summary: >-
+  Day687星期四，孩子早晨从抽屉取出Day686草图，未带去学校。放学后测量空饼干盒内侧，发现折痕和不平行边缘使包装盒不能直接充当设计基准；他改用平整废打印纸，以自画中线和三角板绘制暂定112×60毫米纸样，标出距短边各16毫米的前后参考线、四个未打孔轮位及暂定前端方向。第一条横线作废后重画，第一张剪歪纸样作为废样保存；第二张纸样剪出后轻放在空包装纸板上确认可放置，但未描线、未转印、未剪纸板、未装轮、未承载或移动。母亲另在废卡纸上试写两种字号，分别从普通坐姿与厨房斜光观察可读性；两张试写卡分开保存，没有替换Day685说明卡或联系活动室。红七原车、右后带角旧轮、Day653底补片、Day661折回旧胶和33毫米替轮均未动；甲三继续停用，硬横片和两只观察窗留在停用盒，Day681无载空架样仍未承载、未装车、未试坡。旧四楼与F014/M004/M005状态不变。
+meaningful_state_changes:
+  - "孩子把Day686粗略草图推进为一张有暂定尺寸、参考线和方向标记的纸面模板；尚未形成实物底板。"
+  - "母亲完成两种字号试写并比较普通坐姿与斜光下的可读性；原说明卡和样张状态未改变。"
+knowledge_updates:
+  - "孩子知道包装盒边缘不平行，记录了参考读数，并知道112×60毫米只是纸样绘图尺寸，不能解释红七左偏。"
+  - "晓漫看到纸样制作过程，知道纸样尚未转印或制作成底板；没有替孩子测量、验证或判断机械适配。"
+  - "母亲继续掌握Day681样张与Day685说明卡的分开保存及白口成因未查明状态；本章没有明确让她获知孩子本次精确尺寸。"
+  - "同桌只听到红七没有新结果、旧车没动；不知道本章纸样尺寸、甲三细节或家庭实验数据。"
+  - "周衡、梁策、夏宁没有获得家庭纸样、母亲字号试写或蓝碗私作信息。"
+relationship_updates:
+  - "母亲继续独立处理自己的说明卡字号，不替孩子决定纸样尺寸；孩子也没有把母亲的作品决定与纸车进度绑定。"
+  - "晓漫以提问确认制作边界，不代量、不代做、不替孩子宣布结果。"
+  - "孩子与同桌保持有限交流，同桌接受红七没有新结果并把话题留在学校日常。"
+foreshadowing_updates:
+  - "F014保持active；Day687家庭纸样与字号试写不提供旧联系号、旧信、旧押金、七号箱五楼或2019旧卷的历史跨源证据。"
+  - "M004/M005不升级、不触碰。"
+ending_state: "Day687夜孩子将112×60毫米纸样单独收袋，标明参考线未定、未转印、未装轮、未承载、未移动；红七原车仍在架上，甲三停用，Day681无载空架样未测试。母亲两张字号试写卡分开放置，不替换原说明卡、不安排新展示。"
+reader_counts: {blocker: 0, major: 0, minor: 2}
+revision_trace: {original_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f", final_draft_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, metadata_revisions: 1, reason: "no_blocker_or_major; delivery_frontmatter_only"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_pending}
+char_count: 2643

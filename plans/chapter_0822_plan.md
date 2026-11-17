@@ -64,3 +64,12 @@ Day687夜：孩子将第二张纸样单独收袋，标明112×60毫米仅为纸�
 ## Writer Scope
 
 仅执行Planner、Continuity Precheck、Writer；只新增本章详细章纲与正文首稿。不执行Editor、Reader、Revision、QA、Memory、Publish Gate，不修改既有章节或长期状态文件，不发布番茄。
+
+## Audit / Revision / QA / Ready Gate｜2026-11-17
+
+- 原始Draft Blob：`56373f7ede1934068d05c94cc85eea6b9aed767f`。
+- 前章第821章Ready Blob：`5888e61896234c18d4899f09468f9eb01cff790f`，依赖精确匹配；第821章原Draft与最终Ready正文逐字一致。
+- 独立Reader Pass A→Pass B：0 BLOCKER / 0 MAJOR / 2 MINOR，`keep / none`；Review：`reader_reviews/0822_56373f7e.md`。无fix_required，不触发Revision；正文0改。
+- 独立Continuity / Style / Meaningful QA：PASS；有效2643字。母亲样张与说明卡、红七原车、甲三停用件、Day681空架样和旧屋状态均保持既有事实边界。
+- Ready候选Blob：`7b7aee43be962f61fd0d7a3ab7780b8613cc9d71`；只修改Front Matter交付字段，正文不变。
+- 精确候选结构校验：待CI；本计划行与章节仍只在审核候选分支，main未推进。

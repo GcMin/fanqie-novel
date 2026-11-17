@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 819
+last_updated_chapter: 822
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4677,3 +4677,10 @@ chapter_821_arc054:
   mother_child: "母亲递尺子但不替孩子决定尺寸，孩子主动把新底板与红七分开；双方都不把草图写成完成。"
   xiaoman_child: "晓漫提问并提醒写清状态，不代量、不替孩子验证新底板。"
   child_classmate: "孩子向同桌有限说明红七暂停和旧改动分属不同轮次；同桌接受暂时没有新结果，并把话题转回周末足球。"
+
+
+chapter_822_arc054:
+  mother_activity_room: "母亲只完成两种字号试写，继续保留样张与说明卡的决定权；本章没有联系活动室或安排公开展示。"
+  mother_child: "母亲与孩子各自处理自己的纸张；母亲没有替孩子决定纸样尺寸，孩子也没有把纸车进度与母亲作品选择绑定。"
+  xiaoman_child: "晓漫通过提问确认制作边界，孩子自行量尺、画线、剪纸样；晓漫不代量、不代做、不替他宣布结果。"
+  child_classmate: "孩子只回答红七没有新结果、旧车没动；同桌没有获知家庭纸样和甲三细节，互动维持普通学校日常。"
