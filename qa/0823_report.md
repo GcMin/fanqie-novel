@@ -61,4 +61,4 @@
 
 - 当前候选分支：audit/ready-0823-20261117-1605。
 - Ready Blob：1bc9b9d33878a49f4b0d0582fd61dba69cbb295f。
-- 结构校验尚待候选分支CI对精确提交版本执行；在成功前不快进main。
+- Draft已从chapters/draft/0823.md删除，Ready目录仅保留单份chapters/ready/0823.md；候选分支最终快照已固定，等待CI对本次精确提交执行结构校验。通过前不快进main。
