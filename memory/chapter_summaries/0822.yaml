@@ -1,0 +1,41 @@
+schema_version: 1
+chapter: 822
+title: "尺子量出新边，红七仍留在架上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f"
+source_draft_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f"
+ready_blob_sha: "7b7aee43be962f61fd0d7a3ab7780b8613cc9d71"
+reader_review: "reader_reviews/0822_56373f7e.md"
+depends_on_chapter: 821
+depends_on_source_sha: "5888e61896234c18d4899f09468f9eb01cff790f"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "821原Draft SHA e2ff35198259e6e664482e35e0aa500fb1bb3937与最终Ready Blob 5888e61896234c18d4899f09468f9eb01cff790f正文逐字一致，仅Front Matter不同；822精确依赖821最终Ready Blob。"
+timeframe: "Day687（星期四早至夜）"
+summary: >-
+  Day687星期四，孩子早晨复核Day686独立底板草图，决定不带去学校；同桌只问红七有没有新结果，孩子仅回答旧车没动。放学后他测量空饼干盒内侧，发现折角压痕和两侧边缘不平行，保留两次读数与测量位置，不把包装盒边缘当作设计基准。孩子改用平整废打印纸，以自画中线确定左右位置，绘制暂定112×60毫米纸面模板、前后参考线和暂定方向标记；三角板首条偏线作废后重新定位，四个轮位仅留浅十字记号。第一张剪偏的纸样保留为废样，第二张重新绘制并剪出，长边读数差不到一毫米；纸样只轻放在空饼干盒内侧平面上确认可放置，没有描线或剪纸板。尺寸只代表纸面绘图值，不是红七尺寸、机械适配规格或性能结论。母亲在废卡纸上试写两种字号，分别观察普通坐姿和厨房斜光下的可读性，均标为试写，没有替换原说明卡或联系活动室。红七原车、甲三停用件、Day681无载空架样及旧试验记录保持原状；旧四楼没有新增授权回告或夜班记录，F014仍active，M004/M005不升级。
+meaningful_state_changes:
+  - "孩子将Day686粗略草图推进为一张暂定112×60毫米的独立纸面模板，加入前后参考线和暂定方向标记；仍未形成底板实物。"
+  - "孩子识别饼干盒内侧边缘不平行，改用独立纸张和自画中线，不把包装盒偏斜带入设计。"
+  - "母亲完成两种字号的独立试写，并在普通坐姿与斜光条件下比较可读性；原说明卡和作品状态不变。"
+knowledge_updates:
+  - "孩子知道暂定纸样尺寸为112×60毫米、参考线与轮位仍待确认；测量误差和剪裁误差仍存在，不能据此推断红七尺寸或新底板性能。"
+  - "晓漫知道孩子已剪出独立纸样，知道它只是纸面模板，未转印、未制作、未装轮、未承载、未移动；不代替孩子确认适配。"
+  - "母亲只知道孩子继续制作独立纸样，不据此认为底板已完成或红七获得新结果；不掌握未向她说明的具体测量结论。"
+  - "同桌只知道红七仍未有新结果，不知道新纸样尺寸、甲三细节或家庭试验数据。"
+  - "活动室未获新的样张、报名、展示、拍摄或复制授权；夏宁仍只知道本人授权的仁合里旧四楼安全限项。"
+relationship_updates:
+  - "晓漫以提问帮助孩子区分纸样与底板实物，不替孩子量尺寸、剪裁或判断适配。"
+  - "母亲与孩子各自处理自己的纸张和说明卡，保留各自的决定权，不把试写或纸样宣布为完成。"
+  - "孩子对同桌只作有限回应，未把家庭新设计或甲三细节扩展为同伴共享信息。"
+foreshadowing_updates:
+  - "F014保持active；本章家庭纸样与字号试写均属当代生活，不构成旧联系号初源、旧信本人历史收讫、旧押金全渠道末端实退、七号箱五楼或2019旧卷的跨源新证。"
+  - "M004/M005不升级、不触碰。"
+ending_state: "Day687夜，第二张112×60毫米纸样单独收袋，标注参考线未定、未转印、未装轮、未承载、未移动；Day686草图与剪偏废样分别保存，空饼干盒纸板未剪。母亲两张字号试写卡单独收存，不替换原说明卡、不安排新展示。红七原车仍在悬空架，甲三继续停用，Day681无载空架样未测试；旧四楼闭锁禁返住无新许可。"
+reader_counts: {blocker: 0, major: 0, minor: 3}
+revision_trace: {original_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f", final_draft_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, metadata_revisions: 1, reason: "no_blocker_or_major; delivery_metadata_only"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_CI}
+char_count: 2643

@@ -11053,3 +11053,22 @@ combined_audit_chapter_821_20261117:
   content_qa: pass
   ready_sha: "5888e61896234c18d4899f09468f9eb01cff790f"
   structural_gate: pending_exact_candidate_CI
+
+
+combined_audit_chapter_822_20261117:
+  chapter: 822
+  title: "尺子量出新边，红七仍留在架上"
+  original_source_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f"
+  final_source_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f"
+  final_review_path: "reader_reviews/0822_56373f7e.md"
+  pass_a: independently_reviewed_current_chapter_previous_3_recent_10_summaries_and_style
+  pass_b: independently_reviewed_canon_arc_knowledge_world_timeline_foreshadowing_and_predecessor_deltas
+  final_counts: {blocker: 0, major: 0, minor: 3}
+  recommendation: keep
+  required_action: none
+  predecessor_ready_sha: "5888e61896234c18d4899f09468f9eb01cff790f"
+  dependency_status: verified_exact_ready_blob
+  reader_gate: pass
+  content_qa: pass
+  ready_sha: "7b7aee43be962f61fd0d7a3ab7780b8613cc9d71"
+  structural_gate: pending_exact_candidate_CI

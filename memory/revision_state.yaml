@@ -9714,3 +9714,22 @@ combined_audit_chapter_821_20261117:
   content_qa: pass
   ready_sha: "5888e61896234c18d4899f09468f9eb01cff790f"
   structural_gate: pending_exact_candidate_CI
+
+
+combined_audit_chapter_822_20261117:
+  original_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f"
+  final_draft_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f"
+  final_review: "reader_reviews/0822_56373f7e.md"
+  initial_counts: {blocker: 0, major: 0, minor: 3}
+  final_counts: {blocker: 0, major: 0, minor: 3}
+  rounds: {reviews_this_cycle: 1, local_revision_used: 0, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  retry_cycles: 0
+  body_revisions: 0
+  metadata_revisions: 1
+  predecessor_ready_sha: "5888e61896234c18d4899f09468f9eb01cff790f"
+  dependency_status: verified_exact_ready_blob
+  recommendation: keep
+  required_action: none
+  content_qa: pass
+  ready_sha: "7b7aee43be962f61fd0d7a3ab7780b8613cc9d71"
+  structural_gate: pending_exact_candidate_CI
