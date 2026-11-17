@@ -3,7 +3,7 @@ chapter: 817
 title: "样张收了，三点的人先到了"
 volume: 6
 arc: "ARC-054"
-status: qa_pass_candidate
+status: ready_candidate_CI_pending
 qa: pass
 reader_gate: pass
 source_sha: "032be17279628f54be2c1ded4b812c607e28580d"
@@ -32,3 +32,4 @@ unresolved:
   - "蓝碗白口成因仍未知"
   - "Day664第二夜九分钟空岗、Day665第三夜晚交但连续及后续夜班分段核查分别保留"
   - "R-12、F014旧联系/旧信/旧押金末端、七号箱五楼与2019旧卷仍无新增跨源证据"
+ready_blob_sha: "cebc1ceebab22b7d24cb4606e562e01e253090fe"

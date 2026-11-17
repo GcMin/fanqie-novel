@@ -60,6 +60,6 @@ Day681星期五后接Day682星期六。第816章母亲把咨询样张留在透�
 
 ## 结构门槛：精确候选分支CI待执行
 
-- main仍保持第817章在draft；将在隔离的 audit/ready-0817-preflight 分支构建与拟放行完全相同的Ready快照，供现有publisher-check.yml对该精确分支提交执行离线结构校验。
+- main仍保持第817章在draft；在隔离的 audit/ready-0817-preflight 分支构建与拟放行完全相同的Ready快照，供现有publisher-check.yml对该精确分支提交执行离线结构校验。
 - 只有候选分支CI成功后，才以expected_sha、force:false将同一提交快进到main；若失败，main保留draft并记录阻塞。
 - 该CI只验证结构，不替代本报告中的Reader、Continuity或Style判断。

@@ -7,7 +7,7 @@ current_stage: audit_qa_pass_candidate
 current_source_path: chapters/draft/0817.md
 current_source_sha: 4380f0aea9693f8a6792d25bab7cb51f1824d067
 creative_gate: pass
-publish_gate: pending_structural
+publish_gate: candidate_branch_CI_pending
 blocker_type: none
 next_action: exact_candidate_CI_then_ready_817
 next_new_chapter_after_creative_pass: 818

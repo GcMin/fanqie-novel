@@ -1,9 +1,9 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 817
-current_stage: chapter817_reader_and_content_qa_pass_candidate
-current_source_path: chapters/draft/0817.md
-current_source_sha: 4380f0aea9693f8a6792d25bab7cb51f1824d067
+current_stage: chapter817_candidate_ready_branch_waiting_ci
+current_source_path: chapters/ready/0817.md
+current_source_sha: cebc1ceebab22b7d24cb4606e562e01e253090fe
 current_review_path: reader_reviews/0817_032be172.md
 rounds:
   reviews_this_cycle: 2
@@ -15,7 +15,7 @@ next_retry_after: null
 last_action: chapter817_reader_and_content_qa_pass_candidate
 last_action_date: "2026-11-17"
 last_error: null
-last_diff_summary: "817初审0/1/2发现样张未提交标记与实际交件冲突；Stage A局部修订1次，修订后SHA 032be172独立双遍复审0/0/2 keep/none；Continuity/Style/Meaningful QA PASS，有效3174字；候选结构CI待执行。"
+last_diff_summary: "817初审0/1/2发现样张未提交标记与实际交件冲突；Stage A局部修订1次，修订后SHA 032be172独立双遍复审0/0/2 keep/none；Continuity/Style/Meaningful QA PASS，有效3174字；Ready候选位于隔离分支，等待精确提交CI；main仍保留draft。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false

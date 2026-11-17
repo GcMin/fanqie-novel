@@ -9,7 +9,7 @@
 - depends_on_chapter: 816
 - depends_on_source_sha: "bec8ada82b1df59acfe9bf6f3795d4ee5e488090"
 - dependency_status: verified_exact_ready_blob
-- plan_status: audit_qa_pass_structural_candidate
+- plan_status: ready_candidate_CI_pending
 - target_effective_chars: 2600—3400（硬限2300—3800）
 - actual_effective_chars: 3174
 

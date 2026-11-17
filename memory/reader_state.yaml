@@ -10946,7 +10946,7 @@ combined_audit_chapter_816_20261117:
   predecessor_ready_sha: "8867e81910a8b8a3550bc08643f5a5461d14ccbf"
   body_revisions: 0
   qa_gate: pass
-  structural_gate: candidate_check_pending
+  structural_gate: candidate_branch_CI_pending
 
 combined_audit_chapter_817_20261117:
   chapter: 817
