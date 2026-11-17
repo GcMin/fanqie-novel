@@ -1,10 +1,10 @@
 schema_version: 1
-last_reviewed_chapter: 817
-last_reviewed_title: "样张收了，三点的人先到了"
-last_source_path: chapters/draft/0817.md
-last_source_sha: 032be17279628f54be2c1ded4b812c607e28580d
-last_review_path: reader_reviews/0817_032be172.md
-last_reviewed_at: "2026-11-17T08:07:04+08:00"
+last_reviewed_chapter: 819
+last_reviewed_title: "样张拿回来了，桌位还空着"
+last_source_path: chapters/draft/0819.md
+last_source_sha: e1a56fab6a62b4cbd411f90685cd3e4095ffc04e
+last_review_path: reader_reviews/0819_e1a56fab.md
+last_reviewed_at: "2026-11-17T10:27:00+08:00"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b
 recommendation: keep
 required_action: none
@@ -12,10 +12,10 @@ blocker_count: 0
 major_count: 0
 minor_count: 2
 reader_gate: pass
-depends_on_chapter: 816
-depends_on_source_sha: bec8ada82b1df59acfe9bf6f3795d4ee5e488090
+depends_on_chapter: 818
+depends_on_source_sha: 705302989cb9f8a37516fea41ea06e76bf4f6a10
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: bec8ada82b1df59acfe9bf6f3795d4ee5e488090
+predecessor_current_source_sha: 705302989cb9f8a37516fea41ea06e76bf4f6a10
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -10993,3 +10993,27 @@ combined_audit_chapter_818_20261117:
   qa_gate: pass
   content_qa: pass
   structural_gate: exact_candidate_CI_pass_run_44001711896
+
+
+combined_audit_chapter_819_20261117:
+  chapter: 819
+  title: "样张拿回来了，桌位还空着"
+  original_source_sha: "03c71594b21147ca64b2a7f069d7a22525b0bcd0"
+  initial_review_path: "reader_reviews/0819_03c71594.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_source_sha: "e1a56fab6a62b4cbd411f90685cd3e4095ffc04e"
+  final_review_path: "reader_reviews/0819_e1a56fab.md"
+  pass_a: independently_rereviewed_new_SHA
+  pass_b: independently_rereviewed_new_SHA_after_canon
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  local_revision_used: 1
+  body_revisions: 1
+  metadata_revisions: 1
+  stage_a_fix: "clarify_19:54_arrival_vs_20:02_fixed_post_signin_and_rebind_818_ready"
+  predecessor_ready_sha: "705302989cb9f8a37516fea41ea06e76bf4f6a10"
+  dependency_status: verified_exact_ready_blob
+  ready_sha: "ee913d809f6d75d2d2e7e57c81aedd46dcf7be92"
+  content_qa: pass
+  structural_gate: pending_exact_candidate_CI

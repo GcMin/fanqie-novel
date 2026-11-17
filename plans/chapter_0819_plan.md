@@ -7,11 +7,11 @@
 - source_branch: main
 - source_main_sha_at_precheck: 7cfcc851f526e40b15f2fe06daff48bb2dde39eb
 - depends_on_chapter: 818
-- depends_on_source_sha: "510539c254d77dc3b04299e77af4ea1aacd4ada4"
-- dependency_status: provisional
-- plan_status: draft
+- depends_on_source_sha: "705302989cb9f8a37516fea41ea06e76bf4f6a10"
+- dependency_status: verified_exact_ready_blob
+- plan_status: completed
 - target_effective_chars: 2600—3400（硬限2300—3800）
-- actual_effective_chars: 2958
+- actual_effective_chars: 3007
 
 ## Planner：章节目标、POV与开场
 
@@ -62,3 +62,14 @@ Day684夜：咨询样张已由母亲取回，次日16:30单独看样待进行，
 ## Writer scope
 
 仅执行Planner、Continuity Precheck、Writer；只新增本章详细章纲与正文首稿。不执行Editor、Reader、Revision、QA、Memory、Publish Gate，不修改既有章节或长期状态文件，不发布番茄。
+
+## Audit 完成记录（2026-11-17）
+
+- 原始Writer草稿SHA：03c71594b21147ca64b2a7f069d7a22525b0bcd0。
+- 初审：reader_reviews/0819_03c71594.md，0 BLOCKER / 1 MAJOR / 2 MINOR。
+- Stage A局部修订1次：区分19:54到楼与20:02固定点签入；正文及依赖重绑后的Draft SHA为e1a56fab6a62b4cbd411f90685cd3e4095ffc04e。
+- 前章依赖重绑第818章最终Ready Blob 705302989cb9f8a37516fea41ea06e76bf4f6a10。
+- 最终独立双遍Reader：reader_reviews/0819_e1a56fab.md，0/0/2，keep / none。
+- 独立Continuity/Style/Meaningful QA：PASS；有效字数3007。
+- Ready候选Blob：ee913d809f6d75d2d2e7e57c81aedd46dcf7be92。
+- 精确候选结构CI：待执行；CI成功前不得合入main。

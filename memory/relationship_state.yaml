@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 818
+last_updated_chapter: 819
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4657,3 +4657,11 @@ chapter_818_arc054:
   mother_child: "母亲只告诉孩子有一班记录核清且仍不能进入；孩子接受边界，继续作业，没有以纸车试验换取开门。"
   child_xiaoman: "本章无新增共同实验或关系变化；甲三停用、空架样无载状态保持。"
   mother_activity_room: "样张已交咨询并持有仅收件回执，负责人周一答复未到；母亲没有把收件升级为报名、展示或拍摄授权。"
+
+
+chapter_819_arc054:
+  mother_activity_room: "母亲拒绝无法控制访客拍摄的公开半桌，主动取回样张并预约次日十五分钟私下看样；活动室只安排看样，不替她决定报名或展示。"
+  mother_center: "母亲只在本人再次确认的授权范围内查看Day683脱敏夜班记录；活动室样张、新荷街地址和家庭私作不进入对公渠道。"
+  mother_child: "母亲告诉孩子样张已取回、次日只看样不等于同意；孩子理解边界，没有以纸车试验换取活动室或旧屋决定。"
+  child_xiaoman: "晓漫只与孩子维持普通放学、作业和足球日常，不安排实验或代替孩子判断纸车。"
+  child_classmate: "同桌只与孩子回顾周六足球并提出下周再踢，没有追问甲三或家庭实验。"

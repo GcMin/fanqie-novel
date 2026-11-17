@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 818
-current_stage: chapter818_ready_main_exact_CI_pass
-current_source_path: chapters/ready/0818.md
-current_source_sha: 705302989cb9f8a37516fea41ea06e76bf4f6a10
-current_review_path: reader_reviews/0818_d357de1b.md
+current_chapter: 819
+current_stage: chapter819_ready_candidate_CI_pending
+current_source_path: chapters/ready/0819.md
+current_source_sha: ee913d809f6d75d2d2e7e57c81aedd46dcf7be92
+current_review_path: reader_reviews/0819_e1a56fab.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter818_ready_candidate_CI_success
+last_action: chapter819_ready_candidate_waiting_exact_CI
 last_action_date: "2026-11-17"
 last_error: null
 last_diff_summary: "818初审0/2/2发现08:00授权时间窗与08:02/08:07记录冲突，且标题/结论超过记录证据范围；Stage A局部修订1次，最终SHA d357de1b独立双遍复审0/0/2 keep/none；Continuity/Style/Meaningful QA PASS，有效2768字；候选commit f7239f4468e05ccdadb8b57bc0da0079f498d2de的Actions run 44001711896 success，12项测试通过，publisher.check_local ok=true、ready_count=659。"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: true
-current_review_source_sha: "d357de1b31ba6ff939786ede0706c19cf765393b"
+publish_gate_passed: false
+current_review_source_sha: "e1a56fab6a62b4cbd411f90685cd3e4095ffc04e"
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -9659,3 +9659,22 @@ combined_audit_chapter_818_20261117:
   content_qa: pass
   ready_sha: 705302989cb9f8a37516fea41ea06e76bf4f6a10
   structural_gate: exact_candidate_CI_pass_run_44001711896
+
+
+combined_audit_chapter_819_20261117:
+  original_sha: "03c71594b21147ca64b2a7f069d7a22525b0bcd0"
+  final_draft_sha: "e1a56fab6a62b4cbd411f90685cd3e4095ffc04e"
+  initial_review: "reader_reviews/0819_03c71594.md"
+  final_review: "reader_reviews/0819_e1a56fab.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  retry_cycles: 0
+  body_revisions: 1
+  metadata_revisions: 1
+  stage_a_fix: "clarify_19:54_arrival_vs_20:02_signin_and_rebind_818_ready"
+  predecessor_ready_sha: "705302989cb9f8a37516fea41ea06e76bf4f6a10"
+  dependency_status: verified_exact_ready_blob
+  content_qa: pass
+  ready_sha: "ee913d809f6d75d2d2e7e57c81aedd46dcf7be92"
+  structural_gate: pending_exact_candidate_CI

@@ -1,0 +1,39 @@
+schema_version: 1
+chapter: 819
+title: "样张拿回来了，桌位还空着"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "03c71594b21147ca64b2a7f069d7a22525b0bcd0"
+source_draft_sha: "e1a56fab6a62b4cbd411f90685cd3e4095ffc04e"
+ready_blob_sha: "ee913d809f6d75d2d2e7e57c81aedd46dcf7be92"
+reader_review: "reader_reviews/0819_e1a56fab.md"
+initial_reader_review: "reader_reviews/0819_03c71594.md"
+depends_on_chapter: 818
+depends_on_source_sha: "705302989cb9f8a37516fea41ea06e76bf4f6a10"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "818原稿与最终Ready正文的差异仅为Day682交接/离岗时间和证据结论措辞；819不复用旧版07:58/08:02/08:07，依赖已重绑最终Ready Blob。"
+timeframe: "Day684（星期一）早至夜"
+summary: >-
+  Day684星期一，母亲收到活动室关于周末手作交流日公开半桌的答复：工作人员会拍全景，访客自行拍摄也无法保证拦截。她不占桌，取回已交咨询样张，并预约次日16:30十五分钟单独看样；样张没有报名、上桌、展示、拍摄或复制授权。孩子回顾周六足球，正常写作业，没有新增纸车试验。夜间母亲按本人授权核看Day683仁合里旧四楼外侧固定岗第二班脱敏记录：19:54到楼、20:02固定点签入、00:14/04:06两次不同人员抽核、07:47接班人到达、07:53双方签字、08:01原岗离开；20:07/07:46门外检查封签完整、锁具未操作。修订后明确到楼不等于上岗，记录闭合只限固定点签入后的登记与列明时点。Day682与Day683是相邻两夜的独立班次，不覆盖白天或连续24小时；Day664九分钟空岗、Day665晚交但有据连续、Day666—Day681分段核查继续分别保留。旧四楼仍闭锁、双封、水电隔离、Day536撤清运后整屋禁返住，无入户或重开许可；红七原车未动，甲三停用，空架样未承载。
+meaningful_state_changes:
+  - "母亲拒绝无法控制访客拍摄的公开半桌，取回咨询样张并预约次日私下看样；仍未决定报名或展示。"
+  - "Day683新增一班可核的外侧固定岗登记、抽核、交接和门外检查，与Day682分别索引，不构成连续24小时值守。"
+  - "孩子继续足球和作业日常，本章无新增纸车测试。"
+knowledge_updates:
+  mother: "知道活动室公开拍摄风险、样张取回和次日私下看样预约；知道Day683本班登记及检查时点，不据此认定全天值守或室内安全。"
+  zhou_heng_liang_ce_xia_ning: "知道Day683本班登记、两次抽核、交接及门外检查记录；知道到楼与固定点签入有别，Day682/683不能推成连续24小时。"
+  child: "知道母亲取回样张并预约次日看样；不知道原始值守册、签识、F014历史资料或夜班细节。"
+  xiaoman: "知道孩子继续日常上学、作业和足球活动，没有新纸车实验。"
+  unresolved: "次日16:30私下看样、是否参加活动仍待发生；旧屋重开条件、R-12/F014/七号箱2019旧卷跨源历史证据仍未解决。"
+relationship_updates:
+  mother_activity_room: "母亲保留作品决定权，活动室只安排私下看样，不替她决定报名或展示。"
+  mother_center: "母亲仅在本人授权范围内核看旧屋脱敏记录，家庭私事不进入对公渠道。"
+  mother_child: "母亲说明看样不等于批准，孩子理解边界并继续日常活动。"
+  child_xiaoman: "晓漫尊重孩子当天不做实验的选择，不替孩子安排下一次试验。"
+foreshadowing_updates:
+  F014: "active；Day683当代外侧固定岗记录不提供旧联系号初源、旧信本人收讫、旧押金全渠道末端实退或七号箱五楼/2019旧卷跨源证据。"
+  M004_M005: "不升级、不触碰。"
+ending_state: "样张已回到母亲手中，次日16:30私下看样待发生；Day682/Day683相邻夜班分别索引但不构成连续24小时；旧四楼闭锁禁返住无重开许可；红七原车未动、甲三停用、空架未承载。"

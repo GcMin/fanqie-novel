@@ -1,7 +1,7 @@
 schema_version: 1
 mode: split_roles
 observed_main: 1be276cdbac84886225ed198db532c4fe2ccb2df
-last_completed_chapter: 818
+last_completed_chapter: 819
 current_chapter: null
 current_stage: no_pending_draft
 current_source_path: null
@@ -9,6 +9,6 @@ current_source_sha: null
 creative_gate: pass
 publish_gate: ready
 blocker_type: none
-next_action: writer_create_819_when_due
-next_new_chapter_after_creative_pass: 819
-note: "第818章已完成初审、一次局部修订、新SHA双遍Reader、Continuity/Style/Memory及精确候选结构CI；候选commit f107cc6e9946d7c6f57905701b0df51fe2b4e33f的run 44001972629成功，ready_count 659。Audit不写新章。"
+next_action: writer_create_820_when_due
+next_new_chapter_after_creative_pass: 820
+note: "第819章已完成初审、一次局部修订、新SHA双遍Reader、Continuity/Style/Memory与Ready候选构建；精确候选结构CI待执行，成功前不合入main。Audit不写新章。"
