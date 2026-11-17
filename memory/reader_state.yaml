@@ -11017,3 +11017,22 @@ combined_audit_chapter_819_20261117:
   ready_sha: "ee913d809f6d75d2d2e7e57c81aedd46dcf7be92"
   content_qa: pass
   structural_gate: pending_exact_candidate_CI
+
+combined_audit_chapter_820_20261117:
+  chapter: 820
+  title: "十五分钟看完，样张仍由她带走"
+  original_source_sha: "78216884ffb4a4ffd69b0a9aa5d64d2bb0fcf46a"
+  final_source_sha: "78216884ffb4a4ffd69b0a9aa5d64d2bb0fcf46a"
+  final_review_path: "reader_reviews/0820_78216884.md"
+  pass_a: independently_reviewed_current_chapter_previous_3_recent_10_summaries_and_style
+  pass_b: independently_reviewed_canon_arc_knowledge_world_timeline_foreshadowing_and_predecessor_deltas
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  predecessor_ready_sha: "ee913d809f6d75d2d2e7e57c81aedd46dcf7be92"
+  dependency_status: verified_exact_ready_blob
+  reader_gate: pass
+  content_qa: pass
+  ready_sha: "b4ff7777bb59c8e4eba93874ad779bc6a0b542ec"
+  structural_gate: pending_exact_candidate_CI
+

@@ -62,3 +62,11 @@ Day685夜：十五分钟私下看样已完成，样张仍由母亲带回；独�
 ## Writer scope
 
 仅执行Planner、Continuity Precheck、Writer；只新增本章详细章纲与正文首稿。不执行Editor、Reader、Revision、QA、Memory、Publish Gate，不修改既有章节或长期状态文件，不发布番茄。
+
+## Audit / Ready Gate｜2026-11-17
+
+- Writer Draft SHA：`78216884ffb4a4ffd69b0a9aa5d64d2bb0fcf46a`；有效字数2699。
+- Reader Review：`reader_reviews/0820_78216884.md`，独立Pass A→Pass B，0 BLOCKER / 0 MAJOR / 2 MINOR，`keep / none`；正文0修改。
+- 独立Continuity / Style / Meaningful QA：PASS；前章819正式Ready Blob `ee913d809f6d75d2d2e7e57c81aedd46dcf7be92` 精确依赖。
+- Ready候选Blob：`b4ff7777bb59c8e4eba93874ad779bc6a0b542ec`。
+- 结构门槛：候选分支精确CI pending；CI成功前不快进main。
