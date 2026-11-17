@@ -64,3 +64,13 @@ Day688夜：A版剪裁纸样、B版独立复画与Day686草图分别收存；对
 ## Writer Scope
 
 仅执行Planner、Continuity Precheck、Writer；只新增本章详细章纲与正文首稿。不执行Editor、Reader、Revision、QA、Memory、Publish Gate，不修改既有章节、计划表或长期状态文件，不发布番茄。
+
+
+## Audit / Reader / QA / Ready Gate｜2026-11-17
+
+- Source Draft SHA：0e332afc72a754c4f1a259934aa30d8cbc02d216；前章822最终Ready SHA：7b7aee43be962f61fd0d7a3ab7780b8613cc9d71，依赖精确匹配。
+- Reader Pass A：本章、820—822正文、813—822摘要、文风；Pass B：Canon、ARC-054、人物知识、世界/关系/时间线/伏笔及历史事实差异。Review：reader_reviews/0823_0e332afc.md，0 BLOCKER / 0 MAJOR / 3 MINOR，keep/none。
+- 正文修改0次；不触发Revision。独立Continuity / Style / Meaningful QA PASS；标题16个非空白字符，有效字数2659。
+- A版剪裁样与B版独立线稿分存；127/128毫米仅为相邻刻度区间，不证明角度、尺寸或机械适配。红七原车未动、甲三停用、无载空架样未测试。
+- Memory：chapter_summaries/0823、character/knowledge/relationship/world、timeline T826、current_arc、reader_state、revision_state已同步；F014保持active，M004/M005不升级。
+- Ready候选Blob：1bc9b9d33878a49f4b0d0582fd61dba69cbb295f，正文与原Draft逐字一致。候选CI仍待精确提交校验；通过前不合入main。
