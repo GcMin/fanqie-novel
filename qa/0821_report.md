@@ -63,7 +63,7 @@
 
 ## Memory / Plan 同步
 
-待候选结构CI通过后随同一候选快照交付：
+已随结构校验通过的候选快照同步写入并提交：
 - `memory/chapter_summaries/0821.yaml`
 - `memory/character_state.yaml`、`knowledge_state.yaml`、`world_state.yaml`、`relationship_state.yaml`
 - `memory/timeline.csv` 追加T824（Day686）
