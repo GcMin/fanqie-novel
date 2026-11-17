@@ -10970,3 +10970,26 @@ combined_audit_chapter_817_20261117:
   structural_gate: exact_branch_CI_pass_run_43987347076
   ready_sha: cebc1ceebab22b7d24cb4606e562e01e253090fe
   main_ci_run: 43987471186
+
+
+combined_audit_chapter_818_20261117:
+  chapter: 818
+  original_source_sha: "510539c254d77dc3b04299e77af4ea1aacd4ada4"
+  initial_review_path: "reader_reviews/0818_510539c2.md"
+  initial_counts: {blocker: 0, major: 2, minor: 2}
+  final_source_sha: "d357de1b31ba6ff939786ede0706c19cf765393b"
+  final_review_path: "reader_reviews/0818_d357de1b.md"
+  pass_a: independently_rereviewed_new_SHA
+  pass_b: independently_rereviewed_new_SHA_after_canon
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  recommendation: keep
+  required_action: none
+  local_revision_used: 1
+  body_revisions: 1
+  stage_a_fix: "align handover/leave to 08:00 authorization and limit evidence conclusion to records/checkpoints"
+  predecessor_ready_sha: "cebc1ceebab22b7d24cb4606e562e01e253090fe"
+  dependency_status: verified_exact_ready_blob
+  ready_sha: 705302989cb9f8a37516fea41ea06e76bf4f6a10
+  qa_gate: pass
+  content_qa: pass
+  structural_gate: exact_candidate_CI_pass_run_44001711896
