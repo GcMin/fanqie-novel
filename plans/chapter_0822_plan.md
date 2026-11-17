@@ -64,3 +64,13 @@ Day687夜：孩子将第二张纸样单独收袋，标明112×60毫米仅为纸�
 ## Writer Scope
 
 仅执行Planner、Continuity Precheck、Writer；只新增本章详细章纲与正文首稿。不执行Editor、Reader、Revision、QA、Memory、Publish Gate，不修改既有章节或长期状态文件，不发布番茄。
+
+
+## Audit Reader / Revision / Continuity / Style / Ready Gate（2026-11-17）
+- Draft源Blob：56373f7ede1934068d05c94cc85eea6b9aed767f；依赖第821章最终Ready Blob 5888e61896234c18d4899f09468f9eb01cff790f精确匹配。
+- Reader Review：reader_reviews/0822_56373f7e.md；Pass A后Pass B，BLOCKER=0、MAJOR=0、MINOR=3，keep / none；fix_required=none。
+- 正文修订0次；没有触发Revision、整章重写或重新规划。MINOR仅记录。
+- 独立Continuity / Style / Meaningful QA：PASS；标题14个非空白字符，有效字数2643。
+- Memory：将同步第822章摘要、人物/知识/世界/关系、T825、F014、current_arc、Reader/Revision/Writing状态。
+- 计划表：追加第822章唯一completed / QA pass / ready行；既有Ready计划行全部保留。
+- Ready候选Blob：7b7aee43be962f61fd0d7a3ab7780b8613cc9d71；本候选提交的精确结构CI尚待运行，通过前不推进main。

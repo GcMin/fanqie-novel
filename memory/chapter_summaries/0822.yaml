@@ -1,0 +1,42 @@
+schema_version: 1
+chapter: 822
+title: "尺子量出新边，红七仍留在架上"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f"
+source_draft_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f"
+ready_blob_sha: "7b7aee43be962f61fd0d7a3ab7780b8613cc9d71"
+reader_review: "reader_reviews/0822_56373f7e.md"
+depends_on_chapter: 821
+depends_on_source_sha: "5888e61896234c18d4899f09468f9eb01cff790f"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "第821章源Draft与最终Ready剥离Front Matter后正文逐字一致；第822章依赖精确绑定最终Ready SHA，无前章事实差异。"
+timeframe: "Day687（星期四）早至夜"
+summary: >-
+  Day687星期四，孩子保留Day686粗略草图，不带去学校；同桌只知道红七旧车没动、孩子另画新纸。放学后发现空饼干盒内侧折角压痕和边缘不平行，记录不一致读数，不把包装边当基准。随后在独立废打印纸上以自画中线绘制112×60毫米纸面模板，标出距短边各16毫米的前后参考线、四个轮位浅十字和暂定前端箭头；三角板首次贴合不稳的线作废后重画。纸样剪出并轻放空包装纸板内侧，没有描线、剪纸板或转印。第一张偏线废样与第二张纸样分袋。母亲在废卡纸上试写两种字号，并在普通坐姿与厨房斜光下比较；没有替换Day685说明卡或联系活动室。红七、甲三、Day681无载空架样、蓝碗试印和旧屋安全状态均未改变。
+meaningful_state_changes:
+  - "孩子把Day686粗略草图推进为112×60毫米独立纸面模板，加入中线、前后参考线、轮位浅十字和暂定方向；仍不是底板实物。"
+  - "包装盒内侧边缘不平行，孩子改用独立纸张和自画中线，不把包装盒偏斜带入设计基准。"
+  - "母亲完成两种字号试写，并在普通坐姿与斜光下比较可读性；没有替换原说明卡或改变作品状态。"
+knowledge_updates:
+  mother: "知道孩子已剪出独立纸样，纸面尺寸112×60毫米，但未转印、未制作底板、未装轮或测试；自己的两张字号卡仍只是试写。"
+  child: "知道包装盒边缘不平行且读数不一致，112×60毫米只属于纸样绘图值；参考线仍待确认，不能解释红七左偏。"
+  xiaoman: "看到孩子测量、重画并剪出纸样，知道它不是底板实物，未承载、未装轮、未移动；没有替孩子量尺寸或判断适配。"
+  classmate: "只知道孩子说红七旧车没动、另画一张新纸；不知道甲三、旧轮、家庭记录或具体纸样尺寸。"
+  activity_room: "本章母亲未联系活动室；没有获得新样张、字号试写或展示/拍摄/复制授权。"
+  center: "本章没有向夜间中心提供家庭纸样或蓝碗私作信息；夏宁、周衡、梁策知识边界不变。"
+  unresolved: "新纸样是否转印、底板材料与制作条件仍未决定；红七左偏根因未明；白口成因未明；旧屋重开条件、R-12/F014及七号箱五楼/2019旧卷跨源证据仍未解决。"
+relationship_updates:
+  - "母亲尊重孩子自行决定纸样尺寸，不把自己的字号试写与孩子纸样混成一件作品。"
+  - "晓漫以提问帮助孩子区分纸样与底板，不代量、不制作、不验证。"
+  - "孩子对同桌只透露红七没动和自己另画新纸，保留甲三与家庭记录细节。"
+foreshadowing_updates:
+  - "F014保持active；Day687家庭纸样与字号试写不构成旧联系号初源、旧信本人历史收讫、旧押金全渠道末端实退或七号箱五楼/2019旧卷跨源新证；M004/M005不升级。"
+ending_state: "Day687夜第二张112×60毫米纸样单独收袋，Day686草图与第一张废样分开；纸样未转印、未制作底板、未装轮、未承载、未移动。母亲两张字号试写卡单独收存。红七仍在四轮悬空架，甲三继续停用，Day681无载空架样未测试；旧四楼闭锁禁返住，无新授权或夜班记录。"
+reader_counts: {blocker: 0, major: 0, minor: 3}
+revision_trace: {original_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f", final_draft_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f", initial_counts: {blocker: 0, major: 0, minor: 3}, final_counts: {blocker: 0, major: 0, minor: 3}, stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, metadata_revisions: 0, reason: "no_blocker_or_major_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_CI_pending}
+char_count: 2643

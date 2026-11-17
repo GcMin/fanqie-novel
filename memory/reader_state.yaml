@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 819
-last_reviewed_title: "样张拿回来了，桌位还空着"
-last_source_path: chapters/draft/0819.md
-last_source_sha: e1a56fab6a62b4cbd411f90685cd3e4095ffc04e
-last_review_path: reader_reviews/0819_e1a56fab.md
-last_reviewed_at: "2026-11-17T10:27:00+08:00"
+last_reviewed_chapter: 822
+last_reviewed_title: "尺子量出新边，红七仍留在架上"
+last_source_path: chapters/draft/0822.md
+last_source_sha: 56373f7ede1934068d05c94cc85eea6b9aed767f
+last_review_path: reader_reviews/0822_56373f7e.md
+last_reviewed_at: "2026-11-17T13:09:46+08:00"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
-minor_count: 2
+minor_count: 3
 reader_gate: pass
-depends_on_chapter: 818
-depends_on_source_sha: 705302989cb9f8a37516fea41ea06e76bf4f6a10
+depends_on_chapter: 821
+depends_on_source_sha: "5888e61896234c18d4899f09468f9eb01cff790f"
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 705302989cb9f8a37516fea41ea06e76bf4f6a10
+predecessor_current_source_sha: "5888e61896234c18d4899f09468f9eb01cff790f"
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -11053,3 +11053,20 @@ combined_audit_chapter_821_20261117:
   content_qa: pass
   ready_sha: "5888e61896234c18d4899f09468f9eb01cff790f"
   structural_gate: pending_exact_candidate_CI
+
+combined_audit_chapter_822_20261117:
+  chapter: 822
+  title: "尺子量出新边，红七仍留在架上"
+  original_source_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f"
+  final_source_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f"
+  final_review_path: "reader_reviews/0822_56373f7e.md"
+  pass_a: independently_reviewed_current_chapter_previous_3_full_chapters_recent_10_summaries_and_style
+  pass_b: independently_reviewed_canon_arc_knowledge_world_timeline_foreshadowing_and_predecessor_deltas
+  final_counts: {blocker: 0, major: 0, minor: 3}
+  recommendation: keep
+  required_action: none
+  predecessor_ready_sha: "5888e61896234c18d4899f09468f9eb01cff790f"
+  dependency_status: verified_exact_ready_blob
+  reader_gate: pass
+  content_qa: pass
+  body_revisions: 0
