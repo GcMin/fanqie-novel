@@ -1,10 +1,10 @@
 schema_version: 2
 safe_mode: false
-current_chapter: 819
-current_stage: chapter819_ready_main_exact_CI_pass
-current_source_path: chapters/ready/0819.md
-current_source_sha: ee913d809f6d75d2d2e7e57c81aedd46dcf7be92
-current_review_path: reader_reviews/0819_e1a56fab.md
+current_chapter: 823
+current_stage: chapter823_ready_candidate_CI_pass
+current_source_path: chapters/ready/0823.md
+current_source_sha: 01919b8fa2f60a1395c4a41532f16270e422baa3
+current_review_path: reader_reviews/0823_4fc61118.md
 rounds:
   reviews_this_cycle: 2
   local_revision_used: 1
@@ -12,14 +12,14 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter819_ready_main_exact_CI_success
+last_action: chapter823_ready_candidate_CI_success
 last_action_date: "2026-11-17"
 last_error: null
-last_diff_summary: "818初审0/2/2发现08:00授权时间窗与08:02/08:07记录冲突，且标题/结论超过记录证据范围；Stage A局部修订1次，最终SHA d357de1b独立双遍复审0/0/2 keep/none；Continuity/Style/Meaningful QA PASS，有效2768字；候选commit f7239f4468e05ccdadb8b57bc0da0079f498d2de的Actions run 44001711896 success，12项测试通过，publisher.check_local ok=true、ready_count=659。"
+last_diff_summary: "823初审0/1/2发现B版独立复画缺112毫米长度基准和四角构框步骤；Stage A局部修订1次，最终SHA 4fc61118独立双遍复审0/0/2 keep/none；独立Continuity/Style/Meaningful QA PASS，有效2753字；候选commit ba60f2a581cd95d7d3542d0177cfc7e694887f2a的Actions run 44038313517 success，12项测试通过，publisher.check_local ok=true、ready_count=664。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: true
-current_review_source_sha: "e1a56fab6a62b4cbd411f90685cd3e4095ffc04e"
+current_review_source_sha: "4fc61118d09aa7af58ecce9482fcb05b7fe35249"
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
 combined_audit_revisions:
@@ -9736,3 +9736,25 @@ combined_audit_chapter_822_20261117:
   structural_gate: exact_candidate_ci_pass_run_44029615910
   main_commit: "187aa4cd3502c6fa3f57d6638cf9d84aaafb4113"
   main_ci_run: 44029922517
+
+ 
+combined_audit_chapter_823_20261117:
+  original_sha: "0e332afc72a754c4f1a259934aa30d8cbc02d216"
+  final_draft_sha: "4fc61118d09aa7af58ecce9482fcb05b7fe35249"
+  initial_review: "reader_reviews/0823_0e332afc.md"
+  final_review: "reader_reviews/0823_4fc61118.md"
+  initial_counts: {blocker: 0, major: 1, minor: 2}
+  final_counts: {blocker: 0, major: 0, minor: 2}
+  rounds: {reviews_this_cycle: 2, local_revision_used: 1, chapter_rewrite_used: 0, replan_rewrite_used: 0}
+  retry_cycles: 0
+  body_revisions: 1
+  metadata_revisions: 1
+  stage_a_fix: "explicit_112mm_centerline_span_and_orthogonal_frame"
+  predecessor_ready_sha: "7b7aee43be962f61fd0d7a3ab7780b8613cc9d71"
+  dependency_status: verified_exact_ready_blob
+  recommendation: keep
+  required_action: none
+  content_qa: pass
+  ready_sha: "01919b8fa2f60a1395c4a41532f16270e422baa3"
+  structural_gate: exact_candidate_CI_pass_run_44038313517
+  candidate_commit: "ba60f2a581cd95d7d3542d0177cfc7e694887f2a"

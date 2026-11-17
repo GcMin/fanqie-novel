@@ -7,8 +7,8 @@
 - source_branch: main
 - source_main_sha_at_precheck: 7e20c30eefd4f6b67c26e0f86f19b94ab960f6d1
 - depends_on_chapter: 823
-- depends_on_source_sha: "0e332afc72a754c4f1a259934aa30d8cbc02d216"
-- dependency_status: provisional
+- depends_on_source_sha: "01919b8fa2f60a1395c4a41532f16270e422baa3"
+- dependency_status: verified_exact_ready_blob
 - plan_status: completed
 - target_effective_chars: 2600—3400（硬限2300—3800）
 - actual_effective_chars: 2783
@@ -67,3 +67,9 @@ Day689夜：孩子在同一支撑条件下复核B版，两条对角线读数区�
 ## Writer Scope
 
 仅执行Planner、Continuity Precheck、Writer；只新增本章详细章纲与正文首稿。不执行Editor、Reader、Revision、QA、Memory、Publish Gate，不修改既有章节、计划表或长期状态文件，不发布番茄。
+ 
+## Audit Predecessor Rebind｜2026-11-17
+- 第823章原始Draft SHA `0e332afc72a754c4f1a259934aa30d8cbc02d216` 经Stage A局部修订为最终Draft SHA `4fc61118d09aa7af58ecce9482fcb05b7fe35249`，Ready Blob为 `01919b8fa2f60a1395c4a41532f16270e422baa3`。
+- 逐项比较后，变更只明确了B版按A版记录的112×60毫米目标复画：中线标出112毫米两端点、两端各量30毫米并直角连框。原有事实未改变：A/B分袋、对角线读数约127—128毫米且复测不稳定、角位贴合受纸面影响、未修边/未转印/未制作底板/未装轮/未承载/未移动、红七未动、甲三停用、母亲字号卡独立试读。
+- 本章824实际依赖的纸样状态与测量区间未改变；没有沿用旧SHA作为当前依赖。Draft Front Matter与本计划均已重新绑定第823章最终Ready Blob `01919b8fa2f60a1395c4a41532f16270e422baa3`，`dependency_status: verified_exact_ready_blob`。
+- 本次仅更新依赖元数据和连续性记录，未修改第824章正文。
