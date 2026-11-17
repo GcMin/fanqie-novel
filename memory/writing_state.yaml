@@ -1,6 +1,6 @@
 schema_version: 1
 mode: split_roles
-observed_main: 29a7885b2324fb5ce2530500f284fc336ce04004
+observed_main: b95b113addc99325e6a8de0bc8f3c90df3ca6117
 last_completed_chapter: 824
 current_chapter: null
 current_stage: no_pending_draft
@@ -11,4 +11,4 @@ publish_gate: ready
 blocker_type: none
 next_action: writer_create_825_when_due
 next_new_chapter_after_creative_pass: 825
-note: "Main 29a7885b2324fb5ce2530500f284fc336ce04004 verified: chapters/draft contains only CHAPTER_TEMPLATE.md and README.md; chapters/ready ends at 0824.md (Blob 81b802766588a8659afa2ac665d2c22cee173519); chapter 824 is the latest completed ready chapter. No pending draft exists. Audit reconciled this stale writer cursor only; no new chapter was created and no chapter content was changed."
+note: "Main b95b113addc99325e6a8de0bc8f3c90df3ca6117 verified: chapters/draft contains only CHAPTER_TEMPLATE.md and README.md; chapters/ready ends at 0824.md (Blob 81b802766588a8659afa2ac665d2c22cee173519); chapter 824 is the latest completed ready chapter. No pending draft exists. Audit reconciled the stale writer cursor against current main; no new chapter was created and no chapter content was changed."
