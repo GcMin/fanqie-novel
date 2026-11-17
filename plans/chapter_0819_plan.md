@@ -72,4 +72,4 @@ Day684夜：咨询样张已由母亲取回，次日16:30单独看样待进行，
 - 最终独立双遍Reader：reader_reviews/0819_e1a56fab.md，0/0/2，keep / none。
 - 独立Continuity/Style/Meaningful QA：PASS；有效字数3007。
 - Ready候选Blob：ee913d809f6d75d2d2e7e57c81aedd46dcf7be92。
-- 精确候选结构CI：待执行；CI成功前不得合入main。
+- 精确候选结构CI：run 44004609043 success；publisher.check_local ok=true、ready_count=660；离线快照测试success。

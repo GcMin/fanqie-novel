@@ -63,7 +63,9 @@ Day684母亲拒绝无法控制访客拍摄的公开半桌，取回咨询样张�
 - 更新reader_state、revision_state、writing_state。
 - plans/chapter_0819_plan.md标记completed；chapter_plan.csv仅追加819唯一行，保留所有既有Ready计划行。
 
-## 结构门槛
+## 结构门槛：PASS
 
 - Ready候选Blob：ee913d809f6d75d2d2e7e57c81aedd46dcf7be92。
-- 候选分支CI尚待执行；未将本章合入main，未把结构校验标记为成功。只有精确候选提交的离线快照测试与publisher.check_local均成功后才允许以expected_sha、force:false快进main。
+- 精确候选提交：75f301a6c606a89f2326dafe6dcc8beefb218fb3；GitHub Actions run 44004609043 success。
+- 离线快照测试：success；publisher.check_local --repo .：ok=true，ready_count=660；章节819有效字数3007，结构快照已包含ready/0819.md。
+- 该成功结果只验证结构与离线快照，不替代本报告中的独立Reader和Continuity/Style QA；文本审核已另行完成。

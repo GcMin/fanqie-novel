@@ -11,4 +11,4 @@ publish_gate: ready
 blocker_type: none
 next_action: writer_create_820_when_due
 next_new_chapter_after_creative_pass: 820
-note: "第819章已完成初审、一次局部修订、新SHA双遍Reader、Continuity/Style/Memory与Ready候选构建；精确候选结构CI待执行，成功前不合入main。Audit不写新章。"
+note: "第819章已完成初审、一次局部修订、新SHA双遍Reader、Continuity/Style/Memory与Ready候选构建；精确候选结构CI run 44004609043 success，publisher.check_local ok=true、ready_count=660，离线快照测试success。Audit不写新章。"
