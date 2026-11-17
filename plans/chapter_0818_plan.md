@@ -73,4 +73,4 @@ Day683夜：母亲持有Day682外侧固定岗单班限项摘录，明确起岗�
 - 修订后Draft SHA：d357de1b31ba6ff939786ede0706c19cf765393b；独立重新Pass A、Pass B，Review：reader_reviews/0818_d357de1b.md，0 BLOCKER / 0 MAJOR / 2 MINOR，keep / none。
 - 有效字数：2768；标题与Front Matter一致；前章817 Ready SHA精确匹配。
 - Continuity / Style / Meaningful QA：PASS；Memory与章节计划按最终正文同步。
-- 结构校验：候选ready快照提交的publisher-check CI必须成功后才允许main快进；CI状态以该精确提交的Actions结果为准。
+- 结构校验：候选提交 `f7239f4468e05ccdadb8b57bc0da0079f498d2de` 的publisher-check run `44001711896` success；12项离线快照测试全部通过，`python -m publisher.check_local --repo .` 返回 `ok: true`、`ready_count: 659`，第818章有效2768字。允许以expected_sha、force:false快进main。

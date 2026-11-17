@@ -10989,6 +10989,7 @@ combined_audit_chapter_818_20261117:
   stage_a_fix: "align handover/leave to 08:00 authorization and limit evidence conclusion to records/checkpoints"
   predecessor_ready_sha: "cebc1ceebab22b7d24cb4606e562e01e253090fe"
   dependency_status: verified_exact_ready_blob
+  ready_sha: 705302989cb9f8a37516fea41ea06e76bf4f6a10
   qa_gate: pass
   content_qa: pass
-  structural_gate: exact_candidate_CI_pending
+  structural_gate: exact_candidate_CI_pass_run_44001711896

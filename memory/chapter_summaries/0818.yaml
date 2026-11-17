@@ -36,5 +36,5 @@ foreshadowing_updates:
 ending_state: "Day683夜，母亲持有Day682外侧固定岗单班限项摘录，登记、两次抽核与交接记录闭合，但不等于逐分钟连续监控；门外两次检查所见封签完整，旧四楼仍闭锁、双封、水电隔离、整屋禁返住且无开门许可。Day664/665与Day666—681核查状态不变。活动室样张等待周一答复；红七原车未动，甲三继续停用，空架样未承载。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "510539c254d77dc3b04299e77af4ea1aacd4ada4", final_draft_sha: "d357de1b31ba6ff939786ede0706c19cf765393b", initial_counts: {blocker: 0, major: 2, minor: 2}, final_counts: {blocker: 0, major: 0, minor: 2}, stage_a_used: 1, stage_b_used: 0, stage_c_used: 0, body_revisions: 1, reason: "align_0800_authorization_window_and_limit_shift_evidence_claim"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_required_before_main}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_pass_run_44001711896}
 char_count: 2768

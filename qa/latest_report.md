@@ -64,5 +64,6 @@ Day682新增一班可核的外侧固定岗登记、抽核与交接记录；本�
 ## 结构门槛
 
 - Ready候选Blob：`705302989cb9f8a37516fea41ea06e76bf4f6a10`。
-- 本报告不预填CI运行号。仅当包含本报告、Memory、计划及该Ready Blob的精确候选提交，其 `publisher-check` Actions 明确success后，才允许将该提交快进到main。
-- CI只验证结构，不替代本报告中的Reader、Continuity或Style判断；若CI失败，保留draft并记录阻塞，不放行。
+- 精确候选提交：`f7239f4468e05ccdadb8b57bc0da0079f498d2de`；GitHub Actions run `44001711896` / job `133767140899` success。
+- 该run对精确checkout执行12项离线快照测试（全部通过），随后执行 `python -m publisher.check_local --repo .`，返回 `ok: true`、`ready_count: 659`；第818章 `effective_chars: 2768`。
+- 结构检查仅验证该精确候选快照，不替代Reader、Continuity或Style判断。候选分支CI成功后才允许以 `expected_sha`、`force:false` 快进main。

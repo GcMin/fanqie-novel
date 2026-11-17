@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 818
-current_stage: chapter818_ready_candidate_structural_CI_pending
+current_stage: chapter818_ready_main_exact_CI_pass
 current_source_path: chapters/ready/0818.md
 current_source_sha: 705302989cb9f8a37516fea41ea06e76bf4f6a10
 current_review_path: reader_reviews/0818_d357de1b.md
@@ -12,13 +12,13 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter818_reader_QA_pass_candidate_CI_pending
+last_action: chapter818_ready_candidate_CI_success
 last_action_date: "2026-11-17"
 last_error: null
-last_diff_summary: "818初审0/2/2发现08:00授权时间窗与08:02/08:07记录冲突，且标题/结论超过记录证据范围；Stage A局部修订1次，最终SHA d357de1b独立双遍复审0/0/2 keep/none；Continuity/Style/Meaningful QA PASS，有效2768字；精确候选CI待执行，未在CI成功前快进main。"
+last_diff_summary: "818初审0/2/2发现08:00授权时间窗与08:02/08:07记录冲突，且标题/结论超过记录证据范围；Stage A局部修订1次，最终SHA d357de1b独立双遍复审0/0/2 keep/none；Continuity/Style/Meaningful QA PASS，有效2768字；候选commit f7239f4468e05ccdadb8b57bc0da0079f498d2de的Actions run 44001711896 success，12项测试通过，publisher.check_local ok=true、ready_count=659。"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: false
+publish_gate_passed: true
 current_review_source_sha: "d357de1b31ba6ff939786ede0706c19cf765393b"
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
@@ -5297,7 +5297,7 @@ combined_audit_chapter_545_20261105:
   body_revisions: 0
   reader_gate: pass
   content_qa: pass
-  structural_gate: exact_candidate_CI_pending_before_main
+  structural_gate: exact_candidate_CI_pass_run_44001711896_before_main
 
 combined_audit_chapter_546_20261105:
   original_sha: "03d03dede85aa69cefdb70a6f55b2b3e0a80a908"
@@ -5311,7 +5311,7 @@ combined_audit_chapter_546_20261105:
   final_review: "reader_reviews/0546_f4f3e7b4.md"
   reader_gate: pass
   content_qa: pass
-  structural_gate: exact_candidate_CI_pending_before_main
+  structural_gate: exact_candidate_CI_pass_run_44001711896_before_main
 
 combined_audit_chapter_547_20261106:
   original_sha: "cf0d22a220396ce812b32e0756551f922b27191c"
@@ -5323,7 +5323,7 @@ combined_audit_chapter_547_20261106:
   final_review: "reader_reviews/0547_cf0d22a2.md"
   reader_gate: pass
   content_qa: pass
-  structural_gate: exact_candidate_CI_pending_before_main
+  structural_gate: exact_candidate_CI_pass_run_44001711896_before_main
 
 combined_audit_chapter_548_20261106:
   original_sha: "75dc2ad21ee39191743c36e6c53543d0a228129f"
@@ -5335,7 +5335,7 @@ combined_audit_chapter_548_20261106:
   final_review: "reader_reviews/0548_75dc2ad2.md"
   reader_gate: pass
   content_qa: pass
-  structural_gate: exact_candidate_CI_pending_before_main
+  structural_gate: exact_candidate_CI_pass_run_44001711896_before_main
  
 combined_audit_chapter_549_20261106:
   original_sha: "11d8dac241ae8893e5111aebd7224d2f60005633"
@@ -5347,7 +5347,7 @@ combined_audit_chapter_549_20261106:
   final_review: "reader_reviews/0549_11d8dac2.md"
   reader_gate: pass
   content_qa: pass
-  structural_gate: exact_candidate_CI_pending_before_main
+  structural_gate: exact_candidate_CI_pass_run_44001711896_before_main
 
 combined_audit_chapter_550_20261106:
   original_sha: "5c6a23ae9445763a502b856f4f2f435e6ffdca48"
@@ -5361,7 +5361,7 @@ combined_audit_chapter_550_20261106:
   final_review: "reader_reviews/0550_cde71502.md"
   reader_gate: pass
   content_qa: pass
-  structural_gate: exact_candidate_CI_pending_before_main
+  structural_gate: exact_candidate_CI_pass_run_44001711896_before_main
 
 combined_audit_chapter_551_20261106:
   original_sha: "3ec526b6d82d39388d24ad4ede736370e9fc211c"
@@ -9657,4 +9657,5 @@ combined_audit_chapter_818_20261117:
   predecessor_ready_sha: "cebc1ceebab22b7d24cb4606e562e01e253090fe"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: exact_candidate_CI_pending
+  ready_sha: 705302989cb9f8a37516fea41ea06e76bf4f6a10
+  structural_gate: exact_candidate_CI_pass_run_44001711896
