@@ -55,7 +55,7 @@
 - Draft Front Matter、详细章纲与正文Unicode去空白计数均为2643；位于2600—3400优选区间及2300—3800硬限内。
 - 原Draft Blob：`56373f7ede1934068d05c94cc85eea6b9aed767f`。
 - Ready候选Blob：`7b7aee43be962f61fd0d7a3ab7780b8613cc9d71`；正文与原Draft完全相同，只更新交付Front Matter。
-- **结构门槛：PASS。** 精确候选结构校验：GitHub Actions run 44029615910（候选commit 3d12927ab4e696c7fe2d56415693dbbe61f4090f）success；精确checkout执行 `python -m publisher.check_local --repo .` 返回 `ok: true`、`ready_count: 663`、第822章 `effective_chars: 2643`；离线快照单元测试12项全部通过。该候选快照结构门槛通过，main快进仍待最终HEAD核对。
+- **结构门槛：PASS。** 精确候选结构校验：GitHub Actions run 44029615910（候选commit 3d12927ab4e696c7fe2d56415693dbbe61f4090f）success；精确checkout执行 `python -m publisher.check_local --repo .` 返回 `ok: true`、`ready_count: 663`、第822章 `effective_chars: 2643`；离线快照单元测试12项全部通过。该候选快照结构门槛通过，main已快进至 `187aa4cd3502c6fa3f57d6638cf9d84aaafb4113`；main CI run `44029922517` success，精确checkout再次执行 `python -m publisher.check_local --repo .` 返回 `ok: true`、`ready_count: 663`、第822章 `effective_chars: 2643`，离线快照单元测试12项全部通过。 本章未发布番茄。
 
 ## Memory / Plan 同步
 
