@@ -1,0 +1,42 @@
+schema_version: 1
+chapter: 821
+title: "旧车没拆，新底板先画了中线"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "e2ff35198259e6e664482e35e0aa500fb1bb3937"
+source_draft_sha: "e2ff35198259e6e664482e35e0aa500fb1bb3937"
+ready_blob_sha: "5888e61896234c18d4899f09468f9eb01cff790f"
+reader_review: "reader_reviews/0821_e2ff3519.md"
+depends_on_chapter: 820
+depends_on_source_sha: "b4ff7777bb59c8e4eba93874ad779bc6a0b542ec"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "第820章原Draft与Ready正文逐字一致，仅Front Matter交付字段不同；821依赖精确绑定820最终Ready Blob。"
+timeframe: "Day686（星期三）早至夜"
+summary: >-
+  Day686星期三，母亲把Day681构图练习样张与Day685独立说明卡继续分开放在透明夹中，确认没有补线、贴卡、联系活动室或安排新的展示。孩子在学校先画一张粗略方车轮廓，明确红七仍在家且没有拆解；他向同桌有限说明轮子、轴套、纸桥和垫片曾在不同轮次改动，左偏原因仍无法区分。课堂平行线练习让他改用自画中线作为新草图基准，但没有产生精确机械尺寸。回家后他没有触碰红七、转轮或打开甲三停用盒，而是在独立包装纸板上画出新底板中线、两条轴线和待量标记；第一处画线作废，第二处两侧记号仍不完全重合。他把草图单独装袋，标明未制作、未装轮、未承载、未移动、尺寸待量，不能解释红七左偏。母亲、晓漫均未替他测量或验证。红七原车、甲三停用件、Day681无载空架样与旧记录保持原状；没有新增纸车测试。旧四楼闭锁禁返住及F014历史缺证不变。
+meaningful_state_changes:
+  - "孩子明确暂时停止继续改动红七，转而绘制一张与旧车分开的新底板草图；红七未被拆解或放弃。"
+  - "新草图首次以自画中线作为左右位置基准，但轴线与两侧标记仍有偏差，尺寸待量；草图不是实物，也没有测试结果。"
+  - "母亲继续将样张和说明卡分开放置，暂不安排下一次公开展示。"
+knowledge_updates:
+  mother: "知道孩子另画一张独立新底板草图，尚未剪裁或制作；不知道任何新车性能结果。"
+  child: "知道红七旧改动跨多个轮次且原因未分清；知道新底板草图仍有标记偏差，尺寸待量，不能解释红七左偏。"
+  xiaoman: "看到新底板草图，知道它与红七分开且尚未制作、装轮或测试；没有替孩子量尺寸或判断结果。"
+  classmate: "本章只知道孩子暂不修红七，以及轮子、轴套、纸桥、垫片曾在不同轮次改动、左偏原因未分清；不知道甲三细节、具体测试数据或母亲活动室事项。"
+  unresolved: "新底板尺寸、是否剪裁及后续制作条件未定；红七左偏根因未明；白口成因未明；旧屋重开条件、R-12/F014/七号箱五楼与2019旧卷跨源证据仍未解决。"
+relationship_updates:
+  mother_child: "母亲递尺子但不替孩子决定尺寸，孩子主动把新底板与红七分开；双方都不把草图写成完成。"
+  xiaoman_child: "晓漫提问并提醒写清状态，不代量、不替孩子验证新底板。"
+  child_classmate: "孩子向同桌有限说明红七暂停和旧改动分属不同轮次；同桌接受暂时没有新结果，并把话题转回周末足球。"
+  mother_activity_room: "母亲保留样张与说明卡的决定权，未联系活动室或安排下一次展示。"
+foreshadowing_updates:
+  F014: "active；Day686家庭纸车草图与母亲收存样张不构成旧联系号初源、旧信本人历史收讫、旧押金全渠道末端实退、七号箱五楼或2019旧卷跨源证据。"
+  M004_M005: "不升级、不触碰。"
+ending_state: "Day686夜母亲样张与说明卡分开保存且暂不安排公开展示；孩子的新底板仅为独立纸面草图，尺寸待量、未制作未装轮未承载未移动；红七原车仍在四轮悬空架、甲三继续停用、Day681无载空架样未测试；旧四楼闭锁禁返住无重开许可，F014仍active。"
+reader_counts: {blocker: 0, major: 0, minor: 3}
+revision_trace: {original_sha: "e2ff35198259e6e664482e35e0aa500fb1bb3937", final_draft_sha: "e2ff35198259e6e664482e35e0aa500fb1bb3937", initial_counts: {blocker: 0, major: 0, minor: 3}, final_counts: {blocker: 0, major: 0, minor: 3}, stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, metadata_revisions: 0, reason: "no_blocker_or_major_no_revision"}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_CI}
+char_count: 2985

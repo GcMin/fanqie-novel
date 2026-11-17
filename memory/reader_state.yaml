@@ -11036,3 +11036,20 @@ combined_audit_chapter_820_20261117:
   ready_sha: "b4ff7777bb59c8e4eba93874ad779bc6a0b542ec"
   structural_gate: exact_candidate_CI_pass_run_44008826366
 
+combined_audit_chapter_821_20261117:
+  chapter: 821
+  title: "旧车没拆，新底板先画了中线"
+  original_source_sha: "e2ff35198259e6e664482e35e0aa500fb1bb3937"
+  final_source_sha: "e2ff35198259e6e664482e35e0aa500fb1bb3937"
+  final_review_path: "reader_reviews/0821_e2ff3519.md"
+  pass_a: independently_reviewed_current_chapter_previous_5_full_chapters_recent_10_summaries_and_style
+  pass_b: independently_reviewed_canon_arc_knowledge_world_timeline_foreshadowing_and_predecessor_deltas
+  final_counts: {blocker: 0, major: 0, minor: 3}
+  recommendation: keep
+  required_action: none
+  predecessor_ready_sha: "b4ff7777bb59c8e4eba93874ad779bc6a0b542ec"
+  dependency_status: verified_exact_ready_blob
+  reader_gate: pass
+  content_qa: pass
+  ready_sha: "5888e61896234c18d4899f09468f9eb01cff790f"
+  structural_gate: pending_exact_candidate_CI

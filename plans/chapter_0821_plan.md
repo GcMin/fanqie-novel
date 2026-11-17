@@ -63,3 +63,13 @@ Day686夜：母亲将样张与说明卡分袋保存，暂不安排下一次公�
 ## Writer Scope
 
 仅执行Planner、Continuity Precheck、Writer；只新增本章详细章纲与正文首稿。不执行Editor、Reader、Revision、QA、Memory、Publish Gate，不修改既有章节或长期状态文件，不发布番茄。
+
+
+## Audit Reader / QA / Ready Gate｜2026-11-17
+
+- 原始Draft SHA：`e2ff35198259e6e664482e35e0aa500fb1bb3937`；前章820 Ready SHA精确匹配：`b4ff7777bb59c8e4eba93874ad779bc6a0b542ec`。
+- 独立Reader Pass A后Pass B：0 BLOCKER / 0 MAJOR / 3 MINOR，keep / none；Review：`reader_reviews/0821_e2ff3519.md`。正文0修改，不触发Revision。
+- 独立Continuity / Style / Meaningful QA：PASS。有效字数目标/Front Matter记录2985；最终以精确候选CI结构检查为准。
+- Ready候选Blob：`5888e61896234c18d4899f09468f9eb01cff790f`；正文未改，仅交付Front Matter更新。
+- 137→138、139→140、142→143、146→147、147→148历史正文路径相对上一审核main无变化；第820章源Draft与Ready正文逐字一致。
+- 结构校验：pending exact candidate CI；CI成功前不得合并main。

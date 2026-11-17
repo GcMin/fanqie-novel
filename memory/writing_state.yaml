@@ -1,7 +1,7 @@
 schema_version: 1
 mode: split_roles
-observed_main: b783081e561441f9b4b2fc97325d7634680b92cd
-last_completed_chapter: 820
+observed_main: 1d0be973d89e81f21d77eb50a6629df65293284c
+last_completed_chapter: 821
 current_chapter: null
 current_stage: no_pending_draft
 current_source_path: null
@@ -9,6 +9,6 @@ current_source_sha: null
 creative_gate: pass
 publish_gate: ready
 blocker_type: none
-next_action: writer_create_821_when_due
-next_new_chapter_after_creative_pass: 821
-note: "第820章Reader Pass A/B、独立Continuity/Style/Meaningful QA已通过；正文0修改，0/0/2 keep/none。Ready候选Blob b4ff7777bb59c8e4eba93874ad779bc6a0b542ec，结构CI已由候选提交8d1aed6de5a9fedbc5401f9acc340d0cfb9b09ac的run 44008826366验证通过；Audit不写新章。"
+next_action: writer_create_822_when_due
+next_new_chapter_after_creative_pass: 822
+note: "第821章Reader Pass A/B与独立Continuity/Style/Meaningful QA通过；正文0修改，0/0/3 keep/none。Ready候选Blob 5888e61896234c18d4899f09468f9eb01cff790f，结构校验待精确候选CI；本轮Audit基于main 1d0be973d89e81f21d77eb50a6629df65293284c处理。"
