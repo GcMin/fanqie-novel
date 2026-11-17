@@ -58,8 +58,10 @@ Day681星期五后接Day682星期六。第816章母亲把咨询样张留在透�
 - plans/chapter_plan.csv追加817唯一计划行，816原Ready计划行保留并核验；没有覆盖其他Ready计划。
 - reader_state与revision_state记录初审、局部修订和新SHA复审；Writer未创建新章。
 
-## 结构门槛：精确候选分支CI待执行
+## 结构门槛：PASS
 
-- main仍保持第817章在draft；在隔离的 audit/ready-0817-preflight 分支构建与拟放行完全相同的Ready快照，供现有publisher-check.yml对该精确分支提交执行离线结构校验。
-- 只有候选分支CI成功后，才以expected_sha、force:false将同一提交快进到main；若失败，main保留draft并记录阻塞。
+- 精确候选Ready快照提交：495106698a3838e4ed3f6c66635724e73028691c，隔离分支 audit/ready-0817-preflight；Actions run 43987347076 success，job 133718807233 success。
+- 该run实际执行12项离线快照单元测试，全部通过；随后对精确checkout执行 python -m publisher.check_local --repo .，返回 ok: true、ready_count: 658，且第817章 effective_chars: 3174。
+- main原HEAD 2ac9c95dc248b1be25c91593e82cbe8225615d33 以 expected_sha、force:false 快进到同一提交495106698a3838e4ed3f6c66635724e73028691c；main push CI run 43987471186 success，精确检查同一commit，ready_count仍为658。
+- 第817章已从draft原子迁入ready，Ready Blob SHA cebc1ceebab22b7d24cb4606e562e01e253090fe。PUBLISH_ENABLED=false；没有执行番茄发布。
 - 该CI只验证结构，不替代本报告中的Reader、Continuity或Style判断。

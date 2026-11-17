@@ -69,4 +69,4 @@ Day681夜：咨询样张新作未提交，电话与报名未填；两张旧蓝�
 - 前章815正式Ready SHA 8867e81910a8b8a3550bc08643f5a5461d14ccbf 精确匹配。
 - 仅候选结构预检待执行；预检成功前不迁入ready。
 
-- Exact structural gate: publisher-check run 43986269807 success on commit 833b61abaa34cd044c5f91c9fda0ac54bb64cb81; ready_count 657; chapter 816 effective_chars 3174.
+- Exact structural gate: branch preflight run 43986269807 and main push run 43986413585 both success on commit 833b61abaa34cd044c5f91c9fda0ac54bb64cb81; ready_count 657; chapter 816 effective_chars 3174.

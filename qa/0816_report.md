@@ -65,5 +65,5 @@
 
 - 精确候选Ready快照提交：833b61abaa34cd044c5f91c9fda0ac54bb64cb81，隔离分支 audit/ready-0816-preflight；GitHub Actions run 43986269807 success，job 133715098140 success。
 - 该run实际执行12项离线快照单元测试，全部通过；随后对该精确checkout执行 python -m publisher.check_local --repo .，返回 ok: true、ready_count: 657，且第816章 effective_chars: 3174。
-- main原HEAD 2d1a776c13463cea3842e655de65dbbfcda4c3ea 以 expected_sha、force:false 快进到同一提交833b61abaa34cd044c5f91c9fda0ac54bb64cb81；main中的第816章已从draft原子迁入ready，Ready Blob SHA bec8ada82b1df59acfe9bf6f3795d4ee5e488090。
+- main原HEAD 2d1a776c13463cea3842e655de65dbbfcda4c3ea 以 expected_sha、force:false 快进到同一提交833b61abaa34cd044c5f91c9fda0ac54bb64cb81；main push CI run 43986413585 success。第816章已从draft原子迁入ready，Ready Blob SHA bec8ada82b1df59acfe9bf6f3795d4ee5e488090。
 - PUBLISH_ENABLED=false；没有执行番茄发布。CI只验证结构，不替代Reader、Continuity或Style判断。

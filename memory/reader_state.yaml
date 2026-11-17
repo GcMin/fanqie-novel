@@ -10946,31 +10946,13 @@ combined_audit_chapter_816_20261117:
   predecessor_ready_sha: "8867e81910a8b8a3550bc08643f5a5461d14ccbf"
   body_revisions: 0
   qa_gate: pass
-  structural_gate: candidate_branch_CI_pending
+  structural_gate: exact_branch_CI_pass_run_43986269807
+  main_ci_run: 43986413585
+
 
 combined_audit_chapter_817_20261117:
   chapter: 817
   title: "样张收了，三点的人先到了"
-  source_path: chapters/draft/0817.md
-  original_source_sha: "cc8aaf31f0eee4bfa135c02e40c6f07e77af331e"
-  rebound_source_sha: "a937e73ebce67e4433035a269e0fd83aebbcd446"
-  initial_review_path: reader_reviews/0817_a937e73e.md
-  initial_counts: {blocker: 0, major: 1, minor: 2}
-  local_revision_used: 1
-  revision: "update sample back from 未提交 to Day682已交咨询样张、待负责人答复"
-  final_source_sha: "032be17279628f54be2c1ded4b812c607e28580d"
-  final_review_path: reader_reviews/0817_032be172.md
-  final_counts: {blocker: 0, major: 0, minor: 2}
-  recommendation: keep
-  required_action: none
-  body_revisions: 1
-  predecessor_ready_sha: "bec8ada82b1df59acfe9bf6f3795d4ee5e488090"
-  dependency_status: verified_exact_ready_blob
-  content_qa: pass
-  structural_gate: candidate_check_pending
-
-combined_audit_chapter_817_20261117:
-  chapter: 817
   original_source_sha: "cc8aaf31f0eee4bfa135c02e40c6f07e77af331e"
   rebound_source_sha: "a937e73ebce67e4433035a269e0fd83aebbcd446"
   initial_review_path: reader_reviews/0817_a937e73e.md
@@ -10981,8 +10963,10 @@ combined_audit_chapter_817_20261117:
   final_counts: {blocker: 0, major: 0, minor: 2}
   recommendation: keep
   required_action: none
-  dependency_status: verified_exact_ready_blob
   predecessor_ready_sha: "bec8ada82b1df59acfe9bf6f3795d4ee5e488090"
+  dependency_status: verified_exact_ready_blob
   reader_gate: pass
   content_qa: pass
-  structural_gate: candidate_check_pending
+  structural_gate: exact_branch_CI_pass_run_43987347076
+  ready_sha: cebc1ceebab22b7d24cb4606e562e01e253090fe
+  main_ci_run: 43987471186

@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 817
-current_stage: chapter817_candidate_ready_branch_waiting_ci
+current_stage: chapter817_ready_main_exact_CI_pass
 current_source_path: chapters/ready/0817.md
 current_source_sha: cebc1ceebab22b7d24cb4606e562e01e253090fe
 current_review_path: reader_reviews/0817_032be172.md
@@ -12,13 +12,13 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter817_reader_and_content_qa_pass_candidate
+last_action: chapter817_ready_main_exact_CI_success
 last_action_date: "2026-11-17"
 last_error: null
-last_diff_summary: "817初审0/1/2发现样张未提交标记与实际交件冲突；Stage A局部修订1次，修订后SHA 032be172独立双遍复审0/0/2 keep/none；Continuity/Style/Meaningful QA PASS，有效3174字；Ready候选位于隔离分支，等待精确提交CI；main仍保留draft。"
+last_diff_summary: "817初审0/1/2发现样张未提交标记与实际交件冲突；Stage A局部修订1次，修订后SHA 032be172独立双遍复审0/0/2 keep/none；Continuity/Style/Meaningful QA PASS，有效3174字；候选分支CI 43987347076与main CI 43987471186均success，精确commit 495106698a3838e4ed3f6c66635724e73028691c，ready_count 658。"
 repeated_issue_signatures: []
 qa_gate: pass
-publish_gate_passed: false
+publish_gate_passed: true
 current_review_source_sha: "032be17279628f54be2c1ded4b812c607e28580d"
 
 # 2026-10-15 批量审核修订快照：每章修改后原Reader须重新绑定新blob
@@ -9621,6 +9621,7 @@ combined_audit_chapter_816_20261117:
   content_qa: pass
   ready_sha: bec8ada82b1df59acfe9bf6f3795d4ee5e488090
   structural_gate: exact_branch_CI_pass_run_43986269807
+  main_ci_run: 43986413585
 
 combined_audit_chapter_817_20261117:
   chapter: 817
@@ -9637,4 +9638,6 @@ combined_audit_chapter_817_20261117:
   predecessor_ready_sha: "bec8ada82b1df59acfe9bf6f3795d4ee5e488090"
   dependency_status: verified_exact_ready_blob
   content_qa: pass
-  structural_gate: candidate_check_pending
+  structural_gate: exact_branch_CI_pass_run_43987347076
+  ready_sha: cebc1ceebab22b7d24cb4606e562e01e253090fe
+  main_ci_run: 43987471186

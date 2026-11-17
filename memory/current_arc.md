@@ -4,14 +4,14 @@
 - Day682星期六，母亲把独立构图练习样张交给活动室，取得仅证明收件的回执；报名、上桌、公开展示、拍摄与复制均未授权，负责人答复承诺为周一下午。试一、试二、旧左下单碗、描纸与软版仍分存。
 - 孩子不带纸车和实验表，14:50到操场履行15:00足球约定；同桌只知道红七仍在家、没有新结果，不知道甲三与家庭实验细节。红七原车、甲三停用盒、空架样与所有旧件不变，没有新承载或坡道测试。
 - 旧屋Day664九分钟真实空岗、Day665晚交但连续、后夜分段核查分别保留；旧四楼闭锁双封、水电隔离、禁返住及无新开门许可不变。R-12/F014/七号箱五楼/2019旧卷无新增跨源证，M004/M005不升级。
-- Reader与Continuity/Style/Meaningful QA通过；候选结构校验待执行，main暂保留draft。
+- Reader与Continuity/Style/Meaningful QA通过；候选分支CI run 43987347076与main CI run 43987471186均success，publisher.check_local返回ok=true、ready_count=658；第817章已进入main Ready，Ready Blob cebc1ceebab22b7d24cb4606e562e01e253090fe。
 
 ## 第816章 ARC-054 Day681活动室咨询样张与无载空架观察样｜2026-11-17
 - Draft源SHA 0a3821f539f55dedd2c3e75f6c26805e226b105c 独立Reader Pass A→Pass B：0 BLOCKER / 0 MAJOR / 2 MINOR，keep / none；正文0改。第815章正式Ready Blob 8867e81910a8b8a3550bc08643f5a5461d14ccbf 与依赖SHA精确一致。
 - Day681星期五，母亲到新荷街社区活动室咨询手作交流日桌位与样张规则；值守人员仅说明可先交样张供咨询，正式桌位/展示须负责人确认，访客自行拍摄无法保证拦截。母亲未报名、未提交；回家制作独立构图练习样张，明确白口成因未查清、不是第三次印制或修版效果。两张原试印、旧左下单碗、三张描纸及软版仍分存。
 - 孩子首次制作无载空架样，替身盒始终由桌面承托；观察发现横片遮挡、盒上线条重叠，改用三角与圆点后仅在同一视线下可辨。空架未承载、未装车、未试坡；红七原车与旧轮、底补、折胶、替轮不动，甲三继续停用。周六15:00足球约定保留。
 - Day664第二夜九分钟真实空岗、Day665第三夜晚交但连续、后夜分段核查分别保留；旧四楼闭锁双封、水电隔离、Day536撤清运后禁返住无新许可。R-12/F014/七号箱五楼/2019旧卷无新增跨源证，M004/M005不升级。
-- 第816章已正式进入main Ready：Ready Blob bec8ada82b1df59acfe9bf6f3795d4ee5e488090；精确候选分支CI run 43986269807 success，publisher.check_local返回ok=true、ready_count=657。
+- 第816章已正式进入main Ready：Ready Blob bec8ada82b1df59acfe9bf6f3795d4ee5e488090；精确候选分支CI run 43986269807与main CI run 43986413585均success，publisher.check_local返回ok=true、ready_count=657。
 
 ## 第815章 ARC-054 Day680白口暂留与不承载空架样前置条件｜2026-11-17
 - 草稿 `eca3209fe1d35415071635751d715eafee09c1b8` 独立Reader Pass A→Pass B：0 BLOCKER / 0 MAJOR / 2 MINOR，keep / none；无修订，正文0改。前章814正式Ready Blob `38eb560fb17d3bc3466b7e60000388cc362e1462` 与依赖SHA精确一致。

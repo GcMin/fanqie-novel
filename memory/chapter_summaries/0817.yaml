@@ -3,7 +3,7 @@ chapter: 817
 title: "样张收了，三点的人先到了"
 volume: 6
 arc: "ARC-054"
-status: ready_candidate_CI_pending
+status: ready
 qa: pass
 reader_gate: pass
 source_sha: "032be17279628f54be2c1ded4b812c607e28580d"
