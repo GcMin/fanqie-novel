@@ -1,0 +1,53 @@
+schema_version: 1
+chapter: 824
+title: "先把球踢完，纸样仍未转印"
+volume: 6
+arc: ARC-054
+status: ready
+qa: pass
+reader_gate: pass
+original_source_sha: "9e9844e744582fd2cdd73a0d5d5a0a35067f8094"
+source_draft_sha: "cd7d4aa9125ce5e18ab8294a9e478450382170c4"
+ready_blob_sha: "81b802766588a8659afa2ac665d2c22cee173519"
+reader_review: "reader_reviews/0824_cd7d4aa9.md"
+depends_on_chapter: 823
+depends_on_source_sha: "1bc9b9d33878a49f4b0d0582fd61dba69cbb295f"
+dependency_status: verified_exact_ready_blob
+predecessor_fact_delta: "第823章provisional Draft 0e332afc72a754c4f1a259934aa30d8cbc02d216与最终Ready 1bc9b9d33878a49f4b0d0582fd61dba69cbb295f剥离Front Matter后正文逐字节一致；无影响第824章依赖的事实差异。"
+timeframe: "Day689（星期六）早至夜"
+summary: >-
+  Day689星期六，孩子没有立即画第三版，而是在同一支撑、同一张纸、同一把尺和线中心对齐条件下复核B版两条对角线。两条读数区间均落在127—128毫米，说明前一日“可能差一毫米”不能成立为确定偏斜；但尺具分辨率、线宽和角位贴合仍不足以证明四角垂直、真实尺寸或材料合格。右上角仍有一线浅白，随三角板方向略变，原因未分清。A版剪裁样与B版独立线稿分袋保存，不互相修边、不转印、不制作底板、不装轮、不承载或移动。孩子接受同桌临时补位邀请，下午参加足球活动并完成几次传球配合；纸样和记录留在家中。母亲继续分开保存自己的构图样张、说明卡、旧试印、旧左下单碗、软版与字号试写卡，没有联系活动室，也没有明确获知孩子的具体测量读数。红七原车、甲三停用件和Day681无载空架样均未动；旧四楼闭锁禁返住与F014历史缺证不变。
+meaningful_state_changes:
+  - "同条件复核后，两条对角线读数区间均为127—128毫米；先前可能差一毫米的判断降为不能据此判偏，但角度和尺寸仍未验证。"
+  - "A版与B版继续分袋保存，不修边、不转印、不制作底板。"
+  - "孩子接受临时补位邀请并参加足球活动，普通同伴互动不再以纸车完成为前提。"
+knowledge_updates:
+  mother: "继续知道自己的样张、说明卡与字号试写分开保存；本章没有明确获知孩子同条件复核的具体读数或测量结论。"
+  child: "知道两条对角线读数区间均为127—128毫米，但尺具分辨率不足以判断精确相等、四角垂直、尺寸或材料合格；知道A/B仍是纸面样，不是底板实物。"
+  xiaoman: "知道孩子完成同条件复核并只得到一条记录，底板仍不能使用；没有代量、代读或宣布通过。"
+  classmate: "知道孩子昨天测量仍不足以说明问题，并看到孩子参加足球补位；不知道112×60毫米尺寸、127—128毫米读数、甲三或家庭实验细节。"
+  unresolved: "A/B哪版适合作为后续底板未定；角点和线中心标记方法仍需提高可重复性；纸样未转印或制作，红七左偏根因未明；母亲白口成因未明；旧屋重开条件、R-12末签/现门型号/Day577擦响原因及F014历史跨源证据仍未解决。"
+relationship_updates:
+  mother_child: "母亲不替孩子判断纸样结果，孩子也没有把测量进度带入母亲作品或活动室决定；双方维持各自的纸张与决定权。"
+  xiaoman_child: "晓漫通过提问和提醒收存支持孩子复核，但不代量、不代读、不替他宣布底板可用。"
+  child_classmate: "同桌邀请孩子临时补位，孩子接受并参加足球；两人以跑位和传球维持普通同伴互动，没有把纸车是否完成当作参加条件。"
+  mother_activity_room: "本章母亲没有联系活动室、报名、展示或取得拍摄/复制授权。"
+foreshadowing_updates:
+  F014: "active；Day689家庭纸样同条件复核与足球活动属于当代家庭事项，不构成旧联系号、旧信本人历史收讫、旧押金全渠道末端实退、七号箱五楼或2019旧卷跨源证据。"
+  M004_M005: "不升级、不触碰。"
+ending_state: "Day689夜孩子完成同条件对角线复核并把读数限制为127—128毫米区间；A/B两版仍分袋，未转印、未制作、未装轮、未承载或移动。孩子参加足球活动；红七原车仍在架上，甲三停用，Day681无载空架样未测试。母亲的样张、说明卡和字号试写继续分存。旧四楼闭锁禁返住，F014仍active。"
+reader_counts: {blocker: 0, major: 0, minor: 3}
+revision_trace:
+  original_sha: "9e9844e744582fd2cdd73a0d5d5a0a35067f8094"
+  final_draft_sha: "cd7d4aa9125ce5e18ab8294a9e478450382170c4"
+  final_review: "reader_reviews/0824_cd7d4aa9.md"
+  initial_counts: {blocker: 0, major: 0, minor: 3}
+  final_counts: {blocker: 0, major: 0, minor: 3}
+  stage_a_used: 0
+  stage_b_used: 0
+  stage_c_used: 0
+  body_revisions: 0
+  metadata_revisions: 1
+  reason: "no_blocker_or_major; predecessor_exact_ready_rebind_only"
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_CI}
+char_count: 2783

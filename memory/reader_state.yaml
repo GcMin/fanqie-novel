@@ -1,21 +1,21 @@
 schema_version: 1
-last_reviewed_chapter: 822
-last_reviewed_title: "尺子量出新边，红七仍留在架上"
-last_source_path: chapters/draft/0822.md
-last_source_sha: 56373f7ede1934068d05c94cc85eea6b9aed767f
-last_review_path: reader_reviews/0822_56373f7e.md
-last_reviewed_at: "2026-11-17T14:00:23+08:00"
+last_reviewed_chapter: 824
+last_reviewed_title: "先把球踢完，纸样仍未转印"
+last_source_path: chapters/draft/0824.md
+last_source_sha: cd7d4aa9125ce5e18ab8294a9e478450382170c4
+last_review_path: reader_reviews/0824_cd7d4aa9.md
+last_reviewed_at: "2026-11-17T17:08:00+08:00"
 reviewer_mode: combined_audit_independent_pass_a_then_pass_b
 recommendation: keep
 required_action: none
 blocker_count: 0
 major_count: 0
-minor_count: 2
+minor_count: 3
 reader_gate: pass
-depends_on_chapter: 821
-depends_on_source_sha: 5888e61896234c18d4899f09468f9eb01cff790f
+depends_on_chapter: 823
+depends_on_source_sha: 1bc9b9d33878a49f4b0d0582fd61dba69cbb295f
 dependency_status: verified_exact_ready_blob
-predecessor_current_source_sha: 5888e61896234c18d4899f09468f9eb01cff790f
+predecessor_current_source_sha: 1bc9b9d33878a49f4b0d0582fd61dba69cbb295f
 predecessor_sha_mismatch: false
 predecessor_qa_verification_required: false
 
@@ -11094,3 +11094,23 @@ combined_audit_chapter_823_20261117:
   qa_gate: pass
   content_qa: pass
   structural_gate: exact_candidate_ci_pass_run_44046055227
+
+
+combined_audit_chapter_824_20261117:
+  chapter: 824
+  title: "先把球踢完，纸样仍未转印"
+  original_source_sha: "9e9844e744582fd2cdd73a0d5d5a0a35067f8094"
+  final_source_sha: "cd7d4aa9125ce5e18ab8294a9e478450382170c4"
+  final_review_path: "reader_reviews/0824_cd7d4aa9.md"
+  pass_a: independently_reviewed_current_chapter_previous_3_recent_10_summaries_and_style
+  pass_b: independently_reviewed_canon_arc_knowledge_world_timeline_foreshadowing_and_predecessor_deltas
+  final_counts: {blocker: 0, major: 0, minor: 3}
+  recommendation: keep
+  required_action: none
+  local_revision_used: 0
+  body_revisions: 0
+  metadata_revisions: 1
+  predecessor_ready_sha: "1bc9b9d33878a49f4b0d0582fd61dba69cbb295f"
+  predecessor_body_identical: true
+  dependency_status: verified_exact_ready_blob
+  reader_gate: pass

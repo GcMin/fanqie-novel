@@ -1,5 +1,5 @@
 schema_version: 1
-last_updated_chapter: 823
+last_updated_chapter: 824
 relationships:
   - a: zhou_heng
     b: liang_ce
@@ -4691,3 +4691,10 @@ chapter_823_arc054:
   mother_child: "母亲与孩子分别处理自己的纸张；她没有替孩子选择A/B版本或宣布测量结果，孩子也没有把纸车进度与母亲作品选择绑定。"
   child_xiaoman: "晓漫以提问确认纸样与底板的边界，孩子自主复画和测量；晓漫不代量、不代剪、不替他验证。"
   child_classmate: "孩子只向同桌有限说明纸样尚未核完四角、红七没有新结果；同桌未获知具体尺寸、甲三或家庭试验数据。"
+
+
+chapter_824_arc054:
+  mother_activity_room: "母亲继续保留样张与说明卡的决定权；本章没有联系活动室、报名或授权展示/拍摄/复制。"
+  mother_child: "母亲不替孩子判断纸样结果，孩子也没有把测量进度带入母亲作品或活动室决定；双方维持各自的纸张与决定权。"
+  xiaoman_child: "晓漫通过提问和提醒收存支持孩子复核，但不代量、不代读、不替他宣布底板可用。"
+  child_classmate: "同桌邀请孩子临时补位，孩子接受并参加足球；两人以跑位和传球维持普通同伴互动，没有把纸车是否完成当作参加条件。"

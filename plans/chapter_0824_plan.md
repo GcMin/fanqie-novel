@@ -74,3 +74,12 @@ Day689夜：孩子在同一支撑条件下复核B版，两条对角线读数区�
 - 第823章当前 main Ready Blob：`1bc9b9d33878a49f4b0d0582fd61dba69cbb295f`。
 - 已直接读取两个 Blob 并剥离 Front Matter 比较正文：逐字节一致；差异仅为交付 Front Matter 的 status、qa、approved_at、publish_mode 等字段，没有剧情事实差异。
 - 因此将本章依赖 SHA 精确重绑到第823章 Ready Blob，`dependency_status: verified_exact_ready_blob`；不因旧 SHA 不同阻断，也不忽略正文差异。
+
+
+## Audit：Reader / Continuity / Style / Memory
+
+- 最终 Reader 源 Draft Blob：`cd7d4aa9125ce5e18ab8294a9e478450382170c4`；Review：`reader_reviews/0824_cd7d4aa9.md`；Pass A → Pass B，0/0/3，keep/none。
+- 正文修改0；只重绑第823章最终Ready SHA，正文事实逐字不变。
+- Continuity、Style、Meaningful State Change：PASS；有效字符2783；标题非空白字符12。
+- 已同步 chapter summary、character/knowledge/relationship/world、timeline T827、F014、reader_state、revision_state 与 chapter_plan.csv。
+- Ready 候选 Blob：`81b802766588a8659afa2ac665d2c22cee173519`。结构门槛等待精确候选 CI，成功前不放行到 main。
