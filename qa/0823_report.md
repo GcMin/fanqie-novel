@@ -61,4 +61,4 @@
 
 - 当前候选分支：audit/ready-0823-20261117-1605。
 - Ready Blob：1bc9b9d33878a49f4b0d0582fd61dba69cbb295f。
-- Draft已从chapters/draft/0823.md删除，Ready目录仅保留单份chapters/ready/0823.md；候选分支最终快照已固定，等待CI对本次精确提交执行结构校验。通过前不快进main。
+- Draft已从chapters/draft/0823.md删除，Ready目录仅保留单份chapters/ready/0823.md。结构门槛：PASS。候选PR#21结构CI run 44046055227 success；job 133911893266中12项离线快照测试全部通过，python -m publisher.check_local --repo .返回ok=true、ready_count=664、第823章effective_chars=2659。该run checkout merge commit fe73c9ccd930046799708cde110282b56723a752；与候选分支head 22dbcacb799d8f7651770d9ad2cd96a660232c11比较无文件差异，ready/plan输入树一致。审计证据更新后仍须等待最终PR同步CI成功，之后才快进main。
