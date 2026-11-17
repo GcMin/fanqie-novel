@@ -73,4 +73,4 @@ Day688夜：A版剪裁纸样、B版独立复画与Day686草图分别收存；对
 - 正文修改0次；不触发Revision。独立Continuity / Style / Meaningful QA PASS；标题16个非空白字符，有效字数2659。
 - A版剪裁样与B版独立线稿分存；127/128毫米仅为相邻刻度区间，不证明角度、尺寸或机械适配。红七原车未动、甲三停用、无载空架样未测试。
 - Memory：chapter_summaries/0823、character/knowledge/relationship/world、timeline T826、current_arc、reader_state、revision_state已同步；F014保持active，M004/M005不升级。
-- Ready候选Blob：1bc9b9d33878a49f4b0d0582fd61dba69cbb295f，正文与原Draft逐字一致。候选CI仍待精确提交校验；通过前不合入main。
+- Ready候选Blob：1bc9b9d33878a49f4b0d0582fd61dba69cbb295f，正文与原Draft逐字一致。候选PR#21 run 44046055227已通过：12项离线快照测试全部通过，publisher.check_local ok=true、ready_count=664、823有效2659字。CI merge tree与候选head文件树一致；本次审计证据更新后仍要求最终PR同步CI成功才合入main。
