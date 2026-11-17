@@ -61,8 +61,8 @@
 - reader_state、revision_state同步至816；Writer状态不代写、不创建新章。
 - 详细章纲保留原目标与事实边界，附加本轮审核结论。
 
-## 结构门槛：候选预检待执行
+## 结构门槛：精确候选分支CI待执行
 
-- 必须在包含本报告、Review、Memory、计划和QA通过标记的精确候选提交上执行 python -m publisher.check_local --repo . --candidate chapters/draft/0816.md。
-- 候选预检成功后才允许把该章原子迁入ready；最终main Ready提交仍需对精确提交版本执行CI结构校验。
-- 在候选预检成功前不标记ready，不移动正文。
+- main仍保持第816章在draft；在隔离的 audit/ready-0816-preflight 分支构建与拟放行完全相同的Ready快照，供现有 publisher-check.yml 对该精确分支提交执行离线结构校验。
+- 只有该候选分支CI成功后，才以 expected_sha、force:false 将同一提交快进到main；若失败，main保留draft并记录阻塞。
+- 该CI只验证结构，不替代本报告中的Reader、Continuity或Style判断。

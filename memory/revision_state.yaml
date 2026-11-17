@@ -1,9 +1,9 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 816
-current_stage: chapter816_reader_and_content_qa_pass_candidate
-current_source_path: chapters/draft/0816.md
-current_source_sha: 3ba6ec2688a800a04a434840035a6e833f2d2891
+current_stage: chapter816_ready_candidate_CI_pending
+current_source_path: chapters/ready/0816.md
+current_source_sha: bec8ada82b1df59acfe9bf6f3795d4ee5e488090
 current_review_path: reader_reviews/0816_0a3821f5.md
 rounds:
   reviews_this_cycle: 1
@@ -12,10 +12,10 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter816_reader_and_content_qa_pass_candidate
+last_action: chapter816_candidate_ready_branch_waiting_ci
 last_action_date: "2026-11-17"
 last_error: null
-last_diff_summary: "816源SHA 0a3821f5独立Reader 0/0/2 keep/none；正文0改；Continuity/Style/Meaningful QA PASS，有效3174字；候选结构预检待执行，未迁入ready。"
+last_diff_summary: "816源SHA 0a3821f5独立Reader 0/0/2 keep/none；正文0改；Continuity/Style/Meaningful QA PASS，有效3174字；Ready候选位于隔离分支，等待精确提交CI；main仍保留draft。"
 repeated_issue_signatures: []
 qa_gate: pass
 publish_gate_passed: false
