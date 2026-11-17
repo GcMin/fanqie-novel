@@ -36,5 +36,8 @@ foreshadowing_updates:
 ending_state: "Day687夜孩子将112×60毫米纸样单独收袋，标明参考线未定、未转印、未装轮、未承载、未移动；红七原车仍在架上，甲三停用，Day681无载空架样未测试。母亲两张字号试写卡分开放置，不替换原说明卡、不安排新展示。"
 reader_counts: {blocker: 0, major: 0, minor: 2}
 revision_trace: {original_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f", final_draft_sha: "56373f7ede1934068d05c94cc85eea6b9aed767f", stage_a_used: 0, stage_b_used: 0, stage_c_used: 0, body_revisions: 0, metadata_revisions: 1, reason: "no_blocker_or_major; delivery_frontmatter_only"}
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_pending}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_pass_run_44029615910}
+structural_validation_commit: "3d12927ab4e696c7fe2d56415693dbbe61f4090f"
+structural_validation_run: 44029615910
+ready_count_after_validation: 663
 char_count: 2643

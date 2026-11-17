@@ -11072,4 +11072,4 @@ combined_audit_chapter_822_20261117:
   reader_gate: pass
   content_qa: pass
   ready_sha: "7b7aee43be962f61fd0d7a3ab7780b8613cc9d71"
-  structural_gate: exact_candidate_ci_pending
+  structural_gate: exact_candidate_ci_pass_run_44029615910

@@ -72,4 +72,4 @@ Day687夜：孩子将第二张纸样单独收袋，标明112×60毫米仅为纸�
 - 独立Reader Pass A→Pass B：0 BLOCKER / 0 MAJOR / 2 MINOR，`keep / none`；Review：`reader_reviews/0822_56373f7e.md`。无fix_required，不触发Revision；正文0改。
 - 独立Continuity / Style / Meaningful QA：PASS；有效2643字。母亲样张与说明卡、红七原车、甲三停用件、Day681空架样和旧屋状态均保持既有事实边界。
 - Ready候选Blob：`7b7aee43be962f61fd0d7a3ab7780b8613cc9d71`；只修改Front Matter交付字段，正文不变。
-- 精确候选结构校验：待CI；本计划行与章节仍只在审核候选分支，main未推进。
+- 精确候选结构校验：GitHub Actions run 44029615910 对候选commit 3d12927ab4e696c7fe2d56415693dbbe61f4090f 验证成功；`publisher.check_local` 返回 `ok: true`、`ready_count: 663`、第822章 `effective_chars: 2643`，离线快照单元测试12项通过。main快进待最终HEAD核对。
