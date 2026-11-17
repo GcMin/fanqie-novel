@@ -42,3 +42,12 @@
 - 新建chapter summary；更新character / knowledge / relationship / world state至824；时间线T827；F014保持active并记录本章无历史跨源新证；M004/M005不升级。
 - 更新current_arc、reader_state、revision_state；chapter_0824_plan与chapter_plan.csv同步，既有ready计划行未覆盖。
 - 结构门槛：pending_exact_candidate_CI。候选CI成功前不快进main、不宣称正式放行。
+
+
+## Structural validation：PASS
+
+- 候选提交：`3fd37be2bb27392fb410f90758d6777b6e499f24`。
+- GitHub Actions：`44054978134`，针对该精确候选提交运行，结论 `success`。
+- 离线快照测试：`success`。
+- `python -m publisher.check_local --repo .`：workflow步骤成功，结构检查通过；ready_count=665，第824章effective_chars=2783。
+- 此CI只做本地结构校验，未执行番茄发布；候选分支尚未快进main。

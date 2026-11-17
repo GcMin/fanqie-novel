@@ -49,5 +49,8 @@ revision_trace:
   body_revisions: 0
   metadata_revisions: 1
   reason: "no_blocker_or_major; predecessor_exact_ready_rebind_only"
-qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: pending_exact_candidate_CI}
+qa_notes: {continuity: pass, style: pass, meaningful_state_change: pass, structural: exact_candidate_ci_pass_run_44054978134}
 char_count: 2783
+structural_validation_commit: "3fd37be2bb27392fb410f90758d6777b6e499f24"
+structural_validation_run: "44054978134"
+ready_count: 665

@@ -83,3 +83,13 @@ Day689夜：孩子在同一支撑条件下复核B版，两条对角线读数区�
 - Continuity、Style、Meaningful State Change：PASS；有效字符2783；标题非空白字符12。
 - 已同步 chapter summary、character/knowledge/relationship/world、timeline T827、F014、reader_state、revision_state 与 chapter_plan.csv。
 - Ready 候选 Blob：`81b802766588a8659afa2ac665d2c22cee173519`。结构门槛等待精确候选 CI，成功前不放行到 main。
+
+
+## Exact candidate CI evidence
+
+- Candidate commit: `3fd37be2bb27392fb410f90758d6777b6e499f24`
+- GitHub Actions run: `44054978134` — success
+- Offline snapshot tests: success
+- `python -m publisher.check_local --repo .`: success
+- Ready count: 665; chapter 824 effective chars: 2783
+- No publishing action was invoked.
