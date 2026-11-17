@@ -1,7 +1,7 @@
 schema_version: 2
 safe_mode: false
 current_chapter: 819
-current_stage: chapter819_ready_candidate_CI_pass
+current_stage: chapter819_ready_main_exact_CI_pass
 current_source_path: chapters/ready/0819.md
 current_source_sha: ee913d809f6d75d2d2e7e57c81aedd46dcf7be92
 current_review_path: reader_reviews/0819_e1a56fab.md
@@ -12,7 +12,7 @@ rounds:
   replan_rewrite_used: 0
 retry_cycles: 0
 next_retry_after: null
-last_action: chapter819_ready_candidate_exact_CI_success
+last_action: chapter819_ready_main_exact_CI_success
 last_action_date: "2026-11-17"
 last_error: null
 last_diff_summary: "818初审0/2/2发现08:00授权时间窗与08:02/08:07记录冲突，且标题/结论超过记录证据范围；Stage A局部修订1次，最终SHA d357de1b独立双遍复审0/0/2 keep/none；Continuity/Style/Meaningful QA PASS，有效2768字；候选commit f7239f4468e05ccdadb8b57bc0da0079f498d2de的Actions run 44001711896 success，12项测试通过，publisher.check_local ok=true、ready_count=659。"
@@ -3614,7 +3614,7 @@ chapter_469_revision:
   retry_cycles: 0
   predecessor_ready_blob: "376df6841d327a028d57f92f8170681b606bbfe9"
   content_qa: pass
-  structural_gate: exact_candidate_CI_pass_run_44004609043
+  structural_gate: exact_main_CI_pass_run_44004861967
 
 release_469:
   candidate_commit: "f51ed496323aa2cb1d8a8c8967035bf9fbee4f1d"

@@ -1,6 +1,6 @@
 schema_version: 1
 mode: split_roles
-observed_main: 1be276cdbac84886225ed198db532c4fe2ccb2df
+observed_main: c8fcae3557474b1ec481301cf8cc0354063fb792
 last_completed_chapter: 819
 current_chapter: null
 current_stage: no_pending_draft
@@ -11,4 +11,4 @@ publish_gate: ready
 blocker_type: none
 next_action: writer_create_820_when_due
 next_new_chapter_after_creative_pass: 820
-note: "第819章已完成初审、一次局部修订、新SHA双遍Reader、Continuity/Style/Memory与Ready候选构建；精确候选结构CI run 44004609043 success，publisher.check_local ok=true、ready_count=660，离线快照测试success。Audit不写新章。"
+note: "第819章已正式进入main：初审、一次局部修订、新SHA双遍Reader、Continuity/Style/Memory均完成；候选结构CI run 44004609043与最终候选CI run 44004794121、main CI run 44004861967均success，publisher.check_local ok=true、ready_count=660。Audit不写新章。"
