@@ -1,71 +1,36 @@
-# 第819章独立 Continuity / Style / Meaningful QA｜2026-11-17
+# 最新 QA / Audit 状态｜2026-11-19
 
-## Reader Gate：PASS
+## 当前 Main 与队列
 
-- 原始Draft：chapters/draft/0819.md，SHA 03c71594b21147ca64b2a7f069d7a22525b0bcd0。
-- 初审Review：reader_reviews/0819_03c71594.md；Pass A后Pass B，0 BLOCKER / 1 MAJOR / 2 MINOR。
-- Stage A局部修订1次：澄清19:54仅为到楼时间、20:02才在四楼外侧固定点签入；将“没有空出来的时间”限定为20:02签入后登记无漏项，避免把到楼时间误作值守起点。
-- 同步将前章依赖重绑第818章最终Ready Blob 705302989cb9f8a37516fea41ea06e76bf4f6a10，状态改为verified_exact_ready_blob。
-- 修订及依赖重绑后的Draft SHA：e1a56fab6a62b4cbd411f90685cd3e4095ffc04e。
-- 最终Review：reader_reviews/0819_e1a56fab.md；针对新SHA独立重新完成Pass A与Pass B，0 BLOCKER / 0 MAJOR / 2 MINOR，keep / none。
-- 正文修订1次；没有整章重写或重新规划。
+- 已核验 Main：`f56078841d0744281ccb26d6c19520b3e873c2b6`。
+- 完整递归 Git Tree：`f1556c545401398effa955159731a5ba10c94dea`，4472 项，`truncated=false`。
+- Published：159 章，0001—0159；Ready：665 章，0160—0824；Draft：0 个数字章节（仅模板和 README）。
+- Published / Ready 数字范围连续，没有缺号；当前没有可执行 Reader、Revision 或新章 QA 的 Draft。
+- 下一待创作章节为 0825，由 Writer 创建；Audit 不写新章。
 
-## Continuity：PASS
+## 最近完成章节：0824
 
-### 直接前章与本章
+- 标题：先把球踢完，纸样仍未转印。
+- Reader Review：`reader_reviews/0824_cd7d4aa9.md`，绑定 Draft Blob `cd7d4aa9125ce5e18ab8294a9e478450382170c4`。
+- Reader：Pass A + Pass B；BLOCKER=0、MAJOR=0、MINOR=3；`keep / none`。
+- 独立 Continuity / Style / Meaningful State Change QA：PASS。
+- 正文有效字数：2783；Ready Blob：`81b802766588a8659afa2ac665d2c22cee173519`。
+- 前章依赖：第823章 Draft Blob `0e332afc72a754c4f1a259934aa30d8cbc02d216` 与最终 Ready Blob `1bc9b9d33878a49f4b0d0582fd61dba69cbb295f` 去除 Front Matter 后正文逐字节一致；依赖已精确重绑，没有事实差异。
+- 指定历史链 137→138、139→140、142→143、146→147、147→148 已在第823/824章审查记录中逐项核验；从第824章历史 QA 基线至当前 Main 的后续提交没有修改这些历史正文路径。
 
-第818章最终Ready Blob 705302989cb9f8a37516fea41ea06e76bf4f6a10 与本章依赖字段精确匹配。第818章原稿510539c254d77dc3b04299e77af4ea1aacd4ada4与最终正文d357de1b31ba6ff939786ede0706c19cf765393b的差异仅涉及Day682交接/离岗时间、标题和证据结论措辞；第819章不复用旧版07:58/08:02/08:07数据，只把Day682与Day683列为相邻且分开的夜班，并以最终Ready SHA重绑依赖。
+## 计划与历史事项
 
-### 逐项事实核验
+- `plans/chapter_plan.csv`：766 条非空记录、766 个唯一编号、无重复；所有 Ready 章节 0160—0824 均有对应计划。
+- 旧 Published 章节 0007—0064 没有历史计划行；这是已发布旧数据的历史缺口，本轮不重建、不改写。
+- 第825章计划尚不存在。
+- 唯一开放 PR #5 是第198章恢复草稿；第198章已在 Ready，本轮不合并、不关闭、不修改。
 
-- **活动室**：Day682样张已交咨询并取得仅收件回执；Day684负责人仅看收件说明，未复制、未交宣传。公开桌位有全景拍摄及来访者自行拍摄风险，母亲不占桌并取回样张；次日16:30十五分钟私下看样尚未发生。收件、取回、预约均不等于报名、展示、拍摄或复制授权。
-- **夜班时间**：Day683 19:54到楼、20:02在四楼外侧固定点签入、00:14/04:06由不同人员抽核、07:47接班人到达、07:53双签、08:01原岗离开；门外20:07与07:46两次检查封签完整、锁具未操作。修订后明确19:54不是固定点值守起点；结论限于20:02签入后的登记与列明检查时点。
-- **证据强度**：两次抽核分别有不同人员签名；交接有双方签字；门外检查没有入户、室内检查、拆封或门体工程验收。记录相互对应不等于逐分钟连续监控。
-- **相邻班次**：Day682与Day683是相邻两夜的独立班次，不覆盖白天，不构成连续24小时值守。Day664第二夜02:15—02:24九分钟真实空岗、Day665第三夜晚交但有据连续、Day666—Day681分段核查分别保留，不被新两班覆盖。
-- **家庭物件与日常**：红七原车仍在四轮悬空架；甲三及两只观察窗仍在停用盒；Day681无载空架样未承载、未装车、未试坡。本章没有新增纸车测试。孩子只回忆足球，不新增试验。
-- **旧屋状态**：仁合里旧四楼仍闭锁，12厘米观察口与亡夫饰板分别封存，水电隔离，Day536撤清运后的整屋禁返住要求未解除；无入户、门体工程验收或重新开放许可。
-- **人物知识边界**：母亲只在本人授权范围内核看Day683脱敏记录；夏宁、周衡、梁策只处理值守材料，不获知新荷街住址、活动室样张或家庭纸车/蓝碗私作；孩子只知道母亲取回样张和预约私下看样，不掌握原始值守册、旧屋档案或F014历史资料。
-- **伏笔**：F014保持active；Day683当代固定岗材料不提供历史旧联系号来源、旧信本人收讫、旧押金全渠道末端实退或七号箱五楼/2019旧卷跨源证据。R-12末签、现门型号、Day577擦响原因未获新证；M004/M005不升级。
+## 本轮结构校验
 
-### 历史依赖 SHA 差异复核（指定链）
+- GitHub Actions run [44397553842](https://github.com/GcMin/fanqie-novel/actions/runs/44397553842) 精确检查 Main `f56078841d0744281ccb26d6c19520b3e873c2b6`，checkout SHA 与 Main 一致。
+- 离线快照验证成功；`python -m publisher.check_local --repo .` 返回 `ok=true`，`ready_count=665`，`PUBLISH_ENABLED=false`。
+- CI 仅证明结构有效，不替代 Reader 或内容 QA。
 
-本轮比较main基线1be276cdbac84886225ed198db532c4fe2ccb2df至当前输入HEAD c8fcae3557474b1ec481301cf8cc0354063fb792的Git差异：仅新增第818章Ready及其Memory/QA/Review/计划更新；没有修改137、138、139、140、142、143、146、147、148对应正文。第818章QA报告已记录137→138、139→140、142→143、146→147、147→148逐项事实比较结论；本轮再次确认这些正文路径无新增diff，因此沿用已核对事实，不因SHA变化机械阻断，也没有忽略本轮正文变更。
+## 本轮处理结论
 
-### 卷 / 弧资料限制
-
-仓库没有outlines/volume_06.md，outlines/arcs/arc_current.md仍为旧ARC-044/050版本。未把过时文件当作ARC-054当前事实来源；本章以已审814—818正文、近十章摘要、plans/chapter_0819_plan.md、chapter_plan.csv及最新Memory交叉核验。没有新增或改写Canon。
-
-## Style：PASS
-
-- 开头直接承接周一答复，不大段复述817/818。
-- 活动室公开桌位与私下看样两种选择清楚，孩子的足球、作业日常没有被纸车实验挤占。
-- 夏宁负责授权范围，周衡核对原始页码和时点，梁策限制结论，三人的工作语言与职责有区分。
-- 物件、签字、回执、索引和具体时间承担主要信息；没有明显模板化心理解释。
-- 活动室/旧屋授权边界重复略多，章尾并列总结略直白，均列为MINOR，不触发重写。
-
-## Meaningful State Change：PASS
-
-Day684母亲拒绝无法控制访客拍摄的公开半桌，取回咨询样张并预约次日16:30十五分钟私下看样；报名、展示、拍摄、复制仍未授权。Day683新增一班独立可核的外侧固定岗登记、抽核、交接与门外封签检查，和Day682分别索引；两夜不等于全天或连续24小时值守。孩子没有新增纸车测试，旧屋仍未开放。
-
-## 标题、序号、字数：PASS
-
-- 章节：819；卷6；ARC-054。
-- 标题：样张拿回来了，桌位还空着；Front Matter、详细章纲和计划表一致。
-- 标题非空白字符12个，不含“第N章”。
-- publisher.content.normalized口径有效字符数：3007；处于2600—3400优选区间及2300—3800硬限内；Front Matter char_count=3007。
-- 正文仅执行一次局部修订；未改动Canon、ready或published旧章。
-
-## Memory / Plan 同步
-
-- 新建memory/chapter_summaries/0819.yaml。
-- 更新character_state、knowledge_state、world_state、relationship_state至819。
-- 追加memory/current_arc.md第819章状态；timeline追加T822；F014 last_touched_chapter更新至819并记录本章不构成历史跨源证据。
-- 更新reader_state、revision_state、writing_state。
-- plans/chapter_0819_plan.md标记completed；chapter_plan.csv仅追加819唯一行，保留所有既有Ready计划行。
-
-## 结构门槛：PASS
-
-- Ready候选Blob：ee913d809f6d75d2d2e7e57c81aedd46dcf7be92。
-- 精确候选提交：75f301a6c606a89f2326dafe6dcc8beefb218fb3；GitHub Actions run 44004609043 success。
-- 离线快照测试：success；publisher.check_local --repo .：ok=true，ready_count=660；章节819有效字数3007，结构快照已包含ready/0819.md。
-- 该成功结果只验证结构与离线快照，不替代本报告中的独立Reader和Continuity/Style QA；文本审核已另行完成。
+本轮 Draft 中没有数字章节，因此新 Reader Review、正文修订、新 SHA 复审、独立章节 QA、Memory 事实更新和 Ready 迁移均为 0。已确认的第824章历史证据保持有效；未修改正文、Canon、Ready / Published 章节或平台数据，未执行番茄发布。下一步等待 Writer 创建第825章。
