@@ -1,6 +1,6 @@
 schema_version: 1
 mode: split_roles
-observed_main: c1641dfc1e58e10732073f2f35301e6220e10580
+observed_main: ba935f5006ddef3f5a96b9563683859a0c298d18
 last_completed_chapter: 824
 current_chapter: null
 current_stage: no_pending_draft
@@ -11,4 +11,4 @@ publish_gate: ready
 blocker_type: none
 next_action: writer_create_825_when_due
 next_new_chapter_after_creative_pass: 825
-note: "Main c1641dfc1e58e10732073f2f35301e6220e10580 verified: chapters/draft contains only CHAPTER_TEMPLATE.md and README.md; chapters/ready ends at 0824.md (Blob 81b802766588a8659afa2ac665d2c22cee173519); chapter 824 is the latest completed ready chapter. Audit reconciled the observed_main cache to this exact main HEAD; no new chapter was created and no chapter content was changed."
+note: "Main ba935f5006ddef3f5a96b9563683859a0c298d18 verified: chapters/draft contains only CHAPTER_TEMPLATE.md and README.md; chapters/ready ends at 0824.md (Blob 81b802766588a8659afa2ac665d2c22cee173519); chapter 824 is the latest completed ready chapter. No numeric draft or chapter 825 plan exists. Audit reconciled observed_main to this exact main HEAD; no chapter content was changed and no platform publishing was performed."
