@@ -9713,7 +9713,9 @@ combined_audit_chapter_821_20261117:
   required_action: none
   content_qa: pass
   ready_sha: "5888e61896234c18d4899f09468f9eb01cff790f"
-  structural_gate: pending_exact_candidate_CI
+  structural_gate: exact_main_snapshot_ci_pass_run_44282615124
+  main_commit: "9eb9535026e9778eb315389fb5ea038871509619"
+  main_ci_run: 44282615124
 
 
 combined_audit_chapter_822_20261117:
@@ -9770,4 +9772,6 @@ combined_audit_chapter_824_20261117:
   required_action: none
   qa_gate: pass
   ready_sha: "81b802766588a8659afa2ac665d2c22cee173519"
-  structural_gate: pending_exact_candidate_CI
+  structural_gate: exact_main_snapshot_ci_pass_run_44282615124
+  main_commit: "9eb9535026e9778eb315389fb5ea038871509619"
+  main_ci_run: 44282615124
