@@ -1,6 +1,6 @@
 schema_version: 1
 mode: split_roles
-observed_main: d1378733ad2423f5cc2306cae4fb939a257e0bf4
+observed_main: dfb4d11744d0b75a5db72bdfb2d4e2187b2840ba
 last_completed_chapter: 824
 current_chapter: null
 current_stage: no_pending_draft
@@ -11,4 +11,4 @@ publish_gate: ready
 blocker_type: none
 next_action: writer_create_825_when_due
 next_new_chapter_after_creative_pass: 825
-note: "Main d1378733ad2423f5cc2306cae4fb939a257e0bf4 verified at 2026-11-18T22:08:28+08:00: recursive Git Tree complete (4472 entries, truncated=false); chapters/draft contains only CHAPTER_TEMPLATE.md and README.md; chapters/ready is continuous 0160-0824 (665 chapters, latest Blob 81b802766588a8659afa2ac665d2c22cee173519); chapters/published is continuous 0001-0159 (159 chapters). chapter_plan.csv has 766 unique non-empty records through chapter 824 and no chapter 825 plan. Exact Main structural workflow run 44300576580 succeeded for this HEAD. Latest chapter 824 Reader review remains bound to source Blob cd7d4aa9125ce5e18ab8294a9e478450382170c4 (BLOCKER=0, MAJOR=0, MINOR=3); independent Continuity/Style QA PASS. No draft chapter was available for new Reader/Revision/QA or ready promotion; no chapter content changed and no platform publishing was performed."
+note: "Main dfb4d11744d0b75a5db72bdfb2d4e2187b2840ba verified at 2026-11-18T23:02:37+08:00: recursive Git Tree complete (4472 entries, truncated=false); chapters/draft contains only CHAPTER_TEMPLATE.md and README.md; chapters/ready is continuous 0160-0824 (665 chapters, latest Blob 81b802766588a8659afa2ac665d2c22cee173519); chapters/published is continuous 0001-0159 (159 chapters). chapter_plan.csv has 766 unique non-empty records through chapter 824 and no chapter 825 plan. Exact Main structural workflow run 44321463381 succeeded for this exact HEAD: 12 offline tests passed; python -m publisher.check_local --repo . returned ok=true, ready_count=665, PUBLISH_ENABLED=false. Latest chapter 824 Reader Review remains bound to source Blob cd7d4aa9125ce5e18ab8294a9e478450382170c4 (BLOCKER=0, MAJOR=0, MINOR=3); independent Continuity/Style/Meaningful QA PASS; body revisions=0. No valid main draft is available for new Reader/Revision/QA or ready promotion; no chapter content changed and no platform publishing was performed. Open PR #5 is a stale recovery draft for chapter 0198, already present in ready, and remains untouched."
